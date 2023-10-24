@@ -5,6 +5,29 @@ The Gaudiya Kirtan app offers a comprehensive collection of over 700 bhajans fro
 - Solito = React Native (Expo) + Next.js
 - Tailwind CSS
 
+## Project Stracture
+```
+app/
+├── assets
+│   └── songs - where the jsons for the songs are stored
+│
+├── design - stuff like layout, tailwind, typeography, and view
+│
+├── features - screens like home, song, songList, settings, user, ect.
+│
+├── index.ts - the gate
+│
+├── interfaces - where schemes for data is stored
+│
+└── utils - overall tools used for theh app
+    ├── settings - stuff like math
+    │
+    ├── theme - color schemes and stuff like that
+    │
+    └── transliteration - stuff for trasliteration ex: begali --> english
+```
+
+
 ## 🔦 About
 
 This monorepo is a starter for an Expo + Next.js app using [NativeWind](https://nativewind.dev) for its styling & [Solito](https://solito.dev) for navigation.
