@@ -1,5 +1,5 @@
 // @ts-nocheck
-import Settings from "../settings/Settings";
+// import Settings from "../settings/Settings";
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // BEN-ROM TRANSLITERATION SECTION --
 // transliterate bengali song written in bangla to roman
@@ -213,10 +213,8 @@ function transRomRus(str){ return regexConvert(str, t_rom_rus) }
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-export default function transliterate(str, songLang, targetLang="user"){
+export default function transliterate(str, songLang, userLanguage, targetLang="user"){
   if (!str) return "";
-
-  const userLanguage = Settings.get().userLanguage;
 
   if (targetLang === "user") targetLang = userLanguage;
   if (targetLang === "ger") targetLang = "eng"

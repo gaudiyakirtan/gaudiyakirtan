@@ -1,12 +1,11 @@
-import { UserLanguage } from "../../interfaces/IUserLanguage";
+import { UserLanguage } from './../../interfaces/IUserLanguage';
 import transliterate from "./transliterator";
-import Settings from "../settings/Settings";
+// import Settings from "app/utils/settings/Settings";
 
-import Authors from "../../interfaces/Authors";
+import Authors from "../../interfaces/IAuthors";
 
 export default class DataTransform {
-  public static transformSongTitle(titleFrombackend: string, language: string): string {
-    const userLanguage = Settings.get().userLanguage;
+  public static transformSongTitle(titleFrombackend: string, language: string, userLanguage: string): string {
     if (!titleFrombackend) {
       return "Error parsing title :/";
     }
@@ -19,7 +18,7 @@ export default class DataTransform {
     const tl = ROMAN ? titleSplit.length - 1 : 0;
 
     let title = "";
-    title = transliterate(titleSplit[tl], language);
+    title = transliterate(titleSplit[tl], language, userLanguage);
     title = DataTransform.capitalizeWords(title);
 
     if (tl > 0 && !Number.isNaN(Number(titleSplit[0].substr(0, 4)))) {
@@ -33,8 +32,7 @@ export default class DataTransform {
     return title;
   }
 
-  public static transformAuthor(authorCodeFrombackend: string, language: string): string {
-    const userLanguage = Settings.get().userLanguage;
+  public static transformAuthor(authorCodeFrombackend: string, language: string, userLanguage: string): string {
     const authorName = Authors[authorCodeFrombackend] || authorCodeFrombackend;
 
     const authorSplit = authorName.split(" ~ ");
@@ -46,18 +44,18 @@ export default class DataTransform {
     const al = ROMAN ? authorSplit.length - 1 : 0;
 
     let author = "";
-    author = transliterate(authorSplit[al], language);
+    author = transliterate(authorSplit[al], language, userLanguage);
     author = DataTransform.capitalizeWords(author);
 
     return author;
   }
 
-  public static transformContent(content: string, language: string): string {
-    return transliterate(content, language).replace("@ ", "");
+  public static transformContent(content: string, language: string, userLanguage: string): string {
+    return transliterate(content, language, userLanguage).replace("@ ", "");
   }
 
-  public static transformMatha(titleOrFounder: string): string {
-    return DataTransform.capitalizeWords(transliterate(titleOrFounder, "ben"));
+  public static transformMatha(titleOrFounder: string, userLanguage: string): string {
+    return DataTransform.capitalizeWords(transliterate(titleOrFounder, "ben", userLanguage));
   }
 
   // https://stackoverflow.com/a/51874002/4951344
