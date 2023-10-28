@@ -1,5 +1,5 @@
 // @ts-nocheck
-// import Settings from "../settings/Settings";
+import Settings from "../settings/Settings";
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // BEN-ROM TRANSLITERATION SECTION --
 // transliterate bengali song written in bangla to roman

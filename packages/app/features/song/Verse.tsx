@@ -5,13 +5,13 @@ import ISong, {IVerse} from 'app/interfaces/ISong'
 import transliterate from 'app/utils/transliteration/transliterator'
 import { UserLanguage } from 'app/utils/settings/UserLanguage'
 
-function Verse({verse, songLanguage, userLanguage, hasSynonyms, key}: {verse: IVerse, songLanguage: string, userLanguage: string, hasSynonyms: boolean, key: string}) {
+function Verse({verse, songLanguage, userLanguage, hasSynonyms, index}: {verse: IVerse, songLanguage: string, userLanguage: string, hasSynonyms: boolean, index: string}) {
     let scriptLines = verse.lines.map((line, index) => line.map(word => `${word.w}${word.h}`).join(''))
     let userLanguageScriptLines = scriptLines.map(line => transliterate(line, songLanguage, userLanguage));
     let userLanguageWordForWord = formWordForWord({verse, songLanguage, userLanguage, hasSynonyms});
 
     return (
-        <View key={key}>
+        <View key={index}>
             {/* original script language */}
             {scriptLines.map((line, index) => <Text className='text-center' key={index}>{line}</Text> )}
 

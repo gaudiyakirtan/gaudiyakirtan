@@ -4,8 +4,7 @@ import transliterate from "./transliterator";
 
 import Authors from "../../interfaces/IAuthors";
 
-export default class DataTransform {
-  public static transformSongTitle(titleFrombackend: string, language: string, userLanguage: string): string {
+export function transformSongTitle(titleFrombackend: string, language: string, userLanguage: string): string {
     if (!titleFrombackend) {
       return "Error parsing title :/";
     }
@@ -19,7 +18,7 @@ export default class DataTransform {
 
     let title = "";
     title = transliterate(titleSplit[tl], language, userLanguage);
-    title = DataTransform.capitalizeWords(title);
+    title = capitalizeWords(title);
 
     if (tl > 0 && !Number.isNaN(Number(titleSplit[0].substr(0, 4)))) {
       title = titleSplit[0].substr(0, 4) + title;
@@ -32,7 +31,7 @@ export default class DataTransform {
     return title;
   }
 
-  public static transformAuthor(authorCodeFrombackend: string, language: string, userLanguage: string): string {
+export function transformAuthor(authorCodeFrombackend: string, language: string, userLanguage: string): string {
     const authorName = Authors[authorCodeFrombackend] || authorCodeFrombackend;
 
     const authorSplit = authorName.split(" ~ ");
@@ -45,26 +44,30 @@ export default class DataTransform {
 
     let author = "";
     author = transliterate(authorSplit[al], language, userLanguage);
-    author = DataTransform.capitalizeWords(author);
+    author = capitalizeWords(author);
 
     return author;
   }
 
-  public static transformContent(content: string, language: string, userLanguage: string): string {
+export function transformContent(content: string, language: string, userLanguage: string): string {
     return transliterate(content, language, userLanguage).replace("@ ", "");
   }
 
-  public static transformMatha(titleOrFounder: string, userLanguage: string): string {
-    return DataTransform.capitalizeWords(transliterate(titleOrFounder, "ben", userLanguage));
+export function transformMatha(titleOrFounder: string, userLanguage: string): string {
+    return capitalizeWords(transliterate(titleOrFounder, "ben", userLanguage));
   }
 
   // https://stackoverflow.com/a/51874002/4951344
-  public static deaccent(accentedStr: string): string {
+export function deaccent(accentedStr: string): string {
     return accentedStr.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   }
 
   // Don't use lodash.startCase() or CSS capitalize as they break words on special characters like hyphens
-  private static capitalizeWords(str: string): string {
+export function capitalizeWords(str: string): string {
     return str.replace(/(?:^|\s)\S/g, word => word.toUpperCase());
   }
+
+export const strip= (a: string) => {
+    const specialChars = /['"“()-\.‘]/g;
+    return a.replace(specialChars, "")
 }

@@ -3,50 +3,68 @@ import { Row } from 'app/design/layout'
 import { View } from 'app/design/view'
 
 import songList from 'app/assets/songs/_list.json'
+import {transformSongTitle, strip, deaccent } from 'app/utils/transliteration/DataTransform'
+import { SectionList, TouchableOpacity } from 'react-native'
+import { useState } from 'react'
+import { ScrollView } from 'moti'
+
+const userLanguage = 'eng';
 
 export function HomeScreen() {
-  return (
-    <View className="items-center justify-center flex-1 p-3">
-      {songList.map((song, idx) => <TextLink href={`/song/${song.uid}`} key={idx}>{song.title}</TextLink>)}
+  // sections is a map of first letter of song title to array of songs
+  const sections = new Map();
+  const [ref, setRef]= useState(null);
 
-      <H1>Welcome to Solito.</H1>
-      <View className="max-w-xl">
-        <P className="text-center">
-          Here is a basic starter to show you how you can navigate from one
-          screen to another. This screen uses the same code on Next.js and React
-          Native.
-        </P>
-        <P className="text-center">
-          Solito is made by{' '}
-          <A
-            href="https://twitter.com/fernandotherojo"
-            hrefAttrs={{
-              target: '_blank',
-              rel: 'noreferrer',
-            }}
-          >
-            Fernando Rojo
-          </A>
-          .
-        </P>
-        <P className="text-center">
-          NativeWind is made by{' '}
-          <A
-            href="https://twitter.com/mark__lawlor"
-            hrefAttrs={{
-              target: '_blank',
-              rel: 'noreferrer',
-            }}
-          >
-            Mark Lawlor
-          </A>
-          .
-        </P>
-      </View>
-      <View className="h-[32px]" />
-      <Row className="space-x-8">
-        <TextLink href="/user/fernando">Regular Link</TextLink>
-     </Row>
-    </View>
+  // addes song to sections map
+  songList.forEach((song, idx) => {
+    let s = {
+    transliteratedTitle: transformSongTitle(song.title, song.language, userLanguage),
+    songData: song,
+    }
+
+    let firstLetter = deaccent(strip(s.transliteratedTitle).charAt(0)).toUpperCase();
+    if (sections.hasOwnProperty(firstLetter)) {
+      sections[firstLetter].push(s);
+    } else {
+      sections[firstLetter] = [s];
+    }
+  });
+
+  // sorts sections by first letter
+  let sortedSections = Object.keys(sections)
+    .sort()
+    .map(
+      (letter, idx) => [letter, sections[letter].sort((a, b) => a.transliteratedTitle.localeCompare(b.transliteratedTitle))]);
+  
+  const scrollHandler = () => {
+    ref.scrollTo({
+      x: 0,
+      y: sortedSections.length-1,
+      animated: false,
+    });
+  };
+
+  return (
+    <ScrollView ref={(ref) => setRef(ref)}>
+
+      {sortedSections.map(([letter, song], idx) => (
+          // <TouchableOpacity key={idx} onPress={() => scrollToLetter(letter)}>
+            // <TextLink href={`#${letter}`} key={idx}>{letter}</TextLink>
+            <Text key={idx} onClick={()=>scrollHandler()}>{letter}</Text>
+            // <Text className='text-center' key={idx}>{letter}</Text>
+          // </TouchableOpacity>
+      ))}
+
+      {sortedSections.map(([letter, song], idx) => (
+        <View key={letter}>
+          <Text id={letter} className="text-center">{letter}</Text>
+          {song.map((songData, idx) => (
+            <TextLink className='text-center' href={`/song/${songData.songData.uid}`} key={idx}>
+              {songData.transliteratedTitle}
+            </TextLink>
+          ))}
+        </View>
+      ))}
+    </ScrollView>
   )
 }
