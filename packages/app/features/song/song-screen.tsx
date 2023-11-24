@@ -10,7 +10,7 @@ import requireSongList from 'app/assets/songs/_requireFile'
 
 const { useParam } = createParam<{ uid: string }>()
 
-const userLanguage = 'ger';
+const userLanguage = 'eng';
 
 export function SongScreen() {
   const [uid] = useParam('uid');
