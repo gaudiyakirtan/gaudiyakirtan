@@ -26,5 +26,9 @@
     "**/expo-router",
     "**/expo-router/**"
   ],
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.4.1",
+  "dependencies": {
+    "react-native-progress": "^5.0.1",
+    "react-native-svg": "^14.1.0"
+  }
 }
