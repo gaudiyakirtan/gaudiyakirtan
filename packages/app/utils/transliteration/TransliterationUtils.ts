@@ -1,5 +1,4 @@
-export default class TransliterationUtils {
-  public static unDiac(s: string): string {
+export function unDiac(s: string): string {
     // āḍḓẽḥīḷḹṁñṅṇõṛṝśṣṭūẏ
     return s
       .replace(/ã|ā̃|ā/g, "a")
@@ -22,12 +21,12 @@ export default class TransliterationUtils {
       .replace(/·/g, "");
   }
 
-  public static fuzzy(s: string): string {
+export function fuzzy(s: string): string {
     return (
       // guroh sri
       // guroḥsri
       // gurohsri
-      TransliterationUtils.unDiac(s.replace(/(ḥ|h\W|h$)/g, ""))
+      unDiac(s.replace(/(ḥ|h\W|h$)/g, ""))
         .replace(/\/|\\|-|!|,|\.|\(|\)|’|~|\?|‘/g, "") // unPunc
         .replace(/(.)\1/g, "$1") // deDble // thissis a doubble bubble wordd yes.
         .replace(/[0-9]/g, "")
@@ -45,15 +44,15 @@ export default class TransliterationUtils {
         .replace(/n(k|g|c|j|t|d)/g, "$1") // deNasal // kandiya kandiya ==> kadiya kadiya
         .replace(/\s/g, "") // we waited to remove the spaces cuz denasal was too strong! => emon gaur
 
-        .replace(/a|e|i|o|u/g, "") // deVowel
+        // .replace(/a|e|i|o|u/g, "") // deVowel
         .replace(/(.)\1/g, "$1") // deDble
-        .replace(/n$/, "") // terminal n won't get any results!
+        // .replace(/n$/, "") // terminal n won't get any results!
     );
   }
 
   // these are more search utils than transliteration utils
-  public static getScore(a: string, b: string): number {
-    const str1 = TransliterationUtils.unDiac(a) // entry
+export function getScore(a: string, b: string): number {
+    const str1 = unDiac(a) // entry
       .replace(/(\s|\W)/g, "")
       .replace(/v/g, "b")
       .replace(/r/g, "d")
@@ -61,7 +60,7 @@ export default class TransliterationUtils {
       .replace(/o/g, "a")
       .toLowerCase();
 
-    const str2 = TransliterationUtils.unDiac(b) // searchText
+    const str2 = unDiac(b) // searchText
       .replace(/(\s|\W)/g, "")
       .replace(/f/g, "ph")
       .replace(/w/g, "b")
@@ -72,8 +71,8 @@ export default class TransliterationUtils {
       .toLowerCase();
 
     if (str1.length > 0 && str2.length > 0) {
-      const pairs1 = TransliterationUtils.getBigrams(str1);
-      const pairs2 = TransliterationUtils.getBigrams(str2);
+      const pairs1 = getBigrams(str1);
+      const pairs2 = getBigrams(str2);
       const union = pairs1.length + pairs2.length;
       let hits = 0;
       for (let x = 0; x < pairs1.length; x++) {
@@ -91,7 +90,7 @@ export default class TransliterationUtils {
     return 0.0;
   }
 
-  private static getBigrams(string: string): Array<string> {
+export function getBigrams(string: string): Array<string> {
     const s = string.toLowerCase();
     const v = s.split("");
     for (let i = 0; i < v.length; i++) {
@@ -99,4 +98,3 @@ export default class TransliterationUtils {
     }
     return v;
   }
-}

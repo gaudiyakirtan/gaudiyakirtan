@@ -1,31 +1,33 @@
 import { Text } from 'app/design/typography'
 import { View } from 'app/design/view'
-import DataTransform from 'app/utils/transliteration/DataTransform'
 import ISong, {IVerse} from 'app/interfaces/ISong'
 import transliterate from 'app/utils/transliteration/transliterator'
 import { UserLanguage } from 'app/utils/settings/UserLanguage'
 
-function Verse({verse, songLanguage, userLanguage, hasSynonyms, index}: {verse: IVerse, songLanguage: string, userLanguage: string, hasSynonyms: boolean, index: string}) {
+function Verse({ verse, songLanguage, userLanguage, hasSynonyms, index }: { verse: IVerse, songLanguage: string, userLanguage: string, hasSynonyms: boolean, index: string }) {
     let scriptLines = verse.lines.map((line, index) => line.map(word => `${word.w}${word.h}`).join(''))
     let userLanguageScriptLines = scriptLines.map(line => transliterate(line, songLanguage, userLanguage));
-    let userLanguageWordForWord = formWordForWord({verse, songLanguage, userLanguage, hasSynonyms});
+    let userLanguageWordForWord = formWordForWord({ verse, songLanguage, userLanguage, hasSynonyms });
 
     return (
-        <View key={index}>
+      <View key={index} className="w-full max-w-4xl p-4 m-3 mx-auto rounded-lg shadow-md bg-zinc-800">
             {/* original script language */}
-            {scriptLines.map((line, index) => <Text className='text-center' key={index}>{line}</Text> )}
+            {scriptLines.map((line, index) => <Text className='mb-2 text-sm text-center text-zinc-500' key={index}>{line}</Text>)}
 
             {/* user language script*/}
-            {userLanguageScriptLines.map((line, index) => <Text className='text-center' key={index}>{line}</Text> )}
+            {userLanguageScriptLines.map((line, index) => <Text className='mb-2 text-lg text-center text-sky-500' key={index}>{line}</Text>)}
 
             {/* word-to-word */}
-            {userLanguageWordForWord}
+            <View className="mb-4">
+                {userLanguageWordForWord}
+            </View>
 
             {/* translation */}
-            <Text className='text-center'>{verse.translation[userLanguage]}</Text>
+            <Text className='text-lg text-center text-gray-400'>{verse.translation[userLanguage]}</Text>
         </View>
     )
 }
+
 
 // const formOriginalScript = (): JSX.Element {
 //     const theme = Theme.getCurrentTheme();
@@ -96,7 +98,7 @@ function formWordForWord({verse, songLanguage, userLanguage, hasSynonyms}) {
     verse.lines.forEach((line, lineIndex) => {
       wordForWordJSX.push(
         // <Text fontsize={this.fontsize - 2} key={`l${lineIndex}`}>
-        <Text key={`l${lineIndex}`}>
+        <Text key={`l${lineIndex}`} className='text-gray-400'>
           {`${`${lineIndex + 1}`
             .split("")
             .map(c => {
@@ -128,14 +130,14 @@ function formWordForWord({verse, songLanguage, userLanguage, hasSynonyms}) {
         ) {
           wordForWordJSX.push(
             // <Text color={wordTextColor} fontSize={this.fontSize - 2} key={`w${lineIndex}${i}`}>
-            <Text  key={`w${lineIndex}${i}`}>
+            <Text  key={`w${lineIndex}${i}`} className='text-sky-500'>
               {`${carry.trim()}${transliterate(word.w + lookAhead, songLanguage, userLanguage)} — `}
             </Text>
           );
           carry = "";
           wordForWordJSX.push(
             // <Text color={meaningTextColor} fontSize={this.fontSize - 2} key={`s${lineIndex}${i}`}>
-            <Text  key={`s${lineIndex}${i}`}>
+            <Text  key={`s${lineIndex}${i}`} className='text-gray-400'>
               {`${word.s[userLanguage]};  `}
             </Text>
           );

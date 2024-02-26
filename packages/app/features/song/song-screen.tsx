@@ -24,9 +24,9 @@ export function SongScreen() {
 
 
   return (
-    <View className="items-center justify-center flex-1">
-      <Text className="mt-4 text-center">{title}</Text>
-      <Text className="mt-4 text-center">{author}</Text>
+    <View className="items-center justify-center flex-1 bg-zinc-900">
+      <Text className="mt-4 text-3xl text-center text-sky-500">{title}</Text>
+      <Text className="mt-4 text-lg text-center text-zinc-400">{author}</Text>
 
       <View className="mt-4 text-center">
         {song.verses.map((v: IVerse, index) => (
