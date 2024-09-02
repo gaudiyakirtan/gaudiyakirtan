@@ -6,7 +6,7 @@ Welcome to the Gaudiya Kirtan repository! This project is a cross-platform appli
 
 ## Preview
 
-<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 5px;">
   <div>
     <img src="./assets/readme/desktop.png" alt="Desktop Preview" width="400">
     <p><strong>Desktop Version</strong></p>
