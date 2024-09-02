@@ -17,26 +17,30 @@ interface ISongListItem {
 
 const SongListItem = ({ title, author, uid, audio, tags }: ISongListItem) => {
   return (
-    <View className="bg-shyam-background-offset flex h-14 w-full flex-row items-center px-2.5 rounded-xl">
-      <View className="flex-none">
-        <View className="flex flex-row gap-1">
-          <Text className="text-sm text-shyam-primary">{title}</Text>
-          <View className="bg-shyam-neutral/25 rounded-xl px-2.5">
-            <Text className="text-shyam-neutral m-auto text-[10px] uppercase font-medium">
+    <View className="bg-shyam-background-offset flex h-14 w-full flex-row items-center rounded-xl px-2.5">
+      <View className="flex-1 min-w-0">
+        <View className="flex flex-row items-center w-full gap-1">
+          <Text className="text-sm truncate flex-inital text-shyam-primary">
+            {title}
+          </Text>
+          <View className="bg-shyam-neutral/25 flex-shrink-0 rounded-xl px-2.5 py-0.5">
+            <Text className="text-shyam-neutral text-[10px] font-medium uppercase m-auto">
               {uid}
             </Text>
           </View>
         </View>
-        <View className="flex flex-row gap-1">
-          <Text className="text-sm text-shyam-neutral">{author}</Text>
-          <Music size={12} className="my-auto text-shyam-neutral" />
+        <View className="flex flex-row items-center gap-1">
+          <Text className="text-sm truncate text-shyam-neutral">
+            {author}
+          </Text>
+          <Music size={12} className="flex-none text-shyam-neutral" />
         </View>
       </View>
-      <View className="flex-row-reverse flex-1 gap-1.5 overflow-hidden sm:flex hidden">
-        {tags.map((tag, index) => (
+      <View className="ml-2 hidden flex-shrink-0 flex-row-reverse gap-1.5 overflow-hidden sm:flex">
+        {tags.reverse().map((tag, index) => (
           <View
             key={index}
-            className="px-2.5 py-1 rounded-[10px] bg-shyam-neutral/25"
+            className="bg-shyam-neutral/25 rounded-[10px] px-2.5 py-1"
           >
             <Text className="text-xs text-shyam-neutral">{tag}</Text>
           </View>
@@ -83,8 +87,11 @@ const AuthorListItem = ({ author, image }: { author: string, image: string }) =>
         <Image source={{ uri: image }} style={{ width: 56, height: 56 }} />
       </View>
       <View className="flex-1">
-        {/* TODO: Text Ellipsis is not working */}
-        <Text className="text-base leading-5 text-shyam-primary text-ellipsis">
+        <Text
+          className="text-base leading-5 text-shyam-primary"
+          numberOfLines={3}
+          ellipsizeMode="tail"
+        >
           {author}
         </Text>
       </View>
@@ -108,16 +115,16 @@ const BookListItem = ({ title, author, image }: { title: string, author?: string
         backgroundImage: `
           linear-gradient(90deg, #191919 0%, rgba(25, 25, 25, 0) 2.58%, rgba(25, 25, 25, 0.5) 5.15%, rgba(25, 25, 25, 0) 8%, rgba(25, 25, 25, 0) 100%),
           linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%),
-          linear-gradient(color-mix(in srgb, ${color} 70%, transparent 100%), color-mix(in srgb, ${color} 70%, transparent 100%)),
+          linear-gradient(color-mix(in srgb, ${color} 100%, transparent 100%), ${color}),
           url(${image})`,
         backgroundBlendMode: 'overlay, normal, normal, normal',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
-        // boxShadow: '0 0 5px -1px black, inset -1px 1px 2px rgba(255, 255, 255, 1)',
+        // boxShadow: '0 0 5px -1px black, inset -1px 1px 2px rgba(255, 255, 255, 1)', // Most compoents are flat so this looks out of place bc of the shadow (3d effect)
       }}
       className="flex flex-col justify-end h-48 gap-1 pb-6 pl-6 rounded-md w-36"
     >
-      <View>
+      <View className='gap-1'>
         <Text className="text-lg font-black leading-5 text-shyam-primary">
           {title}
         </Text>
@@ -134,7 +141,7 @@ export function HomeScreen() {
     <View className="items-center justify-center flex-1 p-3">
       <View className="w-full space-y-5">
         <SongListItem
-          title="Sri Gurvaṣṭakam"
+          title="Sri Gurvaṣṭakam Sri Gurvaṣṭakam Sri Gurvaṣṭakam"
           author="Visvanatha Cakravarti Thakura"
           uid="n9"
           tags={['Hare', 'Krishna', 'Bhaktivinoda', 'Thakura']}
@@ -147,7 +154,7 @@ export function HomeScreen() {
         <BookListItem
           title="Sri Caitanya Caritamrita"
           author="Krishnadasa Kaviraja Goswami"
-          // image="https://krsnakatha.com/img/guru-parampara/Krishnadasa-Kaviraja-Goswami.jpg"
+          image="https://krsnakatha.com/img/guru-parampara/Krishnadasa-Kaviraja-Goswami.jpg"
         />
       </View>
       <H1>Welcome to Solito.</H1>
