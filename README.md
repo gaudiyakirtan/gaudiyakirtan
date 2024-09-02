@@ -1,4 +1,4 @@
-# ![Gaudiya Kirtan Logo](./assets/readme/logo.png)
+# <img src="./assets/readme/logo.png" alt="Gaudiya Kirtan Logo" width="150">
 
 ## Gaudiya Kirtan
 
@@ -6,11 +6,16 @@ Welcome to the Gaudiya Kirtan repository! This project is a cross-platform appli
 
 ## Preview
 
-### Desktop Version
-![Desktop Preview](./assets/readme/desktop.png)
-
-### Mobile Version
-![Mobile Preview](./assets/readme/app.png)
+<div align="center" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px;">
+  <div>
+    <img src="./assets/readme/desktop.png" alt="Desktop Preview" width="400">
+    <p><strong>Desktop Version</strong></p>
+  </div>
+  <div>
+    <img src="./assets/readme/app.png" alt="Mobile Preview" width="200">
+    <p><strong>Mobile Version</strong></p>
+  </div>
+</div>
 
 ## Coming Soon!
 
@@ -22,9 +27,9 @@ You can download the current version of the Gaudiya Kirtan app from the Google P
 
 <div align="center">
   <a href="https://play.google.com/store/apps/details?id=com.gaudiyakirtan.gkapp" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/readme/googleplay.png" alt="Google Play" height="50">
+    <img src="./assets/readme/googleplay.png" alt="Google Play" height="40">
   </a>
   <a href="https://apps.apple.com/us/app/gaudiya-kirtan/id1502107221" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/appstore.png" alt="App Store" height="50">
+    <img src="./assets/readme/appstore.png" alt="App Store" height="40">
   </a>
 </div>
