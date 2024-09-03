@@ -5,7 +5,7 @@ module.exports = function (api) {
     plugins: [
       'react-native-reanimated/plugin',
       'nativewind/babel',
-      'expo-router/babel',
+      // 'expo-router/babel', // Removed -- expo-router/babel is deprecated in favor of babel-preset-expo in SDK 50. To fix the issue, remove "expo-router/babel" from "plugins" in your babel.config.js file
     ],
   }
 }
