@@ -152,9 +152,9 @@ export function HomeScreen() {
           image="https://premadharma.org/wp-content/uploads/2017/01/Srila-Bhakti-Vinod-Thakur-1.jpg"
         />
         <BookListItem
-          title="Sri Caitanya Caritamrita"
-          author="Krishnadasa Kaviraja Goswami"
-          image="https://krsnakatha.com/img/guru-parampara/Krishnadasa-Kaviraja-Goswami.jpg"
+          title="Gitavali"
+          author="Śrīla Bhaktivinoda Thakura"
+          image="https://swamitripurari.com/wp-content/uploads/2011/01/nama-dharma.jpg"
         />
       </View>
       <H1>Welcome to Solito.</H1>
