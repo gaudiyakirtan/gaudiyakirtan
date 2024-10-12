@@ -23,12 +23,6 @@ Solito (Expo + Next.js)
 
 You can download the current version of the Gaudiya Kirtan app from the Google Play Store or the Apple App Store:
 
-<div align="center">
-  <a href="https://play.google.com/store/apps/details?id=com.gaudiyakirtan.gkapp" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/readme/googleplay.png" alt="Google Play" height="40">
-  </a>
+[Download on Google Play](https://play.google.com/store/apps/details?id=com.gaudiyakirtan.gkapp)
 
-  <a href="https://apps.apple.com/us/app/gaudiya-kirtan/id1502107221" target="_blank" rel="noopener noreferrer">
-    <img src="./assets/readme/appstore.png" alt="App Store" height="40">
-  </a>
-</div>
+[Download on the App Store](https://apps.apple.com/us/app/gaudiya-kirtan/id1502107221)
