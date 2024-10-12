@@ -4,7 +4,7 @@ import { Provider } from 'app/provider'
 export default function App() {
   return (
     <Provider>
-      <NativeNavigation />
+        <NativeNavigation />
     </Provider>
   )
 }
