@@ -3,15 +3,16 @@ import { View } from 'app/design/view'
 import { ImageBackground, StyleSheet } from 'react-native'
 import { LinearGradient } from 'expo-linear-gradient'
 import { getMediaColor } from 'app/tools/colors'
+import { styled } from 'nativewind'
 
 // BookListItem.tsx
-interface BookListItemProps {
+interface IBookListItem {
   title: string
   author?: string
   image?: string
 }
 
-const BookListItem: React.FC<BookListItemProps> = ({
+const _BookListItem: React.FC<IBookListItem> = ({
   title,
   author,
   image,
@@ -106,4 +107,5 @@ const styles = StyleSheet.create({
   },
 })
 
-export default BookListItem
+export const BookListItem = styled(_BookListItem);
+export type { IBookListItem };

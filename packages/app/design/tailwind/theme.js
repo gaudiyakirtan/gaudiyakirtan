@@ -12,8 +12,8 @@ const theme = {
         highlight: '#8CB4FF',
       },
       gaur: {
-        background: '#F4DCBB',
-        'background-offset': '#F5E4D0',
+        'background-offset': '#F4DCBB',
+        'background': '#FFF4E8',
         neutral: '#6E6E6E',
         primary: '#1A1A1A',
         highlight: '#F09001',

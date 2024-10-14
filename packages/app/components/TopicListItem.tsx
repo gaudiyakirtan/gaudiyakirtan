@@ -1,8 +1,13 @@
 import { Text } from 'app/design/typography'
 import { View } from 'app/design/view'
 import { getMediaColor } from 'app/tools/colors'
+import { styled } from 'nativewind'
 
-const TopicListItem = ({ topic }: { topic: string }) => {
+interface ITopicListItem {
+  topic: string
+}
+
+const _TopicListItem = ({ topic }: ITopicListItem) => {
   const color = getMediaColor(topic) || '#FFFFFF' // default to white if color is invalid
   return (
     <View
@@ -16,4 +21,5 @@ const TopicListItem = ({ topic }: { topic: string }) => {
   )
 }
 
-export default TopicListItem
+export const TopicListItem = styled(_TopicListItem);
+export type { ITopicListItem };
