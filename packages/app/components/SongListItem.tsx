@@ -6,6 +6,8 @@ import { styled } from 'nativewind'
 // TODO: Add lucide-react-native
 // gluestack has it working so it should be easy to add it to the monorepo (https://github.com/gluestack/solito-head-starter-kit/blob/c24d348725b24a1e3b6bc59dff2a7b381b4642d1/apps/next/next.config.js#L6)
 
+// TODO: Add rigth arrows to author/songs/books page
+
 // SongListItem.tsx
 interface ISongListItem {
   title: string

@@ -6,6 +6,9 @@
   </a>
   <br>
   <br>
+  <a href="https://gaudiyakirtan.com/">
+    <img src="/assets/system-design.png" alt="gk system design" >
+  </a>
 </h3>
 
 
