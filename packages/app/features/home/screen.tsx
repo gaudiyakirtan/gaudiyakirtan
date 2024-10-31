@@ -1,4 +1,5 @@
 import { A, H1, P, Text, TextLink } from 'app/design/typography'
+import { MotiLink } from 'solito/moti'
 import { Row } from 'app/design/layout'
 import { View } from 'app/design/view'
 import { ScreenScrollView } from 'app/features/ScreenScrollView'
@@ -7,6 +8,9 @@ import { AuthorListItem, IAuthorListItem } from 'app/components/AuthorListItem'
 import { TopicListItem, ITopicListItem } from 'app/components/TopicListItem'
 import { BookListItem, IBookListItem } from 'app/components/BookListItem'
 import { ScrollView } from 'react-native'
+
+// TODO: Remove tmp
+import { SongScreen } from 'app/features/song/screen'
 
 // Data
 const _songs = [
@@ -93,15 +97,15 @@ const _authors = [
 
 const _topics = [
   {
-    topic: 'Sri Guru'
+    topic: 'Sri Guru',
   },
   {
-    topic: 'Vaisnavas'
+    topic: 'Vaisnavas',
   },
   {
-    topic: "Sri Gadadhara"
-  }
-];
+    topic: 'Sri Gadadhara',
+  },
+]
 
 const _books = [
   {
@@ -130,16 +134,21 @@ const _books = [
   },
 ]
 
-
 interface IHomeScreen {
-  recent_songs?: ISongListItem[];
-  authors: IAuthorListItem[];
-  topics: ITopicListItem[];
-  books: IBookListItem[];
-  trending?: ISongListItem[];
+  recent_songs?: ISongListItem[]
+  authors: IAuthorListItem[]
+  topics: ITopicListItem[]
+  books: IBookListItem[]
+  trending?: ISongListItem[]
 }
 
-export function HomeScreen({ recent_songs = _songs, authors = _authors, topics = _topics, books = _books, trending = _songs }: IHomeScreen) {
+export function HomeScreen({
+  recent_songs = _songs,
+  authors = _authors,
+  topics = _topics,
+  books = _books,
+  trending = _songs,
+}: IHomeScreen) {
   return (
     <ScreenScrollView useWindowScrolling={true}>
       {/* TODO: Look into why gaur-backgorund is different color and not fff4e8 */}
@@ -217,10 +226,7 @@ export function HomeScreen({ recent_songs = _songs, authors = _authors, topics =
             Trending
           </Text>
           {recent_songs.splice(0, 4).map((song, index) => (
-            <View
-              className='mb-2'
-              key={index}
-            >
+            <View className="mb-2" key={index}>
               <SongListItem
                 title={song.title}
                 author={song.author}
@@ -230,6 +236,7 @@ export function HomeScreen({ recent_songs = _songs, authors = _authors, topics =
             </View>
           ))}
         </View>
+        <SongScreen uid="l31" tags={[]} />
       </View>
     </ScreenScrollView>
   )

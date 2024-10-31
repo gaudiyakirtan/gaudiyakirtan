@@ -5,9 +5,11 @@ import { styled } from 'nativewind'
 
 interface ITopicListItem {
   topic: string
+  slug?: string
+  uid?: string
 }
 
-const _TopicListItem = ({ topic }: ITopicListItem) => {
+const _TopicListItem = ({ topic, slug, uid }: ITopicListItem) => {
   const color = getMediaColor(topic) || '#FFFFFF' // default to white if color is invalid
   return (
     <View

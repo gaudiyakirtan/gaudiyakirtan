@@ -9,12 +9,16 @@ import { styled } from 'nativewind'
 interface IBookListItem {
   title: string
   author?: string
+  slug: string
   image?: string
+  uid: string
 }
 
 const _BookListItem: React.FC<IBookListItem> = ({
   title,
   author,
+  slug,
+  uid,
   image,
 }) => {
   const color = getMediaColor(title)
