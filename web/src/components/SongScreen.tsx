@@ -24,18 +24,18 @@ export const SongScreen: React.FC<SongScreenProps> = ({
     <div className="w-full max-w-screen-md mx-auto pt-4 pb-20">
       {/* Song Header */}
       <div className="px-4 mb-6">
-        <h1 className="text-2xl font-bold text-gaur-primary dark:text-shyam-primary mb-2">
+        <h1 className="text-2xl font-bold text-[var(--primary)] mb-2">
           {title}
         </h1>
         
         <div className="flex items-center justify-between">
-          <p className="text-base text-gaur-secondary dark:text-shyam-secondary">
+          <p className="text-base text-[var(--secondary)]">
             {author}
           </p>
           
           {/* Audio badge */}
           {song.audio && (
-            <div className="bg-gaur-accent/10 dark:bg-shyam-accent/20 text-gaur-accent dark:text-shyam-accent px-3 py-1 rounded-full text-xs font-medium flex items-center">
+            <div className="bg-[var(--accent)] bg-opacity-15 text-[var(--accent)] px-3 py-1 rounded-full text-xs font-medium flex items-center">
               <span className="mr-1">🎵</span> Audio
             </div>
           )}
@@ -47,7 +47,7 @@ export const SongScreen: React.FC<SongScreenProps> = ({
             {song.tags.map((tag, index) => (
               <span 
                 key={`tag-${index}`} 
-                className="bg-gaur-background-offset dark:bg-shyam-background-offset text-gaur-tertiary dark:text-shyam-tertiary px-3 py-1 rounded-full text-xs"
+                className="bg-[var(--background-offset)] text-[var(--tertiary)] px-3 py-1 rounded-full text-xs"
               >
                 {tag}
               </span>
@@ -57,7 +57,7 @@ export const SongScreen: React.FC<SongScreenProps> = ({
       </div>
       
       {/* Divider */}
-      <div className="h-px bg-gaur-border dark:bg-shyam-border mb-6"></div>
+      <div className="h-px bg-[var(--border)] mb-6"></div>
       
       {/* Verses */}
       <div>

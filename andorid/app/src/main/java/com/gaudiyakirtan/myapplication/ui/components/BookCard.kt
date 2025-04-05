@@ -21,13 +21,15 @@ fun BookCard(book: Book) {
             .height(192.dp)
             .clip(MaterialTheme.shapes.medium)
     ) {
-        // Background color instead of image
-        Surface(
-            color = getMediaColor(book.title),
-            modifier = Modifier.fillMaxSize()
-        ) { }
-        
-        // We're not using AsyncImage for now since we don't have proper image resources
+        // Background Image
+        book.image?.let {
+            AsyncImage(
+                model = it,
+                contentDescription = book.title,
+                contentScale = ContentScale.Crop,
+                modifier = Modifier.fillMaxSize()
+            )
+        }
 
         // Gradients
         Box(

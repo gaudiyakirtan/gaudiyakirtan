@@ -2,7 +2,8 @@ package com.gaudiyakirtan.myapplication.ui.components
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.MusicNote
+//import androidx.compose.material.icons.filled.MusicNote
+import androidx.compose.material.icons.filled.Build
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -58,7 +59,7 @@ fun SongCard(
                     )
                     if (song.audio) {
                         Icon(
-                            Icons.Default.MusicNote,
+                            Icons.Default.Build,
                             contentDescription = "Has Audio",
                             modifier = Modifier.size(12.dp)
                         )

@@ -113,5 +113,6 @@ Maintain and update a cross-reference document that maps equivalent components, 
 - **TODOs**: Track in code comments (run todo.sh to list all TODOs)
 
 ## Structure
-- Monorepo with shared code in packages/, platform-specific in apps/
+- Organized by platform directories for iOS, Android, and Web
 - Follow existing patterns for new components and features
+- Note: The solito directory was only for reference and has been removed from the active codebase

@@ -17,7 +17,7 @@ export const TopicsSection: React.FC<TopicsSectionProps> = ({
 
   return (
     <div className="mb-8">
-      <h2 className="text-xl font-bold text-gaur-primary dark:text-shyam-primary mb-4 px-4">{title}</h2>
+      <h2 className="text-xl font-bold text-[var(--primary)] mb-4 px-4">{title}</h2>
       <div className="flex overflow-x-auto pb-4 no-scrollbar">
         <div className="pl-4"></div>
         {topics.map((topic, index) => (

@@ -111,7 +111,7 @@ export const sampleSongs: IExtendedSong[] = [
       { author: 'Narottama Dasa Thakura', language: 'en' },
       { author: 'নরোত্তম দাস ঠাকুর', language: 'bn' }
     ],
-    uid: 'guru-vandana',
+    uid: 'N3',
     tags: ['prayer', 'guru'],
     topics: [
       { topic: 'Guru Vandana', language: 'en' },
@@ -170,7 +170,7 @@ export const sampleSongs: IExtendedSong[] = [
       { author: 'Bhaktivinoda Thakura', language: 'en' },
       { author: 'ভক্তিবিনোদ ঠাকুর', language: 'bn' }
     ],
-    uid: 'saranagati',
+    uid: 'S1',
     tags: ['surrender', 'prayer'],
     topics: [
       { topic: 'Prayers', language: 'en' },
@@ -227,7 +227,7 @@ export const sampleSongs: IExtendedSong[] = [
       { author: 'Locana Dasa Thakura', language: 'en' },
       { author: 'লোচন দাস ঠাকুর', language: 'bn' }
     ],
-    uid: 'sri-krishna-caitanya',
+    uid: 'E4',
     tags: ['mahaprabhu', 'prayer'],
     topics: [
       { topic: 'Gaura-lila', language: 'en' },
@@ -286,7 +286,7 @@ export const sampleSongs: IExtendedSong[] = [
       { author: 'Bhaktivedanta Swami Prabhupada', language: 'en' },
       { author: 'ভক্তিবেদান্ত স্বামী প্রভুপাদ', language: 'bn' }
     ],
-    uid: 'jaya-radha-madhava',
+    uid: 'SQ2',
     tags: ['radha-krishna', 'prayer'],
     topics: [
       { topic: 'Radha-Krishna', language: 'en' },

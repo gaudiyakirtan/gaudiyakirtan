@@ -5,29 +5,12 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.automirrored.filled.LibraryBooks
-import androidx.compose.material.icons.filled.Search
-import androidx.compose.material.icons.outlined.Home
-import androidx.compose.material.icons.automirrored.outlined.LibraryBooks
-import androidx.compose.material.icons.outlined.Search
-import androidx.compose.material.icons.outlined.Storage
-import androidx.compose.material.icons.filled.Storage
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.vector.ImageVector
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.gaudiyakirtan.myapplication.ui.sections.SongsSection
@@ -153,198 +136,58 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             MyApplicationTheme {
-                GaudiyaKirtanApp(
-                    songs = songs,
-                    authors = authors,
-                    topics = topics,
-                    books = books,
-                    verses = verses
-                )
+                Column(
+                    modifier = Modifier
+                ) {
+                    SongsSection(songs = songs)
+                    AuthorsSection(authors = authors)
+                    TopicsSection(topics = topics)
+                    BooksSection(books = books)
+                    Column() {
+                        Text(
+                            text = "Akrodha Paramānanda",
+                            style = MaterialTheme.typography.headlineMedium,
+                            color = MaterialTheme.colorScheme.primary
+                        )
+
+                        Text(
+                            text = "Śrīla Locana Dāsa Ṭhākura",
+                            style = MaterialTheme.typography.titleMedium
+                        )
+
+                        Surface(
+                            color = MaterialTheme.colorScheme.surfaceVariant,
+                            shape = MaterialTheme.shapes.small
+                        ) {
+                            Text(
+                                text = "N9",
+                                style = MaterialTheme.typography.labelSmall,
+                                modifier = Modifier.padding(horizontal = 10.dp, vertical = 2.dp)
+                            )
+                        }
+
+                        verses.forEach { verse ->
+                            VerseView(verse = verse)
+                        }
+                    }
+                }
             }
         }
     }
-}
-
-enum class BottomNavItem(
-    val title: String,
-    val selectedIcon: ImageVector,
-    val unselectedIcon: ImageVector
-) {
-    HOME("Home", Icons.Filled.Home, Icons.Outlined.Home),
-    LIBRARY("Library", Icons.AutoMirrored.Filled.LibraryBooks, Icons.AutoMirrored.Outlined.LibraryBooks),
-    COLLECTION("Collection", Icons.Filled.Storage, Icons.Outlined.Storage),
-    SEARCH("Search", Icons.Filled.Search, Icons.Outlined.Search)
 }
 
 @Composable
-fun GaudiyaKirtanApp(
-    songs: List<Song>,
-    authors: List<Author>,
-    topics: List<Topic>,
-    books: List<Book>,
-    verses: List<Verse>
-) {
-    var selectedTab by remember { mutableStateOf(BottomNavItem.HOME) }
-    
-    Scaffold(
-        bottomBar = {
-            NavigationBar {
-                BottomNavItem.values().forEach { item ->
-                    NavigationBarItem(
-                        selected = selectedTab == item,
-                        onClick = { selectedTab = item },
-                        icon = { 
-                            Icon(
-                                imageVector = if (selectedTab == item) item.selectedIcon else item.unselectedIcon,
-                                contentDescription = item.title
-                            ) 
-                        },
-                        label = { Text(text = item.title) }
-                    )
-                }
-            }
-        }
-    ) { paddingValues ->
-        when (selectedTab) {
-            BottomNavItem.HOME -> {
-                Column(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .padding(paddingValues)
-                        .verticalScroll(rememberScrollState())
-                ) {
-                    // Home screen content with spacing
-                    Text(
-                        text = "Topics",
-                        style = MaterialTheme.typography.titleLarge,
-                        modifier = Modifier.padding(16.dp, 16.dp, 16.dp, 8.dp)
-                    )
-                    TopicsSection(topics = topics)
-                    
-                    Spacer(modifier = Modifier.height(24.dp))
-                    
-                    Text(
-                        text = "Authors",
-                        style = MaterialTheme.typography.titleLarge,
-                        modifier = Modifier.padding(16.dp, 16.dp, 16.dp, 8.dp)
-                    )
-                    AuthorsSection(authors = authors)
-                    
-                    Spacer(modifier = Modifier.height(24.dp))
-                    
-                    Text(
-                        text = "Books",
-                        style = MaterialTheme.typography.titleLarge,
-                        modifier = Modifier.padding(16.dp, 16.dp, 16.dp, 8.dp)
-                    )
-                    BooksSection(books = books)
-                    
-                    Spacer(modifier = Modifier.height(24.dp))
-                    
-                    Text(
-                        text = "Songs",
-                        style = MaterialTheme.typography.titleLarge,
-                        modifier = Modifier.padding(16.dp, 16.dp, 16.dp, 8.dp)
-                    )
-                    SongsSection(songs = songs)
-                    
-                    Spacer(modifier = Modifier.height(80.dp)) // Extra space at bottom
-                }
-            }
-            BottomNavItem.LIBRARY -> {
-                Column(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .padding(paddingValues)
-                ) {
-                    Text(
-                        text = "Library Screen",
-                        style = MaterialTheme.typography.headlineMedium,
-                        modifier = Modifier.padding(16.dp)
-                    )
-                    // Library screen content will go here
-                }
-            }
-            BottomNavItem.COLLECTION -> {
-                Column(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .padding(paddingValues)
-                ) {
-                    Text(
-                        text = "Collection Screen",
-                        style = MaterialTheme.typography.headlineMedium,
-                        modifier = Modifier.padding(16.dp)
-                    )
-                    // Collection screen content will go here
-                }
-            }
-            BottomNavItem.SEARCH -> {
-                Column(
-                    modifier = Modifier
-                        .fillMaxSize()
-                        .padding(paddingValues)
-                ) {
-                    Text(
-                        text = "Search Screen",
-                        style = MaterialTheme.typography.headlineMedium,
-                        modifier = Modifier.padding(16.dp)
-                    )
-                    // Search screen content will go here
-                }
-            }
-        }
-    }
+fun Greeting(name: String, modifier: Modifier = Modifier) {
+    Text(
+        text = "Hello $name!",
+        modifier = modifier
+    )
 }
 
 @Preview(showBackground = true)
 @Composable
-fun GaudiyaKirtanAppPreview() {
-    val songs = listOf(
-        Song(
-            title = "Akrodha Paramānanda",
-            author = "Śrīla Locana Dāsa Ṭhākura",
-            uid = "N9",
-            audio = true,
-            tags = listOf("Nityananda", "Bhakti", "Mercy")
-        )
-    )
-    
-    val authors = listOf(
-        Author(name = "Śrīla Locana Dāsa Ṭhākura", image = "locana_das")
-    )
-    
-    val topics = listOf(
-        Topic(name = "Sri Guru")
-    )
-    
-    val books = listOf(
-        Book(
-            title = "Gītāvalī",
-            author = "Bhaktivinoda Ṭhākura",
-            slug = "gitavali",
-            uid = "BVT001",
-            image = ""
-        )
-    )
-    
-    val verses = listOf(
-        Verse(
-            language = "bengali",
-            original = listOf("akrodha paramānanda"),
-            transliterations = listOf(),
-            wordToWords = listOf(),
-            translations = listOf()
-        )
-    )
-    
+fun GreetingPreview() {
     MyApplicationTheme {
-        GaudiyaKirtanApp(
-            songs = songs,
-            authors = authors,
-            topics = topics,
-            books = books,
-            verses = verses
-        )
+        Greeting("Android")
     }
 }

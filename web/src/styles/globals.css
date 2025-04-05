@@ -25,6 +25,10 @@ a {
   background-color: var(--background-offset);
 }
 
+.bg-offset-custom {
+  background-color: var(--background-offset) !important;
+}
+
 .text-highlight {
   color: var(--highlight);
 }

@@ -47,35 +47,33 @@ export const SongListItem: React.FC<ISongListItemProps> = ({
 
   return (
     <div
-      className="bg-background-offset flex h-14 w-full flex-row items-center rounded-xl px-2.5 cursor-pointer hover:bg-border"
+      // className="bg-[var(--background-offset)] flex h-14 w-full flex-row items-center rounded-xl px-2.5 cursor-pointer hover:opacity-50"
+      className="flex h-14 w-full flex-row items-center rounded-xl px-2.5 cursor-pointer hover:bg-[var(--background-offset)]"
       onClick={onClick}
     >
       <div className="flex-1 min-w-0">
         <div className="flex flex-row items-center w-full">
           <span
-            className="mr-1.5 text-sm text-primary whitespace-nowrap overflow-hidden text-ellipsis"
+            className="mr-1.5 text-sm text-[var(--primary)] whitespace-nowrap overflow-hidden text-ellipsis"
             style={{ maxWidth: "70%" }}
           >
             {displayTitle}
           </span>
-          <div className="bg-neutral/25 flex-shrink-0 rounded-xl px-2.5 py-0.5">
-            <span className="text-neutral text-[10px] font-medium uppercase m-auto">
+          <div className="flex-shrink-0 rounded-xl px-2.5 py-0.5 bg-[var(--neutral)]/20 mr-auto flex items-center">
+            <span className="text-[var(--neutral)] text-[10px] font-medium uppercase">
               {uid}
             </span>
           </div>
         </div>
         <div className="flex flex-row items-center">
           <span
-            className="text-sm text-neutral mr-1.5 whitespace-nowrap overflow-hidden text-ellipsis"
+            className="text-sm text-[var(--neutral)] mr-1.5 whitespace-nowrap overflow-hidden text-ellipsis"
             style={{ maxWidth: "85%" }}
           >
             {displayAuthor}
           </span>
           {audio && (
-            <MusicNote
-              size={12}
-              className="flex-none text-neutral"
-            />
+            <MusicNote size={12} className="flex-none text-[var(--neutral)]" />
           )}
         </div>
       </div>
@@ -83,11 +81,9 @@ export const SongListItem: React.FC<ISongListItemProps> = ({
         {[...tags].reverse().map((tag, index) => (
           <div
             key={index}
-            className="bg-neutral/25 rounded-[10px] px-2.5 py-1 mx-1"
+            className="rounded-[10px] px-2.5 py-1 mx-1 bg-[var(--neutral)]/20 flex items-center"
           >
-            <span className="text-xs text-neutral">
-              {tag}
-            </span>
+            <span className="text-xs text-[var(--neutral)]">{tag}</span>
           </div>
         ))}
       </div>
