@@ -47,7 +47,6 @@ export const SongListItem: React.FC<ISongListItemProps> = ({
 
   return (
     <div
-      // className="bg-[var(--background-offset)] flex h-14 w-full flex-row items-center rounded-xl px-2.5 cursor-pointer hover:opacity-50"
       className="flex h-14 w-full flex-row items-center rounded-xl px-2.5 cursor-pointer hover:bg-[var(--background-offset)]"
       onClick={onClick}
     >

@@ -21,44 +21,24 @@ export const SongScreen: React.FC<SongScreenProps> = ({
                 (song.author && song.author.length > 0 ? song.author[0].author : 'Unknown')
   
   return (
-    <div className="w-full max-w-screen-md mx-auto pt-4 pb-20">
+    <div className="w-full max-w-screen-md pt-4 pb-20 mx-auto">
       {/* Song Header */}
-      <div className="px-4 mb-6">
-        <h1 className="text-2xl font-bold text-[var(--primary)] mb-2">
+      <div className="flex flex-col items-center gap-1 mb-3">
+        <h1 className="text-3xl text-[var(--highlight)]">
           {title}
         </h1>
         
-        <div className="flex items-center justify-between">
-          <p className="text-base text-[var(--secondary)]">
-            {author}
-          </p>
-          
-          {/* Audio badge */}
-          {song.audio && (
-            <div className="bg-[var(--accent)] bg-opacity-15 text-[var(--accent)] px-3 py-1 rounded-full text-xs font-medium flex items-center">
-              <span className="mr-1">🎵</span> Audio
-            </div>
-          )}
-        </div>
+        <p className="text-lg text-[var(--primary)]">
+          {author}
+        </p>
         
-        {/* Tags */}
-        {song.tags && song.tags.length > 0 && (
-          <div className="flex flex-wrap mt-3 gap-2">
-            {song.tags.map((tag, index) => (
-              <span 
-                key={`tag-${index}`} 
-                className="bg-[var(--background-offset)] text-[var(--tertiary)] px-3 py-1 rounded-full text-xs"
-              >
-                {tag}
-              </span>
-            ))}
-          </div>
-        )}
+        <div className="bg-[var(--neutral)]/25 rounded-xl px-2.5 py-0.5">
+          <p className="text-[var(--neutral)] text-[10px] font-medium uppercase m-auto">
+            {song.uid}
+          </p>
+        </div>
       </div>
-      
-      {/* Divider */}
-      <div className="h-px bg-[var(--border)] mb-6"></div>
-      
+          
       {/* Verses */}
       <div>
         {song.verses && song.verses.map((verse, index) => (

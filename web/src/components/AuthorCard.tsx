@@ -10,17 +10,17 @@ interface AuthorCardProps {
 export const AuthorCard: React.FC<AuthorCardProps> = ({ author, onClick }) => {
   return (
     <div 
-      className="flex flex-col items-center mx-2 cursor-pointer" 
+      className="flex flex-col items-center mx-2 transition-transform duration-200 cursor-pointer hover:scale-105"
       onClick={onClick}
     >
-      <div className="w-24 h-24 rounded-full overflow-hidden mb-2 bg-gaur-background-offset dark:bg-shyam-background-offset flex items-center justify-center">
+      <div className="flex items-center justify-center w-24 h-24 mb-2 overflow-hidden transition-all duration-200 rounded-full bg-gaur-background-offset dark:bg-shyam-background-offset hover:shadow-md">
         {author.image ? (
           <Image
             src={author.image}
             alt={author.name}
             width={96}
             height={96}
-            className="w-full h-full object-cover"
+            className="object-cover w-full h-full"
           />
         ) : (
           <div className="text-3xl text-gaur-neutral dark:text-shyam-neutral">
@@ -28,7 +28,7 @@ export const AuthorCard: React.FC<AuthorCardProps> = ({ author, onClick }) => {
           </div>
         )}
       </div>
-      <p className="text-sm text-center text-gaur-primary dark:text-shyam-primary mt-1 max-w-[96px] truncate">
+      <p className="text-sm text-center text-gaur-primary dark:text-shyam-primary mt-1 max-w-[96px] transition-colors duration-200 hover:text-gaur-accent dark:hover:text-shyam-accent">
         {author.name}
       </p>
     </div>

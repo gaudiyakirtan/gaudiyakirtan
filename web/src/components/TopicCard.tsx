@@ -14,7 +14,7 @@ export const TopicCard: React.FC<TopicCardProps> = ({ topic, onClick }) => {
 
   return (
     <div 
-      className="mx-2 cursor-pointer rounded-xl overflow-hidden" 
+      className="mx-2 overflow-hidden transition-transform cursor-pointer rounded-xl shrink-0 hover:scale-105" 
       style={{ 
         backgroundColor: bgColor,
         width: '176px',
@@ -22,7 +22,7 @@ export const TopicCard: React.FC<TopicCardProps> = ({ topic, onClick }) => {
       }}
       onClick={onClick}
     >
-      <div className="h-full w-full p-0">
+      <div className="w-full h-full p-0">
         <p 
           className={`text-xl font-bold ${textColor} text-left pl-6 pt-6 line-clamp-2`}
           style={{ 

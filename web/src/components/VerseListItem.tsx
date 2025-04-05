@@ -30,7 +30,7 @@ export const VerseListItem: React.FC<VerseListItemProps> = ({
   )?.words || []
 
   return (
-    <div className="w-full max-w-3xl mx-auto space-y-2.5 rounded-lg p-4 shadow-sm mb-4 bg-[var(--background-offset)]">
+    <div className="w-full max-w-3xl mx-auto space-y-2.5 rounded-lg p-4 shadow-sm mb-4">
       {/* Original script language */}
       <div>
         {original.map((line, index) => (
@@ -47,7 +47,7 @@ export const VerseListItem: React.FC<VerseListItemProps> = ({
       <div>
         {transliteration.map((line, index) => (
           <p
-            className="text-sm text-center text-[var(--primary)] font-medium"
+            className="text-sm text-center text-[var(--highlight)] font-medium"
             key={index}
           >
             {line}
@@ -56,26 +56,22 @@ export const VerseListItem: React.FC<VerseListItemProps> = ({
       </div>
 
       {/* Word-to-word */}
-      <div className="flex flex-row flex-wrap justify-center">
-        {word_to_word.map((pair, index) => (
-          <React.Fragment key={index}>
-            <span className="text-sm text-[var(--primary)]">
-              {pair[0]}
-              <span className="text-sm text-[var(--neutral)]">
-                {' '}
-                -{' '}
-              </span>
-            </span>
-            <span className="text-sm text-[var(--neutral)]">
-              {pair[1]}
-              {index < word_to_word.length - 1 ? '; ' : ''}
-            </span>
-          </React.Fragment>
-        ))}
+      <div className="flex flex-row flex-wrap">
+        <span className="inline text-sm">
+          {word_to_word.map((pair, index) => (
+        <React.Fragment key={index}>
+          <span className="text-[var(--highlight)]">{pair[0]}</span>
+          <span className="text-[var(--primary)]"> - {pair[1]}</span>
+          {index < word_to_word.length - 1 && (
+            <span className="text-[var(--primary)]">; </span>
+          )}
+        </React.Fragment>
+          ))}
+        </span>
       </div>
 
       {/* Translation */}
-      <p className="text-sm font-medium text-[var(--primary)] text-center">
+      <p className="text-sm font-medium text-[var(--primary)]">
         {translation}
       </p>
     </div>
