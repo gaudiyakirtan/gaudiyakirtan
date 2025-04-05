@@ -30,7 +30,7 @@ export const VerseListItem: React.FC<VerseListItemProps> = ({
   )?.words || []
 
   return (
-    <div className="w-full max-w-3xl mx-auto space-y-2.5 rounded-lg p-4 shadow-sm mb-4">
+    <div className="w-full max-w-3xl mx-auto space-y-2.5 rounded-lg p-4 mb-4">
       {/* Original script language */}
       <div>
         {original.map((line, index) => (

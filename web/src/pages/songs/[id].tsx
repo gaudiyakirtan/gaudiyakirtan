@@ -21,11 +21,11 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
   // If no song was found
   if (!song) {
     return (
-      <div className="p-8 flex flex-col items-center">
-        <h1 className="text-2xl font-bold text-gaur-primary dark:text-shyam-primary mb-4">Song not found</h1>
+      <div className="flex flex-col items-center p-8">
+        <h1 className="mb-4 text-2xl font-bold text-gaur-primary dark:text-shyam-primary">Song not found</h1>
         <button 
           onClick={() => router.push('/')}
-          className="px-4 py-2 bg-gaur-accent dark:bg-shyam-accent text-white rounded-lg"
+          className="px-4 py-2 text-white rounded-lg bg-gaur-accent dark:bg-shyam-accent"
         >
           Return to home
         </button>
@@ -45,15 +45,6 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
         <meta name="description" content={`Lyrics, transliteration and translation for ${title} by ${author}`} />
       </Head>
 
-      <div className="flex items-center p-4 border-b border-gaur-border dark:border-shyam-border">
-        <button 
-          onClick={() => router.push('/')}
-          className="text-gaur-primary dark:text-shyam-primary"
-        >
-          ← Back to Home
-        </button>
-      </div>
-      
       <SongScreen song={song} language={userLanguage} />
     </>
   )
