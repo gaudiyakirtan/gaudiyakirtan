@@ -1,0 +1,70 @@
+:root {
+  /* Light mode colors (Gaur) */
+  --gaur-primary: #1A1A1A;
+  --gaur-secondary: #3A3A3A;
+  --gaur-tertiary: #6E6E6E;
+  --gaur-accent: #B36B00;
+  --gaur-background: #FFF4E8;
+  --gaur-background-offset: #F6EDDF;
+  --gaur-border: #E6D7C3;
+  --gaur-neutral: #6E6E6E;
+  
+  /* Dark mode colors (Shyam) will be used when dark mode is active */
+  --shyam-primary: #E0E0E0;
+  --shyam-secondary: #B8B8B8;
+  --shyam-tertiary: #9B9B9B;
+  --shyam-accent: #8CB4FF;
+  --shyam-background: #191919;
+  --shyam-background-offset: #252525;
+  --shyam-border: #333333;
+  --shyam-neutral: #9B9B9B;
+}
+
+/* Dark mode overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Make dark colors accessible as primary variables */
+    --primary: var(--shyam-primary);
+    --secondary: var(--shyam-secondary);
+    --tertiary: var(--shyam-tertiary);
+    --accent: var(--shyam-accent);
+    --background: var(--shyam-background);
+    --background-offset: var(--shyam-background-offset);
+    --border: var(--shyam-border);
+    --neutral: var(--shyam-neutral);
+  }
+}
+
+/* Light mode (default) */
+:root {
+  /* Make light colors accessible as primary variables */
+  --primary: var(--gaur-primary);
+  --secondary: var(--gaur-secondary);
+  --tertiary: var(--gaur-tertiary);
+  --accent: var(--gaur-accent);
+  --background: var(--gaur-background);
+  --background-offset: var(--gaur-background-offset);
+  --border: var(--gaur-border);
+  --neutral: var(--gaur-neutral);
+}
+
+/* No scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Prevent image dragging by default */
+img {
+  -webkit-user-drag: none;
+  user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-select: none;
+  draggable: false;
+}

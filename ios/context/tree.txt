@@ -1,0 +1,79 @@
+.
+├── context
+│   ├── Screenshot 2025-01-24 at 3.22.56 PM.png
+│   ├── Screenshot 2025-01-24 at 4.04.27 PM.png
+│   ├── Screenshot 2025-01-24 at 4.04.42 PM.png
+│   ├── Screenshot 2025-01-24 at 4.30.16 PM.png
+│   ├── Screenshot 2025-01-24 at 4.50.24 PM.png
+│   ├── Screenshot 2025-01-24 at 6.20.05 PM.png
+│   ├── Screenshot 2025-01-24 at 6.31.50 PM.png
+│   ├── folder_catalog.txt
+│   └── tree.txt
+├── gk-ios
+│   ├── Assets.xcassets
+│   │   ├── AccentColor.colorset
+│   │   │   └── Contents.json
+│   │   ├── AppIcon.appiconset
+│   │   │   └── Contents.json
+│   │   ├── Contents.json
+│   │   ├── background.colorset
+│   │   │   └── Contents.json
+│   │   ├── backgroundOffset.colorset
+│   │   │   └── Contents.json
+│   │   ├── highlight.colorset
+│   │   │   └── Contents.json
+│   │   ├── neutral.colorset
+│   │   │   └── Contents.json
+│   │   └── primary.colorset
+│   │       └── Contents.json
+│   ├── Models
+│   │   ├── Author.swift
+│   │   ├── Book.swift
+│   │   ├── Song.swift
+│   │   ├── Topic.swift
+│   │   └── Verse.swift
+│   ├── Navigation
+│   │   └── AppNavigation.swift
+│   ├── Preview Content
+│   │   └── Preview Assets.xcassets
+│   │       └── Contents.json
+│   ├── ViewModels
+│   │   └── HomeViewModel.swift
+│   ├── Views
+│   │   ├── Components
+│   │   │   ├── AuthorCard.swift
+│   │   │   ├── BookCard.swift
+│   │   │   ├── SongCard.swift
+│   │   │   └── TopicCard.swift
+│   │   ├── HomeView
+│   │   │   └── HomeView.swift
+│   │   ├── Sections
+│   │   │   ├── AuthorsScrollView.swift
+│   │   │   ├── BooksScrollView.swift
+│   │   │   ├── SongsGridView.swift
+│   │   │   ├── TopicsScrollView.swift
+│   │   │   └── VerseView.swift
+│   │   └── Settings
+│   │       └── SettingsView.swift
+│   └── gk_iosApp.swift
+├── gk-ios.xcodeproj
+│   ├── project.pbxproj
+│   ├── project.xcworkspace
+│   │   ├── contents.xcworkspacedata
+│   │   ├── xcshareddata
+│   │   │   └── swiftpm
+│   │   │       └── configuration
+│   │   └── xcuserdata
+│   │       └── kendreaditya.xcuserdatad
+│   │           └── UserInterfaceState.xcuserstate
+│   └── xcuserdata
+│       └── kendreaditya.xcuserdatad
+│           └── xcschemes
+│               └── xcschememanagement.plist
+├── gk-iosTests
+│   └── gk_iosTests.swift
+└── gk-iosUITests
+    ├── gk_iosUITests.swift
+    └── gk_iosUITestsLaunchTests.swift
+
+33 directories, 44 files

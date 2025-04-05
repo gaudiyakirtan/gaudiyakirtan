@@ -1,31 +1,85 @@
-# Gaudiya Kirtan
+# Gaudiya Kirtan App
 
-<h3 align="center">
-  <a href="https://gaudiyakirtan.com/">
-    <img src="/assets/product.png" alt="gk" >
-  </a>
-  <br>
-  <br>
-  <a href="https://gaudiyakirtan.com/">
-    <img src="/assets/system-design.png" alt="gk system design" >
-  </a>
-</h3>
+A comprehensive cross-platform application for exploring Gaudiya Vaishnava kirtan and devotional songs. This monorepo contains native implementations for iOS, Android, and Web platforms.
 
+## Project Structure
 
-Welcome to the Gaudiya Kirtan repository! This project is a cross-platform application built using Expo Router with React, designed to bring the rich tradition of Gaudiya Kirtan to your fingertips. Whether you're on the web or mobile, you can immerse yourself in the spiritual practice of kīrtana.
+This project is organized as a monorepo with platform-specific implementations:
 
-## Coming Soon!
+```
+/
+├── ios/              # iOS implementation (Swift/SwiftUI)
+├── android/          # Android implementation (Java/Kotlin)
+├── web/              # Web implementation (TypeScript/Next.js)
+├── shared/           # Shared resources
+└── docs/             # Documentation
+```
 
-The Gaudiya Kirtan web and mobile app are coming soon! Sign up for our [mailing list](https://gaudiyakirtan.com/) to be notified when the app is released. Additionally, you'll receive special songs to sing for various festival days throughout the year.
+## Key Features
 
-## Tech Stack
+- Browse songs, authors, topics, and books
+- View song lyrics with original text, transliterations, word-by-word translations, and full translations
+- Support for multiple languages (English, Bengali, Hindi, etc.)
+- Consistent user experience across all platforms
+- Offline functionality (coming soon)
 
-Solito (Expo + Next.js)
+## Platform Implementations
 
-## Download the Current Version
+### iOS (Swift/SwiftUI)
+- Native SwiftUI implementation with MVVM architecture
+- Supports light and dark mode with custom theming
+- Tab-based navigation with smooth transitions
 
-You can download the current version of the Gaudiya Kirtan app from the Google Play Store or the Apple App Store:
+### Android (Java/Kotlin)
+- Dual implementation approach:
+  1. Traditional Java implementation with XML layouts and RecyclerView
+  2. Modern Kotlin implementation with Jetpack Compose
+- Consistent theming with Material Design components
 
-[Download on Google Play](https://play.google.com/store/apps/details?id=com.gaudiyakirtan.gkapp)
+### Web (TypeScript/Next.js)
+- React-based implementation with Next.js framework
+- Responsive design with TailwindCSS
+- Client-side routing with static page generation
 
-[Download on the App Store](https://apps.apple.com/us/app/gaudiya-kirtan/id1502107221)
+## Getting Started
+
+### iOS
+```bash
+cd ios
+# Open Xcode project
+xed ./gk-ios.xcodeproj
+```
+
+### Android
+```bash
+cd android
+# Open in Android Studio
+./gradlew build
+```
+
+### Web
+```bash
+cd web
+npm install
+npm run dev
+```
+
+## Documentation
+
+Detailed documentation is available in the `/docs` directory:
+
+- [Architecture Overview](/docs/architecture/overview.md)
+- [iOS Implementation](/docs/ios/implementation.md)
+- [Android Implementation](/docs/android/implementation.md)
+- [Web Implementation](/docs/web/implementation.md)
+- [Shared Models](/docs/shared/models.md)
+- [Theme Colors](/docs/theme/colors.md)
+- [Implementation Mapping](/docs/implementation-mapping.md)
+
+## Contributing
+
+Refer to the documentation for understanding the project structure and implementation approaches. When adding new features, ensure consistency across all platforms by following the established patterns and using the shared color scheme and component structures.
+
+## License
+
+TBD

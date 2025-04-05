@@ -1,0 +1,79 @@
+package com.gaudiyakirtan.myapplication
+
+import android.annotation.SuppressLint
+import android.os.Bundle
+import androidx.activity.ComponentActivity
+import androidx.activity.compose.setContent
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.*
+import androidx.compose.material3.*
+import androidx.compose.runtime.*
+import androidx.compose.ui.Modifier
+import com.gaudiyakirtan.myapplication.ui.home.HomeScreen
+
+class MainActivity : ComponentActivity() {
+    @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContent {
+            var selectedTab by remember { mutableStateOf(0) }
+
+            Scaffold(
+                floatingActionButton = {
+                    FloatingActionButton(
+                        onClick = { },
+                        containerColor = MaterialTheme.colorScheme.primary,
+                        shape = MaterialTheme.shapes.small
+                    ) {
+                        Text(
+                            text = "N9",
+                            style = MaterialTheme.typography.labelLarge
+                        )
+                    }
+                },
+                floatingActionButtonPosition = FabPosition.Center,
+                bottomBar = {
+                    NavigationBar {
+                        NavigationBarItem(
+                            selected = selectedTab == 0,
+                            onClick = { selectedTab = 0 },
+                            icon = { Icon(Icons.Default.Home, "Home") },
+                            label = { Text("Home") }
+                        )
+                        NavigationBarItem(
+                            selected = selectedTab == 1,
+                            onClick = { selectedTab = 1 },
+                            icon = { Icon(Icons.Default.Book, "Library") },
+                            label = { Text("Library") }
+                        )
+                        // Empty center item for FAB
+                        NavigationBarItem(
+                            selected = false,
+                            onClick = { },
+                            icon = { },
+                            label = { }
+                        )
+                        NavigationBarItem(
+                            selected = selectedTab == 3,
+                            onClick = { selectedTab = 3 },
+                            icon = { Icon(Icons.Default.Folder, "Collection") },
+                            label = { Text("Collection") }
+                        )
+                        NavigationBarItem(
+                            selected = selectedTab == 4,
+                            onClick = { selectedTab = 4 },
+                            icon = { Icon(Icons.Default.Search, "Search") },
+                            label = { Text("Search") }
+                        )
+                    }
+                }
+            ) {
+                when (selectedTab) {
+                    0 -> HomeScreen()
+                    else -> Text("Coming Soon")
+                }
+            }
+        }
+    }
+}
