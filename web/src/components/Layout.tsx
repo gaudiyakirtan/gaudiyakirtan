@@ -47,7 +47,7 @@ export const Layout: React.FC<LayoutProps> = ({
 
             <div className="flex-1 px-4">
               <div className="relative max-w-md ml-auto">
-                <div className="flex items-center px-3 py-2 bg-[var(--tertiary)]/20 rounded-lg">
+                <div className="flex items-center px-3 py-2 bg-[var(--highlight)]/20 dark:bg-[var(--tertiary)]/20 rounded-lg">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18"
@@ -117,7 +117,7 @@ export const Layout: React.FC<LayoutProps> = ({
         </div>
       </header>
       <main className="flex-1">{children}</main>
-      <footer className="mt-12 border-t bg-background-offset border-border">
+      <footer className="mt-12">
         <div className="px-4 py-6 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <p className="text-sm text-center text-tertiary">
             &copy; {new Date().getFullYear()} Gaudiya Kirtan. All rights
