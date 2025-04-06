@@ -8,7 +8,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.background
@@ -41,54 +44,70 @@ fun HomeScreen(
             TopicsSection(topics = topics)
             BooksSection(books = books)
     
-            // Current Song Section
+            // Featured Song Section - Styled to match iOS exactly
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(horizontal = 16.dp),
-                verticalArrangement = Arrangement.spacedBy(4.dp)
+                    .padding(horizontal = 16.dp)
+                    .padding(top = 24.dp, bottom = 8.dp)
             ) {
+                // Section title
                 Text(
                     text = "Featured Song",
                     style = MaterialTheme.typography.titleLarge,
-                    modifier = Modifier.padding(bottom = 8.dp)
+                    modifier = Modifier.padding(bottom = 16.dp)
                 )
                 
-                Text(
-                    text = "Akrodha Paramānanda",
-                    style = MaterialTheme.typography.headlineMedium,
-                    color = MaterialTheme.colorScheme.primary
-                )
-    
-                // Author text with neutral color
-                Text(
-                    text = "Śrīla Locana Dāsa Ṭhākura",
-                    style = MaterialTheme.typography.titleMedium.copy(
-                        color = MaterialTheme.colorScheme.tertiary
-                    )
-                )
-    
-                // UID tag with neutral color background at 25% opacity
-                Box(
-                    modifier = Modifier
-                        .padding(vertical = 4.dp)
-                        .background(
-                            color = MaterialTheme.colorScheme.tertiary.copy(alpha = 0.25f),
-                            shape = MaterialTheme.shapes.small
-                        )
-                        .padding(horizontal = 10.dp, vertical = 2.dp)
+                // Center-aligned content block
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally,
+                    verticalArrangement = Arrangement.spacedBy(4.dp)
                 ) {
+                    // Song title with highlight color
                     Text(
-                        text = "N9",
-                        style = MaterialTheme.typography.labelSmall.copy(
-                            color = MaterialTheme.colorScheme.tertiary,
-                            fontSize = 10.sp
-                        )
+                        text = "Akrodha Paramānanda",
+                        fontSize = 28.sp,
+                        fontWeight = FontWeight.SemiBold,
+                        color = MaterialTheme.colorScheme.surfaceVariant, // Highlight color
+                        textAlign = TextAlign.Center
                     )
+                    
+                    // Author text with primary color
+                    Text(
+                        text = "Śrīla Locana Dāsa Ṭhākura",
+                        fontSize = 16.sp,
+                        fontWeight = FontWeight.Normal,
+                        color = MaterialTheme.colorScheme.primary,
+                        textAlign = TextAlign.Center
+                    )
+                    
+                    // UID tag with neutral color background and centered
+                    Box(
+                        modifier = Modifier
+                            .padding(vertical = 4.dp)
+                            .clip(MaterialTheme.shapes.small)
+                            .background(MaterialTheme.colorScheme.tertiary.copy(alpha = 0.25f))
+                            .padding(horizontal = 10.dp, vertical = 2.dp)
+                    ) {
+                        Text(
+                            text = "N9",
+                            fontSize = 10.sp,
+                            fontWeight = FontWeight.Medium,
+                            color = MaterialTheme.colorScheme.tertiary
+                        )
+                    }
                 }
-    
-                verses.forEach { verse ->
-                    VerseView(verse = verse)
+                
+                // Verses
+                Column(
+                    modifier = Modifier
+                        .fillMaxWidth()
+                        .padding(top = 20.dp) // Match iOS spacing between header and verses
+                ) {
+                    verses.forEach { verse ->
+                        VerseView(verse = verse)
+                    }
                 }
             }
             
