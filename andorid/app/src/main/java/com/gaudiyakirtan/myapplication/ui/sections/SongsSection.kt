@@ -28,7 +28,7 @@ fun SongsSection(songs: List<Song>) {
             ) {
                 // First column of songs (even indices)
                 for (i in songs.indices.filter { it % 2 == 0 }) {
-                    SongCard(song = songs[i])
+                    SongCard(song = songs[i], showTags = false) // Hide tags in grid view
                 }
             }
             
@@ -38,7 +38,7 @@ fun SongsSection(songs: List<Song>) {
             ) {
                 // Second column of songs (odd indices)
                 for (i in songs.indices.filter { it % 2 == 1 }) {
-                    SongCard(song = songs[i])
+                    SongCard(song = songs[i], showTags = false) // Hide tags in grid view
                 }
             }
         }
