@@ -4,13 +4,21 @@ import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
 import com.gaudiyakirtan.myapplication.models.Book
+import com.gaudiyakirtan.myapplication.ui.theme.GaurBackground
+import com.gaudiyakirtan.myapplication.ui.theme.ShyamBackground
 import com.gaudiyakirtan.myapplication.ui.theme.getMediaColor
 
 @Composable
@@ -21,7 +29,7 @@ fun BookCard(book: Book) {
             .height(192.dp)
             .clip(MaterialTheme.shapes.medium)
     ) {
-        // Background Image
+        // Background Image Layer
         book.image?.let {
             AsyncImage(
                 model = it,
@@ -31,7 +39,56 @@ fun BookCard(book: Book) {
             )
         }
 
-        // Gradients
+        // Gradient Overlays Layer
+        GradientOverlays(book)
+
+        // Content Layer
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(start = 12.dp, end = 12.dp, bottom = 24.dp),
+            verticalArrangement = Arrangement.Bottom,
+            horizontalAlignment = Alignment.Start
+        ) {
+            Text(
+                text = book.title,
+                style = TextStyle(
+                    fontSize = 18.sp,
+                    fontWeight = FontWeight.Black,
+                    lineHeight = 20.sp
+                ),
+                color = Color.White,
+                maxLines = 3,
+                overflow = TextOverflow.Ellipsis,
+                modifier = Modifier.width(100.dp)
+            )
+            
+            Spacer(modifier = Modifier.height(2.dp))
+            
+            book.author?.let {
+                Text(
+                    text = it,
+                    style = TextStyle(
+                        fontSize = 10.sp,
+                        fontWeight = FontWeight.Medium,
+                    ),
+                    color = Color.White,
+                    maxLines = 2,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.width(100.dp)
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun GradientOverlays(book: Book) {
+    // Get the background color based on current theme
+    val backgroundColor = MaterialTheme.colorScheme.background
+
+    Box(modifier = Modifier.fillMaxSize()) {
+        // 1. Color Overlay Gradient - matching iOS implementation
         Box(
             modifier = Modifier
                 .fillMaxSize()
@@ -39,33 +96,45 @@ fun BookCard(book: Book) {
                     Brush.verticalGradient(
                         colors = listOf(
                             getMediaColor(book.title),
-                            androidx.compose.ui.graphics.Color.Transparent
+                            Color.Transparent
+                        ),
+                        startY = 0f,
+                        endY = Float.POSITIVE_INFINITY / 2
+                    )
+                )
+        )
+        
+        // 2. Bottom to Top Black Gradient
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(
+                    Brush.verticalGradient(
+                        colors = listOf(
+                            Color.Black.copy(alpha = 0.5f),
+                            Color.Transparent
+                        ),
+                        startY = Float.POSITIVE_INFINITY,
+                        endY = Float.POSITIVE_INFINITY / 2
+                    )
+                )
+        )
+        
+        // 3. Horizontal Left Gradient - similar to iOS horizontalLeftGradient
+        Box(
+            modifier = Modifier
+                .fillMaxSize()
+                .background(
+                    Brush.horizontalGradient(
+                        colorStops = arrayOf(
+                            0.0f to backgroundColor,
+                            0.0258f to backgroundColor.copy(alpha = 0f),
+                            0.0515f to backgroundColor.copy(alpha = 0.5f),
+                            0.08f to backgroundColor.copy(alpha = 0f),
+                            1f to backgroundColor.copy(alpha = 0f)
                         )
                     )
                 )
         )
-
-        // Content
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-                .padding(24.dp),
-            verticalArrangement = Arrangement.Bottom
-        ) {
-            Text(
-                text = book.title,
-                style = MaterialTheme.typography.titleLarge,
-                color = MaterialTheme.colorScheme.surface,
-                maxLines = 3
-            )
-            book.author?.let {
-                Text(
-                    text = it,
-                    style = MaterialTheme.typography.labelMedium,
-                    color = MaterialTheme.colorScheme.surface,
-                    maxLines = 2
-                )
-            }
-        }
     }
 }
