@@ -343,7 +343,7 @@ export const sampleSongs: IExtendedSong[] = [
       { author: 'লোচন দাস ঠাকুর', language: 'bn' }
     ],
     uid: 'L5',
-    tags: ['nityananda', 'gaura-lila', 'prayer'],
+    tags: ['Pañca-tattva', 'Śrī Nityānanda Prabhu', 'Bengali', 'Caitanya Mangala'],
     topics: [
       { topic: 'Gaura-lila', language: 'en' },
       { topic: 'গৌর-লীলা', language: 'bn' }
