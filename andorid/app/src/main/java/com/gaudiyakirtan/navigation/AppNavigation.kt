@@ -83,7 +83,8 @@ fun AppNavigation() {
     Scaffold(
         bottomBar = {
             NavigationBar(
-                containerColor = MaterialTheme.colorScheme.background
+                containerColor = MaterialTheme.colorScheme.background,
+                contentColor = MaterialTheme.colorScheme.tertiary // This ensures all content uses the neutral color
             ) {
                 val navBackStackEntry by navController.currentBackStackEntryAsState()
                 val currentDestination = navBackStackEntry?.destination
@@ -97,17 +98,22 @@ fun AppNavigation() {
                                 painter = painterResource(
                                     id = if (selected) tab.filledIcon else tab.outlineIcon
                                 ), 
-                                contentDescription = tab.label,
-                                tint = MaterialTheme.colorScheme.onSurfaceVariant
+                                contentDescription = tab.label
+                                // Not setting tint explicitly since it will inherit from contentColor
                             ) 
                         },
                         label = { 
-                            Text(
-                                text = tab.label,
-                                color = MaterialTheme.colorScheme.onSurfaceVariant
-                            ) 
+                            Text(text = tab.label)
+                            // Not setting color explicitly since it will inherit from contentColor
                         },
                         selected = selected,
+                        colors = androidx.compose.material3.NavigationBarItemDefaults.colors(
+                            selectedIconColor = MaterialTheme.colorScheme.tertiary,
+                            unselectedIconColor = MaterialTheme.colorScheme.tertiary,
+                            selectedTextColor = MaterialTheme.colorScheme.tertiary,
+                            unselectedTextColor = MaterialTheme.colorScheme.tertiary,
+                            indicatorColor = MaterialTheme.colorScheme.background // Make indicator invisible
+                        ),
                         onClick = {
                             // Removed currentTab assignment that caused the type mismatch
                             navController.navigate(tab.route) {
