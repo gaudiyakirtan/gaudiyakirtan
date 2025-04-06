@@ -4,6 +4,7 @@
 
     <!-- Internet permission for loading images from remote URLs -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"

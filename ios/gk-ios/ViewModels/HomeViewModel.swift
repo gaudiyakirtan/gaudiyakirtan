@@ -33,10 +33,10 @@ class HomeViewModel: ObservableObject {
         
         // Sample Books
         books = [
-            Book(title: "Gītāvalī", author: "Bhaktivinoda Ṭhākura", slug: "gitavali", uid: "BVT001", image: "https://swamitripurari.com/wp-content/uploads/2011/01/nama-dharma.jpg"),
-            Book(title: "Śaraṇāgati", author: "Bhaktivinoda Ṭhākura", slug: "saranagati", uid: "BVT002", image: "https://bhaktivinodainstitute.org/wp-content/uploads/2022/07/JAIVA-DHARMA-1024x600.jpg"),
-            Book(title: "Prārthanā", author: "Narottama Dāsa Ṭhākura", slug: "prarthana", uid: "NDT001", image: "https://i1.sndcdn.com/artworks-qmLFQ1cOC0F9szhF-kmywsQ-t500x500.jpg"),
-            Book(title: "Prema-bhakti-candrikā", author: "Narottama Dāsa Ṭhākura", slug: "prema-bhakti", uid: "NDT002", image: "https://i.pinimg.com/736x/a9/18/c0/a918c08bd24e65f760490898affbb6d1.jpg")
+            Book(title: "Gītāvalī", author: "Bhaktivinoda Ṭhākura", slug: "gitavali", uid: "BVT001", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bhaktivinoda_Thakur_1884.jpg/330px-Bhaktivinoda_Thakur_1884.jpg"),
+            Book(title: "Śaraṇāgati", author: "Bhaktivinoda Ṭhākura", slug: "saranagati", uid: "BVT002", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Jayadharma_chant_1975.jpg/330px-Jayadharma_chant_1975.jpg"),
+            Book(title: "Prārthanā", author: "Narottama Dāsa Ṭhākura", slug: "prarthana", uid: "NDT001", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Narottama_Das_Thakur.png/330px-Narottama_Das_Thakur.png"),
+            Book(title: "Prema-bhakti-candrikā", author: "Narottama Dāsa Ṭhākura", slug: "prema-bhakti", uid: "NDT002", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Chaitanya_with_Four_Associates_-_Pancha_Tattva.jpg/330px-Chaitanya_with_Four_Associates_-_Pancha_Tattva.jpg")
         ]
         
         // Sample Songs

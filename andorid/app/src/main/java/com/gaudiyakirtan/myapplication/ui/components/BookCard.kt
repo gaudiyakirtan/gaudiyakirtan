@@ -16,7 +16,6 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
-import coil3.compose.SubcomposeAsyncImage
 import com.gaudiyakirtan.myapplication.models.Book
 import com.gaudiyakirtan.myapplication.ui.theme.getMediaColor
 
@@ -32,32 +31,20 @@ fun BookCard(book: Book) {
             .clip(MaterialTheme.shapes.medium)
     ) {
         // Background Image Layer with Placeholder
-        book.image?.let { imageUrl ->
-            SubcomposeAsyncImage(
-                model = imageUrl,
+        if (book.image != null) {
+            AsyncImage(
+                model = book.image,
                 contentDescription = book.title,
                 contentScale = ContentScale.Crop,
-                modifier = Modifier.fillMaxSize(),
-                loading = {
-                    Box(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .background(mediaColor)
-                    )
-                },
-                error = {
-                    Box(
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .background(mediaColor)
-                    )
-                }
+                modifier = Modifier.fillMaxSize()
             )
-        } ?: Box(
-            modifier = Modifier
-                .fillMaxSize()
-                .background(mediaColor)
-        )
+        } else {
+            Box(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .background(mediaColor)
+            )
+        }
 
         // Gradient Overlays Layer
         GradientOverlays(book)
