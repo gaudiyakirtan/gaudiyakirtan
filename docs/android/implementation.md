@@ -101,28 +101,62 @@ data class Song(
 
 ### Navigation
 
-The application uses Jetpack Navigation Compose for navigation between screens:
+The application uses Jetpack Navigation Compose for navigation between screens, matching the iOS implementation with identical tabs and navigation structure:
 
 ```kotlin
-// AppNavigation.kt
+// AppNavigation.kt - Navigation Tabs matching iOS implementation
+sealed class Tab(
+    val route: String, 
+    val outlineIcon: Int, 
+    val filledIcon: Int, 
+    val label: String
+) {
+    object Home : Tab("home", R.drawable.ic_home, R.drawable.ic_home_filled, "Home")
+    object Library : Tab("library", R.drawable.ic_library, R.drawable.ic_library_filled, "Library")
+    object Collection : Tab("collection", R.drawable.ic_stack, R.drawable.ic_stack_filled, "Collection")
+    object Search : Tab("search", R.drawable.ic_search, R.drawable.ic_search_filled, "Search")
+}
+
 @Composable
 fun AppNavigation() {
     val navController = rememberNavController()
+    val items = listOf(Tab.Home, Tab.Library, Tab.Collection, Tab.Search)
     
     Scaffold(
         bottomBar = {
-            NavigationBar {
-                // Navigation items
+            NavigationBar(containerColor = MaterialTheme.colorScheme.background) {
+                // Navigation items with filled/outline icons matching iOS
+                items.forEach { tab ->
+                    val selected = currentDestination?.hierarchy?.any { 
+                        it.route == tab.route 
+                    } == true
+                    
+                    NavigationBarItem(
+                        icon = { 
+                            Icon(
+                                painter = painterResource(
+                                    id = if (selected) tab.filledIcon else tab.outlineIcon
+                                ), 
+                                contentDescription = tab.label
+                            ) 
+                        },
+                        label = { Text(tab.label) },
+                        selected = selected,
+                        onClick = { /* Navigation logic */ }
+                    )
+                }
             }
         }
     ) { innerPadding ->
         NavHost(
             navController = navController,
-            startDestination = Screen.Home.route,
+            startDestination = Tab.Home.route,
             modifier = Modifier.padding(innerPadding)
         ) {
-            composable(Screen.Home.route) { HomeScreen() }
-            // Add other screens when implemented
+            composable(Tab.Home.route) { HomeScreen() }
+            composable(Tab.Library.route) { /* Library screen */ }
+            composable(Tab.Collection.route) { /* Collection screen */ }
+            composable(Tab.Search.route) { /* Search screen */ }
         }
     }
 }
