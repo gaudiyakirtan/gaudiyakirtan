@@ -23,48 +23,63 @@ fun HomeScreen(
     val books by viewModel.books.collectAsState()
     val verses by viewModel.verses.collectAsState()
 
-    Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .verticalScroll(rememberScrollState())
-            .padding(16.dp),
-        verticalArrangement = Arrangement.spacedBy(24.dp)
+    Surface(
+        modifier = Modifier.fillMaxSize(),
+        color = MaterialTheme.colorScheme.background
     ) {
-        SongsSection(songs = songs)
-        AuthorsSection(authors = authors)
-        TopicsSection(topics = topics)
-        BooksSection(books = books)
-
-        // Current Song Section
         Column(
-            modifier = Modifier.fillMaxWidth(),
-            verticalArrangement = Arrangement.spacedBy(4.dp)
+            modifier = Modifier
+                .fillMaxSize()
+                .verticalScroll(rememberScrollState()),
+            verticalArrangement = Arrangement.spacedBy(24.dp)
         ) {
-            Text(
-                text = "Akrodha Paramānanda",
-                style = MaterialTheme.typography.headlineMedium,
-                color = MaterialTheme.colorScheme.primary
-            )
-
-            Text(
-                text = "Śrīla Locana Dāsa Ṭhākura",
-                style = MaterialTheme.typography.titleMedium
-            )
-
-            Surface(
-                color = MaterialTheme.colorScheme.surfaceVariant,
-                shape = MaterialTheme.shapes.small
+            SongsSection(songs = songs)
+            AuthorsSection(authors = authors)
+            TopicsSection(topics = topics)
+            BooksSection(books = books)
+    
+            // Current Song Section
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(horizontal = 16.dp),
+                verticalArrangement = Arrangement.spacedBy(4.dp)
             ) {
                 Text(
-                    text = "N9",
-                    style = MaterialTheme.typography.labelSmall,
-                    modifier = Modifier.padding(horizontal = 10.dp, vertical = 2.dp)
+                    text = "Featured Song",
+                    style = MaterialTheme.typography.titleLarge,
+                    modifier = Modifier.padding(bottom = 8.dp)
                 )
+                
+                Text(
+                    text = "Akrodha Paramānanda",
+                    style = MaterialTheme.typography.headlineMedium,
+                    color = MaterialTheme.colorScheme.primary
+                )
+    
+                Text(
+                    text = "Śrīla Locana Dāsa Ṭhākura",
+                    style = MaterialTheme.typography.titleMedium
+                )
+    
+                Surface(
+                    color = MaterialTheme.colorScheme.surfaceVariant,
+                    shape = MaterialTheme.shapes.small
+                ) {
+                    Text(
+                        text = "N9",
+                        style = MaterialTheme.typography.labelSmall,
+                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 2.dp)
+                    )
+                }
+    
+                verses.forEach { verse ->
+                    VerseView(verse = verse)
+                }
             }
-
-            verses.forEach { verse ->
-                VerseView(verse = verse)
-            }
+            
+            // Add padding at the bottom
+            Spacer(modifier = Modifier.height(32.dp))
         }
     }
 }

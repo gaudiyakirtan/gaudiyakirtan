@@ -2,159 +2,279 @@
 
 This document details the Android implementation of the Gaudiya Kirtan application.
 
-## Dual Implementation Approach
+## Modern Implementation With Jetpack Compose
 
-The Android app provides two implementation approaches:
+The Android app now uses a modern, Kotlin-only implementation with Jetpack Compose:
 
-1. **Traditional Java Implementation**:
-   - Uses XML layouts and RecyclerView
-   - Follows Activity/Fragment pattern
-   - Suitable for developers familiar with traditional Android development
-
-2. **Modern Kotlin with Jetpack Compose**:
-   - Uses declarative UI with Jetpack Compose
-   - Implements Navigation component for routing
-   - Follows modern Android development practices
-
-Both implementations share common data models and provide the same functionality.
+- **Declarative UI with Jetpack Compose**: Building UI components using a modern, declarative approach
+- **Material 3 Design System**: Using the latest Material Design guidelines
+- **MVVM Architecture**: Clean separation of concerns with ViewModels
+- **Navigation Component**: Type-safe navigation between screens
+- **Consistent Cross-Platform Structure**: Matching the folder structure and patterns of iOS and web versions
 
 ## Project Structure
 
+The Android application follows a modular structure that aligns with the iOS and web implementations:
+
 ```
-android/app/src/main/
-├── java/com/gaudiyakirtan/
-│   ├── models/             # Data models (Java & Kotlin)
-│   ├── adapters/           # RecyclerView adapters (Java)
-│   ├── ui/                 # UI components and screens
-│   │   ├── components/     # Reusable UI components
-│   │   ├── screens/        # Full screens
-│   │   └── theme/          # Theme and styling
-│   ├── utils/              # Helper utilities
-│   └── MainActivity.java/kt # App entry point
-└── res/
-    ├── layout/             # XML layouts for Java implementation
-    ├── values/             # Resources (strings, colors, etc.)
-    └── drawable/           # Images and drawables
+android/
+├── app/
+│   └── src/
+│       └── main/
+│           ├── java/
+│           │   └── com/
+│           │       └── gaudiyakirtan/
+│           │           ├── data/
+│           │           │   └── SampleData.kt         # Sample data provider (similar to web sampleData.ts)
+│           │           ├── models/                   # Data models matching iOS and web
+│           │           │   ├── Author.kt
+│           │           │   ├── Book.kt
+│           │           │   ├── Song.kt
+│           │           │   ├── Topic.kt
+│           │           │   └── Verse.kt
+│           │           ├── navigation/               # Navigation system
+│           │           │   └── AppNavigation.kt      # Central navigation component
+│           │           ├── services/                 # API and storage services
+│           │           ├── utils/                    # Utility functions
+│           │           └── ui/                       # UI components
+│           │               ├── components/           # Reusable UI components
+│           │               │   ├── AuthorCard.kt
+│           │               │   ├── BookCard.kt
+│           │               │   ├── SongCard.kt
+│           │               │   ├── TopicCard.kt
+│           │               │   └── VerseView.kt
+│           │               ├── home/                 # Home screen
+│           │               │   ├── HomeScreen.kt
+│           │               │   └── HomeViewModel.kt
+│           │               ├── sections/             # Content sections
+│           │               │   ├── AuthorsSection.kt
+│           │               │   ├── BooksSection.kt
+│           │               │   ├── SongsSection.kt
+│           │               │   └── TopicsSection.kt
+│           │               └── theme/                # Theming
+│           │                   ├── Color.kt
+│           │                   ├── Theme.kt
+│           │                   └── Type.kt
+│           └── res/
+│               ├── drawable/                         # Icons and graphics
+│               │   ├── ic_home.xml
+│               │   ├── ic_library.xml
+│               │   ├── ic_search.xml
+│               │   └── ic_settings.xml
+│               └── values/                           # Resource values
+│                   └── colors.xml                    # Color resources
+```
+
+## Architecture
+
+The Android application follows the MVVM (Model-View-ViewModel) architecture pattern:
+
+- **Models**: Data classes representing application entities
+- **Views**: Compose UI components that display data
+- **ViewModels**: State holders for UI components that manage business logic
+
+## Data Models
+
+The data models are designed to be consistent across all platforms:
+
+```kotlin
+// Author.kt
+data class Author(
+    val name: String,
+    val image: String? = null,
+    val books: List<String> = emptyList()
+)
+
+// Song.kt
+data class Song(
+    val title: String,
+    val author: String,
+    val uid: String,
+    val audio: Boolean = false,
+    val tags: List<String> = emptyList()
+)
+
+// Plus additional models for Book, Topic, Verse, etc.
 ```
 
 ## Key Components
 
-### Data Models
+### Navigation
 
-- [Song.java](/android/app/src/main/java/com/gaudiyakirtan/models/Song.java) - Basic song model and extended song model with verses
-- [SongModel.kt](/android/app/src/main/java/com/gaudiyakirtan/models/SongModel.kt) - Kotlin version with extension functions for interoperability
-
-### Java Implementation
-
-- [SongListAdapter.java](/android/app/src/main/java/com/gaudiyakirtan/adapters/SongListAdapter.java) - Adapter for RecyclerView to display songs
-- [item_song.xml](/android/app/src/main/res/layout/item_song.xml) - Layout for song items in list
-- [item_verse.xml](/android/app/src/main/res/layout/item_verse.xml) - Layout for verse display
-
-### Kotlin/Compose Implementation
-
-- [SongCard.kt](/android/app/src/main/java/com/gaudiyakirtan/ui/components/SongCard.kt) - Composable for displaying song items
-- [VerseView.kt](/android/app/src/main/java/com/gaudiyakirtan/ui/components/VerseView.kt) - Composable for displaying verses
-- [HomeScreen.kt](/android/app/src/main/java/com/gaudiyakirtan/ui/screens/HomeScreen.kt) - Main screen showing songs list
-- [SongDetailScreen.kt](/android/app/src/main/java/com/gaudiyakirtan/ui/screens/SongDetailScreen.kt) - Detail screen for viewing a song
-
-## Theme
-
-The Android app uses a consistent color scheme based on the iOS design:
-
-- **Primary**: Text color (#1A1A1A in light mode, #E0E0E0 in dark mode)
-- **Background**: Main background color (#FFF4E8 in light mode, #191919 in dark mode)
-- **BackgroundOffset**: Secondary background color (#F6EDDF in light mode, #252525 in dark mode)
-- **Highlight**: Accent color (#B36B00 in light mode, #8CB4FF in dark mode)
-- **Neutral**: Secondary text color (#6E6E6E in light mode, #9B9B9B in dark mode)
-
-These colors are defined in:
-- XML: [colors.xml](/android/app/src/main/res/values/colors.xml)
-- Compose: [Theme.kt](/android/app/src/main/java/com/gaudiyakirtan/ui/theme/Theme.kt)
-
-## Offline Storage
-
-The Android app uses Room Database for offline storage:
+The application uses Jetpack Navigation Compose for navigation between screens:
 
 ```kotlin
-// TODO: Implement Room Database for offline storage
-```
-
-## Navigation
-
-For Compose implementation, navigation is handled using the Navigation component:
-
-```kotlin
-// See: /android/app/src/main/java/com/gaudiyakirtan/MainActivity.kt
-NavHost(navController = navController, startDestination = "home") {
-    composable("home") {
-        HomeScreen(
-            songs = songs,
-            onSongClick = { song ->
-                navController.navigate("song/${song.id}")
+// AppNavigation.kt
+@Composable
+fun AppNavigation() {
+    val navController = rememberNavController()
+    
+    Scaffold(
+        bottomBar = {
+            NavigationBar {
+                // Navigation items
             }
-        )
-    }
-    
-    composable("song/{songId}") { backStackEntry ->
-        val songId = backStackEntry.arguments?.getString("songId")
-        // Song detail screen implementation...
+        }
+    ) { innerPadding ->
+        NavHost(
+            navController = navController,
+            startDestination = Screen.Home.route,
+            modifier = Modifier.padding(innerPadding)
+        ) {
+            composable(Screen.Home.route) { HomeScreen() }
+            // Add other screens when implemented
+        }
     }
 }
 ```
 
-## Code Pointers
+### Theming
 
-### Java Song Model
+The application uses Material Design 3 with a custom color scheme that matches iOS and web implementations:
 
-```java
-// See: /android/app/src/main/java/com/gaudiyakirtan/models/Song.java
-public class Song {
-    private String id;
-    private String title;
-    private String author;
-    private String lyrics;
-    private List<String> tags;
-    private Date dateAdded;
-    private Boolean audio;
+```kotlin
+// Color.kt
+// Light theme colors (Gaur)
+val GaurPrimary = Color(0xFF1A1A1A)
+val GaurSecondary = Color(0xFF3A3A3A)
+val GaurTertiary = Color(0xFF1A1A1A)
+val GaurAccent = Color(0xFFB36B00)
+val GaurHighlight = Color(0xFFB36B00)
+val GaurBackground = Color(0xFFFFF4E8)
+val GaurBackgroundOffset = Color(0xFFF6E5D1)
+val GaurBorder = Color(0xFFE6D7C3)
+val GaurNeutral = Color(0xFF6E6E6E)
+
+// Dark theme colors (Shyam)
+val ShyamPrimary = Color(0xFFE0E0E0)
+val ShyamSecondary = Color(0xFFB8B8B8)
+val ShyamTertiary = Color(0xFF9B9B9B)
+val ShyamAccent = Color(0xFF8CB4FF)
+val ShyamHighlight = Color(0xFF8CB4FF)
+val ShyamBackground = Color(0xFF191919)
+val ShyamBackgroundOffset = Color(0xFF202020)
+val ShyamBorder = Color(0xFF333333)
+val ShyamNeutral = Color(0xFF9B9B9B)
+```
+
+### Home Screen
+
+The Home screen displays content sections to match iOS and web:
+
+```kotlin
+// HomeScreen.kt
+@Composable
+fun HomeScreen(
+    viewModel: HomeViewModel = viewModel()
+) {
+    val songs by viewModel.songs.collectAsState()
+    val authors by viewModel.authors.collectAsState()
+    val topics by viewModel.topics.collectAsState()
+    val books by viewModel.books.collectAsState()
     
-    // Constructor and getters...
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .verticalScroll(rememberScrollState())
+            .padding(16.dp),
+        verticalArrangement = Arrangement.spacedBy(24.dp)
+    ) {
+        SongsSection(songs = songs)
+        AuthorsSection(authors = authors)
+        TopicsSection(topics = topics)
+        BooksSection(books = books)
+    }
 }
 ```
 
-### Kotlin Song Model
+### Sample Components
+
+**Song Card:**
 
 ```kotlin
-// See: /android/app/src/main/java/com/gaudiyakirtan/models/SongModel.kt
-data class SongModel(
-    val id: String,
-    val title: String,
-    val author: String,
-    val lyrics: String,
-    val tags: List<String>,
-    val dateAdded: Date,
-    val audio: Boolean? = false
-)
-```
-
-### Compose Song Card
-
-```kotlin
-// See: /android/app/src/main/java/com/gaudiyakirtan/ui/components/SongCard.kt
 @Composable
 fun SongCard(
-    song: SongModel,
-    onClick: () -> Unit = {},
-    showTags: Boolean = true
+    song: Song,
+    onClick: () -> Unit = {}
 ) {
     Surface(
-        modifier = Modifier
-            .fillMaxWidth()
-            .height(56.dp),
+        modifier = Modifier.fillMaxWidth(),
         color = MaterialTheme.colorScheme.surfaceVariant,
         shape = MaterialTheme.shapes.medium,
         onClick = onClick
     ) {
-        // Component implementation...
+        Row(
+            modifier = Modifier.padding(16.dp),
+            verticalAlignment = Alignment.CenterVertically
+        ) {
+            Column(modifier = Modifier.weight(1f)) {
+                Text(
+                    text = song.title,
+                    style = MaterialTheme.typography.titleMedium
+                )
+                Text(
+                    text = song.author,
+                    style = MaterialTheme.typography.bodyMedium
+                )
+            }
+            
+            Surface(
+                color = MaterialTheme.colorScheme.primary.copy(alpha = 0.1f),
+                shape = MaterialTheme.shapes.small
+            ) {
+                Text(
+                    text = song.uid,
+                    style = MaterialTheme.typography.labelSmall,
+                    modifier = Modifier.padding(horizontal = 8.dp, vertical = 4.dp)
+                )
+            }
+        }
     }
 }
 ```
+
+## Data Flow
+
+Data is provided through ViewModels that connect to the SampleData source (will eventually connect to repositories):
+
+```kotlin 
+class HomeViewModel : ViewModel() {
+    private val _songs = MutableStateFlow<List<Song>>(emptyList())
+    private val _authors = MutableStateFlow<List<Author>>(emptyList())
+    private val _topics = MutableStateFlow<List<Topic>>(emptyList())
+    private val _books = MutableStateFlow<List<Book>>(emptyList())
+    
+    val songs: StateFlow<List<Song>> = _songs
+    val authors: StateFlow<List<Author>> = _authors
+    val topics: StateFlow<List<Topic>> = _topics
+    val books: StateFlow<List<Book>> = _books
+    
+    init {
+        loadData()
+    }
+    
+    private fun loadData() {
+        _authors.value = SampleData.authors
+        _topics.value = SampleData.topics
+        _books.value = SampleData.books
+        _songs.value = SampleData.songs
+    }
+}
+```
+
+## Cross-Platform Consistency
+
+The Android implementation maintains consistency with iOS and web implementations through:
+
+1. **Matching Data Models**: Using identical data structures
+2. **Similar UI Structure**: Screen layouts follow the same organizational pattern
+3. **Consistent Theming**: Using the same color scheme (Gaur for light theme, Shyam for dark theme)
+4. **Parallel Component Architecture**: Components like cards and sections have matching counterparts
+
+## Future Enhancements
+
+- Implement offline data storage with Room Database
+- Add synchronization with backend services
+- Implement search functionality
+- Add detailed song and author views
+- Support for audio playback of songs
