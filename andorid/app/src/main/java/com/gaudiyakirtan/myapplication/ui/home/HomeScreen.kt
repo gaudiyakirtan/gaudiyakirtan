@@ -8,7 +8,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
+import androidx.compose.foundation.background
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.gaudiyakirtan.myapplication.ui.components.VerseView
 import com.gaudiyakirtan.myapplication.ui.sections.*
@@ -57,19 +60,30 @@ fun HomeScreen(
                     color = MaterialTheme.colorScheme.primary
                 )
     
+                // Author text with neutral color
                 Text(
                     text = "Śrīla Locana Dāsa Ṭhākura",
-                    style = MaterialTheme.typography.titleMedium
+                    style = MaterialTheme.typography.titleMedium.copy(
+                        color = MaterialTheme.colorScheme.tertiary
+                    )
                 )
     
-                Surface(
-                    color = MaterialTheme.colorScheme.surfaceVariant,
-                    shape = MaterialTheme.shapes.small
+                // UID tag with neutral color background at 25% opacity
+                Box(
+                    modifier = Modifier
+                        .padding(vertical = 4.dp)
+                        .background(
+                            color = MaterialTheme.colorScheme.tertiary.copy(alpha = 0.25f),
+                            shape = MaterialTheme.shapes.small
+                        )
+                        .padding(horizontal = 10.dp, vertical = 2.dp)
                 ) {
                     Text(
                         text = "N9",
-                        style = MaterialTheme.typography.labelSmall,
-                        modifier = Modifier.padding(horizontal = 10.dp, vertical = 2.dp)
+                        style = MaterialTheme.typography.labelSmall.copy(
+                            color = MaterialTheme.colorScheme.tertiary,
+                            fontSize = 10.sp
+                        )
                     )
                 }
     
