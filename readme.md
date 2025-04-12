@@ -81,5 +81,4 @@ Detailed documentation is available in the `/docs` directory:
 Refer to the documentation for understanding the project structure and implementation approaches. When adding new features, ensure consistency across all platforms by following the established patterns and using the shared color scheme and component structures.
 
 ## License
-
 TBD
