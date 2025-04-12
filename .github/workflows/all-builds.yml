@@ -3,16 +3,8 @@ name: All Platform Build Verification
 on:
   push:
     branches: [ mono ]
-    paths-ignore:
-      - '**.md'
-      - '.gitignore'
-      - 'docs/**'
   pull_request:
     branches: [ mono ]
-    paths-ignore:
-      - '**.md'
-      - '.gitignore'
-      - 'docs/**'
   workflow_dispatch:
 
 jobs:
@@ -34,13 +26,17 @@ jobs:
         uses: dorny/paths-filter@v2
         id: filter
         with:
+          base: ${{ github.ref == 'refs/heads/mono' && 'HEAD~1' || 'mono' }}
           filters: |
             ios:
               - 'ios/**'
+              - '.github/workflows/ios-build.yml'
             android:
               - 'andorid/**'
+              - '.github/workflows/android-build.yml'
             web:
               - 'web/**'
+              - '.github/workflows/web-build.yml'
   
   ios-build:
     needs: check-changes
@@ -56,3 +52,34 @@ jobs:
     needs: check-changes
     if: ${{ needs.check-changes.outputs.web == 'true' }}
     uses: ./.github/workflows/web-build.yml
+    
+  # If no platform-specific changes detected, run all builds on workflow_dispatch
+  all-platforms-manual:
+    needs: check-changes
+    if: |
+      github.event_name == 'workflow_dispatch' && 
+      needs.check-changes.outputs.ios != 'true' && 
+      needs.check-changes.outputs.android != 'true' && 
+      needs.check-changes.outputs.web != 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Trigger iOS build
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: ios-build.yml
+          ref: ${{ github.ref }}
+      
+      - name: Trigger Android build
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: android-build.yml
+          ref: ${{ github.ref }}
+      
+      - name: Trigger Web build
+        uses: benc-uk/workflow-dispatch@v1
+        with:
+          workflow: web-build.yml
+          ref: ${{ github.ref }}
