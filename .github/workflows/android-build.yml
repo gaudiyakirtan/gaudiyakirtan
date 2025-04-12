@@ -9,6 +9,7 @@ on:
     branches: [ mono ]
     paths:
       - 'andorid/**'
+  workflow_call:
 
 jobs:
   build:
