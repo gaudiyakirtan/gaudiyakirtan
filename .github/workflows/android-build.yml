@@ -1,0 +1,58 @@
+name: Android Build Verification
+
+on:
+  push:
+    branches: [ mono ]
+    paths:
+      - 'andorid/**'
+  pull_request:
+    branches: [ mono ]
+    paths:
+      - 'andorid/**'
+
+jobs:
+  build:
+    name: Build Android App
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up JDK
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+          cache: gradle
+      
+      - name: Grant execute permission for gradlew
+        run: chmod +x andorid/gradlew
+      
+      - name: Build with Gradle
+        run: |
+          cd andorid
+          ./gradlew assembleDebug --no-daemon
+      
+      - name: Upload APK as Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: app-debug
+          path: andorid/app/build/outputs/apk/debug/app-debug.apk
+      
+      - name: Create Release
+        if: github.event_name == 'push' && !contains(github.ref, 'pull')
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: android-${{ github.run_number }}
+          name: Android Build ${{ github.run_number }}
+          draft: false
+          prerelease: false
+          files: andorid/app/build/outputs/apk/debug/app-debug.apk
+          body: |
+            Android build from commit ${{ github.sha }}
+            
+            This is an automated release from GitHub Actions.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

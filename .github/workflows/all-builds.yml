@@ -1,0 +1,58 @@
+name: All Platform Build Verification
+
+on:
+  push:
+    branches: [ mono ]
+    paths-ignore:
+      - '**.md'
+      - '.gitignore'
+      - 'docs/**'
+  pull_request:
+    branches: [ mono ]
+    paths-ignore:
+      - '**.md'
+      - '.gitignore'
+      - 'docs/**'
+  workflow_dispatch:
+
+jobs:
+  check-changes:
+    name: Check Changed Files
+    runs-on: ubuntu-latest
+    outputs:
+      ios: ${{ steps.filter.outputs.ios }}
+      android: ${{ steps.filter.outputs.android }}
+      web: ${{ steps.filter.outputs.web }}
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Check file changes
+        uses: dorny/paths-filter@v2
+        id: filter
+        with:
+          filters: |
+            ios:
+              - 'ios/**'
+            android:
+              - 'andorid/**'
+            web:
+              - 'web/**'
+  
+  ios-build:
+    needs: check-changes
+    if: ${{ needs.check-changes.outputs.ios == 'true' }}
+    uses: ./.github/workflows/ios-build.yml
+  
+  android-build:
+    needs: check-changes
+    if: ${{ needs.check-changes.outputs.android == 'true' }}
+    uses: ./.github/workflows/android-build.yml
+  
+  web-build:
+    needs: check-changes
+    if: ${{ needs.check-changes.outputs.web == 'true' }}
+    uses: ./.github/workflows/web-build.yml

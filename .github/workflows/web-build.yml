@@ -1,0 +1,72 @@
+name: Web Build Verification
+
+on:
+  push:
+    branches: [ mono ]
+    paths:
+      - 'web/**'
+  pull_request:
+    branches: [ mono ]
+    paths:
+      - 'web/**'
+
+jobs:
+  build:
+    name: Build Web App
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+          cache-dependency-path: 'web/package-lock.json'
+      
+      - name: Install dependencies
+        run: |
+          cd web
+          npm ci
+      
+      - name: Lint
+        run: |
+          cd web
+          npm run lint
+      
+      - name: Build
+        run: |
+          cd web
+          npm run build
+      
+      - name: Upload build artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: web-build
+          path: web/.next
+          
+      - name: Create web distribution package
+        if: github.event_name == 'push' && !contains(github.ref, 'pull')
+        run: |
+          cd web
+          mkdir -p dist
+          tar -czvf dist/web-build.tar.gz .next
+      
+      - name: Create Release
+        if: github.event_name == 'push' && !contains(github.ref, 'pull')
+        id: create_release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: web-${{ github.run_number }}
+          name: Web Build ${{ github.run_number }}
+          draft: false
+          prerelease: false
+          files: web/dist/web-build.tar.gz
+          body: |
+            Web build from commit ${{ github.sha }}
+            
+            This is an automated release from GitHub Actions.
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
