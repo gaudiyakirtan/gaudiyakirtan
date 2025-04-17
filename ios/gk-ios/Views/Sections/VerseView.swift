@@ -55,7 +55,7 @@ struct VerseView: View {
             if let selectedTranslation = validTranslations.first(where: { $0.language == selectedLanguage }) {
                 Text(selectedTranslation.text)
                     .font(.system(size: 14, weight: .semibold))
-                    .foregroundColor(Color.primary)
+                    .foregroundColor(Color("primaryText"))
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
         }

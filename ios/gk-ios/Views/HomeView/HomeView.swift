@@ -7,20 +7,26 @@ struct HomeView: View {
         ScrollView {
             // Use custom spacing for different sections
             VStack(spacing: 0) {
+                // Search bar at the top
+                SearchBar(searchText: $viewModel.searchText, onSettingsClicked: {
+                    viewModel.showSettings = true
+                })
+                .padding(.top, 8)
+                .padding(.bottom, 12)
+                
                 // Songs section with no bottom padding
-                SongsGridView(songs: viewModel.songs)
+                SongsGridView(songs: filteredSongs)
                     .padding(.horizontal)
-                    .padding(.top)
                     .padding(.bottom, 8) // Reduced padding between songs and authors
                 
                 // Other sections with consistent spacing
-                AuthorsScrollView(authors: viewModel.authors)
+                AuthorsScrollView(authors: filteredAuthors)
                     .padding(.vertical, 8)
                 
-                TopicsScrollView(topics: viewModel.topics)
+                TopicsScrollView(topics: filteredTopics)
                     .padding(.vertical, 8)
                 
-                BooksScrollView(books: viewModel.books)
+                BooksScrollView(books: filteredBooks)
                     .padding(.vertical, 8)
 
                 // Verse section
@@ -32,7 +38,7 @@ struct HomeView: View {
                         
                         Text("Śrīla Locana Dāsa Ṭhākura")
                             .fontWeight(.regular)
-                            .foregroundColor(Color.primary)
+                            .foregroundColor(Color("primaryText"))
                     
                         Text("N9")
                             .font(.system(size: 10, weight: .medium))
@@ -52,6 +58,53 @@ struct HomeView: View {
                     }
                 }
                 .padding(.bottom)
+            }
+        }
+        .sheet(isPresented: $viewModel.showSettings) {
+            SettingsSheet(isPresented: $viewModel.showSettings)
+        }
+    }
+    
+    // Filtered data based on search text
+    var filteredSongs: [Song] {
+        if viewModel.searchText.isEmpty {
+            return viewModel.songs
+        } else {
+            return viewModel.songs.filter { song in
+                song.title.localizedCaseInsensitiveContains(viewModel.searchText) ||
+                song.author.localizedCaseInsensitiveContains(viewModel.searchText) ||
+                song.tags.contains { $0.localizedCaseInsensitiveContains(viewModel.searchText) }
+            }
+        }
+    }
+    
+    var filteredAuthors: [Author] {
+        if viewModel.searchText.isEmpty {
+            return viewModel.authors
+        } else {
+            return viewModel.authors.filter { author in
+                author.name.localizedCaseInsensitiveContains(viewModel.searchText)
+            }
+        }
+    }
+    
+    var filteredTopics: [Topic] {
+        if viewModel.searchText.isEmpty {
+            return viewModel.topics
+        } else {
+            return viewModel.topics.filter { topic in
+                topic.name.localizedCaseInsensitiveContains(viewModel.searchText)
+            }
+        }
+    }
+    
+    var filteredBooks: [Book] {
+        if viewModel.searchText.isEmpty {
+            return viewModel.books
+        } else {
+            return viewModel.books.filter { book in
+                book.title.localizedCaseInsensitiveContains(viewModel.searchText) ||
+                (book.author?.localizedCaseInsensitiveContains(viewModel.searchText) ?? false)
             }
         }
     }

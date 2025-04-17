@@ -13,7 +13,7 @@ struct SongCard: View {
                     HStack(alignment: .center) {
                         Text(song.title)
                             .font(.system(size: 14))
-                            .foregroundColor(Color.primary)
+                            .foregroundColor(Color("primaryText"))
                             .lineLimit(1)
                             .layoutPriority(1)
                         

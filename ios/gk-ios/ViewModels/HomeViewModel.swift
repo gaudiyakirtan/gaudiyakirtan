@@ -7,6 +7,8 @@ class HomeViewModel: ObservableObject {
     @Published var topics: [Topic] = []
     @Published var books: [Book] = []
     @Published var verses: [Verse] = []
+    @Published var searchText: String = ""
+    @Published var showSettings: Bool = false
     
     init() {
         setupSampleData()
