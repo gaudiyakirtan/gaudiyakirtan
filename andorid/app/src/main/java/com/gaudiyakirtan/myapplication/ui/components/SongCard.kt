@@ -92,7 +92,7 @@ fun SongCard(
                     if (song.audio) {
                         MusicNote(
                             modifier = Modifier.size(12.dp),
-                            tint = neutralColor
+                            color = neutralColor
                         )
                     }
                 }
