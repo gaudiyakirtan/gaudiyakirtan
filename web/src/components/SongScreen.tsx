@@ -21,7 +21,7 @@ export const SongScreen: React.FC<SongScreenProps> = ({
                 (song.author && song.author.length > 0 ? song.author[0].author : 'Unknown')
   
   return (
-    <div className="w-full max-w-screen-md pt-4 pb-20 mx-auto">
+    <div className="w-full max-w-screen-md pt-4 mx-auto">
       {/* Song Header */}
       <div className="flex flex-col items-center gap-1 mb-3">
         <h1 className="text-3xl text-[var(--highlight)]">

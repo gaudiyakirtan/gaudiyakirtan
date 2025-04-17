@@ -9,11 +9,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: var(--background);
   color: var(--primary);
-}
-
-a {
-  color: var(--highlight);
-  text-decoration: none;
+  overflow-x: hidden;
 }
 
 * {
@@ -27,12 +23,4 @@ a {
 
 .bg-offset-custom {
   background-color: var(--background-offset) !important;
-}
-
-.text-highlight {
-  color: var(--highlight);
-}
-
-.text-neutral {
-  color: var(--neutral);
 }
