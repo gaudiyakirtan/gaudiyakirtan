@@ -7,10 +7,29 @@ struct HomeView: View {
         ScrollView {
             // Use custom spacing for different sections
             VStack(spacing: 0) {
-                // Search bar at the top
-                SearchBar(searchText: $viewModel.searchText, onSettingsClicked: {
-                    viewModel.showSettings = true
-                })
+                // Header with mridanga icon, search bar, and settings button
+                HStack(spacing: 12) {
+                    // Mridanga SVG icon
+                    Image("mridanga")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 28, height: 28)
+                        .foregroundColor(Color("highlight"))
+                    
+                    // Search bar
+                    SearchBar(searchText: $viewModel.searchText)
+                        .frame(maxWidth: .infinity)
+                    
+                    // Settings button
+                    Button(action: {
+                        viewModel.showSettings = true
+                    }) {
+                        Image(systemName: "gearshape.fill")
+                            .foregroundColor(Color.neutral)
+                            .font(.system(size: 20))
+                    }
+                }
+                .padding(.horizontal)
                 .padding(.top, 8)
                 .padding(.bottom, 12)
                 
