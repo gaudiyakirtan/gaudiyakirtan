@@ -26,16 +26,26 @@ const AuthorsPage: React.FC<AuthorsPageProps> = ({ authors }) => {
         <meta name="description" content="Browse Vaishnava authors and composers" />
       </Head>
 
-      <div className="w-full max-w-screen-lg mx-auto pb-12">
-        <h1 className="text-xl font-bold mb-6 px-4 text-[var(--primary)]">Authors</h1>
+      <div className="w-full max-w-screen-xl mx-auto pb-12">
+        <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 px-4">
+          <h1 className="text-xl font-bold text-[var(--primary)]">Authors</h1>
+          <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 mt-4 md:mt-0">
+            <input 
+              type="text" 
+              placeholder="Search authors..."
+              className="px-3 py-1.5 rounded-md bg-[var(--background-offset)] text-[var(--primary)] border border-[var(--border)] focus:outline-none focus:ring-1 focus:ring-[var(--highlight)]"
+            />
+            <select className="px-3 py-1.5 rounded-md bg-[var(--background-offset)] text-[var(--primary)] border border-[var(--border)] focus:outline-none focus:ring-1 focus:ring-[var(--highlight)]">
+              <option>Sort by name</option>
+              <option>Sort by popularity</option>
+              <option>Sort by song count</option>
+            </select>
+          </div>
+        </div>
         
-        <div className="flex flex-wrap gap-4 px-4">
+        <div className="flex flex-wrap justify-center gap-4 px-4">
           {authors.map((author) => (
-            <div 
-              key={author.id} 
-              className="w-full sm:w-[calc(50%-8px)] md:w-[calc(33.333%-11px)] lg:w-[calc(25%-12px)] xl:w-[calc(20%-13px)]"
-              style={{ minHeight: '180px' }}
-            >
+            <div key={author.id}>
               <AuthorCard
                 author={author}
                 onClick={() => handleAuthorClick(author)}
