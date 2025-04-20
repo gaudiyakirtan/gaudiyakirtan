@@ -6,38 +6,46 @@ import { getMediaColor, isColorDark } from "../utils/colors";
 interface BookCardProps {
   book: IBook;
   onClick?: () => void;
+  className?: string;
+  compactSize?: boolean;
 }
 
-export const BookCard: React.FC<BookCardProps> = ({ book, onClick }) => {
+export const BookCard: React.FC<BookCardProps> = ({ 
+  book, 
+  onClick,
+  className = '',
+  compactSize = false
+}) => {
   // Generate color based on book title
   const backgroundColor = getMediaColor(book.title);
   const textColor = isColorDark(backgroundColor) ? "text-white" : "text-black";
 
+  // Define sizing based on compact parameter
+  const sizeClasses = compactSize 
+    ? "w-36 h-48 mx-2 shrink-0" 
+    : "aspect-[2/3] w-full";
+
   return (
     <div
-      className="relative h-48 mx-2 overflow-hidden transition-transform duration-200 rounded-lg shadow-md cursor-pointer w-36 hover:scale-103 shrink-0"
+      className={`relative overflow-hidden transition-all duration-300 cursor-pointer hover:scale-103 rounded-lg shadow-md ${sizeClasses} ${className}`}
       onClick={onClick}
     >
-      {/* Book cover image or color */}
-      <div className="w-full h-full">
-        {book.image ? (
-          <Image
-            src={book.image}
-            alt={book.title}
-            width={144}
-            height={192}
-            className="object-cover w-full h-full"
-          />
-        ) : (
-          <div
-            className="flex items-center justify-center w-full h-full"
-            style={{ backgroundColor }}
-          >
-          </div>
-        )}
-      </div>
-
-      {/* Multiple gradient overlays similar to React Native version */}
+      {/* Book cover */}
+      {book.image ? (
+        <Image
+          src={book.image}
+          alt={book.title}
+          fill
+          className="object-cover w-full h-full"
+        />
+      ) : (
+        <div
+          className="w-full h-full"
+          style={{ backgroundColor }}
+        >
+        </div>
+      )}
+        
       {/* Color gradient overlay */}
       <div
         className="absolute inset-0 bg-gradient-to-t"
@@ -45,28 +53,42 @@ export const BookCard: React.FC<BookCardProps> = ({ book, onClick }) => {
           backgroundImage: `linear-gradient(to top, ${backgroundColor}, ${backgroundColor}00)`,
         }}
       ></div>
-
-      {/* Vertical bottom gradient */}
+      
+      {/* Vertical bottom gradient for text readability */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
-
-      {/* Horizontal left gradient - approximating the complex gradient from React Native */}
-      <div
-        className="absolute inset-0"
-        style={{
-          backgroundImage: `linear-gradient(to right, #191919, rgba(25,25,25,0) 2.58%, rgba(25,25,25,0.5) 5.15%, rgba(25,25,25,0) 8%, rgba(25,25,25,0) 100%)`,
-        }}
-      ></div>
-
-      {/* Book info overlay */}
-      <div className="absolute bottom-0 left-0 right-0 pb-3 pl-4 text-white pr-[1px]">
-        <h3 className="text-lg font-black leading-tight">
-          {book.title}
-        </h3>
-        {book.author && (
-          <p className="text-xs font-medium text-white/90">
+      
+      {/* Metadata badges */}
+      <div className="absolute top-0 right-0 flex justify-end gap-2 p-3">
+        {/* Song count badge - adaptive to space */}
+        {book.songCount > 0 && (
+          <span className="px-2 py-1 text-xs font-medium bg-[var(--highlight)]/80 text-white rounded-full backdrop-blur-sm whitespace-nowrap overflow-hidden">
+            {compactSize ? `${book.songCount}` : `${book.songCount} songs`}
+          </span>
+        )}
+        
+        {/* Year tag */}
+        {book.year && (
+          <span className="px-2 py-1 text-xs font-medium text-white bg-black/30 backdrop-blur-sm rounded-full">
+            {book.year}
+          </span>
+        )}
+      </div>
+      
+      {/* Book info at bottom */}
+      <div className="absolute bottom-0 left-0 right-0">
+        <div className="relative z-10 p-3 pb-3">
+          <h3 className="text-base font-bold text-white leading-tight mb-2 line-clamp-2">
+            {book.title}
+          </h3>
+          <p 
+            className="text-xs font-medium line-clamp-2 max-w-full mix-blend-lighten opacity-80"
+            style={{ 
+              color: isColorDark(backgroundColor) ? 'rgba(255, 255, 255, 0.7)' : 'rgba(0, 0, 0, 0.75)'
+            }}
+          >
             {book.author}
           </p>
-        )}
+        </div>
       </div>
     </div>
   );

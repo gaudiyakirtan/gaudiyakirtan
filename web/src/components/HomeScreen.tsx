@@ -49,18 +49,36 @@ export const HomeScreen: React.FC = () => {
     <div className="w-full pt-4 pb-20 mx-auto max-w-screen-2xl">
       {/* Header/Search area would go here */}
 
-        {/* Topics and Authors Sections */}
-        <div className="flex flex-col gap-4 md:flex-row">
-          <div className="w-full md:w-1/2">
-            <TopicsSection topics={topics} onTopicClick={handleTopicClick} />
-          </div>
-          <div className="w-full md:w-1/2">
-            <AuthorsSection authors={authors} onAuthorClick={handleAuthorClick} />
-          </div>
-        </div>
-        
-        {/* Books Section */}
-      <BooksSection books={books} onBookClick={handleBookClick} />
+      {/* Topics Section */}
+      <div className="mb-8">
+        <TopicsSection 
+          topics={topics} 
+          onTopicClick={handleTopicClick}
+          title="Browse by Topics"
+          limit={8}
+          viewAllLink="/topics"
+        />
+      </div>
+      
+      {/* Authors Section */}
+      <div className="mb-8">
+        <AuthorsSection 
+          authors={authors} 
+          onAuthorClick={handleAuthorClick}
+          title="Popular Authors"
+          limit={10}
+          viewAllLink="/authors"
+        />
+      </div>
+      
+      {/* Books Section */}
+      <BooksSection 
+        books={books} 
+        onBookClick={handleBookClick}
+        title="Featured Books"
+        viewAllLink="/books"
+        gridLayout={false}
+      />
 
       {/* Songs Section */}
       <SongsSection

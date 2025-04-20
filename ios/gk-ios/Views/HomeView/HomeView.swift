@@ -42,7 +42,7 @@ struct HomeView: View {
                 AuthorsScrollView(authors: filteredAuthors)
                     .padding(.vertical, 8)
                 
-                TopicsScrollView(topics: filteredTopics)
+                TopicsScrollView(topics: filteredTopics, songs: viewModel.songs)
                     .padding(.vertical, 8)
                 
                 BooksScrollView(books: filteredBooks)

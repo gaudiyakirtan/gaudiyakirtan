@@ -20,38 +20,38 @@ import androidx.core.view.WindowCompat
  * Dark color scheme (Shyam) for the Gaudiya Kirtan application
  */
 private val DarkColorScheme = darkColorScheme(
-    primary = ShyamPrimary,
-    onPrimary = Color.Black,
-    secondary = ShyamSecondary,
-    onSecondary = Color.Black,
-    tertiary = ShyamNeutral, // Using ShyamNeutral for tertiary to match iOS
-    onTertiary = Color.Black,
-    background = ShyamBackground,
-    onBackground = ShyamPrimary,
-    surface = ShyamBackgroundOffset,
-    onSurface = ShyamPrimary,
-    outline = ShyamBorder,
-    surfaceVariant = ShyamHighlight,
-    onSurfaceVariant = Color.Black
+    primary = ShyamHighlight,        // Primary color (golden in dark mode)
+    onPrimary = ShyamOnHighlight,    // Text on primary color
+    secondary = ShyamSecondary,      // Secondary color
+    onSecondary = Color.Black,       // Text on secondary color
+    tertiary = ShyamTertiary,        // Tertiary color for muted text
+    onTertiary = Color.Black,        // Text on tertiary color
+    background = ShyamBackground,    // Background color
+    onBackground = ShyamPrimary,     // Text on background
+    surface = ShyamBackgroundOffset, // Surface color for cards
+    onSurface = ShyamPrimary,        // Text on surface
+    outline = ShyamBorder,           // Border color
+    surfaceVariant = ShyamHighlight, // Used for buttons and elements
+    onSurfaceVariant = ShyamOnHighlight // Text on surfaceVariant
 )
 
 /**
  * Light color scheme (Gaur) for the Gaudiya Kirtan application
  */
 private val LightColorScheme = lightColorScheme(
-    primary = GaurPrimary,
-    onPrimary = Color.White,
-    secondary = GaurSecondary,
-    onSecondary = Color.White,
-    tertiary = GaurNeutral, // Using GaurNeutral for tertiary to match iOS
-    onTertiary = Color.White,
-    background = GaurBackground,
-    onBackground = GaurPrimary,
-    surface = GaurBackgroundOffset,
-    onSurface = GaurPrimary,
-    outline = GaurBorder,
-    surfaceVariant = GaurHighlight,
-    onSurfaceVariant = Color.White
+    primary = GaurHighlight,        // Primary color (golden tan)
+    onPrimary = GaurOnHighlight,    // Text on primary color
+    secondary = GaurSecondary,      // Secondary color
+    onSecondary = Color.White,      // Text on secondary color
+    tertiary = GaurTertiary,        // Tertiary color for muted text
+    onTertiary = Color.White,       // Text on tertiary color
+    background = GaurBackground,    // Background color (warm cream)
+    onBackground = GaurPrimary,     // Text on background
+    surface = GaurBackgroundOffset, // Surface color for cards (warm beige)
+    onSurface = GaurPrimary,        // Text on surface
+    outline = GaurBorder,           // Border color
+    surfaceVariant = GaurHighlight, // Used for buttons and elements
+    onSurfaceVariant = GaurOnHighlight // Text on surfaceVariant
 )
 
 /**

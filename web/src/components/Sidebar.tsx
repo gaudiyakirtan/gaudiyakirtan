@@ -133,7 +133,13 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
   const [expandedCollection, setExpandedCollection] = useState("col1");
 
   const isActive = (path: string) => {
-    return router.pathname === path;
+    // Check if the current path exactly matches the given path
+    if (router.pathname === path) return true;
+    
+    // Check if the current path is a subpath (e.g., /songs/123 matches /songs)
+    if (path !== '/' && router.pathname.startsWith(path + '/')) return true;
+    
+    return false;
   };
 
   return (

@@ -2,22 +2,44 @@ import SwiftUI
 
 struct TopicCard: View {
     let topic: Topic
+    var songCount: Int? = nil
+    var action: () -> Void = {}
     
     var body: some View {
-        ZStack(alignment: .topLeading) {  // Changed to topLeading alignment
-            getMediaColor(media: topic.name)
-                .frame(width: 176, height: 96)
-                .cornerRadius(12)
-            
-            Text(topic.name)
-                .font(.system(size: 20, weight: .bold))
-                .foregroundColor(.white)
-                .padding(.leading, 24)
-                .padding(.top, 24)
-                .fixedSize(horizontal: false, vertical: true)
-                .lineLimit(2)
-                .frame(maxWidth: 140, alignment: .leading)
+        Button(action: action) {
+            ZStack {
+                // Background
+                getMediaColor(media: topic.name)
+                    .frame(width: 176, height: 108) // Match web minHeight of 108px
+                    .cornerRadius(12)
+                
+                // Content
+                VStack(alignment: .leading, spacing: 0) {
+                    // Topic name with fixed height to match web
+                    Text(topic.name)
+                        .font(.system(size: 16, weight: .bold)) // Match web text-base
+                        .foregroundColor(.white)
+                        .lineSpacing(3) // To approximate web lineHeight: 1.2
+                        .lineLimit(2)
+                        .truncationMode(.tail) // Explicitly ensure truncation
+                        .frame(width: 136, height: 48, alignment: .topLeading) // Fixed width to ensure truncation
+                    
+                    Spacer()
+                    
+                    // Song count (if provided)
+                    if let count = songCount {
+                        Text("\(count) songs")
+                            .font(.system(size: 12)) // Match web text-xs
+                            .foregroundColor(.white.opacity(0.8)) // Match web opacity-80
+                            .padding(.top, 4) // Match web mt-1
+                            .lineLimit(1)
+                    }
+                }
+                .padding(20) // Match web padding of 1.25rem
+                .frame(width: 176, alignment: .topLeading) // Fixed width to match card dimensions
+            }
         }
+        .buttonStyle(PlainButtonStyle())
     }
 }
 

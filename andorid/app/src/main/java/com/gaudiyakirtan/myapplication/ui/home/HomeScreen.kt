@@ -56,7 +56,7 @@ fun HomeScreen(
             ) {
                 SongsSection(songs = songs)
                 AuthorsSection(authors = authors)
-                TopicsSection(topics = topics)
+                TopicsSection(topics = topics, songs = songs)
                 BooksSection(books = books)
         
                 // Featured Song Section - Styled to match iOS exactly

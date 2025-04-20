@@ -20,7 +20,10 @@ import com.gaudiyakirtan.myapplication.models.Book
 import com.gaudiyakirtan.myapplication.ui.theme.getMediaColor
 
 @Composable
-fun BookCard(book: Book) {
+fun BookCard(
+    book: Book,
+    onClick: () -> Unit = {}
+) {
     // Get the media color for this book (will be used for placeholder)
     val mediaColor = getMediaColor(book.title)
     
@@ -64,7 +67,7 @@ fun BookCard(book: Book) {
                     fontWeight = FontWeight.Black,
                     lineHeight = 20.sp
                 ),
-                color = Color.White,
+                color = MaterialTheme.colorScheme.onPrimary,
                 maxLines = 3,
                 overflow = TextOverflow.Ellipsis,
                 modifier = Modifier.width(100.dp)
@@ -79,7 +82,7 @@ fun BookCard(book: Book) {
                         fontSize = 10.sp,
                         fontWeight = FontWeight.Medium,
                     ),
-                    color = Color.White,
+                    color = MaterialTheme.colorScheme.onPrimary,
                     maxLines = 2,
                     overflow = TextOverflow.Ellipsis,
                     modifier = Modifier.width(100.dp)
@@ -118,7 +121,7 @@ private fun GradientOverlays(book: Book) {
                 .background(
                     Brush.verticalGradient(
                         colors = listOf(
-                            Color.Black.copy(alpha = 0.5f),
+                            MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f),
                             Color.Transparent
                         ),
                         startY = Float.POSITIVE_INFINITY,

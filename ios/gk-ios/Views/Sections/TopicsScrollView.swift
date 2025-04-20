@@ -2,6 +2,12 @@ import SwiftUI
 
 struct TopicsScrollView: View {
     let topics: [Topic]
+    let songs: [Song]
+    
+    init(topics: [Topic], songs: [Song] = []) {
+        self.topics = topics
+        self.songs = songs
+    }
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -14,7 +20,12 @@ struct TopicsScrollView: View {
                 HStack(spacing: 12) {
                     Spacer().frame(width: 6)
                     ForEach(topics) { topic in
-                        TopicCard(topic: topic)
+                        // Count songs for this topic (matching by topic name to any tag)
+                        let songCount = songs.filter { song in
+                            song.tags.contains(where: { $0.lowercased() == topic.name.lowercased() })
+                        }.count
+                        
+                        TopicCard(topic: topic, songCount: songCount)
                     }
                 }
             }

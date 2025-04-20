@@ -6,11 +6,13 @@ import Sidebar from "./Sidebar";
 interface LayoutProps {
   children: React.ReactNode;
   title?: string;
+  subtitle?: string;
 }
 
 export const Layout: React.FC<LayoutProps> = ({
   children,
   title = "Gaudiya Kirtan",
+  subtitle,
 }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const router = useRouter();
@@ -92,7 +94,15 @@ export const Layout: React.FC<LayoutProps> = ({
                   ? "Resources"
                   : ""}
               </span>
-              {router.pathname !== "/" && (
+              
+              {subtitle && (
+                <>
+                  <span className="text-[var(--tertiary)]">/</span>
+                  <span className="ml-2 text-[var(--tertiary)] truncate max-w-[150px] sm:max-w-[300px]">{subtitle}</span>
+                </>
+              )}
+              
+              {router.pathname !== "/" && !subtitle && (
                 <span className="text-[var(--tertiary)]">/</span>
               )}
             </div>

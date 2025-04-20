@@ -14,7 +14,10 @@ import coil3.compose.AsyncImage
 import com.gaudiyakirtan.myapplication.models.Author
 
 @Composable
-fun AuthorCard(author: Author) {
+fun AuthorCard(
+    author: Author,
+    onClick: () -> Unit = {}
+) {
     Column(
         modifier = Modifier.width(120.dp),
         horizontalAlignment = Alignment.CenterHorizontally

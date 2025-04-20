@@ -141,12 +141,7 @@ fun AppNavigation() {
             composable(Tab.Home.route) { HomeScreen() }
             
             composable(Tab.Library.route) { 
-                // Placeholder for Library screen
-                Text(
-                    text = "Library", 
-                    style = MaterialTheme.typography.headlineMedium,
-                    modifier = Modifier.padding(innerPadding)
-                ) 
+                com.gaudiyakirtan.myapplication.ui.library.LibraryScreen()
             }
             
             composable(Tab.Collection.route) { 

@@ -6,28 +6,51 @@ interface AuthorsSectionProps {
   authors: IAuthor[]
   title?: string
   onAuthorClick?: (author: IAuthor) => void
+  className?: string
+  limit?: number
+  viewAllLink?: string
 }
 
 export const AuthorsSection: React.FC<AuthorsSectionProps> = ({ 
   authors,
   title = 'Authors',
-  onAuthorClick
+  onAuthorClick,
+  className = "",
+  limit,
+  viewAllLink
 }) => {
   if (!authors.length) return null
 
+  // Limit the number of authors if limit is provided
+  const displayAuthors = limit ? authors.slice(0, limit) : authors
+
   return (
-    <div className="">
-      <h2 className="text-xl font-bold text-[var(--primary)] mb-4 px-4">{title}</h2>
-      <div className="flex pt-1 pb-4 overflow-x-auto no-scrollbar">
-        <div className="pl-4"></div>
-        {authors.map((author, index) => (
-          <AuthorCard
+    <div className={className}>
+      <div className="flex items-center justify-between px-4 mb-4">
+        <h2 className="text-xl font-bold text-[var(--primary)]">{title}</h2>
+        {viewAllLink && (
+          <a 
+            href={viewAllLink}
+            className="text-sm text-[var(--highlight)] hover:underline"
+          >
+            View All →
+          </a>
+        )}
+      </div>
+      
+      <div className="flex flex-wrap gap-4 px-4">
+        {displayAuthors.map((author, index) => (
+          <div 
+            className="w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] md:w-[calc(25%-12px)] lg:w-[calc(20%-13px)] xl:w-[calc(16.666%-14px)]"
+            style={{ minHeight: '180px' }}
             key={`author-${index}-${author.name}`}
-            author={author}
-            onClick={() => onAuthorClick && onAuthorClick(author)}
-          />
+          >
+            <AuthorCard
+              author={author}
+              onClick={() => onAuthorClick && onAuthorClick(author)}
+            />
+          </div>
         ))}
-        <div className="pr-4"></div>
       </div>
     </div>
   )

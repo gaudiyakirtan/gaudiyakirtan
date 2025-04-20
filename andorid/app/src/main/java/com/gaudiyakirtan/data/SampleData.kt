@@ -61,23 +61,72 @@ object SampleData {
         Song(
             title = "Akrodha Paramānanda",
             author = "Śrīla Locana Dāsa Ṭhākura",
-            uid = "N9",
+            uid = "LD1",
             audio = true,
             tags = listOf("Nityananda", "Bhakti", "Mercy")
         ),
         Song(
+            title = "Bhaja Govinda",
+            author = "Śrīla Rūpa Gosvāmī",
+            uid = "RG01",
+            audio = true,
+            tags = listOf("Krishna", "Govinda", "Bhajan")
+        ),
+        Song(
+            title = "Cintāmaṇi",
+            author = "Narottama Dāsa Ṭhākura",
+            uid = "N25",
+            audio = false,
+            tags = listOf("Vrindavan", "Spiritual", "Devotion")
+        ),
+        Song(
             title = "Emona Durmati",
             author = "Bhaktivinoda Ṭhākura",
-            uid = "N15",
+            uid = "BVT1",
             audio = true,
             tags = listOf("Devotional", "Worship", "Prayer")
         ),
         Song(
-            title = "Gaurangera Duti Pada",
+            title = "Gaurāṅga Bolite Habe",
             author = "Narottama Dāsa Ṭhākura",
-            uid = "N23",
+            uid = "ND2",
             audio = true,
             tags = listOf("Gauranga", "Chanting", "Names")
+        ),
+        Song(
+            title = "Hari Hari Bifale",
+            author = "Narottama Dāsa Ṭhākura",
+            uid = "N1",
+            audio = true,
+            tags = listOf("Devotional", "Spiritual", "Regret")
+        ),
+        Song(
+            title = "Jaya Rādhā-Mādhava",
+            author = "Bhaktivinoda Ṭhākura",
+            uid = "BVT9",
+            audio = true,
+            tags = listOf("Radha", "Krishna", "Divine Couple")
+        ),
+        Song(
+            title = "Manaḥ-śikṣā",
+            author = "Śrīla Rūpa Gosvāmī",
+            uid = "RG12",
+            audio = false,
+            tags = listOf("Instruction", "Mind", "Discipline")
+        ),
+        Song(
+            title = "Śrī Rūpa Mañjarī Pada",
+            author = "Narottama Dāsa Ṭhākura",
+            uid = "ND3",
+            audio = false,
+            tags = listOf("Rupa Manjari", "Service", "Radha")
+        ),
+        Song(
+            title = "Yasomati-nandana",
+            author = "Bhaktivinoda Ṭhākura",
+            uid = "BVT14",
+            audio = true,
+            tags = listOf("Krishna", "Yasoda", "Vrindavan")
         )
     )
 

@@ -5,33 +5,49 @@ import { getMediaColor, isColorDark } from '../utils/colors'
 interface TopicCardProps {
   topic: ITopic
   onClick?: () => void
+  songCount?: number
+  className?: string
+  gridMode?: boolean
 }
 
-export const TopicCard: React.FC<TopicCardProps> = ({ topic, onClick }) => {
+export const TopicCard: React.FC<TopicCardProps> = ({ 
+  topic, 
+  onClick, 
+  songCount,
+  className = "",
+}) => {
   const bgColor = getMediaColor(topic.name)
   const isDark = isColorDark(bgColor)
   const textColor = isDark ? 'text-white' : 'text-black'
 
+  // Use fixed height and width for consistency
+  const containerStyle = { 
+    backgroundColor: bgColor,
+    minHeight: '108px',  // Fixed height based on screenshot
+    width: '100%'
+  }
+
   return (
     <div 
-      className="mx-2 overflow-hidden transition-transform cursor-pointer rounded-xl shrink-0 hover:scale-105" 
-      style={{ 
-        backgroundColor: bgColor,
-        width: '176px',
-        height: '96px' 
-      }}
+      className={`overflow-hidden transition-transform cursor-pointer rounded-xl hover:scale-103 ${className}`}
+      style={containerStyle}
       onClick={onClick}
     >
-      <div className="w-full h-full p-0">
-        <p 
-          className={`text-xl font-bold ${textColor} text-left pl-6 pt-6 line-clamp-2`}
-          style={{ 
-            maxWidth: '140px',
-            lineHeight: '1.2'
-          }}
-        >
-          {topic.name}
-        </p>
+      <div className="flex flex-col justify-between w-full h-full p-[1.25rem]">
+        <div className="min-h-[48px]">
+          <p 
+            className={`text-base font-bold ${textColor} text-left line-clamp-2`}
+            style={{ lineHeight: '1.2' }}
+          >
+            {topic.name}
+          </p>
+        </div>
+        
+        {songCount !== undefined && (
+          <p className={`${textColor} text-xs mt-1 opacity-80`}>
+            {songCount} songs
+          </p>
+        )}
       </div>
     </div>
   )

@@ -75,9 +75,13 @@ export const getStaticProps: GetStaticProps = async ({ params }) => {
     }
   }
 
+  // Get the English title or fallback to the first available title
+  const title = song.title.find(t => t.language === 'en')?.title || song.title[0].title
+
   return {
     props: {
-      song
+      song,
+      subtitle: title // Add the subtitle for the header breadcrumb
     },
     revalidate: 60 * 60 // Revalidate every hour
   }
