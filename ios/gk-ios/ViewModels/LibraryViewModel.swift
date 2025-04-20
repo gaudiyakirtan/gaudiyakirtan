@@ -8,6 +8,7 @@ class LibraryViewModel: ObservableObject {
     @Published var topics: [Topic] = []
     @Published var books: [Book] = []
     @Published var searchText: String = ""
+    @Published var scrollTarget: String? = nil
     
     enum Category: String, CaseIterable, Identifiable {
         case songs = "Songs"

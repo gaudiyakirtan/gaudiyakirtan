@@ -20,24 +20,19 @@ struct LibraryView: View {
             .padding(.horizontal)
             
             // Content based on selected category
-            ScrollView {
-                VStack(spacing: 16) {
-                    switch viewModel.selectedCategory {
-                    case .songs:
-                        songsContent
-                            .padding(.horizontal)
-                    case .authors:
-                        authorsContent
-                    case .topics:
-                        topicsContent
-                    case .books:
-                        booksContent
-                    }
-                }
-                .padding(.bottom, 16)
+            switch viewModel.selectedCategory {
+            case .songs:
+                songsContent
+                    .padding(.horizontal)
+            case .authors:
+                authorsContent
+            case .topics:
+                topicsContent
+            case .books:
+                booksContent
             }
             
-            Spacer()
+            Spacer(minLength: 0)
         }
         .background(Color.background)
     }
@@ -45,10 +40,13 @@ struct LibraryView: View {
     // MARK: - Category Content Views
     
     private var songsContent: some View {
-        VStack(spacing: 16) {
-            ForEach(viewModel.filteredSongs) { song in
-                SongListItem(song: song)
-            }
+        AlphabeticalScrollView(
+            scrollTarget: $viewModel.scrollTarget,
+            items: viewModel.filteredSongs,
+            sectionKeyPath: \.title
+        ) { song in
+            SongListItem(song: song)
+                .padding(.trailing, 32) // Increase padding to create more space between list and index
         }
     }
     

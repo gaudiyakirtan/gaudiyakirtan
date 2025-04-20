@@ -51,16 +51,3 @@ struct SongListItem: View {
         .cornerRadius(12)
     }
 }
-
-#Preview {
-    SongListItem(song: Song(
-        title: "Akrodha Paramānanda",
-        author: "Śrīla Locana Dāsa Ṭhākura",
-        uid: "LD1",
-        audio: true,
-        tags: ["Nityananda", "Bhakti", "Mercy"]
-    ))
-    .previewLayout(.sizeThatFits)
-    .padding()
-    .background(Color.background)
-}

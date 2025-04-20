@@ -25,28 +25,3 @@ struct CategorySelector<T: Identifiable & RawRepresentable>: View where T.RawVal
         }
     }
 }
-
-#Preview {
-    struct PreviewCategory: Identifiable, RawRepresentable {
-        var id: String { rawValue }
-        var rawValue: String
-        
-        init(rawValue: String) {
-            self.rawValue = rawValue
-        }
-        
-        static let category1 = PreviewCategory(rawValue: "Category 1")
-        static let category2 = PreviewCategory(rawValue: "Category 2")
-        static let category3 = PreviewCategory(rawValue: "Category 3")
-    }
-    
-    return CategorySelector(
-        selection: .constant(PreviewCategory.category1),
-        categories: [
-            PreviewCategory.category1,
-            PreviewCategory.category2,
-            PreviewCategory.category3
-        ]
-    )
-    .previewLayout(.sizeThatFits)
-}
