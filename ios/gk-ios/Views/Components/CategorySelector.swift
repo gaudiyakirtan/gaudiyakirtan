@@ -15,7 +15,7 @@ struct CategorySelector<T: Identifiable & RawRepresentable>: View where T.RawVal
                             .font(.system(size: 14, weight: .medium))
                             .padding(.vertical, 8)
                             .padding(.horizontal, 16)
-                            .background(selection == category ? Color.primary : Color.backgroundOffset)
+                            .background(selection == category ? Color.highlight : Color.backgroundOffset)
                             .foregroundColor(selection == category ? Color.background : Color.neutral)
                             .cornerRadius(16)
                     }

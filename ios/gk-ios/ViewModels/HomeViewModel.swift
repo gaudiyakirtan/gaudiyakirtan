@@ -7,6 +7,7 @@ class HomeViewModel: ObservableObject {
     @Published var topics: [Topic] = []
     @Published var books: [Book] = []
     @Published var verses: [Verse] = []
+    @Published var collections: [Collection] = []
     @Published var searchText: String = ""
     @Published var showSettings: Bool = false
     
@@ -23,6 +24,14 @@ class HomeViewModel: ObservableObject {
             Author(name: "Govinda Dāsa", image: "govinda_das"),
             Author(name: "Vāsudeva Ghoṣa", image: "vasudeva_ghosh"),
             Author(name: "Śrīla Rūpa Gosvāmī", image: "rupa_goswami")
+        ]
+        
+        // Sample Collections
+        collections = [
+            Collection(name: "Favorites", type: .bookmark, songIds: ["LD1", "BVT1", "ND2"]),
+            Collection(name: "Kartik Songs", type: .playlist, songIds: ["N25", "ND3", "BVT14", "RG12"]),
+            Collection(name: "IPBYS", type: .playlist, songIds: ["RG01", "N1"]),
+            Collection(name: "Memorize", type: .bookmark, songIds: ["BVT9", "ND2", "LD1"])
         ]
         
         // Sample Topics

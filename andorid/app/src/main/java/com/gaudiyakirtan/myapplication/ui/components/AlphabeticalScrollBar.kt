@@ -53,9 +53,9 @@ fun AlphabeticalScrollBar(
         Box(
             modifier = Modifier
                 .fillMaxHeight()
-                .width(20.dp)
+                .width(18.dp)
                 .padding(vertical = 10.dp)
-                .clip(RoundedCornerShape(12.dp))
+                .clip(RoundedCornerShape(topStart = 8.dp, bottomStart = 8.dp, topEnd = 0.dp, bottomEnd = 0.dp))
                 .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.2f))
                 .align(Alignment.CenterEnd)
         )
@@ -83,7 +83,7 @@ fun AlphabeticalScrollBar(
         Column(
             modifier = Modifier
                 .fillMaxHeight()
-                .width(20.dp)
+                .width(18.dp)
                 .padding(vertical = 10.dp)
                 .align(Alignment.CenterEnd)
                 .pointerInput(Unit) {

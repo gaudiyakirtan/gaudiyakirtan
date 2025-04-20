@@ -107,7 +107,7 @@ private fun SongsContent(
     Box(modifier = modifier) {
         LazyColumn(
             state = lazyListState,
-            contentPadding = PaddingValues(start = 16.dp, end = 44.dp, bottom = 16.dp),
+            contentPadding = PaddingValues(start = 16.dp, end = 32.dp, bottom = 16.dp),
             verticalArrangement = Arrangement.spacedBy(8.dp),
             modifier = Modifier.fillMaxSize()
         ) {

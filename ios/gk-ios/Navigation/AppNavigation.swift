@@ -1,4 +1,5 @@
 import SwiftUI
+import Foundation
 
 struct AppNavigation: View {
     @State private var selection: Tab = .home
@@ -60,7 +61,7 @@ struct AppNavigation: View {
                     }
                     .background(Color.background)
 
-                Text("Collection")
+                CollectionsView()
                     .tag(Tab.collection)
                     .tabItem {
                         Image(
@@ -69,7 +70,7 @@ struct AppNavigation: View {
                         )
                         .renderingMode(.template)
                         .foregroundColor(Color.neutral)
-                        Text("Collection")
+                        Text("Collections")
                             .foregroundColor(Color.neutral)
                     }
 

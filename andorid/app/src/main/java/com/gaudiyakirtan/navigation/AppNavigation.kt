@@ -21,6 +21,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import com.gaudiyakirtan.myapplication.R
+import com.gaudiyakirtan.myapplication.ui.collections.CollectionsScreen
 import com.gaudiyakirtan.myapplication.ui.home.HomeScreen
 import com.gaudiyakirtan.myapplication.ui.theme.GaurNeutral
 import com.gaudiyakirtan.myapplication.ui.theme.ShyamNeutral
@@ -145,12 +146,7 @@ fun AppNavigation() {
             }
             
             composable(Tab.Collection.route) { 
-                // Placeholder for Collection screen
-                Text(
-                    text = "Collection", 
-                    style = MaterialTheme.typography.headlineMedium,
-                    modifier = Modifier.padding(innerPadding)
-                ) 
+                CollectionsScreen()
             }
             
             composable(Tab.Search.route) { 

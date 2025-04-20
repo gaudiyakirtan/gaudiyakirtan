@@ -25,6 +25,29 @@ object SampleData {
         Topic(name = "Sri Krishna"),
         Topic(name = "Bhajan")
     )
+    
+    val collections = listOf(
+        Collection(
+            name = "Favorites",
+            type = CollectionType.BOOKMARK,
+            songIds = listOf("LD1", "BVT1", "ND2")
+        ),
+        Collection(
+            name = "Kartik Songs",
+            type = CollectionType.PLAYLIST,
+            songIds = listOf("N25", "ND3", "BVT14", "RG12")
+        ),
+        Collection(
+            name = "IPBYS",
+            type = CollectionType.PLAYLIST,
+            songIds = listOf("RG01", "N1")
+        ),
+        Collection(
+            name = "Memorize",
+            type = CollectionType.BOOKMARK,
+            songIds = listOf("BVT9", "ND2", "LD1")
+        )
+    )
 
     val books = listOf(
         Book(

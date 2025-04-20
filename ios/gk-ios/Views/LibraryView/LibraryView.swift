@@ -46,7 +46,7 @@ struct LibraryView: View {
             sectionKeyPath: \.title
         ) { song in
             SongListItem(song: song)
-                .padding(.trailing, 32) // Increase padding to create more space between list and index
+                .padding(.trailing, 20) // Reduced padding for list items
         }
     }
     

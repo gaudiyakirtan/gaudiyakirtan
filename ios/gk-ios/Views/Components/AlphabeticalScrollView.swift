@@ -1,6 +1,24 @@
 import SwiftUI
 
 struct AlphabeticalScrollView<Content: View, T: Identifiable>: View {
+    // Helper functions to simplify expressions
+    private func getTextColor(section: (letter: String, isAvailable: Bool)) -> Color {
+        if !section.isAvailable {
+            return Color.neutral.opacity(0.3)
+        } else if activeIndex == section.letter {
+            return Color.background
+        } else {
+            return Color.neutral
+        }
+    }
+    
+    private func getBackgroundColor(section: (letter: String, isAvailable: Bool)) -> Color {
+        if activeIndex == section.letter && section.isAvailable {
+            return Color.highlight
+        } else {
+            return Color.clear
+        }
+    }
     @Binding var scrollTarget: String?
     @State private var activeIndex: String? = nil
     let items: [T]
@@ -97,7 +115,7 @@ struct AlphabeticalScrollView<Content: View, T: Identifiable>: View {
                                 .font(.system(size: 70, weight: .bold))
                                 .foregroundColor(Color.background)
                                 .padding(20)
-                                .background(Color("primary").opacity(0.7))
+                                .background(Color.highlight.opacity(0.7))
                                 .clipShape(Circle())
                                 .transition(.scale.combined(with: .opacity))
                         }
@@ -123,14 +141,8 @@ struct AlphabeticalScrollView<Content: View, T: Identifiable>: View {
                                 .font(.system(size: 11))
                                 .fontWeight(.semibold)
                                 .frame(width: 16, height: itemHeight)
-                                .foregroundColor(section.isAvailable 
-                                    ? (activeIndex == section.letter ? Color.background : Color.neutral) 
-                                    : Color.neutral.opacity(0.3))
-                                .background(
-                                    activeIndex == section.letter && section.isAvailable 
-                                        ? Color("primary")
-                                        : Color.clear
-                                )
+                                .foregroundColor(getTextColor(section: section))
+                                .background(getBackgroundColor(section: section))
                                 .clipShape(Circle())
                                 .contentShape(Rectangle())
                                 .onTapGesture {
@@ -178,13 +190,13 @@ struct AlphabeticalScrollView<Content: View, T: Identifiable>: View {
                             }
                     )
                     .background(Color.backgroundOffset.opacity(0.5))
-                    .cornerRadius(12)
+                    .cornerRadius(8) // Use standard corner radius since SwiftUI doesn't support per-corner rounding easily
                 }
                 .frame(width: 16)
             }
             .padding(.vertical, 10)
-            .padding(.trailing, 8)
-            .padding(.leading, 12) // Add leading padding to create space between content and index
+            .padding(.trailing, 0) // Remove trailing padding to flush with edge
+            .padding(.leading, 8) // Reduce leading padding between content and index
         }
     }
 }
