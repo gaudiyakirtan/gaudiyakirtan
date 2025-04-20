@@ -25,6 +25,7 @@ struct LibraryView: View {
                     switch viewModel.selectedCategory {
                     case .songs:
                         songsContent
+                            .padding(.horizontal)
                     case .authors:
                         authorsContent
                     case .topics:
@@ -44,12 +45,11 @@ struct LibraryView: View {
     // MARK: - Category Content Views
     
     private var songsContent: some View {
-        LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
+        VStack(spacing: 16) {
             ForEach(viewModel.filteredSongs) { song in
-                SongCard(song: song)
+                SongListItem(song: song)
             }
         }
-        .padding(.horizontal)
     }
     
     private var authorsContent: some View {
@@ -71,12 +71,20 @@ struct LibraryView: View {
     }
     
     private var booksContent: some View {
-        LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
-            ForEach(viewModel.filteredBooks) { book in
-                BookCard(book: book)
+        ScrollView {
+            LazyVGrid(
+                columns: [
+                    GridItem(.adaptive(minimum: 150, maximum: 160), spacing: 16)
+                ],
+                spacing: 16
+            ) {
+                ForEach(viewModel.filteredBooks) { book in
+                    BookCard(book: book)
+                        .frame(height: 192)
+                }
             }
+            .padding(.horizontal)
         }
-        .padding(.horizontal)
     }
 }
 
