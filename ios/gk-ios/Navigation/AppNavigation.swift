@@ -49,7 +49,7 @@ struct AppNavigation: View {
                     }
                     .background(Color.background)
 
-                Text("Library")
+                LibraryView()
                     .tag(Tab.library)
                     .tabItem {
                         Image(selection == .library ? Tab.library.filledIconName : Tab.library.iconName)
@@ -58,6 +58,7 @@ struct AppNavigation: View {
                         Text("Library")
                             .foregroundColor(Color.neutral)
                     }
+                    .background(Color.background)
 
                 Text("Collection")
                     .tag(Tab.collection)

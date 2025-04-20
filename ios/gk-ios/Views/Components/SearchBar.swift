@@ -2,11 +2,12 @@ import SwiftUI
 
 struct SearchBar: View {
     @Binding var searchText: String
+    var placeholder: String = "Search"
     
     var body: some View {
         // Search bar with icon
         HStack {
-            TextField("Search", text: $searchText)
+            TextField(placeholder, text: $searchText)
                 .foregroundColor(Color("primaryText"))
                 .font(.system(size: 16))
                 .disableAutocorrection(true)
@@ -38,5 +39,5 @@ struct SearchBar: View {
 }
 
 #Preview {
-    SearchBar(searchText: .constant(""))
+    SearchBar(searchText: .constant(""), placeholder: "Search for something...")
 }
