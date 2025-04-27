@@ -28,8 +28,13 @@ struct TopicCard: View {
                     
                     // Song count badge at the bottom
                     if let count = songCount {
-                        // Use a semi-transparent white background with blur for a more refined look
-                        let bgColor = Color.white.opacity(0.2)
+                        // Get the topic color and create a styled tag that matches it
+                        let topicColor = getMediaColor(media: topic.name)
+                        
+                        // Create a custom background with topic's hue but semi-transparent
+                        let bgColor = topicColor.opacity(0.4)
+                        
+                        // Use white text for optimal readability on the colored background
                         let textColor = Color.white
                         
                         Tag(
