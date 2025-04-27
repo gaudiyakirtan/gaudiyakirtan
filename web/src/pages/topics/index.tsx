@@ -31,6 +31,7 @@ const TopicsPage: React.FC<TopicsPageProps> = ({ topics }) => {
           topics={topics}
           title="Topics"
           onTopicClick={handleTopicClick}
+          gridLayout={true}
         />
       </div>
     </>

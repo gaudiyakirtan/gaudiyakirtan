@@ -16,12 +16,14 @@ export const TopicCard: React.FC<TopicCardProps> = ({
   onClick, 
   songCount,
   className = "",
+  gridMode = true
 }) => {
   const bgColor = getMediaColor(topic.name)
   const isDark = isColorDark(bgColor)
   const textColor = isDark ? 'text-white' : 'text-black'
 
-  // Use background color but allow the container to adapt to the parent dimensions
+  // Use background color but allow the container to adapt to parent dimensions
+  // with different styles based on grid/horizontal mode
   const containerStyle = { 
     backgroundColor: bgColor,
     width: '100%',
