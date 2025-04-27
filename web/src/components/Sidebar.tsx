@@ -171,7 +171,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className={`fixed top-16 left-0 z-20 h-[calc(100vh-4rem)] bg-[var(--background)] ${sidebarWidth} border-r border-[var(--border)] transition-all duration-300 transform ${
+      className={`fixed top-12 left-0 z-20 h-[calc(100vh-3rem)] bg-[var(--background)] ${sidebarWidth} border-r border-[var(--border)] transition-all duration-300 transform ${
         isOpen ? "translate-x-0" : "-translate-x-full"
       } md:translate-x-0 overflow-visible`}
       onMouseEnter={handleMouseEnter}

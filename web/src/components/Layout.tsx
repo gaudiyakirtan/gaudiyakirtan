@@ -44,7 +44,7 @@ export const Layout: React.FC<LayoutProps> = ({
 
       {/* Header - Now spans full width and sticky */}
       <header className="fixed top-0 left-0 right-0 bg-[var(--background-offset)] border-b border-[var(--border)] z-30">
-        <div className="flex items-center h-16 px-4">
+        <div className="flex items-center h-12 px-4">
           <div className="flex items-center">
             <button
               className="p-2 mr-3 md:hidden"
@@ -73,20 +73,20 @@ export const Layout: React.FC<LayoutProps> = ({
               <img
                 src="/assets/mridanga.svg"
                 alt="Mridanga"
-                className="w-8 h-8 mr-3"
+                className="w-6 h-6 mr-3"
               />
               <img
                 src="/assets/sri-gaudiya-kirtan.svg"
                 alt="Sri Gaudiya Kirtan"
-                className="h-7 hidden sm:block"
+                className="h-5 hidden sm:block"
               />
             </div>
             
             {/* Divider */}
-            <div className="h-8 border-l border-[var(--border)] mx-3 hidden sm:block"></div>
+            <div className="h-6 border-l border-[var(--border)] mx-3 hidden sm:block"></div>
 
             <div className="flex items-center">
-              <span className="mr-2 text-[var(--tertiary)]">
+              <span className="mr-2 text-[var(--tertiary)] text-sm">
                 {router.pathname === "/"
                   ? "Home"
                   : router.pathname.startsWith("/songs")
@@ -106,24 +106,24 @@ export const Layout: React.FC<LayoutProps> = ({
               
               {subtitle && (
                 <>
-                  <span className="text-[var(--tertiary)]">/</span>
-                  <span className="ml-2 text-[var(--tertiary)] truncate max-w-[150px] sm:max-w-[300px]">{subtitle}</span>
+                  <span className="text-[var(--tertiary)] text-sm">/</span>
+                  <span className="ml-2 text-[var(--tertiary)] text-sm truncate max-w-[150px] sm:max-w-[300px]">{subtitle}</span>
                 </>
               )}
               
               {router.pathname !== "/" && !subtitle && (
-                <span className="text-[var(--tertiary)]">/</span>
+                <span className="text-[var(--tertiary)] text-sm">/</span>
               )}
             </div>
           </div>
 
           <div className="flex-1 px-4">
             <div className="relative max-w-md ml-auto">
-              <div className="flex items-center px-3 py-2 bg-[var(--highlight)]/20 dark:bg-[var(--tertiary)]/20 rounded-lg">
+              <div className="flex items-center px-2 py-1 bg-[var(--highlight)]/20 dark:bg-[var(--tertiary)]/20 rounded-lg">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
-                  width="18"
-                  height="18"
+                  width="16"
+                  height="16"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -215,7 +215,7 @@ export const Layout: React.FC<LayoutProps> = ({
         </div>
       </header>
 
-      <div className="flex flex-1 overflow-hidden pt-16">
+      <div className="flex flex-1 overflow-hidden pt-12">
         {/* Sidebar - Now below header */}
         <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
