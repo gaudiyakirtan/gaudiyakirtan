@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import Sidebar from "./Sidebar";
+import { useTheme } from "../utils/ThemeContext";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -16,6 +17,7 @@ export const Layout: React.FC<LayoutProps> = ({
 }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const router = useRouter();
+  const { theme, toggleTheme } = useTheme();
 
   // Close sidebar on route change on mobile
   useEffect(() => {
@@ -162,7 +164,12 @@ export const Layout: React.FC<LayoutProps> = ({
             </div>
           </div>
 
-          <button className="p-2">
+          <button 
+            className="p-2 relative overflow-hidden group"
+            onClick={toggleTheme}
+            aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
+          >
+            {/* Sun icon (visible in light mode) */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -173,7 +180,7 @@ export const Layout: React.FC<LayoutProps> = ({
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="text-[var(--tertiary)]"
+              className={`text-[var(--tertiary)] transition-opacity duration-300 absolute top-2 left-2 ${theme === 'dark' ? 'opacity-0' : 'opacity-100'}`}
             >
               <circle cx="12" cy="12" r="4" />
               <path d="M12 2v2" />
@@ -184,6 +191,22 @@ export const Layout: React.FC<LayoutProps> = ({
               <path d="M20 12h2" />
               <path d="m6.34 17.66-1.41 1.41" />
               <path d="m19.07 4.93-1.41 1.41" />
+            </svg>
+            
+            {/* Moon icon (visible in dark mode) */}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className={`text-[var(--tertiary)] transition-opacity duration-300 absolute top-2 left-2 ${theme === 'light' ? 'opacity-0' : 'opacity-100'}`}
+            >
+              <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
             </svg>
           </button>
         </div>

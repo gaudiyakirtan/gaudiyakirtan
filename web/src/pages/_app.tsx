@@ -1,6 +1,7 @@
 import React from 'react'
 import { AppProps } from 'next/app'
 import Layout from '../components/Layout'
+import { ThemeProvider } from '../utils/ThemeContext'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps, router }: AppProps) {
@@ -26,9 +27,11 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   }
 
   return (
-    <Layout title={getPageTitle()} subtitle={getSubtitle()}>
-      <Component {...pageProps} />
-    </Layout>
+    <ThemeProvider>
+      <Layout title={getPageTitle()} subtitle={getSubtitle()}>
+        <Component {...pageProps} />
+      </Layout>
+    </ThemeProvider>
   )
 }
 

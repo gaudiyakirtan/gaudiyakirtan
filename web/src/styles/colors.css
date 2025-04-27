@@ -21,8 +21,11 @@
   --shyam-background-offset: #202020;
   --shyam-border: #333333;
   --shyam-neutral: #9B9B9B;
-  
-  /* Default to light theme */
+}
+
+/* Light theme (default) */
+:root, 
+.light-theme {
   --primary: var(--gaur-primary);
   --secondary: var(--gaur-secondary);
   --tertiary: var(--gaur-tertiary);
@@ -34,9 +37,22 @@
   --neutral: var(--gaur-neutral);
 }
 
-/* Dark mode overrides */
+/* Dark theme */
+.dark-theme {
+  --primary: var(--shyam-primary);
+  --secondary: var(--shyam-secondary);
+  --tertiary: var(--shyam-tertiary);
+  --accent: var(--shyam-accent);
+  --highlight: var(--shyam-highlight);
+  --background: var(--shyam-background);
+  --background-offset: var(--shyam-background-offset);
+  --border: var(--shyam-border);
+  --neutral: var(--shyam-neutral);
+}
+
+/* System preference fallback for SSR */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not(.light-theme):not(.dark-theme) {
     --primary: var(--shyam-primary);
     --secondary: var(--shyam-secondary);
     --tertiary: var(--shyam-tertiary);
