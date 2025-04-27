@@ -51,7 +51,7 @@ export const Layout: React.FC<LayoutProps> = ({
         />
       )}
 
-      <div className="flex flex-col flex-1 md:pl-64 overflow-x-hidden">
+      <div className="flex flex-col flex-1 md:pl-16 overflow-x-hidden">
         <header className="bg-[var(--background-offset)] border-b border-[var(--border)]">
           <div className="flex items-center h-16 px-4">
             <button
