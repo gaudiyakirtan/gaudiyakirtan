@@ -48,6 +48,16 @@ export const HomeScreen: React.FC = () => {
   return (
     <div className="w-full pt-4 pb-20 mx-auto max-w-screen-2xl">
       {/* Header/Search area would go here */}
+        {/* Popular Songs in 2x2 Grid */}
+        <SongsSection
+          songs={songs}
+          title="Popular Songs"
+          language={language}
+          onSongClick={handleSongClick}
+          gridLayout={true}
+          limit={4}
+          viewAllLink="/songs"
+        />
 
       {/* Topics Section */}
       <div className="mb-8">
@@ -80,13 +90,6 @@ export const HomeScreen: React.FC = () => {
         gridLayout={false}
       />
 
-      {/* Songs Section */}
-      <SongsSection
-        songs={songs}
-        title="Popular Songs"
-        language={language}
-        onSongClick={handleSongClick}
-      />
     </div>
   );
 };

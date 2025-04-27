@@ -26,13 +26,13 @@ struct TopicCard: View {
                     
                     Spacer()
                     
-                    // Song count (if provided)
+                    // Song count badge at the bottom
                     if let count = songCount {
-                        Text("\(count) songs")
-                            .font(.system(size: 12)) // Match web text-xs
-                            .foregroundColor(.white.opacity(0.8)) // Match web opacity-80
-                            .padding(.top, 4) // Match web mt-1
-                            .lineLimit(1)
+                        Tag(
+                            text: "\(count) songs",
+                            variant: .default,
+                            size: .normal
+                        )
                     }
                 }
                 .padding(20) // Match web padding of 1.25rem

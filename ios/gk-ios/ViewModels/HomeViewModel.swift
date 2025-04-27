@@ -44,10 +44,10 @@ class HomeViewModel: ObservableObject {
         
         // Sample Books
         books = [
-            Book(title: "Gītāvalī", author: "Bhaktivinoda Ṭhākura", slug: "gitavali", uid: "BVT001", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bhaktivinoda_Thakur_1884.jpg/330px-Bhaktivinoda_Thakur_1884.jpg"),
-            Book(title: "Śaraṇāgati", author: "Bhaktivinoda Ṭhākura", slug: "saranagati", uid: "BVT002", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Jayadharma_chant_1975.jpg/330px-Jayadharma_chant_1975.jpg"),
-            Book(title: "Prārthanā", author: "Narottama Dāsa Ṭhākura", slug: "prarthana", uid: "NDT001", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Narottama_Das_Thakur.png/330px-Narottama_Das_Thakur.png"),
-            Book(title: "Prema-bhakti-candrikā", author: "Narottama Dāsa Ṭhākura", slug: "prema-bhakti", uid: "NDT002", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Chaitanya_with_Four_Associates_-_Pancha_Tattva.jpg/330px-Chaitanya_with_Four_Associates_-_Pancha_Tattva.jpg")
+            Book(title: "Gītāvalī", author: "Bhaktivinoda Ṭhākura", slug: "gitavali", uid: "BVT001", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Bhaktivinoda_Thakur_1884.jpg/330px-Bhaktivinoda_Thakur_1884.jpg", songCount: 28, year: "1893"),
+            Book(title: "Śaraṇāgati", author: "Bhaktivinoda Ṭhākura", slug: "saranagati", uid: "BVT002", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Jayadharma_chant_1975.jpg/330px-Jayadharma_chant_1975.jpg", songCount: 15, year: "1880"),
+            Book(title: "Prārthanā", author: "Narottama Dāsa Ṭhākura", slug: "prarthana", uid: "NDT001", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Narottama_Das_Thakur.png/330px-Narottama_Das_Thakur.png", songCount: 42, year: "1570"),
+            Book(title: "Prema-bhakti-candrikā", author: "Narottama Dāsa Ṭhākura", slug: "prema-bhakti", uid: "NDT002", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Chaitanya_with_Four_Associates_-_Pancha_Tattva.jpg/330px-Chaitanya_with_Four_Associates_-_Pancha_Tattva.jpg", songCount: 33, year: "1568")
         ]
         
         // Sample Songs

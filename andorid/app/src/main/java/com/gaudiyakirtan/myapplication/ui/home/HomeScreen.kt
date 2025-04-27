@@ -54,73 +54,53 @@ fun HomeScreen(
                     .verticalScroll(rememberScrollState()),
                 verticalArrangement = Arrangement.spacedBy(24.dp)
             ) {
-                SongsSection(songs = songs)
+                SongsSection(songs = songs.take(4))
                 AuthorsSection(authors = authors)
                 TopicsSection(topics = topics, songs = songs)
                 BooksSection(books = books)
         
-                // Featured Song Section - Styled to match iOS exactly
+                // Featured Song Section - Exactly like iOS
                 Column(
+                    horizontalAlignment = Alignment.CenterHorizontally,
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(horizontal = 16.dp)
-                        .padding(top = 24.dp, bottom = 8.dp)
                 ) {
-                    // Section title
-                    Text(
-                        text = "Featured Song",
-                        style = MaterialTheme.typography.titleLarge,
-                        modifier = Modifier.padding(bottom = 16.dp)
-                    )
-                    
-                    // Center-aligned content block
                     Column(
-                        modifier = Modifier.fillMaxWidth(),
                         horizontalAlignment = Alignment.CenterHorizontally,
-                        verticalArrangement = Arrangement.spacedBy(4.dp)
+                        verticalArrangement = Arrangement.spacedBy(4.dp),
+                        modifier = Modifier.padding(top = 16.dp)
                     ) {
-                        // Song title with highlight color
                         Text(
                             text = "Akrodha Paramānanda",
                             fontSize = 28.sp,
-                            fontWeight = FontWeight.SemiBold,
                             color = MaterialTheme.colorScheme.surfaceVariant, // Highlight color
                             textAlign = TextAlign.Center
                         )
                         
-                        // Author text with primary color
                         Text(
                             text = "Śrīla Locana Dāsa Ṭhākura",
                             fontSize = 16.sp,
                             fontWeight = FontWeight.Normal,
-                            color = MaterialTheme.colorScheme.primary,
+                            color = MaterialTheme.colorScheme.primary, // Primary text color
                             textAlign = TextAlign.Center
                         )
-                        
-                        // UID tag with neutral color background and centered
-                        Box(
+                    
+                        Text(
+                            text = "N9",
+                            fontSize = 10.sp,
+                            fontWeight = FontWeight.Medium,
+                            color = MaterialTheme.colorScheme.tertiary,
                             modifier = Modifier
-                                .padding(vertical = 4.dp)
                                 .clip(MaterialTheme.shapes.small)
                                 .background(MaterialTheme.colorScheme.tertiary.copy(alpha = 0.25f))
                                 .padding(horizontal = 10.dp, vertical = 2.dp)
-                        ) {
-                            Text(
-                                text = "N9",
-                                fontSize = 10.sp,
-                                fontWeight = FontWeight.Medium,
-                                color = MaterialTheme.colorScheme.tertiary
-                            )
-                        }
+                        )
                     }
-                    
+
                     // Verses
-                    Column(
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(top = 20.dp) // Match iOS spacing between header and verses
-                    ) {
-                        verses.forEach { verse ->
+                    verses.forEach { verse ->
+                        Box(modifier = Modifier.padding(vertical = 8.dp)) {
                             VerseView(verse = verse)
                         }
                     }

@@ -244,7 +244,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             />
           </SidebarSection>
 
-          {/* <SidebarSection title="Collections">
+          <SidebarSection title="Collections">
             {collections.map((collection) => (
               <CollapsibleSection
                 key={collection.id}
@@ -269,7 +269,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
               icon={<PlusIcon className="text-[var(--neutral)]" />}
               label="New Collection"
             />
-          </SidebarSection> */}
+          </SidebarSection>
 
           <SidebarSection title="Resources">
             <SidebarItem

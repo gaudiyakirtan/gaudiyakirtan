@@ -48,15 +48,17 @@ export const sampleAuthors: IAuthor[] = [
 ]
 
 // Sample topics
-export const sampleTopics: ITopic[] = [
-  { name: 'Sri Guru' },
-  { name: 'Vaisnavas' },
-  { name: 'Sri Gadadhara' },
-  { name: 'Radha-Krishna' },
-  { name: 'Gaura-lila' },
-  { name: 'Prayers' },
-  { name: 'Arati' },
-  { name: 'Mangalacarana' }
+import { Topic } from '../models/Topic'
+
+export const sampleTopics: Topic[] = [
+  new Topic('Sri Guru'),
+  new Topic('Vaisnavas'),
+  new Topic('Sri Gadadhara'),
+  new Topic('Radha-Krishna'),
+  new Topic('Gaura-lila'),
+  new Topic('Prayers'),
+  new Topic('Arati'),
+  new Topic('Mangalacarana')
 ]
 
 // Sample books

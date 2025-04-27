@@ -1,5 +1,5 @@
 import React from 'react'
-import { ITopic } from '../models/Topic'
+import { ITopic, Topic } from '../models/Topic'
 import { TopicCard } from './TopicCard'
 
 interface TopicsSectionProps {
@@ -23,10 +23,13 @@ export const TopicsSection: React.FC<TopicsSectionProps> = ({
 }) => {
   if (!topics.length) return null
 
-  // Generate random song counts for display purposes
-  // In a real app, these would come from the API
-  const getRandomSongCount = (index: number) => {
-    // Use a seed based on the index for consistent results
+  // Get song count from the topic model or use a fallback
+  const getSongCount = (topic: ITopic, index: number) => {
+    // If it's a Topic instance with demoSongCount property
+    if (topic instanceof Topic) {
+      return topic.demoSongCount;
+    }
+    // Fallback for ITopic interface only (for backward compatibility)
     return Math.floor((index + 1) * 3.7) % 20 + 1;
   }
 
@@ -54,7 +57,7 @@ export const TopicsSection: React.FC<TopicsSectionProps> = ({
             <TopicCard
               topic={topic}
               onClick={() => onTopicClick && onTopicClick(topic)}
-              songCount={getRandomSongCount(index)}
+              songCount={getSongCount(topic, index)}
             />
           </div>
         ))}

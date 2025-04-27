@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { IBook } from "../models/Book";
 import { getMediaColor, isColorDark } from "../utils/colors";
+import { Tag } from "./ui/Tag";
 
 interface BookCardProps {
   book: IBook;
@@ -58,20 +59,26 @@ export const BookCard: React.FC<BookCardProps> = ({
       <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
       
       {/* Metadata badges */}
-      <div className="absolute top-0 right-0 flex justify-end gap-2 p-3">
-        {/* Song count badge - adaptive to space */}
-        {book.songCount > 0 && (
-          <span className="px-2 py-1 text-xs font-medium bg-[var(--highlight)]/80 text-white rounded-full backdrop-blur-sm whitespace-nowrap overflow-hidden">
-            {compactSize ? `${book.songCount}` : `${book.songCount} songs`}
-          </span>
-        )}
-        
-        {/* Year tag */}
-        {book.year && (
-          <span className="px-2 py-1 text-xs font-medium text-white bg-black/30 backdrop-blur-sm rounded-full">
-            {book.year}
-          </span>
-        )}
+      <div className="absolute top-0 right-0 p-3">
+        <div className="flex flex-col items-end gap-1.5">
+          {/* Song count badge */}
+          {book.songCount > 0 && (
+            <Tag 
+              text={`${book.songCount} songs`} 
+              variant="highlight" 
+              size="small"
+            />
+          )}
+          
+          {/* Year tag */}
+          {book.year && (
+            <Tag 
+              text={book.year} 
+              variant="black" 
+              size="small"
+            />
+          )}
+        </div>
       </div>
       
       {/* Book info at bottom */}

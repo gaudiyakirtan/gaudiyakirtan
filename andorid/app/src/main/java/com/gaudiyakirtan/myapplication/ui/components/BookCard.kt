@@ -22,7 +22,8 @@ import com.gaudiyakirtan.myapplication.ui.theme.getMediaColor
 @Composable
 fun BookCard(
     book: Book,
-    onClick: () -> Unit = {}
+    onClick: () -> Unit = {},
+    compactSize: Boolean = false
 ) {
     // Get the media color for this book (will be used for placeholder)
     val mediaColor = getMediaColor(book.title)
@@ -51,6 +52,38 @@ fun BookCard(
 
         // Gradient Overlays Layer
         GradientOverlays(book)
+        
+        // Metadata badges
+        Box(
+            modifier = Modifier
+                .align(Alignment.TopEnd)
+                .padding(12.dp)
+        ) {
+            Column(
+                horizontalAlignment = Alignment.End,
+                verticalArrangement = Arrangement.spacedBy(6.dp)
+            ) {
+                // Song count badge
+                book.songCount?.let { songCount ->
+                    if (songCount > 0) {
+                        Tag(
+                            text = "$songCount songs",
+                            variant = TagVariant.Highlight,
+                            size = TagSize.Small
+                        )
+                    }
+                }
+                
+                // Year badge
+                book.year?.let { year ->
+                    Tag(
+                        text = year,
+                        variant = TagVariant.Black,
+                        size = TagSize.Small
+                    )
+                }
+            }
+        }
 
         // Content Layer
         Column(

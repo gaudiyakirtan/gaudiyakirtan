@@ -179,8 +179,8 @@ private fun TopicsContent(
         modifier = modifier
     ) {
         items(topics) { topic ->
-            // Count songs for this topic (matching by topic name to any tag)
-            val songCount = songs.count { song ->
+            // Count songs for this topic or use demo count if zero
+            val actualSongCount = songs.count { song ->
                 song.tags.any { tag -> 
                     tag.equals(topic.name, ignoreCase = true) 
                 }
@@ -189,7 +189,7 @@ private fun TopicsContent(
             TopicCard(
                 topic = topic,
                 onClick = { /* Handle topic click */ },
-                songCount = songCount
+                songCount = if (actualSongCount > 0) actualSongCount else topic.demoSongCount
             )
         }
     }

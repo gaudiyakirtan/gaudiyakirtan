@@ -4,4 +4,6 @@ export interface IBook {
   slug: string
   uid: string
   image: string
+  songCount?: number
+  year?: string
 }

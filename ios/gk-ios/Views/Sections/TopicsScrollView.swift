@@ -20,12 +20,12 @@ struct TopicsScrollView: View {
                 HStack(spacing: 12) {
                     Spacer().frame(width: 6)
                     ForEach(topics) { topic in
-                        // Count songs for this topic (matching by topic name to any tag)
-                        let songCount = songs.filter { song in
+                        // Use actual song count if available, otherwise use the demo count
+                        let songCount = songs.isEmpty ? topic.demoSongCount : songs.filter { song in
                             song.tags.contains(where: { $0.lowercased() == topic.name.lowercased() })
                         }.count
                         
-                        TopicCard(topic: topic, songCount: songCount)
+                        TopicCard(topic: topic, songCount: songCount > 0 ? songCount : topic.demoSongCount)
                     }
                 }
             }

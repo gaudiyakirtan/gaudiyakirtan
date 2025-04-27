@@ -32,8 +32,8 @@ fun TopicsSection(
             contentPadding = PaddingValues(horizontal = 16.dp)
         ) {
             items(topics) { topic ->
-                // Count songs for this topic (matching by topic name to any tag)
-                val songCount = songs.count { song ->
+                // Use actual song count if available, otherwise use the demo count
+                val actualSongCount = if (songs.isEmpty()) 0 else songs.count { song ->
                     song.tags.any { tag -> 
                         tag.equals(topic.name, ignoreCase = true) 
                     }
@@ -41,7 +41,7 @@ fun TopicsSection(
                 
                 TopicCard(
                     topic = topic,
-                    songCount = songCount
+                    songCount = if (actualSongCount > 0) actualSongCount else topic.demoSongCount
                 )
             }
         }

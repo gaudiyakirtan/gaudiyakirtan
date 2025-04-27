@@ -51,15 +51,13 @@ fun TopicCard(
                     .height(48.dp) // Match web min-height: 48px
             )
             
-            // Song count (if available)
-            if (songCount != null) {
-                Text(
-                    text = "$songCount songs",
-                    fontSize = 12.sp, // Match web text-xs
-                    color = textColor.copy(alpha = 0.8f), // Match web opacity-80
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
-                    modifier = Modifier.padding(top = 4.dp) // Match web mt-1
+            // Song count badge at the bottom (if available)
+            songCount?.let { count ->
+                Tag(
+                    text = "$count songs",
+                    variant = TagVariant.Default,
+                    size = TagSize.Normal,
+                    modifier = Modifier.wrapContentWidth()
                 )
             }
         }

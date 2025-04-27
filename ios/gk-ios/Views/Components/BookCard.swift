@@ -2,12 +2,41 @@ import SwiftUI
 
 struct BookCard: View {
     let book: Book
+    var compactSize: Bool = false
     
     var body: some View {
         ZStack {
             backgroundLayer
             gradientOverlays
             contentLayer
+            
+            // Metadata badges
+            VStack {
+                HStack {
+                    Spacer()
+                    VStack(alignment: .trailing, spacing: 6) {
+                        // Song count badge
+                        if let songCount = book.songCount, songCount > 0 {
+                            Tag(
+                                text: "\(songCount) songs",
+                                variant: .highlight,
+                                size: .small
+                            )
+                        }
+                        
+                        // Year badge
+                        if let year = book.year {
+                            Tag(
+                                text: year,
+                                variant: .black,
+                                size: .small
+                            )
+                        }
+                    }
+                    .padding(12)
+                }
+                Spacer()
+            }
         }
         .frame(width: 144, height: 192)
         .cornerRadius(8)

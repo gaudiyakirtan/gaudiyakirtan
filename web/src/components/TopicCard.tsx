@@ -1,6 +1,7 @@
 import React from 'react'
 import { ITopic } from '../models/Topic'
 import { getMediaColor, isColorDark } from '../utils/colors'
+import { Tag } from './ui/Tag'
 
 interface TopicCardProps {
   topic: ITopic
@@ -43,10 +44,15 @@ export const TopicCard: React.FC<TopicCardProps> = ({
           </p>
         </div>
         
+        {/* Song count badge at the bottom */}
         {songCount !== undefined && (
-          <p className={`${textColor} text-xs mt-1 opacity-80`}>
-            {songCount} songs
-          </p>
+          <div className="mt-auto">
+            <Tag 
+              text={`${songCount} songs`} 
+              variant="default"
+              size="normal"
+            />
+          </div>
         )}
       </div>
     </div>

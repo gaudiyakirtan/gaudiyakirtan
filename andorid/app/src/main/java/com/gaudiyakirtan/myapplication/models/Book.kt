@@ -7,5 +7,7 @@ data class Book(
     val author: String?,
     val slug: String,
     val uid: String,
-    val image: String?
+    val image: String?,
+    val songCount: Int? = null,
+    val year: String? = null
 )
