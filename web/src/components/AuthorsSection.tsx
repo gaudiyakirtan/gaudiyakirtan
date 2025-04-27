@@ -41,7 +41,6 @@ export const AuthorsSection: React.FC<AuthorsSectionProps> = ({
       <div className="flex flex-wrap gap-4 px-4">
         {displayAuthors.map((author, index) => (
           <div 
-            className="w-[calc(50%-8px)] sm:w-[calc(33.333%-11px)] md:w-[calc(25%-12px)] lg:w-[calc(20%-13px)] xl:w-[calc(16.666%-14px)]"
             style={{ minHeight: '180px' }}
             key={`author-${index}-${author.name}`}
           >

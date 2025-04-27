@@ -46,7 +46,7 @@ export const HomeScreen: React.FC = () => {
   };
 
   return (
-    <div className="w-full pt-4 pb-20 mx-auto max-w-screen-2xl">
+    <div className="w-full max-w-screen-lg pt-4 pb-20 mx-auto">
       {/* Header/Search area would go here */}
         {/* Popular Songs in 2x2 Grid */}
         <SongsSection

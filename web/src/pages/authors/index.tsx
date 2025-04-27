@@ -26,10 +26,10 @@ const AuthorsPage: React.FC<AuthorsPageProps> = ({ authors }) => {
         <meta name="description" content="Browse Vaishnava authors and composers" />
       </Head>
 
-      <div className="w-full max-w-screen-xl mx-auto pb-12">
-        <div className="flex flex-col md:flex-row md:items-center justify-between mb-6 px-4">
+      <div className="w-full max-w-screen-lg pb-12 mx-auto">
+        <div className="flex flex-col justify-between px-4 mb-6 md:flex-row md:items-center">
           <h1 className="text-xl font-bold text-[var(--primary)]">Authors</h1>
-          <div className="flex flex-col sm:flex-row space-y-2 sm:space-y-0 sm:space-x-4 mt-4 md:mt-0">
+          <div className="flex flex-col mt-4 space-y-2 sm:flex-row sm:space-y-0 sm:space-x-4 md:mt-0">
             <input 
               type="text" 
               placeholder="Search authors..."

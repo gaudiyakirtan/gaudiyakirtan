@@ -26,7 +26,7 @@ const TopicsPage: React.FC<TopicsPageProps> = ({ topics }) => {
         <meta name="description" content="Browse songs by topic or category" />
       </Head>
 
-      <div className="w-full pb-12 mx-auto max-w-screen-2xl">
+      <div className="w-full max-w-screen-lg pb-12 mx-auto">
         <TopicsSection 
           topics={topics}
           title="Topics"

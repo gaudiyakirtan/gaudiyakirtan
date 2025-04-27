@@ -34,7 +34,7 @@ const SongsPage: React.FC<SongsPageProps> = ({ songs }) => {
         <meta name="description" content="Browse the complete collection of Gaudiya Vaishnava songs" />
       </Head>
 
-      <div className="w-full pb-12 mx-auto max-w-screen-2xl">
+      <div className="w-full max-w-screen-lg pb-12 mx-auto">
         {/* Table Header - Only visible on tablet and larger */}
         <div className="hidden md:grid md:grid-cols-6 md:gap-4 px-4 py-3 border-b border-[var(--border)]">
           <div className="col-span-6 md:col-span-3 font-semibold text-[var(--primary)]">Title</div>

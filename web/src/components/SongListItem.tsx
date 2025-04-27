@@ -1,7 +1,6 @@
 import React from "react";
 import { ISong, IExtendedSong } from "../models/Song";
 import { MusicNote } from "./icons/MusicNote";
-import { Tag } from "./ui/Tag";
 
 interface ISongListItemProps {
   song: ISong | IExtendedSong;
@@ -59,13 +58,11 @@ export const SongListItem: React.FC<ISongListItemProps> = ({
           >
             {displayTitle}
           </span>
-          <Tag 
-            text={uid} 
-            variant="default" 
-            size="small" 
-            uppercase={true} 
-            className="mr-auto flex-shrink-0"
-          />
+          <div className="flex-shrink-0 rounded-xl px-2.5 py-0.5 bg-[var(--neutral)]/20 mr-auto flex items-center">
+            <span className="text-[var(--neutral)] text-[10px] font-medium uppercase">
+              {uid}
+            </span>
+          </div>
         </div>
         <div className="flex flex-row items-center">
           <span
@@ -81,13 +78,12 @@ export const SongListItem: React.FC<ISongListItemProps> = ({
       </div>
       <div className="flex-row-reverse flex-shrink-0 hidden ml-2 overflow-hidden sm:flex">
         {[...tags].reverse().map((tag, index) => (
-          <Tag
+          <div
             key={index}
-            text={tag}
-            variant="default"
-            size="normal"
-            className="mx-1"
-          />
+            className="rounded-[10px] px-2.5 py-1 mx-1 bg-[var(--neutral)]/20 flex items-center"
+          >
+            <span className="text-xs text-[var(--neutral)]">{tag}</span>
+          </div>
         ))}
       </div>
     </div>

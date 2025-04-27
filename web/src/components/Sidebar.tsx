@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { useTheme } from "../utils/ThemeContext";
 
 import {
   HomeIcon,
@@ -82,13 +83,19 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
       onClick={onClick}
     >
       <div className="flex justify-center w-[24px]">{icon}</div>
-      <span className={`transition-all duration-200 truncate max-w-[140px] ${
-        isCollapsed 
-          ? 'invisible absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:visible group-hover:opacity-100 z-30 shadow-md opacity-0' 
-          : 'visible opacity-100 ml-3'
-      }`}>
-        {label}
-      </span>
+      <div className="flex-1 relative">
+        {/* Always rendered to maintain layout */}
+        <span className={`truncate max-w-[140px] transition-opacity duration-200 ${isCollapsed ? 'invisible' : 'visible'} ml-3`}>
+          {label}
+        </span>
+        
+        {/* Tooltip only visible on hover when collapsed */}
+        {isCollapsed && (
+          <span className="absolute left-[calc(100%+5px)] top-0 pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap opacity-0 group-hover:opacity-100 invisible group-hover:visible z-30 shadow-md">
+            {label}
+          </span>
+        )}
+      </div>
     </Link>
   );
 };
@@ -96,8 +103,8 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
 const SidebarSection: React.FC<SidebarSectionProps> = ({ title, children, isCollapsed }) => {
   return (
     <div className="mb-6">
-      <h2 className={`mb-2 ml-3 text-sm font-medium truncate pr-2 text-[var(--highlight)] ${
-        isCollapsed ? 'invisible h-0 mb-0' : 'visible'
+      <h2 className={`mb-2 ml-3 text-sm font-medium truncate pr-2 text-[var(--highlight)] transition-opacity duration-200 ${
+        isCollapsed ? 'invisible' : 'visible'
       }`}>
         {title}
       </h2>
@@ -129,24 +136,34 @@ const CollapsibleSection: React.FC<CollapsibleSectionProps> = ({
         className="flex items-center relative w-full px-3 py-2 text-sm text-[var(--neutral)] hover:bg-[var(--background-offset)] rounded-md group"
       >
         <div className="flex justify-center w-[24px]">{icon}</div>
-        <span className={`transition-all duration-200 truncate max-w-[140px] ${
-          isCollapsed 
-            ? 'invisible absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:visible group-hover:opacity-100 z-30 shadow-md opacity-0' 
-            : 'visible opacity-100 ml-3 flex-1'
-        }`}>
-          {title}
-        </span>
-        {!isCollapsed && (
-          <div className="ml-2">
+        <div className="flex-1 relative flex items-center">
+          {/* Always rendered to maintain layout */}
+          <span className={`truncate max-w-[140px] transition-opacity duration-200 ${isCollapsed ? 'invisible' : 'visible'} ml-3 flex-1`}>
+            {title}
+          </span>
+          
+          {/* Tooltip only visible on hover when collapsed */}
+          {isCollapsed && (
+            <span className="absolute left-[calc(100%+5px)] top-0 pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap opacity-0 group-hover:opacity-100 invisible group-hover:visible z-30 shadow-md">
+              {title}
+            </span>
+          )}
+          
+          {/* Chevron icon - always rendered but invisible when collapsed */}
+          <div className={`ml-2 ${isCollapsed ? 'invisible' : 'visible'}`}>
             {expanded ? (
               <ChevronDownIcon className="text-[var(--tertiary)]" />
             ) : (
               <ChevronRightIcon className="text-[var(--tertiary)]" />
             )}
           </div>
-        )}
+        </div>
       </button>
-      {expanded && !isCollapsed && <div className="mt-1 ml-6">{children}</div>}
+      
+      {/* Content container - always rendered but height 0 when not expanded/collapsed */}
+      <div className={`transition-all duration-200 ml-6 ${expanded && !isCollapsed ? 'mt-1 max-h-96' : 'max-h-0 overflow-hidden'}`}>
+        {children}
+      </div>
     </div>
   );
 };
