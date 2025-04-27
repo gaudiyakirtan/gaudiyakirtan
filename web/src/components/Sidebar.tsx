@@ -185,6 +185,15 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
+      <style jsx>{`
+        .hide-scrollbar::-webkit-scrollbar {
+          display: none;
+        }
+        .hide-scrollbar {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+      `}</style>
       <div className="flex flex-col h-full">
         {/* Toggle button container */}
         <div className="flex items-center justify-center pt-2 mb-2">
@@ -210,7 +219,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
         </div>
 
         {/* Sidebar content */}
-        <div className="flex-1 p-2 space-y-1 overflow-y-auto">
+        <div className="flex-1 p-2 space-y-1 overflow-y-auto hide-scrollbar">
           <SidebarItem
             href="/"
             icon={
