@@ -96,8 +96,12 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
 const SidebarSection: React.FC<SidebarSectionProps> = ({ title, children, isCollapsed }) => {
   return (
     <div className="mb-6">
-      {!isCollapsed && (
-        <h2 className="mb-2 ml-3 text-sm font-medium text-[var(--highlight)]">
+      {isCollapsed ? (
+        <div className="flex items-center justify-center my-2 h-5 px-2">
+          <div className="h-[1px] w-2/3 bg-[var(--border)]"></div>
+        </div>
+      ) : (
+        <h2 className="mb-2 ml-3 text-sm font-medium text-[var(--highlight)] h-5">
           {title}
         </h2>
       )}
@@ -227,7 +231,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             isCollapsed={!showExpanded}
           />
 
-          <SidebarSection title="Library" isCollapsed={!showExpanded}>
+          <SidebarSection title="Library" isCollapsed={isCollapsed}>
             <SidebarItem
               href="/songs"
               icon={
@@ -290,7 +294,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             />
           </SidebarSection>
 
-          <SidebarSection title="Collections" isCollapsed={!showExpanded}>
+          <SidebarSection title="Collections" isCollapsed={isCollapsed}>
             {showExpanded && collections.map((collection) => (
               <CollapsibleSection
                 key={collection.id}
@@ -331,7 +335,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             )}
           </SidebarSection>
 
-          <SidebarSection title="Resources" isCollapsed={!showExpanded}>
+          <SidebarSection title="Resources" isCollapsed={isCollapsed}>
             <SidebarItem
               href="/resources/meters"
               icon={<MetronomeIcon className="text-[var(--neutral)]" />}
