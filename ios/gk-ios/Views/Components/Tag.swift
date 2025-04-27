@@ -76,7 +76,7 @@ struct Tag: View {
     let text: String
     var variant: TagVariant = .default
     var size: TagSize = .normal
-    var uppercase: Boolean = false
+    var uppercase: Bool = false
     var customCornerRadius: CGFloat? = nil
     var action: (() -> Void)? = nil
     
