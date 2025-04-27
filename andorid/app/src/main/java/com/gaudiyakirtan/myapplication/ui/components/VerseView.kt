@@ -27,11 +27,11 @@ fun VerseView(
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 16.dp), // Match iOS padding of .padding(.vertical)
-        verticalArrangement = Arrangement.spacedBy(10.dp) // Spacing between different content sections
+        verticalArrangement = Arrangement.spacedBy(16.dp) // Increased from 10dp to 16dp for more spacing between content sections
     ) {
         // Original Text - Neutral color and centered
         if (verse.original.isNotEmpty()) {
-            VStack(spacing = 4.dp) {
+            VStack(spacing = 8.dp) { // Increased from 4dp to 8dp for more spacing between lines
                 verse.original.forEach { line ->
                     Text(
                         text = line,
@@ -48,7 +48,7 @@ fun VerseView(
         verse.transliterations
             .firstOrNull { it?.language == selectedLanguage }
             ?.let { transliteration ->
-                VStack(spacing = 4.dp) {
+                VStack(spacing = 8.dp) { // Increased from 4dp to 8dp for more spacing between lines
                     transliteration.text.forEach { line ->
                         Text(
                             text = line,
