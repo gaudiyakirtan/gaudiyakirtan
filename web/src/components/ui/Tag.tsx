@@ -1,6 +1,6 @@
 import React from 'react';
 
-export type TagVariant = 'default' | 'highlight' | 'primary' | 'black' | 'custom';
+export type TagVariant = 'default' | 'highlight' | 'primary' | 'black' | 'custom' | 'blur';
 export type TagSize = 'small' | 'normal' | 'custom';
 
 export interface TagProps {
@@ -22,6 +22,10 @@ export interface TagProps {
   padding?: string;
   /** Custom border radius */
   borderRadius?: string;
+  /** Use backdrop blur effect (works best with semi-transparent backgrounds) */
+  useBlur?: boolean;
+  /** Background opacity for blur variant (0-100) */
+  blurBgOpacity?: number;
   /** Optional click handler */
   onClick?: () => void;
 }
@@ -34,11 +38,13 @@ export const tagStyles = {
     highlight: 'bg-[var(--highlight)]/80 text-white',
     primary: 'bg-[var(--primary)]/20 text-[var(--primary)]',
     black: 'bg-black/30 text-white',
+    blur: 'bg-white/10 text-white backdrop-blur-md',
   },
   size: {
-    small: 'text-[10px] px-2.5 py-0.5 rounded-xl',
-    normal: 'text-xs px-2.5 py-0.5 rounded-[10px]',
-  }
+    small: 'text-[10px] px-2.5 py-1 rounded-xl',
+    normal: 'text-xs px-2.5 py-1 rounded-[10px]',
+  },
+  blur: 'backdrop-blur-md'
 };
 
 /**
@@ -54,6 +60,8 @@ export const Tag: React.FC<TagProps> = ({
   textColor,
   padding,
   borderRadius,
+  useBlur = false,
+  blurBgOpacity = 20,
   onClick,
 }) => {
   // Handle custom variant styling
@@ -77,11 +85,24 @@ export const Tag: React.FC<TagProps> = ({
     sizeStyles = sizeStyles.replace(/rounded-\w+/, borderRadius);
   }
 
+  // Add blur effect if requested
+  const blurStyles = useBlur ? 'backdrop-blur-md' : '';
+  
+  // Modify background opacity for blur effect
+  let modifiedVariantStyles = variantStyles;
+  if (useBlur && variant !== 'blur') {
+    // Find the opacity pattern in the class and replace it
+    const opacityPattern = /\/([\d]+)/;
+    if (opacityPattern.test(variantStyles)) {
+      modifiedVariantStyles = variantStyles.replace(opacityPattern, `/${blurBgOpacity}`);
+    }
+  }
+
   return (
     <span
-      className={`${tagStyles.base} ${variantStyles} ${sizeStyles} ${
+      className={`${tagStyles.base} ${modifiedVariantStyles} ${sizeStyles} ${
         uppercase ? 'uppercase' : ''
-      } ${className}`}
+      } ${blurStyles} ${className}`}
       onClick={onClick}
     >
       {text}

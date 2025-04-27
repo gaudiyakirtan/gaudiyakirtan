@@ -49,8 +49,14 @@ export const TopicCard: React.FC<TopicCardProps> = ({
           <div className="mt-auto">
             <Tag 
               text={`${songCount} songs`} 
-              variant="default"
+              variant="custom"
               size="normal"
+              bgColor={`bg-[rgba(255,255,255,0.2)]`}
+              textColor="text-white"
+              useBlur={true}
+              blurBgOpacity={40}
+              padding="px-3 py-1.5"
+              borderRadius="rounded-xl"
             />
           </div>
         )}

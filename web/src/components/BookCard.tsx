@@ -67,6 +67,8 @@ export const BookCard: React.FC<BookCardProps> = ({
               text={`${book.songCount} songs`} 
               variant="highlight" 
               size="small"
+              useBlur={true}
+              blurBgOpacity={50}
             />
           )}
           
@@ -76,6 +78,8 @@ export const BookCard: React.FC<BookCardProps> = ({
               text={book.year} 
               variant="black" 
               size="small"
+              useBlur={true}
+              blurBgOpacity={30}
             />
           )}
         </div>
