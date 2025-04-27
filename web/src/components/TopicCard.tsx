@@ -21,11 +21,11 @@ export const TopicCard: React.FC<TopicCardProps> = ({
   const isDark = isColorDark(bgColor)
   const textColor = isDark ? 'text-white' : 'text-black'
 
-  // Use fixed height and width for consistency
+  // Use background color but allow the container to adapt to the parent dimensions
   const containerStyle = { 
     backgroundColor: bgColor,
-    minHeight: '108px',  // Fixed height based on screenshot
-    width: '100%'
+    width: '100%',
+    height: '100%'
   }
 
   return (
@@ -34,7 +34,7 @@ export const TopicCard: React.FC<TopicCardProps> = ({
       style={containerStyle}
       onClick={onClick}
     >
-      <div className="flex flex-col justify-between w-full h-full p-[1.25rem]">
+      <div className="flex flex-col justify-between w-full h-full p-4">
         <div className="min-h-[48px]">
           <p 
             className={`text-base font-bold ${textColor} text-left line-clamp-2`}

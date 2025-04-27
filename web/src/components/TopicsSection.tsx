@@ -50,14 +50,15 @@ export const TopicsSection: React.FC<TopicsSectionProps> = ({
         )}
       </div>
       
-      {/* Grid layout with consistent sizing */}
-      <div className="grid grid-cols-2 gap-4 px-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6">
+      {/* Grid layout with consistent sizing and spacing */}
+      <div className="grid grid-cols-2 gap-6 px-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6">
         {displayTopics.map((topic, index) => (
-          <div className="h-[108px]" key={`topic-${index}-${topic.name}`}>
+          <div key={`topic-${index}-${topic.name}`} className="aspect-[1.66/1]">
             <TopicCard
               topic={topic}
               onClick={() => onTopicClick && onTopicClick(topic)}
               songCount={getSongCount(topic, index)}
+              className="h-full"
             />
           </div>
         ))}
