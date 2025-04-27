@@ -79,6 +79,9 @@ export const Layout: React.FC<LayoutProps> = ({
                 className="h-7 hidden sm:block"
               />
             </div>
+            
+            {/* Divider */}
+            <div className="h-8 border-l border-[var(--border)] mx-3 hidden sm:block"></div>
 
             <div className="flex items-center">
               <span className="mr-2 text-[var(--tertiary)]">
