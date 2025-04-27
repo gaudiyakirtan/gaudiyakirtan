@@ -70,10 +70,11 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
   onClick,
   isCollapsed,
 }) => {
+  isCollapsed = false;
   return (
     <Link
       href={href}
-      title={isCollapsed ? label : undefined}
+      // title={isCollapsed ? label : undefined}
       className={`flex items-center px-3 py-2 text-sm rounded-md group hover:bg-[var(--background-offset)] relative ${
         isActive
           ? "bg-[var(--background-offset)] text-[var(--neutral)]"
@@ -82,7 +83,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
       onClick={onClick}
     >
       <div className="flex justify-center w-[24px]">{icon}</div>
-      <span className={`transition-all duration-200 ${
+      <span className={`transition-all duration-200 truncate max-w-[140px] ${
         isCollapsed 
           ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' 
           : 'opacity-100 ml-3'
@@ -97,7 +98,7 @@ const SidebarSection: React.FC<SidebarSectionProps> = ({ title, children, isColl
   return (
     <div className="mb-6">
       {(
-        <h2 className="mb-2 ml-3 text-sm font-medium text-[var(--highlight)]">
+        <h2 className="mb-2 ml-3 text-sm font-medium text-[var(--highlight)] truncate pr-2">
           {title}
         </h2>
       )}
@@ -129,7 +130,7 @@ const CollapsibleSection: React.FC<CollapsibleSectionProps> = ({
         className="flex items-center relative w-full px-3 py-2 text-sm text-[var(--neutral)] hover:bg-[var(--background-offset)] rounded-md group"
       >
         <div className="flex justify-center w-[24px]">{icon}</div>
-        <span className={`transition-all duration-200 ${
+        <span className={`transition-all duration-200 truncate max-w-[140px] ${
           isCollapsed 
             ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' 
             : 'opacity-100 ml-3 flex-1'
@@ -291,7 +292,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
           </SidebarSection>
 
           <SidebarSection title="Collections" isCollapsed={!showExpanded}>
-            {showExpanded && collections.map((collection) => (
+            {collections.map((collection) => (
               <CollapsibleSection
                 key={collection.id}
                 title={collection.name}
@@ -306,14 +307,14 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
                   <Link
                     key={song.id}
                     href={`/songs/${song.id}`}
-                    className="flex items-center px-2 py-1 text-xs text-[var(--neutral)] rounded hover:bg-[var(--background-offset)]"
+                    className="flex items-center px-2 py-1 text-xs text-[var(--neutral)] rounded hover:bg-[var(--background-offset)] truncate"
                   >
                     {song.title}
                   </Link>
                 ))}
               </CollapsibleSection>
             ))}
-            {!showExpanded && (
+            {(
               <SidebarItem
                 href="/collections"
                 icon={<SongsIcon className="text-[var(--neutral)]" />}
@@ -321,7 +322,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
                 isCollapsed={!showExpanded}
               />
             )}
-            {showExpanded && (
+            {(
               <SidebarItem
                 href="/collections/new"
                 icon={<PlusIcon className="text-[var(--neutral)]" />}
@@ -356,7 +357,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             <div className="flex justify-center w-[24px]">
               <SettingsIcon className="text-[var(--tertiary)]" />
             </div>
-            <span className={`transition-all duration-200 ${
+            <span className={`transition-all duration-200 truncate max-w-[140px] ${
               isCollapsed 
                 ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' 
                 : 'opacity-100 ml-3'
