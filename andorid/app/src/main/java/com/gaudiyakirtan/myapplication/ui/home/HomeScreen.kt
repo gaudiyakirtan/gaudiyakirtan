@@ -82,7 +82,7 @@ fun HomeScreen(
                             text = "Śrīla Locana Dāsa Ṭhākura",
                             fontSize = 16.sp,
                             fontWeight = FontWeight.Normal,
-                            color = MaterialTheme.colorScheme.primary, // Primary text color
+                            color = MaterialTheme.colorScheme.onBackground, // Match iOS primaryText color
                             textAlign = TextAlign.Center
                         )
                     
@@ -100,9 +100,8 @@ fun HomeScreen(
 
                     // Verses
                     verses.forEach { verse ->
-                        Box(modifier = Modifier.padding(vertical = 8.dp)) {
-                            VerseView(verse = verse)
-                        }
+                        VerseView(verse = verse)
+                        // Removed Box wrapper with padding to match iOS implementation
                     }
                 }
                 

@@ -26,7 +26,7 @@ fun VerseView(
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 8.dp),
+            .padding(vertical = 16.dp), // Match iOS padding of .padding(.vertical)
         verticalArrangement = Arrangement.spacedBy(10.dp)
     ) {
         // Original Text - Neutral color and centered
@@ -84,7 +84,7 @@ fun VerseView(
                 )
             }
 
-        // Translation - Primary color and semibold weight
+        // Translation - PrimaryText color and semibold weight (matching iOS)
         verse.translations
             .firstOrNull { it?.language == selectedLanguage }
             ?.let { translation ->
@@ -92,7 +92,7 @@ fun VerseView(
                     text = translation.text,
                     fontSize = 14.sp,
                     fontWeight = FontWeight.SemiBold,
-                    color = MaterialTheme.colorScheme.primary, // Primary color for emphasis
+                    color = MaterialTheme.colorScheme.onBackground, // Match iOS primaryText color
                     modifier = Modifier.fillMaxWidth(),
                     textAlign = TextAlign.Start // Explicitly set to left align
                 )
