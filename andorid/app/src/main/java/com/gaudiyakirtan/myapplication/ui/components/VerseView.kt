@@ -27,7 +27,7 @@ fun VerseView(
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 16.dp), // Match iOS padding of .padding(.vertical)
-        verticalArrangement = Arrangement.spacedBy(10.dp)
+        verticalArrangement = Arrangement.spacedBy(10.dp) // Spacing between different content sections
     ) {
         // Original Text - Neutral color and centered
         if (verse.original.isNotEmpty()) {
