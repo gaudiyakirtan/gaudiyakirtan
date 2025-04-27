@@ -228,7 +228,7 @@ export const Layout: React.FC<LayoutProps> = ({
         )}
 
         {/* Main content */}
-        <div className="flex flex-col flex-1 overflow-x-hidden md:ml-16">
+        <div className="flex flex-col flex-1 overflow-x-hidden md:ml-16 transition-all duration-300">
           <main className="flex-1 px-4 py-6 md:px-8">{children}</main>
 
           <footer className="mt-auto">

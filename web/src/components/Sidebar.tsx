@@ -82,7 +82,11 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
       onClick={onClick}
     >
       <div className="flex justify-center w-[24px]">{icon}</div>
-      <span className={`ml-2 transition-opacity duration-200 ${isCollapsed ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' : 'opacity-100'}`}>
+      <span className={`transition-all duration-200 ${
+        isCollapsed 
+          ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' 
+          : 'opacity-100 ml-3'
+      }`}>
         {label}
       </span>
     </Link>
@@ -125,7 +129,11 @@ const CollapsibleSection: React.FC<CollapsibleSectionProps> = ({
         className="flex items-center relative w-full px-3 py-2 text-sm text-[var(--neutral)] hover:bg-[var(--background-offset)] rounded-md group"
       >
         <div className="flex justify-center w-[24px]">{icon}</div>
-        <span className={`ml-2 transition-opacity duration-200 ${isCollapsed ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' : 'opacity-100 flex-1'}`}>
+        <span className={`transition-all duration-200 ${
+          isCollapsed 
+            ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' 
+            : 'opacity-100 ml-3 flex-1'
+        }`}>
           {title}
         </span>
         {!isCollapsed && (
@@ -166,8 +174,8 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
   // Determine if sidebar should be expanded
   const showExpanded = isHovering || !isCollapsed;
 
-  // We'll keep a fixed width for the sidebar
-  const sidebarWidth = "w-16";
+  // Base width and expanded width on hover
+  const sidebarWidth = isHovering ? "w-64" : "w-16";
 
   return (
     <div
@@ -346,7 +354,11 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             <div className="flex justify-center w-[24px]">
               <SettingsIcon className="text-[var(--tertiary)]" />
             </div>
-            <span className={`ml-2 transition-opacity duration-200 ${isCollapsed ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' : 'opacity-100'}`}>
+            <span className={`transition-all duration-200 ${
+              isCollapsed 
+                ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' 
+                : 'opacity-100 ml-3'
+            }`}>
               Settings
             </span>
           </button>
