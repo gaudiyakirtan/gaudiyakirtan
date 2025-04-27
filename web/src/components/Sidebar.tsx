@@ -70,11 +70,10 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
   onClick,
   isCollapsed,
 }) => {
-  isCollapsed = false;
   return (
     <Link
       href={href}
-      // title={isCollapsed ? label : undefined}
+      title={isCollapsed ? label : undefined}
       className={`flex items-center px-3 py-2 text-sm rounded-md group hover:bg-[var(--background-offset)] relative ${
         isActive
           ? "bg-[var(--background-offset)] text-[var(--neutral)]"
@@ -85,8 +84,8 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
       <div className="flex justify-center w-[24px]">{icon}</div>
       <span className={`transition-all duration-200 truncate max-w-[140px] ${
         isCollapsed 
-          ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' 
-          : 'opacity-100 ml-3'
+          ? 'invisible absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:visible group-hover:opacity-100 z-30 shadow-md opacity-0' 
+          : 'visible opacity-100 ml-3'
       }`}>
         {label}
       </span>
@@ -97,11 +96,11 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
 const SidebarSection: React.FC<SidebarSectionProps> = ({ title, children, isCollapsed }) => {
   return (
     <div className="mb-6">
-      {(
-        <h2 className="mb-2 ml-3 text-sm font-medium text-[var(--highlight)] truncate pr-2">
-          {title}
-        </h2>
-      )}
+      <h2 className={`mb-2 ml-3 text-sm font-medium truncate pr-2 text-[var(--highlight)] ${
+        isCollapsed ? 'invisible h-0 mb-0' : 'visible'
+      }`}>
+        {title}
+      </h2>
       <div className="space-y-1">{children}</div>
     </div>
   );
@@ -132,8 +131,8 @@ const CollapsibleSection: React.FC<CollapsibleSectionProps> = ({
         <div className="flex justify-center w-[24px]">{icon}</div>
         <span className={`transition-all duration-200 truncate max-w-[140px] ${
           isCollapsed 
-            ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' 
-            : 'opacity-100 ml-3 flex-1'
+            ? 'invisible absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:visible group-hover:opacity-100 z-30 shadow-md opacity-0' 
+            : 'visible opacity-100 ml-3 flex-1'
         }`}>
           {title}
         </span>
@@ -292,44 +291,20 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
           </SidebarSection>
 
           <SidebarSection title="Collections" isCollapsed={!showExpanded}>
-            {collections.map((collection) => (
-              <CollapsibleSection
-                key={collection.id}
-                title={collection.name}
-                icon={<SongsIcon className="text-[var(--neutral)]" />}
-                isExpanded={collection.id === expandedCollection}
-                onClick={() => setExpandedCollection(
-                  collection.id === expandedCollection ? "" : collection.id
-                )}
-                isCollapsed={!showExpanded}
-              >
-                {collection.songs.map((song) => (
-                  <Link
-                    key={song.id}
-                    href={`/songs/${song.id}`}
-                    className="flex items-center px-2 py-1 text-xs text-[var(--neutral)] rounded hover:bg-[var(--background-offset)] truncate"
-                  >
-                    {song.title}
-                  </Link>
-                ))}
-              </CollapsibleSection>
-            ))}
-            {(
-              <SidebarItem
-                href="/collections"
-                icon={<SongsIcon className="text-[var(--neutral)]" />}
-                label="Collections"
-                isCollapsed={!showExpanded}
-              />
-            )}
-            {(
-              <SidebarItem
-                href="/collections/new"
-                icon={<PlusIcon className="text-[var(--neutral)]" />}
-                label="New Collection"
-                isCollapsed={!showExpanded}
-              />
-            )}
+            <SidebarItem
+              href="/collections"
+              icon={<SongsIcon className="text-[var(--neutral)]" />}
+              label="Collections"
+              isActive={isActive("/collections")}
+              isCollapsed={!showExpanded}
+            />
+            <SidebarItem
+              href="/collections/new"
+              icon={<PlusIcon className="text-[var(--neutral)]" />}
+              label="New Collection"
+              isActive={isActive("/collections/new")}
+              isCollapsed={!showExpanded}
+            />
           </SidebarSection>
 
           <SidebarSection title="Resources" isCollapsed={!showExpanded}>
@@ -359,8 +334,8 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             </div>
             <span className={`transition-all duration-200 truncate max-w-[140px] ${
               isCollapsed 
-                ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' 
-                : 'opacity-100 ml-3'
+                ? 'invisible absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:visible group-hover:opacity-100 z-30 shadow-md opacity-0' 
+                : 'visible opacity-100 ml-3'
             }`}>
               Settings
             </span>
