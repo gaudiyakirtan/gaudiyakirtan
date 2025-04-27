@@ -31,15 +31,23 @@ fun VerseView(
     ) {
         // Original Text - Neutral color and centered
         if (verse.original.isNotEmpty()) {
-            VStack(spacing = 8.dp) { // Increased from 4dp to 8dp for more spacing between lines
-                verse.original.forEach { line ->
+            Column(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                for (i in verse.original.indices) {
                     Text(
-                        text = line,
+                        text = verse.original[i],
                         fontSize = 14.sp,
                         color = MaterialTheme.colorScheme.tertiary, // Neutral color
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth()
                     )
+                    
+                    // Add spacer between lines (except after the last line)
+                    if (i < verse.original.size - 1) {
+                        Spacer(modifier = Modifier.height(8.dp))
+                    }
                 }
             }
         }
@@ -48,15 +56,23 @@ fun VerseView(
         verse.transliterations
             .firstOrNull { it?.language == selectedLanguage }
             ?.let { transliteration ->
-                VStack(spacing = 8.dp) { // Increased from 4dp to 8dp for more spacing between lines
-                    transliteration.text.forEach { line ->
+                Column(
+                    modifier = Modifier.fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally
+                ) {
+                    for (i in transliteration.text.indices) {
                         Text(
-                            text = line,
+                            text = transliteration.text[i],
                             fontSize = 14.sp,
                             color = MaterialTheme.colorScheme.surfaceVariant, // Highlight color
                             textAlign = TextAlign.Center,
                             modifier = Modifier.fillMaxWidth()
                         )
+                        
+                        // Add spacer between lines (except after the last line)
+                        if (i < transliteration.text.size - 1) {
+                            Spacer(modifier = Modifier.height(8.dp))
+                        }
                     }
                 }
             }
