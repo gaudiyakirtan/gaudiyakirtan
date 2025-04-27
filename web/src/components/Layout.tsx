@@ -43,7 +43,7 @@ export const Layout: React.FC<LayoutProps> = ({
       </Head>
 
       {/* Header - Now spans full width and sticky */}
-      <header className="w-full bg-[var(--background-offset)] border-b border-[var(--border)] z-30 sticky top-0">
+      <header className="fixed top-0 left-0 right-0 bg-[var(--background-offset)] border-b border-[var(--border)] z-30">
         <div className="flex items-center h-16 px-4">
           <div className="flex items-center">
             <button
@@ -215,7 +215,7 @@ export const Layout: React.FC<LayoutProps> = ({
         </div>
       </header>
 
-      <div className="flex flex-1 overflow-hidden">
+      <div className="flex flex-1 overflow-hidden pt-16">
         {/* Sidebar - Now below header */}
         <Sidebar isOpen={sidebarOpen} onClose={() => setSidebarOpen(false)} />
 
