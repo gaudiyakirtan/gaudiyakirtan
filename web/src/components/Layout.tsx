@@ -42,8 +42,8 @@ export const Layout: React.FC<LayoutProps> = ({
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {/* Header - Now spans full width */}
-      <header className="w-full bg-[var(--background-offset)] border-b border-[var(--border)] z-30">
+      {/* Header - Now spans full width and sticky */}
+      <header className="w-full bg-[var(--background-offset)] border-b border-[var(--border)] z-30 sticky top-0">
         <div className="flex items-center h-16 px-4">
           <div className="flex items-center">
             <button

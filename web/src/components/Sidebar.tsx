@@ -74,15 +74,17 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
     <Link
       href={href}
       title={isCollapsed ? label : undefined}
-      className={`flex items-center px-3 py-2 text-sm rounded-md group hover:bg-[var(--background-offset)] ${
+      className={`flex items-center px-3 py-2 text-sm rounded-md group hover:bg-[var(--background-offset)] relative ${
         isActive
           ? "bg-[var(--background-offset)] text-[var(--neutral)]"
           : "text-[var(--neutral)]"
-      } ${isCollapsed ? 'justify-center' : ''}`}
+      }`}
       onClick={onClick}
     >
-      <div className={isCollapsed ? '' : 'mr-2'}>{icon}</div>
-      {!isCollapsed && <span>{label}</span>}
+      <div className="flex justify-center w-[24px]">{icon}</div>
+      <span className={`ml-2 transition-opacity duration-200 ${isCollapsed ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' : 'opacity-100'}`}>
+        {label}
+      </span>
     </Link>
   );
 };
@@ -120,20 +122,20 @@ const CollapsibleSection: React.FC<CollapsibleSectionProps> = ({
       <button
         onClick={toggleExpanded}
         title={isCollapsed ? title : undefined}
-        className={`flex items-center justify-between w-full px-3 py-2 text-sm text-[var(--neutral)] hover:bg-[var(--background-offset)] rounded-md ${
-          isCollapsed ? 'justify-center' : ''
-        }`}
+        className="flex items-center relative w-full px-3 py-2 text-sm text-[var(--neutral)] hover:bg-[var(--background-offset)] rounded-md group"
       >
-        <div className={`flex items-center ${isCollapsed ? 'justify-center w-full' : ''}`}>
-          <div className={isCollapsed ? '' : 'mr-2'}>{icon}</div>
-          {!isCollapsed && <span>{title}</span>}
-        </div>
+        <div className="flex justify-center w-[24px]">{icon}</div>
+        <span className={`ml-2 transition-opacity duration-200 ${isCollapsed ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' : 'opacity-100 flex-1'}`}>
+          {title}
+        </span>
         {!isCollapsed && (
-          expanded ? (
-            <ChevronDownIcon className="text-[var(--tertiary)]" />
-          ) : (
-            <ChevronRightIcon className="text-[var(--tertiary)]" />
-          )
+          <div className="ml-2">
+            {expanded ? (
+              <ChevronDownIcon className="text-[var(--tertiary)]" />
+            ) : (
+              <ChevronRightIcon className="text-[var(--tertiary)]" />
+            )}
+          </div>
         )}
       </button>
       {expanded && !isCollapsed && <div className="mt-1 ml-6">{children}</div>}
@@ -164,32 +166,39 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
   // Determine if sidebar should be expanded
   const showExpanded = isHovering || !isCollapsed;
 
-  // Set width based on collapsed state
-  const sidebarWidth = showExpanded ? "w-64" : "w-16";
+  // We'll keep a fixed width for the sidebar
+  const sidebarWidth = "w-16";
 
   return (
     <div
       className={`fixed top-16 left-0 z-20 h-[calc(100%-4rem)] bg-[var(--background)] ${sidebarWidth} border-r border-[var(--border)] transition-all duration-300 transform ${
         isOpen ? "translate-x-0" : "-translate-x-full"
-      } md:translate-x-0`}
+      } md:translate-x-0 overflow-visible`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       <div className="flex flex-col h-full">
         {/* Toggle button container */}
-        <div className={`flex items-center justify-end ${showExpanded ? "pt-2 pr-2" : "pt-1 pr-1"}`}>
-          {showExpanded && (
-            <button 
-              onClick={() => setIsCollapsed(!isCollapsed)}
-              className="text-[var(--neutral)] hover:text-[var(--highlight)] transition-colors"
-              title={isCollapsed ? "Expand sidebar" : "Collapse sidebar"}
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                <line x1="9" y1="3" x2="9" y2="21"></line>
-              </svg>
-            </button>
-          )}
+        <div className="flex items-center justify-center pt-2 mb-2">
+          <button 
+            onClick={() => setIsCollapsed(!isCollapsed)}
+            className="text-[var(--neutral)] hover:text-[var(--highlight)] transition-colors"
+            title={isCollapsed ? "Lock expanded sidebar" : "Collapse sidebar"}
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              {isCollapsed ? (
+                // Arrow pointing right (collapsed)
+                <>
+                  <path d="M9 18l6-6-6-6" />
+                </>
+              ) : (
+                // Arrow pointing left (expanded) 
+                <>
+                  <path d="M15 18l-6-6 6-6" />
+                </>
+              )}
+            </svg>
+          </button>
         </div>
 
         {/* Sidebar content */}
@@ -333,11 +342,13 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
             />
           </SidebarSection>
           {/* Settings at the bottom */}
-          <button className={`flex items-center w-full px-3 py-2 text-sm text-[var(--neutral)] hover:bg-[var(--background-offset)] rounded-md ${!showExpanded ? 'justify-center' : 'justify-between'}`}>
-            <div className={`flex items-center ${!showExpanded ? 'justify-center' : ''}`}>
-              <SettingsIcon className={showExpanded ? "mr-2 text-[var(--tertiary)]" : "text-[var(--tertiary)]"} />
-              {showExpanded && <span>Settings</span>}
+          <button className="flex items-center relative w-full px-3 py-2 text-sm text-[var(--neutral)] hover:bg-[var(--background-offset)] rounded-md group">
+            <div className="flex justify-center w-[24px]">
+              <SettingsIcon className="text-[var(--tertiary)]" />
             </div>
+            <span className={`ml-2 transition-opacity duration-200 ${isCollapsed ? 'opacity-0 absolute left-[calc(100%+5px)] pl-2 bg-[var(--background-offset)] rounded-md py-1 px-2 text-xs whitespace-nowrap group-hover:opacity-100 z-30 shadow-md' : 'opacity-100'}`}>
+              Settings
+            </span>
           </button>
         </div>
       </div>
