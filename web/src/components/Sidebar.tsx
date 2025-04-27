@@ -153,7 +153,7 @@ const CollapsibleSection: React.FC<CollapsibleSectionProps> = ({
 
 const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
   const router = useRouter();
-  const [expandedCollection, setExpandedCollection] = useState("col1");
+  const [expandedCollection, setExpandedCollection] = useState(""); // No expanded collection by default
   const [isCollapsed, setIsCollapsed] = useState(true); // Sidebar starts collapsed
   const [isHovering, setIsHovering] = useState(false);
 
@@ -297,7 +297,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
                 title={collection.name}
                 icon={<SongsIcon className="text-[var(--neutral)]" />}
                 isExpanded={collection.id === expandedCollection}
-                onClick={() => setExpandedCollection(collection.id)}
+                onClick={() => setExpandedCollection(
+                  collection.id === expandedCollection ? "" : collection.id
+                )}
                 isCollapsed={!showExpanded}
               >
                 {collection.songs.map((song) => (
