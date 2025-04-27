@@ -72,30 +72,68 @@ enum TagSize {
     }
 }
 
+// UIViewRepresentable for UIBlurEffect
+struct BackdropBlurView: UIViewRepresentable {
+    let radius: CGFloat
+    
+    func makeUIView(context: Context) -> UIVisualEffectView {
+        return UIVisualEffectView(effect: UIBlurEffect(style: .systemUltraThinMaterial))
+    }
+    
+    func updateUIView(_ uiView: UIVisualEffectView, context: Context) {
+        uiView.effect = UIBlurEffect(style: .systemUltraThinMaterial)
+    }
+}
+
 struct Tag: View {
     let text: String
     var variant: TagVariant = .default
     var size: TagSize = .normal
     var uppercase: Bool = false
     var customCornerRadius: CGFloat? = nil
+    var useBlur: Bool = false
+    var blurRadius: CGFloat = 5
     var action: (() -> Void)? = nil
     
     var body: some View {
         let displayText = uppercase ? text.uppercased() : text
         
-        Text(displayText)
-            .font(.system(size: size.fontSize, weight: .medium))
-            .foregroundColor(variant.textColor())
-            .padding(.horizontal, size.horizontalPadding)
-            .padding(.vertical, size.verticalPadding)
-            .background(variant.backgroundColor())
-            .cornerRadius(customCornerRadius ?? size.cornerRadius)
-            .lineLimit(1)
-            .onTapGesture {
-                if let action = action {
-                    action()
+        if useBlur {
+            // Version with blur effect
+            Text(displayText)
+                .font(.system(size: size.fontSize, weight: .medium))
+                .foregroundColor(variant.textColor())
+                .padding(.horizontal, size.horizontalPadding)
+                .padding(.vertical, size.verticalPadding)
+                .background {
+                    ZStack {
+                        BackdropBlurView(radius: blurRadius)
+                        variant.backgroundColor()
+                    }
                 }
-            }
+                .cornerRadius(customCornerRadius ?? size.cornerRadius)
+                .lineLimit(1)
+                .onTapGesture {
+                    if let action = action {
+                        action()
+                    }
+                }
+        } else {
+            // Standard version without blur
+            Text(displayText)
+                .font(.system(size: size.fontSize, weight: .medium))
+                .foregroundColor(variant.textColor())
+                .padding(.horizontal, size.horizontalPadding)
+                .padding(.vertical, size.verticalPadding)
+                .background(variant.backgroundColor())
+                .cornerRadius(customCornerRadius ?? size.cornerRadius)
+                .lineLimit(1)
+                .onTapGesture {
+                    if let action = action {
+                        action()
+                    }
+                }
+        }
     }
 }
 
@@ -163,6 +201,12 @@ struct Tag_Previews: PreviewProvider {
             TagsContainer {
                 Tag(text: "Custom", variant: .custom(background: .purple.opacity(0.2), text: .purple))
                 Tag(text: "Custom Size", size: .custom(fontSize: 14, cornerRadius: 15, horizontalPadding: 15, verticalPadding: 5))
+            }
+            
+            // Blur effect tags
+            TagsContainer {
+                Tag(text: "With Blur", variant: .highlight, useBlur: true)
+                Tag(text: "No Blur", variant: .highlight)
             }
             
             // Vertical container
