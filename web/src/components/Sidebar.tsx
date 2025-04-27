@@ -96,7 +96,7 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
 const SidebarSection: React.FC<SidebarSectionProps> = ({ title, children, isCollapsed }) => {
   return (
     <div className="mb-6">
-      {!isCollapsed && (
+      {(
         <h2 className="mb-2 ml-3 text-sm font-medium text-[var(--highlight)]">
           {title}
         </h2>
@@ -210,7 +210,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
         </div>
 
         {/* Sidebar content */}
-        <div className={`flex-1 ${showExpanded ? "p-3" : "p-1"} space-y-1 overflow-y-auto`}>
+        <div className="flex-1 p-2 space-y-1 overflow-y-auto">
           <SidebarItem
             href="/"
             icon={
