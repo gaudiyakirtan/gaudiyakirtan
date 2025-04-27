@@ -169,32 +169,15 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose }) => {
 
   return (
     <div
-      className={`fixed top-0 left-0 z-20 h-full bg-[var(--background)] ${sidebarWidth} border-r border-[var(--border)] transition-all duration-300 transform ${
+      className={`fixed top-16 left-0 z-20 h-[calc(100%-4rem)] bg-[var(--background)] ${sidebarWidth} border-r border-[var(--border)] transition-all duration-300 transform ${
         isOpen ? "translate-x-0" : "-translate-x-full"
       } md:translate-x-0`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
       <div className="flex flex-col h-full">
-        {/* Gaudiya Kirtan */}
-        <div className={`flex items-center justify-between ${showExpanded ? "p-4" : "p-3"}`}>
-          <div className={`flex items-center ${showExpanded ? "" : "justify-center w-full"}`}>
-            <Image
-              src="/assets/mridanga.svg"
-              alt="Mridanga"
-              width={32}
-              height={32}
-              className={`w-8 h-8 ${showExpanded ? "mr-3" : ""}`}
-            />
-            {showExpanded && (
-              <Image
-                src="/assets/sri-gaudiya-kirtan.svg"
-                alt="Sri Gaudiya Kirtan"
-                width={148}
-                height={32}
-              />
-            )}
-          </div>
+        {/* Toggle button container */}
+        <div className={`flex items-center justify-end ${showExpanded ? "pt-2 pr-2" : "pt-1 pr-1"}`}>
           {showExpanded && (
             <button 
               onClick={() => setIsCollapsed(!isCollapsed)}
