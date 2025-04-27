@@ -28,10 +28,13 @@ struct TopicCard: View {
                     
                     // Song count badge at the bottom
                     if let count = songCount {
+                        let bgColor = getMediaColor(media: topic.name).opacity(0.7)
+                        let textColor = Color.white
+                        
                         Tag(
                             text: "\(count) songs",
-                            variant: .default,
-                            size: .normal
+                            variant: .custom(background: bgColor, text: textColor),
+                            size: .custom(fontSize: 11, cornerRadius: 12, horizontalPadding: 12, verticalPadding: 4)
                         )
                     }
                 }

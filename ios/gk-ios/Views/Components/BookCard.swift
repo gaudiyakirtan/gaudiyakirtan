@@ -20,7 +20,7 @@ struct BookCard: View {
                             Tag(
                                 text: "\(songCount) songs",
                                 variant: .highlight,
-                                size: .small
+                                size: .custom(fontSize: 10, cornerRadius: 11, horizontalPadding: 10, verticalPadding: 4)
                             )
                         }
                         
@@ -29,7 +29,7 @@ struct BookCard: View {
                             Tag(
                                 text: year,
                                 variant: .black,
-                                size: .small
+                                size: .custom(fontSize: 10, cornerRadius: 11, horizontalPadding: 10, verticalPadding: 4)
                             )
                         }
                     }
