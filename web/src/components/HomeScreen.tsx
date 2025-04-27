@@ -13,7 +13,7 @@ import { BooksSection } from "./BooksSection";
 import {
   sampleSongs,
   sampleAuthors,
-  sampleTopics,
+  sampleTopicInstances,
   sampleBooks,
 } from "../data/sampleData";
 
@@ -21,7 +21,7 @@ export const HomeScreen: React.FC = () => {
   const router = useRouter();
   const [songs] = useState<IExtendedSong[]>(sampleSongs);
   const [authors] = useState<IAuthor[]>(sampleAuthors);
-  const [topics] = useState<ITopic[]>(sampleTopics);
+  const [topics] = useState<ITopic[]>(sampleTopicInstances);
   const [books] = useState<IBook[]>(sampleBooks);
   const [language] = useState("en");
 

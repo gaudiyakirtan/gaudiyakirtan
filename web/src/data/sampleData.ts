@@ -48,9 +48,10 @@ export const sampleAuthors: IAuthor[] = [
 ]
 
 // Sample topics
-import { Topic } from '../models/Topic'
+import { ITopic, Topic } from '../models/Topic'
 
-export const sampleTopics: Topic[] = [
+// Class instances (for internal use)
+export const sampleTopicInstances: Topic[] = [
   new Topic('Sri Guru'),
   new Topic('Vaisnavas'),
   new Topic('Sri Gadadhara'),
@@ -60,6 +61,11 @@ export const sampleTopics: Topic[] = [
   new Topic('Arati'),
   new Topic('Mangalacarana')
 ]
+
+// Plain objects (for serialization in getStaticProps)
+export const sampleTopics: ITopic[] = sampleTopicInstances.map(topic => ({
+  name: topic.name
+}))
 
 // Sample books
 export const sampleBooks: IBook[] = [

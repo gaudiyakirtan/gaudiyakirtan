@@ -23,14 +23,10 @@ export const TopicsSection: React.FC<TopicsSectionProps> = ({
 }) => {
   if (!topics.length) return null
 
-  // Get song count from the topic model or use a fallback
+  // Get song count from the topic model or generate one based on the name
   const getSongCount = (topic: ITopic, index: number) => {
-    // If it's a Topic instance with demoSongCount property
-    if (topic instanceof Topic) {
-      return topic.demoSongCount;
-    }
-    // Fallback for ITopic interface only (for backward compatibility)
-    return Math.floor((index + 1) * 3.7) % 20 + 1;
+    // Generate a pseudo-random count based on the topic name length
+    return Math.floor((topic.name.length * 3) % 20 + 1);
   }
 
   // Limit the number of topics if limit is provided
