@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export const HomeIcon: React.FC<{ className?: string }> = ({ className }) => (
   <svg
@@ -37,7 +37,9 @@ export const SongsIcon: React.FC<{ className?: string }> = ({ className }) => (
   </svg>
 );
 
-export const AuthorsIcon: React.FC<{ className?: string }> = ({ className }) => (
+export const AuthorsIcon: React.FC<{ className?: string }> = ({
+  className,
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"
@@ -90,7 +92,9 @@ export const BooksIcon: React.FC<{ className?: string }> = ({ className }) => (
   </svg>
 );
 
-export const ChevronRightIcon: React.FC<{ className?: string }> = ({ className }) => (
+export const ChevronRightIcon: React.FC<{ className?: string }> = ({
+  className,
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"
@@ -107,7 +111,9 @@ export const ChevronRightIcon: React.FC<{ className?: string }> = ({ className }
   </svg>
 );
 
-export const ChevronDownIcon: React.FC<{ className?: string }> = ({ className }) => (
+export const ChevronDownIcon: React.FC<{ className?: string }> = ({
+  className,
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"
@@ -147,16 +153,24 @@ export const MetronomeIcon: React.FC<{ className?: string }> = ({ className }) =
     xmlns="http://www.w3.org/2000/svg"
     width="16"
     height="16"
-    viewBox="0 0 24 24"
-    fill="none"
-    stroke="currentColor"
-    strokeWidth="2"
+    viewBox="0 0 30 30"
+    fill="currentColor"
+    stroke="none"
     strokeLinecap="round"
     strokeLinejoin="round"
     className={className}
   >
-    <path d="m8 2 4 20 4-20" />
-    <path d="M12 14h.01" />
+    <g>
+      <path
+        d="M16,21c0.3,0,0.6-0.1,0.8-0.4l13-17c0.3-0.4,0.3-1.1-0.2-1.4c-0.4-0.3-1.1-0.3-1.4,0.2l-5.7,7.5l-1-4.8
+		c-0.4-1.8-2-3.1-3.8-3.1h-3.4c-1.8,0-3.4,1.2-3.8,3L5.8,25.5c-0.3,1.1,0,2.2,0.7,3.1C7.2,29.5,8.2,30,9.3,30h13.3
+		c1.1,0,2.2-0.5,2.9-1.4c0.7-0.9,0.9-2,0.7-3.1l-2.5-9.7c-0.1-0.5-0.7-0.9-1.2-0.7c-0.5,0.1-0.9,0.7-0.7,1.2l1.5,5.8H8.6l3.8-16.5
+		c0.2-0.9,1-1.5,1.8-1.5h3.4c0.9,0,1.7,0.6,1.8,1.5l1.4,6.5l-5.6,7.4c-0.3,0.4-0.3,1.1,0.2,1.4C15.6,20.9,15.8,21,16,21z"
+      ></path>
+      <path d="M15,8h2c0.6,0,1-0.4,1-1s-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1S14.4,8,15,8z"></path>
+      <path d="M15,11h2c0.6,0,1-0.4,1-1s-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1S14.4,11,15,11z"></path>
+      <path d="M15,14h2c0.6,0,1-0.4,1-1s-0.4-1-1-1h-2c-0.6,0-1,0.4-1,1S14.4,14,15,14z"></path>
+    </g>
   </svg>
 );
 
@@ -179,7 +193,9 @@ export const TextIcon: React.FC<{ className?: string }> = ({ className }) => (
   </svg>
 );
 
-export const SpeakerIcon: React.FC<{ className?: string }> = ({ className }) => (
+export const SpeakerIcon: React.FC<{ className?: string }> = ({
+  className,
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"
@@ -198,7 +214,9 @@ export const SpeakerIcon: React.FC<{ className?: string }> = ({ className }) => 
   </svg>
 );
 
-export const SettingsIcon: React.FC<{ className?: string }> = ({ className }) => (
+export const SettingsIcon: React.FC<{ className?: string }> = ({
+  className,
+}) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="16"

@@ -124,31 +124,9 @@ const SongsPage: React.FC<SongsPageProps> = ({ songs }) => {
       </Head>
 
       <div className="w-full max-w-screen-lg pb-12 mx-auto">
-        {/* Search and filter tools */}
-        <div className="flex flex-wrap items-center justify-between px-4 py-4 mb-4 gap-y-2">
+        {/* Header */}
+        <div className="flex flex-wrap items-center px-4 py-4 mb-4 gap-y-2">
           <h1 className="text-xl font-bold text-[var(--primary)]">Songs</h1>
-          
-          <div className="flex flex-wrap items-center gap-4">
-            <input
-              type="text"
-              placeholder="Search songs..."
-              value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
-              className="px-3 py-1.5 rounded-md bg-[var(--background-offset)] text-[var(--primary)] border border-[var(--border)] focus:outline-none focus:ring-1 focus:ring-[var(--highlight)]"
-            />
-            
-            <select 
-              value={language}
-              onChange={(e) => setLanguage(e.target.value)}
-              className="px-3 py-1.5 rounded-md bg-[var(--background-offset)] text-[var(--primary)] border border-[var(--border)] focus:outline-none focus:ring-1 focus:ring-[var(--highlight)]"
-            >
-              {availableLanguages.map(lang => (
-                <option key={lang} value={lang}>
-                  {lang === 'en' ? 'English' : lang === 'bn' ? 'Bengali' : lang}
-                </option>
-              ))}
-            </select>
-          </div>
         </div>
 
         {/* Table view */}
@@ -177,19 +155,8 @@ const SongsPage: React.FC<SongsPageProps> = ({ songs }) => {
                     className="flex items-center font-semibold text-[var(--primary)]"
                     onClick={() => handleSort('uid')}
                   >
-                    ID {getSortIcon('uid')}
+                    Song Code {getSortIcon('uid')}
                   </button>
-                </th>
-                <th className="py-3 text-left">
-                  <button 
-                    className="flex items-center font-semibold text-[var(--primary)]"
-                    onClick={() => handleSort('audio')}
-                  >
-                    Audio {getSortIcon('audio')}
-                  </button>
-                </th>
-                <th className="py-3 text-left">
-                  <span className="font-semibold text-[var(--primary)]">Tags</span>
                 </th>
               </tr>
             </thead>
@@ -205,27 +172,12 @@ const SongsPage: React.FC<SongsPageProps> = ({ songs }) => {
                     className="border-b border-[var(--border)] cursor-pointer hover:bg-[var(--background-offset)] transition-colors"
                     onClick={() => handleSongClick(song)}
                   >
-                    <td className="py-3">{displayTitle}</td>
-                    <td className="py-3">{displayAuthor}</td>
+                    <td className="py-3 font-medium text-[var(--primary)]">{displayTitle}</td>
+                    <td className="py-3 text-[var(--neutral)]">{displayAuthor}</td>
                     <td className="py-3">
-                      <span className="px-2 py-0.5 rounded-xl text-xs bg-[var(--neutral)]/20 text-[var(--neutral)]">
+                      <span className="px-2 py-0.5 rounded-md text-xs bg-[var(--neutral)]/20 text-[var(--neutral)]">
                         {song.uid}
                       </span>
-                    </td>
-                    <td className="py-3">
-                      {song.audio && <MusicNote size={16} className="text-[var(--neutral)]" />}
-                    </td>
-                    <td className="py-3">
-                      <div className="flex flex-wrap gap-1">
-                        {song.tags.map((tag, idx) => (
-                          <span 
-                            key={idx} 
-                            className="px-2 py-0.5 text-xs rounded-xl bg-[var(--neutral)]/20 text-[var(--neutral)]"
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
                     </td>
                   </tr>
                 )

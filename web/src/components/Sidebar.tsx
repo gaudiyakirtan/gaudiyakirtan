@@ -100,12 +100,18 @@ const SidebarItem: React.FC<SidebarItemProps> = ({
   );
 };
 
-const SidebarSection: React.FC<SidebarSectionProps> = ({ title, children, isCollapsed }) => {
+const SidebarSection: React.FC<SidebarSectionProps> = ({
+  title,
+  children,
+  isCollapsed,
+}) => {
   return (
     <div className="mb-6">
-      <h2 className={`mb-2 ml-3 text-sm font-medium text-[var(--highlight)] transition-opacity duration-200 pr-3 ${
-        isCollapsed ? 'opacity-0' : 'opacity-100'
-      }`}>
+      <h2
+        className={`mb-2 ml-3 text-sm font-medium text-[var(--highlight)] transition-opacity duration-200 pr-3 ${
+          isCollapsed ? "opacity-0" : "opacity-100"
+        }`}
+      >
         {title}
       </h2>
       <div className="space-y-1">{children}</div>
