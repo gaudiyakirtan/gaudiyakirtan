@@ -43,9 +43,9 @@ export const TopicsSection: React.FC<TopicsSectionProps> = ({
           </a>
         )}
       </div>
-      <div className="grid grid-cols-2 gap-4 px-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7">
+      <div className="grid grid-cols-2 gap-4 px-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5">
         {displayTopics.map((topic, index) => (
-          <div key={`topic-${index}-${topic.name}`} className="aspect-[1.66/1]">
+          <div key={`topic-${index}-${topic.name}`} className="aspect-[1.86/1]">
             <TopicCard
               topic={topic}
               onClick={() => onTopicClick && onTopicClick(topic)}

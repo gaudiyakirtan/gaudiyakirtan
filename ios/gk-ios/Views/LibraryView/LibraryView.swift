@@ -60,21 +60,23 @@ struct LibraryView: View {
     }
     
     private var topicsContent: some View {
-        LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
-            ForEach(viewModel.filteredTopics) { topic in
-                // Count songs for this topic (matching by topic name to any tag)
-                let songCount = viewModel.songs.filter { song in
-                    song.tags.contains(where: { $0.lowercased() == topic.name.lowercased() })
-                }.count
-                
-                TopicCard(
-                    topic: topic,
-                    songCount: songCount,
-                    action: { /* Handle topic selection */ }
-                )
+        ScrollView {
+            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
+                ForEach(viewModel.filteredTopics) { topic in
+                    // Count songs for this topic (matching by topic name to any tag)
+                    let songCount = viewModel.songs.filter { song in
+                        song.tags.contains(where: { $0.lowercased() == topic.name.lowercased() })
+                    }.count
+                    
+                    TopicCard(
+                        topic: topic,
+                        songCount: songCount,
+                        action: { /* Handle topic selection */ }
+                    )
+                }
             }
+            .padding(.horizontal)
         }
-        .padding(.horizontal)
     }
     
     private var booksContent: some View {

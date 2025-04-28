@@ -35,7 +35,7 @@ export const TopicCard: React.FC<TopicCardProps> = ({
       onClick={onClick}
     >
       <div className="flex flex-col justify-between w-full h-full p-4">
-        <div className="min-h-[48px]">
+        <div className="">
           <p
             className={`text-base font-bold ${textColor} text-left line-clamp-2`}
             style={{ lineHeight: "1.2" }}
@@ -47,7 +47,7 @@ export const TopicCard: React.FC<TopicCardProps> = ({
         {/* Song count badge at the bottom */}
         {songCount !== undefined && (
           <div className="mt-auto">
-            <span className="px-2.5 py-1 text-xs rounded-full bg-white/30 backdrop-blur-sm text-white">
+            <span className="px-2.5 py-1 text-xs rounded-full bg-white/30 text-white">
               {songCount}{" songs"}
             </span>
           </div>
