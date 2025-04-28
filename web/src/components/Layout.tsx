@@ -46,6 +46,7 @@ export const Layout: React.FC<LayoutProps> = ({
       <header className="fixed top-0 left-0 right-0 bg-[var(--background-offset)] border-b border-[var(--border)] z-30">
         <div className="flex items-center h-12 px-4">
           <div className="flex items-center">
+            {/* Mobile menu button */}
             <button
               className="p-2 mr-3 md:hidden"
               onClick={() => setSidebarOpen(!sidebarOpen)}
@@ -67,7 +68,7 @@ export const Layout: React.FC<LayoutProps> = ({
                 <line x1="3" y1="18" x2="21" y2="18" />
               </svg>
             </button>
-
+            
             {/* Gaudiya Kirtan Logo - Moved from sidebar to header */}
             <div className="flex items-center mr-4">
               <img
@@ -81,6 +82,33 @@ export const Layout: React.FC<LayoutProps> = ({
                 className="h-5 hidden sm:block"
               />
             </div>
+            
+            {/* Sidebar toggle button - only visible on desktop */}
+            <button
+              className="p-2 mx-2 hidden md:flex"
+              onClick={() => {
+                // This will update the isCollapsed state in the Sidebar component
+                const event = new CustomEvent('toggleSidebar');
+                window.dispatchEvent(event);
+              }}
+              title="Toggle sidebar"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                className="text-[var(--tertiary)]"
+              >
+                <rect width="18" height="18" x="3" y="3" rx="2" ry="2" />
+                <line x1="9" y1="3" x2="9" y2="21" />
+              </svg>
+            </button>
             
             {/* Divider */}
             <div className="h-6 border-l border-[var(--border)] mx-3 hidden sm:block"></div>
@@ -164,54 +192,7 @@ export const Layout: React.FC<LayoutProps> = ({
             </div>
           </div>
 
-          <button 
-            className="p-2 hover:bg-[var(--background-offset)] rounded-md transition-colors"
-            onClick={toggleTheme}
-            aria-label={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
-            title={`Switch to ${theme === 'light' ? 'dark' : 'light'} mode`}
-          >
-            {theme === 'light' ? (
-              // Sun icon (light mode active)
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="text-[var(--tertiary)]"
-              >
-                <circle cx="12" cy="12" r="4" />
-                <path d="M12 2v2" />
-                <path d="M12 20v2" />
-                <path d="m4.93 4.93 1.41 1.41" />
-                <path d="m17.66 17.66 1.41 1.41" />
-                <path d="M2 12h2" />
-                <path d="M20 12h2" />
-                <path d="m6.34 17.66-1.41 1.41" />
-                <path d="m19.07 4.93-1.41 1.41" />
-              </svg>
-            ) : (
-              // Moon icon (dark mode active)
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="24"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                className="text-[var(--tertiary)]"
-              >
-                <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z" />
-              </svg>
-            )}
-          </button>
+          {/* Theme toggle button removed from header */}
         </div>
       </header>
 
@@ -228,7 +209,7 @@ export const Layout: React.FC<LayoutProps> = ({
         )}
 
         {/* Main content */}
-        <div className="flex flex-col flex-1 overflow-x-hidden md:ml-16 transition-all duration-300">
+        <div className="flex flex-col flex-1 overflow-x-hidden md:ml-16 transition-all duration-300 main-content">
           <main className="flex-1 px-4 py-6 md:px-8">{children}</main>
 
           <footer className="mt-auto">
