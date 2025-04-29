@@ -11,6 +11,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.gaudiyakirtan.myapplication.models.Song
 import com.gaudiyakirtan.myapplication.ui.components.CategorySelector
 import com.gaudiyakirtan.myapplication.ui.components.CollectionCard
 import com.gaudiyakirtan.myapplication.ui.components.LibrarySearchBar
@@ -21,6 +22,7 @@ import com.gaudiyakirtan.myapplication.ui.components.LibrarySearchBar
  */
 @Composable
 fun CollectionsScreen(
+    onSongClick: (Song) -> Unit = {},
     viewModel: CollectionsViewModel = viewModel()
 ) {
     val categories = remember { CollectionsViewModel.Category.values().toList() }

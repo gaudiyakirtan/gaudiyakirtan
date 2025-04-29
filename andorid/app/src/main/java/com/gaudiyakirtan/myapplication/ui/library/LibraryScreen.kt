@@ -28,6 +28,7 @@ import com.gaudiyakirtan.myapplication.utils.StringUtils
  */
 @Composable
 fun LibraryScreen(
+    onSongClick: (Song) -> Unit = {},
     viewModel: LibraryViewModel = viewModel()
 ) {
     val categories = remember { Category.values().toList() }
@@ -58,6 +59,7 @@ fun LibraryScreen(
         when (viewModel.selectedCategory) {
             Category.SONGS -> SongsContent(
                 songs = viewModel.filteredSongs,
+                onSongClick = onSongClick,
                 modifier = Modifier.fillMaxSize()
             )
             
@@ -82,6 +84,7 @@ fun LibraryScreen(
 @Composable
 private fun SongsContent(
     songs: List<Song>,
+    onSongClick: (Song) -> Unit = {},
     modifier: Modifier = Modifier
 ) {
     // Group songs by first letter for section headers
@@ -126,7 +129,7 @@ private fun SongsContent(
                 items(groupedSongs[letter] ?: emptyList()) { song ->
                     SongListItem(
                         song = song,
-                        onClick = { /* Handle song click */ }
+                        onClick = { onSongClick(song) }
                     )
                 }
             }

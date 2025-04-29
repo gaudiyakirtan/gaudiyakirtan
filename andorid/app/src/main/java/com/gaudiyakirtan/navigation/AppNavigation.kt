@@ -14,15 +14,20 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.unit.dp
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
+import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.navArgument
+import com.gaudiyakirtan.data.SampleData
 import com.gaudiyakirtan.myapplication.R
 import com.gaudiyakirtan.myapplication.ui.collections.CollectionsScreen
 import com.gaudiyakirtan.myapplication.ui.home.HomeScreen
+import com.gaudiyakirtan.myapplication.ui.song.SongScreen
 import com.gaudiyakirtan.myapplication.ui.theme.GaurNeutral
 import com.gaudiyakirtan.myapplication.ui.theme.ShyamNeutral
 
@@ -66,6 +71,13 @@ sealed class Tab(
 }
 
 /**
+ * Additional routes outside the main tabs
+ */
+sealed class Route(val route: String) {
+    object Song : Route("song/{songId}")
+}
+
+/**
  * Main navigation component for the Gaudiya Kirtan application
  * Handles navigation between main screens using iOS-style navigation
  */
@@ -79,57 +91,59 @@ fun AppNavigation() {
         Tab.Search
     )
     
-    // Removed currentTab state variable as it's not needed
+    val navBackStackEntry by navController.currentBackStackEntryAsState()
+    val currentDestination = navBackStackEntry?.destination
+    
+    // Determine if we're on a main tab or a detail screen
+    val isOnMainTab = items.any { 
+        currentDestination?.hierarchy?.any { dest -> dest.route == it.route } == true 
+    }
     
     Scaffold(
         bottomBar = {
-            NavigationBar(
-                containerColor = MaterialTheme.colorScheme.background,
-                contentColor = MaterialTheme.colorScheme.tertiary // This ensures all content uses the neutral color
-            ) {
-                val navBackStackEntry by navController.currentBackStackEntryAsState()
-                val currentDestination = navBackStackEntry?.destination
-                
-                items.forEach { tab ->
-                    val selected = currentDestination?.hierarchy?.any { it.route == tab.route } == true
-                    
-                    NavigationBarItem(
-                        icon = { 
-                            Icon(
-                                painter = painterResource(
-                                    id = if (selected) tab.filledIcon else tab.outlineIcon
-                                ), 
-                                contentDescription = tab.label
-                                // Not setting tint explicitly since it will inherit from contentColor
-                            ) 
-                        },
-                        label = { 
-                            Text(text = tab.label)
-                            // Not setting color explicitly since it will inherit from contentColor
-                        },
-                        selected = selected,
-                        colors = androidx.compose.material3.NavigationBarItemDefaults.colors(
-                            selectedIconColor = MaterialTheme.colorScheme.tertiary,
-                            unselectedIconColor = MaterialTheme.colorScheme.tertiary,
-                            selectedTextColor = MaterialTheme.colorScheme.tertiary,
-                            unselectedTextColor = MaterialTheme.colorScheme.tertiary,
-                            indicatorColor = MaterialTheme.colorScheme.background // Make indicator invisible
-                        ),
-                        onClick = {
-                            // Removed currentTab assignment that caused the type mismatch
-                            navController.navigate(tab.route) {
-                                // Pop up to the start destination of the graph to
-                                // avoid building up a large stack of destinations
-                                popUpTo(navController.graph.findStartDestination().id) {
-                                    saveState = true
+            if (isOnMainTab) { // Only show bottom nav on main tabs
+                NavigationBar(
+                    containerColor = MaterialTheme.colorScheme.background,
+                    contentColor = MaterialTheme.colorScheme.tertiary // This ensures all content uses the neutral color
+                ) {
+                    items.forEach { tab ->
+                        val selected = currentDestination?.hierarchy?.any { it.route == tab.route } == true
+                        
+                        NavigationBarItem(
+                            icon = { 
+                                Icon(
+                                    painter = painterResource(
+                                        id = if (selected) tab.filledIcon else tab.outlineIcon
+                                    ), 
+                                    contentDescription = tab.label
+                                ) 
+                            },
+                            label = { 
+                                Text(text = tab.label)
+                            },
+                            selected = selected,
+                            colors = androidx.compose.material3.NavigationBarItemDefaults.colors(
+                                selectedIconColor = MaterialTheme.colorScheme.tertiary,
+                                unselectedIconColor = MaterialTheme.colorScheme.tertiary,
+                                selectedTextColor = MaterialTheme.colorScheme.tertiary,
+                                unselectedTextColor = MaterialTheme.colorScheme.tertiary,
+                                indicatorColor = MaterialTheme.colorScheme.background // Make indicator invisible
+                            ),
+                            onClick = {
+                                navController.navigate(tab.route) {
+                                    // Pop up to the start destination of the graph to
+                                    // avoid building up a large stack of destinations
+                                    popUpTo(navController.graph.findStartDestination().id) {
+                                        saveState = true
+                                    }
+                                    // Avoid multiple copies of the same destination when reselecting the same item
+                                    launchSingleTop = true
+                                    // Restore state when reselecting a previously selected item
+                                    restoreState = true
                                 }
-                                // Avoid multiple copies of the same destination when reselecting the same item
-                                launchSingleTop = true
-                                // Restore state when reselecting a previously selected item
-                                restoreState = true
                             }
-                        }
-                    )
+                        )
+                    }
                 }
             }
         }
@@ -137,16 +151,31 @@ fun AppNavigation() {
         NavHost(
             navController = navController,
             startDestination = Tab.Home.route,
-            modifier = Modifier.padding(innerPadding)
+            modifier = if (isOnMainTab) Modifier.padding(innerPadding) else Modifier
         ) {
-            composable(Tab.Home.route) { HomeScreen() }
+            // Main tab screens
+            composable(Tab.Home.route) { 
+                HomeScreen(
+                    onSongClick = { song ->
+                        navController.navigate("song/${song.uid}")
+                    }
+                ) 
+            }
             
             composable(Tab.Library.route) { 
-                com.gaudiyakirtan.myapplication.ui.library.LibraryScreen()
+                com.gaudiyakirtan.myapplication.ui.library.LibraryScreen(
+                    onSongClick = { song ->
+                        navController.navigate("song/${song.uid}")
+                    }
+                )
             }
             
             composable(Tab.Collection.route) { 
-                CollectionsScreen()
+                CollectionsScreen(
+                    onSongClick = { song ->
+                        navController.navigate("song/${song.uid}")
+                    }
+                )
             }
             
             composable(Tab.Search.route) { 
@@ -156,6 +185,30 @@ fun AppNavigation() {
                     style = MaterialTheme.typography.headlineMedium,
                     modifier = Modifier.padding(innerPadding)
                 ) 
+            }
+            
+            // Song detail screen
+            composable(
+                route = Route.Song.route,
+                arguments = listOf(navArgument("songId") { type = NavType.StringType })
+            ) { backStackEntry ->
+                val songId = backStackEntry.arguments?.getString("songId") ?: ""
+                // Find the song by uid
+                val song = SampleData.songs.find { it.uid == songId }
+                
+                if (song != null) {
+                    SongScreen(
+                        song = song,
+                        onBackClick = { navController.popBackStack() }
+                    )
+                } else {
+                    // Error state if song not found
+                    Text(
+                        text = "Song not found",
+                        style = MaterialTheme.typography.headlineMedium,
+                        modifier = Modifier.padding(all = 16.dp)
+                    )
+                }
             }
         }
     }

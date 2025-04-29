@@ -16,12 +16,14 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.foundation.background
 import androidx.lifecycle.viewmodel.compose.viewModel
+import com.gaudiyakirtan.myapplication.models.Song
 import com.gaudiyakirtan.myapplication.ui.components.SearchBar
 import com.gaudiyakirtan.myapplication.ui.components.VerseView
 import com.gaudiyakirtan.myapplication.ui.sections.*
 
 @Composable
 fun HomeScreen(
+    onSongClick: (Song) -> Unit = {},
     viewModel: HomeViewModel = viewModel()
 ) {
     val songs by viewModel.songs.collectAsState()
@@ -54,7 +56,7 @@ fun HomeScreen(
                     .verticalScroll(rememberScrollState()),
                 verticalArrangement = Arrangement.spacedBy(24.dp)
             ) {
-                SongsSection(songs = songs.take(4))
+                SongsSection(songs = songs.take(4), onSongClick = onSongClick)
                 AuthorsSection(authors = authors)
                 TopicsSection(topics = topics, songs = songs)
                 BooksSection(books = books)

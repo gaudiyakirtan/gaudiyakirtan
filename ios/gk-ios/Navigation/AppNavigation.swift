@@ -37,56 +37,74 @@ struct AppNavigation: View {
     )
 
     var body: some View {
-//        NavigationStack {
-            TabView(selection: $selection) {
+        TabView(selection: $selection) {
+            NavigationView {
                 HomeView()
-                    .tag(Tab.home)
-                    .tabItem {
-                        Image(selection == .home ? Tab.home.filledIconName : Tab.home.iconName)
-                            .renderingMode(.template)
-                            .foregroundColor(Color.neutral)
-                        Text("Home")
-                            .foregroundColor(Color.neutral)
-                    }
-                    .background(Color.background)
+                    .navigationBarHidden(true)
+            }
+            .tag(Tab.home)
+            .tabItem {
+                Image(selection == .home ? Tab.home.filledIconName : Tab.home.iconName)
+                    .renderingMode(.template)
+                    .foregroundColor(Color.neutral)
+                Text("Home")
+                    .foregroundColor(Color.neutral)
+            }
+            .background(Color.background)
 
+            NavigationView {
                 LibraryView()
-                    .tag(Tab.library)
-                    .tabItem {
-                        Image(selection == .library ? Tab.library.filledIconName : Tab.library.iconName)
-                            .renderingMode(.template)
-                            .foregroundColor(Color.neutral)
-                        Text("Library")
-                            .foregroundColor(Color.neutral)
-                    }
-                    .background(Color.background)
+                    .navigationBarHidden(true)
+            }
+            .tag(Tab.library)
+            .tabItem {
+                Image(selection == .library ? Tab.library.filledIconName : Tab.library.iconName)
+                    .renderingMode(.template)
+                    .foregroundColor(Color.neutral)
+                Text("Library")
+                    .foregroundColor(Color.neutral)
+            }
+            .background(Color.background)
 
+            NavigationView {
                 CollectionsView()
-                    .tag(Tab.collection)
-                    .tabItem {
-                        Image(
-                            selection == .collection
-                                ? Tab.collection.filledIconName : Tab.collection.iconName
-                        )
-                        .renderingMode(.template)
-                        .foregroundColor(Color.neutral)
-                        Text("Collections")
-                            .foregroundColor(Color.neutral)
-                    }
+                    .navigationBarHidden(true)
+            }
+            .tag(Tab.collection)
+            .tabItem {
+                Image(
+                    selection == .collection
+                        ? Tab.collection.filledIconName : Tab.collection.iconName
+                )
+                .renderingMode(.template)
+                .foregroundColor(Color.neutral)
+                Text("Collections")
+                    .foregroundColor(Color.neutral)
+            }
 
+            NavigationView {
                 Text("Search")
-                    .tag(Tab.search)
-                    .tabItem {
-                        Image(selection == .search ? Tab.search.filledIconName : Tab.search.iconName)
-                            .renderingMode(.template)
-                            .foregroundColor(Color.neutral)
-                        Text("Search")
-                            .foregroundColor(Color.neutral)
-                    }
+                    .navigationBarHidden(true)
             }
-            .tint(Color.neutral)
-            .onAppear() {
-                UITabBar.appearance().backgroundColor = UIColor(Color.background)
+            .tag(Tab.search)
+            .tabItem {
+                Image(selection == .search ? Tab.search.filledIconName : Tab.search.iconName)
+                    .renderingMode(.template)
+                    .foregroundColor(Color.neutral)
+                Text("Search")
+                    .foregroundColor(Color.neutral)
             }
+        }
+        .tint(Color.neutral)
+        .onAppear() {
+            UITabBar.appearance().backgroundColor = UIColor(Color.background)
+            
+            // Configure NavigationBar appearance to be hidden by default
+            let appearance = UINavigationBarAppearance()
+            appearance.configureWithTransparentBackground()
+            UINavigationBar.appearance().standardAppearance = appearance
+            UINavigationBar.appearance().compactAppearance = appearance
+            UINavigationBar.appearance().scrollEdgeAppearance = appearance
+        }
     }
 }
