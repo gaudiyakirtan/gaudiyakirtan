@@ -15,87 +15,113 @@ const DiacriticsPage = () => {
             <table className="w-full mb-6 border-collapse">
               <thead>
                 <tr className="bg-[var(--background-offset)]">
-                  <th className="border border-[var(--border)] p-2 text-left">Sanskrit Pronunciation</th>
-                  <th className="border border-[var(--border)] p-2 text-left">Bengali Pronunciation</th>
-                  <th className="border border-[var(--border)] p-2 text-left">Hindi Pronunciation</th>
+                  <th className="border border-[var(--border)] p-2 text-left text-[var(--primary)] font-bold">Sanskrit Pronunciation</th>
+                  <th className="border border-[var(--border)] p-2 text-left text-[var(--primary)] font-bold">Bengali Pronunciation</th>
+                  <th className="border border-[var(--border)] p-2 text-left text-[var(--primary)] font-bold">Hindi Pronunciation</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>a</strong> – as in 'about'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">a</strong> – as in 'about'
                   </td>
                   <td className="border border-[var(--border)] p-2">
                     pronounced in two ways: a as in the British pronunciation of hot<sup>1</sup> or ô as in 'sofa'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                </tr>
-                <tr>
                   <td className="border border-[var(--border)] p-2">
-                    <strong>ā</strong> – as in 'father'
+                    same as Sanskrit
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
                 </tr>
                 <tr>
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">ā</strong> – as in 'father'
+                  </td>
                   <td className="border border-[var(--border)] p-2">
-                    <strong>i</strong> – as in 'see'
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">i</strong> – as in 'see'
                   </td>
                   <td className="border border-[var(--border)] p-2">as in 'hit'</td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ī</strong> – as in 'see' but pronounced longer
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">ī</strong> – as in 'see' but pronounced longer
                   </td>
                   <td className="border border-[var(--border)] p-2">same as 'i'</td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>u</strong> – as in 'mood'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">u</strong> – as in 'mood'
                   </td>
                   <td className="border border-[var(--border)] p-2">as in 'put'</td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ū</strong> – as in 'mood' but pronounced longer
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">ū</strong> – as in 'mood' but pronounced longer
                   </td>
                   <td className="border border-[var(--border)] p-2">same as 'u'</td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                </tr>
-                <tr>
                   <td className="border border-[var(--border)] p-2">
-                    <strong>ṛ</strong> – as in 'rip' and sometimes as in 'reed' (the 'r' sound should be slightly trilled)
+                    same as Sanskrit
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>e</strong> – as in French 'café'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">ṛ</strong> – as in 'rip' and sometimes as in 'reed' (the 'r' sound should be slightly trilled)
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    pronounced like 'ri' in 'trick'
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">e</strong> – as in French 'café'
+                  </td>
                   <td className="border border-[var(--border)] p-2">
-                    <strong>ai</strong> – as in 'high'
+                    similar to Sanskrit, but sometimes more like 'a' in 'day'
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                </tr>
+                <tr>
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">ai</strong> – as in 'high'
                   </td>
                   <td className="border border-[var(--border)] p-2">as in 'boy'</td>
                   <td className="border border-[var(--border)] p-2">as in 'hen'</td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>o</strong> – as in 'sofa'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">o</strong> – as in 'sofa'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    as in 'go' or 'boat'
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>au</strong> – as in 'now'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">au</strong> – as in 'now'
                   </td>
                   <td className="border border-[var(--border)] p-2">the sounds 'o' and 'u' joined together</td>
                   <td className="border border-[var(--border)] p-2">the sounds 'a' and 'u' joined together</td>
@@ -127,39 +153,59 @@ const DiacriticsPage = () => {
                   <td className="border border-[var(--border)] p-2" colSpan={3}>Velar</td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ka</strong> – as in 'skit'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">ka</strong> – as in 'skit'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>kha</strong> – aspirated form of 'ka'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">kha</strong> – aspirated form of 'ka'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    stronger aspiration than Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ga</strong> – as in 'god'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">ga</strong> – as in 'god'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>gha</strong> – aspirated form of 'ga'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">gha</strong> – aspirated form of 'ga'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    stronger aspiration than Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ṅ</strong> – as in 'ink'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--accent)]">ṅ</strong> – as in 'ink'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
 
                 {/* Palatal section */}
@@ -167,39 +213,59 @@ const DiacriticsPage = () => {
                   <td className="border border-[var(--border)] p-2" colSpan={3}>Palatal</td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ca</strong> – as in 'cheap'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--highlight)]">ca</strong> – as in 'cheap'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>cha</strong> – aspirated form of 'ca'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--highlight)]">cha</strong> – aspirated form of 'ca'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    stronger aspiration than Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ja</strong> – as in 'joke'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--highlight)]">ja</strong> – as in 'joke'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>jha</strong> – aspirated form of 'ja'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--highlight)]">jha</strong> – aspirated form of 'ja'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    stronger aspiration than Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ñ</strong> – as in 'inch'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--highlight)]">ñ</strong> – as in 'inch'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
 
                 {/* Retroflex section */}
@@ -207,46 +273,70 @@ const DiacriticsPage = () => {
                   <td className="border border-[var(--border)] p-2" colSpan={3}>Retroflex</td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ṭa</strong> – as in 'train' but harder
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--royal-blue)]">ṭa</strong> – as in 'train' but harder
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    less distinct than in Sanskrit, often like 'ta'
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit, very distinct
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ṭha</strong> – aspirated form of 'ṭa'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--royal-blue)]">ṭha</strong> – aspirated form of 'ṭa'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    less distinct than in Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    stronger aspiration than Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ḍa</strong> – as in 'drain' but harder
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--royal-blue)]">ḍa</strong> – as in 'drain' but harder
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    less distinct than in Sanskrit, often like 'da'
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit, very distinct
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ḍha</strong> – aspirated form of 'ḍa'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--royal-blue)]">ḍha</strong> – aspirated form of 'ḍa'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    less distinct than in Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    stronger aspiration than Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ḓa</strong> – a hard 'r' – the tongue makes a 'ḍa' sound as it moves past the palate.<sup>2</sup>
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--royal-blue)]">ḓa</strong> – a hard 'r' – the tongue makes a 'ḍa' sound as it moves past the palate.<sup>2</sup>
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    often pronounced similar to 'ra' in Bengali
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ḓha</strong> – aspirated form of 'ḓa'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--royal-blue)]">ḓha</strong> – aspirated form of 'ḓa'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    often pronounced similar to 'rha' in Bengali
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit but with stronger aspiration
+                  </td>
                 </tr>
 
                 {/* Dental section */}
@@ -254,39 +344,59 @@ const DiacriticsPage = () => {
                   <td className="border border-[var(--border)] p-2" colSpan={3}>Dental</td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ta</strong> – as in 'at' with the phrase 'at the'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--red)]">ta</strong> – as in 'at' with the phrase 'at the'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>tha</strong> – aspirated form of 'ta'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--red)]">tha</strong> – aspirated form of 'ta'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    stronger aspiration than Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>da</strong> – as in 'breadth'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--red)]">da</strong> – as in 'breadth'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>dha</strong> – aspirated form of 'da'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--red)]">dha</strong> – aspirated form of 'da'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    stronger aspiration than Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>na</strong> – as in 'anthem'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--red)]">na</strong> – as in 'anthem'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
 
                 {/* Labial section */}
@@ -294,41 +404,59 @@ const DiacriticsPage = () => {
                   <td className="border border-[var(--border)] p-2" colSpan={3}>Labial</td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>pa</strong> – as in 'spin'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--green)]">pa</strong> – as in 'spin'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>pha</strong> – aspirated form of 'pa'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--green)]">pha</strong> – aspirated form of 'pa'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                   <td className="border border-[var(--border)] p-2">
                     pronounced somewhere in between 'pha' and 'fa'
                   </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ba</strong> – as in 'bin'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--green)]">ba</strong> – as in 'bin'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit, often alternates with 'va'
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>bha</strong> – aspirated form of 'ba'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--green)]">bha</strong> – aspirated form of 'ba'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    stronger aspiration than Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ma</strong> – as in 'mom'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--green)]">ma</strong> – as in 'mom'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
 
                 {/* Semivowels section */}
@@ -336,34 +464,44 @@ const DiacriticsPage = () => {
                   <td className="border border-[var(--border)] p-2" colSpan={3}>Semivowels</td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ya</strong> – as in 'yet'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--purple)]">ya</strong> – as in 'yet'
                   </td>
                   <td className="border border-[var(--border)] p-2">
                     if this consonant begins a Bengali word it is written 'ĵa' – as in 'joke'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ra</strong> – as in 'Rome' (the 'r' sound should be slightly trilled)
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--purple)]">ra</strong> – as in 'Rome' (the 'r' sound should be slightly trilled)
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    usually less trilled than Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    can be heavily trilled in Hindi
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>la</strong> – as in 'loud'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--purple)]">la</strong> – as in 'loud'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>va</strong> – as in 'vest'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--purple)]">va</strong> – as in 'vest'
                   </td>
                   <td className="border border-[var(--border)] p-2">
-                    this consonant doesn't appear in the Bengali alphabet
+                    this consonant doesn't appear in the Bengali alphabet, usually replaced by 'ba'
                   </td>
                   <td className="border border-[var(--border)] p-2">
                     pronounced somewhere in between 'vest' and 'west'
@@ -375,25 +513,31 @@ const DiacriticsPage = () => {
                   <td className="border border-[var(--border)] p-2" colSpan={3}>Sibilants</td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>śa</strong> – as in 'ship'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--orange)]">śa</strong> – as in 'ship'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    in Bengali, the three sibilants (śa, ṣa, sa) are all pronounced as 'sh'
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ṣa</strong> – retroflex form of 'śa'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--orange)]">ṣa</strong> – retroflex form of 'śa'
                   </td>
                   <td className="border border-[var(--border)] p-2">same as 'śa'</td>
                   <td className="border border-[var(--border)] p-2">same as 'śa'</td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>sa</strong> – as in 'sip'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--orange)]">sa</strong> – as in 'sip'
                   </td>
                   <td className="border border-[var(--border)] p-2">same as 'śa'</td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
 
                 {/* Aspirate section */}
@@ -401,25 +545,35 @@ const DiacriticsPage = () => {
                   <td className="border border-[var(--border)] p-2" colSpan={3}>Aspirate</td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>ha</strong> – as in 'hip'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--blue)]">ha</strong> – as in 'hip'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit, but often softer
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>kṣa</strong> – as in 'section'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--blue)]">kṣa</strong> – as in 'section'
                   </td>
                   <td className="border border-[var(--border)] p-2">same as 'kha'</td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
                 <tr>
-                  <td className="border border-[var(--border)] p-2">
-                    <strong>jña</strong> – pronounced as 'gya'
+                  <td className="border border-[var(--border)] p-2 bg-[var(--background)]">
+                    <strong className="text-[var(--blue)]">jña</strong> – pronounced as 'gya'
                   </td>
-                  <td className="border border-[var(--border)] p-2"></td>
-                  <td className="border border-[var(--border)] p-2"></td>
+                  <td className="border border-[var(--border)] p-2">
+                    often simplified to 'gya' or 'gga'
+                  </td>
+                  <td className="border border-[var(--border)] p-2">
+                    same as Sanskrit
+                  </td>
                 </tr>
               </tbody>
             </table>

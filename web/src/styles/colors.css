@@ -6,6 +6,7 @@
   --gaur-tertiary: #6e6e6e;
   --gaur-accent: #B36B00;
   --gaur-highlight: #B36B00;
+  --gaur-highlight-transparent: rgba(179, 107, 0, 0.15);
   --gaur-background: #FFF4E8;
   --gaur-background-offset: #F6E5D1;
   --gaur-border: #E6D7C3;
@@ -17,6 +18,7 @@
   --shyam-tertiary: #9B9B9B;
   --shyam-accent: #8CB4FF;
   --shyam-highlight: #8CB4FF;
+  --shyam-highlight-transparent: rgba(140, 180, 255, 0.15);
   --shyam-background: #191919;
   --shyam-background-offset: #202020;
   --shyam-border: #333333;
@@ -31,6 +33,7 @@
   --tertiary: var(--gaur-tertiary);
   --accent: var(--gaur-accent);
   --highlight: var(--gaur-highlight);
+  --highlight-transparent: var(--gaur-highlight-transparent);
   --background: var(--gaur-background);
   --background-offset: var(--gaur-background-offset);
   --border: var(--gaur-border);
@@ -44,6 +47,7 @@
   --tertiary: var(--shyam-tertiary);
   --accent: var(--shyam-accent);
   --highlight: var(--shyam-highlight);
+  --highlight-transparent: var(--shyam-highlight-transparent);
   --background: var(--shyam-background);
   --background-offset: var(--shyam-background-offset);
   --border: var(--shyam-border);
@@ -58,6 +62,7 @@
     --tertiary: var(--shyam-tertiary);
     --accent: var(--shyam-accent);
     --highlight: var(--shyam-highlight);
+    --highlight-transparent: var(--shyam-highlight-transparent);
     --background: var(--shyam-background);
     --background-offset: var(--shyam-background-offset);
     --border: var(--shyam-border);
