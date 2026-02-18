@@ -27,11 +27,10 @@ const TopicsPage: React.FC<TopicsPageProps> = ({ topics }) => {
       </Head>
 
       <div className="w-full max-w-screen-lg pb-12 mx-auto">
-        <TopicsSection 
+        <TopicsSection
           topics={topics}
           title="Topics"
           onTopicClick={handleTopicClick}
-          gridLayout={true}
         />
       </div>
     </>

@@ -48,7 +48,7 @@ export const sampleAuthors: IAuthor[] = [
 ]
 
 // Sample topics
-import { ITopic, Topic } from '../models/Topic'
+import { Topic } from '../models/Topic'
 
 // Class instances (for internal use)
 export const sampleTopicInstances: Topic[] = [

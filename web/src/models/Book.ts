@@ -1,9 +1,11 @@
 export interface IBook {
+  id?: string
   title: string
   author: string
-  slug: string
-  uid: string
+  slug?: string
+  uid?: string
   image: string
   songCount?: number
-  year?: string
+  year?: number | string
+  description?: string
 }

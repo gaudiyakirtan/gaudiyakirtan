@@ -43,7 +43,7 @@ export const SongListItem: React.FC<ISongListItemProps> = ({
 
   // Song ID and audio status are the same in both interfaces
   const { id, audio, tags } = song;
-  const uid = (song as any).uid || id;
+  const uid = 'uid' in song ? song.uid : id;
 
   return (
     <div

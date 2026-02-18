@@ -31,8 +31,8 @@ export const HomeScreen: React.FC = () => {
   };
 
   const handleAuthorClick = (author: IAuthor) => {
-    console.log("Navigate to author:", author.id);
-    // router.push(`/authors/${author.id}`)
+    console.log("Navigate to author:", author.name);
+    // router.push(`/authors/${author.name}`)
   };
 
   const handleTopicClick = (topic: ITopic) => {
@@ -41,8 +41,8 @@ export const HomeScreen: React.FC = () => {
   };
 
   const handleBookClick = (book: IBook) => {
-    console.log("Navigate to book:", book.id);
-    // router.push(`/books/${book.id}`)
+    console.log("Navigate to book:", book.uid);
+    // router.push(`/books/${book.uid}`)
   };
 
   return (
@@ -87,7 +87,6 @@ export const HomeScreen: React.FC = () => {
         onBookClick={handleBookClick}
         title="Featured Books"
         viewAllLink="/books"
-        gridLayout={false}
       />
 
     </div>

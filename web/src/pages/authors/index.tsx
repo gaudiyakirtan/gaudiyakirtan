@@ -28,11 +28,11 @@ const AuthorsPage: React.FC<AuthorsPageProps> = ({ authors }) => {
   const authorSongCounts = useMemo(() => {
     return authors.reduce((acc, author) => {
       // Use author id hash to generate a consistent number
-      const hash = author.id.split('').reduce((h, c) => {
+      const hash = (author.id ?? author.name).split('').reduce((h: number, c: string) => {
         return ((h << 5) - h) + c.charCodeAt(0) | 0;
       }, 0);
       // Generate a positive number between 0-100 based on the hash
-      acc[author.id] = Math.abs(hash % 100);
+      acc[author.id ?? author.name] = Math.abs(hash % 100);
       return acc;
     }, {} as Record<string, number>);
   }, [authors]);
@@ -67,8 +67,8 @@ const AuthorsPage: React.FC<AuthorsPageProps> = ({ authors }) => {
           break;
         case "songCount":
           // Use the pre-computed song counts
-          valueA = authorSongCounts[a.id] || 0;
-          valueB = authorSongCounts[b.id] || 0;
+          valueA = authorSongCounts[a.id ?? a.name] || 0;
+          valueB = authorSongCounts[b.id ?? b.name] || 0;
           break;
         default:
           valueA = a.name;
@@ -141,7 +141,7 @@ const AuthorsPage: React.FC<AuthorsPageProps> = ({ authors }) => {
           </h2>
           <div className="flex flex-wrap gap-4">
             {featuredAuthors.map((author) => (
-              <div key={author.id}>
+              <div key={author.id ?? author.name}>
                 <AuthorCard
                   author={author}
                   onClick={() => handleAuthorClick(author)}
@@ -193,11 +193,11 @@ const AuthorsPage: React.FC<AuthorsPageProps> = ({ authors }) => {
             <tbody>
               {filteredAndSortedAuthors.map((author) => {
                 // Use the pre-computed song count from our authorSongCounts map
-                const songCount = authorSongCounts[author.id] || 0;
+                const songCount = authorSongCounts[author.id ?? author.name] || 0;
 
                 return (
                   <tr
-                    key={author.id}
+                    key={author.id ?? author.name}
                     className="border-b border-[var(--border)] cursor-pointer hover:bg-[var(--background-offset)] transition-colors"
                     onClick={() => handleAuthorClick(author)}
                   >

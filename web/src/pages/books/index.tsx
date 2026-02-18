@@ -27,11 +27,10 @@ const BooksPage: React.FC<BooksPageProps> = ({ books }) => {
       </Head>
 
       <div className="w-full max-w-screen-lg mx-auto pb-12">
-        <BooksSection 
+        <BooksSection
           books={books}
           title="Books"
           onBookClick={handleBookClick}
-          gridLayout={true}
         />
       </div>
     </>

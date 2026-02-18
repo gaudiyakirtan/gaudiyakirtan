@@ -58,7 +58,7 @@ export const BookCard: React.FC<BookCardProps> = ({
       <div className="absolute top-0 right-0 p-3">
         <div className="flex flex-col items-end gap-1.5">
           {/* Song count badge */}
-          {book.songCount > 0 && (
+          {(book.songCount ?? 0) > 0 && (
             <span className="px-2.5 py-1 text-xs text-white rounded-full backdrop-blur-sm"
               style={{ backgroundColor: `${backgroundColor}` }}>
               {" "}
