@@ -90,7 +90,7 @@ fun VerseView(
                             )) {
                                 append(pair[0])
                             }
-                            append(" - ${pair[1]}; ")
+                            append(" \u2014 ${pair[1]}; ")
                         }
                     },
                     fontSize = 14.sp,
@@ -107,7 +107,7 @@ fun VerseView(
                 Text(
                     text = translation.text,
                     fontSize = 14.sp,
-                    fontWeight = FontWeight.SemiBold,
+                    fontWeight = FontWeight.Bold,
                     color = MaterialTheme.colorScheme.onBackground, // Match iOS primaryText color
                     modifier = Modifier.fillMaxWidth(),
                     textAlign = TextAlign.Start // Explicitly set to left align

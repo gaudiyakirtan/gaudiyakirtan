@@ -3,24 +3,26 @@ package com.gaudiyakirtan.myapplication.ui.song
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.automirrored.filled.List
+import androidx.compose.material.icons.filled.BookmarkBorder
+import androidx.compose.material.icons.filled.Share
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
+import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
+import androidx.compose.ui.text.withStyle
+import androidx.compose.ui.text.SpanStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.gaudiyakirtan.data.SampleData
 import com.gaudiyakirtan.myapplication.models.Song
 import com.gaudiyakirtan.myapplication.models.Verse
-import com.gaudiyakirtan.myapplication.ui.components.Tag
-import com.gaudiyakirtan.myapplication.ui.components.icons.MusicNote
 
 /**
  * Full screen view for a single song
@@ -43,7 +45,7 @@ fun SongScreen(
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(top = 60.dp), // Add space for the back button
+                .padding(top = 60.dp),
             contentPadding = PaddingValues(horizontal = 16.dp, vertical = 16.dp),
             verticalArrangement = Arrangement.spacedBy(16.dp)
         ) {
@@ -51,86 +53,43 @@ fun SongScreen(
             item {
                 Column(
                     modifier = Modifier.fillMaxWidth(),
+                    horizontalAlignment = Alignment.CenterHorizontally,
                     verticalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
-                    // Title and UID
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.SpaceBetween
-                    ) {
-                        Text(
-                            text = song.title,
-                            style = MaterialTheme.typography.headlineMedium,
-                            color = MaterialTheme.colorScheme.primary
-                        )
-                        
-                        // UID badge
-                        Surface(
-                            modifier = Modifier.padding(start = 8.dp),
-                            shape = RoundedCornerShape(11.dp),
-                            color = MaterialTheme.colorScheme.tertiary.copy(alpha = 0.25f),
-                        ) {
-                            Text(
-                                text = song.uid,
-                                modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp),
-                                style = MaterialTheme.typography.labelMedium,
-                                color = MaterialTheme.colorScheme.tertiary
-                            )
-                        }
-                    }
-                    
-                    // Author and audio icon
-                    Row(
-                        verticalAlignment = Alignment.CenterVertically,
-                        horizontalArrangement = Arrangement.spacedBy(6.dp)
-                    ) {
-                        Text(
-                            text = song.author,
-                            style = MaterialTheme.typography.titleMedium,
-                            color = MaterialTheme.colorScheme.tertiary
-                        )
-                        
-                        if (song.audio) {
-                            MusicNote(
-                                modifier = Modifier.size(16.dp),
-                                color = MaterialTheme.colorScheme.primary
-                            )
-                        }
-                    }
-                    
-                    // Tags
-                    if (song.tags.isNotEmpty()) {
-                        LazyRow(
-                            horizontalArrangement = Arrangement.spacedBy(8.dp)
-                        ) {
-                            items(song.tags) { tag ->
-                                Tag(text = tag)
-                            }
-                        }
-                    }
+                    // Title - centered, highlight color, large
+                    Text(
+                        text = song.title,
+                        style = MaterialTheme.typography.headlineLarge,
+                        color = MaterialTheme.colorScheme.primary,
+                        textAlign = TextAlign.Center,
+                        modifier = Modifier.fillMaxWidth()
+                    )
+
+                    // Author - centered, primary text color
+                    Text(
+                        text = song.author,
+                        style = MaterialTheme.typography.titleMedium.copy(
+                            fontWeight = FontWeight.Normal
+                        ),
+                        color = MaterialTheme.colorScheme.onBackground,
+                        textAlign = TextAlign.Center,
+                        modifier = Modifier.fillMaxWidth()
+                    )
                 }
             }
-            
-            item {
-                Divider(
-                    modifier = Modifier.padding(vertical = 8.dp),
-                    color = MaterialTheme.colorScheme.outline.copy(alpha = 0.5f)
-                )
-            }
-            
+
             // Verse sections
-            items(verses) { verse ->
-                VerseSection(verse = verse)
+            itemsIndexed(verses) { index, verse ->
+                VerseSection(verse = verse, verseNumber = index + 1)
             }
-            
+
             // Bottom spacer
             item {
                 Spacer(modifier = Modifier.height(50.dp))
             }
         }
-        
-        // Back button overlay
+
+        // Back button and action icons overlay
         Row(
             modifier = Modifier
                 .fillMaxWidth()
@@ -143,7 +102,7 @@ fun SongScreen(
                 contentPadding = PaddingValues(horizontal = 8.dp, vertical = 4.dp)
             ) {
                 Icon(
-                    imageVector = Icons.Default.ArrowBack,
+                    imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                     contentDescription = "Back",
                     tint = MaterialTheme.colorScheme.primary
                 )
@@ -155,89 +114,123 @@ fun SongScreen(
                 )
             }
             Spacer(modifier = Modifier.weight(1f))
+            Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
+                IconButton(onClick = { }) {
+                    Icon(
+                        imageVector = Icons.AutoMirrored.Filled.List,
+                        contentDescription = "Queue",
+                        tint = MaterialTheme.colorScheme.primary
+                    )
+                }
+                IconButton(onClick = { }) {
+                    Text(
+                        text = "Aa",
+                        style = MaterialTheme.typography.titleMedium.copy(
+                            fontWeight = FontWeight.Bold
+                        ),
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                }
+                IconButton(onClick = { }) {
+                    Icon(
+                        imageVector = Icons.Default.BookmarkBorder,
+                        contentDescription = "Bookmark",
+                        tint = MaterialTheme.colorScheme.primary
+                    )
+                }
+                IconButton(onClick = { }) {
+                    Icon(
+                        imageVector = Icons.Default.Share,
+                        contentDescription = "Share",
+                        tint = MaterialTheme.colorScheme.primary
+                    )
+                }
+            }
         }
     }
 }
 
 @Composable
-private fun VerseSection(verse: Verse) {
-    val selectedLanguage = "en" // Default language
-    
-    Surface(
+private fun VerseSection(verse: Verse, verseNumber: Int = 0) {
+    val selectedLanguage = "en"
+
+    Column(
         modifier = Modifier
             .fillMaxWidth()
             .padding(vertical = 8.dp),
-        shape = RoundedCornerShape(12.dp),
-        color = MaterialTheme.colorScheme.surface
+        verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
-        Column(
-            modifier = Modifier.padding(16.dp),
-            verticalArrangement = Arrangement.spacedBy(12.dp)
-        ) {
-            // Original text
-            if (verse.original.isNotEmpty()) {
-                Column(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalAlignment = Alignment.CenterHorizontally
-                ) {
-                    verse.original.forEach { line ->
-                        Text(
-                            text = line,
-                            style = MaterialTheme.typography.bodyMedium,
-                            color = MaterialTheme.colorScheme.tertiary
-                        )
-                    }
-                }
-            }
-            
-            // Transliteration
-            val transliteration = verse.transliterations.find { it?.language == selectedLanguage }
-            if (transliteration != null) {
-                Column(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalAlignment = Alignment.CenterHorizontally
-                ) {
-                    transliteration.text.forEach { line ->
-                        Text(
-                            text = line,
-                            style = MaterialTheme.typography.bodyMedium,
-                            color = MaterialTheme.colorScheme.primary
-                        )
-                    }
-                }
-            }
-            
-            // Word to Word
-            val wordToWord = verse.wordToWords.find { it?.language == selectedLanguage }
-            if (wordToWord != null) {
-                Column(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalAlignment = Alignment.Start
-                ) {
+        // Original text
+        if (verse.original.isNotEmpty()) {
+            Column(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                verse.original.forEach { line ->
                     Text(
-                        text = buildWordToWordText(wordToWord.words),
-                        style = MaterialTheme.typography.bodyMedium
+                        text = line,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.tertiary
                     )
                 }
             }
-            
-            // Translation
-            val translation = verse.translations.find { it?.language == selectedLanguage }
-            if (translation != null) {
-                Text(
-                    text = translation.text,
-                    style = MaterialTheme.typography.bodyLarge.copy(
-                        fontWeight = FontWeight.SemiBold
-                    ),
-                    color = MaterialTheme.colorScheme.primary
-                )
+        }
+
+        // Transliteration
+        val transliteration = verse.transliterations.find { it?.language == selectedLanguage }
+        if (transliteration != null) {
+            Column(
+                modifier = Modifier.fillMaxWidth(),
+                horizontalAlignment = Alignment.CenterHorizontally
+            ) {
+                transliteration.text.forEachIndexed { index, line ->
+                    val displayText = if (index == transliteration.text.size - 1 && verseNumber > 0) {
+                        "$line ($verseNumber)"
+                    } else {
+                        line
+                    }
+                    Text(
+                        text = displayText,
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.primary
+                    )
+                }
             }
         }
-    }
-}
 
-private fun buildWordToWordText(words: List<List<String>>): String {
-    return words.joinToString(" ") { pair ->
-        "${pair.getOrNull(0) ?: ""} - ${pair.getOrNull(1) ?: ""};"
+        // Word to Word
+        val wordToWord = verse.wordToWords.find { it?.language == selectedLanguage }
+        if (wordToWord != null) {
+            Text(
+                text = buildAnnotatedString {
+                    wordToWord.words.forEach { pair ->
+                        withStyle(style = SpanStyle(
+                            color = MaterialTheme.colorScheme.primary,
+                            fontWeight = FontWeight.Medium
+                        )) {
+                            append(pair.getOrNull(0) ?: "")
+                        }
+                        append(" \u2014 ${pair.getOrNull(1) ?: ""}; ")
+                    }
+                },
+                style = MaterialTheme.typography.bodyMedium.copy(
+                    lineHeight = 20.sp
+                ),
+                modifier = Modifier.fillMaxWidth()
+            )
+        }
+
+        // Translation - bold
+        val translation = verse.translations.find { it?.language == selectedLanguage }
+        if (translation != null) {
+            Text(
+                text = translation.text,
+                style = MaterialTheme.typography.bodyLarge.copy(
+                    fontWeight = FontWeight.Bold,
+                    lineHeight = 22.sp
+                ),
+                color = MaterialTheme.colorScheme.onBackground
+            )
+        }
     }
 }

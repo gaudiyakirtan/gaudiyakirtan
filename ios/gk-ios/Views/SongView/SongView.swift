@@ -7,17 +7,7 @@ struct SongView: View {
     
     init(song: Song, verses: [Verse] = SampleData.verses) {
         self.song = song
-        // Filter verses that would be associated with this song
-        // In a real app, this would come from a relationship or the API
         self.verses = verses
-        
-        // Hide the tab bar when this view appears
-        UITabBar.appearance().isHidden = true
-    }
-    
-    // On disappear, show the tab bar again
-    private func showTabBar() {
-        UITabBar.appearance().isHidden = false
     }
     
     var body: some View {
@@ -29,8 +19,6 @@ struct SongView: View {
             VStack {
                 HStack {
                     Button(action: {
-                        // Show tab bar before dismissing
-                        UITabBar.appearance().isHidden = false
                         presentationMode.wrappedValue.dismiss()
                     }) {
                         HStack {
@@ -43,73 +31,50 @@ struct SongView: View {
                         .padding(.top, 16)
                     }
                     Spacer()
+                    HStack(spacing: 20) {
+                        Button(action: { }) {
+                            Image(systemName: "list.bullet")
+                                .foregroundColor(Color.highlight)
+                        }
+                        Button(action: { }) {
+                            Image(systemName: "textformat.size")
+                                .foregroundColor(Color.highlight)
+                        }
+                        Button(action: { }) {
+                            Image(systemName: "bookmark")
+                                .foregroundColor(Color.highlight)
+                        }
+                        Button(action: { }) {
+                            Image(systemName: "square.and.arrow.up")
+                                .foregroundColor(Color.highlight)
+                        }
+                    }
+                    .padding(.trailing, 16)
+                    .padding(.top, 16)
                 }
-                
+
                 ScrollView {
-                    VStack(alignment: .leading, spacing: 20) {
+                    VStack(spacing: 20) {
                         // Header with song info
-                        VStack(alignment: .leading, spacing: 8) {
-                            HStack {
-                                Text(song.title)
-                                    .font(.title)
-                                    .fontWeight(.bold)
-                                    .foregroundColor(Color("primaryText"))
-                                
-                                Spacer()
-                                
-                                Text(song.uid)
-                                    .font(.system(size: 12, weight: .medium))
-                                    .foregroundColor(Color.neutral)
-                                    .padding(.horizontal, 10)
-                                    .padding(.vertical, 4)
-                                    .background(Color.neutral.opacity(0.25))
-                                    .cornerRadius(11)
-                            }
-                            
-                            HStack {
-                                Text(song.author)
-                                    .font(.headline)
-                                    .foregroundColor(Color.neutral)
-                                
-                                if song.audio {
-                                    Image(systemName: "music.note")
-                                        .foregroundColor(Color.highlight)
-                                        .font(.system(size: 14))
-                                }
-                                
-                                Spacer()
-                            }
-                            
-                            // Tags
-                            if !song.tags.isEmpty {
-                                ScrollView(.horizontal, showsIndicators: false) {
-                                    HStack {
-                                        ForEach(song.tags, id: \.self) { tag in
-                                            Text(tag)
-                                                .font(.system(size: 14))
-                                                .foregroundColor(Color.neutral)
-                                                .padding(.horizontal, 10)
-                                                .padding(.vertical, 4)
-                                                .background(Color.neutral.opacity(0.25))
-                                                .cornerRadius(10)
-                                        }
-                                    }
-                                }
-                            }
+                        VStack(spacing: 8) {
+                            Text(song.title)
+                                .font(.system(size: 34, weight: .bold))
+                                .foregroundColor(Color.highlight)
+                                .multilineTextAlignment(.center)
+                                .frame(maxWidth: .infinity, alignment: .center)
+
+                            Text(song.author)
+                                .font(.system(size: 18, weight: .regular))
+                                .foregroundColor(Color("primaryText"))
+                                .multilineTextAlignment(.center)
+                                .frame(maxWidth: .infinity, alignment: .center)
                         }
                         .padding(.horizontal)
-                        
-                        Divider()
-                            .padding(.horizontal)
-                        
+
                         // Verses
-                        VStack(alignment: .leading, spacing: 30) {
-                            ForEach(verses) { verse in
-                                VerseView(verse: verse)
-                                    .padding(.horizontal)
-                                    .padding(.vertical, 10)
-                                    .background(Color.backgroundOffset)
-                                    .cornerRadius(12)
+                        VStack(alignment: .leading, spacing: 40) {
+                            ForEach(Array(verses.enumerated()), id: \.element.id) { index, verse in
+                                VerseView(verse: verse, verseNumber: index + 1)
                                     .padding(.horizontal)
                             }
                         }
@@ -122,9 +87,6 @@ struct SongView: View {
             }
         }
         .navigationBarHidden(true)
-        .onDisappear {
-            // Ensure tab bar is shown when navigating back
-            UITabBar.appearance().isHidden = false
-        }
+        .toolbar(.hidden, for: .tabBar)
     }
 }
