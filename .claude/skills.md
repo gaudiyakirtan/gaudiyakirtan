@@ -15,3 +15,6 @@ Each item should follow this format:
 ```
 
 Sections group items by feature area or milestone. Keep the file clean and up to date.
+
+## ui-reference
+When implementing UI features or the user asks about designs/mockups, read `Gaudiya Kirtan UI/UI_REFERENCE.md` for a catalog of all Figma design images. Each entry maps a filename to a description of what it shows (screen, component, theme, platform). To view an actual mockup, read the corresponding `.png` file from the `Gaudiya Kirtan UI/` directory. Use these as the source of truth for visual design when building features.
