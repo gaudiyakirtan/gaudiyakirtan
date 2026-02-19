@@ -52,9 +52,9 @@ struct CodableVerse: Codable {
         Verse(
             language: language,
             original: original,
-            transliterations: transliterations.map { Transliteration(language: $0.language, text: $0.text) },
-            wordToWords: wordToWords.map { WordToWord(language: $0.language, words: $0.words) },
-            translations: translations.map { Translation(language: $0.language, text: $0.text) }
+            transliterations: transliterations.map { Transliteration(id: UUID(), language: $0.language, text: $0.text) },
+            wordToWords: wordToWords.map { WordToWord(id: UUID(), language: $0.language, words: $0.words) },
+            translations: translations.map { Translation(id: UUID(), language: $0.language, text: $0.text) }
         )
     }
 }
