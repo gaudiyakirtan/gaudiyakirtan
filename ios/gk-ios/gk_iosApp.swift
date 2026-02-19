@@ -1,5 +1,6 @@
 // gk_iosApp.swift
 import SwiftUI
+import SwiftData
 
 @main
 struct gk_iosApp: App {
@@ -17,15 +18,19 @@ struct gk_iosApp: App {
                     }
                 }
         }
+        .modelContainer(for: [
+            PersistentSong.self,
+            PersistentAuthor.self,
+            PersistentTopic.self,
+            PersistentBook.self
+        ])
     }
 
     private func handleDeepLink(_ url: URL) {
-        // Handle URLs like https://gaudiyakirtan.com/songs/N3
         guard let host = url.host,
               host == "gaudiyakirtan.com" else { return }
 
         let pathComponents = url.pathComponents
-        // pathComponents = ["/", "songs", "N3"]
         guard pathComponents.count >= 3,
               pathComponents[1] == "songs" else { return }
 

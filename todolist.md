@@ -42,10 +42,10 @@
 
 ## Backend System
 
-- [ ] **Set up MongoDB Atlas** — Create free-tier cluster, add `MONGODB_URI` to `.env.local`
-- [ ] **Create GraphQL API** — Next.js API route at `/api/graphql` with Apollo Server, resolvers for songs, authors, books, topics, singers, tracks
-- [ ] **Import song data** — Create import script to seed MongoDB from existing JSON data
-- [ ] **Update web to use API** — Replace `sampleData` imports with GraphQL queries in `getStaticProps` across all pages
+- [x] **Set up MongoDB Atlas** — Create free-tier cluster, add `MONGODB_URI` to `.env.local`
+- [x] **Create GraphQL API** — Next.js API route at `/api/graphql` with Apollo Server, resolvers for songs, authors, books, topics, singers, tracks
+- [x] **Import song data** — Create import script to seed MongoDB from existing JSON data
+- [x] **Update web to use API** — Replace `sampleData` imports with GraphQL queries in `getStaticProps` across all pages
 - [ ] **iOS offline database (SwiftData)** — Pre-populated SQLite bundled with app, background sync via Apollo iOS. Bump deployment target to iOS 17.0
 - [ ] **Android offline database (Room)** — Pre-populated Room DB bundled in assets, background sync via Apollo Kotlin + WorkManager
 - [ ] **Asset bundling** — Bundle author/book/singer images in app assets for offline access
