@@ -46,10 +46,10 @@
 - [x] **Create GraphQL API** — Next.js API route at `/api/graphql` with Apollo Server, resolvers for songs, authors, books, topics, singers, tracks
 - [x] **Import song data** — Create import script to seed MongoDB from existing JSON data
 - [x] **Update web to use API** — Replace `sampleData` imports with GraphQL queries in `getStaticProps` across all pages
-- [ ] **iOS offline database (SwiftData)** — Pre-populated SQLite bundled with app, background sync via Apollo iOS. Bump deployment target to iOS 17.0
-- [ ] **Android offline database (Room)** — Pre-populated Room DB bundled in assets, background sync via Apollo Kotlin + WorkManager
-- [ ] **Asset bundling** — Bundle author/book/singer images in app assets for offline access
-- [ ] **Build-time data generation** — Script to export MongoDB to pre-populated SQLite/Room DBs for mobile releases
+- [x] **iOS offline database (SwiftData)** — Pre-populated SQLite bundled with app, background sync via Apollo iOS. Bump deployment target to iOS 17.0
+- [x] **Android offline database (Room)** — Pre-populated Room DB bundled in assets, background sync via Apollo Kotlin + WorkManager
+- [x] **Asset bundling** — Bundle author/book/singer images in app assets for offline access
+- [x] **Build-time data generation** — Script to export MongoDB to pre-populated SQLite/Room DBs for mobile releases
 
 Full plan: `.claude/plans/noble-seeking-cerf.md`
 
