@@ -9,20 +9,24 @@ import { AuthorsSection } from "./AuthorsSection";
 import { TopicsSection } from "./TopicsSection";
 import { BooksSection } from "./BooksSection";
 
-// Sample data - In a real implementation, this would come from an API or context
-import {
-  sampleSongs,
-  sampleAuthors,
-  sampleTopicInstances,
-  sampleBooks,
-} from "../data/sampleData";
+interface IHomeScreenProps {
+  songs?: IExtendedSong[];
+  authors?: IAuthor[];
+  topics?: ITopic[];
+  books?: IBook[];
+}
 
-export const HomeScreen: React.FC = () => {
+export const HomeScreen: React.FC<IHomeScreenProps> = ({
+  songs: propSongs = [],
+  authors: propAuthors = [],
+  topics: propTopics = [],
+  books: propBooks = [],
+}) => {
   const router = useRouter();
-  const [songs] = useState<IExtendedSong[]>(sampleSongs);
-  const [authors] = useState<IAuthor[]>(sampleAuthors);
-  const [topics] = useState<ITopic[]>(sampleTopicInstances);
-  const [books] = useState<IBook[]>(sampleBooks);
+  const [songs] = useState<IExtendedSong[]>(propSongs);
+  const [authors] = useState<IAuthor[]>(propAuthors);
+  const [topics] = useState<ITopic[]>(propTopics);
+  const [books] = useState<IBook[]>(propBooks);
   const [language] = useState("en");
 
   // Navigation handlers

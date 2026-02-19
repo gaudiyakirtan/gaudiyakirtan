@@ -3,7 +3,7 @@ import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { IBook } from '../../models/Book'
-import { sampleBooks } from '../../data/sampleData'
+import { getBooks } from '../../lib/data'
 import { BooksSection } from '../../components/BooksSection'
 
 interface BooksPageProps {
@@ -38,12 +38,18 @@ const BooksPage: React.FC<BooksPageProps> = ({ books }) => {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  // In a real app, fetch books from an API
+  const dbBooks = await getBooks()
+  const books = dbBooks.map((b: any) => ({
+    id: b.uid,
+    title: b.title,
+    author: b.author,
+    slug: b.slug,
+    uid: b.uid,
+    image: b.image,
+  }))
   return {
-    props: {
-      books: sampleBooks
-    },
-    revalidate: 60 * 60 // Revalidate every hour
+    props: { books },
+    revalidate: 60 * 60
   }
 }
 

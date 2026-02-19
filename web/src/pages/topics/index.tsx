@@ -3,7 +3,7 @@ import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { ITopic } from '../../models/Topic'
-import { sampleTopics } from '../../data/sampleData'
+import { getTopics } from '../../lib/data'
 import { TopicsSection } from '../../components/TopicsSection'
 
 interface TopicsPageProps {
@@ -38,12 +38,13 @@ const TopicsPage: React.FC<TopicsPageProps> = ({ topics }) => {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  // In a real app, fetch topics from an API
+  const dbTopics = await getTopics()
+  const topics = dbTopics.map((t: any) => ({
+    name: t.topic,
+  }))
   return {
-    props: {
-      topics: sampleTopics
-    },
-    revalidate: 60 * 60 // Revalidate every hour
+    props: { topics },
+    revalidate: 60 * 60
   }
 }
 

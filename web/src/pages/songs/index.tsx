@@ -4,7 +4,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { IExtendedSong } from '../../models/Song'
 import { SongListItem } from '../../components/SongListItem'
-import { sampleSongs } from '../../data/sampleData'
+import { getSongs } from '../../lib/data'
 import { MusicNote } from '../../components/icons/MusicNote'
 
 interface SongsPageProps {
@@ -191,12 +191,21 @@ const SongsPage: React.FC<SongsPageProps> = ({ songs }) => {
 }
 
 export const getStaticProps: GetStaticProps = async () => {
-  // In a real app, fetch songs from an API
+  const dbSongs = await getSongs()
+  const songs = dbSongs.map((song: any, index: number) => ({
+    id: String(index + 1),
+    title: [{ title: song.title, language: 'en' }],
+    author: [{ author: song.author || 'Unknown', language: 'en' }],
+    uid: song.uid,
+    tags: song.tags || [],
+    topics: (song.topics || []).map((t: string) => ({ topic: t, language: 'en' })),
+    audio: song.audio || false,
+    verses: (song.verses || []).map((v: any) => ({ ...v, word_to_words: v.wordToWords || [] })),
+    tracks: song.tracks || [],
+  }))
   return {
-    props: {
-      songs: sampleSongs
-    },
-    revalidate: 60 * 60 // Revalidate every hour
+    props: { songs },
+    revalidate: 60 * 60
   }
 }
 

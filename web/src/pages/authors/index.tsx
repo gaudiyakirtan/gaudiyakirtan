@@ -3,7 +3,7 @@ import { GetStaticProps } from "next";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { IAuthor } from "../../models/Author";
-import { sampleAuthors } from "../../data/sampleData";
+import { getAuthors } from "../../lib/data";
 import { AuthorCard } from "../../components/AuthorCard";
 
 interface AuthorsPageProps {
@@ -229,16 +229,16 @@ const AuthorsPage: React.FC<AuthorsPageProps> = ({ authors }) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  // Duplicate authors for testing with a larger dataset (about 30 authors)
-  const duplicatedAuthors = [
-    ...sampleAuthors,
-  ];
+  const dbAuthors = await getAuthors();
+  const authors = dbAuthors.map((a: any) => ({
+    id: a.uid,
+    name: a.name,
+    image: a.image,
+  }));
 
   return {
-    props: {
-      authors: duplicatedAuthors,
-    },
-    revalidate: 60 * 60, // Revalidate every hour
+    props: { authors },
+    revalidate: 60 * 60,
   };
 };
 
