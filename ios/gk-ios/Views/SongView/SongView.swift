@@ -16,9 +16,9 @@ struct SongView: View {
 
     private let bookmarkedSongIds = ["N3", "S1", "E4"]
 
-    init(song: Song, verses: [Verse] = SampleData.verses) {
+    init(song: Song, verses: [Verse]? = nil) {
         self.song = song
-        self.verses = verses
+        self.verses = verses ?? SampleData.versesForSong(uid: song.uid)
     }
 
     var body: some View {

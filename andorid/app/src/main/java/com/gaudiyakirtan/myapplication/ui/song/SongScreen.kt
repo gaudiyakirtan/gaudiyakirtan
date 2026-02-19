@@ -33,7 +33,7 @@ import com.gaudiyakirtan.myapplication.models.Verse
 @Composable
 fun SongScreen(
     song: Song,
-    verses: List<Verse> = SampleData.verses,
+    verses: List<Verse> = SampleData.versesForSong(song.uid),
     onBackClick: () -> Unit
 ) {
     val context = LocalContext.current
