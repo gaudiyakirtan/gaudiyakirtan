@@ -51,22 +51,23 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
 }
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  // Get the paths we want to pre-render
-  const paths = sampleSongs.map(song => ({
-    params: { id: song.id.toString() }
-  }))
+  // Generate paths for both id and uid to support deep links
+  const paths = sampleSongs.flatMap(song => [
+    { params: { id: song.id.toString() } },
+    { params: { id: song.uid } }
+  ])
 
   return {
     paths,
-    fallback: true // Enable fallback for paths not generated at build time
+    fallback: true
   }
 }
 
 export const getStaticProps: GetStaticProps = async ({ params }) => {
   const id = params?.id
 
-  // Find the song with the matching ID
-  const song = sampleSongs.find(s => s.id === id)
+  // Find the song by id OR uid (supports deep links like /songs/N3)
+  const song = sampleSongs.find(s => s.id === id || s.uid === id)
 
   // If no song was found, return not found
   if (!song) {

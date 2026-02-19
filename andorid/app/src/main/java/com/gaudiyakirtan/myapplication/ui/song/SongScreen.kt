@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.song
 
+import android.content.Intent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -7,28 +8,27 @@ import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.automirrored.filled.List
+import androidx.compose.material.icons.filled.Bookmark
 import androidx.compose.material.icons.filled.BookmarkBorder
+import androidx.compose.material.icons.filled.MusicOff
 import androidx.compose.material.icons.filled.Share
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.text.SpanStyle
+import androidx.compose.ui.unit.TextUnit
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.gaudiyakirtan.data.SampleData
 import com.gaudiyakirtan.myapplication.models.Song
 import com.gaudiyakirtan.myapplication.models.Verse
 
-/**
- * Full screen view for a single song
- * Displays the song details and verses without any navigation bar
- * Only shows a back button at the top
- */
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun SongScreen(
@@ -36,6 +36,13 @@ fun SongScreen(
     verses: List<Verse> = SampleData.verses,
     onBackClick: () -> Unit
 ) {
+    val context = LocalContext.current
+    val fontSizeLevels = listOf(12.sp, 14.sp, 16.sp)
+    var fontSizeLevel by remember { mutableIntStateOf(1) }
+    val bookmarkedSongIds = remember { listOf("N3", "S1", "E4") }
+    var isBookmarked by remember { mutableStateOf(bookmarkedSongIds.contains(song.uid)) }
+    var showQueue by remember { mutableStateOf(false) }
+
     Box(
         modifier = Modifier
             .fillMaxSize()
@@ -56,7 +63,6 @@ fun SongScreen(
                     horizontalAlignment = Alignment.CenterHorizontally,
                     verticalArrangement = Arrangement.spacedBy(8.dp)
                 ) {
-                    // Title - centered, highlight color, large
                     Text(
                         text = song.title,
                         style = MaterialTheme.typography.headlineLarge,
@@ -64,8 +70,6 @@ fun SongScreen(
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth()
                     )
-
-                    // Author - centered, primary text color
                     Text(
                         text = song.author,
                         style = MaterialTheme.typography.titleMedium.copy(
@@ -80,7 +84,11 @@ fun SongScreen(
 
             // Verse sections
             itemsIndexed(verses) { index, verse ->
-                VerseSection(verse = verse, verseNumber = index + 1)
+                VerseSection(
+                    verse = verse,
+                    verseNumber = index + 1,
+                    fontSize = fontSizeLevels[fontSizeLevel]
+                )
             }
 
             // Bottom spacer
@@ -115,14 +123,18 @@ fun SongScreen(
             }
             Spacer(modifier = Modifier.weight(1f))
             Row(horizontalArrangement = Arrangement.spacedBy(4.dp)) {
-                IconButton(onClick = { }) {
+                // Queue
+                IconButton(onClick = { showQueue = true }) {
                     Icon(
                         imageVector = Icons.AutoMirrored.Filled.List,
                         contentDescription = "Queue",
                         tint = MaterialTheme.colorScheme.primary
                     )
                 }
-                IconButton(onClick = { }) {
+                // Font size
+                IconButton(onClick = {
+                    fontSizeLevel = (fontSizeLevel + 1) % 3
+                }) {
                     Text(
                         text = "Aa",
                         style = MaterialTheme.typography.titleMedium.copy(
@@ -131,14 +143,22 @@ fun SongScreen(
                         color = MaterialTheme.colorScheme.primary
                     )
                 }
-                IconButton(onClick = { }) {
+                // Bookmark
+                IconButton(onClick = { isBookmarked = !isBookmarked }) {
                     Icon(
-                        imageVector = Icons.Default.BookmarkBorder,
+                        imageVector = if (isBookmarked) Icons.Default.Bookmark else Icons.Default.BookmarkBorder,
                         contentDescription = "Bookmark",
                         tint = MaterialTheme.colorScheme.primary
                     )
                 }
-                IconButton(onClick = { }) {
+                // Share
+                IconButton(onClick = {
+                    val shareIntent = Intent(Intent.ACTION_SEND).apply {
+                        type = "text/plain"
+                        putExtra(Intent.EXTRA_TEXT, "${song.title} by ${song.author}\nhttps://gaudiyakirtan.com/songs/${song.uid}")
+                    }
+                    context.startActivity(Intent.createChooser(shareIntent, "Share song"))
+                }) {
                     Icon(
                         imageVector = Icons.Default.Share,
                         contentDescription = "Share",
@@ -148,10 +168,69 @@ fun SongScreen(
             }
         }
     }
+
+    // Queue bottom sheet
+    if (showQueue) {
+        ModalBottomSheet(
+            onDismissRequest = { showQueue = false }
+        ) {
+            Column(
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .padding(16.dp)
+            ) {
+                Text(
+                    text = "Tracks",
+                    style = MaterialTheme.typography.titleLarge,
+                    color = MaterialTheme.colorScheme.onBackground,
+                    modifier = Modifier.padding(bottom = 16.dp)
+                )
+                if (song.audio) {
+                    Text(
+                        text = "Track 1",
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.onBackground,
+                        modifier = Modifier.padding(vertical = 12.dp)
+                    )
+                    HorizontalDivider()
+                    Text(
+                        text = "Track 2",
+                        style = MaterialTheme.typography.bodyLarge,
+                        color = MaterialTheme.colorScheme.onBackground,
+                        modifier = Modifier.padding(vertical = 12.dp)
+                    )
+                } else {
+                    Column(
+                        modifier = Modifier
+                            .fillMaxWidth()
+                            .padding(vertical = 32.dp),
+                        horizontalAlignment = Alignment.CenterHorizontally
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.MusicOff,
+                            contentDescription = null,
+                            modifier = Modifier.size(40.dp),
+                            tint = MaterialTheme.colorScheme.tertiary
+                        )
+                        Spacer(modifier = Modifier.height(8.dp))
+                        Text(
+                            text = "No audio tracks available",
+                            color = MaterialTheme.colorScheme.tertiary
+                        )
+                    }
+                }
+                Spacer(modifier = Modifier.height(32.dp))
+            }
+        }
+    }
 }
 
 @Composable
-private fun VerseSection(verse: Verse, verseNumber: Int = 0) {
+private fun VerseSection(
+    verse: Verse,
+    verseNumber: Int = 0,
+    fontSize: TextUnit = 14.sp
+) {
     val selectedLanguage = "en"
 
     Column(
@@ -169,7 +248,7 @@ private fun VerseSection(verse: Verse, verseNumber: Int = 0) {
                 verse.original.forEach { line ->
                     Text(
                         text = line,
-                        style = MaterialTheme.typography.bodyMedium,
+                        fontSize = fontSize,
                         color = MaterialTheme.colorScheme.tertiary
                     )
                 }
@@ -191,7 +270,7 @@ private fun VerseSection(verse: Verse, verseNumber: Int = 0) {
                     }
                     Text(
                         text = displayText,
-                        style = MaterialTheme.typography.bodyMedium,
+                        fontSize = fontSize,
                         color = MaterialTheme.colorScheme.primary
                     )
                 }
@@ -213,9 +292,8 @@ private fun VerseSection(verse: Verse, verseNumber: Int = 0) {
                         append(" \u2014 ${pair.getOrNull(1) ?: ""}; ")
                     }
                 },
-                style = MaterialTheme.typography.bodyMedium.copy(
-                    lineHeight = 20.sp
-                ),
+                fontSize = fontSize,
+                lineHeight = (fontSize.value * 1.4).sp,
                 modifier = Modifier.fillMaxWidth()
             )
         }
@@ -225,10 +303,9 @@ private fun VerseSection(verse: Verse, verseNumber: Int = 0) {
         if (translation != null) {
             Text(
                 text = translation.text,
-                style = MaterialTheme.typography.bodyLarge.copy(
-                    fontWeight = FontWeight.Bold,
-                    lineHeight = 22.sp
-                ),
+                fontSize = (fontSize.value + 1).sp,
+                fontWeight = FontWeight.Bold,
+                lineHeight = ((fontSize.value + 1) * 1.4).sp,
                 color = MaterialTheme.colorScheme.onBackground
             )
         }

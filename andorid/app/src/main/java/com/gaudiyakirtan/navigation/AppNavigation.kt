@@ -23,6 +23,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.currentBackStackEntryAsState
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import androidx.navigation.navDeepLink
 import com.gaudiyakirtan.data.SampleData
 import com.gaudiyakirtan.myapplication.R
 import com.gaudiyakirtan.myapplication.ui.collections.CollectionsScreen
@@ -187,10 +188,13 @@ fun AppNavigation() {
                 ) 
             }
             
-            // Song detail screen
+            // Song detail screen with deep link support
             composable(
                 route = Route.Song.route,
-                arguments = listOf(navArgument("songId") { type = NavType.StringType })
+                arguments = listOf(navArgument("songId") { type = NavType.StringType }),
+                deepLinks = listOf(
+                    navDeepLink { uriPattern = "https://gaudiyakirtan.com/songs/{songId}" }
+                )
             ) { backStackEntry ->
                 val songId = backStackEntry.arguments?.getString("songId") ?: ""
                 // Find the song by uid

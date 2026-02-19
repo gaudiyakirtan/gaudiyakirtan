@@ -30,3 +30,7 @@
 - [ ] **Review previous timeline and tasks** — Check the following docs to review what the previous timeline, ideas, and tasks were:
   - https://docs.google.com/document/d/1XTlrwRuGfu9KgiVx8LY6rJ4OUkzZrThElpuu9iDYoJ4/edit?tab=t.0
   - https://docs.google.com/document/d/1bI90KOI-AGhGIHyC8sAaBJSTSkGx2CFCo13WsSAEJpA/edit?tab=t.0
+
+## Song View Enhancements
+
+- [ ] **Single verse mode** — Add horizontal swipe mode where user sees one verse at a time (swipe left/right between verses) instead of vertical scroll. Toggle via a view mode button on all platforms.
