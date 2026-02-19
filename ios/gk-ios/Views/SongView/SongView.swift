@@ -4,12 +4,16 @@ struct SongView: View {
     let song: Song
     let verses: [Verse]
     @Environment(\.presentationMode) var presentationMode
-    @State private var fontSizeLevel: Int = 1
+    @State private var fontSize: CGFloat = 14
+    @State private var showOriginal = true
+    @State private var showTransliteration = true
+    @State private var showWordToWord = true
+    @State private var showTranslation = true
+    @State private var showReaderSettings = false
     @State private var isBookmarked: Bool = false
     @State private var showQueue: Bool = false
     @State private var showShare: Bool = false
 
-    private let fontSizes: [CGFloat] = [12, 14, 16]
     private let bookmarkedSongIds = ["N3", "S1", "E4"]
 
     init(song: Song, verses: [Verse] = SampleData.verses) {
@@ -43,7 +47,9 @@ struct SongView: View {
                                 .foregroundColor(Color.highlight)
                         }
                         Button(action: {
-                            fontSizeLevel = (fontSizeLevel + 1) % 3
+                            withAnimation(.easeInOut(duration: 0.2)) {
+                                showReaderSettings.toggle()
+                            }
                         }) {
                             Image(systemName: "textformat.size")
                                 .foregroundColor(Color.highlight)
@@ -84,8 +90,16 @@ struct SongView: View {
                         // Verses
                         VStack(alignment: .leading, spacing: 40) {
                             ForEach(Array(verses.enumerated()), id: \.element.id) { index, verse in
-                                VerseView(verse: verse, verseNumber: index + 1, fontSize: fontSizes[fontSizeLevel])
-                                    .padding(.horizontal)
+                                VerseView(
+                                    verse: verse,
+                                    verseNumber: index + 1,
+                                    fontSize: fontSize,
+                                    showOriginal: showOriginal,
+                                    showTransliteration: showTransliteration,
+                                    showWordToWord: showWordToWord,
+                                    showTranslation: showTranslation
+                                )
+                                .padding(.horizontal)
                             }
                         }
 
@@ -94,6 +108,36 @@ struct SongView: View {
                     .padding(.top, 20)
                 }
                 .padding(.top, 10)
+            }
+
+            // Reader settings dropdown overlay
+            if showReaderSettings {
+                Color.black.opacity(0.01)
+                    .edgesIgnoringSafeArea(.all)
+                    .onTapGesture {
+                        withAnimation(.easeInOut(duration: 0.2)) {
+                            showReaderSettings = false
+                        }
+                    }
+
+                VStack {
+                    HStack {
+                        Spacer()
+                        ReaderSettingsView(
+                            fontSize: $fontSize,
+                            showOriginal: $showOriginal,
+                            showTransliteration: $showTransliteration,
+                            showWordToWord: $showWordToWord,
+                            showTranslation: $showTranslation
+                        )
+                        .background(Color.background)
+                        .cornerRadius(12)
+                        .shadow(color: Color.black.opacity(0.15), radius: 12, x: 0, y: 4)
+                        .padding(.trailing, 16)
+                    }
+                    .padding(.top, 52)
+                    Spacer()
+                }
             }
         }
         .navigationBarHidden(true)
@@ -107,6 +151,56 @@ struct SongView: View {
         .sheet(isPresented: $showShare) {
             ShareSheetView(text: "\(song.title) by \(song.author)\nhttps://gaudiyakirtan.com/songs/\(song.uid)")
         }
+    }
+}
+
+// MARK: - Reader Settings Popover
+struct ReaderSettingsView: View {
+    @Binding var fontSize: CGFloat
+    @Binding var showOriginal: Bool
+    @Binding var showTransliteration: Bool
+    @Binding var showWordToWord: Bool
+    @Binding var showTranslation: Bool
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 16) {
+            // Font Size
+            VStack(alignment: .leading, spacing: 8) {
+                Text("Font Size")
+                    .font(.system(size: 13, weight: .semibold))
+                    .foregroundColor(Color.neutral)
+                HStack(spacing: 12) {
+                    Text("A")
+                        .font(.system(size: 12))
+                        .foregroundColor(Color.neutral)
+                    Slider(value: $fontSize, in: 10...22, step: 1)
+                        .tint(Color.highlight)
+                    Text("A")
+                        .font(.system(size: 20))
+                        .foregroundColor(Color.neutral)
+                }
+            }
+
+            Divider()
+
+            // Display toggles
+            VStack(alignment: .leading, spacing: 4) {
+                Text("Display")
+                    .font(.system(size: 13, weight: .semibold))
+                    .foregroundColor(Color.neutral)
+                Toggle("Original Script", isOn: $showOriginal)
+                    .tint(Color.highlight)
+                Toggle("Transliteration", isOn: $showTransliteration)
+                    .tint(Color.highlight)
+                Toggle("Synonyms", isOn: $showWordToWord)
+                    .tint(Color.highlight)
+                Toggle("Translation", isOn: $showTranslation)
+                    .tint(Color.highlight)
+            }
+            .font(.system(size: 15))
+        }
+        .padding(16)
+        .frame(width: 280)
     }
 }
 

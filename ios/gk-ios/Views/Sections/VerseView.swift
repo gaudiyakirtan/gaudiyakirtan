@@ -4,6 +4,10 @@ struct VerseView: View {
     let verse: Verse
     var verseNumber: Int = 0
     var fontSize: CGFloat = 14
+    var showOriginal: Bool = true
+    var showTransliteration: Bool = true
+    var showWordToWord: Bool = true
+    var showTranslation: Bool = true
     private let selectedLanguage = "en"
 
     private func combinedWTWText(_ wtw: WordToWord) -> Text {
@@ -18,7 +22,7 @@ struct VerseView: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 10) {
             Group {
-                if !verse.original.isEmpty {
+                if showOriginal && !verse.original.isEmpty {
                     VStack(spacing: 4) {
                         ForEach(verse.original, id: \.self) { line in
                             Text(line)
@@ -30,7 +34,7 @@ struct VerseView: View {
                 }
 
                 let validTransliterations = verse.transliterations.compactMap { $0 }
-                if let selectedTransliteration = validTransliterations.first(where: { $0.language == selectedLanguage }) {
+                if showTransliteration, let selectedTransliteration = validTransliterations.first(where: { $0.language == selectedLanguage }) {
                     VStack(spacing: 4) {
                         ForEach(Array(selectedTransliteration.text.enumerated()), id: \.offset) { index, line in
                             if index == selectedTransliteration.text.count - 1 && verseNumber > 0 {
@@ -50,14 +54,14 @@ struct VerseView: View {
             }
 
             let validWordToWords = verse.wordToWords.compactMap { $0 }
-            if let selectedWordToWord = validWordToWords.first(where: { $0.language == selectedLanguage }) {
+            if showWordToWord, let selectedWordToWord = validWordToWords.first(where: { $0.language == selectedLanguage }) {
                 combinedWTWText(selectedWordToWord)
                     .font(.system(size: fontSize))
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
 
             let validTranslations = verse.translations.compactMap { $0 }
-            if let selectedTranslation = validTranslations.first(where: { $0.language == selectedLanguage }) {
+            if showTranslation, let selectedTranslation = validTranslations.first(where: { $0.language == selectedLanguage }) {
                 Text(selectedTranslation.text)
                     .font(.system(size: fontSize + 1, weight: .bold))
                     .foregroundColor(Color("primaryText"))

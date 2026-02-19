@@ -37,8 +37,12 @@ fun SongScreen(
     onBackClick: () -> Unit
 ) {
     val context = LocalContext.current
-    val fontSizeLevels = listOf(12.sp, 14.sp, 16.sp)
-    var fontSizeLevel by remember { mutableIntStateOf(1) }
+    var fontSize by remember { mutableFloatStateOf(14f) }
+    var showOriginal by remember { mutableStateOf(true) }
+    var showTransliteration by remember { mutableStateOf(true) }
+    var showWordToWord by remember { mutableStateOf(true) }
+    var showTranslation by remember { mutableStateOf(true) }
+    var showReaderSettings by remember { mutableStateOf(false) }
     val bookmarkedSongIds = remember { listOf("N3", "S1", "E4") }
     var isBookmarked by remember { mutableStateOf(bookmarkedSongIds.contains(song.uid)) }
     var showQueue by remember { mutableStateOf(false) }
@@ -87,7 +91,11 @@ fun SongScreen(
                 VerseSection(
                     verse = verse,
                     verseNumber = index + 1,
-                    fontSize = fontSizeLevels[fontSizeLevel]
+                    fontSize = fontSize.sp,
+                    showOriginal = showOriginal,
+                    showTransliteration = showTransliteration,
+                    showWordToWord = showWordToWord,
+                    showTranslation = showTranslation
                 )
             }
 
@@ -132,16 +140,66 @@ fun SongScreen(
                     )
                 }
                 // Font size
-                IconButton(onClick = {
-                    fontSizeLevel = (fontSizeLevel + 1) % 3
-                }) {
-                    Text(
-                        text = "Aa",
-                        style = MaterialTheme.typography.titleMedium.copy(
-                            fontWeight = FontWeight.Bold
-                        ),
-                        color = MaterialTheme.colorScheme.primary
-                    )
+                Box {
+                    IconButton(onClick = {
+                        showReaderSettings = !showReaderSettings
+                    }) {
+                        Text(
+                            text = "Aa",
+                            style = MaterialTheme.typography.titleMedium.copy(
+                                fontWeight = FontWeight.Bold
+                            ),
+                            color = MaterialTheme.colorScheme.primary
+                        )
+                    }
+                    DropdownMenu(
+                        expanded = showReaderSettings,
+                        onDismissRequest = { showReaderSettings = false }
+                    ) {
+                        Column(
+                            modifier = Modifier
+                                .width(260.dp)
+                                .padding(16.dp)
+                        ) {
+                            Text(
+                                text = "Font Size",
+                                style = MaterialTheme.typography.labelMedium,
+                                color = MaterialTheme.colorScheme.tertiary
+                            )
+                            Spacer(modifier = Modifier.height(8.dp))
+                            Row(
+                                verticalAlignment = Alignment.CenterVertically,
+                                horizontalArrangement = Arrangement.spacedBy(8.dp)
+                            ) {
+                                Text("A", fontSize = 12.sp, color = MaterialTheme.colorScheme.tertiary)
+                                Slider(
+                                    value = fontSize,
+                                    onValueChange = { fontSize = it },
+                                    valueRange = 10f..22f,
+                                    steps = 11,
+                                    modifier = Modifier.weight(1f),
+                                    colors = SliderDefaults.colors(
+                                        thumbColor = MaterialTheme.colorScheme.primary,
+                                        activeTrackColor = MaterialTheme.colorScheme.primary
+                                    )
+                                )
+                                Text("A", fontSize = 20.sp, color = MaterialTheme.colorScheme.tertiary)
+                            }
+                            Spacer(modifier = Modifier.height(8.dp))
+                            HorizontalDivider()
+                            Spacer(modifier = Modifier.height(8.dp))
+                            Text(
+                                text = "Display",
+                                style = MaterialTheme.typography.labelMedium,
+                                color = MaterialTheme.colorScheme.tertiary
+                            )
+                            Spacer(modifier = Modifier.height(4.dp))
+                            ReaderToggleRow("Original Script", showOriginal) { showOriginal = it }
+                            ReaderToggleRow("Transliteration", showTransliteration) { showTransliteration = it }
+                            ReaderToggleRow("Synonyms", showWordToWord) { showWordToWord = it }
+                            ReaderToggleRow("Translation", showTranslation) { showTranslation = it }
+                        }
+                    }
                 }
                 // Bookmark
                 IconButton(onClick = { isBookmarked = !isBookmarked }) {
@@ -229,7 +287,11 @@ fun SongScreen(
 private fun VerseSection(
     verse: Verse,
     verseNumber: Int = 0,
-    fontSize: TextUnit = 14.sp
+    fontSize: TextUnit = 14.sp,
+    showOriginal: Boolean = true,
+    showTransliteration: Boolean = true,
+    showWordToWord: Boolean = true,
+    showTranslation: Boolean = true
 ) {
     val selectedLanguage = "en"
 
@@ -240,7 +302,7 @@ private fun VerseSection(
         verticalArrangement = Arrangement.spacedBy(12.dp)
     ) {
         // Original text
-        if (verse.original.isNotEmpty()) {
+        if (showOriginal && verse.original.isNotEmpty()) {
             Column(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalAlignment = Alignment.CenterHorizontally
@@ -257,7 +319,7 @@ private fun VerseSection(
 
         // Transliteration
         val transliteration = verse.transliterations.find { it?.language == selectedLanguage }
-        if (transliteration != null) {
+        if (showTransliteration && transliteration != null) {
             Column(
                 modifier = Modifier.fillMaxWidth(),
                 horizontalAlignment = Alignment.CenterHorizontally
@@ -279,7 +341,7 @@ private fun VerseSection(
 
         // Word to Word
         val wordToWord = verse.wordToWords.find { it?.language == selectedLanguage }
-        if (wordToWord != null) {
+        if (showWordToWord && wordToWord != null) {
             Text(
                 text = buildAnnotatedString {
                     wordToWord.words.forEach { pair ->
@@ -300,7 +362,7 @@ private fun VerseSection(
 
         // Translation - bold
         val translation = verse.translations.find { it?.language == selectedLanguage }
-        if (translation != null) {
+        if (showTranslation && translation != null) {
             Text(
                 text = translation.text,
                 fontSize = (fontSize.value + 1).sp,
@@ -309,5 +371,32 @@ private fun VerseSection(
                 color = MaterialTheme.colorScheme.onBackground
             )
         }
+    }
+}
+
+@Composable
+private fun ReaderToggleRow(
+    label: String,
+    checked: Boolean,
+    onCheckedChange: (Boolean) -> Unit
+) {
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.SpaceBetween
+    ) {
+        Text(
+            text = label,
+            style = MaterialTheme.typography.bodyMedium,
+            color = MaterialTheme.colorScheme.onBackground
+        )
+        Switch(
+            checked = checked,
+            onCheckedChange = onCheckedChange,
+            colors = SwitchDefaults.colors(
+                checkedTrackColor = MaterialTheme.colorScheme.primary,
+                checkedThumbColor = MaterialTheme.colorScheme.onPrimary
+            )
+        )
     }
 }

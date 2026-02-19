@@ -33,4 +33,18 @@
 
 ## Song View Enhancements
 
+- [ ] **Web song view action icons** — Add the same action bar icons to the web song screen (`SongScreen.tsx`) matching iOS/Android:
+  - [ ] Queue/List icon — show tracks in a dropdown/modal
+  - [ ] Aa Font Size — dropdown with font size slider + layer visibility toggles (Original Script, Transliteration, Synonyms, Translation)
+  - [ ] Bookmark — toggle filled/outline bookmark icon, persist in state
+  - [ ] Share — copy deep link `https://gaudiyakirtan.com/songs/{uid}` to clipboard or open browser share API
 - [ ] **Single verse mode** — Add horizontal swipe mode where user sees one verse at a time (swipe left/right between verses) instead of vertical scroll. Toggle via a view mode button on all platforms.
+
+## App Publishing & Deep Links
+
+- [ ] **Set up Apple Developer account** — Get Apple Team ID and configure app bundle ID for Universal Links
+- [ ] **Fill in apple-app-site-association** — Replace `TEAM_ID` placeholder in `web/public/.well-known/apple-app-site-association` with real Apple Team ID and bundle ID
+- [ ] **Generate Android signing key** — Create a release keystore and extract SHA-256 fingerprint via `keytool -list -v -keystore your.keystore`
+- [ ] **Fill in assetlinks.json** — Replace `TODO:ADD_YOUR_SHA256_FINGERPRINT` placeholder in `web/public/.well-known/assetlinks.json` with real fingerprint
+- [ ] **Deploy web with .well-known files** — Ensure `gaudiyakirtan.com` serves the verification files over HTTPS with no redirects
+- [ ] **Test Universal Links end-to-end** — Verify tapping `https://gaudiyakirtan.com/songs/N3` opens the app on both iOS and Android
