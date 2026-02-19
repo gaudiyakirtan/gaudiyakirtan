@@ -33,12 +33,25 @@
 
 ## Song View Enhancements
 
-- [ ] **Web song view action icons** — Add the same action bar icons to the web song screen (`SongScreen.tsx`) matching iOS/Android:
-  - [ ] Queue/List icon — show tracks in a dropdown/modal
-  - [ ] Aa Font Size — dropdown with font size slider + layer visibility toggles (Original Script, Transliteration, Synonyms, Translation)
-  - [ ] Bookmark — toggle filled/outline bookmark icon, persist in state
-  - [ ] Share — copy deep link `https://gaudiyakirtan.com/songs/{uid}` to clipboard or open browser share API
+- [x] **Web song view action icons** — Add the same action bar icons to the web song screen (`SongScreen.tsx`) matching iOS/Android:
+  - [x] Queue/List icon — show tracks in a dropdown/modal
+  - [x] Aa Font Size — dropdown with font size slider + layer visibility toggles (Original Script, Transliteration, Synonyms, Translation)
+  - [x] Bookmark — toggle filled/outline bookmark icon, persist in state
+  - [x] Share — copy deep link `https://gaudiyakirtan.com/songs/{uid}` to clipboard or open browser share API
 - [ ] **Single verse mode** — Add horizontal swipe mode where user sees one verse at a time (swipe left/right between verses) instead of vertical scroll. Toggle via a view mode button on all platforms.
+
+## Backend System
+
+- [ ] **Set up MongoDB Atlas** — Create free-tier cluster, add `MONGODB_URI` to `.env.local`
+- [ ] **Create GraphQL API** — Next.js API route at `/api/graphql` with Apollo Server, resolvers for songs, authors, books, topics, singers, tracks
+- [ ] **Import song data** — Create import script to seed MongoDB from existing JSON data
+- [ ] **Update web to use API** — Replace `sampleData` imports with GraphQL queries in `getStaticProps` across all pages
+- [ ] **iOS offline database (SwiftData)** — Pre-populated SQLite bundled with app, background sync via Apollo iOS. Bump deployment target to iOS 17.0
+- [ ] **Android offline database (Room)** — Pre-populated Room DB bundled in assets, background sync via Apollo Kotlin + WorkManager
+- [ ] **Asset bundling** — Bundle author/book/singer images in app assets for offline access
+- [ ] **Build-time data generation** — Script to export MongoDB to pre-populated SQLite/Room DBs for mobile releases
+
+Full plan: `.claude/plans/noble-seeking-cerf.md`
 
 ## App Publishing & Deep Links
 
