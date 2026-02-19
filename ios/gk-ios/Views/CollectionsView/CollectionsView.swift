@@ -4,7 +4,9 @@ struct CollectionsView: View {
     @StateObject private var viewModel = CollectionsViewModel()
     
     var body: some View {
-        VStack(spacing: 16) {
+        ZStack {
+            Color.background.edgesIgnoringSafeArea(.all)
+            VStack(spacing: 16) {
             // Category selector (moved to top)
             CategorySelector(
                 selection: $viewModel.selectedCategory,
@@ -37,6 +39,7 @@ struct CollectionsView: View {
             Spacer(minLength: 0)
         }
         .background(Color.background)
+        }
     }
 }
 

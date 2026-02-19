@@ -4,7 +4,9 @@ struct HomeView: View {
     @StateObject private var viewModel = HomeViewModel()
     
     var body: some View {
-        ScrollView {
+        ZStack {
+            Color.background.edgesIgnoringSafeArea(.all)
+            ScrollView {
             // Use custom spacing for different sections
             VStack(spacing: 0) {
                 // Header with mridanga icon, search bar, and settings button
@@ -78,6 +80,7 @@ struct HomeView: View {
                 }
                 .padding(.bottom)
             }
+        }
         }
         .sheet(isPresented: $viewModel.showSettings) {
             SettingsSheet(isPresented: $viewModel.showSettings)

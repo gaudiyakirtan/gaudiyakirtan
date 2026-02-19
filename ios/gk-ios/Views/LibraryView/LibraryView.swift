@@ -4,7 +4,9 @@ struct LibraryView: View {
     @StateObject private var viewModel = LibraryViewModel()
     
     var body: some View {
-        VStack(spacing: 16) {
+        ZStack {
+            Color.background.edgesIgnoringSafeArea(.all)
+            VStack(spacing: 16) {
             // Category selector
             CategorySelector(
                 selection: $viewModel.selectedCategory,
@@ -35,6 +37,7 @@ struct LibraryView: View {
             Spacer(minLength: 0)
         }
         .background(Color.background)
+        }
     }
     
     // MARK: - Category Content Views
