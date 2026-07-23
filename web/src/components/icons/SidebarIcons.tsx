@@ -6,6 +6,7 @@ import React from 'react'
 import {
   Home,
   Music,
+  ListMusic,
   User,
   Hash,
   BookOpen,
@@ -28,6 +29,7 @@ const make =
 
 export const HomeIcon = make(Home)
 export const SongsIcon = make(Music)
+export const TracksIcon = make(ListMusic)
 export const AuthorsIcon = make(User)
 export const TopicsIcon = make(Hash)
 export const BooksIcon = make(BookOpen)

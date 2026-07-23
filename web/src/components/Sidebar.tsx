@@ -13,6 +13,7 @@ import { useTheme } from "../utils/ThemeContext";
 import {
   HomeIcon,
   SongsIcon,
+  TracksIcon,
   AuthorsIcon,
   TopicsIcon,
   BooksIcon,
@@ -186,6 +187,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, collapsed = false, s
           <GroupLabel>Library</GroupLabel>
           <div className="space-y-0.5">
             <NavItem href="/songs" icon={<SongsIcon />} label="Songs" active={isActive("/songs")} onNavigate={onClose} />
+            <NavItem href="/tracks" icon={<TracksIcon />} label="Tracks" active={isActive("/tracks")} onNavigate={onClose} />
             <NavItem href="/authors" icon={<AuthorsIcon />} label="Authors" active={isActive("/authors")} onNavigate={onClose} />
             <NavItem href="/topics" icon={<TopicsIcon />} label="Topics" active={isActive("/topics")} onNavigate={onClose} />
             <NavItem href="/books" icon={<BooksIcon />} label="Books" active={isActive("/books")} onNavigate={onClose} />

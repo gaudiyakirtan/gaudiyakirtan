@@ -56,6 +56,9 @@ interface PlayerContextType {
   setVolume: (v: number) => void
   /** Loads a song's audio and starts playback, raising the player. Defaults to the first take. */
   playSong: (song: ISong, trackUid?: string) => void
+  /** As `playSong`, but from the player's trimmed slice — for list screens (/tracks) that never
+   *  load the full ISong. Defaults to the first take. */
+  playPlayable: (playable: IPlayableSong, trackUid?: string) => void
   /** Switches to a different take of the current song (e.g. a different artist's recording). */
   selectTrack: (trackUid: string) => void
   togglePlayPause: () => void
@@ -155,18 +158,29 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
     })
   }, [])
 
-  const playSong = useCallback(
-    (nextSong: ISong, wantTrackUid?: string) => {
-      const tracks = nextSong.audioFiles ?? []
-      if (!tracks.length) return // no audio - song-detail already gates the play affordance on audioAvailable
+  /**
+   * Starts playback from an already-trimmed [IPlayableSong]. This is the entry point for list
+   * screens (e.g. /tracks) that ship only the player's slice of each song rather than the whole
+   * ISong tree — 753 recordings' verses would dwarf the page payload for data the player never
+   * reads. `playSong` is the ISong-shaped convenience wrapper over this.
+   */
+  const playPlayable = useCallback(
+    (next: IPlayableSong, wantTrackUid?: string) => {
+      const tracks = next.tracks ?? []
+      if (!tracks.length) return // no audio - callers gate the play affordance on audioAvailable
 
       const track = (wantTrackUid && tracks.find((t) => t.uid === wantTrackUid)) || tracks[0]
-      setSong(toPlayableSong(nextSong))
+      setSong(next)
       setTrackUid(track.uid)
       setIsExpanded(true)
       loadAndPlay(track)
     },
     [loadAndPlay]
+  )
+
+  const playSong = useCallback(
+    (nextSong: ISong, wantTrackUid?: string) => playPlayable(toPlayableSong(nextSong), wantTrackUid),
+    [playPlayable]
   )
 
   const selectTrack = useCallback(
@@ -224,6 +238,7 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
       volume,
       setVolume,
       playSong,
+      playPlayable,
       selectTrack,
       togglePlayPause,
       seek,
@@ -244,6 +259,7 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
       volume,
       setVolume,
       playSong,
+      playPlayable,
       selectTrack,
       togglePlayPause,
       seek,
