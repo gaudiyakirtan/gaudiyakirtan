@@ -132,13 +132,12 @@ export const NowSection: React.FC<NowSectionProps> = ({
   return (
     <section className="mb-8 px-4">
       <div className="mb-4 flex items-center gap-3">
-        <h2 className="text-2xl font-bold leading-none text-[var(--primary)] sm:text-3xl">
-          Welcome to{' '}
-          {/* The display face ships Regular only, so `font-normal` is load-bearing: inheriting the
-              heading's `font-bold` would make the browser synthesize a fake bold and smear a script
-              face. The slight size bump compensates for its smaller x-height next to the system
-              font. */}
-          <span className="font-display text-[1.15em] font-normal">Gaudiya Kirtan</span>!
+        {/* The lead is the brand wordmark itself, set in the 5th Avenue display face (matching the
+            sidebar) rather than a "Welcome to …" greeting that mixed the system bold with the serif.
+            `font-normal` is load-bearing: the face ships Regular only, so a bold class would make the
+            browser synthesize a fake bold and smear the high-contrast serif. */}
+        <h2 className="font-display text-3xl font-normal leading-none text-[var(--primary)] sm:text-4xl">
+          Śrī Gaudiya Kirtan
         </h2>
         {/* Two artworks, one per theme: the warm orange/gold mridanga reads on Gaura's light
             paper, the blue-cover one on Shyam's dark surface. Decorative either way — the
