@@ -10,7 +10,9 @@ struct AuthorCard: View {
                     .resizable()
                     .aspectRatio(contentMode: .fill)
             } placeholder: {
-                Color.gray.opacity(0.3)
+                // Themed placeholder (authors ship no imagery) — use the neutral token, not a fixed
+                // system gray, so it follows Gaura/Shyam (theme.md: no hardcoded colors).
+                Color.neutral.opacity(0.3)
             }
             .frame(width: 80, height: 80)
             .clipShape(Circle())

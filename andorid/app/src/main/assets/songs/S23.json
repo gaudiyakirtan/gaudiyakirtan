@@ -1,0 +1,619 @@
+{
+  "uid": "S23",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "কেশব! তুয়া জগত বিচিত্র"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "keśaba! tuyā jagata bicitra"
+    },
+    {
+      "script_code": "Deva",
+      "text": "केशब! तुया जगत बिचित्र"
+    },
+    {
+      "script_code": "Telu",
+      "text": "కేశబ! తుయా జగత బిచిత్ర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಕೇಶಬ! ತುಯಾ ಜಗತ ಬಿಚಿತ್ರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "கேஶப³! துயா ஜக³த பி³சித்ர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "കേശബ! തുയാ ജഗത ബിചിത്ര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "કેશબ! તુયા જગત બિચિત્ર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "କେଶବ! ତୁୟା ଜଗତ ବିଚିତ୍ର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "кэш́аба! туйа̄ джагата бичитра"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "keśaba! tuyā jagata bicitra",
+        "karama[FLAG_HYPHEN_ALPHA]bipāke,    bhaba[FLAG_HYPHEN_ALPHA]bana bhrama·i,",
+        "pekhalũ raṅga bahu citra 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कॆशब! तुया जगत बिचित्र",
+            "करमबिपाकॆ,    भबबन भ्रमइ,",
+            "पॆखलुं रङ्ग बहु चित्र १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কেশব! তুয়া জগত বিচিত্র",
+            "করমবিপাকে,    ভববন ভ্রমই,",
+            "পেখলুং রঙ্গ বহু চিত্র ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କେଶବ! ତୁୟା ଜଗତ ବିଚିତ୍ର",
+            "କରମବିପାକେ,    ଭବବନ ଭ୍ରମଇ,",
+            "ପେଖଲୁଂ ରଙ୍ଗ ବହୁ ଚିତ୍ର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કેશબ! તુયા જગત બિચિત્ર",
+            "કરમબિપાકે,    ભબબન ભ્રમઇ,",
+            "પેખલું રઙ્ગ બહુ ચિત્ર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "keśaba! tuyā jagata bicitra",
+            "karama-bipāke,    bhaba-bana bhrama·i,",
+            "pekhalũ raṅga bahu citra 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕೆಶಬ! ತುಯಾ ಜಗತ ಬಿಚಿತ್ರ",
+            "ಕರಮಬಿಪಾಕೆ,    ಭಬಬನ ಭ್ರಮಇ,",
+            "ಪೆಖಲುಂ ರಂಗ ಬಹು ಚಿತ್ರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కెశబ! తుయా జగత బిచిత్ర",
+            "కరమబిపాకె,    భబబన భ్రమఇ,",
+            "పెఖలుం రంగ బహు చిత్ర 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кэ̆ш́аба! туйа̄ джагата бичитра",
+            "карамабипа̄кэ̆,    бхабабана бхрамаи,",
+            "пэ̆кхалум̣ ран̇га баху читра 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കെശബ! തുയാ ജഗത ബിചിത്ര",
+            "കരമബിപാകെ,    ഭബബന ഭ്രമഇ,",
+            "പെഖലും രംഗ ബഹു ചിത്ര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கெஶப³! துயா ஜக³த பி³சித்ர",
+            "கரமபி³பாகெ,    ப⁴ப³ப³ன ப்⁴ரமஇ,",
+            "பெக²லும்ʼ ரங்க³ ப³ஹு சித்ர 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "keśaba! tuyā jagata bicitra",
+            "karama-bipāke,    bhaba-bana bhrama·i,",
+            "pekhalũ raṅga bahu citra 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "keśaba! tuyā jagata bicitra",
+            "karama-bipāke,    bhaba-bana bhrama·i,",
+            "pekhalũ raṅga bahu citra 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "tuyā pada[FLAG_HYPHEN_ALPHA]bismṛti,    ā[FLAG_HYPHEN_ALPHA]mara yantraṇā,",
+        "kleśa[FLAG_HYPHEN_ALPHA]dahane dahi’ yāi",
+        "kapila[FLAG_HYPHEN_ALPHA]patañjali,    gautama[FLAG_HYPHEN_ALPHA]kaṇabhojī,",
+        "jaimini[FLAG_HYPHEN_ALPHA]bauddha āoye dhāi’ 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तुया पदबिस्म्ड़्ति,    आमर यन्त्रणा,",
+            "क्लॆशदहनॆ दहिऽ याइ",
+            "कपिलपतञ्जलि,    गौतमकणभॊजी,",
+            "जैमिनिबौद्ध आऒयॆ धाइऽ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তুয়া পদবিস্ম্ড়্তি,    আমর যন্ত্রণা,",
+            "ক্লেশদহনে দহিঽ যাই",
+            "কপিলপতঞ্জলি,    গৌতমকণভোজী,",
+            "জৈমিনিবৌদ্ধ আওয়ে ধাইঽ ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତୁୟା ପଦବିସ୍ମ୍ଡ଼୍ତି,    ଆମର ଯନ୍ତ୍ରଣା,",
+            "କ୍ଲେଶଦହନେ ଦହିଽ ଯାଇ",
+            "କପିଲପତଞ୍ଜଲି,    ଗୌତମକଣଭୋଜୀ,",
+            "ଜୈମିନିବୌଦ୍ଧ ଆଓୟେ ଧାଇଽ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તુયા પદબિસ્મ્ડ઼્તિ,    આમર યન્ત્રણા,",
+            "ક્લેશદહને દહિઽ યાઇ",
+            "કપિલપતઞ્જલિ,    ગૌતમકણભોજી,",
+            "જૈમિનિબૌદ્ધ આઓયે ધાઇઽ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tuyā pada-bismṛti,    ā-mara yantraṇā,",
+            "kleśa-dahane dahi’ yāi",
+            "kapila-patañjali,    gautama-kaṇabhojī,",
+            "jaimini-bauddha āoye dhāi’ 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತುಯಾ ಪದಬಿಸ್ಮ್‌ಡ಼್ತಿ,    ಆಮರ ಯಂತ್ರಣಾ,",
+            "ಕ್ಲೆಶದಹನೆ ದಹಿಽ ಯಾಇ",
+            "ಕಪಿಲಪತಂಜಲಿ,    ಗೌತಮಕಣಭೊಜೀ,",
+            "ಜೈಮಿನಿಬೌದ್ಧ ಆಒಯೆ ಧಾಇಽ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తుయా పదబిస్మ్డ్తి,    ఆమర యంత్రణా,",
+            "క్లెశదహనె దహిఽ యాఇ",
+            "కపిలపతంజలి,    గౌతమకణభొజీ,",
+            "జైమినిబౌద్ధ ఆఒయె ధాఇఽ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "туйа̄ падабисмр̤ти,    а̄мара йантран̣а̄,",
+            "клэ̆ш́адаханэ̆ дахи' йа̄и",
+            "капилапатан̃джали,    гаутамакан̣абхо̆джӣ,",
+            "джаиминибауддха а̄о̆йэ̆ дха̄и' 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തുയാ പദബിസ്മ്ഡ്തി,    ആമര യന്ത്രണാ,",
+            "ക്ലെശദഹനെ ദഹിഽ യാഇ",
+            "കപിലപതഞ്ജലി,    ഗൗതമകണഭൊജീ,",
+            "ജൈമിനിബൗദ്ധ ആഒയെ ധാഇഽ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "துயா பத³பி³ஸ்ம்ஃட்²தி,    ஆமர யந்த்ரணா,",
+            "க்லெஶத³ஹனெ த³ஹி(அ) யாஇ",
+            "கபிலபதஞ்ஜலி,    கௌ³தமகணபொ⁴ஜீ,",
+            "ஜைமினிபௌ³த்³த⁴ ஆஒயெ தா⁴இ(அ) 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tuyā pada-bismṛti,    ā-mara yantraṇā,",
+            "kleśa-dahane dahi’ yāi",
+            "kapila-patañjali,    gautama-kaṇabhojī,",
+            "jaimini-bauddha āoye dhāi’ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tuyā pada-bismṛti,    ā-mara yantraṇā,",
+            "kleśa-dahane dahi’ yāi",
+            "kapila-patañjali,    gautama-kaṇabhojī,",
+            "jaimini-bauddha āoye dhāi’ 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "tab koi nija[FLAG_HYPHEN_ALPHA]mate,    bhukti[FLAG_HYPHEN_ALPHA]mukti yācata,",
+        "pāta·i nānābidha phā̃da",
+        "so[FLAG_HYPHEN_ALPHA]sabu—bañcaka,    tuyā bhakti[FLAG_HYPHEN_ALPHA]bahirmukha,",
+        "ghaṭāoye biṣama paramāda 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तब् कॊइ निजमतॆ,    भुक्तिमुक्ति याचत,",
+            "पातइ नानाबिध फांद",
+            "सॊसबु—बञ्चक,    तुया भक्तिबहिर्मुख,",
+            "घटाऒयॆ बिषम परमाद ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তব্ কোই নিজমতে,    ভুক্তিমুক্তি যাচত,",
+            "পাতই নানাবিধ ফান্দ",
+            "সোসবু—বঞ্চক,    তুয়া ভক্তিবহির্মুখ,",
+            "ঘটাওয়ে বিষম পরমাদ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତବ୍ କୋଇ ନିଜମତେ,    ଭୁକ୍ତିମୁକ୍ତି ଯାଚତ,",
+            "ପାତଇ ନାନାବିଧ ଫାନ୍ଦ",
+            "ସୋସବୁ—ବଞ୍ଚକ,    ତୁୟା ଭକ୍ତିବହିର୍ମୁଖ,",
+            "ଘଟାଓୟେ ବିଷମ ପରମାଦ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તબ્ કોઇ નિજમતે,    ભુક્તિમુક્તિ યાચત,",
+            "પાતઇ નાનાબિધ ફાંદ",
+            "સોસબુ—બઞ્ચક,    તુયા ભક્તિબહિર્મુખ,",
+            "ઘટાઓયે બિષમ પરમાદ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tab koi nija-mate,    bhukti-mukti yācata,",
+            "pāta·i nānābidha phā̃da",
+            "so-sabu—bañcaka,    tuyā bhakti-bahirmukha,",
+            "ghaṭāoye biṣama paramāda 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತಬ್ ಕೊಇ ನಿಜಮತೆ,    ಭುಕ್ತಿಮುಕ್ತಿ ಯಾಚತ,",
+            "ಪಾತಇ ನಾನಾಬಿಧ ಫಾಂದ",
+            "ಸೊಸಬು—ಬಂಚಕ,    ತುಯಾ ಭಕ್ತಿಬಹಿರ್ಮುಖ,",
+            "ಘಟಾಒಯೆ ಬಿಷಮ ಪರಮಾದ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తబ్ కొఇ నిజమతె,    భుక్తిముక్తి యాచత,",
+            "పాతఇ నానాబిధ ఫాంద",
+            "సొసబు—బంచక,    తుయా భక్తిబహిర్ముఖ,",
+            "ఘటాఒయె బిషమ పరమాద 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "таб ко̆и ниджаматэ̆,    бхуктимукти йа̄чата,",
+            "па̄таи на̄на̄бидха пха̄м̣да",
+            "со̆сабу—бан̃чака,    туйа̄ бхактибахирмукха,",
+            "гхат̣а̄о̆йэ̆ бишама парама̄да 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തബ് കൊഇ നിജമതെ,    ഭുക്തിമുക്തി യാചത,",
+            "പാതഇ നാനാബിധ ഫാന്ദ",
+            "സൊസബു—ബഞ്ചക,    തുയാ ഭക്തിബഹിർമുഖ,",
+            "ഘടാഒയെ ബിഷമ പരമാദ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தப்³ கொஇ நிஜமதெ,    பு⁴க்திமுக்தி யாசத,",
+            "பாதஇ நானாபி³த⁴ பா²ந்த³",
+            "ஸொஸபு³—ப³ஞ்சக,    துயா ப⁴க்திப³ஹிர்முக²,",
+            "க⁴டாஒயெ பி³ஷம பரமாத³ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tab koi nija-mate,    bhukti-mukti yācata,",
+            "pāta·i nānābidha phā̃da",
+            "so-sabu—bañcaka,    tuyā bhakti-bahirmukha,",
+            "ghaṭāoye biṣama paramāda 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tab koi nija-mate,    bhukti-mukti yācata,",
+            "pāta·i nānābidha phā̃da",
+            "so-sabu—bañcaka,    tuyā bhakti-bahirmukha,",
+            "ghaṭāoye biṣama paramāda 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "bimukha[FLAG_HYPHEN_ALPHA]bañcane,    bhaṭa so[FLAG_HYPHEN_ALPHA]sabu,",
+        "niramila bibidha pasāra",
+        "daṇḍabat dūrata,    bhakatibinoda bhela,",
+        "bhakatacaraṇa kari’ sāra 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बिमुखबञ्चनॆ,    भट सॊसबु,",
+            "निरमिल बिबिध पसार",
+            "दण्डबत् दूरत,    भकतिबिनॊद भॆल,",
+            "भकतचरण करिऽ सार ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বিমুখবঞ্চনে,    ভট সোসবু,",
+            "নিরমিল বিবিধ পসার",
+            "দণ্ডবৎ দূরত,    ভকতিবিনোদ ভেল,",
+            "ভকতচরণ করিঽ সার ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବିମୁଖବଞ୍ଚନେ,    ଭଟ ସୋସବୁ,",
+            "ନିରମିଲ ବିବିଧ ପସାର",
+            "ଦଣ୍ଡବତ୍ ଦୂରତ,    ଭକତିବିନୋଦ ଭେଲ,",
+            "ଭକତଚରଣ କରିଽ ସାର ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બિમુખબઞ્ચને,    ભટ સોસબુ,",
+            "નિરમિલ બિબિધ પસાર",
+            "દણ્ડબત્ દૂરત,    ભકતિબિનોદ ભેલ,",
+            "ભકતચરણ કરિઽ સાર ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bimukha-bañcane,    bhaṭa so-sabu,",
+            "niramila bibidha pasāra",
+            "daṇḍabat dūrata,    bhakatibinoda bhela,",
+            "bhakatacaraṇa kari’ sāra 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಿಮುಖಬಂಚನೆ,    ಭಟ ಸೊಸಬು,",
+            "ನಿರಮಿಲ ಬಿಬಿಧ ಪಸಾರ",
+            "ದಂಡಬತ್ ದೂರತ,    ಭಕತಿಬಿನೊದ ಭೆಲ,",
+            "ಭಕತಚರಣ ಕರಿಽ ಸಾರ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బిముఖబంచనె,    భట సొసబు,",
+            "నిరమిల బిబిధ పసార",
+            "దండబత్ దూరత,    భకతిబినొద భెల,",
+            "భకతచరణ కరిఽ సార 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бимукхабан̃чанэ̆,    бхат̣а со̆сабу,",
+            "нирамила бибидха паса̄ра",
+            "дан̣д̣абат дӯрата,    бхакатибино̆да бхэ̆ла,",
+            "бхакатачаран̣а кари' са̄ра 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബിമുഖബഞ്ചനെ,    ഭട സൊസബു,",
+            "നിരമില ബിബിധ പസാര",
+            "ദണ്ഡബത് ദൂരത,    ഭകതിബിനൊദ ഭെല,",
+            "ഭകതചരണ കരിഽ സാര 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பி³முக²ப³ஞ்சனெ,    ப⁴ட ஸொஸபு³,",
+            "நிரமில பி³பி³த⁴ பஸார",
+            "த³ண்ட³ப³த் தூ³ரத,    ப⁴கதிபி³னொத³ பெ⁴ல,",
+            "ப⁴கதசரண கரி(அ) ஸார 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bimukha-bañcane,    bhaṭa so-sabu,",
+            "niramila bibidha pasāra",
+            "daṇḍabat dūrata,    bhakatibinoda bhela,",
+            "bhakatacaraṇa kari’ sāra 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bimukha-bañcane,    bhaṭa so-sabu,",
+            "niramila bibidha pasāra",
+            "daṇḍabat dūrata,    bhakatibinoda bhela,",
+            "bhakatacaraṇa kari’ sāra 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "(২১)"
+    },
+    {
+      "language_code": "ben",
+      "text": "প্রতিকূল বর্জ্জন (বাচিক)"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Bhakti Pratikūla Bhāva Varjanāṅgīkāra (Rejection of That Which is Unfavorable For Bhakti)"
+  ]
+}

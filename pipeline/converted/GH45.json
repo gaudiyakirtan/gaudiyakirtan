@@ -1,0 +1,3809 @@
+{
+ "uid": "GH45",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ওহে প্রেমের ঠাকুর গোরা"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "ohe premera ṭhākura gorā"
+  }
+ ],
+ "author_uid": "?",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "অজানা লেখক"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Unknown Author"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "ohe premera ṭhākura gorā dhru",
+    "prāṇera yātanā kibā kaba, nātha!",
+    "hayechi āpana[FLAG_HYPHEN_ALPHA]hārā 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Gaura, Lord of prema! What shall I tell You of the sufferings of my life, O Master? I have lost my true self."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ohe",
+       "alas"
+      ],
+      [
+       "premera",
+       "of divine love"
+      ],
+      [
+       "ṭhākura",
+       "Lord"
+      ],
+      [
+       "gorā",
+       "Gaura"
+      ],
+      [
+       "prāṇera",
+       "of life"
+      ],
+      [
+       "yātanā",
+       "agony"
+      ],
+      [
+       "kibā",
+       "what"
+      ],
+      [
+       "kaba",
+       "I shall tell"
+      ],
+      [
+       "nātha",
+       "O Master"
+      ],
+      [
+       "hayechi",
+       "I had"
+      ],
+      [
+       "āpana",
+       "myself"
+      ],
+      [
+       "hārā",
+       "lost"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ऒहॆ",
+       "alas"
+      ],
+      [
+       "प्रॆमॆर",
+       "of divine love"
+      ],
+      [
+       "ठाकुर",
+       "Lord"
+      ],
+      [
+       "गॊरा",
+       "Gaura"
+      ],
+      [
+       "प्राणॆर",
+       "of life"
+      ],
+      [
+       "यातना",
+       "agony"
+      ],
+      [
+       "किबा",
+       "what"
+      ],
+      [
+       "कब",
+       "I shall tell"
+      ],
+      [
+       "नाथ",
+       "O Master"
+      ],
+      [
+       "हयॆछि",
+       "I had"
+      ],
+      [
+       "आपन",
+       "myself"
+      ],
+      [
+       "हारा",
+       "lost"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ওহে",
+       "alas"
+      ],
+      [
+       "প্রেমের",
+       "of divine love"
+      ],
+      [
+       "ঠাকুর",
+       "Lord"
+      ],
+      [
+       "গোরা",
+       "Gaura"
+      ],
+      [
+       "প্রাণের",
+       "of life"
+      ],
+      [
+       "যাতনা",
+       "agony"
+      ],
+      [
+       "কিবা",
+       "what"
+      ],
+      [
+       "কব",
+       "I shall tell"
+      ],
+      [
+       "নাথ",
+       "O Master"
+      ],
+      [
+       "হয়েছি",
+       "I had"
+      ],
+      [
+       "আপন",
+       "myself"
+      ],
+      [
+       "হারা",
+       "lost"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ઓહે",
+       "alas"
+      ],
+      [
+       "પ્રેમેર",
+       "of divine love"
+      ],
+      [
+       "ઠાકુર",
+       "Lord"
+      ],
+      [
+       "ગોરા",
+       "Gaura"
+      ],
+      [
+       "પ્રાણેર",
+       "of life"
+      ],
+      [
+       "યાતના",
+       "agony"
+      ],
+      [
+       "કિબા",
+       "what"
+      ],
+      [
+       "કબ",
+       "I shall tell"
+      ],
+      [
+       "નાથ",
+       "O Master"
+      ],
+      [
+       "હયેછિ",
+       "I had"
+      ],
+      [
+       "આપન",
+       "myself"
+      ],
+      [
+       "હારા",
+       "lost"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऒहॆ प्रॆमॆर ठाकुर गॊरा ध्रु",
+      "प्राणॆर यातना किबा कब, नाथ!",
+      "हयॆछि आपनहारा १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ওহে প্রেমের ঠাকুর গোরা ধ্রু",
+      "প্রাণের যাতনা কিবা কব, নাথ!",
+      "হয়েছি আপনহারা ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଓହେ ପ୍ରେମେର ଠାକୁର ଗୋରା ଧ୍ରୁ",
+      "ପ୍ରାଣେର ଯାତନା କିବା କବ, ନାଥ!",
+      "ହୟେଛି ଆପନହାରା ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઓહે પ્રેમેર ઠાકુર ગોરા ધ્રુ",
+      "પ્રાણેર યાતના કિબા કબ, નાથ!",
+      "હયેછિ આપનહારા ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ohe premera ṭhākura gorā dhru",
+      "prāṇera yātanā kibā kaba, nātha!",
+      "hayechi āpana-hārā 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಒಹೆ ಪ್ರೆಮೆರ ಠಾಕುರ ಗೊರಾ ಧ್ರು",
+      "ಪ್ರಾಣೆರ ಯಾತನಾ ಕಿಬಾ ಕಬ, ನಾಥ!",
+      "ಹಯೆಛಿ ಆಪನಹಾರಾ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఒహె ప్రెమెర ఠాకుర గొరా ధ్రు",
+      "ప్రాణెర యాతనా కిబా కబ, నాథ!",
+      "హయెఛి ఆపనహారా 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "о̆хэ̆ прэ̆мэ̆ра т̣ха̄кура го̆ра̄ дхру",
+      "пра̄н̣э̆ра йа̄тана̄ киба̄ каба, на̄тха!",
+      "хайэ̆чхи а̄панаха̄ра̄ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഒഹെ പ്രെമെര ഠാകുര ഗൊരാ ധ്രു",
+      "പ്രാണെര യാതനാ കിബാ കബ, നാഥ!",
+      "ഹയെഛി ആപനഹാരാ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஒஹெ ப்ரெமெர டா²குர கொ³ரா த்⁴ரு",
+      "ப்ராணெர யாதனா கிபா³ கப³, நாத²!",
+      "ஹயெசி² ஆபனஹாரா 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ohe premera ṭhākura gorā dhru",
+      "prāṇera yātanā kibā kaba, nātha!",
+      "hayechi āpana-hārā 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ohe premera ṭhākura gorā dhru",
+      "prāṇera yātanā kibā kaba, nātha!",
+      "hayechi āpana-hārā 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "ki āra baliba, ye[FLAG_HYPHEN_ALPHA]kājera tare,",
+    "enechile nātha! jagate āmāre,",
+    "etadina pare kahite se[FLAG_HYPHEN_ALPHA]kathā",
+    "khede duḥkhe ha·i sārā 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "What more shall I say? O Lord, after so long, to speak of the purpose for which You brought me to the world, I become weary with lamentation and sorrow."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ki",
+       "what"
+      ],
+      [
+       "āra",
+       "more"
+      ],
+      [
+       "baliba",
+       "I shall say"
+      ],
+      [
+       "ye",
+       "which"
+      ],
+      [
+       "kājera",
+       "of work"
+      ],
+      [
+       "tare",
+       "for the purpose"
+      ],
+      [
+       "enechile",
+       "You brought"
+      ],
+      [
+       "nātha",
+       "O Lord"
+      ],
+      [
+       "jagate",
+       "in this world"
+      ],
+      [
+       "āmāre",
+       "to me"
+      ],
+      [
+       "etadina",
+       "so many + days"
+      ],
+      [
+       "pare",
+       "after"
+      ],
+      [
+       "kahite",
+       "to speak"
+      ],
+      [
+       "se",
+       "this"
+      ],
+      [
+       "kathā",
+       "matter"
+      ],
+      [
+       "khede",
+       "with lamentation"
+      ],
+      [
+       "duḥkhe",
+       "with sorrow"
+      ],
+      [
+       "ha·i",
+       "I become"
+      ],
+      [
+       "sārā",
+       "weary"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "कि",
+       "what"
+      ],
+      [
+       "आर",
+       "more"
+      ],
+      [
+       "बलिब",
+       "I shall say"
+      ],
+      [
+       "यॆ",
+       "which"
+      ],
+      [
+       "काजॆर",
+       "of work"
+      ],
+      [
+       "तरॆ",
+       "for the purpose"
+      ],
+      [
+       "ऎनॆछिलॆ",
+       "You brought"
+      ],
+      [
+       "नाथ",
+       "O Lord"
+      ],
+      [
+       "जगतॆ",
+       "in this world"
+      ],
+      [
+       "आमारॆ",
+       "to me"
+      ],
+      [
+       "ऎतदिन",
+       "so many + days"
+      ],
+      [
+       "परॆ",
+       "after"
+      ],
+      [
+       "कहितॆ",
+       "to speak"
+      ],
+      [
+       "सॆ",
+       "this"
+      ],
+      [
+       "कथा",
+       "matter"
+      ],
+      [
+       "खॆदॆ",
+       "with lamentation"
+      ],
+      [
+       "दुःखॆ",
+       "with sorrow"
+      ],
+      [
+       "हइ",
+       "I become"
+      ],
+      [
+       "सारा",
+       "weary"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "কি",
+       "what"
+      ],
+      [
+       "আর",
+       "more"
+      ],
+      [
+       "বলিব",
+       "I shall say"
+      ],
+      [
+       "যে",
+       "which"
+      ],
+      [
+       "কাজের",
+       "of work"
+      ],
+      [
+       "তরে",
+       "for the purpose"
+      ],
+      [
+       "এনেছিলে",
+       "You brought"
+      ],
+      [
+       "নাথ",
+       "O Lord"
+      ],
+      [
+       "জগতে",
+       "in this world"
+      ],
+      [
+       "আমারে",
+       "to me"
+      ],
+      [
+       "এতদিন",
+       "so many + days"
+      ],
+      [
+       "পরে",
+       "after"
+      ],
+      [
+       "কহিতে",
+       "to speak"
+      ],
+      [
+       "সে",
+       "this"
+      ],
+      [
+       "কথা",
+       "matter"
+      ],
+      [
+       "খেদে",
+       "with lamentation"
+      ],
+      [
+       "দুঃখে",
+       "with sorrow"
+      ],
+      [
+       "হই",
+       "I become"
+      ],
+      [
+       "সারা",
+       "weary"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "કિ",
+       "what"
+      ],
+      [
+       "આર",
+       "more"
+      ],
+      [
+       "બલિબ",
+       "I shall say"
+      ],
+      [
+       "યે",
+       "which"
+      ],
+      [
+       "કાજેર",
+       "of work"
+      ],
+      [
+       "તરે",
+       "for the purpose"
+      ],
+      [
+       "એનેછિલે",
+       "You brought"
+      ],
+      [
+       "નાથ",
+       "O Lord"
+      ],
+      [
+       "જગતે",
+       "in this world"
+      ],
+      [
+       "આમારે",
+       "to me"
+      ],
+      [
+       "એતદિન",
+       "so many + days"
+      ],
+      [
+       "પરે",
+       "after"
+      ],
+      [
+       "કહિતે",
+       "to speak"
+      ],
+      [
+       "સે",
+       "this"
+      ],
+      [
+       "કથા",
+       "matter"
+      ],
+      [
+       "ખેદે",
+       "with lamentation"
+      ],
+      [
+       "દુઃખે",
+       "with sorrow"
+      ],
+      [
+       "હઇ",
+       "I become"
+      ],
+      [
+       "સારા",
+       "weary"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कि आर बलिब, यॆकाजॆर तरॆ,",
+      "ऎनॆछिलॆ नाथ! जगतॆ आमारॆ,",
+      "ऎतदिन परॆ कहितॆ सॆकथा",
+      "खॆदॆ दुःखॆ हइ सारा २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কি আর বলিব, যেকাজের তরে,",
+      "এনেছিলে নাথ! জগতে আমারে,",
+      "এতদিন পরে কহিতে সেকথা",
+      "খেদে দুঃখে হই সারা ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କି ଆର ବଲିବ, ଯେକାଜେର ତରେ,",
+      "ଏନେଛିଲେ ନାଥ! ଜଗତେ ଆମାରେ,",
+      "ଏତଦିନ ପରେ କହିତେ ସେକଥା",
+      "ଖେଦେ ଦୁଃଖେ ହଇ ସାରା ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કિ આર બલિબ, યેકાજેર તરે,",
+      "એનેછિલે નાથ! જગતે આમારે,",
+      "એતદિન પરે કહિતે સેકથા",
+      "ખેદે દુઃખે હઇ સારા ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ki āra baliba, ye-kājera tare,",
+      "enechile nātha! jagate āmāre,",
+      "etadina pare kahite se-kathā",
+      "khede duḥkhe ha·i sārā 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕಿ ಆರ ಬಲಿಬ, ಯೆಕಾಜೆರ ತರೆ,",
+      "ಎನೆಛಿಲೆ ನಾಥ! ಜಗತೆ ಆಮಾರೆ,",
+      "ಎತದಿನ ಪರೆ ಕಹಿತೆ ಸೆಕಥಾ",
+      "ಖೆದೆ ದುಃಖೆ ಹಇ ಸಾರಾ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కి ఆర బలిబ, యెకాజెర తరె,",
+      "ఎనెఛిలె నాథ! జగతె ఆమారె,",
+      "ఎతదిన పరె కహితె సెకథా",
+      "ఖెదె దుఃఖె హఇ సారా 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ки а̄ра балиба, йэ̆ка̄джэ̆ра тарэ̆,",
+      "э̆нэ̆чхилэ̆ на̄тха! джагатэ̆ а̄ма̄рэ̆,",
+      "э̆тадина парэ̆ кахитэ̆ сэ̆катха̄",
+      "кхэ̆дэ̆ дух̣кхэ̆ хаи са̄ра̄ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കി ആര ബലിബ, യെകാജെര തരെ,",
+      "എനെഛിലെ നാഥ! ജഗതെ ആമാരെ,",
+      "എതദിന പരെ കഹിതെ സെകഥാ",
+      "ഖെദെ ദുഃഖെ ഹഇ സാരാ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கி ஆர ப³லிப³, யெகாஜெர தரெ,",
+      "எனெசி²லெ நாத²! ஜக³தெ ஆமாரெ,",
+      "எததி³ன பரெ கஹிதெ ஸெகதா²",
+      "கெ²தெ³ து³꞉கெ² ஹஇ ஸாரா 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ki āra baliba, ye-kājera tare,",
+      "enechile nātha! jagate āmāre,",
+      "etadina pare kahite se-kathā",
+      "khede duḥkhe ha·i sārā 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ki āra baliba, ye-kājera tare,",
+      "enechile nātha! jagate āmāre,",
+      "etadina pare kahite se-kathā",
+      "khede duḥkhe ha·i sārā 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "tomāra bhajane nā janmila rati,",
+    "jaḓamohe matta sadā duramati—",
+    "biṣayīra kāche theke theke āmi",
+    "ha·inu biṣayīpārā 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Attachment to bhajana of You has not awakened within me, I am intoxicated by the mundane and the illusory, and my intelligence is always wicked. By remaining near sense enjoyers, I have become just like them."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "tomāra",
+       "Your"
+      ],
+      [
+       "bhajane",
+       "in transcendent, internal service"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "janmila",
+       "awakened"
+      ],
+      [
+       "rati",
+       "attachment"
+      ],
+      [
+       "jaḓamohe",
+       "by the mundane and illusory"
+      ],
+      [
+       "matta",
+       "intoxicated"
+      ],
+      [
+       "sadā",
+       "always"
+      ],
+      [
+       "duramati",
+       "wicked minded"
+      ],
+      [
+       "biṣayīra",
+       "sense enjoyer’s"
+      ],
+      [
+       "kāche",
+       "near"
+      ],
+      [
+       "theke theke",
+       "continously remaining"
+      ],
+      [
+       "āmi",
+       "I"
+      ],
+      [
+       "ha·inu",
+       "have become"
+      ],
+      [
+       "biṣayīpārā",
+       "sense enjoyer + just like"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "तॊमार",
+       "Your"
+      ],
+      [
+       "भजनॆ",
+       "in transcendent, internal service"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "जन्मिल",
+       "awakened"
+      ],
+      [
+       "रति",
+       "attachment"
+      ],
+      [
+       "जḓअमॊहॆ",
+       "by the mundane and illusory"
+      ],
+      [
+       "मत्त",
+       "intoxicated"
+      ],
+      [
+       "सदा",
+       "always"
+      ],
+      [
+       "दुरमति",
+       "wicked minded"
+      ],
+      [
+       "बिषयीर",
+       "sense enjoyer’s"
+      ],
+      [
+       "काछॆ",
+       "near"
+      ],
+      [
+       "थॆकॆ थॆकॆ",
+       "continously remaining"
+      ],
+      [
+       "आमि",
+       "I"
+      ],
+      [
+       "हइनु",
+       "have become"
+      ],
+      [
+       "बिषयीपारा",
+       "sense enjoyer + just like"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "তোমার",
+       "Your"
+      ],
+      [
+       "ভজনে",
+       "in transcendent, internal service"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "জন্মিল",
+       "awakened"
+      ],
+      [
+       "রতি",
+       "attachment"
+      ],
+      [
+       "জḓঅমোহে",
+       "by the mundane and illusory"
+      ],
+      [
+       "মত্ত",
+       "intoxicated"
+      ],
+      [
+       "সদা",
+       "always"
+      ],
+      [
+       "দুরমতি",
+       "wicked minded"
+      ],
+      [
+       "বিষয়ীর",
+       "sense enjoyer’s"
+      ],
+      [
+       "কাছে",
+       "near"
+      ],
+      [
+       "থেকে থেকে",
+       "continously remaining"
+      ],
+      [
+       "আমি",
+       "I"
+      ],
+      [
+       "হইনু",
+       "have become"
+      ],
+      [
+       "বিষয়ীপারা",
+       "sense enjoyer + just like"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "તોમાર",
+       "Your"
+      ],
+      [
+       "ભજને",
+       "in transcendent, internal service"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "જન્મિલ",
+       "awakened"
+      ],
+      [
+       "રતિ",
+       "attachment"
+      ],
+      [
+       "જḓઅમોહે",
+       "by the mundane and illusory"
+      ],
+      [
+       "મત્ત",
+       "intoxicated"
+      ],
+      [
+       "સદા",
+       "always"
+      ],
+      [
+       "દુરમતિ",
+       "wicked minded"
+      ],
+      [
+       "બિષયીર",
+       "sense enjoyer’s"
+      ],
+      [
+       "કાછે",
+       "near"
+      ],
+      [
+       "થેકે થેકે",
+       "continously remaining"
+      ],
+      [
+       "આમિ",
+       "I"
+      ],
+      [
+       "હઇનુ",
+       "have become"
+      ],
+      [
+       "બિષયીપારા",
+       "sense enjoyer + just like"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तॊमार भजनॆ ना जन्मिल रति,",
+      "जḓअमॊहॆ मत्त सदा दुरमति—",
+      "बिषयीर काछॆ थॆकॆ थॆकॆ आमि",
+      "हइनु बिषयीपारा ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তোমার ভজনে না জন্মিল রতি,",
+      "জḓঅমোহে মত্ত সদা দুরমতি—",
+      "বিষয়ীর কাছে থেকে থেকে আমি",
+      "হইনু বিষয়ীপারা ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୋମାର ଭଜନେ ନା ଜନ୍ମିଲ ରତି,",
+      "ଜḓଅମୋହେ ମତ୍ତ ସଦା ଦୁରମତି—",
+      "ବିଷୟୀର କାଛେ ଥେକେ ଥେକେ ଆମି",
+      "ହଇନୁ ବିଷୟୀପାରା ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તોમાર ભજને ના જન્મિલ રતિ,",
+      "જḓઅમોહે મત્ત સદા દુરમતિ—",
+      "બિષયીર કાછે થેકે થેકે આમિ",
+      "હઇનુ બિષયીપારા ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tomāra bhajane nā janmila rati,",
+      "jaḓamohe matta sadā duramati—",
+      "biṣayīra kāche theke theke āmi",
+      "ha·inu biṣayīpārā 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತೊಮಾರ ಭಜನೆ ನಾ ಜನ್ಮಿಲ ರತಿ,",
+      "ಜḓಅಮೊಹೆ ಮತ್ತ ಸದಾ ದುರಮತಿ—",
+      "ಬಿಷಯೀರ ಕಾಛೆ ಥೆಕೆ ಥೆಕೆ ಆಮಿ",
+      "ಹಇನು ಬಿಷಯೀಪಾರಾ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తొమార భజనె నా జన్మిల రతి,",
+      "జḓఅమొహె మత్త సదా దురమతి—",
+      "బిషయీర కాఛె థెకె థెకె ఆమి",
+      "హఇను బిషయీపారా 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "то̆ма̄ра бхаджанэ̆ на̄ джанмила рати,",
+      "джаḓамо̆хэ̆ матта сада̄ дурамати—",
+      "бишайӣра ка̄чхэ̆ тхэ̆кэ̆ тхэ̆кэ̆ а̄ми",
+      "хаину бишайӣпа̄ра̄ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തൊമാര ഭജനെ നാ ജന്മില രതി,",
+      "ജḓഅമൊഹെ മത്ത സദാ ദുരമതി—",
+      "ബിഷയീര കാഛെ ഥെകെ ഥെകെ ആമി",
+      "ഹഇനു ബിഷയീപാരാ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தொமார ப⁴ஜனெ நா ஜன்மில ரதி,",
+      "ஜḓஅமொஹெ மத்த ஸதா³ து³ரமதி—",
+      "பி³ஷயீர காசெ² தெ²கெ தெ²கெ ஆமி",
+      "ஹஇனு பி³ஷயீபாரா 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tomāra bhajane nā janmila rati,",
+      "jaḍamohe matta sadā duramati—",
+      "biṣayīra kāche theke theke āmi",
+      "ha·inu biṣayīpārā 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tomāra bhajane nā janmila rati,",
+      "jaḓamohe matta sadā duramati—",
+      "biṣayīra kāche theke theke āmi",
+      "ha·inu biṣayīpārā 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "ke āmi, kena ye esechi ekhāne,",
+    "se[FLAG_HYPHEN_ALPHA]kathā kakhano nāhi bhābi mane,",
+    "kakhano bhogera, kakhano tyāgera",
+    "chalanāya mana nāce 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Who am I? Why have I come here? My mind never ponders these questions. Sometimes enjoying and sometimes renouncing, my mind only dances in beguilement."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ke",
+       "who"
+      ],
+      [
+       "āmi",
+       "I"
+      ],
+      [
+       "kena",
+       "why"
+      ],
+      [
+       "ye",
+       "the (matters)"
+      ],
+      [
+       "esechi",
+       "I have come"
+      ],
+      [
+       "ekhāne",
+       "here"
+      ],
+      [
+       "se",
+       "those"
+      ],
+      [
+       "kathā",
+       "matters"
+      ],
+      [
+       "kakhano nāhi",
+       "never"
+      ],
+      [
+       "bhābi",
+       "I ponder"
+      ],
+      [
+       "mane",
+       "in the mind"
+      ],
+      [
+       "kakhano",
+       "sometimes"
+      ],
+      [
+       "bhogera",
+       "by enjoyment"
+      ],
+      [
+       "kakhano",
+       "sometimes"
+      ],
+      [
+       "tyāgera",
+       "by renounciation"
+      ],
+      [
+       "chalanāya",
+       "in beguilement"
+      ],
+      [
+       "mana",
+       "mind"
+      ],
+      [
+       "nāce",
+       "dances"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "कॆ",
+       "who"
+      ],
+      [
+       "आमि",
+       "I"
+      ],
+      [
+       "कॆन",
+       "why"
+      ],
+      [
+       "यॆ",
+       "the (matters)"
+      ],
+      [
+       "ऎसॆछि",
+       "I have come"
+      ],
+      [
+       "ऎखानॆ",
+       "here"
+      ],
+      [
+       "सॆ",
+       "those"
+      ],
+      [
+       "कथा",
+       "matters"
+      ],
+      [
+       "कखनॊ नाहि",
+       "never"
+      ],
+      [
+       "भाबि",
+       "I ponder"
+      ],
+      [
+       "मनॆ",
+       "in the mind"
+      ],
+      [
+       "कखनॊ",
+       "sometimes"
+      ],
+      [
+       "भॊगॆर",
+       "by enjoyment"
+      ],
+      [
+       "कखनॊ",
+       "sometimes"
+      ],
+      [
+       "त्यागॆर",
+       "by renounciation"
+      ],
+      [
+       "छलनाय",
+       "in beguilement"
+      ],
+      [
+       "मन",
+       "mind"
+      ],
+      [
+       "नाचॆ",
+       "dances"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "কে",
+       "who"
+      ],
+      [
+       "আমি",
+       "I"
+      ],
+      [
+       "কেন",
+       "why"
+      ],
+      [
+       "যে",
+       "the (matters)"
+      ],
+      [
+       "এসেছি",
+       "I have come"
+      ],
+      [
+       "এখানে",
+       "here"
+      ],
+      [
+       "সে",
+       "those"
+      ],
+      [
+       "কথা",
+       "matters"
+      ],
+      [
+       "কখনো নাহি",
+       "never"
+      ],
+      [
+       "ভাবি",
+       "I ponder"
+      ],
+      [
+       "মনে",
+       "in the mind"
+      ],
+      [
+       "কখনো",
+       "sometimes"
+      ],
+      [
+       "ভোগের",
+       "by enjoyment"
+      ],
+      [
+       "কখনো",
+       "sometimes"
+      ],
+      [
+       "ত্যাগের",
+       "by renounciation"
+      ],
+      [
+       "ছলনায়",
+       "in beguilement"
+      ],
+      [
+       "মন",
+       "mind"
+      ],
+      [
+       "নাচে",
+       "dances"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "કે",
+       "who"
+      ],
+      [
+       "આમિ",
+       "I"
+      ],
+      [
+       "કેન",
+       "why"
+      ],
+      [
+       "યે",
+       "the (matters)"
+      ],
+      [
+       "એસેછિ",
+       "I have come"
+      ],
+      [
+       "એખાને",
+       "here"
+      ],
+      [
+       "સે",
+       "those"
+      ],
+      [
+       "કથા",
+       "matters"
+      ],
+      [
+       "કખનો નાહિ",
+       "never"
+      ],
+      [
+       "ભાબિ",
+       "I ponder"
+      ],
+      [
+       "મને",
+       "in the mind"
+      ],
+      [
+       "કખનો",
+       "sometimes"
+      ],
+      [
+       "ભોગેર",
+       "by enjoyment"
+      ],
+      [
+       "કખનો",
+       "sometimes"
+      ],
+      [
+       "ત્યાગેર",
+       "by renounciation"
+      ],
+      [
+       "છલનાય",
+       "in beguilement"
+      ],
+      [
+       "મન",
+       "mind"
+      ],
+      [
+       "નાચે",
+       "dances"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कॆ आमि, कॆन यॆ ऎसॆछि ऎखानॆ,",
+      "सॆकथा कखनॊ नाहि भाबि मनॆ,",
+      "कखनॊ भॊगॆर, कखनॊ त्यागॆर",
+      "छलनाय मन नाचॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কে আমি, কেন যে এসেছি এখানে,",
+      "সেকথা কখনো নাহি ভাবি মনে,",
+      "কখনো ভোগের, কখনো ত্যাগের",
+      "ছলনায় মন নাচে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କେ ଆମି, କେନ ଯେ ଏସେଛି ଏଖାନେ,",
+      "ସେକଥା କଖନୋ ନାହି ଭାବି ମନେ,",
+      "କଖନୋ ଭୋଗେର, କଖନୋ ତ୍ୟାଗେର",
+      "ଛଲନାୟ ମନ ନାଚେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કે આમિ, કેન યે એસેછિ એખાને,",
+      "સેકથા કખનો નાહિ ભાબિ મને,",
+      "કખનો ભોગેર, કખનો ત્યાગેર",
+      "છલનાય મન નાચે ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ke āmi, kena ye esechi ekhāne,",
+      "se-kathā kakhano nāhi bhābi mane,",
+      "kakhano bhogera, kakhano tyāgera",
+      "chalanāya mana nāce 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕೆ ಆಮಿ, ಕೆನ ಯೆ ಎಸೆಛಿ ಎಖಾನೆ,",
+      "ಸೆಕಥಾ ಕಖನೊ ನಾಹಿ ಭಾಬಿ ಮನೆ,",
+      "ಕಖನೊ ಭೊಗೆರ, ಕಖನೊ ತ್ಯಾಗೆರ",
+      "ಛಲನಾಯ ಮನ ನಾಚೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కె ఆమి, కెన యె ఎసెఛి ఎఖానె,",
+      "సెకథా కఖనొ నాహి భాబి మనె,",
+      "కఖనొ భొగెర, కఖనొ త్యాగెర",
+      "ఛలనాయ మన నాచె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кэ̆ а̄ми, кэ̆на йэ̆ э̆сэ̆чхи э̆кха̄нэ̆,",
+      "сэ̆катха̄ какхано̆ на̄хи бха̄би манэ̆,",
+      "какхано̆ бхо̆гэ̆ра, какхано̆ тйа̄гэ̆ра",
+      "чхалана̄йа мана на̄чэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കെ ആമി, കെന യെ എസെഛി എഖാനെ,",
+      "സെകഥാ കഖനൊ നാഹി ഭാബി മനെ,",
+      "കഖനൊ ഭൊഗെര, കഖനൊ ത്യാഗെര",
+      "ഛലനായ മന നാചെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கெ ஆமி, கென யெ எஸெசி² எகா²னெ,",
+      "ஸெகதா² கக²னொ நாஹி பா⁴பி³ மனெ,",
+      "கக²னொ பொ⁴கெ³ர, கக²னொ த்யாகெ³ர",
+      "ச²லனாய மன நாசெ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ke āmi, kena ye esechi ekhāne,",
+      "se-kathā kakhano nāhi bhābi mane,",
+      "kakhano bhogera, kakhano tyāgera",
+      "chalanāya mana nāce 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ke āmi, kena ye esechi ekhāne,",
+      "se-kathā kakhano nāhi bhābi mane,",
+      "kakhano bhogera, kakhano tyāgera",
+      "chalanāya mana nāce 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "ki gati ha·ibe, kakhano bhābi nā,",
+    "hari[FLAG_HYPHEN_ALPHA]bhakatera kācheo yāi nā,",
+    "hari[FLAG_HYPHEN_ALPHA]bimukhera kulakṣaṇa yata",
+    "āmātei saba āche 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "I never contemplate what my outcome will be. I do not even go near the devotees of Hari. All the inauspicious symptoms of one who opposes Hari are within me."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ki",
+       "what"
+      ],
+      [
+       "gati",
+       "outcome"
+      ],
+      [
+       "ha·ibe",
+       "will be"
+      ],
+      [
+       "kakhano",
+       "ever"
+      ],
+      [
+       "bhābi",
+       "contemplate"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "hari bhakatera",
+       "Hari’s devotee’s"
+      ],
+      [
+       "kācheo",
+       "near + even"
+      ],
+      [
+       "yāi",
+       "I go"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "hari bimukhera",
+       "of those who are opposed to Hari"
+      ],
+      [
+       "kulakṣaṇa",
+       "inauspicious symptoms"
+      ],
+      [
+       "yata",
+       "whatever"
+      ],
+      [
+       "āmātei",
+       "within me"
+      ],
+      [
+       "saba",
+       "all"
+      ],
+      [
+       "āche",
+       "they are there"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "कि",
+       "what"
+      ],
+      [
+       "गति",
+       "outcome"
+      ],
+      [
+       "हइबॆ",
+       "will be"
+      ],
+      [
+       "कखनॊ",
+       "ever"
+      ],
+      [
+       "भाबि",
+       "contemplate"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "हरि भकतॆर",
+       "Hari’s devotee’s"
+      ],
+      [
+       "काछॆऒ",
+       "near + even"
+      ],
+      [
+       "याइ",
+       "I go"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "हरि बिमुखॆर",
+       "of those who are opposed to Hari"
+      ],
+      [
+       "कुलक्षण",
+       "inauspicious symptoms"
+      ],
+      [
+       "यत",
+       "whatever"
+      ],
+      [
+       "आमातॆइ",
+       "within me"
+      ],
+      [
+       "सब",
+       "all"
+      ],
+      [
+       "आछॆ",
+       "they are there"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "কি",
+       "what"
+      ],
+      [
+       "গতি",
+       "outcome"
+      ],
+      [
+       "হইবে",
+       "will be"
+      ],
+      [
+       "কখনো",
+       "ever"
+      ],
+      [
+       "ভাবি",
+       "contemplate"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "হরি ভকতের",
+       "Hari’s devotee’s"
+      ],
+      [
+       "কাছেও",
+       "near + even"
+      ],
+      [
+       "যাই",
+       "I go"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "হরি বিমুখের",
+       "of those who are opposed to Hari"
+      ],
+      [
+       "কুলক্ষণ",
+       "inauspicious symptoms"
+      ],
+      [
+       "যত",
+       "whatever"
+      ],
+      [
+       "আমাতেই",
+       "within me"
+      ],
+      [
+       "সব",
+       "all"
+      ],
+      [
+       "আছে",
+       "they are there"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "કિ",
+       "what"
+      ],
+      [
+       "ગતિ",
+       "outcome"
+      ],
+      [
+       "હઇબે",
+       "will be"
+      ],
+      [
+       "કખનો",
+       "ever"
+      ],
+      [
+       "ભાબિ",
+       "contemplate"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "હરિ ભકતેર",
+       "Hari’s devotee’s"
+      ],
+      [
+       "કાછેઓ",
+       "near + even"
+      ],
+      [
+       "યાઇ",
+       "I go"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "હરિ બિમુખેર",
+       "of those who are opposed to Hari"
+      ],
+      [
+       "કુલક્ષણ",
+       "inauspicious symptoms"
+      ],
+      [
+       "યત",
+       "whatever"
+      ],
+      [
+       "આમાતેઇ",
+       "within me"
+      ],
+      [
+       "સબ",
+       "all"
+      ],
+      [
+       "આછે",
+       "they are there"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कि गति हइबॆ, कखनॊ भाबि ना,",
+      "हरिभकतॆर काछॆऒ याइ ना,",
+      "हरिबिमुखॆर कुलक्षण यत",
+      "आमातॆइ सब आछॆ ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কি গতি হইবে, কখনো ভাবি না,",
+      "হরিভকতের কাছেও যাই না,",
+      "হরিবিমুখের কুলক্ষণ যত",
+      "আমাতেই সব আছে ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କି ଗତି ହଇବେ, କଖନୋ ଭାବି ନା,",
+      "ହରିଭକତେର କାଛେଓ ଯାଇ ନା,",
+      "ହରିବିମୁଖେର କୁଲକ୍ଷଣ ଯତ",
+      "ଆମାତେଇ ସବ ଆଛେ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કિ ગતિ હઇબે, કખનો ભાબિ ના,",
+      "હરિભકતેર કાછેઓ યાઇ ના,",
+      "હરિબિમુખેર કુલક્ષણ યત",
+      "આમાતેઇ સબ આછે ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ki gati ha·ibe, kakhano bhābi nā,",
+      "hari-bhakatera kācheo yāi nā,",
+      "hari-bimukhera kulakṣaṇa yata",
+      "āmātei saba āche 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕಿ ಗತಿ ಹಇಬೆ, ಕಖನೊ ಭಾಬಿ ನಾ,",
+      "ಹರಿಭಕತೆರ ಕಾಛೆಒ ಯಾಇ ನಾ,",
+      "ಹರಿಬಿಮುಖೆರ ಕುಲಕ್ಷಣ ಯತ",
+      "ಆಮಾತೆಇ ಸಬ ಆಛೆ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కి గతి హఇబె, కఖనొ భాబి నా,",
+      "హరిభకతెర కాఛెఒ యాఇ నా,",
+      "హరిబిముఖెర కులక్షణ యత",
+      "ఆమాతెఇ సబ ఆఛె 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ки гати хаибэ̆, какхано̆ бха̄би на̄,",
+      "харибхакатэ̆ра ка̄чхэ̆о̆ йа̄и на̄,",
+      "харибимукхэ̆ра кулакшан̣а йата",
+      "а̄ма̄тэ̆и саба а̄чхэ̆ 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കി ഗതി ഹഇബെ, കഖനൊ ഭാബി നാ,",
+      "ഹരിഭകതെര കാഛെഒ യാഇ നാ,",
+      "ഹരിബിമുഖെര കുലക്ഷണ യത",
+      "ആമാതെഇ സബ ആഛെ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கி க³தி ஹஇபெ³, கக²னொ பா⁴பி³ நா,",
+      "ஹரிப⁴கதெர காசெ²ஒ யாஇ நா,",
+      "ஹரிபி³முகெ²ர குலக்ஷண யத",
+      "ஆமாதெஇ ஸப³ ஆசெ² 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ki gati ha·ibe, kakhano bhābi nā,",
+      "hari-bhakatera kācheo yāi nā,",
+      "hari-bimukhera kulakṣaṇa yata",
+      "āmātei saba āche 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ki gati ha·ibe, kakhano bhābi nā,",
+      "hari-bhakatera kācheo yāi nā,",
+      "hari-bimukhera kulakṣaṇa yata",
+      "āmātei saba āche 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "śrīguru[FLAG_HYPHEN_ALPHA]kṛpāya bheṅgeche sbapana,",
+    "bujhechi ekhana tumii āpana,",
+    "taba nija[FLAG_HYPHEN_ALPHA]jana parama bāndhaba",
+    "saṁsāra[FLAG_HYPHEN_ALPHA]kārāgāre 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "By śrī guru’s grace my illusory dream has been broken. I now understand that You alone are mine and that Your associates are my greatest friends in this prison house of material existence."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śrīguru",
+       "śrī guru"
+      ],
+      [
+       "kṛpāya",
+       "by grace"
+      ],
+      [
+       "bheṅgeche",
+       "has broken"
+      ],
+      [
+       "sbapana",
+       "dream"
+      ],
+      [
+       "bujhechi",
+       "I understood"
+      ],
+      [
+       "ekhana",
+       "now"
+      ],
+      [
+       "tumii",
+       "You alone"
+      ],
+      [
+       "āpana",
+       "mine"
+      ],
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "nija jana",
+       "personal associates"
+      ],
+      [
+       "parama",
+       "greatest"
+      ],
+      [
+       "bāndhaba",
+       "friends"
+      ],
+      [
+       "saṁsāra",
+       "material existence"
+      ],
+      [
+       "kārāgāre",
+       "in the prison house"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "श्रीगुरु",
+       "śrī guru"
+      ],
+      [
+       "क्ड़्पाय",
+       "by grace"
+      ],
+      [
+       "भॆङ्गॆछॆ",
+       "has broken"
+      ],
+      [
+       "स्बपन",
+       "dream"
+      ],
+      [
+       "बुझॆछि",
+       "I understood"
+      ],
+      [
+       "ऎखन",
+       "now"
+      ],
+      [
+       "तुमिइ",
+       "You alone"
+      ],
+      [
+       "आपन",
+       "mine"
+      ],
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "निज जन",
+       "personal associates"
+      ],
+      [
+       "परम",
+       "greatest"
+      ],
+      [
+       "बान्धब",
+       "friends"
+      ],
+      [
+       "संसार",
+       "material existence"
+      ],
+      [
+       "कारागारॆ",
+       "in the prison house"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শ্রীগুরু",
+       "śrī guru"
+      ],
+      [
+       "ক্ড়্পায়",
+       "by grace"
+      ],
+      [
+       "ভেঙ্গেছে",
+       "has broken"
+      ],
+      [
+       "স্বপন",
+       "dream"
+      ],
+      [
+       "বুঝেছি",
+       "I understood"
+      ],
+      [
+       "এখন",
+       "now"
+      ],
+      [
+       "তুমিই",
+       "You alone"
+      ],
+      [
+       "আপন",
+       "mine"
+      ],
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "নিজ জন",
+       "personal associates"
+      ],
+      [
+       "পরম",
+       "greatest"
+      ],
+      [
+       "বান্ধব",
+       "friends"
+      ],
+      [
+       "সংসার",
+       "material existence"
+      ],
+      [
+       "কারাগারে",
+       "in the prison house"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શ્રીગુરુ",
+       "śrī guru"
+      ],
+      [
+       "ક્ડ઼્પાય",
+       "by grace"
+      ],
+      [
+       "ભેઙ્ગેછે",
+       "has broken"
+      ],
+      [
+       "સ્બપન",
+       "dream"
+      ],
+      [
+       "બુઝેછિ",
+       "I understood"
+      ],
+      [
+       "એખન",
+       "now"
+      ],
+      [
+       "તુમિઇ",
+       "You alone"
+      ],
+      [
+       "આપન",
+       "mine"
+      ],
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "નિજ જન",
+       "personal associates"
+      ],
+      [
+       "પરમ",
+       "greatest"
+      ],
+      [
+       "બાન્ધબ",
+       "friends"
+      ],
+      [
+       "સંસાર",
+       "material existence"
+      ],
+      [
+       "કારાગારે",
+       "in the prison house"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्रीगुरुक्ड़्पाय भॆङ्गॆछॆ स्बपन,",
+      "बुझॆछि ऎखन तुमिइ आपन,",
+      "तब निजजन परम बान्धब",
+      "संसारकारागारॆ ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্রীগুরুক্ড়্পায় ভেঙ্গেছে স্বপন,",
+      "বুঝেছি এখন তুমিই আপন,",
+      "তব নিজজন পরম বান্ধব",
+      "সংসারকারাগারে ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ରୀଗୁରୁକ୍ଡ଼୍ପାୟ ଭେଙ୍ଗେଛେ ସ୍ବପନ,",
+      "ବୁଝେଛି ଏଖନ ତୁମିଇ ଆପନ,",
+      "ତବ ନିଜଜନ ପରମ ବାନ୍ଧବ",
+      "ସଂସାରକାରାଗାରେ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્રીગુરુક્ડ઼્પાય ભેઙ્ગેછે સ્બપન,",
+      "બુઝેછિ એખન તુમિઇ આપન,",
+      "તબ નિજજન પરમ બાન્ધબ",
+      "સંસારકારાગારે ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śrīguru-kṛpāya bheṅgeche sbapana,",
+      "bujhechi ekhana tumii āpana,",
+      "taba nija-jana parama bāndhaba",
+      "saṁsāra-kārāgāre 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ರೀಗುರುಕ್‌ಡ಼್ಪಾಯ ಭೆಂಗೆಛೆ ಸ್ಬಪನ,",
+      "ಬುಝೆಛಿ ಎಖನ ತುಮಿಇ ಆಪನ,",
+      "ತಬ ನಿಜಜನ ಪರಮ ಬಾಂಧಬ",
+      "ಸಂಸಾರಕಾರಾಗಾರೆ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్రీగురుక్డ్పాయ భెంగెఛె స్బపన,",
+      "బుఝెఛి ఎఖన తుమిఇ ఆపన,",
+      "తబ నిజజన పరమ బాంధబ",
+      "సంసారకారాగారె 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́рӣгурукр̤па̄йа бхэ̆н̇гэ̆чхэ̆ сбапана,",
+      "буджхэ̆чхи э̆кхана тумии а̄пана,",
+      "таба ниджаджана парама ба̄ндхаба",
+      "сам̣са̄рака̄ра̄га̄рэ̆ 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്രീഗുരുക്ഡ്പായ ഭെംഗെഛെ സ്ബപന,",
+      "ബുഝെഛി എഖന തുമിഇ ആപന,",
+      "തബ നിജജന പരമ ബാന്ധബ",
+      "സംസാരകാരാഗാരെ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்ரீகு³ருக்ஃட்²பாய பெ⁴ங்கெ³செ² ஸ்ப³பன,",
+      "பு³ஜெ²சி² எக²ன துமிஇ ஆபன,",
+      "தப³ நிஜஜன பரம பா³ந்த⁴ப³",
+      "ஸம்ʼஸாரகாராகா³ரெ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śrīguru-kṛpāya bheṅgeche sbapana,",
+      "bujhechi ekhana tumii āpana,",
+      "taba nija-jana parama bāndhaba",
+      "saṁsāra-kārāgāre 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śrīguru-kṛpāya bheṅgeche sbapana,",
+      "bujhechi ekhana tumii āpana,",
+      "taba nija-jana parama bāndhaba",
+      "saṁsāra-kārāgāre 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "āna nā bhajiba bhakta[FLAG_HYPHEN_ALPHA]pada binu,",
+    "rātula caraṇe śaraṇa la·inu,",
+    "uddhāraha nātha! māyājāla ha’te",
+    "e dāsera keśe dha’re 7"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "I will not worship anything besides the feet of Your devotees. I have taken shelter of the crimson soles of Your lotus feet. O Lord! Rescue me from māyā’s entangling net by pulling this servant by the hair."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "āna",
+       "other"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "bhajiba",
+       "I will worship"
+      ],
+      [
+       "bhakta pada",
+       "the feet of devotees"
+      ],
+      [
+       "binu",
+       "without"
+      ],
+      [
+       "rātula",
+       "reddish"
+      ],
+      [
+       "caraṇe",
+       "of feet"
+      ],
+      [
+       "śaraṇa",
+       "shelter"
+      ],
+      [
+       "la·inu",
+       "I have taken"
+      ],
+      [
+       "uddhāraha",
+       "rescue me"
+      ],
+      [
+       "nātha",
+       "O Lord"
+      ],
+      [
+       "māyājāla",
+       "illusion + net"
+      ],
+      [
+       "ha’te",
+       "from"
+      ],
+      [
+       "e",
+       "this"
+      ],
+      [
+       "dāsera",
+       "sevant’s"
+      ],
+      [
+       "keśe",
+       "by the hair"
+      ],
+      [
+       "dha’re",
+       "holding"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "आन",
+       "other"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "भजिब",
+       "I will worship"
+      ],
+      [
+       "भक्त पद",
+       "the feet of devotees"
+      ],
+      [
+       "बिनु",
+       "without"
+      ],
+      [
+       "रातुल",
+       "reddish"
+      ],
+      [
+       "चरणॆ",
+       "of feet"
+      ],
+      [
+       "शरण",
+       "shelter"
+      ],
+      [
+       "लइनु",
+       "I have taken"
+      ],
+      [
+       "उद्धारह",
+       "rescue me"
+      ],
+      [
+       "नाथ",
+       "O Lord"
+      ],
+      [
+       "मायाजाल",
+       "illusion + net"
+      ],
+      [
+       "हऽतॆ",
+       "from"
+      ],
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "दासॆर",
+       "sevant’s"
+      ],
+      [
+       "कॆशॆ",
+       "by the hair"
+      ],
+      [
+       "धऽरॆ",
+       "holding"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "আন",
+       "other"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "ভজিব",
+       "I will worship"
+      ],
+      [
+       "ভক্ত পদ",
+       "the feet of devotees"
+      ],
+      [
+       "বিনু",
+       "without"
+      ],
+      [
+       "রাতুল",
+       "reddish"
+      ],
+      [
+       "চরণে",
+       "of feet"
+      ],
+      [
+       "শরণ",
+       "shelter"
+      ],
+      [
+       "লইনু",
+       "I have taken"
+      ],
+      [
+       "উদ্ধারহ",
+       "rescue me"
+      ],
+      [
+       "নাথ",
+       "O Lord"
+      ],
+      [
+       "মায়াজাল",
+       "illusion + net"
+      ],
+      [
+       "হঽতে",
+       "from"
+      ],
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "দাসের",
+       "sevant’s"
+      ],
+      [
+       "কেশে",
+       "by the hair"
+      ],
+      [
+       "ধঽরে",
+       "holding"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "આન",
+       "other"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "ભજિબ",
+       "I will worship"
+      ],
+      [
+       "ભક્ત પદ",
+       "the feet of devotees"
+      ],
+      [
+       "બિનુ",
+       "without"
+      ],
+      [
+       "રાતુલ",
+       "reddish"
+      ],
+      [
+       "ચરણે",
+       "of feet"
+      ],
+      [
+       "શરણ",
+       "shelter"
+      ],
+      [
+       "લઇનુ",
+       "I have taken"
+      ],
+      [
+       "ઉદ્ધારહ",
+       "rescue me"
+      ],
+      [
+       "નાથ",
+       "O Lord"
+      ],
+      [
+       "માયાજાલ",
+       "illusion + net"
+      ],
+      [
+       "હઽતે",
+       "from"
+      ],
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "દાસેર",
+       "sevant’s"
+      ],
+      [
+       "કેશે",
+       "by the hair"
+      ],
+      [
+       "ધઽરે",
+       "holding"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आन ना भजिब भक्तपद बिनु,",
+      "रातुल चरणॆ शरण लइनु,",
+      "उद्धारह नाथ! मायाजाल हऽतॆ",
+      "ऎ दासॆर कॆशॆ धऽरॆ ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আন না ভজিব ভক্তপদ বিনু,",
+      "রাতুল চরণে শরণ লইনু,",
+      "উদ্ধারহ নাথ! মায়াজাল হঽতে",
+      "এ দাসের কেশে ধঽরে ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆନ ନା ଭଜିବ ଭକ୍ତପଦ ବିନୁ,",
+      "ରାତୁଲ ଚରଣେ ଶରଣ ଲଇନୁ,",
+      "ଉଦ୍ଧାରହ ନାଥ! ମାୟାଜାଲ ହଽତେ",
+      "ଏ ଦାସେର କେଶେ ଧଽରେ ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આન ના ભજિબ ભક્તપદ બિનુ,",
+      "રાતુલ ચરણે શરણ લઇનુ,",
+      "ઉદ્ધારહ નાથ! માયાજાલ હઽતે",
+      "એ દાસેર કેશે ધઽરે ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "āna nā bhajiba bhakta-pada binu,",
+      "rātula caraṇe śaraṇa la·inu,",
+      "uddhāraha nātha! māyājāla ha’te",
+      "e dāsera keśe dha’re 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆನ ನಾ ಭಜಿಬ ಭಕ್ತಪದ ಬಿನು,",
+      "ರಾತುಲ ಚರಣೆ ಶರಣ ಲಇನು,",
+      "ಉದ್ಧಾರಹ ನಾಥ! ಮಾಯಾಜಾಲ ಹಽತೆ",
+      "ಎ ದಾಸೆರ ಕೆಶೆ ಧಽರೆ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆన నా భజిబ భక్తపద బిను,",
+      "రాతుల చరణె శరణ లఇను,",
+      "ఉద్ధారహ నాథ! మాయాజాల హఽతె",
+      "ఎ దాసెర కెశె ధఽరె 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄на на̄ бхаджиба бхактапада бину,",
+      "ра̄тула чаран̣э̆ ш́аран̣а лаину,",
+      "уддха̄раха на̄тха! ма̄йа̄джа̄ла ха'тэ̆",
+      "э̆ да̄сэ̆ра кэ̆ш́э̆ дха'рэ̆ 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആന നാ ഭജിബ ഭക്തപദ ബിനു,",
+      "രാതുല ചരണെ ശരണ ലഇനു,",
+      "ഉദ്ധാരഹ നാഥ! മായാജാല ഹഽതെ",
+      "എ ദാസെര കെശെ ധഽരെ 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆன நா ப⁴ஜிப³ ப⁴க்தபத³ பி³னு,",
+      "ராதுல சரணெ ஶரண லஇனு,",
+      "உத்³தா⁴ரஹ நாத²! மாயாஜால ஹ(அ)தெ",
+      "எ தா³ஸெர கெஶெ த⁴(அ)ரெ 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "āna nā bhajiba bhakta-pada binu,",
+      "rātula caraṇe śaraṇa la·inu,",
+      "uddhāraha nātha! māyājāla ha’te",
+      "e dāsera keśe dha’re 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "āna nā bhajiba bhakta-pada binu,",
+      "rātula caraṇe śaraṇa la·inu,",
+      "uddhāraha nātha! māyājāla ha’te",
+      "e dāsera keśe dha’re 7"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 8,
+   "source_text_master": [
+    "pātakīre tumi kṛpā kara nāki?",
+    "jagāi[FLAG_HYPHEN_ALPHA]mādhāi chila ye pātakī,",
+    "tāhāte jenechi,—premera ṭhākura!",
+    "pātakīreo tāra tumi 8"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Do you not deliver the sinners? Jagāi and Mādhāi were sinners [and you delivered them], so, Lord of prema, I know that it's true, you do indeed deliver the sinners [like myself]."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "pātakīre",
+       "to great sinners"
+      ],
+      [
+       "tumi",
+       "You"
+      ],
+      [
+       "kṛpā kara",
+       "give mercy"
+      ],
+      [
+       "nāki?",
+       "or not"
+      ],
+      [
+       "jagāi mādhāi",
+       "Jagāi and Mādhāi"
+      ],
+      [
+       "chila",
+       "were"
+      ],
+      [
+       "ye",
+       "such"
+      ],
+      [
+       "pātakī",
+       "great sinners"
+      ],
+      [
+       "tāhāte",
+       "by that"
+      ],
+      [
+       "jenechi",
+       "I have realized"
+      ],
+      [
+       "premera ṭhākura",
+       "O Lord of Prema"
+      ],
+      [
+       "pātakīreo",
+       "to great sinners + indeed"
+      ],
+      [
+       "tāra",
+       "deliver"
+      ],
+      [
+       "tumi",
+       "You"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "पातकीरॆ",
+       "to great sinners"
+      ],
+      [
+       "तुमि",
+       "You"
+      ],
+      [
+       "क्ड़्पा कर",
+       "give mercy"
+      ],
+      [
+       "नाकि?",
+       "or not"
+      ],
+      [
+       "जगाइ माधाइ",
+       "Jagāi and Mādhāi"
+      ],
+      [
+       "छिल",
+       "were"
+      ],
+      [
+       "यॆ",
+       "such"
+      ],
+      [
+       "पातकी",
+       "great sinners"
+      ],
+      [
+       "ताहातॆ",
+       "by that"
+      ],
+      [
+       "जॆनॆछि",
+       "I have realized"
+      ],
+      [
+       "प्रॆमॆर ठाकुर",
+       "O Lord of Prema"
+      ],
+      [
+       "पातकीरॆऒ",
+       "to great sinners + indeed"
+      ],
+      [
+       "तार",
+       "deliver"
+      ],
+      [
+       "तुमि",
+       "You"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "পাতকীরে",
+       "to great sinners"
+      ],
+      [
+       "তুমি",
+       "You"
+      ],
+      [
+       "ক্ড়্পা কর",
+       "give mercy"
+      ],
+      [
+       "নাকি?",
+       "or not"
+      ],
+      [
+       "জগাই মাধাই",
+       "Jagāi and Mādhāi"
+      ],
+      [
+       "ছিল",
+       "were"
+      ],
+      [
+       "যে",
+       "such"
+      ],
+      [
+       "পাতকী",
+       "great sinners"
+      ],
+      [
+       "তাহাতে",
+       "by that"
+      ],
+      [
+       "জেনেছি",
+       "I have realized"
+      ],
+      [
+       "প্রেমের ঠাকুর",
+       "O Lord of Prema"
+      ],
+      [
+       "পাতকীরেও",
+       "to great sinners + indeed"
+      ],
+      [
+       "তার",
+       "deliver"
+      ],
+      [
+       "তুমি",
+       "You"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "પાતકીરે",
+       "to great sinners"
+      ],
+      [
+       "તુમિ",
+       "You"
+      ],
+      [
+       "ક્ડ઼્પા કર",
+       "give mercy"
+      ],
+      [
+       "નાકિ?",
+       "or not"
+      ],
+      [
+       "જગાઇ માધાઇ",
+       "Jagāi and Mādhāi"
+      ],
+      [
+       "છિલ",
+       "were"
+      ],
+      [
+       "યે",
+       "such"
+      ],
+      [
+       "પાતકી",
+       "great sinners"
+      ],
+      [
+       "તાહાતે",
+       "by that"
+      ],
+      [
+       "જેનેછિ",
+       "I have realized"
+      ],
+      [
+       "પ્રેમેર ઠાકુર",
+       "O Lord of Prema"
+      ],
+      [
+       "પાતકીરેઓ",
+       "to great sinners + indeed"
+      ],
+      [
+       "તાર",
+       "deliver"
+      ],
+      [
+       "તુમિ",
+       "You"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "पातकीरॆ तुमि क्ड़्पा कर नाकि?",
+      "जगाइमाधाइ छिल यॆ पातकी,",
+      "ताहातॆ जॆनॆछि,—प्रॆमॆर ठाकुर!",
+      "पातकीरॆऒ तार तुमि ८"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "পাতকীরে তুমি ক্ড়্পা কর নাকি?",
+      "জগাইমাধাই ছিল যে পাতকী,",
+      "তাহাতে জেনেছি,—প্রেমের ঠাকুর!",
+      "পাতকীরেও তার তুমি ৮"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପାତକୀରେ ତୁମି କ୍ଡ଼୍ପା କର ନାକି?",
+      "ଜଗାଇମାଧାଇ ଛିଲ ଯେ ପାତକୀ,",
+      "ତାହାତେ ଜେନେଛି,—ପ୍ରେମେର ଠାକୁର!",
+      "ପାତକୀରେଓ ତାର ତୁମି ୮"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પાતકીરે તુમિ ક્ડ઼્પા કર નાકિ?",
+      "જગાઇમાધાઇ છિલ યે પાતકી,",
+      "તાહાતે જેનેછિ,—પ્રેમેર ઠાકુર!",
+      "પાતકીરેઓ તાર તુમિ ૮"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "pātakīre tumi kṛpā kara nāki?",
+      "jagāi-mādhāi chila ye pātakī,",
+      "tāhāte jenechi,—premera ṭhākura!",
+      "pātakīreo tāra tumi 8"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪಾತಕೀರೆ ತುಮಿ ಕ್‌ಡ಼್ಪಾ ಕರ ನಾಕಿ?",
+      "ಜಗಾಇಮಾಧಾಇ ಛಿಲ ಯೆ ಪಾತಕೀ,",
+      "ತಾಹಾತೆ ಜೆನೆಛಿ,—ಪ್ರೆಮೆರ ಠಾಕುರ!",
+      "ಪಾತಕೀರೆಒ ತಾರ ತುಮಿ ೮"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "పాతకీరె తుమి క్డ్పా కర నాకి?",
+      "జగాఇమాధాఇ ఛిల యె పాతకీ,",
+      "తాహాతె జెనెఛి,—ప్రెమెర ఠాకుర!",
+      "పాతకీరెఒ తార తుమి 8"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "па̄такӣрэ̆ туми кр̤па̄ кара на̄ки?",
+      "джага̄има̄дха̄и чхила йэ̆ па̄такӣ,",
+      "та̄ха̄тэ̆ джэ̆нэ̆чхи,—прэ̆мэ̆ра т̣ха̄кура!",
+      "па̄такӣрэ̆о̆ та̄ра туми 8"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പാതകീരെ തുമി ക്ഡ്പാ കര നാകി?",
+      "ജഗാഇമാധാഇ ഛില യെ പാതകീ,",
+      "താഹാതെ ജെനെഛി,—പ്രെമെര ഠാകുര!",
+      "പാതകീരെഒ താര തുമി 8"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பாதகீரெ துமி க்ஃட்²பா கர நாகி?",
+      "ஜகா³இமாதா⁴இ சி²ல யெ பாதகீ,",
+      "தாஹாதெ ஜெனெசி²,—ப்ரெமெர டா²குர!",
+      "பாதகீரெஒ தார துமி 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "pātakīre tumi kṛpā kara nāki?",
+      "jagāi-mādhāi chila ye pātakī,",
+      "tāhāte jenechi,—premera ṭhākura!",
+      "pātakīreo tāra tumi 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "pātakīre tumi kṛpā kara nāki?",
+      "jagāi-mādhāi chila ye pātakī,",
+      "tāhāte jenechi,—premera ṭhākura!",
+      "pātakīreo tāra tumi 8"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 9,
+   "source_text_master": [
+    "āmi bhaktihīna, dīna, akiñcana—",
+    "aparādhī[FLAG_HYPHEN_ALPHA]śire dāo du’caraṇa,",
+    "tomāra abhaya śrīcaraṇe cira[FLAG_HYPHEN_ALPHA]",
+    "śaraṇa la·inu āmi 9"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "I am devoid of bhakti, wretched and destitute. Place both Your lotus feet upon the head of this offender. At Your beautiful feet, which instill fearlessness, I take eternal shelter."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "āmi",
+       "I"
+      ],
+      [
+       "bhaktihīna",
+       "devotion + devoid of"
+      ],
+      [
+       "dīna",
+       "wretched"
+      ],
+      [
+       "akiñcana",
+       "destitute"
+      ],
+      [
+       "aparādhī",
+       "offender"
+      ],
+      [
+       "śire",
+       "on the head"
+      ],
+      [
+       "dāo",
+       "give"
+      ],
+      [
+       "du’caraṇa",
+       "two + feet"
+      ],
+      [
+       "tomāra",
+       "Your"
+      ],
+      [
+       "abhaya",
+       "fearlessness"
+      ],
+      [
+       "śrīcaraṇe",
+       "at the beautiful feet"
+      ],
+      [
+       "cira",
+       "eternal"
+      ],
+      [
+       "śaraṇa",
+       "shelter"
+      ],
+      [
+       "la·inu",
+       "have taken"
+      ],
+      [
+       "āmi",
+       "I"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "आमि",
+       "I"
+      ],
+      [
+       "भक्तिहीन",
+       "devotion + devoid of"
+      ],
+      [
+       "दीन",
+       "wretched"
+      ],
+      [
+       "अकिञ्चन",
+       "destitute"
+      ],
+      [
+       "अपराधी",
+       "offender"
+      ],
+      [
+       "शिरॆ",
+       "on the head"
+      ],
+      [
+       "दाऒ",
+       "give"
+      ],
+      [
+       "दुऽचरण",
+       "two + feet"
+      ],
+      [
+       "तॊमार",
+       "Your"
+      ],
+      [
+       "अभय",
+       "fearlessness"
+      ],
+      [
+       "श्रीचरणॆ",
+       "at the beautiful feet"
+      ],
+      [
+       "चिर",
+       "eternal"
+      ],
+      [
+       "शरण",
+       "shelter"
+      ],
+      [
+       "लइनु",
+       "have taken"
+      ],
+      [
+       "आमि",
+       "I"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "আমি",
+       "I"
+      ],
+      [
+       "ভক্তিহীন",
+       "devotion + devoid of"
+      ],
+      [
+       "দীন",
+       "wretched"
+      ],
+      [
+       "অকিঞ্চন",
+       "destitute"
+      ],
+      [
+       "অপরাধী",
+       "offender"
+      ],
+      [
+       "শিরে",
+       "on the head"
+      ],
+      [
+       "দাও",
+       "give"
+      ],
+      [
+       "দুঽচরণ",
+       "two + feet"
+      ],
+      [
+       "তোমার",
+       "Your"
+      ],
+      [
+       "অভয়",
+       "fearlessness"
+      ],
+      [
+       "শ্রীচরণে",
+       "at the beautiful feet"
+      ],
+      [
+       "চির",
+       "eternal"
+      ],
+      [
+       "শরণ",
+       "shelter"
+      ],
+      [
+       "লইনু",
+       "have taken"
+      ],
+      [
+       "আমি",
+       "I"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "આમિ",
+       "I"
+      ],
+      [
+       "ભક્તિહીન",
+       "devotion + devoid of"
+      ],
+      [
+       "દીન",
+       "wretched"
+      ],
+      [
+       "અકિઞ્ચન",
+       "destitute"
+      ],
+      [
+       "અપરાધી",
+       "offender"
+      ],
+      [
+       "શિરે",
+       "on the head"
+      ],
+      [
+       "દાઓ",
+       "give"
+      ],
+      [
+       "દુઽચરણ",
+       "two + feet"
+      ],
+      [
+       "તોમાર",
+       "Your"
+      ],
+      [
+       "અભય",
+       "fearlessness"
+      ],
+      [
+       "શ્રીચરણે",
+       "at the beautiful feet"
+      ],
+      [
+       "ચિર",
+       "eternal"
+      ],
+      [
+       "શરણ",
+       "shelter"
+      ],
+      [
+       "લઇનુ",
+       "have taken"
+      ],
+      [
+       "આમિ",
+       "I"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आमि भक्तिहीन, दीन, अकिञ्चन—",
+      "अपराधीशिरॆ दाऒ दुऽचरण,",
+      "तॊमार अभय श्रीचरणॆ चिर",
+      "शरण लइनु आमि ९"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আমি ভক্তিহীন, দীন, অকিঞ্চন—",
+      "অপরাধীশিরে দাও দুঽচরণ,",
+      "তোমার অভয় শ্রীচরণে চির",
+      "শরণ লইনু আমি ৯"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆମି ଭକ୍ତିହୀନ, ଦୀନ, ଅକିଞ୍ଚନ—",
+      "ଅପରାଧୀଶିରେ ଦାଓ ଦୁଽଚରଣ,",
+      "ତୋମାର ଅଭୟ ଶ୍ରୀଚରଣେ ଚିର",
+      "ଶରଣ ଲଇନୁ ଆମି ୯"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આમિ ભક્તિહીન, દીન, અકિઞ્ચન—",
+      "અપરાધીશિરે દાઓ દુઽચરણ,",
+      "તોમાર અભય શ્રીચરણે ચિર",
+      "શરણ લઇનુ આમિ ૯"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "āmi bhaktihīna, dīna, akiñcana—",
+      "aparādhī-śire dāo du’caraṇa,",
+      "tomāra abhaya śrīcaraṇe cira-",
+      "śaraṇa la·inu āmi 9"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆಮಿ ಭಕ್ತಿಹೀನ, ದೀನ, ಅಕಿಂಚನ—",
+      "ಅಪರಾಧೀಶಿರೆ ದಾಒ ದುಽಚರಣ,",
+      "ತೊಮಾರ ಅಭಯ ಶ್ರೀಚರಣೆ ಚಿರ",
+      "ಶರಣ ಲಇನು ಆಮಿ ೯"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆమి భక్తిహీన, దీన, అకించన—",
+      "అపరాధీశిరె దాఒ దుఽచరణ,",
+      "తొమార అభయ శ్రీచరణె చిర",
+      "శరణ లఇను ఆమి 9"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄ми бхактихӣна, дӣна, акин̃чана—",
+      "апара̄дхӣш́ирэ̆ да̄о̆ ду'чаран̣а,",
+      "то̆ма̄ра абхайа ш́рӣчаран̣э̆ чира",
+      "ш́аран̣а лаину а̄ми 9"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആമി ഭക്തിഹീന, ദീന, അകിഞ്ചന—",
+      "അപരാധീശിരെ ദാഒ ദുഽചരണ,",
+      "തൊമാര അഭയ ശ്രീചരണെ ചിര",
+      "ശരണ ലഇനു ആമി 9"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆமி ப⁴க்திஹீன, தீ³ன, அகிஞ்சன—",
+      "அபராதீ⁴ஶிரெ தா³ஒ து³(அ)சரண,",
+      "தொமார அப⁴ய ஶ்ரீசரணெ சிர",
+      "ஶரண லஇனு ஆமி 9"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "āmi bhaktihīna, dīna, akiñcana—",
+      "aparādhī-śire dāo du’caraṇa,",
+      "tomāra abhaya śrīcaraṇe cira-",
+      "śaraṇa la·inu āmi 9"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "āmi bhaktihīna, dīna, akiñcana—",
+      "aparādhī-śire dāo du’caraṇa,",
+      "tomāra abhaya śrīcaraṇe cira-",
+      "śaraṇa la·inu āmi 9"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শ্রীসজ্জনতোষণী হইতে উদ্ধৃত ~ From an edition of Śrī Sajjana-toṣaṇī magazine"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "krsn-1",
+   "filename": "GH45-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "krsn-2",
+   "filename": "GH45-krsn-2.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "srrb-1",
+   "filename": "GH45-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  },
+  {
+   "uid": "srrb-2",
+   "filename": "GH45-srrb-2.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ],
+ "tags": [
+  "Entreaties"
+ ]
+}

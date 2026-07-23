@@ -1,0 +1,692 @@
+{
+ "uid": "GH65",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "প্রবেশিয়া অন্তঃপুরে, নারীগণে শান্ত করে"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "prabeśiyā antaḥpure, nārīgaṇe śānta kare"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "prabeśiyā antaḥpure,    nārīgaṇe śānta kare,",
+    "śrībāsa amiya[FLAG_HYPHEN_ALPHA]upadeśe",
+    "śuna pāgalinīgaṇa,    śoka kara akāraṇa,",
+    "kibā duḥkha thāke kṛṣṇābeśe 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "प्रबॆशिया अन्तःपुरॆ,    नारीगणॆ शान्त करॆ,",
+      "श्रीबास अमियौपदॆशॆ",
+      "शुन पागलिनीगण,    शॊक कर अकारण,",
+      "किबा दुःख थाकॆ क्ड़्ष्णाबॆशॆ १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "প্রবেশিয়া অন্তঃপুরে,    নারীগণে শান্ত করে,",
+      "শ্রীবাস অমিয়ৌপদেশে",
+      "শুন পাগলিনীগণ,    শোক কর অকারণ,",
+      "কিবা দুঃখ থাকে ক্ড়্ষ্ণাবেশে ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପ୍ରବେଶିୟା ଅନ୍ତଃପୁରେ,    ନାରୀଗଣେ ଶାନ୍ତ କରେ,",
+      "ଶ୍ରୀବାସ ଅମିୟୌପଦେଶେ",
+      "ଶୁନ ପାଗଲିନୀଗଣ,    ଶୋକ କର ଅକାରଣ,",
+      "କିବା ଦୁଃଖ ଥାକେ କ୍ଡ଼୍ଷ୍ଣାବେଶେ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પ્રબેશિયા અન્તઃપુરે,    નારીગણે શાન્ત કરે,",
+      "શ્રીબાસ અમિયૌપદેશે",
+      "શુન પાગલિનીગણ,    શોક કર અકારણ,",
+      "કિબા દુઃખ થાકે ક્ડ઼્ષ્ણાબેશે ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "prabeśiyā antaḥpure,    nārīgaṇe śānta kare,",
+      "śrībāsa amiya-upadeśe",
+      "śuna pāgalinīgaṇa,    śoka kara akāraṇa,",
+      "kibā duḥkha thāke kṛṣṇābeśe 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪ್ರಬೆಶಿಯಾ ಅಂತಃಪುರೆ,    ನಾರೀಗಣೆ ಶಾಂತ ಕರೆ,",
+      "ಶ್ರೀಬಾಸ ಅಮಿಯೌಪದೆಶೆ",
+      "ಶುನ ಪಾಗಲಿನೀಗಣ,    ಶೊಕ ಕರ ಅಕಾರಣ,",
+      "ಕಿಬಾ ದುಃಖ ಥಾಕೆ ಕ್‌ಡ಼್ಷ್ಣಾಬೆಶೆ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ప్రబెశియా అంతఃపురె,    నారీగణె శాంత కరె,",
+      "శ్రీబాస అమియౌపదెశె",
+      "శున పాగలినీగణ,    శొక కర అకారణ,",
+      "కిబా దుఃఖ థాకె క్డ్ష్ణాబెశె 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "прабэ̆ш́ийа̄ антах̣пурэ̆,    на̄рӣган̣э̆ ш́а̄нта карэ̆,",
+      "ш́рӣба̄са амийаупадэ̆ш́э̆",
+      "ш́уна па̄галинӣган̣а,    ш́о̆ка кара ака̄ран̣а,",
+      "киба̄ дух̣кха тха̄кэ̆ кр̤шн̣а̄бэ̆ш́э̆ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പ്രബെശിയാ അന്തഃപുരെ,    നാരീഗണെ ശാന്ത കരെ,",
+      "ശ്രീബാസ അമിയൗപദെശെ",
+      "ശുന പാഗലിനീഗണ,    ശൊക കര അകാരണ,",
+      "കിബാ ദുഃഖ ഥാകെ ക്ഡ്ഷ്ണാബെശെ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்ரபெ³ஶியா அந்த꞉புரெ,    நாரீக³ணெ ஶாந்த கரெ,",
+      "ஶ்ரீபா³ஸ அமியௌபதெ³ஶெ",
+      "ஶுன பாக³லினீக³ண,    ஶொக கர அகாரண,",
+      "கிபா³ து³꞉க² தா²கெ க்ஃட்²ஷ்ணாபெ³ஶெ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "prabeśiyā antaḥpure,    nārīgaṇe śānta kare,",
+      "śrībāsa amiya-upadeśe",
+      "śuna pāgalinīgaṇa,    śoka kara akāraṇa,",
+      "kibā duḥkha thāke kṛṣṇābeśe 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "prabeśiyā antaḥpure,    nārīgaṇe śānta kare,",
+      "śrībāsa amiya-upadeśe",
+      "śuna pāgalinīgaṇa,    śoka kara akāraṇa,",
+      "kibā duḥkha thāke kṛṣṇābeśe 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "kṛṣṇa nitya suta yā’ra,    śoka kabhu nāhi tā’ra,",
+    "anitye āsakti sarbanāśa",
+    "āsiyācha e saṁsāre,    kṛṣṇa bhajibāra tare,",
+    "nitya[FLAG_HYPHEN_ALPHA]tattbe karaha bilāsa 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "क्ड़्ष्ण नित्य सुत याऽर,    शॊक कभु नाहि ताऽर,",
+      "अनित्यॆ आसक्ति सर्बनाश",
+      "आसियाछ ऎ संसारॆ,    क्ड़्ष्ण भजिबार तरॆ,",
+      "नित्यतत्त्बॆ करह बिलास २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ক্ড়্ষ্ণ নিত্য সুত যাঽর,    শোক কভু নাহি তাঽর,",
+      "অনিত্যে আসক্তি সর্বনাশ",
+      "আসিয়াছ এ সংসারে,    ক্ড়্ষ্ণ ভজিবার তরে,",
+      "নিত্যতত্ত্বে করহ বিলাস ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କ୍ଡ଼୍ଷ୍ଣ ନିତ୍ୟ ସୁତ ଯାଽର,    ଶୋକ କଭୁ ନାହି ତାଽର,",
+      "ଅନିତ୍ୟେ ଆସକ୍ତି ସର୍ବନାଶ",
+      "ଆସିୟାଛ ଏ ସଂସାରେ,    କ୍ଡ଼୍ଷ୍ଣ ଭଜିବାର ତରେ,",
+      "ନିତ୍ୟତତ୍ତ୍ବେ କରହ ବିଲାସ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ક્ડ઼્ષ્ણ નિત્ય સુત યાઽર,    શોક કભુ નાહિ તાઽર,",
+      "અનિત્યે આસક્તિ સર્બનાશ",
+      "આસિયાછ એ સંસારે,    ક્ડ઼્ષ્ણ ભજિબાર તરે,",
+      "નિત્યતત્ત્બે કરહ બિલાસ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kṛṣṇa nitya suta yā’ra,    śoka kabhu nāhi tā’ra,",
+      "anitye āsakti sarbanāśa",
+      "āsiyācha e saṁsāre,    kṛṣṇa bhajibāra tare,",
+      "nitya-tattbe karaha bilāsa 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕ್‌ಡ಼್ಷ್ಣ ನಿತ್ಯ ಸುತ ಯಾಽರ,    ಶೊಕ ಕಭು ನಾಹಿ ತಾಽರ,",
+      "ಅನಿತ್ಯೆ ಆಸಕ್ತಿ ಸರ್ಬನಾಶ",
+      "ಆಸಿಯಾಛ ಎ ಸಂಸಾರೆ,    ಕ್‌ಡ಼್ಷ್ಣ ಭಜಿಬಾರ ತರೆ,",
+      "ನಿತ್ಯತತ್ತ್ಬೆ ಕರಹ ಬಿಲಾಸ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "క్డ్ష్ణ నిత్య సుత యాఽర,    శొక కభు నాహి తాఽర,",
+      "అనిత్యె ఆసక్తి సర్బనాశ",
+      "ఆసియాఛ ఎ సంసారె,    క్డ్ష్ణ భజిబార తరె,",
+      "నిత్యతత్త్బె కరహ బిలాస 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кр̤шн̣а нитйа сута йа̄'ра,    ш́о̆ка кабху на̄хи та̄'ра,",
+      "анитйэ̆ а̄сакти сарбана̄ш́а",
+      "а̄сийа̄чха э̆ сам̣са̄рэ̆,    кр̤шн̣а бхаджиба̄ра тарэ̆,",
+      "нитйататтбэ̆ караха била̄са 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ക്ഡ്ഷ്ണ നിത്യ സുത യാഽര,    ശൊക കഭു നാഹി താഽര,",
+      "അനിത്യെ ആസക്തി സർബനാശ",
+      "ആസിയാഛ എ സംസാരെ,    ക്ഡ്ഷ്ണ ഭജിബാര തരെ,",
+      "നിത്യതത്ത്ബെ കരഹ ബിലാസ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "க்ஃட்²ஷ்ண நித்ய ஸுத யா(அ)ர,    ஶொக கபு⁴ நாஹி தா(அ)ர,",
+      "அநித்யெ ஆஸக்தி ஸர்ப³நாஶ",
+      "ஆஸியாச² எ ஸம்ʼஸாரெ,    க்ஃட்²ஷ்ண ப⁴ஜிபா³ர தரெ,",
+      "நித்யதத்த்பெ³ கரஹ பி³லாஸ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kṛṣṇa nitya suta yā’ra,    śoka kabhu nāhi tā’ra,",
+      "anitye āsakti sarbanāśa",
+      "āsiyācha e saṁsāre,    kṛṣṇa bhajibāra tare,",
+      "nitya-tattbe karaha bilāsa 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kṛṣṇa nitya suta yā’ra,    śoka kabhu nāhi tā’ra,",
+      "anitye āsakti sarbanāśa",
+      "āsiyācha e saṁsāre,    kṛṣṇa bhajibāra tare,",
+      "nitya-tattbe karaha bilāsa 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "e dehe yābat sthiti,    kara kṛṣṇacandre rati,",
+    "kṛṣṇe jāna, dhana[FLAG_HYPHEN_ALPHA]jana[FLAG_HYPHEN_ALPHA]prāṇa",
+    "e deha[FLAG_HYPHEN_ALPHA]anuga yata,    bhāi[FLAG_HYPHEN_ALPHA]bandhu[FLAG_HYPHEN_ALPHA]pati[FLAG_HYPHEN_ALPHA]suta,",
+    "anitya sambandha bali’ māna 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎ दॆहॆ याबत् स्थिति,    कर क्ड़्ष्णचन्द्रॆ रति,",
+      "क्ड़्ष्णॆ जान, धनजनप्राण",
+      "ऎ दॆहअनुग यत,    भाइबन्धुपतिसुत,",
+      "अनित्य सम्बन्ध बलिऽ मान ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এ দেহে যাবৎ স্থিতি,    কর ক্ড়্ষ্ণচন্দ্রে রতি,",
+      "ক্ড়্ষ্ণে জান, ধনজনপ্রাণ",
+      "এ দেহঅনুগ যত,    ভাইবন্ধুপতিসুত,",
+      "অনিত্য সম্বন্ধ বলিঽ মান ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏ ଦେହେ ଯାବତ୍ ସ୍ଥିତି,    କର କ୍ଡ଼୍ଷ୍ଣଚନ୍ଦ୍ରେ ରତି,",
+      "କ୍ଡ଼୍ଷ୍ଣେ ଜାନ, ଧନଜନପ୍ରାଣ",
+      "ଏ ଦେହଅନୁଗ ଯତ,    ଭାଇବନ୍ଧୁପତିସୁତ,",
+      "ଅନିତ୍ୟ ସମ୍ବନ୍ଧ ବଲିଽ ମାନ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એ દેહે યાબત્ સ્થિતિ,    કર ક્ડ઼્ષ્ણચન્દ્રે રતિ,",
+      "ક્ડ઼્ષ્ણે જાન, ધનજનપ્રાણ",
+      "એ દેહઅનુગ યત,    ભાઇબન્ધુપતિસુત,",
+      "અનિત્ય સમ્બન્ધ બલિઽ માન ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "e dehe yābat sthiti,    kara kṛṣṇacandre rati,",
+      "kṛṣṇe jāna, dhana-jana-prāṇa",
+      "e deha-anuga yata,    bhāi-bandhu-pati-suta,",
+      "anitya sambandha bali’ māna 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎ ದೆಹೆ ಯಾಬತ್ ಸ್ಥಿತಿ,    ಕರ ಕ್‌ಡ಼್ಷ್ಣಚಂದ್ರೆ ರತಿ,",
+      "ಕ್‌ಡ಼್ಷ್ಣೆ ಜಾನ, ಧನಜನಪ್ರಾಣ",
+      "ಎ ದೆಹಅನುಗ ಯತ,    ಭಾಇಬಂಧುಪತಿಸುತ,",
+      "ಅನಿತ್ಯ ಸಂಬಂಧ ಬಲಿಽ ಮಾನ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎ దెహె యాబత్ స్థితి,    కర క్డ్ష్ణచంద్రె రతి,",
+      "క్డ్ష్ణె జాన, ధనజనప్రాణ",
+      "ఎ దెహఅనుగ యత,    భాఇబంధుపతిసుత,",
+      "అనిత్య సంబంధ బలిఽ మాన 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆ дэ̆хэ̆ йа̄бат стхити,    кара кр̤шн̣ачандрэ̆ рати,",
+      "кр̤шн̣э̆ джа̄на, дханаджанапра̄н̣а",
+      "э̆ дэ̆хаануга йата,    бха̄ибандхупатисута,",
+      "анитйа самбандха бали' ма̄на 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എ ദെഹെ യാബത് സ്ഥിതി,    കര ക്ഡ്ഷ്ണചന്ദ്രെ രതി,",
+      "ക്ഡ്ഷ്ണെ ജാന, ധനജനപ്രാണ",
+      "എ ദെഹഅനുഗ യത,    ഭാഇബന്ധുപതിസുത,",
+      "അനിത്യ സംബന്ധ ബലിഽ മാന 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எ தெ³ஹெ யாப³த் ஸ்தி²தி,    கர க்ஃட்²ஷ்ணசந்த்³ரெ ரதி,",
+      "க்ஃட்²ஷ்ணெ ஜான, த⁴னஜனப்ராண",
+      "எ தெ³ஹஅனுக³ யத,    பா⁴இப³ந்து⁴பதிஸுத,",
+      "அநித்ய ஸம்ப³ந்த⁴ ப³லி(அ) மான 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "e dehe yābat sthiti,    kara kṛṣṇacandre rati,",
+      "kṛṣṇe jāna, dhana-jana-prāṇa",
+      "e deha-anuga yata,    bhāi-bandhu-pati-suta,",
+      "anitya sambandha bali’ māna 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "e dehe yābat sthiti,    kara kṛṣṇacandre rati,",
+      "kṛṣṇe jāna, dhana-jana-prāṇa",
+      "e deha-anuga yata,    bhāi-bandhu-pati-suta,",
+      "anitya sambandha bali’ māna 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "kebā kā’ra pati[FLAG_HYPHEN_ALPHA]suta,    anitya[FLAG_HYPHEN_ALPHA]sambandha[FLAG_HYPHEN_ALPHA]kṛta,",
+    "cāhile rākhite nāre tā’re",
+    "karama[FLAG_HYPHEN_ALPHA]bipāka[FLAG_HYPHEN_ALPHA]phale,    suta ha’ye baise kole,",
+    "karmakṣaye āra raite nāre 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कॆबा काऽर पतिसुत,    अनित्यसम्बन्धक्ड़्त,",
+      "चाहिलॆ राखितॆ नारॆ ताऽरॆ",
+      "करमबिपाकफलॆ,    सुत हऽयॆ बैसॆ कॊलॆ,",
+      "कर्मक्षयॆ आर रैतॆ नारॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কেবা কাঽর পতিসুত,    অনিত্যসম্বন্ধক্ড়্ত,",
+      "চাহিলে রাখিতে নারে তাঽরে",
+      "করমবিপাকফলে,    সুত হঽয়ে বৈসে কোলে,",
+      "কর্মক্ষয়ে আর রৈতে নারে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କେବା କାଽର ପତିସୁତ,    ଅନିତ୍ୟସମ୍ବନ୍ଧକ୍ଡ଼୍ତ,",
+      "ଚାହିଲେ ରାଖିତେ ନାରେ ତାଽରେ",
+      "କରମବିପାକଫଲେ,    ସୁତ ହଽୟେ ବୈସେ କୋଲେ,",
+      "କର୍ମକ୍ଷୟେ ଆର ରୈତେ ନାରେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કેબા કાઽર પતિસુત,    અનિત્યસમ્બન્ધક્ડ઼્ત,",
+      "ચાહિલે રાખિતે નારે તાઽરે",
+      "કરમબિપાકફલે,    સુત હઽયે બૈસે કોલે,",
+      "કર્મક્ષયે આર રૈતે નારે ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kebā kā’ra pati-suta,    anitya-sambandha-kṛta,",
+      "cāhile rākhite nāre tā’re",
+      "karama-bipāka-phale,    suta ha’ye baise kole,",
+      "karmakṣaye āra raite nāre 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕೆಬಾ ಕಾಽರ ಪತಿಸುತ,    ಅನಿತ್ಯಸಂಬಂಧಕ್‌ಡ಼್ತ,",
+      "ಚಾಹಿಲೆ ರಾಖಿತೆ ನಾರೆ ತಾಽರೆ",
+      "ಕರಮಬಿಪಾಕಫಲೆ,    ಸುತ ಹಽಯೆ ಬೈಸೆ ಕೊಲೆ,",
+      "ಕರ್ಮಕ್ಷಯೆ ಆರ ರೈತೆ ನಾರೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కెబా కాఽర పతిసుత,    అనిత్యసంబంధక్డ్త,",
+      "చాహిలె రాఖితె నారె తాఽరె",
+      "కరమబిపాకఫలె,    సుత హఽయె బైసె కొలె,",
+      "కర్మక్షయె ఆర రైతె నారె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кэ̆ба̄ ка̄'ра патисута,    анитйасамбандхакр̤та,",
+      "ча̄хилэ̆ ра̄кхитэ̆ на̄рэ̆ та̄'рэ̆",
+      "карамабипа̄капхалэ̆,    сута ха'йэ̆ баисэ̆ ко̆лэ̆,",
+      "кармакшайэ̆ а̄ра раитэ̆ на̄рэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കെബാ കാഽര പതിസുത,    അനിത്യസംബന്ധക്ഡ്ത,",
+      "ചാഹിലെ രാഖിതെ നാരെ താഽരെ",
+      "കരമബിപാകഫലെ,    സുത ഹഽയെ ബൈസെ കൊലെ,",
+      "കർമക്ഷയെ ആര രൈതെ നാരെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கெபா³ கா(அ)ர பதிஸுத,    அநித்யஸம்ப³ந்த⁴க்ஃட்²த,",
+      "சாஹிலெ ராகி²தெ நாரெ தா(அ)ரெ",
+      "கரமபி³பாகப²லெ,    ஸுத ஹ(அ)யெ பை³ஸெ கொலெ,",
+      "கர்மக்ஷயெ ஆர ரைதெ நாரெ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kebā kā’ra pati-suta,    anitya-sambandha-kṛta,",
+      "cāhile rākhite nāre tā’re",
+      "karama-bipāka-phale,    suta ha’ye baise kole,",
+      "karmakṣaye āra raite nāre 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kebā kā’ra pati-suta,    anitya-sambandha-kṛta,",
+      "cāhile rākhite nāre tā’re",
+      "karama-bipāka-phale,    suta ha’ye baise kole,",
+      "karmakṣaye āra raite nāre 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "ite sukha[FLAG_HYPHEN_ALPHA]duḥkha māni’,    adhogati labhe prāṇī,",
+    "kṛṣṇapada haite paḓe dūre",
+    "śoka sambariyā ebe,    nāmānande maja’ sabe,",
+    "bhakatibinoda[FLAG_HYPHEN_ALPHA]bāñchā pūre 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "इतॆ सुखदुःख मानिऽ,    अधॊगति लभॆ प्राणी,",
+      "क्ड़्ष्णपद हैतॆ पḓऎ दूरॆ",
+      "शॊक सम्बरिया ऎबॆ,    नामानन्दॆ मजऽ सबॆ,",
+      "भकतिबिनॊदबाञ्छा पूरॆ ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ইতে সুখদুঃখ মানিঽ,    অধোগতি লভে প্রাণী,",
+      "ক্ড়্ষ্ণপদ হৈতে পḓএ দূরে",
+      "শোক সম্বরিয়া এবে,    নামানন্দে মজঽ সবে,",
+      "ভকতিবিনোদবাঞ্ছা পূরে ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଇତେ ସୁଖଦୁଃଖ ମାନିଽ,    ଅଧୋଗତି ଲଭେ ପ୍ରାଣୀ,",
+      "କ୍ଡ଼୍ଷ୍ଣପଦ ହୈତେ ପḓଏ ଦୂରେ",
+      "ଶୋକ ସମ୍ବରିୟା ଏବେ,    ନାମାନନ୍ଦେ ମଜଽ ସବେ,",
+      "ଭକତିବିନୋଦବାଞ୍ଛା ପୂରେ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઇતે સુખદુઃખ માનિઽ,    અધોગતિ લભે પ્રાણી,",
+      "ક્ડ઼્ષ્ણપદ હૈતે પḓએ દૂરે",
+      "શોક સમ્બરિયા એબે,    નામાનન્દે મજઽ સબે,",
+      "ભકતિબિનોદબાઞ્છા પૂરે ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ite sukha-duḥkha māni’,    adhogati labhe prāṇī,",
+      "kṛṣṇapada haite paḓe dūre",
+      "śoka sambariyā ebe,    nāmānande maja’ sabe,",
+      "bhakatibinoda-bāñchā pūre 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಇತೆ ಸುಖದುಃಖ ಮಾನಿಽ,    ಅಧೊಗತಿ ಲಭೆ ಪ್ರಾಣೀ,",
+      "ಕ್‌ಡ಼್ಷ್ಣಪದ ಹೈತೆ ಪḓಎ ದೂರೆ",
+      "ಶೊಕ ಸಂಬರಿಯಾ ಎಬೆ,    ನಾಮಾನಂದೆ ಮಜಽ ಸಬೆ,",
+      "ಭಕತಿಬಿನೊದಬಾಂಛಾ ಪೂರೆ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఇతె సుఖదుఃఖ మానిఽ,    అధొగతి లభె ప్రాణీ,",
+      "క్డ్ష్ణపద హైతె పḓఎ దూరె",
+      "శొక సంబరియా ఎబె,    నామానందె మజఽ సబె,",
+      "భకతిబినొదబాంఛా పూరె 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "итэ̆ сукхадух̣кха ма̄ни',    адхо̆гати лабхэ̆ пра̄н̣ӣ,",
+      "кр̤шн̣апада хаитэ̆ паḓэ̆ дӯрэ̆",
+      "ш́о̆ка самбарийа̄ э̆бэ̆,    на̄ма̄нандэ̆ маджа' сабэ̆,",
+      "бхакатибино̆даба̄н̃чха̄ пӯрэ̆ 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഇതെ സുഖദുഃഖ മാനിഽ,    അധൊഗതി ലഭെ പ്രാണീ,",
+      "ക്ഡ്ഷ്ണപദ ഹൈതെ പḓഎ ദൂരെ",
+      "ശൊക സംബരിയാ എബെ,    നാമാനന്ദെ മജഽ സബെ,",
+      "ഭകതിബിനൊദബാഞ്ഛാ പൂരെ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "இதெ ஸுக²து³꞉க² மானி(அ),    அதொ⁴க³தி லபெ⁴ ப்ராணீ,",
+      "க்ஃட்²ஷ்ணபத³ ஹைதெ பḓஎ தூ³ரெ",
+      "ஶொக ஸம்ப³ரியா எபெ³,    நாமானந்தெ³ மஜ(அ) ஸபெ³,",
+      "ப⁴கதிபி³னொத³பா³ஞ்சா² பூரெ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ite sukha-duḥkha māni’,    adhogati labhe prāṇī,",
+      "kṛṣṇapada haite paḍe dūre",
+      "śoka sambariyā ebe,    nāmānande maja’ sabe,",
+      "bhakatibinoda-bāñchā pūre 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ite sukha-duḥkha māni’,    adhogati labhe prāṇī,",
+      "kṛṣṇapada haite paḓe dūre",
+      "śoka sambariyā ebe,    nāmānande maja’ sabe,",
+      "bhakatibinoda-bāñchā pūre 5"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শোক-শাতন ২/১২"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

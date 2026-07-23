@@ -1,0 +1,1327 @@
+{
+ "uid": "GN12",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ধন মোর নিত্যানন্দ পতি মোর গৌরচন্দ্র"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "dhana mora nityānanda pati mora gauracandra"
+  }
+ ],
+ "author_uid": "ndt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Narottama dāsa Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "dhana mora nityānanda,    pati mora gauracandra,",
+    "prāṇa mora yugalakiśora",
+    "adbaita[FLAG_HYPHEN_ALPHA]ācārya bala,    gadādhara mora kula,",
+    "narahari bilasa·i mora 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Nityānanda Prabhu is my wealth, Śrī Gaura-candra is my master, and the youthful Divine Couple of Vraja are my very life. Advaita Ācārya is my strength, Gadādhara Paṇḍita is my family, and Narahari Sarakāra is my joy."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "dhana",
+       "wealth"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "nityānanda",
+       "Nityānanda Prabhu"
+      ],
+      [
+       "pati",
+       "master"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "gauracandra",
+       "the moon-like Gaura"
+      ],
+      [
+       "prāṇa",
+       "life"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "yugalakiśora",
+       "the youthful couple"
+      ],
+      [
+       "adbaita ācārya",
+       "Advaita Ācārya"
+      ],
+      [
+       "bala",
+       "strength"
+      ],
+      [
+       "gadādhara",
+       "Gadādhara Paṇḍita"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "kula",
+       "family"
+      ],
+      [
+       "narahari",
+       "Narahari Sarakāra"
+      ],
+      [
+       "bilasa·i",
+       "joy"
+      ],
+      [
+       "mora",
+       "my"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "धन",
+       "wealth"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "नित्यानन्द",
+       "Nityānanda Prabhu"
+      ],
+      [
+       "पति",
+       "master"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "गौरचन्द्र",
+       "the moon-like Gaura"
+      ],
+      [
+       "प्राण",
+       "life"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "युगलकिशॊर",
+       "the youthful couple"
+      ],
+      [
+       "अद्बैत आचार्य",
+       "Advaita Ācārya"
+      ],
+      [
+       "बल",
+       "strength"
+      ],
+      [
+       "गदाधर",
+       "Gadādhara Paṇḍita"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "कुल",
+       "family"
+      ],
+      [
+       "नरहरि",
+       "Narahari Sarakāra"
+      ],
+      [
+       "बिलसइ",
+       "joy"
+      ],
+      [
+       "मॊर",
+       "my"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ধন",
+       "wealth"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "নিত্যানন্দ",
+       "Nityānanda Prabhu"
+      ],
+      [
+       "পতি",
+       "master"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "গৌরচন্দ্র",
+       "the moon-like Gaura"
+      ],
+      [
+       "প্রাণ",
+       "life"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "যুগলকিশোর",
+       "the youthful couple"
+      ],
+      [
+       "অদ্বৈত আচার্য",
+       "Advaita Ācārya"
+      ],
+      [
+       "বল",
+       "strength"
+      ],
+      [
+       "গদাধর",
+       "Gadādhara Paṇḍita"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "কুল",
+       "family"
+      ],
+      [
+       "নরহরি",
+       "Narahari Sarakāra"
+      ],
+      [
+       "বিলসই",
+       "joy"
+      ],
+      [
+       "মোর",
+       "my"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ધન",
+       "wealth"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "નિત્યાનન્દ",
+       "Nityānanda Prabhu"
+      ],
+      [
+       "પતિ",
+       "master"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "ગૌરચન્દ્ર",
+       "the moon-like Gaura"
+      ],
+      [
+       "પ્રાણ",
+       "life"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "યુગલકિશોર",
+       "the youthful couple"
+      ],
+      [
+       "અદ્બૈત આચાર્ય",
+       "Advaita Ācārya"
+      ],
+      [
+       "બલ",
+       "strength"
+      ],
+      [
+       "ગદાધર",
+       "Gadādhara Paṇḍita"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "કુલ",
+       "family"
+      ],
+      [
+       "નરહરિ",
+       "Narahari Sarakāra"
+      ],
+      [
+       "બિલસઇ",
+       "joy"
+      ],
+      [
+       "મોર",
+       "my"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "धन मॊर नित्यानन्द,    पति मॊर गौरचन्द्र,",
+      "प्राण मॊर युगलकिशॊर",
+      "अद्बैतआचार्य बल,    गदाधर मॊर कुल,",
+      "नरहरि बिलसइ मॊर १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ধন মোর নিত্যানন্দ,    পতি মোর গৌরচন্দ্র,",
+      "প্রাণ মোর যুগলকিশোর",
+      "অদ্বৈতআচার্য বল,    গদাধর মোর কুল,",
+      "নরহরি বিলসই মোর ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଧନ ମୋର ନିତ୍ୟାନନ୍ଦ,    ପତି ମୋର ଗୌରଚନ୍ଦ୍ର,",
+      "ପ୍ରାଣ ମୋର ଯୁଗଲକିଶୋର",
+      "ଅଦ୍ବୈତଆଚାର୍ୟ ବଲ,    ଗଦାଧର ମୋର କୁଲ,",
+      "ନରହରି ବିଲସଇ ମୋର ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ધન મોર નિત્યાનન્દ,    પતિ મોર ગૌરચન્દ્ર,",
+      "પ્રાણ મોર યુગલકિશોર",
+      "અદ્બૈતઆચાર્ય બલ,    ગદાધર મોર કુલ,",
+      "નરહરિ બિલસઇ મોર ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "dhana mora nityānanda,    pati mora gauracandra,",
+      "prāṇa mora yugalakiśora",
+      "adbaita-ācārya bala,    gadādhara mora kula,",
+      "narahari bilasa·i mora 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಧನ ಮೊರ ನಿತ್ಯಾನಂದ,    ಪತಿ ಮೊರ ಗೌರಚಂದ್ರ,",
+      "ಪ್ರಾಣ ಮೊರ ಯುಗಲಕಿಶೊರ",
+      "ಅದ್ಬೈತಆಚಾರ್ಯ ಬಲ,    ಗದಾಧರ ಮೊರ ಕುಲ,",
+      "ನರಹರಿ ಬಿಲಸಇ ಮೊರ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ధన మొర నిత్యానంద,    పతి మొర గౌరచంద్ర,",
+      "ప్రాణ మొర యుగలకిశొర",
+      "అద్బైతఆచార్య బల,    గదాధర మొర కుల,",
+      "నరహరి బిలసఇ మొర 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "дхана мо̆ра нитйа̄нанда,    пати мо̆ра гаурачандра,",
+      "пра̄н̣а мо̆ра йугалакиш́о̆ра",
+      "адбаитаа̄ча̄рйа бала,    гада̄дхара мо̆ра кула,",
+      "нарахари биласаи мо̆ра 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ധന മൊര നിത്യാനന്ദ,    പതി മൊര ഗൗരചന്ദ്ര,",
+      "പ്രാണ മൊര യുഗലകിശൊര",
+      "അദ്ബൈതആചാര്യ ബല,    ഗദാധര മൊര കുല,",
+      "നരഹരി ബിലസഇ മൊര 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "த⁴ன மொர நித்யானந்த³,    பதி மொர கௌ³ரசந்த்³ர,",
+      "ப்ராண மொர யுக³லகிஶொர",
+      "அத்³பை³தஆசார்ய ப³ல,    க³தா³த⁴ர மொர குல,",
+      "நரஹரி பி³லஸஇ மொர 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "dhana mora nityānanda,    pati mora gauracandra,",
+      "prāṇa mora yugalakiśora",
+      "adbaita-ācārya bala,    gadādhara mora kula,",
+      "narahari bilasa·i mora 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "dhana mora nityānanda,    pati mora gauracandra,",
+      "prāṇa mora yugalakiśora",
+      "adbaita-ācārya bala,    gadādhara mora kula,",
+      "narahari bilasa·i mora 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "baiṣṇabera padadhūli,    tāhe mora snānakeli,",
+    "tarpaṇa mora baiṣṇabera nāma",
+    "bicāra kariyā mane,    bhaktirasa āsbādane,",
+    "madhyastha śrībhāgabata[FLAG_HYPHEN_ALPHA]purāṇa 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "My bath is in the dust of the lotus feet of Vaiṣṇavas, my satiation is in the names of the Vaiṣṇavas, and I have concluded that in order to savor bhakti-rasa, the best medium is Śrīmad-Bhāgavatam."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "baiṣṇabera",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "padadhūli",
+       "feet + dust"
+      ],
+      [
+       "tāhe",
+       "in that"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "snānakeli",
+       "bath + playful"
+      ],
+      [
+       "tarpaṇa",
+       "satiation"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "baiṣṇabera",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "nāma",
+       "names"
+      ],
+      [
+       "bicāra kariyā",
+       "having concluded"
+      ],
+      [
+       "mane",
+       "in the mind"
+      ],
+      [
+       "bhaktirasa",
+       "the nectar of devtion"
+      ],
+      [
+       "āsbādane",
+       "for savoring"
+      ],
+      [
+       "madhyastha",
+       "the medium [alternatively, the middle part (the 10th canto)]"
+      ],
+      [
+       "śrībhāgabata purāṇa",
+       "Śrīmad-Bhāgavatam"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "बैष्णबॆर",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "पदधूलि",
+       "feet + dust"
+      ],
+      [
+       "ताहॆ",
+       "in that"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "स्नानकॆलि",
+       "bath + playful"
+      ],
+      [
+       "तर्पण",
+       "satiation"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "बैष्णबॆर",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "नाम",
+       "names"
+      ],
+      [
+       "बिचार करिया",
+       "having concluded"
+      ],
+      [
+       "मनॆ",
+       "in the mind"
+      ],
+      [
+       "भक्तिरस",
+       "the nectar of devtion"
+      ],
+      [
+       "आस्बादनॆ",
+       "for savoring"
+      ],
+      [
+       "मध्यस्थ",
+       "the medium [alternatively, the middle part (the 10th canto)]"
+      ],
+      [
+       "श्रीभागबत पुराण",
+       "Śrīmad-Bhāgavatam"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "বৈষ্ণবের",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "পদধূলি",
+       "feet + dust"
+      ],
+      [
+       "তাহে",
+       "in that"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "স্নানকেলি",
+       "bath + playful"
+      ],
+      [
+       "তর্পণ",
+       "satiation"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "বৈষ্ণবের",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "নাম",
+       "names"
+      ],
+      [
+       "বিচার করিয়া",
+       "having concluded"
+      ],
+      [
+       "মনে",
+       "in the mind"
+      ],
+      [
+       "ভক্তিরস",
+       "the nectar of devtion"
+      ],
+      [
+       "আস্বাদনে",
+       "for savoring"
+      ],
+      [
+       "মধ্যস্থ",
+       "the medium [alternatively, the middle part (the 10th canto)]"
+      ],
+      [
+       "শ্রীভাগবত পুরাণ",
+       "Śrīmad-Bhāgavatam"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બૈષ્ણબેર",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "પદધૂલિ",
+       "feet + dust"
+      ],
+      [
+       "તાહે",
+       "in that"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "સ્નાનકેલિ",
+       "bath + playful"
+      ],
+      [
+       "તર્પણ",
+       "satiation"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "બૈષ્ણબેર",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "નામ",
+       "names"
+      ],
+      [
+       "બિચાર કરિયા",
+       "having concluded"
+      ],
+      [
+       "મને",
+       "in the mind"
+      ],
+      [
+       "ભક્તિરસ",
+       "the nectar of devtion"
+      ],
+      [
+       "આસ્બાદને",
+       "for savoring"
+      ],
+      [
+       "મધ્યસ્થ",
+       "the medium [alternatively, the middle part (the 10th canto)]"
+      ],
+      [
+       "શ્રીભાગબત પુરાણ",
+       "Śrīmad-Bhāgavatam"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बैष्णबॆर पदधूलि,    ताहॆ मॊर स्नानकॆलि,",
+      "तर्पण मॊर बैष्णबॆर नाम",
+      "बिचार करिया मनॆ,    भक्तिरस आस्बादनॆ,",
+      "मध्यस्थ श्रीभागबतपुराण २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বৈষ্ণবের পদধূলি,    তাহে মোর স্নানকেলি,",
+      "তর্পণ মোর বৈষ্ণবের নাম",
+      "বিচার করিয়া মনে,    ভক্তিরস আস্বাদনে,",
+      "মধ্যস্থ শ্রীভাগবতপুরাণ ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବୈଷ୍ଣବେର ପଦଧୂଲି,    ତାହେ ମୋର ସ୍ନାନକେଲି,",
+      "ତର୍ପଣ ମୋର ବୈଷ୍ଣବେର ନାମ",
+      "ବିଚାର କରିୟା ମନେ,    ଭକ୍ତିରସ ଆସ୍ବାଦନେ,",
+      "ମଧ୍ୟସ୍ଥ ଶ୍ରୀଭାଗବତପୁରାଣ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બૈષ્ણબેર પદધૂલિ,    તાહે મોર સ્નાનકેલિ,",
+      "તર્પણ મોર બૈષ્ણબેર નામ",
+      "બિચાર કરિયા મને,    ભક્તિરસ આસ્બાદને,",
+      "મધ્યસ્થ શ્રીભાગબતપુરાણ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "baiṣṇabera padadhūli,    tāhe mora snānakeli,",
+      "tarpaṇa mora baiṣṇabera nāma",
+      "bicāra kariyā mane,    bhaktirasa āsbādane,",
+      "madhyastha śrībhāgabata-purāṇa 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬೈಷ್ಣಬೆರ ಪದಧೂಲಿ,    ತಾಹೆ ಮೊರ ಸ್ನಾನಕೆಲಿ,",
+      "ತರ್ಪಣ ಮೊರ ಬೈಷ್ಣಬೆರ ನಾಮ",
+      "ಬಿಚಾರ ಕರಿಯಾ ಮನೆ,    ಭಕ್ತಿರಸ ಆಸ್ಬಾದನೆ,",
+      "ಮಧ್ಯಸ್ಥ ಶ್ರೀಭಾಗಬತಪುರಾಣ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బైష్ణబెర పదధూలి,    తాహె మొర స్నానకెలి,",
+      "తర్పణ మొర బైష్ణబెర నామ",
+      "బిచార కరియా మనె,    భక్తిరస ఆస్బాదనె,",
+      "మధ్యస్థ శ్రీభాగబతపురాణ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "баишн̣абэ̆ра пададхӯли,    та̄хэ̆ мо̆ра сна̄накэ̆ли,",
+      "тарпан̣а мо̆ра баишн̣абэ̆ра на̄ма",
+      "бича̄ра карийа̄ манэ̆,    бхактираса а̄сба̄данэ̆,",
+      "мадхйастха ш́рӣбха̄габатапура̄н̣а 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബൈഷ്ണബെര പദധൂലി,    താഹെ മൊര സ്നാനകെലി,",
+      "തർപണ മൊര ബൈഷ്ണബെര നാമ",
+      "ബിചാര കരിയാ മനെ,    ഭക്തിരസ ആസ്ബാദനെ,",
+      "മധ്യസ്ഥ ശ്രീഭാഗബതപുരാണ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பை³ஷ்ணபெ³ர பத³தூ⁴லி,    தாஹெ மொர ஸ்னானகெலி,",
+      "தர்பண மொர பை³ஷ்ணபெ³ர நாம",
+      "பி³சார கரியா மனெ,    ப⁴க்திரஸ ஆஸ்பா³த³னெ,",
+      "மத்⁴யஸ்த² ஶ்ரீபா⁴க³ப³தபுராண 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "baiṣṇabera padadhūli,    tāhe mora snānakeli,",
+      "tarpaṇa mora baiṣṇabera nāma",
+      "bicāra kariyā mane,    bhaktirasa āsbādane,",
+      "madhyastha śrībhāgabata-purāṇa 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "baiṣṇabera padadhūli,    tāhe mora snānakeli,",
+      "tarpaṇa mora baiṣṇabera nāma",
+      "bicāra kariyā mane,    bhaktirasa āsbādane,",
+      "madhyastha śrībhāgabata-purāṇa 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "baiṣṇabera ucchiṣṭa,    tāhe mora manoniṣṭha,",
+    "baiṣṇabera nāmete ullāsa",
+    "bṛndābane cautārā,    tāhe mora manogherā,",
+    "kahe dīna narottamadāsa 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "My mind has firm faith in the remnants of the Vaiṣṇavas and delights in the names of the Vaiṣṇavas. My mind is fully encircled by the boundary of Vṛndāvana. Thus speaks the lowly Narottama dāsa."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "baiṣṇabera",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "ucchiṣṭa",
+       "remnants"
+      ],
+      [
+       "tāhe",
+       "in that"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "manoniṣṭha",
+       "mind’s firm faith"
+      ],
+      [
+       "baiṣṇabera",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "nāmete",
+       "in the names"
+      ],
+      [
+       "ullāsa",
+       "delights"
+      ],
+      [
+       "bṛndābane",
+       "of Vṛndāvana"
+      ],
+      [
+       "cautārā",
+       "(catvara, aṅgana GGG) courtyard"
+      ],
+      [
+       "tāhe",
+       "in that"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "manogherā",
+       "(man-rūpī beḓā GGG) the fence, hedge, railing  of the mind"
+      ],
+      [
+       "kahe",
+       "says"
+      ],
+      [
+       "dīna",
+       "the fallen"
+      ],
+      [
+       "narottamadāsa",
+       "Narottama dāsa"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "बैष्णबॆर",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "उच्छिष्ट",
+       "remnants"
+      ],
+      [
+       "ताहॆ",
+       "in that"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "मनॊनिष्ठ",
+       "mind’s firm faith"
+      ],
+      [
+       "बैष्णबॆर",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "नामॆतॆ",
+       "in the names"
+      ],
+      [
+       "उल्लास",
+       "delights"
+      ],
+      [
+       "ब्ड़्न्दाबनॆ",
+       "of Vṛndāvana"
+      ],
+      [
+       "चौतारा",
+       "(catvara, aṅgana GGG) courtyard"
+      ],
+      [
+       "ताहॆ",
+       "in that"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "मनॊघॆरा",
+       "(man-rūpī beḓā GGG) the fence, hedge, railing  of the mind"
+      ],
+      [
+       "कहॆ",
+       "says"
+      ],
+      [
+       "दीन",
+       "the fallen"
+      ],
+      [
+       "नरॊत्तमदास",
+       "Narottama dāsa"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "বৈষ্ণবের",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "উচ্ছিষ্ট",
+       "remnants"
+      ],
+      [
+       "তাহে",
+       "in that"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "মনোনিষ্ঠ",
+       "mind’s firm faith"
+      ],
+      [
+       "বৈষ্ণবের",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "নামেতে",
+       "in the names"
+      ],
+      [
+       "উল্লাস",
+       "delights"
+      ],
+      [
+       "ব্ড়্ন্দাবনে",
+       "of Vṛndāvana"
+      ],
+      [
+       "চৌতারা",
+       "(catvara, aṅgana GGG) courtyard"
+      ],
+      [
+       "তাহে",
+       "in that"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "মনোঘেরা",
+       "(man-rūpī beḓā GGG) the fence, hedge, railing  of the mind"
+      ],
+      [
+       "কহে",
+       "says"
+      ],
+      [
+       "দীন",
+       "the fallen"
+      ],
+      [
+       "নরোত্তমদাস",
+       "Narottama dāsa"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બૈષ્ણબેર",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "ઉચ્છિષ્ટ",
+       "remnants"
+      ],
+      [
+       "તાહે",
+       "in that"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "મનોનિષ્ઠ",
+       "mind’s firm faith"
+      ],
+      [
+       "બૈષ્ણબેર",
+       "of the Vaiṣṇavas"
+      ],
+      [
+       "નામેતે",
+       "in the names"
+      ],
+      [
+       "ઉલ્લાસ",
+       "delights"
+      ],
+      [
+       "બ્ડ઼્ન્દાબને",
+       "of Vṛndāvana"
+      ],
+      [
+       "ચૌતારા",
+       "(catvara, aṅgana GGG) courtyard"
+      ],
+      [
+       "તાહે",
+       "in that"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "મનોઘેરા",
+       "(man-rūpī beḓā GGG) the fence, hedge, railing  of the mind"
+      ],
+      [
+       "કહે",
+       "says"
+      ],
+      [
+       "દીન",
+       "the fallen"
+      ],
+      [
+       "નરોત્તમદાસ",
+       "Narottama dāsa"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बैष्णबॆर उच्छिष्ट,    ताहॆ मॊर मनॊनिष्ठ,",
+      "बैष्णबॆर नामॆतॆ उल्लास",
+      "ब्ड़्न्दाबनॆ चौतारा,    ताहॆ मॊर मनॊघॆरा,",
+      "कहॆ दीन नरॊत्तमदास ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বৈষ্ণবের উচ্ছিষ্ট,    তাহে মোর মনোনিষ্ঠ,",
+      "বৈষ্ণবের নামেতে উল্লাস",
+      "ব্ড়্ন্দাবনে চৌতারা,    তাহে মোর মনোঘেরা,",
+      "কহে দীন নরোত্তমদাস ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବୈଷ୍ଣବେର ଉଚ୍ଛିଷ୍ଟ,    ତାହେ ମୋର ମନୋନିଷ୍ଠ,",
+      "ବୈଷ୍ଣବେର ନାମେତେ ଉଲ୍ଲାସ",
+      "ବ୍ଡ଼୍ନ୍ଦାବନେ ଚୌତାରା,    ତାହେ ମୋର ମନୋଘେରା,",
+      "କହେ ଦୀନ ନରୋତ୍ତମଦାସ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બૈષ્ણબેર ઉચ્છિષ્ટ,    તાહે મોર મનોનિષ્ઠ,",
+      "બૈષ્ણબેર નામેતે ઉલ્લાસ",
+      "બ્ડ઼્ન્દાબને ચૌતારા,    તાહે મોર મનોઘેરા,",
+      "કહે દીન નરોત્તમદાસ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "baiṣṇabera ucchiṣṭa,    tāhe mora manoniṣṭha,",
+      "baiṣṇabera nāmete ullāsa",
+      "bṛndābane cautārā,    tāhe mora manogherā,",
+      "kahe dīna narottamadāsa 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬೈಷ್ಣಬೆರ ಉಚ್ಛಿಷ್ಟ,    ತಾಹೆ ಮೊರ ಮನೊನಿಷ್ಠ,",
+      "ಬೈಷ್ಣಬೆರ ನಾಮೆತೆ ಉಲ್ಲಾಸ",
+      "ಬ್‌ಡ಼್ನ್ದಾಬನೆ ಚೌತಾರಾ,    ತಾಹೆ ಮೊರ ಮನೊಘೆರಾ,",
+      "ಕಹೆ ದೀನ ನರೊತ್ತಮದಾಸ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బైష్ణబెర ఉచ్ఛిష్ట,    తాహె మొర మనొనిష్ఠ,",
+      "బైష్ణబెర నామెతె ఉల్లాస",
+      "బ్డ్న్దాబనె చౌతారా,    తాహె మొర మనొఘెరా,",
+      "కహె దీన నరొత్తమదాస 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "баишн̣абэ̆ра уччхишт̣а,    та̄хэ̆ мо̆ра мано̆ништ̣ха,",
+      "баишн̣абэ̆ра на̄мэ̆тэ̆ улла̄са",
+      "бр̤нда̄банэ̆ чаута̄ра̄,    та̄хэ̆ мо̆ра мано̆гхэ̆ра̄,",
+      "кахэ̆ дӣна наро̆ттамада̄са 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബൈഷ്ണബെര ഉച്ഛിഷ്ട,    താഹെ മൊര മനൊനിഷ്ഠ,",
+      "ബൈഷ്ണബെര നാമെതെ ഉല്ലാസ",
+      "ബ്ഡ്ന്ദാബനെ ചൗതാരാ,    താഹെ മൊര മനൊഘെരാ,",
+      "കഹെ ദീന നരൊത്തമദാസ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பை³ஷ்ணபெ³ர உச்சி²ஷ்ட,    தாஹெ மொர மனொநிஷ்ட²,",
+      "பை³ஷ்ணபெ³ர நாமெதெ உல்லாஸ",
+      "ப்³ஃட்²ந்தா³ப³னெ சௌதாரா,    தாஹெ மொர மனொகெ⁴ரா,",
+      "கஹெ தீ³ன நரொத்தமதா³ஸ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "baiṣṇabera ucchiṣṭa,    tāhe mora manoniṣṭha,",
+      "baiṣṇabera nāmete ullāsa",
+      "bṛndābane cautārā,    tāhe mora manogherā,",
+      "kahe dīna narottamadāsa 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "baiṣṇabera ucchiṣṭa,    tāhe mora manoniṣṭha,",
+      "baiṣṇabera nāmete ullāsa",
+      "bṛndābane cautārā,    tāhe mora manogherā,",
+      "kahe dīna narottamadāsa 3"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ-- চৌতারা—চত্বর, অঙ্গন; মনোঘেরা—মনরূপী বেড়া ।"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "tama-1",
+   "filename": "GN12-tama-1.mp3",
+   "artist": "Tamal Krsna das"
+  },
+  {
+   "uid": "tama-2",
+   "filename": "GN12-tama-2.mp3",
+   "artist": "Tamal Krsna das"
+  }
+ ],
+ "tags": [
+  "Firm Faith in Śrī Śrī Gaura-Nityānanda",
+  "Śrī Gaura-Nitāi"
+ ]
+}

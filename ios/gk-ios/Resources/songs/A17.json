@@ -1,0 +1,930 @@
+{
+  "uid": "A17",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীতুলসী-আরতি"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "śrītulasī-ārati"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रीतुलसी-आरति"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీతులసీ-ఆరతి"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀತುಲಸೀ-ಆರತಿ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீதுலஸீ-ஆரதி"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീതുലസീ-ആരതി"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીતુલસી-આરતિ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀତୁଲସୀ-ଆରତି"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣтуласӣ-а̄рати"
+    }
+  ],
+  "author_uid": "?",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "অজানা লেখক"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Unknown Author"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "xxx śrītulasī[FLAG_HYPHEN_ALPHA]ārati",
+        "namo namo tulasī mahārāṇī",
+        "bṛnde mahārāṇī namo namaḥ",
+        "namore namore mā̃·iyā namo nārāyaṇī"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "xxx श्रीतुलसीआरति",
+            "नमॊ नमॊ तुलसी महाराणी",
+            "ब्ड़्न्दॆ महाराणी नमॊ नमः",
+            "नमॊरॆ नमॊरॆ मांइया नमॊ नारायणी"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "xxx শ্রীতুলসীআরতি",
+            "নমো নমো তুলসী মহারাণী",
+            "ব্ড়্ন্দে মহারাণী নমো নমঃ",
+            "নমোরে নমোরে মাংইয়া নমো নারায়ণী"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "xxx ଶ୍ରୀତୁଲସୀଆରତି",
+            "ନମୋ ନମୋ ତୁଲସୀ ମହାରାଣୀ",
+            "ବ୍ଡ଼୍ନ୍ଦେ ମହାରାଣୀ ନମୋ ନମଃ",
+            "ନମୋରେ ନମୋରେ ମାଂଇୟା ନମୋ ନାରାୟଣୀ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "xxx શ્રીતુલસીઆરતિ",
+            "નમો નમો તુલસી મહારાણી",
+            "બ્ડ઼્ન્દે મહારાણી નમો નમઃ",
+            "નમોરે નમોરે માંઇયા નમો નારાયણી"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "xxx śrītulasī-ārati",
+            "namo namo tulasī mahārāṇī",
+            "bṛnde mahārāṇī namo namaḥ",
+            "namore namore mā̃·iyā namo nārāyaṇī"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "xxx ಶ್ರೀತುಲಸೀಆರತಿ",
+            "ನಮೊ ನಮೊ ತುಲಸೀ ಮಹಾರಾಣೀ",
+            "ಬ್‌ಡ಼್ನ್ದೆ ಮಹಾರಾಣೀ ನಮೊ ನಮಃ",
+            "ನಮೊರೆ ನಮೊರೆ ಮಾಂಇಯಾ ನಮೊ ನಾರಾಯಣೀ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "xxx శ్రీతులసీఆరతి",
+            "నమొ నమొ తులసీ మహారాణీ",
+            "బ్డ్న్దె మహారాణీ నమొ నమః",
+            "నమొరె నమొరె మాంఇయా నమొ నారాయణీ"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "xxx ш́рӣтуласӣа̄рати",
+            "намо̆ намо̆ туласӣ маха̄ра̄н̣ӣ",
+            "бр̤ндэ̆ маха̄ра̄н̣ӣ намо̆ намах̣",
+            "намо̆рэ̆ намо̆рэ̆ ма̄м̣ийа̄ намо̆ на̄ра̄йан̣ӣ"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "xxx ശ്രീതുലസീആരതി",
+            "നമൊ നമൊ തുലസീ മഹാരാണീ",
+            "ബ്ഡ്ന്ദെ മഹാരാണീ നമൊ നമഃ",
+            "നമൊരെ നമൊരെ മാംഇയാ നമൊ നാരായണീ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "xxx ஶ்ரீதுலஸீஆரதி",
+            "நமொ நமொ துலஸீ மஹாராணீ",
+            "ப்³ஃட்²ந்தெ³ மஹாராணீ நமொ நம꞉",
+            "நமொரெ நமொரெ மாம்ʼஇயா நமொ நாராயணீ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "xxx śrītulasī-ārati",
+            "namo namo tulasī mahārāṇī",
+            "bṛnde mahārāṇī namo namaḥ",
+            "namore namore mā̃·iyā namo nārāyaṇī"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "xxx śrītulasī-ārati",
+            "namo namo tulasī mahārāṇī",
+            "bṛnde mahārāṇī namo namaḥ",
+            "namore namore mā̃·iyā namo nārāyaṇī"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "yāko daraśe paraśe aghanāśa·i",
+        "mahimā beda[FLAG_HYPHEN_ALPHA]purāṇe bākhāni 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "याकॊ दरशॆ परशॆ अघनाशइ",
+            "महिमा बॆदपुराणॆ बाखानि १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যাকো দরশে পরশে অঘনাশই",
+            "মহিমা বেদপুরাণে বাখানি ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯାକୋ ଦରଶେ ପରଶେ ଅଘନାଶଇ",
+            "ମହିମା ବେଦପୁରାଣେ ବାଖାନି ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યાકો દરશે પરશે અઘનાશઇ",
+            "મહિમા બેદપુરાણે બાખાનિ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yāko daraśe paraśe aghanāśa·i",
+            "mahimā beda-purāṇe bākhāni 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯಾಕೊ ದರಶೆ ಪರಶೆ ಅಘನಾಶಇ",
+            "ಮಹಿಮಾ ಬೆದಪುರಾಣೆ ಬಾಖಾನಿ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యాకొ దరశె పరశె అఘనాశఇ",
+            "మహిమా బెదపురాణె బాఖాని 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йа̄ко̆ дараш́э̆ параш́э̆ агхана̄ш́аи",
+            "махима̄ бэ̆дапура̄н̣э̆ ба̄кха̄ни 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യാകൊ ദരശെ പരശെ അഘനാശഇ",
+            "മഹിമാ ബെദപുരാണെ ബാഖാനി 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யாகொ த³ரஶெ பரஶெ அக⁴நாஶஇ",
+            "மஹிமா பெ³த³புராணெ பா³கா²னி 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yāko daraśe paraśe aghanāśa·i",
+            "mahimā beda-purāṇe bākhāni 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yāko daraśe paraśe aghanāśa·i",
+            "mahimā beda-purāṇe bākhāni 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "yāko patra, mañjarī komala",
+        "śrīpati[FLAG_HYPHEN_ALPHA]caraṇa kamale lapaṭāni 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "याकॊ पत्र, मञ्जरी कॊमल",
+            "श्रीपतिचरण कमलॆ लपटानि २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যাকো পত্র, মঞ্জরী কোমল",
+            "শ্রীপতিচরণ কমলে লপটানি ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯାକୋ ପତ୍ର, ମଞ୍ଜରୀ କୋମଲ",
+            "ଶ୍ରୀପତିଚରଣ କମଲେ ଲପଟାନି ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યાકો પત્ર, મઞ્જરી કોમલ",
+            "શ્રીપતિચરણ કમલે લપટાનિ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yāko patra, mañjarī komala",
+            "śrīpati-caraṇa kamale lapaṭāni 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯಾಕೊ ಪತ್ರ, ಮಂಜರೀ ಕೊಮಲ",
+            "ಶ್ರೀಪತಿಚರಣ ಕಮಲೆ ಲಪಟಾನಿ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యాకొ పత్ర, మంజరీ కొమల",
+            "శ్రీపతిచరణ కమలె లపటాని 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йа̄ко̆ патра, ман̃джарӣ ко̆мала",
+            "ш́рӣпатичаран̣а камалэ̆ лапат̣а̄ни 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യാകൊ പത്ര, മഞ്ജരീ കൊമല",
+            "ശ്രീപതിചരണ കമലെ ലപടാനി 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யாகொ பத்ர, மஞ்ஜரீ கொமல",
+            "ஶ்ரீபதிசரண கமலெ லபடானி 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yāko patra, mañjarī komala",
+            "śrīpati-caraṇa kamale lapaṭāni 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yāko patra, mañjarī komala",
+            "śrīpati-caraṇa kamale lapaṭāni 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "dhanya tulasī, pūraṇa tapa kiye",
+        "śrīśālagrāma[FLAG_HYPHEN_ALPHA]mahāpāṭarāṇī 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "धन्य तुलसी, पूरण तप कियॆ",
+            "श्रीशालग्राममहापाटराणी ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ধন্য তুলসী, পূরণ তপ কিয়ে",
+            "শ্রীশালগ্রামমহাপাটরাণী ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଧନ୍ୟ ତୁଲସୀ, ପୂରଣ ତପ କିୟେ",
+            "ଶ୍ରୀଶାଲଗ୍ରାମମହାପାଟରାଣୀ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ધન્ય તુલસી, પૂરણ તપ કિયે",
+            "શ્રીશાલગ્રામમહાપાટરાણી ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "dhanya tulasī, pūraṇa tapa kiye",
+            "śrīśālagrāma-mahāpāṭarāṇī 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಧನ್ಯ ತುಲಸೀ, ಪೂರಣ ತಪ ಕಿಯೆ",
+            "ಶ್ರೀಶಾಲಗ್ರಾಮಮಹಾಪಾಟರಾಣೀ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ధన్య తులసీ, పూరణ తప కియె",
+            "శ్రీశాలగ్రామమహాపాటరాణీ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "дханйа туласӣ, пӯран̣а тапа кийэ̆",
+            "ш́рӣш́а̄лагра̄мамаха̄па̄т̣ара̄н̣ӣ 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ധന്യ തുലസീ, പൂരണ തപ കിയെ",
+            "ശ്രീശാലഗ്രാമമഹാപാടരാണീ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "த⁴ன்ய துலஸீ, பூரண தப கியெ",
+            "ஶ்ரீஶாலக்³ராமமஹாபாடராணீ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "dhanya tulasī, pūraṇa tapa kiye",
+            "śrīśālagrāma-mahāpāṭarāṇī 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "dhanya tulasī, pūraṇa tapa kiye",
+            "śrīśālagrāma-mahāpāṭarāṇī 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "dhūpa dīpa naibedya ārati",
+        "phulana kiye baraṣā baraṣāṇi 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "धूप दीप नैबॆद्य आरति",
+            "फुलन कियॆ बरषा बरषाणि ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ধূপ দীপ নৈবেদ্য আরতি",
+            "ফুলন কিয়ে বরষা বরষাণি ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଧୂପ ଦୀପ ନୈବେଦ୍ୟ ଆରତି",
+            "ଫୁଲନ କିୟେ ବରଷା ବରଷାଣି ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ધૂપ દીપ નૈબેદ્ય આરતિ",
+            "ફુલન કિયે બરષા બરષાણિ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "dhūpa dīpa naibedya ārati",
+            "phulana kiye baraṣā baraṣāṇi 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಧೂಪ ದೀಪ ನೈಬೆದ್ಯ ಆರತಿ",
+            "ಫುಲನ ಕಿಯೆ ಬರಷಾ ಬರಷಾಣಿ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ధూప దీప నైబెద్య ఆరతి",
+            "ఫులన కియె బరషా బరషాణి 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "дхӯпа дӣпа наибэ̆дйа а̄рати",
+            "пхулана кийэ̆ бараша̄ бараша̄н̣и 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ധൂപ ദീപ നൈബെദ്യ ആരതി",
+            "ഫുലന കിയെ ബരഷാ ബരഷാണി 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தூ⁴ப தீ³ப நைபெ³த்³ய ஆரதி",
+            "பு²லன கியெ ப³ரஷா ப³ரஷாணி 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "dhūpa dīpa naibedya ārati",
+            "phulana kiye baraṣā baraṣāṇi 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "dhūpa dīpa naibedya ārati",
+            "phulana kiye baraṣā baraṣāṇi 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "chāpānna bhoga chatriśa byañjana",
+        "binā tulasī prabhu eka nāhi māni 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "छापान्न भॊग छत्रिश ब्यञ्जन",
+            "बिना तुलसी प्रभु ऎक नाहि मानि ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ছাপান্ন ভোগ ছত্রিশ ব্যঞ্জন",
+            "বিনা তুলসী প্রভু এক নাহি মানি ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଛାପାନ୍ନ ଭୋଗ ଛତ୍ରିଶ ବ୍ୟଞ୍ଜନ",
+            "ବିନା ତୁଲସୀ ପ୍ରଭୁ ଏକ ନାହି ମାନି ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "છાપાન્ન ભોગ છત્રિશ બ્યઞ્જન",
+            "બિના તુલસી પ્રભુ એક નાહિ માનિ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "chāpānna bhoga chatriśa byañjana",
+            "binā tulasī prabhu eka nāhi māni 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಛಾಪಾನ್ನ ಭೊಗ ಛತ್ರಿಶ ಬ್ಯಂಜನ",
+            "ಬಿನಾ ತುಲಸೀ ಪ್ರಭು ಎಕ ನಾಹಿ ಮಾನಿ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఛాపాన్న భొగ ఛత్రిశ బ్యంజన",
+            "బినా తులసీ ప్రభు ఎక నాహి మాని 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "чха̄па̄нна бхо̆га чхатриш́а бйан̃джана",
+            "бина̄ туласӣ прабху э̆ка на̄хи ма̄ни 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഛാപാന്ന ഭൊഗ ഛത്രിശ ബ്യഞ്ജന",
+            "ബിനാ തുലസീ പ്രഭു എക നാഹി മാനി 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "சா²பான்ன பொ⁴க³ ச²த்ரிஶ ப்³யஞ்ஜன",
+            "பி³னா துலஸீ ப்ரபு⁴ எக நாஹி மானி 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "chāpānna bhoga chatriśa byañjana",
+            "binā tulasī prabhu eka nāhi māni 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "chāpānna bhoga chatriśa byañjana",
+            "binā tulasī prabhu eka nāhi māni 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "śiba śuka nārada āura brahmādika",
+        "cũḓata phirata mahāmuni jñānī 6"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "शिब शुक नारद आउर ब्रह्मादिक",
+            "चुंḓअत फिरत महामुनि ज्ञानी ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শিব শুক নারদ আউর ব্রহ্মাদিক",
+            "চুংḓঅত ফিরত মহামুনি জ্ঞানী ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶିବ ଶୁକ ନାରଦ ଆଉର ବ୍ରହ୍ମାଦିକ",
+            "ଚୁଂḓଅତ ଫିରତ ମହାମୁନି ଜ୍ଞାନୀ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શિબ શુક નારદ આઉર બ્રહ્માદિક",
+            "ચુંḓઅત ફિરત મહામુનિ જ્ઞાની ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śiba śuka nārada āura brahmādika",
+            "cũḓata phirata mahāmuni jñānī 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶಿಬ ಶುಕ ನಾರದ ಆಉರ ಬ್ರಹ್ಮಾದಿಕ",
+            "ಚುಂḓಅತ ಫಿರತ ಮಹಾಮುನಿ ಜ್ಞಾನೀ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శిబ శుక నారద ఆఉర బ్రహ్మాదిక",
+            "చుంḓఅత ఫిరత మహాముని జ్ఞానీ 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́иба ш́ука на̄рада а̄ура брахма̄дика",
+            "чум̣ḓата пхирата маха̄муни джн̃а̄нӣ 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശിബ ശുക നാരദ ആഉര ബ്രഹ്മാദിക",
+            "ചുംḓഅത ഫിരത മഹാമുനി ജ്ഞാനീ 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶிப³ ஶுக நாரத³ ஆஉர ப்³ரஹ்மாதி³க",
+            "சும்ʼḓஅத பி²ரத மஹாமுனி ஜ்ஞானீ 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śiba śuka nārada āura brahmādika",
+            "cũḍata phirata mahāmuni jñānī 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śiba śuka nārada āura brahmādika",
+            "cũḓata phirata mahāmuni jñānī 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "source_text_master": [
+        "candraśekhara mā̃·iyā terā yaśa gāoye",
+        "bhakati dāna dijīye mahārāṇī 7"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "चन्द्रशॆखर मांइया तॆरा यश गाऒयॆ",
+            "भकति दान दिजीयॆ महाराणी ७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "চন্দ্রশেখর মাংইয়া তেরা যশ গাওয়ে",
+            "ভকতি দান দিজীয়ে মহারাণী ৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଚନ୍ଦ୍ରଶେଖର ମାଂଇୟା ତେରା ଯଶ ଗାଓୟେ",
+            "ଭକତି ଦାନ ଦିଜୀୟେ ମହାରାଣୀ ୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ચન્દ્રશેખર માંઇયા તેરા યશ ગાઓયે",
+            "ભકતિ દાન દિજીયે મહારાણી ૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "candraśekhara mā̃·iyā terā yaśa gāoye",
+            "bhakati dāna dijīye mahārāṇī 7"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಚಂದ್ರಶೆಖರ ಮಾಂಇಯಾ ತೆರಾ ಯಶ ಗಾಒಯೆ",
+            "ಭಕತಿ ದಾನ ದಿಜೀಯೆ ಮಹಾರಾಣೀ ೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "చంద్రశెఖర మాంఇయా తెరా యశ గాఒయె",
+            "భకతి దాన దిజీయె మహారాణీ 7"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "чандраш́э̆кхара ма̄м̣ийа̄ тэ̆ра̄ йаш́а га̄о̆йэ̆",
+            "бхакати да̄на диджӣйэ̆ маха̄ра̄н̣ӣ 7"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ചന്ദ്രശെഖര മാംഇയാ തെരാ യശ ഗാഒയെ",
+            "ഭകതി ദാന ദിജീയെ മഹാരാണീ 7"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "சந்த்³ரஶெக²ர மாம்ʼஇயா தெரா யஶ கா³ஒயெ",
+            "ப⁴கதி தா³ன தி³ஜீயெ மஹாராணீ 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "candraśekhara mā̃·iyā terā yaśa gāoye",
+            "bhakati dāna dijīye mahārāṇī 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "candraśekhara mā̃·iyā terā yaśa gāoye",
+            "bhakati dāna dijīye mahārāṇī 7"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": []
+}

@@ -1,0 +1,547 @@
+{
+ "uid": "Y5",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হে! তুমি সর্ব্বগুণযুত"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari he! tumi sarbaguṇayuta"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari he!",
+    "tumi sarbaguṇayuta,    śakti taba baśībhūta,",
+    "badānya, sarala, śuci, dhīra",
+    "dayālu, madhura, sama,    kṛtī, sthira, sarbottama,",
+    "kṛtajña[FLAG_HYPHEN_ALPHA]lakṣaṇe punaḥ bīra 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हॆ!",
+      "तुमि सर्बगुणयुत,    शक्ति तब बशीभूत,",
+      "बदान्य, सरल, शुचि, धीर",
+      "दयालु, मधुर, सम,    क्ड़्ती, स्थिर, सर्बॊत्तम,",
+      "क्ड़्तज्ञलक्षणॆ पुनः बीर १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হে!",
+      "তুমি সর্বগুণয়ুত,    শক্তি তব বশীভূত,",
+      "বদান্য, সরল, শুচি, ধীর",
+      "দয়ালু, মধুর, সম,    ক্ড়্তী, স্থির, সর্বোত্তম,",
+      "ক্ড়্তজ্ঞলক্ষণে পুনঃ বীর ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହେ!",
+      "ତୁମି ସର୍ବଗୁଣୟୁତ,    ଶକ୍ତି ତବ ବଶୀଭୂତ,",
+      "ବଦାନ୍ୟ, ସରଲ, ଶୁଚି, ଧୀର",
+      "ଦୟାଲୁ, ମଧୁର, ସମ,    କ୍ଡ଼୍ତୀ, ସ୍ଥିର, ସର୍ବୋତ୍ତମ,",
+      "କ୍ଡ଼୍ତଜ୍ଞଲକ୍ଷଣେ ପୁନଃ ବୀର ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હે!",
+      "તુમિ સર્બગુણયુત,    શક્તિ તબ બશીભૂત,",
+      "બદાન્ય, સરલ, શુચિ, ધીર",
+      "દયાલુ, મધુર, સમ,    ક્ડ઼્તી, સ્થિર, સર્બોત્તમ,",
+      "ક્ડ઼્તજ્ઞલક્ષણે પુનઃ બીર ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari he!",
+      "tumi sarbaguṇayuta,    śakti taba baśībhūta,",
+      "badānya, sarala, śuci, dhīra",
+      "dayālu, madhura, sama,    kṛtī, sthira, sarbottama,",
+      "kṛtajña-lakṣaṇe punaḥ bīra 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹೆ!",
+      "ತುಮಿ ಸರ್ಬಗುಣಯುತ,    ಶಕ್ತಿ ತಬ ಬಶೀಭೂತ,",
+      "ಬದಾನ್ಯ, ಸರಲ, ಶುಚಿ, ಧೀರ",
+      "ದಯಾಲು, ಮಧುರ, ಸಮ,    ಕ್‌ಡ಼್ತೀ, ಸ್ಥಿರ, ಸರ್ಬೊತ್ತಮ,",
+      "ಕ್‌ಡ಼್ತಜ್ಞಲಕ್ಷಣೆ ಪುನಃ ಬೀರ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హె!",
+      "తుమి సర్బగుణయుత,    శక్తి తబ బశీభూత,",
+      "బదాన్య, సరల, శుచి, ధీర",
+      "దయాలు, మధుర, సమ,    క్డ్తీ, స్థిర, సర్బొత్తమ,",
+      "క్డ్తజ్ఞలక్షణె పునః బీర 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хэ̆!",
+      "туми сарбагун̣айута,    ш́акти таба баш́ӣбхӯта,",
+      "бада̄нйа, сарала, ш́учи, дхӣра",
+      "дайа̄лу, мадхура, сама,    кр̤тӣ, стхира, сарбо̆ттама,",
+      "кр̤таджн̃алакшан̣э̆ пунах̣ бӣра 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹെ!",
+      "തുമി സർബഗുണയുത,    ശക്തി തബ ബശീഭൂത,",
+      "ബദാന്യ, സരല, ശുചി, ധീര",
+      "ദയാലു, മധുര, സമ,    ക്ഡ്തീ, സ്ഥിര, സർബൊത്തമ,",
+      "ക്ഡ്തജ്ഞലക്ഷണെ പുനഃ ബീര 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹெ!",
+      "துமி ஸர்ப³கு³ணயுத,    ஶக்தி தப³ ப³ஶீபூ⁴த,",
+      "ப³தா³ன்ய, ஸரல, ஶுசி, தீ⁴ர",
+      "த³யாலு, மது⁴ர, ஸம,    க்ஃட்²தீ, ஸ்தி²ர, ஸர்பொ³த்தம,",
+      "க்ஃட்²தஜ்ஞலக்ஷணெ புன꞉ பீ³ர 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari he!",
+      "tumi sarbaguṇayuta,    śakti taba baśībhūta,",
+      "badānya, sarala, śuci, dhīra",
+      "dayālu, madhura, sama,    kṛtī, sthira, sarbottama,",
+      "kṛtajña-lakṣaṇe punaḥ bīra 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari he!",
+      "tumi sarbaguṇayuta,    śakti taba baśībhūta,",
+      "badānya, sarala, śuci, dhīra",
+      "dayālu, madhura, sama,    kṛtī, sthira, sarbottama,",
+      "kṛtajña-lakṣaṇe punaḥ bīra 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "samasta kalyāṇa[FLAG_HYPHEN_ALPHA]guṇa[FLAG_HYPHEN_ALPHA],    gaṇāmṛta[FLAG_HYPHEN_ALPHA]sambhābana,",
+    "samudra[FLAG_HYPHEN_ALPHA]sbarūpa bhagabān",
+    "bindu bindu guṇa taba,    sarbajība[FLAG_HYPHEN_ALPHA]subaibhaba,",
+    "tumi pūrṇa sarbaśaktimān 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "समस्त कल्याणगुण,    गणाम्ड़्तसम्भाबन,",
+      "समुद्रस्बरूप भगबान्",
+      "बिन्दु बिन्दु गुण तब,    सर्बजीबसुबैभब,",
+      "तुमि पूर्ण सर्बशक्तिमान् २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সমস্ত কল্যাণগুণ,    গণাম্ড়্তসম্ভাবন,",
+      "সমুদ্রস্বরূপ ভগবান্",
+      "বিন্দু বিন্দু গুণ তব,    সর্বজীবসুবৈভব,",
+      "তুমি পূর্ণ সর্বশক্তিমান্ ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସମସ୍ତ କଲ୍ୟାଣଗୁଣ,    ଗଣାମ୍ଡ଼୍ତସମ୍ଭାବନ,",
+      "ସମୁଦ୍ରସ୍ବରୂପ ଭଗବାନ୍",
+      "ବିନ୍ଦୁ ବିନ୍ଦୁ ଗୁଣ ତବ,    ସର୍ବଜୀବସୁବୈଭବ,",
+      "ତୁମି ପୂର୍ଣ ସର୍ବଶକ୍ତିମାନ୍ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સમસ્ત કલ્યાણગુણ,    ગણામ્ડ઼્તસમ્ભાબન,",
+      "સમુદ્રસ્બરૂપ ભગબાન્",
+      "બિન્દુ બિન્દુ ગુણ તબ,    સર્બજીબસુબૈભબ,",
+      "તુમિ પૂર્ણ સર્બશક્તિમાન્ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "samasta kalyāṇa-guṇa-,    gaṇāmṛta-sambhābana,",
+      "samudra-sbarūpa bhagabān",
+      "bindu bindu guṇa taba,    sarbajība-subaibhaba,",
+      "tumi pūrṇa sarbaśaktimān 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸಮಸ್ತ ಕಲ್ಯಾಣಗುಣ,    ಗಣಾಂ‌ಡ಼್ತಸಂಭಾಬನ,",
+      "ಸಮುದ್ರಸ್ಬರೂಪ ಭಗಬಾನ್",
+      "ಬಿಂದು ಬಿಂದು ಗುಣ ತಬ,    ಸರ್ಬಜೀಬಸುಬೈಭಬ,",
+      "ತುಮಿ ಪೂರ್ಣ ಸರ್ಬಶಕ್ತಿಮಾನ್ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సమస్త కల్యాణగుణ,    గణామ్డ్తసంభాబన,",
+      "సముద్రస్బరూప భగబాన్",
+      "బిందు బిందు గుణ తబ,    సర్బజీబసుబైభబ,",
+      "తుమి పూర్ణ సర్బశక్తిమాన్ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "самаста калйа̄н̣агун̣а,    ган̣а̄мр̤тасамбха̄бана,",
+      "самудрасбарӯпа бхагаба̄н",
+      "бинду бинду гун̣а таба,    сарбаджӣбасубаибхаба,",
+      "туми пӯрн̣а сарбаш́актима̄н 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സമസ്ത കല്യാണഗുണ,    ഗണാമ്ഡ്തസംഭാബന,",
+      "സമുദ്രസ്ബരൂപ ഭഗബാൻ",
+      "ബിന്ദു ബിന്ദു ഗുണ തബ,    സർബജീബസുബൈഭബ,",
+      "തുമി പൂർണ സർബശക്തിമാൻ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸமஸ்த கல்யாணகு³ண,    க³ணாம்ஃட்²தஸம்பா⁴ப³ன,",
+      "ஸமுத்³ரஸ்ப³ரூப ப⁴க³பா³ன்",
+      "பி³ந்து³ பி³ந்து³ கு³ண தப³,    ஸர்ப³ஜீப³ஸுபை³ப⁴ப³,",
+      "துமி பூர்ண ஸர்ப³ஶக்திமான் 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "samasta kalyāṇa-guṇa-,    gaṇāmṛta-sambhābana,",
+      "samudra-sbarūpa bhagabān",
+      "bindu bindu guṇa taba,    sarbajība-subaibhaba,",
+      "tumi pūrṇa sarbaśaktimān 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "samasta kalyāṇa-guṇa-,    gaṇāmṛta-sambhābana,",
+      "samudra-sbarūpa bhagabān",
+      "bindu bindu guṇa taba,    sarbajība-subaibhaba,",
+      "tumi pūrṇa sarbaśaktimān 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "e bhaktibinoda chāra,    kṛtāñjali bāra bāra,",
+    "kare cittakathā bijñāpana",
+    "taba dāsagaṇa[FLAG_HYPHEN_ALPHA]saṅge,    taba līlākathā[FLAG_HYPHEN_ALPHA]raṅge,",
+    "yāya yena āmāra jībana 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎ भक्तिबिनॊद छार,    क्ड़्ताञ्जलि बार बार,",
+      "करॆ चित्तकथा बिज्ञापन",
+      "तब दासगणसङ्गॆ,    तब लीलाकथारङ्गॆ,",
+      "याय यॆन आमार जीबन ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এ ভক্তিবিনোদ ছার,    ক্ড়্তাঞ্জলি বার বার,",
+      "করে চিত্তকথা বিজ্ঞাপন",
+      "তব দাসগণসঙ্গে,    তব লীলাকথারঙ্গে,",
+      "যায় যেন আমার জীবন ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏ ଭକ୍ତିବିନୋଦ ଛାର,    କ୍ଡ଼୍ତାଞ୍ଜଲି ବାର ବାର,",
+      "କରେ ଚିତ୍ତକଥା ବିଜ୍ଞାପନ",
+      "ତବ ଦାସଗଣସଙ୍ଗେ,    ତବ ଲୀଲାକଥାରଙ୍ଗେ,",
+      "ଯାୟ ଯେନ ଆମାର ଜୀବନ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એ ભક્તિબિનોદ છાર,    ક્ડ઼્તાઞ્જલિ બાર બાર,",
+      "કરે ચિત્તકથા બિજ્ઞાપન",
+      "તબ દાસગણસઙ્ગે,    તબ લીલાકથારઙ્ગે,",
+      "યાય યેન આમાર જીબન ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "e bhaktibinoda chāra,    kṛtāñjali bāra bāra,",
+      "kare cittakathā bijñāpana",
+      "taba dāsagaṇa-saṅge,    taba līlākathā-raṅge,",
+      "yāya yena āmāra jībana 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎ ಭಕ್ತಿಬಿನೊದ ಛಾರ,    ಕ್‌ಡ಼್ತಾಂಜಲಿ ಬಾರ ಬಾರ,",
+      "ಕರೆ ಚಿತ್ತಕಥಾ ಬಿಜ್ಞಾಪನ",
+      "ತಬ ದಾಸಗಣಸಂಗೆ,    ತಬ ಲೀಲಾಕಥಾರಂಗೆ,",
+      "ಯಾಯ ಯೆನ ಆಮಾರ ಜೀಬನ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎ భక్తిబినొద ఛార,    క్డ్తాంజలి బార బార,",
+      "కరె చిత్తకథా బిజ్ఞాపన",
+      "తబ దాసగణసంగె,    తబ లీలాకథారంగె,",
+      "యాయ యెన ఆమార జీబన 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆ бхактибино̆да чха̄ра,    кр̤та̄н̃джали ба̄ра ба̄ра,",
+      "карэ̆ читтакатха̄ биджн̃а̄пана",
+      "таба да̄саган̣асан̇гэ̆,    таба лӣла̄катха̄ран̇гэ̆,",
+      "йа̄йа йэ̆на а̄ма̄ра джӣбана 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എ ഭക്തിബിനൊദ ഛാര,    ക്ഡ്താഞ്ജലി ബാര ബാര,",
+      "കരെ ചിത്തകഥാ ബിജ്ഞാപന",
+      "തബ ദാസഗണസംഗെ,    തബ ലീലാകഥാരംഗെ,",
+      "യായ യെന ആമാര ജീബന 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எ ப⁴க்திபி³னொத³ சா²ர,    க்ஃட்²தாஞ்ஜலி பா³ர பா³ர,",
+      "கரெ சித்தகதா² பி³ஜ்ஞாபன",
+      "தப³ தா³ஸக³ணஸங்கெ³,    தப³ லீலாகதா²ரங்கெ³,",
+      "யாய யென ஆமார ஜீப³ன 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "e bhaktibinoda chāra,    kṛtāñjali bāra bāra,",
+      "kare cittakathā bijñāpana",
+      "taba dāsagaṇa-saṅge,    taba līlākathā-raṅge,",
+      "yāya yena āmāra jībana 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "e bhaktibinoda chāra,    kṛtāñjali bāra bāra,",
+      "kare cittakathā bijñāpana",
+      "taba dāsagaṇa-saṅge,    taba līlākathā-raṅge,",
+      "yāya yena āmāra jībana 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "śabdārthaḥ[FLAG_HYPHEN_ALPHA] sambhābana—saṁsthāna; sarbajība[FLAG_HYPHEN_ALPHA]subaibhaba—sakala jībera susampatti"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शब्दार्थः सम्भाबन—संस्थान; सर्बजीबसुबैभब—सकल जीबॆर सुसम्पत्ति"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শব্দার্থঃ সম্ভাবন—সংস্থান; সর্বজীবসুবৈভব—সকল জীবের সুসম্পত্তি"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶବ୍ଦାର୍ଥଃ ସମ୍ଭାବନ—ସଂସ୍ଥାନ; ସର୍ବଜୀବସୁବୈଭବ—ସକଲ ଜୀବେର ସୁସମ୍ପତ୍ତି"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શબ્દાર્થઃ સમ્ભાબન—સંસ્થાન; સર્બજીબસુબૈભબ—સકલ જીબેર સુસમ્પત્તિ"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śabdārthaḥ- sambhābana—saṁsthāna; sarbajība-subaibhaba—sakala jībera susampatti"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶಬ್ದಾರ್ಥಃ ಸಂಭಾಬನ—ಸಂಸ್ಥಾನ; ಸರ್ಬಜೀಬಸುಬೈಭಬ—ಸಕಲ ಜೀಬೆರ ಸುಸಂಪತ್ತಿ"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శబ్దార్థః సంభాబన—సంస్థాన; సర్బజీబసుబైభబ—సకల జీబెర సుసంపత్తి"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́абда̄ртхах̣ самбха̄бана—сам̣стха̄на; сарбаджӣбасубаибхаба—сакала джӣбэ̆ра сусампатти"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശബ്ദാർഥഃ സംഭാബന—സംസ്ഥാന; സർബജീബസുബൈഭബ—സകല ജീബെര സുസമ്പത്തി"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶப்³தா³ர்த²꞉ ஸம்பா⁴ப³ன—ஸம்ʼஸ்தா²ன; ஸர்ப³ஜீப³ஸுபை³ப⁴ப³—ஸகல ஜீபெ³ர ஸுஸம்பத்தி"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śabdārthaḥ- sambhābana—saṁsthāna; sarbajība-subaibhaba—sakala jībera susampatti"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śabdārthaḥ- sambhābana—saṁsthāna; sarbajība-subaibhaba—sakala jībera susampatti"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "বশী বদান্যো গুণবানৃজুঃ শুচি-"
+  },
+  {
+   "language_code": "ben",
+   "text": "র্মৃদুর্দয়ালুর্মধুরঃ স্থিরঃ সমঃ ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "কৃতী কৃতজ্ঞস্ত্বমসি স্বভাবতঃ "
+  },
+  {
+   "language_code": "ben",
+   "text": "সমস্তকল্যাণ-গুণামৃতোদধিঃ ।।৫।।"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

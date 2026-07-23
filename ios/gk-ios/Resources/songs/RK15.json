@@ -1,0 +1,556 @@
+{
+ "uid": "RK15",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "গোবর্ধন গিরিবর, কেবল নির্জ্জন স্থল"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "gobardhana giribara, kebala nirjana sthala"
+  }
+ ],
+ "author_uid": "?",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "অজানা লেখক"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Unknown Author"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "gobardhana giribara,    kebala nirjana sthala,",
+    "rāi kānu karibe śayane",
+    "lalitā[FLAG_HYPHEN_ALPHA]biśākhā saṅge,    sebana kariba raṅge,",
+    "sukhamaya rātula caraṇe 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गॊबर्धन गिरिबर,    कॆबल निर्जन स्थल,",
+      "राइ कानु करिबॆ शयनॆ",
+      "ललिताबिशाखा सङ्गॆ,    सॆबन करिब रङ्गॆ,",
+      "सुखमय रातुल चरणॆ १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গোবর্ধন গিরিবর,    কেবল নির্জন স্থল,",
+      "রাই কানু করিবে শয়নে",
+      "ললিতাবিশাখা সঙ্গে,    সেবন করিব রঙ্গে,",
+      "সুখময় রাতুল চরণে ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୋବର୍ଧନ ଗିରିବର,    କେବଲ ନିର୍ଜନ ସ୍ଥଲ,",
+      "ରାଇ କାନୁ କରିବେ ଶୟନେ",
+      "ଲଲିତାବିଶାଖା ସଙ୍ଗେ,    ସେବନ କରିବ ରଙ୍ଗେ,",
+      "ସୁଖମୟ ରାତୁଲ ଚରଣେ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગોબર્ધન ગિરિબર,    કેબલ નિર્જન સ્થલ,",
+      "રાઇ કાનુ કરિબે શયને",
+      "લલિતાબિશાખા સઙ્ગે,    સેબન કરિબ રઙ્ગે,",
+      "સુખમય રાતુલ ચરણે ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gobardhana giribara,    kebala nirjana sthala,",
+      "rāi kānu karibe śayane",
+      "lalitā-biśākhā saṅge,    sebana kariba raṅge,",
+      "sukhamaya rātula caraṇe 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗೊಬರ್ಧನ ಗಿರಿಬರ,    ಕೆಬಲ ನಿರ್ಜನ ಸ್ಥಲ,",
+      "ರಾಇ ಕಾನು ಕರಿಬೆ ಶಯನೆ",
+      "ಲಲಿತಾಬಿಶಾಖಾ ಸಂಗೆ,    ಸೆಬನ ಕರಿಬ ರಂಗೆ,",
+      "ಸುಖಮಯ ರಾತುಲ ಚರಣೆ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గొబర్ధన గిరిబర,    కెబల నిర్జన స్థల,",
+      "రాఇ కాను కరిబె శయనె",
+      "లలితాబిశాఖా సంగె,    సెబన కరిబ రంగె,",
+      "సుఖమయ రాతుల చరణె 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "го̆бардхана гирибара,    кэ̆бала нирджана стхала,",
+      "ра̄и ка̄ну карибэ̆ ш́айанэ̆",
+      "лалита̄биш́а̄кха̄ сан̇гэ̆,    сэ̆бана кариба ран̇гэ̆,",
+      "сукхамайа ра̄тула чаран̣э̆ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗൊബർധന ഗിരിബര,    കെബല നിർജന സ്ഥല,",
+      "രാഇ കാനു കരിബെ ശയനെ",
+      "ലലിതാബിശാഖാ സംഗെ,    സെബന കരിബ രംഗെ,",
+      "സുഖമയ രാതുല ചരണെ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கொ³ப³ர்த⁴ன கி³ரிப³ர,    கெப³ல நிர்ஜன ஸ்த²ல,",
+      "ராஇ கானு கரிபெ³ ஶயனெ",
+      "லலிதாபி³ஶாகா² ஸங்கெ³,    ஸெப³ன கரிப³ ரங்கெ³,",
+      "ஸுக²மய ராதுல சரணெ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gobardhana giribara,    kebala nirjana sthala,",
+      "rāi kānu karibe śayane",
+      "lalitā-biśākhā saṅge,    sebana kariba raṅge,",
+      "sukhamaya rātula caraṇe 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gobardhana giribara,    kebala nirjana sthala,",
+      "rāi kānu karibe śayane",
+      "lalitā-biśākhā saṅge,    sebana kariba raṅge,",
+      "sukhamaya rātula caraṇe 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "kanaka sampūṭa kari,    karpūra tāmbula bhari,",
+    "yogāiba badanakamale",
+    "maṇimaya kiṅkaṇī,    ratananūpura āni’,",
+    "parāiba caraṇayugale 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कनक सम्पूट करि,    कर्पूर ताम्बुल भरि,",
+      "यॊगाइब बदनकमलॆ",
+      "मणिमय किङ्कणी,    रतननूपुर आनिऽ,",
+      "पराइब चरणयुगलॆ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কনক সম্পূট করি,    কর্পূর তাম্বুল ভরি,",
+      "যোগাইব বদনকমলে",
+      "মণিময় কিঙ্কণী,    রতননূপুর আনিঽ,",
+      "পরাইব চরণয়ুগলে ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କନକ ସମ୍ପୂଟ କରି,    କର୍ପୂର ତାମ୍ବୁଲ ଭରି,",
+      "ଯୋଗାଇବ ବଦନକମଲେ",
+      "ମଣିମୟ କିଙ୍କଣୀ,    ରତନନୂପୁର ଆନିଽ,",
+      "ପରାଇବ ଚରଣୟୁଗଲେ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કનક સમ્પૂટ કરિ,    કર્પૂર તામ્બુલ ભરિ,",
+      "યોગાઇબ બદનકમલે",
+      "મણિમય કિઙ્કણી,    રતનનૂપુર આનિઽ,",
+      "પરાઇબ ચરણયુગલે ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kanaka sampūṭa kari,    karpūra tāmbula bhari,",
+      "yogāiba badanakamale",
+      "maṇimaya kiṅkaṇī,    ratananūpura āni’,",
+      "parāiba caraṇayugale 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕನಕ ಸಂಪೂಟ ಕರಿ,    ಕರ್ಪೂರ ತಾಂಬುಲ ಭರಿ,",
+      "ಯೊಗಾಇಬ ಬದನಕಮಲೆ",
+      "ಮಣಿಮಯ ಕಿಂಕಣೀ,    ರತನನೂಪುರ ಆನಿಽ,",
+      "ಪರಾಇಬ ಚರಣಯುಗಲೆ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కనక సంపూట కరి,    కర్పూర తాంబుల భరి,",
+      "యొగాఇబ బదనకమలె",
+      "మణిమయ కింకణీ,    రతననూపుర ఆనిఽ,",
+      "పరాఇబ చరణయుగలె 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "канака сампӯт̣а кари,    карпӯра та̄мбула бхари,",
+      "йо̆га̄иба баданакамалэ̆",
+      "ман̣имайа кин̇кан̣ӣ,    ратананӯпура а̄ни',",
+      "пара̄иба чаран̣айугалэ̆ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കനക സമ്പൂട കരി,    കർപൂര താംബുല ഭരി,",
+      "യൊഗാഇബ ബദനകമലെ",
+      "മണിമയ കിങ്കണീ,    രതനനൂപുര ആനിഽ,",
+      "പരാഇബ ചരണയുഗലെ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கனக ஸம்பூட கரி,    கர்பூர தாம்பு³ல ப⁴ரி,",
+      "யொகா³இப³ ப³த³னகமலெ",
+      "மணிமய கிங்கணீ,    ரதனநூபுர ஆனி(அ),",
+      "பராஇப³ சரணயுக³லெ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kanaka sampūṭa kari,    karpūra tāmbula bhari,",
+      "yogāiba badanakamale",
+      "maṇimaya kiṅkaṇī,    ratananūpura āni’,",
+      "parāiba caraṇayugale 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kanaka sampūṭa kari,    karpūra tāmbula bhari,",
+      "yogāiba badanakamale",
+      "maṇimaya kiṅkaṇī,    ratananūpura āni’,",
+      "parāiba caraṇayugale 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "kanaka kaṭorā pūri’,    sugandhi candana buri,",
+    "dohākāra śrīaṅge ḍhāliba",
+    "gururūpā sakhā bāme,    tribhaṅga bhaṅgima ṭhāme,",
+    "cāmarera bātāsa kariba 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कनक कटॊरा पूरिऽ,    सुगन्धि चन्दन बुरि,",
+      "दॊहाकार श्रीअङ्गॆ ढालिब",
+      "गुरुरूपा सखा बामॆ,    त्रिभङ्ग भङ्गिम ठामॆ,",
+      "चामरॆर बातास करिब ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কনক কটোরা পূরিঽ,    সুগন্ধি চন্দন বুরি,",
+      "দোহাকার শ্রীঅঙ্গে ঢালিব",
+      "গুরুরূপা সখা বামে,    ত্রিভঙ্গ ভঙ্গিম ঠামে,",
+      "চামরের বাতাস করিব ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କନକ କଟୋରା ପୂରିଽ,    ସୁଗନ୍ଧି ଚନ୍ଦନ ବୁରି,",
+      "ଦୋହାକାର ଶ୍ରୀଅଙ୍ଗେ ଢାଲିବ",
+      "ଗୁରୁରୂପା ସଖା ବାମେ,    ତ୍ରିଭଙ୍ଗ ଭଙ୍ଗିମ ଠାମେ,",
+      "ଚାମରେର ବାତାସ କରିବ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કનક કટોરા પૂરિઽ,    સુગન્ધિ ચન્દન બુરિ,",
+      "દોહાકાર શ્રીઅઙ્ગે ઢાલિબ",
+      "ગુરુરૂપા સખા બામે,    ત્રિભઙ્ગ ભઙ્ગિમ ઠામે,",
+      "ચામરેર બાતાસ કરિબ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kanaka kaṭorā pūri’,    sugandhi candana buri,",
+      "dohākāra śrīaṅge ḍhāliba",
+      "gururūpā sakhā bāme,    tribhaṅga bhaṅgima ṭhāme,",
+      "cāmarera bātāsa kariba 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕನಕ ಕಟೊರಾ ಪೂರಿಽ,    ಸುಗಂಧಿ ಚಂದನ ಬುರಿ,",
+      "ದೊಹಾಕಾರ ಶ್ರೀಅಂಗೆ ಢಾಲಿಬ",
+      "ಗುರುರೂಪಾ ಸಖಾ ಬಾಮೆ,    ತ್ರಿಭಂಗ ಭಂಗಿಮ ಠಾಮೆ,",
+      "ಚಾಮರೆರ ಬಾತಾಸ ಕರಿಬ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కనక కటొరా పూరిఽ,    సుగంధి చందన బురి,",
+      "దొహాకార శ్రీఅంగె ఢాలిబ",
+      "గురురూపా సఖా బామె,    త్రిభంగ భంగిమ ఠామె,",
+      "చామరెర బాతాస కరిబ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "канака кат̣о̆ра̄ пӯри',    сугандхи чандана бури,",
+      "до̆ха̄ка̄ра ш́рӣан̇гэ̆ д̣ха̄либа",
+      "гурурӯпа̄ сакха̄ ба̄мэ̆,    трибхан̇га бхан̇гима т̣ха̄мэ̆,",
+      "ча̄марэ̆ра ба̄та̄са кариба 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കനക കടൊരാ പൂരിഽ,    സുഗന്ധി ചന്ദന ബുരി,",
+      "ദൊഹാകാര ശ്രീഅംഗെ ഢാലിബ",
+      "ഗുരുരൂപാ സഖാ ബാമെ,    ത്രിഭംഗ ഭംഗിമ ഠാമെ,",
+      "ചാമരെര ബാതാസ കരിബ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கனக கடொரா பூரி(அ),    ஸுக³ந்தி⁴ சந்த³ன பு³ரி,",
+      "தொ³ஹாகார ஶ்ரீஅங்கெ³ டா⁴லிப³",
+      "கு³ருரூபா ஸகா² பா³மெ,    த்ரிப⁴ங்க³ ப⁴ங்கி³ம டா²மெ,",
+      "சாமரெர பா³தாஸ கரிப³ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kanaka kaṭorā pūri’,    sugandhi candana buri,",
+      "dohākāra śrīaṅge ḍhāliba",
+      "gururūpā sakhā bāme,    tribhaṅga bhaṅgima ṭhāme,",
+      "cāmarera bātāsa kariba 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kanaka kaṭorā pūri’,    sugandhi candana buri,",
+      "dohākāra śrīaṅge ḍhāliba",
+      "gururūpā sakhā bāme,    tribhaṅga bhaṅgima ṭhāme,",
+      "cāmarera bātāsa kariba 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "dohāra kamala ā̃khi,    pulaka ha·iyā dekhi’,",
+    "duhũ pada paraśiba kare",
+    "caitanyadāsera dāsa,    mane mātra abhilāṣa,",
+    "narottamadāse sadā sphūre 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "दॊहार कमल आंखि,    पुलक हइया दॆखिऽ,",
+      "दुहुं पद परशिब करॆ",
+      "चैतन्यदासॆर दास,    मनॆ मात्र अभिलाष,",
+      "नरॊत्तमदासॆ सदा स्फूरॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "দোহার কমল আঙ্খি,    পুলক হইয়া দেখিঽ,",
+      "দুহুং পদ পরশিব করে",
+      "চৈতন্যদাসের দাস,    মনে মাত্র অভিলাষ,",
+      "নরোত্তমদাসে সদা স্ফূরে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଦୋହାର କମଲ ଆଙ୍ଖି,    ପୁଲକ ହଇୟା ଦେଖିଽ,",
+      "ଦୁହୁଂ ପଦ ପରଶିବ କରେ",
+      "ଚୈତନ୍ୟଦାସେର ଦାସ,    ମନେ ମାତ୍ର ଅଭିଲାଷ,",
+      "ନରୋତ୍ତମଦାସେ ସଦା ସ୍ଫୂରେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "દોહાર કમલ આંખિ,    પુલક હઇયા દેખિઽ,",
+      "દુહું પદ પરશિબ કરે",
+      "ચૈતન્યદાસેર દાસ,    મને માત્ર અભિલાષ,",
+      "નરોત્તમદાસે સદા સ્ફૂરે ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "dohāra kamala ā̃khi,    pulaka ha·iyā dekhi’,",
+      "duhũ pada paraśiba kare",
+      "caitanyadāsera dāsa,    mane mātra abhilāṣa,",
+      "narottamadāse sadā sphūre 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ದೊಹಾರ ಕಮಲ ಆಂಖಿ,    ಪುಲಕ ಹಇಯಾ ದೆಖಿಽ,",
+      "ದುಹುಂ ಪದ ಪರಶಿಬ ಕರೆ",
+      "ಚೈತನ್ಯದಾಸೆರ ದಾಸ,    ಮನೆ ಮಾತ್ರ ಅಭಿಲಾಷ,",
+      "ನರೊತ್ತಮದಾಸೆ ಸದಾ ಸ್ಫೂರೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "దొహార కమల ఆంఖి,    పులక హఇయా దెఖిఽ,",
+      "దుహుం పద పరశిబ కరె",
+      "చైతన్యదాసెర దాస,    మనె మాత్ర అభిలాష,",
+      "నరొత్తమదాసె సదా స్ఫూరె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "до̆ха̄ра камала а̄м̣кхи,    пулака хаийа̄ дэ̆кхи',",
+      "духум̣ пада параш́иба карэ̆",
+      "чаитанйада̄сэ̆ра да̄са,    манэ̆ ма̄тра абхила̄ша,",
+      "наро̆ттамада̄сэ̆ сада̄ спхӯрэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ദൊഹാര കമല ആംഖി,    പുലക ഹഇയാ ദെഖിഽ,",
+      "ദുഹും പദ പരശിബ കരെ",
+      "ചൈതന്യദാസെര ദാസ,    മനെ മാത്ര അഭിലാഷ,",
+      "നരൊത്തമദാസെ സദാ സ്ഫൂരെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தொ³ஹார கமல ஆங்கி²,    புலக ஹஇயா தெ³கி²(அ),",
+      "து³ஹும்ʼ பத³ பரஶிப³ கரெ",
+      "சைதன்யதா³ஸெர தா³ஸ,    மனெ மாத்ர அபி⁴லாஷ,",
+      "நரொத்தமதா³ஸெ ஸதா³ ஸ்பூ²ரெ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "dohāra kamala ā̃khi,    pulaka ha·iyā dekhi’,",
+      "duhũ pada paraśiba kare",
+      "caitanyadāsera dāsa,    mane mātra abhilāṣa,",
+      "narottamadāse sadā sphūre 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "dohāra kamala ā̃khi,    pulaka ha·iyā dekhi’,",
+      "duhũ pada paraśiba kare",
+      "caitanyadāsera dāsa,    mane mātra abhilāṣa,",
+      "narottamadāse sadā sphūre 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": []
+}

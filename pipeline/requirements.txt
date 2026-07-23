@@ -1,0 +1,15 @@
+# Basic requirements
+typing-extensions>=4.0.0
+pyyaml>=6.0
+requests>=2.27.0
+
+# For development and testing
+pytest>=7.0.0
+mypy>=0.900
+flake8>=4.0.0
+
+# For Aksharamukha transliteration
+aksharamukha>=1.0.0
+
+# For Claude API integration
+python-dotenv>=0.20.0

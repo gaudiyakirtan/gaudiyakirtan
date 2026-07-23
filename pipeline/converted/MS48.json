@@ -1,0 +1,805 @@
+{
+ "uid": "MS48",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ওরে মন! ধন-জন-জীবন-যৌবন"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "ore mana! dhana-jana-jībana-yaubana"
+  }
+ ],
+ "author_uid": "pdt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল প্রেমানন্দ দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Premānanda dāsa Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "ore mana! dhana[FLAG_HYPHEN_ALPHA]jana[FLAG_HYPHEN_ALPHA]jībana[FLAG_HYPHEN_ALPHA]yaubana",
+    "ei āche ei nāi,    cakṣe kinā dekha tāi,",
+    "tumi kise balicha āpana 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऒरॆ मन! धनजनजीबनयौबन",
+      "ऎइ आछॆ ऎइ नाइ,    चक्षॆ किना दॆख ताइ,",
+      "तुमि किसॆ बलिछ आपन १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ওরে মন! ধনজনজীবনয়ৌবন",
+      "এই আছে এই নাই,    চক্ষে কিনা দেখ তাই,",
+      "তুমি কিসে বলিছ আপন ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଓରେ ମନ! ଧନଜନଜୀବନୟୌବନ",
+      "ଏଇ ଆଛେ ଏଇ ନାଇ,    ଚକ୍ଷେ କିନା ଦେଖ ତାଇ,",
+      "ତୁମି କିସେ ବଲିଛ ଆପନ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઓરે મન! ધનજનજીબનયૌબન",
+      "એઇ આછે એઇ નાઇ,    ચક્ષે કિના દેખ તાઇ,",
+      "તુમિ કિસે બલિછ આપન ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ore mana! dhana-jana-jībana-yaubana",
+      "ei āche ei nāi,    cakṣe kinā dekha tāi,",
+      "tumi kise balicha āpana 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಒರೆ ಮನ! ಧನಜನಜೀಬನಯೌಬನ",
+      "ಎಇ ಆಛೆ ಎಇ ನಾಇ,    ಚಕ್ಷೆ ಕಿನಾ ದೆಖ ತಾಇ,",
+      "ತುಮಿ ಕಿಸೆ ಬಲಿಛ ಆಪನ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఒరె మన! ధనజనజీబనయౌబన",
+      "ఎఇ ఆఛె ఎఇ నాఇ,    చక్షె కినా దెఖ తాఇ,",
+      "తుమి కిసె బలిఛ ఆపన 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "о̆рэ̆ мана! дханаджанаджӣбанайаубана",
+      "э̆и а̄чхэ̆ э̆и на̄и,    чакшэ̆ кина̄ дэ̆кха та̄и,",
+      "туми кисэ̆ баличха а̄пана 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഒരെ മന! ധനജനജീബനയൗബന",
+      "എഇ ആഛെ എഇ നാഇ,    ചക്ഷെ കിനാ ദെഖ താഇ,",
+      "തുമി കിസെ ബലിഛ ആപന 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஒரெ மன! த⁴னஜனஜீப³னயௌப³ன",
+      "எஇ ஆசெ² எஇ நாஇ,    சக்ஷெ கினா தெ³க² தாஇ,",
+      "துமி கிஸெ ப³லிச² ஆபன 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ore mana! dhana-jana-jībana-yaubana",
+      "ei āche ei nāi,    cakṣe kinā dekha tāi,",
+      "tumi kise balicha āpana 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ore mana! dhana-jana-jībana-yaubana",
+      "ei āche ei nāi,    cakṣe kinā dekha tāi,",
+      "tumi kise balicha āpana 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "niśira sbapana yena,    e dhana[FLAG_HYPHEN_ALPHA]sampada tena,",
+    "tileke sakali bhāi miche",
+    "dekhiyā nā dekha kene,    śuniyā nā śuna kāṇe,",
+    "ki lāgi chāḓite nāra icche 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "निशिर स्बपन यॆन,    ऎ धनसम्पद तॆन,",
+      "तिलॆकॆ सकलि भाइ मिछॆ",
+      "दॆखिया ना दॆख कॆनॆ,    शुनिया ना शुन काणॆ,",
+      "कि लागि छाḓइतॆ नार इच्छॆ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নিশির স্বপন যেন,    এ ধনসম্পদ তেন,",
+      "তিলেকে সকলি ভাই মিছে",
+      "দেখিয়া না দেখ কেনে,    শুনিয়া না শুন কাণে,",
+      "কি লাগি ছাḓইতে নার ইচ্ছে ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନିଶିର ସ୍ବପନ ଯେନ,    ଏ ଧନସମ୍ପଦ ତେନ,",
+      "ତିଲେକେ ସକଲି ଭାଇ ମିଛେ",
+      "ଦେଖିୟା ନା ଦେଖ କେନେ,    ଶୁନିୟା ନା ଶୁନ କାଣେ,",
+      "କି ଲାଗି ଛାḓଇତେ ନାର ଇଚ୍ଛେ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નિશિર સ્બપન યેન,    એ ધનસમ્પદ તેન,",
+      "તિલેકે સકલિ ભાઇ મિછે",
+      "દેખિયા ના દેખ કેને,    શુનિયા ના શુન કાણે,",
+      "કિ લાગિ છાḓઇતે નાર ઇચ્છે ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "niśira sbapana yena,    e dhana-sampada tena,",
+      "tileke sakali bhāi miche",
+      "dekhiyā nā dekha kene,    śuniyā nā śuna kāṇe,",
+      "ki lāgi chāḓite nāra icche 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಿಶಿರ ಸ್ಬಪನ ಯೆನ,    ಎ ಧನಸಂಪದ ತೆನ,",
+      "ತಿಲೆಕೆ ಸಕಲಿ ಭಾಇ ಮಿಛೆ",
+      "ದೆಖಿಯಾ ನಾ ದೆಖ ಕೆನೆ,    ಶುನಿಯಾ ನಾ ಶುನ ಕಾಣೆ,",
+      "ಕಿ ಲಾಗಿ ಛಾḓಇತೆ ನಾರ ಇಚ್ಛೆ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నిశిర స్బపన యెన,    ఎ ధనసంపద తెన,",
+      "తిలెకె సకలి భాఇ మిఛె",
+      "దెఖియా నా దెఖ కెనె,    శునియా నా శున కాణె,",
+      "కి లాగి ఛాḓఇతె నార ఇచ్ఛె 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ниш́ира сбапана йэ̆на,    э̆ дханасампада тэ̆на,",
+      "тилэ̆кэ̆ сакали бха̄и мичхэ̆",
+      "дэ̆кхийа̄ на̄ дэ̆кха кэ̆нэ̆,    ш́унийа̄ на̄ ш́уна ка̄н̣э̆,",
+      "ки ла̄ги чха̄ḓитэ̆ на̄ра иччхэ̆ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നിശിര സ്ബപന യെന,    എ ധനസമ്പദ തെന,",
+      "തിലെകെ സകലി ഭാഇ മിഛെ",
+      "ദെഖിയാ നാ ദെഖ കെനെ,    ശുനിയാ നാ ശുന കാണെ,",
+      "കി ലാഗി ഛാḓഇതെ നാര ഇച്ഛെ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நிஶிர ஸ்ப³பன யென,    எ த⁴னஸம்பத³ தென,",
+      "திலெகெ ஸகலி பா⁴இ மிசெ²",
+      "தெ³கி²யா நா தெ³க² கெனெ,    ஶுனியா நா ஶுன காணெ,",
+      "கி லாகி³ சா²ḓஇதெ நார இச்செ² 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "niśira sbapana yena,    e dhana-sampada tena,",
+      "tileke sakali bhāi miche",
+      "dekhiyā nā dekha kene,    śuniyā nā śuna kāṇe,",
+      "ki lāgi chāḍite nāra icche 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "niśira sbapana yena,    e dhana-sampada tena,",
+      "tileke sakali bhāi miche",
+      "dekhiyā nā dekha kene,    śuniyā nā śuna kāṇe,",
+      "ki lāgi chāḓite nāra icche 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "kanyā putra yata ithi,    marile se yāya kathi,",
+    "ki jāni kothāya tumi yāo",
+    "mithyā ‘mora mora’ kara,    rātridina bhābi’ mara,",
+    "para lāgi’ āpanā hārāo 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कन्या पुत्र यत इथि,    मरिलॆ सॆ याय कथि,",
+      "कि जानि कॊथाय तुमि याऒ",
+      "मिथ्या ‘मॊर मॊरऽ कर,    रात्रिदिन भाबिऽ मर,",
+      "पर लागिऽ आपना हाराऒ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কন্যা পুত্র যত ইথি,    মরিলে সে যায় কথি,",
+      "কি জানি কোথায় তুমি যাও",
+      "মিথ্যা ‘মোর মোরঽ কর,    রাত্রিদিন ভাবিঽ মর,",
+      "পর লাগিঽ আপনা হারাও ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କନ୍ୟା ପୁତ୍ର ଯତ ଇଥି,    ମରିଲେ ସେ ଯାୟ କଥି,",
+      "କି ଜାନି କୋଥାୟ ତୁମି ଯାଓ",
+      "ମିଥ୍ୟା ‘ମୋର ମୋରଽ କର,    ରାତ୍ରିଦିନ ଭାବିଽ ମର,",
+      "ପର ଲାଗିଽ ଆପନା ହାରାଓ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કન્યા પુત્ર યત ઇથિ,    મરિલે સે યાય કથિ,",
+      "કિ જાનિ કોથાય તુમિ યાઓ",
+      "મિથ્યા ‘મોર મોરઽ કર,    રાત્રિદિન ભાબિઽ મર,",
+      "પર લાગિઽ આપના હારાઓ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kanyā putra yata ithi,    marile se yāya kathi,",
+      "ki jāni kothāya tumi yāo",
+      "mithyā ‘mora mora’ kara,    rātridina bhābi’ mara,",
+      "para lāgi’ āpanā hārāo 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕನ್ಯಾ ಪುತ್ರ ಯತ ಇಥಿ,    ಮರಿಲೆ ಸೆ ಯಾಯ ಕಥಿ,",
+      "ಕಿ ಜಾನಿ ಕೊಥಾಯ ತುಮಿ ಯಾಒ",
+      "ಮಿಥ್ಯಾ ‘ಮೊರ ಮೊರಽ ಕರ,    ರಾತ್ರಿದಿನ ಭಾಬಿಽ ಮರ,",
+      "ಪರ ಲಾಗಿಽ ಆಪನಾ ಹಾರಾಒ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కన్యా పుత్ర యత ఇథి,    మరిలె సె యాయ కథి,",
+      "కి జాని కొథాయ తుమి యాఒ",
+      "మిథ్యా ‘మొర మొరఽ కర,    రాత్రిదిన భాబిఽ మర,",
+      "పర లాగిఽ ఆపనా హారాఒ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "канйа̄ путра йата итхи,    марилэ̆ сэ̆ йа̄йа катхи,",
+      "ки джа̄ни ко̆тха̄йа туми йа̄о̆",
+      "митхйа̄ ‘мо̆ра мо̆ра' кара,    ра̄тридина бха̄би' мара,",
+      "пара ла̄ги' а̄пана̄ ха̄ра̄о̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കന്യാ പുത്ര യത ഇഥി,    മരിലെ സെ യായ കഥി,",
+      "കി ജാനി കൊഥായ തുമി യാഒ",
+      "മിഥ്യാ ‘മൊര മൊരഽ കര,    രാത്രിദിന ഭാബിഽ മര,",
+      "പര ലാഗിഽ ആപനാ ഹാരാഒ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கன்யா புத்ர யத இதி²,    மரிலெ ஸெ யாய கதி²,",
+      "கி ஜானி கொதா²ய துமி யாஒ",
+      "மித்²யா ‘மொர மொர(அ) கர,    ராத்ரிதி³ன பா⁴பி³(அ) மர,",
+      "பர லாகி³(அ) ஆபனா ஹாராஒ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kanyā putra yata ithi,    marile se yāya kathi,",
+      "ki jāni kothāya tumi yāo",
+      "mithyā ‘mora mora’ kara,    rātridina bhābi’ mara,",
+      "para lāgi’ āpanā hārāo 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kanyā putra yata ithi,    marile se yāya kathi,",
+      "ki jāni kothāya tumi yāo",
+      "mithyā ‘mora mora’ kara,    rātridina bhābi’ mara,",
+      "para lāgi’ āpanā hārāo 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "kibā āra anya para,    āpanā e kalebara,",
+    "se nāhi tomāra saṅge yāya",
+    "pāchu nāhi dekha ebā,    tora lāgi kānde kebā,",
+    "kāra lāgi kara hāya hāya 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "किबा आर अन्य पर,    आपना ऎ कलॆबर,",
+      "सॆ नाहि तॊमार सङ्गॆ याय",
+      "पाछु नाहि दॆख ऎबा,    तॊर लागि कान्दॆ कॆबा,",
+      "कार लागि कर हाय हाय ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কিবা আর অন্য পর,    আপনা এ কলেবর,",
+      "সে নাহি তোমার সঙ্গে যায়",
+      "পাছু নাহি দেখ এবা,    তোর লাগি কান্দে কেবা,",
+      "কার লাগি কর হায় হায় ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କିବା ଆର ଅନ୍ୟ ପର,    ଆପନା ଏ କଲେବର,",
+      "ସେ ନାହି ତୋମାର ସଙ୍ଗେ ଯାୟ",
+      "ପାଛୁ ନାହି ଦେଖ ଏବା,    ତୋର ଲାଗି କାନ୍ଦେ କେବା,",
+      "କାର ଲାଗି କର ହାୟ ହାୟ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કિબા આર અન્ય પર,    આપના એ કલેબર,",
+      "સે નાહિ તોમાર સઙ્ગે યાય",
+      "પાછુ નાહિ દેખ એબા,    તોર લાગિ કાન્દે કેબા,",
+      "કાર લાગિ કર હાય હાય ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kibā āra anya para,    āpanā e kalebara,",
+      "se nāhi tomāra saṅge yāya",
+      "pāchu nāhi dekha ebā,    tora lāgi kānde kebā,",
+      "kāra lāgi kara hāya hāya 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕಿಬಾ ಆರ ಅನ್ಯ ಪರ,    ಆಪನಾ ಎ ಕಲೆಬರ,",
+      "ಸೆ ನಾಹಿ ತೊಮಾರ ಸಂಗೆ ಯಾಯ",
+      "ಪಾಛು ನಾಹಿ ದೆಖ ಎಬಾ,    ತೊರ ಲಾಗಿ ಕಾಂದೆ ಕೆಬಾ,",
+      "ಕಾರ ಲಾಗಿ ಕರ ಹಾಯ ಹಾಯ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కిబా ఆర అన్య పర,    ఆపనా ఎ కలెబర,",
+      "సె నాహి తొమార సంగె యాయ",
+      "పాఛు నాహి దెఖ ఎబా,    తొర లాగి కాందె కెబా,",
+      "కార లాగి కర హాయ హాయ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "киба̄ а̄ра анйа пара,    а̄пана̄ э̆ калэ̆бара,",
+      "сэ̆ на̄хи то̆ма̄ра сан̇гэ̆ йа̄йа",
+      "па̄чху на̄хи дэ̆кха э̆ба̄,    то̆ра ла̄ги ка̄ндэ̆ кэ̆ба̄,",
+      "ка̄ра ла̄ги кара ха̄йа ха̄йа 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കിബാ ആര അന്യ പര,    ആപനാ എ കലെബര,",
+      "സെ നാഹി തൊമാര സംഗെ യായ",
+      "പാഛു നാഹി ദെഖ എബാ,    തൊര ലാഗി കാന്ദെ കെബാ,",
+      "കാര ലാഗി കര ഹായ ഹായ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கிபா³ ஆர அன்ய பர,    ஆபனா எ கலெப³ர,",
+      "ஸெ நாஹி தொமார ஸங்கெ³ யாய",
+      "பாசு² நாஹி தெ³க² எபா³,    தொர லாகி³ காந்தெ³ கெபா³,",
+      "கார லாகி³ கர ஹாய ஹாய 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kibā āra anya para,    āpanā e kalebara,",
+      "se nāhi tomāra saṅge yāya",
+      "pāchu nāhi dekha ebā,    tora lāgi kānde kebā,",
+      "kāra lāgi kara hāya hāya 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kibā āra anya para,    āpanā e kalebara,",
+      "se nāhi tomāra saṅge yāya",
+      "pāchu nāhi dekha ebā,    tora lāgi kānde kebā,",
+      "kāra lāgi kara hāya hāya 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "yebā ha·iyāche āyu,    se mātra nāsāra bāyu,",
+    "sariyā paḓile āra nāi",
+    "kibā bṛddha kibā bāla,    nāhi tāra kālākāla,",
+    "kothā thāke yaubana[FLAG_HYPHEN_ALPHA]baḓāi 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "यॆबा हइयाछॆ आयु,    सॆ मात्र नासार बायु,",
+      "सरिया पḓइलॆ आर नाइ",
+      "किबा ब्ड़्द्ध किबा बाल,    नाहि तार कालाकाल,",
+      "कॊथा थाकॆ यौबनबḓआइ ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "যেবা হইয়াছে আয়ু,    সে মাত্র নাসার বায়ু,",
+      "সরিয়া পḓইলে আর নাই",
+      "কিবা ব্ড়্দ্ধ কিবা বাল,    নাহি তার কালাকাল,",
+      "কোথা থাকে যৌবনবḓআই ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଯେବା ହଇୟାଛେ ଆୟୁ,    ସେ ମାତ୍ର ନାସାର ବାୟୁ,",
+      "ସରିୟା ପḓଇଲେ ଆର ନାଇ",
+      "କିବା ବ୍ଡ଼୍ଦ୍ଧ କିବା ବାଲ,    ନାହି ତାର କାଲାକାଲ,",
+      "କୋଥା ଥାକେ ଯୌବନବḓଆଇ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "યેબા હઇયાછે આયુ,    સે માત્ર નાસાર બાયુ,",
+      "સરિયા પḓઇલે આર નાઇ",
+      "કિબા બ્ડ઼્દ્ધ કિબા બાલ,    નાહિ તાર કાલાકાલ,",
+      "કોથા થાકે યૌબનબḓઆઇ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "yebā ha·iyāche āyu,    se mātra nāsāra bāyu,",
+      "sariyā paḓile āra nāi",
+      "kibā bṛddha kibā bāla,    nāhi tāra kālākāla,",
+      "kothā thāke yaubana-baḓāi 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಯೆಬಾ ಹಇಯಾಛೆ ಆಯು,    ಸೆ ಮಾತ್ರ ನಾಸಾರ ಬಾಯು,",
+      "ಸರಿಯಾ ಪḓಇಲೆ ಆರ ನಾಇ",
+      "ಕಿಬಾ ಬ್‌ಡ಼್ದ್ಧ ಕಿಬಾ ಬಾಲ,    ನಾಹಿ ತಾರ ಕಾಲಾಕಾಲ,",
+      "ಕೊಥಾ ಥಾಕೆ ಯೌಬನಬḓಆಇ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "యెబా హఇయాఛె ఆయు,    సె మాత్ర నాసార బాయు,",
+      "సరియా పḓఇలె ఆర నాఇ",
+      "కిబా బ్డ్ద్ధ కిబా బాల,    నాహి తార కాలాకాల,",
+      "కొథా థాకె యౌబనబḓఆఇ 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "йэ̆ба̄ хаийа̄чхэ̆ а̄йу,    сэ̆ ма̄тра на̄са̄ра ба̄йу,",
+      "сарийа̄ паḓилэ̆ а̄ра на̄и",
+      "киба̄ бр̤ддха киба̄ ба̄ла,    на̄хи та̄ра ка̄ла̄ка̄ла,",
+      "ко̆тха̄ тха̄кэ̆ йаубанабаḓа̄и 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "യെബാ ഹഇയാഛെ ആയു,    സെ മാത്ര നാസാര ബായു,",
+      "സരിയാ പḓഇലെ ആര നാഇ",
+      "കിബാ ബ്ഡ്ദ്ധ കിബാ ബാല,    നാഹി താര കാലാകാല,",
+      "കൊഥാ ഥാകെ യൗബനബḓആഇ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "யெபா³ ஹஇயாசெ² ஆயு,    ஸெ மாத்ர நாஸார பா³யு,",
+      "ஸரியா பḓஇலெ ஆர நாஇ",
+      "கிபா³ ப்³ஃட்²த்³த⁴ கிபா³ பா³ல,    நாஹி தார காலாகால,",
+      "கொதா² தா²கெ யௌப³னப³ḓஆஇ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "yebā ha·iyāche āyu,    se mātra nāsāra bāyu,",
+      "sariyā paḍile āra nāi",
+      "kibā bṛddha kibā bāla,    nāhi tāra kālākāla,",
+      "kothā thāke yaubana-baḍāi 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "yebā ha·iyāche āyu,    se mātra nāsāra bāyu,",
+      "sariyā paḓile āra nāi",
+      "kibā bṛddha kibā bāla,    nāhi tāra kālākāla,",
+      "kothā thāke yaubana-baḓāi 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "e[FLAG_HYPHEN_ALPHA]sakala yā̃ra māyā,    tā̃re kena bhula bhāyā,",
+    "yā̃ra nāme tribhubana tare",
+    "premānanda kahe yadi,    ‘kṛṣṇa’ kaha nirabadhi,",
+    "tabe ki e jana āra mare 6"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎसकल यांर माया,    तांरॆ कॆन भुल भाया,",
+      "यांर नामॆ त्रिभुबन तरॆ",
+      "प्रॆमानन्द कहॆ यदि,    ‘क्ड़्ष्णऽ कह निरबधि,",
+      "तबॆ कि ऎ जन आर मरॆ ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এসকল যাংর মায়া,    তাংরে কেন ভুল ভায়া,",
+      "যাংর নামে ত্রিভুবন তরে",
+      "প্রেমানন্দ কহে যদি,    ‘ক্ড়্ষ্ণঽ কহ নিরবধি,",
+      "তবে কি এ জন আর মরে ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏସକଲ ଯାଂର ମାୟା,    ତାଂରେ କେନ ଭୁଲ ଭାୟା,",
+      "ଯାଂର ନାମେ ତ୍ରିଭୁବନ ତରେ",
+      "ପ୍ରେମାନନ୍ଦ କହେ ଯଦି,    ‘କ୍ଡ଼୍ଷ୍ଣଽ କହ ନିରବଧି,",
+      "ତବେ କି ଏ ଜନ ଆର ମରେ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એસકલ યાંર માયા,    તાંરે કેન ભુલ ભાયા,",
+      "યાંર નામે ત્રિભુબન તરે",
+      "પ્રેમાનન્દ કહે યદિ,    ‘ક્ડ઼્ષ્ણઽ કહ નિરબધિ,",
+      "તબે કિ એ જન આર મરે ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "e-sakala yā̃ra māyā,    tā̃re kena bhula bhāyā,",
+      "yā̃ra nāme tribhubana tare",
+      "premānanda kahe yadi,    ‘kṛṣṇa’ kaha nirabadhi,",
+      "tabe ki e jana āra mare 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎಸಕಲ ಯಾಂರ ಮಾಯಾ,    ತಾಂರೆ ಕೆನ ಭುಲ ಭಾಯಾ,",
+      "ಯಾಂರ ನಾಮೆ ತ್ರಿಭುಬನ ತರೆ",
+      "ಪ್ರೆಮಾನಂದ ಕಹೆ ಯದಿ,    ‘ಕ್‌ಡ಼್ಷ್ಣಽ ಕಹ ನಿರಬಧಿ,",
+      "ತಬೆ ಕಿ ಎ ಜನ ಆರ ಮರೆ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎసకల యాంర మాయా,    తాంరె కెన భుల భాయా,",
+      "యాంర నామె త్రిభుబన తరె",
+      "ప్రెమానంద కహె యది,    ‘క్డ్ష్ణఽ కహ నిరబధి,",
+      "తబె కి ఎ జన ఆర మరె 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆сакала йа̄м̣ра ма̄йа̄,    та̄м̣рэ̆ кэ̆на бхула бха̄йа̄,",
+      "йа̄м̣ра на̄мэ̆ трибхубана тарэ̆",
+      "прэ̆ма̄нанда кахэ̆ йади,    ‘кр̤шн̣а' каха нирабадхи,",
+      "табэ̆ ки э̆ джана а̄ра марэ̆ 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എസകല യാംര മായാ,    താംരെ കെന ഭുല ഭായാ,",
+      "യാംര നാമെ ത്രിഭുബന തരെ",
+      "പ്രെമാനന്ദ കഹെ യദി,    ‘ക്ഡ്ഷ്ണഽ കഹ നിരബധി,",
+      "തബെ കി എ ജന ആര മരെ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எஸகல யாம்ʼர மாயா,    தாம்ʼரெ கென பு⁴ல பா⁴யா,",
+      "யாம்ʼர நாமெ த்ரிபு⁴ப³ன தரெ",
+      "ப்ரெமானந்த³ கஹெ யதி³,    ‘க்ஃட்²ஷ்ண(அ) கஹ நிரப³தி⁴,",
+      "தபெ³ கி எ ஜன ஆர மரெ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "e-sakala yā̃ra māyā,    tā̃re kena bhula bhāyā,",
+      "yā̃ra nāme tribhubana tare",
+      "premānanda kahe yadi,    ‘kṛṣṇa’ kaha nirabadhi,",
+      "tabe ki e jana āra mare 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "e-sakala yā̃ra māyā,    tā̃re kena bhula bhāyā,",
+      "yā̃ra nāme tribhubana tare",
+      "premānanda kahe yadi,    ‘kṛṣṇa’ kaha nirabadhi,",
+      "tabe ki e jana āra mare 6"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": []
+}

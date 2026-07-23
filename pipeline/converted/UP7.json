@@ -1,0 +1,775 @@
+{
+ "uid": "UP7",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ওরে মন, বাড়িবার আশা কেন কর’?"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "ore mana, bāḓibāra āśā kena kara’?"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "ore mana, bāḓibāra āśā kena kara’?",
+    "pārthiba unnati yata,    śeṣe abanati tata,",
+    "śānta hao, mora bākya dhara’ 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऒरॆ मन, बाḓइबार आशा कॆन करऽ?",
+      "पार्थिब उन्नति यत,    शॆषॆ अबनति तत,",
+      "शान्त हऒ, मॊर बाक्य धरऽ १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ওরে মন, বাḓইবার আশা কেন করঽ?",
+      "পার্থিব উন্নতি যত,    শেষে অবনতি তত,",
+      "শান্ত হও, মোর বাক্য ধরঽ ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଓରେ ମନ, ବାḓଇବାର ଆଶା କେନ କରଽ?",
+      "ପାର୍ଥିବ ଉନ୍ନତି ଯତ,    ଶେଷେ ଅବନତି ତତ,",
+      "ଶାନ୍ତ ହଓ, ମୋର ବାକ୍ୟ ଧରଽ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઓરે મન, બાḓઇબાર આશા કેન કરઽ?",
+      "પાર્થિબ ઉન્નતિ યત,    શેષે અબનતિ તત,",
+      "શાન્ત હઓ, મોર બાક્ય ધરઽ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ore mana, bāḓibāra āśā kena kara’?",
+      "pārthiba unnati yata,    śeṣe abanati tata,",
+      "śānta hao, mora bākya dhara’ 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಒರೆ ಮನ, ಬಾḓಇಬಾರ ಆಶಾ ಕೆನ ಕರಽ?",
+      "ಪಾರ್ಥಿಬ ಉನ್ನತಿ ಯತ,    ಶೆಷೆ ಅಬನತಿ ತತ,",
+      "ಶಾಂತ ಹಒ, ಮೊರ ಬಾಕ್ಯ ಧರಽ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఒరె మన, బాḓఇబార ఆశా కెన కరఽ?",
+      "పార్థిబ ఉన్నతి యత,    శెషె అబనతి తత,",
+      "శాంత హఒ, మొర బాక్య ధరఽ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "о̆рэ̆ мана, ба̄ḓиба̄ра а̄ш́а̄ кэ̆на кара'?",
+      "па̄ртхиба уннати йата,    ш́э̆шэ̆ абанати тата,",
+      "ш́а̄нта хао̆, мо̆ра ба̄кйа дхара' 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഒരെ മന, ബാḓഇബാര ആശാ കെന കരഽ?",
+      "പാർഥിബ ഉന്നതി യത,    ശെഷെ അബനതി തത,",
+      "ശാന്ത ഹഒ, മൊര ബാക്യ ധരഽ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஒரெ மன, பா³ḓஇபா³ர ஆஶா கென கர(அ)?",
+      "பார்தி²ப³ உன்னதி யத,    ஶெஷெ அப³னதி தத,",
+      "ஶாந்த ஹஒ, மொர பா³க்ய த⁴ர(அ) 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ore mana, bāḍibāra āśā kena kara’?",
+      "pārthiba unnati yata,    śeṣe abanati tata,",
+      "śānta hao, mora bākya dhara’ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ore mana, bāḓibāra āśā kena kara’?",
+      "pārthiba unnati yata,    śeṣe abanati tata,",
+      "śānta hao, mora bākya dhara’ 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "āśāra iyattā nāi,    āśā[FLAG_HYPHEN_ALPHA]patha sadā bhāi,",
+    "nairāśya[FLAG_HYPHEN_ALPHA]kaṇṭake ruddha āche",
+    "bāḓa’ yata āśā tata,    āśā nāhi haya hata,",
+    "āśā nāhi nityānitya bāche 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आशार इयत्ता नाइ,    आशापथ सदा भाइ,",
+      "नैराश्यकण्टकॆ रुद्ध आछॆ",
+      "बाḓअऽ यत आशा तत,    आशा नाहि हय हत,",
+      "आशा नाहि नित्यानित्य बाछॆ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আশার ইয়ত্তা নাই,    আশাপথ সদা ভাই,",
+      "নৈরাশ্যকণ্টকে রুদ্ধ আছে",
+      "বাḓঅঽ যত আশা তত,    আশা নাহি হয় হত,",
+      "আশা নাহি নিত্যানিত্য বাছে ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆଶାର ଇୟତ୍ତା ନାଇ,    ଆଶାପଥ ସଦା ଭାଇ,",
+      "ନୈରାଶ୍ୟକଣ୍ଟକେ ରୁଦ୍ଧ ଆଛେ",
+      "ବାḓଅଽ ଯତ ଆଶା ତତ,    ଆଶା ନାହି ହୟ ହତ,",
+      "ଆଶା ନାହି ନିତ୍ୟାନିତ୍ୟ ବାଛେ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આશાર ઇયત્તા નાઇ,    આશાપથ સદા ભાઇ,",
+      "નૈરાશ્યકણ્ટકે રુદ્ધ આછે",
+      "બાḓઅઽ યત આશા તત,    આશા નાહિ હય હત,",
+      "આશા નાહિ નિત્યાનિત્ય બાછે ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "āśāra iyattā nāi,    āśā-patha sadā bhāi,",
+      "nairāśya-kaṇṭake ruddha āche",
+      "bāḓa’ yata āśā tata,    āśā nāhi haya hata,",
+      "āśā nāhi nityānitya bāche 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆಶಾರ ಇಯತ್ತಾ ನಾಇ,    ಆಶಾಪಥ ಸದಾ ಭಾಇ,",
+      "ನೈರಾಶ್ಯಕಂಟಕೆ ರುದ್ಧ ಆಛೆ",
+      "ಬಾḓಅಽ ಯತ ಆಶಾ ತತ,    ಆಶಾ ನಾಹಿ ಹಯ ಹತ,",
+      "ಆಶಾ ನಾಹಿ ನಿತ್ಯಾನಿತ್ಯ ಬಾಛೆ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆశార ఇయత్తా నాఇ,    ఆశాపథ సదా భాఇ,",
+      "నైరాశ్యకంటకె రుద్ధ ఆఛె",
+      "బాḓఅఽ యత ఆశా తత,    ఆశా నాహి హయ హత,",
+      "ఆశా నాహి నిత్యానిత్య బాఛె 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄ш́а̄ра ийатта̄ на̄и,    а̄ш́а̄патха сада̄ бха̄и,",
+      "наира̄ш́йакан̣т̣акэ̆ руддха а̄чхэ̆",
+      "ба̄ḓа' йата а̄ш́а̄ тата,    а̄ш́а̄ на̄хи хайа хата,",
+      "а̄ш́а̄ на̄хи нитйа̄нитйа ба̄чхэ̆ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആശാര ഇയത്താ നാഇ,    ആശാപഥ സദാ ഭാഇ,",
+      "നൈരാശ്യകണ്ടകെ രുദ്ധ ആഛെ",
+      "ബാḓഅഽ യത ആശാ തത,    ആശാ നാഹി ഹയ ഹത,",
+      "ആശാ നാഹി നിത്യാനിത്യ ബാഛെ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆஶார இயத்தா நாஇ,    ஆஶாபத² ஸதா³ பா⁴இ,",
+      "நைராஶ்யகண்டகெ ருத்³த⁴ ஆசெ²",
+      "பா³ḓஅ(அ) யத ஆஶா தத,    ஆஶா நாஹி ஹய ஹத,",
+      "ஆஶா நாஹி நித்யாநித்ய பா³செ² 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "āśāra iyattā nāi,    āśā-patha sadā bhāi,",
+      "nairāśya-kaṇṭake ruddha āche",
+      "bāḍa’ yata āśā tata,    āśā nāhi haya hata,",
+      "āśā nāhi nityānitya bāche 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "āśāra iyattā nāi,    āśā-patha sadā bhāi,",
+      "nairāśya-kaṇṭake ruddha āche",
+      "bāḓa’ yata āśā tata,    āśā nāhi haya hata,",
+      "āśā nāhi nityānitya bāche 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "eka rājya āja pāo,    anya rājya kāla cāo,",
+    "sarbarājya kara’ yadi lābha",
+    "tabu āśā nahe śeṣa,    indrapada abaśeṣa,",
+    "chāḓi’ cā’be brahmāra prabhāba 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎक राज्य आज पाऒ,    अन्य राज्य काल चाऒ,",
+      "सर्बराज्य करऽ यदि लाभ",
+      "तबु आशा नहॆ शॆष,    इन्द्रपद अबशॆष,",
+      "छाḓइऽ चाऽबॆ ब्रह्मार प्रभाब ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এক রাজ্য আজ পাও,    অন্য রাজ্য কাল চাও,",
+      "সর্বরাজ্য করঽ যদি লাভ",
+      "তবু আশা নহে শেষ,    ইন্দ্রপদ অবশেষ,",
+      "ছাḓইঽ চাঽবে ব্রহ্মার প্রভাব ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏକ ରାଜ୍ୟ ଆଜ ପାଓ,    ଅନ୍ୟ ରାଜ୍ୟ କାଲ ଚାଓ,",
+      "ସର୍ବରାଜ୍ୟ କରଽ ଯଦି ଲାଭ",
+      "ତବୁ ଆଶା ନହେ ଶେଷ,    ଇନ୍ଦ୍ରପଦ ଅବଶେଷ,",
+      "ଛାḓଇଽ ଚାଽବେ ବ୍ରହ୍ମାର ପ୍ରଭାବ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એક રાજ્ય આજ પાઓ,    અન્ય રાજ્ય કાલ ચાઓ,",
+      "સર્બરાજ્ય કરઽ યદિ લાભ",
+      "તબુ આશા નહે શેષ,    ઇન્દ્રપદ અબશેષ,",
+      "છાḓઇઽ ચાઽબે બ્રહ્માર પ્રભાબ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "eka rājya āja pāo,    anya rājya kāla cāo,",
+      "sarbarājya kara’ yadi lābha",
+      "tabu āśā nahe śeṣa,    indrapada abaśeṣa,",
+      "chāḓi’ cā’be brahmāra prabhāba 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎಕ ರಾಜ್ಯ ಆಜ ಪಾಒ,    ಅನ್ಯ ರಾಜ್ಯ ಕಾಲ ಚಾಒ,",
+      "ಸರ್ಬರಾಜ್ಯ ಕರಽ ಯದಿ ಲಾಭ",
+      "ತಬು ಆಶಾ ನಹೆ ಶೆಷ,    ಇಂದ್ರಪದ ಅಬಶೆಷ,",
+      "ಛಾḓಇಽ ಚಾಽಬೆ ಬ್ರಹ್ಮಾರ ಪ್ರಭಾಬ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎక రాజ్య ఆజ పాఒ,    అన్య రాజ్య కాల చాఒ,",
+      "సర్బరాజ్య కరఽ యది లాభ",
+      "తబు ఆశా నహె శెష,    ఇంద్రపద అబశెష,",
+      "ఛాḓఇఽ చాఽబె బ్రహ్మార ప్రభాబ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆ка ра̄джйа а̄джа па̄о̆,    анйа ра̄джйа ка̄ла ча̄о̆,",
+      "сарбара̄джйа кара' йади ла̄бха",
+      "табу а̄ш́а̄ нахэ̆ ш́э̆ша,    индрапада абаш́э̆ша,",
+      "чха̄ḓи' ча̄'бэ̆ брахма̄ра прабха̄ба 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എക രാജ്യ ആജ പാഒ,    അന്യ രാജ്യ കാല ചാഒ,",
+      "സർബരാജ്യ കരഽ യദി ലാഭ",
+      "തബു ആശാ നഹെ ശെഷ,    ഇന്ദ്രപദ അബശെഷ,",
+      "ഛാḓഇഽ ചാഽബെ ബ്രഹ്മാര പ്രഭാബ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எக ராஜ்ய ஆஜ பாஒ,    அன்ய ராஜ்ய கால சாஒ,",
+      "ஸர்ப³ராஜ்ய கர(அ) யதி³ லாப⁴",
+      "தபு³ ஆஶா நஹெ ஶெஷ,    இந்த்³ரபத³ அப³ஶெஷ,",
+      "சா²ḓஇ(அ) சா(அ)பெ³ ப்³ரஹ்மார ப்ரபா⁴ப³ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "eka rājya āja pāo,    anya rājya kāla cāo,",
+      "sarbarājya kara’ yadi lābha",
+      "tabu āśā nahe śeṣa,    indrapada abaśeṣa,",
+      "chāḍi’ cā’be brahmāra prabhāba 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "eka rājya āja pāo,    anya rājya kāla cāo,",
+      "sarbarājya kara’ yadi lābha",
+      "tabu āśā nahe śeṣa,    indrapada abaśeṣa,",
+      "chāḓi’ cā’be brahmāra prabhāba 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "brahmatba chāḓiyā bhāi,    śibapada kise pāi,",
+    "ei cintā ha’be abirata",
+    "śibatba labhiyā nara,    brahmasāmya tadantara,",
+    "āśā kare śaṅkarānugata 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ब्रह्मत्ब छाḓइया भाइ,    शिबपद किसॆ पाइ,",
+      "ऎइ चिन्ता हऽबॆ अबिरत",
+      "शिबत्ब लभिया नर,    ब्रह्मसाम्य तदन्तर,",
+      "आशा करॆ शङ्करानुगत ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ব্রহ্মত্ব ছাḓইয়া ভাই,    শিবপদ কিসে পাই,",
+      "এই চিন্তা হঽবে অবিরত",
+      "শিবত্ব লভিয়া নর,    ব্রহ্মসাম্য তদন্তর,",
+      "আশা করে শঙ্করানুগত ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବ୍ରହ୍ମତ୍ବ ଛାḓଇୟା ଭାଇ,    ଶିବପଦ କିସେ ପାଇ,",
+      "ଏଇ ଚିନ୍ତା ହଽବେ ଅବିରତ",
+      "ଶିବତ୍ବ ଲଭିୟା ନର,    ବ୍ରହ୍ମସାମ୍ୟ ତଦନ୍ତର,",
+      "ଆଶା କରେ ଶଙ୍କରାନୁଗତ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બ્રહ્મત્બ છાḓઇયા ભાઇ,    શિબપદ કિસે પાઇ,",
+      "એઇ ચિન્તા હઽબે અબિરત",
+      "શિબત્બ લભિયા નર,    બ્રહ્મસામ્ય તદન્તર,",
+      "આશા કરે શઙ્કરાનુગત ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "brahmatba chāḓiyā bhāi,    śibapada kise pāi,",
+      "ei cintā ha’be abirata",
+      "śibatba labhiyā nara,    brahmasāmya tadantara,",
+      "āśā kare śaṅkarānugata 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬ್ರಹ್ಮತ್ಬ ಛಾḓಇಯಾ ಭಾಇ,    ಶಿಬಪದ ಕಿಸೆ ಪಾಇ,",
+      "ಎಇ ಚಿಂತಾ ಹಽಬೆ ಅಬಿರತ",
+      "ಶಿಬತ್ಬ ಲಭಿಯಾ ನರ,    ಬ್ರಹ್ಮಸಾಮ್ಯ ತದಂತರ,",
+      "ಆಶಾ ಕರೆ ಶಂಕರಾನುಗತ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బ్రహ్మత్బ ఛాḓఇయా భాఇ,    శిబపద కిసె పాఇ,",
+      "ఎఇ చింతా హఽబె అబిరత",
+      "శిబత్బ లభియా నర,    బ్రహ్మసామ్య తదంతర,",
+      "ఆశా కరె శంకరానుగత 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "брахматба чха̄ḓийа̄ бха̄и,    ш́ибапада кисэ̆ па̄и,",
+      "э̆и чинта̄ ха'бэ̆ абирата",
+      "ш́ибатба лабхийа̄ нара,    брахмаса̄мйа тадантара,",
+      "а̄ш́а̄ карэ̆ ш́ан̇кара̄нугата 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബ്രഹ്മത്ബ ഛാḓഇയാ ഭാഇ,    ശിബപദ കിസെ പാഇ,",
+      "എഇ ചിന്താ ഹഽബെ അബിരത",
+      "ശിബത്ബ ലഭിയാ നര,    ബ്രഹ്മസാമ്യ തദന്തര,",
+      "ആശാ കരെ ശങ്കരാനുഗത 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்³ரஹ்மத்ப³ சா²ḓஇயா பா⁴இ,    ஶிப³பத³ கிஸெ பாஇ,",
+      "எஇ சிந்தா ஹ(அ)பெ³ அபி³ரத",
+      "ஶிப³த்ப³ லபி⁴யா நர,    ப்³ரஹ்மஸாம்ய தத³ந்தர,",
+      "ஆஶா கரெ ஶங்கரானுக³த 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "brahmatba chāḍiyā bhāi,    śibapada kise pāi,",
+      "ei cintā ha’be abirata",
+      "śibatba labhiyā nara,    brahmasāmya tadantara,",
+      "āśā kare śaṅkarānugata 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "brahmatba chāḓiyā bhāi,    śibapada kise pāi,",
+      "ei cintā ha’be abirata",
+      "śibatba labhiyā nara,    brahmasāmya tadantara,",
+      "āśā kare śaṅkarānugata 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "ataeba āśā[FLAG_HYPHEN_ALPHA]pāśa,    yāhe haya sarbanāśa,",
+    "hṛdaya ha·ite rākha dūre",
+    "akiñcana[FLAG_HYPHEN_ALPHA]bhāba la’ye,    caitanya[FLAG_HYPHEN_ALPHA]caraṇāśraye,",
+    "bāsa kara’ sadā śāntipure 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अतऎब आशापाश,    याहॆ हय सर्बनाश,",
+      "ह्ड़्दय हइतॆ राख दूरॆ",
+      "अकिञ्चनभाब लऽयॆ,    चैतन्यचरणाश्रयॆ,",
+      "बास करऽ सदा शान्तिपुरॆ ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অতএব আশাপাশ,    যাহে হয় সর্বনাশ,",
+      "হ্ড়্দয় হইতে রাখ দূরে",
+      "অকিঞ্চনভাব লঽয়ে,    চৈতন্যচরণাশ্রয়ে,",
+      "বাস করঽ সদা শান্তিপুরে ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅତଏବ ଆଶାପାଶ,    ଯାହେ ହୟ ସର୍ବନାଶ,",
+      "ହ୍ଡ଼୍ଦୟ ହଇତେ ରାଖ ଦୂରେ",
+      "ଅକିଞ୍ଚନଭାବ ଲଽୟେ,    ଚୈତନ୍ୟଚରଣାଶ୍ରୟେ,",
+      "ବାସ କରଽ ସଦା ଶାନ୍ତିପୁରେ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અતએબ આશાપાશ,    યાહે હય સર્બનાશ,",
+      "હ્ડ઼્દય હઇતે રાખ દૂરે",
+      "અકિઞ્ચનભાબ લઽયે,    ચૈતન્યચરણાશ્રયે,",
+      "બાસ કરઽ સદા શાન્તિપુરે ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ataeba āśā-pāśa,    yāhe haya sarbanāśa,",
+      "hṛdaya ha·ite rākha dūre",
+      "akiñcana-bhāba la’ye,    caitanya-caraṇāśraye,",
+      "bāsa kara’ sadā śāntipure 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅತಎಬ ಆಶಾಪಾಶ,    ಯಾಹೆ ಹಯ ಸರ್ಬನಾಶ,",
+      "ಹ್‌ಡ಼್ದಯ ಹಇತೆ ರಾಖ ದೂರೆ",
+      "ಅಕಿಂಚನಭಾಬ ಲಽಯೆ,    ಚೈತನ್ಯಚರಣಾಶ್ರಯೆ,",
+      "ಬಾಸ ಕರಽ ಸದಾ ಶಾಂತಿಪುರೆ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అతఎబ ఆశాపాశ,    యాహె హయ సర్బనాశ,",
+      "హ్డ్దయ హఇతె రాఖ దూరె",
+      "అకించనభాబ లఽయె,    చైతన్యచరణాశ్రయె,",
+      "బాస కరఽ సదా శాంతిపురె 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "атаэ̆ба а̄ш́а̄па̄ш́а,    йа̄хэ̆ хайа сарбана̄ш́а,",
+      "хр̤дайа хаитэ̆ ра̄кха дӯрэ̆",
+      "акин̃чанабха̄ба ла'йэ̆,    чаитанйачаран̣а̄ш́райэ̆,",
+      "ба̄са кара' сада̄ ш́а̄нтипурэ̆ 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അതഎബ ആശാപാശ,    യാഹെ ഹയ സർബനാശ,",
+      "ഹ്ഡ്ദയ ഹഇതെ രാഖ ദൂരെ",
+      "അകിഞ്ചനഭാബ ലഽയെ,    ചൈതന്യചരണാശ്രയെ,",
+      "ബാസ കരഽ സദാ ശാന്തിപുരെ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அதஎப³ ஆஶாபாஶ,    யாஹெ ஹய ஸர்ப³நாஶ,",
+      "ஹ்ஃட்²த³ய ஹஇதெ ராக² தூ³ரெ",
+      "அகிஞ்சனபா⁴ப³ ல(அ)யெ,    சைதன்யசரணாஶ்ரயெ,",
+      "பா³ஸ கர(அ) ஸதா³ ஶாந்திபுரெ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ataeba āśā-pāśa,    yāhe haya sarbanāśa,",
+      "hṛdaya ha·ite rākha dūre",
+      "akiñcana-bhāba la’ye,    caitanya-caraṇāśraye,",
+      "bāsa kara’ sadā śāntipure 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ataeba āśā-pāśa,    yāhe haya sarbanāśa,",
+      "hṛdaya ha·ite rākha dūre",
+      "akiñcana-bhāba la’ye,    caitanya-caraṇāśraye,",
+      "bāsa kara’ sadā śāntipure 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "x"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "x"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- ব্রহ্মত্ব—ব্রহ্মার পদ; ব্রহ্মসাম্য—‘আমি ব্রহ্ম-সমান’ এই ভাবনা ।"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Nirveda",
+  "Upalabdhi from Kalyāṇa-kalpataru"
+ ]
+}

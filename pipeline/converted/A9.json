@@ -1,0 +1,5014 @@
+{
+ "uid": "A9",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ভজ ভকত-বৎসল শ্রীগৌরহরি"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "bhaja bhakata-batsala śrīgaurahari"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "bhaja bhakata[FLAG_HYPHEN_ALPHA]batsala śrīgaurahari",
+    "śrīgaurahari sohi goṣṭhabihārī,",
+    "nanda[FLAG_HYPHEN_ALPHA]yaśomatī[FLAG_HYPHEN_ALPHA]cittahārī 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Just worship Śrī Gaurahari, who is very affectionate to His devotees. He is that very Kṛṣṇa who roams the pasturing grounds of Vṛndāvana with His cows and who steals the hearts of Nanda Mahārāja and Mother Yaśodā."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "bhaja",
+       "worship"
+      ],
+      [
+       "bhakata batsala",
+       "affectionate to devotees"
+      ],
+      [
+       "śrīgaurahari",
+       "Śrī Gaurahari"
+      ],
+      [
+       "śrīgaurahari",
+       "Śrī Gaurahari"
+      ],
+      [
+       "sohi",
+       "(sei) that very"
+      ],
+      [
+       "goṣṭhabihārī",
+       "pasturing grounds + sporting, promenading"
+      ],
+      [
+       "nanda",
+       "Nanda Mahārāja"
+      ],
+      [
+       "yaśomatī",
+       "Mother Yaśodā"
+      ],
+      [
+       "cittahārī",
+       "heart + (sfx.) taking away, robbing"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "भज",
+       "worship"
+      ],
+      [
+       "भकत बत्सल",
+       "affectionate to devotees"
+      ],
+      [
+       "श्रीगौरहरि",
+       "Śrī Gaurahari"
+      ],
+      [
+       "श्रीगौरहरि",
+       "Śrī Gaurahari"
+      ],
+      [
+       "सॊहि",
+       "(sei) that very"
+      ],
+      [
+       "गॊष्ठबिहारी",
+       "pasturing grounds + sporting, promenading"
+      ],
+      [
+       "नन्द",
+       "Nanda Mahārāja"
+      ],
+      [
+       "यशॊमती",
+       "Mother Yaśodā"
+      ],
+      [
+       "चित्तहारी",
+       "heart + (sfx.) taking away, robbing"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ভজ",
+       "worship"
+      ],
+      [
+       "ভকত বৎসল",
+       "affectionate to devotees"
+      ],
+      [
+       "শ্রীগৌরহরি",
+       "Śrī Gaurahari"
+      ],
+      [
+       "শ্রীগৌরহরি",
+       "Śrī Gaurahari"
+      ],
+      [
+       "সোহি",
+       "(sei) that very"
+      ],
+      [
+       "গোষ্ঠবিহারী",
+       "pasturing grounds + sporting, promenading"
+      ],
+      [
+       "নন্দ",
+       "Nanda Mahārāja"
+      ],
+      [
+       "যশোমতী",
+       "Mother Yaśodā"
+      ],
+      [
+       "চিত্তহারী",
+       "heart + (sfx.) taking away, robbing"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ભજ",
+       "worship"
+      ],
+      [
+       "ભકત બત્સલ",
+       "affectionate to devotees"
+      ],
+      [
+       "શ્રીગૌરહરિ",
+       "Śrī Gaurahari"
+      ],
+      [
+       "શ્રીગૌરહરિ",
+       "Śrī Gaurahari"
+      ],
+      [
+       "સોહિ",
+       "(sei) that very"
+      ],
+      [
+       "ગોષ્ઠબિહારી",
+       "pasturing grounds + sporting, promenading"
+      ],
+      [
+       "નન્દ",
+       "Nanda Mahārāja"
+      ],
+      [
+       "યશોમતી",
+       "Mother Yaśodā"
+      ],
+      [
+       "ચિત્તહારી",
+       "heart + (sfx.) taking away, robbing"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भज भकतबत्सल श्रीगौरहरि",
+      "श्रीगौरहरि सॊहि गॊष्ठबिहारी,",
+      "नन्दयशॊमतीचित्तहारी १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভজ ভকতবৎসল শ্রীগৌরহরি",
+      "শ্রীগৌরহরি সোহি গোষ্ঠবিহারী,",
+      "নন্দয়শোমতীচিত্তহারী ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭଜ ଭକତବତ୍ସଲ ଶ୍ରୀଗୌରହରି",
+      "ଶ୍ରୀଗୌରହରି ସୋହି ଗୋଷ୍ଠବିହାରୀ,",
+      "ନନ୍ଦୟଶୋମତୀଚିତ୍ତହାରୀ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભજ ભકતબત્સલ શ્રીગૌરહરિ",
+      "શ્રીગૌરહરિ સોહિ ગોષ્ઠબિહારી,",
+      "નન્દયશોમતીચિત્તહારી ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhaja bhakata-batsala śrīgaurahari",
+      "śrīgaurahari sohi goṣṭhabihārī,",
+      "nanda-yaśomatī-cittahārī 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭಜ ಭಕತಬತ್ಸಲ ಶ್ರೀಗೌರಹರಿ",
+      "ಶ್ರೀಗೌರಹರಿ ಸೊಹಿ ಗೊಷ್ಠಬಿಹಾರೀ,",
+      "ನಂದಯಶೊಮತೀಚಿತ್ತಹಾರೀ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భజ భకతబత్సల శ్రీగౌరహరి",
+      "శ్రీగౌరహరి సొహి గొష్ఠబిహారీ,",
+      "నందయశొమతీచిత్తహారీ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бхаджа бхакатабатсала ш́рӣгаурахари",
+      "ш́рӣгаурахари со̆хи го̆шт̣хабиха̄рӣ,",
+      "нандайаш́о̆матӣчиттаха̄рӣ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭജ ഭകതബത്സല ശ്രീഗൗരഹരി",
+      "ശ്രീഗൗരഹരി സൊഹി ഗൊഷ്ഠബിഹാരീ,",
+      "നന്ദയശൊമതീചിത്തഹാരീ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப⁴ஜ ப⁴கதப³த்ஸல ஶ்ரீகௌ³ரஹரி",
+      "ஶ்ரீகௌ³ரஹரி ஸொஹி கொ³ஷ்ட²பி³ஹாரீ,",
+      "நந்த³யஶொமதீசித்தஹாரீ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhaja bhakata-batsala śrīgaurahari",
+      "śrīgaurahari sohi goṣṭhabihārī,",
+      "nanda-yaśomatī-cittahārī 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhaja bhakata-batsala śrīgaurahari",
+      "śrīgaurahari sohi goṣṭhabihārī,",
+      "nanda-yaśomatī-cittahārī 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "belā ha’la dāmodara, āisa ekhana",
+    "bhoga[FLAG_HYPHEN_ALPHA]mandire basi’ karaha bhojana 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "[Mother Yaśodā calls,] “O Dāmodara, it is very late. Please come right now. Sit down in the dining hall and take Your meal.”"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "belā",
+       "late"
+      ],
+      [
+       "ha’la",
+       "became"
+      ],
+      [
+       "dāmodara",
+       "O Dāmodara"
+      ],
+      [
+       "āisa",
+       "come"
+      ],
+      [
+       "ekhana",
+       "now"
+      ],
+      [
+       "bhoga mandire",
+       "in the dining hall"
+      ],
+      [
+       "basi’",
+       "having sat"
+      ],
+      [
+       "karaha bhojana",
+       "eat, take Your meal"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "बॆला",
+       "late"
+      ],
+      [
+       "हऽल",
+       "became"
+      ],
+      [
+       "दामॊदर",
+       "O Dāmodara"
+      ],
+      [
+       "आइस",
+       "come"
+      ],
+      [
+       "ऎखन",
+       "now"
+      ],
+      [
+       "भॊग मन्दिरॆ",
+       "in the dining hall"
+      ],
+      [
+       "बसिऽ",
+       "having sat"
+      ],
+      [
+       "करह भॊजन",
+       "eat, take Your meal"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "বেলা",
+       "late"
+      ],
+      [
+       "হঽল",
+       "became"
+      ],
+      [
+       "দামোদর",
+       "O Dāmodara"
+      ],
+      [
+       "আইস",
+       "come"
+      ],
+      [
+       "এখন",
+       "now"
+      ],
+      [
+       "ভোগ মন্দিরে",
+       "in the dining hall"
+      ],
+      [
+       "বসিঽ",
+       "having sat"
+      ],
+      [
+       "করহ ভোজন",
+       "eat, take Your meal"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બેલા",
+       "late"
+      ],
+      [
+       "હઽલ",
+       "became"
+      ],
+      [
+       "દામોદર",
+       "O Dāmodara"
+      ],
+      [
+       "આઇસ",
+       "come"
+      ],
+      [
+       "એખન",
+       "now"
+      ],
+      [
+       "ભોગ મન્દિરે",
+       "in the dining hall"
+      ],
+      [
+       "બસિઽ",
+       "having sat"
+      ],
+      [
+       "કરહ ભોજન",
+       "eat, take Your meal"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बॆला हऽल दामॊदर, आइस ऎखन",
+      "भॊगमन्दिरॆ बसिऽ करह भॊजन २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বেলা হঽল দামোদর, আইস এখন",
+      "ভোগমন্দিরে বসিঽ করহ ভোজন ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବେଲା ହଽଲ ଦାମୋଦର, ଆଇସ ଏଖନ",
+      "ଭୋଗମନ୍ଦିରେ ବସିଽ କରହ ଭୋଜନ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બેલા હઽલ દામોદર, આઇસ એખન",
+      "ભોગમન્દિરે બસિઽ કરહ ભોજન ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "belā ha’la dāmodara, āisa ekhana",
+      "bhoga-mandire basi’ karaha bhojana 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬೆಲಾ ಹಽಲ ದಾಮೊದರ, ಆಇಸ ಎಖನ",
+      "ಭೊಗಮಂದಿರೆ ಬಸಿಽ ಕರಹ ಭೊಜನ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బెలా హఽల దామొదర, ఆఇస ఎఖన",
+      "భొగమందిరె బసిఽ కరహ భొజన 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бэ̆ла̄ ха'ла да̄мо̆дара, а̄иса э̆кхана",
+      "бхо̆гамандирэ̆ баси' караха бхо̆джана 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബെലാ ഹഽല ദാമൊദര, ആഇസ എഖന",
+      "ഭൊഗമന്ദിരെ ബസിഽ കരഹ ഭൊജന 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பெ³லா ஹ(அ)ல தா³மொத³ர, ஆஇஸ எக²ன",
+      "பொ⁴க³மந்தி³ரெ ப³ஸி(அ) கரஹ பொ⁴ஜன 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "belā ha’la dāmodara, āisa ekhana",
+      "bhoga-mandire basi’ karaha bhojana 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "belā ha’la dāmodara, āisa ekhana",
+      "bhoga-mandire basi’ karaha bhojana 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "nandera nirdeśe baise giribaradhārī",
+    "baladebasaha sakhā baise sāri sāri 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "At the instruction of Nanda Bābā, Kṛṣṇa, the lifter of Govardhana Hill, sits down with Baladeva and Their friends in rows to take lunch."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "nandera",
+       "of Nanda Bābā"
+      ],
+      [
+       "nirdeśe",
+       "at the order, indication"
+      ],
+      [
+       "baise",
+       "sits"
+      ],
+      [
+       "giribaradhārī",
+       "the great hill [Govardhana] + (sfx.) lifter"
+      ],
+      [
+       "baladebasaha",
+       "Baladeva + with"
+      ],
+      [
+       "sakhā",
+       "friends"
+      ],
+      [
+       "baise",
+       "sit"
+      ],
+      [
+       "sāri sāri",
+       "in rows, lines"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "नन्दॆर",
+       "of Nanda Bābā"
+      ],
+      [
+       "निर्दॆशॆ",
+       "at the order, indication"
+      ],
+      [
+       "बैसॆ",
+       "sits"
+      ],
+      [
+       "गिरिबरधारी",
+       "the great hill [Govardhana] + (sfx.) lifter"
+      ],
+      [
+       "बलदॆबसह",
+       "Baladeva + with"
+      ],
+      [
+       "सखा",
+       "friends"
+      ],
+      [
+       "बैसॆ",
+       "sit"
+      ],
+      [
+       "सारि सारि",
+       "in rows, lines"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "নন্দের",
+       "of Nanda Bābā"
+      ],
+      [
+       "নির্দেশে",
+       "at the order, indication"
+      ],
+      [
+       "বৈসে",
+       "sits"
+      ],
+      [
+       "গিরিবরধারী",
+       "the great hill [Govardhana] + (sfx.) lifter"
+      ],
+      [
+       "বলদেবসহ",
+       "Baladeva + with"
+      ],
+      [
+       "সখা",
+       "friends"
+      ],
+      [
+       "বৈসে",
+       "sit"
+      ],
+      [
+       "সারি সারি",
+       "in rows, lines"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "નન્દેર",
+       "of Nanda Bābā"
+      ],
+      [
+       "નિર્દેશે",
+       "at the order, indication"
+      ],
+      [
+       "બૈસે",
+       "sits"
+      ],
+      [
+       "ગિરિબરધારી",
+       "the great hill [Govardhana] + (sfx.) lifter"
+      ],
+      [
+       "બલદેબસહ",
+       "Baladeva + with"
+      ],
+      [
+       "સખા",
+       "friends"
+      ],
+      [
+       "બૈસે",
+       "sit"
+      ],
+      [
+       "સારિ સારિ",
+       "in rows, lines"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "नन्दॆर निर्दॆशॆ बैसॆ गिरिबरधारी",
+      "बलदॆबसह सखा बैसॆ सारि सारि ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নন্দের নির্দেশে বৈসে গিরিবরধারী",
+      "বলদেবসহ সখা বৈসে সারি সারি ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନନ୍ଦେର ନିର୍ଦେଶେ ବୈସେ ଗିରିବରଧାରୀ",
+      "ବଲଦେବସହ ସଖା ବୈସେ ସାରି ସାରି ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નન્દેર નિર્દેશે બૈસે ગિરિબરધારી",
+      "બલદેબસહ સખા બૈસે સારિ સારિ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nandera nirdeśe baise giribaradhārī",
+      "baladebasaha sakhā baise sāri sāri 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಂದೆರ ನಿರ್ದೆಶೆ ಬೈಸೆ ಗಿರಿಬರಧಾರೀ",
+      "ಬಲದೆಬಸಹ ಸಖಾ ಬೈಸೆ ಸಾರಿ ಸಾರಿ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నందెర నిర్దెశె బైసె గిరిబరధారీ",
+      "బలదెబసహ సఖా బైసె సారి సారి 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "нандэ̆ра нирдэ̆ш́э̆ баисэ̆ гирибарадха̄рӣ",
+      "баладэ̆басаха сакха̄ баисэ̆ са̄ри са̄ри 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നന്ദെര നിർദെശെ ബൈസെ ഗിരിബരധാരീ",
+      "ബലദെബസഹ സഖാ ബൈസെ സാരി സാരി 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நந்தெ³ர நிர்தெ³ஶெ பை³ஸெ கி³ரிப³ரதா⁴ரீ",
+      "ப³லதெ³ப³ஸஹ ஸகா² பை³ஸெ ஸாரி ஸாரி 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nandera nirdeśe baise giribaradhārī",
+      "baladebasaha sakhā baise sāri sāri 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nandera nirdeśe baise giribaradhārī",
+      "baladebasaha sakhā baise sāri sāri 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "śuk‌tā śākādi bhāji nālitā kuṣmāṇḍa",
+    "ḍāli ḍāl‌nā dugdhatumbī dadhi mocākhaṇḍa 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "They are served a feast of śuktā (bitter stew), various kinds of śāk (leafy vegetable preparations), bhāji (fried savories), nālitā (a jute leaf preparation), kuṣmāṇḍa (a pumpkin preparation), ḍāli (chewable sticks), ḍālnā (curry), dugdha-tumbī (gourd boiled in milk), yogurt, and mocā-khaṇḍa (curry of banana flower fritters)."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śuk‌tā",
+       "a wet and bitter vegetable dish"
+      ],
+      [
+       "śākādi",
+       "greens + and so on"
+      ],
+      [
+       "bhāji",
+       "fried savories"
+      ],
+      [
+       "nālitā",
+       "a jute leaf preparation"
+      ],
+      [
+       "kuṣmāṇḍa",
+       "a pumpkin preparation"
+      ],
+      [
+       "ḍāli",
+       "chewable sticks"
+      ],
+      [
+       "ḍāl‌nā",
+       "a kind of rich curry or gravy"
+      ],
+      [
+       "dugdhatumbī",
+       "milk-gourd, a sweet of gourd boiled in milk"
+      ],
+      [
+       "dadhi",
+       "yogurt"
+      ],
+      [
+       "mocākhaṇḍa",
+       "banana flower + separated into pieces"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "शुक्‌ता",
+       "a wet and bitter vegetable dish"
+      ],
+      [
+       "शाकादि",
+       "greens + and so on"
+      ],
+      [
+       "भाजि",
+       "fried savories"
+      ],
+      [
+       "नालिता",
+       "a jute leaf preparation"
+      ],
+      [
+       "कुष्माण्ड",
+       "a pumpkin preparation"
+      ],
+      [
+       "डालि",
+       "chewable sticks"
+      ],
+      [
+       "डाल्‌ना",
+       "a kind of rich curry or gravy"
+      ],
+      [
+       "दुग्धतुम्बी",
+       "milk-gourd, a sweet of gourd boiled in milk"
+      ],
+      [
+       "दधि",
+       "yogurt"
+      ],
+      [
+       "मॊचाखण्ड",
+       "banana flower + separated into pieces"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শুক্‌তা",
+       "a wet and bitter vegetable dish"
+      ],
+      [
+       "শাকাদি",
+       "greens + and so on"
+      ],
+      [
+       "ভাজি",
+       "fried savories"
+      ],
+      [
+       "নালিতা",
+       "a jute leaf preparation"
+      ],
+      [
+       "কুষ্মাণ্ড",
+       "a pumpkin preparation"
+      ],
+      [
+       "ডালি",
+       "chewable sticks"
+      ],
+      [
+       "ডাল্‌না",
+       "a kind of rich curry or gravy"
+      ],
+      [
+       "দুগ্ধতুম্বী",
+       "milk-gourd, a sweet of gourd boiled in milk"
+      ],
+      [
+       "দধি",
+       "yogurt"
+      ],
+      [
+       "মোচাখণ্ড",
+       "banana flower + separated into pieces"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શુક્‌તા",
+       "a wet and bitter vegetable dish"
+      ],
+      [
+       "શાકાદિ",
+       "greens + and so on"
+      ],
+      [
+       "ભાજિ",
+       "fried savories"
+      ],
+      [
+       "નાલિતા",
+       "a jute leaf preparation"
+      ],
+      [
+       "કુષ્માણ્ડ",
+       "a pumpkin preparation"
+      ],
+      [
+       "ડાલિ",
+       "chewable sticks"
+      ],
+      [
+       "ડાલ્‌ના",
+       "a kind of rich curry or gravy"
+      ],
+      [
+       "દુગ્ધતુમ્બી",
+       "milk-gourd, a sweet of gourd boiled in milk"
+      ],
+      [
+       "દધિ",
+       "yogurt"
+      ],
+      [
+       "મોચાખણ્ડ",
+       "banana flower + separated into pieces"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शुक्‌ता शाकादि भाजि नालिता कुष्माण्ड",
+      "डालि डाल्‌ना दुग्धतुम्बी दधि मॊचाखण्ड ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শুক্‌তা শাকাদি ভাজি নালিতা কুষ্মাণ্ড",
+      "ডালি ডাল্‌না দুগ্ধতুম্বী দধি মোচাখণ্ড ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶୁକ୍‌ତା ଶାକାଦି ଭାଜି ନାଲିତା କୁଷ୍ମାଣ୍ଡ",
+      "ଡାଲି ଡାଲ୍‌ନା ଦୁଗ୍ଧତୁମ୍ବୀ ଦଧି ମୋଚାଖଣ୍ଡ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શુક્‌તા શાકાદિ ભાજિ નાલિતા કુષ્માણ્ડ",
+      "ડાલિ ડાલ્‌ના દુગ્ધતુમ્બી દધિ મોચાખણ્ડ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śuk‌tā śākādi bhāji nālitā kuṣmāṇḍa",
+      "ḍāli ḍāl‌nā dugdhatumbī dadhi mocākhaṇḍa 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶುಕ್‌ತಾ ಶಾಕಾದಿ ಭಾಜಿ ನಾಲಿತಾ ಕುಷ್ಮಾಂಡ",
+      "ಡಾಲಿ ಡಾಲ್‌ನಾ ದುಗ್ಧತುಂಬೀ ದಧಿ ಮೊಚಾಖಂಡ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శుక్‌తా శాకాది భాజి నాలితా కుష్మాండ",
+      "డాలి డాల్‌నా దుగ్ధతుంబీ దధి మొచాఖండ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́ук‌та̄ ш́а̄ка̄ди бха̄джи на̄лита̄ кушма̄н̣д̣а",
+      "д̣а̄ли д̣а̄л‌на̄ дугдхатумбӣ дадхи мо̆ча̄кхан̣д̣а 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശുക്‌താ ശാകാദി ഭാജി നാലിതാ കുഷ്മാണ്ഡ",
+      "ഡാലി ഡാൽ‌നാ ദുഗ്ധതുംബീ ദധി മൊചാഖണ്ഡ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶுக்‌தா ஶாகாதி³ பா⁴ஜி நாலிதா குஷ்மாண்ட³",
+      "டா³லி டா³ல்‌நா து³க்³த⁴தும்பீ³ த³தி⁴ மொசாக²ண்ட³ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śuk‌tā śākādi bhāji nālitā kuṣmāṇḍa",
+      "ḍāli ḍāl‌nā dugdhatumbī dadhi mocākhaṇḍa 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śuk‌tā śākādi bhāji nālitā kuṣmāṇḍa",
+      "ḍāli ḍāl‌nā dugdhatumbī dadhi mocākhaṇḍa 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "mudgabaḓā māṣabaḓā roṭikā ghṛtānna",
+    "śaṣkulī piṣṭaka kṣīra puli pāyasānna 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "There is mudga-baḓā (mung dahl fritters), māṣa-baḍā (urad dahl fritters), flat bread, ghṛtānna (rice with ghee), śaṣkulī (a preparation made with rice-flour and sesame seeds), piṭhe (varieties of rice-flour cakes and dumplings), khīra (sweetened condensed milk), pulī (rice-flour dumplings in sweetened condensed milk), and pāyasānna (sweet rice)."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "mudgabaḓā",
+       "mung dahl + fritters, a kind of cake fried in oil"
+      ],
+      [
+       "māṣabaḓā",
+       "urad dahl + fritters"
+      ],
+      [
+       "roṭikā",
+       "rotis, capattis, flat-bread"
+      ],
+      [
+       "ghṛtānna",
+       "ghee + rice"
+      ],
+      [
+       "śaṣkulī",
+       "a preparation made with rice-flour and sesame seeds"
+      ],
+      [
+       "piṣṭaka",
+       "varieties of rice-flour cakes (more commonly known as ‘piṭhe’)"
+      ],
+      [
+       "kṣīra",
+       "sweetened condensed milk"
+      ],
+      [
+       "puli",
+       "a kind of sweet roll, rice-flour dumplings in sweetened condensed milk"
+      ],
+      [
+       "pāyasānna",
+       "sweet rice-porridge (also known simply as ‘pāyas’)"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "मुद्गबḓआ",
+       "mung dahl + fritters, a kind of cake fried in oil"
+      ],
+      [
+       "माषबḓआ",
+       "urad dahl + fritters"
+      ],
+      [
+       "रॊटिका",
+       "rotis, capattis, flat-bread"
+      ],
+      [
+       "घ्ड़्तान्न",
+       "ghee + rice"
+      ],
+      [
+       "शष्कुली",
+       "a preparation made with rice-flour and sesame seeds"
+      ],
+      [
+       "पिष्टक",
+       "varieties of rice-flour cakes (more commonly known as ‘piṭhe’)"
+      ],
+      [
+       "क्षीर",
+       "sweetened condensed milk"
+      ],
+      [
+       "पुलि",
+       "a kind of sweet roll, rice-flour dumplings in sweetened condensed milk"
+      ],
+      [
+       "पायसान्न",
+       "sweet rice-porridge (also known simply as ‘pāyas’)"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মুদ্গবḓআ",
+       "mung dahl + fritters, a kind of cake fried in oil"
+      ],
+      [
+       "মাষবḓআ",
+       "urad dahl + fritters"
+      ],
+      [
+       "রোটিকা",
+       "rotis, capattis, flat-bread"
+      ],
+      [
+       "ঘ্ড়্তান্ন",
+       "ghee + rice"
+      ],
+      [
+       "শষ্কুলী",
+       "a preparation made with rice-flour and sesame seeds"
+      ],
+      [
+       "পিষ্টক",
+       "varieties of rice-flour cakes (more commonly known as ‘piṭhe’)"
+      ],
+      [
+       "ক্ষীর",
+       "sweetened condensed milk"
+      ],
+      [
+       "পুলি",
+       "a kind of sweet roll, rice-flour dumplings in sweetened condensed milk"
+      ],
+      [
+       "পায়সান্ন",
+       "sweet rice-porridge (also known simply as ‘pāyas’)"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "મુદ્ગબḓઆ",
+       "mung dahl + fritters, a kind of cake fried in oil"
+      ],
+      [
+       "માષબḓઆ",
+       "urad dahl + fritters"
+      ],
+      [
+       "રોટિકા",
+       "rotis, capattis, flat-bread"
+      ],
+      [
+       "ઘ્ડ઼્તાન્ન",
+       "ghee + rice"
+      ],
+      [
+       "શષ્કુલી",
+       "a preparation made with rice-flour and sesame seeds"
+      ],
+      [
+       "પિષ્ટક",
+       "varieties of rice-flour cakes (more commonly known as ‘piṭhe’)"
+      ],
+      [
+       "ક્ષીર",
+       "sweetened condensed milk"
+      ],
+      [
+       "પુલિ",
+       "a kind of sweet roll, rice-flour dumplings in sweetened condensed milk"
+      ],
+      [
+       "પાયસાન્ન",
+       "sweet rice-porridge (also known simply as ‘pāyas’)"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मुद्गबḓआ माषबḓआ रॊटिका घ्ड़्तान्न",
+      "शष्कुली पिष्टक क्षीर पुलि पायसान्न ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মুদ্গবḓআ মাষবḓআ রোটিকা ঘ্ড়্তান্ন",
+      "শষ্কুলী পিষ্টক ক্ষীর পুলি পায়সান্ন ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମୁଦ୍ଗବḓଆ ମାଷବḓଆ ରୋଟିକା ଘ୍ଡ଼୍ତାନ୍ନ",
+      "ଶଷ୍କୁଲୀ ପିଷ୍ଟକ କ୍ଷୀର ପୁଲି ପାୟସାନ୍ନ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મુદ્ગબḓઆ માષબḓઆ રોટિકા ઘ્ડ઼્તાન્ન",
+      "શષ્કુલી પિષ્ટક ક્ષીર પુલિ પાયસાન્ન ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "mudgabaḓā māṣabaḓā roṭikā ghṛtānna",
+      "śaṣkulī piṣṭaka kṣīra puli pāyasānna 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮುದ್ಗಬḓಆ ಮಾಷಬḓಆ ರೊಟಿಕಾ ಘ್‌ಡ಼್ತಾನ್ನ",
+      "ಶಷ್ಕುಲೀ ಪಿಷ್ಟಕ ಕ್ಷೀರ ಪುಲಿ ಪಾಯಸಾನ್ನ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ముద్గబḓఆ మాషబḓఆ రొటికా ఘ్డ్తాన్న",
+      "శష్కులీ పిష్టక క్షీర పులి పాయసాన్న 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "мудгабаḓа̄ ма̄шабаḓа̄ ро̆т̣ика̄ гхр̤та̄нна",
+      "ш́ашкулӣ пишт̣ака кшӣра пули па̄йаса̄нна 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മുദ്ഗബḓആ മാഷബḓആ രൊടികാ ഘ്ഡ്താന്ന",
+      "ശഷ്കുലീ പിഷ്ടക ക്ഷീര പുലി പായസാന്ന 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "முத்³க³ப³ḓஆ மாஷப³ḓஆ ரொடிகா க்⁴ஃட்²தான்ன",
+      "ஶஷ்குலீ பிஷ்டக க்ஷீர புலி பாயஸான்ன 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "mudgabaḍā māṣabaḍā roṭikā ghṛtānna",
+      "śaṣkulī piṣṭaka kṣīra puli pāyasānna 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "mudgabaḓā māṣabaḓā roṭikā ghṛtānna",
+      "śaṣkulī piṣṭaka kṣīra puli pāyasānna 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "karpūra amṛtakeli rambhā kṣīrasāra",
+    "amṛta rasālā, amla dbādaśaprakāra 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "They are given karpūra amṛta-keli (ambrosial milk sweets scented with camphor), rambhā (banana sweets), khīra-sāra (condensed cream [rabaḍī]), amṛta-rasālā (juicy nectarean sweets), and twelve kinds of sour chutneys."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "karpūra",
+       "camphor"
+      ],
+      [
+       "amṛtakeli",
+       "a special condensed milk sweet (see Caitanya-caritāmṛta Madhya 4.117-118)"
+      ],
+      [
+       "rambhā",
+       "bananas"
+      ],
+      [
+       "kṣīrasāra",
+       "condensed cream, rabaḓī"
+      ],
+      [
+       "amṛta",
+       "nectar"
+      ],
+      [
+       "rasālā",
+       "juicy sweets"
+      ],
+      [
+       "amla",
+       "a sour fruit"
+      ],
+      [
+       "dbādaśaprakāra",
+       "twelve + kinds"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "कर्पूर",
+       "camphor"
+      ],
+      [
+       "अम्ड़्तकॆलि",
+       "a special condensed milk sweet (see Caitanya-caritāmṛta Madhya 4.117-118)"
+      ],
+      [
+       "रम्भा",
+       "bananas"
+      ],
+      [
+       "क्षीरसार",
+       "condensed cream, rabaḓī"
+      ],
+      [
+       "अम्ड़्त",
+       "nectar"
+      ],
+      [
+       "रसाला",
+       "juicy sweets"
+      ],
+      [
+       "अम्ल",
+       "a sour fruit"
+      ],
+      [
+       "द्बादशप्रकार",
+       "twelve + kinds"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "কর্পূর",
+       "camphor"
+      ],
+      [
+       "অম্ড়্তকেলি",
+       "a special condensed milk sweet (see Caitanya-caritāmṛta Madhya 4.117-118)"
+      ],
+      [
+       "রম্ভা",
+       "bananas"
+      ],
+      [
+       "ক্ষীরসার",
+       "condensed cream, rabaḓī"
+      ],
+      [
+       "অম্ড়্ত",
+       "nectar"
+      ],
+      [
+       "রসালা",
+       "juicy sweets"
+      ],
+      [
+       "অম্ল",
+       "a sour fruit"
+      ],
+      [
+       "দ্বাদশপ্রকার",
+       "twelve + kinds"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "કર્પૂર",
+       "camphor"
+      ],
+      [
+       "અમ્ડ઼્તકેલિ",
+       "a special condensed milk sweet (see Caitanya-caritāmṛta Madhya 4.117-118)"
+      ],
+      [
+       "રમ્ભા",
+       "bananas"
+      ],
+      [
+       "ક્ષીરસાર",
+       "condensed cream, rabaḓī"
+      ],
+      [
+       "અમ્ડ઼્ત",
+       "nectar"
+      ],
+      [
+       "રસાલા",
+       "juicy sweets"
+      ],
+      [
+       "અમ્લ",
+       "a sour fruit"
+      ],
+      [
+       "દ્બાદશપ્રકાર",
+       "twelve + kinds"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कर्पूर अम्ड़्तकॆलि रम्भा क्षीरसार",
+      "अम्ड़्त रसाला, अम्ल द्बादशप्रकार ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কর্পূর অম্ড়্তকেলি রম্ভা ক্ষীরসার",
+      "অম্ড়্ত রসালা, অম্ল দ্বাদশপ্রকার ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କର୍ପୂର ଅମ୍ଡ଼୍ତକେଲି ରମ୍ଭା କ୍ଷୀରସାର",
+      "ଅମ୍ଡ଼୍ତ ରସାଲା, ଅମ୍ଲ ଦ୍ବାଦଶପ୍ରକାର ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કર્પૂર અમ્ડ઼્તકેલિ રમ્ભા ક્ષીરસાર",
+      "અમ્ડ઼્ત રસાલા, અમ્લ દ્બાદશપ્રકાર ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "karpūra amṛtakeli rambhā kṣīrasāra",
+      "amṛta rasālā, amla dbādaśaprakāra 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕರ್ಪೂರ ಅಂ‌ಡ಼್ತಕೆಲಿ ರಂಭಾ ಕ್ಷೀರಸಾರ",
+      "ಅಂ‌ಡ಼್ತ ರಸಾಲಾ, ಅಮ್ಲ ದ್ಬಾದಶಪ್ರಕಾರ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కర్పూర అమ్డ్తకెలి రంభా క్షీరసార",
+      "అమ్డ్త రసాలా, అమ్ల ద్బాదశప్రకార 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "карпӯра амр̤такэ̆ли рамбха̄ кшӣраса̄ра",
+      "амр̤та раса̄ла̄, амла дба̄даш́апрака̄ра 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കർപൂര അമ്ഡ്തകെലി രംഭാ ക്ഷീരസാര",
+      "അമ്ഡ്ത രസാലാ, അമ്ല ദ്ബാദശപ്രകാര 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கர்பூர அம்ஃட்²தகெலி ரம்பா⁴ க்ஷீரஸார",
+      "அம்ஃட்²த ரஸாலா, அம்ல த்³பா³த³ஶப்ரகார 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "karpūra amṛtakeli rambhā kṣīrasāra",
+      "amṛta rasālā, amla dbādaśaprakāra 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "karpūra amṛtakeli rambhā kṣīrasāra",
+      "amṛta rasālā, amla dbādaśaprakāra 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "luci cini sarapurī lāḍḍu rasābalī",
+    "bhojana karena kṛṣṇa ha’ye kutūhalī 7"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "There is luci-cini (white-flour purīs dusted with sugar), sarpurī (cream cakes), lāḍḍu (sweet balls), and rasābalī (dahl patties boiled in sugar-water). Kṛṣṇa eats all the preparations with great delight."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "luci",
+       "white flour purīs"
+      ],
+      [
+       "cini",
+       "sugar"
+      ],
+      [
+       "sarapurī",
+       "cream cakes"
+      ],
+      [
+       "lāḍḍu",
+       "sweet balls"
+      ],
+      [
+       "rasābalī",
+       "dahl patties boiled in sugar-water"
+      ],
+      [
+       "bhojana karena",
+       "eats"
+      ],
+      [
+       "kṛṣṇa",
+       "Kṛṣṇa"
+      ],
+      [
+       "ha’ye",
+       "having become"
+      ],
+      [
+       "kutūhalī",
+       "greatly delighted, eager"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "लुचि",
+       "white flour purīs"
+      ],
+      [
+       "चिनि",
+       "sugar"
+      ],
+      [
+       "सरपुरी",
+       "cream cakes"
+      ],
+      [
+       "लाड्डु",
+       "sweet balls"
+      ],
+      [
+       "रसाबली",
+       "dahl patties boiled in sugar-water"
+      ],
+      [
+       "भॊजन करॆन",
+       "eats"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Kṛṣṇa"
+      ],
+      [
+       "हऽयॆ",
+       "having become"
+      ],
+      [
+       "कुतूहली",
+       "greatly delighted, eager"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "লুচি",
+       "white flour purīs"
+      ],
+      [
+       "চিনি",
+       "sugar"
+      ],
+      [
+       "সরপুরী",
+       "cream cakes"
+      ],
+      [
+       "লাড্ডু",
+       "sweet balls"
+      ],
+      [
+       "রসাবলী",
+       "dahl patties boiled in sugar-water"
+      ],
+      [
+       "ভোজন করেন",
+       "eats"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Kṛṣṇa"
+      ],
+      [
+       "হঽয়ে",
+       "having become"
+      ],
+      [
+       "কুতূহলী",
+       "greatly delighted, eager"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "લુચિ",
+       "white flour purīs"
+      ],
+      [
+       "ચિનિ",
+       "sugar"
+      ],
+      [
+       "સરપુરી",
+       "cream cakes"
+      ],
+      [
+       "લાડ્ડુ",
+       "sweet balls"
+      ],
+      [
+       "રસાબલી",
+       "dahl patties boiled in sugar-water"
+      ],
+      [
+       "ભોજન કરેન",
+       "eats"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Kṛṣṇa"
+      ],
+      [
+       "હઽયે",
+       "having become"
+      ],
+      [
+       "કુતૂહલી",
+       "greatly delighted, eager"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "लुचि चिनि सरपुरी लाड्डु रसाबली",
+      "भॊजन करॆन क्ड़्ष्ण हऽयॆ कुतूहली ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "লুচি চিনি সরপুরী লাড্ডু রসাবলী",
+      "ভোজন করেন ক্ড়্ষ্ণ হঽয়ে কুতূহলী ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଲୁଚି ଚିନି ସରପୁରୀ ଲାଡ୍ଡୁ ରସାବଲୀ",
+      "ଭୋଜନ କରେନ କ୍ଡ଼୍ଷ୍ଣ ହଽୟେ କୁତୂହଲୀ ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "લુચિ ચિનિ સરપુરી લાડ્ડુ રસાબલી",
+      "ભોજન કરેન ક્ડ઼્ષ્ણ હઽયે કુતૂહલી ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "luci cini sarapurī lāḍḍu rasābalī",
+      "bhojana karena kṛṣṇa ha’ye kutūhalī 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಲುಚಿ ಚಿನಿ ಸರಪುರೀ ಲಾಡ್ಡು ರಸಾಬಲೀ",
+      "ಭೊಜನ ಕರೆನ ಕ್‌ಡ಼್ಷ್ಣ ಹಽಯೆ ಕುತೂಹಲೀ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "లుచి చిని సరపురీ లాడ్డు రసాబలీ",
+      "భొజన కరెన క్డ్ష్ణ హఽయె కుతూహలీ 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "лучи чини сарапурӣ ла̄д̣д̣у раса̄балӣ",
+      "бхо̆джана карэ̆на кр̤шн̣а ха'йэ̆ кутӯхалӣ 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ലുചി ചിനി സരപുരീ ലാഡ്ഡു രസാബലീ",
+      "ഭൊജന കരെന ക്ഡ്ഷ്ണ ഹഽയെ കുതൂഹലീ 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "லுசி சினி ஸரபுரீ லாட்³டு³ ரஸாப³லீ",
+      "பொ⁴ஜன கரென க்ஃட்²ஷ்ண ஹ(அ)யெ குதூஹலீ 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "luci cini sarapurī lāḍḍu rasābalī",
+      "bhojana karena kṛṣṇa ha’ye kutūhalī 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "luci cini sarapurī lāḍḍu rasābalī",
+      "bhojana karena kṛṣṇa ha’ye kutūhalī 7"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 8,
+   "source_text_master": [
+    "rādhikāra pakba anna bibidha byañjana",
+    "parama ānande kṛṣṇa karena bhojana 8"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "In supreme bliss, Kṛṣṇa takes the rice and various types of vegetables cooked by Rādhikā."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "rādhikāra",
+       "Śrīmatī Rādhikā’s"
+      ],
+      [
+       "pakba",
+       "cooked"
+      ],
+      [
+       "anna",
+       "rice"
+      ],
+      [
+       "bibidha",
+       "various"
+      ],
+      [
+       "byañjana",
+       "vegetables"
+      ],
+      [
+       "parama",
+       "supreme"
+      ],
+      [
+       "ānande",
+       "in bliss"
+      ],
+      [
+       "kṛṣṇa",
+       "Kṛṣṇa"
+      ],
+      [
+       "karena bhojana",
+       "eats"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "राधिकार",
+       "Śrīmatī Rādhikā’s"
+      ],
+      [
+       "पक्ब",
+       "cooked"
+      ],
+      [
+       "अन्न",
+       "rice"
+      ],
+      [
+       "बिबिध",
+       "various"
+      ],
+      [
+       "ब्यञ्जन",
+       "vegetables"
+      ],
+      [
+       "परम",
+       "supreme"
+      ],
+      [
+       "आनन्दॆ",
+       "in bliss"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Kṛṣṇa"
+      ],
+      [
+       "करॆन भॊजन",
+       "eats"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "রাধিকার",
+       "Śrīmatī Rādhikā’s"
+      ],
+      [
+       "পক্ব",
+       "cooked"
+      ],
+      [
+       "অন্ন",
+       "rice"
+      ],
+      [
+       "বিবিধ",
+       "various"
+      ],
+      [
+       "ব্যঞ্জন",
+       "vegetables"
+      ],
+      [
+       "পরম",
+       "supreme"
+      ],
+      [
+       "আনন্দে",
+       "in bliss"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Kṛṣṇa"
+      ],
+      [
+       "করেন ভোজন",
+       "eats"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "રાધિકાર",
+       "Śrīmatī Rādhikā’s"
+      ],
+      [
+       "પક્બ",
+       "cooked"
+      ],
+      [
+       "અન્ન",
+       "rice"
+      ],
+      [
+       "બિબિધ",
+       "various"
+      ],
+      [
+       "બ્યઞ્જન",
+       "vegetables"
+      ],
+      [
+       "પરમ",
+       "supreme"
+      ],
+      [
+       "આનન્દે",
+       "in bliss"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Kṛṣṇa"
+      ],
+      [
+       "કરેન ભોજન",
+       "eats"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "राधिकार पक्ब अन्न बिबिध ब्यञ्जन",
+      "परम आनन्दॆ क्ड़्ष्ण करॆन भॊजन ८"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "রাধিকার পক্ব অন্ন বিবিধ ব্যঞ্জন",
+      "পরম আনন্দে ক্ড়্ষ্ণ করেন ভোজন ৮"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ରାଧିକାର ପକ୍ବ ଅନ୍ନ ବିବିଧ ବ୍ୟଞ୍ଜନ",
+      "ପରମ ଆନନ୍ଦେ କ୍ଡ଼୍ଷ୍ଣ କରେନ ଭୋଜନ ୮"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "રાધિકાર પક્બ અન્ન બિબિધ બ્યઞ્જન",
+      "પરમ આનન્દે ક્ડ઼્ષ્ણ કરેન ભોજન ૮"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "rādhikāra pakba anna bibidha byañjana",
+      "parama ānande kṛṣṇa karena bhojana 8"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ರಾಧಿಕಾರ ಪಕ್ಬ ಅನ್ನ ಬಿಬಿಧ ಬ್ಯಂಜನ",
+      "ಪರಮ ಆನಂದೆ ಕ್‌ಡ಼್ಷ್ಣ ಕರೆನ ಭೊಜನ ೮"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "రాధికార పక్బ అన్న బిబిధ బ్యంజన",
+      "పరమ ఆనందె క్డ్ష్ణ కరెన భొజన 8"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ра̄дхика̄ра пакба анна бибидха бйан̃джана",
+      "парама а̄нандэ̆ кр̤шн̣а карэ̆на бхо̆джана 8"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "രാധികാര പക്ബ അന്ന ബിബിധ ബ്യഞ്ജന",
+      "പരമ ആനന്ദെ ക്ഡ്ഷ്ണ കരെന ഭൊജന 8"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ராதி⁴கார பக்ப³ அன்ன பி³பி³த⁴ ப்³யஞ்ஜன",
+      "பரம ஆனந்தெ³ க்ஃட்²ஷ்ண கரென பொ⁴ஜன 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "rādhikāra pakba anna bibidha byañjana",
+      "parama ānande kṛṣṇa karena bhojana 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "rādhikāra pakba anna bibidha byañjana",
+      "parama ānande kṛṣṇa karena bhojana 8"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 9,
+   "source_text_master": [
+    "chale[FLAG_HYPHEN_ALPHA]bale lāḍḍu khāya śrīmadhumaṅgala",
+    "bagala bājāya āra deya haribola 9"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Madhumaṅgala takes lāḍḍus by hook or by crook, and he makes a funny sound by putting his hand under his armpit and flapping his arm as he calls out, “Haribol!”"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "chale",
+       "by trick"
+      ],
+      [
+       "bale",
+       "by force"
+      ],
+      [
+       "lāḍḍu",
+       "sweet balls"
+      ],
+      [
+       "khāya",
+       "eats"
+      ],
+      [
+       "śrīmadhumaṅgala",
+       "Śrī Madhumaṅgala"
+      ],
+      [
+       "bagala",
+       "armpits"
+      ],
+      [
+       "bājāya",
+       "plays"
+      ],
+      [
+       "āra",
+       "and"
+      ],
+      [
+       "deya",
+       "gives"
+      ],
+      [
+       "haribola",
+       "“Haribol”"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "छलॆ",
+       "by trick"
+      ],
+      [
+       "बलॆ",
+       "by force"
+      ],
+      [
+       "लाड्डु",
+       "sweet balls"
+      ],
+      [
+       "खाय",
+       "eats"
+      ],
+      [
+       "श्रीमधुमङ्गल",
+       "Śrī Madhumaṅgala"
+      ],
+      [
+       "बगल",
+       "armpits"
+      ],
+      [
+       "बाजाय",
+       "plays"
+      ],
+      [
+       "आर",
+       "and"
+      ],
+      [
+       "दॆय",
+       "gives"
+      ],
+      [
+       "हरिबॊल",
+       "“Haribol”"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ছলে",
+       "by trick"
+      ],
+      [
+       "বলে",
+       "by force"
+      ],
+      [
+       "লাড্ডু",
+       "sweet balls"
+      ],
+      [
+       "খায়",
+       "eats"
+      ],
+      [
+       "শ্রীমধুমঙ্গল",
+       "Śrī Madhumaṅgala"
+      ],
+      [
+       "বগল",
+       "armpits"
+      ],
+      [
+       "বাজায়",
+       "plays"
+      ],
+      [
+       "আর",
+       "and"
+      ],
+      [
+       "দেয়",
+       "gives"
+      ],
+      [
+       "হরিবোল",
+       "“Haribol”"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "છલે",
+       "by trick"
+      ],
+      [
+       "બલે",
+       "by force"
+      ],
+      [
+       "લાડ્ડુ",
+       "sweet balls"
+      ],
+      [
+       "ખાય",
+       "eats"
+      ],
+      [
+       "શ્રીમધુમઙ્ગલ",
+       "Śrī Madhumaṅgala"
+      ],
+      [
+       "બગલ",
+       "armpits"
+      ],
+      [
+       "બાજાય",
+       "plays"
+      ],
+      [
+       "આર",
+       "and"
+      ],
+      [
+       "દેય",
+       "gives"
+      ],
+      [
+       "હરિબોલ",
+       "“Haribol”"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "छलॆबलॆ लाड्डु खाय श्रीमधुमङ्गल",
+      "बगल बाजाय आर दॆय हरिबॊल ९"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ছলেবলে লাড্ডু খায় শ্রীমধুমঙ্গল",
+      "বগল বাজায় আর দেয় হরিবোল ৯"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଛଲେବଲେ ଲାଡ୍ଡୁ ଖାୟ ଶ୍ରୀମଧୁମଙ୍ଗଲ",
+      "ବଗଲ ବାଜାୟ ଆର ଦେୟ ହରିବୋଲ ୯"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "છલેબલે લાડ્ડુ ખાય શ્રીમધુમઙ્ગલ",
+      "બગલ બાજાય આર દેય હરિબોલ ૯"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "chale-bale lāḍḍu khāya śrīmadhumaṅgala",
+      "bagala bājāya āra deya haribola 9"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಛಲೆಬಲೆ ಲಾಡ್ಡು ಖಾಯ ಶ್ರೀಮಧುಮಂಗಲ",
+      "ಬಗಲ ಬಾಜಾಯ ಆರ ದೆಯ ಹರಿಬೊಲ ೯"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఛలెబలె లాడ్డు ఖాయ శ్రీమధుమంగల",
+      "బగల బాజాయ ఆర దెయ హరిబొల 9"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "чхалэ̆балэ̆ ла̄д̣д̣у кха̄йа ш́рӣмадхуман̇гала",
+      "багала ба̄джа̄йа а̄ра дэ̆йа харибо̆ла 9"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഛലെബലെ ലാഡ്ഡു ഖായ ശ്രീമധുമംഗല",
+      "ബഗല ബാജായ ആര ദെയ ഹരിബൊല 9"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ச²லெப³லெ லாட்³டு³ கா²ய ஶ்ரீமது⁴மங்க³ல",
+      "ப³க³ல பா³ஜாய ஆர தெ³ய ஹரிபொ³ல 9"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "chale-bale lāḍḍu khāya śrīmadhumaṅgala",
+      "bagala bājāya āra deya haribola 9"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "chale-bale lāḍḍu khāya śrīmadhumaṅgala",
+      "bagala bājāya āra deya haribola 9"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 10,
+   "source_text_master": [
+    "rādhikādi[FLAG_HYPHEN_ALPHA]gaṇe heri’ nayanera koṇe",
+    "tṛpta ha’ye khāya kṛṣṇa yaśodā[FLAG_HYPHEN_ALPHA]bhabane 10"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Glancing at Rādhikā and Her sakhīs out of the corner of His eye, Kṛṣṇa takes His lunch at Mother Yaśodā’s house with great satisfaction.\n[Now offer to Gurudeva, Vrajavāsīs, and Vaiṣṇavas]"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "rādhikādi",
+       "Śrīmatī Rādhikā + and the others"
+      ],
+      [
+       "gaṇe",
+       "to the group"
+      ],
+      [
+       "heri’",
+       "having seen"
+      ],
+      [
+       "nayanera",
+       "of the eyes"
+      ],
+      [
+       "koṇe",
+       "from the corner"
+      ],
+      [
+       "tṛpta",
+       "satisfied"
+      ],
+      [
+       "ha’ye",
+       "having become"
+      ],
+      [
+       "khāya",
+       "eats"
+      ],
+      [
+       "kṛṣṇa",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "yaśodā",
+       "Mother Yaśodā"
+      ],
+      [
+       "bhabane",
+       "in home"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "राधिकादि",
+       "Śrīmatī Rādhikā + and the others"
+      ],
+      [
+       "गणॆ",
+       "to the group"
+      ],
+      [
+       "हॆरिऽ",
+       "having seen"
+      ],
+      [
+       "नयनॆर",
+       "of the eyes"
+      ],
+      [
+       "कॊणॆ",
+       "from the corner"
+      ],
+      [
+       "त्ड़्प्त",
+       "satisfied"
+      ],
+      [
+       "हऽयॆ",
+       "having become"
+      ],
+      [
+       "खाय",
+       "eats"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "यशॊदा",
+       "Mother Yaśodā"
+      ],
+      [
+       "भबनॆ",
+       "in home"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "রাধিকাদি",
+       "Śrīmatī Rādhikā + and the others"
+      ],
+      [
+       "গণে",
+       "to the group"
+      ],
+      [
+       "হেরিঽ",
+       "having seen"
+      ],
+      [
+       "নয়নের",
+       "of the eyes"
+      ],
+      [
+       "কোণে",
+       "from the corner"
+      ],
+      [
+       "ৎড়্প্ত",
+       "satisfied"
+      ],
+      [
+       "হঽয়ে",
+       "having become"
+      ],
+      [
+       "খায়",
+       "eats"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "যশোদা",
+       "Mother Yaśodā"
+      ],
+      [
+       "ভবনে",
+       "in home"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "રાધિકાદિ",
+       "Śrīmatī Rādhikā + and the others"
+      ],
+      [
+       "ગણે",
+       "to the group"
+      ],
+      [
+       "હેરિઽ",
+       "having seen"
+      ],
+      [
+       "નયનેર",
+       "of the eyes"
+      ],
+      [
+       "કોણે",
+       "from the corner"
+      ],
+      [
+       "ત્ડ઼્પ્ત",
+       "satisfied"
+      ],
+      [
+       "હઽયે",
+       "having become"
+      ],
+      [
+       "ખાય",
+       "eats"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "યશોદા",
+       "Mother Yaśodā"
+      ],
+      [
+       "ભબને",
+       "in home"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "राधिकादिगणॆ हॆरिऽ नयनॆर कॊणॆ",
+      "त्ड़्प्त हऽयॆ खाय क्ड़्ष्ण यशॊदाभबनॆ १०"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "রাধিকাদিগণে হেরিঽ নয়নের কোণে",
+      "ৎড়্প্ত হঽয়ে খায় ক্ড়্ষ্ণ যশোদাভবনে ১০"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ରାଧିକାଦିଗଣେ ହେରିଽ ନୟନେର କୋଣେ",
+      "ତ୍ଡ଼୍ପ୍ତ ହଽୟେ ଖାୟ କ୍ଡ଼୍ଷ୍ଣ ଯଶୋଦାଭବନେ ୧୦"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "રાધિકાદિગણે હેરિઽ નયનેર કોણે",
+      "ત્ડ઼્પ્ત હઽયે ખાય ક્ડ઼્ષ્ણ યશોદાભબને ૧૦"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "rādhikādi-gaṇe heri’ nayanera koṇe",
+      "tṛpta ha’ye khāya kṛṣṇa yaśodā-bhabane 10"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ರಾಧಿಕಾದಿಗಣೆ ಹೆರಿಽ ನಯನೆರ ಕೊಣೆ",
+      "ತ್‌ಡ಼್ಪ್ತ ಹಽಯೆ ಖಾಯ ಕ್‌ಡ಼್ಷ್ಣ ಯಶೊದಾಭಬನೆ ೧೦"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "రాధికాదిగణె హెరిఽ నయనెర కొణె",
+      "త్డ్ప్త హఽయె ఖాయ క్డ్ష్ణ యశొదాభబనె 10"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ра̄дхика̄диган̣э̆ хэ̆ри' найанэ̆ра ко̆н̣э̆",
+      "тр̤пта ха'йэ̆ кха̄йа кр̤шн̣а йаш́о̆да̄бхабанэ̆ 10"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "രാധികാദിഗണെ ഹെരിഽ നയനെര കൊണെ",
+      "ത്ഡ്പ്ത ഹഽയെ ഖായ ക്ഡ്ഷ്ണ യശൊദാഭബനെ 10"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ராதி⁴காதி³க³ணெ ஹெரி(அ) நயனெர கொணெ",
+      "த்ஃட்²ப்த ஹ(அ)யெ கா²ய க்ஃட்²ஷ்ண யஶொதா³ப⁴ப³னெ 10"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "rādhikādi-gaṇe heri’ nayanera koṇe",
+      "tṛpta ha’ye khāya kṛṣṇa yaśodā-bhabane 10"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "rādhikādi-gaṇe heri’ nayanera koṇe",
+      "tṛpta ha’ye khāya kṛṣṇa yaśodā-bhabane 10"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 11,
+   "source_text_master": [
+    "bhojanānte piye kṛṣṇa subāsita bāri",
+    "sabe mukha prakṣālaya ha’ye sāri sāri 11"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "After finishing His meal, Kṛṣṇa drinks rose-scented water. Then all the sakhās, standing in lines, wash their mouths."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "bhojanānte",
+       "meal + at the end"
+      ],
+      [
+       "piye",
+       "having drunk"
+      ],
+      [
+       "kṛṣṇa",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "subāsita",
+       "scented"
+      ],
+      [
+       "bāri",
+       "water"
+      ],
+      [
+       "sabe",
+       "they all"
+      ],
+      [
+       "mukha",
+       "mouths"
+      ],
+      [
+       "prakṣālaya ha’ye",
+       "having washed"
+      ],
+      [
+       "sāri sāri",
+       "in lines"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "भॊजनान्तॆ",
+       "meal + at the end"
+      ],
+      [
+       "पियॆ",
+       "having drunk"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "सुबासित",
+       "scented"
+      ],
+      [
+       "बारि",
+       "water"
+      ],
+      [
+       "सबॆ",
+       "they all"
+      ],
+      [
+       "मुख",
+       "mouths"
+      ],
+      [
+       "प्रक्षालय हऽयॆ",
+       "having washed"
+      ],
+      [
+       "सारि सारि",
+       "in lines"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ভোজনান্তে",
+       "meal + at the end"
+      ],
+      [
+       "পিয়ে",
+       "having drunk"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "সুবাসিত",
+       "scented"
+      ],
+      [
+       "বারি",
+       "water"
+      ],
+      [
+       "সবে",
+       "they all"
+      ],
+      [
+       "মুখ",
+       "mouths"
+      ],
+      [
+       "প্রক্ষালয় হঽয়ে",
+       "having washed"
+      ],
+      [
+       "সারি সারি",
+       "in lines"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ભોજનાન્તે",
+       "meal + at the end"
+      ],
+      [
+       "પિયે",
+       "having drunk"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "સુબાસિત",
+       "scented"
+      ],
+      [
+       "બારિ",
+       "water"
+      ],
+      [
+       "સબે",
+       "they all"
+      ],
+      [
+       "મુખ",
+       "mouths"
+      ],
+      [
+       "પ્રક્ષાલય હઽયે",
+       "having washed"
+      ],
+      [
+       "સારિ સારિ",
+       "in lines"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भॊजनान्तॆ पियॆ क्ड़्ष्ण सुबासित बारि",
+      "सबॆ मुख प्रक्षालय हऽयॆ सारि सारि ११"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভোজনান্তে পিয়ে ক্ড়্ষ্ণ সুবাসিত বারি",
+      "সবে মুখ প্রক্ষালয় হঽয়ে সারি সারি ১১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭୋଜନାନ୍ତେ ପିୟେ କ୍ଡ଼୍ଷ୍ଣ ସୁବାସିତ ବାରି",
+      "ସବେ ମୁଖ ପ୍ରକ୍ଷାଲୟ ହଽୟେ ସାରି ସାରି ୧୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભોજનાન્તે પિયે ક્ડ઼્ષ્ણ સુબાસિત બારિ",
+      "સબે મુખ પ્રક્ષાલય હઽયે સારિ સારિ ૧૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhojanānte piye kṛṣṇa subāsita bāri",
+      "sabe mukha prakṣālaya ha’ye sāri sāri 11"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭೊಜನಾಂತೆ ಪಿಯೆ ಕ್‌ಡ಼್ಷ್ಣ ಸುಬಾಸಿತ ಬಾರಿ",
+      "ಸಬೆ ಮುಖ ಪ್ರಕ್ಷಾಲಯ ಹಽಯೆ ಸಾರಿ ಸಾರಿ ೧೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భొజనాంతె పియె క్డ్ష్ణ సుబాసిత బారి",
+      "సబె ముఖ ప్రక్షాలయ హఽయె సారి సారి 11"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бхо̆джана̄нтэ̆ пийэ̆ кр̤шн̣а суба̄сита ба̄ри",
+      "сабэ̆ мукха пракша̄лайа ха'йэ̆ са̄ри са̄ри 11"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭൊജനാന്തെ പിയെ ക്ഡ്ഷ്ണ സുബാസിത ബാരി",
+      "സബെ മുഖ പ്രക്ഷാലയ ഹഽയെ സാരി സാരി 11"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பொ⁴ஜனாந்தெ பியெ க்ஃட்²ஷ்ண ஸுபா³ஸித பா³ரி",
+      "ஸபெ³ முக² ப்ரக்ஷாலய ஹ(அ)யெ ஸாரி ஸாரி 11"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhojanānte piye kṛṣṇa subāsita bāri",
+      "sabe mukha prakṣālaya ha’ye sāri sāri 11"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhojanānte piye kṛṣṇa subāsita bāri",
+      "sabe mukha prakṣālaya ha’ye sāri sāri 11"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 12,
+   "source_text_master": [
+    "hasta[FLAG_HYPHEN_ALPHA]mukha prakṣāliyā yata sakhāgaṇe",
+    "ānande biśrāma kare baladeba[FLAG_HYPHEN_ALPHA]sane 12"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "After washing their hands and mouths, all the sakhās blissfully take rest along with Baladeva."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hasta",
+       "hands"
+      ],
+      [
+       "mukha",
+       "mouth"
+      ],
+      [
+       "prakṣāliyā",
+       "having washed"
+      ],
+      [
+       "yata",
+       "whatever"
+      ],
+      [
+       "sakhāgaṇe",
+       "cowherd boys"
+      ],
+      [
+       "ānande",
+       "blissfully"
+      ],
+      [
+       "biśrāma kare",
+       "rest"
+      ],
+      [
+       "baladeba",
+       "Baladeva"
+      ],
+      [
+       "sane",
+       "with"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हस्त",
+       "hands"
+      ],
+      [
+       "मुख",
+       "mouth"
+      ],
+      [
+       "प्रक्षालिया",
+       "having washed"
+      ],
+      [
+       "यत",
+       "whatever"
+      ],
+      [
+       "सखागणॆ",
+       "cowherd boys"
+      ],
+      [
+       "आनन्दॆ",
+       "blissfully"
+      ],
+      [
+       "बिश्राम करॆ",
+       "rest"
+      ],
+      [
+       "बलदॆब",
+       "Baladeva"
+      ],
+      [
+       "सनॆ",
+       "with"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হস্ত",
+       "hands"
+      ],
+      [
+       "মুখ",
+       "mouth"
+      ],
+      [
+       "প্রক্ষালিয়া",
+       "having washed"
+      ],
+      [
+       "যত",
+       "whatever"
+      ],
+      [
+       "সখাগণে",
+       "cowherd boys"
+      ],
+      [
+       "আনন্দে",
+       "blissfully"
+      ],
+      [
+       "বিশ্রাম করে",
+       "rest"
+      ],
+      [
+       "বলদেব",
+       "Baladeva"
+      ],
+      [
+       "সনে",
+       "with"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હસ્ત",
+       "hands"
+      ],
+      [
+       "મુખ",
+       "mouth"
+      ],
+      [
+       "પ્રક્ષાલિયા",
+       "having washed"
+      ],
+      [
+       "યત",
+       "whatever"
+      ],
+      [
+       "સખાગણે",
+       "cowherd boys"
+      ],
+      [
+       "આનન્દે",
+       "blissfully"
+      ],
+      [
+       "બિશ્રામ કરે",
+       "rest"
+      ],
+      [
+       "બલદેબ",
+       "Baladeva"
+      ],
+      [
+       "સને",
+       "with"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हस्तमुख प्रक्षालिया यत सखागणॆ",
+      "आनन्दॆ बिश्राम करॆ बलदॆबसनॆ १२"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হস্তমুখ প্রক্ষালিয়া যত সখাগণে",
+      "আনন্দে বিশ্রাম করে বলদেবসনে ১২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହସ୍ତମୁଖ ପ୍ରକ୍ଷାଲିୟା ଯତ ସଖାଗଣେ",
+      "ଆନନ୍ଦେ ବିଶ୍ରାମ କରେ ବଲଦେବସନେ ୧୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હસ્તમુખ પ્રક્ષાલિયા યત સખાગણે",
+      "આનન્દે બિશ્રામ કરે બલદેબસને ૧૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hasta-mukha prakṣāliyā yata sakhāgaṇe",
+      "ānande biśrāma kare baladeba-sane 12"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹಸ್ತಮುಖ ಪ್ರಕ್ಷಾಲಿಯಾ ಯತ ಸಖಾಗಣೆ",
+      "ಆನಂದೆ ಬಿಶ್ರಾಮ ಕರೆ ಬಲದೆಬಸನೆ ೧೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హస్తముఖ ప్రక్షాలియా యత సఖాగణె",
+      "ఆనందె బిశ్రామ కరె బలదెబసనె 12"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хастамукха пракша̄лийа̄ йата сакха̄ган̣э̆",
+      "а̄нандэ̆ биш́ра̄ма карэ̆ баладэ̆басанэ̆ 12"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹസ്തമുഖ പ്രക്ഷാലിയാ യത സഖാഗണെ",
+      "ആനന്ദെ ബിശ്രാമ കരെ ബലദെബസനെ 12"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹஸ்தமுக² ப்ரக்ஷாலியா யத ஸகா²க³ணெ",
+      "ஆனந்தெ³ பி³ஶ்ராம கரெ ப³லதெ³ப³ஸனெ 12"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hasta-mukha prakṣāliyā yata sakhāgaṇe",
+      "ānande biśrāma kare baladeba-sane 12"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hasta-mukha prakṣāliyā yata sakhāgaṇe",
+      "ānande biśrāma kare baladeba-sane 12"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 13,
+   "source_text_master": [
+    "‘jāmbula’ ‘rasāla’ āne tāmbūla[FLAG_HYPHEN_ALPHA]masālā",
+    "tāhā kheye kṛṣṇacandra sukhe nidrā gelā 13"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The sakhās Jāmbula and Rasāla bring Kṛṣṇa spiced betel nuts. After chewing them, Kṛṣṇa-candra happily goes to sleep."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "jāmbula’",
+       "Jāmbula"
+      ],
+      [
+       "rasāla’",
+       "Rāsala"
+      ],
+      [
+       "āne",
+       "bring"
+      ],
+      [
+       "tāmbūla",
+       "betel nuts"
+      ],
+      [
+       "masālā",
+       "spiced"
+      ],
+      [
+       "tāhā",
+       "that"
+      ],
+      [
+       "kheye",
+       "having eaten"
+      ],
+      [
+       "kṛṣṇacandra",
+       "the moon-like Kṛṣṇa"
+      ],
+      [
+       "sukhe",
+       "happily"
+      ],
+      [
+       "nidrā",
+       "sleep"
+      ],
+      [
+       "gelā",
+       "goes"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "जाम्बुलऽ",
+       "Jāmbula"
+      ],
+      [
+       "रसालऽ",
+       "Rāsala"
+      ],
+      [
+       "आनॆ",
+       "bring"
+      ],
+      [
+       "ताम्बूल",
+       "betel nuts"
+      ],
+      [
+       "मसाला",
+       "spiced"
+      ],
+      [
+       "ताहा",
+       "that"
+      ],
+      [
+       "खॆयॆ",
+       "having eaten"
+      ],
+      [
+       "क्ड़्ष्णचन्द्र",
+       "the moon-like Kṛṣṇa"
+      ],
+      [
+       "सुखॆ",
+       "happily"
+      ],
+      [
+       "निद्रा",
+       "sleep"
+      ],
+      [
+       "गॆला",
+       "goes"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "জাম্বুলঽ",
+       "Jāmbula"
+      ],
+      [
+       "রসালঽ",
+       "Rāsala"
+      ],
+      [
+       "আনে",
+       "bring"
+      ],
+      [
+       "তাম্বূল",
+       "betel nuts"
+      ],
+      [
+       "মসালা",
+       "spiced"
+      ],
+      [
+       "তাহা",
+       "that"
+      ],
+      [
+       "খেয়ে",
+       "having eaten"
+      ],
+      [
+       "ক্ড়্ষ্ণচন্দ্র",
+       "the moon-like Kṛṣṇa"
+      ],
+      [
+       "সুখে",
+       "happily"
+      ],
+      [
+       "নিদ্রা",
+       "sleep"
+      ],
+      [
+       "গেলা",
+       "goes"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "જામ્બુલઽ",
+       "Jāmbula"
+      ],
+      [
+       "રસાલઽ",
+       "Rāsala"
+      ],
+      [
+       "આને",
+       "bring"
+      ],
+      [
+       "તામ્બૂલ",
+       "betel nuts"
+      ],
+      [
+       "મસાલા",
+       "spiced"
+      ],
+      [
+       "તાહા",
+       "that"
+      ],
+      [
+       "ખેયે",
+       "having eaten"
+      ],
+      [
+       "ક્ડ઼્ષ્ણચન્દ્ર",
+       "the moon-like Kṛṣṇa"
+      ],
+      [
+       "સુખે",
+       "happily"
+      ],
+      [
+       "નિદ્રા",
+       "sleep"
+      ],
+      [
+       "ગેલા",
+       "goes"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "‘जाम्बुलऽ ‘रसालऽ आनॆ ताम्बूलमसाला",
+      "ताहा खॆयॆ क्ड़्ष्णचन्द्र सुखॆ निद्रा गॆला १३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "‘জাম্বুলঽ ‘রসালঽ আনে তাম্বূলমসালা",
+      "তাহা খেয়ে ক্ড়্ষ্ণচন্দ্র সুখে নিদ্রা গেলা ১৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "‘ଜାମ୍ବୁଲଽ ‘ରସାଲଽ ଆନେ ତାମ୍ବୂଲମସାଲା",
+      "ତାହା ଖେୟେ କ୍ଡ଼୍ଷ୍ଣଚନ୍ଦ୍ର ସୁଖେ ନିଦ୍ରା ଗେଲା ୧୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "‘જામ્બુલઽ ‘રસાલઽ આને તામ્બૂલમસાલા",
+      "તાહા ખેયે ક્ડ઼્ષ્ણચન્દ્ર સુખે નિદ્રા ગેલા ૧૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "‘jāmbula’ ‘rasāla’ āne tāmbūla-masālā",
+      "tāhā kheye kṛṣṇacandra sukhe nidrā gelā 13"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "‘ಜಾಂಬುಲಽ ‘ರಸಾಲಽ ಆನೆ ತಾಂಬೂಲಮಸಾಲಾ",
+      "ತಾಹಾ ಖೆಯೆ ಕ್‌ಡ಼್ಷ್ಣಚಂದ್ರ ಸುಖೆ ನಿದ್ರಾ ಗೆಲಾ ೧೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "‘జాంబులఽ ‘రసాలఽ ఆనె తాంబూలమసాలా",
+      "తాహా ఖెయె క్డ్ష్ణచంద్ర సుఖె నిద్రా గెలా 13"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "‘джа̄мбула' ‘раса̄ла' а̄нэ̆ та̄мбӯламаса̄ла̄",
+      "та̄ха̄ кхэ̆йэ̆ кр̤шн̣ачандра сукхэ̆ нидра̄ гэ̆ла̄ 13"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "‘ജാംബുലഽ ‘രസാലഽ ആനെ താംബൂലമസാലാ",
+      "താഹാ ഖെയെ ക്ഡ്ഷ്ണചന്ദ്ര സുഖെ നിദ്രാ ഗെലാ 13"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "‘ஜாம்பு³ல(அ) ‘ரஸால(அ) ஆனெ தாம்பூ³லமஸாலா",
+      "தாஹா கெ²யெ க்ஃட்²ஷ்ணசந்த்³ர ஸுகெ² நித்³ரா கெ³லா 13"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "‘jāmbula’ ‘rasāla’ āne tāmbūla-masālā",
+      "tāhā kheye kṛṣṇacandra sukhe nidrā gelā 13"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "‘jāmbula’ ‘rasāla’ āne tāmbūla-masālā",
+      "tāhā kheye kṛṣṇacandra sukhe nidrā gelā 13"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 14,
+   "source_text_master": [
+    "‘biśālākṣa’ śikhipuccha cāmara ḍhulāya",
+    "apūrba śayyāya kṛṣṇa sukhe nidrā yāya 14"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "While His servant Viśālākṣa waves a peacock-feather fan to cool Him, Kṛṣṇa sleeps contentedly upon His very beautiful bed."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "biśālākṣa’",
+       "Viśālākṣa"
+      ],
+      [
+       "śikhipuccha",
+       "peacock-feather"
+      ],
+      [
+       "cāmara",
+       "fan"
+      ],
+      [
+       "ḍhulāya",
+       "waves"
+      ],
+      [
+       "apūrba",
+       "wonderful"
+      ],
+      [
+       "śayyāya",
+       "upon a bed"
+      ],
+      [
+       "kṛṣṇa",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "sukhe",
+       "happily"
+      ],
+      [
+       "nidrā",
+       "sleep"
+      ],
+      [
+       "yāya",
+       "goes"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "बिशालाक्षऽ",
+       "Viśālākṣa"
+      ],
+      [
+       "शिखिपुच्छ",
+       "peacock-feather"
+      ],
+      [
+       "चामर",
+       "fan"
+      ],
+      [
+       "ढुलाय",
+       "waves"
+      ],
+      [
+       "अपूर्ब",
+       "wonderful"
+      ],
+      [
+       "शय्याय",
+       "upon a bed"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "सुखॆ",
+       "happily"
+      ],
+      [
+       "निद्रा",
+       "sleep"
+      ],
+      [
+       "याय",
+       "goes"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "বিশালাক্ষঽ",
+       "Viśālākṣa"
+      ],
+      [
+       "শিখিপুচ্ছ",
+       "peacock-feather"
+      ],
+      [
+       "চামর",
+       "fan"
+      ],
+      [
+       "ঢুলায়",
+       "waves"
+      ],
+      [
+       "অপূর্ব",
+       "wonderful"
+      ],
+      [
+       "শয়্যায়",
+       "upon a bed"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "সুখে",
+       "happily"
+      ],
+      [
+       "নিদ্রা",
+       "sleep"
+      ],
+      [
+       "যায়",
+       "goes"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બિશાલાક્ષઽ",
+       "Viśālākṣa"
+      ],
+      [
+       "શિખિપુચ્છ",
+       "peacock-feather"
+      ],
+      [
+       "ચામર",
+       "fan"
+      ],
+      [
+       "ઢુલાય",
+       "waves"
+      ],
+      [
+       "અપૂર્બ",
+       "wonderful"
+      ],
+      [
+       "શય્યાય",
+       "upon a bed"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "સુખે",
+       "happily"
+      ],
+      [
+       "નિદ્રા",
+       "sleep"
+      ],
+      [
+       "યાય",
+       "goes"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "‘बिशालाक्षऽ शिखिपुच्छ चामर ढुलाय",
+      "अपूर्ब शय्याय क्ड़्ष्ण सुखॆ निद्रा याय १४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "‘বিশালাক্ষঽ শিখিপুচ্ছ চামর ঢুলায়",
+      "অপূর্ব শয়্যায় ক্ড়্ষ্ণ সুখে নিদ্রা যায় ১৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "‘ବିଶାଲାକ୍ଷଽ ଶିଖିପୁଚ୍ଛ ଚାମର ଢୁଲାୟ",
+      "ଅପୂର୍ବ ଶୟ୍ୟାୟ କ୍ଡ଼୍ଷ୍ଣ ସୁଖେ ନିଦ୍ରା ଯାୟ ୧୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "‘બિશાલાક્ષઽ શિખિપુચ્છ ચામર ઢુલાય",
+      "અપૂર્બ શય્યાય ક્ડ઼્ષ્ણ સુખે નિદ્રા યાય ૧૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "‘biśālākṣa’ śikhipuccha cāmara ḍhulāya",
+      "apūrba śayyāya kṛṣṇa sukhe nidrā yāya 14"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "‘ಬಿಶಾಲಾಕ್ಷಽ ಶಿಖಿಪುಚ್ಛ ಚಾಮರ ಢುಲಾಯ",
+      "ಅಪೂರ್ಬ ಶಯ್ಯಾಯ ಕ್‌ಡ಼್ಷ್ಣ ಸುಖೆ ನಿದ್ರಾ ಯಾಯ ೧೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "‘బిశాలాక్షఽ శిఖిపుచ్ఛ చామర ఢులాయ",
+      "అపూర్బ శయ్యాయ క్డ్ష్ణ సుఖె నిద్రా యాయ 14"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "‘биш́а̄ла̄кша' ш́икхипуччха ча̄мара д̣хула̄йа",
+      "апӯрба ш́аййа̄йа кр̤шн̣а сукхэ̆ нидра̄ йа̄йа 14"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "‘ബിശാലാക്ഷഽ ശിഖിപുച്ഛ ചാമര ഢുലായ",
+      "അപൂർബ ശയ്യായ ക്ഡ്ഷ്ണ സുഖെ നിദ്രാ യായ 14"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "‘பி³ஶாலாக்ஷ(அ) ஶிகி²புச்ச² சாமர டு⁴லாய",
+      "அபூர்ப³ ஶய்யாய க்ஃட்²ஷ்ண ஸுகெ² நித்³ரா யாய 14"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "‘biśālākṣa’ śikhipuccha cāmara ḍhulāya",
+      "apūrba śayyāya kṛṣṇa sukhe nidrā yāya 14"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "‘biśālākṣa’ śikhipuccha cāmara ḍhulāya",
+      "apūrba śayyāya kṛṣṇa sukhe nidrā yāya 14"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 15,
+   "source_text_master": [
+    "yaśomatī[FLAG_HYPHEN_ALPHA]ājñā peye dhaniṣṭhā[FLAG_HYPHEN_ALPHA]ānīta",
+    "śrīkṛṣṇaprasāda rādhā bhuñje ha’ye prīta 15"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Upon Mother Yaśodā’s request, Rādhā joyfully relishes the remnants of Kṛṣṇa’s plate, brought to Her by Dhaniṣṭhā."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "yaśomatī",
+       "Mother Yaśodā"
+      ],
+      [
+       "ājñā",
+       "order, request"
+      ],
+      [
+       "peye",
+       "having received"
+      ],
+      [
+       "dhaniṣṭhā",
+       "Dhaniṣṭhā"
+      ],
+      [
+       "ānīta",
+       "had brought"
+      ],
+      [
+       "śrīkṛṣṇaprasāda",
+       "Śrī Kṛṣṇa + food-remnants"
+      ],
+      [
+       "rādhā",
+       "Śrī Rādhā"
+      ],
+      [
+       "bhuñje",
+       "enjoys"
+      ],
+      [
+       "ha’ye",
+       "having become"
+      ],
+      [
+       "prīta",
+       "joyful"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "यशॊमती",
+       "Mother Yaśodā"
+      ],
+      [
+       "आज्ञा",
+       "order, request"
+      ],
+      [
+       "पॆयॆ",
+       "having received"
+      ],
+      [
+       "धनिष्ठा",
+       "Dhaniṣṭhā"
+      ],
+      [
+       "आनीत",
+       "had brought"
+      ],
+      [
+       "श्रीक्ड़्ष्णप्रसाद",
+       "Śrī Kṛṣṇa + food-remnants"
+      ],
+      [
+       "राधा",
+       "Śrī Rādhā"
+      ],
+      [
+       "भुञ्जॆ",
+       "enjoys"
+      ],
+      [
+       "हऽयॆ",
+       "having become"
+      ],
+      [
+       "प्रीत",
+       "joyful"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "যশোমতী",
+       "Mother Yaśodā"
+      ],
+      [
+       "আজ্ঞা",
+       "order, request"
+      ],
+      [
+       "পেয়ে",
+       "having received"
+      ],
+      [
+       "ধনিষ্ঠা",
+       "Dhaniṣṭhā"
+      ],
+      [
+       "আনীত",
+       "had brought"
+      ],
+      [
+       "শ্রীক্ড়্ষ্ণপ্রসাদ",
+       "Śrī Kṛṣṇa + food-remnants"
+      ],
+      [
+       "রাধা",
+       "Śrī Rādhā"
+      ],
+      [
+       "ভুঞ্জে",
+       "enjoys"
+      ],
+      [
+       "হঽয়ে",
+       "having become"
+      ],
+      [
+       "প্রীত",
+       "joyful"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "યશોમતી",
+       "Mother Yaśodā"
+      ],
+      [
+       "આજ્ઞા",
+       "order, request"
+      ],
+      [
+       "પેયે",
+       "having received"
+      ],
+      [
+       "ધનિષ્ઠા",
+       "Dhaniṣṭhā"
+      ],
+      [
+       "આનીત",
+       "had brought"
+      ],
+      [
+       "શ્રીક્ડ઼્ષ્ણપ્રસાદ",
+       "Śrī Kṛṣṇa + food-remnants"
+      ],
+      [
+       "રાધા",
+       "Śrī Rādhā"
+      ],
+      [
+       "ભુઞ્જે",
+       "enjoys"
+      ],
+      [
+       "હઽયે",
+       "having become"
+      ],
+      [
+       "પ્રીત",
+       "joyful"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "यशॊमतीआज्ञा पॆयॆ धनिष्ठाआनीत",
+      "श्रीक्ड़्ष्णप्रसाद राधा भुञ्जॆ हऽयॆ प्रीत १५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "যশোমতীআজ্ঞা পেয়ে ধনিষ্ঠাআনীত",
+      "শ্রীক্ড়্ষ্ণপ্রসাদ রাধা ভুঞ্জে হঽয়ে প্রীত ১৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଯଶୋମତୀଆଜ୍ଞା ପେୟେ ଧନିଷ୍ଠାଆନୀତ",
+      "ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣପ୍ରସାଦ ରାଧା ଭୁଞ୍ଜେ ହଽୟେ ପ୍ରୀତ ୧୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "યશોમતીઆજ્ઞા પેયે ધનિષ્ઠાઆનીત",
+      "શ્રીક્ડ઼્ષ્ણપ્રસાદ રાધા ભુઞ્જે હઽયે પ્રીત ૧૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "yaśomatī-ājñā peye dhaniṣṭhā-ānīta",
+      "śrīkṛṣṇaprasāda rādhā bhuñje ha’ye prīta 15"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಯಶೊಮತೀಆಜ್ಞಾ ಪೆಯೆ ಧನಿಷ್ಠಾಆನೀತ",
+      "ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಪ್ರಸಾದ ರಾಧಾ ಭುಂಜೆ ಹಽಯೆ ಪ್ರೀತ ೧೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "యశొమతీఆజ్ఞా పెయె ధనిష్ఠాఆనీత",
+      "శ్రీక్డ్ష్ణప్రసాద రాధా భుంజె హఽయె ప్రీత 15"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "йаш́о̆матӣа̄джн̃а̄ пэ̆йэ̆ дханишт̣ха̄а̄нӣта",
+      "ш́рӣкр̤шн̣апраса̄да ра̄дха̄ бхун̃джэ̆ ха'йэ̆ прӣта 15"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "യശൊമതീആജ്ഞാ പെയെ ധനിഷ്ഠാആനീത",
+      "ശ്രീക്ഡ്ഷ്ണപ്രസാദ രാധാ ഭുഞ്ജെ ഹഽയെ പ്രീത 15"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "யஶொமதீஆஜ்ஞா பெயெ த⁴நிஷ்டா²ஆனீத",
+      "ஶ்ரீக்ஃட்²ஷ்ணப்ரஸாத³ ராதா⁴ பு⁴ஞ்ஜெ ஹ(அ)யெ ப்ரீத 15"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "yaśomatī-ājñā peye dhaniṣṭhā-ānīta",
+      "śrīkṛṣṇaprasāda rādhā bhuñje ha’ye prīta 15"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "yaśomatī-ājñā peye dhaniṣṭhā-ānīta",
+      "śrīkṛṣṇaprasāda rādhā bhuñje ha’ye prīta 15"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 16,
+   "source_text_master": [
+    "lalitādi sakhīgaṇa abaśeṣa pāya",
+    "mane mane sukhe rādhākṛṣṇa[FLAG_HYPHEN_ALPHA]guṇa gāya 16"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Receiving Her remnants, Lalitā and the other sakhīs happily sing the glories of Rādhā and Kṛṣṇa within their minds."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "lalitādi",
+       "Lalitā + and the other"
+      ],
+      [
+       "sakhīgaṇa",
+       "girl-friends"
+      ],
+      [
+       "abaśeṣa",
+       "remnants"
+      ],
+      [
+       "pāya",
+       "receive"
+      ],
+      [
+       "mane mane",
+       "within the mind"
+      ],
+      [
+       "sukhe",
+       "happily"
+      ],
+      [
+       "rādhākṛṣṇa",
+       "Śrī Śrī Rādhā-Kṛṣṇa’s"
+      ],
+      [
+       "guṇa",
+       "qualities, glories"
+      ],
+      [
+       "gāya",
+       "sing"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ललितादि",
+       "Lalitā + and the other"
+      ],
+      [
+       "सखीगण",
+       "girl-friends"
+      ],
+      [
+       "अबशॆष",
+       "remnants"
+      ],
+      [
+       "पाय",
+       "receive"
+      ],
+      [
+       "मनॆ मनॆ",
+       "within the mind"
+      ],
+      [
+       "सुखॆ",
+       "happily"
+      ],
+      [
+       "राधाक्ड़्ष्ण",
+       "Śrī Śrī Rādhā-Kṛṣṇa’s"
+      ],
+      [
+       "गुण",
+       "qualities, glories"
+      ],
+      [
+       "गाय",
+       "sing"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ললিতাদি",
+       "Lalitā + and the other"
+      ],
+      [
+       "সখীগণ",
+       "girl-friends"
+      ],
+      [
+       "অবশেষ",
+       "remnants"
+      ],
+      [
+       "পায়",
+       "receive"
+      ],
+      [
+       "মনে মনে",
+       "within the mind"
+      ],
+      [
+       "সুখে",
+       "happily"
+      ],
+      [
+       "রাধাক্ড়্ষ্ণ",
+       "Śrī Śrī Rādhā-Kṛṣṇa’s"
+      ],
+      [
+       "গুণ",
+       "qualities, glories"
+      ],
+      [
+       "গায়",
+       "sing"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "લલિતાદિ",
+       "Lalitā + and the other"
+      ],
+      [
+       "સખીગણ",
+       "girl-friends"
+      ],
+      [
+       "અબશેષ",
+       "remnants"
+      ],
+      [
+       "પાય",
+       "receive"
+      ],
+      [
+       "મને મને",
+       "within the mind"
+      ],
+      [
+       "સુખે",
+       "happily"
+      ],
+      [
+       "રાધાક્ડ઼્ષ્ણ",
+       "Śrī Śrī Rādhā-Kṛṣṇa’s"
+      ],
+      [
+       "ગુણ",
+       "qualities, glories"
+      ],
+      [
+       "ગાય",
+       "sing"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ललितादि सखीगण अबशॆष पाय",
+      "मनॆ मनॆ सुखॆ राधाक्ड़्ष्णगुण गाय १६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ললিতাদি সখীগণ অবশেষ পায়",
+      "মনে মনে সুখে রাধাক্ড়্ষ্ণগুণ গায় ১৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଲଲିତାଦି ସଖୀଗଣ ଅବଶେଷ ପାୟ",
+      "ମନେ ମନେ ସୁଖେ ରାଧାକ୍ଡ଼୍ଷ୍ଣଗୁଣ ଗାୟ ୧୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "લલિતાદિ સખીગણ અબશેષ પાય",
+      "મને મને સુખે રાધાક્ડ઼્ષ્ણગુણ ગાય ૧૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "lalitādi sakhīgaṇa abaśeṣa pāya",
+      "mane mane sukhe rādhākṛṣṇa-guṇa gāya 16"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಲಲಿತಾದಿ ಸಖೀಗಣ ಅಬಶೆಷ ಪಾಯ",
+      "ಮನೆ ಮನೆ ಸುಖೆ ರಾಧಾಕ್‌ಡ಼್ಷ್ಣಗುಣ ಗಾಯ ೧೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "లలితాది సఖీగణ అబశెష పాయ",
+      "మనె మనె సుఖె రాధాక్డ్ష్ణగుణ గాయ 16"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "лалита̄ди сакхӣган̣а абаш́э̆ша па̄йа",
+      "манэ̆ манэ̆ сукхэ̆ ра̄дха̄кр̤шн̣агун̣а га̄йа 16"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ലലിതാദി സഖീഗണ അബശെഷ പായ",
+      "മനെ മനെ സുഖെ രാധാക്ഡ്ഷ്ണഗുണ ഗായ 16"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "லலிதாதி³ ஸகீ²க³ண அப³ஶெஷ பாய",
+      "மனெ மனெ ஸுகெ² ராதா⁴க்ஃட்²ஷ்ணகு³ண கா³ய 16"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "lalitādi sakhīgaṇa abaśeṣa pāya",
+      "mane mane sukhe rādhākṛṣṇa-guṇa gāya 16"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "lalitādi sakhīgaṇa abaśeṣa pāya",
+      "mane mane sukhe rādhākṛṣṇa-guṇa gāya 16"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 17,
+   "source_text_master": [
+    "harilīlā ekamātra yā̃hāra pramoda",
+    "bhogārati gāya sei bhakatibinoda 17"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "This Bhaktivinoda, whose joy is only found in the pastimes of Hari, sings this bhoga-ārati song."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "harilīlā",
+       "Śrī Hari + pastimes"
+      ],
+      [
+       "ekamātra",
+       "one + only"
+      ],
+      [
+       "yā̃hāra",
+       "whose"
+      ],
+      [
+       "pramoda",
+       "joy"
+      ],
+      [
+       "bhogārati",
+       "Bhoga-ārati"
+      ],
+      [
+       "gāya",
+       "sings"
+      ],
+      [
+       "sei",
+       "this"
+      ],
+      [
+       "bhakatibinoda",
+       "Bhaktivinoda"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हरिलीला",
+       "Śrī Hari + pastimes"
+      ],
+      [
+       "ऎकमात्र",
+       "one + only"
+      ],
+      [
+       "यांहार",
+       "whose"
+      ],
+      [
+       "प्रमॊद",
+       "joy"
+      ],
+      [
+       "भॊगारति",
+       "Bhoga-ārati"
+      ],
+      [
+       "गाय",
+       "sings"
+      ],
+      [
+       "सॆइ",
+       "this"
+      ],
+      [
+       "भकतिबिनॊद",
+       "Bhaktivinoda"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হরিলীলা",
+       "Śrī Hari + pastimes"
+      ],
+      [
+       "একমাত্র",
+       "one + only"
+      ],
+      [
+       "যাংহার",
+       "whose"
+      ],
+      [
+       "প্রমোদ",
+       "joy"
+      ],
+      [
+       "ভোগারতি",
+       "Bhoga-ārati"
+      ],
+      [
+       "গায়",
+       "sings"
+      ],
+      [
+       "সেই",
+       "this"
+      ],
+      [
+       "ভকতিবিনোদ",
+       "Bhaktivinoda"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હરિલીલા",
+       "Śrī Hari + pastimes"
+      ],
+      [
+       "એકમાત્ર",
+       "one + only"
+      ],
+      [
+       "યાંહાર",
+       "whose"
+      ],
+      [
+       "પ્રમોદ",
+       "joy"
+      ],
+      [
+       "ભોગારતિ",
+       "Bhoga-ārati"
+      ],
+      [
+       "ગાય",
+       "sings"
+      ],
+      [
+       "સેઇ",
+       "this"
+      ],
+      [
+       "ભકતિબિનોદ",
+       "Bhaktivinoda"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरिलीला ऎकमात्र यांहार प्रमॊद",
+      "भॊगारति गाय सॆइ भकतिबिनॊद १७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরিলীলা একমাত্র যাংহার প্রমোদ",
+      "ভোগারতি গায় সেই ভকতিবিনোদ ১৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରିଲୀଲା ଏକମାତ୍ର ଯାଂହାର ପ୍ରମୋଦ",
+      "ଭୋଗାରତି ଗାୟ ସେଇ ଭକତିବିନୋଦ ୧୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિલીલા એકમાત્ર યાંહાર પ્રમોદ",
+      "ભોગારતિ ગાય સેઇ ભકતિબિનોદ ૧૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "harilīlā ekamātra yā̃hāra pramoda",
+      "bhogārati gāya sei bhakatibinoda 17"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿಲೀಲಾ ಎಕಮಾತ್ರ ಯಾಂಹಾರ ಪ್ರಮೊದ",
+      "ಭೊಗಾರತಿ ಗಾಯ ಸೆಇ ಭಕತಿಬಿನೊದ ೧೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరిలీలా ఎకమాత్ర యాంహార ప్రమొద",
+      "భొగారతి గాయ సెఇ భకతిబినొద 17"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "харилӣла̄ э̆кама̄тра йа̄м̣ха̄ра прамо̆да",
+      "бхо̆га̄рати га̄йа сэ̆и бхакатибино̆да 17"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരിലീലാ എകമാത്ര യാംഹാര പ്രമൊദ",
+      "ഭൊഗാരതി ഗായ സെഇ ഭകതിബിനൊദ 17"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரிலீலா எகமாத்ர யாம்ʼஹார ப்ரமொத³",
+      "பொ⁴கா³ரதி கா³ய ஸெஇ ப⁴கதிபி³னொத³ 17"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "harilīlā ekamātra yā̃hāra pramoda",
+      "bhogārati gāya sei bhakatibinoda 17"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "harilīlā ekamātra yā̃hāra pramoda",
+      "bhogārati gāya sei bhakatibinoda 17"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- জাম্বুল রসাল—তাম্বুল-সেবাকারী দুই সেবক; বিশালাক্ষ—শ্রীকৃষ্ণের সেবক; ধনিষ্ঠা—শ্রীকৃষ্ণের পরিচারিকা ।"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "bvsm-1",
+   "filename": "A9-bvsm-1.mp3",
+   "artist": "Srila BV Svami Prabhupada"
+  },
+  {
+   "uid": "bvsm-2",
+   "filename": "A9-bvsm-2.mp3",
+   "artist": "Srila BV Svami Prabhupada"
+  },
+  {
+   "uid": "casu-1",
+   "filename": "A9-casu-1.mp3",
+   "artist": "casu"
+  },
+  {
+   "uid": "gaur-1",
+   "filename": "A9-gaur-1.mp3",
+   "artist": "Gaurasundar das"
+  }
+ ]
+}

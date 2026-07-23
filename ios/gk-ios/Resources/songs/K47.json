@@ -1,0 +1,632 @@
+{
+  "uid": "K47",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "মোর প্রভু মদনগোপাল গোবিন্দ গোপীনাথ"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "mora prabhu madanagopāla gobinda gopīnātha"
+    },
+    {
+      "script_code": "Deva",
+      "text": "मोर प्रभु मदनगोपाल गोबिन्द गोपीनाथ"
+    },
+    {
+      "script_code": "Telu",
+      "text": "మోర ప్రభు మదనగోపాల గోబింద గోపీనాథ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಮೋರ ಪ್ರಭು ಮದನಗೋಪಾಲ ಗೋಬಿಂದ ಗೋಪೀನಾಥ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "மோர ப்ரபு⁴ மத³னகோ³பால கோ³பி³ந்த³ கோ³பீநாத²"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "മോര പ്രഭു മദനഗോപാല ഗോബിന്ദ ഗോപീനാഥ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "મોર પ્રભુ મદનગોપાલ ગોબિન્દ ગોપીનાથ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ମୋର ପ୍ରଭୁ ମଦନଗୋପାଲ ଗୋବିନ୍ଦ ଗୋପୀନାଥ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "мора прабху маданагопа̄ла гобинда гопӣна̄тха"
+    }
+  ],
+  "author_uid": "ndt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Narottama dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील नरोत्तम दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల నరోత్తమ దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ನರೋತ್ತಮ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல நரோத்தம தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല നരോത്തമ ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ નરોત્તમ દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ନରୋତ୍ତମ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла нароттама да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "mora prabhu madanagopāla,    gobinda gopīnātha,",
+        "dayā kara muĩ adhamere",
+        "saṁsāra[FLAG_HYPHEN_ALPHA]sāgara[FLAG_HYPHEN_ALPHA]mājhe,    paḓiyā baiyāchi nātha,",
+        "kṛpāḍore bāndhi laha more 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "मॊर प्रभु मदनगॊपाल,    गॊबिन्द गॊपीनाथ,",
+            "दया कर मुइं अधमॆरॆ",
+            "संसारसागरमाझॆ,    पḓइया बैयाछि नाथ,",
+            "क्ड़्पाडॊरॆ बान्धि लह मॊरॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মোর প্রভু মদনগোপাল,    গোবিন্দ গোপীনাথ,",
+            "দয়া কর মুইং অধমেরে",
+            "সংসারসাগরমাঝে,    পḓইয়া বৈয়াছি নাথ,",
+            "ক্ড়্পাডোরে বান্ধি লহ মোরে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମୋର ପ୍ରଭୁ ମଦନଗୋପାଲ,    ଗୋବିନ୍ଦ ଗୋପୀନାଥ,",
+            "ଦୟା କର ମୁଇଂ ଅଧମେରେ",
+            "ସଂସାରସାଗରମାଝେ,    ପḓଇୟା ବୈୟାଛି ନାଥ,",
+            "କ୍ଡ଼୍ପାଡୋରେ ବାନ୍ଧି ଲହ ମୋରେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મોર પ્રભુ મદનગોપાલ,    ગોબિન્દ ગોપીનાથ,",
+            "દયા કર મુઇં અધમેરે",
+            "સંસારસાગરમાઝે,    પḓઇયા બૈયાછિ નાથ,",
+            "ક્ડ઼્પાડોરે બાન્ધિ લહ મોરે ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "mora prabhu madanagopāla,    gobinda gopīnātha,",
+            "dayā kara muĩ adhamere",
+            "saṁsāra-sāgara-mājhe,    paḓiyā baiyāchi nātha,",
+            "kṛpāḍore bāndhi laha more 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮೊರ ಪ್ರಭು ಮದನಗೊಪಾಲ,    ಗೊಬಿಂದ ಗೊಪೀನಾಥ,",
+            "ದಯಾ ಕರ ಮುಇಂ ಅಧಮೆರೆ",
+            "ಸಂಸಾರಸಾಗರಮಾಝೆ,    ಪḓಇಯಾ ಬೈಯಾಛಿ ನಾಥ,",
+            "ಕ್‌ಡ಼್ಪಾಡೊರೆ ಬಾಂಧಿ ಲಹ ಮೊರೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మొర ప్రభు మదనగొపాల,    గొబింద గొపీనాథ,",
+            "దయా కర ముఇం అధమెరె",
+            "సంసారసాగరమాఝె,    పḓఇయా బైయాఛి నాథ,",
+            "క్డ్పాడొరె బాంధి లహ మొరె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "мо̆ра прабху маданаго̆па̄ла,    го̆бинда го̆пӣна̄тха,",
+            "дайа̄ кара муим̣ адхамэ̆рэ̆",
+            "сам̣са̄раса̄гарама̄джхэ̆,    паḓийа̄ баийа̄чхи на̄тха,",
+            "кр̤па̄д̣о̆рэ̆ ба̄ндхи лаха мо̆рэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മൊര പ്രഭു മദനഗൊപാല,    ഗൊബിന്ദ ഗൊപീനാഥ,",
+            "ദയാ കര മുഇം അധമെരെ",
+            "സംസാരസാഗരമാഝെ,    പḓഇയാ ബൈയാഛി നാഥ,",
+            "ക്ഡ്പാഡൊരെ ബാന്ധി ലഹ മൊരെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மொர ப்ரபு⁴ மத³னகொ³பால,    கொ³பி³ந்த³ கொ³பீநாத²,",
+            "த³யா கர முஇம்ʼ அத⁴மெரெ",
+            "ஸம்ʼஸாரஸாக³ரமாஜெ²,    பḓஇயா பை³யாசி² நாத²,",
+            "க்ஃட்²பாடொ³ரெ பா³ந்தி⁴ லஹ மொரெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "mora prabhu madanagopāla,    gobinda gopīnātha,",
+            "dayā kara muĩ adhamere",
+            "saṁsāra-sāgara-mājhe,    paḍiyā baiyāchi nātha,",
+            "kṛpāḍore bāndhi laha more 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "mora prabhu madanagopāla,    gobinda gopīnātha,",
+            "dayā kara muĩ adhamere",
+            "saṁsāra-sāgara-mājhe,    paḓiyā baiyāchi nātha,",
+            "kṛpāḍore bāndhi laha more 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "adhama caṇḍāla āmi,    dayāra ṭhākura tumi,",
+        "śuniyāchi baiṣṇabera mukhe",
+        "e baḓa bharasā mane,    laiyā phela bṛndābane,",
+        "baṁśībaṭa yena dekhi sukhe 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अधम चण्डाल आमि,    दयार ठाकुर तुमि,",
+            "शुनियाछि बैष्णबॆर मुखॆ",
+            "ऎ बḓअ भरसा मनॆ,    लैया फॆल ब्ड़्न्दाबनॆ,",
+            "बंशीबट यॆन दॆखि सुखॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অধম চণ্ডাল আমি,    দয়ার ঠাকুর তুমি,",
+            "শুনিয়াছি বৈষ্ণবের মুখে",
+            "এ বḓঅ ভরসা মনে,    লৈয়া ফেল ব্ড়্ন্দাবনে,",
+            "বংশীবট যেন দেখি সুখে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅଧମ ଚଣ୍ଡାଲ ଆମି,    ଦୟାର ଠାକୁର ତୁମି,",
+            "ଶୁନିୟାଛି ବୈଷ୍ଣବେର ମୁଖେ",
+            "ଏ ବḓଅ ଭରସା ମନେ,    ଲୈୟା ଫେଲ ବ୍ଡ଼୍ନ୍ଦାବନେ,",
+            "ବଂଶୀବଟ ଯେନ ଦେଖି ସୁଖେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અધમ ચણ્ડાલ આમિ,    દયાર ઠાકુર તુમિ,",
+            "શુનિયાછિ બૈષ્ણબેર મુખે",
+            "એ બḓઅ ભરસા મને,    લૈયા ફેલ બ્ડ઼્ન્દાબને,",
+            "બંશીબટ યેન દેખિ સુખે ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "adhama caṇḍāla āmi,    dayāra ṭhākura tumi,",
+            "śuniyāchi baiṣṇabera mukhe",
+            "e baḓa bharasā mane,    laiyā phela bṛndābane,",
+            "baṁśībaṭa yena dekhi sukhe 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅಧಮ ಚಂಡಾಲ ಆಮಿ,    ದಯಾರ ಠಾಕುರ ತುಮಿ,",
+            "ಶುನಿಯಾಛಿ ಬೈಷ್ಣಬೆರ ಮುಖೆ",
+            "ಎ ಬḓಅ ಭರಸಾ ಮನೆ,    ಲೈಯಾ ಫೆಲ ಬ್‌ಡ಼್ನ್ದಾಬನೆ,",
+            "ಬಂಶೀಬಟ ಯೆನ ದೆಖಿ ಸುಖೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అధమ చండాల ఆమి,    దయార ఠాకుర తుమి,",
+            "శునియాఛి బైష్ణబెర ముఖె",
+            "ఎ బḓఅ భరసా మనె,    లైయా ఫెల బ్డ్న్దాబనె,",
+            "బంశీబట యెన దెఖి సుఖె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "адхама чан̣д̣а̄ла а̄ми,    дайа̄ра т̣ха̄кура туми,",
+            "ш́унийа̄чхи баишн̣абэ̆ра мукхэ̆",
+            "э̆ баḓа бхараса̄ манэ̆,    лаийа̄ пхэ̆ла бр̤нда̄банэ̆,",
+            "бам̣ш́ӣбат̣а йэ̆на дэ̆кхи сукхэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അധമ ചണ്ഡാല ആമി,    ദയാര ഠാകുര തുമി,",
+            "ശുനിയാഛി ബൈഷ്ണബെര മുഖെ",
+            "എ ബḓഅ ഭരസാ മനെ,    ലൈയാ ഫെല ബ്ഡ്ന്ദാബനെ,",
+            "ബംശീബട യെന ദെഖി സുഖെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அத⁴ம சண்டா³ல ஆமி,    த³யார டா²குர துமி,",
+            "ஶுனியாசி² பை³ஷ்ணபெ³ர முகெ²",
+            "எ ப³ḓஅ ப⁴ரஸா மனெ,    லையா பெ²ல ப்³ஃட்²ந்தா³ப³னெ,",
+            "ப³ம்ʼஶீப³ட யென தெ³கி² ஸுகெ² 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "adhama caṇḍāla āmi,    dayāra ṭhākura tumi,",
+            "śuniyāchi baiṣṇabera mukhe",
+            "e baḍa bharasā mane,    laiyā phela bṛndābane,",
+            "baṁśībaṭa yena dekhi sukhe 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "adhama caṇḍāla āmi,    dayāra ṭhākura tumi,",
+            "śuniyāchi baiṣṇabera mukhe",
+            "e baḓa bharasā mane,    laiyā phela bṛndābane,",
+            "baṁśībaṭa yena dekhi sukhe 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "kṛpā kara āguguri’,    laha more keśe dhari’,",
+        "śrīyamunā deha’ padachāyā",
+        "aneka dinera āśa,    nahe yena nairāśa,",
+        "dayā kara, nā karaha māyā 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "क्ड़्पा कर आगुगुरिऽ,    लह मॊरॆ कॆशॆ धरिऽ,",
+            "श्रीयमुना दॆहऽ पदछाया",
+            "अनॆक दिनॆर आश,    नहॆ यॆन नैराश,",
+            "दया कर, ना करह माया ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ক্ড়্পা কর আগুগুরিঽ,    লহ মোরে কেশে ধরিঽ,",
+            "শ্রীয়মুনা দেহঽ পদছায়া",
+            "অনেক দিনের আশ,    নহে যেন নৈরাশ,",
+            "দয়া কর, না করহ মায়া ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କ୍ଡ଼୍ପା କର ଆଗୁଗୁରିଽ,    ଲହ ମୋରେ କେଶେ ଧରିଽ,",
+            "ଶ୍ରୀୟମୁନା ଦେହଽ ପଦଛାୟା",
+            "ଅନେକ ଦିନେର ଆଶ,    ନହେ ଯେନ ନୈରାଶ,",
+            "ଦୟା କର, ନା କରହ ମାୟା ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ક્ડ઼્પા કર આગુગુરિઽ,    લહ મોરે કેશે ધરિઽ,",
+            "શ્રીયમુના દેહઽ પદછાયા",
+            "અનેક દિનેર આશ,    નહે યેન નૈરાશ,",
+            "દયા કર, ના કરહ માયા ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kṛpā kara āguguri’,    laha more keśe dhari’,",
+            "śrīyamunā deha’ padachāyā",
+            "aneka dinera āśa,    nahe yena nairāśa,",
+            "dayā kara, nā karaha māyā 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕ್‌ಡ಼್ಪಾ ಕರ ಆಗುಗುರಿಽ,    ಲಹ ಮೊರೆ ಕೆಶೆ ಧರಿಽ,",
+            "ಶ್ರೀಯಮುನಾ ದೆಹಽ ಪದಛಾಯಾ",
+            "ಅನೆಕ ದಿನೆರ ಆಶ,    ನಹೆ ಯೆನ ನೈರಾಶ,",
+            "ದಯಾ ಕರ, ನಾ ಕರಹ ಮಾಯಾ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "క్డ్పా కర ఆగుగురిఽ,    లహ మొరె కెశె ధరిఽ,",
+            "శ్రీయమునా దెహఽ పదఛాయా",
+            "అనెక దినెర ఆశ,    నహె యెన నైరాశ,",
+            "దయా కర, నా కరహ మాయా 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кр̤па̄ кара а̄гугури',    лаха мо̆рэ̆ кэ̆ш́э̆ дхари',",
+            "ш́рӣйамуна̄ дэ̆ха' падачха̄йа̄",
+            "анэ̆ка динэ̆ра а̄ш́а,    нахэ̆ йэ̆на наира̄ш́а,",
+            "дайа̄ кара, на̄ караха ма̄йа̄ 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ക്ഡ്പാ കര ആഗുഗുരിഽ,    ലഹ മൊരെ കെശെ ധരിഽ,",
+            "ശ്രീയമുനാ ദെഹഽ പദഛായാ",
+            "അനെക ദിനെര ആശ,    നഹെ യെന നൈരാശ,",
+            "ദയാ കര, നാ കരഹ മായാ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "க்ஃட்²பா கர ஆகு³கு³ரி(அ),    லஹ மொரெ கெஶெ த⁴ரி(அ),",
+            "ஶ்ரீயமுனா தெ³ஹ(அ) பத³சா²யா",
+            "அனெக தி³னெர ஆஶ,    நஹெ யென நைராஶ,",
+            "த³யா கர, நா கரஹ மாயா 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kṛpā kara āguguri’,    laha more keśe dhari’,",
+            "śrīyamunā deha’ padachāyā",
+            "aneka dinera āśa,    nahe yena nairāśa,",
+            "dayā kara, nā karaha māyā 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kṛpā kara āguguri’,    laha more keśe dhari’,",
+            "śrīyamunā deha’ padachāyā",
+            "aneka dinera āśa,    nahe yena nairāśa,",
+            "dayā kara, nā karaha māyā 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "anitya e deha dhari’,    āpana āpana kari’,",
+        "pāche pāche śamanera bhaya",
+        "narottamadāsa bhaṇe,    prāṇa kānde rātridine,",
+        "pāche brajaprāpti nāhi haya 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अनित्य ऎ दॆह धरिऽ,    आपन आपन करिऽ,",
+            "पाछॆ पाछॆ शमनॆर भय",
+            "नरॊत्तमदास भणॆ,    प्राण कान्दॆ रात्रिदिनॆ,",
+            "पाछॆ ब्रजप्राप्ति नाहि हय ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অনিত্য এ দেহ ধরিঽ,    আপন আপন করিঽ,",
+            "পাছে পাছে শমনের ভয়",
+            "নরোত্তমদাস ভণে,    প্রাণ কান্দে রাত্রিদিনে,",
+            "পাছে ব্রজপ্রাপ্তি নাহি হয় ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅନିତ୍ୟ ଏ ଦେହ ଧରିଽ,    ଆପନ ଆପନ କରିଽ,",
+            "ପାଛେ ପାଛେ ଶମନେର ଭୟ",
+            "ନରୋତ୍ତମଦାସ ଭଣେ,    ପ୍ରାଣ କାନ୍ଦେ ରାତ୍ରିଦିନେ,",
+            "ପାଛେ ବ୍ରଜପ୍ରାପ୍ତି ନାହି ହୟ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અનિત્ય એ દેહ ધરિઽ,    આપન આપન કરિઽ,",
+            "પાછે પાછે શમનેર ભય",
+            "નરોત્તમદાસ ભણે,    પ્રાણ કાન્દે રાત્રિદિને,",
+            "પાછે બ્રજપ્રાપ્તિ નાહિ હય ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "anitya e deha dhari’,    āpana āpana kari’,",
+            "pāche pāche śamanera bhaya",
+            "narottamadāsa bhaṇe,    prāṇa kānde rātridine,",
+            "pāche brajaprāpti nāhi haya 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅನಿತ್ಯ ಎ ದೆಹ ಧರಿಽ,    ಆಪನ ಆಪನ ಕರಿಽ,",
+            "ಪಾಛೆ ಪಾಛೆ ಶಮನೆರ ಭಯ",
+            "ನರೊತ್ತಮದಾಸ ಭಣೆ,    ಪ್ರಾಣ ಕಾಂದೆ ರಾತ್ರಿದಿನೆ,",
+            "ಪಾಛೆ ಬ್ರಜಪ್ರಾಪ್ತಿ ನಾಹಿ ಹಯ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అనిత్య ఎ దెహ ధరిఽ,    ఆపన ఆపన కరిఽ,",
+            "పాఛె పాఛె శమనెర భయ",
+            "నరొత్తమదాస భణె,    ప్రాణ కాందె రాత్రిదినె,",
+            "పాఛె బ్రజప్రాప్తి నాహి హయ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "анитйа э̆ дэ̆ха дхари',    а̄пана а̄пана кари',",
+            "па̄чхэ̆ па̄чхэ̆ ш́аманэ̆ра бхайа",
+            "наро̆ттамада̄са бхан̣э̆,    пра̄н̣а ка̄ндэ̆ ра̄тридинэ̆,",
+            "па̄чхэ̆ браджапра̄пти на̄хи хайа 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അനിത്യ എ ദെഹ ധരിഽ,    ആപന ആപന കരിഽ,",
+            "പാഛെ പാഛെ ശമനെര ഭയ",
+            "നരൊത്തമദാസ ഭണെ,    പ്രാണ കാന്ദെ രാത്രിദിനെ,",
+            "പാഛെ ബ്രജപ്രാപ്തി നാഹി ഹയ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அநித்ய எ தெ³ஹ த⁴ரி(அ),    ஆபன ஆபன கரி(அ),",
+            "பாசெ² பாசெ² ஶமனெர ப⁴ய",
+            "நரொத்தமதா³ஸ ப⁴ணெ,    ப்ராண காந்தெ³ ராத்ரிதி³னெ,",
+            "பாசெ² ப்³ரஜப்ராப்தி நாஹி ஹய 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "anitya e deha dhari’,    āpana āpana kari’,",
+            "pāche pāche śamanera bhaya",
+            "narottamadāsa bhaṇe,    prāṇa kānde rātridine,",
+            "pāche brajaprāpti nāhi haya 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "anitya e deha dhari’,    āpana āpana kari’,",
+            "pāche pāche śamanera bhaya",
+            "narottamadāsa bhaṇe,    prāṇa kānde rātridine,",
+            "pāche brajaprāpti nāhi haya 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শ্রীকৃষ্ণ বিজ্ঞপ্তি"
+    },
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- আগুগুরি—অগ্রসর হইয়া; ভণে—জ্ঞাপন করে ।"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Entreaties"
+  ]
+}

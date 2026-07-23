@@ -1,5 +1,7 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.neutral
+
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -63,17 +65,18 @@ fun Tag(
     
     when (variant) {
         TagVariant.Default -> {
-            val neutralColor = MaterialTheme.colorScheme.tertiary
+            val neutralColor = MaterialTheme.colorScheme.neutral
             backgroundColor = neutralColor.copy(alpha = 0.2f)
             textColor = neutralColor
         }
         TagVariant.Highlight -> {
             val highlightColor = MaterialTheme.colorScheme.surfaceVariant
             backgroundColor = highlightColor.copy(alpha = 0.8f)
-            textColor = Color.White
+            // Text on the accent (highlight) surface -- themes to White (Gaura) / Black (Shyam).
+            textColor = MaterialTheme.colorScheme.onSurfaceVariant
         }
         TagVariant.Primary -> {
-            val primaryColor = MaterialTheme.colorScheme.primary
+            val primaryColor = MaterialTheme.colorScheme.surfaceVariant
             backgroundColor = primaryColor.copy(alpha = 0.2f)
             textColor = primaryColor
         }

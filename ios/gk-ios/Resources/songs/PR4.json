@@ -1,0 +1,983 @@
+{
+  "uid": "PR4",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ভাইরে! শ্রীচৈতন্য-নিত্যানন্দ"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "bhāire! śrīcaitanya-nityānanda"
+    },
+    {
+      "script_code": "Deva",
+      "text": "भाइरे! श्रीचैतन्य-नित्यानन्द"
+    },
+    {
+      "script_code": "Telu",
+      "text": "భాఇరే! శ్రీచైతన్య-నిత్యానంద"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಭಾಇರೇ! ಶ್ರೀಚೈತನ್ಯ-ನಿತ್ಯಾನಂದ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "பா⁴இரே! ஶ்ரீசைதன்ய-நித்யானந்த³"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഭാഇരേ! ശ്രീചൈതന്യ-നിത്യാനന്ദ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ભાઇરે! શ્રીચૈતન્ય-નિત્યાનન્દ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଭାଇରେ! ଶ୍ରୀଚୈତନ୍ୟ-ନିତ୍ୟାନନ୍ଦ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "бха̄ирэ! ш́рӣчаитанйа-нитйа̄нанда"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "bhāire!",
+        "śrīcaitanya[FLAG_HYPHEN_ALPHA]nityānanda,    śrībāsādi bhaktabṛnda,",
+        "gaurīdāsa[FLAG_HYPHEN_ALPHA]paṇḍitera ghare",
+        "luci, cini, kṣīra, sara,    miṭhāi, pāyasa āra,",
+        "piṭhāpānā āsbādana kare 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O brothers! Once, at the house of Gaurīdāsa Paṇḍit, Śrī Caitanya, Śrī Nityānanda, and Their devotees, headed by Śrīvāsa Ṭhākura, were relishing [various Bengali sweets such as] luci-cini (white-flour purīs dusted with sugar), kṣīra (sweetened condensed milk), sāra (thick cream), miṭhāi (sweet meats), pāyasa (sweet rice), and piṭhā-pānā (coconut cake rolls in sweetened condensed milk)."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bhāire",
+              "O brothers"
+            ],
+            [
+              "śrīcaitanya",
+              "Śrī Caitanya Mahāprabhu"
+            ],
+            [
+              "nityānanda",
+              "Śrī Nityānanda Prabhu"
+            ],
+            [
+              "śrībāsādi",
+              "Śrīvāsa Ṭhākura + and the other"
+            ],
+            [
+              "bhaktabṛnda",
+              "devotees + group"
+            ],
+            [
+              "gaurīdāsa paṇḍitera",
+              "Gaurīdāsa Paṇḍita’s"
+            ],
+            [
+              "ghare",
+              "at house"
+            ],
+            [
+              "luci cini",
+              "white-flour purīs dusted with sugar"
+            ],
+            [
+              "kṣīra",
+              "sweetened condensed milk"
+            ],
+            [
+              "sara",
+              "thick cream"
+            ],
+            [
+              "miṭhāi",
+              "sweet meats"
+            ],
+            [
+              "pāyasa",
+              "sweet rice"
+            ],
+            [
+              "āra",
+              "and"
+            ],
+            [
+              "piṭhāpānā",
+              "coconut cake rolls in sweetened condensed milk"
+            ],
+            [
+              "āsbādana kare",
+              "they relish"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "भाइरॆ",
+              "O brothers"
+            ],
+            [
+              "श्रीचैतन्य",
+              "Śrī Caitanya Mahāprabhu"
+            ],
+            [
+              "नित्यानन्द",
+              "Śrī Nityānanda Prabhu"
+            ],
+            [
+              "श्रीबासादि",
+              "Śrīvāsa Ṭhākura + and the other"
+            ],
+            [
+              "भक्तब्ड़्न्द",
+              "devotees + group"
+            ],
+            [
+              "गौरीदास पण्डितॆर",
+              "Gaurīdāsa Paṇḍita’s"
+            ],
+            [
+              "घरॆ",
+              "at house"
+            ],
+            [
+              "लुचि चिनि",
+              "white-flour purīs dusted with sugar"
+            ],
+            [
+              "क्षीर",
+              "sweetened condensed milk"
+            ],
+            [
+              "सर",
+              "thick cream"
+            ],
+            [
+              "मिठाइ",
+              "sweet meats"
+            ],
+            [
+              "पायस",
+              "sweet rice"
+            ],
+            [
+              "आर",
+              "and"
+            ],
+            [
+              "पिठापाना",
+              "coconut cake rolls in sweetened condensed milk"
+            ],
+            [
+              "आस्बादन करॆ",
+              "they relish"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ভাইরে",
+              "O brothers"
+            ],
+            [
+              "শ্রীচৈতন্য",
+              "Śrī Caitanya Mahāprabhu"
+            ],
+            [
+              "নিত্যানন্দ",
+              "Śrī Nityānanda Prabhu"
+            ],
+            [
+              "শ্রীবাসাদি",
+              "Śrīvāsa Ṭhākura + and the other"
+            ],
+            [
+              "ভক্তব্ড়্ন্দ",
+              "devotees + group"
+            ],
+            [
+              "গৌরীদাস পণ্ডিতের",
+              "Gaurīdāsa Paṇḍita’s"
+            ],
+            [
+              "ঘরে",
+              "at house"
+            ],
+            [
+              "লুচি চিনি",
+              "white-flour purīs dusted with sugar"
+            ],
+            [
+              "ক্ষীর",
+              "sweetened condensed milk"
+            ],
+            [
+              "সর",
+              "thick cream"
+            ],
+            [
+              "মিঠাই",
+              "sweet meats"
+            ],
+            [
+              "পায়স",
+              "sweet rice"
+            ],
+            [
+              "আর",
+              "and"
+            ],
+            [
+              "পিঠাপানা",
+              "coconut cake rolls in sweetened condensed milk"
+            ],
+            [
+              "আস্বাদন করে",
+              "they relish"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ભાઇરે",
+              "O brothers"
+            ],
+            [
+              "શ્રીચૈતન્ય",
+              "Śrī Caitanya Mahāprabhu"
+            ],
+            [
+              "નિત્યાનન્દ",
+              "Śrī Nityānanda Prabhu"
+            ],
+            [
+              "શ્રીબાસાદિ",
+              "Śrīvāsa Ṭhākura + and the other"
+            ],
+            [
+              "ભક્તબ્ડ઼્ન્દ",
+              "devotees + group"
+            ],
+            [
+              "ગૌરીદાસ પણ્ડિતેર",
+              "Gaurīdāsa Paṇḍita’s"
+            ],
+            [
+              "ઘરે",
+              "at house"
+            ],
+            [
+              "લુચિ ચિનિ",
+              "white-flour purīs dusted with sugar"
+            ],
+            [
+              "ક્ષીર",
+              "sweetened condensed milk"
+            ],
+            [
+              "સર",
+              "thick cream"
+            ],
+            [
+              "મિઠાઇ",
+              "sweet meats"
+            ],
+            [
+              "પાયસ",
+              "sweet rice"
+            ],
+            [
+              "આર",
+              "and"
+            ],
+            [
+              "પિઠાપાના",
+              "coconut cake rolls in sweetened condensed milk"
+            ],
+            [
+              "આસ્બાદન કરે",
+              "they relish"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भाइरॆ!",
+            "श्रीचैतन्यनित्यानन्द,    श्रीबासादि भक्तब्ड़्न्द,",
+            "गौरीदासपण्डितॆर घरॆ",
+            "लुचि, चिनि, क्षीर, सर,    मिठाइ, पायस आर,",
+            "पिठापाना आस्बादन करॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভাইরে!",
+            "শ্রীচৈতন্যনিত্যানন্দ,    শ্রীবাসাদি ভক্তব্ড়্ন্দ,",
+            "গৌরীদাসপণ্ডিতের ঘরে",
+            "লুচি, চিনি, ক্ষীর, সর,    মিঠাই, পায়স আর,",
+            "পিঠাপানা আস্বাদন করে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭାଇରେ!",
+            "ଶ୍ରୀଚୈତନ୍ୟନିତ୍ୟାନନ୍ଦ,    ଶ୍ରୀବାସାଦି ଭକ୍ତବ୍ଡ଼୍ନ୍ଦ,",
+            "ଗୌରୀଦାସପଣ୍ଡିତେର ଘରେ",
+            "ଲୁଚି, ଚିନି, କ୍ଷୀର, ସର,    ମିଠାଇ, ପାୟସ ଆର,",
+            "ପିଠାପାନା ଆସ୍ବାଦନ କରେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભાઇરે!",
+            "શ્રીચૈતન્યનિત્યાનન્દ,    શ્રીબાસાદિ ભક્તબ્ડ઼્ન્દ,",
+            "ગૌરીદાસપણ્ડિતેર ઘરે",
+            "લુચિ, ચિનિ, ક્ષીર, સર,    મિઠાઇ, પાયસ આર,",
+            "પિઠાપાના આસ્બાદન કરે ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhāire!",
+            "śrīcaitanya-nityānanda,    śrībāsādi bhaktabṛnda,",
+            "gaurīdāsa-paṇḍitera ghare",
+            "luci, cini, kṣīra, sara,    miṭhāi, pāyasa āra,",
+            "piṭhāpānā āsbādana kare 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಾಇರೆ!",
+            "ಶ್ರೀಚೈತನ್ಯನಿತ್ಯಾನಂದ,    ಶ್ರೀಬಾಸಾದಿ ಭಕ್ತಬ್‌ಡ಼್ನ್ದ,",
+            "ಗೌರೀದಾಸಪಂಡಿತೆರ ಘರೆ",
+            "ಲುಚಿ, ಚಿನಿ, ಕ್ಷೀರ, ಸರ,    ಮಿಠಾಇ, ಪಾಯಸ ಆರ,",
+            "ಪಿಠಾಪಾನಾ ಆಸ್ಬಾದನ ಕರೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భాఇరె!",
+            "శ్రీచైతన్యనిత్యానంద,    శ్రీబాసాది భక్తబ్డ్న్ద,",
+            "గౌరీదాసపండితెర ఘరె",
+            "లుచి, చిని, క్షీర, సర,    మిఠాఇ, పాయస ఆర,",
+            "పిఠాపానా ఆస్బాదన కరె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бха̄ирэ̆!",
+            "ш́рӣчаитанйанитйа̄нанда,    ш́рӣба̄са̄ди бхактабр̤нда,",
+            "гаурӣда̄сапан̣д̣итэ̆ра гхарэ̆",
+            "лучи, чини, кшӣра, сара,    мит̣ха̄и, па̄йаса а̄ра,",
+            "пит̣ха̄па̄на̄ а̄сба̄дана карэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭാഇരെ!",
+            "ശ്രീചൈതന്യനിത്യാനന്ദ,    ശ്രീബാസാദി ഭക്തബ്ഡ്ന്ദ,",
+            "ഗൗരീദാസപണ്ഡിതെര ഘരെ",
+            "ലുചി, ചിനി, ക്ഷീര, സര,    മിഠാഇ, പായസ ആര,",
+            "പിഠാപാനാ ആസ്ബാദന കരെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பா⁴இரெ!",
+            "ஶ்ரீசைதன்யநித்யானந்த³,    ஶ்ரீபா³ஸாதி³ ப⁴க்தப்³ஃட்²ந்த³,",
+            "கௌ³ரீதா³ஸபண்டி³தெர க⁴ரெ",
+            "லுசி, சினி, க்ஷீர, ஸர,    மிடா²இ, பாயஸ ஆர,",
+            "பிடா²பானா ஆஸ்பா³த³ன கரெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhāire!",
+            "śrīcaitanya-nityānanda,    śrībāsādi bhaktabṛnda,",
+            "gaurīdāsa-paṇḍitera ghare",
+            "luci, cini, kṣīra, sara,    miṭhāi, pāyasa āra,",
+            "piṭhāpānā āsbādana kare 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhāire!",
+            "śrīcaitanya-nityānanda,    śrībāsādi bhaktabṛnda,",
+            "gaurīdāsa-paṇḍitera ghare",
+            "luci, cini, kṣīra, sara,    miṭhāi, pāyasa āra,",
+            "piṭhāpānā āsbādana kare 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "mahāprabhu bhaktagaṇe,    parama ānanda[FLAG_HYPHEN_ALPHA]mane,",
+        "ājñā dila karite bhojana",
+        "kṛṣṇera prasāda[FLAG_HYPHEN_ALPHA]anna,    bhojane ha·iyā dhanya,",
+        "kṛṣṇa bali’ ḍāke sarbajana 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Mahāprabhu, feeling supreme bliss within His heart, ordered all devotees to eat. Blessed by taking Śrī Kṛṣṇa’s remnant grains, everyone chanted the holy names of Kṛṣṇa out loud."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "mahāprabhu",
+              "Mahāprabhu"
+            ],
+            [
+              "bhaktagaṇe",
+              "to all the devotees"
+            ],
+            [
+              "parama",
+              "supreme"
+            ],
+            [
+              "ānanda",
+              "bliss"
+            ],
+            [
+              "mane",
+              "in heart"
+            ],
+            [
+              "ājñā",
+              "order"
+            ],
+            [
+              "dila",
+              "gave"
+            ],
+            [
+              "karite bhojana",
+              "to eat"
+            ],
+            [
+              "kṛṣṇera",
+              "Kṛṣṇa’s"
+            ],
+            [
+              "prasāda",
+              "remnant"
+            ],
+            [
+              "anna",
+              "grains"
+            ],
+            [
+              "bhojane",
+              "having taken"
+            ],
+            [
+              "ha·iyā",
+              "having become"
+            ],
+            [
+              "dhanya",
+              "blessed"
+            ],
+            [
+              "kṛṣṇa",
+              "Kṛṣṇa"
+            ],
+            [
+              "bali’",
+              "having chanted"
+            ],
+            [
+              "ḍāke",
+              "call"
+            ],
+            [
+              "sarbajana",
+              "all + people"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "महाप्रभु",
+              "Mahāprabhu"
+            ],
+            [
+              "भक्तगणॆ",
+              "to all the devotees"
+            ],
+            [
+              "परम",
+              "supreme"
+            ],
+            [
+              "आनन्द",
+              "bliss"
+            ],
+            [
+              "मनॆ",
+              "in heart"
+            ],
+            [
+              "आज्ञा",
+              "order"
+            ],
+            [
+              "दिल",
+              "gave"
+            ],
+            [
+              "करितॆ भॊजन",
+              "to eat"
+            ],
+            [
+              "क्ड़्ष्णॆर",
+              "Kṛṣṇa’s"
+            ],
+            [
+              "प्रसाद",
+              "remnant"
+            ],
+            [
+              "अन्न",
+              "grains"
+            ],
+            [
+              "भॊजनॆ",
+              "having taken"
+            ],
+            [
+              "हइया",
+              "having become"
+            ],
+            [
+              "धन्य",
+              "blessed"
+            ],
+            [
+              "क्ड़्ष्ण",
+              "Kṛṣṇa"
+            ],
+            [
+              "बलिऽ",
+              "having chanted"
+            ],
+            [
+              "डाकॆ",
+              "call"
+            ],
+            [
+              "सर्बजन",
+              "all + people"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "মহাপ্রভু",
+              "Mahāprabhu"
+            ],
+            [
+              "ভক্তগণে",
+              "to all the devotees"
+            ],
+            [
+              "পরম",
+              "supreme"
+            ],
+            [
+              "আনন্দ",
+              "bliss"
+            ],
+            [
+              "মনে",
+              "in heart"
+            ],
+            [
+              "আজ্ঞা",
+              "order"
+            ],
+            [
+              "দিল",
+              "gave"
+            ],
+            [
+              "করিতে ভোজন",
+              "to eat"
+            ],
+            [
+              "ক্ড়্ষ্ণের",
+              "Kṛṣṇa’s"
+            ],
+            [
+              "প্রসাদ",
+              "remnant"
+            ],
+            [
+              "অন্ন",
+              "grains"
+            ],
+            [
+              "ভোজনে",
+              "having taken"
+            ],
+            [
+              "হইয়া",
+              "having become"
+            ],
+            [
+              "ধন্য",
+              "blessed"
+            ],
+            [
+              "ক্ড়্ষ্ণ",
+              "Kṛṣṇa"
+            ],
+            [
+              "বলিঽ",
+              "having chanted"
+            ],
+            [
+              "ডাকে",
+              "call"
+            ],
+            [
+              "সর্বজন",
+              "all + people"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "મહાપ્રભુ",
+              "Mahāprabhu"
+            ],
+            [
+              "ભક્તગણે",
+              "to all the devotees"
+            ],
+            [
+              "પરમ",
+              "supreme"
+            ],
+            [
+              "આનન્દ",
+              "bliss"
+            ],
+            [
+              "મને",
+              "in heart"
+            ],
+            [
+              "આજ્ઞા",
+              "order"
+            ],
+            [
+              "દિલ",
+              "gave"
+            ],
+            [
+              "કરિતે ભોજન",
+              "to eat"
+            ],
+            [
+              "ક્ડ઼્ષ્ણેર",
+              "Kṛṣṇa’s"
+            ],
+            [
+              "પ્રસાદ",
+              "remnant"
+            ],
+            [
+              "અન્ન",
+              "grains"
+            ],
+            [
+              "ભોજને",
+              "having taken"
+            ],
+            [
+              "હઇયા",
+              "having become"
+            ],
+            [
+              "ધન્ય",
+              "blessed"
+            ],
+            [
+              "ક્ડ઼્ષ્ણ",
+              "Kṛṣṇa"
+            ],
+            [
+              "બલિઽ",
+              "having chanted"
+            ],
+            [
+              "ડાકે",
+              "call"
+            ],
+            [
+              "સર્બજન",
+              "all + people"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "महाप्रभु भक्तगणॆ,    परम आनन्दमनॆ,",
+            "आज्ञा दिल करितॆ भॊजन",
+            "क्ड़्ष्णॆर प्रसादअन्न,    भॊजनॆ हइया धन्य,",
+            "क्ड़्ष्ण बलिऽ डाकॆ सर्बजन २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মহাপ্রভু ভক্তগণে,    পরম আনন্দমনে,",
+            "আজ্ঞা দিল করিতে ভোজন",
+            "ক্ড়্ষ্ণের প্রসাদঅন্ন,    ভোজনে হইয়া ধন্য,",
+            "ক্ড়্ষ্ণ বলিঽ ডাকে সর্বজন ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମହାପ୍ରଭୁ ଭକ୍ତଗଣେ,    ପରମ ଆନନ୍ଦମନେ,",
+            "ଆଜ୍ଞା ଦିଲ କରିତେ ଭୋଜନ",
+            "କ୍ଡ଼୍ଷ୍ଣେର ପ୍ରସାଦଅନ୍ନ,    ଭୋଜନେ ହଇୟା ଧନ୍ୟ,",
+            "କ୍ଡ଼୍ଷ୍ଣ ବଲିଽ ଡାକେ ସର୍ବଜନ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મહાપ્રભુ ભક્તગણે,    પરમ આનન્દમને,",
+            "આજ્ઞા દિલ કરિતે ભોજન",
+            "ક્ડ઼્ષ્ણેર પ્રસાદઅન્ન,    ભોજને હઇયા ધન્ય,",
+            "ક્ડ઼્ષ્ણ બલિઽ ડાકે સર્બજન ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "mahāprabhu bhaktagaṇe,    parama ānanda-mane,",
+            "ājñā dila karite bhojana",
+            "kṛṣṇera prasāda-anna,    bhojane ha·iyā dhanya,",
+            "kṛṣṇa bali’ ḍāke sarbajana 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮಹಾಪ್ರಭು ಭಕ್ತಗಣೆ,    ಪರಮ ಆನಂದಮನೆ,",
+            "ಆಜ್ಞಾ ದಿಲ ಕರಿತೆ ಭೊಜನ",
+            "ಕ್‌ಡ಼್ಷ್ಣೆರ ಪ್ರಸಾದಅನ್ನ,    ಭೊಜನೆ ಹಇಯಾ ಧನ್ಯ,",
+            "ಕ್‌ಡ಼್ಷ್ಣ ಬಲಿಽ ಡಾಕೆ ಸರ್ಬಜನ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మహాప్రభు భక్తగణె,    పరమ ఆనందమనె,",
+            "ఆజ్ఞా దిల కరితె భొజన",
+            "క్డ్ష్ణెర ప్రసాదఅన్న,    భొజనె హఇయా ధన్య,",
+            "క్డ్ష్ణ బలిఽ డాకె సర్బజన 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "маха̄прабху бхактаган̣э̆,    парама а̄нандаманэ̆,",
+            "а̄джн̃а̄ дила каритэ̆ бхо̆джана",
+            "кр̤шн̣э̆ра праса̄даанна,    бхо̆джанэ̆ хаийа̄ дханйа,",
+            "кр̤шн̣а бали' д̣а̄кэ̆ сарбаджана 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മഹാപ്രഭു ഭക്തഗണെ,    പരമ ആനന്ദമനെ,",
+            "ആജ്ഞാ ദില കരിതെ ഭൊജന",
+            "ക്ഡ്ഷ്ണെര പ്രസാദഅന്ന,    ഭൊജനെ ഹഇയാ ധന്യ,",
+            "ക്ഡ്ഷ്ണ ബലിഽ ഡാകെ സർബജന 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மஹாப்ரபு⁴ ப⁴க்தக³ணெ,    பரம ஆனந்த³மனெ,",
+            "ஆஜ்ஞா தி³ல கரிதெ பொ⁴ஜன",
+            "க்ஃட்²ஷ்ணெர ப்ரஸாத³அன்ன,    பொ⁴ஜனெ ஹஇயா த⁴ன்ய,",
+            "க்ஃட்²ஷ்ண ப³லி(அ) டா³கெ ஸர்ப³ஜன 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "mahāprabhu bhaktagaṇe,    parama ānanda-mane,",
+            "ājñā dila karite bhojana",
+            "kṛṣṇera prasāda-anna,    bhojane ha·iyā dhanya,",
+            "kṛṣṇa bali’ ḍāke sarbajana 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "mahāprabhu bhaktagaṇe,    parama ānanda-mane,",
+            "ājñā dila karite bhojana",
+            "kṛṣṇera prasāda-anna,    bhojane ha·iyā dhanya,",
+            "kṛṣṇa bali’ ḍāke sarbajana 2"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "(৪)"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Mahā-prasāda"
+  ]
+}

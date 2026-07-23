@@ -1,0 +1,2816 @@
+{
+  "uid": "S24",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "তুয়া ভক্তি-প্রতিকূল ধর্ম্ম যা’তে রয়"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "tuyā bhakti-pratikūla dharma yā’te raya"
+    },
+    {
+      "script_code": "Deva",
+      "text": "तुया भक्ति-प्रतिकूल धर्म या’ते रय"
+    },
+    {
+      "script_code": "Telu",
+      "text": "తుయా భక్తి-ప్రతికూల ధర్మ యా’తే రయ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ತುಯಾ ಭಕ್ತಿ-ಪ್ರತಿಕೂಲ ಧರ್ಮ ಯಾ’ತೇ ರಯ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "துயா ப⁴க்தி-ப்ரதிகூல த⁴ர்ம யா’தே ரய"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "തുയാ ഭക്തി-പ്രതികൂല ധർമ യാ’തേ രയ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "તુયા ભક્તિ-પ્રતિકૂલ ધર્મ યા’તે રય"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ତୁୟା ଭକ୍ତି-ପ୍ରତିକୂଲ ଧର୍ମ ଯା’ତେ ରୟ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "туйа̄ бхакти-пратикӯла дхарма йа̄’тэ райа"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "tuyā bhakti[FLAG_HYPHEN_ALPHA]pratikūla dharma yā’te raya",
+        "parama yatane tāhā tyajiba niścaya 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Whatever [so-called] dharma exists in opposition to the edicts of bhakti, I will most carefully relinquish."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "tuyā",
+              "Your"
+            ],
+            [
+              "bhakti",
+              "devotion"
+            ],
+            [
+              "pratikūla",
+              "opposed, hostile, unfavorable"
+            ],
+            [
+              "dharma",
+              "edicts, direction"
+            ],
+            [
+              "yā’te raya",
+              "remains"
+            ],
+            [
+              "parama",
+              "most"
+            ],
+            [
+              "yatane",
+              "with care"
+            ],
+            [
+              "tāhā",
+              "that"
+            ],
+            [
+              "tyajiba",
+              "I shall relinquish"
+            ],
+            [
+              "niścaya",
+              "certainly"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "तुया",
+              "Your"
+            ],
+            [
+              "भक्ति",
+              "devotion"
+            ],
+            [
+              "प्रतिकूल",
+              "opposed, hostile, unfavorable"
+            ],
+            [
+              "धर्म",
+              "edicts, direction"
+            ],
+            [
+              "याऽतॆ रय",
+              "remains"
+            ],
+            [
+              "परम",
+              "most"
+            ],
+            [
+              "यतनॆ",
+              "with care"
+            ],
+            [
+              "ताहा",
+              "that"
+            ],
+            [
+              "त्यजिब",
+              "I shall relinquish"
+            ],
+            [
+              "निश्चय",
+              "certainly"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "তুয়া",
+              "Your"
+            ],
+            [
+              "ভক্তি",
+              "devotion"
+            ],
+            [
+              "প্রতিকূল",
+              "opposed, hostile, unfavorable"
+            ],
+            [
+              "ধর্ম",
+              "edicts, direction"
+            ],
+            [
+              "যাঽতে রয়",
+              "remains"
+            ],
+            [
+              "পরম",
+              "most"
+            ],
+            [
+              "যতনে",
+              "with care"
+            ],
+            [
+              "তাহা",
+              "that"
+            ],
+            [
+              "ত্যজিব",
+              "I shall relinquish"
+            ],
+            [
+              "নিশ্চয়",
+              "certainly"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "તુયા",
+              "Your"
+            ],
+            [
+              "ભક્તિ",
+              "devotion"
+            ],
+            [
+              "પ્રતિકૂલ",
+              "opposed, hostile, unfavorable"
+            ],
+            [
+              "ધર્મ",
+              "edicts, direction"
+            ],
+            [
+              "યાઽતે રય",
+              "remains"
+            ],
+            [
+              "પરમ",
+              "most"
+            ],
+            [
+              "યતને",
+              "with care"
+            ],
+            [
+              "તાહા",
+              "that"
+            ],
+            [
+              "ત્યજિબ",
+              "I shall relinquish"
+            ],
+            [
+              "નિશ્ચય",
+              "certainly"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तुया भक्तिप्रतिकूल धर्म याऽतॆ रय",
+            "परम यतनॆ ताहा त्यजिब निश्चय १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তুয়া ভক্তিপ্রতিকূল ধর্ম যাঽতে রয়",
+            "পরম যতনে তাহা ত্যজিব নিশ্চয় ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତୁୟା ଭକ୍ତିପ୍ରତିକୂଲ ଧର୍ମ ଯାଽତେ ରୟ",
+            "ପରମ ଯତନେ ତାହା ତ୍ୟଜିବ ନିଶ୍ଚୟ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તુયા ભક્તિપ્રતિકૂલ ધર્મ યાઽતે રય",
+            "પરમ યતને તાહા ત્યજિબ નિશ્ચય ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tuyā bhakti-pratikūla dharma yā’te raya",
+            "parama yatane tāhā tyajiba niścaya 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತುಯಾ ಭಕ್ತಿಪ್ರತಿಕೂಲ ಧರ್ಮ ಯಾಽತೆ ರಯ",
+            "ಪರಮ ಯತನೆ ತಾಹಾ ತ್ಯಜಿಬ ನಿಶ್ಚಯ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తుయా భక్తిప్రతికూల ధర్మ యాఽతె రయ",
+            "పరమ యతనె తాహా త్యజిబ నిశ్చయ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "туйа̄ бхактипратикӯла дхарма йа̄'тэ̆ райа",
+            "парама йатанэ̆ та̄ха̄ тйаджиба ниш́чайа 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തുയാ ഭക്തിപ്രതികൂല ധർമ യാഽതെ രയ",
+            "പരമ യതനെ താഹാ ത്യജിബ നിശ്ചയ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "துயா ப⁴க்திப்ரதிகூல த⁴ர்ம யா(அ)தெ ரய",
+            "பரம யதனெ தாஹா த்யஜிப³ நிஶ்சய 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tuyā bhakti-pratikūla dharma yā’te raya",
+            "parama yatane tāhā tyajiba niścaya 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tuyā bhakti-pratikūla dharma yā’te raya",
+            "parama yatane tāhā tyajiba niścaya 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "tuyā bhakti[FLAG_HYPHEN_ALPHA]bahirmukha saṅga nā kariba",
+        "gaurāṅga[FLAG_HYPHEN_ALPHA]birodhi[FLAG_HYPHEN_ALPHA]jana mukha nā heriba 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I will never keep the company of those neglectful of bhakti to You, and I will never glance upon the face of persons averse to Śrī Gaurāṅga."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "tuyā",
+              "to You"
+            ],
+            [
+              "bhakti",
+              "devotion"
+            ],
+            [
+              "bahirmukha",
+              "neglectful"
+            ],
+            [
+              "saṅga",
+              "company"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "kariba",
+              "I will keep"
+            ],
+            [
+              "gaurāṅga",
+              "Śrī Gaurāṅga"
+            ],
+            [
+              "birodhi",
+              "averse"
+            ],
+            [
+              "jana",
+              "persons"
+            ],
+            [
+              "mukha",
+              "face"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "heriba",
+              "I will glance"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "तुया",
+              "to You"
+            ],
+            [
+              "भक्ति",
+              "devotion"
+            ],
+            [
+              "बहिर्मुख",
+              "neglectful"
+            ],
+            [
+              "सङ्ग",
+              "company"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "करिब",
+              "I will keep"
+            ],
+            [
+              "गौराङ्ग",
+              "Śrī Gaurāṅga"
+            ],
+            [
+              "बिरॊधि",
+              "averse"
+            ],
+            [
+              "जन",
+              "persons"
+            ],
+            [
+              "मुख",
+              "face"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "हॆरिब",
+              "I will glance"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "তুয়া",
+              "to You"
+            ],
+            [
+              "ভক্তি",
+              "devotion"
+            ],
+            [
+              "বহির্মুখ",
+              "neglectful"
+            ],
+            [
+              "সঙ্গ",
+              "company"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "করিব",
+              "I will keep"
+            ],
+            [
+              "গৌরাঙ্গ",
+              "Śrī Gaurāṅga"
+            ],
+            [
+              "বিরোধি",
+              "averse"
+            ],
+            [
+              "জন",
+              "persons"
+            ],
+            [
+              "মুখ",
+              "face"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "হেরিব",
+              "I will glance"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "તુયા",
+              "to You"
+            ],
+            [
+              "ભક્તિ",
+              "devotion"
+            ],
+            [
+              "બહિર્મુખ",
+              "neglectful"
+            ],
+            [
+              "સઙ્ગ",
+              "company"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "કરિબ",
+              "I will keep"
+            ],
+            [
+              "ગૌરાઙ્ગ",
+              "Śrī Gaurāṅga"
+            ],
+            [
+              "બિરોધિ",
+              "averse"
+            ],
+            [
+              "જન",
+              "persons"
+            ],
+            [
+              "મુખ",
+              "face"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "હેરિબ",
+              "I will glance"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तुया भक्तिबहिर्मुख सङ्ग ना करिब",
+            "गौराङ्गबिरॊधिजन मुख ना हॆरिब २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তুয়া ভক্তিবহির্মুখ সঙ্গ না করিব",
+            "গৌরাঙ্গবিরোধিজন মুখ না হেরিব ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତୁୟା ଭକ୍ତିବହିର୍ମୁଖ ସଙ୍ଗ ନା କରିବ",
+            "ଗୌରାଙ୍ଗବିରୋଧିଜନ ମୁଖ ନା ହେରିବ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તુયા ભક્તિબહિર્મુખ સઙ્ગ ના કરિબ",
+            "ગૌરાઙ્ગબિરોધિજન મુખ ના હેરિબ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tuyā bhakti-bahirmukha saṅga nā kariba",
+            "gaurāṅga-birodhi-jana mukha nā heriba 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತುಯಾ ಭಕ್ತಿಬಹಿರ್ಮುಖ ಸಂಗ ನಾ ಕರಿಬ",
+            "ಗೌರಾಂಗಬಿರೊಧಿಜನ ಮುಖ ನಾ ಹೆರಿಬ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తుయా భక్తిబహిర్ముఖ సంగ నా కరిబ",
+            "గౌరాంగబిరొధిజన ముఖ నా హెరిబ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "туйа̄ бхактибахирмукха сан̇га на̄ кариба",
+            "гаура̄н̇габиро̆дхиджана мукха на̄ хэ̆риба 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തുയാ ഭക്തിബഹിർമുഖ സംഗ നാ കരിബ",
+            "ഗൗരാംഗബിരൊധിജന മുഖ നാ ഹെരിബ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "துயா ப⁴க்திப³ஹிர்முக² ஸங்க³ நா கரிப³",
+            "கௌ³ராங்க³பி³ரொதி⁴ஜன முக² நா ஹெரிப³ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tuyā bhakti-bahirmukha saṅga nā kariba",
+            "gaurāṅga-birodhi-jana mukha nā heriba 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tuyā bhakti-bahirmukha saṅga nā kariba",
+            "gaurāṅga-birodhi-jana mukha nā heriba 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "bhakti[FLAG_HYPHEN_ALPHA]pratikūla sthāne nā kari basati",
+        "bhaktira apriya kārye nāhi kari rati 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I will never make my residence in any place that is detrimental to bhakti, and I will never develop attachment for any work that is disagreeable to bhakti."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bhakti",
+              "devotion"
+            ],
+            [
+              "pratikūla",
+              "against"
+            ],
+            [
+              "sthāne",
+              "in places"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "kari basati",
+              "I make a residence"
+            ],
+            [
+              "bhaktira",
+              "of bhakti"
+            ],
+            [
+              "apriya",
+              "disagreeable"
+            ],
+            [
+              "kārye",
+              "for work"
+            ],
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "kari rati",
+              "I develop attachment"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "भक्ति",
+              "devotion"
+            ],
+            [
+              "प्रतिकूल",
+              "against"
+            ],
+            [
+              "स्थानॆ",
+              "in places"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "करि बसति",
+              "I make a residence"
+            ],
+            [
+              "भक्तिर",
+              "of bhakti"
+            ],
+            [
+              "अप्रिय",
+              "disagreeable"
+            ],
+            [
+              "कार्यॆ",
+              "for work"
+            ],
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "करि रति",
+              "I develop attachment"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ভক্তি",
+              "devotion"
+            ],
+            [
+              "প্রতিকূল",
+              "against"
+            ],
+            [
+              "স্থানে",
+              "in places"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "করি বসতি",
+              "I make a residence"
+            ],
+            [
+              "ভক্তির",
+              "of bhakti"
+            ],
+            [
+              "অপ্রিয়",
+              "disagreeable"
+            ],
+            [
+              "কার্যে",
+              "for work"
+            ],
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "করি রতি",
+              "I develop attachment"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ભક્તિ",
+              "devotion"
+            ],
+            [
+              "પ્રતિકૂલ",
+              "against"
+            ],
+            [
+              "સ્થાને",
+              "in places"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "કરિ બસતિ",
+              "I make a residence"
+            ],
+            [
+              "ભક્તિર",
+              "of bhakti"
+            ],
+            [
+              "અપ્રિય",
+              "disagreeable"
+            ],
+            [
+              "કાર્યે",
+              "for work"
+            ],
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "કરિ રતિ",
+              "I develop attachment"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भक्तिप्रतिकूल स्थानॆ ना करि बसति",
+            "भक्तिर अप्रिय कार्यॆ नाहि करि रति ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভক্তিপ্রতিকূল স্থানে না করি বসতি",
+            "ভক্তির অপ্রিয় কার্যে নাহি করি রতি ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭକ୍ତିପ୍ରତିକୂଲ ସ୍ଥାନେ ନା କରି ବସତି",
+            "ଭକ୍ତିର ଅପ୍ରିୟ କାର୍ୟେ ନାହି କରି ରତି ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભક્તિપ્રતિકૂલ સ્થાને ના કરિ બસતિ",
+            "ભક્તિર અપ્રિય કાર્યે નાહિ કરિ રતિ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhakti-pratikūla sthāne nā kari basati",
+            "bhaktira apriya kārye nāhi kari rati 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಕ್ತಿಪ್ರತಿಕೂಲ ಸ್ಥಾನೆ ನಾ ಕರಿ ಬಸತಿ",
+            "ಭಕ್ತಿರ ಅಪ್ರಿಯ ಕಾರ್ಯೆ ನಾಹಿ ಕರಿ ರತಿ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భక్తిప్రతికూల స్థానె నా కరి బసతి",
+            "భక్తిర అప్రియ కార్యె నాహి కరి రతి 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхактипратикӯла стха̄нэ̆ на̄ кари басати",
+            "бхактира априйа ка̄рйэ̆ на̄хи кари рати 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭക്തിപ്രതികൂല സ്ഥാനെ നാ കരി ബസതി",
+            "ഭക്തിര അപ്രിയ കാര്യെ നാഹി കരി രതി 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப⁴க்திப்ரதிகூல ஸ்தா²னெ நா கரி ப³ஸதி",
+            "ப⁴க்திர அப்ரிய கார்யெ நாஹி கரி ரதி 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhakti-pratikūla sthāne nā kari basati",
+            "bhaktira apriya kārye nāhi kari rati 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhakti-pratikūla sthāne nā kari basati",
+            "bhaktira apriya kārye nāhi kari rati 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "bhaktira birodhī grantha pāṭha nā kariba",
+        "bhaktira birodhī byākhyā kabhu nā śuniba 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I will never read any literature that contradicts the doctrine of bhakti, and I will never hear any discourse that opposes bhakti."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bhaktira",
+              "of devotion"
+            ],
+            [
+              "birodhī",
+              "hostile, inimical, opposing, antagonistic, adverse"
+            ],
+            [
+              "grantha",
+              "literature"
+            ],
+            [
+              "pāṭha",
+              "read"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "kariba",
+              "I will do"
+            ],
+            [
+              "bhaktira",
+              "of devotion"
+            ],
+            [
+              "birodhī",
+              "[see above]"
+            ],
+            [
+              "byākhyā",
+              "explanation, interpretation, narration or description, commentary"
+            ],
+            [
+              "kabhu nā",
+              "never"
+            ],
+            [
+              "śuniba",
+              "I will hear"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "भक्तिर",
+              "of devotion"
+            ],
+            [
+              "बिरॊधी",
+              "hostile, inimical, opposing, antagonistic, adverse"
+            ],
+            [
+              "ग्रन्थ",
+              "literature"
+            ],
+            [
+              "पाठ",
+              "read"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "करिब",
+              "I will do"
+            ],
+            [
+              "भक्तिर",
+              "of devotion"
+            ],
+            [
+              "बिरॊधी",
+              "[see above]"
+            ],
+            [
+              "ब्याख्या",
+              "explanation, interpretation, narration or description, commentary"
+            ],
+            [
+              "कभु ना",
+              "never"
+            ],
+            [
+              "शुनिब",
+              "I will hear"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ভক্তির",
+              "of devotion"
+            ],
+            [
+              "বিরোধী",
+              "hostile, inimical, opposing, antagonistic, adverse"
+            ],
+            [
+              "গ্রন্থ",
+              "literature"
+            ],
+            [
+              "পাঠ",
+              "read"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "করিব",
+              "I will do"
+            ],
+            [
+              "ভক্তির",
+              "of devotion"
+            ],
+            [
+              "বিরোধী",
+              "[see above]"
+            ],
+            [
+              "ব্যাখ্যা",
+              "explanation, interpretation, narration or description, commentary"
+            ],
+            [
+              "কভু না",
+              "never"
+            ],
+            [
+              "শুনিব",
+              "I will hear"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ભક્તિર",
+              "of devotion"
+            ],
+            [
+              "બિરોધી",
+              "hostile, inimical, opposing, antagonistic, adverse"
+            ],
+            [
+              "ગ્રન્થ",
+              "literature"
+            ],
+            [
+              "પાઠ",
+              "read"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "કરિબ",
+              "I will do"
+            ],
+            [
+              "ભક્તિર",
+              "of devotion"
+            ],
+            [
+              "બિરોધી",
+              "[see above]"
+            ],
+            [
+              "બ્યાખ્યા",
+              "explanation, interpretation, narration or description, commentary"
+            ],
+            [
+              "કભુ ના",
+              "never"
+            ],
+            [
+              "શુનિબ",
+              "I will hear"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भक्तिर बिरॊधी ग्रन्थ पाठ ना करिब",
+            "भक्तिर बिरॊधी ब्याख्या कभु ना शुनिब ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভক্তির বিরোধী গ্রন্থ পাঠ না করিব",
+            "ভক্তির বিরোধী ব্যাখ্যা কভু না শুনিব ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭକ୍ତିର ବିରୋଧୀ ଗ୍ରନ୍ଥ ପାଠ ନା କରିବ",
+            "ଭକ୍ତିର ବିରୋଧୀ ବ୍ୟାଖ୍ୟା କଭୁ ନା ଶୁନିବ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભક્તિર બિરોધી ગ્રન્થ પાઠ ના કરિબ",
+            "ભક્તિર બિરોધી બ્યાખ્યા કભુ ના શુનિબ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhaktira birodhī grantha pāṭha nā kariba",
+            "bhaktira birodhī byākhyā kabhu nā śuniba 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಕ್ತಿರ ಬಿರೊಧೀ ಗ್ರಂಥ ಪಾಠ ನಾ ಕರಿಬ",
+            "ಭಕ್ತಿರ ಬಿರೊಧೀ ಬ್ಯಾಖ್ಯಾ ಕಭು ನಾ ಶುನಿಬ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భక్తిర బిరొధీ గ్రంథ పాఠ నా కరిబ",
+            "భక్తిర బిరొధీ బ్యాఖ్యా కభు నా శునిబ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхактира биро̆дхӣ грантха па̄т̣ха на̄ кариба",
+            "бхактира биро̆дхӣ бйа̄кхйа̄ кабху на̄ ш́униба 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭക്തിര ബിരൊധീ ഗ്രന്ഥ പാഠ നാ കരിബ",
+            "ഭക്തിര ബിരൊധീ ബ്യാഖ്യാ കഭു നാ ശുനിബ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப⁴க்திர பி³ரொதீ⁴ க்³ரந்த² பாட² நா கரிப³",
+            "ப⁴க்திர பி³ரொதீ⁴ ப்³யாக்²யா கபு⁴ நா ஶுனிப³ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhaktira birodhī grantha pāṭha nā kariba",
+            "bhaktira birodhī byākhyā kabhu nā śuniba 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhaktira birodhī grantha pāṭha nā kariba",
+            "bhaktira birodhī byākhyā kabhu nā śuniba 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "gaurāṅgabarjita sthāna tīrtha nāhi māni",
+        "bhaktira bādhaka jñāna[FLAG_HYPHEN_ALPHA]karma tuccha jāni 5"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I do not regard any place unrelated to Śrī Gaurāṅga to be a tīrtha (holy place). I consider any karma or jñāna that impedes bhakti to be most trivial."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "gaurāṅgabarjita",
+              "Lord Gaurāṅga + abandoned, left out, deprived of, devoid of"
+            ],
+            [
+              "sthāna",
+              "place"
+            ],
+            [
+              "tīrtha",
+              "holy place"
+            ],
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "māni",
+              "I consider"
+            ],
+            [
+              "bhaktira",
+              "of devotion"
+            ],
+            [
+              "bādhaka",
+              "obstructive, hindering"
+            ],
+            [
+              "jñāna",
+              "knowledge"
+            ],
+            [
+              "karma",
+              "action"
+            ],
+            [
+              "tuccha",
+              "insignificant, trivial, despicable, contemptible"
+            ],
+            [
+              "jāni",
+              "I know"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "गौराङ्गबर्जित",
+              "Lord Gaurāṅga + abandoned, left out, deprived of, devoid of"
+            ],
+            [
+              "स्थान",
+              "place"
+            ],
+            [
+              "तीर्थ",
+              "holy place"
+            ],
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "मानि",
+              "I consider"
+            ],
+            [
+              "भक्तिर",
+              "of devotion"
+            ],
+            [
+              "बाधक",
+              "obstructive, hindering"
+            ],
+            [
+              "ज्ञान",
+              "knowledge"
+            ],
+            [
+              "कर्म",
+              "action"
+            ],
+            [
+              "तुच्छ",
+              "insignificant, trivial, despicable, contemptible"
+            ],
+            [
+              "जानि",
+              "I know"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "গৌরাঙ্গবর্জিত",
+              "Lord Gaurāṅga + abandoned, left out, deprived of, devoid of"
+            ],
+            [
+              "স্থান",
+              "place"
+            ],
+            [
+              "তীর্থ",
+              "holy place"
+            ],
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "মানি",
+              "I consider"
+            ],
+            [
+              "ভক্তির",
+              "of devotion"
+            ],
+            [
+              "বাধক",
+              "obstructive, hindering"
+            ],
+            [
+              "জ্ঞান",
+              "knowledge"
+            ],
+            [
+              "কর্ম",
+              "action"
+            ],
+            [
+              "তুচ্ছ",
+              "insignificant, trivial, despicable, contemptible"
+            ],
+            [
+              "জানি",
+              "I know"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ગૌરાઙ્ગબર્જિત",
+              "Lord Gaurāṅga + abandoned, left out, deprived of, devoid of"
+            ],
+            [
+              "સ્થાન",
+              "place"
+            ],
+            [
+              "તીર્થ",
+              "holy place"
+            ],
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "માનિ",
+              "I consider"
+            ],
+            [
+              "ભક્તિર",
+              "of devotion"
+            ],
+            [
+              "બાધક",
+              "obstructive, hindering"
+            ],
+            [
+              "જ્ઞાન",
+              "knowledge"
+            ],
+            [
+              "કર્મ",
+              "action"
+            ],
+            [
+              "તુચ્છ",
+              "insignificant, trivial, despicable, contemptible"
+            ],
+            [
+              "જાનિ",
+              "I know"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गौराङ्गबर्जित स्थान तीर्थ नाहि मानि",
+            "भक्तिर बाधक ज्ञानकर्म तुच्छ जानि ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গৌরাঙ্গবর্জিত স্থান তীর্থ নাহি মানি",
+            "ভক্তির বাধক জ্ঞানকর্ম তুচ্ছ জানি ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗୌରାଙ୍ଗବର୍ଜିତ ସ୍ଥାନ ତୀର୍ଥ ନାହି ମାନି",
+            "ଭକ୍ତିର ବାଧକ ଜ୍ଞାନକର୍ମ ତୁଚ୍ଛ ଜାନି ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગૌરાઙ્ગબર્જિત સ્થાન તીર્થ નાહિ માનિ",
+            "ભક્તિર બાધક જ્ઞાનકર્મ તુચ્છ જાનિ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gaurāṅgabarjita sthāna tīrtha nāhi māni",
+            "bhaktira bādhaka jñāna-karma tuccha jāni 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗೌರಾಂಗಬರ್ಜಿತ ಸ್ಥಾನ ತೀರ್ಥ ನಾಹಿ ಮಾನಿ",
+            "ಭಕ್ತಿರ ಬಾಧಕ ಜ್ಞಾನಕರ್ಮ ತುಚ್ಛ ಜಾನಿ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గౌరాంగబర్జిత స్థాన తీర్థ నాహి మాని",
+            "భక్తిర బాధక జ్ఞానకర్మ తుచ్ఛ జాని 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "гаура̄н̇габарджита стха̄на тӣртха на̄хи ма̄ни",
+            "бхактира ба̄дхака джн̃а̄накарма туччха джа̄ни 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗൗരാംഗബർജിത സ്ഥാന തീർഥ നാഹി മാനി",
+            "ഭക്തിര ബാധക ജ്ഞാനകർമ തുച്ഛ ജാനി 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கௌ³ராங்க³ப³ர்ஜித ஸ்தா²ன தீர்த² நாஹி மானி",
+            "ப⁴க்திர பா³த⁴க ஜ்ஞானகர்ம துச்ச² ஜானி 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gaurāṅgabarjita sthāna tīrtha nāhi māni",
+            "bhaktira bādhaka jñāna-karma tuccha jāni 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gaurāṅgabarjita sthāna tīrtha nāhi māni",
+            "bhaktira bādhaka jñāna-karma tuccha jāni 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "bhaktira bādhaka kāle nā kari ādara",
+        "bhakti[FLAG_HYPHEN_ALPHA]bahirmukha nija[FLAG_HYPHEN_ALPHA]jane jāni para 6"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I never celebrate any occasion that hinders bhakti. I consider any relatives who are oblivious to bhakti to be strangers."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bhaktira",
+              "of bhakti"
+            ],
+            [
+              "bādhaka",
+              "obstructive, hindering"
+            ],
+            [
+              "kāle",
+              "for times"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "kari ādara",
+              "I appreciate, honor, love, esteem, treat with cordiality"
+            ],
+            [
+              "bhakti",
+              "devotion"
+            ],
+            [
+              "bahirmukha",
+              "facing outwards/away, indifferent, averse"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "भक्तिर",
+              "of bhakti"
+            ],
+            [
+              "बाधक",
+              "obstructive, hindering"
+            ],
+            [
+              "कालॆ",
+              "for times"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "करि आदर",
+              "I appreciate, honor, love, esteem, treat with cordiality"
+            ],
+            [
+              "भक्ति",
+              "devotion"
+            ],
+            [
+              "बहिर्मुख",
+              "facing outwards/away, indifferent, averse"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ভক্তির",
+              "of bhakti"
+            ],
+            [
+              "বাধক",
+              "obstructive, hindering"
+            ],
+            [
+              "কালে",
+              "for times"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "করি আদর",
+              "I appreciate, honor, love, esteem, treat with cordiality"
+            ],
+            [
+              "ভক্তি",
+              "devotion"
+            ],
+            [
+              "বহির্মুখ",
+              "facing outwards/away, indifferent, averse"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ભક્તિર",
+              "of bhakti"
+            ],
+            [
+              "બાધક",
+              "obstructive, hindering"
+            ],
+            [
+              "કાલે",
+              "for times"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "કરિ આદર",
+              "I appreciate, honor, love, esteem, treat with cordiality"
+            ],
+            [
+              "ભક્તિ",
+              "devotion"
+            ],
+            [
+              "બહિર્મુખ",
+              "facing outwards/away, indifferent, averse"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भक्तिर बाधक कालॆ ना करि आदर",
+            "भक्तिबहिर्मुख निजजनॆ जानि पर ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভক্তির বাধক কালে না করি আদর",
+            "ভক্তিবহির্মুখ নিজজনে জানি পর ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭକ୍ତିର ବାଧକ କାଲେ ନା କରି ଆଦର",
+            "ଭକ୍ତିବହିର୍ମୁଖ ନିଜଜନେ ଜାନି ପର ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભક્તિર બાધક કાલે ના કરિ આદર",
+            "ભક્તિબહિર્મુખ નિજજને જાનિ પર ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhaktira bādhaka kāle nā kari ādara",
+            "bhakti-bahirmukha nija-jane jāni para 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಕ್ತಿರ ಬಾಧಕ ಕಾಲೆ ನಾ ಕರಿ ಆದರ",
+            "ಭಕ್ತಿಬಹಿರ್ಮುಖ ನಿಜಜನೆ ಜಾನಿ ಪರ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భక్తిర బాధక కాలె నా కరి ఆదర",
+            "భక్తిబహిర్ముఖ నిజజనె జాని పర 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхактира ба̄дхака ка̄лэ̆ на̄ кари а̄дара",
+            "бхактибахирмукха ниджаджанэ̆ джа̄ни пара 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭക്തിര ബാധക കാലെ നാ കരി ആദര",
+            "ഭക്തിബഹിർമുഖ നിജജനെ ജാനി പര 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப⁴க்திர பா³த⁴க காலெ நா கரி ஆத³ர",
+            "ப⁴க்திப³ஹிர்முக² நிஜஜனெ ஜானி பர 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhaktira bādhaka kāle nā kari ādara",
+            "bhakti-bahirmukha nija-jane jāni para 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhaktira bādhaka kāle nā kari ādara",
+            "bhakti-bahirmukha nija-jane jāni para 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "bhaktira bādhikā spṛhā kariba barjana",
+        "abhakta[FLAG_HYPHEN_ALPHA]pradatta anna nā kari grahaṇa 7"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I will give up any desires that impede bhakti. I will never accept foodstuffs given by non-devotees."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bhaktira",
+              "of devotion"
+            ],
+            [
+              "bādhikā",
+              "impede"
+            ],
+            [
+              "spṛhā",
+              "desires"
+            ],
+            [
+              "kariba barjana",
+              "I will give up"
+            ],
+            [
+              "abhakta",
+              "non-devotees"
+            ],
+            [
+              "pradatta",
+              "given"
+            ],
+            [
+              "anna",
+              "grains, foodstuff"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "kari grahaṇa",
+              "I accept"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "भक्तिर",
+              "of devotion"
+            ],
+            [
+              "बाधिका",
+              "impede"
+            ],
+            [
+              "स्प्ढ़ा",
+              "desires"
+            ],
+            [
+              "करिब बर्जन",
+              "I will give up"
+            ],
+            [
+              "अभक्त",
+              "non-devotees"
+            ],
+            [
+              "प्रदत्त",
+              "given"
+            ],
+            [
+              "अन्न",
+              "grains, foodstuff"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "करि ग्रहण",
+              "I accept"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ভক্তির",
+              "of devotion"
+            ],
+            [
+              "বাধিকা",
+              "impede"
+            ],
+            [
+              "স্প্ঢ়া",
+              "desires"
+            ],
+            [
+              "করিব বর্জন",
+              "I will give up"
+            ],
+            [
+              "অভক্ত",
+              "non-devotees"
+            ],
+            [
+              "প্রদত্ত",
+              "given"
+            ],
+            [
+              "অন্ন",
+              "grains, foodstuff"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "করি গ্রহণ",
+              "I accept"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ભક્તિર",
+              "of devotion"
+            ],
+            [
+              "બાધિકા",
+              "impede"
+            ],
+            [
+              "સ્પ્ઢ઼ા",
+              "desires"
+            ],
+            [
+              "કરિબ બર્જન",
+              "I will give up"
+            ],
+            [
+              "અભક્ત",
+              "non-devotees"
+            ],
+            [
+              "પ્રદત્ત",
+              "given"
+            ],
+            [
+              "અન્ન",
+              "grains, foodstuff"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "કરિ ગ્રહણ",
+              "I accept"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भक्तिर बाधिका स्प्ढ़ा करिब बर्जन",
+            "अभक्तप्रदत्त अन्न ना करि ग्रहण ७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভক্তির বাধিকা স্প্ঢ়া করিব বর্জন",
+            "অভক্তপ্রদত্ত অন্ন না করি গ্রহণ ৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭକ୍ତିର ବାଧିକା ସ୍ପ୍ଢ଼ା କରିବ ବର୍ଜନ",
+            "ଅଭକ୍ତପ୍ରଦତ୍ତ ଅନ୍ନ ନା କରି ଗ୍ରହଣ ୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભક્તિર બાધિકા સ્પ્ઢ઼ા કરિબ બર્જન",
+            "અભક્તપ્રદત્ત અન્ન ના કરિ ગ્રહણ ૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhaktira bādhikā spṛhā kariba barjana",
+            "abhakta-pradatta anna nā kari grahaṇa 7"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಕ್ತಿರ ಬಾಧಿಕಾ ಸ್ಪ್‌ಢ಼ಾ ಕರಿಬ ಬರ್ಜನ",
+            "ಅಭಕ್ತಪ್ರದತ್ತ ಅನ್ನ ನಾ ಕರಿ ಗ್ರಹಣ ೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భక్తిర బాధికా స్ప్ఢా కరిబ బర్జన",
+            "అభక్తప్రదత్త అన్న నా కరి గ్రహణ 7"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхактира ба̄дхика̄ спр̤ха̄ кариба барджана",
+            "абхактапрадатта анна на̄ кари грахан̣а 7"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭക്തിര ബാധികാ സ്പ്ഢാ കരിബ ബർജന",
+            "അഭക്തപ്രദത്ത അന്ന നാ കരി ഗ്രഹണ 7"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப⁴க்திர பா³தி⁴கா ஸ்ப்ஃடா³ கரிப³ ப³ர்ஜன",
+            "அப⁴க்தப்ரத³த்த அன்ன நா கரி க்³ரஹண 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhaktira bādhikā spṛhā kariba barjana",
+            "abhakta-pradatta anna nā kari grahaṇa 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhaktira bādhikā spṛhā kariba barjana",
+            "abhakta-pradatta anna nā kari grahaṇa 7"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "source_text_master": [
+        "yāhā kichu bhakti[FLAG_HYPHEN_ALPHA]pratikūla bali’ jāni",
+        "tyajiba yatane tāhā, e niścaya bāṇī 8"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Whatever I know to be unfavorable to bhakti, I will carefully forsake. This is my spoken promise."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "yāhā kichu",
+              "whatever"
+            ],
+            [
+              "bhakti",
+              "devotion"
+            ],
+            [
+              "pratikūla",
+              "unfavorable"
+            ],
+            [
+              "bali’",
+              "having considered"
+            ],
+            [
+              "jāni",
+              "I know"
+            ],
+            [
+              "tyajiba",
+              "I will forsake"
+            ],
+            [
+              "yatane",
+              "carefully, diligently"
+            ],
+            [
+              "tāhā",
+              "that"
+            ],
+            [
+              "e",
+              "this"
+            ],
+            [
+              "niścaya",
+              "firm, sure, without doubt"
+            ],
+            [
+              "bāṇī",
+              "word, speech"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "याहा किछु",
+              "whatever"
+            ],
+            [
+              "भक्ति",
+              "devotion"
+            ],
+            [
+              "प्रतिकूल",
+              "unfavorable"
+            ],
+            [
+              "बलिऽ",
+              "having considered"
+            ],
+            [
+              "जानि",
+              "I know"
+            ],
+            [
+              "त्यजिब",
+              "I will forsake"
+            ],
+            [
+              "यतनॆ",
+              "carefully, diligently"
+            ],
+            [
+              "ताहा",
+              "that"
+            ],
+            [
+              "ऎ",
+              "this"
+            ],
+            [
+              "निश्चय",
+              "firm, sure, without doubt"
+            ],
+            [
+              "बाणी",
+              "word, speech"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "যাহা কিছু",
+              "whatever"
+            ],
+            [
+              "ভক্তি",
+              "devotion"
+            ],
+            [
+              "প্রতিকূল",
+              "unfavorable"
+            ],
+            [
+              "বলিঽ",
+              "having considered"
+            ],
+            [
+              "জানি",
+              "I know"
+            ],
+            [
+              "ত্যজিব",
+              "I will forsake"
+            ],
+            [
+              "যতনে",
+              "carefully, diligently"
+            ],
+            [
+              "তাহা",
+              "that"
+            ],
+            [
+              "এ",
+              "this"
+            ],
+            [
+              "নিশ্চয়",
+              "firm, sure, without doubt"
+            ],
+            [
+              "বাণী",
+              "word, speech"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "યાહા કિછુ",
+              "whatever"
+            ],
+            [
+              "ભક્તિ",
+              "devotion"
+            ],
+            [
+              "પ્રતિકૂલ",
+              "unfavorable"
+            ],
+            [
+              "બલિઽ",
+              "having considered"
+            ],
+            [
+              "જાનિ",
+              "I know"
+            ],
+            [
+              "ત્યજિબ",
+              "I will forsake"
+            ],
+            [
+              "યતને",
+              "carefully, diligently"
+            ],
+            [
+              "તાહા",
+              "that"
+            ],
+            [
+              "એ",
+              "this"
+            ],
+            [
+              "નિશ્ચય",
+              "firm, sure, without doubt"
+            ],
+            [
+              "બાણી",
+              "word, speech"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "याहा किछु भक्तिप्रतिकूल बलिऽ जानि",
+            "त्यजिब यतनॆ ताहा, ऎ निश्चय बाणी ८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যাহা কিছু ভক্তিপ্রতিকূল বলিঽ জানি",
+            "ত্যজিব যতনে তাহা, এ নিশ্চয় বাণী ৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯାହା କିଛୁ ଭକ୍ତିପ୍ରତିକୂଲ ବଲିଽ ଜାନି",
+            "ତ୍ୟଜିବ ଯତନେ ତାହା, ଏ ନିଶ୍ଚୟ ବାଣୀ ୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યાહા કિછુ ભક્તિપ્રતિકૂલ બલિઽ જાનિ",
+            "ત્યજિબ યતને તાહા, એ નિશ્ચય બાણી ૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yāhā kichu bhakti-pratikūla bali’ jāni",
+            "tyajiba yatane tāhā, e niścaya bāṇī 8"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯಾಹಾ ಕಿಛು ಭಕ್ತಿಪ್ರತಿಕೂಲ ಬಲಿಽ ಜಾನಿ",
+            "ತ್ಯಜಿಬ ಯತನೆ ತಾಹಾ, ಎ ನಿಶ್ಚಯ ಬಾಣೀ ೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యాహా కిఛు భక్తిప్రతికూల బలిఽ జాని",
+            "త్యజిబ యతనె తాహా, ఎ నిశ్చయ బాణీ 8"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йа̄ха̄ кичху бхактипратикӯла бали' джа̄ни",
+            "тйаджиба йатанэ̆ та̄ха̄, э̆ ниш́чайа ба̄н̣ӣ 8"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യാഹാ കിഛു ഭക്തിപ്രതികൂല ബലിഽ ജാനി",
+            "ത്യജിബ യതനെ താഹാ, എ നിശ്ചയ ബാണീ 8"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யாஹா கிசு² ப⁴க்திப்ரதிகூல ப³லி(அ) ஜானி",
+            "த்யஜிப³ யதனெ தாஹா, எ நிஶ்சய பா³ணீ 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yāhā kichu bhakti-pratikūla bali’ jāni",
+            "tyajiba yatane tāhā, e niścaya bāṇī 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yāhā kichu bhakti-pratikūla bali’ jāni",
+            "tyajiba yatane tāhā, e niścaya bāṇī 8"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 9,
+      "source_text_master": [
+        "bhakatibinoda paḓi’ prabhura caraṇe",
+        "māgaye śakati prātikūlyera barjane 9"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Falling at the lotus feet of the Lord, Bhaktivinoda begs for the strength to relinquish everything unfavorable to pure devotion."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bhakatibinoda",
+              "Bhaktivinoda"
+            ],
+            [
+              "paḓi’",
+              "having fallen"
+            ],
+            [
+              "prabhura",
+              "Lord’s"
+            ],
+            [
+              "caraṇe",
+              "at feet"
+            ],
+            [
+              "māgaye",
+              "begs"
+            ],
+            [
+              "śakati",
+              "power"
+            ],
+            [
+              "prātikūlyera",
+              "of the unfavorable"
+            ],
+            [
+              "barjane",
+              "to give up, relinquish"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "भकतिबिनॊद",
+              "Bhaktivinoda"
+            ],
+            [
+              "पḓइऽ",
+              "having fallen"
+            ],
+            [
+              "प्रभुर",
+              "Lord’s"
+            ],
+            [
+              "चरणॆ",
+              "at feet"
+            ],
+            [
+              "मागयॆ",
+              "begs"
+            ],
+            [
+              "शकति",
+              "power"
+            ],
+            [
+              "प्रातिकूल्यॆर",
+              "of the unfavorable"
+            ],
+            [
+              "बर्जनॆ",
+              "to give up, relinquish"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ভকতিবিনোদ",
+              "Bhaktivinoda"
+            ],
+            [
+              "পḓইঽ",
+              "having fallen"
+            ],
+            [
+              "প্রভুর",
+              "Lord’s"
+            ],
+            [
+              "চরণে",
+              "at feet"
+            ],
+            [
+              "মাগয়ে",
+              "begs"
+            ],
+            [
+              "শকতি",
+              "power"
+            ],
+            [
+              "প্রাতিকূল্যের",
+              "of the unfavorable"
+            ],
+            [
+              "বর্জনে",
+              "to give up, relinquish"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ભકતિબિનોદ",
+              "Bhaktivinoda"
+            ],
+            [
+              "પḓઇઽ",
+              "having fallen"
+            ],
+            [
+              "પ્રભુર",
+              "Lord’s"
+            ],
+            [
+              "ચરણે",
+              "at feet"
+            ],
+            [
+              "માગયે",
+              "begs"
+            ],
+            [
+              "શકતિ",
+              "power"
+            ],
+            [
+              "પ્રાતિકૂલ્યેર",
+              "of the unfavorable"
+            ],
+            [
+              "બર્જને",
+              "to give up, relinquish"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भकतिबिनॊद पḓइऽ प्रभुर चरणॆ",
+            "मागयॆ शकति प्रातिकूल्यॆर बर्जनॆ ९"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভকতিবিনোদ পḓইঽ প্রভুর চরণে",
+            "মাগয়ে শকতি প্রাতিকূল্যের বর্জনে ৯"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭକତିବିନୋଦ ପḓଇଽ ପ୍ରଭୁର ଚରଣେ",
+            "ମାଗୟେ ଶକତି ପ୍ରାତିକୂଲ୍ୟେର ବର୍ଜନେ ୯"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભકતિબિનોદ પḓઇઽ પ્રભુર ચરણે",
+            "માગયે શકતિ પ્રાતિકૂલ્યેર બર્જને ૯"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhakatibinoda paḓi’ prabhura caraṇe",
+            "māgaye śakati prātikūlyera barjane 9"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಕತಿಬಿನೊದ ಪḓಇಽ ಪ್ರಭುರ ಚರಣೆ",
+            "ಮಾಗಯೆ ಶಕತಿ ಪ್ರಾತಿಕೂಲ್ಯೆರ ಬರ್ಜನೆ ೯"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భకతిబినొద పḓఇఽ ప్రభుర చరణె",
+            "మాగయె శకతి ప్రాతికూల్యెర బర్జనె 9"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхакатибино̆да паḓи' прабхура чаран̣э̆",
+            "ма̄гайэ̆ ш́акати пра̄тикӯлйэ̆ра барджанэ̆ 9"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭകതിബിനൊദ പḓഇഽ പ്രഭുര ചരണെ",
+            "മാഗയെ ശകതി പ്രാതികൂല്യെര ബർജനെ 9"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப⁴கதிபி³னொத³ பḓஇ(அ) ப்ரபு⁴ர சரணெ",
+            "மாக³யெ ஶகதி ப்ராதிகூல்யெர ப³ர்ஜனெ 9"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhakatibinoda paḍi’ prabhura caraṇe",
+            "māgaye śakati prātikūlyera barjane 9"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhakatibinoda paḓi’ prabhura caraṇe",
+            "māgaye śakati prātikūlyera barjane 9"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "(২২)"
+    },
+    {
+      "language_code": "ben",
+      "text": "প্রতিকূল বর্জ্জন (কায়িক)"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

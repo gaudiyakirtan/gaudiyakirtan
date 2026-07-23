@@ -1,0 +1,4183 @@
+{
+ "uid": "UP9",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "দুর্ল্লভ মানব-জন্ম লভিয়া সংসারে"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "durllabha mānaba-janma labhiyā saṁsāre"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "durllabha mānaba[FLAG_HYPHEN_ALPHA]janma labhiyā saṁsāre",
+    "kṛṣṇa nā bhajinu—duḥkha kahiba kāhāre 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "After attaining this rare human birth in the material world, I have not worshiped Śrī Kṛṣṇa. To whom shall I tell my sorrows?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "durllabha",
+       "rare"
+      ],
+      [
+       "mānaba",
+       "human"
+      ],
+      [
+       "janma",
+       "birth"
+      ],
+      [
+       "labhiyā",
+       "having attained"
+      ],
+      [
+       "saṁsāre",
+       "in material world"
+      ],
+      [
+       "kṛṣṇa",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "bhajinu",
+       "I have worshiped"
+      ],
+      [
+       "duḥkha",
+       "sorrows"
+      ],
+      [
+       "kahiba",
+       "I shall tell"
+      ],
+      [
+       "kāhāre",
+       "to whom"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "दुर्ल्लभ",
+       "rare"
+      ],
+      [
+       "मानब",
+       "human"
+      ],
+      [
+       "जन्म",
+       "birth"
+      ],
+      [
+       "लभिया",
+       "having attained"
+      ],
+      [
+       "संसारॆ",
+       "in material world"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "भजिनु",
+       "I have worshiped"
+      ],
+      [
+       "दुःख",
+       "sorrows"
+      ],
+      [
+       "कहिब",
+       "I shall tell"
+      ],
+      [
+       "काहारॆ",
+       "to whom"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "দুর্ল্লভ",
+       "rare"
+      ],
+      [
+       "মানব",
+       "human"
+      ],
+      [
+       "জন্ম",
+       "birth"
+      ],
+      [
+       "লভিয়া",
+       "having attained"
+      ],
+      [
+       "সংসারে",
+       "in material world"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "ভজিনু",
+       "I have worshiped"
+      ],
+      [
+       "দুঃখ",
+       "sorrows"
+      ],
+      [
+       "কহিব",
+       "I shall tell"
+      ],
+      [
+       "কাহারে",
+       "to whom"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "દુર્લ્લભ",
+       "rare"
+      ],
+      [
+       "માનબ",
+       "human"
+      ],
+      [
+       "જન્મ",
+       "birth"
+      ],
+      [
+       "લભિયા",
+       "having attained"
+      ],
+      [
+       "સંસારે",
+       "in material world"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "ભજિનુ",
+       "I have worshiped"
+      ],
+      [
+       "દુઃખ",
+       "sorrows"
+      ],
+      [
+       "કહિબ",
+       "I shall tell"
+      ],
+      [
+       "કાહારે",
+       "to whom"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "दुर्ल्लभ मानबजन्म लभिया संसारॆ",
+      "क्ड़्ष्ण ना भजिनु—दुःख कहिब काहारॆ १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "দুর্ল্লভ মানবজন্ম লভিয়া সংসারে",
+      "ক্ড়্ষ্ণ না ভজিনু—দুঃখ কহিব কাহারে ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଦୁର୍ଲ୍ଲଭ ମାନବଜନ୍ମ ଲଭିୟା ସଂସାରେ",
+      "କ୍ଡ଼୍ଷ୍ଣ ନା ଭଜିନୁ—ଦୁଃଖ କହିବ କାହାରେ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "દુર્લ્લભ માનબજન્મ લભિયા સંસારે",
+      "ક્ડ઼્ષ્ણ ના ભજિનુ—દુઃખ કહિબ કાહારે ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "durllabha mānaba-janma labhiyā saṁsāre",
+      "kṛṣṇa nā bhajinu—duḥkha kahiba kāhāre 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ದುರ್ಲ್ಲಭ ಮಾನಬಜನ್ಮ ಲಭಿಯಾ ಸಂಸಾರೆ",
+      "ಕ್‌ಡ಼್ಷ್ಣ ನಾ ಭಜಿನು—ದುಃಖ ಕಹಿಬ ಕಾಹಾರೆ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "దుర్ల్లభ మానబజన్మ లభియా సంసారె",
+      "క్డ్ష్ణ నా భజిను—దుఃఖ కహిబ కాహారె 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "дурллабха ма̄набаджанма лабхийа̄ сам̣са̄рэ̆",
+      "кр̤шн̣а на̄ бхаджину—дух̣кха кахиба ка̄ха̄рэ̆ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ദുർല്ലഭ മാനബജന്മ ലഭിയാ സംസാരെ",
+      "ക്ഡ്ഷ്ണ നാ ഭജിനു—ദുഃഖ കഹിബ കാഹാരെ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "து³ர்ல்லப⁴ மானப³ஜன்ம லபி⁴யா ஸம்ʼஸாரெ",
+      "க்ஃட்²ஷ்ண நா ப⁴ஜினு—து³꞉க² கஹிப³ காஹாரெ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "durllabha mānaba-janma labhiyā saṁsāre",
+      "kṛṣṇa nā bhajinu—duḥkha kahiba kāhāre 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "durllabha mānaba-janma labhiyā saṁsāre",
+      "kṛṣṇa nā bhajinu—duḥkha kahiba kāhāre 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "‘saṁsāra’ ‘saṁsāra’, ka’re miche gela kāla",
+    "lābha nā ha·ila kichu, ghaṭila jañjāla 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "By my engaging in worldly activities, time has passed in vain. There was no benefit; rather, only trouble arose."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "saṁsāra’ saṁsāra’",
+       "worldly activities and nothing but worldly activities"
+      ],
+      [
+       "ka’re",
+       "having engaged"
+      ],
+      [
+       "miche",
+       "in vain"
+      ],
+      [
+       "gela",
+       "passed"
+      ],
+      [
+       "kāla",
+       "time"
+      ],
+      [
+       "lābha",
+       "gain"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "ha·ila",
+       "happened"
+      ],
+      [
+       "kichu",
+       "any"
+      ],
+      [
+       "ghaṭila",
+       "occurred"
+      ],
+      [
+       "jañjāla",
+       "rubbish, (fig.) trouble"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "संसारऽ संसारऽ",
+       "worldly activities and nothing but worldly activities"
+      ],
+      [
+       "कऽरॆ",
+       "having engaged"
+      ],
+      [
+       "मिछॆ",
+       "in vain"
+      ],
+      [
+       "गॆल",
+       "passed"
+      ],
+      [
+       "काल",
+       "time"
+      ],
+      [
+       "लाभ",
+       "gain"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "हइल",
+       "happened"
+      ],
+      [
+       "किछु",
+       "any"
+      ],
+      [
+       "घटिल",
+       "occurred"
+      ],
+      [
+       "जञ्जाल",
+       "rubbish, (fig.) trouble"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "সংসারঽ সংসারঽ",
+       "worldly activities and nothing but worldly activities"
+      ],
+      [
+       "কঽরে",
+       "having engaged"
+      ],
+      [
+       "মিছে",
+       "in vain"
+      ],
+      [
+       "গেল",
+       "passed"
+      ],
+      [
+       "কাল",
+       "time"
+      ],
+      [
+       "লাভ",
+       "gain"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "হইল",
+       "happened"
+      ],
+      [
+       "কিছু",
+       "any"
+      ],
+      [
+       "ঘটিল",
+       "occurred"
+      ],
+      [
+       "জঞ্জাল",
+       "rubbish, (fig.) trouble"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "સંસારઽ સંસારઽ",
+       "worldly activities and nothing but worldly activities"
+      ],
+      [
+       "કઽરે",
+       "having engaged"
+      ],
+      [
+       "મિછે",
+       "in vain"
+      ],
+      [
+       "ગેલ",
+       "passed"
+      ],
+      [
+       "કાલ",
+       "time"
+      ],
+      [
+       "લાભ",
+       "gain"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "હઇલ",
+       "happened"
+      ],
+      [
+       "કિછુ",
+       "any"
+      ],
+      [
+       "ઘટિલ",
+       "occurred"
+      ],
+      [
+       "જઞ્જાલ",
+       "rubbish, (fig.) trouble"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "‘संसारऽ ‘संसारऽ, कऽरॆ मिछॆ गॆल काल",
+      "लाभ ना हइल किछु, घटिल जञ्जाल २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "‘সংসারঽ ‘সংসারঽ, কঽরে মিছে গেল কাল",
+      "লাভ না হইল কিছু, ঘটিল জঞ্জাল ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "‘ସଂସାରଽ ‘ସଂସାରଽ, କଽରେ ମିଛେ ଗେଲ କାଲ",
+      "ଲାଭ ନା ହଇଲ କିଛୁ, ଘଟିଲ ଜଞ୍ଜାଲ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "‘સંસારઽ ‘સંસારઽ, કઽરે મિછે ગેલ કાલ",
+      "લાભ ના હઇલ કિછુ, ઘટિલ જઞ્જાલ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "‘saṁsāra’ ‘saṁsāra’, ka’re miche gela kāla",
+      "lābha nā ha·ila kichu, ghaṭila jañjāla 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "‘ಸಂಸಾರಽ ‘ಸಂಸಾರಽ, ಕಽರೆ ಮಿಛೆ ಗೆಲ ಕಾಲ",
+      "ಲಾಭ ನಾ ಹಇಲ ಕಿಛು, ಘಟಿಲ ಜಂಜಾಲ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "‘సంసారఽ ‘సంసారఽ, కఽరె మిఛె గెల కాల",
+      "లాభ నా హఇల కిఛు, ఘటిల జంజాల 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "‘сам̣са̄ра' ‘сам̣са̄ра', ка'рэ̆ мичхэ̆ гэ̆ла ка̄ла",
+      "ла̄бха на̄ хаила кичху, гхат̣ила джан̃джа̄ла 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "‘സംസാരഽ ‘സംസാരഽ, കഽരെ മിഛെ ഗെല കാല",
+      "ലാഭ നാ ഹഇല കിഛു, ഘടില ജഞ്ജാല 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "‘ஸம்ʼஸார(அ) ‘ஸம்ʼஸார(அ), க(அ)ரெ மிசெ² கெ³ல கால",
+      "லாப⁴ நா ஹஇல கிசு², க⁴டில ஜஞ்ஜால 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "‘saṁsāra’ ‘saṁsāra’, ka’re miche gela kāla",
+      "lābha nā ha·ila kichu, ghaṭila jañjāla 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "‘saṁsāra’ ‘saṁsāra’, ka’re miche gela kāla",
+      "lābha nā ha·ila kichu, ghaṭila jañjāla 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "kisera saṁsāra ei, chāyābājī prāya",
+    "ihāte mamatā kari’ bṛthā dina yāya 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "What kind of world is this? It is like a magic lantern show [full of shadows and illusions]. By my being attached to this world, days pass in futility."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "kisera",
+       "what kind"
+      ],
+      [
+       "saṁsāra",
+       "world"
+      ],
+      [
+       "ei",
+       "this"
+      ],
+      [
+       "chāyābājī",
+       "magic, magic lantern, shadow puppet show"
+      ],
+      [
+       "prāya",
+       "like"
+      ],
+      [
+       "ihāte",
+       "in this"
+      ],
+      [
+       "mamatā",
+       "attachment"
+      ],
+      [
+       "kari’",
+       "having been stricken"
+      ],
+      [
+       "bṛthā",
+       "uselessly"
+      ],
+      [
+       "dina",
+       "days"
+      ],
+      [
+       "yāya",
+       "pass"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "किसॆर",
+       "what kind"
+      ],
+      [
+       "संसार",
+       "world"
+      ],
+      [
+       "ऎइ",
+       "this"
+      ],
+      [
+       "छायाबाजी",
+       "magic, magic lantern, shadow puppet show"
+      ],
+      [
+       "प्राय",
+       "like"
+      ],
+      [
+       "इहातॆ",
+       "in this"
+      ],
+      [
+       "ममता",
+       "attachment"
+      ],
+      [
+       "करिऽ",
+       "having been stricken"
+      ],
+      [
+       "ब्ड़्था",
+       "uselessly"
+      ],
+      [
+       "दिन",
+       "days"
+      ],
+      [
+       "याय",
+       "pass"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "কিসের",
+       "what kind"
+      ],
+      [
+       "সংসার",
+       "world"
+      ],
+      [
+       "এই",
+       "this"
+      ],
+      [
+       "ছায়াবাজী",
+       "magic, magic lantern, shadow puppet show"
+      ],
+      [
+       "প্রায়",
+       "like"
+      ],
+      [
+       "ইহাতে",
+       "in this"
+      ],
+      [
+       "মমতা",
+       "attachment"
+      ],
+      [
+       "করিঽ",
+       "having been stricken"
+      ],
+      [
+       "ব্ড়্থা",
+       "uselessly"
+      ],
+      [
+       "দিন",
+       "days"
+      ],
+      [
+       "যায়",
+       "pass"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "કિસેર",
+       "what kind"
+      ],
+      [
+       "સંસાર",
+       "world"
+      ],
+      [
+       "એઇ",
+       "this"
+      ],
+      [
+       "છાયાબાજી",
+       "magic, magic lantern, shadow puppet show"
+      ],
+      [
+       "પ્રાય",
+       "like"
+      ],
+      [
+       "ઇહાતે",
+       "in this"
+      ],
+      [
+       "મમતા",
+       "attachment"
+      ],
+      [
+       "કરિઽ",
+       "having been stricken"
+      ],
+      [
+       "બ્ડ઼્થા",
+       "uselessly"
+      ],
+      [
+       "દિન",
+       "days"
+      ],
+      [
+       "યાય",
+       "pass"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "किसॆर संसार ऎइ, छायाबाजी प्राय",
+      "इहातॆ ममता करिऽ ब्ड़्था दिन याय ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কিসের সংসার এই, ছায়াবাজী প্রায়",
+      "ইহাতে মমতা করিঽ ব্ড়্থা দিন যায় ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କିସେର ସଂସାର ଏଇ, ଛାୟାବାଜୀ ପ୍ରାୟ",
+      "ଇହାତେ ମମତା କରିଽ ବ୍ଡ଼୍ଥା ଦିନ ଯାୟ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કિસેર સંસાર એઇ, છાયાબાજી પ્રાય",
+      "ઇહાતે મમતા કરિઽ બ્ડ઼્થા દિન યાય ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kisera saṁsāra ei, chāyābājī prāya",
+      "ihāte mamatā kari’ bṛthā dina yāya 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕಿಸೆರ ಸಂಸಾರ ಎಇ, ಛಾಯಾಬಾಜೀ ಪ್ರಾಯ",
+      "ಇಹಾತೆ ಮಮತಾ ಕರಿಽ ಬ್‌ಡ಼್ಥಾ ದಿನ ಯಾಯ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కిసెర సంసార ఎఇ, ఛాయాబాజీ ప్రాయ",
+      "ఇహాతె మమతా కరిఽ బ్డ్థా దిన యాయ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кисэ̆ра сам̣са̄ра э̆и, чха̄йа̄ба̄джӣ пра̄йа",
+      "иха̄тэ̆ мамата̄ кари' бр̤тха̄ дина йа̄йа 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കിസെര സംസാര എഇ, ഛായാബാജീ പ്രായ",
+      "ഇഹാതെ മമതാ കരിഽ ബ്ഡ്ഥാ ദിന യായ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கிஸெர ஸம்ʼஸார எஇ, சா²யாபா³ஜீ ப்ராய",
+      "இஹாதெ மமதா கரி(அ) ப்³ஃட்²தா² தி³ன யாய 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kisera saṁsāra ei, chāyābājī prāya",
+      "ihāte mamatā kari’ bṛthā dina yāya 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kisera saṁsāra ei, chāyābājī prāya",
+      "ihāte mamatā kari’ bṛthā dina yāya 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "e deha patana ha’le ki ra’be āmāra ?",
+    "keha sukha nāhi dibe putra[FLAG_HYPHEN_ALPHA]paribāra 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "When this body dies, what will remain mine? No one, including my sons and family members, will be able to give me happiness then."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "e",
+       "this"
+      ],
+      [
+       "deha",
+       "body"
+      ],
+      [
+       "patana",
+       "declines"
+      ],
+      [
+       "ha’le",
+       "when it happens"
+      ],
+      [
+       "ki",
+       "what"
+      ],
+      [
+       "ra’be",
+       "will remain"
+      ],
+      [
+       "āmāra",
+       "mine"
+      ],
+      [
+       "keha",
+       "anyone or anything"
+      ],
+      [
+       "sukha",
+       "happiness"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "dibe",
+       "will give"
+      ],
+      [
+       "putra",
+       "sons"
+      ],
+      [
+       "paribāra",
+       "family"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "दॆह",
+       "body"
+      ],
+      [
+       "पतन",
+       "declines"
+      ],
+      [
+       "हऽलॆ",
+       "when it happens"
+      ],
+      [
+       "कि",
+       "what"
+      ],
+      [
+       "रऽबॆ",
+       "will remain"
+      ],
+      [
+       "आमार",
+       "mine"
+      ],
+      [
+       "कॆह",
+       "anyone or anything"
+      ],
+      [
+       "सुख",
+       "happiness"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "दिबॆ",
+       "will give"
+      ],
+      [
+       "पुत्र",
+       "sons"
+      ],
+      [
+       "परिबार",
+       "family"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "দেহ",
+       "body"
+      ],
+      [
+       "পতন",
+       "declines"
+      ],
+      [
+       "হঽলে",
+       "when it happens"
+      ],
+      [
+       "কি",
+       "what"
+      ],
+      [
+       "রঽবে",
+       "will remain"
+      ],
+      [
+       "আমার",
+       "mine"
+      ],
+      [
+       "কেহ",
+       "anyone or anything"
+      ],
+      [
+       "সুখ",
+       "happiness"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "দিবে",
+       "will give"
+      ],
+      [
+       "পুত্র",
+       "sons"
+      ],
+      [
+       "পরিবার",
+       "family"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "દેહ",
+       "body"
+      ],
+      [
+       "પતન",
+       "declines"
+      ],
+      [
+       "હઽલે",
+       "when it happens"
+      ],
+      [
+       "કિ",
+       "what"
+      ],
+      [
+       "રઽબે",
+       "will remain"
+      ],
+      [
+       "આમાર",
+       "mine"
+      ],
+      [
+       "કેહ",
+       "anyone or anything"
+      ],
+      [
+       "સુખ",
+       "happiness"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "દિબે",
+       "will give"
+      ],
+      [
+       "પુત્ર",
+       "sons"
+      ],
+      [
+       "પરિબાર",
+       "family"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎ दॆह पतन हऽलॆ कि रऽबॆ आमार ?",
+      "कॆह सुख नाहि दिबॆ पुत्रपरिबार ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এ দেহ পতন হঽলে কি রঽবে আমার ?",
+      "কেহ সুখ নাহি দিবে পুত্রপরিবার ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏ ଦେହ ପତନ ହଽଲେ କି ରଽବେ ଆମାର ?",
+      "କେହ ସୁଖ ନାହି ଦିବେ ପୁତ୍ରପରିବାର ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એ દેહ પતન હઽલે કિ રઽબે આમાર ?",
+      "કેહ સુખ નાહિ દિબે પુત્રપરિબાર ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "e deha patana ha’le ki ra’be āmāra ?",
+      "keha sukha nāhi dibe putra-paribāra 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎ ದೆಹ ಪತನ ಹಽಲೆ ಕಿ ರಽಬೆ ಆಮಾರ ?",
+      "ಕೆಹ ಸುಖ ನಾಹಿ ದಿಬೆ ಪುತ್ರಪರಿಬಾರ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎ దెహ పతన హఽలె కి రఽబె ఆమార ?",
+      "కెహ సుఖ నాహి దిబె పుత్రపరిబార 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆ дэ̆ха патана ха'лэ̆ ки ра'бэ̆ а̄ма̄ра ?",
+      "кэ̆ха сукха на̄хи дибэ̆ путрапариба̄ра 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എ ദെഹ പതന ഹഽലെ കി രഽബെ ആമാര ?",
+      "കെഹ സുഖ നാഹി ദിബെ പുത്രപരിബാര 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எ தெ³ஹ பதன ஹ(அ)லெ கி ர(அ)பெ³ ஆமார ?",
+      "கெஹ ஸுக² நாஹி தி³பெ³ புத்ரபரிபா³ர 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "e deha patana ha’le ki ra’be āmāra ?",
+      "keha sukha nāhi dibe putra-paribāra 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "e deha patana ha’le ki ra’be āmāra ?",
+      "keha sukha nāhi dibe putra-paribāra 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "gardabhera mata āmi kari pariśrama",
+    "kā’ra lāgi’ eta kari nā ghucila bhrama 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Like an ass, I work very hard, but for whom do I labor so? My illusion has not been removed."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gardabhera",
+       "an ass"
+      ],
+      [
+       "mata",
+       "like"
+      ],
+      [
+       "āmi",
+       "I"
+      ],
+      [
+       "kari",
+       "do"
+      ],
+      [
+       "pariśrama",
+       "labor"
+      ],
+      [
+       "kā’ra",
+       "whom (plural)"
+      ],
+      [
+       "lāgi’",
+       "for"
+      ],
+      [
+       "eta",
+       "this"
+      ],
+      [
+       "kari",
+       "I do"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "ghucila",
+       "removed"
+      ],
+      [
+       "bhrama",
+       "illusion"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गर्दभॆर",
+       "an ass"
+      ],
+      [
+       "मत",
+       "like"
+      ],
+      [
+       "आमि",
+       "I"
+      ],
+      [
+       "करि",
+       "do"
+      ],
+      [
+       "परिश्रम",
+       "labor"
+      ],
+      [
+       "काऽर",
+       "whom (plural)"
+      ],
+      [
+       "लागिऽ",
+       "for"
+      ],
+      [
+       "ऎत",
+       "this"
+      ],
+      [
+       "करि",
+       "I do"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "घुचिल",
+       "removed"
+      ],
+      [
+       "भ्रम",
+       "illusion"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গর্দভের",
+       "an ass"
+      ],
+      [
+       "মত",
+       "like"
+      ],
+      [
+       "আমি",
+       "I"
+      ],
+      [
+       "করি",
+       "do"
+      ],
+      [
+       "পরিশ্রম",
+       "labor"
+      ],
+      [
+       "কাঽর",
+       "whom (plural)"
+      ],
+      [
+       "লাগিঽ",
+       "for"
+      ],
+      [
+       "এত",
+       "this"
+      ],
+      [
+       "করি",
+       "I do"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "ঘুচিল",
+       "removed"
+      ],
+      [
+       "ভ্রম",
+       "illusion"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગર્દભેર",
+       "an ass"
+      ],
+      [
+       "મત",
+       "like"
+      ],
+      [
+       "આમિ",
+       "I"
+      ],
+      [
+       "કરિ",
+       "do"
+      ],
+      [
+       "પરિશ્રમ",
+       "labor"
+      ],
+      [
+       "કાઽર",
+       "whom (plural)"
+      ],
+      [
+       "લાગિઽ",
+       "for"
+      ],
+      [
+       "એત",
+       "this"
+      ],
+      [
+       "કરિ",
+       "I do"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "ઘુચિલ",
+       "removed"
+      ],
+      [
+       "ભ્રમ",
+       "illusion"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गर्दभॆर मत आमि करि परिश्रम",
+      "काऽर लागिऽ ऎत करि ना घुचिल भ्रम ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গর্দভের মত আমি করি পরিশ্রম",
+      "কাঽর লাগিঽ এত করি না ঘুচিল ভ্রম ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗର୍ଦଭେର ମତ ଆମି କରି ପରିଶ୍ରମ",
+      "କାଽର ଲାଗିଽ ଏତ କରି ନା ଘୁଚିଲ ଭ୍ରମ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગર્દભેર મત આમિ કરિ પરિશ્રમ",
+      "કાઽર લાગિઽ એત કરિ ના ઘુચિલ ભ્રમ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gardabhera mata āmi kari pariśrama",
+      "kā’ra lāgi’ eta kari nā ghucila bhrama 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗರ್ದಭೆರ ಮತ ಆಮಿ ಕರಿ ಪರಿಶ್ರಮ",
+      "ಕಾಽರ ಲಾಗಿಽ ಎತ ಕರಿ ನಾ ಘುಚಿಲ ಭ್ರಮ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గర్దభెర మత ఆమి కరి పరిశ్రమ",
+      "కాఽర లాగిఽ ఎత కరి నా ఘుచిల భ్రమ 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "гардабхэ̆ра мата а̄ми кари париш́рама",
+      "ка̄'ра ла̄ги' э̆та кари на̄ гхучила бхрама 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗർദഭെര മത ആമി കരി പരിശ്രമ",
+      "കാഽര ലാഗിഽ എത കരി നാ ഘുചില ഭ്രമ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "க³ர்த³பெ⁴ர மத ஆமி கரி பரிஶ்ரம",
+      "கா(அ)ர லாகி³(அ) எத கரி நா கு⁴சில ப்⁴ரம 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gardabhera mata āmi kari pariśrama",
+      "kā’ra lāgi’ eta kari nā ghucila bhrama 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gardabhera mata āmi kari pariśrama",
+      "kā’ra lāgi’ eta kari nā ghucila bhrama 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "dina yāya michā kāje, niśā nidrā[FLAG_HYPHEN_ALPHA]baśe",
+    "nāhi bhābi—maraṇa nikaṭe āche ba’se 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "My days pass in useless work, and my nights pass under the control of sleep. I never think that death is sitting nearby."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "dina",
+       "days"
+      ],
+      [
+       "yāya",
+       "pass"
+      ],
+      [
+       "michā",
+       "useless"
+      ],
+      [
+       "kāje",
+       "in work"
+      ],
+      [
+       "niśā",
+       "nights"
+      ],
+      [
+       "nidrā",
+       "of sleep"
+      ],
+      [
+       "baśe",
+       "under the control"
+      ],
+      [
+       "nāhi",
+       "never"
+      ],
+      [
+       "bhābi",
+       "I think"
+      ],
+      [
+       "maraṇa",
+       "death"
+      ],
+      [
+       "nikaṭe",
+       "nearby"
+      ],
+      [
+       "āche",
+       "is present"
+      ],
+      [
+       "ba’se",
+       "having sat"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "दिन",
+       "days"
+      ],
+      [
+       "याय",
+       "pass"
+      ],
+      [
+       "मिछा",
+       "useless"
+      ],
+      [
+       "काजॆ",
+       "in work"
+      ],
+      [
+       "निशा",
+       "nights"
+      ],
+      [
+       "निद्रा",
+       "of sleep"
+      ],
+      [
+       "बशॆ",
+       "under the control"
+      ],
+      [
+       "नाहि",
+       "never"
+      ],
+      [
+       "भाबि",
+       "I think"
+      ],
+      [
+       "मरण",
+       "death"
+      ],
+      [
+       "निकटॆ",
+       "nearby"
+      ],
+      [
+       "आछॆ",
+       "is present"
+      ],
+      [
+       "बऽसॆ",
+       "having sat"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "দিন",
+       "days"
+      ],
+      [
+       "যায়",
+       "pass"
+      ],
+      [
+       "মিছা",
+       "useless"
+      ],
+      [
+       "কাজে",
+       "in work"
+      ],
+      [
+       "নিশা",
+       "nights"
+      ],
+      [
+       "নিদ্রা",
+       "of sleep"
+      ],
+      [
+       "বশে",
+       "under the control"
+      ],
+      [
+       "নাহি",
+       "never"
+      ],
+      [
+       "ভাবি",
+       "I think"
+      ],
+      [
+       "মরণ",
+       "death"
+      ],
+      [
+       "নিকটে",
+       "nearby"
+      ],
+      [
+       "আছে",
+       "is present"
+      ],
+      [
+       "বঽসে",
+       "having sat"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "દિન",
+       "days"
+      ],
+      [
+       "યાય",
+       "pass"
+      ],
+      [
+       "મિછા",
+       "useless"
+      ],
+      [
+       "કાજે",
+       "in work"
+      ],
+      [
+       "નિશા",
+       "nights"
+      ],
+      [
+       "નિદ્રા",
+       "of sleep"
+      ],
+      [
+       "બશે",
+       "under the control"
+      ],
+      [
+       "નાહિ",
+       "never"
+      ],
+      [
+       "ભાબિ",
+       "I think"
+      ],
+      [
+       "મરણ",
+       "death"
+      ],
+      [
+       "નિકટે",
+       "nearby"
+      ],
+      [
+       "આછે",
+       "is present"
+      ],
+      [
+       "બઽસે",
+       "having sat"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "दिन याय मिछा काजॆ, निशा निद्राबशॆ",
+      "नाहि भाबि—मरण निकटॆ आछॆ बऽसॆ ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "দিন যায় মিছা কাজে, নিশা নিদ্রাবশে",
+      "নাহি ভাবি—মরণ নিকটে আছে বঽসে ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଦିନ ଯାୟ ମିଛା କାଜେ, ନିଶା ନିଦ୍ରାବଶେ",
+      "ନାହି ଭାବି—ମରଣ ନିକଟେ ଆଛେ ବଽସେ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "દિન યાય મિછા કાજે, નિશા નિદ્રાબશે",
+      "નાહિ ભાબિ—મરણ નિકટે આછે બઽસે ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "dina yāya michā kāje, niśā nidrā-baśe",
+      "nāhi bhābi—maraṇa nikaṭe āche ba’se 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ದಿನ ಯಾಯ ಮಿಛಾ ಕಾಜೆ, ನಿಶಾ ನಿದ್ರಾಬಶೆ",
+      "ನಾಹಿ ಭಾಬಿ—ಮರಣ ನಿಕಟೆ ಆಛೆ ಬಽಸೆ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "దిన యాయ మిఛా కాజె, నిశా నిద్రాబశె",
+      "నాహి భాబి—మరణ నికటె ఆఛె బఽసె 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "дина йа̄йа мичха̄ ка̄джэ̆, ниш́а̄ нидра̄баш́э̆",
+      "на̄хи бха̄би—маран̣а никат̣э̆ а̄чхэ̆ ба'сэ̆ 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ദിന യായ മിഛാ കാജെ, നിശാ നിദ്രാബശെ",
+      "നാഹി ഭാബി—മരണ നികടെ ആഛെ ബഽസെ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தி³ன யாய மிசா² காஜெ, நிஶா நித்³ராப³ஶெ",
+      "நாஹி பா⁴பி³—மரண நிகடெ ஆசெ² ப³(அ)ஸெ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "dina yāya michā kāje, niśā nidrā-baśe",
+      "nāhi bhābi—maraṇa nikaṭe āche ba’se 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "dina yāya michā kāje, niśā nidrā-baśe",
+      "nāhi bhābi—maraṇa nikaṭe āche ba’se 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "bhāla manda khāi, heri, pari, cintāhīna",
+    "nāhi bhābi, e deha chāḓiba kona dina 7"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "I eat, see, and wear whatever—good or bad—free from anxiety. I never think that one day I will give up this body."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "bhāla",
+       "good"
+      ],
+      [
+       "manda",
+       "bad"
+      ],
+      [
+       "khāi",
+       "I eat"
+      ],
+      [
+       "heri",
+       "I see"
+      ],
+      [
+       "pari",
+       "I wear"
+      ],
+      [
+       "cintāhīna",
+       "from anxiety + free"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "bhābi",
+       "I think"
+      ],
+      [
+       "e",
+       "this"
+      ],
+      [
+       "deha",
+       "body"
+      ],
+      [
+       "chāḓiba",
+       "I will give up"
+      ],
+      [
+       "kona",
+       "any"
+      ],
+      [
+       "dina",
+       "day"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "भाल",
+       "good"
+      ],
+      [
+       "मन्द",
+       "bad"
+      ],
+      [
+       "खाइ",
+       "I eat"
+      ],
+      [
+       "हॆरि",
+       "I see"
+      ],
+      [
+       "परि",
+       "I wear"
+      ],
+      [
+       "चिन्ताहीन",
+       "from anxiety + free"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "भाबि",
+       "I think"
+      ],
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "दॆह",
+       "body"
+      ],
+      [
+       "छाḓइब",
+       "I will give up"
+      ],
+      [
+       "कॊन",
+       "any"
+      ],
+      [
+       "दिन",
+       "day"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ভাল",
+       "good"
+      ],
+      [
+       "মন্দ",
+       "bad"
+      ],
+      [
+       "খাই",
+       "I eat"
+      ],
+      [
+       "হেরি",
+       "I see"
+      ],
+      [
+       "পরি",
+       "I wear"
+      ],
+      [
+       "চিন্তাহীন",
+       "from anxiety + free"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "ভাবি",
+       "I think"
+      ],
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "দেহ",
+       "body"
+      ],
+      [
+       "ছাḓইব",
+       "I will give up"
+      ],
+      [
+       "কোন",
+       "any"
+      ],
+      [
+       "দিন",
+       "day"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ભાલ",
+       "good"
+      ],
+      [
+       "મન્દ",
+       "bad"
+      ],
+      [
+       "ખાઇ",
+       "I eat"
+      ],
+      [
+       "હેરિ",
+       "I see"
+      ],
+      [
+       "પરિ",
+       "I wear"
+      ],
+      [
+       "ચિન્તાહીન",
+       "from anxiety + free"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "ભાબિ",
+       "I think"
+      ],
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "દેહ",
+       "body"
+      ],
+      [
+       "છાḓઇબ",
+       "I will give up"
+      ],
+      [
+       "કોન",
+       "any"
+      ],
+      [
+       "દિન",
+       "day"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भाल मन्द खाइ, हॆरि, परि, चिन्ताहीन",
+      "नाहि भाबि, ऎ दॆह छाḓइब कॊन दिन ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভাল মন্দ খাই, হেরি, পরি, চিন্তাহীন",
+      "নাহি ভাবি, এ দেহ ছাḓইব কোন দিন ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭାଲ ମନ୍ଦ ଖାଇ, ହେରି, ପରି, ଚିନ୍ତାହୀନ",
+      "ନାହି ଭାବି, ଏ ଦେହ ଛାḓଇବ କୋନ ଦିନ ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભાલ મન્દ ખાઇ, હેરિ, પરિ, ચિન્તાહીન",
+      "નાહિ ભાબિ, એ દેહ છાḓઇબ કોન દિન ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhāla manda khāi, heri, pari, cintāhīna",
+      "nāhi bhābi, e deha chāḓiba kona dina 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭಾಲ ಮಂದ ಖಾಇ, ಹೆರಿ, ಪರಿ, ಚಿಂತಾಹೀನ",
+      "ನಾಹಿ ಭಾಬಿ, ಎ ದೆಹ ಛಾḓಇಬ ಕೊನ ದಿನ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భాల మంద ఖాఇ, హెరి, పరి, చింతాహీన",
+      "నాహి భాబి, ఎ దెహ ఛాḓఇబ కొన దిన 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бха̄ла манда кха̄и, хэ̆ри, пари, чинта̄хӣна",
+      "на̄хи бха̄би, э̆ дэ̆ха чха̄ḓиба ко̆на дина 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭാല മന്ദ ഖാഇ, ഹെരി, പരി, ചിന്താഹീന",
+      "നാഹി ഭാബി, എ ദെഹ ഛാḓഇബ കൊന ദിന 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பா⁴ல மந்த³ கா²இ, ஹெரி, பரி, சிந்தாஹீன",
+      "நாஹி பா⁴பி³, எ தெ³ஹ சா²ḓஇப³ கொன தி³ன 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhāla manda khāi, heri, pari, cintāhīna",
+      "nāhi bhābi, e deha chāḍiba kona dina 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhāla manda khāi, heri, pari, cintāhīna",
+      "nāhi bhābi, e deha chāḓiba kona dina 7"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 8,
+   "source_text_master": [
+    "deha[FLAG_HYPHEN_ALPHA]geha[FLAG_HYPHEN_ALPHA]kalatrādi cintā abirata",
+    "jāgiche hṛdaye mora buddhi kari’ hata 8"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Thoughts of my body, house, wife, and other possessions are constantly appearing in my heart, destroying my intelligence."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "deha",
+       "body"
+      ],
+      [
+       "geha",
+       "house"
+      ],
+      [
+       "kalatrādi",
+       "wife + and so on"
+      ],
+      [
+       "cintā",
+       "thoughts of"
+      ],
+      [
+       "abirata",
+       "constantly"
+      ],
+      [
+       "jāgiche",
+       "appearing"
+      ],
+      [
+       "hṛdaye",
+       "in the heart"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "buddhi",
+       "intellegence"
+      ],
+      [
+       "kari’ hata",
+       "having destroyed"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "दॆह",
+       "body"
+      ],
+      [
+       "गॆह",
+       "house"
+      ],
+      [
+       "कलत्रादि",
+       "wife + and so on"
+      ],
+      [
+       "चिन्ता",
+       "thoughts of"
+      ],
+      [
+       "अबिरत",
+       "constantly"
+      ],
+      [
+       "जागिछॆ",
+       "appearing"
+      ],
+      [
+       "ह्ड़्दयॆ",
+       "in the heart"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "बुद्धि",
+       "intellegence"
+      ],
+      [
+       "करिऽ हत",
+       "having destroyed"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "দেহ",
+       "body"
+      ],
+      [
+       "গেহ",
+       "house"
+      ],
+      [
+       "কলত্রাদি",
+       "wife + and so on"
+      ],
+      [
+       "চিন্তা",
+       "thoughts of"
+      ],
+      [
+       "অবিরত",
+       "constantly"
+      ],
+      [
+       "জাগিছে",
+       "appearing"
+      ],
+      [
+       "হ্ড়্দয়ে",
+       "in the heart"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "বুদ্ধি",
+       "intellegence"
+      ],
+      [
+       "করিঽ হত",
+       "having destroyed"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "દેહ",
+       "body"
+      ],
+      [
+       "ગેહ",
+       "house"
+      ],
+      [
+       "કલત્રાદિ",
+       "wife + and so on"
+      ],
+      [
+       "ચિન્તા",
+       "thoughts of"
+      ],
+      [
+       "અબિરત",
+       "constantly"
+      ],
+      [
+       "જાગિછે",
+       "appearing"
+      ],
+      [
+       "હ્ડ઼્દયે",
+       "in the heart"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "બુદ્ધિ",
+       "intellegence"
+      ],
+      [
+       "કરિઽ હત",
+       "having destroyed"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "दॆहगॆहकलत्रादि चिन्ता अबिरत",
+      "जागिछॆ ह्ड़्दयॆ मॊर बुद्धि करिऽ हत ८"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "দেহগেহকলত্রাদি চিন্তা অবিরত",
+      "জাগিছে হ্ড়্দয়ে মোর বুদ্ধি করিঽ হত ৮"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଦେହଗେହକଲତ୍ରାଦି ଚିନ୍ତା ଅବିରତ",
+      "ଜାଗିଛେ ହ୍ଡ଼୍ଦୟେ ମୋର ବୁଦ୍ଧି କରିଽ ହତ ୮"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "દેહગેહકલત્રાદિ ચિન્તા અબિરત",
+      "જાગિછે હ્ડ઼્દયે મોર બુદ્ધિ કરિઽ હત ૮"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "deha-geha-kalatrādi cintā abirata",
+      "jāgiche hṛdaye mora buddhi kari’ hata 8"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ದೆಹಗೆಹಕಲತ್ರಾದಿ ಚಿಂತಾ ಅಬಿರತ",
+      "ಜಾಗಿಛೆ ಹ್‌ಡ಼್ದಯೆ ಮೊರ ಬುದ್ಧಿ ಕರಿಽ ಹತ ೮"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "దెహగెహకలత్రాది చింతా అబిరత",
+      "జాగిఛె హ్డ్దయె మొర బుద్ధి కరిఽ హత 8"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "дэ̆хагэ̆хакалатра̄ди чинта̄ абирата",
+      "джа̄гичхэ̆ хр̤дайэ̆ мо̆ра буддхи кари' хата 8"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ദെഹഗെഹകലത്രാദി ചിന്താ അബിരത",
+      "ജാഗിഛെ ഹ്ഡ്ദയെ മൊര ബുദ്ധി കരിഽ ഹത 8"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தெ³ஹகெ³ஹகலத்ராதி³ சிந்தா அபி³ரத",
+      "ஜாகி³செ² ஹ்ஃட்²த³யெ மொர பு³த்³தி⁴ கரி(அ) ஹத 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "deha-geha-kalatrādi cintā abirata",
+      "jāgiche hṛdaye mora buddhi kari’ hata 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "deha-geha-kalatrādi cintā abirata",
+      "jāgiche hṛdaye mora buddhi kari’ hata 8"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 9,
+   "source_text_master": [
+    "hāya, hāya! nāhi bhābi,—anitya e saba",
+    "jībana bigate kothā rahibe baibhaba 9"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Alas! Alas! I never think that all these things are temporary. When this life ends, where will my material opulence go?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hāya",
+       "alas"
+      ],
+      [
+       "hāya",
+       "alas"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "bhābi",
+       "I think"
+      ],
+      [
+       "anitya",
+       "temporary"
+      ],
+      [
+       "e",
+       "these"
+      ],
+      [
+       "saba",
+       "all"
+      ],
+      [
+       "jībana",
+       "life"
+      ],
+      [
+       "bigate",
+       "ends"
+      ],
+      [
+       "kothā",
+       "when"
+      ],
+      [
+       "rahibe",
+       "will remain"
+      ],
+      [
+       "baibhaba",
+       "oplences"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हाय",
+       "alas"
+      ],
+      [
+       "हाय",
+       "alas"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "भाबि",
+       "I think"
+      ],
+      [
+       "अनित्य",
+       "temporary"
+      ],
+      [
+       "ऎ",
+       "these"
+      ],
+      [
+       "सब",
+       "all"
+      ],
+      [
+       "जीबन",
+       "life"
+      ],
+      [
+       "बिगतॆ",
+       "ends"
+      ],
+      [
+       "कॊथा",
+       "when"
+      ],
+      [
+       "रहिबॆ",
+       "will remain"
+      ],
+      [
+       "बैभब",
+       "oplences"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হায়",
+       "alas"
+      ],
+      [
+       "হায়",
+       "alas"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "ভাবি",
+       "I think"
+      ],
+      [
+       "অনিত্য",
+       "temporary"
+      ],
+      [
+       "এ",
+       "these"
+      ],
+      [
+       "সব",
+       "all"
+      ],
+      [
+       "জীবন",
+       "life"
+      ],
+      [
+       "বিগতে",
+       "ends"
+      ],
+      [
+       "কোথা",
+       "when"
+      ],
+      [
+       "রহিবে",
+       "will remain"
+      ],
+      [
+       "বৈভব",
+       "oplences"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હાય",
+       "alas"
+      ],
+      [
+       "હાય",
+       "alas"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "ભાબિ",
+       "I think"
+      ],
+      [
+       "અનિત્ય",
+       "temporary"
+      ],
+      [
+       "એ",
+       "these"
+      ],
+      [
+       "સબ",
+       "all"
+      ],
+      [
+       "જીબન",
+       "life"
+      ],
+      [
+       "બિગતે",
+       "ends"
+      ],
+      [
+       "કોથા",
+       "when"
+      ],
+      [
+       "રહિબે",
+       "will remain"
+      ],
+      [
+       "બૈભબ",
+       "oplences"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हाय, हाय! नाहि भाबि,—अनित्य ऎ सब",
+      "जीबन बिगतॆ कॊथा रहिबॆ बैभब ९"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হায়, হায়! নাহি ভাবি,—অনিত্য এ সব",
+      "জীবন বিগতে কোথা রহিবে বৈভব ৯"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହାୟ, ହାୟ! ନାହି ଭାବି,—ଅନିତ୍ୟ ଏ ସବ",
+      "ଜୀବନ ବିଗତେ କୋଥା ରହିବେ ବୈଭବ ୯"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હાય, હાય! નાહિ ભાબિ,—અનિત્ય એ સબ",
+      "જીબન બિગતે કોથા રહિબે બૈભબ ૯"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hāya, hāya! nāhi bhābi,—anitya e saba",
+      "jībana bigate kothā rahibe baibhaba 9"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹಾಯ, ಹಾಯ! ನಾಹಿ ಭಾಬಿ,—ಅನಿತ್ಯ ಎ ಸಬ",
+      "ಜೀಬನ ಬಿಗತೆ ಕೊಥಾ ರಹಿಬೆ ಬೈಭಬ ೯"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హాయ, హాయ! నాహి భాబి,—అనిత్య ఎ సబ",
+      "జీబన బిగతె కొథా రహిబె బైభబ 9"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ха̄йа, ха̄йа! на̄хи бха̄би,—анитйа э̆ саба",
+      "джӣбана бигатэ̆ ко̆тха̄ рахибэ̆ баибхаба 9"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹായ, ഹായ! നാഹി ഭാബി,—അനിത്യ എ സബ",
+      "ജീബന ബിഗതെ കൊഥാ രഹിബെ ബൈഭബ 9"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹாய, ஹாய! நாஹி பா⁴பி³,—அநித்ய எ ஸப³",
+      "ஜீப³ன பி³க³தெ கொதா² ரஹிபெ³ பை³ப⁴ப³ 9"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hāya, hāya! nāhi bhābi,—anitya e saba",
+      "jībana bigate kothā rahibe baibhaba 9"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hāya, hāya! nāhi bhābi,—anitya e saba",
+      "jībana bigate kothā rahibe baibhaba 9"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 10,
+   "source_text_master": [
+    "śmaśāne śarīra mama paḓiyā rahibe",
+    "bihaṅga[FLAG_HYPHEN_ALPHA]pataṅga tāya bihāra karibe 10"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "My body will lie in the crematorium, and vultures and insects will sport there."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śmaśāne",
+       "in the crematorium"
+      ],
+      [
+       "śarīra",
+       "body"
+      ],
+      [
+       "mama",
+       "my"
+      ],
+      [
+       "paḓiyā",
+       "having lied"
+      ],
+      [
+       "rahibe",
+       "will remain"
+      ],
+      [
+       "bihaṅga",
+       "birds"
+      ],
+      [
+       "pataṅga",
+       "insects"
+      ],
+      [
+       "tāya",
+       "there"
+      ],
+      [
+       "bihāra karibe",
+       "will sport"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "श्मशानॆ",
+       "in the crematorium"
+      ],
+      [
+       "शरीर",
+       "body"
+      ],
+      [
+       "मम",
+       "my"
+      ],
+      [
+       "पḓइया",
+       "having lied"
+      ],
+      [
+       "रहिबॆ",
+       "will remain"
+      ],
+      [
+       "बिहङ्ग",
+       "birds"
+      ],
+      [
+       "पतङ्ग",
+       "insects"
+      ],
+      [
+       "ताय",
+       "there"
+      ],
+      [
+       "बिहार करिबॆ",
+       "will sport"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শ্মশানে",
+       "in the crematorium"
+      ],
+      [
+       "শরীর",
+       "body"
+      ],
+      [
+       "মম",
+       "my"
+      ],
+      [
+       "পḓইয়া",
+       "having lied"
+      ],
+      [
+       "রহিবে",
+       "will remain"
+      ],
+      [
+       "বিহঙ্গ",
+       "birds"
+      ],
+      [
+       "পতঙ্গ",
+       "insects"
+      ],
+      [
+       "তায়",
+       "there"
+      ],
+      [
+       "বিহার করিবে",
+       "will sport"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શ્મશાને",
+       "in the crematorium"
+      ],
+      [
+       "શરીર",
+       "body"
+      ],
+      [
+       "મમ",
+       "my"
+      ],
+      [
+       "પḓઇયા",
+       "having lied"
+      ],
+      [
+       "રહિબે",
+       "will remain"
+      ],
+      [
+       "બિહઙ્ગ",
+       "birds"
+      ],
+      [
+       "પતઙ્ગ",
+       "insects"
+      ],
+      [
+       "તાય",
+       "there"
+      ],
+      [
+       "બિહાર કરિબે",
+       "will sport"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्मशानॆ शरीर मम पḓइया रहिबॆ",
+      "बिहङ्गपतङ्ग ताय बिहार करिबॆ १०"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্মশানে শরীর মম পḓইয়া রহিবে",
+      "বিহঙ্গপতঙ্গ তায় বিহার করিবে ১০"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ମଶାନେ ଶରୀର ମମ ପḓଇୟା ରହିବେ",
+      "ବିହଙ୍ଗପତଙ୍ଗ ତାୟ ବିହାର କରିବେ ୧୦"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્મશાને શરીર મમ પḓઇયા રહિબે",
+      "બિહઙ્ગપતઙ્ગ તાય બિહાર કરિબે ૧૦"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śmaśāne śarīra mama paḓiyā rahibe",
+      "bihaṅga-pataṅga tāya bihāra karibe 10"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ಮಶಾನೆ ಶರೀರ ಮಮ ಪḓಇಯಾ ರಹಿಬೆ",
+      "ಬಿಹಂಗಪತಂಗ ತಾಯ ಬಿಹಾರ ಕರಿಬೆ ೧೦"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్మశానె శరీర మమ పḓఇయా రహిబె",
+      "బిహంగపతంగ తాయ బిహార కరిబె 10"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́маш́а̄нэ̆ ш́арӣра мама паḓийа̄ рахибэ̆",
+      "бихан̇гапатан̇га та̄йа биха̄ра карибэ̆ 10"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്മശാനെ ശരീര മമ പḓഇയാ രഹിബെ",
+      "ബിഹംഗപതംഗ തായ ബിഹാര കരിബെ 10"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்மஶானெ ஶரீர மம பḓஇயா ரஹிபெ³",
+      "பி³ஹங்க³பதங்க³ தாய பி³ஹார கரிபெ³ 10"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śmaśāne śarīra mama paḍiyā rahibe",
+      "bihaṅga-pataṅga tāya bihāra karibe 10"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śmaśāne śarīra mama paḓiyā rahibe",
+      "bihaṅga-pataṅga tāya bihāra karibe 10"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 11,
+   "source_text_master": [
+    "kukkura[FLAG_HYPHEN_ALPHA]śṛgāla saba ānandita ha’ye",
+    "mahotsaba karibe āmāra deha la’ye 11"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "All the dogs and jackals will happily partake of a huge feast—my body."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "kukkura",
+       "dogs"
+      ],
+      [
+       "śṛgāla",
+       "jackals"
+      ],
+      [
+       "saba",
+       "all"
+      ],
+      [
+       "ānandita ha’ye",
+       "happily"
+      ],
+      [
+       "mahotsaba",
+       "festival"
+      ],
+      [
+       "karibe",
+       "will do"
+      ],
+      [
+       "āmāra",
+       "my"
+      ],
+      [
+       "deha",
+       "body"
+      ],
+      [
+       "la’ye",
+       "having taken"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "कुक्कुर",
+       "dogs"
+      ],
+      [
+       "श्ड़्गाल",
+       "jackals"
+      ],
+      [
+       "सब",
+       "all"
+      ],
+      [
+       "आनन्दित हऽयॆ",
+       "happily"
+      ],
+      [
+       "महॊत्सब",
+       "festival"
+      ],
+      [
+       "करिबॆ",
+       "will do"
+      ],
+      [
+       "आमार",
+       "my"
+      ],
+      [
+       "दॆह",
+       "body"
+      ],
+      [
+       "लऽयॆ",
+       "having taken"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "কুক্কুর",
+       "dogs"
+      ],
+      [
+       "শ্ড়্গাল",
+       "jackals"
+      ],
+      [
+       "সব",
+       "all"
+      ],
+      [
+       "আনন্দিত হঽয়ে",
+       "happily"
+      ],
+      [
+       "মহোৎসব",
+       "festival"
+      ],
+      [
+       "করিবে",
+       "will do"
+      ],
+      [
+       "আমার",
+       "my"
+      ],
+      [
+       "দেহ",
+       "body"
+      ],
+      [
+       "লঽয়ে",
+       "having taken"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "કુક્કુર",
+       "dogs"
+      ],
+      [
+       "શ્ડ઼્ગાલ",
+       "jackals"
+      ],
+      [
+       "સબ",
+       "all"
+      ],
+      [
+       "આનન્દિત હઽયે",
+       "happily"
+      ],
+      [
+       "મહોત્સબ",
+       "festival"
+      ],
+      [
+       "કરિબે",
+       "will do"
+      ],
+      [
+       "આમાર",
+       "my"
+      ],
+      [
+       "દેહ",
+       "body"
+      ],
+      [
+       "લઽયે",
+       "having taken"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कुक्कुरश्ड़्गाल सब आनन्दित हऽयॆ",
+      "महॊत्सब करिबॆ आमार दॆह लऽयॆ ११"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কুক্কুরশ্ড়্গাল সব আনন্দিত হঽয়ে",
+      "মহোৎসব করিবে আমার দেহ লঽয়ে ১১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କୁକ୍କୁରଶ୍ଡ଼୍ଗାଲ ସବ ଆନନ୍ଦିତ ହଽୟେ",
+      "ମହୋତ୍ସବ କରିବେ ଆମାର ଦେହ ଲଽୟେ ୧୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કુક્કુરશ્ડ઼્ગાલ સબ આનન્દિત હઽયે",
+      "મહોત્સબ કરિબે આમાર દેહ લઽયે ૧૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kukkura-śṛgāla saba ānandita ha’ye",
+      "mahotsaba karibe āmāra deha la’ye 11"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕುಕ್ಕುರಶ್‌ಡ಼್ಗಾಲ ಸಬ ಆನಂದಿತ ಹಽಯೆ",
+      "ಮಹೊತ್ಸಬ ಕರಿಬೆ ಆಮಾರ ದೆಹ ಲಽಯೆ ೧೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కుక్కురశ్డ్గాల సబ ఆనందిత హఽయె",
+      "మహొత్సబ కరిబె ఆమార దెహ లఽయె 11"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "куккураш́р̤га̄ла саба а̄нандита ха'йэ̆",
+      "махо̆тсаба карибэ̆ а̄ма̄ра дэ̆ха ла'йэ̆ 11"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കുക്കുരശ്ഡ്ഗാല സബ ആനന്ദിത ഹഽയെ",
+      "മഹൊത്സബ കരിബെ ആമാര ദെഹ ലഽയെ 11"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "குக்குரஶ்ஃட்²கா³ல ஸப³ ஆனந்தி³த ஹ(அ)யெ",
+      "மஹொத்ஸப³ கரிபெ³ ஆமார தெ³ஹ ல(அ)யெ 11"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kukkura-śṛgāla saba ānandita ha’ye",
+      "mahotsaba karibe āmāra deha la’ye 11"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kukkura-śṛgāla saba ānandita ha’ye",
+      "mahotsaba karibe āmāra deha la’ye 11"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 12,
+   "source_text_master": [
+    "ye dehera ei gati, tā’ra anugata",
+    "saṁsāra[FLAG_HYPHEN_ALPHA]baibhaba āra bandhujana yata 12"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Such is the destination of the material body and all the worldly opulences, friends [and family] that follow it."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ye",
+       "that"
+      ],
+      [
+       "dehera",
+       "of body"
+      ],
+      [
+       "ei",
+       "this"
+      ],
+      [
+       "gati",
+       "destination"
+      ],
+      [
+       "tā’ra",
+       "of it"
+      ],
+      [
+       "anugata",
+       "follows"
+      ],
+      [
+       "saṁsāra",
+       "worldly"
+      ],
+      [
+       "baibhaba",
+       "opulences"
+      ],
+      [
+       "āra",
+       "and"
+      ],
+      [
+       "bandhujana",
+       "friends"
+      ],
+      [
+       "yata",
+       "whatever"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "यॆ",
+       "that"
+      ],
+      [
+       "दॆहॆर",
+       "of body"
+      ],
+      [
+       "ऎइ",
+       "this"
+      ],
+      [
+       "गति",
+       "destination"
+      ],
+      [
+       "ताऽर",
+       "of it"
+      ],
+      [
+       "अनुगत",
+       "follows"
+      ],
+      [
+       "संसार",
+       "worldly"
+      ],
+      [
+       "बैभब",
+       "opulences"
+      ],
+      [
+       "आर",
+       "and"
+      ],
+      [
+       "बन्धुजन",
+       "friends"
+      ],
+      [
+       "यत",
+       "whatever"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "যে",
+       "that"
+      ],
+      [
+       "দেহের",
+       "of body"
+      ],
+      [
+       "এই",
+       "this"
+      ],
+      [
+       "গতি",
+       "destination"
+      ],
+      [
+       "তাঽর",
+       "of it"
+      ],
+      [
+       "অনুগত",
+       "follows"
+      ],
+      [
+       "সংসার",
+       "worldly"
+      ],
+      [
+       "বৈভব",
+       "opulences"
+      ],
+      [
+       "আর",
+       "and"
+      ],
+      [
+       "বন্ধুজন",
+       "friends"
+      ],
+      [
+       "যত",
+       "whatever"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "યે",
+       "that"
+      ],
+      [
+       "દેહેર",
+       "of body"
+      ],
+      [
+       "એઇ",
+       "this"
+      ],
+      [
+       "ગતિ",
+       "destination"
+      ],
+      [
+       "તાઽર",
+       "of it"
+      ],
+      [
+       "અનુગત",
+       "follows"
+      ],
+      [
+       "સંસાર",
+       "worldly"
+      ],
+      [
+       "બૈભબ",
+       "opulences"
+      ],
+      [
+       "આર",
+       "and"
+      ],
+      [
+       "બન્ધુજન",
+       "friends"
+      ],
+      [
+       "યત",
+       "whatever"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "यॆ दॆहॆर ऎइ गति, ताऽर अनुगत",
+      "संसारबैभब आर बन्धुजन यत १२"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "যে দেহের এই গতি, তাঽর অনুগত",
+      "সংসারবৈভব আর বন্ধুজন যত ১২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଯେ ଦେହେର ଏଇ ଗତି, ତାଽର ଅନୁଗତ",
+      "ସଂସାରବୈଭବ ଆର ବନ୍ଧୁଜନ ଯତ ୧୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "યે દેહેર એઇ ગતિ, તાઽર અનુગત",
+      "સંસારબૈભબ આર બન્ધુજન યત ૧૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ye dehera ei gati, tā’ra anugata",
+      "saṁsāra-baibhaba āra bandhujana yata 12"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಯೆ ದೆಹೆರ ಎಇ ಗತಿ, ತಾಽರ ಅನುಗತ",
+      "ಸಂಸಾರಬೈಭಬ ಆರ ಬಂಧುಜನ ಯತ ೧೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "యె దెహెర ఎఇ గతి, తాఽర అనుగత",
+      "సంసారబైభబ ఆర బంధుజన యత 12"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "йэ̆ дэ̆хэ̆ра э̆и гати, та̄'ра анугата",
+      "сам̣са̄рабаибхаба а̄ра бандхуджана йата 12"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "യെ ദെഹെര എഇ ഗതി, താഽര അനുഗത",
+      "സംസാരബൈഭബ ആര ബന്ധുജന യത 12"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "யெ தெ³ஹெர எஇ க³தி, தா(அ)ர அனுக³த",
+      "ஸம்ʼஸாரபை³ப⁴ப³ ஆர ப³ந்து⁴ஜன யத 12"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ye dehera ei gati, tā’ra anugata",
+      "saṁsāra-baibhaba āra bandhujana yata 12"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ye dehera ei gati, tā’ra anugata",
+      "saṁsāra-baibhaba āra bandhujana yata 12"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 13,
+   "source_text_master": [
+    "ataeba māyāmoha chāḓi’ buddhimān",
+    "nityatattba kṛṣṇabhakti karuna sandhāna 13"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Therefore, those who are intelligent give up their infatuation with illusion and pursue the eternal truth of kṛṣṇa-bhakti."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ataeba",
+       "therefore"
+      ],
+      [
+       "māyāmoha",
+       "with illusion + infatuation"
+      ],
+      [
+       "chāḓi’",
+       "having given up"
+      ],
+      [
+       "buddhimān",
+       "intelligent"
+      ],
+      [
+       "nityatattba",
+       "eternal + truth"
+      ],
+      [
+       "kṛṣṇabhakti",
+       "devotion to Kṛṣṇa"
+      ],
+      [
+       "karuna",
+       "do"
+      ],
+      [
+       "sandhāna",
+       " pursue, search, quest"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "अतऎब",
+       "therefore"
+      ],
+      [
+       "मायामॊह",
+       "with illusion + infatuation"
+      ],
+      [
+       "छाḓइऽ",
+       "having given up"
+      ],
+      [
+       "बुद्धिमान्",
+       "intelligent"
+      ],
+      [
+       "नित्यतत्त्ब",
+       "eternal + truth"
+      ],
+      [
+       "क्ड़्ष्णभक्ति",
+       "devotion to Kṛṣṇa"
+      ],
+      [
+       "करुन",
+       "do"
+      ],
+      [
+       "सन्धान",
+       " pursue, search, quest"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "অতএব",
+       "therefore"
+      ],
+      [
+       "মায়ামোহ",
+       "with illusion + infatuation"
+      ],
+      [
+       "ছাḓইঽ",
+       "having given up"
+      ],
+      [
+       "বুদ্ধিমান্",
+       "intelligent"
+      ],
+      [
+       "নিত্যতত্ত্ব",
+       "eternal + truth"
+      ],
+      [
+       "ক্ড়্ষ্ণভক্তি",
+       "devotion to Kṛṣṇa"
+      ],
+      [
+       "করুন",
+       "do"
+      ],
+      [
+       "সন্ধান",
+       " pursue, search, quest"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "અતએબ",
+       "therefore"
+      ],
+      [
+       "માયામોહ",
+       "with illusion + infatuation"
+      ],
+      [
+       "છાḓઇઽ",
+       "having given up"
+      ],
+      [
+       "બુદ્ધિમાન્",
+       "intelligent"
+      ],
+      [
+       "નિત્યતત્ત્બ",
+       "eternal + truth"
+      ],
+      [
+       "ક્ડ઼્ષ્ણભક્તિ",
+       "devotion to Kṛṣṇa"
+      ],
+      [
+       "કરુન",
+       "do"
+      ],
+      [
+       "સન્ધાન",
+       " pursue, search, quest"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अतऎब मायामॊह छाḓइऽ बुद्धिमान्",
+      "नित्यतत्त्ब क्ड़्ष्णभक्ति करुन सन्धान १३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অতএব মায়ামোহ ছাḓইঽ বুদ্ধিমান্",
+      "নিত্যতত্ত্ব ক্ড়্ষ্ণভক্তি করুন সন্ধান ১৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅତଏବ ମାୟାମୋହ ଛାḓଇଽ ବୁଦ୍ଧିମାନ୍",
+      "ନିତ୍ୟତତ୍ତ୍ବ କ୍ଡ଼୍ଷ୍ଣଭକ୍ତି କରୁନ ସନ୍ଧାନ ୧୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અતએબ માયામોહ છાḓઇઽ બુદ્ધિમાન્",
+      "નિત્યતત્ત્બ ક્ડ઼્ષ્ણભક્તિ કરુન સન્ધાન ૧૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ataeba māyāmoha chāḓi’ buddhimān",
+      "nityatattba kṛṣṇabhakti karuna sandhāna 13"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅತಎಬ ಮಾಯಾಮೊಹ ಛಾḓಇಽ ಬುದ್ಧಿಮಾನ್",
+      "ನಿತ್ಯತತ್ತ್ಬ ಕ್‌ಡ಼್ಷ್ಣಭಕ್ತಿ ಕರುನ ಸಂಧಾನ ೧೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అతఎబ మాయామొహ ఛాḓఇఽ బుద్ధిమాన్",
+      "నిత్యతత్త్బ క్డ్ష్ణభక్తి కరున సంధాన 13"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "атаэ̆ба ма̄йа̄мо̆ха чха̄ḓи' буддхима̄н",
+      "нитйататтба кр̤шн̣абхакти каруна сандха̄на 13"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അതഎബ മായാമൊഹ ഛാḓഇഽ ബുദ്ധിമാൻ",
+      "നിത്യതത്ത്ബ ക്ഡ്ഷ്ണഭക്തി കരുന സന്ധാന 13"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அதஎப³ மாயாமொஹ சா²ḓஇ(அ) பு³த்³தி⁴மான்",
+      "நித்யதத்த்ப³ க்ஃட்²ஷ்ணப⁴க்தி கருன ஸந்தா⁴ன 13"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ataeba māyāmoha chāḍi’ buddhimān",
+      "nityatattba kṛṣṇabhakti karuna sandhāna 13"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ataeba māyāmoha chāḓi’ buddhimān",
+      "nityatattba kṛṣṇabhakti karuna sandhāna 13"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Nirveda",
+  "Upalabdhi from Kalyāṇa-kalpataru"
+ ]
+}

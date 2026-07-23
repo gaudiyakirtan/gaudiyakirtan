@@ -1,202 +1,172 @@
-import React, { useState, useMemo } from 'react'
+import React, { useEffect, useMemo, useState } from 'react'
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
+import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { IExtendedSong } from '../../models/Song'
+import { ISongListing, sectionLetterFor } from '../../services/songListingView'
+import { getSongListings } from '../../services/songListing'
 import { SongListItem } from '../../components/SongListItem'
-import { sampleSongs } from '../../data/sampleData'
-import { MusicNote } from '../../components/icons/MusicNote'
+import { SongCard } from '../../components/SongCard'
+import { AlphabeticalScrollBar } from '../../components/AlphabeticalScrollBar'
 
 interface SongsPageProps {
-  songs: IExtendedSong[]
+  songs: ISongListing[]
 }
 
-type SortField = 'title' | 'author' | 'uid' | 'language' | 'audio'
-type SortDirection = 'asc' | 'desc'
+type ViewMode = 'list' | 'grid'
+
+const ALPHABET = '#ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
 
 const SongsPage: React.FC<SongsPageProps> = ({ songs }) => {
   const router = useRouter()
-  const [language, setLanguage] = useState('en')
-  const [sortField, setSortField] = useState<SortField>('title')
-  const [sortDirection, setSortDirection] = useState<SortDirection>('asc')
-  const [searchTerm, setSearchTerm] = useState('')
+  const [viewMode, setViewMode] = useState<ViewMode>('list')
 
-  // Get available languages from songs
-  const availableLanguages = useMemo(() => {
-    const languages = new Set<string>()
-    songs.forEach(song => {
-      song.title.forEach(title => languages.add(title.language))
-    })
-    return Array.from(languages)
-  }, [songs])
+  // Author-filtered variant: /songs?author=<uid> (the target of song-detail's author-tap).
+  const authorFilter = typeof router.query.author === 'string' ? router.query.author : undefined
+  // Tag- / reciter-filtered variants: /songs?tag=<tag> and /songs?artist=<reciter> (targets of tag /
+  // reciter hits in the search palette). Each entity→uids map is fetched once from its build-time
+  // index (tag-index.json / artist-index.json).
+  const tagFilter = typeof router.query.tag === 'string' ? router.query.tag : undefined
+  const artistFilter = typeof router.query.artist === 'string' ? router.query.artist : undefined
+  const [filterUids, setFilterUids] = useState<Set<string> | null>(null)
+  useEffect(() => {
+    const key = tagFilter ?? artistFilter
+    const file = tagFilter ? '/tag-index.json' : artistFilter ? '/artist-index.json' : null
+    if (!key || !file) return
+    setFilterUids(null)
+    fetch(file)
+      .then((r) => r.json())
+      .then((m: Record<string, string[]>) => setFilterUids(new Set(m[key] ?? [])))
+      .catch(() => setFilterUids(new Set()))
+  }, [tagFilter, artistFilter])
 
-  // Filter and sort songs
-  const filteredAndSortedSongs = useMemo(() => {
-    // First filter by search term
-    let filteredSongs = [...songs]
-    if (searchTerm) {
-      const lowerSearchTerm = searchTerm.toLowerCase()
-      filteredSongs = filteredSongs.filter(song => {
-        const title = song.title.find(t => t.language === language)?.title || song.title[0].title
-        const author = song.author?.find(a => a.language === language)?.author || (song.author && song.author.length > 0 ? song.author[0].author : '')
-        const tags = song.tags.join(' ')
-        
-        return (
-          title.toLowerCase().includes(lowerSearchTerm) ||
-          author.toLowerCase().includes(lowerSearchTerm) ||
-          song.uid.toLowerCase().includes(lowerSearchTerm) ||
-          tags.toLowerCase().includes(lowerSearchTerm)
-        )
-      })
+  const filtered = useMemo(() => {
+    if (authorFilter) return songs.filter((s) => s.authorUid === authorFilter)
+    if (tagFilter || artistFilter) return filterUids ? songs.filter((s) => filterUids.has(s.uid)) : []
+    return songs
+  }, [songs, authorFilter, tagFilter, artistFilter, filterUids])
+
+  const authorName = authorFilter ? (filtered[0]?.authorName ?? authorFilter) : undefined
+  const heading = authorName ?? tagFilter ?? artistFilter ?? 'Songs'
+  const isFiltered = !!(authorFilter || tagFilter || artistFilter)
+
+  // Group by A–Z section, sorted by the stable Latin primary_title so switching listLanguage
+  // never reshuffles the index (docs/screens/songs-list.md).
+  const sections = useMemo(() => {
+    const sorted = [...filtered].sort((a, b) => a.title.localeCompare(b.title))
+    const byLetter = new Map<string, ISongListing[]>()
+    for (const listing of sorted) {
+      const letter = sectionLetterFor(listing)
+      const bucket = byLetter.get(letter)
+      if (bucket) bucket.push(listing)
+      else byLetter.set(letter, [listing])
     }
-    
-    // Then sort
-    return filteredSongs.sort((a, b) => {
-      let valueA: string | boolean = ''
-      let valueB: string | boolean = ''
-      
-      switch (sortField) {
-        case 'title':
-          valueA = a.title.find(t => t.language === language)?.title || a.title[0].title
-          valueB = b.title.find(t => t.language === language)?.title || b.title[0].title
-          break
-        case 'author':
-          valueA = a.author?.find(a => a.language === language)?.author || (a.author && a.author.length > 0 ? a.author[0].author : '')
-          valueB = b.author?.find(a => a.language === language)?.author || (b.author && b.author.length > 0 ? b.author[0].author : '')
-          break
-        case 'uid':
-          valueA = a.uid
-          valueB = b.uid
-          break
-        case 'audio':
-          valueA = a.audio || false
-          valueB = b.audio || false
-          break
-        default:
-          valueA = a.title.find(t => t.language === language)?.title || a.title[0].title
-          valueB = b.title.find(t => t.language === language)?.title || b.title[0].title
-      }
-      
-      // For string values
-      if (typeof valueA === 'string' && typeof valueB === 'string') {
-        const comparison = valueA.localeCompare(valueB)
-        return sortDirection === 'asc' ? comparison : -comparison
-      }
-      
-      // For boolean values
-      if (typeof valueA === 'boolean' && typeof valueB === 'boolean') {
-        const comparison = valueA === valueB ? 0 : valueA ? -1 : 1
-        return sortDirection === 'asc' ? comparison : -comparison
-      }
-      
-      return 0
-    })
-  }, [songs, sortField, sortDirection, language, searchTerm])
+    return [...byLetter.entries()].sort(([a], [b]) => a.localeCompare(b))
+  }, [filtered])
 
-  const handleSongClick = (song: IExtendedSong) => {
-    router.push(`/songs/${song.id}`)
+  const activeLetters = useMemo(() => new Set(sections.map(([letter]) => letter)), [sections])
+
+  const handleSongClick = (song: ISongListing) => {
+    router.push(`/songs/${song.uid}`)
   }
 
-  const handleSort = (field: SortField) => {
-    if (field === sortField) {
-      // Toggle direction if same field
-      setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc')
-    } else {
-      // Set new field and reset direction
-      setSortField(field)
-      setSortDirection('asc')
-    }
-  }
-
-  const getSortIcon = (field: SortField) => {
-    if (field !== sortField) return null
-    
-    return sortDirection === 'asc' 
-      ? <span className="ml-1">↑</span> 
-      : <span className="ml-1">↓</span>
+  const jumpToLetter = (letter: string) => {
+    document
+      .getElementById(`section-${letter}`)
+      ?.scrollIntoView({ behavior: 'smooth', block: 'start' })
   }
 
   return (
     <>
       <Head>
-        <title>Songs Library - Gaudiya Kirtan</title>
+        <title>{isFiltered ? `${heading} - Gaudiya Kirtan` : 'Songs Library - Gaudiya Kirtan'}</title>
         <meta name="description" content="Browse the complete collection of Gaudiya Vaishnava songs" />
       </Head>
 
-      <div className="w-full max-w-screen-lg pb-12 mx-auto">
+      <div className="w-full max-w-screen-lg pb-12 pr-6 mx-auto">
         {/* Header */}
-        <div className="flex flex-wrap items-center px-4 py-4 mb-4 gap-y-2">
-          <h1 className="text-xl font-bold text-[var(--primary)]">Songs</h1>
+        <div className="flex flex-wrap items-center justify-between px-4 py-4 mb-2 gap-y-2">
+          <div className="flex items-baseline gap-3">
+            <h1 className="text-xl font-bold text-[var(--primary)]">{heading}</h1>
+            <span className="text-sm text-[var(--neutral)]">{filtered.length} songs</span>
+            {isFiltered && (
+              <Link href="/songs" className="text-sm text-[var(--highlight)] hover:underline">
+                All songs
+              </Link>
+            )}
+          </div>
+
+          {/* Presentation toggle: flat list (default) / card grid */}
+          <div className="flex items-center gap-1 text-xs">
+            <button
+              type="button"
+              onClick={() => setViewMode('list')}
+              className={`px-3 py-1 rounded-full font-medium transition-colors ${
+                viewMode === 'list'
+                  ? 'bg-[var(--highlight)] text-[var(--on-highlight)]'
+                  : 'bg-[var(--background-offset)] text-[var(--neutral)] hover:text-[var(--primary)]'
+              }`}
+            >
+              List
+            </button>
+            <button
+              type="button"
+              onClick={() => setViewMode('grid')}
+              className={`px-3 py-1 rounded-full font-medium transition-colors ${
+                viewMode === 'grid'
+                  ? 'bg-[var(--highlight)] text-[var(--on-highlight)]'
+                  : 'bg-[var(--background-offset)] text-[var(--neutral)] hover:text-[var(--primary)]'
+              }`}
+            >
+              Grid
+            </button>
+          </div>
         </div>
 
-        {/* Table view */}
-        <div className="px-4 overflow-x-auto">
-          <table className="w-full border-collapse">
-            <thead>
-              <tr className="border-b border-[var(--border)]">
-                <th className="py-3 text-left">
-                  <button 
-                    className="flex items-center font-semibold text-[var(--primary)]"
-                    onClick={() => handleSort('title')}
-                  >
-                    Title {getSortIcon('title')}
-                  </button>
-                </th>
-                <th className="py-3 text-left">
-                  <button 
-                    className="flex items-center font-semibold text-[var(--primary)]"
-                    onClick={() => handleSort('author')}
-                  >
-                    Author {getSortIcon('author')}
-                  </button>
-                </th>
-                <th className="py-3 text-left">
-                  <button 
-                    className="flex items-center font-semibold text-[var(--primary)]"
-                    onClick={() => handleSort('uid')}
-                  >
-                    Song Code {getSortIcon('uid')}
-                  </button>
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              {filteredAndSortedSongs.map(song => {
-                const displayTitle = song.title.find(t => t.language === language)?.title || song.title[0].title
-                const displayAuthor = song.author?.find(a => a.language === language)?.author || 
-                  (song.author && song.author.length > 0 ? song.author[0].author : 'Unknown')
-                
-                return (
-                  <tr 
-                    key={song.id}
-                    className="border-b border-[var(--border)] cursor-pointer hover:bg-[var(--background-offset)] transition-colors"
-                    onClick={() => handleSongClick(song)}
-                  >
-                    <td className="py-3 font-medium text-[var(--primary)]">{displayTitle}</td>
-                    <td className="py-3 text-[var(--neutral)]">{displayAuthor}</td>
-                    <td className="py-3">
-                      <span className="px-2 py-0.5 rounded-md text-xs bg-[var(--neutral)]/20 text-[var(--neutral)]">
-                        {song.uid}
-                      </span>
-                    </td>
-                  </tr>
-                )
-              })}
-            </tbody>
-          </table>
-        </div>
+        {/* Empty state (only reachable via a filter with no matches) */}
+        {filtered.length === 0 ? (
+          <div className="px-4 py-16 text-center text-[var(--neutral)]">
+            {(tagFilter || artistFilter) && !filterUids ? 'Loading…' : 'No songs found.'}
+          </div>
+        ) : (
+          <div className="px-4">
+            {sections.map(([letter, listings]) => (
+              <section key={letter} id={`section-${letter}`} className="mb-6 scroll-mt-16">
+                <h2 className="text-sm font-bold text-[var(--highlight)] mb-2 sticky top-12 bg-[var(--background)] py-1">
+                  {letter}
+                </h2>
+                {viewMode === 'grid' ? (
+                  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+                    {listings.map((song) => (
+                      <SongCard key={song.uid} song={song} onClick={() => handleSongClick(song)} />
+                    ))}
+                  </div>
+                ) : (
+                  <div className="space-y-1">
+                    {listings.map((song) => (
+                      <SongListItem key={song.uid} song={song} onClick={() => handleSongClick(song)} />
+                    ))}
+                  </div>
+                )}
+              </section>
+            ))}
+          </div>
+        )}
       </div>
+
+      {/* A–Z index scrubber (hidden while filtered - too few songs to index) */}
+      {!isFiltered && filtered.length > 0 && (
+        <AlphabeticalScrollBar letters={ALPHABET} active={activeLetters} onJump={jumpToLetter} />
+      )}
     </>
   )
 }
 
-export const getStaticProps: GetStaticProps = async () => {
-  // In a real app, fetch songs from an API
+export const getStaticProps: GetStaticProps<SongsPageProps> = async () => {
   return {
     props: {
-      songs: sampleSongs
+      songs: getSongListings(),
     },
-    revalidate: 60 * 60 // Revalidate every hour
   }
 }
 

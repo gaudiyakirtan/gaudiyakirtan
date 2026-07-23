@@ -1,0 +1,1902 @@
+{
+ "uid": "NM15",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "সই, কেবা শুনাইল শ্যাম-নাম"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "sa·i, kebā śunāila śyāma-nāma"
+  }
+ ],
+ "author_uid": "শ্রীচণ্ডীদাস",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীচণ্ডীদাস"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrī Caṇḍīdāsa"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "sa·i, kebā śunāila śyāma[FLAG_HYPHEN_ALPHA]nāma",
+    "kānera bhitara diyā,    marame paśila go,",
+    "ākula karila mora prāṇa 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O my dear sakhī, who has made me hear the name 'Śyāma'? Entering my heart through my ears, this name agitates my soul."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "sa·i",
+       "O my dear friend"
+      ],
+      [
+       "kebā",
+       "who"
+      ],
+      [
+       "śunāila",
+       "made hear"
+      ],
+      [
+       "śyāma",
+       "Śyāma"
+      ],
+      [
+       "nāma",
+       "name"
+      ],
+      [
+       "kānera",
+       "ear’s"
+      ],
+      [
+       "bhitara",
+       "inside"
+      ],
+      [
+       "diyā",
+       "having given"
+      ],
+      [
+       "marame",
+       "into the heart"
+      ],
+      [
+       "paśila",
+       "entered"
+      ],
+      [
+       "go",
+       "oh"
+      ],
+      [
+       "ākula",
+       "anxious, restless"
+      ],
+      [
+       "karila",
+       "made"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "prāṇa",
+       "heart, soul"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "सइ",
+       "O my dear friend"
+      ],
+      [
+       "कॆबा",
+       "who"
+      ],
+      [
+       "शुनाइल",
+       "made hear"
+      ],
+      [
+       "श्याम",
+       "Śyāma"
+      ],
+      [
+       "नाम",
+       "name"
+      ],
+      [
+       "कानॆर",
+       "ear’s"
+      ],
+      [
+       "भितर",
+       "inside"
+      ],
+      [
+       "दिया",
+       "having given"
+      ],
+      [
+       "मरमॆ",
+       "into the heart"
+      ],
+      [
+       "पशिल",
+       "entered"
+      ],
+      [
+       "गॊ",
+       "oh"
+      ],
+      [
+       "आकुल",
+       "anxious, restless"
+      ],
+      [
+       "करिल",
+       "made"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "प्राण",
+       "heart, soul"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "সই",
+       "O my dear friend"
+      ],
+      [
+       "কেবা",
+       "who"
+      ],
+      [
+       "শুনাইল",
+       "made hear"
+      ],
+      [
+       "শ্যাম",
+       "Śyāma"
+      ],
+      [
+       "নাম",
+       "name"
+      ],
+      [
+       "কানের",
+       "ear’s"
+      ],
+      [
+       "ভিতর",
+       "inside"
+      ],
+      [
+       "দিয়া",
+       "having given"
+      ],
+      [
+       "মরমে",
+       "into the heart"
+      ],
+      [
+       "পশিল",
+       "entered"
+      ],
+      [
+       "গো",
+       "oh"
+      ],
+      [
+       "আকুল",
+       "anxious, restless"
+      ],
+      [
+       "করিল",
+       "made"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "প্রাণ",
+       "heart, soul"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "સઇ",
+       "O my dear friend"
+      ],
+      [
+       "કેબા",
+       "who"
+      ],
+      [
+       "શુનાઇલ",
+       "made hear"
+      ],
+      [
+       "શ્યામ",
+       "Śyāma"
+      ],
+      [
+       "નામ",
+       "name"
+      ],
+      [
+       "કાનેર",
+       "ear’s"
+      ],
+      [
+       "ભિતર",
+       "inside"
+      ],
+      [
+       "દિયા",
+       "having given"
+      ],
+      [
+       "મરમે",
+       "into the heart"
+      ],
+      [
+       "પશિલ",
+       "entered"
+      ],
+      [
+       "ગો",
+       "oh"
+      ],
+      [
+       "આકુલ",
+       "anxious, restless"
+      ],
+      [
+       "કરિલ",
+       "made"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "પ્રાણ",
+       "heart, soul"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सइ, कॆबा शुनाइल श्यामनाम",
+      "कानॆर भितर दिया,    मरमॆ पशिल गॊ,",
+      "आकुल करिल मॊर प्राण १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সই, কেবা শুনাইল শ্যামনাম",
+      "কানের ভিতর দিয়া,    মরমে পশিল গো,",
+      "আকুল করিল মোর প্রাণ ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସଇ, କେବା ଶୁନାଇଲ ଶ୍ୟାମନାମ",
+      "କାନେର ଭିତର ଦିୟା,    ମରମେ ପଶିଲ ଗୋ,",
+      "ଆକୁଲ କରିଲ ମୋର ପ୍ରାଣ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સઇ, કેબા શુનાઇલ શ્યામનામ",
+      "કાનેર ભિતર દિયા,    મરમે પશિલ ગો,",
+      "આકુલ કરિલ મોર પ્રાણ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sa·i, kebā śunāila śyāma-nāma",
+      "kānera bhitara diyā,    marame paśila go,",
+      "ākula karila mora prāṇa 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸಇ, ಕೆಬಾ ಶುನಾಇಲ ಶ್ಯಾಮನಾಮ",
+      "ಕಾನೆರ ಭಿತರ ದಿಯಾ,    ಮರಮೆ ಪಶಿಲ ಗೊ,",
+      "ಆಕುಲ ಕರಿಲ ಮೊರ ಪ್ರಾಣ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సఇ, కెబా శునాఇల శ్యామనామ",
+      "కానెర భితర దియా,    మరమె పశిల గొ,",
+      "ఆకుల కరిల మొర ప్రాణ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "саи, кэ̆ба̄ ш́уна̄ила ш́йа̄мана̄ма",
+      "ка̄нэ̆ра бхитара дийа̄,    марамэ̆ паш́ила го̆,",
+      "а̄кула карила мо̆ра пра̄н̣а 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സഇ, കെബാ ശുനാഇല ശ്യാമനാമ",
+      "കാനെര ഭിതര ദിയാ,    മരമെ പശില ഗൊ,",
+      "ആകുല കരില മൊര പ്രാണ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸஇ, கெபா³ ஶுனாஇல ஶ்யாமநாம",
+      "கானெர பி⁴தர தி³யா,    மரமெ பஶில கொ³,",
+      "ஆகுல கரில மொர ப்ராண 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sa·i, kebā śunāila śyāma-nāma",
+      "kānera bhitara diyā,    marame paśila go,",
+      "ākula karila mora prāṇa 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sa·i, kebā śunāila śyāma-nāma",
+      "kānera bhitara diyā,    marame paśila go,",
+      "ākula karila mora prāṇa 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "nā jāni kateka madhu,    śyāma[FLAG_HYPHEN_ALPHA]nāme āche go,",
+    "badana chāḓite nāhi pāre",
+    "japite japite nāma,    abaśa karila go,",
+    "kemane pāiba sa·i, tāre 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "I do not know how much sweetness fills this name of Śyāma, for my tongue cannot leave it. As I go on repeating this name, I lose control of myself. O sakhī! How shall I ever be able to meet Him?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "jāni",
+       "I know"
+      ],
+      [
+       "kateka",
+       "how much"
+      ],
+      [
+       "madhu",
+       "sweetness"
+      ],
+      [
+       "śyāma",
+       "Śyāma"
+      ],
+      [
+       "nāme",
+       "in the name"
+      ],
+      [
+       "āche",
+       "there is"
+      ],
+      [
+       "go",
+       "oh"
+      ],
+      [
+       "badana",
+       "lips"
+      ],
+      [
+       "chāḓite",
+       "to leave"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "pāre",
+       "they can"
+      ],
+      [
+       "japite japite",
+       "chanting and chanting"
+      ],
+      [
+       "nāma",
+       "name"
+      ],
+      [
+       "abaśa karila",
+       "I lost control"
+      ],
+      [
+       "go",
+       "oh"
+      ],
+      [
+       "kemane",
+       "how"
+      ],
+      [
+       "pāiba",
+       "I will get"
+      ],
+      [
+       "sa·i",
+       "O friend"
+      ],
+      [
+       "tāre",
+       "to Him"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "जानि",
+       "I know"
+      ],
+      [
+       "कतॆक",
+       "how much"
+      ],
+      [
+       "मधु",
+       "sweetness"
+      ],
+      [
+       "श्याम",
+       "Śyāma"
+      ],
+      [
+       "नामॆ",
+       "in the name"
+      ],
+      [
+       "आछॆ",
+       "there is"
+      ],
+      [
+       "गॊ",
+       "oh"
+      ],
+      [
+       "बदन",
+       "lips"
+      ],
+      [
+       "छाḓइतॆ",
+       "to leave"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "पारॆ",
+       "they can"
+      ],
+      [
+       "जपितॆ जपितॆ",
+       "chanting and chanting"
+      ],
+      [
+       "नाम",
+       "name"
+      ],
+      [
+       "अबश करिल",
+       "I lost control"
+      ],
+      [
+       "गॊ",
+       "oh"
+      ],
+      [
+       "कॆमनॆ",
+       "how"
+      ],
+      [
+       "पाइब",
+       "I will get"
+      ],
+      [
+       "सइ",
+       "O friend"
+      ],
+      [
+       "तारॆ",
+       "to Him"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "না",
+       "not"
+      ],
+      [
+       "জানি",
+       "I know"
+      ],
+      [
+       "কতেক",
+       "how much"
+      ],
+      [
+       "মধু",
+       "sweetness"
+      ],
+      [
+       "শ্যাম",
+       "Śyāma"
+      ],
+      [
+       "নামে",
+       "in the name"
+      ],
+      [
+       "আছে",
+       "there is"
+      ],
+      [
+       "গো",
+       "oh"
+      ],
+      [
+       "বদন",
+       "lips"
+      ],
+      [
+       "ছাḓইতে",
+       "to leave"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "পারে",
+       "they can"
+      ],
+      [
+       "জপিতে জপিতে",
+       "chanting and chanting"
+      ],
+      [
+       "নাম",
+       "name"
+      ],
+      [
+       "অবশ করিল",
+       "I lost control"
+      ],
+      [
+       "গো",
+       "oh"
+      ],
+      [
+       "কেমনে",
+       "how"
+      ],
+      [
+       "পাইব",
+       "I will get"
+      ],
+      [
+       "সই",
+       "O friend"
+      ],
+      [
+       "তারে",
+       "to Him"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "જાનિ",
+       "I know"
+      ],
+      [
+       "કતેક",
+       "how much"
+      ],
+      [
+       "મધુ",
+       "sweetness"
+      ],
+      [
+       "શ્યામ",
+       "Śyāma"
+      ],
+      [
+       "નામે",
+       "in the name"
+      ],
+      [
+       "આછે",
+       "there is"
+      ],
+      [
+       "ગો",
+       "oh"
+      ],
+      [
+       "બદન",
+       "lips"
+      ],
+      [
+       "છાḓઇતે",
+       "to leave"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "પારે",
+       "they can"
+      ],
+      [
+       "જપિતે જપિતે",
+       "chanting and chanting"
+      ],
+      [
+       "નામ",
+       "name"
+      ],
+      [
+       "અબશ કરિલ",
+       "I lost control"
+      ],
+      [
+       "ગો",
+       "oh"
+      ],
+      [
+       "કેમને",
+       "how"
+      ],
+      [
+       "પાઇબ",
+       "I will get"
+      ],
+      [
+       "સઇ",
+       "O friend"
+      ],
+      [
+       "તારે",
+       "to Him"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ना जानि कतॆक मधु,    श्यामनामॆ आछॆ गॊ,",
+      "बदन छाḓइतॆ नाहि पारॆ",
+      "जपितॆ जपितॆ नाम,    अबश करिल गॊ,",
+      "कॆमनॆ पाइब सइ, तारॆ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "না জানি কতেক মধু,    শ্যামনামে আছে গো,",
+      "বদন ছাḓইতে নাহি পারে",
+      "জপিতে জপিতে নাম,    অবশ করিল গো,",
+      "কেমনে পাইব সই, তারে ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନା ଜାନି କତେକ ମଧୁ,    ଶ୍ୟାମନାମେ ଆଛେ ଗୋ,",
+      "ବଦନ ଛାḓଇତେ ନାହି ପାରେ",
+      "ଜପିତେ ଜପିତେ ନାମ,    ଅବଶ କରିଲ ଗୋ,",
+      "କେମନେ ପାଇବ ସଇ, ତାରେ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ના જાનિ કતેક મધુ,    શ્યામનામે આછે ગો,",
+      "બદન છાḓઇતે નાહિ પારે",
+      "જપિતે જપિતે નામ,    અબશ કરિલ ગો,",
+      "કેમને પાઇબ સઇ, તારે ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nā jāni kateka madhu,    śyāma-nāme āche go,",
+      "badana chāḓite nāhi pāre",
+      "japite japite nāma,    abaśa karila go,",
+      "kemane pāiba sa·i, tāre 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಾ ಜಾನಿ ಕತೆಕ ಮಧು,    ಶ್ಯಾಮನಾಮೆ ಆಛೆ ಗೊ,",
+      "ಬದನ ಛಾḓಇತೆ ನಾಹಿ ಪಾರೆ",
+      "ಜಪಿತೆ ಜಪಿತೆ ನಾಮ,    ಅಬಶ ಕರಿಲ ಗೊ,",
+      "ಕೆಮನೆ ಪಾಇಬ ಸಇ, ತಾರೆ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నా జాని కతెక మధు,    శ్యామనామె ఆఛె గొ,",
+      "బదన ఛాḓఇతె నాహి పారె",
+      "జపితె జపితె నామ,    అబశ కరిల గొ,",
+      "కెమనె పాఇబ సఇ, తారె 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "на̄ джа̄ни катэ̆ка мадху,    ш́йа̄мана̄мэ̆ а̄чхэ̆ го̆,",
+      "бадана чха̄ḓитэ̆ на̄хи па̄рэ̆",
+      "джапитэ̆ джапитэ̆ на̄ма,    абаш́а карила го̆,",
+      "кэ̆манэ̆ па̄иба саи, та̄рэ̆ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നാ ജാനി കതെക മധു,    ശ്യാമനാമെ ആഛെ ഗൊ,",
+      "ബദന ഛാḓഇതെ നാഹി പാരെ",
+      "ജപിതെ ജപിതെ നാമ,    അബശ കരില ഗൊ,",
+      "കെമനെ പാഇബ സഇ, താരെ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நா ஜானி கதெக மது⁴,    ஶ்யாமநாமெ ஆசெ² கொ³,",
+      "ப³த³ன சா²ḓஇதெ நாஹி பாரெ",
+      "ஜபிதெ ஜபிதெ நாம,    அப³ஶ கரில கொ³,",
+      "கெமனெ பாஇப³ ஸஇ, தாரெ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nā jāni kateka madhu,    śyāma-nāme āche go,",
+      "badana chāḍite nāhi pāre",
+      "japite japite nāma,    abaśa karila go,",
+      "kemane pāiba sa·i, tāre 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nā jāni kateka madhu,    śyāma-nāme āche go,",
+      "badana chāḓite nāhi pāre",
+      "japite japite nāma,    abaśa karila go,",
+      "kemane pāiba sa·i, tāre 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "nāma[FLAG_HYPHEN_ALPHA]paratāpe yā’ra,    aichana karila go,",
+    "aṅgera paraśe kibā haya",
+    "yekhāne basati tā’ra,    nayane heriba go,",
+    "yubatī[FLAG_HYPHEN_ALPHA]dharama kaiche raya 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "If His name has the power to put me in such a condition, what will happen at the touch of His body? Wherever He is, how can the young women of that place maintain their religious principles?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "nāma",
+       "name"
+      ],
+      [
+       "paratāpe",
+       "by power, domineering influence"
+      ],
+      [
+       "yā’ra",
+       "whose"
+      ],
+      [
+       "aichana",
+       "in this way, such"
+      ],
+      [
+       "karila",
+       "made"
+      ],
+      [
+       "go",
+       "oh"
+      ],
+      [
+       "aṅgera",
+       "of body"
+      ],
+      [
+       "paraśe",
+       "by touching"
+      ],
+      [
+       "kibā",
+       "what"
+      ],
+      [
+       "haya",
+       "happens"
+      ],
+      [
+       "yekhāne",
+       "wherever"
+      ],
+      [
+       "basati",
+       "residence, dwelling place"
+      ],
+      [
+       "tā’ra",
+       "His"
+      ],
+      [
+       "nayane",
+       "with my eyes"
+      ],
+      [
+       "heriba",
+       "i will see"
+      ],
+      [
+       "go",
+       "oh,"
+      ],
+      [
+       "yubatī",
+       "young women"
+      ],
+      [
+       "dharama",
+       "religious principles"
+      ],
+      [
+       "kaiche",
+       "how"
+      ],
+      [
+       "raya",
+       "maintain"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "नाम",
+       "name"
+      ],
+      [
+       "परतापॆ",
+       "by power, domineering influence"
+      ],
+      [
+       "याऽर",
+       "whose"
+      ],
+      [
+       "ऐछन",
+       "in this way, such"
+      ],
+      [
+       "करिल",
+       "made"
+      ],
+      [
+       "गॊ",
+       "oh"
+      ],
+      [
+       "अङ्गॆर",
+       "of body"
+      ],
+      [
+       "परशॆ",
+       "by touching"
+      ],
+      [
+       "किबा",
+       "what"
+      ],
+      [
+       "हय",
+       "happens"
+      ],
+      [
+       "यॆखानॆ",
+       "wherever"
+      ],
+      [
+       "बसति",
+       "residence, dwelling place"
+      ],
+      [
+       "ताऽर",
+       "His"
+      ],
+      [
+       "नयनॆ",
+       "with my eyes"
+      ],
+      [
+       "हॆरिब",
+       "i will see"
+      ],
+      [
+       "गॊ",
+       "oh,"
+      ],
+      [
+       "युबती",
+       "young women"
+      ],
+      [
+       "धरम",
+       "religious principles"
+      ],
+      [
+       "कैछॆ",
+       "how"
+      ],
+      [
+       "रय",
+       "maintain"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "নাম",
+       "name"
+      ],
+      [
+       "পরতাপে",
+       "by power, domineering influence"
+      ],
+      [
+       "যাঽর",
+       "whose"
+      ],
+      [
+       "ঐছন",
+       "in this way, such"
+      ],
+      [
+       "করিল",
+       "made"
+      ],
+      [
+       "গো",
+       "oh"
+      ],
+      [
+       "অঙ্গের",
+       "of body"
+      ],
+      [
+       "পরশে",
+       "by touching"
+      ],
+      [
+       "কিবা",
+       "what"
+      ],
+      [
+       "হয়",
+       "happens"
+      ],
+      [
+       "যেখানে",
+       "wherever"
+      ],
+      [
+       "বসতি",
+       "residence, dwelling place"
+      ],
+      [
+       "তাঽর",
+       "His"
+      ],
+      [
+       "নয়নে",
+       "with my eyes"
+      ],
+      [
+       "হেরিব",
+       "i will see"
+      ],
+      [
+       "গো",
+       "oh,"
+      ],
+      [
+       "যুবতী",
+       "young women"
+      ],
+      [
+       "ধরম",
+       "religious principles"
+      ],
+      [
+       "কৈছে",
+       "how"
+      ],
+      [
+       "রয়",
+       "maintain"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "નામ",
+       "name"
+      ],
+      [
+       "પરતાપે",
+       "by power, domineering influence"
+      ],
+      [
+       "યાઽર",
+       "whose"
+      ],
+      [
+       "ઐછન",
+       "in this way, such"
+      ],
+      [
+       "કરિલ",
+       "made"
+      ],
+      [
+       "ગો",
+       "oh"
+      ],
+      [
+       "અઙ્ગેર",
+       "of body"
+      ],
+      [
+       "પરશે",
+       "by touching"
+      ],
+      [
+       "કિબા",
+       "what"
+      ],
+      [
+       "હય",
+       "happens"
+      ],
+      [
+       "યેખાને",
+       "wherever"
+      ],
+      [
+       "બસતિ",
+       "residence, dwelling place"
+      ],
+      [
+       "તાઽર",
+       "His"
+      ],
+      [
+       "નયને",
+       "with my eyes"
+      ],
+      [
+       "હેરિબ",
+       "i will see"
+      ],
+      [
+       "ગો",
+       "oh,"
+      ],
+      [
+       "યુબતી",
+       "young women"
+      ],
+      [
+       "ધરમ",
+       "religious principles"
+      ],
+      [
+       "કૈછે",
+       "how"
+      ],
+      [
+       "રય",
+       "maintain"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "नामपरतापॆ याऽर,    ऐछन करिल गॊ,",
+      "अङ्गॆर परशॆ किबा हय",
+      "यॆखानॆ बसति ताऽर,    नयनॆ हॆरिब गॊ,",
+      "युबतीधरम कैछॆ रय ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নামপরতাপে যাঽর,    ঐছন করিল গো,",
+      "অঙ্গের পরশে কিবা হয়",
+      "যেখানে বসতি তাঽর,    নয়নে হেরিব গো,",
+      "যুবতীধরম কৈছে রয় ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନାମପରତାପେ ଯାଽର,    ଐଛନ କରିଲ ଗୋ,",
+      "ଅଙ୍ଗେର ପରଶେ କିବା ହୟ",
+      "ଯେଖାନେ ବସତି ତାଽର,    ନୟନେ ହେରିବ ଗୋ,",
+      "ଯୁବତୀଧରମ କୈଛେ ରୟ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નામપરતાપે યાઽર,    ઐછન કરિલ ગો,",
+      "અઙ્ગેર પરશે કિબા હય",
+      "યેખાને બસતિ તાઽર,    નયને હેરિબ ગો,",
+      "યુબતીધરમ કૈછે રય ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nāma-paratāpe yā’ra,    aichana karila go,",
+      "aṅgera paraśe kibā haya",
+      "yekhāne basati tā’ra,    nayane heriba go,",
+      "yubatī-dharama kaiche raya 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಾಮಪರತಾಪೆ ಯಾಽರ,    ಐಛನ ಕರಿಲ ಗೊ,",
+      "ಅಂಗೆರ ಪರಶೆ ಕಿಬಾ ಹಯ",
+      "ಯೆಖಾನೆ ಬಸತಿ ತಾಽರ,    ನಯನೆ ಹೆರಿಬ ಗೊ,",
+      "ಯುಬತೀಧರಮ ಕೈಛೆ ರಯ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నామపరతాపె యాఽర,    ఐఛన కరిల గొ,",
+      "అంగెర పరశె కిబా హయ",
+      "యెఖానె బసతి తాఽర,    నయనె హెరిబ గొ,",
+      "యుబతీధరమ కైఛె రయ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "на̄мапарата̄пэ̆ йа̄'ра,    аичхана карила го̆,",
+      "ан̇гэ̆ра параш́э̆ киба̄ хайа",
+      "йэ̆кха̄нэ̆ басати та̄'ра,    найанэ̆ хэ̆риба го̆,",
+      "йубатӣдхарама каичхэ̆ райа 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നാമപരതാപെ യാഽര,    ഐഛന കരില ഗൊ,",
+      "അംഗെര പരശെ കിബാ ഹയ",
+      "യെഖാനെ ബസതി താഽര,    നയനെ ഹെരിബ ഗൊ,",
+      "യുബതീധരമ കൈഛെ രയ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நாமபரதாபெ யா(அ)ர,    ஐச²ன கரில கொ³,",
+      "அங்கெ³ர பரஶெ கிபா³ ஹய",
+      "யெகா²னெ ப³ஸதி தா(அ)ர,    நயனெ ஹெரிப³ கொ³,",
+      "யுப³தீத⁴ரம கைசெ² ரய 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nāma-paratāpe yā’ra,    aichana karila go,",
+      "aṅgera paraśe kibā haya",
+      "yekhāne basati tā’ra,    nayane heriba go,",
+      "yubatī-dharama kaiche raya 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nāma-paratāpe yā’ra,    aichana karila go,",
+      "aṅgera paraśe kibā haya",
+      "yekhāne basati tā’ra,    nayane heriba go,",
+      "yubatī-dharama kaiche raya 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "pāsarite cāhi mane,    pāsarā nā yāya go,",
+    "ki kariba, ki habe upāya",
+    "kahe dbija caṇḍīdāse,    kulabatī[FLAG_HYPHEN_ALPHA]kula nāśe,",
+    "āpanāra yaubana yācāya 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "In my heart I want to forget Him, but my memories do not leave me. What shall I do? What will be the remedy? Caṇḍīdāsa says, “Śyāma has destroyed the chastity of all virtuous ladies by flaunting His youthfulness.”"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "pāsarite",
+       "to forget"
+      ],
+      [
+       "cāhi",
+       "I want"
+      ],
+      [
+       "mane",
+       "in heart"
+      ],
+      [
+       "pāsarā nā yāya",
+       "not possible to forget"
+      ],
+      [
+       "go",
+       "oh,"
+      ],
+      [
+       "ki",
+       "what"
+      ],
+      [
+       "kariba",
+       "I will do"
+      ],
+      [
+       "ki",
+       "what"
+      ],
+      [
+       "habe",
+       "will be"
+      ],
+      [
+       "upāya",
+       "remedy"
+      ],
+      [
+       "kahe",
+       "says"
+      ],
+      [
+       "dbija caṇḍīdāse",
+       "Dvija Caṇḍīdāsa"
+      ],
+      [
+       "kulabatī",
+       "virtuous ladies"
+      ],
+      [
+       "kula",
+       "dynasties"
+      ],
+      [
+       "nāśe",
+       "destroys"
+      ],
+      [
+       "āpanāra",
+       "His own"
+      ],
+      [
+       "yaubana",
+       "youthfulness"
+      ],
+      [
+       "yācāya",
+       "falunting"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "पासरितॆ",
+       "to forget"
+      ],
+      [
+       "चाहि",
+       "I want"
+      ],
+      [
+       "मनॆ",
+       "in heart"
+      ],
+      [
+       "पासरा ना याय",
+       "not possible to forget"
+      ],
+      [
+       "गॊ",
+       "oh,"
+      ],
+      [
+       "कि",
+       "what"
+      ],
+      [
+       "करिब",
+       "I will do"
+      ],
+      [
+       "कि",
+       "what"
+      ],
+      [
+       "हबॆ",
+       "will be"
+      ],
+      [
+       "उपाय",
+       "remedy"
+      ],
+      [
+       "कहॆ",
+       "says"
+      ],
+      [
+       "द्बिज चण्डीदासॆ",
+       "Dvija Caṇḍīdāsa"
+      ],
+      [
+       "कुलबती",
+       "virtuous ladies"
+      ],
+      [
+       "कुल",
+       "dynasties"
+      ],
+      [
+       "नाशॆ",
+       "destroys"
+      ],
+      [
+       "आपनार",
+       "His own"
+      ],
+      [
+       "यौबन",
+       "youthfulness"
+      ],
+      [
+       "याचाय",
+       "falunting"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "পাসরিতে",
+       "to forget"
+      ],
+      [
+       "চাহি",
+       "I want"
+      ],
+      [
+       "মনে",
+       "in heart"
+      ],
+      [
+       "পাসরা না যায়",
+       "not possible to forget"
+      ],
+      [
+       "গো",
+       "oh,"
+      ],
+      [
+       "কি",
+       "what"
+      ],
+      [
+       "করিব",
+       "I will do"
+      ],
+      [
+       "কি",
+       "what"
+      ],
+      [
+       "হবে",
+       "will be"
+      ],
+      [
+       "উপায়",
+       "remedy"
+      ],
+      [
+       "কহে",
+       "says"
+      ],
+      [
+       "দ্বিজ চণ্ডীদাসে",
+       "Dvija Caṇḍīdāsa"
+      ],
+      [
+       "কুলবতী",
+       "virtuous ladies"
+      ],
+      [
+       "কুল",
+       "dynasties"
+      ],
+      [
+       "নাশে",
+       "destroys"
+      ],
+      [
+       "আপনার",
+       "His own"
+      ],
+      [
+       "যৌবন",
+       "youthfulness"
+      ],
+      [
+       "যাচায়",
+       "falunting"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "પાસરિતે",
+       "to forget"
+      ],
+      [
+       "ચાહિ",
+       "I want"
+      ],
+      [
+       "મને",
+       "in heart"
+      ],
+      [
+       "પાસરા ના યાય",
+       "not possible to forget"
+      ],
+      [
+       "ગો",
+       "oh,"
+      ],
+      [
+       "કિ",
+       "what"
+      ],
+      [
+       "કરિબ",
+       "I will do"
+      ],
+      [
+       "કિ",
+       "what"
+      ],
+      [
+       "હબે",
+       "will be"
+      ],
+      [
+       "ઉપાય",
+       "remedy"
+      ],
+      [
+       "કહે",
+       "says"
+      ],
+      [
+       "દ્બિજ ચણ્ડીદાસે",
+       "Dvija Caṇḍīdāsa"
+      ],
+      [
+       "કુલબતી",
+       "virtuous ladies"
+      ],
+      [
+       "કુલ",
+       "dynasties"
+      ],
+      [
+       "નાશે",
+       "destroys"
+      ],
+      [
+       "આપનાર",
+       "His own"
+      ],
+      [
+       "યૌબન",
+       "youthfulness"
+      ],
+      [
+       "યાચાય",
+       "falunting"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "पासरितॆ चाहि मनॆ,    पासरा ना याय गॊ,",
+      "कि करिब, कि हबॆ उपाय",
+      "कहॆ द्बिज चण्डीदासॆ,    कुलबतीकुल नाशॆ,",
+      "आपनार यौबन याचाय ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "পাসরিতে চাহি মনে,    পাসরা না যায় গো,",
+      "কি করিব, কি হবে উপায়",
+      "কহে দ্বিজ চণ্ডীদাসে,    কুলবতীকুল নাশে,",
+      "আপনার যৌবন যাচায় ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପାସରିତେ ଚାହି ମନେ,    ପାସରା ନା ଯାୟ ଗୋ,",
+      "କି କରିବ, କି ହବେ ଉପାୟ",
+      "କହେ ଦ୍ବିଜ ଚଣ୍ଡୀଦାସେ,    କୁଲବତୀକୁଲ ନାଶେ,",
+      "ଆପନାର ଯୌବନ ଯାଚାୟ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પાસરિતે ચાહિ મને,    પાસરા ના યાય ગો,",
+      "કિ કરિબ, કિ હબે ઉપાય",
+      "કહે દ્બિજ ચણ્ડીદાસે,    કુલબતીકુલ નાશે,",
+      "આપનાર યૌબન યાચાય ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "pāsarite cāhi mane,    pāsarā nā yāya go,",
+      "ki kariba, ki habe upāya",
+      "kahe dbija caṇḍīdāse,    kulabatī-kula nāśe,",
+      "āpanāra yaubana yācāya 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪಾಸರಿತೆ ಚಾಹಿ ಮನೆ,    ಪಾಸರಾ ನಾ ಯಾಯ ಗೊ,",
+      "ಕಿ ಕರಿಬ, ಕಿ ಹಬೆ ಉಪಾಯ",
+      "ಕಹೆ ದ್ಬಿಜ ಚಂಡೀದಾಸೆ,    ಕುಲಬತೀಕುಲ ನಾಶೆ,",
+      "ಆಪನಾರ ಯೌಬನ ಯಾಚಾಯ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "పాసరితె చాహి మనె,    పాసరా నా యాయ గొ,",
+      "కి కరిబ, కి హబె ఉపాయ",
+      "కహె ద్బిజ చండీదాసె,    కులబతీకుల నాశె,",
+      "ఆపనార యౌబన యాచాయ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "па̄саритэ̆ ча̄хи манэ̆,    па̄сара̄ на̄ йа̄йа го̆,",
+      "ки кариба, ки хабэ̆ упа̄йа",
+      "кахэ̆ дбиджа чан̣д̣ӣда̄сэ̆,    кулабатӣкула на̄ш́э̆,",
+      "а̄пана̄ра йаубана йа̄ча̄йа 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പാസരിതെ ചാഹി മനെ,    പാസരാ നാ യായ ഗൊ,",
+      "കി കരിബ, കി ഹബെ ഉപായ",
+      "കഹെ ദ്ബിജ ചണ്ഡീദാസെ,    കുലബതീകുല നാശെ,",
+      "ആപനാര യൗബന യാചായ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பாஸரிதெ சாஹி மனெ,    பாஸரா நா யாய கொ³,",
+      "கி கரிப³, கி ஹபெ³ உபாய",
+      "கஹெ த்³பி³ஜ சண்டீ³தா³ஸெ,    குலப³தீகுல நாஶெ,",
+      "ஆபனார யௌப³ன யாசாய 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "pāsarite cāhi mane,    pāsarā nā yāya go,",
+      "ki kariba, ki habe upāya",
+      "kahe dbija caṇḍīdāse,    kulabatī-kula nāśe,",
+      "āpanāra yaubana yācāya 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "pāsarite cāhi mane,    pāsarā nā yāya go,",
+      "ki kariba, ki habe upāya",
+      "kahe dbija caṇḍīdāse,    kulabatī-kula nāśe,",
+      "āpanāra yaubana yācāya 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "naẏane—with my eyes; heriba—i will see; (sekhāne—at that place; thākiya—remain);"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "krsn-1",
+   "filename": "NM15-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "krsn-2",
+   "filename": "NM15-krsn-2.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "krsn-3",
+   "filename": "NM15-krsn-3.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "mith-1",
+   "filename": "NM15-mith-1.mp3",
+   "artist": "Mithu dasi"
+  },
+  {
+   "uid": "srrb-1",
+   "filename": "NM15-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  },
+  {
+   "uid": "srrb-2",
+   "filename": "NM15-srrb-2.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ],
+ "tags": [
+  "Śrī Nāma-mahimā"
+ ]
+}

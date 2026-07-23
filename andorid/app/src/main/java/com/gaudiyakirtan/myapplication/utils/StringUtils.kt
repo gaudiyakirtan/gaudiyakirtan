@@ -38,4 +38,13 @@ object StringUtils {
         }
         return normalizedFirstLetter
     }
+
+    /**
+     * Alphabetical sort key for a title: diacritics stripped, lowercased, and with leading
+     * non-letter characters dropped so it aligns with the manifest's `first_letter` (which is the
+     * first *letter*, skipping leading punctuation/quotes). Sorting by this key keeps every
+     * `first_letter` section contiguous and stable regardless of the display list-language.
+     */
+    fun sortKey(text: String): String =
+        removeDiacritics(text).lowercase().dropWhile { !it.isLetter() }
 }

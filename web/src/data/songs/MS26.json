@@ -1,0 +1,615 @@
+{
+  "uid": "MS26",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "মন রে, ধনমদ নিতান্ত অসার"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "mana re, dhanamada nitānta asāra"
+    },
+    {
+      "script_code": "Deva",
+      "text": "मन रे, धनमद नितान्त असार"
+    },
+    {
+      "script_code": "Telu",
+      "text": "మన రే, ధనమద నితాంత అసార"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಮನ ರೇ, ಧನಮದ ನಿತಾಂತ ಅಸಾರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "மன ரே, த⁴னமத³ நிதாந்த அஸார"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "മന രേ, ധനമദ നിതാന്ത അസാര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "મન રે, ધનમદ નિતાન્ત અસાર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ମନ ରେ, ଧନମଦ ନିତାନ୍ତ ଅସାର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "мана рэ, дханамада нита̄нта аса̄ра"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "mana re, dhanamada nitānta asāra",
+        "dhana jana bitta yata,    e dehera anugata,",
+        "deha gele se[FLAG_HYPHEN_ALPHA]sakala chāra 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "मन रॆ, धनमद नितान्त असार",
+            "धन जन बित्त यत,    ऎ दॆहॆर अनुगत,",
+            "दॆह गॆलॆ सॆसकल छार १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মন রে, ধনমদ নিতান্ত অসার",
+            "ধন জন বিত্ত যত,    এ দেহের অনুগত,",
+            "দেহ গেলে সেসকল ছার ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମନ ରେ, ଧନମଦ ନିତାନ୍ତ ଅସାର",
+            "ଧନ ଜନ ବିତ୍ତ ଯତ,    ଏ ଦେହେର ଅନୁଗତ,",
+            "ଦେହ ଗେଲେ ସେସକଲ ଛାର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મન રે, ધનમદ નિતાન્ત અસાર",
+            "ધન જન બિત્ત યત,    એ દેહેર અનુગત,",
+            "દેહ ગેલે સેસકલ છાર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "mana re, dhanamada nitānta asāra",
+            "dhana jana bitta yata,    e dehera anugata,",
+            "deha gele se-sakala chāra 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮನ ರೆ, ಧನಮದ ನಿತಾಂತ ಅಸಾರ",
+            "ಧನ ಜನ ಬಿತ್ತ ಯತ,    ಎ ದೆಹೆರ ಅನುಗತ,",
+            "ದೆಹ ಗೆಲೆ ಸೆಸಕಲ ಛಾರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మన రె, ధనమద నితాంత అసార",
+            "ధన జన బిత్త యత,    ఎ దెహెర అనుగత,",
+            "దెహ గెలె సెసకల ఛార 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "мана рэ̆, дханамада нита̄нта аса̄ра",
+            "дхана джана битта йата,    э̆ дэ̆хэ̆ра анугата,",
+            "дэ̆ха гэ̆лэ̆ сэ̆сакала чха̄ра 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മന രെ, ധനമദ നിതാന്ത അസാര",
+            "ധന ജന ബിത്ത യത,    എ ദെഹെര അനുഗത,",
+            "ദെഹ ഗെലെ സെസകല ഛാര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மன ரெ, த⁴னமத³ நிதாந்த அஸார",
+            "த⁴ன ஜன பி³த்த யத,    எ தெ³ஹெர அனுக³த,",
+            "தெ³ஹ கெ³லெ ஸெஸகல சா²ர 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "mana re, dhanamada nitānta asāra",
+            "dhana jana bitta yata,    e dehera anugata,",
+            "deha gele se-sakala chāra 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "mana re, dhanamada nitānta asāra",
+            "dhana jana bitta yata,    e dehera anugata,",
+            "deha gele se-sakala chāra 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "bidyāra yateka ceṣṭā,    cikitsaka upadeṣṭā,",
+        "keha deha rākhibāre nāre",
+        "ajapā ha·ile śeṣa,    deha mātra abaśeṣa,",
+        "jība nāhi thākena ādhāre 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बिद्यार यतॆक चॆष्टा,    चिकित्सक उपदॆष्टा,",
+            "कॆह दॆह राखिबारॆ नारॆ",
+            "अजपा हइलॆ शॆष,    दॆह मात्र अबशॆष,",
+            "जीब नाहि थाकॆन आधारॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বিদ্যার যতেক চেষ্টা,    চিকিৎসক উপদেষ্টা,",
+            "কেহ দেহ রাখিবারে নারে",
+            "অজপা হইলে শেষ,    দেহ মাত্র অবশেষ,",
+            "জীব নাহি থাকেন আধারে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବିଦ୍ୟାର ଯତେକ ଚେଷ୍ଟା,    ଚିକିତ୍ସକ ଉପଦେଷ୍ଟା,",
+            "କେହ ଦେହ ରାଖିବାରେ ନାରେ",
+            "ଅଜପା ହଇଲେ ଶେଷ,    ଦେହ ମାତ୍ର ଅବଶେଷ,",
+            "ଜୀବ ନାହି ଥାକେନ ଆଧାରେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બિદ્યાર યતેક ચેષ્ટા,    ચિકિત્સક ઉપદેષ્ટા,",
+            "કેહ દેહ રાખિબારે નારે",
+            "અજપા હઇલે શેષ,    દેહ માત્ર અબશેષ,",
+            "જીબ નાહિ થાકેન આધારે ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bidyāra yateka ceṣṭā,    cikitsaka upadeṣṭā,",
+            "keha deha rākhibāre nāre",
+            "ajapā ha·ile śeṣa,    deha mātra abaśeṣa,",
+            "jība nāhi thākena ādhāre 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಿದ್ಯಾರ ಯತೆಕ ಚೆಷ್ಟಾ,    ಚಿಕಿತ್ಸಕ ಉಪದೆಷ್ಟಾ,",
+            "ಕೆಹ ದೆಹ ರಾಖಿಬಾರೆ ನಾರೆ",
+            "ಅಜಪಾ ಹಇಲೆ ಶೆಷ,    ದೆಹ ಮಾತ್ರ ಅಬಶೆಷ,",
+            "ಜೀಬ ನಾಹಿ ಥಾಕೆನ ಆಧಾರೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బిద్యార యతెక చెష్టా,    చికిత్సక ఉపదెష్టా,",
+            "కెహ దెహ రాఖిబారె నారె",
+            "అజపా హఇలె శెష,    దెహ మాత్ర అబశెష,",
+            "జీబ నాహి థాకెన ఆధారె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бидйа̄ра йатэ̆ка чэ̆шт̣а̄,    чикитсака упадэ̆шт̣а̄,",
+            "кэ̆ха дэ̆ха ра̄кхиба̄рэ̆ на̄рэ̆",
+            "аджапа̄ хаилэ̆ ш́э̆ша,    дэ̆ха ма̄тра абаш́э̆ша,",
+            "джӣба на̄хи тха̄кэ̆на а̄дха̄рэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബിദ്യാര യതെക ചെഷ്ടാ,    ചികിത്സക ഉപദെഷ്ടാ,",
+            "കെഹ ദെഹ രാഖിബാരെ നാരെ",
+            "അജപാ ഹഇലെ ശെഷ,    ദെഹ മാത്ര അബശെഷ,",
+            "ജീബ നാഹി ഥാകെന ആധാരെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பி³த்³யார யதெக செஷ்டா,    சிகித்ஸக உபதெ³ஷ்டா,",
+            "கெஹ தெ³ஹ ராகி²பா³ரெ நாரெ",
+            "அஜபா ஹஇலெ ஶெஷ,    தெ³ஹ மாத்ர அப³ஶெஷ,",
+            "ஜீப³ நாஹி தா²கென ஆதா⁴ரெ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bidyāra yateka ceṣṭā,    cikitsaka upadeṣṭā,",
+            "keha deha rākhibāre nāre",
+            "ajapā ha·ile śeṣa,    deha mātra abaśeṣa,",
+            "jība nāhi thākena ādhāre 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bidyāra yateka ceṣṭā,    cikitsaka upadeṣṭā,",
+            "keha deha rākhibāre nāre",
+            "ajapā ha·ile śeṣa,    deha mātra abaśeṣa,",
+            "jība nāhi thākena ādhāre 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "dhane yadi prāṇa dita,    dhanī rājā nā marita,",
+        "dharāmara ha·ita rābaṇa",
+        "dhane nāhi rākhe deha,    deha gele nahe keha,",
+        "ataeba ki karibe dhana 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "धनॆ यदि प्राण दित,    धनी राजा ना मरित,",
+            "धरामर हइत राबण",
+            "धनॆ नाहि राखॆ दॆह,    दॆह गॆलॆ नहॆ कॆह,",
+            "अतऎब कि करिबॆ धन ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ধনে যদি প্রাণ দিত,    ধনী রাজা না মরিত,",
+            "ধরামর হইত রাবণ",
+            "ধনে নাহি রাখে দেহ,    দেহ গেলে নহে কেহ,",
+            "অতএব কি করিবে ধন ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଧନେ ଯଦି ପ୍ରାଣ ଦିତ,    ଧନୀ ରାଜା ନା ମରିତ,",
+            "ଧରାମର ହଇତ ରାବଣ",
+            "ଧନେ ନାହି ରାଖେ ଦେହ,    ଦେହ ଗେଲେ ନହେ କେହ,",
+            "ଅତଏବ କି କରିବେ ଧନ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ધને યદિ પ્રાણ દિત,    ધની રાજા ના મરિત,",
+            "ધરામર હઇત રાબણ",
+            "ધને નાહિ રાખે દેહ,    દેહ ગેલે નહે કેહ,",
+            "અતએબ કિ કરિબે ધન ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "dhane yadi prāṇa dita,    dhanī rājā nā marita,",
+            "dharāmara ha·ita rābaṇa",
+            "dhane nāhi rākhe deha,    deha gele nahe keha,",
+            "ataeba ki karibe dhana 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಧನೆ ಯದಿ ಪ್ರಾಣ ದಿತ,    ಧನೀ ರಾಜಾ ನಾ ಮರಿತ,",
+            "ಧರಾಮರ ಹಇತ ರಾಬಣ",
+            "ಧನೆ ನಾಹಿ ರಾಖೆ ದೆಹ,    ದೆಹ ಗೆಲೆ ನಹೆ ಕೆಹ,",
+            "ಅತಎಬ ಕಿ ಕರಿಬೆ ಧನ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ధనె యది ప్రాణ దిత,    ధనీ రాజా నా మరిత,",
+            "ధరామర హఇత రాబణ",
+            "ధనె నాహి రాఖె దెహ,    దెహ గెలె నహె కెహ,",
+            "అతఎబ కి కరిబె ధన 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "дханэ̆ йади пра̄н̣а дита,    дханӣ ра̄джа̄ на̄ марита,",
+            "дхара̄мара хаита ра̄бан̣а",
+            "дханэ̆ на̄хи ра̄кхэ̆ дэ̆ха,    дэ̆ха гэ̆лэ̆ нахэ̆ кэ̆ха,",
+            "атаэ̆ба ки карибэ̆ дхана 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ധനെ യദി പ്രാണ ദിത,    ധനീ രാജാ നാ മരിത,",
+            "ധരാമര ഹഇത രാബണ",
+            "ധനെ നാഹി രാഖെ ദെഹ,    ദെഹ ഗെലെ നഹെ കെഹ,",
+            "അതഎബ കി കരിബെ ധന 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "த⁴னெ யதி³ ப்ராண தி³த,    த⁴னீ ராஜா நா மரித,",
+            "த⁴ராமர ஹஇத ராப³ண",
+            "த⁴னெ நாஹி ராகெ² தெ³ஹ,    தெ³ஹ கெ³லெ நஹெ கெஹ,",
+            "அதஎப³ கி கரிபெ³ த⁴ன 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "dhane yadi prāṇa dita,    dhanī rājā nā marita,",
+            "dharāmara ha·ita rābaṇa",
+            "dhane nāhi rākhe deha,    deha gele nahe keha,",
+            "ataeba ki karibe dhana 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "dhane yadi prāṇa dita,    dhanī rājā nā marita,",
+            "dharāmara ha·ita rābaṇa",
+            "dhane nāhi rākhe deha,    deha gele nahe keha,",
+            "ataeba ki karibe dhana 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "yadi thāke bahu dhana,    nije ha’be akiñcana,",
+        "baiṣṇabera kara upakāra",
+        "jībe dayā anukṣaṇa,    rādhākṛṣṇa[FLAG_HYPHEN_ALPHA]ārādhana,",
+        "kara sadā ha’ye sadācāra 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "यदि थाकॆ बहु धन,    निजॆ हऽबॆ अकिञ्चन,",
+            "बैष्णबॆर कर उपकार",
+            "जीबॆ दया अनुक्षण,    राधाक्ड़्ष्णआराधन,",
+            "कर सदा हऽयॆ सदाचार ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যদি থাকে বহু ধন,    নিজে হঽবে অকিঞ্চন,",
+            "বৈষ্ণবের কর উপকার",
+            "জীবে দয়া অনুক্ষণ,    রাধাক্ড়্ষ্ণআরাধন,",
+            "কর সদা হঽয়ে সদাচার ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯଦି ଥାକେ ବହୁ ଧନ,    ନିଜେ ହଽବେ ଅକିଞ୍ଚନ,",
+            "ବୈଷ୍ଣବେର କର ଉପକାର",
+            "ଜୀବେ ଦୟା ଅନୁକ୍ଷଣ,    ରାଧାକ୍ଡ଼୍ଷ୍ଣଆରାଧନ,",
+            "କର ସଦା ହଽୟେ ସଦାଚାର ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યદિ થાકે બહુ ધન,    નિજે હઽબે અકિઞ્ચન,",
+            "બૈષ્ણબેર કર ઉપકાર",
+            "જીબે દયા અનુક્ષણ,    રાધાક્ડ઼્ષ્ણઆરાધન,",
+            "કર સદા હઽયે સદાચાર ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yadi thāke bahu dhana,    nije ha’be akiñcana,",
+            "baiṣṇabera kara upakāra",
+            "jībe dayā anukṣaṇa,    rādhākṛṣṇa-ārādhana,",
+            "kara sadā ha’ye sadācāra 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯದಿ ಥಾಕೆ ಬಹು ಧನ,    ನಿಜೆ ಹಽಬೆ ಅಕಿಂಚನ,",
+            "ಬೈಷ್ಣಬೆರ ಕರ ಉಪಕಾರ",
+            "ಜೀಬೆ ದಯಾ ಅನುಕ್ಷಣ,    ರಾಧಾಕ್‌ಡ಼್ಷ್ಣಆರಾಧನ,",
+            "ಕರ ಸದಾ ಹಽಯೆ ಸದಾಚಾರ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యది థాకె బహు ధన,    నిజె హఽబె అకించన,",
+            "బైష్ణబెర కర ఉపకార",
+            "జీబె దయా అనుక్షణ,    రాధాక్డ్ష్ణఆరాధన,",
+            "కర సదా హఽయె సదాచార 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йади тха̄кэ̆ баху дхана,    ниджэ̆ ха'бэ̆ акин̃чана,",
+            "баишн̣абэ̆ра кара упака̄ра",
+            "джӣбэ̆ дайа̄ анукшан̣а,    ра̄дха̄кр̤шн̣аа̄ра̄дхана,",
+            "кара сада̄ ха'йэ̆ сада̄ча̄ра 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യദി ഥാകെ ബഹു ധന,    നിജെ ഹഽബെ അകിഞ്ചന,",
+            "ബൈഷ്ണബെര കര ഉപകാര",
+            "ജീബെ ദയാ അനുക്ഷണ,    രാധാക്ഡ്ഷ്ണആരാധന,",
+            "കര സദാ ഹഽയെ സദാചാര 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யதி³ தா²கெ ப³ஹு த⁴ன,    நிஜெ ஹ(அ)பெ³ அகிஞ்சன,",
+            "பை³ஷ்ணபெ³ர கர உபகார",
+            "ஜீபெ³ த³யா அனுக்ஷண,    ராதா⁴க்ஃட்²ஷ்ணஆராத⁴ன,",
+            "கர ஸதா³ ஹ(அ)யெ ஸதா³சார 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yadi thāke bahu dhana,    nije ha’be akiñcana,",
+            "baiṣṇabera kara upakāra",
+            "jībe dayā anukṣaṇa,    rādhākṛṣṇa-ārādhana,",
+            "kara sadā ha’ye sadācāra 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yadi thāke bahu dhana,    nije ha’be akiñcana,",
+            "baiṣṇabera kara upakāra",
+            "jībe dayā anukṣaṇa,    rādhākṛṣṇa-ārādhana,",
+            "kara sadā ha’ye sadācāra 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- অজল্পা—নিঃশ্বাস-প্রশ্বাস-রূপী স্বাভাবিক জপ, যাহা সাধনরূপে জপনীয় নহে, অর্থাৎ প্রাণবায়ু; ধরামর—ধরায় অমর ।"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Upadeśa from Kalyāṇa Kalpataru"
+  ]
+}

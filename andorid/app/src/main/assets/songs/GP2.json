@@ -1,0 +1,1860 @@
+{
+  "uid": "GP2",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "এ’লো গৌর-রস-নদী"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "e’lo gaura-rasa-nadī"
+    },
+    {
+      "script_code": "Deva",
+      "text": "ए’लो गौर-रस-नदी"
+    },
+    {
+      "script_code": "Telu",
+      "text": "ఏ’లో గౌర-రస-నదీ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಏ’ಲೋ ಗೌರ-ರಸ-ನದೀ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஏ’லோ கௌ³ர-ரஸ-நதீ³"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഏ’ലോ ഗൗര-രസ-നദീ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "એ’લો ગૌર-રસ-નદી"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଏ’ଲୋ ଗୌର-ରସ-ନଦୀ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "э’ло гаура-раса-надӣ"
+    }
+  ],
+  "author_uid": "ldt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল লোচন দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Locana dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील लोचन दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల లోచన దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಲೋಚನ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல லோசன தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ലോചന ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ લોચન દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଲୋଚନ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла лочана да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "e’lo gaura[FLAG_HYPHEN_ALPHA]rasa[FLAG_HYPHEN_ALPHA]nadī kādambinī ha’ye",
+        "bhāsāila gauḓadeśa premabṛṣṭi diye 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "The river of gaura-rasa came as a bank of rain clouds, flooding the land of Gauḓa with a shower of prema."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "e’lo",
+              "came"
+            ],
+            [
+              "gaura",
+              "Gaura"
+            ],
+            [
+              "rasa",
+              "nectar"
+            ],
+            [
+              "nadī",
+              "river"
+            ],
+            [
+              "kādambinī",
+              "rain clouds"
+            ],
+            [
+              "ha’ye",
+              "having become"
+            ],
+            [
+              "bhāsāila",
+              "flooded"
+            ],
+            [
+              "gauḓadeśa",
+              "the land of Gauḓa"
+            ],
+            [
+              "premabṛṣṭi",
+              "divine love + shower"
+            ],
+            [
+              "diye",
+              "having given"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "ऎऽलॊ",
+              "came"
+            ],
+            [
+              "गौर",
+              "Gaura"
+            ],
+            [
+              "रस",
+              "nectar"
+            ],
+            [
+              "नदी",
+              "river"
+            ],
+            [
+              "कादम्बिनी",
+              "rain clouds"
+            ],
+            [
+              "हऽयॆ",
+              "having become"
+            ],
+            [
+              "भासाइल",
+              "flooded"
+            ],
+            [
+              "गौḓअदॆश",
+              "the land of Gauḓa"
+            ],
+            [
+              "प्रॆमब्ड़्ष्टि",
+              "divine love + shower"
+            ],
+            [
+              "दियॆ",
+              "having given"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "এঽলো",
+              "came"
+            ],
+            [
+              "গৌর",
+              "Gaura"
+            ],
+            [
+              "রস",
+              "nectar"
+            ],
+            [
+              "নদী",
+              "river"
+            ],
+            [
+              "কাদম্বিনী",
+              "rain clouds"
+            ],
+            [
+              "হঽয়ে",
+              "having become"
+            ],
+            [
+              "ভাসাইল",
+              "flooded"
+            ],
+            [
+              "গৌḓঅদেশ",
+              "the land of Gauḓa"
+            ],
+            [
+              "প্রেমব্ড়্ষ্টি",
+              "divine love + shower"
+            ],
+            [
+              "দিয়ে",
+              "having given"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "એઽલો",
+              "came"
+            ],
+            [
+              "ગૌર",
+              "Gaura"
+            ],
+            [
+              "રસ",
+              "nectar"
+            ],
+            [
+              "નદી",
+              "river"
+            ],
+            [
+              "કાદમ્બિની",
+              "rain clouds"
+            ],
+            [
+              "હઽયે",
+              "having become"
+            ],
+            [
+              "ભાસાઇલ",
+              "flooded"
+            ],
+            [
+              "ગૌḓઅદેશ",
+              "the land of Gauḓa"
+            ],
+            [
+              "પ્રેમબ્ડ઼્ષ્ટિ",
+              "divine love + shower"
+            ],
+            [
+              "દિયે",
+              "having given"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎऽलॊ गौररसनदी कादम्बिनी हऽयॆ",
+            "भासाइल गौḓअदॆश प्रॆमब्ड़्ष्टि दियॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এঽলো গৌররসনদী কাদম্বিনী হঽয়ে",
+            "ভাসাইল গৌḓঅদেশ প্রেমব্ড়্ষ্টি দিয়ে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏଽଲୋ ଗୌରରସନଦୀ କାଦମ୍ବିନୀ ହଽୟେ",
+            "ଭାସାଇଲ ଗୌḓଅଦେଶ ପ୍ରେମବ୍ଡ଼୍ଷ୍ଟି ଦିୟେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એઽલો ગૌરરસનદી કાદમ્બિની હઽયે",
+            "ભાસાઇલ ગૌḓઅદેશ પ્રેમબ્ડ઼્ષ્ટિ દિયે ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "e’lo gaura-rasa-nadī kādambinī ha’ye",
+            "bhāsāila gauḓadeśa premabṛṣṭi diye 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎಽಲೊ ಗೌರರಸನದೀ ಕಾದಂಬಿನೀ ಹಽಯೆ",
+            "ಭಾಸಾಇಲ ಗೌḓಅದೆಶ ಪ್ರೆಮಬ್‌ಡ಼್ಷ್ಟಿ ದಿಯೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎఽలొ గౌరరసనదీ కాదంబినీ హఽయె",
+            "భాసాఇల గౌḓఅదెశ ప్రెమబ్డ్ష్టి దియె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆'ло̆ гаурарасанадӣ ка̄дамбинӣ ха'йэ̆",
+            "бха̄са̄ила гауḓадэ̆ш́а прэ̆мабр̤шт̣и дийэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എഽലൊ ഗൗരരസനദീ കാദംബിനീ ഹഽയെ",
+            "ഭാസാഇല ഗൗḓഅദെശ പ്രെമബ്ഡ്ഷ്ടി ദിയെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எ(அ)லொ கௌ³ரரஸநதீ³ காத³ம்பி³னீ ஹ(அ)யெ",
+            "பா⁴ஸாஇல கௌ³ḓஅதெ³ஶ ப்ரெமப்³ஃட்²ஷ்டி தி³யெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "e’lo gaura-rasa-nadī kādambinī ha’ye",
+            "bhāsāila gauḍadeśa premabṛṣṭi diye 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "e’lo gaura-rasa-nadī kādambinī ha’ye",
+            "bhāsāila gauḓadeśa premabṛṣṭi diye 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "nityānanda[FLAG_HYPHEN_ALPHA]rāya tāhe māruta sahāya",
+        "yā̃hā nāhi premabṛṣṭi, tā̃hā la’ye yāya 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Nityānanda Rāya assisted as the wind, blowing that shower of prema where it did not fall."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "nityānanda rāya",
+              "Nityānanda Rāya"
+            ],
+            [
+              "tāhe",
+              "there, at that [cloud]"
+            ],
+            [
+              "māruta",
+              "wind"
+            ],
+            [
+              "sahāya",
+              "assists"
+            ],
+            [
+              "yā̃hā",
+              "wherever"
+            ],
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "premabṛṣṭi",
+              "divine love + shower"
+            ],
+            [
+              "tā̃hā",
+              "there"
+            ],
+            [
+              "la’ye",
+              "having taken"
+            ],
+            [
+              "yāya",
+              "goes"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "नित्यानन्द राय",
+              "Nityānanda Rāya"
+            ],
+            [
+              "ताहॆ",
+              "there, at that [cloud]"
+            ],
+            [
+              "मारुत",
+              "wind"
+            ],
+            [
+              "सहाय",
+              "assists"
+            ],
+            [
+              "यांहा",
+              "wherever"
+            ],
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "प्रॆमब्ड़्ष्टि",
+              "divine love + shower"
+            ],
+            [
+              "तांहा",
+              "there"
+            ],
+            [
+              "लऽयॆ",
+              "having taken"
+            ],
+            [
+              "याय",
+              "goes"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "নিত্যানন্দ রায়",
+              "Nityānanda Rāya"
+            ],
+            [
+              "তাহে",
+              "there, at that [cloud]"
+            ],
+            [
+              "মারুত",
+              "wind"
+            ],
+            [
+              "সহায়",
+              "assists"
+            ],
+            [
+              "যাংহা",
+              "wherever"
+            ],
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "প্রেমব্ড়্ষ্টি",
+              "divine love + shower"
+            ],
+            [
+              "তাংহা",
+              "there"
+            ],
+            [
+              "লঽয়ে",
+              "having taken"
+            ],
+            [
+              "যায়",
+              "goes"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "નિત્યાનન્દ રાય",
+              "Nityānanda Rāya"
+            ],
+            [
+              "તાહે",
+              "there, at that [cloud]"
+            ],
+            [
+              "મારુત",
+              "wind"
+            ],
+            [
+              "સહાય",
+              "assists"
+            ],
+            [
+              "યાંહા",
+              "wherever"
+            ],
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "પ્રેમબ્ડ઼્ષ્ટિ",
+              "divine love + shower"
+            ],
+            [
+              "તાંહા",
+              "there"
+            ],
+            [
+              "લઽયે",
+              "having taken"
+            ],
+            [
+              "યાય",
+              "goes"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "नित्यानन्दराय ताहॆ मारुत सहाय",
+            "यांहा नाहि प्रॆमब्ड़्ष्टि, तांहा लऽयॆ याय २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নিত্যানন্দরায় তাহে মারুত সহায়",
+            "যাংহা নাহি প্রেমব্ড়্ষ্টি, তাংহা লঽয়ে যায় ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନିତ୍ୟାନନ୍ଦରାୟ ତାହେ ମାରୁତ ସହାୟ",
+            "ଯାଂହା ନାହି ପ୍ରେମବ୍ଡ଼୍ଷ୍ଟି, ତାଂହା ଲଽୟେ ଯାୟ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નિત્યાનન્દરાય તાહે મારુત સહાય",
+            "યાંહા નાહિ પ્રેમબ્ડ઼્ષ્ટિ, તાંહા લઽયે યાય ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nityānanda-rāya tāhe māruta sahāya",
+            "yā̃hā nāhi premabṛṣṭi, tā̃hā la’ye yāya 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಿತ್ಯಾನಂದರಾಯ ತಾಹೆ ಮಾರುತ ಸಹಾಯ",
+            "ಯಾಂಹಾ ನಾಹಿ ಪ್ರೆಮಬ್‌ಡ಼್ಷ್ಟಿ, ತಾಂಹಾ ಲಽಯೆ ಯಾಯ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నిత్యానందరాయ తాహె మారుత సహాయ",
+            "యాంహా నాహి ప్రెమబ్డ్ష్టి, తాంహా లఽయె యాయ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "нитйа̄нандара̄йа та̄хэ̆ ма̄рута саха̄йа",
+            "йа̄м̣ха̄ на̄хи прэ̆мабр̤шт̣и, та̄м̣ха̄ ла'йэ̆ йа̄йа 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നിത്യാനന്ദരായ താഹെ മാരുത സഹായ",
+            "യാംഹാ നാഹി പ്രെമബ്ഡ്ഷ്ടി, താംഹാ ലഽയെ യായ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நித்யானந்த³ராய தாஹெ மாருத ஸஹாய",
+            "யாம்ʼஹா நாஹி ப்ரெமப்³ஃட்²ஷ்டி, தாம்ʼஹா ல(அ)யெ யாய 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nityānanda-rāya tāhe māruta sahāya",
+            "yā̃hā nāhi premabṛṣṭi, tā̃hā la’ye yāya 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nityānanda-rāya tāhe māruta sahāya",
+            "yā̃hā nāhi premabṛṣṭi, tā̃hā la’ye yāya 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "huḓ huḓ[FLAG_HYPHEN_ALPHA]śabde āila śrīadbaitacandra",
+        "jala[FLAG_HYPHEN_ALPHA]rasadhārā tāhe rāya[FLAG_HYPHEN_ALPHA]rāmānanda 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Śrī Advaita-candra came as thunderclaps and Rāmānanda Rāya came as rain, letting loose a stream of rasa."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "huḓ huḓ",
+              "rumbling"
+            ],
+            [
+              "śabde",
+              "by the sound"
+            ],
+            [
+              "āila",
+              "came"
+            ],
+            [
+              "śrīadbaitacandra",
+              "the moon-like Śrī Advaita"
+            ],
+            [
+              "jala",
+              "water"
+            ],
+            [
+              "rasadhārā",
+              "nectar + flow"
+            ],
+            [
+              "tāhe",
+              "from that [cloud]"
+            ],
+            [
+              "rāya rāmānanda",
+              "Rāya Rāmānanda"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "हुḓ हुḓ",
+              "rumbling"
+            ],
+            [
+              "शब्दॆ",
+              "by the sound"
+            ],
+            [
+              "आइल",
+              "came"
+            ],
+            [
+              "श्रीअद्बैतचन्द्र",
+              "the moon-like Śrī Advaita"
+            ],
+            [
+              "जल",
+              "water"
+            ],
+            [
+              "रसधारा",
+              "nectar + flow"
+            ],
+            [
+              "ताहॆ",
+              "from that [cloud]"
+            ],
+            [
+              "राय रामानन्द",
+              "Rāya Rāmānanda"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "হুḓ হুḓ",
+              "rumbling"
+            ],
+            [
+              "শব্দে",
+              "by the sound"
+            ],
+            [
+              "আইল",
+              "came"
+            ],
+            [
+              "শ্রীঅদ্বৈতচন্দ্র",
+              "the moon-like Śrī Advaita"
+            ],
+            [
+              "জল",
+              "water"
+            ],
+            [
+              "রসধারা",
+              "nectar + flow"
+            ],
+            [
+              "তাহে",
+              "from that [cloud]"
+            ],
+            [
+              "রায় রামানন্দ",
+              "Rāya Rāmānanda"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "હુḓ હુḓ",
+              "rumbling"
+            ],
+            [
+              "શબ્દે",
+              "by the sound"
+            ],
+            [
+              "આઇલ",
+              "came"
+            ],
+            [
+              "શ્રીઅદ્બૈતચન્દ્ર",
+              "the moon-like Śrī Advaita"
+            ],
+            [
+              "જલ",
+              "water"
+            ],
+            [
+              "રસધારા",
+              "nectar + flow"
+            ],
+            [
+              "તાહે",
+              "from that [cloud]"
+            ],
+            [
+              "રાય રામાનન્દ",
+              "Rāya Rāmānanda"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हुḓ हुḓशब्दॆ आइल श्रीअद्बैतचन्द्र",
+            "जलरसधारा ताहॆ रायरामानन्द ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হুḓ হুḓশব্দে আইল শ্রীঅদ্বৈতচন্দ্র",
+            "জলরসধারা তাহে রায়রামানন্দ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହୁḓ ହୁḓଶବ୍ଦେ ଆଇଲ ଶ୍ରୀଅଦ୍ବୈତଚନ୍ଦ୍ର",
+            "ଜଲରସଧାରା ତାହେ ରାୟରାମାନନ୍ଦ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હુḓ હુḓશબ્દે આઇલ શ્રીઅદ્બૈતચન્દ્ર",
+            "જલરસધારા તાહે રાયરામાનન્દ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "huḓ huḓ-śabde āila śrīadbaitacandra",
+            "jala-rasadhārā tāhe rāya-rāmānanda 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹುḓ ಹುḓಶಬ್ದೆ ಆಇಲ ಶ್ರೀಅದ್ಬೈತಚಂದ್ರ",
+            "ಜಲರಸಧಾರಾ ತಾಹೆ ರಾಯರಾಮಾನಂದ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హుḓ హుḓశబ్దె ఆఇల శ్రీఅద్బైతచంద్ర",
+            "జలరసధారా తాహె రాయరామానంద 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хуḓ хуḓш́абдэ̆ а̄ила ш́рӣадбаитачандра",
+            "джаларасадха̄ра̄ та̄хэ̆ ра̄йара̄ма̄нанда 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹുḓ ഹുḓശബ്ദെ ആഇല ശ്രീഅദ്ബൈതചന്ദ്ര",
+            "ജലരസധാരാ താഹെ രായരാമാനന്ദ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹுḓ ஹுḓஶப்³தெ³ ஆஇல ஶ்ரீஅத்³பை³தசந்த்³ர",
+            "ஜலரஸதா⁴ரா தாஹெ ராயராமானந்த³ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "huḍ huḍ-śabde āila śrīadbaitacandra",
+            "jala-rasadhārā tāhe rāya-rāmānanda 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "huḓ huḓ-śabde āila śrīadbaitacandra",
+            "jala-rasadhārā tāhe rāya-rāmānanda 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "cauṣaṭṭi mahānta āila meghe śobhā kari’",
+        "śrīrūpa[FLAG_HYPHEN_ALPHA]sanātana tāhe ha·ila bijuri 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "The sixty-four great saints came, beautifying that cloud bank, and Śrī Rūpa-Sanātana flashed as its lightning."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "cauṣaṭṭi mahānta",
+              "the sixty-four great associates of Mahāprabhu"
+            ],
+            [
+              "āila",
+              "came"
+            ],
+            [
+              "meghe",
+              "to the cloud"
+            ],
+            [
+              "śobhā kari’",
+              "having beautied"
+            ],
+            [
+              "śrīrūpa sanātana",
+              "Śrī Rūpa and Śrī Sanātana"
+            ],
+            [
+              "tāhe",
+              "from that [cloud]"
+            ],
+            [
+              "ha·ila",
+              "became"
+            ],
+            [
+              "bijuri",
+              "lightning"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "चौषट्टि महान्त",
+              "the sixty-four great associates of Mahāprabhu"
+            ],
+            [
+              "आइल",
+              "came"
+            ],
+            [
+              "मॆघॆ",
+              "to the cloud"
+            ],
+            [
+              "शॊभा करिऽ",
+              "having beautied"
+            ],
+            [
+              "श्रीरूप सनातन",
+              "Śrī Rūpa and Śrī Sanātana"
+            ],
+            [
+              "ताहॆ",
+              "from that [cloud]"
+            ],
+            [
+              "हइल",
+              "became"
+            ],
+            [
+              "बिजुरि",
+              "lightning"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "চৌষট্টি মহান্ত",
+              "the sixty-four great associates of Mahāprabhu"
+            ],
+            [
+              "আইল",
+              "came"
+            ],
+            [
+              "মেঘে",
+              "to the cloud"
+            ],
+            [
+              "শোভা করিঽ",
+              "having beautied"
+            ],
+            [
+              "শ্রীরূপ সনাতন",
+              "Śrī Rūpa and Śrī Sanātana"
+            ],
+            [
+              "তাহে",
+              "from that [cloud]"
+            ],
+            [
+              "হইল",
+              "became"
+            ],
+            [
+              "বিজুরি",
+              "lightning"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ચૌષટ્ટિ મહાન્ત",
+              "the sixty-four great associates of Mahāprabhu"
+            ],
+            [
+              "આઇલ",
+              "came"
+            ],
+            [
+              "મેઘે",
+              "to the cloud"
+            ],
+            [
+              "શોભા કરિઽ",
+              "having beautied"
+            ],
+            [
+              "શ્રીરૂપ સનાતન",
+              "Śrī Rūpa and Śrī Sanātana"
+            ],
+            [
+              "તાહે",
+              "from that [cloud]"
+            ],
+            [
+              "હઇલ",
+              "became"
+            ],
+            [
+              "બિજુરિ",
+              "lightning"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "चौषट्टि महान्त आइल मॆघॆ शॊभा करिऽ",
+            "श्रीरूपसनातन ताहॆ हइल बिजुरि ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "চৌষট্টি মহান্ত আইল মেঘে শোভা করিঽ",
+            "শ্রীরূপসনাতন তাহে হইল বিজুরি ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଚୌଷଟ୍ଟି ମହାନ୍ତ ଆଇଲ ମେଘେ ଶୋଭା କରିଽ",
+            "ଶ୍ରୀରୂପସନାତନ ତାହେ ହଇଲ ବିଜୁରି ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ચૌષટ્ટિ મહાન્ત આઇલ મેઘે શોભા કરિઽ",
+            "શ્રીરૂપસનાતન તાહે હઇલ બિજુરિ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "cauṣaṭṭi mahānta āila meghe śobhā kari’",
+            "śrīrūpa-sanātana tāhe ha·ila bijuri 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಚೌಷಟ್ಟಿ ಮಹಾಂತ ಆಇಲ ಮೆಘೆ ಶೊಭಾ ಕರಿಽ",
+            "ಶ್ರೀರೂಪಸನಾತನ ತಾಹೆ ಹಇಲ ಬಿಜುರಿ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "చౌషట్టి మహాంత ఆఇల మెఘె శొభా కరిఽ",
+            "శ్రీరూపసనాతన తాహె హఇల బిజురి 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "чаушат̣т̣и маха̄нта а̄ила мэ̆гхэ̆ ш́о̆бха̄ кари'",
+            "ш́рӣрӯпасана̄тана та̄хэ̆ хаила биджури 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ചൗഷട്ടി മഹാന്ത ആഇല മെഘെ ശൊഭാ കരിഽ",
+            "ശ്രീരൂപസനാതന താഹെ ഹഇല ബിജുരി 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "சௌஷட்டி மஹாந்த ஆஇல மெகெ⁴ ஶொபா⁴ கரி(அ)",
+            "ஶ்ரீரூபஸனாதன தாஹெ ஹஇல பி³ஜுரி 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "cauṣaṭṭi mahānta āila meghe śobhā kari’",
+            "śrīrūpa-sanātana tāhe ha·ila bijuri 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "cauṣaṭṭi mahānta āila meghe śobhā kari’",
+            "śrīrūpa-sanātana tāhe ha·ila bijuri 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "kṛṣṇadāsa kabirāja rasera bhāṇḍārī",
+        "yatane rākhila prema hemakumbha bhari’ 5"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Kṛṣṇadāsa Kavirāja became the storekeeper of that rasa. He collected that prema and kept it carefully in a golden pot."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "kṛṣṇadāsa kabirāja",
+              "Kṛṣṇadāsa Kavirāja"
+            ],
+            [
+              "rasera",
+              "of rasa"
+            ],
+            [
+              "bhāṇḍārī",
+              "storekeeper"
+            ],
+            [
+              "yatane",
+              "carefully"
+            ],
+            [
+              "rākhila",
+              "kept"
+            ],
+            [
+              "prema",
+              "the divine love"
+            ],
+            [
+              "hemakumbha",
+              "golden + pot"
+            ],
+            [
+              "bhari’",
+              "having filled"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "क्ड़्ष्णदास कबिराज",
+              "Kṛṣṇadāsa Kavirāja"
+            ],
+            [
+              "रसॆर",
+              "of rasa"
+            ],
+            [
+              "भाण्डारी",
+              "storekeeper"
+            ],
+            [
+              "यतनॆ",
+              "carefully"
+            ],
+            [
+              "राखिल",
+              "kept"
+            ],
+            [
+              "प्रॆम",
+              "the divine love"
+            ],
+            [
+              "हॆमकुम्भ",
+              "golden + pot"
+            ],
+            [
+              "भरिऽ",
+              "having filled"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ক্ড়্ষ্ণদাস কবিরাজ",
+              "Kṛṣṇadāsa Kavirāja"
+            ],
+            [
+              "রসের",
+              "of rasa"
+            ],
+            [
+              "ভাণ্ডারী",
+              "storekeeper"
+            ],
+            [
+              "যতনে",
+              "carefully"
+            ],
+            [
+              "রাখিল",
+              "kept"
+            ],
+            [
+              "প্রেম",
+              "the divine love"
+            ],
+            [
+              "হেমকুম্ভ",
+              "golden + pot"
+            ],
+            [
+              "ভরিঽ",
+              "having filled"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ક્ડ઼્ષ્ણદાસ કબિરાજ",
+              "Kṛṣṇadāsa Kavirāja"
+            ],
+            [
+              "રસેર",
+              "of rasa"
+            ],
+            [
+              "ભાણ્ડારી",
+              "storekeeper"
+            ],
+            [
+              "યતને",
+              "carefully"
+            ],
+            [
+              "રાખિલ",
+              "kept"
+            ],
+            [
+              "પ્રેમ",
+              "the divine love"
+            ],
+            [
+              "હેમકુમ્ભ",
+              "golden + pot"
+            ],
+            [
+              "ભરિઽ",
+              "having filled"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "क्ड़्ष्णदास कबिराज रसॆर भाण्डारी",
+            "यतनॆ राखिल प्रॆम हॆमकुम्भ भरिऽ ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ক্ড়্ষ্ণদাস কবিরাজ রসের ভাণ্ডারী",
+            "যতনে রাখিল প্রেম হেমকুম্ভ ভরিঽ ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କ୍ଡ଼୍ଷ୍ଣଦାସ କବିରାଜ ରସେର ଭାଣ୍ଡାରୀ",
+            "ଯତନେ ରାଖିଲ ପ୍ରେମ ହେମକୁମ୍ଭ ଭରିଽ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ક્ડ઼્ષ્ણદાસ કબિરાજ રસેર ભાણ્ડારી",
+            "યતને રાખિલ પ્રેમ હેમકુમ્ભ ભરિઽ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kṛṣṇadāsa kabirāja rasera bhāṇḍārī",
+            "yatane rākhila prema hemakumbha bhari’ 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕ್‌ಡ಼್ಷ್ಣದಾಸ ಕಬಿರಾಜ ರಸೆರ ಭಾಂಡಾರೀ",
+            "ಯತನೆ ರಾಖಿಲ ಪ್ರೆಮ ಹೆಮಕುಂಭ ಭರಿಽ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "క్డ్ష్ణదాస కబిరాజ రసెర భాండారీ",
+            "యతనె రాఖిల ప్రెమ హెమకుంభ భరిఽ 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кр̤шн̣ада̄са кабира̄джа расэ̆ра бха̄н̣д̣а̄рӣ",
+            "йатанэ̆ ра̄кхила прэ̆ма хэ̆макумбха бхари' 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ക്ഡ്ഷ്ണദാസ കബിരാജ രസെര ഭാണ്ഡാരീ",
+            "യതനെ രാഖില പ്രെമ ഹെമകുംഭ ഭരിഽ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "க்ஃட்²ஷ்ணதா³ஸ கபி³ராஜ ரஸெர பா⁴ண்டா³ரீ",
+            "யதனெ ராகி²ல ப்ரெம ஹெமகும்ப⁴ ப⁴ரி(அ) 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kṛṣṇadāsa kabirāja rasera bhāṇḍārī",
+            "yatane rākhila prema hemakumbha bhari’ 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kṛṣṇadāsa kabirāja rasera bhāṇḍārī",
+            "yatane rākhila prema hemakumbha bhari’ 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "ebe sei prema la’ye jagajane dila",
+        "e[FLAG_HYPHEN_ALPHA]dāsa locana[FLAG_HYPHEN_ALPHA]bhāgye bindu nā milila 6"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "They distributed this prema to the people of the world, but due to his misfortune, this Locana dāsa did not receive a single drop."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "ebe",
+              "now"
+            ],
+            [
+              "sei",
+              "that"
+            ],
+            [
+              "prema",
+              "divine love"
+            ],
+            [
+              "la’ye",
+              "having taken"
+            ],
+            [
+              "jagajane",
+              "to the people of the world"
+            ],
+            [
+              "dila",
+              "gave"
+            ],
+            [
+              "e",
+              "this"
+            ],
+            [
+              "dāsa locana",
+              "Locana dāsa"
+            ],
+            [
+              "bhāgye",
+              "fate"
+            ],
+            [
+              "bindu",
+              "a drop"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "milila",
+              "received"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "ऎबॆ",
+              "now"
+            ],
+            [
+              "सॆइ",
+              "that"
+            ],
+            [
+              "प्रॆम",
+              "divine love"
+            ],
+            [
+              "लऽयॆ",
+              "having taken"
+            ],
+            [
+              "जगजनॆ",
+              "to the people of the world"
+            ],
+            [
+              "दिल",
+              "gave"
+            ],
+            [
+              "ऎ",
+              "this"
+            ],
+            [
+              "दास लॊचन",
+              "Locana dāsa"
+            ],
+            [
+              "भाग्यॆ",
+              "fate"
+            ],
+            [
+              "बिन्दु",
+              "a drop"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "मिलिल",
+              "received"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "এবে",
+              "now"
+            ],
+            [
+              "সেই",
+              "that"
+            ],
+            [
+              "প্রেম",
+              "divine love"
+            ],
+            [
+              "লঽয়ে",
+              "having taken"
+            ],
+            [
+              "জগজনে",
+              "to the people of the world"
+            ],
+            [
+              "দিল",
+              "gave"
+            ],
+            [
+              "এ",
+              "this"
+            ],
+            [
+              "দাস লোচন",
+              "Locana dāsa"
+            ],
+            [
+              "ভাগ্যে",
+              "fate"
+            ],
+            [
+              "বিন্দু",
+              "a drop"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "মিলিল",
+              "received"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "એબે",
+              "now"
+            ],
+            [
+              "સેઇ",
+              "that"
+            ],
+            [
+              "પ્રેમ",
+              "divine love"
+            ],
+            [
+              "લઽયે",
+              "having taken"
+            ],
+            [
+              "જગજને",
+              "to the people of the world"
+            ],
+            [
+              "દિલ",
+              "gave"
+            ],
+            [
+              "એ",
+              "this"
+            ],
+            [
+              "દાસ લોચન",
+              "Locana dāsa"
+            ],
+            [
+              "ભાગ્યે",
+              "fate"
+            ],
+            [
+              "બિન્દુ",
+              "a drop"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "મિલિલ",
+              "received"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎबॆ सॆइ प्रॆम लऽयॆ जगजनॆ दिल",
+            "ऎदास लॊचनभाग्यॆ बिन्दु ना मिलिल ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এবে সেই প্রেম লঽয়ে জগজনে দিল",
+            "এদাস লোচনভাগ্যে বিন্দু না মিলিল ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏବେ ସେଇ ପ୍ରେମ ଲଽୟେ ଜଗଜନେ ଦିଲ",
+            "ଏଦାସ ଲୋଚନଭାଗ୍ୟେ ବିନ୍ଦୁ ନା ମିଲିଲ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એબે સેઇ પ્રેમ લઽયે જગજને દિલ",
+            "એદાસ લોચનભાગ્યે બિન્દુ ના મિલિલ ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ebe sei prema la’ye jagajane dila",
+            "e-dāsa locana-bhāgye bindu nā milila 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎಬೆ ಸೆಇ ಪ್ರೆಮ ಲಽಯೆ ಜಗಜನೆ ದಿಲ",
+            "ಎದಾಸ ಲೊಚನಭಾಗ್ಯೆ ಬಿಂದು ನಾ ಮಿಲಿಲ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎబె సెఇ ప్రెమ లఽయె జగజనె దిల",
+            "ఎదాస లొచనభాగ్యె బిందు నా మిలిల 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆бэ̆ сэ̆и прэ̆ма ла'йэ̆ джагаджанэ̆ дила",
+            "э̆да̄са ло̆чанабха̄гйэ̆ бинду на̄ милила 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എബെ സെഇ പ്രെമ ലഽയെ ജഗജനെ ദില",
+            "എദാസ ലൊചനഭാഗ്യെ ബിന്ദു നാ മിലില 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எபெ³ ஸெஇ ப்ரெம ல(அ)யெ ஜக³ஜனெ தி³ல",
+            "எதா³ஸ லொசனபா⁴க்³யெ பி³ந்து³ நா மிலில 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ebe sei prema la’ye jagajane dila",
+            "e-dāsa locana-bhāgye bindu nā milila 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ebe sei prema la’ye jagajane dila",
+            "e-dāsa locana-bhāgye bindu nā milila 6"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "vraj-1",
+      "filename": "GP2-vraj-1.mp3",
+      "artist": "Vraj Mohan das"
+    }
+  ],
+  "tags": [
+    "Gaurāṅga with His Associates",
+    "The Glories of Śrī Gaurāṅga and His Associates"
+  ]
+}

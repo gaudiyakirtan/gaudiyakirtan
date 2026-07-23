@@ -1,0 +1,1361 @@
+{
+  "uid": "GH17",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "জয় জয় সর্ব্ব-প্রাণনাথ বিশ্বম্ভর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "jaya jaya sarba-prāṇanātha biśbambhara"
+    },
+    {
+      "script_code": "Deva",
+      "text": "जय जय सर्ब-प्राणनाथ बिश्बम्भर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "జయ జయ సర్బ-ప్రాణనాథ బిశ్బంభర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಜಯ ಜಯ ಸರ್ಬ-ಪ್ರಾಣನಾಥ ಬಿಶ್ಬಂಭರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஜய ஜய ஸர்ப³-ப்ராணநாத² பி³ஶ்ப³ம்ப⁴ர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ജയ ജയ സർബ-പ്രാണനാഥ ബിശ്ബംഭര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "જય જય સર્બ-પ્રાણનાથ બિશ્બમ્ભર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଜୟ ଜୟ ସର୍ବ-ପ୍ରାଣନାଥ ବିଶ୍ବମ୍ଭର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "джайа джайа сарба-пра̄н̣ана̄тха биш́бамбхара"
+    }
+  ],
+  "author_uid": "vdt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ৱৃন্দাৱন দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Vṛndāvana dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील वृन्दावन दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల వృందావన దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ವೃಂದಾವನ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல வ்ருʼந்தா³வன தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല വൃന്ദാവന ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ વૃન્દાવન દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ବୃନ୍ଦାବନ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла вр̣нда̄вана да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "jaya jaya sarba[FLAG_HYPHEN_ALPHA]prāṇanātha biśbambhara",
+        "jaya jaya gauracandra karuṇāsāgara 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय सर्बप्राणनाथ बिश्बम्भर",
+            "जय जय गौरचन्द्र करुणासागर १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় সর্বপ্রাণনাথ বিশ্বম্ভর",
+            "জয় জয় গৌরচন্দ্র করুণাসাগর ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ସର୍ବପ୍ରାଣନାଥ ବିଶ୍ବମ୍ଭର",
+            "ଜୟ ଜୟ ଗୌରଚନ୍ଦ୍ର କରୁଣାସାଗର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય સર્બપ્રાણનાથ બિશ્બમ્ભર",
+            "જય જય ગૌરચન્દ્ર કરુણાસાગર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya sarba-prāṇanātha biśbambhara",
+            "jaya jaya gauracandra karuṇāsāgara 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ಸರ್ಬಪ್ರಾಣನಾಥ ಬಿಶ್ಬಂಭರ",
+            "ಜಯ ಜಯ ಗೌರಚಂದ್ರ ಕರುಣಾಸಾಗರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ సర్బప్రాణనాథ బిశ్బంభర",
+            "జయ జయ గౌరచంద్ర కరుణాసాగర 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа сарбапра̄н̣ана̄тха биш́бамбхара",
+            "джайа джайа гаурачандра карун̣а̄са̄гара 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ സർബപ്രാണനാഥ ബിശ്ബംഭര",
+            "ജയ ജയ ഗൗരചന്ദ്ര കരുണാസാഗര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ஸர்ப³ப்ராணநாத² பி³ஶ்ப³ம்ப⁴ர",
+            "ஜய ஜய கௌ³ரசந்த்³ர கருணாஸாக³ர 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya sarba-prāṇanātha biśbambhara",
+            "jaya jaya gauracandra karuṇāsāgara 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya sarba-prāṇanātha biśbambhara",
+            "jaya jaya gauracandra karuṇāsāgara 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "jaya jaya bhakatabacana[FLAG_HYPHEN_ALPHA]satyakārī",
+        "jaya jaya mahāprabhu mahā[FLAG_HYPHEN_ALPHA]abatārī 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय भकतबचनसत्यकारी",
+            "जय जय महाप्रभु महाअबतारी २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় ভকতবচনসত্যকারী",
+            "জয় জয় মহাপ্রভু মহাঅবতারী ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ଭକତବଚନସତ୍ୟକାରୀ",
+            "ଜୟ ଜୟ ମହାପ୍ରଭୁ ମହାଅବତାରୀ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય ભકતબચનસત્યકારી",
+            "જય જય મહાપ્રભુ મહાઅબતારી ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya bhakatabacana-satyakārī",
+            "jaya jaya mahāprabhu mahā-abatārī 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ಭಕತಬಚನಸತ್ಯಕಾರೀ",
+            "ಜಯ ಜಯ ಮಹಾಪ್ರಭು ಮಹಾಅಬತಾರೀ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ భకతబచనసత్యకారీ",
+            "జయ జయ మహాప్రభు మహాఅబతారీ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа бхакатабачанасатйака̄рӣ",
+            "джайа джайа маха̄прабху маха̄абата̄рӣ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ ഭകതബചനസത്യകാരീ",
+            "ജയ ജയ മഹാപ്രഭു മഹാഅബതാരീ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ப⁴கதப³சனஸத்யகாரீ",
+            "ஜய ஜய மஹாப்ரபு⁴ மஹாஅப³தாரீ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya bhakatabacana-satyakārī",
+            "jaya jaya mahāprabhu mahā-abatārī 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya bhakatabacana-satyakārī",
+            "jaya jaya mahāprabhu mahā-abatārī 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "jaya jaya sindhusutā[FLAG_HYPHEN_ALPHA]rūpa[FLAG_HYPHEN_ALPHA]manorama",
+        "jaya jaya śrībatsa[FLAG_HYPHEN_ALPHA]kaustubha[FLAG_HYPHEN_ALPHA]bibhuṣaṇa 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय सिन्धुसुतारूपमनॊरम",
+            "जय जय श्रीबत्सकौस्तुभबिभुषण ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় সিন্ধুসুতারূপমনোরম",
+            "জয় জয় শ্রীবৎসকৌস্তুভবিভুষণ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ସିନ୍ଧୁସୁତାରୂପମନୋରମ",
+            "ଜୟ ଜୟ ଶ୍ରୀବତ୍ସକୌସ୍ତୁଭବିଭୁଷଣ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય સિન્ધુસુતારૂપમનોરમ",
+            "જય જય શ્રીબત્સકૌસ્તુભબિભુષણ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya sindhusutā-rūpa-manorama",
+            "jaya jaya śrībatsa-kaustubha-bibhuṣaṇa 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ಸಿಂಧುಸುತಾರೂಪಮನೊರಮ",
+            "ಜಯ ಜಯ ಶ್ರೀಬತ್ಸಕೌಸ್ತುಭಬಿಭುಷಣ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ సింధుసుతారూపమనొరమ",
+            "జయ జయ శ్రీబత్సకౌస్తుభబిభుషణ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа синдхусута̄рӯпамано̆рама",
+            "джайа джайа ш́рӣбатсакаустубхабибхушан̣а 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ സിന്ധുസുതാരൂപമനൊരമ",
+            "ജയ ജയ ശ്രീബത്സകൗസ്തുഭബിഭുഷണ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ஸிந்து⁴ஸுதாரூபமனொரம",
+            "ஜய ஜய ஶ்ரீப³த்ஸகௌஸ்துப⁴பி³பு⁴ஷண 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya sindhusutā-rūpa-manorama",
+            "jaya jaya śrībatsa-kaustubha-bibhuṣaṇa 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya sindhusutā-rūpa-manorama",
+            "jaya jaya śrībatsa-kaustubha-bibhuṣaṇa 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "jaya jaya ‘hare kṛṣṇa’[FLAG_HYPHEN_ALPHA]mantrera prakāśa",
+        "jaya jaya nijabhakti[FLAG_HYPHEN_ALPHA]grahaṇa[FLAG_HYPHEN_ALPHA]bilāsa 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय ‘हरॆ क्ड़्ष्णऽमन्त्रॆर प्रकाश",
+            "जय जय निजभक्तिग्रहणबिलास ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় ‘হরে ক্ড়্ষ্ণঽমন্ত্রের প্রকাশ",
+            "জয় জয় নিজভক্তিগ্রহণবিলাস ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ‘ହରେ କ୍ଡ଼୍ଷ୍ଣଽମନ୍ତ୍ରେର ପ୍ରକାଶ",
+            "ଜୟ ଜୟ ନିଜଭକ୍ତିଗ୍ରହଣବିଲାସ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય ‘હરે ક્ડ઼્ષ્ણઽમન્ત્રેર પ્રકાશ",
+            "જય જય નિજભક્તિગ્રહણબિલાસ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya ‘hare kṛṣṇa’-mantrera prakāśa",
+            "jaya jaya nijabhakti-grahaṇa-bilāsa 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ‘ಹರೆ ಕ್‌ಡ಼್ಷ್ಣಽಮಂತ್ರೆರ ಪ್ರಕಾಶ",
+            "ಜಯ ಜಯ ನಿಜಭಕ್ತಿಗ್ರಹಣಬಿಲಾಸ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ ‘హరె క్డ్ష్ణఽమంత్రెర ప్రకాశ",
+            "జయ జయ నిజభక్తిగ్రహణబిలాస 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ‘харэ̆ кр̤шн̣а'мантрэ̆ра прака̄ш́а",
+            "джайа джайа ниджабхактиграхан̣абила̄са 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ ‘ഹരെ ക്ഡ്ഷ്ണഽമന്ത്രെര പ്രകാശ",
+            "ജയ ജയ നിജഭക്തിഗ്രഹണബിലാസ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ‘ஹரெ க்ஃட்²ஷ்ண(அ)மந்த்ரெர ப்ரகாஶ",
+            "ஜய ஜய நிஜப⁴க்திக்³ரஹணபி³லாஸ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya ‘hare kṛṣṇa’-mantrera prakāśa",
+            "jaya jaya nijabhakti-grahaṇa-bilāsa 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya ‘hare kṛṣṇa’-mantrera prakāśa",
+            "jaya jaya nijabhakti-grahaṇa-bilāsa 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "jaya jaya mahāprabhu ananta śayana",
+        "jaya jaya jaya sarbajībera śaraṇa 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय महाप्रभु अनन्त शयन",
+            "जय जय जय सर्बजीबॆर शरण ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় মহাপ্রভু অনন্ত শয়ন",
+            "জয় জয় জয় সর্বজীবের শরণ ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ମହାପ୍ରଭୁ ଅନନ୍ତ ଶୟନ",
+            "ଜୟ ଜୟ ଜୟ ସର୍ବଜୀବେର ଶରଣ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય મહાપ્રભુ અનન્ત શયન",
+            "જય જય જય સર્બજીબેર શરણ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya mahāprabhu ananta śayana",
+            "jaya jaya jaya sarbajībera śaraṇa 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ಮಹಾಪ್ರಭು ಅನಂತ ಶಯನ",
+            "ಜಯ ಜಯ ಜಯ ಸರ್ಬಜೀಬೆರ ಶರಣ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ మహాప్రభు అనంత శయన",
+            "జయ జయ జయ సర్బజీబెర శరణ 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа маха̄прабху ананта ш́айана",
+            "джайа джайа джайа сарбаджӣбэ̆ра ш́аран̣а 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ മഹാപ്രഭു അനന്ത ശയന",
+            "ജയ ജയ ജയ സർബജീബെര ശരണ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய மஹாப்ரபு⁴ அனந்த ஶயன",
+            "ஜய ஜய ஜய ஸர்ப³ஜீபெ³ர ஶரண 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya mahāprabhu ananta śayana",
+            "jaya jaya jaya sarbajībera śaraṇa 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya mahāprabhu ananta śayana",
+            "jaya jaya jaya sarbajībera śaraṇa 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "tumi biṣṇu, tumi kṛṣṇa, tumi nārāyaṇa",
+        "tumi kara yuge yuge bedera pālana 6"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तुमि बिष्णु, तुमि क्ड़्ष्ण, तुमि नारायण",
+            "तुमि कर युगॆ युगॆ बॆदॆर पालन ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তুমি বিষ্ণু, তুমি ক্ড়্ষ্ণ, তুমি নারায়ণ",
+            "তুমি কর যুগে যুগে বেদের পালন ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତୁମି ବିଷ୍ଣୁ, ତୁମି କ୍ଡ଼୍ଷ୍ଣ, ତୁମି ନାରାୟଣ",
+            "ତୁମି କର ଯୁଗେ ଯୁଗେ ବେଦେର ପାଲନ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તુમિ બિષ્ણુ, તુમિ ક્ડ઼્ષ્ણ, તુમિ નારાયણ",
+            "તુમિ કર યુગે યુગે બેદેર પાલન ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tumi biṣṇu, tumi kṛṣṇa, tumi nārāyaṇa",
+            "tumi kara yuge yuge bedera pālana 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತುಮಿ ಬಿಷ್ಣು, ತುಮಿ ಕ್‌ಡ಼್ಷ್ಣ, ತುಮಿ ನಾರಾಯಣ",
+            "ತುಮಿ ಕರ ಯುಗೆ ಯುಗೆ ಬೆದೆರ ಪಾಲನ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తుమి బిష్ణు, తుమి క్డ్ష్ణ, తుమి నారాయణ",
+            "తుమి కర యుగె యుగె బెదెర పాలన 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "туми бишн̣у, туми кр̤шн̣а, туми на̄ра̄йан̣а",
+            "туми кара йугэ̆ йугэ̆ бэ̆дэ̆ра па̄лана 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തുമി ബിഷ്ണു, തുമി ക്ഡ്ഷ്ണ, തുമി നാരായണ",
+            "തുമി കര യുഗെ യുഗെ ബെദെര പാലന 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "துமி பி³ஷ்ணு, துமி க்ஃட்²ஷ்ண, துமி நாராயண",
+            "துமி கர யுகெ³ யுகெ³ பெ³தெ³ர பாலன 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tumi biṣṇu, tumi kṛṣṇa, tumi nārāyaṇa",
+            "tumi kara yuge yuge bedera pālana 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tumi biṣṇu, tumi kṛṣṇa, tumi nārāyaṇa",
+            "tumi kara yuge yuge bedera pālana 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "sarbadeba[FLAG_HYPHEN_ALPHA]cūḓāmaṇi tumi dbijarāja",
+        "tumi se bhojana kara nīlācala[FLAG_HYPHEN_ALPHA]mājha 7"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सर्बदॆबचूḓआमणि तुमि द्बिजराज",
+            "तुमि सॆ भॊजन कर नीलाचलमाझ ७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সর্বদেবচূḓআমণি তুমি দ্বিজরাজ",
+            "তুমি সে ভোজন কর নীলাচলমাঝ ৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସର୍ବଦେବଚୂḓଆମଣି ତୁମି ଦ୍ବିଜରାଜ",
+            "ତୁମି ସେ ଭୋଜନ କର ନୀଲାଚଲମାଝ ୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સર્બદેબચૂḓઆમણિ તુમિ દ્બિજરાજ",
+            "તુમિ સે ભોજન કર નીલાચલમાઝ ૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sarbadeba-cūḓāmaṇi tumi dbijarāja",
+            "tumi se bhojana kara nīlācala-mājha 7"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸರ್ಬದೆಬಚೂḓಆಮಣಿ ತುಮಿ ದ್ಬಿಜರಾಜ",
+            "ತುಮಿ ಸೆ ಭೊಜನ ಕರ ನೀಲಾಚಲಮಾಝ ೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సర్బదెబచూḓఆమణి తుమి ద్బిజరాజ",
+            "తుమి సె భొజన కర నీలాచలమాఝ 7"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сарбадэ̆бачӯḓа̄ман̣и туми дбиджара̄джа",
+            "туми сэ̆ бхо̆джана кара нӣла̄чалама̄джха 7"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സർബദെബചൂḓആമണി തുമി ദ്ബിജരാജ",
+            "തുമി സെ ഭൊജന കര നീലാചലമാഝ 7"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸர்ப³தெ³ப³சூḓஆமணி துமி த்³பி³ஜராஜ",
+            "துமி ஸெ பொ⁴ஜன கர நீலாசலமாஜ² 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sarbadeba-cūḍāmaṇi tumi dbijarāja",
+            "tumi se bhojana kara nīlācala-mājha 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sarbadeba-cūḓāmaṇi tumi dbijarāja",
+            "tumi se bhojana kara nīlācala-mājha 7"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "source_text_master": [
+        "ei tora duikhāni caraṇa[FLAG_HYPHEN_ALPHA]kamala",
+        "ihāra se rase gaurī[FLAG_HYPHEN_ALPHA]śaṅkara bihbala 8"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎइ तॊर दुइखानि चरणकमल",
+            "इहार सॆ रसॆ गौरीशङ्कर बिह्बल ८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এই তোর দুইখানি চরণকমল",
+            "ইহার সে রসে গৌরীশঙ্কর বিহ্বল ৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏଇ ତୋର ଦୁଇଖାନି ଚରଣକମଲ",
+            "ଇହାର ସେ ରସେ ଗୌରୀଶଙ୍କର ବିହ୍ବଲ ୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એઇ તોર દુઇખાનિ ચરણકમલ",
+            "ઇહાર સે રસે ગૌરીશઙ્કર બિહ્બલ ૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ei tora duikhāni caraṇa-kamala",
+            "ihāra se rase gaurī-śaṅkara bihbala 8"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎಇ ತೊರ ದುಇಖಾನಿ ಚರಣಕಮಲ",
+            "ಇಹಾರ ಸೆ ರಸೆ ಗೌರೀಶಂಕರ ಬಿಹ್ಬಲ ೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎఇ తొర దుఇఖాని చరణకమల",
+            "ఇహార సె రసె గౌరీశంకర బిహ్బల 8"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆и то̆ра дуикха̄ни чаран̣акамала",
+            "иха̄ра сэ̆ расэ̆ гаурӣш́ан̇кара бихбала 8"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എഇ തൊര ദുഇഖാനി ചരണകമല",
+            "ഇഹാര സെ രസെ ഗൗരീശങ്കര ബിഹ്ബല 8"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எஇ தொர து³இகா²னி சரணகமல",
+            "இஹார ஸெ ரஸெ கௌ³ரீஶங்கர பி³ஹ்ப³ல 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ei tora duikhāni caraṇa-kamala",
+            "ihāra se rase gaurī-śaṅkara bihbala 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ei tora duikhāni caraṇa-kamala",
+            "ihāra se rase gaurī-śaṅkara bihbala 8"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 9,
+      "source_text_master": [
+        "ei se caraṇa ramā sebe eka mane",
+        "ihāra se yaśa gāya sahasra[FLAG_HYPHEN_ALPHA]badane 9"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎइ सॆ चरण रमा सॆबॆ ऎक मनॆ",
+            "इहार सॆ यश गाय सहस्रबदनॆ ९"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এই সে চরণ রমা সেবে এক মনে",
+            "ইহার সে যশ গায় সহস্রবদনে ৯"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏଇ ସେ ଚରଣ ରମା ସେବେ ଏକ ମନେ",
+            "ଇହାର ସେ ଯଶ ଗାୟ ସହସ୍ରବଦନେ ୯"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એઇ સે ચરણ રમા સેબે એક મને",
+            "ઇહાર સે યશ ગાય સહસ્રબદને ૯"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ei se caraṇa ramā sebe eka mane",
+            "ihāra se yaśa gāya sahasra-badane 9"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎಇ ಸೆ ಚರಣ ರಮಾ ಸೆಬೆ ಎಕ ಮನೆ",
+            "ಇಹಾರ ಸೆ ಯಶ ಗಾಯ ಸಹಸ್ರಬದನೆ ೯"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎఇ సె చరణ రమా సెబె ఎక మనె",
+            "ఇహార సె యశ గాయ సహస్రబదనె 9"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆и сэ̆ чаран̣а рама̄ сэ̆бэ̆ э̆ка манэ̆",
+            "иха̄ра сэ̆ йаш́а га̄йа сахасрабаданэ̆ 9"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എഇ സെ ചരണ രമാ സെബെ എക മനെ",
+            "ഇഹാര സെ യശ ഗായ സഹസ്രബദനെ 9"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எஇ ஸெ சரண ரமா ஸெபெ³ எக மனெ",
+            "இஹார ஸெ யஶ கா³ய ஸஹஸ்ரப³த³னெ 9"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ei se caraṇa ramā sebe eka mane",
+            "ihāra se yaśa gāya sahasra-badane 9"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ei se caraṇa ramā sebe eka mane",
+            "ihāra se yaśa gāya sahasra-badane 9"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 10,
+      "source_text_master": [
+        "ei se caraṇa brahmā pūjaye sadāya",
+        "śruti[FLAG_HYPHEN_ALPHA]smṛti[FLAG_HYPHEN_ALPHA]purāṇe ihāra yaśa gāya 10"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎइ सॆ चरण ब्रह्मा पूजयॆ सदाय",
+            "श्रुतिस्म्ड़्तिपुराणॆ इहार यश गाय १०"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এই সে চরণ ব্রহ্মা পূজয়ে সদায়",
+            "শ্রুতিস্ম্ড়্তিপুরাণে ইহার যশ গায় ১০"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏଇ ସେ ଚରଣ ବ୍ରହ୍ମା ପୂଜୟେ ସଦାୟ",
+            "ଶ୍ରୁତିସ୍ମ୍ଡ଼୍ତିପୁରାଣେ ଇହାର ଯଶ ଗାୟ ୧୦"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એઇ સે ચરણ બ્રહ્મા પૂજયે સદાય",
+            "શ્રુતિસ્મ્ડ઼્તિપુરાણે ઇહાર યશ ગાય ૧૦"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ei se caraṇa brahmā pūjaye sadāya",
+            "śruti-smṛti-purāṇe ihāra yaśa gāya 10"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎಇ ಸೆ ಚರಣ ಬ್ರಹ್ಮಾ ಪೂಜಯೆ ಸದಾಯ",
+            "ಶ್ರುತಿಸ್ಮ್‌ಡ಼್ತಿಪುರಾಣೆ ಇಹಾರ ಯಶ ಗಾಯ ೧೦"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎఇ సె చరణ బ్రహ్మా పూజయె సదాయ",
+            "శ్రుతిస్మ్డ్తిపురాణె ఇహార యశ గాయ 10"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆и сэ̆ чаран̣а брахма̄ пӯджайэ̆ сада̄йа",
+            "ш́рутисмр̤типура̄н̣э̆ иха̄ра йаш́а га̄йа 10"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എഇ സെ ചരണ ബ്രഹ്മാ പൂജയെ സദായ",
+            "ശ്രുതിസ്മ്ഡ്തിപുരാണെ ഇഹാര യശ ഗായ 10"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எஇ ஸெ சரண ப்³ரஹ்மா பூஜயெ ஸதா³ய",
+            "ஶ்ருதிஸ்ம்ஃட்²திபுராணெ இஹார யஶ கா³ய 10"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ei se caraṇa brahmā pūjaye sadāya",
+            "śruti-smṛti-purāṇe ihāra yaśa gāya 10"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ei se caraṇa brahmā pūjaye sadāya",
+            "śruti-smṛti-purāṇe ihāra yaśa gāya 10"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 11,
+      "source_text_master": [
+        "ei se[FLAG_HYPHEN_ALPHA]caraṇa haite gaṅgā abatāra",
+        "śaṅkara dharilā śire mahābega yāra 11”"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎइ सॆचरण हैतॆ गङ्गा अबतार",
+            "शङ्कर धरिला शिरॆ महाबॆग यार ११”"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এই সেচরণ হৈতে গঙ্গা অবতার",
+            "শঙ্কর ধরিলা শিরে মহাবেগ যার ১১”"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏଇ ସେଚରଣ ହୈତେ ଗଙ୍ଗା ଅବତାର",
+            "ଶଙ୍କର ଧରିଲା ଶିରେ ମହାବେଗ ଯାର ୧୧”"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એઇ સેચરણ હૈતે ગઙ્ગા અબતાર",
+            "શઙ્કર ધરિલા શિરે મહાબેગ યાર ૧૧”"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ei se-caraṇa haite gaṅgā abatāra",
+            "śaṅkara dharilā śire mahābega yāra 11”"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎಇ ಸೆಚರಣ ಹೈತೆ ಗಂಗಾ ಅಬತಾರ",
+            "ಶಂಕರ ಧರಿಲಾ ಶಿರೆ ಮಹಾಬೆಗ ಯಾರ ೧೧”"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎఇ సెచరణ హైతె గంగా అబతార",
+            "శంకర ధరిలా శిరె మహాబెగ యార 11”"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆и сэ̆чаран̣а хаитэ̆ ган̇га̄ абата̄ра",
+            "ш́ан̇кара дхарила̄ ш́ирэ̆ маха̄бэ̆га йа̄ра 11”"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എഇ സെചരണ ഹൈതെ ഗംഗാ അബതാര",
+            "ശങ്കര ധരിലാ ശിരെ മഹാബെഗ യാര 11”"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எஇ ஸெசரண ஹைதெ க³ங்கா³ அப³தார",
+            "ஶங்கர த⁴ரிலா ஶிரெ மஹாபெ³க³ யார 11”"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ei se-caraṇa haite gaṅgā abatāra",
+            "śaṅkara dharilā śire mahābega yāra 11”"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ei se-caraṇa haite gaṅgā abatāra",
+            "śaṅkara dharilā śire mahābega yāra 11”"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 12,
+      "source_text_master": [
+        "eteka barila tora caraṇayugala",
+        "mana, prāṇa, buddhi tohe arpila sakala 12"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎतॆक बरिल तॊर चरणयुगल",
+            "मन, प्राण, बुद्धि तॊहॆ अर्पिल सकल १२"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এতেক বরিল তোর চরণয়ুগল",
+            "মন, প্রাণ, বুদ্ধি তোহে অর্পিল সকল ১২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏତେକ ବରିଲ ତୋର ଚରଣୟୁଗଲ",
+            "ମନ, ପ୍ରାଣ, ବୁଦ୍ଧି ତୋହେ ଅର୍ପିଲ ସକଲ ୧୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એતેક બરિલ તોર ચરણયુગલ",
+            "મન, પ્રાણ, બુદ્ધિ તોહે અર્પિલ સકલ ૧૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "eteka barila tora caraṇayugala",
+            "mana, prāṇa, buddhi tohe arpila sakala 12"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎತೆಕ ಬರಿಲ ತೊರ ಚರಣಯುಗಲ",
+            "ಮನ, ಪ್ರಾಣ, ಬುದ್ಧಿ ತೊಹೆ ಅರ್ಪಿಲ ಸಕಲ ೧೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎతెక బరిల తొర చరణయుగల",
+            "మన, ప్రాణ, బుద్ధి తొహె అర్పిల సకల 12"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆тэ̆ка барила то̆ра чаран̣айугала",
+            "мана, пра̄н̣а, буддхи то̆хэ̆ арпила сакала 12"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എതെക ബരില തൊര ചരണയുഗല",
+            "മന, പ്രാണ, ബുദ്ധി തൊഹെ അർപില സകല 12"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எதெக ப³ரில தொர சரணயுக³ல",
+            "மன, ப்ராண, பு³த்³தி⁴ தொஹெ அர்பில ஸகல 12"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "eteka barila tora caraṇayugala",
+            "mana, prāṇa, buddhi tohe arpila sakala 12"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "eteka barila tora caraṇayugala",
+            "mana, prāṇa, buddhi tohe arpila sakala 12"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শ্রীচৈতন্যভাগবত হইতে উদ্ধৃত ~ From Śrī Caitanya-bhāgavata"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

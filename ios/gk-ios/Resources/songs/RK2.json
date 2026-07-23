@@ -1,0 +1,188 @@
+{
+  "uid": "RK2",
+  "language_of_origin": "san",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "স্ৱপ্ন-ৱিলাসামৃতাষ্টকম্"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "svapna-vilāsāmṛtāṣṭakam"
+    },
+    {
+      "script_code": "Deva",
+      "text": "स्वप्न-विलासामृताष्टकम्"
+    },
+    {
+      "script_code": "Telu",
+      "text": "స్వప్న-విలాసామృతాష్టకం"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಸ್ವಪ್ನ-ವಿಲಾಸಾಮೃತಾಷ್ಟಕಂ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஸ்வப்ன-விலாஸாம்ருʼதாஷ்டகம்"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "സ്വപ്ന-വിലാസാമൃതാഷ്ടകം"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "સ્વપ્ન-વિલાસામૃતાષ્ટકમ્"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ସ୍ୱପ୍ନ-ବିଲାସାମୃତାଷ୍ଟକମ୍"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "свапна-вила̄са̄мр̣та̄шт̣акам"
+    }
+  ],
+  "author_uid": "vct",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ৱিশ্ৱনাথ চক্রৱর্তী ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Viśvanātha Cakravartī Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील विश्वनाथ चक्रवर्ती ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల విశ్వనాథ చక్రవర్తీ ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ವಿಶ್ವನಾಥ ಚಕ್ರವರ್ತೀ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல விஶ்வநாத² சக்ரவர்தீ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല വിശ്വനാഥ ചക്രവർതീ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ વિશ્વનાથ ચક્રવર્તી ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ବିଶ୍ୱନାଥ ଚକ୍ରବର୍ତୀ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла виш́вана̄тха чакравартӣ т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "svapna[FLAG_HYPHEN_ALPHA]vilāsāmṛtāṣṭakam"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "स्वप्नविलासाम्ड़्ताष्टकम्"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "স্বপ্নবিলাসাম্ড়্তাষ্টকম্"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସ୍ୱପ୍ନବିଲାସାମ୍ଡ଼୍ତାଷ୍ଟକମ୍"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સ્વપ્નવિલાસામ્ડ઼્તાષ્ટકમ્"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "svapna-vilāsāmṛtāṣṭakam"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸ್ವಪ್ನವಿಲಾಸಾಂ‌ಡ಼್ತಾಷ್ಟಕಂ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "స్వప్నవిలాసామ్డ్తాష్టకం"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "свапнавила̄са̄мр̤та̄шт̣акам"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സ്വപ്നവിലാസാമ്ഡ്താഷ്ടകം"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸ்வப்னவிலாஸாம்ஃட்²தாஷ்டகம்"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "svapna-vilāsāmṛtāṣṭakam"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "svapna-vilāsāmṛtāṣṭakam"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": []
+}

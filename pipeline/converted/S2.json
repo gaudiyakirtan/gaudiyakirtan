@@ -1,0 +1,936 @@
+{
+ "uid": "S2",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ভুলিয়া তোমারে"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "bhuliyā tomāre"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "bhuliyā tomāre,    saṁsāre āsiyā,",
+    "peye nānābidha byathā",
+    "tomāra caraṇe,    āsiyāchi āmi,",
+    "baliba duḥkhera kathā 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Forgetting You and falling into worldliness, I have suffered many pains. Now, falling at Your feet, I shall tell You my woeful tale."
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भुलिया तॊमारॆ,    संसारॆ आसिया,",
+      "पॆयॆ नानाबिध ब्यथा",
+      "तॊमार चरणॆ,    आसियाछि आमि,",
+      "बलिब दुःखॆर कथा १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভুলিয়া তোমারে,    সংসারে আসিয়া,",
+      "পেয়ে নানাবিধ ব্যথা",
+      "তোমার চরণে,    আসিয়াছি আমি,",
+      "বলিব দুঃখের কথা ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭୁଲିୟା ତୋମାରେ,    ସଂସାରେ ଆସିୟା,",
+      "ପେୟେ ନାନାବିଧ ବ୍ୟଥା",
+      "ତୋମାର ଚରଣେ,    ଆସିୟାଛି ଆମି,",
+      "ବଲିବ ଦୁଃଖେର କଥା ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભુલિયા તોમારે,    સંસારે આસિયા,",
+      "પેયે નાનાબિધ બ્યથા",
+      "તોમાર ચરણે,    આસિયાછિ આમિ,",
+      "બલિબ દુઃખેર કથા ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhuliyā tomāre,    saṁsāre āsiyā,",
+      "peye nānābidha byathā",
+      "tomāra caraṇe,    āsiyāchi āmi,",
+      "baliba duḥkhera kathā 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭುಲಿಯಾ ತೊಮಾರೆ,    ಸಂಸಾರೆ ಆಸಿಯಾ,",
+      "ಪೆಯೆ ನಾನಾಬಿಧ ಬ್ಯಥಾ",
+      "ತೊಮಾರ ಚರಣೆ,    ಆಸಿಯಾಛಿ ಆಮಿ,",
+      "ಬಲಿಬ ದುಃಖೆರ ಕಥಾ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భులియా తొమారె,    సంసారె ఆసియా,",
+      "పెయె నానాబిధ బ్యథా",
+      "తొమార చరణె,    ఆసియాఛి ఆమి,",
+      "బలిబ దుఃఖెర కథా 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бхулийа̄ то̆ма̄рэ̆,    сам̣са̄рэ̆ а̄сийа̄,",
+      "пэ̆йэ̆ на̄на̄бидха бйатха̄",
+      "то̆ма̄ра чаран̣э̆,    а̄сийа̄чхи а̄ми,",
+      "балиба дух̣кхэ̆ра катха̄ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭുലിയാ തൊമാരെ,    സംസാരെ ആസിയാ,",
+      "പെയെ നാനാബിധ ബ്യഥാ",
+      "തൊമാര ചരണെ,    ആസിയാഛി ആമി,",
+      "ബലിബ ദുഃഖെര കഥാ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பு⁴லியா தொமாரெ,    ஸம்ʼஸாரெ ஆஸியா,",
+      "பெயெ நானாபி³த⁴ ப்³யதா²",
+      "தொமார சரணெ,    ஆஸியாசி² ஆமி,",
+      "ப³லிப³ து³꞉கெ²ர கதா² 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhuliyā tomāre,    saṁsāre āsiyā,",
+      "peye nānābidha byathā",
+      "tomāra caraṇe,    āsiyāchi āmi,",
+      "baliba duḥkhera kathā 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhuliyā tomāre,    saṁsāre āsiyā,",
+      "peye nānābidha byathā",
+      "tomāra caraṇe,    āsiyāchi āmi,",
+      "baliba duḥkhera kathā 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "jananī[FLAG_HYPHEN_ALPHA]jaṭhare,    chilāma yakhana,",
+    "biṣama bandhanapāśe",
+    "ekabāra prabhu,    dekhā diyā more,",
+    "bañcile e dīna dāse 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "When I was still in my mother’s womb, I was tightly confined. Once, O Lord, You appeared to me. However, this lowly servitor was simply cheated..."
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जननीजठरॆ,    छिलाम यखन,",
+      "बिषम बन्धनपाशॆ",
+      "ऎकबार प्रभु,    दॆखा दिया मॊरॆ,",
+      "बञ्चिलॆ ऎ दीन दासॆ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জননীজঠরে,    ছিলাম যখন,",
+      "বিষম বন্ধনপাশে",
+      "একবার প্রভু,    দেখা দিয়া মোরে,",
+      "বঞ্চিলে এ দীন দাসে ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜନନୀଜଠରେ,    ଛିଲାମ ଯଖନ,",
+      "ବିଷମ ବନ୍ଧନପାଶେ",
+      "ଏକବାର ପ୍ରଭୁ,    ଦେଖା ଦିୟା ମୋରେ,",
+      "ବଞ୍ଚିଲେ ଏ ଦୀନ ଦାସେ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જનનીજઠરે,    છિલામ યખન,",
+      "બિષમ બન્ધનપાશે",
+      "એકબાર પ્રભુ,    દેખા દિયા મોરે,",
+      "બઞ્ચિલે એ દીન દાસે ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jananī-jaṭhare,    chilāma yakhana,",
+      "biṣama bandhanapāśe",
+      "ekabāra prabhu,    dekhā diyā more,",
+      "bañcile e dīna dāse 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜನನೀಜಠರೆ,    ಛಿಲಾಮ ಯಖನ,",
+      "ಬಿಷಮ ಬಂಧನಪಾಶೆ",
+      "ಎಕಬಾರ ಪ್ರಭು,    ದೆಖಾ ದಿಯಾ ಮೊರೆ,",
+      "ಬಂಚಿಲೆ ಎ ದೀನ ದಾಸೆ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జననీజఠరె,    ఛిలామ యఖన,",
+      "బిషమ బంధనపాశె",
+      "ఎకబార ప్రభు,    దెఖా దియా మొరె,",
+      "బంచిలె ఎ దీన దాసె 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джананӣджат̣харэ̆,    чхила̄ма йакхана,",
+      "бишама бандханапа̄ш́э̆",
+      "э̆каба̄ра прабху,    дэ̆кха̄ дийа̄ мо̆рэ̆,",
+      "бан̃чилэ̆ э̆ дӣна да̄сэ̆ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജനനീജഠരെ,    ഛിലാമ യഖന,",
+      "ബിഷമ ബന്ധനപാശെ",
+      "എകബാര പ്രഭു,    ദെഖാ ദിയാ മൊരെ,",
+      "ബഞ്ചിലെ എ ദീന ദാസെ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜனனீஜட²ரெ,    சி²லாம யக²ன,",
+      "பி³ஷம ப³ந்த⁴னபாஶெ",
+      "எகபா³ர ப்ரபு⁴,    தெ³கா² தி³யா மொரெ,",
+      "ப³ஞ்சிலெ எ தீ³ன தா³ஸெ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jananī-jaṭhare,    chilāma yakhana,",
+      "biṣama bandhanapāśe",
+      "ekabāra prabhu,    dekhā diyā more,",
+      "bañcile e dīna dāse 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jananī-jaṭhare,    chilāma yakhana,",
+      "biṣama bandhanapāśe",
+      "ekabāra prabhu,    dekhā diyā more,",
+      "bañcile e dīna dāse 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "takhana bhābinu,    janama pāiyā,",
+    "kariba bhajana taba",
+    "janama ha·ila,    paḓi’ māyā[FLAG_HYPHEN_ALPHA]jāle,",
+    "nā ha·ila jñāna[FLAG_HYPHEN_ALPHA]laba 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "...for I thought that I would take birth and serve You. Instead, I was born and fell into the net of māyā, without a trace of wisdom."
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तखन भाबिनु,    जनम पाइया,",
+      "करिब भजन तब",
+      "जनम हइल,    पḓइऽ मायाजालॆ,",
+      "ना हइल ज्ञानलब ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তখন ভাবিনু,    জনম পাইয়া,",
+      "করিব ভজন তব",
+      "জনম হইল,    পḓইঽ মায়াজালে,",
+      "না হইল জ্ঞানলব ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତଖନ ଭାବିନୁ,    ଜନମ ପାଇୟା,",
+      "କରିବ ଭଜନ ତବ",
+      "ଜନମ ହଇଲ,    ପḓଇଽ ମାୟାଜାଲେ,",
+      "ନା ହଇଲ ଜ୍ଞାନଲବ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તખન ભાબિનુ,    જનમ પાઇયા,",
+      "કરિબ ભજન તબ",
+      "જનમ હઇલ,    પḓઇઽ માયાજાલે,",
+      "ના હઇલ જ્ઞાનલબ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "takhana bhābinu,    janama pāiyā,",
+      "kariba bhajana taba",
+      "janama ha·ila,    paḓi’ māyā-jāle,",
+      "nā ha·ila jñāna-laba 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಖನ ಭಾಬಿನು,    ಜನಮ ಪಾಇಯಾ,",
+      "ಕರಿಬ ಭಜನ ತಬ",
+      "ಜನಮ ಹಇಲ,    ಪḓಇಽ ಮಾಯಾಜಾಲೆ,",
+      "ನಾ ಹಇಲ ಜ್ಞಾನಲಬ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తఖన భాబిను,    జనమ పాఇయా,",
+      "కరిబ భజన తబ",
+      "జనమ హఇల,    పḓఇఽ మాయాజాలె,",
+      "నా హఇల జ్ఞానలబ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "такхана бха̄бину,    джанама па̄ийа̄,",
+      "кариба бхаджана таба",
+      "джанама хаила,    паḓи' ма̄йа̄джа̄лэ̆,",
+      "на̄ хаила джн̃а̄налаба 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തഖന ഭാബിനു,    ജനമ പാഇയാ,",
+      "കരിബ ഭജന തബ",
+      "ജനമ ഹഇല,    പḓഇഽ മായാജാലെ,",
+      "നാ ഹഇല ജ്ഞാനലബ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தக²ன பா⁴பி³னு,    ஜனம பாஇயா,",
+      "கரிப³ ப⁴ஜன தப³",
+      "ஜனம ஹஇல,    பḓஇ(அ) மாயாஜாலெ,",
+      "நா ஹஇல ஜ்ஞானலப³ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "takhana bhābinu,    janama pāiyā,",
+      "kariba bhajana taba",
+      "janama ha·ila,    paḍi’ māyā-jāle,",
+      "nā ha·ila jñāna-laba 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "takhana bhābinu,    janama pāiyā,",
+      "kariba bhajana taba",
+      "janama ha·ila,    paḓi’ māyā-jāle,",
+      "nā ha·ila jñāna-laba 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "ādarera chele,    sbajanera kole,",
+    "hāsiyā kāṭānu kāla",
+    "janaka[FLAG_HYPHEN_ALPHA]jananī,    snehete bhuliyā,",
+    "saṁsāra lāgila bhāla 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Smothered with affection by my family members, sitting in their laps laughing, I wasted time. I forgot everything for the fondness of my parents; worldly life struck me as quite appealing."
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आदरॆर छॆलॆ,    स्बजनॆर कॊलॆ,",
+      "हासिया काटानु काल",
+      "जनकजननी,    स्नॆहॆतॆ भुलिया,",
+      "संसार लागिल भाल ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আদরের ছেলে,    স্বজনের কোলে,",
+      "হাসিয়া কাটানু কাল",
+      "জনকজননী,    স্নেহেতে ভুলিয়া,",
+      "সংসার লাগিল ভাল ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆଦରେର ଛେଲେ,    ସ୍ବଜନେର କୋଲେ,",
+      "ହାସିୟା କାଟାନୁ କାଲ",
+      "ଜନକଜନନୀ,    ସ୍ନେହେତେ ଭୁଲିୟା,",
+      "ସଂସାର ଲାଗିଲ ଭାଲ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આદરેર છેલે,    સ્બજનેર કોલે,",
+      "હાસિયા કાટાનુ કાલ",
+      "જનકજનની,    સ્નેહેતે ભુલિયા,",
+      "સંસાર લાગિલ ભાલ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ādarera chele,    sbajanera kole,",
+      "hāsiyā kāṭānu kāla",
+      "janaka-jananī,    snehete bhuliyā,",
+      "saṁsāra lāgila bhāla 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆದರೆರ ಛೆಲೆ,    ಸ್ಬಜನೆರ ಕೊಲೆ,",
+      "ಹಾಸಿಯಾ ಕಾಟಾನು ಕಾಲ",
+      "ಜನಕಜನನೀ,    ಸ್ನೆಹೆತೆ ಭುಲಿಯಾ,",
+      "ಸಂಸಾರ ಲಾಗಿಲ ಭಾಲ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆదరెర ఛెలె,    స్బజనెర కొలె,",
+      "హాసియా కాటాను కాల",
+      "జనకజననీ,    స్నెహెతె భులియా,",
+      "సంసార లాగిల భాల 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄дарэ̆ра чхэ̆лэ̆,    сбаджанэ̆ра ко̆лэ̆,",
+      "ха̄сийа̄ ка̄т̣а̄ну ка̄ла",
+      "джанакаджананӣ,    снэ̆хэ̆тэ̆ бхулийа̄,",
+      "сам̣са̄ра ла̄гила бха̄ла 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആദരെര ഛെലെ,    സ്ബജനെര കൊലെ,",
+      "ഹാസിയാ കാടാനു കാല",
+      "ജനകജനനീ,    സ്നെഹെതെ ഭുലിയാ,",
+      "സംസാര ലാഗില ഭാല 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆத³ரெர செ²லெ,    ஸ்ப³ஜனெர கொலெ,",
+      "ஹாஸியா காடானு கால",
+      "ஜனகஜனனீ,    ஸ்னெஹெதெ பு⁴லியா,",
+      "ஸம்ʼஸார லாகி³ல பா⁴ல 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ādarera chele,    sbajanera kole,",
+      "hāsiyā kāṭānu kāla",
+      "janaka-jananī,    snehete bhuliyā,",
+      "saṁsāra lāgila bhāla 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ādarera chele,    sbajanera kole,",
+      "hāsiyā kāṭānu kāla",
+      "janaka-jananī,    snehete bhuliyā,",
+      "saṁsāra lāgila bhāla 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "krame dina dina,    bālaka ha·iyā,",
+    "khelinu bālaka[FLAG_HYPHEN_ALPHA]saha",
+    "āra kichu dine,    jñāna upajila,",
+    "pāṭha paḓi’ aharahaḥ 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "I gradually became a small child, playing with other small children. As my awareness of the world grew, I began my daily schooling."
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "क्रमॆ दिन दिन,    बालक हइया,",
+      "खॆलिनु बालकसह",
+      "आर किछु दिनॆ,    ज्ञान उपजिल,",
+      "पाठ पḓइऽ अहरहः ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ক্রমে দিন দিন,    বালক হইয়া,",
+      "খেলিনু বালকসহ",
+      "আর কিছু দিনে,    জ্ঞান উপজিল,",
+      "পাঠ পḓইঽ অহরহঃ ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କ୍ରମେ ଦିନ ଦିନ,    ବାଲକ ହଇୟା,",
+      "ଖେଲିନୁ ବାଲକସହ",
+      "ଆର କିଛୁ ଦିନେ,    ଜ୍ଞାନ ଉପଜିଲ,",
+      "ପାଠ ପḓଇଽ ଅହରହଃ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ક્રમે દિન દિન,    બાલક હઇયા,",
+      "ખેલિનુ બાલકસહ",
+      "આર કિછુ દિને,    જ્ઞાન ઉપજિલ,",
+      "પાઠ પḓઇઽ અહરહઃ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "krame dina dina,    bālaka ha·iyā,",
+      "khelinu bālaka-saha",
+      "āra kichu dine,    jñāna upajila,",
+      "pāṭha paḓi’ aharahaḥ 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕ್ರಮೆ ದಿನ ದಿನ,    ಬಾಲಕ ಹಇಯಾ,",
+      "ಖೆಲಿನು ಬಾಲಕಸಹ",
+      "ಆರ ಕಿಛು ದಿನೆ,    ಜ್ಞಾನ ಉಪಜಿಲ,",
+      "ಪಾಠ ಪḓಇಽ ಅಹರಹಃ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "క్రమె దిన దిన,    బాలక హఇయా,",
+      "ఖెలిను బాలకసహ",
+      "ఆర కిఛు దినె,    జ్ఞాన ఉపజిల,",
+      "పాఠ పḓఇఽ అహరహః 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "крамэ̆ дина дина,    ба̄лака хаийа̄,",
+      "кхэ̆лину ба̄лакасаха",
+      "а̄ра кичху динэ̆,    джн̃а̄на упаджила,",
+      "па̄т̣ха паḓи' ахарахах̣ 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ക്രമെ ദിന ദിന,    ബാലക ഹഇയാ,",
+      "ഖെലിനു ബാലകസഹ",
+      "ആര കിഛു ദിനെ,    ജ്ഞാന ഉപജില,",
+      "പാഠ പḓഇഽ അഹരഹഃ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "க்ரமெ தி³ன தி³ன,    பா³லக ஹஇயா,",
+      "கெ²லினு பா³லகஸஹ",
+      "ஆர கிசு² தி³னெ,    ஜ்ஞான உபஜில,",
+      "பாட² பḓஇ(அ) அஹரஹ꞉ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "krame dina dina,    bālaka ha·iyā,",
+      "khelinu bālaka-saha",
+      "āra kichu dine,    jñāna upajila,",
+      "pāṭha paḍi’ aharahaḥ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "krame dina dina,    bālaka ha·iyā,",
+      "khelinu bālaka-saha",
+      "āra kichu dine,    jñāna upajila,",
+      "pāṭha paḓi’ aharahaḥ 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "bidyāra gaurabe,    bhrami’ deśe deśe,",
+    "dhana upārjana kari",
+    "sbajana[FLAG_HYPHEN_ALPHA]pālana,    kari ekamane,",
+    "bhulinu tomāre hari 6",
+    "bārdhakye ekhana,    bhakatibinoda,",
+    "kā̃diyā kātara ati",
+    "nā bhajiyā tore,    dina bṛthā gela,",
+    "ekhana ki ha’be gati 7"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Proud of my learning, I travelled abroad in search of wealth. Fixated on the maintenance of my family, I forgot You, O Hari!"
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बिद्यार गौरबॆ,    भ्रमिऽ दॆशॆ दॆशॆ,",
+      "धन उपार्जन करि",
+      "स्बजनपालन,    करि ऎकमनॆ,",
+      "भुलिनु तॊमारॆ हरि ६",
+      "बार्धक्यॆ ऎखन,    भकतिबिनॊद,",
+      "कांदिया कातर अति",
+      "ना भजिया तॊरॆ,    दिन ब्ड़्था गॆल,",
+      "ऎखन कि हऽबॆ गति ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বিদ্যার গৌরবে,    ভ্রমিঽ দেশে দেশে,",
+      "ধন উপার্জন করি",
+      "স্বজনপালন,    করি একমনে,",
+      "ভুলিনু তোমারে হরি ৬",
+      "বার্ধক্যে এখন,    ভকতিবিনোদ,",
+      "কান্দিয়া কাতর অতি",
+      "না ভজিয়া তোরে,    দিন ব্ড়্থা গেল,",
+      "এখন কি হঽবে গতি ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବିଦ୍ୟାର ଗୌରବେ,    ଭ୍ରମିଽ ଦେଶେ ଦେଶେ,",
+      "ଧନ ଉପାର୍ଜନ କରି",
+      "ସ୍ବଜନପାଲନ,    କରି ଏକମନେ,",
+      "ଭୁଲିନୁ ତୋମାରେ ହରି ୬",
+      "ବାର୍ଧକ୍ୟେ ଏଖନ,    ଭକତିବିନୋଦ,",
+      "କାନ୍ଦିୟା କାତର ଅତି",
+      "ନା ଭଜିୟା ତୋରେ,    ଦିନ ବ୍ଡ଼୍ଥା ଗେଲ,",
+      "ଏଖନ କି ହଽବେ ଗତି ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બિદ્યાર ગૌરબે,    ભ્રમિઽ દેશે દેશે,",
+      "ધન ઉપાર્જન કરિ",
+      "સ્બજનપાલન,    કરિ એકમને,",
+      "ભુલિનુ તોમારે હરિ ૬",
+      "બાર્ધક્યે એખન,    ભકતિબિનોદ,",
+      "કાંદિયા કાતર અતિ",
+      "ના ભજિયા તોરે,    દિન બ્ડ઼્થા ગેલ,",
+      "એખન કિ હઽબે ગતિ ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bidyāra gaurabe,    bhrami’ deśe deśe,",
+      "dhana upārjana kari",
+      "sbajana-pālana,    kari ekamane,",
+      "bhulinu tomāre hari 6",
+      "bārdhakye ekhana,    bhakatibinoda,",
+      "kā̃diyā kātara ati",
+      "nā bhajiyā tore,    dina bṛthā gela,",
+      "ekhana ki ha’be gati 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬಿದ್ಯಾರ ಗೌರಬೆ,    ಭ್ರಮಿಽ ದೆಶೆ ದೆಶೆ,",
+      "ಧನ ಉಪಾರ್ಜನ ಕರಿ",
+      "ಸ್ಬಜನಪಾಲನ,    ಕರಿ ಎಕಮನೆ,",
+      "ಭುಲಿನು ತೊಮಾರೆ ಹರಿ ೬",
+      "ಬಾರ್ಧಕ್ಯೆ ಎಖನ,    ಭಕತಿಬಿನೊದ,",
+      "ಕಾಂದಿಯಾ ಕಾತರ ಅತಿ",
+      "ನಾ ಭಜಿಯಾ ತೊರೆ,    ದಿನ ಬ್‌ಡ಼್ಥಾ ಗೆಲ,",
+      "ಎಖನ ಕಿ ಹಽಬೆ ಗತಿ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బిద్యార గౌరబె,    భ్రమిఽ దెశె దెశె,",
+      "ధన ఉపార్జన కరి",
+      "స్బజనపాలన,    కరి ఎకమనె,",
+      "భులిను తొమారె హరి 6",
+      "బార్ధక్యె ఎఖన,    భకతిబినొద,",
+      "కాందియా కాతర అతి",
+      "నా భజియా తొరె,    దిన బ్డ్థా గెల,",
+      "ఎఖన కి హఽబె గతి 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бидйа̄ра гаурабэ̆,    бхрами' дэ̆ш́э̆ дэ̆ш́э̆,",
+      "дхана упа̄рджана кари",
+      "сбаджанапа̄лана,    кари э̆каманэ̆,",
+      "бхулину то̆ма̄рэ̆ хари 6",
+      "ба̄рдхакйэ̆ э̆кхана,    бхакатибино̆да,",
+      "ка̄м̣дийа̄ ка̄тара ати",
+      "на̄ бхаджийа̄ то̆рэ̆,    дина бр̤тха̄ гэ̆ла,",
+      "э̆кхана ки ха'бэ̆ гати 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബിദ്യാര ഗൗരബെ,    ഭ്രമിഽ ദെശെ ദെശെ,",
+      "ധന ഉപാർജന കരി",
+      "സ്ബജനപാലന,    കരി എകമനെ,",
+      "ഭുലിനു തൊമാരെ ഹരി 6",
+      "ബാർധക്യെ എഖന,    ഭകതിബിനൊദ,",
+      "കാന്ദിയാ കാതര അതി",
+      "നാ ഭജിയാ തൊരെ,    ദിന ബ്ഡ്ഥാ ഗെല,",
+      "എഖന കി ഹഽബെ ഗതി 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பி³த்³யார கௌ³ரபெ³,    ப்⁴ரமி(அ) தெ³ஶெ தெ³ஶெ,",
+      "த⁴ன உபார்ஜன கரி",
+      "ஸ்ப³ஜனபாலன,    கரி எகமனெ,",
+      "பு⁴லினு தொமாரெ ஹரி 6",
+      "பா³ர்த⁴க்யெ எக²ன,    ப⁴கதிபி³னொத³,",
+      "காந்தி³யா காதர அதி",
+      "நா ப⁴ஜியா தொரெ,    தி³ன ப்³ஃட்²தா² கெ³ல,",
+      "எக²ன கி ஹ(அ)பெ³ க³தி 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bidyāra gaurabe,    bhrami’ deśe deśe,",
+      "dhana upārjana kari",
+      "sbajana-pālana,    kari ekamane,",
+      "bhulinu tomāre hari 6",
+      "bārdhakye ekhana,    bhakatibinoda,",
+      "kā̃diyā kātara ati",
+      "nā bhajiyā tore,    dina bṛthā gela,",
+      "ekhana ki ha’be gati 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bidyāra gaurabe,    bhrami’ deśe deśe,",
+      "dhana upārjana kari",
+      "sbajana-pālana,    kari ekamane,",
+      "bhulinu tomāre hari 6",
+      "bārdhakye ekhana,    bhakatibinoda,",
+      "kā̃diyā kātara ati",
+      "nā bhajiyā tore,    dina bṛthā gela,",
+      "ekhana ki ha’be gati 7"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "(২)"
+  },
+  {
+   "language_code": "ben",
+   "text": "দৈন্য—দুঃখাত্মক, (বাচিক)"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "srrb-1",
+   "filename": "S2-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ],
+ "tags": [
+  "Dainya (Humility)"
+ ]
+}

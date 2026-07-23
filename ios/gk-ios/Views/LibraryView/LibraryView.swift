@@ -12,7 +12,9 @@ struct LibraryView: View {
             )
             .padding(.top, 8)
             
-            // Search bar
+            // Library keeps its own per-category in-place filter (search.md Interactions: do NOT
+            // hijack a Library bar that already does real per-category filtering). Only decorative
+            // bars — the Home bar and the Search tab — route to the global Search screen.
             SearchBar(
                 searchText: $viewModel.searchText,
                 placeholder: viewModel.searchPlaceholder
@@ -40,59 +42,84 @@ struct LibraryView: View {
     // MARK: - Category Content Views
     
     private var songsContent: some View {
+        // Index keyed to the stable `sectionKey` (manifest `first_letter`), so titles can render in
+        // any `listLanguage` without the A–Z sections reshuffling (docs/screens/songs-list.md).
         AlphabeticalScrollView(
             scrollTarget: $viewModel.scrollTarget,
             items: viewModel.filteredSongs,
-            sectionKeyPath: \.title
-        ) { song in
-            SongListItem(song: song)
+            sectionKeyPath: \.sectionKey
+        ) { entry in
+            SongListItem(entry: entry)
                 .padding(.trailing, 20) // Reduced padding for list items
         }
     }
-    
+
     private var authorsContent: some View {
         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
             ForEach(viewModel.filteredAuthors) { author in
-                AuthorCard(author: author)
+                // Tap an author → their filtered song list (songs-list.md "Library (Author)").
+                NavigationLink(destination: AuthorSongsView(authorUid: author.uid)) {
+                    AuthorCard(author: author)
+                }
+                .buttonStyle(PlainButtonStyle())
             }
         }
         .padding(.horizontal)
     }
     
     private var topicsContent: some View {
-        ScrollView {
-            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
-                ForEach(viewModel.filteredTopics) { topic in
-                    // Count songs for this topic (matching by topic name to any tag)
-                    let songCount = viewModel.songs.filter { song in
-                        song.tags.contains(where: { $0.lowercased() == topic.name.lowercased() })
-                    }.count
-                    
-                    TopicCard(
-                        topic: topic,
-                        songCount: songCount,
-                        action: { /* Handle topic selection */ }
-                    )
+        Group {
+            // 74 real topics ship in song_groups.json, so this empty state now only shows for a
+            // search that matches nothing (browse.md "Empty groupings" — never fake rows).
+            if viewModel.filteredTopics.isEmpty {
+                EmptyStateView(
+                    systemImage: "tag",
+                    title: "No topics yet",
+                    message: "Topic groupings will appear here once they're added to the corpus."
+                )
+            } else {
+                ScrollView {
+                    LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
+                        ForEach(viewModel.filteredTopics) { topic in
+                            TopicCard(
+                                topic: topic,
+                                songCount: topic.songUids.isEmpty ? topic.demoSongCount : topic.songUids.count,
+                                action: { /* Handle topic selection */ }
+                            )
+                        }
+                    }
+                    .padding(.horizontal)
                 }
             }
-            .padding(.horizontal)
         }
     }
-    
+
     private var booksContent: some View {
-        ScrollView {
-            LazyVGrid(
-                columns: [
-                    GridItem(.adaptive(minimum: 150, maximum: 160), spacing: 16)
-                ],
-                spacing: 16
-            ) {
-                ForEach(viewModel.filteredBooks) { book in
-                    BookCard(book: book)
-                        .frame(height: 192)
+        Group {
+            // 19 real books ship in song_groups.json, so this empty state now only shows for a
+            // search that matches nothing (browse.md "Empty groupings" — never fake rows).
+            if viewModel.filteredBooks.isEmpty {
+                EmptyStateView(
+                    systemImage: "book.closed",
+                    title: "No books yet",
+                    message: "Books will appear here once they're added to the corpus."
+                )
+            } else {
+                ScrollView {
+                    LazyVGrid(
+                        columns: [
+                            GridItem(.adaptive(minimum: 150, maximum: 160), spacing: 16)
+                        ],
+                        spacing: 16
+                    ) {
+                        ForEach(viewModel.filteredBooks) { book in
+                            BookCard(book: book)
+                                .frame(height: 192)
+                        }
+                    }
+                    .padding(.horizontal)
                 }
             }
-            .padding(.horizontal)
         }
     }
 }

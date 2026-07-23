@@ -1,0 +1,682 @@
+{
+ "uid": "MS19",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "মন, তব কেন এ সংশয় ?"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "mana, taba kena e saṁśaya ?"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "mana, taba kena e saṁśaya ?",
+    "jaḓa[FLAG_HYPHEN_ALPHA]prati ghṛṇā kari’,    bhajite premera hari,",
+    "sbarūpa lakṣite kara’ bhaya 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मन, तब कॆन ऎ संशय ?",
+      "जḓअप्रति घ्ड़्णा करिऽ,    भजितॆ प्रॆमॆर हरि,",
+      "स्बरूप लक्षितॆ करऽ भय १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মন, তব কেন এ সংশয় ?",
+      "জḓঅপ্রতি ঘ্ড়্ণা করিঽ,    ভজিতে প্রেমের হরি,",
+      "স্বরূপ লক্ষিতে করঽ ভয় ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମନ, ତବ କେନ ଏ ସଂଶୟ ?",
+      "ଜḓଅପ୍ରତି ଘ୍ଡ଼୍ଣା କରିଽ,    ଭଜିତେ ପ୍ରେମେର ହରି,",
+      "ସ୍ବରୂପ ଲକ୍ଷିତେ କରଽ ଭୟ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મન, તબ કેન એ સંશય ?",
+      "જḓઅપ્રતિ ઘ્ડ઼્ણા કરિઽ,    ભજિતે પ્રેમેર હરિ,",
+      "સ્બરૂપ લક્ષિતે કરઽ ભય ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "mana, taba kena e saṁśaya ?",
+      "jaḓa-prati ghṛṇā kari’,    bhajite premera hari,",
+      "sbarūpa lakṣite kara’ bhaya 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮನ, ತಬ ಕೆನ ಎ ಸಂಶಯ ?",
+      "ಜḓಅಪ್ರತಿ ಘ್‌ಡ಼್ಣಾ ಕರಿಽ,    ಭಜಿತೆ ಪ್ರೆಮೆರ ಹರಿ,",
+      "ಸ್ಬರೂಪ ಲಕ್ಷಿತೆ ಕರಽ ಭಯ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మన, తబ కెన ఎ సంశయ ?",
+      "జḓఅప్రతి ఘ్డ్ణా కరిఽ,    భజితె ప్రెమెర హరి,",
+      "స్బరూప లక్షితె కరఽ భయ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "мана, таба кэ̆на э̆ сам̣ш́айа ?",
+      "джаḓапрати гхр̤н̣а̄ кари',    бхаджитэ̆ прэ̆мэ̆ра хари,",
+      "сбарӯпа лакшитэ̆ кара' бхайа 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മന, തബ കെന എ സംശയ ?",
+      "ജḓഅപ്രതി ഘ്ഡ്ണാ കരിഽ,    ഭജിതെ പ്രെമെര ഹരി,",
+      "സ്ബരൂപ ലക്ഷിതെ കരഽ ഭയ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மன, தப³ கென எ ஸம்ʼஶய ?",
+      "ஜḓஅப்ரதி க்⁴ஃட்²ணா கரி(அ),    ப⁴ஜிதெ ப்ரெமெர ஹரி,",
+      "ஸ்ப³ரூப லக்ஷிதெ கர(அ) ப⁴ய 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "mana, taba kena e saṁśaya ?",
+      "jaḍa-prati ghṛṇā kari’,    bhajite premera hari,",
+      "sbarūpa lakṣite kara’ bhaya 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "mana, taba kena e saṁśaya ?",
+      "jaḓa-prati ghṛṇā kari’,    bhajite premera hari,",
+      "sbarūpa lakṣite kara’ bhaya 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "sbarūpa karite dhyāna,    pāche jaḓa pāya sthāna,",
+    "ei bhaye bhāba’ brahmamaya",
+    "nirākāra nirañjana,    sarbabyāpī sanātana,",
+    "asbarūpa karicha niścaya 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "स्बरूप करितॆ ध्यान,    पाछॆ जḓअ पाय स्थान,",
+      "ऎइ भयॆ भाबऽ ब्रह्ममय",
+      "निराकार निरञ्जन,    सर्बब्यापी सनातन,",
+      "अस्बरूप करिछ निश्चय २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "স্বরূপ করিতে ধ্যান,    পাছে জḓঅ পায় স্থান,",
+      "এই ভয়ে ভাবঽ ব্রহ্মময়",
+      "নিরাকার নিরঞ্জন,    সর্বব্যাপী সনাতন,",
+      "অস্বরূপ করিছ নিশ্চয় ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସ୍ବରୂପ କରିତେ ଧ୍ୟାନ,    ପାଛେ ଜḓଅ ପାୟ ସ୍ଥାନ,",
+      "ଏଇ ଭୟେ ଭାବଽ ବ୍ରହ୍ମମୟ",
+      "ନିରାକାର ନିରଞ୍ଜନ,    ସର୍ବବ୍ୟାପୀ ସନାତନ,",
+      "ଅସ୍ବରୂପ କରିଛ ନିଶ୍ଚୟ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સ્બરૂપ કરિતે ધ્યાન,    પાછે જḓઅ પાય સ્થાન,",
+      "એઇ ભયે ભાબઽ બ્રહ્મમય",
+      "નિરાકાર નિરઞ્જન,    સર્બબ્યાપી સનાતન,",
+      "અસ્બરૂપ કરિછ નિશ્ચય ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sbarūpa karite dhyāna,    pāche jaḓa pāya sthāna,",
+      "ei bhaye bhāba’ brahmamaya",
+      "nirākāra nirañjana,    sarbabyāpī sanātana,",
+      "asbarūpa karicha niścaya 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸ್ಬರೂಪ ಕರಿತೆ ಧ್ಯಾನ,    ಪಾಛೆ ಜḓಅ ಪಾಯ ಸ್ಥಾನ,",
+      "ಎಇ ಭಯೆ ಭಾಬಽ ಬ್ರಹ್ಮಮಯ",
+      "ನಿರಾಕಾರ ನಿರಂಜನ,    ಸರ್ಬಬ್ಯಾಪೀ ಸನಾತನ,",
+      "ಅಸ್ಬರೂಪ ಕರಿಛ ನಿಶ್ಚಯ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "స్బరూప కరితె ధ్యాన,    పాఛె జḓఅ పాయ స్థాన,",
+      "ఎఇ భయె భాబఽ బ్రహ్మమయ",
+      "నిరాకార నిరంజన,    సర్బబ్యాపీ సనాతన,",
+      "అస్బరూప కరిఛ నిశ్చయ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сбарӯпа каритэ̆ дхйа̄на,    па̄чхэ̆ джаḓа па̄йа стха̄на,",
+      "э̆и бхайэ̆ бха̄ба' брахмамайа",
+      "нира̄ка̄ра ниран̃джана,    сарбабйа̄пӣ сана̄тана,",
+      "асбарӯпа каричха ниш́чайа 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സ്ബരൂപ കരിതെ ധ്യാന,    പാഛെ ജḓഅ പായ സ്ഥാന,",
+      "എഇ ഭയെ ഭാബഽ ബ്രഹ്മമയ",
+      "നിരാകാര നിരഞ്ജന,    സർബബ്യാപീ സനാതന,",
+      "അസ്ബരൂപ കരിഛ നിശ്ചയ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸ்ப³ரூப கரிதெ த்⁴யான,    பாசெ² ஜḓஅ பாய ஸ்தா²ன,",
+      "எஇ ப⁴யெ பா⁴ப³(அ) ப்³ரஹ்மமய",
+      "நிராகார நிரஞ்ஜன,    ஸர்ப³ப்³யாபீ ஸனாதன,",
+      "அஸ்ப³ரூப கரிச² நிஶ்சய 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sbarūpa karite dhyāna,    pāche jaḍa pāya sthāna,",
+      "ei bhaye bhāba’ brahmamaya",
+      "nirākāra nirañjana,    sarbabyāpī sanātana,",
+      "asbarūpa karicha niścaya 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sbarūpa karite dhyāna,    pāche jaḓa pāya sthāna,",
+      "ei bhaye bhāba’ brahmamaya",
+      "nirākāra nirañjana,    sarbabyāpī sanātana,",
+      "asbarūpa karicha niścaya 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "abhāba[FLAG_HYPHEN_ALPHA]dharmera baśe,    sbabhāba nā citte paśe,",
+    "bhābera abhāba tāhe haya",
+    "tyaja ei tarkapāśa,    parānanda[FLAG_HYPHEN_ALPHA]parakāśa,",
+    "kṛṣṇacandre karaha āśraya 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अभाबधर्मॆर बशॆ,    स्बभाब ना चित्तॆ पशॆ,",
+      "भाबॆर अभाब ताहॆ हय",
+      "त्यज ऎइ तर्कपाश,    परानन्दपरकाश,",
+      "क्ड़्ष्णचन्द्रॆ करह आश्रय ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অভাবধর্মের বশে,    স্বভাব না চিত্তে পশে,",
+      "ভাবের অভাব তাহে হয়",
+      "ত্যজ এই তর্কপাশ,    পরানন্দপরকাশ,",
+      "ক্ড়্ষ্ণচন্দ্রে করহ আশ্রয় ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅଭାବଧର୍ମେର ବଶେ,    ସ୍ବଭାବ ନା ଚିତ୍ତେ ପଶେ,",
+      "ଭାବେର ଅଭାବ ତାହେ ହୟ",
+      "ତ୍ୟଜ ଏଇ ତର୍କପାଶ,    ପରାନନ୍ଦପରକାଶ,",
+      "କ୍ଡ଼୍ଷ୍ଣଚନ୍ଦ୍ରେ କରହ ଆଶ୍ରୟ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અભાબધર્મેર બશે,    સ્બભાબ ના ચિત્તે પશે,",
+      "ભાબેર અભાબ તાહે હય",
+      "ત્યજ એઇ તર્કપાશ,    પરાનન્દપરકાશ,",
+      "ક્ડ઼્ષ્ણચન્દ્રે કરહ આશ્રય ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "abhāba-dharmera baśe,    sbabhāba nā citte paśe,",
+      "bhābera abhāba tāhe haya",
+      "tyaja ei tarkapāśa,    parānanda-parakāśa,",
+      "kṛṣṇacandre karaha āśraya 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅಭಾಬಧರ್ಮೆರ ಬಶೆ,    ಸ್ಬಭಾಬ ನಾ ಚಿತ್ತೆ ಪಶೆ,",
+      "ಭಾಬೆರ ಅಭಾಬ ತಾಹೆ ಹಯ",
+      "ತ್ಯಜ ಎಇ ತರ್ಕಪಾಶ,    ಪರಾನಂದಪರಕಾಶ,",
+      "ಕ್‌ಡ಼್ಷ್ಣಚಂದ್ರೆ ಕರಹ ಆಶ್ರಯ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అభాబధర్మెర బశె,    స్బభాబ నా చిత్తె పశె,",
+      "భాబెర అభాబ తాహె హయ",
+      "త్యజ ఎఇ తర్కపాశ,    పరానందపరకాశ,",
+      "క్డ్ష్ణచంద్రె కరహ ఆశ్రయ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "абха̄бадхармэ̆ра баш́э̆,    сбабха̄ба на̄ читтэ̆ паш́э̆,",
+      "бха̄бэ̆ра абха̄ба та̄хэ̆ хайа",
+      "тйаджа э̆и таркапа̄ш́а,    пара̄нандапарака̄ш́а,",
+      "кр̤шн̣ачандрэ̆ караха а̄ш́райа 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അഭാബധർമെര ബശെ,    സ്ബഭാബ നാ ചിത്തെ പശെ,",
+      "ഭാബെര അഭാബ താഹെ ഹയ",
+      "ത്യജ എഇ തർകപാശ,    പരാനന്ദപരകാശ,",
+      "ക്ഡ്ഷ്ണചന്ദ്രെ കരഹ ആശ്രയ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அபா⁴ப³த⁴ர்மெர ப³ஶெ,    ஸ்ப³பா⁴ப³ நா சித்தெ பஶெ,",
+      "பா⁴பெ³ர அபா⁴ப³ தாஹெ ஹய",
+      "த்யஜ எஇ தர்கபாஶ,    பரானந்த³பரகாஶ,",
+      "க்ஃட்²ஷ்ணசந்த்³ரெ கரஹ ஆஶ்ரய 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "abhāba-dharmera baśe,    sbabhāba nā citte paśe,",
+      "bhābera abhāba tāhe haya",
+      "tyaja ei tarkapāśa,    parānanda-parakāśa,",
+      "kṛṣṇacandre karaha āśraya 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "abhāba-dharmera baśe,    sbabhāba nā citte paśe,",
+      "bhābera abhāba tāhe haya",
+      "tyaja ei tarkapāśa,    parānanda-parakāśa,",
+      "kṛṣṇacandre karaha āśraya 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "saccit[FLAG_HYPHEN_ALPHA]ānandamaya,    kṛṣṇera sbarūpa haya,",
+    "sarbānanda[FLAG_HYPHEN_ALPHA]mādhurya[FLAG_HYPHEN_ALPHA]nilaya",
+    "sarbatra sampūrṇa rūpa,    ei eka aparūpa,",
+    "sarbabyāpī brahme tāhā naya 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सच्चितानन्दमय,    क्ड़्ष्णॆर स्बरूप हय,",
+      "सर्बानन्दमाधुर्यनिलय",
+      "सर्बत्र सम्पूर्ण रूप,    ऎइ ऎक अपरूप,",
+      "सर्बब्यापी ब्रह्मॆ ताहा नय ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সচ্চিতানন্দময়,    ক্ড়্ষ্ণের স্বরূপ হয়,",
+      "সর্বানন্দমাধুর্যনিলয়",
+      "সর্বত্র সম্পূর্ণ রূপ,    এই এক অপরূপ,",
+      "সর্বব্যাপী ব্রহ্মে তাহা নয় ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସଚ୍ଚିତାନନ୍ଦମୟ,    କ୍ଡ଼୍ଷ୍ଣେର ସ୍ବରୂପ ହୟ,",
+      "ସର୍ବାନନ୍ଦମାଧୁର୍ୟନିଲୟ",
+      "ସର୍ବତ୍ର ସମ୍ପୂର୍ଣ ରୂପ,    ଏଇ ଏକ ଅପରୂପ,",
+      "ସର୍ବବ୍ୟାପୀ ବ୍ରହ୍ମେ ତାହା ନୟ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સચ્ચિતાનન્દમય,    ક્ડ઼્ષ્ણેર સ્બરૂપ હય,",
+      "સર્બાનન્દમાધુર્યનિલય",
+      "સર્બત્ર સમ્પૂર્ણ રૂપ,    એઇ એક અપરૂપ,",
+      "સર્બબ્યાપી બ્રહ્મે તાહા નય ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "saccit-ānandamaya,    kṛṣṇera sbarūpa haya,",
+      "sarbānanda-mādhurya-nilaya",
+      "sarbatra sampūrṇa rūpa,    ei eka aparūpa,",
+      "sarbabyāpī brahme tāhā naya 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸಚ್ಚಿತಾನಂದಮಯ,    ಕ್‌ಡ಼್ಷ್ಣೆರ ಸ್ಬರೂಪ ಹಯ,",
+      "ಸರ್ಬಾನಂದಮಾಧುರ್ಯನಿಲಯ",
+      "ಸರ್ಬತ್ರ ಸಂಪೂರ್ಣ ರೂಪ,    ಎಇ ಎಕ ಅಪರೂಪ,",
+      "ಸರ್ಬಬ್ಯಾಪೀ ಬ್ರಹ್ಮೆ ತಾಹಾ ನಯ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సచ్చితానందమయ,    క్డ్ష్ణెర స్బరూప హయ,",
+      "సర్బానందమాధుర్యనిలయ",
+      "సర్బత్ర సంపూర్ణ రూప,    ఎఇ ఎక అపరూప,",
+      "సర్బబ్యాపీ బ్రహ్మె తాహా నయ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "саччита̄нандамайа,    кр̤шн̣э̆ра сбарӯпа хайа,",
+      "сарба̄нандама̄дхурйанилайа",
+      "сарбатра сампӯрн̣а рӯпа,    э̆и э̆ка апарӯпа,",
+      "сарбабйа̄пӣ брахмэ̆ та̄ха̄ найа 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സച്ചിതാനന്ദമയ,    ക്ഡ്ഷ്ണെര സ്ബരൂപ ഹയ,",
+      "സർബാനന്ദമാധുര്യനിലയ",
+      "സർബത്ര സമ്പൂർണ രൂപ,    എഇ എക അപരൂപ,",
+      "സർബബ്യാപീ ബ്രഹ്മെ താഹാ നയ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸச்சிதானந்த³மய,    க்ஃட்²ஷ்ணெர ஸ்ப³ரூப ஹய,",
+      "ஸர்பா³னந்த³மாது⁴ர்யநிலய",
+      "ஸர்ப³த்ர ஸம்பூர்ண ரூப,    எஇ எக அபரூப,",
+      "ஸர்ப³ப்³யாபீ ப்³ரஹ்மெ தாஹா நய 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "saccit-ānandamaya,    kṛṣṇera sbarūpa haya,",
+      "sarbānanda-mādhurya-nilaya",
+      "sarbatra sampūrṇa rūpa,    ei eka aparūpa,",
+      "sarbabyāpī brahme tāhā naya 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "saccit-ānandamaya,    kṛṣṇera sbarūpa haya,",
+      "sarbānanda-mādhurya-nilaya",
+      "sarbatra sampūrṇa rūpa,    ei eka aparūpa,",
+      "sarbabyāpī brahme tāhā naya 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "ataeba brahma tā̃’ra,    aṅgakānti subistāra,",
+    "bṛhat baliyā tā̃’re kaya",
+    "brahma parabrahma yei,    śrīkṛṣṇasbarūpa sei,",
+    "binodera yāhāte praṇaya 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अतऎब ब्रह्म तांऽर,    अङ्गकान्ति सुबिस्तार,",
+      "ब्ढ़त् बलिया तांऽरॆ कय",
+      "ब्रह्म परब्रह्म यॆइ,    श्रीक्ड़्ष्णस्बरूप सॆइ,",
+      "बिनॊदॆर याहातॆ प्रणय ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অতএব ব্রহ্ম তাংঽর,    অঙ্গকান্তি সুবিস্তার,",
+      "ব্ঢ়ৎ বলিয়া তাংঽরে কয়",
+      "ব্রহ্ম পরব্রহ্ম যেই,    শ্রীক্ড়্ষ্ণস্বরূপ সেই,",
+      "বিনোদের যাহাতে প্রণয় ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅତଏବ ବ୍ରହ୍ମ ତାଂଽର,    ଅଙ୍ଗକାନ୍ତି ସୁବିସ୍ତାର,",
+      "ବ୍ଢ଼ତ୍ ବଲିୟା ତାଂଽରେ କୟ",
+      "ବ୍ରହ୍ମ ପରବ୍ରହ୍ମ ଯେଇ,    ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣସ୍ବରୂପ ସେଇ,",
+      "ବିନୋଦେର ଯାହାତେ ପ୍ରଣୟ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અતએબ બ્રહ્મ તાંઽર,    અઙ્ગકાન્તિ સુબિસ્તાર,",
+      "બ્ઢ઼ત્ બલિયા તાંઽરે કય",
+      "બ્રહ્મ પરબ્રહ્મ યેઇ,    શ્રીક્ડ઼્ષ્ણસ્બરૂપ સેઇ,",
+      "બિનોદેર યાહાતે પ્રણય ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ataeba brahma tā̃’ra,    aṅgakānti subistāra,",
+      "bṛhat baliyā tā̃’re kaya",
+      "brahma parabrahma yei,    śrīkṛṣṇasbarūpa sei,",
+      "binodera yāhāte praṇaya 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅತಎಬ ಬ್ರಹ್ಮ ತಾಂಽರ,    ಅಂಗಕಾಂತಿ ಸುಬಿಸ್ತಾರ,",
+      "ಬ್‌ಢ಼ತ್ ಬಲಿಯಾ ತಾಂಽರೆ ಕಯ",
+      "ಬ್ರಹ್ಮ ಪರಬ್ರಹ್ಮ ಯೆಇ,    ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಸ್ಬರೂಪ ಸೆಇ,",
+      "ಬಿನೊದೆರ ಯಾಹಾತೆ ಪ್ರಣಯ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అతఎబ బ్రహ్మ తాంఽర,    అంగకాంతి సుబిస్తార,",
+      "బ్ఢత్ బలియా తాంఽరె కయ",
+      "బ్రహ్మ పరబ్రహ్మ యెఇ,    శ్రీక్డ్ష్ణస్బరూప సెఇ,",
+      "బినొదెర యాహాతె ప్రణయ 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "атаэ̆ба брахма та̄м̣'ра,    ан̇гака̄нти субиста̄ра,",
+      "бр̤хат балийа̄ та̄м̣'рэ̆ кайа",
+      "брахма парабрахма йэ̆и,    ш́рӣкр̤шн̣асбарӯпа сэ̆и,",
+      "бино̆дэ̆ра йа̄ха̄тэ̆ пран̣айа 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അതഎബ ബ്രഹ്മ താംഽര,    അംഗകാന്തി സുബിസ്താര,",
+      "ബ്ഢത് ബലിയാ താംഽരെ കയ",
+      "ബ്രഹ്മ പരബ്രഹ്മ യെഇ,    ശ്രീക്ഡ്ഷ്ണസ്ബരൂപ സെഇ,",
+      "ബിനൊദെര യാഹാതെ പ്രണയ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அதஎப³ ப்³ரஹ்ம தாம்ʼ(அ)ர,    அங்க³காந்தி ஸுபி³ஸ்தார,",
+      "ப்³ஃட³த் ப³லியா தாம்ʼ(அ)ரெ கய",
+      "ப்³ரஹ்ம பரப்³ரஹ்ம யெஇ,    ஶ்ரீக்ஃட்²ஷ்ணஸ்ப³ரூப ஸெஇ,",
+      "பி³னொதெ³ர யாஹாதெ ப்ரணய 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ataeba brahma tā̃’ra,    aṅgakānti subistāra,",
+      "bṛhat baliyā tā̃’re kaya",
+      "brahma parabrahma yei,    śrīkṛṣṇasbarūpa sei,",
+      "binodera yāhāte praṇaya 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ataeba brahma tā̃’ra,    aṅgakānti subistāra,",
+      "bṛhat baliyā tā̃’re kaya",
+      "brahma parabrahma yei,    śrīkṛṣṇasbarūpa sei,",
+      "binodera yāhāte praṇaya 5"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- স্বরূপ—সবিশেষ; অস্বরূপ—নির্ব্বিশেষ ।"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Upadeśa from Kalyāṇa Kalpataru"
+ ]
+}

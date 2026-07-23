@@ -1,0 +1,1617 @@
+{
+  "uid": "NK3",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "জয় জয় রাধে কৃষ্ণ গোবিন্দ"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "jaya jaya rādhe kṛṣṇa gobinda"
+    },
+    {
+      "script_code": "Deva",
+      "text": "जय जय राधे कृष्ण गोबिन्द"
+    },
+    {
+      "script_code": "Telu",
+      "text": "జయ జయ రాధే కృష్ణ గోబింద"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಜಯ ಜಯ ರಾಧೇ ಕೃಷ್ಣ ಗೋಬಿಂದ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஜய ஜய ராதே⁴ க்ருʼஷ்ண கோ³பி³ந்த³"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ജയ ജയ രാധേ കൃഷ്ണ ഗോബിന്ദ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "જય જય રાધે કૃષ્ણ ગોબિન્દ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଜୟ ଜୟ ରାଧେ କୃଷ୍ଣ ଗୋବିନ୍ଦ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "джайа джайа ра̄дхэ кр̣шн̣а гобинда"
+    }
+  ],
+  "author_uid": "?",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "অজানা লেখক"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Unknown Author"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "jaya jaya rādhe kṛṣṇa gobinda",
+        "rādhe gobinda rādhe gobinda dhru"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā and Kṛṣṇa, who give pleasure to the cows, gopas, and gopīs."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya jaya",
+              "all glories, all glories"
+            ],
+            [
+              "rādhe",
+              "O Śrī Rādha"
+            ],
+            [
+              "kṛṣṇa",
+              "Śrī Kṛṣṇa"
+            ],
+            [
+              "gobinda",
+              "Śrī Govinda."
+            ],
+            [
+              "rādhe",
+              "O Śrī Rādha"
+            ],
+            [
+              "gobinda",
+              "Śrī Govinda"
+            ],
+            [
+              "rādhe",
+              "O Śrī Rādha"
+            ],
+            [
+              "gobinda",
+              "Śrī Govinda"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय जय",
+              "all glories, all glories"
+            ],
+            [
+              "राधॆ",
+              "O Śrī Rādha"
+            ],
+            [
+              "क्ड़्ष्ण",
+              "Śrī Kṛṣṇa"
+            ],
+            [
+              "गॊबिन्द",
+              "Śrī Govinda."
+            ],
+            [
+              "राधॆ",
+              "O Śrī Rādha"
+            ],
+            [
+              "गॊबिन्द",
+              "Śrī Govinda"
+            ],
+            [
+              "राधॆ",
+              "O Śrī Rādha"
+            ],
+            [
+              "गॊबिन्द",
+              "Śrī Govinda"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয় জয়",
+              "all glories, all glories"
+            ],
+            [
+              "রাধে",
+              "O Śrī Rādha"
+            ],
+            [
+              "ক্ড়্ষ্ণ",
+              "Śrī Kṛṣṇa"
+            ],
+            [
+              "গোবিন্দ",
+              "Śrī Govinda."
+            ],
+            [
+              "রাধে",
+              "O Śrī Rādha"
+            ],
+            [
+              "গোবিন্দ",
+              "Śrī Govinda"
+            ],
+            [
+              "রাধে",
+              "O Śrī Rādha"
+            ],
+            [
+              "গোবিন্দ",
+              "Śrī Govinda"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય જય",
+              "all glories, all glories"
+            ],
+            [
+              "રાધે",
+              "O Śrī Rādha"
+            ],
+            [
+              "ક્ડ઼્ષ્ણ",
+              "Śrī Kṛṣṇa"
+            ],
+            [
+              "ગોબિન્દ",
+              "Śrī Govinda."
+            ],
+            [
+              "રાધે",
+              "O Śrī Rādha"
+            ],
+            [
+              "ગોબિન્દ",
+              "Śrī Govinda"
+            ],
+            [
+              "રાધે",
+              "O Śrī Rādha"
+            ],
+            [
+              "ગોબિન્દ",
+              "Śrī Govinda"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय राधॆ क्ड़्ष्ण गॊबिन्द",
+            "राधॆ गॊबिन्द राधॆ गॊबिन्द ध्रु"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাধে ক্ড়্ষ্ণ গোবিন্দ",
+            "রাধে গোবিন্দ রাধে গোবিন্দ ধ্রু"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାଧେ କ୍ଡ଼୍ଷ୍ଣ ଗୋବିନ୍ଦ",
+            "ରାଧେ ଗୋବିନ୍ଦ ରାଧେ ଗୋବିନ୍ଦ ଧ୍ରୁ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાધે ક્ડ઼્ષ્ણ ગોબિન્દ",
+            "રાધે ગોબિન્દ રાધે ગોબિન્દ ધ્રુ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rādhe kṛṣṇa gobinda",
+            "rādhe gobinda rādhe gobinda dhru"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಧೆ ಕ್‌ಡ಼್ಷ್ಣ ಗೊಬಿಂದ",
+            "ರಾಧೆ ಗೊಬಿಂದ ರಾಧೆ ಗೊಬಿಂದ ಧ್ರು"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాధె క్డ్ష్ణ గొబింద",
+            "రాధె గొబింద రాధె గొబింద ధ్రు"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄дхэ̆ кр̤шн̣а го̆бинда",
+            "ра̄дхэ̆ го̆бинда ра̄дхэ̆ го̆бинда дхру"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാധെ ക്ഡ്ഷ്ണ ഗൊബിന്ദ",
+            "രാധെ ഗൊബിന്ദ രാധെ ഗൊബിന്ദ ധ്രു"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராதெ⁴ க்ஃட்²ஷ்ண கொ³பி³ந்த³",
+            "ராதெ⁴ கொ³பி³ந்த³ ராதெ⁴ கொ³பி³ந்த³ த்⁴ரு"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rādhe kṛṣṇa gobinda",
+            "rādhe gobinda rādhe gobinda dhru"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rādhe kṛṣṇa gobinda",
+            "rādhe gobinda rādhe gobinda dhru"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "jaya jaya śyāmasundara madanamohana",
+        "bṛndābanacandra",
+        "jaya jaya rādhāramaṇa rāsabihārī",
+        "śrīgokulānanda 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Kṛṣna, who has a beautiful dark complexion, who enchants Cupid, and who is the moon of Vṛndāvana. All glories to He who revels with Rādhā, who relishes rāsa-līlā, and who is the joy of the land of Gokula."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya jaya",
+              "all glories, all glories"
+            ],
+            [
+              "śyāmasundara",
+              "He who has a beautiful dark complexion"
+            ],
+            [
+              "madanamohana",
+              "He who enchants Cupid"
+            ],
+            [
+              "bṛndābanacandra",
+              "the moon of Vṛndāvana"
+            ],
+            [
+              "jaya jaya",
+              "all glories, all glories"
+            ],
+            [
+              "rādhāramaṇa",
+              "He who revels with Rādhā"
+            ],
+            [
+              "rāsabihārī",
+              "He who relishes rāsa-līlā"
+            ],
+            [
+              "śrīgokulānanda",
+              "the joy of the land of Gokula"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय जय",
+              "all glories, all glories"
+            ],
+            [
+              "श्यामसुन्दर",
+              "He who has a beautiful dark complexion"
+            ],
+            [
+              "मदनमॊहन",
+              "He who enchants Cupid"
+            ],
+            [
+              "ब्ड़्न्दाबनचन्द्र",
+              "the moon of Vṛndāvana"
+            ],
+            [
+              "जय जय",
+              "all glories, all glories"
+            ],
+            [
+              "राधारमण",
+              "He who revels with Rādhā"
+            ],
+            [
+              "रासबिहारी",
+              "He who relishes rāsa-līlā"
+            ],
+            [
+              "श्रीगॊकुलानन्द",
+              "the joy of the land of Gokula"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয় জয়",
+              "all glories, all glories"
+            ],
+            [
+              "শ্যামসুন্দর",
+              "He who has a beautiful dark complexion"
+            ],
+            [
+              "মদনমোহন",
+              "He who enchants Cupid"
+            ],
+            [
+              "ব্ড়্ন্দাবনচন্দ্র",
+              "the moon of Vṛndāvana"
+            ],
+            [
+              "জয় জয়",
+              "all glories, all glories"
+            ],
+            [
+              "রাধারমণ",
+              "He who revels with Rādhā"
+            ],
+            [
+              "রাসবিহারী",
+              "He who relishes rāsa-līlā"
+            ],
+            [
+              "শ্রীগোকুলানন্দ",
+              "the joy of the land of Gokula"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય જય",
+              "all glories, all glories"
+            ],
+            [
+              "શ્યામસુન્દર",
+              "He who has a beautiful dark complexion"
+            ],
+            [
+              "મદનમોહન",
+              "He who enchants Cupid"
+            ],
+            [
+              "બ્ડ઼્ન્દાબનચન્દ્ર",
+              "the moon of Vṛndāvana"
+            ],
+            [
+              "જય જય",
+              "all glories, all glories"
+            ],
+            [
+              "રાધારમણ",
+              "He who revels with Rādhā"
+            ],
+            [
+              "રાસબિહારી",
+              "He who relishes rāsa-līlā"
+            ],
+            [
+              "શ્રીગોકુલાનન્દ",
+              "the joy of the land of Gokula"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय श्यामसुन्दर मदनमॊहन",
+            "ब्ड़्न्दाबनचन्द्र",
+            "जय जय राधारमण रासबिहारी",
+            "श्रीगॊकुलानन्द १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় শ্যামসুন্দর মদনমোহন",
+            "ব্ড়্ন্দাবনচন্দ্র",
+            "জয় জয় রাধারমণ রাসবিহারী",
+            "শ্রীগোকুলানন্দ ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ଶ୍ୟାମସୁନ୍ଦର ମଦନମୋହନ",
+            "ବ୍ଡ଼୍ନ୍ଦାବନଚନ୍ଦ୍ର",
+            "ଜୟ ଜୟ ରାଧାରମଣ ରାସବିହାରୀ",
+            "ଶ୍ରୀଗୋକୁଲାନନ୍ଦ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય શ્યામસુન્દર મદનમોહન",
+            "બ્ડ઼્ન્દાબનચન્દ્ર",
+            "જય જય રાધારમણ રાસબિહારી",
+            "શ્રીગોકુલાનન્દ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya śyāmasundara madanamohana",
+            "bṛndābanacandra",
+            "jaya jaya rādhāramaṇa rāsabihārī",
+            "śrīgokulānanda 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ಶ್ಯಾಮಸುಂದರ ಮದನಮೊಹನ",
+            "ಬ್‌ಡ಼್ನ್ದಾಬನಚಂದ್ರ",
+            "ಜಯ ಜಯ ರಾಧಾರಮಣ ರಾಸಬಿಹಾರೀ",
+            "ಶ್ರೀಗೊಕುಲಾನಂದ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ శ్యామసుందర మదనమొహన",
+            "బ్డ్న్దాబనచంద్ర",
+            "జయ జయ రాధారమణ రాసబిహారీ",
+            "శ్రీగొకులానంద 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ш́йа̄масундара маданамо̆хана",
+            "бр̤нда̄баначандра",
+            "джайа джайа ра̄дха̄раман̣а ра̄сабиха̄рӣ",
+            "ш́рӣго̆кула̄нанда 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ ശ്യാമസുന്ദര മദനമൊഹന",
+            "ബ്ഡ്ന്ദാബനചന്ദ്ര",
+            "ജയ ജയ രാധാരമണ രാസബിഹാരീ",
+            "ശ്രീഗൊകുലാനന്ദ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ஶ்யாமஸுந்த³ர மத³னமொஹன",
+            "ப்³ஃட்²ந்தா³ப³னசந்த்³ர",
+            "ஜய ஜய ராதா⁴ரமண ராஸபி³ஹாரீ",
+            "ஶ்ரீகொ³குலானந்த³ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya śyāmasundara madanamohana",
+            "bṛndābanacandra",
+            "jaya jaya rādhāramaṇa rāsabihārī",
+            "śrīgokulānanda 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya śyāmasundara madanamohana",
+            "bṛndābanacandra",
+            "jaya jaya rādhāramaṇa rāsabihārī",
+            "śrīgokulānanda 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "jaya jaya rāseśbarī binodinī",
+        "bhānukūlacandra",
+        "jaya jaya lalitā[FLAG_HYPHEN_ALPHA]biśākhā ādi",
+        "yata sakhībṛnda 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā, who is the mistress of the rāsa-dance, the embodiment of Kṛṣṇa’s pleasure, and the moon of the dynasty of Vṛṣabhānu Mahārāja. All glories to all of the sakhīs, headed by Lalitā and Viśākhā."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya jaya",
+              "all glories, all glories"
+            ],
+            [
+              "rāseśbarī",
+              "the mistress of the rāsa-dance"
+            ],
+            [
+              "binodinī",
+              "the embodiment of Kṛṣṇa’s pleasure"
+            ],
+            [
+              "bhānukūlacandra",
+              "Vṛṣabhānu Mahārāja + dynasty + moon"
+            ],
+            [
+              "jaya jaya",
+              "all glories, all glories"
+            ],
+            [
+              "lalitā biśākhā",
+              "Lalitā and Viśākhā"
+            ],
+            [
+              "ādi",
+              "headed"
+            ],
+            [
+              "yata",
+              "all"
+            ],
+            [
+              "sakhībṛnda",
+              "girl-friends + group"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय जय",
+              "all glories, all glories"
+            ],
+            [
+              "रासॆश्बरी",
+              "the mistress of the rāsa-dance"
+            ],
+            [
+              "बिनॊदिनी",
+              "the embodiment of Kṛṣṇa’s pleasure"
+            ],
+            [
+              "भानुकूलचन्द्र",
+              "Vṛṣabhānu Mahārāja + dynasty + moon"
+            ],
+            [
+              "जय जय",
+              "all glories, all glories"
+            ],
+            [
+              "ललिता बिशाखा",
+              "Lalitā and Viśākhā"
+            ],
+            [
+              "आदि",
+              "headed"
+            ],
+            [
+              "यत",
+              "all"
+            ],
+            [
+              "सखीब्ड़्न्द",
+              "girl-friends + group"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয় জয়",
+              "all glories, all glories"
+            ],
+            [
+              "রাসেশ্বরী",
+              "the mistress of the rāsa-dance"
+            ],
+            [
+              "বিনোদিনী",
+              "the embodiment of Kṛṣṇa’s pleasure"
+            ],
+            [
+              "ভানুকূলচন্দ্র",
+              "Vṛṣabhānu Mahārāja + dynasty + moon"
+            ],
+            [
+              "জয় জয়",
+              "all glories, all glories"
+            ],
+            [
+              "ললিতা বিশাখা",
+              "Lalitā and Viśākhā"
+            ],
+            [
+              "আদি",
+              "headed"
+            ],
+            [
+              "যত",
+              "all"
+            ],
+            [
+              "সখীব্ড়্ন্দ",
+              "girl-friends + group"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય જય",
+              "all glories, all glories"
+            ],
+            [
+              "રાસેશ્બરી",
+              "the mistress of the rāsa-dance"
+            ],
+            [
+              "બિનોદિની",
+              "the embodiment of Kṛṣṇa’s pleasure"
+            ],
+            [
+              "ભાનુકૂલચન્દ્ર",
+              "Vṛṣabhānu Mahārāja + dynasty + moon"
+            ],
+            [
+              "જય જય",
+              "all glories, all glories"
+            ],
+            [
+              "લલિતા બિશાખા",
+              "Lalitā and Viśākhā"
+            ],
+            [
+              "આદિ",
+              "headed"
+            ],
+            [
+              "યત",
+              "all"
+            ],
+            [
+              "સખીબ્ડ઼્ન્દ",
+              "girl-friends + group"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय रासॆश्बरी बिनॊदिनी",
+            "भानुकूलचन्द्र",
+            "जय जय ललिताबिशाखा आदि",
+            "यत सखीब्ड़्न्द २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাসেশ্বরী বিনোদিনী",
+            "ভানুকূলচন্দ্র",
+            "জয় জয় ললিতাবিশাখা আদি",
+            "যত সখীব্ড়্ন্দ ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାସେଶ୍ବରୀ ବିନୋଦିନୀ",
+            "ଭାନୁକୂଲଚନ୍ଦ୍ର",
+            "ଜୟ ଜୟ ଲଲିତାବିଶାଖା ଆଦି",
+            "ଯତ ସଖୀବ୍ଡ଼୍ନ୍ଦ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાસેશ્બરી બિનોદિની",
+            "ભાનુકૂલચન્દ્ર",
+            "જય જય લલિતાબિશાખા આદિ",
+            "યત સખીબ્ડ઼્ન્દ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rāseśbarī binodinī",
+            "bhānukūlacandra",
+            "jaya jaya lalitā-biśākhā ādi",
+            "yata sakhībṛnda 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಸೆಶ್ಬರೀ ಬಿನೊದಿನೀ",
+            "ಭಾನುಕೂಲಚಂದ್ರ",
+            "ಜಯ ಜಯ ಲಲಿತಾಬಿಶಾಖಾ ಆದಿ",
+            "ಯತ ಸಖೀಬ್‌ಡ಼್ನ್ದ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాసెశ్బరీ బినొదినీ",
+            "భానుకూలచంద్ర",
+            "జయ జయ లలితాబిశాఖా ఆది",
+            "యత సఖీబ్డ్న్ద 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄сэ̆ш́барӣ бино̆динӣ",
+            "бха̄нукӯлачандра",
+            "джайа джайа лалита̄биш́а̄кха̄ а̄ди",
+            "йата сакхӣбр̤нда 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാസെശ്ബരീ ബിനൊദിനീ",
+            "ഭാനുകൂലചന്ദ്ര",
+            "ജയ ജയ ലലിതാബിശാഖാ ആദി",
+            "യത സഖീബ്ഡ്ന്ദ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராஸெஶ்ப³ரீ பி³னொதி³னீ",
+            "பா⁴னுகூலசந்த்³ர",
+            "ஜய ஜய லலிதாபி³ஶாகா² ஆதி³",
+            "யத ஸகீ²ப்³ஃட்²ந்த³ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rāseśbarī binodinī",
+            "bhānukūlacandra",
+            "jaya jaya lalitā-biśākhā ādi",
+            "yata sakhībṛnda 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rāseśbarī binodinī",
+            "bhānukūlacandra",
+            "jaya jaya lalitā-biśākhā ādi",
+            "yata sakhībṛnda 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "jaya jaya śrīrūpamañjarī rati[FLAG_HYPHEN_ALPHA]",
+        "mañjarī[FLAG_HYPHEN_ALPHA]anaṅga",
+        "jaya jaya paurṇamāsī yogamāyā",
+        "jaya bīrābṛnda 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Śrī Rūpa Mañjarī, Rati Mañjarī, and Anaṅga Mañjarī. All glories to Paurṇamāsī Yogamāyā and all glories to Vīrā-devī’s [and Vṛndā-devī’s] group [of messengers of the Divine Couple]."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya jaya",
+              "all glories, all glories"
+            ],
+            [
+              "śrīrūpamañjarī",
+              "Śrī Rūpa Mañjarī"
+            ],
+            [
+              "rati",
+              "Śrī Rati Mañjarī"
+            ],
+            [
+              "mañjarī anaṅga",
+              "Śrī Anaṅga Mañjarī"
+            ],
+            [
+              "jaya jaya",
+              "all glories, all glories"
+            ],
+            [
+              "paurṇamāsī yogamāyā",
+              " Paurṇamāsī Yogamāyā"
+            ],
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "bīrābṛnda",
+              "Śrī Vīrā-devī + group"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय जय",
+              "all glories, all glories"
+            ],
+            [
+              "श्रीरूपमञ्जरी",
+              "Śrī Rūpa Mañjarī"
+            ],
+            [
+              "रति",
+              "Śrī Rati Mañjarī"
+            ],
+            [
+              "मञ्जरी अनङ्ग",
+              "Śrī Anaṅga Mañjarī"
+            ],
+            [
+              "जय जय",
+              "all glories, all glories"
+            ],
+            [
+              "पौर्णमासी यॊगमाया",
+              " Paurṇamāsī Yogamāyā"
+            ],
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "बीराब्ड़्न्द",
+              "Śrī Vīrā-devī + group"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয় জয়",
+              "all glories, all glories"
+            ],
+            [
+              "শ্রীরূপমঞ্জরী",
+              "Śrī Rūpa Mañjarī"
+            ],
+            [
+              "রতি",
+              "Śrī Rati Mañjarī"
+            ],
+            [
+              "মঞ্জরী অনঙ্গ",
+              "Śrī Anaṅga Mañjarī"
+            ],
+            [
+              "জয় জয়",
+              "all glories, all glories"
+            ],
+            [
+              "পৌর্ণমাসী যোগমায়া",
+              " Paurṇamāsī Yogamāyā"
+            ],
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "বীরাব্ড়্ন্দ",
+              "Śrī Vīrā-devī + group"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય જય",
+              "all glories, all glories"
+            ],
+            [
+              "શ્રીરૂપમઞ્જરી",
+              "Śrī Rūpa Mañjarī"
+            ],
+            [
+              "રતિ",
+              "Śrī Rati Mañjarī"
+            ],
+            [
+              "મઞ્જરી અનઙ્ગ",
+              "Śrī Anaṅga Mañjarī"
+            ],
+            [
+              "જય જય",
+              "all glories, all glories"
+            ],
+            [
+              "પૌર્ણમાસી યોગમાયા",
+              " Paurṇamāsī Yogamāyā"
+            ],
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "બીરાબ્ડ઼્ન્દ",
+              "Śrī Vīrā-devī + group"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय श्रीरूपमञ्जरी रति",
+            "मञ्जरीअनङ्ग",
+            "जय जय पौर्णमासी यॊगमाया",
+            "जय बीराब्ड़्न्द ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় শ্রীরূপমঞ্জরী রতি",
+            "মঞ্জরীঅনঙ্গ",
+            "জয় জয় পৌর্ণমাসী যোগমায়া",
+            "জয় বীরাব্ড়্ন্দ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ଶ୍ରୀରୂପମଞ୍ଜରୀ ରତି",
+            "ମଞ୍ଜରୀଅନଙ୍ଗ",
+            "ଜୟ ଜୟ ପୌର୍ଣମାସୀ ଯୋଗମାୟା",
+            "ଜୟ ବୀରାବ୍ଡ଼୍ନ୍ଦ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય શ્રીરૂપમઞ્જરી રતિ",
+            "મઞ્જરીઅનઙ્ગ",
+            "જય જય પૌર્ણમાસી યોગમાયા",
+            "જય બીરાબ્ડ઼્ન્દ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya śrīrūpamañjarī rati-",
+            "mañjarī-anaṅga",
+            "jaya jaya paurṇamāsī yogamāyā",
+            "jaya bīrābṛnda 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ಶ್ರೀರೂಪಮಂಜರೀ ರತಿ",
+            "ಮಂಜರೀಅನಂಗ",
+            "ಜಯ ಜಯ ಪೌರ್ಣಮಾಸೀ ಯೊಗಮಾಯಾ",
+            "ಜಯ ಬೀರಾಬ್‌ಡ಼್ನ್ದ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ శ్రీరూపమంజరీ రతి",
+            "మంజరీఅనంగ",
+            "జయ జయ పౌర్ణమాసీ యొగమాయా",
+            "జయ బీరాబ్డ్న్ద 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ш́рӣрӯпаман̃джарӣ рати",
+            "ман̃джарӣанан̇га",
+            "джайа джайа паурн̣ама̄сӣ йо̆гама̄йа̄",
+            "джайа бӣра̄бр̤нда 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ ശ്രീരൂപമഞ്ജരീ രതി",
+            "മഞ്ജരീഅനംഗ",
+            "ജയ ജയ പൗർണമാസീ യൊഗമായാ",
+            "ജയ ബീരാബ്ഡ്ന്ദ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ஶ்ரீரூபமஞ்ஜரீ ரதி",
+            "மஞ்ஜரீஅனங்க³",
+            "ஜய ஜய பௌர்ணமாஸீ யொக³மாயா",
+            "ஜய பீ³ராப்³ஃட்²ந்த³ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya śrīrūpamañjarī rati-",
+            "mañjarī-anaṅga",
+            "jaya jaya paurṇamāsī yogamāyā",
+            "jaya bīrābṛnda 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya śrīrūpamañjarī rati-",
+            "mañjarī-anaṅga",
+            "jaya jaya paurṇamāsī yogamāyā",
+            "jaya bīrābṛnda 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "sabe mili’ kara kṛpā",
+        "āmi ati manda",
+        "(tomarā) kṛpā kari’ deha’ yugala[FLAG_HYPHEN_ALPHA]",
+        "caraṇārabinda 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All of you please bestow your compassion upon me, for I am extremely impoverished. Mercifully grant me the [service of the] lotus feet of the Divine Couple."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "sabe",
+              "to all"
+            ],
+            [
+              "mili’",
+              "together"
+            ],
+            [
+              "kara",
+              "do"
+            ],
+            [
+              "kṛpā",
+              "mercy"
+            ],
+            [
+              "āmi",
+              "I"
+            ],
+            [
+              "ati",
+              "extremely"
+            ],
+            [
+              "manda",
+              "impoverished"
+            ],
+            [
+              "(tomarā)",
+              "all you"
+            ],
+            [
+              "kṛpā kari’",
+              "mercifully"
+            ],
+            [
+              "deha’",
+              "give"
+            ],
+            [
+              "yugala",
+              "the Divine Couple"
+            ],
+            [
+              "caraṇārabinda",
+              "feet + lotus"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "सबॆ",
+              "to all"
+            ],
+            [
+              "मिलिऽ",
+              "together"
+            ],
+            [
+              "कर",
+              "do"
+            ],
+            [
+              "क्ड़्पा",
+              "mercy"
+            ],
+            [
+              "आमि",
+              "I"
+            ],
+            [
+              "अति",
+              "extremely"
+            ],
+            [
+              "मन्द",
+              "impoverished"
+            ],
+            [
+              "(तॊमरा)",
+              "all you"
+            ],
+            [
+              "क्ड़्पा करिऽ",
+              "mercifully"
+            ],
+            [
+              "दॆहऽ",
+              "give"
+            ],
+            [
+              "युगल",
+              "the Divine Couple"
+            ],
+            [
+              "चरणारबिन्द",
+              "feet + lotus"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "সবে",
+              "to all"
+            ],
+            [
+              "মিলিঽ",
+              "together"
+            ],
+            [
+              "কর",
+              "do"
+            ],
+            [
+              "ক্ড়্পা",
+              "mercy"
+            ],
+            [
+              "আমি",
+              "I"
+            ],
+            [
+              "অতি",
+              "extremely"
+            ],
+            [
+              "মন্দ",
+              "impoverished"
+            ],
+            [
+              "(তোমরা)",
+              "all you"
+            ],
+            [
+              "ক্ড়্পা করিঽ",
+              "mercifully"
+            ],
+            [
+              "দেহঽ",
+              "give"
+            ],
+            [
+              "যুগল",
+              "the Divine Couple"
+            ],
+            [
+              "চরণারবিন্দ",
+              "feet + lotus"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "સબે",
+              "to all"
+            ],
+            [
+              "મિલિઽ",
+              "together"
+            ],
+            [
+              "કર",
+              "do"
+            ],
+            [
+              "ક્ડ઼્પા",
+              "mercy"
+            ],
+            [
+              "આમિ",
+              "I"
+            ],
+            [
+              "અતિ",
+              "extremely"
+            ],
+            [
+              "મન્દ",
+              "impoverished"
+            ],
+            [
+              "(તોમરા)",
+              "all you"
+            ],
+            [
+              "ક્ડ઼્પા કરિઽ",
+              "mercifully"
+            ],
+            [
+              "દેહઽ",
+              "give"
+            ],
+            [
+              "યુગલ",
+              "the Divine Couple"
+            ],
+            [
+              "ચરણારબિન્દ",
+              "feet + lotus"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सबॆ मिलिऽ कर क्ड़्पा",
+            "आमि अति मन्द",
+            "(तॊमरा) क्ड़्पा करिऽ दॆहऽ युगल",
+            "चरणारबिन्द ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সবে মিলিঽ কর ক্ড়্পা",
+            "আমি অতি মন্দ",
+            "(তোমরা) ক্ড়্পা করিঽ দেহঽ যুগল",
+            "চরণারবিন্দ ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସବେ ମିଲିଽ କର କ୍ଡ଼୍ପା",
+            "ଆମି ଅତି ମନ୍ଦ",
+            "(ତୋମରା) କ୍ଡ଼୍ପା କରିଽ ଦେହଽ ଯୁଗଲ",
+            "ଚରଣାରବିନ୍ଦ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સબે મિલિઽ કર ક્ડ઼્પા",
+            "આમિ અતિ મન્દ",
+            "(તોમરા) ક્ડ઼્પા કરિઽ દેહઽ યુગલ",
+            "ચરણારબિન્દ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sabe mili’ kara kṛpā",
+            "āmi ati manda",
+            "(tomarā) kṛpā kari’ deha’ yugala-",
+            "caraṇārabinda 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸಬೆ ಮಿಲಿಽ ಕರ ಕ್‌ಡ಼್ಪಾ",
+            "ಆಮಿ ಅತಿ ಮಂದ",
+            "(ತೊಮರಾ) ಕ್‌ಡ಼್ಪಾ ಕರಿಽ ದೆಹಽ ಯುಗಲ",
+            "ಚರಣಾರಬಿಂದ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సబె మిలిఽ కర క్డ్పా",
+            "ఆమి అతి మంద",
+            "(తొమరా) క్డ్పా కరిఽ దెహఽ యుగల",
+            "చరణారబింద 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сабэ̆ мили' кара кр̤па̄",
+            "а̄ми ати манда",
+            "(то̆мара̄) кр̤па̄ кари' дэ̆ха' йугала",
+            "чаран̣а̄рабинда 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സബെ മിലിഽ കര ക്ഡ്പാ",
+            "ആമി അതി മന്ദ",
+            "(തൊമരാ) ക്ഡ്പാ കരിഽ ദെഹഽ യുഗല",
+            "ചരണാരബിന്ദ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸபெ³ மிலி(அ) கர க்ஃட்²பா",
+            "ஆமி அதி மந்த³",
+            "(தொமரா) க்ஃட்²பா கரி(அ) தெ³ஹ(அ) யுக³ல",
+            "சரணாரபி³ந்த³ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sabe mili’ kara kṛpā",
+            "āmi ati manda",
+            "(tomarā) kṛpā kari’ deha’ yugala-",
+            "caraṇārabinda 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sabe mili’ kara kṛpā",
+            "āmi ati manda",
+            "(tomarā) kṛpā kari’ deha’ yugala-",
+            "caraṇārabinda 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- বীরা—শ্রীকৃষ্ণের একজন আপ্তদূতী ।"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "mith-1",
+      "filename": "NK3-mith-1.mp3",
+      "artist": "Mithu dasi"
+    }
+  ],
+  "tags": [
+    "Rādhā-Kṛṣṇa-nāma-kīrtana"
+  ]
+}

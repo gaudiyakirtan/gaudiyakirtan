@@ -1,0 +1,463 @@
+{
+ "uid": "Y24",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হে! শুন হে মধুমথন!"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari he! śuna he madhumathana!"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari he!",
+    "śuna he madhumathana!    mama eka bijñāpana,",
+    "biśeṣa kariyā bali āmi",
+    "tomāra śeṣatba mama,    sbakīya baibhabottama,",
+    "āmi dāsa, tumi mora sbāmī 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हॆ!",
+      "शुन हॆ मधुमथन!    मम ऎक बिज्ञापन,",
+      "बिशॆष करिया बलि आमि",
+      "तॊमार शॆषत्ब मम,    स्बकीय बैभबॊत्तम,",
+      "आमि दास, तुमि मॊर स्बामी १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হে!",
+      "শুন হে মধুমথন!    মম এক বিজ্ঞাপন,",
+      "বিশেষ করিয়া বলি আমি",
+      "তোমার শেষত্ব মম,    স্বকীয় বৈভবোত্তম,",
+      "আমি দাস, তুমি মোর স্বামী ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହେ!",
+      "ଶୁନ ହେ ମଧୁମଥନ!    ମମ ଏକ ବିଜ୍ଞାପନ,",
+      "ବିଶେଷ କରିୟା ବଲି ଆମି",
+      "ତୋମାର ଶେଷତ୍ବ ମମ,    ସ୍ବକୀୟ ବୈଭବୋତ୍ତମ,",
+      "ଆମି ଦାସ, ତୁମି ମୋର ସ୍ବାମୀ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હે!",
+      "શુન હે મધુમથન!    મમ એક બિજ્ઞાપન,",
+      "બિશેષ કરિયા બલિ આમિ",
+      "તોમાર શેષત્બ મમ,    સ્બકીય બૈભબોત્તમ,",
+      "આમિ દાસ, તુમિ મોર સ્બામી ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari he!",
+      "śuna he madhumathana!    mama eka bijñāpana,",
+      "biśeṣa kariyā bali āmi",
+      "tomāra śeṣatba mama,    sbakīya baibhabottama,",
+      "āmi dāsa, tumi mora sbāmī 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹೆ!",
+      "ಶುನ ಹೆ ಮಧುಮಥನ!    ಮಮ ಎಕ ಬಿಜ್ಞಾಪನ,",
+      "ಬಿಶೆಷ ಕರಿಯಾ ಬಲಿ ಆಮಿ",
+      "ತೊಮಾರ ಶೆಷತ್ಬ ಮಮ,    ಸ್ಬಕೀಯ ಬೈಭಬೊತ್ತಮ,",
+      "ಆಮಿ ದಾಸ, ತುಮಿ ಮೊರ ಸ್ಬಾಮೀ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హె!",
+      "శున హె మధుమథన!    మమ ఎక బిజ్ఞాపన,",
+      "బిశెష కరియా బలి ఆమి",
+      "తొమార శెషత్బ మమ,    స్బకీయ బైభబొత్తమ,",
+      "ఆమి దాస, తుమి మొర స్బామీ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хэ̆!",
+      "ш́уна хэ̆ мадхуматхана!    мама э̆ка биджн̃а̄пана,",
+      "биш́э̆ша карийа̄ бали а̄ми",
+      "то̆ма̄ра ш́э̆шатба мама,    сбакӣйа баибхабо̆ттама,",
+      "а̄ми да̄са, туми мо̆ра сба̄мӣ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹെ!",
+      "ശുന ഹെ മധുമഥന!    മമ എക ബിജ്ഞാപന,",
+      "ബിശെഷ കരിയാ ബലി ആമി",
+      "തൊമാര ശെഷത്ബ മമ,    സ്ബകീയ ബൈഭബൊത്തമ,",
+      "ആമി ദാസ, തുമി മൊര സ്ബാമീ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹெ!",
+      "ஶுன ஹெ மது⁴மத²ன!    மம எக பி³ஜ்ஞாபன,",
+      "பி³ஶெஷ கரியா ப³லி ஆமி",
+      "தொமார ஶெஷத்ப³ மம,    ஸ்ப³கீய பை³ப⁴பொ³த்தம,",
+      "ஆமி தா³ஸ, துமி மொர ஸ்பா³மீ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari he!",
+      "śuna he madhumathana!    mama eka bijñāpana,",
+      "biśeṣa kariyā bali āmi",
+      "tomāra śeṣatba mama,    sbakīya baibhabottama,",
+      "āmi dāsa, tumi mora sbāmī 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari he!",
+      "śuna he madhumathana!    mama eka bijñāpana,",
+      "biśeṣa kariyā bali āmi",
+      "tomāra śeṣatba mama,    sbakīya baibhabottama,",
+      "āmi dāsa, tumi mora sbāmī 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "se[FLAG_HYPHEN_ALPHA]bibhaba[FLAG_HYPHEN_ALPHA]bahirbhūta,    haite haile, he acyuta,",
+    "kṣaṇamātra sahite nā pāri",
+    "deha[FLAG_HYPHEN_ALPHA]prāṇa[FLAG_HYPHEN_ALPHA]sukha āśā,    ātmaprati bhālabāsā,",
+    "sarbatyāga karite bicāri 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सॆबिभबबहिर्भूत,    हैतॆ हैलॆ, हॆ अच्युत,",
+      "क्षणमात्र सहितॆ ना पारि",
+      "दॆहप्राणसुख आशा,    आत्मप्रति भालबासा,",
+      "सर्बत्याग करितॆ बिचारि २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সেবিভববহির্ভূত,    হৈতে হৈলে, হে অচ্যুত,",
+      "ক্ষণমাত্র সহিতে না পারি",
+      "দেহপ্রাণসুখ আশা,    আত্মপ্রতি ভালবাসা,",
+      "সর্বত্যাগ করিতে বিচারি ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସେବିଭବବହିର୍ଭୂତ,    ହୈତେ ହୈଲେ, ହେ ଅଚ୍ୟୁତ,",
+      "କ୍ଷଣମାତ୍ର ସହିତେ ନା ପାରି",
+      "ଦେହପ୍ରାଣସୁଖ ଆଶା,    ଆତ୍ମପ୍ରତି ଭାଲବାସା,",
+      "ସର୍ବତ୍ୟାଗ କରିତେ ବିଚାରି ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સેબિભબબહિર્ભૂત,    હૈતે હૈલે, હે અચ્યુત,",
+      "ક્ષણમાત્ર સહિતે ના પારિ",
+      "દેહપ્રાણસુખ આશા,    આત્મપ્રતિ ભાલબાસા,",
+      "સર્બત્યાગ કરિતે બિચારિ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "se-bibhaba-bahirbhūta,    haite haile, he acyuta,",
+      "kṣaṇamātra sahite nā pāri",
+      "deha-prāṇa-sukha āśā,    ātmaprati bhālabāsā,",
+      "sarbatyāga karite bicāri 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸೆಬಿಭಬಬಹಿರ್ಭೂತ,    ಹೈತೆ ಹೈಲೆ, ಹೆ ಅಚ್ಯುತ,",
+      "ಕ್ಷಣಮಾತ್ರ ಸಹಿತೆ ನಾ ಪಾರಿ",
+      "ದೆಹಪ್ರಾಣಸುಖ ಆಶಾ,    ಆತ್ಮಪ್ರತಿ ಭಾಲಬಾಸಾ,",
+      "ಸರ್ಬತ್ಯಾಗ ಕರಿತೆ ಬಿಚಾರಿ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సెబిభబబహిర్భూత,    హైతె హైలె, హె అచ్యుత,",
+      "క్షణమాత్ర సహితె నా పారి",
+      "దెహప్రాణసుఖ ఆశా,    ఆత్మప్రతి భాలబాసా,",
+      "సర్బత్యాగ కరితె బిచారి 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сэ̆бибхабабахирбхӯта,    хаитэ̆ хаилэ̆, хэ̆ ачйута,",
+      "кшан̣ама̄тра сахитэ̆ на̄ па̄ри",
+      "дэ̆хапра̄н̣асукха а̄ш́а̄,    а̄тмапрати бха̄лаба̄са̄,",
+      "сарбатйа̄га каритэ̆ бича̄ри 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സെബിഭബബഹിർഭൂത,    ഹൈതെ ഹൈലെ, ഹെ അച്യുത,",
+      "ക്ഷണമാത്ര സഹിതെ നാ പാരി",
+      "ദെഹപ്രാണസുഖ ആശാ,    ആത്മപ്രതി ഭാലബാസാ,",
+      "സർബത്യാഗ കരിതെ ബിചാരി 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸெபி³ப⁴ப³ப³ஹிர்பூ⁴த,    ஹைதெ ஹைலெ, ஹெ அச்யுத,",
+      "க்ஷணமாத்ர ஸஹிதெ நா பாரி",
+      "தெ³ஹப்ராணஸுக² ஆஶா,    ஆத்மப்ரதி பா⁴லபா³ஸா,",
+      "ஸர்ப³த்யாக³ கரிதெ பி³சாரி 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "se-bibhaba-bahirbhūta,    haite haile, he acyuta,",
+      "kṣaṇamātra sahite nā pāri",
+      "deha-prāṇa-sukha āśā,    ātmaprati bhālabāsā,",
+      "sarbatyāga karite bicāri 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "se-bibhaba-bahirbhūta,    haite haile, he acyuta,",
+      "kṣaṇamātra sahite nā pāri",
+      "deha-prāṇa-sukha āśā,    ātmaprati bhālabāsā,",
+      "sarbatyāga karite bicāri 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "e saba yāuka nāśa,    śatabāra śrīnibāsa,",
+    "tabu thāku dāsatba tomāra",
+    "e bhaktibinoda kaya,    kṛṣṇadāsa jība haya,",
+    "dāsya binā kibā āche āra 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎ सब याउक नाश,    शतबार श्रीनिबास,",
+      "तबु थाकु दासत्ब तॊमार",
+      "ऎ भक्तिबिनॊद कय,    क्ड़्ष्णदास जीब हय,",
+      "दास्य बिना किबा आछॆ आर ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এ সব যাউক নাশ,    শতবার শ্রীনিবাস,",
+      "তবু থাকু দাসত্ব তোমার",
+      "এ ভক্তিবিনোদ কয়,    ক্ড়্ষ্ণদাস জীব হয়,",
+      "দাস্য বিনা কিবা আছে আর ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏ ସବ ଯାଉକ ନାଶ,    ଶତବାର ଶ୍ରୀନିବାସ,",
+      "ତବୁ ଥାକୁ ଦାସତ୍ବ ତୋମାର",
+      "ଏ ଭକ୍ତିବିନୋଦ କୟ,    କ୍ଡ଼୍ଷ୍ଣଦାସ ଜୀବ ହୟ,",
+      "ଦାସ୍ୟ ବିନା କିବା ଆଛେ ଆର ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એ સબ યાઉક નાશ,    શતબાર શ્રીનિબાસ,",
+      "તબુ થાકુ દાસત્બ તોમાર",
+      "એ ભક્તિબિનોદ કય,    ક્ડ઼્ષ્ણદાસ જીબ હય,",
+      "દાસ્ય બિના કિબા આછે આર ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "e saba yāuka nāśa,    śatabāra śrīnibāsa,",
+      "tabu thāku dāsatba tomāra",
+      "e bhaktibinoda kaya,    kṛṣṇadāsa jība haya,",
+      "dāsya binā kibā āche āra 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎ ಸಬ ಯಾಉಕ ನಾಶ,    ಶತಬಾರ ಶ್ರೀನಿಬಾಸ,",
+      "ತಬು ಥಾಕು ದಾಸತ್ಬ ತೊಮಾರ",
+      "ಎ ಭಕ್ತಿಬಿನೊದ ಕಯ,    ಕ್‌ಡ಼್ಷ್ಣದಾಸ ಜೀಬ ಹಯ,",
+      "ದಾಸ್ಯ ಬಿನಾ ಕಿಬಾ ಆಛೆ ಆರ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎ సబ యాఉక నాశ,    శతబార శ్రీనిబాస,",
+      "తబు థాకు దాసత్బ తొమార",
+      "ఎ భక్తిబినొద కయ,    క్డ్ష్ణదాస జీబ హయ,",
+      "దాస్య బినా కిబా ఆఛె ఆర 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆ саба йа̄ука на̄ш́а,    ш́атаба̄ра ш́рӣниба̄са,",
+      "табу тха̄ку да̄сатба то̆ма̄ра",
+      "э̆ бхактибино̆да кайа,    кр̤шн̣ада̄са джӣба хайа,",
+      "да̄сйа бина̄ киба̄ а̄чхэ̆ а̄ра 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എ സബ യാഉക നാശ,    ശതബാര ശ്രീനിബാസ,",
+      "തബു ഥാകു ദാസത്ബ തൊമാര",
+      "എ ഭക്തിബിനൊദ കയ,    ക്ഡ്ഷ്ണദാസ ജീബ ഹയ,",
+      "ദാസ്യ ബിനാ കിബാ ആഛെ ആര 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எ ஸப³ யாஉக நாஶ,    ஶதபா³ர ஶ்ரீநிபா³ஸ,",
+      "தபு³ தா²கு தா³ஸத்ப³ தொமார",
+      "எ ப⁴க்திபி³னொத³ கய,    க்ஃட்²ஷ்ணதா³ஸ ஜீப³ ஹய,",
+      "தா³ஸ்ய பி³னா கிபா³ ஆசெ² ஆர 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "e saba yāuka nāśa,    śatabāra śrīnibāsa,",
+      "tabu thāku dāsatba tomāra",
+      "e bhaktibinoda kaya,    kṛṣṇadāsa jība haya,",
+      "dāsya binā kibā āche āra 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "e saba yāuka nāśa,    śatabāra śrīnibāsa,",
+      "tabu thāku dāsatba tomāra",
+      "e bhaktibinoda kaya,    kṛṣṇadāsa jība haya,",
+      "dāsya binā kibā āche āra 3"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "ন দেহং ন প্রাণান্ন চ সুখমশেষাভিলষিতং"
+  },
+  {
+   "language_code": "ben",
+   "text": "ন চাত্মানং নান্যত্তব কিমপি শেষত্ববিভবাৎ ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "বহির্ভূতং নাথ ক্ষণমপি সহে যাতু শতধা"
+  },
+  {
+   "language_code": "ben",
+   "text": "বিনাশং তৎ সত্যং মধুমথন বিজ্ঞাপনমিদম্ ॥২৪॥"
+  },
+  {
+   "language_code": "ben",
+   "text": ""
+  },
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- শেষত্ব—দাসত্বের সীমা; স্বকীয় বৈভবোত্তম—নিজ শ্রেষ্ঠ সম্পদ্; বিভব—বৈভব ।"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

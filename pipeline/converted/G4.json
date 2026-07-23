@@ -1,0 +1,4283 @@
+{
+ "uid": "G4",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "আশ্রয় করিয়া বন্দোঁ শ্রীগুরু-চরণ"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "āśraya kariyā bando śrīguru-caraṇa"
+  }
+ ],
+ "author_uid": "সনাতন দাস",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "সনাতন দাস"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Sanātana dāsa"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "āśraya kariyā bando śrīguru[FLAG_HYPHEN_ALPHA]caraṇa",
+    "yāhā haite mile bhāi kṛṣṇa[FLAG_HYPHEN_ALPHA]premadhana 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Taking shelter of śrī guru, please worship his lotus feet, by which, O brother, the wealth of prema for Śrī Kṛṣṇa is attained."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "āśraya kariyā",
+       "having taken shelter"
+      ],
+      [
+       "bando",
+       "worship"
+      ],
+      [
+       "śrīguru",
+       "śrī guru"
+      ],
+      [
+       "caraṇa",
+       "feet"
+      ],
+      [
+       "yāhā",
+       "which"
+      ],
+      [
+       "haite",
+       "by"
+      ],
+      [
+       "mile",
+       "one gets"
+      ],
+      [
+       "bhāi",
+       "O brother"
+      ],
+      [
+       "kṛṣṇa",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "premadhana",
+       "love + wealth"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "आश्रय करिया",
+       "having taken shelter"
+      ],
+      [
+       "बन्दॊ",
+       "worship"
+      ],
+      [
+       "श्रीगुरु",
+       "śrī guru"
+      ],
+      [
+       "चरण",
+       "feet"
+      ],
+      [
+       "याहा",
+       "which"
+      ],
+      [
+       "हैतॆ",
+       "by"
+      ],
+      [
+       "मिलॆ",
+       "one gets"
+      ],
+      [
+       "भाइ",
+       "O brother"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "प्रॆमधन",
+       "love + wealth"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "আশ্রয় করিয়া",
+       "having taken shelter"
+      ],
+      [
+       "বন্দো",
+       "worship"
+      ],
+      [
+       "শ্রীগুরু",
+       "śrī guru"
+      ],
+      [
+       "চরণ",
+       "feet"
+      ],
+      [
+       "যাহা",
+       "which"
+      ],
+      [
+       "হৈতে",
+       "by"
+      ],
+      [
+       "মিলে",
+       "one gets"
+      ],
+      [
+       "ভাই",
+       "O brother"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "প্রেমধন",
+       "love + wealth"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "આશ્રય કરિયા",
+       "having taken shelter"
+      ],
+      [
+       "બન્દો",
+       "worship"
+      ],
+      [
+       "શ્રીગુરુ",
+       "śrī guru"
+      ],
+      [
+       "ચરણ",
+       "feet"
+      ],
+      [
+       "યાહા",
+       "which"
+      ],
+      [
+       "હૈતે",
+       "by"
+      ],
+      [
+       "મિલે",
+       "one gets"
+      ],
+      [
+       "ભાઇ",
+       "O brother"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "પ્રેમધન",
+       "love + wealth"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आश्रय करिया बन्दॊ श्रीगुरुचरण",
+      "याहा हैतॆ मिलॆ भाइ क्ड़्ष्णप्रॆमधन १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আশ্রয় করিয়া বন্দো শ্রীগুরুচরণ",
+      "যাহা হৈতে মিলে ভাই ক্ড়্ষ্ণপ্রেমধন ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆଶ୍ରୟ କରିୟା ବନ୍ଦୋ ଶ୍ରୀଗୁରୁଚରଣ",
+      "ଯାହା ହୈତେ ମିଲେ ଭାଇ କ୍ଡ଼୍ଷ୍ଣପ୍ରେମଧନ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આશ્રય કરિયા બન્દો શ્રીગુરુચરણ",
+      "યાહા હૈતે મિલે ભાઇ ક્ડ઼્ષ્ણપ્રેમધન ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "āśraya kariyā bando śrīguru-caraṇa",
+      "yāhā haite mile bhāi kṛṣṇa-premadhana 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆಶ್ರಯ ಕರಿಯಾ ಬಂದೊ ಶ್ರೀಗುರುಚರಣ",
+      "ಯಾಹಾ ಹೈತೆ ಮಿಲೆ ಭಾಇ ಕ್‌ಡ಼್ಷ್ಣಪ್ರೆಮಧನ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆశ్రయ కరియా బందొ శ్రీగురుచరణ",
+      "యాహా హైతె మిలె భాఇ క్డ్ష్ణప్రెమధన 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄ш́райа карийа̄ бандо̆ ш́рӣгуручаран̣а",
+      "йа̄ха̄ хаитэ̆ милэ̆ бха̄и кр̤шн̣апрэ̆мадхана 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആശ്രയ കരിയാ ബന്ദൊ ശ്രീഗുരുചരണ",
+      "യാഹാ ഹൈതെ മിലെ ഭാഇ ക്ഡ്ഷ്ണപ്രെമധന 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆஶ்ரய கரியா ப³ந்தொ³ ஶ்ரீகு³ருசரண",
+      "யாஹா ஹைதெ மிலெ பா⁴இ க்ஃட்²ஷ்ணப்ரெமத⁴ன 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "āśraya kariyā bando śrīguru-caraṇa",
+      "yāhā haite mile bhāi kṛṣṇa-premadhana 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "āśraya kariyā bando śrīguru-caraṇa",
+      "yāhā haite mile bhāi kṛṣṇa-premadhana 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "jībera nistāra lāgi’ nanda[FLAG_HYPHEN_ALPHA]suta hari",
+    "bhubane prakāśa pāna guru[FLAG_HYPHEN_ALPHA]rūpa dhari’ 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "To deliver the living entities, the son of Nanda Mahārāja, Śrī Hari, has manifested in the world by accepting the form of śrī guru."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "jībera",
+       "the living entity’s"
+      ],
+      [
+       "nistāra",
+       "deliverance"
+      ],
+      [
+       "lāgi’",
+       "for the purpose"
+      ],
+      [
+       "nanda suta",
+       "the son of Nanda"
+      ],
+      [
+       "hari",
+       "Śrī Hari"
+      ],
+      [
+       "bhubane",
+       "in the world"
+      ],
+      [
+       "prakāśa",
+       "manifest"
+      ],
+      [
+       "pāna",
+       "He accepts"
+      ],
+      [
+       "guru rūpa",
+       "the form of śrī guru"
+      ],
+      [
+       "dhari’",
+       "having taken, assumed"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "जीबॆर",
+       "the living entity’s"
+      ],
+      [
+       "निस्तार",
+       "deliverance"
+      ],
+      [
+       "लागिऽ",
+       "for the purpose"
+      ],
+      [
+       "नन्द सुत",
+       "the son of Nanda"
+      ],
+      [
+       "हरि",
+       "Śrī Hari"
+      ],
+      [
+       "भुबनॆ",
+       "in the world"
+      ],
+      [
+       "प्रकाश",
+       "manifest"
+      ],
+      [
+       "पान",
+       "He accepts"
+      ],
+      [
+       "गुरु रूप",
+       "the form of śrī guru"
+      ],
+      [
+       "धरिऽ",
+       "having taken, assumed"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "জীবের",
+       "the living entity’s"
+      ],
+      [
+       "নিস্তার",
+       "deliverance"
+      ],
+      [
+       "লাগিঽ",
+       "for the purpose"
+      ],
+      [
+       "নন্দ সুত",
+       "the son of Nanda"
+      ],
+      [
+       "হরি",
+       "Śrī Hari"
+      ],
+      [
+       "ভুবনে",
+       "in the world"
+      ],
+      [
+       "প্রকাশ",
+       "manifest"
+      ],
+      [
+       "পান",
+       "He accepts"
+      ],
+      [
+       "গুরু রূপ",
+       "the form of śrī guru"
+      ],
+      [
+       "ধরিঽ",
+       "having taken, assumed"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "જીબેર",
+       "the living entity’s"
+      ],
+      [
+       "નિસ્તાર",
+       "deliverance"
+      ],
+      [
+       "લાગિઽ",
+       "for the purpose"
+      ],
+      [
+       "નન્દ સુત",
+       "the son of Nanda"
+      ],
+      [
+       "હરિ",
+       "Śrī Hari"
+      ],
+      [
+       "ભુબને",
+       "in the world"
+      ],
+      [
+       "પ્રકાશ",
+       "manifest"
+      ],
+      [
+       "પાન",
+       "He accepts"
+      ],
+      [
+       "ગુરુ રૂપ",
+       "the form of śrī guru"
+      ],
+      [
+       "ધરિઽ",
+       "having taken, assumed"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जीबॆर निस्तार लागिऽ नन्दसुत हरि",
+      "भुबनॆ प्रकाश पान गुरुरूप धरिऽ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জীবের নিস্তার লাগিঽ নন্দসুত হরি",
+      "ভুবনে প্রকাশ পান গুরুরূপ ধরিঽ ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜୀବେର ନିସ୍ତାର ଲାଗିଽ ନନ୍ଦସୁତ ହରି",
+      "ଭୁବନେ ପ୍ରକାଶ ପାନ ଗୁରୁରୂପ ଧରିଽ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જીબેર નિસ્તાર લાગિઽ નન્દસુત હરિ",
+      "ભુબને પ્રકાશ પાન ગુરુરૂપ ધરિઽ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jībera nistāra lāgi’ nanda-suta hari",
+      "bhubane prakāśa pāna guru-rūpa dhari’ 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜೀಬೆರ ನಿಸ್ತಾರ ಲಾಗಿಽ ನಂದಸುತ ಹರಿ",
+      "ಭುಬನೆ ಪ್ರಕಾಶ ಪಾನ ಗುರುರೂಪ ಧರಿಽ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జీబెర నిస్తార లాగిఽ నందసుత హరి",
+      "భుబనె ప్రకాశ పాన గురురూప ధరిఽ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джӣбэ̆ра ниста̄ра ла̄ги' нандасута хари",
+      "бхубанэ̆ прака̄ш́а па̄на гурурӯпа дхари' 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജീബെര നിസ്താര ലാഗിഽ നന്ദസുത ഹരി",
+      "ഭുബനെ പ്രകാശ പാന ഗുരുരൂപ ധരിഽ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜீபெ³ர நிஸ்தார லாகி³(அ) நந்த³ஸுத ஹரி",
+      "பு⁴ப³னெ ப்ரகாஶ பான கு³ருரூப த⁴ரி(அ) 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jībera nistāra lāgi’ nanda-suta hari",
+      "bhubane prakāśa pāna guru-rūpa dhari’ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jībera nistāra lāgi’ nanda-suta hari",
+      "bhubane prakāśa pāna guru-rūpa dhari’ 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "mahimāya ‘guru’ ‘kṛṣṇa’ eka kari’ jāna",
+    "guru[FLAG_HYPHEN_ALPHA]ājñā hṛde saba satya kari’ māna 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Know that guru and Kṛṣṇa are one in their glories. Accept in your heart the order of śrī guru as the complete truth."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "mahimāya",
+       "in glories"
+      ],
+      [
+       "guru’ kṛṣṇa’",
+       "guru and Kṛṣṇa"
+      ],
+      [
+       "eka",
+       "one"
+      ],
+      [
+       "kari’",
+       "having made"
+      ],
+      [
+       "jāna",
+       "know (imperative)"
+      ],
+      [
+       "guru ājñā",
+       "the order of guru"
+      ],
+      [
+       "hṛde",
+       "in the heart"
+      ],
+      [
+       "saba",
+       "all"
+      ],
+      [
+       "satya",
+       "truth"
+      ],
+      [
+       "kari’",
+       "having made"
+      ],
+      [
+       "māna",
+       "accept"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "महिमाय",
+       "in glories"
+      ],
+      [
+       "गुरुऽ क्ड़्ष्णऽ",
+       "guru and Kṛṣṇa"
+      ],
+      [
+       "ऎक",
+       "one"
+      ],
+      [
+       "करिऽ",
+       "having made"
+      ],
+      [
+       "जान",
+       "know (imperative)"
+      ],
+      [
+       "गुरु आज्ञा",
+       "the order of guru"
+      ],
+      [
+       "ह्ड़्दॆ",
+       "in the heart"
+      ],
+      [
+       "सब",
+       "all"
+      ],
+      [
+       "सत्य",
+       "truth"
+      ],
+      [
+       "करिऽ",
+       "having made"
+      ],
+      [
+       "मान",
+       "accept"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মহিমায়",
+       "in glories"
+      ],
+      [
+       "গুরুঽ ক্ড়্ষ্ণঽ",
+       "guru and Kṛṣṇa"
+      ],
+      [
+       "এক",
+       "one"
+      ],
+      [
+       "করিঽ",
+       "having made"
+      ],
+      [
+       "জান",
+       "know (imperative)"
+      ],
+      [
+       "গুরু আজ্ঞা",
+       "the order of guru"
+      ],
+      [
+       "হ্ড়্দে",
+       "in the heart"
+      ],
+      [
+       "সব",
+       "all"
+      ],
+      [
+       "সত্য",
+       "truth"
+      ],
+      [
+       "করিঽ",
+       "having made"
+      ],
+      [
+       "মান",
+       "accept"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "મહિમાય",
+       "in glories"
+      ],
+      [
+       "ગુરુઽ ક્ડ઼્ષ્ણઽ",
+       "guru and Kṛṣṇa"
+      ],
+      [
+       "એક",
+       "one"
+      ],
+      [
+       "કરિઽ",
+       "having made"
+      ],
+      [
+       "જાન",
+       "know (imperative)"
+      ],
+      [
+       "ગુરુ આજ્ઞા",
+       "the order of guru"
+      ],
+      [
+       "હ્ડ઼્દે",
+       "in the heart"
+      ],
+      [
+       "સબ",
+       "all"
+      ],
+      [
+       "સત્ય",
+       "truth"
+      ],
+      [
+       "કરિઽ",
+       "having made"
+      ],
+      [
+       "માન",
+       "accept"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "महिमाय ‘गुरुऽ ‘क्ड़्ष्णऽ ऎक करिऽ जान",
+      "गुरुआज्ञा ह्ड़्दॆ सब सत्य करिऽ मान ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মহিমায় ‘গুরুঽ ‘ক্ড়্ষ্ণঽ এক করিঽ জান",
+      "গুরুআজ্ঞা হ্ড়্দে সব সত্য করিঽ মান ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମହିମାୟ ‘ଗୁରୁଽ ‘କ୍ଡ଼୍ଷ୍ଣଽ ଏକ କରିଽ ଜାନ",
+      "ଗୁରୁଆଜ୍ଞା ହ୍ଡ଼୍ଦେ ସବ ସତ୍ୟ କରିଽ ମାନ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મહિમાય ‘ગુરુઽ ‘ક્ડ઼્ષ્ણઽ એક કરિઽ જાન",
+      "ગુરુઆજ્ઞા હ્ડ઼્દે સબ સત્ય કરિઽ માન ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "mahimāya ‘guru’ ‘kṛṣṇa’ eka kari’ jāna",
+      "guru-ājñā hṛde saba satya kari’ māna 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಹಿಮಾಯ ‘ಗುರುಽ ‘ಕ್‌ಡ಼್ಷ್ಣಽ ಎಕ ಕರಿಽ ಜಾನ",
+      "ಗುರುಆಜ್ಞಾ ಹ್‌ಡ಼್ದೆ ಸಬ ಸತ್ಯ ಕರಿಽ ಮಾನ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మహిమాయ ‘గురుఽ ‘క్డ్ష్ణఽ ఎక కరిఽ జాన",
+      "గురుఆజ్ఞా హ్డ్దె సబ సత్య కరిఽ మాన 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "махима̄йа ‘гуру' ‘кр̤шн̣а' э̆ка кари' джа̄на",
+      "гуруа̄джн̃а̄ хр̤дэ̆ саба сатйа кари' ма̄на 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മഹിമായ ‘ഗുരുഽ ‘ക്ഡ്ഷ്ണഽ എക കരിഽ ജാന",
+      "ഗുരുആജ്ഞാ ഹ്ഡ്ദെ സബ സത്യ കരിഽ മാന 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மஹிமாய ‘கு³ரு(அ) ‘க்ஃட்²ஷ்ண(அ) எக கரி(அ) ஜான",
+      "கு³ருஆஜ்ஞா ஹ்ஃட்²தெ³ ஸப³ ஸத்ய கரி(அ) மான 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "mahimāya ‘guru’ ‘kṛṣṇa’ eka kari’ jāna",
+      "guru-ājñā hṛde saba satya kari’ māna 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "mahimāya ‘guru’ ‘kṛṣṇa’ eka kari’ jāna",
+      "guru-ājñā hṛde saba satya kari’ māna 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "satyajñāne gurubākye yāhāra biśbāsa",
+    "abaśya tāhāra haya brajabhūme bāsa 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Whoever in true knowledge has faith in the words of śrī guru certainly attains residence in Śrī Vraja-bhūmi."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "satyajñāne",
+       "in true knowledge"
+      ],
+      [
+       "gurubākye",
+       "guru + words"
+      ],
+      [
+       "yāhāra",
+       "of whom"
+      ],
+      [
+       "biśbāsa",
+       "faith"
+      ],
+      [
+       "abaśya",
+       "certainly"
+      ],
+      [
+       "tāhāra",
+       "his"
+      ],
+      [
+       "haya",
+       "happens, attains"
+      ],
+      [
+       "brajabhūme",
+       "in Vraja-bhūmi"
+      ],
+      [
+       "bāsa",
+       "residence"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "सत्यज्ञानॆ",
+       "in true knowledge"
+      ],
+      [
+       "गुरुबाक्यॆ",
+       "guru + words"
+      ],
+      [
+       "याहार",
+       "of whom"
+      ],
+      [
+       "बिश्बास",
+       "faith"
+      ],
+      [
+       "अबश्य",
+       "certainly"
+      ],
+      [
+       "ताहार",
+       "his"
+      ],
+      [
+       "हय",
+       "happens, attains"
+      ],
+      [
+       "ब्रजभूमॆ",
+       "in Vraja-bhūmi"
+      ],
+      [
+       "बास",
+       "residence"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "সত্যজ্ঞানে",
+       "in true knowledge"
+      ],
+      [
+       "গুরুবাক্যে",
+       "guru + words"
+      ],
+      [
+       "যাহার",
+       "of whom"
+      ],
+      [
+       "বিশ্বাস",
+       "faith"
+      ],
+      [
+       "অবশ্য",
+       "certainly"
+      ],
+      [
+       "তাহার",
+       "his"
+      ],
+      [
+       "হয়",
+       "happens, attains"
+      ],
+      [
+       "ব্রজভূমে",
+       "in Vraja-bhūmi"
+      ],
+      [
+       "বাস",
+       "residence"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "સત્યજ્ઞાને",
+       "in true knowledge"
+      ],
+      [
+       "ગુરુબાક્યે",
+       "guru + words"
+      ],
+      [
+       "યાહાર",
+       "of whom"
+      ],
+      [
+       "બિશ્બાસ",
+       "faith"
+      ],
+      [
+       "અબશ્ય",
+       "certainly"
+      ],
+      [
+       "તાહાર",
+       "his"
+      ],
+      [
+       "હય",
+       "happens, attains"
+      ],
+      [
+       "બ્રજભૂમે",
+       "in Vraja-bhūmi"
+      ],
+      [
+       "બાસ",
+       "residence"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सत्यज्ञानॆ गुरुबाक्यॆ याहार बिश्बास",
+      "अबश्य ताहार हय ब्रजभूमॆ बास ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সত্যজ্ঞানে গুরুবাক্যে যাহার বিশ্বাস",
+      "অবশ্য তাহার হয় ব্রজভূমে বাস ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସତ୍ୟଜ୍ଞାନେ ଗୁରୁବାକ୍ୟେ ଯାହାର ବିଶ୍ବାସ",
+      "ଅବଶ୍ୟ ତାହାର ହୟ ବ୍ରଜଭୂମେ ବାସ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સત્યજ્ઞાને ગુરુબાક્યે યાહાર બિશ્બાસ",
+      "અબશ્ય તાહાર હય બ્રજભૂમે બાસ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "satyajñāne gurubākye yāhāra biśbāsa",
+      "abaśya tāhāra haya brajabhūme bāsa 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸತ್ಯಜ್ಞಾನೆ ಗುರುಬಾಕ್ಯೆ ಯಾಹಾರ ಬಿಶ್ಬಾಸ",
+      "ಅಬಶ್ಯ ತಾಹಾರ ಹಯ ಬ್ರಜಭೂಮೆ ಬಾಸ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సత్యజ్ఞానె గురుబాక్యె యాహార బిశ్బాస",
+      "అబశ్య తాహార హయ బ్రజభూమె బాస 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сатйаджн̃а̄нэ̆ гуруба̄кйэ̆ йа̄ха̄ра биш́ба̄са",
+      "абаш́йа та̄ха̄ра хайа браджабхӯмэ̆ ба̄са 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സത്യജ്ഞാനെ ഗുരുബാക്യെ യാഹാര ബിശ്ബാസ",
+      "അബശ്യ താഹാര ഹയ ബ്രജഭൂമെ ബാസ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸத்யஜ்ஞானெ கு³ருபா³க்யெ யாஹார பி³ஶ்பா³ஸ",
+      "அப³ஶ்ய தாஹார ஹய ப்³ரஜபூ⁴மெ பா³ஸ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "satyajñāne gurubākye yāhāra biśbāsa",
+      "abaśya tāhāra haya brajabhūme bāsa 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "satyajñāne gurubākye yāhāra biśbāsa",
+      "abaśya tāhāra haya brajabhūme bāsa 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "yāra prati gurudeba hana parasanna",
+    "kona bighne sei nāhi haya abasanna 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "One with whom śrī guru is pleased does not become wearied by any obstacle whatsoever."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "yāra",
+       "whom"
+      ],
+      [
+       "prati",
+       "towards"
+      ],
+      [
+       "gurudeba",
+       "śrī gurudeva"
+      ],
+      [
+       "hana",
+       "becomes, is"
+      ],
+      [
+       "parasanna",
+       "pleased"
+      ],
+      [
+       "kona",
+       "any"
+      ],
+      [
+       "bighne",
+       "obstacle"
+      ],
+      [
+       "sei",
+       "he"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "haya",
+       "becomes"
+      ],
+      [
+       "abasanna",
+       "weary"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "यार",
+       "whom"
+      ],
+      [
+       "प्रति",
+       "towards"
+      ],
+      [
+       "गुरुदॆब",
+       "śrī gurudeva"
+      ],
+      [
+       "हन",
+       "becomes, is"
+      ],
+      [
+       "परसन्न",
+       "pleased"
+      ],
+      [
+       "कॊन",
+       "any"
+      ],
+      [
+       "बिघ्नॆ",
+       "obstacle"
+      ],
+      [
+       "सॆइ",
+       "he"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "हय",
+       "becomes"
+      ],
+      [
+       "अबसन्न",
+       "weary"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "যার",
+       "whom"
+      ],
+      [
+       "প্রতি",
+       "towards"
+      ],
+      [
+       "গুরুদেব",
+       "śrī gurudeva"
+      ],
+      [
+       "হন",
+       "becomes, is"
+      ],
+      [
+       "পরসন্ন",
+       "pleased"
+      ],
+      [
+       "কোন",
+       "any"
+      ],
+      [
+       "বিঘ্নে",
+       "obstacle"
+      ],
+      [
+       "সেই",
+       "he"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "হয়",
+       "becomes"
+      ],
+      [
+       "অবসন্ন",
+       "weary"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "યાર",
+       "whom"
+      ],
+      [
+       "પ્રતિ",
+       "towards"
+      ],
+      [
+       "ગુરુદેબ",
+       "śrī gurudeva"
+      ],
+      [
+       "હન",
+       "becomes, is"
+      ],
+      [
+       "પરસન્ન",
+       "pleased"
+      ],
+      [
+       "કોન",
+       "any"
+      ],
+      [
+       "બિઘ્ને",
+       "obstacle"
+      ],
+      [
+       "સેઇ",
+       "he"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "હય",
+       "becomes"
+      ],
+      [
+       "અબસન્ન",
+       "weary"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "यार प्रति गुरुदॆब हन परसन्न",
+      "कॊन बिघ्नॆ सॆइ नाहि हय अबसन्न ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "যার প্রতি গুরুদেব হন পরসন্ন",
+      "কোন বিঘ্নে সেই নাহি হয় অবসন্ন ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଯାର ପ୍ରତି ଗୁରୁଦେବ ହନ ପରସନ୍ନ",
+      "କୋନ ବିଘ୍ନେ ସେଇ ନାହି ହୟ ଅବସନ୍ନ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "યાર પ્રતિ ગુરુદેબ હન પરસન્ન",
+      "કોન બિઘ્ને સેઇ નાહિ હય અબસન્ન ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "yāra prati gurudeba hana parasanna",
+      "kona bighne sei nāhi haya abasanna 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಯಾರ ಪ್ರತಿ ಗುರುದೆಬ ಹನ ಪರಸನ್ನ",
+      "ಕೊನ ಬಿಘ್ನೆ ಸೆಇ ನಾಹಿ ಹಯ ಅಬಸನ್ನ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "యార ప్రతి గురుదెబ హన పరసన్న",
+      "కొన బిఘ్నె సెఇ నాహి హయ అబసన్న 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "йа̄ра прати гурудэ̆ба хана парасанна",
+      "ко̆на бигхнэ̆ сэ̆и на̄хи хайа абасанна 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "യാര പ്രതി ഗുരുദെബ ഹന പരസന്ന",
+      "കൊന ബിഘ്നെ സെഇ നാഹി ഹയ അബസന്ന 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "யார ப்ரதி கு³ருதெ³ப³ ஹன பரஸன்ன",
+      "கொன பி³க்⁴னெ ஸெஇ நாஹி ஹய அப³ஸன்ன 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "yāra prati gurudeba hana parasanna",
+      "kona bighne sei nāhi haya abasanna 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "yāra prati gurudeba hana parasanna",
+      "kona bighne sei nāhi haya abasanna 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "kṛṣṇa ruṣṭa ha’le guru rākhibāre pāre",
+    "guru ruṣṭa ha’le kṛṣṇa rākhibāre nāre 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "If Kṛṣṇa becomes angry [with you], then guru can save you; but if guru becomes angry, then even Kṛṣṇa cannot save you."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "kṛṣṇa",
+       "Kṛṣṇa"
+      ],
+      [
+       "ruṣṭa",
+       "angry"
+      ],
+      [
+       "ha’le",
+       "if He becomes"
+      ],
+      [
+       "guru",
+       "guru"
+      ],
+      [
+       "rākhibāre",
+       "to save"
+      ],
+      [
+       "pāre",
+       "he can"
+      ],
+      [
+       "guru",
+       "guru"
+      ],
+      [
+       "ruṣṭa",
+       "angry"
+      ],
+      [
+       "ha’le",
+       "if he becomes"
+      ],
+      [
+       "kṛṣṇa",
+       "Kṛṣṇa"
+      ],
+      [
+       "rākhibāre",
+       "to save"
+      ],
+      [
+       "nāre",
+       "He cannot"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "क्ड़्ष्ण",
+       "Kṛṣṇa"
+      ],
+      [
+       "रुष्ट",
+       "angry"
+      ],
+      [
+       "हऽलॆ",
+       "if He becomes"
+      ],
+      [
+       "गुरु",
+       "guru"
+      ],
+      [
+       "राखिबारॆ",
+       "to save"
+      ],
+      [
+       "पारॆ",
+       "he can"
+      ],
+      [
+       "गुरु",
+       "guru"
+      ],
+      [
+       "रुष्ट",
+       "angry"
+      ],
+      [
+       "हऽलॆ",
+       "if he becomes"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Kṛṣṇa"
+      ],
+      [
+       "राखिबारॆ",
+       "to save"
+      ],
+      [
+       "नारॆ",
+       "He cannot"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ক্ড়্ষ্ণ",
+       "Kṛṣṇa"
+      ],
+      [
+       "রুষ্ট",
+       "angry"
+      ],
+      [
+       "হঽলে",
+       "if He becomes"
+      ],
+      [
+       "গুরু",
+       "guru"
+      ],
+      [
+       "রাখিবারে",
+       "to save"
+      ],
+      [
+       "পারে",
+       "he can"
+      ],
+      [
+       "গুরু",
+       "guru"
+      ],
+      [
+       "রুষ্ট",
+       "angry"
+      ],
+      [
+       "হঽলে",
+       "if he becomes"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Kṛṣṇa"
+      ],
+      [
+       "রাখিবারে",
+       "to save"
+      ],
+      [
+       "নারে",
+       "He cannot"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Kṛṣṇa"
+      ],
+      [
+       "રુષ્ટ",
+       "angry"
+      ],
+      [
+       "હઽલે",
+       "if He becomes"
+      ],
+      [
+       "ગુરુ",
+       "guru"
+      ],
+      [
+       "રાખિબારે",
+       "to save"
+      ],
+      [
+       "પારે",
+       "he can"
+      ],
+      [
+       "ગુરુ",
+       "guru"
+      ],
+      [
+       "રુષ્ટ",
+       "angry"
+      ],
+      [
+       "હઽલે",
+       "if he becomes"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Kṛṣṇa"
+      ],
+      [
+       "રાખિબારે",
+       "to save"
+      ],
+      [
+       "નારે",
+       "He cannot"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "क्ड़्ष्ण रुष्ट हऽलॆ गुरु राखिबारॆ पारॆ",
+      "गुरु रुष्ट हऽलॆ क्ड़्ष्ण राखिबारॆ नारॆ ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ক্ড়্ষ্ণ রুষ্ট হঽলে গুরু রাখিবারে পারে",
+      "গুরু রুষ্ট হঽলে ক্ড়্ষ্ণ রাখিবারে নারে ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କ୍ଡ଼୍ଷ୍ଣ ରୁଷ୍ଟ ହଽଲେ ଗୁରୁ ରାଖିବାରେ ପାରେ",
+      "ଗୁରୁ ରୁଷ୍ଟ ହଽଲେ କ୍ଡ଼୍ଷ୍ଣ ରାଖିବାରେ ନାରେ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ક્ડ઼્ષ્ણ રુષ્ટ હઽલે ગુરુ રાખિબારે પારે",
+      "ગુરુ રુષ્ટ હઽલે ક્ડ઼્ષ્ણ રાખિબારે નારે ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kṛṣṇa ruṣṭa ha’le guru rākhibāre pāre",
+      "guru ruṣṭa ha’le kṛṣṇa rākhibāre nāre 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕ್‌ಡ಼್ಷ್ಣ ರುಷ್ಟ ಹಽಲೆ ಗುರು ರಾಖಿಬಾರೆ ಪಾರೆ",
+      "ಗುರು ರುಷ್ಟ ಹಽಲೆ ಕ್‌ಡ಼್ಷ್ಣ ರಾಖಿಬಾರೆ ನಾರೆ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "క్డ్ష్ణ రుష్ట హఽలె గురు రాఖిబారె పారె",
+      "గురు రుష్ట హఽలె క్డ్ష్ణ రాఖిబారె నారె 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кр̤шн̣а рушт̣а ха'лэ̆ гуру ра̄кхиба̄рэ̆ па̄рэ̆",
+      "гуру рушт̣а ха'лэ̆ кр̤шн̣а ра̄кхиба̄рэ̆ на̄рэ̆ 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ക്ഡ്ഷ്ണ രുഷ്ട ഹഽലെ ഗുരു രാഖിബാരെ പാരെ",
+      "ഗുരു രുഷ്ട ഹഽലെ ക്ഡ്ഷ്ണ രാഖിബാരെ നാരെ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "க்ஃட்²ஷ்ண ருஷ்ட ஹ(அ)லெ கு³ரு ராகி²பா³ரெ பாரெ",
+      "கு³ரு ருஷ்ட ஹ(அ)லெ க்ஃட்²ஷ்ண ராகி²பா³ரெ நாரெ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kṛṣṇa ruṣṭa ha’le guru rākhibāre pāre",
+      "guru ruṣṭa ha’le kṛṣṇa rākhibāre nāre 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kṛṣṇa ruṣṭa ha’le guru rākhibāre pāre",
+      "guru ruṣṭa ha’le kṛṣṇa rākhibāre nāre 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "guru—mātā, guru—pitā, guru ha’na pati",
+    "guru binā e saṁsāre nāhi āra gati 7"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Guru is mother, guru is father, and guru is lord and master. Without śrī guru, there is no other shelter in this world."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "guru mātā",
+       "guru is mother"
+      ],
+      [
+       "guru pitā",
+       "guru is father"
+      ],
+      [
+       "guru ha’na pati",
+       "guru is master"
+      ],
+      [
+       "guru",
+       "śrī guru"
+      ],
+      [
+       "binā",
+       "without"
+      ],
+      [
+       "e",
+       "this"
+      ],
+      [
+       "saṁsāre",
+       "in world"
+      ],
+      [
+       "nāhi",
+       "no"
+      ],
+      [
+       "āra",
+       "other"
+      ],
+      [
+       "gati",
+       "shelter"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गुरु माता",
+       "guru is mother"
+      ],
+      [
+       "गुरु पिता",
+       "guru is father"
+      ],
+      [
+       "गुरु हऽन पति",
+       "guru is master"
+      ],
+      [
+       "गुरु",
+       "śrī guru"
+      ],
+      [
+       "बिना",
+       "without"
+      ],
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "संसारॆ",
+       "in world"
+      ],
+      [
+       "नाहि",
+       "no"
+      ],
+      [
+       "आर",
+       "other"
+      ],
+      [
+       "गति",
+       "shelter"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গুরু মাতা",
+       "guru is mother"
+      ],
+      [
+       "গুরু পিতা",
+       "guru is father"
+      ],
+      [
+       "গুরু হঽন পতি",
+       "guru is master"
+      ],
+      [
+       "গুরু",
+       "śrī guru"
+      ],
+      [
+       "বিনা",
+       "without"
+      ],
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "সংসারে",
+       "in world"
+      ],
+      [
+       "নাহি",
+       "no"
+      ],
+      [
+       "আর",
+       "other"
+      ],
+      [
+       "গতি",
+       "shelter"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગુરુ માતા",
+       "guru is mother"
+      ],
+      [
+       "ગુરુ પિતા",
+       "guru is father"
+      ],
+      [
+       "ગુરુ હઽન પતિ",
+       "guru is master"
+      ],
+      [
+       "ગુરુ",
+       "śrī guru"
+      ],
+      [
+       "બિના",
+       "without"
+      ],
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "સંસારે",
+       "in world"
+      ],
+      [
+       "નાહિ",
+       "no"
+      ],
+      [
+       "આર",
+       "other"
+      ],
+      [
+       "ગતિ",
+       "shelter"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गुरु—माता, गुरु—पिता, गुरु हऽन पति",
+      "गुरु बिना ऎ संसारॆ नाहि आर गति ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গুরু—মাতা, গুরু—পিতা, গুরু হঽন পতি",
+      "গুরু বিনা এ সংসারে নাহি আর গতি ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୁରୁ—ମାତା, ଗୁରୁ—ପିତା, ଗୁରୁ ହଽନ ପତି",
+      "ଗୁରୁ ବିନା ଏ ସଂସାରେ ନାହି ଆର ଗତି ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગુરુ—માતા, ગુરુ—પિતા, ગુરુ હઽન પતિ",
+      "ગુરુ બિના એ સંસારે નાહિ આર ગતિ ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "guru—mātā, guru—pitā, guru ha’na pati",
+      "guru binā e saṁsāre nāhi āra gati 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗುರು—ಮಾತಾ, ಗುರು—ಪಿತಾ, ಗುರು ಹಽನ ಪತಿ",
+      "ಗುರು ಬಿನಾ ಎ ಸಂಸಾರೆ ನಾಹಿ ಆರ ಗತಿ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గురు—మాతా, గురు—పితా, గురు హఽన పతి",
+      "గురు బినా ఎ సంసారె నాహి ఆర గతి 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "гуру—ма̄та̄, гуру—пита̄, гуру ха'на пати",
+      "гуру бина̄ э̆ сам̣са̄рэ̆ на̄хи а̄ра гати 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗുരു—മാതാ, ഗുരു—പിതാ, ഗുരു ഹഽന പതി",
+      "ഗുരു ബിനാ എ സംസാരെ നാഹി ആര ഗതി 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கு³ரு—மாதா, கு³ரு—பிதா, கு³ரு ஹ(அ)ன பதி",
+      "கு³ரு பி³னா எ ஸம்ʼஸாரெ நாஹி ஆர க³தி 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "guru—mātā, guru—pitā, guru ha’na pati",
+      "guru binā e saṁsāre nāhi āra gati 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "guru—mātā, guru—pitā, guru ha’na pati",
+      "guru binā e saṁsāre nāhi āra gati 7"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 8,
+   "source_text_master": [
+    "guruke ‘manuṣya’[FLAG_HYPHEN_ALPHA]jñāna nā kara kakhana",
+    "guru[FLAG_HYPHEN_ALPHA]nindā kabhu karṇe nā kara śrabaṇa 8"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Never consider śrī guru to be an ordinary human being and never hear any criticism of him."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "guruke",
+       "to guru"
+      ],
+      [
+       "manuṣya’ jñāna",
+       "consideration of being an ordinary human being"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "kara",
+       "do"
+      ],
+      [
+       "kakhana",
+       "ever"
+      ],
+      [
+       "guru nindā",
+       "criticism of śrī guru"
+      ],
+      [
+       "kabhu",
+       "ever"
+      ],
+      [
+       "karṇe",
+       "with ears"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "kara śrabaṇa",
+       "hear"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गुरुकॆ",
+       "to guru"
+      ],
+      [
+       "मनुष्यऽ ज्ञान",
+       "consideration of being an ordinary human being"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "कर",
+       "do"
+      ],
+      [
+       "कखन",
+       "ever"
+      ],
+      [
+       "गुरु निन्दा",
+       "criticism of śrī guru"
+      ],
+      [
+       "कभु",
+       "ever"
+      ],
+      [
+       "कर्णॆ",
+       "with ears"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "कर श्रबण",
+       "hear"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গুরুকে",
+       "to guru"
+      ],
+      [
+       "মনুষ্যঽ জ্ঞান",
+       "consideration of being an ordinary human being"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "কর",
+       "do"
+      ],
+      [
+       "কখন",
+       "ever"
+      ],
+      [
+       "গুরু নিন্দা",
+       "criticism of śrī guru"
+      ],
+      [
+       "কভু",
+       "ever"
+      ],
+      [
+       "কর্ণে",
+       "with ears"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "কর শ্রবণ",
+       "hear"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગુરુકે",
+       "to guru"
+      ],
+      [
+       "મનુષ્યઽ જ્ઞાન",
+       "consideration of being an ordinary human being"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "કર",
+       "do"
+      ],
+      [
+       "કખન",
+       "ever"
+      ],
+      [
+       "ગુરુ નિન્દા",
+       "criticism of śrī guru"
+      ],
+      [
+       "કભુ",
+       "ever"
+      ],
+      [
+       "કર્ણે",
+       "with ears"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "કર શ્રબણ",
+       "hear"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गुरुकॆ ‘मनुष्यऽज्ञान ना कर कखन",
+      "गुरुनिन्दा कभु कर्णॆ ना कर श्रबण ८"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গুরুকে ‘মনুষ্যঽজ্ঞান না কর কখন",
+      "গুরুনিন্দা কভু কর্ণে না কর শ্রবণ ৮"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୁରୁକେ ‘ମନୁଷ୍ୟଽଜ୍ଞାନ ନା କର କଖନ",
+      "ଗୁରୁନିନ୍ଦା କଭୁ କର୍ଣେ ନା କର ଶ୍ରବଣ ୮"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગુરુકે ‘મનુષ્યઽજ્ઞાન ના કર કખન",
+      "ગુરુનિન્દા કભુ કર્ણે ના કર શ્રબણ ૮"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "guruke ‘manuṣya’-jñāna nā kara kakhana",
+      "guru-nindā kabhu karṇe nā kara śrabaṇa 8"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗುರುಕೆ ‘ಮನುಷ್ಯಽಜ್ಞಾನ ನಾ ಕರ ಕಖನ",
+      "ಗುರುನಿಂದಾ ಕಭು ಕರ್ಣೆ ನಾ ಕರ ಶ್ರಬಣ ೮"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గురుకె ‘మనుష్యఽజ్ఞాన నా కర కఖన",
+      "గురునిందా కభు కర్ణె నా కర శ్రబణ 8"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "гурукэ̆ ‘манушйа'джн̃а̄на на̄ кара какхана",
+      "гурунинда̄ кабху карн̣э̆ на̄ кара ш́рабан̣а 8"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗുരുകെ ‘മനുഷ്യഽജ്ഞാന നാ കര കഖന",
+      "ഗുരുനിന്ദാ കഭു കർണെ നാ കര ശ്രബണ 8"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கு³ருகெ ‘மனுஷ்ய(அ)ஜ்ஞான நா கர கக²ன",
+      "கு³ருநிந்தா³ கபு⁴ கர்ணெ நா கர ஶ்ரப³ண 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "guruke ‘manuṣya’-jñāna nā kara kakhana",
+      "guru-nindā kabhu karṇe nā kara śrabaṇa 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "guruke ‘manuṣya’-jñāna nā kara kakhana",
+      "guru-nindā kabhu karṇe nā kara śrabaṇa 8"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 9,
+   "source_text_master": [
+    "guru[FLAG_HYPHEN_ALPHA]nindukera mukha kabhu nā heribe",
+    "yathā haya gurunindā, tathā nā yāibe 9"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Never look upon the face of one who criticizes śrī guru. Do not go to any place where criticism of śrī guru occurs."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "guru nindukera",
+       "of one who criticizes guru"
+      ],
+      [
+       "mukha",
+       "the face"
+      ],
+      [
+       "kabhu nā",
+       "never"
+      ],
+      [
+       "heribe",
+       "look (imperative), you will look"
+      ],
+      [
+       "yathā",
+       "wherever"
+      ],
+      [
+       "haya",
+       "there is"
+      ],
+      [
+       "gurunindā",
+       "śrī guru + criticism"
+      ],
+      [
+       "tathā",
+       "there"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "yāibe",
+       "go (imperative), you will go"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गुरु निन्दुकॆर",
+       "of one who criticizes guru"
+      ],
+      [
+       "मुख",
+       "the face"
+      ],
+      [
+       "कभु ना",
+       "never"
+      ],
+      [
+       "हॆरिबॆ",
+       "look (imperative), you will look"
+      ],
+      [
+       "यथा",
+       "wherever"
+      ],
+      [
+       "हय",
+       "there is"
+      ],
+      [
+       "गुरुनिन्दा",
+       "śrī guru + criticism"
+      ],
+      [
+       "तथा",
+       "there"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "याइबॆ",
+       "go (imperative), you will go"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গুরু নিন্দুকের",
+       "of one who criticizes guru"
+      ],
+      [
+       "মুখ",
+       "the face"
+      ],
+      [
+       "কভু না",
+       "never"
+      ],
+      [
+       "হেরিবে",
+       "look (imperative), you will look"
+      ],
+      [
+       "যথা",
+       "wherever"
+      ],
+      [
+       "হয়",
+       "there is"
+      ],
+      [
+       "গুরুনিন্দা",
+       "śrī guru + criticism"
+      ],
+      [
+       "তথা",
+       "there"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "যাইবে",
+       "go (imperative), you will go"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગુરુ નિન્દુકેર",
+       "of one who criticizes guru"
+      ],
+      [
+       "મુખ",
+       "the face"
+      ],
+      [
+       "કભુ ના",
+       "never"
+      ],
+      [
+       "હેરિબે",
+       "look (imperative), you will look"
+      ],
+      [
+       "યથા",
+       "wherever"
+      ],
+      [
+       "હય",
+       "there is"
+      ],
+      [
+       "ગુરુનિન્દા",
+       "śrī guru + criticism"
+      ],
+      [
+       "તથા",
+       "there"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "યાઇબે",
+       "go (imperative), you will go"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गुरुनिन्दुकॆर मुख कभु ना हॆरिबॆ",
+      "यथा हय गुरुनिन्दा, तथा ना याइबॆ ९"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গুরুনিন্দুকের মুখ কভু না হেরিবে",
+      "যথা হয় গুরুনিন্দা, তথা না যাইবে ৯"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୁରୁନିନ୍ଦୁକେର ମୁଖ କଭୁ ନା ହେରିବେ",
+      "ଯଥା ହୟ ଗୁରୁନିନ୍ଦା, ତଥା ନା ଯାଇବେ ୯"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગુરુનિન્દુકેર મુખ કભુ ના હેરિબે",
+      "યથા હય ગુરુનિન્દા, તથા ના યાઇબે ૯"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "guru-nindukera mukha kabhu nā heribe",
+      "yathā haya gurunindā, tathā nā yāibe 9"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗುರುನಿಂದುಕೆರ ಮುಖ ಕಭು ನಾ ಹೆರಿಬೆ",
+      "ಯಥಾ ಹಯ ಗುರುನಿಂದಾ, ತಥಾ ನಾ ಯಾಇಬೆ ೯"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గురునిందుకెర ముఖ కభు నా హెరిబె",
+      "యథా హయ గురునిందా, తథా నా యాఇబె 9"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "гуруниндукэ̆ра мукха кабху на̄ хэ̆рибэ̆",
+      "йатха̄ хайа гурунинда̄, татха̄ на̄ йа̄ибэ̆ 9"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗുരുനിന്ദുകെര മുഖ കഭു നാ ഹെരിബെ",
+      "യഥാ ഹയ ഗുരുനിന്ദാ, തഥാ നാ യാഇബെ 9"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கு³ருனிந்து³கெர முக² கபு⁴ நா ஹெரிபெ³",
+      "யதா² ஹய கு³ருநிந்தா³, ததா² நா யாஇபெ³ 9"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "guru-nindukera mukha kabhu nā heribe",
+      "yathā haya gurunindā, tathā nā yāibe 9"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "guru-nindukera mukha kabhu nā heribe",
+      "yathā haya gurunindā, tathā nā yāibe 9"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 10,
+   "source_text_master": [
+    "gurura bikriyā yadi dekhaha kakhana",
+    "tathāpi abajñā nāhi kara kadācana 10"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "If you ever see [apparently] aberrant behavior in śrī guru, still, do not neglect him at any time."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gurura",
+       "guru’s"
+      ],
+      [
+       "bikriyā",
+       "aberrant behavior"
+      ],
+      [
+       "yadi",
+       "if"
+      ],
+      [
+       "dekhaha",
+       "you see"
+      ],
+      [
+       "kakhana",
+       "ever"
+      ],
+      [
+       "tathāpi",
+       "still"
+      ],
+      [
+       "abajñā",
+       "neglect"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "kara",
+       "do"
+      ],
+      [
+       "kadācana",
+       "at any time"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गुरुर",
+       "guru’s"
+      ],
+      [
+       "बिक्रिया",
+       "aberrant behavior"
+      ],
+      [
+       "यदि",
+       "if"
+      ],
+      [
+       "दॆखह",
+       "you see"
+      ],
+      [
+       "कखन",
+       "ever"
+      ],
+      [
+       "तथापि",
+       "still"
+      ],
+      [
+       "अबज्ञा",
+       "neglect"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "कर",
+       "do"
+      ],
+      [
+       "कदाचन",
+       "at any time"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গুরুর",
+       "guru’s"
+      ],
+      [
+       "বিক্রিয়া",
+       "aberrant behavior"
+      ],
+      [
+       "যদি",
+       "if"
+      ],
+      [
+       "দেখহ",
+       "you see"
+      ],
+      [
+       "কখন",
+       "ever"
+      ],
+      [
+       "তথাপি",
+       "still"
+      ],
+      [
+       "অবজ্ঞা",
+       "neglect"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "কর",
+       "do"
+      ],
+      [
+       "কদাচন",
+       "at any time"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગુરુર",
+       "guru’s"
+      ],
+      [
+       "બિક્રિયા",
+       "aberrant behavior"
+      ],
+      [
+       "યદિ",
+       "if"
+      ],
+      [
+       "દેખહ",
+       "you see"
+      ],
+      [
+       "કખન",
+       "ever"
+      ],
+      [
+       "તથાપિ",
+       "still"
+      ],
+      [
+       "અબજ્ઞા",
+       "neglect"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "કર",
+       "do"
+      ],
+      [
+       "કદાચન",
+       "at any time"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गुरुर बिक्रिया यदि दॆखह कखन",
+      "तथापि अबज्ञा नाहि कर कदाचन १०"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গুরুর বিক্রিয়া যদি দেখহ কখন",
+      "তথাপি অবজ্ঞা নাহি কর কদাচন ১০"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୁରୁର ବିକ୍ରିୟା ଯଦି ଦେଖହ କଖନ",
+      "ତଥାପି ଅବଜ୍ଞା ନାହି କର କଦାଚନ ୧୦"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગુરુર બિક્રિયા યદિ દેખહ કખન",
+      "તથાપિ અબજ્ઞા નાહિ કર કદાચન ૧૦"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gurura bikriyā yadi dekhaha kakhana",
+      "tathāpi abajñā nāhi kara kadācana 10"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗುರುರ ಬಿಕ್ರಿಯಾ ಯದಿ ದೆಖಹ ಕಖನ",
+      "ತಥಾಪಿ ಅಬಜ್ಞಾ ನಾಹಿ ಕರ ಕದಾಚನ ೧೦"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గురుర బిక్రియా యది దెఖహ కఖన",
+      "తథాపి అబజ్ఞా నాహి కర కదాచన 10"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "гурура бикрийа̄ йади дэ̆кхаха какхана",
+      "татха̄пи абаджн̃а̄ на̄хи кара када̄чана 10"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗുരുര ബിക്രിയാ യദി ദെഖഹ കഖന",
+      "തഥാപി അബജ്ഞാ നാഹി കര കദാചന 10"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கு³ருர பி³க்ரியா யதி³ தெ³க²ஹ கக²ன",
+      "ததா²பி அப³ஜ்ஞா நாஹி கர கதா³சன 10"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gurura bikriyā yadi dekhaha kakhana",
+      "tathāpi abajñā nāhi kara kadācana 10"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gurura bikriyā yadi dekhaha kakhana",
+      "tathāpi abajñā nāhi kara kadācana 10"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 11,
+   "source_text_master": [
+    "gurupādapadme rahe yāra niṣṭhā[FLAG_HYPHEN_ALPHA]bhakti",
+    "jamat tārite sei dhare mahāśakti 11"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "One whose devotion remains fixed at the lotus feet of śrī guru holds great power to deliver the universe."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gurupādapadme",
+       "śrī guru + feet + at the lotus"
+      ],
+      [
+       "rahe",
+       "remains"
+      ],
+      [
+       "yāra",
+       "whose"
+      ],
+      [
+       "niṣṭhā",
+       "fixed"
+      ],
+      [
+       "bhakti",
+       " devotion"
+      ],
+      [
+       "jamat",
+       "the material universe"
+      ],
+      [
+       "tārite",
+       "to deliver"
+      ],
+      [
+       "sei",
+       "he"
+      ],
+      [
+       "dhare",
+       "holds"
+      ],
+      [
+       "mahāśakti",
+       "great + power"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गुरुपादपद्मॆ",
+       "śrī guru + feet + at the lotus"
+      ],
+      [
+       "रहॆ",
+       "remains"
+      ],
+      [
+       "यार",
+       "whose"
+      ],
+      [
+       "निष्ठा",
+       "fixed"
+      ],
+      [
+       "भक्ति",
+       " devotion"
+      ],
+      [
+       "जमत्",
+       "the material universe"
+      ],
+      [
+       "तारितॆ",
+       "to deliver"
+      ],
+      [
+       "सॆइ",
+       "he"
+      ],
+      [
+       "धरॆ",
+       "holds"
+      ],
+      [
+       "महाशक्ति",
+       "great + power"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গুরুপাদপদ্মে",
+       "śrī guru + feet + at the lotus"
+      ],
+      [
+       "রহে",
+       "remains"
+      ],
+      [
+       "যার",
+       "whose"
+      ],
+      [
+       "নিষ্ঠা",
+       "fixed"
+      ],
+      [
+       "ভক্তি",
+       " devotion"
+      ],
+      [
+       "জমৎ",
+       "the material universe"
+      ],
+      [
+       "তারিতে",
+       "to deliver"
+      ],
+      [
+       "সেই",
+       "he"
+      ],
+      [
+       "ধরে",
+       "holds"
+      ],
+      [
+       "মহাশক্তি",
+       "great + power"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગુરુપાદપદ્મે",
+       "śrī guru + feet + at the lotus"
+      ],
+      [
+       "રહે",
+       "remains"
+      ],
+      [
+       "યાર",
+       "whose"
+      ],
+      [
+       "નિષ્ઠા",
+       "fixed"
+      ],
+      [
+       "ભક્તિ",
+       " devotion"
+      ],
+      [
+       "જમત્",
+       "the material universe"
+      ],
+      [
+       "તારિતે",
+       "to deliver"
+      ],
+      [
+       "સેઇ",
+       "he"
+      ],
+      [
+       "ધરે",
+       "holds"
+      ],
+      [
+       "મહાશક્તિ",
+       "great + power"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गुरुपादपद्मॆ रहॆ यार निष्ठाभक्ति",
+      "जमत् तारितॆ सॆइ धरॆ महाशक्ति ११"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গুরুপাদপদ্মে রহে যার নিষ্ঠাভক্তি",
+      "জমৎ তারিতে সেই ধরে মহাশক্তি ১১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୁରୁପାଦପଦ୍ମେ ରହେ ଯାର ନିଷ୍ଠାଭକ୍ତି",
+      "ଜମତ୍ ତାରିତେ ସେଇ ଧରେ ମହାଶକ୍ତି ୧୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગુરુપાદપદ્મે રહે યાર નિષ્ઠાભક્તિ",
+      "જમત્ તારિતે સેઇ ધરે મહાશક્તિ ૧૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gurupādapadme rahe yāra niṣṭhā-bhakti",
+      "jamat tārite sei dhare mahāśakti 11"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗುರುಪಾದಪದ್ಮೆ ರಹೆ ಯಾರ ನಿಷ್ಠಾಭಕ್ತಿ",
+      "ಜಮತ್ ತಾರಿತೆ ಸೆಇ ಧರೆ ಮಹಾಶಕ್ತಿ ೧೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గురుపాదపద్మె రహె యార నిష్ఠాభక్తి",
+      "జమత్ తారితె సెఇ ధరె మహాశక్తి 11"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "гурупа̄дападмэ̆ рахэ̆ йа̄ра ништ̣ха̄бхакти",
+      "джамат та̄ритэ̆ сэ̆и дхарэ̆ маха̄ш́акти 11"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗുരുപാദപദ്മെ രഹെ യാര നിഷ്ഠാഭക്തി",
+      "ജമത് താരിതെ സെഇ ധരെ മഹാശക്തി 11"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கு³ருபாத³பத்³மெ ரஹெ யார நிஷ்டா²ப⁴க்தி",
+      "ஜமத் தாரிதெ ஸெஇ த⁴ரெ மஹாஶக்தி 11"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gurupādapadme rahe yāra niṣṭhā-bhakti",
+      "jamat tārite sei dhare mahāśakti 11"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gurupādapadme rahe yāra niṣṭhā-bhakti",
+      "jamat tārite sei dhare mahāśakti 11"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 12,
+   "source_text_master": [
+    "hena gurupādapadma karaha bandanā",
+    "yāhā haite ghuce bhāi sakala yantraṇā 12"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Worship the lotus feet of such a guru, O brother, as they destroy all suffering."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hena",
+       "such"
+      ],
+      [
+       "gurupādapadma",
+       "spiritual master + feet + lotus"
+      ],
+      [
+       "karaha bandanā",
+       "worship (imperative)"
+      ],
+      [
+       "yāhā",
+       "which"
+      ],
+      [
+       "haite",
+       "by"
+      ],
+      [
+       "ghuce",
+       "they destroy"
+      ],
+      [
+       "bhāi",
+       "O brother"
+      ],
+      [
+       "sakala",
+       "all"
+      ],
+      [
+       "yantraṇā",
+       "suffering"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हॆन",
+       "such"
+      ],
+      [
+       "गुरुपादपद्म",
+       "spiritual master + feet + lotus"
+      ],
+      [
+       "करह बन्दना",
+       "worship (imperative)"
+      ],
+      [
+       "याहा",
+       "which"
+      ],
+      [
+       "हैतॆ",
+       "by"
+      ],
+      [
+       "घुचॆ",
+       "they destroy"
+      ],
+      [
+       "भाइ",
+       "O brother"
+      ],
+      [
+       "सकल",
+       "all"
+      ],
+      [
+       "यन्त्रणा",
+       "suffering"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হেন",
+       "such"
+      ],
+      [
+       "গুরুপাদপদ্ম",
+       "spiritual master + feet + lotus"
+      ],
+      [
+       "করহ বন্দনা",
+       "worship (imperative)"
+      ],
+      [
+       "যাহা",
+       "which"
+      ],
+      [
+       "হৈতে",
+       "by"
+      ],
+      [
+       "ঘুচে",
+       "they destroy"
+      ],
+      [
+       "ভাই",
+       "O brother"
+      ],
+      [
+       "সকল",
+       "all"
+      ],
+      [
+       "যন্ত্রণা",
+       "suffering"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હેન",
+       "such"
+      ],
+      [
+       "ગુરુપાદપદ્મ",
+       "spiritual master + feet + lotus"
+      ],
+      [
+       "કરહ બન્દના",
+       "worship (imperative)"
+      ],
+      [
+       "યાહા",
+       "which"
+      ],
+      [
+       "હૈતે",
+       "by"
+      ],
+      [
+       "ઘુચે",
+       "they destroy"
+      ],
+      [
+       "ભાઇ",
+       "O brother"
+      ],
+      [
+       "સકલ",
+       "all"
+      ],
+      [
+       "યન્ત્રણા",
+       "suffering"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हॆन गुरुपादपद्म करह बन्दना",
+      "याहा हैतॆ घुचॆ भाइ सकल यन्त्रणा १२"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হেন গুরুপাদপদ্ম করহ বন্দনা",
+      "যাহা হৈতে ঘুচে ভাই সকল যন্ত্রণা ১২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହେନ ଗୁରୁପାଦପଦ୍ମ କରହ ବନ୍ଦନା",
+      "ଯାହା ହୈତେ ଘୁଚେ ଭାଇ ସକଲ ଯନ୍ତ୍ରଣା ୧୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હેન ગુરુપાદપદ્મ કરહ બન્દના",
+      "યાહા હૈતે ઘુચે ભાઇ સકલ યન્ત્રણા ૧૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hena gurupādapadma karaha bandanā",
+      "yāhā haite ghuce bhāi sakala yantraṇā 12"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹೆನ ಗುರುಪಾದಪದ್ಮ ಕರಹ ಬಂದನಾ",
+      "ಯಾಹಾ ಹೈತೆ ಘುಚೆ ಭಾಇ ಸಕಲ ಯಂತ್ರಣಾ ೧೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హెన గురుపాదపద్మ కరహ బందనా",
+      "యాహా హైతె ఘుచె భాఇ సకల యంత్రణా 12"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хэ̆на гурупа̄дападма караха бандана̄",
+      "йа̄ха̄ хаитэ̆ гхучэ̆ бха̄и сакала йантран̣а̄ 12"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹെന ഗുരുപാദപദ്മ കരഹ ബന്ദനാ",
+      "യാഹാ ഹൈതെ ഘുചെ ഭാഇ സകല യന്ത്രണാ 12"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹென கு³ருபாத³பத்³ம கரஹ ப³ந்த³னா",
+      "யாஹா ஹைதெ கு⁴செ பா⁴இ ஸகல யந்த்ரணா 12"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hena gurupādapadma karaha bandanā",
+      "yāhā haite ghuce bhāi sakala yantraṇā 12"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hena gurupādapadma karaha bandanā",
+      "yāhā haite ghuce bhāi sakala yantraṇā 12"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 13,
+   "source_text_master": [
+    "gurupādapadma nitya ye kare bandana",
+    "śire dhari’ bandi āmi tā̃hāra caraṇa 13"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "I take upon my head in adoration the feet of one who always worships the lotus feet of śrī guru."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gurupādapadma",
+       "śrī guru + feet + lotus"
+      ],
+      [
+       "nitya",
+       "always"
+      ],
+      [
+       "ye",
+       "he who"
+      ],
+      [
+       "kare bandana",
+       "worships"
+      ],
+      [
+       "śire",
+       "on head"
+      ],
+      [
+       "dhari’",
+       "having held, taken"
+      ],
+      [
+       "bandi",
+       "adore"
+      ],
+      [
+       "āmi",
+       "I"
+      ],
+      [
+       "tā̃hāra",
+       "his"
+      ],
+      [
+       "caraṇa",
+       "feet"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गुरुपादपद्म",
+       "śrī guru + feet + lotus"
+      ],
+      [
+       "नित्य",
+       "always"
+      ],
+      [
+       "यॆ",
+       "he who"
+      ],
+      [
+       "करॆ बन्दन",
+       "worships"
+      ],
+      [
+       "शिरॆ",
+       "on head"
+      ],
+      [
+       "धरिऽ",
+       "having held, taken"
+      ],
+      [
+       "बन्दि",
+       "adore"
+      ],
+      [
+       "आमि",
+       "I"
+      ],
+      [
+       "तांहार",
+       "his"
+      ],
+      [
+       "चरण",
+       "feet"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গুরুপাদপদ্ম",
+       "śrī guru + feet + lotus"
+      ],
+      [
+       "নিত্য",
+       "always"
+      ],
+      [
+       "যে",
+       "he who"
+      ],
+      [
+       "করে বন্দন",
+       "worships"
+      ],
+      [
+       "শিরে",
+       "on head"
+      ],
+      [
+       "ধরিঽ",
+       "having held, taken"
+      ],
+      [
+       "বন্দি",
+       "adore"
+      ],
+      [
+       "আমি",
+       "I"
+      ],
+      [
+       "তাংহার",
+       "his"
+      ],
+      [
+       "চরণ",
+       "feet"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગુરુપાદપદ્મ",
+       "śrī guru + feet + lotus"
+      ],
+      [
+       "નિત્ય",
+       "always"
+      ],
+      [
+       "યે",
+       "he who"
+      ],
+      [
+       "કરે બન્દન",
+       "worships"
+      ],
+      [
+       "શિરે",
+       "on head"
+      ],
+      [
+       "ધરિઽ",
+       "having held, taken"
+      ],
+      [
+       "બન્દિ",
+       "adore"
+      ],
+      [
+       "આમિ",
+       "I"
+      ],
+      [
+       "તાંહાર",
+       "his"
+      ],
+      [
+       "ચરણ",
+       "feet"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गुरुपादपद्म नित्य यॆ करॆ बन्दन",
+      "शिरॆ धरिऽ बन्दि आमि तांहार चरण १३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গুরুপাদপদ্ম নিত্য যে করে বন্দন",
+      "শিরে ধরিঽ বন্দি আমি তাংহার চরণ ১৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୁରୁପାଦପଦ୍ମ ନିତ୍ୟ ଯେ କରେ ବନ୍ଦନ",
+      "ଶିରେ ଧରିଽ ବନ୍ଦି ଆମି ତାଂହାର ଚରଣ ୧୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગુરુપાદપદ્મ નિત્ય યે કરે બન્દન",
+      "શિરે ધરિઽ બન્દિ આમિ તાંહાર ચરણ ૧૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gurupādapadma nitya ye kare bandana",
+      "śire dhari’ bandi āmi tā̃hāra caraṇa 13"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗುರುಪಾದಪದ್ಮ ನಿತ್ಯ ಯೆ ಕರೆ ಬಂದನ",
+      "ಶಿರೆ ಧರಿಽ ಬಂದಿ ಆಮಿ ತಾಂಹಾರ ಚರಣ ೧೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గురుపాదపద్మ నిత్య యె కరె బందన",
+      "శిరె ధరిఽ బంది ఆమి తాంహార చరణ 13"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "гурупа̄дападма нитйа йэ̆ карэ̆ бандана",
+      "ш́ирэ̆ дхари' банди а̄ми та̄м̣ха̄ра чаран̣а 13"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗുരുപാദപദ്മ നിത്യ യെ കരെ ബന്ദന",
+      "ശിരെ ധരിഽ ബന്ദി ആമി താംഹാര ചരണ 13"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கு³ருபாத³பத்³ம நித்ய யெ கரெ ப³ந்த³ன",
+      "ஶிரெ த⁴ரி(அ) ப³ந்தி³ ஆமி தாம்ʼஹார சரண 13"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gurupādapadma nitya ye kare bandana",
+      "śire dhari’ bandi āmi tā̃hāra caraṇa 13"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gurupādapadma nitya ye kare bandana",
+      "śire dhari’ bandi āmi tā̃hāra caraṇa 13"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 14,
+   "source_text_master": [
+    "śrīguru[FLAG_HYPHEN_ALPHA]caraṇapadma hṛde kari’ āśa",
+    "śrīguru[FLAG_HYPHEN_ALPHA]bandanā kare sanātana dāsa 14"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Aspiring within the heart to attain śrī guru’s lotus feet, Sanātana dāsa makes this prayer to him."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śrīguru",
+       "śrī guru"
+      ],
+      [
+       "caraṇapadma",
+       "feet + lotus"
+      ],
+      [
+       "hṛde",
+       "in the heart"
+      ],
+      [
+       "kari’ āśa",
+       "having aspired"
+      ],
+      [
+       "śrīguru",
+       "śrī guru"
+      ],
+      [
+       "bandanā",
+       "prayer"
+      ],
+      [
+       "kare",
+       "makes"
+      ],
+      [
+       "sanātana dāsa",
+       "Sanātana dāsa"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "श्रीगुरु",
+       "śrī guru"
+      ],
+      [
+       "चरणपद्म",
+       "feet + lotus"
+      ],
+      [
+       "ह्ड़्दॆ",
+       "in the heart"
+      ],
+      [
+       "करिऽ आश",
+       "having aspired"
+      ],
+      [
+       "श्रीगुरु",
+       "śrī guru"
+      ],
+      [
+       "बन्दना",
+       "prayer"
+      ],
+      [
+       "करॆ",
+       "makes"
+      ],
+      [
+       "सनातन दास",
+       "Sanātana dāsa"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শ্রীগুরু",
+       "śrī guru"
+      ],
+      [
+       "চরণপদ্ম",
+       "feet + lotus"
+      ],
+      [
+       "হ্ড়্দে",
+       "in the heart"
+      ],
+      [
+       "করিঽ আশ",
+       "having aspired"
+      ],
+      [
+       "শ্রীগুরু",
+       "śrī guru"
+      ],
+      [
+       "বন্দনা",
+       "prayer"
+      ],
+      [
+       "করে",
+       "makes"
+      ],
+      [
+       "সনাতন দাস",
+       "Sanātana dāsa"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શ્રીગુરુ",
+       "śrī guru"
+      ],
+      [
+       "ચરણપદ્મ",
+       "feet + lotus"
+      ],
+      [
+       "હ્ડ઼્દે",
+       "in the heart"
+      ],
+      [
+       "કરિઽ આશ",
+       "having aspired"
+      ],
+      [
+       "શ્રીગુરુ",
+       "śrī guru"
+      ],
+      [
+       "બન્દના",
+       "prayer"
+      ],
+      [
+       "કરે",
+       "makes"
+      ],
+      [
+       "સનાતન દાસ",
+       "Sanātana dāsa"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्रीगुरुचरणपद्म ह्ड़्दॆ करिऽ आश",
+      "श्रीगुरुबन्दना करॆ सनातन दास १४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্রীগুরুচরণপদ্ম হ্ড়্দে করিঽ আশ",
+      "শ্রীগুরুবন্দনা করে সনাতন দাস ১৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ରୀଗୁରୁଚରଣପଦ୍ମ ହ୍ଡ଼୍ଦେ କରିଽ ଆଶ",
+      "ଶ୍ରୀଗୁରୁବନ୍ଦନା କରେ ସନାତନ ଦାସ ୧୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્રીગુરુચરણપદ્મ હ્ડ઼્દે કરિઽ આશ",
+      "શ્રીગુરુબન્દના કરે સનાતન દાસ ૧૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śrīguru-caraṇapadma hṛde kari’ āśa",
+      "śrīguru-bandanā kare sanātana dāsa 14"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ರೀಗುರುಚರಣಪದ್ಮ ಹ್‌ಡ಼್ದೆ ಕರಿಽ ಆಶ",
+      "ಶ್ರೀಗುರುಬಂದನಾ ಕರೆ ಸನಾತನ ದಾಸ ೧೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్రీగురుచరణపద్మ హ్డ్దె కరిఽ ఆశ",
+      "శ్రీగురుబందనా కరె సనాతన దాస 14"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́рӣгуручаран̣ападма хр̤дэ̆ кари' а̄ш́а",
+      "ш́рӣгурубандана̄ карэ̆ сана̄тана да̄са 14"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്രീഗുരുചരണപദ്മ ഹ്ഡ്ദെ കരിഽ ആശ",
+      "ശ്രീഗുരുബന്ദനാ കരെ സനാതന ദാസ 14"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்ரீகு³ருசரணபத்³ம ஹ்ஃட்²தெ³ கரி(அ) ஆஶ",
+      "ஶ்ரீகு³ருப³ந்த³னா கரெ ஸனாதன தா³ஸ 14"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śrīguru-caraṇapadma hṛde kari’ āśa",
+      "śrīguru-bandanā kare sanātana dāsa 14"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śrīguru-caraṇapadma hṛde kari’ āśa",
+      "śrīguru-bandanā kare sanātana dāsa 14"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "srrb-1",
+   "filename": "G4-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ],
+ "tags": [
+  "The Glories of Śrī Guru"
+ ]
+}

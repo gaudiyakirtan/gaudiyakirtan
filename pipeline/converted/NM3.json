@@ -1,0 +1,829 @@
+{
+ "uid": "NM3",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "বিশ্বে উদিত নাম-তপন"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "biśbe udita nāma-tapana"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "biśbe udita,    nāma[FLAG_HYPHEN_ALPHA]tapana,",
+    "abidyā[FLAG_HYPHEN_ALPHA]bināśa lāgi’",
+    "choḓata saba,    māyā[FLAG_HYPHEN_ALPHA]bibhaba,",
+    "sādhu tāhe anurāgī 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बिश्बॆ उदित,    नामतपन,",
+      "अबिद्याबिनाश लागिऽ",
+      "छॊḓअत सब,    मायाबिभब,",
+      "साधु ताहॆ अनुरागी १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বিশ্বে উদিত,    নামতপন,",
+      "অবিদ্যাবিনাশ লাগিঽ",
+      "ছোḓঅত সব,    মায়াবিভব,",
+      "সাধু তাহে অনুরাগী ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବିଶ୍ବେ ଉଦିତ,    ନାମତପନ,",
+      "ଅବିଦ୍ୟାବିନାଶ ଲାଗିଽ",
+      "ଛୋḓଅତ ସବ,    ମାୟାବିଭବ,",
+      "ସାଧୁ ତାହେ ଅନୁରାଗୀ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બિશ્બે ઉદિત,    નામતપન,",
+      "અબિદ્યાબિનાશ લાગિઽ",
+      "છોḓઅત સબ,    માયાબિભબ,",
+      "સાધુ તાહે અનુરાગી ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "biśbe udita,    nāma-tapana,",
+      "abidyā-bināśa lāgi’",
+      "choḓata saba,    māyā-bibhaba,",
+      "sādhu tāhe anurāgī 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬಿಶ್ಬೆ ಉದಿತ,    ನಾಮತಪನ,",
+      "ಅಬಿದ್ಯಾಬಿನಾಶ ಲಾಗಿಽ",
+      "ಛೊḓಅತ ಸಬ,    ಮಾಯಾಬಿಭಬ,",
+      "ಸಾಧು ತಾಹೆ ಅನುರಾಗೀ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బిశ్బె ఉదిత,    నామతపన,",
+      "అబిద్యాబినాశ లాగిఽ",
+      "ఛొḓఅత సబ,    మాయాబిభబ,",
+      "సాధు తాహె అనురాగీ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "биш́бэ̆ удита,    на̄матапана,",
+      "абидйа̄бина̄ш́а ла̄ги'",
+      "чхо̆ḓата саба,    ма̄йа̄бибхаба,",
+      "са̄дху та̄хэ̆ анура̄гӣ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബിശ്ബെ ഉദിത,    നാമതപന,",
+      "അബിദ്യാബിനാശ ലാഗിഽ",
+      "ഛൊḓഅത സബ,    മായാബിഭബ,",
+      "സാധു താഹെ അനുരാഗീ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பி³ஶ்பெ³ உதி³த,    நாமதபன,",
+      "அபி³த்³யாபி³நாஶ லாகி³(அ)",
+      "சொ²ḓஅத ஸப³,    மாயாபி³ப⁴ப³,",
+      "ஸாது⁴ தாஹெ அனுராகீ³ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "biśbe udita,    nāma-tapana,",
+      "abidyā-bināśa lāgi’",
+      "choḍata saba,    māyā-bibhaba,",
+      "sādhu tāhe anurāgī 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "biśbe udita,    nāma-tapana,",
+      "abidyā-bināśa lāgi’",
+      "choḓata saba,    māyā-bibhaba,",
+      "sādhu tāhe anurāgī 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "harināma[FLAG_HYPHEN_ALPHA]prabhākara,    abidyā[FLAG_HYPHEN_ALPHA]timirahara,",
+    "tomāra mahimā kebā jāne",
+    "ke hena paṇḍitajana,    tomāra māhātmyagaṇa,",
+    "uccaiḥsbare sakala bākhāne 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरिनामप्रभाकर,    अबिद्यातिमिरहर,",
+      "तॊमार महिमा कॆबा जानॆ",
+      "कॆ हॆन पण्डितजन,    तॊमार माहात्म्यगण,",
+      "उच्चैःस्बरॆ सकल बाखानॆ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরিনামপ্রভাকর,    অবিদ্যাতিমিরহর,",
+      "তোমার মহিমা কেবা জানে",
+      "কে হেন পণ্ডিতজন,    তোমার মাহাত্ম্যগণ,",
+      "উচ্চৈঃস্বরে সকল বাখানে ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରିନାମପ୍ରଭାକର,    ଅବିଦ୍ୟାତିମିରହର,",
+      "ତୋମାର ମହିମା କେବା ଜାନେ",
+      "କେ ହେନ ପଣ୍ଡିତଜନ,    ତୋମାର ମାହାତ୍ମ୍ୟଗଣ,",
+      "ଉଚ୍ଚୈଃସ୍ବରେ ସକଲ ବାଖାନେ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિનામપ્રભાકર,    અબિદ્યાતિમિરહર,",
+      "તોમાર મહિમા કેબા જાને",
+      "કે હેન પણ્ડિતજન,    તોમાર માહાત્મ્યગણ,",
+      "ઉચ્ચૈઃસ્બરે સકલ બાખાને ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "harināma-prabhākara,    abidyā-timirahara,",
+      "tomāra mahimā kebā jāne",
+      "ke hena paṇḍitajana,    tomāra māhātmyagaṇa,",
+      "uccaiḥsbare sakala bākhāne 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿನಾಮಪ್ರಭಾಕರ,    ಅಬಿದ್ಯಾತಿಮಿರಹರ,",
+      "ತೊಮಾರ ಮಹಿಮಾ ಕೆಬಾ ಜಾನೆ",
+      "ಕೆ ಹೆನ ಪಂಡಿತಜನ,    ತೊಮಾರ ಮಾಹಾತ್ಮ್ಯಗಣ,",
+      "ಉಚ್ಚೈಃಸ್ಬರೆ ಸಕಲ ಬಾಖಾನೆ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరినామప్రభాకర,    అబిద్యాతిమిరహర,",
+      "తొమార మహిమా కెబా జానె",
+      "కె హెన పండితజన,    తొమార మాహాత్మ్యగణ,",
+      "ఉచ్చైఃస్బరె సకల బాఖానె 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "харина̄мапрабха̄кара,    абидйа̄тимирахара,",
+      "то̆ма̄ра махима̄ кэ̆ба̄ джа̄нэ̆",
+      "кэ̆ хэ̆на пан̣д̣итаджана,    то̆ма̄ра ма̄ха̄тмйаган̣а,",
+      "уччаих̣сбарэ̆ сакала ба̄кха̄нэ̆ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരിനാമപ്രഭാകര,    അബിദ്യാതിമിരഹര,",
+      "തൊമാര മഹിമാ കെബാ ജാനെ",
+      "കെ ഹെന പണ്ഡിതജന,    തൊമാര മാഹാത്മ്യഗണ,",
+      "ഉച്ചൈഃസ്ബരെ സകല ബാഖാനെ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரிநாமப்ரபா⁴கர,    அபி³த்³யாதிமிரஹர,",
+      "தொமார மஹிமா கெபா³ ஜானெ",
+      "கெ ஹென பண்டி³தஜன,    தொமார மாஹாத்ம்யக³ண,",
+      "உச்சை꞉ஸ்ப³ரெ ஸகல பா³கா²னெ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "harināma-prabhākara,    abidyā-timirahara,",
+      "tomāra mahimā kebā jāne",
+      "ke hena paṇḍitajana,    tomāra māhātmyagaṇa,",
+      "uccaiḥsbare sakala bākhāne 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "harināma-prabhākara,    abidyā-timirahara,",
+      "tomāra mahimā kebā jāne",
+      "ke hena paṇḍitajana,    tomāra māhātmyagaṇa,",
+      "uccaiḥsbare sakala bākhāne 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "tomāra ābhāsa pahilahi bhāya",
+    "e bhaba[FLAG_HYPHEN_ALPHA]timira kabalitaprāya 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तॊमार आभास पहिलहि भाय",
+      "ऎ भबतिमिर कबलितप्राय ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তোমার আভাস পহিলহি ভায়",
+      "এ ভবতিমির কবলিতপ্রায় ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୋମାର ଆଭାସ ପହିଲହି ଭାୟ",
+      "ଏ ଭବତିମିର କବଲିତପ୍ରାୟ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તોમાર આભાસ પહિલહિ ભાય",
+      "એ ભબતિમિર કબલિતપ્રાય ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tomāra ābhāsa pahilahi bhāya",
+      "e bhaba-timira kabalitaprāya 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತೊಮಾರ ಆಭಾಸ ಪಹಿಲಹಿ ಭಾಯ",
+      "ಎ ಭಬತಿಮಿರ ಕಬಲಿತಪ್ರಾಯ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తొమార ఆభాస పహిలహి భాయ",
+      "ఎ భబతిమిర కబలితప్రాయ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "то̆ма̄ра а̄бха̄са пахилахи бха̄йа",
+      "э̆ бхабатимира кабалитапра̄йа 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തൊമാര ആഭാസ പഹിലഹി ഭായ",
+      "എ ഭബതിമിര കബലിതപ്രായ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தொமார ஆபா⁴ஸ பஹிலஹி பா⁴ய",
+      "எ ப⁴ப³திமிர கப³லிதப்ராய 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tomāra ābhāsa pahilahi bhāya",
+      "e bhaba-timira kabalitaprāya 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tomāra ābhāsa pahilahi bhāya",
+      "e bhaba-timira kabalitaprāya 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "acire timira nāśiyā prajñāna",
+    "tattbāndha[FLAG_HYPHEN_ALPHA]nayane karena bidhāna 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अचिरॆ तिमिर नाशिया प्रज्ञान",
+      "तत्त्बान्धनयनॆ करॆन बिधान ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অচিরে তিমির নাশিয়া প্রজ্ঞান",
+      "তত্ত্বান্ধনয়নে করেন বিধান ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅଚିରେ ତିମିର ନାଶିୟା ପ୍ରଜ୍ଞାନ",
+      "ତତ୍ତ୍ବାନ୍ଧନୟନେ କରେନ ବିଧାନ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અચિરે તિમિર નાશિયા પ્રજ્ઞાન",
+      "તત્ત્બાન્ધનયને કરેન બિધાન ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "acire timira nāśiyā prajñāna",
+      "tattbāndha-nayane karena bidhāna 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅಚಿರೆ ತಿಮಿರ ನಾಶಿಯಾ ಪ್ರಜ್ಞಾನ",
+      "ತತ್ತ್ಬಾಂಧನಯನೆ ಕರೆನ ಬಿಧಾನ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అచిరె తిమిర నాశియా ప్రజ్ఞాన",
+      "తత్త్బాంధనయనె కరెన బిధాన 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ачирэ̆ тимира на̄ш́ийа̄ праджн̃а̄на",
+      "таттба̄ндханайанэ̆ карэ̆на бидха̄на 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അചിരെ തിമിര നാശിയാ പ്രജ്ഞാന",
+      "തത്ത്ബാന്ധനയനെ കരെന ബിധാന 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அசிரெ திமிர நாஶியா ப்ரஜ்ஞான",
+      "தத்த்பா³ந்த⁴நயனெ கரென பி³தா⁴ன 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "acire timira nāśiyā prajñāna",
+      "tattbāndha-nayane karena bidhāna 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "acire timira nāśiyā prajñāna",
+      "tattbāndha-nayane karena bidhāna 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "sei ta’ prajñāna biśuddhā bhakati",
+    "upajāya hari[FLAG_HYPHEN_ALPHA]biṣayiṇī mati 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सॆइ तऽ प्रज्ञान बिशुद्धा भकति",
+      "उपजाय हरिबिषयिणी मति ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সেই তঽ প্রজ্ঞান বিশুদ্ধা ভকতি",
+      "উপজায় হরিবিষয়িণী মতি ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସେଇ ତଽ ପ୍ରଜ୍ଞାନ ବିଶୁଦ୍ଧା ଭକତି",
+      "ଉପଜାୟ ହରିବିଷୟିଣୀ ମତି ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સેઇ તઽ પ્રજ્ઞાન બિશુદ્ધા ભકતિ",
+      "ઉપજાય હરિબિષયિણી મતિ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sei ta’ prajñāna biśuddhā bhakati",
+      "upajāya hari-biṣayiṇī mati 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸೆಇ ತಽ ಪ್ರಜ್ಞಾನ ಬಿಶುದ್ಧಾ ಭಕತಿ",
+      "ಉಪಜಾಯ ಹರಿಬಿಷಯಿಣೀ ಮತಿ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సెఇ తఽ ప్రజ్ఞాన బిశుద్ధా భకతి",
+      "ఉపజాయ హరిబిషయిణీ మతి 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сэ̆и та' праджн̃а̄на биш́уддха̄ бхакати",
+      "упаджа̄йа харибишайин̣ӣ мати 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സെഇ തഽ പ്രജ്ഞാന ബിശുദ്ധാ ഭകതി",
+      "ഉപജായ ഹരിബിഷയിണീ മതി 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸெஇ த(அ) ப்ரஜ்ஞான பி³ஶுத்³தா⁴ ப⁴கதி",
+      "உபஜாய ஹரிபி³ஷயிணீ மதி 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sei ta’ prajñāna biśuddhā bhakati",
+      "upajāya hari-biṣayiṇī mati 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sei ta’ prajñāna biśuddhā bhakati",
+      "upajāya hari-biṣayiṇī mati 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "e adbhutalīlā satata tomāra",
+    "bhakatibinoda jāniyāche sāra 6"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎ अद्भुतलीला सतत तॊमार",
+      "भकतिबिनॊद जानियाछॆ सार ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এ অদ্ভুতলীলা সতত তোমার",
+      "ভকতিবিনোদ জানিয়াছে সার ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏ ଅଦ୍ଭୁତଲୀଲା ସତତ ତୋମାର",
+      "ଭକତିବିନୋଦ ଜାନିୟାଛେ ସାର ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એ અદ્ભુતલીલા સતત તોમાર",
+      "ભકતિબિનોદ જાનિયાછે સાર ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "e adbhutalīlā satata tomāra",
+      "bhakatibinoda jāniyāche sāra 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎ ಅದ್ಭುತಲೀಲಾ ಸತತ ತೊಮಾರ",
+      "ಭಕತಿಬಿನೊದ ಜಾನಿಯಾಛೆ ಸಾರ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎ అద్భుతలీలా సతత తొమార",
+      "భకతిబినొద జానియాఛె సార 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆ адбхуталӣла̄ сатата то̆ма̄ра",
+      "бхакатибино̆да джа̄нийа̄чхэ̆ са̄ра 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എ അദ്ഭുതലീലാ സതത തൊമാര",
+      "ഭകതിബിനൊദ ജാനിയാഛെ സാര 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எ அத்³பு⁴தலீலா ஸதத தொமார",
+      "ப⁴கதிபி³னொத³ ஜானியாசெ² ஸார 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "e adbhutalīlā satata tomāra",
+      "bhakatibinoda jāniyāche sāra 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "e adbhutalīlā satata tomāra",
+      "bhakatibinoda jāniyāche sāra 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "śabdārthaḥ[FLAG_HYPHEN_ALPHA] prabhākara—sūrya; pahilahi—prathame; bhāya—prakāśa pāya"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शब्दार्थः प्रभाकर—सूर्य; पहिलहि—प्रथमॆ; भाय—प्रकाश पाय"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শব্দার্থঃ প্রভাকর—সূর্য; পহিলহি—প্রথমে; ভায়—প্রকাশ পায়"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶବ୍ଦାର୍ଥଃ ପ୍ରଭାକର—ସୂର୍ୟ; ପହିଲହି—ପ୍ରଥମେ; ଭାୟ—ପ୍ରକାଶ ପାୟ"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શબ્દાર્થઃ પ્રભાકર—સૂર્ય; પહિલહિ—પ્રથમે; ભાય—પ્રકાશ પાય"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śabdārthaḥ- prabhākara—sūrya; pahilahi—prathame; bhāya—prakāśa pāya"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶಬ್ದಾರ್ಥಃ ಪ್ರಭಾಕರ—ಸೂರ್ಯ; ಪಹಿಲಹಿ—ಪ್ರಥಮೆ; ಭಾಯ—ಪ್ರಕಾಶ ಪಾಯ"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శబ్దార్థః ప్రభాకర—సూర్య; పహిలహి—ప్రథమె; భాయ—ప్రకాశ పాయ"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́абда̄ртхах̣ прабха̄кара—сӯрйа; пахилахи—пратхамэ̆; бха̄йа—прака̄ш́а па̄йа"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശബ്ദാർഥഃ പ്രഭാകര—സൂര്യ; പഹിലഹി—പ്രഥമെ; ഭായ—പ്രകാശ പായ"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶப்³தா³ர்த²꞉ ப்ரபா⁴கர—ஸூர்ய; பஹிலஹி—ப்ரத²மெ; பா⁴ய—ப்ரகாஶ பாய"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śabdārthaḥ- prabhākara—sūrya; pahilahi—prathame; bhāya—prakāśa pāya"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śabdārthaḥ- prabhākara—sūrya; pahilahi—prathame; bhāya—prakāśa pāya"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "যদাভাসোঽপ্যুদ্যন্ কবলিত-ভবধ্বান্তবিভবো"
+  },
+  {
+   "language_code": "ben",
+   "text": "দৃশং তত্ত্বান্ধানামপি দিশতি ভক্তি-প্রণয়িনীম্ ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "জনস্তস্যোদাত্তং জগতি ভগবন্নাম-তরণে"
+  },
+  {
+   "language_code": "ben",
+   "text": "কৃতী তে নির্ব্বক্তুং ক ইহ মহিমানং প্রভবতি ॥৩॥"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "srrb-1",
+   "filename": "NM3-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ]
+}

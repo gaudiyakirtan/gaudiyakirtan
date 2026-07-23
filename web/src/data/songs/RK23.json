@@ -1,0 +1,837 @@
+{
+  "uid": "RK23",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "কদম্ব তরুর ডাল, নামিয়াছে ভূমে ভাল"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "kadamba tarura ḍāla, nāmiyāche bhūme bhāla"
+    },
+    {
+      "script_code": "Deva",
+      "text": "कदम्ब तरुर डाल, नामियाछे भूमे भाल"
+    },
+    {
+      "script_code": "Telu",
+      "text": "కదంబ తరుర డాల, నామియాఛే భూమే భాల"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಕದಂಬ ತರುರ ಡಾಲ, ನಾಮಿಯಾಛೇ ಭೂಮೇ ಭಾಲ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "கத³ம்ப³ தருர டா³ல, நாமியாசே² பூ⁴மே பா⁴ல"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "കദംബ തരുര ഡാല, നാമിയാഛേ ഭൂമേ ഭാല"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "કદમ્બ તરુર ડાલ, નામિયાછે ભૂમે ભાલ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "କଦମ୍ବ ତରୁର ଡାଲ, ନାମିୟାଛେ ଭୂମେ ଭାଲ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "кадамба тарура д̣а̄ла, на̄мийа̄чхэ бхӯмэ бха̄ла"
+    }
+  ],
+  "author_uid": "?",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "অজানা লেখক"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Unknown Author"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "kadamba tarura ḍāla,    nāmiyāche bhūme bhāla,",
+        "phuthiyāche phula sāri sāri",
+        "parimale bharala,    sakala bṛndābana,",
+        "keli kare bhramarā bhramarī 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कदम्ब तरुर डाल,    नामियाछॆ भूमॆ भाल,",
+            "फुथियाछॆ फुल सारि सारि",
+            "परिमलॆ भरल,    सकल ब्ड़्न्दाबन,",
+            "कॆलि करॆ भ्रमरा भ्रमरी १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কদম্ব তরুর ডাল,    নামিয়াছে ভূমে ভাল,",
+            "ফুথিয়াছে ফুল সারি সারি",
+            "পরিমলে ভরল,    সকল ব্ড়্ন্দাবন,",
+            "কেলি করে ভ্রমরা ভ্রমরী ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କଦମ୍ବ ତରୁର ଡାଲ,    ନାମିୟାଛେ ଭୂମେ ଭାଲ,",
+            "ଫୁଥିୟାଛେ ଫୁଲ ସାରି ସାରି",
+            "ପରିମଲେ ଭରଲ,    ସକଲ ବ୍ଡ଼୍ନ୍ଦାବନ,",
+            "କେଲି କରେ ଭ୍ରମରା ଭ୍ରମରୀ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કદમ્બ તરુર ડાલ,    નામિયાછે ભૂમે ભાલ,",
+            "ફુથિયાછે ફુલ સારિ સારિ",
+            "પરિમલે ભરલ,    સકલ બ્ડ઼્ન્દાબન,",
+            "કેલિ કરે ભ્રમરા ભ્રમરી ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kadamba tarura ḍāla,    nāmiyāche bhūme bhāla,",
+            "phuthiyāche phula sāri sāri",
+            "parimale bharala,    sakala bṛndābana,",
+            "keli kare bhramarā bhramarī 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕದಂಬ ತರುರ ಡಾಲ,    ನಾಮಿಯಾಛೆ ಭೂಮೆ ಭಾಲ,",
+            "ಫುಥಿಯಾಛೆ ಫುಲ ಸಾರಿ ಸಾರಿ",
+            "ಪರಿಮಲೆ ಭರಲ,    ಸಕಲ ಬ್‌ಡ಼್ನ್ದಾಬನ,",
+            "ಕೆಲಿ ಕರೆ ಭ್ರಮರಾ ಭ್ರಮರೀ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కదంబ తరుర డాల,    నామియాఛె భూమె భాల,",
+            "ఫుథియాఛె ఫుల సారి సారి",
+            "పరిమలె భరల,    సకల బ్డ్న్దాబన,",
+            "కెలి కరె భ్రమరా భ్రమరీ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кадамба тарура д̣а̄ла,    на̄мийа̄чхэ̆ бхӯмэ̆ бха̄ла,",
+            "пхутхийа̄чхэ̆ пхула са̄ри са̄ри",
+            "парималэ̆ бхарала,    сакала бр̤нда̄бана,",
+            "кэ̆ли карэ̆ бхрамара̄ бхрамарӣ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കദംബ തരുര ഡാല,    നാമിയാഛെ ഭൂമെ ഭാല,",
+            "ഫുഥിയാഛെ ഫുല സാരി സാരി",
+            "പരിമലെ ഭരല,    സകല ബ്ഡ്ന്ദാബന,",
+            "കെലി കരെ ഭ്രമരാ ഭ്രമരീ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கத³ம்ப³ தருர டா³ல,    நாமியாசெ² பூ⁴மெ பா⁴ல,",
+            "பு²தி²யாசெ² பு²ல ஸாரி ஸாரி",
+            "பரிமலெ ப⁴ரல,    ஸகல ப்³ஃட்²ந்தா³ப³ன,",
+            "கெலி கரெ ப்⁴ரமரா ப்⁴ரமரீ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kadamba tarura ḍāla,    nāmiyāche bhūme bhāla,",
+            "phuthiyāche phula sāri sāri",
+            "parimale bharala,    sakala bṛndābana,",
+            "keli kare bhramarā bhramarī 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kadamba tarura ḍāla,    nāmiyāche bhūme bhāla,",
+            "phuthiyāche phula sāri sāri",
+            "parimale bharala,    sakala bṛndābana,",
+            "keli kare bhramarā bhramarī 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "rāi[FLAG_HYPHEN_ALPHA]kānu bilāsa·i raṅge",
+        "kibā rūpa lābaṇi,    baidagadhakhani dhani,",
+        "maṇimaya ābhāraṇa āṅge 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "राइकानु बिलासइ रङ्गॆ",
+            "किबा रूप लाबणि,    बैदगधखनि धनि,",
+            "मणिमय आभारण आङ्गॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "রাইকানু বিলাসই রঙ্গে",
+            "কিবা রূপ লাবণি,    বৈদগধখনি ধনি,",
+            "মণিময় আভারণ আঙ্গে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ରାଇକାନୁ ବିଲାସଇ ରଙ୍ଗେ",
+            "କିବା ରୂପ ଲାବଣି,    ବୈଦଗଧଖନି ଧନି,",
+            "ମଣିମୟ ଆଭାରଣ ଆଙ୍ଗେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "રાઇકાનુ બિલાસઇ રઙ્ગે",
+            "કિબા રૂપ લાબણિ,    બૈદગધખનિ ધનિ,",
+            "મણિમય આભારણ આઙ્ગે ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "rāi-kānu bilāsa·i raṅge",
+            "kibā rūpa lābaṇi,    baidagadhakhani dhani,",
+            "maṇimaya ābhāraṇa āṅge 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ರಾಇಕಾನು ಬಿಲಾಸಇ ರಂಗೆ",
+            "ಕಿಬಾ ರೂಪ ಲಾಬಣಿ,    ಬೈದಗಧಖನಿ ಧನಿ,",
+            "ಮಣಿಮಯ ಆಭಾರಣ ಆಂಗೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "రాఇకాను బిలాసఇ రంగె",
+            "కిబా రూప లాబణి,    బైదగధఖని ధని,",
+            "మణిమయ ఆభారణ ఆంగె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ра̄ика̄ну била̄саи ран̇гэ̆",
+            "киба̄ рӯпа ла̄бан̣и,    баидагадхакхани дхани,",
+            "ман̣имайа а̄бха̄ран̣а а̄н̇гэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "രാഇകാനു ബിലാസഇ രംഗെ",
+            "കിബാ രൂപ ലാബണി,    ബൈദഗധഖനി ധനി,",
+            "മണിമയ ആഭാരണ ആംഗെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ராஇகானு பி³லாஸஇ ரங்கெ³",
+            "கிபா³ ரூப லாப³ணி,    பை³த³க³த⁴க²னி த⁴னி,",
+            "மணிமய ஆபா⁴ரண ஆங்கெ³ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "rāi-kānu bilāsa·i raṅge",
+            "kibā rūpa lābaṇi,    baidagadhakhani dhani,",
+            "maṇimaya ābhāraṇa āṅge 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "rāi-kānu bilāsa·i raṅge",
+            "kibā rūpa lābaṇi,    baidagadhakhani dhani,",
+            "maṇimaya ābhāraṇa āṅge 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "rādhāra dakṣiṇa kara,    dhari’ priya giridhara,",
+        "madhura madhura cali’ yāya",
+        "āge pāche sakhīgaṇa,    kare phula bariṣaṇa,",
+        "kona sakhī cāmara ḍhulāya 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "राधार दक्षिण कर,    धरिऽ प्रिय गिरिधर,",
+            "मधुर मधुर चलिऽ याय",
+            "आगॆ पाछॆ सखीगण,    करॆ फुल बरिषण,",
+            "कॊन सखी चामर ढुलाय ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "রাধার দক্ষিণ কর,    ধরিঽ প্রিয় গিরিধর,",
+            "মধুর মধুর চলিঽ যায়",
+            "আগে পাছে সখীগণ,    করে ফুল বরিষণ,",
+            "কোন সখী চামর ঢুলায় ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ରାଧାର ଦକ୍ଷିଣ କର,    ଧରିଽ ପ୍ରିୟ ଗିରିଧର,",
+            "ମଧୁର ମଧୁର ଚଲିଽ ଯାୟ",
+            "ଆଗେ ପାଛେ ସଖୀଗଣ,    କରେ ଫୁଲ ବରିଷଣ,",
+            "କୋନ ସଖୀ ଚାମର ଢୁଲାୟ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "રાધાર દક્ષિણ કર,    ધરિઽ પ્રિય ગિરિધર,",
+            "મધુર મધુર ચલિઽ યાય",
+            "આગે પાછે સખીગણ,    કરે ફુલ બરિષણ,",
+            "કોન સખી ચામર ઢુલાય ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "rādhāra dakṣiṇa kara,    dhari’ priya giridhara,",
+            "madhura madhura cali’ yāya",
+            "āge pāche sakhīgaṇa,    kare phula bariṣaṇa,",
+            "kona sakhī cāmara ḍhulāya 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ರಾಧಾರ ದಕ್ಷಿಣ ಕರ,    ಧರಿಽ ಪ್ರಿಯ ಗಿರಿಧರ,",
+            "ಮಧುರ ಮಧುರ ಚಲಿಽ ಯಾಯ",
+            "ಆಗೆ ಪಾಛೆ ಸಖೀಗಣ,    ಕರೆ ಫುಲ ಬರಿಷಣ,",
+            "ಕೊನ ಸಖೀ ಚಾಮರ ಢುಲಾಯ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "రాధార దక్షిణ కర,    ధరిఽ ప్రియ గిరిధర,",
+            "మధుర మధుర చలిఽ యాయ",
+            "ఆగె పాఛె సఖీగణ,    కరె ఫుల బరిషణ,",
+            "కొన సఖీ చామర ఢులాయ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ра̄дха̄ра дакшин̣а кара,    дхари' прийа гиридхара,",
+            "мадхура мадхура чали' йа̄йа",
+            "а̄гэ̆ па̄чхэ̆ сакхӣган̣а,    карэ̆ пхула баришан̣а,",
+            "ко̆на сакхӣ ча̄мара д̣хула̄йа 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "രാധാര ദക്ഷിണ കര,    ധരിഽ പ്രിയ ഗിരിധര,",
+            "മധുര മധുര ചലിഽ യായ",
+            "ആഗെ പാഛെ സഖീഗണ,    കരെ ഫുല ബരിഷണ,",
+            "കൊന സഖീ ചാമര ഢുലായ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ராதா⁴ர த³க்ஷிண கர,    த⁴ரி(அ) ப்ரிய கி³ரித⁴ர,",
+            "மது⁴ர மது⁴ர சலி(அ) யாய",
+            "ஆகெ³ பாசெ² ஸகீ²க³ண,    கரெ பு²ல ப³ரிஷண,",
+            "கொன ஸகீ² சாமர டு⁴லாய 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "rādhāra dakṣiṇa kara,    dhari’ priya giridhara,",
+            "madhura madhura cali’ yāya",
+            "āge pāche sakhīgaṇa,    kare phula bariṣaṇa,",
+            "kona sakhī cāmara ḍhulāya 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "rādhāra dakṣiṇa kara,    dhari’ priya giridhara,",
+            "madhura madhura cali’ yāya",
+            "āge pāche sakhīgaṇa,    kare phula bariṣaṇa,",
+            "kona sakhī cāmara ḍhulāya 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "parāge dhūsara sthala,    candra kare suśītala,",
+        "maṇimaya bedīra upare",
+        "rāi[FLAG_HYPHEN_ALPHA]kānu kara yoḓi’,    nṛtya kare phiri’ phiri’,",
+        "paraśe pulake tanu bhare 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "परागॆ धूसर स्थल,    चन्द्र करॆ सुशीतल,",
+            "मणिमय बॆदीर उपरॆ",
+            "राइकानु कर यॊḓइऽ,    न्ड़्त्य करॆ फिरिऽ फिरिऽ,",
+            "परशॆ पुलकॆ तनु भरॆ ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "পরাগে ধূসর স্থল,    চন্দ্র করে সুশীতল,",
+            "মণিময় বেদীর উপরে",
+            "রাইকানু কর যোḓইঽ,    ন্ড়্ত্য করে ফিরিঽ ফিরিঽ,",
+            "পরশে পুলকে তনু ভরে ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ପରାଗେ ଧୂସର ସ୍ଥଲ,    ଚନ୍ଦ୍ର କରେ ସୁଶୀତଲ,",
+            "ମଣିମୟ ବେଦୀର ଉପରେ",
+            "ରାଇକାନୁ କର ଯୋḓଇଽ,    ନ୍ଡ଼୍ତ୍ୟ କରେ ଫିରିଽ ଫିରିଽ,",
+            "ପରଶେ ପୁଲକେ ତନୁ ଭରେ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "પરાગે ધૂસર સ્થલ,    ચન્દ્ર કરે સુશીતલ,",
+            "મણિમય બેદીર ઉપરે",
+            "રાઇકાનુ કર યોḓઇઽ,    ન્ડ઼્ત્ય કરે ફિરિઽ ફિરિઽ,",
+            "પરશે પુલકે તનુ ભરે ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "parāge dhūsara sthala,    candra kare suśītala,",
+            "maṇimaya bedīra upare",
+            "rāi-kānu kara yoḓi’,    nṛtya kare phiri’ phiri’,",
+            "paraśe pulake tanu bhare 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಪರಾಗೆ ಧೂಸರ ಸ್ಥಲ,    ಚಂದ್ರ ಕರೆ ಸುಶೀತಲ,",
+            "ಮಣಿಮಯ ಬೆದೀರ ಉಪರೆ",
+            "ರಾಇಕಾನು ಕರ ಯೊḓಇಽ,    ನ್‌ಡ಼್ತ್ಯ ಕರೆ ಫಿರಿಽ ಫಿರಿಽ,",
+            "ಪರಶೆ ಪುಲಕೆ ತನು ಭರೆ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "పరాగె ధూసర స్థల,    చంద్ర కరె సుశీతల,",
+            "మణిమయ బెదీర ఉపరె",
+            "రాఇకాను కర యొḓఇఽ,    న్డ్త్య కరె ఫిరిఽ ఫిరిఽ,",
+            "పరశె పులకె తను భరె 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "пара̄гэ̆ дхӯсара стхала,    чандра карэ̆ суш́ӣтала,",
+            "ман̣имайа бэ̆дӣра упарэ̆",
+            "ра̄ика̄ну кара йо̆ḓи',    нр̤тйа карэ̆ пхири' пхири',",
+            "параш́э̆ пулакэ̆ тану бхарэ̆ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "പരാഗെ ധൂസര സ്ഥല,    ചന്ദ്ര കരെ സുശീതല,",
+            "മണിമയ ബെദീര ഉപരെ",
+            "രാഇകാനു കര യൊḓഇഽ,    ന്ഡ്ത്യ കരെ ഫിരിഽ ഫിരിഽ,",
+            "പരശെ പുലകെ തനു ഭരെ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பராகெ³ தூ⁴ஸர ஸ்த²ல,    சந்த்³ர கரெ ஸுஶீதல,",
+            "மணிமய பெ³தீ³ர உபரெ",
+            "ராஇகானு கர யொḓஇ(அ),    ந்ஃட்²த்ய கரெ பி²ரி(அ) பி²ரி(அ),",
+            "பரஶெ புலகெ தனு ப⁴ரெ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "parāge dhūsara sthala,    candra kare suśītala,",
+            "maṇimaya bedīra upare",
+            "rāi-kānu kara yoḍi’,    nṛtya kare phiri’ phiri’,",
+            "paraśe pulake tanu bhare 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "parāge dhūsara sthala,    candra kare suśītala,",
+            "maṇimaya bedīra upare",
+            "rāi-kānu kara yoḓi’,    nṛtya kare phiri’ phiri’,",
+            "paraśe pulake tanu bhare 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "tāra madhye hemapīṭha,    aṣṭadale beṣṭita,",
+        "aṣṭadale pradhānā nāyikā",
+        "tā’ra madhye ratnāsane,    basi āchena duijane,",
+        "śyāma saṅge sundarī rādhikā 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तार मध्यॆ हॆमपीठ,    अष्टदलॆ बॆष्टित,",
+            "अष्टदलॆ प्रधाना नायिका",
+            "ताऽर मध्यॆ रत्नासनॆ,    बसि आछॆन दुइजनॆ,",
+            "श्याम सङ्गॆ सुन्दरी राधिका ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তার মধ্যে হেমপীঠ,    অষ্টদলে বেষ্টিত,",
+            "অষ্টদলে প্রধানা নায়িকা",
+            "তাঽর মধ্যে রত্নাসনে,    বসি আছেন দুইজনে,",
+            "শ্যাম সঙ্গে সুন্দরী রাধিকা ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତାର ମଧ୍ୟେ ହେମପୀଠ,    ଅଷ୍ଟଦଲେ ବେଷ୍ଟିତ,",
+            "ଅଷ୍ଟଦଲେ ପ୍ରଧାନା ନାୟିକା",
+            "ତାଽର ମଧ୍ୟେ ରତ୍ନାସନେ,    ବସି ଆଛେନ ଦୁଇଜନେ,",
+            "ଶ୍ୟାମ ସଙ୍ଗେ ସୁନ୍ଦରୀ ରାଧିକା ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તાર મધ્યે હેમપીઠ,    અષ્ટદલે બેષ્ટિત,",
+            "અષ્ટદલે પ્રધાના નાયિકા",
+            "તાઽર મધ્યે રત્નાસને,    બસિ આછેન દુઇજને,",
+            "શ્યામ સઙ્ગે સુન્દરી રાધિકા ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tāra madhye hemapīṭha,    aṣṭadale beṣṭita,",
+            "aṣṭadale pradhānā nāyikā",
+            "tā’ra madhye ratnāsane,    basi āchena duijane,",
+            "śyāma saṅge sundarī rādhikā 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತಾರ ಮಧ್ಯೆ ಹೆಮಪೀಠ,    ಅಷ್ಟದಲೆ ಬೆಷ್ಟಿತ,",
+            "ಅಷ್ಟದಲೆ ಪ್ರಧಾನಾ ನಾಯಿಕಾ",
+            "ತಾಽರ ಮಧ್ಯೆ ರತ್ನಾಸನೆ,    ಬಸಿ ಆಛೆನ ದುಇಜನೆ,",
+            "ಶ್ಯಾಮ ಸಂಗೆ ಸುಂದರೀ ರಾಧಿಕಾ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తార మధ్యె హెమపీఠ,    అష్టదలె బెష్టిత,",
+            "అష్టదలె ప్రధానా నాయికా",
+            "తాఽర మధ్యె రత్నాసనె,    బసి ఆఛెన దుఇజనె,",
+            "శ్యామ సంగె సుందరీ రాధికా 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "та̄ра мадхйэ̆ хэ̆мапӣт̣ха,    ашт̣адалэ̆ бэ̆шт̣ита,",
+            "ашт̣адалэ̆ прадха̄на̄ на̄йика̄",
+            "та̄'ра мадхйэ̆ ратна̄санэ̆,    баси а̄чхэ̆на дуиджанэ̆,",
+            "ш́йа̄ма сан̇гэ̆ сундарӣ ра̄дхика̄ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "താര മധ്യെ ഹെമപീഠ,    അഷ്ടദലെ ബെഷ്ടിത,",
+            "അഷ്ടദലെ പ്രധാനാ നായികാ",
+            "താഽര മധ്യെ രത്നാസനെ,    ബസി ആഛെന ദുഇജനെ,",
+            "ശ്യാമ സംഗെ സുന്ദരീ രാധികാ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தார மத்⁴யெ ஹெமபீட²,    அஷ்டத³லெ பெ³ஷ்டித,",
+            "அஷ்டத³லெ ப்ரதா⁴னா நாயிகா",
+            "தா(அ)ர மத்⁴யெ ரத்னாஸனெ,    ப³ஸி ஆசெ²ன து³இஜனெ,",
+            "ஶ்யாம ஸங்கெ³ ஸுந்த³ரீ ராதி⁴கா 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tāra madhye hemapīṭha,    aṣṭadale beṣṭita,",
+            "aṣṭadale pradhānā nāyikā",
+            "tā’ra madhye ratnāsane,    basi āchena duijane,",
+            "śyāma saṅge sundarī rādhikā 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tāra madhye hemapīṭha,    aṣṭadale beṣṭita,",
+            "aṣṭadale pradhānā nāyikā",
+            "tā’ra madhye ratnāsane,    basi āchena duijane,",
+            "śyāma saṅge sundarī rādhikā 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "orūpa lābaṇyarāśi,    amiya paḓeche khasi’,",
+        "hāsya parihāsa[FLAG_HYPHEN_ALPHA]sambhāṣaṇe",
+        "narottamadāsa kaya,    nityalīlā sukhamaya,",
+        "sadāi sphuruka mora mane 6"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऒरूप लाबण्यराशि,    अमिय पḓऎछॆ खसिऽ,",
+            "हास्य परिहाससम्भाषणॆ",
+            "नरॊत्तमदास कय,    नित्यलीला सुखमय,",
+            "सदाइ स्फुरुक मॊर मनॆ ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ওরূপ লাবণ্যরাশি,    অমিয় পḓএছে খসিঽ,",
+            "হাস্য পরিহাসসম্ভাষণে",
+            "নরোত্তমদাস কয়,    নিত্যলীলা সুখময়,",
+            "সদাই স্ফুরুক মোর মনে ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଓରୂପ ଲାବଣ୍ୟରାଶି,    ଅମିୟ ପḓଏଛେ ଖସିଽ,",
+            "ହାସ୍ୟ ପରିହାସସମ୍ଭାଷଣେ",
+            "ନରୋତ୍ତମଦାସ କୟ,    ନିତ୍ୟଲୀଲା ସୁଖମୟ,",
+            "ସଦାଇ ସ୍ଫୁରୁକ ମୋର ମନେ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઓરૂપ લાબણ્યરાશિ,    અમિય પḓએછે ખસિઽ,",
+            "હાસ્ય પરિહાસસમ્ભાષણે",
+            "નરોત્તમદાસ કય,    નિત્યલીલા સુખમય,",
+            "સદાઇ સ્ફુરુક મોર મને ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "orūpa lābaṇyarāśi,    amiya paḓeche khasi’,",
+            "hāsya parihāsa-sambhāṣaṇe",
+            "narottamadāsa kaya,    nityalīlā sukhamaya,",
+            "sadāi sphuruka mora mane 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಒರೂಪ ಲಾಬಣ್ಯರಾಶಿ,    ಅಮಿಯ ಪḓಎಛೆ ಖಸಿಽ,",
+            "ಹಾಸ್ಯ ಪರಿಹಾಸಸಂಭಾಷಣೆ",
+            "ನರೊತ್ತಮದಾಸ ಕಯ,    ನಿತ್ಯಲೀಲಾ ಸುಖಮಯ,",
+            "ಸದಾಇ ಸ್ಫುರುಕ ಮೊರ ಮನೆ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఒరూప లాబణ్యరాశి,    అమియ పḓఎఛె ఖసిఽ,",
+            "హాస్య పరిహాససంభాషణె",
+            "నరొత్తమదాస కయ,    నిత్యలీలా సుఖమయ,",
+            "సదాఇ స్ఫురుక మొర మనె 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "о̆рӯпа ла̄бан̣йара̄ш́и,    амийа паḓэ̆чхэ̆ кхаси',",
+            "ха̄сйа париха̄сасамбха̄шан̣э̆",
+            "наро̆ттамада̄са кайа,    нитйалӣла̄ сукхамайа,",
+            "сада̄и спхурука мо̆ра манэ̆ 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഒരൂപ ലാബണ്യരാശി,    അമിയ പḓഎഛെ ഖസിഽ,",
+            "ഹാസ്യ പരിഹാസസംഭാഷണെ",
+            "നരൊത്തമദാസ കയ,    നിത്യലീലാ സുഖമയ,",
+            "സദാഇ സ്ഫുരുക മൊര മനെ 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஒரூப லாப³ண்யராஶி,    அமிய பḓஎசெ² க²ஸி(அ),",
+            "ஹாஸ்ய பரிஹாஸஸம்பா⁴ஷணெ",
+            "நரொத்தமதா³ஸ கய,    நித்யலீலா ஸுக²மய,",
+            "ஸதா³இ ஸ்பு²ருக மொர மனெ 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "orūpa lābaṇyarāśi,    amiya paḍeche khasi’,",
+            "hāsya parihāsa-sambhāṣaṇe",
+            "narottamadāsa kaya,    nityalīlā sukhamaya,",
+            "sadāi sphuruka mora mane 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "orūpa lābaṇyarāśi,    amiya paḓeche khasi’,",
+            "hāsya parihāsa-sambhāṣaṇe",
+            "narottamadāsa kaya,    nityalīlā sukhamaya,",
+            "sadāi sphuruka mora mane 6"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": []
+}

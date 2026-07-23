@@ -2,15 +2,20 @@
 
 This document defines the unified color scheme for the Gaudiya Kirtan application across all platforms.
 
+> **The Palette table below is authoritative.** The per-platform code blocks further down are
+> illustrative — where they differ from the table, follow the table. Recent corrections: Gaura
+> `tertiary` → `#5A5A5A` (was a `#1A1A1A` typo); added the `onHighlight` token for on-accent text.
+
 ## Color Palette
 
 | Name | Light Mode (Gaur) | Dark Mode (Shyam) | Description |
 |------|-------------------|-------------------|-------------|
 | `primary` | `#1A1A1A` | `#E0E0E0` | Primary text and important content |
 | `secondary` | `#3A3A3A` | `#B8B8B8` | Secondary text and content |
-| `tertiary` | `#1A1A1A` | `#9B9B9B` | Tertiary text and content |
+| `tertiary` | `#5A5A5A` | `#9B9B9B` | Tertiary text and content (corrected from `#1A1A1A`, which duplicated `primary` and collapsed the light-mode hierarchy) |
 | `accent` | `#B36B00` | `#8CB4FF` | Accent color for interactive elements |
 | `highlight` | `#B36B00` | `#8CB4FF` | Highlight color for important elements and links |
+| `onHighlight` | `#FFFFFF` | `#1A1A1A` | Text/icon color placed **on** an accent/highlight fill. Shyam's accent is light blue, so on-accent content is near-black there, white in Gaura. |
 | `background` | `#FFF4E8` | `#191919` | Main background color |
 | `backgroundOffset` | `#F6E5D1` | `#202020` | Secondary background for cards and UI elements |
 | `border` | `#E6D7C3` | `#333333` | Border color for UI elements |

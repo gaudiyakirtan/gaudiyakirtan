@@ -1,67 +1,92 @@
 package com.gaudiyakirtan.myapplication.ui.home
 
-import androidx.lifecycle.ViewModel
-import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.StateFlow
-import com.gaudiyakirtan.data.SampleData
+import android.app.Application
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.viewModelScope
+import com.gaudiyakirtan.data.SettingsRepository
+import com.gaudiyakirtan.data.SongRepository
 import com.gaudiyakirtan.myapplication.models.*
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.SharingStarted
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.flow.map
+import kotlinx.coroutines.flow.stateIn
+import kotlinx.coroutines.launch
 
 /**
- * ViewModel for the Home screen
- * Provides data for various sections of the Home screen
+ * ViewModel for the Home screen.
+ * Loads the real, offline-bundled corpus via [SongRepository] -- no more [com.gaudiyakirtan.data.SampleData].
+ * Lists (songs/authors) are backed by the lightweight [ManifestEntry]/[Author] catalog rather than
+ * full [Song] objects, per docs/data/manifest.md; only the "Featured Song" block loads one full
+ * [Song] (by uid), since it needs verses.
  */
-class HomeViewModel : ViewModel() {
-    private val _songs = MutableStateFlow<List<Song>>(emptyList())
-    private val _authors = MutableStateFlow<List<Author>>(emptyList())
-    private val _topics = MutableStateFlow<List<Topic>>(emptyList())
-    private val _books = MutableStateFlow<List<Book>>(emptyList())
-    private val _verses = MutableStateFlow<List<Verse>>(emptyList())
-    private val _searchQuery = MutableStateFlow("")
+class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
-    val songs: StateFlow<List<Song>> = _songs
+    private val repository = SongRepository.getInstance(application)
+    private val settingsRepository = SettingsRepository.getInstance(application)
+
+    /** Reader's chosen list-title script (docs/screens/settings.md `listLanguage`). */
+    val listLanguage: StateFlow<String> = settingsRepository.settings
+        .map { it.listLanguage }
+        .stateIn(
+            scope = viewModelScope,
+            started = SharingStarted.Eagerly,
+            initialValue = settingsRepository.settings.value.listLanguage
+        )
+
+    /** uid of the song shown in the "Featured Song" block. */
+    private val featuredUid = "N9"
+
+    private val _songs = MutableStateFlow<List<ManifestEntry>>(emptyList())
+    private val _authors = MutableStateFlow<List<Author>>(emptyList())
+    private val _topics = MutableStateFlow<List<SongGroup>>(emptyList())
+    private val _books = MutableStateFlow<List<SongGroup>>(emptyList())
+    private val _featuredSong = MutableStateFlow<Song?>(null)
+    private val _searchQuery = MutableStateFlow("")
+    private val _authorNames = MutableStateFlow<Map<String, String>>(emptyMap())
+
+    val songs: StateFlow<List<ManifestEntry>> = _songs
     val authors: StateFlow<List<Author>> = _authors
-    val topics: StateFlow<List<Topic>> = _topics
-    val books: StateFlow<List<Book>> = _books
-    val verses: StateFlow<List<Verse>> = _verses
+    val topics: StateFlow<List<SongGroup>> = _topics
+    val books: StateFlow<List<SongGroup>> = _books
+    val featuredSong: StateFlow<Song?> = _featuredSong
     val searchQuery: StateFlow<String> = _searchQuery
+
+    /** `author_uid` -> display name, for resolving a [ManifestEntry.authorUid] in list rows. */
+    val authorNames: StateFlow<Map<String, String>> = _authorNames
 
     init {
         loadData()
     }
 
-    /**
-     * Loads sample data into the view model from the SampleData object
-     */
     private fun loadData() {
-        _authors.value = SampleData.authors
-        _topics.value = SampleData.topics
-        _books.value = SampleData.books
-        _songs.value = SampleData.songs
-        _verses.value = SampleData.verses
+        viewModelScope.launch {
+            _songs.value = repository.getManifest()
+            _featuredSong.value = repository.getSongByUid(featuredUid)
+        }
+        viewModelScope.launch {
+            val loadedAuthors = repository.getAuthors()
+            _authors.value = loadedAuthors
+            _authorNames.value = loadedAuthors.associate { it.uid to it.name }
+        }
+        viewModelScope.launch {
+            // Book/Topic groupings (docs/data/collections.md `SongGroup`; 93 groups shipped: 19
+            // books + 74 topics). Sections render only when non-empty (see HomeScreen).
+            val groups = repository.getSongGroups()
+            _books.value = groups.filter { it.kind == SongGroupKind.BOOK }
+            _topics.value = groups.filter { it.kind == SongGroupKind.TOPIC }
+        }
     }
-    
-    /**
-     * Updates the search query
-     */
+
+    /** Updates the search query. */
     fun updateSearchQuery(query: String) {
         _searchQuery.value = query
         // In a real app, this would filter the data based on the query
         // For now, we're just storing the query for use in the UI
     }
-    
-    /**
-     * In a real app, this would fetch data from a repository
-     */
+
+    /** Reloads from the repository. */
     fun refreshData() {
-        // In a production app, this would fetch fresh data from the repository
         loadData()
-    }
-    
-    /**
-     * Handle opening the settings dialog
-     */
-    fun openSettings() {
-        // In a real app, this would open the settings dialog
-        // For now, it's just a placeholder
     }
 }

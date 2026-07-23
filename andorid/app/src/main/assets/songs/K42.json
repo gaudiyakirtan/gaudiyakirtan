@@ -1,0 +1,2002 @@
+{
+  "uid": "K42",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "বন্ধুসঙ্গে"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "bandhusaṅge"
+    },
+    {
+      "script_code": "Deva",
+      "text": "बन्धुसङ्गे"
+    },
+    {
+      "script_code": "Telu",
+      "text": "బంధుసంగే"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಬಂಧುಸಂಗೇ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ப³ந்து⁴ஸங்கே³"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ബന്ധുസംഗേ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "બન્ધુસઙ્ગે"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ବନ୍ଧୁସଙ୍ଗେ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "бандхусан̇гэ"
+    }
+  ],
+  "author_uid": "?",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "অজানা লেখক"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Unknown Author"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "bandhusaṅge yadi taba raṅga parihāsa, thāke abhilāṣa",
+        "(thāke abhilāṣa)",
+        "tabe mora kathā rākha,    yeyo nāko yeyo nāko,",
+        "mathurāya keśītīrtha[FLAG_HYPHEN_ALPHA]ghāṭera sakāśa 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "If you have the desire to have fun and laugh with friends, then heed my words: don’t go, do not go near Keśī-ghāṭa in Mathurā."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bandhusaṅge",
+              "friends + with"
+            ],
+            [
+              "yadi",
+              "if"
+            ],
+            [
+              "taba",
+              "your"
+            ],
+            [
+              "raṅga",
+              "fun"
+            ],
+            [
+              "parihāsa",
+              "laughter"
+            ],
+            [
+              "(thāke",
+              "remains"
+            ],
+            [
+              "abhilāṣa)",
+              "desire"
+            ],
+            [
+              "tabe",
+              "then"
+            ],
+            [
+              "mora",
+              "my"
+            ],
+            [
+              "kathā",
+              "words"
+            ],
+            [
+              "rākha",
+              "heed"
+            ],
+            [
+              "yeyo",
+              "go"
+            ],
+            [
+              "nāko",
+              "not"
+            ],
+            [
+              "yeyo",
+              "go"
+            ],
+            [
+              "nāko",
+              "not"
+            ],
+            [
+              "mathurāya",
+              "in Mathurā"
+            ],
+            [
+              "keśītīrtha ghāṭera",
+              "Keśī-ghāṭa’s"
+            ],
+            [
+              "sakāśa",
+              "near"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "बन्धुसङ्गॆ",
+              "friends + with"
+            ],
+            [
+              "यदि",
+              "if"
+            ],
+            [
+              "तब",
+              "your"
+            ],
+            [
+              "रङ्ग",
+              "fun"
+            ],
+            [
+              "परिहास",
+              "laughter"
+            ],
+            [
+              "(थाकॆ",
+              "remains"
+            ],
+            [
+              "अभिलाष)",
+              "desire"
+            ],
+            [
+              "तबॆ",
+              "then"
+            ],
+            [
+              "मॊर",
+              "my"
+            ],
+            [
+              "कथा",
+              "words"
+            ],
+            [
+              "राख",
+              "heed"
+            ],
+            [
+              "यॆयॊ",
+              "go"
+            ],
+            [
+              "नाकॊ",
+              "not"
+            ],
+            [
+              "यॆयॊ",
+              "go"
+            ],
+            [
+              "नाकॊ",
+              "not"
+            ],
+            [
+              "मथुराय",
+              "in Mathurā"
+            ],
+            [
+              "कॆशीतीर्थ घाटॆर",
+              "Keśī-ghāṭa’s"
+            ],
+            [
+              "सकाश",
+              "near"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "বন্ধুসঙ্গে",
+              "friends + with"
+            ],
+            [
+              "যদি",
+              "if"
+            ],
+            [
+              "তব",
+              "your"
+            ],
+            [
+              "রঙ্গ",
+              "fun"
+            ],
+            [
+              "পরিহাস",
+              "laughter"
+            ],
+            [
+              "(থাকে",
+              "remains"
+            ],
+            [
+              "অভিলাষ)",
+              "desire"
+            ],
+            [
+              "তবে",
+              "then"
+            ],
+            [
+              "মোর",
+              "my"
+            ],
+            [
+              "কথা",
+              "words"
+            ],
+            [
+              "রাখ",
+              "heed"
+            ],
+            [
+              "যেয়ো",
+              "go"
+            ],
+            [
+              "নাকো",
+              "not"
+            ],
+            [
+              "যেয়ো",
+              "go"
+            ],
+            [
+              "নাকো",
+              "not"
+            ],
+            [
+              "মথুরায়",
+              "in Mathurā"
+            ],
+            [
+              "কেশীতীর্থ ঘাটের",
+              "Keśī-ghāṭa’s"
+            ],
+            [
+              "সকাশ",
+              "near"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "બન્ધુસઙ્ગે",
+              "friends + with"
+            ],
+            [
+              "યદિ",
+              "if"
+            ],
+            [
+              "તબ",
+              "your"
+            ],
+            [
+              "રઙ્ગ",
+              "fun"
+            ],
+            [
+              "પરિહાસ",
+              "laughter"
+            ],
+            [
+              "(થાકે",
+              "remains"
+            ],
+            [
+              "અભિલાષ)",
+              "desire"
+            ],
+            [
+              "તબે",
+              "then"
+            ],
+            [
+              "મોર",
+              "my"
+            ],
+            [
+              "કથા",
+              "words"
+            ],
+            [
+              "રાખ",
+              "heed"
+            ],
+            [
+              "યેયો",
+              "go"
+            ],
+            [
+              "નાકો",
+              "not"
+            ],
+            [
+              "યેયો",
+              "go"
+            ],
+            [
+              "નાકો",
+              "not"
+            ],
+            [
+              "મથુરાય",
+              "in Mathurā"
+            ],
+            [
+              "કેશીતીર્થ ઘાટેર",
+              "Keśī-ghāṭa’s"
+            ],
+            [
+              "સકાશ",
+              "near"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बन्धुसङ्गॆ यदि तब रङ्ग परिहास, थाकॆ अभिलाष",
+            "(थाकॆ अभिलाष)",
+            "तबॆ मॊर कथा राख,    यॆयॊ नाकॊ यॆयॊ नाकॊ,",
+            "मथुराय कॆशीतीर्थघाटॆर सकाश १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বন্ধুসঙ্গে যদি তব রঙ্গ পরিহাস, থাকে অভিলাষ",
+            "(থাকে অভিলাষ)",
+            "তবে মোর কথা রাখ,    যেয়ো নাকো যেয়ো নাকো,",
+            "মথুরায় কেশীতীর্থঘাটের সকাশ ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବନ୍ଧୁସଙ୍ଗେ ଯଦି ତବ ରଙ୍ଗ ପରିହାସ, ଥାକେ ଅଭିଲାଷ",
+            "(ଥାକେ ଅଭିଲାଷ)",
+            "ତବେ ମୋର କଥା ରାଖ,    ଯେୟୋ ନାକୋ ଯେୟୋ ନାକୋ,",
+            "ମଥୁରାୟ କେଶୀତୀର୍ଥଘାଟେର ସକାଶ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બન્ધુસઙ્ગે યદિ તબ રઙ્ગ પરિહાસ, થાકે અભિલાષ",
+            "(થાકે અભિલાષ)",
+            "તબે મોર કથા રાખ,    યેયો નાકો યેયો નાકો,",
+            "મથુરાય કેશીતીર્થઘાટેર સકાશ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bandhusaṅge yadi taba raṅga parihāsa, thāke abhilāṣa",
+            "(thāke abhilāṣa)",
+            "tabe mora kathā rākha,    yeyo nāko yeyo nāko,",
+            "mathurāya keśītīrtha-ghāṭera sakāśa 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಂಧುಸಂಗೆ ಯದಿ ತಬ ರಂಗ ಪರಿಹಾಸ, ಥಾಕೆ ಅಭಿಲಾಷ",
+            "(ಥಾಕೆ ಅಭಿಲಾಷ)",
+            "ತಬೆ ಮೊರ ಕಥಾ ರಾಖ,    ಯೆಯೊ ನಾಕೊ ಯೆಯೊ ನಾಕೊ,",
+            "ಮಥುರಾಯ ಕೆಶೀತೀರ್ಥಘಾಟೆರ ಸಕಾಶ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బంధుసంగె యది తబ రంగ పరిహాస, థాకె అభిలాష",
+            "(థాకె అభిలాష)",
+            "తబె మొర కథా రాఖ,    యెయొ నాకొ యెయొ నాకొ,",
+            "మథురాయ కెశీతీర్థఘాటెర సకాశ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бандхусан̇гэ̆ йади таба ран̇га париха̄са, тха̄кэ̆ абхила̄ша",
+            "(тха̄кэ̆ абхила̄ша)",
+            "табэ̆ мо̆ра катха̄ ра̄кха,    йэ̆йо̆ на̄ко̆ йэ̆йо̆ на̄ко̆,",
+            "матхура̄йа кэ̆ш́ӣтӣртхагха̄т̣э̆ра сака̄ш́а 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബന്ധുസംഗെ യദി തബ രംഗ പരിഹാസ, ഥാകെ അഭിലാഷ",
+            "(ഥാകെ അഭിലാഷ)",
+            "തബെ മൊര കഥാ രാഖ,    യെയൊ നാകൊ യെയൊ നാകൊ,",
+            "മഥുരായ കെശീതീർഥഘാടെര സകാശ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ந்து⁴ஸங்கெ³ யதி³ தப³ ரங்க³ பரிஹாஸ, தா²கெ அபி⁴லாஷ",
+            "(தா²கெ அபி⁴லாஷ)",
+            "தபெ³ மொர கதா² ராக²,    யெயொ நாகொ யெயொ நாகொ,",
+            "மது²ராய கெஶீதீர்த²கா⁴டெர ஸகாஶ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bandhusaṅge yadi taba raṅga parihāsa, thāke abhilāṣa",
+            "(thāke abhilāṣa)",
+            "tabe mora kathā rākha,    yeyo nāko yeyo nāko,",
+            "mathurāya keśītīrtha-ghāṭera sakāśa 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bandhusaṅge yadi taba raṅga parihāsa, thāke abhilāṣa",
+            "(thāke abhilāṣa)",
+            "tabe mora kathā rākha,    yeyo nāko yeyo nāko,",
+            "mathurāya keśītīrtha-ghāṭera sakāśa 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "gobindabigraha dhari’,    tathāya āchena hari,",
+        "nayane baṅkima[FLAG_HYPHEN_ALPHA]dṛṣṭi, mukhe mandahāsa",
+        "kibā tribhaṅgama ṭhāma,    barṇa samujjbala śyāma,",
+        "nabakiśalaya śobhā śrīaṅge prakāśa 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "There, Śrī Hari has taken the form of Govinda, whose eyes are graced with a crooked glance and whose mouth is graced with a gentle smile. How captivating is His threefold bending pose, replete with a radiant blackish complexion and limbs as lovely as tender new leaves."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "gobindabigraha",
+              "Govinda + form"
+            ],
+            [
+              "dhari’",
+              "assumed"
+            ],
+            [
+              "tathāya",
+              "there"
+            ],
+            [
+              "āchena",
+              "is present"
+            ],
+            [
+              "hari",
+              "Śrī Hari"
+            ],
+            [
+              "nayane",
+              "from eyes"
+            ],
+            [
+              "baṅkima",
+              "crooked"
+            ],
+            [
+              "dṛṣṭi",
+              "glance"
+            ],
+            [
+              "mukhe",
+              "from mouth"
+            ],
+            [
+              "mandahāsa",
+              "gentle + smile"
+            ],
+            [
+              "kibā",
+              "how beautiful"
+            ],
+            [
+              "tribhaṅgama",
+              "curved in three places"
+            ],
+            [
+              "ṭhāma",
+              "shape, form, figure, posture"
+            ],
+            [
+              "barṇa",
+              "complexion"
+            ],
+            [
+              "samujjbala",
+              "very bright, radiant, brilliant, illuminated"
+            ],
+            [
+              "śyāma",
+              "blackish"
+            ],
+            [
+              "nabakiśalaya",
+              "young, new + tender leaves"
+            ],
+            [
+              "śobhā",
+              "graceful"
+            ],
+            [
+              "śrīaṅge",
+              "beautiful, auspicious + by the limbs"
+            ],
+            [
+              "prakāśa",
+              "appearance"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "गॊबिन्दबिग्रह",
+              "Govinda + form"
+            ],
+            [
+              "धरिऽ",
+              "assumed"
+            ],
+            [
+              "तथाय",
+              "there"
+            ],
+            [
+              "आछॆन",
+              "is present"
+            ],
+            [
+              "हरि",
+              "Śrī Hari"
+            ],
+            [
+              "नयनॆ",
+              "from eyes"
+            ],
+            [
+              "बङ्किम",
+              "crooked"
+            ],
+            [
+              "द्ड़्ष्टि",
+              "glance"
+            ],
+            [
+              "मुखॆ",
+              "from mouth"
+            ],
+            [
+              "मन्दहास",
+              "gentle + smile"
+            ],
+            [
+              "किबा",
+              "how beautiful"
+            ],
+            [
+              "त्रिभङ्गम",
+              "curved in three places"
+            ],
+            [
+              "ठाम",
+              "shape, form, figure, posture"
+            ],
+            [
+              "बर्ण",
+              "complexion"
+            ],
+            [
+              "समुज्ज्बल",
+              "very bright, radiant, brilliant, illuminated"
+            ],
+            [
+              "श्याम",
+              "blackish"
+            ],
+            [
+              "नबकिशलय",
+              "young, new + tender leaves"
+            ],
+            [
+              "शॊभा",
+              "graceful"
+            ],
+            [
+              "श्रीअङ्गॆ",
+              "beautiful, auspicious + by the limbs"
+            ],
+            [
+              "प्रकाश",
+              "appearance"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "গোবিন্দবিগ্রহ",
+              "Govinda + form"
+            ],
+            [
+              "ধরিঽ",
+              "assumed"
+            ],
+            [
+              "তথায়",
+              "there"
+            ],
+            [
+              "আছেন",
+              "is present"
+            ],
+            [
+              "হরি",
+              "Śrī Hari"
+            ],
+            [
+              "নয়নে",
+              "from eyes"
+            ],
+            [
+              "বঙ্কিম",
+              "crooked"
+            ],
+            [
+              "দ্ড়্ষ্টি",
+              "glance"
+            ],
+            [
+              "মুখে",
+              "from mouth"
+            ],
+            [
+              "মন্দহাস",
+              "gentle + smile"
+            ],
+            [
+              "কিবা",
+              "how beautiful"
+            ],
+            [
+              "ত্রিভঙ্গম",
+              "curved in three places"
+            ],
+            [
+              "ঠাম",
+              "shape, form, figure, posture"
+            ],
+            [
+              "বর্ণ",
+              "complexion"
+            ],
+            [
+              "সমুজ্জ্বল",
+              "very bright, radiant, brilliant, illuminated"
+            ],
+            [
+              "শ্যাম",
+              "blackish"
+            ],
+            [
+              "নবকিশলয়",
+              "young, new + tender leaves"
+            ],
+            [
+              "শোভা",
+              "graceful"
+            ],
+            [
+              "শ্রীঅঙ্গে",
+              "beautiful, auspicious + by the limbs"
+            ],
+            [
+              "প্রকাশ",
+              "appearance"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ગોબિન્દબિગ્રહ",
+              "Govinda + form"
+            ],
+            [
+              "ધરિઽ",
+              "assumed"
+            ],
+            [
+              "તથાય",
+              "there"
+            ],
+            [
+              "આછેન",
+              "is present"
+            ],
+            [
+              "હરિ",
+              "Śrī Hari"
+            ],
+            [
+              "નયને",
+              "from eyes"
+            ],
+            [
+              "બઙ્કિમ",
+              "crooked"
+            ],
+            [
+              "દ્ડ઼્ષ્ટિ",
+              "glance"
+            ],
+            [
+              "મુખે",
+              "from mouth"
+            ],
+            [
+              "મન્દહાસ",
+              "gentle + smile"
+            ],
+            [
+              "કિબા",
+              "how beautiful"
+            ],
+            [
+              "ત્રિભઙ્ગમ",
+              "curved in three places"
+            ],
+            [
+              "ઠામ",
+              "shape, form, figure, posture"
+            ],
+            [
+              "બર્ણ",
+              "complexion"
+            ],
+            [
+              "સમુજ્જ્બલ",
+              "very bright, radiant, brilliant, illuminated"
+            ],
+            [
+              "શ્યામ",
+              "blackish"
+            ],
+            [
+              "નબકિશલય",
+              "young, new + tender leaves"
+            ],
+            [
+              "શોભા",
+              "graceful"
+            ],
+            [
+              "શ્રીઅઙ્ગે",
+              "beautiful, auspicious + by the limbs"
+            ],
+            [
+              "પ્રકાશ",
+              "appearance"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गॊबिन्दबिग्रह धरिऽ,    तथाय आछॆन हरि,",
+            "नयनॆ बङ्किमद्ड़्ष्टि, मुखॆ मन्दहास",
+            "किबा त्रिभङ्गम ठाम,    बर्ण समुज्ज्बल श्याम,",
+            "नबकिशलय शॊभा श्रीअङ्गॆ प्रकाश २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গোবিন্দবিগ্রহ ধরিঽ,    তথায় আছেন হরি,",
+            "নয়নে বঙ্কিমদ্ড়্ষ্টি, মুখে মন্দহাস",
+            "কিবা ত্রিভঙ্গম ঠাম,    বর্ণ সমুজ্জ্বল শ্যাম,",
+            "নবকিশলয় শোভা শ্রীঅঙ্গে প্রকাশ ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗୋବିନ୍ଦବିଗ୍ରହ ଧରିଽ,    ତଥାୟ ଆଛେନ ହରି,",
+            "ନୟନେ ବଙ୍କିମଦ୍ଡ଼୍ଷ୍ଟି, ମୁଖେ ମନ୍ଦହାସ",
+            "କିବା ତ୍ରିଭଙ୍ଗମ ଠାମ,    ବର୍ଣ ସମୁଜ୍ଜ୍ବଲ ଶ୍ୟାମ,",
+            "ନବକିଶଲୟ ଶୋଭା ଶ୍ରୀଅଙ୍ଗେ ପ୍ରକାଶ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગોબિન્દબિગ્રહ ધરિઽ,    તથાય આછેન હરિ,",
+            "નયને બઙ્કિમદ્ડ઼્ષ્ટિ, મુખે મન્દહાસ",
+            "કિબા ત્રિભઙ્ગમ ઠામ,    બર્ણ સમુજ્જ્બલ શ્યામ,",
+            "નબકિશલય શોભા શ્રીઅઙ્ગે પ્રકાશ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gobindabigraha dhari’,    tathāya āchena hari,",
+            "nayane baṅkima-dṛṣṭi, mukhe mandahāsa",
+            "kibā tribhaṅgama ṭhāma,    barṇa samujjbala śyāma,",
+            "nabakiśalaya śobhā śrīaṅge prakāśa 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗೊಬಿಂದಬಿಗ್ರಹ ಧರಿಽ,    ತಥಾಯ ಆಛೆನ ಹರಿ,",
+            "ನಯನೆ ಬಂಕಿಮದ್‌ಡ಼್ಷ್ಟಿ, ಮುಖೆ ಮಂದಹಾಸ",
+            "ಕಿಬಾ ತ್ರಿಭಂಗಮ ಠಾಮ,    ಬರ್ಣ ಸಮುಜ್ಜ್ಬಲ ಶ್ಯಾಮ,",
+            "ನಬಕಿಶಲಯ ಶೊಭಾ ಶ್ರೀಅಂಗೆ ಪ್ರಕಾಶ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గొబిందబిగ్రహ ధరిఽ,    తథాయ ఆఛెన హరి,",
+            "నయనె బంకిమద్డ్ష్టి, ముఖె మందహాస",
+            "కిబా త్రిభంగమ ఠామ,    బర్ణ సముజ్జ్బల శ్యామ,",
+            "నబకిశలయ శొభా శ్రీఅంగె ప్రకాశ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "го̆биндабиграха дхари',    татха̄йа а̄чхэ̆на хари,",
+            "найанэ̆ бан̇кимадр̤шт̣и, мукхэ̆ мандаха̄са",
+            "киба̄ трибхан̇гама т̣ха̄ма,    барн̣а самуджджбала ш́йа̄ма,",
+            "набакиш́алайа ш́о̆бха̄ ш́рӣан̇гэ̆ прака̄ш́а 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗൊബിന്ദബിഗ്രഹ ധരിഽ,    തഥായ ആഛെന ഹരി,",
+            "നയനെ ബങ്കിമദ്ഡ്ഷ്ടി, മുഖെ മന്ദഹാസ",
+            "കിബാ ത്രിഭംഗമ ഠാമ,    ബർണ സമുജ്ജ്ബല ശ്യാമ,",
+            "നബകിശലയ ശൊഭാ ശ്രീഅംഗെ പ്രകാശ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கொ³பி³ந்த³பி³க்³ரஹ த⁴ரி(அ),    ததா²ய ஆசெ²ன ஹரி,",
+            "நயனெ ப³ங்கிமத்³ஃட்²ஷ்டி, முகெ² மந்த³ஹாஸ",
+            "கிபா³ த்ரிப⁴ங்க³ம டா²ம,    ப³ர்ண ஸமுஜ்ஜ்ப³ல ஶ்யாம,",
+            "நப³கிஶலய ஶொபா⁴ ஶ்ரீஅங்கெ³ ப்ரகாஶ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gobindabigraha dhari’,    tathāya āchena hari,",
+            "nayane baṅkima-dṛṣṭi, mukhe mandahāsa",
+            "kibā tribhaṅgama ṭhāma,    barṇa samujjbala śyāma,",
+            "nabakiśalaya śobhā śrīaṅge prakāśa 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gobindabigraha dhari’,    tathāya āchena hari,",
+            "nayane baṅkima-dṛṣṭi, mukhe mandahāsa",
+            "kibā tribhaṅgama ṭhāma,    barṇa samujjbala śyāma,",
+            "nabakiśalaya śobhā śrīaṅge prakāśa 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "adhare baṁśīṭī tā’ra,    anarthera mūlādhāra,",
+        "śikhicūḓākeo bhāi karo nā biśbāsa",
+        "se mūrti nayane here,    keha nāhi ghare phire,",
+        "saṁsārī gṛhīra ye go haya sarbanāśa 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "The flute on His lips is the cause of great peril. O brother, have no faith in that crest of peacock feathers. Upon beholding that form with the eyes, no one ever returns home. The family life of a householder [who does so] becomes completely destroyed. (This is the great fear of my mind!)"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "adhare",
+              "on lips"
+            ],
+            [
+              "baṁśīṭī",
+              "the flute"
+            ],
+            [
+              "tā’ra",
+              "His"
+            ],
+            [
+              "anarthera",
+              "of peril, of danger, of harm, of ruin"
+            ],
+            [
+              "mūlādhāra",
+              "the real cause, the root cause"
+            ],
+            [
+              "śikhicūḓākeo",
+              "peacock + to the crest, crown + and, O"
+            ],
+            [
+              "bhāi",
+              "O brother"
+            ],
+            [
+              "karo",
+              "do"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "biśbāsa",
+              "faith."
+            ],
+            [
+              "se",
+              "that"
+            ],
+            [
+              "mūrti",
+              "form"
+            ],
+            [
+              "nayane",
+              "with the eyes"
+            ],
+            [
+              "here",
+              "seeing"
+            ],
+            [
+              "keha",
+              "anyone"
+            ],
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "ghare",
+              "to home"
+            ],
+            [
+              "phire",
+              "returns"
+            ],
+            [
+              "saṁsārī",
+              "a family man"
+            ],
+            [
+              "gṛhīra",
+              "of the household"
+            ],
+            [
+              "ye",
+              "those"
+            ],
+            [
+              "haya",
+              "becomes"
+            ],
+            [
+              "sarbanāśa",
+              "completely + destroyed"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "अधरॆ",
+              "on lips"
+            ],
+            [
+              "बंशीटी",
+              "the flute"
+            ],
+            [
+              "ताऽर",
+              "His"
+            ],
+            [
+              "अनर्थॆर",
+              "of peril, of danger, of harm, of ruin"
+            ],
+            [
+              "मूलाधार",
+              "the real cause, the root cause"
+            ],
+            [
+              "शिखिचूḓआकॆऒ",
+              "peacock + to the crest, crown + and, O"
+            ],
+            [
+              "भाइ",
+              "O brother"
+            ],
+            [
+              "करॊ",
+              "do"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "बिश्बास",
+              "faith."
+            ],
+            [
+              "सॆ",
+              "that"
+            ],
+            [
+              "मूर्ति",
+              "form"
+            ],
+            [
+              "नयनॆ",
+              "with the eyes"
+            ],
+            [
+              "हॆरॆ",
+              "seeing"
+            ],
+            [
+              "कॆह",
+              "anyone"
+            ],
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "घरॆ",
+              "to home"
+            ],
+            [
+              "फिरॆ",
+              "returns"
+            ],
+            [
+              "संसारी",
+              "a family man"
+            ],
+            [
+              "ग्ढ़ीर",
+              "of the household"
+            ],
+            [
+              "यॆ",
+              "those"
+            ],
+            [
+              "हय",
+              "becomes"
+            ],
+            [
+              "सर्बनाश",
+              "completely + destroyed"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "অধরে",
+              "on lips"
+            ],
+            [
+              "বংশীটী",
+              "the flute"
+            ],
+            [
+              "তাঽর",
+              "His"
+            ],
+            [
+              "অনর্থের",
+              "of peril, of danger, of harm, of ruin"
+            ],
+            [
+              "মূলাধার",
+              "the real cause, the root cause"
+            ],
+            [
+              "শিখিচূḓআকেও",
+              "peacock + to the crest, crown + and, O"
+            ],
+            [
+              "ভাই",
+              "O brother"
+            ],
+            [
+              "করো",
+              "do"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "বিশ্বাস",
+              "faith."
+            ],
+            [
+              "সে",
+              "that"
+            ],
+            [
+              "মূর্তি",
+              "form"
+            ],
+            [
+              "নয়নে",
+              "with the eyes"
+            ],
+            [
+              "হেরে",
+              "seeing"
+            ],
+            [
+              "কেহ",
+              "anyone"
+            ],
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "ঘরে",
+              "to home"
+            ],
+            [
+              "ফিরে",
+              "returns"
+            ],
+            [
+              "সংসারী",
+              "a family man"
+            ],
+            [
+              "গ্ঢ়ীর",
+              "of the household"
+            ],
+            [
+              "যে",
+              "those"
+            ],
+            [
+              "হয়",
+              "becomes"
+            ],
+            [
+              "সর্বনাশ",
+              "completely + destroyed"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "અધરે",
+              "on lips"
+            ],
+            [
+              "બંશીટી",
+              "the flute"
+            ],
+            [
+              "તાઽર",
+              "His"
+            ],
+            [
+              "અનર્થેર",
+              "of peril, of danger, of harm, of ruin"
+            ],
+            [
+              "મૂલાધાર",
+              "the real cause, the root cause"
+            ],
+            [
+              "શિખિચૂḓઆકેઓ",
+              "peacock + to the crest, crown + and, O"
+            ],
+            [
+              "ભાઇ",
+              "O brother"
+            ],
+            [
+              "કરો",
+              "do"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "બિશ્બાસ",
+              "faith."
+            ],
+            [
+              "સે",
+              "that"
+            ],
+            [
+              "મૂર્તિ",
+              "form"
+            ],
+            [
+              "નયને",
+              "with the eyes"
+            ],
+            [
+              "હેરે",
+              "seeing"
+            ],
+            [
+              "કેહ",
+              "anyone"
+            ],
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "ઘરે",
+              "to home"
+            ],
+            [
+              "ફિરે",
+              "returns"
+            ],
+            [
+              "સંસારી",
+              "a family man"
+            ],
+            [
+              "ગ્ઢ઼ીર",
+              "of the household"
+            ],
+            [
+              "યે",
+              "those"
+            ],
+            [
+              "હય",
+              "becomes"
+            ],
+            [
+              "સર્બનાશ",
+              "completely + destroyed"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अधरॆ बंशीटी ताऽर,    अनर्थॆर मूलाधार,",
+            "शिखिचूḓआकॆऒ भाइ करॊ ना बिश्बास",
+            "सॆ मूर्ति नयनॆ हॆरॆ,    कॆह नाहि घरॆ फिरॆ,",
+            "संसारी ग्ढ़ीर यॆ गॊ हय सर्बनाश ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অধরে বংশীটী তাঽর,    অনর্থের মূলাধার,",
+            "শিখিচূḓআকেও ভাই করো না বিশ্বাস",
+            "সে মূর্তি নয়নে হেরে,    কেহ নাহি ঘরে ফিরে,",
+            "সংসারী গ্ঢ়ীর যে গো হয় সর্বনাশ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅଧରେ ବଂଶୀଟୀ ତାଽର,    ଅନର୍ଥେର ମୂଲାଧାର,",
+            "ଶିଖିଚୂḓଆକେଓ ଭାଇ କରୋ ନା ବିଶ୍ବାସ",
+            "ସେ ମୂର୍ତି ନୟନେ ହେରେ,    କେହ ନାହି ଘରେ ଫିରେ,",
+            "ସଂସାରୀ ଗ୍ଢ଼ୀର ଯେ ଗୋ ହୟ ସର୍ବନାଶ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અધરે બંશીટી તાઽર,    અનર્થેર મૂલાધાર,",
+            "શિખિચૂḓઆકેઓ ભાઇ કરો ના બિશ્બાસ",
+            "સે મૂર્તિ નયને હેરે,    કેહ નાહિ ઘરે ફિરે,",
+            "સંસારી ગ્ઢ઼ીર યે ગો હય સર્બનાશ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "adhare baṁśīṭī tā’ra,    anarthera mūlādhāra,",
+            "śikhicūḓākeo bhāi karo nā biśbāsa",
+            "se mūrti nayane here,    keha nāhi ghare phire,",
+            "saṁsārī gṛhīra ye go haya sarbanāśa 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅಧರೆ ಬಂಶೀಟೀ ತಾಽರ,    ಅನರ್ಥೆರ ಮೂಲಾಧಾರ,",
+            "ಶಿಖಿಚೂḓಆಕೆಒ ಭಾಇ ಕರೊ ನಾ ಬಿಶ್ಬಾಸ",
+            "ಸೆ ಮೂರ್ತಿ ನಯನೆ ಹೆರೆ,    ಕೆಹ ನಾಹಿ ಘರೆ ಫಿರೆ,",
+            "ಸಂಸಾರೀ ಗ್‌ಢ಼ೀರ ಯೆ ಗೊ ಹಯ ಸರ್ಬನಾಶ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అధరె బంశీటీ తాఽర,    అనర్థెర మూలాధార,",
+            "శిఖిచూḓఆకెఒ భాఇ కరొ నా బిశ్బాస",
+            "సె మూర్తి నయనె హెరె,    కెహ నాహి ఘరె ఫిరె,",
+            "సంసారీ గ్ఢీర యె గొ హయ సర్బనాశ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "адхарэ̆ бам̣ш́ӣт̣ӣ та̄'ра,    анартхэ̆ра мӯла̄дха̄ра,",
+            "ш́икхичӯḓа̄кэ̆о̆ бха̄и каро̆ на̄ биш́ба̄са",
+            "сэ̆ мӯрти найанэ̆ хэ̆рэ̆,    кэ̆ха на̄хи гхарэ̆ пхирэ̆,",
+            "сам̣са̄рӣ гр̤хӣра йэ̆ го̆ хайа сарбана̄ш́а 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അധരെ ബംശീടീ താഽര,    അനർഥെര മൂലാധാര,",
+            "ശിഖിചൂḓആകെഒ ഭാഇ കരൊ നാ ബിശ്ബാസ",
+            "സെ മൂർതി നയനെ ഹെരെ,    കെഹ നാഹി ഘരെ ഫിരെ,",
+            "സംസാരീ ഗ്ഢീര യെ ഗൊ ഹയ സർബനാശ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அத⁴ரெ ப³ம்ʼஶீடீ தா(அ)ர,    அனர்தெ²ர மூலாதா⁴ர,",
+            "ஶிகி²சூḓஆகெஒ பா⁴இ கரொ நா பி³ஶ்பா³ஸ",
+            "ஸெ மூர்தி நயனெ ஹெரெ,    கெஹ நாஹி க⁴ரெ பி²ரெ,",
+            "ஸம்ʼஸாரீ க்³ஃடீ³ர யெ கொ³ ஹய ஸர்ப³நாஶ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "adhare baṁśīṭī tā’ra,    anarthera mūlādhāra,",
+            "śikhicūḍākeo bhāi karo nā biśbāsa",
+            "se mūrti nayane here,    keha nāhi ghare phire,",
+            "saṁsārī gṛhīra ye go haya sarbanāśa 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "adhare baṁśīṭī tā’ra,    anarthera mūlādhāra,",
+            "śikhicūḓākeo bhāi karo nā biśbāsa",
+            "se mūrti nayane here,    keha nāhi ghare phire,",
+            "saṁsārī gṛhīra ye go haya sarbanāśa 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "(tāi mora mane baḓa trāsa)",
+        "ghaṭibe bipada bhārī,    yeyo nāko he saṁsāri,",
+        "mathurāya keśītīrtha ghāṭera sakāśa 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "(This is the great fear of my mind!) A grave calamity will occur, O householder, so do not go near Keśī-ghāṭa in Mathurā."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "(tāi",
+              "for that"
+            ],
+            [
+              "mora",
+              "my"
+            ],
+            [
+              "mane",
+              "in mind"
+            ],
+            [
+              "baḓa",
+              "great"
+            ],
+            [
+              "trāsa)",
+              "fear, anxiety."
+            ],
+            [
+              "ghaṭibe",
+              "will occur"
+            ],
+            [
+              "bipada",
+              "calamity"
+            ],
+            [
+              "bhārī",
+              "grave"
+            ],
+            [
+              "yeyo",
+              "go"
+            ],
+            [
+              "nāko",
+              "not"
+            ],
+            [
+              "he",
+              "O"
+            ],
+            [
+              "saṁsāri",
+              "householder"
+            ],
+            [
+              "mathurāya",
+              "in Mathurā"
+            ],
+            [
+              "keśītīrtha ghāṭera",
+              "Keśī-ghāṭa’s"
+            ],
+            [
+              "sakāśa",
+              "near"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "(ताइ",
+              "for that"
+            ],
+            [
+              "मॊर",
+              "my"
+            ],
+            [
+              "मनॆ",
+              "in mind"
+            ],
+            [
+              "बḓअ",
+              "great"
+            ],
+            [
+              "त्रास)",
+              "fear, anxiety."
+            ],
+            [
+              "घटिबॆ",
+              "will occur"
+            ],
+            [
+              "बिपद",
+              "calamity"
+            ],
+            [
+              "भारी",
+              "grave"
+            ],
+            [
+              "यॆयॊ",
+              "go"
+            ],
+            [
+              "नाकॊ",
+              "not"
+            ],
+            [
+              "हॆ",
+              "O"
+            ],
+            [
+              "संसारि",
+              "householder"
+            ],
+            [
+              "मथुराय",
+              "in Mathurā"
+            ],
+            [
+              "कॆशीतीर्थ घाटॆर",
+              "Keśī-ghāṭa’s"
+            ],
+            [
+              "सकाश",
+              "near"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "(তাই",
+              "for that"
+            ],
+            [
+              "মোর",
+              "my"
+            ],
+            [
+              "মনে",
+              "in mind"
+            ],
+            [
+              "বḓঅ",
+              "great"
+            ],
+            [
+              "ত্রাস)",
+              "fear, anxiety."
+            ],
+            [
+              "ঘটিবে",
+              "will occur"
+            ],
+            [
+              "বিপদ",
+              "calamity"
+            ],
+            [
+              "ভারী",
+              "grave"
+            ],
+            [
+              "যেয়ো",
+              "go"
+            ],
+            [
+              "নাকো",
+              "not"
+            ],
+            [
+              "হে",
+              "O"
+            ],
+            [
+              "সংসারি",
+              "householder"
+            ],
+            [
+              "মথুরায়",
+              "in Mathurā"
+            ],
+            [
+              "কেশীতীর্থ ঘাটের",
+              "Keśī-ghāṭa’s"
+            ],
+            [
+              "সকাশ",
+              "near"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "(તાઇ",
+              "for that"
+            ],
+            [
+              "મોર",
+              "my"
+            ],
+            [
+              "મને",
+              "in mind"
+            ],
+            [
+              "બḓઅ",
+              "great"
+            ],
+            [
+              "ત્રાસ)",
+              "fear, anxiety."
+            ],
+            [
+              "ઘટિબે",
+              "will occur"
+            ],
+            [
+              "બિપદ",
+              "calamity"
+            ],
+            [
+              "ભારી",
+              "grave"
+            ],
+            [
+              "યેયો",
+              "go"
+            ],
+            [
+              "નાકો",
+              "not"
+            ],
+            [
+              "હે",
+              "O"
+            ],
+            [
+              "સંસારિ",
+              "householder"
+            ],
+            [
+              "મથુરાય",
+              "in Mathurā"
+            ],
+            [
+              "કેશીતીર્થ ઘાટેર",
+              "Keśī-ghāṭa’s"
+            ],
+            [
+              "સકાશ",
+              "near"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "(ताइ मॊर मनॆ बḓअ त्रास)",
+            "घटिबॆ बिपद भारी,    यॆयॊ नाकॊ हॆ संसारि,",
+            "मथुराय कॆशीतीर्थ घाटॆर सकाश ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "(তাই মোর মনে বḓঅ ত্রাস)",
+            "ঘটিবে বিপদ ভারী,    যেয়ো নাকো হে সংসারি,",
+            "মথুরায় কেশীতীর্থ ঘাটের সকাশ ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "(ତାଇ ମୋର ମନେ ବḓଅ ତ୍ରାସ)",
+            "ଘଟିବେ ବିପଦ ଭାରୀ,    ଯେୟୋ ନାକୋ ହେ ସଂସାରି,",
+            "ମଥୁରାୟ କେଶୀତୀର୍ଥ ଘାଟେର ସକାଶ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "(તાઇ મોર મને બḓઅ ત્રાસ)",
+            "ઘટિબે બિપદ ભારી,    યેયો નાકો હે સંસારિ,",
+            "મથુરાય કેશીતીર્થ ઘાટેર સકાશ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "(tāi mora mane baḓa trāsa)",
+            "ghaṭibe bipada bhārī,    yeyo nāko he saṁsāri,",
+            "mathurāya keśītīrtha ghāṭera sakāśa 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "(ತಾಇ ಮೊರ ಮನೆ ಬḓಅ ತ್ರಾಸ)",
+            "ಘಟಿಬೆ ಬಿಪದ ಭಾರೀ,    ಯೆಯೊ ನಾಕೊ ಹೆ ಸಂಸಾರಿ,",
+            "ಮಥುರಾಯ ಕೆಶೀತೀರ್ಥ ಘಾಟೆರ ಸಕಾಶ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "(తాఇ మొర మనె బḓఅ త్రాస)",
+            "ఘటిబె బిపద భారీ,    యెయొ నాకొ హె సంసారి,",
+            "మథురాయ కెశీతీర్థ ఘాటెర సకాశ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "(та̄и мо̆ра манэ̆ баḓа тра̄са)",
+            "гхат̣ибэ̆ бипада бха̄рӣ,    йэ̆йо̆ на̄ко̆ хэ̆ сам̣са̄ри,",
+            "матхура̄йа кэ̆ш́ӣтӣртха гха̄т̣э̆ра сака̄ш́а 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "(താഇ മൊര മനെ ബḓഅ ത്രാസ)",
+            "ഘടിബെ ബിപദ ഭാരീ,    യെയൊ നാകൊ ഹെ സംസാരി,",
+            "മഥുരായ കെശീതീർഥ ഘാടെര സകാശ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "(தாஇ மொர மனெ ப³ḓஅ த்ராஸ)",
+            "க⁴டிபெ³ பி³பத³ பா⁴ரீ,    யெயொ நாகொ ஹெ ஸம்ʼஸாரி,",
+            "மது²ராய கெஶீதீர்த² கா⁴டெர ஸகாஶ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "(tāi mora mane baḍa trāsa)",
+            "ghaṭibe bipada bhārī,    yeyo nāko he saṁsāri,",
+            "mathurāya keśītīrtha ghāṭera sakāśa 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "(tāi mora mane baḓa trāsa)",
+            "ghaṭibe bipada bhārī,    yeyo nāko he saṁsāri,",
+            "mathurāya keśītīrtha ghāṭera sakāśa 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "(শ্রীকৃষ্ণ-রূপ-বর্ণন)"
+    },
+    {
+      "language_code": "ben",
+      "text": ""
+    },
+    {
+      "language_code": "ben",
+      "text": "স্মেরাং ভঙ্গীত্রয়পরিচিতাং সাচিবিস্তীর্ণদৃষ্টিং"
+    },
+    {
+      "language_code": "ben",
+      "text": "বংশীন্যস্তাধর-কিশলয়ামুজ্জ্বলাং চন্দ্রকেণ ।"
+    },
+    {
+      "language_code": "ben",
+      "text": "গোবিন্দাখ্যাং হরিতনুমিতঃ কেশিতীর্থোপকণ্ঠে"
+    },
+    {
+      "language_code": "ben",
+      "text": "মা প্রেক্ষিষ্ঠাস্তব যদি সখে! বন্ধুসঙ্গেঽস্তি রঙ্গঃ ॥॥"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "krsn-1",
+      "filename": "K42-krsn-1.mp3",
+      "artist": "Krsnadas das"
+    },
+    {
+      "uid": "krsn-2",
+      "filename": "K42-krsn-2.mp3",
+      "artist": "Krsnadas das"
+    },
+    {
+      "uid": "sadh-1",
+      "filename": "K42-sadh-1.mp3",
+      "artist": "BV Sadhu Maharaja"
+    },
+    {
+      "uid": "sadh-2",
+      "filename": "K42-sadh-2.mp3",
+      "artist": "BV Sadhu Maharaja"
+    },
+    {
+      "uid": "srrb-1",
+      "filename": "K42-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    },
+    {
+      "uid": "tama-1",
+      "filename": "K42-tama-1.mp3",
+      "artist": "Tamal Krsna das"
+    }
+  ],
+  "tags": [
+    "The Beautiful Form of Śrī Kṛṣṇa"
+  ]
+}

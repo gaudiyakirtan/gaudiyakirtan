@@ -10,16 +10,18 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.gaudiyakirtan.myapplication.models.Author
-import com.gaudiyakirtan.myapplication.models.Book
-import com.gaudiyakirtan.myapplication.models.Song
-import com.gaudiyakirtan.myapplication.models.Topic
+import com.gaudiyakirtan.myapplication.models.ManifestEntry
+import com.gaudiyakirtan.myapplication.models.SongGroup
+import com.gaudiyakirtan.myapplication.models.title
+import com.gaudiyakirtan.myapplication.models.titleForListLanguage
 import com.gaudiyakirtan.myapplication.ui.components.*
 import com.gaudiyakirtan.myapplication.ui.library.LibraryViewModel.Category
+import com.gaudiyakirtan.myapplication.ui.theme.neutral
 import com.gaudiyakirtan.myapplication.utils.StringUtils
 
 /**
@@ -28,11 +30,13 @@ import com.gaudiyakirtan.myapplication.utils.StringUtils
  */
 @Composable
 fun LibraryScreen(
-    onSongClick: (Song) -> Unit = {},
+    onSongClick: (String) -> Unit = {},
+    onAuthorClick: (String) -> Unit = {},
+    onGroupClick: (String) -> Unit = {},
     viewModel: LibraryViewModel = viewModel()
 ) {
     val categories = remember { Category.values().toList() }
-    
+
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -46,7 +50,7 @@ fun LibraryScreen(
             categoryToString = { it.title },
             modifier = Modifier.padding(top = 8.dp)
         )
-        
+
         // Search bar
         LibrarySearchBar(
             searchText = viewModel.searchText,
@@ -54,27 +58,33 @@ fun LibraryScreen(
             placeholder = viewModel.getSearchPlaceholder(),
             modifier = Modifier.padding(16.dp)
         )
-        
+
         // Category-specific content
         when (viewModel.selectedCategory) {
             Category.SONGS -> SongsContent(
                 songs = viewModel.filteredSongs,
+                authorNames = viewModel.authorNames,
+                listLanguage = viewModel.listLanguage,
                 onSongClick = onSongClick,
                 modifier = Modifier.fillMaxSize()
             )
-            
+
             Category.AUTHORS -> AuthorsContent(
                 authors = viewModel.filteredAuthors,
+                songCounts = viewModel.authorSongCounts,
+                onAuthorClick = onAuthorClick,
                 modifier = Modifier.fillMaxSize()
             )
-            
+
             Category.TOPICS -> TopicsContent(
                 topics = viewModel.filteredTopics,
+                onGroupClick = onGroupClick,
                 modifier = Modifier.fillMaxSize()
             )
-            
+
             Category.BOOKS -> BooksContent(
                 books = viewModel.filteredBooks,
+                onGroupClick = onGroupClick,
                 modifier = Modifier.fillMaxSize()
             )
         }
@@ -83,70 +93,28 @@ fun LibraryScreen(
 
 @Composable
 private fun SongsContent(
-    songs: List<Song>,
-    onSongClick: (Song) -> Unit = {},
+    songs: List<ManifestEntry>,
+    authorNames: Map<String, String>,
+    listLanguage: String,
+    onSongClick: (String) -> Unit = {},
     modifier: Modifier = Modifier
 ) {
-    // Group songs by first letter for section headers
-    val groupedSongs = songs.groupBy { 
-        StringUtils.firstNormalizedLetter(it.title)
-    }
-    
-    val lazyListState = rememberLazyListState()
-    
-    // Create section map for alphabetical scroll bar
-    val sectionMap = remember(songs) {
-        val result = mutableMapOf<String, Int>()
-        var index = 0
-        
-        groupedSongs.keys.sorted().forEach { letter ->
-            result[letter] = index
-            index += (groupedSongs[letter]?.size ?: 0) + 1  // +1 for section header
-        }
-        
-        result
-    }
-    
-    Box(modifier = modifier) {
-        LazyColumn(
-            state = lazyListState,
-            contentPadding = PaddingValues(start = 16.dp, end = 32.dp, bottom = 16.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
-            modifier = Modifier.fillMaxSize()
-        ) {
-            groupedSongs.keys.sorted().forEach { letter ->
-                // Section header
-                item {
-                    Text(
-                        text = letter,
-                        style = MaterialTheme.typography.titleLarge,
-                        color = MaterialTheme.colorScheme.tertiary,
-                        modifier = Modifier.padding(vertical = 8.dp)
-                    )
-                }
-                
-                // Songs for this section
-                items(groupedSongs[letter] ?: emptyList()) { song ->
-                    SongListItem(
-                        song = song,
-                        onClick = { onSongClick(song) }
-                    )
-                }
-            }
-        }
-        
-        // Alphabetical scroll bar
-        AlphabeticalScrollBar(
-            lazyListState = lazyListState,
-            sectionMap = sectionMap,
-            modifier = Modifier.align(androidx.compose.ui.Alignment.CenterEnd)
-        )
-    }
+    // Manifest-driven list with the A-Z index keyed to `first_letter` and a stable Latin sort --
+    // shared with the author-filtered variant (see SongsListWithIndex).
+    SongsListWithIndex(
+        songs = songs,
+        authorNames = authorNames,
+        listLanguage = listLanguage,
+        onSongClick = onSongClick,
+        modifier = modifier
+    )
 }
 
 @Composable
 private fun AuthorsContent(
     authors: List<Author>,
+    onAuthorClick: (String) -> Unit,
+    songCounts: Map<String, Int> = emptyMap(),
     modifier: Modifier = Modifier
 ) {
     LazyVerticalGrid(
@@ -159,7 +127,8 @@ private fun AuthorsContent(
         items(authors) { author ->
             AuthorCard(
                 author = author,
-                onClick = { /* Handle author click */ }
+                songCount = songCounts[author.uid],
+                onClick = { onAuthorClick(author.uid) }
             )
         }
     }
@@ -167,13 +136,16 @@ private fun AuthorsContent(
 
 @Composable
 private fun TopicsContent(
-    topics: List<Topic>,
-    modifier: Modifier = Modifier,
-    viewModel: LibraryViewModel = viewModel()
+    topics: List<SongGroup>,
+    onGroupClick: (String) -> Unit,
+    modifier: Modifier = Modifier
 ) {
-    // Get songs from the viewModel to count them for each topic
-    val songs = viewModel.songs
-    
+    // Empty-state discipline (docs/screens/browse.md): only truly empty (e.g. a search with no
+    // matches) shows this -- the shipped song_groups.json carries 74 real topics.
+    if (topics.isEmpty()) {
+        LibraryEmptyState(message = "No topics yet", modifier = modifier)
+        return
+    }
     LazyVerticalGrid(
         columns = GridCells.Fixed(2),
         contentPadding = PaddingValues(16.dp),
@@ -181,18 +153,10 @@ private fun TopicsContent(
         verticalArrangement = Arrangement.spacedBy(16.dp),
         modifier = modifier
     ) {
-        items(topics) { topic ->
-            // Count songs for this topic or use demo count if zero
-            val actualSongCount = songs.count { song ->
-                song.tags.any { tag -> 
-                    tag.equals(topic.name, ignoreCase = true) 
-                }
-            }
-            
+        items(topics, key = { it.uid }) { topic ->
             TopicCard(
-                topic = topic,
-                onClick = { /* Handle topic click */ },
-                songCount = if (actualSongCount > 0) actualSongCount else topic.demoSongCount
+                group = topic,
+                onClick = { onGroupClick(topic.uid) }
             )
         }
     }
@@ -200,9 +164,16 @@ private fun TopicsContent(
 
 @Composable
 private fun BooksContent(
-    books: List<Book>,
+    books: List<SongGroup>,
+    onGroupClick: (String) -> Unit,
     modifier: Modifier = Modifier
 ) {
+    // Empty-state discipline (docs/screens/browse.md): only truly empty (e.g. a search with no
+    // matches) shows this -- the shipped song_groups.json carries 19 real books.
+    if (books.isEmpty()) {
+        LibraryEmptyState(message = "No books yet", modifier = modifier)
+        return
+    }
     LazyVerticalGrid(
         columns = GridCells.Adaptive(minSize = 150.dp),
         contentPadding = PaddingValues(16.dp),
@@ -210,11 +181,28 @@ private fun BooksContent(
         verticalArrangement = Arrangement.spacedBy(16.dp),
         modifier = modifier
     ) {
-        items(books) { book ->
-            BookCard(
-                book = book,
-                onClick = { /* Handle book click */ }
-            )
+        items(books, key = { it.uid }) { book ->
+            BookCard(group = book, onClick = { onGroupClick(book.uid) })
         }
+    }
+}
+
+/**
+ * Tasteful, centered empty-state message (docs/screens/browse.md: "render a tasteful empty state,
+ * never fake rows") for browse surfaces backed by data the shipped corpus doesn't carry yet.
+ * Mirrors the pattern already used by [com.gaudiyakirtan.myapplication.ui.author.AuthorSongsScreen]
+ * for its "no songs found" state.
+ */
+@Composable
+private fun LibraryEmptyState(message: String, modifier: Modifier = Modifier) {
+    Box(
+        modifier = modifier.fillMaxSize(),
+        contentAlignment = Alignment.Center
+    ) {
+        Text(
+            text = message,
+            style = MaterialTheme.typography.bodyLarge,
+            color = MaterialTheme.colorScheme.neutral
+        )
     }
 }

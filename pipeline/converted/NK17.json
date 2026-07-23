@@ -1,0 +1,368 @@
+{
+ "uid": "NK17",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "জয় রাধা-মাধব কুঞ্জবিহারী"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "jaya rādhā-mādhaba kuñjabihārī"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "rādhā[FLAG_HYPHEN_ALPHA]mādhaba kuñjabihārī",
+    "gopījanaballabha giribaradhārī",
+    "yaśodānandana,    brajajanarañjana,",
+    "yāmunatīra[FLAG_HYPHEN_ALPHA]banacārī"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Śrī Kṛṣṇa is the lover of Śrī Rādhā and is the enjoyer of pastimes in the forest groves of Vraja. He is the dearmost beloved of the gopīs and the lifter of Govardhana Hill. He is the darling son of Mother Yaśodā, He gives pleasure to the residents of Vraja, and He wanders in the forests along the banks of the Yamunā River."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "rādhā mādhaba",
+       "the lover of Śrī Rādhā"
+      ],
+      [
+       "kuñjabihārī",
+       "the enjoyer of pastimes in the forest groves of Vraja"
+      ],
+      [
+       "gopījanaballabha",
+       "the gopīs + beloved"
+      ],
+      [
+       "giribaradhārī",
+       "the great mountain, Govardhana Hill + lifter"
+      ],
+      [
+       "yaśodānandana",
+       "darling son of Mother Yaśodā"
+      ],
+      [
+       "brajajanarañjana",
+       "people of Vraja + pleasure"
+      ],
+      [
+       "yāmunatīra",
+       "Yamunā River + banks"
+      ],
+      [
+       "banacārī",
+       "He who wonders"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "राधा माधब",
+       "the lover of Śrī Rādhā"
+      ],
+      [
+       "कुञ्जबिहारी",
+       "the enjoyer of pastimes in the forest groves of Vraja"
+      ],
+      [
+       "गॊपीजनबल्लभ",
+       "the gopīs + beloved"
+      ],
+      [
+       "गिरिबरधारी",
+       "the great mountain, Govardhana Hill + lifter"
+      ],
+      [
+       "यशॊदानन्दन",
+       "darling son of Mother Yaśodā"
+      ],
+      [
+       "ब्रजजनरञ्जन",
+       "people of Vraja + pleasure"
+      ],
+      [
+       "यामुनतीर",
+       "Yamunā River + banks"
+      ],
+      [
+       "बनचारी",
+       "He who wonders"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "রাধা মাধব",
+       "the lover of Śrī Rādhā"
+      ],
+      [
+       "কুঞ্জবিহারী",
+       "the enjoyer of pastimes in the forest groves of Vraja"
+      ],
+      [
+       "গোপীজনবল্লভ",
+       "the gopīs + beloved"
+      ],
+      [
+       "গিরিবরধারী",
+       "the great mountain, Govardhana Hill + lifter"
+      ],
+      [
+       "যশোদানন্দন",
+       "darling son of Mother Yaśodā"
+      ],
+      [
+       "ব্রজজনরঞ্জন",
+       "people of Vraja + pleasure"
+      ],
+      [
+       "যামুনতীর",
+       "Yamunā River + banks"
+      ],
+      [
+       "বনচারী",
+       "He who wonders"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "રાધા માધબ",
+       "the lover of Śrī Rādhā"
+      ],
+      [
+       "કુઞ્જબિહારી",
+       "the enjoyer of pastimes in the forest groves of Vraja"
+      ],
+      [
+       "ગોપીજનબલ્લભ",
+       "the gopīs + beloved"
+      ],
+      [
+       "ગિરિબરધારી",
+       "the great mountain, Govardhana Hill + lifter"
+      ],
+      [
+       "યશોદાનન્દન",
+       "darling son of Mother Yaśodā"
+      ],
+      [
+       "બ્રજજનરઞ્જન",
+       "people of Vraja + pleasure"
+      ],
+      [
+       "યામુનતીર",
+       "Yamunā River + banks"
+      ],
+      [
+       "બનચારી",
+       "He who wonders"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "राधामाधब कुञ्जबिहारी",
+      "गॊपीजनबल्लभ गिरिबरधारी",
+      "यशॊदानन्दन,    ब्रजजनरञ्जन,",
+      "यामुनतीरबनचारी"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "রাধামাধব কুঞ্জবিহারী",
+      "গোপীজনবল্লভ গিরিবরধারী",
+      "যশোদানন্দন,    ব্রজজনরঞ্জন,",
+      "যামুনতীরবনচারী"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ରାଧାମାଧବ କୁଞ୍ଜବିହାରୀ",
+      "ଗୋପୀଜନବଲ୍ଲଭ ଗିରିବରଧାରୀ",
+      "ଯଶୋଦାନନ୍ଦନ,    ବ୍ରଜଜନରଞ୍ଜନ,",
+      "ଯାମୁନତୀରବନଚାରୀ"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "રાધામાધબ કુઞ્જબિહારી",
+      "ગોપીજનબલ્લભ ગિરિબરધારી",
+      "યશોદાનન્દન,    બ્રજજનરઞ્જન,",
+      "યામુનતીરબનચારી"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "rādhā-mādhaba kuñjabihārī",
+      "gopījanaballabha giribaradhārī",
+      "yaśodānandana,    brajajanarañjana,",
+      "yāmunatīra-banacārī"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ರಾಧಾಮಾಧಬ ಕುಂಜಬಿಹಾರೀ",
+      "ಗೊಪೀಜನಬಲ್ಲಭ ಗಿರಿಬರಧಾರೀ",
+      "ಯಶೊದಾನಂದನ,    ಬ್ರಜಜನರಂಜನ,",
+      "ಯಾಮುನತೀರಬನಚಾರೀ"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "రాధామాధబ కుంజబిహారీ",
+      "గొపీజనబల్లభ గిరిబరధారీ",
+      "యశొదానందన,    బ్రజజనరంజన,",
+      "యామునతీరబనచారీ"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ра̄дха̄ма̄дхаба кун̃джабиха̄рӣ",
+      "го̆пӣджанабаллабха гирибарадха̄рӣ",
+      "йаш́о̆да̄нандана,    браджаджанаран̃джана,",
+      "йа̄мунатӣрабанача̄рӣ"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "രാധാമാധബ കുഞ്ജബിഹാരീ",
+      "ഗൊപീജനബല്ലഭ ഗിരിബരധാരീ",
+      "യശൊദാനന്ദന,    ബ്രജജനരഞ്ജന,",
+      "യാമുനതീരബനചാരീ"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ராதா⁴மாத⁴ப³ குஞ்ஜபி³ஹாரீ",
+      "கொ³பீஜனப³ல்லப⁴ கி³ரிப³ரதா⁴ரீ",
+      "யஶொதா³நந்த³ன,    ப்³ரஜஜனரஞ்ஜன,",
+      "யாமுனதீரப³னசாரீ"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "rādhā-mādhaba kuñjabihārī",
+      "gopījanaballabha giribaradhārī",
+      "yaśodānandana,    brajajanarañjana,",
+      "yāmunatīra-banacārī"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "rādhā-mādhaba kuñjabihārī",
+      "gopījanaballabha giribaradhārī",
+      "yaśodānandana,    brajajanarañjana,",
+      "yāmunatīra-banacārī"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "bvsm-1",
+   "filename": "NK17-bvsm-1.mp3",
+   "artist": "Srila BV Svami Prabhupada"
+  },
+  {
+   "uid": "bvsm-2",
+   "filename": "NK17-bvsm-2.mp3",
+   "artist": "Srila BV Svami Prabhupada"
+  },
+  {
+   "uid": "krsn-1",
+   "filename": "NK17-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "mith-1",
+   "filename": "NK17-mith-1.mp3",
+   "artist": "Mithu dasi"
+  },
+  {
+   "uid": "srrb-1",
+   "filename": "NK17-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  },
+  {
+   "uid": "srrb-2",
+   "filename": "NK17-srrb-2.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  },
+  {
+   "uid": "taru-1",
+   "filename": "NK17-taru-1.mp3",
+   "artist": "taru"
+  }
+ ],
+ "tags": [
+  "The 120 names of Śrī Kṛṣṇa"
+ ]
+}

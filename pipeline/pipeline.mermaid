@@ -1,0 +1,53 @@
+flowchart TD
+    subgraph A_Source_Creation [1. Master Source Creation]
+        direction LR
+        A1[Existing Content  Bengali Flagged JSON, etc.] --> A3
+        A2[New Content  Current Book Text, Madhukar's additions] --> A3
+        A3[Madhukar: Manual Input & Flagging Process:<br/>- B/V, J/Y distinctions<br/>- Pullback conjuncts<br/>- Alphabet-only hyphens<br/>- Dropped inherent vowels  Bengali<br/>- Other special cases/Sandhi] --> A4[Flagged ISO 15919 Latin  THE MASTER SOURCE]
+    end
+
+    subgraph B_Content_Generation_from_Master [2. AI Content Generation  from Master Source]
+        A4 --> B1[AI  LLM: Generate Initial Word-for-Word Splits & Synonyms]
+        A4 --> B2[AI  LLM: Generate Initial Full Translations<br/> e.g., to English, Russian, etc., using existing Eng translations as base]
+    end
+
+    subgraph C_Transliteration_Pipeline [3. Transliteration & Script Generation Pipeline  from Master Source]
+        A4 --> C1[Conditional Pre-processing for Aksharamukha:<br/>IF output_script IS NOT Bengali/Oriya THEN  ẏ → y]
+        C1 --> C2[Aksharamukha: Convert to Target Script]
+        C2 --> C3[Conditional Post-processing:<br/>- Apply GVP/BBT Latin standards<br/>- Handle Pullback flags<br/>- Handle Alphabet-only hyphen flags]
+    end
+
+    subgraph D_Generated_Display_Scripts [4. Generated Display Scripts for Verse Text]
+        direction LR
+        C3 --> D1[Devanagari]
+        C3 --> D2[Bengali]
+        C3 --> D3[Oriya]
+        C3 --> D4[Gujarati, Other Indic]
+        C3 --> D5[Latin  GVP Standard]
+        C3 --> D6[Latin  BBT Standard]
+        C3 --> D7[Cyrillic  Needs Radhika's check]
+    end
+    
+    subgraph E_App_Display_Logic [5. App Display & Content Selection]
+        D1 & D2 & D3 & D4 & D5 & D6 & D7 --> E1{User Selects Display Script for Verse}
+        B1 --> E2[Render Word-for-Word in Chosen Display Script]
+        B2 --> E3[Display Full Translation  in its target language/script]
+        E1 --> E_Verse[Verse Displayed]
+        E2 --> E_WFW[Word-for-Word Displayed]
+        E3 --> E_Translation[Translation Displayed]
+    end
+
+    subgraph F_Quality_Control_and_Standards [6. Quality Control & Standards Adherence]
+        Ref1[Style Guides  BBT, GVP, etc.] --> F1
+        E_Verse --> F1[Madhukar: Manual Review & Correction of Verse  referencing Style Guides]
+        E_WFW --> F1
+        E_Translation --> F1
+        F1 --> F2[Final Verified Output in App]
+    end
+
+    style A_Source_Creation fill:#e6ffe6,stroke:#333,stroke-width:2px
+    style B_Content_Generation_from_Master fill:#e6f7ff,stroke:#333,stroke-width:2px
+    style C_Transliteration_Pipeline fill:#fff0e6,stroke:#333,stroke-width:2px
+    style D_Generated_Display_Scripts fill:#f0e6ff,stroke:#333,stroke-width:2px
+    style E_App_Display_Logic fill:#ffffcc,stroke:#333,stroke-width:2px
+    style F_Quality_Control_and_Standards fill:#ffe6e6,stroke:#333,stroke-width:2px

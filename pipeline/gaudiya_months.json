@@ -1,0 +1,627 @@
+{
+ "about": "Songs per Gaudiya lunar month, for gaudiya_calendar.py",
+ "sources": {
+  "panjika": "Śrī Caitanya-pañjikā for Vṛndāvana (3866 events, 2011–2027)",
+  "streams": "@madhudas livestreams (2172 dated, 2020-11-05 → 2026-07-22)",
+  "book": "Śrī Gauḍīya Gīti-guccha, 7th ed. 2016",
+  "corpus": "manifest.json (703 songs)"
+ },
+ "basis_legend": {
+  "observed": "month-concentrated across dated livestreams",
+  "panjika": "the pañjikā dates a matching observance in this month",
+  "book": "stated in the Gīti-guccha (heading or rubric)",
+  "thematic": "subject fits; no direct dated evidence"
+ },
+ "daily": [
+  {
+   "slot": "predawn",
+   "label": "Maṅgala-ārati (~04:00)",
+   "songs": [
+    {
+     "uid": "A4",
+     "title": "śrīmaṅgala-ārati (GVS & IPBYS)",
+     "audio": true,
+     "basis": "book"
+    },
+    {
+     "uid": "A7",
+     "title": "bibhābarī-śeṣa",
+     "audio": true,
+     "basis": "book"
+    }
+   ]
+  },
+  {
+   "slot": "sunrise",
+   "label": "Aruṇodaya-kīrtana",
+   "songs": []
+  },
+  {
+   "slot": "noon",
+   "label": "Madhyāhna Bhoga-ārati",
+   "songs": [
+    {
+     "uid": "A8",
+     "title": "yaśomatī-nandana",
+     "audio": true,
+     "basis": "book"
+    }
+   ]
+  },
+  {
+   "slot": "evening",
+   "label": "Sandhyā / Gaura-ārati",
+   "songs": [
+    {
+     "uid": "A10",
+     "title": "śrīgaura-ārati",
+     "audio": true,
+     "basis": "book"
+    },
+    {
+     "uid": "A11",
+     "title": "śrīyugala-ārati",
+     "audio": true,
+     "basis": "book"
+    }
+   ]
+  },
+  {
+   "slot": "tulasi",
+   "label": "Tulasī-ārati / parikramā",
+   "songs": [
+    {
+     "uid": "A14",
+     "title": "‘namo namaḥ tulasī kṛṣṇa-preyasī’ (namo namaḥ)",
+     "audio": true,
+     "basis": "book"
+    },
+    {
+     "uid": "A16",
+     "title": "śrītulasī-ārati",
+     "audio": false,
+     "basis": "book"
+    },
+    {
+     "uid": "A17",
+     "title": "śrītulasī-ārati",
+     "audio": false,
+     "basis": "book"
+    }
+   ]
+  }
+ ],
+ "months": [
+  {
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "observances": [
+    "Rāma Navamī",
+    "Vasanta Rāsa-yātrā",
+    "Rāsa-yātrā of Balarāma",
+    "Navadvīpa-dhāma parikramā (from Gaura-pūrṇimā)"
+   ],
+   "note": "First month of the Gaudiya year, beginning after Gaura-pūrṇimā.",
+   "songs": [
+    {
+     "uid": "VT1",
+     "title": "śrīramacandrāṣṭakam‌",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "D1",
+     "title": "śrīman navadvīpa-stotram",
+     "audio": false,
+     "basis": "thematic"
+    },
+    {
+     "uid": "D3",
+     "title": "śrīnavadvīpāṣṭakama",
+     "audio": false,
+     "basis": "thematic"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "observances": [
+    "Nṛsiṁha Caturdaśī",
+    "Akṣaya Tṛtīyā",
+    "Candana-yātrā",
+    "Jāhnavā-devī appearance"
+   ],
+   "note": "Nṛsiṁha Caturdaśī falls in the śukla-pakṣa.",
+   "songs": [
+    {
+     "uid": "VT2",
+     "title": "śrīśrīnṛsiṁha-stavaḥ",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "VT8",
+     "title": "śrīnṛsiṁha-kavaca-stotram",
+     "audio": false,
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "observances": [
+    "Gaṅgā-daśaharā",
+    "Snāna-yātrā of Jagannātha",
+    "Pāṇḍava Nirjala Ekādaśī"
+   ],
+   "note": null,
+   "songs": [
+    {
+     "uid": "D12",
+     "title": "śrīyamunāṣṭakam",
+     "audio": false,
+     "basis": "thematic"
+    },
+    {
+     "uid": "D13",
+     "title": "śrīgaṅgā-stotram",
+     "audio": true,
+     "basis": "thematic"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "observances": [
+    "Ratha-yātrā",
+    "Guṇḍicā-mārjana",
+    "Hera Pañcamī",
+    "Guru-pūrṇimā / Vyāsa-pūjā",
+    "Cāturmāsya begins"
+   ],
+   "note": "Ratha-yātrā and the start of Cāturmāsya — the heaviest observance month in the stream data (87 Cāturmāsya streams).",
+   "songs": [
+    {
+     "uid": "GV24",
+     "title": "śrīla jagannāthāṣṭakam",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "VT5",
+     "title": "śrījagannāthadeva stavaḥ",
+     "audio": false,
+     "basis": "thematic"
+    },
+    {
+     "uid": "O1",
+     "title": "śrījagannātha-janāna",
+     "audio": false,
+     "basis": "thematic"
+    },
+    {
+     "uid": "GV1",
+     "title": "śrīguru-paramparā—saṁskṛta (General)",
+     "audio": false,
+     "basis": "book"
+    },
+    {
+     "uid": "GV2",
+     "title": "śrīguru-paramparā—bāṁlā (General)",
+     "audio": true,
+     "basis": "book"
+    },
+    {
+     "uid": "G1",
+     "title": "śrīgurvaṣṭakam (saṁskṛta) ~ Śrī Gurvāṣṭakam (Sanskrit)",
+     "audio": true,
+     "basis": "book"
+    },
+    {
+     "uid": "G2",
+     "title": "śrīgurbaṣṭakam (bāṁlā) ~ Śrī Gurvāṣṭakam (Bengali Rendition)",
+     "audio": true,
+     "basis": "book"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "observances": [
+    "Jhūlana-yātrā",
+    "Balarāma Pūrṇimā",
+    "Pavitrāropaṇa Ekādaśī",
+    "Second month of Cāturmāsya"
+   ],
+   "note": "Jhūlana-yātrā is the only festival the Gīti-guccha groups explicitly (p.374).",
+   "songs": [
+    {
+     "uid": "B25",
+     "title": "rādhe jhūlana padhāro jhuka āye badarā",
+     "audio": true,
+     "basis": "book"
+    },
+    {
+     "uid": "B26",
+     "title": "jhūlā jhūle rādhādāmodara vṛndāvanameṃ",
+     "audio": false,
+     "basis": "book"
+    },
+    {
+     "uid": "VT3",
+     "title": "śrīvaladeva-stotram",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "GN1",
+     "title": "śrīkṛṣṇacaitanya, balarāma nityānanda",
+     "audio": false,
+     "basis": "thematic"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "observances": [
+    "Kṛṣṇa Janmāṣṭamī",
+    "Nanda-utsava",
+    "Rādhāṣṭamī",
+    "Lalitā-saptamī",
+    "Viśvarūpa Mahotsava",
+    "Vāmana Dvādaśī"
+   ],
+   "note": "Densest appearance-day month: Janmāṣṭamī and Rādhāṣṭamī two weeks apart.",
+   "songs": [
+    {
+     "uid": "R1",
+     "title": "śrīrādhikāṣṭakam (1)",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "R2",
+     "title": "śrīrādhikāṣṭakam (2)",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "R3",
+     "title": "śrīrādhikāṣṭakam (3)",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "R6",
+     "title": "śrīśrīgāndharvā-saṁprārthanāṣṭakam",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "R21",
+     "title": "bṛṣabhānusutā-caraṇa-sebane",
+     "audio": true,
+     "basis": "panjika"
+    },
+    {
+     "uid": "R23",
+     "title": "rādhikā-caraṇareṇu",
+     "audio": true,
+     "basis": "panjika"
+    },
+    {
+     "uid": "P2",
+     "title": "śrīlalitāṣṭakam",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "K41",
+     "title": "janama saphala tā’ra, kṛṣṇa daraśana yā’ra",
+     "audio": true,
+     "basis": "thematic"
+    },
+    {
+     "uid": "K61",
+     "title": "hari he dayāla mora jaya rādhānātha",
+     "audio": true,
+     "basis": "thematic"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "observances": [
+    "Śāradīya Rāsa-yātrā",
+    "Vijaya Daśamī",
+    "Third month of Cāturmāsya"
+   ],
+   "note": "Gopī-gīta is 10/10 October in the stream data; Rāsa 86% concentrated Sep–Nov.",
+   "songs": [
+    {
+     "uid": "SB1",
+     "title": "gopīgīta",
+     "audio": false,
+     "basis": "observed"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "observances": [
+    "Kārtika/Dāmodara-vrata (month-long)",
+    "Bahulāṣṭamī (Rādhā-kuṇḍa)",
+    "Govardhana-pūjā / Annakūṭa",
+    "Gopāṣṭamī",
+    "Dīpāvalī",
+    "Utthāna Ekādaśī",
+    "Bhīṣma-pañcaka"
+   ],
+   "note": "The strongest seasonal signal in the whole dataset: Dāmodarāṣṭakam appears in 52 streams, 100% of them in Oct–Nov. The Gīti-guccha prints it (p.290) with no seasonal note at all.",
+   "songs": [
+    {
+     "uid": "K1",
+     "title": "śrīdāmodarāṣṭakam",
+     "audio": true,
+     "basis": "observed"
+    },
+    {
+     "uid": "K23",
+     "title": "śrīdāmodarāṣṭakam",
+     "audio": false,
+     "basis": "observed"
+    },
+    {
+     "uid": "X1",
+     "title": "śrīsvaniyama-daśakam",
+     "audio": false,
+     "basis": "observed"
+    },
+    {
+     "uid": "X2",
+     "title": "śrīsvaniyama-dvādaśakam",
+     "audio": false,
+     "basis": "observed"
+    },
+    {
+     "uid": "D6",
+     "title": "śrīgovardhanāṣṭakam (1)",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "D7",
+     "title": "śrīgovardhanāṣṭakam (2)",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "D8",
+     "title": "śrīgovardhana-vāsa-prārthanā-daśakam",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "D9",
+     "title": "śrīgovardhanāśraya-daśakam",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "D19",
+     "title": "śrīgovardhana mahārāja",
+     "audio": true,
+     "basis": "panjika"
+    },
+    {
+     "uid": "D4",
+     "title": "śrīrādhākuṇḍāṣṭakam",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "D5",
+     "title": "śrīśyāmakuṇḍāṣṭakam",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "S30",
+     "title": "rādhākuṇḍataṭa",
+     "audio": true,
+     "basis": "panjika"
+    },
+    {
+     "uid": "A14",
+     "title": "‘namo namaḥ tulasī kṛṣṇa-preyasī’ (namo namaḥ)",
+     "audio": true,
+     "basis": "book"
+    },
+    {
+     "uid": "A16",
+     "title": "śrītulasī-ārati",
+     "audio": false,
+     "basis": "book"
+    },
+    {
+     "uid": "A17",
+     "title": "śrītulasī-ārati",
+     "audio": false,
+     "basis": "book"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "observances": [
+    "Odana-ṣaṣṭhī",
+    "Gītā Jayantī",
+    "Kātyāyanī-vrata",
+    "Haimantikī Rāsa-yātrā"
+   ],
+   "note": null,
+   "songs": [
+    {
+     "uid": "SB1",
+     "title": "gopīgīta",
+     "audio": false,
+     "basis": "thematic"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "observances": [
+    "Saphalā Ekādaśī",
+    "Putradā Ekādaśī",
+    "Makara Saṅkrānti"
+   ],
+   "note": "Sparse month — mostly ācārya observance days, no dedicated festival songs in the corpus.",
+   "songs": []
+  },
+  {
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "observances": [
+    "Vasanta-pañcamī",
+    "Sarasvatī-pūjā",
+    "Advaita Saptamī",
+    "Nityānanda Trayodaśī",
+    "Varāha Dvādaśī",
+    "Bhīṣma Aṣṭamī"
+   ],
+   "note": "Nityānanda Trayodaśī and Advaita Saptamī both fall here.",
+   "songs": [
+    {
+     "uid": "N1",
+     "title": "śrīnityānandāṣṭakam",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "GN4",
+     "title": "nitāi caitanya dohe baḓa abatāra",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "GN13",
+     "title": "nitāi-gaura-nāma",
+     "audio": true,
+     "basis": "panjika"
+    },
+    {
+     "uid": "PT10",
+     "title": "jaya jaya śrīadbaita patitapābana",
+     "audio": false,
+     "basis": "panjika"
+    },
+    {
+     "uid": "PT13",
+     "title": "jaya jaya adbaita ācārya dayāmaya",
+     "audio": true,
+     "basis": "panjika"
+    },
+    {
+     "uid": "PT14",
+     "title": "śrīadbaitābirbhāba-līlā",
+     "audio": false,
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "observances": [
+    "Gaura-pūrṇimā (appearance of Mahāprabhu)",
+    "Śiva-rātri",
+    "Dola-yātrā",
+    "Festival of Jagannātha Miśra",
+    "Navadvīpa-dhāma parikramā begins"
+   ],
+   "note": "Gaura-pūrṇimā closes the Gaudiya year; the next day begins Caitra.",
+   "songs": [
+    {
+     "uid": "GH1",
+     "title": "śrīśacītanayāṣṭakam",
+     "audio": true,
+     "basis": "panjika"
+    },
+    {
+     "uid": "GH23",
+     "title": "jaya jaya jagannātha śacīra nandana",
+     "audio": true,
+     "basis": "panjika"
+    },
+    {
+     "uid": "D1",
+     "title": "śrīman navadvīpa-stotram",
+     "audio": false,
+     "basis": "thematic"
+    },
+    {
+     "uid": "D3",
+     "title": "śrīnavadvīpāṣṭakama",
+     "audio": false,
+     "basis": "thematic"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Adhika",
+   "gaudiya_month": "Puruṣottama",
+   "observances": [
+    "Puruṣottama-vrata (whole month)"
+   ],
+   "note": "Intercalary leap month, roughly every 2.7 years (last 2023, next 2026-05-16 → 2026-06-15). The @madhudas channel ran Śaraṇāgati songs through it (59 streams), which is what these uids reflect.",
+   "songs": [
+    {
+     "uid": "S10",
+     "title": "sarbasba tomāra",
+     "audio": true,
+     "basis": "observed"
+    },
+    {
+     "uid": "S14",
+     "title": "mānasa, deha, geha, yo kichu mora",
+     "audio": true,
+     "basis": "observed"
+    },
+    {
+     "uid": "S17",
+     "title": "tumi sarbeśbareśbara",
+     "audio": true,
+     "basis": "observed"
+    },
+    {
+     "uid": "S18",
+     "title": "ki jāni ki bale",
+     "audio": true,
+     "basis": "observed"
+    },
+    {
+     "uid": "S20",
+     "title": "ekhana bujhinu prabhu!",
+     "audio": true,
+     "basis": "observed"
+    },
+    {
+     "uid": "S22",
+     "title": "tuyā bhakti-anukūla ye-ye kārya haya",
+     "audio": false,
+     "basis": "observed"
+    }
+   ]
+  }
+ ]
+}

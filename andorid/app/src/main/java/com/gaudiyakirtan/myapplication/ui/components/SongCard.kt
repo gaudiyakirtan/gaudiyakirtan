@@ -1,5 +1,7 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.neutral
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -8,22 +10,29 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.gaudiyakirtan.myapplication.models.Song
 import com.gaudiyakirtan.myapplication.ui.components.icons.MusicNote
 
+/**
+ * A song card for grid/list display, driven by the lightweight list fields a
+ * [com.gaudiyakirtan.myapplication.models.ManifestEntry] carries (see docs/data/manifest.md) --
+ * the manifest is what list/browse screens read, not a full
+ * [com.gaudiyakirtan.myapplication.models.Song]. `authorName` is resolved by the caller from the
+ * author catalog (the manifest only carries `author_uid`, not a display name).
+ */
 @Composable
 fun SongCard(
-    song: Song,
-    onClick: () -> Unit = {},
-    showTags: Boolean = true
+    uid: String,
+    title: String,
+    authorName: String,
+    audioAvailable: Boolean,
+    onClick: () -> Unit = {}
 ) {
     // Define the neutral color from the theme
-    val neutralColor = MaterialTheme.colorScheme.tertiary
-    
+    val neutralColor = MaterialTheme.colorScheme.neutral
+
     Surface(
         modifier = Modifier
             .fillMaxWidth()
@@ -43,9 +52,9 @@ fun SongCard(
                 ) {
                     // Song title with primary color
                     Text(
-                        text = song.title,
+                        text = title,
                         style = MaterialTheme.typography.bodyLarge.copy(
-                            color = MaterialTheme.colorScheme.primary,
+                            color = MaterialTheme.colorScheme.surfaceVariant,
                             fontSize = 14.sp
                         ),
                         maxLines = 1,
@@ -63,7 +72,7 @@ fun SongCard(
                             .padding(horizontal = 10.dp, vertical = 2.dp)
                     ) {
                         Text(
-                            text = song.uid,
+                            text = uid,
                             style = MaterialTheme.typography.labelSmall.copy(
                                 color = neutralColor,
                                 fontSize = 10.sp
@@ -79,7 +88,7 @@ fun SongCard(
                 ) {
                     // Author text with neutral color
                     Text(
-                        text = song.author,
+                        text = authorName,
                         style = MaterialTheme.typography.bodyMedium.copy(
                             color = neutralColor,
                             fontSize = 13.sp
@@ -87,37 +96,13 @@ fun SongCard(
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis
                     )
-                    
+
                     // Music note icon with neutral color
-                    if (song.audio) {
+                    if (audioAvailable) {
                         MusicNote(
                             modifier = Modifier.size(12.dp),
                             color = neutralColor
                         )
-                    }
-                }
-            }
-
-            if (showTags && song.tags.isNotEmpty()) {
-                Row(
-                    horizontalArrangement = Arrangement.spacedBy(4.dp)
-                ) {
-                    // Display up to 3 tags, starting from the last
-                    song.tags.takeLast(3).reversed().forEach { tag ->
-                        Box(
-                            modifier = Modifier
-                                .clip(RoundedCornerShape(10.dp))
-                                .background(neutralColor.copy(alpha = 0.2f))
-                                .padding(horizontal = 10.dp, vertical = 4.dp)
-                        ) {
-                            Text(
-                                text = tag,
-                                style = MaterialTheme.typography.labelSmall.copy(
-                                    color = neutralColor,
-                                    fontSize = 10.sp
-                                )
-                            )
-                        }
                     }
                 }
             }

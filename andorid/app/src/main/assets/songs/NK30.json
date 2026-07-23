@@ -1,0 +1,1708 @@
+{
+  "uid": "NK30",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "গায় গোরাচাঁদ জীবের তরে"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "gāya gorācā̃da jībera tare"
+    },
+    {
+      "script_code": "Deva",
+      "text": "गाय गोराचांद जीबेर तरे"
+    },
+    {
+      "script_code": "Telu",
+      "text": "గాయ గోరాచాంద జీబేర తరే"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಗಾಯ ಗೋರಾಚಾಂದ ಜೀಬೇರ ತರೇ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "கா³ய கோ³ராசாந்த³ ஜீபே³ர தரே"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഗായ ഗോരാചാന്ദ ജീബേര തരേ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ગાય ગોરાચાંદ જીબેર તરે"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଗାୟ ଗୋରାଚାନ୍ଦ ଜୀବେର ତରେ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "га̄йа гора̄ча̄м̣да джӣбэра тарэ"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "gāya gorācā̃da jībera tare",
+        "hare kṛṣṇa hare dhru"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Oh, Hare Kṛṣṇa Hare Kṛṣṇa Kṛṣṇa Kṛṣṇa Hare Hare! Oh, Hare Rāma Hare Rāma Rāma Rāma Hare Hare!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "gāya",
+              "sings"
+            ],
+            [
+              "gorācā̃da",
+              "the moon-like Gaura"
+            ],
+            [
+              "jībera",
+              "of the living entities"
+            ],
+            [
+              "tare",
+              "for the sake."
+            ],
+            [
+              "hare",
+              "Hare"
+            ],
+            [
+              "kṛṣṇa",
+              "Kṛṣṇa"
+            ],
+            [
+              "hare",
+              "Hare"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "गाय",
+              "sings"
+            ],
+            [
+              "गॊराचांद",
+              "the moon-like Gaura"
+            ],
+            [
+              "जीबॆर",
+              "of the living entities"
+            ],
+            [
+              "तरॆ",
+              "for the sake."
+            ],
+            [
+              "हरॆ",
+              "Hare"
+            ],
+            [
+              "क्ड़्ष्ण",
+              "Kṛṣṇa"
+            ],
+            [
+              "हरॆ",
+              "Hare"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "গায়",
+              "sings"
+            ],
+            [
+              "গোরাচান্দ",
+              "the moon-like Gaura"
+            ],
+            [
+              "জীবের",
+              "of the living entities"
+            ],
+            [
+              "তরে",
+              "for the sake."
+            ],
+            [
+              "হরে",
+              "Hare"
+            ],
+            [
+              "ক্ড়্ষ্ণ",
+              "Kṛṣṇa"
+            ],
+            [
+              "হরে",
+              "Hare"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ગાય",
+              "sings"
+            ],
+            [
+              "ગોરાચાંદ",
+              "the moon-like Gaura"
+            ],
+            [
+              "જીબેર",
+              "of the living entities"
+            ],
+            [
+              "તરે",
+              "for the sake."
+            ],
+            [
+              "હરે",
+              "Hare"
+            ],
+            [
+              "ક્ડ઼્ષ્ણ",
+              "Kṛṣṇa"
+            ],
+            [
+              "હરે",
+              "Hare"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गाय गॊराचांद जीबॆर तरॆ",
+            "हरॆ क्ड़्ष्ण हरॆ ध्रु"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গায় গোরাচান্দ জীবের তরে",
+            "হরে ক্ড়্ষ্ণ হরে ধ্রু"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗାୟ ଗୋରାଚାନ୍ଦ ଜୀବେର ତରେ",
+            "ହରେ କ୍ଡ଼୍ଷ୍ଣ ହରେ ଧ୍ରୁ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગાય ગોરાચાંદ જીબેર તરે",
+            "હરે ક્ડ઼્ષ્ણ હરે ધ્રુ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gāya gorācā̃da jībera tare",
+            "hare kṛṣṇa hare dhru"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗಾಯ ಗೊರಾಚಾಂದ ಜೀಬೆರ ತರೆ",
+            "ಹರೆ ಕ್‌ಡ಼್ಷ್ಣ ಹರೆ ಧ್ರು"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గాయ గొరాచాంద జీబెర తరె",
+            "హరె క్డ్ష్ణ హరె ధ్రు"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "га̄йа го̆ра̄ча̄м̣да джӣбэ̆ра тарэ̆",
+            "харэ̆ кр̤шн̣а харэ̆ дхру"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗായ ഗൊരാചാന്ദ ജീബെര തരെ",
+            "ഹരെ ക്ഡ്ഷ്ണ ഹരെ ധ്രു"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கா³ய கொ³ராசாந்த³ ஜீபெ³ர தரெ",
+            "ஹரெ க்ஃட்²ஷ்ண ஹரெ த்⁴ரு"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gāya gorācā̃da jībera tare",
+            "hare kṛṣṇa hare dhru"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gāya gorācā̃da jībera tare",
+            "hare kṛṣṇa hare dhru"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare,",
+        "hare kṛṣṇa hare",
+        "hare rāma hare rāma rāma rāma hare hare",
+        "hare kṛṣṇa hare"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "“Hare Kṛṣṇa Hare Kṛṣṇa Kṛṣṇa Kṛṣṇa Hare Hare, Hare Rāma Hare Rāma Rāma Rāma Hare Hare."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "hare",
+              "Hare"
+            ],
+            [
+              "kṛṣṇa",
+              "Kṛṣṇa"
+            ],
+            [
+              "hare",
+              "Hare"
+            ],
+            [
+              "kṛṣṇa",
+              "Kṛṣṇa"
+            ],
+            [
+              "kṛṣṇa",
+              "Kṛṣṇa"
+            ],
+            [
+              "kṛṣṇa",
+              "Kṛṣṇa"
+            ],
+            [
+              "hare",
+              "Hare"
+            ],
+            [
+              "hare",
+              "Hare."
+            ],
+            [
+              "hare",
+              "Hare"
+            ],
+            [
+              "kṛṣṇa",
+              "Kṛṣṇa"
+            ],
+            [
+              "hare",
+              "Hare"
+            ],
+            [
+              "hare",
+              "Hare"
+            ],
+            [
+              "rāma",
+              "Rāma"
+            ],
+            [
+              "hare",
+              "Hare"
+            ],
+            [
+              "rāma",
+              "Rāma"
+            ],
+            [
+              "rāma",
+              "Rāma"
+            ],
+            [
+              "rāma",
+              "Rāma"
+            ],
+            [
+              "hare",
+              "Hare"
+            ],
+            [
+              "hare",
+              "Hare."
+            ],
+            [
+              "hare",
+              "Hare"
+            ],
+            [
+              "kṛṣṇa",
+              "Kṛṣṇa"
+            ],
+            [
+              "hare",
+              "Hare"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "हरॆ",
+              "Hare"
+            ],
+            [
+              "क्ड़्ष्ण",
+              "Kṛṣṇa"
+            ],
+            [
+              "हरॆ",
+              "Hare"
+            ],
+            [
+              "क्ड़्ष्ण",
+              "Kṛṣṇa"
+            ],
+            [
+              "क्ड़्ष्ण",
+              "Kṛṣṇa"
+            ],
+            [
+              "क्ड़्ष्ण",
+              "Kṛṣṇa"
+            ],
+            [
+              "हरॆ",
+              "Hare"
+            ],
+            [
+              "हरॆ",
+              "Hare."
+            ],
+            [
+              "हरॆ",
+              "Hare"
+            ],
+            [
+              "क्ड़्ष्ण",
+              "Kṛṣṇa"
+            ],
+            [
+              "हरॆ",
+              "Hare"
+            ],
+            [
+              "हरॆ",
+              "Hare"
+            ],
+            [
+              "राम",
+              "Rāma"
+            ],
+            [
+              "हरॆ",
+              "Hare"
+            ],
+            [
+              "राम",
+              "Rāma"
+            ],
+            [
+              "राम",
+              "Rāma"
+            ],
+            [
+              "राम",
+              "Rāma"
+            ],
+            [
+              "हरॆ",
+              "Hare"
+            ],
+            [
+              "हरॆ",
+              "Hare."
+            ],
+            [
+              "हरॆ",
+              "Hare"
+            ],
+            [
+              "क्ड़्ष्ण",
+              "Kṛṣṇa"
+            ],
+            [
+              "हरॆ",
+              "Hare"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "হরে",
+              "Hare"
+            ],
+            [
+              "ক্ড়্ষ্ণ",
+              "Kṛṣṇa"
+            ],
+            [
+              "হরে",
+              "Hare"
+            ],
+            [
+              "ক্ড়্ষ্ণ",
+              "Kṛṣṇa"
+            ],
+            [
+              "ক্ড়্ষ্ণ",
+              "Kṛṣṇa"
+            ],
+            [
+              "ক্ড়্ষ্ণ",
+              "Kṛṣṇa"
+            ],
+            [
+              "হরে",
+              "Hare"
+            ],
+            [
+              "হরে",
+              "Hare."
+            ],
+            [
+              "হরে",
+              "Hare"
+            ],
+            [
+              "ক্ড়্ষ্ণ",
+              "Kṛṣṇa"
+            ],
+            [
+              "হরে",
+              "Hare"
+            ],
+            [
+              "হরে",
+              "Hare"
+            ],
+            [
+              "রাম",
+              "Rāma"
+            ],
+            [
+              "হরে",
+              "Hare"
+            ],
+            [
+              "রাম",
+              "Rāma"
+            ],
+            [
+              "রাম",
+              "Rāma"
+            ],
+            [
+              "রাম",
+              "Rāma"
+            ],
+            [
+              "হরে",
+              "Hare"
+            ],
+            [
+              "হরে",
+              "Hare."
+            ],
+            [
+              "হরে",
+              "Hare"
+            ],
+            [
+              "ক্ড়্ষ্ণ",
+              "Kṛṣṇa"
+            ],
+            [
+              "হরে",
+              "Hare"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "હરે",
+              "Hare"
+            ],
+            [
+              "ક્ડ઼્ષ્ણ",
+              "Kṛṣṇa"
+            ],
+            [
+              "હરે",
+              "Hare"
+            ],
+            [
+              "ક્ડ઼્ષ્ણ",
+              "Kṛṣṇa"
+            ],
+            [
+              "ક્ડ઼્ષ્ણ",
+              "Kṛṣṇa"
+            ],
+            [
+              "ક્ડ઼્ષ્ણ",
+              "Kṛṣṇa"
+            ],
+            [
+              "હરે",
+              "Hare"
+            ],
+            [
+              "હરે",
+              "Hare."
+            ],
+            [
+              "હરે",
+              "Hare"
+            ],
+            [
+              "ક્ડ઼્ષ્ણ",
+              "Kṛṣṇa"
+            ],
+            [
+              "હરે",
+              "Hare"
+            ],
+            [
+              "હરે",
+              "Hare"
+            ],
+            [
+              "રામ",
+              "Rāma"
+            ],
+            [
+              "હરે",
+              "Hare"
+            ],
+            [
+              "રામ",
+              "Rāma"
+            ],
+            [
+              "રામ",
+              "Rāma"
+            ],
+            [
+              "રામ",
+              "Rāma"
+            ],
+            [
+              "હરે",
+              "Hare"
+            ],
+            [
+              "હરે",
+              "Hare."
+            ],
+            [
+              "હરે",
+              "Hare"
+            ],
+            [
+              "ક્ડ઼્ષ્ણ",
+              "Kṛṣṇa"
+            ],
+            [
+              "હરે",
+              "Hare"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हरॆ क्ड़्ष्ण हरॆ क्ड़्ष्ण क्ड़्ष्ण क्ड़्ष्ण हरॆ हरॆ,",
+            "हरॆ क्ड़्ष्ण हरॆ",
+            "हरॆ राम हरॆ राम राम राम हरॆ हरॆ",
+            "हरॆ क्ड़्ष्ण हरॆ"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হরে ক্ড়্ষ্ণ হরে ক্ড়্ষ্ণ ক্ড়্ষ্ণ ক্ড়্ষ্ণ হরে হরে,",
+            "হরে ক্ড়্ষ্ণ হরে",
+            "হরে রাম হরে রাম রাম রাম হরে হরে",
+            "হরে ক্ড়্ষ্ণ হরে"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହରେ କ୍ଡ଼୍ଷ୍ଣ ହରେ କ୍ଡ଼୍ଷ୍ଣ କ୍ଡ଼୍ଷ୍ଣ କ୍ଡ଼୍ଷ୍ଣ ହରେ ହରେ,",
+            "ହରେ କ୍ଡ଼୍ଷ୍ଣ ହରେ",
+            "ହରେ ରାମ ହରେ ରାମ ରାମ ରାମ ହରେ ହରେ",
+            "ହରେ କ୍ଡ଼୍ଷ୍ଣ ହରେ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હરે ક્ડ઼્ષ્ણ હરે ક્ડ઼્ષ્ણ ક્ડ઼્ષ્ણ ક્ડ઼્ષ્ણ હરે હરે,",
+            "હરે ક્ડ઼્ષ્ણ હરે",
+            "હરે રામ હરે રામ રામ રામ હરે હરે",
+            "હરે ક્ડ઼્ષ્ણ હરે"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare,",
+            "hare kṛṣṇa hare",
+            "hare rāma hare rāma rāma rāma hare hare",
+            "hare kṛṣṇa hare"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹರೆ ಕ್‌ಡ಼್ಷ್ಣ ಹರೆ ಕ್‌ಡ಼್ಷ್ಣ ಕ್‌ಡ಼್ಷ್ಣ ಕ್‌ಡ಼್ಷ್ಣ ಹರೆ ಹರೆ,",
+            "ಹರೆ ಕ್‌ಡ಼್ಷ್ಣ ಹರೆ",
+            "ಹರೆ ರಾಮ ಹರೆ ರಾಮ ರಾಮ ರಾಮ ಹರೆ ಹರೆ",
+            "ಹರೆ ಕ್‌ಡ಼್ಷ್ಣ ಹರೆ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హరె క్డ్ష్ణ హరె క్డ్ష్ణ క్డ్ష్ణ క్డ్ష్ణ హరె హరె,",
+            "హరె క్డ్ష్ణ హరె",
+            "హరె రామ హరె రామ రామ రామ హరె హరె",
+            "హరె క్డ్ష్ణ హరె"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "харэ̆ кр̤шн̣а харэ̆ кр̤шн̣а кр̤шн̣а кр̤шн̣а харэ̆ харэ̆,",
+            "харэ̆ кр̤шн̣а харэ̆",
+            "харэ̆ ра̄ма харэ̆ ра̄ма ра̄ма ра̄ма харэ̆ харэ̆",
+            "харэ̆ кр̤шн̣а харэ̆"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹരെ ക്ഡ്ഷ്ണ ഹരെ ക്ഡ്ഷ്ണ ക്ഡ്ഷ്ണ ക്ഡ്ഷ്ണ ഹരെ ഹരെ,",
+            "ഹരെ ക്ഡ്ഷ്ണ ഹരെ",
+            "ഹരെ രാമ ഹരെ രാമ രാമ രാമ ഹരെ ഹരെ",
+            "ഹരെ ക്ഡ്ഷ്ണ ഹരെ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹரெ க்ஃட்²ஷ்ண ஹரெ க்ஃட்²ஷ்ண க்ஃட்²ஷ்ண க்ஃட்²ஷ்ண ஹரெ ஹரெ,",
+            "ஹரெ க்ஃட்²ஷ்ண ஹரெ",
+            "ஹரெ ராம ஹரெ ராம ராம ராம ஹரெ ஹரெ",
+            "ஹரெ க்ஃட்²ஷ்ண ஹரெ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare,",
+            "hare kṛṣṇa hare",
+            "hare rāma hare rāma rāma rāma hare hare",
+            "hare kṛṣṇa hare"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare,",
+            "hare kṛṣṇa hare",
+            "hare rāma hare rāma rāma rāma hare hare",
+            "hare kṛṣṇa hare"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "ekabāra bala rasanā uccaiḥsbare",
+        "(bala) nandera nandana,    yaśodā[FLAG_HYPHEN_ALPHA]jībana,",
+        "śrīrādhāramaṇa prema[FLAG_HYPHEN_ALPHA]bhare 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "“Just once, with a loud voice, chant, ‘Nanda-nandana, Yaśodā-jībana, Śrī Rādhā-ramaṇa!’ while filled with prema."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "ekabāra",
+              "one + time"
+            ],
+            [
+              "bala",
+              "chant"
+            ],
+            [
+              "rasanā",
+              "tongue"
+            ],
+            [
+              "uccaiḥsbare",
+              "loud + with voice"
+            ],
+            [
+              "(bala)",
+              "chant"
+            ],
+            [
+              "nandera",
+              "Nanda Mahārāja’s"
+            ],
+            [
+              "nandana",
+              "son"
+            ],
+            [
+              "yaśodā",
+              "Mother Yaśodā"
+            ],
+            [
+              "jībana",
+              "life"
+            ],
+            [
+              "śrīrādhāramaṇa",
+              "He who revels with Śrī Rādhā"
+            ],
+            [
+              "prema",
+              "love"
+            ],
+            [
+              "bhare",
+              "filled with"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "ऎकबार",
+              "one + time"
+            ],
+            [
+              "बल",
+              "chant"
+            ],
+            [
+              "रसना",
+              "tongue"
+            ],
+            [
+              "उच्चैःस्बरॆ",
+              "loud + with voice"
+            ],
+            [
+              "(बल)",
+              "chant"
+            ],
+            [
+              "नन्दॆर",
+              "Nanda Mahārāja’s"
+            ],
+            [
+              "नन्दन",
+              "son"
+            ],
+            [
+              "यशॊदा",
+              "Mother Yaśodā"
+            ],
+            [
+              "जीबन",
+              "life"
+            ],
+            [
+              "श्रीराधारमण",
+              "He who revels with Śrī Rādhā"
+            ],
+            [
+              "प्रॆम",
+              "love"
+            ],
+            [
+              "भरॆ",
+              "filled with"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "একবার",
+              "one + time"
+            ],
+            [
+              "বল",
+              "chant"
+            ],
+            [
+              "রসনা",
+              "tongue"
+            ],
+            [
+              "উচ্চৈঃস্বরে",
+              "loud + with voice"
+            ],
+            [
+              "(বল)",
+              "chant"
+            ],
+            [
+              "নন্দের",
+              "Nanda Mahārāja’s"
+            ],
+            [
+              "নন্দন",
+              "son"
+            ],
+            [
+              "যশোদা",
+              "Mother Yaśodā"
+            ],
+            [
+              "জীবন",
+              "life"
+            ],
+            [
+              "শ্রীরাধারমণ",
+              "He who revels with Śrī Rādhā"
+            ],
+            [
+              "প্রেম",
+              "love"
+            ],
+            [
+              "ভরে",
+              "filled with"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "એકબાર",
+              "one + time"
+            ],
+            [
+              "બલ",
+              "chant"
+            ],
+            [
+              "રસના",
+              "tongue"
+            ],
+            [
+              "ઉચ્ચૈઃસ્બરે",
+              "loud + with voice"
+            ],
+            [
+              "(બલ)",
+              "chant"
+            ],
+            [
+              "નન્દેર",
+              "Nanda Mahārāja’s"
+            ],
+            [
+              "નન્દન",
+              "son"
+            ],
+            [
+              "યશોદા",
+              "Mother Yaśodā"
+            ],
+            [
+              "જીબન",
+              "life"
+            ],
+            [
+              "શ્રીરાધારમણ",
+              "He who revels with Śrī Rādhā"
+            ],
+            [
+              "પ્રેમ",
+              "love"
+            ],
+            [
+              "ભરે",
+              "filled with"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎकबार बल रसना उच्चैःस्बरॆ",
+            "(बल) नन्दॆर नन्दन,    यशॊदाजीबन,",
+            "श्रीराधारमण प्रॆमभरॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "একবার বল রসনা উচ্চৈঃস্বরে",
+            "(বল) নন্দের নন্দন,    যশোদাজীবন,",
+            "শ্রীরাধারমণ প্রেমভরে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏକବାର ବଲ ରସନା ଉଚ୍ଚୈଃସ୍ବରେ",
+            "(ବଲ) ନନ୍ଦେର ନନ୍ଦନ,    ଯଶୋଦାଜୀବନ,",
+            "ଶ୍ରୀରାଧାରମଣ ପ୍ରେମଭରେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એકબાર બલ રસના ઉચ્ચૈઃસ્બરે",
+            "(બલ) નન્દેર નન્દન,    યશોદાજીબન,",
+            "શ્રીરાધારમણ પ્રેમભરે ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ekabāra bala rasanā uccaiḥsbare",
+            "(bala) nandera nandana,    yaśodā-jībana,",
+            "śrīrādhāramaṇa prema-bhare 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎಕಬಾರ ಬಲ ರಸನಾ ಉಚ್ಚೈಃಸ್ಬರೆ",
+            "(ಬಲ) ನಂದೆರ ನಂದನ,    ಯಶೊದಾಜೀಬನ,",
+            "ಶ್ರೀರಾಧಾರಮಣ ಪ್ರೆಮಭರೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎకబార బల రసనా ఉచ్చైఃస్బరె",
+            "(బల) నందెర నందన,    యశొదాజీబన,",
+            "శ్రీరాధారమణ ప్రెమభరె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆каба̄ра бала расана̄ уччаих̣сбарэ̆",
+            "(бала) нандэ̆ра нандана,    йаш́о̆да̄джӣбана,",
+            "ш́рӣра̄дха̄раман̣а прэ̆мабхарэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എകബാര ബല രസനാ ഉച്ചൈഃസ്ബരെ",
+            "(ബല) നന്ദെര നന്ദന,    യശൊദാജീബന,",
+            "ശ്രീരാധാരമണ പ്രെമഭരെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எகபா³ர ப³ல ரஸனா உச்சை꞉ஸ்ப³ரெ",
+            "(ப³ல) நந்தெ³ர நந்த³ன,    யஶொதா³ஜீப³ன,",
+            "ஶ்ரீராதா⁴ரமண ப்ரெமப⁴ரெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ekabāra bala rasanā uccaiḥsbare",
+            "(bala) nandera nandana,    yaśodā-jībana,",
+            "śrīrādhāramaṇa prema-bhare 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ekabāra bala rasanā uccaiḥsbare",
+            "(bala) nandera nandana,    yaśodā-jībana,",
+            "śrīrādhāramaṇa prema-bhare 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "(bala) śrīmadhusūdana,    gopī[FLAG_HYPHEN_ALPHA]prāṇadhana,",
+        "muralībadana nṛtya ka’re",
+        "(bala) agha[FLAG_HYPHEN_ALPHA]nisūdana,    pūtanā[FLAG_HYPHEN_ALPHA]ghātana,",
+        "brahma[FLAG_HYPHEN_ALPHA]bimohana, ūrdhba[FLAG_HYPHEN_ALPHA]kare 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "“Chant, ‘Śrī Madhusūdana, Gopī-prāṇa-dhana, Muralī-vadana!’ while dancing [in joy]. “Chant, ‘Agha-nisūdana, Pūtanā-ghātana, Brahma-vimohana!’ with raised arms.”"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "(bala)",
+              "chant"
+            ],
+            [
+              "śrīmadhusūdana",
+              "Śrī + the demon Madhu + killer, slayer"
+            ],
+            [
+              "gopī",
+              "cowherd damsels"
+            ],
+            [
+              "prāṇadhana",
+              "life + treasure"
+            ],
+            [
+              "muralībadana",
+              "the murali flute + lips"
+            ],
+            [
+              "nṛtya ka’re",
+              "while dancing"
+            ],
+            [
+              "(bala)",
+              "chant"
+            ],
+            [
+              "agha",
+              "the demon Aghāsura"
+            ],
+            [
+              "nisūdana",
+              "slayer"
+            ],
+            [
+              "pūtanā",
+              "the witch Pūtanā"
+            ],
+            [
+              "ghātana",
+              "killer"
+            ],
+            [
+              "brahma",
+              "Lord Brahma"
+            ],
+            [
+              "bimohana",
+              "He who bewildered"
+            ],
+            [
+              "ūrdhba kare",
+              "with raised arms"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "(बल)",
+              "chant"
+            ],
+            [
+              "श्रीमधुसूदन",
+              "Śrī + the demon Madhu + killer, slayer"
+            ],
+            [
+              "गॊपी",
+              "cowherd damsels"
+            ],
+            [
+              "प्राणधन",
+              "life + treasure"
+            ],
+            [
+              "मुरलीबदन",
+              "the murali flute + lips"
+            ],
+            [
+              "न्ड़्त्य कऽरॆ",
+              "while dancing"
+            ],
+            [
+              "(बल)",
+              "chant"
+            ],
+            [
+              "अघ",
+              "the demon Aghāsura"
+            ],
+            [
+              "निसूदन",
+              "slayer"
+            ],
+            [
+              "पूतना",
+              "the witch Pūtanā"
+            ],
+            [
+              "घातन",
+              "killer"
+            ],
+            [
+              "ब्रह्म",
+              "Lord Brahma"
+            ],
+            [
+              "बिमॊहन",
+              "He who bewildered"
+            ],
+            [
+              "ऊर्ध्ब करॆ",
+              "with raised arms"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "(বল)",
+              "chant"
+            ],
+            [
+              "শ্রীমধুসূদন",
+              "Śrī + the demon Madhu + killer, slayer"
+            ],
+            [
+              "গোপী",
+              "cowherd damsels"
+            ],
+            [
+              "প্রাণধন",
+              "life + treasure"
+            ],
+            [
+              "মুরলীবদন",
+              "the murali flute + lips"
+            ],
+            [
+              "ন্ড়্ত্য কঽরে",
+              "while dancing"
+            ],
+            [
+              "(বল)",
+              "chant"
+            ],
+            [
+              "অঘ",
+              "the demon Aghāsura"
+            ],
+            [
+              "নিসূদন",
+              "slayer"
+            ],
+            [
+              "পূতনা",
+              "the witch Pūtanā"
+            ],
+            [
+              "ঘাতন",
+              "killer"
+            ],
+            [
+              "ব্রহ্ম",
+              "Lord Brahma"
+            ],
+            [
+              "বিমোহন",
+              "He who bewildered"
+            ],
+            [
+              "ঊর্ধ্ব করে",
+              "with raised arms"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "(બલ)",
+              "chant"
+            ],
+            [
+              "શ્રીમધુસૂદન",
+              "Śrī + the demon Madhu + killer, slayer"
+            ],
+            [
+              "ગોપી",
+              "cowherd damsels"
+            ],
+            [
+              "પ્રાણધન",
+              "life + treasure"
+            ],
+            [
+              "મુરલીબદન",
+              "the murali flute + lips"
+            ],
+            [
+              "ન્ડ઼્ત્ય કઽરે",
+              "while dancing"
+            ],
+            [
+              "(બલ)",
+              "chant"
+            ],
+            [
+              "અઘ",
+              "the demon Aghāsura"
+            ],
+            [
+              "નિસૂદન",
+              "slayer"
+            ],
+            [
+              "પૂતના",
+              "the witch Pūtanā"
+            ],
+            [
+              "ઘાતન",
+              "killer"
+            ],
+            [
+              "બ્રહ્મ",
+              "Lord Brahma"
+            ],
+            [
+              "બિમોહન",
+              "He who bewildered"
+            ],
+            [
+              "ઊર્ધ્બ કરે",
+              "with raised arms"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "(बल) श्रीमधुसूदन,    गॊपीप्राणधन,",
+            "मुरलीबदन न्ड़्त्य कऽरॆ",
+            "(बल) अघनिसूदन,    पूतनाघातन,",
+            "ब्रह्मबिमॊहन, ऊर्ध्बकरॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "(বল) শ্রীমধুসূদন,    গোপীপ্রাণধন,",
+            "মুরলীবদন ন্ড়্ত্য কঽরে",
+            "(বল) অঘনিসূদন,    পূতনাঘাতন,",
+            "ব্রহ্মবিমোহন, ঊর্ধ্বকরে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "(ବଲ) ଶ୍ରୀମଧୁସୂଦନ,    ଗୋପୀପ୍ରାଣଧନ,",
+            "ମୁରଲୀବଦନ ନ୍ଡ଼୍ତ୍ୟ କଽରେ",
+            "(ବଲ) ଅଘନିସୂଦନ,    ପୂତନାଘାତନ,",
+            "ବ୍ରହ୍ମବିମୋହନ, ଊର୍ଧ୍ବକରେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "(બલ) શ્રીમધુસૂદન,    ગોપીપ્રાણધન,",
+            "મુરલીબદન ન્ડ઼્ત્ય કઽરે",
+            "(બલ) અઘનિસૂદન,    પૂતનાઘાતન,",
+            "બ્રહ્મબિમોહન, ઊર્ધ્બકરે ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "(bala) śrīmadhusūdana,    gopī-prāṇadhana,",
+            "muralībadana nṛtya ka’re",
+            "(bala) agha-nisūdana,    pūtanā-ghātana,",
+            "brahma-bimohana, ūrdhba-kare 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "(ಬಲ) ಶ್ರೀಮಧುಸೂದನ,    ಗೊಪೀಪ್ರಾಣಧನ,",
+            "ಮುರಲೀಬದನ ನ್‌ಡ಼್ತ್ಯ ಕಽರೆ",
+            "(ಬಲ) ಅಘನಿಸೂದನ,    ಪೂತನಾಘಾತನ,",
+            "ಬ್ರಹ್ಮಬಿಮೊಹನ, ಊರ್ಧ್ಬಕರೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "(బల) శ్రీమధుసూదన,    గొపీప్రాణధన,",
+            "మురలీబదన న్డ్త్య కఽరె",
+            "(బల) అఘనిసూదన,    పూతనాఘాతన,",
+            "బ్రహ్మబిమొహన, ఊర్ధ్బకరె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "(бала) ш́рӣмадхусӯдана,    го̆пӣпра̄н̣адхана,",
+            "муралӣбадана нр̤тйа ка'рэ̆",
+            "(бала) агханисӯдана,    пӯтана̄гха̄тана,",
+            "брахмабимо̆хана, ӯрдхбакарэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "(ബല) ശ്രീമധുസൂദന,    ഗൊപീപ്രാണധന,",
+            "മുരലീബദന ന്ഡ്ത്യ കഽരെ",
+            "(ബല) അഘനിസൂദന,    പൂതനാഘാതന,",
+            "ബ്രഹ്മബിമൊഹന, ഊർധ്ബകരെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "(ப³ல) ஶ்ரீமது⁴ஸூத³ன,    கொ³பீப்ராணத⁴ன,",
+            "முரலீப³த³ன ந்ஃட்²த்ய க(அ)ரெ",
+            "(ப³ல) அக⁴நிஸூத³ன,    பூதனாகா⁴தன,",
+            "ப்³ரஹ்மபி³மொஹன, ஊர்த்⁴ப³கரெ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "(bala) śrīmadhusūdana,    gopī-prāṇadhana,",
+            "muralībadana nṛtya ka’re",
+            "(bala) agha-nisūdana,    pūtanā-ghātana,",
+            "brahma-bimohana, ūrdhba-kare 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "(bala) śrīmadhusūdana,    gopī-prāṇadhana,",
+            "muralībadana nṛtya ka’re",
+            "(bala) agha-nisūdana,    pūtanā-ghātana,",
+            "brahma-bimohana, ūrdhba-kare 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "(śrīla bhaktibinoda ṭhākura)"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "(श्रील भक्तिबिनॊद ठाकुर)"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "(শ্রীল ভক্তিবিনোদ ঠাকুর)"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "(ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର)"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "(શ્રીલ ભક્તિબિનોદ ઠાકુર)"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "(śrīla bhaktibinoda ṭhākura)"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "(ಶ್ರೀಲ ಭಕ್ತಿಬಿನೊದ ಠಾಕುರ)"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "(శ్రీల భక్తిబినొద ఠాకుర)"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "(ш́рӣла бхактибино̆да т̣ха̄кура)"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "(ശ്രീല ഭക്തിബിനൊദ ഠാകുര)"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "(ஶ்ரீல ப⁴க்திபி³னொத³ டா²குர)"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "(śrīla bhaktibinoda ṭhākura)"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "(śrīla bhaktibinoda ṭhākura)"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Śrī Nagara-kīrtana (Ājñā-ṭahala – Carrying Out the Command)"
+  ]
+}

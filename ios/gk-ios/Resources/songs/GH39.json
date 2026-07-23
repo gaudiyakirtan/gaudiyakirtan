@@ -1,0 +1,2224 @@
+{
+  "uid": "GH39",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "অবতার সার"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "abatāra sāra"
+    },
+    {
+      "script_code": "Deva",
+      "text": "अबतार सार"
+    },
+    {
+      "script_code": "Telu",
+      "text": "అబతార సార"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಅಬತಾರ ಸಾರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "அப³தார ஸார"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "അബതാര സാര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "અબતાર સાર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଅବତାର ସାର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "абата̄ра са̄ра"
+    }
+  ],
+  "author_uid": "ldt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল লোচন দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Locana dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील लोचन दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల లోచన దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಲೋಚನ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல லோசன தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ലോചന ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ લોચન દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଲୋଚନ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла лочана да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "abatāra sāra,    gorā[FLAG_HYPHEN_ALPHA]abatāra,",
+        "kena nā bhajili tā̃re",
+        "kari’ nīre bāsa,    gela nā piyāsa,",
+        "āpana karama phere 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O mind, why do you not worship Śrī Gaura, the best of all incarnations? You always stay in water, but your thirst is never satiated. This is the consequence of your own activities."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "abatāra",
+              "incarnations"
+            ],
+            [
+              "sāra",
+              "best"
+            ],
+            [
+              "gorā abatāra",
+              "incarnation of Gaura"
+            ],
+            [
+              "kena",
+              "why"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "bhajili",
+              "you worshiped"
+            ],
+            [
+              "tā̃re",
+              "to Him"
+            ],
+            [
+              "kari’",
+              "having made"
+            ],
+            [
+              "nīre",
+              "in water"
+            ],
+            [
+              "bāsa",
+              "residence"
+            ],
+            [
+              "gela",
+              "gone"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "piyāsa",
+              "thirst"
+            ],
+            [
+              "āpana",
+              "your own"
+            ],
+            [
+              "karama",
+              "activities"
+            ],
+            [
+              "phere",
+              "in consequence"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "अबतार",
+              "incarnations"
+            ],
+            [
+              "सार",
+              "best"
+            ],
+            [
+              "गॊरा अबतार",
+              "incarnation of Gaura"
+            ],
+            [
+              "कॆन",
+              "why"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "भजिलि",
+              "you worshiped"
+            ],
+            [
+              "तांरॆ",
+              "to Him"
+            ],
+            [
+              "करिऽ",
+              "having made"
+            ],
+            [
+              "नीरॆ",
+              "in water"
+            ],
+            [
+              "बास",
+              "residence"
+            ],
+            [
+              "गॆल",
+              "gone"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "पियास",
+              "thirst"
+            ],
+            [
+              "आपन",
+              "your own"
+            ],
+            [
+              "करम",
+              "activities"
+            ],
+            [
+              "फॆरॆ",
+              "in consequence"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "অবতার",
+              "incarnations"
+            ],
+            [
+              "সার",
+              "best"
+            ],
+            [
+              "গোরা অবতার",
+              "incarnation of Gaura"
+            ],
+            [
+              "কেন",
+              "why"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "ভজিলি",
+              "you worshiped"
+            ],
+            [
+              "তাংরে",
+              "to Him"
+            ],
+            [
+              "করিঽ",
+              "having made"
+            ],
+            [
+              "নীরে",
+              "in water"
+            ],
+            [
+              "বাস",
+              "residence"
+            ],
+            [
+              "গেল",
+              "gone"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "পিয়াস",
+              "thirst"
+            ],
+            [
+              "আপন",
+              "your own"
+            ],
+            [
+              "করম",
+              "activities"
+            ],
+            [
+              "ফেরে",
+              "in consequence"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "અબતાર",
+              "incarnations"
+            ],
+            [
+              "સાર",
+              "best"
+            ],
+            [
+              "ગોરા અબતાર",
+              "incarnation of Gaura"
+            ],
+            [
+              "કેન",
+              "why"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "ભજિલિ",
+              "you worshiped"
+            ],
+            [
+              "તાંરે",
+              "to Him"
+            ],
+            [
+              "કરિઽ",
+              "having made"
+            ],
+            [
+              "નીરે",
+              "in water"
+            ],
+            [
+              "બાસ",
+              "residence"
+            ],
+            [
+              "ગેલ",
+              "gone"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "પિયાસ",
+              "thirst"
+            ],
+            [
+              "આપન",
+              "your own"
+            ],
+            [
+              "કરમ",
+              "activities"
+            ],
+            [
+              "ફેરે",
+              "in consequence"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अबतार सार,    गॊराअबतार,",
+            "कॆन ना भजिलि तांरॆ",
+            "करिऽ नीरॆ बास,    गॆल ना पियास,",
+            "आपन करम फॆरॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অবতার সার,    গোরাঅবতার,",
+            "কেন না ভজিলি তাংরে",
+            "করিঽ নীরে বাস,    গেল না পিয়াস,",
+            "আপন করম ফেরে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅବତାର ସାର,    ଗୋରାଅବତାର,",
+            "କେନ ନା ଭଜିଲି ତାଂରେ",
+            "କରିଽ ନୀରେ ବାସ,    ଗେଲ ନା ପିୟାସ,",
+            "ଆପନ କରମ ଫେରେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અબતાર સાર,    ગોરાઅબતાર,",
+            "કેન ના ભજિલિ તાંરે",
+            "કરિઽ નીરે બાસ,    ગેલ ના પિયાસ,",
+            "આપન કરમ ફેરે ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "abatāra sāra,    gorā-abatāra,",
+            "kena nā bhajili tā̃re",
+            "kari’ nīre bāsa,    gela nā piyāsa,",
+            "āpana karama phere 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅಬತಾರ ಸಾರ,    ಗೊರಾಅಬತಾರ,",
+            "ಕೆನ ನಾ ಭಜಿಲಿ ತಾಂರೆ",
+            "ಕರಿಽ ನೀರೆ ಬಾಸ,    ಗೆಲ ನಾ ಪಿಯಾಸ,",
+            "ಆಪನ ಕರಮ ಫೆರೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అబతార సార,    గొరాఅబతార,",
+            "కెన నా భజిలి తాంరె",
+            "కరిఽ నీరె బాస,    గెల నా పియాస,",
+            "ఆపన కరమ ఫెరె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "абата̄ра са̄ра,    го̆ра̄абата̄ра,",
+            "кэ̆на на̄ бхаджили та̄м̣рэ̆",
+            "кари' нӣрэ̆ ба̄са,    гэ̆ла на̄ пийа̄са,",
+            "а̄пана карама пхэ̆рэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അബതാര സാര,    ഗൊരാഅബതാര,",
+            "കെന നാ ഭജിലി താംരെ",
+            "കരിഽ നീരെ ബാസ,    ഗെല നാ പിയാസ,",
+            "ആപന കരമ ഫെരെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அப³தார ஸார,    கொ³ராஅப³தார,",
+            "கென நா ப⁴ஜிலி தாம்ʼரெ",
+            "கரி(அ) நீரெ பா³ஸ,    கெ³ல நா பியாஸ,",
+            "ஆபன கரம பெ²ரெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "abatāra sāra,    gorā-abatāra,",
+            "kena nā bhajili tā̃re",
+            "kari’ nīre bāsa,    gela nā piyāsa,",
+            "āpana karama phere 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "abatāra sāra,    gorā-abatāra,",
+            "kena nā bhajili tā̃re",
+            "kari’ nīre bāsa,    gela nā piyāsa,",
+            "āpana karama phere 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "kaṇṭakera taru,    sadāi sebili (mana),",
+        "amṛta pāibāra āśe",
+        "prema[FLAG_HYPHEN_ALPHA]kalpataru,    śrīgaurāṅga āmāra,",
+        "tā̃hāre bhābili biṣe 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O mind, you always serve thorn trees with the hope of obtaining nectarean fruits. My Gaurāṅga is a wish-fulfilling tree of prema, but you consider Him to be poison."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "kaṇṭakera",
+              "of thorns"
+            ],
+            [
+              "taru",
+              "tree"
+            ],
+            [
+              "sadāi",
+              "always"
+            ],
+            [
+              "sebili",
+              "you served"
+            ],
+            [
+              "(mana)",
+              "O mind"
+            ],
+            [
+              "amṛta",
+              "nectar"
+            ],
+            [
+              "pāibāra",
+              "of obtaining"
+            ],
+            [
+              "āśe",
+              "with desire"
+            ],
+            [
+              "prema",
+              "divine love"
+            ],
+            [
+              "kalpataru",
+              "wish-fulfilling tree"
+            ],
+            [
+              "śrīgaurāṅga",
+              "Śrī Gaurāṅga"
+            ],
+            [
+              "āmāra",
+              "my"
+            ],
+            [
+              "tā̃hāre",
+              "to Him"
+            ],
+            [
+              "bhābili",
+              "you considered"
+            ],
+            [
+              "biṣe",
+              "as poison"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "कण्टकॆर",
+              "of thorns"
+            ],
+            [
+              "तरु",
+              "tree"
+            ],
+            [
+              "सदाइ",
+              "always"
+            ],
+            [
+              "सॆबिलि",
+              "you served"
+            ],
+            [
+              "(मन)",
+              "O mind"
+            ],
+            [
+              "अम्ड़्त",
+              "nectar"
+            ],
+            [
+              "पाइबार",
+              "of obtaining"
+            ],
+            [
+              "आशॆ",
+              "with desire"
+            ],
+            [
+              "प्रॆम",
+              "divine love"
+            ],
+            [
+              "कल्पतरु",
+              "wish-fulfilling tree"
+            ],
+            [
+              "श्रीगौराङ्ग",
+              "Śrī Gaurāṅga"
+            ],
+            [
+              "आमार",
+              "my"
+            ],
+            [
+              "तांहारॆ",
+              "to Him"
+            ],
+            [
+              "भाबिलि",
+              "you considered"
+            ],
+            [
+              "बिषॆ",
+              "as poison"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "কণ্টকের",
+              "of thorns"
+            ],
+            [
+              "তরু",
+              "tree"
+            ],
+            [
+              "সদাই",
+              "always"
+            ],
+            [
+              "সেবিলি",
+              "you served"
+            ],
+            [
+              "(মন)",
+              "O mind"
+            ],
+            [
+              "অম্ড়্ত",
+              "nectar"
+            ],
+            [
+              "পাইবার",
+              "of obtaining"
+            ],
+            [
+              "আশে",
+              "with desire"
+            ],
+            [
+              "প্রেম",
+              "divine love"
+            ],
+            [
+              "কল্পতরু",
+              "wish-fulfilling tree"
+            ],
+            [
+              "শ্রীগৌরাঙ্গ",
+              "Śrī Gaurāṅga"
+            ],
+            [
+              "আমার",
+              "my"
+            ],
+            [
+              "তাংহারে",
+              "to Him"
+            ],
+            [
+              "ভাবিলি",
+              "you considered"
+            ],
+            [
+              "বিষে",
+              "as poison"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "કણ્ટકેર",
+              "of thorns"
+            ],
+            [
+              "તરુ",
+              "tree"
+            ],
+            [
+              "સદાઇ",
+              "always"
+            ],
+            [
+              "સેબિલિ",
+              "you served"
+            ],
+            [
+              "(મન)",
+              "O mind"
+            ],
+            [
+              "અમ્ડ઼્ત",
+              "nectar"
+            ],
+            [
+              "પાઇબાર",
+              "of obtaining"
+            ],
+            [
+              "આશે",
+              "with desire"
+            ],
+            [
+              "પ્રેમ",
+              "divine love"
+            ],
+            [
+              "કલ્પતરુ",
+              "wish-fulfilling tree"
+            ],
+            [
+              "શ્રીગૌરાઙ્ગ",
+              "Śrī Gaurāṅga"
+            ],
+            [
+              "આમાર",
+              "my"
+            ],
+            [
+              "તાંહારે",
+              "to Him"
+            ],
+            [
+              "ભાબિલિ",
+              "you considered"
+            ],
+            [
+              "બિષે",
+              "as poison"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कण्टकॆर तरु,    सदाइ सॆबिलि (मन),",
+            "अम्ड़्त पाइबार आशॆ",
+            "प्रॆमकल्पतरु,    श्रीगौराङ्ग आमार,",
+            "तांहारॆ भाबिलि बिषॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কণ্টকের তরু,    সদাই সেবিলি (মন),",
+            "অম্ড়্ত পাইবার আশে",
+            "প্রেমকল্পতরু,    শ্রীগৌরাঙ্গ আমার,",
+            "তাংহারে ভাবিলি বিষে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କଣ୍ଟକେର ତରୁ,    ସଦାଇ ସେବିଲି (ମନ),",
+            "ଅମ୍ଡ଼୍ତ ପାଇବାର ଆଶେ",
+            "ପ୍ରେମକଲ୍ପତରୁ,    ଶ୍ରୀଗୌରାଙ୍ଗ ଆମାର,",
+            "ତାଂହାରେ ଭାବିଲି ବିଷେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કણ્ટકેર તરુ,    સદાઇ સેબિલિ (મન),",
+            "અમ્ડ઼્ત પાઇબાર આશે",
+            "પ્રેમકલ્પતરુ,    શ્રીગૌરાઙ્ગ આમાર,",
+            "તાંહારે ભાબિલિ બિષે ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kaṇṭakera taru,    sadāi sebili (mana),",
+            "amṛta pāibāra āśe",
+            "prema-kalpataru,    śrīgaurāṅga āmāra,",
+            "tā̃hāre bhābili biṣe 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕಂಟಕೆರ ತರು,    ಸದಾಇ ಸೆಬಿಲಿ (ಮನ),",
+            "ಅಂ‌ಡ಼್ತ ಪಾಇಬಾರ ಆಶೆ",
+            "ಪ್ರೆಮಕಲ್ಪತರು,    ಶ್ರೀಗೌರಾಂಗ ಆಮಾರ,",
+            "ತಾಂಹಾರೆ ಭಾಬಿಲಿ ಬಿಷೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కంటకెర తరు,    సదాఇ సెబిలి (మన),",
+            "అమ్డ్త పాఇబార ఆశె",
+            "ప్రెమకల్పతరు,    శ్రీగౌరాంగ ఆమార,",
+            "తాంహారె భాబిలి బిషె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кан̣т̣акэ̆ра тару,    сада̄и сэ̆били (мана),",
+            "амр̤та па̄иба̄ра а̄ш́э̆",
+            "прэ̆макалпатару,    ш́рӣгаура̄н̇га а̄ма̄ра,",
+            "та̄м̣ха̄рэ̆ бха̄били бишэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കണ്ടകെര തരു,    സദാഇ സെബിലി (മന),",
+            "അമ്ഡ്ത പാഇബാര ആശെ",
+            "പ്രെമകല്പതരു,    ശ്രീഗൗരാംഗ ആമാര,",
+            "താംഹാരെ ഭാബിലി ബിഷെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கண்டகெர தரு,    ஸதா³இ ஸெபி³லி (மன),",
+            "அம்ஃட்²த பாஇபா³ர ஆஶெ",
+            "ப்ரெமகல்பதரு,    ஶ்ரீகௌ³ராங்க³ ஆமார,",
+            "தாம்ʼஹாரெ பா⁴பி³லி பி³ஷெ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kaṇṭakera taru,    sadāi sebili (mana),",
+            "amṛta pāibāra āśe",
+            "prema-kalpataru,    śrīgaurāṅga āmāra,",
+            "tā̃hāre bhābili biṣe 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kaṇṭakera taru,    sadāi sebili (mana),",
+            "amṛta pāibāra āśe",
+            "prema-kalpataru,    śrīgaurāṅga āmāra,",
+            "tā̃hāre bhābili biṣe 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "saurabhera āśe,    palāśa śũkili (mana),",
+        "nāśāte paśila kīṭa",
+        "ikṣudaṇḍa bhābi’,    kāṭha cuṣili (mana),",
+        "kemane pāibi miṭha 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O mind, searching for a sweet fragrance, you smell the palāśa flower [which has no scent], and an insect has entered your nose. You suck on dry wood, mistaking it for sugar cane, so how can you get any sweetness?"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "saurabhera",
+              "of sweet fragrance"
+            ],
+            [
+              "āśe",
+              "with desire"
+            ],
+            [
+              "palāśa",
+              "the palāśa flower"
+            ],
+            [
+              "śũkili",
+              "you smelt"
+            ],
+            [
+              "(mana)",
+              "O mind"
+            ],
+            [
+              "nāśāte",
+              "in nose"
+            ],
+            [
+              "paśila",
+              "entered"
+            ],
+            [
+              "kīṭa",
+              "insect"
+            ],
+            [
+              "ikṣudaṇḍa",
+              "sugar cane"
+            ],
+            [
+              "bhābi’",
+              "having considered"
+            ],
+            [
+              "kāṭha",
+              "wood"
+            ],
+            [
+              "cuṣili",
+              "you sucked"
+            ],
+            [
+              "(mana)",
+              "O mind"
+            ],
+            [
+              "kemane",
+              "how"
+            ],
+            [
+              "pāibi",
+              "you will get"
+            ],
+            [
+              "miṭha",
+              "sweetness"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "सौरभॆर",
+              "of sweet fragrance"
+            ],
+            [
+              "आशॆ",
+              "with desire"
+            ],
+            [
+              "पलाश",
+              "the palāśa flower"
+            ],
+            [
+              "शुंकिलि",
+              "you smelt"
+            ],
+            [
+              "(मन)",
+              "O mind"
+            ],
+            [
+              "नाशातॆ",
+              "in nose"
+            ],
+            [
+              "पशिल",
+              "entered"
+            ],
+            [
+              "कीट",
+              "insect"
+            ],
+            [
+              "इक्षुदण्ड",
+              "sugar cane"
+            ],
+            [
+              "भाबिऽ",
+              "having considered"
+            ],
+            [
+              "काठ",
+              "wood"
+            ],
+            [
+              "चुषिलि",
+              "you sucked"
+            ],
+            [
+              "(मन)",
+              "O mind"
+            ],
+            [
+              "कॆमनॆ",
+              "how"
+            ],
+            [
+              "पाइबि",
+              "you will get"
+            ],
+            [
+              "मिठ",
+              "sweetness"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "সৌরভের",
+              "of sweet fragrance"
+            ],
+            [
+              "আশে",
+              "with desire"
+            ],
+            [
+              "পলাশ",
+              "the palāśa flower"
+            ],
+            [
+              "শুঙ্কিলি",
+              "you smelt"
+            ],
+            [
+              "(মন)",
+              "O mind"
+            ],
+            [
+              "নাশাতে",
+              "in nose"
+            ],
+            [
+              "পশিল",
+              "entered"
+            ],
+            [
+              "কীট",
+              "insect"
+            ],
+            [
+              "ইক্ষুদণ্ড",
+              "sugar cane"
+            ],
+            [
+              "ভাবিঽ",
+              "having considered"
+            ],
+            [
+              "কাঠ",
+              "wood"
+            ],
+            [
+              "চুষিলি",
+              "you sucked"
+            ],
+            [
+              "(মন)",
+              "O mind"
+            ],
+            [
+              "কেমনে",
+              "how"
+            ],
+            [
+              "পাইবি",
+              "you will get"
+            ],
+            [
+              "মিঠ",
+              "sweetness"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "સૌરભેર",
+              "of sweet fragrance"
+            ],
+            [
+              "આશે",
+              "with desire"
+            ],
+            [
+              "પલાશ",
+              "the palāśa flower"
+            ],
+            [
+              "શુંકિલિ",
+              "you smelt"
+            ],
+            [
+              "(મન)",
+              "O mind"
+            ],
+            [
+              "નાશાતે",
+              "in nose"
+            ],
+            [
+              "પશિલ",
+              "entered"
+            ],
+            [
+              "કીટ",
+              "insect"
+            ],
+            [
+              "ઇક્ષુદણ્ડ",
+              "sugar cane"
+            ],
+            [
+              "ભાબિઽ",
+              "having considered"
+            ],
+            [
+              "કાઠ",
+              "wood"
+            ],
+            [
+              "ચુષિલિ",
+              "you sucked"
+            ],
+            [
+              "(મન)",
+              "O mind"
+            ],
+            [
+              "કેમને",
+              "how"
+            ],
+            [
+              "પાઇબિ",
+              "you will get"
+            ],
+            [
+              "મિઠ",
+              "sweetness"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सौरभॆर आशॆ,    पलाश शुंकिलि (मन),",
+            "नाशातॆ पशिल कीट",
+            "इक्षुदण्ड भाबिऽ,    काठ चुषिलि (मन),",
+            "कॆमनॆ पाइबि मिठ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সৌরভের আশে,    পলাশ শুঙ্কিলি (মন),",
+            "নাশাতে পশিল কীট",
+            "ইক্ষুদণ্ড ভাবিঽ,    কাঠ চুষিলি (মন),",
+            "কেমনে পাইবি মিঠ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସୌରଭେର ଆଶେ,    ପଲାଶ ଶୁଙ୍କିଲି (ମନ),",
+            "ନାଶାତେ ପଶିଲ କୀଟ",
+            "ଇକ୍ଷୁଦଣ୍ଡ ଭାବିଽ,    କାଠ ଚୁଷିଲି (ମନ),",
+            "କେମନେ ପାଇବି ମିଠ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સૌરભેર આશે,    પલાશ શુંકિલિ (મન),",
+            "નાશાતે પશિલ કીટ",
+            "ઇક્ષુદણ્ડ ભાબિઽ,    કાઠ ચુષિલિ (મન),",
+            "કેમને પાઇબિ મિઠ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "saurabhera āśe,    palāśa śũkili (mana),",
+            "nāśāte paśila kīṭa",
+            "ikṣudaṇḍa bhābi’,    kāṭha cuṣili (mana),",
+            "kemane pāibi miṭha 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸೌರಭೆರ ಆಶೆ,    ಪಲಾಶ ಶುಂಕಿಲಿ (ಮನ),",
+            "ನಾಶಾತೆ ಪಶಿಲ ಕೀಟ",
+            "ಇಕ್ಷುದಂಡ ಭಾಬಿಽ,    ಕಾಠ ಚುಷಿಲಿ (ಮನ),",
+            "ಕೆಮನೆ ಪಾಇಬಿ ಮಿಠ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సౌరభెర ఆశె,    పలాశ శుంకిలి (మన),",
+            "నాశాతె పశిల కీట",
+            "ఇక్షుదండ భాబిఽ,    కాఠ చుషిలి (మన),",
+            "కెమనె పాఇబి మిఠ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "саурабхэ̆ра а̄ш́э̆,    пала̄ш́а ш́ум̣кили (мана),",
+            "на̄ш́а̄тэ̆ паш́ила кӣт̣а",
+            "икшудан̣д̣а бха̄би',    ка̄т̣ха чушили (мана),",
+            "кэ̆манэ̆ па̄иби мит̣ха 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സൗരഭെര ആശെ,    പലാശ ശുങ്കിലി (മന),",
+            "നാശാതെ പശില കീട",
+            "ഇക്ഷുദണ്ഡ ഭാബിഽ,    കാഠ ചുഷിലി (മന),",
+            "കെമനെ പാഇബി മിഠ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸௌரபெ⁴ர ஆஶெ,    பலாஶ ஶுங்கிலி (மன),",
+            "நாஶாதெ பஶில கீட",
+            "இக்ஷுத³ண்ட³ பா⁴பி³(அ),    காட² சுஷிலி (மன),",
+            "கெமனெ பாஇபி³ மிட² 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "saurabhera āśe,    palāśa śũkili (mana),",
+            "nāśāte paśila kīṭa",
+            "ikṣudaṇḍa bhābi’,    kāṭha cuṣili (mana),",
+            "kemane pāibi miṭha 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "saurabhera āśe,    palāśa śũkili (mana),",
+            "nāśāte paśila kīṭa",
+            "ikṣudaṇḍa bhābi’,    kāṭha cuṣili (mana),",
+            "kemane pāibi miṭha 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "hāra baliyā,    galāya parili (mana),",
+        "śamana[FLAG_HYPHEN_ALPHA]kiṅkara sāpa",
+        "śītala baliyā,    āguna pohāli (mana),",
+        "pāili bajara tāpa 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O mind, thinking it to be a necklace, you have put around your neck a snake that is the servant of Yama. You basked in fire, thinking it to be cool, and thus you suffer excruciating heat."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "hāra",
+              "necklace"
+            ],
+            [
+              "baliyā",
+              "having considered"
+            ],
+            [
+              "galāya",
+              "on neck"
+            ],
+            [
+              "parili",
+              "you put on"
+            ],
+            [
+              "(mana)",
+              "O mind"
+            ],
+            [
+              "śamana",
+              "the Lord of Death"
+            ],
+            [
+              "kiṅkara",
+              "servant"
+            ],
+            [
+              "sāpa",
+              "snake"
+            ],
+            [
+              "śītala",
+              "cool"
+            ],
+            [
+              "baliyā",
+              "having considered"
+            ],
+            [
+              "āguna",
+              "fire"
+            ],
+            [
+              "pohāli",
+              "you basked"
+            ],
+            [
+              "(mana)",
+              "O mind"
+            ],
+            [
+              "pāili",
+              "you got"
+            ],
+            [
+              "bajara",
+              "excruciating (lit. thunder)"
+            ],
+            [
+              "tāpa",
+              "heat"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "हार",
+              "necklace"
+            ],
+            [
+              "बलिया",
+              "having considered"
+            ],
+            [
+              "गलाय",
+              "on neck"
+            ],
+            [
+              "परिलि",
+              "you put on"
+            ],
+            [
+              "(मन)",
+              "O mind"
+            ],
+            [
+              "शमन",
+              "the Lord of Death"
+            ],
+            [
+              "किङ्कर",
+              "servant"
+            ],
+            [
+              "साप",
+              "snake"
+            ],
+            [
+              "शीतल",
+              "cool"
+            ],
+            [
+              "बलिया",
+              "having considered"
+            ],
+            [
+              "आगुन",
+              "fire"
+            ],
+            [
+              "पॊहालि",
+              "you basked"
+            ],
+            [
+              "(मन)",
+              "O mind"
+            ],
+            [
+              "पाइलि",
+              "you got"
+            ],
+            [
+              "बजर",
+              "excruciating (lit. thunder)"
+            ],
+            [
+              "ताप",
+              "heat"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "হার",
+              "necklace"
+            ],
+            [
+              "বলিয়া",
+              "having considered"
+            ],
+            [
+              "গলায়",
+              "on neck"
+            ],
+            [
+              "পরিলি",
+              "you put on"
+            ],
+            [
+              "(মন)",
+              "O mind"
+            ],
+            [
+              "শমন",
+              "the Lord of Death"
+            ],
+            [
+              "কিঙ্কর",
+              "servant"
+            ],
+            [
+              "সাপ",
+              "snake"
+            ],
+            [
+              "শীতল",
+              "cool"
+            ],
+            [
+              "বলিয়া",
+              "having considered"
+            ],
+            [
+              "আগুন",
+              "fire"
+            ],
+            [
+              "পোহালি",
+              "you basked"
+            ],
+            [
+              "(মন)",
+              "O mind"
+            ],
+            [
+              "পাইলি",
+              "you got"
+            ],
+            [
+              "বজর",
+              "excruciating (lit. thunder)"
+            ],
+            [
+              "তাপ",
+              "heat"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "હાર",
+              "necklace"
+            ],
+            [
+              "બલિયા",
+              "having considered"
+            ],
+            [
+              "ગલાય",
+              "on neck"
+            ],
+            [
+              "પરિલિ",
+              "you put on"
+            ],
+            [
+              "(મન)",
+              "O mind"
+            ],
+            [
+              "શમન",
+              "the Lord of Death"
+            ],
+            [
+              "કિઙ્કર",
+              "servant"
+            ],
+            [
+              "સાપ",
+              "snake"
+            ],
+            [
+              "શીતલ",
+              "cool"
+            ],
+            [
+              "બલિયા",
+              "having considered"
+            ],
+            [
+              "આગુન",
+              "fire"
+            ],
+            [
+              "પોહાલિ",
+              "you basked"
+            ],
+            [
+              "(મન)",
+              "O mind"
+            ],
+            [
+              "પાઇલિ",
+              "you got"
+            ],
+            [
+              "બજર",
+              "excruciating (lit. thunder)"
+            ],
+            [
+              "તાપ",
+              "heat"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हार बलिया,    गलाय परिलि (मन),",
+            "शमनकिङ्कर साप",
+            "शीतल बलिया,    आगुन पॊहालि (मन),",
+            "पाइलि बजर ताप ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হার বলিয়া,    গলায় পরিলি (মন),",
+            "শমনকিঙ্কর সাপ",
+            "শীতল বলিয়া,    আগুন পোহালি (মন),",
+            "পাইলি বজর তাপ ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହାର ବଲିୟା,    ଗଲାୟ ପରିଲି (ମନ),",
+            "ଶମନକିଙ୍କର ସାପ",
+            "ଶୀତଲ ବଲିୟା,    ଆଗୁନ ପୋହାଲି (ମନ),",
+            "ପାଇଲି ବଜର ତାପ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હાર બલિયા,    ગલાય પરિલિ (મન),",
+            "શમનકિઙ્કર સાપ",
+            "શીતલ બલિયા,    આગુન પોહાલિ (મન),",
+            "પાઇલિ બજર તાપ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hāra baliyā,    galāya parili (mana),",
+            "śamana-kiṅkara sāpa",
+            "śītala baliyā,    āguna pohāli (mana),",
+            "pāili bajara tāpa 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹಾರ ಬಲಿಯಾ,    ಗಲಾಯ ಪರಿಲಿ (ಮನ),",
+            "ಶಮನಕಿಂಕರ ಸಾಪ",
+            "ಶೀತಲ ಬಲಿಯಾ,    ಆಗುನ ಪೊಹಾಲಿ (ಮನ),",
+            "ಪಾಇಲಿ ಬಜರ ತಾಪ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హార బలియా,    గలాయ పరిలి (మన),",
+            "శమనకింకర సాప",
+            "శీతల బలియా,    ఆగున పొహాలి (మన),",
+            "పాఇలి బజర తాప 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ха̄ра балийа̄,    гала̄йа парили (мана),",
+            "ш́аманакин̇кара са̄па",
+            "ш́ӣтала балийа̄,    а̄гуна по̆ха̄ли (мана),",
+            "па̄или баджара та̄па 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹാര ബലിയാ,    ഗലായ പരിലി (മന),",
+            "ശമനകിങ്കര സാപ",
+            "ശീതല ബലിയാ,    ആഗുന പൊഹാലി (മന),",
+            "പാഇലി ബജര താപ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹார ப³லியா,    க³லாய பரிலி (மன),",
+            "ஶமனகிங்கர ஸாப",
+            "ஶீதல ப³லியா,    ஆகு³ன பொஹாலி (மன),",
+            "பாஇலி ப³ஜர தாப 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hāra baliyā,    galāya parili (mana),",
+            "śamana-kiṅkara sāpa",
+            "śītala baliyā,    āguna pohāli (mana),",
+            "pāili bajara tāpa 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hāra baliyā,    galāya parili (mana),",
+            "śamana-kiṅkara sāpa",
+            "śītala baliyā,    āguna pohāli (mana),",
+            "pāili bajara tāpa 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "saṁsāra bhajili,    śrīgaurāṅga bhulili,",
+        "nā śunili sādhura kathā",
+        "iha[FLAG_HYPHEN_ALPHA]parakāla,    du’kāla khoyāli (mana),",
+        "khāili āpana māthā 5"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O mind, you worship material existence, forgetting Śrī Gaurāṅga, and you fail to heed the advice of devotees. You have wasted both this life and the next, and thus you have destroyed your own self."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "saṁsāra",
+              "material existence"
+            ],
+            [
+              "bhajili",
+              "you worshiped"
+            ],
+            [
+              "śrīgaurāṅga",
+              "Śrī Gaurāṅga"
+            ],
+            [
+              "bhulili",
+              "you forgot"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "śunili",
+              "you listened"
+            ],
+            [
+              "sādhura",
+              "devotee’s"
+            ],
+            [
+              "kathā",
+              "words"
+            ],
+            [
+              "iha",
+              "this"
+            ],
+            [
+              "parakāla",
+              "the hereafter, the beyond"
+            ],
+            [
+              "du’kāla",
+              "both + times (this life and the next)"
+            ],
+            [
+              "khoyāli",
+              "you lost, you wasted"
+            ],
+            [
+              "(mana)",
+              "O mind"
+            ],
+            [
+              "khāili",
+              "you caused to spoil or ruin"
+            ],
+            [
+              "āpana",
+              "your own self"
+            ],
+            [
+              "māthā",
+              "head [from Samsad Bengali dictionary: māthā khāoyā v. (fig.) to ruin. to spoil. (fig.) to deprave."
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "संसार",
+              "material existence"
+            ],
+            [
+              "भजिलि",
+              "you worshiped"
+            ],
+            [
+              "श्रीगौराङ्ग",
+              "Śrī Gaurāṅga"
+            ],
+            [
+              "भुलिलि",
+              "you forgot"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "शुनिलि",
+              "you listened"
+            ],
+            [
+              "साधुर",
+              "devotee’s"
+            ],
+            [
+              "कथा",
+              "words"
+            ],
+            [
+              "इह",
+              "this"
+            ],
+            [
+              "परकाल",
+              "the hereafter, the beyond"
+            ],
+            [
+              "दुऽकाल",
+              "both + times (this life and the next)"
+            ],
+            [
+              "खॊयालि",
+              "you lost, you wasted"
+            ],
+            [
+              "(मन)",
+              "O mind"
+            ],
+            [
+              "खाइलि",
+              "you caused to spoil or ruin"
+            ],
+            [
+              "आपन",
+              "your own self"
+            ],
+            [
+              "माथा",
+              "head [from Samsad Bengali dictionary: māthā khāoyā v. (fig.) to ruin. to spoil. (fig.) to deprave."
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "সংসার",
+              "material existence"
+            ],
+            [
+              "ভজিলি",
+              "you worshiped"
+            ],
+            [
+              "শ্রীগৌরাঙ্গ",
+              "Śrī Gaurāṅga"
+            ],
+            [
+              "ভুলিলি",
+              "you forgot"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "শুনিলি",
+              "you listened"
+            ],
+            [
+              "সাধুর",
+              "devotee’s"
+            ],
+            [
+              "কথা",
+              "words"
+            ],
+            [
+              "ইহ",
+              "this"
+            ],
+            [
+              "পরকাল",
+              "the hereafter, the beyond"
+            ],
+            [
+              "দুঽকাল",
+              "both + times (this life and the next)"
+            ],
+            [
+              "খোয়ালি",
+              "you lost, you wasted"
+            ],
+            [
+              "(মন)",
+              "O mind"
+            ],
+            [
+              "খাইলি",
+              "you caused to spoil or ruin"
+            ],
+            [
+              "আপন",
+              "your own self"
+            ],
+            [
+              "মাথা",
+              "head [from Samsad Bengali dictionary: māthā khāoyā v. (fig.) to ruin. to spoil. (fig.) to deprave."
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "સંસાર",
+              "material existence"
+            ],
+            [
+              "ભજિલિ",
+              "you worshiped"
+            ],
+            [
+              "શ્રીગૌરાઙ્ગ",
+              "Śrī Gaurāṅga"
+            ],
+            [
+              "ભુલિલિ",
+              "you forgot"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "શુનિલિ",
+              "you listened"
+            ],
+            [
+              "સાધુર",
+              "devotee’s"
+            ],
+            [
+              "કથા",
+              "words"
+            ],
+            [
+              "ઇહ",
+              "this"
+            ],
+            [
+              "પરકાલ",
+              "the hereafter, the beyond"
+            ],
+            [
+              "દુઽકાલ",
+              "both + times (this life and the next)"
+            ],
+            [
+              "ખોયાલિ",
+              "you lost, you wasted"
+            ],
+            [
+              "(મન)",
+              "O mind"
+            ],
+            [
+              "ખાઇલિ",
+              "you caused to spoil or ruin"
+            ],
+            [
+              "આપન",
+              "your own self"
+            ],
+            [
+              "માથા",
+              "head [from Samsad Bengali dictionary: māthā khāoyā v. (fig.) to ruin. to spoil. (fig.) to deprave."
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "संसार भजिलि,    श्रीगौराङ्ग भुलिलि,",
+            "ना शुनिलि साधुर कथा",
+            "इहपरकाल,    दुऽकाल खॊयालि (मन),",
+            "खाइलि आपन माथा ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সংসার ভজিলি,    শ্রীগৌরাঙ্গ ভুলিলি,",
+            "না শুনিলি সাধুর কথা",
+            "ইহপরকাল,    দুঽকাল খোয়ালি (মন),",
+            "খাইলি আপন মাথা ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସଂସାର ଭଜିଲି,    ଶ୍ରୀଗୌରାଙ୍ଗ ଭୁଲିଲି,",
+            "ନା ଶୁନିଲି ସାଧୁର କଥା",
+            "ଇହପରକାଲ,    ଦୁଽକାଲ ଖୋୟାଲି (ମନ),",
+            "ଖାଇଲି ଆପନ ମାଥା ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સંસાર ભજિલિ,    શ્રીગૌરાઙ્ગ ભુલિલિ,",
+            "ના શુનિલિ સાધુર કથા",
+            "ઇહપરકાલ,    દુઽકાલ ખોયાલિ (મન),",
+            "ખાઇલિ આપન માથા ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "saṁsāra bhajili,    śrīgaurāṅga bhulili,",
+            "nā śunili sādhura kathā",
+            "iha-parakāla,    du’kāla khoyāli (mana),",
+            "khāili āpana māthā 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸಂಸಾರ ಭಜಿಲಿ,    ಶ್ರೀಗೌರಾಂಗ ಭುಲಿಲಿ,",
+            "ನಾ ಶುನಿಲಿ ಸಾಧುರ ಕಥಾ",
+            "ಇಹಪರಕಾಲ,    ದುಽಕಾಲ ಖೊಯಾಲಿ (ಮನ),",
+            "ಖಾಇಲಿ ಆಪನ ಮಾಥಾ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సంసార భజిలి,    శ్రీగౌరాంగ భులిలి,",
+            "నా శునిలి సాధుర కథా",
+            "ఇహపరకాల,    దుఽకాల ఖొయాలి (మన),",
+            "ఖాఇలి ఆపన మాథా 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сам̣са̄ра бхаджили,    ш́рӣгаура̄н̇га бхулили,",
+            "на̄ ш́унили са̄дхура катха̄",
+            "ихапарака̄ла,    ду'ка̄ла кхо̆йа̄ли (мана),",
+            "кха̄или а̄пана ма̄тха̄ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സംസാര ഭജിലി,    ശ്രീഗൗരാംഗ ഭുലിലി,",
+            "നാ ശുനിലി സാധുര കഥാ",
+            "ഇഹപരകാല,    ദുഽകാല ഖൊയാലി (മന),",
+            "ഖാഇലി ആപന മാഥാ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸம்ʼஸார ப⁴ஜிலி,    ஶ்ரீகௌ³ராங்க³ பு⁴லிலி,",
+            "நா ஶுனிலி ஸாது⁴ர கதா²",
+            "இஹபரகால,    து³(அ)கால கொ²யாலி (மன),",
+            "கா²இலி ஆபன மாதா² 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "saṁsāra bhajili,    śrīgaurāṅga bhulili,",
+            "nā śunili sādhura kathā",
+            "iha-parakāla,    du’kāla khoyāli (mana),",
+            "khāili āpana māthā 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "saṁsāra bhajili,    śrīgaurāṅga bhulili,",
+            "nā śunili sādhura kathā",
+            "iha-parakāla,    du’kāla khoyāli (mana),",
+            "khāili āpana māthā 5"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "krsn-1",
+      "filename": "GH39-krsn-1.mp3",
+      "artist": "Krsnadas das"
+    },
+    {
+      "uid": "tama-1",
+      "filename": "GH39-tama-1.mp3",
+      "artist": "Tamal Krsna das"
+    },
+    {
+      "uid": "tama-2",
+      "filename": "GH39-tama-2.mp3",
+      "artist": "Tamal Krsna das"
+    }
+  ],
+  "tags": [
+    "Firm Faith in Śrī Gaurāṅga"
+  ]
+}

@@ -1,6 +1,7 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
 import androidx.compose.foundation.background
+import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
@@ -9,6 +10,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.painter.ColorPainter
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -16,154 +18,125 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil3.compose.AsyncImage
-import com.gaudiyakirtan.myapplication.models.Book
+import com.gaudiyakirtan.data.ImageConfig
+import com.gaudiyakirtan.myapplication.models.SongGroup
+import com.gaudiyakirtan.myapplication.models.songCount
+import com.gaudiyakirtan.myapplication.models.title
 import com.gaudiyakirtan.myapplication.ui.theme.getMediaColor
+import com.gaudiyakirtan.myapplication.ui.theme.parseHexColor
 
+/**
+ * A Book [SongGroup] card (docs/data/collections.md `SongGroup(kind = book)`): cover art when the
+ * bucket has one for this book (collections.md "Cover images", `most slugs 404`), falling back to
+ * the group's own pipeline `color` (or, failing that, a deterministic [getMediaColor]-derived one)
+ * -- Coil's `error` painter makes that fallback automatic and graceful on a load failure, so the
+ * same `AsyncImage` call covers both the `gaura`/`nitai`/`radha` hits and the (expected) 404s.
+ */
 @Composable
 fun BookCard(
-    book: Book,
-    onClick: () -> Unit = {},
-    compactSize: Boolean = false
+    group: SongGroup,
+    onClick: () -> Unit = {}
 ) {
-    // Get the media color for this book (will be used for placeholder)
-    val mediaColor = getMediaColor(book.title)
-    
+    val title = group.title
+    val fallbackColor = parseHexColor(group.color) ?: getMediaColor(title)
+    val coverUrl = ImageConfig.bookCoverUrl(ImageConfig.bookSlugFromGroupUid(group.uid))
+
     Box(
         modifier = Modifier
             .width(144.dp)
             .height(192.dp)
             .clip(MaterialTheme.shapes.medium)
+            .clickable(onClick = onClick)
     ) {
-        // Background Image Layer with Placeholder
-        if (book.image != null) {
-            AsyncImage(
-                model = book.image,
-                contentDescription = book.title,
-                contentScale = ContentScale.Crop,
-                modifier = Modifier.fillMaxSize()
-            )
-        } else {
+        // Background layer: attempt the bucket cover, gracefully falling back to the group's color
+        // on any load failure (missing/404 -- expected for most books per collections.md).
+        AsyncImage(
+            model = coverUrl,
+            contentDescription = title,
+            contentScale = ContentScale.Crop,
+            placeholder = ColorPainter(fallbackColor),
+            error = ColorPainter(fallbackColor),
+            modifier = Modifier.fillMaxSize()
+        )
+
+        GradientOverlays(fallbackColor)
+
+        // Song-count badge
+        val songCount = group.songCount
+        if (songCount > 0) {
             Box(
                 modifier = Modifier
-                    .fillMaxSize()
-                    .background(mediaColor)
-            )
-        }
-
-        // Gradient Overlays Layer
-        GradientOverlays(book)
-        
-        // Metadata badges
-        Box(
-            modifier = Modifier
-                .align(Alignment.TopEnd)
-                .padding(12.dp)
-        ) {
-            Column(
-                horizontalAlignment = Alignment.End,
-                verticalArrangement = Arrangement.spacedBy(6.dp)
+                    .align(Alignment.TopEnd)
+                    .padding(12.dp)
             ) {
-                // Song count badge
-                book.songCount?.let { songCount ->
-                    if (songCount > 0) {
-                        Tag(
-                            text = "$songCount songs",
-                            variant = TagVariant.Highlight,
-                            size = TagSize.Small
-                        )
-                    }
-                }
-                
-                // Year badge
-                book.year?.let { year ->
-                    Tag(
-                        text = year,
-                        variant = TagVariant.Black,
-                        size = TagSize.Small
-                    )
-                }
+                Tag(
+                    text = "$songCount songs",
+                    variant = TagVariant.Highlight,
+                    size = TagSize.Small
+                )
             }
         }
 
-        // Content Layer
+        // Title
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(start = 12.dp, end = 12.dp, bottom = 24.dp),
+                .padding(start = 12.dp, end = 12.dp, bottom = 16.dp),
             verticalArrangement = Arrangement.Bottom,
             horizontalAlignment = Alignment.Start
         ) {
             Text(
-                text = book.title,
+                text = title,
                 style = TextStyle(
                     fontSize = 18.sp,
                     fontWeight = FontWeight.Black,
                     lineHeight = 20.sp
                 ),
-                color = MaterialTheme.colorScheme.onPrimary,
+                // Always white -- sits over the book-cover media color + dark gradient scrim
+                // (see GradientOverlays below), independent of the Gaura/Shyam app theme.
+                color = Color.White,
                 maxLines = 3,
                 overflow = TextOverflow.Ellipsis,
-                modifier = Modifier.width(100.dp)
+                modifier = Modifier.width(120.dp)
             )
-            
-            Spacer(modifier = Modifier.height(2.dp))
-            
-            book.author?.let {
-                Text(
-                    text = it,
-                    style = TextStyle(
-                        fontSize = 10.sp,
-                        fontWeight = FontWeight.Medium,
-                    ),
-                    color = MaterialTheme.colorScheme.onPrimary,
-                    maxLines = 2,
-                    overflow = TextOverflow.Ellipsis,
-                    modifier = Modifier.width(100.dp)
-                )
-            }
         }
     }
 }
 
 @Composable
-private fun GradientOverlays(book: Book) {
-    // Get the background color based on current theme
+private fun GradientOverlays(mediaColor: Color) {
     val backgroundColor = MaterialTheme.colorScheme.background
 
     Box(modifier = Modifier.fillMaxSize()) {
-        // 1. Color Overlay Gradient - matching iOS implementation
+        // 1. Color overlay gradient -- matching iOS implementation
         Box(
             modifier = Modifier
                 .fillMaxSize()
                 .background(
                     Brush.verticalGradient(
-                        colors = listOf(
-                            getMediaColor(book.title),
-                            Color.Transparent
-                        ),
+                        colors = listOf(mediaColor, Color.Transparent),
                         startY = 0f,
                         endY = Float.POSITIVE_INFINITY / 2
                     )
                 )
         )
-        
-        // 2. Bottom to Top Black Gradient
+
+        // 2. Bottom-to-top black gradient -- a fixed dark scrim for title legibility over the cover
+        // art, independent of theme (onSurface flips light/dark with the app theme and would
+        // invert this into a *lightening* gradient in Shyam, which is wrong).
         Box(
             modifier = Modifier
                 .fillMaxSize()
                 .background(
                     Brush.verticalGradient(
-                        colors = listOf(
-                            MaterialTheme.colorScheme.onSurface.copy(alpha = 0.5f),
-                            Color.Transparent
-                        ),
+                        colors = listOf(Color.Black.copy(alpha = 0.5f), Color.Transparent),
                         startY = Float.POSITIVE_INFINITY,
                         endY = Float.POSITIVE_INFINITY / 2
                     )
                 )
         )
-        
-        // 3. Horizontal Left Gradient - similar to iOS horizontalLeftGradient
+
+        // 3. Horizontal left gradient -- similar to iOS horizontalLeftGradient
         Box(
             modifier = Modifier
                 .fillMaxSize()

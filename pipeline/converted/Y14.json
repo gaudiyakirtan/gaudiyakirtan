@@ -1,0 +1,547 @@
+{
+ "uid": "Y14",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হে! তোমার চরণপদ্ম"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari he! tomāra caraṇapadma"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari he!",
+    "tomāra caraṇapadma,    anurāga[FLAG_HYPHEN_ALPHA]sudhāsadma[FLAG_HYPHEN_ALPHA],",
+    "sāgaraśīkara yadi pāya",
+    "kona bhāgyabān jane,    kona kārya[FLAG_HYPHEN_ALPHA]saṁghaṭane,",
+    "tā’ra saba duḥkha dūre yāya 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हॆ!",
+      "तॊमार चरणपद्म,    अनुरागसुधासद्म,",
+      "सागरशीकर यदि पाय",
+      "कॊन भाग्यबान् जनॆ,    कॊन कार्यसंघटनॆ,",
+      "ताऽर सब दुःख दूरॆ याय १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হে!",
+      "তোমার চরণপদ্ম,    অনুরাগসুধাসদ্ম,",
+      "সাগরশীকর যদি পায়",
+      "কোন ভাগ্যবান্ জনে,    কোন কার্যসঙ্ঘটনে,",
+      "তাঽর সব দুঃখ দূরে যায় ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହେ!",
+      "ତୋମାର ଚରଣପଦ୍ମ,    ଅନୁରାଗସୁଧାସଦ୍ମ,",
+      "ସାଗରଶୀକର ଯଦି ପାୟ",
+      "କୋନ ଭାଗ୍ୟବାନ୍ ଜନେ,    କୋନ କାର୍ୟସଙ୍ଘଟନେ,",
+      "ତାଽର ସବ ଦୁଃଖ ଦୂରେ ଯାୟ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હે!",
+      "તોમાર ચરણપદ્મ,    અનુરાગસુધાસદ્મ,",
+      "સાગરશીકર યદિ પાય",
+      "કોન ભાગ્યબાન્ જને,    કોન કાર્યસંઘટને,",
+      "તાઽર સબ દુઃખ દૂરે યાય ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari he!",
+      "tomāra caraṇapadma,    anurāga-sudhāsadma-,",
+      "sāgaraśīkara yadi pāya",
+      "kona bhāgyabān jane,    kona kārya-saṁghaṭane,",
+      "tā’ra saba duḥkha dūre yāya 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹೆ!",
+      "ತೊಮಾರ ಚರಣಪದ್ಮ,    ಅನುರಾಗಸುಧಾಸದ್ಮ,",
+      "ಸಾಗರಶೀಕರ ಯದಿ ಪಾಯ",
+      "ಕೊನ ಭಾಗ್ಯಬಾನ್ ಜನೆ,    ಕೊನ ಕಾರ್ಯಸಂಘಟನೆ,",
+      "ತಾಽರ ಸಬ ದುಃಖ ದೂರೆ ಯಾಯ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హె!",
+      "తొమార చరణపద్మ,    అనురాగసుధాసద్మ,",
+      "సాగరశీకర యది పాయ",
+      "కొన భాగ్యబాన్ జనె,    కొన కార్యసంఘటనె,",
+      "తాఽర సబ దుఃఖ దూరె యాయ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хэ̆!",
+      "то̆ма̄ра чаран̣ападма,    анура̄гасудха̄садма,",
+      "са̄гараш́ӣкара йади па̄йа",
+      "ко̆на бха̄гйаба̄н джанэ̆,    ко̆на ка̄рйасам̣гхат̣анэ̆,",
+      "та̄'ра саба дух̣кха дӯрэ̆ йа̄йа 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹെ!",
+      "തൊമാര ചരണപദ്മ,    അനുരാഗസുധാസദ്മ,",
+      "സാഗരശീകര യദി പായ",
+      "കൊന ഭാഗ്യബാൻ ജനെ,    കൊന കാര്യസംഘടനെ,",
+      "താഽര സബ ദുഃഖ ദൂരെ യായ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹெ!",
+      "தொமார சரணபத்³ம,    அனுராக³ஸுதா⁴ஸத்³ம,",
+      "ஸாக³ரஶீகர யதி³ பாய",
+      "கொன பா⁴க்³யபா³ன் ஜனெ,    கொன கார்யஸங்க⁴டனெ,",
+      "தா(அ)ர ஸப³ து³꞉க² தூ³ரெ யாய 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari he!",
+      "tomāra caraṇapadma,    anurāga-sudhāsadma-,",
+      "sāgaraśīkara yadi pāya",
+      "kona bhāgyabān jane,    kona kārya-saṁghaṭane,",
+      "tā’ra saba duḥkha dūre yāya 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari he!",
+      "tomāra caraṇapadma,    anurāga-sudhāsadma-,",
+      "sāgaraśīkara yadi pāya",
+      "kona bhāgyabān jane,    kona kārya-saṁghaṭane,",
+      "tā’ra saba duḥkha dūre yāya 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "se[FLAG_HYPHEN_ALPHA]sudhā[FLAG_HYPHEN_ALPHA]samudrakaṇa,    saṁsārāgni[FLAG_HYPHEN_ALPHA]nirbāpaṇa,",
+    "kṣaṇeke kariyā phele tā’ra",
+    "parama[FLAG_HYPHEN_ALPHA]nirbṛti diyā,    tomāra caraṇe layā,",
+    "deya tabe ānanda apāra 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सॆसुधासमुद्रकण,    संसाराग्निनिर्बापण,",
+      "क्षणॆकॆ करिया फॆलॆ ताऽर",
+      "परमनिर्ब्ड़्ति दिया,    तॊमार चरणॆ लया,",
+      "दॆय तबॆ आनन्द अपार २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সেসুধাসমুদ্রকণ,    সংসারাগ্নিনির্বাপণ,",
+      "ক্ষণেকে করিয়া ফেলে তাঽর",
+      "পরমনির্ব্ড়্তি দিয়া,    তোমার চরণে লয়া,",
+      "দেয় তবে আনন্দ অপার ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସେସୁଧାସମୁଦ୍ରକଣ,    ସଂସାରାଗ୍ନିନିର୍ବାପଣ,",
+      "କ୍ଷଣେକେ କରିୟା ଫେଲେ ତାଽର",
+      "ପରମନିର୍ବ୍ଡ଼୍ତି ଦିୟା,    ତୋମାର ଚରଣେ ଲୟା,",
+      "ଦେୟ ତବେ ଆନନ୍ଦ ଅପାର ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સેસુધાસમુદ્રકણ,    સંસારાગ્નિનિર્બાપણ,",
+      "ક્ષણેકે કરિયા ફેલે તાઽર",
+      "પરમનિર્બ્ડ઼્તિ દિયા,    તોમાર ચરણે લયા,",
+      "દેય તબે આનન્દ અપાર ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "se-sudhā-samudrakaṇa,    saṁsārāgni-nirbāpaṇa,",
+      "kṣaṇeke kariyā phele tā’ra",
+      "parama-nirbṛti diyā,    tomāra caraṇe layā,",
+      "deya tabe ānanda apāra 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸೆಸುಧಾಸಮುದ್ರಕಣ,    ಸಂಸಾರಾಗ್ನಿನಿರ್ಬಾಪಣ,",
+      "ಕ್ಷಣೆಕೆ ಕರಿಯಾ ಫೆಲೆ ತಾಽರ",
+      "ಪರಮನಿರ್ಬ್‌ಡ಼್ತಿ ದಿಯಾ,    ತೊಮಾರ ಚರಣೆ ಲಯಾ,",
+      "ದೆಯ ತಬೆ ಆನಂದ ಅಪಾರ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సెసుధాసముద్రకణ,    సంసారాగ్నినిర్బాపణ,",
+      "క్షణెకె కరియా ఫెలె తాఽర",
+      "పరమనిర్బ్డ్తి దియా,    తొమార చరణె లయా,",
+      "దెయ తబె ఆనంద అపార 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сэ̆судха̄самудракан̣а,    сам̣са̄ра̄гнинирба̄пан̣а,",
+      "кшан̣э̆кэ̆ карийа̄ пхэ̆лэ̆ та̄'ра",
+      "параманирбр̤ти дийа̄,    то̆ма̄ра чаран̣э̆ лайа̄,",
+      "дэ̆йа табэ̆ а̄нанда апа̄ра 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സെസുധാസമുദ്രകണ,    സംസാരാഗ്നിനിർബാപണ,",
+      "ക്ഷണെകെ കരിയാ ഫെലെ താഽര",
+      "പരമനിർബ്ഡ്തി ദിയാ,    തൊമാര ചരണെ ലയാ,",
+      "ദെയ തബെ ആനന്ദ അപാര 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸெஸுதா⁴ஸமுத்³ரகண,    ஸம்ʼஸாராக்³னிநிர்பா³பண,",
+      "க்ஷணெகெ கரியா பெ²லெ தா(அ)ர",
+      "பரமநிர்ப்³ஃட்²தி தி³யா,    தொமார சரணெ லயா,",
+      "தெ³ய தபெ³ ஆனந்த³ அபார 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "se-sudhā-samudrakaṇa,    saṁsārāgni-nirbāpaṇa,",
+      "kṣaṇeke kariyā phele tā’ra",
+      "parama-nirbṛti diyā,    tomāra caraṇe layā,",
+      "deya tabe ānanda apāra 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "se-sudhā-samudrakaṇa,    saṁsārāgni-nirbāpaṇa,",
+      "kṣaṇeke kariyā phele tā’ra",
+      "parama-nirbṛti diyā,    tomāra caraṇe layā,",
+      "deya tabe ānanda apāra 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "e bhaktibinoda kā̃de,    paḓiyā saṁsāra[FLAG_HYPHEN_ALPHA]phā̃de,",
+    "bale, nāhi kona bhāgya mora",
+    "e ghaṭanā nā ghaṭila,    āmāra janama gela,",
+    "bṛthā rainu ha’ye ātmabhora 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎ भक्तिबिनॊद कांदॆ,    पḓइया संसारफांदॆ,",
+      "बलॆ, नाहि कॊन भाग्य मॊर",
+      "ऎ घटना ना घटिल,    आमार जनम गॆल,",
+      "ब्ड़्था रैनु हऽयॆ आत्मभॊर ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এ ভক্তিবিনোদ কান্দে,    পḓইয়া সংসারফান্দে,",
+      "বলে, নাহি কোন ভাগ্য মোর",
+      "এ ঘটনা না ঘটিল,    আমার জনম গেল,",
+      "ব্ড়্থা রৈনু হঽয়ে আত্মভোর ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏ ଭକ୍ତିବିନୋଦ କାନ୍ଦେ,    ପḓଇୟା ସଂସାରଫାନ୍ଦେ,",
+      "ବଲେ, ନାହି କୋନ ଭାଗ୍ୟ ମୋର",
+      "ଏ ଘଟନା ନା ଘଟିଲ,    ଆମାର ଜନମ ଗେଲ,",
+      "ବ୍ଡ଼୍ଥା ରୈନୁ ହଽୟେ ଆତ୍ମଭୋର ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એ ભક્તિબિનોદ કાંદે,    પḓઇયા સંસારફાંદે,",
+      "બલે, નાહિ કોન ભાગ્ય મોર",
+      "એ ઘટના ના ઘટિલ,    આમાર જનમ ગેલ,",
+      "બ્ડ઼્થા રૈનુ હઽયે આત્મભોર ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "e bhaktibinoda kā̃de,    paḓiyā saṁsāra-phā̃de,",
+      "bale, nāhi kona bhāgya mora",
+      "e ghaṭanā nā ghaṭila,    āmāra janama gela,",
+      "bṛthā rainu ha’ye ātmabhora 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎ ಭಕ್ತಿಬಿನೊದ ಕಾಂದೆ,    ಪḓಇಯಾ ಸಂಸಾರಫಾಂದೆ,",
+      "ಬಲೆ, ನಾಹಿ ಕೊನ ಭಾಗ್ಯ ಮೊರ",
+      "ಎ ಘಟನಾ ನಾ ಘಟಿಲ,    ಆಮಾರ ಜನಮ ಗೆಲ,",
+      "ಬ್‌ಡ಼್ಥಾ ರೈನು ಹಽಯೆ ಆತ್ಮಭೊರ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎ భక్తిబినొద కాందె,    పḓఇయా సంసారఫాందె,",
+      "బలె, నాహి కొన భాగ్య మొర",
+      "ఎ ఘటనా నా ఘటిల,    ఆమార జనమ గెల,",
+      "బ్డ్థా రైను హఽయె ఆత్మభొర 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆ бхактибино̆да ка̄м̣дэ̆,    паḓийа̄ сам̣са̄рапха̄м̣дэ̆,",
+      "балэ̆, на̄хи ко̆на бха̄гйа мо̆ра",
+      "э̆ гхат̣ана̄ на̄ гхат̣ила,    а̄ма̄ра джанама гэ̆ла,",
+      "бр̤тха̄ раину ха'йэ̆ а̄тмабхо̆ра 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എ ഭക്തിബിനൊദ കാന്ദെ,    പḓഇയാ സംസാരഫാന്ദെ,",
+      "ബലെ, നാഹി കൊന ഭാഗ്യ മൊര",
+      "എ ഘടനാ നാ ഘടില,    ആമാര ജനമ ഗെല,",
+      "ബ്ഡ്ഥാ രൈനു ഹഽയെ ആത്മഭൊര 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எ ப⁴க்திபி³னொத³ காந்தெ³,    பḓஇயா ஸம்ʼஸாரபா²ந்தெ³,",
+      "ப³லெ, நாஹி கொன பா⁴க்³ய மொர",
+      "எ க⁴டனா நா க⁴டில,    ஆமார ஜனம கெ³ல,",
+      "ப்³ஃட்²தா² ரைனு ஹ(அ)யெ ஆத்மபொ⁴ர 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "e bhaktibinoda kā̃de,    paḍiyā saṁsāra-phā̃de,",
+      "bale, nāhi kona bhāgya mora",
+      "e ghaṭanā nā ghaṭila,    āmāra janama gela,",
+      "bṛthā rainu ha’ye ātmabhora 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "e bhaktibinoda kā̃de,    paḓiyā saṁsāra-phā̃de,",
+      "bale, nāhi kona bhāgya mora",
+      "e ghaṭanā nā ghaṭila,    āmāra janama gela,",
+      "bṛthā rainu ha’ye ātmabhora 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "śabdārthaḥ[FLAG_HYPHEN_ALPHA] sadma—ādhāra; śīkara—jalakaṇa; nibṛti—śānti; ātmabhora—indriyatarpaṇa[FLAG_HYPHEN_ALPHA]para"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शब्दार्थः सद्म—आधार; शीकर—जलकण; निब्ड़्ति—शान्ति; आत्मभॊर—इन्द्रियतर्पणपर"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শব্দার্থঃ সদ্ম—আধার; শীকর—জলকণ; নিব্ড়্তি—শান্তি; আত্মভোর—ইন্দ্রিয়তর্পণপর"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶବ୍ଦାର୍ଥଃ ସଦ୍ମ—ଆଧାର; ଶୀକର—ଜଲକଣ; ନିବ୍ଡ଼୍ତି—ଶାନ୍ତି; ଆତ୍ମଭୋର—ଇନ୍ଦ୍ରିୟତର୍ପଣପର"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શબ્દાર્થઃ સદ્મ—આધાર; શીકર—જલકણ; નિબ્ડ઼્તિ—શાન્તિ; આત્મભોર—ઇન્દ્રિયતર્પણપર"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śabdārthaḥ- sadma—ādhāra; śīkara—jalakaṇa; nibṛti—śānti; ātmabhora—indriyatarpaṇa-para"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶಬ್ದಾರ್ಥಃ ಸದ್ಮ—ಆಧಾರ; ಶೀಕರ—ಜಲಕಣ; ನಿಬ್‌ಡ಼್ತಿ—ಶಾಂತಿ; ಆತ್ಮಭೊರ—ಇಂದ್ರಿಯತರ್ಪಣಪರ"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శబ్దార్థః సద్మ—ఆధార; శీకర—జలకణ; నిబ్డ్తి—శాంతి; ఆత్మభొర—ఇంద్రియతర్పణపర"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́абда̄ртхах̣ садма—а̄дха̄ра; ш́ӣкара—джалакан̣а; нибр̤ти—ш́а̄нти; а̄тмабхо̆ра—индрийатарпан̣апара"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശബ്ദാർഥഃ സദ്മ—ആധാര; ശീകര—ജലകണ; നിബ്ഡ്തി—ശാന്തി; ആത്മഭൊര—ഇന്ദ്രിയതർപണപര"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶப்³தா³ர்த²꞉ ஸத்³ம—ஆதா⁴ர; ஶீகர—ஜலகண; நிப்³ஃட்²தி—ஶாந்தி; ஆத்மபொ⁴ர—இந்த்³ரியதர்பணபர"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śabdārthaḥ- sadma—ādhāra; śīkara—jalakaṇa; nibṛti—śānti; ātmabhora—indriyatarpaṇa-para"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śabdārthaḥ- sadma—ādhāra; śīkara—jalakaṇa; nibṛti—śānti; ātmabhora—indriyatarpaṇa-para"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "উদীর্ণ-সংসার-দবাশুশুক্ষণিং "
+  },
+  {
+   "language_code": "ben",
+   "text": "ক্ষণেন নির্ব্বাপ্য পরাঞ্চ নির্বৃতিম্ ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "প্রযচ্ছতি ত্বচ্চরণারুণাম্বুজ-"
+  },
+  {
+   "language_code": "ben",
+   "text": "দ্বয়ানুরাগামৃত-সিন্ধুশীকরঃ ।।১৪।।"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

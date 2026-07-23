@@ -1,0 +1,543 @@
+{
+ "uid": "MS63",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ওরে ভাই! কৃষ্ণ সে এ তিন-লোক-বন্ধু"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "ore bhāi! kṛṣṇa se e tina-loka-bandhu"
+  }
+ ],
+ "author_uid": "pdt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল প্রেমানন্দ দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Premānanda dāsa Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "ore bhāi! kṛṣṇa se e tina[FLAG_HYPHEN_ALPHA]loka[FLAG_HYPHEN_ALPHA]bandhu",
+    "jība nija[FLAG_HYPHEN_ALPHA]karme bandha,    māyāte paḓiyā andha,",
+    "uddhārite karuṇāra sindhu 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऒरॆ भाइ! क्ड़्ष्ण सॆ ऎ तिनलॊकबन्धु",
+      "जीब निजकर्मॆ बन्ध,    मायातॆ पḓइया अन्ध,",
+      "उद्धारितॆ करुणार सिन्धु १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ওরে ভাই! ক্ড়্ষ্ণ সে এ তিনলোকবন্ধু",
+      "জীব নিজকর্মে বন্ধ,    মায়াতে পḓইয়া অন্ধ,",
+      "উদ্ধারিতে করুণার সিন্ধু ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଓରେ ଭାଇ! କ୍ଡ଼୍ଷ୍ଣ ସେ ଏ ତିନଲୋକବନ୍ଧୁ",
+      "ଜୀବ ନିଜକର୍ମେ ବନ୍ଧ,    ମାୟାତେ ପḓଇୟା ଅନ୍ଧ,",
+      "ଉଦ୍ଧାରିତେ କରୁଣାର ସିନ୍ଧୁ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઓરે ભાઇ! ક્ડ઼્ષ્ણ સે એ તિનલોકબન્ધુ",
+      "જીબ નિજકર્મે બન્ધ,    માયાતે પḓઇયા અન્ધ,",
+      "ઉદ્ધારિતે કરુણાર સિન્ધુ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ore bhāi! kṛṣṇa se e tina-loka-bandhu",
+      "jība nija-karme bandha,    māyāte paḓiyā andha,",
+      "uddhārite karuṇāra sindhu 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಒರೆ ಭಾಇ! ಕ್‌ಡ಼್ಷ್ಣ ಸೆ ಎ ತಿನಲೊಕಬಂಧು",
+      "ಜೀಬ ನಿಜಕರ್ಮೆ ಬಂಧ,    ಮಾಯಾತೆ ಪḓಇಯಾ ಅಂಧ,",
+      "ಉದ್ಧಾರಿತೆ ಕರುಣಾರ ಸಿಂಧು ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఒరె భాఇ! క్డ్ష్ణ సె ఎ తినలొకబంధు",
+      "జీబ నిజకర్మె బంధ,    మాయాతె పḓఇయా అంధ,",
+      "ఉద్ధారితె కరుణార సింధు 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "о̆рэ̆ бха̄и! кр̤шн̣а сэ̆ э̆ тинало̆кабандху",
+      "джӣба ниджакармэ̆ бандха,    ма̄йа̄тэ̆ паḓийа̄ андха,",
+      "уддха̄ритэ̆ карун̣а̄ра синдху 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഒരെ ഭാഇ! ക്ഡ്ഷ്ണ സെ എ തിനലൊകബന്ധു",
+      "ജീബ നിജകർമെ ബന്ധ,    മായാതെ പḓഇയാ അന്ധ,",
+      "ഉദ്ധാരിതെ കരുണാര സിന്ധു 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஒரெ பா⁴இ! க்ஃட்²ஷ்ண ஸெ எ தினலொகப³ந்து⁴",
+      "ஜீப³ நிஜகர்மெ ப³ந்த⁴,    மாயாதெ பḓஇயா அந்த⁴,",
+      "உத்³தா⁴ரிதெ கருணார ஸிந்து⁴ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ore bhāi! kṛṣṇa se e tina-loka-bandhu",
+      "jība nija-karme bandha,    māyāte paḍiyā andha,",
+      "uddhārite karuṇāra sindhu 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ore bhāi! kṛṣṇa se e tina-loka-bandhu",
+      "jība nija-karme bandha,    māyāte paḓiyā andha,",
+      "uddhārite karuṇāra sindhu 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "nija[FLAG_HYPHEN_ALPHA]śakti[FLAG_HYPHEN_ALPHA]guṇagaṇa,    saba ‘nāme’ samarpaṇa,",
+    "nyūnādhika nāhika bicāra",
+    "nāma[FLAG_HYPHEN_ALPHA]nāmī bheda nāi,    nāmera guṇe nāmī pāi,",
+    "nāma kare helāya uddhāra 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "निजशक्तिगुणगण,    सब ‘नामॆऽ समर्पण,",
+      "न्यूनाधिक नाहिक बिचार",
+      "नामनामी भॆद नाइ,    नामॆर गुणॆ नामी पाइ,",
+      "नाम करॆ हॆलाय उद्धार २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নিজশক্তিগুণগণ,    সব ‘নামেঽ সমর্পণ,",
+      "ন্যূনাধিক নাহিক বিচার",
+      "নামনামী ভেদ নাই,    নামের গুণে নামী পাই,",
+      "নাম করে হেলায় উদ্ধার ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନିଜଶକ୍ତିଗୁଣଗଣ,    ସବ ‘ନାମେଽ ସମର୍ପଣ,",
+      "ନ୍ୟୂନାଧିକ ନାହିକ ବିଚାର",
+      "ନାମନାମୀ ଭେଦ ନାଇ,    ନାମେର ଗୁଣେ ନାମୀ ପାଇ,",
+      "ନାମ କରେ ହେଲାୟ ଉଦ୍ଧାର ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નિજશક્તિગુણગણ,    સબ ‘નામેઽ સમર્પણ,",
+      "ન્યૂનાધિક નાહિક બિચાર",
+      "નામનામી ભેદ નાઇ,    નામેર ગુણે નામી પાઇ,",
+      "નામ કરે હેલાય ઉદ્ધાર ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nija-śakti-guṇagaṇa,    saba ‘nāme’ samarpaṇa,",
+      "nyūnādhika nāhika bicāra",
+      "nāma-nāmī bheda nāi,    nāmera guṇe nāmī pāi,",
+      "nāma kare helāya uddhāra 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಿಜಶಕ್ತಿಗುಣಗಣ,    ಸಬ ‘ನಾಮೆಽ ಸಮರ್ಪಣ,",
+      "ನ್ಯೂನಾಧಿಕ ನಾಹಿಕ ಬಿಚಾರ",
+      "ನಾಮನಾಮೀ ಭೆದ ನಾಇ,    ನಾಮೆರ ಗುಣೆ ನಾಮೀ ಪಾಇ,",
+      "ನಾಮ ಕರೆ ಹೆಲಾಯ ಉದ್ಧಾರ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నిజశక్తిగుణగణ,    సబ ‘నామెఽ సమర్పణ,",
+      "న్యూనాధిక నాహిక బిచార",
+      "నామనామీ భెద నాఇ,    నామెర గుణె నామీ పాఇ,",
+      "నామ కరె హెలాయ ఉద్ధార 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ниджаш́актигун̣аган̣а,    саба ‘на̄мэ̆' самарпан̣а,",
+      "нйӯна̄дхика на̄хика бича̄ра",
+      "на̄мана̄мӣ бхэ̆да на̄и,    на̄мэ̆ра гун̣э̆ на̄мӣ па̄и,",
+      "на̄ма карэ̆ хэ̆ла̄йа уддха̄ра 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നിജശക്തിഗുണഗണ,    സബ ‘നാമെഽ സമർപണ,",
+      "ന്യൂനാധിക നാഹിക ബിചാര",
+      "നാമനാമീ ഭെദ നാഇ,    നാമെര ഗുണെ നാമീ പാഇ,",
+      "നാമ കരെ ഹെലായ ഉദ്ധാര 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நிஜஶக்திகு³ணக³ண,    ஸப³ ‘நாமெ(அ) ஸமர்பண,",
+      "ந்யூனாதி⁴க நாஹிக பி³சார",
+      "நாமநாமீ பெ⁴த³ நாஇ,    நாமெர கு³ணெ நாமீ பாஇ,",
+      "நாம கரெ ஹெலாய உத்³தா⁴ர 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nija-śakti-guṇagaṇa,    saba ‘nāme’ samarpaṇa,",
+      "nyūnādhika nāhika bicāra",
+      "nāma-nāmī bheda nāi,    nāmera guṇe nāmī pāi,",
+      "nāma kare helāya uddhāra 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nija-śakti-guṇagaṇa,    saba ‘nāme’ samarpaṇa,",
+      "nyūnādhika nāhika bicāra",
+      "nāma-nāmī bheda nāi,    nāmera guṇe nāmī pāi,",
+      "nāma kare helāya uddhāra 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "nāhi kālākāla tā’ra,    śuci ki aśuci āra,",
+    "nāma laite niṣedha nā ithe",
+    "ki mora durdaiba hāya,    hena se dayālu[FLAG_HYPHEN_ALPHA]pāya,",
+    "anurāga nā janmila tā’te 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "नाहि कालाकाल ताऽर,    शुचि कि अशुचि आर,",
+      "नाम लैतॆ निषॆध ना इथॆ",
+      "कि मॊर दुर्दैब हाय,    हॆन सॆ दयालुपाय,",
+      "अनुराग ना जन्मिल ताऽतॆ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নাহি কালাকাল তাঽর,    শুচি কি অশুচি আর,",
+      "নাম লৈতে নিষেধ না ইথে",
+      "কি মোর দুর্দৈব হায়,    হেন সে দয়ালুপায়,",
+      "অনুরাগ না জন্মিল তাঽতে ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନାହି କାଲାକାଲ ତାଽର,    ଶୁଚି କି ଅଶୁଚି ଆର,",
+      "ନାମ ଲୈତେ ନିଷେଧ ନା ଇଥେ",
+      "କି ମୋର ଦୁର୍ଦୈବ ହାୟ,    ହେନ ସେ ଦୟାଲୁପାୟ,",
+      "ଅନୁରାଗ ନା ଜନ୍ମିଲ ତାଽତେ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નાહિ કાલાકાલ તાઽર,    શુચિ કિ અશુચિ આર,",
+      "નામ લૈતે નિષેધ ના ઇથે",
+      "કિ મોર દુર્દૈબ હાય,    હેન સે દયાલુપાય,",
+      "અનુરાગ ના જન્મિલ તાઽતે ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nāhi kālākāla tā’ra,    śuci ki aśuci āra,",
+      "nāma laite niṣedha nā ithe",
+      "ki mora durdaiba hāya,    hena se dayālu-pāya,",
+      "anurāga nā janmila tā’te 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಾಹಿ ಕಾಲಾಕಾಲ ತಾಽರ,    ಶುಚಿ ಕಿ ಅಶುಚಿ ಆರ,",
+      "ನಾಮ ಲೈತೆ ನಿಷೆಧ ನಾ ಇಥೆ",
+      "ಕಿ ಮೊರ ದುರ್ದೈಬ ಹಾಯ,    ಹೆನ ಸೆ ದಯಾಲುಪಾಯ,",
+      "ಅನುರಾಗ ನಾ ಜನ್ಮಿಲ ತಾಽತೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నాహి కాలాకాల తాఽర,    శుచి కి అశుచి ఆర,",
+      "నామ లైతె నిషెధ నా ఇథె",
+      "కి మొర దుర్దైబ హాయ,    హెన సె దయాలుపాయ,",
+      "అనురాగ నా జన్మిల తాఽతె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "на̄хи ка̄ла̄ка̄ла та̄'ра,    ш́учи ки аш́учи а̄ра,",
+      "на̄ма лаитэ̆ нишэ̆дха на̄ итхэ̆",
+      "ки мо̆ра дурдаиба ха̄йа,    хэ̆на сэ̆ дайа̄лупа̄йа,",
+      "анура̄га на̄ джанмила та̄'тэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നാഹി കാലാകാല താഽര,    ശുചി കി അശുചി ആര,",
+      "നാമ ലൈതെ നിഷെധ നാ ഇഥെ",
+      "കി മൊര ദുർദൈബ ഹായ,    ഹെന സെ ദയാലുപായ,",
+      "അനുരാഗ നാ ജന്മില താഽതെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நாஹி காலாகால தா(அ)ர,    ஶுசி கி அஶுசி ஆர,",
+      "நாம லைதெ நிஷெத⁴ நா இதெ²",
+      "கி மொர து³ர்தை³ப³ ஹாய,    ஹென ஸெ த³யாலுபாய,",
+      "அனுராக³ நா ஜன்மில தா(அ)தெ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nāhi kālākāla tā’ra,    śuci ki aśuci āra,",
+      "nāma laite niṣedha nā ithe",
+      "ki mora durdaiba hāya,    hena se dayālu-pāya,",
+      "anurāga nā janmila tā’te 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nāhi kālākāla tā’ra,    śuci ki aśuci āra,",
+      "nāma laite niṣedha nā ithe",
+      "ki mora durdaiba hāya,    hena se dayālu-pāya,",
+      "anurāga nā janmila tā’te 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "ore mana! pāye paḓi,    asat prayāsa chāḓi’,",
+    "‘kṛṣṇa kṛṣṇa’ kaha anukṣaṇa",
+    "e baḓa sulabha ati,    nāme yadi kara prīti,",
+    "tabe premānandera nandana 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऒरॆ मन! पायॆ पḓइ,    असत् प्रयास छाḓइऽ,",
+      "‘क्ड़्ष्ण क्ड़्ष्णऽ कह अनुक्षण",
+      "ऎ बḓअ सुलभ अति,    नामॆ यदि कर प्रीति,",
+      "तबॆ प्रॆमानन्दॆर नन्दन ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ওরে মন! পায়ে পḓই,    অসৎ প্রয়াস ছাḓইঽ,",
+      "‘ক্ড়্ষ্ণ ক্ড়্ষ্ণঽ কহ অনুক্ষণ",
+      "এ বḓঅ সুলভ অতি,    নামে যদি কর প্রীতি,",
+      "তবে প্রেমানন্দের নন্দন ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଓରେ ମନ! ପାୟେ ପḓଇ,    ଅସତ୍ ପ୍ରୟାସ ଛାḓଇଽ,",
+      "‘କ୍ଡ଼୍ଷ୍ଣ କ୍ଡ଼୍ଷ୍ଣଽ କହ ଅନୁକ୍ଷଣ",
+      "ଏ ବḓଅ ସୁଲଭ ଅତି,    ନାମେ ଯଦି କର ପ୍ରୀତି,",
+      "ତବେ ପ୍ରେମାନନ୍ଦେର ନନ୍ଦନ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઓરે મન! પાયે પḓઇ,    અસત્ પ્રયાસ છાḓઇઽ,",
+      "‘ક્ડ઼્ષ્ણ ક્ડ઼્ષ્ણઽ કહ અનુક્ષણ",
+      "એ બḓઅ સુલભ અતિ,    નામે યદિ કર પ્રીતિ,",
+      "તબે પ્રેમાનન્દેર નન્દન ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ore mana! pāye paḓi,    asat prayāsa chāḓi’,",
+      "‘kṛṣṇa kṛṣṇa’ kaha anukṣaṇa",
+      "e baḓa sulabha ati,    nāme yadi kara prīti,",
+      "tabe premānandera nandana 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಒರೆ ಮನ! ಪಾಯೆ ಪḓಇ,    ಅಸತ್ ಪ್ರಯಾಸ ಛಾḓಇಽ,",
+      "‘ಕ್‌ಡ಼್ಷ್ಣ ಕ್‌ಡ಼್ಷ್ಣಽ ಕಹ ಅನುಕ್ಷಣ",
+      "ಎ ಬḓಅ ಸುಲಭ ಅತಿ,    ನಾಮೆ ಯದಿ ಕರ ಪ್ರೀತಿ,",
+      "ತಬೆ ಪ್ರೆಮಾನಂದೆರ ನಂದನ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఒరె మన! పాయె పḓఇ,    అసత్ ప్రయాస ఛాḓఇఽ,",
+      "‘క్డ్ష్ణ క్డ్ష్ణఽ కహ అనుక్షణ",
+      "ఎ బḓఅ సులభ అతి,    నామె యది కర ప్రీతి,",
+      "తబె ప్రెమానందెర నందన 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "о̆рэ̆ мана! па̄йэ̆ паḓи,    асат прайа̄са чха̄ḓи',",
+      "‘кр̤шн̣а кр̤шн̣а' каха анукшан̣а",
+      "э̆ баḓа сулабха ати,    на̄мэ̆ йади кара прӣти,",
+      "табэ̆ прэ̆ма̄нандэ̆ра нандана 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഒരെ മന! പായെ പḓഇ,    അസത് പ്രയാസ ഛാḓഇഽ,",
+      "‘ക്ഡ്ഷ്ണ ക്ഡ്ഷ്ണഽ കഹ അനുക്ഷണ",
+      "എ ബḓഅ സുലഭ അതി,    നാമെ യദി കര പ്രീതി,",
+      "തബെ പ്രെമാനന്ദെര നന്ദന 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஒரெ மன! பாயெ பḓஇ,    அஸத் ப்ரயாஸ சா²ḓஇ(அ),",
+      "‘க்ஃட்²ஷ்ண க்ஃட்²ஷ்ண(அ) கஹ அனுக்ஷண",
+      "எ ப³ḓஅ ஸுலப⁴ அதி,    நாமெ யதி³ கர ப்ரீதி,",
+      "தபெ³ ப்ரெமானந்தெ³ர நந்த³ன 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ore mana! pāye paḍi,    asat prayāsa chāḍi’,",
+      "‘kṛṣṇa kṛṣṇa’ kaha anukṣaṇa",
+      "e baḍa sulabha ati,    nāme yadi kara prīti,",
+      "tabe premānandera nandana 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ore mana! pāye paḓi,    asat prayāsa chāḓi’,",
+      "‘kṛṣṇa kṛṣṇa’ kaha anukṣaṇa",
+      "e baḓa sulabha ati,    nāme yadi kara prīti,",
+      "tabe premānandera nandana 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": []
+}

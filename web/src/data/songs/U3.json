@@ -1,0 +1,1784 @@
+{
+  "uid": "U3",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "হরি হে! ভজনে উৎসাহ"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "hari he! bhajane utsāha"
+    },
+    {
+      "script_code": "Deva",
+      "text": "हरि हे! भजने उत्साह"
+    },
+    {
+      "script_code": "Telu",
+      "text": "హరి హే! భజనే ఉత్సాహ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಹರಿ ಹೇ! ಭಜನೇ ಉತ್ಸಾಹ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஹரி ஹே! ப⁴ஜனே உத்ஸாஹ"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഹരി ഹേ! ഭജനേ ഉത്സാഹ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "હરિ હે! ભજને ઉત્સાહ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ହରି ହେ! ଭଜନେ ଉତ୍ସାହ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "хари хэ! бхаджанэ утса̄ха"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "hari he!",
+        "bhajane utsāha,    bhaktite biśbāsa,",
+        "premalābhe dhairya[FLAG_HYPHEN_ALPHA]dhana",
+        "bhakti[FLAG_HYPHEN_ALPHA]anukūla,    karma[FLAG_HYPHEN_ALPHA]prabartana,",
+        "asatsaṅga bisarjana 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O Hari! Enthusiasm in bhajana, faith in the process of bhakti, the asset of patience in attaining the goal of prema, the initiation of works favorable to bhakti, the abandonment of ill association..."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "hari",
+              "Hari"
+            ],
+            [
+              "he",
+              "O"
+            ],
+            [
+              "bhajane",
+              "(śravaṇ-kīrtanādi bhaktyanuṣṭhāne) in loving service (for the devotional practices of hearing, chanting and so on)"
+            ],
+            [
+              "utsāha",
+              "enthusiasm"
+            ],
+            [
+              "bhaktite",
+              "(bhakti-siddhānte) in devotion (in the conclusive truths of devotion)"
+            ],
+            [
+              "biśbāsa",
+              "(āsthā) faith (acting according to)"
+            ],
+            [
+              "premalābhe",
+              "(kṛṣṇa prīti) divine love (loving attachment to Kṛṣṇa) + in attaining"
+            ],
+            [
+              "dhairya",
+              "patience"
+            ],
+            [
+              "dhana",
+              "the asset"
+            ],
+            [
+              "bhakti",
+              "devotion"
+            ],
+            [
+              "anukūla",
+              "favorable"
+            ],
+            [
+              "karma",
+              "activities"
+            ],
+            [
+              "prabartana",
+              "(pravṛtta haoyā) bringing into use (to be engaged in)"
+            ],
+            [
+              "asatsaṅga",
+              "bad, ill, mundane + association"
+            ],
+            [
+              "bisarjana",
+              "giving up, renouncing, abandonment"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "हरि",
+              "Hari"
+            ],
+            [
+              "हॆ",
+              "O"
+            ],
+            [
+              "भजनॆ",
+              "(śravaṇ-kīrtanādi bhaktyanuṣṭhāne) in loving service (for the devotional practices of hearing, chanting and so on)"
+            ],
+            [
+              "उत्साह",
+              "enthusiasm"
+            ],
+            [
+              "भक्तितॆ",
+              "(bhakti-siddhānte) in devotion (in the conclusive truths of devotion)"
+            ],
+            [
+              "बिश्बास",
+              "(āsthā) faith (acting according to)"
+            ],
+            [
+              "प्रॆमलाभॆ",
+              "(kṛṣṇa prīti) divine love (loving attachment to Kṛṣṇa) + in attaining"
+            ],
+            [
+              "धैर्य",
+              "patience"
+            ],
+            [
+              "धन",
+              "the asset"
+            ],
+            [
+              "भक्ति",
+              "devotion"
+            ],
+            [
+              "अनुकूल",
+              "favorable"
+            ],
+            [
+              "कर्म",
+              "activities"
+            ],
+            [
+              "प्रबर्तन",
+              "(pravṛtta haoyā) bringing into use (to be engaged in)"
+            ],
+            [
+              "असत्सङ्ग",
+              "bad, ill, mundane + association"
+            ],
+            [
+              "बिसर्जन",
+              "giving up, renouncing, abandonment"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "হরি",
+              "Hari"
+            ],
+            [
+              "হে",
+              "O"
+            ],
+            [
+              "ভজনে",
+              "(śravaṇ-kīrtanādi bhaktyanuṣṭhāne) in loving service (for the devotional practices of hearing, chanting and so on)"
+            ],
+            [
+              "উৎসাহ",
+              "enthusiasm"
+            ],
+            [
+              "ভক্তিতে",
+              "(bhakti-siddhānte) in devotion (in the conclusive truths of devotion)"
+            ],
+            [
+              "বিশ্বাস",
+              "(āsthā) faith (acting according to)"
+            ],
+            [
+              "প্রেমলাভে",
+              "(kṛṣṇa prīti) divine love (loving attachment to Kṛṣṇa) + in attaining"
+            ],
+            [
+              "ধৈর্য",
+              "patience"
+            ],
+            [
+              "ধন",
+              "the asset"
+            ],
+            [
+              "ভক্তি",
+              "devotion"
+            ],
+            [
+              "অনুকূল",
+              "favorable"
+            ],
+            [
+              "কর্ম",
+              "activities"
+            ],
+            [
+              "প্রবর্তন",
+              "(pravṛtta haoyā) bringing into use (to be engaged in)"
+            ],
+            [
+              "অসৎসঙ্গ",
+              "bad, ill, mundane + association"
+            ],
+            [
+              "বিসর্জন",
+              "giving up, renouncing, abandonment"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "હરિ",
+              "Hari"
+            ],
+            [
+              "હે",
+              "O"
+            ],
+            [
+              "ભજને",
+              "(śravaṇ-kīrtanādi bhaktyanuṣṭhāne) in loving service (for the devotional practices of hearing, chanting and so on)"
+            ],
+            [
+              "ઉત્સાહ",
+              "enthusiasm"
+            ],
+            [
+              "ભક્તિતે",
+              "(bhakti-siddhānte) in devotion (in the conclusive truths of devotion)"
+            ],
+            [
+              "બિશ્બાસ",
+              "(āsthā) faith (acting according to)"
+            ],
+            [
+              "પ્રેમલાભે",
+              "(kṛṣṇa prīti) divine love (loving attachment to Kṛṣṇa) + in attaining"
+            ],
+            [
+              "ધૈર્ય",
+              "patience"
+            ],
+            [
+              "ધન",
+              "the asset"
+            ],
+            [
+              "ભક્તિ",
+              "devotion"
+            ],
+            [
+              "અનુકૂલ",
+              "favorable"
+            ],
+            [
+              "કર્મ",
+              "activities"
+            ],
+            [
+              "પ્રબર્તન",
+              "(pravṛtta haoyā) bringing into use (to be engaged in)"
+            ],
+            [
+              "અસત્સઙ્ગ",
+              "bad, ill, mundane + association"
+            ],
+            [
+              "બિસર્જન",
+              "giving up, renouncing, abandonment"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हरि हॆ!",
+            "भजनॆ उत्साह,    भक्तितॆ बिश्बास,",
+            "प्रॆमलाभॆ धैर्यधन",
+            "भक्तिअनुकूल,    कर्मप्रबर्तन,",
+            "असत्सङ्ग बिसर्जन १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হরি হে!",
+            "ভজনে উৎসাহ,    ভক্তিতে বিশ্বাস,",
+            "প্রেমলাভে ধৈর্যধন",
+            "ভক্তিঅনুকূল,    কর্মপ্রবর্তন,",
+            "অসৎসঙ্গ বিসর্জন ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହରି ହେ!",
+            "ଭଜନେ ଉତ୍ସାହ,    ଭକ୍ତିତେ ବିଶ୍ବାସ,",
+            "ପ୍ରେମଲାଭେ ଧୈର୍ୟଧନ",
+            "ଭକ୍ତିଅନୁକୂଲ,    କର୍ମପ୍ରବର୍ତନ,",
+            "ଅସତ୍ସଙ୍ଗ ବିସର୍ଜନ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હરિ હે!",
+            "ભજને ઉત્સાહ,    ભક્તિતે બિશ્બાસ,",
+            "પ્રેમલાભે ધૈર્યધન",
+            "ભક્તિઅનુકૂલ,    કર્મપ્રબર્તન,",
+            "અસત્સઙ્ગ બિસર્જન ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hari he!",
+            "bhajane utsāha,    bhaktite biśbāsa,",
+            "premalābhe dhairya-dhana",
+            "bhakti-anukūla,    karma-prabartana,",
+            "asatsaṅga bisarjana 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹರಿ ಹೆ!",
+            "ಭಜನೆ ಉತ್ಸಾಹ,    ಭಕ್ತಿತೆ ಬಿಶ್ಬಾಸ,",
+            "ಪ್ರೆಮಲಾಭೆ ಧೈರ್ಯಧನ",
+            "ಭಕ್ತಿಅನುಕೂಲ,    ಕರ್ಮಪ್ರಬರ್ತನ,",
+            "ಅಸತ್ಸಂಗ ಬಿಸರ್ಜನ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హరి హె!",
+            "భజనె ఉత్సాహ,    భక్తితె బిశ్బాస,",
+            "ప్రెమలాభె ధైర్యధన",
+            "భక్తిఅనుకూల,    కర్మప్రబర్తన,",
+            "అసత్సంగ బిసర్జన 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хари хэ̆!",
+            "бхаджанэ̆ утса̄ха,    бхактитэ̆ биш́ба̄са,",
+            "прэ̆мала̄бхэ̆ дхаирйадхана",
+            "бхактианукӯла,    кармапрабартана,",
+            "асатсан̇га бисарджана 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹരി ഹെ!",
+            "ഭജനെ ഉത്സാഹ,    ഭക്തിതെ ബിശ്ബാസ,",
+            "പ്രെമലാഭെ ധൈര്യധന",
+            "ഭക്തിഅനുകൂല,    കർമപ്രബർതന,",
+            "അസത്സംഗ ബിസർജന 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹரி ஹெ!",
+            "ப⁴ஜனெ உத்ஸாஹ,    ப⁴க்திதெ பி³ஶ்பா³ஸ,",
+            "ப்ரெமலாபெ⁴ தை⁴ர்யத⁴ன",
+            "ப⁴க்திஅனுகூல,    கர்மப்ரப³ர்தன,",
+            "அஸத்ஸங்க³ பி³ஸர்ஜன 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hari he!",
+            "bhajane utsāha,    bhaktite biśbāsa,",
+            "premalābhe dhairya-dhana",
+            "bhakti-anukūla,    karma-prabartana,",
+            "asatsaṅga bisarjana 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hari he!",
+            "bhajane utsāha,    bhaktite biśbāsa,",
+            "premalābhe dhairya-dhana",
+            "bhakti-anukūla,    karma-prabartana,",
+            "asatsaṅga bisarjana 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "bhakti[FLAG_HYPHEN_ALPHA]sadācāra,    ei chaya guṇa,",
+        "nahila āmāra nātha",
+        "kemane bhajiba,    tomāra caraṇa,",
+        "chāḓiyā māyāra sātha 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "...and good behavior favorable to bhakti—I have never had any of these six qualities. O Lord, how will I serve Your lotus feet and give up my affiliation with māyā?"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bhakti",
+              "devotion"
+            ],
+            [
+              "sadācāra",
+              "good behavior, virtuous practice enjoined by the scriptures"
+            ],
+            [
+              "ei",
+              "these"
+            ],
+            [
+              "chaya",
+              "six"
+            ],
+            [
+              "guṇa",
+              "qualities"
+            ],
+            [
+              "nahila",
+              "I have not"
+            ],
+            [
+              "āmāra",
+              "mine"
+            ],
+            [
+              "nātha",
+              "O Lord"
+            ],
+            [
+              "kemane",
+              "how"
+            ],
+            [
+              "bhajiba",
+              "I will serve"
+            ],
+            [
+              "tomāra",
+              "Your"
+            ],
+            [
+              "caraṇa",
+              "feet"
+            ],
+            [
+              "chāḓiyā",
+              "having given up"
+            ],
+            [
+              "māyāra",
+              "illusion’s"
+            ],
+            [
+              "sātha",
+              "(saṅga GM) company"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "भक्ति",
+              "devotion"
+            ],
+            [
+              "सदाचार",
+              "good behavior, virtuous practice enjoined by the scriptures"
+            ],
+            [
+              "ऎइ",
+              "these"
+            ],
+            [
+              "छय",
+              "six"
+            ],
+            [
+              "गुण",
+              "qualities"
+            ],
+            [
+              "नहिल",
+              "I have not"
+            ],
+            [
+              "आमार",
+              "mine"
+            ],
+            [
+              "नाथ",
+              "O Lord"
+            ],
+            [
+              "कॆमनॆ",
+              "how"
+            ],
+            [
+              "भजिब",
+              "I will serve"
+            ],
+            [
+              "तॊमार",
+              "Your"
+            ],
+            [
+              "चरण",
+              "feet"
+            ],
+            [
+              "छाḓइया",
+              "having given up"
+            ],
+            [
+              "मायार",
+              "illusion’s"
+            ],
+            [
+              "साथ",
+              "(saṅga GM) company"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ভক্তি",
+              "devotion"
+            ],
+            [
+              "সদাচার",
+              "good behavior, virtuous practice enjoined by the scriptures"
+            ],
+            [
+              "এই",
+              "these"
+            ],
+            [
+              "ছয়",
+              "six"
+            ],
+            [
+              "গুণ",
+              "qualities"
+            ],
+            [
+              "নহিল",
+              "I have not"
+            ],
+            [
+              "আমার",
+              "mine"
+            ],
+            [
+              "নাথ",
+              "O Lord"
+            ],
+            [
+              "কেমনে",
+              "how"
+            ],
+            [
+              "ভজিব",
+              "I will serve"
+            ],
+            [
+              "তোমার",
+              "Your"
+            ],
+            [
+              "চরণ",
+              "feet"
+            ],
+            [
+              "ছাḓইয়া",
+              "having given up"
+            ],
+            [
+              "মায়ার",
+              "illusion’s"
+            ],
+            [
+              "সাথ",
+              "(saṅga GM) company"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ભક્તિ",
+              "devotion"
+            ],
+            [
+              "સદાચાર",
+              "good behavior, virtuous practice enjoined by the scriptures"
+            ],
+            [
+              "એઇ",
+              "these"
+            ],
+            [
+              "છય",
+              "six"
+            ],
+            [
+              "ગુણ",
+              "qualities"
+            ],
+            [
+              "નહિલ",
+              "I have not"
+            ],
+            [
+              "આમાર",
+              "mine"
+            ],
+            [
+              "નાથ",
+              "O Lord"
+            ],
+            [
+              "કેમને",
+              "how"
+            ],
+            [
+              "ભજિબ",
+              "I will serve"
+            ],
+            [
+              "તોમાર",
+              "Your"
+            ],
+            [
+              "ચરણ",
+              "feet"
+            ],
+            [
+              "છાḓઇયા",
+              "having given up"
+            ],
+            [
+              "માયાર",
+              "illusion’s"
+            ],
+            [
+              "સાથ",
+              "(saṅga GM) company"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भक्तिसदाचार,    ऎइ छय गुण,",
+            "नहिल आमार नाथ",
+            "कॆमनॆ भजिब,    तॊमार चरण,",
+            "छाḓइया मायार साथ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভক্তিসদাচার,    এই ছয় গুণ,",
+            "নহিল আমার নাথ",
+            "কেমনে ভজিব,    তোমার চরণ,",
+            "ছাḓইয়া মায়ার সাথ ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭକ୍ତିସଦାଚାର,    ଏଇ ଛୟ ଗୁଣ,",
+            "ନହିଲ ଆମାର ନାଥ",
+            "କେମନେ ଭଜିବ,    ତୋମାର ଚରଣ,",
+            "ଛାḓଇୟା ମାୟାର ସାଥ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભક્તિસદાચાર,    એઇ છય ગુણ,",
+            "નહિલ આમાર નાથ",
+            "કેમને ભજિબ,    તોમાર ચરણ,",
+            "છાḓઇયા માયાર સાથ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhakti-sadācāra,    ei chaya guṇa,",
+            "nahila āmāra nātha",
+            "kemane bhajiba,    tomāra caraṇa,",
+            "chāḓiyā māyāra sātha 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಕ್ತಿಸದಾಚಾರ,    ಎಇ ಛಯ ಗುಣ,",
+            "ನಹಿಲ ಆಮಾರ ನಾಥ",
+            "ಕೆಮನೆ ಭಜಿಬ,    ತೊಮಾರ ಚರಣ,",
+            "ಛಾḓಇಯಾ ಮಾಯಾರ ಸಾಥ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భక్తిసదాచార,    ఎఇ ఛయ గుణ,",
+            "నహిల ఆమార నాథ",
+            "కెమనె భజిబ,    తొమార చరణ,",
+            "ఛాḓఇయా మాయార సాథ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхактисада̄ча̄ра,    э̆и чхайа гун̣а,",
+            "нахила а̄ма̄ра на̄тха",
+            "кэ̆манэ̆ бхаджиба,    то̆ма̄ра чаран̣а,",
+            "чха̄ḓийа̄ ма̄йа̄ра са̄тха 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭക്തിസദാചാര,    എഇ ഛയ ഗുണ,",
+            "നഹില ആമാര നാഥ",
+            "കെമനെ ഭജിബ,    തൊമാര ചരണ,",
+            "ഛാḓഇയാ മായാര സാഥ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப⁴க்திஸதா³சார,    எஇ ச²ய கு³ண,",
+            "நஹில ஆமார நாத²",
+            "கெமனெ ப⁴ஜிப³,    தொமார சரண,",
+            "சா²ḓஇயா மாயார ஸாத² 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhakti-sadācāra,    ei chaya guṇa,",
+            "nahila āmāra nātha",
+            "kemane bhajiba,    tomāra caraṇa,",
+            "chāḍiyā māyāra sātha 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhakti-sadācāra,    ei chaya guṇa,",
+            "nahila āmāra nātha",
+            "kemane bhajiba,    tomāra caraṇa,",
+            "chāḓiyā māyāra sātha 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "garhita ācāre,    rahilāma maji’,",
+        "nā karinu sādhusaṅga",
+        "la’ye sādhu[FLAG_HYPHEN_ALPHA]beśa,    āne upadeśi,",
+        "e baḓa māyāra raṅga 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I remain immersed in vile behavior, and I have never kept the company of saints. Yet taking the garb of a saint, I instruct others! This is māyā’s big joke."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "garhita",
+              "(nindita) utterly condemned, abominable, vile (despicable)"
+            ],
+            [
+              "ācāre",
+              "(karme) in conduct (in activities)"
+            ],
+            [
+              "rahilāma",
+              "I remained"
+            ],
+            [
+              "maji’",
+              "having been immersed"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "karinu",
+              "I have done"
+            ],
+            [
+              "sādhusaṅga",
+              "saints + association"
+            ],
+            [
+              "la’ye",
+              "having taken"
+            ],
+            [
+              "sādhu",
+              "saints"
+            ],
+            [
+              "beśa",
+              "garb"
+            ],
+            [
+              "āne",
+              "(anyake GM) to others"
+            ],
+            [
+              "upadeśi",
+              "(upadeś kôri GM) I instruct"
+            ],
+            [
+              "e",
+              "this"
+            ],
+            [
+              "baḓa",
+              "big"
+            ],
+            [
+              "māyāra",
+              "māyā’s"
+            ],
+            [
+              "raṅga",
+              "(vicitra khelā) joke, fun (strange play)"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "गर्हित",
+              "(nindita) utterly condemned, abominable, vile (despicable)"
+            ],
+            [
+              "आचारॆ",
+              "(karme) in conduct (in activities)"
+            ],
+            [
+              "रहिलाम",
+              "I remained"
+            ],
+            [
+              "मजिऽ",
+              "having been immersed"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "करिनु",
+              "I have done"
+            ],
+            [
+              "साधुसङ्ग",
+              "saints + association"
+            ],
+            [
+              "लऽयॆ",
+              "having taken"
+            ],
+            [
+              "साधु",
+              "saints"
+            ],
+            [
+              "बॆश",
+              "garb"
+            ],
+            [
+              "आनॆ",
+              "(anyake GM) to others"
+            ],
+            [
+              "उपदॆशि",
+              "(upadeś kôri GM) I instruct"
+            ],
+            [
+              "ऎ",
+              "this"
+            ],
+            [
+              "बḓअ",
+              "big"
+            ],
+            [
+              "मायार",
+              "māyā’s"
+            ],
+            [
+              "रङ्ग",
+              "(vicitra khelā) joke, fun (strange play)"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "গর্হিত",
+              "(nindita) utterly condemned, abominable, vile (despicable)"
+            ],
+            [
+              "আচারে",
+              "(karme) in conduct (in activities)"
+            ],
+            [
+              "রহিলাম",
+              "I remained"
+            ],
+            [
+              "মজিঽ",
+              "having been immersed"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "করিনু",
+              "I have done"
+            ],
+            [
+              "সাধুসঙ্গ",
+              "saints + association"
+            ],
+            [
+              "লঽয়ে",
+              "having taken"
+            ],
+            [
+              "সাধু",
+              "saints"
+            ],
+            [
+              "বেশ",
+              "garb"
+            ],
+            [
+              "আনে",
+              "(anyake GM) to others"
+            ],
+            [
+              "উপদেশি",
+              "(upadeś kôri GM) I instruct"
+            ],
+            [
+              "এ",
+              "this"
+            ],
+            [
+              "বḓঅ",
+              "big"
+            ],
+            [
+              "মায়ার",
+              "māyā’s"
+            ],
+            [
+              "রঙ্গ",
+              "(vicitra khelā) joke, fun (strange play)"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ગર્હિત",
+              "(nindita) utterly condemned, abominable, vile (despicable)"
+            ],
+            [
+              "આચારે",
+              "(karme) in conduct (in activities)"
+            ],
+            [
+              "રહિલામ",
+              "I remained"
+            ],
+            [
+              "મજિઽ",
+              "having been immersed"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "કરિનુ",
+              "I have done"
+            ],
+            [
+              "સાધુસઙ્ગ",
+              "saints + association"
+            ],
+            [
+              "લઽયે",
+              "having taken"
+            ],
+            [
+              "સાધુ",
+              "saints"
+            ],
+            [
+              "બેશ",
+              "garb"
+            ],
+            [
+              "આને",
+              "(anyake GM) to others"
+            ],
+            [
+              "ઉપદેશિ",
+              "(upadeś kôri GM) I instruct"
+            ],
+            [
+              "એ",
+              "this"
+            ],
+            [
+              "બḓઅ",
+              "big"
+            ],
+            [
+              "માયાર",
+              "māyā’s"
+            ],
+            [
+              "રઙ્ગ",
+              "(vicitra khelā) joke, fun (strange play)"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गर्हित आचारॆ,    रहिलाम मजिऽ,",
+            "ना करिनु साधुसङ्ग",
+            "लऽयॆ साधुबॆश,    आनॆ उपदॆशि,",
+            "ऎ बḓअ मायार रङ्ग ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গর্হিত আচারে,    রহিলাম মজিঽ,",
+            "না করিনু সাধুসঙ্গ",
+            "লঽয়ে সাধুবেশ,    আনে উপদেশি,",
+            "এ বḓঅ মায়ার রঙ্গ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗର୍ହିତ ଆଚାରେ,    ରହିଲାମ ମଜିଽ,",
+            "ନା କରିନୁ ସାଧୁସଙ୍ଗ",
+            "ଲଽୟେ ସାଧୁବେଶ,    ଆନେ ଉପଦେଶି,",
+            "ଏ ବḓଅ ମାୟାର ରଙ୍ଗ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગર્હિત આચારે,    રહિલામ મજિઽ,",
+            "ના કરિનુ સાધુસઙ્ગ",
+            "લઽયે સાધુબેશ,    આને ઉપદેશિ,",
+            "એ બḓઅ માયાર રઙ્ગ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "garhita ācāre,    rahilāma maji’,",
+            "nā karinu sādhusaṅga",
+            "la’ye sādhu-beśa,    āne upadeśi,",
+            "e baḓa māyāra raṅga 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗರ್ಹಿತ ಆಚಾರೆ,    ರಹಿಲಾಮ ಮಜಿಽ,",
+            "ನಾ ಕರಿನು ಸಾಧುಸಂಗ",
+            "ಲಽಯೆ ಸಾಧುಬೆಶ,    ಆನೆ ಉಪದೆಶಿ,",
+            "ಎ ಬḓಅ ಮಾಯಾರ ರಂಗ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గర్హిత ఆచారె,    రహిలామ మజిఽ,",
+            "నా కరిను సాధుసంగ",
+            "లఽయె సాధుబెశ,    ఆనె ఉపదెశి,",
+            "ఎ బḓఅ మాయార రంగ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "гархита а̄ча̄рэ̆,    рахила̄ма маджи',",
+            "на̄ карину са̄дхусан̇га",
+            "ла'йэ̆ са̄дхубэ̆ш́а,    а̄нэ̆ упадэ̆ш́и,",
+            "э̆ баḓа ма̄йа̄ра ран̇га 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗർഹിത ആചാരെ,    രഹിലാമ മജിഽ,",
+            "നാ കരിനു സാധുസംഗ",
+            "ലഽയെ സാധുബെശ,    ആനെ ഉപദെശി,",
+            "എ ബḓഅ മായാര രംഗ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "க³ர்ஹித ஆசாரெ,    ரஹிலாம மஜி(அ),",
+            "நா கரினு ஸாது⁴ஸங்க³",
+            "ல(அ)யெ ஸாது⁴பெ³ஶ,    ஆனெ உபதெ³ஶி,",
+            "எ ப³ḓஅ மாயார ரங்க³ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "garhita ācāre,    rahilāma maji’,",
+            "nā karinu sādhusaṅga",
+            "la’ye sādhu-beśa,    āne upadeśi,",
+            "e baḍa māyāra raṅga 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "garhita ācāre,    rahilāma maji’,",
+            "nā karinu sādhusaṅga",
+            "la’ye sādhu-beśa,    āne upadeśi,",
+            "e baḓa māyāra raṅga 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "e hena daśāya,    ahaitukī kṛpā,",
+        "tomāra pāiba, hari",
+        "śrīguru[FLAG_HYPHEN_ALPHA]āśraye,    ḍākiba tomāya,",
+        "kabe bā minati kari’ 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "In such a condition, I shall receive Your causeless grace, O Hari. When, in the shelter of śrī guru, will I call out to You in supplication?"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "e",
+              "this"
+            ],
+            [
+              "hena",
+              "such"
+            ],
+            [
+              "daśāya",
+              "in condition"
+            ],
+            [
+              "ahaitukī",
+              "causeless"
+            ],
+            [
+              "kṛpā",
+              "grace"
+            ],
+            [
+              "tomāra",
+              "Your"
+            ],
+            [
+              "pāiba",
+              "I shall receive"
+            ],
+            [
+              "hari",
+              "O Hari"
+            ],
+            [
+              "śrīguru",
+              "spiritual master"
+            ],
+            [
+              "āśraye",
+              "in the shelter"
+            ],
+            [
+              "ḍākiba",
+              "I will call out"
+            ],
+            [
+              "tomāya",
+              "to You"
+            ],
+            [
+              "kabe",
+              "when"
+            ],
+            [
+              "bā",
+              "[used to emphasize a question]"
+            ],
+            [
+              "minati kari’",
+              "having humbly prayed, earnestly request, supplicated"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "ऎ",
+              "this"
+            ],
+            [
+              "हॆन",
+              "such"
+            ],
+            [
+              "दशाय",
+              "in condition"
+            ],
+            [
+              "अहैतुकी",
+              "causeless"
+            ],
+            [
+              "क्ड़्पा",
+              "grace"
+            ],
+            [
+              "तॊमार",
+              "Your"
+            ],
+            [
+              "पाइब",
+              "I shall receive"
+            ],
+            [
+              "हरि",
+              "O Hari"
+            ],
+            [
+              "श्रीगुरु",
+              "spiritual master"
+            ],
+            [
+              "आश्रयॆ",
+              "in the shelter"
+            ],
+            [
+              "डाकिब",
+              "I will call out"
+            ],
+            [
+              "तॊमाय",
+              "to You"
+            ],
+            [
+              "कबॆ",
+              "when"
+            ],
+            [
+              "बा",
+              "[used to emphasize a question]"
+            ],
+            [
+              "मिनति करिऽ",
+              "having humbly prayed, earnestly request, supplicated"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "এ",
+              "this"
+            ],
+            [
+              "হেন",
+              "such"
+            ],
+            [
+              "দশায়",
+              "in condition"
+            ],
+            [
+              "অহৈতুকী",
+              "causeless"
+            ],
+            [
+              "ক্ড়্পা",
+              "grace"
+            ],
+            [
+              "তোমার",
+              "Your"
+            ],
+            [
+              "পাইব",
+              "I shall receive"
+            ],
+            [
+              "হরি",
+              "O Hari"
+            ],
+            [
+              "শ্রীগুরু",
+              "spiritual master"
+            ],
+            [
+              "আশ্রয়ে",
+              "in the shelter"
+            ],
+            [
+              "ডাকিব",
+              "I will call out"
+            ],
+            [
+              "তোমায়",
+              "to You"
+            ],
+            [
+              "কবে",
+              "when"
+            ],
+            [
+              "বা",
+              "[used to emphasize a question]"
+            ],
+            [
+              "মিনতি করিঽ",
+              "having humbly prayed, earnestly request, supplicated"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "એ",
+              "this"
+            ],
+            [
+              "હેન",
+              "such"
+            ],
+            [
+              "દશાય",
+              "in condition"
+            ],
+            [
+              "અહૈતુકી",
+              "causeless"
+            ],
+            [
+              "ક્ડ઼્પા",
+              "grace"
+            ],
+            [
+              "તોમાર",
+              "Your"
+            ],
+            [
+              "પાઇબ",
+              "I shall receive"
+            ],
+            [
+              "હરિ",
+              "O Hari"
+            ],
+            [
+              "શ્રીગુરુ",
+              "spiritual master"
+            ],
+            [
+              "આશ્રયે",
+              "in the shelter"
+            ],
+            [
+              "ડાકિબ",
+              "I will call out"
+            ],
+            [
+              "તોમાય",
+              "to You"
+            ],
+            [
+              "કબે",
+              "when"
+            ],
+            [
+              "બા",
+              "[used to emphasize a question]"
+            ],
+            [
+              "મિનતિ કરિઽ",
+              "having humbly prayed, earnestly request, supplicated"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎ हॆन दशाय,    अहैतुकी क्ड़्पा,",
+            "तॊमार पाइब, हरि",
+            "श्रीगुरुआश्रयॆ,    डाकिब तॊमाय,",
+            "कबॆ बा मिनति करिऽ ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এ হেন দশায়,    অহৈতুকী ক্ড়্পা,",
+            "তোমার পাইব, হরি",
+            "শ্রীগুরুআশ্রয়ে,    ডাকিব তোমায়,",
+            "কবে বা মিনতি করিঽ ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏ ହେନ ଦଶାୟ,    ଅହୈତୁକୀ କ୍ଡ଼୍ପା,",
+            "ତୋମାର ପାଇବ, ହରି",
+            "ଶ୍ରୀଗୁରୁଆଶ୍ରୟେ,    ଡାକିବ ତୋମାୟ,",
+            "କବେ ବା ମିନତି କରିଽ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એ હેન દશાય,    અહૈતુકી ક્ડ઼્પા,",
+            "તોમાર પાઇબ, હરિ",
+            "શ્રીગુરુઆશ્રયે,    ડાકિબ તોમાય,",
+            "કબે બા મિનતિ કરિઽ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "e hena daśāya,    ahaitukī kṛpā,",
+            "tomāra pāiba, hari",
+            "śrīguru-āśraye,    ḍākiba tomāya,",
+            "kabe bā minati kari’ 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎ ಹೆನ ದಶಾಯ,    ಅಹೈತುಕೀ ಕ್‌ಡ಼್ಪಾ,",
+            "ತೊಮಾರ ಪಾಇಬ, ಹರಿ",
+            "ಶ್ರೀಗುರುಆಶ್ರಯೆ,    ಡಾಕಿಬ ತೊಮಾಯ,",
+            "ಕಬೆ ಬಾ ಮಿನತಿ ಕರಿಽ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎ హెన దశాయ,    అహైతుకీ క్డ్పా,",
+            "తొమార పాఇబ, హరి",
+            "శ్రీగురుఆశ్రయె,    డాకిబ తొమాయ,",
+            "కబె బా మినతి కరిఽ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆ хэ̆на даш́а̄йа,    ахаитукӣ кр̤па̄,",
+            "то̆ма̄ра па̄иба, хари",
+            "ш́рӣгуруа̄ш́райэ̆,    д̣а̄киба то̆ма̄йа,",
+            "кабэ̆ ба̄ минати кари' 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എ ഹെന ദശായ,    അഹൈതുകീ ക്ഡ്പാ,",
+            "തൊമാര പാഇബ, ഹരി",
+            "ശ്രീഗുരുആശ്രയെ,    ഡാകിബ തൊമായ,",
+            "കബെ ബാ മിനതി കരിഽ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எ ஹென த³ஶாய,    அஹைதுகீ க்ஃட்²பா,",
+            "தொமார பாஇப³, ஹரி",
+            "ஶ்ரீகு³ருஆஶ்ரயெ,    டா³கிப³ தொமாய,",
+            "கபெ³ பா³ மினதி கரி(அ) 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "e hena daśāya,    ahaitukī kṛpā,",
+            "tomāra pāiba, hari",
+            "śrīguru-āśraye,    ḍākiba tomāya,",
+            "kabe bā minati kari’ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "e hena daśāya,    ahaitukī kṛpā,",
+            "tomāra pāiba, hari",
+            "śrīguru-āśraye,    ḍākiba tomāya,",
+            "kabe bā minati kari’ 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "উৎসাহান্নিশ্চয়াদ্ধৈর্য্যাৎ"
+    },
+    {
+      "language_code": "ben",
+      "text": "তত্তৎকর্ম্ম-প্রবর্ত্তনাৎ ।"
+    },
+    {
+      "language_code": "ben",
+      "text": "সঙ্গত্যাগাৎ সতো বৃত্তেঃ"
+    },
+    {
+      "language_code": "ben",
+      "text": "ষড়্‌ভির্ভক্তিঃ প্রসিধ্যতি ॥৩॥"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "srrb-1",
+      "filename": "U3-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    }
+  ]
+}

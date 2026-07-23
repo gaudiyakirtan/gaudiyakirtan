@@ -1,0 +1,455 @@
+{
+ "uid": "Y10",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হে! নিজকর্ম্ম-দোষ-ফলে"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari he! nijakarma-doṣa-phale"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari he!",
+    "nijakarma[FLAG_HYPHEN_ALPHA]doṣa[FLAG_HYPHEN_ALPHA]phale,    paḓi’ bhabārṇaba[FLAG_HYPHEN_ALPHA]jale,",
+    "hābuḍubu khāi katakāla",
+    "sā̃tāri’ sā̃tāri’ yāi,    sindhu[FLAG_HYPHEN_ALPHA]anta nāhi pāi,",
+    "bhabasindhu ananta biśāla 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हॆ!",
+      "निजकर्मदॊषफलॆ,    पḓइऽ भबार्णबजलॆ,",
+      "हाबुडुबु खाइ कतकाल",
+      "सांतारिऽ सांतारिऽ याइ,    सिन्धुअन्त नाहि पाइ,",
+      "भबसिन्धु अनन्त बिशाल १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হে!",
+      "নিজকর্মদোষফলে,    পḓইঽ ভবার্ণবজলে,",
+      "হাবুডুবু খাই কতকাল",
+      "সান্তারিঽ সান্তারিঽ যাই,    সিন্ধুঅন্ত নাহি পাই,",
+      "ভবসিন্ধু অনন্ত বিশাল ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହେ!",
+      "ନିଜକର୍ମଦୋଷଫଲେ,    ପḓଇଽ ଭବାର୍ଣବଜଲେ,",
+      "ହାବୁଡୁବୁ ଖାଇ କତକାଲ",
+      "ସାନ୍ତାରିଽ ସାନ୍ତାରିଽ ଯାଇ,    ସିନ୍ଧୁଅନ୍ତ ନାହି ପାଇ,",
+      "ଭବସିନ୍ଧୁ ଅନନ୍ତ ବିଶାଲ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હે!",
+      "નિજકર્મદોષફલે,    પḓઇઽ ભબાર્ણબજલે,",
+      "હાબુડુબુ ખાઇ કતકાલ",
+      "સાંતારિઽ સાંતારિઽ યાઇ,    સિન્ધુઅન્ત નાહિ પાઇ,",
+      "ભબસિન્ધુ અનન્ત બિશાલ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari he!",
+      "nijakarma-doṣa-phale,    paḓi’ bhabārṇaba-jale,",
+      "hābuḍubu khāi katakāla",
+      "sā̃tāri’ sā̃tāri’ yāi,    sindhu-anta nāhi pāi,",
+      "bhabasindhu ananta biśāla 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹೆ!",
+      "ನಿಜಕರ್ಮದೊಷಫಲೆ,    ಪḓಇಽ ಭಬಾರ್ಣಬಜಲೆ,",
+      "ಹಾಬುಡುಬು ಖಾಇ ಕತಕಾಲ",
+      "ಸಾಂತಾರಿಽ ಸಾಂತಾರಿಽ ಯಾಇ,    ಸಿಂಧುಅಂತ ನಾಹಿ ಪಾಇ,",
+      "ಭಬಸಿಂಧು ಅನಂತ ಬಿಶಾಲ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హె!",
+      "నిజకర్మదొషఫలె,    పḓఇఽ భబార్ణబజలె,",
+      "హాబుడుబు ఖాఇ కతకాల",
+      "సాంతారిఽ సాంతారిఽ యాఇ,    సింధుఅంత నాహి పాఇ,",
+      "భబసింధు అనంత బిశాల 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хэ̆!",
+      "ниджакармадо̆шапхалэ̆,    паḓи' бхаба̄рн̣абаджалэ̆,",
+      "ха̄буд̣убу кха̄и катака̄ла",
+      "са̄м̣та̄ри' са̄м̣та̄ри' йа̄и,    синдхуанта на̄хи па̄и,",
+      "бхабасиндху ананта биш́а̄ла 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹെ!",
+      "നിജകർമദൊഷഫലെ,    പḓഇഽ ഭബാർണബജലെ,",
+      "ഹാബുഡുബു ഖാഇ കതകാല",
+      "സാന്താരിഽ സാന്താരിഽ യാഇ,    സിന്ധുഅന്ത നാഹി പാഇ,",
+      "ഭബസിന്ധു അനന്ത ബിശാല 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹெ!",
+      "நிஜகர்மதொ³ஷப²லெ,    பḓஇ(அ) ப⁴பா³ர்ணப³ஜலெ,",
+      "ஹாபு³டு³பு³ கா²இ கதகால",
+      "ஸாந்தாரி(அ) ஸாந்தாரி(அ) யாஇ,    ஸிந்து⁴அந்த நாஹி பாஇ,",
+      "ப⁴ப³ஸிந்து⁴ அனந்த பி³ஶால 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari he!",
+      "nijakarma-doṣa-phale,    paḍi’ bhabārṇaba-jale,",
+      "hābuḍubu khāi katakāla",
+      "sā̃tāri’ sā̃tāri’ yāi,    sindhu-anta nāhi pāi,",
+      "bhabasindhu ananta biśāla 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari he!",
+      "nijakarma-doṣa-phale,    paḓi’ bhabārṇaba-jale,",
+      "hābuḍubu khāi katakāla",
+      "sā̃tāri’ sā̃tāri’ yāi,    sindhu-anta nāhi pāi,",
+      "bhabasindhu ananta biśāla 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "nimagna ha·inu yabe,    ḍākinu kātara rabe,",
+    "keha more karaha uddhāra",
+    "seikāle āile tumi,    tomā jāni’ kūlabhūmi,",
+    "āśābīja ha·ila āmāra 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "निमग्न हइनु यबॆ,    डाकिनु कातर रबॆ,",
+      "कॆह मॊरॆ करह उद्धार",
+      "सॆइकालॆ आइलॆ तुमि,    तॊमा जानिऽ कूलभूमि,",
+      "आशाबीज हइल आमार २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নিমগ্ন হইনু যবে,    ডাকিনু কাতর রবে,",
+      "কেহ মোরে করহ উদ্ধার",
+      "সেইকালে আইলে তুমি,    তোমা জানিঽ কূলভূমি,",
+      "আশাবীজ হইল আমার ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନିମଗ୍ନ ହଇନୁ ଯବେ,    ଡାକିନୁ କାତର ରବେ,",
+      "କେହ ମୋରେ କରହ ଉଦ୍ଧାର",
+      "ସେଇକାଲେ ଆଇଲେ ତୁମି,    ତୋମା ଜାନିଽ କୂଲଭୂମି,",
+      "ଆଶାବୀଜ ହଇଲ ଆମାର ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નિમગ્ન હઇનુ યબે,    ડાકિનુ કાતર રબે,",
+      "કેહ મોરે કરહ ઉદ્ધાર",
+      "સેઇકાલે આઇલે તુમિ,    તોમા જાનિઽ કૂલભૂમિ,",
+      "આશાબીજ હઇલ આમાર ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nimagna ha·inu yabe,    ḍākinu kātara rabe,",
+      "keha more karaha uddhāra",
+      "seikāle āile tumi,    tomā jāni’ kūlabhūmi,",
+      "āśābīja ha·ila āmāra 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಿಮಗ್ನ ಹಇನು ಯಬೆ,    ಡಾಕಿನು ಕಾತರ ರಬೆ,",
+      "ಕೆಹ ಮೊರೆ ಕರಹ ಉದ್ಧಾರ",
+      "ಸೆಇಕಾಲೆ ಆಇಲೆ ತುಮಿ,    ತೊಮಾ ಜಾನಿಽ ಕೂಲಭೂಮಿ,",
+      "ಆಶಾಬೀಜ ಹಇಲ ಆಮಾರ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నిమగ్న హఇను యబె,    డాకిను కాతర రబె,",
+      "కెహ మొరె కరహ ఉద్ధార",
+      "సెఇకాలె ఆఇలె తుమి,    తొమా జానిఽ కూలభూమి,",
+      "ఆశాబీజ హఇల ఆమార 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "нимагна хаину йабэ̆,    д̣а̄кину ка̄тара рабэ̆,",
+      "кэ̆ха мо̆рэ̆ караха уддха̄ра",
+      "сэ̆ика̄лэ̆ а̄илэ̆ туми,    то̆ма̄ джа̄ни' кӯлабхӯми,",
+      "а̄ш́а̄бӣджа хаила а̄ма̄ра 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നിമഗ്ന ഹഇനു യബെ,    ഡാകിനു കാതര രബെ,",
+      "കെഹ മൊരെ കരഹ ഉദ്ധാര",
+      "സെഇകാലെ ആഇലെ തുമി,    തൊമാ ജാനിഽ കൂലഭൂമി,",
+      "ആശാബീജ ഹഇല ആമാര 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நிமக்³ன ஹஇனு யபெ³,    டா³கினு காதர ரபெ³,",
+      "கெஹ மொரெ கரஹ உத்³தா⁴ர",
+      "ஸெஇகாலெ ஆஇலெ துமி,    தொமா ஜானி(அ) கூலபூ⁴மி,",
+      "ஆஶாபீ³ஜ ஹஇல ஆமார 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nimagna ha·inu yabe,    ḍākinu kātara rabe,",
+      "keha more karaha uddhāra",
+      "seikāle āile tumi,    tomā jāni’ kūlabhūmi,",
+      "āśābīja ha·ila āmāra 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nimagna ha·inu yabe,    ḍākinu kātara rabe,",
+      "keha more karaha uddhāra",
+      "seikāle āile tumi,    tomā jāni’ kūlabhūmi,",
+      "āśābīja ha·ila āmāra 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "tumi hari dayāmaya,    pāile more suniścaya,",
+    "sarbottama dayāra biṣaya",
+    "tomāke nā chāḓi āra,    e bhaktibinoda chāra,",
+    "dayāpātra pāile dayāmaya 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तुमि हरि दयामय,    पाइलॆ मॊरॆ सुनिश्चय,",
+      "सर्बॊत्तम दयार बिषय",
+      "तॊमाकॆ ना छाḓइ आर,    ऎ भक्तिबिनॊद छार,",
+      "दयापात्र पाइलॆ दयामय ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তুমি হরি দয়াময়,    পাইলে মোরে সুনিশ্চয়,",
+      "সর্বোত্তম দয়ার বিষয়",
+      "তোমাকে না ছাḓই আর,    এ ভক্তিবিনোদ ছার,",
+      "দয়াপাত্র পাইলে দয়াময় ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୁମି ହରି ଦୟାମୟ,    ପାଇଲେ ମୋରେ ସୁନିଶ୍ଚୟ,",
+      "ସର୍ବୋତ୍ତମ ଦୟାର ବିଷୟ",
+      "ତୋମାକେ ନା ଛାḓଇ ଆର,    ଏ ଭକ୍ତିବିନୋଦ ଛାର,",
+      "ଦୟାପାତ୍ର ପାଇଲେ ଦୟାମୟ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તુમિ હરિ દયામય,    પાઇલે મોરે સુનિશ્ચય,",
+      "સર્બોત્તમ દયાર બિષય",
+      "તોમાકે ના છાḓઇ આર,    એ ભક્તિબિનોદ છાર,",
+      "દયાપાત્ર પાઇલે દયામય ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tumi hari dayāmaya,    pāile more suniścaya,",
+      "sarbottama dayāra biṣaya",
+      "tomāke nā chāḓi āra,    e bhaktibinoda chāra,",
+      "dayāpātra pāile dayāmaya 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತುಮಿ ಹರಿ ದಯಾಮಯ,    ಪಾಇಲೆ ಮೊರೆ ಸುನಿಶ್ಚಯ,",
+      "ಸರ್ಬೊತ್ತಮ ದಯಾರ ಬಿಷಯ",
+      "ತೊಮಾಕೆ ನಾ ಛಾḓಇ ಆರ,    ಎ ಭಕ್ತಿಬಿನೊದ ಛಾರ,",
+      "ದಯಾಪಾತ್ರ ಪಾಇಲೆ ದಯಾಮಯ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తుమి హరి దయామయ,    పాఇలె మొరె సునిశ్చయ,",
+      "సర్బొత్తమ దయార బిషయ",
+      "తొమాకె నా ఛాḓఇ ఆర,    ఎ భక్తిబినొద ఛార,",
+      "దయాపాత్ర పాఇలె దయామయ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "туми хари дайа̄майа,    па̄илэ̆ мо̆рэ̆ суниш́чайа,",
+      "сарбо̆ттама дайа̄ра бишайа",
+      "то̆ма̄кэ̆ на̄ чха̄ḓи а̄ра,    э̆ бхактибино̆да чха̄ра,",
+      "дайа̄па̄тра па̄илэ̆ дайа̄майа 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തുമി ഹരി ദയാമയ,    പാഇലെ മൊരെ സുനിശ്ചയ,",
+      "സർബൊത്തമ ദയാര ബിഷയ",
+      "തൊമാകെ നാ ഛാḓഇ ആര,    എ ഭക്തിബിനൊദ ഛാര,",
+      "ദയാപാത്ര പാഇലെ ദയാമയ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "துமி ஹரி த³யாமய,    பாஇலெ மொரெ ஸுநிஶ்சய,",
+      "ஸர்பொ³த்தம த³யார பி³ஷய",
+      "தொமாகெ நா சா²ḓஇ ஆர,    எ ப⁴க்திபி³னொத³ சா²ர,",
+      "த³யாபாத்ர பாஇலெ த³யாமய 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tumi hari dayāmaya,    pāile more suniścaya,",
+      "sarbottama dayāra biṣaya",
+      "tomāke nā chāḍi āra,    e bhaktibinoda chāra,",
+      "dayāpātra pāile dayāmaya 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tumi hari dayāmaya,    pāile more suniścaya,",
+      "sarbottama dayāra biṣaya",
+      "tomāke nā chāḓi āra,    e bhaktibinoda chāra,",
+      "dayāpātra pāile dayāmaya 3"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "নিমজ্জস্তোঽনন্ত-ভবার্ণবান্ত-"
+  },
+  {
+   "language_code": "ben",
+   "text": "শ্চিরায় মে কূলমিবাসি লব্ধঃ ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "ত্বয়াপি লব্ধং ভগবন্নিদানী-"
+  },
+  {
+   "language_code": "ben",
+   "text": "মনুত্তমং পাত্রমিদং দয়ায়াঃ ॥১০॥"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

@@ -1,0 +1,683 @@
+{
+ "uid": "UP5",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ওরে মন, ক্লেশ-তাপ দেখি যে অশেষ!"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "ore mana, kleśa-tāpa dekhi ye aśeṣa!"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "ore mana, kleśa[FLAG_HYPHEN_ALPHA]tāpa dekhi ye aśeṣa!",
+    "‘abidyā’ ‘asmitā’ āra,    ‘abhinibeśa’ durbāra,",
+    "‘rāga’ ‘dbeṣa’, ei pañcakleśa 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऒरॆ मन, क्लॆशताप दॆखि यॆ अशॆष!",
+      "‘अबिद्याऽ ‘अस्मिताऽ आर,    ‘अभिनिबॆशऽ दुर्बार,",
+      "‘रागऽ ‘द्बॆषऽ, ऎइ पञ्चक्लॆश १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ওরে মন, ক্লেশতাপ দেখি যে অশেষ!",
+      "‘অবিদ্যাঽ ‘অস্মিতাঽ আর,    ‘অভিনিবেশঽ দুর্বার,",
+      "‘রাগঽ ‘দ্বেষঽ, এই পঞ্চক্লেশ ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଓରେ ମନ, କ୍ଲେଶତାପ ଦେଖି ଯେ ଅଶେଷ!",
+      "‘ଅବିଦ୍ୟାଽ ‘ଅସ୍ମିତାଽ ଆର,    ‘ଅଭିନିବେଶଽ ଦୁର୍ବାର,",
+      "‘ରାଗଽ ‘ଦ୍ବେଷଽ, ଏଇ ପଞ୍ଚକ୍ଲେଶ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઓરે મન, ક્લેશતાપ દેખિ યે અશેષ!",
+      "‘અબિદ્યાઽ ‘અસ્મિતાઽ આર,    ‘અભિનિબેશઽ દુર્બાર,",
+      "‘રાગઽ ‘દ્બેષઽ, એઇ પઞ્ચક્લેશ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ore mana, kleśa-tāpa dekhi ye aśeṣa!",
+      "‘abidyā’ ‘asmitā’ āra,    ‘abhinibeśa’ durbāra,",
+      "‘rāga’ ‘dbeṣa’, ei pañcakleśa 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಒರೆ ಮನ, ಕ್ಲೆಶತಾಪ ದೆಖಿ ಯೆ ಅಶೆಷ!",
+      "‘ಅಬಿದ್ಯಾಽ ‘ಅಸ್ಮಿತಾಽ ಆರ,    ‘ಅಭಿನಿಬೆಶಽ ದುರ್ಬಾರ,",
+      "‘ರಾಗಽ ‘ದ್ಬೆಷಽ, ಎಇ ಪಂಚಕ್ಲೆಶ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఒరె మన, క్లెశతాప దెఖి యె అశెష!",
+      "‘అబిద్యాఽ ‘అస్మితాఽ ఆర,    ‘అభినిబెశఽ దుర్బార,",
+      "‘రాగఽ ‘ద్బెషఽ, ఎఇ పంచక్లెశ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "о̆рэ̆ мана, клэ̆ш́ата̄па дэ̆кхи йэ̆ аш́э̆ша!",
+      "‘абидйа̄' ‘асмита̄' а̄ра,    ‘абхинибэ̆ш́а' дурба̄ра,",
+      "‘ра̄га' ‘дбэ̆ша', э̆и пан̃чаклэ̆ш́а 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഒരെ മന, ക്ലെശതാപ ദെഖി യെ അശെഷ!",
+      "‘അബിദ്യാഽ ‘അസ്മിതാഽ ആര,    ‘അഭിനിബെശഽ ദുർബാര,",
+      "‘രാഗഽ ‘ദ്ബെഷഽ, എഇ പഞ്ചക്ലെശ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஒரெ மன, க்லெஶதாப தெ³கி² யெ அஶெஷ!",
+      "‘அபி³த்³யா(அ) ‘அஸ்மிதா(அ) ஆர,    ‘அபி⁴னிபெ³ஶ(அ) து³ர்பா³ர,",
+      "‘ராக³(அ) ‘த்³பெ³ஷ(அ), எஇ பஞ்சக்லெஶ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ore mana, kleśa-tāpa dekhi ye aśeṣa!",
+      "‘abidyā’ ‘asmitā’ āra,    ‘abhinibeśa’ durbāra,",
+      "‘rāga’ ‘dbeṣa’, ei pañcakleśa 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ore mana, kleśa-tāpa dekhi ye aśeṣa!",
+      "‘abidyā’ ‘asmitā’ āra,    ‘abhinibeśa’ durbāra,",
+      "‘rāga’ ‘dbeṣa’, ei pañcakleśa 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "abidyātma[FLAG_HYPHEN_ALPHA]bismaraṇa,    asmitānya[FLAG_HYPHEN_ALPHA]bibhābana,",
+    "abhinibeśānye gāḓhamati",
+    "anye prīti rāgāndhatā,    bidbeṣātmābiśuddhitā,",
+    "pañcakleśa sadāi durgati 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अबिद्यात्मबिस्मरण,    अस्मितान्यबिभाबन,",
+      "अभिनिबॆशान्यॆ गाḓहमति",
+      "अन्यॆ प्रीति रागान्धता,    बिद्बॆषात्माबिशुद्धिता,",
+      "पञ्चक्लॆश सदाइ दुर्गति २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অবিদ্যাত্মবিস্মরণ,    অস্মিতান্যবিভাবন,",
+      "অভিনিবেশান্যে গাḓহমতি",
+      "অন্যে প্রীতি রাগান্ধতা,    বিদ্বেষাত্মাবিশুদ্ধিতা,",
+      "পঞ্চক্লেশ সদাই দুর্গতি ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅବିଦ୍ୟାତ୍ମବିସ୍ମରଣ,    ଅସ୍ମିତାନ୍ୟବିଭାବନ,",
+      "ଅଭିନିବେଶାନ୍ୟେ ଗାḓହମତି",
+      "ଅନ୍ୟେ ପ୍ରୀତି ରାଗାନ୍ଧତା,    ବିଦ୍ବେଷାତ୍ମାବିଶୁଦ୍ଧିତା,",
+      "ପଞ୍ଚକ୍ଲେଶ ସଦାଇ ଦୁର୍ଗତି ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અબિદ્યાત્મબિસ્મરણ,    અસ્મિતાન્યબિભાબન,",
+      "અભિનિબેશાન્યે ગાḓહમતિ",
+      "અન્યે પ્રીતિ રાગાન્ધતા,    બિદ્બેષાત્માબિશુદ્ધિતા,",
+      "પઞ્ચક્લેશ સદાઇ દુર્ગતિ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "abidyātma-bismaraṇa,    asmitānya-bibhābana,",
+      "abhinibeśānye gāḓhamati",
+      "anye prīti rāgāndhatā,    bidbeṣātmābiśuddhitā,",
+      "pañcakleśa sadāi durgati 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅಬಿದ್ಯಾತ್ಮಬಿಸ್ಮರಣ,    ಅಸ್ಮಿತಾನ್ಯಬಿಭಾಬನ,",
+      "ಅಭಿನಿಬೆಶಾನ್ಯೆ ಗಾḓಹಮತಿ",
+      "ಅನ್ಯೆ ಪ್ರೀತಿ ರಾಗಾಂಧತಾ,    ಬಿದ್ಬೆಷಾತ್ಮಾಬಿಶುದ್ಧಿತಾ,",
+      "ಪಂಚಕ್ಲೆಶ ಸದಾಇ ದುರ್ಗತಿ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అబిద్యాత్మబిస్మరణ,    అస్మితాన్యబిభాబన,",
+      "అభినిబెశాన్యె గాḓహమతి",
+      "అన్యె ప్రీతి రాగాంధతా,    బిద్బెషాత్మాబిశుద్ధితా,",
+      "పంచక్లెశ సదాఇ దుర్గతి 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "абидйа̄тмабисмаран̣а,    асмита̄нйабибха̄бана,",
+      "абхинибэ̆ш́а̄нйэ̆ га̄ḓхамати",
+      "анйэ̆ прӣти ра̄га̄ндхата̄,    бидбэ̆ша̄тма̄биш́уддхита̄,",
+      "пан̃чаклэ̆ш́а сада̄и дургати 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അബിദ്യാത്മബിസ്മരണ,    അസ്മിതാന്യബിഭാബന,",
+      "അഭിനിബെശാന്യെ ഗാḓഹമതി",
+      "അന്യെ പ്രീതി രാഗാന്ധതാ,    ബിദ്ബെഷാത്മാബിശുദ്ധിതാ,",
+      "പഞ്ചക്ലെശ സദാഇ ദുർഗതി 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அபி³த்³யாத்மபி³ஸ்மரண,    அஸ்மிதான்யபி³பா⁴ப³ன,",
+      "அபி⁴னிபெ³ஶான்யெ கா³ḓஹமதி",
+      "அன்யெ ப்ரீதி ராகா³ந்த⁴தா,    பி³த்³பெ³ஷாத்மாபி³ஶுத்³தி⁴தா,",
+      "பஞ்சக்லெஶ ஸதா³இ து³ர்க³தி 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "abidyātma-bismaraṇa,    asmitānya-bibhābana,",
+      "abhinibeśānye gāḍhamati",
+      "anye prīti rāgāndhatā,    bidbeṣātmābiśuddhitā,",
+      "pañcakleśa sadāi durgati 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "abidyātma-bismaraṇa,    asmitānya-bibhābana,",
+      "abhinibeśānye gāḓhamati",
+      "anye prīti rāgāndhatā,    bidbeṣātmābiśuddhitā,",
+      "pañcakleśa sadāi durgati 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "bhuliyā baikuṇṭhatattba,    māyā[FLAG_HYPHEN_ALPHA]bhoge supramatta,",
+    "‘āmi’ ‘āmi’ kariyā beḓāi",
+    "‘e āmāra se āmāra’,    e bhābanā anibāra,",
+    "byasta kare mora citta bhāi 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भुलिया बैकुण्ठतत्त्ब,    मायाभॊगॆ सुप्रमत्त,",
+      "‘आमिऽ ‘आमिऽ करिया बॆḓआइ",
+      "‘ऎ आमार सॆ आमारऽ,    ऎ भाबना अनिबार,",
+      "ब्यस्त करॆ मॊर चित्त भाइ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভুলিয়া বৈকুণ্ঠতত্ত্ব,    মায়াভোগে সুপ্রমত্ত,",
+      "‘আমিঽ ‘আমিঽ করিয়া বেḓআই",
+      "‘এ আমার সে আমারঽ,    এ ভাবনা অনিবার,",
+      "ব্যস্ত করে মোর চিত্ত ভাই ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭୁଲିୟା ବୈକୁଣ୍ଠତତ୍ତ୍ବ,    ମାୟାଭୋଗେ ସୁପ୍ରମତ୍ତ,",
+      "‘ଆମିଽ ‘ଆମିଽ କରିୟା ବେḓଆଇ",
+      "‘ଏ ଆମାର ସେ ଆମାରଽ,    ଏ ଭାବନା ଅନିବାର,",
+      "ବ୍ୟସ୍ତ କରେ ମୋର ଚିତ୍ତ ଭାଇ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભુલિયા બૈકુણ્ઠતત્ત્બ,    માયાભોગે સુપ્રમત્ત,",
+      "‘આમિઽ ‘આમિઽ કરિયા બેḓઆઇ",
+      "‘એ આમાર સે આમારઽ,    એ ભાબના અનિબાર,",
+      "બ્યસ્ત કરે મોર ચિત્ત ભાઇ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhuliyā baikuṇṭhatattba,    māyā-bhoge supramatta,",
+      "‘āmi’ ‘āmi’ kariyā beḓāi",
+      "‘e āmāra se āmāra’,    e bhābanā anibāra,",
+      "byasta kare mora citta bhāi 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭುಲಿಯಾ ಬೈಕುಂಠತತ್ತ್ಬ,    ಮಾಯಾಭೊಗೆ ಸುಪ್ರಮತ್ತ,",
+      "‘ಆಮಿಽ ‘ಆಮಿಽ ಕರಿಯಾ ಬೆḓಆಇ",
+      "‘ಎ ಆಮಾರ ಸೆ ಆಮಾರಽ,    ಎ ಭಾಬನಾ ಅನಿಬಾರ,",
+      "ಬ್ಯಸ್ತ ಕರೆ ಮೊರ ಚಿತ್ತ ಭಾಇ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భులియా బైకుంఠతత్త్బ,    మాయాభొగె సుప్రమత్త,",
+      "‘ఆమిఽ ‘ఆమిఽ కరియా బెḓఆఇ",
+      "‘ఎ ఆమార సె ఆమారఽ,    ఎ భాబనా అనిబార,",
+      "బ్యస్త కరె మొర చిత్త భాఇ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бхулийа̄ баикун̣т̣хататтба,    ма̄йа̄бхо̆гэ̆ супраматта,",
+      "‘а̄ми' ‘а̄ми' карийа̄ бэ̆ḓа̄и",
+      "‘э̆ а̄ма̄ра сэ̆ а̄ма̄ра',    э̆ бха̄бана̄ аниба̄ра,",
+      "бйаста карэ̆ мо̆ра читта бха̄и 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭുലിയാ ബൈകുണ്ഠതത്ത്ബ,    മായാഭൊഗെ സുപ്രമത്ത,",
+      "‘ആമിഽ ‘ആമിഽ കരിയാ ബെḓആഇ",
+      "‘എ ആമാര സെ ആമാരഽ,    എ ഭാബനാ അനിബാര,",
+      "ബ്യസ്ത കരെ മൊര ചിത്ത ഭാഇ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பு⁴லியா பை³குண்ட²தத்த்ப³,    மாயாபொ⁴கெ³ ஸுப்ரமத்த,",
+      "‘ஆமி(அ) ‘ஆமி(அ) கரியா பெ³ḓஆஇ",
+      "‘எ ஆமார ஸெ ஆமார(அ),    எ பா⁴ப³னா அனிபா³ர,",
+      "ப்³யஸ்த கரெ மொர சித்த பா⁴இ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhuliyā baikuṇṭhatattba,    māyā-bhoge supramatta,",
+      "‘āmi’ ‘āmi’ kariyā beḍāi",
+      "‘e āmāra se āmāra’,    e bhābanā anibāra,",
+      "byasta kare mora citta bhāi 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhuliyā baikuṇṭhatattba,    māyā-bhoge supramatta,",
+      "‘āmi’ ‘āmi’ kariyā beḓāi",
+      "‘e āmāra se āmāra’,    e bhābanā anibāra,",
+      "byasta kare mora citta bhāi 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "e roga[FLAG_HYPHEN_ALPHA]śamanopāya,    anbeṣiyā hāya hāya,",
+    "mile baidya sadya yamopama",
+    "‘āmi—brahma, māyā—bhrama’,    ei auṣadhera krama,",
+    "dekhi’ cintā ha·ila biṣama 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎ रॊगशमनॊपाय,    अन्बॆषिया हाय हाय,",
+      "मिलॆ बैद्य सद्य यमॊपम",
+      "‘आमि—ब्रह्म, माया—भ्रमऽ,    ऎइ औषधॆर क्रम,",
+      "दॆखिऽ चिन्ता हइल बिषम ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এ রোগশমনোপায়,    অন্বেষিয়া হায় হায়,",
+      "মিলে বৈদ্য সদ্য যমোপম",
+      "‘আমি—ব্রহ্ম, মায়া—ভ্রমঽ,    এই ঔষধের ক্রম,",
+      "দেখিঽ চিন্তা হইল বিষম ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏ ରୋଗଶମନୋପାୟ,    ଅନ୍ବେଷିୟା ହାୟ ହାୟ,",
+      "ମିଲେ ବୈଦ୍ୟ ସଦ୍ୟ ଯମୋପମ",
+      "‘ଆମି—ବ୍ରହ୍ମ, ମାୟା—ଭ୍ରମଽ,    ଏଇ ଔଷଧେର କ୍ରମ,",
+      "ଦେଖିଽ ଚିନ୍ତା ହଇଲ ବିଷମ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એ રોગશમનોપાય,    અન્બેષિયા હાય હાય,",
+      "મિલે બૈદ્ય સદ્ય યમોપમ",
+      "‘આમિ—બ્રહ્મ, માયા—ભ્રમઽ,    એઇ ઔષધેર ક્રમ,",
+      "દેખિઽ ચિન્તા હઇલ બિષમ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "e roga-śamanopāya,    anbeṣiyā hāya hāya,",
+      "mile baidya sadya yamopama",
+      "‘āmi—brahma, māyā—bhrama’,    ei auṣadhera krama,",
+      "dekhi’ cintā ha·ila biṣama 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎ ರೊಗಶಮನೊಪಾಯ,    ಅನ್ಬೆಷಿಯಾ ಹಾಯ ಹಾಯ,",
+      "ಮಿಲೆ ಬೈದ್ಯ ಸದ್ಯ ಯಮೊಪಮ",
+      "‘ಆಮಿ—ಬ್ರಹ್ಮ, ಮಾಯಾ—ಭ್ರಮಽ,    ಎಇ ಔಷಧೆರ ಕ್ರಮ,",
+      "ದೆಖಿಽ ಚಿಂತಾ ಹಇಲ ಬಿಷಮ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎ రొగశమనొపాయ,    అన్బెషియా హాయ హాయ,",
+      "మిలె బైద్య సద్య యమొపమ",
+      "‘ఆమి—బ్రహ్మ, మాయా—భ్రమఽ,    ఎఇ ఔషధెర క్రమ,",
+      "దెఖిఽ చింతా హఇల బిషమ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆ ро̆гаш́амано̆па̄йа,    анбэ̆шийа̄ ха̄йа ха̄йа,",
+      "милэ̆ баидйа садйа йамо̆пама",
+      "‘а̄ми—брахма, ма̄йа̄—бхрама',    э̆и аушадхэ̆ра крама,",
+      "дэ̆кхи' чинта̄ хаила бишама 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എ രൊഗശമനൊപായ,    അൻബെഷിയാ ഹായ ഹായ,",
+      "മിലെ ബൈദ്യ സദ്യ യമൊപമ",
+      "‘ആമി—ബ്രഹ്മ, മായാ—ഭ്രമഽ,    എഇ ഔഷധെര ക്രമ,",
+      "ദെഖിഽ ചിന്താ ഹഇല ബിഷമ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எ ரொக³ஶமனொபாய,    அன்பெ³ஷியா ஹாய ஹாய,",
+      "மிலெ பை³த்³ய ஸத்³ய யமொபம",
+      "‘ஆமி—ப்³ரஹ்ம, மாயா—ப்⁴ரம(அ),    எஇ ஔஷதெ⁴ர க்ரம,",
+      "தெ³கி²(அ) சிந்தா ஹஇல பி³ஷம 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "e roga-śamanopāya,    anbeṣiyā hāya hāya,",
+      "mile baidya sadya yamopama",
+      "‘āmi—brahma, māyā—bhrama’,    ei auṣadhera krama,",
+      "dekhi’ cintā ha·ila biṣama 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "e roga-śamanopāya,    anbeṣiyā hāya hāya,",
+      "mile baidya sadya yamopama",
+      "‘āmi—brahma, māyā—bhrama’,    ei auṣadhera krama,",
+      "dekhi’ cintā ha·ila biṣama 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "eke ta’ rogera kaṣṭa,    yamopama baidya bhraṣṭa,",
+    "e[FLAG_HYPHEN_ALPHA]yantraṇā kise yāya mora ?",
+    "śrīcaitanya dayāmaya,    kara’ yadi samāśraya,",
+    "pāra ha’be e bipada ghora 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎकॆ तऽ रॊगॆर कष्ट,    यमॊपम बैद्य भ्रष्ट,",
+      "ऎयन्त्रणा किसॆ याय मॊर ?",
+      "श्रीचैतन्य दयामय,    करऽ यदि समाश्रय,",
+      "पार हऽबॆ ऎ बिपद घॊर ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "একে তঽ রোগের কষ্ট,    যমোপম বৈদ্য ভ্রষ্ট,",
+      "এয়ন্ত্রণা কিসে যায় মোর ?",
+      "শ্রীচৈতন্য দয়াময়,    করঽ যদি সমাশ্রয়,",
+      "পার হঽবে এ বিপদ ঘোর ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏକେ ତଽ ରୋଗେର କଷ୍ଟ,    ଯମୋପମ ବୈଦ୍ୟ ଭ୍ରଷ୍ଟ,",
+      "ଏୟନ୍ତ୍ରଣା କିସେ ଯାୟ ମୋର ?",
+      "ଶ୍ରୀଚୈତନ୍ୟ ଦୟାମୟ,    କରଽ ଯଦି ସମାଶ୍ରୟ,",
+      "ପାର ହଽବେ ଏ ବିପଦ ଘୋର ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એકે તઽ રોગેર કષ્ટ,    યમોપમ બૈદ્ય ભ્રષ્ટ,",
+      "એયન્ત્રણા કિસે યાય મોર ?",
+      "શ્રીચૈતન્ય દયામય,    કરઽ યદિ સમાશ્રય,",
+      "પાર હઽબે એ બિપદ ઘોર ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "eke ta’ rogera kaṣṭa,    yamopama baidya bhraṣṭa,",
+      "e-yantraṇā kise yāya mora ?",
+      "śrīcaitanya dayāmaya,    kara’ yadi samāśraya,",
+      "pāra ha’be e bipada ghora 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎಕೆ ತಽ ರೊಗೆರ ಕಷ್ಟ,    ಯಮೊಪಮ ಬೈದ್ಯ ಭ್ರಷ್ಟ,",
+      "ಎಯಂತ್ರಣಾ ಕಿಸೆ ಯಾಯ ಮೊರ ?",
+      "ಶ್ರೀಚೈತನ್ಯ ದಯಾಮಯ,    ಕರಽ ಯದಿ ಸಮಾಶ್ರಯ,",
+      "ಪಾರ ಹಽಬೆ ಎ ಬಿಪದ ಘೊರ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎకె తఽ రొగెర కష్ట,    యమొపమ బైద్య భ్రష్ట,",
+      "ఎయంత్రణా కిసె యాయ మొర ?",
+      "శ్రీచైతన్య దయామయ,    కరఽ యది సమాశ్రయ,",
+      "పార హఽబె ఎ బిపద ఘొర 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆кэ̆ та' ро̆гэ̆ра кашт̣а,    йамо̆пама баидйа бхрашт̣а,",
+      "э̆йантран̣а̄ кисэ̆ йа̄йа мо̆ра ?",
+      "ш́рӣчаитанйа дайа̄майа,    кара' йади сама̄ш́райа,",
+      "па̄ра ха'бэ̆ э̆ бипада гхо̆ра 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എകെ തഽ രൊഗെര കഷ്ട,    യമൊപമ ബൈദ്യ ഭ്രഷ്ട,",
+      "എയന്ത്രണാ കിസെ യായ മൊര ?",
+      "ശ്രീചൈതന്യ ദയാമയ,    കരഽ യദി സമാശ്രയ,",
+      "പാര ഹഽബെ എ ബിപദ ഘൊര 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எகெ த(அ) ரொகெ³ர கஷ்ட,    யமொபம பை³த்³ய ப்⁴ரஷ்ட,",
+      "எயந்த்ரணா கிஸெ யாய மொர ?",
+      "ஶ்ரீசைதன்ய த³யாமய,    கர(அ) யதி³ ஸமாஶ்ரய,",
+      "பார ஹ(அ)பெ³ எ பி³பத³ கொ⁴ர 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "eke ta’ rogera kaṣṭa,    yamopama baidya bhraṣṭa,",
+      "e-yantraṇā kise yāya mora ?",
+      "śrīcaitanya dayāmaya,    kara’ yadi samāśraya,",
+      "pāra ha’be e bipada ghora 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "eke ta’ rogera kaṣṭa,    yamopama baidya bhraṣṭa,",
+      "e-yantraṇā kise yāya mora ?",
+      "śrīcaitanya dayāmaya,    kara’ yadi samāśraya,",
+      "pāra ha’be e bipada ghora 5"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- অবিদ্যা—আত্ম-বিস্মরণ; অস্মিতা—অন্য (অনাত্ম বস্তুতে আমি আমার) ভাবনা; অভিনিবেশ—অন্য বিষয়ে গাড়মতি; রাগ—অনাত্ম-বস্তুতে অন্ধ প্রীতি; দ্বেষ—আত্মার অবিশুদ্ধতা; সদ্য যমোপম—সাক্ষাৎ যমতুল্য ।"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Anutāpa",
+  "Upalabdhi from Kalyāṇa-kalpataru"
+ ]
+}

@@ -1,0 +1,188 @@
+{
+  "uid": "D1",
+  "language_of_origin": "san",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীমন্ নৱদ্ৱীপ-স্তোত্রম্"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "śrīman navadvīpa-stotram"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रीमन् नवद्वीप-स्तोत्रम्"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీమన్ నవద్వీప-స్తోత్రం"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಮನ್ ನವದ್ವೀಪ-ಸ್ತೋತ್ರಂ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீமன் நவத்³வீப-ஸ்தோத்ரம்"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീമൻ നവദ്വീപ-സ്തോത്രം"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીમન્ નવદ્વીપ-સ્તોત્રમ્"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀମନ୍ ନବଦ୍ୱୀପ-ସ୍ତୋତ୍ରମ୍"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣман навадвӣпа-стотрам"
+    }
+  ],
+  "author_uid": "rg",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল রূপ গোস্ৱামী"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Rūpa Gosvāmī"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील रूप गोस्वामी"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల రూప గోస్వామీ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ರೂಪ ಗೋಸ್ವಾಮೀ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ரூப கோ³ஸ்வாமீ"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല രൂപ ഗോസ്വാമീ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ રૂપ ગોસ્વામી"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ରୂପ ଗୋସ୍ୱାମୀ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла рӯпа госва̄мӣ"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "śrīman navadvīpa[FLAG_HYPHEN_ALPHA]stotram"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीमन् नवद्वीपस्तॊत्रम्"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীমন্ নবদ্বীপস্তোত্রম্"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀମନ୍ ନବଦ୍ୱୀପସ୍ତୋତ୍ରମ୍"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીમન્ નવદ્વીપસ્તોત્રમ્"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrīman navadvīpa-stotram"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಮನ್ ನವದ್ವೀಪಸ್ತೊತ್ರಂ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీమన్ నవద్వీపస్తొత్రం"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣман навадвӣпасто̆трам"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീമൻ നവദ്വീപസ്തൊത്രം"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீமன் நவத்³வீபஸ்தொத்ரம்"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrīman navadvīpa-stotram"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrīman navadvīpa-stotram"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": []
+}

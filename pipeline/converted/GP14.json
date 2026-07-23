@@ -1,0 +1,553 @@
+{
+ "uid": "GP14",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হরি! বড় শেল মরমে রহিল"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari hari! baḓa śela marame rahila"
+  }
+ ],
+ "author_uid": "ndt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Narottama dāsa Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari hari! baḓa śela marame rahila",
+    "pāiyā durllabha tanu,    śrīkṛṣṇabhajana binu,",
+    "janma mora biphala ha·ila 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हरि! बḓअ शॆल मरमॆ रहिल",
+      "पाइया दुर्ल्लभ तनु,    श्रीक्ड़्ष्णभजन बिनु,",
+      "जन्म मॊर बिफल हइल १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হরি! বḓঅ শেল মরমে রহিল",
+      "পাইয়া দুর্ল্লভ তনু,    শ্রীক্ড়্ষ্ণভজন বিনু,",
+      "জন্ম মোর বিফল হইল ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହରି! ବḓଅ ଶେଲ ମରମେ ରହିଲ",
+      "ପାଇୟା ଦୁର୍ଲ୍ଲଭ ତନୁ,    ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣଭଜନ ବିନୁ,",
+      "ଜନ୍ମ ମୋର ବିଫଲ ହଇଲ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હરિ! બḓઅ શેલ મરમે રહિલ",
+      "પાઇયા દુર્લ્લભ તનુ,    શ્રીક્ડ઼્ષ્ણભજન બિનુ,",
+      "જન્મ મોર બિફલ હઇલ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari hari! baḓa śela marame rahila",
+      "pāiyā durllabha tanu,    śrīkṛṣṇabhajana binu,",
+      "janma mora biphala ha·ila 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹರಿ! ಬḓಅ ಶೆಲ ಮರಮೆ ರಹಿಲ",
+      "ಪಾಇಯಾ ದುರ್ಲ್ಲಭ ತನು,    ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಭಜನ ಬಿನು,",
+      "ಜನ್ಮ ಮೊರ ಬಿಫಲ ಹಇಲ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హరి! బḓఅ శెల మరమె రహిల",
+      "పాఇయా దుర్ల్లభ తను,    శ్రీక్డ్ష్ణభజన బిను,",
+      "జన్మ మొర బిఫల హఇల 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хари! баḓа ш́э̆ла марамэ̆ рахила",
+      "па̄ийа̄ дурллабха тану,    ш́рӣкр̤шн̣абхаджана бину,",
+      "джанма мо̆ра бипхала хаила 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹരി! ബḓഅ ശെല മരമെ രഹില",
+      "പാഇയാ ദുർല്ലഭ തനു,    ശ്രീക്ഡ്ഷ്ണഭജന ബിനു,",
+      "ജന്മ മൊര ബിഫല ഹഇല 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹரி! ப³ḓஅ ஶெல மரமெ ரஹில",
+      "பாஇயா து³ர்ல்லப⁴ தனு,    ஶ்ரீக்ஃட்²ஷ்ணப⁴ஜன பி³னு,",
+      "ஜன்ம மொர பி³ப²ல ஹஇல 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari hari! baḍa śela marame rahila",
+      "pāiyā durllabha tanu,    śrīkṛṣṇabhajana binu,",
+      "janma mora biphala ha·ila 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari hari! baḓa śela marame rahila",
+      "pāiyā durllabha tanu,    śrīkṛṣṇabhajana binu,",
+      "janma mora biphala ha·ila 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "brajendranandana hari,    nabadbīpe abatari’,",
+    "jagat bhariyā prema dila",
+    "muĩ se pāmara[FLAG_HYPHEN_ALPHA]mati,    biśeṣe kaṭhina ati,",
+    "tẽ·i more karuṇā nahila 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ब्रजॆन्द्रनन्दन हरि,    नबद्बीपॆ अबतरिऽ,",
+      "जगत् भरिया प्रॆम दिल",
+      "मुइं सॆ पामरमति,    बिशॆषॆ कठिन अति,",
+      "त्ẽइ मॊरॆ करुणा नहिल २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ব্রজেন্দ্রনন্দন হরি,    নবদ্বীপে অবতরিঽ,",
+      "জগৎ ভরিয়া প্রেম দিল",
+      "মুইং সে পামরমতি,    বিশেষে কঠিন অতি,",
+      "ৎẽই মোরে করুণা নহিল ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବ୍ରଜେନ୍ଦ୍ରନନ୍ଦନ ହରି,    ନବଦ୍ବୀପେ ଅବତରିଽ,",
+      "ଜଗତ୍ ଭରିୟା ପ୍ରେମ ଦିଲ",
+      "ମୁଇଂ ସେ ପାମରମତି,    ବିଶେଷେ କଠିନ ଅତି,",
+      "ତ୍ẽଇ ମୋରେ କରୁଣା ନହିଲ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બ્રજેન્દ્રનન્દન હરિ,    નબદ્બીપે અબતરિઽ,",
+      "જગત્ ભરિયા પ્રેમ દિલ",
+      "મુઇં સે પામરમતિ,    બિશેષે કઠિન અતિ,",
+      "ત્ẽઇ મોરે કરુણા નહિલ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "brajendranandana hari,    nabadbīpe abatari’,",
+      "jagat bhariyā prema dila",
+      "muĩ se pāmara-mati,    biśeṣe kaṭhina ati,",
+      "tẽ·i more karuṇā nahila 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬ್ರಜೆಂದ್ರನಂದನ ಹರಿ,    ನಬದ್ಬೀಪೆ ಅಬತರಿಽ,",
+      "ಜಗತ್ ಭರಿಯಾ ಪ್ರೆಮ ದಿಲ",
+      "ಮುಇಂ ಸೆ ಪಾಮರಮತಿ,    ಬಿಶೆಷೆ ಕಠಿನ ಅತಿ,",
+      "ತ್ẽಇ ಮೊರೆ ಕರುಣಾ ನಹಿಲ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బ్రజెంద్రనందన హరి,    నబద్బీపె అబతరిఽ,",
+      "జగత్ భరియా ప్రెమ దిల",
+      "ముఇం సె పామరమతి,    బిశెషె కఠిన అతి,",
+      "త్ẽఇ మొరె కరుణా నహిల 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "браджэ̆ндранандана хари,    набадбӣпэ̆ абатари',",
+      "джагат бхарийа̄ прэ̆ма дила",
+      "муим̣ сэ̆ па̄марамати,    биш́э̆шэ̆ кат̣хина ати,",
+      "тẽи мо̆рэ̆ карун̣а̄ нахила 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബ്രജെന്ദ്രനന്ദന ഹരി,    നബദ്ബീപെ അബതരിഽ,",
+      "ജഗത് ഭരിയാ പ്രെമ ദില",
+      "മുഇം സെ പാമരമതി,    ബിശെഷെ കഠിന അതി,",
+      "ത്ẽഇ മൊരെ കരുണാ നഹില 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்³ரஜெந்த்³ரநந்த³ன ஹரி,    நப³த்³பீ³பெ அப³தரி(அ),",
+      "ஜக³த் ப⁴ரியா ப்ரெம தி³ல",
+      "முஇம்ʼ ஸெ பாமரமதி,    பி³ஶெஷெ கடி²ன அதி,",
+      "த்ẽஇ மொரெ கருணா நஹில 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "brajendranandana hari,    nabadbīpe abatari’,",
+      "jagat bhariyā prema dila",
+      "muĩ se pāmara-mati,    biśeṣe kaṭhina ati,",
+      "tẽ·i more karuṇā nahila 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "brajendranandana hari,    nabadbīpe abatari’,",
+      "jagat bhariyā prema dila",
+      "muĩ se pāmara-mati,    biśeṣe kaṭhina ati,",
+      "tẽ·i more karuṇā nahila 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "sbarūpa, sanātana, rūpa,    raghunātha bhaṭṭayuga,",
+    "tāhāte nā haila mora mati",
+    "dibyacintāmaṇidhāma,    bṛndābana hena sthāna,",
+    "sei dhāme nā kainu basati 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "स्बरूप, सनातन, रूप,    रघुनाथ भट्टयुग,",
+      "ताहातॆ ना हैल मॊर मति",
+      "दिब्यचिन्तामणिधाम,    ब्ड़्न्दाबन हॆन स्थान,",
+      "सॆइ धामॆ ना कैनु बसति ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "স্বরূপ, সনাতন, রূপ,    রঘুনাথ ভট্টয়ুগ,",
+      "তাহাতে না হৈল মোর মতি",
+      "দিব্যচিন্তামণিধাম,    ব্ড়্ন্দাবন হেন স্থান,",
+      "সেই ধামে না কৈনু বসতি ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସ୍ବରୂପ, ସନାତନ, ରୂପ,    ରଘୁନାଥ ଭଟ୍ଟୟୁଗ,",
+      "ତାହାତେ ନା ହୈଲ ମୋର ମତି",
+      "ଦିବ୍ୟଚିନ୍ତାମଣିଧାମ,    ବ୍ଡ଼୍ନ୍ଦାବନ ହେନ ସ୍ଥାନ,",
+      "ସେଇ ଧାମେ ନା କୈନୁ ବସତି ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સ્બરૂપ, સનાતન, રૂપ,    રઘુનાથ ભટ્ટયુગ,",
+      "તાહાતે ના હૈલ મોર મતિ",
+      "દિબ્યચિન્તામણિધામ,    બ્ડ઼્ન્દાબન હેન સ્થાન,",
+      "સેઇ ધામે ના કૈનુ બસતિ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sbarūpa, sanātana, rūpa,    raghunātha bhaṭṭayuga,",
+      "tāhāte nā haila mora mati",
+      "dibyacintāmaṇidhāma,    bṛndābana hena sthāna,",
+      "sei dhāme nā kainu basati 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸ್ಬರೂಪ, ಸನಾತನ, ರೂಪ,    ರಘುನಾಥ ಭಟ್ಟಯುಗ,",
+      "ತಾಹಾತೆ ನಾ ಹೈಲ ಮೊರ ಮತಿ",
+      "ದಿಬ್ಯಚಿಂತಾಮಣಿಧಾಮ,    ಬ್‌ಡ಼್ನ್ದಾಬನ ಹೆನ ಸ್ಥಾನ,",
+      "ಸೆಇ ಧಾಮೆ ನಾ ಕೈನು ಬಸತಿ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "స్బరూప, సనాతన, రూప,    రఘునాథ భట్టయుగ,",
+      "తాహాతె నా హైల మొర మతి",
+      "దిబ్యచింతామణిధామ,    బ్డ్న్దాబన హెన స్థాన,",
+      "సెఇ ధామె నా కైను బసతి 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сбарӯпа, сана̄тана, рӯпа,    рагхуна̄тха бхат̣т̣айуга,",
+      "та̄ха̄тэ̆ на̄ хаила мо̆ра мати",
+      "дибйачинта̄ман̣идха̄ма,    бр̤нда̄бана хэ̆на стха̄на,",
+      "сэ̆и дха̄мэ̆ на̄ каину басати 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സ്ബരൂപ, സനാതന, രൂപ,    രഘുനാഥ ഭട്ടയുഗ,",
+      "താഹാതെ നാ ഹൈല മൊര മതി",
+      "ദിബ്യചിന്താമണിധാമ,    ബ്ഡ്ന്ദാബന ഹെന സ്ഥാന,",
+      "സെഇ ധാമെ നാ കൈനു ബസതി 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸ்ப³ரூப, ஸனாதன, ரூப,    ரகு⁴நாத² ப⁴ட்டயுக³,",
+      "தாஹாதெ நா ஹைல மொர மதி",
+      "தி³ப்³யசிந்தாமணிதா⁴ம,    ப்³ஃட்²ந்தா³ப³ன ஹென ஸ்தா²ன,",
+      "ஸெஇ தா⁴மெ நா கைனு ப³ஸதி 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sbarūpa, sanātana, rūpa,    raghunātha bhaṭṭayuga,",
+      "tāhāte nā haila mora mati",
+      "dibyacintāmaṇidhāma,    bṛndābana hena sthāna,",
+      "sei dhāme nā kainu basati 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sbarūpa, sanātana, rūpa,    raghunātha bhaṭṭayuga,",
+      "tāhāte nā haila mora mati",
+      "dibyacintāmaṇidhāma,    bṛndābana hena sthāna,",
+      "sei dhāme nā kainu basati 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "biśeṣa biṣaye mati,    nahila baiṣṇabe rati,",
+    "nirantara kheda uṭhe mane",
+    "narottamadāsa kahe,    jībāra ucita nahe,",
+    "śrīgurubaiṣṇaba[FLAG_HYPHEN_ALPHA]sebā bine 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बिशॆष बिषयॆ मति,    नहिल बैष्णबॆ रति,",
+      "निरन्तर खॆद उठॆ मनॆ",
+      "नरॊत्तमदास कहॆ,    जीबार उचित नहॆ,",
+      "श्रीगुरुबैष्णबसॆबा बिनॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বিশেষ বিষয়ে মতি,    নহিল বৈষ্ণবে রতি,",
+      "নিরন্তর খেদ উঠে মনে",
+      "নরোত্তমদাস কহে,    জীবার উচিত নহে,",
+      "শ্রীগুরুবৈষ্ণবসেবা বিনে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବିଶେଷ ବିଷୟେ ମତି,    ନହିଲ ବୈଷ୍ଣବେ ରତି,",
+      "ନିରନ୍ତର ଖେଦ ଉଠେ ମନେ",
+      "ନରୋତ୍ତମଦାସ କହେ,    ଜୀବାର ଉଚିତ ନହେ,",
+      "ଶ୍ରୀଗୁରୁବୈଷ୍ଣବସେବା ବିନେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બિશેષ બિષયે મતિ,    નહિલ બૈષ્ણબે રતિ,",
+      "નિરન્તર ખેદ ઉઠે મને",
+      "નરોત્તમદાસ કહે,    જીબાર ઉચિત નહે,",
+      "શ્રીગુરુબૈષ્ણબસેબા બિને ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "biśeṣa biṣaye mati,    nahila baiṣṇabe rati,",
+      "nirantara kheda uṭhe mane",
+      "narottamadāsa kahe,    jībāra ucita nahe,",
+      "śrīgurubaiṣṇaba-sebā bine 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬಿಶೆಷ ಬಿಷಯೆ ಮತಿ,    ನಹಿಲ ಬೈಷ್ಣಬೆ ರತಿ,",
+      "ನಿರಂತರ ಖೆದ ಉಠೆ ಮನೆ",
+      "ನರೊತ್ತಮದಾಸ ಕಹೆ,    ಜೀಬಾರ ಉಚಿತ ನಹೆ,",
+      "ಶ್ರೀಗುರುಬೈಷ್ಣಬಸೆಬಾ ಬಿನೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బిశెష బిషయె మతి,    నహిల బైష్ణబె రతి,",
+      "నిరంతర ఖెద ఉఠె మనె",
+      "నరొత్తమదాస కహె,    జీబార ఉచిత నహె,",
+      "శ్రీగురుబైష్ణబసెబా బినె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "биш́э̆ша бишайэ̆ мати,    нахила баишн̣абэ̆ рати,",
+      "нирантара кхэ̆да ут̣хэ̆ манэ̆",
+      "наро̆ттамада̄са кахэ̆,    джӣба̄ра учита нахэ̆,",
+      "ш́рӣгурубаишн̣абасэ̆ба̄ бинэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബിശെഷ ബിഷയെ മതി,    നഹില ബൈഷ്ണബെ രതി,",
+      "നിരന്തര ഖെദ ഉഠെ മനെ",
+      "നരൊത്തമദാസ കഹെ,    ജീബാര ഉചിത നഹെ,",
+      "ശ്രീഗുരുബൈഷ്ണബസെബാ ബിനെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பி³ஶெஷ பி³ஷயெ மதி,    நஹில பை³ஷ்ணபெ³ ரதி,",
+      "நிரந்தர கெ²த³ உடெ² மனெ",
+      "நரொத்தமதா³ஸ கஹெ,    ஜீபா³ர உசித நஹெ,",
+      "ஶ்ரீகு³ருபை³ஷ்ணப³ஸெபா³ பி³னெ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "biśeṣa biṣaye mati,    nahila baiṣṇabe rati,",
+      "nirantara kheda uṭhe mane",
+      "narottamadāsa kahe,    jībāra ucita nahe,",
+      "śrīgurubaiṣṇaba-sebā bine 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "biśeṣa biṣaye mati,    nahila baiṣṇabe rati,",
+      "nirantara kheda uṭhe mane",
+      "narottamadāsa kahe,    jībāra ucita nahe,",
+      "śrīgurubaiṣṇaba-sebā bine 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "srrb-1",
+   "filename": "GP14-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ],
+ "tags": [
+  "Gaurāṅga with His Associates",
+  "Prayer of Humility to Gaura-Kṛṣṇa with Their Associates"
+ ]
+}

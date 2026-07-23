@@ -5,24 +5,24 @@ class CollectionsViewModel: ObservableObject {
     @Published var selectedCategory: Category = .bookmarks
     @Published var collections: [Collection] = []
     @Published var searchText: String = ""
-    
+
     enum Category: String, CaseIterable, Identifiable {
         case bookmarks = "Bookmarks"
         case playlists = "Playlists"
-        
+
         var id: String { self.rawValue }
     }
-    
-    init() {
-        loadData()
+
+    init(repository: SongRepository = .shared) {
+        loadData(repository: repository)
     }
-    
-    private func loadData() {
-        // Use the same sample data as HomeViewModel
-        let homeVM = HomeViewModel()
-        self.collections = homeVM.collections
+
+    private func loadData(repository: SongRepository) {
+        // No collection data ships in the current corpus (see SongRepository.songGroups); this
+        // resolves to an empty list until a pipeline slice emits `kind == .collection` groupings.
+        collections = repository.songGroups(kind: .collection).map { Collection(songGroup: $0, type: .playlist) }
     }
-    
+
     // Filtered collections based on selected category and search text
     var filteredCollections: [Collection] {
         let categoryFiltered = collections.filter { collection in
@@ -33,7 +33,7 @@ class CollectionsViewModel: ObservableObject {
                 return collection.type == .playlist
             }
         }
-        
+
         if searchText.isEmpty {
             return categoryFiltered
         } else {
@@ -42,7 +42,7 @@ class CollectionsViewModel: ObservableObject {
             }
         }
     }
-    
+
     // Search placeholder text based on selected category
     var searchPlaceholder: String {
         "Search \(selectedCategory.rawValue)"

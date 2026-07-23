@@ -1,0 +1,644 @@
+{
+ "uid": "UP4",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ওরে মন, কি বিপদ হইল আমার"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "ore mana, ki bipada ha·ila āmāra"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "ore mana, ki bipada ha·ila āmāra",
+    "māyāra daurātmya[FLAG_HYPHEN_ALPHA]jbare,    bikāra jībere dhare,",
+    "tāhā haite pāite nistāra 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऒरॆ मन, कि बिपद हइल आमार",
+      "मायार दौरात्म्यज्बरॆ,    बिकार जीबॆरॆ धरॆ,",
+      "ताहा हैतॆ पाइतॆ निस्तार १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ওরে মন, কি বিপদ হইল আমার",
+      "মায়ার দৌরাত্ম্যজ্বরে,    বিকার জীবেরে ধরে,",
+      "তাহা হৈতে পাইতে নিস্তার ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଓରେ ମନ, କି ବିପଦ ହଇଲ ଆମାର",
+      "ମାୟାର ଦୌରାତ୍ମ୍ୟଜ୍ବରେ,    ବିକାର ଜୀବେରେ ଧରେ,",
+      "ତାହା ହୈତେ ପାଇତେ ନିସ୍ତାର ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઓરે મન, કિ બિપદ હઇલ આમાર",
+      "માયાર દૌરાત્મ્યજ્બરે,    બિકાર જીબેરે ધરે,",
+      "તાહા હૈતે પાઇતે નિસ્તાર ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ore mana, ki bipada ha·ila āmāra",
+      "māyāra daurātmya-jbare,    bikāra jībere dhare,",
+      "tāhā haite pāite nistāra 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಒರೆ ಮನ, ಕಿ ಬಿಪದ ಹಇಲ ಆಮಾರ",
+      "ಮಾಯಾರ ದೌರಾತ್ಮ್ಯಜ್ಬರೆ,    ಬಿಕಾರ ಜೀಬೆರೆ ಧರೆ,",
+      "ತಾಹಾ ಹೈತೆ ಪಾಇತೆ ನಿಸ್ತಾರ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఒరె మన, కి బిపద హఇల ఆమార",
+      "మాయార దౌరాత్మ్యజ్బరె,    బికార జీబెరె ధరె,",
+      "తాహా హైతె పాఇతె నిస్తార 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "о̆рэ̆ мана, ки бипада хаила а̄ма̄ра",
+      "ма̄йа̄ра даура̄тмйаджбарэ̆,    бика̄ра джӣбэ̆рэ̆ дхарэ̆,",
+      "та̄ха̄ хаитэ̆ па̄итэ̆ ниста̄ра 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഒരെ മന, കി ബിപദ ഹഇല ആമാര",
+      "മായാര ദൗരാത്മ്യജ്ബരെ,    ബികാര ജീബെരെ ധരെ,",
+      "താഹാ ഹൈതെ പാഇതെ നിസ്താര 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஒரெ மன, கி பி³பத³ ஹஇல ஆமார",
+      "மாயார தௌ³ராத்ம்யஜ்ப³ரெ,    பி³கார ஜீபெ³ரெ த⁴ரெ,",
+      "தாஹா ஹைதெ பாஇதெ நிஸ்தார 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ore mana, ki bipada ha·ila āmāra",
+      "māyāra daurātmya-jbare,    bikāra jībere dhare,",
+      "tāhā haite pāite nistāra 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ore mana, ki bipada ha·ila āmāra",
+      "māyāra daurātmya-jbare,    bikāra jībere dhare,",
+      "tāhā haite pāite nistāra 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "sādhinu adbaita[FLAG_HYPHEN_ALPHA]mata,    yāhe māyā haya hata,",
+    "biṣa sebi’ bikāra kāṭila",
+    "kintu e durbhāgya mora,    bikāra kāṭila ghora,",
+    "biṣera jbālāya prāṇa gela 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "साधिनु अद्बैतमत,    याहॆ माया हय हत,",
+      "बिष सॆबिऽ बिकार काटिल",
+      "किन्तु ऎ दुर्भाग्य मॊर,    बिकार काटिल घॊर,",
+      "बिषॆर ज्बालाय प्राण गॆल २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সাধিনু অদ্বৈতমত,    যাহে মায়া হয় হত,",
+      "বিষ সেবিঽ বিকার কাটিল",
+      "কিন্তু এ দুর্ভাগ্য মোর,    বিকার কাটিল ঘোর,",
+      "বিষের জ্বালায় প্রাণ গেল ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସାଧିନୁ ଅଦ୍ବୈତମତ,    ଯାହେ ମାୟା ହୟ ହତ,",
+      "ବିଷ ସେବିଽ ବିକାର କାଟିଲ",
+      "କିନ୍ତୁ ଏ ଦୁର୍ଭାଗ୍ୟ ମୋର,    ବିକାର କାଟିଲ ଘୋର,",
+      "ବିଷେର ଜ୍ବାଲାୟ ପ୍ରାଣ ଗେଲ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સાધિનુ અદ્બૈતમત,    યાહે માયા હય હત,",
+      "બિષ સેબિઽ બિકાર કાટિલ",
+      "કિન્તુ એ દુર્ભાગ્ય મોર,    બિકાર કાટિલ ઘોર,",
+      "બિષેર જ્બાલાય પ્રાણ ગેલ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sādhinu adbaita-mata,    yāhe māyā haya hata,",
+      "biṣa sebi’ bikāra kāṭila",
+      "kintu e durbhāgya mora,    bikāra kāṭila ghora,",
+      "biṣera jbālāya prāṇa gela 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸಾಧಿನು ಅದ್ಬೈತಮತ,    ಯಾಹೆ ಮಾಯಾ ಹಯ ಹತ,",
+      "ಬಿಷ ಸೆಬಿಽ ಬಿಕಾರ ಕಾಟಿಲ",
+      "ಕಿಂತು ಎ ದುರ್ಭಾಗ್ಯ ಮೊರ,    ಬಿಕಾರ ಕಾಟಿಲ ಘೊರ,",
+      "ಬಿಷೆರ ಜ್ಬಾಲಾಯ ಪ್ರಾಣ ಗೆಲ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సాధిను అద్బైతమత,    యాహె మాయా హయ హత,",
+      "బిష సెబిఽ బికార కాటిల",
+      "కింతు ఎ దుర్భాగ్య మొర,    బికార కాటిల ఘొర,",
+      "బిషెర జ్బాలాయ ప్రాణ గెల 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "са̄дхину адбаитамата,    йа̄хэ̆ ма̄йа̄ хайа хата,",
+      "биша сэ̆би' бика̄ра ка̄т̣ила",
+      "кинту э̆ дурбха̄гйа мо̆ра,    бика̄ра ка̄т̣ила гхо̆ра,",
+      "бишэ̆ра джба̄ла̄йа пра̄н̣а гэ̆ла 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സാധിനു അദ്ബൈതമത,    യാഹെ മായാ ഹയ ഹത,",
+      "ബിഷ സെബിഽ ബികാര കാടില",
+      "കിന്തു എ ദുർഭാഗ്യ മൊര,    ബികാര കാടില ഘൊര,",
+      "ബിഷെര ജ്ബാലായ പ്രാണ ഗെല 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸாதி⁴னு அத்³பை³தமத,    யாஹெ மாயா ஹய ஹத,",
+      "பி³ஷ ஸெபி³(அ) பி³கார காடில",
+      "கிந்து எ து³ர்பா⁴க்³ய மொர,    பி³கார காடில கொ⁴ர,",
+      "பி³ஷெர ஜ்பா³லாய ப்ராண கெ³ல 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sādhinu adbaita-mata,    yāhe māyā haya hata,",
+      "biṣa sebi’ bikāra kāṭila",
+      "kintu e durbhāgya mora,    bikāra kāṭila ghora,",
+      "biṣera jbālāya prāṇa gela 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sādhinu adbaita-mata,    yāhe māyā haya hata,",
+      "biṣa sebi’ bikāra kāṭila",
+      "kintu e durbhāgya mora,    bikāra kāṭila ghora,",
+      "biṣera jbālāya prāṇa gela 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "‘āmi brahma ekamātra’,    e jbālāya dahe gātra,",
+    "ihāra upāya kibā bhāi ?",
+    "bikāra ye chila bhāla,    auṣadha jañjāla ha’la,",
+    "auṣadha[FLAG_HYPHEN_ALPHA]auṣadha kothā pāi 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "‘आमि ब्रह्म ऎकमात्रऽ,    ऎ ज्बालाय दहॆ गात्र,",
+      "इहार उपाय किबा भाइ ?",
+      "बिकार यॆ छिल भाल,    औषध जञ्जाल हऽल,",
+      "औषधऔषध कॊथा पाइ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "‘আমি ব্রহ্ম একমাত্রঽ,    এ জ্বালায় দহে গাত্র,",
+      "ইহার উপায় কিবা ভাই ?",
+      "বিকার যে ছিল ভাল,    ঔষধ জঞ্জাল হঽল,",
+      "ঔষধঔষধ কোথা পাই ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "‘ଆମି ବ୍ରହ୍ମ ଏକମାତ୍ରଽ,    ଏ ଜ୍ବାଲାୟ ଦହେ ଗାତ୍ର,",
+      "ଇହାର ଉପାୟ କିବା ଭାଇ ?",
+      "ବିକାର ଯେ ଛିଲ ଭାଲ,    ଔଷଧ ଜଞ୍ଜାଲ ହଽଲ,",
+      "ଔଷଧଔଷଧ କୋଥା ପାଇ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "‘આમિ બ્રહ્મ એકમાત્રઽ,    એ જ્બાલાય દહે ગાત્ર,",
+      "ઇહાર ઉપાય કિબા ભાઇ ?",
+      "બિકાર યે છિલ ભાલ,    ઔષધ જઞ્જાલ હઽલ,",
+      "ઔષધઔષધ કોથા પાઇ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "‘āmi brahma ekamātra’,    e jbālāya dahe gātra,",
+      "ihāra upāya kibā bhāi ?",
+      "bikāra ye chila bhāla,    auṣadha jañjāla ha’la,",
+      "auṣadha-auṣadha kothā pāi 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "‘ಆಮಿ ಬ್ರಹ್ಮ ಎಕಮಾತ್ರಽ,    ಎ ಜ್ಬಾಲಾಯ ದಹೆ ಗಾತ್ರ,",
+      "ಇಹಾರ ಉಪಾಯ ಕಿಬಾ ಭಾಇ ?",
+      "ಬಿಕಾರ ಯೆ ಛಿಲ ಭಾಲ,    ಔಷಧ ಜಂಜಾಲ ಹಽಲ,",
+      "ಔಷಧಔಷಧ ಕೊಥಾ ಪಾಇ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "‘ఆమి బ్రహ్మ ఎకమాత్రఽ,    ఎ జ్బాలాయ దహె గాత్ర,",
+      "ఇహార ఉపాయ కిబా భాఇ ?",
+      "బికార యె ఛిల భాల,    ఔషధ జంజాల హఽల,",
+      "ఔషధఔషధ కొథా పాఇ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "‘а̄ми брахма э̆кама̄тра',    э̆ джба̄ла̄йа дахэ̆ га̄тра,",
+      "иха̄ра упа̄йа киба̄ бха̄и ?",
+      "бика̄ра йэ̆ чхила бха̄ла,    аушадха джан̃джа̄ла ха'ла,",
+      "аушадхааушадха ко̆тха̄ па̄и 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "‘ആമി ബ്രഹ്മ എകമാത്രഽ,    എ ജ്ബാലായ ദഹെ ഗാത്ര,",
+      "ഇഹാര ഉപായ കിബാ ഭാഇ ?",
+      "ബികാര യെ ഛില ഭാല,    ഔഷധ ജഞ്ജാല ഹഽല,",
+      "ഔഷധഔഷധ കൊഥാ പാഇ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "‘ஆமி ப்³ரஹ்ம எகமாத்ர(அ),    எ ஜ்பா³லாய த³ஹெ கா³த்ர,",
+      "இஹார உபாய கிபா³ பா⁴இ ?",
+      "பி³கார யெ சி²ல பா⁴ல,    ஔஷத⁴ ஜஞ்ஜால ஹ(அ)ல,",
+      "ஔஷத⁴ஔஷத⁴ கொதா² பாஇ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "‘āmi brahma ekamātra’,    e jbālāya dahe gātra,",
+      "ihāra upāya kibā bhāi ?",
+      "bikāra ye chila bhāla,    auṣadha jañjāla ha’la,",
+      "auṣadha-auṣadha kothā pāi 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "‘āmi brahma ekamātra’,    e jbālāya dahe gātra,",
+      "ihāra upāya kibā bhāi ?",
+      "bikāra ye chila bhāla,    auṣadha jañjāla ha’la,",
+      "auṣadha-auṣadha kothā pāi 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "māyādatta[FLAG_HYPHEN_ALPHA]kubikāra,    māyābāda biṣabhāra,",
+    "e dui āpada[FLAG_HYPHEN_ALPHA]nibāraṇa",
+    "harināmāmṛta[FLAG_HYPHEN_ALPHA]pāna,    sādhu[FLAG_HYPHEN_ALPHA]baidya[FLAG_HYPHEN_ALPHA]subidhāna,",
+    "śrīkṛṣṇacaitanya[FLAG_HYPHEN_ALPHA]śrīcaraṇa 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मायादत्तकुबिकार,    मायाबाद बिषभार,",
+      "ऎ दुइ आपदनिबारण",
+      "हरिनामाम्ड़्तपान,    साधुबैद्यसुबिधान,",
+      "श्रीक्ड़्ष्णचैतन्यश्रीचरण ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মায়াদত্তকুবিকার,    মায়াবাদ বিষভার,",
+      "এ দুই আপদনিবারণ",
+      "হরিনামাম্ড়্তপান,    সাধুবৈদ্যসুবিধান,",
+      "শ্রীক্ড়্ষ্ণচৈতন্যশ্রীচরণ ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମାୟାଦତ୍ତକୁବିକାର,    ମାୟାବାଦ ବିଷଭାର,",
+      "ଏ ଦୁଇ ଆପଦନିବାରଣ",
+      "ହରିନାମାମ୍ଡ଼୍ତପାନ,    ସାଧୁବୈଦ୍ୟସୁବିଧାନ,",
+      "ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣଚୈତନ୍ୟଶ୍ରୀଚରଣ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "માયાદત્તકુબિકાર,    માયાબાદ બિષભાર,",
+      "એ દુઇ આપદનિબારણ",
+      "હરિનામામ્ડ઼્તપાન,    સાધુબૈદ્યસુબિધાન,",
+      "શ્રીક્ડ઼્ષ્ણચૈતન્યશ્રીચરણ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "māyādatta-kubikāra,    māyābāda biṣabhāra,",
+      "e dui āpada-nibāraṇa",
+      "harināmāmṛta-pāna,    sādhu-baidya-subidhāna,",
+      "śrīkṛṣṇacaitanya-śrīcaraṇa 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಾಯಾದತ್ತಕುಬಿಕಾರ,    ಮಾಯಾಬಾದ ಬಿಷಭಾರ,",
+      "ಎ ದುಇ ಆಪದನಿಬಾರಣ",
+      "ಹರಿನಾಮಾಂ‌ಡ಼್ತಪಾನ,    ಸಾಧುಬೈದ್ಯಸುಬಿಧಾನ,",
+      "ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಚೈತನ್ಯಶ್ರೀಚರಣ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మాయాదత్తకుబికార,    మాయాబాద బిషభార,",
+      "ఎ దుఇ ఆపదనిబారణ",
+      "హరినామామ్డ్తపాన,    సాధుబైద్యసుబిధాన,",
+      "శ్రీక్డ్ష్ణచైతన్యశ్రీచరణ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ма̄йа̄даттакубика̄ра,    ма̄йа̄ба̄да бишабха̄ра,",
+      "э̆ дуи а̄паданиба̄ран̣а",
+      "харина̄ма̄мр̤тапа̄на,    са̄дхубаидйасубидха̄на,",
+      "ш́рӣкр̤шн̣ачаитанйаш́рӣчаран̣а 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മായാദത്തകുബികാര,    മായാബാദ ബിഷഭാര,",
+      "എ ദുഇ ആപദനിബാരണ",
+      "ഹരിനാമാമ്ഡ്തപാന,    സാധുബൈദ്യസുബിധാന,",
+      "ശ്രീക്ഡ്ഷ്ണചൈതന്യശ്രീചരണ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மாயாத³த்தகுபி³கார,    மாயாபா³த³ பி³ஷபா⁴ர,",
+      "எ து³இ ஆபத³னிபா³ரண",
+      "ஹரிநாமாம்ஃட்²தபான,    ஸாது⁴பை³த்³யஸுபி³தா⁴ன,",
+      "ஶ்ரீக்ஃட்²ஷ்ணசைதன்யஶ்ரீசரண 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "māyādatta-kubikāra,    māyābāda biṣabhāra,",
+      "e dui āpada-nibāraṇa",
+      "harināmāmṛta-pāna,    sādhu-baidya-subidhāna,",
+      "śrīkṛṣṇacaitanya-śrīcaraṇa 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "māyādatta-kubikāra,    māyābāda biṣabhāra,",
+      "e dui āpada-nibāraṇa",
+      "harināmāmṛta-pāna,    sādhu-baidya-subidhāna,",
+      "śrīkṛṣṇacaitanya-śrīcaraṇa 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "x"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "x"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "x"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- বিকার—অবিদ্যা অর্থাৎ অনিত্য নিত্যবুদ্ধি; অদ্বৈত-মত—কেবলাদ্বৈতবাদ; বিষ—‘আমি ব্রহ্ম’, এই বিচার; ঔষধ-ঔষধ—ঔষধের ঔষধ ।"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Anutāpa",
+  "Upalabdhi from Kalyāṇa-kalpataru"
+ ]
+}

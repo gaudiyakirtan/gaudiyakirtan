@@ -1,0 +1,1404 @@
+{
+ "uid": "GH50",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হা হা মোর গৌর-কিশোর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hā hā mora gaura-kiśora"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hā hā mora gaura[FLAG_HYPHEN_ALPHA]kiśora",
+    "kabe dayā kari’,    śrīgodrumabane,",
+    "dekhā dibe manaḥcora1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O my youthful Gaura! When will You mercifully reveal Yourself to me in the forest of Godruma, O thief of hearts?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hā hā",
+       "oh"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "gaura kiśora",
+       "youthful Gaura"
+      ],
+      [
+       "kabe",
+       "when"
+      ],
+      [
+       "dayā kari’",
+       "mercifully"
+      ],
+      [
+       "śrīgodrumabane",
+       "in the forest of Godruma"
+      ],
+      [
+       "dekhā dibe",
+       "You will show"
+      ],
+      [
+       "manaḥcora",
+       "O thief of hearts"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हा हा",
+       "oh"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "गौर किशॊर",
+       "youthful Gaura"
+      ],
+      [
+       "कबॆ",
+       "when"
+      ],
+      [
+       "दया करिऽ",
+       "mercifully"
+      ],
+      [
+       "श्रीगॊद्रुमबनॆ",
+       "in the forest of Godruma"
+      ],
+      [
+       "दॆखा दिबॆ",
+       "You will show"
+      ],
+      [
+       "मनःचॊर",
+       "O thief of hearts"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হা হা",
+       "oh"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "গৌর কিশোর",
+       "youthful Gaura"
+      ],
+      [
+       "কবে",
+       "when"
+      ],
+      [
+       "দয়া করিঽ",
+       "mercifully"
+      ],
+      [
+       "শ্রীগোদ্রুমবনে",
+       "in the forest of Godruma"
+      ],
+      [
+       "দেখা দিবে",
+       "You will show"
+      ],
+      [
+       "মনঃচোর",
+       "O thief of hearts"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હા હા",
+       "oh"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "ગૌર કિશોર",
+       "youthful Gaura"
+      ],
+      [
+       "કબે",
+       "when"
+      ],
+      [
+       "દયા કરિઽ",
+       "mercifully"
+      ],
+      [
+       "શ્રીગોદ્રુમબને",
+       "in the forest of Godruma"
+      ],
+      [
+       "દેખા દિબે",
+       "You will show"
+      ],
+      [
+       "મનઃચોર",
+       "O thief of hearts"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हा हा मॊर गौरकिशॊर",
+      "कबॆ दया करिऽ,    श्रीगॊद्रुमबनॆ,",
+      "दॆखा दिबॆ मनःचॊर१"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হা হা মোর গৌরকিশোর",
+      "কবে দয়া করিঽ,    শ্রীগোদ্রুমবনে,",
+      "দেখা দিবে মনঃচোর১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହା ହା ମୋର ଗୌରକିଶୋର",
+      "କବେ ଦୟା କରିଽ,    ଶ୍ରୀଗୋଦ୍ରୁମବନେ,",
+      "ଦେଖା ଦିବେ ମନଃଚୋର୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હા હા મોર ગૌરકિશોર",
+      "કબે દયા કરિઽ,    શ્રીગોદ્રુમબને,",
+      "દેખા દિબે મનઃચોર૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hā hā mora gaura-kiśora",
+      "kabe dayā kari’,    śrīgodrumabane,",
+      "dekhā dibe manaḥcora1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹಾ ಹಾ ಮೊರ ಗೌರಕಿಶೊರ",
+      "ಕಬೆ ದಯಾ ಕರಿಽ,    ಶ್ರೀಗೊದ್ರುಮಬನೆ,",
+      "ದೆಖಾ ದಿಬೆ ಮನಃಚೊರ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హా హా మొర గౌరకిశొర",
+      "కబె దయా కరిఽ,    శ్రీగొద్రుమబనె,",
+      "దెఖా దిబె మనఃచొర1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ха̄ ха̄ мо̆ра гауракиш́о̆ра",
+      "кабэ̆ дайа̄ кари',    ш́рӣго̆друмабанэ̆,",
+      "дэ̆кха̄ дибэ̆ манах̣чо̆ра1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹാ ഹാ മൊര ഗൗരകിശൊര",
+      "കബെ ദയാ കരിഽ,    ശ്രീഗൊദ്രുമബനെ,",
+      "ദെഖാ ദിബെ മനഃചൊര1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹா ஹா மொர கௌ³ரகிஶொர",
+      "கபெ³ த³யா கரி(அ),    ஶ்ரீகொ³த்³ருமப³னெ,",
+      "தெ³கா² தி³பெ³ மன꞉சொர1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hā hā mora gaura-kiśora",
+      "kabe dayā kari’,    śrīgodrumabane,",
+      "dekhā dibe manaḥcora1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hā hā mora gaura-kiśora",
+      "kabe dayā kari’,    śrīgodrumabane,",
+      "dekhā dibe manaḥcora1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "ānanda[FLAG_HYPHEN_ALPHA]sukhada[FLAG_HYPHEN_ALPHA],    kuñjera bhitare,",
+    "gadādhare bāme kari’",
+    "kāñcana[FLAG_HYPHEN_ALPHA]baraṇa,    cā̃cara cikura,",
+    "naṭana subeśa dhari’ 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "You are situated inside Ānanda-sukhada-kuñja, with Śrī Gadādhara Paṇḍita at Your left. With a golden luster and curly hair, You wear the fine dress of a dancer."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ānanda sukhada kuñjera",
+       "Ānanda-sukhada-kuñja’s"
+      ],
+      [
+       "bhitare",
+       "within"
+      ],
+      [
+       "gadādhare",
+       "with Gadādhara Paṇḍita"
+      ],
+      [
+       "bāme kari’",
+       "keeping to the left"
+      ],
+      [
+       "kāñcana",
+       "gold"
+      ],
+      [
+       "baraṇa",
+       "luster"
+      ],
+      [
+       "cā̃cara",
+       "curly"
+      ],
+      [
+       "cikura",
+       "hair"
+      ],
+      [
+       "naṭana",
+       "dancer"
+      ],
+      [
+       "subeśa",
+       "fine dress"
+      ],
+      [
+       "dhari’",
+       "having worn"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "आनन्द सुखद कुञ्जॆर",
+       "Ānanda-sukhada-kuñja’s"
+      ],
+      [
+       "भितरॆ",
+       "within"
+      ],
+      [
+       "गदाधरॆ",
+       "with Gadādhara Paṇḍita"
+      ],
+      [
+       "बामॆ करिऽ",
+       "keeping to the left"
+      ],
+      [
+       "काञ्चन",
+       "gold"
+      ],
+      [
+       "बरण",
+       "luster"
+      ],
+      [
+       "चांचर",
+       "curly"
+      ],
+      [
+       "चिकुर",
+       "hair"
+      ],
+      [
+       "नटन",
+       "dancer"
+      ],
+      [
+       "सुबॆश",
+       "fine dress"
+      ],
+      [
+       "धरिऽ",
+       "having worn"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "আনন্দ সুখদ কুঞ্জের",
+       "Ānanda-sukhada-kuñja’s"
+      ],
+      [
+       "ভিতরে",
+       "within"
+      ],
+      [
+       "গদাধরে",
+       "with Gadādhara Paṇḍita"
+      ],
+      [
+       "বামে করিঽ",
+       "keeping to the left"
+      ],
+      [
+       "কাঞ্চন",
+       "gold"
+      ],
+      [
+       "বরণ",
+       "luster"
+      ],
+      [
+       "চাঞ্চর",
+       "curly"
+      ],
+      [
+       "চিকুর",
+       "hair"
+      ],
+      [
+       "নটন",
+       "dancer"
+      ],
+      [
+       "সুবেশ",
+       "fine dress"
+      ],
+      [
+       "ধরিঽ",
+       "having worn"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "આનન્દ સુખદ કુઞ્જેર",
+       "Ānanda-sukhada-kuñja’s"
+      ],
+      [
+       "ભિતરે",
+       "within"
+      ],
+      [
+       "ગદાધરે",
+       "with Gadādhara Paṇḍita"
+      ],
+      [
+       "બામે કરિઽ",
+       "keeping to the left"
+      ],
+      [
+       "કાઞ્ચન",
+       "gold"
+      ],
+      [
+       "બરણ",
+       "luster"
+      ],
+      [
+       "ચાંચર",
+       "curly"
+      ],
+      [
+       "ચિકુર",
+       "hair"
+      ],
+      [
+       "નટન",
+       "dancer"
+      ],
+      [
+       "સુબેશ",
+       "fine dress"
+      ],
+      [
+       "ધરિઽ",
+       "having worn"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आनन्दसुखद,    कुञ्जॆर भितरॆ,",
+      "गदाधरॆ बामॆ करिऽ",
+      "काञ्चनबरण,    चांचर चिकुर,",
+      "नटन सुबॆश धरिऽ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আনন্দসুখদ,    কুঞ্জের ভিতরে,",
+      "গদাধরে বামে করিঽ",
+      "কাঞ্চনবরণ,    চাঞ্চর চিকুর,",
+      "নটন সুবেশ ধরিঽ ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆନନ୍ଦସୁଖଦ,    କୁଞ୍ଜେର ଭିତରେ,",
+      "ଗଦାଧରେ ବାମେ କରିଽ",
+      "କାଞ୍ଚନବରଣ,    ଚାଞ୍ଚର ଚିକୁର,",
+      "ନଟନ ସୁବେଶ ଧରିଽ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આનન્દસુખદ,    કુઞ્જેર ભિતરે,",
+      "ગદાધરે બામે કરિઽ",
+      "કાઞ્ચનબરણ,    ચાંચર ચિકુર,",
+      "નટન સુબેશ ધરિઽ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ānanda-sukhada-,    kuñjera bhitare,",
+      "gadādhare bāme kari’",
+      "kāñcana-baraṇa,    cā̃cara cikura,",
+      "naṭana subeśa dhari’ 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆನಂದಸುಖದ,    ಕುಂಜೆರ ಭಿತರೆ,",
+      "ಗದಾಧರೆ ಬಾಮೆ ಕರಿಽ",
+      "ಕಾಂಚನಬರಣ,    ಚಾಂಚರ ಚಿಕುರ,",
+      "ನಟನ ಸುಬೆಶ ಧರಿಽ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆనందసుఖద,    కుంజెర భితరె,",
+      "గదాధరె బామె కరిఽ",
+      "కాంచనబరణ,    చాంచర చికుర,",
+      "నటన సుబెశ ధరిఽ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄нандасукхада,    кун̃джэ̆ра бхитарэ̆,",
+      "гада̄дхарэ̆ ба̄мэ̆ кари'",
+      "ка̄н̃чанабаран̣а,    ча̄м̣чара чикура,",
+      "нат̣ана субэ̆ш́а дхари' 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആനന്ദസുഖദ,    കുഞ്ജെര ഭിതരെ,",
+      "ഗദാധരെ ബാമെ കരിഽ",
+      "കാഞ്ചനബരണ,    ചാഞ്ചര ചികുര,",
+      "നടന സുബെശ ധരിഽ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆனந்த³ஸுக²த³,    குஞ்ஜெர பி⁴தரெ,",
+      "க³தா³த⁴ரெ பா³மெ கரி(அ)",
+      "காஞ்சனப³ரண,    சாஞ்சர சிகுர,",
+      "நடன ஸுபெ³ஶ த⁴ரி(அ) 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ānanda-sukhada-,    kuñjera bhitare,",
+      "gadādhare bāme kari’",
+      "kāñcana-baraṇa,    cā̃cara cikura,",
+      "naṭana subeśa dhari’ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ānanda-sukhada-,    kuñjera bhitare,",
+      "gadādhare bāme kari’",
+      "kāñcana-baraṇa,    cā̃cara cikura,",
+      "naṭana subeśa dhari’ 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "dekhite dekhite,    śrīrādhā[FLAG_HYPHEN_ALPHA]mādhaba,",
+    "rūpete karibe ālā",
+    "sakhīgaṇa[FLAG_HYPHEN_ALPHA]saṅge,    karibe naṭana,",
+    "galete mohanamālā 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "As I gaze [upon You], Śrī Śrī Rādhā-Mādhava will appear and brilliantly illuminate the scene. Accompanied by all of Their sakhīs, They will dance, with enchanting garlands adorning Their necks."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "dekhite dekhite",
+       "while looking"
+      ],
+      [
+       "śrīrādhā mādhaba",
+       "Śrī Śrī Rādhā-Mādhava"
+      ],
+      [
+       "rūpete",
+       "from (Your) form"
+      ],
+      [
+       "karibe",
+       "will make"
+      ],
+      [
+       "ālā",
+       "(alokita) brilliant illumination"
+      ],
+      [
+       "sakhīgaṇa",
+       "the sakhīs"
+      ],
+      [
+       "saṅge",
+       "accompanied by"
+      ],
+      [
+       "karibe naṭana",
+       "They will dance"
+      ],
+      [
+       "galete",
+       "on necks"
+      ],
+      [
+       "mohanamālā",
+       "enchanting + garland"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "दॆखितॆ दॆखितॆ",
+       "while looking"
+      ],
+      [
+       "श्रीराधा माधब",
+       "Śrī Śrī Rādhā-Mādhava"
+      ],
+      [
+       "रूपॆतॆ",
+       "from (Your) form"
+      ],
+      [
+       "करिबॆ",
+       "will make"
+      ],
+      [
+       "आला",
+       "(alokita) brilliant illumination"
+      ],
+      [
+       "सखीगण",
+       "the sakhīs"
+      ],
+      [
+       "सङ्गॆ",
+       "accompanied by"
+      ],
+      [
+       "करिबॆ नटन",
+       "They will dance"
+      ],
+      [
+       "गलॆतॆ",
+       "on necks"
+      ],
+      [
+       "मॊहनमाला",
+       "enchanting + garland"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "দেখিতে দেখিতে",
+       "while looking"
+      ],
+      [
+       "শ্রীরাধা মাধব",
+       "Śrī Śrī Rādhā-Mādhava"
+      ],
+      [
+       "রূপেতে",
+       "from (Your) form"
+      ],
+      [
+       "করিবে",
+       "will make"
+      ],
+      [
+       "আলা",
+       "(alokita) brilliant illumination"
+      ],
+      [
+       "সখীগণ",
+       "the sakhīs"
+      ],
+      [
+       "সঙ্গে",
+       "accompanied by"
+      ],
+      [
+       "করিবে নটন",
+       "They will dance"
+      ],
+      [
+       "গলেতে",
+       "on necks"
+      ],
+      [
+       "মোহনমালা",
+       "enchanting + garland"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "દેખિતે દેખિતે",
+       "while looking"
+      ],
+      [
+       "શ્રીરાધા માધબ",
+       "Śrī Śrī Rādhā-Mādhava"
+      ],
+      [
+       "રૂપેતે",
+       "from (Your) form"
+      ],
+      [
+       "કરિબે",
+       "will make"
+      ],
+      [
+       "આલા",
+       "(alokita) brilliant illumination"
+      ],
+      [
+       "સખીગણ",
+       "the sakhīs"
+      ],
+      [
+       "સઙ્ગે",
+       "accompanied by"
+      ],
+      [
+       "કરિબે નટન",
+       "They will dance"
+      ],
+      [
+       "ગલેતે",
+       "on necks"
+      ],
+      [
+       "મોહનમાલા",
+       "enchanting + garland"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "दॆखितॆ दॆखितॆ,    श्रीराधामाधब,",
+      "रूपॆतॆ करिबॆ आला",
+      "सखीगणसङ्गॆ,    करिबॆ नटन,",
+      "गलॆतॆ मॊहनमाला ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "দেখিতে দেখিতে,    শ্রীরাধামাধব,",
+      "রূপেতে করিবে আলা",
+      "সখীগণসঙ্গে,    করিবে নটন,",
+      "গলেতে মোহনমালা ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଦେଖିତେ ଦେଖିତେ,    ଶ୍ରୀରାଧାମାଧବ,",
+      "ରୂପେତେ କରିବେ ଆଲା",
+      "ସଖୀଗଣସଙ୍ଗେ,    କରିବେ ନଟନ,",
+      "ଗଲେତେ ମୋହନମାଲା ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "દેખિતે દેખિતે,    શ્રીરાધામાધબ,",
+      "રૂપેતે કરિબે આલા",
+      "સખીગણસઙ્ગે,    કરિબે નટન,",
+      "ગલેતે મોહનમાલા ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "dekhite dekhite,    śrīrādhā-mādhaba,",
+      "rūpete karibe ālā",
+      "sakhīgaṇa-saṅge,    karibe naṭana,",
+      "galete mohanamālā 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ದೆಖಿತೆ ದೆಖಿತೆ,    ಶ್ರೀರಾಧಾಮಾಧಬ,",
+      "ರೂಪೆತೆ ಕರಿಬೆ ಆಲಾ",
+      "ಸಖೀಗಣಸಂಗೆ,    ಕರಿಬೆ ನಟನ,",
+      "ಗಲೆತೆ ಮೊಹನಮಾಲಾ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "దెఖితె దెఖితె,    శ్రీరాధామాధబ,",
+      "రూపెతె కరిబె ఆలా",
+      "సఖీగణసంగె,    కరిబె నటన,",
+      "గలెతె మొహనమాలా 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "дэ̆кхитэ̆ дэ̆кхитэ̆,    ш́рӣра̄дха̄ма̄дхаба,",
+      "рӯпэ̆тэ̆ карибэ̆ а̄ла̄",
+      "сакхӣган̣асан̇гэ̆,    карибэ̆ нат̣ана,",
+      "галэ̆тэ̆ мо̆ханама̄ла̄ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ദെഖിതെ ദെഖിതെ,    ശ്രീരാധാമാധബ,",
+      "രൂപെതെ കരിബെ ആലാ",
+      "സഖീഗണസംഗെ,    കരിബെ നടന,",
+      "ഗലെതെ മൊഹനമാലാ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தெ³கி²தெ தெ³கி²தெ,    ஶ்ரீராதா⁴மாத⁴ப³,",
+      "ரூபெதெ கரிபெ³ ஆலா",
+      "ஸகீ²க³ணஸங்கெ³,    கரிபெ³ நடன,",
+      "க³லெதெ மொஹனமாலா 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "dekhite dekhite,    śrīrādhā-mādhaba,",
+      "rūpete karibe ālā",
+      "sakhīgaṇa-saṅge,    karibe naṭana,",
+      "galete mohanamālā 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "dekhite dekhite,    śrīrādhā-mādhaba,",
+      "rūpete karibe ālā",
+      "sakhīgaṇa-saṅge,    karibe naṭana,",
+      "galete mohanamālā 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "anaṅga[FLAG_HYPHEN_ALPHA]mañjarī,    sadaya ha·iyā,",
+    "e dāsī[FLAG_HYPHEN_ALPHA]karete dhari’",
+    "dũhe nibedibe,    dũhāra mādhurī,",
+    "heriba nayana bhari’ 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Anaṅga Mañjarī, feeling compassion, will take this maidservant by the hand and lovingly offer me to the Divine Couple. I shall then behold Their sweetness to the full satisfaction of my eyes."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "anaṅga mañjarī",
+       "Anaṅga Mañjarī"
+      ],
+      [
+       "sadaya",
+       "compassionate"
+      ],
+      [
+       "ha·iyā",
+       "having become"
+      ],
+      [
+       "e",
+       "this"
+      ],
+      [
+       "dāsī",
+       "maidservant"
+      ],
+      [
+       "karete",
+       "by the hands"
+      ],
+      [
+       "dhari’",
+       "having held"
+      ],
+      [
+       "dũhe",
+       "to the two"
+      ],
+      [
+       "nibedibe",
+       "she will offer"
+      ],
+      [
+       "dũhāra",
+       "Their"
+      ],
+      [
+       "mādhurī",
+       "sweetness"
+      ],
+      [
+       "heriba",
+       "I shall see"
+      ],
+      [
+       "nayana",
+       "eyes"
+      ],
+      [
+       "bhari’",
+       "having filled"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "अनङ्ग मञ्जरी",
+       "Anaṅga Mañjarī"
+      ],
+      [
+       "सदय",
+       "compassionate"
+      ],
+      [
+       "हइया",
+       "having become"
+      ],
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "दासी",
+       "maidservant"
+      ],
+      [
+       "करॆतॆ",
+       "by the hands"
+      ],
+      [
+       "धरिऽ",
+       "having held"
+      ],
+      [
+       "दुंहॆ",
+       "to the two"
+      ],
+      [
+       "निबॆदिबॆ",
+       "she will offer"
+      ],
+      [
+       "दुंहार",
+       "Their"
+      ],
+      [
+       "माधुरी",
+       "sweetness"
+      ],
+      [
+       "हॆरिब",
+       "I shall see"
+      ],
+      [
+       "नयन",
+       "eyes"
+      ],
+      [
+       "भरिऽ",
+       "having filled"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "অনঙ্গ মঞ্জরী",
+       "Anaṅga Mañjarī"
+      ],
+      [
+       "সদয়",
+       "compassionate"
+      ],
+      [
+       "হইয়া",
+       "having become"
+      ],
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "দাসী",
+       "maidservant"
+      ],
+      [
+       "করেতে",
+       "by the hands"
+      ],
+      [
+       "ধরিঽ",
+       "having held"
+      ],
+      [
+       "দুংহে",
+       "to the two"
+      ],
+      [
+       "নিবেদিবে",
+       "she will offer"
+      ],
+      [
+       "দুংহার",
+       "Their"
+      ],
+      [
+       "মাধুরী",
+       "sweetness"
+      ],
+      [
+       "হেরিব",
+       "I shall see"
+      ],
+      [
+       "নয়ন",
+       "eyes"
+      ],
+      [
+       "ভরিঽ",
+       "having filled"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "અનઙ્ગ મઞ્જરી",
+       "Anaṅga Mañjarī"
+      ],
+      [
+       "સદય",
+       "compassionate"
+      ],
+      [
+       "હઇયા",
+       "having become"
+      ],
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "દાસી",
+       "maidservant"
+      ],
+      [
+       "કરેતે",
+       "by the hands"
+      ],
+      [
+       "ધરિઽ",
+       "having held"
+      ],
+      [
+       "દુંહે",
+       "to the two"
+      ],
+      [
+       "નિબેદિબે",
+       "she will offer"
+      ],
+      [
+       "દુંહાર",
+       "Their"
+      ],
+      [
+       "માધુરી",
+       "sweetness"
+      ],
+      [
+       "હેરિબ",
+       "I shall see"
+      ],
+      [
+       "નયન",
+       "eyes"
+      ],
+      [
+       "ભરિઽ",
+       "having filled"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अनङ्गमञ्जरी,    सदय हइया,",
+      "ऎ दासीकरॆतॆ धरिऽ",
+      "दुंहॆ निबॆदिबॆ,    दुंहार माधुरी,",
+      "हॆरिब नयन भरिऽ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অনঙ্গমঞ্জরী,    সদয় হইয়া,",
+      "এ দাসীকরেতে ধরিঽ",
+      "দুংহে নিবেদিবে,    দুংহার মাধুরী,",
+      "হেরিব নয়ন ভরিঽ ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅନଙ୍ଗମଞ୍ଜରୀ,    ସଦୟ ହଇୟା,",
+      "ଏ ଦାସୀକରେତେ ଧରିଽ",
+      "ଦୁଂହେ ନିବେଦିବେ,    ଦୁଂହାର ମାଧୁରୀ,",
+      "ହେରିବ ନୟନ ଭରିଽ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અનઙ્ગમઞ્જરી,    સદય હઇયા,",
+      "એ દાસીકરેતે ધરિઽ",
+      "દુંહે નિબેદિબે,    દુંહાર માધુરી,",
+      "હેરિબ નયન ભરિઽ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "anaṅga-mañjarī,    sadaya ha·iyā,",
+      "e dāsī-karete dhari’",
+      "dũhe nibedibe,    dũhāra mādhurī,",
+      "heriba nayana bhari’ 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅನಂಗಮಂಜರೀ,    ಸದಯ ಹಇಯಾ,",
+      "ಎ ದಾಸೀಕರೆತೆ ಧರಿಽ",
+      "ದುಂಹೆ ನಿಬೆದಿಬೆ,    ದುಂಹಾರ ಮಾಧುರೀ,",
+      "ಹೆರಿಬ ನಯನ ಭರಿಽ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అనంగమంజరీ,    సదయ హఇయా,",
+      "ఎ దాసీకరెతె ధరిఽ",
+      "దుంహె నిబెదిబె,    దుంహార మాధురీ,",
+      "హెరిబ నయన భరిఽ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "анан̇гаман̃джарӣ,    садайа хаийа̄,",
+      "э̆ да̄сӣкарэ̆тэ̆ дхари'",
+      "дум̣хэ̆ нибэ̆дибэ̆,    дум̣ха̄ра ма̄дхурӣ,",
+      "хэ̆риба найана бхари' 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അനംഗമഞ്ജരീ,    സദയ ഹഇയാ,",
+      "എ ദാസീകരെതെ ധരിഽ",
+      "ദുംഹെ നിബെദിബെ,    ദുംഹാര മാധുരീ,",
+      "ഹെരിബ നയന ഭരിഽ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அனங்க³மஞ்ஜரீ,    ஸத³ய ஹஇயா,",
+      "எ தா³ஸீகரெதெ த⁴ரி(அ)",
+      "து³ம்ʼஹெ நிபெ³தி³பெ³,    து³ம்ʼஹார மாது⁴ரீ,",
+      "ஹெரிப³ நயன ப⁴ரி(அ) 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "anaṅga-mañjarī,    sadaya ha·iyā,",
+      "e dāsī-karete dhari’",
+      "dũhe nibedibe,    dũhāra mādhurī,",
+      "heriba nayana bhari’ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "anaṅga-mañjarī,    sadaya ha·iyā,",
+      "e dāsī-karete dhari’",
+      "dũhe nibedibe,    dũhāra mādhurī,",
+      "heriba nayana bhari’ 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- চাঁচর চিকুর—কুঞ্চিত কেশ; নটন—নর্ত্তন ।<br>"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "srrb-1",
+   "filename": "GH50-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  },
+  {
+   "uid": "tama-1",
+   "filename": "GH50-tama-1.mp3",
+   "artist": "Tamal Krsna das"
+  }
+ ],
+ "tags": [
+  "Additional songs related to Gaura-Gadādhara",
+  "Prayers Full Of Longing",
+  "Śrī Gadādhara Paṇḍita"
+ ]
+}

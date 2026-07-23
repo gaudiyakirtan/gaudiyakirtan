@@ -1,0 +1,1369 @@
+{
+  "uid": "GV2",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীগুরু-পরম্পরা—বাংলা (General)"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "śrīguru-paramparā—bāṁlā (General)"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रीगुरु-परम्परा—बांला (गेनेरल्)"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీగురు-పరంపరా—బాంలా (గేనేరల్)"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಗುರು-ಪರಂಪರಾ—ಬಾಂಲಾ (ಗೇನೇರಲ್)"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீகு³ரு-பரம்பரா—பா³ம்ʼலா (கே³னேரல்)"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീഗുരു-പരമ്പരാ—ബാംലാ (ഗേനേരൽ)"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીગુરુ-પરમ્પરા—બાંલા (ગેનેરલ્)"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଗୁରୁ-ପରମ୍ପରା—ବାଂଲା (ଗେନେରଲ୍)"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣгуру-парампара̄—ба̄м̣ла̄ (гэнэрал)"
+    }
+  ],
+  "author_uid": "?",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "অজানা লেখক"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Unknown Author"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "xxx śrīguru[FLAG_HYPHEN_ALPHA]paramparā—bāṁlā (General)",
+        "kṛṣṇa haite caturmukha,    haya kṛṣṇa[FLAG_HYPHEN_ALPHA]sebonmukha,",
+        "brahmā haite nāradera mati",
+        "nārada ha·ite byāsa,    madhba kahe byāsadāsa,",
+        "pūrṇaprajña padmanābha[FLAG_HYPHEN_ALPHA]gati 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "xxx श्रीगुरुपरम्परा—बांला (गॆनॆरल्)",
+            "क्ड़्ष्ण हैतॆ चतुर्मुख,    हय क्ड़्ष्णसॆबॊन्मुख,",
+            "ब्रह्मा हैतॆ नारदॆर मति",
+            "नारद हइतॆ ब्यास,    मध्ब कहॆ ब्यासदास,",
+            "पूर्णप्रज्ञ पद्मनाभगति १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "xxx শ্রীগুরুপরম্পরা—বাংলা (গেনেরল্)",
+            "ক্ড়্ষ্ণ হৈতে চতুর্মুখ,    হয় ক্ড়্ষ্ণসেবোন্মুখ,",
+            "ব্রহ্মা হৈতে নারদের মতি",
+            "নারদ হইতে ব্যাস,    মধ্ব কহে ব্যাসদাস,",
+            "পূর্ণপ্রজ্ঞ পদ্মনাভগতি ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "xxx ଶ୍ରୀଗୁରୁପରମ୍ପରା—ବାଂଲା (ଗେନେରଲ୍)",
+            "କ୍ଡ଼୍ଷ୍ଣ ହୈତେ ଚତୁର୍ମୁଖ,    ହୟ କ୍ଡ଼୍ଷ୍ଣସେବୋନ୍ମୁଖ,",
+            "ବ୍ରହ୍ମା ହୈତେ ନାରଦେର ମତି",
+            "ନାରଦ ହଇତେ ବ୍ୟାସ,    ମଧ୍ବ କହେ ବ୍ୟାସଦାସ,",
+            "ପୂର୍ଣପ୍ରଜ୍ଞ ପଦ୍ମନାଭଗତି ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "xxx શ્રીગુરુપરમ્પરા—બાંલા (ગેનેરલ્)",
+            "ક્ડ઼્ષ્ણ હૈતે ચતુર્મુખ,    હય ક્ડ઼્ષ્ણસેબોન્મુખ,",
+            "બ્રહ્મા હૈતે નારદેર મતિ",
+            "નારદ હઇતે બ્યાસ,    મધ્બ કહે બ્યાસદાસ,",
+            "પૂર્ણપ્રજ્ઞ પદ્મનાભગતિ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "xxx śrīguru-paramparā—bāṁlā (General)",
+            "kṛṣṇa haite caturmukha,    haya kṛṣṇa-sebonmukha,",
+            "brahmā haite nāradera mati",
+            "nārada ha·ite byāsa,    madhba kahe byāsadāsa,",
+            "pūrṇaprajña padmanābha-gati 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "xxx ಶ್ರೀಗುರುಪರಂಪರಾ—ಬಾಂಲಾ (ಗೆನೆರಲ್)",
+            "ಕ್‌ಡ಼್ಷ್ಣ ಹೈತೆ ಚತುರ್ಮುಖ,    ಹಯ ಕ್‌ಡ಼್ಷ್ಣಸೆಬೊನ್ಮುಖ,",
+            "ಬ್ರಹ್ಮಾ ಹೈತೆ ನಾರದೆರ ಮತಿ",
+            "ನಾರದ ಹಇತೆ ಬ್ಯಾಸ,    ಮಧ್ಬ ಕಹೆ ಬ್ಯಾಸದಾಸ,",
+            "ಪೂರ್ಣಪ್ರಜ್ಞ ಪದ್ಮನಾಭಗತಿ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "xxx శ్రీగురుపరంపరా—బాంలా (గెనెరల్)",
+            "క్డ్ష్ణ హైతె చతుర్ముఖ,    హయ క్డ్ష్ణసెబొన్ముఖ,",
+            "బ్రహ్మా హైతె నారదెర మతి",
+            "నారద హఇతె బ్యాస,    మధ్బ కహె బ్యాసదాస,",
+            "పూర్ణప్రజ్ఞ పద్మనాభగతి 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "xxx ш́рӣгурупарампара̄—ба̄м̣ла̄ (гэ̆нэ̆рал)",
+            "кр̤шн̣а хаитэ̆ чатурмукха,    хайа кр̤шн̣асэ̆бо̆нмукха,",
+            "брахма̄ хаитэ̆ на̄радэ̆ра мати",
+            "на̄рада хаитэ̆ бйа̄са,    мадхба кахэ̆ бйа̄сада̄са,",
+            "пӯрн̣апраджн̃а падмана̄бхагати 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "xxx ശ്രീഗുരുപരമ്പരാ—ബാംലാ (ഗെനെരൽ)",
+            "ക്ഡ്ഷ്ണ ഹൈതെ ചതുർമുഖ,    ഹയ ക്ഡ്ഷ്ണസെബൊന്മുഖ,",
+            "ബ്രഹ്മാ ഹൈതെ നാരദെര മതി",
+            "നാരദ ഹഇതെ ബ്യാസ,    മധ്ബ കഹെ ബ്യാസദാസ,",
+            "പൂർണപ്രജ്ഞ പദ്മനാഭഗതി 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "xxx ஶ்ரீகு³ருபரம்பரா—பா³ம்ʼலா (கெ³னெரல்)",
+            "க்ஃட்²ஷ்ண ஹைதெ சதுர்முக²,    ஹய க்ஃட்²ஷ்ணஸெபொ³ன்முக²,",
+            "ப்³ரஹ்மா ஹைதெ நாரதெ³ர மதி",
+            "நாரத³ ஹஇதெ ப்³யாஸ,    மத்⁴ப³ கஹெ ப்³யாஸதா³ஸ,",
+            "பூர்ணப்ரஜ்ஞ பத்³மநாப⁴க³தி 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "xxx śrīguru-paramparā—bāṁlā (General)",
+            "kṛṣṇa haite caturmukha,    haya kṛṣṇa-sebonmukha,",
+            "brahmā haite nāradera mati",
+            "nārada ha·ite byāsa,    madhba kahe byāsadāsa,",
+            "pūrṇaprajña padmanābha-gati 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "xxx śrīguru-paramparā—bāṁlā (General)",
+            "kṛṣṇa haite caturmukha,    haya kṛṣṇa-sebonmukha,",
+            "brahmā haite nāradera mati",
+            "nārada ha·ite byāsa,    madhba kahe byāsadāsa,",
+            "pūrṇaprajña padmanābha-gati 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "nṛhari[FLAG_HYPHEN_ALPHA]mādhaba[FLAG_HYPHEN_ALPHA]baṁśe,    akṣobhya[FLAG_HYPHEN_ALPHA]paramahaṁse,",
+        "śiṣya bali’ aṅgīkāra kare",
+        "akṣobhyera śiṣya ‘jaya[FLAG_HYPHEN_ALPHA]    tīrtha’ nāme paricaya,",
+        "tā̃’ra dāsye jñānasindhu tare 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "न्ढ़रिमाधबबंशॆ,    अक्षॊभ्यपरमहंसॆ,",
+            "शिष्य बलिऽ अङ्गीकार करॆ",
+            "अक्षॊभ्यॆर शिष्य ‘जय    तीर्थऽ नामॆ परिचय,",
+            "तांऽर दास्यॆ ज्ञानसिन्धु तरॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ন্ঢ়রিমাধববংশে,    অক্ষোভ্যপরমহংসে,",
+            "শিষ্য বলিঽ অঙ্গীকার করে",
+            "অক্ষোভ্যের শিষ্য ‘জয়    তীর্থঽ নামে পরিচয়,",
+            "তাংঽর দাস্যে জ্ঞানসিন্ধু তরে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନ୍ଢ଼ରିମାଧବବଂଶେ,    ଅକ୍ଷୋଭ୍ୟପରମହଂସେ,",
+            "ଶିଷ୍ୟ ବଲିଽ ଅଙ୍ଗୀକାର କରେ",
+            "ଅକ୍ଷୋଭ୍ୟେର ଶିଷ୍ୟ ‘ଜୟ    ତୀର୍ଥଽ ନାମେ ପରିଚୟ,",
+            "ତାଂଽର ଦାସ୍ୟେ ଜ୍ଞାନସିନ୍ଧୁ ତରେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ન્ઢ઼રિમાધબબંશે,    અક્ષોભ્યપરમહંસે,",
+            "શિષ્ય બલિઽ અઙ્ગીકાર કરે",
+            "અક્ષોભ્યેર શિષ્ય ‘જય    તીર્થઽ નામે પરિચય,",
+            "તાંઽર દાસ્યે જ્ઞાનસિન્ધુ તરે ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nṛhari-mādhaba-baṁśe,    akṣobhya-paramahaṁse,",
+            "śiṣya bali’ aṅgīkāra kare",
+            "akṣobhyera śiṣya ‘jaya-    tīrtha’ nāme paricaya,",
+            "tā̃’ra dāsye jñānasindhu tare 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನ್‌ಢ಼ರಿಮಾಧಬಬಂಶೆ,    ಅಕ್ಷೊಭ್ಯಪರಮಹಂಸೆ,",
+            "ಶಿಷ್ಯ ಬಲಿಽ ಅಂಗೀಕಾರ ಕರೆ",
+            "ಅಕ್ಷೊಭ್ಯೆರ ಶಿಷ್ಯ ‘ಜಯ    ತೀರ್ಥಽ ನಾಮೆ ಪರಿಚಯ,",
+            "ತಾಂಽರ ದಾಸ್ಯೆ ಜ್ಞಾನಸಿಂಧು ತರೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "న్ఢరిమాధబబంశె,    అక్షొభ్యపరమహంసె,",
+            "శిష్య బలిఽ అంగీకార కరె",
+            "అక్షొభ్యెర శిష్య ‘జయ    తీర్థఽ నామె పరిచయ,",
+            "తాంఽర దాస్యె జ్ఞానసింధు తరె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "нр̤харима̄дхабабам̣ш́э̆,    акшо̆бхйапарамахам̣сэ̆,",
+            "ш́ишйа бали' ан̇гӣка̄ра карэ̆",
+            "акшо̆бхйэ̆ра ш́ишйа ‘джайа    тӣртха' на̄мэ̆ паричайа,",
+            "та̄м̣'ра да̄сйэ̆ джн̃а̄насиндху тарэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ന്ഢരിമാധബബംശെ,    അക്ഷൊഭ്യപരമഹംസെ,",
+            "ശിഷ്യ ബലിഽ അംഗീകാര കരെ",
+            "അക്ഷൊഭ്യെര ശിഷ്യ ‘ജയ    തീർഥഽ നാമെ പരിചയ,",
+            "താംഽര ദാസ്യെ ജ്ഞാനസിന്ധു തരെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ந்ஃட³ரிமாத⁴ப³ப³ம்ʼஶெ,    அக்ஷொப்⁴யபரமஹம்ʼஸெ,",
+            "ஶிஷ்ய ப³லி(அ) அங்கீ³கார கரெ",
+            "அக்ஷொப்⁴யெர ஶிஷ்ய ‘ஜய    தீர்த²(அ) நாமெ பரிசய,",
+            "தாம்ʼ(அ)ர தா³ஸ்யெ ஜ்ஞானஸிந்து⁴ தரெ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nṛhari-mādhaba-baṁśe,    akṣobhya-paramahaṁse,",
+            "śiṣya bali’ aṅgīkāra kare",
+            "akṣobhyera śiṣya ‘jaya-    tīrtha’ nāme paricaya,",
+            "tā̃’ra dāsye jñānasindhu tare 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nṛhari-mādhaba-baṁśe,    akṣobhya-paramahaṁse,",
+            "śiṣya bali’ aṅgīkāra kare",
+            "akṣobhyera śiṣya ‘jaya-    tīrtha’ nāme paricaya,",
+            "tā̃’ra dāsye jñānasindhu tare 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "tā̃hā haite dayānidhi,    tā̃’ra dāsa bidyānidhi,",
+        "rājendra ha·ila tā̃hā ha’te",
+        "tā̃hāra kiṅkara ‘jaya[FLAG_HYPHEN_ALPHA]    dharma’ nāme paricaya,",
+        "paramparā jāna bhālamate 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तांहा हैतॆ दयानिधि,    तांऽर दास बिद्यानिधि,",
+            "राजॆन्द्र हइल तांहा हऽतॆ",
+            "तांहार किङ्कर ‘जय    धर्मऽ नामॆ परिचय,",
+            "परम्परा जान भालमतॆ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তাংহা হৈতে দয়ানিধি,    তাংঽর দাস বিদ্যানিধি,",
+            "রাজেন্দ্র হইল তাংহা হঽতে",
+            "তাংহার কিঙ্কর ‘জয়    ধর্মঽ নামে পরিচয়,",
+            "পরম্পরা জান ভালমতে ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତାଂହା ହୈତେ ଦୟାନିଧି,    ତାଂଽର ଦାସ ବିଦ୍ୟାନିଧି,",
+            "ରାଜେନ୍ଦ୍ର ହଇଲ ତାଂହା ହଽତେ",
+            "ତାଂହାର କିଙ୍କର ‘ଜୟ    ଧର୍ମଽ ନାମେ ପରିଚୟ,",
+            "ପରମ୍ପରା ଜାନ ଭାଲମତେ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તાંહા હૈતે દયાનિધિ,    તાંઽર દાસ બિદ્યાનિધિ,",
+            "રાજેન્દ્ર હઇલ તાંહા હઽતે",
+            "તાંહાર કિઙ્કર ‘જય    ધર્મઽ નામે પરિચય,",
+            "પરમ્પરા જાન ભાલમતે ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tā̃hā haite dayānidhi,    tā̃’ra dāsa bidyānidhi,",
+            "rājendra ha·ila tā̃hā ha’te",
+            "tā̃hāra kiṅkara ‘jaya-    dharma’ nāme paricaya,",
+            "paramparā jāna bhālamate 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತಾಂಹಾ ಹೈತೆ ದಯಾನಿಧಿ,    ತಾಂಽರ ದಾಸ ಬಿದ್ಯಾನಿಧಿ,",
+            "ರಾಜೆಂದ್ರ ಹಇಲ ತಾಂಹಾ ಹಽತೆ",
+            "ತಾಂಹಾರ ಕಿಂಕರ ‘ಜಯ    ಧರ್ಮಽ ನಾಮೆ ಪರಿಚಯ,",
+            "ಪರಂಪರಾ ಜಾನ ಭಾಲಮತೆ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తాంహా హైతె దయానిధి,    తాంఽర దాస బిద్యానిధి,",
+            "రాజెంద్ర హఇల తాంహా హఽతె",
+            "తాంహార కింకర ‘జయ    ధర్మఽ నామె పరిచయ,",
+            "పరంపరా జాన భాలమతె 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "та̄м̣ха̄ хаитэ̆ дайа̄нидхи,    та̄м̣'ра да̄са бидйа̄нидхи,",
+            "ра̄джэ̆ндра хаила та̄м̣ха̄ ха'тэ̆",
+            "та̄м̣ха̄ра кин̇кара ‘джайа    дхарма' на̄мэ̆ паричайа,",
+            "парампара̄ джа̄на бха̄ламатэ̆ 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "താംഹാ ഹൈതെ ദയാനിധി,    താംഽര ദാസ ബിദ്യാനിധി,",
+            "രാജെന്ദ്ര ഹഇല താംഹാ ഹഽതെ",
+            "താംഹാര കിങ്കര ‘ജയ    ധർമഽ നാമെ പരിചയ,",
+            "പരമ്പരാ ജാന ഭാലമതെ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தாம்ʼஹா ஹைதெ த³யாநிதி⁴,    தாம்ʼ(அ)ர தா³ஸ பி³த்³யாநிதி⁴,",
+            "ராஜெந்த்³ர ஹஇல தாம்ʼஹா ஹ(அ)தெ",
+            "தாம்ʼஹார கிங்கர ‘ஜய    த⁴ர்ம(அ) நாமெ பரிசய,",
+            "பரம்பரா ஜான பா⁴லமதெ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tā̃hā haite dayānidhi,    tā̃’ra dāsa bidyānidhi,",
+            "rājendra ha·ila tā̃hā ha’te",
+            "tā̃hāra kiṅkara ‘jaya-    dharma’ nāme paricaya,",
+            "paramparā jāna bhālamate 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tā̃hā haite dayānidhi,    tā̃’ra dāsa bidyānidhi,",
+            "rājendra ha·ila tā̃hā ha’te",
+            "tā̃hāra kiṅkara ‘jaya-    dharma’ nāme paricaya,",
+            "paramparā jāna bhālamate 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "jayadharma[FLAG_HYPHEN_ALPHA]dāsye khyāti,    śrīpuruṣottama[FLAG_HYPHEN_ALPHA]yati,",
+        "tā̃’ ha’te brahmaṇyatīrtha[FLAG_HYPHEN_ALPHA]sūri",
+        "byāsatīrtha tā̃’ra dāsa,    lakṣmīpati byāsadāsa,",
+        "tā̃hā ha’te mādhabendrapurī 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जयधर्मदास्यॆ ख्याति,    श्रीपुरुषॊत्तमयति,",
+            "तांऽ हऽतॆ ब्रह्मण्यतीर्थसूरि",
+            "ब्यासतीर्थ तांऽर दास,    लक्ष्मीपति ब्यासदास,",
+            "तांहा हऽतॆ माधबॆन्द्रपुरी ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয়ধর্মদাস্যে খ্যাতি,    শ্রীপুরুষোত্তময়তি,",
+            "তাংঽ হঽতে ব্রহ্মণ্যতীর্থসূরি",
+            "ব্যাসতীর্থ তাংঽর দাস,    লক্ষ্মীপতি ব্যাসদাস,",
+            "তাংহা হঽতে মাধবেন্দ্রপুরী ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟଧର୍ମଦାସ୍ୟେ ଖ୍ୟାତି,    ଶ୍ରୀପୁରୁଷୋତ୍ତମୟତି,",
+            "ତାଂଽ ହଽତେ ବ୍ରହ୍ମଣ୍ୟତୀର୍ଥସୂରି",
+            "ବ୍ୟାସତୀର୍ଥ ତାଂଽର ଦାସ,    ଲକ୍ଷ୍ମୀପତି ବ୍ୟାସଦାସ,",
+            "ତାଂହା ହଽତେ ମାଧବେନ୍ଦ୍ରପୁରୀ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જયધર્મદાસ્યે ખ્યાતિ,    શ્રીપુરુષોત્તમયતિ,",
+            "તાંઽ હઽતે બ્રહ્મણ્યતીર્થસૂરિ",
+            "બ્યાસતીર્થ તાંઽર દાસ,    લક્ષ્મીપતિ બ્યાસદાસ,",
+            "તાંહા હઽતે માધબેન્દ્રપુરી ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jayadharma-dāsye khyāti,    śrīpuruṣottama-yati,",
+            "tā̃’ ha’te brahmaṇyatīrtha-sūri",
+            "byāsatīrtha tā̃’ra dāsa,    lakṣmīpati byāsadāsa,",
+            "tā̃hā ha’te mādhabendrapurī 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯಧರ್ಮದಾಸ್ಯೆ ಖ್ಯಾತಿ,    ಶ್ರೀಪುರುಷೊತ್ತಮಯತಿ,",
+            "ತಾಂಽ ಹಽತೆ ಬ್ರಹ್ಮಣ್ಯತೀರ್ಥಸೂರಿ",
+            "ಬ್ಯಾಸತೀರ್ಥ ತಾಂಽರ ದಾಸ,    ಲಕ್ಷ್ಮೀಪತಿ ಬ್ಯಾಸದಾಸ,",
+            "ತಾಂಹಾ ಹಽತೆ ಮಾಧಬೆಂದ್ರಪುರೀ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయధర్మదాస్యె ఖ్యాతి,    శ్రీపురుషొత్తమయతి,",
+            "తాంఽ హఽతె బ్రహ్మణ్యతీర్థసూరి",
+            "బ్యాసతీర్థ తాంఽర దాస,    లక్ష్మీపతి బ్యాసదాస,",
+            "తాంహా హఽతె మాధబెంద్రపురీ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайадхармада̄сйэ̆ кхйа̄ти,    ш́рӣпурушо̆ттамайати,",
+            "та̄м̣' ха'тэ̆ брахман̣йатӣртхасӯри",
+            "бйа̄сатӣртха та̄м̣'ра да̄са,    лакшмӣпати бйа̄сада̄са,",
+            "та̄м̣ха̄ ха'тэ̆ ма̄дхабэ̆ндрапурӣ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയധർമദാസ്യെ ഖ്യാതി,    ശ്രീപുരുഷൊത്തമയതി,",
+            "താംഽ ഹഽതെ ബ്രഹ്മണ്യതീർഥസൂരി",
+            "ബ്യാസതീർഥ താംഽര ദാസ,    ലക്ഷ്മീപതി ബ്യാസദാസ,",
+            "താംഹാ ഹഽതെ മാധബെന്ദ്രപുരീ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜயத⁴ர்மதா³ஸ்யெ க்²யாதி,    ஶ்ரீபுருஷொத்தமயதி,",
+            "தாம்ʼ(அ) ஹ(அ)தெ ப்³ரஹ்மண்யதீர்த²ஸூரி",
+            "ப்³யாஸதீர்த² தாம்ʼ(அ)ர தா³ஸ,    லக்ஷ்மீபதி ப்³யாஸதா³ஸ,",
+            "தாம்ʼஹா ஹ(அ)தெ மாத⁴பெ³ந்த்³ரபுரீ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jayadharma-dāsye khyāti,    śrīpuruṣottama-yati,",
+            "tā̃’ ha’te brahmaṇyatīrtha-sūri",
+            "byāsatīrtha tā̃’ra dāsa,    lakṣmīpati byāsadāsa,",
+            "tā̃hā ha’te mādhabendrapurī 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jayadharma-dāsye khyāti,    śrīpuruṣottama-yati,",
+            "tā̃’ ha’te brahmaṇyatīrtha-sūri",
+            "byāsatīrtha tā̃’ra dāsa,    lakṣmīpati byāsadāsa,",
+            "tā̃hā ha’te mādhabendrapurī 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "mādhabendrapurībara[FLAG_HYPHEN_ALPHA]    śiṣyabara śrīīśbara,",
+        "nityānanda, śrīadbaita bibhu",
+        "īśbarapurīke dhanya,    karilena śrīcaitanya,",
+        "jagad‌guru gaura[FLAG_HYPHEN_ALPHA]mahāprabhu 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "माधबॆन्द्रपुरीबर    शिष्यबर श्रीईश्बर,",
+            "नित्यानन्द, श्रीअद्बैत बिभु",
+            "ईश्बरपुरीकॆ धन्य,    करिलॆन श्रीचैतन्य,",
+            "जगद्‌गुरु गौरमहाप्रभु ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মাধবেন্দ্রপুরীবর    শিষ্যবর শ্রীঈশ্বর,",
+            "নিত্যানন্দ, শ্রীঅদ্বৈত বিভু",
+            "ঈশ্বরপুরীকে ধন্য,    করিলেন শ্রীচৈতন্য,",
+            "জগদ্‌গুরু গৌরমহাপ্রভু ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମାଧବେନ୍ଦ୍ରପୁରୀବର    ଶିଷ୍ୟବର ଶ୍ରୀଈଶ୍ବର,",
+            "ନିତ୍ୟାନନ୍ଦ, ଶ୍ରୀଅଦ୍ବୈତ ବିଭୁ",
+            "ଈଶ୍ବରପୁରୀକେ ଧନ୍ୟ,    କରିଲେନ ଶ୍ରୀଚୈତନ୍ୟ,",
+            "ଜଗଦ୍‌ଗୁରୁ ଗୌରମହାପ୍ରଭୁ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "માધબેન્દ્રપુરીબર    શિષ્યબર શ્રીઈશ્બર,",
+            "નિત્યાનન્દ, શ્રીઅદ્બૈત બિભુ",
+            "ઈશ્બરપુરીકે ધન્ય,    કરિલેન શ્રીચૈતન્ય,",
+            "જગદ્‌ગુરુ ગૌરમહાપ્રભુ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "mādhabendrapurībara-    śiṣyabara śrīīśbara,",
+            "nityānanda, śrīadbaita bibhu",
+            "īśbarapurīke dhanya,    karilena śrīcaitanya,",
+            "jagad‌guru gaura-mahāprabhu 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮಾಧಬೆಂದ್ರಪುರೀಬರ    ಶಿಷ್ಯಬರ ಶ್ರೀಈಶ್ಬರ,",
+            "ನಿತ್ಯಾನಂದ, ಶ್ರೀಅದ್ಬೈತ ಬಿಭು",
+            "ಈಶ್ಬರಪುರೀಕೆ ಧನ್ಯ,    ಕರಿಲೆನ ಶ್ರೀಚೈತನ್ಯ,",
+            "ಜಗದ್‌ಗುರು ಗೌರಮಹಾಪ್ರಭು ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మాధబెంద్రపురీబర    శిష్యబర శ్రీఈశ్బర,",
+            "నిత్యానంద, శ్రీఅద్బైత బిభు",
+            "ఈశ్బరపురీకె ధన్య,    కరిలెన శ్రీచైతన్య,",
+            "జగద్‌గురు గౌరమహాప్రభు 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ма̄дхабэ̆ндрапурӣбара    ш́ишйабара ш́рӣӣш́бара,",
+            "нитйа̄нанда, ш́рӣадбаита бибху",
+            "ӣш́барапурӣкэ̆ дханйа,    карилэ̆на ш́рӣчаитанйа,",
+            "джагад‌гуру гаурамаха̄прабху 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മാധബെന്ദ്രപുരീബര    ശിഷ്യബര ശ്രീഈശ്ബര,",
+            "നിത്യാനന്ദ, ശ്രീഅദ്ബൈത ബിഭു",
+            "ഈശ്ബരപുരീകെ ധന്യ,    കരിലെന ശ്രീചൈതന്യ,",
+            "ജഗദ്‌ഗുരു ഗൗരമഹാപ്രഭു 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மாத⁴பெ³ந்த்³ரபுரீப³ர    ஶிஷ்யப³ர ஶ்ரீஈஶ்ப³ர,",
+            "நித்யானந்த³, ஶ்ரீஅத்³பை³த பி³பு⁴",
+            "ஈஶ்ப³ரபுரீகெ த⁴ன்ய,    கரிலென ஶ்ரீசைதன்ய,",
+            "ஜக³த்³‌கு³ரு கௌ³ரமஹாப்ரபு⁴ 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "mādhabendrapurībara-    śiṣyabara śrīīśbara,",
+            "nityānanda, śrīadbaita bibhu",
+            "īśbarapurīke dhanya,    karilena śrīcaitanya,",
+            "jagad‌guru gaura-mahāprabhu 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "mādhabendrapurībara-    śiṣyabara śrīīśbara,",
+            "nityānanda, śrīadbaita bibhu",
+            "īśbarapurīke dhanya,    karilena śrīcaitanya,",
+            "jagad‌guru gaura-mahāprabhu 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "mahāprabhu śrīcaitanya,    rādhākṛṣṇa nahe anya,",
+        "rūpānuga[FLAG_HYPHEN_ALPHA]janera jībana",
+        "biśbambhara[FLAG_HYPHEN_ALPHA]priyaṅkara,    śrīsbarūpadāmodara,",
+        "śrīgosbāmī rūpa[FLAG_HYPHEN_ALPHA]sanātana 6"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "महाप्रभु श्रीचैतन्य,    राधाक्ड़्ष्ण नहॆ अन्य,",
+            "रूपानुगजनॆर जीबन",
+            "बिश्बम्भरप्रियङ्कर,    श्रीस्बरूपदामॊदर,",
+            "श्रीगॊस्बामी रूपसनातन ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মহাপ্রভু শ্রীচৈতন্য,    রাধাক্ড়্ষ্ণ নহে অন্য,",
+            "রূপানুগজনের জীবন",
+            "বিশ্বম্ভরপ্রিয়ঙ্কর,    শ্রীস্বরূপদামোদর,",
+            "শ্রীগোস্বামী রূপসনাতন ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମହାପ୍ରଭୁ ଶ୍ରୀଚୈତନ୍ୟ,    ରାଧାକ୍ଡ଼୍ଷ୍ଣ ନହେ ଅନ୍ୟ,",
+            "ରୂପାନୁଗଜନେର ଜୀବନ",
+            "ବିଶ୍ବମ୍ଭରପ୍ରିୟଙ୍କର,    ଶ୍ରୀସ୍ବରୂପଦାମୋଦର,",
+            "ଶ୍ରୀଗୋସ୍ବାମୀ ରୂପସନାତନ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મહાપ્રભુ શ્રીચૈતન્ય,    રાધાક્ડ઼્ષ્ણ નહે અન્ય,",
+            "રૂપાનુગજનેર જીબન",
+            "બિશ્બમ્ભરપ્રિયઙ્કર,    શ્રીસ્બરૂપદામોદર,",
+            "શ્રીગોસ્બામી રૂપસનાતન ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "mahāprabhu śrīcaitanya,    rādhākṛṣṇa nahe anya,",
+            "rūpānuga-janera jībana",
+            "biśbambhara-priyaṅkara,    śrīsbarūpadāmodara,",
+            "śrīgosbāmī rūpa-sanātana 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮಹಾಪ್ರಭು ಶ್ರೀಚೈತನ್ಯ,    ರಾಧಾಕ್‌ಡ಼್ಷ್ಣ ನಹೆ ಅನ್ಯ,",
+            "ರೂಪಾನುಗಜನೆರ ಜೀಬನ",
+            "ಬಿಶ್ಬಂಭರಪ್ರಿಯಂಕರ,    ಶ್ರೀಸ್ಬರೂಪದಾಮೊದರ,",
+            "ಶ್ರೀಗೊಸ್ಬಾಮೀ ರೂಪಸನಾತನ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మహాప్రభు శ్రీచైతన్య,    రాధాక్డ్ష్ణ నహె అన్య,",
+            "రూపానుగజనెర జీబన",
+            "బిశ్బంభరప్రియంకర,    శ్రీస్బరూపదామొదర,",
+            "శ్రీగొస్బామీ రూపసనాతన 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "маха̄прабху ш́рӣчаитанйа,    ра̄дха̄кр̤шн̣а нахэ̆ анйа,",
+            "рӯпа̄нугаджанэ̆ра джӣбана",
+            "биш́бамбхараприйан̇кара,    ш́рӣсбарӯпада̄мо̆дара,",
+            "ш́рӣго̆сба̄мӣ рӯпасана̄тана 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മഹാപ്രഭു ശ്രീചൈതന്യ,    രാധാക്ഡ്ഷ്ണ നഹെ അന്യ,",
+            "രൂപാനുഗജനെര ജീബന",
+            "ബിശ്ബംഭരപ്രിയങ്കര,    ശ്രീസ്ബരൂപദാമൊദര,",
+            "ശ്രീഗൊസ്ബാമീ രൂപസനാതന 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மஹாப்ரபு⁴ ஶ்ரீசைதன்ய,    ராதா⁴க்ஃட்²ஷ்ண நஹெ அன்ய,",
+            "ரூபானுக³ஜனெர ஜீப³ன",
+            "பி³ஶ்ப³ம்ப⁴ரப்ரியங்கர,    ஶ்ரீஸ்ப³ரூபதா³மொத³ர,",
+            "ஶ்ரீகொ³ஸ்பா³மீ ரூபஸனாதன 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "mahāprabhu śrīcaitanya,    rādhākṛṣṇa nahe anya,",
+            "rūpānuga-janera jībana",
+            "biśbambhara-priyaṅkara,    śrīsbarūpadāmodara,",
+            "śrīgosbāmī rūpa-sanātana 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "mahāprabhu śrīcaitanya,    rādhākṛṣṇa nahe anya,",
+            "rūpānuga-janera jībana",
+            "biśbambhara-priyaṅkara,    śrīsbarūpadāmodara,",
+            "śrīgosbāmī rūpa-sanātana 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "rūpapriya mahājana,    jība, raghunātha hana,",
+        "tā̃’ra priya kabi kṛṣṇadāsa",
+        "kṛṣṇadāsa priyabara,    narottama sebāpara,",
+        "yā̃’ra pada biśbanātha[FLAG_HYPHEN_ALPHA]āśa 7"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "रूपप्रिय महाजन,    जीब, रघुनाथ हन,",
+            "तांऽर प्रिय कबि क्ड़्ष्णदास",
+            "क्ड़्ष्णदास प्रियबर,    नरॊत्तम सॆबापर,",
+            "यांऽर पद बिश्बनाथआश ७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "রূপপ্রিয় মহাজন,    জীব, রঘুনাথ হন,",
+            "তাংঽর প্রিয় কবি ক্ড়্ষ্ণদাস",
+            "ক্ড়্ষ্ণদাস প্রিয়বর,    নরোত্তম সেবাপর,",
+            "যাংঽর পদ বিশ্বনাথআশ ৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ରୂପପ୍ରିୟ ମହାଜନ,    ଜୀବ, ରଘୁନାଥ ହନ,",
+            "ତାଂଽର ପ୍ରିୟ କବି କ୍ଡ଼୍ଷ୍ଣଦାସ",
+            "କ୍ଡ଼୍ଷ୍ଣଦାସ ପ୍ରିୟବର,    ନରୋତ୍ତମ ସେବାପର,",
+            "ଯାଂଽର ପଦ ବିଶ୍ବନାଥଆଶ ୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "રૂપપ્રિય મહાજન,    જીબ, રઘુનાથ હન,",
+            "તાંઽર પ્રિય કબિ ક્ડ઼્ષ્ણદાસ",
+            "ક્ડ઼્ષ્ણદાસ પ્રિયબર,    નરોત્તમ સેબાપર,",
+            "યાંઽર પદ બિશ્બનાથઆશ ૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "rūpapriya mahājana,    jība, raghunātha hana,",
+            "tā̃’ra priya kabi kṛṣṇadāsa",
+            "kṛṣṇadāsa priyabara,    narottama sebāpara,",
+            "yā̃’ra pada biśbanātha-āśa 7"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ರೂಪಪ್ರಿಯ ಮಹಾಜನ,    ಜೀಬ, ರಘುನಾಥ ಹನ,",
+            "ತಾಂಽರ ಪ್ರಿಯ ಕಬಿ ಕ್‌ಡ಼್ಷ್ಣದಾಸ",
+            "ಕ್‌ಡ಼್ಷ್ಣದಾಸ ಪ್ರಿಯಬರ,    ನರೊತ್ತಮ ಸೆಬಾಪರ,",
+            "ಯಾಂಽರ ಪದ ಬಿಶ್ಬನಾಥಆಶ ೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "రూపప్రియ మహాజన,    జీబ, రఘునాథ హన,",
+            "తాంఽర ప్రియ కబి క్డ్ష్ణదాస",
+            "క్డ్ష్ణదాస ప్రియబర,    నరొత్తమ సెబాపర,",
+            "యాంఽర పద బిశ్బనాథఆశ 7"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "рӯпаприйа маха̄джана,    джӣба, рагхуна̄тха хана,",
+            "та̄м̣'ра прийа каби кр̤шн̣ада̄са",
+            "кр̤шн̣ада̄са прийабара,    наро̆ттама сэ̆ба̄пара,",
+            "йа̄м̣'ра пада биш́бана̄тхаа̄ш́а 7"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "രൂപപ്രിയ മഹാജന,    ജീബ, രഘുനാഥ ഹന,",
+            "താംഽര പ്രിയ കബി ക്ഡ്ഷ്ണദാസ",
+            "ക്ഡ്ഷ്ണദാസ പ്രിയബര,    നരൊത്തമ സെബാപര,",
+            "യാംഽര പദ ബിശ്ബനാഥആശ 7"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ரூபப்ரிய மஹாஜன,    ஜீப³, ரகு⁴நாத² ஹன,",
+            "தாம்ʼ(அ)ர ப்ரிய கபி³ க்ஃட்²ஷ்ணதா³ஸ",
+            "க்ஃட்²ஷ்ணதா³ஸ ப்ரியப³ர,    நரொத்தம ஸெபா³பர,",
+            "யாம்ʼ(அ)ர பத³ பி³ஶ்ப³நாத²ஆஶ 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "rūpapriya mahājana,    jība, raghunātha hana,",
+            "tā̃’ra priya kabi kṛṣṇadāsa",
+            "kṛṣṇadāsa priyabara,    narottama sebāpara,",
+            "yā̃’ra pada biśbanātha-āśa 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "rūpapriya mahājana,    jība, raghunātha hana,",
+            "tā̃’ra priya kabi kṛṣṇadāsa",
+            "kṛṣṇadāsa priyabara,    narottama sebāpara,",
+            "yā̃’ra pada biśbanātha-āśa 7"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "source_text_master": [
+        "biśbanātha bhaktasātha,    baladeba, jagannātha,",
+        "tā̃’ra priya śrībhaktibinoda",
+        "mahābhāgabatabara,    śrīgaurakiśora[FLAG_HYPHEN_ALPHA]bara,",
+        "hari[FLAG_HYPHEN_ALPHA]bhajanete yā̃’ra moda 8"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बिश्बनाथ भक्तसाथ,    बलदॆब, जगन्नाथ,",
+            "तांऽर प्रिय श्रीभक्तिबिनॊद",
+            "महाभागबतबर,    श्रीगौरकिशॊरबर,",
+            "हरिभजनॆतॆ यांऽर मॊद ८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বিশ্বনাথ ভক্তসাথ,    বলদেব, জগন্নাথ,",
+            "তাংঽর প্রিয় শ্রীভক্তিবিনোদ",
+            "মহাভাগবতবর,    শ্রীগৌরকিশোরবর,",
+            "হরিভজনেতে যাংঽর মোদ ৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବିଶ୍ବନାଥ ଭକ୍ତସାଥ,    ବଲଦେବ, ଜଗନ୍ନାଥ,",
+            "ତାଂଽର ପ୍ରିୟ ଶ୍ରୀଭକ୍ତିବିନୋଦ",
+            "ମହାଭାଗବତବର,    ଶ୍ରୀଗୌରକିଶୋରବର,",
+            "ହରିଭଜନେତେ ଯାଂଽର ମୋଦ ୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બિશ્બનાથ ભક્તસાથ,    બલદેબ, જગન્નાથ,",
+            "તાંઽર પ્રિય શ્રીભક્તિબિનોદ",
+            "મહાભાગબતબર,    શ્રીગૌરકિશોરબર,",
+            "હરિભજનેતે યાંઽર મોદ ૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "biśbanātha bhaktasātha,    baladeba, jagannātha,",
+            "tā̃’ra priya śrībhaktibinoda",
+            "mahābhāgabatabara,    śrīgaurakiśora-bara,",
+            "hari-bhajanete yā̃’ra moda 8"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಿಶ್ಬನಾಥ ಭಕ್ತಸಾಥ,    ಬಲದೆಬ, ಜಗನ್ನಾಥ,",
+            "ತಾಂಽರ ಪ್ರಿಯ ಶ್ರೀಭಕ್ತಿಬಿನೊದ",
+            "ಮಹಾಭಾಗಬತಬರ,    ಶ್ರೀಗೌರಕಿಶೊರಬರ,",
+            "ಹರಿಭಜನೆತೆ ಯಾಂಽರ ಮೊದ ೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బిశ్బనాథ భక్తసాథ,    బలదెబ, జగన్నాథ,",
+            "తాంఽర ప్రియ శ్రీభక్తిబినొద",
+            "మహాభాగబతబర,    శ్రీగౌరకిశొరబర,",
+            "హరిభజనెతె యాంఽర మొద 8"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "биш́бана̄тха бхактаса̄тха,    баладэ̆ба, джаганна̄тха,",
+            "та̄м̣'ра прийа ш́рӣбхактибино̆да",
+            "маха̄бха̄габатабара,    ш́рӣгауракиш́о̆рабара,",
+            "харибхаджанэ̆тэ̆ йа̄м̣'ра мо̆да 8"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബിശ്ബനാഥ ഭക്തസാഥ,    ബലദെബ, ജഗന്നാഥ,",
+            "താംഽര പ്രിയ ശ്രീഭക്തിബിനൊദ",
+            "മഹാഭാഗബതബര,    ശ്രീഗൗരകിശൊരബര,",
+            "ഹരിഭജനെതെ യാംഽര മൊദ 8"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பி³ஶ்ப³நாத² ப⁴க்தஸாத²,    ப³லதெ³ப³, ஜக³ந்நாத²,",
+            "தாம்ʼ(அ)ர ப்ரிய ஶ்ரீப⁴க்திபி³னொத³",
+            "மஹாபா⁴க³ப³தப³ர,    ஶ்ரீகௌ³ரகிஶொரப³ர,",
+            "ஹரிப⁴ஜனெதெ யாம்ʼ(அ)ர மொத³ 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "biśbanātha bhaktasātha,    baladeba, jagannātha,",
+            "tā̃’ra priya śrībhaktibinoda",
+            "mahābhāgabatabara,    śrīgaurakiśora-bara,",
+            "hari-bhajanete yā̃’ra moda 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "biśbanātha bhaktasātha,    baladeba, jagannātha,",
+            "tā̃’ra priya śrībhaktibinoda",
+            "mahābhāgabatabara,    śrīgaurakiśora-bara,",
+            "hari-bhajanete yā̃’ra moda 8"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 9,
+      "source_text_master": [
+        "‘śrībārṣabhānabī’[FLAG_HYPHEN_ALPHA]barā,    sadā sebya[FLAG_HYPHEN_ALPHA]sebāparā,",
+        "tā̃hāra ‘dayitadāsa’ nāma",
+        "ei saba harijana,    gaurāṅgera nijajana,",
+        "tā̃’dera ucchiṣṭe mora kāma 9"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "‘श्रीबार्षभानबीऽबरा,    सदा सॆब्यसॆबापरा,",
+            "तांहार ‘दयितदासऽ नाम",
+            "ऎइ सब हरिजन,    गौराङ्गॆर निजजन,",
+            "तांऽदॆर उच्छिष्टॆ मॊर काम ९"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "‘শ্রীবার্ষভানবীঽবরা,    সদা সেব্যসেবাপরা,",
+            "তাংহার ‘দয়িতদাসঽ নাম",
+            "এই সব হরিজন,    গৌরাঙ্গের নিজজন,",
+            "তাংঽদের উচ্ছিষ্টে মোর কাম ৯"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "‘ଶ୍ରୀବାର୍ଷଭାନବୀଽବରା,    ସଦା ସେବ୍ୟସେବାପରା,",
+            "ତାଂହାର ‘ଦୟିତଦାସଽ ନାମ",
+            "ଏଇ ସବ ହରିଜନ,    ଗୌରାଙ୍ଗେର ନିଜଜନ,",
+            "ତାଂଽଦେର ଉଚ୍ଛିଷ୍ଟେ ମୋର କାମ ୯"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "‘શ્રીબાર્ષભાનબીઽબરા,    સદા સેબ્યસેબાપરા,",
+            "તાંહાર ‘દયિતદાસઽ નામ",
+            "એઇ સબ હરિજન,    ગૌરાઙ્ગેર નિજજન,",
+            "તાંઽદેર ઉચ્છિષ્ટે મોર કામ ૯"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "‘śrībārṣabhānabī’-barā,    sadā sebya-sebāparā,",
+            "tā̃hāra ‘dayitadāsa’ nāma",
+            "ei saba harijana,    gaurāṅgera nijajana,",
+            "tā̃’dera ucchiṣṭe mora kāma 9"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "‘ಶ್ರೀಬಾರ್ಷಭಾನಬೀಽಬರಾ,    ಸದಾ ಸೆಬ್ಯಸೆಬಾಪರಾ,",
+            "ತಾಂಹಾರ ‘ದಯಿತದಾಸಽ ನಾಮ",
+            "ಎಇ ಸಬ ಹರಿಜನ,    ಗೌರಾಂಗೆರ ನಿಜಜನ,",
+            "ತಾಂಽದೆರ ಉಚ್ಛಿಷ್ಟೆ ಮೊರ ಕಾಮ ೯"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "‘శ్రీబార్షభానబీఽబరా,    సదా సెబ్యసెబాపరా,",
+            "తాంహార ‘దయితదాసఽ నామ",
+            "ఎఇ సబ హరిజన,    గౌరాంగెర నిజజన,",
+            "తాంఽదెర ఉచ్ఛిష్టె మొర కామ 9"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "‘ш́рӣба̄ршабха̄набӣ'бара̄,    сада̄ сэ̆бйасэ̆ба̄пара̄,",
+            "та̄м̣ха̄ра ‘дайитада̄са' на̄ма",
+            "э̆и саба хариджана,    гаура̄н̇гэ̆ра ниджаджана,",
+            "та̄м̣'дэ̆ра уччхишт̣э̆ мо̆ра ка̄ма 9"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "‘ശ്രീബാർഷഭാനബീഽബരാ,    സദാ സെബ്യസെബാപരാ,",
+            "താംഹാര ‘ദയിതദാസഽ നാമ",
+            "എഇ സബ ഹരിജന,    ഗൗരാംഗെര നിജജന,",
+            "താംഽദെര ഉച്ഛിഷ്ടെ മൊര കാമ 9"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "‘ஶ்ரீபா³ர்ஷபா⁴னபீ³(அ)ப³ரா,    ஸதா³ ஸெப்³யஸெபா³பரா,",
+            "தாம்ʼஹார ‘த³யிததா³ஸ(அ) நாம",
+            "எஇ ஸப³ ஹரிஜன,    கௌ³ராங்கெ³ர நிஜஜன,",
+            "தாம்ʼ(அ)தெ³ர உச்சி²ஷ்டெ மொர காம 9"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "‘śrībārṣabhānabī’-barā,    sadā sebya-sebāparā,",
+            "tā̃hāra ‘dayitadāsa’ nāma",
+            "ei saba harijana,    gaurāṅgera nijajana,",
+            "tā̃’dera ucchiṣṭe mora kāma 9"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "‘śrībārṣabhānabī’-barā,    sadā sebya-sebāparā,",
+            "tā̃hāra ‘dayitadāsa’ nāma",
+            "ei saba harijana,    gaurāṅgera nijajana,",
+            "tā̃’dera ucchiṣṭe mora kāma 9"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 10,
+      "source_text_master": [
+        ""
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            ""
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            ""
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            ""
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            ""
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            ""
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            ""
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            ""
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            ""
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            ""
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            ""
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            ""
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            ""
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "brsm-1",
+      "filename": "GV2-brsm-1.mp3",
+      "artist": "Srila BR Sridhara Gosvami Maharaja"
+    },
+    {
+      "uid": "casu-1",
+      "filename": "GV2-casu-1.mp3",
+      "artist": "casu"
+    },
+    {
+      "uid": "krsn-1",
+      "filename": "GV2-krsn-1.mp3",
+      "artist": "Krsnadas das"
+    },
+    {
+      "uid": "srrb-1",
+      "filename": "GV2-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    }
+  ]
+}

@@ -1,0 +1,741 @@
+{
+  "uid": "D15",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "হরি হরি! আর কি এমন দশা হব"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "hari hari! āra ki emana daśā haba"
+    },
+    {
+      "script_code": "Deva",
+      "text": "हरि हरि! आर कि एमन दशा हब"
+    },
+    {
+      "script_code": "Telu",
+      "text": "హరి హరి! ఆర కి ఏమన దశా హబ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಹರಿ ಹರಿ! ಆರ ಕಿ ಏಮನ ದಶಾ ಹಬ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஹரி ஹரி! ஆர கி ஏமன த³ஶா ஹப³"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഹരി ഹരി! ആര കി ഏമന ദശാ ഹബ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "હરિ હરિ! આર કિ એમન દશા હબ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ହରି ହରି! ଆର କି ଏମନ ଦଶା ହବ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "хари хари! а̄ра ки эмана даш́а̄ хаба"
+    }
+  ],
+  "author_uid": "ndt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Narottama dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील नरोत्तम दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల నరోత్తమ దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ನರೋತ್ತಮ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல நரோத்தம தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല നരോത്തമ ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ નરોત્તમ દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ନରୋତ୍ତମ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла нароттама да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "hari hari! āra ki emana daśā haba",
+        "e[FLAG_HYPHEN_ALPHA]bhaba[FLAG_HYPHEN_ALPHA]saṁsāra tyaji’,    parama[FLAG_HYPHEN_ALPHA]ānande maji’,",
+        "āra kabe brajabhūme yā’ba 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हरि हरि! आर कि ऎमन दशा हब",
+            "ऎभबसंसार त्यजिऽ,    परमआनन्दॆ मजिऽ,",
+            "आर कबॆ ब्रजभूमॆ याऽब १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হরি হরি! আর কি এমন দশা হব",
+            "এভবসংসার ত্যজিঽ,    পরমআনন্দে মজিঽ,",
+            "আর কবে ব্রজভূমে যাঽব ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହରି ହରି! ଆର କି ଏମନ ଦଶା ହବ",
+            "ଏଭବସଂସାର ତ୍ୟଜିଽ,    ପରମଆନନ୍ଦେ ମଜିଽ,",
+            "ଆର କବେ ବ୍ରଜଭୂମେ ଯାଽବ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હરિ હરિ! આર કિ એમન દશા હબ",
+            "એભબસંસાર ત્યજિઽ,    પરમઆનન્દે મજિઽ,",
+            "આર કબે બ્રજભૂમે યાઽબ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hari hari! āra ki emana daśā haba",
+            "e-bhaba-saṁsāra tyaji’,    parama-ānande maji’,",
+            "āra kabe brajabhūme yā’ba 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹರಿ ಹರಿ! ಆರ ಕಿ ಎಮನ ದಶಾ ಹಬ",
+            "ಎಭಬಸಂಸಾರ ತ್ಯಜಿಽ,    ಪರಮಆನಂದೆ ಮಜಿಽ,",
+            "ಆರ ಕಬೆ ಬ್ರಜಭೂಮೆ ಯಾಽಬ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హరి హరి! ఆర కి ఎమన దశా హబ",
+            "ఎభబసంసార త్యజిఽ,    పరమఆనందె మజిఽ,",
+            "ఆర కబె బ్రజభూమె యాఽబ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хари хари! а̄ра ки э̆мана даш́а̄ хаба",
+            "э̆бхабасам̣са̄ра тйаджи',    парамаа̄нандэ̆ маджи',",
+            "а̄ра кабэ̆ браджабхӯмэ̆ йа̄'ба 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹരി ഹരി! ആര കി എമന ദശാ ഹബ",
+            "എഭബസംസാര ത്യജിഽ,    പരമആനന്ദെ മജിഽ,",
+            "ആര കബെ ബ്രജഭൂമെ യാഽബ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹரி ஹரி! ஆர கி எமன த³ஶா ஹப³",
+            "எப⁴ப³ஸம்ʼஸார த்யஜி(அ),    பரமஆனந்தெ³ மஜி(அ),",
+            "ஆர கபெ³ ப்³ரஜபூ⁴மெ யா(அ)ப³ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hari hari! āra ki emana daśā haba",
+            "e-bhaba-saṁsāra tyaji’,    parama-ānande maji’,",
+            "āra kabe brajabhūme yā’ba 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hari hari! āra ki emana daśā haba",
+            "e-bhaba-saṁsāra tyaji’,    parama-ānande maji’,",
+            "āra kabe brajabhūme yā’ba 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "sukhamaya bṛndābana,    kabe ha’be daraśana,",
+        "se[FLAG_HYPHEN_ALPHA]dhūli lāgibe ka’be gāya",
+        "preme gadagada haiyā,    rādhākṛṣṇa[FLAG_HYPHEN_ALPHA]nāma laiyā,",
+        "kāndiyā beḓāba ubharāya 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सुखमय ब्ड़्न्दाबन,    कबॆ हऽबॆ दरशन,",
+            "सॆधूलि लागिबॆ कऽबॆ गाय",
+            "प्रॆमॆ गदगद हैया,    राधाक्ड़्ष्णनाम लैया,",
+            "कान्दिया बॆḓआब उभराय २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সুখময় ব্ড়্ন্দাবন,    কবে হঽবে দরশন,",
+            "সেধূলি লাগিবে কঽবে গায়",
+            "প্রেমে গদগদ হৈয়া,    রাধাক্ড়্ষ্ণনাম লৈয়া,",
+            "কান্দিয়া বেḓআব উভরায় ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସୁଖମୟ ବ୍ଡ଼୍ନ୍ଦାବନ,    କବେ ହଽବେ ଦରଶନ,",
+            "ସେଧୂଲି ଲାଗିବେ କଽବେ ଗାୟ",
+            "ପ୍ରେମେ ଗଦଗଦ ହୈୟା,    ରାଧାକ୍ଡ଼୍ଷ୍ଣନାମ ଲୈୟା,",
+            "କାନ୍ଦିୟା ବେḓଆବ ଉଭରାୟ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સુખમય બ્ડ઼્ન્દાબન,    કબે હઽબે દરશન,",
+            "સેધૂલિ લાગિબે કઽબે ગાય",
+            "પ્રેમે ગદગદ હૈયા,    રાધાક્ડ઼્ષ્ણનામ લૈયા,",
+            "કાન્દિયા બેḓઆબ ઉભરાય ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sukhamaya bṛndābana,    kabe ha’be daraśana,",
+            "se-dhūli lāgibe ka’be gāya",
+            "preme gadagada haiyā,    rādhākṛṣṇa-nāma laiyā,",
+            "kāndiyā beḓāba ubharāya 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸುಖಮಯ ಬ್‌ಡ಼್ನ್ದಾಬನ,    ಕಬೆ ಹಽಬೆ ದರಶನ,",
+            "ಸೆಧೂಲಿ ಲಾಗಿಬೆ ಕಽಬೆ ಗಾಯ",
+            "ಪ್ರೆಮೆ ಗದಗದ ಹೈಯಾ,    ರಾಧಾಕ್‌ಡ಼್ಷ್ಣನಾಮ ಲೈಯಾ,",
+            "ಕಾಂದಿಯಾ ಬೆḓಆಬ ಉಭರಾಯ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సుఖమయ బ్డ్న్దాబన,    కబె హఽబె దరశన,",
+            "సెధూలి లాగిబె కఽబె గాయ",
+            "ప్రెమె గదగద హైయా,    రాధాక్డ్ష్ణనామ లైయా,",
+            "కాందియా బెḓఆబ ఉభరాయ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сукхамайа бр̤нда̄бана,    кабэ̆ ха'бэ̆ дараш́ана,",
+            "сэ̆дхӯли ла̄гибэ̆ ка'бэ̆ га̄йа",
+            "прэ̆мэ̆ гадагада хаийа̄,    ра̄дха̄кр̤шн̣ана̄ма лаийа̄,",
+            "ка̄ндийа̄ бэ̆ḓа̄ба убхара̄йа 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സുഖമയ ബ്ഡ്ന്ദാബന,    കബെ ഹഽബെ ദരശന,",
+            "സെധൂലി ലാഗിബെ കഽബെ ഗായ",
+            "പ്രെമെ ഗദഗദ ഹൈയാ,    രാധാക്ഡ്ഷ്ണനാമ ലൈയാ,",
+            "കാന്ദിയാ ബെḓആബ ഉഭരായ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸுக²மய ப்³ஃட்²ந்தா³ப³ன,    கபெ³ ஹ(அ)பெ³ த³ரஶன,",
+            "ஸெதூ⁴லி லாகி³பெ³ க(அ)பெ³ கா³ய",
+            "ப்ரெமெ க³த³க³த³ ஹையா,    ராதா⁴க்ஃட்²ஷ்ணநாம லையா,",
+            "காந்தி³யா பெ³ḓஆப³ உப⁴ராய 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sukhamaya bṛndābana,    kabe ha’be daraśana,",
+            "se-dhūli lāgibe ka’be gāya",
+            "preme gadagada haiyā,    rādhākṛṣṇa-nāma laiyā,",
+            "kāndiyā beḍāba ubharāya 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sukhamaya bṛndābana,    kabe ha’be daraśana,",
+            "se-dhūli lāgibe ka’be gāya",
+            "preme gadagada haiyā,    rādhākṛṣṇa-nāma laiyā,",
+            "kāndiyā beḓāba ubharāya 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "nibhṛte nikuñje yāyā,    aṣṭāṅge praṇāma haiyā,",
+        "ḍākiba ‘hā rādhānātha’ bali’",
+        "kabe yamunāra tīre,    paraśa kariba nīre,",
+        "kabe piba karapuṭe tuli’ 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "निभ्ड़्तॆ निकुञ्जॆ याया,    अष्टाङ्गॆ प्रणाम हैया,",
+            "डाकिब ‘हा राधानाथऽ बलिऽ",
+            "कबॆ यमुनार तीरॆ,    परश करिब नीरॆ,",
+            "कबॆ पिब करपुटॆ तुलिऽ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নিভ্ড়্তে নিকুঞ্জে যায়া,    অষ্টাঙ্গে প্রণাম হৈয়া,",
+            "ডাকিব ‘হা রাধানাথঽ বলিঽ",
+            "কবে যমুনার তীরে,    পরশ করিব নীরে,",
+            "কবে পিব করপুটে তুলিঽ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନିଭ୍ଡ଼୍ତେ ନିକୁଞ୍ଜେ ଯାୟା,    ଅଷ୍ଟାଙ୍ଗେ ପ୍ରଣାମ ହୈୟା,",
+            "ଡାକିବ ‘ହା ରାଧାନାଥଽ ବଲିଽ",
+            "କବେ ଯମୁନାର ତୀରେ,    ପରଶ କରିବ ନୀରେ,",
+            "କବେ ପିବ କରପୁଟେ ତୁଲିଽ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નિભ્ડ઼્તે નિકુઞ્જે યાયા,    અષ્ટાઙ્ગે પ્રણામ હૈયા,",
+            "ડાકિબ ‘હા રાધાનાથઽ બલિઽ",
+            "કબે યમુનાર તીરે,    પરશ કરિબ નીરે,",
+            "કબે પિબ કરપુટે તુલિઽ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nibhṛte nikuñje yāyā,    aṣṭāṅge praṇāma haiyā,",
+            "ḍākiba ‘hā rādhānātha’ bali’",
+            "kabe yamunāra tīre,    paraśa kariba nīre,",
+            "kabe piba karapuṭe tuli’ 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಿಭ್‌ಡ಼್ತೆ ನಿಕುಂಜೆ ಯಾಯಾ,    ಅಷ್ಟಾಂಗೆ ಪ್ರಣಾಮ ಹೈಯಾ,",
+            "ಡಾಕಿಬ ‘ಹಾ ರಾಧಾನಾಥಽ ಬಲಿಽ",
+            "ಕಬೆ ಯಮುನಾರ ತೀರೆ,    ಪರಶ ಕರಿಬ ನೀರೆ,",
+            "ಕಬೆ ಪಿಬ ಕರಪುಟೆ ತುಲಿಽ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నిభ్డ్తె నికుంజె యాయా,    అష్టాంగె ప్రణామ హైయా,",
+            "డాకిబ ‘హా రాధానాథఽ బలిఽ",
+            "కబె యమునార తీరె,    పరశ కరిబ నీరె,",
+            "కబె పిబ కరపుటె తులిఽ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "нибхр̤тэ̆ никун̃джэ̆ йа̄йа̄,    ашт̣а̄н̇гэ̆ пран̣а̄ма хаийа̄,",
+            "д̣а̄киба ‘ха̄ ра̄дха̄на̄тха' бали'",
+            "кабэ̆ йамуна̄ра тӣрэ̆,    параш́а кариба нӣрэ̆,",
+            "кабэ̆ пиба карапут̣э̆ тули' 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നിഭ്ഡ്തെ നികുഞ്ജെ യായാ,    അഷ്ടാംഗെ പ്രണാമ ഹൈയാ,",
+            "ഡാകിബ ‘ഹാ രാധാനാഥഽ ബലിഽ",
+            "കബെ യമുനാര തീരെ,    പരശ കരിബ നീരെ,",
+            "കബെ പിബ കരപുടെ തുലിഽ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நிப்⁴ஃட்²தெ நிகுஞ்ஜெ யாயா,    அஷ்டாங்கெ³ ப்ரணாம ஹையா,",
+            "டா³கிப³ ‘ஹா ராதா⁴நாத²(அ) ப³லி(அ)",
+            "கபெ³ யமுனார தீரெ,    பரஶ கரிப³ நீரெ,",
+            "கபெ³ பிப³ கரபுடெ துலி(அ) 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nibhṛte nikuñje yāyā,    aṣṭāṅge praṇāma haiyā,",
+            "ḍākiba ‘hā rādhānātha’ bali’",
+            "kabe yamunāra tīre,    paraśa kariba nīre,",
+            "kabe piba karapuṭe tuli’ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nibhṛte nikuñje yāyā,    aṣṭāṅge praṇāma haiyā,",
+            "ḍākiba ‘hā rādhānātha’ bali’",
+            "kabe yamunāra tīre,    paraśa kariba nīre,",
+            "kabe piba karapuṭe tuli’ 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "āra kabe emana haba,    śrīrāsamaṇḍale yā’ba,",
+        "kabe gaḓāgaḓi diba tāya",
+        "baṁśībaṭa[FLAG_HYPHEN_ALPHA]chāyā pāyā,    parama[FLAG_HYPHEN_ALPHA]ānanda hayā,",
+        "paḓiyā rahiba tā’ra chāya 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "आर कबॆ ऎमन हब,    श्रीरासमण्डलॆ याऽब,",
+            "कबॆ गḓआगḓइ दिब ताय",
+            "बंशीबटछाया पाया,    परमआनन्द हया,",
+            "पḓइया रहिब ताऽर छाय ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "আর কবে এমন হব,    শ্রীরাসমণ্ডলে যাঽব,",
+            "কবে গḓআগḓই দিব তায়",
+            "বংশীবটছায়া পায়া,    পরমআনন্দ হয়া,",
+            "পḓইয়া রহিব তাঽর ছায় ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଆର କବେ ଏମନ ହବ,    ଶ୍ରୀରାସମଣ୍ଡଲେ ଯାଽବ,",
+            "କବେ ଗḓଆଗḓଇ ଦିବ ତାୟ",
+            "ବଂଶୀବଟଛାୟା ପାୟା,    ପରମଆନନ୍ଦ ହୟା,",
+            "ପḓଇୟା ରହିବ ତାଽର ଛାୟ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "આર કબે એમન હબ,    શ્રીરાસમણ્ડલે યાઽબ,",
+            "કબે ગḓઆગḓઇ દિબ તાય",
+            "બંશીબટછાયા પાયા,    પરમઆનન્દ હયા,",
+            "પḓઇયા રહિબ તાઽર છાય ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "āra kabe emana haba,    śrīrāsamaṇḍale yā’ba,",
+            "kabe gaḓāgaḓi diba tāya",
+            "baṁśībaṭa-chāyā pāyā,    parama-ānanda hayā,",
+            "paḓiyā rahiba tā’ra chāya 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಆರ ಕಬೆ ಎಮನ ಹಬ,    ಶ್ರೀರಾಸಮಂಡಲೆ ಯಾಽಬ,",
+            "ಕಬೆ ಗḓಆಗḓಇ ದಿಬ ತಾಯ",
+            "ಬಂಶೀಬಟಛಾಯಾ ಪಾಯಾ,    ಪರಮಆನಂದ ಹಯಾ,",
+            "ಪḓಇಯಾ ರಹಿಬ ತಾಽರ ಛಾಯ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఆర కబె ఎమన హబ,    శ్రీరాసమండలె యాఽబ,",
+            "కబె గḓఆగḓఇ దిబ తాయ",
+            "బంశీబటఛాయా పాయా,    పరమఆనంద హయా,",
+            "పḓఇయా రహిబ తాఽర ఛాయ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "а̄ра кабэ̆ э̆мана хаба,    ш́рӣра̄саман̣д̣алэ̆ йа̄'ба,",
+            "кабэ̆ гаḓа̄гаḓи диба та̄йа",
+            "бам̣ш́ӣбат̣ачха̄йа̄ па̄йа̄,    парамаа̄нанда хайа̄,",
+            "паḓийа̄ рахиба та̄'ра чха̄йа 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ആര കബെ എമന ഹബ,    ശ്രീരാസമണ്ഡലെ യാഽബ,",
+            "കബെ ഗḓആഗḓഇ ദിബ തായ",
+            "ബംശീബടഛായാ പായാ,    പരമആനന്ദ ഹയാ,",
+            "പḓഇയാ രഹിബ താഽര ഛായ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஆர கபெ³ எமன ஹப³,    ஶ்ரீராஸமண்ட³லெ யா(அ)ப³,",
+            "கபெ³ க³ḓஆக³ḓஇ தி³ப³ தாய",
+            "ப³ம்ʼஶீப³டசா²யா பாயா,    பரமஆனந்த³ ஹயா,",
+            "பḓஇயா ரஹிப³ தா(அ)ர சா²ய 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "āra kabe emana haba,    śrīrāsamaṇḍale yā’ba,",
+            "kabe gaḍāgaḍi diba tāya",
+            "baṁśībaṭa-chāyā pāyā,    parama-ānanda hayā,",
+            "paḍiyā rahiba tā’ra chāya 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "āra kabe emana haba,    śrīrāsamaṇḍale yā’ba,",
+            "kabe gaḓāgaḓi diba tāya",
+            "baṁśībaṭa-chāyā pāyā,    parama-ānanda hayā,",
+            "paḓiyā rahiba tā’ra chāya 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "kabe gobardhana giri,    dekhiba nayana bhari’,",
+        "kabe habe rādhākuṇḍe bāsa",
+        "bhramite bhramite kabe,    e[FLAG_HYPHEN_ALPHA]deha patana habe,",
+        "kahe dīna narottamadāsa 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कबॆ गॊबर्धन गिरि,    दॆखिब नयन भरिऽ,",
+            "कबॆ हबॆ राधाकुण्डॆ बास",
+            "भ्रमितॆ भ्रमितॆ कबॆ,    ऎदॆह पतन हबॆ,",
+            "कहॆ दीन नरॊत्तमदास ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কবে গোবর্ধন গিরি,    দেখিব নয়ন ভরিঽ,",
+            "কবে হবে রাধাকুণ্ডে বাস",
+            "ভ্রমিতে ভ্রমিতে কবে,    এদেহ পতন হবে,",
+            "কহে দীন নরোত্তমদাস ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କବେ ଗୋବର୍ଧନ ଗିରି,    ଦେଖିବ ନୟନ ଭରିଽ,",
+            "କବେ ହବେ ରାଧାକୁଣ୍ଡେ ବାସ",
+            "ଭ୍ରମିତେ ଭ୍ରମିତେ କବେ,    ଏଦେହ ପତନ ହବେ,",
+            "କହେ ଦୀନ ନରୋତ୍ତମଦାସ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કબે ગોબર્ધન ગિરિ,    દેખિબ નયન ભરિઽ,",
+            "કબે હબે રાધાકુણ્ડે બાસ",
+            "ભ્રમિતે ભ્રમિતે કબે,    એદેહ પતન હબે,",
+            "કહે દીન નરોત્તમદાસ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kabe gobardhana giri,    dekhiba nayana bhari’,",
+            "kabe habe rādhākuṇḍe bāsa",
+            "bhramite bhramite kabe,    e-deha patana habe,",
+            "kahe dīna narottamadāsa 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕಬೆ ಗೊಬರ್ಧನ ಗಿರಿ,    ದೆಖಿಬ ನಯನ ಭರಿಽ,",
+            "ಕಬೆ ಹಬೆ ರಾಧಾಕುಂಡೆ ಬಾಸ",
+            "ಭ್ರಮಿತೆ ಭ್ರಮಿತೆ ಕಬೆ,    ಎದೆಹ ಪತನ ಹಬೆ,",
+            "ಕಹೆ ದೀನ ನರೊತ್ತಮದಾಸ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కబె గొబర్ధన గిరి,    దెఖిబ నయన భరిఽ,",
+            "కబె హబె రాధాకుండె బాస",
+            "భ్రమితె భ్రమితె కబె,    ఎదెహ పతన హబె,",
+            "కహె దీన నరొత్తమదాస 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кабэ̆ го̆бардхана гири,    дэ̆кхиба найана бхари',",
+            "кабэ̆ хабэ̆ ра̄дха̄кун̣д̣э̆ ба̄са",
+            "бхрамитэ̆ бхрамитэ̆ кабэ̆,    э̆дэ̆ха патана хабэ̆,",
+            "кахэ̆ дӣна наро̆ттамада̄са 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കബെ ഗൊബർധന ഗിരി,    ദെഖിബ നയന ഭരിഽ,",
+            "കബെ ഹബെ രാധാകുണ്ഡെ ബാസ",
+            "ഭ്രമിതെ ഭ്രമിതെ കബെ,    എദെഹ പതന ഹബെ,",
+            "കഹെ ദീന നരൊത്തമദാസ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கபெ³ கொ³ப³ர்த⁴ன கி³ரி,    தெ³கி²ப³ நயன ப⁴ரி(அ),",
+            "கபெ³ ஹபெ³ ராதா⁴குண்டெ³ பா³ஸ",
+            "ப்⁴ரமிதெ ப்⁴ரமிதெ கபெ³,    எதெ³ஹ பதன ஹபெ³,",
+            "கஹெ தீ³ன நரொத்தமதா³ஸ 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kabe gobardhana giri,    dekhiba nayana bhari’,",
+            "kabe habe rādhākuṇḍe bāsa",
+            "bhramite bhramite kabe,    e-deha patana habe,",
+            "kahe dīna narottamadāsa 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kabe gobardhana giri,    dekhiba nayana bhari’,",
+            "kabe habe rādhākuṇḍe bāsa",
+            "bhramite bhramite kabe,    e-deha patana habe,",
+            "kahe dīna narottamadāsa 5"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Yearning for Residence in Śrī Vraja-dhāma"
+  ]
+}

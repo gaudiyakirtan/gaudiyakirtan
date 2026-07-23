@@ -1,0 +1,1812 @@
+{
+  "uid": "U4",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "হরি হে! দান-প্রতিগ্রহ"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "hari he! dāna-pratigraha"
+    },
+    {
+      "script_code": "Deva",
+      "text": "हरि हे! दान-प्रतिग्रह"
+    },
+    {
+      "script_code": "Telu",
+      "text": "హరి హే! దాన-ప్రతిగ్రహ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಹರಿ ಹೇ! ದಾನ-ಪ್ರತಿಗ್ರಹ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஹரி ஹே! தா³ன-ப்ரதிக்³ரஹ"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഹരി ഹേ! ദാന-പ്രതിഗ്രഹ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "હરિ હે! દાન-પ્રતિગ્રહ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ହରି ହେ! ଦାନ-ପ୍ରତିଗ୍ରହ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "хари хэ! да̄на-пратиграха"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "hari he!",
+        "dāna[FLAG_HYPHEN_ALPHA]pratigraha,    mitho gupta[FLAG_HYPHEN_ALPHA]kathā,",
+        "bhakṣaṇa, bhojana[FLAG_HYPHEN_ALPHA]dāna",
+        "saṅgera lakṣaṇa,    ei chaya haya,",
+        "ihāte bhaktira prāṇa 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O Hari! Offering and receiving gifts; sharing and discussing confidential topics; accepting and offering prasāda—these are the six characteristics of [devotional] association, in which lies the life of bhakti."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "hari",
+              "Hari"
+            ],
+            [
+              "he",
+              "O"
+            ],
+            [
+              "dāna",
+              "act of giving"
+            ],
+            [
+              "pratigraha",
+              "acceptance of gifts"
+            ],
+            [
+              "mitho",
+              "(paraspar) one another, mutual"
+            ],
+            [
+              "gupta",
+              "confidential"
+            ],
+            [
+              "kathā",
+              "topics"
+            ],
+            [
+              "bhakṣaṇa",
+              "act of eating"
+            ],
+            [
+              "bhojana",
+              "feeding"
+            ],
+            [
+              "dāna",
+              "act of giving"
+            ],
+            [
+              "saṅgera",
+              "of association"
+            ],
+            [
+              "lakṣaṇa",
+              "characteristics"
+            ],
+            [
+              "ei",
+              "these"
+            ],
+            [
+              "chaya",
+              "six"
+            ],
+            [
+              "haya",
+              "are"
+            ],
+            [
+              "ihāte",
+              "in them"
+            ],
+            [
+              "bhaktira",
+              "of devotion"
+            ],
+            [
+              "prāṇa",
+              "life, vitality"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "हरि",
+              "Hari"
+            ],
+            [
+              "हॆ",
+              "O"
+            ],
+            [
+              "दान",
+              "act of giving"
+            ],
+            [
+              "प्रतिग्रह",
+              "acceptance of gifts"
+            ],
+            [
+              "मिथॊ",
+              "(paraspar) one another, mutual"
+            ],
+            [
+              "गुप्त",
+              "confidential"
+            ],
+            [
+              "कथा",
+              "topics"
+            ],
+            [
+              "भक्षण",
+              "act of eating"
+            ],
+            [
+              "भॊजन",
+              "feeding"
+            ],
+            [
+              "दान",
+              "act of giving"
+            ],
+            [
+              "सङ्गॆर",
+              "of association"
+            ],
+            [
+              "लक्षण",
+              "characteristics"
+            ],
+            [
+              "ऎइ",
+              "these"
+            ],
+            [
+              "छय",
+              "six"
+            ],
+            [
+              "हय",
+              "are"
+            ],
+            [
+              "इहातॆ",
+              "in them"
+            ],
+            [
+              "भक्तिर",
+              "of devotion"
+            ],
+            [
+              "प्राण",
+              "life, vitality"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "হরি",
+              "Hari"
+            ],
+            [
+              "হে",
+              "O"
+            ],
+            [
+              "দান",
+              "act of giving"
+            ],
+            [
+              "প্রতিগ্রহ",
+              "acceptance of gifts"
+            ],
+            [
+              "মিথো",
+              "(paraspar) one another, mutual"
+            ],
+            [
+              "গুপ্ত",
+              "confidential"
+            ],
+            [
+              "কথা",
+              "topics"
+            ],
+            [
+              "ভক্ষণ",
+              "act of eating"
+            ],
+            [
+              "ভোজন",
+              "feeding"
+            ],
+            [
+              "দান",
+              "act of giving"
+            ],
+            [
+              "সঙ্গের",
+              "of association"
+            ],
+            [
+              "লক্ষণ",
+              "characteristics"
+            ],
+            [
+              "এই",
+              "these"
+            ],
+            [
+              "ছয়",
+              "six"
+            ],
+            [
+              "হয়",
+              "are"
+            ],
+            [
+              "ইহাতে",
+              "in them"
+            ],
+            [
+              "ভক্তির",
+              "of devotion"
+            ],
+            [
+              "প্রাণ",
+              "life, vitality"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "હરિ",
+              "Hari"
+            ],
+            [
+              "હે",
+              "O"
+            ],
+            [
+              "દાન",
+              "act of giving"
+            ],
+            [
+              "પ્રતિગ્રહ",
+              "acceptance of gifts"
+            ],
+            [
+              "મિથો",
+              "(paraspar) one another, mutual"
+            ],
+            [
+              "ગુપ્ત",
+              "confidential"
+            ],
+            [
+              "કથા",
+              "topics"
+            ],
+            [
+              "ભક્ષણ",
+              "act of eating"
+            ],
+            [
+              "ભોજન",
+              "feeding"
+            ],
+            [
+              "દાન",
+              "act of giving"
+            ],
+            [
+              "સઙ્ગેર",
+              "of association"
+            ],
+            [
+              "લક્ષણ",
+              "characteristics"
+            ],
+            [
+              "એઇ",
+              "these"
+            ],
+            [
+              "છય",
+              "six"
+            ],
+            [
+              "હય",
+              "are"
+            ],
+            [
+              "ઇહાતે",
+              "in them"
+            ],
+            [
+              "ભક્તિર",
+              "of devotion"
+            ],
+            [
+              "પ્રાણ",
+              "life, vitality"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हरि हॆ!",
+            "दानप्रतिग्रह,    मिथॊ गुप्तकथा,",
+            "भक्षण, भॊजनदान",
+            "सङ्गॆर लक्षण,    ऎइ छय हय,",
+            "इहातॆ भक्तिर प्राण १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হরি হে!",
+            "দানপ্রতিগ্রহ,    মিথো গুপ্তকথা,",
+            "ভক্ষণ, ভোজনদান",
+            "সঙ্গের লক্ষণ,    এই ছয় হয়,",
+            "ইহাতে ভক্তির প্রাণ ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହରି ହେ!",
+            "ଦାନପ୍ରତିଗ୍ରହ,    ମିଥୋ ଗୁପ୍ତକଥା,",
+            "ଭକ୍ଷଣ, ଭୋଜନଦାନ",
+            "ସଙ୍ଗେର ଲକ୍ଷଣ,    ଏଇ ଛୟ ହୟ,",
+            "ଇହାତେ ଭକ୍ତିର ପ୍ରାଣ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હરિ હે!",
+            "દાનપ્રતિગ્રહ,    મિથો ગુપ્તકથા,",
+            "ભક્ષણ, ભોજનદાન",
+            "સઙ્ગેર લક્ષણ,    એઇ છય હય,",
+            "ઇહાતે ભક્તિર પ્રાણ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hari he!",
+            "dāna-pratigraha,    mitho gupta-kathā,",
+            "bhakṣaṇa, bhojana-dāna",
+            "saṅgera lakṣaṇa,    ei chaya haya,",
+            "ihāte bhaktira prāṇa 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹರಿ ಹೆ!",
+            "ದಾನಪ್ರತಿಗ್ರಹ,    ಮಿಥೊ ಗುಪ್ತಕಥಾ,",
+            "ಭಕ್ಷಣ, ಭೊಜನದಾನ",
+            "ಸಂಗೆರ ಲಕ್ಷಣ,    ಎಇ ಛಯ ಹಯ,",
+            "ಇಹಾತೆ ಭಕ್ತಿರ ಪ್ರಾಣ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హరి హె!",
+            "దానప్రతిగ్రహ,    మిథొ గుప్తకథా,",
+            "భక్షణ, భొజనదాన",
+            "సంగెర లక్షణ,    ఎఇ ఛయ హయ,",
+            "ఇహాతె భక్తిర ప్రాణ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хари хэ̆!",
+            "да̄напратиграха,    митхо̆ гуптакатха̄,",
+            "бхакшан̣а, бхо̆джанада̄на",
+            "сан̇гэ̆ра лакшан̣а,    э̆и чхайа хайа,",
+            "иха̄тэ̆ бхактира пра̄н̣а 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹരി ഹെ!",
+            "ദാനപ്രതിഗ്രഹ,    മിഥൊ ഗുപ്തകഥാ,",
+            "ഭക്ഷണ, ഭൊജനദാന",
+            "സംഗെര ലക്ഷണ,    എഇ ഛയ ഹയ,",
+            "ഇഹാതെ ഭക്തിര പ്രാണ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹரி ஹெ!",
+            "தா³னப்ரதிக்³ரஹ,    மிதொ² கு³ப்தகதா²,",
+            "ப⁴க்ஷண, பொ⁴ஜனதா³ன",
+            "ஸங்கெ³ர லக்ஷண,    எஇ ச²ய ஹய,",
+            "இஹாதெ ப⁴க்திர ப்ராண 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hari he!",
+            "dāna-pratigraha,    mitho gupta-kathā,",
+            "bhakṣaṇa, bhojana-dāna",
+            "saṅgera lakṣaṇa,    ei chaya haya,",
+            "ihāte bhaktira prāṇa 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hari he!",
+            "dāna-pratigraha,    mitho gupta-kathā,",
+            "bhakṣaṇa, bhojana-dāna",
+            "saṅgera lakṣaṇa,    ei chaya haya,",
+            "ihāte bhaktira prāṇa 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "tattba nā bujhiye,    jñāne bā ajñāne,",
+        "asate e saba kari’",
+        "bhakti hārāinu,    saṁsārī ha·inu,",
+        "sudūre rahile hari 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Not comprehending this essential truth and having engaged knowingly or unknowingly in these exchanges with non-devotees, I have lost all devotion and have become a materialist. As a result, You remain very far away, O Hari."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "tattba",
+              "essential truth"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "bujhiye",
+              "having comprehended"
+            ],
+            [
+              "jñāne",
+              "knowingly"
+            ],
+            [
+              "bā",
+              "or"
+            ],
+            [
+              "ajñāne",
+              "unknowingly"
+            ],
+            [
+              "asate",
+              "with non-devotees"
+            ],
+            [
+              "e",
+              "these"
+            ],
+            [
+              "saba",
+              "all"
+            ],
+            [
+              "kari’",
+              "having done"
+            ],
+            [
+              "bhakti",
+              "devotion"
+            ],
+            [
+              "hārāinu",
+              "I have lost"
+            ],
+            [
+              "saṁsārī",
+              "materialist"
+            ],
+            [
+              "ha·inu",
+              "I have become"
+            ],
+            [
+              "sudūre",
+              "very far away"
+            ],
+            [
+              "rahile",
+              "You remained"
+            ],
+            [
+              "hari",
+              "O Hari"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "तत्त्ब",
+              "essential truth"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "बुझियॆ",
+              "having comprehended"
+            ],
+            [
+              "ज्ञानॆ",
+              "knowingly"
+            ],
+            [
+              "बा",
+              "or"
+            ],
+            [
+              "अज्ञानॆ",
+              "unknowingly"
+            ],
+            [
+              "असतॆ",
+              "with non-devotees"
+            ],
+            [
+              "ऎ",
+              "these"
+            ],
+            [
+              "सब",
+              "all"
+            ],
+            [
+              "करिऽ",
+              "having done"
+            ],
+            [
+              "भक्ति",
+              "devotion"
+            ],
+            [
+              "हाराइनु",
+              "I have lost"
+            ],
+            [
+              "संसारी",
+              "materialist"
+            ],
+            [
+              "हइनु",
+              "I have become"
+            ],
+            [
+              "सुदूरॆ",
+              "very far away"
+            ],
+            [
+              "रहिलॆ",
+              "You remained"
+            ],
+            [
+              "हरि",
+              "O Hari"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "তত্ত্ব",
+              "essential truth"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "বুঝিয়ে",
+              "having comprehended"
+            ],
+            [
+              "জ্ঞানে",
+              "knowingly"
+            ],
+            [
+              "বা",
+              "or"
+            ],
+            [
+              "অজ্ঞানে",
+              "unknowingly"
+            ],
+            [
+              "অসতে",
+              "with non-devotees"
+            ],
+            [
+              "এ",
+              "these"
+            ],
+            [
+              "সব",
+              "all"
+            ],
+            [
+              "করিঽ",
+              "having done"
+            ],
+            [
+              "ভক্তি",
+              "devotion"
+            ],
+            [
+              "হারাইনু",
+              "I have lost"
+            ],
+            [
+              "সংসারী",
+              "materialist"
+            ],
+            [
+              "হইনু",
+              "I have become"
+            ],
+            [
+              "সুদূরে",
+              "very far away"
+            ],
+            [
+              "রহিলে",
+              "You remained"
+            ],
+            [
+              "হরি",
+              "O Hari"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "તત્ત્બ",
+              "essential truth"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "બુઝિયે",
+              "having comprehended"
+            ],
+            [
+              "જ્ઞાને",
+              "knowingly"
+            ],
+            [
+              "બા",
+              "or"
+            ],
+            [
+              "અજ્ઞાને",
+              "unknowingly"
+            ],
+            [
+              "અસતે",
+              "with non-devotees"
+            ],
+            [
+              "એ",
+              "these"
+            ],
+            [
+              "સબ",
+              "all"
+            ],
+            [
+              "કરિઽ",
+              "having done"
+            ],
+            [
+              "ભક્તિ",
+              "devotion"
+            ],
+            [
+              "હારાઇનુ",
+              "I have lost"
+            ],
+            [
+              "સંસારી",
+              "materialist"
+            ],
+            [
+              "હઇનુ",
+              "I have become"
+            ],
+            [
+              "સુદૂરે",
+              "very far away"
+            ],
+            [
+              "રહિલે",
+              "You remained"
+            ],
+            [
+              "હરિ",
+              "O Hari"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तत्त्ब ना बुझियॆ,    ज्ञानॆ बा अज्ञानॆ,",
+            "असतॆ ऎ सब करिऽ",
+            "भक्ति हाराइनु,    संसारी हइनु,",
+            "सुदूरॆ रहिलॆ हरि २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তত্ত্ব না বুঝিয়ে,    জ্ঞানে বা অজ্ঞানে,",
+            "অসতে এ সব করিঽ",
+            "ভক্তি হারাইনু,    সংসারী হইনু,",
+            "সুদূরে রহিলে হরি ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତତ୍ତ୍ବ ନା ବୁଝିୟେ,    ଜ୍ଞାନେ ବା ଅଜ୍ଞାନେ,",
+            "ଅସତେ ଏ ସବ କରିଽ",
+            "ଭକ୍ତି ହାରାଇନୁ,    ସଂସାରୀ ହଇନୁ,",
+            "ସୁଦୂରେ ରହିଲେ ହରି ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તત્ત્બ ના બુઝિયે,    જ્ઞાને બા અજ્ઞાને,",
+            "અસતે એ સબ કરિઽ",
+            "ભક્તિ હારાઇનુ,    સંસારી હઇનુ,",
+            "સુદૂરે રહિલે હરિ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tattba nā bujhiye,    jñāne bā ajñāne,",
+            "asate e saba kari’",
+            "bhakti hārāinu,    saṁsārī ha·inu,",
+            "sudūre rahile hari 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತತ್ತ್ಬ ನಾ ಬುಝಿಯೆ,    ಜ್ಞಾನೆ ಬಾ ಅಜ್ಞಾನೆ,",
+            "ಅಸತೆ ಎ ಸಬ ಕರಿಽ",
+            "ಭಕ್ತಿ ಹಾರಾಇನು,    ಸಂಸಾರೀ ಹಇನು,",
+            "ಸುದೂರೆ ರಹಿಲೆ ಹರಿ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తత్త్బ నా బుఝియె,    జ్ఞానె బా అజ్ఞానె,",
+            "అసతె ఎ సబ కరిఽ",
+            "భక్తి హారాఇను,    సంసారీ హఇను,",
+            "సుదూరె రహిలె హరి 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "таттба на̄ буджхийэ̆,    джн̃а̄нэ̆ ба̄ аджн̃а̄нэ̆,",
+            "асатэ̆ э̆ саба кари'",
+            "бхакти ха̄ра̄ину,    сам̣са̄рӣ хаину,",
+            "судӯрэ̆ рахилэ̆ хари 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തത്ത്ബ നാ ബുഝിയെ,    ജ്ഞാനെ ബാ അജ്ഞാനെ,",
+            "അസതെ എ സബ കരിഽ",
+            "ഭക്തി ഹാരാഇനു,    സംസാരീ ഹഇനു,",
+            "സുദൂരെ രഹിലെ ഹരി 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தத்த்ப³ நா பு³ஜி²யெ,    ஜ்ஞானெ பா³ அஜ்ஞானெ,",
+            "அஸதெ எ ஸப³ கரி(அ)",
+            "ப⁴க்தி ஹாராஇனு,    ஸம்ʼஸாரீ ஹஇனு,",
+            "ஸுதூ³ரெ ரஹிலெ ஹரி 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tattba nā bujhiye,    jñāne bā ajñāne,",
+            "asate e saba kari’",
+            "bhakti hārāinu,    saṁsārī ha·inu,",
+            "sudūre rahile hari 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tattba nā bujhiye,    jñāne bā ajñāne,",
+            "asate e saba kari’",
+            "bhakti hārāinu,    saṁsārī ha·inu,",
+            "sudūre rahile hari 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "kṛṣṇabhakta[FLAG_HYPHEN_ALPHA]jane,    e saṅga[FLAG_HYPHEN_ALPHA]lakṣaṇe,",
+        "ādara kariba yabe",
+        "bhakti[FLAG_HYPHEN_ALPHA]mahādebī,    āmāra hṛdaya[FLAG_HYPHEN_ALPHA],",
+        "āsane basibe tabe 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "When I respect devotees of Śrī Kṛṣṇa in accordance with these types of association, then Bhakti-Mahādevī will sit upon the throne of my heart."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "kṛṣṇabhakta jane",
+              "with devotees of Kṛṣṇa"
+            ],
+            [
+              "e",
+              "these"
+            ],
+            [
+              "saṅga",
+              "association"
+            ],
+            [
+              "lakṣaṇe",
+              "in characteristics"
+            ],
+            [
+              "ādara kariba",
+              "I will respect"
+            ],
+            [
+              "yabe",
+              "when"
+            ],
+            [
+              "bhakti",
+              "devotion"
+            ],
+            [
+              "mahādebī",
+              "the great goddess"
+            ],
+            [
+              "āmāra",
+              "my"
+            ],
+            [
+              "hṛdaya",
+              "heart"
+            ],
+            [
+              "āsane",
+              "on the throne"
+            ],
+            [
+              "basibe",
+              "she will sit"
+            ],
+            [
+              "tabe",
+              "then"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "क्ड़्ष्णभक्त जनॆ",
+              "with devotees of Kṛṣṇa"
+            ],
+            [
+              "ऎ",
+              "these"
+            ],
+            [
+              "सङ्ग",
+              "association"
+            ],
+            [
+              "लक्षणॆ",
+              "in characteristics"
+            ],
+            [
+              "आदर करिब",
+              "I will respect"
+            ],
+            [
+              "यबॆ",
+              "when"
+            ],
+            [
+              "भक्ति",
+              "devotion"
+            ],
+            [
+              "महादॆबी",
+              "the great goddess"
+            ],
+            [
+              "आमार",
+              "my"
+            ],
+            [
+              "ह्ड़्दय",
+              "heart"
+            ],
+            [
+              "आसनॆ",
+              "on the throne"
+            ],
+            [
+              "बसिबॆ",
+              "she will sit"
+            ],
+            [
+              "तबॆ",
+              "then"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ক্ড়্ষ্ণভক্ত জনে",
+              "with devotees of Kṛṣṇa"
+            ],
+            [
+              "এ",
+              "these"
+            ],
+            [
+              "সঙ্গ",
+              "association"
+            ],
+            [
+              "লক্ষণে",
+              "in characteristics"
+            ],
+            [
+              "আদর করিব",
+              "I will respect"
+            ],
+            [
+              "যবে",
+              "when"
+            ],
+            [
+              "ভক্তি",
+              "devotion"
+            ],
+            [
+              "মহাদেবী",
+              "the great goddess"
+            ],
+            [
+              "আমার",
+              "my"
+            ],
+            [
+              "হ্ড়্দয়",
+              "heart"
+            ],
+            [
+              "আসনে",
+              "on the throne"
+            ],
+            [
+              "বসিবে",
+              "she will sit"
+            ],
+            [
+              "তবে",
+              "then"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ક્ડ઼્ષ્ણભક્ત જને",
+              "with devotees of Kṛṣṇa"
+            ],
+            [
+              "એ",
+              "these"
+            ],
+            [
+              "સઙ્ગ",
+              "association"
+            ],
+            [
+              "લક્ષણે",
+              "in characteristics"
+            ],
+            [
+              "આદર કરિબ",
+              "I will respect"
+            ],
+            [
+              "યબે",
+              "when"
+            ],
+            [
+              "ભક્તિ",
+              "devotion"
+            ],
+            [
+              "મહાદેબી",
+              "the great goddess"
+            ],
+            [
+              "આમાર",
+              "my"
+            ],
+            [
+              "હ્ડ઼્દય",
+              "heart"
+            ],
+            [
+              "આસને",
+              "on the throne"
+            ],
+            [
+              "બસિબે",
+              "she will sit"
+            ],
+            [
+              "તબે",
+              "then"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "क्ड़्ष्णभक्तजनॆ,    ऎ सङ्गलक्षणॆ,",
+            "आदर करिब यबॆ",
+            "भक्तिमहादॆबी,    आमार ह्ड़्दय,",
+            "आसनॆ बसिबॆ तबॆ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ক্ড়্ষ্ণভক্তজনে,    এ সঙ্গলক্ষণে,",
+            "আদর করিব যবে",
+            "ভক্তিমহাদেবী,    আমার হ্ড়্দয়,",
+            "আসনে বসিবে তবে ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କ୍ଡ଼୍ଷ୍ଣଭକ୍ତଜନେ,    ଏ ସଙ୍ଗଲକ୍ଷଣେ,",
+            "ଆଦର କରିବ ଯବେ",
+            "ଭକ୍ତିମହାଦେବୀ,    ଆମାର ହ୍ଡ଼୍ଦୟ,",
+            "ଆସନେ ବସିବେ ତବେ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ક્ડ઼્ષ્ણભક્તજને,    એ સઙ્ગલક્ષણે,",
+            "આદર કરિબ યબે",
+            "ભક્તિમહાદેબી,    આમાર હ્ડ઼્દય,",
+            "આસને બસિબે તબે ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kṛṣṇabhakta-jane,    e saṅga-lakṣaṇe,",
+            "ādara kariba yabe",
+            "bhakti-mahādebī,    āmāra hṛdaya-,",
+            "āsane basibe tabe 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕ್‌ಡ಼್ಷ್ಣಭಕ್ತಜನೆ,    ಎ ಸಂಗಲಕ್ಷಣೆ,",
+            "ಆದರ ಕರಿಬ ಯಬೆ",
+            "ಭಕ್ತಿಮಹಾದೆಬೀ,    ಆಮಾರ ಹ್‌ಡ಼್ದಯ,",
+            "ಆಸನೆ ಬಸಿಬೆ ತಬೆ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "క్డ్ష్ణభక్తజనె,    ఎ సంగలక్షణె,",
+            "ఆదర కరిబ యబె",
+            "భక్తిమహాదెబీ,    ఆమార హ్డ్దయ,",
+            "ఆసనె బసిబె తబె 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кр̤шн̣абхактаджанэ̆,    э̆ сан̇галакшан̣э̆,",
+            "а̄дара кариба йабэ̆",
+            "бхактимаха̄дэ̆бӣ,    а̄ма̄ра хр̤дайа,",
+            "а̄санэ̆ басибэ̆ табэ̆ 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ക്ഡ്ഷ്ണഭക്തജനെ,    എ സംഗലക്ഷണെ,",
+            "ആദര കരിബ യബെ",
+            "ഭക്തിമഹാദെബീ,    ആമാര ഹ്ഡ്ദയ,",
+            "ആസനെ ബസിബെ തബെ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "க்ஃட்²ஷ்ணப⁴க்தஜனெ,    எ ஸங்க³லக்ஷணெ,",
+            "ஆத³ர கரிப³ யபெ³",
+            "ப⁴க்திமஹாதெ³பீ³,    ஆமார ஹ்ஃட்²த³ய,",
+            "ஆஸனெ ப³ஸிபெ³ தபெ³ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kṛṣṇabhakta-jane,    e saṅga-lakṣaṇe,",
+            "ādara kariba yabe",
+            "bhakti-mahādebī,    āmāra hṛdaya-,",
+            "āsane basibe tabe 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kṛṣṇabhakta-jane,    e saṅga-lakṣaṇe,",
+            "ādara kariba yabe",
+            "bhakti-mahādebī,    āmāra hṛdaya-,",
+            "āsane basibe tabe 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "yoṣitsaṅgī jana,    kṛṣṇābhakta āra,",
+        "dũhu[FLAG_HYPHEN_ALPHA]saṅga parihari’",
+        "taba bhaktajana[FLAG_HYPHEN_ALPHA],    saṅga anukṣaṇa,",
+        "kabe bā ha·ibe hari 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Shunning the company of both those who are attached to women and those who are non-devotees, when will I have the perpetual association of Your devotees, O Hari?"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "yoṣitsaṅgī jana",
+              "people who associate with ladies (strī)"
+            ],
+            [
+              "kṛṣṇābhakta",
+              "Kṛṣṇa + (kṛṣṇer abhakta arthāt bhakti-hīn – yathā māyāvādī, nirviśeṣvādī prabhṛti) non-devotees (those not devoid of devotion to Kṛṣṇa such as māyāvādīs, impersonalist and so on"
+            ],
+            [
+              "āra",
+              "and"
+            ],
+            [
+              "dũhu",
+              "(dui janer) both (two people’s)"
+            ],
+            [
+              "saṅga",
+              "association"
+            ],
+            [
+              "parihari’",
+              "having abandoned, shunned, disregarded"
+            ],
+            [
+              "taba",
+              "Your"
+            ],
+            [
+              "bhaktajana",
+              "devotees"
+            ],
+            [
+              "saṅga",
+              "association"
+            ],
+            [
+              "anukṣaṇa",
+              "at every moment"
+            ],
+            [
+              "kabe",
+              "when"
+            ],
+            [
+              "bā",
+              "[used to emphasize a question]"
+            ],
+            [
+              "ha·ibe",
+              "will be"
+            ],
+            [
+              "hari",
+              "O Hari"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "यॊषित्सङ्गी जन",
+              "people who associate with ladies (strī)"
+            ],
+            [
+              "क्ड़्ष्णाभक्त",
+              "Kṛṣṇa + (kṛṣṇer abhakta arthāt bhakti-hīn – yathā māyāvādī, nirviśeṣvādī prabhṛti) non-devotees (those not devoid of devotion to Kṛṣṇa such as māyāvādīs, impersonalist and so on"
+            ],
+            [
+              "आर",
+              "and"
+            ],
+            [
+              "दुंहु",
+              "(dui janer) both (two people’s)"
+            ],
+            [
+              "सङ्ग",
+              "association"
+            ],
+            [
+              "परिहरिऽ",
+              "having abandoned, shunned, disregarded"
+            ],
+            [
+              "तब",
+              "Your"
+            ],
+            [
+              "भक्तजन",
+              "devotees"
+            ],
+            [
+              "सङ्ग",
+              "association"
+            ],
+            [
+              "अनुक्षण",
+              "at every moment"
+            ],
+            [
+              "कबॆ",
+              "when"
+            ],
+            [
+              "बा",
+              "[used to emphasize a question]"
+            ],
+            [
+              "हइबॆ",
+              "will be"
+            ],
+            [
+              "हरि",
+              "O Hari"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "যোষিৎসঙ্গী জন",
+              "people who associate with ladies (strī)"
+            ],
+            [
+              "ক্ড়্ষ্ণাভক্ত",
+              "Kṛṣṇa + (kṛṣṇer abhakta arthāt bhakti-hīn – yathā māyāvādī, nirviśeṣvādī prabhṛti) non-devotees (those not devoid of devotion to Kṛṣṇa such as māyāvādīs, impersonalist and so on"
+            ],
+            [
+              "আর",
+              "and"
+            ],
+            [
+              "দুংহু",
+              "(dui janer) both (two people’s)"
+            ],
+            [
+              "সঙ্গ",
+              "association"
+            ],
+            [
+              "পরিহরিঽ",
+              "having abandoned, shunned, disregarded"
+            ],
+            [
+              "তব",
+              "Your"
+            ],
+            [
+              "ভক্তজন",
+              "devotees"
+            ],
+            [
+              "সঙ্গ",
+              "association"
+            ],
+            [
+              "অনুক্ষণ",
+              "at every moment"
+            ],
+            [
+              "কবে",
+              "when"
+            ],
+            [
+              "বা",
+              "[used to emphasize a question]"
+            ],
+            [
+              "হইবে",
+              "will be"
+            ],
+            [
+              "হরি",
+              "O Hari"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "યોષિત્સઙ્ગી જન",
+              "people who associate with ladies (strī)"
+            ],
+            [
+              "ક્ડ઼્ષ્ણાભક્ત",
+              "Kṛṣṇa + (kṛṣṇer abhakta arthāt bhakti-hīn – yathā māyāvādī, nirviśeṣvādī prabhṛti) non-devotees (those not devoid of devotion to Kṛṣṇa such as māyāvādīs, impersonalist and so on"
+            ],
+            [
+              "આર",
+              "and"
+            ],
+            [
+              "દુંહુ",
+              "(dui janer) both (two people’s)"
+            ],
+            [
+              "સઙ્ગ",
+              "association"
+            ],
+            [
+              "પરિહરિઽ",
+              "having abandoned, shunned, disregarded"
+            ],
+            [
+              "તબ",
+              "Your"
+            ],
+            [
+              "ભક્તજન",
+              "devotees"
+            ],
+            [
+              "સઙ્ગ",
+              "association"
+            ],
+            [
+              "અનુક્ષણ",
+              "at every moment"
+            ],
+            [
+              "કબે",
+              "when"
+            ],
+            [
+              "બા",
+              "[used to emphasize a question]"
+            ],
+            [
+              "હઇબે",
+              "will be"
+            ],
+            [
+              "હરિ",
+              "O Hari"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "यॊषित्सङ्गी जन,    क्ड़्ष्णाभक्त आर,",
+            "दुंहुसङ्ग परिहरिऽ",
+            "तब भक्तजन,    सङ्ग अनुक्षण,",
+            "कबॆ बा हइबॆ हरि ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যোষিৎসঙ্গী জন,    ক্ড়্ষ্ণাভক্ত আর,",
+            "দুংহুসঙ্গ পরিহরিঽ",
+            "তব ভক্তজন,    সঙ্গ অনুক্ষণ,",
+            "কবে বা হইবে হরি ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯୋଷିତ୍ସଙ୍ଗୀ ଜନ,    କ୍ଡ଼୍ଷ୍ଣାଭକ୍ତ ଆର,",
+            "ଦୁଂହୁସଙ୍ଗ ପରିହରିଽ",
+            "ତବ ଭକ୍ତଜନ,    ସଙ୍ଗ ଅନୁକ୍ଷଣ,",
+            "କବେ ବା ହଇବେ ହରି ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યોષિત્સઙ્ગી જન,    ક્ડ઼્ષ્ણાભક્ત આર,",
+            "દુંહુસઙ્ગ પરિહરિઽ",
+            "તબ ભક્તજન,    સઙ્ગ અનુક્ષણ,",
+            "કબે બા હઇબે હરિ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yoṣitsaṅgī jana,    kṛṣṇābhakta āra,",
+            "dũhu-saṅga parihari’",
+            "taba bhaktajana-,    saṅga anukṣaṇa,",
+            "kabe bā ha·ibe hari 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯೊಷಿತ್ಸಂಗೀ ಜನ,    ಕ್‌ಡ಼್ಷ್ಣಾಭಕ್ತ ಆರ,",
+            "ದುಂಹುಸಂಗ ಪರಿಹರಿಽ",
+            "ತಬ ಭಕ್ತಜನ,    ಸಂಗ ಅನುಕ್ಷಣ,",
+            "ಕಬೆ ಬಾ ಹಇಬೆ ಹರಿ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యొషిత్సంగీ జన,    క్డ్ష్ణాభక్త ఆర,",
+            "దుంహుసంగ పరిహరిఽ",
+            "తబ భక్తజన,    సంగ అనుక్షణ,",
+            "కబె బా హఇబె హరి 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йо̆шитсан̇гӣ джана,    кр̤шн̣а̄бхакта а̄ра,",
+            "дум̣хусан̇га парихари'",
+            "таба бхактаджана,    сан̇га анукшан̣а,",
+            "кабэ̆ ба̄ хаибэ̆ хари 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യൊഷിത്സംഗീ ജന,    ക്ഡ്ഷ്ണാഭക്ത ആര,",
+            "ദുംഹുസംഗ പരിഹരിഽ",
+            "തബ ഭക്തജന,    സംഗ അനുക്ഷണ,",
+            "കബെ ബാ ഹഇബെ ഹരി 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யொஷித்ஸங்கீ³ ஜன,    க்ஃட்²ஷ்ணாப⁴க்த ஆர,",
+            "து³ம்ʼஹுஸங்க³ பரிஹரி(அ)",
+            "தப³ ப⁴க்தஜன,    ஸங்க³ அனுக்ஷண,",
+            "கபெ³ பா³ ஹஇபெ³ ஹரி 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yoṣitsaṅgī jana,    kṛṣṇābhakta āra,",
+            "dũhu-saṅga parihari’",
+            "taba bhaktajana-,    saṅga anukṣaṇa,",
+            "kabe bā ha·ibe hari 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yoṣitsaṅgī jana,    kṛṣṇābhakta āra,",
+            "dũhu-saṅga parihari’",
+            "taba bhaktajana-,    saṅga anukṣaṇa,",
+            "kabe bā ha·ibe hari 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "দদাতি প্রতিগৃহ্নাতি"
+    },
+    {
+      "language_code": "ben",
+      "text": "গুহ্যমাখ্যাতি পৃচ্ছতি ।"
+    },
+    {
+      "language_code": "ben",
+      "text": "ভুঙ্‌ক্তে ভোজয়তে চৈব"
+    },
+    {
+      "language_code": "ben",
+      "text": "ষড়্‌বিধং প্রীতিলক্ষণম্ ॥৪॥"
+    },
+    {
+      "language_code": "ben",
+      "text": ""
+    },
+    {
+      "language_code": "ben",
+      "text": ""
+    },
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- প্রতিগ্রহ—দানগ্রহণ; মিথো—পরস্পর; কৃষ্ণাভক্ত—কৃষ্ণপ্রতি ভক্তিহীন ।"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "srrb-1",
+      "filename": "U4-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    }
+  ]
+}

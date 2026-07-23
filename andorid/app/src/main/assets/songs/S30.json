@@ -1,0 +1,2207 @@
+{
+  "uid": "S30",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "রাধাকুণ্ডতট"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "rādhākuṇḍataṭa"
+    },
+    {
+      "script_code": "Deva",
+      "text": "राधाकुण्डतट"
+    },
+    {
+      "script_code": "Telu",
+      "text": "రాధాకుండతట"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ರಾಧಾಕುಂಡತಟ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ராதா⁴குண்ட³தட"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "രാധാകുണ്ഡതട"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "રાધાકુણ્ડતટ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ରାଧାକୁଣ୍ଡତଟ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ра̄дха̄кун̣д̣атат̣а"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "rādhākuṇḍataṭa[FLAG_HYPHEN_ALPHA]kuñjakuṭīra",
+        "gobardhana[FLAG_HYPHEN_ALPHA]parbata, yāmunatīra 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "A vine-covered bower on the banks of Rādhā-kuṇḍa; Govardhana Hill; the shores of the Yamunā…"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "rādhākuṇḍataṭa",
+              "Rādhā-kuṇḍa + banks"
+            ],
+            [
+              "kuñjakuṭīra",
+              "vine-covered bower + (śrī kṛṣṇer vilās-bhavan) hut, cottage (amorous pleasure-house of Śrī Kṛṣṇa)"
+            ],
+            [
+              "gobardhana",
+              "Govardhana"
+            ],
+            [
+              "parbata",
+              "hill"
+            ],
+            [
+              "yāmunatīra",
+              "Yamunā + banks"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "राधाकुण्डतट",
+              "Rādhā-kuṇḍa + banks"
+            ],
+            [
+              "कुञ्जकुटीर",
+              "vine-covered bower + (śrī kṛṣṇer vilās-bhavan) hut, cottage (amorous pleasure-house of Śrī Kṛṣṇa)"
+            ],
+            [
+              "गॊबर्धन",
+              "Govardhana"
+            ],
+            [
+              "पर्बत",
+              "hill"
+            ],
+            [
+              "यामुनतीर",
+              "Yamunā + banks"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "রাধাকুণ্ডতট",
+              "Rādhā-kuṇḍa + banks"
+            ],
+            [
+              "কুঞ্জকুটীর",
+              "vine-covered bower + (śrī kṛṣṇer vilās-bhavan) hut, cottage (amorous pleasure-house of Śrī Kṛṣṇa)"
+            ],
+            [
+              "গোবর্ধন",
+              "Govardhana"
+            ],
+            [
+              "পর্বত",
+              "hill"
+            ],
+            [
+              "যামুনতীর",
+              "Yamunā + banks"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "રાધાકુણ્ડતટ",
+              "Rādhā-kuṇḍa + banks"
+            ],
+            [
+              "કુઞ્જકુટીર",
+              "vine-covered bower + (śrī kṛṣṇer vilās-bhavan) hut, cottage (amorous pleasure-house of Śrī Kṛṣṇa)"
+            ],
+            [
+              "ગોબર્ધન",
+              "Govardhana"
+            ],
+            [
+              "પર્બત",
+              "hill"
+            ],
+            [
+              "યામુનતીર",
+              "Yamunā + banks"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "राधाकुण्डतटकुञ्जकुटीर",
+            "गॊबर्धनपर्बत, यामुनतीर १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "রাধাকুণ্ডতটকুঞ্জকুটীর",
+            "গোবর্ধনপর্বত, যামুনতীর ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ରାଧାକୁଣ୍ଡତଟକୁଞ୍ଜକୁଟୀର",
+            "ଗୋବର୍ଧନପର୍ବତ, ଯାମୁନତୀର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "રાધાકુણ્ડતટકુઞ્જકુટીર",
+            "ગોબર્ધનપર્બત, યામુનતીર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "rādhākuṇḍataṭa-kuñjakuṭīra",
+            "gobardhana-parbata, yāmunatīra 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ರಾಧಾಕುಂಡತಟಕುಂಜಕುಟೀರ",
+            "ಗೊಬರ್ಧನಪರ್ಬತ, ಯಾಮುನತೀರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "రాధాకుండతటకుంజకుటీర",
+            "గొబర్ధనపర్బత, యామునతీర 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ра̄дха̄кун̣д̣атат̣акун̃джакут̣ӣра",
+            "го̆бардханапарбата, йа̄мунатӣра 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "രാധാകുണ്ഡതടകുഞ്ജകുടീര",
+            "ഗൊബർധനപർബത, യാമുനതീര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ராதா⁴குண்ட³தடகுஞ்ஜகுடீர",
+            "கொ³ப³ர்த⁴னபர்ப³த, யாமுனதீர 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "rādhākuṇḍataṭa-kuñjakuṭīra",
+            "gobardhana-parbata, yāmunatīra 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "rādhākuṇḍataṭa-kuñjakuṭīra",
+            "gobardhana-parbata, yāmunatīra 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "kusumasarobara, mānasagaṅgā",
+        "kalinda[FLAG_HYPHEN_ALPHA]nandinī bipulataraṅgā 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "…Kusuma-sarovara; Mānasa-gaṅgā; the daughter of the Kalinda Mountain (Yamunā) with her expansive waves…"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "kusumasarobara",
+              "Kusuma-sarovara"
+            ],
+            [
+              "mānasagaṅgā",
+              "Mānasī-gaṅgā"
+            ],
+            [
+              "kalinda nandinī",
+              "daughter of the Kalinda Mountain (Yamunā)"
+            ],
+            [
+              "bipulataraṅgā",
+              "huge, extensive, expansive + waves"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "कुसुमसरॊबर",
+              "Kusuma-sarovara"
+            ],
+            [
+              "मानसगङ्गा",
+              "Mānasī-gaṅgā"
+            ],
+            [
+              "कलिन्द नन्दिनी",
+              "daughter of the Kalinda Mountain (Yamunā)"
+            ],
+            [
+              "बिपुलतरङ्गा",
+              "huge, extensive, expansive + waves"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "কুসুমসরোবর",
+              "Kusuma-sarovara"
+            ],
+            [
+              "মানসগঙ্গা",
+              "Mānasī-gaṅgā"
+            ],
+            [
+              "কলিন্দ নন্দিনী",
+              "daughter of the Kalinda Mountain (Yamunā)"
+            ],
+            [
+              "বিপুলতরঙ্গা",
+              "huge, extensive, expansive + waves"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "કુસુમસરોબર",
+              "Kusuma-sarovara"
+            ],
+            [
+              "માનસગઙ્ગા",
+              "Mānasī-gaṅgā"
+            ],
+            [
+              "કલિન્દ નન્દિની",
+              "daughter of the Kalinda Mountain (Yamunā)"
+            ],
+            [
+              "બિપુલતરઙ્ગા",
+              "huge, extensive, expansive + waves"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कुसुमसरॊबर, मानसगङ्गा",
+            "कलिन्दनन्दिनी बिपुलतरङ्गा २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কুসুমসরোবর, মানসগঙ্গা",
+            "কলিন্দনন্দিনী বিপুলতরঙ্গা ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କୁସୁମସରୋବର, ମାନସଗଙ୍ଗା",
+            "କଲିନ୍ଦନନ୍ଦିନୀ ବିପୁଲତରଙ୍ଗା ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કુસુમસરોબર, માનસગઙ્ગા",
+            "કલિન્દનન્દિની બિપુલતરઙ્ગા ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kusumasarobara, mānasagaṅgā",
+            "kalinda-nandinī bipulataraṅgā 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕುಸುಮಸರೊಬರ, ಮಾನಸಗಂಗಾ",
+            "ಕಲಿಂದನಂದಿನೀ ಬಿಪುಲತರಂಗಾ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కుసుమసరొబర, మానసగంగా",
+            "కలిందనందినీ బిపులతరంగా 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кусумасаро̆бара, ма̄насаган̇га̄",
+            "калинданандинӣ бипулатаран̇га̄ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കുസുമസരൊബര, മാനസഗംഗാ",
+            "കലിന്ദനന്ദിനീ ബിപുലതരംഗാ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "குஸுமஸரொப³ர, மானஸக³ங்கா³",
+            "கலிந்த³னந்தி³னீ பி³புலதரங்கா³ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kusumasarobara, mānasagaṅgā",
+            "kalinda-nandinī bipulataraṅgā 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kusumasarobara, mānasagaṅgā",
+            "kalinda-nandinī bipulataraṅgā 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "baṁśībaṭa, gokula, dhīrasamīra",
+        "bṛndābana[FLAG_HYPHEN_ALPHA]taru[FLAG_HYPHEN_ALPHA]latikā[FLAG_HYPHEN_ALPHA]bānīra 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "…Vaṁśīvaṭa; Gokula; Dhīra-samīra; the trees, creepers, and shrubs of Vṛndāvana…"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "baṁśībaṭa",
+              "Vaṁśīvaṭa"
+            ],
+            [
+              "gokula",
+              "Gokul"
+            ],
+            [
+              "dhīrasamīra",
+              "Dhīra-samīra"
+            ],
+            [
+              "bṛndābana",
+              "Vṛndāvana"
+            ],
+            [
+              "taru",
+              "trees"
+            ],
+            [
+              "latikā",
+              "creepers"
+            ],
+            [
+              "bānīra",
+              "shrubs"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "बंशीबट",
+              "Vaṁśīvaṭa"
+            ],
+            [
+              "गॊकुल",
+              "Gokul"
+            ],
+            [
+              "धीरसमीर",
+              "Dhīra-samīra"
+            ],
+            [
+              "ब्ड़्न्दाबन",
+              "Vṛndāvana"
+            ],
+            [
+              "तरु",
+              "trees"
+            ],
+            [
+              "लतिका",
+              "creepers"
+            ],
+            [
+              "बानीर",
+              "shrubs"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "বংশীবট",
+              "Vaṁśīvaṭa"
+            ],
+            [
+              "গোকুল",
+              "Gokul"
+            ],
+            [
+              "ধীরসমীর",
+              "Dhīra-samīra"
+            ],
+            [
+              "ব্ড়্ন্দাবন",
+              "Vṛndāvana"
+            ],
+            [
+              "তরু",
+              "trees"
+            ],
+            [
+              "লতিকা",
+              "creepers"
+            ],
+            [
+              "বানীর",
+              "shrubs"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "બંશીબટ",
+              "Vaṁśīvaṭa"
+            ],
+            [
+              "ગોકુલ",
+              "Gokul"
+            ],
+            [
+              "ધીરસમીર",
+              "Dhīra-samīra"
+            ],
+            [
+              "બ્ડ઼્ન્દાબન",
+              "Vṛndāvana"
+            ],
+            [
+              "તરુ",
+              "trees"
+            ],
+            [
+              "લતિકા",
+              "creepers"
+            ],
+            [
+              "બાનીર",
+              "shrubs"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बंशीबट, गॊकुल, धीरसमीर",
+            "ब्ड़्न्दाबनतरुलतिकाबानीर ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বংশীবট, গোকুল, ধীরসমীর",
+            "ব্ড়্ন্দাবনতরুলতিকাবানীর ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବଂଶୀବଟ, ଗୋକୁଲ, ଧୀରସମୀର",
+            "ବ୍ଡ଼୍ନ୍ଦାବନତରୁଲତିକାବାନୀର ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બંશીબટ, ગોકુલ, ધીરસમીર",
+            "બ્ડ઼્ન્દાબનતરુલતિકાબાનીર ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "baṁśībaṭa, gokula, dhīrasamīra",
+            "bṛndābana-taru-latikā-bānīra 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಂಶೀಬಟ, ಗೊಕುಲ, ಧೀರಸಮೀರ",
+            "ಬ್‌ಡ಼್ನ್ದಾಬನತರುಲತಿಕಾಬಾನೀರ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బంశీబట, గొకుల, ధీరసమీర",
+            "బ్డ్న్దాబనతరులతికాబానీర 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бам̣ш́ӣбат̣а, го̆кула, дхӣрасамӣра",
+            "бр̤нда̄банатарулатика̄ба̄нӣра 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബംശീബട, ഗൊകുല, ധീരസമീര",
+            "ബ്ഡ്ന്ദാബനതരുലതികാബാനീര 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ம்ʼஶீப³ட, கொ³குல, தீ⁴ரஸமீர",
+            "ப்³ஃட்²ந்தா³ப³னதருலதிகாபா³நீர 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "baṁśībaṭa, gokula, dhīrasamīra",
+            "bṛndābana-taru-latikā-bānīra 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "baṁśībaṭa, gokula, dhīrasamīra",
+            "bṛndābana-taru-latikā-bānīra 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "khaga[FLAG_HYPHEN_ALPHA]mṛgakula, malaya[FLAG_HYPHEN_ALPHA]bātāsa",
+        "mayūra, bhramara, muralī, bilāsa 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "…the birds and deer; a cooling breeze from the Malaya Hills; peacocks and bumblebees; pastimes with the muralī flute…"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "khaga",
+              "birds"
+            ],
+            [
+              "mṛgakula",
+              "deer + groups"
+            ],
+            [
+              "malaya",
+              "the Malaya Hills"
+            ],
+            [
+              "bātāsa",
+              "breeze"
+            ],
+            [
+              "mayūra",
+              "peacocks"
+            ],
+            [
+              "bhramara",
+              "bees"
+            ],
+            [
+              "muralī",
+              "the muralī flute"
+            ],
+            [
+              "bilāsa",
+              "pastimes"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "खग",
+              "birds"
+            ],
+            [
+              "म्ड़्गकुल",
+              "deer + groups"
+            ],
+            [
+              "मलय",
+              "the Malaya Hills"
+            ],
+            [
+              "बातास",
+              "breeze"
+            ],
+            [
+              "मयूर",
+              "peacocks"
+            ],
+            [
+              "भ्रमर",
+              "bees"
+            ],
+            [
+              "मुरली",
+              "the muralī flute"
+            ],
+            [
+              "बिलास",
+              "pastimes"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "খগ",
+              "birds"
+            ],
+            [
+              "ম্ড়্গকুল",
+              "deer + groups"
+            ],
+            [
+              "মলয়",
+              "the Malaya Hills"
+            ],
+            [
+              "বাতাস",
+              "breeze"
+            ],
+            [
+              "ময়ূর",
+              "peacocks"
+            ],
+            [
+              "ভ্রমর",
+              "bees"
+            ],
+            [
+              "মুরলী",
+              "the muralī flute"
+            ],
+            [
+              "বিলাস",
+              "pastimes"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ખગ",
+              "birds"
+            ],
+            [
+              "મ્ડ઼્ગકુલ",
+              "deer + groups"
+            ],
+            [
+              "મલય",
+              "the Malaya Hills"
+            ],
+            [
+              "બાતાસ",
+              "breeze"
+            ],
+            [
+              "મયૂર",
+              "peacocks"
+            ],
+            [
+              "ભ્રમર",
+              "bees"
+            ],
+            [
+              "મુરલી",
+              "the muralī flute"
+            ],
+            [
+              "બિલાસ",
+              "pastimes"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "खगम्ड़्गकुल, मलयबातास",
+            "मयूर, भ्रमर, मुरली, बिलास ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "খগম্ড়্গকুল, মলয়বাতাস",
+            "ময়ূর, ভ্রমর, মুরলী, বিলাস ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଖଗମ୍ଡ଼୍ଗକୁଲ, ମଲୟବାତାସ",
+            "ମୟୂର, ଭ୍ରମର, ମୁରଲୀ, ବିଲାସ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ખગમ્ડ઼્ગકુલ, મલયબાતાસ",
+            "મયૂર, ભ્રમર, મુરલી, બિલાસ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "khaga-mṛgakula, malaya-bātāsa",
+            "mayūra, bhramara, muralī, bilāsa 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಖಗಂ‌ಡ಼್ಗಕುಲ, ಮಲಯಬಾತಾಸ",
+            "ಮಯೂರ, ಭ್ರಮರ, ಮುರಲೀ, ಬಿಲಾಸ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఖగమ్డ్గకుల, మలయబాతాస",
+            "మయూర, భ్రమర, మురలీ, బిలాస 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кхагамр̤гакула, малайаба̄та̄са",
+            "майӯра, бхрамара, муралӣ, била̄са 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഖഗമ്ഡ്ഗകുല, മലയബാതാസ",
+            "മയൂര, ഭ്രമര, മുരലീ, ബിലാസ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "க²க³ம்ஃட்²க³குல, மலயபா³தாஸ",
+            "மயூர, ப்⁴ரமர, முரலீ, பி³லாஸ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "khaga-mṛgakula, malaya-bātāsa",
+            "mayūra, bhramara, muralī, bilāsa 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "khaga-mṛgakula, malaya-bātāsa",
+            "mayūra, bhramara, muralī, bilāsa 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "beṇu, śṛṅga, padacihna, meghamālā",
+        "basanta, śaśāṅka, śaṅkha, karatālā 5"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "…the veṇu flute; the horn bugle; footprints in the dust of that land; banks of clouds; springtime; the crescent of the moon; the conch and the karatālas…"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "beṇu",
+              "the veṇu flute"
+            ],
+            [
+              "śṛṅga",
+              "bugle"
+            ],
+            [
+              "padacihna",
+              "footprints"
+            ],
+            [
+              "meghamālā",
+              "cloud + banks"
+            ],
+            [
+              "basanta",
+              "springtime"
+            ],
+            [
+              "śaśāṅka",
+              "the crescent of the moon"
+            ],
+            [
+              "śaṅkha",
+              "the conch"
+            ],
+            [
+              "karatālā",
+              "cymbals"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "बॆणु",
+              "the veṇu flute"
+            ],
+            [
+              "श्ड़्ङ्ग",
+              "bugle"
+            ],
+            [
+              "पदचिह्न",
+              "footprints"
+            ],
+            [
+              "मॆघमाला",
+              "cloud + banks"
+            ],
+            [
+              "बसन्त",
+              "springtime"
+            ],
+            [
+              "शशाङ्क",
+              "the crescent of the moon"
+            ],
+            [
+              "शङ्ख",
+              "the conch"
+            ],
+            [
+              "करताला",
+              "cymbals"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "বেণু",
+              "the veṇu flute"
+            ],
+            [
+              "শ্ড়্ঙ্গ",
+              "bugle"
+            ],
+            [
+              "পদচিহ্ন",
+              "footprints"
+            ],
+            [
+              "মেঘমালা",
+              "cloud + banks"
+            ],
+            [
+              "বসন্ত",
+              "springtime"
+            ],
+            [
+              "শশাঙ্ক",
+              "the crescent of the moon"
+            ],
+            [
+              "শঙ্খ",
+              "the conch"
+            ],
+            [
+              "করতালা",
+              "cymbals"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "બેણુ",
+              "the veṇu flute"
+            ],
+            [
+              "શ્ડ઼્ઙ્ગ",
+              "bugle"
+            ],
+            [
+              "પદચિહ્ન",
+              "footprints"
+            ],
+            [
+              "મેઘમાલા",
+              "cloud + banks"
+            ],
+            [
+              "બસન્ત",
+              "springtime"
+            ],
+            [
+              "શશાઙ્ક",
+              "the crescent of the moon"
+            ],
+            [
+              "શઙ્ખ",
+              "the conch"
+            ],
+            [
+              "કરતાલા",
+              "cymbals"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बॆणु, श्ड़्ङ्ग, पदचिह्न, मॆघमाला",
+            "बसन्त, शशाङ्क, शङ्ख, करताला ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বেণু, শ্ড়্ঙ্গ, পদচিহ্ন, মেঘমালা",
+            "বসন্ত, শশাঙ্ক, শঙ্খ, করতালা ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବେଣୁ, ଶ୍ଡ଼୍ଙ୍ଗ, ପଦଚିହ୍ନ, ମେଘମାଲା",
+            "ବସନ୍ତ, ଶଶାଙ୍କ, ଶଙ୍ଖ, କରତାଲା ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બેણુ, શ્ડ઼્ઙ્ગ, પદચિહ્ન, મેઘમાલા",
+            "બસન્ત, શશાઙ્ક, શઙ્ખ, કરતાલા ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "beṇu, śṛṅga, padacihna, meghamālā",
+            "basanta, śaśāṅka, śaṅkha, karatālā 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬೆಣು, ಶ್‌ಡ಼್ಙ್ಗ, ಪದಚಿಹ್ನ, ಮೆಘಮಾಲಾ",
+            "ಬಸಂತ, ಶಶಾಂಕ, ಶಂಖ, ಕರತಾಲಾ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బెణు, శ్డ్ఙ్గ, పదచిహ్న, మెఘమాలా",
+            "బసంత, శశాంక, శంఖ, కరతాలా 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бэ̆н̣у, ш́р̤н̇га, падачихна, мэ̆гхама̄ла̄",
+            "басанта, ш́аш́а̄н̇ка, ш́ан̇кха, карата̄ла̄ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബെണു, ശ്ഡ്ംഗ, പദചിഹ്ന, മെഘമാലാ",
+            "ബസന്ത, ശശാങ്ക, ശംഖ, കരതാലാ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பெ³ணு, ஶ்ஃட்²ங்க³, பத³சிஹ்ன, மெக⁴மாலா",
+            "ப³ஸந்த, ஶஶாங்க, ஶங்க², கரதாலா 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "beṇu, śṛṅga, padacihna, meghamālā",
+            "basanta, śaśāṅka, śaṅkha, karatālā 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "beṇu, śṛṅga, padacihna, meghamālā",
+            "basanta, śaśāṅka, śaṅkha, karatālā 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "yugalabilāse anukūla jāni",
+        "līlā[FLAG_HYPHEN_ALPHA]bilāsa[FLAG_HYPHEN_ALPHA]uddīpaka māni 6"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I know that all these elements are most favorable to the Divine Couple’s loving exchanges, and thus I consider them uddīpana, stimuli that invokes remembrance of Their playful, amorous pastimes."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "yugalabilāse",
+              "the Divine Couple + for the pastimes"
+            ],
+            [
+              "anukūla",
+              "favorable"
+            ],
+            [
+              "jāni",
+              "I know"
+            ],
+            [
+              "līlā",
+              "pastimes"
+            ],
+            [
+              "bilāsa",
+              "amorous play"
+            ],
+            [
+              "uddīpaka",
+              "stimuli"
+            ],
+            [
+              "māni",
+              "I consider"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "युगलबिलासॆ",
+              "the Divine Couple + for the pastimes"
+            ],
+            [
+              "अनुकूल",
+              "favorable"
+            ],
+            [
+              "जानि",
+              "I know"
+            ],
+            [
+              "लीला",
+              "pastimes"
+            ],
+            [
+              "बिलास",
+              "amorous play"
+            ],
+            [
+              "उद्दीपक",
+              "stimuli"
+            ],
+            [
+              "मानि",
+              "I consider"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "যুগলবিলাসে",
+              "the Divine Couple + for the pastimes"
+            ],
+            [
+              "অনুকূল",
+              "favorable"
+            ],
+            [
+              "জানি",
+              "I know"
+            ],
+            [
+              "লীলা",
+              "pastimes"
+            ],
+            [
+              "বিলাস",
+              "amorous play"
+            ],
+            [
+              "উদ্দীপক",
+              "stimuli"
+            ],
+            [
+              "মানি",
+              "I consider"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "યુગલબિલાસે",
+              "the Divine Couple + for the pastimes"
+            ],
+            [
+              "અનુકૂલ",
+              "favorable"
+            ],
+            [
+              "જાનિ",
+              "I know"
+            ],
+            [
+              "લીલા",
+              "pastimes"
+            ],
+            [
+              "બિલાસ",
+              "amorous play"
+            ],
+            [
+              "ઉદ્દીપક",
+              "stimuli"
+            ],
+            [
+              "માનિ",
+              "I consider"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "युगलबिलासॆ अनुकूल जानि",
+            "लीलाबिलासौद्दीपक मानि ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যুগলবিলাসে অনুকূল জানি",
+            "লীলাবিলাসৌদ্দীপক মানি ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯୁଗଲବିଲାସେ ଅନୁକୂଲ ଜାନି",
+            "ଲୀଲାବିଲାସୌଦ୍ଦୀପକ ମାନି ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યુગલબિલાસે અનુકૂલ જાનિ",
+            "લીલાબિલાસૌદ્દીપક માનિ ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yugalabilāse anukūla jāni",
+            "līlā-bilāsa-uddīpaka māni 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯುಗಲಬಿಲಾಸೆ ಅನುಕೂಲ ಜಾನಿ",
+            "ಲೀಲಾಬಿಲಾಸೌದ್ದೀಪಕ ಮಾನಿ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యుగలబిలాసె అనుకూల జాని",
+            "లీలాబిలాసౌద్దీపక మాని 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йугалабила̄сэ̆ анукӯла джа̄ни",
+            "лӣла̄била̄сауддӣпака ма̄ни 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യുഗലബിലാസെ അനുകൂല ജാനി",
+            "ലീലാബിലാസൗദ്ദീപക മാനി 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யுக³லபி³லாஸெ அனுகூல ஜானி",
+            "லீலாபி³லாஸௌத்³தீ³பக மானி 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yugalabilāse anukūla jāni",
+            "līlā-bilāsa-uddīpaka māni 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yugalabilāse anukūla jāni",
+            "līlā-bilāsa-uddīpaka māni 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "e saba choḓata kãhi nāhi yā̃·u",
+        "e saba choḓata parāṇa hārā̃·u 7"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I will not go anywhere giving up such stimuli, for to abandon them is to give up my very life!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "e",
+              "these"
+            ],
+            [
+              "saba",
+              "all"
+            ],
+            [
+              "choḓata",
+              "giving up"
+            ],
+            [
+              "kãhi",
+              "anywhere"
+            ],
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "yā̃·u",
+              "I will go"
+            ],
+            [
+              "e",
+              "these"
+            ],
+            [
+              "saba",
+              "all"
+            ],
+            [
+              "choḓata",
+              "giving up"
+            ],
+            [
+              "parāṇa",
+              "life"
+            ],
+            [
+              "hārā̃·u",
+              "I will give up"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "ऎ",
+              "these"
+            ],
+            [
+              "सब",
+              "all"
+            ],
+            [
+              "छॊḓअत",
+              "giving up"
+            ],
+            [
+              "कंहि",
+              "anywhere"
+            ],
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "यांउ",
+              "I will go"
+            ],
+            [
+              "ऎ",
+              "these"
+            ],
+            [
+              "सब",
+              "all"
+            ],
+            [
+              "छॊḓअत",
+              "giving up"
+            ],
+            [
+              "पराण",
+              "life"
+            ],
+            [
+              "हारांउ",
+              "I will give up"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "এ",
+              "these"
+            ],
+            [
+              "সব",
+              "all"
+            ],
+            [
+              "ছোḓঅত",
+              "giving up"
+            ],
+            [
+              "কংহি",
+              "anywhere"
+            ],
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "যাংউ",
+              "I will go"
+            ],
+            [
+              "এ",
+              "these"
+            ],
+            [
+              "সব",
+              "all"
+            ],
+            [
+              "ছোḓঅত",
+              "giving up"
+            ],
+            [
+              "পরাণ",
+              "life"
+            ],
+            [
+              "হারাংউ",
+              "I will give up"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "એ",
+              "these"
+            ],
+            [
+              "સબ",
+              "all"
+            ],
+            [
+              "છોḓઅત",
+              "giving up"
+            ],
+            [
+              "કંહિ",
+              "anywhere"
+            ],
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "યાંઉ",
+              "I will go"
+            ],
+            [
+              "એ",
+              "these"
+            ],
+            [
+              "સબ",
+              "all"
+            ],
+            [
+              "છોḓઅત",
+              "giving up"
+            ],
+            [
+              "પરાણ",
+              "life"
+            ],
+            [
+              "હારાંઉ",
+              "I will give up"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎ सब छॊḓअत कंहि नाहि यांउ",
+            "ऎ सब छॊḓअत पराण हारांउ ७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এ সব ছোḓঅত কংহি নাহি যাংউ",
+            "এ সব ছোḓঅত পরাণ হারাংউ ৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏ ସବ ଛୋḓଅତ କଂହି ନାହି ଯାଂଉ",
+            "ଏ ସବ ଛୋḓଅତ ପରାଣ ହାରାଂଉ ୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એ સબ છોḓઅત કંહિ નાહિ યાંઉ",
+            "એ સબ છોḓઅત પરાણ હારાંઉ ૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "e saba choḓata kãhi nāhi yā̃·u",
+            "e saba choḓata parāṇa hārā̃·u 7"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎ ಸಬ ಛೊḓಅತ ಕಂಹಿ ನಾಹಿ ಯಾಂಉ",
+            "ಎ ಸಬ ಛೊḓಅತ ಪರಾಣ ಹಾರಾಂಉ ೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎ సబ ఛొḓఅత కంహి నాహి యాంఉ",
+            "ఎ సబ ఛొḓఅత పరాణ హారాంఉ 7"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆ саба чхо̆ḓата кам̣хи на̄хи йа̄м̣у",
+            "э̆ саба чхо̆ḓата пара̄н̣а ха̄ра̄м̣у 7"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എ സബ ഛൊḓഅത കംഹി നാഹി യാംഉ",
+            "എ സബ ഛൊḓഅത പരാണ ഹാരാംഉ 7"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எ ஸப³ சொ²ḓஅத கம்ʼஹி நாஹி யாம்ʼஉ",
+            "எ ஸப³ சொ²ḓஅத பராண ஹாராம்ʼஉ 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "e saba choḍata kãhi nāhi yā̃·u",
+            "e saba choḍata parāṇa hārā̃·u 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "e saba choḓata kãhi nāhi yā̃·u",
+            "e saba choḓata parāṇa hārā̃·u 7"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "source_text_master": [
+        "bhakatibinoda kahe, śuna kāna !",
+        "tuyā uddīpaka hāmārā parāṇa 8"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Bhaktivinoda says, “Please listen, O Kāna, Your uddīpana is my very life and soul.”"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bhakatibinoda",
+              "Bhaktivinoda"
+            ],
+            [
+              "kahe",
+              "says"
+            ],
+            [
+              "śuna",
+              "listen"
+            ],
+            [
+              "kāna",
+              "O Kāna"
+            ],
+            [
+              "tuyā",
+              "Your"
+            ],
+            [
+              "uddīpaka",
+              "stimuli"
+            ],
+            [
+              "hāmārā",
+              "my"
+            ],
+            [
+              "parāṇa",
+              "life, soul"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "भकतिबिनॊद",
+              "Bhaktivinoda"
+            ],
+            [
+              "कहॆ",
+              "says"
+            ],
+            [
+              "शुन",
+              "listen"
+            ],
+            [
+              "कान",
+              "O Kāna"
+            ],
+            [
+              "तुया",
+              "Your"
+            ],
+            [
+              "उद्दीपक",
+              "stimuli"
+            ],
+            [
+              "हामारा",
+              "my"
+            ],
+            [
+              "पराण",
+              "life, soul"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ভকতিবিনোদ",
+              "Bhaktivinoda"
+            ],
+            [
+              "কহে",
+              "says"
+            ],
+            [
+              "শুন",
+              "listen"
+            ],
+            [
+              "কান",
+              "O Kāna"
+            ],
+            [
+              "তুয়া",
+              "Your"
+            ],
+            [
+              "উদ্দীপক",
+              "stimuli"
+            ],
+            [
+              "হামারা",
+              "my"
+            ],
+            [
+              "পরাণ",
+              "life, soul"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ભકતિબિનોદ",
+              "Bhaktivinoda"
+            ],
+            [
+              "કહે",
+              "says"
+            ],
+            [
+              "શુન",
+              "listen"
+            ],
+            [
+              "કાન",
+              "O Kāna"
+            ],
+            [
+              "તુયા",
+              "Your"
+            ],
+            [
+              "ઉદ્દીપક",
+              "stimuli"
+            ],
+            [
+              "હામારા",
+              "my"
+            ],
+            [
+              "પરાણ",
+              "life, soul"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भकतिबिनॊद कहॆ, शुन कान !",
+            "तुया उद्दीपक हामारा पराण ८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভকতিবিনোদ কহে, শুন কান !",
+            "তুয়া উদ্দীপক হামারা পরাণ ৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭକତିବିନୋଦ କହେ, ଶୁନ କାନ !",
+            "ତୁୟା ଉଦ୍ଦୀପକ ହାମାରା ପରାଣ ୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભકતિબિનોદ કહે, શુન કાન !",
+            "તુયા ઉદ્દીપક હામારા પરાણ ૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhakatibinoda kahe, śuna kāna !",
+            "tuyā uddīpaka hāmārā parāṇa 8"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಕತಿಬಿನೊದ ಕಹೆ, ಶುನ ಕಾನ !",
+            "ತುಯಾ ಉದ್ದೀಪಕ ಹಾಮಾರಾ ಪರಾಣ ೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భకతిబినొద కహె, శున కాన !",
+            "తుయా ఉద్దీపక హామారా పరాణ 8"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхакатибино̆да кахэ̆, ш́уна ка̄на !",
+            "туйа̄ уддӣпака ха̄ма̄ра̄ пара̄н̣а 8"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭകതിബിനൊദ കഹെ, ശുന കാന !",
+            "തുയാ ഉദ്ദീപക ഹാമാരാ പരാണ 8"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப⁴கதிபி³னொத³ கஹெ, ஶுன கான !",
+            "துயா உத்³தீ³பக ஹாமாரா பராண 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhakatibinoda kahe, śuna kāna !",
+            "tuyā uddīpaka hāmārā parāṇa 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhakatibinoda kahe, śuna kāna !",
+            "tuyā uddīpaka hāmārā parāṇa 8"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- বানীর—বেতস-বৃক্ষ অর্থাৎ বেত গাছ; শশাঙ্ক—চন্দ্র ।"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "brsm-1",
+      "filename": "S30-brsm-1.mp3",
+      "artist": "Srila BR Sridhara Gosvami Maharaja"
+    },
+    {
+      "uid": "hakr-1",
+      "filename": "S30-hakr-1.mp3",
+      "artist": "Hare Krsna das"
+    },
+    {
+      "uid": "krsn-1",
+      "filename": "S30-krsn-1.mp3",
+      "artist": "Krsnadas das"
+    },
+    {
+      "uid": "krsn-2",
+      "filename": "S30-krsn-2.mp3",
+      "artist": "Krsnadas das"
+    },
+    {
+      "uid": "krsn-3",
+      "filename": "S30-krsn-3.mp3",
+      "artist": "Krsnadas das"
+    },
+    {
+      "uid": "tama-1",
+      "filename": "S30-tama-1.mp3",
+      "artist": "Tamal Krsna das"
+    }
+  ],
+  "tags": [
+    "Siddha-dehe—Kṛṣṇa-bhajanera Uddīpana"
+  ]
+}

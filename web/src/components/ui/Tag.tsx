@@ -35,7 +35,7 @@ export const tagStyles = {
   base: 'inline-block font-medium whitespace-nowrap overflow-hidden',
   variant: {
     default: 'bg-[var(--neutral)]/20 text-[var(--neutral)]',
-    highlight: 'bg-[var(--highlight)]/80 text-white',
+    highlight: 'bg-[var(--highlight)]/80 text-[var(--on-highlight)]',
     primary: 'bg-[var(--primary)]/20 text-[var(--primary)]',
     black: 'bg-black/30 text-white',
     blur: 'bg-white/10 text-white backdrop-blur-md',

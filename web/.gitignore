@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Generated Markdown twins of content pages (scripts/gen-markdown.mjs, run on prebuild)
+/public/*.md
+/public/songs/*.md
+/public/books/*.md
+/public/topics/*.md
+/public/collections/*.md
+/public/search-listings.json

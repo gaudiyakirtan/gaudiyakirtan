@@ -50,13 +50,20 @@ struct BookCard: View {
     private var backgroundLayer: some View {
         Group {
             if let imageUrl = book.image {
+                // Most books have no real cover on the bucket (docs/data/collections.md "a few books
+                // have covers ... others use color") — AsyncImage's placeholder covers both the
+                // loading window and any load failure (incl. the expected 404s), so a bad URL never
+                // leaves the card blank.
                 AsyncImage(url: URL(string: imageUrl)) { image in
                     image
                         .resizable()
                         .aspectRatio(contentMode: .fill)
                 } placeholder: {
-                    Color.gray
+                    getMediaColor(media: book.title)
                 }
+            } else {
+                // No cover slug matched this title — accent color only, per collections.md.
+                getMediaColor(media: book.title)
             }
         }
     }

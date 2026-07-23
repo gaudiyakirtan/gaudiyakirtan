@@ -1,0 +1,2240 @@
+{
+ "uid": "K40",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "শুন হে রসিক জন"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "śuna he rasika jana"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "śuna, he rasika jana,    kṛṣṇagaṇa agaṇana,",
+    "ananta kahite nāhi pāre",
+    "kṛṣṇa jagatera guru,    kṛṣṇa bāñchākalpataru,",
+    "nābika se bhaba[FLAG_HYPHEN_ALPHA]pārābāre 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Listen, O those who relish nectarean mellows, the transcendental qualities of Śrī Kṛṣṇa are innumerable. Even Lord Ananta [who has millions of hoods and mouths] cannot describe them all. Kṛṣṇa is the spiritual master of the entire universe, He is a wish-fulfilling desire-tree, and He is the navigator, guiding us across the ocean of material existence."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śuna",
+       "listen"
+      ],
+      [
+       "he",
+       "O"
+      ],
+      [
+       "rasika jana",
+       "those who relish rasa"
+      ],
+      [
+       "kṛṣṇagaṇa",
+       "the qualities of Śrī Kṛṣṇa"
+      ],
+      [
+       "agaṇana",
+       "innumerable"
+      ],
+      [
+       "ananta",
+       "Lord Ananta"
+      ],
+      [
+       "kahite",
+       "to speak"
+      ],
+      [
+       "nāhi pāre",
+       "cannot"
+      ],
+      [
+       "kṛṣṇa",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "jagatera",
+       "of the universe"
+      ],
+      [
+       "guru",
+       "the spiritual master"
+      ],
+      [
+       "kṛṣṇa",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "bāñchākalpataru",
+       "wish-fulfilling desire-tree"
+      ],
+      [
+       "nābika",
+       "the navigator"
+      ],
+      [
+       "se",
+       "he"
+      ],
+      [
+       "bhaba",
+       "material existence"
+      ],
+      [
+       "pārābāre",
+       "across the ocean"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "शुन",
+       "listen"
+      ],
+      [
+       "हॆ",
+       "O"
+      ],
+      [
+       "रसिक जन",
+       "those who relish rasa"
+      ],
+      [
+       "क्ड़्ष्णगण",
+       "the qualities of Śrī Kṛṣṇa"
+      ],
+      [
+       "अगणन",
+       "innumerable"
+      ],
+      [
+       "अनन्त",
+       "Lord Ananta"
+      ],
+      [
+       "कहितॆ",
+       "to speak"
+      ],
+      [
+       "नाहि पारॆ",
+       "cannot"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "जगतॆर",
+       "of the universe"
+      ],
+      [
+       "गुरु",
+       "the spiritual master"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "बाञ्छाकल्पतरु",
+       "wish-fulfilling desire-tree"
+      ],
+      [
+       "नाबिक",
+       "the navigator"
+      ],
+      [
+       "सॆ",
+       "he"
+      ],
+      [
+       "भब",
+       "material existence"
+      ],
+      [
+       "पाराबारॆ",
+       "across the ocean"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শুন",
+       "listen"
+      ],
+      [
+       "হে",
+       "O"
+      ],
+      [
+       "রসিক জন",
+       "those who relish rasa"
+      ],
+      [
+       "ক্ড়্ষ্ণগণ",
+       "the qualities of Śrī Kṛṣṇa"
+      ],
+      [
+       "অগণন",
+       "innumerable"
+      ],
+      [
+       "অনন্ত",
+       "Lord Ananta"
+      ],
+      [
+       "কহিতে",
+       "to speak"
+      ],
+      [
+       "নাহি পারে",
+       "cannot"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "জগতের",
+       "of the universe"
+      ],
+      [
+       "গুরু",
+       "the spiritual master"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "বাঞ্ছাকল্পতরু",
+       "wish-fulfilling desire-tree"
+      ],
+      [
+       "নাবিক",
+       "the navigator"
+      ],
+      [
+       "সে",
+       "he"
+      ],
+      [
+       "ভব",
+       "material existence"
+      ],
+      [
+       "পারাবারে",
+       "across the ocean"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શુન",
+       "listen"
+      ],
+      [
+       "હે",
+       "O"
+      ],
+      [
+       "રસિક જન",
+       "those who relish rasa"
+      ],
+      [
+       "ક્ડ઼્ષ્ણગણ",
+       "the qualities of Śrī Kṛṣṇa"
+      ],
+      [
+       "અગણન",
+       "innumerable"
+      ],
+      [
+       "અનન્ત",
+       "Lord Ananta"
+      ],
+      [
+       "કહિતે",
+       "to speak"
+      ],
+      [
+       "નાહિ પારે",
+       "cannot"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "જગતેર",
+       "of the universe"
+      ],
+      [
+       "ગુરુ",
+       "the spiritual master"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "બાઞ્છાકલ્પતરુ",
+       "wish-fulfilling desire-tree"
+      ],
+      [
+       "નાબિક",
+       "the navigator"
+      ],
+      [
+       "સે",
+       "he"
+      ],
+      [
+       "ભબ",
+       "material existence"
+      ],
+      [
+       "પારાબારે",
+       "across the ocean"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शुन, हॆ रसिक जन,    क्ड़्ष्णगण अगणन,",
+      "अनन्त कहितॆ नाहि पारॆ",
+      "क्ड़्ष्ण जगतॆर गुरु,    क्ड़्ष्ण बाञ्छाकल्पतरु,",
+      "नाबिक सॆ भबपाराबारॆ १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শুন, হে রসিক জন,    ক্ড়্ষ্ণগণ অগণন,",
+      "অনন্ত কহিতে নাহি পারে",
+      "ক্ড়্ষ্ণ জগতের গুরু,    ক্ড়্ষ্ণ বাঞ্ছাকল্পতরু,",
+      "নাবিক সে ভবপারাবারে ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶୁନ, ହେ ରସିକ ଜନ,    କ୍ଡ଼୍ଷ୍ଣଗଣ ଅଗଣନ,",
+      "ଅନନ୍ତ କହିତେ ନାହି ପାରେ",
+      "କ୍ଡ଼୍ଷ୍ଣ ଜଗତେର ଗୁରୁ,    କ୍ଡ଼୍ଷ୍ଣ ବାଞ୍ଛାକଲ୍ପତରୁ,",
+      "ନାବିକ ସେ ଭବପାରାବାରେ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શુન, હે રસિક જન,    ક્ડ઼્ષ્ણગણ અગણન,",
+      "અનન્ત કહિતે નાહિ પારે",
+      "ક્ડ઼્ષ્ણ જગતેર ગુરુ,    ક્ડ઼્ષ્ણ બાઞ્છાકલ્પતરુ,",
+      "નાબિક સે ભબપારાબારે ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śuna, he rasika jana,    kṛṣṇagaṇa agaṇana,",
+      "ananta kahite nāhi pāre",
+      "kṛṣṇa jagatera guru,    kṛṣṇa bāñchākalpataru,",
+      "nābika se bhaba-pārābāre 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶುನ, ಹೆ ರಸಿಕ ಜನ,    ಕ್‌ಡ಼್ಷ್ಣಗಣ ಅಗಣನ,",
+      "ಅನಂತ ಕಹಿತೆ ನಾಹಿ ಪಾರೆ",
+      "ಕ್‌ಡ಼್ಷ್ಣ ಜಗತೆರ ಗುರು,    ಕ್‌ಡ಼್ಷ್ಣ ಬಾಂಛಾಕಲ್ಪತರು,",
+      "ನಾಬಿಕ ಸೆ ಭಬಪಾರಾಬಾರೆ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శున, హె రసిక జన,    క్డ్ష్ణగణ అగణన,",
+      "అనంత కహితె నాహి పారె",
+      "క్డ్ష్ణ జగతెర గురు,    క్డ్ష్ణ బాంఛాకల్పతరు,",
+      "నాబిక సె భబపారాబారె 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́уна, хэ̆ расика джана,    кр̤шн̣аган̣а аган̣ана,",
+      "ананта кахитэ̆ на̄хи па̄рэ̆",
+      "кр̤шн̣а джагатэ̆ра гуру,    кр̤шн̣а ба̄н̃чха̄калпатару,",
+      "на̄бика сэ̆ бхабапа̄ра̄ба̄рэ̆ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശുന, ഹെ രസിക ജന,    ക്ഡ്ഷ്ണഗണ അഗണന,",
+      "അനന്ത കഹിതെ നാഹി പാരെ",
+      "ക്ഡ്ഷ്ണ ജഗതെര ഗുരു,    ക്ഡ്ഷ്ണ ബാഞ്ഛാകല്പതരു,",
+      "നാബിക സെ ഭബപാരാബാരെ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶுன, ஹெ ரஸிக ஜன,    க்ஃட்²ஷ்ணக³ண அக³ணன,",
+      "அனந்த கஹிதெ நாஹி பாரெ",
+      "க்ஃட்²ஷ்ண ஜக³தெர கு³ரு,    க்ஃட்²ஷ்ண பா³ஞ்சா²கல்பதரு,",
+      "நாபி³க ஸெ ப⁴ப³பாராபா³ரெ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śuna, he rasika jana,    kṛṣṇagaṇa agaṇana,",
+      "ananta kahite nāhi pāre",
+      "kṛṣṇa jagatera guru,    kṛṣṇa bāñchākalpataru,",
+      "nābika se bhaba-pārābāre 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śuna, he rasika jana,    kṛṣṇagaṇa agaṇana,",
+      "ananta kahite nāhi pāre",
+      "kṛṣṇa jagatera guru,    kṛṣṇa bāñchākalpataru,",
+      "nābika se bhaba-pārābāre 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "hṛdaya[FLAG_HYPHEN_ALPHA]pīḓita yā’ra,    kṛṣṇa[FLAG_HYPHEN_ALPHA]cikitsaka tā’ra,",
+    "bhaba[FLAG_HYPHEN_ALPHA]roga nāśite catura",
+    "kṛṣṇa bahirmukha[FLAG_HYPHEN_ALPHA]jane,    premāmṛta[FLAG_HYPHEN_ALPHA]bitaraṇe,",
+    "krame laya nija antaḥpura 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "For those whose hearts are ill, Kṛṣṇa is the doctor; He is expert at destroying the disease of material existence. By distributing the nectar of prema to all those who are averse to Him, He gradually takes them to His own confidential realm."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hṛdaya",
+       "hearts"
+      ],
+      [
+       "pīḓita",
+       "injured, afflicted, ill"
+      ],
+      [
+       "yā’ra",
+       "whose"
+      ],
+      [
+       "kṛṣṇa",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "cikitsaka",
+       "doctor"
+      ],
+      [
+       "tā’ra",
+       "of them"
+      ],
+      [
+       "bhaba",
+       "of material existence"
+      ],
+      [
+       "roga",
+       "the disease"
+      ],
+      [
+       "nāśite",
+       "at destroying"
+      ],
+      [
+       "catura",
+       "expert"
+      ],
+      [
+       "kṛṣṇa bahirmukha",
+       "averse to Śrī Kṛṣṇa"
+      ],
+      [
+       "jane",
+       "to people"
+      ],
+      [
+       "premāmṛta",
+       "divine love + nectar"
+      ],
+      [
+       "bitaraṇe",
+       "He distributes"
+      ],
+      [
+       "krame",
+       "gradually"
+      ],
+      [
+       "laya",
+       "takes"
+      ],
+      [
+       "nija",
+       "His own"
+      ],
+      [
+       "antaḥpura",
+       "confidential realm, internal abode"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ह्ड़्दय",
+       "hearts"
+      ],
+      [
+       "पीḓइत",
+       "injured, afflicted, ill"
+      ],
+      [
+       "याऽर",
+       "whose"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "चिकित्सक",
+       "doctor"
+      ],
+      [
+       "ताऽर",
+       "of them"
+      ],
+      [
+       "भब",
+       "of material existence"
+      ],
+      [
+       "रॊग",
+       "the disease"
+      ],
+      [
+       "नाशितॆ",
+       "at destroying"
+      ],
+      [
+       "चतुर",
+       "expert"
+      ],
+      [
+       "क्ड़्ष्ण बहिर्मुख",
+       "averse to Śrī Kṛṣṇa"
+      ],
+      [
+       "जनॆ",
+       "to people"
+      ],
+      [
+       "प्रॆमाम्ड़्त",
+       "divine love + nectar"
+      ],
+      [
+       "बितरणॆ",
+       "He distributes"
+      ],
+      [
+       "क्रमॆ",
+       "gradually"
+      ],
+      [
+       "लय",
+       "takes"
+      ],
+      [
+       "निज",
+       "His own"
+      ],
+      [
+       "अन्तःपुर",
+       "confidential realm, internal abode"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হ্ড়্দয়",
+       "hearts"
+      ],
+      [
+       "পীḓইত",
+       "injured, afflicted, ill"
+      ],
+      [
+       "যাঽর",
+       "whose"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "চিকিৎসক",
+       "doctor"
+      ],
+      [
+       "তাঽর",
+       "of them"
+      ],
+      [
+       "ভব",
+       "of material existence"
+      ],
+      [
+       "রোগ",
+       "the disease"
+      ],
+      [
+       "নাশিতে",
+       "at destroying"
+      ],
+      [
+       "চতুর",
+       "expert"
+      ],
+      [
+       "ক্ড়্ষ্ণ বহির্মুখ",
+       "averse to Śrī Kṛṣṇa"
+      ],
+      [
+       "জনে",
+       "to people"
+      ],
+      [
+       "প্রেমাম্ড়্ত",
+       "divine love + nectar"
+      ],
+      [
+       "বিতরণে",
+       "He distributes"
+      ],
+      [
+       "ক্রমে",
+       "gradually"
+      ],
+      [
+       "লয়",
+       "takes"
+      ],
+      [
+       "নিজ",
+       "His own"
+      ],
+      [
+       "অন্তঃপুর",
+       "confidential realm, internal abode"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હ્ડ઼્દય",
+       "hearts"
+      ],
+      [
+       "પીḓઇત",
+       "injured, afflicted, ill"
+      ],
+      [
+       "યાઽર",
+       "whose"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "ચિકિત્સક",
+       "doctor"
+      ],
+      [
+       "તાઽર",
+       "of them"
+      ],
+      [
+       "ભબ",
+       "of material existence"
+      ],
+      [
+       "રોગ",
+       "the disease"
+      ],
+      [
+       "નાશિતે",
+       "at destroying"
+      ],
+      [
+       "ચતુર",
+       "expert"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ બહિર્મુખ",
+       "averse to Śrī Kṛṣṇa"
+      ],
+      [
+       "જને",
+       "to people"
+      ],
+      [
+       "પ્રેમામ્ડ઼્ત",
+       "divine love + nectar"
+      ],
+      [
+       "બિતરણે",
+       "He distributes"
+      ],
+      [
+       "ક્રમે",
+       "gradually"
+      ],
+      [
+       "લય",
+       "takes"
+      ],
+      [
+       "નિજ",
+       "His own"
+      ],
+      [
+       "અન્તઃપુર",
+       "confidential realm, internal abode"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ह्ड़्दयपीḓइत याऽर,    क्ड़्ष्णचिकित्सक ताऽर,",
+      "भबरॊग नाशितॆ चतुर",
+      "क्ड़्ष्ण बहिर्मुखजनॆ,    प्रॆमाम्ड़्तबितरणॆ,",
+      "क्रमॆ लय निज अन्तःपुर २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হ্ড়্দয়পীḓইত যাঽর,    ক্ড়্ষ্ণচিকিৎসক তাঽর,",
+      "ভবরোগ নাশিতে চতুর",
+      "ক্ড়্ষ্ণ বহির্মুখজনে,    প্রেমাম্ড়্তবিতরণে,",
+      "ক্রমে লয় নিজ অন্তঃপুর ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହ୍ଡ଼୍ଦୟପୀḓଇତ ଯାଽର,    କ୍ଡ଼୍ଷ୍ଣଚିକିତ୍ସକ ତାଽର,",
+      "ଭବରୋଗ ନାଶିତେ ଚତୁର",
+      "କ୍ଡ଼୍ଷ୍ଣ ବହିର୍ମୁଖଜନେ,    ପ୍ରେମାମ୍ଡ଼୍ତବିତରଣେ,",
+      "କ୍ରମେ ଲୟ ନିଜ ଅନ୍ତଃପୁର ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હ્ડ઼્દયપીḓઇત યાઽર,    ક્ડ઼્ષ્ણચિકિત્સક તાઽર,",
+      "ભબરોગ નાશિતે ચતુર",
+      "ક્ડ઼્ષ્ણ બહિર્મુખજને,    પ્રેમામ્ડ઼્તબિતરણે,",
+      "ક્રમે લય નિજ અન્તઃપુર ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hṛdaya-pīḓita yā’ra,    kṛṣṇa-cikitsaka tā’ra,",
+      "bhaba-roga nāśite catura",
+      "kṛṣṇa bahirmukha-jane,    premāmṛta-bitaraṇe,",
+      "krame laya nija antaḥpura 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹ್‌ಡ಼್ದಯಪೀḓಇತ ಯಾಽರ,    ಕ್‌ಡ಼್ಷ್ಣಚಿಕಿತ್ಸಕ ತಾಽರ,",
+      "ಭಬರೊಗ ನಾಶಿತೆ ಚತುರ",
+      "ಕ್‌ಡ಼್ಷ್ಣ ಬಹಿರ್ಮುಖಜನೆ,    ಪ್ರೆಮಾಂ‌ಡ಼್ತಬಿತರಣೆ,",
+      "ಕ್ರಮೆ ಲಯ ನಿಜ ಅಂತಃಪುರ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హ్డ్దయపీḓఇత యాఽర,    క్డ్ష్ణచికిత్సక తాఽర,",
+      "భబరొగ నాశితె చతుర",
+      "క్డ్ష్ణ బహిర్ముఖజనె,    ప్రెమామ్డ్తబితరణె,",
+      "క్రమె లయ నిజ అంతఃపుర 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хр̤дайапӣḓита йа̄'ра,    кр̤шн̣ачикитсака та̄'ра,",
+      "бхабаро̆га на̄ш́итэ̆ чатура",
+      "кр̤шн̣а бахирмукхаджанэ̆,    прэ̆ма̄мр̤табитаран̣э̆,",
+      "крамэ̆ лайа ниджа антах̣пура 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹ്ഡ്ദയപീḓഇത യാഽര,    ക്ഡ്ഷ്ണചികിത്സക താഽര,",
+      "ഭബരൊഗ നാശിതെ ചതുര",
+      "ക്ഡ്ഷ്ണ ബഹിർമുഖജനെ,    പ്രെമാമ്ഡ്തബിതരണെ,",
+      "ക്രമെ ലയ നിജ അന്തഃപുര 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹ்ஃட்²த³யபீḓஇத யா(அ)ர,    க்ஃட்²ஷ்ணசிகித்ஸக தா(அ)ர,",
+      "ப⁴ப³ரொக³ நாஶிதெ சதுர",
+      "க்ஃட்²ஷ்ண ப³ஹிர்முக²ஜனெ,    ப்ரெமாம்ஃட்²தபி³தரணெ,",
+      "க்ரமெ லய நிஜ அந்த꞉புர 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hṛdaya-pīḍita yā’ra,    kṛṣṇa-cikitsaka tā’ra,",
+      "bhaba-roga nāśite catura",
+      "kṛṣṇa bahirmukha-jane,    premāmṛta-bitaraṇe,",
+      "krame laya nija antaḥpura 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hṛdaya-pīḓita yā’ra,    kṛṣṇa-cikitsaka tā’ra,",
+      "bhaba-roga nāśite catura",
+      "kṛṣṇa bahirmukha-jane,    premāmṛta-bitaraṇe,",
+      "krame laya nija antaḥpura 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "karmabandha[FLAG_HYPHEN_ALPHA]jñānabandha[FLAG_HYPHEN_ALPHA],    ābeśe mānaba andha,",
+    "tā’re kṛṣṇa karuṇā[FLAG_HYPHEN_ALPHA]sāgara",
+    "pādapadma[FLAG_HYPHEN_ALPHA]madhu diyā,    andhabhāba ghucāiyā,",
+    "caraṇe karena anucara 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Human beings are blinded by their absorption in the bindings of karma and jñāna, but Kṛṣṇa, who is an ocean of mercy, removes their blindness by granting them the honey of His lotus feet. In this way, He makes them servants of those lotus feet."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "karmabandha",
+       "the bindings of frutive activities"
+      ],
+      [
+       "jñānabandha",
+       "the bindings of dry knowledge"
+      ],
+      [
+       "ābeśe",
+       "by absorption"
+      ],
+      [
+       "mānaba",
+       "human beings"
+      ],
+      [
+       "andha",
+       "blind"
+      ],
+      [
+       "tā’re",
+       "to them"
+      ],
+      [
+       "kṛṣṇa",
+       "Kṛṣṇa"
+      ],
+      [
+       "karuṇā",
+       "of mercy"
+      ],
+      [
+       "sāgara",
+       "an ocean"
+      ],
+      [
+       "pādapadma",
+       "feet + lotus"
+      ],
+      [
+       "madhu",
+       "honey"
+      ],
+      [
+       "diyā",
+       "giving"
+      ],
+      [
+       "andhabhāba",
+       "blindness"
+      ],
+      [
+       "ghucāiyā",
+       "removing"
+      ],
+      [
+       "caraṇe",
+       "of the feet"
+      ],
+      [
+       "karena",
+       "He makes"
+      ],
+      [
+       "anucara",
+       "a servant"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "कर्मबन्ध",
+       "the bindings of frutive activities"
+      ],
+      [
+       "ज्ञानबन्ध",
+       "the bindings of dry knowledge"
+      ],
+      [
+       "आबॆशॆ",
+       "by absorption"
+      ],
+      [
+       "मानब",
+       "human beings"
+      ],
+      [
+       "अन्ध",
+       "blind"
+      ],
+      [
+       "ताऽरॆ",
+       "to them"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Kṛṣṇa"
+      ],
+      [
+       "करुणा",
+       "of mercy"
+      ],
+      [
+       "सागर",
+       "an ocean"
+      ],
+      [
+       "पादपद्म",
+       "feet + lotus"
+      ],
+      [
+       "मधु",
+       "honey"
+      ],
+      [
+       "दिया",
+       "giving"
+      ],
+      [
+       "अन्धभाब",
+       "blindness"
+      ],
+      [
+       "घुचाइया",
+       "removing"
+      ],
+      [
+       "चरणॆ",
+       "of the feet"
+      ],
+      [
+       "करॆन",
+       "He makes"
+      ],
+      [
+       "अनुचर",
+       "a servant"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "কর্মবন্ধ",
+       "the bindings of frutive activities"
+      ],
+      [
+       "জ্ঞানবন্ধ",
+       "the bindings of dry knowledge"
+      ],
+      [
+       "আবেশে",
+       "by absorption"
+      ],
+      [
+       "মানব",
+       "human beings"
+      ],
+      [
+       "অন্ধ",
+       "blind"
+      ],
+      [
+       "তাঽরে",
+       "to them"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Kṛṣṇa"
+      ],
+      [
+       "করুণা",
+       "of mercy"
+      ],
+      [
+       "সাগর",
+       "an ocean"
+      ],
+      [
+       "পাদপদ্ম",
+       "feet + lotus"
+      ],
+      [
+       "মধু",
+       "honey"
+      ],
+      [
+       "দিয়া",
+       "giving"
+      ],
+      [
+       "অন্ধভাব",
+       "blindness"
+      ],
+      [
+       "ঘুচাইয়া",
+       "removing"
+      ],
+      [
+       "চরণে",
+       "of the feet"
+      ],
+      [
+       "করেন",
+       "He makes"
+      ],
+      [
+       "অনুচর",
+       "a servant"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "કર્મબન્ધ",
+       "the bindings of frutive activities"
+      ],
+      [
+       "જ્ઞાનબન્ધ",
+       "the bindings of dry knowledge"
+      ],
+      [
+       "આબેશે",
+       "by absorption"
+      ],
+      [
+       "માનબ",
+       "human beings"
+      ],
+      [
+       "અન્ધ",
+       "blind"
+      ],
+      [
+       "તાઽરે",
+       "to them"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Kṛṣṇa"
+      ],
+      [
+       "કરુણા",
+       "of mercy"
+      ],
+      [
+       "સાગર",
+       "an ocean"
+      ],
+      [
+       "પાદપદ્મ",
+       "feet + lotus"
+      ],
+      [
+       "મધુ",
+       "honey"
+      ],
+      [
+       "દિયા",
+       "giving"
+      ],
+      [
+       "અન્ધભાબ",
+       "blindness"
+      ],
+      [
+       "ઘુચાઇયા",
+       "removing"
+      ],
+      [
+       "ચરણે",
+       "of the feet"
+      ],
+      [
+       "કરેન",
+       "He makes"
+      ],
+      [
+       "અનુચર",
+       "a servant"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कर्मबन्धज्ञानबन्ध,    आबॆशॆ मानब अन्ध,",
+      "ताऽरॆ क्ड़्ष्ण करुणासागर",
+      "पादपद्ममधु दिया,    अन्धभाब घुचाइया,",
+      "चरणॆ करॆन अनुचर ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কর্মবন্ধজ্ঞানবন্ধ,    আবেশে মানব অন্ধ,",
+      "তাঽরে ক্ড়্ষ্ণ করুণাসাগর",
+      "পাদপদ্মমধু দিয়া,    অন্ধভাব ঘুচাইয়া,",
+      "চরণে করেন অনুচর ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କର୍ମବନ୍ଧଜ୍ଞାନବନ୍ଧ,    ଆବେଶେ ମାନବ ଅନ୍ଧ,",
+      "ତାଽରେ କ୍ଡ଼୍ଷ୍ଣ କରୁଣାସାଗର",
+      "ପାଦପଦ୍ମମଧୁ ଦିୟା,    ଅନ୍ଧଭାବ ଘୁଚାଇୟା,",
+      "ଚରଣେ କରେନ ଅନୁଚର ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કર્મબન્ધજ્ઞાનબન્ધ,    આબેશે માનબ અન્ધ,",
+      "તાઽરે ક્ડ઼્ષ્ણ કરુણાસાગર",
+      "પાદપદ્મમધુ દિયા,    અન્ધભાબ ઘુચાઇયા,",
+      "ચરણે કરેન અનુચર ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "karmabandha-jñānabandha-,    ābeśe mānaba andha,",
+      "tā’re kṛṣṇa karuṇā-sāgara",
+      "pādapadma-madhu diyā,    andhabhāba ghucāiyā,",
+      "caraṇe karena anucara 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕರ್ಮಬಂಧಜ್ಞಾನಬಂಧ,    ಆಬೆಶೆ ಮಾನಬ ಅಂಧ,",
+      "ತಾಽರೆ ಕ್‌ಡ಼್ಷ್ಣ ಕರುಣಾಸಾಗರ",
+      "ಪಾದಪದ್ಮಮಧು ದಿಯಾ,    ಅಂಧಭಾಬ ಘುಚಾಇಯಾ,",
+      "ಚರಣೆ ಕರೆನ ಅನುಚರ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కర్మబంధజ్ఞానబంధ,    ఆబెశె మానబ అంధ,",
+      "తాఽరె క్డ్ష్ణ కరుణాసాగర",
+      "పాదపద్మమధు దియా,    అంధభాబ ఘుచాఇయా,",
+      "చరణె కరెన అనుచర 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кармабандхаджн̃а̄набандха,    а̄бэ̆ш́э̆ ма̄наба андха,",
+      "та̄'рэ̆ кр̤шн̣а карун̣а̄са̄гара",
+      "па̄дападмамадху дийа̄,    андхабха̄ба гхуча̄ийа̄,",
+      "чаран̣э̆ карэ̆на анучара 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കർമബന്ധജ്ഞാനബന്ധ,    ആബെശെ മാനബ അന്ധ,",
+      "താഽരെ ക്ഡ്ഷ്ണ കരുണാസാഗര",
+      "പാദപദ്മമധു ദിയാ,    അന്ധഭാബ ഘുചാഇയാ,",
+      "ചരണെ കരെന അനുചര 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கர்மப³ந்த⁴ஜ்ஞானப³ந்த⁴,    ஆபெ³ஶெ மானப³ அந்த⁴,",
+      "தா(அ)ரெ க்ஃட்²ஷ்ண கருணாஸாக³ர",
+      "பாத³பத்³மமது⁴ தி³யா,    அந்த⁴பா⁴ப³ கு⁴சாஇயா,",
+      "சரணெ கரென அனுசர 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "karmabandha-jñānabandha-,    ābeśe mānaba andha,",
+      "tā’re kṛṣṇa karuṇā-sāgara",
+      "pādapadma-madhu diyā,    andhabhāba ghucāiyā,",
+      "caraṇe karena anucara 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "karmabandha-jñānabandha-,    ābeśe mānaba andha,",
+      "tā’re kṛṣṇa karuṇā-sāgara",
+      "pādapadma-madhu diyā,    andhabhāba ghucāiyā,",
+      "caraṇe karena anucara 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "bidhimārgarata[FLAG_HYPHEN_ALPHA]jane,    sbādhīnatā ratnadāne,",
+    "rāgamārge karāna prabeśa",
+    "rāga[FLAG_HYPHEN_ALPHA]baśabartī ha’ye,    pārakīya[FLAG_HYPHEN_ALPHA]bhābāśraye,",
+    "labhe jība kṛṣṇapremābeśa 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "By granting the jewel of independence to those following vidhi-mārga, the path of regulative principles, He allows them to enter rāga-mārga, the path of spontaneous loving attachment. Being controlled by such attachment and taking shelter of parakīya-bhāva (paramour love), the jīva attains ecstatic love for Kṛṣṇa."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "bidhimārgarata",
+       "regulative principles + the path + devoted to"
+      ],
+      [
+       "jane",
+       "to people"
+      ],
+      [
+       "sbādhīnatā",
+       "independence"
+      ],
+      [
+       "ratnadāne",
+       "the jewel + by awarding"
+      ],
+      [
+       "rāgamārge",
+       "of spontaneous attachment + on the path"
+      ],
+      [
+       "karāna",
+       "He causes"
+      ],
+      [
+       "prabeśa",
+       "enterance"
+      ],
+      [
+       "rāga",
+       "by spontaneous attachment"
+      ],
+      [
+       "baśabartī",
+       "under the control"
+      ],
+      [
+       "ha’ye",
+       "being"
+      ],
+      [
+       "pārakīya",
+       "paramour"
+      ],
+      [
+       "bhābāśraye",
+       "love + in the shelter"
+      ],
+      [
+       "labhe",
+       "attains"
+      ],
+      [
+       "jība",
+       "the soul"
+      ],
+      [
+       "kṛṣṇapremābeśa",
+       "love for Kṛṣṇa + rapture"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "बिधिमार्गरत",
+       "regulative principles + the path + devoted to"
+      ],
+      [
+       "जनॆ",
+       "to people"
+      ],
+      [
+       "स्बाधीनता",
+       "independence"
+      ],
+      [
+       "रत्नदानॆ",
+       "the jewel + by awarding"
+      ],
+      [
+       "रागमार्गॆ",
+       "of spontaneous attachment + on the path"
+      ],
+      [
+       "करान",
+       "He causes"
+      ],
+      [
+       "प्रबॆश",
+       "enterance"
+      ],
+      [
+       "राग",
+       "by spontaneous attachment"
+      ],
+      [
+       "बशबर्ती",
+       "under the control"
+      ],
+      [
+       "हऽयॆ",
+       "being"
+      ],
+      [
+       "पारकीय",
+       "paramour"
+      ],
+      [
+       "भाबाश्रयॆ",
+       "love + in the shelter"
+      ],
+      [
+       "लभॆ",
+       "attains"
+      ],
+      [
+       "जीब",
+       "the soul"
+      ],
+      [
+       "क्ड़्ष्णप्रॆमाबॆश",
+       "love for Kṛṣṇa + rapture"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "বিধিমার্গরত",
+       "regulative principles + the path + devoted to"
+      ],
+      [
+       "জনে",
+       "to people"
+      ],
+      [
+       "স্বাধীনতা",
+       "independence"
+      ],
+      [
+       "রত্নদানে",
+       "the jewel + by awarding"
+      ],
+      [
+       "রাগমার্গে",
+       "of spontaneous attachment + on the path"
+      ],
+      [
+       "করান",
+       "He causes"
+      ],
+      [
+       "প্রবেশ",
+       "enterance"
+      ],
+      [
+       "রাগ",
+       "by spontaneous attachment"
+      ],
+      [
+       "বশবর্তী",
+       "under the control"
+      ],
+      [
+       "হঽয়ে",
+       "being"
+      ],
+      [
+       "পারকীয়",
+       "paramour"
+      ],
+      [
+       "ভাবাশ্রয়ে",
+       "love + in the shelter"
+      ],
+      [
+       "লভে",
+       "attains"
+      ],
+      [
+       "জীব",
+       "the soul"
+      ],
+      [
+       "ক্ড়্ষ্ণপ্রেমাবেশ",
+       "love for Kṛṣṇa + rapture"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બિધિમાર્ગરત",
+       "regulative principles + the path + devoted to"
+      ],
+      [
+       "જને",
+       "to people"
+      ],
+      [
+       "સ્બાધીનતા",
+       "independence"
+      ],
+      [
+       "રત્નદાને",
+       "the jewel + by awarding"
+      ],
+      [
+       "રાગમાર્ગે",
+       "of spontaneous attachment + on the path"
+      ],
+      [
+       "કરાન",
+       "He causes"
+      ],
+      [
+       "પ્રબેશ",
+       "enterance"
+      ],
+      [
+       "રાગ",
+       "by spontaneous attachment"
+      ],
+      [
+       "બશબર્તી",
+       "under the control"
+      ],
+      [
+       "હઽયે",
+       "being"
+      ],
+      [
+       "પારકીય",
+       "paramour"
+      ],
+      [
+       "ભાબાશ્રયે",
+       "love + in the shelter"
+      ],
+      [
+       "લભે",
+       "attains"
+      ],
+      [
+       "જીબ",
+       "the soul"
+      ],
+      [
+       "ક્ડ઼્ષ્ણપ્રેમાબેશ",
+       "love for Kṛṣṇa + rapture"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बिधिमार्गरतजनॆ,    स्बाधीनता रत्नदानॆ,",
+      "रागमार्गॆ करान प्रबॆश",
+      "रागबशबर्ती हऽयॆ,    पारकीयभाबाश्रयॆ,",
+      "लभॆ जीब क्ड़्ष्णप्रॆमाबॆश ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বিধিমার্গরতজনে,    স্বাধীনতা রত্নদানে,",
+      "রাগমার্গে করান প্রবেশ",
+      "রাগবশবর্তী হঽয়ে,    পারকীয়ভাবাশ্রয়ে,",
+      "লভে জীব ক্ড়্ষ্ণপ্রেমাবেশ ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବିଧିମାର୍ଗରତଜନେ,    ସ୍ବାଧୀନତା ରତ୍ନଦାନେ,",
+      "ରାଗମାର୍ଗେ କରାନ ପ୍ରବେଶ",
+      "ରାଗବଶବର୍ତୀ ହଽୟେ,    ପାରକୀୟଭାବାଶ୍ରୟେ,",
+      "ଲଭେ ଜୀବ କ୍ଡ଼୍ଷ୍ଣପ୍ରେମାବେଶ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બિધિમાર્ગરતજને,    સ્બાધીનતા રત્નદાને,",
+      "રાગમાર્ગે કરાન પ્રબેશ",
+      "રાગબશબર્તી હઽયે,    પારકીયભાબાશ્રયે,",
+      "લભે જીબ ક્ડ઼્ષ્ણપ્રેમાબેશ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bidhimārgarata-jane,    sbādhīnatā ratnadāne,",
+      "rāgamārge karāna prabeśa",
+      "rāga-baśabartī ha’ye,    pārakīya-bhābāśraye,",
+      "labhe jība kṛṣṇapremābeśa 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬಿಧಿಮಾರ್ಗರತಜನೆ,    ಸ್ಬಾಧೀನತಾ ರತ್ನದಾನೆ,",
+      "ರಾಗಮಾರ್ಗೆ ಕರಾನ ಪ್ರಬೆಶ",
+      "ರಾಗಬಶಬರ್ತೀ ಹಽಯೆ,    ಪಾರಕೀಯಭಾಬಾಶ್ರಯೆ,",
+      "ಲಭೆ ಜೀಬ ಕ್‌ಡ಼್ಷ್ಣಪ್ರೆಮಾಬೆಶ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బిధిమార్గరతజనె,    స్బాధీనతా రత్నదానె,",
+      "రాగమార్గె కరాన ప్రబెశ",
+      "రాగబశబర్తీ హఽయె,    పారకీయభాబాశ్రయె,",
+      "లభె జీబ క్డ్ష్ణప్రెమాబెశ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бидхима̄ргаратаджанэ̆,    сба̄дхӣната̄ ратнада̄нэ̆,",
+      "ра̄гама̄ргэ̆ кара̄на прабэ̆ш́а",
+      "ра̄габаш́абартӣ ха'йэ̆,    па̄ракӣйабха̄ба̄ш́райэ̆,",
+      "лабхэ̆ джӣба кр̤шн̣апрэ̆ма̄бэ̆ш́а 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബിധിമാർഗരതജനെ,    സ്ബാധീനതാ രത്നദാനെ,",
+      "രാഗമാർഗെ കരാന പ്രബെശ",
+      "രാഗബശബർതീ ഹഽയെ,    പാരകീയഭാബാശ്രയെ,",
+      "ലഭെ ജീബ ക്ഡ്ഷ്ണപ്രെമാബെശ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பி³தி⁴மார்க³ரதஜனெ,    ஸ்பா³தீ⁴னதா ரத்னதா³னெ,",
+      "ராக³மார்கெ³ கரான ப்ரபெ³ஶ",
+      "ராக³ப³ஶப³ர்தீ ஹ(அ)யெ,    பாரகீயபா⁴பா³ஶ்ரயெ,",
+      "லபெ⁴ ஜீப³ க்ஃட்²ஷ்ணப்ரெமாபெ³ஶ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bidhimārgarata-jane,    sbādhīnatā ratnadāne,",
+      "rāgamārge karāna prabeśa",
+      "rāga-baśabartī ha’ye,    pārakīya-bhābāśraye,",
+      "labhe jība kṛṣṇapremābeśa 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bidhimārgarata-jane,    sbādhīnatā ratnadāne,",
+      "rāgamārge karāna prabeśa",
+      "rāga-baśabartī ha’ye,    pārakīya-bhābāśraye,",
+      "labhe jība kṛṣṇapremābeśa 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "premāmṛta[FLAG_HYPHEN_ALPHA]bāridhārā,    sadā pānarata tā̃’rā,",
+    "kṛṣṇa tā̃hādera bandhu, pati",
+    "seisaba brajajana,    sukalyāṇa[FLAG_HYPHEN_ALPHA]niketana,",
+    "dīna hīna binodera gati 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Such devotees are always engaged in drinking from the stream of the nectar of prema, for Kṛṣṇa is their friend and master. These residents of Vraja, who are abodes of auspiciousness, are the refuge of the poor and fallen Bhaktivinoda."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "premāmṛta",
+       "of divine love + the nectar"
+      ],
+      [
+       "bāridhārā",
+       "a shower or stream or torrent of rain"
+      ],
+      [
+       "sadā",
+       "always"
+      ],
+      [
+       "pānarata",
+       "in drinking + engaged"
+      ],
+      [
+       "tā̃’rā",
+       "they all"
+      ],
+      [
+       "kṛṣṇa",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "tā̃hādera",
+       "their"
+      ],
+      [
+       "bandhu",
+       "friend"
+      ],
+      [
+       "pati",
+       "master"
+      ],
+      [
+       "seisaba",
+       "these + all"
+      ],
+      [
+       "brajajana",
+       "residents of Vraja"
+      ],
+      [
+       "sukalyāṇa",
+       "of auspiciousness"
+      ],
+      [
+       "niketana",
+       "abodes"
+      ],
+      [
+       "dīna",
+       "poor"
+      ],
+      [
+       "hīna",
+       "fallen"
+      ],
+      [
+       "binodera",
+       "of Bhaktivinoda"
+      ],
+      [
+       "gati",
+       "the refuge"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "प्रॆमाम्ड़्त",
+       "of divine love + the nectar"
+      ],
+      [
+       "बारिधारा",
+       "a shower or stream or torrent of rain"
+      ],
+      [
+       "सदा",
+       "always"
+      ],
+      [
+       "पानरत",
+       "in drinking + engaged"
+      ],
+      [
+       "तांऽरा",
+       "they all"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "तांहादॆर",
+       "their"
+      ],
+      [
+       "बन्धु",
+       "friend"
+      ],
+      [
+       "पति",
+       "master"
+      ],
+      [
+       "सॆइसब",
+       "these + all"
+      ],
+      [
+       "ब्रजजन",
+       "residents of Vraja"
+      ],
+      [
+       "सुकल्याण",
+       "of auspiciousness"
+      ],
+      [
+       "निकॆतन",
+       "abodes"
+      ],
+      [
+       "दीन",
+       "poor"
+      ],
+      [
+       "हीन",
+       "fallen"
+      ],
+      [
+       "बिनॊदॆर",
+       "of Bhaktivinoda"
+      ],
+      [
+       "गति",
+       "the refuge"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "প্রেমাম্ড়্ত",
+       "of divine love + the nectar"
+      ],
+      [
+       "বারিধারা",
+       "a shower or stream or torrent of rain"
+      ],
+      [
+       "সদা",
+       "always"
+      ],
+      [
+       "পানরত",
+       "in drinking + engaged"
+      ],
+      [
+       "তাংঽরা",
+       "they all"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "তাংহাদের",
+       "their"
+      ],
+      [
+       "বন্ধু",
+       "friend"
+      ],
+      [
+       "পতি",
+       "master"
+      ],
+      [
+       "সেইসব",
+       "these + all"
+      ],
+      [
+       "ব্রজজন",
+       "residents of Vraja"
+      ],
+      [
+       "সুকল্যাণ",
+       "of auspiciousness"
+      ],
+      [
+       "নিকেতন",
+       "abodes"
+      ],
+      [
+       "দীন",
+       "poor"
+      ],
+      [
+       "হীন",
+       "fallen"
+      ],
+      [
+       "বিনোদের",
+       "of Bhaktivinoda"
+      ],
+      [
+       "গতি",
+       "the refuge"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "પ્રેમામ્ડ઼્ત",
+       "of divine love + the nectar"
+      ],
+      [
+       "બારિધારા",
+       "a shower or stream or torrent of rain"
+      ],
+      [
+       "સદા",
+       "always"
+      ],
+      [
+       "પાનરત",
+       "in drinking + engaged"
+      ],
+      [
+       "તાંઽરા",
+       "they all"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "તાંહાદેર",
+       "their"
+      ],
+      [
+       "બન્ધુ",
+       "friend"
+      ],
+      [
+       "પતિ",
+       "master"
+      ],
+      [
+       "સેઇસબ",
+       "these + all"
+      ],
+      [
+       "બ્રજજન",
+       "residents of Vraja"
+      ],
+      [
+       "સુકલ્યાણ",
+       "of auspiciousness"
+      ],
+      [
+       "નિકેતન",
+       "abodes"
+      ],
+      [
+       "દીન",
+       "poor"
+      ],
+      [
+       "હીન",
+       "fallen"
+      ],
+      [
+       "બિનોદેર",
+       "of Bhaktivinoda"
+      ],
+      [
+       "ગતિ",
+       "the refuge"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "प्रॆमाम्ड़्तबारिधारा,    सदा पानरत तांऽरा,",
+      "क्ड़्ष्ण तांहादॆर बन्धु, पति",
+      "सॆइसब ब्रजजन,    सुकल्याणनिकॆतन,",
+      "दीन हीन बिनॊदॆर गति ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "প্রেমাম্ড়্তবারিধারা,    সদা পানরত তাংঽরা,",
+      "ক্ড়্ষ্ণ তাংহাদের বন্ধু, পতি",
+      "সেইসব ব্রজজন,    সুকল্যাণনিকেতন,",
+      "দীন হীন বিনোদের গতি ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପ୍ରେମାମ୍ଡ଼୍ତବାରିଧାରା,    ସଦା ପାନରତ ତାଂଽରା,",
+      "କ୍ଡ଼୍ଷ୍ଣ ତାଂହାଦେର ବନ୍ଧୁ, ପତି",
+      "ସେଇସବ ବ୍ରଜଜନ,    ସୁକଲ୍ୟାଣନିକେତନ,",
+      "ଦୀନ ହୀନ ବିନୋଦେର ଗତି ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પ્રેમામ્ડ઼્તબારિધારા,    સદા પાનરત તાંઽરા,",
+      "ક્ડ઼્ષ્ણ તાંહાદેર બન્ધુ, પતિ",
+      "સેઇસબ બ્રજજન,    સુકલ્યાણનિકેતન,",
+      "દીન હીન બિનોદેર ગતિ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "premāmṛta-bāridhārā,    sadā pānarata tā̃’rā,",
+      "kṛṣṇa tā̃hādera bandhu, pati",
+      "seisaba brajajana,    sukalyāṇa-niketana,",
+      "dīna hīna binodera gati 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪ್ರೆಮಾಂ‌ಡ಼್ತಬಾರಿಧಾರಾ,    ಸದಾ ಪಾನರತ ತಾಂಽರಾ,",
+      "ಕ್‌ಡ಼್ಷ್ಣ ತಾಂಹಾದೆರ ಬಂಧು, ಪತಿ",
+      "ಸೆಇಸಬ ಬ್ರಜಜನ,    ಸುಕಲ್ಯಾಣನಿಕೆತನ,",
+      "ದೀನ ಹೀನ ಬಿನೊದೆರ ಗತಿ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ప్రెమామ్డ్తబారిధారా,    సదా పానరత తాంఽరా,",
+      "క్డ్ష్ణ తాంహాదెర బంధు, పతి",
+      "సెఇసబ బ్రజజన,    సుకల్యాణనికెతన,",
+      "దీన హీన బినొదెర గతి 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "прэ̆ма̄мр̤таба̄ридха̄ра̄,    сада̄ па̄нарата та̄м̣'ра̄,",
+      "кр̤шн̣а та̄м̣ха̄дэ̆ра бандху, пати",
+      "сэ̆исаба браджаджана,    сукалйа̄н̣аникэ̆тана,",
+      "дӣна хӣна бино̆дэ̆ра гати 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പ്രെമാമ്ഡ്തബാരിധാരാ,    സദാ പാനരത താംഽരാ,",
+      "ക്ഡ്ഷ്ണ താംഹാദെര ബന്ധു, പതി",
+      "സെഇസബ ബ്രജജന,    സുകല്യാണനികെതന,",
+      "ദീന ഹീന ബിനൊദെര ഗതി 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்ரெமாம்ஃட்²தபா³ரிதா⁴ரா,    ஸதா³ பானரத தாம்ʼ(அ)ரா,",
+      "க்ஃட்²ஷ்ண தாம்ʼஹாதெ³ர ப³ந்து⁴, பதி",
+      "ஸெஇஸப³ ப்³ரஜஜன,    ஸுகல்யாணனிகெதன,",
+      "தீ³ன ஹீன பி³னொதெ³ர க³தி 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "premāmṛta-bāridhārā,    sadā pānarata tā̃’rā,",
+      "kṛṣṇa tā̃hādera bandhu, pati",
+      "seisaba brajajana,    sukalyāṇa-niketana,",
+      "dīna hīna binodera gati 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "premāmṛta-bāridhārā,    sadā pānarata tā̃’rā,",
+      "kṛṣṇa tā̃hādera bandhu, pati",
+      "seisaba brajajana,    sukalyāṇa-niketana,",
+      "dīna hīna binodera gati 5"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "krsn-1",
+   "filename": "K40-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "shbi-1",
+   "filename": "K40-shbi-1.mp3",
+   "artist": "shbi"
+  },
+  {
+   "uid": "vraj-1",
+   "filename": "K40-vraj-1.mp3",
+   "artist": "Vraj Mohan das"
+  }
+ ],
+ "tags": [
+  "The Wonderful Qualities of Śrī Kṛṣṇa"
+ ]
+}

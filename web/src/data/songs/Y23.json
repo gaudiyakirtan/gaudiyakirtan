@@ -1,0 +1,527 @@
+{
+  "uid": "Y23",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "হরি হে! তোমার যে শুদ্ধভক্ত"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "hari he! tomāra ye śuddhabhakta"
+    },
+    {
+      "script_code": "Deva",
+      "text": "हरि हे! तोमार ये शुद्धभक्त"
+    },
+    {
+      "script_code": "Telu",
+      "text": "హరి హే! తోమార యే శుద్ధభక్త"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಹರಿ ಹೇ! ತೋಮಾರ ಯೇ ಶುದ್ಧಭಕ್ತ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஹரி ஹே! தோமார யே ஶுத்³த⁴ப⁴க்த"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഹരി ഹേ! തോമാര യേ ശുദ്ധഭക്ത"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "હરિ હે! તોમાર યે શુદ્ધભક્ત"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ହରି ହେ! ତୋମାର ଯେ ଶୁଦ୍ଧଭକ୍ତ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "хари хэ! тома̄ра йэ ш́уддхабхакта"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "hari he!",
+        "tomāra ye śuddhabhakta,    tomāte se anurakta,",
+        "bhukti[FLAG_HYPHEN_ALPHA]mukti tuccha kari’ jāne",
+        "bāreka dekhite taba,    cidākāra[FLAG_HYPHEN_ALPHA]śrībaibhaba,",
+        "tṛṇa bali’ anya sukha māne 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हरि हॆ!",
+            "तॊमार यॆ शुद्धभक्त,    तॊमातॆ सॆ अनुरक्त,",
+            "भुक्तिमुक्ति तुच्छ करिऽ जानॆ",
+            "बारॆक दॆखितॆ तब,    चिदाकारश्रीबैभब,",
+            "त्ड़्ण बलिऽ अन्य सुख मानॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হরি হে!",
+            "তোমার যে শুদ্ধভক্ত,    তোমাতে সে অনুরক্ত,",
+            "ভুক্তিমুক্তি তুচ্ছ করিঽ জানে",
+            "বারেক দেখিতে তব,    চিদাকারশ্রীবৈভব,",
+            "ৎড়্ণ বলিঽ অন্য সুখ মানে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହରି ହେ!",
+            "ତୋମାର ଯେ ଶୁଦ୍ଧଭକ୍ତ,    ତୋମାତେ ସେ ଅନୁରକ୍ତ,",
+            "ଭୁକ୍ତିମୁକ୍ତି ତୁଚ୍ଛ କରିଽ ଜାନେ",
+            "ବାରେକ ଦେଖିତେ ତବ,    ଚିଦାକାରଶ୍ରୀବୈଭବ,",
+            "ତ୍ଡ଼୍ଣ ବଲିଽ ଅନ୍ୟ ସୁଖ ମାନେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હરિ હે!",
+            "તોમાર યે શુદ્ધભક્ત,    તોમાતે સે અનુરક્ત,",
+            "ભુક્તિમુક્તિ તુચ્છ કરિઽ જાને",
+            "બારેક દેખિતે તબ,    ચિદાકારશ્રીબૈભબ,",
+            "ત્ડ઼્ણ બલિઽ અન્ય સુખ માને ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hari he!",
+            "tomāra ye śuddhabhakta,    tomāte se anurakta,",
+            "bhukti-mukti tuccha kari’ jāne",
+            "bāreka dekhite taba,    cidākāra-śrībaibhaba,",
+            "tṛṇa bali’ anya sukha māne 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹರಿ ಹೆ!",
+            "ತೊಮಾರ ಯೆ ಶುದ್ಧಭಕ್ತ,    ತೊಮಾತೆ ಸೆ ಅನುರಕ್ತ,",
+            "ಭುಕ್ತಿಮುಕ್ತಿ ತುಚ್ಛ ಕರಿಽ ಜಾನೆ",
+            "ಬಾರೆಕ ದೆಖಿತೆ ತಬ,    ಚಿದಾಕಾರಶ್ರೀಬೈಭಬ,",
+            "ತ್‌ಡ಼್ಣ ಬಲಿಽ ಅನ್ಯ ಸುಖ ಮಾನೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హరి హె!",
+            "తొమార యె శుద్ధభక్త,    తొమాతె సె అనురక్త,",
+            "భుక్తిముక్తి తుచ్ఛ కరిఽ జానె",
+            "బారెక దెఖితె తబ,    చిదాకారశ్రీబైభబ,",
+            "త్డ్ణ బలిఽ అన్య సుఖ మానె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хари хэ̆!",
+            "то̆ма̄ра йэ̆ ш́уддхабхакта,    то̆ма̄тэ̆ сэ̆ ануракта,",
+            "бхуктимукти туччха кари' джа̄нэ̆",
+            "ба̄рэ̆ка дэ̆кхитэ̆ таба,    чида̄ка̄раш́рӣбаибхаба,",
+            "тр̤н̣а бали' анйа сукха ма̄нэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹരി ഹെ!",
+            "തൊമാര യെ ശുദ്ധഭക്ത,    തൊമാതെ സെ അനുരക്ത,",
+            "ഭുക്തിമുക്തി തുച്ഛ കരിഽ ജാനെ",
+            "ബാരെക ദെഖിതെ തബ,    ചിദാകാരശ്രീബൈഭബ,",
+            "ത്ഡ്ണ ബലിഽ അന്യ സുഖ മാനെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹரி ஹெ!",
+            "தொமார யெ ஶுத்³த⁴ப⁴க்த,    தொமாதெ ஸெ அனுரக்த,",
+            "பு⁴க்திமுக்தி துச்ச² கரி(அ) ஜானெ",
+            "பா³ரெக தெ³கி²தெ தப³,    சிதா³காரஶ்ரீபை³ப⁴ப³,",
+            "த்ஃட்²ண ப³லி(அ) அன்ய ஸுக² மானெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hari he!",
+            "tomāra ye śuddhabhakta,    tomāte se anurakta,",
+            "bhukti-mukti tuccha kari’ jāne",
+            "bāreka dekhite taba,    cidākāra-śrībaibhaba,",
+            "tṛṇa bali’ anya sukha māne 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hari he!",
+            "tomāra ye śuddhabhakta,    tomāte se anurakta,",
+            "bhukti-mukti tuccha kari’ jāne",
+            "bāreka dekhite taba,    cidākāra-śrībaibhaba,",
+            "tṛṇa bali’ anya sukha māne 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "se saba bhaktera saṅge,    līlā kara nānāraṅge,",
+        "biraha sahite nāhi pāra",
+        "kṛpā kari’ akiñcane,    dekhāo mahātmagaṇe,",
+        "sādhu binā gati nāhi āra 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सॆ सब भक्तॆर सङ्गॆ,    लीला कर नानारङ्गॆ,",
+            "बिरह सहितॆ नाहि पार",
+            "क्ड़्पा करिऽ अकिञ्चनॆ,    दॆखाऒ महात्मगणॆ,",
+            "साधु बिना गति नाहि आर २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সে সব ভক্তের সঙ্গে,    লীলা কর নানারঙ্গে,",
+            "বিরহ সহিতে নাহি পার",
+            "ক্ড়্পা করিঽ অকিঞ্চনে,    দেখাও মহাত্মগণে,",
+            "সাধু বিনা গতি নাহি আর ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସେ ସବ ଭକ୍ତେର ସଙ୍ଗେ,    ଲୀଲା କର ନାନାରଙ୍ଗେ,",
+            "ବିରହ ସହିତେ ନାହି ପାର",
+            "କ୍ଡ଼୍ପା କରିଽ ଅକିଞ୍ଚନେ,    ଦେଖାଓ ମହାତ୍ମଗଣେ,",
+            "ସାଧୁ ବିନା ଗତି ନାହି ଆର ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સે સબ ભક્તેર સઙ્ગે,    લીલા કર નાનારઙ્ગે,",
+            "બિરહ સહિતે નાહિ પાર",
+            "ક્ડ઼્પા કરિઽ અકિઞ્ચને,    દેખાઓ મહાત્મગણે,",
+            "સાધુ બિના ગતિ નાહિ આર ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "se saba bhaktera saṅge,    līlā kara nānāraṅge,",
+            "biraha sahite nāhi pāra",
+            "kṛpā kari’ akiñcane,    dekhāo mahātmagaṇe,",
+            "sādhu binā gati nāhi āra 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸೆ ಸಬ ಭಕ್ತೆರ ಸಂಗೆ,    ಲೀಲಾ ಕರ ನಾನಾರಂಗೆ,",
+            "ಬಿರಹ ಸಹಿತೆ ನಾಹಿ ಪಾರ",
+            "ಕ್‌ಡ಼್ಪಾ ಕರಿಽ ಅಕಿಂಚನೆ,    ದೆಖಾಒ ಮಹಾತ್ಮಗಣೆ,",
+            "ಸಾಧು ಬಿನಾ ಗತಿ ನಾಹಿ ಆರ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సె సబ భక్తెర సంగె,    లీలా కర నానారంగె,",
+            "బిరహ సహితె నాహి పార",
+            "క్డ్పా కరిఽ అకించనె,    దెఖాఒ మహాత్మగణె,",
+            "సాధు బినా గతి నాహి ఆర 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сэ̆ саба бхактэ̆ра сан̇гэ̆,    лӣла̄ кара на̄на̄ран̇гэ̆,",
+            "бираха сахитэ̆ на̄хи па̄ра",
+            "кр̤па̄ кари' акин̃чанэ̆,    дэ̆кха̄о̆ маха̄тмаган̣э̆,",
+            "са̄дху бина̄ гати на̄хи а̄ра 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സെ സബ ഭക്തെര സംഗെ,    ലീലാ കര നാനാരംഗെ,",
+            "ബിരഹ സഹിതെ നാഹി പാര",
+            "ക്ഡ്പാ കരിഽ അകിഞ്ചനെ,    ദെഖാഒ മഹാത്മഗണെ,",
+            "സാധു ബിനാ ഗതി നാഹി ആര 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸெ ஸப³ ப⁴க்தெர ஸங்கெ³,    லீலா கர நானாரங்கெ³,",
+            "பி³ரஹ ஸஹிதெ நாஹி பார",
+            "க்ஃட்²பா கரி(அ) அகிஞ்சனெ,    தெ³கா²ஒ மஹாத்மக³ணெ,",
+            "ஸாது⁴ பி³னா க³தி நாஹி ஆர 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "se saba bhaktera saṅge,    līlā kara nānāraṅge,",
+            "biraha sahite nāhi pāra",
+            "kṛpā kari’ akiñcane,    dekhāo mahātmagaṇe,",
+            "sādhu binā gati nāhi āra 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "se saba bhaktera saṅge,    līlā kara nānāraṅge,",
+            "biraha sahite nāhi pāra",
+            "kṛpā kari’ akiñcane,    dekhāo mahātmagaṇe,",
+            "sādhu binā gati nāhi āra 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "se[FLAG_HYPHEN_ALPHA]bhaktacaraṇa[FLAG_HYPHEN_ALPHA]dhana,    kabe pā’ba daraśana,",
+        "śodhiba āmāra duṣṭa mana",
+        "e bhaktibinoda bhaṇe,    kṛpā ha’be yatakṣaṇe,",
+        "mahātmāra ha’be daraśana 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सॆभक्तचरणधन,    कबॆ पाऽब दरशन,",
+            "शॊधिब आमार दुष्ट मन",
+            "ऎ भक्तिबिनॊद भणॆ,    क्ड़्पा हऽबॆ यतक्षणॆ,",
+            "महात्मार हऽबॆ दरशन ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সেভক্তচরণধন,    কবে পাঽব দরশন,",
+            "শোধিব আমার দুষ্ট মন",
+            "এ ভক্তিবিনোদ ভণে,    ক্ড়্পা হঽবে যতক্ষণে,",
+            "মহাত্মার হঽবে দরশন ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସେଭକ୍ତଚରଣଧନ,    କବେ ପାଽବ ଦରଶନ,",
+            "ଶୋଧିବ ଆମାର ଦୁଷ୍ଟ ମନ",
+            "ଏ ଭକ୍ତିବିନୋଦ ଭଣେ,    କ୍ଡ଼୍ପା ହଽବେ ଯତକ୍ଷଣେ,",
+            "ମହାତ୍ମାର ହଽବେ ଦରଶନ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સેભક્તચરણધન,    કબે પાઽબ દરશન,",
+            "શોધિબ આમાર દુષ્ટ મન",
+            "એ ભક્તિબિનોદ ભણે,    ક્ડ઼્પા હઽબે યતક્ષણે,",
+            "મહાત્માર હઽબે દરશન ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "se-bhaktacaraṇa-dhana,    kabe pā’ba daraśana,",
+            "śodhiba āmāra duṣṭa mana",
+            "e bhaktibinoda bhaṇe,    kṛpā ha’be yatakṣaṇe,",
+            "mahātmāra ha’be daraśana 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸೆಭಕ್ತಚರಣಧನ,    ಕಬೆ ಪಾಽಬ ದರಶನ,",
+            "ಶೊಧಿಬ ಆಮಾರ ದುಷ್ಟ ಮನ",
+            "ಎ ಭಕ್ತಿಬಿನೊದ ಭಣೆ,    ಕ್‌ಡ಼್ಪಾ ಹಽಬೆ ಯತಕ್ಷಣೆ,",
+            "ಮಹಾತ್ಮಾರ ಹಽಬೆ ದರಶನ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సెభక్తచరణధన,    కబె పాఽబ దరశన,",
+            "శొధిబ ఆమార దుష్ట మన",
+            "ఎ భక్తిబినొద భణె,    క్డ్పా హఽబె యతక్షణె,",
+            "మహాత్మార హఽబె దరశన 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сэ̆бхактачаран̣адхана,    кабэ̆ па̄'ба дараш́ана,",
+            "ш́о̆дхиба а̄ма̄ра душт̣а мана",
+            "э̆ бхактибино̆да бхан̣э̆,    кр̤па̄ ха'бэ̆ йатакшан̣э̆,",
+            "маха̄тма̄ра ха'бэ̆ дараш́ана 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സെഭക്തചരണധന,    കബെ പാഽബ ദരശന,",
+            "ശൊധിബ ആമാര ദുഷ്ട മന",
+            "എ ഭക്തിബിനൊദ ഭണെ,    ക്ഡ്പാ ഹഽബെ യതക്ഷണെ,",
+            "മഹാത്മാര ഹഽബെ ദരശന 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸெப⁴க்தசரணத⁴ன,    கபெ³ பா(அ)ப³ த³ரஶன,",
+            "ஶொதி⁴ப³ ஆமார து³ஷ்ட மன",
+            "எ ப⁴க்திபி³னொத³ ப⁴ணெ,    க்ஃட்²பா ஹ(அ)பெ³ யதக்ஷணெ,",
+            "மஹாத்மார ஹ(அ)பெ³ த³ரஶன 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "se-bhaktacaraṇa-dhana,    kabe pā’ba daraśana,",
+            "śodhiba āmāra duṣṭa mana",
+            "e bhaktibinoda bhaṇe,    kṛpā ha’be yatakṣaṇe,",
+            "mahātmāra ha’be daraśana 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "se-bhaktacaraṇa-dhana,    kabe pā’ba daraśana,",
+            "śodhiba āmāra duṣṭa mana",
+            "e bhaktibinoda bhaṇe,    kṛpā ha’be yatakṣaṇe,",
+            "mahātmāra ha’be daraśana 3"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "সকৃত্ত্বদাকার-বিলোকনাশয়া"
+    },
+    {
+      "language_code": "ben",
+      "text": "তৃণীকৃতানুত্তম-ভুক্তিমুক্তিভিঃ ।"
+    },
+    {
+      "language_code": "ben",
+      "text": "মহাত্মভির্মামবলোক্যতাং নয়"
+    },
+    {
+      "language_code": "ben",
+      "text": "ক্ষণোঽপি তে যদ্বিরহোঽতিদুঃসহঃ ॥২৩॥"
+    },
+    {
+      "language_code": "ben",
+      "text": ""
+    },
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- চিদাকার-শ্রীবৈভব—চিন্ময় মূর্ত্তির সৌন্দর্য্য-বৈভব ।"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

@@ -1,0 +1,738 @@
+{
+  "uid": "GN1",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীকৃষ্ণচৈতন্য, বলরাম নিত্যানন্দ"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "śrīkṛṣṇacaitanya, balarāma nityānanda"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रीकृष्णचैतन्य, बलराम नित्यानन्द"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీకృష్ణచైతన్య, బలరామ నిత్యానంద"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಕೃಷ್ಣಚೈತನ್ಯ, ಬಲರಾಮ ನಿತ್ಯಾನಂದ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீக்ருʼஷ்ணசைதன்ய, ப³லராம நித்யானந்த³"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീകൃഷ്ണചൈതന്യ, ബലരാമ നിത്യാനന്ദ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીકૃષ્ણચૈતન્ય, બલરામ નિત્યાનન્દ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀକୃଷ୍ଣଚୈତନ୍ୟ, ବଲରାମ ନିତ୍ୟାନନ୍ଦ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣкр̣шн̣ачаитанйа, балара̄ма нитйа̄нанда"
+    }
+  ],
+  "author_uid": "গোবিন্দ দাস",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "গোবিন্দ দাস"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Govinda dāsa"
+    },
+    {
+      "script_code": "Deva",
+      "text": "गोविन्द दास"
+    },
+    {
+      "script_code": "Telu",
+      "text": "గోవింద దాస"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಗೋವಿಂದ ದಾಸ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "கோ³விந்த³ தா³ஸ"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഗോവിന്ദ ദാസ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ગોવિન્દ દાસ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଗୋବିନ୍ଦ ଦାସ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "говинда да̄са"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "śrīkṛṣṇacaitanya,    balarāma nityānanda,",
+        "pāriṣada[FLAG_HYPHEN_ALPHA]saṅge abatāra",
+        "golokera premadhana,    sabāre yāciyā dila,",
+        "nā la·inu muĩ durācāra 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीक्ड़्ष्णचैतन्य,    बलराम नित्यानन्द,",
+            "पारिषदसङ्गॆ अबतार",
+            "गॊलॊकॆर प्रॆमधन,    सबारॆ याचिया दिल,",
+            "ना लइनु मुइं दुराचार १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীক্ড়্ষ্ণচৈতন্য,    বলরাম নিত্যানন্দ,",
+            "পারিষদসঙ্গে অবতার",
+            "গোলোকের প্রেমধন,    সবারে যাচিয়া দিল,",
+            "না লইনু মুইং দুরাচার ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣଚୈତନ୍ୟ,    ବଲରାମ ନିତ୍ୟାନନ୍ଦ,",
+            "ପାରିଷଦସଙ୍ଗେ ଅବତାର",
+            "ଗୋଲୋକେର ପ୍ରେମଧନ,    ସବାରେ ଯାଚିୟା ଦିଲ,",
+            "ନା ଲଇନୁ ମୁଇଂ ଦୁରାଚାର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીક્ડ઼્ષ્ણચૈતન્ય,    બલરામ નિત્યાનન્દ,",
+            "પારિષદસઙ્ગે અબતાર",
+            "ગોલોકેર પ્રેમધન,    સબારે યાચિયા દિલ,",
+            "ના લઇનુ મુઇં દુરાચાર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrīkṛṣṇacaitanya,    balarāma nityānanda,",
+            "pāriṣada-saṅge abatāra",
+            "golokera premadhana,    sabāre yāciyā dila,",
+            "nā la·inu muĩ durācāra 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಚೈತನ್ಯ,    ಬಲರಾಮ ನಿತ್ಯಾನಂದ,",
+            "ಪಾರಿಷದಸಂಗೆ ಅಬತಾರ",
+            "ಗೊಲೊಕೆರ ಪ್ರೆಮಧನ,    ಸಬಾರೆ ಯಾಚಿಯಾ ದಿಲ,",
+            "ನಾ ಲಇನು ಮುಇಂ ದುರಾಚಾರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీక్డ్ష్ణచైతన్య,    బలరామ నిత్యానంద,",
+            "పారిషదసంగె అబతార",
+            "గొలొకెర ప్రెమధన,    సబారె యాచియా దిల,",
+            "నా లఇను ముఇం దురాచార 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣкр̤шн̣ачаитанйа,    балара̄ма нитйа̄нанда,",
+            "па̄ришадасан̇гэ̆ абата̄ра",
+            "го̆ло̆кэ̆ра прэ̆мадхана,    саба̄рэ̆ йа̄чийа̄ дила,",
+            "на̄ лаину муим̣ дура̄ча̄ра 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീക്ഡ്ഷ്ണചൈതന്യ,    ബലരാമ നിത്യാനന്ദ,",
+            "പാരിഷദസംഗെ അബതാര",
+            "ഗൊലൊകെര പ്രെമധന,    സബാരെ യാചിയാ ദില,",
+            "നാ ലഇനു മുഇം ദുരാചാര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீக்ஃட்²ஷ்ணசைதன்ய,    ப³லராம நித்யானந்த³,",
+            "பாரிஷத³ஸங்கெ³ அப³தார",
+            "கொ³லொகெர ப்ரெமத⁴ன,    ஸபா³ரெ யாசியா தி³ல,",
+            "நா லஇனு முஇம்ʼ து³ராசார 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrīkṛṣṇacaitanya,    balarāma nityānanda,",
+            "pāriṣada-saṅge abatāra",
+            "golokera premadhana,    sabāre yāciyā dila,",
+            "nā la·inu muĩ durācāra 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrīkṛṣṇacaitanya,    balarāma nityānanda,",
+            "pāriṣada-saṅge abatāra",
+            "golokera premadhana,    sabāre yāciyā dila,",
+            "nā la·inu muĩ durācāra 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "āre pāmara mana, marame rahala baḓa śela",
+        "saṅkīrtana[FLAG_HYPHEN_ALPHA]prema[FLAG_HYPHEN_ALPHA]bādale,    saba hiyā ḍubala,",
+        "mohe bidhi bañcita kaila 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "आरॆ पामर मन, मरमॆ रहल बḓअ शॆल",
+            "सङ्कीर्तनप्रॆमबादलॆ,    सब हिया डुबल,",
+            "मॊहॆ बिधि बञ्चित कैल २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "আরে পামর মন, মরমে রহল বḓঅ শেল",
+            "সঙ্কীর্তনপ্রেমবাদলে,    সব হিয়া ডুবল,",
+            "মোহে বিধি বঞ্চিত কৈল ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଆରେ ପାମର ମନ, ମରମେ ରହଲ ବḓଅ ଶେଲ",
+            "ସଙ୍କୀର୍ତନପ୍ରେମବାଦଲେ,    ସବ ହିୟା ଡୁବଲ,",
+            "ମୋହେ ବିଧି ବଞ୍ଚିତ କୈଲ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "આરે પામર મન, મરમે રહલ બḓઅ શેલ",
+            "સઙ્કીર્તનપ્રેમબાદલે,    સબ હિયા ડુબલ,",
+            "મોહે બિધિ બઞ્ચિત કૈલ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "āre pāmara mana, marame rahala baḓa śela",
+            "saṅkīrtana-prema-bādale,    saba hiyā ḍubala,",
+            "mohe bidhi bañcita kaila 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಆರೆ ಪಾಮರ ಮನ, ಮರಮೆ ರಹಲ ಬḓಅ ಶೆಲ",
+            "ಸಂಕೀರ್ತನಪ್ರೆಮಬಾದಲೆ,    ಸಬ ಹಿಯಾ ಡುಬಲ,",
+            "ಮೊಹೆ ಬಿಧಿ ಬಂಚಿತ ಕೈಲ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఆరె పామర మన, మరమె రహల బḓఅ శెల",
+            "సంకీర్తనప్రెమబాదలె,    సబ హియా డుబల,",
+            "మొహె బిధి బంచిత కైల 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "а̄рэ̆ па̄мара мана, марамэ̆ рахала баḓа ш́э̆ла",
+            "сан̇кӣртанапрэ̆маба̄далэ̆,    саба хийа̄ д̣убала,",
+            "мо̆хэ̆ бидхи бан̃чита каила 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ആരെ പാമര മന, മരമെ രഹല ബḓഅ ശെല",
+            "സങ്കീർതനപ്രെമബാദലെ,    സബ ഹിയാ ഡുബല,",
+            "മൊഹെ ബിധി ബഞ്ചിത കൈല 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஆரெ பாமர மன, மரமெ ரஹல ப³ḓஅ ஶெல",
+            "ஸங்கீர்தனப்ரெமபா³த³லெ,    ஸப³ ஹியா டு³ப³ல,",
+            "மொஹெ பி³தி⁴ ப³ஞ்சித கைல 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "āre pāmara mana, marame rahala baḍa śela",
+            "saṅkīrtana-prema-bādale,    saba hiyā ḍubala,",
+            "mohe bidhi bañcita kaila 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "āre pāmara mana, marame rahala baḓa śela",
+            "saṅkīrtana-prema-bādale,    saba hiyā ḍubala,",
+            "mohe bidhi bañcita kaila 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "śrīguru[FLAG_HYPHEN_ALPHA]baiṣṇabapada,    kalpataru[FLAG_HYPHEN_ALPHA]chāyā pāyā,",
+        "saba jība tāpa pāsarila",
+        "muĩ abhāgiyā biṣa[FLAG_HYPHEN_ALPHA],    biṣaye mātiyā ra·inu,",
+        "hena yuge nistāra nā haila 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीगुरुबैष्णबपद,    कल्पतरुछाया पाया,",
+            "सब जीब ताप पासरिल",
+            "मुइं अभागिया बिष,    बिषयॆ मातिया रइनु,",
+            "हॆन युगॆ निस्तार ना हैल ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীগুরুবৈষ্ণবপদ,    কল্পতরুছায়া পায়া,",
+            "সব জীব তাপ পাসরিল",
+            "মুইং অভাগিয়া বিষ,    বিষয়ে মাতিয়া রইনু,",
+            "হেন যুগে নিস্তার না হৈল ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀଗୁରୁବୈଷ୍ଣବପଦ,    କଲ୍ପତରୁଛାୟା ପାୟା,",
+            "ସବ ଜୀବ ତାପ ପାସରିଲ",
+            "ମୁଇଂ ଅଭାଗିୟା ବିଷ,    ବିଷୟେ ମାତିୟା ରଇନୁ,",
+            "ହେନ ଯୁଗେ ନିସ୍ତାର ନା ହୈଲ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીગુરુબૈષ્ણબપદ,    કલ્પતરુછાયા પાયા,",
+            "સબ જીબ તાપ પાસરિલ",
+            "મુઇં અભાગિયા બિષ,    બિષયે માતિયા રઇનુ,",
+            "હેન યુગે નિસ્તાર ના હૈલ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrīguru-baiṣṇabapada,    kalpataru-chāyā pāyā,",
+            "saba jība tāpa pāsarila",
+            "muĩ abhāgiyā biṣa-,    biṣaye mātiyā ra·inu,",
+            "hena yuge nistāra nā haila 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಗುರುಬೈಷ್ಣಬಪದ,    ಕಲ್ಪತರುಛಾಯಾ ಪಾಯಾ,",
+            "ಸಬ ಜೀಬ ತಾಪ ಪಾಸರಿಲ",
+            "ಮುಇಂ ಅಭಾಗಿಯಾ ಬಿಷ,    ಬಿಷಯೆ ಮಾತಿಯಾ ರಇನು,",
+            "ಹೆನ ಯುಗೆ ನಿಸ್ತಾರ ನಾ ಹೈಲ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీగురుబైష్ణబపద,    కల్పతరుఛాయా పాయా,",
+            "సబ జీబ తాప పాసరిల",
+            "ముఇం అభాగియా బిష,    బిషయె మాతియా రఇను,",
+            "హెన యుగె నిస్తార నా హైల 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣгурубаишн̣абапада,    калпатаручха̄йа̄ па̄йа̄,",
+            "саба джӣба та̄па па̄сарила",
+            "муим̣ абха̄гийа̄ биша,    бишайэ̆ ма̄тийа̄ раину,",
+            "хэ̆на йугэ̆ ниста̄ра на̄ хаила 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീഗുരുബൈഷ്ണബപദ,    കല്പതരുഛായാ പായാ,",
+            "സബ ജീബ താപ പാസരില",
+            "മുഇം അഭാഗിയാ ബിഷ,    ബിഷയെ മാതിയാ രഇനു,",
+            "ഹെന യുഗെ നിസ്താര നാ ഹൈല 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீகு³ருபை³ஷ்ணப³பத³,    கல்பதருசா²யா பாயா,",
+            "ஸப³ ஜீப³ தாப பாஸரில",
+            "முஇம்ʼ அபா⁴கி³யா பி³ஷ,    பி³ஷயெ மாதியா ரஇனு,",
+            "ஹென யுகெ³ நிஸ்தார நா ஹைல 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrīguru-baiṣṇabapada,    kalpataru-chāyā pāyā,",
+            "saba jība tāpa pāsarila",
+            "muĩ abhāgiyā biṣa-,    biṣaye mātiyā ra·inu,",
+            "hena yuge nistāra nā haila 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrīguru-baiṣṇabapada,    kalpataru-chāyā pāyā,",
+            "saba jība tāpa pāsarila",
+            "muĩ abhāgiyā biṣa-,    biṣaye mātiyā ra·inu,",
+            "hena yuge nistāra nā haila 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "āgune puḓiyā maro,    jale parabeśa karo,",
+        "biṣa khāyā maro mo pāpiyā",
+        "ei mata kari’ yadi,    maraṇa nā kare bidhi,",
+        "prāṇa rahe ki sukha lāgiyā 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "आगुनॆ पुḓइया मरॊ,    जलॆ परबॆश करॊ,",
+            "बिष खाया मरॊ मॊ पापिया",
+            "ऎइ मत करिऽ यदि,    मरण ना करॆ बिधि,",
+            "प्राण रहॆ कि सुख लागिया ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "আগুনে পুḓইয়া মরো,    জলে পরবেশ করো,",
+            "বিষ খায়া মরো মো পাপিয়া",
+            "এই মত করিঽ যদি,    মরণ না করে বিধি,",
+            "প্রাণ রহে কি সুখ লাগিয়া ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଆଗୁନେ ପୁḓଇୟା ମରୋ,    ଜଲେ ପରବେଶ କରୋ,",
+            "ବିଷ ଖାୟା ମରୋ ମୋ ପାପିୟା",
+            "ଏଇ ମତ କରିଽ ଯଦି,    ମରଣ ନା କରେ ବିଧି,",
+            "ପ୍ରାଣ ରହେ କି ସୁଖ ଲାଗିୟା ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "આગુને પુḓઇયા મરો,    જલે પરબેશ કરો,",
+            "બિષ ખાયા મરો મો પાપિયા",
+            "એઇ મત કરિઽ યદિ,    મરણ ના કરે બિધિ,",
+            "પ્રાણ રહે કિ સુખ લાગિયા ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "āgune puḓiyā maro,    jale parabeśa karo,",
+            "biṣa khāyā maro mo pāpiyā",
+            "ei mata kari’ yadi,    maraṇa nā kare bidhi,",
+            "prāṇa rahe ki sukha lāgiyā 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಆಗುನೆ ಪುḓಇಯಾ ಮರೊ,    ಜಲೆ ಪರಬೆಶ ಕರೊ,",
+            "ಬಿಷ ಖಾಯಾ ಮರೊ ಮೊ ಪಾಪಿಯಾ",
+            "ಎಇ ಮತ ಕರಿಽ ಯದಿ,    ಮರಣ ನಾ ಕರೆ ಬಿಧಿ,",
+            "ಪ್ರಾಣ ರಹೆ ಕಿ ಸುಖ ಲಾಗಿಯಾ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఆగునె పుḓఇయా మరొ,    జలె పరబెశ కరొ,",
+            "బిష ఖాయా మరొ మొ పాపియా",
+            "ఎఇ మత కరిఽ యది,    మరణ నా కరె బిధి,",
+            "ప్రాణ రహె కి సుఖ లాగియా 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "а̄гунэ̆ пуḓийа̄ маро̆,    джалэ̆ парабэ̆ш́а каро̆,",
+            "биша кха̄йа̄ маро̆ мо̆ па̄пийа̄",
+            "э̆и мата кари' йади,    маран̣а на̄ карэ̆ бидхи,",
+            "пра̄н̣а рахэ̆ ки сукха ла̄гийа̄ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ആഗുനെ പുḓഇയാ മരൊ,    ജലെ പരബെശ കരൊ,",
+            "ബിഷ ഖായാ മരൊ മൊ പാപിയാ",
+            "എഇ മത കരിഽ യദി,    മരണ നാ കരെ ബിധി,",
+            "പ്രാണ രഹെ കി സുഖ ലാഗിയാ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஆகு³னெ புḓஇயா மரொ,    ஜலெ பரபெ³ஶ கரொ,",
+            "பி³ஷ கா²யா மரொ மொ பாபியா",
+            "எஇ மத கரி(அ) யதி³,    மரண நா கரெ பி³தி⁴,",
+            "ப்ராண ரஹெ கி ஸுக² லாகி³யா 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "āgune puḍiyā maro,    jale parabeśa karo,",
+            "biṣa khāyā maro mo pāpiyā",
+            "ei mata kari’ yadi,    maraṇa nā kare bidhi,",
+            "prāṇa rahe ki sukha lāgiyā 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "āgune puḓiyā maro,    jale parabeśa karo,",
+            "biṣa khāyā maro mo pāpiyā",
+            "ei mata kari’ yadi,    maraṇa nā kare bidhi,",
+            "prāṇa rahe ki sukha lāgiyā 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "e hena gaurāṅga[FLAG_HYPHEN_ALPHA]guṇa,    nā karinu śrabaṇa,",
+        "hāya hāya, kari hā hutāśa",
+        "‘hare kṛṣṇa’[FLAG_HYPHEN_ALPHA]mahāmantra,    mukha bhari’ nā la·ilāma,",
+        "jībanmṛta gobindadāsa 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎ हॆन गौराङ्गगुण,    ना करिनु श्रबण,",
+            "हाय हाय, करि हा हुताश",
+            "‘हरॆ क्ड़्ष्णऽमहामन्त्र,    मुख भरिऽ ना लइलाम,",
+            "जीबन्म्ड़्त गॊबिन्ददास ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এ হেন গৌরাঙ্গগুণ,    না করিনু শ্রবণ,",
+            "হায় হায়, করি হা হুতাশ",
+            "‘হরে ক্ড়্ষ্ণঽমহামন্ত্র,    মুখ ভরিঽ না লইলাম,",
+            "জীবন্ম্ড়্ত গোবিন্দদাস ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏ ହେନ ଗୌରାଙ୍ଗଗୁଣ,    ନା କରିନୁ ଶ୍ରବଣ,",
+            "ହାୟ ହାୟ, କରି ହା ହୁତାଶ",
+            "‘ହରେ କ୍ଡ଼୍ଷ୍ଣଽମହାମନ୍ତ୍ର,    ମୁଖ ଭରିଽ ନା ଲଇଲାମ,",
+            "ଜୀବନ୍ମ୍ଡ଼୍ତ ଗୋବିନ୍ଦଦାସ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એ હેન ગૌરાઙ્ગગુણ,    ના કરિનુ શ્રબણ,",
+            "હાય હાય, કરિ હા હુતાશ",
+            "‘હરે ક્ડ઼્ષ્ણઽમહામન્ત્ર,    મુખ ભરિઽ ના લઇલામ,",
+            "જીબન્મ્ડ઼્ત ગોબિન્દદાસ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "e hena gaurāṅga-guṇa,    nā karinu śrabaṇa,",
+            "hāya hāya, kari hā hutāśa",
+            "‘hare kṛṣṇa’-mahāmantra,    mukha bhari’ nā la·ilāma,",
+            "jībanmṛta gobindadāsa 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎ ಹೆನ ಗೌರಾಂಗಗುಣ,    ನಾ ಕರಿನು ಶ್ರಬಣ,",
+            "ಹಾಯ ಹಾಯ, ಕರಿ ಹಾ ಹುತಾಶ",
+            "‘ಹರೆ ಕ್‌ಡ಼್ಷ್ಣಽಮಹಾಮಂತ್ರ,    ಮುಖ ಭರಿಽ ನಾ ಲಇಲಾಮ,",
+            "ಜೀಬನ್ಮ್‌ಡ಼್ತ ಗೊಬಿಂದದಾಸ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎ హెన గౌరాంగగుణ,    నా కరిను శ్రబణ,",
+            "హాయ హాయ, కరి హా హుతాశ",
+            "‘హరె క్డ్ష్ణఽమహామంత్ర,    ముఖ భరిఽ నా లఇలామ,",
+            "జీబన్మ్డ్త గొబిందదాస 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆ хэ̆на гаура̄н̇гагун̣а,    на̄ карину ш́рабан̣а,",
+            "ха̄йа ха̄йа, кари ха̄ хута̄ш́а",
+            "‘харэ̆ кр̤шн̣а'маха̄мантра,    мукха бхари' на̄ лаила̄ма,",
+            "джӣбанмр̤та го̆биндада̄са 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എ ഹെന ഗൗരാംഗഗുണ,    നാ കരിനു ശ്രബണ,",
+            "ഹായ ഹായ, കരി ഹാ ഹുതാശ",
+            "‘ഹരെ ക്ഡ്ഷ്ണഽമഹാമന്ത്ര,    മുഖ ഭരിഽ നാ ലഇലാമ,",
+            "ജീബന്മ്ഡ്ത ഗൊബിന്ദദാസ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எ ஹென கௌ³ராங்க³கு³ண,    நா கரினு ஶ்ரப³ண,",
+            "ஹாய ஹாய, கரி ஹா ஹுதாஶ",
+            "‘ஹரெ க்ஃட்²ஷ்ண(அ)மஹாமந்த்ர,    முக² ப⁴ரி(அ) நா லஇலாம,",
+            "ஜீப³ன்ம்ஃட்²த கொ³பி³ந்த³தா³ஸ 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "e hena gaurāṅga-guṇa,    nā karinu śrabaṇa,",
+            "hāya hāya, kari hā hutāśa",
+            "‘hare kṛṣṇa’-mahāmantra,    mukha bhari’ nā la·ilāma,",
+            "jībanmṛta gobindadāsa 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "e hena gaurāṅga-guṇa,    nā karinu śrabaṇa,",
+            "hāya hāya, kari hā hutāśa",
+            "‘hare kṛṣṇa’-mahāmantra,    mukha bhari’ nā la·ilāma,",
+            "jībanmṛta gobindadāsa 5"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": []
+}

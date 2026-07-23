@@ -1,0 +1,455 @@
+{
+ "uid": "Y21",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হে! স্ত্রী-পুরুষ-দেহগত"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari he! strī-puruṣa-dehagata"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari he!",
+    "strī[FLAG_HYPHEN_ALPHA]puruṣa[FLAG_HYPHEN_ALPHA]dehagata,    barṇa[FLAG_HYPHEN_ALPHA]ādi dharma yata,",
+    "tāhe punaḥ dehagata bheda",
+    "sattbarajastamoguṇa,    āśrayete bheda punaḥ,",
+    "eirūpa sahasra prabheda 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हॆ!",
+      "स्त्रीपुरुषदॆहगत,    बर्णआदि धर्म यत,",
+      "ताहॆ पुनः दॆहगत भॆद",
+      "सत्त्बरजस्तमॊगुण,    आश्रयॆतॆ भॆद पुनः,",
+      "ऎइरूप सहस्र प्रभॆद १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হে!",
+      "স্ত্রীপুরুষদেহগত,    বর্ণআদি ধর্ম যত,",
+      "তাহে পুনঃ দেহগত ভেদ",
+      "সত্ত্বরজস্তমোগুণ,    আশ্রয়েতে ভেদ পুনঃ,",
+      "এইরূপ সহস্র প্রভেদ ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହେ!",
+      "ସ୍ତ୍ରୀପୁରୁଷଦେହଗତ,    ବର୍ଣଆଦି ଧର୍ମ ଯତ,",
+      "ତାହେ ପୁନଃ ଦେହଗତ ଭେଦ",
+      "ସତ୍ତ୍ବରଜସ୍ତମୋଗୁଣ,    ଆଶ୍ରୟେତେ ଭେଦ ପୁନଃ,",
+      "ଏଇରୂପ ସହସ୍ର ପ୍ରଭେଦ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હે!",
+      "સ્ત્રીપુરુષદેહગત,    બર્ણઆદિ ધર્મ યત,",
+      "તાહે પુનઃ દેહગત ભેદ",
+      "સત્ત્બરજસ્તમોગુણ,    આશ્રયેતે ભેદ પુનઃ,",
+      "એઇરૂપ સહસ્ર પ્રભેદ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari he!",
+      "strī-puruṣa-dehagata,    barṇa-ādi dharma yata,",
+      "tāhe punaḥ dehagata bheda",
+      "sattbarajastamoguṇa,    āśrayete bheda punaḥ,",
+      "eirūpa sahasra prabheda 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹೆ!",
+      "ಸ್ತ್ರೀಪುರುಷದೆಹಗತ,    ಬರ್ಣಆದಿ ಧರ್ಮ ಯತ,",
+      "ತಾಹೆ ಪುನಃ ದೆಹಗತ ಭೆದ",
+      "ಸತ್ತ್ಬರಜಸ್ತಮೊಗುಣ,    ಆಶ್ರಯೆತೆ ಭೆದ ಪುನಃ,",
+      "ಎಇರೂಪ ಸಹಸ್ರ ಪ್ರಭೆದ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హె!",
+      "స్త్రీపురుషదెహగత,    బర్ణఆది ధర్మ యత,",
+      "తాహె పునః దెహగత భెద",
+      "సత్త్బరజస్తమొగుణ,    ఆశ్రయెతె భెద పునః,",
+      "ఎఇరూప సహస్ర ప్రభెద 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хэ̆!",
+      "стрӣпурушадэ̆хагата,    барн̣аа̄ди дхарма йата,",
+      "та̄хэ̆ пунах̣ дэ̆хагата бхэ̆да",
+      "саттбараджастамо̆гун̣а,    а̄ш́райэ̆тэ̆ бхэ̆да пунах̣,",
+      "э̆ирӯпа сахасра прабхэ̆да 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹെ!",
+      "സ്ത്രീപുരുഷദെഹഗത,    ബർണആദി ധർമ യത,",
+      "താഹെ പുനഃ ദെഹഗത ഭെദ",
+      "സത്ത്ബരജസ്തമൊഗുണ,    ആശ്രയെതെ ഭെദ പുനഃ,",
+      "എഇരൂപ സഹസ്ര പ്രഭെദ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹெ!",
+      "ஸ்த்ரீபுருஷதெ³ஹக³த,    ப³ர்ணஆதி³ த⁴ர்ம யத,",
+      "தாஹெ புன꞉ தெ³ஹக³த பெ⁴த³",
+      "ஸத்த்ப³ரஜஸ்தமொகு³ண,    ஆஶ்ரயெதெ பெ⁴த³ புன꞉,",
+      "எஇரூப ஸஹஸ்ர ப்ரபெ⁴த³ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari he!",
+      "strī-puruṣa-dehagata,    barṇa-ādi dharma yata,",
+      "tāhe punaḥ dehagata bheda",
+      "sattbarajastamoguṇa,    āśrayete bheda punaḥ,",
+      "eirūpa sahasra prabheda 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari he!",
+      "strī-puruṣa-dehagata,    barṇa-ādi dharma yata,",
+      "tāhe punaḥ dehagata bheda",
+      "sattbarajastamoguṇa,    āśrayete bheda punaḥ,",
+      "eirūpa sahasra prabheda 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "ye[FLAG_HYPHEN_ALPHA]kona śarīre thāki,    ye[FLAG_HYPHEN_ALPHA]kona abasthā rākhi,",
+    "se[FLAG_HYPHEN_ALPHA]saba ekhana taba pā[FLAG_HYPHEN_ALPHA]ya",
+    "sãpilāma, prāṇeśbara!    mama bali’ ataḥpara,",
+    "āra kichu nā rahila dāya 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "यॆकॊन शरीरॆ थाकि,    यॆकॊन अबस्था राखि,",
+      "सॆसब ऎखन तब पाय",
+      "संपिलाम, प्राणॆश्बर!    मम बलिऽ अतःपर,",
+      "आर किछु ना रहिल दाय २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "যেকোন শরীরে থাকি,    যেকোন অবস্থা রাখি,",
+      "সেসব এখন তব পায়",
+      "সম্পিলাম, প্রাণেশ্বর!    মম বলিঽ অতঃপর,",
+      "আর কিছু না রহিল দায় ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଯେକୋନ ଶରୀରେ ଥାକି,    ଯେକୋନ ଅବସ୍ଥା ରାଖି,",
+      "ସେସବ ଏଖନ ତବ ପାୟ",
+      "ସମ୍ପିଲାମ, ପ୍ରାଣେଶ୍ବର!    ମମ ବଲିଽ ଅତଃପର,",
+      "ଆର କିଛୁ ନା ରହିଲ ଦାୟ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "યેકોન શરીરે થાકિ,    યેકોન અબસ્થા રાખિ,",
+      "સેસબ એખન તબ પાય",
+      "સંપિલામ, પ્રાણેશ્બર!    મમ બલિઽ અતઃપર,",
+      "આર કિછુ ના રહિલ દાય ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ye-kona śarīre thāki,    ye-kona abasthā rākhi,",
+      "se-saba ekhana taba pā-ya",
+      "sãpilāma, prāṇeśbara!    mama bali’ ataḥpara,",
+      "āra kichu nā rahila dāya 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಯೆಕೊನ ಶರೀರೆ ಥಾಕಿ,    ಯೆಕೊನ ಅಬಸ್ಥಾ ರಾಖಿ,",
+      "ಸೆಸಬ ಎಖನ ತಬ ಪಾಯ",
+      "ಸಂಪಿಲಾಮ, ಪ್ರಾಣೆಶ್ಬರ!    ಮಮ ಬಲಿಽ ಅತಃಪರ,",
+      "ಆರ ಕಿಛು ನಾ ರಹಿಲ ದಾಯ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "యెకొన శరీరె థాకి,    యెకొన అబస్థా రాఖి,",
+      "సెసబ ఎఖన తబ పాయ",
+      "సంపిలామ, ప్రాణెశ్బర!    మమ బలిఽ అతఃపర,",
+      "ఆర కిఛు నా రహిల దాయ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "йэ̆ко̆на ш́арӣрэ̆ тха̄ки,    йэ̆ко̆на абастха̄ ра̄кхи,",
+      "сэ̆саба э̆кхана таба па̄йа",
+      "сам̣пила̄ма, пра̄н̣э̆ш́бара!    мама бали' атах̣пара,",
+      "а̄ра кичху на̄ рахила да̄йа 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "യെകൊന ശരീരെ ഥാകി,    യെകൊന അബസ്ഥാ രാഖി,",
+      "സെസബ എഖന തബ പായ",
+      "സമ്പിലാമ, പ്രാണെശ്ബര!    മമ ബലിഽ അതഃപര,",
+      "ആര കിഛു നാ രഹില ദായ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "யெகொன ஶரீரெ தா²கி,    யெகொன அப³ஸ்தா² ராகி²,",
+      "ஸெஸப³ எக²ன தப³ பாய",
+      "ஸம்பிலாம, ப்ராணெஶ்ப³ர!    மம ப³லி(அ) அத꞉பர,",
+      "ஆர கிசு² நா ரஹில தா³ய 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ye-kona śarīre thāki,    ye-kona abasthā rākhi,",
+      "se-saba ekhana taba pā-ya",
+      "sãpilāma, prāṇeśbara!    mama bali’ ataḥpara,",
+      "āra kichu nā rahila dāya 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ye-kona śarīre thāki,    ye-kona abasthā rākhi,",
+      "se-saba ekhana taba pā-ya",
+      "sãpilāma, prāṇeśbara!    mama bali’ ataḥpara,",
+      "āra kichu nā rahila dāya 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "tumi, prabhu! rākha māra,    saba taba adhikāra,",
+    "āchi āmi tomāra kiṅkara",
+    "e bhaktibinoda bale,    taba dāsya kautūhale,",
+    "thāki yena sadā sebāpara 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तुमि, प्रभु! राख मार,    सब तब अधिकार,",
+      "आछि आमि तॊमार किङ्कर",
+      "ऎ भक्तिबिनॊद बलॆ,    तब दास्य कौतूहलॆ,",
+      "थाकि यॆन सदा सॆबापर ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তুমি, প্রভু! রাখ মার,    সব তব অধিকার,",
+      "আছি আমি তোমার কিঙ্কর",
+      "এ ভক্তিবিনোদ বলে,    তব দাস্য কৌতূহলে,",
+      "থাকি যেন সদা সেবাপর ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୁମି, ପ୍ରଭୁ! ରାଖ ମାର,    ସବ ତବ ଅଧିକାର,",
+      "ଆଛି ଆମି ତୋମାର କିଙ୍କର",
+      "ଏ ଭକ୍ତିବିନୋଦ ବଲେ,    ତବ ଦାସ୍ୟ କୌତୂହଲେ,",
+      "ଥାକି ଯେନ ସଦା ସେବାପର ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તુમિ, પ્રભુ! રાખ માર,    સબ તબ અધિકાર,",
+      "આછિ આમિ તોમાર કિઙ્કર",
+      "એ ભક્તિબિનોદ બલે,    તબ દાસ્ય કૌતૂહલે,",
+      "થાકિ યેન સદા સેબાપર ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tumi, prabhu! rākha māra,    saba taba adhikāra,",
+      "āchi āmi tomāra kiṅkara",
+      "e bhaktibinoda bale,    taba dāsya kautūhale,",
+      "thāki yena sadā sebāpara 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತುಮಿ, ಪ್ರಭು! ರಾಖ ಮಾರ,    ಸಬ ತಬ ಅಧಿಕಾರ,",
+      "ಆಛಿ ಆಮಿ ತೊಮಾರ ಕಿಂಕರ",
+      "ಎ ಭಕ್ತಿಬಿನೊದ ಬಲೆ,    ತಬ ದಾಸ್ಯ ಕೌತೂಹಲೆ,",
+      "ಥಾಕಿ ಯೆನ ಸದಾ ಸೆಬಾಪರ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తుమి, ప్రభు! రాఖ మార,    సబ తబ అధికార,",
+      "ఆఛి ఆమి తొమార కింకర",
+      "ఎ భక్తిబినొద బలె,    తబ దాస్య కౌతూహలె,",
+      "థాకి యెన సదా సెబాపర 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "туми, прабху! ра̄кха ма̄ра,    саба таба адхика̄ра,",
+      "а̄чхи а̄ми то̆ма̄ра кин̇кара",
+      "э̆ бхактибино̆да балэ̆,    таба да̄сйа каутӯхалэ̆,",
+      "тха̄ки йэ̆на сада̄ сэ̆ба̄пара 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തുമി, പ്രഭു! രാഖ മാര,    സബ തബ അധികാര,",
+      "ആഛി ആമി തൊമാര കിങ്കര",
+      "എ ഭക്തിബിനൊദ ബലെ,    തബ ദാസ്യ കൗതൂഹലെ,",
+      "ഥാകി യെന സദാ സെബാപര 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "துமி, ப்ரபு⁴! ராக² மார,    ஸப³ தப³ அதி⁴கார,",
+      "ஆசி² ஆமி தொமார கிங்கர",
+      "எ ப⁴க்திபி³னொத³ ப³லெ,    தப³ தா³ஸ்ய கௌதூஹலெ,",
+      "தா²கி யென ஸதா³ ஸெபா³பர 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tumi, prabhu! rākha māra,    saba taba adhikāra,",
+      "āchi āmi tomāra kiṅkara",
+      "e bhaktibinoda bale,    taba dāsya kautūhale,",
+      "thāki yena sadā sebāpara 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tumi, prabhu! rākha māra,    saba taba adhikāra,",
+      "āchi āmi tomāra kiṅkara",
+      "e bhaktibinoda bale,    taba dāsya kautūhale,",
+      "thāki yena sadā sebāpara 3"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "বপুরাদিষু যোঽপি কোঽপি বা "
+  },
+  {
+   "language_code": "ben",
+   "text": "গুণতোঽসানি যথাতথাবিধঃ ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "তদয়ং তব পাদপদ্ময়ো-"
+  },
+  {
+   "language_code": "ben",
+   "text": "রহমদ্যৈব ময়া সমর্পিতঃ ।।২১।।"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

@@ -1,0 +1,3016 @@
+{
+ "spec_version": 2,
+ "generated": "2026-07-22",
+ "window_start": "2020-01-01",
+ "window_end": "2036-01-01",
+ "basis_legend": {
+  "observed": "month-concentrated across dated livestreams",
+  "panjika": "the pañjikā dates a matching observance in this month",
+  "book": "stated in the Gīti-guccha (heading or rubric)",
+  "thematic": "subject fits; no direct dated evidence"
+ },
+ "sources": {
+  "panjika": "Śrī Caitanya-pañjikā for Vṛndāvana (3866 events, 2011–2027)",
+  "streams": "@madhudas livestreams (2172 dated, 2020-11-05 → 2026-07-22)",
+  "book": "Śrī Gauḍīya Gīti-guccha, 7th ed. 2016",
+  "corpus": "manifest.json (703 songs)"
+ },
+ "windows": [
+  {
+   "start": "2019-12-12",
+   "new_moon": "2019-12-26",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2020-01-10"
+  },
+  {
+   "start": "2020-01-10",
+   "new_moon": "2020-01-24",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2020-02-09"
+  },
+  {
+   "start": "2020-02-09",
+   "new_moon": "2020-02-23",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2020-03-09"
+  },
+  {
+   "start": "2020-03-09",
+   "new_moon": "2020-03-24",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2020-04-08"
+  },
+  {
+   "start": "2020-04-08",
+   "new_moon": "2020-04-23",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2020-05-07"
+  },
+  {
+   "start": "2020-05-07",
+   "new_moon": "2020-05-22",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2020-06-05"
+  },
+  {
+   "start": "2020-06-05",
+   "new_moon": "2020-06-21",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2020-07-05"
+  },
+  {
+   "start": "2020-07-05",
+   "new_moon": "2020-07-20",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2020-08-03"
+  },
+  {
+   "start": "2020-08-03",
+   "new_moon": "2020-08-19",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2020-09-02"
+  },
+  {
+   "start": "2020-09-02",
+   "new_moon": "2020-09-17",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Puruṣottama (adhika)",
+   "adhika": true,
+   "end": "2020-10-01"
+  },
+  {
+   "start": "2020-10-01",
+   "new_moon": "2020-10-16",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2020-10-31"
+  },
+  {
+   "start": "2020-10-31",
+   "new_moon": "2020-11-15",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2020-11-30"
+  },
+  {
+   "start": "2020-11-30",
+   "new_moon": "2020-12-14",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2020-12-30"
+  },
+  {
+   "start": "2020-12-30",
+   "new_moon": "2021-01-13",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2021-01-28"
+  },
+  {
+   "start": "2021-01-28",
+   "new_moon": "2021-02-11",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2021-02-27"
+  },
+  {
+   "start": "2021-02-27",
+   "new_moon": "2021-03-13",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2021-03-28"
+  },
+  {
+   "start": "2021-03-28",
+   "new_moon": "2021-04-12",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2021-04-27"
+  },
+  {
+   "start": "2021-04-27",
+   "new_moon": "2021-05-11",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2021-05-26"
+  },
+  {
+   "start": "2021-05-26",
+   "new_moon": "2021-06-10",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2021-06-24"
+  },
+  {
+   "start": "2021-06-24",
+   "new_moon": "2021-07-10",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2021-07-24"
+  },
+  {
+   "start": "2021-07-24",
+   "new_moon": "2021-08-08",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2021-08-22"
+  },
+  {
+   "start": "2021-08-22",
+   "new_moon": "2021-09-07",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2021-09-20"
+  },
+  {
+   "start": "2021-09-20",
+   "new_moon": "2021-10-06",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2021-10-20"
+  },
+  {
+   "start": "2021-10-20",
+   "new_moon": "2021-11-04",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2021-11-19"
+  },
+  {
+   "start": "2021-11-19",
+   "new_moon": "2021-12-04",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2021-12-19"
+  },
+  {
+   "start": "2021-12-19",
+   "new_moon": "2022-01-02",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2022-01-17"
+  },
+  {
+   "start": "2022-01-17",
+   "new_moon": "2022-02-01",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2022-02-16"
+  },
+  {
+   "start": "2022-02-16",
+   "new_moon": "2022-03-02",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2022-03-18"
+  },
+  {
+   "start": "2022-03-18",
+   "new_moon": "2022-04-01",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2022-04-16"
+  },
+  {
+   "start": "2022-04-16",
+   "new_moon": "2022-04-30",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2022-05-16"
+  },
+  {
+   "start": "2022-05-16",
+   "new_moon": "2022-05-30",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2022-06-14"
+  },
+  {
+   "start": "2022-06-14",
+   "new_moon": "2022-06-29",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2022-07-13"
+  },
+  {
+   "start": "2022-07-13",
+   "new_moon": "2022-07-28",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2022-08-12"
+  },
+  {
+   "start": "2022-08-12",
+   "new_moon": "2022-08-27",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2022-09-10"
+  },
+  {
+   "start": "2022-09-10",
+   "new_moon": "2022-09-25",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2022-10-09"
+  },
+  {
+   "start": "2022-10-09",
+   "new_moon": "2022-10-25",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2022-11-08"
+  },
+  {
+   "start": "2022-11-08",
+   "new_moon": "2022-11-23",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2022-12-08"
+  },
+  {
+   "start": "2022-12-08",
+   "new_moon": "2022-12-23",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2023-01-06"
+  },
+  {
+   "start": "2023-01-06",
+   "new_moon": "2023-01-21",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2023-02-05"
+  },
+  {
+   "start": "2023-02-05",
+   "new_moon": "2023-02-20",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2023-03-07"
+  },
+  {
+   "start": "2023-03-07",
+   "new_moon": "2023-03-21",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2023-04-06"
+  },
+  {
+   "start": "2023-04-06",
+   "new_moon": "2023-04-20",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2023-05-05"
+  },
+  {
+   "start": "2023-05-05",
+   "new_moon": "2023-05-19",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2023-06-04"
+  },
+  {
+   "start": "2023-06-04",
+   "new_moon": "2023-06-18",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2023-07-03"
+  },
+  {
+   "start": "2023-07-03",
+   "new_moon": "2023-07-17",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Puruṣottama (adhika)",
+   "adhika": true,
+   "end": "2023-08-01"
+  },
+  {
+   "start": "2023-08-01",
+   "new_moon": "2023-08-16",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2023-08-31"
+  },
+  {
+   "start": "2023-08-31",
+   "new_moon": "2023-09-15",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2023-09-29"
+  },
+  {
+   "start": "2023-09-29",
+   "new_moon": "2023-10-14",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2023-10-28"
+  },
+  {
+   "start": "2023-10-28",
+   "new_moon": "2023-11-13",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2023-11-27"
+  },
+  {
+   "start": "2023-11-27",
+   "new_moon": "2023-12-12",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2023-12-27"
+  },
+  {
+   "start": "2023-12-27",
+   "new_moon": "2024-01-11",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2024-01-25"
+  },
+  {
+   "start": "2024-01-25",
+   "new_moon": "2024-02-09",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2024-02-24"
+  },
+  {
+   "start": "2024-02-24",
+   "new_moon": "2024-03-10",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2024-03-25"
+  },
+  {
+   "start": "2024-03-25",
+   "new_moon": "2024-04-08",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2024-04-23"
+  },
+  {
+   "start": "2024-04-23",
+   "new_moon": "2024-05-08",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2024-05-23"
+  },
+  {
+   "start": "2024-05-23",
+   "new_moon": "2024-06-06",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2024-06-22"
+  },
+  {
+   "start": "2024-06-22",
+   "new_moon": "2024-07-05",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2024-07-21"
+  },
+  {
+   "start": "2024-07-21",
+   "new_moon": "2024-08-04",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2024-08-19"
+  },
+  {
+   "start": "2024-08-19",
+   "new_moon": "2024-09-03",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2024-09-18"
+  },
+  {
+   "start": "2024-09-18",
+   "new_moon": "2024-10-02",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2024-10-17"
+  },
+  {
+   "start": "2024-10-17",
+   "new_moon": "2024-11-01",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2024-11-15"
+  },
+  {
+   "start": "2024-11-15",
+   "new_moon": "2024-12-01",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2024-12-15"
+  },
+  {
+   "start": "2024-12-15",
+   "new_moon": "2024-12-30",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2025-01-13"
+  },
+  {
+   "start": "2025-01-13",
+   "new_moon": "2025-01-29",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2025-02-12"
+  },
+  {
+   "start": "2025-02-12",
+   "new_moon": "2025-02-28",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2025-03-14"
+  },
+  {
+   "start": "2025-03-14",
+   "new_moon": "2025-03-29",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2025-04-13"
+  },
+  {
+   "start": "2025-04-13",
+   "new_moon": "2025-04-27",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2025-05-12"
+  },
+  {
+   "start": "2025-05-12",
+   "new_moon": "2025-05-27",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2025-06-11"
+  },
+  {
+   "start": "2025-06-11",
+   "new_moon": "2025-06-25",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2025-07-10"
+  },
+  {
+   "start": "2025-07-10",
+   "new_moon": "2025-07-24",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2025-08-09"
+  },
+  {
+   "start": "2025-08-09",
+   "new_moon": "2025-08-23",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2025-09-07"
+  },
+  {
+   "start": "2025-09-07",
+   "new_moon": "2025-09-21",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2025-10-07"
+  },
+  {
+   "start": "2025-10-07",
+   "new_moon": "2025-10-21",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2025-11-05"
+  },
+  {
+   "start": "2025-11-05",
+   "new_moon": "2025-11-20",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2025-12-04"
+  },
+  {
+   "start": "2025-12-04",
+   "new_moon": "2025-12-20",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2026-01-03"
+  },
+  {
+   "start": "2026-01-03",
+   "new_moon": "2026-01-18",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2026-02-01"
+  },
+  {
+   "start": "2026-02-01",
+   "new_moon": "2026-02-17",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2026-03-03"
+  },
+  {
+   "start": "2026-03-03",
+   "new_moon": "2026-03-19",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2026-04-02"
+  },
+  {
+   "start": "2026-04-02",
+   "new_moon": "2026-04-17",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2026-05-01"
+  },
+  {
+   "start": "2026-05-01",
+   "new_moon": "2026-05-16",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Puruṣottama (adhika)",
+   "adhika": true,
+   "end": "2026-05-31"
+  },
+  {
+   "start": "2026-05-31",
+   "new_moon": "2026-06-15",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2026-06-29"
+  },
+  {
+   "start": "2026-06-29",
+   "new_moon": "2026-07-14",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2026-07-29"
+  },
+  {
+   "start": "2026-07-29",
+   "new_moon": "2026-08-12",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2026-08-28"
+  },
+  {
+   "start": "2026-08-28",
+   "new_moon": "2026-09-11",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2026-09-26"
+  },
+  {
+   "start": "2026-09-26",
+   "new_moon": "2026-10-10",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2026-10-26"
+  },
+  {
+   "start": "2026-10-26",
+   "new_moon": "2026-11-09",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2026-11-24"
+  },
+  {
+   "start": "2026-11-24",
+   "new_moon": "2026-12-09",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2026-12-24"
+  },
+  {
+   "start": "2026-12-24",
+   "new_moon": "2027-01-07",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2027-01-22"
+  },
+  {
+   "start": "2027-01-22",
+   "new_moon": "2027-02-06",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2027-02-20"
+  },
+  {
+   "start": "2027-02-20",
+   "new_moon": "2027-03-08",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2027-03-22"
+  },
+  {
+   "start": "2027-03-22",
+   "new_moon": "2027-04-06",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2027-04-20"
+  },
+  {
+   "start": "2027-04-20",
+   "new_moon": "2027-05-06",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2027-05-20"
+  },
+  {
+   "start": "2027-05-20",
+   "new_moon": "2027-06-04",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2027-06-19"
+  },
+  {
+   "start": "2027-06-19",
+   "new_moon": "2027-07-04",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2027-07-18"
+  },
+  {
+   "start": "2027-07-18",
+   "new_moon": "2027-08-02",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2027-08-17"
+  },
+  {
+   "start": "2027-08-17",
+   "new_moon": "2027-08-31",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2027-09-15"
+  },
+  {
+   "start": "2027-09-15",
+   "new_moon": "2027-09-30",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2027-10-15"
+  },
+  {
+   "start": "2027-10-15",
+   "new_moon": "2027-10-29",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2027-11-14"
+  },
+  {
+   "start": "2027-11-14",
+   "new_moon": "2027-11-28",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2027-12-13"
+  },
+  {
+   "start": "2027-12-13",
+   "new_moon": "2027-12-27",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2028-01-12"
+  },
+  {
+   "start": "2028-01-12",
+   "new_moon": "2028-01-26",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2028-02-10"
+  },
+  {
+   "start": "2028-02-10",
+   "new_moon": "2028-02-25",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2028-03-11"
+  },
+  {
+   "start": "2028-03-11",
+   "new_moon": "2028-03-26",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2028-04-09"
+  },
+  {
+   "start": "2028-04-09",
+   "new_moon": "2028-04-24",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2028-05-08"
+  },
+  {
+   "start": "2028-05-08",
+   "new_moon": "2028-05-24",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2028-06-07"
+  },
+  {
+   "start": "2028-06-07",
+   "new_moon": "2028-06-22",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2028-07-06"
+  },
+  {
+   "start": "2028-07-06",
+   "new_moon": "2028-07-22",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2028-08-05"
+  },
+  {
+   "start": "2028-08-05",
+   "new_moon": "2028-08-20",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2028-09-03"
+  },
+  {
+   "start": "2028-09-03",
+   "new_moon": "2028-09-18",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2028-10-03"
+  },
+  {
+   "start": "2028-10-03",
+   "new_moon": "2028-10-18",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2028-11-02"
+  },
+  {
+   "start": "2028-11-02",
+   "new_moon": "2028-11-16",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2028-12-02"
+  },
+  {
+   "start": "2028-12-02",
+   "new_moon": "2028-12-16",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2028-12-31"
+  },
+  {
+   "start": "2028-12-31",
+   "new_moon": "2029-01-14",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2029-01-30"
+  },
+  {
+   "start": "2029-01-30",
+   "new_moon": "2029-02-13",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2029-02-28"
+  },
+  {
+   "start": "2029-02-28",
+   "new_moon": "2029-03-15",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Puruṣottama (adhika)",
+   "adhika": true,
+   "end": "2029-03-30"
+  },
+  {
+   "start": "2029-03-30",
+   "new_moon": "2029-04-13",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2029-04-28"
+  },
+  {
+   "start": "2029-04-28",
+   "new_moon": "2029-05-13",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2029-05-27"
+  },
+  {
+   "start": "2029-05-27",
+   "new_moon": "2029-06-12",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2029-06-26"
+  },
+  {
+   "start": "2029-06-26",
+   "new_moon": "2029-07-11",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2029-07-25"
+  },
+  {
+   "start": "2029-07-25",
+   "new_moon": "2029-08-10",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2029-08-24"
+  },
+  {
+   "start": "2029-08-24",
+   "new_moon": "2029-09-08",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2029-09-22"
+  },
+  {
+   "start": "2029-09-22",
+   "new_moon": "2029-10-07",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2029-10-22"
+  },
+  {
+   "start": "2029-10-22",
+   "new_moon": "2029-11-06",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2029-11-21"
+  },
+  {
+   "start": "2029-11-21",
+   "new_moon": "2029-12-05",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2029-12-20"
+  },
+  {
+   "start": "2029-12-20",
+   "new_moon": "2030-01-04",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2030-01-19"
+  },
+  {
+   "start": "2030-01-19",
+   "new_moon": "2030-02-02",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2030-02-18"
+  },
+  {
+   "start": "2030-02-18",
+   "new_moon": "2030-03-04",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2030-03-19"
+  },
+  {
+   "start": "2030-03-19",
+   "new_moon": "2030-04-02",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2030-04-18"
+  },
+  {
+   "start": "2030-04-18",
+   "new_moon": "2030-05-02",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2030-05-17"
+  },
+  {
+   "start": "2030-05-17",
+   "new_moon": "2030-06-01",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2030-06-15"
+  },
+  {
+   "start": "2030-06-15",
+   "new_moon": "2030-06-30",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2030-07-15"
+  },
+  {
+   "start": "2030-07-15",
+   "new_moon": "2030-07-30",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2030-08-13"
+  },
+  {
+   "start": "2030-08-13",
+   "new_moon": "2030-08-28",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2030-09-11"
+  },
+  {
+   "start": "2030-09-11",
+   "new_moon": "2030-09-27",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2030-10-11"
+  },
+  {
+   "start": "2030-10-11",
+   "new_moon": "2030-10-26",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2030-11-10"
+  },
+  {
+   "start": "2030-11-10",
+   "new_moon": "2030-11-25",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2030-12-09"
+  },
+  {
+   "start": "2030-12-09",
+   "new_moon": "2030-12-24",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2031-01-08"
+  },
+  {
+   "start": "2031-01-08",
+   "new_moon": "2031-01-23",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2031-02-07"
+  },
+  {
+   "start": "2031-02-07",
+   "new_moon": "2031-02-21",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2031-03-09"
+  },
+  {
+   "start": "2031-03-09",
+   "new_moon": "2031-03-23",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2031-04-07"
+  },
+  {
+   "start": "2031-04-07",
+   "new_moon": "2031-04-21",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2031-05-07"
+  },
+  {
+   "start": "2031-05-07",
+   "new_moon": "2031-05-21",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2031-06-05"
+  },
+  {
+   "start": "2031-06-05",
+   "new_moon": "2031-06-19",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2031-07-04"
+  },
+  {
+   "start": "2031-07-04",
+   "new_moon": "2031-07-19",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2031-08-03"
+  },
+  {
+   "start": "2031-08-03",
+   "new_moon": "2031-08-18",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Puruṣottama (adhika)",
+   "adhika": true,
+   "end": "2031-09-01"
+  },
+  {
+   "start": "2031-09-01",
+   "new_moon": "2031-09-16",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2031-09-30"
+  },
+  {
+   "start": "2031-09-30",
+   "new_moon": "2031-10-16",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2031-10-30"
+  },
+  {
+   "start": "2031-10-30",
+   "new_moon": "2031-11-14",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2031-11-28"
+  },
+  {
+   "start": "2031-11-28",
+   "new_moon": "2031-12-14",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2031-12-28"
+  },
+  {
+   "start": "2031-12-28",
+   "new_moon": "2032-01-12",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2032-01-27"
+  },
+  {
+   "start": "2032-01-27",
+   "new_moon": "2032-02-11",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2032-02-26"
+  },
+  {
+   "start": "2032-02-26",
+   "new_moon": "2032-03-11",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2032-03-27"
+  },
+  {
+   "start": "2032-03-27",
+   "new_moon": "2032-04-10",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2032-04-25"
+  },
+  {
+   "start": "2032-04-25",
+   "new_moon": "2032-05-09",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2032-05-25"
+  },
+  {
+   "start": "2032-05-25",
+   "new_moon": "2032-06-08",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2032-06-23"
+  },
+  {
+   "start": "2032-06-23",
+   "new_moon": "2032-07-07",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2032-07-22"
+  },
+  {
+   "start": "2032-07-22",
+   "new_moon": "2032-08-06",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2032-08-21"
+  },
+  {
+   "start": "2032-08-21",
+   "new_moon": "2032-09-04",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2032-09-19"
+  },
+  {
+   "start": "2032-09-19",
+   "new_moon": "2032-10-04",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2032-10-18"
+  },
+  {
+   "start": "2032-10-18",
+   "new_moon": "2032-11-03",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2032-11-17"
+  },
+  {
+   "start": "2032-11-17",
+   "new_moon": "2032-12-02",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2032-12-16"
+  },
+  {
+   "start": "2032-12-16",
+   "new_moon": "2033-01-01",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2033-01-15"
+  },
+  {
+   "start": "2033-01-15",
+   "new_moon": "2033-01-30",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2033-02-14"
+  },
+  {
+   "start": "2033-02-14",
+   "new_moon": "2033-03-01",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2033-03-16"
+  },
+  {
+   "start": "2033-03-16",
+   "new_moon": "2033-03-30",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2033-04-14"
+  },
+  {
+   "start": "2033-04-14",
+   "new_moon": "2033-04-29",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2033-05-14"
+  },
+  {
+   "start": "2033-05-14",
+   "new_moon": "2033-05-28",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2033-06-12"
+  },
+  {
+   "start": "2033-06-12",
+   "new_moon": "2033-06-26",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2033-07-12"
+  },
+  {
+   "start": "2033-07-12",
+   "new_moon": "2033-07-26",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2033-08-10"
+  },
+  {
+   "start": "2033-08-10",
+   "new_moon": "2033-08-24",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2033-09-09"
+  },
+  {
+   "start": "2033-09-09",
+   "new_moon": "2033-09-23",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2033-10-08"
+  },
+  {
+   "start": "2033-10-08",
+   "new_moon": "2033-10-23",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2033-11-06"
+  },
+  {
+   "start": "2033-11-06",
+   "new_moon": "2033-11-22",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2033-12-06"
+  },
+  {
+   "start": "2033-12-06",
+   "new_moon": "2033-12-21",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2034-01-04"
+  },
+  {
+   "start": "2034-01-04",
+   "new_moon": "2034-01-20",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2034-02-03"
+  },
+  {
+   "start": "2034-02-03",
+   "new_moon": "2034-02-18",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2034-03-05"
+  },
+  {
+   "start": "2034-03-05",
+   "new_moon": "2034-03-20",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2034-04-03"
+  },
+  {
+   "start": "2034-04-03",
+   "new_moon": "2034-04-18",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2034-05-03"
+  },
+  {
+   "start": "2034-05-03",
+   "new_moon": "2034-05-18",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2034-06-02"
+  },
+  {
+   "start": "2034-06-02",
+   "new_moon": "2034-06-16",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Puruṣottama (adhika)",
+   "adhika": true,
+   "end": "2034-07-01"
+  },
+  {
+   "start": "2034-07-01",
+   "new_moon": "2034-07-15",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2034-07-31"
+  },
+  {
+   "start": "2034-07-31",
+   "new_moon": "2034-08-14",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2034-08-29"
+  },
+  {
+   "start": "2034-08-29",
+   "new_moon": "2034-09-12",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2034-09-28"
+  },
+  {
+   "start": "2034-09-28",
+   "new_moon": "2034-10-12",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2034-10-27"
+  },
+  {
+   "start": "2034-10-27",
+   "new_moon": "2034-11-11",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2034-11-25"
+  },
+  {
+   "start": "2034-11-25",
+   "new_moon": "2034-12-10",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2034-12-25"
+  },
+  {
+   "start": "2034-12-25",
+   "new_moon": "2035-01-09",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2035-01-23"
+  },
+  {
+   "start": "2035-01-23",
+   "new_moon": "2035-02-08",
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "adhika": false,
+   "end": "2035-02-22"
+  },
+  {
+   "start": "2035-02-22",
+   "new_moon": "2035-03-09",
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "adhika": false,
+   "end": "2035-03-23"
+  },
+  {
+   "start": "2035-03-23",
+   "new_moon": "2035-04-08",
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "adhika": false,
+   "end": "2035-04-22"
+  },
+  {
+   "start": "2035-04-22",
+   "new_moon": "2035-05-07",
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "adhika": false,
+   "end": "2035-05-22"
+  },
+  {
+   "start": "2035-05-22",
+   "new_moon": "2035-06-06",
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "adhika": false,
+   "end": "2035-06-20"
+  },
+  {
+   "start": "2035-06-20",
+   "new_moon": "2035-07-05",
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "adhika": false,
+   "end": "2035-07-20"
+  },
+  {
+   "start": "2035-07-20",
+   "new_moon": "2035-08-03",
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "adhika": false,
+   "end": "2035-08-19"
+  },
+  {
+   "start": "2035-08-19",
+   "new_moon": "2035-09-02",
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "adhika": false,
+   "end": "2035-09-17"
+  },
+  {
+   "start": "2035-09-17",
+   "new_moon": "2035-10-01",
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "adhika": false,
+   "end": "2035-10-17"
+  },
+  {
+   "start": "2035-10-17",
+   "new_moon": "2035-10-31",
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "adhika": false,
+   "end": "2035-11-15"
+  },
+  {
+   "start": "2035-11-15",
+   "new_moon": "2035-11-29",
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "adhika": false,
+   "end": "2035-12-15"
+  },
+  {
+   "start": "2035-12-15",
+   "new_moon": "2035-12-29",
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "adhika": false,
+   "end": "2036-01-13"
+  }
+ ],
+ "months": [
+  {
+   "lunar_month": "Caitra",
+   "gaudiya_month": "Viṣṇu",
+   "observances": [
+    "Rāma Navamī",
+    "Vasanta Rāsa-yātrā",
+    "Rāsa-yātrā of Balarāma",
+    "Navadvīpa-dhāma parikramā (from Gaura-pūrṇimā)"
+   ],
+   "note": "First month of the Gaudiya year, beginning after Gaura-pūrṇimā.",
+   "songs": [
+    {
+     "uid": "VT1",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D1",
+     "basis": "thematic"
+    },
+    {
+     "uid": "D3",
+     "basis": "thematic"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Vaiśākha",
+   "gaudiya_month": "Madhusūdana",
+   "observances": [
+    "Nṛsiṁha Caturdaśī",
+    "Akṣaya Tṛtīyā",
+    "Candana-yātrā",
+    "Jāhnavā-devī appearance"
+   ],
+   "note": "Nṛsiṁha Caturdaśī falls in the śukla-pakṣa.",
+   "songs": [
+    {
+     "uid": "VT2",
+     "basis": "panjika"
+    },
+    {
+     "uid": "VT8",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Jyeṣṭha",
+   "gaudiya_month": "Trivikrama",
+   "observances": [
+    "Gaṅgā-daśaharā",
+    "Snāna-yātrā of Jagannātha",
+    "Pāṇḍava Nirjala Ekādaśī"
+   ],
+   "note": null,
+   "songs": [
+    {
+     "uid": "D12",
+     "basis": "thematic"
+    },
+    {
+     "uid": "D13",
+     "basis": "thematic"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Āṣāḍha",
+   "gaudiya_month": "Vāmana",
+   "observances": [
+    "Ratha-yātrā",
+    "Guṇḍicā-mārjana",
+    "Hera Pañcamī",
+    "Guru-pūrṇimā / Vyāsa-pūjā",
+    "Cāturmāsya begins"
+   ],
+   "note": "Ratha-yātrā and the start of Cāturmāsya — the heaviest observance month in the stream data (87 Cāturmāsya streams).",
+   "songs": [
+    {
+     "uid": "GV24",
+     "basis": "panjika"
+    },
+    {
+     "uid": "VT5",
+     "basis": "thematic"
+    },
+    {
+     "uid": "O1",
+     "basis": "thematic"
+    },
+    {
+     "uid": "GV1",
+     "basis": "book"
+    },
+    {
+     "uid": "GV2",
+     "basis": "book"
+    },
+    {
+     "uid": "G1",
+     "basis": "book"
+    },
+    {
+     "uid": "G2",
+     "basis": "book"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Śrāvaṇa",
+   "gaudiya_month": "Śrīdhara",
+   "observances": [
+    "Jhūlana-yātrā",
+    "Balarāma Pūrṇimā",
+    "Pavitrāropaṇa Ekādaśī",
+    "Second month of Cāturmāsya"
+   ],
+   "note": "Jhūlana-yātrā is the only festival the Gīti-guccha groups explicitly (p.374).",
+   "songs": [
+    {
+     "uid": "B25",
+     "basis": "book"
+    },
+    {
+     "uid": "B26",
+     "basis": "book"
+    },
+    {
+     "uid": "VT3",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GN1",
+     "basis": "thematic"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Bhādrapada",
+   "gaudiya_month": "Hṛṣīkeśa",
+   "observances": [
+    "Kṛṣṇa Janmāṣṭamī",
+    "Nanda-utsava",
+    "Rādhāṣṭamī",
+    "Lalitā-saptamī",
+    "Viśvarūpa Mahotsava",
+    "Vāmana Dvādaśī"
+   ],
+   "note": "Densest appearance-day month: Janmāṣṭamī and Rādhāṣṭamī two weeks apart.",
+   "songs": [
+    {
+     "uid": "R1",
+     "basis": "panjika"
+    },
+    {
+     "uid": "R2",
+     "basis": "panjika"
+    },
+    {
+     "uid": "R3",
+     "basis": "panjika"
+    },
+    {
+     "uid": "R6",
+     "basis": "panjika"
+    },
+    {
+     "uid": "R21",
+     "basis": "panjika"
+    },
+    {
+     "uid": "R23",
+     "basis": "panjika"
+    },
+    {
+     "uid": "P2",
+     "basis": "panjika"
+    },
+    {
+     "uid": "K41",
+     "basis": "thematic"
+    },
+    {
+     "uid": "K61",
+     "basis": "thematic"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Āśvina",
+   "gaudiya_month": "Padmanābha",
+   "observances": [
+    "Śāradīya Rāsa-yātrā",
+    "Vijaya Daśamī",
+    "Third month of Cāturmāsya"
+   ],
+   "note": "Gopī-gīta is 10/10 October in the stream data; Rāsa 86% concentrated Sep–Nov.",
+   "songs": [
+    {
+     "uid": "SB1",
+     "basis": "observed"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Kārtika",
+   "gaudiya_month": "Dāmodara",
+   "observances": [
+    "Kārtika/Dāmodara-vrata (month-long)",
+    "Bahulāṣṭamī (Rādhā-kuṇḍa)",
+    "Govardhana-pūjā / Annakūṭa",
+    "Gopāṣṭamī",
+    "Dīpāvalī",
+    "Utthāna Ekādaśī",
+    "Bhīṣma-pañcaka"
+   ],
+   "note": "The strongest seasonal signal in the whole dataset: Dāmodarāṣṭakam appears in 52 streams, 100% of them in Oct–Nov. The Gīti-guccha prints it (p.290) with no seasonal note at all.",
+   "songs": [
+    {
+     "uid": "K1",
+     "basis": "observed"
+    },
+    {
+     "uid": "K23",
+     "basis": "observed"
+    },
+    {
+     "uid": "X1",
+     "basis": "observed"
+    },
+    {
+     "uid": "X2",
+     "basis": "observed"
+    },
+    {
+     "uid": "D6",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D7",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D8",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D9",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D19",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D4",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D5",
+     "basis": "panjika"
+    },
+    {
+     "uid": "S30",
+     "basis": "panjika"
+    },
+    {
+     "uid": "A14",
+     "basis": "book"
+    },
+    {
+     "uid": "A16",
+     "basis": "book"
+    },
+    {
+     "uid": "A17",
+     "basis": "book"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Mārgaśīrṣa",
+   "gaudiya_month": "Keśava",
+   "observances": [
+    "Odana-ṣaṣṭhī",
+    "Gītā Jayantī",
+    "Kātyāyanī-vrata",
+    "Haimantikī Rāsa-yātrā"
+   ],
+   "note": null,
+   "songs": [
+    {
+     "uid": "SB1",
+     "basis": "thematic"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Pauṣa",
+   "gaudiya_month": "Nārāyaṇa",
+   "observances": [
+    "Saphalā Ekādaśī",
+    "Putradā Ekādaśī",
+    "Makara Saṅkrānti"
+   ],
+   "note": "Sparse month — mostly ācārya observance days, no dedicated festival songs in the corpus.",
+   "songs": []
+  },
+  {
+   "lunar_month": "Māgha",
+   "gaudiya_month": "Mādhava",
+   "observances": [
+    "Vasanta-pañcamī",
+    "Sarasvatī-pūjā",
+    "Advaita Saptamī",
+    "Nityānanda Trayodaśī",
+    "Varāha Dvādaśī",
+    "Bhīṣma Aṣṭamī"
+   ],
+   "note": "Nityānanda Trayodaśī and Advaita Saptamī both fall here.",
+   "songs": [
+    {
+     "uid": "N1",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GN4",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GN13",
+     "basis": "panjika"
+    },
+    {
+     "uid": "PT10",
+     "basis": "panjika"
+    },
+    {
+     "uid": "PT13",
+     "basis": "panjika"
+    },
+    {
+     "uid": "PT14",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Phālguna",
+   "gaudiya_month": "Govinda",
+   "observances": [
+    "Gaura-pūrṇimā (appearance of Mahāprabhu)",
+    "Śiva-rātri",
+    "Dola-yātrā",
+    "Festival of Jagannātha Miśra",
+    "Navadvīpa-dhāma parikramā begins"
+   ],
+   "note": "Gaura-pūrṇimā closes the Gaudiya year; the next day begins Caitra.",
+   "songs": [
+    {
+     "uid": "GH1",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GH23",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D1",
+     "basis": "thematic"
+    },
+    {
+     "uid": "D3",
+     "basis": "thematic"
+    }
+   ]
+  },
+  {
+   "lunar_month": "Adhika",
+   "gaudiya_month": "Puruṣottama",
+   "observances": [
+    "Puruṣottama-vrata (whole month)"
+   ],
+   "note": "Intercalary leap month, roughly every 2.7 years (last 2023, next 2026-05-16 → 2026-06-15). The @madhudas channel ran Śaraṇāgati songs through it (59 streams), which is what these uids reflect.",
+   "songs": [
+    {
+     "uid": "S10",
+     "basis": "observed"
+    },
+    {
+     "uid": "S14",
+     "basis": "observed"
+    },
+    {
+     "uid": "S17",
+     "basis": "observed"
+    },
+    {
+     "uid": "S18",
+     "basis": "observed"
+    },
+    {
+     "uid": "S20",
+     "basis": "observed"
+    },
+    {
+     "uid": "S22",
+     "basis": "observed"
+    }
+   ]
+  }
+ ],
+ "daily": [
+  {
+   "slot": "predawn",
+   "label": "Maṅgala-ārati (~04:00)",
+   "songs": [
+    {
+     "uid": "A4",
+     "basis": "book"
+    },
+    {
+     "uid": "A7",
+     "basis": "book"
+    }
+   ]
+  },
+  {
+   "slot": "sunrise",
+   "label": "Aruṇodaya-kīrtana",
+   "songs": []
+  },
+  {
+   "slot": "noon",
+   "label": "Madhyāhna Bhoga-ārati",
+   "songs": [
+    {
+     "uid": "A8",
+     "basis": "book"
+    }
+   ]
+  },
+  {
+   "slot": "evening",
+   "label": "Sandhyā / Gaura-ārati",
+   "songs": [
+    {
+     "uid": "A10",
+     "basis": "book"
+    },
+    {
+     "uid": "A11",
+     "basis": "book"
+    }
+   ]
+  },
+  {
+   "slot": "tulasi",
+   "label": "Tulasī-ārati / parikramā",
+   "songs": [
+    {
+     "uid": "A14",
+     "basis": "book"
+    },
+    {
+     "uid": "A16",
+     "basis": "book"
+    },
+    {
+     "uid": "A17",
+     "basis": "book"
+    }
+   ]
+  }
+ ],
+ "festivals": [
+  {
+   "id": "aksaya-trtiya-candana-yatra",
+   "name": "Akṣaya Tṛtīyā / Candana-yātrā",
+   "months": [
+    "Apr",
+    "May"
+   ],
+   "dates": [
+    "2014-05-02",
+    "2015-04-21",
+    "2016-05-09",
+    "2017-04-29",
+    "2018-04-18",
+    "2019-05-07",
+    "2020-04-26",
+    "2021-05-14",
+    "2022-05-03",
+    "2023-04-23",
+    "2024-05-10"
+   ],
+   "songs": []
+  },
+  {
+   "id": "bahulastami-radha-kunda",
+   "name": "Bahulāṣṭamī (Rādhā-kuṇḍa)",
+   "months": [
+    "Oct",
+    "Nov"
+   ],
+   "dates": [
+    "2013-10-27",
+    "2014-10-16",
+    "2015-11-04",
+    "2016-10-23",
+    "2017-10-12",
+    "2019-10-21",
+    "2020-11-08",
+    "2021-10-28",
+    "2022-10-18",
+    "2023-11-05",
+    "2024-10-24"
+   ],
+   "songs": [
+    {
+     "uid": "D4",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D5",
+     "basis": "panjika"
+    },
+    {
+     "uid": "S30",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "bhisma-pancaka",
+   "name": "Bhīṣma-pañcaka",
+   "months": [
+    "Nov"
+   ],
+   "dates": [
+    "2018-11-19",
+    "2020-11-26",
+    "2021-11-15",
+    "2022-11-04",
+    "2023-11-23",
+    "2024-11-12",
+    "2026-11-20"
+   ],
+   "songs": []
+  },
+  {
+   "id": "caturmasya-begins",
+   "name": "Cāturmāsya begins",
+   "months": [
+    "Jul"
+   ],
+   "dates": [
+    "2014-07-12",
+    "2015-07-31",
+    "2016-07-19",
+    "2017-07-09",
+    "2019-07-16",
+    "2020-07-05",
+    "2021-07-24",
+    "2022-07-13",
+    "2023-07-03",
+    "2024-07-21",
+    "2026-07-29"
+   ],
+   "songs": []
+  },
+  {
+   "id": "dipavali",
+   "name": "Dīpāvalī",
+   "months": [
+    "Oct",
+    "Nov"
+   ],
+   "dates": [
+    "2014-10-23",
+    "2015-11-11",
+    "2016-10-30",
+    "2017-10-19",
+    "2018-11-07",
+    "2019-10-28",
+    "2020-11-15",
+    "2021-11-04",
+    "2022-10-25",
+    "2023-11-13",
+    "2024-11-01"
+   ],
+   "songs": []
+  },
+  {
+   "id": "ganga-dasahara",
+   "name": "Gaṅgā-daśaharā",
+   "months": [
+    "May",
+    "Jun"
+   ],
+   "dates": [
+    "2013-06-18",
+    "2014-06-08",
+    "2015-05-28",
+    "2016-06-15",
+    "2017-06-04",
+    "2018-06-23",
+    "2022-06-09",
+    "2023-05-30",
+    "2024-06-16"
+   ],
+   "songs": [
+    {
+     "uid": "D12",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D13",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "gopastami",
+   "name": "Gopāṣṭamī",
+   "months": [
+    "Oct",
+    "Nov"
+   ],
+   "dates": [
+    "2013-11-10",
+    "2014-10-31",
+    "2015-11-19",
+    "2016-11-08",
+    "2017-10-28",
+    "2018-11-15",
+    "2019-11-04",
+    "2020-11-22",
+    "2021-11-12",
+    "2022-11-01",
+    "2023-11-20"
+   ],
+   "songs": []
+  },
+  {
+   "id": "gita-jayanti",
+   "name": "Gītā Jayantī",
+   "months": [
+    "Nov",
+    "Dec"
+   ],
+   "dates": [
+    "2014-12-02",
+    "2015-12-21",
+    "2016-12-10",
+    "2017-11-30",
+    "2018-12-18",
+    "2019-12-08",
+    "2020-12-25",
+    "2021-12-14",
+    "2023-12-23",
+    "2024-12-11"
+   ],
+   "songs": []
+  },
+  {
+   "id": "haimantiki-rasa-yatra",
+   "name": "Haimantikī Rāsa-yātrā",
+   "months": [
+    "Nov"
+   ],
+   "dates": [
+    "2023-11-27",
+    "2024-11-15",
+    "2026-11-24"
+   ],
+   "songs": [
+    {
+     "uid": "SB1",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "jhulana-yatra",
+   "name": "Jhūlana-yātrā",
+   "months": [
+    "Jul",
+    "Aug"
+   ],
+   "dates": [
+    "2012-07-29",
+    "2013-08-17",
+    "2015-08-26"
+   ],
+   "songs": [
+    {
+     "uid": "B25",
+     "basis": "panjika"
+    },
+    {
+     "uid": "B26",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "kartika-damodara-vrata",
+   "name": "Kārtika / Dāmodara-vrata",
+   "months": [
+    "Oct"
+   ],
+   "dates": [
+    "2013-10-18",
+    "2015-10-27",
+    "2016-10-16",
+    "2017-10-05",
+    "2020-10-31"
+   ],
+   "songs": [
+    {
+     "uid": "K1",
+     "basis": "panjika"
+    },
+    {
+     "uid": "K23",
+     "basis": "panjika"
+    },
+    {
+     "uid": "X1",
+     "basis": "panjika"
+    },
+    {
+     "uid": "X2",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "navadvipa-dhama-parikrama",
+   "name": "Navadvīpa-dhāma parikramā",
+   "months": [
+    "Mar"
+   ],
+   "dates": [
+    "2019-03-15",
+    "2022-03-11",
+    "2024-03-20",
+    "2025-03-09"
+   ],
+   "songs": [
+    {
+     "uid": "D1",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D3",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "purusottama-vrata-adhika-masa",
+   "name": "Puruṣottama-vrata (adhika-māsa)",
+   "months": [
+    "May",
+    "Jun",
+    "Jul"
+   ],
+   "dates": [
+    "2015-06-16",
+    "2018-05-15",
+    "2023-07-18",
+    "2026-05-17"
+   ],
+   "songs": []
+  },
+  {
+   "id": "ratha-yatra-of-jagannatha",
+   "name": "Ratha-yātrā of Jagannātha",
+   "months": [
+    "Jun",
+    "Jul"
+   ],
+   "dates": [
+    "2013-07-10",
+    "2014-06-29",
+    "2015-07-18",
+    "2016-07-06",
+    "2017-06-25",
+    "2019-07-04",
+    "2020-06-23",
+    "2021-07-12",
+    "2022-07-01",
+    "2023-06-20",
+    "2024-07-07",
+    "2026-07-16"
+   ],
+   "songs": [
+    {
+     "uid": "GV24",
+     "basis": "panjika"
+    },
+    {
+     "uid": "O1",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "snana-yatra-of-jagannatha",
+   "name": "Snāna-yātrā of Jagannātha",
+   "months": [
+    "Jun"
+   ],
+   "dates": [
+    "2014-06-13",
+    "2015-06-02",
+    "2016-06-20",
+    "2017-06-09",
+    "2019-06-17",
+    "2020-06-05",
+    "2021-06-24",
+    "2022-06-14",
+    "2023-06-04",
+    "2024-06-22",
+    "2026-06-29"
+   ],
+   "songs": [
+    {
+     "uid": "GV24",
+     "basis": "panjika"
+    },
+    {
+     "uid": "VT5",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "utthana-ekadasi-tulasi",
+   "name": "Utthāna Ekādaśī / Tulasī",
+   "months": [
+    "Nov"
+   ],
+   "dates": [
+    "2021-11-15",
+    "2022-11-04",
+    "2023-11-23",
+    "2024-11-12",
+    "2026-11-20"
+   ],
+   "songs": [
+    {
+     "uid": "A14",
+     "basis": "panjika"
+    },
+    {
+     "uid": "A15",
+     "basis": "panjika"
+    },
+    {
+     "uid": "A16",
+     "basis": "panjika"
+    },
+    {
+     "uid": "A17",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "vasanta-pancami",
+   "name": "Vasanta-pañcamī",
+   "months": [
+    "Jan",
+    "Feb"
+   ],
+   "dates": [
+    "2012-01-28",
+    "2014-02-04",
+    "2016-02-13",
+    "2020-01-30",
+    "2024-02-14",
+    "2025-02-03"
+   ],
+   "songs": []
+  },
+  {
+   "id": "sri-advaita-saptami",
+   "name": "Śrī Advaita Saptamī",
+   "months": [
+    "Jan",
+    "Feb"
+   ],
+   "dates": [
+    "2019-02-12",
+    "2020-02-01",
+    "2023-01-28",
+    "2024-02-16",
+    "2025-02-05"
+   ],
+   "songs": [
+    {
+     "uid": "PT10",
+     "basis": "panjika"
+    },
+    {
+     "uid": "PT13",
+     "basis": "panjika"
+    },
+    {
+     "uid": "PT14",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "sri-baladeva-purnima",
+   "name": "Śrī Baladeva Pūrṇimā",
+   "months": [
+    "Aug"
+   ],
+   "dates": [
+    "2022-08-12",
+    "2023-08-31",
+    "2024-08-19",
+    "2026-08-28"
+   ],
+   "songs": [
+    {
+     "uid": "GN1",
+     "basis": "panjika"
+    },
+    {
+     "uid": "VT3",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "sri-gaura-purnima",
+   "name": "Śrī Gaura-pūrṇimā",
+   "months": [
+    "Mar"
+   ],
+   "dates": [
+    "2022-03-18",
+    "2023-03-07",
+    "2024-03-25",
+    "2025-03-14",
+    "2027-03-22"
+   ],
+   "songs": [
+    {
+     "uid": "GH1",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GH23",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "sri-govardhana-puja-annakuta",
+   "name": "Śrī Govardhana-pūjā / Annakūṭa",
+   "months": [
+    "Oct",
+    "Nov"
+   ],
+   "dates": [
+    "2021-11-05",
+    "2022-10-26",
+    "2023-11-14",
+    "2024-11-02"
+   ],
+   "songs": [
+    {
+     "uid": "D19",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D6",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D7",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D8",
+     "basis": "panjika"
+    },
+    {
+     "uid": "D9",
+     "basis": "panjika"
+    },
+    {
+     "uid": "RK15",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "sri-guru-purnima-vyasa-puja",
+   "name": "Śrī Guru Pūrṇimā / Vyāsa-pūjā",
+   "months": [
+    "Jul"
+   ],
+   "dates": [
+    "2021-07-24",
+    "2022-07-13",
+    "2023-07-03",
+    "2024-07-21"
+   ],
+   "songs": [
+    {
+     "uid": "G1",
+     "basis": "panjika"
+    },
+    {
+     "uid": "G2",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GV1",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GV10",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GV11",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GV12",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GV2",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GV3",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GV4",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GV5",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GV6",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GV7",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GV8",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GV9",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "sri-katyayani-vrata",
+   "name": "Śrī Kātyāyanī-vrata",
+   "months": [
+    "Nov"
+   ],
+   "dates": [
+    "2013-11-18",
+    "2017-11-05",
+    "2018-11-24",
+    "2023-11-28",
+    "2024-11-16"
+   ],
+   "songs": []
+  },
+  {
+   "id": "sri-krsna-janmastami",
+   "name": "Śrī Kṛṣṇa Janmāṣṭamī",
+   "months": [
+    "Aug",
+    "Sep"
+   ],
+   "dates": [
+    "2013-08-28",
+    "2014-08-18",
+    "2015-09-06",
+    "2016-08-25",
+    "2017-08-15",
+    "2018-09-03",
+    "2019-08-23",
+    "2020-08-12",
+    "2021-08-30",
+    "2022-08-19",
+    "2023-09-07",
+    "2024-08-27",
+    "2026-09-04"
+   ],
+   "songs": []
+  },
+  {
+   "id": "sri-lalita-saptami",
+   "name": "Śrī Lalitā-saptamī",
+   "months": [
+    "Sep"
+   ],
+   "dates": [
+    "2012-09-22",
+    "2013-09-12",
+    "2015-09-20",
+    "2016-09-08",
+    "2026-09-18"
+   ],
+   "songs": [
+    {
+     "uid": "P2",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "sri-nanda-utsava",
+   "name": "Śrī Nanda-utsava",
+   "months": [
+    "Aug",
+    "Sep"
+   ],
+   "dates": [
+    "2012-08-11",
+    "2013-08-29",
+    "2014-08-19",
+    "2015-09-07",
+    "2016-08-26",
+    "2017-08-16",
+    "2019-08-24",
+    "2020-08-13"
+   ],
+   "songs": []
+  },
+  {
+   "id": "sri-nityananda-trayodasi",
+   "name": "Śrī Nityānanda Trayodaśī",
+   "months": [
+    "Feb"
+   ],
+   "dates": [
+    "2019-02-17",
+    "2020-02-07",
+    "2023-02-03",
+    "2024-02-22",
+    "2025-02-10",
+    "2027-02-19"
+   ],
+   "songs": [
+    {
+     "uid": "GN13",
+     "basis": "panjika"
+    },
+    {
+     "uid": "GN4",
+     "basis": "panjika"
+    },
+    {
+     "uid": "N1",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "sri-nrsimha-caturdasi",
+   "name": "Śrī Nṛsiṁha Caturdaśī",
+   "months": [
+    "May"
+   ],
+   "dates": [
+    "2022-05-15",
+    "2023-05-04",
+    "2024-05-22"
+   ],
+   "songs": [
+    {
+     "uid": "VT2",
+     "basis": "panjika"
+    },
+    {
+     "uid": "VT8",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "sri-rama-navami",
+   "name": "Śrī Rāma Navamī",
+   "months": [
+    "Mar",
+    "Apr"
+   ],
+   "dates": [
+    "2015-03-28",
+    "2016-04-15",
+    "2017-04-05",
+    "2019-04-14",
+    "2020-04-02",
+    "2021-04-21",
+    "2022-04-10",
+    "2024-04-17",
+    "2026-03-27",
+    "2027-04-15"
+   ],
+   "songs": [
+    {
+     "uid": "VT1",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "sri-sarasvati-puja",
+   "name": "Śrī Sarasvatī Pūjā",
+   "months": [
+    "Jan",
+    "Feb"
+   ],
+   "dates": [
+    "2012-01-28",
+    "2015-01-25",
+    "2016-02-13",
+    "2017-02-01",
+    "2018-01-22",
+    "2019-02-10",
+    "2020-01-30",
+    "2021-02-16",
+    "2022-02-06",
+    "2023-01-26",
+    "2024-02-14",
+    "2025-02-03",
+    "2027-02-11"
+   ],
+   "songs": []
+  },
+  {
+   "id": "sri-varaha-dvadasi",
+   "name": "Śrī Varāha-dvādaśī",
+   "months": [
+    "Feb"
+   ],
+   "dates": [
+    "2020-02-05",
+    "2022-02-13",
+    "2023-02-02",
+    "2027-02-18"
+   ],
+   "songs": []
+  },
+  {
+   "id": "sri-visvarupa-mahotsava",
+   "name": "Śrī Viśvarūpa Mahotsava",
+   "months": [
+    "Sep"
+   ],
+   "dates": [
+    "2012-09-30",
+    "2013-09-19",
+    "2014-09-09",
+    "2015-09-28",
+    "2016-09-16",
+    "2017-09-06",
+    "2018-09-25",
+    "2019-09-14",
+    "2020-09-02",
+    "2021-09-21",
+    "2022-09-10",
+    "2023-09-29",
+    "2024-09-18",
+    "2026-09-26"
+   ],
+   "songs": []
+  },
+  {
+   "id": "sri-vamana-dvadasi",
+   "name": "Śrī Vāmana Dvādaśī",
+   "months": [
+    "Sep"
+   ],
+   "dates": [
+    "2021-09-18",
+    "2022-09-07",
+    "2023-09-26",
+    "2024-09-15",
+    "2026-09-23"
+   ],
+   "songs": []
+  },
+  {
+   "id": "sri-siva-ratri",
+   "name": "Śrī Śiva-rātri",
+   "months": [
+    "Feb",
+    "Mar"
+   ],
+   "dates": [
+    "2012-02-20",
+    "2014-02-28",
+    "2015-02-18",
+    "2016-03-08",
+    "2017-02-25",
+    "2018-02-14",
+    "2019-03-05",
+    "2020-02-22",
+    "2021-03-12",
+    "2022-03-01",
+    "2023-02-19",
+    "2024-03-09",
+    "2025-02-27",
+    "2027-03-07"
+   ],
+   "songs": []
+  },
+  {
+   "id": "sri-sri-radhastami",
+   "name": "Śrī Śrī Rādhāṣṭamī",
+   "months": [
+    "Aug",
+    "Sep"
+   ],
+   "dates": [
+    "2012-09-23",
+    "2013-09-13",
+    "2014-09-02",
+    "2015-09-21",
+    "2016-09-09",
+    "2017-08-29",
+    "2018-09-17",
+    "2019-09-06",
+    "2020-08-26",
+    "2021-09-14",
+    "2022-09-04",
+    "2023-09-23",
+    "2024-09-11",
+    "2026-09-19"
+   ],
+   "songs": [
+    {
+     "uid": "R1",
+     "basis": "panjika"
+    },
+    {
+     "uid": "R2",
+     "basis": "panjika"
+    },
+    {
+     "uid": "R21",
+     "basis": "panjika"
+    },
+    {
+     "uid": "R3",
+     "basis": "panjika"
+    },
+    {
+     "uid": "R6",
+     "basis": "panjika"
+    }
+   ]
+  },
+  {
+   "id": "saradiya-rasa-yatra",
+   "name": "Śāradīya Rāsa-yātrā",
+   "months": [
+    "Oct"
+   ],
+   "dates": [
+    "2013-10-18",
+    "2014-10-08",
+    "2015-10-27",
+    "2016-10-16",
+    "2017-10-05",
+    "2019-10-13",
+    "2020-10-31",
+    "2021-10-20",
+    "2022-10-09"
+   ],
+   "songs": [
+    {
+     "uid": "SB1",
+     "basis": "panjika"
+    }
+   ]
+  }
+ ]
+}

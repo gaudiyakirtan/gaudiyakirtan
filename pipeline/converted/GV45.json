@@ -1,0 +1,1611 @@
+{
+ "uid": "GV45",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "শুনিয়াছি সাধুমুখে"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "śuniyāchi sādhumukhe"
+  }
+ ],
+ "author_uid": "ndt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Narottama dāsa Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "śuniyāchi sādhumukhe bale sarbajana",
+    "śrīrūpa[FLAG_HYPHEN_ALPHA]kṛpāya mile yugala[FLAG_HYPHEN_ALPHA]caraṇa 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "I have heard from the lips of the sādhus—all of them contend—that by Śrī Rūpa’s mercy one can attain the lotus feet of the Divine Couple."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śuniyāchi",
+       "I have heard"
+      ],
+      [
+       "sādhumukhe",
+       "saintly persons + from the lips"
+      ],
+      [
+       "bale",
+       "they say"
+      ],
+      [
+       "sarbajana",
+       "all + persons"
+      ],
+      [
+       "śrīrūpa",
+       "Śrī Rūpa Gosvāmī"
+      ],
+      [
+       "kṛpāya",
+       "by the mercy"
+      ],
+      [
+       "mile",
+       "attains"
+      ],
+      [
+       "yugala",
+       "the Divine Couple"
+      ],
+      [
+       "caraṇa",
+       "feet"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "शुनियाछि",
+       "I have heard"
+      ],
+      [
+       "साधुमुखॆ",
+       "saintly persons + from the lips"
+      ],
+      [
+       "बलॆ",
+       "they say"
+      ],
+      [
+       "सर्बजन",
+       "all + persons"
+      ],
+      [
+       "श्रीरूप",
+       "Śrī Rūpa Gosvāmī"
+      ],
+      [
+       "क्ड़्पाय",
+       "by the mercy"
+      ],
+      [
+       "मिलॆ",
+       "attains"
+      ],
+      [
+       "युगल",
+       "the Divine Couple"
+      ],
+      [
+       "चरण",
+       "feet"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শুনিয়াছি",
+       "I have heard"
+      ],
+      [
+       "সাধুমুখে",
+       "saintly persons + from the lips"
+      ],
+      [
+       "বলে",
+       "they say"
+      ],
+      [
+       "সর্বজন",
+       "all + persons"
+      ],
+      [
+       "শ্রীরূপ",
+       "Śrī Rūpa Gosvāmī"
+      ],
+      [
+       "ক্ড়্পায়",
+       "by the mercy"
+      ],
+      [
+       "মিলে",
+       "attains"
+      ],
+      [
+       "যুগল",
+       "the Divine Couple"
+      ],
+      [
+       "চরণ",
+       "feet"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શુનિયાછિ",
+       "I have heard"
+      ],
+      [
+       "સાધુમુખે",
+       "saintly persons + from the lips"
+      ],
+      [
+       "બલે",
+       "they say"
+      ],
+      [
+       "સર્બજન",
+       "all + persons"
+      ],
+      [
+       "શ્રીરૂપ",
+       "Śrī Rūpa Gosvāmī"
+      ],
+      [
+       "ક્ડ઼્પાય",
+       "by the mercy"
+      ],
+      [
+       "મિલે",
+       "attains"
+      ],
+      [
+       "યુગલ",
+       "the Divine Couple"
+      ],
+      [
+       "ચરણ",
+       "feet"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शुनियाछि साधुमुखॆ बलॆ सर्बजन",
+      "श्रीरूपक्ड़्पाय मिलॆ युगलचरण १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শুনিয়াছি সাধুমুখে বলে সর্বজন",
+      "শ্রীরূপক্ড়্পায় মিলে যুগলচরণ ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶୁନିୟାଛି ସାଧୁମୁଖେ ବଲେ ସର୍ବଜନ",
+      "ଶ୍ରୀରୂପକ୍ଡ଼୍ପାୟ ମିଲେ ଯୁଗଲଚରଣ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શુનિયાછિ સાધુમુખે બલે સર્બજન",
+      "શ્રીરૂપક્ડ઼્પાય મિલે યુગલચરણ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śuniyāchi sādhumukhe bale sarbajana",
+      "śrīrūpa-kṛpāya mile yugala-caraṇa 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶುನಿಯಾಛಿ ಸಾಧುಮುಖೆ ಬಲೆ ಸರ್ಬಜನ",
+      "ಶ್ರೀರೂಪಕ್‌ಡ಼್ಪಾಯ ಮಿಲೆ ಯುಗಲಚರಣ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శునియాఛి సాధుముఖె బలె సర్బజన",
+      "శ్రీరూపక్డ్పాయ మిలె యుగలచరణ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́унийа̄чхи са̄дхумукхэ̆ балэ̆ сарбаджана",
+      "ш́рӣрӯпакр̤па̄йа милэ̆ йугалачаран̣а 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശുനിയാഛി സാധുമുഖെ ബലെ സർബജന",
+      "ശ്രീരൂപക്ഡ്പായ മിലെ യുഗലചരണ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶுனியாசி² ஸாது⁴முகெ² ப³லெ ஸர்ப³ஜன",
+      "ஶ்ரீரூபக்ஃட்²பாய மிலெ யுக³லசரண 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śuniyāchi sādhumukhe bale sarbajana",
+      "śrīrūpa-kṛpāya mile yugala-caraṇa 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śuniyāchi sādhumukhe bale sarbajana",
+      "śrīrūpa-kṛpāya mile yugala-caraṇa 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "hā! hā! prabhu sanātana[FLAG_HYPHEN_ALPHA]gaura[FLAG_HYPHEN_ALPHA]paribāra",
+    "sabe mili’ bāñchāpūrṇa karaha āmāra 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Sanātana Prabhu! O personal associates of Gaurāṅga! Together, all of you please fulfill my desires."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hā hā",
+       "alas"
+      ],
+      [
+       "prabhu sanātana",
+       "O Sanātana Prabhu"
+      ],
+      [
+       "gaura paribāra",
+       "O personal associates of Gaurāṅga"
+      ],
+      [
+       "sabe",
+       "all of you"
+      ],
+      [
+       "mili’",
+       "having united, combined, assembled"
+      ],
+      [
+       "bāñchāpūrṇa",
+       "desires + all / completely"
+      ],
+      [
+       "karaha",
+       "fulfil"
+      ],
+      [
+       "āmāra",
+       "my"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हा हा",
+       "alas"
+      ],
+      [
+       "प्रभु सनातन",
+       "O Sanātana Prabhu"
+      ],
+      [
+       "गौर परिबार",
+       "O personal associates of Gaurāṅga"
+      ],
+      [
+       "सबॆ",
+       "all of you"
+      ],
+      [
+       "मिलिऽ",
+       "having united, combined, assembled"
+      ],
+      [
+       "बाञ्छापूर्ण",
+       "desires + all / completely"
+      ],
+      [
+       "करह",
+       "fulfil"
+      ],
+      [
+       "आमार",
+       "my"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হা হা",
+       "alas"
+      ],
+      [
+       "প্রভু সনাতন",
+       "O Sanātana Prabhu"
+      ],
+      [
+       "গৌর পরিবার",
+       "O personal associates of Gaurāṅga"
+      ],
+      [
+       "সবে",
+       "all of you"
+      ],
+      [
+       "মিলিঽ",
+       "having united, combined, assembled"
+      ],
+      [
+       "বাঞ্ছাপূর্ণ",
+       "desires + all / completely"
+      ],
+      [
+       "করহ",
+       "fulfil"
+      ],
+      [
+       "আমার",
+       "my"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હા હા",
+       "alas"
+      ],
+      [
+       "પ્રભુ સનાતન",
+       "O Sanātana Prabhu"
+      ],
+      [
+       "ગૌર પરિબાર",
+       "O personal associates of Gaurāṅga"
+      ],
+      [
+       "સબે",
+       "all of you"
+      ],
+      [
+       "મિલિઽ",
+       "having united, combined, assembled"
+      ],
+      [
+       "બાઞ્છાપૂર્ણ",
+       "desires + all / completely"
+      ],
+      [
+       "કરહ",
+       "fulfil"
+      ],
+      [
+       "આમાર",
+       "my"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हा! हा! प्रभु सनातनगौरपरिबार",
+      "सबॆ मिलिऽ बाञ्छापूर्ण करह आमार २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হা! হা! প্রভু সনাতনগৌরপরিবার",
+      "সবে মিলিঽ বাঞ্ছাপূর্ণ করহ আমার ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହା! ହା! ପ୍ରଭୁ ସନାତନଗୌରପରିବାର",
+      "ସବେ ମିଲିଽ ବାଞ୍ଛାପୂର୍ଣ କରହ ଆମାର ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હા! હા! પ્રભુ સનાતનગૌરપરિબાર",
+      "સબે મિલિઽ બાઞ્છાપૂર્ણ કરહ આમાર ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hā! hā! prabhu sanātana-gaura-paribāra",
+      "sabe mili’ bāñchāpūrṇa karaha āmāra 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹಾ! ಹಾ! ಪ್ರಭು ಸನಾತನಗೌರಪರಿಬಾರ",
+      "ಸಬೆ ಮಿಲಿಽ ಬಾಂಛಾಪೂರ್ಣ ಕರಹ ಆಮಾರ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హా! హా! ప్రభు సనాతనగౌరపరిబార",
+      "సబె మిలిఽ బాంఛాపూర్ణ కరహ ఆమార 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ха̄! ха̄! прабху сана̄танагаурапариба̄ра",
+      "сабэ̆ мили' ба̄н̃чха̄пӯрн̣а караха а̄ма̄ра 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹാ! ഹാ! പ്രഭു സനാതനഗൗരപരിബാര",
+      "സബെ മിലിഽ ബാഞ്ഛാപൂർണ കരഹ ആമാര 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹா! ஹா! ப்ரபு⁴ ஸனாதனகௌ³ரபரிபா³ர",
+      "ஸபெ³ மிலி(அ) பா³ஞ்சா²பூர்ண கரஹ ஆமார 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hā! hā! prabhu sanātana-gaura-paribāra",
+      "sabe mili’ bāñchāpūrṇa karaha āmāra 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hā! hā! prabhu sanātana-gaura-paribāra",
+      "sabe mili’ bāñchāpūrṇa karaha āmāra 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "śrīrūpera kṛpā yena āmā prati haya",
+    "se[FLAG_HYPHEN_ALPHA]pada āśraya yā’ra, sei mahāśaya 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "May the mercy of Śrī Rūpa fall upon me. Whoever takes shelter of Śrī Rūpa’s lotus feet is a great personality."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śrīrūpera",
+       "of Śrī Rūpa"
+      ],
+      [
+       "kṛpā",
+       "mercy"
+      ],
+      [
+       "yena",
+       "such that"
+      ],
+      [
+       "āmā",
+       "me"
+      ],
+      [
+       "prati",
+       "to"
+      ],
+      [
+       "haya",
+       "be"
+      ],
+      [
+       "se",
+       "those"
+      ],
+      [
+       "pada",
+       "feet"
+      ],
+      [
+       "āśraya",
+       "shelter"
+      ],
+      [
+       "yā’ra",
+       "whose"
+      ],
+      [
+       "sei",
+       "he"
+      ],
+      [
+       "mahāśaya",
+       "a great personality"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "श्रीरूपॆर",
+       "of Śrī Rūpa"
+      ],
+      [
+       "क्ड़्पा",
+       "mercy"
+      ],
+      [
+       "यॆन",
+       "such that"
+      ],
+      [
+       "आमा",
+       "me"
+      ],
+      [
+       "प्रति",
+       "to"
+      ],
+      [
+       "हय",
+       "be"
+      ],
+      [
+       "सॆ",
+       "those"
+      ],
+      [
+       "पद",
+       "feet"
+      ],
+      [
+       "आश्रय",
+       "shelter"
+      ],
+      [
+       "याऽर",
+       "whose"
+      ],
+      [
+       "सॆइ",
+       "he"
+      ],
+      [
+       "महाशय",
+       "a great personality"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শ্রীরূপের",
+       "of Śrī Rūpa"
+      ],
+      [
+       "ক্ড়্পা",
+       "mercy"
+      ],
+      [
+       "যেন",
+       "such that"
+      ],
+      [
+       "আমা",
+       "me"
+      ],
+      [
+       "প্রতি",
+       "to"
+      ],
+      [
+       "হয়",
+       "be"
+      ],
+      [
+       "সে",
+       "those"
+      ],
+      [
+       "পদ",
+       "feet"
+      ],
+      [
+       "আশ্রয়",
+       "shelter"
+      ],
+      [
+       "যাঽর",
+       "whose"
+      ],
+      [
+       "সেই",
+       "he"
+      ],
+      [
+       "মহাশয়",
+       "a great personality"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શ્રીરૂપેર",
+       "of Śrī Rūpa"
+      ],
+      [
+       "ક્ડ઼્પા",
+       "mercy"
+      ],
+      [
+       "યેન",
+       "such that"
+      ],
+      [
+       "આમા",
+       "me"
+      ],
+      [
+       "પ્રતિ",
+       "to"
+      ],
+      [
+       "હય",
+       "be"
+      ],
+      [
+       "સે",
+       "those"
+      ],
+      [
+       "પદ",
+       "feet"
+      ],
+      [
+       "આશ્રય",
+       "shelter"
+      ],
+      [
+       "યાઽર",
+       "whose"
+      ],
+      [
+       "સેઇ",
+       "he"
+      ],
+      [
+       "મહાશય",
+       "a great personality"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्रीरूपॆर क्ड़्पा यॆन आमा प्रति हय",
+      "सॆपद आश्रय याऽर, सॆइ महाशय ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্রীরূপের ক্ড়্পা যেন আমা প্রতি হয়",
+      "সেপদ আশ্রয় যাঽর, সেই মহাশয় ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ରୀରୂପେର କ୍ଡ଼୍ପା ଯେନ ଆମା ପ୍ରତି ହୟ",
+      "ସେପଦ ଆଶ୍ରୟ ଯାଽର, ସେଇ ମହାଶୟ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્રીરૂપેર ક્ડ઼્પા યેન આમા પ્રતિ હય",
+      "સેપદ આશ્રય યાઽર, સેઇ મહાશય ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śrīrūpera kṛpā yena āmā prati haya",
+      "se-pada āśraya yā’ra, sei mahāśaya 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ರೀರೂಪೆರ ಕ್‌ಡ಼್ಪಾ ಯೆನ ಆಮಾ ಪ್ರತಿ ಹಯ",
+      "ಸೆಪದ ಆಶ್ರಯ ಯಾಽರ, ಸೆಇ ಮಹಾಶಯ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్రీరూపెర క్డ్పా యెన ఆమా ప్రతి హయ",
+      "సెపద ఆశ్రయ యాఽర, సెఇ మహాశయ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́рӣрӯпэ̆ра кр̤па̄ йэ̆на а̄ма̄ прати хайа",
+      "сэ̆пада а̄ш́райа йа̄'ра, сэ̆и маха̄ш́айа 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്രീരൂപെര ക്ഡ്പാ യെന ആമാ പ്രതി ഹയ",
+      "സെപദ ആശ്രയ യാഽര, സെഇ മഹാശയ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்ரீரூபெர க்ஃட்²பா யென ஆமா ப்ரதி ஹய",
+      "ஸெபத³ ஆஶ்ரய யா(அ)ர, ஸெஇ மஹாஶய 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śrīrūpera kṛpā yena āmā prati haya",
+      "se-pada āśraya yā’ra, sei mahāśaya 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śrīrūpera kṛpā yena āmā prati haya",
+      "se-pada āśraya yā’ra, sei mahāśaya 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "prabhu lokanātha kabe saṅge layā yābe",
+    "śrīrūpera pādapadme more samarpibe 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "When will my master, Śrī Lokanātha Gosvāmī, take me with him and offer me at Śrī Rūpa's lotus feet?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "prabhu",
+       "master"
+      ],
+      [
+       "lokanātha",
+       "Śrī Lokanātha Gosvāmī"
+      ],
+      [
+       "kabe",
+       "when"
+      ],
+      [
+       "saṅge",
+       "with"
+      ],
+      [
+       "layā",
+       "having taken"
+      ],
+      [
+       "yābe",
+       "will go"
+      ],
+      [
+       "śrīrūpera",
+       "Śrī Rūpa's"
+      ],
+      [
+       "pādapadme",
+       "at the lotus feet"
+      ],
+      [
+       "more",
+       "to me"
+      ],
+      [
+       "samarpibe",
+       "he will offer"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "प्रभु",
+       "master"
+      ],
+      [
+       "लॊकनाथ",
+       "Śrī Lokanātha Gosvāmī"
+      ],
+      [
+       "कबॆ",
+       "when"
+      ],
+      [
+       "सङ्गॆ",
+       "with"
+      ],
+      [
+       "लया",
+       "having taken"
+      ],
+      [
+       "याबॆ",
+       "will go"
+      ],
+      [
+       "श्रीरूपॆर",
+       "Śrī Rūpa's"
+      ],
+      [
+       "पादपद्मॆ",
+       "at the lotus feet"
+      ],
+      [
+       "मॊरॆ",
+       "to me"
+      ],
+      [
+       "समर्पिबॆ",
+       "he will offer"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "প্রভু",
+       "master"
+      ],
+      [
+       "লোকনাথ",
+       "Śrī Lokanātha Gosvāmī"
+      ],
+      [
+       "কবে",
+       "when"
+      ],
+      [
+       "সঙ্গে",
+       "with"
+      ],
+      [
+       "লয়া",
+       "having taken"
+      ],
+      [
+       "যাবে",
+       "will go"
+      ],
+      [
+       "শ্রীরূপের",
+       "Śrī Rūpa's"
+      ],
+      [
+       "পাদপদ্মে",
+       "at the lotus feet"
+      ],
+      [
+       "মোরে",
+       "to me"
+      ],
+      [
+       "সমর্পিবে",
+       "he will offer"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "પ્રભુ",
+       "master"
+      ],
+      [
+       "લોકનાથ",
+       "Śrī Lokanātha Gosvāmī"
+      ],
+      [
+       "કબે",
+       "when"
+      ],
+      [
+       "સઙ્ગે",
+       "with"
+      ],
+      [
+       "લયા",
+       "having taken"
+      ],
+      [
+       "યાબે",
+       "will go"
+      ],
+      [
+       "શ્રીરૂપેર",
+       "Śrī Rūpa's"
+      ],
+      [
+       "પાદપદ્મે",
+       "at the lotus feet"
+      ],
+      [
+       "મોરે",
+       "to me"
+      ],
+      [
+       "સમર્પિબે",
+       "he will offer"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "प्रभु लॊकनाथ कबॆ सङ्गॆ लया याबॆ",
+      "श्रीरूपॆर पादपद्मॆ मॊरॆ समर्पिबॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "প্রভু লোকনাথ কবে সঙ্গে লয়া যাবে",
+      "শ্রীরূপের পাদপদ্মে মোরে সমর্পিবে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପ୍ରଭୁ ଲୋକନାଥ କବେ ସଙ୍ଗେ ଲୟା ଯାବେ",
+      "ଶ୍ରୀରୂପେର ପାଦପଦ୍ମେ ମୋରେ ସମର୍ପିବେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પ્રભુ લોકનાથ કબે સઙ્ગે લયા યાબે",
+      "શ્રીરૂપેર પાદપદ્મે મોરે સમર્પિબે ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "prabhu lokanātha kabe saṅge layā yābe",
+      "śrīrūpera pādapadme more samarpibe 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪ್ರಭು ಲೊಕನಾಥ ಕಬೆ ಸಂಗೆ ಲಯಾ ಯಾಬೆ",
+      "ಶ್ರೀರೂಪೆರ ಪಾದಪದ್ಮೆ ಮೊರೆ ಸಮರ್ಪಿಬೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ప్రభు లొకనాథ కబె సంగె లయా యాబె",
+      "శ్రీరూపెర పాదపద్మె మొరె సమర్పిబె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "прабху ло̆кана̄тха кабэ̆ сан̇гэ̆ лайа̄ йа̄бэ̆",
+      "ш́рӣрӯпэ̆ра па̄дападмэ̆ мо̆рэ̆ самарпибэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പ്രഭു ലൊകനാഥ കബെ സംഗെ ലയാ യാബെ",
+      "ശ്രീരൂപെര പാദപദ്മെ മൊരെ സമർപിബെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்ரபு⁴ லொகநாத² கபெ³ ஸங்கெ³ லயா யாபெ³",
+      "ஶ்ரீரூபெர பாத³பத்³மெ மொரெ ஸமர்பிபெ³ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "prabhu lokanātha kabe saṅge layā yābe",
+      "śrīrūpera pādapadme more samarpibe 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "prabhu lokanātha kabe saṅge layā yābe",
+      "śrīrūpera pādapadme more samarpibe 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "hena ki ha·ibe mora—narmasakhīgaṇe",
+    "anugata narottame karibe śāsane 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Will such a destiny ever be mine that, through their instructions, the narma-sakhīs make Narottama their faithful follower?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hena",
+       "such"
+      ],
+      [
+       "ki",
+       "[used as an auxiliary interrogative word]"
+      ],
+      [
+       "ha·ibe",
+       "will be"
+      ],
+      [
+       "mora",
+       "mine"
+      ],
+      [
+       "narmasakhīgaṇe",
+       "the priyanarma-sakhīs"
+      ],
+      [
+       "anugata",
+       "follower"
+      ],
+      [
+       "narottame",
+       "to Narottama dāsa"
+      ],
+      [
+       "karibe śāsane",
+       "they will instruct, discipline"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हॆन",
+       "such"
+      ],
+      [
+       "कि",
+       "[used as an auxiliary interrogative word]"
+      ],
+      [
+       "हइबॆ",
+       "will be"
+      ],
+      [
+       "मॊर",
+       "mine"
+      ],
+      [
+       "नर्मसखीगणॆ",
+       "the priyanarma-sakhīs"
+      ],
+      [
+       "अनुगत",
+       "follower"
+      ],
+      [
+       "नरॊत्तमॆ",
+       "to Narottama dāsa"
+      ],
+      [
+       "करिबॆ शासनॆ",
+       "they will instruct, discipline"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হেন",
+       "such"
+      ],
+      [
+       "কি",
+       "[used as an auxiliary interrogative word]"
+      ],
+      [
+       "হইবে",
+       "will be"
+      ],
+      [
+       "মোর",
+       "mine"
+      ],
+      [
+       "নর্মসখীগণে",
+       "the priyanarma-sakhīs"
+      ],
+      [
+       "অনুগত",
+       "follower"
+      ],
+      [
+       "নরোত্তমে",
+       "to Narottama dāsa"
+      ],
+      [
+       "করিবে শাসনে",
+       "they will instruct, discipline"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હેન",
+       "such"
+      ],
+      [
+       "કિ",
+       "[used as an auxiliary interrogative word]"
+      ],
+      [
+       "હઇબે",
+       "will be"
+      ],
+      [
+       "મોર",
+       "mine"
+      ],
+      [
+       "નર્મસખીગણે",
+       "the priyanarma-sakhīs"
+      ],
+      [
+       "અનુગત",
+       "follower"
+      ],
+      [
+       "નરોત્તમે",
+       "to Narottama dāsa"
+      ],
+      [
+       "કરિબે શાસને",
+       "they will instruct, discipline"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हॆन कि हइबॆ मॊर—नर्मसखीगणॆ",
+      "अनुगत नरॊत्तमॆ करिबॆ शासनॆ ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হেন কি হইবে মোর—নর্মসখীগণে",
+      "অনুগত নরোত্তমে করিবে শাসনে ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହେନ କି ହଇବେ ମୋର—ନର୍ମସଖୀଗଣେ",
+      "ଅନୁଗତ ନରୋତ୍ତମେ କରିବେ ଶାସନେ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હેન કિ હઇબે મોર—નર્મસખીગણે",
+      "અનુગત નરોત્તમે કરિબે શાસને ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hena ki ha·ibe mora—narmasakhīgaṇe",
+      "anugata narottame karibe śāsane 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹೆನ ಕಿ ಹಇಬೆ ಮೊರ—ನರ್ಮಸಖೀಗಣೆ",
+      "ಅನುಗತ ನರೊತ್ತಮೆ ಕರಿಬೆ ಶಾಸನೆ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హెన కి హఇబె మొర—నర్మసఖీగణె",
+      "అనుగత నరొత్తమె కరిబె శాసనె 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хэ̆на ки хаибэ̆ мо̆ра—нармасакхӣган̣э̆",
+      "анугата наро̆ттамэ̆ карибэ̆ ш́а̄санэ̆ 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹെന കി ഹഇബെ മൊര—നർമസഖീഗണെ",
+      "അനുഗത നരൊത്തമെ കരിബെ ശാസനെ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹென கி ஹஇபெ³ மொர—நர்மஸகீ²க³ணெ",
+      "அனுக³த நரொத்தமெ கரிபெ³ ஶாஸனெ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hena ki ha·ibe mora—narmasakhīgaṇe",
+      "anugata narottame karibe śāsane 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hena ki ha·ibe mora—narmasakhīgaṇe",
+      "anugata narottame karibe śāsane 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "śrīrūpa[FLAG_HYPHEN_ALPHA]sanātane dainyamayī prārthanā"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्रीरूपसनातनॆ दैन्यमयी प्रार्थना"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্রীরূপসনাতনে দৈন্যময়ী প্রার্থনা"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ରୀରୂପସନାତନେ ଦୈନ୍ୟମୟୀ ପ୍ରାର୍ଥନା"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્રીરૂપસનાતને દૈન્યમયી પ્રાર્થના"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śrīrūpa-sanātane dainyamayī prārthanā"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ರೀರೂಪಸನಾತನೆ ದೈನ್ಯಮಯೀ ಪ್ರಾರ್ಥನಾ"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్రీరూపసనాతనె దైన్యమయీ ప్రార్థనా"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́рӣрӯпасана̄танэ̆ даинйамайӣ пра̄ртхана̄"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്രീരൂപസനാതനെ ദൈന്യമയീ പ്രാർഥനാ"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்ரீரூபஸனாதனெ தை³ன்யமயீ ப்ரார்த²னா"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śrīrūpa-sanātane dainyamayī prārthanā"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śrīrūpa-sanātane dainyamayī prārthanā"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শ্রীরূপানুগত্য-মাহাত্ম্য<br>"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "krsn-1",
+   "filename": "GV45-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "srrb-1",
+   "filename": "GV45-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ],
+ "tags": [
+  "The Six Gosvāmīs",
+  "Śrī Rūpānugatya-mahatmya"
+ ]
+}

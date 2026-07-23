@@ -1,0 +1,210 @@
+{
+  "uid": "S27", // Unique Identifier for the song
+  "language_of_origin": "ben", // ISO 639-3 code for the original language of the song's lyrics
+
+  // Main display titles for the song.
+  // Each object represents the title in a specific script and (if Latn) transliteration standard.
+  // The underlying language of these titles is implied by `language_of_origin`.
+  "title_main": [
+    {
+      "script_code": "Beng", // Bengali script
+      "text": "আত্ম-সমর্পণে গেলা অভিমান"
+    },
+    {
+      "script_code": "Latn", // Latin script
+      "standard": "IAST", // IAST transliteration standard
+      "text": "Ātma-samarpaṇe Gelā Abhimāna"
+    },
+    {
+      "script_code": "Deva", // Devanagari script (transliteration of Bengali)
+      "text": "आत्म-समर्पणे गेला अभिमान"
+    }
+  ],
+  // Title as found in the original source material, including its specific language and script.
+  "source_title": {
+    "language_code": "ben",
+    "script_code": "Beng",
+    "text": "আত্ম-সমর্পণে গেলা অভিমান"
+  },
+
+  "author_uid": "bt", // UID linking to a separate, global authors collection/database
+  // Main display names for the author.
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "ভক্তিবিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "Simple_Roman_Eng", // A simplified Latin for broader English audience
+      "text": "Bhaktivinoda Thakura"
+    }
+  ],
+  // Author's name as found in the original source material.
+  "source_author": {
+    "language_code": "ben",
+    "script_code": "Beng",
+    "text": "শ্রী ভক্তিবিনোদ ঠাকুর"
+  },
+
+  // Array of TopicInstance objects associated with this song.
+  // Each topic has a UID (linking to a global topic definition) and its display names.
+  "topics": [
+    {
+      "uid": "saranagati", // UID for the topic "Śaraṇāgati/Surrender"
+      "display_names": [
+        { "script_code": "Latn", "standard": "IAST", "text": "Śaraṇāgati" },
+        { "script_code": "Deva", "text": "शरणागति" },
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "text": "Self-Surrender"
+        } // An English name for the topic
+      ]
+    },
+    {
+      "uid": "krishna_bhakti",
+      "display_names": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "text": "Devotion to Krishna"
+        },
+        { "script_code": "Beng", "text": "কৃষ্ণ-ভক্তি" }
+      ]
+    }
+  ],
+
+  "audio_available": true, // Boolean indicating if audio files exist for this song
+  "audio_files": [
+    // Array of audio file objects
+    {
+      "uid": "B6-bvsm-1", // Unique ID for this specific audio recording
+      "filename": "B6-bvsm-1.mp3", // Filename on server/CDN
+      "artist_code": "bvsm", // Code linking to a global artist entity
+      "artist_display": [
+        // How the artist's name is displayed for this track (can be multilingual/multiscript)
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": "Śrīla BV Svāmī Prabhupāda"
+        },
+        { "script_code": "Beng", "text": "শ্রীল বি.ভি. স্বামী প্রভুপাদ" }
+      ],
+      "duration_seconds": 365, // Duration of the audio in seconds
+    }
+  ],
+
+  "related_songs_uids": ["B5", "C12"], // Optional: Array of UIDs for related songs
+  // Information about the poetic meter of the song.
+  "meter_info": {
+    "uid": "payar_meter", // UID linking to a global meter definition
+    "name_scripted": [
+      // Name of the meter in various scripts/transliterations
+      { "script_code": "Latn", "standard": "IAST", "text": "Payār" },
+      { "script_code": "Beng", "text": "পয়ার" }
+    ]
+  },
+  // Optional information about where this song version/text is published.
+  "publication_info": {
+    "book_title_scripted": [
+      { "script_code": "Latn", "standard": "IAST", "text": "Śaraṇāgati" },
+      { "script_code": "Beng", "text": "শরণাগতি" }
+    ],
+    "edition": "1999 BBT Print",
+    "page_number": "42"
+  },
+  // Optional: For song-specific glossaries, explanations, or historical context.
+  // These are typically translations in a specific language.
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- জাম্বুল রসাল—তাম্বুল-সেবাকারী দুই সেবক..."
+    },
+    {
+      "language_code": "eng",
+      "text": "Glossary: Jāmbula Rasāla—two servants offering betel..."
+    }
+  ],
+
+  "verses": [
+    // Array of verse objects
+    {
+      "verse_number": 1, // Optional, for explicit ordering
+      // The MASTER SOURCE text for this verse in Flagged ISO 15919 Latin.
+      // Language is implied by the top-level `language_of_origin`.
+      "source_text_master": [
+        "ātma-samarpane[FLAG_PULLBACK_A] gelā[FLAG_HYPHEN_ALPHA] abhimān[FLAG_DROPPED_VOWEL_BENG]",
+        "nāhi korobuṁ nija rakhṣā-vidhān"
+      ],
+      // Transliterations of this verse into different display scripts, generated from source_text_master.
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "text": ["आत्म-समर्पणे गेला अभिमान", "नाहि कोरोबुं निज रक्षा-विधान"]
+        },
+        {
+          "script_code": "Beng",
+          "text": ["আত্ম-সমর্পণে গেলা অভিমান", "নাহি কোরোবুঁ নিজ রক্ষা বিধান"]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ātma-samarpane gelā abhimān",
+            "nāhi korobuṁ nija rakṣā-vidhān"
+          ]
+        }
+      ],
+      // Word-to-word meanings for this verse.
+      "word_to_words": [
+        {
+          "language_code": "eng", // Meanings are in English
+          "script_code": "Latn", // Source words displayed in Latin script
+          "standard": "IAST", // Using IAST standard for the displayed source words
+          "words": [
+            // Array of [source_word_segment, meaning_in_target_language]
+            ["ātma-samarpane", "by/in self-surrender"],
+            ["gelā", "went away"],
+            ["abhimān", "false pride / conceit"],
+            ["nāhi", "not"],
+            ["korobuṁ", "I will do"],
+            ["nija", "own"],
+            ["rakhṣā-vidhān", "arrangement for protection"]
+          ]
+        },
+        {
+          "language_code": "hin", // Meanings are in Hindi
+          "script_code": "Deva", // Source words displayed in Devanagari script
+          "words": [
+            ["आत्म-समर्पणे", "आत्म-समर्पण से"],
+            ["गेला", "चला गया"]
+          ]
+        }
+      ],
+      // Full translations of this verse into different languages.
+      "translations": [
+        {
+          "language_code": "eng", // Translation is in English
+          "text": [
+            "Surrendering to You lifted from me the burden of false pride.",
+            "No longer will I try to secure my own well-being."
+          ]
+        },
+        {
+          "language_code": "hin", // Translation is in Hindi
+          "text": [
+            "आत्म-समर्पण से मेरा अभिमान दूर हो गया है।",
+            "अब मैं अपनी सुरक्षा की व्यवस्था स्वयं नहीं करूंगा।"
+          ]
+        }
+      ]
+    }
+    // ... other verses for this song
+  ]
+}

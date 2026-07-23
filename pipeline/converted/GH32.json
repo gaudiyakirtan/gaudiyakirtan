@@ -1,0 +1,428 @@
+{
+ "uid": "GH32",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "জয় জগন্নাথ-শচীনন্দন গৌরাঙ্গ পহুঁ"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "jaya jagannātha-śacīnandana gaurāṅga pahũ"
+  }
+ ],
+ "author_uid": "vdt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ৱৃন্দাৱন দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Vṛndāvana dāsa Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "jaya jagannātha[FLAG_HYPHEN_ALPHA]śacī[FLAG_HYPHEN_ALPHA],    nandana gaurāṅga pahũ,",
+    "jaya nityānanda premadhāma",
+    "jagat duḥkhita dekhi’,    haiyā sakaruṇa ā̃khi,",
+    "uddhārilā diyā harināma 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जय जगन्नाथशची,    नन्दन गौराङ्ग पहुं,",
+      "जय नित्यानन्द प्रॆमधाम",
+      "जगत् दुःखित दॆखिऽ,    हैया सकरुण आंखि,",
+      "उद्धारिला दिया हरिनाम १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জয় জগন্নাথশচী,    নন্দন গৌরাঙ্গ পহুং,",
+      "জয় নিত্যানন্দ প্রেমধাম",
+      "জগৎ দুঃখিত দেখিঽ,    হৈয়া সকরুণ আঙ্খি,",
+      "উদ্ধারিলা দিয়া হরিনাম ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜୟ ଜଗନ୍ନାଥଶଚୀ,    ନନ୍ଦନ ଗୌରାଙ୍ଗ ପହୁଂ,",
+      "ଜୟ ନିତ୍ୟାନନ୍ଦ ପ୍ରେମଧାମ",
+      "ଜଗତ୍ ଦୁଃଖିତ ଦେଖିଽ,    ହୈୟା ସକରୁଣ ଆଙ୍ଖି,",
+      "ଉଦ୍ଧାରିଲା ଦିୟା ହରିନାମ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જય જગન્નાથશચી,    નન્દન ગૌરાઙ્ગ પહું,",
+      "જય નિત્યાનન્દ પ્રેમધામ",
+      "જગત્ દુઃખિત દેખિઽ,    હૈયા સકરુણ આંખિ,",
+      "ઉદ્ધારિલા દિયા હરિનામ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jaya jagannātha-śacī-,    nandana gaurāṅga pahũ,",
+      "jaya nityānanda premadhāma",
+      "jagat duḥkhita dekhi’,    haiyā sakaruṇa ā̃khi,",
+      "uddhārilā diyā harināma 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜಯ ಜಗನ್ನಾಥಶಚೀ,    ನಂದನ ಗೌರಾಂಗ ಪಹುಂ,",
+      "ಜಯ ನಿತ್ಯಾನಂದ ಪ್ರೆಮಧಾಮ",
+      "ಜಗತ್ ದುಃಖಿತ ದೆಖಿಽ,    ಹೈಯಾ ಸಕರುಣ ಆಂಖಿ,",
+      "ಉದ್ಧಾರಿಲಾ ದಿಯಾ ಹರಿನಾಮ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జయ జగన్నాథశచీ,    నందన గౌరాంగ పహుం,",
+      "జయ నిత్యానంద ప్రెమధామ",
+      "జగత్ దుఃఖిత దెఖిఽ,    హైయా సకరుణ ఆంఖి,",
+      "ఉద్ధారిలా దియా హరినామ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джайа джаганна̄тхаш́ачӣ,    нандана гаура̄н̇га пахум̣,",
+      "джайа нитйа̄нанда прэ̆мадха̄ма",
+      "джагат дух̣кхита дэ̆кхи',    хаийа̄ сакарун̣а а̄м̣кхи,",
+      "уддха̄рила̄ дийа̄ харина̄ма 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജയ ജഗന്നാഥശചീ,    നന്ദന ഗൗരാംഗ പഹും,",
+      "ജയ നിത്യാനന്ദ പ്രെമധാമ",
+      "ജഗത് ദുഃഖിത ദെഖിഽ,    ഹൈയാ സകരുണ ആംഖി,",
+      "ഉദ്ധാരിലാ ദിയാ ഹരിനാമ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜய ஜக³ந்நாத²ஶசீ,    நந்த³ன கௌ³ராங்க³ பஹும்ʼ,",
+      "ஜய நித்யானந்த³ ப்ரெமதா⁴ம",
+      "ஜக³த் து³꞉கி²த தெ³கி²(அ),    ஹையா ஸகருண ஆங்கி²,",
+      "உத்³தா⁴ரிலா தி³யா ஹரிநாம 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jaya jagannātha-śacī-,    nandana gaurāṅga pahũ,",
+      "jaya nityānanda premadhāma",
+      "jagat duḥkhita dekhi’,    haiyā sakaruṇa ā̃khi,",
+      "uddhārilā diyā harināma 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jaya jagannātha-śacī-,    nandana gaurāṅga pahũ,",
+      "jaya nityānanda premadhāma",
+      "jagat duḥkhita dekhi’,    haiyā sakaruṇa ā̃khi,",
+      "uddhārilā diyā harināma 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "baikuṇṭha[FLAG_HYPHEN_ALPHA]nāyaka hari,    dbijakule abatari’,",
+    "saṅkīrtana karilā pracāra",
+    "dhanya suradhunī[FLAG_HYPHEN_ALPHA]tīre,    dhanya nabadbīpa[FLAG_HYPHEN_ALPHA]pure,",
+    "sāṅgopāṅge karilā bihāra 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बैकुण्ठनायक हरि,    द्बिजकुलॆ अबतरिऽ,",
+      "सङ्कीर्तन करिला प्रचार",
+      "धन्य सुरधुनीतीरॆ,    धन्य नबद्बीपपुरॆ,",
+      "साङ्गॊपाङ्गॆ करिला बिहार २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বৈকুণ্ঠনায়ক হরি,    দ্বিজকুলে অবতরিঽ,",
+      "সঙ্কীর্তন করিলা প্রচার",
+      "ধন্য সুরধুনীতীরে,    ধন্য নবদ্বীপপুরে,",
+      "সাঙ্গোপাঙ্গে করিলা বিহার ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବୈକୁଣ୍ଠନାୟକ ହରି,    ଦ୍ବିଜକୁଲେ ଅବତରିଽ,",
+      "ସଙ୍କୀର୍ତନ କରିଲା ପ୍ରଚାର",
+      "ଧନ୍ୟ ସୁରଧୁନୀତୀରେ,    ଧନ୍ୟ ନବଦ୍ବୀପପୁରେ,",
+      "ସାଙ୍ଗୋପାଙ୍ଗେ କରିଲା ବିହାର ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બૈકુણ્ઠનાયક હરિ,    દ્બિજકુલે અબતરિઽ,",
+      "સઙ્કીર્તન કરિલા પ્રચાર",
+      "ધન્ય સુરધુનીતીરે,    ધન્ય નબદ્બીપપુરે,",
+      "સાઙ્ગોપાઙ્ગે કરિલા બિહાર ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "baikuṇṭha-nāyaka hari,    dbijakule abatari’,",
+      "saṅkīrtana karilā pracāra",
+      "dhanya suradhunī-tīre,    dhanya nabadbīpa-pure,",
+      "sāṅgopāṅge karilā bihāra 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬೈಕುಂಠನಾಯಕ ಹರಿ,    ದ್ಬಿಜಕುಲೆ ಅಬತರಿಽ,",
+      "ಸಂಕೀರ್ತನ ಕರಿಲಾ ಪ್ರಚಾರ",
+      "ಧನ್ಯ ಸುರಧುನೀತೀರೆ,    ಧನ್ಯ ನಬದ್ಬೀಪಪುರೆ,",
+      "ಸಾಂಗೊಪಾಂಗೆ ಕರಿಲಾ ಬಿಹಾರ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బైకుంఠనాయక హరి,    ద్బిజకులె అబతరిఽ,",
+      "సంకీర్తన కరిలా ప్రచార",
+      "ధన్య సురధునీతీరె,    ధన్య నబద్బీపపురె,",
+      "సాంగొపాంగె కరిలా బిహార 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "баикун̣т̣хана̄йака хари,    дбиджакулэ̆ абатари',",
+      "сан̇кӣртана карила̄ прача̄ра",
+      "дханйа сурадхунӣтӣрэ̆,    дханйа набадбӣпапурэ̆,",
+      "са̄н̇го̆па̄н̇гэ̆ карила̄ биха̄ра 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബൈകുണ്ഠനായക ഹരി,    ദ്ബിജകുലെ അബതരിഽ,",
+      "സങ്കീർതന കരിലാ പ്രചാര",
+      "ധന്യ സുരധുനീതീരെ,    ധന്യ നബദ്ബീപപുരെ,",
+      "സാംഗൊപാംഗെ കരിലാ ബിഹാര 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பை³குண்ட²நாயக ஹரி,    த்³பி³ஜகுலெ அப³தரி(அ),",
+      "ஸங்கீர்தன கரிலா ப்ரசார",
+      "த⁴ன்ய ஸுரது⁴னீதீரெ,    த⁴ன்ய நப³த்³பீ³பபுரெ,",
+      "ஸாங்கொ³பாங்கெ³ கரிலா பி³ஹார 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "baikuṇṭha-nāyaka hari,    dbijakule abatari’,",
+      "saṅkīrtana karilā pracāra",
+      "dhanya suradhunī-tīre,    dhanya nabadbīpa-pure,",
+      "sāṅgopāṅge karilā bihāra 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "baikuṇṭha-nāyaka hari,    dbijakule abatari’,",
+      "saṅkīrtana karilā pracāra",
+      "dhanya suradhunī-tīre,    dhanya nabadbīpa-pure,",
+      "sāṅgopāṅge karilā bihāra 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "emana karuṇāsindhu,    śrīcaitanya prāṇabandhu,",
+    "pāpī pāṣaṇḍī nāhi jāne",
+    "śrīkṛṣṇacaitanyacandra,    ṭhākura śrīnityānanda,",
+    "bṛndābanadāsa guṇagāne 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎमन करुणासिन्धु,    श्रीचैतन्य प्राणबन्धु,",
+      "पापी पाषण्डी नाहि जानॆ",
+      "श्रीक्ड़्ष्णचैतन्यचन्द्र,    ठाकुर श्रीनित्यानन्द,",
+      "ब्ड़्न्दाबनदास गुणगानॆ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এমন করুণাসিন্ধু,    শ্রীচৈতন্য প্রাণবন্ধু,",
+      "পাপী পাষণ্ডী নাহি জানে",
+      "শ্রীক্ড়্ষ্ণচৈতন্যচন্দ্র,    ঠাকুর শ্রীনিত্যানন্দ,",
+      "ব্ড়্ন্দাবনদাস গুণগানে ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏମନ କରୁଣାସିନ୍ଧୁ,    ଶ୍ରୀଚୈତନ୍ୟ ପ୍ରାଣବନ୍ଧୁ,",
+      "ପାପୀ ପାଷଣ୍ଡୀ ନାହି ଜାନେ",
+      "ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣଚୈତନ୍ୟଚନ୍ଦ୍ର,    ଠାକୁର ଶ୍ରୀନିତ୍ୟାନନ୍ଦ,",
+      "ବ୍ଡ଼୍ନ୍ଦାବନଦାସ ଗୁଣଗାନେ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એમન કરુણાસિન્ધુ,    શ્રીચૈતન્ય પ્રાણબન્ધુ,",
+      "પાપી પાષણ્ડી નાહિ જાને",
+      "શ્રીક્ડ઼્ષ્ણચૈતન્યચન્દ્ર,    ઠાકુર શ્રીનિત્યાનન્દ,",
+      "બ્ડ઼્ન્દાબનદાસ ગુણગાને ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "emana karuṇāsindhu,    śrīcaitanya prāṇabandhu,",
+      "pāpī pāṣaṇḍī nāhi jāne",
+      "śrīkṛṣṇacaitanyacandra,    ṭhākura śrīnityānanda,",
+      "bṛndābanadāsa guṇagāne 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎಮನ ಕರುಣಾಸಿಂಧು,    ಶ್ರೀಚೈತನ್ಯ ಪ್ರಾಣಬಂಧು,",
+      "ಪಾಪೀ ಪಾಷಂಡೀ ನಾಹಿ ಜಾನೆ",
+      "ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಚೈತನ್ಯಚಂದ್ರ,    ಠಾಕುರ ಶ್ರೀನಿತ್ಯಾನಂದ,",
+      "ಬ್‌ಡ಼್ನ್ದಾಬನದಾಸ ಗುಣಗಾನೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎమన కరుణాసింధు,    శ్రీచైతన్య ప్రాణబంధు,",
+      "పాపీ పాషండీ నాహి జానె",
+      "శ్రీక్డ్ష్ణచైతన్యచంద్ర,    ఠాకుర శ్రీనిత్యానంద,",
+      "బ్డ్న్దాబనదాస గుణగానె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆мана карун̣а̄синдху,    ш́рӣчаитанйа пра̄н̣абандху,",
+      "па̄пӣ па̄шан̣д̣ӣ на̄хи джа̄нэ̆",
+      "ш́рӣкр̤шн̣ачаитанйачандра,    т̣ха̄кура ш́рӣнитйа̄нанда,",
+      "бр̤нда̄банада̄са гун̣ага̄нэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എമന കരുണാസിന്ധു,    ശ്രീചൈതന്യ പ്രാണബന്ധു,",
+      "പാപീ പാഷണ്ഡീ നാഹി ജാനെ",
+      "ശ്രീക്ഡ്ഷ്ണചൈതന്യചന്ദ്ര,    ഠാകുര ശ്രീനിത്യാനന്ദ,",
+      "ബ്ഡ്ന്ദാബനദാസ ഗുണഗാനെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எமன கருணாஸிந்து⁴,    ஶ்ரீசைதன்ய ப்ராணப³ந்து⁴,",
+      "பாபீ பாஷண்டீ³ நாஹி ஜானெ",
+      "ஶ்ரீக்ஃட்²ஷ்ணசைதன்யசந்த்³ர,    டா²குர ஶ்ரீநித்யானந்த³,",
+      "ப்³ஃட்²ந்தா³ப³னதா³ஸ கு³ணகா³னெ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "emana karuṇāsindhu,    śrīcaitanya prāṇabandhu,",
+      "pāpī pāṣaṇḍī nāhi jāne",
+      "śrīkṛṣṇacaitanyacandra,    ṭhākura śrīnityānanda,",
+      "bṛndābanadāsa guṇagāne 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "emana karuṇāsindhu,    śrīcaitanya prāṇabandhu,",
+      "pāpī pāṣaṇḍī nāhi jāne",
+      "śrīkṛṣṇacaitanyacandra,    ṭhākura śrīnityānanda,",
+      "bṛndābanadāsa guṇagāne 3"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "The Wonderful Qualities of Śrī Gaurāṅga"
+ ]
+}

@@ -1,0 +1,599 @@
+{
+  "uid": "Y25",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "হরি হে! আমি নরপশুপ্রায়"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "hari he! āmi narapaśuprāya"
+    },
+    {
+      "script_code": "Deva",
+      "text": "हरि हे! आमि नरपशुप्राय"
+    },
+    {
+      "script_code": "Telu",
+      "text": "హరి హే! ఆమి నరపశుప్రాయ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಹರಿ ಹೇ! ಆಮಿ ನರಪಶುಪ್ರಾಯ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஹரி ஹே! ஆமி நரபஶுப்ராய"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഹരി ഹേ! ആമി നരപശുപ്രായ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "હરિ હે! આમિ નરપશુપ્રાય"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ହରି ହେ! ଆମି ନରପଶୁପ୍ରାୟ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "хари хэ! а̄ми нарапаш́упра̄йа"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "hari he!",
+        "āmi narapaśuprāya,    ācārabihīna tāya,",
+        "anādi ananta subistāra",
+        "atikaṣṭe parihārya,    sahajete anibārya,",
+        "aśubhera āspada ābāra 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हरि हॆ!",
+            "आमि नरपशुप्राय,    आचारबिहीन ताय,",
+            "अनादि अनन्त सुबिस्तार",
+            "अतिकष्टॆ परिहार्य,    सहजॆतॆ अनिबार्य,",
+            "अशुभॆर आस्पद आबार १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হরি হে!",
+            "আমি নরপশুপ্রায়,    আচারবিহীন তায়,",
+            "অনাদি অনন্ত সুবিস্তার",
+            "অতিকষ্টে পরিহার্য,    সহজেতে অনিবার্য,",
+            "অশুভের আস্পদ আবার ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହରି ହେ!",
+            "ଆମି ନରପଶୁପ୍ରାୟ,    ଆଚାରବିହୀନ ତାୟ,",
+            "ଅନାଦି ଅନନ୍ତ ସୁବିସ୍ତାର",
+            "ଅତିକଷ୍ଟେ ପରିହାର୍ୟ,    ସହଜେତେ ଅନିବାର୍ୟ,",
+            "ଅଶୁଭେର ଆସ୍ପଦ ଆବାର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હરિ હે!",
+            "આમિ નરપશુપ્રાય,    આચારબિહીન તાય,",
+            "અનાદિ અનન્ત સુબિસ્તાર",
+            "અતિકષ્ટે પરિહાર્ય,    સહજેતે અનિબાર્ય,",
+            "અશુભેર આસ્પદ આબાર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hari he!",
+            "āmi narapaśuprāya,    ācārabihīna tāya,",
+            "anādi ananta subistāra",
+            "atikaṣṭe parihārya,    sahajete anibārya,",
+            "aśubhera āspada ābāra 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹರಿ ಹೆ!",
+            "ಆಮಿ ನರಪಶುಪ್ರಾಯ,    ಆಚಾರಬಿಹೀನ ತಾಯ,",
+            "ಅನಾದಿ ಅನಂತ ಸುಬಿಸ್ತಾರ",
+            "ಅತಿಕಷ್ಟೆ ಪರಿಹಾರ್ಯ,    ಸಹಜೆತೆ ಅನಿಬಾರ್ಯ,",
+            "ಅಶುಭೆರ ಆಸ್ಪದ ಆಬಾರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హరి హె!",
+            "ఆమి నరపశుప్రాయ,    ఆచారబిహీన తాయ,",
+            "అనాది అనంత సుబిస్తార",
+            "అతికష్టె పరిహార్య,    సహజెతె అనిబార్య,",
+            "అశుభెర ఆస్పద ఆబార 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хари хэ̆!",
+            "а̄ми нарапаш́упра̄йа,    а̄ча̄рабихӣна та̄йа,",
+            "ана̄ди ананта субиста̄ра",
+            "атикашт̣э̆ париха̄рйа,    сахаджэ̆тэ̆ аниба̄рйа,",
+            "аш́убхэ̆ра а̄спада а̄ба̄ра 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹരി ഹെ!",
+            "ആമി നരപശുപ്രായ,    ആചാരബിഹീന തായ,",
+            "അനാദി അനന്ത സുബിസ്താര",
+            "അതികഷ്ടെ പരിഹാര്യ,    സഹജെതെ അനിബാര്യ,",
+            "അശുഭെര ആസ്പദ ആബാര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹரி ஹெ!",
+            "ஆமி நரபஶுப்ராய,    ஆசாரபி³ஹீன தாய,",
+            "அநாதி³ அனந்த ஸுபி³ஸ்தார",
+            "அதிகஷ்டெ பரிஹார்ய,    ஸஹஜெதெ அனிபா³ர்ய,",
+            "அஶுபெ⁴ர ஆஸ்பத³ ஆபா³ர 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hari he!",
+            "āmi narapaśuprāya,    ācārabihīna tāya,",
+            "anādi ananta subistāra",
+            "atikaṣṭe parihārya,    sahajete anibārya,",
+            "aśubhera āspada ābāra 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hari he!",
+            "āmi narapaśuprāya,    ācārabihīna tāya,",
+            "anādi ananta subistāra",
+            "atikaṣṭe parihārya,    sahajete anibārya,",
+            "aśubhera āspada ābāra 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "tumi ta’ dayāra sindhu,    tumi ta’ jagadbandhu,",
+        "asīma bātsalya[FLAG_HYPHEN_ALPHA]payonidhi",
+        "taba guṇagaṇa smari’,    bhababandha cheda kari’,",
+        "nirbhīka ha·iba nirabadhi 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तुमि तऽ दयार सिन्धु,    तुमि तऽ जगद्बन्धु,",
+            "असीम बात्सल्यपयॊनिधि",
+            "तब गुणगण स्मरिऽ,    भबबन्ध छॆद करिऽ,",
+            "निर्भीक हइब निरबधि २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তুমি তঽ দয়ার সিন্ধু,    তুমি তঽ জগদ্বন্ধু,",
+            "অসীম বাৎসল্যপয়োনিধি",
+            "তব গুণগণ স্মরিঽ,    ভববন্ধ ছেদ করিঽ,",
+            "নির্ভীক হইব নিরবধি ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତୁମି ତଽ ଦୟାର ସିନ୍ଧୁ,    ତୁମି ତଽ ଜଗଦ୍ବନ୍ଧୁ,",
+            "ଅସୀମ ବାତ୍ସଲ୍ୟପୟୋନିଧି",
+            "ତବ ଗୁଣଗଣ ସ୍ମରିଽ,    ଭବବନ୍ଧ ଛେଦ କରିଽ,",
+            "ନିର୍ଭୀକ ହଇବ ନିରବଧି ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તુમિ તઽ દયાર સિન્ધુ,    તુમિ તઽ જગદ્બન્ધુ,",
+            "અસીમ બાત્સલ્યપયોનિધિ",
+            "તબ ગુણગણ સ્મરિઽ,    ભબબન્ધ છેદ કરિઽ,",
+            "નિર્ભીક હઇબ નિરબધિ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tumi ta’ dayāra sindhu,    tumi ta’ jagadbandhu,",
+            "asīma bātsalya-payonidhi",
+            "taba guṇagaṇa smari’,    bhababandha cheda kari’,",
+            "nirbhīka ha·iba nirabadhi 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತುಮಿ ತಽ ದಯಾರ ಸಿಂಧು,    ತುಮಿ ತಽ ಜಗದ್ಬಂಧು,",
+            "ಅಸೀಮ ಬಾತ್ಸಲ್ಯಪಯೊನಿಧಿ",
+            "ತಬ ಗುಣಗಣ ಸ್ಮರಿಽ,    ಭಬಬಂಧ ಛೆದ ಕರಿಽ,",
+            "ನಿರ್ಭೀಕ ಹಇಬ ನಿರಬಧಿ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తుమి తఽ దయార సింధు,    తుమి తఽ జగద్బంధు,",
+            "అసీమ బాత్సల్యపయొనిధి",
+            "తబ గుణగణ స్మరిఽ,    భబబంధ ఛెద కరిఽ,",
+            "నిర్భీక హఇబ నిరబధి 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "туми та' дайа̄ра синдху,    туми та' джагадбандху,",
+            "асӣма ба̄тсалйапайо̆нидхи",
+            "таба гун̣аган̣а смари',    бхабабандха чхэ̆да кари',",
+            "нирбхӣка хаиба нирабадхи 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തുമി തഽ ദയാര സിന്ധു,    തുമി തഽ ജഗദ്ബന്ധു,",
+            "അസീമ ബാത്സല്യപയൊനിധി",
+            "തബ ഗുണഗണ സ്മരിഽ,    ഭബബന്ധ ഛെദ കരിഽ,",
+            "നിർഭീക ഹഇബ നിരബധി 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "துமி த(அ) த³யார ஸிந்து⁴,    துமி த(அ) ஜக³த்³ப³ந்து⁴,",
+            "அஸீம பா³த்ஸல்யபயொநிதி⁴",
+            "தப³ கு³ணக³ண ஸ்மரி(அ),    ப⁴ப³ப³ந்த⁴ செ²த³ கரி(அ),",
+            "நிர்பீ⁴க ஹஇப³ நிரப³தி⁴ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tumi ta’ dayāra sindhu,    tumi ta’ jagadbandhu,",
+            "asīma bātsalya-payonidhi",
+            "taba guṇagaṇa smari’,    bhababandha cheda kari’,",
+            "nirbhīka ha·iba nirabadhi 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tumi ta’ dayāra sindhu,    tumi ta’ jagadbandhu,",
+            "asīma bātsalya-payonidhi",
+            "taba guṇagaṇa smari’,    bhababandha cheda kari’,",
+            "nirbhīka ha·iba nirabadhi 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "ei icchā kari’ mane,    śrīyāmuna[FLAG_HYPHEN_ALPHA]caraṇe,",
+        "gāya bhaktibinoda ekhana",
+        "yāmuna[FLAG_HYPHEN_ALPHA]bipina[FLAG_HYPHEN_ALPHA]bidhu,    śrīcaraṇāmbuja[FLAG_HYPHEN_ALPHA]sīdhu,",
+        "tā’ra śire karuna arpaṇa 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎइ इच्छा करिऽ मनॆ,    श्रीयामुनचरणॆ,",
+            "गाय भक्तिबिनॊद ऎखन",
+            "यामुनबिपिनबिधु,    श्रीचरणाम्बुजसीधु,",
+            "ताऽर शिरॆ करुन अर्पण ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এই ইচ্ছা করিঽ মনে,    শ্রীয়ামুনচরণে,",
+            "গায় ভক্তিবিনোদ এখন",
+            "যামুনবিপিনবিধু,    শ্রীচরণাম্বুজসীধু,",
+            "তাঽর শিরে করুন অর্পণ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏଇ ଇଚ୍ଛା କରିଽ ମନେ,    ଶ୍ରୀୟାମୁନଚରଣେ,",
+            "ଗାୟ ଭକ୍ତିବିନୋଦ ଏଖନ",
+            "ଯାମୁନବିପିନବିଧୁ,    ଶ୍ରୀଚରଣାମ୍ବୁଜସୀଧୁ,",
+            "ତାଽର ଶିରେ କରୁନ ଅର୍ପଣ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એઇ ઇચ્છા કરિઽ મને,    શ્રીયામુનચરણે,",
+            "ગાય ભક્તિબિનોદ એખન",
+            "યામુનબિપિનબિધુ,    શ્રીચરણામ્બુજસીધુ,",
+            "તાઽર શિરે કરુન અર્પણ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ei icchā kari’ mane,    śrīyāmuna-caraṇe,",
+            "gāya bhaktibinoda ekhana",
+            "yāmuna-bipina-bidhu,    śrīcaraṇāmbuja-sīdhu,",
+            "tā’ra śire karuna arpaṇa 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎಇ ಇಚ್ಛಾ ಕರಿಽ ಮನೆ,    ಶ್ರೀಯಾಮುನಚರಣೆ,",
+            "ಗಾಯ ಭಕ್ತಿಬಿನೊದ ಎಖನ",
+            "ಯಾಮುನಬಿಪಿನಬಿಧು,    ಶ್ರೀಚರಣಾಂಬುಜಸೀಧು,",
+            "ತಾಽರ ಶಿರೆ ಕರುನ ಅರ್ಪಣ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎఇ ఇచ్ఛా కరిఽ మనె,    శ్రీయామునచరణె,",
+            "గాయ భక్తిబినొద ఎఖన",
+            "యామునబిపినబిధు,    శ్రీచరణాంబుజసీధు,",
+            "తాఽర శిరె కరున అర్పణ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆и иччха̄ кари' манэ̆,    ш́рӣйа̄муначаран̣э̆,",
+            "га̄йа бхактибино̆да э̆кхана",
+            "йа̄мунабипинабидху,    ш́рӣчаран̣а̄мбуджасӣдху,",
+            "та̄'ра ш́ирэ̆ каруна арпан̣а 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എഇ ഇച്ഛാ കരിഽ മനെ,    ശ്രീയാമുനചരണെ,",
+            "ഗായ ഭക്തിബിനൊദ എഖന",
+            "യാമുനബിപിനബിധു,    ശ്രീചരണാംബുജസീധു,",
+            "താഽര ശിരെ കരുന അർപണ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எஇ இச்சா² கரி(அ) மனெ,    ஶ்ரீயாமுனசரணெ,",
+            "கா³ய ப⁴க்திபி³னொத³ எக²ன",
+            "யாமுனபி³பினபி³து⁴,    ஶ்ரீசரணாம்பு³ஜஸீது⁴,",
+            "தா(அ)ர ஶிரெ கருன அர்பண 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ei icchā kari’ mane,    śrīyāmuna-caraṇe,",
+            "gāya bhaktibinoda ekhana",
+            "yāmuna-bipina-bidhu,    śrīcaraṇāmbuja-sīdhu,",
+            "tā’ra śire karuna arpaṇa 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ei icchā kari’ mane,    śrīyāmuna-caraṇe,",
+            "gāya bhaktibinoda ekhana",
+            "yāmuna-bipina-bidhu,    śrīcaraṇāmbuja-sīdhu,",
+            "tā’ra śire karuna arpaṇa 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "x"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "x"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "x"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "x"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "x"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "x"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "x"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "x"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "x"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "x"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "x"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "x"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "x"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "<br>দুরন্তস্যানাদেরপরিহরণীয়স্য মহতো<br>বিহীনাচারোঽহং নৃপশুরশুভস্যাস্পদমপি ।<br>দয়াসিন্ধো বন্ধো নিরবধিক-বাৎসল্য-জলধে-<br>স্তব স্মারং স্মারং গুণগণমিতীচ্ছামি গতভীঃ ॥২৫॥<br><br>শব্দার্থঃ- অনিবার্য়্য—প্রচণ্ড; আস্পদ—আশ্রয়; পয়োনিধি—সাগর; শ্রীযামুন—‘স্তোত্ররত্ন’-রচয়িতা শ্রীযামুনাচার্য্য; যামুন-বিপিন-বিধু—যমুনাতীরস্থ বনের চন্দ্র অর্থাৎ বৃন্দাবনচন্দ্র শ্রীকৃষ্ণ; সীধু—অমৃত ।<br>"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

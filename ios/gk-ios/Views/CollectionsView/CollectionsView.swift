@@ -19,21 +19,30 @@ struct CollectionsView: View {
             )
             .padding(.horizontal)
             
-            // Collections grid
-            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
-                ForEach(viewModel.filteredCollections) { collection in
-                    // Calculate song count
-                    let songCount = collection.songIds.count
-                    
-                    CollectionCard(
-                        collection: collection,
-                        songCount: songCount,
-                        action: { /* Handle collection selection */ }
-                    )
+            // Collections grid. No collection data ships in the current corpus (browse.md "Empty
+            // groupings") — a tasteful empty state, never fake rows.
+            if viewModel.filteredCollections.isEmpty {
+                EmptyStateView(
+                    systemImage: "square.stack",
+                    title: "No \(viewModel.selectedCategory.rawValue.lowercased()) yet",
+                    message: "Your \(viewModel.selectedCategory.rawValue.lowercased()) will appear here once you add some."
+                )
+            } else {
+                LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 16) {
+                    ForEach(viewModel.filteredCollections) { collection in
+                        // Calculate song count
+                        let songCount = collection.songIds.count
+
+                        CollectionCard(
+                            collection: collection,
+                            songCount: songCount,
+                            action: { /* Handle collection selection */ }
+                        )
+                    }
                 }
+                .padding(.horizontal)
             }
-            .padding(.horizontal)
-            
+
             Spacer(minLength: 0)
         }
         .background(Color.background)

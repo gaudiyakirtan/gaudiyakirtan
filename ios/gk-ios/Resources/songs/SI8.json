@@ -1,0 +1,740 @@
+{
+  "uid": "SI8",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "গাইতে গোবিন্দ নাম"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "gāite gobinda nāma"
+    },
+    {
+      "script_code": "Deva",
+      "text": "गाइते गोबिन्द नाम"
+    },
+    {
+      "script_code": "Telu",
+      "text": "గాఇతే గోబింద నామ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಗಾಇತೇ ಗೋಬಿಂದ ನಾಮ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "கா³இதே கோ³பி³ந்த³ நாம"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഗാഇതേ ഗോബിന്ദ നാമ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ગાઇતે ગોબિન્દ નામ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଗାଇତେ ଗୋବିନ୍ଦ ନାମ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "га̄итэ гобинда на̄ма"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "gāite gobinda nāma,    upajilabhābagrāma,",
+        "dekhilāma yamunāra kūle",
+        "bṛṣabhānusutā[FLAG_HYPHEN_ALPHA]saṅge,    śyāma naṭabara[FLAG_HYPHEN_ALPHA]raṅge,",
+        "bā̃śarī bājāya nīpamūle 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गाइतॆ गॊबिन्द नाम,    उपजिलभाबग्राम,",
+            "दॆखिलाम यमुनार कूलॆ",
+            "ब्ड़्षभानुसुतासङ्गॆ,    श्याम नटबररङ्गॆ,",
+            "बांशरी बाजाय नीपमूलॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গাইতে গোবিন্দ নাম,    উপজিলভাবগ্রাম,",
+            "দেখিলাম যমুনার কূলে",
+            "ব্ড়্ষভানুসুতাসঙ্গে,    শ্যাম নটবররঙ্গে,",
+            "বাংশরী বাজায় নীপমূলে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗାଇତେ ଗୋବିନ୍ଦ ନାମ,    ଉପଜିଲଭାବଗ୍ରାମ,",
+            "ଦେଖିଲାମ ଯମୁନାର କୂଲେ",
+            "ବ୍ଡ଼୍ଷଭାନୁସୁତାସଙ୍ଗେ,    ଶ୍ୟାମ ନଟବରରଙ୍ଗେ,",
+            "ବାଂଶରୀ ବାଜାୟ ନୀପମୂଲେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગાઇતે ગોબિન્દ નામ,    ઉપજિલભાબગ્રામ,",
+            "દેખિલામ યમુનાર કૂલે",
+            "બ્ડ઼્ષભાનુસુતાસઙ્ગે,    શ્યામ નટબરરઙ્ગે,",
+            "બાંશરી બાજાય નીપમૂલે ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gāite gobinda nāma,    upajilabhābagrāma,",
+            "dekhilāma yamunāra kūle",
+            "bṛṣabhānusutā-saṅge,    śyāma naṭabara-raṅge,",
+            "bā̃śarī bājāya nīpamūle 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗಾಇತೆ ಗೊಬಿಂದ ನಾಮ,    ಉಪಜಿಲಭಾಬಗ್ರಾಮ,",
+            "ದೆಖಿಲಾಮ ಯಮುನಾರ ಕೂಲೆ",
+            "ಬ್‌ಡ಼್ಷಭಾನುಸುತಾಸಂಗೆ,    ಶ್ಯಾಮ ನಟಬರರಂಗೆ,",
+            "ಬಾಂಶರೀ ಬಾಜಾಯ ನೀಪಮೂಲೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గాఇతె గొబింద నామ,    ఉపజిలభాబగ్రామ,",
+            "దెఖిలామ యమునార కూలె",
+            "బ్డ్షభానుసుతాసంగె,    శ్యామ నటబరరంగె,",
+            "బాంశరీ బాజాయ నీపమూలె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "га̄итэ̆ го̆бинда на̄ма,    упаджилабха̄багра̄ма,",
+            "дэ̆кхила̄ма йамуна̄ра кӯлэ̆",
+            "бр̤шабха̄нусута̄сан̇гэ̆,    ш́йа̄ма нат̣абараран̇гэ̆,",
+            "ба̄м̣ш́арӣ ба̄джа̄йа нӣпамӯлэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗാഇതെ ഗൊബിന്ദ നാമ,    ഉപജിലഭാബഗ്രാമ,",
+            "ദെഖിലാമ യമുനാര കൂലെ",
+            "ബ്ഡ്ഷഭാനുസുതാസംഗെ,    ശ്യാമ നടബരരംഗെ,",
+            "ബാംശരീ ബാജായ നീപമൂലെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கா³இதெ கொ³பி³ந்த³ நாம,    உபஜிலபா⁴ப³க்³ராம,",
+            "தெ³கி²லாம யமுனார கூலெ",
+            "ப்³ஃட்²ஷபா⁴னுஸுதாஸங்கெ³,    ஶ்யாம நடப³ரரங்கெ³,",
+            "பா³ம்ʼஶரீ பா³ஜாய நீபமூலெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gāite gobinda nāma,    upajilabhābagrāma,",
+            "dekhilāma yamunāra kūle",
+            "bṛṣabhānusutā-saṅge,    śyāma naṭabara-raṅge,",
+            "bā̃śarī bājāya nīpamūle 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gāite gobinda nāma,    upajilabhābagrāma,",
+            "dekhilāma yamunāra kūle",
+            "bṛṣabhānusutā-saṅge,    śyāma naṭabara-raṅge,",
+            "bā̃śarī bājāya nīpamūle 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "dekhiyā yugaladhana,    asthira ha·ila mana,",
+        "jñānahārā ha·ilũ takhana",
+        "katakṣaṇa nāhi jāni,    jñāna lābha haila māni,",
+        "āra nāhi bhela daraśana 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "दॆखिया युगलधन,    अस्थिर हइल मन,",
+            "ज्ञानहारा हइलुं तखन",
+            "कतक्षण नाहि जानि,    ज्ञान लाभ हैल मानि,",
+            "आर नाहि भॆल दरशन २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "দেখিয়া যুগলধন,    অস্থির হইল মন,",
+            "জ্ঞানহারা হইলুং তখন",
+            "কতক্ষণ নাহি জানি,    জ্ঞান লাভ হৈল মানি,",
+            "আর নাহি ভেল দরশন ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଦେଖିୟା ଯୁଗଲଧନ,    ଅସ୍ଥିର ହଇଲ ମନ,",
+            "ଜ୍ଞାନହାରା ହଇଲୁଂ ତଖନ",
+            "କତକ୍ଷଣ ନାହି ଜାନି,    ଜ୍ଞାନ ଲାଭ ହୈଲ ମାନି,",
+            "ଆର ନାହି ଭେଲ ଦରଶନ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "દેખિયા યુગલધન,    અસ્થિર હઇલ મન,",
+            "જ્ઞાનહારા હઇલું તખન",
+            "કતક્ષણ નાહિ જાનિ,    જ્ઞાન લાભ હૈલ માનિ,",
+            "આર નાહિ ભેલ દરશન ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "dekhiyā yugaladhana,    asthira ha·ila mana,",
+            "jñānahārā ha·ilũ takhana",
+            "katakṣaṇa nāhi jāni,    jñāna lābha haila māni,",
+            "āra nāhi bhela daraśana 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ದೆಖಿಯಾ ಯುಗಲಧನ,    ಅಸ್ಥಿರ ಹಇಲ ಮನ,",
+            "ಜ್ಞಾನಹಾರಾ ಹಇಲುಂ ತಖನ",
+            "ಕತಕ್ಷಣ ನಾಹಿ ಜಾನಿ,    ಜ್ಞಾನ ಲಾಭ ಹೈಲ ಮಾನಿ,",
+            "ಆರ ನಾಹಿ ಭೆಲ ದರಶನ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "దెఖియా యుగలధన,    అస్థిర హఇల మన,",
+            "జ్ఞానహారా హఇలుం తఖన",
+            "కతక్షణ నాహి జాని,    జ్ఞాన లాభ హైల మాని,",
+            "ఆర నాహి భెల దరశన 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "дэ̆кхийа̄ йугаладхана,    астхира хаила мана,",
+            "джн̃а̄наха̄ра̄ хаилум̣ такхана",
+            "катакшан̣а на̄хи джа̄ни,    джн̃а̄на ла̄бха хаила ма̄ни,",
+            "а̄ра на̄хи бхэ̆ла дараш́ана 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ദെഖിയാ യുഗലധന,    അസ്ഥിര ഹഇല മന,",
+            "ജ്ഞാനഹാരാ ഹഇലും തഖന",
+            "കതക്ഷണ നാഹി ജാനി,    ജ്ഞാന ലാഭ ഹൈല മാനി,",
+            "ആര നാഹി ഭെല ദരശന 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தெ³கி²யா யுக³லத⁴ன,    அஸ்தி²ர ஹஇல மன,",
+            "ஜ்ஞானஹாரா ஹஇலும்ʼ தக²ன",
+            "கதக்ஷண நாஹி ஜானி,    ஜ்ஞான லாப⁴ ஹைல மானி,",
+            "ஆர நாஹி பெ⁴ல த³ரஶன 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "dekhiyā yugaladhana,    asthira ha·ila mana,",
+            "jñānahārā ha·ilũ takhana",
+            "katakṣaṇa nāhi jāni,    jñāna lābha haila māni,",
+            "āra nāhi bhela daraśana 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "dekhiyā yugaladhana,    asthira ha·ila mana,",
+            "jñānahārā ha·ilũ takhana",
+            "katakṣaṇa nāhi jāni,    jñāna lābha haila māni,",
+            "āra nāhi bhela daraśana 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "sakhi go, kemate dhariba parāṇa",
+        "nimeṣa ha·ila yugera samāna 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सखि गॊ, कॆमतॆ धरिब पराण",
+            "निमॆष हइल युगॆर समान ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সখি গো, কেমতে ধরিব পরাণ",
+            "নিমেষ হইল যুগের সমান ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସଖି ଗୋ, କେମତେ ଧରିବ ପରାଣ",
+            "ନିମେଷ ହଇଲ ଯୁଗେର ସମାନ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સખિ ગો, કેમતે ધરિબ પરાણ",
+            "નિમેષ હઇલ યુગેર સમાન ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sakhi go, kemate dhariba parāṇa",
+            "nimeṣa ha·ila yugera samāna 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸಖಿ ಗೊ, ಕೆಮತೆ ಧರಿಬ ಪರಾಣ",
+            "ನಿಮೆಷ ಹಇಲ ಯುಗೆರ ಸಮಾನ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సఖి గొ, కెమతె ధరిబ పరాణ",
+            "నిమెష హఇల యుగెర సమాన 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сакхи го̆, кэ̆матэ̆ дхариба пара̄н̣а",
+            "нимэ̆ша хаила йугэ̆ра сама̄на 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സഖി ഗൊ, കെമതെ ധരിബ പരാണ",
+            "നിമെഷ ഹഇല യുഗെര സമാന 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸகி² கொ³, கெமதெ த⁴ரிப³ பராண",
+            "நிமெஷ ஹஇல யுகெ³ர ஸமான 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sakhi go, kemate dhariba parāṇa",
+            "nimeṣa ha·ila yugera samāna 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sakhi go, kemate dhariba parāṇa",
+            "nimeṣa ha·ila yugera samāna 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "śrābaṇera dhārā,    ā̃khi bariṣaya,",
+        "śūnya bhela dharātala",
+        "gobinda[FLAG_HYPHEN_ALPHA]birahe,    prāṇa nāhi rahe,",
+        "kemane bā̃ciba bala 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्राबणॆर धारा,    आंखि बरिषय,",
+            "शून्य भॆल धरातल",
+            "गॊबिन्दबिरहॆ,    प्राण नाहि रहॆ,",
+            "कॆमनॆ बांचिब बल ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রাবণের ধারা,    আঙ্খি বরিষয়,",
+            "শূন্য ভেল ধরাতল",
+            "গোবিন্দবিরহে,    প্রাণ নাহি রহে,",
+            "কেমনে বাঞ্চিব বল ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରାବଣେର ଧାରା,    ଆଙ୍ଖି ବରିଷୟ,",
+            "ଶୂନ୍ୟ ଭେଲ ଧରାତଲ",
+            "ଗୋବିନ୍ଦବିରହେ,    ପ୍ରାଣ ନାହି ରହେ,",
+            "କେମନେ ବାଞ୍ଚିବ ବଲ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રાબણેર ધારા,    આંખિ બરિષય,",
+            "શૂન્ય ભેલ ધરાતલ",
+            "ગોબિન્દબિરહે,    પ્રાણ નાહિ રહે,",
+            "કેમને બાંચિબ બલ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrābaṇera dhārā,    ā̃khi bariṣaya,",
+            "śūnya bhela dharātala",
+            "gobinda-birahe,    prāṇa nāhi rahe,",
+            "kemane bā̃ciba bala 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರಾಬಣೆರ ಧಾರಾ,    ಆಂಖಿ ಬರಿಷಯ,",
+            "ಶೂನ್ಯ ಭೆಲ ಧರಾತಲ",
+            "ಗೊಬಿಂದಬಿರಹೆ,    ಪ್ರಾಣ ನಾಹಿ ರಹೆ,",
+            "ಕೆಮನೆ ಬಾಂಚಿಬ ಬಲ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రాబణెర ధారా,    ఆంఖి బరిషయ,",
+            "శూన్య భెల ధరాతల",
+            "గొబిందబిరహె,    ప్రాణ నాహి రహె,",
+            "కెమనె బాంచిబ బల 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́ра̄бан̣э̆ра дха̄ра̄,    а̄м̣кхи баришайа,",
+            "ш́ӯнйа бхэ̆ла дхара̄тала",
+            "го̆биндабирахэ̆,    пра̄н̣а на̄хи рахэ̆,",
+            "кэ̆манэ̆ ба̄м̣чиба бала 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രാബണെര ധാരാ,    ആംഖി ബരിഷയ,",
+            "ശൂന്യ ഭെല ധരാതല",
+            "ഗൊബിന്ദബിരഹെ,    പ്രാണ നാഹി രഹെ,",
+            "കെമനെ ബാഞ്ചിബ ബല 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ராப³ணெர தா⁴ரா,    ஆங்கி² ப³ரிஷய,",
+            "ஶூன்ய பெ⁴ல த⁴ராதல",
+            "கொ³பி³ந்த³பி³ரஹெ,    ப்ராண நாஹி ரஹெ,",
+            "கெமனெ பா³ஞ்சிப³ ப³ல 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrābaṇera dhārā,    ā̃khi bariṣaya,",
+            "śūnya bhela dharātala",
+            "gobinda-birahe,    prāṇa nāhi rahe,",
+            "kemane bā̃ciba bala 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrābaṇera dhārā,    ā̃khi bariṣaya,",
+            "śūnya bhela dharātala",
+            "gobinda-birahe,    prāṇa nāhi rahe,",
+            "kemane bā̃ciba bala 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "bhakatibinoda,    asthira ha·iyā,",
+        "punaḥ nāmāśraya kari’",
+        "ḍāke rādhānātha,    diyā daraśana,",
+        "prāṇa rākha, nahe mari 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भकतिबिनॊद,    अस्थिर हइया,",
+            "पुनः नामाश्रय करिऽ",
+            "डाकॆ राधानाथ,    दिया दरशन,",
+            "प्राण राख, नहॆ मरि ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভকতিবিনোদ,    অস্থির হইয়া,",
+            "পুনঃ নামাশ্রয় করিঽ",
+            "ডাকে রাধানাথ,    দিয়া দরশন,",
+            "প্রাণ রাখ, নহে মরি ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭକତିବିନୋଦ,    ଅସ୍ଥିର ହଇୟା,",
+            "ପୁନଃ ନାମାଶ୍ରୟ କରିଽ",
+            "ଡାକେ ରାଧାନାଥ,    ଦିୟା ଦରଶନ,",
+            "ପ୍ରାଣ ରାଖ, ନହେ ମରି ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભકતિબિનોદ,    અસ્થિર હઇયા,",
+            "પુનઃ નામાશ્રય કરિઽ",
+            "ડાકે રાધાનાથ,    દિયા દરશન,",
+            "પ્રાણ રાખ, નહે મરિ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhakatibinoda,    asthira ha·iyā,",
+            "punaḥ nāmāśraya kari’",
+            "ḍāke rādhānātha,    diyā daraśana,",
+            "prāṇa rākha, nahe mari 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಕತಿಬಿನೊದ,    ಅಸ್ಥಿರ ಹಇಯಾ,",
+            "ಪುನಃ ನಾಮಾಶ್ರಯ ಕರಿಽ",
+            "ಡಾಕೆ ರಾಧಾನಾಥ,    ದಿಯಾ ದರಶನ,",
+            "ಪ್ರಾಣ ರಾಖ, ನಹೆ ಮರಿ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భకతిబినొద,    అస్థిర హఇయా,",
+            "పునః నామాశ్రయ కరిఽ",
+            "డాకె రాధానాథ,    దియా దరశన,",
+            "ప్రాణ రాఖ, నహె మరి 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхакатибино̆да,    астхира хаийа̄,",
+            "пунах̣ на̄ма̄ш́райа кари'",
+            "д̣а̄кэ̆ ра̄дха̄на̄тха,    дийа̄ дараш́ана,",
+            "пра̄н̣а ра̄кха, нахэ̆ мари 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭകതിബിനൊദ,    അസ്ഥിര ഹഇയാ,",
+            "പുനഃ നാമാശ്രയ കരിഽ",
+            "ഡാകെ രാധാനാഥ,    ദിയാ ദരശന,",
+            "പ്രാണ രാഖ, നഹെ മരി 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப⁴கதிபி³னொத³,    அஸ்தி²ர ஹஇயா,",
+            "புன꞉ நாமாஶ்ரய கரி(அ)",
+            "டா³கெ ராதா⁴நாத²,    தி³யா த³ரஶன,",
+            "ப்ராண ராக², நஹெ மரி 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhakatibinoda,    asthira ha·iyā,",
+            "punaḥ nāmāśraya kari’",
+            "ḍāke rādhānātha,    diyā daraśana,",
+            "prāṇa rākha, nahe mari 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhakatibinoda,    asthira ha·iyā,",
+            "punaḥ nāmāśraya kari’",
+            "ḍāke rādhānātha,    diyā daraśana,",
+            "prāṇa rākha, nahe mari 5"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "(২)"
+    },
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- নীপমূলে—কদম্ববৃক্ষের নীচে; ভেল—হইল ।"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "srrb-1",
+      "filename": "SI8-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    }
+  ]
+}

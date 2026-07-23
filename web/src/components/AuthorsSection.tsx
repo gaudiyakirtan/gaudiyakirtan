@@ -1,27 +1,30 @@
 import React from 'react'
-import { IAuthor } from '../models/Author'
+import Link from 'next/link'
+import { IAuthorListing } from '../services/authorRepository'
 import { AuthorCard } from './AuthorCard'
 
 interface AuthorsSectionProps {
-  authors: IAuthor[]
+  authors: IAuthorListing[]
   title?: string
-  onAuthorClick?: (author: IAuthor) => void
+  onAuthorClick?: (listing: IAuthorListing) => void
   className?: string
   limit?: number
   viewAllLink?: string
+  /** Render as one horizontally-scrollable row instead of a wrapping flex (home). */
+  singleRow?: boolean
 }
 
-export const AuthorsSection: React.FC<AuthorsSectionProps> = ({ 
+export const AuthorsSection: React.FC<AuthorsSectionProps> = ({
   authors,
   title = 'Authors',
   onAuthorClick,
-  className = "",
+  className = '',
   limit,
-  viewAllLink
+  viewAllLink,
+  singleRow = false,
 }) => {
   if (!authors.length) return null
 
-  // Limit the number of authors if limit is provided
   const displayAuthors = limit ? authors.slice(0, limit) : authors
 
   return (
@@ -29,25 +32,26 @@ export const AuthorsSection: React.FC<AuthorsSectionProps> = ({
       <div className="flex items-center justify-between px-4 mb-4">
         <h2 className="text-xl font-bold text-[var(--primary)]">{title}</h2>
         {viewAllLink && (
-          <a 
-            href={viewAllLink}
-            className="text-sm text-[var(--highlight)] hover:underline"
-          >
+          <Link href={viewAllLink} className="text-sm text-[var(--highlight)] hover:underline">
             View All →
-          </a>
+          </Link>
         )}
       </div>
-      
-      <div className="flex flex-wrap gap-4 px-4">
-        {displayAuthors.map((author, index) => (
-          <div 
+
+      <div
+        className={
+          singleRow
+            ? 'flex gap-4 overflow-x-auto px-4 pb-2 [scrollbar-width:none]'
+            : 'flex flex-wrap gap-4 px-4'
+        }
+      >
+        {displayAuthors.map((listing) => (
+          <div
             style={{ minHeight: '180px' }}
-            key={`author-${index}-${author.name}`}
+            key={listing.author.uid}
+            className={singleRow ? 'flex-none' : undefined}
           >
-            <AuthorCard
-              author={author}
-              onClick={() => onAuthorClick && onAuthorClick(author)}
-            />
+            <AuthorCard listing={listing} onClick={() => onAuthorClick && onAuthorClick(listing)} />
           </div>
         ))}
       </div>

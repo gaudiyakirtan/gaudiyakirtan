@@ -1,0 +1,746 @@
+{
+  "uid": "K58",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "তাতল সৈকতে, বারিবিন্দু-সম"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "tātala saikate, bāribindu-sama"
+    },
+    {
+      "script_code": "Deva",
+      "text": "तातल सैकते, बारिबिन्दु-सम"
+    },
+    {
+      "script_code": "Telu",
+      "text": "తాతల సైకతే, బారిబిందు-సమ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ತಾತಲ ಸೈಕತೇ, ಬಾರಿಬಿಂದು-ಸಮ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "தாதல ஸைகதே, பா³ரிபி³ந்து³-ஸம"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "താതല സൈകതേ, ബാരിബിന്ദു-സമ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "તાતલ સૈકતે, બારિબિન્દુ-સમ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ତାତଲ ସୈକତେ, ବାରିବିନ୍ଦୁ-ସମ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "та̄тала саикатэ, ба̄рибинду-сама"
+    }
+  ],
+  "author_uid": "শ্রীবিদ্যাপতি",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীবিদ্যাপতি"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrī Vidyāpati"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्री विद्यापति"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీ విద్యాపతి"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀ ವಿದ್ಯಾಪತಿ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீ வித்³யாபதி"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീ വിദ്യാപതി"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રી વિદ્યાપતિ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀ ବିଦ୍ୟାପତି"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣ видйа̄пати"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "tātala saikate,    bāribindu[FLAG_HYPHEN_ALPHA]sama,",
+        "suta[FLAG_HYPHEN_ALPHA]mita[FLAG_HYPHEN_ALPHA]ramaṇī[FLAG_HYPHEN_ALPHA]samāje",
+        "tohe bisari mana,    tāhe samarpinu,",
+        "ab majhu haba kon kāje 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तातल सैकतॆ,    बारिबिन्दुसम,",
+            "सुतमितरमणीसमाजॆ",
+            "तॊहॆ बिसरि मन,    ताहॆ समर्पिनु,",
+            "अब् मझु हब कॊन् काजॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তাতল সৈকতে,    বারিবিন্দুসম,",
+            "সুতমিতরমণীসমাজে",
+            "তোহে বিসরি মন,    তাহে সমর্পিনু,",
+            "অব্ মঝু হব কোন্ কাজে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତାତଲ ସୈକତେ,    ବାରିବିନ୍ଦୁସମ,",
+            "ସୁତମିତରମଣୀସମାଜେ",
+            "ତୋହେ ବିସରି ମନ,    ତାହେ ସମର୍ପିନୁ,",
+            "ଅବ୍ ମଝୁ ହବ କୋନ୍ କାଜେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તાતલ સૈકતે,    બારિબિન્દુસમ,",
+            "સુતમિતરમણીસમાજે",
+            "તોહે બિસરિ મન,    તાહે સમર્પિનુ,",
+            "અબ્ મઝુ હબ કોન્ કાજે ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tātala saikate,    bāribindu-sama,",
+            "suta-mita-ramaṇī-samāje",
+            "tohe bisari mana,    tāhe samarpinu,",
+            "ab majhu haba kon kāje 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತಾತಲ ಸೈಕತೆ,    ಬಾರಿಬಿಂದುಸಮ,",
+            "ಸುತಮಿತರಮಣೀಸಮಾಜೆ",
+            "ತೊಹೆ ಬಿಸರಿ ಮನ,    ತಾಹೆ ಸಮರ್ಪಿನು,",
+            "ಅಬ್ ಮಝು ಹಬ ಕೊನ್ ಕಾಜೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తాతల సైకతె,    బారిబిందుసమ,",
+            "సుతమితరమణీసమాజె",
+            "తొహె బిసరి మన,    తాహె సమర్పిను,",
+            "అబ్ మఝు హబ కొన్ కాజె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "та̄тала саикатэ̆,    ба̄рибиндусама,",
+            "сутамитараман̣ӣсама̄джэ̆",
+            "то̆хэ̆ бисари мана,    та̄хэ̆ самарпину,",
+            "аб маджху хаба ко̆н ка̄джэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "താതല സൈകതെ,    ബാരിബിന്ദുസമ,",
+            "സുതമിതരമണീസമാജെ",
+            "തൊഹെ ബിസരി മന,    താഹെ സമർപിനു,",
+            "അബ് മഝു ഹബ കൊൻ കാജെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தாதல ஸைகதெ,    பா³ரிபி³ந்து³ஸம,",
+            "ஸுதமிதரமணீஸமாஜெ",
+            "தொஹெ பி³ஸரி மன,    தாஹெ ஸமர்பினு,",
+            "அப்³ மஜு² ஹப³ கொன் காஜெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tātala saikate,    bāribindu-sama,",
+            "suta-mita-ramaṇī-samāje",
+            "tohe bisari mana,    tāhe samarpinu,",
+            "ab majhu haba kon kāje 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tātala saikate,    bāribindu-sama,",
+            "suta-mita-ramaṇī-samāje",
+            "tohe bisari mana,    tāhe samarpinu,",
+            "ab majhu haba kon kāje 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "mādhaba, hāma pariṇāma nirāśā",
+        "tuhũ jagatāraṇa,    dīna[FLAG_HYPHEN_ALPHA]dayāmaya,",
+        "ataye tohāri biśoyāsā 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "माधब, हाम परिणाम निराशा",
+            "तुहुं जगतारण,    दीनदयामय,",
+            "अतयॆ तॊहारि बिशॊयासा २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মাধব, হাম পরিণাম নিরাশা",
+            "তুহুং জগতারণ,    দীনদয়াময়,",
+            "অতয়ে তোহারি বিশোয়াসা ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମାଧବ, ହାମ ପରିଣାମ ନିରାଶା",
+            "ତୁହୁଂ ଜଗତାରଣ,    ଦୀନଦୟାମୟ,",
+            "ଅତୟେ ତୋହାରି ବିଶୋୟାସା ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "માધબ, હામ પરિણામ નિરાશા",
+            "તુહું જગતારણ,    દીનદયામય,",
+            "અતયે તોહારિ બિશોયાસા ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "mādhaba, hāma pariṇāma nirāśā",
+            "tuhũ jagatāraṇa,    dīna-dayāmaya,",
+            "ataye tohāri biśoyāsā 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮಾಧಬ, ಹಾಮ ಪರಿಣಾಮ ನಿರಾಶಾ",
+            "ತುಹುಂ ಜಗತಾರಣ,    ದೀನದಯಾಮಯ,",
+            "ಅತಯೆ ತೊಹಾರಿ ಬಿಶೊಯಾಸಾ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మాధబ, హామ పరిణామ నిరాశా",
+            "తుహుం జగతారణ,    దీనదయామయ,",
+            "అతయె తొహారి బిశొయాసా 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ма̄дхаба, ха̄ма парин̣а̄ма нира̄ш́а̄",
+            "тухум̣ джагата̄ран̣а,    дӣнадайа̄майа,",
+            "атайэ̆ то̆ха̄ри биш́о̆йа̄са̄ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മാധബ, ഹാമ പരിണാമ നിരാശാ",
+            "തുഹും ജഗതാരണ,    ദീനദയാമയ,",
+            "അതയെ തൊഹാരി ബിശൊയാസാ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மாத⁴ப³, ஹாம பரிணாம நிராஶா",
+            "துஹும்ʼ ஜக³தாரண,    தீ³னத³யாமய,",
+            "அதயெ தொஹாரி பி³ஶொயாஸா 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "mādhaba, hāma pariṇāma nirāśā",
+            "tuhũ jagatāraṇa,    dīna-dayāmaya,",
+            "ataye tohāri biśoyāsā 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "mādhaba, hāma pariṇāma nirāśā",
+            "tuhũ jagatāraṇa,    dīna-dayāmaya,",
+            "ataye tohāri biśoyāsā 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "ādha janama hāma,    nidẽ goṅāyanu,",
+        "jarā śiśu katadina gelā",
+        "nidhubane ramaṇī[FLAG_HYPHEN_ALPHA],    rasaraṅge mātanu,",
+        "tohe bhajaba kon belā 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "आध जनम हाम,    निद्ẽ गॊङायनु,",
+            "जरा शिशु कतदिन गॆला",
+            "निधुबनॆ रमणी,    रसरङ्गॆ मातनु,",
+            "तॊहॆ भजब कॊन् बॆला ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "আধ জনম হাম,    নিদ্ẽ গোঙায়নু,",
+            "জরা শিশু কতদিন গেলা",
+            "নিধুবনে রমণী,    রসরঙ্গে মাতনু,",
+            "তোহে ভজব কোন্ বেলা ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଆଧ ଜନମ ହାମ,    ନିଦ୍ẽ ଗୋଙାୟନୁ,",
+            "ଜରା ଶିଶୁ କତଦିନ ଗେଲା",
+            "ନିଧୁବନେ ରମଣୀ,    ରସରଙ୍ଗେ ମାତନୁ,",
+            "ତୋହେ ଭଜବ କୋନ୍ ବେଲା ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "આધ જનમ હામ,    નિદ્ẽ ગોઙાયનુ,",
+            "જરા શિશુ કતદિન ગેલા",
+            "નિધુબને રમણી,    રસરઙ્ગે માતનુ,",
+            "તોહે ભજબ કોન્ બેલા ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ādha janama hāma,    nidẽ goṅāyanu,",
+            "jarā śiśu katadina gelā",
+            "nidhubane ramaṇī-,    rasaraṅge mātanu,",
+            "tohe bhajaba kon belā 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಆಧ ಜನಮ ಹಾಮ,    ನಿದ್ẽ ಗೊಙಾಯನು,",
+            "ಜರಾ ಶಿಶು ಕತದಿನ ಗೆಲಾ",
+            "ನಿಧುಬನೆ ರಮಣೀ,    ರಸರಂಗೆ ಮಾತನು,",
+            "ತೊಹೆ ಭಜಬ ಕೊನ್ ಬೆಲಾ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఆధ జనమ హామ,    నిద్ẽ గొఙాయను,",
+            "జరా శిశు కతదిన గెలా",
+            "నిధుబనె రమణీ,    రసరంగె మాతను,",
+            "తొహె భజబ కొన్ బెలా 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "а̄дха джанама ха̄ма,    нидẽ го̆н̇а̄йану,",
+            "джара̄ ш́иш́у катадина гэ̆ла̄",
+            "нидхубанэ̆ раман̣ӣ,    расаран̇гэ̆ ма̄тану,",
+            "то̆хэ̆ бхаджаба ко̆н бэ̆ла̄ 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ആധ ജനമ ഹാമ,    നിദ്ẽ ഗൊങായനു,",
+            "ജരാ ശിശു കതദിന ഗെലാ",
+            "നിധുബനെ രമണീ,    രസരംഗെ മാതനു,",
+            "തൊഹെ ഭജബ കൊൻ ബെലാ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஆத⁴ ஜனம ஹாம,    நித்³ẽ கொ³ஙாயனு,",
+            "ஜரா ஶிஶு கததி³ன கெ³லா",
+            "நிது⁴ப³னெ ரமணீ,    ரஸரங்கெ³ மாதனு,",
+            "தொஹெ ப⁴ஜப³ கொன் பெ³லா 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ādha janama hāma,    nidẽ goṅāyanu,",
+            "jarā śiśu katadina gelā",
+            "nidhubane ramaṇī-,    rasaraṅge mātanu,",
+            "tohe bhajaba kon belā 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ādha janama hāma,    nidẽ goṅāyanu,",
+            "jarā śiśu katadina gelā",
+            "nidhubane ramaṇī-,    rasaraṅge mātanu,",
+            "tohe bhajaba kon belā 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "kata caturānana,    mari mari yāota,",
+        "na tuyā ādi abasānā",
+        "tohe janamipunaḥ,    tohe samāota,",
+        "sāgara[FLAG_HYPHEN_ALPHA]laharī samānā 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कत चतुरानन,    मरि मरि याऒत,",
+            "न तुया आदि अबसाना",
+            "तॊहॆ जनमिपुनः,    तॊहॆ समाऒत,",
+            "सागरलहरी समाना ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কত চতুরানন,    মরি মরি যাওত,",
+            "ন তুয়া আদি অবসানা",
+            "তোহে জনমিপুনঃ,    তোহে সমাওত,",
+            "সাগরলহরী সমানা ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କତ ଚତୁରାନନ,    ମରି ମରି ଯାଓତ,",
+            "ନ ତୁୟା ଆଦି ଅବସାନା",
+            "ତୋହେ ଜନମିପୁନଃ,    ତୋହେ ସମାଓତ,",
+            "ସାଗରଲହରୀ ସମାନା ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કત ચતુરાનન,    મરિ મરિ યાઓત,",
+            "ન તુયા આદિ અબસાના",
+            "તોહે જનમિપુનઃ,    તોહે સમાઓત,",
+            "સાગરલહરી સમાના ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kata caturānana,    mari mari yāota,",
+            "na tuyā ādi abasānā",
+            "tohe janamipunaḥ,    tohe samāota,",
+            "sāgara-laharī samānā 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕತ ಚತುರಾನನ,    ಮರಿ ಮರಿ ಯಾಒತ,",
+            "ನ ತುಯಾ ಆದಿ ಅಬಸಾನಾ",
+            "ತೊಹೆ ಜನಮಿಪುನಃ,    ತೊಹೆ ಸಮಾಒತ,",
+            "ಸಾಗರಲಹರೀ ಸಮಾನಾ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కత చతురానన,    మరి మరి యాఒత,",
+            "న తుయా ఆది అబసానా",
+            "తొహె జనమిపునః,    తొహె సమాఒత,",
+            "సాగరలహరీ సమానా 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ката чатура̄нана,    мари мари йа̄о̆та,",
+            "на туйа̄ а̄ди абаса̄на̄",
+            "то̆хэ̆ джанамипунах̣,    то̆хэ̆ сама̄о̆та,",
+            "са̄гаралахарӣ сама̄на̄ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കത ചതുരാനന,    മരി മരി യാഒത,",
+            "ന തുയാ ആദി അബസാനാ",
+            "തൊഹെ ജനമിപുനഃ,    തൊഹെ സമാഒത,",
+            "സാഗരലഹരീ സമാനാ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கத சதுரானன,    மரி மரி யாஒத,",
+            "ந துயா ஆதி³ அப³ஸானா",
+            "தொஹெ ஜனமிபுன꞉,    தொஹெ ஸமாஒத,",
+            "ஸாக³ரலஹரீ ஸமானா 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kata caturānana,    mari mari yāota,",
+            "na tuyā ādi abasānā",
+            "tohe janamipunaḥ,    tohe samāota,",
+            "sāgara-laharī samānā 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kata caturānana,    mari mari yāota,",
+            "na tuyā ādi abasānā",
+            "tohe janamipunaḥ,    tohe samāota,",
+            "sāgara-laharī samānā 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "bhaṇaye bidyāpati,    śeṣa śamana[FLAG_HYPHEN_ALPHA]bhaye,",
+        "tuyā binā gati nāhi ārā",
+        "ādi anādika,    nātha kahāosi,",
+        "ab tāraṇa[FLAG_HYPHEN_ALPHA]bhāra tohārā 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भणयॆ बिद्यापति,    शॆष शमनभयॆ,",
+            "तुया बिना गति नाहि आरा",
+            "आदि अनादिक,    नाथ कहाऒसि,",
+            "अब् तारणभार तॊहारा ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভণয়ে বিদ্যাপতি,    শেষ শমনভয়ে,",
+            "তুয়া বিনা গতি নাহি আরা",
+            "আদি অনাদিক,    নাথ কহাওসি,",
+            "অব্ তারণভার তোহারা ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭଣୟେ ବିଦ୍ୟାପତି,    ଶେଷ ଶମନଭୟେ,",
+            "ତୁୟା ବିନା ଗତି ନାହି ଆରା",
+            "ଆଦି ଅନାଦିକ,    ନାଥ କହାଓସି,",
+            "ଅବ୍ ତାରଣଭାର ତୋହାରା ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભણયે બિદ્યાપતિ,    શેષ શમનભયે,",
+            "તુયા બિના ગતિ નાહિ આરા",
+            "આદિ અનાદિક,    નાથ કહાઓસિ,",
+            "અબ્ તારણભાર તોહારા ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhaṇaye bidyāpati,    śeṣa śamana-bhaye,",
+            "tuyā binā gati nāhi ārā",
+            "ādi anādika,    nātha kahāosi,",
+            "ab tāraṇa-bhāra tohārā 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಣಯೆ ಬಿದ್ಯಾಪತಿ,    ಶೆಷ ಶಮನಭಯೆ,",
+            "ತುಯಾ ಬಿನಾ ಗತಿ ನಾಹಿ ಆರಾ",
+            "ಆದಿ ಅನಾದಿಕ,    ನಾಥ ಕಹಾಒಸಿ,",
+            "ಅಬ್ ತಾರಣಭಾರ ತೊಹಾರಾ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భణయె బిద్యాపతి,    శెష శమనభయె,",
+            "తుయా బినా గతి నాహి ఆరా",
+            "ఆది అనాదిక,    నాథ కహాఒసి,",
+            "అబ్ తారణభార తొహారా 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхан̣айэ̆ бидйа̄пати,    ш́э̆ша ш́аманабхайэ̆,",
+            "туйа̄ бина̄ гати на̄хи а̄ра̄",
+            "а̄ди ана̄дика,    на̄тха каха̄о̆си,",
+            "аб та̄ран̣абха̄ра то̆ха̄ра̄ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭണയെ ബിദ്യാപതി,    ശെഷ ശമനഭയെ,",
+            "തുയാ ബിനാ ഗതി നാഹി ആരാ",
+            "ആദി അനാദിക,    നാഥ കഹാഒസി,",
+            "അബ് താരണഭാര തൊഹാരാ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப⁴ணயெ பி³த்³யாபதி,    ஶெஷ ஶமனப⁴யெ,",
+            "துயா பி³னா க³தி நாஹி ஆரா",
+            "ஆதி³ அநாதி³க,    நாத² கஹாஒஸி,",
+            "அப்³ தாரணபா⁴ர தொஹாரா 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhaṇaye bidyāpati,    śeṣa śamana-bhaye,",
+            "tuyā binā gati nāhi ārā",
+            "ādi anādika,    nātha kahāosi,",
+            "ab tāraṇa-bhāra tohārā 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhaṇaye bidyāpati,    śeṣa śamana-bhaye,",
+            "tuyā binā gati nāhi ārā",
+            "ādi anādika,    nātha kahāosi,",
+            "ab tāraṇa-bhāra tohārā 5"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- তাতল—তপ্ত; সৈকত—বালুকাময় স্থান; তোহে—তোমাকে, তোমাতে; বিসরি—ভুলিয়া; অতয়ে—অতএব; তোহারি—তোমার; নিধুবন—রতিক্রীড়া; কহাওসি—কথিত ।"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Self-Dedication"
+  ]
+}

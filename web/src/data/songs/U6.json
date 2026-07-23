@@ -1,0 +1,1851 @@
+{
+  "uid": "U6",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "হরি হে! নীরধর্ম্ম-গত"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "hari he! nīradharma-gata"
+    },
+    {
+      "script_code": "Deva",
+      "text": "हरि हे! नीरधर्म-गत"
+    },
+    {
+      "script_code": "Telu",
+      "text": "హరి హే! నీరధర్మ-గత"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಹರಿ ಹೇ! ನೀರಧರ್ಮ-ಗತ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஹரி ஹே! நீரத⁴ர்ம-க³த"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഹരി ഹേ! നീരധർമ-ഗത"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "હરિ હે! નીરધર્મ-ગત"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ହରି ହେ! ନୀରଧର୍ମ-ଗତ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "хари хэ! нӣрадхарма-гата"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "hari he!",
+        "nīradharma[FLAG_HYPHEN_ALPHA]gata,    jāhnabī[FLAG_HYPHEN_ALPHA]salile,",
+        "paṅka[FLAG_HYPHEN_ALPHA]phena dṛṣṭa haya",
+        "tathāpi kakhana,    brahmadraba[FLAG_HYPHEN_ALPHA]dharma,",
+        "se salila nā chāḓaya 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O Hari! Mud and foam may be observed in the waters of Jāhnavī (the Ganges), who possesses an aqueous nature, but the nature of liquefied transcendence never leaves those waters."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "hari",
+              "Hari"
+            ],
+            [
+              "he",
+              "O"
+            ],
+            [
+              "nīradharma",
+              "water + nature"
+            ],
+            [
+              "gata",
+              "possessing"
+            ],
+            [
+              "jāhnabī",
+              "the Gaṅga"
+            ],
+            [
+              "salile",
+              "in the waters"
+            ],
+            [
+              "paṅka",
+              "mud"
+            ],
+            [
+              "phena",
+              "foam, froth"
+            ],
+            [
+              "dṛṣṭa",
+              "visible"
+            ],
+            [
+              "haya",
+              "are"
+            ],
+            [
+              "tathāpi",
+              "still"
+            ],
+            [
+              "kakhana",
+              "ever"
+            ],
+            [
+              "brahmadraba",
+              "(cinmay) transcendental + (tāralya) liquefied, fluid (liquidity, fluidity)"
+            ],
+            [
+              "dharma",
+              "nature"
+            ],
+            [
+              "se",
+              "that"
+            ],
+            [
+              "salila",
+              "water"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "chāḓaya",
+              "leaves, gives up"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "हरि",
+              "Hari"
+            ],
+            [
+              "हॆ",
+              "O"
+            ],
+            [
+              "नीरधर्म",
+              "water + nature"
+            ],
+            [
+              "गत",
+              "possessing"
+            ],
+            [
+              "जाह्नबी",
+              "the Gaṅga"
+            ],
+            [
+              "सलिलॆ",
+              "in the waters"
+            ],
+            [
+              "पङ्क",
+              "mud"
+            ],
+            [
+              "फॆन",
+              "foam, froth"
+            ],
+            [
+              "द्ड़्ष्ट",
+              "visible"
+            ],
+            [
+              "हय",
+              "are"
+            ],
+            [
+              "तथापि",
+              "still"
+            ],
+            [
+              "कखन",
+              "ever"
+            ],
+            [
+              "ब्रह्मद्रब",
+              "(cinmay) transcendental + (tāralya) liquefied, fluid (liquidity, fluidity)"
+            ],
+            [
+              "धर्म",
+              "nature"
+            ],
+            [
+              "सॆ",
+              "that"
+            ],
+            [
+              "सलिल",
+              "water"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "छाḓअय",
+              "leaves, gives up"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "হরি",
+              "Hari"
+            ],
+            [
+              "হে",
+              "O"
+            ],
+            [
+              "নীরধর্ম",
+              "water + nature"
+            ],
+            [
+              "গত",
+              "possessing"
+            ],
+            [
+              "জাহ্নবী",
+              "the Gaṅga"
+            ],
+            [
+              "সলিলে",
+              "in the waters"
+            ],
+            [
+              "পঙ্ক",
+              "mud"
+            ],
+            [
+              "ফেন",
+              "foam, froth"
+            ],
+            [
+              "দ্ড়্ষ্ট",
+              "visible"
+            ],
+            [
+              "হয়",
+              "are"
+            ],
+            [
+              "তথাপি",
+              "still"
+            ],
+            [
+              "কখন",
+              "ever"
+            ],
+            [
+              "ব্রহ্মদ্রব",
+              "(cinmay) transcendental + (tāralya) liquefied, fluid (liquidity, fluidity)"
+            ],
+            [
+              "ধর্ম",
+              "nature"
+            ],
+            [
+              "সে",
+              "that"
+            ],
+            [
+              "সলিল",
+              "water"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "ছাḓঅয়",
+              "leaves, gives up"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "હરિ",
+              "Hari"
+            ],
+            [
+              "હે",
+              "O"
+            ],
+            [
+              "નીરધર્મ",
+              "water + nature"
+            ],
+            [
+              "ગત",
+              "possessing"
+            ],
+            [
+              "જાહ્નબી",
+              "the Gaṅga"
+            ],
+            [
+              "સલિલે",
+              "in the waters"
+            ],
+            [
+              "પઙ્ક",
+              "mud"
+            ],
+            [
+              "ફેન",
+              "foam, froth"
+            ],
+            [
+              "દ્ડ઼્ષ્ટ",
+              "visible"
+            ],
+            [
+              "હય",
+              "are"
+            ],
+            [
+              "તથાપિ",
+              "still"
+            ],
+            [
+              "કખન",
+              "ever"
+            ],
+            [
+              "બ્રહ્મદ્રબ",
+              "(cinmay) transcendental + (tāralya) liquefied, fluid (liquidity, fluidity)"
+            ],
+            [
+              "ધર્મ",
+              "nature"
+            ],
+            [
+              "સે",
+              "that"
+            ],
+            [
+              "સલિલ",
+              "water"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "છાḓઅય",
+              "leaves, gives up"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हरि हॆ!",
+            "नीरधर्मगत,    जाह्नबीसलिलॆ,",
+            "पङ्कफॆन द्ड़्ष्ट हय",
+            "तथापि कखन,    ब्रह्मद्रबधर्म,",
+            "सॆ सलिल ना छाḓअय १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হরি হে!",
+            "নীরধর্মগত,    জাহ্নবীসলিলে,",
+            "পঙ্কফেন দ্ড়্ষ্ট হয়",
+            "তথাপি কখন,    ব্রহ্মদ্রবধর্ম,",
+            "সে সলিল না ছাḓঅয় ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହରି ହେ!",
+            "ନୀରଧର୍ମଗତ,    ଜାହ୍ନବୀସଲିଲେ,",
+            "ପଙ୍କଫେନ ଦ୍ଡ଼୍ଷ୍ଟ ହୟ",
+            "ତଥାପି କଖନ,    ବ୍ରହ୍ମଦ୍ରବଧର୍ମ,",
+            "ସେ ସଲିଲ ନା ଛାḓଅୟ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હરિ હે!",
+            "નીરધર્મગત,    જાહ્નબીસલિલે,",
+            "પઙ્કફેન દ્ડ઼્ષ્ટ હય",
+            "તથાપિ કખન,    બ્રહ્મદ્રબધર્મ,",
+            "સે સલિલ ના છાḓઅય ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hari he!",
+            "nīradharma-gata,    jāhnabī-salile,",
+            "paṅka-phena dṛṣṭa haya",
+            "tathāpi kakhana,    brahmadraba-dharma,",
+            "se salila nā chāḓaya 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹರಿ ಹೆ!",
+            "ನೀರಧರ್ಮಗತ,    ಜಾಹ್ನಬೀಸಲಿಲೆ,",
+            "ಪಂಕಫೆನ ದ್‌ಡ಼್ಷ್ಟ ಹಯ",
+            "ತಥಾಪಿ ಕಖನ,    ಬ್ರಹ್ಮದ್ರಬಧರ್ಮ,",
+            "ಸೆ ಸಲಿಲ ನಾ ಛಾḓಅಯ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హరి హె!",
+            "నీరధర్మగత,    జాహ్నబీసలిలె,",
+            "పంకఫెన ద్డ్ష్ట హయ",
+            "తథాపి కఖన,    బ్రహ్మద్రబధర్మ,",
+            "సె సలిల నా ఛాḓఅయ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хари хэ̆!",
+            "нӣрадхармагата,    джа̄хнабӣсалилэ̆,",
+            "пан̇капхэ̆на др̤шт̣а хайа",
+            "татха̄пи какхана,    брахмадрабадхарма,",
+            "сэ̆ салила на̄ чха̄ḓайа 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹരി ഹെ!",
+            "നീരധർമഗത,    ജാഹ്നബീസലിലെ,",
+            "പങ്കഫെന ദ്ഡ്ഷ്ട ഹയ",
+            "തഥാപി കഖന,    ബ്രഹ്മദ്രബധർമ,",
+            "സെ സലില നാ ഛാḓഅയ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹரி ஹெ!",
+            "நீரத⁴ர்மக³த,    ஜாஹ்னபீ³ஸலிலெ,",
+            "பங்கபெ²ன த்³ஃட்²ஷ்ட ஹய",
+            "ததா²பி கக²ன,    ப்³ரஹ்மத்³ரப³த⁴ர்ம,",
+            "ஸெ ஸலில நா சா²ḓஅய 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hari he!",
+            "nīradharma-gata,    jāhnabī-salile,",
+            "paṅka-phena dṛṣṭa haya",
+            "tathāpi kakhana,    brahmadraba-dharma,",
+            "se salila nā chāḍaya 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hari he!",
+            "nīradharma-gata,    jāhnabī-salile,",
+            "paṅka-phena dṛṣṭa haya",
+            "tathāpi kakhana,    brahmadraba-dharma,",
+            "se salila nā chāḓaya 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "baiṣṇaba[FLAG_HYPHEN_ALPHA]śarīra,    aprākṛta sadā,",
+        "sbabhāba[FLAG_HYPHEN_ALPHA]bapura dharme",
+        "kabhu nahe jaḓa,    tathāpi ye ninde,",
+        "paḓe se biṣamādharme 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Similarly, the body of the Vaiṣṇava is always transcendental. From any perspective, his nature and body are never mundane. As such, one who criticizes him falls into consummate heresy."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "baiṣṇaba",
+              "Vaiṣṇava"
+            ],
+            [
+              "śarīra",
+              "body"
+            ],
+            [
+              "aprākṛta",
+              "(prakṛtir niyamer atīt) transcendental (beyond the laws of nature)"
+            ],
+            [
+              "sadā",
+              "always"
+            ],
+            [
+              "sbabhāba",
+              "innate nature, temperament"
+            ],
+            [
+              "bapura",
+              "body’s"
+            ],
+            [
+              "dharme",
+              "by nature"
+            ],
+            [
+              "kabhu",
+              "ever"
+            ],
+            [
+              "nahe",
+              "not"
+            ],
+            [
+              "jaḓa",
+              "mundane"
+            ],
+            [
+              "tathāpi",
+              "as such"
+            ],
+            [
+              "ye",
+              "who"
+            ],
+            [
+              "ninde",
+              "criticizes"
+            ],
+            [
+              "paḓe",
+              "falls"
+            ],
+            [
+              "se",
+              "he"
+            ],
+            [
+              "biṣamādharme",
+              "(gurutara) terrible (very serious) + into irreligion"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "बैष्णब",
+              "Vaiṣṇava"
+            ],
+            [
+              "शरीर",
+              "body"
+            ],
+            [
+              "अप्राक्ड़्त",
+              "(prakṛtir niyamer atīt) transcendental (beyond the laws of nature)"
+            ],
+            [
+              "सदा",
+              "always"
+            ],
+            [
+              "स्बभाब",
+              "innate nature, temperament"
+            ],
+            [
+              "बपुर",
+              "body’s"
+            ],
+            [
+              "धर्मॆ",
+              "by nature"
+            ],
+            [
+              "कभु",
+              "ever"
+            ],
+            [
+              "नहॆ",
+              "not"
+            ],
+            [
+              "जḓअ",
+              "mundane"
+            ],
+            [
+              "तथापि",
+              "as such"
+            ],
+            [
+              "यॆ",
+              "who"
+            ],
+            [
+              "निन्दॆ",
+              "criticizes"
+            ],
+            [
+              "पḓऎ",
+              "falls"
+            ],
+            [
+              "सॆ",
+              "he"
+            ],
+            [
+              "बिषमाधर्मॆ",
+              "(gurutara) terrible (very serious) + into irreligion"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "বৈষ্ণব",
+              "Vaiṣṇava"
+            ],
+            [
+              "শরীর",
+              "body"
+            ],
+            [
+              "অপ্রাক্ড়্ত",
+              "(prakṛtir niyamer atīt) transcendental (beyond the laws of nature)"
+            ],
+            [
+              "সদা",
+              "always"
+            ],
+            [
+              "স্বভাব",
+              "innate nature, temperament"
+            ],
+            [
+              "বপুর",
+              "body’s"
+            ],
+            [
+              "ধর্মে",
+              "by nature"
+            ],
+            [
+              "কভু",
+              "ever"
+            ],
+            [
+              "নহে",
+              "not"
+            ],
+            [
+              "জḓঅ",
+              "mundane"
+            ],
+            [
+              "তথাপি",
+              "as such"
+            ],
+            [
+              "যে",
+              "who"
+            ],
+            [
+              "নিন্দে",
+              "criticizes"
+            ],
+            [
+              "পḓএ",
+              "falls"
+            ],
+            [
+              "সে",
+              "he"
+            ],
+            [
+              "বিষমাধর্মে",
+              "(gurutara) terrible (very serious) + into irreligion"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "બૈષ્ણબ",
+              "Vaiṣṇava"
+            ],
+            [
+              "શરીર",
+              "body"
+            ],
+            [
+              "અપ્રાક્ડ઼્ત",
+              "(prakṛtir niyamer atīt) transcendental (beyond the laws of nature)"
+            ],
+            [
+              "સદા",
+              "always"
+            ],
+            [
+              "સ્બભાબ",
+              "innate nature, temperament"
+            ],
+            [
+              "બપુર",
+              "body’s"
+            ],
+            [
+              "ધર્મે",
+              "by nature"
+            ],
+            [
+              "કભુ",
+              "ever"
+            ],
+            [
+              "નહે",
+              "not"
+            ],
+            [
+              "જḓઅ",
+              "mundane"
+            ],
+            [
+              "તથાપિ",
+              "as such"
+            ],
+            [
+              "યે",
+              "who"
+            ],
+            [
+              "નિન્દે",
+              "criticizes"
+            ],
+            [
+              "પḓએ",
+              "falls"
+            ],
+            [
+              "સે",
+              "he"
+            ],
+            [
+              "બિષમાધર્મે",
+              "(gurutara) terrible (very serious) + into irreligion"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बैष्णबशरीर,    अप्राक्ड़्त सदा,",
+            "स्बभाबबपुर धर्मॆ",
+            "कभु नहॆ जḓअ,    तथापि यॆ निन्दॆ,",
+            "पḓऎ सॆ बिषमाधर्मॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বৈষ্ণবশরীর,    অপ্রাক্ড়্ত সদা,",
+            "স্বভাববপুর ধর্মে",
+            "কভু নহে জḓঅ,    তথাপি যে নিন্দে,",
+            "পḓএ সে বিষমাধর্মে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବୈଷ୍ଣବଶରୀର,    ଅପ୍ରାକ୍ଡ଼୍ତ ସଦା,",
+            "ସ୍ବଭାବବପୁର ଧର୍ମେ",
+            "କଭୁ ନହେ ଜḓଅ,    ତଥାପି ଯେ ନିନ୍ଦେ,",
+            "ପḓଏ ସେ ବିଷମାଧର୍ମେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બૈષ્ણબશરીર,    અપ્રાક્ડ઼્ત સદા,",
+            "સ્બભાબબપુર ધર્મે",
+            "કભુ નહે જḓઅ,    તથાપિ યે નિન્દે,",
+            "પḓએ સે બિષમાધર્મે ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "baiṣṇaba-śarīra,    aprākṛta sadā,",
+            "sbabhāba-bapura dharme",
+            "kabhu nahe jaḓa,    tathāpi ye ninde,",
+            "paḓe se biṣamādharme 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬೈಷ್ಣಬಶರೀರ,    ಅಪ್ರಾಕ್‌ಡ಼್ತ ಸದಾ,",
+            "ಸ್ಬಭಾಬಬಪುರ ಧರ್ಮೆ",
+            "ಕಭು ನಹೆ ಜḓಅ,    ತಥಾಪಿ ಯೆ ನಿಂದೆ,",
+            "ಪḓಎ ಸೆ ಬಿಷಮಾಧರ್ಮೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బైష్ణబశరీర,    అప్రాక్డ్త సదా,",
+            "స్బభాబబపుర ధర్మె",
+            "కభు నహె జḓఅ,    తథాపి యె నిందె,",
+            "పḓఎ సె బిషమాధర్మె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "баишн̣абаш́арӣра,    апра̄кр̤та сада̄,",
+            "сбабха̄бабапура дхармэ̆",
+            "кабху нахэ̆ джаḓа,    татха̄пи йэ̆ ниндэ̆,",
+            "паḓэ̆ сэ̆ бишама̄дхармэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബൈഷ്ണബശരീര,    അപ്രാക്ഡ്ത സദാ,",
+            "സ്ബഭാബബപുര ധർമെ",
+            "കഭു നഹെ ജḓഅ,    തഥാപി യെ നിന്ദെ,",
+            "പḓഎ സെ ബിഷമാധർമെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பை³ஷ்ணப³ஶரீர,    அப்ராக்ஃட்²த ஸதா³,",
+            "ஸ்ப³பா⁴ப³ப³புர த⁴ர்மெ",
+            "கபு⁴ நஹெ ஜḓஅ,    ததா²பி யெ நிந்தெ³,",
+            "பḓஎ ஸெ பி³ஷமாத⁴ர்மெ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "baiṣṇaba-śarīra,    aprākṛta sadā,",
+            "sbabhāba-bapura dharme",
+            "kabhu nahe jaḍa,    tathāpi ye ninde,",
+            "paḍe se biṣamādharme 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "baiṣṇaba-śarīra,    aprākṛta sadā,",
+            "sbabhāba-bapura dharme",
+            "kabhu nahe jaḓa,    tathāpi ye ninde,",
+            "paḓe se biṣamādharme 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "sei aparādhe,    yamera yātanā,",
+        "pāya jība abirata",
+        "he nandanandana!    sei aparādhe,",
+        "yena nāhi ha·i hata 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "For that offense, the soul perpetually receives suffering from Yamarāja. O Nanda-nandana, may I not be destroyed by such an offense."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "sei",
+              "this"
+            ],
+            [
+              "aparādhe",
+              "by offense"
+            ],
+            [
+              "yamera",
+              "Yamarāja’s"
+            ],
+            [
+              "yātanā",
+              "torture, punishment"
+            ],
+            [
+              "pāya",
+              "receives"
+            ],
+            [
+              "jība",
+              "the soul"
+            ],
+            [
+              "abirata",
+              "perpetual"
+            ],
+            [
+              "he",
+              "O"
+            ],
+            [
+              "nandanandana",
+              "son of Nanda"
+            ],
+            [
+              "sei",
+              "that"
+            ],
+            [
+              "aparādhe",
+              "by offense"
+            ],
+            [
+              "yena",
+              "that"
+            ],
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "ha·i",
+              "I be"
+            ],
+            [
+              "hata",
+              "destroyed"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "सॆइ",
+              "this"
+            ],
+            [
+              "अपराधॆ",
+              "by offense"
+            ],
+            [
+              "यमॆर",
+              "Yamarāja’s"
+            ],
+            [
+              "यातना",
+              "torture, punishment"
+            ],
+            [
+              "पाय",
+              "receives"
+            ],
+            [
+              "जीब",
+              "the soul"
+            ],
+            [
+              "अबिरत",
+              "perpetual"
+            ],
+            [
+              "हॆ",
+              "O"
+            ],
+            [
+              "नन्दनन्दन",
+              "son of Nanda"
+            ],
+            [
+              "सॆइ",
+              "that"
+            ],
+            [
+              "अपराधॆ",
+              "by offense"
+            ],
+            [
+              "यॆन",
+              "that"
+            ],
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "हइ",
+              "I be"
+            ],
+            [
+              "हत",
+              "destroyed"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "সেই",
+              "this"
+            ],
+            [
+              "অপরাধে",
+              "by offense"
+            ],
+            [
+              "যমের",
+              "Yamarāja’s"
+            ],
+            [
+              "যাতনা",
+              "torture, punishment"
+            ],
+            [
+              "পায়",
+              "receives"
+            ],
+            [
+              "জীব",
+              "the soul"
+            ],
+            [
+              "অবিরত",
+              "perpetual"
+            ],
+            [
+              "হে",
+              "O"
+            ],
+            [
+              "নন্দনন্দন",
+              "son of Nanda"
+            ],
+            [
+              "সেই",
+              "that"
+            ],
+            [
+              "অপরাধে",
+              "by offense"
+            ],
+            [
+              "যেন",
+              "that"
+            ],
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "হই",
+              "I be"
+            ],
+            [
+              "হত",
+              "destroyed"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "સેઇ",
+              "this"
+            ],
+            [
+              "અપરાધે",
+              "by offense"
+            ],
+            [
+              "યમેર",
+              "Yamarāja’s"
+            ],
+            [
+              "યાતના",
+              "torture, punishment"
+            ],
+            [
+              "પાય",
+              "receives"
+            ],
+            [
+              "જીબ",
+              "the soul"
+            ],
+            [
+              "અબિરત",
+              "perpetual"
+            ],
+            [
+              "હે",
+              "O"
+            ],
+            [
+              "નન્દનન્દન",
+              "son of Nanda"
+            ],
+            [
+              "સેઇ",
+              "that"
+            ],
+            [
+              "અપરાધે",
+              "by offense"
+            ],
+            [
+              "યેન",
+              "that"
+            ],
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "હઇ",
+              "I be"
+            ],
+            [
+              "હત",
+              "destroyed"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सॆइ अपराधॆ,    यमॆर यातना,",
+            "पाय जीब अबिरत",
+            "हॆ नन्दनन्दन!    सॆइ अपराधॆ,",
+            "यॆन नाहि हइ हत ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সেই অপরাধে,    যমের যাতনা,",
+            "পায় জীব অবিরত",
+            "হে নন্দনন্দন!    সেই অপরাধে,",
+            "যেন নাহি হই হত ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସେଇ ଅପରାଧେ,    ଯମେର ଯାତନା,",
+            "ପାୟ ଜୀବ ଅବିରତ",
+            "ହେ ନନ୍ଦନନ୍ଦନ!    ସେଇ ଅପରାଧେ,",
+            "ଯେନ ନାହି ହଇ ହତ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સેઇ અપરાધે,    યમેર યાતના,",
+            "પાય જીબ અબિરત",
+            "હે નન્દનન્દન!    સેઇ અપરાધે,",
+            "યેન નાહિ હઇ હત ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sei aparādhe,    yamera yātanā,",
+            "pāya jība abirata",
+            "he nandanandana!    sei aparādhe,",
+            "yena nāhi ha·i hata 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸೆಇ ಅಪರಾಧೆ,    ಯಮೆರ ಯಾತನಾ,",
+            "ಪಾಯ ಜೀಬ ಅಬಿರತ",
+            "ಹೆ ನಂದನಂದನ!    ಸೆಇ ಅಪರಾಧೆ,",
+            "ಯೆನ ನಾಹಿ ಹಇ ಹತ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సెఇ అపరాధె,    యమెర యాతనా,",
+            "పాయ జీబ అబిరత",
+            "హె నందనందన!    సెఇ అపరాధె,",
+            "యెన నాహి హఇ హత 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сэ̆и апара̄дхэ̆,    йамэ̆ра йа̄тана̄,",
+            "па̄йа джӣба абирата",
+            "хэ̆ нанданандана!    сэ̆и апара̄дхэ̆,",
+            "йэ̆на на̄хи хаи хата 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സെഇ അപരാധെ,    യമെര യാതനാ,",
+            "പായ ജീബ അബിരത",
+            "ഹെ നന്ദനന്ദന!    സെഇ അപരാധെ,",
+            "യെന നാഹി ഹഇ ഹത 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸெஇ அபராதெ⁴,    யமெர யாதனா,",
+            "பாய ஜீப³ அபி³ரத",
+            "ஹெ நந்த³நந்த³ன!    ஸெஇ அபராதெ⁴,",
+            "யென நாஹி ஹஇ ஹத 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sei aparādhe,    yamera yātanā,",
+            "pāya jība abirata",
+            "he nandanandana!    sei aparādhe,",
+            "yena nāhi ha·i hata 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sei aparādhe,    yamera yātanā,",
+            "pāya jība abirata",
+            "he nandanandana!    sei aparādhe,",
+            "yena nāhi ha·i hata 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "tomāra baiṣṇaba,    baibhaba tomāra,",
+        "āmāre karuna dayā",
+        "tabe mora gati,    habe taba prati,",
+        "pā’ba taba padachāyā 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Your Vaiṣṇavas are Your glory. May they be merciful to me. Then my journey will lead to You, and I will attain the shade of Your lotus feet."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "tomāra",
+              "Your"
+            ],
+            [
+              "baiṣṇaba",
+              "Vaiṣṇava"
+            ],
+            [
+              "baibhaba",
+              "glory"
+            ],
+            [
+              "tomāra",
+              "Your"
+            ],
+            [
+              "āmāre",
+              "to me"
+            ],
+            [
+              "karuna",
+              "may they do"
+            ],
+            [
+              "dayā",
+              "mercy"
+            ],
+            [
+              "tabe",
+              "then"
+            ],
+            [
+              "mora",
+              "my"
+            ],
+            [
+              "gati",
+              "journey, destiny"
+            ],
+            [
+              "habe",
+              "will be"
+            ],
+            [
+              "taba",
+              "Your (to You)"
+            ],
+            [
+              "prati",
+              "towards"
+            ],
+            [
+              "pā’ba",
+              "I will attain"
+            ],
+            [
+              "taba",
+              "Your"
+            ],
+            [
+              "padachāyā",
+              "feet + shade"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "तॊमार",
+              "Your"
+            ],
+            [
+              "बैष्णब",
+              "Vaiṣṇava"
+            ],
+            [
+              "बैभब",
+              "glory"
+            ],
+            [
+              "तॊमार",
+              "Your"
+            ],
+            [
+              "आमारॆ",
+              "to me"
+            ],
+            [
+              "करुन",
+              "may they do"
+            ],
+            [
+              "दया",
+              "mercy"
+            ],
+            [
+              "तबॆ",
+              "then"
+            ],
+            [
+              "मॊर",
+              "my"
+            ],
+            [
+              "गति",
+              "journey, destiny"
+            ],
+            [
+              "हबॆ",
+              "will be"
+            ],
+            [
+              "तब",
+              "Your (to You)"
+            ],
+            [
+              "प्रति",
+              "towards"
+            ],
+            [
+              "पाऽब",
+              "I will attain"
+            ],
+            [
+              "तब",
+              "Your"
+            ],
+            [
+              "पदछाया",
+              "feet + shade"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "তোমার",
+              "Your"
+            ],
+            [
+              "বৈষ্ণব",
+              "Vaiṣṇava"
+            ],
+            [
+              "বৈভব",
+              "glory"
+            ],
+            [
+              "তোমার",
+              "Your"
+            ],
+            [
+              "আমারে",
+              "to me"
+            ],
+            [
+              "করুন",
+              "may they do"
+            ],
+            [
+              "দয়া",
+              "mercy"
+            ],
+            [
+              "তবে",
+              "then"
+            ],
+            [
+              "মোর",
+              "my"
+            ],
+            [
+              "গতি",
+              "journey, destiny"
+            ],
+            [
+              "হবে",
+              "will be"
+            ],
+            [
+              "তব",
+              "Your (to You)"
+            ],
+            [
+              "প্রতি",
+              "towards"
+            ],
+            [
+              "পাঽব",
+              "I will attain"
+            ],
+            [
+              "তব",
+              "Your"
+            ],
+            [
+              "পদছায়া",
+              "feet + shade"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "તોમાર",
+              "Your"
+            ],
+            [
+              "બૈષ્ણબ",
+              "Vaiṣṇava"
+            ],
+            [
+              "બૈભબ",
+              "glory"
+            ],
+            [
+              "તોમાર",
+              "Your"
+            ],
+            [
+              "આમારે",
+              "to me"
+            ],
+            [
+              "કરુન",
+              "may they do"
+            ],
+            [
+              "દયા",
+              "mercy"
+            ],
+            [
+              "તબે",
+              "then"
+            ],
+            [
+              "મોર",
+              "my"
+            ],
+            [
+              "ગતિ",
+              "journey, destiny"
+            ],
+            [
+              "હબે",
+              "will be"
+            ],
+            [
+              "તબ",
+              "Your (to You)"
+            ],
+            [
+              "પ્રતિ",
+              "towards"
+            ],
+            [
+              "પાઽબ",
+              "I will attain"
+            ],
+            [
+              "તબ",
+              "Your"
+            ],
+            [
+              "પદછાયા",
+              "feet + shade"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तॊमार बैष्णब,    बैभब तॊमार,",
+            "आमारॆ करुन दया",
+            "तबॆ मॊर गति,    हबॆ तब प्रति,",
+            "पाऽब तब पदछाया ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তোমার বৈষ্ণব,    বৈভব তোমার,",
+            "আমারে করুন দয়া",
+            "তবে মোর গতি,    হবে তব প্রতি,",
+            "পাঽব তব পদছায়া ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତୋମାର ବୈଷ୍ଣବ,    ବୈଭବ ତୋମାର,",
+            "ଆମାରେ କରୁନ ଦୟା",
+            "ତବେ ମୋର ଗତି,    ହବେ ତବ ପ୍ରତି,",
+            "ପାଽବ ତବ ପଦଛାୟା ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તોમાર બૈષ્ણબ,    બૈભબ તોમાર,",
+            "આમારે કરુન દયા",
+            "તબે મોર ગતિ,    હબે તબ પ્રતિ,",
+            "પાઽબ તબ પદછાયા ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tomāra baiṣṇaba,    baibhaba tomāra,",
+            "āmāre karuna dayā",
+            "tabe mora gati,    habe taba prati,",
+            "pā’ba taba padachāyā 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತೊಮಾರ ಬೈಷ್ಣಬ,    ಬೈಭಬ ತೊಮಾರ,",
+            "ಆಮಾರೆ ಕರುನ ದಯಾ",
+            "ತಬೆ ಮೊರ ಗತಿ,    ಹಬೆ ತಬ ಪ್ರತಿ,",
+            "ಪಾಽಬ ತಬ ಪದಛಾಯಾ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తొమార బైష్ణబ,    బైభబ తొమార,",
+            "ఆమారె కరున దయా",
+            "తబె మొర గతి,    హబె తబ ప్రతి,",
+            "పాఽబ తబ పదఛాయా 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "то̆ма̄ра баишн̣аба,    баибхаба то̆ма̄ра,",
+            "а̄ма̄рэ̆ каруна дайа̄",
+            "табэ̆ мо̆ра гати,    хабэ̆ таба прати,",
+            "па̄'ба таба падачха̄йа̄ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തൊമാര ബൈഷ്ണബ,    ബൈഭബ തൊമാര,",
+            "ആമാരെ കരുന ദയാ",
+            "തബെ മൊര ഗതി,    ഹബെ തബ പ്രതി,",
+            "പാഽബ തബ പദഛായാ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தொமார பை³ஷ்ணப³,    பை³ப⁴ப³ தொமார,",
+            "ஆமாரெ கருன த³யா",
+            "தபெ³ மொர க³தி,    ஹபெ³ தப³ ப்ரதி,",
+            "பா(அ)ப³ தப³ பத³சா²யா 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tomāra baiṣṇaba,    baibhaba tomāra,",
+            "āmāre karuna dayā",
+            "tabe mora gati,    habe taba prati,",
+            "pā’ba taba padachāyā 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tomāra baiṣṇaba,    baibhaba tomāra,",
+            "āmāre karuna dayā",
+            "tabe mora gati,    habe taba prati,",
+            "pā’ba taba padachāyā 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "দৃষ্টৈঃ স্বভাবজনিতৈর্ব্বপুষশ্চ দোষৈ-"
+    },
+    {
+      "language_code": "ben",
+      "text": "র্ন প্রাকৃতত্ত্বমিহ ভক্তজনস্য পশ্যেৎ ।"
+    },
+    {
+      "language_code": "ben",
+      "text": "গঙ্গাম্ভসাং ন খলু বুদ্বুদফেনপঙ্কৈ-"
+    },
+    {
+      "language_code": "ben",
+      "text": "র্ব্রহ্মদ্রবত্বমপগচ্ছতি নীরধর্ম্মৈঃ ॥৬॥"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "srrb-1",
+      "filename": "U6-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    }
+  ],
+  "tags": [
+    "Additional songs related to Vaiṣṇavas"
+  ]
+}

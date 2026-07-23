@@ -1,0 +1,467 @@
+{
+ "uid": "Y1",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হে! ওহে প্রভু দয়াময়"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari he! ohe prabhu dayāmaya"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari he!",
+    "ohe prabhu dayāmaya,    tomāra caraṇadbaya,",
+    "śruti[FLAG_HYPHEN_ALPHA]śiropari śobhā pāya",
+    "gurujana[FLAG_HYPHEN_ALPHA]śire punaḥ,    śobhā pāya śata guṇa,",
+    "dekhi’ āmāra parāṇa juḓāya 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हॆ!",
+      "ऒहॆ प्रभु दयामय,    तॊमार चरणद्बय,",
+      "श्रुतिशिरॊपरि शॊभा पाय",
+      "गुरुजनशिरॆ पुनः,    शॊभा पाय शत गुण,",
+      "दॆखिऽ आमार पराण जुḓआय १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হে!",
+      "ওহে প্রভু দয়াময়,    তোমার চরণদ্বয়,",
+      "শ্রুতিশিরোপরি শোভা পায়",
+      "গুরুজনশিরে পুনঃ,    শোভা পায় শত গুণ,",
+      "দেখিঽ আমার পরাণ জুḓআয় ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହେ!",
+      "ଓହେ ପ୍ରଭୁ ଦୟାମୟ,    ତୋମାର ଚରଣଦ୍ବୟ,",
+      "ଶ୍ରୁତିଶିରୋପରି ଶୋଭା ପାୟ",
+      "ଗୁରୁଜନଶିରେ ପୁନଃ,    ଶୋଭା ପାୟ ଶତ ଗୁଣ,",
+      "ଦେଖିଽ ଆମାର ପରାଣ ଜୁḓଆୟ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હે!",
+      "ઓહે પ્રભુ દયામય,    તોમાર ચરણદ્બય,",
+      "શ્રુતિશિરોપરિ શોભા પાય",
+      "ગુરુજનશિરે પુનઃ,    શોભા પાય શત ગુણ,",
+      "દેખિઽ આમાર પરાણ જુḓઆય ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari he!",
+      "ohe prabhu dayāmaya,    tomāra caraṇadbaya,",
+      "śruti-śiropari śobhā pāya",
+      "gurujana-śire punaḥ,    śobhā pāya śata guṇa,",
+      "dekhi’ āmāra parāṇa juḓāya 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹೆ!",
+      "ಒಹೆ ಪ್ರಭು ದಯಾಮಯ,    ತೊಮಾರ ಚರಣದ್ಬಯ,",
+      "ಶ್ರುತಿಶಿರೊಪರಿ ಶೊಭಾ ಪಾಯ",
+      "ಗುರುಜನಶಿರೆ ಪುನಃ,    ಶೊಭಾ ಪಾಯ ಶತ ಗುಣ,",
+      "ದೆಖಿಽ ಆಮಾರ ಪರಾಣ ಜುḓಆಯ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హె!",
+      "ఒహె ప్రభు దయామయ,    తొమార చరణద్బయ,",
+      "శ్రుతిశిరొపరి శొభా పాయ",
+      "గురుజనశిరె పునః,    శొభా పాయ శత గుణ,",
+      "దెఖిఽ ఆమార పరాణ జుḓఆయ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хэ̆!",
+      "о̆хэ̆ прабху дайа̄майа,    то̆ма̄ра чаран̣адбайа,",
+      "ш́рутиш́иро̆пари ш́о̆бха̄ па̄йа",
+      "гуруджанаш́ирэ̆ пунах̣,    ш́о̆бха̄ па̄йа ш́ата гун̣а,",
+      "дэ̆кхи' а̄ма̄ра пара̄н̣а джуḓа̄йа 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹെ!",
+      "ഒഹെ പ്രഭു ദയാമയ,    തൊമാര ചരണദ്ബയ,",
+      "ശ്രുതിശിരൊപരി ശൊഭാ പായ",
+      "ഗുരുജനശിരെ പുനഃ,    ശൊഭാ പായ ശത ഗുണ,",
+      "ദെഖിഽ ആമാര പരാണ ജുḓആയ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹெ!",
+      "ஒஹெ ப்ரபு⁴ த³யாமய,    தொமார சரணத்³ப³ய,",
+      "ஶ்ருதிஶிரொபரி ஶொபா⁴ பாய",
+      "கு³ருஜனஶிரெ புன꞉,    ஶொபா⁴ பாய ஶத கு³ண,",
+      "தெ³கி²(அ) ஆமார பராண ஜுḓஆய 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari he!",
+      "ohe prabhu dayāmaya,    tomāra caraṇadbaya,",
+      "śruti-śiropari śobhā pāya",
+      "gurujana-śire punaḥ,    śobhā pāya śata guṇa,",
+      "dekhi’ āmāra parāṇa juḍāya 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari he!",
+      "ohe prabhu dayāmaya,    tomāra caraṇadbaya,",
+      "śruti-śiropari śobhā pāya",
+      "gurujana-śire punaḥ,    śobhā pāya śata guṇa,",
+      "dekhi’ āmāra parāṇa juḓāya 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "jība[FLAG_HYPHEN_ALPHA]manoratha[FLAG_HYPHEN_ALPHA]patha,    tãhi saba anugata,",
+    "jība[FLAG_HYPHEN_ALPHA]bāñchākalpataru yathā",
+    "jībera se kuladhana,    ati pūjya sanātana,",
+    "jībera caramagati tathā 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जीबमनॊरथपथ,    तंहि सब अनुगत,",
+      "जीबबाञ्छाकल्पतरु यथा",
+      "जीबॆर सॆ कुलधन,    अति पूज्य सनातन,",
+      "जीबॆर चरमगति तथा २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জীবমনোরথপথ,    তংহি সব অনুগত,",
+      "জীববাঞ্ছাকল্পতরু যথা",
+      "জীবের সে কুলধন,    অতি পূজ্য সনাতন,",
+      "জীবের চরমগতি তথা ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜୀବମନୋରଥପଥ,    ତଂହି ସବ ଅନୁଗତ,",
+      "ଜୀବବାଞ୍ଛାକଲ୍ପତରୁ ଯଥା",
+      "ଜୀବେର ସେ କୁଲଧନ,    ଅତି ପୂଜ୍ୟ ସନାତନ,",
+      "ଜୀବେର ଚରମଗତି ତଥା ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જીબમનોરથપથ,    તંહિ સબ અનુગત,",
+      "જીબબાઞ્છાકલ્પતરુ યથા",
+      "જીબેર સે કુલધન,    અતિ પૂજ્ય સનાતન,",
+      "જીબેર ચરમગતિ તથા ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jība-manoratha-patha,    tãhi saba anugata,",
+      "jība-bāñchākalpataru yathā",
+      "jībera se kuladhana,    ati pūjya sanātana,",
+      "jībera caramagati tathā 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜೀಬಮನೊರಥಪಥ,    ತಂಹಿ ಸಬ ಅನುಗತ,",
+      "ಜೀಬಬಾಂಛಾಕಲ್ಪತರು ಯಥಾ",
+      "ಜೀಬೆರ ಸೆ ಕುಲಧನ,    ಅತಿ ಪೂಜ್ಯ ಸನಾತನ,",
+      "ಜೀಬೆರ ಚರಮಗತಿ ತಥಾ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జీబమనొరథపథ,    తంహి సబ అనుగత,",
+      "జీబబాంఛాకల్పతరు యథా",
+      "జీబెర సె కులధన,    అతి పూజ్య సనాతన,",
+      "జీబెర చరమగతి తథా 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джӣбамано̆ратхапатха,    там̣хи саба анугата,",
+      "джӣбаба̄н̃чха̄калпатару йатха̄",
+      "джӣбэ̆ра сэ̆ куладхана,    ати пӯджйа сана̄тана,",
+      "джӣбэ̆ра чарамагати татха̄ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജീബമനൊരഥപഥ,    തംഹി സബ അനുഗത,",
+      "ജീബബാഞ്ഛാകല്പതരു യഥാ",
+      "ജീബെര സെ കുലധന,    അതി പൂജ്യ സനാതന,",
+      "ജീബെര ചരമഗതി തഥാ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜீப³மனொரத²பத²,    தம்ʼஹி ஸப³ அனுக³த,",
+      "ஜீப³பா³ஞ்சா²கல்பதரு யதா²",
+      "ஜீபெ³ர ஸெ குலத⁴ன,    அதி பூஜ்ய ஸனாதன,",
+      "ஜீபெ³ர சரமக³தி ததா² 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jība-manoratha-patha,    tãhi saba anugata,",
+      "jība-bāñchākalpataru yathā",
+      "jībera se kuladhana,    ati pūjya sanātana,",
+      "jībera caramagati tathā 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jība-manoratha-patha,    tãhi saba anugata,",
+      "jība-bāñchākalpataru yathā",
+      "jībera se kuladhana,    ati pūjya sanātana,",
+      "jībera caramagati tathā 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "kamalākṣa[FLAG_HYPHEN_ALPHA]padadbaya,    parama[FLAG_HYPHEN_ALPHA]ānandamaya,",
+    "niṣkapaṭe sebiyā satata",
+    "e bhaktibinoda cāya,    satata tuṣite tāya,",
+    "bhaktajanera ha’ye anugata 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कमलाक्षपदद्बय,    परमआनन्दमय,",
+      "निष्कपटॆ सॆबिया सतत",
+      "ऎ भक्तिबिनॊद चाय,    सतत तुषितॆ ताय,",
+      "भक्तजनॆर हऽयॆ अनुगत ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কমলাক্ষপদদ্বয়,    পরমআনন্দময়,",
+      "নিষ্কপটে সেবিয়া সতত",
+      "এ ভক্তিবিনোদ চায়,    সতত তুষিতে তায়,",
+      "ভক্তজনের হঽয়ে অনুগত ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କମଲାକ୍ଷପଦଦ୍ବୟ,    ପରମଆନନ୍ଦମୟ,",
+      "ନିଷ୍କପଟେ ସେବିୟା ସତତ",
+      "ଏ ଭକ୍ତିବିନୋଦ ଚାୟ,    ସତତ ତୁଷିତେ ତାୟ,",
+      "ଭକ୍ତଜନେର ହଽୟେ ଅନୁଗତ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કમલાક્ષપદદ્બય,    પરમઆનન્દમય,",
+      "નિષ્કપટે સેબિયા સતત",
+      "એ ભક્તિબિનોદ ચાય,    સતત તુષિતે તાય,",
+      "ભક્તજનેર હઽયે અનુગત ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kamalākṣa-padadbaya,    parama-ānandamaya,",
+      "niṣkapaṭe sebiyā satata",
+      "e bhaktibinoda cāya,    satata tuṣite tāya,",
+      "bhaktajanera ha’ye anugata 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕಮಲಾಕ್ಷಪದದ್ಬಯ,    ಪರಮಆನಂದಮಯ,",
+      "ನಿಷ್ಕಪಟೆ ಸೆಬಿಯಾ ಸತತ",
+      "ಎ ಭಕ್ತಿಬಿನೊದ ಚಾಯ,    ಸತತ ತುಷಿತೆ ತಾಯ,",
+      "ಭಕ್ತಜನೆರ ಹಽಯೆ ಅನುಗತ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కమలాక్షపదద్బయ,    పరమఆనందమయ,",
+      "నిష్కపటె సెబియా సతత",
+      "ఎ భక్తిబినొద చాయ,    సతత తుషితె తాయ,",
+      "భక్తజనెర హఽయె అనుగత 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "камала̄кшапададбайа,    парамаа̄нандамайа,",
+      "нишкапат̣э̆ сэ̆бийа̄ сатата",
+      "э̆ бхактибино̆да ча̄йа,    сатата тушитэ̆ та̄йа,",
+      "бхактаджанэ̆ра ха'йэ̆ анугата 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കമലാക്ഷപദദ്ബയ,    പരമആനന്ദമയ,",
+      "നിഷ്കപടെ സെബിയാ സതത",
+      "എ ഭക്തിബിനൊദ ചായ,    സതത തുഷിതെ തായ,",
+      "ഭക്തജനെര ഹഽയെ അനുഗത 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கமலாக்ஷபத³த்³ப³ய,    பரமஆனந்த³மய,",
+      "நிஷ்கபடெ ஸெபி³யா ஸதத",
+      "எ ப⁴க்திபி³னொத³ சாய,    ஸதத துஷிதெ தாய,",
+      "ப⁴க்தஜனெர ஹ(அ)யெ அனுக³த 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kamalākṣa-padadbaya,    parama-ānandamaya,",
+      "niṣkapaṭe sebiyā satata",
+      "e bhaktibinoda cāya,    satata tuṣite tāya,",
+      "bhaktajanera ha’ye anugata 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kamalākṣa-padadbaya,    parama-ānandamaya,",
+      "niṣkapaṭe sebiyā satata",
+      "e bhaktibinoda cāya,    satata tuṣite tāya,",
+      "bhaktajanera ha’ye anugata 3"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "যন্মূর্ধ্নি মে শ্রুতিশিরঃসু চ ভাতি যস্মি-"
+  },
+  {
+   "language_code": "ben",
+   "text": "ন্নস্মন্মনোরথপথঃ সকলঃ সমেতি ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "স্তোষ্যামি নঃ কুলধনং কুলদৈবতং তৎ"
+  },
+  {
+   "language_code": "ben",
+   "text": "পাদারবিন্দমরবিন্দ-বিলোচনস্য ।।১।।"
+  },
+  {
+   "language_code": "ben",
+   "text": ""
+  },
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- মনোরথ পথ—অভিলাষ-পথ"
+  },
+  {
+   "language_code": "ben",
+   "text": "(যাহা সকলই ভগবানে আসিয়া সমাপ্ত হয়)"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

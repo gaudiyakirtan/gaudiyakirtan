@@ -1,0 +1,612 @@
+{
+  "uid": "MS54",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ওরে মন! নিবেদন শুনহ আমার"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "ore mana! nibedana śunaha āmāra"
+    },
+    {
+      "script_code": "Deva",
+      "text": "ओरे मन! निबेदन शुनह आमार"
+    },
+    {
+      "script_code": "Telu",
+      "text": "ఓరే మన! నిబేదన శునహ ఆమార"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಓರೇ ಮನ! ನಿಬೇದನ ಶುನಹ ಆಮಾರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஓரே மன! நிபே³த³ன ஶுனஹ ஆமார"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഓരേ മന! നിബേദന ശുനഹ ആമാര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ઓરે મન! નિબેદન શુનહ આમાર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଓରେ ମନ! ନିବେଦନ ଶୁନହ ଆମାର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "орэ мана! нибэдана ш́унаха а̄ма̄ра"
+    }
+  ],
+  "author_uid": "pdt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল প্রেমানন্দ দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Premānanda dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील प्रेमानन्द दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల ప్రేమానంద దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಪ್ರೇಮಾನಂದ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப்ரேமானந்த³ தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല പ്രേമാനന്ദ ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ પ્રેમાનન્દ દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ପ୍ରେମାନନ୍ଦ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла прэма̄нанда да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "ore mana! nibedana śunaha āmāra",
+        "janmile maraṇa āche,    kāladūta āche piche,",
+        "bhuñjāibe karma[FLAG_HYPHEN_ALPHA]anusāre 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऒरॆ मन! निबॆदन शुनह आमार",
+            "जन्मिलॆ मरण आछॆ,    कालदूत आछॆ पिछॆ,",
+            "भुञ्जाइबॆ कर्मअनुसारॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ওরে মন! নিবেদন শুনহ আমার",
+            "জন্মিলে মরণ আছে,    কালদূত আছে পিছে,",
+            "ভুঞ্জাইবে কর্মঅনুসারে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଓରେ ମନ! ନିବେଦନ ଶୁନହ ଆମାର",
+            "ଜନ୍ମିଲେ ମରଣ ଆଛେ,    କାଲଦୂତ ଆଛେ ପିଛେ,",
+            "ଭୁଞ୍ଜାଇବେ କର୍ମଅନୁସାରେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઓરે મન! નિબેદન શુનહ આમાર",
+            "જન્મિલે મરણ આછે,    કાલદૂત આછે પિછે,",
+            "ભુઞ્જાઇબે કર્મઅનુસારે ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ore mana! nibedana śunaha āmāra",
+            "janmile maraṇa āche,    kāladūta āche piche,",
+            "bhuñjāibe karma-anusāre 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಒರೆ ಮನ! ನಿಬೆದನ ಶುನಹ ಆಮಾರ",
+            "ಜನ್ಮಿಲೆ ಮರಣ ಆಛೆ,    ಕಾಲದೂತ ಆಛೆ ಪಿಛೆ,",
+            "ಭುಂಜಾಇಬೆ ಕರ್ಮಅನುಸಾರೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఒరె మన! నిబెదన శునహ ఆమార",
+            "జన్మిలె మరణ ఆఛె,    కాలదూత ఆఛె పిఛె,",
+            "భుంజాఇబె కర్మఅనుసారె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "о̆рэ̆ мана! нибэ̆дана ш́унаха а̄ма̄ра",
+            "джанмилэ̆ маран̣а а̄чхэ̆,    ка̄ладӯта а̄чхэ̆ пичхэ̆,",
+            "бхун̃джа̄ибэ̆ кармаануса̄рэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഒരെ മന! നിബെദന ശുനഹ ആമാര",
+            "ജന്മിലെ മരണ ആഛെ,    കാലദൂത ആഛെ പിഛെ,",
+            "ഭുഞ്ജാഇബെ കർമഅനുസാരെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஒரெ மன! நிபெ³த³ன ஶுனஹ ஆமார",
+            "ஜன்மிலெ மரண ஆசெ²,    காலதூ³த ஆசெ² பிசெ²,",
+            "பு⁴ஞ்ஜாஇபெ³ கர்மஅனுஸாரெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ore mana! nibedana śunaha āmāra",
+            "janmile maraṇa āche,    kāladūta āche piche,",
+            "bhuñjāibe karma-anusāre 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ore mana! nibedana śunaha āmāra",
+            "janmile maraṇa āche,    kāladūta āche piche,",
+            "bhuñjāibe karma-anusāre 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "yābata āchaye āi,    ‘kṛṣṇa kṛṣṇa’ kaha bhāi,",
+        "kahi ‘kṛṣṇa’ sāra’ āpanāke",
+        "kṛṣṇanāma ye badane,    se jitila tribhubane,",
+        "ki bhaya śamane āche tāke 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "याबत आछयॆ आइ,    ‘क्ड़्ष्ण क्ड़्ष्णऽ कह भाइ,",
+            "कहि ‘क्ड़्ष्णऽ सारऽ आपनाकॆ",
+            "क्ड़्ष्णनाम यॆ बदनॆ,    सॆ जितिल त्रिभुबनॆ,",
+            "कि भय शमनॆ आछॆ ताकॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যাবত আছয়ে আই,    ‘ক্ড়্ষ্ণ ক্ড়্ষ্ণঽ কহ ভাই,",
+            "কহি ‘ক্ড়্ষ্ণঽ সারঽ আপনাকে",
+            "ক্ড়্ষ্ণনাম যে বদনে,    সে জিতিল ত্রিভুবনে,",
+            "কি ভয় শমনে আছে তাকে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯାବତ ଆଛୟେ ଆଇ,    ‘କ୍ଡ଼୍ଷ୍ଣ କ୍ଡ଼୍ଷ୍ଣଽ କହ ଭାଇ,",
+            "କହି ‘କ୍ଡ଼୍ଷ୍ଣଽ ସାରଽ ଆପନାକେ",
+            "କ୍ଡ଼୍ଷ୍ଣନାମ ଯେ ବଦନେ,    ସେ ଜିତିଲ ତ୍ରିଭୁବନେ,",
+            "କି ଭୟ ଶମନେ ଆଛେ ତାକେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યાબત આછયે આઇ,    ‘ક્ડ઼્ષ્ણ ક્ડ઼્ષ્ણઽ કહ ભાઇ,",
+            "કહિ ‘ક્ડ઼્ષ્ણઽ સારઽ આપનાકે",
+            "ક્ડ઼્ષ્ણનામ યે બદને,    સે જિતિલ ત્રિભુબને,",
+            "કિ ભય શમને આછે તાકે ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yābata āchaye āi,    ‘kṛṣṇa kṛṣṇa’ kaha bhāi,",
+            "kahi ‘kṛṣṇa’ sāra’ āpanāke",
+            "kṛṣṇanāma ye badane,    se jitila tribhubane,",
+            "ki bhaya śamane āche tāke 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯಾಬತ ಆಛಯೆ ಆಇ,    ‘ಕ್‌ಡ಼್ಷ್ಣ ಕ್‌ಡ಼್ಷ್ಣಽ ಕಹ ಭಾಇ,",
+            "ಕಹಿ ‘ಕ್‌ಡ಼್ಷ್ಣಽ ಸಾರಽ ಆಪನಾಕೆ",
+            "ಕ್‌ಡ಼್ಷ್ಣನಾಮ ಯೆ ಬದನೆ,    ಸೆ ಜಿತಿಲ ತ್ರಿಭುಬನೆ,",
+            "ಕಿ ಭಯ ಶಮನೆ ಆಛೆ ತಾಕೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యాబత ఆఛయె ఆఇ,    ‘క్డ్ష్ణ క్డ్ష్ణఽ కహ భాఇ,",
+            "కహి ‘క్డ్ష్ణఽ సారఽ ఆపనాకె",
+            "క్డ్ష్ణనామ యె బదనె,    సె జితిల త్రిభుబనె,",
+            "కి భయ శమనె ఆఛె తాకె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йа̄бата а̄чхайэ̆ а̄и,    ‘кр̤шн̣а кр̤шн̣а' каха бха̄и,",
+            "кахи ‘кр̤шн̣а' са̄ра' а̄пана̄кэ̆",
+            "кр̤шн̣ана̄ма йэ̆ баданэ̆,    сэ̆ джитила трибхубанэ̆,",
+            "ки бхайа ш́аманэ̆ а̄чхэ̆ та̄кэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യാബത ആഛയെ ആഇ,    ‘ക്ഡ്ഷ്ണ ക്ഡ്ഷ്ണഽ കഹ ഭാഇ,",
+            "കഹി ‘ക്ഡ്ഷ്ണഽ സാരഽ ആപനാകെ",
+            "ക്ഡ്ഷ്ണനാമ യെ ബദനെ,    സെ ജിതില ത്രിഭുബനെ,",
+            "കി ഭയ ശമനെ ആഛെ താകെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யாப³த ஆச²யெ ஆஇ,    ‘க்ஃட்²ஷ்ண க்ஃட்²ஷ்ண(அ) கஹ பா⁴இ,",
+            "கஹி ‘க்ஃட்²ஷ்ண(அ) ஸார(அ) ஆபனாகெ",
+            "க்ஃட்²ஷ்ணநாம யெ ப³த³னெ,    ஸெ ஜிதில த்ரிபு⁴ப³னெ,",
+            "கி ப⁴ய ஶமனெ ஆசெ² தாகெ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yābata āchaye āi,    ‘kṛṣṇa kṛṣṇa’ kaha bhāi,",
+            "kahi ‘kṛṣṇa’ sāra’ āpanāke",
+            "kṛṣṇanāma ye badane,    se jitila tribhubane,",
+            "ki bhaya śamane āche tāke 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yābata āchaye āi,    ‘kṛṣṇa kṛṣṇa’ kaha bhāi,",
+            "kahi ‘kṛṣṇa’ sāra’ āpanāke",
+            "kṛṣṇanāma ye badane,    se jitila tribhubane,",
+            "ki bhaya śamane āche tāke 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "yadi cinta nija[FLAG_HYPHEN_ALPHA]hita,    sādhu[FLAG_HYPHEN_ALPHA]saṅge kara prīta,",
+        "asatsaṅga nā kariha kṣaṇe",
+        "kukkura[FLAG_HYPHEN_ALPHA]bhabane gele,    asthi[FLAG_HYPHEN_ALPHA]carma khuba mile,",
+        "gaja[FLAG_HYPHEN_ALPHA]danta[FLAG_HYPHEN_ALPHA]muktā siṁha[FLAG_HYPHEN_ALPHA]sthāne 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "यदि चिन्त निजहित,    साधुसङ्गॆ कर प्रीत,",
+            "असत्सङ्ग ना करिह क्षणॆ",
+            "कुक्कुरभबनॆ गॆलॆ,    अस्थिचर्म खुब मिलॆ,",
+            "गजदन्तमुक्ता सिंहस्थानॆ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যদি চিন্ত নিজহিত,    সাধুসঙ্গে কর প্রীত,",
+            "অসৎসঙ্গ না করিহ ক্ষণে",
+            "কুক্কুরভবনে গেলে,    অস্থিচর্ম খুব মিলে,",
+            "গজদন্তমুক্তা সিংহস্থানে ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯଦି ଚିନ୍ତ ନିଜହିତ,    ସାଧୁସଙ୍ଗେ କର ପ୍ରୀତ,",
+            "ଅସତ୍ସଙ୍ଗ ନା କରିହ କ୍ଷଣେ",
+            "କୁକ୍କୁରଭବନେ ଗେଲେ,    ଅସ୍ଥିଚର୍ମ ଖୁବ ମିଲେ,",
+            "ଗଜଦନ୍ତମୁକ୍ତା ସିଂହସ୍ଥାନେ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યદિ ચિન્ત નિજહિત,    સાધુસઙ્ગે કર પ્રીત,",
+            "અસત્સઙ્ગ ના કરિહ ક્ષણે",
+            "કુક્કુરભબને ગેલે,    અસ્થિચર્મ ખુબ મિલે,",
+            "ગજદન્તમુક્તા સિંહસ્થાને ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yadi cinta nija-hita,    sādhu-saṅge kara prīta,",
+            "asatsaṅga nā kariha kṣaṇe",
+            "kukkura-bhabane gele,    asthi-carma khuba mile,",
+            "gaja-danta-muktā siṁha-sthāne 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯದಿ ಚಿಂತ ನಿಜಹಿತ,    ಸಾಧುಸಂಗೆ ಕರ ಪ್ರೀತ,",
+            "ಅಸತ್ಸಂಗ ನಾ ಕರಿಹ ಕ್ಷಣೆ",
+            "ಕುಕ್ಕುರಭಬನೆ ಗೆಲೆ,    ಅಸ್ಥಿಚರ್ಮ ಖುಬ ಮಿಲೆ,",
+            "ಗಜದಂತಮುಕ್ತಾ ಸಿಂಹಸ್ಥಾನೆ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యది చింత నిజహిత,    సాధుసంగె కర ప్రీత,",
+            "అసత్సంగ నా కరిహ క్షణె",
+            "కుక్కురభబనె గెలె,    అస్థిచర్మ ఖుబ మిలె,",
+            "గజదంతముక్తా సింహస్థానె 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йади чинта ниджахита,    са̄дхусан̇гэ̆ кара прӣта,",
+            "асатсан̇га на̄ кариха кшан̣э̆",
+            "куккурабхабанэ̆ гэ̆лэ̆,    астхичарма кхуба милэ̆,",
+            "гаджадантамукта̄ сим̣хастха̄нэ̆ 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യദി ചിന്ത നിജഹിത,    സാധുസംഗെ കര പ്രീത,",
+            "അസത്സംഗ നാ കരിഹ ക്ഷണെ",
+            "കുക്കുരഭബനെ ഗെലെ,    അസ്ഥിചർമ ഖുബ മിലെ,",
+            "ഗജദന്തമുക്താ സിംഹസ്ഥാനെ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யதி³ சிந்த நிஜஹித,    ஸாது⁴ஸங்கெ³ கர ப்ரீத,",
+            "அஸத்ஸங்க³ நா கரிஹ க்ஷணெ",
+            "குக்குரப⁴ப³னெ கெ³லெ,    அஸ்தி²சர்ம கு²ப³ மிலெ,",
+            "க³ஜத³ந்தமுக்தா ஸிம்ʼஹஸ்தா²னெ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yadi cinta nija-hita,    sādhu-saṅge kara prīta,",
+            "asatsaṅga nā kariha kṣaṇe",
+            "kukkura-bhabane gele,    asthi-carma khuba mile,",
+            "gaja-danta-muktā siṁha-sthāne 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yadi cinta nija-hita,    sādhu-saṅge kara prīta,",
+            "asatsaṅga nā kariha kṣaṇe",
+            "kukkura-bhabane gele,    asthi-carma khuba mile,",
+            "gaja-danta-muktā siṁha-sthāne 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "kṛṣṇa[FLAG_HYPHEN_ALPHA]nāma[FLAG_HYPHEN_ALPHA]līlā[FLAG_HYPHEN_ALPHA]guṇa[FLAG_HYPHEN_ALPHA],    śrabaṇa[FLAG_HYPHEN_ALPHA]kīrtana, mana,",
+        "aśru[FLAG_HYPHEN_ALPHA]kampa[FLAG_HYPHEN_ALPHA]pulaka ānande",
+        "sādhusaṅge sadā basi’,    bilasaha dibāniśi,",
+        "tabe bāñchā pure premānande 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "क्ड़्ष्णनामलीलागुण,    श्रबणकीर्तन, मन,",
+            "अश्रुकम्पपुलक आनन्दॆ",
+            "साधुसङ्गॆ सदा बसिऽ,    बिलसह दिबानिशि,",
+            "तबॆ बाञ्छा पुरॆ प्रॆमानन्दॆ ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ক্ড়্ষ্ণনামলীলাগুণ,    শ্রবণকীর্তন, মন,",
+            "অশ্রুকম্পপুলক আনন্দে",
+            "সাধুসঙ্গে সদা বসিঽ,    বিলসহ দিবানিশি,",
+            "তবে বাঞ্ছা পুরে প্রেমানন্দে ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କ୍ଡ଼୍ଷ୍ଣନାମଲୀଲାଗୁଣ,    ଶ୍ରବଣକୀର୍ତନ, ମନ,",
+            "ଅଶ୍ରୁକମ୍ପପୁଲକ ଆନନ୍ଦେ",
+            "ସାଧୁସଙ୍ଗେ ସଦା ବସିଽ,    ବିଲସହ ଦିବାନିଶି,",
+            "ତବେ ବାଞ୍ଛା ପୁରେ ପ୍ରେମାନନ୍ଦେ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ક્ડ઼્ષ્ણનામલીલાગુણ,    શ્રબણકીર્તન, મન,",
+            "અશ્રુકમ્પપુલક આનન્દે",
+            "સાધુસઙ્ગે સદા બસિઽ,    બિલસહ દિબાનિશિ,",
+            "તબે બાઞ્છા પુરે પ્રેમાનન્દે ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kṛṣṇa-nāma-līlā-guṇa-,    śrabaṇa-kīrtana, mana,",
+            "aśru-kampa-pulaka ānande",
+            "sādhusaṅge sadā basi’,    bilasaha dibāniśi,",
+            "tabe bāñchā pure premānande 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕ್‌ಡ಼್ಷ್ಣನಾಮಲೀಲಾಗುಣ,    ಶ್ರಬಣಕೀರ್ತನ, ಮನ,",
+            "ಅಶ್ರುಕಂಪಪುಲಕ ಆನಂದೆ",
+            "ಸಾಧುಸಂಗೆ ಸದಾ ಬಸಿಽ,    ಬಿಲಸಹ ದಿಬಾನಿಶಿ,",
+            "ತಬೆ ಬಾಂಛಾ ಪುರೆ ಪ್ರೆಮಾನಂದೆ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "క్డ్ష్ణనామలీలాగుణ,    శ్రబణకీర్తన, మన,",
+            "అశ్రుకంపపులక ఆనందె",
+            "సాధుసంగె సదా బసిఽ,    బిలసహ దిబానిశి,",
+            "తబె బాంఛా పురె ప్రెమానందె 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кр̤шн̣ана̄малӣла̄гун̣а,    ш́рабан̣акӣртана, мана,",
+            "аш́рукампапулака а̄нандэ̆",
+            "са̄дхусан̇гэ̆ сада̄ баси',    биласаха диба̄ниш́и,",
+            "табэ̆ ба̄н̃чха̄ пурэ̆ прэ̆ма̄нандэ̆ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ക്ഡ്ഷ്ണനാമലീലാഗുണ,    ശ്രബണകീർതന, മന,",
+            "അശ്രുകമ്പപുലക ആനന്ദെ",
+            "സാധുസംഗെ സദാ ബസിഽ,    ബിലസഹ ദിബാനിശി,",
+            "തബെ ബാഞ്ഛാ പുരെ പ്രെമാനന്ദെ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "க்ஃட்²ஷ்ணநாமலீலாகு³ண,    ஶ்ரப³ணகீர்தன, மன,",
+            "அஶ்ருகம்பபுலக ஆனந்தெ³",
+            "ஸாது⁴ஸங்கெ³ ஸதா³ ப³ஸி(அ),    பி³லஸஹ தி³பா³நிஶி,",
+            "தபெ³ பா³ஞ்சா² புரெ ப்ரெமானந்தெ³ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kṛṣṇa-nāma-līlā-guṇa-,    śrabaṇa-kīrtana, mana,",
+            "aśru-kampa-pulaka ānande",
+            "sādhusaṅge sadā basi’,    bilasaha dibāniśi,",
+            "tabe bāñchā pure premānande 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kṛṣṇa-nāma-līlā-guṇa-,    śrabaṇa-kīrtana, mana,",
+            "aśru-kampa-pulaka ānande",
+            "sādhusaṅge sadā basi’,    bilasaha dibāniśi,",
+            "tabe bāñchā pure premānande 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- আই—আয়ু; সার’—রক্ষা কর ।"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

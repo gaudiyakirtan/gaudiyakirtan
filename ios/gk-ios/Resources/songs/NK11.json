@@ -1,0 +1,787 @@
+{
+  "uid": "NK11",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "জয় গোদ্রুমপতি গোরা"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "jaya godrumapati gorā"
+    },
+    {
+      "script_code": "Deva",
+      "text": "जय गोद्रुमपति गोरा"
+    },
+    {
+      "script_code": "Telu",
+      "text": "జయ గోద్రుమపతి గోరా"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಜಯ ಗೋದ್ರುಮಪತಿ ಗೋರಾ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஜய கோ³த்³ருமபதி கோ³ரா"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ജയ ഗോദ്രുമപതി ഗോരാ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "જય ગોદ્રુમપતિ ગોરા"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଜୟ ଗୋଦ୍ରୁମପତି ଗୋରା"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "джайа годрумапати гора̄"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "jaya godrumapati gorā"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Śrī Gaurahari, the Lord of Godruma!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "godrumapati",
+              "the Lord of Godruma"
+            ],
+            [
+              "gorā",
+              "Śrī Gaurahari"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "गॊद्रुमपति",
+              "the Lord of Godruma"
+            ],
+            [
+              "गॊरा",
+              "Śrī Gaurahari"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "গোদ্রুমপতি",
+              "the Lord of Godruma"
+            ],
+            [
+              "গোরা",
+              "Śrī Gaurahari"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "ગોદ્રુમપતિ",
+              "the Lord of Godruma"
+            ],
+            [
+              "ગોરા",
+              "Śrī Gaurahari"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय गॊद्रुमपति गॊरा"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় গোদ্রুমপতি গোরা"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଗୋଦ୍ରୁମପତି ଗୋରା"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય ગોદ્રુમપતિ ગોરા"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya godrumapati gorā"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಗೊದ್ರುಮಪತಿ ಗೊರಾ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ గొద్రుమపతి గొరా"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа го̆друмапати го̆ра̄"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ഗൊദ്രുമപതി ഗൊരാ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய கொ³த்³ருமபதி கொ³ரா"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya godrumapati gorā"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya godrumapati gorā"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "nitāi[FLAG_HYPHEN_ALPHA]jībana,    adbaitera dhana,",
+        "bṛndābana[FLAG_HYPHEN_ALPHA]bhāba[FLAG_HYPHEN_ALPHA]bibhorā"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "He is the life of Nitāi, He is the treasure of Advaita, and He is absorbed in the bhāva of Śrī Vṛndāvana."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "nitāi",
+              "Nitāi"
+            ],
+            [
+              "jībana",
+              "life"
+            ],
+            [
+              "adbaitera",
+              "of Advaita"
+            ],
+            [
+              "dhana",
+              "treasure"
+            ],
+            [
+              "bṛndābana",
+              "Śrī Vṛndāvana"
+            ],
+            [
+              "bhāba",
+              "sentiments"
+            ],
+            [
+              "bibhorā",
+              "overwhelmed"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "निताइ",
+              "Nitāi"
+            ],
+            [
+              "जीबन",
+              "life"
+            ],
+            [
+              "अद्बैतॆर",
+              "of Advaita"
+            ],
+            [
+              "धन",
+              "treasure"
+            ],
+            [
+              "ब्ड़्न्दाबन",
+              "Śrī Vṛndāvana"
+            ],
+            [
+              "भाब",
+              "sentiments"
+            ],
+            [
+              "बिभॊरा",
+              "overwhelmed"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "নিতাই",
+              "Nitāi"
+            ],
+            [
+              "জীবন",
+              "life"
+            ],
+            [
+              "অদ্বৈতের",
+              "of Advaita"
+            ],
+            [
+              "ধন",
+              "treasure"
+            ],
+            [
+              "ব্ড়্ন্দাবন",
+              "Śrī Vṛndāvana"
+            ],
+            [
+              "ভাব",
+              "sentiments"
+            ],
+            [
+              "বিভোরা",
+              "overwhelmed"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "નિતાઇ",
+              "Nitāi"
+            ],
+            [
+              "જીબન",
+              "life"
+            ],
+            [
+              "અદ્બૈતેર",
+              "of Advaita"
+            ],
+            [
+              "ધન",
+              "treasure"
+            ],
+            [
+              "બ્ડ઼્ન્દાબન",
+              "Śrī Vṛndāvana"
+            ],
+            [
+              "ભાબ",
+              "sentiments"
+            ],
+            [
+              "બિભોરા",
+              "overwhelmed"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "निताइजीबन,    अद्बैतॆर धन,",
+            "ब्ड़्न्दाबनभाबबिभॊरा"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নিতাইজীবন,    অদ্বৈতের ধন,",
+            "ব্ড়্ন্দাবনভাববিভোরা"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନିତାଇଜୀବନ,    ଅଦ୍ବୈତେର ଧନ,",
+            "ବ୍ଡ଼୍ନ୍ଦାବନଭାବବିଭୋରା"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નિતાઇજીબન,    અદ્બૈતેર ધન,",
+            "બ્ડ઼્ન્દાબનભાબબિભોરા"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nitāi-jībana,    adbaitera dhana,",
+            "bṛndābana-bhāba-bibhorā"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಿತಾಇಜೀಬನ,    ಅದ್ಬೈತೆರ ಧನ,",
+            "ಬ್‌ಡ಼್ನ್ದಾಬನಭಾಬಬಿಭೊರಾ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నితాఇజీబన,    అద్బైతెర ధన,",
+            "బ్డ్న్దాబనభాబబిభొరా"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "нита̄иджӣбана,    адбаитэ̆ра дхана,",
+            "бр̤нда̄банабха̄бабибхо̆ра̄"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നിതാഇജീബന,    അദ്ബൈതെര ധന,",
+            "ബ്ഡ്ന്ദാബനഭാബബിഭൊരാ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நிதாஇஜீப³ன,    அத்³பை³தெர த⁴ன,",
+            "ப்³ஃட்²ந்தா³ப³னபா⁴ப³பி³பொ⁴ரா"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nitāi-jībana,    adbaitera dhana,",
+            "bṛndābana-bhāba-bibhorā"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nitāi-jībana,    adbaitera dhana,",
+            "bṛndābana-bhāba-bibhorā"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "gadādhara[FLAG_HYPHEN_ALPHA]prāṇa,    śrībāsa[FLAG_HYPHEN_ALPHA]śaraṇa,",
+        "kṛṣṇabhakta[FLAG_HYPHEN_ALPHA]mānasa[FLAG_HYPHEN_ALPHA]corā"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "He is the life-air of Gadādhara, He is the shelter of Śrīvāsa, and He steals the hearts of the devotees of Śrī Kṛṣṇa."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "gadādhara",
+              "Gadādhara Paṇḍita"
+            ],
+            [
+              "prāṇa",
+              "life-air"
+            ],
+            [
+              "śrībāsa",
+              "Śrīvāsa Paṇḍita"
+            ],
+            [
+              "śaraṇa",
+              "shelter"
+            ],
+            [
+              "kṛṣṇabhakta",
+              "devotees of Śrī Kṛṣṇa"
+            ],
+            [
+              "mānasa",
+              "heart, mind"
+            ],
+            [
+              "corā",
+              "theif"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "गदाधर",
+              "Gadādhara Paṇḍita"
+            ],
+            [
+              "प्राण",
+              "life-air"
+            ],
+            [
+              "श्रीबास",
+              "Śrīvāsa Paṇḍita"
+            ],
+            [
+              "शरण",
+              "shelter"
+            ],
+            [
+              "क्ड़्ष्णभक्त",
+              "devotees of Śrī Kṛṣṇa"
+            ],
+            [
+              "मानस",
+              "heart, mind"
+            ],
+            [
+              "चॊरा",
+              "theif"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "গদাধর",
+              "Gadādhara Paṇḍita"
+            ],
+            [
+              "প্রাণ",
+              "life-air"
+            ],
+            [
+              "শ্রীবাস",
+              "Śrīvāsa Paṇḍita"
+            ],
+            [
+              "শরণ",
+              "shelter"
+            ],
+            [
+              "ক্ড়্ষ্ণভক্ত",
+              "devotees of Śrī Kṛṣṇa"
+            ],
+            [
+              "মানস",
+              "heart, mind"
+            ],
+            [
+              "চোরা",
+              "theif"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ગદાધર",
+              "Gadādhara Paṇḍita"
+            ],
+            [
+              "પ્રાણ",
+              "life-air"
+            ],
+            [
+              "શ્રીબાસ",
+              "Śrīvāsa Paṇḍita"
+            ],
+            [
+              "શરણ",
+              "shelter"
+            ],
+            [
+              "ક્ડ઼્ષ્ણભક્ત",
+              "devotees of Śrī Kṛṣṇa"
+            ],
+            [
+              "માનસ",
+              "heart, mind"
+            ],
+            [
+              "ચોરા",
+              "theif"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गदाधरप्राण,    श्रीबासशरण,",
+            "क्ड़्ष्णभक्तमानसचॊरा"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গদাধরপ্রাণ,    শ্রীবাসশরণ,",
+            "ক্ড়্ষ্ণভক্তমানসচোরা"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗଦାଧରପ୍ରାଣ,    ଶ୍ରୀବାସଶରଣ,",
+            "କ୍ଡ଼୍ଷ୍ଣଭକ୍ତମାନସଚୋରା"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગદાધરપ્રાણ,    શ્રીબાસશરણ,",
+            "ક્ડ઼્ષ્ણભક્તમાનસચોરા"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gadādhara-prāṇa,    śrībāsa-śaraṇa,",
+            "kṛṣṇabhakta-mānasa-corā"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗದಾಧರಪ್ರಾಣ,    ಶ್ರೀಬಾಸಶರಣ,",
+            "ಕ್‌ಡ಼್ಷ್ಣಭಕ್ತಮಾನಸಚೊರಾ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గదాధరప్రాణ,    శ్రీబాసశరణ,",
+            "క్డ్ష్ణభక్తమానసచొరా"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "гада̄дхарапра̄н̣а,    ш́рӣба̄саш́аран̣а,",
+            "кр̤шн̣абхактама̄насачо̆ра̄"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗദാധരപ്രാണ,    ശ്രീബാസശരണ,",
+            "ക്ഡ്ഷ്ണഭക്തമാനസചൊരാ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "க³தா³த⁴ரப்ராண,    ஶ்ரீபா³ஸஶரண,",
+            "க்ஃட்²ஷ்ணப⁴க்தமானஸசொரா"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gadādhara-prāṇa,    śrībāsa-śaraṇa,",
+            "kṛṣṇabhakta-mānasa-corā"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gadādhara-prāṇa,    śrībāsa-śaraṇa,",
+            "kṛṣṇabhakta-mānasa-corā"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "The 100 names of Mahāprabhu"
+  ]
+}

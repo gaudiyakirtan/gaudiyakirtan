@@ -1,0 +1,1684 @@
+{
+  "uid": "G10",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "জয় জয় শ্রীগুরু প্রেম-কল্পতরু"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "jaya jaya śrīguru prema-kalpataru"
+    },
+    {
+      "script_code": "Deva",
+      "text": "जय जय श्रीगुरु प्रेम-कल्पतरु"
+    },
+    {
+      "script_code": "Telu",
+      "text": "జయ జయ శ్రీగురు ప్రేమ-కల్పతరు"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಜಯ ಜಯ ಶ್ರೀಗುರು ಪ್ರೇಮ-ಕಲ್ಪತರು"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஜய ஜய ஶ்ரீகு³ரு ப்ரேம-கல்பதரு"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ജയ ജയ ശ്രീഗുരു പ്രേമ-കല്പതരു"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "જય જય શ્રીગુરુ પ્રેમ-કલ્પતરુ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଜୟ ଜୟ ଶ୍ରୀଗୁରୁ ପ୍ରେମ-କଲ୍ପତରୁ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "джайа джайа ш́рӣгуру прэма-калпатару"
+    }
+  ],
+  "author_uid": "বৈষ্ণব দাস",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "বৈষ্ণব দাস"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Vaiṣṇava dāsa"
+    },
+    {
+      "script_code": "Deva",
+      "text": "वैष्णव दास"
+    },
+    {
+      "script_code": "Telu",
+      "text": "వైష్ణవ దాస"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ವೈಷ್ಣವ ದಾಸ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "வைஷ்ணவ தா³ஸ"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "വൈഷ്ണവ ദാസ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "વૈષ્ણવ દાસ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ବୈଷ୍ଣବ ଦାସ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ваишн̣ава да̄са"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "jaya jaya śrīguru,    prema[FLAG_HYPHEN_ALPHA]kalpataru,",
+        "adbhuta yā̃ko parakāśa",
+        "hiyā ageyāna,    timirabara jñāna[FLAG_HYPHEN_ALPHA],",
+        "sucandra kiraṇe karu nāśa 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories, all glories to śrī guru, the desire-tree of prema, whose manifestation is most astonishing. With effulgent moonbeams of knowledge, he destroys the vast darkness of ignorance in the heart."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya jaya",
+              "all glories, all glories"
+            ],
+            [
+              "śrīguru",
+              "to śrī guru"
+            ],
+            [
+              "prema",
+              "pure love"
+            ],
+            [
+              "kalpataru",
+              "desire-tree"
+            ],
+            [
+              "adbhuta",
+              "astonishing, wonderful"
+            ],
+            [
+              "yā̃ko",
+              "(ĵā̃hār) whose"
+            ],
+            [
+              "parakāśa",
+              "manifestation"
+            ],
+            [
+              "hiyā",
+              "heart"
+            ],
+            [
+              "ageyāna",
+              "(ajñān) ignorance"
+            ],
+            [
+              "timirabara",
+              "darkness + gloomy"
+            ],
+            [
+              "jñāna",
+              "knowledge"
+            ],
+            [
+              "sucandra",
+              "effulgent moon"
+            ],
+            [
+              "kiraṇe",
+              "by rays"
+            ],
+            [
+              "karu nāśa",
+              "he destroys"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय जय",
+              "all glories, all glories"
+            ],
+            [
+              "श्रीगुरु",
+              "to śrī guru"
+            ],
+            [
+              "प्रॆम",
+              "pure love"
+            ],
+            [
+              "कल्पतरु",
+              "desire-tree"
+            ],
+            [
+              "अद्भुत",
+              "astonishing, wonderful"
+            ],
+            [
+              "यांकॊ",
+              "(ĵā̃hār) whose"
+            ],
+            [
+              "परकाश",
+              "manifestation"
+            ],
+            [
+              "हिया",
+              "heart"
+            ],
+            [
+              "अगॆयान",
+              "(ajñān) ignorance"
+            ],
+            [
+              "तिमिरबर",
+              "darkness + gloomy"
+            ],
+            [
+              "ज्ञान",
+              "knowledge"
+            ],
+            [
+              "सुचन्द्र",
+              "effulgent moon"
+            ],
+            [
+              "किरणॆ",
+              "by rays"
+            ],
+            [
+              "करु नाश",
+              "he destroys"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয় জয়",
+              "all glories, all glories"
+            ],
+            [
+              "শ্রীগুরু",
+              "to śrī guru"
+            ],
+            [
+              "প্রেম",
+              "pure love"
+            ],
+            [
+              "কল্পতরু",
+              "desire-tree"
+            ],
+            [
+              "অদ্ভুত",
+              "astonishing, wonderful"
+            ],
+            [
+              "যাঙ্কো",
+              "(ĵā̃hār) whose"
+            ],
+            [
+              "পরকাশ",
+              "manifestation"
+            ],
+            [
+              "হিয়া",
+              "heart"
+            ],
+            [
+              "অগেয়ান",
+              "(ajñān) ignorance"
+            ],
+            [
+              "তিমিরবর",
+              "darkness + gloomy"
+            ],
+            [
+              "জ্ঞান",
+              "knowledge"
+            ],
+            [
+              "সুচন্দ্র",
+              "effulgent moon"
+            ],
+            [
+              "কিরণে",
+              "by rays"
+            ],
+            [
+              "করু নাশ",
+              "he destroys"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય જય",
+              "all glories, all glories"
+            ],
+            [
+              "શ્રીગુરુ",
+              "to śrī guru"
+            ],
+            [
+              "પ્રેમ",
+              "pure love"
+            ],
+            [
+              "કલ્પતરુ",
+              "desire-tree"
+            ],
+            [
+              "અદ્ભુત",
+              "astonishing, wonderful"
+            ],
+            [
+              "યાંકો",
+              "(ĵā̃hār) whose"
+            ],
+            [
+              "પરકાશ",
+              "manifestation"
+            ],
+            [
+              "હિયા",
+              "heart"
+            ],
+            [
+              "અગેયાન",
+              "(ajñān) ignorance"
+            ],
+            [
+              "તિમિરબર",
+              "darkness + gloomy"
+            ],
+            [
+              "જ્ઞાન",
+              "knowledge"
+            ],
+            [
+              "સુચન્દ્ર",
+              "effulgent moon"
+            ],
+            [
+              "કિરણે",
+              "by rays"
+            ],
+            [
+              "કરુ નાશ",
+              "he destroys"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय श्रीगुरु,    प्रॆमकल्पतरु,",
+            "अद्भुत यांकॊ परकाश",
+            "हिया अगॆयान,    तिमिरबर ज्ञान,",
+            "सुचन्द्र किरणॆ करु नाश १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় শ্রীগুরু,    প্রেমকল্পতরু,",
+            "অদ্ভুত যাঙ্কো পরকাশ",
+            "হিয়া অগেয়ান,    তিমিরবর জ্ঞান,",
+            "সুচন্দ্র কিরণে করু নাশ ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ଶ୍ରୀଗୁରୁ,    ପ୍ରେମକଲ୍ପତରୁ,",
+            "ଅଦ୍ଭୁତ ଯାଙ୍କୋ ପରକାଶ",
+            "ହିୟା ଅଗେୟାନ,    ତିମିରବର ଜ୍ଞାନ,",
+            "ସୁଚନ୍ଦ୍ର କିରଣେ କରୁ ନାଶ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય શ્રીગુરુ,    પ્રેમકલ્પતરુ,",
+            "અદ્ભુત યાંકો પરકાશ",
+            "હિયા અગેયાન,    તિમિરબર જ્ઞાન,",
+            "સુચન્દ્ર કિરણે કરુ નાશ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya śrīguru,    prema-kalpataru,",
+            "adbhuta yā̃ko parakāśa",
+            "hiyā ageyāna,    timirabara jñāna-,",
+            "sucandra kiraṇe karu nāśa 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ಶ್ರೀಗುರು,    ಪ್ರೆಮಕಲ್ಪತರು,",
+            "ಅದ್ಭುತ ಯಾಂಕೊ ಪರಕಾಶ",
+            "ಹಿಯಾ ಅಗೆಯಾನ,    ತಿಮಿರಬರ ಜ್ಞಾನ,",
+            "ಸುಚಂದ್ರ ಕಿರಣೆ ಕರು ನಾಶ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ శ్రీగురు,    ప్రెమకల్పతరు,",
+            "అద్భుత యాంకొ పరకాశ",
+            "హియా అగెయాన,    తిమిరబర జ్ఞాన,",
+            "సుచంద్ర కిరణె కరు నాశ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ш́рӣгуру,    прэ̆макалпатару,",
+            "адбхута йа̄м̣ко̆ парака̄ш́а",
+            "хийа̄ агэ̆йа̄на,    тимирабара джн̃а̄на,",
+            "сучандра киран̣э̆ кару на̄ш́а 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ ശ്രീഗുരു,    പ്രെമകല്പതരു,",
+            "അദ്ഭുത യാങ്കൊ പരകാശ",
+            "ഹിയാ അഗെയാന,    തിമിരബര ജ്ഞാന,",
+            "സുചന്ദ്ര കിരണെ കരു നാശ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ஶ்ரீகு³ரு,    ப்ரெமகல்பதரு,",
+            "அத்³பு⁴த யாங்கொ பரகாஶ",
+            "ஹியா அகெ³யான,    திமிரப³ர ஜ்ஞான,",
+            "ஸுசந்த்³ர கிரணெ கரு நாஶ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya śrīguru,    prema-kalpataru,",
+            "adbhuta yā̃ko parakāśa",
+            "hiyā ageyāna,    timirabara jñāna-,",
+            "sucandra kiraṇe karu nāśa 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya śrīguru,    prema-kalpataru,",
+            "adbhuta yā̃ko parakāśa",
+            "hiyā ageyāna,    timirabara jñāna-,",
+            "sucandra kiraṇe karu nāśa 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "iha locana ānanda[FLAG_HYPHEN_ALPHA]dhāma",
+        "ayācita mo[FLAG_HYPHEN_ALPHA]hena,    patita heri yo pahũ,",
+        "yāci deyala harināma 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "His eyes are the abode of bliss. Seeing a person as fallen as me, this personality voluntarily gave me harināma, even without my asking."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "iha",
+              "his"
+            ],
+            [
+              "locana",
+              "eyes"
+            ],
+            [
+              "ānanda",
+              "bliss"
+            ],
+            [
+              "dhāma",
+              "abode"
+            ],
+            [
+              "ayācita",
+              "without praying"
+            ],
+            [
+              "mo",
+              "me"
+            ],
+            [
+              "hena",
+              "such as"
+            ],
+            [
+              "patita",
+              "fallen person"
+            ],
+            [
+              "heri",
+              "seeing"
+            ],
+            [
+              "pahũ",
+              "(prabhu) spiritual master"
+            ],
+            [
+              "yāci",
+              "voluntarily"
+            ],
+            [
+              "deyala",
+              "he gave"
+            ],
+            [
+              "harināma",
+              "names of Śrī Hari"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "इह",
+              "his"
+            ],
+            [
+              "लॊचन",
+              "eyes"
+            ],
+            [
+              "आनन्द",
+              "bliss"
+            ],
+            [
+              "धाम",
+              "abode"
+            ],
+            [
+              "अयाचित",
+              "without praying"
+            ],
+            [
+              "मॊ",
+              "me"
+            ],
+            [
+              "हॆन",
+              "such as"
+            ],
+            [
+              "पतित",
+              "fallen person"
+            ],
+            [
+              "हॆरि",
+              "seeing"
+            ],
+            [
+              "पहुं",
+              "(prabhu) spiritual master"
+            ],
+            [
+              "याचि",
+              "voluntarily"
+            ],
+            [
+              "दॆयल",
+              "he gave"
+            ],
+            [
+              "हरिनाम",
+              "names of Śrī Hari"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ইহ",
+              "his"
+            ],
+            [
+              "লোচন",
+              "eyes"
+            ],
+            [
+              "আনন্দ",
+              "bliss"
+            ],
+            [
+              "ধাম",
+              "abode"
+            ],
+            [
+              "অয়াচিত",
+              "without praying"
+            ],
+            [
+              "মো",
+              "me"
+            ],
+            [
+              "হেন",
+              "such as"
+            ],
+            [
+              "পতিত",
+              "fallen person"
+            ],
+            [
+              "হেরি",
+              "seeing"
+            ],
+            [
+              "পহুং",
+              "(prabhu) spiritual master"
+            ],
+            [
+              "যাচি",
+              "voluntarily"
+            ],
+            [
+              "দেয়ল",
+              "he gave"
+            ],
+            [
+              "হরিনাম",
+              "names of Śrī Hari"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ઇહ",
+              "his"
+            ],
+            [
+              "લોચન",
+              "eyes"
+            ],
+            [
+              "આનન્દ",
+              "bliss"
+            ],
+            [
+              "ધામ",
+              "abode"
+            ],
+            [
+              "અયાચિત",
+              "without praying"
+            ],
+            [
+              "મો",
+              "me"
+            ],
+            [
+              "હેન",
+              "such as"
+            ],
+            [
+              "પતિત",
+              "fallen person"
+            ],
+            [
+              "હેરિ",
+              "seeing"
+            ],
+            [
+              "પહું",
+              "(prabhu) spiritual master"
+            ],
+            [
+              "યાચિ",
+              "voluntarily"
+            ],
+            [
+              "દેયલ",
+              "he gave"
+            ],
+            [
+              "હરિનામ",
+              "names of Śrī Hari"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "इह लॊचन आनन्दधाम",
+            "अयाचित मॊहॆन,    पतित हॆरि यॊ पहुं,",
+            "याचि दॆयल हरिनाम २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ইহ লোচন আনন্দধাম",
+            "অয়াচিত মোহেন,    পতিত হেরি যো পহুং,",
+            "যাচি দেয়ল হরিনাম ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଇହ ଲୋଚନ ଆନନ୍ଦଧାମ",
+            "ଅୟାଚିତ ମୋହେନ,    ପତିତ ହେରି ଯୋ ପହୁଂ,",
+            "ଯାଚି ଦେୟଲ ହରିନାମ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઇહ લોચન આનન્દધામ",
+            "અયાચિત મોહેન,    પતિત હેરિ યો પહું,",
+            "યાચિ દેયલ હરિનામ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "iha locana ānanda-dhāma",
+            "ayācita mo-hena,    patita heri yo pahũ,",
+            "yāci deyala harināma 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಇಹ ಲೊಚನ ಆನಂದಧಾಮ",
+            "ಅಯಾಚಿತ ಮೊಹೆನ,    ಪತಿತ ಹೆರಿ ಯೊ ಪಹುಂ,",
+            "ಯಾಚಿ ದೆಯಲ ಹರಿನಾಮ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఇహ లొచన ఆనందధామ",
+            "అయాచిత మొహెన,    పతిత హెరి యొ పహుం,",
+            "యాచి దెయల హరినామ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "иха ло̆чана а̄нандадха̄ма",
+            "айа̄чита мо̆хэ̆на,    патита хэ̆ри йо̆ пахум̣,",
+            "йа̄чи дэ̆йала харина̄ма 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഇഹ ലൊചന ആനന്ദധാമ",
+            "അയാചിത മൊഹെന,    പതിത ഹെരി യൊ പഹും,",
+            "യാചി ദെയല ഹരിനാമ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "இஹ லொசன ஆனந்த³தா⁴ம",
+            "அயாசித மொஹென,    பதித ஹெரி யொ பஹும்ʼ,",
+            "யாசி தெ³யல ஹரிநாம 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "iha locana ānanda-dhāma",
+            "ayācita mo-hena,    patita heri yo pahũ,",
+            "yāci deyala harināma 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "iha locana ānanda-dhāma",
+            "ayācita mo-hena,    patita heri yo pahũ,",
+            "yāci deyala harināma 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "duramati agati,    satata asate mati,",
+        "nāhi sukṛti laba leśa",
+        "śrībṛndābana,    yugala[FLAG_HYPHEN_ALPHA]bhajana[FLAG_HYPHEN_ALPHA]dhana,",
+        "tāhe karala upadeśa 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I am wicked and helpless, and my mind is constantly absorbed in mundane matters; I do not possess even one iota of devotional merit. Yet he still instructs me about Śrī Vṛndāvana and the treasure of bhajana of the Divine Couple."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "duramati",
+              "[I am] wicked"
+            ],
+            [
+              "agati",
+              "helpless, shelterless"
+            ],
+            [
+              "satata",
+              "constantly"
+            ],
+            [
+              "asate",
+              "mundane matters"
+            ],
+            [
+              "mati",
+              "mind"
+            ],
+            [
+              "nāhi",
+              "no"
+            ],
+            [
+              "sukṛti",
+              "pious or spiritual merit"
+            ],
+            [
+              "laba",
+              "a small fraction"
+            ],
+            [
+              "leśa",
+              "iota"
+            ],
+            [
+              "śrībṛndābana",
+              "Śrī Vṛndāvana"
+            ],
+            [
+              "yugala",
+              "Divine Couple"
+            ],
+            [
+              "bhajana",
+              "worship"
+            ],
+            [
+              "dhana",
+              "treasure"
+            ],
+            [
+              "tāhe",
+              "in that"
+            ],
+            [
+              "karala upadeśa",
+              "he gave instructions"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "दुरमति",
+              "[I am] wicked"
+            ],
+            [
+              "अगति",
+              "helpless, shelterless"
+            ],
+            [
+              "सतत",
+              "constantly"
+            ],
+            [
+              "असतॆ",
+              "mundane matters"
+            ],
+            [
+              "मति",
+              "mind"
+            ],
+            [
+              "नाहि",
+              "no"
+            ],
+            [
+              "सुक्ड़्ति",
+              "pious or spiritual merit"
+            ],
+            [
+              "लब",
+              "a small fraction"
+            ],
+            [
+              "लॆश",
+              "iota"
+            ],
+            [
+              "श्रीब्ड़्न्दाबन",
+              "Śrī Vṛndāvana"
+            ],
+            [
+              "युगल",
+              "Divine Couple"
+            ],
+            [
+              "भजन",
+              "worship"
+            ],
+            [
+              "धन",
+              "treasure"
+            ],
+            [
+              "ताहॆ",
+              "in that"
+            ],
+            [
+              "करल उपदॆश",
+              "he gave instructions"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "দুরমতি",
+              "[I am] wicked"
+            ],
+            [
+              "অগতি",
+              "helpless, shelterless"
+            ],
+            [
+              "সতত",
+              "constantly"
+            ],
+            [
+              "অসতে",
+              "mundane matters"
+            ],
+            [
+              "মতি",
+              "mind"
+            ],
+            [
+              "নাহি",
+              "no"
+            ],
+            [
+              "সুক্ড়্তি",
+              "pious or spiritual merit"
+            ],
+            [
+              "লব",
+              "a small fraction"
+            ],
+            [
+              "লেশ",
+              "iota"
+            ],
+            [
+              "শ্রীব্ড়্ন্দাবন",
+              "Śrī Vṛndāvana"
+            ],
+            [
+              "যুগল",
+              "Divine Couple"
+            ],
+            [
+              "ভজন",
+              "worship"
+            ],
+            [
+              "ধন",
+              "treasure"
+            ],
+            [
+              "তাহে",
+              "in that"
+            ],
+            [
+              "করল উপদেশ",
+              "he gave instructions"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "દુરમતિ",
+              "[I am] wicked"
+            ],
+            [
+              "અગતિ",
+              "helpless, shelterless"
+            ],
+            [
+              "સતત",
+              "constantly"
+            ],
+            [
+              "અસતે",
+              "mundane matters"
+            ],
+            [
+              "મતિ",
+              "mind"
+            ],
+            [
+              "નાહિ",
+              "no"
+            ],
+            [
+              "સુક્ડ઼્તિ",
+              "pious or spiritual merit"
+            ],
+            [
+              "લબ",
+              "a small fraction"
+            ],
+            [
+              "લેશ",
+              "iota"
+            ],
+            [
+              "શ્રીબ્ડ઼્ન્દાબન",
+              "Śrī Vṛndāvana"
+            ],
+            [
+              "યુગલ",
+              "Divine Couple"
+            ],
+            [
+              "ભજન",
+              "worship"
+            ],
+            [
+              "ધન",
+              "treasure"
+            ],
+            [
+              "તાહે",
+              "in that"
+            ],
+            [
+              "કરલ ઉપદેશ",
+              "he gave instructions"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "दुरमति अगति,    सतत असतॆ मति,",
+            "नाहि सुक्ड़्ति लब लॆश",
+            "श्रीब्ड़्न्दाबन,    युगलभजनधन,",
+            "ताहॆ करल उपदॆश ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "দুরমতি অগতি,    সতত অসতে মতি,",
+            "নাহি সুক্ড়্তি লব লেশ",
+            "শ্রীব্ড়্ন্দাবন,    যুগলভজনধন,",
+            "তাহে করল উপদেশ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଦୁରମତି ଅଗତି,    ସତତ ଅସତେ ମତି,",
+            "ନାହି ସୁକ୍ଡ଼୍ତି ଲବ ଲେଶ",
+            "ଶ୍ରୀବ୍ଡ଼୍ନ୍ଦାବନ,    ଯୁଗଲଭଜନଧନ,",
+            "ତାହେ କରଲ ଉପଦେଶ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "દુરમતિ અગતિ,    સતત અસતે મતિ,",
+            "નાહિ સુક્ડ઼્તિ લબ લેશ",
+            "શ્રીબ્ડ઼્ન્દાબન,    યુગલભજનધન,",
+            "તાહે કરલ ઉપદેશ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "duramati agati,    satata asate mati,",
+            "nāhi sukṛti laba leśa",
+            "śrībṛndābana,    yugala-bhajana-dhana,",
+            "tāhe karala upadeśa 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ದುರಮತಿ ಅಗತಿ,    ಸತತ ಅಸತೆ ಮತಿ,",
+            "ನಾಹಿ ಸುಕ್‌ಡ಼್ತಿ ಲಬ ಲೆಶ",
+            "ಶ್ರೀಬ್‌ಡ಼್ನ್ದಾಬನ,    ಯುಗಲಭಜನಧನ,",
+            "ತಾಹೆ ಕರಲ ಉಪದೆಶ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "దురమతి అగతి,    సతత అసతె మతి,",
+            "నాహి సుక్డ్తి లబ లెశ",
+            "శ్రీబ్డ్న్దాబన,    యుగలభజనధన,",
+            "తాహె కరల ఉపదెశ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "дурамати агати,    сатата асатэ̆ мати,",
+            "на̄хи сукр̤ти лаба лэ̆ш́а",
+            "ш́рӣбр̤нда̄бана,    йугалабхаджанадхана,",
+            "та̄хэ̆ карала упадэ̆ш́а 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ദുരമതി അഗതി,    സതത അസതെ മതി,",
+            "നാഹി സുക്ഡ്തി ലബ ലെശ",
+            "ശ്രീബ്ഡ്ന്ദാബന,    യുഗലഭജനധന,",
+            "താഹെ കരല ഉപദെശ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "து³ரமதி அக³தி,    ஸதத அஸதெ மதி,",
+            "நாஹி ஸுக்ஃட்²தி லப³ லெஶ",
+            "ஶ்ரீப்³ஃட்²ந்தா³ப³ன,    யுக³லப⁴ஜனத⁴ன,",
+            "தாஹெ கரல உபதெ³ஶ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "duramati agati,    satata asate mati,",
+            "nāhi sukṛti laba leśa",
+            "śrībṛndābana,    yugala-bhajana-dhana,",
+            "tāhe karala upadeśa 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "duramati agati,    satata asate mati,",
+            "nāhi sukṛti laba leśa",
+            "śrībṛndābana,    yugala-bhajana-dhana,",
+            "tāhe karala upadeśa 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "niramala[FLAG_HYPHEN_ALPHA]gaura[FLAG_HYPHEN_ALPHA],    premarasa siñcane,",
+        "pūrala jagajana āśa",
+        "so caraṇāmbuje,    rati nāhi hoyala,",
+        "royata baiṣṇaba[FLAG_HYPHEN_ALPHA]dāsa 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Showering the world with the pure nectar of gaura-prema, śrī guru fulfills everyone’s hopes. Having not developed rati for his lotus feet, this Vaiṣṇava dāsa weeps."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "niramala",
+              "pure"
+            ],
+            [
+              "gaura",
+              "Gaura"
+            ],
+            [
+              "premarasa",
+              "love + nectar"
+            ],
+            [
+              "siñcane",
+              "he sprinkles, showers"
+            ],
+            [
+              "pūrala",
+              "fulfilled"
+            ],
+            [
+              "jagajana",
+              "the people of this world"
+            ],
+            [
+              "āśa",
+              "desires"
+            ],
+            [
+              "so",
+              "those"
+            ],
+            [
+              "caraṇāmbuje",
+              "feet + for the lotus-like"
+            ],
+            [
+              "rati",
+              "attachment"
+            ],
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "hoyala",
+              "happened, born"
+            ],
+            [
+              "royata",
+              "weeps"
+            ],
+            [
+              "baiṣṇaba dāsa",
+              "Śrī Vaiṣṇav dās"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "निरमल",
+              "pure"
+            ],
+            [
+              "गौर",
+              "Gaura"
+            ],
+            [
+              "प्रॆमरस",
+              "love + nectar"
+            ],
+            [
+              "सिञ्चनॆ",
+              "he sprinkles, showers"
+            ],
+            [
+              "पूरल",
+              "fulfilled"
+            ],
+            [
+              "जगजन",
+              "the people of this world"
+            ],
+            [
+              "आश",
+              "desires"
+            ],
+            [
+              "सॊ",
+              "those"
+            ],
+            [
+              "चरणाम्बुजॆ",
+              "feet + for the lotus-like"
+            ],
+            [
+              "रति",
+              "attachment"
+            ],
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "हॊयल",
+              "happened, born"
+            ],
+            [
+              "रॊयत",
+              "weeps"
+            ],
+            [
+              "बैष्णब दास",
+              "Śrī Vaiṣṇav dās"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "নিরমল",
+              "pure"
+            ],
+            [
+              "গৌর",
+              "Gaura"
+            ],
+            [
+              "প্রেমরস",
+              "love + nectar"
+            ],
+            [
+              "সিঞ্চনে",
+              "he sprinkles, showers"
+            ],
+            [
+              "পূরল",
+              "fulfilled"
+            ],
+            [
+              "জগজন",
+              "the people of this world"
+            ],
+            [
+              "আশ",
+              "desires"
+            ],
+            [
+              "সো",
+              "those"
+            ],
+            [
+              "চরণাম্বুজে",
+              "feet + for the lotus-like"
+            ],
+            [
+              "রতি",
+              "attachment"
+            ],
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "হোয়ল",
+              "happened, born"
+            ],
+            [
+              "রোয়ত",
+              "weeps"
+            ],
+            [
+              "বৈষ্ণব দাস",
+              "Śrī Vaiṣṇav dās"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "નિરમલ",
+              "pure"
+            ],
+            [
+              "ગૌર",
+              "Gaura"
+            ],
+            [
+              "પ્રેમરસ",
+              "love + nectar"
+            ],
+            [
+              "સિઞ્ચને",
+              "he sprinkles, showers"
+            ],
+            [
+              "પૂરલ",
+              "fulfilled"
+            ],
+            [
+              "જગજન",
+              "the people of this world"
+            ],
+            [
+              "આશ",
+              "desires"
+            ],
+            [
+              "સો",
+              "those"
+            ],
+            [
+              "ચરણામ્બુજે",
+              "feet + for the lotus-like"
+            ],
+            [
+              "રતિ",
+              "attachment"
+            ],
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "હોયલ",
+              "happened, born"
+            ],
+            [
+              "રોયત",
+              "weeps"
+            ],
+            [
+              "બૈષ્ણબ દાસ",
+              "Śrī Vaiṣṇav dās"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "निरमलगौर,    प्रॆमरस सिञ्चनॆ,",
+            "पूरल जगजन आश",
+            "सॊ चरणाम्बुजॆ,    रति नाहि हॊयल,",
+            "रॊयत बैष्णबदास ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নিরমলগৌর,    প্রেমরস সিঞ্চনে,",
+            "পূরল জগজন আশ",
+            "সো চরণাম্বুজে,    রতি নাহি হোয়ল,",
+            "রোয়ত বৈষ্ণবদাস ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନିରମଲଗୌର,    ପ୍ରେମରସ ସିଞ୍ଚନେ,",
+            "ପୂରଲ ଜଗଜନ ଆଶ",
+            "ସୋ ଚରଣାମ୍ବୁଜେ,    ରତି ନାହି ହୋୟଲ,",
+            "ରୋୟତ ବୈଷ୍ଣବଦାସ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નિરમલગૌર,    પ્રેમરસ સિઞ્ચને,",
+            "પૂરલ જગજન આશ",
+            "સો ચરણામ્બુજે,    રતિ નાહિ હોયલ,",
+            "રોયત બૈષ્ણબદાસ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "niramala-gaura-,    premarasa siñcane,",
+            "pūrala jagajana āśa",
+            "so caraṇāmbuje,    rati nāhi hoyala,",
+            "royata baiṣṇaba-dāsa 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಿರಮಲಗೌರ,    ಪ್ರೆಮರಸ ಸಿಂಚನೆ,",
+            "ಪೂರಲ ಜಗಜನ ಆಶ",
+            "ಸೊ ಚರಣಾಂಬುಜೆ,    ರತಿ ನಾಹಿ ಹೊಯಲ,",
+            "ರೊಯತ ಬೈಷ್ಣಬದಾಸ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నిరమలగౌర,    ప్రెమరస సించనె,",
+            "పూరల జగజన ఆశ",
+            "సొ చరణాంబుజె,    రతి నాహి హొయల,",
+            "రొయత బైష్ణబదాస 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "нирамалагаура,    прэ̆мараса син̃чанэ̆,",
+            "пӯрала джагаджана а̄ш́а",
+            "со̆ чаран̣а̄мбуджэ̆,    рати на̄хи хо̆йала,",
+            "ро̆йата баишн̣абада̄са 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നിരമലഗൗര,    പ്രെമരസ സിഞ്ചനെ,",
+            "പൂരല ജഗജന ആശ",
+            "സൊ ചരണാംബുജെ,    രതി നാഹി ഹൊയല,",
+            "രൊയത ബൈഷ്ണബദാസ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நிரமலகௌ³ர,    ப்ரெமரஸ ஸிஞ்சனெ,",
+            "பூரல ஜக³ஜன ஆஶ",
+            "ஸொ சரணாம்பு³ஜெ,    ரதி நாஹி ஹொயல,",
+            "ரொயத பை³ஷ்ணப³தா³ஸ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "niramala-gaura-,    premarasa siñcane,",
+            "pūrala jagajana āśa",
+            "so caraṇāmbuje,    rati nāhi hoyala,",
+            "royata baiṣṇaba-dāsa 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "niramala-gaura-,    premarasa siñcane,",
+            "pūrala jagajana āśa",
+            "so caraṇāmbuje,    rati nāhi hoyala,",
+            "royata baiṣṇaba-dāsa 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "hakr-1",
+      "filename": "G10-hakr-1.mp3",
+      "artist": "Hare Krsna das"
+    },
+    {
+      "uid": "jahn-1",
+      "filename": "G10-jahn-1.mp3",
+      "artist": "Jahnava dasi"
+    },
+    {
+      "uid": "sara-1",
+      "filename": "G10-sara-1.mp3",
+      "artist": "sara"
+    },
+    {
+      "uid": "srrb-1",
+      "filename": "G10-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    },
+    {
+      "uid": "tama-1",
+      "filename": "G10-tama-1.mp3",
+      "artist": "Tamal Krsna das"
+    }
+  ],
+  "tags": [
+    "The Glories of Śrī Guru"
+  ]
+}

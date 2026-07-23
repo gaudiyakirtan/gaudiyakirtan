@@ -1,5 +1,7 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.neutral
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectDragGestures
 import androidx.compose.foundation.layout.*
@@ -56,7 +58,7 @@ fun AlphabeticalScrollBar(
                 .width(18.dp)
                 .padding(vertical = 10.dp)
                 .clip(RoundedCornerShape(topStart = 8.dp, bottomStart = 8.dp, topEnd = 0.dp, bottomEnd = 0.dp))
-                .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.2f))
+                .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.2f))
                 .align(Alignment.CenterEnd)
         )
         
@@ -66,13 +68,13 @@ fun AlphabeticalScrollBar(
                 modifier = Modifier
                     .size(80.dp)
                     .clip(CircleShape)
-                    .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.7f))
+                    .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.7f))
                     .align(Alignment.Center),
                 contentAlignment = Alignment.Center
             ) {
                 Text(
                     text = activeIndex ?: "",
-                    color = MaterialTheme.colorScheme.onPrimary,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
                     fontSize = 40.sp,
                     fontWeight = FontWeight.Bold
                 )
@@ -130,7 +132,7 @@ fun AlphabeticalScrollBar(
                         .size(16.dp)
                         .clip(CircleShape)
                         .background(
-                            if (isActive && isAvailable) MaterialTheme.colorScheme.primary
+                            if (isActive && isAvailable) MaterialTheme.colorScheme.surfaceVariant
                             else Color.Transparent
                         ),
                     contentAlignment = Alignment.Center
@@ -140,9 +142,9 @@ fun AlphabeticalScrollBar(
                         fontSize = 11.sp,
                         fontWeight = FontWeight.SemiBold,
                         color = when {
-                            isActive && isAvailable -> MaterialTheme.colorScheme.onPrimary
-                            isAvailable -> MaterialTheme.colorScheme.tertiary
-                            else -> MaterialTheme.colorScheme.tertiary.copy(alpha = 0.3f)
+                            isActive && isAvailable -> MaterialTheme.colorScheme.onSurfaceVariant
+                            isAvailable -> MaterialTheme.colorScheme.neutral
+                            else -> MaterialTheme.colorScheme.neutral.copy(alpha = 0.3f)
                         }
                     )
                 }

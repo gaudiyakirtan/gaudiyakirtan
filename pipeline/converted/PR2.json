@@ -1,0 +1,935 @@
+{
+ "uid": "PR2",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ভাইরে! একদিন শান্তিপুরে"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "bhāire! ekadina śāntipure"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "bhāire!",
+    "ekadina śāntipure,    prabhu adbaitera ghare,",
+    "dui prabhu bhojane basila",
+    "śāka kari’ āsbādana,    prabhu bale,—“bhaktagaṇa,",
+    "ei śāka kṛṣṇa āsbādila 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O brothers! One day at Śrī Advaita Prabhu’s house in Śāntipura, the two Lords (Śrī Caitanya and Śrī Nityānanda) sat for lunch. Upon tasting the śāk (leafy green vegetable preparation), Lord Caitanya said, “O devotees, this śāk has certainly been enjoyed by Kṛṣṇa!"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "bhāire",
+       "O brothers"
+      ],
+      [
+       "ekadina",
+       "one + day"
+      ],
+      [
+       "śāntipure",
+       "in Śāntipura"
+      ],
+      [
+       "prabhu adbaitera",
+       "Śrī Advaita Prabhu’s"
+      ],
+      [
+       "ghare",
+       "in house"
+      ],
+      [
+       "dui",
+       "two"
+      ],
+      [
+       "prabhu",
+       "Lords"
+      ],
+      [
+       "bhojane",
+       "for eating"
+      ],
+      [
+       "basila",
+       "sat"
+      ],
+      [
+       "śāka",
+       "leafy greens"
+      ],
+      [
+       "kari’ āsbādana",
+       "having tasted"
+      ],
+      [
+       "prabhu",
+       "the Lord"
+      ],
+      [
+       "bale",
+       "said"
+      ],
+      [
+       "bhaktagaṇa",
+       "O devotees"
+      ],
+      [
+       "ei",
+       "this"
+      ],
+      [
+       "śāka",
+       "leafy vegetable preparation"
+      ],
+      [
+       "kṛṣṇa",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "āsbādila",
+       "relished"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "भाइरॆ",
+       "O brothers"
+      ],
+      [
+       "ऎकदिन",
+       "one + day"
+      ],
+      [
+       "शान्तिपुरॆ",
+       "in Śāntipura"
+      ],
+      [
+       "प्रभु अद्बैतॆर",
+       "Śrī Advaita Prabhu’s"
+      ],
+      [
+       "घरॆ",
+       "in house"
+      ],
+      [
+       "दुइ",
+       "two"
+      ],
+      [
+       "प्रभु",
+       "Lords"
+      ],
+      [
+       "भॊजनॆ",
+       "for eating"
+      ],
+      [
+       "बसिल",
+       "sat"
+      ],
+      [
+       "शाक",
+       "leafy greens"
+      ],
+      [
+       "करिऽ आस्बादन",
+       "having tasted"
+      ],
+      [
+       "प्रभु",
+       "the Lord"
+      ],
+      [
+       "बलॆ",
+       "said"
+      ],
+      [
+       "भक्तगण",
+       "O devotees"
+      ],
+      [
+       "ऎइ",
+       "this"
+      ],
+      [
+       "शाक",
+       "leafy vegetable preparation"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "आस्बादिल",
+       "relished"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ভাইরে",
+       "O brothers"
+      ],
+      [
+       "একদিন",
+       "one + day"
+      ],
+      [
+       "শান্তিপুরে",
+       "in Śāntipura"
+      ],
+      [
+       "প্রভু অদ্বৈতের",
+       "Śrī Advaita Prabhu’s"
+      ],
+      [
+       "ঘরে",
+       "in house"
+      ],
+      [
+       "দুই",
+       "two"
+      ],
+      [
+       "প্রভু",
+       "Lords"
+      ],
+      [
+       "ভোজনে",
+       "for eating"
+      ],
+      [
+       "বসিল",
+       "sat"
+      ],
+      [
+       "শাক",
+       "leafy greens"
+      ],
+      [
+       "করিঽ আস্বাদন",
+       "having tasted"
+      ],
+      [
+       "প্রভু",
+       "the Lord"
+      ],
+      [
+       "বলে",
+       "said"
+      ],
+      [
+       "ভক্তগণ",
+       "O devotees"
+      ],
+      [
+       "এই",
+       "this"
+      ],
+      [
+       "শাক",
+       "leafy vegetable preparation"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "আস্বাদিল",
+       "relished"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ભાઇરે",
+       "O brothers"
+      ],
+      [
+       "એકદિન",
+       "one + day"
+      ],
+      [
+       "શાન્તિપુરે",
+       "in Śāntipura"
+      ],
+      [
+       "પ્રભુ અદ્બૈતેર",
+       "Śrī Advaita Prabhu’s"
+      ],
+      [
+       "ઘરે",
+       "in house"
+      ],
+      [
+       "દુઇ",
+       "two"
+      ],
+      [
+       "પ્રભુ",
+       "Lords"
+      ],
+      [
+       "ભોજને",
+       "for eating"
+      ],
+      [
+       "બસિલ",
+       "sat"
+      ],
+      [
+       "શાક",
+       "leafy greens"
+      ],
+      [
+       "કરિઽ આસ્બાદન",
+       "having tasted"
+      ],
+      [
+       "પ્રભુ",
+       "the Lord"
+      ],
+      [
+       "બલે",
+       "said"
+      ],
+      [
+       "ભક્તગણ",
+       "O devotees"
+      ],
+      [
+       "એઇ",
+       "this"
+      ],
+      [
+       "શાક",
+       "leafy vegetable preparation"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Śrī Kṛṣṇa"
+      ],
+      [
+       "આસ્બાદિલ",
+       "relished"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भाइरॆ!",
+      "ऎकदिन शान्तिपुरॆ,    प्रभु अद्बैतॆर घरॆ,",
+      "दुइ प्रभु भॊजनॆ बसिल",
+      "शाक करिऽ आस्बादन,    प्रभु बलॆ,—“भक्तगण,",
+      "ऎइ शाक क्ड़्ष्ण आस्बादिल १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভাইরে!",
+      "একদিন শান্তিপুরে,    প্রভু অদ্বৈতের ঘরে,",
+      "দুই প্রভু ভোজনে বসিল",
+      "শাক করিঽ আস্বাদন,    প্রভু বলে,—“ভক্তগণ,",
+      "এই শাক ক্ড়্ষ্ণ আস্বাদিল ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭାଇରେ!",
+      "ଏକଦିନ ଶାନ୍ତିପୁରେ,    ପ୍ରଭୁ ଅଦ୍ବୈତେର ଘରେ,",
+      "ଦୁଇ ପ୍ରଭୁ ଭୋଜନେ ବସିଲ",
+      "ଶାକ କରିଽ ଆସ୍ବାଦନ,    ପ୍ରଭୁ ବଲେ,—“ଭକ୍ତଗଣ,",
+      "ଏଇ ଶାକ କ୍ଡ଼୍ଷ୍ଣ ଆସ୍ବାଦିଲ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભાઇરે!",
+      "એકદિન શાન્તિપુરે,    પ્રભુ અદ્બૈતેર ઘરે,",
+      "દુઇ પ્રભુ ભોજને બસિલ",
+      "શાક કરિઽ આસ્બાદન,    પ્રભુ બલે,—“ભક્તગણ,",
+      "એઇ શાક ક્ડ઼્ષ્ણ આસ્બાદિલ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhāire!",
+      "ekadina śāntipure,    prabhu adbaitera ghare,",
+      "dui prabhu bhojane basila",
+      "śāka kari’ āsbādana,    prabhu bale,—“bhaktagaṇa,",
+      "ei śāka kṛṣṇa āsbādila 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭಾಇರೆ!",
+      "ಎಕದಿನ ಶಾಂತಿಪುರೆ,    ಪ್ರಭು ಅದ್ಬೈತೆರ ಘರೆ,",
+      "ದುಇ ಪ್ರಭು ಭೊಜನೆ ಬಸಿಲ",
+      "ಶಾಕ ಕರಿಽ ಆಸ್ಬಾದನ,    ಪ್ರಭು ಬಲೆ,—“ಭಕ್ತಗಣ,",
+      "ಎಇ ಶಾಕ ಕ್‌ಡ಼್ಷ್ಣ ಆಸ್ಬಾದಿಲ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భాఇరె!",
+      "ఎకదిన శాంతిపురె,    ప్రభు అద్బైతెర ఘరె,",
+      "దుఇ ప్రభు భొజనె బసిల",
+      "శాక కరిఽ ఆస్బాదన,    ప్రభు బలె,—“భక్తగణ,",
+      "ఎఇ శాక క్డ్ష్ణ ఆస్బాదిల 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бха̄ирэ̆!",
+      "э̆кадина ш́а̄нтипурэ̆,    прабху адбаитэ̆ра гхарэ̆,",
+      "дуи прабху бхо̆джанэ̆ басила",
+      "ш́а̄ка кари' а̄сба̄дана,    прабху балэ̆,—“бхактаган̣а,",
+      "э̆и ш́а̄ка кр̤шн̣а а̄сба̄дила 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭാഇരെ!",
+      "എകദിന ശാന്തിപുരെ,    പ്രഭു അദ്ബൈതെര ഘരെ,",
+      "ദുഇ പ്രഭു ഭൊജനെ ബസില",
+      "ശാക കരിഽ ആസ്ബാദന,    പ്രഭു ബലെ,—“ഭക്തഗണ,",
+      "എഇ ശാക ക്ഡ്ഷ്ണ ആസ്ബാദില 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பா⁴இரெ!",
+      "எகதி³ன ஶாந்திபுரெ,    ப்ரபு⁴ அத்³பை³தெர க⁴ரெ,",
+      "து³இ ப்ரபு⁴ பொ⁴ஜனெ ப³ஸில",
+      "ஶாக கரி(அ) ஆஸ்பா³த³ன,    ப்ரபு⁴ ப³லெ,—“ப⁴க்தக³ண,",
+      "எஇ ஶாக க்ஃட்²ஷ்ண ஆஸ்பா³தி³ல 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhāire!",
+      "ekadina śāntipure,    prabhu adbaitera ghare,",
+      "dui prabhu bhojane basila",
+      "śāka kari’ āsbādana,    prabhu bale,—“bhaktagaṇa,",
+      "ei śāka kṛṣṇa āsbādila 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhāire!",
+      "ekadina śāntipure,    prabhu adbaitera ghare,",
+      "dui prabhu bhojane basila",
+      "śāka kari’ āsbādana,    prabhu bale,—“bhaktagaṇa,",
+      "ei śāka kṛṣṇa āsbādila 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "hena śāka āsbādane,    kṛṣṇaprema āise mane,",
+    "sei preme kara āsbādana",
+    "jaḓabuddhi parihari,    prasāda bhojana kari’,",
+    "hari hari bala sarbajana 2”"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "“Upon one’s tasting this śāk, kṛṣṇa-prema arises in one’s heart. Relish this śāk with love. Forgetting your materialistic conceptions and taking the Lord’s remnants, all of you just chant, ‘Hari! Hari!’ ”"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hena",
+       "such"
+      ],
+      [
+       "śāka",
+       "greens"
+      ],
+      [
+       "āsbādane",
+       "having tasted"
+      ],
+      [
+       "kṛṣṇaprema",
+       "love for Kṛṣṇa"
+      ],
+      [
+       "āise",
+       "comes"
+      ],
+      [
+       "mane",
+       "in the heart"
+      ],
+      [
+       "sei",
+       "this"
+      ],
+      [
+       "preme",
+       "with love"
+      ],
+      [
+       "kara āsbādana",
+       "relish"
+      ],
+      [
+       "jaḓabuddhi",
+       "mundane + intelligence"
+      ],
+      [
+       "parihari",
+       "having relinquished"
+      ],
+      [
+       "prasāda",
+       "Lord’s remnants"
+      ],
+      [
+       "bhojana kari’",
+       "having eaten"
+      ],
+      [
+       "hari hari",
+       "“Hari, Hari”"
+      ],
+      [
+       "bala",
+       "chant"
+      ],
+      [
+       "sarbajana",
+       "all + people."
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हॆन",
+       "such"
+      ],
+      [
+       "शाक",
+       "greens"
+      ],
+      [
+       "आस्बादनॆ",
+       "having tasted"
+      ],
+      [
+       "क्ड़्ष्णप्रॆम",
+       "love for Kṛṣṇa"
+      ],
+      [
+       "आइसॆ",
+       "comes"
+      ],
+      [
+       "मनॆ",
+       "in the heart"
+      ],
+      [
+       "सॆइ",
+       "this"
+      ],
+      [
+       "प्रॆमॆ",
+       "with love"
+      ],
+      [
+       "कर आस्बादन",
+       "relish"
+      ],
+      [
+       "जḓअबुद्धि",
+       "mundane + intelligence"
+      ],
+      [
+       "परिहरि",
+       "having relinquished"
+      ],
+      [
+       "प्रसाद",
+       "Lord’s remnants"
+      ],
+      [
+       "भॊजन करिऽ",
+       "having eaten"
+      ],
+      [
+       "हरि हरि",
+       "“Hari, Hari”"
+      ],
+      [
+       "बल",
+       "chant"
+      ],
+      [
+       "सर्बजन",
+       "all + people."
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হেন",
+       "such"
+      ],
+      [
+       "শাক",
+       "greens"
+      ],
+      [
+       "আস্বাদনে",
+       "having tasted"
+      ],
+      [
+       "ক্ড়্ষ্ণপ্রেম",
+       "love for Kṛṣṇa"
+      ],
+      [
+       "আইসে",
+       "comes"
+      ],
+      [
+       "মনে",
+       "in the heart"
+      ],
+      [
+       "সেই",
+       "this"
+      ],
+      [
+       "প্রেমে",
+       "with love"
+      ],
+      [
+       "কর আস্বাদন",
+       "relish"
+      ],
+      [
+       "জḓঅবুদ্ধি",
+       "mundane + intelligence"
+      ],
+      [
+       "পরিহরি",
+       "having relinquished"
+      ],
+      [
+       "প্রসাদ",
+       "Lord’s remnants"
+      ],
+      [
+       "ভোজন করিঽ",
+       "having eaten"
+      ],
+      [
+       "হরি হরি",
+       "“Hari, Hari”"
+      ],
+      [
+       "বল",
+       "chant"
+      ],
+      [
+       "সর্বজন",
+       "all + people."
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હેન",
+       "such"
+      ],
+      [
+       "શાક",
+       "greens"
+      ],
+      [
+       "આસ્બાદને",
+       "having tasted"
+      ],
+      [
+       "ક્ડ઼્ષ્ણપ્રેમ",
+       "love for Kṛṣṇa"
+      ],
+      [
+       "આઇસે",
+       "comes"
+      ],
+      [
+       "મને",
+       "in the heart"
+      ],
+      [
+       "સેઇ",
+       "this"
+      ],
+      [
+       "પ્રેમે",
+       "with love"
+      ],
+      [
+       "કર આસ્બાદન",
+       "relish"
+      ],
+      [
+       "જḓઅબુદ્ધિ",
+       "mundane + intelligence"
+      ],
+      [
+       "પરિહરિ",
+       "having relinquished"
+      ],
+      [
+       "પ્રસાદ",
+       "Lord’s remnants"
+      ],
+      [
+       "ભોજન કરિઽ",
+       "having eaten"
+      ],
+      [
+       "હરિ હરિ",
+       "“Hari, Hari”"
+      ],
+      [
+       "બલ",
+       "chant"
+      ],
+      [
+       "સર્બજન",
+       "all + people."
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हॆन शाक आस्बादनॆ,    क्ड़्ष्णप्रॆम आइसॆ मनॆ,",
+      "सॆइ प्रॆमॆ कर आस्बादन",
+      "जḓअबुद्धि परिहरि,    प्रसाद भॊजन करिऽ,",
+      "हरि हरि बल सर्बजन २”"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হেন শাক আস্বাদনে,    ক্ড়্ষ্ণপ্রেম আইসে মনে,",
+      "সেই প্রেমে কর আস্বাদন",
+      "জḓঅবুদ্ধি পরিহরি,    প্রসাদ ভোজন করিঽ,",
+      "হরি হরি বল সর্বজন ২”"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହେନ ଶାକ ଆସ୍ବାଦନେ,    କ୍ଡ଼୍ଷ୍ଣପ୍ରେମ ଆଇସେ ମନେ,",
+      "ସେଇ ପ୍ରେମେ କର ଆସ୍ବାଦନ",
+      "ଜḓଅବୁଦ୍ଧି ପରିହରି,    ପ୍ରସାଦ ଭୋଜନ କରିଽ,",
+      "ହରି ହରି ବଲ ସର୍ବଜନ ୨”"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હેન શાક આસ્બાદને,    ક્ડ઼્ષ્ણપ્રેમ આઇસે મને,",
+      "સેઇ પ્રેમે કર આસ્બાદન",
+      "જḓઅબુદ્ધિ પરિહરિ,    પ્રસાદ ભોજન કરિઽ,",
+      "હરિ હરિ બલ સર્બજન ૨”"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hena śāka āsbādane,    kṛṣṇaprema āise mane,",
+      "sei preme kara āsbādana",
+      "jaḓabuddhi parihari,    prasāda bhojana kari’,",
+      "hari hari bala sarbajana 2”"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹೆನ ಶಾಕ ಆಸ್ಬಾದನೆ,    ಕ್‌ಡ಼್ಷ್ಣಪ್ರೆಮ ಆಇಸೆ ಮನೆ,",
+      "ಸೆಇ ಪ್ರೆಮೆ ಕರ ಆಸ್ಬಾದನ",
+      "ಜḓಅಬುದ್ಧಿ ಪರಿಹರಿ,    ಪ್ರಸಾದ ಭೊಜನ ಕರಿಽ,",
+      "ಹರಿ ಹರಿ ಬಲ ಸರ್ಬಜನ ೨”"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హెన శాక ఆస్బాదనె,    క్డ్ష్ణప్రెమ ఆఇసె మనె,",
+      "సెఇ ప్రెమె కర ఆస్బాదన",
+      "జḓఅబుద్ధి పరిహరి,    ప్రసాద భొజన కరిఽ,",
+      "హరి హరి బల సర్బజన 2”"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хэ̆на ш́а̄ка а̄сба̄данэ̆,    кр̤шн̣апрэ̆ма а̄исэ̆ манэ̆,",
+      "сэ̆и прэ̆мэ̆ кара а̄сба̄дана",
+      "джаḓабуддхи парихари,    праса̄да бхо̆джана кари',",
+      "хари хари бала сарбаджана 2”"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹെന ശാക ആസ്ബാദനെ,    ക്ഡ്ഷ്ണപ്രെമ ആഇസെ മനെ,",
+      "സെഇ പ്രെമെ കര ആസ്ബാദന",
+      "ജḓഅബുദ്ധി പരിഹരി,    പ്രസാദ ഭൊജന കരിഽ,",
+      "ഹരി ഹരി ബല സർബജന 2”"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹென ஶாக ஆஸ்பா³த³னெ,    க்ஃட்²ஷ்ணப்ரெம ஆஇஸெ மனெ,",
+      "ஸெஇ ப்ரெமெ கர ஆஸ்பா³த³ன",
+      "ஜḓஅபு³த்³தி⁴ பரிஹரி,    ப்ரஸாத³ பொ⁴ஜன கரி(அ),",
+      "ஹரி ஹரி ப³ல ஸர்ப³ஜன 2”"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hena śāka āsbādane,    kṛṣṇaprema āise mane,",
+      "sei preme kara āsbādana",
+      "jaḍabuddhi parihari,    prasāda bhojana kari’,",
+      "hari hari bala sarbajana 2”"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hena śāka āsbādane,    kṛṣṇaprema āise mane,",
+      "sei preme kara āsbādana",
+      "jaḓabuddhi parihari,    prasāda bhojana kari’,",
+      "hari hari bala sarbajana 2”"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "(২)"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Mahā-prasāda"
+ ]
+}

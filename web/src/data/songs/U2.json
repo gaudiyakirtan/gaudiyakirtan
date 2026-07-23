@@ -1,0 +1,1784 @@
+{
+  "uid": "U2",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "হরি হে! অর্থের সঞ্চয়ে"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "hari he! arthera sañcaye"
+    },
+    {
+      "script_code": "Deva",
+      "text": "हरि हे! अर्थेर सञ्चये"
+    },
+    {
+      "script_code": "Telu",
+      "text": "హరి హే! అర్థేర సంచయే"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಹರಿ ಹೇ! ಅರ್ಥೇರ ಸಂಚಯೇ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஹரி ஹே! அர்தே²ர ஸஞ்சயே"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഹരി ഹേ! അർഥേര സഞ്ചയേ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "હરિ હે! અર્થેર સઞ્ચયે"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ହରି ହେ! ଅର୍ଥେର ସଞ୍ଚୟେ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "хари хэ! артхэра сан̃чайэ"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "hari he!",
+        "arthera sañcaye,    biṣaya[FLAG_HYPHEN_ALPHA]prayāse,",
+        "āna kathā prajalpane",
+        "āna adhikāra,    niyama[FLAG_HYPHEN_ALPHA]āgrahe,",
+        "asatsaṅga[FLAG_HYPHEN_ALPHA]saṁghaṭane 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O Hari! Due to accumulating excessive wealth, endeavoring for sense enjoyment, engaging in frivolous gossip, being eager to accept rules and regulations unsuited to my own qualification, keeping bad association..."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "hari",
+              "Hari"
+            ],
+            [
+              "he",
+              "O"
+            ],
+            [
+              "arthera",
+              "of wealth"
+            ],
+            [
+              "sañcaye",
+              "in accumulating"
+            ],
+            [
+              "biṣaya",
+              "sense enjoyment"
+            ],
+            [
+              "prayāse",
+              "(udyame) in endeavoring, perseverance"
+            ],
+            [
+              "āna",
+              "(bāje) other (trashy, worthless, unnecessary)"
+            ],
+            [
+              "kathā",
+              "(kṛṣṇa-kathā byātīta anya-kathā) talks (all talks other than those which relate to Kṛṣṇa)"
+            ],
+            [
+              "prajalpane",
+              "(bṛthā vākya-byaye) idle talk (useless use of words)"
+            ],
+            [
+              "āna",
+              "other"
+            ],
+            [
+              "adhikāra",
+              "qualification"
+            ],
+            [
+              "niyama",
+              "rules"
+            ],
+            [
+              "āgrahe",
+              "eagerness;2"
+            ],
+            [
+              "asatsaṅga",
+              "bad, mundane + association"
+            ],
+            [
+              "saṁghaṭane",
+              "(asādhur saṅga grahaṇe) in mixing with (in accepting non-devotee association)"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "हरि",
+              "Hari"
+            ],
+            [
+              "हॆ",
+              "O"
+            ],
+            [
+              "अर्थॆर",
+              "of wealth"
+            ],
+            [
+              "सञ्चयॆ",
+              "in accumulating"
+            ],
+            [
+              "बिषय",
+              "sense enjoyment"
+            ],
+            [
+              "प्रयासॆ",
+              "(udyame) in endeavoring, perseverance"
+            ],
+            [
+              "आन",
+              "(bāje) other (trashy, worthless, unnecessary)"
+            ],
+            [
+              "कथा",
+              "(kṛṣṇa-kathā byātīta anya-kathā) talks (all talks other than those which relate to Kṛṣṇa)"
+            ],
+            [
+              "प्रजल्पनॆ",
+              "(bṛthā vākya-byaye) idle talk (useless use of words)"
+            ],
+            [
+              "आन",
+              "other"
+            ],
+            [
+              "अधिकार",
+              "qualification"
+            ],
+            [
+              "नियम",
+              "rules"
+            ],
+            [
+              "आग्रहॆ",
+              "eagerness;2"
+            ],
+            [
+              "असत्सङ्ग",
+              "bad, mundane + association"
+            ],
+            [
+              "संघटनॆ",
+              "(asādhur saṅga grahaṇe) in mixing with (in accepting non-devotee association)"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "হরি",
+              "Hari"
+            ],
+            [
+              "হে",
+              "O"
+            ],
+            [
+              "অর্থের",
+              "of wealth"
+            ],
+            [
+              "সঞ্চয়ে",
+              "in accumulating"
+            ],
+            [
+              "বিষয়",
+              "sense enjoyment"
+            ],
+            [
+              "প্রয়াসে",
+              "(udyame) in endeavoring, perseverance"
+            ],
+            [
+              "আন",
+              "(bāje) other (trashy, worthless, unnecessary)"
+            ],
+            [
+              "কথা",
+              "(kṛṣṇa-kathā byātīta anya-kathā) talks (all talks other than those which relate to Kṛṣṇa)"
+            ],
+            [
+              "প্রজল্পনে",
+              "(bṛthā vākya-byaye) idle talk (useless use of words)"
+            ],
+            [
+              "আন",
+              "other"
+            ],
+            [
+              "অধিকার",
+              "qualification"
+            ],
+            [
+              "নিয়ম",
+              "rules"
+            ],
+            [
+              "আগ্রহে",
+              "eagerness;2"
+            ],
+            [
+              "অসৎসঙ্গ",
+              "bad, mundane + association"
+            ],
+            [
+              "সঙ্ঘটনে",
+              "(asādhur saṅga grahaṇe) in mixing with (in accepting non-devotee association)"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "હરિ",
+              "Hari"
+            ],
+            [
+              "હે",
+              "O"
+            ],
+            [
+              "અર્થેર",
+              "of wealth"
+            ],
+            [
+              "સઞ્ચયે",
+              "in accumulating"
+            ],
+            [
+              "બિષય",
+              "sense enjoyment"
+            ],
+            [
+              "પ્રયાસે",
+              "(udyame) in endeavoring, perseverance"
+            ],
+            [
+              "આન",
+              "(bāje) other (trashy, worthless, unnecessary)"
+            ],
+            [
+              "કથા",
+              "(kṛṣṇa-kathā byātīta anya-kathā) talks (all talks other than those which relate to Kṛṣṇa)"
+            ],
+            [
+              "પ્રજલ્પને",
+              "(bṛthā vākya-byaye) idle talk (useless use of words)"
+            ],
+            [
+              "આન",
+              "other"
+            ],
+            [
+              "અધિકાર",
+              "qualification"
+            ],
+            [
+              "નિયમ",
+              "rules"
+            ],
+            [
+              "આગ્રહે",
+              "eagerness;2"
+            ],
+            [
+              "અસત્સઙ્ગ",
+              "bad, mundane + association"
+            ],
+            [
+              "સંઘટને",
+              "(asādhur saṅga grahaṇe) in mixing with (in accepting non-devotee association)"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हरि हॆ!",
+            "अर्थॆर सञ्चयॆ,    बिषयप्रयासॆ,",
+            "आन कथा प्रजल्पनॆ",
+            "आन अधिकार,    नियमआग्रहॆ,",
+            "असत्सङ्गसंघटनॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হরি হে!",
+            "অর্থের সঞ্চয়ে,    বিষয়প্রয়াসে,",
+            "আন কথা প্রজল্পনে",
+            "আন অধিকার,    নিয়মআগ্রহে,",
+            "অসৎসঙ্গসঙ্ঘটনে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହରି ହେ!",
+            "ଅର୍ଥେର ସଞ୍ଚୟେ,    ବିଷୟପ୍ରୟାସେ,",
+            "ଆନ କଥା ପ୍ରଜଲ୍ପନେ",
+            "ଆନ ଅଧିକାର,    ନିୟମଆଗ୍ରହେ,",
+            "ଅସତ୍ସଙ୍ଗସଙ୍ଘଟନେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હરિ હે!",
+            "અર્થેર સઞ્ચયે,    બિષયપ્રયાસે,",
+            "આન કથા પ્રજલ્પને",
+            "આન અધિકાર,    નિયમઆગ્રહે,",
+            "અસત્સઙ્ગસંઘટને ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hari he!",
+            "arthera sañcaye,    biṣaya-prayāse,",
+            "āna kathā prajalpane",
+            "āna adhikāra,    niyama-āgrahe,",
+            "asatsaṅga-saṁghaṭane 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹರಿ ಹೆ!",
+            "ಅರ್ಥೆರ ಸಂಚಯೆ,    ಬಿಷಯಪ್ರಯಾಸೆ,",
+            "ಆನ ಕಥಾ ಪ್ರಜಲ್ಪನೆ",
+            "ಆನ ಅಧಿಕಾರ,    ನಿಯಮಆಗ್ರಹೆ,",
+            "ಅಸತ್ಸಂಗಸಂಘಟನೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హరి హె!",
+            "అర్థెర సంచయె,    బిషయప్రయాసె,",
+            "ఆన కథా ప్రజల్పనె",
+            "ఆన అధికార,    నియమఆగ్రహె,",
+            "అసత్సంగసంఘటనె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хари хэ̆!",
+            "артхэ̆ра сан̃чайэ̆,    бишайапрайа̄сэ̆,",
+            "а̄на катха̄ праджалпанэ̆",
+            "а̄на адхика̄ра,    нийамаа̄грахэ̆,",
+            "асатсан̇гасам̣гхат̣анэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹരി ഹെ!",
+            "അർഥെര സഞ്ചയെ,    ബിഷയപ്രയാസെ,",
+            "ആന കഥാ പ്രജല്പനെ",
+            "ആന അധികാര,    നിയമആഗ്രഹെ,",
+            "അസത്സംഗസംഘടനെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹரி ஹெ!",
+            "அர்தெ²ர ஸஞ்சயெ,    பி³ஷயப்ரயாஸெ,",
+            "ஆன கதா² ப்ரஜல்பனெ",
+            "ஆன அதி⁴கார,    நியமஆக்³ரஹெ,",
+            "அஸத்ஸங்க³ஸங்க⁴டனெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hari he!",
+            "arthera sañcaye,    biṣaya-prayāse,",
+            "āna kathā prajalpane",
+            "āna adhikāra,    niyama-āgrahe,",
+            "asatsaṅga-saṁghaṭane 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hari he!",
+            "arthera sañcaye,    biṣaya-prayāse,",
+            "āna kathā prajalpane",
+            "āna adhikāra,    niyama-āgrahe,",
+            "asatsaṅga-saṁghaṭane 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "asthira siddhānte,    rahinu majiyā,",
+        "haribhakti raila dūre",
+        "e hṛdaye mātra,    parahiṁsā[FLAG_HYPHEN_ALPHA]mada,",
+        "pratiṣṭhā, śaṭhatā, sphure 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "…and remaining absorbed in fickle conceptions, devotion to Śrī Hari remains far away. Within my heart, only envy of others, madness, arrogance, and wickedness arise."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "asthira",
+              "(laulya, aniścit) shaking (fickleness, unsettled or doubtful)"
+            ],
+            [
+              "siddhānte",
+              "(vicār) in conclusion (considerations)"
+            ],
+            [
+              "rahinu",
+              "I have remained"
+            ],
+            [
+              "majiyā",
+              "(magna hôiyā) having been immersed"
+            ],
+            [
+              "haribhakti",
+              "Hari + devotion"
+            ],
+            [
+              "raila",
+              "(rahilô) remained"
+            ],
+            [
+              "dūre",
+              "far away"
+            ],
+            [
+              "e",
+              "this"
+            ],
+            [
+              "hṛdaye",
+              "within heart"
+            ],
+            [
+              "mātra",
+              "only"
+            ],
+            [
+              "parahiṁsā",
+              "malice, spite, envy"
+            ],
+            [
+              "mada",
+              "(mattatā) madness"
+            ],
+            [
+              "pratiṣṭhā",
+              "(yaśolipsa) arrogance (yearning for fame)"
+            ],
+            [
+              "śaṭhatā",
+              "(dhūrtatā) cheating"
+            ],
+            [
+              "sphure",
+              "(sphurit hay) manifests"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "अस्थिर",
+              "(laulya, aniścit) shaking (fickleness, unsettled or doubtful)"
+            ],
+            [
+              "सिद्धान्तॆ",
+              "(vicār) in conclusion (considerations)"
+            ],
+            [
+              "रहिनु",
+              "I have remained"
+            ],
+            [
+              "मजिया",
+              "(magna hôiyā) having been immersed"
+            ],
+            [
+              "हरिभक्ति",
+              "Hari + devotion"
+            ],
+            [
+              "रैल",
+              "(rahilô) remained"
+            ],
+            [
+              "दूरॆ",
+              "far away"
+            ],
+            [
+              "ऎ",
+              "this"
+            ],
+            [
+              "ह्ड़्दयॆ",
+              "within heart"
+            ],
+            [
+              "मात्र",
+              "only"
+            ],
+            [
+              "परहिंसा",
+              "malice, spite, envy"
+            ],
+            [
+              "मद",
+              "(mattatā) madness"
+            ],
+            [
+              "प्रतिष्ठा",
+              "(yaśolipsa) arrogance (yearning for fame)"
+            ],
+            [
+              "शठता",
+              "(dhūrtatā) cheating"
+            ],
+            [
+              "स्फुरॆ",
+              "(sphurit hay) manifests"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "অস্থির",
+              "(laulya, aniścit) shaking (fickleness, unsettled or doubtful)"
+            ],
+            [
+              "সিদ্ধান্তে",
+              "(vicār) in conclusion (considerations)"
+            ],
+            [
+              "রহিনু",
+              "I have remained"
+            ],
+            [
+              "মজিয়া",
+              "(magna hôiyā) having been immersed"
+            ],
+            [
+              "হরিভক্তি",
+              "Hari + devotion"
+            ],
+            [
+              "রৈল",
+              "(rahilô) remained"
+            ],
+            [
+              "দূরে",
+              "far away"
+            ],
+            [
+              "এ",
+              "this"
+            ],
+            [
+              "হ্ড়্দয়ে",
+              "within heart"
+            ],
+            [
+              "মাত্র",
+              "only"
+            ],
+            [
+              "পরহিংসা",
+              "malice, spite, envy"
+            ],
+            [
+              "মদ",
+              "(mattatā) madness"
+            ],
+            [
+              "প্রতিষ্ঠা",
+              "(yaśolipsa) arrogance (yearning for fame)"
+            ],
+            [
+              "শঠতা",
+              "(dhūrtatā) cheating"
+            ],
+            [
+              "স্ফুরে",
+              "(sphurit hay) manifests"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "અસ્થિર",
+              "(laulya, aniścit) shaking (fickleness, unsettled or doubtful)"
+            ],
+            [
+              "સિદ્ધાન્તે",
+              "(vicār) in conclusion (considerations)"
+            ],
+            [
+              "રહિનુ",
+              "I have remained"
+            ],
+            [
+              "મજિયા",
+              "(magna hôiyā) having been immersed"
+            ],
+            [
+              "હરિભક્તિ",
+              "Hari + devotion"
+            ],
+            [
+              "રૈલ",
+              "(rahilô) remained"
+            ],
+            [
+              "દૂરે",
+              "far away"
+            ],
+            [
+              "એ",
+              "this"
+            ],
+            [
+              "હ્ડ઼્દયે",
+              "within heart"
+            ],
+            [
+              "માત્ર",
+              "only"
+            ],
+            [
+              "પરહિંસા",
+              "malice, spite, envy"
+            ],
+            [
+              "મદ",
+              "(mattatā) madness"
+            ],
+            [
+              "પ્રતિષ્ઠા",
+              "(yaśolipsa) arrogance (yearning for fame)"
+            ],
+            [
+              "શઠતા",
+              "(dhūrtatā) cheating"
+            ],
+            [
+              "સ્ફુરે",
+              "(sphurit hay) manifests"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अस्थिर सिद्धान्तॆ,    रहिनु मजिया,",
+            "हरिभक्ति रैल दूरॆ",
+            "ऎ ह्ड़्दयॆ मात्र,    परहिंसामद,",
+            "प्रतिष्ठा, शठता, स्फुरॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অস্থির সিদ্ধান্তে,    রহিনু মজিয়া,",
+            "হরিভক্তি রৈল দূরে",
+            "এ হ্ড়্দয়ে মাত্র,    পরহিংসামদ,",
+            "প্রতিষ্ঠা, শঠতা, স্ফুরে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅସ୍ଥିର ସିଦ୍ଧାନ୍ତେ,    ରହିନୁ ମଜିୟା,",
+            "ହରିଭକ୍ତି ରୈଲ ଦୂରେ",
+            "ଏ ହ୍ଡ଼୍ଦୟେ ମାତ୍ର,    ପରହିଂସାମଦ,",
+            "ପ୍ରତିଷ୍ଠା, ଶଠତା, ସ୍ଫୁରେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અસ્થિર સિદ્ધાન્તે,    રહિનુ મજિયા,",
+            "હરિભક્તિ રૈલ દૂરે",
+            "એ હ્ડ઼્દયે માત્ર,    પરહિંસામદ,",
+            "પ્રતિષ્ઠા, શઠતા, સ્ફુરે ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "asthira siddhānte,    rahinu majiyā,",
+            "haribhakti raila dūre",
+            "e hṛdaye mātra,    parahiṁsā-mada,",
+            "pratiṣṭhā, śaṭhatā, sphure 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅಸ್ಥಿರ ಸಿದ್ಧಾಂತೆ,    ರಹಿನು ಮಜಿಯಾ,",
+            "ಹರಿಭಕ್ತಿ ರೈಲ ದೂರೆ",
+            "ಎ ಹ್‌ಡ಼್ದಯೆ ಮಾತ್ರ,    ಪರಹಿಂಸಾಮದ,",
+            "ಪ್ರತಿಷ್ಠಾ, ಶಠತಾ, ಸ್ಫುರೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అస్థిర సిద్ధాంతె,    రహిను మజియా,",
+            "హరిభక్తి రైల దూరె",
+            "ఎ హ్డ్దయె మాత్ర,    పరహింసామద,",
+            "ప్రతిష్ఠా, శఠతా, స్ఫురె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "астхира сиддха̄нтэ̆,    рахину маджийа̄,",
+            "харибхакти раила дӯрэ̆",
+            "э̆ хр̤дайэ̆ ма̄тра,    парахим̣са̄мада,",
+            "пратишт̣ха̄, ш́ат̣хата̄, спхурэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അസ്ഥിര സിദ്ധാന്തെ,    രഹിനു മജിയാ,",
+            "ഹരിഭക്തി രൈല ദൂരെ",
+            "എ ഹ്ഡ്ദയെ മാത്ര,    പരഹിംസാമദ,",
+            "പ്രതിഷ്ഠാ, ശഠതാ, സ്ഫുരെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அஸ்தி²ர ஸித்³தா⁴ந்தெ,    ரஹினு மஜியா,",
+            "ஹரிப⁴க்தி ரைல தூ³ரெ",
+            "எ ஹ்ஃட்²த³யெ மாத்ர,    பரஹிம்ʼஸாமத³,",
+            "ப்ரதிஷ்டா², ஶட²தா, ஸ்பு²ரெ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "asthira siddhānte,    rahinu majiyā,",
+            "haribhakti raila dūre",
+            "e hṛdaye mātra,    parahiṁsā-mada,",
+            "pratiṣṭhā, śaṭhatā, sphure 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "asthira siddhānte,    rahinu majiyā,",
+            "haribhakti raila dūre",
+            "e hṛdaye mātra,    parahiṁsā-mada,",
+            "pratiṣṭhā, śaṭhatā, sphure 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "e saba āgraha,    chāḓite nārinu,",
+        "āpana doṣete mari’",
+        "janama biphala,    ha·ila āmāra,",
+        "ekhana ki kari’ hari 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Unable to relinquish all these tendencies, I am dying from my own vices! My birth has become fruitless. Now what shall I do, O Hari?"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "e",
+              "these"
+            ],
+            [
+              "saba",
+              "all"
+            ],
+            [
+              "āgraha",
+              "(ākarṣaṇ) eagerness, zeal, inclination (attraction)"
+            ],
+            [
+              "chāḓite",
+              "to give up"
+            ],
+            [
+              "nārinu",
+              "I wasn’t able"
+            ],
+            [
+              "āpana",
+              "my own"
+            ],
+            [
+              "doṣete",
+              "by vices"
+            ],
+            [
+              "mari’",
+              "I die"
+            ],
+            [
+              "janama",
+              "birth"
+            ],
+            [
+              "biphala",
+              "fruitless"
+            ],
+            [
+              "ha·ila",
+              "became"
+            ],
+            [
+              "āmāra",
+              "my"
+            ],
+            [
+              "ekhana",
+              "now"
+            ],
+            [
+              "ki",
+              "what"
+            ],
+            [
+              "kari’",
+              "I do"
+            ],
+            [
+              "hari",
+              "O Hari"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "ऎ",
+              "these"
+            ],
+            [
+              "सब",
+              "all"
+            ],
+            [
+              "आग्रह",
+              "(ākarṣaṇ) eagerness, zeal, inclination (attraction)"
+            ],
+            [
+              "छाḓइतॆ",
+              "to give up"
+            ],
+            [
+              "नारिनु",
+              "I wasn’t able"
+            ],
+            [
+              "आपन",
+              "my own"
+            ],
+            [
+              "दॊषॆतॆ",
+              "by vices"
+            ],
+            [
+              "मरिऽ",
+              "I die"
+            ],
+            [
+              "जनम",
+              "birth"
+            ],
+            [
+              "बिफल",
+              "fruitless"
+            ],
+            [
+              "हइल",
+              "became"
+            ],
+            [
+              "आमार",
+              "my"
+            ],
+            [
+              "ऎखन",
+              "now"
+            ],
+            [
+              "कि",
+              "what"
+            ],
+            [
+              "करिऽ",
+              "I do"
+            ],
+            [
+              "हरि",
+              "O Hari"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "এ",
+              "these"
+            ],
+            [
+              "সব",
+              "all"
+            ],
+            [
+              "আগ্রহ",
+              "(ākarṣaṇ) eagerness, zeal, inclination (attraction)"
+            ],
+            [
+              "ছাḓইতে",
+              "to give up"
+            ],
+            [
+              "নারিনু",
+              "I wasn’t able"
+            ],
+            [
+              "আপন",
+              "my own"
+            ],
+            [
+              "দোষেতে",
+              "by vices"
+            ],
+            [
+              "মরিঽ",
+              "I die"
+            ],
+            [
+              "জনম",
+              "birth"
+            ],
+            [
+              "বিফল",
+              "fruitless"
+            ],
+            [
+              "হইল",
+              "became"
+            ],
+            [
+              "আমার",
+              "my"
+            ],
+            [
+              "এখন",
+              "now"
+            ],
+            [
+              "কি",
+              "what"
+            ],
+            [
+              "করিঽ",
+              "I do"
+            ],
+            [
+              "হরি",
+              "O Hari"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "એ",
+              "these"
+            ],
+            [
+              "સબ",
+              "all"
+            ],
+            [
+              "આગ્રહ",
+              "(ākarṣaṇ) eagerness, zeal, inclination (attraction)"
+            ],
+            [
+              "છાḓઇતે",
+              "to give up"
+            ],
+            [
+              "નારિનુ",
+              "I wasn’t able"
+            ],
+            [
+              "આપન",
+              "my own"
+            ],
+            [
+              "દોષેતે",
+              "by vices"
+            ],
+            [
+              "મરિઽ",
+              "I die"
+            ],
+            [
+              "જનમ",
+              "birth"
+            ],
+            [
+              "બિફલ",
+              "fruitless"
+            ],
+            [
+              "હઇલ",
+              "became"
+            ],
+            [
+              "આમાર",
+              "my"
+            ],
+            [
+              "એખન",
+              "now"
+            ],
+            [
+              "કિ",
+              "what"
+            ],
+            [
+              "કરિઽ",
+              "I do"
+            ],
+            [
+              "હરિ",
+              "O Hari"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎ सब आग्रह,    छाḓइतॆ नारिनु,",
+            "आपन दॊषॆतॆ मरिऽ",
+            "जनम बिफल,    हइल आमार,",
+            "ऎखन कि करिऽ हरि ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এ সব আগ্রহ,    ছাḓইতে নারিনু,",
+            "আপন দোষেতে মরিঽ",
+            "জনম বিফল,    হইল আমার,",
+            "এখন কি করিঽ হরি ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏ ସବ ଆଗ୍ରହ,    ଛାḓଇତେ ନାରିନୁ,",
+            "ଆପନ ଦୋଷେତେ ମରିଽ",
+            "ଜନମ ବିଫଲ,    ହଇଲ ଆମାର,",
+            "ଏଖନ କି କରିଽ ହରି ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એ સબ આગ્રહ,    છાḓઇતે નારિનુ,",
+            "આપન દોષેતે મરિઽ",
+            "જનમ બિફલ,    હઇલ આમાર,",
+            "એખન કિ કરિઽ હરિ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "e saba āgraha,    chāḓite nārinu,",
+            "āpana doṣete mari’",
+            "janama biphala,    ha·ila āmāra,",
+            "ekhana ki kari’ hari 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎ ಸಬ ಆಗ್ರಹ,    ಛಾḓಇತೆ ನಾರಿನು,",
+            "ಆಪನ ದೊಷೆತೆ ಮರಿಽ",
+            "ಜನಮ ಬಿಫಲ,    ಹಇಲ ಆಮಾರ,",
+            "ಎಖನ ಕಿ ಕರಿಽ ಹರಿ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎ సబ ఆగ్రహ,    ఛాḓఇతె నారిను,",
+            "ఆపన దొషెతె మరిఽ",
+            "జనమ బిఫల,    హఇల ఆమార,",
+            "ఎఖన కి కరిఽ హరి 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆ саба а̄граха,    чха̄ḓитэ̆ на̄рину,",
+            "а̄пана до̆шэ̆тэ̆ мари'",
+            "джанама бипхала,    хаила а̄ма̄ра,",
+            "э̆кхана ки кари' хари 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എ സബ ആഗ്രഹ,    ഛാḓഇതെ നാരിനു,",
+            "ആപന ദൊഷെതെ മരിഽ",
+            "ജനമ ബിഫല,    ഹഇല ആമാര,",
+            "എഖന കി കരിഽ ഹരി 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எ ஸப³ ஆக்³ரஹ,    சா²ḓஇதெ நாரினு,",
+            "ஆபன தொ³ஷெதெ மரி(அ)",
+            "ஜனம பி³ப²ல,    ஹஇல ஆமார,",
+            "எக²ன கி கரி(அ) ஹரி 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "e saba āgraha,    chāḍite nārinu,",
+            "āpana doṣete mari’",
+            "janama biphala,    ha·ila āmāra,",
+            "ekhana ki kari’ hari 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "e saba āgraha,    chāḓite nārinu,",
+            "āpana doṣete mari’",
+            "janama biphala,    ha·ila āmāra,",
+            "ekhana ki kari’ hari 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "āmi ta’ patita,    patita[FLAG_HYPHEN_ALPHA]pābana,",
+        "tomāra pabitra nāma",
+        "se[FLAG_HYPHEN_ALPHA]sambandha dhari’,    tomāra caraṇe,",
+        "śaraṇa la·inu hāma 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I am indeed fallen, but ‘Savior of the Fallen’ (patita-pāvana) is Your pristine name. Grasping that connection, I have taken shelter of Your lotus feet."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "āmi",
+              "I"
+            ],
+            [
+              "ta’",
+              "indeed"
+            ],
+            [
+              "patita",
+              "fallen"
+            ],
+            [
+              "patita pābana",
+              "‘Savoir of the Fallen’"
+            ],
+            [
+              "tomāra",
+              "Your"
+            ],
+            [
+              "pabitra",
+              "pristine"
+            ],
+            [
+              "nāma",
+              "name"
+            ],
+            [
+              "se",
+              "(sad-guru) that (bona fide spiritual master)"
+            ],
+            [
+              "sambandha",
+              "relationship"
+            ],
+            [
+              "dhari’",
+              "(grahaṇ kôriyā) having grasped (having accepted)"
+            ],
+            [
+              "tomāra",
+              "Your"
+            ],
+            [
+              "caraṇe",
+              "at feet"
+            ],
+            [
+              "śaraṇa",
+              "shelter"
+            ],
+            [
+              "la·inu",
+              "have taken"
+            ],
+            [
+              "hāma",
+              "I"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "आमि",
+              "I"
+            ],
+            [
+              "तऽ",
+              "indeed"
+            ],
+            [
+              "पतित",
+              "fallen"
+            ],
+            [
+              "पतित पाबन",
+              "‘Savoir of the Fallen’"
+            ],
+            [
+              "तॊमार",
+              "Your"
+            ],
+            [
+              "पबित्र",
+              "pristine"
+            ],
+            [
+              "नाम",
+              "name"
+            ],
+            [
+              "सॆ",
+              "(sad-guru) that (bona fide spiritual master)"
+            ],
+            [
+              "सम्बन्ध",
+              "relationship"
+            ],
+            [
+              "धरिऽ",
+              "(grahaṇ kôriyā) having grasped (having accepted)"
+            ],
+            [
+              "तॊमार",
+              "Your"
+            ],
+            [
+              "चरणॆ",
+              "at feet"
+            ],
+            [
+              "शरण",
+              "shelter"
+            ],
+            [
+              "लइनु",
+              "have taken"
+            ],
+            [
+              "हाम",
+              "I"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "আমি",
+              "I"
+            ],
+            [
+              "তঽ",
+              "indeed"
+            ],
+            [
+              "পতিত",
+              "fallen"
+            ],
+            [
+              "পতিত পাবন",
+              "‘Savoir of the Fallen’"
+            ],
+            [
+              "তোমার",
+              "Your"
+            ],
+            [
+              "পবিত্র",
+              "pristine"
+            ],
+            [
+              "নাম",
+              "name"
+            ],
+            [
+              "সে",
+              "(sad-guru) that (bona fide spiritual master)"
+            ],
+            [
+              "সম্বন্ধ",
+              "relationship"
+            ],
+            [
+              "ধরিঽ",
+              "(grahaṇ kôriyā) having grasped (having accepted)"
+            ],
+            [
+              "তোমার",
+              "Your"
+            ],
+            [
+              "চরণে",
+              "at feet"
+            ],
+            [
+              "শরণ",
+              "shelter"
+            ],
+            [
+              "লইনু",
+              "have taken"
+            ],
+            [
+              "হাম",
+              "I"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "આમિ",
+              "I"
+            ],
+            [
+              "તઽ",
+              "indeed"
+            ],
+            [
+              "પતિત",
+              "fallen"
+            ],
+            [
+              "પતિત પાબન",
+              "‘Savoir of the Fallen’"
+            ],
+            [
+              "તોમાર",
+              "Your"
+            ],
+            [
+              "પબિત્ર",
+              "pristine"
+            ],
+            [
+              "નામ",
+              "name"
+            ],
+            [
+              "સે",
+              "(sad-guru) that (bona fide spiritual master)"
+            ],
+            [
+              "સમ્બન્ધ",
+              "relationship"
+            ],
+            [
+              "ધરિઽ",
+              "(grahaṇ kôriyā) having grasped (having accepted)"
+            ],
+            [
+              "તોમાર",
+              "Your"
+            ],
+            [
+              "ચરણે",
+              "at feet"
+            ],
+            [
+              "શરણ",
+              "shelter"
+            ],
+            [
+              "લઇનુ",
+              "have taken"
+            ],
+            [
+              "હામ",
+              "I"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "आमि तऽ पतित,    पतितपाबन,",
+            "तॊमार पबित्र नाम",
+            "सॆसम्बन्ध धरिऽ,    तॊमार चरणॆ,",
+            "शरण लइनु हाम ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "আমি তঽ পতিত,    পতিতপাবন,",
+            "তোমার পবিত্র নাম",
+            "সেসম্বন্ধ ধরিঽ,    তোমার চরণে,",
+            "শরণ লইনু হাম ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଆମି ତଽ ପତିତ,    ପତିତପାବନ,",
+            "ତୋମାର ପବିତ୍ର ନାମ",
+            "ସେସମ୍ବନ୍ଧ ଧରିଽ,    ତୋମାର ଚରଣେ,",
+            "ଶରଣ ଲଇନୁ ହାମ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "આમિ તઽ પતિત,    પતિતપાબન,",
+            "તોમાર પબિત્ર નામ",
+            "સેસમ્બન્ધ ધરિઽ,    તોમાર ચરણે,",
+            "શરણ લઇનુ હામ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "āmi ta’ patita,    patita-pābana,",
+            "tomāra pabitra nāma",
+            "se-sambandha dhari’,    tomāra caraṇe,",
+            "śaraṇa la·inu hāma 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಆಮಿ ತಽ ಪತಿತ,    ಪತಿತಪಾಬನ,",
+            "ತೊಮಾರ ಪಬಿತ್ರ ನಾಮ",
+            "ಸೆಸಂಬಂಧ ಧರಿಽ,    ತೊಮಾರ ಚರಣೆ,",
+            "ಶರಣ ಲಇನು ಹಾಮ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఆమి తఽ పతిత,    పతితపాబన,",
+            "తొమార పబిత్ర నామ",
+            "సెసంబంధ ధరిఽ,    తొమార చరణె,",
+            "శరణ లఇను హామ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "а̄ми та' патита,    патитапа̄бана,",
+            "то̆ма̄ра пабитра на̄ма",
+            "сэ̆самбандха дхари',    то̆ма̄ра чаран̣э̆,",
+            "ш́аран̣а лаину ха̄ма 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ആമി തഽ പതിത,    പതിതപാബന,",
+            "തൊമാര പബിത്ര നാമ",
+            "സെസംബന്ധ ധരിഽ,    തൊമാര ചരണെ,",
+            "ശരണ ലഇനു ഹാമ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஆமி த(அ) பதித,    பதிதபாப³ன,",
+            "தொமார பபி³த்ர நாம",
+            "ஸெஸம்ப³ந்த⁴ த⁴ரி(அ),    தொமார சரணெ,",
+            "ஶரண லஇனு ஹாம 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "āmi ta’ patita,    patita-pābana,",
+            "tomāra pabitra nāma",
+            "se-sambandha dhari’,    tomāra caraṇe,",
+            "śaraṇa la·inu hāma 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "āmi ta’ patita,    patita-pābana,",
+            "tomāra pabitra nāma",
+            "se-sambandha dhari’,    tomāra caraṇe,",
+            "śaraṇa la·inu hāma 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "অত্যাহারঃ প্রয়াসশ্চ"
+    },
+    {
+      "language_code": "ben",
+      "text": "প্রজল্পো নিয়মাগ্রহঃ ।"
+    },
+    {
+      "language_code": "ben",
+      "text": "জনসঙ্গশ্চ লৌল্যঞ্চ"
+    },
+    {
+      "language_code": "ben",
+      "text": "ষড়্‌ভির্ভক্তির্বিনশ্যতি ॥২॥"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "srrb-1",
+      "filename": "U2-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    }
+  ]
+}

@@ -1,0 +1,1804 @@
+{
+ "uid": "U8",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হে! শ্রীরূপগোসাঞি"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari he! śrīrūpagosāĩ"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari he!",
+    "śrīrūpagosāĩ,    śrīguru[FLAG_HYPHEN_ALPHA]rūpete,",
+    "śikṣā dilā mora kāṇe",
+    "“jāna mora kathā,    nāmera kāṅgāla!",
+    "rati pā’be nāma[FLAG_HYPHEN_ALPHA]gāne 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Hari! Śrīla Rūpa Gosvāmī, in the form of śrī guru, whispered this advice into my ear: “Understand my words, O beggar of nāma, and you will attain rati (affection) for chanting the name."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hari",
+       "Hari"
+      ],
+      [
+       "he",
+       "O"
+      ],
+      [
+       "śrīrūpagosāĩ",
+       "Śrīla Rūpa Gosvāmī"
+      ],
+      [
+       "śrīguru",
+       "śrī guru"
+      ],
+      [
+       "rūpete",
+       "in the form"
+      ],
+      [
+       "śikṣā",
+       "advice, instruction"
+      ],
+      [
+       "dilā",
+       "gave"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "kāṇe",
+       "in ears"
+      ],
+      [
+       "jāna",
+       "know"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "kathā",
+       "words"
+      ],
+      [
+       "nāmera",
+       "of the holy name"
+      ],
+      [
+       "kāṅgāla",
+       "begger"
+      ],
+      [
+       "rati",
+       "affection"
+      ],
+      [
+       "pā’be",
+       "you will attain"
+      ],
+      [
+       "nāma",
+       "name"
+      ],
+      [
+       "gāne",
+       "for singing"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हरि",
+       "Hari"
+      ],
+      [
+       "हॆ",
+       "O"
+      ],
+      [
+       "श्रीरूपगॊसाइं",
+       "Śrīla Rūpa Gosvāmī"
+      ],
+      [
+       "श्रीगुरु",
+       "śrī guru"
+      ],
+      [
+       "रूपॆतॆ",
+       "in the form"
+      ],
+      [
+       "शिक्षा",
+       "advice, instruction"
+      ],
+      [
+       "दिला",
+       "gave"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "काणॆ",
+       "in ears"
+      ],
+      [
+       "जान",
+       "know"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "कथा",
+       "words"
+      ],
+      [
+       "नामॆर",
+       "of the holy name"
+      ],
+      [
+       "काङ्गाल",
+       "begger"
+      ],
+      [
+       "रति",
+       "affection"
+      ],
+      [
+       "पाऽबॆ",
+       "you will attain"
+      ],
+      [
+       "नाम",
+       "name"
+      ],
+      [
+       "गानॆ",
+       "for singing"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হরি",
+       "Hari"
+      ],
+      [
+       "হে",
+       "O"
+      ],
+      [
+       "শ্রীরূপগোসাইং",
+       "Śrīla Rūpa Gosvāmī"
+      ],
+      [
+       "শ্রীগুরু",
+       "śrī guru"
+      ],
+      [
+       "রূপেতে",
+       "in the form"
+      ],
+      [
+       "শিক্ষা",
+       "advice, instruction"
+      ],
+      [
+       "দিলা",
+       "gave"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "কাণে",
+       "in ears"
+      ],
+      [
+       "জান",
+       "know"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "কথা",
+       "words"
+      ],
+      [
+       "নামের",
+       "of the holy name"
+      ],
+      [
+       "কাঙ্গাল",
+       "begger"
+      ],
+      [
+       "রতি",
+       "affection"
+      ],
+      [
+       "পাঽবে",
+       "you will attain"
+      ],
+      [
+       "নাম",
+       "name"
+      ],
+      [
+       "গানে",
+       "for singing"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હરિ",
+       "Hari"
+      ],
+      [
+       "હે",
+       "O"
+      ],
+      [
+       "શ્રીરૂપગોસાઇં",
+       "Śrīla Rūpa Gosvāmī"
+      ],
+      [
+       "શ્રીગુરુ",
+       "śrī guru"
+      ],
+      [
+       "રૂપેતે",
+       "in the form"
+      ],
+      [
+       "શિક્ષા",
+       "advice, instruction"
+      ],
+      [
+       "દિલા",
+       "gave"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "કાણે",
+       "in ears"
+      ],
+      [
+       "જાન",
+       "know"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "કથા",
+       "words"
+      ],
+      [
+       "નામેર",
+       "of the holy name"
+      ],
+      [
+       "કાઙ્ગાલ",
+       "begger"
+      ],
+      [
+       "રતિ",
+       "affection"
+      ],
+      [
+       "પાઽબે",
+       "you will attain"
+      ],
+      [
+       "નામ",
+       "name"
+      ],
+      [
+       "ગાને",
+       "for singing"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हॆ!",
+      "श्रीरूपगॊसाइं,    श्रीगुरुरूपॆतॆ,",
+      "शिक्षा दिला मॊर काणॆ",
+      "“जान मॊर कथा,    नामॆर काङ्गाल!",
+      "रति पाऽबॆ नामगानॆ १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হে!",
+      "শ্রীরূপগোসাইং,    শ্রীগুরুরূপেতে,",
+      "শিক্ষা দিলা মোর কাণে",
+      "“জান মোর কথা,    নামের কাঙ্গাল!",
+      "রতি পাঽবে নামগানে ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହେ!",
+      "ଶ୍ରୀରୂପଗୋସାଇଂ,    ଶ୍ରୀଗୁରୁରୂପେତେ,",
+      "ଶିକ୍ଷା ଦିଲା ମୋର କାଣେ",
+      "“ଜାନ ମୋର କଥା,    ନାମେର କାଙ୍ଗାଲ!",
+      "ରତି ପାଽବେ ନାମଗାନେ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હે!",
+      "શ્રીરૂપગોસાઇં,    શ્રીગુરુરૂપેતે,",
+      "શિક્ષા દિલા મોર કાણે",
+      "“જાન મોર કથા,    નામેર કાઙ્ગાલ!",
+      "રતિ પાઽબે નામગાને ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari he!",
+      "śrīrūpagosāĩ,    śrīguru-rūpete,",
+      "śikṣā dilā mora kāṇe",
+      "“jāna mora kathā,    nāmera kāṅgāla!",
+      "rati pā’be nāma-gāne 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹೆ!",
+      "ಶ್ರೀರೂಪಗೊಸಾಇಂ,    ಶ್ರೀಗುರುರೂಪೆತೆ,",
+      "ಶಿಕ್ಷಾ ದಿಲಾ ಮೊರ ಕಾಣೆ",
+      "“ಜಾನ ಮೊರ ಕಥಾ,    ನಾಮೆರ ಕಾಂಗಾಲ!",
+      "ರತಿ ಪಾಽಬೆ ನಾಮಗಾನೆ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హె!",
+      "శ్రీరూపగొసాఇం,    శ్రీగురురూపెతె,",
+      "శిక్షా దిలా మొర కాణె",
+      "“జాన మొర కథా,    నామెర కాంగాల!",
+      "రతి పాఽబె నామగానె 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хэ̆!",
+      "ш́рӣрӯпаго̆са̄им̣,    ш́рӣгурурӯпэ̆тэ̆,",
+      "ш́икша̄ дила̄ мо̆ра ка̄н̣э̆",
+      "“джа̄на мо̆ра катха̄,    на̄мэ̆ра ка̄н̇га̄ла!",
+      "рати па̄'бэ̆ на̄мага̄нэ̆ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹെ!",
+      "ശ്രീരൂപഗൊസാഇം,    ശ്രീഗുരുരൂപെതെ,",
+      "ശിക്ഷാ ദിലാ മൊര കാണെ",
+      "“ജാന മൊര കഥാ,    നാമെര കാംഗാല!",
+      "രതി പാഽബെ നാമഗാനെ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹெ!",
+      "ஶ்ரீரூபகொ³ஸாஇம்ʼ,    ஶ்ரீகு³ருரூபெதெ,",
+      "ஶிக்ஷா தி³லா மொர காணெ",
+      "“ஜான மொர கதா²,    நாமெர காங்கா³ல!",
+      "ரதி பா(அ)பெ³ நாமகா³னெ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari he!",
+      "śrīrūpagosāĩ,    śrīguru-rūpete,",
+      "śikṣā dilā mora kāṇe",
+      "“jāna mora kathā,    nāmera kāṅgāla!",
+      "rati pā’be nāma-gāne 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari he!",
+      "śrīrūpagosāĩ,    śrīguru-rūpete,",
+      "śikṣā dilā mora kāṇe",
+      "“jāna mora kathā,    nāmera kāṅgāla!",
+      "rati pā’be nāma-gāne 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "kṛṣṇanāma[FLAG_HYPHEN_ALPHA]rūpa[FLAG_HYPHEN_ALPHA],    guṇa[FLAG_HYPHEN_ALPHA]sucarita,",
+    "parama yatane kari’",
+    "rasanā[FLAG_HYPHEN_ALPHA]mānase,    karaha niyoga,",
+    "krama[FLAG_HYPHEN_ALPHA]bidhi anusari’ 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "“Very carefully engage your tongue and mind in Śrī Kṛṣṇa’s name, form, attributes, and pastimes, in accordance with the gradual method [given in the scriptures]."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "kṛṣṇanāma",
+       " + name"
+      ],
+      [
+       "rūpa",
+       "form"
+      ],
+      [
+       "guṇa",
+       "qualities"
+      ],
+      [
+       "sucarita",
+       "beautiful pastimes"
+      ],
+      [
+       "parama",
+       "very"
+      ],
+      [
+       "yatane",
+       "carefully, earnestly"
+      ],
+      [
+       "kari’",
+       "having done"
+      ],
+      [
+       "rasanā",
+       "tongue"
+      ],
+      [
+       "mānase",
+       "by mind"
+      ],
+      [
+       "karaha niyoga",
+       "engage, apply"
+      ],
+      [
+       "krama",
+       "method, sequence"
+      ],
+      [
+       "bidhi",
+       "prescripts, rules"
+      ],
+      [
+       "anusari’",
+       "in accordance"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "क्ड़्ष्णनाम",
+       " + name"
+      ],
+      [
+       "रूप",
+       "form"
+      ],
+      [
+       "गुण",
+       "qualities"
+      ],
+      [
+       "सुचरित",
+       "beautiful pastimes"
+      ],
+      [
+       "परम",
+       "very"
+      ],
+      [
+       "यतनॆ",
+       "carefully, earnestly"
+      ],
+      [
+       "करिऽ",
+       "having done"
+      ],
+      [
+       "रसना",
+       "tongue"
+      ],
+      [
+       "मानसॆ",
+       "by mind"
+      ],
+      [
+       "करह नियॊग",
+       "engage, apply"
+      ],
+      [
+       "क्रम",
+       "method, sequence"
+      ],
+      [
+       "बिधि",
+       "prescripts, rules"
+      ],
+      [
+       "अनुसरिऽ",
+       "in accordance"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ক্ড়্ষ্ণনাম",
+       " + name"
+      ],
+      [
+       "রূপ",
+       "form"
+      ],
+      [
+       "গুণ",
+       "qualities"
+      ],
+      [
+       "সুচরিত",
+       "beautiful pastimes"
+      ],
+      [
+       "পরম",
+       "very"
+      ],
+      [
+       "যতনে",
+       "carefully, earnestly"
+      ],
+      [
+       "করিঽ",
+       "having done"
+      ],
+      [
+       "রসনা",
+       "tongue"
+      ],
+      [
+       "মানসে",
+       "by mind"
+      ],
+      [
+       "করহ নিয়োগ",
+       "engage, apply"
+      ],
+      [
+       "ক্রম",
+       "method, sequence"
+      ],
+      [
+       "বিধি",
+       "prescripts, rules"
+      ],
+      [
+       "অনুসরিঽ",
+       "in accordance"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ક્ડ઼્ષ્ણનામ",
+       " + name"
+      ],
+      [
+       "રૂપ",
+       "form"
+      ],
+      [
+       "ગુણ",
+       "qualities"
+      ],
+      [
+       "સુચરિત",
+       "beautiful pastimes"
+      ],
+      [
+       "પરમ",
+       "very"
+      ],
+      [
+       "યતને",
+       "carefully, earnestly"
+      ],
+      [
+       "કરિઽ",
+       "having done"
+      ],
+      [
+       "રસના",
+       "tongue"
+      ],
+      [
+       "માનસે",
+       "by mind"
+      ],
+      [
+       "કરહ નિયોગ",
+       "engage, apply"
+      ],
+      [
+       "ક્રમ",
+       "method, sequence"
+      ],
+      [
+       "બિધિ",
+       "prescripts, rules"
+      ],
+      [
+       "અનુસરિઽ",
+       "in accordance"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "क्ड़्ष्णनामरूप,    गुणसुचरित,",
+      "परम यतनॆ करिऽ",
+      "रसनामानसॆ,    करह नियॊग,",
+      "क्रमबिधि अनुसरिऽ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ক্ড়্ষ্ণনামরূপ,    গুণসুচরিত,",
+      "পরম যতনে করিঽ",
+      "রসনামানসে,    করহ নিয়োগ,",
+      "ক্রমবিধি অনুসরিঽ ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କ୍ଡ଼୍ଷ୍ଣନାମରୂପ,    ଗୁଣସୁଚରିତ,",
+      "ପରମ ଯତନେ କରିଽ",
+      "ରସନାମାନସେ,    କରହ ନିୟୋଗ,",
+      "କ୍ରମବିଧି ଅନୁସରିଽ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ક્ડ઼્ષ્ણનામરૂપ,    ગુણસુચરિત,",
+      "પરમ યતને કરિઽ",
+      "રસનામાનસે,    કરહ નિયોગ,",
+      "ક્રમબિધિ અનુસરિઽ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kṛṣṇanāma-rūpa-,    guṇa-sucarita,",
+      "parama yatane kari’",
+      "rasanā-mānase,    karaha niyoga,",
+      "krama-bidhi anusari’ 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕ್‌ಡ಼್ಷ್ಣನಾಮರೂಪ,    ಗುಣಸುಚರಿತ,",
+      "ಪರಮ ಯತನೆ ಕರಿಽ",
+      "ರಸನಾಮಾನಸೆ,    ಕರಹ ನಿಯೊಗ,",
+      "ಕ್ರಮಬಿಧಿ ಅನುಸರಿಽ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "క్డ్ష్ణనామరూప,    గుణసుచరిత,",
+      "పరమ యతనె కరిఽ",
+      "రసనామానసె,    కరహ నియొగ,",
+      "క్రమబిధి అనుసరిఽ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кр̤шн̣ана̄марӯпа,    гун̣асучарита,",
+      "парама йатанэ̆ кари'",
+      "расана̄ма̄насэ̆,    караха нийо̆га,",
+      "крамабидхи анусари' 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ക്ഡ്ഷ്ണനാമരൂപ,    ഗുണസുചരിത,",
+      "പരമ യതനെ കരിഽ",
+      "രസനാമാനസെ,    കരഹ നിയൊഗ,",
+      "ക്രമബിധി അനുസരിഽ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "க்ஃட்²ஷ்ணநாமரூப,    கு³ணஸுசரித,",
+      "பரம யதனெ கரி(அ)",
+      "ரஸநாமானஸெ,    கரஹ நியொக³,",
+      "க்ரமபி³தி⁴ அனுஸரி(அ) 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kṛṣṇanāma-rūpa-,    guṇa-sucarita,",
+      "parama yatane kari’",
+      "rasanā-mānase,    karaha niyoga,",
+      "krama-bidhi anusari’ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kṛṣṇanāma-rūpa-,    guṇa-sucarita,",
+      "parama yatane kari’",
+      "rasanā-mānase,    karaha niyoga,",
+      "krama-bidhi anusari’ 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "braje kari’ bāsa,    rāgānugā hayā,",
+    "smaraṇa, kīrtana kara",
+    "e nikhila kāla,    karaha yāpana,",
+    "upadeśa[FLAG_HYPHEN_ALPHA]sāra dhara 3”"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "“Residing in Vraja as a rāgānuga-bhakta, engage in smaraṇa and kīrtana of the Lord. Indeed, spend all your time in this way. Accept this as the essence of all instructions.”"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "braje",
+       "in Vraja"
+      ],
+      [
+       "kari’ bāsa",
+       "having resided"
+      ],
+      [
+       "rāgānugā",
+       "a follower of the rāgātmik Vrajavāsīs"
+      ],
+      [
+       "hayā",
+       "having become"
+      ],
+      [
+       "smaraṇa",
+       "remembrance"
+      ],
+      [
+       "kīrtana",
+       "chanting"
+      ],
+      [
+       "kara",
+       "do"
+      ],
+      [
+       "e",
+       "this"
+      ],
+      [
+       "nikhila",
+       "all"
+      ],
+      [
+       "kāla",
+       "time"
+      ],
+      [
+       "karaha yāpana",
+       "spend, pass"
+      ],
+      [
+       "upadeśa",
+       "instructions"
+      ],
+      [
+       "sāra",
+       "essence"
+      ],
+      [
+       "dhara",
+       "regard"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ब्रजॆ",
+       "in Vraja"
+      ],
+      [
+       "करिऽ बास",
+       "having resided"
+      ],
+      [
+       "रागानुगा",
+       "a follower of the rāgātmik Vrajavāsīs"
+      ],
+      [
+       "हया",
+       "having become"
+      ],
+      [
+       "स्मरण",
+       "remembrance"
+      ],
+      [
+       "कीर्तन",
+       "chanting"
+      ],
+      [
+       "कर",
+       "do"
+      ],
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "निखिल",
+       "all"
+      ],
+      [
+       "काल",
+       "time"
+      ],
+      [
+       "करह यापन",
+       "spend, pass"
+      ],
+      [
+       "उपदॆश",
+       "instructions"
+      ],
+      [
+       "सार",
+       "essence"
+      ],
+      [
+       "धर",
+       "regard"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ব্রজে",
+       "in Vraja"
+      ],
+      [
+       "করিঽ বাস",
+       "having resided"
+      ],
+      [
+       "রাগানুগা",
+       "a follower of the rāgātmik Vrajavāsīs"
+      ],
+      [
+       "হয়া",
+       "having become"
+      ],
+      [
+       "স্মরণ",
+       "remembrance"
+      ],
+      [
+       "কীর্তন",
+       "chanting"
+      ],
+      [
+       "কর",
+       "do"
+      ],
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "নিখিল",
+       "all"
+      ],
+      [
+       "কাল",
+       "time"
+      ],
+      [
+       "করহ যাপন",
+       "spend, pass"
+      ],
+      [
+       "উপদেশ",
+       "instructions"
+      ],
+      [
+       "সার",
+       "essence"
+      ],
+      [
+       "ধর",
+       "regard"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બ્રજે",
+       "in Vraja"
+      ],
+      [
+       "કરિઽ બાસ",
+       "having resided"
+      ],
+      [
+       "રાગાનુગા",
+       "a follower of the rāgātmik Vrajavāsīs"
+      ],
+      [
+       "હયા",
+       "having become"
+      ],
+      [
+       "સ્મરણ",
+       "remembrance"
+      ],
+      [
+       "કીર્તન",
+       "chanting"
+      ],
+      [
+       "કર",
+       "do"
+      ],
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "નિખિલ",
+       "all"
+      ],
+      [
+       "કાલ",
+       "time"
+      ],
+      [
+       "કરહ યાપન",
+       "spend, pass"
+      ],
+      [
+       "ઉપદેશ",
+       "instructions"
+      ],
+      [
+       "સાર",
+       "essence"
+      ],
+      [
+       "ધર",
+       "regard"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ब्रजॆ करिऽ बास,    रागानुगा हया,",
+      "स्मरण, कीर्तन कर",
+      "ऎ निखिल काल,    करह यापन,",
+      "उपदॆशसार धर ३”"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ব্রজে করিঽ বাস,    রাগানুগা হয়া,",
+      "স্মরণ, কীর্তন কর",
+      "এ নিখিল কাল,    করহ যাপন,",
+      "উপদেশসার ধর ৩”"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବ୍ରଜେ କରିଽ ବାସ,    ରାଗାନୁଗା ହୟା,",
+      "ସ୍ମରଣ, କୀର୍ତନ କର",
+      "ଏ ନିଖିଲ କାଲ,    କରହ ଯାପନ,",
+      "ଉପଦେଶସାର ଧର ୩”"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બ્રજે કરિઽ બાસ,    રાગાનુગા હયા,",
+      "સ્મરણ, કીર્તન કર",
+      "એ નિખિલ કાલ,    કરહ યાપન,",
+      "ઉપદેશસાર ધર ૩”"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "braje kari’ bāsa,    rāgānugā hayā,",
+      "smaraṇa, kīrtana kara",
+      "e nikhila kāla,    karaha yāpana,",
+      "upadeśa-sāra dhara 3”"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬ್ರಜೆ ಕರಿಽ ಬಾಸ,    ರಾಗಾನುಗಾ ಹಯಾ,",
+      "ಸ್ಮರಣ, ಕೀರ್ತನ ಕರ",
+      "ಎ ನಿಖಿಲ ಕಾಲ,    ಕರಹ ಯಾಪನ,",
+      "ಉಪದೆಶಸಾರ ಧರ ೩”"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బ్రజె కరిఽ బాస,    రాగానుగా హయా,",
+      "స్మరణ, కీర్తన కర",
+      "ఎ నిఖిల కాల,    కరహ యాపన,",
+      "ఉపదెశసార ధర 3”"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "браджэ̆ кари' ба̄са,    ра̄га̄нуга̄ хайа̄,",
+      "смаран̣а, кӣртана кара",
+      "э̆ никхила ка̄ла,    караха йа̄пана,",
+      "упадэ̆ш́аса̄ра дхара 3”"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബ്രജെ കരിഽ ബാസ,    രാഗാനുഗാ ഹയാ,",
+      "സ്മരണ, കീർതന കര",
+      "എ നിഖില കാല,    കരഹ യാപന,",
+      "ഉപദെശസാര ധര 3”"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்³ரஜெ கரி(அ) பா³ஸ,    ராகா³னுகா³ ஹயா,",
+      "ஸ்மரண, கீர்தன கர",
+      "எ நிகி²ல கால,    கரஹ யாபன,",
+      "உபதெ³ஶஸார த⁴ர 3”"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "braje kari’ bāsa,    rāgānugā hayā,",
+      "smaraṇa, kīrtana kara",
+      "e nikhila kāla,    karaha yāpana,",
+      "upadeśa-sāra dhara 3”"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "braje kari’ bāsa,    rāgānugā hayā,",
+      "smaraṇa, kīrtana kara",
+      "e nikhila kāla,    karaha yāpana,",
+      "upadeśa-sāra dhara 3”"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "hā! rūpagosāĩ,    dayā kari’ kabe,",
+    "dibe dīne brajabāsā",
+    "rāgātmika tumi,    taba padānuga,",
+    "ha·ite dāsera āśā 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Alas! O Śrīla Rūpa Gosvāmī, when will you mercifully bestow residence in Vraja upon this wretched soul? You are rāgātmikā , and the wish of this servant is to follow in your footsteps."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hā",
+       "alas"
+      ],
+      [
+       "rūpagosāĩ",
+       "O Rūpa Gosvāmī"
+      ],
+      [
+       "dayā kari’",
+       "mercifully"
+      ],
+      [
+       "kabe",
+       "when"
+      ],
+      [
+       "dibe",
+       "you will give"
+      ],
+      [
+       "dīne",
+       "to this wretch"
+      ],
+      [
+       "brajabāsā",
+       "Vraja + residence"
+      ],
+      [
+       "rāgātmika",
+       "resident of Vraja whose heart is filled with spontaneous attachment to Kṛṣṇa"
+      ],
+      [
+       "tumi",
+       "you"
+      ],
+      [
+       "taba",
+       "your"
+      ],
+      [
+       "padānuga",
+       "feet + following"
+      ],
+      [
+       "ha·ite",
+       "to be"
+      ],
+      [
+       "dāsera",
+       "servant’s"
+      ],
+      [
+       "āśā",
+       "desire, hope"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हा",
+       "alas"
+      ],
+      [
+       "रूपगॊसाइं",
+       "O Rūpa Gosvāmī"
+      ],
+      [
+       "दया करिऽ",
+       "mercifully"
+      ],
+      [
+       "कबॆ",
+       "when"
+      ],
+      [
+       "दिबॆ",
+       "you will give"
+      ],
+      [
+       "दीनॆ",
+       "to this wretch"
+      ],
+      [
+       "ब्रजबासा",
+       "Vraja + residence"
+      ],
+      [
+       "रागात्मिक",
+       "resident of Vraja whose heart is filled with spontaneous attachment to Kṛṣṇa"
+      ],
+      [
+       "तुमि",
+       "you"
+      ],
+      [
+       "तब",
+       "your"
+      ],
+      [
+       "पदानुग",
+       "feet + following"
+      ],
+      [
+       "हइतॆ",
+       "to be"
+      ],
+      [
+       "दासॆर",
+       "servant’s"
+      ],
+      [
+       "आशा",
+       "desire, hope"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হা",
+       "alas"
+      ],
+      [
+       "রূপগোসাইং",
+       "O Rūpa Gosvāmī"
+      ],
+      [
+       "দয়া করিঽ",
+       "mercifully"
+      ],
+      [
+       "কবে",
+       "when"
+      ],
+      [
+       "দিবে",
+       "you will give"
+      ],
+      [
+       "দীনে",
+       "to this wretch"
+      ],
+      [
+       "ব্রজবাসা",
+       "Vraja + residence"
+      ],
+      [
+       "রাগাত্মিক",
+       "resident of Vraja whose heart is filled with spontaneous attachment to Kṛṣṇa"
+      ],
+      [
+       "তুমি",
+       "you"
+      ],
+      [
+       "তব",
+       "your"
+      ],
+      [
+       "পদানুগ",
+       "feet + following"
+      ],
+      [
+       "হইতে",
+       "to be"
+      ],
+      [
+       "দাসের",
+       "servant’s"
+      ],
+      [
+       "আশা",
+       "desire, hope"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હા",
+       "alas"
+      ],
+      [
+       "રૂપગોસાઇં",
+       "O Rūpa Gosvāmī"
+      ],
+      [
+       "દયા કરિઽ",
+       "mercifully"
+      ],
+      [
+       "કબે",
+       "when"
+      ],
+      [
+       "દિબે",
+       "you will give"
+      ],
+      [
+       "દીને",
+       "to this wretch"
+      ],
+      [
+       "બ્રજબાસા",
+       "Vraja + residence"
+      ],
+      [
+       "રાગાત્મિક",
+       "resident of Vraja whose heart is filled with spontaneous attachment to Kṛṣṇa"
+      ],
+      [
+       "તુમિ",
+       "you"
+      ],
+      [
+       "તબ",
+       "your"
+      ],
+      [
+       "પદાનુગ",
+       "feet + following"
+      ],
+      [
+       "હઇતે",
+       "to be"
+      ],
+      [
+       "દાસેર",
+       "servant’s"
+      ],
+      [
+       "આશા",
+       "desire, hope"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हा! रूपगॊसाइं,    दया करिऽ कबॆ,",
+      "दिबॆ दीनॆ ब्रजबासा",
+      "रागात्मिक तुमि,    तब पदानुग,",
+      "हइतॆ दासॆर आशा ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হা! রূপগোসাইং,    দয়া করিঽ কবে,",
+      "দিবে দীনে ব্রজবাসা",
+      "রাগাত্মিক তুমি,    তব পদানুগ,",
+      "হইতে দাসের আশা ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହା! ରୂପଗୋସାଇଂ,    ଦୟା କରିଽ କବେ,",
+      "ଦିବେ ଦୀନେ ବ୍ରଜବାସା",
+      "ରାଗାତ୍ମିକ ତୁମି,    ତବ ପଦାନୁଗ,",
+      "ହଇତେ ଦାସେର ଆଶା ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હા! રૂપગોસાઇં,    દયા કરિઽ કબે,",
+      "દિબે દીને બ્રજબાસા",
+      "રાગાત્મિક તુમિ,    તબ પદાનુગ,",
+      "હઇતે દાસેર આશા ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hā! rūpagosāĩ,    dayā kari’ kabe,",
+      "dibe dīne brajabāsā",
+      "rāgātmika tumi,    taba padānuga,",
+      "ha·ite dāsera āśā 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹಾ! ರೂಪಗೊಸಾಇಂ,    ದಯಾ ಕರಿಽ ಕಬೆ,",
+      "ದಿಬೆ ದೀನೆ ಬ್ರಜಬಾಸಾ",
+      "ರಾಗಾತ್ಮಿಕ ತುಮಿ,    ತಬ ಪದಾನುಗ,",
+      "ಹಇತೆ ದಾಸೆರ ಆಶಾ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హా! రూపగొసాఇం,    దయా కరిఽ కబె,",
+      "దిబె దీనె బ్రజబాసా",
+      "రాగాత్మిక తుమి,    తబ పదానుగ,",
+      "హఇతె దాసెర ఆశా 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ха̄! рӯпаго̆са̄им̣,    дайа̄ кари' кабэ̆,",
+      "дибэ̆ дӣнэ̆ браджаба̄са̄",
+      "ра̄га̄тмика туми,    таба пада̄нуга,",
+      "хаитэ̆ да̄сэ̆ра а̄ш́а̄ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹാ! രൂപഗൊസാഇം,    ദയാ കരിഽ കബെ,",
+      "ദിബെ ദീനെ ബ്രജബാസാ",
+      "രാഗാത്മിക തുമി,    തബ പദാനുഗ,",
+      "ഹഇതെ ദാസെര ആശാ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹா! ரூபகொ³ஸாஇம்ʼ,    த³யா கரி(அ) கபெ³,",
+      "தி³பெ³ தீ³னெ ப்³ரஜபா³ஸா",
+      "ராகா³த்மிக துமி,    தப³ பதா³னுக³,",
+      "ஹஇதெ தா³ஸெர ஆஶா 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hā! rūpagosāĩ,    dayā kari’ kabe,",
+      "dibe dīne brajabāsā",
+      "rāgātmika tumi,    taba padānuga,",
+      "ha·ite dāsera āśā 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hā! rūpagosāĩ,    dayā kari’ kabe,",
+      "dibe dīne brajabāsā",
+      "rāgātmika tumi,    taba padānuga,",
+      "ha·ite dāsera āśā 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "x",
+    "x"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "x",
+      "x"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "x",
+      "x"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "x",
+      "x"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "x",
+      "x"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "x",
+      "x"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "x",
+      "x"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "x",
+      "x"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "x",
+      "x"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "x",
+      "x"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "x",
+      "x"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "x",
+      "x"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "x",
+      "x"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "তন্নাম-রূপ-চরিতাদি-সুকীর্ত্তনানু-"
+  },
+  {
+   "language_code": "ben",
+   "text": "স্মৃত্যোঃ ক্রমেণ রসনা-মনসী নিযোজ্য ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "তিষ্ঠন্ ব্রজে তদনুরাগি-জনানুগামী"
+  },
+  {
+   "language_code": "ben",
+   "text": "কালং নয়েদখিলমিত্যু পদেশসারম্ ॥৮॥"
+  },
+  {
+   "language_code": "ben",
+   "text": ""
+  },
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- রাগাত্মিক—‘রাগাত্মিকা ভক্তি’-যুক্ত নিত্যসিদ্ধ ব্রজ-পরিকর ।"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "srrb-1",
+   "filename": "U8-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ],
+ "tags": [
+  "Additional songs related to Śrī Guru"
+ ]
+}

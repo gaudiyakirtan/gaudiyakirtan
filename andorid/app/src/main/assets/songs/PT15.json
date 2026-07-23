@@ -1,0 +1,593 @@
+{
+  "uid": "PT15",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "জয় জয় অদ্ভুত সো পহুঁ অদ্বৈত"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "jaya jaya adbhuta so pahũ adbaita"
+    }
+  ],
+  "author_uid": "vdt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ৱৃন্দাৱন দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Vṛndāvana dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील वृन्दावन दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల వృందావన దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ವೃಂದಾವನ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல வ்ருʼந்தா³வன தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല വൃന്ദാവന ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ વૃન્દાવન દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ବୃନ୍ଦାବନ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла вр̣нда̄вана да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "jaya jaya adbhuta,    so pahũ adbaita,",
+        "suradhunī sannidhāne",
+        "ā̃khi mudi’ rahe,    prema[FLAG_HYPHEN_ALPHA]nadī bahe,",
+        "basana titila ghāme 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय अद्भुत,    सॊ पहुं अद्बैत,",
+            "सुरधुनी सन्निधानॆ",
+            "आंखि मुदिऽ रहॆ,    प्रॆमनदी बहॆ,",
+            "बसन तितिल घामॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় অদ্ভুত,    সো পহুং অদ্বৈত,",
+            "সুরধুনী সন্নিধানে",
+            "আঙ্খি মুদিঽ রহে,    প্রেমনদী বহে,",
+            "বসন তিতিল ঘামে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ଅଦ୍ଭୁତ,    ସୋ ପହୁଂ ଅଦ୍ବୈତ,",
+            "ସୁରଧୁନୀ ସନ୍ନିଧାନେ",
+            "ଆଙ୍ଖି ମୁଦିଽ ରହେ,    ପ୍ରେମନଦୀ ବହେ,",
+            "ବସନ ତିତିଲ ଘାମେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય અદ્ભુત,    સો પહું અદ્બૈત,",
+            "સુરધુની સન્નિધાને",
+            "આંખિ મુદિઽ રહે,    પ્રેમનદી બહે,",
+            "બસન તિતિલ ઘામે ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya adbhuta,    so pahũ adbaita,",
+            "suradhunī sannidhāne",
+            "ā̃khi mudi’ rahe,    prema-nadī bahe,",
+            "basana titila ghāme 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ಅದ್ಭುತ,    ಸೊ ಪಹುಂ ಅದ್ಬೈತ,",
+            "ಸುರಧುನೀ ಸನ್ನಿಧಾನೆ",
+            "ಆಂಖಿ ಮುದಿಽ ರಹೆ,    ಪ್ರೆಮನದೀ ಬಹೆ,",
+            "ಬಸನ ತಿತಿಲ ಘಾಮೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ అద్భుత,    సొ పహుం అద్బైత,",
+            "సురధునీ సన్నిధానె",
+            "ఆంఖి ముదిఽ రహె,    ప్రెమనదీ బహె,",
+            "బసన తితిల ఘామె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа адбхута,    со̆ пахум̣ адбаита,",
+            "сурадхунӣ саннидха̄нэ̆",
+            "а̄м̣кхи муди' рахэ̆,    прэ̆манадӣ бахэ̆,",
+            "басана титила гха̄мэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ അദ്ഭുത,    സൊ പഹും അദ്ബൈത,",
+            "സുരധുനീ സന്നിധാനെ",
+            "ആംഖി മുദിഽ രഹെ,    പ്രെമനദീ ബഹെ,",
+            "ബസന തിതില ഘാമെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய அத்³பு⁴த,    ஸொ பஹும்ʼ அத்³பை³த,",
+            "ஸுரது⁴னீ ஸந்நிதா⁴னெ",
+            "ஆங்கி² முதி³(அ) ரஹெ,    ப்ரெமநதீ³ ப³ஹெ,",
+            "ப³ஸன திதில கா⁴மெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya adbhuta,    so pahũ adbaita,",
+            "suradhunī sannidhāne",
+            "ā̃khi mudi’ rahe,    prema-nadī bahe,",
+            "basana titila ghāme 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya adbhuta,    so pahũ adbaita,",
+            "suradhunī sannidhāne",
+            "ā̃khi mudi’ rahe,    prema-nadī bahe,",
+            "basana titila ghāme 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "nija pahũ mane,    ghana garajane,",
+        "uṭhe joḓe joḓe lampha",
+        "ḍāke bāhu tuli’,    kā̃de phuli’ phuli’,",
+        "dehe biparīta kampa 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "निज पहुं मनॆ,    घन गरजनॆ,",
+            "उठॆ जॊḓऎ जॊḓऎ लम्फ",
+            "डाकॆ बाहु तुलिऽ,    कांदॆ फुलिऽ फुलिऽ,",
+            "दॆहॆ बिपरीत कम्प २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নিজ পহুং মনে,    ঘন গরজনে,",
+            "উঠে জোḓএ জোḓএ লম্ফ",
+            "ডাকে বাহু তুলিঽ,    কান্দে ফুলিঽ ফুলিঽ,",
+            "দেহে বিপরীত কম্প ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନିଜ ପହୁଂ ମନେ,    ଘନ ଗରଜନେ,",
+            "ଉଠେ ଜୋḓଏ ଜୋḓଏ ଲମ୍ଫ",
+            "ଡାକେ ବାହୁ ତୁଲିଽ,    କାନ୍ଦେ ଫୁଲିଽ ଫୁଲିଽ,",
+            "ଦେହେ ବିପରୀତ କମ୍ପ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નિજ પહું મને,    ઘન ગરજને,",
+            "ઉઠે જોḓએ જોḓએ લમ્ફ",
+            "ડાકે બાહુ તુલિઽ,    કાંદે ફુલિઽ ફુલિઽ,",
+            "દેહે બિપરીત કમ્પ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nija pahũ mane,    ghana garajane,",
+            "uṭhe joḓe joḓe lampha",
+            "ḍāke bāhu tuli’,    kā̃de phuli’ phuli’,",
+            "dehe biparīta kampa 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಿಜ ಪಹುಂ ಮನೆ,    ಘನ ಗರಜನೆ,",
+            "ಉಠೆ ಜೊḓಎ ಜೊḓಎ ಲಂಫ",
+            "ಡಾಕೆ ಬಾಹು ತುಲಿಽ,    ಕಾಂದೆ ಫುಲಿಽ ಫುಲಿಽ,",
+            "ದೆಹೆ ಬಿಪರೀತ ಕಂಪ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నిజ పహుం మనె,    ఘన గరజనె,",
+            "ఉఠె జొḓఎ జొḓఎ లంఫ",
+            "డాకె బాహు తులిఽ,    కాందె ఫులిఽ ఫులిఽ,",
+            "దెహె బిపరీత కంప 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ниджа пахум̣ манэ̆,    гхана гараджанэ̆,",
+            "ут̣хэ̆ джо̆ḓэ̆ джо̆ḓэ̆ лампха",
+            "д̣а̄кэ̆ ба̄ху тули',    ка̄м̣дэ̆ пхули' пхули',",
+            "дэ̆хэ̆ бипарӣта кампа 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നിജ പഹും മനെ,    ഘന ഗരജനെ,",
+            "ഉഠെ ജൊḓഎ ജൊḓഎ ലംഫ",
+            "ഡാകെ ബാഹു തുലിഽ,    കാന്ദെ ഫുലിഽ ഫുലിഽ,",
+            "ദെഹെ ബിപരീത കമ്പ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நிஜ பஹும்ʼ மனெ,    க⁴ன க³ரஜனெ,",
+            "உடெ² ஜொḓஎ ஜொḓஎ லம்ப²",
+            "டா³கெ பா³ஹு துலி(அ),    காந்தெ³ பு²லி(அ) பு²லி(அ),",
+            "தெ³ஹெ பி³பரீத கம்ப 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nija pahũ mane,    ghana garajane,",
+            "uṭhe joḍe joḍe lampha",
+            "ḍāke bāhu tuli’,    kā̃de phuli’ phuli’,",
+            "dehe biparīta kampa 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nija pahũ mane,    ghana garajane,",
+            "uṭhe joḓe joḓe lampha",
+            "ḍāke bāhu tuli’,    kā̃de phuli’ phuli’,",
+            "dehe biparīta kampa 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "adbaita[FLAG_HYPHEN_ALPHA]huṅkāre,    suradhunī[FLAG_HYPHEN_ALPHA]tīre,",
+        "āilā nāgara[FLAG_HYPHEN_ALPHA]rāja",
+        "tā̃hāra pīrite,    āilā tbarite,",
+        "udaya nadīyā[FLAG_HYPHEN_ALPHA]mājha 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अद्बैतहुङ्कारॆ,    सुरधुनीतीरॆ,",
+            "आइला नागरराज",
+            "तांहार पीरितॆ,    आइला त्बरितॆ,",
+            "उदय नदीयामाझ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অদ্বৈতহুঙ্কারে,    সুরধুনীতীরে,",
+            "আইলা নাগররাজ",
+            "তাংহার পীরিতে,    আইলা ত্বরিতে,",
+            "উদয় নদীয়ামাঝ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅଦ୍ବୈତହୁଙ୍କାରେ,    ସୁରଧୁନୀତୀରେ,",
+            "ଆଇଲା ନାଗରରାଜ",
+            "ତାଂହାର ପୀରିତେ,    ଆଇଲା ତ୍ବରିତେ,",
+            "ଉଦୟ ନଦୀୟାମାଝ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અદ્બૈતહુઙ્કારે,    સુરધુનીતીરે,",
+            "આઇલા નાગરરાજ",
+            "તાંહાર પીરિતે,    આઇલા ત્બરિતે,",
+            "ઉદય નદીયામાઝ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "adbaita-huṅkāre,    suradhunī-tīre,",
+            "āilā nāgara-rāja",
+            "tā̃hāra pīrite,    āilā tbarite,",
+            "udaya nadīyā-mājha 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅದ್ಬೈತಹುಂಕಾರೆ,    ಸುರಧುನೀತೀರೆ,",
+            "ಆಇಲಾ ನಾಗರರಾಜ",
+            "ತಾಂಹಾರ ಪೀರಿತೆ,    ಆಇಲಾ ತ್ಬರಿತೆ,",
+            "ಉದಯ ನದೀಯಾಮಾಝ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అద్బైతహుంకారె,    సురధునీతీరె,",
+            "ఆఇలా నాగరరాజ",
+            "తాంహార పీరితె,    ఆఇలా త్బరితె,",
+            "ఉదయ నదీయామాఝ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "адбаитахун̇ка̄рэ̆,    сурадхунӣтӣрэ̆,",
+            "а̄ила̄ на̄гарара̄джа",
+            "та̄м̣ха̄ра пӣритэ̆,    а̄ила̄ тбаритэ̆,",
+            "удайа надӣйа̄ма̄джха 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അദ്ബൈതഹുങ്കാരെ,    സുരധുനീതീരെ,",
+            "ആഇലാ നാഗരരാജ",
+            "താംഹാര പീരിതെ,    ആഇലാ ത്ബരിതെ,",
+            "ഉദയ നദീയാമാഝ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அத்³பை³தஹுங்காரெ,    ஸுரது⁴னீதீரெ,",
+            "ஆஇலா நாக³ரராஜ",
+            "தாம்ʼஹார பீரிதெ,    ஆஇலா த்ப³ரிதெ,",
+            "உத³ய நதீ³யாமாஜ² 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "adbaita-huṅkāre,    suradhunī-tīre,",
+            "āilā nāgara-rāja",
+            "tā̃hāra pīrite,    āilā tbarite,",
+            "udaya nadīyā-mājha 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "adbaita-huṅkāre,    suradhunī-tīre,",
+            "āilā nāgara-rāja",
+            "tā̃hāra pīrite,    āilā tbarite,",
+            "udaya nadīyā-mājha 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "jaya sītānātha,    karala bekata,",
+        "nandera nandana hari",
+        "kahe bṛndābana,    adbaita[FLAG_HYPHEN_ALPHA]caraṇa,",
+        "hiyāra mājhāre dhari 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय सीतानाथ,    करल बॆकत,",
+            "नन्दॆर नन्दन हरि",
+            "कहॆ ब्ड़्न्दाबन,    अद्बैतचरण,",
+            "हियार माझारॆ धरि ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় সীতানাথ,    করল বেকত,",
+            "নন্দের নন্দন হরি",
+            "কহে ব্ড়্ন্দাবন,    অদ্বৈতচরণ,",
+            "হিয়ার মাঝারে ধরি ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ସୀତାନାଥ,    କରଲ ବେକତ,",
+            "ନନ୍ଦେର ନନ୍ଦନ ହରି",
+            "କହେ ବ୍ଡ଼୍ନ୍ଦାବନ,    ଅଦ୍ବୈତଚରଣ,",
+            "ହିୟାର ମାଝାରେ ଧରି ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય સીતાનાથ,    કરલ બેકત,",
+            "નન્દેર નન્દન હરિ",
+            "કહે બ્ડ઼્ન્દાબન,    અદ્બૈતચરણ,",
+            "હિયાર માઝારે ધરિ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya sītānātha,    karala bekata,",
+            "nandera nandana hari",
+            "kahe bṛndābana,    adbaita-caraṇa,",
+            "hiyāra mājhāre dhari 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಸೀತಾನಾಥ,    ಕರಲ ಬೆಕತ,",
+            "ನಂದೆರ ನಂದನ ಹರಿ",
+            "ಕಹೆ ಬ್‌ಡ಼್ನ್ದಾಬನ,    ಅದ್ಬೈತಚರಣ,",
+            "ಹಿಯಾರ ಮಾಝಾರೆ ಧರಿ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ సీతానాథ,    కరల బెకత,",
+            "నందెర నందన హరి",
+            "కహె బ్డ్న్దాబన,    అద్బైతచరణ,",
+            "హియార మాఝారె ధరి 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа сӣта̄на̄тха,    карала бэ̆ката,",
+            "нандэ̆ра нандана хари",
+            "кахэ̆ бр̤нда̄бана,    адбаитачаран̣а,",
+            "хийа̄ра ма̄джха̄рэ̆ дхари 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ സീതാനാഥ,    കരല ബെകത,",
+            "നന്ദെര നന്ദന ഹരി",
+            "കഹെ ബ്ഡ്ന്ദാബന,    അദ്ബൈതചരണ,",
+            "ഹിയാര മാഝാരെ ധരി 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஸீதாநாத²,    கரல பெ³கத,",
+            "நந்தெ³ர நந்த³ன ஹரி",
+            "கஹெ ப்³ஃட்²ந்தா³ப³ன,    அத்³பை³தசரண,",
+            "ஹியார மாஜா²ரெ த⁴ரி 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya sītānātha,    karala bekata,",
+            "nandera nandana hari",
+            "kahe bṛndābana,    adbaita-caraṇa,",
+            "hiyāra mājhāre dhari 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya sītānātha,    karala bekata,",
+            "nandera nandana hari",
+            "kahe bṛndābana,    adbaita-caraṇa,",
+            "hiyāra mājhāre dhari 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "(ঘ)"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

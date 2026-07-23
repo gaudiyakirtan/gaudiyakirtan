@@ -1,0 +1,16 @@
+{
+  "uid":"A0",
+  "title":".Try Settings › List Language :)",
+  "author":"The Gaudiya Kirtan Team",
+  "language":"eng",
+  "notes":["These are notes"],
+  "audio":[],
+  "has_synonyms":true,
+  "has_translations":true,
+  "legend":{"w":"word","h":"hint","s":"synonym","o":"override"},
+  "verses":[{
+    "lines":[
+      [{"w":"Haribol","h":"!","s":{"eng":"Chant Hari!"},"o":{}}]],
+    "translation":{"eng":"All glories, to Śrī Caitanya Mahāprabhu. This is a very early release for our Lord's birthday. It needs a lot more work. Thank you for testing it out with us! Please go to settings if you want to turn on roman transliterations for the song list. Soon there will be a language selection screen the first time someone loads the app. We'll be adding more features and fixing bugs every day. Please forgive all the inconveniences that go along with beta testing. Gauraharibol!"}}
+  ]
+}

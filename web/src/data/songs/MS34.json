@@ -1,0 +1,2185 @@
+{
+  "uid": "MS34",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ভাব না ভাব না, মন, তুমি অতি দুষ্ট"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "bhāba nā bhāba nā, mana, tumi ati duṣṭa"
+    },
+    {
+      "script_code": "Deva",
+      "text": "भाब ना भाब ना, मन, तुमि अति दुष्ट"
+    },
+    {
+      "script_code": "Telu",
+      "text": "భాబ నా భాబ నా, మన, తుమి అతి దుష్ట"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಭಾಬ ನಾ ಭಾಬ ನಾ, ಮನ, ತುಮಿ ಅತಿ ದುಷ್ಟ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "பா⁴ப³ நா பா⁴ப³ நா, மன, துமி அதி து³ஷ்ட"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഭാബ നാ ഭാബ നാ, മന, തുമി അതി ദുഷ്ട"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ભાબ ના ભાબ ના, મન, તુમિ અતિ દુષ્ટ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଭାବ ନା ଭାବ ନା, ମନ, ତୁମି ଅତି ଦୁଷ୍ଟ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "бха̄ба на̄ бха̄ба на̄, мана, туми ати душт̣а"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "bhāba nā bhāba nā, mana, tumi ati duṣṭa",
+        "(biṣaya[FLAG_HYPHEN_ALPHA]biṣe ācha he)",
+        "kāma[FLAG_HYPHEN_ALPHA]krodha[FLAG_HYPHEN_ALPHA]lobha[FLAG_HYPHEN_ALPHA]moha[FLAG_HYPHEN_ALPHA]madādi[FLAG_HYPHEN_ALPHA]ābiṣṭa 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O mind, realize, just realize that you are very wicked! (You are in the poison of sense enjoyment.) You are absorbed in lust, anger, greed, illusion, intoxication, and so on."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bhāba",
+              "think, consider, reflect (imperative)"
+            ],
+            [
+              "nā",
+              "[request or insistence] please"
+            ],
+            [
+              "bhāba",
+              "think, consider, reflect (imperative)"
+            ],
+            [
+              "nā",
+              "[request or insistence] please"
+            ],
+            [
+              "mana",
+              "O mind"
+            ],
+            [
+              "tumi",
+              "you"
+            ],
+            [
+              "ati",
+              "very"
+            ],
+            [
+              "duṣṭa",
+              "wicked"
+            ],
+            [
+              "(biṣaya",
+              "sense enjoyment"
+            ],
+            [
+              "biṣe",
+              "in poison"
+            ],
+            [
+              "ācha",
+              "you are"
+            ],
+            [
+              "he)",
+              "oh"
+            ],
+            [
+              "kāma",
+              "lust"
+            ],
+            [
+              "krodha",
+              "anger"
+            ],
+            [
+              "lobha",
+              "greed"
+            ],
+            [
+              "moha",
+              "illusion"
+            ],
+            [
+              "madādi",
+              "intoxication + etc., and so on"
+            ],
+            [
+              "ābiṣṭa",
+              "thoroughly engrossed or absorbed (in), rapt in, possessed (by), overwhelmed (with)"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "भाब",
+              "think, consider, reflect (imperative)"
+            ],
+            [
+              "ना",
+              "[request or insistence] please"
+            ],
+            [
+              "भाब",
+              "think, consider, reflect (imperative)"
+            ],
+            [
+              "ना",
+              "[request or insistence] please"
+            ],
+            [
+              "मन",
+              "O mind"
+            ],
+            [
+              "तुमि",
+              "you"
+            ],
+            [
+              "अति",
+              "very"
+            ],
+            [
+              "दुष्ट",
+              "wicked"
+            ],
+            [
+              "(बिषय",
+              "sense enjoyment"
+            ],
+            [
+              "बिषॆ",
+              "in poison"
+            ],
+            [
+              "आछ",
+              "you are"
+            ],
+            [
+              "हॆ)",
+              "oh"
+            ],
+            [
+              "काम",
+              "lust"
+            ],
+            [
+              "क्रॊध",
+              "anger"
+            ],
+            [
+              "लॊभ",
+              "greed"
+            ],
+            [
+              "मॊह",
+              "illusion"
+            ],
+            [
+              "मदादि",
+              "intoxication + etc., and so on"
+            ],
+            [
+              "आबिष्ट",
+              "thoroughly engrossed or absorbed (in), rapt in, possessed (by), overwhelmed (with)"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ভাব",
+              "think, consider, reflect (imperative)"
+            ],
+            [
+              "না",
+              "[request or insistence] please"
+            ],
+            [
+              "ভাব",
+              "think, consider, reflect (imperative)"
+            ],
+            [
+              "না",
+              "[request or insistence] please"
+            ],
+            [
+              "মন",
+              "O mind"
+            ],
+            [
+              "তুমি",
+              "you"
+            ],
+            [
+              "অতি",
+              "very"
+            ],
+            [
+              "দুষ্ট",
+              "wicked"
+            ],
+            [
+              "(বিষয়",
+              "sense enjoyment"
+            ],
+            [
+              "বিষে",
+              "in poison"
+            ],
+            [
+              "আছ",
+              "you are"
+            ],
+            [
+              "হে)",
+              "oh"
+            ],
+            [
+              "কাম",
+              "lust"
+            ],
+            [
+              "ক্রোধ",
+              "anger"
+            ],
+            [
+              "লোভ",
+              "greed"
+            ],
+            [
+              "মোহ",
+              "illusion"
+            ],
+            [
+              "মদাদি",
+              "intoxication + etc., and so on"
+            ],
+            [
+              "আবিষ্ট",
+              "thoroughly engrossed or absorbed (in), rapt in, possessed (by), overwhelmed (with)"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ભાબ",
+              "think, consider, reflect (imperative)"
+            ],
+            [
+              "ના",
+              "[request or insistence] please"
+            ],
+            [
+              "ભાબ",
+              "think, consider, reflect (imperative)"
+            ],
+            [
+              "ના",
+              "[request or insistence] please"
+            ],
+            [
+              "મન",
+              "O mind"
+            ],
+            [
+              "તુમિ",
+              "you"
+            ],
+            [
+              "અતિ",
+              "very"
+            ],
+            [
+              "દુષ્ટ",
+              "wicked"
+            ],
+            [
+              "(બિષય",
+              "sense enjoyment"
+            ],
+            [
+              "બિષે",
+              "in poison"
+            ],
+            [
+              "આછ",
+              "you are"
+            ],
+            [
+              "હે)",
+              "oh"
+            ],
+            [
+              "કામ",
+              "lust"
+            ],
+            [
+              "ક્રોધ",
+              "anger"
+            ],
+            [
+              "લોભ",
+              "greed"
+            ],
+            [
+              "મોહ",
+              "illusion"
+            ],
+            [
+              "મદાદિ",
+              "intoxication + etc., and so on"
+            ],
+            [
+              "આબિષ્ટ",
+              "thoroughly engrossed or absorbed (in), rapt in, possessed (by), overwhelmed (with)"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भाब ना भाब ना, मन, तुमि अति दुष्ट",
+            "(बिषयबिषॆ आछ हॆ)",
+            "कामक्रॊधलॊभमॊहमदादिआबिष्ट १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভাব না ভাব না, মন, তুমি অতি দুষ্ট",
+            "(বিষয়বিষে আছ হে)",
+            "কামক্রোধলোভমোহমদাদিআবিষ্ট ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭାବ ନା ଭାବ ନା, ମନ, ତୁମି ଅତି ଦୁଷ୍ଟ",
+            "(ବିଷୟବିଷେ ଆଛ ହେ)",
+            "କାମକ୍ରୋଧଲୋଭମୋହମଦାଦିଆବିଷ୍ଟ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભાબ ના ભાબ ના, મન, તુમિ અતિ દુષ્ટ",
+            "(બિષયબિષે આછ હે)",
+            "કામક્રોધલોભમોહમદાદિઆબિષ્ટ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhāba nā bhāba nā, mana, tumi ati duṣṭa",
+            "(biṣaya-biṣe ācha he)",
+            "kāma-krodha-lobha-moha-madādi-ābiṣṭa 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಾಬ ನಾ ಭಾಬ ನಾ, ಮನ, ತುಮಿ ಅತಿ ದುಷ್ಟ",
+            "(ಬಿಷಯಬಿಷೆ ಆಛ ಹೆ)",
+            "ಕಾಮಕ್ರೊಧಲೊಭಮೊಹಮದಾದಿಆಬಿಷ್ಟ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భాబ నా భాబ నా, మన, తుమి అతి దుష్ట",
+            "(బిషయబిషె ఆఛ హె)",
+            "కామక్రొధలొభమొహమదాదిఆబిష్ట 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бха̄ба на̄ бха̄ба на̄, мана, туми ати душт̣а",
+            "(бишайабишэ̆ а̄чха хэ̆)",
+            "ка̄макро̆дхало̆бхамо̆хамада̄диа̄бишт̣а 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭാബ നാ ഭാബ നാ, മന, തുമി അതി ദുഷ്ട",
+            "(ബിഷയബിഷെ ആഛ ഹെ)",
+            "കാമക്രൊധലൊഭമൊഹമദാദിആബിഷ്ട 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பா⁴ப³ நா பா⁴ப³ நா, மன, துமி அதி து³ஷ்ட",
+            "(பி³ஷயபி³ஷெ ஆச² ஹெ)",
+            "காமக்ரொத⁴லொப⁴மொஹமதா³தி³ஆபி³ஷ்ட 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhāba nā bhāba nā, mana, tumi ati duṣṭa",
+            "(biṣaya-biṣe ācha he)",
+            "kāma-krodha-lobha-moha-madādi-ābiṣṭa 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhāba nā bhāba nā, mana, tumi ati duṣṭa",
+            "(biṣaya-biṣe ācha he)",
+            "kāma-krodha-lobha-moha-madādi-ābiṣṭa 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "(ripura baśe ācha he)",
+        "asadbārtā[FLAG_HYPHEN_ALPHA]bhukti[FLAG_HYPHEN_ALPHA]mukti[FLAG_HYPHEN_ALPHA]pipāsā[FLAG_HYPHEN_ALPHA]ākṛṣṭa",
+        "(asatkathā bhāla lāge he)",
+        "pratiṣṭhāśā[FLAG_HYPHEN_ALPHA]kuṭināṭi śaṭhatādi[FLAG_HYPHEN_ALPHA]piṣṭa 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "(You are under the control of these enemies.) You are drawn by your thirst for mundane talk, sense enjoyment, and liberation. (Mundane talk is very palatable to you.) You are oppressed by the desire for fame, duplicity, cheating, and so on."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "(ripura",
+              "of enemies"
+            ],
+            [
+              "baśe",
+              "under control, subdued"
+            ],
+            [
+              "ācha",
+              "you are"
+            ],
+            [
+              "he)",
+              "oh."
+            ],
+            [
+              "asadbārtā",
+              "mundane + talk"
+            ],
+            [
+              "bhukti",
+              "sense enjoy"
+            ],
+            [
+              "mukti",
+              "liberation"
+            ],
+            [
+              "pipāsā",
+              "thirst (fig.) eager desire"
+            ],
+            [
+              "ākṛṣṭa",
+              "attracted, enticed, drawn, pulled"
+            ],
+            [
+              "(asatkathā",
+              "mundane + talk"
+            ],
+            [
+              "bhāla lāge",
+              "you like (lit. lāge – strikes bhālô – good)"
+            ],
+            [
+              "he)",
+              "oh"
+            ],
+            [
+              "pratiṣṭhāśā",
+              "fame + desire"
+            ],
+            [
+              "kuṭināṭi",
+              "duplicity"
+            ],
+            [
+              "śaṭhatādi",
+              "cheating + etc."
+            ],
+            [
+              "piṣṭa",
+              "pressed, squeezed, crushed, pulverized"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "(रिपुर",
+              "of enemies"
+            ],
+            [
+              "बशॆ",
+              "under control, subdued"
+            ],
+            [
+              "आछ",
+              "you are"
+            ],
+            [
+              "हॆ)",
+              "oh."
+            ],
+            [
+              "असद्बार्ता",
+              "mundane + talk"
+            ],
+            [
+              "भुक्ति",
+              "sense enjoy"
+            ],
+            [
+              "मुक्ति",
+              "liberation"
+            ],
+            [
+              "पिपासा",
+              "thirst (fig.) eager desire"
+            ],
+            [
+              "आक्ड़्ष्ट",
+              "attracted, enticed, drawn, pulled"
+            ],
+            [
+              "(असत्कथा",
+              "mundane + talk"
+            ],
+            [
+              "भाल लागॆ",
+              "you like (lit. lāge – strikes bhālô – good)"
+            ],
+            [
+              "हॆ)",
+              "oh"
+            ],
+            [
+              "प्रतिष्ठाशा",
+              "fame + desire"
+            ],
+            [
+              "कुटिनाटि",
+              "duplicity"
+            ],
+            [
+              "शठतादि",
+              "cheating + etc."
+            ],
+            [
+              "पिष्ट",
+              "pressed, squeezed, crushed, pulverized"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "(রিপুর",
+              "of enemies"
+            ],
+            [
+              "বশে",
+              "under control, subdued"
+            ],
+            [
+              "আছ",
+              "you are"
+            ],
+            [
+              "হে)",
+              "oh."
+            ],
+            [
+              "অসদ্বার্তা",
+              "mundane + talk"
+            ],
+            [
+              "ভুক্তি",
+              "sense enjoy"
+            ],
+            [
+              "মুক্তি",
+              "liberation"
+            ],
+            [
+              "পিপাসা",
+              "thirst (fig.) eager desire"
+            ],
+            [
+              "আক্ড়্ষ্ট",
+              "attracted, enticed, drawn, pulled"
+            ],
+            [
+              "(অসৎকথা",
+              "mundane + talk"
+            ],
+            [
+              "ভাল লাগে",
+              "you like (lit. lāge – strikes bhālô – good)"
+            ],
+            [
+              "হে)",
+              "oh"
+            ],
+            [
+              "প্রতিষ্ঠাশা",
+              "fame + desire"
+            ],
+            [
+              "কুটিনাটি",
+              "duplicity"
+            ],
+            [
+              "শঠতাদি",
+              "cheating + etc."
+            ],
+            [
+              "পিষ্ট",
+              "pressed, squeezed, crushed, pulverized"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "(રિપુર",
+              "of enemies"
+            ],
+            [
+              "બશે",
+              "under control, subdued"
+            ],
+            [
+              "આછ",
+              "you are"
+            ],
+            [
+              "હે)",
+              "oh."
+            ],
+            [
+              "અસદ્બાર્તા",
+              "mundane + talk"
+            ],
+            [
+              "ભુક્તિ",
+              "sense enjoy"
+            ],
+            [
+              "મુક્તિ",
+              "liberation"
+            ],
+            [
+              "પિપાસા",
+              "thirst (fig.) eager desire"
+            ],
+            [
+              "આક્ડ઼્ષ્ટ",
+              "attracted, enticed, drawn, pulled"
+            ],
+            [
+              "(અસત્કથા",
+              "mundane + talk"
+            ],
+            [
+              "ભાલ લાગે",
+              "you like (lit. lāge – strikes bhālô – good)"
+            ],
+            [
+              "હે)",
+              "oh"
+            ],
+            [
+              "પ્રતિષ્ઠાશા",
+              "fame + desire"
+            ],
+            [
+              "કુટિનાટિ",
+              "duplicity"
+            ],
+            [
+              "શઠતાદિ",
+              "cheating + etc."
+            ],
+            [
+              "પિષ્ટ",
+              "pressed, squeezed, crushed, pulverized"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "(रिपुर बशॆ आछ हॆ)",
+            "असद्बार्ताभुक्तिमुक्तिपिपासाआक्ड़्ष्ट",
+            "(असत्कथा भाल लागॆ हॆ)",
+            "प्रतिष्ठाशाकुटिनाटि शठतादिपिष्ट २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "(রিপুর বশে আছ হে)",
+            "অসদ্বার্তাভুক্তিমুক্তিপিপাসাআক্ড়্ষ্ট",
+            "(অসৎকথা ভাল লাগে হে)",
+            "প্রতিষ্ঠাশাকুটিনাটি শঠতাদিপিষ্ট ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "(ରିପୁର ବଶେ ଆଛ ହେ)",
+            "ଅସଦ୍ବାର୍ତାଭୁକ୍ତିମୁକ୍ତିପିପାସାଆକ୍ଡ଼୍ଷ୍ଟ",
+            "(ଅସତ୍କଥା ଭାଲ ଲାଗେ ହେ)",
+            "ପ୍ରତିଷ୍ଠାଶାକୁଟିନାଟି ଶଠତାଦିପିଷ୍ଟ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "(રિપુર બશે આછ હે)",
+            "અસદ્બાર્તાભુક્તિમુક્તિપિપાસાઆક્ડ઼્ષ્ટ",
+            "(અસત્કથા ભાલ લાગે હે)",
+            "પ્રતિષ્ઠાશાકુટિનાટિ શઠતાદિપિષ્ટ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "(ripura baśe ācha he)",
+            "asadbārtā-bhukti-mukti-pipāsā-ākṛṣṭa",
+            "(asatkathā bhāla lāge he)",
+            "pratiṣṭhāśā-kuṭināṭi śaṭhatādi-piṣṭa 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "(ರಿಪುರ ಬಶೆ ಆಛ ಹೆ)",
+            "ಅಸದ್ಬಾರ್ತಾಭುಕ್ತಿಮುಕ್ತಿಪಿಪಾಸಾಆಕ್‌ಡ಼್ಷ್ಟ",
+            "(ಅಸತ್ಕಥಾ ಭಾಲ ಲಾಗೆ ಹೆ)",
+            "ಪ್ರತಿಷ್ಠಾಶಾಕುಟಿನಾಟಿ ಶಠತಾದಿಪಿಷ್ಟ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "(రిపుర బశె ఆఛ హె)",
+            "అసద్బార్తాభుక్తిముక్తిపిపాసాఆక్డ్ష్ట",
+            "(అసత్కథా భాల లాగె హె)",
+            "ప్రతిష్ఠాశాకుటినాటి శఠతాదిపిష్ట 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "(рипура баш́э̆ а̄чха хэ̆)",
+            "асадба̄рта̄бхуктимуктипипа̄са̄а̄кр̤шт̣а",
+            "(асаткатха̄ бха̄ла ла̄гэ̆ хэ̆)",
+            "пратишт̣ха̄ш́а̄кут̣ина̄т̣и ш́ат̣хата̄дипишт̣а 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "(രിപുര ബശെ ആഛ ഹെ)",
+            "അസദ്ബാർതാഭുക്തിമുക്തിപിപാസാആക്ഡ്ഷ്ട",
+            "(അസത്കഥാ ഭാല ലാഗെ ഹെ)",
+            "പ്രതിഷ്ഠാശാകുടിനാടി ശഠതാദിപിഷ്ട 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "(ரிபுர ப³ஶெ ஆச² ஹெ)",
+            "அஸத்³பா³ர்தாபு⁴க்திமுக்திபிபாஸாஆக்ஃட்²ஷ்ட",
+            "(அஸத்கதா² பா⁴ல லாகெ³ ஹெ)",
+            "ப்ரதிஷ்டா²ஶாகுடினாடி ஶட²தாதி³பிஷ்ட 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "(ripura baśe ācha he)",
+            "asadbārtā-bhukti-mukti-pipāsā-ākṛṣṭa",
+            "(asatkathā bhāla lāge he)",
+            "pratiṣṭhāśā-kuṭināṭi śaṭhatādi-piṣṭa 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "(ripura baśe ācha he)",
+            "asadbārtā-bhukti-mukti-pipāsā-ākṛṣṭa",
+            "(asatkathā bhāla lāge he)",
+            "pratiṣṭhāśā-kuṭināṭi śaṭhatādi-piṣṭa 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "(sarala ta’ ha’le nā he)",
+        "ghireche tomāre, bhāi, e saba ariṣṭa",
+        "(e saba ta’ śatru he)",
+        "e saba nā cheḓe’ kise pā’be rādhākṛṣṇa 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "(You have not become honest.) O my brother, all these calamities have surrounded you. (They are all enemies.) Without giving them up, how will you attain Śrī Śrī Rādhā-Kṛṣṇa?"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "(sarala",
+              "honest, candid, simple"
+            ],
+            [
+              "ta’",
+              "indeed"
+            ],
+            [
+              "ha’le",
+              "become"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "he)",
+              "oh."
+            ],
+            [
+              "ghireche",
+              "surrounding"
+            ],
+            [
+              "tomāre",
+              "to you"
+            ],
+            [
+              "bhāi",
+              "O brother"
+            ],
+            [
+              "e",
+              "these"
+            ],
+            [
+              "saba",
+              "all"
+            ],
+            [
+              "ariṣṭa",
+              "calamities, inauspicious obstacles, misfortune"
+            ],
+            [
+              "(e",
+              "these"
+            ],
+            [
+              "saba",
+              "all"
+            ],
+            [
+              "ta’",
+              "indeed"
+            ],
+            [
+              "śatru",
+              "enemies"
+            ],
+            [
+              "he)",
+              "oh"
+            ],
+            [
+              "e",
+              "these"
+            ],
+            [
+              "saba",
+              "all"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "cheḓe’",
+              "having given up"
+            ],
+            [
+              "kise",
+              "how"
+            ],
+            [
+              "pā’be",
+              "will you attain"
+            ],
+            [
+              "rādhākṛṣṇa",
+              "Rādhā and Kṛṣṇa"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "(सरल",
+              "honest, candid, simple"
+            ],
+            [
+              "तऽ",
+              "indeed"
+            ],
+            [
+              "हऽलॆ",
+              "become"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "हॆ)",
+              "oh."
+            ],
+            [
+              "घिरॆछॆ",
+              "surrounding"
+            ],
+            [
+              "तॊमारॆ",
+              "to you"
+            ],
+            [
+              "भाइ",
+              "O brother"
+            ],
+            [
+              "ऎ",
+              "these"
+            ],
+            [
+              "सब",
+              "all"
+            ],
+            [
+              "अरिष्ट",
+              "calamities, inauspicious obstacles, misfortune"
+            ],
+            [
+              "(ऎ",
+              "these"
+            ],
+            [
+              "सब",
+              "all"
+            ],
+            [
+              "तऽ",
+              "indeed"
+            ],
+            [
+              "शत्रु",
+              "enemies"
+            ],
+            [
+              "हॆ)",
+              "oh"
+            ],
+            [
+              "ऎ",
+              "these"
+            ],
+            [
+              "सब",
+              "all"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "छॆḓऎऽ",
+              "having given up"
+            ],
+            [
+              "किसॆ",
+              "how"
+            ],
+            [
+              "पाऽबॆ",
+              "will you attain"
+            ],
+            [
+              "राधाक्ड़्ष्ण",
+              "Rādhā and Kṛṣṇa"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "(সরল",
+              "honest, candid, simple"
+            ],
+            [
+              "তঽ",
+              "indeed"
+            ],
+            [
+              "হঽলে",
+              "become"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "হে)",
+              "oh."
+            ],
+            [
+              "ঘিরেছে",
+              "surrounding"
+            ],
+            [
+              "তোমারে",
+              "to you"
+            ],
+            [
+              "ভাই",
+              "O brother"
+            ],
+            [
+              "এ",
+              "these"
+            ],
+            [
+              "সব",
+              "all"
+            ],
+            [
+              "অরিষ্ট",
+              "calamities, inauspicious obstacles, misfortune"
+            ],
+            [
+              "(এ",
+              "these"
+            ],
+            [
+              "সব",
+              "all"
+            ],
+            [
+              "তঽ",
+              "indeed"
+            ],
+            [
+              "শত্রু",
+              "enemies"
+            ],
+            [
+              "হে)",
+              "oh"
+            ],
+            [
+              "এ",
+              "these"
+            ],
+            [
+              "সব",
+              "all"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "ছেḓএঽ",
+              "having given up"
+            ],
+            [
+              "কিসে",
+              "how"
+            ],
+            [
+              "পাঽবে",
+              "will you attain"
+            ],
+            [
+              "রাধাক্ড়্ষ্ণ",
+              "Rādhā and Kṛṣṇa"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "(સરલ",
+              "honest, candid, simple"
+            ],
+            [
+              "તઽ",
+              "indeed"
+            ],
+            [
+              "હઽલે",
+              "become"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "હે)",
+              "oh."
+            ],
+            [
+              "ઘિરેછે",
+              "surrounding"
+            ],
+            [
+              "તોમારે",
+              "to you"
+            ],
+            [
+              "ભાઇ",
+              "O brother"
+            ],
+            [
+              "એ",
+              "these"
+            ],
+            [
+              "સબ",
+              "all"
+            ],
+            [
+              "અરિષ્ટ",
+              "calamities, inauspicious obstacles, misfortune"
+            ],
+            [
+              "(એ",
+              "these"
+            ],
+            [
+              "સબ",
+              "all"
+            ],
+            [
+              "તઽ",
+              "indeed"
+            ],
+            [
+              "શત્રુ",
+              "enemies"
+            ],
+            [
+              "હે)",
+              "oh"
+            ],
+            [
+              "એ",
+              "these"
+            ],
+            [
+              "સબ",
+              "all"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "છેḓએઽ",
+              "having given up"
+            ],
+            [
+              "કિસે",
+              "how"
+            ],
+            [
+              "પાઽબે",
+              "will you attain"
+            ],
+            [
+              "રાધાક્ડ઼્ષ્ણ",
+              "Rādhā and Kṛṣṇa"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "(सरल तऽ हऽलॆ ना हॆ)",
+            "घिरॆछॆ तॊमारॆ, भाइ, ऎ सब अरिष्ट",
+            "(ऎ सब तऽ शत्रु हॆ)",
+            "ऎ सब ना छॆḓऎऽ किसॆ पाऽबॆ राधाक्ड़्ष्ण ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "(সরল তঽ হঽলে না হে)",
+            "ঘিরেছে তোমারে, ভাই, এ সব অরিষ্ট",
+            "(এ সব তঽ শত্রু হে)",
+            "এ সব না ছেḓএঽ কিসে পাঽবে রাধাক্ড়্ষ্ণ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "(ସରଲ ତଽ ହଽଲେ ନା ହେ)",
+            "ଘିରେଛେ ତୋମାରେ, ଭାଇ, ଏ ସବ ଅରିଷ୍ଟ",
+            "(ଏ ସବ ତଽ ଶତ୍ରୁ ହେ)",
+            "ଏ ସବ ନା ଛେḓଏଽ କିସେ ପାଽବେ ରାଧାକ୍ଡ଼୍ଷ୍ଣ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "(સરલ તઽ હઽલે ના હે)",
+            "ઘિરેછે તોમારે, ભાઇ, એ સબ અરિષ્ટ",
+            "(એ સબ તઽ શત્રુ હે)",
+            "એ સબ ના છેḓએઽ કિસે પાઽબે રાધાક્ડ઼્ષ્ણ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "(sarala ta’ ha’le nā he)",
+            "ghireche tomāre, bhāi, e saba ariṣṭa",
+            "(e saba ta’ śatru he)",
+            "e saba nā cheḓe’ kise pā’be rādhākṛṣṇa 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "(ಸರಲ ತಽ ಹಽಲೆ ನಾ ಹೆ)",
+            "ಘಿರೆಛೆ ತೊಮಾರೆ, ಭಾಇ, ಎ ಸಬ ಅರಿಷ್ಟ",
+            "(ಎ ಸಬ ತಽ ಶತ್ರು ಹೆ)",
+            "ಎ ಸಬ ನಾ ಛೆḓಎಽ ಕಿಸೆ ಪಾಽಬೆ ರಾಧಾಕ್‌ಡ಼್ಷ್ಣ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "(సరల తఽ హఽలె నా హె)",
+            "ఘిరెఛె తొమారె, భాఇ, ఎ సబ అరిష్ట",
+            "(ఎ సబ తఽ శత్రు హె)",
+            "ఎ సబ నా ఛెḓఎఽ కిసె పాఽబె రాధాక్డ్ష్ణ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "(сарала та' ха'лэ̆ на̄ хэ̆)",
+            "гхирэ̆чхэ̆ то̆ма̄рэ̆, бха̄и, э̆ саба аришт̣а",
+            "(э̆ саба та' ш́атру хэ̆)",
+            "э̆ саба на̄ чхэ̆ḓэ̆' кисэ̆ па̄'бэ̆ ра̄дха̄кр̤шн̣а 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "(സരല തഽ ഹഽലെ നാ ഹെ)",
+            "ഘിരെഛെ തൊമാരെ, ഭാഇ, എ സബ അരിഷ്ട",
+            "(എ സബ തഽ ശത്രു ഹെ)",
+            "എ സബ നാ ഛെḓഎഽ കിസെ പാഽബെ രാധാക്ഡ്ഷ്ണ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "(ஸரல த(அ) ஹ(அ)லெ நா ஹெ)",
+            "கி⁴ரெசெ² தொமாரெ, பா⁴இ, எ ஸப³ அரிஷ்ட",
+            "(எ ஸப³ த(அ) ஶத்ரு ஹெ)",
+            "எ ஸப³ நா செ²ḓஎ(அ) கிஸெ பா(அ)பெ³ ராதா⁴க்ஃட்²ஷ்ண 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "(sarala ta’ ha’le nā he)",
+            "ghireche tomāre, bhāi, e saba ariṣṭa",
+            "(e saba ta’ śatru he)",
+            "e saba nā cheḍe’ kise pā’be rādhākṛṣṇa 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "(sarala ta’ ha’le nā he)",
+            "ghireche tomāre, bhāi, e saba ariṣṭa",
+            "(e saba ta’ śatru he)",
+            "e saba nā cheḓe’ kise pā’be rādhākṛṣṇa 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "(yatane chāḓa, chāḓa he)",
+        "sādhusaṅga binā āra kothā taba iṣṭa ?",
+        "(sādhusaṅga kara he)",
+        "baiṣṇaba[FLAG_HYPHEN_ALPHA]caraṇe maja, ghucibe aniṣṭa 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "(Try to give them up. Just leave them!) By not associating with sādhus, what do you expect to achieve? (Associate with the sādhus!) Absorb yourself in the lotus feet of the Vaiṣṇavas, for by doing so, your evils will be removed."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "(yatane",
+              "with great endeavor, effort"
+            ],
+            [
+              "chāḓa",
+              "give up"
+            ],
+            [
+              "chāḓa",
+              "give up"
+            ],
+            [
+              "he)",
+              "oh."
+            ],
+            [
+              "sādhusaṅga",
+              "saints + association"
+            ],
+            [
+              "binā",
+              "without"
+            ],
+            [
+              "āra",
+              "else"
+            ],
+            [
+              "kothā",
+              "where"
+            ],
+            [
+              "taba",
+              "your"
+            ],
+            [
+              "iṣṭa",
+              "welfare, benefit, desired object"
+            ],
+            [
+              "(sādhusaṅga",
+              "saints + associate"
+            ],
+            [
+              "kara",
+              "do"
+            ],
+            [
+              "he)",
+              "oh"
+            ],
+            [
+              "baiṣṇaba",
+              "Vaiṣṇavas"
+            ],
+            [
+              "caraṇe",
+              "at feet"
+            ],
+            [
+              "maja",
+              "absorb, lose yourself (in)"
+            ],
+            [
+              "ghucibe",
+              "will be removed"
+            ],
+            [
+              "aniṣṭa",
+              "harm, evils, undesirable"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "(यतनॆ",
+              "with great endeavor, effort"
+            ],
+            [
+              "छाḓअ",
+              "give up"
+            ],
+            [
+              "छाḓअ",
+              "give up"
+            ],
+            [
+              "हॆ)",
+              "oh."
+            ],
+            [
+              "साधुसङ्ग",
+              "saints + association"
+            ],
+            [
+              "बिना",
+              "without"
+            ],
+            [
+              "आर",
+              "else"
+            ],
+            [
+              "कॊथा",
+              "where"
+            ],
+            [
+              "तब",
+              "your"
+            ],
+            [
+              "इष्ट",
+              "welfare, benefit, desired object"
+            ],
+            [
+              "(साधुसङ्ग",
+              "saints + associate"
+            ],
+            [
+              "कर",
+              "do"
+            ],
+            [
+              "हॆ)",
+              "oh"
+            ],
+            [
+              "बैष्णब",
+              "Vaiṣṇavas"
+            ],
+            [
+              "चरणॆ",
+              "at feet"
+            ],
+            [
+              "मज",
+              "absorb, lose yourself (in)"
+            ],
+            [
+              "घुचिबॆ",
+              "will be removed"
+            ],
+            [
+              "अनिष्ट",
+              "harm, evils, undesirable"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "(যতনে",
+              "with great endeavor, effort"
+            ],
+            [
+              "ছাḓঅ",
+              "give up"
+            ],
+            [
+              "ছাḓঅ",
+              "give up"
+            ],
+            [
+              "হে)",
+              "oh."
+            ],
+            [
+              "সাধুসঙ্গ",
+              "saints + association"
+            ],
+            [
+              "বিনা",
+              "without"
+            ],
+            [
+              "আর",
+              "else"
+            ],
+            [
+              "কোথা",
+              "where"
+            ],
+            [
+              "তব",
+              "your"
+            ],
+            [
+              "ইষ্ট",
+              "welfare, benefit, desired object"
+            ],
+            [
+              "(সাধুসঙ্গ",
+              "saints + associate"
+            ],
+            [
+              "কর",
+              "do"
+            ],
+            [
+              "হে)",
+              "oh"
+            ],
+            [
+              "বৈষ্ণব",
+              "Vaiṣṇavas"
+            ],
+            [
+              "চরণে",
+              "at feet"
+            ],
+            [
+              "মজ",
+              "absorb, lose yourself (in)"
+            ],
+            [
+              "ঘুচিবে",
+              "will be removed"
+            ],
+            [
+              "অনিষ্ট",
+              "harm, evils, undesirable"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "(યતને",
+              "with great endeavor, effort"
+            ],
+            [
+              "છાḓઅ",
+              "give up"
+            ],
+            [
+              "છાḓઅ",
+              "give up"
+            ],
+            [
+              "હે)",
+              "oh."
+            ],
+            [
+              "સાધુસઙ્ગ",
+              "saints + association"
+            ],
+            [
+              "બિના",
+              "without"
+            ],
+            [
+              "આર",
+              "else"
+            ],
+            [
+              "કોથા",
+              "where"
+            ],
+            [
+              "તબ",
+              "your"
+            ],
+            [
+              "ઇષ્ટ",
+              "welfare, benefit, desired object"
+            ],
+            [
+              "(સાધુસઙ્ગ",
+              "saints + associate"
+            ],
+            [
+              "કર",
+              "do"
+            ],
+            [
+              "હે)",
+              "oh"
+            ],
+            [
+              "બૈષ્ણબ",
+              "Vaiṣṇavas"
+            ],
+            [
+              "ચરણે",
+              "at feet"
+            ],
+            [
+              "મજ",
+              "absorb, lose yourself (in)"
+            ],
+            [
+              "ઘુચિબે",
+              "will be removed"
+            ],
+            [
+              "અનિષ્ટ",
+              "harm, evils, undesirable"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "(यतनॆ छाḓअ, छाḓअ हॆ)",
+            "साधुसङ्ग बिना आर कॊथा तब इष्ट ?",
+            "(साधुसङ्ग कर हॆ)",
+            "बैष्णबचरणॆ मज, घुचिबॆ अनिष्ट ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "(যতনে ছাḓঅ, ছাḓঅ হে)",
+            "সাধুসঙ্গ বিনা আর কোথা তব ইষ্ট ?",
+            "(সাধুসঙ্গ কর হে)",
+            "বৈষ্ণবচরণে মজ, ঘুচিবে অনিষ্ট ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "(ଯତନେ ଛାḓଅ, ଛାḓଅ ହେ)",
+            "ସାଧୁସଙ୍ଗ ବିନା ଆର କୋଥା ତବ ଇଷ୍ଟ ?",
+            "(ସାଧୁସଙ୍ଗ କର ହେ)",
+            "ବୈଷ୍ଣବଚରଣେ ମଜ, ଘୁଚିବେ ଅନିଷ୍ଟ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "(યતને છાḓઅ, છાḓઅ હે)",
+            "સાધુસઙ્ગ બિના આર કોથા તબ ઇષ્ટ ?",
+            "(સાધુસઙ્ગ કર હે)",
+            "બૈષ્ણબચરણે મજ, ઘુચિબે અનિષ્ટ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "(yatane chāḓa, chāḓa he)",
+            "sādhusaṅga binā āra kothā taba iṣṭa ?",
+            "(sādhusaṅga kara he)",
+            "baiṣṇaba-caraṇe maja, ghucibe aniṣṭa 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "(ಯತನೆ ಛಾḓಅ, ಛಾḓಅ ಹೆ)",
+            "ಸಾಧುಸಂಗ ಬಿನಾ ಆರ ಕೊಥಾ ತಬ ಇಷ್ಟ ?",
+            "(ಸಾಧುಸಂಗ ಕರ ಹೆ)",
+            "ಬೈಷ್ಣಬಚರಣೆ ಮಜ, ಘುಚಿಬೆ ಅನಿಷ್ಟ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "(యతనె ఛాḓఅ, ఛాḓఅ హె)",
+            "సాధుసంగ బినా ఆర కొథా తబ ఇష్ట ?",
+            "(సాధుసంగ కర హె)",
+            "బైష్ణబచరణె మజ, ఘుచిబె అనిష్ట 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "(йатанэ̆ чха̄ḓа, чха̄ḓа хэ̆)",
+            "са̄дхусан̇га бина̄ а̄ра ко̆тха̄ таба ишт̣а ?",
+            "(са̄дхусан̇га кара хэ̆)",
+            "баишн̣абачаран̣э̆ маджа, гхучибэ̆ аништ̣а 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "(യതനെ ഛാḓഅ, ഛാḓഅ ഹെ)",
+            "സാധുസംഗ ബിനാ ആര കൊഥാ തബ ഇഷ്ട ?",
+            "(സാധുസംഗ കര ഹെ)",
+            "ബൈഷ്ണബചരണെ മജ, ഘുചിബെ അനിഷ്ട 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "(யதனெ சா²ḓஅ, சா²ḓஅ ஹெ)",
+            "ஸாது⁴ஸங்க³ பி³னா ஆர கொதா² தப³ இஷ்ட ?",
+            "(ஸாது⁴ஸங்க³ கர ஹெ)",
+            "பை³ஷ்ணப³சரணெ மஜ, கு⁴சிபெ³ அநிஷ்ட 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "(yatane chāḍa, chāḍa he)",
+            "sādhusaṅga binā āra kothā taba iṣṭa ?",
+            "(sādhusaṅga kara he)",
+            "baiṣṇaba-caraṇe maja, ghucibe aniṣṭa 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "(yatane chāḓa, chāḓa he)",
+            "sādhusaṅga binā āra kothā taba iṣṭa ?",
+            "(sādhusaṅga kara he)",
+            "baiṣṇaba-caraṇe maja, ghucibe aniṣṭa 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "(ekabāra bhebe dekha he)",
+        "(śrīla bhaktibinoda ṭhākura)",
+        "śrīnāma[FLAG_HYPHEN_ALPHA]mahimā"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "(Think about this, just once.)"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "(ekabāra",
+              "one + time"
+            ],
+            [
+              "bhebe",
+              "having thought"
+            ],
+            [
+              "dekha",
+              "see"
+            ],
+            [
+              "he)",
+              "oh"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "(ऎकबार",
+              "one + time"
+            ],
+            [
+              "भॆबॆ",
+              "having thought"
+            ],
+            [
+              "दॆख",
+              "see"
+            ],
+            [
+              "हॆ)",
+              "oh"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "(একবার",
+              "one + time"
+            ],
+            [
+              "ভেবে",
+              "having thought"
+            ],
+            [
+              "দেখ",
+              "see"
+            ],
+            [
+              "হে)",
+              "oh"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "(એકબાર",
+              "one + time"
+            ],
+            [
+              "ભેબે",
+              "having thought"
+            ],
+            [
+              "દેખ",
+              "see"
+            ],
+            [
+              "હે)",
+              "oh"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "(ऎकबार भॆबॆ दॆख हॆ)",
+            "(श्रील भक्तिबिनॊद ठाकुर)",
+            "श्रीनाममहिमा"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "(একবার ভেবে দেখ হে)",
+            "(শ্রীল ভক্তিবিনোদ ঠাকুর)",
+            "শ্রীনামমহিমা"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "(ଏକବାର ଭେବେ ଦେଖ ହେ)",
+            "(ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର)",
+            "ଶ୍ରୀନାମମହିମା"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "(એકબાર ભેબે દેખ હે)",
+            "(શ્રીલ ભક્તિબિનોદ ઠાકુર)",
+            "શ્રીનામમહિમા"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "(ekabāra bhebe dekha he)",
+            "(śrīla bhaktibinoda ṭhākura)",
+            "śrīnāma-mahimā"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "(ಎಕಬಾರ ಭೆಬೆ ದೆಖ ಹೆ)",
+            "(ಶ್ರೀಲ ಭಕ್ತಿಬಿನೊದ ಠಾಕುರ)",
+            "ಶ್ರೀನಾಮಮಹಿಮಾ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "(ఎకబార భెబె దెఖ హె)",
+            "(శ్రీల భక్తిబినొద ఠాకుర)",
+            "శ్రీనామమహిమా"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "(э̆каба̄ра бхэ̆бэ̆ дэ̆кха хэ̆)",
+            "(ш́рӣла бхактибино̆да т̣ха̄кура)",
+            "ш́рӣна̄мамахима̄"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "(എകബാര ഭെബെ ദെഖ ഹെ)",
+            "(ശ്രീല ഭക്തിബിനൊദ ഠാകുര)",
+            "ശ്രീനാമമഹിമാ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "(எகபா³ர பெ⁴பெ³ தெ³க² ஹெ)",
+            "(ஶ்ரீல ப⁴க்திபி³னொத³ டா²குர)",
+            "ஶ்ரீநாமமஹிமா"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "(ekabāra bhebe dekha he)",
+            "(śrīla bhaktibinoda ṭhākura)",
+            "śrīnāma-mahimā"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "(ekabāra bhebe dekha he)",
+            "(śrīla bhaktibinoda ṭhākura)",
+            "śrīnāma-mahimā"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "srrb-1",
+      "filename": "MS34-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    }
+  ]
+}

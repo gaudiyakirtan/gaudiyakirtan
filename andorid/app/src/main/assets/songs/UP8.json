@@ -1,0 +1,747 @@
+{
+  "uid": "UP8",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ওরে মন, ভুক্তি-মুক্তি-স্পৃহা কর’ দূর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "ore mana, bhukti-mukti-spṛhā kara’ dūra"
+    },
+    {
+      "script_code": "Deva",
+      "text": "ओरे मन, भुक्ति-मुक्ति-स्पृहा कर’ दूर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "ఓరే మన, భుక్తి-ముక్తి-స్పృహా కర’ దూర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಓರೇ ಮನ, ಭುಕ್ತಿ-ಮುಕ್ತಿ-ಸ್ಪೃಹಾ ಕರ’ ದೂರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஓரே மன, பு⁴க்தி-முக்தி-ஸ்ப்ருʼஹா கர’ தூ³ர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഓരേ മന, ഭുക്തി-മുക്തി-സ്പൃഹാ കര’ ദൂര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ઓરે મન, ભુક્તિ-મુક્તિ-સ્પૃહા કર’ દૂર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଓରେ ମନ, ଭୁକ୍ତି-ମୁକ୍ତି-ସ୍ପୃହା କର’ ଦୂର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "орэ мана, бхукти-мукти-спр̣ха̄ кара’ дӯра"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "ore mana, bhukti[FLAG_HYPHEN_ALPHA]mukti[FLAG_HYPHEN_ALPHA]spṛhā kara’ dūra",
+        "bhogera nāhika śeṣa,    tāhe nāhi sukhaleśa,",
+        "nirānanda tāhāte pracura 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऒरॆ मन, भुक्तिमुक्तिस्प्ढ़ा करऽ दूर",
+            "भॊगॆर नाहिक शॆष,    ताहॆ नाहि सुखलॆश,",
+            "निरानन्द ताहातॆ प्रचुर १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ওরে মন, ভুক্তিমুক্তিস্প্ঢ়া করঽ দূর",
+            "ভোগের নাহিক শেষ,    তাহে নাহি সুখলেশ,",
+            "নিরানন্দ তাহাতে প্রচুর ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଓରେ ମନ, ଭୁକ୍ତିମୁକ୍ତିସ୍ପ୍ଢ଼ା କରଽ ଦୂର",
+            "ଭୋଗେର ନାହିକ ଶେଷ,    ତାହେ ନାହି ସୁଖଲେଶ,",
+            "ନିରାନନ୍ଦ ତାହାତେ ପ୍ରଚୁର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઓરે મન, ભુક્તિમુક્તિસ્પ્ઢ઼ા કરઽ દૂર",
+            "ભોગેર નાહિક શેષ,    તાહે નાહિ સુખલેશ,",
+            "નિરાનન્દ તાહાતે પ્રચુર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ore mana, bhukti-mukti-spṛhā kara’ dūra",
+            "bhogera nāhika śeṣa,    tāhe nāhi sukhaleśa,",
+            "nirānanda tāhāte pracura 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಒರೆ ಮನ, ಭುಕ್ತಿಮುಕ್ತಿಸ್ಪ್‌ಢ಼ಾ ಕರಽ ದೂರ",
+            "ಭೊಗೆರ ನಾಹಿಕ ಶೆಷ,    ತಾಹೆ ನಾಹಿ ಸುಖಲೆಶ,",
+            "ನಿರಾನಂದ ತಾಹಾತೆ ಪ್ರಚುರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఒరె మన, భుక్తిముక్తిస్ప్ఢా కరఽ దూర",
+            "భొగెర నాహిక శెష,    తాహె నాహి సుఖలెశ,",
+            "నిరానంద తాహాతె ప్రచుర 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "о̆рэ̆ мана, бхуктимуктиспр̤ха̄ кара' дӯра",
+            "бхо̆гэ̆ра на̄хика ш́э̆ша,    та̄хэ̆ на̄хи сукхалэ̆ш́а,",
+            "нира̄нанда та̄ха̄тэ̆ прачура 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഒരെ മന, ഭുക്തിമുക്തിസ്പ്ഢാ കരഽ ദൂര",
+            "ഭൊഗെര നാഹിക ശെഷ,    താഹെ നാഹി സുഖലെശ,",
+            "നിരാനന്ദ താഹാതെ പ്രചുര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஒரெ மன, பு⁴க்திமுக்திஸ்ப்ஃடா³ கர(அ) தூ³ர",
+            "பொ⁴கெ³ர நாஹிக ஶெஷ,    தாஹெ நாஹி ஸுக²லெஶ,",
+            "நிரானந்த³ தாஹாதெ ப்ரசுர 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ore mana, bhukti-mukti-spṛhā kara’ dūra",
+            "bhogera nāhika śeṣa,    tāhe nāhi sukhaleśa,",
+            "nirānanda tāhāte pracura 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ore mana, bhukti-mukti-spṛhā kara’ dūra",
+            "bhogera nāhika śeṣa,    tāhe nāhi sukhaleśa,",
+            "nirānanda tāhāte pracura 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "indriya[FLAG_HYPHEN_ALPHA]tarpaṇa ba·i,    bhoge āra sukha ka·i,",
+        "seo sukha abhāba[FLAG_HYPHEN_ALPHA]pūraṇa",
+        "ye[FLAG_HYPHEN_ALPHA]sukhete āche bhaya,    tāke sukha balā naya,",
+        "tāke duḥkha bale bijña[FLAG_HYPHEN_ALPHA]jana 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "इन्द्रियतर्पण बइ,    भॊगॆ आर सुख कइ,",
+            "सॆऒ सुख अभाबपूरण",
+            "यॆसुखॆतॆ आछॆ भय,    ताकॆ सुख बला नय,",
+            "ताकॆ दुःख बलॆ बिज्ञजन २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ইন্দ্রিয়তর্পণ বই,    ভোগে আর সুখ কই,",
+            "সেও সুখ অভাবপূরণ",
+            "যেসুখেতে আছে ভয়,    তাকে সুখ বলা নয়,",
+            "তাকে দুঃখ বলে বিজ্ঞজন ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଇନ୍ଦ୍ରିୟତର୍ପଣ ବଇ,    ଭୋଗେ ଆର ସୁଖ କଇ,",
+            "ସେଓ ସୁଖ ଅଭାବପୂରଣ",
+            "ଯେସୁଖେତେ ଆଛେ ଭୟ,    ତାକେ ସୁଖ ବଲା ନୟ,",
+            "ତାକେ ଦୁଃଖ ବଲେ ବିଜ୍ଞଜନ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઇન્દ્રિયતર્પણ બઇ,    ભોગે આર સુખ કઇ,",
+            "સેઓ સુખ અભાબપૂરણ",
+            "યેસુખેતે આછે ભય,    તાકે સુખ બલા નય,",
+            "તાકે દુઃખ બલે બિજ્ઞજન ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "indriya-tarpaṇa ba·i,    bhoge āra sukha ka·i,",
+            "seo sukha abhāba-pūraṇa",
+            "ye-sukhete āche bhaya,    tāke sukha balā naya,",
+            "tāke duḥkha bale bijña-jana 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಇಂದ್ರಿಯತರ್ಪಣ ಬಇ,    ಭೊಗೆ ಆರ ಸುಖ ಕಇ,",
+            "ಸೆಒ ಸುಖ ಅಭಾಬಪೂರಣ",
+            "ಯೆಸುಖೆತೆ ಆಛೆ ಭಯ,    ತಾಕೆ ಸುಖ ಬಲಾ ನಯ,",
+            "ತಾಕೆ ದುಃಖ ಬಲೆ ಬಿಜ್ಞಜನ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఇంద్రియతర్పణ బఇ,    భొగె ఆర సుఖ కఇ,",
+            "సెఒ సుఖ అభాబపూరణ",
+            "యెసుఖెతె ఆఛె భయ,    తాకె సుఖ బలా నయ,",
+            "తాకె దుఃఖ బలె బిజ్ఞజన 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "индрийатарпан̣а баи,    бхо̆гэ̆ а̄ра сукха каи,",
+            "сэ̆о̆ сукха абха̄бапӯран̣а",
+            "йэ̆сукхэ̆тэ̆ а̄чхэ̆ бхайа,    та̄кэ̆ сукха бала̄ найа,",
+            "та̄кэ̆ дух̣кха балэ̆ биджн̃аджана 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഇന്ദ്രിയതർപണ ബഇ,    ഭൊഗെ ആര സുഖ കഇ,",
+            "സെഒ സുഖ അഭാബപൂരണ",
+            "യെസുഖെതെ ആഛെ ഭയ,    താകെ സുഖ ബലാ നയ,",
+            "താകെ ദുഃഖ ബലെ ബിജ്ഞജന 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "இந்த்³ரியதர்பண ப³இ,    பொ⁴கெ³ ஆர ஸுக² கஇ,",
+            "ஸெஒ ஸுக² அபா⁴ப³பூரண",
+            "யெஸுகெ²தெ ஆசெ² ப⁴ய,    தாகெ ஸுக² ப³லா நய,",
+            "தாகெ து³꞉க² ப³லெ பி³ஜ்ஞஜன 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "indriya-tarpaṇa ba·i,    bhoge āra sukha ka·i,",
+            "seo sukha abhāba-pūraṇa",
+            "ye-sukhete āche bhaya,    tāke sukha balā naya,",
+            "tāke duḥkha bale bijña-jana 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "indriya-tarpaṇa ba·i,    bhoge āra sukha ka·i,",
+            "seo sukha abhāba-pūraṇa",
+            "ye-sukhete āche bhaya,    tāke sukha balā naya,",
+            "tāke duḥkha bale bijña-jana 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "śāstre phalaśruti yata,    sei lobhe kataśata,",
+        "mūḓhajana bhoga[FLAG_HYPHEN_ALPHA]prati dhāya",
+        "se[FLAG_HYPHEN_ALPHA]saba kaitaba jāni’,    chāḓiyā baiṣṇaba[FLAG_HYPHEN_ALPHA]jñānī,",
+        "mukhyaphala kṛṣṇarati pāya 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "शास्त्रॆ फलश्रुति यत,    सॆइ लॊभॆ कतशत,",
+            "मूḓहजन भॊगप्रति धाय",
+            "सॆसब कैतब जानिऽ,    छाḓइया बैष्णबज्ञानी,",
+            "मुख्यफल क्ड़्ष्णरति पाय ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শাস্ত্রে ফলশ্রুতি যত,    সেই লোভে কতশত,",
+            "মূḓহজন ভোগপ্রতি ধায়",
+            "সেসব কৈতব জানিঽ,    ছাḓইয়া বৈষ্ণবজ্ঞানী,",
+            "মুখ্যফল ক্ড়্ষ্ণরতি পায় ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶାସ୍ତ୍ରେ ଫଲଶ୍ରୁତି ଯତ,    ସେଇ ଲୋଭେ କତଶତ,",
+            "ମୂḓହଜନ ଭୋଗପ୍ରତି ଧାୟ",
+            "ସେସବ କୈତବ ଜାନିଽ,    ଛାḓଇୟା ବୈଷ୍ଣବଜ୍ଞାନୀ,",
+            "ମୁଖ୍ୟଫଲ କ୍ଡ଼୍ଷ୍ଣରତି ପାୟ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શાસ્ત્રે ફલશ્રુતિ યત,    સેઇ લોભે કતશત,",
+            "મૂḓહજન ભોગપ્રતિ ધાય",
+            "સેસબ કૈતબ જાનિઽ,    છાḓઇયા બૈષ્ણબજ્ઞાની,",
+            "મુખ્યફલ ક્ડ઼્ષ્ણરતિ પાય ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śāstre phalaśruti yata,    sei lobhe kataśata,",
+            "mūḓhajana bhoga-prati dhāya",
+            "se-saba kaitaba jāni’,    chāḓiyā baiṣṇaba-jñānī,",
+            "mukhyaphala kṛṣṇarati pāya 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶಾಸ್ತ್ರೆ ಫಲಶ್ರುತಿ ಯತ,    ಸೆಇ ಲೊಭೆ ಕತಶತ,",
+            "ಮೂḓಹಜನ ಭೊಗಪ್ರತಿ ಧಾಯ",
+            "ಸೆಸಬ ಕೈತಬ ಜಾನಿಽ,    ಛಾḓಇಯಾ ಬೈಷ್ಣಬಜ್ಞಾನೀ,",
+            "ಮುಖ್ಯಫಲ ಕ್‌ಡ಼್ಷ್ಣರತಿ ಪಾಯ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శాస్త్రె ఫలశ్రుతి యత,    సెఇ లొభె కతశత,",
+            "మూḓహజన భొగప్రతి ధాయ",
+            "సెసబ కైతబ జానిఽ,    ఛాḓఇయా బైష్ణబజ్ఞానీ,",
+            "ముఖ్యఫల క్డ్ష్ణరతి పాయ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́а̄стрэ̆ пхалаш́рути йата,    сэ̆и ло̆бхэ̆ каташ́ата,",
+            "мӯḓхаджана бхо̆гапрати дха̄йа",
+            "сэ̆саба каитаба джа̄ни',    чха̄ḓийа̄ баишн̣абаджн̃а̄нӣ,",
+            "мукхйапхала кр̤шн̣арати па̄йа 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശാസ്ത്രെ ഫലശ്രുതി യത,    സെഇ ലൊഭെ കതശത,",
+            "മൂḓഹജന ഭൊഗപ്രതി ധായ",
+            "സെസബ കൈതബ ജാനിഽ,    ഛാḓഇയാ ബൈഷ്ണബജ്ഞാനീ,",
+            "മുഖ്യഫല ക്ഡ്ഷ്ണരതി പായ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶாஸ்த்ரெ ப²லஶ்ருதி யத,    ஸெஇ லொபெ⁴ கதஶத,",
+            "மூḓஹஜன பொ⁴க³ப்ரதி தா⁴ய",
+            "ஸெஸப³ கைதப³ ஜானி(அ),    சா²ḓஇயா பை³ஷ்ணப³ஜ்ஞானீ,",
+            "முக்²யப²ல க்ஃட்²ஷ்ணரதி பாய 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śāstre phalaśruti yata,    sei lobhe kataśata,",
+            "mūḍhajana bhoga-prati dhāya",
+            "se-saba kaitaba jāni’,    chāḍiyā baiṣṇaba-jñānī,",
+            "mukhyaphala kṛṣṇarati pāya 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śāstre phalaśruti yata,    sei lobhe kataśata,",
+            "mūḓhajana bhoga-prati dhāya",
+            "se-saba kaitaba jāni’,    chāḓiyā baiṣṇaba-jñānī,",
+            "mukhyaphala kṛṣṇarati pāya 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "mukti[FLAG_HYPHEN_ALPHA]bāñchā duṣṭa ati,    naṣṭa kare śiṣṭamati,",
+        "muktispṛhā kaitaba[FLAG_HYPHEN_ALPHA]pradhāna",
+        "tāhā ye chāḓite nāre,    māyā nāhi chāḓe tāre,",
+        "tāra yatna nahe phalabān 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "मुक्तिबाञ्छा दुष्ट अति,    नष्ट करॆ शिष्टमति,",
+            "मुक्तिस्प्ढ़ा कैतबप्रधान",
+            "ताहा यॆ छाḓइतॆ नारॆ,    माया नाहि छाḓऎ तारॆ,",
+            "तार यत्न नहॆ फलबान् ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মুক্তিবাঞ্ছা দুষ্ট অতি,    নষ্ট করে শিষ্টমতি,",
+            "মুক্তিস্প্ঢ়া কৈতবপ্রধান",
+            "তাহা যে ছাḓইতে নারে,    মায়া নাহি ছাḓএ তারে,",
+            "তার যত্ন নহে ফলবান্ ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମୁକ୍ତିବାଞ୍ଛା ଦୁଷ୍ଟ ଅତି,    ନଷ୍ଟ କରେ ଶିଷ୍ଟମତି,",
+            "ମୁକ୍ତିସ୍ପ୍ଢ଼ା କୈତବପ୍ରଧାନ",
+            "ତାହା ଯେ ଛାḓଇତେ ନାରେ,    ମାୟା ନାହି ଛାḓଏ ତାରେ,",
+            "ତାର ଯତ୍ନ ନହେ ଫଲବାନ୍ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મુક્તિબાઞ્છા દુષ્ટ અતિ,    નષ્ટ કરે શિષ્ટમતિ,",
+            "મુક્તિસ્પ્ઢ઼ા કૈતબપ્રધાન",
+            "તાહા યે છાḓઇતે નારે,    માયા નાહિ છાḓએ તારે,",
+            "તાર યત્ન નહે ફલબાન્ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "mukti-bāñchā duṣṭa ati,    naṣṭa kare śiṣṭamati,",
+            "muktispṛhā kaitaba-pradhāna",
+            "tāhā ye chāḓite nāre,    māyā nāhi chāḓe tāre,",
+            "tāra yatna nahe phalabān 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮುಕ್ತಿಬಾಂಛಾ ದುಷ್ಟ ಅತಿ,    ನಷ್ಟ ಕರೆ ಶಿಷ್ಟಮತಿ,",
+            "ಮುಕ್ತಿಸ್ಪ್‌ಢ಼ಾ ಕೈತಬಪ್ರಧಾನ",
+            "ತಾಹಾ ಯೆ ಛಾḓಇತೆ ನಾರೆ,    ಮಾಯಾ ನಾಹಿ ಛಾḓಎ ತಾರೆ,",
+            "ತಾರ ಯತ್ನ ನಹೆ ಫಲಬಾನ್ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ముక్తిబాంఛా దుష్ట అతి,    నష్ట కరె శిష్టమతి,",
+            "ముక్తిస్ప్ఢా కైతబప్రధాన",
+            "తాహా యె ఛాḓఇతె నారె,    మాయా నాహి ఛాḓఎ తారె,",
+            "తార యత్న నహె ఫలబాన్ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "муктиба̄н̃чха̄ душт̣а ати,    нашт̣а карэ̆ ш́ишт̣амати,",
+            "муктиспр̤ха̄ каитабапрадха̄на",
+            "та̄ха̄ йэ̆ чха̄ḓитэ̆ на̄рэ̆,    ма̄йа̄ на̄хи чха̄ḓэ̆ та̄рэ̆,",
+            "та̄ра йатна нахэ̆ пхалаба̄н 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മുക്തിബാഞ്ഛാ ദുഷ്ട അതി,    നഷ്ട കരെ ശിഷ്ടമതി,",
+            "മുക്തിസ്പ്ഢാ കൈതബപ്രധാന",
+            "താഹാ യെ ഛാḓഇതെ നാരെ,    മായാ നാഹി ഛാḓഎ താരെ,",
+            "താര യത്ന നഹെ ഫലബാൻ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "முக்திபா³ஞ்சா² து³ஷ்ட அதி,    நஷ்ட கரெ ஶிஷ்டமதி,",
+            "முக்திஸ்ப்ஃடா³ கைதப³ப்ரதா⁴ன",
+            "தாஹா யெ சா²ḓஇதெ நாரெ,    மாயா நாஹி சா²ḓஎ தாரெ,",
+            "தார யத்ன நஹெ ப²லபா³ன் 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "mukti-bāñchā duṣṭa ati,    naṣṭa kare śiṣṭamati,",
+            "muktispṛhā kaitaba-pradhāna",
+            "tāhā ye chāḍite nāre,    māyā nāhi chāḍe tāre,",
+            "tāra yatna nahe phalabān 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "mukti-bāñchā duṣṭa ati,    naṣṭa kare śiṣṭamati,",
+            "muktispṛhā kaitaba-pradhāna",
+            "tāhā ye chāḓite nāre,    māyā nāhi chāḓe tāre,",
+            "tāra yatna nahe phalabān 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "ataeba spṛhādbaya,    chāḓi’ śodha’ e hṛdaya,",
+        "nāhi rākha kāmera bāsanā",
+        "bhoga[FLAG_HYPHEN_ALPHA]mokṣa nāhi cāi,    śrīkṛṣṇacaraṇa pāi,",
+        "binodera ei ta sādhanā 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अतऎब स्प्ढ़ाद्बय,    छाḓइऽ शॊधऽ ऎ ह्ड़्दय,",
+            "नाहि राख कामॆर बासना",
+            "भॊगमॊक्ष नाहि चाइ,    श्रीक्ड़्ष्णचरण पाइ,",
+            "बिनॊदॆर ऎइ त साधना ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অতএব স্প্ঢ়াদ্বয়,    ছাḓইঽ শোধঽ এ হ্ড়্দয়,",
+            "নাহি রাখ কামের বাসনা",
+            "ভোগমোক্ষ নাহি চাই,    শ্রীক্ড়্ষ্ণচরণ পাই,",
+            "বিনোদের এই ত সাধনা ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅତଏବ ସ୍ପ୍ଢ଼ାଦ୍ବୟ,    ଛାḓଇଽ ଶୋଧଽ ଏ ହ୍ଡ଼୍ଦୟ,",
+            "ନାହି ରାଖ କାମେର ବାସନା",
+            "ଭୋଗମୋକ୍ଷ ନାହି ଚାଇ,    ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣଚରଣ ପାଇ,",
+            "ବିନୋଦେର ଏଇ ତ ସାଧନା ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અતએબ સ્પ્ઢ઼ાદ્બય,    છાḓઇઽ શોધઽ એ હ્ડ઼્દય,",
+            "નાહિ રાખ કામેર બાસના",
+            "ભોગમોક્ષ નાહિ ચાઇ,    શ્રીક્ડ઼્ષ્ણચરણ પાઇ,",
+            "બિનોદેર એઇ ત સાધના ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ataeba spṛhādbaya,    chāḓi’ śodha’ e hṛdaya,",
+            "nāhi rākha kāmera bāsanā",
+            "bhoga-mokṣa nāhi cāi,    śrīkṛṣṇacaraṇa pāi,",
+            "binodera ei ta sādhanā 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅತಎಬ ಸ್ಪ್‌ಢ಼ಾದ್ಬಯ,    ಛಾḓಇಽ ಶೊಧಽ ಎ ಹ್‌ಡ಼್ದಯ,",
+            "ನಾಹಿ ರಾಖ ಕಾಮೆರ ಬಾಸನಾ",
+            "ಭೊಗಮೊಕ್ಷ ನಾಹಿ ಚಾಇ,    ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಚರಣ ಪಾಇ,",
+            "ಬಿನೊದೆರ ಎಇ ತ ಸಾಧನಾ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అతఎబ స్ప్ఢాద్బయ,    ఛాḓఇఽ శొధఽ ఎ హ్డ్దయ,",
+            "నాహి రాఖ కామెర బాసనా",
+            "భొగమొక్ష నాహి చాఇ,    శ్రీక్డ్ష్ణచరణ పాఇ,",
+            "బినొదెర ఎఇ త సాధనా 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "атаэ̆ба спр̤ха̄дбайа,    чха̄ḓи' ш́о̆дха' э̆ хр̤дайа,",
+            "на̄хи ра̄кха ка̄мэ̆ра ба̄сана̄",
+            "бхо̆гамо̆кша на̄хи ча̄и,    ш́рӣкр̤шн̣ачаран̣а па̄и,",
+            "бино̆дэ̆ра э̆и та са̄дхана̄ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അതഎബ സ്പ്ഢാദ്ബയ,    ഛാḓഇഽ ശൊധഽ എ ഹ്ഡ്ദയ,",
+            "നാഹി രാഖ കാമെര ബാസനാ",
+            "ഭൊഗമൊക്ഷ നാഹി ചാഇ,    ശ്രീക്ഡ്ഷ്ണചരണ പാഇ,",
+            "ബിനൊദെര എഇ ത സാധനാ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அதஎப³ ஸ்ப்ஃடா³த்³ப³ய,    சா²ḓஇ(அ) ஶொத⁴(அ) எ ஹ்ஃட்²த³ய,",
+            "நாஹி ராக² காமெர பா³ஸனா",
+            "பொ⁴க³மொக்ஷ நாஹி சாஇ,    ஶ்ரீக்ஃட்²ஷ்ணசரண பாஇ,",
+            "பி³னொதெ³ர எஇ த ஸாத⁴னா 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ataeba spṛhādbaya,    chāḍi’ śodha’ e hṛdaya,",
+            "nāhi rākha kāmera bāsanā",
+            "bhoga-mokṣa nāhi cāi,    śrīkṛṣṇacaraṇa pāi,",
+            "binodera ei ta sādhanā 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ataeba spṛhādbaya,    chāḓi’ śodha’ e hṛdaya,",
+            "nāhi rākha kāmera bāsanā",
+            "bhoga-mokṣa nāhi cāi,    śrīkṛṣṇacaraṇa pāi,",
+            "binodera ei ta sādhanā 5"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থ:- ফলশ্রুতি—বৈদিক কর্ম্মের ফল প্রতিপাদক কথা; কৈতব—কপটতা; স্পৃহাদ্বয—ভোগস্পৃহা ও মুক্তিস্পৃহা ।"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Nirveda",
+    "Upalabdhi from Kalyāṇa-kalpataru"
+  ]
+}

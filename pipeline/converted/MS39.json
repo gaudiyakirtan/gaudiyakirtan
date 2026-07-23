@@ -1,0 +1,692 @@
+{
+ "uid": "MS39",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "সুখের লাগিয়া এ ঘর বাঁধিনু"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "sukhera lāgiyā e ghara bā̃dhinu"
+  }
+ ],
+ "author_uid": "শ্রীচণ্ডীদাস",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীচণ্ডীদাস"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrī Caṇḍīdāsa"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "sukhera lāgiyā,    e ghara bā̃dhinu,",
+    "āgune puḓiyā gela",
+    "amiyā[FLAG_HYPHEN_ALPHA]sāgare,    sināna karite,",
+    "sakali garala bhela 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सुखॆर लागिया,    ऎ घर बांधिनु,",
+      "आगुनॆ पुḓइया गॆल",
+      "अमियासागरॆ,    सिनान करितॆ,",
+      "सकलि गरल भॆल १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সুখের লাগিয়া,    এ ঘর বান্ধিনু,",
+      "আগুনে পুḓইয়া গেল",
+      "অমিয়াসাগরে,    সিনান করিতে,",
+      "সকলি গরল ভেল ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସୁଖେର ଲାଗିୟା,    ଏ ଘର ବାନ୍ଧିନୁ,",
+      "ଆଗୁନେ ପୁḓଇୟା ଗେଲ",
+      "ଅମିୟାସାଗରେ,    ସିନାନ କରିତେ,",
+      "ସକଲି ଗରଲ ଭେଲ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સુખેર લાગિયા,    એ ઘર બાંધિનુ,",
+      "આગુને પુḓઇયા ગેલ",
+      "અમિયાસાગરે,    સિનાન કરિતે,",
+      "સકલિ ગરલ ભેલ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sukhera lāgiyā,    e ghara bā̃dhinu,",
+      "āgune puḓiyā gela",
+      "amiyā-sāgare,    sināna karite,",
+      "sakali garala bhela 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸುಖೆರ ಲಾಗಿಯಾ,    ಎ ಘರ ಬಾಂಧಿನು,",
+      "ಆಗುನೆ ಪುḓಇಯಾ ಗೆಲ",
+      "ಅಮಿಯಾಸಾಗರೆ,    ಸಿನಾನ ಕರಿತೆ,",
+      "ಸಕಲಿ ಗರಲ ಭೆಲ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సుఖెర లాగియా,    ఎ ఘర బాంధిను,",
+      "ఆగునె పుḓఇయా గెల",
+      "అమియాసాగరె,    సినాన కరితె,",
+      "సకలి గరల భెల 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сукхэ̆ра ла̄гийа̄,    э̆ гхара ба̄м̣дхину,",
+      "а̄гунэ̆ пуḓийа̄ гэ̆ла",
+      "амийа̄са̄гарэ̆,    сина̄на каритэ̆,",
+      "сакали гарала бхэ̆ла 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സുഖെര ലാഗിയാ,    എ ഘര ബാന്ധിനു,",
+      "ആഗുനെ പുḓഇയാ ഗെല",
+      "അമിയാസാഗരെ,    സിനാന കരിതെ,",
+      "സകലി ഗരല ഭെല 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸுகெ²ர லாகி³யா,    எ க⁴ர பா³ந்தி⁴னு,",
+      "ஆகு³னெ புḓஇயா கெ³ல",
+      "அமியாஸாக³ரெ,    ஸினான கரிதெ,",
+      "ஸகலி க³ரல பெ⁴ல 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sukhera lāgiyā,    e ghara bā̃dhinu,",
+      "āgune puḍiyā gela",
+      "amiyā-sāgare,    sināna karite,",
+      "sakali garala bhela 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sukhera lāgiyā,    e ghara bā̃dhinu,",
+      "āgune puḓiyā gela",
+      "amiyā-sāgare,    sināna karite,",
+      "sakali garala bhela 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "sakhi, ki mora kapāle lekhi",
+    "śītala baliyā,    cā̃da sebinu,",
+    "bhānura kiraṇa dekhi 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सखि, कि मॊर कपालॆ लॆखि",
+      "शीतल बलिया,    चांद सॆबिनु,",
+      "भानुर किरण दॆखि २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সখি, কি মোর কপালে লেখি",
+      "শীতল বলিয়া,    চান্দ সেবিনু,",
+      "ভানুর কিরণ দেখি ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସଖି, କି ମୋର କପାଲେ ଲେଖି",
+      "ଶୀତଲ ବଲିୟା,    ଚାନ୍ଦ ସେବିନୁ,",
+      "ଭାନୁର କିରଣ ଦେଖି ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સખિ, કિ મોર કપાલે લેખિ",
+      "શીતલ બલિયા,    ચાંદ સેબિનુ,",
+      "ભાનુર કિરણ દેખિ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sakhi, ki mora kapāle lekhi",
+      "śītala baliyā,    cā̃da sebinu,",
+      "bhānura kiraṇa dekhi 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸಖಿ, ಕಿ ಮೊರ ಕಪಾಲೆ ಲೆಖಿ",
+      "ಶೀತಲ ಬಲಿಯಾ,    ಚಾಂದ ಸೆಬಿನು,",
+      "ಭಾನುರ ಕಿರಣ ದೆಖಿ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సఖి, కి మొర కపాలె లెఖి",
+      "శీతల బలియా,    చాంద సెబిను,",
+      "భానుర కిరణ దెఖి 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сакхи, ки мо̆ра капа̄лэ̆ лэ̆кхи",
+      "ш́ӣтала балийа̄,    ча̄м̣да сэ̆бину,",
+      "бха̄нура киран̣а дэ̆кхи 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സഖി, കി മൊര കപാലെ ലെഖി",
+      "ശീതല ബലിയാ,    ചാന്ദ സെബിനു,",
+      "ഭാനുര കിരണ ദെഖി 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸகி², கி மொர கபாலெ லெகி²",
+      "ஶீதல ப³லியா,    சாந்த³ ஸெபி³னு,",
+      "பா⁴னுர கிரண தெ³கி² 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sakhi, ki mora kapāle lekhi",
+      "śītala baliyā,    cā̃da sebinu,",
+      "bhānura kiraṇa dekhi 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sakhi, ki mora kapāle lekhi",
+      "śītala baliyā,    cā̃da sebinu,",
+      "bhānura kiraṇa dekhi 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "ucala baliyā,    acale caḓinu,",
+    "paḓinu agādha jale",
+    "lachamī cāhite,    dāridrya beḓhala,",
+    "māṇika hārānu hele 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "उचल बलिया,    अचलॆ चḓइनु,",
+      "पḓइनु अगाध जलॆ",
+      "लछमी चाहितॆ,    दारिद्र्य बॆḓहल,",
+      "माणिक हारानु हॆलॆ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "উচল বলিয়া,    অচলে চḓইনু,",
+      "পḓইনু অগাধ জলে",
+      "লছমী চাহিতে,    দারিদ্র্য বেḓহল,",
+      "মাণিক হারানু হেলে ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଉଚଲ ବଲିୟା,    ଅଚଲେ ଚḓଇନୁ,",
+      "ପḓଇନୁ ଅଗାଧ ଜଲେ",
+      "ଲଛମୀ ଚାହିତେ,    ଦାରିଦ୍ର୍ୟ ବେḓହଲ,",
+      "ମାଣିକ ହାରାନୁ ହେଲେ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઉચલ બલિયા,    અચલે ચḓઇનુ,",
+      "પḓઇનુ અગાધ જલે",
+      "લછમી ચાહિતે,    દારિદ્ર્ય બેḓહલ,",
+      "માણિક હારાનુ હેલે ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ucala baliyā,    acale caḓinu,",
+      "paḓinu agādha jale",
+      "lachamī cāhite,    dāridrya beḓhala,",
+      "māṇika hārānu hele 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಉಚಲ ಬಲಿಯಾ,    ಅಚಲೆ ಚḓಇನು,",
+      "ಪḓಇನು ಅಗಾಧ ಜಲೆ",
+      "ಲಛಮೀ ಚಾಹಿತೆ,    ದಾರಿದ್ರ್ಯ ಬೆḓಹಲ,",
+      "ಮಾಣಿಕ ಹಾರಾನು ಹೆಲೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఉచల బలియా,    అచలె చḓఇను,",
+      "పḓఇను అగాధ జలె",
+      "లఛమీ చాహితె,    దారిద్ర్య బెḓహల,",
+      "మాణిక హారాను హెలె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "учала балийа̄,    ачалэ̆ чаḓину,",
+      "паḓину ага̄дха джалэ̆",
+      "лачхамӣ ча̄хитэ̆,    да̄ридрйа бэ̆ḓхала,",
+      "ма̄н̣ика ха̄ра̄ну хэ̆лэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഉചല ബലിയാ,    അചലെ ചḓഇനു,",
+      "പḓഇനു അഗാധ ജലെ",
+      "ലഛമീ ചാഹിതെ,    ദാരിദ്ര്യ ബെḓഹല,",
+      "മാണിക ഹാരാനു ഹെലെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "உசல ப³லியா,    அசலெ சḓஇனு,",
+      "பḓஇனு அகா³த⁴ ஜலெ",
+      "லச²மீ சாஹிதெ,    தா³ரித்³ர்ய பெ³ḓஹல,",
+      "மாணிக ஹாரானு ஹெலெ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ucala baliyā,    acale caḍinu,",
+      "paḍinu agādha jale",
+      "lachamī cāhite,    dāridrya beḍhala,",
+      "māṇika hārānu hele 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ucala baliyā,    acale caḓinu,",
+      "paḓinu agādha jale",
+      "lachamī cāhite,    dāridrya beḓhala,",
+      "māṇika hārānu hele 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "nagara basālāma,    sāgara bā̃dhilāma,",
+    "māṇika pābāra āśe",
+    "sāgara śukāla,    māṇika lukāla,",
+    "abhāgī[FLAG_HYPHEN_ALPHA]karama[FLAG_HYPHEN_ALPHA]doṣe 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "नगर बसालाम,    सागर बांधिलाम,",
+      "माणिक पाबार आशॆ",
+      "सागर शुकाल,    माणिक लुकाल,",
+      "अभागीकरमदॊषॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নগর বসালাম,    সাগর বান্ধিলাম,",
+      "মাণিক পাবার আশে",
+      "সাগর শুকাল,    মাণিক লুকাল,",
+      "অভাগীকরমদোষে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନଗର ବସାଲାମ,    ସାଗର ବାନ୍ଧିଲାମ,",
+      "ମାଣିକ ପାବାର ଆଶେ",
+      "ସାଗର ଶୁକାଲ,    ମାଣିକ ଲୁକାଲ,",
+      "ଅଭାଗୀକରମଦୋଷେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નગર બસાલામ,    સાગર બાંધિલામ,",
+      "માણિક પાબાર આશે",
+      "સાગર શુકાલ,    માણિક લુકાલ,",
+      "અભાગીકરમદોષે ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nagara basālāma,    sāgara bā̃dhilāma,",
+      "māṇika pābāra āśe",
+      "sāgara śukāla,    māṇika lukāla,",
+      "abhāgī-karama-doṣe 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಗರ ಬಸಾಲಾಮ,    ಸಾಗರ ಬಾಂಧಿಲಾಮ,",
+      "ಮಾಣಿಕ ಪಾಬಾರ ಆಶೆ",
+      "ಸಾಗರ ಶುಕಾಲ,    ಮಾಣಿಕ ಲುಕಾಲ,",
+      "ಅಭಾಗೀಕರಮದೊಷೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నగర బసాలామ,    సాగర బాంధిలామ,",
+      "మాణిక పాబార ఆశె",
+      "సాగర శుకాల,    మాణిక లుకాల,",
+      "అభాగీకరమదొషె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "нагара баса̄ла̄ма,    са̄гара ба̄м̣дхила̄ма,",
+      "ма̄н̣ика па̄ба̄ра а̄ш́э̆",
+      "са̄гара ш́ука̄ла,    ма̄н̣ика лука̄ла,",
+      "абха̄гӣкарамадо̆шэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നഗര ബസാലാമ,    സാഗര ബാന്ധിലാമ,",
+      "മാണിക പാബാര ആശെ",
+      "സാഗര ശുകാല,    മാണിക ലുകാല,",
+      "അഭാഗീകരമദൊഷെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நக³ர ப³ஸாலாம,    ஸாக³ர பா³ந்தி⁴லாம,",
+      "மாணிக பாபா³ர ஆஶெ",
+      "ஸாக³ர ஶுகால,    மாணிக லுகால,",
+      "அபா⁴கீ³கரமதொ³ஷெ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nagara basālāma,    sāgara bā̃dhilāma,",
+      "māṇika pābāra āśe",
+      "sāgara śukāla,    māṇika lukāla,",
+      "abhāgī-karama-doṣe 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nagara basālāma,    sāgara bā̃dhilāma,",
+      "māṇika pābāra āśe",
+      "sāgara śukāla,    māṇika lukāla,",
+      "abhāgī-karama-doṣe 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "piyāsa lāgiyā,    jalada sebinu,",
+    "bajara paḓiyā gela",
+    "kahe caṇḍīdāsa,    śyāmera pirīti,",
+    "marame rahala śela 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "पियास लागिया,    जलद सॆबिनु,",
+      "बजर पḓइया गॆल",
+      "कहॆ चण्डीदास,    श्यामॆर पिरीति,",
+      "मरमॆ रहल शॆल ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "পিয়াস লাগিয়া,    জলদ সেবিনু,",
+      "বজর পḓইয়া গেল",
+      "কহে চণ্ডীদাস,    শ্যামের পিরীতি,",
+      "মরমে রহল শেল ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପିୟାସ ଲାଗିୟା,    ଜଲଦ ସେବିନୁ,",
+      "ବଜର ପḓଇୟା ଗେଲ",
+      "କହେ ଚଣ୍ଡୀଦାସ,    ଶ୍ୟାମେର ପିରୀତି,",
+      "ମରମେ ରହଲ ଶେଲ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પિયાસ લાગિયા,    જલદ સેબિનુ,",
+      "બજર પḓઇયા ગેલ",
+      "કહે ચણ્ડીદાસ,    શ્યામેર પિરીતિ,",
+      "મરમે રહલ શેલ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "piyāsa lāgiyā,    jalada sebinu,",
+      "bajara paḓiyā gela",
+      "kahe caṇḍīdāsa,    śyāmera pirīti,",
+      "marame rahala śela 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪಿಯಾಸ ಲಾಗಿಯಾ,    ಜಲದ ಸೆಬಿನು,",
+      "ಬಜರ ಪḓಇಯಾ ಗೆಲ",
+      "ಕಹೆ ಚಂಡೀದಾಸ,    ಶ್ಯಾಮೆರ ಪಿರೀತಿ,",
+      "ಮರಮೆ ರಹಲ ಶೆಲ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "పియాస లాగియా,    జలద సెబిను,",
+      "బజర పḓఇయా గెల",
+      "కహె చండీదాస,    శ్యామెర పిరీతి,",
+      "మరమె రహల శెల 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "пийа̄са ла̄гийа̄,    джалада сэ̆бину,",
+      "баджара паḓийа̄ гэ̆ла",
+      "кахэ̆ чан̣д̣ӣда̄са,    ш́йа̄мэ̆ра пирӣти,",
+      "марамэ̆ рахала ш́э̆ла 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പിയാസ ലാഗിയാ,    ജലദ സെബിനു,",
+      "ബജര പḓഇയാ ഗെല",
+      "കഹെ ചണ്ഡീദാസ,    ശ്യാമെര പിരീതി,",
+      "മരമെ രഹല ശെല 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பியாஸ லாகி³யா,    ஜலத³ ஸெபி³னு,",
+      "ப³ஜர பḓஇயா கெ³ல",
+      "கஹெ சண்டீ³தா³ஸ,    ஶ்யாமெர பிரீதி,",
+      "மரமெ ரஹல ஶெல 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "piyāsa lāgiyā,    jalada sebinu,",
+      "bajara paḍiyā gela",
+      "kahe caṇḍīdāsa,    śyāmera pirīti,",
+      "marame rahala śela 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "piyāsa lāgiyā,    jalada sebinu,",
+      "bajara paḓiyā gela",
+      "kahe caṇḍīdāsa,    śyāmera pirīti,",
+      "marame rahala śela 5"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- অমিয়া—অমৃত; উচল—উচ্চস্থান; অচল—পর্ব্বত; জলদ—মেঘ; বজর—বজ্র ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "মনঃশিক্ষা"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "kimo-1",
+   "filename": "MS39-kimo-1.mp3",
+   "artist": "Kishori Mohan das"
+  }
+ ],
+ "tags": [
+  "Self-Dedication"
+ ]
+}

@@ -1,0 +1,898 @@
+{
+  "uid": "SI9",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "বন্ধুগণ! শুনহ বচন মোর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "bandhugaṇa! śunaha bacana mora"
+    },
+    {
+      "script_code": "Deva",
+      "text": "बन्धुगण! शुनह बचन मोर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "బంధుగణ! శునహ బచన మోర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಬಂಧುಗಣ! ಶುನಹ ಬಚನ ಮೋರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ப³ந்து⁴க³ண! ஶுனஹ ப³சன மோர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ബന്ധുഗണ! ശുനഹ ബചന മോര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "બન્ધુગણ! શુનહ બચન મોર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ବନ୍ଧୁଗଣ! ଶୁନହ ବଚନ ମୋର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "бандхуган̣а! ш́унаха бачана мора"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "bandhugaṇa! śunaha bacana mora",
+        "bhābete bibhora,    thākiye yakhana,",
+        "dekhā deya cita[FLAG_HYPHEN_ALPHA]cora 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बन्धुगण! शुनह बचन मॊर",
+            "भाबॆतॆ बिभॊर,    थाकियॆ यखन,",
+            "दॆखा दॆय चितचॊर १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বন্ধুগণ! শুনহ বচন মোর",
+            "ভাবেতে বিভোর,    থাকিয়ে যখন,",
+            "দেখা দেয় চিতচোর ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବନ୍ଧୁଗଣ! ଶୁନହ ବଚନ ମୋର",
+            "ଭାବେତେ ବିଭୋର,    ଥାକିୟେ ଯଖନ,",
+            "ଦେଖା ଦେୟ ଚିତଚୋର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બન્ધુગણ! શુનહ બચન મોર",
+            "ભાબેતે બિભોર,    થાકિયે યખન,",
+            "દેખા દેય ચિતચોર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bandhugaṇa! śunaha bacana mora",
+            "bhābete bibhora,    thākiye yakhana,",
+            "dekhā deya cita-cora 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಂಧುಗಣ! ಶುನಹ ಬಚನ ಮೊರ",
+            "ಭಾಬೆತೆ ಬಿಭೊರ,    ಥಾಕಿಯೆ ಯಖನ,",
+            "ದೆಖಾ ದೆಯ ಚಿತಚೊರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బంధుగణ! శునహ బచన మొర",
+            "భాబెతె బిభొర,    థాకియె యఖన,",
+            "దెఖా దెయ చితచొర 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бандхуган̣а! ш́унаха бачана мо̆ра",
+            "бха̄бэ̆тэ̆ бибхо̆ра,    тха̄кийэ̆ йакхана,",
+            "дэ̆кха̄ дэ̆йа читачо̆ра 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബന്ധുഗണ! ശുനഹ ബചന മൊര",
+            "ഭാബെതെ ബിഭൊര,    ഥാകിയെ യഖന,",
+            "ദെഖാ ദെയ ചിതചൊര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ந்து⁴க³ண! ஶுனஹ ப³சன மொர",
+            "பா⁴பெ³தெ பி³பொ⁴ர,    தா²கியெ யக²ன,",
+            "தெ³கா² தெ³ய சிதசொர 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bandhugaṇa! śunaha bacana mora",
+            "bhābete bibhora,    thākiye yakhana,",
+            "dekhā deya cita-cora 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bandhugaṇa! śunaha bacana mora",
+            "bhābete bibhora,    thākiye yakhana,",
+            "dekhā deya cita-cora 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "bicakṣaṇa kari’,    dekhite cāhile,",
+        "haya ā̃khi agocara",
+        "punaḥ nāhi dekhi’,    kā̃daye parāṇa,",
+        "duḥkhera nāhi thāke ora 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बिचक्षण करिऽ,    दॆखितॆ चाहिलॆ,",
+            "हय आंखि अगॊचर",
+            "पुनः नाहि दॆखिऽ,    कांदयॆ पराण,",
+            "दुःखॆर नाहि थाकॆ ऒर २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বিচক্ষণ করিঽ,    দেখিতে চাহিলে,",
+            "হয় আঙ্খি অগোচর",
+            "পুনঃ নাহি দেখিঽ,    কান্দয়ে পরাণ,",
+            "দুঃখের নাহি থাকে ওর ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବିଚକ୍ଷଣ କରିଽ,    ଦେଖିତେ ଚାହିଲେ,",
+            "ହୟ ଆଙ୍ଖି ଅଗୋଚର",
+            "ପୁନଃ ନାହି ଦେଖିଽ,    କାନ୍ଦୟେ ପରାଣ,",
+            "ଦୁଃଖେର ନାହି ଥାକେ ଓର ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બિચક્ષણ કરિઽ,    દેખિતે ચાહિલે,",
+            "હય આંખિ અગોચર",
+            "પુનઃ નાહિ દેખિઽ,    કાંદયે પરાણ,",
+            "દુઃખેર નાહિ થાકે ઓર ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bicakṣaṇa kari’,    dekhite cāhile,",
+            "haya ā̃khi agocara",
+            "punaḥ nāhi dekhi’,    kā̃daye parāṇa,",
+            "duḥkhera nāhi thāke ora 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಿಚಕ್ಷಣ ಕರಿಽ,    ದೆಖಿತೆ ಚಾಹಿಲೆ,",
+            "ಹಯ ಆಂಖಿ ಅಗೊಚರ",
+            "ಪುನಃ ನಾಹಿ ದೆಖಿಽ,    ಕಾಂದಯೆ ಪರಾಣ,",
+            "ದುಃಖೆರ ನಾಹಿ ಥಾಕೆ ಒರ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బిచక్షణ కరిఽ,    దెఖితె చాహిలె,",
+            "హయ ఆంఖి అగొచర",
+            "పునః నాహి దెఖిఽ,    కాందయె పరాణ,",
+            "దుఃఖెర నాహి థాకె ఒర 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бичакшан̣а кари',    дэ̆кхитэ̆ ча̄хилэ̆,",
+            "хайа а̄м̣кхи аго̆чара",
+            "пунах̣ на̄хи дэ̆кхи',    ка̄м̣дайэ̆ пара̄н̣а,",
+            "дух̣кхэ̆ра на̄хи тха̄кэ̆ о̆ра 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബിചക്ഷണ കരിഽ,    ദെഖിതെ ചാഹിലെ,",
+            "ഹയ ആംഖി അഗൊചര",
+            "പുനഃ നാഹി ദെഖിഽ,    കാന്ദയെ പരാണ,",
+            "ദുഃഖെര നാഹി ഥാകെ ഒര 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பி³சக்ஷண கரி(அ),    தெ³கி²தெ சாஹிலெ,",
+            "ஹய ஆங்கி² அகொ³சர",
+            "புன꞉ நாஹி தெ³கி²(அ),    காந்த³யெ பராண,",
+            "து³꞉கெ²ர நாஹி தா²கெ ஒர 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bicakṣaṇa kari’,    dekhite cāhile,",
+            "haya ā̃khi agocara",
+            "punaḥ nāhi dekhi’,    kā̃daye parāṇa,",
+            "duḥkhera nāhi thāke ora 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bicakṣaṇa kari’,    dekhite cāhile,",
+            "haya ā̃khi agocara",
+            "punaḥ nāhi dekhi’,    kā̃daye parāṇa,",
+            "duḥkhera nāhi thāke ora 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "jagatera bandhu sei",
+        "kabhu more laya sātha",
+        "yathā tathā rākhu more,",
+        "āmāra se prāṇanātha 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जगतॆर बन्धु सॆइ",
+            "कभु मॊरॆ लय साथ",
+            "यथा तथा राखु मॊरॆ,",
+            "आमार सॆ प्राणनाथ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জগতের বন্ধু সেই",
+            "কভু মোরে লয় সাথ",
+            "যথা তথা রাখু মোরে,",
+            "আমার সে প্রাণনাথ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜଗତେର ବନ୍ଧୁ ସେଇ",
+            "କଭୁ ମୋରେ ଲୟ ସାଥ",
+            "ଯଥା ତଥା ରାଖୁ ମୋରେ,",
+            "ଆମାର ସେ ପ୍ରାଣନାଥ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જગતેર બન્ધુ સેઇ",
+            "કભુ મોરે લય સાથ",
+            "યથા તથા રાખુ મોરે,",
+            "આમાર સે પ્રાણનાથ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jagatera bandhu sei",
+            "kabhu more laya sātha",
+            "yathā tathā rākhu more,",
+            "āmāra se prāṇanātha 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಗತೆರ ಬಂಧು ಸೆಇ",
+            "ಕಭು ಮೊರೆ ಲಯ ಸಾಥ",
+            "ಯಥಾ ತಥಾ ರಾಖು ಮೊರೆ,",
+            "ಆಮಾರ ಸೆ ಪ್ರಾಣನಾಥ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జగతెర బంధు సెఇ",
+            "కభు మొరె లయ సాథ",
+            "యథా తథా రాఖు మొరె,",
+            "ఆమార సె ప్రాణనాథ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джагатэ̆ра бандху сэ̆и",
+            "кабху мо̆рэ̆ лайа са̄тха",
+            "йатха̄ татха̄ ра̄кху мо̆рэ̆,",
+            "а̄ма̄ра сэ̆ пра̄н̣ана̄тха 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജഗതെര ബന്ധു സെഇ",
+            "കഭു മൊരെ ലയ സാഥ",
+            "യഥാ തഥാ രാഖു മൊരെ,",
+            "ആമാര സെ പ്രാണനാഥ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜக³தெர ப³ந்து⁴ ஸெஇ",
+            "கபு⁴ மொரெ லய ஸாத²",
+            "யதா² ததா² ராகு² மொரெ,",
+            "ஆமார ஸெ ப்ராணநாத² 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jagatera bandhu sei",
+            "kabhu more laya sātha",
+            "yathā tathā rākhu more,",
+            "āmāra se prāṇanātha 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jagatera bandhu sei",
+            "kabhu more laya sātha",
+            "yathā tathā rākhu more,",
+            "āmāra se prāṇanātha 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "darśana[FLAG_HYPHEN_ALPHA]ānanda[FLAG_HYPHEN_ALPHA]dāne,    sukha deya mora prāṇe,",
+        "bale more praṇaya[FLAG_HYPHEN_ALPHA]bacana",
+        "punaḥ adarśana diyā,    dagdha kare mora hiyā,",
+        "prāṇe more māre prāṇadhana 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "दर्शनआनन्ददानॆ,    सुख दॆय मॊर प्राणॆ,",
+            "बलॆ मॊरॆ प्रणयबचन",
+            "पुनः अदर्शन दिया,    दग्ध करॆ मॊर हिया,",
+            "प्राणॆ मॊरॆ मारॆ प्राणधन ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "দর্শনআনন্দদানে,    সুখ দেয় মোর প্রাণে,",
+            "বলে মোরে প্রণয়বচন",
+            "পুনঃ অদর্শন দিয়া,    দগ্ধ করে মোর হিয়া,",
+            "প্রাণে মোরে মারে প্রাণধন ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଦର୍ଶନଆନନ୍ଦଦାନେ,    ସୁଖ ଦେୟ ମୋର ପ୍ରାଣେ,",
+            "ବଲେ ମୋରେ ପ୍ରଣୟବଚନ",
+            "ପୁନଃ ଅଦର୍ଶନ ଦିୟା,    ଦଗ୍ଧ କରେ ମୋର ହିୟା,",
+            "ପ୍ରାଣେ ମୋରେ ମାରେ ପ୍ରାଣଧନ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "દર્શનઆનન્દદાને,    સુખ દેય મોર પ્રાણે,",
+            "બલે મોરે પ્રણયબચન",
+            "પુનઃ અદર્શન દિયા,    દગ્ધ કરે મોર હિયા,",
+            "પ્રાણે મોરે મારે પ્રાણધન ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "darśana-ānanda-dāne,    sukha deya mora prāṇe,",
+            "bale more praṇaya-bacana",
+            "punaḥ adarśana diyā,    dagdha kare mora hiyā,",
+            "prāṇe more māre prāṇadhana 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ದರ್ಶನಆನಂದದಾನೆ,    ಸುಖ ದೆಯ ಮೊರ ಪ್ರಾಣೆ,",
+            "ಬಲೆ ಮೊರೆ ಪ್ರಣಯಬಚನ",
+            "ಪುನಃ ಅದರ್ಶನ ದಿಯಾ,    ದಗ್ಧ ಕರೆ ಮೊರ ಹಿಯಾ,",
+            "ಪ್ರಾಣೆ ಮೊರೆ ಮಾರೆ ಪ್ರಾಣಧನ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "దర్శనఆనందదానె,    సుఖ దెయ మొర ప్రాణె,",
+            "బలె మొరె ప్రణయబచన",
+            "పునః అదర్శన దియా,    దగ్ధ కరె మొర హియా,",
+            "ప్రాణె మొరె మారె ప్రాణధన 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "дарш́анаа̄нандада̄нэ̆,    сукха дэ̆йа мо̆ра пра̄н̣э̆,",
+            "балэ̆ мо̆рэ̆ пран̣айабачана",
+            "пунах̣ адарш́ана дийа̄,    дагдха карэ̆ мо̆ра хийа̄,",
+            "пра̄н̣э̆ мо̆рэ̆ ма̄рэ̆ пра̄н̣адхана 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ദർശനആനന്ദദാനെ,    സുഖ ദെയ മൊര പ്രാണെ,",
+            "ബലെ മൊരെ പ്രണയബചന",
+            "പുനഃ അദർശന ദിയാ,    ദഗ്ധ കരെ മൊര ഹിയാ,",
+            "പ്രാണെ മൊരെ മാരെ പ്രാണധന 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "த³ர்ஶனஆனந்த³தா³னெ,    ஸுக² தெ³ய மொர ப்ராணெ,",
+            "ப³லெ மொரெ ப்ரணயப³சன",
+            "புன꞉ அத³ர்ஶன தி³யா,    த³க்³த⁴ கரெ மொர ஹியா,",
+            "ப்ராணெ மொரெ மாரெ ப்ராணத⁴ன 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "darśana-ānanda-dāne,    sukha deya mora prāṇe,",
+            "bale more praṇaya-bacana",
+            "punaḥ adarśana diyā,    dagdha kare mora hiyā,",
+            "prāṇe more māre prāṇadhana 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "darśana-ānanda-dāne,    sukha deya mora prāṇe,",
+            "bale more praṇaya-bacana",
+            "punaḥ adarśana diyā,    dagdha kare mora hiyā,",
+            "prāṇe more māre prāṇadhana 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "yāhe tāra sukha haya,",
+        "sei sukha mama",
+        "nija sukhe duḥkhe mora",
+        "sarbadāi sama 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "याहॆ तार सुख हय,",
+            "सॆइ सुख मम",
+            "निज सुखॆ दुःखॆ मॊर",
+            "सर्बदाइ सम ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যাহে তার সুখ হয়,",
+            "সেই সুখ মম",
+            "নিজ সুখে দুঃখে মোর",
+            "সর্বদাই সম ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯାହେ ତାର ସୁଖ ହୟ,",
+            "ସେଇ ସୁଖ ମମ",
+            "ନିଜ ସୁଖେ ଦୁଃଖେ ମୋର",
+            "ସର୍ବଦାଇ ସମ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યાહે તાર સુખ હય,",
+            "સેઇ સુખ મમ",
+            "નિજ સુખે દુઃખે મોર",
+            "સર્બદાઇ સમ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yāhe tāra sukha haya,",
+            "sei sukha mama",
+            "nija sukhe duḥkhe mora",
+            "sarbadāi sama 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯಾಹೆ ತಾರ ಸುಖ ಹಯ,",
+            "ಸೆಇ ಸುಖ ಮಮ",
+            "ನಿಜ ಸುಖೆ ದುಃಖೆ ಮೊರ",
+            "ಸರ್ಬದಾಇ ಸಮ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యాహె తార సుఖ హయ,",
+            "సెఇ సుఖ మమ",
+            "నిజ సుఖె దుఃఖె మొర",
+            "సర్బదాఇ సమ 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йа̄хэ̆ та̄ра сукха хайа,",
+            "сэ̆и сукха мама",
+            "ниджа сукхэ̆ дух̣кхэ̆ мо̆ра",
+            "сарбада̄и сама 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യാഹെ താര സുഖ ഹയ,",
+            "സെഇ സുഖ മമ",
+            "നിജ സുഖെ ദുഃഖെ മൊര",
+            "സർബദാഇ സമ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யாஹெ தார ஸுக² ஹய,",
+            "ஸெஇ ஸுக² மம",
+            "நிஜ ஸுகெ² து³꞉கெ² மொர",
+            "ஸர்ப³தா³இ ஸம 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yāhe tāra sukha haya,",
+            "sei sukha mama",
+            "nija sukhe duḥkhe mora",
+            "sarbadāi sama 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yāhe tāra sukha haya,",
+            "sei sukha mama",
+            "nija sukhe duḥkhe mora",
+            "sarbadāi sama 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "bhakatibinoda,    saṁyoge[FLAG_HYPHEN_ALPHA]biyoge,",
+        "tāhe jāne prāṇeśbara",
+        "tā̃’ra sukhe sukhī,    sei prāṇanātha,",
+        "se kabhu nā haya para 6"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भकतिबिनॊद,    संयॊगॆबियॊगॆ,",
+            "ताहॆ जानॆ प्राणॆश्बर",
+            "तांऽर सुखॆ सुखी,    सॆइ प्राणनाथ,",
+            "सॆ कभु ना हय पर ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভকতিবিনোদ,    সংয়োগেবিয়োগে,",
+            "তাহে জানে প্রাণেশ্বর",
+            "তাংঽর সুখে সুখী,    সেই প্রাণনাথ,",
+            "সে কভু না হয় পর ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭକତିବିନୋଦ,    ସଂୟୋଗେବିୟୋଗେ,",
+            "ତାହେ ଜାନେ ପ୍ରାଣେଶ୍ବର",
+            "ତାଂଽର ସୁଖେ ସୁଖୀ,    ସେଇ ପ୍ରାଣନାଥ,",
+            "ସେ କଭୁ ନା ହୟ ପର ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભકતિબિનોદ,    સંયોગેબિયોગે,",
+            "તાહે જાને પ્રાણેશ્બર",
+            "તાંઽર સુખે સુખી,    સેઇ પ્રાણનાથ,",
+            "સે કભુ ના હય પર ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhakatibinoda,    saṁyoge-biyoge,",
+            "tāhe jāne prāṇeśbara",
+            "tā̃’ra sukhe sukhī,    sei prāṇanātha,",
+            "se kabhu nā haya para 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಕತಿಬಿನೊದ,    ಸಂಯೊಗೆಬಿಯೊಗೆ,",
+            "ತಾಹೆ ಜಾನೆ ಪ್ರಾಣೆಶ್ಬರ",
+            "ತಾಂಽರ ಸುಖೆ ಸುಖೀ,    ಸೆಇ ಪ್ರಾಣನಾಥ,",
+            "ಸೆ ಕಭು ನಾ ಹಯ ಪರ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భకతిబినొద,    సంయొగెబియొగె,",
+            "తాహె జానె ప్రాణెశ్బర",
+            "తాంఽర సుఖె సుఖీ,    సెఇ ప్రాణనాథ,",
+            "సె కభు నా హయ పర 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхакатибино̆да,    сам̣йо̆гэ̆бийо̆гэ̆,",
+            "та̄хэ̆ джа̄нэ̆ пра̄н̣э̆ш́бара",
+            "та̄м̣'ра сукхэ̆ сукхӣ,    сэ̆и пра̄н̣ана̄тха,",
+            "сэ̆ кабху на̄ хайа пара 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭകതിബിനൊദ,    സംയൊഗെബിയൊഗെ,",
+            "താഹെ ജാനെ പ്രാണെശ്ബര",
+            "താംഽര സുഖെ സുഖീ,    സെഇ പ്രാണനാഥ,",
+            "സെ കഭു നാ ഹയ പര 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப⁴கதிபி³னொத³,    ஸம்ʼயொகெ³பி³யொகெ³,",
+            "தாஹெ ஜானெ ப்ராணெஶ்ப³ர",
+            "தாம்ʼ(அ)ர ஸுகெ² ஸுகீ²,    ஸெஇ ப்ராணநாத²,",
+            "ஸெ கபு⁴ நா ஹய பர 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhakatibinoda,    saṁyoge-biyoge,",
+            "tāhe jāne prāṇeśbara",
+            "tā̃’ra sukhe sukhī,    sei prāṇanātha,",
+            "se kabhu nā haya para 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhakatibinoda,    saṁyoge-biyoge,",
+            "tāhe jāne prāṇeśbara",
+            "tā̃’ra sukhe sukhī,    sei prāṇanātha,",
+            "se kabhu nā haya para 6"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "(১)"
+    },
+    {
+      "language_code": "ben",
+      "text": "(অধিকার-ভেদে)"
+    },
+    {
+      "language_code": "ben",
+      "text": "---"
+    },
+    {
+      "language_code": "ben",
+      "text": "আশ্লিষ্য বা পাদরতাং পিনষ্টু মাম্-"
+    },
+    {
+      "language_code": "ben",
+      "text": "অদর্শনান্মর্ম্মহতাং করোতু বা ।"
+    },
+    {
+      "language_code": "ben",
+      "text": "যথা তথা বা বিদধাতু লম্পটো"
+    },
+    {
+      "language_code": "ben",
+      "text": "মৎপ্রাণনাথস্তু স এব নাপরঃ ॥জ॥"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

@@ -1,0 +1,739 @@
+{
+  "uid": "X6",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "গৃহস্থ ও বৈরাগীর প্রতি আদেশ"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "gṛhastha o bairāgīra prati ādeśa"
+    },
+    {
+      "script_code": "Deva",
+      "text": "गृहस्थ ओ बैरागीर प्रति आदेश"
+    },
+    {
+      "script_code": "Telu",
+      "text": "గృహస్థ ఓ బైరాగీర ప్రతి ఆదేశ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಗೃಹಸ್ಥ ಓ ಬೈರಾಗೀರ ಪ್ರತಿ ಆದೇಶ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "க்³ருʼஹஸ்த² ஓ பை³ராகீ³ர ப்ரதி ஆதே³ஶ"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഗൃഹസ്ഥ ഓ ബൈരാഗീര പ്രതി ആദേശ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ગૃહસ્થ ઓ બૈરાગીર પ્રતિ આદેશ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଗୃହସ୍ଥ ଓ ବୈରାଗୀର ପ୍ରତି ଆଦେଶ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "гр̣хастха о баира̄гӣра прати а̄дэш́а"
+    }
+  ],
+  "author_uid": "শ্রীজগদানন্দ পণ্ডিত",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীজগদানন্দ পণ্ডিত"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrī Jagadānanda Paṇḍita"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्री जगदानन्द पण्डित"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీ జగదానంద పండిత"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀ ಜಗದಾನಂದ ಪಂಡಿತ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீ ஜக³தா³னந்த³ பண்டி³த"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീ ജഗദാനന്ദ പണ്ഡിത"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રી જગદાનન્દ પણ્ડિત"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀ ଜଗଦାନନ୍ଦ ପଣ୍ଡିତ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣ джагада̄нанда пан̣д̣ита"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "gṛhastha[FLAG_HYPHEN_ALPHA]bairāgī—dũhe bale gorārāya",
+        "dekha bhāi! nāma binā (yena) dina nāhi yāya 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ग्ढ़स्थबैरागी—दुंहॆ बलॆ गॊराराय",
+            "दॆख भाइ! नाम बिना (यॆन) दिन नाहि याय १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গ্ঢ়স্থবৈরাগী—দুংহে বলে গোরারায়",
+            "দেখ ভাই! নাম বিনা (যেন) দিন নাহি যায় ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗ୍ଢ଼ସ୍ଥବୈରାଗୀ—ଦୁଂହେ ବଲେ ଗୋରାରାୟ",
+            "ଦେଖ ଭାଇ! ନାମ ବିନା (ଯେନ) ଦିନ ନାହି ଯାୟ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગ્ઢ઼સ્થબૈરાગી—દુંહે બલે ગોરારાય",
+            "દેખ ભાઇ! નામ બિના (યેન) દિન નાહિ યાય ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gṛhastha-bairāgī—dũhe bale gorārāya",
+            "dekha bhāi! nāma binā (yena) dina nāhi yāya 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗ್‌ಢ಼ಸ್ಥಬೈರಾಗೀ—ದುಂಹೆ ಬಲೆ ಗೊರಾರಾಯ",
+            "ದೆಖ ಭಾಇ! ನಾಮ ಬಿನಾ (ಯೆನ) ದಿನ ನಾಹಿ ಯಾಯ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గ్ఢస్థబైరాగీ—దుంహె బలె గొరారాయ",
+            "దెఖ భాఇ! నామ బినా (యెన) దిన నాహి యాయ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "гр̤хастхабаира̄гӣ—дум̣хэ̆ балэ̆ го̆ра̄ра̄йа",
+            "дэ̆кха бха̄и! на̄ма бина̄ (йэ̆на) дина на̄хи йа̄йа 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗ്ഢസ്ഥബൈരാഗീ—ദുംഹെ ബലെ ഗൊരാരായ",
+            "ദെഖ ഭാഇ! നാമ ബിനാ (യെന) ദിന നാഹി യായ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "க்³ஃட³ஸ்த²பை³ராகீ³—து³ம்ʼஹெ ப³லெ கொ³ராராய",
+            "தெ³க² பா⁴இ! நாம பி³னா (யென) தி³ன நாஹி யாய 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gṛhastha-bairāgī—dũhe bale gorārāya",
+            "dekha bhāi! nāma binā (yena) dina nāhi yāya 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gṛhastha-bairāgī—dũhe bale gorārāya",
+            "dekha bhāi! nāma binā (yena) dina nāhi yāya 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "bahu aṅga[FLAG_HYPHEN_ALPHA]sādhane bhāi nāhi prayojana",
+        "kṛṣṇanāmāśraye śuddha karaha jībana 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बहु अङ्गसाधनॆ भाइ नाहि प्रयॊजन",
+            "क्ड़्ष्णनामाश्रयॆ शुद्ध करह जीबन २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বহু অঙ্গসাধনে ভাই নাহি প্রয়োজন",
+            "ক্ড়্ষ্ণনামাশ্রয়ে শুদ্ধ করহ জীবন ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବହୁ ଅଙ୍ଗସାଧନେ ଭାଇ ନାହି ପ୍ରୟୋଜନ",
+            "କ୍ଡ଼୍ଷ୍ଣନାମାଶ୍ରୟେ ଶୁଦ୍ଧ କରହ ଜୀବନ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બહુ અઙ્ગસાધને ભાઇ નાહિ પ્રયોજન",
+            "ક્ડ઼્ષ્ણનામાશ્રયે શુદ્ધ કરહ જીબન ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bahu aṅga-sādhane bhāi nāhi prayojana",
+            "kṛṣṇanāmāśraye śuddha karaha jībana 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಹು ಅಂಗಸಾಧನೆ ಭಾಇ ನಾಹಿ ಪ್ರಯೊಜನ",
+            "ಕ್‌ಡ಼್ಷ್ಣನಾಮಾಶ್ರಯೆ ಶುದ್ಧ ಕರಹ ಜೀಬನ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బహు అంగసాధనె భాఇ నాహి ప్రయొజన",
+            "క్డ్ష్ణనామాశ్రయె శుద్ధ కరహ జీబన 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "баху ан̇гаса̄дханэ̆ бха̄и на̄хи прайо̆джана",
+            "кр̤шн̣ана̄ма̄ш́райэ̆ ш́уддха караха джӣбана 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബഹു അംഗസാധനെ ഭാഇ നാഹി പ്രയൊജന",
+            "ക്ഡ്ഷ്ണനാമാശ്രയെ ശുദ്ധ കരഹ ജീബന 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ஹு அங்க³ஸாத⁴னெ பா⁴இ நாஹி ப்ரயொஜன",
+            "க்ஃட்²ஷ்ணநாமாஶ்ரயெ ஶுத்³த⁴ கரஹ ஜீப³ன 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bahu aṅga-sādhane bhāi nāhi prayojana",
+            "kṛṣṇanāmāśraye śuddha karaha jībana 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bahu aṅga-sādhane bhāi nāhi prayojana",
+            "kṛṣṇanāmāśraye śuddha karaha jībana 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "baddhajībe kṛpā kari’, kṛṣṇa haila ‘nāma’",
+        "kali[FLAG_HYPHEN_ALPHA]jībe dayā kari’, kṛṣṇa haila gauradhāma 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बद्धजीबॆ क्ड़्पा करिऽ, क्ड़्ष्ण हैल ‘नामऽ",
+            "कलिजीबॆ दया करिऽ, क्ड़्ष्ण हैल गौरधाम ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বদ্ধজীবে ক্ড়্পা করিঽ, ক্ড়্ষ্ণ হৈল ‘নামঽ",
+            "কলিজীবে দয়া করিঽ, ক্ড়্ষ্ণ হৈল গৌরধাম ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବଦ୍ଧଜୀବେ କ୍ଡ଼୍ପା କରିଽ, କ୍ଡ଼୍ଷ୍ଣ ହୈଲ ‘ନାମଽ",
+            "କଲିଜୀବେ ଦୟା କରିଽ, କ୍ଡ଼୍ଷ୍ଣ ହୈଲ ଗୌରଧାମ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બદ્ધજીબે ક્ડ઼્પા કરિઽ, ક્ડ઼્ષ્ણ હૈલ ‘નામઽ",
+            "કલિજીબે દયા કરિઽ, ક્ડ઼્ષ્ણ હૈલ ગૌરધામ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "baddhajībe kṛpā kari’, kṛṣṇa haila ‘nāma’",
+            "kali-jībe dayā kari’, kṛṣṇa haila gauradhāma 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬದ್ಧಜೀಬೆ ಕ್‌ಡ಼್ಪಾ ಕರಿಽ, ಕ್‌ಡ಼್ಷ್ಣ ಹೈಲ ‘ನಾಮಽ",
+            "ಕಲಿಜೀಬೆ ದಯಾ ಕರಿಽ, ಕ್‌ಡ಼್ಷ್ಣ ಹೈಲ ಗೌರಧಾಮ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బద్ధజీబె క్డ్పా కరిఽ, క్డ్ష్ణ హైల ‘నామఽ",
+            "కలిజీబె దయా కరిఽ, క్డ్ష్ణ హైల గౌరధామ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "баддхаджӣбэ̆ кр̤па̄ кари', кр̤шн̣а хаила ‘на̄ма'",
+            "калиджӣбэ̆ дайа̄ кари', кр̤шн̣а хаила гаурадха̄ма 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബദ്ധജീബെ ക്ഡ്പാ കരിഽ, ക്ഡ്ഷ്ണ ഹൈല ‘നാമഽ",
+            "കലിജീബെ ദയാ കരിഽ, ക്ഡ്ഷ്ണ ഹൈല ഗൗരധാമ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³த்³த⁴ஜீபெ³ க்ஃட்²பா கரி(அ), க்ஃட்²ஷ்ண ஹைல ‘நாம(அ)",
+            "கலிஜீபெ³ த³யா கரி(அ), க்ஃட்²ஷ்ண ஹைல கௌ³ரதா⁴ம 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "baddhajībe kṛpā kari’, kṛṣṇa haila ‘nāma’",
+            "kali-jībe dayā kari’, kṛṣṇa haila gauradhāma 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "baddhajībe kṛpā kari’, kṛṣṇa haila ‘nāma’",
+            "kali-jībe dayā kari’, kṛṣṇa haila gauradhāma 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "ekānta saralabhābe bhaja gaurajana",
+        "tabe ta’ pāibe bhāi śrīkṛṣṇacaraṇa 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎकान्त सरलभाबॆ भज गौरजन",
+            "तबॆ तऽ पाइबॆ भाइ श्रीक्ड़्ष्णचरण ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "একান্ত সরলভাবে ভজ গৌরজন",
+            "তবে তঽ পাইবে ভাই শ্রীক্ড়্ষ্ণচরণ ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏକାନ୍ତ ସରଲଭାବେ ଭଜ ଗୌରଜନ",
+            "ତବେ ତଽ ପାଇବେ ଭାଇ ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣଚରଣ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એકાન્ત સરલભાબે ભજ ગૌરજન",
+            "તબે તઽ પાઇબે ભાઇ શ્રીક્ડ઼્ષ્ણચરણ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ekānta saralabhābe bhaja gaurajana",
+            "tabe ta’ pāibe bhāi śrīkṛṣṇacaraṇa 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎಕಾಂತ ಸರಲಭಾಬೆ ಭಜ ಗೌರಜನ",
+            "ತಬೆ ತಽ ಪಾಇಬೆ ಭಾಇ ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಚರಣ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎకాంత సరలభాబె భజ గౌరజన",
+            "తబె తఽ పాఇబె భాఇ శ్రీక్డ్ష్ణచరణ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆ка̄нта саралабха̄бэ̆ бхаджа гаураджана",
+            "табэ̆ та' па̄ибэ̆ бха̄и ш́рӣкр̤шн̣ачаран̣а 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എകാന്ത സരലഭാബെ ഭജ ഗൗരജന",
+            "തബെ തഽ പാഇബെ ഭാഇ ശ്രീക്ഡ്ഷ്ണചരണ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எகாந்த ஸரலபா⁴பெ³ ப⁴ஜ கௌ³ரஜன",
+            "தபெ³ த(அ) பாஇபெ³ பா⁴இ ஶ்ரீக்ஃட்²ஷ்ணசரண 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ekānta saralabhābe bhaja gaurajana",
+            "tabe ta’ pāibe bhāi śrīkṛṣṇacaraṇa 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ekānta saralabhābe bhaja gaurajana",
+            "tabe ta’ pāibe bhāi śrīkṛṣṇacaraṇa 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "gaurajana saṅga kara ‘gaurāṅga’ baliyā",
+        "‘hare kṛṣṇa’ nāma bala nāciyā nāciyā 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गौरजन सङ्ग कर ‘गौराङ्गऽ बलिया",
+            "‘हरॆ क्ड़्ष्णऽ नाम बल नाचिया नाचिया ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গৌরজন সঙ্গ কর ‘গৌরাঙ্গঽ বলিয়া",
+            "‘হরে ক্ড়্ষ্ণঽ নাম বল নাচিয়া নাচিয়া ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗୌରଜନ ସଙ୍ଗ କର ‘ଗୌରାଙ୍ଗଽ ବଲିୟା",
+            "‘ହରେ କ୍ଡ଼୍ଷ୍ଣଽ ନାମ ବଲ ନାଚିୟା ନାଚିୟା ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગૌરજન સઙ્ગ કર ‘ગૌરાઙ્ગઽ બલિયા",
+            "‘હરે ક્ડ઼્ષ્ણઽ નામ બલ નાચિયા નાચિયા ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gaurajana saṅga kara ‘gaurāṅga’ baliyā",
+            "‘hare kṛṣṇa’ nāma bala nāciyā nāciyā 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗೌರಜನ ಸಂಗ ಕರ ‘ಗೌರಾಂಗಽ ಬಲಿಯಾ",
+            "‘ಹರೆ ಕ್‌ಡ಼್ಷ್ಣಽ ನಾಮ ಬಲ ನಾಚಿಯಾ ನಾಚಿಯಾ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గౌరజన సంగ కర ‘గౌరాంగఽ బలియా",
+            "‘హరె క్డ్ష్ణఽ నామ బల నాచియా నాచియా 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "гаураджана сан̇га кара ‘гаура̄н̇га' балийа̄",
+            "‘харэ̆ кр̤шн̣а' на̄ма бала на̄чийа̄ на̄чийа̄ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗൗരജന സംഗ കര ‘ഗൗരാംഗഽ ബലിയാ",
+            "‘ഹരെ ക്ഡ്ഷ്ണഽ നാമ ബല നാചിയാ നാചിയാ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கௌ³ரஜன ஸங்க³ கர ‘கௌ³ராங்க³(அ) ப³லியா",
+            "‘ஹரெ க்ஃட்²ஷ்ண(அ) நாம ப³ல நாசியா நாசியா 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gaurajana saṅga kara ‘gaurāṅga’ baliyā",
+            "‘hare kṛṣṇa’ nāma bala nāciyā nāciyā 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gaurajana saṅga kara ‘gaurāṅga’ baliyā",
+            "‘hare kṛṣṇa’ nāma bala nāciyā nāciyā 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "acire pāibe bhāi nāma[FLAG_HYPHEN_ALPHA]premadhana",
+        "yāhā bilāite prabhura nade’ āgamana 6"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अचिरॆ पाइबॆ भाइ नामप्रॆमधन",
+            "याहा बिलाइतॆ प्रभुर नदॆऽ आगमन ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অচিরে পাইবে ভাই নামপ্রেমধন",
+            "যাহা বিলাইতে প্রভুর নদেঽ আগমন ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅଚିରେ ପାଇବେ ଭାଇ ନାମପ୍ରେମଧନ",
+            "ଯାହା ବିଲାଇତେ ପ୍ରଭୁର ନଦେଽ ଆଗମନ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અચિરે પાઇબે ભાઇ નામપ્રેમધન",
+            "યાહા બિલાઇતે પ્રભુર નદેઽ આગમન ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "acire pāibe bhāi nāma-premadhana",
+            "yāhā bilāite prabhura nade’ āgamana 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅಚಿರೆ ಪಾಇಬೆ ಭಾಇ ನಾಮಪ್ರೆಮಧನ",
+            "ಯಾಹಾ ಬಿಲಾಇತೆ ಪ್ರಭುರ ನದೆಽ ಆಗಮನ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అచిరె పాఇబె భాఇ నామప్రెమధన",
+            "యాహా బిలాఇతె ప్రభుర నదెఽ ఆగమన 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ачирэ̆ па̄ибэ̆ бха̄и на̄мапрэ̆мадхана",
+            "йа̄ха̄ била̄итэ̆ прабхура надэ̆' а̄гамана 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അചിരെ പാഇബെ ഭാഇ നാമപ്രെമധന",
+            "യാഹാ ബിലാഇതെ പ്രഭുര നദെഽ ആഗമന 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அசிரெ பாஇபெ³ பா⁴இ நாமப்ரெமத⁴ன",
+            "யாஹா பி³லாஇதெ ப்ரபு⁴ர நதெ³(அ) ஆக³மன 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "acire pāibe bhāi nāma-premadhana",
+            "yāhā bilāite prabhura nade’ āgamana 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "acire pāibe bhāi nāma-premadhana",
+            "yāhā bilāite prabhura nade’ āgamana 6"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "৩/৫"
+    },
+    {
+      "language_code": "ben",
+      "text": ""
+    },
+    {
+      "language_code": "ben",
+      "text": "শ্রীপ্রেমবিবর্ত্ত হইতে উদ্ধৃত"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

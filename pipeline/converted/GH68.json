@@ -1,0 +1,823 @@
+{
+ "uid": "GH68",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীবাস-বচন, শ্রবণ করিয়া"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "śrībāsa-bacana, śrabaṇa kariyā"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "śrībāsa[FLAG_HYPHEN_ALPHA]bacana,    śrabaṇa kariyā,",
+    "sādhbī patibratāgaṇa",
+    "śoka parihari’,    mṛta śiśu rākhi’,",
+    "hari[FLAG_HYPHEN_ALPHA]rase dila mana 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्रीबासबचन,    श्रबण करिया,",
+      "साध्बी पतिब्रतागण",
+      "शॊक परिहरिऽ,    म्ड़्त शिशु राखिऽ,",
+      "हरिरसॆ दिल मन १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্রীবাসবচন,    শ্রবণ করিয়া,",
+      "সাধ্বী পতিব্রতাগণ",
+      "শোক পরিহরিঽ,    ম্ড়্ত শিশু রাখিঽ,",
+      "হরিরসে দিল মন ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ରୀବାସବଚନ,    ଶ୍ରବଣ କରିୟା,",
+      "ସାଧ୍ବୀ ପତିବ୍ରତାଗଣ",
+      "ଶୋକ ପରିହରିଽ,    ମ୍ଡ଼୍ତ ଶିଶୁ ରାଖିଽ,",
+      "ହରିରସେ ଦିଲ ମନ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્રીબાસબચન,    શ્રબણ કરિયા,",
+      "સાધ્બી પતિબ્રતાગણ",
+      "શોક પરિહરિઽ,    મ્ડ઼્ત શિશુ રાખિઽ,",
+      "હરિરસે દિલ મન ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śrībāsa-bacana,    śrabaṇa kariyā,",
+      "sādhbī patibratāgaṇa",
+      "śoka parihari’,    mṛta śiśu rākhi’,",
+      "hari-rase dila mana 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ರೀಬಾಸಬಚನ,    ಶ್ರಬಣ ಕರಿಯಾ,",
+      "ಸಾಧ್ಬೀ ಪತಿಬ್ರತಾಗಣ",
+      "ಶೊಕ ಪರಿಹರಿಽ,    ಮ್‌ಡ಼್ತ ಶಿಶು ರಾಖಿಽ,",
+      "ಹರಿರಸೆ ದಿಲ ಮನ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్రీబాసబచన,    శ్రబణ కరియా,",
+      "సాధ్బీ పతిబ్రతాగణ",
+      "శొక పరిహరిఽ,    మ్డ్త శిశు రాఖిఽ,",
+      "హరిరసె దిల మన 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́рӣба̄сабачана,    ш́рабан̣а карийа̄,",
+      "са̄дхбӣ патибрата̄ган̣а",
+      "ш́о̆ка парихари',    мр̤та ш́иш́у ра̄кхи',",
+      "харирасэ̆ дила мана 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്രീബാസബചന,    ശ്രബണ കരിയാ,",
+      "സാധ്ബീ പതിബ്രതാഗണ",
+      "ശൊക പരിഹരിഽ,    മ്ഡ്ത ശിശു രാഖിഽ,",
+      "ഹരിരസെ ദില മന 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்ரீபா³ஸப³சன,    ஶ்ரப³ண கரியா,",
+      "ஸாத்⁴பீ³ பதிப்³ரதாக³ண",
+      "ஶொக பரிஹரி(அ),    ம்ஃட்²த ஶிஶு ராகி²(அ),",
+      "ஹரிரஸெ தி³ல மன 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śrībāsa-bacana,    śrabaṇa kariyā,",
+      "sādhbī patibratāgaṇa",
+      "śoka parihari’,    mṛta śiśu rākhi’,",
+      "hari-rase dila mana 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śrībāsa-bacana,    śrabaṇa kariyā,",
+      "sādhbī patibratāgaṇa",
+      "śoka parihari’,    mṛta śiśu rākhi’,",
+      "hari-rase dila mana 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "śrībāsa takhana,    ānande mātiyā,",
+    "aṅgane āila punaḥ",
+    "nāce gorā[FLAG_HYPHEN_ALPHA]sane,    sakala pāsari,",
+    "gāya nandasuta[FLAG_HYPHEN_ALPHA]guṇa 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्रीबास तखन,    आनन्दॆ मातिया,",
+      "अङ्गनॆ आइल पुनः",
+      "नाचॆ गॊरासनॆ,    सकल पासरि,",
+      "गाय नन्दसुतगुण २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্রীবাস তখন,    আনন্দে মাতিয়া,",
+      "অঙ্গনে আইল পুনঃ",
+      "নাচে গোরাসনে,    সকল পাসরি,",
+      "গায় নন্দসুতগুণ ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ରୀବାସ ତଖନ,    ଆନନ୍ଦେ ମାତିୟା,",
+      "ଅଙ୍ଗନେ ଆଇଲ ପୁନଃ",
+      "ନାଚେ ଗୋରାସନେ,    ସକଲ ପାସରି,",
+      "ଗାୟ ନନ୍ଦସୁତଗୁଣ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્રીબાસ તખન,    આનન્દે માતિયા,",
+      "અઙ્ગને આઇલ પુનઃ",
+      "નાચે ગોરાસને,    સકલ પાસરિ,",
+      "ગાય નન્દસુતગુણ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śrībāsa takhana,    ānande mātiyā,",
+      "aṅgane āila punaḥ",
+      "nāce gorā-sane,    sakala pāsari,",
+      "gāya nandasuta-guṇa 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ರೀಬಾಸ ತಖನ,    ಆನಂದೆ ಮಾತಿಯಾ,",
+      "ಅಂಗನೆ ಆಇಲ ಪುನಃ",
+      "ನಾಚೆ ಗೊರಾಸನೆ,    ಸಕಲ ಪಾಸರಿ,",
+      "ಗಾಯ ನಂದಸುತಗುಣ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్రీబాస తఖన,    ఆనందె మాతియా,",
+      "అంగనె ఆఇల పునః",
+      "నాచె గొరాసనె,    సకల పాసరి,",
+      "గాయ నందసుతగుణ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́рӣба̄са такхана,    а̄нандэ̆ ма̄тийа̄,",
+      "ан̇ганэ̆ а̄ила пунах̣",
+      "на̄чэ̆ го̆ра̄санэ̆,    сакала па̄сари,",
+      "га̄йа нандасутагун̣а 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്രീബാസ തഖന,    ആനന്ദെ മാതിയാ,",
+      "അംഗനെ ആഇല പുനഃ",
+      "നാചെ ഗൊരാസനെ,    സകല പാസരി,",
+      "ഗായ നന്ദസുതഗുണ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்ரீபா³ஸ தக²ன,    ஆனந்தெ³ மாதியா,",
+      "அங்க³னெ ஆஇல புன꞉",
+      "நாசெ கொ³ராஸனெ,    ஸகல பாஸரி,",
+      "கா³ய நந்த³ஸுதகு³ண 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śrībāsa takhana,    ānande mātiyā,",
+      "aṅgane āila punaḥ",
+      "nāce gorā-sane,    sakala pāsari,",
+      "gāya nandasuta-guṇa 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śrībāsa takhana,    ānande mātiyā,",
+      "aṅgane āila punaḥ",
+      "nāce gorā-sane,    sakala pāsari,",
+      "gāya nandasuta-guṇa 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "cāri daṇḍa rātre,    marila kumāra,",
+    "aṅgane keha nā jāne",
+    "śrīnāma[FLAG_HYPHEN_ALPHA]maṅgale,    tṛtīya prahara,",
+    "rajanī atīta gāne 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "चारि दण्ड रात्रॆ,    मरिल कुमार,",
+      "अङ्गनॆ कॆह ना जानॆ",
+      "श्रीनाममङ्गलॆ,    त्ड़्तीय प्रहर,",
+      "रजनी अतीत गानॆ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "চারি দণ্ড রাত্রে,    মরিল কুমার,",
+      "অঙ্গনে কেহ না জানে",
+      "শ্রীনামমঙ্গলে,    ৎড়্তীয় প্রহর,",
+      "রজনী অতীত গানে ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଚାରି ଦଣ୍ଡ ରାତ୍ରେ,    ମରିଲ କୁମାର,",
+      "ଅଙ୍ଗନେ କେହ ନା ଜାନେ",
+      "ଶ୍ରୀନାମମଙ୍ଗଲେ,    ତ୍ଡ଼୍ତୀୟ ପ୍ରହର,",
+      "ରଜନୀ ଅତୀତ ଗାନେ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ચારિ દણ્ડ રાત્રે,    મરિલ કુમાર,",
+      "અઙ્ગને કેહ ના જાને",
+      "શ્રીનામમઙ્ગલે,    ત્ડ઼્તીય પ્રહર,",
+      "રજની અતીત ગાને ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "cāri daṇḍa rātre,    marila kumāra,",
+      "aṅgane keha nā jāne",
+      "śrīnāma-maṅgale,    tṛtīya prahara,",
+      "rajanī atīta gāne 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಚಾರಿ ದಂಡ ರಾತ್ರೆ,    ಮರಿಲ ಕುಮಾರ,",
+      "ಅಂಗನೆ ಕೆಹ ನಾ ಜಾನೆ",
+      "ಶ್ರೀನಾಮಮಂಗಲೆ,    ತ್‌ಡ಼್ತೀಯ ಪ್ರಹರ,",
+      "ರಜನೀ ಅತೀತ ಗಾನೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "చారి దండ రాత్రె,    మరిల కుమార,",
+      "అంగనె కెహ నా జానె",
+      "శ్రీనామమంగలె,    త్డ్తీయ ప్రహర,",
+      "రజనీ అతీత గానె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ча̄ри дан̣д̣а ра̄трэ̆,    марила кума̄ра,",
+      "ан̇ганэ̆ кэ̆ха на̄ джа̄нэ̆",
+      "ш́рӣна̄маман̇галэ̆,    тр̤тӣйа прахара,",
+      "раджанӣ атӣта га̄нэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ചാരി ദണ്ഡ രാത്രെ,    മരില കുമാര,",
+      "അംഗനെ കെഹ നാ ജാനെ",
+      "ശ്രീനാമമംഗലെ,    ത്ഡ്തീയ പ്രഹര,",
+      "രജനീ അതീത ഗാനെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "சாரி த³ண்ட³ ராத்ரெ,    மரில குமார,",
+      "அங்க³னெ கெஹ நா ஜானெ",
+      "ஶ்ரீநாமமங்க³லெ,    த்ஃட்²தீய ப்ரஹர,",
+      "ரஜனீ அதீத கா³னெ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "cāri daṇḍa rātre,    marila kumāra,",
+      "aṅgane keha nā jāne",
+      "śrīnāma-maṅgale,    tṛtīya prahara,",
+      "rajanī atīta gāne 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "cāri daṇḍa rātre,    marila kumāra,",
+      "aṅgane keha nā jāne",
+      "śrīnāma-maṅgale,    tṛtīya prahara,",
+      "rajanī atīta gāne 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "kīrtana bhāṅgile,    kahe gaurahari,",
+    "āji kena pāi duḥkha ?",
+    "bujhi, ei gṛhe,    kichu amaṅgala,",
+    "ghaṭiyā harila sukha 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कीर्तन भाङ्गिलॆ,    कहॆ गौरहरि,",
+      "आजि कॆन पाइ दुःख ?",
+      "बुझि, ऎइ ग्ढ़ॆ,    किछु अमङ्गल,",
+      "घटिया हरिल सुख ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কীর্তন ভাঙ্গিলে,    কহে গৌরহরি,",
+      "আজি কেন পাই দুঃখ ?",
+      "বুঝি, এই গ্ঢ়ে,    কিছু অমঙ্গল,",
+      "ঘটিয়া হরিল সুখ ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କୀର୍ତନ ଭାଙ୍ଗିଲେ,    କହେ ଗୌରହରି,",
+      "ଆଜି କେନ ପାଇ ଦୁଃଖ ?",
+      "ବୁଝି, ଏଇ ଗ୍ଢ଼େ,    କିଛୁ ଅମଙ୍ଗଲ,",
+      "ଘଟିୟା ହରିଲ ସୁଖ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કીર્તન ભાઙ્ગિલે,    કહે ગૌરહરિ,",
+      "આજિ કેન પાઇ દુઃખ ?",
+      "બુઝિ, એઇ ગ્ઢ઼ે,    કિછુ અમઙ્ગલ,",
+      "ઘટિયા હરિલ સુખ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kīrtana bhāṅgile,    kahe gaurahari,",
+      "āji kena pāi duḥkha ?",
+      "bujhi, ei gṛhe,    kichu amaṅgala,",
+      "ghaṭiyā harila sukha 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕೀರ್ತನ ಭಾಂಗಿಲೆ,    ಕಹೆ ಗೌರಹರಿ,",
+      "ಆಜಿ ಕೆನ ಪಾಇ ದುಃಖ ?",
+      "ಬುಝಿ, ಎಇ ಗ್‌ಢ಼ೆ,    ಕಿಛು ಅಮಂಗಲ,",
+      "ಘಟಿಯಾ ಹರಿಲ ಸುಖ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కీర్తన భాంగిలె,    కహె గౌరహరి,",
+      "ఆజి కెన పాఇ దుఃఖ ?",
+      "బుఝి, ఎఇ గ్ఢె,    కిఛు అమంగల,",
+      "ఘటియా హరిల సుఖ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кӣртана бха̄н̇гилэ̆,    кахэ̆ гаурахари,",
+      "а̄джи кэ̆на па̄и дух̣кха ?",
+      "буджхи, э̆и гр̤хэ̆,    кичху аман̇гала,",
+      "гхат̣ийа̄ харила сукха 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കീർതന ഭാംഗിലെ,    കഹെ ഗൗരഹരി,",
+      "ആജി കെന പാഇ ദുഃഖ ?",
+      "ബുഝി, എഇ ഗ്ഢെ,    കിഛു അമംഗല,",
+      "ഘടിയാ ഹരില സുഖ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கீர்தன பா⁴ங்கி³லெ,    கஹெ கௌ³ரஹரி,",
+      "ஆஜி கென பாஇ து³꞉க² ?",
+      "பு³ஜி², எஇ க்³ஃடெ³,    கிசு² அமங்க³ல,",
+      "க⁴டியா ஹரில ஸுக² 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kīrtana bhāṅgile,    kahe gaurahari,",
+      "āji kena pāi duḥkha ?",
+      "bujhi, ei gṛhe,    kichu amaṅgala,",
+      "ghaṭiyā harila sukha 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kīrtana bhāṅgile,    kahe gaurahari,",
+      "āji kena pāi duḥkha ?",
+      "bujhi, ei gṛhe,    kichu amaṅgala,",
+      "ghaṭiyā harila sukha 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "tabe bhaktajana,    nibedana kare,",
+    "śrībāsa[FLAG_HYPHEN_ALPHA]śiśura kathā",
+    "śuni’ gorārāya,    bale, hāya hāya,",
+    "marame pāinu byathā 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तबॆ भक्तजन,    निबॆदन करॆ,",
+      "श्रीबासशिशुर कथा",
+      "शुनिऽ गॊराराय,    बलॆ, हाय हाय,",
+      "मरमॆ पाइनु ब्यथा ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তবে ভক্তজন,    নিবেদন করে,",
+      "শ্রীবাসশিশুর কথা",
+      "শুনিঽ গোরারায়,    বলে, হায় হায়,",
+      "মরমে পাইনু ব্যথা ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତବେ ଭକ୍ତଜନ,    ନିବେଦନ କରେ,",
+      "ଶ୍ରୀବାସଶିଶୁର କଥା",
+      "ଶୁନିଽ ଗୋରାରାୟ,    ବଲେ, ହାୟ ହାୟ,",
+      "ମରମେ ପାଇନୁ ବ୍ୟଥା ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તબે ભક્તજન,    નિબેદન કરે,",
+      "શ્રીબાસશિશુર કથા",
+      "શુનિઽ ગોરારાય,    બલે, હાય હાય,",
+      "મરમે પાઇનુ બ્યથા ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tabe bhaktajana,    nibedana kare,",
+      "śrībāsa-śiśura kathā",
+      "śuni’ gorārāya,    bale, hāya hāya,",
+      "marame pāinu byathā 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಬೆ ಭಕ್ತಜನ,    ನಿಬೆದನ ಕರೆ,",
+      "ಶ್ರೀಬಾಸಶಿಶುರ ಕಥಾ",
+      "ಶುನಿಽ ಗೊರಾರಾಯ,    ಬಲೆ, ಹಾಯ ಹಾಯ,",
+      "ಮರಮೆ ಪಾಇನು ಬ್ಯಥಾ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తబె భక్తజన,    నిబెదన కరె,",
+      "శ్రీబాసశిశుర కథా",
+      "శునిఽ గొరారాయ,    బలె, హాయ హాయ,",
+      "మరమె పాఇను బ్యథా 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "табэ̆ бхактаджана,    нибэ̆дана карэ̆,",
+      "ш́рӣба̄саш́иш́ура катха̄",
+      "ш́уни' го̆ра̄ра̄йа,    балэ̆, ха̄йа ха̄йа,",
+      "марамэ̆ па̄ину бйатха̄ 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തബെ ഭക്തജന,    നിബെദന കരെ,",
+      "ശ്രീബാസശിശുര കഥാ",
+      "ശുനിഽ ഗൊരാരായ,    ബലെ, ഹായ ഹായ,",
+      "മരമെ പാഇനു ബ്യഥാ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தபெ³ ப⁴க்தஜன,    நிபெ³த³ன கரெ,",
+      "ஶ்ரீபா³ஸஶிஶுர கதா²",
+      "ஶுனி(அ) கொ³ராராய,    ப³லெ, ஹாய ஹாய,",
+      "மரமெ பாஇனு ப்³யதா² 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tabe bhaktajana,    nibedana kare,",
+      "śrībāsa-śiśura kathā",
+      "śuni’ gorārāya,    bale, hāya hāya,",
+      "marame pāinu byathā 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tabe bhaktajana,    nibedana kare,",
+      "śrībāsa-śiśura kathā",
+      "śuni’ gorārāya,    bale, hāya hāya,",
+      "marame pāinu byathā 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "keha nā kahile,    āmāre takhana,",
+    "bipada[FLAG_HYPHEN_ALPHA]saṁbāda sabe",
+    "bhakatibinoda,    bhakata[FLAG_HYPHEN_ALPHA]batsala,",
+    "snehete majila tabe 6"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कॆह ना कहिलॆ,    आमारॆ तखन,",
+      "बिपदसंबाद सबॆ",
+      "भकतिबिनॊद,    भकतबत्सल,",
+      "स्नॆहॆतॆ मजिल तबॆ ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কেহ না কহিলে,    আমারে তখন,",
+      "বিপদসম্বাদ সবে",
+      "ভকতিবিনোদ,    ভকতবৎসল,",
+      "স্নেহেতে মজিল তবে ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କେହ ନା କହିଲେ,    ଆମାରେ ତଖନ,",
+      "ବିପଦସମ୍ବାଦ ସବେ",
+      "ଭକତିବିନୋଦ,    ଭକତବତ୍ସଲ,",
+      "ସ୍ନେହେତେ ମଜିଲ ତବେ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કેહ ના કહિલે,    આમારે તખન,",
+      "બિપદસંબાદ સબે",
+      "ભકતિબિનોદ,    ભકતબત્સલ,",
+      "સ્નેહેતે મજિલ તબે ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "keha nā kahile,    āmāre takhana,",
+      "bipada-saṁbāda sabe",
+      "bhakatibinoda,    bhakata-batsala,",
+      "snehete majila tabe 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕೆಹ ನಾ ಕಹಿಲೆ,    ಆಮಾರೆ ತಖನ,",
+      "ಬಿಪದಸಂಬಾದ ಸಬೆ",
+      "ಭಕತಿಬಿನೊದ,    ಭಕತಬತ್ಸಲ,",
+      "ಸ್ನೆಹೆತೆ ಮಜಿಲ ತಬೆ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కెహ నా కహిలె,    ఆమారె తఖన,",
+      "బిపదసంబాద సబె",
+      "భకతిబినొద,    భకతబత్సల,",
+      "స్నెహెతె మజిల తబె 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кэ̆ха на̄ кахилэ̆,    а̄ма̄рэ̆ такхана,",
+      "бипадасам̣ба̄да сабэ̆",
+      "бхакатибино̆да,    бхакатабатсала,",
+      "снэ̆хэ̆тэ̆ маджила табэ̆ 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കെഹ നാ കഹിലെ,    ആമാരെ തഖന,",
+      "ബിപദസംബാദ സബെ",
+      "ഭകതിബിനൊദ,    ഭകതബത്സല,",
+      "സ്നെഹെതെ മജില തബെ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கெஹ நா கஹிலெ,    ஆமாரெ தக²ன,",
+      "பி³பத³ஸம்பா³த³ ஸபெ³",
+      "ப⁴கதிபி³னொத³,    ப⁴கதப³த்ஸல,",
+      "ஸ்னெஹெதெ மஜில தபெ³ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "keha nā kahile,    āmāre takhana,",
+      "bipada-saṁbāda sabe",
+      "bhakatibinoda,    bhakata-batsala,",
+      "snehete majila tabe 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "keha nā kahile,    āmāre takhana,",
+      "bipada-saṁbāda sabe",
+      "bhakatibinoda,    bhakata-batsala,",
+      "snehete majila tabe 6"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শোক-শাতন ৫/১২"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

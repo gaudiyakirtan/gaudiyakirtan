@@ -1,0 +1,489 @@
+{
+  "uid": "O4",
+  "language_of_origin": "ori",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "বেড় হেলানি আম, প্রভু ত্যজি রত্নাসন"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "beḓa helāni āma, prabhu tyaji ratnāsana"
+    },
+    {
+      "script_code": "Deva",
+      "text": "बेḓअ हेलानि आम, प्रभु त्यजि रत्नासन"
+    },
+    {
+      "script_code": "Telu",
+      "text": "బేḓఅ హేలాని ఆమ, ప్రభు త్యజి రత్నాసన"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಬೇḓಅ ಹೇಲಾನಿ ಆಮ, ಪ್ರಭು ತ್ಯಜಿ ರತ್ನಾಸನ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "பே³ḓஅ ஹேலானி ஆம, ப்ரபு⁴ த்யஜி ரத்னாஸன"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ബേḓഅ ഹേലാനി ആമ, പ്രഭു ത്യജി രത്നാസന"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "બેḓઅ હેલાનિ આમ, પ્રભુ ત્યજિ રત્નાસન"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ବେḓଅ ହେଲାନି ଆମ, ପ୍ରଭୁ ତ୍ୟଜି ରତ୍ନାସନ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "бэḓа хэла̄ни а̄ма, прабху тйаджи ратна̄сана"
+    }
+  ],
+  "author_uid": "?",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "অজানা লেখক"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Unknown Author"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "beḓa helāni āma, prabhu tyaji ratnāsana",
+        "śrīnīḓācaḓa śikhari ha·i, patha cāhi basilāni 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बॆḓअ हॆलानि आम, प्रभु त्यजि रत्नासन",
+            "श्रीनीḓआचḓअ शिखरि हइ, पथ चाहि बसिलानि १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বেḓঅ হেলানি আম, প্রভু ত্যজি রত্নাসন",
+            "শ্রীনীḓআচḓঅ শিখরি হই, পথ চাহি বসিলানি ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବେḓଅ ହେଲାନି ଆମ, ପ୍ରଭୁ ତ୍ୟଜି ରତ୍ନାସନ",
+            "ଶ୍ରୀନୀḓଆଚḓଅ ଶିଖରି ହଇ, ପଥ ଚାହି ବସିଲାନି ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બેḓઅ હેલાનિ આમ, પ્રભુ ત્યજિ રત્નાસન",
+            "શ્રીનીḓઆચḓઅ શિખરિ હઇ, પથ ચાહિ બસિલાનિ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "beḓa helāni āma, prabhu tyaji ratnāsana",
+            "śrīnīḓācaḓa śikhari ha·i, patha cāhi basilāni 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬೆḓಅ ಹೆಲಾನಿ ಆಮ, ಪ್ರಭು ತ್ಯಜಿ ರತ್ನಾಸನ",
+            "ಶ್ರೀನೀḓಆಚḓಅ ಶಿಖರಿ ಹಇ, ಪಥ ಚಾಹಿ ಬಸಿಲಾನಿ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బెḓఅ హెలాని ఆమ, ప్రభు త్యజి రత్నాసన",
+            "శ్రీనీḓఆచḓఅ శిఖరి హఇ, పథ చాహి బసిలాని 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бэ̆ḓа хэ̆ла̄ни а̄ма, прабху тйаджи ратна̄сана",
+            "ш́рӣнӣḓа̄чаḓа ш́икхари хаи, патха ча̄хи басила̄ни 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബെḓഅ ഹെലാനി ആമ, പ്രഭു ത്യജി രത്നാസന",
+            "ശ്രീനീḓആചḓഅ ശിഖരി ഹഇ, പഥ ചാഹി ബസിലാനി 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பெ³ḓஅ ஹெலானி ஆம, ப்ரபு⁴ த்யஜி ரத்னாஸன",
+            "ஶ்ரீநீḓஆசḓஅ ஶிக²ரி ஹஇ, பத² சாஹி ப³ஸிலானி 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "beḍa helāni āma, prabhu tyaji ratnāsana",
+            "śrīnīḍācaḍa śikhari ha·i, patha cāhi basilāni 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "beḓa helāni āma, prabhu tyaji ratnāsana",
+            "śrīnīḓācaḓa śikhari ha·i, patha cāhi basilāni 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "kañja badanī śrīrādhā, parāṇa jugāye bādhā",
+        "nayana[FLAG_HYPHEN_ALPHA]lotaka sadā gaḓa·uchanti yaśodā 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कञ्ज बदनी श्रीराधा, पराण जुगायॆ बाधा",
+            "नयनलॊतक सदा गḓअउछन्ति यशॊदा २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কঞ্জ বদনী শ্রীরাধা, পরাণ জুগায়ে বাধা",
+            "নয়নলোতক সদা গḓঅউছন্তি যশোদা ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କଞ୍ଜ ବଦନୀ ଶ୍ରୀରାଧା, ପରାଣ ଜୁଗାୟେ ବାଧା",
+            "ନୟନଲୋତକ ସଦା ଗḓଅଉଛନ୍ତି ଯଶୋଦା ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કઞ્જ બદની શ્રીરાધા, પરાણ જુગાયે બાધા",
+            "નયનલોતક સદા ગḓઅઉછન્તિ યશોદા ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kañja badanī śrīrādhā, parāṇa jugāye bādhā",
+            "nayana-lotaka sadā gaḓa·uchanti yaśodā 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕಂಜ ಬದನೀ ಶ್ರೀರಾಧಾ, ಪರಾಣ ಜುಗಾಯೆ ಬಾಧಾ",
+            "ನಯನಲೊತಕ ಸದಾ ಗḓಅಉಛಂತಿ ಯಶೊದಾ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కంజ బదనీ శ్రీరాధా, పరాణ జుగాయె బాధా",
+            "నయనలొతక సదా గḓఅఉఛంతి యశొదా 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кан̃джа баданӣ ш́рӣра̄дха̄, пара̄н̣а джуга̄йэ̆ ба̄дха̄",
+            "найанало̆така сада̄ гаḓаучханти йаш́о̆да̄ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കഞ്ജ ബദനീ ശ്രീരാധാ, പരാണ ജുഗായെ ബാധാ",
+            "നയനലൊതക സദാ ഗḓഅഉഛന്തി യശൊദാ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கஞ்ஜ ப³த³னீ ஶ்ரீராதா⁴, பராண ஜுகா³யெ பா³தா⁴",
+            "நயனலொதக ஸதா³ க³ḓஅஉச²ந்தி யஶொதா³ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kañja badanī śrīrādhā, parāṇa jugāye bādhā",
+            "nayana-lotaka sadā gaḍa·uchanti yaśodā 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kañja badanī śrīrādhā, parāṇa jugāye bādhā",
+            "nayana-lotaka sadā gaḓa·uchanti yaśodā 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "dbāparara abasāna, helānī jagamohana",
+        "baḓa deuḓe taḓe, ghaṇṭā ārati helāni 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "द्बापरर अबसान, हॆलानी जगमॊहन",
+            "बḓअ दॆउḓऎ तḓऎ, घण्टा आरति हॆलानि ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "দ্বাপরর অবসান, হেলানী জগমোহন",
+            "বḓঅ দেউḓএ তḓএ, ঘণ্টা আরতি হেলানি ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଦ୍ବାପରର ଅବସାନ, ହେଲାନୀ ଜଗମୋହନ",
+            "ବḓଅ ଦେଉḓଏ ତḓଏ, ଘଣ୍ଟା ଆରତି ହେଲାନି ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "દ્બાપરર અબસાન, હેલાની જગમોહન",
+            "બḓઅ દેઉḓએ તḓએ, ઘણ્ટા આરતિ હેલાનિ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "dbāparara abasāna, helānī jagamohana",
+            "baḓa deuḓe taḓe, ghaṇṭā ārati helāni 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ದ್ಬಾಪರರ ಅಬಸಾನ, ಹೆಲಾನೀ ಜಗಮೊಹನ",
+            "ಬḓಅ ದೆಉḓಎ ತḓಎ, ಘಂಟಾ ಆರತಿ ಹೆಲಾನಿ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ద్బాపరర అబసాన, హెలానీ జగమొహన",
+            "బḓఅ దెఉḓఎ తḓఎ, ఘంటా ఆరతి హెలాని 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "дба̄парара абаса̄на, хэ̆ла̄нӣ джагамо̆хана",
+            "баḓа дэ̆уḓэ̆ таḓэ̆, гхан̣т̣а̄ а̄рати хэ̆ла̄ни 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ദ്ബാപരര അബസാന, ഹെലാനീ ജഗമൊഹന",
+            "ബḓഅ ദെഉḓഎ തḓഎ, ഘണ്ടാ ആരതി ഹെലാനി 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "த்³பா³பரர அப³ஸான, ஹெலானீ ஜக³மொஹன",
+            "ப³ḓஅ தெ³உḓஎ தḓஎ, க⁴ண்டா ஆரதி ஹெலானி 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "dbāparara abasāna, helānī jagamohana",
+            "baḍa deuḍe taḍe, ghaṇṭā ārati helāni 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "dbāparara abasāna, helānī jagamohana",
+            "baḓa deuḓe taḓe, ghaṇṭā ārati helāni 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "āsa āsa nārāyaṇa, diyabāre daraśana",
+        "kalira kaḓāra rūpa netra paṭe niśi lāni 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "आस आस नारायण, दियबारॆ दरशन",
+            "कलिर कḓआर रूप नॆत्र पटॆ निशि लानि ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "আস আস নারায়ণ, দিয়বারে দরশন",
+            "কলির কḓআর রূপ নেত্র পটে নিশি লানি ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଆସ ଆସ ନାରାୟଣ, ଦିୟବାରେ ଦରଶନ",
+            "କଲିର କḓଆର ରୂପ ନେତ୍ର ପଟେ ନିଶି ଲାନି ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "આસ આસ નારાયણ, દિયબારે દરશન",
+            "કલિર કḓઆર રૂપ નેત્ર પટે નિશિ લાનિ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "āsa āsa nārāyaṇa, diyabāre daraśana",
+            "kalira kaḓāra rūpa netra paṭe niśi lāni 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಆಸ ಆಸ ನಾರಾಯಣ, ದಿಯಬಾರೆ ದರಶನ",
+            "ಕಲಿರ ಕḓಆರ ರೂಪ ನೆತ್ರ ಪಟೆ ನಿಶಿ ಲಾನಿ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఆస ఆస నారాయణ, దియబారె దరశన",
+            "కలిర కḓఆర రూప నెత్ర పటె నిశి లాని 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "а̄са а̄са на̄ра̄йан̣а, дийаба̄рэ̆ дараш́ана",
+            "калира каḓа̄ра рӯпа нэ̆тра пат̣э̆ ниш́и ла̄ни 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ആസ ആസ നാരായണ, ദിയബാരെ ദരശന",
+            "കലിര കḓആര രൂപ നെത്ര പടെ നിശി ലാനി 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஆஸ ஆஸ நாராயண, தி³யபா³ரெ த³ரஶன",
+            "கலிர கḓஆர ரூப நெத்ர படெ நிஶி லானி 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "āsa āsa nārāyaṇa, diyabāre daraśana",
+            "kalira kaḍāra rūpa netra paṭe niśi lāni 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "āsa āsa nārāyaṇa, diyabāre daraśana",
+            "kalira kaḓāra rūpa netra paṭe niśi lāni 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "(৩)"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

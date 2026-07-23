@@ -1,0 +1,1792 @@
+{
+ "uid": "MS36",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ভজহুঁ রে মন"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "bhajahũ re mana"
+  }
+ ],
+ "author_uid": "গোবিন্দ দাস কবিরাজ",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "গোবিন্দ দাস কবিরাজ"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Govinda dāsa Kavirāja"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "bhajahũ re mana,    śrīnandanandana,",
+    "abhaya caraṇārabinda re",
+    "durllabha mānaba[FLAG_HYPHEN_ALPHA],    janama satsaṅge,",
+    "taraha e bhabasindhu re 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O mind, worship the lotus feet of Śrī Nanda-nandana, which bring fearlessness. This human birth is very rare, so take the association of saintly persons and cross over this ocean of material existence."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "bhajahũ",
+       "worship"
+      ],
+      [
+       "re",
+       "O"
+      ],
+      [
+       "mana",
+       "mind"
+      ],
+      [
+       "śrīnandanandana",
+       "the son of Nanda Mahārāja"
+      ],
+      [
+       "abhaya",
+       "fearless"
+      ],
+      [
+       "caraṇārabinda",
+       "feet + lotus"
+      ],
+      [
+       "re",
+       "oh"
+      ],
+      [
+       "durllabha",
+       "rare"
+      ],
+      [
+       "mānaba",
+       "human"
+      ],
+      [
+       "janama",
+       "birth"
+      ],
+      [
+       "satsaṅge",
+       "saintly + by association"
+      ],
+      [
+       "taraha",
+       "cross over"
+      ],
+      [
+       "e",
+       "this"
+      ],
+      [
+       "bhabasindhu",
+       "material existence + ocean"
+      ],
+      [
+       "re",
+       "oh"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "भजहुं",
+       "worship"
+      ],
+      [
+       "रॆ",
+       "O"
+      ],
+      [
+       "मन",
+       "mind"
+      ],
+      [
+       "श्रीनन्दनन्दन",
+       "the son of Nanda Mahārāja"
+      ],
+      [
+       "अभय",
+       "fearless"
+      ],
+      [
+       "चरणारबिन्द",
+       "feet + lotus"
+      ],
+      [
+       "रॆ",
+       "oh"
+      ],
+      [
+       "दुर्ल्लभ",
+       "rare"
+      ],
+      [
+       "मानब",
+       "human"
+      ],
+      [
+       "जनम",
+       "birth"
+      ],
+      [
+       "सत्सङ्गॆ",
+       "saintly + by association"
+      ],
+      [
+       "तरह",
+       "cross over"
+      ],
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "भबसिन्धु",
+       "material existence + ocean"
+      ],
+      [
+       "रॆ",
+       "oh"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ভজহুং",
+       "worship"
+      ],
+      [
+       "রে",
+       "O"
+      ],
+      [
+       "মন",
+       "mind"
+      ],
+      [
+       "শ্রীনন্দনন্দন",
+       "the son of Nanda Mahārāja"
+      ],
+      [
+       "অভয়",
+       "fearless"
+      ],
+      [
+       "চরণারবিন্দ",
+       "feet + lotus"
+      ],
+      [
+       "রে",
+       "oh"
+      ],
+      [
+       "দুর্ল্লভ",
+       "rare"
+      ],
+      [
+       "মানব",
+       "human"
+      ],
+      [
+       "জনম",
+       "birth"
+      ],
+      [
+       "সৎসঙ্গে",
+       "saintly + by association"
+      ],
+      [
+       "তরহ",
+       "cross over"
+      ],
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "ভবসিন্ধু",
+       "material existence + ocean"
+      ],
+      [
+       "রে",
+       "oh"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ભજહું",
+       "worship"
+      ],
+      [
+       "રે",
+       "O"
+      ],
+      [
+       "મન",
+       "mind"
+      ],
+      [
+       "શ્રીનન્દનન્દન",
+       "the son of Nanda Mahārāja"
+      ],
+      [
+       "અભય",
+       "fearless"
+      ],
+      [
+       "ચરણારબિન્દ",
+       "feet + lotus"
+      ],
+      [
+       "રે",
+       "oh"
+      ],
+      [
+       "દુર્લ્લભ",
+       "rare"
+      ],
+      [
+       "માનબ",
+       "human"
+      ],
+      [
+       "જનમ",
+       "birth"
+      ],
+      [
+       "સત્સઙ્ગે",
+       "saintly + by association"
+      ],
+      [
+       "તરહ",
+       "cross over"
+      ],
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "ભબસિન્ધુ",
+       "material existence + ocean"
+      ],
+      [
+       "રે",
+       "oh"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भजहुं रॆ मन,    श्रीनन्दनन्दन,",
+      "अभय चरणारबिन्द रॆ",
+      "दुर्ल्लभ मानब,    जनम सत्सङ्गॆ,",
+      "तरह ऎ भबसिन्धु रॆ १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভজহুং রে মন,    শ্রীনন্দনন্দন,",
+      "অভয় চরণারবিন্দ রে",
+      "দুর্ল্লভ মানব,    জনম সৎসঙ্গে,",
+      "তরহ এ ভবসিন্ধু রে ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭଜହୁଂ ରେ ମନ,    ଶ୍ରୀନନ୍ଦନନ୍ଦନ,",
+      "ଅଭୟ ଚରଣାରବିନ୍ଦ ରେ",
+      "ଦୁର୍ଲ୍ଲଭ ମାନବ,    ଜନମ ସତ୍ସଙ୍ଗେ,",
+      "ତରହ ଏ ଭବସିନ୍ଧୁ ରେ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભજહું રે મન,    શ્રીનન્દનન્દન,",
+      "અભય ચરણારબિન્દ રે",
+      "દુર્લ્લભ માનબ,    જનમ સત્સઙ્ગે,",
+      "તરહ એ ભબસિન્ધુ રે ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhajahũ re mana,    śrīnandanandana,",
+      "abhaya caraṇārabinda re",
+      "durllabha mānaba-,    janama satsaṅge,",
+      "taraha e bhabasindhu re 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭಜಹುಂ ರೆ ಮನ,    ಶ್ರೀನಂದನಂದನ,",
+      "ಅಭಯ ಚರಣಾರಬಿಂದ ರೆ",
+      "ದುರ್ಲ್ಲಭ ಮಾನಬ,    ಜನಮ ಸತ್ಸಂಗೆ,",
+      "ತರಹ ಎ ಭಬಸಿಂಧು ರೆ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భజహుం రె మన,    శ్రీనందనందన,",
+      "అభయ చరణారబింద రె",
+      "దుర్ల్లభ మానబ,    జనమ సత్సంగె,",
+      "తరహ ఎ భబసింధు రె 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бхаджахум̣ рэ̆ мана,    ш́рӣнанданандана,",
+      "абхайа чаран̣а̄рабинда рэ̆",
+      "дурллабха ма̄наба,    джанама сатсан̇гэ̆,",
+      "тараха э̆ бхабасиндху рэ̆ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭജഹും രെ മന,    ശ്രീനന്ദനന്ദന,",
+      "അഭയ ചരണാരബിന്ദ രെ",
+      "ദുർല്ലഭ മാനബ,    ജനമ സത്സംഗെ,",
+      "തരഹ എ ഭബസിന്ധു രെ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப⁴ஜஹும்ʼ ரெ மன,    ஶ்ரீநந்த³நந்த³ன,",
+      "அப⁴ய சரணாரபி³ந்த³ ரெ",
+      "து³ர்ல்லப⁴ மானப³,    ஜனம ஸத்ஸங்கெ³,",
+      "தரஹ எ ப⁴ப³ஸிந்து⁴ ரெ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhajahũ re mana,    śrīnandanandana,",
+      "abhaya caraṇārabinda re",
+      "durllabha mānaba-,    janama satsaṅge,",
+      "taraha e bhabasindhu re 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhajahũ re mana,    śrīnandanandana,",
+      "abhaya caraṇārabinda re",
+      "durllabha mānaba-,    janama satsaṅge,",
+      "taraha e bhabasindhu re 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "śīta[FLAG_HYPHEN_ALPHA]ātapa,    bāta[FLAG_HYPHEN_ALPHA]bariṣaṇa,",
+    "e dina yāminī jāgi’ re",
+    "biphale sebinu,    kṛpaṇa durajana,",
+    "capala sukha[FLAG_HYPHEN_ALPHA]laba lāgi’ re 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Suffering the pains of the cold, heat, wind, and rain, I remain sleepless day and night. I have uselessly served miserly and wicked men for a fraction of momentary happiness."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śīta",
+       "cold"
+      ],
+      [
+       "ātapa",
+       "heat"
+      ],
+      [
+       "bāta",
+       "wind"
+      ],
+      [
+       "bariṣaṇa",
+       "rain"
+      ],
+      [
+       "e",
+       "this"
+      ],
+      [
+       "dina",
+       "day"
+      ],
+      [
+       "yāminī",
+       "night"
+      ],
+      [
+       "jāgi’",
+       "having remained awake"
+      ],
+      [
+       "re",
+       "oh"
+      ],
+      [
+       "biphale",
+       "uselessly"
+      ],
+      [
+       "sebinu",
+       "I have served"
+      ],
+      [
+       "kṛpaṇa",
+       "miserly"
+      ],
+      [
+       "durajana",
+       "wicked men"
+      ],
+      [
+       "capala",
+       "momentary"
+      ],
+      [
+       "sukha",
+       "happiness"
+      ],
+      [
+       "laba",
+       "fraction"
+      ],
+      [
+       "lāgi’",
+       "for"
+      ],
+      [
+       "re",
+       "oh"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "शीत",
+       "cold"
+      ],
+      [
+       "आतप",
+       "heat"
+      ],
+      [
+       "बात",
+       "wind"
+      ],
+      [
+       "बरिषण",
+       "rain"
+      ],
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "दिन",
+       "day"
+      ],
+      [
+       "यामिनी",
+       "night"
+      ],
+      [
+       "जागिऽ",
+       "having remained awake"
+      ],
+      [
+       "रॆ",
+       "oh"
+      ],
+      [
+       "बिफलॆ",
+       "uselessly"
+      ],
+      [
+       "सॆबिनु",
+       "I have served"
+      ],
+      [
+       "क्ड़्पण",
+       "miserly"
+      ],
+      [
+       "दुरजन",
+       "wicked men"
+      ],
+      [
+       "चपल",
+       "momentary"
+      ],
+      [
+       "सुख",
+       "happiness"
+      ],
+      [
+       "लब",
+       "fraction"
+      ],
+      [
+       "लागिऽ",
+       "for"
+      ],
+      [
+       "रॆ",
+       "oh"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শীত",
+       "cold"
+      ],
+      [
+       "আতপ",
+       "heat"
+      ],
+      [
+       "বাত",
+       "wind"
+      ],
+      [
+       "বরিষণ",
+       "rain"
+      ],
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "দিন",
+       "day"
+      ],
+      [
+       "যামিনী",
+       "night"
+      ],
+      [
+       "জাগিঽ",
+       "having remained awake"
+      ],
+      [
+       "রে",
+       "oh"
+      ],
+      [
+       "বিফলে",
+       "uselessly"
+      ],
+      [
+       "সেবিনু",
+       "I have served"
+      ],
+      [
+       "ক্ড়্পণ",
+       "miserly"
+      ],
+      [
+       "দুরজন",
+       "wicked men"
+      ],
+      [
+       "চপল",
+       "momentary"
+      ],
+      [
+       "সুখ",
+       "happiness"
+      ],
+      [
+       "লব",
+       "fraction"
+      ],
+      [
+       "লাগিঽ",
+       "for"
+      ],
+      [
+       "রে",
+       "oh"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શીત",
+       "cold"
+      ],
+      [
+       "આતપ",
+       "heat"
+      ],
+      [
+       "બાત",
+       "wind"
+      ],
+      [
+       "બરિષણ",
+       "rain"
+      ],
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "દિન",
+       "day"
+      ],
+      [
+       "યામિની",
+       "night"
+      ],
+      [
+       "જાગિઽ",
+       "having remained awake"
+      ],
+      [
+       "રે",
+       "oh"
+      ],
+      [
+       "બિફલે",
+       "uselessly"
+      ],
+      [
+       "સેબિનુ",
+       "I have served"
+      ],
+      [
+       "ક્ડ઼્પણ",
+       "miserly"
+      ],
+      [
+       "દુરજન",
+       "wicked men"
+      ],
+      [
+       "ચપલ",
+       "momentary"
+      ],
+      [
+       "સુખ",
+       "happiness"
+      ],
+      [
+       "લબ",
+       "fraction"
+      ],
+      [
+       "લાગિઽ",
+       "for"
+      ],
+      [
+       "રે",
+       "oh"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शीतआतप,    बातबरिषण,",
+      "ऎ दिन यामिनी जागिऽ रॆ",
+      "बिफलॆ सॆबिनु,    क्ड़्पण दुरजन,",
+      "चपल सुखलब लागिऽ रॆ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শীতআতপ,    বাতবরিষণ,",
+      "এ দিন যামিনী জাগিঽ রে",
+      "বিফলে সেবিনু,    ক্ড়্পণ দুরজন,",
+      "চপল সুখলব লাগিঽ রে ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶୀତଆତପ,    ବାତବରିଷଣ,",
+      "ଏ ଦିନ ଯାମିନୀ ଜାଗିଽ ରେ",
+      "ବିଫଲେ ସେବିନୁ,    କ୍ଡ଼୍ପଣ ଦୁରଜନ,",
+      "ଚପଲ ସୁଖଲବ ଲାଗିଽ ରେ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શીતઆતપ,    બાતબરિષણ,",
+      "એ દિન યામિની જાગિઽ રે",
+      "બિફલે સેબિનુ,    ક્ડ઼્પણ દુરજન,",
+      "ચપલ સુખલબ લાગિઽ રે ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śīta-ātapa,    bāta-bariṣaṇa,",
+      "e dina yāminī jāgi’ re",
+      "biphale sebinu,    kṛpaṇa durajana,",
+      "capala sukha-laba lāgi’ re 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶೀತಆತಪ,    ಬಾತಬರಿಷಣ,",
+      "ಎ ದಿನ ಯಾಮಿನೀ ಜಾಗಿಽ ರೆ",
+      "ಬಿಫಲೆ ಸೆಬಿನು,    ಕ್‌ಡ಼್ಪಣ ದುರಜನ,",
+      "ಚಪಲ ಸುಖಲಬ ಲಾಗಿಽ ರೆ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శీతఆతప,    బాతబరిషణ,",
+      "ఎ దిన యామినీ జాగిఽ రె",
+      "బిఫలె సెబిను,    క్డ్పణ దురజన,",
+      "చపల సుఖలబ లాగిఽ రె 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́ӣтаа̄тапа,    ба̄табаришан̣а,",
+      "э̆ дина йа̄минӣ джа̄ги' рэ̆",
+      "бипхалэ̆ сэ̆бину,    кр̤пан̣а дураджана,",
+      "чапала сукхалаба ла̄ги' рэ̆ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശീതആതപ,    ബാതബരിഷണ,",
+      "എ ദിന യാമിനീ ജാഗിഽ രെ",
+      "ബിഫലെ സെബിനു,    ക്ഡ്പണ ദുരജന,",
+      "ചപല സുഖലബ ലാഗിഽ രെ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶீதஆதப,    பா³தப³ரிஷண,",
+      "எ தி³ன யாமினீ ஜாகி³(அ) ரெ",
+      "பி³ப²லெ ஸெபி³னு,    க்ஃட்²பண து³ரஜன,",
+      "சபல ஸுக²லப³ லாகி³(அ) ரெ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śīta-ātapa,    bāta-bariṣaṇa,",
+      "e dina yāminī jāgi’ re",
+      "biphale sebinu,    kṛpaṇa durajana,",
+      "capala sukha-laba lāgi’ re 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śīta-ātapa,    bāta-bariṣaṇa,",
+      "e dina yāminī jāgi’ re",
+      "biphale sebinu,    kṛpaṇa durajana,",
+      "capala sukha-laba lāgi’ re 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "e dhana, yaubana,    putra[FLAG_HYPHEN_ALPHA]parijana,",
+    "ithe ki āche paratīti re",
+    "kamaladala[FLAG_HYPHEN_ALPHA]jala,    jībana ṭalamala,",
+    "bhajahũ haripada niti re 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Wealth, youth, sons, and relatives—what assurance do they hold? This life is tottering like a drop of water on a lotus petal, so always serve and worship the feet of Śrī Hari."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "e",
+       "this"
+      ],
+      [
+       "dhana",
+       "wealth"
+      ],
+      [
+       "yaubana",
+       "youth"
+      ],
+      [
+       "putra",
+       "sons"
+      ],
+      [
+       "parijana",
+       "relatives"
+      ],
+      [
+       "ithe",
+       "in these"
+      ],
+      [
+       "ki",
+       "what"
+      ],
+      [
+       "āche",
+       "is there"
+      ],
+      [
+       "paratīti",
+       "(viśvās) assurance"
+      ],
+      [
+       "re",
+       "oh"
+      ],
+      [
+       "kamaladala",
+       "of a lotus + on the petal"
+      ],
+      [
+       "jala",
+       "water"
+      ],
+      [
+       "jībana",
+       "life"
+      ],
+      [
+       "ṭalamala",
+       "tottering"
+      ],
+      [
+       "bhajahũ",
+       "worship"
+      ],
+      [
+       "haripada",
+       "the feet of Śrī Hari"
+      ],
+      [
+       "niti",
+       "(nitya) always"
+      ],
+      [
+       "re",
+       "oh"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "धन",
+       "wealth"
+      ],
+      [
+       "यौबन",
+       "youth"
+      ],
+      [
+       "पुत्र",
+       "sons"
+      ],
+      [
+       "परिजन",
+       "relatives"
+      ],
+      [
+       "इथॆ",
+       "in these"
+      ],
+      [
+       "कि",
+       "what"
+      ],
+      [
+       "आछॆ",
+       "is there"
+      ],
+      [
+       "परतीति",
+       "(viśvās) assurance"
+      ],
+      [
+       "रॆ",
+       "oh"
+      ],
+      [
+       "कमलदल",
+       "of a lotus + on the petal"
+      ],
+      [
+       "जल",
+       "water"
+      ],
+      [
+       "जीबन",
+       "life"
+      ],
+      [
+       "टलमल",
+       "tottering"
+      ],
+      [
+       "भजहुं",
+       "worship"
+      ],
+      [
+       "हरिपद",
+       "the feet of Śrī Hari"
+      ],
+      [
+       "निति",
+       "(nitya) always"
+      ],
+      [
+       "रॆ",
+       "oh"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "ধন",
+       "wealth"
+      ],
+      [
+       "যৌবন",
+       "youth"
+      ],
+      [
+       "পুত্র",
+       "sons"
+      ],
+      [
+       "পরিজন",
+       "relatives"
+      ],
+      [
+       "ইথে",
+       "in these"
+      ],
+      [
+       "কি",
+       "what"
+      ],
+      [
+       "আছে",
+       "is there"
+      ],
+      [
+       "পরতীতি",
+       "(viśvās) assurance"
+      ],
+      [
+       "রে",
+       "oh"
+      ],
+      [
+       "কমলদল",
+       "of a lotus + on the petal"
+      ],
+      [
+       "জল",
+       "water"
+      ],
+      [
+       "জীবন",
+       "life"
+      ],
+      [
+       "টলমল",
+       "tottering"
+      ],
+      [
+       "ভজহুং",
+       "worship"
+      ],
+      [
+       "হরিপদ",
+       "the feet of Śrī Hari"
+      ],
+      [
+       "নিতি",
+       "(nitya) always"
+      ],
+      [
+       "রে",
+       "oh"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "ધન",
+       "wealth"
+      ],
+      [
+       "યૌબન",
+       "youth"
+      ],
+      [
+       "પુત્ર",
+       "sons"
+      ],
+      [
+       "પરિજન",
+       "relatives"
+      ],
+      [
+       "ઇથે",
+       "in these"
+      ],
+      [
+       "કિ",
+       "what"
+      ],
+      [
+       "આછે",
+       "is there"
+      ],
+      [
+       "પરતીતિ",
+       "(viśvās) assurance"
+      ],
+      [
+       "રે",
+       "oh"
+      ],
+      [
+       "કમલદલ",
+       "of a lotus + on the petal"
+      ],
+      [
+       "જલ",
+       "water"
+      ],
+      [
+       "જીબન",
+       "life"
+      ],
+      [
+       "ટલમલ",
+       "tottering"
+      ],
+      [
+       "ભજહું",
+       "worship"
+      ],
+      [
+       "હરિપદ",
+       "the feet of Śrī Hari"
+      ],
+      [
+       "નિતિ",
+       "(nitya) always"
+      ],
+      [
+       "રે",
+       "oh"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎ धन, यौबन,    पुत्रपरिजन,",
+      "इथॆ कि आछॆ परतीति रॆ",
+      "कमलदलजल,    जीबन टलमल,",
+      "भजहुं हरिपद निति रॆ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এ ধন, যৌবন,    পুত্রপরিজন,",
+      "ইথে কি আছে পরতীতি রে",
+      "কমলদলজল,    জীবন টলমল,",
+      "ভজহুং হরিপদ নিতি রে ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏ ଧନ, ଯୌବନ,    ପୁତ୍ରପରିଜନ,",
+      "ଇଥେ କି ଆଛେ ପରତୀତି ରେ",
+      "କମଲଦଲଜଲ,    ଜୀବନ ଟଲମଲ,",
+      "ଭଜହୁଂ ହରିପଦ ନିତି ରେ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એ ધન, યૌબન,    પુત્રપરિજન,",
+      "ઇથે કિ આછે પરતીતિ રે",
+      "કમલદલજલ,    જીબન ટલમલ,",
+      "ભજહું હરિપદ નિતિ રે ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "e dhana, yaubana,    putra-parijana,",
+      "ithe ki āche paratīti re",
+      "kamaladala-jala,    jībana ṭalamala,",
+      "bhajahũ haripada niti re 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎ ಧನ, ಯೌಬನ,    ಪುತ್ರಪರಿಜನ,",
+      "ಇಥೆ ಕಿ ಆಛೆ ಪರತೀತಿ ರೆ",
+      "ಕಮಲದಲಜಲ,    ಜೀಬನ ಟಲಮಲ,",
+      "ಭಜಹುಂ ಹರಿಪದ ನಿತಿ ರೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎ ధన, యౌబన,    పుత్రపరిజన,",
+      "ఇథె కి ఆఛె పరతీతి రె",
+      "కమలదలజల,    జీబన టలమల,",
+      "భజహుం హరిపద నితి రె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆ дхана, йаубана,    путрапариджана,",
+      "итхэ̆ ки а̄чхэ̆ паратӣти рэ̆",
+      "камаладаладжала,    джӣбана т̣аламала,",
+      "бхаджахум̣ харипада нити рэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എ ധന, യൗബന,    പുത്രപരിജന,",
+      "ഇഥെ കി ആഛെ പരതീതി രെ",
+      "കമലദലജല,    ജീബന ടലമല,",
+      "ഭജഹും ഹരിപദ നിതി രെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எ த⁴ன, யௌப³ன,    புத்ரபரிஜன,",
+      "இதெ² கி ஆசெ² பரதீதி ரெ",
+      "கமலத³லஜல,    ஜீப³ன டலமல,",
+      "ப⁴ஜஹும்ʼ ஹரிபத³ நிதி ரெ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "e dhana, yaubana,    putra-parijana,",
+      "ithe ki āche paratīti re",
+      "kamaladala-jala,    jībana ṭalamala,",
+      "bhajahũ haripada niti re 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "e dhana, yaubana,    putra-parijana,",
+      "ithe ki āche paratīti re",
+      "kamaladala-jala,    jībana ṭalamala,",
+      "bhajahũ haripada niti re 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "śrabaṇa, kīrtana,    smaraṇa, bandana,",
+    "pādasebana, dāsya re",
+    "pūjana, sakhījana,    ātmanibedana,",
+    "gobindadāsa abhilāṣa re 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Hearing, chanting, remembering, offering prayers, serving His lotus feet, engaging as a servant, worshiping, serving Him as a friend, and completely offering Him one’s very self—these nine limbs of bhakti are Govinda dāsa’s cherished aspiration."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śrabaṇa",
+       "hearing"
+      ],
+      [
+       "kīrtana",
+       "chanting"
+      ],
+      [
+       "smaraṇa",
+       "remembering"
+      ],
+      [
+       "bandana",
+       "offering prayers"
+      ],
+      [
+       "pādasebana",
+       "serving the feet"
+      ],
+      [
+       "dāsya",
+       "servitude"
+      ],
+      [
+       "re",
+       "oh"
+      ],
+      [
+       "pūjana",
+       "worshiping"
+      ],
+      [
+       "sakhījana",
+       "serving as a friend"
+      ],
+      [
+       "ātmanibedana",
+       "offering one’s self"
+      ],
+      [
+       "gobindadāsa",
+       "Govinda dāsa"
+      ],
+      [
+       "abhilāṣa",
+       "aspiration"
+      ],
+      [
+       "re",
+       "oh"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "श्रबण",
+       "hearing"
+      ],
+      [
+       "कीर्तन",
+       "chanting"
+      ],
+      [
+       "स्मरण",
+       "remembering"
+      ],
+      [
+       "बन्दन",
+       "offering prayers"
+      ],
+      [
+       "पादसॆबन",
+       "serving the feet"
+      ],
+      [
+       "दास्य",
+       "servitude"
+      ],
+      [
+       "रॆ",
+       "oh"
+      ],
+      [
+       "पूजन",
+       "worshiping"
+      ],
+      [
+       "सखीजन",
+       "serving as a friend"
+      ],
+      [
+       "आत्मनिबॆदन",
+       "offering one’s self"
+      ],
+      [
+       "गॊबिन्ददास",
+       "Govinda dāsa"
+      ],
+      [
+       "अभिलाष",
+       "aspiration"
+      ],
+      [
+       "रॆ",
+       "oh"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শ্রবণ",
+       "hearing"
+      ],
+      [
+       "কীর্তন",
+       "chanting"
+      ],
+      [
+       "স্মরণ",
+       "remembering"
+      ],
+      [
+       "বন্দন",
+       "offering prayers"
+      ],
+      [
+       "পাদসেবন",
+       "serving the feet"
+      ],
+      [
+       "দাস্য",
+       "servitude"
+      ],
+      [
+       "রে",
+       "oh"
+      ],
+      [
+       "পূজন",
+       "worshiping"
+      ],
+      [
+       "সখীজন",
+       "serving as a friend"
+      ],
+      [
+       "আত্মনিবেদন",
+       "offering one’s self"
+      ],
+      [
+       "গোবিন্দদাস",
+       "Govinda dāsa"
+      ],
+      [
+       "অভিলাষ",
+       "aspiration"
+      ],
+      [
+       "রে",
+       "oh"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શ્રબણ",
+       "hearing"
+      ],
+      [
+       "કીર્તન",
+       "chanting"
+      ],
+      [
+       "સ્મરણ",
+       "remembering"
+      ],
+      [
+       "બન્દન",
+       "offering prayers"
+      ],
+      [
+       "પાદસેબન",
+       "serving the feet"
+      ],
+      [
+       "દાસ્ય",
+       "servitude"
+      ],
+      [
+       "રે",
+       "oh"
+      ],
+      [
+       "પૂજન",
+       "worshiping"
+      ],
+      [
+       "સખીજન",
+       "serving as a friend"
+      ],
+      [
+       "આત્મનિબેદન",
+       "offering one’s self"
+      ],
+      [
+       "ગોબિન્દદાસ",
+       "Govinda dāsa"
+      ],
+      [
+       "અભિલાષ",
+       "aspiration"
+      ],
+      [
+       "રે",
+       "oh"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्रबण, कीर्तन,    स्मरण, बन्दन,",
+      "पादसॆबन, दास्य रॆ",
+      "पूजन, सखीजन,    आत्मनिबॆदन,",
+      "गॊबिन्ददास अभिलाष रॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্রবণ, কীর্তন,    স্মরণ, বন্দন,",
+      "পাদসেবন, দাস্য রে",
+      "পূজন, সখীজন,    আত্মনিবেদন,",
+      "গোবিন্দদাস অভিলাষ রে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ରବଣ, କୀର୍ତନ,    ସ୍ମରଣ, ବନ୍ଦନ,",
+      "ପାଦସେବନ, ଦାସ୍ୟ ରେ",
+      "ପୂଜନ, ସଖୀଜନ,    ଆତ୍ମନିବେଦନ,",
+      "ଗୋବିନ୍ଦଦାସ ଅଭିଲାଷ ରେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્રબણ, કીર્તન,    સ્મરણ, બન્દન,",
+      "પાદસેબન, દાસ્ય રે",
+      "પૂજન, સખીજન,    આત્મનિબેદન,",
+      "ગોબિન્દદાસ અભિલાષ રે ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śrabaṇa, kīrtana,    smaraṇa, bandana,",
+      "pādasebana, dāsya re",
+      "pūjana, sakhījana,    ātmanibedana,",
+      "gobindadāsa abhilāṣa re 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ರಬಣ, ಕೀರ್ತನ,    ಸ್ಮರಣ, ಬಂದನ,",
+      "ಪಾದಸೆಬನ, ದಾಸ್ಯ ರೆ",
+      "ಪೂಜನ, ಸಖೀಜನ,    ಆತ್ಮನಿಬೆದನ,",
+      "ಗೊಬಿಂದದಾಸ ಅಭಿಲಾಷ ರೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్రబణ, కీర్తన,    స్మరణ, బందన,",
+      "పాదసెబన, దాస్య రె",
+      "పూజన, సఖీజన,    ఆత్మనిబెదన,",
+      "గొబిందదాస అభిలాష రె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́рабан̣а, кӣртана,    смаран̣а, бандана,",
+      "па̄дасэ̆бана, да̄сйа рэ̆",
+      "пӯджана, сакхӣджана,    а̄тманибэ̆дана,",
+      "го̆биндада̄са абхила̄ша рэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്രബണ, കീർതന,    സ്മരണ, ബന്ദന,",
+      "പാദസെബന, ദാസ്യ രെ",
+      "പൂജന, സഖീജന,    ആത്മനിബെദന,",
+      "ഗൊബിന്ദദാസ അഭിലാഷ രെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்ரப³ண, கீர்தன,    ஸ்மரண, ப³ந்த³ன,",
+      "பாத³ஸெப³ன, தா³ஸ்ய ரெ",
+      "பூஜன, ஸகீ²ஜன,    ஆத்மனிபெ³த³ன,",
+      "கொ³பி³ந்த³தா³ஸ அபி⁴லாஷ ரெ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śrabaṇa, kīrtana,    smaraṇa, bandana,",
+      "pādasebana, dāsya re",
+      "pūjana, sakhījana,    ātmanibedana,",
+      "gobindadāsa abhilāṣa re 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śrabaṇa, kīrtana,    smaraṇa, bandana,",
+      "pādasebana, dāsya re",
+      "pūjana, sakhījana,    ātmanibedana,",
+      "gobindadāsa abhilāṣa re 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- যামিনী—রাত্রি; পরতীতি—প্রতীতি[comma] বিশ্বাস; কমলদল—পদ্মপত্র।"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "anad-1",
+   "filename": "MS36-anad-1.mp3",
+   "artist": "Anadi Krsna das"
+  },
+  {
+   "uid": "brsm-1",
+   "filename": "MS36-brsm-1.mp3",
+   "artist": "Srila BR Sridhara Gosvami Maharaja"
+  },
+  {
+   "uid": "bvsm-1",
+   "filename": "MS36-bvsm-1.mp3",
+   "artist": "Srila BV Svami Prabhupada"
+  },
+  {
+   "uid": "bvsm-2",
+   "filename": "MS36-bvsm-2.mp3",
+   "artist": "Srila BV Svami Prabhupada"
+  },
+  {
+   "uid": "krsn-1",
+   "filename": "MS36-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "sadh-1",
+   "filename": "MS36-sadh-1.mp3",
+   "artist": "BV Sadhu Maharaja"
+  },
+  {
+   "uid": "srav-1",
+   "filename": "MS36-srav-1.mp3",
+   "artist": "Sravan das"
+  },
+  {
+   "uid": "suma-1",
+   "filename": "MS36-suma-1.mp3",
+   "artist": "Suman Bhattacarya"
+  },
+  {
+   "uid": "tama-1",
+   "filename": "MS36-tama-1.mp3",
+   "artist": "Tamal Krsna das"
+  },
+  {
+   "uid": "taru-1",
+   "filename": "MS36-taru-1.mp3",
+   "artist": "taru"
+  }
+ ],
+ "tags": [
+  "More Instructions to the Mind",
+  "Worship Nanda-nandana!"
+ ]
+}

@@ -1,0 +1,696 @@
+{
+ "uid": "S21",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "তুমি ত’ মারিবে যা’রে, কে তা’রে রাখিতে পারে"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "tumi ta’ māribe yā’re, ke tā’re rākhite pāre"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "tumi ta’ māribe yā’re,    ke tā’re rākhite pāre,",
+    "taba icchā[FLAG_HYPHEN_ALPHA]baśa tribhubana",
+    "brahmā[FLAG_HYPHEN_ALPHA]ādi debagaṇa,    taba dāsa agaṇana,",
+    "kare taba ājñāra pālana 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तुमि तऽ मारिबॆ याऽरॆ,    कॆ ताऽरॆ राखितॆ पारॆ,",
+      "तब इच्छाबश त्रिभुबन",
+      "ब्रह्माआदि दॆबगण,    तब दास अगणन,",
+      "करॆ तब आज्ञार पालन १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তুমি তঽ মারিবে যাঽরে,    কে তাঽরে রাখিতে পারে,",
+      "তব ইচ্ছাবশ ত্রিভুবন",
+      "ব্রহ্মাআদি দেবগণ,    তব দাস অগণন,",
+      "করে তব আজ্ঞার পালন ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୁମି ତଽ ମାରିବେ ଯାଽରେ,    କେ ତାଽରେ ରାଖିତେ ପାରେ,",
+      "ତବ ଇଚ୍ଛାବଶ ତ୍ରିଭୁବନ",
+      "ବ୍ରହ୍ମାଆଦି ଦେବଗଣ,    ତବ ଦାସ ଅଗଣନ,",
+      "କରେ ତବ ଆଜ୍ଞାର ପାଲନ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તુમિ તઽ મારિબે યાઽરે,    કે તાઽરે રાખિતે પારે,",
+      "તબ ઇચ્છાબશ ત્રિભુબન",
+      "બ્રહ્માઆદિ દેબગણ,    તબ દાસ અગણન,",
+      "કરે તબ આજ્ઞાર પાલન ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tumi ta’ māribe yā’re,    ke tā’re rākhite pāre,",
+      "taba icchā-baśa tribhubana",
+      "brahmā-ādi debagaṇa,    taba dāsa agaṇana,",
+      "kare taba ājñāra pālana 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತುಮಿ ತಽ ಮಾರಿಬೆ ಯಾಽರೆ,    ಕೆ ತಾಽರೆ ರಾಖಿತೆ ಪಾರೆ,",
+      "ತಬ ಇಚ್ಛಾಬಶ ತ್ರಿಭುಬನ",
+      "ಬ್ರಹ್ಮಾಆದಿ ದೆಬಗಣ,    ತಬ ದಾಸ ಅಗಣನ,",
+      "ಕರೆ ತಬ ಆಜ್ಞಾರ ಪಾಲನ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తుమి తఽ మారిబె యాఽరె,    కె తాఽరె రాఖితె పారె,",
+      "తబ ఇచ్ఛాబశ త్రిభుబన",
+      "బ్రహ్మాఆది దెబగణ,    తబ దాస అగణన,",
+      "కరె తబ ఆజ్ఞార పాలన 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "туми та' ма̄рибэ̆ йа̄'рэ̆,    кэ̆ та̄'рэ̆ ра̄кхитэ̆ па̄рэ̆,",
+      "таба иччха̄баш́а трибхубана",
+      "брахма̄а̄ди дэ̆баган̣а,    таба да̄са аган̣ана,",
+      "карэ̆ таба а̄джн̃а̄ра па̄лана 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തുമി തഽ മാരിബെ യാഽരെ,    കെ താഽരെ രാഖിതെ പാരെ,",
+      "തബ ഇച്ഛാബശ ത്രിഭുബന",
+      "ബ്രഹ്മാആദി ദെബഗണ,    തബ ദാസ അഗണന,",
+      "കരെ തബ ആജ്ഞാര പാലന 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "துமி த(அ) மாரிபெ³ யா(அ)ரெ,    கெ தா(அ)ரெ ராகி²தெ பாரெ,",
+      "தப³ இச்சா²ப³ஶ த்ரிபு⁴ப³ன",
+      "ப்³ரஹ்மாஆதி³ தெ³ப³க³ண,    தப³ தா³ஸ அக³ணன,",
+      "கரெ தப³ ஆஜ்ஞார பாலன 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tumi ta’ māribe yā’re,    ke tā’re rākhite pāre,",
+      "taba icchā-baśa tribhubana",
+      "brahmā-ādi debagaṇa,    taba dāsa agaṇana,",
+      "kare taba ājñāra pālana 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tumi ta’ māribe yā’re,    ke tā’re rākhite pāre,",
+      "taba icchā-baśa tribhubana",
+      "brahmā-ādi debagaṇa,    taba dāsa agaṇana,",
+      "kare taba ājñāra pālana 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "taba icchāmate yata,    grahagaṇa abirata,",
+    "śubhāśubha phala kare dāna",
+    "roga[FLAG_HYPHEN_ALPHA]śoka[FLAG_HYPHEN_ALPHA]mṛti[FLAG_HYPHEN_ALPHA]bhaya,    taba icchāmate haya,",
+    "taba ājñā sadā balabān 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तब इच्छामतॆ यत,    ग्रहगण अबिरत,",
+      "शुभाशुभ फल करॆ दान",
+      "रॊगशॊकम्ड़्तिभय,    तब इच्छामतॆ हय,",
+      "तब आज्ञा सदा बलबान् २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তব ইচ্ছামতে যত,    গ্রহগণ অবিরত,",
+      "শুভাশুভ ফল করে দান",
+      "রোগশোকম্ড়্তিভয়,    তব ইচ্ছামতে হয়,",
+      "তব আজ্ঞা সদা বলবান্ ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତବ ଇଚ୍ଛାମତେ ଯତ,    ଗ୍ରହଗଣ ଅବିରତ,",
+      "ଶୁଭାଶୁଭ ଫଲ କରେ ଦାନ",
+      "ରୋଗଶୋକମ୍ଡ଼୍ତିଭୟ,    ତବ ଇଚ୍ଛାମତେ ହୟ,",
+      "ତବ ଆଜ୍ଞା ସଦା ବଲବାନ୍ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તબ ઇચ્છામતે યત,    ગ્રહગણ અબિરત,",
+      "શુભાશુભ ફલ કરે દાન",
+      "રોગશોકમ્ડ઼્તિભય,    તબ ઇચ્છામતે હય,",
+      "તબ આજ્ઞા સદા બલબાન્ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "taba icchāmate yata,    grahagaṇa abirata,",
+      "śubhāśubha phala kare dāna",
+      "roga-śoka-mṛti-bhaya,    taba icchāmate haya,",
+      "taba ājñā sadā balabān 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಬ ಇಚ್ಛಾಮತೆ ಯತ,    ಗ್ರಹಗಣ ಅಬಿರತ,",
+      "ಶುಭಾಶುಭ ಫಲ ಕರೆ ದಾನ",
+      "ರೊಗಶೊಕಂ‌ಡ಼್ತಿಭಯ,    ತಬ ಇಚ್ಛಾಮತೆ ಹಯ,",
+      "ತಬ ಆಜ್ಞಾ ಸದಾ ಬಲಬಾನ್ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తబ ఇచ్ఛామతె యత,    గ్రహగణ అబిరత,",
+      "శుభాశుభ ఫల కరె దాన",
+      "రొగశొకమ్డ్తిభయ,    తబ ఇచ్ఛామతె హయ,",
+      "తబ ఆజ్ఞా సదా బలబాన్ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "таба иччха̄матэ̆ йата,    грахаган̣а абирата,",
+      "ш́убха̄ш́убха пхала карэ̆ да̄на",
+      "ро̆гаш́о̆камр̤тибхайа,    таба иччха̄матэ̆ хайа,",
+      "таба а̄джн̃а̄ сада̄ балаба̄н 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തബ ഇച്ഛാമതെ യത,    ഗ്രഹഗണ അബിരത,",
+      "ശുഭാശുഭ ഫല കരെ ദാന",
+      "രൊഗശൊകമ്ഡ്തിഭയ,    തബ ഇച്ഛാമതെ ഹയ,",
+      "തബ ആജ്ഞാ സദാ ബലബാൻ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தப³ இச்சா²மதெ யத,    க்³ரஹக³ண அபி³ரத,",
+      "ஶுபா⁴ஶுப⁴ ப²ல கரெ தா³ன",
+      "ரொக³ஶொகம்ஃட்²திப⁴ய,    தப³ இச்சா²மதெ ஹய,",
+      "தப³ ஆஜ்ஞா ஸதா³ ப³லபா³ன் 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "taba icchāmate yata,    grahagaṇa abirata,",
+      "śubhāśubha phala kare dāna",
+      "roga-śoka-mṛti-bhaya,    taba icchāmate haya,",
+      "taba ājñā sadā balabān 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "taba icchāmate yata,    grahagaṇa abirata,",
+      "śubhāśubha phala kare dāna",
+      "roga-śoka-mṛti-bhaya,    taba icchāmate haya,",
+      "taba ājñā sadā balabān 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "taba bhaye bāyu baya,    candra[FLAG_HYPHEN_ALPHA]sūrya samudaya,",
+    "sba[FLAG_HYPHEN_ALPHA]sba niyamita kārya kare",
+    "tumi ta’ parameśbara,    parabrahma parātpara,",
+    "taba bāsa bhakata[FLAG_HYPHEN_ALPHA]antare 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तब भयॆ बायु बय,    चन्द्रसूर्य समुदय,",
+      "स्बस्ब नियमित कार्य करॆ",
+      "तुमि तऽ परमॆश्बर,    परब्रह्म परात्पर,",
+      "तब बास भकतअन्तरॆ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তব ভয়ে বায়ু বয়,    চন্দ্রসূর্য সমুদয়,",
+      "স্বস্ব নিয়মিত কার্য করে",
+      "তুমি তঽ পরমেশ্বর,    পরব্রহ্ম পরাৎপর,",
+      "তব বাস ভকতঅন্তরে ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତବ ଭୟେ ବାୟୁ ବୟ,    ଚନ୍ଦ୍ରସୂର୍ୟ ସମୁଦୟ,",
+      "ସ୍ବସ୍ବ ନିୟମିତ କାର୍ୟ କରେ",
+      "ତୁମି ତଽ ପରମେଶ୍ବର,    ପରବ୍ରହ୍ମ ପରାତ୍ପର,",
+      "ତବ ବାସ ଭକତଅନ୍ତରେ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તબ ભયે બાયુ બય,    ચન્દ્રસૂર્ય સમુદય,",
+      "સ્બસ્બ નિયમિત કાર્ય કરે",
+      "તુમિ તઽ પરમેશ્બર,    પરબ્રહ્મ પરાત્પર,",
+      "તબ બાસ ભકતઅન્તરે ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "taba bhaye bāyu baya,    candra-sūrya samudaya,",
+      "sba-sba niyamita kārya kare",
+      "tumi ta’ parameśbara,    parabrahma parātpara,",
+      "taba bāsa bhakata-antare 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಬ ಭಯೆ ಬಾಯು ಬಯ,    ಚಂದ್ರಸೂರ್ಯ ಸಮುದಯ,",
+      "ಸ್ಬಸ್ಬ ನಿಯಮಿತ ಕಾರ್ಯ ಕರೆ",
+      "ತುಮಿ ತಽ ಪರಮೆಶ್ಬರ,    ಪರಬ್ರಹ್ಮ ಪರಾತ್ಪರ,",
+      "ತಬ ಬಾಸ ಭಕತಅಂತರೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తబ భయె బాయు బయ,    చంద్రసూర్య సముదయ,",
+      "స్బస్బ నియమిత కార్య కరె",
+      "తుమి తఽ పరమెశ్బర,    పరబ్రహ్మ పరాత్పర,",
+      "తబ బాస భకతఅంతరె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "таба бхайэ̆ ба̄йу байа,    чандрасӯрйа самудайа,",
+      "сбасба нийамита ка̄рйа карэ̆",
+      "туми та' парамэ̆ш́бара,    парабрахма пара̄тпара,",
+      "таба ба̄са бхакатаантарэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തബ ഭയെ ബായു ബയ,    ചന്ദ്രസൂര്യ സമുദയ,",
+      "സ്ബസ്ബ നിയമിത കാര്യ കരെ",
+      "തുമി തഽ പരമെശ്ബര,    പരബ്രഹ്മ പരാത്പര,",
+      "തബ ബാസ ഭകതഅന്തരെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தப³ ப⁴யெ பா³யு ப³ய,    சந்த்³ரஸூர்ய ஸமுத³ய,",
+      "ஸ்ப³ஸ்ப³ நியமித கார்ய கரெ",
+      "துமி த(அ) பரமெஶ்ப³ர,    பரப்³ரஹ்ம பராத்பர,",
+      "தப³ பா³ஸ ப⁴கதஅந்தரெ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "taba bhaye bāyu baya,    candra-sūrya samudaya,",
+      "sba-sba niyamita kārya kare",
+      "tumi ta’ parameśbara,    parabrahma parātpara,",
+      "taba bāsa bhakata-antare 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "taba bhaye bāyu baya,    candra-sūrya samudaya,",
+      "sba-sba niyamita kārya kare",
+      "tumi ta’ parameśbara,    parabrahma parātpara,",
+      "taba bāsa bhakata-antare 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "sadā[FLAG_HYPHEN_ALPHA]śuddha siddhakāma,    ‘bhakatabatsala’[FLAG_HYPHEN_ALPHA]nāma,",
+    "bhakata[FLAG_HYPHEN_ALPHA]janera nityasbāmī",
+    "tumi ta’ rākhibe yā’re,    ke tā’re mārite pāre,",
+    "sakala bidhira bidhi tumi 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सदाशुद्ध सिद्धकाम,    ‘भकतबत्सलऽनाम,",
+      "भकतजनॆर नित्यस्बामी",
+      "तुमि तऽ राखिबॆ याऽरॆ,    कॆ ताऽरॆ मारितॆ पारॆ,",
+      "सकल बिधिर बिधि तुमि ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সদাশুদ্ধ সিদ্ধকাম,    ‘ভকতবৎসলঽনাম,",
+      "ভকতজনের নিত্যস্বামী",
+      "তুমি তঽ রাখিবে যাঽরে,    কে তাঽরে মারিতে পারে,",
+      "সকল বিধির বিধি তুমি ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସଦାଶୁଦ୍ଧ ସିଦ୍ଧକାମ,    ‘ଭକତବତ୍ସଲଽନାମ,",
+      "ଭକତଜନେର ନିତ୍ୟସ୍ବାମୀ",
+      "ତୁମି ତଽ ରାଖିବେ ଯାଽରେ,    କେ ତାଽରେ ମାରିତେ ପାରେ,",
+      "ସକଲ ବିଧିର ବିଧି ତୁମି ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સદાશુદ્ધ સિદ્ધકામ,    ‘ભકતબત્સલઽનામ,",
+      "ભકતજનેર નિત્યસ્બામી",
+      "તુમિ તઽ રાખિબે યાઽરે,    કે તાઽરે મારિતે પારે,",
+      "સકલ બિધિર બિધિ તુમિ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sadā-śuddha siddhakāma,    ‘bhakatabatsala’-nāma,",
+      "bhakata-janera nityasbāmī",
+      "tumi ta’ rākhibe yā’re,    ke tā’re mārite pāre,",
+      "sakala bidhira bidhi tumi 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸದಾಶುದ್ಧ ಸಿದ್ಧಕಾಮ,    ‘ಭಕತಬತ್ಸಲಽನಾಮ,",
+      "ಭಕತಜನೆರ ನಿತ್ಯಸ್ಬಾಮೀ",
+      "ತುಮಿ ತಽ ರಾಖಿಬೆ ಯಾಽರೆ,    ಕೆ ತಾಽರೆ ಮಾರಿತೆ ಪಾರೆ,",
+      "ಸಕಲ ಬಿಧಿರ ಬಿಧಿ ತುಮಿ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సదాశుద్ధ సిద్ధకామ,    ‘భకతబత్సలఽనామ,",
+      "భకతజనెర నిత్యస్బామీ",
+      "తుమి తఽ రాఖిబె యాఽరె,    కె తాఽరె మారితె పారె,",
+      "సకల బిధిర బిధి తుమి 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сада̄ш́уддха сиддхака̄ма,    ‘бхакатабатсала'на̄ма,",
+      "бхакатаджанэ̆ра нитйасба̄мӣ",
+      "туми та' ра̄кхибэ̆ йа̄'рэ̆,    кэ̆ та̄'рэ̆ ма̄ритэ̆ па̄рэ̆,",
+      "сакала бидхира бидхи туми 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സദാശുദ്ധ സിദ്ധകാമ,    ‘ഭകതബത്സലഽനാമ,",
+      "ഭകതജനെര നിത്യസ്ബാമീ",
+      "തുമി തഽ രാഖിബെ യാഽരെ,    കെ താഽരെ മാരിതെ പാരെ,",
+      "സകല ബിധിര ബിധി തുമി 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸதா³ஶுத்³த⁴ ஸித்³த⁴காம,    ‘ப⁴கதப³த்ஸல(அ)நாம,",
+      "ப⁴கதஜனெர நித்யஸ்பா³மீ",
+      "துமி த(அ) ராகி²பெ³ யா(அ)ரெ,    கெ தா(அ)ரெ மாரிதெ பாரெ,",
+      "ஸகல பி³தி⁴ர பி³தி⁴ துமி 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sadā-śuddha siddhakāma,    ‘bhakatabatsala’-nāma,",
+      "bhakata-janera nityasbāmī",
+      "tumi ta’ rākhibe yā’re,    ke tā’re mārite pāre,",
+      "sakala bidhira bidhi tumi 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sadā-śuddha siddhakāma,    ‘bhakatabatsala’-nāma,",
+      "bhakata-janera nityasbāmī",
+      "tumi ta’ rākhibe yā’re,    ke tā’re mārite pāre,",
+      "sakala bidhira bidhi tumi 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "tomāra caraṇe nātha!    kariyāchi praṇipāta,",
+    "bhakatibinoda taba dāsa",
+    "bipad ha·ite sbāmi!    abaśya tāhāre tumi,",
+    "rakṣibe—tāhāra e biśbāsa 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तॊमार चरणॆ नाथ!    करियाछि प्रणिपात,",
+      "भकतिबिनॊद तब दास",
+      "बिपद् हइतॆ स्बामि!    अबश्य ताहारॆ तुमि,",
+      "रक्षिबॆ—ताहार ऎ बिश्बास ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তোমার চরণে নাথ!    করিয়াছি প্রণিপাত,",
+      "ভকতিবিনোদ তব দাস",
+      "বিপদ্ হইতে স্বামি!    অবশ্য তাহারে তুমি,",
+      "রক্ষিবে—তাহার এ বিশ্বাস ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୋମାର ଚରଣେ ନାଥ!    କରିୟାଛି ପ୍ରଣିପାତ,",
+      "ଭକତିବିନୋଦ ତବ ଦାସ",
+      "ବିପଦ୍ ହଇତେ ସ୍ବାମି!    ଅବଶ୍ୟ ତାହାରେ ତୁମି,",
+      "ରକ୍ଷିବେ—ତାହାର ଏ ବିଶ୍ବାସ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તોમાર ચરણે નાથ!    કરિયાછિ પ્રણિપાત,",
+      "ભકતિબિનોદ તબ દાસ",
+      "બિપદ્ હઇતે સ્બામિ!    અબશ્ય તાહારે તુમિ,",
+      "રક્ષિબે—તાહાર એ બિશ્બાસ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tomāra caraṇe nātha!    kariyāchi praṇipāta,",
+      "bhakatibinoda taba dāsa",
+      "bipad ha·ite sbāmi!    abaśya tāhāre tumi,",
+      "rakṣibe—tāhāra e biśbāsa 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತೊಮಾರ ಚರಣೆ ನಾಥ!    ಕರಿಯಾಛಿ ಪ್ರಣಿಪಾತ,",
+      "ಭಕತಿಬಿನೊದ ತಬ ದಾಸ",
+      "ಬಿಪದ್ ಹಇತೆ ಸ್ಬಾಮಿ!    ಅಬಶ್ಯ ತಾಹಾರೆ ತುಮಿ,",
+      "ರಕ್ಷಿಬೆ—ತಾಹಾರ ಎ ಬಿಶ್ಬಾಸ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తొమార చరణె నాథ!    కరియాఛి ప్రణిపాత,",
+      "భకతిబినొద తబ దాస",
+      "బిపద్ హఇతె స్బామి!    అబశ్య తాహారె తుమి,",
+      "రక్షిబె—తాహార ఎ బిశ్బాస 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "то̆ма̄ра чаран̣э̆ на̄тха!    карийа̄чхи пран̣ипа̄та,",
+      "бхакатибино̆да таба да̄са",
+      "бипад хаитэ̆ сба̄ми!    абаш́йа та̄ха̄рэ̆ туми,",
+      "ракшибэ̆—та̄ха̄ра э̆ биш́ба̄са 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തൊമാര ചരണെ നാഥ!    കരിയാഛി പ്രണിപാത,",
+      "ഭകതിബിനൊദ തബ ദാസ",
+      "ബിപദ് ഹഇതെ സ്ബാമി!    അബശ്യ താഹാരെ തുമി,",
+      "രക്ഷിബെ—താഹാര എ ബിശ്ബാസ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தொமார சரணெ நாத²!    கரியாசி² ப்ரணிபாத,",
+      "ப⁴கதிபி³னொத³ தப³ தா³ஸ",
+      "பி³பத்³ ஹஇதெ ஸ்பா³மி!    அப³ஶ்ய தாஹாரெ துமி,",
+      "ரக்ஷிபெ³—தாஹார எ பி³ஶ்பா³ஸ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tomāra caraṇe nātha!    kariyāchi praṇipāta,",
+      "bhakatibinoda taba dāsa",
+      "bipad ha·ite sbāmi!    abaśya tāhāre tumi,",
+      "rakṣibe—tāhāra e biśbāsa 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tomāra caraṇe nātha!    kariyāchi praṇipāta,",
+      "bhakatibinoda taba dāsa",
+      "bipad ha·ite sbāmi!    abaśya tāhāre tumi,",
+      "rakṣibe—tāhāra e biśbāsa 5"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "sggm-1",
+   "filename": "S21-sggm-1.mp3",
+   "artist": "Srila Gaura Govinda Gosvami Maharaja"
+  }
+ ],
+ "tags": [
+  "Avaśya Rakṣibe Kṛṣṇa – Viśvāsa Pālana (Faith in Kṛṣṇa’s Protection)"
+ ]
+}

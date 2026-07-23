@@ -1,0 +1,887 @@
+{
+  "uid": "GH63",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "দুন্দুভি-ডিণ্ডিম মঙ্গল-জয়ধ্বনি"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "dundubhi-ḍiṇḍima maṅgala-jayadhbani"
+    },
+    {
+      "script_code": "Deva",
+      "text": "दुन्दुभि-डिण्डिम मङ्गल-जयध्बनि"
+    },
+    {
+      "script_code": "Telu",
+      "text": "దుందుభి-డిండిమ మంగల-జయధ్బని"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ದುಂದುಭಿ-ಡಿಂಡಿಮ ಮಂಗಲ-ಜಯಧ್ಬನಿ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "து³ந்து³பி⁴-டி³ண்டி³ம மங்க³ல-ஜயத்⁴ப³னி"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ദുന്ദുഭി-ഡിണ്ഡിമ മംഗല-ജയധ്ബനി"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "દુન્દુભિ-ડિણ્ડિમ મઙ્ગલ-જયધ્બનિ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଦୁନ୍ଦୁଭି-ଡିଣ୍ଡିମ ମଙ୍ଗଲ-ଜୟଧ୍ବନି"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "дундубхи-д̣ин̣д̣има ман̇гала-джайадхбани"
+    }
+  ],
+  "author_uid": "vdt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ৱৃন্দাৱন দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Vṛndāvana dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील वृन्दावन दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల వృందావన దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ವೃಂದಾವನ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல வ்ருʼந்தா³வன தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല വൃന്ദാവന ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ વૃન્દાવન દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ବୃନ୍ଦାବନ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла вр̣нда̄вана да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "dundubhi[FLAG_HYPHEN_ALPHA]ḍiṇḍima,    maṅgala[FLAG_HYPHEN_ALPHA]jayadhbani,",
+        "gāya madhura rasāla re",
+        "bedera āgocara,    āji bheṭaba,",
+        "bilambe nāhi āra kāla re 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "दुन्दुभिडिण्डिम,    मङ्गलजयध्बनि,",
+            "गाय मधुर रसाल रॆ",
+            "बॆदॆर आगॊचर,    आजि भॆटब,",
+            "बिलम्बॆ नाहि आर काल रॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "দুন্দুভিডিণ্ডিম,    মঙ্গলজয়ধ্বনি,",
+            "গায় মধুর রসাল রে",
+            "বেদের আগোচর,    আজি ভেটব,",
+            "বিলম্বে নাহি আর কাল রে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଦୁନ୍ଦୁଭିଡିଣ୍ଡିମ,    ମଙ୍ଗଲଜୟଧ୍ବନି,",
+            "ଗାୟ ମଧୁର ରସାଲ ରେ",
+            "ବେଦେର ଆଗୋଚର,    ଆଜି ଭେଟବ,",
+            "ବିଲମ୍ବେ ନାହି ଆର କାଲ ରେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "દુન્દુભિડિણ્ડિમ,    મઙ્ગલજયધ્બનિ,",
+            "ગાય મધુર રસાલ રે",
+            "બેદેર આગોચર,    આજિ ભેટબ,",
+            "બિલમ્બે નાહિ આર કાલ રે ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "dundubhi-ḍiṇḍima,    maṅgala-jayadhbani,",
+            "gāya madhura rasāla re",
+            "bedera āgocara,    āji bheṭaba,",
+            "bilambe nāhi āra kāla re 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ದುಂದುಭಿಡಿಂಡಿಮ,    ಮಂಗಲಜಯಧ್ಬನಿ,",
+            "ಗಾಯ ಮಧುರ ರಸಾಲ ರೆ",
+            "ಬೆದೆರ ಆಗೊಚರ,    ಆಜಿ ಭೆಟಬ,",
+            "ಬಿಲಂಬೆ ನಾಹಿ ಆರ ಕಾಲ ರೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "దుందుభిడిండిమ,    మంగలజయధ్బని,",
+            "గాయ మధుర రసాల రె",
+            "బెదెర ఆగొచర,    ఆజి భెటబ,",
+            "బిలంబె నాహి ఆర కాల రె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "дундубхид̣ин̣д̣има,    ман̇галаджайадхбани,",
+            "га̄йа мадхура раса̄ла рэ̆",
+            "бэ̆дэ̆ра а̄го̆чара,    а̄джи бхэ̆т̣аба,",
+            "биламбэ̆ на̄хи а̄ра ка̄ла рэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ദുന്ദുഭിഡിണ്ഡിമ,    മംഗലജയധ്ബനി,",
+            "ഗായ മധുര രസാല രെ",
+            "ബെദെര ആഗൊചര,    ആജി ഭെടബ,",
+            "ബിലംബെ നാഹി ആര കാല രെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "து³ந்து³பி⁴டி³ண்டி³ம,    மங்க³லஜயத்⁴ப³னி,",
+            "கா³ய மது⁴ர ரஸால ரெ",
+            "பெ³தெ³ர ஆகொ³சர,    ஆஜி பெ⁴டப³,",
+            "பி³லம்பெ³ நாஹி ஆர கால ரெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "dundubhi-ḍiṇḍima,    maṅgala-jayadhbani,",
+            "gāya madhura rasāla re",
+            "bedera āgocara,    āji bheṭaba,",
+            "bilambe nāhi āra kāla re 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "dundubhi-ḍiṇḍima,    maṅgala-jayadhbani,",
+            "gāya madhura rasāla re",
+            "bedera āgocara,    āji bheṭaba,",
+            "bilambe nāhi āra kāla re 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "ānande indrapura,    maṅgala[FLAG_HYPHEN_ALPHA]kolāhala,",
+        "sāja’ sāja’ bali’ sāja’ re",
+        "bahuta puṇya[FLAG_HYPHEN_ALPHA]bhāgye,    caitanya[FLAG_HYPHEN_ALPHA]parakāśa,",
+        "pāola nabadbīpa[FLAG_HYPHEN_ALPHA]mājhe re 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "आनन्दॆ इन्द्रपुर,    मङ्गलकॊलाहल,",
+            "साजऽ साजऽ बलिऽ साजऽ रॆ",
+            "बहुत पुण्यभाग्यॆ,    चैतन्यपरकाश,",
+            "पाऒल नबद्बीपमाझॆ रॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "আনন্দে ইন্দ্রপুর,    মঙ্গলকোলাহল,",
+            "সাজঽ সাজঽ বলিঽ সাজঽ রে",
+            "বহুত পুণ্যভাগ্যে,    চৈতন্যপরকাশ,",
+            "পাওল নবদ্বীপমাঝে রে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଆନନ୍ଦେ ଇନ୍ଦ୍ରପୁର,    ମଙ୍ଗଲକୋଲାହଲ,",
+            "ସାଜଽ ସାଜଽ ବଲିଽ ସାଜଽ ରେ",
+            "ବହୁତ ପୁଣ୍ୟଭାଗ୍ୟେ,    ଚୈତନ୍ୟପରକାଶ,",
+            "ପାଓଲ ନବଦ୍ବୀପମାଝେ ରେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "આનન્દે ઇન્દ્રપુર,    મઙ્ગલકોલાહલ,",
+            "સાજઽ સાજઽ બલિઽ સાજઽ રે",
+            "બહુત પુણ્યભાગ્યે,    ચૈતન્યપરકાશ,",
+            "પાઓલ નબદ્બીપમાઝે રે ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ānande indrapura,    maṅgala-kolāhala,",
+            "sāja’ sāja’ bali’ sāja’ re",
+            "bahuta puṇya-bhāgye,    caitanya-parakāśa,",
+            "pāola nabadbīpa-mājhe re 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಆನಂದೆ ಇಂದ್ರಪುರ,    ಮಂಗಲಕೊಲಾಹಲ,",
+            "ಸಾಜಽ ಸಾಜಽ ಬಲಿಽ ಸಾಜಽ ರೆ",
+            "ಬಹುತ ಪುಣ್ಯಭಾಗ್ಯೆ,    ಚೈತನ್ಯಪರಕಾಶ,",
+            "ಪಾಒಲ ನಬದ್ಬೀಪಮಾಝೆ ರೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఆనందె ఇంద్రపుర,    మంగలకొలాహల,",
+            "సాజఽ సాజఽ బలిఽ సాజఽ రె",
+            "బహుత పుణ్యభాగ్యె,    చైతన్యపరకాశ,",
+            "పాఒల నబద్బీపమాఝె రె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "а̄нандэ̆ индрапура,    ман̇галако̆ла̄хала,",
+            "са̄джа' са̄джа' бали' са̄джа' рэ̆",
+            "бахута пун̣йабха̄гйэ̆,    чаитанйапарака̄ш́а,",
+            "па̄о̆ла набадбӣпама̄джхэ̆ рэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ആനന്ദെ ഇന്ദ്രപുര,    മംഗലകൊലാഹല,",
+            "സാജഽ സാജഽ ബലിഽ സാജഽ രെ",
+            "ബഹുത പുണ്യഭാഗ്യെ,    ചൈതന്യപരകാശ,",
+            "പാഒല നബദ്ബീപമാഝെ രെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஆனந்தெ³ இந்த்³ரபுர,    மங்க³லகொலாஹல,",
+            "ஸாஜ(அ) ஸாஜ(அ) ப³லி(அ) ஸாஜ(அ) ரெ",
+            "ப³ஹுத புண்யபா⁴க்³யெ,    சைதன்யபரகாஶ,",
+            "பாஒல நப³த்³பீ³பமாஜெ² ரெ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ānande indrapura,    maṅgala-kolāhala,",
+            "sāja’ sāja’ bali’ sāja’ re",
+            "bahuta puṇya-bhāgye,    caitanya-parakāśa,",
+            "pāola nabadbīpa-mājhe re 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ānande indrapura,    maṅgala-kolāhala,",
+            "sāja’ sāja’ bali’ sāja’ re",
+            "bahuta puṇya-bhāgye,    caitanya-parakāśa,",
+            "pāola nabadbīpa-mājhe re 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "anyonye āliṅgana,    cumbana ghana[FLAG_HYPHEN_ALPHA]ghana,",
+        "lāja keha nāhi māne re",
+        "nadīyā[FLAG_HYPHEN_ALPHA]purandara,    janama ullāse,",
+        "āpana[FLAG_HYPHEN_ALPHA]para nāhi jāne re 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अन्यॊन्यॆ आलिङ्गन,    चुम्बन घनघन,",
+            "लाज कॆह नाहि मानॆ रॆ",
+            "नदीयापुरन्दर,    जनम उल्लासॆ,",
+            "आपनपर नाहि जानॆ रॆ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অন্যোন্যে আলিঙ্গন,    চুম্বন ঘনঘন,",
+            "লাজ কেহ নাহি মানে রে",
+            "নদীয়াপুরন্দর,    জনম উল্লাসে,",
+            "আপনপর নাহি জানে রে ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅନ୍ୟୋନ୍ୟେ ଆଲିଙ୍ଗନ,    ଚୁମ୍ବନ ଘନଘନ,",
+            "ଲାଜ କେହ ନାହି ମାନେ ରେ",
+            "ନଦୀୟାପୁରନ୍ଦର,    ଜନମ ଉଲ୍ଲାସେ,",
+            "ଆପନପର ନାହି ଜାନେ ରେ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અન્યોન્યે આલિઙ્ગન,    ચુમ્બન ઘનઘન,",
+            "લાજ કેહ નાહિ માને રે",
+            "નદીયાપુરન્દર,    જનમ ઉલ્લાસે,",
+            "આપનપર નાહિ જાને રે ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "anyonye āliṅgana,    cumbana ghana-ghana,",
+            "lāja keha nāhi māne re",
+            "nadīyā-purandara,    janama ullāse,",
+            "āpana-para nāhi jāne re 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅನ್ಯೊನ್ಯೆ ಆಲಿಂಗನ,    ಚುಂಬನ ಘನಘನ,",
+            "ಲಾಜ ಕೆಹ ನಾಹಿ ಮಾನೆ ರೆ",
+            "ನದೀಯಾಪುರಂದರ,    ಜನಮ ಉಲ್ಲಾಸೆ,",
+            "ಆಪನಪರ ನಾಹಿ ಜಾನೆ ರೆ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అన్యొన్యె ఆలింగన,    చుంబన ఘనఘన,",
+            "లాజ కెహ నాహి మానె రె",
+            "నదీయాపురందర,    జనమ ఉల్లాసె,",
+            "ఆపనపర నాహి జానె రె 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "анйо̆нйэ̆ а̄лин̇гана,    чумбана гханагхана,",
+            "ла̄джа кэ̆ха на̄хи ма̄нэ̆ рэ̆",
+            "надӣйа̄пурандара,    джанама улла̄сэ̆,",
+            "а̄панапара на̄хи джа̄нэ̆ рэ̆ 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അന്യൊന്യെ ആലിംഗന,    ചുംബന ഘനഘന,",
+            "ലാജ കെഹ നാഹി മാനെ രെ",
+            "നദീയാപുരന്ദര,    ജനമ ഉല്ലാസെ,",
+            "ആപനപര നാഹി ജാനെ രെ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அன்யொன்யெ ஆலிங்க³ன,    சும்ப³ன க⁴னக⁴ன,",
+            "லாஜ கெஹ நாஹி மானெ ரெ",
+            "நதீ³யாபுரந்த³ர,    ஜனம உல்லாஸெ,",
+            "ஆபனபர நாஹி ஜானெ ரெ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "anyonye āliṅgana,    cumbana ghana-ghana,",
+            "lāja keha nāhi māne re",
+            "nadīyā-purandara,    janama ullāse,",
+            "āpana-para nāhi jāne re 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "anyonye āliṅgana,    cumbana ghana-ghana,",
+            "lāja keha nāhi māne re",
+            "nadīyā-purandara,    janama ullāse,",
+            "āpana-para nāhi jāne re 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "aichana kautuke,    āilā nabadbīpe,",
+        "caudike śuni harināma re",
+        "pāiyā gaura[FLAG_HYPHEN_ALPHA]rasa,    bihbala parabaśa,",
+        "caitanya[FLAG_HYPHEN_ALPHA]jaya jaya gāna re 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऐछन कौतुकॆ,    आइला नबद्बीपॆ,",
+            "चौदिकॆ शुनि हरिनाम रॆ",
+            "पाइया गौररस,    बिह्बल परबश,",
+            "चैतन्यजय जय गान रॆ ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ঐছন কৌতুকে,    আইলা নবদ্বীপে,",
+            "চৌদিকে শুনি হরিনাম রে",
+            "পাইয়া গৌররস,    বিহ্বল পরবশ,",
+            "চৈতন্যজয় জয় গান রে ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଐଛନ କୌତୁକେ,    ଆଇଲା ନବଦ୍ବୀପେ,",
+            "ଚୌଦିକେ ଶୁନି ହରିନାମ ରେ",
+            "ପାଇୟା ଗୌରରସ,    ବିହ୍ବଲ ପରବଶ,",
+            "ଚୈତନ୍ୟଜୟ ଜୟ ଗାନ ରେ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઐછન કૌતુકે,    આઇલા નબદ્બીપે,",
+            "ચૌદિકે શુનિ હરિનામ રે",
+            "પાઇયા ગૌરરસ,    બિહ્બલ પરબશ,",
+            "ચૈતન્યજય જય ગાન રે ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "aichana kautuke,    āilā nabadbīpe,",
+            "caudike śuni harināma re",
+            "pāiyā gaura-rasa,    bihbala parabaśa,",
+            "caitanya-jaya jaya gāna re 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಐಛನ ಕೌತುಕೆ,    ಆಇಲಾ ನಬದ್ಬೀಪೆ,",
+            "ಚೌದಿಕೆ ಶುನಿ ಹರಿನಾಮ ರೆ",
+            "ಪಾಇಯಾ ಗೌರರಸ,    ಬಿಹ್ಬಲ ಪರಬಶ,",
+            "ಚೈತನ್ಯಜಯ ಜಯ ಗಾನ ರೆ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఐఛన కౌతుకె,    ఆఇలా నబద్బీపె,",
+            "చౌదికె శుని హరినామ రె",
+            "పాఇయా గౌరరస,    బిహ్బల పరబశ,",
+            "చైతన్యజయ జయ గాన రె 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "аичхана каутукэ̆,    а̄ила̄ набадбӣпэ̆,",
+            "чаудикэ̆ ш́уни харина̄ма рэ̆",
+            "па̄ийа̄ гаурараса,    бихбала парабаш́а,",
+            "чаитанйаджайа джайа га̄на рэ̆ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഐഛന കൗതുകെ,    ആഇലാ നബദ്ബീപെ,",
+            "ചൗദികെ ശുനി ഹരിനാമ രെ",
+            "പാഇയാ ഗൗരരസ,    ബിഹ്ബല പരബശ,",
+            "ചൈതന്യജയ ജയ ഗാന രെ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஐச²ன கௌதுகெ,    ஆஇலா நப³த்³பீ³பெ,",
+            "சௌதி³கெ ஶுனி ஹரிநாம ரெ",
+            "பாஇயா கௌ³ரரஸ,    பி³ஹ்ப³ல பரப³ஶ,",
+            "சைதன்யஜய ஜய கா³ன ரெ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "aichana kautuke,    āilā nabadbīpe,",
+            "caudike śuni harināma re",
+            "pāiyā gaura-rasa,    bihbala parabaśa,",
+            "caitanya-jaya jaya gāna re 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "aichana kautuke,    āilā nabadbīpe,",
+            "caudike śuni harināma re",
+            "pāiyā gaura-rasa,    bihbala parabaśa,",
+            "caitanya-jaya jaya gāna re 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "dekhila śacī[FLAG_HYPHEN_ALPHA]gṛhe,    gaurāṅga[FLAG_HYPHEN_ALPHA]sundare,",
+        "ekatra yaiche koṭicānda re",
+        "mānuṣa[FLAG_HYPHEN_ALPHA]rūpa dhari’,    grahaṇa[FLAG_HYPHEN_ALPHA]chala kari’,",
+        "bolaye ucca harināma re 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "दॆखिल शचीग्ढ़ॆ,    गौराङ्गसुन्दरॆ,",
+            "ऎकत्र यैछॆ कॊटिचान्द रॆ",
+            "मानुषरूप धरिऽ,    ग्रहणछल करिऽ,",
+            "बॊलयॆ उच्च हरिनाम रॆ ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "দেখিল শচীগ্ঢ়ে,    গৌরাঙ্গসুন্দরে,",
+            "একত্র যৈছে কোটিচান্দ রে",
+            "মানুষরূপ ধরিঽ,    গ্রহণছল করিঽ,",
+            "বোলয়ে উচ্চ হরিনাম রে ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଦେଖିଲ ଶଚୀଗ୍ଢ଼େ,    ଗୌରାଙ୍ଗସୁନ୍ଦରେ,",
+            "ଏକତ୍ର ଯୈଛେ କୋଟିଚାନ୍ଦ ରେ",
+            "ମାନୁଷରୂପ ଧରିଽ,    ଗ୍ରହଣଛଲ କରିଽ,",
+            "ବୋଲୟେ ଉଚ୍ଚ ହରିନାମ ରେ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "દેખિલ શચીગ્ઢ઼ે,    ગૌરાઙ્ગસુન્દરે,",
+            "એકત્ર યૈછે કોટિચાન્દ રે",
+            "માનુષરૂપ ધરિઽ,    ગ્રહણછલ કરિઽ,",
+            "બોલયે ઉચ્ચ હરિનામ રે ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "dekhila śacī-gṛhe,    gaurāṅga-sundare,",
+            "ekatra yaiche koṭicānda re",
+            "mānuṣa-rūpa dhari’,    grahaṇa-chala kari’,",
+            "bolaye ucca harināma re 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ದೆಖಿಲ ಶಚೀಗ್‌ಢ಼ೆ,    ಗೌರಾಂಗಸುಂದರೆ,",
+            "ಎಕತ್ರ ಯೈಛೆ ಕೊಟಿಚಾಂದ ರೆ",
+            "ಮಾನುಷರೂಪ ಧರಿಽ,    ಗ್ರಹಣಛಲ ಕರಿಽ,",
+            "ಬೊಲಯೆ ಉಚ್ಚ ಹರಿನಾಮ ರೆ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "దెఖిల శచీగ్ఢె,    గౌరాంగసుందరె,",
+            "ఎకత్ర యైఛె కొటిచాంద రె",
+            "మానుషరూప ధరిఽ,    గ్రహణఛల కరిఽ,",
+            "బొలయె ఉచ్చ హరినామ రె 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "дэ̆кхила ш́ачӣгр̤хэ̆,    гаура̄н̇гасундарэ̆,",
+            "э̆катра йаичхэ̆ ко̆т̣ича̄нда рэ̆",
+            "ма̄нушарӯпа дхари',    грахан̣ачхала кари',",
+            "бо̆лайэ̆ учча харина̄ма рэ̆ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ദെഖില ശചീഗ്ഢെ,    ഗൗരാംഗസുന്ദരെ,",
+            "എകത്ര യൈഛെ കൊടിചാന്ദ രെ",
+            "മാനുഷരൂപ ധരിഽ,    ഗ്രഹണഛല കരിഽ,",
+            "ബൊലയെ ഉച്ച ഹരിനാമ രെ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தெ³கி²ல ஶசீக்³ஃடெ³,    கௌ³ராங்க³ஸுந்த³ரெ,",
+            "எகத்ர யைசெ² கொடிசாந்த³ ரெ",
+            "மானுஷரூப த⁴ரி(அ),    க்³ரஹணச²ல கரி(அ),",
+            "பொ³லயெ உச்ச ஹரிநாம ரெ 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "dekhila śacī-gṛhe,    gaurāṅga-sundare,",
+            "ekatra yaiche koṭicānda re",
+            "mānuṣa-rūpa dhari’,    grahaṇa-chala kari’,",
+            "bolaye ucca harināma re 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "dekhila śacī-gṛhe,    gaurāṅga-sundare,",
+            "ekatra yaiche koṭicānda re",
+            "mānuṣa-rūpa dhari’,    grahaṇa-chala kari’,",
+            "bolaye ucca harināma re 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "sakala[FLAG_HYPHEN_ALPHA]śakti[FLAG_HYPHEN_ALPHA]saṅge,    āilā gauracandra,",
+        "pāṣaṇḍī kichui nā jāne re",
+        "śrīcaitanya[FLAG_HYPHEN_ALPHA]nityānanda[FLAG_HYPHEN_ALPHA],    cā̃da[FLAG_HYPHEN_ALPHA]prabhu jāna,",
+        "bṛndābanadāsa rasa gāna re 6"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सकलशक्तिसङ्गॆ,    आइला गौरचन्द्र,",
+            "पाषण्डी किछुइ ना जानॆ रॆ",
+            "श्रीचैतन्यनित्यानन्द,    चांदप्रभु जान,",
+            "ब्ड़्न्दाबनदास रस गान रॆ ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সকলশক্তিসঙ্গে,    আইলা গৌরচন্দ্র,",
+            "পাষণ্ডী কিছুই না জানে রে",
+            "শ্রীচৈতন্যনিত্যানন্দ,    চান্দপ্রভু জান,",
+            "ব্ড়্ন্দাবনদাস রস গান রে ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସକଲଶକ୍ତିସଙ୍ଗେ,    ଆଇଲା ଗୌରଚନ୍ଦ୍ର,",
+            "ପାଷଣ୍ଡୀ କିଛୁଇ ନା ଜାନେ ରେ",
+            "ଶ୍ରୀଚୈତନ୍ୟନିତ୍ୟାନନ୍ଦ,    ଚାନ୍ଦପ୍ରଭୁ ଜାନ,",
+            "ବ୍ଡ଼୍ନ୍ଦାବନଦାସ ରସ ଗାନ ରେ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સકલશક્તિસઙ્ગે,    આઇલા ગૌરચન્દ્ર,",
+            "પાષણ્ડી કિછુઇ ના જાને રે",
+            "શ્રીચૈતન્યનિત્યાનન્દ,    ચાંદપ્રભુ જાન,",
+            "બ્ડ઼્ન્દાબનદાસ રસ ગાન રે ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sakala-śakti-saṅge,    āilā gauracandra,",
+            "pāṣaṇḍī kichui nā jāne re",
+            "śrīcaitanya-nityānanda-,    cā̃da-prabhu jāna,",
+            "bṛndābanadāsa rasa gāna re 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸಕಲಶಕ್ತಿಸಂಗೆ,    ಆಇಲಾ ಗೌರಚಂದ್ರ,",
+            "ಪಾಷಂಡೀ ಕಿಛುಇ ನಾ ಜಾನೆ ರೆ",
+            "ಶ್ರೀಚೈತನ್ಯನಿತ್ಯಾನಂದ,    ಚಾಂದಪ್ರಭು ಜಾನ,",
+            "ಬ್‌ಡ಼್ನ್ದಾಬನದಾಸ ರಸ ಗಾನ ರೆ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సకలశక్తిసంగె,    ఆఇలా గౌరచంద్ర,",
+            "పాషండీ కిఛుఇ నా జానె రె",
+            "శ్రీచైతన్యనిత్యానంద,    చాందప్రభు జాన,",
+            "బ్డ్న్దాబనదాస రస గాన రె 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сакалаш́актисан̇гэ̆,    а̄ила̄ гаурачандра,",
+            "па̄шан̣д̣ӣ кичхуи на̄ джа̄нэ̆ рэ̆",
+            "ш́рӣчаитанйанитйа̄нанда,    ча̄м̣дапрабху джа̄на,",
+            "бр̤нда̄банада̄са раса га̄на рэ̆ 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സകലശക്തിസംഗെ,    ആഇലാ ഗൗരചന്ദ്ര,",
+            "പാഷണ്ഡീ കിഛുഇ നാ ജാനെ രെ",
+            "ശ്രീചൈതന്യനിത്യാനന്ദ,    ചാന്ദപ്രഭു ജാന,",
+            "ബ്ഡ്ന്ദാബനദാസ രസ ഗാന രെ 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸகலஶக்திஸங்கெ³,    ஆஇலா கௌ³ரசந்த்³ர,",
+            "பாஷண்டீ³ கிசு²இ நா ஜானெ ரெ",
+            "ஶ்ரீசைதன்யநித்யானந்த³,    சாந்த³ப்ரபு⁴ ஜான,",
+            "ப்³ஃட்²ந்தா³ப³னதா³ஸ ரஸ கா³ன ரெ 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sakala-śakti-saṅge,    āilā gauracandra,",
+            "pāṣaṇḍī kichui nā jāne re",
+            "śrīcaitanya-nityānanda-,    cā̃da-prabhu jāna,",
+            "bṛndābanadāsa rasa gāna re 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sakala-śakti-saṅge,    āilā gauracandra,",
+            "pāṣaṇḍī kichui nā jāne re",
+            "śrīcaitanya-nityānanda-,    cā̃da-prabhu jāna,",
+            "bṛndābanadāsa rasa gāna re 6"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শ্রীচৈতন্যভাগবত হইতে উদ্ধৃত ~ From Śrī Caitanya-bhāgavata"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

@@ -1,0 +1,455 @@
+{
+ "uid": "Y12",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হে! তব পদ-পঙ্কজিনী"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari he! taba pada-paṅkajinī"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari he!",
+    "taba pada[FLAG_HYPHEN_ALPHA]paṅkajinī,    jībāmṛta[FLAG_HYPHEN_ALPHA]sañcāriṇī,",
+    "atibhāgye jība tāhā pāya",
+    "se[FLAG_HYPHEN_ALPHA]amṛta pāna kari’,    mugdha haya tāhe hari,",
+    "āra tāhā chāḓite nā cāya 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हॆ!",
+      "तब पदपङ्कजिनी,    जीबाम्ड़्तसञ्चारिणी,",
+      "अतिभाग्यॆ जीब ताहा पाय",
+      "सॆअम्ड़्त पान करिऽ,    मुग्ध हय ताहॆ हरि,",
+      "आर ताहा छाḓइतॆ ना चाय १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হে!",
+      "তব পদপঙ্কজিনী,    জীবাম্ড়্তসঞ্চারিণী,",
+      "অতিভাগ্যে জীব তাহা পায়",
+      "সেঅম্ড়্ত পান করিঽ,    মুগ্ধ হয় তাহে হরি,",
+      "আর তাহা ছাḓইতে না চায় ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହେ!",
+      "ତବ ପଦପଙ୍କଜିନୀ,    ଜୀବାମ୍ଡ଼୍ତସଞ୍ଚାରିଣୀ,",
+      "ଅତିଭାଗ୍ୟେ ଜୀବ ତାହା ପାୟ",
+      "ସେଅମ୍ଡ଼୍ତ ପାନ କରିଽ,    ମୁଗ୍ଧ ହୟ ତାହେ ହରି,",
+      "ଆର ତାହା ଛାḓଇତେ ନା ଚାୟ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હે!",
+      "તબ પદપઙ્કજિની,    જીબામ્ડ઼્તસઞ્ચારિણી,",
+      "અતિભાગ્યે જીબ તાહા પાય",
+      "સેઅમ્ડ઼્ત પાન કરિઽ,    મુગ્ધ હય તાહે હરિ,",
+      "આર તાહા છાḓઇતે ના ચાય ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari he!",
+      "taba pada-paṅkajinī,    jībāmṛta-sañcāriṇī,",
+      "atibhāgye jība tāhā pāya",
+      "se-amṛta pāna kari’,    mugdha haya tāhe hari,",
+      "āra tāhā chāḓite nā cāya 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹೆ!",
+      "ತಬ ಪದಪಂಕಜಿನೀ,    ಜೀಬಾಂ‌ಡ಼್ತಸಂಚಾರಿಣೀ,",
+      "ಅತಿಭಾಗ್ಯೆ ಜೀಬ ತಾಹಾ ಪಾಯ",
+      "ಸೆಅಂ‌ಡ಼್ತ ಪಾನ ಕರಿಽ,    ಮುಗ್ಧ ಹಯ ತಾಹೆ ಹರಿ,",
+      "ಆರ ತಾಹಾ ಛಾḓಇತೆ ನಾ ಚಾಯ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హె!",
+      "తబ పదపంకజినీ,    జీబామ్డ్తసంచారిణీ,",
+      "అతిభాగ్యె జీబ తాహా పాయ",
+      "సెఅమ్డ్త పాన కరిఽ,    ముగ్ధ హయ తాహె హరి,",
+      "ఆర తాహా ఛాḓఇతె నా చాయ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хэ̆!",
+      "таба падапан̇каджинӣ,    джӣба̄мр̤тасан̃ча̄рин̣ӣ,",
+      "атибха̄гйэ̆ джӣба та̄ха̄ па̄йа",
+      "сэ̆амр̤та па̄на кари',    мугдха хайа та̄хэ̆ хари,",
+      "а̄ра та̄ха̄ чха̄ḓитэ̆ на̄ ча̄йа 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹെ!",
+      "തബ പദപങ്കജിനീ,    ജീബാമ്ഡ്തസഞ്ചാരിണീ,",
+      "അതിഭാഗ്യെ ജീബ താഹാ പായ",
+      "സെഅമ്ഡ്ത പാന കരിഽ,    മുഗ്ധ ഹയ താഹെ ഹരി,",
+      "ആര താഹാ ഛാḓഇതെ നാ ചായ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹெ!",
+      "தப³ பத³பங்கஜினீ,    ஜீபா³ம்ஃட்²தஸஞ்சாரிணீ,",
+      "அதிபா⁴க்³யெ ஜீப³ தாஹா பாய",
+      "ஸெஅம்ஃட்²த பான கரி(அ),    முக்³த⁴ ஹய தாஹெ ஹரி,",
+      "ஆர தாஹா சா²ḓஇதெ நா சாய 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari he!",
+      "taba pada-paṅkajinī,    jībāmṛta-sañcāriṇī,",
+      "atibhāgye jība tāhā pāya",
+      "se-amṛta pāna kari’,    mugdha haya tāhe hari,",
+      "āra tāhā chāḍite nā cāya 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari he!",
+      "taba pada-paṅkajinī,    jībāmṛta-sañcāriṇī,",
+      "atibhāgye jība tāhā pāya",
+      "se-amṛta pāna kari’,    mugdha haya tāhe hari,",
+      "āra tāhā chāḓite nā cāya 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "nibiṣṭa ha·iyā tāya,    anya sthāne nāhi yāya,",
+    "anya rasa tuccha kari’ māne",
+    "madhupūrṇa padmasthita,    madhubrata kadācita,",
+    "nāhi cāya ikṣudaṇḍa[FLAG_HYPHEN_ALPHA]pāne 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "निबिष्ट हइया ताय,    अन्य स्थानॆ नाहि याय,",
+      "अन्य रस तुच्छ करिऽ मानॆ",
+      "मधुपूर्ण पद्मस्थित,    मधुब्रत कदाचित,",
+      "नाहि चाय इक्षुदण्डपानॆ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নিবিষ্ট হইয়া তায়,    অন্য স্থানে নাহি যায়,",
+      "অন্য রস তুচ্ছ করিঽ মানে",
+      "মধুপূর্ণ পদ্মস্থিত,    মধুব্রত কদাচিত,",
+      "নাহি চায় ইক্ষুদণ্ডপানে ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନିବିଷ୍ଟ ହଇୟା ତାୟ,    ଅନ୍ୟ ସ୍ଥାନେ ନାହି ଯାୟ,",
+      "ଅନ୍ୟ ରସ ତୁଚ୍ଛ କରିଽ ମାନେ",
+      "ମଧୁପୂର୍ଣ ପଦ୍ମସ୍ଥିତ,    ମଧୁବ୍ରତ କଦାଚିତ,",
+      "ନାହି ଚାୟ ଇକ୍ଷୁଦଣ୍ଡପାନେ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નિબિષ્ટ હઇયા તાય,    અન્ય સ્થાને નાહિ યાય,",
+      "અન્ય રસ તુચ્છ કરિઽ માને",
+      "મધુપૂર્ણ પદ્મસ્થિત,    મધુબ્રત કદાચિત,",
+      "નાહિ ચાય ઇક્ષુદણ્ડપાને ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nibiṣṭa ha·iyā tāya,    anya sthāne nāhi yāya,",
+      "anya rasa tuccha kari’ māne",
+      "madhupūrṇa padmasthita,    madhubrata kadācita,",
+      "nāhi cāya ikṣudaṇḍa-pāne 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಿಬಿಷ್ಟ ಹಇಯಾ ತಾಯ,    ಅನ್ಯ ಸ್ಥಾನೆ ನಾಹಿ ಯಾಯ,",
+      "ಅನ್ಯ ರಸ ತುಚ್ಛ ಕರಿಽ ಮಾನೆ",
+      "ಮಧುಪೂರ್ಣ ಪದ್ಮಸ್ಥಿತ,    ಮಧುಬ್ರತ ಕದಾಚಿತ,",
+      "ನಾಹಿ ಚಾಯ ಇಕ್ಷುದಂಡಪಾನೆ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నిబిష్ట హఇయా తాయ,    అన్య స్థానె నాహి యాయ,",
+      "అన్య రస తుచ్ఛ కరిఽ మానె",
+      "మధుపూర్ణ పద్మస్థిత,    మధుబ్రత కదాచిత,",
+      "నాహి చాయ ఇక్షుదండపానె 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "нибишт̣а хаийа̄ та̄йа,    анйа стха̄нэ̆ на̄хи йа̄йа,",
+      "анйа раса туччха кари' ма̄нэ̆",
+      "мадхупӯрн̣а падмастхита,    мадхубрата када̄чита,",
+      "на̄хи ча̄йа икшудан̣д̣апа̄нэ̆ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നിബിഷ്ട ഹഇയാ തായ,    അന്യ സ്ഥാനെ നാഹി യായ,",
+      "അന്യ രസ തുച്ഛ കരിഽ മാനെ",
+      "മധുപൂർണ പദ്മസ്ഥിത,    മധുബ്രത കദാചിത,",
+      "നാഹി ചായ ഇക്ഷുദണ്ഡപാനെ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நிபி³ஷ்ட ஹஇயா தாய,    அன்ய ஸ்தா²னெ நாஹி யாய,",
+      "அன்ய ரஸ துச்ச² கரி(அ) மானெ",
+      "மது⁴பூர்ண பத்³மஸ்தி²த,    மது⁴ப்³ரத கதா³சித,",
+      "நாஹி சாய இக்ஷுத³ண்ட³பானெ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nibiṣṭa ha·iyā tāya,    anya sthāne nāhi yāya,",
+      "anya rasa tuccha kari’ māne",
+      "madhupūrṇa padmasthita,    madhubrata kadācita,",
+      "nāhi cāya ikṣudaṇḍa-pāne 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nibiṣṭa ha·iyā tāya,    anya sthāne nāhi yāya,",
+      "anya rasa tuccha kari’ māne",
+      "madhupūrṇa padmasthita,    madhubrata kadācita,",
+      "nāhi cāya ikṣudaṇḍa-pāne 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "e bhaktibinoda kabe,    se[FLAG_HYPHEN_ALPHA]paṅkajasthita ha’be,",
+    "nāhi yā’be saṁsārābhimukhe",
+    "bhaktakṛpā, bhaktibala,    ei duiṭī susambala,",
+    "pāile se[FLAG_HYPHEN_ALPHA]sthiti ghaṭe sukhe 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎ भक्तिबिनॊद कबॆ,    सॆपङ्कजस्थित हऽबॆ,",
+      "नाहि याऽबॆ संसाराभिमुखॆ",
+      "भक्तक्ड़्पा, भक्तिबल,    ऎइ दुइटी सुसम्बल,",
+      "पाइलॆ सॆस्थिति घटॆ सुखॆ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এ ভক্তিবিনোদ কবে,    সেপঙ্কজস্থিত হঽবে,",
+      "নাহি যাঽবে সংসারাভিমুখে",
+      "ভক্তক্ড়্পা, ভক্তিবল,    এই দুইটী সুসম্বল,",
+      "পাইলে সেস্থিতি ঘটে সুখে ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏ ଭକ୍ତିବିନୋଦ କବେ,    ସେପଙ୍କଜସ୍ଥିତ ହଽବେ,",
+      "ନାହି ଯାଽବେ ସଂସାରାଭିମୁଖେ",
+      "ଭକ୍ତକ୍ଡ଼୍ପା, ଭକ୍ତିବଲ,    ଏଇ ଦୁଇଟୀ ସୁସମ୍ବଲ,",
+      "ପାଇଲେ ସେସ୍ଥିତି ଘଟେ ସୁଖେ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એ ભક્તિબિનોદ કબે,    સેપઙ્કજસ્થિત હઽબે,",
+      "નાહિ યાઽબે સંસારાભિમુખે",
+      "ભક્તક્ડ઼્પા, ભક્તિબલ,    એઇ દુઇટી સુસમ્બલ,",
+      "પાઇલે સેસ્થિતિ ઘટે સુખે ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "e bhaktibinoda kabe,    se-paṅkajasthita ha’be,",
+      "nāhi yā’be saṁsārābhimukhe",
+      "bhaktakṛpā, bhaktibala,    ei duiṭī susambala,",
+      "pāile se-sthiti ghaṭe sukhe 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎ ಭಕ್ತಿಬಿನೊದ ಕಬೆ,    ಸೆಪಂಕಜಸ್ಥಿತ ಹಽಬೆ,",
+      "ನಾಹಿ ಯಾಽಬೆ ಸಂಸಾರಾಭಿಮುಖೆ",
+      "ಭಕ್ತಕ್‌ಡ಼್ಪಾ, ಭಕ್ತಿಬಲ,    ಎಇ ದುಇಟೀ ಸುಸಂಬಲ,",
+      "ಪಾಇಲೆ ಸೆಸ್ಥಿತಿ ಘಟೆ ಸುಖೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎ భక్తిబినొద కబె,    సెపంకజస్థిత హఽబె,",
+      "నాహి యాఽబె సంసారాభిముఖె",
+      "భక్తక్డ్పా, భక్తిబల,    ఎఇ దుఇటీ సుసంబల,",
+      "పాఇలె సెస్థితి ఘటె సుఖె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆ бхактибино̆да кабэ̆,    сэ̆пан̇каджастхита ха'бэ̆,",
+      "на̄хи йа̄'бэ̆ сам̣са̄ра̄бхимукхэ̆",
+      "бхактакр̤па̄, бхактибала,    э̆и дуит̣ӣ сусамбала,",
+      "па̄илэ̆ сэ̆стхити гхат̣э̆ сукхэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എ ഭക്തിബിനൊദ കബെ,    സെപങ്കജസ്ഥിത ഹഽബെ,",
+      "നാഹി യാഽബെ സംസാരാഭിമുഖെ",
+      "ഭക്തക്ഡ്പാ, ഭക്തിബല,    എഇ ദുഇടീ സുസംബല,",
+      "പാഇലെ സെസ്ഥിതി ഘടെ സുഖെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எ ப⁴க்திபி³னொத³ கபெ³,    ஸெபங்கஜஸ்தி²த ஹ(அ)பெ³,",
+      "நாஹி யா(அ)பெ³ ஸம்ʼஸாராபி⁴முகெ²",
+      "ப⁴க்தக்ஃட்²பா, ப⁴க்திப³ல,    எஇ து³இடீ ஸுஸம்ப³ல,",
+      "பாஇலெ ஸெஸ்தி²தி க⁴டெ ஸுகெ² 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "e bhaktibinoda kabe,    se-paṅkajasthita ha’be,",
+      "nāhi yā’be saṁsārābhimukhe",
+      "bhaktakṛpā, bhaktibala,    ei duiṭī susambala,",
+      "pāile se-sthiti ghaṭe sukhe 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "e bhaktibinoda kabe,    se-paṅkajasthita ha’be,",
+      "nāhi yā’be saṁsārābhimukhe",
+      "bhaktakṛpā, bhaktibala,    ei duiṭī susambala,",
+      "pāile se-sthiti ghaṭe sukhe 3"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "তবামৃতস্যন্দিনি পাদপঙ্কজে "
+  },
+  {
+   "language_code": "ben",
+   "text": "নিবেদিতাত্মা কথমন্যদিচ্ছতি ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "স্থিতেঽরবিন্দে মকরন্দনির্ভরে "
+  },
+  {
+   "language_code": "ben",
+   "text": "মধুব্রতো নেক্ষুরকং হি বীক্ষতে ।।১২।।"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

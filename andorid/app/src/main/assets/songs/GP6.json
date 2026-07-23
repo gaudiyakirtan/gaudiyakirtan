@@ -1,0 +1,6405 @@
+{
+  "uid": "GP6",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ভাল অবতার শ্রীগৌরাঙ্গ অবতার"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "bhāla abatāra śrīgaurāṅga abatāra"
+    },
+    {
+      "script_code": "Deva",
+      "text": "भाल अबतार श्रीगौराङ्ग अबतार"
+    },
+    {
+      "script_code": "Telu",
+      "text": "భాల అబతార శ్రీగౌరాంగ అబతార"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಭಾಲ ಅಬತಾರ ಶ್ರೀಗೌರಾಂಗ ಅಬತಾರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "பா⁴ல அப³தார ஶ்ரீகௌ³ராங்க³ அப³தார"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഭാല അബതാര ശ്രീഗൗരാംഗ അബതാര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ભાલ અબતાર શ્રીગૌરાઙ્ગ અબતાર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଭାଲ ଅବତାର ଶ୍ରୀଗୌରାଙ୍ଗ ଅବତାର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "бха̄ла абата̄ра ш́рӣгаура̄н̇га абата̄ра"
+    }
+  ],
+  "author_uid": "দেবকীনন্দন দাস",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "দেবকীনন্দন দাস"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Devakīnandana dāsa"
+    },
+    {
+      "script_code": "Deva",
+      "text": "देवकीनन्दन दास"
+    },
+    {
+      "script_code": "Telu",
+      "text": "దేవకీనందన దాస"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ದೇವಕೀನಂದನ ದಾಸ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "தே³வகீநந்த³ன தா³ஸ"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ദേവകീനന്ദന ദാസ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "દેવકીનન્દન દાસ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଦେବକୀନନ୍ଦନ ଦାସ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "дэвакӣнандана да̄са"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "bhāla abatāra śrīgaurāṅga abatāra",
+        "emana karuṇānidhi kabhu nāhi āra dhru"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भाल अबतार श्रीगौराङ्ग अबतार",
+            "ऎमन करुणानिधि कभु नाहि आर ध्रु"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভাল অবতার শ্রীগৌরাঙ্গ অবতার",
+            "এমন করুণানিধি কভু নাহি আর ধ্রু"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭାଲ ଅବତାର ଶ୍ରୀଗୌରାଙ୍ଗ ଅବତାର",
+            "ଏମନ କରୁଣାନିଧି କଭୁ ନାହି ଆର ଧ୍ରୁ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભાલ અબતાર શ્રીગૌરાઙ્ગ અબતાર",
+            "એમન કરુણાનિધિ કભુ નાહિ આર ધ્રુ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhāla abatāra śrīgaurāṅga abatāra",
+            "emana karuṇānidhi kabhu nāhi āra dhru"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಾಲ ಅಬತಾರ ಶ್ರೀಗೌರಾಂಗ ಅಬತಾರ",
+            "ಎಮನ ಕರುಣಾನಿಧಿ ಕಭು ನಾಹಿ ಆರ ಧ್ರು"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భాల అబతార శ్రీగౌరాంగ అబతార",
+            "ఎమన కరుణానిధి కభు నాహి ఆర ధ్రు"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бха̄ла абата̄ра ш́рӣгаура̄н̇га абата̄ра",
+            "э̆мана карун̣а̄нидхи кабху на̄хи а̄ра дхру"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭാല അബതാര ശ്രീഗൗരാംഗ അബതാര",
+            "എമന കരുണാനിധി കഭു നാഹി ആര ധ്രു"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பா⁴ல அப³தார ஶ்ரீகௌ³ராங்க³ அப³தார",
+            "எமன கருணாநிதி⁴ கபு⁴ நாஹி ஆர த்⁴ரு"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhāla abatāra śrīgaurāṅga abatāra",
+            "emana karuṇānidhi kabhu nāhi āra dhru"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhāla abatāra śrīgaurāṅga abatāra",
+            "emana karuṇānidhi kabhu nāhi āra dhru"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "gosāĩ īśbarapurī bando sābadhāne",
+        "loka[FLAG_HYPHEN_ALPHA]śikṣā[FLAG_HYPHEN_ALPHA]dīkṣā prabhu kailā yā̃’ra sthāne 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गॊसाइं ईश्बरपुरी बन्दॊ साबधानॆ",
+            "लॊकशिक्षादीक्षा प्रभु कैला यांऽर स्थानॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গোসাইং ঈশ্বরপুরী বন্দো সাবধানে",
+            "লোকশিক্ষাদীক্ষা প্রভু কৈলা যাংঽর স্থানে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗୋସାଇଂ ଈଶ୍ବରପୁରୀ ବନ୍ଦୋ ସାବଧାନେ",
+            "ଲୋକଶିକ୍ଷାଦୀକ୍ଷା ପ୍ରଭୁ କୈଲା ଯାଂଽର ସ୍ଥାନେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગોસાઇં ઈશ્બરપુરી બન્દો સાબધાને",
+            "લોકશિક્ષાદીક્ષા પ્રભુ કૈલા યાંઽર સ્થાને ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gosāĩ īśbarapurī bando sābadhāne",
+            "loka-śikṣā-dīkṣā prabhu kailā yā̃’ra sthāne 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗೊಸಾಇಂ ಈಶ್ಬರಪುರೀ ಬಂದೊ ಸಾಬಧಾನೆ",
+            "ಲೊಕಶಿಕ್ಷಾದೀಕ್ಷಾ ಪ್ರಭು ಕೈಲಾ ಯಾಂಽರ ಸ್ಥಾನೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గొసాఇం ఈశ్బరపురీ బందొ సాబధానె",
+            "లొకశిక్షాదీక్షా ప్రభు కైలా యాంఽర స్థానె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "го̆са̄им̣ ӣш́барапурӣ бандо̆ са̄бадха̄нэ̆",
+            "ло̆каш́икша̄дӣкша̄ прабху каила̄ йа̄м̣'ра стха̄нэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗൊസാഇം ഈശ്ബരപുരീ ബന്ദൊ സാബധാനെ",
+            "ലൊകശിക്ഷാദീക്ഷാ പ്രഭു കൈലാ യാംഽര സ്ഥാനെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கொ³ஸாஇம்ʼ ஈஶ்ப³ரபுரீ ப³ந்தொ³ ஸாப³தா⁴னெ",
+            "லொகஶிக்ஷாதீ³க்ஷா ப்ரபு⁴ கைலா யாம்ʼ(அ)ர ஸ்தா²னெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gosāĩ īśbarapurī bando sābadhāne",
+            "loka-śikṣā-dīkṣā prabhu kailā yā̃’ra sthāne 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gosāĩ īśbarapurī bando sābadhāne",
+            "loka-śikṣā-dīkṣā prabhu kailā yā̃’ra sthāne 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "keśaba bhāratī bando sāndīpani[FLAG_HYPHEN_ALPHA]muni",
+        "prabhu yā̃’re nijaguru karilā āpani 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कॆशब भारती बन्दॊ सान्दीपनिमुनि",
+            "प्रभु यांऽरॆ निजगुरु करिला आपनि २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কেশব ভারতী বন্দো সান্দীপনিমুনি",
+            "প্রভু যাংঽরে নিজগুরু করিলা আপনি ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କେଶବ ଭାରତୀ ବନ୍ଦୋ ସାନ୍ଦୀପନିମୁନି",
+            "ପ୍ରଭୁ ଯାଂଽରେ ନିଜଗୁରୁ କରିଲା ଆପନି ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કેશબ ભારતી બન્દો સાન્દીપનિમુનિ",
+            "પ્રભુ યાંઽરે નિજગુરુ કરિલા આપનિ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "keśaba bhāratī bando sāndīpani-muni",
+            "prabhu yā̃’re nijaguru karilā āpani 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕೆಶಬ ಭಾರತೀ ಬಂದೊ ಸಾಂದೀಪನಿಮುನಿ",
+            "ಪ್ರಭು ಯಾಂಽರೆ ನಿಜಗುರು ಕರಿಲಾ ಆಪನಿ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కెశబ భారతీ బందొ సాందీపనిముని",
+            "ప్రభు యాంఽరె నిజగురు కరిలా ఆపని 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кэ̆ш́аба бха̄ратӣ бандо̆ са̄ндӣпанимуни",
+            "прабху йа̄м̣'рэ̆ ниджагуру карила̄ а̄пани 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കെശബ ഭാരതീ ബന്ദൊ സാന്ദീപനിമുനി",
+            "പ്രഭു യാംഽരെ നിജഗുരു കരിലാ ആപനി 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கெஶப³ பா⁴ரதீ ப³ந்தொ³ ஸாந்தீ³பனிமுனி",
+            "ப்ரபு⁴ யாம்ʼ(அ)ரெ நிஜகு³ரு கரிலா ஆபனி 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "keśaba bhāratī bando sāndīpani-muni",
+            "prabhu yā̃’re nijaguru karilā āpani 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "keśaba bhāratī bando sāndīpani-muni",
+            "prabhu yā̃’re nijaguru karilā āpani 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "bandiba śrīmādhabendra purīra caraṇa",
+        "prabhu yā̃’re kahilena śrīrādhāra gaṇa 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बन्दिब श्रीमाधबॆन्द्र पुरीर चरण",
+            "प्रभु यांऽरॆ कहिलॆन श्रीराधार गण ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বন্দিব শ্রীমাধবেন্দ্র পুরীর চরণ",
+            "প্রভু যাংঽরে কহিলেন শ্রীরাধার গণ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବନ୍ଦିବ ଶ୍ରୀମାଧବେନ୍ଦ୍ର ପୁରୀର ଚରଣ",
+            "ପ୍ରଭୁ ଯାଂଽରେ କହିଲେନ ଶ୍ରୀରାଧାର ଗଣ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બન્દિબ શ્રીમાધબેન્દ્ર પુરીર ચરણ",
+            "પ્રભુ યાંઽરે કહિલેન શ્રીરાધાર ગણ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bandiba śrīmādhabendra purīra caraṇa",
+            "prabhu yā̃’re kahilena śrīrādhāra gaṇa 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಂದಿಬ ಶ್ರೀಮಾಧಬೆಂದ್ರ ಪುರೀರ ಚರಣ",
+            "ಪ್ರಭು ಯಾಂಽರೆ ಕಹಿಲೆನ ಶ್ರೀರಾಧಾರ ಗಣ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బందిబ శ్రీమాధబెంద్ర పురీర చరణ",
+            "ప్రభు యాంఽరె కహిలెన శ్రీరాధార గణ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бандиба ш́рӣма̄дхабэ̆ндра пурӣра чаран̣а",
+            "прабху йа̄м̣'рэ̆ кахилэ̆на ш́рӣра̄дха̄ра ган̣а 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബന്ദിബ ശ്രീമാധബെന്ദ്ര പുരീര ചരണ",
+            "പ്രഭു യാംഽരെ കഹിലെന ശ്രീരാധാര ഗണ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ந்தி³ப³ ஶ்ரீமாத⁴பெ³ந்த்³ர புரீர சரண",
+            "ப்ரபு⁴ யாம்ʼ(அ)ரெ கஹிலென ஶ்ரீராதா⁴ர க³ண 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bandiba śrīmādhabendra purīra caraṇa",
+            "prabhu yā̃’re kahilena śrīrādhāra gaṇa 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bandiba śrīmādhabendra purīra caraṇa",
+            "prabhu yā̃’re kahilena śrīrādhāra gaṇa 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "paramānandapurī bando uddhaba[FLAG_HYPHEN_ALPHA]sbabhāba",
+        "dāmodarasbarūpa bando lalitāra bhāba 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "परमानन्दपुरी बन्दॊ उद्धबस्बभाब",
+            "दामॊदरस्बरूप बन्दॊ ललितार भाब ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "পরমানন্দপুরী বন্দো উদ্ধবস্বভাব",
+            "দামোদরস্বরূপ বন্দো ললিতার ভাব ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ପରମାନନ୍ଦପୁରୀ ବନ୍ଦୋ ଉଦ୍ଧବସ୍ବଭାବ",
+            "ଦାମୋଦରସ୍ବରୂପ ବନ୍ଦୋ ଲଲିତାର ଭାବ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "પરમાનન્દપુરી બન્દો ઉદ્ધબસ્બભાબ",
+            "દામોદરસ્બરૂપ બન્દો લલિતાર ભાબ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "paramānandapurī bando uddhaba-sbabhāba",
+            "dāmodarasbarūpa bando lalitāra bhāba 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಪರಮಾನಂದಪುರೀ ಬಂದೊ ಉದ್ಧಬಸ್ಬಭಾಬ",
+            "ದಾಮೊದರಸ್ಬರೂಪ ಬಂದೊ ಲಲಿತಾರ ಭಾಬ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "పరమానందపురీ బందొ ఉద్ధబస్బభాబ",
+            "దామొదరస్బరూప బందొ లలితార భాబ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "парама̄нандапурӣ бандо̆ уддхабасбабха̄ба",
+            "да̄мо̆дарасбарӯпа бандо̆ лалита̄ра бха̄ба 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "പരമാനന്ദപുരീ ബന്ദൊ ഉദ്ധബസ്ബഭാബ",
+            "ദാമൊദരസ്ബരൂപ ബന്ദൊ ലലിതാര ഭാബ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பரமானந்த³புரீ ப³ந்தொ³ உத்³த⁴ப³ஸ்ப³பா⁴ப³",
+            "தா³மொத³ரஸ்ப³ரூப ப³ந்தொ³ லலிதார பா⁴ப³ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "paramānandapurī bando uddhaba-sbabhāba",
+            "dāmodarasbarūpa bando lalitāra bhāba 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "paramānandapurī bando uddhaba-sbabhāba",
+            "dāmodarasbarūpa bando lalitāra bhāba 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "narasiṁhatīrtha bando purī[FLAG_HYPHEN_ALPHA]sukhānanda",
+        "śrīgobindapurī bando purī[FLAG_HYPHEN_ALPHA]brahmānanda 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "नरसिंहतीर्थ बन्दॊ पुरीसुखानन्द",
+            "श्रीगॊबिन्दपुरी बन्दॊ पुरीब्रह्मानन्द ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নরসিংহতীর্থ বন্দো পুরীসুখানন্দ",
+            "শ্রীগোবিন্দপুরী বন্দো পুরীব্রহ্মানন্দ ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନରସିଂହତୀର୍ଥ ବନ୍ଦୋ ପୁରୀସୁଖାନନ୍ଦ",
+            "ଶ୍ରୀଗୋବିନ୍ଦପୁରୀ ବନ୍ଦୋ ପୁରୀବ୍ରହ୍ମାନନ୍ଦ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નરસિંહતીર્થ બન્દો પુરીસુખાનન્દ",
+            "શ્રીગોબિન્દપુરી બન્દો પુરીબ્રહ્માનન્દ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "narasiṁhatīrtha bando purī-sukhānanda",
+            "śrīgobindapurī bando purī-brahmānanda 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನರಸಿಂಹತೀರ್ಥ ಬಂದೊ ಪುರೀಸುಖಾನಂದ",
+            "ಶ್ರೀಗೊಬಿಂದಪುರೀ ಬಂದೊ ಪುರೀಬ್ರಹ್ಮಾನಂದ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నరసింహతీర్థ బందొ పురీసుఖానంద",
+            "శ్రీగొబిందపురీ బందొ పురీబ్రహ్మానంద 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "нарасим̣хатӣртха бандо̆ пурӣсукха̄нанда",
+            "ш́рӣго̆биндапурӣ бандо̆ пурӣбрахма̄нанда 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നരസിംഹതീർഥ ബന്ദൊ പുരീസുഖാനന്ദ",
+            "ശ്രീഗൊബിന്ദപുരീ ബന്ദൊ പുരീബ്രഹ്മാനന്ദ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நரஸிம்ʼஹதீர்த² ப³ந்தொ³ புரீஸுகா²னந்த³",
+            "ஶ்ரீகொ³பி³ந்த³புரீ ப³ந்தொ³ புரீப்³ரஹ்மானந்த³ 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "narasiṁhatīrtha bando purī-sukhānanda",
+            "śrīgobindapurī bando purī-brahmānanda 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "narasiṁhatīrtha bando purī-sukhānanda",
+            "śrīgobindapurī bando purī-brahmānanda 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "nṛsiṁhapurī bando satyānanda bhāratī",
+        "bandiba garuḓa abadhūta mahāmati 6"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "न्ड़्सिंहपुरी बन्दॊ सत्यानन्द भारती",
+            "बन्दिब गरुḓअ अबधूत महामति ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ন্ড়্সিংহপুরী বন্দো সত্যানন্দ ভারতী",
+            "বন্দিব গরুḓঅ অবধূত মহামতি ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନ୍ଡ଼୍ସିଂହପୁରୀ ବନ୍ଦୋ ସତ୍ୟାନନ୍ଦ ଭାରତୀ",
+            "ବନ୍ଦିବ ଗରୁḓଅ ଅବଧୂତ ମହାମତି ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ન્ડ઼્સિંહપુરી બન્દો સત્યાનન્દ ભારતી",
+            "બન્દિબ ગરુḓઅ અબધૂત મહામતિ ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nṛsiṁhapurī bando satyānanda bhāratī",
+            "bandiba garuḓa abadhūta mahāmati 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನ್‌ಡ಼್ಸಿಂಹಪುರೀ ಬಂದೊ ಸತ್ಯಾನಂದ ಭಾರತೀ",
+            "ಬಂದಿಬ ಗರುḓಅ ಅಬಧೂತ ಮಹಾಮತಿ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "న్డ్సింహపురీ బందొ సత్యానంద భారతీ",
+            "బందిబ గరుḓఅ అబధూత మహామతి 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "нр̤сим̣хапурӣ бандо̆ сатйа̄нанда бха̄ратӣ",
+            "бандиба гаруḓа абадхӯта маха̄мати 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ന്ഡ്സിംഹപുരീ ബന്ദൊ സത്യാനന്ദ ഭാരതീ",
+            "ബന്ദിബ ഗരുḓഅ അബധൂത മഹാമതി 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ந்ஃட்²ஸிம்ʼஹபுரீ ப³ந்தொ³ ஸத்யானந்த³ பா⁴ரதீ",
+            "ப³ந்தி³ப³ க³ருḓஅ அப³தூ⁴த மஹாமதி 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nṛsiṁhapurī bando satyānanda bhāratī",
+            "bandiba garuḍa abadhūta mahāmati 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nṛsiṁhapurī bando satyānanda bhāratī",
+            "bandiba garuḓa abadhūta mahāmati 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "source_text_master": [
+        "biṣṇupurī gosāĩ bando kariyā yatana",
+        "“biṣṇubhaktiratnābalī” yā̃hāra granthana 7"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बिष्णुपुरी गॊसाइं बन्दॊ करिया यतन",
+            "“बिष्णुभक्तिरत्नाबली” यांहार ग्रन्थन ७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বিষ্ণুপুরী গোসাইং বন্দো করিয়া যতন",
+            "“বিষ্ণুভক্তিরত্নাবলী” যাংহার গ্রন্থন ৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବିଷ୍ଣୁପୁରୀ ଗୋସାଇଂ ବନ୍ଦୋ କରିୟା ଯତନ",
+            "“ବିଷ୍ଣୁଭକ୍ତିରତ୍ନାବଲୀ” ଯାଂହାର ଗ୍ରନ୍ଥନ ୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બિષ્ણુપુરી ગોસાઇં બન્દો કરિયા યતન",
+            "“બિષ્ણુભક્તિરત્નાબલી” યાંહાર ગ્રન્થન ૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "biṣṇupurī gosāĩ bando kariyā yatana",
+            "“biṣṇubhaktiratnābalī” yā̃hāra granthana 7"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಿಷ್ಣುಪುರೀ ಗೊಸಾಇಂ ಬಂದೊ ಕರಿಯಾ ಯತನ",
+            "“ಬಿಷ್ಣುಭಕ್ತಿರತ್ನಾಬಲೀ” ಯಾಂಹಾರ ಗ್ರಂಥನ ೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బిష్ణుపురీ గొసాఇం బందొ కరియా యతన",
+            "“బిష్ణుభక్తిరత్నాబలీ” యాంహార గ్రంథన 7"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бишн̣упурӣ го̆са̄им̣ бандо̆ карийа̄ йатана",
+            "“бишн̣убхактиратна̄балӣ” йа̄м̣ха̄ра грантхана 7"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബിഷ്ണുപുരീ ഗൊസാഇം ബന്ദൊ കരിയാ യതന",
+            "“ബിഷ്ണുഭക്തിരത്നാബലീ” യാംഹാര ഗ്രന്ഥന 7"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பி³ஷ்ணுபுரீ கொ³ஸாஇம்ʼ ப³ந்தொ³ கரியா யதன",
+            "“பி³ஷ்ணுப⁴க்திரத்னாப³லீ” யாம்ʼஹார க்³ரந்த²ன 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "biṣṇupurī gosāĩ bando kariyā yatana",
+            "“biṣṇubhaktiratnābalī” yā̃hāra granthana 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "biṣṇupurī gosāĩ bando kariyā yatana",
+            "“biṣṇubhaktiratnābalī” yā̃hāra granthana 7"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 9,
+      "source_text_master": [
+        "brahmānandasbarūpa bando baḓa bhakti kari’",
+        "kṛṣṇānandapurī bando śrīrāghabapurī 8"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ब्रह्मानन्दस्बरूप बन्दॊ बḓअ भक्ति करिऽ",
+            "क्ड़्ष्णानन्दपुरी बन्दॊ श्रीराघबपुरी ८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ব্রহ্মানন্দস্বরূপ বন্দো বḓঅ ভক্তি করিঽ",
+            "ক্ড়্ষ্ণানন্দপুরী বন্দো শ্রীরাঘবপুরী ৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବ୍ରହ୍ମାନନ୍ଦସ୍ବରୂପ ବନ୍ଦୋ ବḓଅ ଭକ୍ତି କରିଽ",
+            "କ୍ଡ଼୍ଷ୍ଣାନନ୍ଦପୁରୀ ବନ୍ଦୋ ଶ୍ରୀରାଘବପୁରୀ ୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બ્રહ્માનન્દસ્બરૂપ બન્દો બḓઅ ભક્તિ કરિઽ",
+            "ક્ડ઼્ષ્ણાનન્દપુરી બન્દો શ્રીરાઘબપુરી ૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "brahmānandasbarūpa bando baḓa bhakti kari’",
+            "kṛṣṇānandapurī bando śrīrāghabapurī 8"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬ್ರಹ್ಮಾನಂದಸ್ಬರೂಪ ಬಂದೊ ಬḓಅ ಭಕ್ತಿ ಕರಿಽ",
+            "ಕ್‌ಡ಼್ಷ್ಣಾನಂದಪುರೀ ಬಂದೊ ಶ್ರೀರಾಘಬಪುರೀ ೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బ్రహ్మానందస్బరూప బందొ బḓఅ భక్తి కరిఽ",
+            "క్డ్ష్ణానందపురీ బందొ శ్రీరాఘబపురీ 8"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "брахма̄нандасбарӯпа бандо̆ баḓа бхакти кари'",
+            "кр̤шн̣а̄нандапурӣ бандо̆ ш́рӣра̄гхабапурӣ 8"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബ്രഹ്മാനന്ദസ്ബരൂപ ബന്ദൊ ബḓഅ ഭക്തി കരിഽ",
+            "ക്ഡ്ഷ്ണാനന്ദപുരീ ബന്ദൊ ശ്രീരാഘബപുരീ 8"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப்³ரஹ்மானந்த³ஸ்ப³ரூப ப³ந்தொ³ ப³ḓஅ ப⁴க்தி கரி(அ)",
+            "க்ஃட்²ஷ்ணானந்த³புரீ ப³ந்தொ³ ஶ்ரீராக⁴ப³புரீ 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "brahmānandasbarūpa bando baḍa bhakti kari’",
+            "kṛṣṇānandapurī bando śrīrāghabapurī 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "brahmānandasbarūpa bando baḓa bhakti kari’",
+            "kṛṣṇānandapurī bando śrīrāghabapurī 8"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 10,
+      "source_text_master": [
+        "biśbeśbarānanda bando biśba parakāśa",
+        "mahāprabhura pade yā̃’ra biśeṣa[FLAG_HYPHEN_ALPHA]biśbāsa 9"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बिश्बॆश्बरानन्द बन्दॊ बिश्ब परकाश",
+            "महाप्रभुर पदॆ यांऽर बिशॆषबिश्बास ९"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বিশ্বেশ্বরানন্দ বন্দো বিশ্ব পরকাশ",
+            "মহাপ্রভুর পদে যাংঽর বিশেষবিশ্বাস ৯"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବିଶ୍ବେଶ୍ବରାନନ୍ଦ ବନ୍ଦୋ ବିଶ୍ବ ପରକାଶ",
+            "ମହାପ୍ରଭୁର ପଦେ ଯାଂଽର ବିଶେଷବିଶ୍ବାସ ୯"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બિશ્બેશ્બરાનન્દ બન્દો બિશ્બ પરકાશ",
+            "મહાપ્રભુર પદે યાંઽર બિશેષબિશ્બાસ ૯"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "biśbeśbarānanda bando biśba parakāśa",
+            "mahāprabhura pade yā̃’ra biśeṣa-biśbāsa 9"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಿಶ್ಬೆಶ್ಬರಾನಂದ ಬಂದೊ ಬಿಶ್ಬ ಪರಕಾಶ",
+            "ಮಹಾಪ್ರಭುರ ಪದೆ ಯಾಂಽರ ಬಿಶೆಷಬಿಶ್ಬಾಸ ೯"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బిశ్బెశ్బరానంద బందొ బిశ్బ పరకాశ",
+            "మహాప్రభుర పదె యాంఽర బిశెషబిశ్బాస 9"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "биш́бэ̆ш́бара̄нанда бандо̆ биш́ба парака̄ш́а",
+            "маха̄прабхура падэ̆ йа̄м̣'ра биш́э̆шабиш́ба̄са 9"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബിശ്ബെശ്ബരാനന്ദ ബന്ദൊ ബിശ്ബ പരകാശ",
+            "മഹാപ്രഭുര പദെ യാംഽര ബിശെഷബിശ്ബാസ 9"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பி³ஶ்பெ³ஶ்ப³ரானந்த³ ப³ந்தொ³ பி³ஶ்ப³ பரகாஶ",
+            "மஹாப்ரபு⁴ர பதெ³ யாம்ʼ(அ)ர பி³ஶெஷபி³ஶ்பா³ஸ 9"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "biśbeśbarānanda bando biśba parakāśa",
+            "mahāprabhura pade yā̃’ra biśeṣa-biśbāsa 9"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "biśbeśbarānanda bando biśba parakāśa",
+            "mahāprabhura pade yā̃’ra biśeṣa-biśbāsa 9"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 11,
+      "source_text_master": [
+        "śrīkeśabapurī bando anubhabānanda",
+        "bandiba bhāratī[FLAG_HYPHEN_ALPHA]śiṣya nāma cidānanda 10"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीकॆशबपुरी बन्दॊ अनुभबानन्द",
+            "बन्दिब भारतीशिष्य नाम चिदानन्द १०"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীকেশবপুরী বন্দো অনুভবানন্দ",
+            "বন্দিব ভারতীশিষ্য নাম চিদানন্দ ১০"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀକେଶବପୁରୀ ବନ୍ଦୋ ଅନୁଭବାନନ୍ଦ",
+            "ବନ୍ଦିବ ଭାରତୀଶିଷ୍ୟ ନାମ ଚିଦାନନ୍ଦ ୧୦"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીકેશબપુરી બન્દો અનુભબાનન્દ",
+            "બન્દિબ ભારતીશિષ્ય નામ ચિદાનન્દ ૧૦"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrīkeśabapurī bando anubhabānanda",
+            "bandiba bhāratī-śiṣya nāma cidānanda 10"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಕೆಶಬಪುರೀ ಬಂದೊ ಅನುಭಬಾನಂದ",
+            "ಬಂದಿಬ ಭಾರತೀಶಿಷ್ಯ ನಾಮ ಚಿದಾನಂದ ೧೦"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీకెశబపురీ బందొ అనుభబానంద",
+            "బందిబ భారతీశిష్య నామ చిదానంద 10"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣкэ̆ш́абапурӣ бандо̆ анубхаба̄нанда",
+            "бандиба бха̄ратӣш́ишйа на̄ма чида̄нанда 10"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീകെശബപുരീ ബന്ദൊ അനുഭബാനന്ദ",
+            "ബന്ദിബ ഭാരതീശിഷ്യ നാമ ചിദാനന്ദ 10"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீகெஶப³புரீ ப³ந்தொ³ அனுப⁴பா³னந்த³",
+            "ப³ந்தி³ப³ பா⁴ரதீஶிஷ்ய நாம சிதா³னந்த³ 10"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrīkeśabapurī bando anubhabānanda",
+            "bandiba bhāratī-śiṣya nāma cidānanda 10"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrīkeśabapurī bando anubhabānanda",
+            "bandiba bhāratī-śiṣya nāma cidānanda 10"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 12,
+      "source_text_master": [
+        "bando rūpa[FLAG_HYPHEN_ALPHA]sanātana dui mahāśaya",
+        "bṛndābanabhūmi dũhe karilā nirṇaya 11"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बन्दॊ रूपसनातन दुइ महाशय",
+            "ब्ड़्न्दाबनभूमि दुंहॆ करिला निर्णय ११"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বন্দো রূপসনাতন দুই মহাশয়",
+            "ব্ড়্ন্দাবনভূমি দুংহে করিলা নির্ণয় ১১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବନ୍ଦୋ ରୂପସନାତନ ଦୁଇ ମହାଶୟ",
+            "ବ୍ଡ଼୍ନ୍ଦାବନଭୂମି ଦୁଂହେ କରିଲା ନିର୍ଣୟ ୧୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બન્દો રૂપસનાતન દુઇ મહાશય",
+            "બ્ડ઼્ન્દાબનભૂમિ દુંહે કરિલા નિર્ણય ૧૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bando rūpa-sanātana dui mahāśaya",
+            "bṛndābanabhūmi dũhe karilā nirṇaya 11"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಂದೊ ರೂಪಸನಾತನ ದುಇ ಮಹಾಶಯ",
+            "ಬ್‌ಡ಼್ನ್ದಾಬನಭೂಮಿ ದುಂಹೆ ಕರಿಲಾ ನಿರ್ಣಯ ೧೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బందొ రూపసనాతన దుఇ మహాశయ",
+            "బ్డ్న్దాబనభూమి దుంహె కరిలా నిర్ణయ 11"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бандо̆ рӯпасана̄тана дуи маха̄ш́айа",
+            "бр̤нда̄банабхӯми дум̣хэ̆ карила̄ нирн̣айа 11"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബന്ദൊ രൂപസനാതന ദുഇ മഹാശയ",
+            "ബ്ഡ്ന്ദാബനഭൂമി ദുംഹെ കരിലാ നിർണയ 11"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ந்தொ³ ரூபஸனாதன து³இ மஹாஶய",
+            "ப்³ஃட்²ந்தா³ப³னபூ⁴மி து³ம்ʼஹெ கரிலா நிர்ணய 11"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bando rūpa-sanātana dui mahāśaya",
+            "bṛndābanabhūmi dũhe karilā nirṇaya 11"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bando rūpa-sanātana dui mahāśaya",
+            "bṛndābanabhūmi dũhe karilā nirṇaya 11"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 13,
+      "source_text_master": [
+        "śrījība gosāĩ bando sabhāra sammata",
+        "siddhānta kariyā ye rākhila bhaktitattba 12"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीजीब गॊसाइं बन्दॊ सभार सम्मत",
+            "सिद्धान्त करिया यॆ राखिल भक्तितत्त्ब १२"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীজীব গোসাইং বন্দো সভার সম্মত",
+            "সিদ্ধান্ত করিয়া যে রাখিল ভক্তিতত্ত্ব ১২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀଜୀବ ଗୋସାଇଂ ବନ୍ଦୋ ସଭାର ସମ୍ମତ",
+            "ସିଦ୍ଧାନ୍ତ କରିୟା ଯେ ରାଖିଲ ଭକ୍ତିତତ୍ତ୍ବ ୧୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીજીબ ગોસાઇં બન્દો સભાર સમ્મત",
+            "સિદ્ધાન્ત કરિયા યે રાખિલ ભક્તિતત્ત્બ ૧૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrījība gosāĩ bando sabhāra sammata",
+            "siddhānta kariyā ye rākhila bhaktitattba 12"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಜೀಬ ಗೊಸಾಇಂ ಬಂದೊ ಸಭಾರ ಸಮ್ಮತ",
+            "ಸಿದ್ಧಾಂತ ಕರಿಯಾ ಯೆ ರಾಖಿಲ ಭಕ್ತಿತತ್ತ್ಬ ೧೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీజీబ గొసాఇం బందొ సభార సమ్మత",
+            "సిద్ధాంత కరియా యె రాఖిల భక్తితత్త్బ 12"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣджӣба го̆са̄им̣ бандо̆ сабха̄ра саммата",
+            "сиддха̄нта карийа̄ йэ̆ ра̄кхила бхактитаттба 12"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീജീബ ഗൊസാഇം ബന്ദൊ സഭാര സമ്മത",
+            "സിദ്ധാന്ത കരിയാ യെ രാഖില ഭക്തിതത്ത്ബ 12"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீஜீப³ கொ³ஸாஇம்ʼ ப³ந்தொ³ ஸபா⁴ர ஸம்மத",
+            "ஸித்³தா⁴ந்த கரியா யெ ராகி²ல ப⁴க்திதத்த்ப³ 12"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrījība gosāĩ bando sabhāra sammata",
+            "siddhānta kariyā ye rākhila bhaktitattba 12"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrījība gosāĩ bando sabhāra sammata",
+            "siddhānta kariyā ye rākhila bhaktitattba 12"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 14,
+      "source_text_master": [
+        "raghunāthadāsa bando rādhākuṇḍabāsī",
+        "rāghaba[FLAG_HYPHEN_ALPHA]gosāĩ bando gobardhana[FLAG_HYPHEN_ALPHA]bilāsī 13"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "रघुनाथदास बन्दॊ राधाकुण्डबासी",
+            "राघबगॊसाइं बन्दॊ गॊबर्धनबिलासी १३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "রঘুনাথদাস বন্দো রাধাকুণ্ডবাসী",
+            "রাঘবগোসাইং বন্দো গোবর্ধনবিলাসী ১৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ରଘୁନାଥଦାସ ବନ୍ଦୋ ରାଧାକୁଣ୍ଡବାସୀ",
+            "ରାଘବଗୋସାଇଂ ବନ୍ଦୋ ଗୋବର୍ଧନବିଲାସୀ ୧୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "રઘુનાથદાસ બન્દો રાધાકુણ્ડબાસી",
+            "રાઘબગોસાઇં બન્દો ગોબર્ધનબિલાસી ૧૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "raghunāthadāsa bando rādhākuṇḍabāsī",
+            "rāghaba-gosāĩ bando gobardhana-bilāsī 13"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ರಘುನಾಥದಾಸ ಬಂದೊ ರಾಧಾಕುಂಡಬಾಸೀ",
+            "ರಾಘಬಗೊಸಾಇಂ ಬಂದೊ ಗೊಬರ್ಧನಬಿಲಾಸೀ ೧೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "రఘునాథదాస బందొ రాధాకుండబాసీ",
+            "రాఘబగొసాఇం బందొ గొబర్ధనబిలాసీ 13"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "рагхуна̄тхада̄са бандо̆ ра̄дха̄кун̣д̣аба̄сӣ",
+            "ра̄гхабаго̆са̄им̣ бандо̆ го̆бардханабила̄сӣ 13"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "രഘുനാഥദാസ ബന്ദൊ രാധാകുണ്ഡബാസീ",
+            "രാഘബഗൊസാഇം ബന്ദൊ ഗൊബർധനബിലാസീ 13"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ரகு⁴நாத²தா³ஸ ப³ந்தொ³ ராதா⁴குண்ட³பா³ஸீ",
+            "ராக⁴ப³கொ³ஸாஇம்ʼ ப³ந்தொ³ கொ³ப³ர்த⁴னபி³லாஸீ 13"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "raghunāthadāsa bando rādhākuṇḍabāsī",
+            "rāghaba-gosāĩ bando gobardhana-bilāsī 13"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "raghunāthadāsa bando rādhākuṇḍabāsī",
+            "rāghaba-gosāĩ bando gobardhana-bilāsī 13"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 15,
+      "source_text_master": [
+        "bandiba gopālabhaṭṭa bṛndābana mājhe",
+        "sanātana[FLAG_HYPHEN_ALPHA]rūpa saṅge satata birāje 14"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बन्दिब गॊपालभट्ट ब्ड़्न्दाबन माझॆ",
+            "सनातनरूप सङ्गॆ सतत बिराजॆ १४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বন্দিব গোপালভট্ট ব্ড়্ন্দাবন মাঝে",
+            "সনাতনরূপ সঙ্গে সতত বিরাজে ১৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବନ୍ଦିବ ଗୋପାଲଭଟ୍ଟ ବ୍ଡ଼୍ନ୍ଦାବନ ମାଝେ",
+            "ସନାତନରୂପ ସଙ୍ଗେ ସତତ ବିରାଜେ ୧୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બન્દિબ ગોપાલભટ્ટ બ્ડ઼્ન્દાબન માઝે",
+            "સનાતનરૂપ સઙ્ગે સતત બિરાજે ૧૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bandiba gopālabhaṭṭa bṛndābana mājhe",
+            "sanātana-rūpa saṅge satata birāje 14"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಂದಿಬ ಗೊಪಾಲಭಟ್ಟ ಬ್‌ಡ಼್ನ್ದಾಬನ ಮಾಝೆ",
+            "ಸನಾತನರೂಪ ಸಂಗೆ ಸತತ ಬಿರಾಜೆ ೧೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బందిబ గొపాలభట్ట బ్డ్న్దాబన మాఝె",
+            "సనాతనరూప సంగె సతత బిరాజె 14"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бандиба го̆па̄лабхат̣т̣а бр̤нда̄бана ма̄джхэ̆",
+            "сана̄танарӯпа сан̇гэ̆ сатата бира̄джэ̆ 14"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബന്ദിബ ഗൊപാലഭട്ട ബ്ഡ്ന്ദാബന മാഝെ",
+            "സനാതനരൂപ സംഗെ സതത ബിരാജെ 14"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ந்தி³ப³ கொ³பாலப⁴ட்ட ப்³ஃட்²ந்தா³ப³ன மாஜெ²",
+            "ஸனாதனரூப ஸங்கெ³ ஸதத பி³ராஜெ 14"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bandiba gopālabhaṭṭa bṛndābana mājhe",
+            "sanātana-rūpa saṅge satata birāje 14"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bandiba gopālabhaṭṭa bṛndābana mājhe",
+            "sanātana-rūpa saṅge satata birāje 14"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 16,
+      "source_text_master": [
+        "raghunāthabhaṭṭa gosāĩ bandiba ekacite",
+        "bṛndābane adhyāpaka—śrībhāgabate 15"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "रघुनाथभट्ट गॊसाइं बन्दिब ऎकचितॆ",
+            "ब्ड़्न्दाबनॆ अध्यापक—श्रीभागबतॆ १५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "রঘুনাথভট্ট গোসাইং বন্দিব একচিতে",
+            "ব্ড়্ন্দাবনে অধ্যাপক—শ্রীভাগবতে ১৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ରଘୁନାଥଭଟ୍ଟ ଗୋସାଇଂ ବନ୍ଦିବ ଏକଚିତେ",
+            "ବ୍ଡ଼୍ନ୍ଦାବନେ ଅଧ୍ୟାପକ—ଶ୍ରୀଭାଗବତେ ୧୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "રઘુનાથભટ્ટ ગોસાઇં બન્દિબ એકચિતે",
+            "બ્ડ઼્ન્દાબને અધ્યાપક—શ્રીભાગબતે ૧૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "raghunāthabhaṭṭa gosāĩ bandiba ekacite",
+            "bṛndābane adhyāpaka—śrībhāgabate 15"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ರಘುನಾಥಭಟ್ಟ ಗೊಸಾಇಂ ಬಂದಿಬ ಎಕಚಿತೆ",
+            "ಬ್‌ಡ಼್ನ್ದಾಬನೆ ಅಧ್ಯಾಪಕ—ಶ್ರೀಭಾಗಬತೆ ೧೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "రఘునాథభట్ట గొసాఇం బందిబ ఎకచితె",
+            "బ్డ్న్దాబనె అధ్యాపక—శ్రీభాగబతె 15"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "рагхуна̄тхабхат̣т̣а го̆са̄им̣ бандиба э̆качитэ̆",
+            "бр̤нда̄банэ̆ адхйа̄пака—ш́рӣбха̄габатэ̆ 15"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "രഘുനാഥഭട്ട ഗൊസാഇം ബന്ദിബ എകചിതെ",
+            "ബ്ഡ്ന്ദാബനെ അധ്യാപക—ശ്രീഭാഗബതെ 15"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ரகு⁴நாத²ப⁴ட்ட கொ³ஸாஇம்ʼ ப³ந்தி³ப³ எகசிதெ",
+            "ப்³ஃட்²ந்தா³ப³னெ அத்⁴யாபக—ஶ்ரீபா⁴க³ப³தெ 15"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "raghunāthabhaṭṭa gosāĩ bandiba ekacite",
+            "bṛndābane adhyāpaka—śrībhāgabate 15"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "raghunāthabhaṭṭa gosāĩ bandiba ekacite",
+            "bṛndābane adhyāpaka—śrībhāgabate 15"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 17,
+      "source_text_master": [
+        "lokanātha ṭhākura bando bhūgarbha ṭhākura",
+        "jība nistārite yā̃’ra karuṇā pracura 16"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "लॊकनाथ ठाकुर बन्दॊ भूगर्भ ठाकुर",
+            "जीब निस्तारितॆ यांऽर करुणा प्रचुर १६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "লোকনাথ ঠাকুর বন্দো ভূগর্ভ ঠাকুর",
+            "জীব নিস্তারিতে যাংঽর করুণা প্রচুর ১৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଲୋକନାଥ ଠାକୁର ବନ୍ଦୋ ଭୂଗର୍ଭ ଠାକୁର",
+            "ଜୀବ ନିସ୍ତାରିତେ ଯାଂଽର କରୁଣା ପ୍ରଚୁର ୧୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "લોકનાથ ઠાકુર બન્દો ભૂગર્ભ ઠાકુર",
+            "જીબ નિસ્તારિતે યાંઽર કરુણા પ્રચુર ૧૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "lokanātha ṭhākura bando bhūgarbha ṭhākura",
+            "jība nistārite yā̃’ra karuṇā pracura 16"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಲೊಕನಾಥ ಠಾಕುರ ಬಂದೊ ಭೂಗರ್ಭ ಠಾಕುರ",
+            "ಜೀಬ ನಿಸ್ತಾರಿತೆ ಯಾಂಽರ ಕರುಣಾ ಪ್ರಚುರ ೧೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "లొకనాథ ఠాకుర బందొ భూగర్భ ఠాకుర",
+            "జీబ నిస్తారితె యాంఽర కరుణా ప్రచుర 16"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ло̆кана̄тха т̣ха̄кура бандо̆ бхӯгарбха т̣ха̄кура",
+            "джӣба ниста̄ритэ̆ йа̄м̣'ра карун̣а̄ прачура 16"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ലൊകനാഥ ഠാകുര ബന്ദൊ ഭൂഗർഭ ഠാകുര",
+            "ജീബ നിസ്താരിതെ യാംഽര കരുണാ പ്രചുര 16"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "லொகநாத² டா²குர ப³ந்தொ³ பூ⁴க³ர்ப⁴ டா²குர",
+            "ஜீப³ நிஸ்தாரிதெ யாம்ʼ(அ)ர கருணா ப்ரசுர 16"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "lokanātha ṭhākura bando bhūgarbha ṭhākura",
+            "jība nistārite yā̃’ra karuṇā pracura 16"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "lokanātha ṭhākura bando bhūgarbha ṭhākura",
+            "jība nistārite yā̃’ra karuṇā pracura 16"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 18,
+      "source_text_master": [
+        "kāśīśbara gosāĩ bando hayā ekamati",
+        "mathurāmaṇḍale yā̃’ra biśeṣa kheyāti 17"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "काशीश्बर गॊसाइं बन्दॊ हया ऎकमति",
+            "मथुरामण्डलॆ यांऽर बिशॆष खॆयाति १७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কাশীশ্বর গোসাইং বন্দো হয়া একমতি",
+            "মথুরামণ্ডলে যাংঽর বিশেষ খেয়াতি ১৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କାଶୀଶ୍ବର ଗୋସାଇଂ ବନ୍ଦୋ ହୟା ଏକମତି",
+            "ମଥୁରାମଣ୍ଡଲେ ଯାଂଽର ବିଶେଷ ଖେୟାତି ୧୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કાશીશ્બર ગોસાઇં બન્દો હયા એકમતિ",
+            "મથુરામણ્ડલે યાંઽર બિશેષ ખેયાતિ ૧૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kāśīśbara gosāĩ bando hayā ekamati",
+            "mathurāmaṇḍale yā̃’ra biśeṣa kheyāti 17"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕಾಶೀಶ್ಬರ ಗೊಸಾಇಂ ಬಂದೊ ಹಯಾ ಎಕಮತಿ",
+            "ಮಥುರಾಮಂಡಲೆ ಯಾಂಽರ ಬಿಶೆಷ ಖೆಯಾತಿ ೧೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కాశీశ్బర గొసాఇం బందొ హయా ఎకమతి",
+            "మథురామండలె యాంఽర బిశెష ఖెయాతి 17"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ка̄ш́ӣш́бара го̆са̄им̣ бандо̆ хайа̄ э̆камати",
+            "матхура̄ман̣д̣алэ̆ йа̄м̣'ра биш́э̆ша кхэ̆йа̄ти 17"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കാശീശ്ബര ഗൊസാഇം ബന്ദൊ ഹയാ എകമതി",
+            "മഥുരാമണ്ഡലെ യാംഽര ബിശെഷ ഖെയാതി 17"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "காஶீஶ்ப³ர கொ³ஸாஇம்ʼ ப³ந்தொ³ ஹயா எகமதி",
+            "மது²ராமண்ட³லெ யாம்ʼ(அ)ர பி³ஶெஷ கெ²யாதி 17"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kāśīśbara gosāĩ bando hayā ekamati",
+            "mathurāmaṇḍale yā̃’ra biśeṣa kheyāti 17"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kāśīśbara gosāĩ bando hayā ekamati",
+            "mathurāmaṇḍale yā̃’ra biśeṣa kheyāti 17"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 19,
+      "source_text_master": [
+        "śuddhā sarasbatī bando baḓa śuddhamati",
+        "prabhura caraṇe yā̃’ra biśuddha bhakati 18"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "शुद्धा सरस्बती बन्दॊ बḓअ शुद्धमति",
+            "प्रभुर चरणॆ यांऽर बिशुद्ध भकति १८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শুদ্ধা সরস্বতী বন্দো বḓঅ শুদ্ধমতি",
+            "প্রভুর চরণে যাংঽর বিশুদ্ধ ভকতি ১৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶୁଦ୍ଧା ସରସ୍ବତୀ ବନ୍ଦୋ ବḓଅ ଶୁଦ୍ଧମତି",
+            "ପ୍ରଭୁର ଚରଣେ ଯାଂଽର ବିଶୁଦ୍ଧ ଭକତି ୧୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શુદ્ધા સરસ્બતી બન્દો બḓઅ શુદ્ધમતિ",
+            "પ્રભુર ચરણે યાંઽર બિશુદ્ધ ભકતિ ૧૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śuddhā sarasbatī bando baḓa śuddhamati",
+            "prabhura caraṇe yā̃’ra biśuddha bhakati 18"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶುದ್ಧಾ ಸರಸ್ಬತೀ ಬಂದೊ ಬḓಅ ಶುದ್ಧಮತಿ",
+            "ಪ್ರಭುರ ಚರಣೆ ಯಾಂಽರ ಬಿಶುದ್ಧ ಭಕತಿ ೧೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శుద్ధా సరస్బతీ బందొ బḓఅ శుద్ధమతి",
+            "ప్రభుర చరణె యాంఽర బిశుద్ధ భకతి 18"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́уддха̄ сарасбатӣ бандо̆ баḓа ш́уддхамати",
+            "прабхура чаран̣э̆ йа̄м̣'ра биш́уддха бхакати 18"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശുദ്ധാ സരസ്ബതീ ബന്ദൊ ബḓഅ ശുദ്ധമതി",
+            "പ്രഭുര ചരണെ യാംഽര ബിശുദ്ധ ഭകതി 18"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶுத்³தா⁴ ஸரஸ்ப³தீ ப³ந்தொ³ ப³ḓஅ ஶுத்³த⁴மதி",
+            "ப்ரபு⁴ர சரணெ யாம்ʼ(அ)ர பி³ஶுத்³த⁴ ப⁴கதி 18"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śuddhā sarasbatī bando baḍa śuddhamati",
+            "prabhura caraṇe yā̃’ra biśuddha bhakati 18"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śuddhā sarasbatī bando baḓa śuddhamati",
+            "prabhura caraṇe yā̃’ra biśuddha bhakati 18"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 20,
+      "source_text_master": [
+        "prabodhānanda gosāĩ bando kariyā yatana",
+        "ye karilā mahāprabhura guṇera barṇana 19"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "प्रबॊधानन्द गॊसाइं बन्दॊ करिया यतन",
+            "यॆ करिला महाप्रभुर गुणॆर बर्णन १९"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "প্রবোধানন্দ গোসাইং বন্দো করিয়া যতন",
+            "যে করিলা মহাপ্রভুর গুণের বর্ণন ১৯"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ପ୍ରବୋଧାନନ୍ଦ ଗୋସାଇଂ ବନ୍ଦୋ କରିୟା ଯତନ",
+            "ଯେ କରିଲା ମହାପ୍ରଭୁର ଗୁଣେର ବର୍ଣନ ୧୯"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "પ્રબોધાનન્દ ગોસાઇં બન્દો કરિયા યતન",
+            "યે કરિલા મહાપ્રભુર ગુણેર બર્ણન ૧૯"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "prabodhānanda gosāĩ bando kariyā yatana",
+            "ye karilā mahāprabhura guṇera barṇana 19"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಪ್ರಬೊಧಾನಂದ ಗೊಸಾಇಂ ಬಂದೊ ಕರಿಯಾ ಯತನ",
+            "ಯೆ ಕರಿಲಾ ಮಹಾಪ್ರಭುರ ಗುಣೆರ ಬರ್ಣನ ೧೯"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ప్రబొధానంద గొసాఇం బందొ కరియా యతన",
+            "యె కరిలా మహాప్రభుర గుణెర బర్ణన 19"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "прабо̆дха̄нанда го̆са̄им̣ бандо̆ карийа̄ йатана",
+            "йэ̆ карила̄ маха̄прабхура гун̣э̆ра барн̣ана 19"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "പ്രബൊധാനന്ദ ഗൊസാഇം ബന്ദൊ കരിയാ യതന",
+            "യെ കരിലാ മഹാപ്രഭുര ഗുണെര ബർണന 19"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப்ரபொ³தா⁴னந்த³ கொ³ஸாஇம்ʼ ப³ந்தொ³ கரியா யதன",
+            "யெ கரிலா மஹாப்ரபு⁴ர கு³ணெர ப³ர்ணன 19"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "prabodhānanda gosāĩ bando kariyā yatana",
+            "ye karilā mahāprabhura guṇera barṇana 19"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "prabodhānanda gosāĩ bando kariyā yatana",
+            "ye karilā mahāprabhura guṇera barṇana 19"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 21,
+      "source_text_master": [
+        "jagadānanda paṇḍita bando sākṣāt satyabhāmā",
+        "mahāprabhu kaila yā̃’re pīriti paramā 20"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जगदानन्द पण्डित बन्दॊ साक्षात् सत्यभामा",
+            "महाप्रभु कैल यांऽरॆ पीरिति परमा २०"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জগদানন্দ পণ্ডিত বন্দো সাক্ষাৎ সত্যভামা",
+            "মহাপ্রভু কৈল যাংঽরে পীরিতি পরমা ২০"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜଗଦାନନ୍ଦ ପଣ୍ଡିତ ବନ୍ଦୋ ସାକ୍ଷାତ୍ ସତ୍ୟଭାମା",
+            "ମହାପ୍ରଭୁ କୈଲ ଯାଂଽରେ ପୀରିତି ପରମା ୨୦"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જગદાનન્દ પણ્ડિત બન્દો સાક્ષાત્ સત્યભામા",
+            "મહાપ્રભુ કૈલ યાંઽરે પીરિતિ પરમા ૨૦"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jagadānanda paṇḍita bando sākṣāt satyabhāmā",
+            "mahāprabhu kaila yā̃’re pīriti paramā 20"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಗದಾನಂದ ಪಂಡಿತ ಬಂದೊ ಸಾಕ್ಷಾತ್ ಸತ್ಯಭಾಮಾ",
+            "ಮಹಾಪ್ರಭು ಕೈಲ ಯಾಂಽರೆ ಪೀರಿತಿ ಪರಮಾ ೨೦"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జగదానంద పండిత బందొ సాక్షాత్ సత్యభామా",
+            "మహాప్రభు కైల యాంఽరె పీరితి పరమా 20"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джагада̄нанда пан̣д̣ита бандо̆ са̄кша̄т сатйабха̄ма̄",
+            "маха̄прабху каила йа̄м̣'рэ̆ пӣрити парама̄ 20"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജഗദാനന്ദ പണ്ഡിത ബന്ദൊ സാക്ഷാത് സത്യഭാമാ",
+            "മഹാപ്രഭു കൈല യാംഽരെ പീരിതി പരമാ 20"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜக³தா³னந்த³ பண்டி³த ப³ந்தொ³ ஸாக்ஷாத் ஸத்யபா⁴மா",
+            "மஹாப்ரபு⁴ கைல யாம்ʼ(அ)ரெ பீரிதி பரமா 20"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jagadānanda paṇḍita bando sākṣāt satyabhāmā",
+            "mahāprabhu kaila yā̃’re pīriti paramā 20"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jagadānanda paṇḍita bando sākṣāt satyabhāmā",
+            "mahāprabhu kaila yā̃’re pīriti paramā 20"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 22,
+      "source_text_master": [
+        "mahā[FLAG_HYPHEN_ALPHA]anubhaba bando paṇḍita rāghaba",
+        "pānihāṭī[FLAG_HYPHEN_ALPHA]grāme yā̃’ra prakāśa baibhaba 21"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "महाअनुभब बन्दॊ पण्डित राघब",
+            "पानिहाटीग्रामॆ यांऽर प्रकाश बैभब २१"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মহাঅনুভব বন্দো পণ্ডিত রাঘব",
+            "পানিহাটীগ্রামে যাংঽর প্রকাশ বৈভব ২১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମହାଅନୁଭବ ବନ୍ଦୋ ପଣ୍ଡିତ ରାଘବ",
+            "ପାନିହାଟୀଗ୍ରାମେ ଯାଂଽର ପ୍ରକାଶ ବୈଭବ ୨୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મહાઅનુભબ બન્દો પણ્ડિત રાઘબ",
+            "પાનિહાટીગ્રામે યાંઽર પ્રકાશ બૈભબ ૨૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "mahā-anubhaba bando paṇḍita rāghaba",
+            "pānihāṭī-grāme yā̃’ra prakāśa baibhaba 21"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮಹಾಅನುಭಬ ಬಂದೊ ಪಂಡಿತ ರಾಘಬ",
+            "ಪಾನಿಹಾಟೀಗ್ರಾಮೆ ಯಾಂಽರ ಪ್ರಕಾಶ ಬೈಭಬ ೨೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మహాఅనుభబ బందొ పండిత రాఘబ",
+            "పానిహాటీగ్రామె యాంఽర ప్రకాశ బైభబ 21"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "маха̄анубхаба бандо̆ пан̣д̣ита ра̄гхаба",
+            "па̄ниха̄т̣ӣгра̄мэ̆ йа̄м̣'ра прака̄ш́а баибхаба 21"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മഹാഅനുഭബ ബന്ദൊ പണ്ഡിത രാഘബ",
+            "പാനിഹാടീഗ്രാമെ യാംഽര പ്രകാശ ബൈഭബ 21"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மஹாஅனுப⁴ப³ ப³ந்தொ³ பண்டி³த ராக⁴ப³",
+            "பானிஹாடீக்³ராமெ யாம்ʼ(அ)ர ப்ரகாஶ பை³ப⁴ப³ 21"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "mahā-anubhaba bando paṇḍita rāghaba",
+            "pānihāṭī-grāme yā̃’ra prakāśa baibhaba 21"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "mahā-anubhaba bando paṇḍita rāghaba",
+            "pānihāṭī-grāme yā̃’ra prakāśa baibhaba 21"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 23,
+      "source_text_master": [
+        "purandara[FLAG_HYPHEN_ALPHA]paṇḍita bando aṅgadabikrama",
+        "saparibāre lāṅgula yā̃’ra dekhilā brāhmaṇa 22"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "पुरन्दरपण्डित बन्दॊ अङ्गदबिक्रम",
+            "सपरिबारॆ लाङ्गुल यांऽर दॆखिला ब्राह्मण २२"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "পুরন্দরপণ্ডিত বন্দো অঙ্গদবিক্রম",
+            "সপরিবারে লাঙ্গুল যাংঽর দেখিলা ব্রাহ্মণ ২২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ପୁରନ୍ଦରପଣ୍ଡିତ ବନ୍ଦୋ ଅଙ୍ଗଦବିକ୍ରମ",
+            "ସପରିବାରେ ଲାଙ୍ଗୁଲ ଯାଂଽର ଦେଖିଲା ବ୍ରାହ୍ମଣ ୨୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "પુરન્દરપણ્ડિત બન્દો અઙ્ગદબિક્રમ",
+            "સપરિબારે લાઙ્ગુલ યાંઽર દેખિલા બ્રાહ્મણ ૨૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "purandara-paṇḍita bando aṅgadabikrama",
+            "saparibāre lāṅgula yā̃’ra dekhilā brāhmaṇa 22"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಪುರಂದರಪಂಡಿತ ಬಂದೊ ಅಂಗದಬಿಕ್ರಮ",
+            "ಸಪರಿಬಾರೆ ಲಾಂಗುಲ ಯಾಂಽರ ದೆಖಿಲಾ ಬ್ರಾಹ್ಮಣ ೨೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "పురందరపండిత బందొ అంగదబిక్రమ",
+            "సపరిబారె లాంగుల యాంఽర దెఖిలా బ్రాహ్మణ 22"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "пурандарапан̣д̣ита бандо̆ ан̇гадабикрама",
+            "сапариба̄рэ̆ ла̄н̇гула йа̄м̣'ра дэ̆кхила̄ бра̄хман̣а 22"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "പുരന്ദരപണ്ഡിത ബന്ദൊ അംഗദബിക്രമ",
+            "സപരിബാരെ ലാംഗുല യാംഽര ദെഖിലാ ബ്രാഹ്മണ 22"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "புரந்த³ரபண்டி³த ப³ந்தொ³ அங்க³த³பி³க்ரம",
+            "ஸபரிபா³ரெ லாங்கு³ல யாம்ʼ(அ)ர தெ³கி²லா ப்³ராஹ்மண 22"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "purandara-paṇḍita bando aṅgadabikrama",
+            "saparibāre lāṅgula yā̃’ra dekhilā brāhmaṇa 22"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "purandara-paṇḍita bando aṅgadabikrama",
+            "saparibāre lāṅgula yā̃’ra dekhilā brāhmaṇa 22"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 24,
+      "source_text_master": [
+        "kāśīmiśra bando—prabhu yā̃hāra āśrame",
+        "bāṇīnātha paṭṭanāyaka bandiba sābadhāne 23"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "काशीमिश्र बन्दॊ—प्रभु यांहार आश्रमॆ",
+            "बाणीनाथ पट्टनायक बन्दिब साबधानॆ २३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কাশীমিশ্র বন্দো—প্রভু যাংহার আশ্রমে",
+            "বাণীনাথ পট্টনায়ক বন্দিব সাবধানে ২৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କାଶୀମିଶ୍ର ବନ୍ଦୋ—ପ୍ରଭୁ ଯାଂହାର ଆଶ୍ରମେ",
+            "ବାଣୀନାଥ ପଟ୍ଟନାୟକ ବନ୍ଦିବ ସାବଧାନେ ୨୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કાશીમિશ્ર બન્દો—પ્રભુ યાંહાર આશ્રમે",
+            "બાણીનાથ પટ્ટનાયક બન્દિબ સાબધાને ૨૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kāśīmiśra bando—prabhu yā̃hāra āśrame",
+            "bāṇīnātha paṭṭanāyaka bandiba sābadhāne 23"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕಾಶೀಮಿಶ್ರ ಬಂದೊ—ಪ್ರಭು ಯಾಂಹಾರ ಆಶ್ರಮೆ",
+            "ಬಾಣೀನಾಥ ಪಟ್ಟನಾಯಕ ಬಂದಿಬ ಸಾಬಧಾನೆ ೨೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కాశీమిశ్ర బందొ—ప్రభు యాంహార ఆశ్రమె",
+            "బాణీనాథ పట్టనాయక బందిబ సాబధానె 23"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ка̄ш́ӣмиш́ра бандо̆—прабху йа̄м̣ха̄ра а̄ш́рамэ̆",
+            "ба̄н̣ӣна̄тха пат̣т̣ана̄йака бандиба са̄бадха̄нэ̆ 23"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കാശീമിശ്ര ബന്ദൊ—പ്രഭു യാംഹാര ആശ്രമെ",
+            "ബാണീനാഥ പട്ടനായക ബന്ദിബ സാബധാനെ 23"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "காஶீமிஶ்ர ப³ந்தொ³—ப்ரபு⁴ யாம்ʼஹார ஆஶ்ரமெ",
+            "பா³ணீநாத² பட்டநாயக ப³ந்தி³ப³ ஸாப³தா⁴னெ 23"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kāśīmiśra bando—prabhu yā̃hāra āśrame",
+            "bāṇīnātha paṭṭanāyaka bandiba sābadhāne 23"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kāśīmiśra bando—prabhu yā̃hāra āśrame",
+            "bāṇīnātha paṭṭanāyaka bandiba sābadhāne 23"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 25,
+      "source_text_master": [
+        "śrīpradyumnamiśra bando, rāya bhabānanda",
+        "kalānidhi, sudhānidhi, gopīnātha, bando 24"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीप्रद्युम्नमिश्र बन्दॊ, राय भबानन्द",
+            "कलानिधि, सुधानिधि, गॊपीनाथ, बन्दॊ २४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীপ্রদ্যুম্নমিশ্র বন্দো, রায় ভবানন্দ",
+            "কলানিধি, সুধানিধি, গোপীনাথ, বন্দো ২৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀପ୍ରଦ୍ୟୁମ୍ନମିଶ୍ର ବନ୍ଦୋ, ରାୟ ଭବାନନ୍ଦ",
+            "କଲାନିଧି, ସୁଧାନିଧି, ଗୋପୀନାଥ, ବନ୍ଦୋ ୨୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીપ્રદ્યુમ્નમિશ્ર બન્દો, રાય ભબાનન્દ",
+            "કલાનિધિ, સુધાનિધિ, ગોપીનાથ, બન્દો ૨૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrīpradyumnamiśra bando, rāya bhabānanda",
+            "kalānidhi, sudhānidhi, gopīnātha, bando 24"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಪ್ರದ್ಯುಮ್ನಮಿಶ್ರ ಬಂದೊ, ರಾಯ ಭಬಾನಂದ",
+            "ಕಲಾನಿಧಿ, ಸುಧಾನಿಧಿ, ಗೊಪೀನಾಥ, ಬಂದೊ ೨೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీప్రద్యుమ్నమిశ్ర బందొ, రాయ భబానంద",
+            "కలానిధి, సుధానిధి, గొపీనాథ, బందొ 24"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣпрадйумнамиш́ра бандо̆, ра̄йа бхаба̄нанда",
+            "кала̄нидхи, судха̄нидхи, го̆пӣна̄тха, бандо̆ 24"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീപ്രദ്യുമ്നമിശ്ര ബന്ദൊ, രായ ഭബാനന്ദ",
+            "കലാനിധി, സുധാനിധി, ഗൊപീനാഥ, ബന്ദൊ 24"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீப்ரத்³யும்னமிஶ்ர ப³ந்தொ³, ராய ப⁴பா³னந்த³",
+            "கலாநிதி⁴, ஸுதா⁴நிதி⁴, கொ³பீநாத², ப³ந்தொ³ 24"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrīpradyumnamiśra bando, rāya bhabānanda",
+            "kalānidhi, sudhānidhi, gopīnātha, bando 24"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrīpradyumnamiśra bando, rāya bhabānanda",
+            "kalānidhi, sudhānidhi, gopīnātha, bando 24"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 26,
+      "source_text_master": [
+        "rāya rāmānanda bando baḓa adhikārī",
+        "prabhu yā̃’re labhilā durllabha jñāna kari’ 25"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "राय रामानन्द बन्दॊ बḓअ अधिकारी",
+            "प्रभु यांऽरॆ लभिला दुर्ल्लभ ज्ञान करिऽ २५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "রায় রামানন্দ বন্দো বḓঅ অধিকারী",
+            "প্রভু যাংঽরে লভিলা দুর্ল্লভ জ্ঞান করিঽ ২৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ରାୟ ରାମାନନ୍ଦ ବନ୍ଦୋ ବḓଅ ଅଧିକାରୀ",
+            "ପ୍ରଭୁ ଯାଂଽରେ ଲଭିଲା ଦୁର୍ଲ୍ଲଭ ଜ୍ଞାନ କରିଽ ୨୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "રાય રામાનન્દ બન્દો બḓઅ અધિકારી",
+            "પ્રભુ યાંઽરે લભિલા દુર્લ્લભ જ્ઞાન કરિઽ ૨૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "rāya rāmānanda bando baḓa adhikārī",
+            "prabhu yā̃’re labhilā durllabha jñāna kari’ 25"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ರಾಯ ರಾಮಾನಂದ ಬಂದೊ ಬḓಅ ಅಧಿಕಾರೀ",
+            "ಪ್ರಭು ಯಾಂಽರೆ ಲಭಿಲಾ ದುರ್ಲ್ಲಭ ಜ್ಞಾನ ಕರಿಽ ೨೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "రాయ రామానంద బందొ బḓఅ అధికారీ",
+            "ప్రభు యాంఽరె లభిలా దుర్ల్లభ జ్ఞాన కరిఽ 25"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ра̄йа ра̄ма̄нанда бандо̆ баḓа адхика̄рӣ",
+            "прабху йа̄м̣'рэ̆ лабхила̄ дурллабха джн̃а̄на кари' 25"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "രായ രാമാനന്ദ ബന്ദൊ ബḓഅ അധികാരീ",
+            "പ്രഭു യാംഽരെ ലഭിലാ ദുർല്ലഭ ജ്ഞാന കരിഽ 25"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ராய ராமானந்த³ ப³ந்தொ³ ப³ḓஅ அதி⁴காரீ",
+            "ப்ரபு⁴ யாம்ʼ(அ)ரெ லபி⁴லா து³ர்ல்லப⁴ ஜ்ஞான கரி(அ) 25"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "rāya rāmānanda bando baḍa adhikārī",
+            "prabhu yā̃’re labhilā durllabha jñāna kari’ 25"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "rāya rāmānanda bando baḓa adhikārī",
+            "prabhu yā̃’re labhilā durllabha jñāna kari’ 25"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 27,
+      "source_text_master": [
+        "bakreśbara[FLAG_HYPHEN_ALPHA]paṇḍita bando dibyaśarīra",
+        "abhyantare kṛṣṇateja, gaurāṅga bāhira 26"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बक्रॆश्बरपण्डित बन्दॊ दिब्यशरीर",
+            "अभ्यन्तरॆ क्ड़्ष्णतॆज, गौराङ्ग बाहिर २६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বক্রেশ্বরপণ্ডিত বন্দো দিব্যশরীর",
+            "অভ্যন্তরে ক্ড়্ষ্ণতেজ, গৌরাঙ্গ বাহির ২৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବକ୍ରେଶ୍ବରପଣ୍ଡିତ ବନ୍ଦୋ ଦିବ୍ୟଶରୀର",
+            "ଅଭ୍ୟନ୍ତରେ କ୍ଡ଼୍ଷ୍ଣତେଜ, ଗୌରାଙ୍ଗ ବାହିର ୨୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બક્રેશ્બરપણ્ડિત બન્દો દિબ્યશરીર",
+            "અભ્યન્તરે ક્ડ઼્ષ્ણતેજ, ગૌરાઙ્ગ બાહિર ૨૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bakreśbara-paṇḍita bando dibyaśarīra",
+            "abhyantare kṛṣṇateja, gaurāṅga bāhira 26"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಕ್ರೆಶ್ಬರಪಂಡಿತ ಬಂದೊ ದಿಬ್ಯಶರೀರ",
+            "ಅಭ್ಯಂತರೆ ಕ್‌ಡ಼್ಷ್ಣತೆಜ, ಗೌರಾಂಗ ಬಾಹಿರ ೨೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బక్రెశ్బరపండిత బందొ దిబ్యశరీర",
+            "అభ్యంతరె క్డ్ష్ణతెజ, గౌరాంగ బాహిర 26"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бакрэ̆ш́барапан̣д̣ита бандо̆ дибйаш́арӣра",
+            "абхйантарэ̆ кр̤шн̣атэ̆джа, гаура̄н̇га ба̄хира 26"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബക്രെശ്ബരപണ്ഡിത ബന്ദൊ ദിബ്യശരീര",
+            "അഭ്യന്തരെ ക്ഡ്ഷ്ണതെജ, ഗൗരാംഗ ബാഹിര 26"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³க்ரெஶ்ப³ரபண்டி³த ப³ந்தொ³ தி³ப்³யஶரீர",
+            "அப்⁴யந்தரெ க்ஃட்²ஷ்ணதெஜ, கௌ³ராங்க³ பா³ஹிர 26"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bakreśbara-paṇḍita bando dibyaśarīra",
+            "abhyantare kṛṣṇateja, gaurāṅga bāhira 26"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bakreśbara-paṇḍita bando dibyaśarīra",
+            "abhyantare kṛṣṇateja, gaurāṅga bāhira 26"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 28,
+      "source_text_master": [
+        "bandiba sugrībamiśra, śrīgobindānanda",
+        "prabhu lāgi’ mānasika yā̃’ra setubandha 27"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बन्दिब सुग्रीबमिश्र, श्रीगॊबिन्दानन्द",
+            "प्रभु लागिऽ मानसिक यांऽर सॆतुबन्ध २७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বন্দিব সুগ্রীবমিশ্র, শ্রীগোবিন্দানন্দ",
+            "প্রভু লাগিঽ মানসিক যাংঽর সেতুবন্ধ ২৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବନ୍ଦିବ ସୁଗ୍ରୀବମିଶ୍ର, ଶ୍ରୀଗୋବିନ୍ଦାନନ୍ଦ",
+            "ପ୍ରଭୁ ଲାଗିଽ ମାନସିକ ଯାଂଽର ସେତୁବନ୍ଧ ୨୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બન્દિબ સુગ્રીબમિશ્ર, શ્રીગોબિન્દાનન્દ",
+            "પ્રભુ લાગિઽ માનસિક યાંઽર સેતુબન્ધ ૨૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bandiba sugrībamiśra, śrīgobindānanda",
+            "prabhu lāgi’ mānasika yā̃’ra setubandha 27"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಂದಿಬ ಸುಗ್ರೀಬಮಿಶ್ರ, ಶ್ರೀಗೊಬಿಂದಾನಂದ",
+            "ಪ್ರಭು ಲಾಗಿಽ ಮಾನಸಿಕ ಯಾಂಽರ ಸೆತುಬಂಧ ೨೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బందిబ సుగ్రీబమిశ్ర, శ్రీగొబిందానంద",
+            "ప్రభు లాగిఽ మానసిక యాంఽర సెతుబంధ 27"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бандиба сугрӣбамиш́ра, ш́рӣго̆бинда̄нанда",
+            "прабху ла̄ги' ма̄насика йа̄м̣'ра сэ̆тубандха 27"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബന്ദിബ സുഗ്രീബമിശ്ര, ശ്രീഗൊബിന്ദാനന്ദ",
+            "പ്രഭു ലാഗിഽ മാനസിക യാംഽര സെതുബന്ധ 27"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ந்தி³ப³ ஸுக்³ரீப³மிஶ்ர, ஶ்ரீகொ³பி³ந்தா³னந்த³",
+            "ப்ரபு⁴ லாகி³(அ) மானஸிக யாம்ʼ(அ)ர ஸெதுப³ந்த⁴ 27"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bandiba sugrībamiśra, śrīgobindānanda",
+            "prabhu lāgi’ mānasika yā̃’ra setubandha 27"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bandiba sugrībamiśra, śrīgobindānanda",
+            "prabhu lāgi’ mānasika yā̃’ra setubandha 27"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 29,
+      "source_text_master": [
+        "sambhrame bandiba āra gadādhara dāsa",
+        "bṛndābane atiśaya yā̃hāra prakāśa 28"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सम्भ्रमॆ बन्दिब आर गदाधर दास",
+            "ब्ड़्न्दाबनॆ अतिशय यांहार प्रकाश २८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সম্ভ্রমে বন্দিব আর গদাধর দাস",
+            "ব্ড়্ন্দাবনে অতিশয় যাংহার প্রকাশ ২৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସମ୍ଭ୍ରମେ ବନ୍ଦିବ ଆର ଗଦାଧର ଦାସ",
+            "ବ୍ଡ଼୍ନ୍ଦାବନେ ଅତିଶୟ ଯାଂହାର ପ୍ରକାଶ ୨୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સમ્ભ્રમે બન્દિબ આર ગદાધર દાસ",
+            "બ્ડ઼્ન્દાબને અતિશય યાંહાર પ્રકાશ ૨૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sambhrame bandiba āra gadādhara dāsa",
+            "bṛndābane atiśaya yā̃hāra prakāśa 28"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸಂಭ್ರಮೆ ಬಂದಿಬ ಆರ ಗದಾಧರ ದಾಸ",
+            "ಬ್‌ಡ಼್ನ್ದಾಬನೆ ಅತಿಶಯ ಯಾಂಹಾರ ಪ್ರಕಾಶ ೨೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సంభ్రమె బందిబ ఆర గదాధర దాస",
+            "బ్డ్న్దాబనె అతిశయ యాంహార ప్రకాశ 28"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "самбхрамэ̆ бандиба а̄ра гада̄дхара да̄са",
+            "бр̤нда̄банэ̆ атиш́айа йа̄м̣ха̄ра прака̄ш́а 28"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സംഭ്രമെ ബന്ദിബ ആര ഗദാധര ദാസ",
+            "ബ്ഡ്ന്ദാബനെ അതിശയ യാംഹാര പ്രകാശ 28"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸம்ப்⁴ரமெ ப³ந்தி³ப³ ஆர க³தா³த⁴ர தா³ஸ",
+            "ப்³ஃட்²ந்தா³ப³னெ அதிஶய யாம்ʼஹார ப்ரகாஶ 28"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sambhrame bandiba āra gadādhara dāsa",
+            "bṛndābane atiśaya yā̃hāra prakāśa 28"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sambhrame bandiba āra gadādhara dāsa",
+            "bṛndābane atiśaya yā̃hāra prakāśa 28"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 30,
+      "source_text_master": [
+        "sadāśiba kabirāja bando ekamane",
+        "nirantara premonmāda—bāhya nāhi jāne 29"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सदाशिब कबिराज बन्दॊ ऎकमनॆ",
+            "निरन्तर प्रॆमॊन्माद—बाह्य नाहि जानॆ २९"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সদাশিব কবিরাজ বন্দো একমনে",
+            "নিরন্তর প্রেমোন্মাদ—বাহ্য নাহি জানে ২৯"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସଦାଶିବ କବିରାଜ ବନ୍ଦୋ ଏକମନେ",
+            "ନିରନ୍ତର ପ୍ରେମୋନ୍ମାଦ—ବାହ୍ୟ ନାହି ଜାନେ ୨୯"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સદાશિબ કબિરાજ બન્દો એકમને",
+            "નિરન્તર પ્રેમોન્માદ—બાહ્ય નાહિ જાને ૨૯"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sadāśiba kabirāja bando ekamane",
+            "nirantara premonmāda—bāhya nāhi jāne 29"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸದಾಶಿಬ ಕಬಿರಾಜ ಬಂದೊ ಎಕಮನೆ",
+            "ನಿರಂತರ ಪ್ರೆಮೊನ್ಮಾದ—ಬಾಹ್ಯ ನಾಹಿ ಜಾನೆ ೨೯"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సదాశిబ కబిరాజ బందొ ఎకమనె",
+            "నిరంతర ప్రెమొన్మాద—బాహ్య నాహి జానె 29"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сада̄ш́иба кабира̄джа бандо̆ э̆каманэ̆",
+            "нирантара прэ̆мо̆нма̄да—ба̄хйа на̄хи джа̄нэ̆ 29"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സദാശിബ കബിരാജ ബന്ദൊ എകമനെ",
+            "നിരന്തര പ്രെമൊന്മാദ—ബാഹ്യ നാഹി ജാനെ 29"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸதா³ஶிப³ கபி³ராஜ ப³ந்தொ³ எகமனெ",
+            "நிரந்தர ப்ரெமொன்மாத³—பா³ஹ்ய நாஹி ஜானெ 29"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sadāśiba kabirāja bando ekamane",
+            "nirantara premonmāda—bāhya nāhi jāne 29"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sadāśiba kabirāja bando ekamane",
+            "nirantara premonmāda—bāhya nāhi jāne 29"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 31,
+      "source_text_master": [
+        "premamaya tanu bando sena śibānanda",
+        "jāti[FLAG_HYPHEN_ALPHA]prāṇa[FLAG_HYPHEN_ALPHA]dhana yā̃’ra gorā[FLAG_HYPHEN_ALPHA]padadbandba 30"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "प्रॆममय तनु बन्दॊ सॆन शिबानन्द",
+            "जातिप्राणधन यांऽर गॊरापदद्बन्द्ब ३०"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "প্রেমময় তনু বন্দো সেন শিবানন্দ",
+            "জাতিপ্রাণধন যাংঽর গোরাপদদ্বন্দ্ব ৩০"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ପ୍ରେମମୟ ତନୁ ବନ୍ଦୋ ସେନ ଶିବାନନ୍ଦ",
+            "ଜାତିପ୍ରାଣଧନ ଯାଂଽର ଗୋରାପଦଦ୍ବନ୍ଦ୍ବ ୩୦"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "પ્રેમમય તનુ બન્દો સેન શિબાનન્દ",
+            "જાતિપ્રાણધન યાંઽર ગોરાપદદ્બન્દ્બ ૩૦"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "premamaya tanu bando sena śibānanda",
+            "jāti-prāṇa-dhana yā̃’ra gorā-padadbandba 30"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಪ್ರೆಮಮಯ ತನು ಬಂದೊ ಸೆನ ಶಿಬಾನಂದ",
+            "ಜಾತಿಪ್ರಾಣಧನ ಯಾಂಽರ ಗೊರಾಪದದ್ಬಂದ್ಬ ೩೦"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ప్రెమమయ తను బందొ సెన శిబానంద",
+            "జాతిప్రాణధన యాంఽర గొరాపదద్బంద్బ 30"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "прэ̆мамайа тану бандо̆ сэ̆на ш́иба̄нанда",
+            "джа̄типра̄н̣адхана йа̄м̣'ра го̆ра̄пададбандба 30"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "പ്രെമമയ തനു ബന്ദൊ സെന ശിബാനന്ദ",
+            "ജാതിപ്രാണധന യാംഽര ഗൊരാപദദ്ബന്ദ്ബ 30"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப்ரெமமய தனு ப³ந்தொ³ ஸென ஶிபா³னந்த³",
+            "ஜாதிப்ராணத⁴ன யாம்ʼ(அ)ர கொ³ராபத³த்³ப³ந்த்³ப³ 30"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "premamaya tanu bando sena śibānanda",
+            "jāti-prāṇa-dhana yā̃’ra gorā-padadbandba 30"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "premamaya tanu bando sena śibānanda",
+            "jāti-prāṇa-dhana yā̃’ra gorā-padadbandba 30"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 32,
+      "source_text_master": [
+        "caitanyadāsa, rāmadāsa āra karṇapūra",
+        "śibānandera tinaputra bandiba pracura 31"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "चैतन्यदास, रामदास आर कर्णपूर",
+            "शिबानन्दॆर तिनपुत्र बन्दिब प्रचुर ३१"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "চৈতন্যদাস, রামদাস আর কর্ণপূর",
+            "শিবানন্দের তিনপুত্র বন্দিব প্রচুর ৩১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଚୈତନ୍ୟଦାସ, ରାମଦାସ ଆର କର୍ଣପୂର",
+            "ଶିବାନନ୍ଦେର ତିନପୁତ୍ର ବନ୍ଦିବ ପ୍ରଚୁର ୩୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ચૈતન્યદાસ, રામદાસ આર કર્ણપૂર",
+            "શિબાનન્દેર તિનપુત્ર બન્દિબ પ્રચુર ૩૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "caitanyadāsa, rāmadāsa āra karṇapūra",
+            "śibānandera tinaputra bandiba pracura 31"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಚೈತನ್ಯದಾಸ, ರಾಮದಾಸ ಆರ ಕರ್ಣಪೂರ",
+            "ಶಿಬಾನಂದೆರ ತಿನಪುತ್ರ ಬಂದಿಬ ಪ್ರಚುರ ೩೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "చైతన్యదాస, రామదాస ఆర కర్ణపూర",
+            "శిబానందెర తినపుత్ర బందిబ ప్రచుర 31"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "чаитанйада̄са, ра̄мада̄са а̄ра карн̣апӯра",
+            "ш́иба̄нандэ̆ра тинапутра бандиба прачура 31"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ചൈതന്യദാസ, രാമദാസ ആര കർണപൂര",
+            "ശിബാനന്ദെര തിനപുത്ര ബന്ദിബ പ്രചുര 31"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "சைதன்யதா³ஸ, ராமதா³ஸ ஆர கர்ணபூர",
+            "ஶிபா³னந்தெ³ர தினபுத்ர ப³ந்தி³ப³ ப்ரசுர 31"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "caitanyadāsa, rāmadāsa āra karṇapūra",
+            "śibānandera tinaputra bandiba pracura 31"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "caitanyadāsa, rāmadāsa āra karṇapūra",
+            "śibānandera tinaputra bandiba pracura 31"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 33,
+      "source_text_master": [
+        "bandiba mukundadāsa bhābe śuddhacitta",
+        "mayūrera pākhā dekhi’ ha·ilā mūrcchita 32"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बन्दिब मुकुन्ददास भाबॆ शुद्धचित्त",
+            "मयूरॆर पाखा दॆखिऽ हइला मूर्च्छित ३२"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বন্দিব মুকুন্দদাস ভাবে শুদ্ধচিত্ত",
+            "ময়ূরের পাখা দেখিঽ হইলা মূর্চ্ছিত ৩২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବନ୍ଦିବ ମୁକୁନ୍ଦଦାସ ଭାବେ ଶୁଦ୍ଧଚିତ୍ତ",
+            "ମୟୂରେର ପାଖା ଦେଖିଽ ହଇଲା ମୂର୍ଚ୍ଛିତ ୩୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બન્દિબ મુકુન્દદાસ ભાબે શુદ્ધચિત્ત",
+            "મયૂરેર પાખા દેખિઽ હઇલા મૂર્ચ્છિત ૩૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bandiba mukundadāsa bhābe śuddhacitta",
+            "mayūrera pākhā dekhi’ ha·ilā mūrcchita 32"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಂದಿಬ ಮುಕುಂದದಾಸ ಭಾಬೆ ಶುದ್ಧಚಿತ್ತ",
+            "ಮಯೂರೆರ ಪಾಖಾ ದೆಖಿಽ ಹಇಲಾ ಮೂರ್ಚ್ಛಿತ ೩೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బందిబ ముకుందదాస భాబె శుద్ధచిత్త",
+            "మయూరెర పాఖా దెఖిఽ హఇలా మూర్చ్ఛిత 32"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бандиба мукундада̄са бха̄бэ̆ ш́уддхачитта",
+            "майӯрэ̆ра па̄кха̄ дэ̆кхи' хаила̄ мӯрччхита 32"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബന്ദിബ മുകുന്ദദാസ ഭാബെ ശുദ്ധചിത്ത",
+            "മയൂരെര പാഖാ ദെഖിഽ ഹഇലാ മൂർച്ഛിത 32"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ந்தி³ப³ முகுந்த³தா³ஸ பா⁴பெ³ ஶுத்³த⁴சித்த",
+            "மயூரெர பாகா² தெ³கி²(அ) ஹஇலா மூர்ச்சி²த 32"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bandiba mukundadāsa bhābe śuddhacitta",
+            "mayūrera pākhā dekhi’ ha·ilā mūrcchita 32"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bandiba mukundadāsa bhābe śuddhacitta",
+            "mayūrera pākhā dekhi’ ha·ilā mūrcchita 32"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 34,
+      "source_text_master": [
+        "premera ālaya bando naraharidāsa",
+        "nirantara yā̃’ra citte gaurāṅga[FLAG_HYPHEN_ALPHA]bilāsa 33"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "प्रॆमॆर आलय बन्दॊ नरहरिदास",
+            "निरन्तर यांऽर चित्तॆ गौराङ्गबिलास ३३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "প্রেমের আলয় বন্দো নরহরিদাস",
+            "নিরন্তর যাংঽর চিত্তে গৌরাঙ্গবিলাস ৩৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ପ୍ରେମେର ଆଲୟ ବନ୍ଦୋ ନରହରିଦାସ",
+            "ନିରନ୍ତର ଯାଂଽର ଚିତ୍ତେ ଗୌରାଙ୍ଗବିଲାସ ୩୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "પ્રેમેર આલય બન્દો નરહરિદાસ",
+            "નિરન્તર યાંઽર ચિત્તે ગૌરાઙ્ગબિલાસ ૩૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "premera ālaya bando naraharidāsa",
+            "nirantara yā̃’ra citte gaurāṅga-bilāsa 33"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಪ್ರೆಮೆರ ಆಲಯ ಬಂದೊ ನರಹರಿದಾಸ",
+            "ನಿರಂತರ ಯಾಂಽರ ಚಿತ್ತೆ ಗೌರಾಂಗಬಿಲಾಸ ೩೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ప్రెమెర ఆలయ బందొ నరహరిదాస",
+            "నిరంతర యాంఽర చిత్తె గౌరాంగబిలాస 33"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "прэ̆мэ̆ра а̄лайа бандо̆ нарахарида̄са",
+            "нирантара йа̄м̣'ра читтэ̆ гаура̄н̇габила̄са 33"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "പ്രെമെര ആലയ ബന്ദൊ നരഹരിദാസ",
+            "നിരന്തര യാംഽര ചിത്തെ ഗൗരാംഗബിലാസ 33"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப்ரெமெர ஆலய ப³ந்தொ³ நரஹரிதா³ஸ",
+            "நிரந்தர யாம்ʼ(அ)ர சித்தெ கௌ³ராங்க³பி³லாஸ 33"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "premera ālaya bando naraharidāsa",
+            "nirantara yā̃’ra citte gaurāṅga-bilāsa 33"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "premera ālaya bando naraharidāsa",
+            "nirantara yā̃’ra citte gaurāṅga-bilāsa 33"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 35,
+      "source_text_master": [
+        "madhura caritra bando śrīraghunandana",
+        "ākṛti prakṛti yā̃’ra bhubanamohana 34"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "मधुर चरित्र बन्दॊ श्रीरघुनन्दन",
+            "आक्ड़्ति प्रक्ड़्ति यांऽर भुबनमॊहन ३४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মধুর চরিত্র বন্দো শ্রীরঘুনন্দন",
+            "আক্ড়্তি প্রক্ড়্তি যাংঽর ভুবনমোহন ৩৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମଧୁର ଚରିତ୍ର ବନ୍ଦୋ ଶ୍ରୀରଘୁନନ୍ଦନ",
+            "ଆକ୍ଡ଼୍ତି ପ୍ରକ୍ଡ଼୍ତି ଯାଂଽର ଭୁବନମୋହନ ୩୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મધુર ચરિત્ર બન્દો શ્રીરઘુનન્દન",
+            "આક્ડ઼્તિ પ્રક્ડ઼્તિ યાંઽર ભુબનમોહન ૩૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "madhura caritra bando śrīraghunandana",
+            "ākṛti prakṛti yā̃’ra bhubanamohana 34"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮಧುರ ಚರಿತ್ರ ಬಂದೊ ಶ್ರೀರಘುನಂದನ",
+            "ಆಕ್‌ಡ಼್ತಿ ಪ್ರಕ್‌ಡ಼್ತಿ ಯಾಂಽರ ಭುಬನಮೊಹನ ೩೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మధుర చరిత్ర బందొ శ్రీరఘునందన",
+            "ఆక్డ్తి ప్రక్డ్తి యాంఽర భుబనమొహన 34"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "мадхура чаритра бандо̆ ш́рӣрагхунандана",
+            "а̄кр̤ти пракр̤ти йа̄м̣'ра бхубанамо̆хана 34"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മധുര ചരിത്ര ബന്ദൊ ശ്രീരഘുനന്ദന",
+            "ആക്ഡ്തി പ്രക്ഡ്തി യാംഽര ഭുബനമൊഹന 34"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மது⁴ர சரித்ர ப³ந்தொ³ ஶ்ரீரகு⁴நந்த³ன",
+            "ஆக்ஃட்²தி ப்ரக்ஃட்²தி யாம்ʼ(அ)ர பு⁴ப³னமொஹன 34"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "madhura caritra bando śrīraghunandana",
+            "ākṛti prakṛti yā̃’ra bhubanamohana 34"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "madhura caritra bando śrīraghunandana",
+            "ākṛti prakṛti yā̃’ra bhubanamohana 34"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 36,
+      "source_text_master": [
+        "raghunāthadāsa bando premasudhāmaya",
+        "yā̃hāra caritre saba loka baśa haya 35"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "रघुनाथदास बन्दॊ प्रॆमसुधामय",
+            "यांहार चरित्रॆ सब लॊक बश हय ३५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "রঘুনাথদাস বন্দো প্রেমসুধাময়",
+            "যাংহার চরিত্রে সব লোক বশ হয় ৩৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ରଘୁନାଥଦାସ ବନ୍ଦୋ ପ୍ରେମସୁଧାମୟ",
+            "ଯାଂହାର ଚରିତ୍ରେ ସବ ଲୋକ ବଶ ହୟ ୩୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "રઘુનાથદાસ બન્દો પ્રેમસુધામય",
+            "યાંહાર ચરિત્રે સબ લોક બશ હય ૩૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "raghunāthadāsa bando premasudhāmaya",
+            "yā̃hāra caritre saba loka baśa haya 35"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ರಘುನಾಥದಾಸ ಬಂದೊ ಪ್ರೆಮಸುಧಾಮಯ",
+            "ಯಾಂಹಾರ ಚರಿತ್ರೆ ಸಬ ಲೊಕ ಬಶ ಹಯ ೩೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "రఘునాథదాస బందొ ప్రెమసుధామయ",
+            "యాంహార చరిత్రె సబ లొక బశ హయ 35"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "рагхуна̄тхада̄са бандо̆ прэ̆масудха̄майа",
+            "йа̄м̣ха̄ра чаритрэ̆ саба ло̆ка баш́а хайа 35"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "രഘുനാഥദാസ ബന്ദൊ പ്രെമസുധാമയ",
+            "യാംഹാര ചരിത്രെ സബ ലൊക ബശ ഹയ 35"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ரகு⁴நாத²தா³ஸ ப³ந்தொ³ ப்ரெமஸுதா⁴மய",
+            "யாம்ʼஹார சரித்ரெ ஸப³ லொக ப³ஶ ஹய 35"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "raghunāthadāsa bando premasudhāmaya",
+            "yā̃hāra caritre saba loka baśa haya 35"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "raghunāthadāsa bando premasudhāmaya",
+            "yā̃hāra caritre saba loka baśa haya 35"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 37,
+      "source_text_master": [
+        "ācārya purandara bando paṇḍita debānanda",
+        "gaurapremamaya bando śrīācāryacandra 36"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "आचार्य पुरन्दर बन्दॊ पण्डित दॆबानन्द",
+            "गौरप्रॆममय बन्दॊ श्रीआचार्यचन्द्र ३६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "আচার্য পুরন্দর বন্দো পণ্ডিত দেবানন্দ",
+            "গৌরপ্রেমময় বন্দো শ্রীআচার্যচন্দ্র ৩৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଆଚାର୍ୟ ପୁରନ୍ଦର ବନ୍ଦୋ ପଣ୍ଡିତ ଦେବାନନ୍ଦ",
+            "ଗୌରପ୍ରେମମୟ ବନ୍ଦୋ ଶ୍ରୀଆଚାର୍ୟଚନ୍ଦ୍ର ୩୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "આચાર્ય પુરન્દર બન્દો પણ્ડિત દેબાનન્દ",
+            "ગૌરપ્રેમમય બન્દો શ્રીઆચાર્યચન્દ્ર ૩૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ācārya purandara bando paṇḍita debānanda",
+            "gaurapremamaya bando śrīācāryacandra 36"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಆಚಾರ್ಯ ಪುರಂದರ ಬಂದೊ ಪಂಡಿತ ದೆಬಾನಂದ",
+            "ಗೌರಪ್ರೆಮಮಯ ಬಂದೊ ಶ್ರೀಆಚಾರ್ಯಚಂದ್ರ ೩೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఆచార్య పురందర బందొ పండిత దెబానంద",
+            "గౌరప్రెమమయ బందొ శ్రీఆచార్యచంద్ర 36"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "а̄ча̄рйа пурандара бандо̆ пан̣д̣ита дэ̆ба̄нанда",
+            "гаурапрэ̆мамайа бандо̆ ш́рӣа̄ча̄рйачандра 36"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ആചാര്യ പുരന്ദര ബന്ദൊ പണ്ഡിത ദെബാനന്ദ",
+            "ഗൗരപ്രെമമയ ബന്ദൊ ശ്രീആചാര്യചന്ദ്ര 36"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஆசார்ய புரந்த³ர ப³ந்தொ³ பண்டி³த தெ³பா³னந்த³",
+            "கௌ³ரப்ரெமமய ப³ந்தொ³ ஶ்ரீஆசார்யசந்த்³ர 36"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ācārya purandara bando paṇḍita debānanda",
+            "gaurapremamaya bando śrīācāryacandra 36"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ācārya purandara bando paṇḍita debānanda",
+            "gaurapremamaya bando śrīācāryacandra 36"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 38,
+      "source_text_master": [
+        "ākāihāṭera bando kṛṣṇadāsa ṭhākura",
+        "paramānandapurī bando satīrtha prabhura 37"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "आकाइहाटॆर बन्दॊ क्ड़्ष्णदास ठाकुर",
+            "परमानन्दपुरी बन्दॊ सतीर्थ प्रभुर ३७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "আকাইহাটের বন্দো ক্ড়্ষ্ণদাস ঠাকুর",
+            "পরমানন্দপুরী বন্দো সতীর্থ প্রভুর ৩৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଆକାଇହାଟେର ବନ୍ଦୋ କ୍ଡ଼୍ଷ୍ଣଦାସ ଠାକୁର",
+            "ପରମାନନ୍ଦପୁରୀ ବନ୍ଦୋ ସତୀର୍ଥ ପ୍ରଭୁର ୩୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "આકાઇહાટેર બન્દો ક્ડ઼્ષ્ણદાસ ઠાકુર",
+            "પરમાનન્દપુરી બન્દો સતીર્થ પ્રભુર ૩૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ākāihāṭera bando kṛṣṇadāsa ṭhākura",
+            "paramānandapurī bando satīrtha prabhura 37"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಆಕಾಇಹಾಟೆರ ಬಂದೊ ಕ್‌ಡ಼್ಷ್ಣದಾಸ ಠಾಕುರ",
+            "ಪರಮಾನಂದಪುರೀ ಬಂದೊ ಸತೀರ್ಥ ಪ್ರಭುರ ೩೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఆకాఇహాటెర బందొ క్డ్ష్ణదాస ఠాకుర",
+            "పరమానందపురీ బందొ సతీర్థ ప్రభుర 37"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "а̄ка̄иха̄т̣э̆ра бандо̆ кр̤шн̣ада̄са т̣ха̄кура",
+            "парама̄нандапурӣ бандо̆ сатӣртха прабхура 37"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ആകാഇഹാടെര ബന്ദൊ ക്ഡ്ഷ്ണദാസ ഠാകുര",
+            "പരമാനന്ദപുരീ ബന്ദൊ സതീർഥ പ്രഭുര 37"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஆகாஇஹாடெர ப³ந்தொ³ க்ஃட்²ஷ்ணதா³ஸ டா²குர",
+            "பரமானந்த³புரீ ப³ந்தொ³ ஸதீர்த² ப்ரபு⁴ர 37"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ākāihāṭera bando kṛṣṇadāsa ṭhākura",
+            "paramānandapurī bando satīrtha prabhura 37"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ākāihāṭera bando kṛṣṇadāsa ṭhākura",
+            "paramānandapurī bando satīrtha prabhura 37"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 39,
+      "source_text_master": [
+        "śrīgobinda[FLAG_HYPHEN_ALPHA]ghoṣa bandiba sābadhāne",
+        "yā̃’ra nāma sārthaka prabhu karilā āpane 38"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीगॊबिन्दघॊष बन्दिब साबधानॆ",
+            "यांऽर नाम सार्थक प्रभु करिला आपनॆ ३८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীগোবিন্দঘোষ বন্দিব সাবধানে",
+            "যাংঽর নাম সার্থক প্রভু করিলা আপনে ৩৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀଗୋବିନ୍ଦଘୋଷ ବନ୍ଦିବ ସାବଧାନେ",
+            "ଯାଂଽର ନାମ ସାର୍ଥକ ପ୍ରଭୁ କରିଲା ଆପନେ ୩୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીગોબિન્દઘોષ બન્દિબ સાબધાને",
+            "યાંઽર નામ સાર્થક પ્રભુ કરિલા આપને ૩૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrīgobinda-ghoṣa bandiba sābadhāne",
+            "yā̃’ra nāma sārthaka prabhu karilā āpane 38"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಗೊಬಿಂದಘೊಷ ಬಂದಿಬ ಸಾಬಧಾನೆ",
+            "ಯಾಂಽರ ನಾಮ ಸಾರ್ಥಕ ಪ್ರಭು ಕರಿಲಾ ಆಪನೆ ೩೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీగొబిందఘొష బందిబ సాబధానె",
+            "యాంఽర నామ సార్థక ప్రభు కరిలా ఆపనె 38"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣго̆биндагхо̆ша бандиба са̄бадха̄нэ̆",
+            "йа̄м̣'ра на̄ма са̄ртхака прабху карила̄ а̄панэ̆ 38"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീഗൊബിന്ദഘൊഷ ബന്ദിബ സാബധാനെ",
+            "യാംഽര നാമ സാർഥക പ്രഭു കരിലാ ആപനെ 38"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீகொ³பி³ந்த³கொ⁴ஷ ப³ந்தி³ப³ ஸாப³தா⁴னெ",
+            "யாம்ʼ(அ)ர நாம ஸார்த²க ப்ரபு⁴ கரிலா ஆபனெ 38"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrīgobinda-ghoṣa bandiba sābadhāne",
+            "yā̃’ra nāma sārthaka prabhu karilā āpane 38"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrīgobinda-ghoṣa bandiba sābadhāne",
+            "yā̃’ra nāma sārthaka prabhu karilā āpane 38"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 40,
+      "source_text_master": [
+        "bandiba mādhaba[FLAG_HYPHEN_ALPHA]ghoṣa prabhura prītisthāna",
+        "prabhu yā̃’re karilā abhyaṅga[FLAG_HYPHEN_ALPHA]sbaradāna 39"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बन्दिब माधबघॊष प्रभुर प्रीतिस्थान",
+            "प्रभु यांऽरॆ करिला अभ्यङ्गस्बरदान ३९"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বন্দিব মাধবঘোষ প্রভুর প্রীতিস্থান",
+            "প্রভু যাংঽরে করিলা অভ্যঙ্গস্বরদান ৩৯"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବନ୍ଦିବ ମାଧବଘୋଷ ପ୍ରଭୁର ପ୍ରୀତିସ୍ଥାନ",
+            "ପ୍ରଭୁ ଯାଂଽରେ କରିଲା ଅଭ୍ୟଙ୍ଗସ୍ବରଦାନ ୩୯"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બન્દિબ માધબઘોષ પ્રભુર પ્રીતિસ્થાન",
+            "પ્રભુ યાંઽરે કરિલા અભ્યઙ્ગસ્બરદાન ૩૯"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bandiba mādhaba-ghoṣa prabhura prītisthāna",
+            "prabhu yā̃’re karilā abhyaṅga-sbaradāna 39"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಂದಿಬ ಮಾಧಬಘೊಷ ಪ್ರಭುರ ಪ್ರೀತಿಸ್ಥಾನ",
+            "ಪ್ರಭು ಯಾಂಽರೆ ಕರಿಲಾ ಅಭ್ಯಂಗಸ್ಬರದಾನ ೩೯"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బందిబ మాధబఘొష ప్రభుర ప్రీతిస్థాన",
+            "ప్రభు యాంఽరె కరిలా అభ్యంగస్బరదాన 39"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бандиба ма̄дхабагхо̆ша прабхура прӣтистха̄на",
+            "прабху йа̄м̣'рэ̆ карила̄ абхйан̇гасбарада̄на 39"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബന്ദിബ മാധബഘൊഷ പ്രഭുര പ്രീതിസ്ഥാന",
+            "പ്രഭു യാംഽരെ കരിലാ അഭ്യംഗസ്ബരദാന 39"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ந்தி³ப³ மாத⁴ப³கொ⁴ஷ ப்ரபு⁴ர ப்ரீதிஸ்தா²ன",
+            "ப்ரபு⁴ யாம்ʼ(அ)ரெ கரிலா அப்⁴யங்க³ஸ்ப³ரதா³ன 39"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bandiba mādhaba-ghoṣa prabhura prītisthāna",
+            "prabhu yā̃’re karilā abhyaṅga-sbaradāna 39"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bandiba mādhaba-ghoṣa prabhura prītisthāna",
+            "prabhu yā̃’re karilā abhyaṅga-sbaradāna 39"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 41,
+      "source_text_master": [
+        "śrībāsudeba[FLAG_HYPHEN_ALPHA]ghoṣa bandiba sābadhāne",
+        "gauraguṇa binu yā̃’ra anya nāhi jñāne 40"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीबासुदॆबघॊष बन्दिब साबधानॆ",
+            "गौरगुण बिनु यांऽर अन्य नाहि ज्ञानॆ ४०"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীবাসুদেবঘোষ বন্দিব সাবধানে",
+            "গৌরগুণ বিনু যাংঽর অন্য নাহি জ্ঞানে ৪০"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀବାସୁଦେବଘୋଷ ବନ୍ଦିବ ସାବଧାନେ",
+            "ଗୌରଗୁଣ ବିନୁ ଯାଂଽର ଅନ୍ୟ ନାହି ଜ୍ଞାନେ ୪୦"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીબાસુદેબઘોષ બન્દિબ સાબધાને",
+            "ગૌરગુણ બિનુ યાંઽર અન્ય નાહિ જ્ઞાને ૪૦"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrībāsudeba-ghoṣa bandiba sābadhāne",
+            "gauraguṇa binu yā̃’ra anya nāhi jñāne 40"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಬಾಸುದೆಬಘೊಷ ಬಂದಿಬ ಸಾಬಧಾನೆ",
+            "ಗೌರಗುಣ ಬಿನು ಯಾಂಽರ ಅನ್ಯ ನಾಹಿ ಜ್ಞಾನೆ ೪೦"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీబాసుదెబఘొష బందిబ సాబధానె",
+            "గౌరగుణ బిను యాంఽర అన్య నాహి జ్ఞానె 40"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣба̄судэ̆багхо̆ша бандиба са̄бадха̄нэ̆",
+            "гаурагун̣а бину йа̄м̣'ра анйа на̄хи джн̃а̄нэ̆ 40"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീബാസുദെബഘൊഷ ബന്ദിബ സാബധാനെ",
+            "ഗൗരഗുണ ബിനു യാംഽര അന്യ നാഹി ജ്ഞാനെ 40"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீபா³ஸுதெ³ப³கொ⁴ஷ ப³ந்தி³ப³ ஸாப³தா⁴னெ",
+            "கௌ³ரகு³ண பி³னு யாம்ʼ(அ)ர அன்ய நாஹி ஜ்ஞானெ 40"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrībāsudeba-ghoṣa bandiba sābadhāne",
+            "gauraguṇa binu yā̃’ra anya nāhi jñāne 40"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrībāsudeba-ghoṣa bandiba sābadhāne",
+            "gauraguṇa binu yā̃’ra anya nāhi jñāne 40"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 42,
+      "source_text_master": [
+        "ṭhākura śrīabhirāma bandiba sādare",
+        "ṣolasāṅgera kāṣṭha yẽho baṁśī kari’ dhare 41"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ठाकुर श्रीअभिराम बन्दिब सादरॆ",
+            "षॊलसाङ्गॆर काष्ठ य्ẽहॊ बंशी करिऽ धरॆ ४१"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ঠাকুর শ্রীঅভিরাম বন্দিব সাদরে",
+            "ষোলসাঙ্গের কাষ্ঠ য্ẽহো বংশী করিঽ ধরে ৪১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଠାକୁର ଶ୍ରୀଅଭିରାମ ବନ୍ଦିବ ସାଦରେ",
+            "ଷୋଲସାଙ୍ଗେର କାଷ୍ଠ ଯ୍ẽହୋ ବଂଶୀ କରିଽ ଧରେ ୪୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઠાકુર શ્રીઅભિરામ બન્દિબ સાદરે",
+            "ષોલસાઙ્ગેર કાષ્ઠ ય્ẽહો બંશી કરિઽ ધરે ૪૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ṭhākura śrīabhirāma bandiba sādare",
+            "ṣolasāṅgera kāṣṭha yẽho baṁśī kari’ dhare 41"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಠಾಕುರ ಶ್ರೀಅಭಿರಾಮ ಬಂದಿಬ ಸಾದರೆ",
+            "ಷೊಲಸಾಂಗೆರ ಕಾಷ್ಠ ಯ್ẽಹೊ ಬಂಶೀ ಕರಿಽ ಧರೆ ೪೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఠాకుర శ్రీఅభిరామ బందిబ సాదరె",
+            "షొలసాంగెర కాష్ఠ య్ẽహొ బంశీ కరిఽ ధరె 41"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "т̣ха̄кура ш́рӣабхира̄ма бандиба са̄дарэ̆",
+            "шо̆ласа̄н̇гэ̆ра ка̄шт̣ха йẽхо̆ бам̣ш́ӣ кари' дхарэ̆ 41"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഠാകുര ശ്രീഅഭിരാമ ബന്ദിബ സാദരെ",
+            "ഷൊലസാംഗെര കാഷ്ഠ യ്ẽഹൊ ബംശീ കരിഽ ധരെ 41"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "டா²குர ஶ்ரீஅபி⁴ராம ப³ந்தி³ப³ ஸாத³ரெ",
+            "ஷொலஸாங்கெ³ர காஷ்ட² ய்ẽஹொ ப³ம்ʼஶீ கரி(அ) த⁴ரெ 41"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ṭhākura śrīabhirāma bandiba sādare",
+            "ṣolasāṅgera kāṣṭha yẽho baṁśī kari’ dhare 41"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ṭhākura śrīabhirāma bandiba sādare",
+            "ṣolasāṅgera kāṣṭha yẽho baṁśī kari’ dhare 41"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 43,
+      "source_text_master": [
+        "sundarānanda ṭhākura bandiba baḓa āśe",
+        "phuṭāla kadambaphula jambīrera gāche 42"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सुन्दरानन्द ठाकुर बन्दिब बḓअ आशॆ",
+            "फुटाल कदम्बफुल जम्बीरॆर गाछॆ ४२"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সুন্দরানন্দ ঠাকুর বন্দিব বḓঅ আশে",
+            "ফুটাল কদম্বফুল জম্বীরের গাছে ৪২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସୁନ୍ଦରାନନ୍ଦ ଠାକୁର ବନ୍ଦିବ ବḓଅ ଆଶେ",
+            "ଫୁଟାଲ କଦମ୍ବଫୁଲ ଜମ୍ବୀରେର ଗାଛେ ୪୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સુન્દરાનન્દ ઠાકુર બન્દિબ બḓઅ આશે",
+            "ફુટાલ કદમ્બફુલ જમ્બીરેર ગાછે ૪૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sundarānanda ṭhākura bandiba baḓa āśe",
+            "phuṭāla kadambaphula jambīrera gāche 42"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸುಂದರಾನಂದ ಠಾಕುರ ಬಂದಿಬ ಬḓಅ ಆಶೆ",
+            "ಫುಟಾಲ ಕದಂಬಫುಲ ಜಂಬೀರೆರ ಗಾಛೆ ೪೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సుందరానంద ఠాకుర బందిబ బḓఅ ఆశె",
+            "ఫుటాల కదంబఫుల జంబీరెర గాఛె 42"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сундара̄нанда т̣ха̄кура бандиба баḓа а̄ш́э̆",
+            "пхут̣а̄ла кадамбапхула джамбӣрэ̆ра га̄чхэ̆ 42"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സുന്ദരാനന്ദ ഠാകുര ബന്ദിബ ബḓഅ ആശെ",
+            "ഫുടാല കദംബഫുല ജംബീരെര ഗാഛെ 42"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸுந்த³ரானந்த³ டா²குர ப³ந்தி³ப³ ப³ḓஅ ஆஶெ",
+            "பு²டால கத³ம்ப³பு²ல ஜம்பீ³ரெர கா³செ² 42"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sundarānanda ṭhākura bandiba baḍa āśe",
+            "phuṭāla kadambaphula jambīrera gāche 42"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sundarānanda ṭhākura bandiba baḓa āśe",
+            "phuṭāla kadambaphula jambīrera gāche 42"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 44,
+      "source_text_master": [
+        "parameśbara dāsa ṭhākura bandiba sābadhāne",
+        "śṛgāle laoyāna nāma saṅkīrtana[FLAG_HYPHEN_ALPHA]sthāne 43"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "परमॆश्बर दास ठाकुर बन्दिब साबधानॆ",
+            "श्ड़्गालॆ लऒयान नाम सङ्कीर्तनस्थानॆ ४३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "পরমেশ্বর দাস ঠাকুর বন্দিব সাবধানে",
+            "শ্ড়্গালে লওয়ান নাম সঙ্কীর্তনস্থানে ৪৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ପରମେଶ୍ବର ଦାସ ଠାକୁର ବନ୍ଦିବ ସାବଧାନେ",
+            "ଶ୍ଡ଼୍ଗାଲେ ଲଓୟାନ ନାମ ସଙ୍କୀର୍ତନସ୍ଥାନେ ୪୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "પરમેશ્બર દાસ ઠાકુર બન્દિબ સાબધાને",
+            "શ્ડ઼્ગાલે લઓયાન નામ સઙ્કીર્તનસ્થાને ૪૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "parameśbara dāsa ṭhākura bandiba sābadhāne",
+            "śṛgāle laoyāna nāma saṅkīrtana-sthāne 43"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಪರಮೆಶ್ಬರ ದಾಸ ಠಾಕುರ ಬಂದಿಬ ಸಾಬಧಾನೆ",
+            "ಶ್‌ಡ಼್ಗಾಲೆ ಲಒಯಾನ ನಾಮ ಸಂಕೀರ್ತನಸ್ಥಾನೆ ೪೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "పరమెశ్బర దాస ఠాకుర బందిబ సాబధానె",
+            "శ్డ్గాలె లఒయాన నామ సంకీర్తనస్థానె 43"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "парамэ̆ш́бара да̄са т̣ха̄кура бандиба са̄бадха̄нэ̆",
+            "ш́р̤га̄лэ̆ лао̆йа̄на на̄ма сан̇кӣртанастха̄нэ̆ 43"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "പരമെശ്ബര ദാസ ഠാകുര ബന്ദിബ സാബധാനെ",
+            "ശ്ഡ്ഗാലെ ലഒയാന നാമ സങ്കീർതനസ്ഥാനെ 43"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பரமெஶ்ப³ர தா³ஸ டா²குர ப³ந்தி³ப³ ஸாப³தா⁴னெ",
+            "ஶ்ஃட்²கா³லெ லஒயான நாம ஸங்கீர்தனஸ்தா²னெ 43"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "parameśbara dāsa ṭhākura bandiba sābadhāne",
+            "śṛgāle laoyāna nāma saṅkīrtana-sthāne 43"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "parameśbara dāsa ṭhākura bandiba sābadhāne",
+            "śṛgāle laoyāna nāma saṅkīrtana-sthāne 43"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 45,
+      "source_text_master": [
+        "baṁśībadana ṭhākura bandiba sādare",
+        "gadādhara dāsa karilā baṁśī[FLAG_HYPHEN_ALPHA]abatāre 44"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बंशीबदन ठाकुर बन्दिब सादरॆ",
+            "गदाधर दास करिला बंशीअबतारॆ ४४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বংশীবদন ঠাকুর বন্দিব সাদরে",
+            "গদাধর দাস করিলা বংশীঅবতারে ৪৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବଂଶୀବଦନ ଠାକୁର ବନ୍ଦିବ ସାଦରେ",
+            "ଗଦାଧର ଦାସ କରିଲା ବଂଶୀଅବତାରେ ୪୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બંશીબદન ઠાકુર બન્દિબ સાદરે",
+            "ગદાધર દાસ કરિલા બંશીઅબતારે ૪૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "baṁśībadana ṭhākura bandiba sādare",
+            "gadādhara dāsa karilā baṁśī-abatāre 44"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಂಶೀಬದನ ಠಾಕುರ ಬಂದಿಬ ಸಾದರೆ",
+            "ಗದಾಧರ ದಾಸ ಕರಿಲಾ ಬಂಶೀಅಬತಾರೆ ೪೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బంశీబదన ఠాకుర బందిబ సాదరె",
+            "గదాధర దాస కరిలా బంశీఅబతారె 44"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бам̣ш́ӣбадана т̣ха̄кура бандиба са̄дарэ̆",
+            "гада̄дхара да̄са карила̄ бам̣ш́ӣабата̄рэ̆ 44"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബംശീബദന ഠാകുര ബന്ദിബ സാദരെ",
+            "ഗദാധര ദാസ കരിലാ ബംശീഅബതാരെ 44"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ம்ʼஶீப³த³ன டா²குர ப³ந்தி³ப³ ஸாத³ரெ",
+            "க³தா³த⁴ர தா³ஸ கரிலா ப³ம்ʼஶீஅப³தாரெ 44"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "baṁśībadana ṭhākura bandiba sādare",
+            "gadādhara dāsa karilā baṁśī-abatāre 44"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "baṁśībadana ṭhākura bandiba sādare",
+            "gadādhara dāsa karilā baṁśī-abatāre 44"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 46,
+      "source_text_master": [
+        "iṣṭadeba bando śrīpuruṣottama nāma",
+        "ke kahite pāre tā̃’ra guṇa anupama 45"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "इष्टदॆब बन्दॊ श्रीपुरुषॊत्तम नाम",
+            "कॆ कहितॆ पारॆ तांऽर गुण अनुपम ४५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ইষ্টদেব বন্দো শ্রীপুরুষোত্তম নাম",
+            "কে কহিতে পারে তাংঽর গুণ অনুপম ৪৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଇଷ୍ଟଦେବ ବନ୍ଦୋ ଶ୍ରୀପୁରୁଷୋତ୍ତମ ନାମ",
+            "କେ କହିତେ ପାରେ ତାଂଽର ଗୁଣ ଅନୁପମ ୪୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઇષ્ટદેબ બન્દો શ્રીપુરુષોત્તમ નામ",
+            "કે કહિતે પારે તાંઽર ગુણ અનુપમ ૪૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "iṣṭadeba bando śrīpuruṣottama nāma",
+            "ke kahite pāre tā̃’ra guṇa anupama 45"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಇಷ್ಟದೆಬ ಬಂದೊ ಶ್ರೀಪುರುಷೊತ್ತಮ ನಾಮ",
+            "ಕೆ ಕಹಿತೆ ಪಾರೆ ತಾಂಽರ ಗುಣ ಅನುಪಮ ೪೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఇష్టదెబ బందొ శ్రీపురుషొత్తమ నామ",
+            "కె కహితె పారె తాంఽర గుణ అనుపమ 45"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ишт̣адэ̆ба бандо̆ ш́рӣпурушо̆ттама на̄ма",
+            "кэ̆ кахитэ̆ па̄рэ̆ та̄м̣'ра гун̣а анупама 45"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഇഷ്ടദെബ ബന്ദൊ ശ്രീപുരുഷൊത്തമ നാമ",
+            "കെ കഹിതെ പാരെ താംഽര ഗുണ അനുപമ 45"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "இஷ்டதெ³ப³ ப³ந்தொ³ ஶ்ரீபுருஷொத்தம நாம",
+            "கெ கஹிதெ பாரெ தாம்ʼ(அ)ர கு³ண அனுபம 45"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "iṣṭadeba bando śrīpuruṣottama nāma",
+            "ke kahite pāre tā̃’ra guṇa anupama 45"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "iṣṭadeba bando śrīpuruṣottama nāma",
+            "ke kahite pāre tā̃’ra guṇa anupama 45"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 47,
+      "source_text_master": [
+        "sarbaguṇahīna ye tāhāre dayā kare",
+        "āpanāra sahaja[FLAG_HYPHEN_ALPHA]karuṇāśakti[FLAG_HYPHEN_ALPHA]bale 46"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सर्बगुणहीन यॆ ताहारॆ दया करॆ",
+            "आपनार सहजकरुणाशक्तिबलॆ ४६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সর্বগুণহীন যে তাহারে দয়া করে",
+            "আপনার সহজকরুণাশক্তিবলে ৪৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସର୍ବଗୁଣହୀନ ଯେ ତାହାରେ ଦୟା କରେ",
+            "ଆପନାର ସହଜକରୁଣାଶକ୍ତିବଲେ ୪୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સર્બગુણહીન યે તાહારે દયા કરે",
+            "આપનાર સહજકરુણાશક્તિબલે ૪૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sarbaguṇahīna ye tāhāre dayā kare",
+            "āpanāra sahaja-karuṇāśakti-bale 46"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸರ್ಬಗುಣಹೀನ ಯೆ ತಾಹಾರೆ ದಯಾ ಕರೆ",
+            "ಆಪನಾರ ಸಹಜಕರುಣಾಶಕ್ತಿಬಲೆ ೪೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సర్బగుణహీన యె తాహారె దయా కరె",
+            "ఆపనార సహజకరుణాశక్తిబలె 46"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сарбагун̣ахӣна йэ̆ та̄ха̄рэ̆ дайа̄ карэ̆",
+            "а̄пана̄ра сахаджакарун̣а̄ш́актибалэ̆ 46"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സർബഗുണഹീന യെ താഹാരെ ദയാ കരെ",
+            "ആപനാര സഹജകരുണാശക്തിബലെ 46"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸர்ப³கு³ணஹீன யெ தாஹாரெ த³யா கரெ",
+            "ஆபனார ஸஹஜகருணாஶக்திப³லெ 46"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sarbaguṇahīna ye tāhāre dayā kare",
+            "āpanāra sahaja-karuṇāśakti-bale 46"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sarbaguṇahīna ye tāhāre dayā kare",
+            "āpanāra sahaja-karuṇāśakti-bale 46"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 48,
+      "source_text_master": [
+        "saptama batsare yā̃’ra śrīkṛṣṇa[FLAG_HYPHEN_ALPHA]unmāda",
+        "bhubanamohana[FLAG_HYPHEN_ALPHA]nṛtya śakati agādha 47"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सप्तम बत्सरॆ यांऽर श्रीक्ड़्ष्णौन्माद",
+            "भुबनमॊहनन्ड़्त्य शकति अगाध ४७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সপ্তম বৎসরে যাংঽর শ্রীক্ড়্ষ্ণৌন্মাদ",
+            "ভুবনমোহনন্ড়্ত্য শকতি অগাধ ৪৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସପ୍ତମ ବତ୍ସରେ ଯାଂଽର ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣୌନ୍ମାଦ",
+            "ଭୁବନମୋହନନ୍ଡ଼୍ତ୍ୟ ଶକତି ଅଗାଧ ୪୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સપ્તમ બત્સરે યાંઽર શ્રીક્ડ઼્ષ્ણૌન્માદ",
+            "ભુબનમોહનન્ડ઼્ત્ય શકતિ અગાધ ૪૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "saptama batsare yā̃’ra śrīkṛṣṇa-unmāda",
+            "bhubanamohana-nṛtya śakati agādha 47"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸಪ್ತಮ ಬತ್ಸರೆ ಯಾಂಽರ ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣೌನ್ಮಾದ",
+            "ಭುಬನಮೊಹನನ್‌ಡ಼್ತ್ಯ ಶಕತಿ ಅಗಾಧ ೪೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సప్తమ బత్సరె యాంఽర శ్రీక్డ్ష్ణౌన్మాద",
+            "భుబనమొహనన్డ్త్య శకతి అగాధ 47"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "саптама батсарэ̆ йа̄м̣'ра ш́рӣкр̤шн̣аунма̄да",
+            "бхубанамо̆хананр̤тйа ш́акати ага̄дха 47"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സപ്തമ ബത്സരെ യാംഽര ശ്രീക്ഡ്ഷ്ണൗന്മാദ",
+            "ഭുബനമൊഹനൻഡ്ത്യ ശകതി അഗാധ 47"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸப்தம ப³த்ஸரெ யாம்ʼ(அ)ர ஶ்ரீக்ஃட்²ஷ்ணௌன்மாத³",
+            "பு⁴ப³னமொஹனன்ஃட்²த்ய ஶகதி அகா³த⁴ 47"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "saptama batsare yā̃’ra śrīkṛṣṇa-unmāda",
+            "bhubanamohana-nṛtya śakati agādha 47"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "saptama batsare yā̃’ra śrīkṛṣṇa-unmāda",
+            "bhubanamohana-nṛtya śakati agādha 47"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 49,
+      "source_text_master": [
+        "gaurīdāsa[FLAG_HYPHEN_ALPHA]kīrtanīyāra keśete dhariyā",
+        "nityānandastaba karāilā nija śakti diyā 48"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गौरीदासकीर्तनीयार कॆशॆतॆ धरिया",
+            "नित्यानन्दस्तब कराइला निज शक्ति दिया ४८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গৌরীদাসকীর্তনীয়ার কেশেতে ধরিয়া",
+            "নিত্যানন্দস্তব করাইলা নিজ শক্তি দিয়া ৪৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗୌରୀଦାସକୀର୍ତନୀୟାର କେଶେତେ ଧରିୟା",
+            "ନିତ୍ୟାନନ୍ଦସ୍ତବ କରାଇଲା ନିଜ ଶକ୍ତି ଦିୟା ୪୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગૌરીદાસકીર્તનીયાર કેશેતે ધરિયા",
+            "નિત્યાનન્દસ્તબ કરાઇલા નિજ શક્તિ દિયા ૪૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gaurīdāsa-kīrtanīyāra keśete dhariyā",
+            "nityānandastaba karāilā nija śakti diyā 48"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗೌರೀದಾಸಕೀರ್ತನೀಯಾರ ಕೆಶೆತೆ ಧರಿಯಾ",
+            "ನಿತ್ಯಾನಂದಸ್ತಬ ಕರಾಇಲಾ ನಿಜ ಶಕ್ತಿ ದಿಯಾ ೪೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గౌరీదాసకీర్తనీయార కెశెతె ధరియా",
+            "నిత్యానందస్తబ కరాఇలా నిజ శక్తి దియా 48"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "гаурӣда̄сакӣртанӣйа̄ра кэ̆ш́э̆тэ̆ дхарийа̄",
+            "нитйа̄нандастаба кара̄ила̄ ниджа ш́акти дийа̄ 48"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗൗരീദാസകീർതനീയാര കെശെതെ ധരിയാ",
+            "നിത്യാനന്ദസ്തബ കരാഇലാ നിജ ശക്തി ദിയാ 48"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கௌ³ரீதா³ஸகீர்தனீயார கெஶெதெ த⁴ரியா",
+            "நித்யானந்த³ஸ்தப³ கராஇலா நிஜ ஶக்தி தி³யா 48"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gaurīdāsa-kīrtanīyāra keśete dhariyā",
+            "nityānandastaba karāilā nija śakti diyā 48"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gaurīdāsa-kīrtanīyāra keśete dhariyā",
+            "nityānandastaba karāilā nija śakti diyā 48"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 50,
+      "source_text_master": [
+        "gadādhara dāsa āra śrīgobinda ghoṣa",
+        "yā̃hāra prakāśe prabhu pāilā santoṣa 49"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गदाधर दास आर श्रीगॊबिन्द घॊष",
+            "यांहार प्रकाशॆ प्रभु पाइला सन्तॊष ४९"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গদাধর দাস আর শ্রীগোবিন্দ ঘোষ",
+            "যাংহার প্রকাশে প্রভু পাইলা সন্তোষ ৪৯"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗଦାଧର ଦାସ ଆର ଶ୍ରୀଗୋବିନ୍ଦ ଘୋଷ",
+            "ଯାଂହାର ପ୍ରକାଶେ ପ୍ରଭୁ ପାଇଲା ସନ୍ତୋଷ ୪୯"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગદાધર દાસ આર શ્રીગોબિન્દ ઘોષ",
+            "યાંહાર પ્રકાશે પ્રભુ પાઇલા સન્તોષ ૪૯"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gadādhara dāsa āra śrīgobinda ghoṣa",
+            "yā̃hāra prakāśe prabhu pāilā santoṣa 49"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗದಾಧರ ದಾಸ ಆರ ಶ್ರೀಗೊಬಿಂದ ಘೊಷ",
+            "ಯಾಂಹಾರ ಪ್ರಕಾಶೆ ಪ್ರಭು ಪಾಇಲಾ ಸಂತೊಷ ೪೯"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గదాధర దాస ఆర శ్రీగొబింద ఘొష",
+            "యాంహార ప్రకాశె ప్రభు పాఇలా సంతొష 49"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "гада̄дхара да̄са а̄ра ш́рӣго̆бинда гхо̆ша",
+            "йа̄м̣ха̄ра прака̄ш́э̆ прабху па̄ила̄ санто̆ша 49"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗദാധര ദാസ ആര ശ്രീഗൊബിന്ദ ഘൊഷ",
+            "യാംഹാര പ്രകാശെ പ്രഭു പാഇലാ സന്തൊഷ 49"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "க³தா³த⁴ர தா³ஸ ஆர ஶ்ரீகொ³பி³ந்த³ கொ⁴ஷ",
+            "யாம்ʼஹார ப்ரகாஶெ ப்ரபு⁴ பாஇலா ஸந்தொஷ 49"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gadādhara dāsa āra śrīgobinda ghoṣa",
+            "yā̃hāra prakāśe prabhu pāilā santoṣa 49"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gadādhara dāsa āra śrīgobinda ghoṣa",
+            "yā̃hāra prakāśe prabhu pāilā santoṣa 49"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 51,
+      "source_text_master": [
+        "yā̃’ra aṣṭottaraśataghaṭa gaṅgā[FLAG_HYPHEN_ALPHA]jale",
+        "abhiṣeka sarbajñatā yā̃’ra śiśukāle 50"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "यांऽर अष्टॊत्तरशतघट गङ्गाजलॆ",
+            "अभिषॆक सर्बज्ञता यांऽर शिशुकालॆ ५०"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যাংঽর অষ্টোত্তরশতঘট গঙ্গাজলে",
+            "অভিষেক সর্বজ্ঞতা যাংঽর শিশুকালে ৫০"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯାଂଽର ଅଷ୍ଟୋତ୍ତରଶତଘଟ ଗଙ୍ଗାଜଲେ",
+            "ଅଭିଷେକ ସର୍ବଜ୍ଞତା ଯାଂଽର ଶିଶୁକାଲେ ୫୦"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યાંઽર અષ્ટોત્તરશતઘટ ગઙ્ગાજલે",
+            "અભિષેક સર્બજ્ઞતા યાંઽર શિશુકાલે ૫૦"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yā̃’ra aṣṭottaraśataghaṭa gaṅgā-jale",
+            "abhiṣeka sarbajñatā yā̃’ra śiśukāle 50"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯಾಂಽರ ಅಷ್ಟೊತ್ತರಶತಘಟ ಗಂಗಾಜಲೆ",
+            "ಅಭಿಷೆಕ ಸರ್ಬಜ್ಞತಾ ಯಾಂಽರ ಶಿಶುಕಾಲೆ ೫೦"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యాంఽర అష్టొత్తరశతఘట గంగాజలె",
+            "అభిషెక సర్బజ్ఞతా యాంఽర శిశుకాలె 50"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йа̄м̣'ра ашт̣о̆ттараш́атагхат̣а ган̇га̄джалэ̆",
+            "абхишэ̆ка сарбаджн̃ата̄ йа̄м̣'ра ш́иш́ука̄лэ̆ 50"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യാംഽര അഷ്ടൊത്തരശതഘട ഗംഗാജലെ",
+            "അഭിഷെക സർബജ്ഞതാ യാംഽര ശിശുകാലെ 50"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யாம்ʼ(அ)ர அஷ்டொத்தரஶதக⁴ட க³ங்கா³ஜலெ",
+            "அபி⁴ஷெக ஸர்ப³ஜ்ஞதா யாம்ʼ(அ)ர ஶிஶுகாலெ 50"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yā̃’ra aṣṭottaraśataghaṭa gaṅgā-jale",
+            "abhiṣeka sarbajñatā yā̃’ra śiśukāle 50"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yā̃’ra aṣṭottaraśataghaṭa gaṅgā-jale",
+            "abhiṣeka sarbajñatā yā̃’ra śiśukāle 50"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 52,
+      "source_text_master": [
+        "karabīra mañjarī āchila yā̃’ra kāne",
+        "padmagandha haila tāhā sabhā[FLAG_HYPHEN_ALPHA]bidyamāne 51"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "करबीर मञ्जरी आछिल यांऽर कानॆ",
+            "पद्मगन्ध हैल ताहा सभाबिद्यमानॆ ५१"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "করবীর মঞ্জরী আছিল যাংঽর কানে",
+            "পদ্মগন্ধ হৈল তাহা সভাবিদ্যমানে ৫১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କରବୀର ମଞ୍ଜରୀ ଆଛିଲ ଯାଂଽର କାନେ",
+            "ପଦ୍ମଗନ୍ଧ ହୈଲ ତାହା ସଭାବିଦ୍ୟମାନେ ୫୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કરબીર મઞ્જરી આછિલ યાંઽર કાને",
+            "પદ્મગન્ધ હૈલ તાહા સભાબિદ્યમાને ૫૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "karabīra mañjarī āchila yā̃’ra kāne",
+            "padmagandha haila tāhā sabhā-bidyamāne 51"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕರಬೀರ ಮಂಜರೀ ಆಛಿಲ ಯಾಂಽರ ಕಾನೆ",
+            "ಪದ್ಮಗಂಧ ಹೈಲ ತಾಹಾ ಸಭಾಬಿದ್ಯಮಾನೆ ೫೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కరబీర మంజరీ ఆఛిల యాంఽర కానె",
+            "పద్మగంధ హైల తాహా సభాబిద్యమానె 51"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "карабӣра ман̃джарӣ а̄чхила йа̄м̣'ра ка̄нэ̆",
+            "падмагандха хаила та̄ха̄ сабха̄бидйама̄нэ̆ 51"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കരബീര മഞ്ജരീ ആഛില യാംഽര കാനെ",
+            "പദ്മഗന്ധ ഹൈല താഹാ സഭാബിദ്യമാനെ 51"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கரபீ³ர மஞ்ஜரீ ஆசி²ல யாம்ʼ(அ)ர கானெ",
+            "பத்³மக³ந்த⁴ ஹைல தாஹா ஸபா⁴பி³த்³யமானெ 51"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "karabīra mañjarī āchila yā̃’ra kāne",
+            "padmagandha haila tāhā sabhā-bidyamāne 51"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "karabīra mañjarī āchila yā̃’ra kāne",
+            "padmagandha haila tāhā sabhā-bidyamāne 51"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 53,
+      "source_text_master": [
+        "yā̃’ra nāme snigdha haya baiṣṇaba sakala",
+        "mūrtimanta premasukha yā̃’ra kalebara 52"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "यांऽर नामॆ स्निग्ध हय बैष्णब सकल",
+            "मूर्तिमन्त प्रॆमसुख यांऽर कलॆबर ५२"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যাংঽর নামে স্নিগ্ধ হয় বৈষ্ণব সকল",
+            "মূর্তিমন্ত প্রেমসুখ যাংঽর কলেবর ৫২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯାଂଽର ନାମେ ସ୍ନିଗ୍ଧ ହୟ ବୈଷ୍ଣବ ସକଲ",
+            "ମୂର୍ତିମନ୍ତ ପ୍ରେମସୁଖ ଯାଂଽର କଲେବର ୫୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યાંઽર નામે સ્નિગ્ધ હય બૈષ્ણબ સકલ",
+            "મૂર્તિમન્ત પ્રેમસુખ યાંઽર કલેબર ૫૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yā̃’ra nāme snigdha haya baiṣṇaba sakala",
+            "mūrtimanta premasukha yā̃’ra kalebara 52"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯಾಂಽರ ನಾಮೆ ಸ್ನಿಗ್ಧ ಹಯ ಬೈಷ್ಣಬ ಸಕಲ",
+            "ಮೂರ್ತಿಮಂತ ಪ್ರೆಮಸುಖ ಯಾಂಽರ ಕಲೆಬರ ೫೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యాంఽర నామె స్నిగ్ధ హయ బైష్ణబ సకల",
+            "మూర్తిమంత ప్రెమసుఖ యాంఽర కలెబర 52"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йа̄м̣'ра на̄мэ̆ снигдха хайа баишн̣аба сакала",
+            "мӯртиманта прэ̆масукха йа̄м̣'ра калэ̆бара 52"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യാംഽര നാമെ സ്നിഗ്ധ ഹയ ബൈഷ്ണബ സകല",
+            "മൂർതിമന്ത പ്രെമസുഖ യാംഽര കലെബര 52"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யாம்ʼ(அ)ர நாமெ ஸ்னிக்³த⁴ ஹய பை³ஷ்ணப³ ஸகல",
+            "மூர்திமந்த ப்ரெமஸுக² யாம்ʼ(அ)ர கலெப³ர 52"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yā̃’ra nāme snigdha haya baiṣṇaba sakala",
+            "mūrtimanta premasukha yā̃’ra kalebara 52"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yā̃’ra nāme snigdha haya baiṣṇaba sakala",
+            "mūrtimanta premasukha yā̃’ra kalebara 52"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 54,
+      "source_text_master": [
+        "kāliyā[FLAG_HYPHEN_ALPHA]kṛṣṇadāsa bando baḓa bhakti kari’",
+        "dibya upabīta bastra kṛṣṇatejodhārī 53"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कालियाक्ड़्ष्णदास बन्दॊ बḓअ भक्ति करिऽ",
+            "दिब्य उपबीत बस्त्र क्ड़्ष्णतॆजॊधारी ५३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কালিয়াক্ড়্ষ্ণদাস বন্দো বḓঅ ভক্তি করিঽ",
+            "দিব্য উপবীত বস্ত্র ক্ড়্ষ্ণতেজোধারী ৫৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କାଲିୟାକ୍ଡ଼୍ଷ୍ଣଦାସ ବନ୍ଦୋ ବḓଅ ଭକ୍ତି କରିଽ",
+            "ଦିବ୍ୟ ଉପବୀତ ବସ୍ତ୍ର କ୍ଡ଼୍ଷ୍ଣତେଜୋଧାରୀ ୫୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કાલિયાક્ડ઼્ષ્ણદાસ બન્દો બḓઅ ભક્તિ કરિઽ",
+            "દિબ્ય ઉપબીત બસ્ત્ર ક્ડ઼્ષ્ણતેજોધારી ૫૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kāliyā-kṛṣṇadāsa bando baḓa bhakti kari’",
+            "dibya upabīta bastra kṛṣṇatejodhārī 53"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕಾಲಿಯಾಕ್‌ಡ಼್ಷ್ಣದಾಸ ಬಂದೊ ಬḓಅ ಭಕ್ತಿ ಕರಿಽ",
+            "ದಿಬ್ಯ ಉಪಬೀತ ಬಸ್ತ್ರ ಕ್‌ಡ಼್ಷ್ಣತೆಜೊಧಾರೀ ೫೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కాలియాక్డ్ష్ణదాస బందొ బḓఅ భక్తి కరిఽ",
+            "దిబ్య ఉపబీత బస్త్ర క్డ్ష్ణతెజొధారీ 53"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ка̄лийа̄кр̤шн̣ада̄са бандо̆ баḓа бхакти кари'",
+            "дибйа упабӣта бастра кр̤шн̣атэ̆джо̆дха̄рӣ 53"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കാലിയാക്ഡ്ഷ്ണദാസ ബന്ദൊ ബḓഅ ഭക്തി കരിഽ",
+            "ദിബ്യ ഉപബീത ബസ്ത്ര ക്ഡ്ഷ്ണതെജൊധാരീ 53"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "காலியாக்ஃட்²ஷ்ணதா³ஸ ப³ந்தொ³ ப³ḓஅ ப⁴க்தி கரி(அ)",
+            "தி³ப்³ய உபபீ³த ப³ஸ்த்ர க்ஃட்²ஷ்ணதெஜொதா⁴ரீ 53"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kāliyā-kṛṣṇadāsa bando baḍa bhakti kari’",
+            "dibya upabīta bastra kṛṣṇatejodhārī 53"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kāliyā-kṛṣṇadāsa bando baḓa bhakti kari’",
+            "dibya upabīta bastra kṛṣṇatejodhārī 53"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 55,
+      "source_text_master": [
+        "kamalākara pippalāi bando bhābabilāsī",
+        "ye prabhure balila—laha betra, deha’ bā̃śī 54"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कमलाकर पिप्पलाइ बन्दॊ भाबबिलासी",
+            "यॆ प्रभुरॆ बलिल—लह बॆत्र, दॆहऽ बांशी ५४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কমলাকর পিপ্পলাই বন্দো ভাববিলাসী",
+            "যে প্রভুরে বলিল—লহ বেত্র, দেহঽ বাংশী ৫৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କମଲାକର ପିପ୍ପଲାଇ ବନ୍ଦୋ ଭାବବିଲାସୀ",
+            "ଯେ ପ୍ରଭୁରେ ବଲିଲ—ଲହ ବେତ୍ର, ଦେହଽ ବାଂଶୀ ୫୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કમલાકર પિપ્પલાઇ બન્દો ભાબબિલાસી",
+            "યે પ્રભુરે બલિલ—લહ બેત્ર, દેહઽ બાંશી ૫૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kamalākara pippalāi bando bhābabilāsī",
+            "ye prabhure balila—laha betra, deha’ bā̃śī 54"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕಮಲಾಕರ ಪಿಪ್ಪಲಾಇ ಬಂದೊ ಭಾಬಬಿಲಾಸೀ",
+            "ಯೆ ಪ್ರಭುರೆ ಬಲಿಲ—ಲಹ ಬೆತ್ರ, ದೆಹಽ ಬಾಂಶೀ ೫೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కమలాకర పిప్పలాఇ బందొ భాబబిలాసీ",
+            "యె ప్రభురె బలిల—లహ బెత్ర, దెహఽ బాంశీ 54"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "камала̄кара пиппала̄и бандо̆ бха̄бабила̄сӣ",
+            "йэ̆ прабхурэ̆ балила—лаха бэ̆тра, дэ̆ха' ба̄м̣ш́ӣ 54"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കമലാകര പിപ്പലാഇ ബന്ദൊ ഭാബബിലാസീ",
+            "യെ പ്രഭുരെ ബലില—ലഹ ബെത്ര, ദെഹഽ ബാംശീ 54"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கமலாகர பிப்பலாஇ ப³ந்தொ³ பா⁴ப³பி³லாஸீ",
+            "யெ ப்ரபு⁴ரெ ப³லில—லஹ பெ³த்ர, தெ³ஹ(அ) பா³ம்ʼஶீ 54"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kamalākara pippalāi bando bhābabilāsī",
+            "ye prabhure balila—laha betra, deha’ bā̃śī 54"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kamalākara pippalāi bando bhābabilāsī",
+            "ye prabhure balila—laha betra, deha’ bā̃śī 54"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 56,
+      "source_text_master": [
+        "ratnākarasuta bando puruṣottama nāma",
+        "nadīyā[FLAG_HYPHEN_ALPHA]basati yā̃’ra dibya tejodhāma 55"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "रत्नाकरसुत बन्दॊ पुरुषॊत्तम नाम",
+            "नदीयाबसति यांऽर दिब्य तॆजॊधाम ५५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "রত্নাকরসুত বন্দো পুরুষোত্তম নাম",
+            "নদীয়াবসতি যাংঽর দিব্য তেজোধাম ৫৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ରତ୍ନାକରସୁତ ବନ୍ଦୋ ପୁରୁଷୋତ୍ତମ ନାମ",
+            "ନଦୀୟାବସତି ଯାଂଽର ଦିବ୍ୟ ତେଜୋଧାମ ୫୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "રત્નાકરસુત બન્દો પુરુષોત્તમ નામ",
+            "નદીયાબસતિ યાંઽર દિબ્ય તેજોધામ ૫૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ratnākarasuta bando puruṣottama nāma",
+            "nadīyā-basati yā̃’ra dibya tejodhāma 55"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ರತ್ನಾಕರಸುತ ಬಂದೊ ಪುರುಷೊತ್ತಮ ನಾಮ",
+            "ನದೀಯಾಬಸತಿ ಯಾಂಽರ ದಿಬ್ಯ ತೆಜೊಧಾಮ ೫೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "రత్నాకరసుత బందొ పురుషొత్తమ నామ",
+            "నదీయాబసతి యాంఽర దిబ్య తెజొధామ 55"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ратна̄карасута бандо̆ пурушо̆ттама на̄ма",
+            "надӣйа̄басати йа̄м̣'ра дибйа тэ̆джо̆дха̄ма 55"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "രത്നാകരസുത ബന്ദൊ പുരുഷൊത്തമ നാമ",
+            "നദീയാബസതി യാംഽര ദിബ്യ തെജൊധാമ 55"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ரத்னாகரஸுத ப³ந்தொ³ புருஷொத்தம நாம",
+            "நதீ³யாப³ஸதி யாம்ʼ(அ)ர தி³ப்³ய தெஜொதா⁴ம 55"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ratnākarasuta bando puruṣottama nāma",
+            "nadīyā-basati yā̃’ra dibya tejodhāma 55"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ratnākarasuta bando puruṣottama nāma",
+            "nadīyā-basati yā̃’ra dibya tejodhāma 55"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 57,
+      "source_text_master": [
+        "uddhāraṇa datta bando hayā sābahita",
+        "nityānanda[FLAG_HYPHEN_ALPHA]saṅge beḓāila sarbatīrtha 56"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "उद्धारण दत्त बन्दॊ हया साबहित",
+            "नित्यानन्दसङ्गॆ बॆḓआइल सर्बतीर्थ ५६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "উদ্ধারণ দত্ত বন্দো হয়া সাবহিত",
+            "নিত্যানন্দসঙ্গে বেḓআইল সর্বতীর্থ ৫৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଉଦ୍ଧାରଣ ଦତ୍ତ ବନ୍ଦୋ ହୟା ସାବହିତ",
+            "ନିତ୍ୟାନନ୍ଦସଙ୍ଗେ ବେḓଆଇଲ ସର୍ବତୀର୍ଥ ୫୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઉદ્ધારણ દત્ત બન્દો હયા સાબહિત",
+            "નિત્યાનન્દસઙ્ગે બેḓઆઇલ સર્બતીર્થ ૫૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "uddhāraṇa datta bando hayā sābahita",
+            "nityānanda-saṅge beḓāila sarbatīrtha 56"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಉದ್ಧಾರಣ ದತ್ತ ಬಂದೊ ಹಯಾ ಸಾಬಹಿತ",
+            "ನಿತ್ಯಾನಂದಸಂಗೆ ಬೆḓಆಇಲ ಸರ್ಬತೀರ್ಥ ೫೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఉద్ధారణ దత్త బందొ హయా సాబహిత",
+            "నిత్యానందసంగె బెḓఆఇల సర్బతీర్థ 56"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "уддха̄ран̣а датта бандо̆ хайа̄ са̄бахита",
+            "нитйа̄нандасан̇гэ̆ бэ̆ḓа̄ила сарбатӣртха 56"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഉദ്ധാരണ ദത്ത ബന്ദൊ ഹയാ സാബഹിത",
+            "നിത്യാനന്ദസംഗെ ബെḓആഇല സർബതീർഥ 56"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "உத்³தா⁴ரண த³த்த ப³ந்தொ³ ஹயா ஸாப³ஹித",
+            "நித்யானந்த³ஸங்கெ³ பெ³ḓஆஇல ஸர்ப³தீர்த² 56"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "uddhāraṇa datta bando hayā sābahita",
+            "nityānanda-saṅge beḍāila sarbatīrtha 56"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "uddhāraṇa datta bando hayā sābahita",
+            "nityānanda-saṅge beḓāila sarbatīrtha 56"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 58,
+      "source_text_master": [
+        "gaurīdāsa paṇḍita bando prabhura ājñākārī",
+        "ācārya[FLAG_HYPHEN_ALPHA]gosāĩre nila utkalanagarī 57"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गौरीदास पण्डित बन्दॊ प्रभुर आज्ञाकारी",
+            "आचार्यगॊसाइंरॆ निल उत्कलनगरी ५७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গৌরীদাস পণ্ডিত বন্দো প্রভুর আজ্ঞাকারী",
+            "আচার্যগোসাইংরে নিল উৎকলনগরী ৫৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗୌରୀଦାସ ପଣ୍ଡିତ ବନ୍ଦୋ ପ୍ରଭୁର ଆଜ୍ଞାକାରୀ",
+            "ଆଚାର୍ୟଗୋସାଇଂରେ ନିଲ ଉତ୍କଲନଗରୀ ୫୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગૌરીદાસ પણ્ડિત બન્દો પ્રભુર આજ્ઞાકારી",
+            "આચાર્યગોસાઇંરે નિલ ઉત્કલનગરી ૫૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gaurīdāsa paṇḍita bando prabhura ājñākārī",
+            "ācārya-gosāĩre nila utkalanagarī 57"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗೌರೀದಾಸ ಪಂಡಿತ ಬಂದೊ ಪ್ರಭುರ ಆಜ್ಞಾಕಾರೀ",
+            "ಆಚಾರ್ಯಗೊಸಾಇಂರೆ ನಿಲ ಉತ್ಕಲನಗರೀ ೫೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గౌరీదాస పండిత బందొ ప్రభుర ఆజ్ఞాకారీ",
+            "ఆచార్యగొసాఇంరె నిల ఉత్కలనగరీ 57"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "гаурӣда̄са пан̣д̣ита бандо̆ прабхура а̄джн̃а̄ка̄рӣ",
+            "а̄ча̄рйаго̆са̄им̣рэ̆ нила уткаланагарӣ 57"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗൗരീദാസ പണ്ഡിത ബന്ദൊ പ്രഭുര ആജ്ഞാകാരീ",
+            "ആചാര്യഗൊസാഇംരെ നില ഉത്കലനഗരീ 57"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கௌ³ரீதா³ஸ பண்டி³த ப³ந்தொ³ ப்ரபு⁴ர ஆஜ்ஞாகாரீ",
+            "ஆசார்யகொ³ஸாஇம்ʼரெ நில உத்கலநக³ரீ 57"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gaurīdāsa paṇḍita bando prabhura ājñākārī",
+            "ācārya-gosāĩre nila utkalanagarī 57"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gaurīdāsa paṇḍita bando prabhura ājñākārī",
+            "ācārya-gosāĩre nila utkalanagarī 57"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 59,
+      "source_text_master": [
+        "puruṣottama paṇḍita bando bilāsī sujana",
+        "prabhu yā̃’re dilā ācārya[FLAG_HYPHEN_ALPHA]gosāĩra sthāna 58"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "पुरुषॊत्तम पण्डित बन्दॊ बिलासी सुजन",
+            "प्रभु यांऽरॆ दिला आचार्यगॊसाइंर स्थान ५८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "পুরুষোত্তম পণ্ডিত বন্দো বিলাসী সুজন",
+            "প্রভু যাংঽরে দিলা আচার্যগোসাইংর স্থান ৫৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ପୁରୁଷୋତ୍ତମ ପଣ୍ଡିତ ବନ୍ଦୋ ବିଲାସୀ ସୁଜନ",
+            "ପ୍ରଭୁ ଯାଂଽରେ ଦିଲା ଆଚାର୍ୟଗୋସାଇଂର ସ୍ଥାନ ୫୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "પુરુષોત્તમ પણ્ડિત બન્દો બિલાસી સુજન",
+            "પ્રભુ યાંઽરે દિલા આચાર્યગોસાઇંર સ્થાન ૫૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "puruṣottama paṇḍita bando bilāsī sujana",
+            "prabhu yā̃’re dilā ācārya-gosāĩra sthāna 58"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಪುರುಷೊತ್ತಮ ಪಂಡಿತ ಬಂದೊ ಬಿಲಾಸೀ ಸುಜನ",
+            "ಪ್ರಭು ಯಾಂಽರೆ ದಿಲಾ ಆಚಾರ್ಯಗೊಸಾಇಂರ ಸ್ಥಾನ ೫೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "పురుషొత్తమ పండిత బందొ బిలాసీ సుజన",
+            "ప్రభు యాంఽరె దిలా ఆచార్యగొసాఇంర స్థాన 58"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "пурушо̆ттама пан̣д̣ита бандо̆ била̄сӣ суджана",
+            "прабху йа̄м̣'рэ̆ дила̄ а̄ча̄рйаго̆са̄им̣ра стха̄на 58"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "പുരുഷൊത്തമ പണ്ഡിത ബന്ദൊ ബിലാസീ സുജന",
+            "പ്രഭു യാംഽരെ ദിലാ ആചാര്യഗൊസാഇംര സ്ഥാന 58"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "புருஷொத்தம பண்டி³த ப³ந்தொ³ பி³லாஸீ ஸுஜன",
+            "ப்ரபு⁴ யாம்ʼ(அ)ரெ தி³லா ஆசார்யகொ³ஸாஇம்ʼர ஸ்தா²ன 58"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "puruṣottama paṇḍita bando bilāsī sujana",
+            "prabhu yā̃’re dilā ācārya-gosāĩra sthāna 58"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "puruṣottama paṇḍita bando bilāsī sujana",
+            "prabhu yā̃’re dilā ācārya-gosāĩra sthāna 58"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 60,
+      "source_text_master": [
+        "bandiba sāraṅgadāsa hayā ekamana",
+        "makaradhbaja kara bando prabhura gāyana 59"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बन्दिब सारङ्गदास हया ऎकमन",
+            "मकरध्बज कर बन्दॊ प्रभुर गायन ५९"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বন্দিব সারঙ্গদাস হয়া একমন",
+            "মকরধ্বজ কর বন্দো প্রভুর গায়ন ৫৯"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବନ୍ଦିବ ସାରଙ୍ଗଦାସ ହୟା ଏକମନ",
+            "ମକରଧ୍ବଜ କର ବନ୍ଦୋ ପ୍ରଭୁର ଗାୟନ ୫୯"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બન્દિબ સારઙ્ગદાસ હયા એકમન",
+            "મકરધ્બજ કર બન્દો પ્રભુર ગાયન ૫૯"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bandiba sāraṅgadāsa hayā ekamana",
+            "makaradhbaja kara bando prabhura gāyana 59"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಂದಿಬ ಸಾರಂಗದಾಸ ಹಯಾ ಎಕಮನ",
+            "ಮಕರಧ್ಬಜ ಕರ ಬಂದೊ ಪ್ರಭುರ ಗಾಯನ ೫೯"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బందిబ సారంగదాస హయా ఎకమన",
+            "మకరధ్బజ కర బందొ ప్రభుర గాయన 59"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бандиба са̄ран̇гада̄са хайа̄ э̆камана",
+            "макарадхбаджа кара бандо̆ прабхура га̄йана 59"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബന്ദിബ സാരംഗദാസ ഹയാ എകമന",
+            "മകരധ്ബജ കര ബന്ദൊ പ്രഭുര ഗായന 59"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ந்தி³ப³ ஸாரங்க³தா³ஸ ஹயா எகமன",
+            "மகரத்⁴ப³ஜ கர ப³ந்தொ³ ப்ரபு⁴ர கா³யன 59"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bandiba sāraṅgadāsa hayā ekamana",
+            "makaradhbaja kara bando prabhura gāyana 59"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bandiba sāraṅgadāsa hayā ekamana",
+            "makaradhbaja kara bando prabhura gāyana 59"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "২/৩"
+    },
+    {
+      "language_code": "ben",
+      "text": "(সুহই রাগ)"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

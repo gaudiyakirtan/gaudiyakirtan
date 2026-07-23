@@ -1,0 +1,2358 @@
+{
+ "uid": "NM2",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "জয় জয় হরিনাম"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "jaya jaya harināma"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "jaya jaya harināma,    cidānandāmṛta dhāma,",
+    "paratattba akṣara[FLAG_HYPHEN_ALPHA]ākāra",
+    "nija[FLAG_HYPHEN_ALPHA]jane kṛpā kari’,    nāmarūpe abatari’,",
+    "jībe dayā karile apāra 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "All glories, all glories to harināma, the abode of the nectar of divine knowledge and bliss and the Supreme Truth in the form of syllables. Out of mercy for His devotees, He descended in the form of His names and thus showed vast compassion to all the living beings."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "jaya",
+       "all glories"
+      ],
+      [
+       "jaya",
+       "all glories"
+      ],
+      [
+       "harināma",
+       "the names of Hari"
+      ],
+      [
+       "cidānandāmṛta",
+       "divine knowledge + bliss + nectar"
+      ],
+      [
+       "dhāma",
+       "abode"
+      ],
+      [
+       "paratattba",
+       "supreme + truth"
+      ],
+      [
+       "akṣara",
+       "syllable"
+      ],
+      [
+       "ākāra",
+       "form, appearance"
+      ],
+      [
+       "nija",
+       "Your own"
+      ],
+      [
+       "jane",
+       "to people (devotees)"
+      ],
+      [
+       "kṛpā kari’",
+       "out of mercy"
+      ],
+      [
+       "nāmarūpe",
+       "names + in the form"
+      ],
+      [
+       "abatari’",
+       "having descended"
+      ],
+      [
+       "jībe",
+       "to living beings"
+      ],
+      [
+       "dayā karile",
+       "showed mercy"
+      ],
+      [
+       "apāra",
+       "shoreless, unlimited, boundless, endless, vast, immense"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "जय",
+       "all glories"
+      ],
+      [
+       "जय",
+       "all glories"
+      ],
+      [
+       "हरिनाम",
+       "the names of Hari"
+      ],
+      [
+       "चिदानन्दाम्ड़्त",
+       "divine knowledge + bliss + nectar"
+      ],
+      [
+       "धाम",
+       "abode"
+      ],
+      [
+       "परतत्त्ब",
+       "supreme + truth"
+      ],
+      [
+       "अक्षर",
+       "syllable"
+      ],
+      [
+       "आकार",
+       "form, appearance"
+      ],
+      [
+       "निज",
+       "Your own"
+      ],
+      [
+       "जनॆ",
+       "to people (devotees)"
+      ],
+      [
+       "क्ड़्पा करिऽ",
+       "out of mercy"
+      ],
+      [
+       "नामरूपॆ",
+       "names + in the form"
+      ],
+      [
+       "अबतरिऽ",
+       "having descended"
+      ],
+      [
+       "जीबॆ",
+       "to living beings"
+      ],
+      [
+       "दया करिलॆ",
+       "showed mercy"
+      ],
+      [
+       "अपार",
+       "shoreless, unlimited, boundless, endless, vast, immense"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "জয়",
+       "all glories"
+      ],
+      [
+       "জয়",
+       "all glories"
+      ],
+      [
+       "হরিনাম",
+       "the names of Hari"
+      ],
+      [
+       "চিদানন্দাম্ড়্ত",
+       "divine knowledge + bliss + nectar"
+      ],
+      [
+       "ধাম",
+       "abode"
+      ],
+      [
+       "পরতত্ত্ব",
+       "supreme + truth"
+      ],
+      [
+       "অক্ষর",
+       "syllable"
+      ],
+      [
+       "আকার",
+       "form, appearance"
+      ],
+      [
+       "নিজ",
+       "Your own"
+      ],
+      [
+       "জনে",
+       "to people (devotees)"
+      ],
+      [
+       "ক্ড়্পা করিঽ",
+       "out of mercy"
+      ],
+      [
+       "নামরূপে",
+       "names + in the form"
+      ],
+      [
+       "অবতরিঽ",
+       "having descended"
+      ],
+      [
+       "জীবে",
+       "to living beings"
+      ],
+      [
+       "দয়া করিলে",
+       "showed mercy"
+      ],
+      [
+       "অপার",
+       "shoreless, unlimited, boundless, endless, vast, immense"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "જય",
+       "all glories"
+      ],
+      [
+       "જય",
+       "all glories"
+      ],
+      [
+       "હરિનામ",
+       "the names of Hari"
+      ],
+      [
+       "ચિદાનન્દામ્ડ઼્ત",
+       "divine knowledge + bliss + nectar"
+      ],
+      [
+       "ધામ",
+       "abode"
+      ],
+      [
+       "પરતત્ત્બ",
+       "supreme + truth"
+      ],
+      [
+       "અક્ષર",
+       "syllable"
+      ],
+      [
+       "આકાર",
+       "form, appearance"
+      ],
+      [
+       "નિજ",
+       "Your own"
+      ],
+      [
+       "જને",
+       "to people (devotees)"
+      ],
+      [
+       "ક્ડ઼્પા કરિઽ",
+       "out of mercy"
+      ],
+      [
+       "નામરૂપે",
+       "names + in the form"
+      ],
+      [
+       "અબતરિઽ",
+       "having descended"
+      ],
+      [
+       "જીબે",
+       "to living beings"
+      ],
+      [
+       "દયા કરિલે",
+       "showed mercy"
+      ],
+      [
+       "અપાર",
+       "shoreless, unlimited, boundless, endless, vast, immense"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जय जय हरिनाम,    चिदानन्दाम्ड़्त धाम,",
+      "परतत्त्ब अक्षरआकार",
+      "निजजनॆ क्ड़्पा करिऽ,    नामरूपॆ अबतरिऽ,",
+      "जीबॆ दया करिलॆ अपार १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জয় জয় হরিনাম,    চিদানন্দাম্ড়্ত ধাম,",
+      "পরতত্ত্ব অক্ষরআকার",
+      "নিজজনে ক্ড়্পা করিঽ,    নামরূপে অবতরিঽ,",
+      "জীবে দয়া করিলে অপার ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜୟ ଜୟ ହରିନାମ,    ଚିଦାନନ୍ଦାମ୍ଡ଼୍ତ ଧାମ,",
+      "ପରତତ୍ତ୍ବ ଅକ୍ଷରଆକାର",
+      "ନିଜଜନେ କ୍ଡ଼୍ପା କରିଽ,    ନାମରୂପେ ଅବତରିଽ,",
+      "ଜୀବେ ଦୟା କରିଲେ ଅପାର ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જય જય હરિનામ,    ચિદાનન્દામ્ડ઼્ત ધામ,",
+      "પરતત્ત્બ અક્ષરઆકાર",
+      "નિજજને ક્ડ઼્પા કરિઽ,    નામરૂપે અબતરિઽ,",
+      "જીબે દયા કરિલે અપાર ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jaya jaya harināma,    cidānandāmṛta dhāma,",
+      "paratattba akṣara-ākāra",
+      "nija-jane kṛpā kari’,    nāmarūpe abatari’,",
+      "jībe dayā karile apāra 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜಯ ಜಯ ಹರಿನಾಮ,    ಚಿದಾನಂದಾಂ‌ಡ಼್ತ ಧಾಮ,",
+      "ಪರತತ್ತ್ಬ ಅಕ್ಷರಆಕಾರ",
+      "ನಿಜಜನೆ ಕ್‌ಡ಼್ಪಾ ಕರಿಽ,    ನಾಮರೂಪೆ ಅಬತರಿಽ,",
+      "ಜೀಬೆ ದಯಾ ಕರಿಲೆ ಅಪಾರ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జయ జయ హరినామ,    చిదానందామ్డ్త ధామ,",
+      "పరతత్త్బ అక్షరఆకార",
+      "నిజజనె క్డ్పా కరిఽ,    నామరూపె అబతరిఽ,",
+      "జీబె దయా కరిలె అపార 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джайа джайа харина̄ма,    чида̄нанда̄мр̤та дха̄ма,",
+      "парататтба акшараа̄ка̄ра",
+      "ниджаджанэ̆ кр̤па̄ кари',    на̄марӯпэ̆ абатари',",
+      "джӣбэ̆ дайа̄ карилэ̆ апа̄ра 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജയ ജയ ഹരിനാമ,    ചിദാനന്ദാമ്ഡ്ത ധാമ,",
+      "പരതത്ത്ബ അക്ഷരആകാര",
+      "നിജജനെ ക്ഡ്പാ കരിഽ,    നാമരൂപെ അബതരിഽ,",
+      "ജീബെ ദയാ കരിലെ അപാര 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜய ஜய ஹரிநாம,    சிதா³னந்தா³ம்ஃட்²த தா⁴ம,",
+      "பரதத்த்ப³ அக்ஷரஆகார",
+      "நிஜஜனெ க்ஃட்²பா கரி(அ),    நாமரூபெ அப³தரி(அ),",
+      "ஜீபெ³ த³யா கரிலெ அபார 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jaya jaya harināma,    cidānandāmṛta dhāma,",
+      "paratattba akṣara-ākāra",
+      "nija-jane kṛpā kari’,    nāmarūpe abatari’,",
+      "jībe dayā karile apāra 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jaya jaya harināma,    cidānandāmṛta dhāma,",
+      "paratattba akṣara-ākāra",
+      "nija-jane kṛpā kari’,    nāmarūpe abatari’,",
+      "jībe dayā karile apāra 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "jaya hari[FLAG_HYPHEN_ALPHA]kṛṣṇa[FLAG_HYPHEN_ALPHA]nāma,    jagajana subiśrāma,",
+    "sarbajana[FLAG_HYPHEN_ALPHA]mānasa[FLAG_HYPHEN_ALPHA]rañjana",
+    "munibṛnda nirantara,    ye nāmera samādara,",
+    "kari’ gāya bhariyā badana 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "All glories to the holy names of Hari and Kṛṣṇa, which are the sublime shelter for the living entities of the world and which delight the minds of all. Hosts of great sages, who have true honor for these names, eternally sing them, filling their mouths [with nāma]."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "jaya",
+       "all glories"
+      ],
+      [
+       "hari",
+       "Hari"
+      ],
+      [
+       "kṛṣṇa",
+       "Kṛṣṇa"
+      ],
+      [
+       "nāma",
+       "names"
+      ],
+      [
+       "jagajana",
+       "world + people"
+      ],
+      [
+       "subiśrāma",
+       "sublime repose"
+      ],
+      [
+       "sarbajana",
+       "all + people"
+      ],
+      [
+       "mānasa",
+       "minds"
+      ],
+      [
+       "rañjana",
+       "delight"
+      ],
+      [
+       "munibṛnda",
+       "sages + hosts"
+      ],
+      [
+       "nirantara",
+       "ceaselessly, without break"
+      ],
+      [
+       "ye",
+       "who"
+      ],
+      [
+       "nāmera",
+       "of the names"
+      ],
+      [
+       "samādara",
+       "passionate love or fondness (for), very warm, respectful reception and careful treatment"
+      ],
+      [
+       "kari’ gāya",
+       "having sung"
+      ],
+      [
+       "bhariyā",
+       "having filled"
+      ],
+      [
+       "badana",
+       "mouths"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "जय",
+       "all glories"
+      ],
+      [
+       "हरि",
+       "Hari"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Kṛṣṇa"
+      ],
+      [
+       "नाम",
+       "names"
+      ],
+      [
+       "जगजन",
+       "world + people"
+      ],
+      [
+       "सुबिश्राम",
+       "sublime repose"
+      ],
+      [
+       "सर्बजन",
+       "all + people"
+      ],
+      [
+       "मानस",
+       "minds"
+      ],
+      [
+       "रञ्जन",
+       "delight"
+      ],
+      [
+       "मुनिब्ड़्न्द",
+       "sages + hosts"
+      ],
+      [
+       "निरन्तर",
+       "ceaselessly, without break"
+      ],
+      [
+       "यॆ",
+       "who"
+      ],
+      [
+       "नामॆर",
+       "of the names"
+      ],
+      [
+       "समादर",
+       "passionate love or fondness (for), very warm, respectful reception and careful treatment"
+      ],
+      [
+       "करिऽ गाय",
+       "having sung"
+      ],
+      [
+       "भरिया",
+       "having filled"
+      ],
+      [
+       "बदन",
+       "mouths"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "জয়",
+       "all glories"
+      ],
+      [
+       "হরি",
+       "Hari"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Kṛṣṇa"
+      ],
+      [
+       "নাম",
+       "names"
+      ],
+      [
+       "জগজন",
+       "world + people"
+      ],
+      [
+       "সুবিশ্রাম",
+       "sublime repose"
+      ],
+      [
+       "সর্বজন",
+       "all + people"
+      ],
+      [
+       "মানস",
+       "minds"
+      ],
+      [
+       "রঞ্জন",
+       "delight"
+      ],
+      [
+       "মুনিব্ড়্ন্দ",
+       "sages + hosts"
+      ],
+      [
+       "নিরন্তর",
+       "ceaselessly, without break"
+      ],
+      [
+       "যে",
+       "who"
+      ],
+      [
+       "নামের",
+       "of the names"
+      ],
+      [
+       "সমাদর",
+       "passionate love or fondness (for), very warm, respectful reception and careful treatment"
+      ],
+      [
+       "করিঽ গায়",
+       "having sung"
+      ],
+      [
+       "ভরিয়া",
+       "having filled"
+      ],
+      [
+       "বদন",
+       "mouths"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "જય",
+       "all glories"
+      ],
+      [
+       "હરિ",
+       "Hari"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Kṛṣṇa"
+      ],
+      [
+       "નામ",
+       "names"
+      ],
+      [
+       "જગજન",
+       "world + people"
+      ],
+      [
+       "સુબિશ્રામ",
+       "sublime repose"
+      ],
+      [
+       "સર્બજન",
+       "all + people"
+      ],
+      [
+       "માનસ",
+       "minds"
+      ],
+      [
+       "રઞ્જન",
+       "delight"
+      ],
+      [
+       "મુનિબ્ડ઼્ન્દ",
+       "sages + hosts"
+      ],
+      [
+       "નિરન્તર",
+       "ceaselessly, without break"
+      ],
+      [
+       "યે",
+       "who"
+      ],
+      [
+       "નામેર",
+       "of the names"
+      ],
+      [
+       "સમાદર",
+       "passionate love or fondness (for), very warm, respectful reception and careful treatment"
+      ],
+      [
+       "કરિઽ ગાય",
+       "having sung"
+      ],
+      [
+       "ભરિયા",
+       "having filled"
+      ],
+      [
+       "બદન",
+       "mouths"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जय हरिक्ड़्ष्णनाम,    जगजन सुबिश्राम,",
+      "सर्बजनमानसरञ्जन",
+      "मुनिब्ड़्न्द निरन्तर,    यॆ नामॆर समादर,",
+      "करिऽ गाय भरिया बदन २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জয় হরিক্ড়্ষ্ণনাম,    জগজন সুবিশ্রাম,",
+      "সর্বজনমানসরঞ্জন",
+      "মুনিব্ড়্ন্দ নিরন্তর,    যে নামের সমাদর,",
+      "করিঽ গায় ভরিয়া বদন ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜୟ ହରିକ୍ଡ଼୍ଷ୍ଣନାମ,    ଜଗଜନ ସୁବିଶ୍ରାମ,",
+      "ସର୍ବଜନମାନସରଞ୍ଜନ",
+      "ମୁନିବ୍ଡ଼୍ନ୍ଦ ନିରନ୍ତର,    ଯେ ନାମେର ସମାଦର,",
+      "କରିଽ ଗାୟ ଭରିୟା ବଦନ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જય હરિક્ડ઼્ષ્ણનામ,    જગજન સુબિશ્રામ,",
+      "સર્બજનમાનસરઞ્જન",
+      "મુનિબ્ડ઼્ન્દ નિરન્તર,    યે નામેર સમાદર,",
+      "કરિઽ ગાય ભરિયા બદન ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jaya hari-kṛṣṇa-nāma,    jagajana subiśrāma,",
+      "sarbajana-mānasa-rañjana",
+      "munibṛnda nirantara,    ye nāmera samādara,",
+      "kari’ gāya bhariyā badana 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜಯ ಹರಿಕ್‌ಡ಼್ಷ್ಣನಾಮ,    ಜಗಜನ ಸುಬಿಶ್ರಾಮ,",
+      "ಸರ್ಬಜನಮಾನಸರಂಜನ",
+      "ಮುನಿಬ್‌ಡ಼್ನ್ದ ನಿರಂತರ,    ಯೆ ನಾಮೆರ ಸಮಾದರ,",
+      "ಕರಿಽ ಗಾಯ ಭರಿಯಾ ಬದನ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జయ హరిక్డ్ష్ణనామ,    జగజన సుబిశ్రామ,",
+      "సర్బజనమానసరంజన",
+      "మునిబ్డ్న్ద నిరంతర,    యె నామెర సమాదర,",
+      "కరిఽ గాయ భరియా బదన 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джайа харикр̤шн̣ана̄ма,    джагаджана субиш́ра̄ма,",
+      "сарбаджанама̄насаран̃джана",
+      "мунибр̤нда нирантара,    йэ̆ на̄мэ̆ра сама̄дара,",
+      "кари' га̄йа бхарийа̄ бадана 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജയ ഹരിക്ഡ്ഷ്ണനാമ,    ജഗജന സുബിശ്രാമ,",
+      "സർബജനമാനസരഞ്ജന",
+      "മുനിബ്ഡ്ന്ദ നിരന്തര,    യെ നാമെര സമാദര,",
+      "കരിഽ ഗായ ഭരിയാ ബദന 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜய ஹரிக்ஃட்²ஷ்ணநாம,    ஜக³ஜன ஸுபி³ஶ்ராம,",
+      "ஸர்ப³ஜனமானஸரஞ்ஜன",
+      "முனிப்³ஃட்²ந்த³ நிரந்தர,    யெ நாமெர ஸமாத³ர,",
+      "கரி(அ) கா³ய ப⁴ரியா ப³த³ன 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jaya hari-kṛṣṇa-nāma,    jagajana subiśrāma,",
+      "sarbajana-mānasa-rañjana",
+      "munibṛnda nirantara,    ye nāmera samādara,",
+      "kari’ gāya bhariyā badana 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jaya hari-kṛṣṇa-nāma,    jagajana subiśrāma,",
+      "sarbajana-mānasa-rañjana",
+      "munibṛnda nirantara,    ye nāmera samādara,",
+      "kari’ gāya bhariyā badana 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "ohe kṛṣṇanāmākṣara,    tumi sarbaśaktidhara,",
+    "jībera kalyāṇa[FLAG_HYPHEN_ALPHA]bitaraṇe",
+    "tomā binā bhabasindhu,    uddhārite nāhi bandhu,",
+    "āsiyācha jība[FLAG_HYPHEN_ALPHA]uddhāraṇe 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O syllables of Kṛṣṇa’s name, You possess all powers to bestow auspiciousness upon the living beings. Without You, there is no other friend to deliver us from the ocean of material existence. Indeed, You have come to deliver all jīvas."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ohe",
+       "O"
+      ],
+      [
+       "kṛṣṇanāmākṣara",
+       "Kṛṣṇa + name + syllables"
+      ],
+      [
+       "tumi",
+       "You"
+      ],
+      [
+       "sarbaśaktidhara",
+       "all + power + (sfx.) bearing, carrying, holding"
+      ],
+      [
+       "jībera",
+       "the living entity’s"
+      ],
+      [
+       "kalyāṇa",
+       "welfare, well-being, good, prosperity"
+      ],
+      [
+       "bitaraṇe",
+       "distribute"
+      ],
+      [
+       "tomā",
+       "You"
+      ],
+      [
+       "binā",
+       "without"
+      ],
+      [
+       "bhabasindhu",
+       "material existence + ocean"
+      ],
+      [
+       "uddhārite",
+       "to deliver"
+      ],
+      [
+       "nāhi",
+       "no"
+      ],
+      [
+       "bandhu",
+       "friend"
+      ],
+      [
+       "āsiyācha",
+       "You have come"
+      ],
+      [
+       "jība",
+       "living entities"
+      ],
+      [
+       "uddhāraṇe",
+       "for deliverance"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ऒहॆ",
+       "O"
+      ],
+      [
+       "क्ड़्ष्णनामाक्षर",
+       "Kṛṣṇa + name + syllables"
+      ],
+      [
+       "तुमि",
+       "You"
+      ],
+      [
+       "सर्बशक्तिधर",
+       "all + power + (sfx.) bearing, carrying, holding"
+      ],
+      [
+       "जीबॆर",
+       "the living entity’s"
+      ],
+      [
+       "कल्याण",
+       "welfare, well-being, good, prosperity"
+      ],
+      [
+       "बितरणॆ",
+       "distribute"
+      ],
+      [
+       "तॊमा",
+       "You"
+      ],
+      [
+       "बिना",
+       "without"
+      ],
+      [
+       "भबसिन्धु",
+       "material existence + ocean"
+      ],
+      [
+       "उद्धारितॆ",
+       "to deliver"
+      ],
+      [
+       "नाहि",
+       "no"
+      ],
+      [
+       "बन्धु",
+       "friend"
+      ],
+      [
+       "आसियाछ",
+       "You have come"
+      ],
+      [
+       "जीब",
+       "living entities"
+      ],
+      [
+       "उद्धारणॆ",
+       "for deliverance"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ওহে",
+       "O"
+      ],
+      [
+       "ক্ড়্ষ্ণনামাক্ষর",
+       "Kṛṣṇa + name + syllables"
+      ],
+      [
+       "তুমি",
+       "You"
+      ],
+      [
+       "সর্বশক্তিধর",
+       "all + power + (sfx.) bearing, carrying, holding"
+      ],
+      [
+       "জীবের",
+       "the living entity’s"
+      ],
+      [
+       "কল্যাণ",
+       "welfare, well-being, good, prosperity"
+      ],
+      [
+       "বিতরণে",
+       "distribute"
+      ],
+      [
+       "তোমা",
+       "You"
+      ],
+      [
+       "বিনা",
+       "without"
+      ],
+      [
+       "ভবসিন্ধু",
+       "material existence + ocean"
+      ],
+      [
+       "উদ্ধারিতে",
+       "to deliver"
+      ],
+      [
+       "নাহি",
+       "no"
+      ],
+      [
+       "বন্ধু",
+       "friend"
+      ],
+      [
+       "আসিয়াছ",
+       "You have come"
+      ],
+      [
+       "জীব",
+       "living entities"
+      ],
+      [
+       "উদ্ধারণে",
+       "for deliverance"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ઓહે",
+       "O"
+      ],
+      [
+       "ક્ડ઼્ષ્ણનામાક્ષર",
+       "Kṛṣṇa + name + syllables"
+      ],
+      [
+       "તુમિ",
+       "You"
+      ],
+      [
+       "સર્બશક્તિધર",
+       "all + power + (sfx.) bearing, carrying, holding"
+      ],
+      [
+       "જીબેર",
+       "the living entity’s"
+      ],
+      [
+       "કલ્યાણ",
+       "welfare, well-being, good, prosperity"
+      ],
+      [
+       "બિતરણે",
+       "distribute"
+      ],
+      [
+       "તોમા",
+       "You"
+      ],
+      [
+       "બિના",
+       "without"
+      ],
+      [
+       "ભબસિન્ધુ",
+       "material existence + ocean"
+      ],
+      [
+       "ઉદ્ધારિતે",
+       "to deliver"
+      ],
+      [
+       "નાહિ",
+       "no"
+      ],
+      [
+       "બન્ધુ",
+       "friend"
+      ],
+      [
+       "આસિયાછ",
+       "You have come"
+      ],
+      [
+       "જીબ",
+       "living entities"
+      ],
+      [
+       "ઉદ્ધારણે",
+       "for deliverance"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऒहॆ क्ड़्ष्णनामाक्षर,    तुमि सर्बशक्तिधर,",
+      "जीबॆर कल्याणबितरणॆ",
+      "तॊमा बिना भबसिन्धु,    उद्धारितॆ नाहि बन्धु,",
+      "आसियाछ जीबौद्धारणॆ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ওহে ক্ড়্ষ্ণনামাক্ষর,    তুমি সর্বশক্তিধর,",
+      "জীবের কল্যাণবিতরণে",
+      "তোমা বিনা ভবসিন্ধু,    উদ্ধারিতে নাহি বন্ধু,",
+      "আসিয়াছ জীবৌদ্ধারণে ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଓହେ କ୍ଡ଼୍ଷ୍ଣନାମାକ୍ଷର,    ତୁମି ସର୍ବଶକ୍ତିଧର,",
+      "ଜୀବେର କଲ୍ୟାଣବିତରଣେ",
+      "ତୋମା ବିନା ଭବସିନ୍ଧୁ,    ଉଦ୍ଧାରିତେ ନାହି ବନ୍ଧୁ,",
+      "ଆସିୟାଛ ଜୀବୌଦ୍ଧାରଣେ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઓહે ક્ડ઼્ષ્ણનામાક્ષર,    તુમિ સર્બશક્તિધર,",
+      "જીબેર કલ્યાણબિતરણે",
+      "તોમા બિના ભબસિન્ધુ,    ઉદ્ધારિતે નાહિ બન્ધુ,",
+      "આસિયાછ જીબૌદ્ધારણે ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ohe kṛṣṇanāmākṣara,    tumi sarbaśaktidhara,",
+      "jībera kalyāṇa-bitaraṇe",
+      "tomā binā bhabasindhu,    uddhārite nāhi bandhu,",
+      "āsiyācha jība-uddhāraṇe 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಒಹೆ ಕ್‌ಡ಼್ಷ್ಣನಾಮಾಕ್ಷರ,    ತುಮಿ ಸರ್ಬಶಕ್ತಿಧರ,",
+      "ಜೀಬೆರ ಕಲ್ಯಾಣಬಿತರಣೆ",
+      "ತೊಮಾ ಬಿನಾ ಭಬಸಿಂಧು,    ಉದ್ಧಾರಿತೆ ನಾಹಿ ಬಂಧು,",
+      "ಆಸಿಯಾಛ ಜೀಬೌದ್ಧಾರಣೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఒహె క్డ్ష్ణనామాక్షర,    తుమి సర్బశక్తిధర,",
+      "జీబెర కల్యాణబితరణె",
+      "తొమా బినా భబసింధు,    ఉద్ధారితె నాహి బంధు,",
+      "ఆసియాఛ జీబౌద్ధారణె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "о̆хэ̆ кр̤шн̣ана̄ма̄кшара,    туми сарбаш́актидхара,",
+      "джӣбэ̆ра калйа̄н̣абитаран̣э̆",
+      "то̆ма̄ бина̄ бхабасиндху,    уддха̄ритэ̆ на̄хи бандху,",
+      "а̄сийа̄чха джӣбауддха̄ран̣э̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഒഹെ ക്ഡ്ഷ്ണനാമാക്ഷര,    തുമി സർബശക്തിധര,",
+      "ജീബെര കല്യാണബിതരണെ",
+      "തൊമാ ബിനാ ഭബസിന്ധു,    ഉദ്ധാരിതെ നാഹി ബന്ധു,",
+      "ആസിയാഛ ജീബൗദ്ധാരണെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஒஹெ க்ஃட்²ஷ்ணநாமாக்ஷர,    துமி ஸர்ப³ஶக்தித⁴ர,",
+      "ஜீபெ³ர கல்யாணபி³தரணெ",
+      "தொமா பி³னா ப⁴ப³ஸிந்து⁴,    உத்³தா⁴ரிதெ நாஹி ப³ந்து⁴,",
+      "ஆஸியாச² ஜீபௌ³த்³தா⁴ரணெ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ohe kṛṣṇanāmākṣara,    tumi sarbaśaktidhara,",
+      "jībera kalyāṇa-bitaraṇe",
+      "tomā binā bhabasindhu,    uddhārite nāhi bandhu,",
+      "āsiyācha jība-uddhāraṇe 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ohe kṛṣṇanāmākṣara,    tumi sarbaśaktidhara,",
+      "jībera kalyāṇa-bitaraṇe",
+      "tomā binā bhabasindhu,    uddhārite nāhi bandhu,",
+      "āsiyācha jība-uddhāraṇe 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "āche tāpa jībe yata,    tumi saba kara hata,",
+    "helāya tomāre ekabāra",
+    "ḍāke yadi kona jana,    ha’ye dīna akiñcana,",
+    "nāhi dekhi’ anya pratikāra 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "You dispel whatever misery afflicts the jīva, if he, feeling himself poor and insignificant and seeing no other remedy, calls Your name one time, even out of impulse."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "āche",
+       "that are"
+      ],
+      [
+       "tāpa",
+       "heat, anger, sorrow, sorrow, grief, affliction, suffering"
+      ],
+      [
+       "jībe",
+       "to the living entity"
+      ],
+      [
+       "yata",
+       "whatever"
+      ],
+      [
+       "tumi",
+       "You"
+      ],
+      [
+       "saba",
+       "all"
+      ],
+      [
+       "kara hata",
+       "dispel"
+      ],
+      [
+       "helāya",
+       "with ease, without effort / through negligence or carelessness"
+      ],
+      [
+       "tomāre",
+       "to You"
+      ],
+      [
+       "ekabāra",
+       "one + time"
+      ],
+      [
+       "ḍāke",
+       "calls"
+      ],
+      [
+       "yadi",
+       "if"
+      ],
+      [
+       "kona",
+       "some"
+      ],
+      [
+       "jana",
+       "person"
+      ],
+      [
+       "ha’ye",
+       "having become"
+      ],
+      [
+       "dīna",
+       "poor, humble"
+      ],
+      [
+       "akiñcana",
+       "insignificant"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "dekhi’",
+       "having seen"
+      ],
+      [
+       "anya",
+       "other"
+      ],
+      [
+       "pratikāra",
+       "remedy"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "आछॆ",
+       "that are"
+      ],
+      [
+       "ताप",
+       "heat, anger, sorrow, sorrow, grief, affliction, suffering"
+      ],
+      [
+       "जीबॆ",
+       "to the living entity"
+      ],
+      [
+       "यत",
+       "whatever"
+      ],
+      [
+       "तुमि",
+       "You"
+      ],
+      [
+       "सब",
+       "all"
+      ],
+      [
+       "कर हत",
+       "dispel"
+      ],
+      [
+       "हॆलाय",
+       "with ease, without effort / through negligence or carelessness"
+      ],
+      [
+       "तॊमारॆ",
+       "to You"
+      ],
+      [
+       "ऎकबार",
+       "one + time"
+      ],
+      [
+       "डाकॆ",
+       "calls"
+      ],
+      [
+       "यदि",
+       "if"
+      ],
+      [
+       "कॊन",
+       "some"
+      ],
+      [
+       "जन",
+       "person"
+      ],
+      [
+       "हऽयॆ",
+       "having become"
+      ],
+      [
+       "दीन",
+       "poor, humble"
+      ],
+      [
+       "अकिञ्चन",
+       "insignificant"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "दॆखिऽ",
+       "having seen"
+      ],
+      [
+       "अन्य",
+       "other"
+      ],
+      [
+       "प्रतिकार",
+       "remedy"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "আছে",
+       "that are"
+      ],
+      [
+       "তাপ",
+       "heat, anger, sorrow, sorrow, grief, affliction, suffering"
+      ],
+      [
+       "জীবে",
+       "to the living entity"
+      ],
+      [
+       "যত",
+       "whatever"
+      ],
+      [
+       "তুমি",
+       "You"
+      ],
+      [
+       "সব",
+       "all"
+      ],
+      [
+       "কর হত",
+       "dispel"
+      ],
+      [
+       "হেলায়",
+       "with ease, without effort / through negligence or carelessness"
+      ],
+      [
+       "তোমারে",
+       "to You"
+      ],
+      [
+       "একবার",
+       "one + time"
+      ],
+      [
+       "ডাকে",
+       "calls"
+      ],
+      [
+       "যদি",
+       "if"
+      ],
+      [
+       "কোন",
+       "some"
+      ],
+      [
+       "জন",
+       "person"
+      ],
+      [
+       "হঽয়ে",
+       "having become"
+      ],
+      [
+       "দীন",
+       "poor, humble"
+      ],
+      [
+       "অকিঞ্চন",
+       "insignificant"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "দেখিঽ",
+       "having seen"
+      ],
+      [
+       "অন্য",
+       "other"
+      ],
+      [
+       "প্রতিকার",
+       "remedy"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "આછે",
+       "that are"
+      ],
+      [
+       "તાપ",
+       "heat, anger, sorrow, sorrow, grief, affliction, suffering"
+      ],
+      [
+       "જીબે",
+       "to the living entity"
+      ],
+      [
+       "યત",
+       "whatever"
+      ],
+      [
+       "તુમિ",
+       "You"
+      ],
+      [
+       "સબ",
+       "all"
+      ],
+      [
+       "કર હત",
+       "dispel"
+      ],
+      [
+       "હેલાય",
+       "with ease, without effort / through negligence or carelessness"
+      ],
+      [
+       "તોમારે",
+       "to You"
+      ],
+      [
+       "એકબાર",
+       "one + time"
+      ],
+      [
+       "ડાકે",
+       "calls"
+      ],
+      [
+       "યદિ",
+       "if"
+      ],
+      [
+       "કોન",
+       "some"
+      ],
+      [
+       "જન",
+       "person"
+      ],
+      [
+       "હઽયે",
+       "having become"
+      ],
+      [
+       "દીન",
+       "poor, humble"
+      ],
+      [
+       "અકિઞ્ચન",
+       "insignificant"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "દેખિઽ",
+       "having seen"
+      ],
+      [
+       "અન્ય",
+       "other"
+      ],
+      [
+       "પ્રતિકાર",
+       "remedy"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आछॆ ताप जीबॆ यत,    तुमि सब कर हत,",
+      "हॆलाय तॊमारॆ ऎकबार",
+      "डाकॆ यदि कॊन जन,    हऽयॆ दीन अकिञ्चन,",
+      "नाहि दॆखिऽ अन्य प्रतिकार ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আছে তাপ জীবে যত,    তুমি সব কর হত,",
+      "হেলায় তোমারে একবার",
+      "ডাকে যদি কোন জন,    হঽয়ে দীন অকিঞ্চন,",
+      "নাহি দেখিঽ অন্য প্রতিকার ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆଛେ ତାପ ଜୀବେ ଯତ,    ତୁମି ସବ କର ହତ,",
+      "ହେଲାୟ ତୋମାରେ ଏକବାର",
+      "ଡାକେ ଯଦି କୋନ ଜନ,    ହଽୟେ ଦୀନ ଅକିଞ୍ଚନ,",
+      "ନାହି ଦେଖିଽ ଅନ୍ୟ ପ୍ରତିକାର ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આછે તાપ જીબે યત,    તુમિ સબ કર હત,",
+      "હેલાય તોમારે એકબાર",
+      "ડાકે યદિ કોન જન,    હઽયે દીન અકિઞ્ચન,",
+      "નાહિ દેખિઽ અન્ય પ્રતિકાર ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "āche tāpa jībe yata,    tumi saba kara hata,",
+      "helāya tomāre ekabāra",
+      "ḍāke yadi kona jana,    ha’ye dīna akiñcana,",
+      "nāhi dekhi’ anya pratikāra 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆಛೆ ತಾಪ ಜೀಬೆ ಯತ,    ತುಮಿ ಸಬ ಕರ ಹತ,",
+      "ಹೆಲಾಯ ತೊಮಾರೆ ಎಕಬಾರ",
+      "ಡಾಕೆ ಯದಿ ಕೊನ ಜನ,    ಹಽಯೆ ದೀನ ಅಕಿಂಚನ,",
+      "ನಾಹಿ ದೆಖಿಽ ಅನ್ಯ ಪ್ರತಿಕಾರ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆఛె తాప జీబె యత,    తుమి సబ కర హత,",
+      "హెలాయ తొమారె ఎకబార",
+      "డాకె యది కొన జన,    హఽయె దీన అకించన,",
+      "నాహి దెఖిఽ అన్య ప్రతికార 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄чхэ̆ та̄па джӣбэ̆ йата,    туми саба кара хата,",
+      "хэ̆ла̄йа то̆ма̄рэ̆ э̆каба̄ра",
+      "д̣а̄кэ̆ йади ко̆на джана,    ха'йэ̆ дӣна акин̃чана,",
+      "на̄хи дэ̆кхи' анйа пратика̄ра 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആഛെ താപ ജീബെ യത,    തുമി സബ കര ഹത,",
+      "ഹെലായ തൊമാരെ എകബാര",
+      "ഡാകെ യദി കൊന ജന,    ഹഽയെ ദീന അകിഞ്ചന,",
+      "നാഹി ദെഖിഽ അന്യ പ്രതികാര 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆசெ² தாப ஜீபெ³ யத,    துமி ஸப³ கர ஹத,",
+      "ஹெலாய தொமாரெ எகபா³ர",
+      "டா³கெ யதி³ கொன ஜன,    ஹ(அ)யெ தீ³ன அகிஞ்சன,",
+      "நாஹி தெ³கி²(அ) அன்ய ப்ரதிகார 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "āche tāpa jībe yata,    tumi saba kara hata,",
+      "helāya tomāre ekabāra",
+      "ḍāke yadi kona jana,    ha’ye dīna akiñcana,",
+      "nāhi dekhi’ anya pratikāra 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "āche tāpa jībe yata,    tumi saba kara hata,",
+      "helāya tomāre ekabāra",
+      "ḍāke yadi kona jana,    ha’ye dīna akiñcana,",
+      "nāhi dekhi’ anya pratikāra 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "taba sbalpasphūrti pāya,    ugratāpa dūre yāya,",
+    "liṅga[FLAG_HYPHEN_ALPHA]bhaṅga haya anāyāse",
+    "bhakatibinoda kaya,    jaya harināma jaya,",
+    "pa’ḓe thāki tuyā pada[FLAG_HYPHEN_ALPHA]āśe 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "If one obtains even a momentary vision of You, then all sorts of terrible miseries disappear, and one’s gross and subtle bodies are easily destroyed. Bhaktivinoda says, “All glories, all glories to the holy names of Śrī Hari! I prostrate myself in hopes of attaining Your lotus feet.”"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "sbalpasphūrti",
+       "only a little (momentary) + vision"
+      ],
+      [
+       "pāya",
+       "obtains"
+      ],
+      [
+       "ugratāpa",
+       "terrible, harsh +  heat, anger, sorrow, sorrow, grief, affliction, suffering"
+      ],
+      [
+       "dūre",
+       "far away"
+      ],
+      [
+       "yāya",
+       "goes"
+      ],
+      [
+       "liṅga",
+       "subtle body"
+      ],
+      [
+       "bhaṅga",
+       "dissolution"
+      ],
+      [
+       "haya",
+       "happens"
+      ],
+      [
+       "anāyāse",
+       "easily"
+      ],
+      [
+       "bhakatibinoda",
+       "Bhaktivinoda"
+      ],
+      [
+       "kaya",
+       "says"
+      ],
+      [
+       "jaya",
+       "all glories"
+      ],
+      [
+       "harināma",
+       "holy names of Hari"
+      ],
+      [
+       "jaya",
+       "all glories"
+      ],
+      [
+       "pa’ḓe",
+       "having fallen"
+      ],
+      [
+       "thāki",
+       "I stay"
+      ],
+      [
+       "tuyā",
+       "Your"
+      ],
+      [
+       "pada",
+       "feet"
+      ],
+      [
+       "āśe",
+       "with the desire"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "स्बल्पस्फूर्ति",
+       "only a little (momentary) + vision"
+      ],
+      [
+       "पाय",
+       "obtains"
+      ],
+      [
+       "उग्रताप",
+       "terrible, harsh +  heat, anger, sorrow, sorrow, grief, affliction, suffering"
+      ],
+      [
+       "दूरॆ",
+       "far away"
+      ],
+      [
+       "याय",
+       "goes"
+      ],
+      [
+       "लिङ्ग",
+       "subtle body"
+      ],
+      [
+       "भङ्ग",
+       "dissolution"
+      ],
+      [
+       "हय",
+       "happens"
+      ],
+      [
+       "अनायासॆ",
+       "easily"
+      ],
+      [
+       "भकतिबिनॊद",
+       "Bhaktivinoda"
+      ],
+      [
+       "कय",
+       "says"
+      ],
+      [
+       "जय",
+       "all glories"
+      ],
+      [
+       "हरिनाम",
+       "holy names of Hari"
+      ],
+      [
+       "जय",
+       "all glories"
+      ],
+      [
+       "पऽḓऎ",
+       "having fallen"
+      ],
+      [
+       "थाकि",
+       "I stay"
+      ],
+      [
+       "तुया",
+       "Your"
+      ],
+      [
+       "पद",
+       "feet"
+      ],
+      [
+       "आशॆ",
+       "with the desire"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "স্বল্পস্ফূর্তি",
+       "only a little (momentary) + vision"
+      ],
+      [
+       "পায়",
+       "obtains"
+      ],
+      [
+       "উগ্রতাপ",
+       "terrible, harsh +  heat, anger, sorrow, sorrow, grief, affliction, suffering"
+      ],
+      [
+       "দূরে",
+       "far away"
+      ],
+      [
+       "যায়",
+       "goes"
+      ],
+      [
+       "লিঙ্গ",
+       "subtle body"
+      ],
+      [
+       "ভঙ্গ",
+       "dissolution"
+      ],
+      [
+       "হয়",
+       "happens"
+      ],
+      [
+       "অনায়াসে",
+       "easily"
+      ],
+      [
+       "ভকতিবিনোদ",
+       "Bhaktivinoda"
+      ],
+      [
+       "কয়",
+       "says"
+      ],
+      [
+       "জয়",
+       "all glories"
+      ],
+      [
+       "হরিনাম",
+       "holy names of Hari"
+      ],
+      [
+       "জয়",
+       "all glories"
+      ],
+      [
+       "পঽḓএ",
+       "having fallen"
+      ],
+      [
+       "থাকি",
+       "I stay"
+      ],
+      [
+       "তুয়া",
+       "Your"
+      ],
+      [
+       "পদ",
+       "feet"
+      ],
+      [
+       "আশে",
+       "with the desire"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "સ્બલ્પસ્ફૂર્તિ",
+       "only a little (momentary) + vision"
+      ],
+      [
+       "પાય",
+       "obtains"
+      ],
+      [
+       "ઉગ્રતાપ",
+       "terrible, harsh +  heat, anger, sorrow, sorrow, grief, affliction, suffering"
+      ],
+      [
+       "દૂરે",
+       "far away"
+      ],
+      [
+       "યાય",
+       "goes"
+      ],
+      [
+       "લિઙ્ગ",
+       "subtle body"
+      ],
+      [
+       "ભઙ્ગ",
+       "dissolution"
+      ],
+      [
+       "હય",
+       "happens"
+      ],
+      [
+       "અનાયાસે",
+       "easily"
+      ],
+      [
+       "ભકતિબિનોદ",
+       "Bhaktivinoda"
+      ],
+      [
+       "કય",
+       "says"
+      ],
+      [
+       "જય",
+       "all glories"
+      ],
+      [
+       "હરિનામ",
+       "holy names of Hari"
+      ],
+      [
+       "જય",
+       "all glories"
+      ],
+      [
+       "પઽḓએ",
+       "having fallen"
+      ],
+      [
+       "થાકિ",
+       "I stay"
+      ],
+      [
+       "તુયા",
+       "Your"
+      ],
+      [
+       "પદ",
+       "feet"
+      ],
+      [
+       "આશે",
+       "with the desire"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तब स्बल्पस्फूर्ति पाय,    उग्रताप दूरॆ याय,",
+      "लिङ्गभङ्ग हय अनायासॆ",
+      "भकतिबिनॊद कय,    जय हरिनाम जय,",
+      "पऽḓऎ थाकि तुया पदआशॆ ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তব স্বল্পস্ফূর্তি পায়,    উগ্রতাপ দূরে যায়,",
+      "লিঙ্গভঙ্গ হয় অনায়াসে",
+      "ভকতিবিনোদ কয়,    জয় হরিনাম জয়,",
+      "পঽḓএ থাকি তুয়া পদআশে ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତବ ସ୍ବଲ୍ପସ୍ଫୂର୍ତି ପାୟ,    ଉଗ୍ରତାପ ଦୂରେ ଯାୟ,",
+      "ଲିଙ୍ଗଭଙ୍ଗ ହୟ ଅନାୟାସେ",
+      "ଭକତିବିନୋଦ କୟ,    ଜୟ ହରିନାମ ଜୟ,",
+      "ପଽḓଏ ଥାକି ତୁୟା ପଦଆଶେ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તબ સ્બલ્પસ્ફૂર્તિ પાય,    ઉગ્રતાપ દૂરે યાય,",
+      "લિઙ્ગભઙ્ગ હય અનાયાસે",
+      "ભકતિબિનોદ કય,    જય હરિનામ જય,",
+      "પઽḓએ થાકિ તુયા પદઆશે ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "taba sbalpasphūrti pāya,    ugratāpa dūre yāya,",
+      "liṅga-bhaṅga haya anāyāse",
+      "bhakatibinoda kaya,    jaya harināma jaya,",
+      "pa’ḓe thāki tuyā pada-āśe 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಬ ಸ್ಬಲ್ಪಸ್ಫೂರ್ತಿ ಪಾಯ,    ಉಗ್ರತಾಪ ದೂರೆ ಯಾಯ,",
+      "ಲಿಂಗಭಂಗ ಹಯ ಅನಾಯಾಸೆ",
+      "ಭಕತಿಬಿನೊದ ಕಯ,    ಜಯ ಹರಿನಾಮ ಜಯ,",
+      "ಪಽḓಎ ಥಾಕಿ ತುಯಾ ಪದಆಶೆ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తబ స్బల్పస్ఫూర్తి పాయ,    ఉగ్రతాప దూరె యాయ,",
+      "లింగభంగ హయ అనాయాసె",
+      "భకతిబినొద కయ,    జయ హరినామ జయ,",
+      "పఽḓఎ థాకి తుయా పదఆశె 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "таба сбалпаспхӯрти па̄йа,    уграта̄па дӯрэ̆ йа̄йа,",
+      "лин̇габхан̇га хайа ана̄йа̄сэ̆",
+      "бхакатибино̆да кайа,    джайа харина̄ма джайа,",
+      "па'ḓэ̆ тха̄ки туйа̄ падаа̄ш́э̆ 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തബ സ്ബല്പസ്ഫൂർതി പായ,    ഉഗ്രതാപ ദൂരെ യായ,",
+      "ലിംഗഭംഗ ഹയ അനായാസെ",
+      "ഭകതിബിനൊദ കയ,    ജയ ഹരിനാമ ജയ,",
+      "പഽḓഎ ഥാകി തുയാ പദആശെ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தப³ ஸ்ப³ல்பஸ்பூ²ர்தி பாய,    உக்³ரதாப தூ³ரெ யாய,",
+      "லிங்க³ப⁴ங்க³ ஹய அனாயாஸெ",
+      "ப⁴கதிபி³னொத³ கய,    ஜய ஹரிநாம ஜய,",
+      "ப(அ)ḓஎ தா²கி துயா பத³ஆஶெ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "taba sbalpasphūrti pāya,    ugratāpa dūre yāya,",
+      "liṅga-bhaṅga haya anāyāse",
+      "bhakatibinoda kaya,    jaya harināma jaya,",
+      "pa’ḍe thāki tuyā pada-āśe 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "taba sbalpasphūrti pāya,    ugratāpa dūre yāya,",
+      "liṅga-bhaṅga haya anāyāse",
+      "bhakatibinoda kaya,    jaya harināma jaya,",
+      "pa’ḓe thāki tuyā pada-āśe 5"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "জয় নামধেয় মুনিবৃন্দগেয়"
+  },
+  {
+   "language_code": "ben",
+   "text": "জনরঞ্জনায় পরমক্ষরাকৃতে ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "ত্বমনাদরাদপি মনাগুদীরিতং"
+  },
+  {
+   "language_code": "ben",
+   "text": "নিখিলোগ্রতাপ-পটলীং বিলুম্পসি ॥২॥"
+  },
+  {
+   "language_code": "ben",
+   "text": ""
+  },
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- লিঙ্গভঙ্গ—সুক্ষ্মদেহ-নাশ, তখন সেই মুক্ত জীবের আত্মদেহ প্রকাশিত হয় ।"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "casu-1",
+   "filename": "NM2-casu-1.mp3",
+   "artist": "casu"
+  },
+  {
+   "uid": "gaur-1",
+   "filename": "NM2-gaur-1.mp3",
+   "artist": "Gaurasundar das"
+  },
+  {
+   "uid": "srrb-1",
+   "filename": "NM2-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ]
+}

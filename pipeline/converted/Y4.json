@@ -1,0 +1,455 @@
+{
+ "uid": "Y4",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হে! জগতের বস্তু যত"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari he! jagatera bastu yata"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari he!",
+    "jagatera bastu yata,    baddha saba sbabhābataḥ,",
+    "deśa[FLAG_HYPHEN_ALPHA]kāla[FLAG_HYPHEN_ALPHA]bastu[FLAG_HYPHEN_ALPHA]sīmāśraye",
+    "tumi prabhu sarbeśbara,    naha sīmā[FLAG_HYPHEN_ALPHA]bidhipara,",
+    "bidhi saba kā̃pe taba bhaye 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हॆ!",
+      "जगतॆर बस्तु यत,    बद्ध सब स्बभाबतः,",
+      "दॆशकालबस्तुसीमाश्रयॆ",
+      "तुमि प्रभु सर्बॆश्बर,    नह सीमाबिधिपर,",
+      "बिधि सब कांपॆ तब भयॆ १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হে!",
+      "জগতের বস্তু যত,    বদ্ধ সব স্বভাবতঃ,",
+      "দেশকালবস্তুসীমাশ্রয়ে",
+      "তুমি প্রভু সর্বেশ্বর,    নহ সীমাবিধিপর,",
+      "বিধি সব কাম্পে তব ভয়ে ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହେ!",
+      "ଜଗତେର ବସ୍ତୁ ଯତ,    ବଦ୍ଧ ସବ ସ୍ବଭାବତଃ,",
+      "ଦେଶକାଲବସ୍ତୁସୀମାଶ୍ରୟେ",
+      "ତୁମି ପ୍ରଭୁ ସର୍ବେଶ୍ବର,    ନହ ସୀମାବିଧିପର,",
+      "ବିଧି ସବ କାମ୍ପେ ତବ ଭୟେ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હે!",
+      "જગતેર બસ્તુ યત,    બદ્ધ સબ સ્બભાબતઃ,",
+      "દેશકાલબસ્તુસીમાશ્રયે",
+      "તુમિ પ્રભુ સર્બેશ્બર,    નહ સીમાબિધિપર,",
+      "બિધિ સબ કાંપે તબ ભયે ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari he!",
+      "jagatera bastu yata,    baddha saba sbabhābataḥ,",
+      "deśa-kāla-bastu-sīmāśraye",
+      "tumi prabhu sarbeśbara,    naha sīmā-bidhipara,",
+      "bidhi saba kā̃pe taba bhaye 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹೆ!",
+      "ಜಗತೆರ ಬಸ್ತು ಯತ,    ಬದ್ಧ ಸಬ ಸ್ಬಭಾಬತಃ,",
+      "ದೆಶಕಾಲಬಸ್ತುಸೀಮಾಶ್ರಯೆ",
+      "ತುಮಿ ಪ್ರಭು ಸರ್ಬೆಶ್ಬರ,    ನಹ ಸೀಮಾಬಿಧಿಪರ,",
+      "ಬಿಧಿ ಸಬ ಕಾಂಪೆ ತಬ ಭಯೆ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హె!",
+      "జగతెర బస్తు యత,    బద్ధ సబ స్బభాబతః,",
+      "దెశకాలబస్తుసీమాశ్రయె",
+      "తుమి ప్రభు సర్బెశ్బర,    నహ సీమాబిధిపర,",
+      "బిధి సబ కాంపె తబ భయె 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хэ̆!",
+      "джагатэ̆ра басту йата,    баддха саба сбабха̄батах̣,",
+      "дэ̆ш́ака̄лабастусӣма̄ш́райэ̆",
+      "туми прабху сарбэ̆ш́бара,    наха сӣма̄бидхипара,",
+      "бидхи саба ка̄м̣пэ̆ таба бхайэ̆ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹെ!",
+      "ജഗതെര ബസ്തു യത,    ബദ്ധ സബ സ്ബഭാബതഃ,",
+      "ദെശകാലബസ്തുസീമാശ്രയെ",
+      "തുമി പ്രഭു സർബെശ്ബര,    നഹ സീമാബിധിപര,",
+      "ബിധി സബ കാമ്പെ തബ ഭയെ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹெ!",
+      "ஜக³தெர ப³ஸ்து யத,    ப³த்³த⁴ ஸப³ ஸ்ப³பா⁴ப³த꞉,",
+      "தெ³ஶகாலப³ஸ்துஸீமாஶ்ரயெ",
+      "துமி ப்ரபு⁴ ஸர்பெ³ஶ்ப³ர,    நஹ ஸீமாபி³தி⁴பர,",
+      "பி³தி⁴ ஸப³ காம்பெ தப³ ப⁴யெ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari he!",
+      "jagatera bastu yata,    baddha saba sbabhābataḥ,",
+      "deśa-kāla-bastu-sīmāśraye",
+      "tumi prabhu sarbeśbara,    naha sīmā-bidhipara,",
+      "bidhi saba kā̃pe taba bhaye 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari he!",
+      "jagatera bastu yata,    baddha saba sbabhābataḥ,",
+      "deśa-kāla-bastu-sīmāśraye",
+      "tumi prabhu sarbeśbara,    naha sīmā-bidhipara,",
+      "bidhi saba kā̃pe taba bhaye 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "sama bā adhika taba,    sbabhābataḥ asambhaba,",
+    "bidhi laṅghi’ taba abasthāna",
+    "sbatantra[FLAG_HYPHEN_ALPHA]sbabhāba dhara,    āpane gopana kara,",
+    "māyābale kari’ adhiṣṭhāna 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सम बा अधिक तब,    स्बभाबतः असम्भब,",
+      "बिधि लङ्घिऽ तब अबस्थान",
+      "स्बतन्त्रस्बभाब धर,    आपनॆ गॊपन कर,",
+      "मायाबलॆ करिऽ अधिष्ठान २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সম বা অধিক তব,    স্বভাবতঃ অসম্ভব,",
+      "বিধি লঙ্ঘিঽ তব অবস্থান",
+      "স্বতন্ত্রস্বভাব ধর,    আপনে গোপন কর,",
+      "মায়াবলে করিঽ অধিষ্ঠান ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସମ ବା ଅଧିକ ତବ,    ସ୍ବଭାବତଃ ଅସମ୍ଭବ,",
+      "ବିଧି ଲଙ୍ଘିଽ ତବ ଅବସ୍ଥାନ",
+      "ସ୍ବତନ୍ତ୍ରସ୍ବଭାବ ଧର,    ଆପନେ ଗୋପନ କର,",
+      "ମାୟାବଲେ କରିଽ ଅଧିଷ୍ଠାନ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સમ બા અધિક તબ,    સ્બભાબતઃ અસમ્ભબ,",
+      "બિધિ લઙ્ઘિઽ તબ અબસ્થાન",
+      "સ્બતન્ત્રસ્બભાબ ધર,    આપને ગોપન કર,",
+      "માયાબલે કરિઽ અધિષ્ઠાન ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sama bā adhika taba,    sbabhābataḥ asambhaba,",
+      "bidhi laṅghi’ taba abasthāna",
+      "sbatantra-sbabhāba dhara,    āpane gopana kara,",
+      "māyābale kari’ adhiṣṭhāna 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸಮ ಬಾ ಅಧಿಕ ತಬ,    ಸ್ಬಭಾಬತಃ ಅಸಂಭಬ,",
+      "ಬಿಧಿ ಲಂಘಿಽ ತಬ ಅಬಸ್ಥಾನ",
+      "ಸ್ಬತಂತ್ರಸ್ಬಭಾಬ ಧರ,    ಆಪನೆ ಗೊಪನ ಕರ,",
+      "ಮಾಯಾಬಲೆ ಕರಿಽ ಅಧಿಷ್ಠಾನ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సమ బా అధిక తబ,    స్బభాబతః అసంభబ,",
+      "బిధి లంఘిఽ తబ అబస్థాన",
+      "స్బతంత్రస్బభాబ ధర,    ఆపనె గొపన కర,",
+      "మాయాబలె కరిఽ అధిష్ఠాన 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сама ба̄ адхика таба,    сбабха̄батах̣ асамбхаба,",
+      "бидхи лан̇гхи' таба абастха̄на",
+      "сбатантрасбабха̄ба дхара,    а̄панэ̆ го̆пана кара,",
+      "ма̄йа̄балэ̆ кари' адхишт̣ха̄на 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സമ ബാ അധിക തബ,    സ്ബഭാബതഃ അസംഭബ,",
+      "ബിധി ലംഘിഽ തബ അബസ്ഥാന",
+      "സ്ബതന്ത്രസ്ബഭാബ ധര,    ആപനെ ഗൊപന കര,",
+      "മായാബലെ കരിഽ അധിഷ്ഠാന 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸம பா³ அதி⁴க தப³,    ஸ்ப³பா⁴ப³த꞉ அஸம்ப⁴ப³,",
+      "பி³தி⁴ லங்கி⁴(அ) தப³ அப³ஸ்தா²ன",
+      "ஸ்ப³தந்த்ரஸ்ப³பா⁴ப³ த⁴ர,    ஆபனெ கொ³பன கர,",
+      "மாயாப³லெ கரி(அ) அதி⁴ஷ்டா²ன 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sama bā adhika taba,    sbabhābataḥ asambhaba,",
+      "bidhi laṅghi’ taba abasthāna",
+      "sbatantra-sbabhāba dhara,    āpane gopana kara,",
+      "māyābale kari’ adhiṣṭhāna 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sama bā adhika taba,    sbabhābataḥ asambhaba,",
+      "bidhi laṅghi’ taba abasthāna",
+      "sbatantra-sbabhāba dhara,    āpane gopana kara,",
+      "māyābale kari’ adhiṣṭhāna 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "tathāpi ananya[FLAG_HYPHEN_ALPHA]bhakta,    tomāre dekhite śakta,",
+    "sadā dekhe sbarūpa tomāra",
+    "e bhaktibinoda dīna,    ananyabhajana[FLAG_HYPHEN_ALPHA]hīna,",
+    "bhakta[FLAG_HYPHEN_ALPHA]pada[FLAG_HYPHEN_ALPHA]reṇu mātra sāra 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तथापि अनन्यभक्त,    तॊमारॆ दॆखितॆ शक्त,",
+      "सदा दॆखॆ स्बरूप तॊमार",
+      "ऎ भक्तिबिनॊद दीन,    अनन्यभजनहीन,",
+      "भक्तपदरॆणु मात्र सार ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তথাপি অনন্যভক্ত,    তোমারে দেখিতে শক্ত,",
+      "সদা দেখে স্বরূপ তোমার",
+      "এ ভক্তিবিনোদ দীন,    অনন্যভজনহীন,",
+      "ভক্তপদরেণু মাত্র সার ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତଥାପି ଅନନ୍ୟଭକ୍ତ,    ତୋମାରେ ଦେଖିତେ ଶକ୍ତ,",
+      "ସଦା ଦେଖେ ସ୍ବରୂପ ତୋମାର",
+      "ଏ ଭକ୍ତିବିନୋଦ ଦୀନ,    ଅନନ୍ୟଭଜନହୀନ,",
+      "ଭକ୍ତପଦରେଣୁ ମାତ୍ର ସାର ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તથાપિ અનન્યભક્ત,    તોમારે દેખિતે શક્ત,",
+      "સદા દેખે સ્બરૂપ તોમાર",
+      "એ ભક્તિબિનોદ દીન,    અનન્યભજનહીન,",
+      "ભક્તપદરેણુ માત્ર સાર ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tathāpi ananya-bhakta,    tomāre dekhite śakta,",
+      "sadā dekhe sbarūpa tomāra",
+      "e bhaktibinoda dīna,    ananyabhajana-hīna,",
+      "bhakta-pada-reṇu mātra sāra 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಥಾಪಿ ಅನನ್ಯಭಕ್ತ,    ತೊಮಾರೆ ದೆಖಿತೆ ಶಕ್ತ,",
+      "ಸದಾ ದೆಖೆ ಸ್ಬರೂಪ ತೊಮಾರ",
+      "ಎ ಭಕ್ತಿಬಿನೊದ ದೀನ,    ಅನನ್ಯಭಜನಹೀನ,",
+      "ಭಕ್ತಪದರೆಣು ಮಾತ್ರ ಸಾರ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తథాపి అనన్యభక్త,    తొమారె దెఖితె శక్త,",
+      "సదా దెఖె స్బరూప తొమార",
+      "ఎ భక్తిబినొద దీన,    అనన్యభజనహీన,",
+      "భక్తపదరెణు మాత్ర సార 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "татха̄пи ананйабхакта,    то̆ма̄рэ̆ дэ̆кхитэ̆ ш́акта,",
+      "сада̄ дэ̆кхэ̆ сбарӯпа то̆ма̄ра",
+      "э̆ бхактибино̆да дӣна,    ананйабхаджанахӣна,",
+      "бхактападарэ̆н̣у ма̄тра са̄ра 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തഥാപി അനന്യഭക്ത,    തൊമാരെ ദെഖിതെ ശക്ത,",
+      "സദാ ദെഖെ സ്ബരൂപ തൊമാര",
+      "എ ഭക്തിബിനൊദ ദീന,    അനന്യഭജനഹീന,",
+      "ഭക്തപദരെണു മാത്ര സാര 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ததா²பி அனன்யப⁴க்த,    தொமாரெ தெ³கி²தெ ஶக்த,",
+      "ஸதா³ தெ³கெ² ஸ்ப³ரூப தொமார",
+      "எ ப⁴க்திபி³னொத³ தீ³ன,    அனன்யப⁴ஜனஹீன,",
+      "ப⁴க்தபத³ரெணு மாத்ர ஸார 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tathāpi ananya-bhakta,    tomāre dekhite śakta,",
+      "sadā dekhe sbarūpa tomāra",
+      "e bhaktibinoda dīna,    ananyabhajana-hīna,",
+      "bhakta-pada-reṇu mātra sāra 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tathāpi ananya-bhakta,    tomāre dekhite śakta,",
+      "sadā dekhe sbarūpa tomāra",
+      "e bhaktibinoda dīna,    ananyabhajana-hīna,",
+      "bhakta-pada-reṇu mātra sāra 3"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "উল্লঙ্ঘিত-ত্রিবিধসীম-সমাতিশায়ি-"
+  },
+  {
+   "language_code": "ben",
+   "text": "সম্ভাবনং তব পরিব্রঢ়িম-স্বভাবম্ ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "মায়াবলেন ভবতাঽপি নিগুহ্যমানং"
+  },
+  {
+   "language_code": "ben",
+   "text": "পশ্যন্তি কেচিদনিশং ত্বদনন্যভাবাঃ ॥৪॥"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

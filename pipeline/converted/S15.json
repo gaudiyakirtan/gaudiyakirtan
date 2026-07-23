@@ -1,0 +1,815 @@
+{
+ "uid": "S15",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "‘অহং’-‘মম’-শব্দ-অর্থে যাহা কিছু হয়"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "‘ahaṁ’-‘mama’-śabda-arthe yāhā kichu haya"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "‘ahaṁ’[FLAG_HYPHEN_ALPHA]‘mama’[FLAG_HYPHEN_ALPHA]śabda[FLAG_HYPHEN_ALPHA]arthe yāhā kichu haya",
+    "arpilũ tomāra pade ohe dayāmaya 1",
+    "‘āmāra’ āmi ta’ nātha! nā rahinu āra",
+    "ekhana ha·inu āmi kebala tomāra 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "‘अहंऽ‘ममऽशब्दअर्थॆ याहा किछु हय",
+      "अर्पिलुं तॊमार पदॆ ऒहॆ दयामय १",
+      "‘आमारऽ आमि तऽ नाथ! ना रहिनु आर",
+      "ऎखन हइनु आमि कॆबल तॊमार २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "‘অহংঽ‘মমঽশব্দঅর্থে যাহা কিছু হয়",
+      "অর্পিলুং তোমার পদে ওহে দয়াময় ১",
+      "‘আমারঽ আমি তঽ নাথ! না রহিনু আর",
+      "এখন হইনু আমি কেবল তোমার ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "‘ଅହଂଽ‘ମମଽଶବ୍ଦଅର୍ଥେ ଯାହା କିଛୁ ହୟ",
+      "ଅର୍ପିଲୁଂ ତୋମାର ପଦେ ଓହେ ଦୟାମୟ ୧",
+      "‘ଆମାରଽ ଆମି ତଽ ନାଥ! ନା ରହିନୁ ଆର",
+      "ଏଖନ ହଇନୁ ଆମି କେବଲ ତୋମାର ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "‘અહંઽ‘મમઽશબ્દઅર્થે યાહા કિછુ હય",
+      "અર્પિલું તોમાર પદે ઓહે દયામય ૧",
+      "‘આમારઽ આમિ તઽ નાથ! ના રહિનુ આર",
+      "એખન હઇનુ આમિ કેબલ તોમાર ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "‘ahaṁ’-‘mama’-śabda-arthe yāhā kichu haya",
+      "arpilũ tomāra pade ohe dayāmaya 1",
+      "‘āmāra’ āmi ta’ nātha! nā rahinu āra",
+      "ekhana ha·inu āmi kebala tomāra 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "‘ಅಹಂಽ‘ಮಮಽಶಬ್ದಅರ್ಥೆ ಯಾಹಾ ಕಿಛು ಹಯ",
+      "ಅರ್ಪಿಲುಂ ತೊಮಾರ ಪದೆ ಒಹೆ ದಯಾಮಯ ೧",
+      "‘ಆಮಾರಽ ಆಮಿ ತಽ ನಾಥ! ನಾ ರಹಿನು ಆರ",
+      "ಎಖನ ಹಇನು ಆಮಿ ಕೆಬಲ ತೊಮಾರ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "‘అహంఽ‘మమఽశబ్దఅర్థె యాహా కిఛు హయ",
+      "అర్పిలుం తొమార పదె ఒహె దయామయ 1",
+      "‘ఆమారఽ ఆమి తఽ నాథ! నా రహిను ఆర",
+      "ఎఖన హఇను ఆమి కెబల తొమార 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "‘ахам̣'‘мама'ш́абдаартхэ̆ йа̄ха̄ кичху хайа",
+      "арпилум̣ то̆ма̄ра падэ̆ о̆хэ̆ дайа̄майа 1",
+      "‘а̄ма̄ра' а̄ми та' на̄тха! на̄ рахину а̄ра",
+      "э̆кхана хаину а̄ми кэ̆бала то̆ма̄ра 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "‘അഹംഽ‘മമഽശബ്ദഅർഥെ യാഹാ കിഛു ഹയ",
+      "അർപിലും തൊമാര പദെ ഒഹെ ദയാമയ 1",
+      "‘ആമാരഽ ആമി തഽ നാഥ! നാ രഹിനു ആര",
+      "എഖന ഹഇനു ആമി കെബല തൊമാര 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "‘அஹம்ʼ(அ)‘மம(அ)ஶப்³த³அர்தெ² யாஹா கிசு² ஹய",
+      "அர்பிலும்ʼ தொமார பதெ³ ஒஹெ த³யாமய 1",
+      "‘ஆமார(அ) ஆமி த(அ) நாத²! நா ரஹினு ஆர",
+      "எக²ன ஹஇனு ஆமி கெப³ல தொமார 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "‘ahaṁ’-‘mama’-śabda-arthe yāhā kichu haya",
+      "arpilũ tomāra pade ohe dayāmaya 1",
+      "‘āmāra’ āmi ta’ nātha! nā rahinu āra",
+      "ekhana ha·inu āmi kebala tomāra 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "‘ahaṁ’-‘mama’-śabda-arthe yāhā kichu haya",
+      "arpilũ tomāra pade ohe dayāmaya 1",
+      "‘āmāra’ āmi ta’ nātha! nā rahinu āra",
+      "ekhana ha·inu āmi kebala tomāra 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "‘āmi’[FLAG_HYPHEN_ALPHA]śabde dehī jība ahaṁtā chāḓila",
+    "tbadīyābhimāna āji hṛdaye paśila 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "‘आमिऽशब्दॆ दॆही जीब अहंता छाḓइल",
+      "त्बदीयाभिमान आजि ह्ड़्दयॆ पशिल ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "‘আমিঽশব্দে দেহী জীব অহন্তা ছাḓইল",
+      "ত্বদীয়াভিমান আজি হ্ড়্দয়ে পশিল ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "‘ଆମିଽଶବ୍ଦେ ଦେହୀ ଜୀବ ଅହନ୍ତା ଛାḓଇଲ",
+      "ତ୍ବଦୀୟାଭିମାନ ଆଜି ହ୍ଡ଼୍ଦୟେ ପଶିଲ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "‘આમિઽશબ્દે દેહી જીબ અહંતા છાḓઇલ",
+      "ત્બદીયાભિમાન આજિ હ્ડ઼્દયે પશિલ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "‘āmi’-śabde dehī jība ahaṁtā chāḓila",
+      "tbadīyābhimāna āji hṛdaye paśila 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "‘ಆಮಿಽಶಬ್ದೆ ದೆಹೀ ಜೀಬ ಅಹಂತಾ ಛಾḓಇಲ",
+      "ತ್ಬದೀಯಾಭಿಮಾನ ಆಜಿ ಹ್‌ಡ಼್ದಯೆ ಪಶಿಲ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "‘ఆమిఽశబ్దె దెహీ జీబ అహంతా ఛాḓఇల",
+      "త్బదీయాభిమాన ఆజి హ్డ్దయె పశిల 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "‘а̄ми'ш́абдэ̆ дэ̆хӣ джӣба ахам̣та̄ чха̄ḓила",
+      "тбадӣйа̄бхима̄на а̄джи хр̤дайэ̆ паш́ила 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "‘ആമിഽശബ്ദെ ദെഹീ ജീബ അഹന്താ ഛാḓഇല",
+      "ത്ബദീയാഭിമാന ആജി ഹ്ഡ്ദയെ പശില 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "‘ஆமி(அ)ஶப்³தெ³ தெ³ஹீ ஜீப³ அஹந்தா சா²ḓஇல",
+      "த்ப³தீ³யாபி⁴மான ஆஜி ஹ்ஃட்²த³யெ பஶில 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "‘āmi’-śabde dehī jība ahaṁtā chāḍila",
+      "tbadīyābhimāna āji hṛdaye paśila 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "‘āmi’-śabde dehī jība ahaṁtā chāḓila",
+      "tbadīyābhimāna āji hṛdaye paśila 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "āmāra sarbasba—deha, geha, anucara",
+    "bhāi, bandhu, dārā, suta, drabya, dbāra, ghara 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आमार सर्बस्ब—दॆह, गॆह, अनुचर",
+      "भाइ, बन्धु, दारा, सुत, द्रब्य, द्बार, घर ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আমার সর্বস্ব—দেহ, গেহ, অনুচর",
+      "ভাই, বন্ধু, দারা, সুত, দ্রব্য, দ্বার, ঘর ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆମାର ସର୍ବସ୍ବ—ଦେହ, ଗେହ, ଅନୁଚର",
+      "ଭାଇ, ବନ୍ଧୁ, ଦାରା, ସୁତ, ଦ୍ରବ୍ୟ, ଦ୍ବାର, ଘର ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આમાર સર્બસ્બ—દેહ, ગેહ, અનુચર",
+      "ભાઇ, બન્ધુ, દારા, સુત, દ્રબ્ય, દ્બાર, ઘર ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "āmāra sarbasba—deha, geha, anucara",
+      "bhāi, bandhu, dārā, suta, drabya, dbāra, ghara 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆಮಾರ ಸರ್ಬಸ್ಬ—ದೆಹ, ಗೆಹ, ಅನುಚರ",
+      "ಭಾಇ, ಬಂಧು, ದಾರಾ, ಸುತ, ದ್ರಬ್ಯ, ದ್ಬಾರ, ಘರ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆమార సర్బస్బ—దెహ, గెహ, అనుచర",
+      "భాఇ, బంధు, దారా, సుత, ద్రబ్య, ద్బార, ఘర 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄ма̄ра сарбасба—дэ̆ха, гэ̆ха, анучара",
+      "бха̄и, бандху, да̄ра̄, сута, драбйа, дба̄ра, гхара 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആമാര സർബസ്ബ—ദെഹ, ഗെഹ, അനുചര",
+      "ഭാഇ, ബന്ധു, ദാരാ, സുത, ദ്രബ്യ, ദ്ബാര, ഘര 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆமார ஸர்ப³ஸ்ப³—தெ³ஹ, கெ³ஹ, அனுசர",
+      "பா⁴இ, ப³ந்து⁴, தா³ரா, ஸுத, த்³ரப்³ய, த்³பா³ர, க⁴ர 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "āmāra sarbasba—deha, geha, anucara",
+      "bhāi, bandhu, dārā, suta, drabya, dbāra, ghara 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "āmāra sarbasba—deha, geha, anucara",
+      "bhāi, bandhu, dārā, suta, drabya, dbāra, ghara 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "se[FLAG_HYPHEN_ALPHA]saba ha·ila taba, āmi hainu dāsa",
+    "tomāra gṛhete ebe āmi kari bāsa 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सॆसब हइल तब, आमि हैनु दास",
+      "तॊमार ग्ढ़ॆतॆ ऎबॆ आमि करि बास ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সেসব হইল তব, আমি হৈনু দাস",
+      "তোমার গ্ঢ়েতে এবে আমি করি বাস ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସେସବ ହଇଲ ତବ, ଆମି ହୈନୁ ଦାସ",
+      "ତୋମାର ଗ୍ଢ଼େତେ ଏବେ ଆମି କରି ବାସ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સેસબ હઇલ તબ, આમિ હૈનુ દાસ",
+      "તોમાર ગ્ઢ઼ેતે એબે આમિ કરિ બાસ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "se-saba ha·ila taba, āmi hainu dāsa",
+      "tomāra gṛhete ebe āmi kari bāsa 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸೆಸಬ ಹಇಲ ತಬ, ಆಮಿ ಹೈನು ದಾಸ",
+      "ತೊಮಾರ ಗ್‌ಢ಼ೆತೆ ಎಬೆ ಆಮಿ ಕರಿ ಬಾಸ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సెసబ హఇల తబ, ఆమి హైను దాస",
+      "తొమార గ్ఢెతె ఎబె ఆమి కరి బాస 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сэ̆саба хаила таба, а̄ми хаину да̄са",
+      "то̆ма̄ра гр̤хэ̆тэ̆ э̆бэ̆ а̄ми кари ба̄са 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സെസബ ഹഇല തബ, ആമി ഹൈനു ദാസ",
+      "തൊമാര ഗ്ഢെതെ എബെ ആമി കരി ബാസ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸெஸப³ ஹஇல தப³, ஆமி ஹைனு தா³ஸ",
+      "தொமார க்³ஃடெ³தெ எபெ³ ஆமி கரி பா³ஸ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "se-saba ha·ila taba, āmi hainu dāsa",
+      "tomāra gṛhete ebe āmi kari bāsa 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "se-saba ha·ila taba, āmi hainu dāsa",
+      "tomāra gṛhete ebe āmi kari bāsa 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "tumi gṛhasbāmī, āmi sebaka tomāra",
+    "tomāra sukhete ceṣṭā ekhana āmāra 6"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तुमि ग्ढ़स्बामी, आमि सॆबक तॊमार",
+      "तॊमार सुखॆतॆ चॆष्टा ऎखन आमार ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তুমি গ্ঢ়স্বামী, আমি সেবক তোমার",
+      "তোমার সুখেতে চেষ্টা এখন আমার ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୁମି ଗ୍ଢ଼ସ୍ବାମୀ, ଆମି ସେବକ ତୋମାର",
+      "ତୋମାର ସୁଖେତେ ଚେଷ୍ଟା ଏଖନ ଆମାର ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તુમિ ગ્ઢ઼સ્બામી, આમિ સેબક તોમાર",
+      "તોમાર સુખેતે ચેષ્ટા એખન આમાર ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tumi gṛhasbāmī, āmi sebaka tomāra",
+      "tomāra sukhete ceṣṭā ekhana āmāra 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತುಮಿ ಗ್‌ಢ಼ಸ್ಬಾಮೀ, ಆಮಿ ಸೆಬಕ ತೊಮಾರ",
+      "ತೊಮಾರ ಸುಖೆತೆ ಚೆಷ್ಟಾ ಎಖನ ಆಮಾರ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తుమి గ్ఢస్బామీ, ఆమి సెబక తొమార",
+      "తొమార సుఖెతె చెష్టా ఎఖన ఆమార 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "туми гр̤хасба̄мӣ, а̄ми сэ̆бака то̆ма̄ра",
+      "то̆ма̄ра сукхэ̆тэ̆ чэ̆шт̣а̄ э̆кхана а̄ма̄ра 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തുമി ഗ്ഢസ്ബാമീ, ആമി സെബക തൊമാര",
+      "തൊമാര സുഖെതെ ചെഷ്ടാ എഖന ആമാര 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "துமி க்³ஃட³ஸ்பா³மீ, ஆமி ஸெப³க தொமார",
+      "தொமார ஸுகெ²தெ செஷ்டா எக²ன ஆமார 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tumi gṛhasbāmī, āmi sebaka tomāra",
+      "tomāra sukhete ceṣṭā ekhana āmāra 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tumi gṛhasbāmī, āmi sebaka tomāra",
+      "tomāra sukhete ceṣṭā ekhana āmāra 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "sthūla[FLAG_HYPHEN_ALPHA]liṅga[FLAG_HYPHEN_ALPHA]dehe mora sukṛta[FLAG_HYPHEN_ALPHA]duṣkṛta",
+    "āra mora nahe, prabhu! āmi ta’ niṣkṛta 7"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "स्थूललिङ्गदॆहॆ मॊर सुक्ड़्तदुष्क्ड़्त",
+      "आर मॊर नहॆ, प्रभु! आमि तऽ निष्क्ड़्त ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "স্থূললিঙ্গদেহে মোর সুক্ড়্তদুষ্ক্ড়্ত",
+      "আর মোর নহে, প্রভু! আমি তঽ নিষ্ক্ড়্ত ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସ୍ଥୂଲଲିଙ୍ଗଦେହେ ମୋର ସୁକ୍ଡ଼୍ତଦୁଷ୍କ୍ଡ଼୍ତ",
+      "ଆର ମୋର ନହେ, ପ୍ରଭୁ! ଆମି ତଽ ନିଷ୍କ୍ଡ଼୍ତ ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સ્થૂલલિઙ્ગદેહે મોર સુક્ડ઼્તદુષ્ક્ડ઼્ત",
+      "આર મોર નહે, પ્રભુ! આમિ તઽ નિષ્ક્ડ઼્ત ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sthūla-liṅga-dehe mora sukṛta-duṣkṛta",
+      "āra mora nahe, prabhu! āmi ta’ niṣkṛta 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸ್ಥೂಲಲಿಂಗದೆಹೆ ಮೊರ ಸುಕ್‌ಡ಼್ತದುಷ್ಕ್‌ಡ಼್ತ",
+      "ಆರ ಮೊರ ನಹೆ, ಪ್ರಭು! ಆಮಿ ತಽ ನಿಷ್ಕ್‌ಡ಼್ತ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "స్థూలలింగదెహె మొర సుక్డ్తదుష్క్డ్త",
+      "ఆర మొర నహె, ప్రభు! ఆమి తఽ నిష్క్డ్త 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "стхӯлалин̇гадэ̆хэ̆ мо̆ра сукр̤тадушкр̤та",
+      "а̄ра мо̆ра нахэ̆, прабху! а̄ми та' нишкр̤та 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സ്ഥൂലലിംഗദെഹെ മൊര സുക്ഡ്തദുഷ്ക്ഡ്ത",
+      "ആര മൊര നഹെ, പ്രഭു! ആമി തഽ നിഷ്ക്ഡ്ത 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸ்தூ²லலிங்க³தெ³ஹெ மொர ஸுக்ஃட்²தது³ஷ்க்ஃட்²த",
+      "ஆர மொர நஹெ, ப்ரபு⁴! ஆமி த(அ) நிஷ்க்ஃட்²த 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sthūla-liṅga-dehe mora sukṛta-duṣkṛta",
+      "āra mora nahe, prabhu! āmi ta’ niṣkṛta 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sthūla-liṅga-dehe mora sukṛta-duṣkṛta",
+      "āra mora nahe, prabhu! āmi ta’ niṣkṛta 7"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "tomāra icchāya mora icchā miśāila",
+    "bhakatibinoda āja āpane bhulila 8"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तॊमार इच्छाय मॊर इच्छा मिशाइल",
+      "भकतिबिनॊद आज आपनॆ भुलिल ८"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তোমার ইচ্ছায় মোর ইচ্ছা মিশাইল",
+      "ভকতিবিনোদ আজ আপনে ভুলিল ৮"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୋମାର ଇଚ୍ଛାୟ ମୋର ଇଚ୍ଛା ମିଶାଇଲ",
+      "ଭକତିବିନୋଦ ଆଜ ଆପନେ ଭୁଲିଲ ୮"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તોમાર ઇચ્છાય મોર ઇચ્છા મિશાઇલ",
+      "ભકતિબિનોદ આજ આપને ભુલિલ ૮"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tomāra icchāya mora icchā miśāila",
+      "bhakatibinoda āja āpane bhulila 8"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತೊಮಾರ ಇಚ್ಛಾಯ ಮೊರ ಇಚ್ಛಾ ಮಿಶಾಇಲ",
+      "ಭಕತಿಬಿನೊದ ಆಜ ಆಪನೆ ಭುಲಿಲ ೮"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తొమార ఇచ్ఛాయ మొర ఇచ్ఛా మిశాఇల",
+      "భకతిబినొద ఆజ ఆపనె భులిల 8"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "то̆ма̄ра иччха̄йа мо̆ра иччха̄ миш́а̄ила",
+      "бхакатибино̆да а̄джа а̄панэ̆ бхулила 8"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തൊമാര ഇച്ഛായ മൊര ഇച്ഛാ മിശാഇല",
+      "ഭകതിബിനൊദ ആജ ആപനെ ഭുലില 8"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தொமார இச்சா²ய மொர இச்சா² மிஶாஇல",
+      "ப⁴கதிபி³னொத³ ஆஜ ஆபனெ பு⁴லில 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tomāra icchāya mora icchā miśāila",
+      "bhakatibinoda āja āpane bhulila 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tomāra icchāya mora icchā miśāila",
+      "bhakatibinoda āja āpane bhulila 8"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "(১২)"
+  },
+  {
+   "language_code": "ben",
+   "text": "আত্মনিবেদন—অহংতাস্পদ দেহীসমর্পণ"
+  },
+  {
+   "language_code": "ben",
+   "text": "(কায়িক)"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "srrb-1",
+   "filename": "S15-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ],
+ "tags": [
+  "Ātma Nivedana (Submission of the Self)"
+ ]
+}

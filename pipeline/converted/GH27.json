@@ -1,0 +1,559 @@
+{
+ "uid": "GH27",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "বিমল-হেম-জিনি’, তনু অনুপম রে!"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "bimala-hema-jini’, tanu anupama re!"
+  }
+ ],
+ "author_uid": "বৃন্দাবন দাস",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "বৃন্দাবন দাস"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Vṛndāvana dāsa"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "bimala[FLAG_HYPHEN_ALPHA]hema[FLAG_HYPHEN_ALPHA]jini’,    tanu anupama re!",
+    "tāhe śobhe nānā phula[FLAG_HYPHEN_ALPHA]dāma",
+    "kadamba[FLAG_HYPHEN_ALPHA]keśara jini’,    ekaṭī pulaka re!",
+    "tā’ra mājhe bindu bindu ghāma 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बिमलहॆमजिनिऽ,    तनु अनुपम रॆ!",
+      "ताहॆ शॊभॆ नाना फुलदाम",
+      "कदम्बकॆशर जिनिऽ,    ऎकटी पुलक रॆ!",
+      "ताऽर माझॆ बिन्दु बिन्दु घाम १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বিমলহেমজিনিঽ,    তনু অনুপম রে!",
+      "তাহে শোভে নানা ফুলদাম",
+      "কদম্বকেশর জিনিঽ,    একটী পুলক রে!",
+      "তাঽর মাঝে বিন্দু বিন্দু ঘাম ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବିମଲହେମଜିନିଽ,    ତନୁ ଅନୁପମ ରେ!",
+      "ତାହେ ଶୋଭେ ନାନା ଫୁଲଦାମ",
+      "କଦମ୍ବକେଶର ଜିନିଽ,    ଏକଟୀ ପୁଲକ ରେ!",
+      "ତାଽର ମାଝେ ବିନ୍ଦୁ ବିନ୍ଦୁ ଘାମ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બિમલહેમજિનિઽ,    તનુ અનુપમ રે!",
+      "તાહે શોભે નાના ફુલદામ",
+      "કદમ્બકેશર જિનિઽ,    એકટી પુલક રે!",
+      "તાઽર માઝે બિન્દુ બિન્દુ ઘામ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bimala-hema-jini’,    tanu anupama re!",
+      "tāhe śobhe nānā phula-dāma",
+      "kadamba-keśara jini’,    ekaṭī pulaka re!",
+      "tā’ra mājhe bindu bindu ghāma 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬಿಮಲಹೆಮಜಿನಿಽ,    ತನು ಅನುಪಮ ರೆ!",
+      "ತಾಹೆ ಶೊಭೆ ನಾನಾ ಫುಲದಾಮ",
+      "ಕದಂಬಕೆಶರ ಜಿನಿಽ,    ಎಕಟೀ ಪುಲಕ ರೆ!",
+      "ತಾಽರ ಮಾಝೆ ಬಿಂದು ಬಿಂದು ಘಾಮ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బిమలహెమజినిఽ,    తను అనుపమ రె!",
+      "తాహె శొభె నానా ఫులదామ",
+      "కదంబకెశర జినిఽ,    ఎకటీ పులక రె!",
+      "తాఽర మాఝె బిందు బిందు ఘామ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бималахэ̆маджини',    тану анупама рэ̆!",
+      "та̄хэ̆ ш́о̆бхэ̆ на̄на̄ пхулада̄ма",
+      "кадамбакэ̆ш́ара джини',    э̆кат̣ӣ пулака рэ̆!",
+      "та̄'ра ма̄джхэ̆ бинду бинду гха̄ма 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബിമലഹെമജിനിഽ,    തനു അനുപമ രെ!",
+      "താഹെ ശൊഭെ നാനാ ഫുലദാമ",
+      "കദംബകെശര ജിനിഽ,    എകടീ പുലക രെ!",
+      "താഽര മാഝെ ബിന്ദു ബിന്ദു ഘാമ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பி³மலஹெமஜினி(அ),    தனு அனுபம ரெ!",
+      "தாஹெ ஶொபெ⁴ நானா பு²லதா³ம",
+      "கத³ம்ப³கெஶர ஜினி(அ),    எகடீ புலக ரெ!",
+      "தா(அ)ர மாஜெ² பி³ந்து³ பி³ந்து³ கா⁴ம 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bimala-hema-jini’,    tanu anupama re!",
+      "tāhe śobhe nānā phula-dāma",
+      "kadamba-keśara jini’,    ekaṭī pulaka re!",
+      "tā’ra mājhe bindu bindu ghāma 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bimala-hema-jini’,    tanu anupama re!",
+      "tāhe śobhe nānā phula-dāma",
+      "kadamba-keśara jini’,    ekaṭī pulaka re!",
+      "tā’ra mājhe bindu bindu ghāma 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "jini’ madamatta hātī,    gamana manthara ati,",
+    "bhābābeśe ḍhuli’ ḍhuli’ yāya",
+    "aruṇa[FLAG_HYPHEN_ALPHA]basana chabi,    jini’ prabhātera rabi,",
+    "gorā[FLAG_HYPHEN_ALPHA]aṅge laharī khelāya 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जिनिऽ मदमत्त हाती,    गमन मन्थर अति,",
+      "भाबाबॆशॆ ढुलिऽ ढुलिऽ याय",
+      "अरुणबसन छबि,    जिनिऽ प्रभातॆर रबि,",
+      "गॊराअङ्गॆ लहरी खॆलाय २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জিনিঽ মদমত্ত হাতী,    গমন মন্থর অতি,",
+      "ভাবাবেশে ঢুলিঽ ঢুলিঽ যায়",
+      "অরুণবসন ছবি,    জিনিঽ প্রভাতের রবি,",
+      "গোরাঅঙ্গে লহরী খেলায় ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜିନିଽ ମଦମତ୍ତ ହାତୀ,    ଗମନ ମନ୍ଥର ଅତି,",
+      "ଭାବାବେଶେ ଢୁଲିଽ ଢୁଲିଽ ଯାୟ",
+      "ଅରୁଣବସନ ଛବି,    ଜିନିଽ ପ୍ରଭାତେର ରବି,",
+      "ଗୋରାଅଙ୍ଗେ ଲହରୀ ଖେଲାୟ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જિનિઽ મદમત્ત હાતી,    ગમન મન્થર અતિ,",
+      "ભાબાબેશે ઢુલિઽ ઢુલિઽ યાય",
+      "અરુણબસન છબિ,    જિનિઽ પ્રભાતેર રબિ,",
+      "ગોરાઅઙ્ગે લહરી ખેલાય ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jini’ madamatta hātī,    gamana manthara ati,",
+      "bhābābeśe ḍhuli’ ḍhuli’ yāya",
+      "aruṇa-basana chabi,    jini’ prabhātera rabi,",
+      "gorā-aṅge laharī khelāya 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜಿನಿಽ ಮದಮತ್ತ ಹಾತೀ,    ಗಮನ ಮಂಥರ ಅತಿ,",
+      "ಭಾಬಾಬೆಶೆ ಢುಲಿಽ ಢುಲಿಽ ಯಾಯ",
+      "ಅರುಣಬಸನ ಛಬಿ,    ಜಿನಿಽ ಪ್ರಭಾತೆರ ರಬಿ,",
+      "ಗೊರಾಅಂಗೆ ಲಹರೀ ಖೆಲಾಯ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జినిఽ మదమత్త హాతీ,    గమన మంథర అతి,",
+      "భాబాబెశె ఢులిఽ ఢులిఽ యాయ",
+      "అరుణబసన ఛబి,    జినిఽ ప్రభాతెర రబి,",
+      "గొరాఅంగె లహరీ ఖెలాయ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джини' мадаматта ха̄тӣ,    гамана мантхара ати,",
+      "бха̄ба̄бэ̆ш́э̆ д̣хули' д̣хули' йа̄йа",
+      "арун̣абасана чхаби,    джини' прабха̄тэ̆ра раби,",
+      "го̆ра̄ан̇гэ̆ лахарӣ кхэ̆ла̄йа 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജിനിഽ മദമത്ത ഹാതീ,    ഗമന മന്ഥര അതി,",
+      "ഭാബാബെശെ ഢുലിഽ ഢുലിഽ യായ",
+      "അരുണബസന ഛബി,    ജിനിഽ പ്രഭാതെര രബി,",
+      "ഗൊരാഅംഗെ ലഹരീ ഖെലായ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜினி(அ) மத³மத்த ஹாதீ,    க³மன மந்த²ர அதி,",
+      "பா⁴பா³பெ³ஶெ டு⁴லி(அ) டு⁴லி(அ) யாய",
+      "அருணப³ஸன ச²பி³,    ஜினி(அ) ப்ரபா⁴தெர ரபி³,",
+      "கொ³ராஅங்கெ³ லஹரீ கெ²லாய 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jini’ madamatta hātī,    gamana manthara ati,",
+      "bhābābeśe ḍhuli’ ḍhuli’ yāya",
+      "aruṇa-basana chabi,    jini’ prabhātera rabi,",
+      "gorā-aṅge laharī khelāya 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jini’ madamatta hātī,    gamana manthara ati,",
+      "bhābābeśe ḍhuli’ ḍhuli’ yāya",
+      "aruṇa-basana chabi,    jini’ prabhātera rabi,",
+      "gorā-aṅge laharī khelāya 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "calite nā pāre gorā[FLAG_HYPHEN_ALPHA],    cā̃da gosāĩ re,",
+    "balite nā pāre ādha[FLAG_HYPHEN_ALPHA]bola",
+    "bhābete ābeśa haiyā,    hari hari bolāiyā,",
+    "ācaṇḍāle dhari’ dei kola 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "चलितॆ ना पारॆ गॊरा,    चांद गॊसाइं रॆ,",
+      "बलितॆ ना पारॆ आधबॊल",
+      "भाबॆतॆ आबॆश हैया,    हरि हरि बॊलाइया,",
+      "आचण्डालॆ धरिऽ दॆइ कॊल ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "চলিতে না পারে গোরা,    চান্দ গোসাইং রে,",
+      "বলিতে না পারে আধবোল",
+      "ভাবেতে আবেশ হৈয়া,    হরি হরি বোলাইয়া,",
+      "আচণ্ডালে ধরিঽ দেই কোল ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଚଲିତେ ନା ପାରେ ଗୋରା,    ଚାନ୍ଦ ଗୋସାଇଂ ରେ,",
+      "ବଲିତେ ନା ପାରେ ଆଧବୋଲ",
+      "ଭାବେତେ ଆବେଶ ହୈୟା,    ହରି ହରି ବୋଲାଇୟା,",
+      "ଆଚଣ୍ଡାଲେ ଧରିଽ ଦେଇ କୋଲ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ચલિતે ના પારે ગોરા,    ચાંદ ગોસાઇં રે,",
+      "બલિતે ના પારે આધબોલ",
+      "ભાબેતે આબેશ હૈયા,    હરિ હરિ બોલાઇયા,",
+      "આચણ્ડાલે ધરિઽ દેઇ કોલ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "calite nā pāre gorā-,    cā̃da gosāĩ re,",
+      "balite nā pāre ādha-bola",
+      "bhābete ābeśa haiyā,    hari hari bolāiyā,",
+      "ācaṇḍāle dhari’ dei kola 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಚಲಿತೆ ನಾ ಪಾರೆ ಗೊರಾ,    ಚಾಂದ ಗೊಸಾಇಂ ರೆ,",
+      "ಬಲಿತೆ ನಾ ಪಾರೆ ಆಧಬೊಲ",
+      "ಭಾಬೆತೆ ಆಬೆಶ ಹೈಯಾ,    ಹರಿ ಹರಿ ಬೊಲಾಇಯಾ,",
+      "ಆಚಂಡಾಲೆ ಧರಿಽ ದೆಇ ಕೊಲ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "చలితె నా పారె గొరా,    చాంద గొసాఇం రె,",
+      "బలితె నా పారె ఆధబొల",
+      "భాబెతె ఆబెశ హైయా,    హరి హరి బొలాఇయా,",
+      "ఆచండాలె ధరిఽ దెఇ కొల 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "чалитэ̆ на̄ па̄рэ̆ го̆ра̄,    ча̄м̣да го̆са̄им̣ рэ̆,",
+      "балитэ̆ на̄ па̄рэ̆ а̄дхабо̆ла",
+      "бха̄бэ̆тэ̆ а̄бэ̆ш́а хаийа̄,    хари хари бо̆ла̄ийа̄,",
+      "а̄чан̣д̣а̄лэ̆ дхари' дэ̆и ко̆ла 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ചലിതെ നാ പാരെ ഗൊരാ,    ചാന്ദ ഗൊസാഇം രെ,",
+      "ബലിതെ നാ പാരെ ആധബൊല",
+      "ഭാബെതെ ആബെശ ഹൈയാ,    ഹരി ഹരി ബൊലാഇയാ,",
+      "ആചണ്ഡാലെ ധരിഽ ദെഇ കൊല 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "சலிதெ நா பாரெ கொ³ரா,    சாந்த³ கொ³ஸாஇம்ʼ ரெ,",
+      "ப³லிதெ நா பாரெ ஆத⁴பொ³ல",
+      "பா⁴பெ³தெ ஆபெ³ஶ ஹையா,    ஹரி ஹரி பொ³லாஇயா,",
+      "ஆசண்டா³லெ த⁴ரி(அ) தெ³இ கொல 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "calite nā pāre gorā-,    cā̃da gosāĩ re,",
+      "balite nā pāre ādha-bola",
+      "bhābete ābeśa haiyā,    hari hari bolāiyā,",
+      "ācaṇḍāle dhari’ dei kola 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "calite nā pāre gorā-,    cā̃da gosāĩ re,",
+      "balite nā pāre ādha-bola",
+      "bhābete ābeśa haiyā,    hari hari bolāiyā,",
+      "ācaṇḍāle dhari’ dei kola 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "e sukhasampad[FLAG_HYPHEN_ALPHA]kāle,    gorā nā bhajinu hele,",
+    "hena pade nā karinu āśa",
+    "śrīkṛṣṇacaitanyacandra,    ṭhākura śrīnityānanda,",
+    "guṇa gāya bṛndābanadāsa 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎ सुखसम्पद्कालॆ,    गॊरा ना भजिनु हॆलॆ,",
+      "हॆन पदॆ ना करिनु आश",
+      "श्रीक्ड़्ष्णचैतन्यचन्द्र,    ठाकुर श्रीनित्यानन्द,",
+      "गुण गाय ब्ड़्न्दाबनदास ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এ সুখসম্পদ্কালে,    গোরা না ভজিনু হেলে,",
+      "হেন পদে না করিনু আশ",
+      "শ্রীক্ড়্ষ্ণচৈতন্যচন্দ্র,    ঠাকুর শ্রীনিত্যানন্দ,",
+      "গুণ গায় ব্ড়্ন্দাবনদাস ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏ ସୁଖସମ୍ପଦ୍କାଲେ,    ଗୋରା ନା ଭଜିନୁ ହେଲେ,",
+      "ହେନ ପଦେ ନା କରିନୁ ଆଶ",
+      "ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣଚୈତନ୍ୟଚନ୍ଦ୍ର,    ଠାକୁର ଶ୍ରୀନିତ୍ୟାନନ୍ଦ,",
+      "ଗୁଣ ଗାୟ ବ୍ଡ଼୍ନ୍ଦାବନଦାସ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એ સુખસમ્પદ્કાલે,    ગોરા ના ભજિનુ હેલે,",
+      "હેન પદે ના કરિનુ આશ",
+      "શ્રીક્ડ઼્ષ્ણચૈતન્યચન્દ્ર,    ઠાકુર શ્રીનિત્યાનન્દ,",
+      "ગુણ ગાય બ્ડ઼્ન્દાબનદાસ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "e sukhasampad-kāle,    gorā nā bhajinu hele,",
+      "hena pade nā karinu āśa",
+      "śrīkṛṣṇacaitanyacandra,    ṭhākura śrīnityānanda,",
+      "guṇa gāya bṛndābanadāsa 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎ ಸುಖಸಂಪದ್ಕಾಲೆ,    ಗೊರಾ ನಾ ಭಜಿನು ಹೆಲೆ,",
+      "ಹೆನ ಪದೆ ನಾ ಕರಿನು ಆಶ",
+      "ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಚೈತನ್ಯಚಂದ್ರ,    ಠಾಕುರ ಶ್ರೀನಿತ್ಯಾನಂದ,",
+      "ಗುಣ ಗಾಯ ಬ್‌ಡ಼್ನ್ದಾಬನದಾಸ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎ సుఖసంపద్కాలె,    గొరా నా భజిను హెలె,",
+      "హెన పదె నా కరిను ఆశ",
+      "శ్రీక్డ్ష్ణచైతన్యచంద్ర,    ఠాకుర శ్రీనిత్యానంద,",
+      "గుణ గాయ బ్డ్న్దాబనదాస 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆ сукхасампадка̄лэ̆,    го̆ра̄ на̄ бхаджину хэ̆лэ̆,",
+      "хэ̆на падэ̆ на̄ карину а̄ш́а",
+      "ш́рӣкр̤шн̣ачаитанйачандра,    т̣ха̄кура ш́рӣнитйа̄нанда,",
+      "гун̣а га̄йа бр̤нда̄банада̄са 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എ സുഖസമ്പദ്കാലെ,    ഗൊരാ നാ ഭജിനു ഹെലെ,",
+      "ഹെന പദെ നാ കരിനു ആശ",
+      "ശ്രീക്ഡ്ഷ്ണചൈതന്യചന്ദ്ര,    ഠാകുര ശ്രീനിത്യാനന്ദ,",
+      "ഗുണ ഗായ ബ്ഡ്ന്ദാബനദാസ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எ ஸுக²ஸம்பத்³காலெ,    கொ³ரா நா ப⁴ஜினு ஹெலெ,",
+      "ஹென பதெ³ நா கரினு ஆஶ",
+      "ஶ்ரீக்ஃட்²ஷ்ணசைதன்யசந்த்³ர,    டா²குர ஶ்ரீநித்யானந்த³,",
+      "கு³ண கா³ய ப்³ஃட்²ந்தா³ப³னதா³ஸ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "e sukhasampad-kāle,    gorā nā bhajinu hele,",
+      "hena pade nā karinu āśa",
+      "śrīkṛṣṇacaitanyacandra,    ṭhākura śrīnityānanda,",
+      "guṇa gāya bṛndābanadāsa 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "e sukhasampad-kāle,    gorā nā bhajinu hele,",
+      "hena pade nā karinu āśa",
+      "śrīkṛṣṇacaitanyacandra,    ṭhākura śrīnityānanda,",
+      "guṇa gāya bṛndābanadāsa 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "The Beautiful Form of Śrī Gaurāṅga"
+ ]
+}

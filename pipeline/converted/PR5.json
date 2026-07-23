@@ -1,0 +1,1360 @@
+{
+ "uid": "PR5",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ভাইরে! একদিন নীলাচলে"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "bhāire! ekadina nīlācale"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "bhāire!",
+    "ekadina nīlācale,    prasāda sebana[FLAG_HYPHEN_ALPHA]kāle,",
+    "mahāprabhu śrīkṛṣṇacaitanya",
+    "balilena,—“bhaktagaṇe,    khecarānna śuddhamane,",
+    "sebā kari’ hao āja dhanya 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O brothers! One day in Jagannātha Purī, at the time of honoring the Lord’s prasāda, Mahāprabhu Śrī Kṛṣṇa Caitanya proclaimed, “O devotees, may you become blessed today by honoring the khicuḓi (rice and lentils cooked together) of the Lord in a pure state of mind."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "bhāire",
+       "O brothers"
+      ],
+      [
+       "ekadina",
+       "one + day"
+      ],
+      [
+       "nīlācale",
+       "in Nīlācala"
+      ],
+      [
+       "prasāda",
+       "the Lord’s remnants"
+      ],
+      [
+       "sebana",
+       "honoring"
+      ],
+      [
+       "kāle",
+       "at the time"
+      ],
+      [
+       "mahāprabhu",
+       "Mahāprabhu"
+      ],
+      [
+       "śrīkṛṣṇacaitanya",
+       "Śrī Kṛṣṇa Caitanya"
+      ],
+      [
+       "balilena",
+       "He said"
+      ],
+      [
+       "bhaktagaṇe",
+       "O devotees"
+      ],
+      [
+       "khecarānna",
+       "khichri, a preparation of rice and dal cooked together"
+      ],
+      [
+       "śuddhamane",
+       "pure + with mind"
+      ],
+      [
+       "sebā kari’",
+       "having honored"
+      ],
+      [
+       "hao",
+       "may you become"
+      ],
+      [
+       "āja",
+       "today"
+      ],
+      [
+       "dhanya",
+       "blessed"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "भाइरॆ",
+       "O brothers"
+      ],
+      [
+       "ऎकदिन",
+       "one + day"
+      ],
+      [
+       "नीलाचलॆ",
+       "in Nīlācala"
+      ],
+      [
+       "प्रसाद",
+       "the Lord’s remnants"
+      ],
+      [
+       "सॆबन",
+       "honoring"
+      ],
+      [
+       "कालॆ",
+       "at the time"
+      ],
+      [
+       "महाप्रभु",
+       "Mahāprabhu"
+      ],
+      [
+       "श्रीक्ड़्ष्णचैतन्य",
+       "Śrī Kṛṣṇa Caitanya"
+      ],
+      [
+       "बलिलॆन",
+       "He said"
+      ],
+      [
+       "भक्तगणॆ",
+       "O devotees"
+      ],
+      [
+       "खॆचरान्न",
+       "khichri, a preparation of rice and dal cooked together"
+      ],
+      [
+       "शुद्धमनॆ",
+       "pure + with mind"
+      ],
+      [
+       "सॆबा करिऽ",
+       "having honored"
+      ],
+      [
+       "हऒ",
+       "may you become"
+      ],
+      [
+       "आज",
+       "today"
+      ],
+      [
+       "धन्य",
+       "blessed"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ভাইরে",
+       "O brothers"
+      ],
+      [
+       "একদিন",
+       "one + day"
+      ],
+      [
+       "নীলাচলে",
+       "in Nīlācala"
+      ],
+      [
+       "প্রসাদ",
+       "the Lord’s remnants"
+      ],
+      [
+       "সেবন",
+       "honoring"
+      ],
+      [
+       "কালে",
+       "at the time"
+      ],
+      [
+       "মহাপ্রভু",
+       "Mahāprabhu"
+      ],
+      [
+       "শ্রীক্ড়্ষ্ণচৈতন্য",
+       "Śrī Kṛṣṇa Caitanya"
+      ],
+      [
+       "বলিলেন",
+       "He said"
+      ],
+      [
+       "ভক্তগণে",
+       "O devotees"
+      ],
+      [
+       "খেচরান্ন",
+       "khichri, a preparation of rice and dal cooked together"
+      ],
+      [
+       "শুদ্ধমনে",
+       "pure + with mind"
+      ],
+      [
+       "সেবা করিঽ",
+       "having honored"
+      ],
+      [
+       "হও",
+       "may you become"
+      ],
+      [
+       "আজ",
+       "today"
+      ],
+      [
+       "ধন্য",
+       "blessed"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ભાઇરે",
+       "O brothers"
+      ],
+      [
+       "એકદિન",
+       "one + day"
+      ],
+      [
+       "નીલાચલે",
+       "in Nīlācala"
+      ],
+      [
+       "પ્રસાદ",
+       "the Lord’s remnants"
+      ],
+      [
+       "સેબન",
+       "honoring"
+      ],
+      [
+       "કાલે",
+       "at the time"
+      ],
+      [
+       "મહાપ્રભુ",
+       "Mahāprabhu"
+      ],
+      [
+       "શ્રીક્ડ઼્ષ્ણચૈતન્ય",
+       "Śrī Kṛṣṇa Caitanya"
+      ],
+      [
+       "બલિલેન",
+       "He said"
+      ],
+      [
+       "ભક્તગણે",
+       "O devotees"
+      ],
+      [
+       "ખેચરાન્ન",
+       "khichri, a preparation of rice and dal cooked together"
+      ],
+      [
+       "શુદ્ધમને",
+       "pure + with mind"
+      ],
+      [
+       "સેબા કરિઽ",
+       "having honored"
+      ],
+      [
+       "હઓ",
+       "may you become"
+      ],
+      [
+       "આજ",
+       "today"
+      ],
+      [
+       "ધન્ય",
+       "blessed"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भाइरॆ!",
+      "ऎकदिन नीलाचलॆ,    प्रसाद सॆबनकालॆ,",
+      "महाप्रभु श्रीक्ड़्ष्णचैतन्य",
+      "बलिलॆन,—“भक्तगणॆ,    खॆचरान्न शुद्धमनॆ,",
+      "सॆबा करिऽ हऒ आज धन्य १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভাইরে!",
+      "একদিন নীলাচলে,    প্রসাদ সেবনকালে,",
+      "মহাপ্রভু শ্রীক্ড়্ষ্ণচৈতন্য",
+      "বলিলেন,—“ভক্তগণে,    খেচরান্ন শুদ্ধমনে,",
+      "সেবা করিঽ হও আজ ধন্য ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭାଇରେ!",
+      "ଏକଦିନ ନୀଲାଚଲେ,    ପ୍ରସାଦ ସେବନକାଲେ,",
+      "ମହାପ୍ରଭୁ ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣଚୈତନ୍ୟ",
+      "ବଲିଲେନ,—“ଭକ୍ତଗଣେ,    ଖେଚରାନ୍ନ ଶୁଦ୍ଧମନେ,",
+      "ସେବା କରିଽ ହଓ ଆଜ ଧନ୍ୟ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભાઇરે!",
+      "એકદિન નીલાચલે,    પ્રસાદ સેબનકાલે,",
+      "મહાપ્રભુ શ્રીક્ડ઼્ષ્ણચૈતન્ય",
+      "બલિલેન,—“ભક્તગણે,    ખેચરાન્ન શુદ્ધમને,",
+      "સેબા કરિઽ હઓ આજ ધન્ય ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhāire!",
+      "ekadina nīlācale,    prasāda sebana-kāle,",
+      "mahāprabhu śrīkṛṣṇacaitanya",
+      "balilena,—“bhaktagaṇe,    khecarānna śuddhamane,",
+      "sebā kari’ hao āja dhanya 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭಾಇರೆ!",
+      "ಎಕದಿನ ನೀಲಾಚಲೆ,    ಪ್ರಸಾದ ಸೆಬನಕಾಲೆ,",
+      "ಮಹಾಪ್ರಭು ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಚೈತನ್ಯ",
+      "ಬಲಿಲೆನ,—“ಭಕ್ತಗಣೆ,    ಖೆಚರಾನ್ನ ಶುದ್ಧಮನೆ,",
+      "ಸೆಬಾ ಕರಿಽ ಹಒ ಆಜ ಧನ್ಯ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భాఇరె!",
+      "ఎకదిన నీలాచలె,    ప్రసాద సెబనకాలె,",
+      "మహాప్రభు శ్రీక్డ్ష్ణచైతన్య",
+      "బలిలెన,—“భక్తగణె,    ఖెచరాన్న శుద్ధమనె,",
+      "సెబా కరిఽ హఒ ఆజ ధన్య 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бха̄ирэ̆!",
+      "э̆кадина нӣла̄чалэ̆,    праса̄да сэ̆банака̄лэ̆,",
+      "маха̄прабху ш́рӣкр̤шн̣ачаитанйа",
+      "балилэ̆на,—“бхактаган̣э̆,    кхэ̆чара̄нна ш́уддхаманэ̆,",
+      "сэ̆ба̄ кари' хао̆ а̄джа дханйа 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭാഇരെ!",
+      "എകദിന നീലാചലെ,    പ്രസാദ സെബനകാലെ,",
+      "മഹാപ്രഭു ശ്രീക്ഡ്ഷ്ണചൈതന്യ",
+      "ബലിലെന,—“ഭക്തഗണെ,    ഖെചരാന്ന ശുദ്ധമനെ,",
+      "സെബാ കരിഽ ഹഒ ആജ ധന്യ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பா⁴இரெ!",
+      "எகதி³ன நீலாசலெ,    ப்ரஸாத³ ஸெப³னகாலெ,",
+      "மஹாப்ரபு⁴ ஶ்ரீக்ஃட்²ஷ்ணசைதன்ய",
+      "ப³லிலென,—“ப⁴க்தக³ணெ,    கெ²சரான்ன ஶுத்³த⁴மனெ,",
+      "ஸெபா³ கரி(அ) ஹஒ ஆஜ த⁴ன்ய 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhāire!",
+      "ekadina nīlācale,    prasāda sebana-kāle,",
+      "mahāprabhu śrīkṛṣṇacaitanya",
+      "balilena,—“bhaktagaṇe,    khecarānna śuddhamane,",
+      "sebā kari’ hao āja dhanya 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhāire!",
+      "ekadina nīlācale,    prasāda sebana-kāle,",
+      "mahāprabhu śrīkṛṣṇacaitanya",
+      "balilena,—“bhaktagaṇe,    khecarānna śuddhamane,",
+      "sebā kari’ hao āja dhanya 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "khecarānna, piṭhāpānā,    apūrba prasāda nānā,",
+    "jagannātha dila tomā sabe",
+    "ākaṇṭha bhojana kari’,    bala mukhe hari hari,",
+    "abidyā[FLAG_HYPHEN_ALPHA]durita nāhi rabe 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "“Lord Jagannātha has given you many varieties of extraordinary prasāda, such as khicuḓi  and piṭhā-pānā (coconut cake rolls in sweetened condensed milk). Take this prasāda until you are filled to the neck, and with your mouth chant, ‘Hari! Hari!’ Ignorance and sin will not be able to remain."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "khecarānna",
+       "[see above]"
+      ],
+      [
+       "piṭhāpānā",
+       "coconut cake rolls in sweetened condensed milk"
+      ],
+      [
+       "apūrba",
+       "extraordinary"
+      ],
+      [
+       "prasāda",
+       "remnants of the Lord"
+      ],
+      [
+       "nānā",
+       "varieties"
+      ],
+      [
+       "jagannātha",
+       "Lord Jagannātha"
+      ],
+      [
+       "dila",
+       "gave"
+      ],
+      [
+       "tomā",
+       "you"
+      ],
+      [
+       "sabe",
+       "to all"
+      ],
+      [
+       "ākaṇṭha",
+       "up to the neck"
+      ],
+      [
+       "bhojana kari’",
+       "having eaten"
+      ],
+      [
+       "bala",
+       "chant"
+      ],
+      [
+       "mukhe",
+       "with your mouth"
+      ],
+      [
+       "hari hari",
+       "“Hari Hari”"
+      ],
+      [
+       "abidyā",
+       "ignorance"
+      ],
+      [
+       "durita",
+       "sin"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "rabe",
+       "will remain"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "खॆचरान्न",
+       "[see above]"
+      ],
+      [
+       "पिठापाना",
+       "coconut cake rolls in sweetened condensed milk"
+      ],
+      [
+       "अपूर्ब",
+       "extraordinary"
+      ],
+      [
+       "प्रसाद",
+       "remnants of the Lord"
+      ],
+      [
+       "नाना",
+       "varieties"
+      ],
+      [
+       "जगन्नाथ",
+       "Lord Jagannātha"
+      ],
+      [
+       "दिल",
+       "gave"
+      ],
+      [
+       "तॊमा",
+       "you"
+      ],
+      [
+       "सबॆ",
+       "to all"
+      ],
+      [
+       "आकण्ठ",
+       "up to the neck"
+      ],
+      [
+       "भॊजन करिऽ",
+       "having eaten"
+      ],
+      [
+       "बल",
+       "chant"
+      ],
+      [
+       "मुखॆ",
+       "with your mouth"
+      ],
+      [
+       "हरि हरि",
+       "“Hari Hari”"
+      ],
+      [
+       "अबिद्या",
+       "ignorance"
+      ],
+      [
+       "दुरित",
+       "sin"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "रबॆ",
+       "will remain"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "খেচরান্ন",
+       "[see above]"
+      ],
+      [
+       "পিঠাপানা",
+       "coconut cake rolls in sweetened condensed milk"
+      ],
+      [
+       "অপূর্ব",
+       "extraordinary"
+      ],
+      [
+       "প্রসাদ",
+       "remnants of the Lord"
+      ],
+      [
+       "নানা",
+       "varieties"
+      ],
+      [
+       "জগন্নাথ",
+       "Lord Jagannātha"
+      ],
+      [
+       "দিল",
+       "gave"
+      ],
+      [
+       "তোমা",
+       "you"
+      ],
+      [
+       "সবে",
+       "to all"
+      ],
+      [
+       "আকণ্ঠ",
+       "up to the neck"
+      ],
+      [
+       "ভোজন করিঽ",
+       "having eaten"
+      ],
+      [
+       "বল",
+       "chant"
+      ],
+      [
+       "মুখে",
+       "with your mouth"
+      ],
+      [
+       "হরি হরি",
+       "“Hari Hari”"
+      ],
+      [
+       "অবিদ্যা",
+       "ignorance"
+      ],
+      [
+       "দুরিত",
+       "sin"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "রবে",
+       "will remain"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ખેચરાન્ન",
+       "[see above]"
+      ],
+      [
+       "પિઠાપાના",
+       "coconut cake rolls in sweetened condensed milk"
+      ],
+      [
+       "અપૂર્બ",
+       "extraordinary"
+      ],
+      [
+       "પ્રસાદ",
+       "remnants of the Lord"
+      ],
+      [
+       "નાના",
+       "varieties"
+      ],
+      [
+       "જગન્નાથ",
+       "Lord Jagannātha"
+      ],
+      [
+       "દિલ",
+       "gave"
+      ],
+      [
+       "તોમા",
+       "you"
+      ],
+      [
+       "સબે",
+       "to all"
+      ],
+      [
+       "આકણ્ઠ",
+       "up to the neck"
+      ],
+      [
+       "ભોજન કરિઽ",
+       "having eaten"
+      ],
+      [
+       "બલ",
+       "chant"
+      ],
+      [
+       "મુખે",
+       "with your mouth"
+      ],
+      [
+       "હરિ હરિ",
+       "“Hari Hari”"
+      ],
+      [
+       "અબિદ્યા",
+       "ignorance"
+      ],
+      [
+       "દુરિત",
+       "sin"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "રબે",
+       "will remain"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "खॆचरान्न, पिठापाना,    अपूर्ब प्रसाद नाना,",
+      "जगन्नाथ दिल तॊमा सबॆ",
+      "आकण्ठ भॊजन करिऽ,    बल मुखॆ हरि हरि,",
+      "अबिद्यादुरित नाहि रबॆ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "খেচরান্ন, পিঠাপানা,    অপূর্ব প্রসাদ নানা,",
+      "জগন্নাথ দিল তোমা সবে",
+      "আকণ্ঠ ভোজন করিঽ,    বল মুখে হরি হরি,",
+      "অবিদ্যাদুরিত নাহি রবে ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଖେଚରାନ୍ନ, ପିଠାପାନା,    ଅପୂର୍ବ ପ୍ରସାଦ ନାନା,",
+      "ଜଗନ୍ନାଥ ଦିଲ ତୋମା ସବେ",
+      "ଆକଣ୍ଠ ଭୋଜନ କରିଽ,    ବଲ ମୁଖେ ହରି ହରି,",
+      "ଅବିଦ୍ୟାଦୁରିତ ନାହି ରବେ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ખેચરાન્ન, પિઠાપાના,    અપૂર્બ પ્રસાદ નાના,",
+      "જગન્નાથ દિલ તોમા સબે",
+      "આકણ્ઠ ભોજન કરિઽ,    બલ મુખે હરિ હરિ,",
+      "અબિદ્યાદુરિત નાહિ રબે ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "khecarānna, piṭhāpānā,    apūrba prasāda nānā,",
+      "jagannātha dila tomā sabe",
+      "ākaṇṭha bhojana kari’,    bala mukhe hari hari,",
+      "abidyā-durita nāhi rabe 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಖೆಚರಾನ್ನ, ಪಿಠಾಪಾನಾ,    ಅಪೂರ್ಬ ಪ್ರಸಾದ ನಾನಾ,",
+      "ಜಗನ್ನಾಥ ದಿಲ ತೊಮಾ ಸಬೆ",
+      "ಆಕಂಠ ಭೊಜನ ಕರಿಽ,    ಬಲ ಮುಖೆ ಹರಿ ಹರಿ,",
+      "ಅಬಿದ್ಯಾದುರಿತ ನಾಹಿ ರಬೆ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఖెచరాన్న, పిఠాపానా,    అపూర్బ ప్రసాద నానా,",
+      "జగన్నాథ దిల తొమా సబె",
+      "ఆకంఠ భొజన కరిఽ,    బల ముఖె హరి హరి,",
+      "అబిద్యాదురిత నాహి రబె 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кхэ̆чара̄нна, пит̣ха̄па̄на̄,    апӯрба праса̄да на̄на̄,",
+      "джаганна̄тха дила то̆ма̄ сабэ̆",
+      "а̄кан̣т̣ха бхо̆джана кари',    бала мукхэ̆ хари хари,",
+      "абидйа̄дурита на̄хи рабэ̆ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഖെചരാന്ന, പിഠാപാനാ,    അപൂർബ പ്രസാദ നാനാ,",
+      "ജഗന്നാഥ ദില തൊമാ സബെ",
+      "ആകണ്ഠ ഭൊജന കരിഽ,    ബല മുഖെ ഹരി ഹരി,",
+      "അബിദ്യാദുരിത നാഹി രബെ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கெ²சரான்ன, பிடா²பானா,    அபூர்ப³ ப்ரஸாத³ நானா,",
+      "ஜக³ந்நாத² தி³ல தொமா ஸபெ³",
+      "ஆகண்ட² பொ⁴ஜன கரி(அ),    ப³ல முகெ² ஹரி ஹரி,",
+      "அபி³த்³யாது³ரித நாஹி ரபெ³ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "khecarānna, piṭhāpānā,    apūrba prasāda nānā,",
+      "jagannātha dila tomā sabe",
+      "ākaṇṭha bhojana kari’,    bala mukhe hari hari,",
+      "abidyā-durita nāhi rabe 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "khecarānna, piṭhāpānā,    apūrba prasāda nānā,",
+      "jagannātha dila tomā sabe",
+      "ākaṇṭha bhojana kari’,    bala mukhe hari hari,",
+      "abidyā-durita nāhi rabe 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "jagannātha[FLAG_HYPHEN_ALPHA]prasādānna,    biriñci[FLAG_HYPHEN_ALPHA]śambhura mānya,",
+    "khāile prema ha·ibe udaya",
+    "emana durllabha dhana,    pāiyācha sarbajana,",
+    "jaya jaya jagannātha jaya 3”"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "“The food remnants of Lord Jagannātha are worshipful for Lord Brahmā and Lord Śiva. Upon eating these remnants, prema will arise in the heart. All of you have obtained such a rare treasure. All glories, all glories to Lord Jagannātha! All glories!”"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "jagannātha",
+       "Jagannātha"
+      ],
+      [
+       "prasādānna",
+       "remnant + grains"
+      ],
+      [
+       "biriñci",
+       "Lord Brahmā"
+      ],
+      [
+       "śambhura",
+       "for Lord Śiva"
+      ],
+      [
+       "mānya",
+       "worshipful"
+      ],
+      [
+       "khāile",
+       "if one eats"
+      ],
+      [
+       "prema",
+       "divine love"
+      ],
+      [
+       "ha·ibe udaya",
+       "will arise"
+      ],
+      [
+       "emana",
+       "such"
+      ],
+      [
+       "durllabha",
+       "rare"
+      ],
+      [
+       "dhana",
+       "treasure"
+      ],
+      [
+       "pāiyācha",
+       "you have obtained"
+      ],
+      [
+       "sarbajana",
+       "all + people"
+      ],
+      [
+       "jaya jaya",
+       "all glories, all glorie"
+      ],
+      [
+       "jagannātha",
+       "Jagannātha"
+      ],
+      [
+       "jaya",
+       "all glories"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "जगन्नाथ",
+       "Jagannātha"
+      ],
+      [
+       "प्रसादान्न",
+       "remnant + grains"
+      ],
+      [
+       "बिरिञ्चि",
+       "Lord Brahmā"
+      ],
+      [
+       "शम्भुर",
+       "for Lord Śiva"
+      ],
+      [
+       "मान्य",
+       "worshipful"
+      ],
+      [
+       "खाइलॆ",
+       "if one eats"
+      ],
+      [
+       "प्रॆम",
+       "divine love"
+      ],
+      [
+       "हइबॆ उदय",
+       "will arise"
+      ],
+      [
+       "ऎमन",
+       "such"
+      ],
+      [
+       "दुर्ल्लभ",
+       "rare"
+      ],
+      [
+       "धन",
+       "treasure"
+      ],
+      [
+       "पाइयाछ",
+       "you have obtained"
+      ],
+      [
+       "सर्बजन",
+       "all + people"
+      ],
+      [
+       "जय जय",
+       "all glories, all glorie"
+      ],
+      [
+       "जगन्नाथ",
+       "Jagannātha"
+      ],
+      [
+       "जय",
+       "all glories"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "জগন্নাথ",
+       "Jagannātha"
+      ],
+      [
+       "প্রসাদান্ন",
+       "remnant + grains"
+      ],
+      [
+       "বিরিঞ্চি",
+       "Lord Brahmā"
+      ],
+      [
+       "শম্ভুর",
+       "for Lord Śiva"
+      ],
+      [
+       "মান্য",
+       "worshipful"
+      ],
+      [
+       "খাইলে",
+       "if one eats"
+      ],
+      [
+       "প্রেম",
+       "divine love"
+      ],
+      [
+       "হইবে উদয়",
+       "will arise"
+      ],
+      [
+       "এমন",
+       "such"
+      ],
+      [
+       "দুর্ল্লভ",
+       "rare"
+      ],
+      [
+       "ধন",
+       "treasure"
+      ],
+      [
+       "পাইয়াছ",
+       "you have obtained"
+      ],
+      [
+       "সর্বজন",
+       "all + people"
+      ],
+      [
+       "জয় জয়",
+       "all glories, all glorie"
+      ],
+      [
+       "জগন্নাথ",
+       "Jagannātha"
+      ],
+      [
+       "জয়",
+       "all glories"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "જગન્નાથ",
+       "Jagannātha"
+      ],
+      [
+       "પ્રસાદાન્ન",
+       "remnant + grains"
+      ],
+      [
+       "બિરિઞ્ચિ",
+       "Lord Brahmā"
+      ],
+      [
+       "શમ્ભુર",
+       "for Lord Śiva"
+      ],
+      [
+       "માન્ય",
+       "worshipful"
+      ],
+      [
+       "ખાઇલે",
+       "if one eats"
+      ],
+      [
+       "પ્રેમ",
+       "divine love"
+      ],
+      [
+       "હઇબે ઉદય",
+       "will arise"
+      ],
+      [
+       "એમન",
+       "such"
+      ],
+      [
+       "દુર્લ્લભ",
+       "rare"
+      ],
+      [
+       "ધન",
+       "treasure"
+      ],
+      [
+       "પાઇયાછ",
+       "you have obtained"
+      ],
+      [
+       "સર્બજન",
+       "all + people"
+      ],
+      [
+       "જય જય",
+       "all glories, all glorie"
+      ],
+      [
+       "જગન્નાથ",
+       "Jagannātha"
+      ],
+      [
+       "જય",
+       "all glories"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जगन्नाथप्रसादान्न,    बिरिञ्चिशम्भुर मान्य,",
+      "खाइलॆ प्रॆम हइबॆ उदय",
+      "ऎमन दुर्ल्लभ धन,    पाइयाछ सर्बजन,",
+      "जय जय जगन्नाथ जय ३”"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জগন্নাথপ্রসাদান্ন,    বিরিঞ্চিশম্ভুর মান্য,",
+      "খাইলে প্রেম হইবে উদয়",
+      "এমন দুর্ল্লভ ধন,    পাইয়াছ সর্বজন,",
+      "জয় জয় জগন্নাথ জয় ৩”"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜଗନ୍ନାଥପ୍ରସାଦାନ୍ନ,    ବିରିଞ୍ଚିଶମ୍ଭୁର ମାନ୍ୟ,",
+      "ଖାଇଲେ ପ୍ରେମ ହଇବେ ଉଦୟ",
+      "ଏମନ ଦୁର୍ଲ୍ଲଭ ଧନ,    ପାଇୟାଛ ସର୍ବଜନ,",
+      "ଜୟ ଜୟ ଜଗନ୍ନାଥ ଜୟ ୩”"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જગન્નાથપ્રસાદાન્ન,    બિરિઞ્ચિશમ્ભુર માન્ય,",
+      "ખાઇલે પ્રેમ હઇબે ઉદય",
+      "એમન દુર્લ્લભ ધન,    પાઇયાછ સર્બજન,",
+      "જય જય જગન્નાથ જય ૩”"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jagannātha-prasādānna,    biriñci-śambhura mānya,",
+      "khāile prema ha·ibe udaya",
+      "emana durllabha dhana,    pāiyācha sarbajana,",
+      "jaya jaya jagannātha jaya 3”"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜಗನ್ನಾಥಪ್ರಸಾದಾನ್ನ,    ಬಿರಿಂಚಿಶಂಭುರ ಮಾನ್ಯ,",
+      "ಖಾಇಲೆ ಪ್ರೆಮ ಹಇಬೆ ಉದಯ",
+      "ಎಮನ ದುರ್ಲ್ಲಭ ಧನ,    ಪಾಇಯಾಛ ಸರ್ಬಜನ,",
+      "ಜಯ ಜಯ ಜಗನ್ನಾಥ ಜಯ ೩”"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జగన్నాథప్రసాదాన్న,    బిరించిశంభుర మాన్య,",
+      "ఖాఇలె ప్రెమ హఇబె ఉదయ",
+      "ఎమన దుర్ల్లభ ధన,    పాఇయాఛ సర్బజన,",
+      "జయ జయ జగన్నాథ జయ 3”"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джаганна̄тхапраса̄да̄нна,    бирин̃чиш́амбхура ма̄нйа,",
+      "кха̄илэ̆ прэ̆ма хаибэ̆ удайа",
+      "э̆мана дурллабха дхана,    па̄ийа̄чха сарбаджана,",
+      "джайа джайа джаганна̄тха джайа 3”"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജഗന്നാഥപ്രസാദാന്ന,    ബിരിഞ്ചിശംഭുര മാന്യ,",
+      "ഖാഇലെ പ്രെമ ഹഇബെ ഉദയ",
+      "എമന ദുർല്ലഭ ധന,    പാഇയാഛ സർബജന,",
+      "ജയ ജയ ജഗന്നാഥ ജയ 3”"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜக³ந்நாத²ப்ரஸாதா³ன்ன,    பி³ரிஞ்சிஶம்பு⁴ர மான்ய,",
+      "கா²இலெ ப்ரெம ஹஇபெ³ உத³ய",
+      "எமன து³ர்ல்லப⁴ த⁴ன,    பாஇயாச² ஸர்ப³ஜன,",
+      "ஜய ஜய ஜக³ந்நாத² ஜய 3”"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jagannātha-prasādānna,    biriñci-śambhura mānya,",
+      "khāile prema ha·ibe udaya",
+      "emana durllabha dhana,    pāiyācha sarbajana,",
+      "jaya jaya jagannātha jaya 3”"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jagannātha-prasādānna,    biriñci-śambhura mānya,",
+      "khāile prema ha·ibe udaya",
+      "emana durllabha dhana,    pāiyācha sarbajana,",
+      "jaya jaya jagannātha jaya 3”"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "(৫)"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Mahā-prasāda"
+ ]
+}

@@ -1,0 +1,847 @@
+{
+  "uid": "NM14",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ভোজন-লালসে, রসনে আমার"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "bhojana-lālase, rasane āmāra"
+    },
+    {
+      "script_code": "Deva",
+      "text": "भोजन-लालसे, रसने आमार"
+    },
+    {
+      "script_code": "Telu",
+      "text": "భోజన-లాలసే, రసనే ఆమార"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಭೋಜನ-ಲಾಲಸೇ, ರಸನೇ ಆಮಾರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "போ⁴ஜன-லாலஸே, ரஸனே ஆமார"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഭോജന-ലാലസേ, രസനേ ആമാര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ભોજન-લાલસે, રસને આમાર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଭୋଜନ-ଲାଲସେ, ରସନେ ଆମାର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "бходжана-ла̄ласэ, расанэ а̄ма̄ра"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "bhojana[FLAG_HYPHEN_ALPHA]lālase,    rasane āmāra,",
+        "śunaha bidhāna mora",
+        "śrīnāma[FLAG_HYPHEN_ALPHA]yugala,    rāga[FLAG_HYPHEN_ALPHA]sudhārasa,",
+        "khāiyā thākio bhora 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भॊजनलालसॆ,    रसनॆ आमार,",
+            "शुनह बिधान मॊर",
+            "श्रीनामयुगल,    रागसुधारस,",
+            "खाइया थाकिऒ भॊर १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভোজনলালসে,    রসনে আমার,",
+            "শুনহ বিধান মোর",
+            "শ্রীনাময়ুগল,    রাগসুধারস,",
+            "খাইয়া থাকিও ভোর ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭୋଜନଲାଲସେ,    ରସନେ ଆମାର,",
+            "ଶୁନହ ବିଧାନ ମୋର",
+            "ଶ୍ରୀନାମୟୁଗଲ,    ରାଗସୁଧାରସ,",
+            "ଖାଇୟା ଥାକିଓ ଭୋର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભોજનલાલસે,    રસને આમાર,",
+            "શુનહ બિધાન મોર",
+            "શ્રીનામયુગલ,    રાગસુધારસ,",
+            "ખાઇયા થાકિઓ ભોર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhojana-lālase,    rasane āmāra,",
+            "śunaha bidhāna mora",
+            "śrīnāma-yugala,    rāga-sudhārasa,",
+            "khāiyā thākio bhora 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭೊಜನಲಾಲಸೆ,    ರಸನೆ ಆಮಾರ,",
+            "ಶುನಹ ಬಿಧಾನ ಮೊರ",
+            "ಶ್ರೀನಾಮಯುಗಲ,    ರಾಗಸುಧಾರಸ,",
+            "ಖಾಇಯಾ ಥಾಕಿಒ ಭೊರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భొజనలాలసె,    రసనె ఆమార,",
+            "శునహ బిధాన మొర",
+            "శ్రీనామయుగల,    రాగసుధారస,",
+            "ఖాఇయా థాకిఒ భొర 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхо̆джанала̄ласэ̆,    расанэ̆ а̄ма̄ра,",
+            "ш́унаха бидха̄на мо̆ра",
+            "ш́рӣна̄майугала,    ра̄гасудха̄раса,",
+            "кха̄ийа̄ тха̄кио̆ бхо̆ра 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭൊജനലാലസെ,    രസനെ ആമാര,",
+            "ശുനഹ ബിധാന മൊര",
+            "ശ്രീനാമയുഗല,    രാഗസുധാരസ,",
+            "ഖാഇയാ ഥാകിഒ ഭൊര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பொ⁴ஜனலாலஸெ,    ரஸனெ ஆமார,",
+            "ஶுனஹ பி³தா⁴ன மொர",
+            "ஶ்ரீநாமயுக³ல,    ராக³ஸுதா⁴ரஸ,",
+            "கா²இயா தா²கிஒ பொ⁴ர 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhojana-lālase,    rasane āmāra,",
+            "śunaha bidhāna mora",
+            "śrīnāma-yugala,    rāga-sudhārasa,",
+            "khāiyā thākio bhora 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhojana-lālase,    rasane āmāra,",
+            "śunaha bidhāna mora",
+            "śrīnāma-yugala,    rāga-sudhārasa,",
+            "khāiyā thākio bhora 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "nabasundara pīyuṣa rādhikā[FLAG_HYPHEN_ALPHA]nāma",
+        "atimiṣṭa manohara tarpaṇa dhāma 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "नबसुन्दर पीयुष राधिकानाम",
+            "अतिमिष्ट मनॊहर तर्पण धाम २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নবসুন্দর পীয়ুষ রাধিকানাম",
+            "অতিমিষ্ট মনোহর তর্পণ ধাম ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନବସୁନ୍ଦର ପୀୟୁଷ ରାଧିକାନାମ",
+            "ଅତିମିଷ୍ଟ ମନୋହର ତର୍ପଣ ଧାମ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નબસુન્દર પીયુષ રાધિકાનામ",
+            "અતિમિષ્ટ મનોહર તર્પણ ધામ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nabasundara pīyuṣa rādhikā-nāma",
+            "atimiṣṭa manohara tarpaṇa dhāma 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಬಸುಂದರ ಪೀಯುಷ ರಾಧಿಕಾನಾಮ",
+            "ಅತಿಮಿಷ್ಟ ಮನೊಹರ ತರ್ಪಣ ಧಾಮ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నబసుందర పీయుష రాధికానామ",
+            "అతిమిష్ట మనొహర తర్పణ ధామ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "набасундара пӣйуша ра̄дхика̄на̄ма",
+            "атимишт̣а мано̆хара тарпан̣а дха̄ма 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നബസുന്ദര പീയുഷ രാധികാനാമ",
+            "അതിമിഷ്ട മനൊഹര തർപണ ധാമ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நப³ஸுந்த³ர பீயுஷ ராதி⁴காநாம",
+            "அதிமிஷ்ட மனொஹர தர்பண தா⁴ம 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nabasundara pīyuṣa rādhikā-nāma",
+            "atimiṣṭa manohara tarpaṇa dhāma 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nabasundara pīyuṣa rādhikā-nāma",
+            "atimiṣṭa manohara tarpaṇa dhāma 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "kṛṣṇanāma madhurādbhuta gāḓha dugdhe",
+        "atība yatane kara miśrita lubdhe 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "क्ड़्ष्णनाम मधुराद्भुत गाḓह दुग्धॆ",
+            "अतीब यतनॆ कर मिश्रित लुब्धॆ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ক্ড়্ষ্ণনাম মধুরাদ্ভুত গাḓহ দুগ্ধে",
+            "অতীব যতনে কর মিশ্রিত লুব্ধে ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କ୍ଡ଼୍ଷ୍ଣନାମ ମଧୁରାଦ୍ଭୁତ ଗାḓହ ଦୁଗ୍ଧେ",
+            "ଅତୀବ ଯତନେ କର ମିଶ୍ରିତ ଲୁବ୍ଧେ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ક્ડ઼્ષ્ણનામ મધુરાદ્ભુત ગાḓહ દુગ્ધે",
+            "અતીબ યતને કર મિશ્રિત લુબ્ધે ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kṛṣṇanāma madhurādbhuta gāḓha dugdhe",
+            "atība yatane kara miśrita lubdhe 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕ್‌ಡ಼್ಷ್ಣನಾಮ ಮಧುರಾದ್ಭುತ ಗಾḓಹ ದುಗ್ಧೆ",
+            "ಅತೀಬ ಯತನೆ ಕರ ಮಿಶ್ರಿತ ಲುಬ್ಧೆ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "క్డ్ష్ణనామ మధురాద్భుత గాḓహ దుగ్ధె",
+            "అతీబ యతనె కర మిశ్రిత లుబ్ధె 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кр̤шн̣ана̄ма мадхура̄дбхута га̄ḓха дугдхэ̆",
+            "атӣба йатанэ̆ кара миш́рита лубдхэ̆ 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ക്ഡ്ഷ്ണനാമ മധുരാദ്ഭുത ഗാḓഹ ദുഗ്ധെ",
+            "അതീബ യതനെ കര മിശ്രിത ലുബ്ധെ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "க்ஃட்²ஷ்ணநாம மது⁴ராத்³பு⁴த கா³ḓஹ து³க்³தெ⁴",
+            "அதீப³ யதனெ கர மிஶ்ரித லுப்³தெ⁴ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kṛṣṇanāma madhurādbhuta gāḍha dugdhe",
+            "atība yatane kara miśrita lubdhe 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kṛṣṇanāma madhurādbhuta gāḓha dugdhe",
+            "atība yatane kara miśrita lubdhe 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "surabhi rāga, hima ramya tãhi āni’",
+        "aharaha pāna karaha sukha jāni’ 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सुरभि राग, हिम रम्य तंहि आनिऽ",
+            "अहरह पान करह सुख जानिऽ ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সুরভি রাগ, হিম রম্য তংহি আনিঽ",
+            "অহরহ পান করহ সুখ জানিঽ ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସୁରଭି ରାଗ, ହିମ ରମ୍ୟ ତଂହି ଆନିଽ",
+            "ଅହରହ ପାନ କରହ ସୁଖ ଜାନିଽ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સુરભિ રાગ, હિમ રમ્ય તંહિ આનિઽ",
+            "અહરહ પાન કરહ સુખ જાનિઽ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "surabhi rāga, hima ramya tãhi āni’",
+            "aharaha pāna karaha sukha jāni’ 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸುರಭಿ ರಾಗ, ಹಿಮ ರಮ್ಯ ತಂಹಿ ಆನಿಽ",
+            "ಅಹರಹ ಪಾನ ಕರಹ ಸುಖ ಜಾನಿಽ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సురభి రాగ, హిమ రమ్య తంహి ఆనిఽ",
+            "అహరహ పాన కరహ సుఖ జానిఽ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сурабхи ра̄га, хима рамйа там̣хи а̄ни'",
+            "ахараха па̄на караха сукха джа̄ни' 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സുരഭി രാഗ, ഹിമ രമ്യ തംഹി ആനിഽ",
+            "അഹരഹ പാന കരഹ സുഖ ജാനിഽ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸுரபி⁴ ராக³, ஹிம ரம்ய தம்ʼஹி ஆனி(அ)",
+            "அஹரஹ பான கரஹ ஸுக² ஜானி(அ) 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "surabhi rāga, hima ramya tãhi āni’",
+            "aharaha pāna karaha sukha jāni’ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "surabhi rāga, hima ramya tãhi āni’",
+            "aharaha pāna karaha sukha jāni’ 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "nāhi rabe rasane prākṛta pipāsā",
+        "adbhuta rasa tuyā pūrāoba āśā 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "नाहि रबॆ रसनॆ प्राक्ड़्त पिपासा",
+            "अद्भुत रस तुया पूराऒब आशा ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নাহি রবে রসনে প্রাক্ড়্ত পিপাসা",
+            "অদ্ভুত রস তুয়া পূরাওব আশা ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନାହି ରବେ ରସନେ ପ୍ରାକ୍ଡ଼୍ତ ପିପାସା",
+            "ଅଦ୍ଭୁତ ରସ ତୁୟା ପୂରାଓବ ଆଶା ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નાહિ રબે રસને પ્રાક્ડ઼્ત પિપાસા",
+            "અદ્ભુત રસ તુયા પૂરાઓબ આશા ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nāhi rabe rasane prākṛta pipāsā",
+            "adbhuta rasa tuyā pūrāoba āśā 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಾಹಿ ರಬೆ ರಸನೆ ಪ್ರಾಕ್‌ಡ಼್ತ ಪಿಪಾಸಾ",
+            "ಅದ್ಭುತ ರಸ ತುಯಾ ಪೂರಾಒಬ ಆಶಾ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నాహి రబె రసనె ప్రాక్డ్త పిపాసా",
+            "అద్భుత రస తుయా పూరాఒబ ఆశా 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "на̄хи рабэ̆ расанэ̆ пра̄кр̤та пипа̄са̄",
+            "адбхута раса туйа̄ пӯра̄о̆ба а̄ш́а̄ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നാഹി രബെ രസനെ പ്രാക്ഡ്ത പിപാസാ",
+            "അദ്ഭുത രസ തുയാ പൂരാഒബ ആശാ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நாஹி ரபெ³ ரஸனெ ப்ராக்ஃட்²த பிபாஸா",
+            "அத்³பு⁴த ரஸ துயா பூராஒப³ ஆஶா 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nāhi rabe rasane prākṛta pipāsā",
+            "adbhuta rasa tuyā pūrāoba āśā 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nāhi rabe rasane prākṛta pipāsā",
+            "adbhuta rasa tuyā pūrāoba āśā 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "dāsa[FLAG_HYPHEN_ALPHA]raghunātha[FLAG_HYPHEN_ALPHA]pade bhaktibinoda",
+        "yāca·i rādhākṛṣṇa[FLAG_HYPHEN_ALPHA]nāma pramoda 6"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "दासरघुनाथपदॆ भक्तिबिनॊद",
+            "याचइ राधाक्ड़्ष्णनाम प्रमॊद ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "দাসরঘুনাথপদে ভক্তিবিনোদ",
+            "যাচই রাধাক্ড়্ষ্ণনাম প্রমোদ ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଦାସରଘୁନାଥପଦେ ଭକ୍ତିବିନୋଦ",
+            "ଯାଚଇ ରାଧାକ୍ଡ଼୍ଷ୍ଣନାମ ପ୍ରମୋଦ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "દાસરઘુનાથપદે ભક્તિબિનોદ",
+            "યાચઇ રાધાક્ડ઼્ષ્ણનામ પ્રમોદ ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "dāsa-raghunātha-pade bhaktibinoda",
+            "yāca·i rādhākṛṣṇa-nāma pramoda 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ದಾಸರಘುನಾಥಪದೆ ಭಕ್ತಿಬಿನೊದ",
+            "ಯಾಚಇ ರಾಧಾಕ್‌ಡ಼್ಷ್ಣನಾಮ ಪ್ರಮೊದ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "దాసరఘునాథపదె భక్తిబినొద",
+            "యాచఇ రాధాక్డ్ష్ణనామ ప్రమొద 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "да̄сарагхуна̄тхападэ̆ бхактибино̆да",
+            "йа̄чаи ра̄дха̄кр̤шн̣ана̄ма прамо̆да 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ദാസരഘുനാഥപദെ ഭക്തിബിനൊദ",
+            "യാചഇ രാധാക്ഡ്ഷ്ണനാമ പ്രമൊദ 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தா³ஸரகு⁴நாத²பதெ³ ப⁴க்திபி³னொத³",
+            "யாசஇ ராதா⁴க்ஃட்²ஷ்ணநாம ப்ரமொத³ 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "dāsa-raghunātha-pade bhaktibinoda",
+            "yāca·i rādhākṛṣṇa-nāma pramoda 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "dāsa-raghunātha-pade bhaktibinoda",
+            "yāca·i rādhākṛṣṇa-nāma pramoda 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "śabdārthaḥ[FLAG_HYPHEN_ALPHA] rasane—he jihbā; pīyuṣa—amṛta; lubdhe—he lubhitā; hima—karpūra; ramya—ramaṇīya"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "शब्दार्थः रसनॆ—हॆ जिह्बा; पीयुष—अम्ड़्त; लुब्धॆ—हॆ लुभिता; हिम—कर्पूर; रम्य—रमणीय"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শব্দার্থঃ রসনে—হে জিহ্বা; পীয়ুষ—অম্ড়্ত; লুব্ধে—হে লুভিতা; হিম—কর্পূর; রম্য—রমণীয়"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶବ୍ଦାର୍ଥଃ ରସନେ—ହେ ଜିହ୍ବା; ପୀୟୁଷ—ଅମ୍ଡ଼୍ତ; ଲୁବ୍ଧେ—ହେ ଲୁଭିତା; ହିମ—କର୍ପୂର; ରମ୍ୟ—ରମଣୀୟ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શબ્દાર્થઃ રસને—હે જિહ્બા; પીયુષ—અમ્ડ઼્ત; લુબ્ધે—હે લુભિતા; હિમ—કર્પૂર; રમ્ય—રમણીય"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śabdārthaḥ- rasane—he jihbā; pīyuṣa—amṛta; lubdhe—he lubhitā; hima—karpūra; ramya—ramaṇīya"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶಬ್ದಾರ್ಥಃ ರಸನೆ—ಹೆ ಜಿಹ್ಬಾ; ಪೀಯುಷ—ಅಂ‌ಡ಼್ತ; ಲುಬ್ಧೆ—ಹೆ ಲುಭಿತಾ; ಹಿಮ—ಕರ್ಪೂರ; ರಮ್ಯ—ರಮಣೀಯ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శబ్దార్థః రసనె—హె జిహ్బా; పీయుష—అమ్డ్త; లుబ్ధె—హె లుభితా; హిమ—కర్పూర; రమ్య—రమణీయ"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́абда̄ртхах̣ расанэ̆—хэ̆ джихба̄; пӣйуша—амр̤та; лубдхэ̆—хэ̆ лубхита̄; хима—карпӯра; рамйа—раман̣ӣйа"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശബ്ദാർഥഃ രസനെ—ഹെ ജിഹ്ബാ; പീയുഷ—അമ്ഡ്ത; ലുബ്ധെ—ഹെ ലുഭിതാ; ഹിമ—കർപൂര; രമ്യ—രമണീയ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶப்³தா³ர்த²꞉ ரஸனெ—ஹெ ஜிஹ்பா³; பீயுஷ—அம்ஃட்²த; லுப்³தெ⁴—ஹெ லுபி⁴தா; ஹிம—கர்பூர; ரம்ய—ரமணீய"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śabdārthaḥ- rasane—he jihbā; pīyuṣa—amṛta; lubdhe—he lubhitā; hima—karpūra; ramya—ramaṇīya"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śabdārthaḥ- rasane—he jihbā; pīyuṣa—amṛta; lubdhe—he lubhitā; hima—karpūra; ramya—ramaṇīya"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Śrī Nāma-mahimā"
+  ]
+}

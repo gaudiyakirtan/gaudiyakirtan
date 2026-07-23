@@ -1,0 +1,767 @@
+{
+  "uid": "K35",
+  "language_of_origin": "san",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "জয় জয় সুন্দর নন্দ-কুমার"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "jaya jaya sundara nanda-kumāra"
+    },
+    {
+      "script_code": "Deva",
+      "text": "जय जय सुन्दर नन्द-कुमार"
+    },
+    {
+      "script_code": "Telu",
+      "text": "జయ జయ సుందర నంద-కుమార"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಜಯ ಜಯ ಸುಂದರ ನಂದ-ಕುಮಾರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஜய ஜய ஸுந்த³ர நந்த³-குமார"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ജയ ജയ സുന്ദര നന്ദ-കുമാര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "જય જય સુન્દર નન્દ-કુમાર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଜୟ ଜୟ ସୁନ୍ଦର ନନ୍ଦ-କୁମାର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "джайа джайа сундара нанда-кума̄ра"
+    }
+  ],
+  "author_uid": "rg",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল রূপ গোস্ৱামী"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Rūpa Gosvāmī"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील रूप गोस्वामी"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల రూప గోస్వామీ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ರೂಪ ಗೋಸ್ವಾಮೀ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ரூப கோ³ஸ்வாமீ"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല രൂപ ഗോസ്വാമീ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ રૂપ ગોસ્વામી"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ରୂପ ଗୋସ୍ୱାମୀ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла рӯпа госва̄мӣ"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "jaya jaya sundara nanda[FLAG_HYPHEN_ALPHA]kumāra",
+        "saurabha[FLAG_HYPHEN_ALPHA]saṅkaṭa[FLAG_HYPHEN_ALPHA],    vṛndāvana[FLAG_HYPHEN_ALPHA]taṭa[FLAG_HYPHEN_ALPHA],",
+        "vihita[FLAG_HYPHEN_ALPHA]vasanta[FLAG_HYPHEN_ALPHA]vihāra dhru"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to You, O beautiful son of Nanda! You perform spring­time pastimes on the river banks of Vṛndāvana, which is full of fragrance."
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय सुन्दर नन्दकुमार",
+            "सौरभसङ्कट,    व्ड़्न्दावनतट,",
+            "विहितवसन्तविहार ध्रु"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় সুন্দর নন্দকুমার",
+            "সৌরভসঙ্কট,    ব্ড়্ন্দাবনতট,",
+            "বিহিতবসন্তবিহার ধ্রু"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ସୁନ୍ଦର ନନ୍ଦକୁମାର",
+            "ସୌରଭସଙ୍କଟ,    ବ୍ଡ଼୍ନ୍ଦାବନତଟ,",
+            "ବିହିତବସନ୍ତବିହାର ଧ୍ରୁ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય સુન્દર નન્દકુમાર",
+            "સૌરભસઙ્કટ,    વ્ડ઼્ન્દાવનતટ,",
+            "વિહિતવસન્તવિહાર ધ્રુ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya sundara nanda-kumāra",
+            "saurabha-saṅkaṭa-,    vṛndāvana-taṭa-,",
+            "vihita-vasanta-vihāra dhru"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ಸುಂದರ ನಂದಕುಮಾರ",
+            "ಸೌರಭಸಂಕಟ,    ವ್‌ಡ಼್ನ್ದಾವನತಟ,",
+            "ವಿಹಿತವಸಂತವಿಹಾರ ಧ್ರು"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ సుందర నందకుమార",
+            "సౌరభసంకట,    వ్డ్న్దావనతట,",
+            "విహితవసంతవిహార ధ్రు"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа сундара нандакума̄ра",
+            "саурабхасан̇кат̣а,    вр̤нда̄ванатат̣а,",
+            "вихитавасантавиха̄ра дхру"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ സുന്ദര നന്ദകുമാര",
+            "സൗരഭസങ്കട,    വ്ഡ്ന്ദാവനതട,",
+            "വിഹിതവസന്തവിഹാര ധ്രു"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ஸுந்த³ர நந்த³குமார",
+            "ஸௌரப⁴ஸங்கட,    வ்ஃட்²ந்தா³வனதட,",
+            "விஹிதவஸந்தவிஹார த்⁴ரு"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya sundara nanda-kumāra",
+            "saurabha-saṅkaṭa-,    vṛndāvana-taṭa-,",
+            "vihita-vasanta-vihāra dhru"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya sundara nanda-kumāra",
+            "saurabha-saṅkaṭa-,    vṛndāvana-taṭa-,",
+            "vihita-vasanta-vihāra dhru"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "abhinava[FLAG_HYPHEN_ALPHA]kuṭ‌mala[FLAG_HYPHEN_ALPHA],    guccha[FLAG_HYPHEN_ALPHA]samujjvala[FLAG_HYPHEN_ALPHA],",
+        "kuñcita[FLAG_HYPHEN_ALPHA]kuntala[FLAG_HYPHEN_ALPHA]bhāra",
+        "praṇayi[FLAG_HYPHEN_ALPHA]janerita[FLAG_HYPHEN_ALPHA],    vandana[FLAG_HYPHEN_ALPHA]sahakṛta[FLAG_HYPHEN_ALPHA],",
+        "cūrṇita[FLAG_HYPHEN_ALPHA]vara[FLAG_HYPHEN_ALPHA]ghanasāra 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Your mass of curling locks is adorned brilliantly with a bunch of fresh blossoms. You are decorated with colored powders, mixed with camphor, that are thrown by Your beloveds."
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अभिनवकुट्‌मल,    गुच्छसमुज्ज्वल,",
+            "कुञ्चितकुन्तलभार",
+            "प्रणयिजनॆरित,    वन्दनसहक्ड़्त,",
+            "चूर्णितवरघनसार १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অভিনবকুট্‌মল,    গুচ্ছসমুজ্জ্বল,",
+            "কুঞ্চিতকুন্তলভার",
+            "প্রণয়িজনেরিত,    বন্দনসহক্ড়্ত,",
+            "চূর্ণিতবরঘনসার ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅଭିନବକୁଟ୍‌ମଲ,    ଗୁଚ୍ଛସମୁଜ୍ଜ୍ୱଲ,",
+            "କୁଞ୍ଚିତକୁନ୍ତଲଭାର",
+            "ପ୍ରଣୟିଜନେରିତ,    ବନ୍ଦନସହକ୍ଡ଼୍ତ,",
+            "ଚୂର୍ଣିତବରଘନସାର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અભિનવકુટ્‌મલ,    ગુચ્છસમુજ્જ્વલ,",
+            "કુઞ્ચિતકુન્તલભાર",
+            "પ્રણયિજનેરિત,    વન્દનસહક્ડ઼્ત,",
+            "ચૂર્ણિતવરઘનસાર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "abhinava-kuṭ‌mala-,    guccha-samujjvala-,",
+            "kuñcita-kuntala-bhāra",
+            "praṇayi-janerita-,    vandana-sahakṛta-,",
+            "cūrṇita-vara-ghanasāra 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅಭಿನವಕುಟ್‌ಮಲ,    ಗುಚ್ಛಸಮುಜ್ಜ್ವಲ,",
+            "ಕುಂಚಿತಕುಂತಲಭಾರ",
+            "ಪ್ರಣಯಿಜನೆರಿತ,    ವಂದನಸಹಕ್‌ಡ಼್ತ,",
+            "ಚೂರ್ಣಿತವರಘನಸಾರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అభినవకుట్‌మల,    గుచ్ఛసముజ్జ్వల,",
+            "కుంచితకుంతలభార",
+            "ప్రణయిజనెరిత,    వందనసహక్డ్త,",
+            "చూర్ణితవరఘనసార 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "абхинавакут̣‌мала,    гуччхасамуджджвала,",
+            "кун̃читакунталабха̄ра",
+            "пран̣айиджанэ̆рита,    ванданасахакр̤та,",
+            "чӯрн̣итаварагханаса̄ра 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അഭിനവകുട്‌മല,    ഗുച്ഛസമുജ്ജ്വല,",
+            "കുഞ്ചിതകുന്തലഭാര",
+            "പ്രണയിജനെരിത,    വന്ദനസഹക്ഡ്ത,",
+            "ചൂർണിതവരഘനസാര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அபி⁴னவகுட்‌மல,    கு³ச்ச²ஸமுஜ்ஜ்வல,",
+            "குஞ்சிதகுந்தலபா⁴ர",
+            "ப்ரணயிஜனெரித,    வந்த³னஸஹக்ஃட்²த,",
+            "சூர்ணிதவரக⁴னஸார 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "abhinava-kuṭ‌mala-,    guccha-samujjvala-,",
+            "kuñcita-kuntala-bhāra",
+            "praṇayi-janerita-,    vandana-sahakṛta-,",
+            "cūrṇita-vara-ghanasāra 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "abhinava-kuṭ‌mala-,    guccha-samujjvala-,",
+            "kuñcita-kuntala-bhāra",
+            "praṇayi-janerita-,    vandana-sahakṛta-,",
+            "cūrṇita-vara-ghanasāra 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "caṭula[FLAG_HYPHEN_ALPHA]digañcala[FLAG_HYPHEN_ALPHA],    racita[FLAG_HYPHEN_ALPHA]rasocchala[FLAG_HYPHEN_ALPHA],",
+        "rādhā[FLAG_HYPHEN_ALPHA]madana[FLAG_HYPHEN_ALPHA]vikāra",
+        "bhuvana[FLAG_HYPHEN_ALPHA]vimohana[FLAG_HYPHEN_ALPHA],    mañjula[FLAG_HYPHEN_ALPHA]nartana,",
+        "gati[FLAG_HYPHEN_ALPHA]valgita[FLAG_HYPHEN_ALPHA]maṇihāra 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Your restless, sidelong glance causes anurāgiṇī Śrī Rādhā to undergo ecstatic transformations of amorous love. Your lovely dancing gait, which enchants the entire universe, causes Your jeweled necklace to sway to and fro."
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "चटुलदिगञ्चल,    रचितरसॊच्छल,",
+            "राधामदनविकार",
+            "भुवनविमॊहन,    मञ्जुलनर्तन,",
+            "गतिवल्गितमणिहार २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "চটুলদিগঞ্চল,    রচিতরসোচ্ছল,",
+            "রাধামদনবিকার",
+            "ভুবনবিমোহন,    মঞ্জুলনর্তন,",
+            "গতিবল্গিতমণিহার ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଚଟୁଲଦିଗଞ୍ଚଲ,    ରଚିତରସୋଚ୍ଛଲ,",
+            "ରାଧାମଦନବିକାର",
+            "ଭୁବନବିମୋହନ,    ମଞ୍ଜୁଲନର୍ତନ,",
+            "ଗତିବଲ୍ଗିତମଣିହାର ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ચટુલદિગઞ્ચલ,    રચિતરસોચ્છલ,",
+            "રાધામદનવિકાર",
+            "ભુવનવિમોહન,    મઞ્જુલનર્તન,",
+            "ગતિવલ્ગિતમણિહાર ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "caṭula-digañcala-,    racita-rasocchala-,",
+            "rādhā-madana-vikāra",
+            "bhuvana-vimohana-,    mañjula-nartana,",
+            "gati-valgita-maṇihāra 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಚಟುಲದಿಗಂಚಲ,    ರಚಿತರಸೊಚ್ಛಲ,",
+            "ರಾಧಾಮದನವಿಕಾರ",
+            "ಭುವನವಿಮೊಹನ,    ಮಂಜುಲನರ್ತನ,",
+            "ಗತಿವಲ್ಗಿತಮಣಿಹಾರ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "చటులదిగంచల,    రచితరసొచ్ఛల,",
+            "రాధామదనవికార",
+            "భువనవిమొహన,    మంజులనర్తన,",
+            "గతివల్గితమణిహార 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "чат̣уладиган̃чала,    рачитарасо̆ччхала,",
+            "ра̄дха̄маданавика̄ра",
+            "бхуванавимо̆хана,    ман̃джуланартана,",
+            "гативалгитаман̣иха̄ра 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ചടുലദിഗഞ്ചല,    രചിതരസൊച്ഛല,",
+            "രാധാമദനവികാര",
+            "ഭുവനവിമൊഹന,    മഞ്ജുലനർതന,",
+            "ഗതിവൽഗിതമണിഹാര 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "சடுலதி³க³ஞ்சல,    ரசிதரஸொச்ச²ல,",
+            "ராதா⁴மத³னவிகார",
+            "பு⁴வனவிமொஹன,    மஞ்ஜுலனர்தன,",
+            "க³திவல்கி³தமணிஹார 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "caṭula-digañcala-,    racita-rasocchala-,",
+            "rādhā-madana-vikāra",
+            "bhuvana-vimohana-,    mañjula-nartana,",
+            "gati-valgita-maṇihāra 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "caṭula-digañcala-,    racita-rasocchala-,",
+            "rādhā-madana-vikāra",
+            "bhuvana-vimohana-,    mañjula-nartana,",
+            "gati-valgita-maṇihāra 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "adhara[FLAG_HYPHEN_ALPHA]virājita[FLAG_HYPHEN_ALPHA],    mandatara[FLAG_HYPHEN_ALPHA]smita[FLAG_HYPHEN_ALPHA],",
+        "lobhita[FLAG_HYPHEN_ALPHA]nija[FLAG_HYPHEN_ALPHA]parivāra",
+        "nija[FLAG_HYPHEN_ALPHA]vallavajana[FLAG_HYPHEN_ALPHA],    suhṛt[FLAG_HYPHEN_ALPHA]sanātana[FLAG_HYPHEN_ALPHA],",
+        "cittaviharadavatāra 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "The dazzling, gentle smile upon Your lips incites eagerness in Your near and dear associates. You are the well-wisher of Your dear ones, and You perpetually descend to engage in festive sport within their hearts [or within the heart of Sanātana Gosvāmī]."
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अधरविराजित,    मन्दतरस्मित,",
+            "लॊभितनिजपरिवार",
+            "निजवल्लवजन,    सुह्ड़्त्सनातन,",
+            "चित्तविहरदवतार ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অধরবিরাজিত,    মন্দতরস্মিত,",
+            "লোভিতনিজপরিবার",
+            "নিজবল্লবজন,    সুহ্ড়্ত্সনাতন,",
+            "চিত্তবিহরদবতার ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅଧରବିରାଜିତ,    ମନ୍ଦତରସ୍ମିତ,",
+            "ଲୋଭିତନିଜପରିବାର",
+            "ନିଜବଲ୍ଲବଜନ,    ସୁହ୍ଡ଼୍ତ୍ସନାତନ,",
+            "ଚିତ୍ତବିହରଦବତାର ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અધરવિરાજિત,    મન્દતરસ્મિત,",
+            "લોભિતનિજપરિવાર",
+            "નિજવલ્લવજન,    સુહ્ડ઼્ત્સનાતન,",
+            "ચિત્તવિહરદવતાર ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "adhara-virājita-,    mandatara-smita-,",
+            "lobhita-nija-parivāra",
+            "nija-vallavajana-,    suhṛt-sanātana-,",
+            "cittaviharadavatāra 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅಧರವಿರಾಜಿತ,    ಮಂದತರಸ್ಮಿತ,",
+            "ಲೊಭಿತನಿಜಪರಿವಾರ",
+            "ನಿಜವಲ್ಲವಜನ,    ಸುಹ್‌ಡ಼್ತ್ಸನಾತನ,",
+            "ಚಿತ್ತವಿಹರದವತಾರ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అధరవిరాజిత,    మందతరస్మిత,",
+            "లొభితనిజపరివార",
+            "నిజవల్లవజన,    సుహ్డ్త్సనాతన,",
+            "చిత్తవిహరదవతార 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "адхаравира̄джита,    мандатарасмита,",
+            "ло̆бхитаниджапарива̄ра",
+            "ниджаваллаваджана,    сухр̤тсана̄тана,",
+            "читтавихарадавата̄ра 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അധരവിരാജിത,    മന്ദതരസ്മിത,",
+            "ലൊഭിതനിജപരിവാര",
+            "നിജവല്ലവജന,    സുഹ്ഡ്ത്സനാതന,",
+            "ചിത്തവിഹരദവതാര 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அத⁴ரவிராஜித,    மந்த³தரஸ்மித,",
+            "லொபி⁴தநிஜபரிவார",
+            "நிஜவல்லவஜன,    ஸுஹ்ஃட்²த்ஸனாதன,",
+            "சித்தவிஹரத³வதார 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "adhara-virājita-,    mandatara-smita-,",
+            "lobhita-nija-parivāra",
+            "nija-vallavajana-,    suhṛt-sanātana-,",
+            "cittaviharadavatāra 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "adhara-virājita-,    mandatara-smita-,",
+            "lobhita-nija-parivāra",
+            "nija-vallavajana-,    suhṛt-sanātana-,",
+            "cittaviharadavatāra 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "(śrīla rūpa gosvāmī)"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "(श्रील रूप गॊस्वामी)"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "(শ্রীল রূপ গোস্বামী)"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "(ଶ୍ରୀଲ ରୂପ ଗୋସ୍ୱାମୀ)"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "(શ્રીલ રૂપ ગોસ્વામી)"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "(śrīla rūpa gosvāmī)"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "(ಶ್ರೀಲ ರೂಪ ಗೊಸ್ವಾಮೀ)"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "(శ్రీల రూప గొస్వామీ)"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "(ш́рӣла рӯпа го̆сва̄мӣ)"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "(ശ്രീല രൂപ ഗൊസ്വാമീ)"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "(ஶ்ரீல ரூப கொ³ஸ்வாமீ)"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "(śrīla rūpa gosvāmī)"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "(śrīla rūpa gosvāmī)"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "(ৱসন্ত রাগ)"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "hakr-1",
+      "filename": "K35-hakr-1.mp3",
+      "artist": "Hare Krsna das"
+    },
+    {
+      "uid": "krsn-1",
+      "filename": "K35-krsn-1.mp3",
+      "artist": "Krsnadas das"
+    },
+    {
+      "uid": "krsn-2",
+      "filename": "K35-krsn-2.mp3",
+      "artist": "Krsnadas das"
+    },
+    {
+      "uid": "pare-1",
+      "filename": "K35-pare-1.mp3",
+      "artist": "pare"
+    },
+    {
+      "uid": "rasi-1",
+      "filename": "K35-rasi-1.mp3",
+      "artist": "rasi"
+    },
+    {
+      "uid": "srrb-1",
+      "filename": "K35-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    }
+  ]
+}

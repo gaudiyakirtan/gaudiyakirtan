@@ -1,0 +1,561 @@
+{
+ "uid": "PT14",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীঅদ্বৈতাবির্ভাব-লীলা"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "śrīadbaitābirbhāba-līlā"
+  }
+ ],
+ "author_uid": "ঘনশ্যাম দাস",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "ঘনশ্যাম দাস"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Ghanaśyāma dāsa"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "māghe śuklā[FLAG_HYPHEN_ALPHA]tithi,    saptamīte ati,",
+    "uthalāya mahā ānanda[FLAG_HYPHEN_ALPHA]sindhu",
+    "nābhāgarbha dhanya,    kari’ abatīrṇa,",
+    "haila śubhakṣaṇe adbaita[FLAG_HYPHEN_ALPHA]indu 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "माघॆ शुक्लातिथि,    सप्तमीतॆ अति,",
+      "उथलाय महा आनन्दसिन्धु",
+      "नाभागर्भ धन्य,    करिऽ अबतीर्ण,",
+      "हैल शुभक्षणॆ अद्बैतैन्दु १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মাঘে শুক্লাতিথি,    সপ্তমীতে অতি,",
+      "উথলায় মহা আনন্দসিন্ধু",
+      "নাভাগর্ভ ধন্য,    করিঽ অবতীর্ণ,",
+      "হৈল শুভক্ষণে অদ্বৈতৈন্দু ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମାଘେ ଶୁକ୍ଲାତିଥି,    ସପ୍ତମୀତେ ଅତି,",
+      "ଉଥଲାୟ ମହା ଆନନ୍ଦସିନ୍ଧୁ",
+      "ନାଭାଗର୍ଭ ଧନ୍ୟ,    କରିଽ ଅବତୀର୍ଣ,",
+      "ହୈଲ ଶୁଭକ୍ଷଣେ ଅଦ୍ବୈତୈନ୍ଦୁ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "માઘે શુક્લાતિથિ,    સપ્તમીતે અતિ,",
+      "ઉથલાય મહા આનન્દસિન્ધુ",
+      "નાભાગર્ભ ધન્ય,    કરિઽ અબતીર્ણ,",
+      "હૈલ શુભક્ષણે અદ્બૈતૈન્દુ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "māghe śuklā-tithi,    saptamīte ati,",
+      "uthalāya mahā ānanda-sindhu",
+      "nābhāgarbha dhanya,    kari’ abatīrṇa,",
+      "haila śubhakṣaṇe adbaita-indu 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಾಘೆ ಶುಕ್ಲಾತಿಥಿ,    ಸಪ್ತಮೀತೆ ಅತಿ,",
+      "ಉಥಲಾಯ ಮಹಾ ಆನಂದಸಿಂಧು",
+      "ನಾಭಾಗರ್ಭ ಧನ್ಯ,    ಕರಿಽ ಅಬತೀರ್ಣ,",
+      "ಹೈಲ ಶುಭಕ್ಷಣೆ ಅದ್ಬೈತೈಂದು ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మాఘె శుక్లాతిథి,    సప్తమీతె అతి,",
+      "ఉథలాయ మహా ఆనందసింధు",
+      "నాభాగర్భ ధన్య,    కరిఽ అబతీర్ణ,",
+      "హైల శుభక్షణె అద్బైతైందు 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ма̄гхэ̆ ш́укла̄титхи,    саптамӣтэ̆ ати,",
+      "утхала̄йа маха̄ а̄нандасиндху",
+      "на̄бха̄гарбха дханйа,    кари' абатӣрн̣а,",
+      "хаила ш́убхакшан̣э̆ адбаитаинду 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മാഘെ ശുക്ലാതിഥി,    സപ്തമീതെ അതി,",
+      "ഉഥലായ മഹാ ആനന്ദസിന്ധു",
+      "നാഭാഗർഭ ധന്യ,    കരിഽ അബതീർണ,",
+      "ഹൈല ശുഭക്ഷണെ അദ്ബൈതൈന്ദു 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மாகெ⁴ ஶுக்லாதிதி²,    ஸப்தமீதெ அதி,",
+      "உத²லாய மஹா ஆனந்த³ஸிந்து⁴",
+      "நாபா⁴க³ர்ப⁴ த⁴ன்ய,    கரி(அ) அப³தீர்ண,",
+      "ஹைல ஶுப⁴க்ஷணெ அத்³பை³தைந்து³ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "māghe śuklā-tithi,    saptamīte ati,",
+      "uthalāya mahā ānanda-sindhu",
+      "nābhāgarbha dhanya,    kari’ abatīrṇa,",
+      "haila śubhakṣaṇe adbaita-indu 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "māghe śuklā-tithi,    saptamīte ati,",
+      "uthalāya mahā ānanda-sindhu",
+      "nābhāgarbha dhanya,    kari’ abatīrṇa,",
+      "haila śubhakṣaṇe adbaita-indu 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "kubera paṇḍita,    haiyā haraṣita,",
+    "nānā dāna dbija[FLAG_HYPHEN_ALPHA]daridra diyā",
+    "sūtikā[FLAG_HYPHEN_ALPHA]mandire,    giyā dhīre dhīre,",
+    "dekhi’ putramukha juḓāya hiyā 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कुबॆर पण्डित,    हैया हरषित,",
+      "नाना दान द्बिजदरिद्र दिया",
+      "सूतिकामन्दिरॆ,    गिया धीरॆ धीरॆ,",
+      "दॆखिऽ पुत्रमुख जुḓआय हिया २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কুবের পণ্ডিত,    হৈয়া হরষিত,",
+      "নানা দান দ্বিজদরিদ্র দিয়া",
+      "সূতিকামন্দিরে,    গিয়া ধীরে ধীরে,",
+      "দেখিঽ পুত্রমুখ জুḓআয় হিয়া ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କୁବେର ପଣ୍ଡିତ,    ହୈୟା ହରଷିତ,",
+      "ନାନା ଦାନ ଦ୍ବିଜଦରିଦ୍ର ଦିୟା",
+      "ସୂତିକାମନ୍ଦିରେ,    ଗିୟା ଧୀରେ ଧୀରେ,",
+      "ଦେଖିଽ ପୁତ୍ରମୁଖ ଜୁḓଆୟ ହିୟା ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કુબેર પણ્ડિત,    હૈયા હરષિત,",
+      "નાના દાન દ્બિજદરિદ્ર દિયા",
+      "સૂતિકામન્દિરે,    ગિયા ધીરે ધીરે,",
+      "દેખિઽ પુત્રમુખ જુḓઆય હિયા ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kubera paṇḍita,    haiyā haraṣita,",
+      "nānā dāna dbija-daridra diyā",
+      "sūtikā-mandire,    giyā dhīre dhīre,",
+      "dekhi’ putramukha juḓāya hiyā 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕುಬೆರ ಪಂಡಿತ,    ಹೈಯಾ ಹರಷಿತ,",
+      "ನಾನಾ ದಾನ ದ್ಬಿಜದರಿದ್ರ ದಿಯಾ",
+      "ಸೂತಿಕಾಮಂದಿರೆ,    ಗಿಯಾ ಧೀರೆ ಧೀರೆ,",
+      "ದೆಖಿಽ ಪುತ್ರಮುಖ ಜುḓಆಯ ಹಿಯಾ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కుబెర పండిత,    హైయా హరషిత,",
+      "నానా దాన ద్బిజదరిద్ర దియా",
+      "సూతికామందిరె,    గియా ధీరె ధీరె,",
+      "దెఖిఽ పుత్రముఖ జుḓఆయ హియా 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кубэ̆ра пан̣д̣ита,    хаийа̄ харашита,",
+      "на̄на̄ да̄на дбиджадаридра дийа̄",
+      "сӯтика̄мандирэ̆,    гийа̄ дхӣрэ̆ дхӣрэ̆,",
+      "дэ̆кхи' путрамукха джуḓа̄йа хийа̄ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കുബെര പണ്ഡിത,    ഹൈയാ ഹരഷിത,",
+      "നാനാ ദാന ദ്ബിജദരിദ്ര ദിയാ",
+      "സൂതികാമന്ദിരെ,    ഗിയാ ധീരെ ധീരെ,",
+      "ദെഖിഽ പുത്രമുഖ ജുḓആയ ഹിയാ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "குபெ³ர பண்டி³த,    ஹையா ஹரஷித,",
+      "நானா தா³ன த்³பி³ஜத³ரித்³ர தி³யா",
+      "ஸூதிகாமந்தி³ரெ,    கி³யா தீ⁴ரெ தீ⁴ரெ,",
+      "தெ³கி²(அ) புத்ரமுக² ஜுḓஆய ஹியா 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kubera paṇḍita,    haiyā haraṣita,",
+      "nānā dāna dbija-daridra diyā",
+      "sūtikā-mandire,    giyā dhīre dhīre,",
+      "dekhi’ putramukha juḍāya hiyā 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kubera paṇḍita,    haiyā haraṣita,",
+      "nānā dāna dbija-daridra diyā",
+      "sūtikā-mandire,    giyā dhīre dhīre,",
+      "dekhi’ putramukha juḓāya hiyā 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "nabagrāmabāsī,    loka dhā’yā āsi’,",
+    "paraspara kahe—nā dekhi hena",
+    "kibā puṇyaphale,    miśra bṛddhakāle,",
+    "pāilena putraratana yena 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "नबग्रामबासी,    लॊक धाऽया आसिऽ,",
+      "परस्पर कहॆ—ना दॆखि हॆन",
+      "किबा पुण्यफलॆ,    मिश्र ब्ड़्द्धकालॆ,",
+      "पाइलॆन पुत्ररतन यॆन ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নবগ্রামবাসী,    লোক ধাঽয়া আসিঽ,",
+      "পরস্পর কহে—না দেখি হেন",
+      "কিবা পুণ্যফলে,    মিশ্র ব্ড়্দ্ধকালে,",
+      "পাইলেন পুত্ররতন যেন ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନବଗ୍ରାମବାସୀ,    ଲୋକ ଧାଽୟା ଆସିଽ,",
+      "ପରସ୍ପର କହେ—ନା ଦେଖି ହେନ",
+      "କିବା ପୁଣ୍ୟଫଲେ,    ମିଶ୍ର ବ୍ଡ଼୍ଦ୍ଧକାଲେ,",
+      "ପାଇଲେନ ପୁତ୍ରରତନ ଯେନ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નબગ્રામબાસી,    લોક ધાઽયા આસિઽ,",
+      "પરસ્પર કહે—ના દેખિ હેન",
+      "કિબા પુણ્યફલે,    મિશ્ર બ્ડ઼્દ્ધકાલે,",
+      "પાઇલેન પુત્રરતન યેન ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nabagrāmabāsī,    loka dhā’yā āsi’,",
+      "paraspara kahe—nā dekhi hena",
+      "kibā puṇyaphale,    miśra bṛddhakāle,",
+      "pāilena putraratana yena 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಬಗ್ರಾಮಬಾಸೀ,    ಲೊಕ ಧಾಽಯಾ ಆಸಿಽ,",
+      "ಪರಸ್ಪರ ಕಹೆ—ನಾ ದೆಖಿ ಹೆನ",
+      "ಕಿಬಾ ಪುಣ್ಯಫಲೆ,    ಮಿಶ್ರ ಬ್‌ಡ಼್ದ್ಧಕಾಲೆ,",
+      "ಪಾಇಲೆನ ಪುತ್ರರತನ ಯೆನ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నబగ్రామబాసీ,    లొక ధాఽయా ఆసిఽ,",
+      "పరస్పర కహె—నా దెఖి హెన",
+      "కిబా పుణ్యఫలె,    మిశ్ర బ్డ్ద్ధకాలె,",
+      "పాఇలెన పుత్రరతన యెన 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "набагра̄маба̄сӣ,    ло̆ка дха̄'йа̄ а̄си',",
+      "параспара кахэ̆—на̄ дэ̆кхи хэ̆на",
+      "киба̄ пун̣йапхалэ̆,    миш́ра бр̤ддхака̄лэ̆,",
+      "па̄илэ̆на путраратана йэ̆на 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നബഗ്രാമബാസീ,    ലൊക ധാഽയാ ആസിഽ,",
+      "പരസ്പര കഹെ—നാ ദെഖി ഹെന",
+      "കിബാ പുണ്യഫലെ,    മിശ്ര ബ്ഡ്ദ്ധകാലെ,",
+      "പാഇലെന പുത്രരതന യെന 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நப³க்³ராமபா³ஸீ,    லொக தா⁴(அ)யா ஆஸி(அ),",
+      "பரஸ்பர கஹெ—நா தெ³கி² ஹென",
+      "கிபா³ புண்யப²லெ,    மிஶ்ர ப்³ஃட்²த்³த⁴காலெ,",
+      "பாஇலென புத்ரரதன யென 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nabagrāmabāsī,    loka dhā’yā āsi’,",
+      "paraspara kahe—nā dekhi hena",
+      "kibā puṇyaphale,    miśra bṛddhakāle,",
+      "pāilena putraratana yena 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nabagrāmabāsī,    loka dhā’yā āsi’,",
+      "paraspara kahe—nā dekhi hena",
+      "kibā puṇyaphale,    miśra bṛddhakāle,",
+      "pāilena putraratana yena 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "puṣpa bariṣaṇa,    kare suragaṇa,",
+    "alakṣita rīti upamā nahu",
+    "jaya jaya dhbani,    bharala abanī,",
+    "bhaṇe ghanaśyāma maṅgala bahu 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "पुष्प बरिषण,    करॆ सुरगण,",
+      "अलक्षित रीति उपमा नहु",
+      "जय जय ध्बनि,    भरल अबनी,",
+      "भणॆ घनश्याम मङ्गल बहु ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "পুষ্প বরিষণ,    করে সুরগণ,",
+      "অলক্ষিত রীতি উপমা নহু",
+      "জয় জয় ধ্বনি,    ভরল অবনী,",
+      "ভণে ঘনশ্যাম মঙ্গল বহু ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପୁଷ୍ପ ବରିଷଣ,    କରେ ସୁରଗଣ,",
+      "ଅଲକ୍ଷିତ ରୀତି ଉପମା ନହୁ",
+      "ଜୟ ଜୟ ଧ୍ବନି,    ଭରଲ ଅବନୀ,",
+      "ଭଣେ ଘନଶ୍ୟାମ ମଙ୍ଗଲ ବହୁ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પુષ્પ બરિષણ,    કરે સુરગણ,",
+      "અલક્ષિત રીતિ ઉપમા નહુ",
+      "જય જય ધ્બનિ,    ભરલ અબની,",
+      "ભણે ઘનશ્યામ મઙ્ગલ બહુ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "puṣpa bariṣaṇa,    kare suragaṇa,",
+      "alakṣita rīti upamā nahu",
+      "jaya jaya dhbani,    bharala abanī,",
+      "bhaṇe ghanaśyāma maṅgala bahu 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪುಷ್ಪ ಬರಿಷಣ,    ಕರೆ ಸುರಗಣ,",
+      "ಅಲಕ್ಷಿತ ರೀತಿ ಉಪಮಾ ನಹು",
+      "ಜಯ ಜಯ ಧ್ಬನಿ,    ಭರಲ ಅಬನೀ,",
+      "ಭಣೆ ಘನಶ್ಯಾಮ ಮಂಗಲ ಬಹು ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "పుష్ప బరిషణ,    కరె సురగణ,",
+      "అలక్షిత రీతి ఉపమా నహు",
+      "జయ జయ ధ్బని,    భరల అబనీ,",
+      "భణె ఘనశ్యామ మంగల బహు 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "пушпа баришан̣а,    карэ̆ сураган̣а,",
+      "алакшита рӣти упама̄ наху",
+      "джайа джайа дхбани,    бхарала абанӣ,",
+      "бхан̣э̆ гханаш́йа̄ма ман̇гала баху 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പുഷ്പ ബരിഷണ,    കരെ സുരഗണ,",
+      "അലക്ഷിത രീതി ഉപമാ നഹു",
+      "ജയ ജയ ധ്ബനി,    ഭരല അബനീ,",
+      "ഭണെ ഘനശ്യാമ മംഗല ബഹു 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "புஷ்ப ப³ரிஷண,    கரெ ஸுரக³ண,",
+      "அலக்ஷித ரீதி உபமா நஹு",
+      "ஜய ஜய த்⁴ப³னி,    ப⁴ரல அப³னீ,",
+      "ப⁴ணெ க⁴னஶ்யாம மங்க³ல ப³ஹு 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "puṣpa bariṣaṇa,    kare suragaṇa,",
+      "alakṣita rīti upamā nahu",
+      "jaya jaya dhbani,    bharala abanī,",
+      "bhaṇe ghanaśyāma maṅgala bahu 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "puṣpa bariṣaṇa,    kare suragaṇa,",
+      "alakṣita rīti upamā nahu",
+      "jaya jaya dhbani,    bharala abanī,",
+      "bhaṇe ghanaśyāma maṅgala bahu 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": " ভক্তিরত্নাকর হইতে উদ্ধৃত ~ From Bhakti-ratnākara"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

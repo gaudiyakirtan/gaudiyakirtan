@@ -1,0 +1,1807 @@
+{
+  "uid": "N8",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "নিতাই মোর জীবন-ধন"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "nitāi mora jībana-dhana"
+    },
+    {
+      "script_code": "Deva",
+      "text": "निताइ मोर जीबन-धन"
+    },
+    {
+      "script_code": "Telu",
+      "text": "నితాఇ మోర జీబన-ధన"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ನಿತಾಇ ಮೋರ ಜೀಬನ-ಧನ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "நிதாஇ மோர ஜீப³ன-த⁴ன"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "നിതാഇ മോര ജീബന-ധന"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "નિતાઇ મોર જીબન-ધન"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ନିତାଇ ମୋର ଜୀବନ-ଧନ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "нита̄и мора джӣбана-дхана"
+    }
+  ],
+  "author_uid": "ldt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল লোচন দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Locana dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील लोचन दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల లోచన దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಲೋಚನ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல லோசன தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ലോചന ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ લોચન દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଲୋଚନ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла лочана да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "nitāi mora jībana[FLAG_HYPHEN_ALPHA]dhana, nitāi mora jāti",
+        "nitāi bihane mora āra nāhi gati 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Nitāi is the wealth of my life. Nitāi is my family. But for Nitāi, I have no resort."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "nitāi",
+              "Nitāi"
+            ],
+            [
+              "mora",
+              "my"
+            ],
+            [
+              "jībana dhana",
+              "life’s wealth"
+            ],
+            [
+              "nitāi",
+              "Nitāi"
+            ],
+            [
+              "mora",
+              "my"
+            ],
+            [
+              "jāti",
+              "family"
+            ],
+            [
+              "nitāi",
+              "Nitāi"
+            ],
+            [
+              "bihane",
+              "without"
+            ],
+            [
+              "mora",
+              "my"
+            ],
+            [
+              "āra",
+              "other"
+            ],
+            [
+              "nāhi",
+              "no"
+            ],
+            [
+              "gati",
+              "resort"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "निताइ",
+              "Nitāi"
+            ],
+            [
+              "मॊर",
+              "my"
+            ],
+            [
+              "जीबन धन",
+              "life’s wealth"
+            ],
+            [
+              "निताइ",
+              "Nitāi"
+            ],
+            [
+              "मॊर",
+              "my"
+            ],
+            [
+              "जाति",
+              "family"
+            ],
+            [
+              "निताइ",
+              "Nitāi"
+            ],
+            [
+              "बिहनॆ",
+              "without"
+            ],
+            [
+              "मॊर",
+              "my"
+            ],
+            [
+              "आर",
+              "other"
+            ],
+            [
+              "नाहि",
+              "no"
+            ],
+            [
+              "गति",
+              "resort"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "নিতাই",
+              "Nitāi"
+            ],
+            [
+              "মোর",
+              "my"
+            ],
+            [
+              "জীবন ধন",
+              "life’s wealth"
+            ],
+            [
+              "নিতাই",
+              "Nitāi"
+            ],
+            [
+              "মোর",
+              "my"
+            ],
+            [
+              "জাতি",
+              "family"
+            ],
+            [
+              "নিতাই",
+              "Nitāi"
+            ],
+            [
+              "বিহনে",
+              "without"
+            ],
+            [
+              "মোর",
+              "my"
+            ],
+            [
+              "আর",
+              "other"
+            ],
+            [
+              "নাহি",
+              "no"
+            ],
+            [
+              "গতি",
+              "resort"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "નિતાઇ",
+              "Nitāi"
+            ],
+            [
+              "મોર",
+              "my"
+            ],
+            [
+              "જીબન ધન",
+              "life’s wealth"
+            ],
+            [
+              "નિતાઇ",
+              "Nitāi"
+            ],
+            [
+              "મોર",
+              "my"
+            ],
+            [
+              "જાતિ",
+              "family"
+            ],
+            [
+              "નિતાઇ",
+              "Nitāi"
+            ],
+            [
+              "બિહને",
+              "without"
+            ],
+            [
+              "મોર",
+              "my"
+            ],
+            [
+              "આર",
+              "other"
+            ],
+            [
+              "નાહિ",
+              "no"
+            ],
+            [
+              "ગતિ",
+              "resort"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "निताइ मॊर जीबनधन, निताइ मॊर जाति",
+            "निताइ बिहनॆ मॊर आर नाहि गति १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নিতাই মোর জীবনধন, নিতাই মোর জাতি",
+            "নিতাই বিহনে মোর আর নাহি গতি ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନିତାଇ ମୋର ଜୀବନଧନ, ନିତାଇ ମୋର ଜାତି",
+            "ନିତାଇ ବିହନେ ମୋର ଆର ନାହି ଗତି ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નિતાઇ મોર જીબનધન, નિતાઇ મોર જાતિ",
+            "નિતાઇ બિહને મોર આર નાહિ ગતિ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nitāi mora jībana-dhana, nitāi mora jāti",
+            "nitāi bihane mora āra nāhi gati 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಿತಾಇ ಮೊರ ಜೀಬನಧನ, ನಿತಾಇ ಮೊರ ಜಾತಿ",
+            "ನಿತಾಇ ಬಿಹನೆ ಮೊರ ಆರ ನಾಹಿ ಗತಿ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నితాఇ మొర జీబనధన, నితాఇ మొర జాతి",
+            "నితాఇ బిహనె మొర ఆర నాహి గతి 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "нита̄и мо̆ра джӣбанадхана, нита̄и мо̆ра джа̄ти",
+            "нита̄и биханэ̆ мо̆ра а̄ра на̄хи гати 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നിതാഇ മൊര ജീബനധന, നിതാഇ മൊര ജാതി",
+            "നിതാഇ ബിഹനെ മൊര ആര നാഹി ഗതി 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நிதாஇ மொர ஜீப³னத⁴ன, நிதாஇ மொர ஜாதி",
+            "நிதாஇ பி³ஹனெ மொர ஆர நாஹி க³தி 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nitāi mora jībana-dhana, nitāi mora jāti",
+            "nitāi bihane mora āra nāhi gati 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nitāi mora jībana-dhana, nitāi mora jāti",
+            "nitāi bihane mora āra nāhi gati 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "saṁsāra[FLAG_HYPHEN_ALPHA]sukhera mukhe tule diba chāi",
+        "nagare māgiyā khā’ba gāiyā nitāi 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I shall throw ash in the face of worldly pleasure. While chanting the name of Nitāi, I shall sustain my life by begging in the village."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "saṁsāra",
+              "worldly"
+            ],
+            [
+              "sukhera",
+              "of pleasure"
+            ],
+            [
+              "mukhe",
+              "in the face"
+            ],
+            [
+              "tule",
+              "having picked up"
+            ],
+            [
+              "diba",
+              "I shall throw"
+            ],
+            [
+              "chāi",
+              "ash"
+            ],
+            [
+              "nagare",
+              "in the village"
+            ],
+            [
+              "māgiyā",
+              "begging"
+            ],
+            [
+              "khā’ba",
+              "I shall eat"
+            ],
+            [
+              "gāiyā",
+              "having sung"
+            ],
+            [
+              "nitāi",
+              "“Nitāi”"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "संसार",
+              "worldly"
+            ],
+            [
+              "सुखॆर",
+              "of pleasure"
+            ],
+            [
+              "मुखॆ",
+              "in the face"
+            ],
+            [
+              "तुलॆ",
+              "having picked up"
+            ],
+            [
+              "दिब",
+              "I shall throw"
+            ],
+            [
+              "छाइ",
+              "ash"
+            ],
+            [
+              "नगरॆ",
+              "in the village"
+            ],
+            [
+              "मागिया",
+              "begging"
+            ],
+            [
+              "खाऽब",
+              "I shall eat"
+            ],
+            [
+              "गाइया",
+              "having sung"
+            ],
+            [
+              "निताइ",
+              "“Nitāi”"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "সংসার",
+              "worldly"
+            ],
+            [
+              "সুখের",
+              "of pleasure"
+            ],
+            [
+              "মুখে",
+              "in the face"
+            ],
+            [
+              "তুলে",
+              "having picked up"
+            ],
+            [
+              "দিব",
+              "I shall throw"
+            ],
+            [
+              "ছাই",
+              "ash"
+            ],
+            [
+              "নগরে",
+              "in the village"
+            ],
+            [
+              "মাগিয়া",
+              "begging"
+            ],
+            [
+              "খাঽব",
+              "I shall eat"
+            ],
+            [
+              "গাইয়া",
+              "having sung"
+            ],
+            [
+              "নিতাই",
+              "“Nitāi”"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "સંસાર",
+              "worldly"
+            ],
+            [
+              "સુખેર",
+              "of pleasure"
+            ],
+            [
+              "મુખે",
+              "in the face"
+            ],
+            [
+              "તુલે",
+              "having picked up"
+            ],
+            [
+              "દિબ",
+              "I shall throw"
+            ],
+            [
+              "છાઇ",
+              "ash"
+            ],
+            [
+              "નગરે",
+              "in the village"
+            ],
+            [
+              "માગિયા",
+              "begging"
+            ],
+            [
+              "ખાઽબ",
+              "I shall eat"
+            ],
+            [
+              "ગાઇયા",
+              "having sung"
+            ],
+            [
+              "નિતાઇ",
+              "“Nitāi”"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "संसारसुखॆर मुखॆ तुलॆ दिब छाइ",
+            "नगरॆ मागिया खाऽब गाइया निताइ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সংসারসুখের মুখে তুলে দিব ছাই",
+            "নগরে মাগিয়া খাঽব গাইয়া নিতাই ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସଂସାରସୁଖେର ମୁଖେ ତୁଲେ ଦିବ ଛାଇ",
+            "ନଗରେ ମାଗିୟା ଖାଽବ ଗାଇୟା ନିତାଇ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સંસારસુખેર મુખે તુલે દિબ છાઇ",
+            "નગરે માગિયા ખાઽબ ગાઇયા નિતાઇ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "saṁsāra-sukhera mukhe tule diba chāi",
+            "nagare māgiyā khā’ba gāiyā nitāi 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸಂಸಾರಸುಖೆರ ಮುಖೆ ತುಲೆ ದಿಬ ಛಾಇ",
+            "ನಗರೆ ಮಾಗಿಯಾ ಖಾಽಬ ಗಾಇಯಾ ನಿತಾಇ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సంసారసుఖెర ముఖె తులె దిబ ఛాఇ",
+            "నగరె మాగియా ఖాఽబ గాఇయా నితాఇ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сам̣са̄расукхэ̆ра мукхэ̆ тулэ̆ диба чха̄и",
+            "нагарэ̆ ма̄гийа̄ кха̄'ба га̄ийа̄ нита̄и 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സംസാരസുഖെര മുഖെ തുലെ ദിബ ഛാഇ",
+            "നഗരെ മാഗിയാ ഖാഽബ ഗാഇയാ നിതാഇ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸம்ʼஸாரஸுகெ²ர முகெ² துலெ தி³ப³ சா²இ",
+            "நக³ரெ மாகி³யா கா²(அ)ப³ கா³இயா நிதாஇ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "saṁsāra-sukhera mukhe tule diba chāi",
+            "nagare māgiyā khā’ba gāiyā nitāi 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "saṁsāra-sukhera mukhe tule diba chāi",
+            "nagare māgiyā khā’ba gāiyā nitāi 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "ye[FLAG_HYPHEN_ALPHA]deśe nitāi nāi, se[FLAG_HYPHEN_ALPHA]deśe nā yā’ba",
+        "nitāi[FLAG_HYPHEN_ALPHA]bimukha[FLAG_HYPHEN_ALPHA]janāra mukha nā heriba 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I shall never visit any place where Nitāi is absent, and I shall never look upon the face of one who is averse to Him."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "ye",
+              "which"
+            ],
+            [
+              "deśe",
+              "in place"
+            ],
+            [
+              "nitāi",
+              "Nitāi"
+            ],
+            [
+              "nāi",
+              "not"
+            ],
+            [
+              "se",
+              "that"
+            ],
+            [
+              "deśe",
+              "in place"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "yā’ba",
+              "I shall go"
+            ],
+            [
+              "nitāi",
+              "Nitāi"
+            ],
+            [
+              "bimukha",
+              "averse"
+            ],
+            [
+              "janāra",
+              "of person"
+            ],
+            [
+              "mukha",
+              "the face"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "heriba",
+              "I shall see"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "यॆ",
+              "which"
+            ],
+            [
+              "दॆशॆ",
+              "in place"
+            ],
+            [
+              "निताइ",
+              "Nitāi"
+            ],
+            [
+              "नाइ",
+              "not"
+            ],
+            [
+              "सॆ",
+              "that"
+            ],
+            [
+              "दॆशॆ",
+              "in place"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "याऽब",
+              "I shall go"
+            ],
+            [
+              "निताइ",
+              "Nitāi"
+            ],
+            [
+              "बिमुख",
+              "averse"
+            ],
+            [
+              "जनार",
+              "of person"
+            ],
+            [
+              "मुख",
+              "the face"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "हॆरिब",
+              "I shall see"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "যে",
+              "which"
+            ],
+            [
+              "দেশে",
+              "in place"
+            ],
+            [
+              "নিতাই",
+              "Nitāi"
+            ],
+            [
+              "নাই",
+              "not"
+            ],
+            [
+              "সে",
+              "that"
+            ],
+            [
+              "দেশে",
+              "in place"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "যাঽব",
+              "I shall go"
+            ],
+            [
+              "নিতাই",
+              "Nitāi"
+            ],
+            [
+              "বিমুখ",
+              "averse"
+            ],
+            [
+              "জনার",
+              "of person"
+            ],
+            [
+              "মুখ",
+              "the face"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "হেরিব",
+              "I shall see"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "યે",
+              "which"
+            ],
+            [
+              "દેશે",
+              "in place"
+            ],
+            [
+              "નિતાઇ",
+              "Nitāi"
+            ],
+            [
+              "નાઇ",
+              "not"
+            ],
+            [
+              "સે",
+              "that"
+            ],
+            [
+              "દેશે",
+              "in place"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "યાઽબ",
+              "I shall go"
+            ],
+            [
+              "નિતાઇ",
+              "Nitāi"
+            ],
+            [
+              "બિમુખ",
+              "averse"
+            ],
+            [
+              "જનાર",
+              "of person"
+            ],
+            [
+              "મુખ",
+              "the face"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "હેરિબ",
+              "I shall see"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "यॆदॆशॆ निताइ नाइ, सॆदॆशॆ ना याऽब",
+            "निताइबिमुखजनार मुख ना हॆरिब ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যেদেশে নিতাই নাই, সেদেশে না যাঽব",
+            "নিতাইবিমুখজনার মুখ না হেরিব ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯେଦେଶେ ନିତାଇ ନାଇ, ସେଦେଶେ ନା ଯାଽବ",
+            "ନିତାଇବିମୁଖଜନାର ମୁଖ ନା ହେରିବ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યેદેશે નિતાઇ નાઇ, સેદેશે ના યાઽબ",
+            "નિતાઇબિમુખજનાર મુખ ના હેરિબ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ye-deśe nitāi nāi, se-deśe nā yā’ba",
+            "nitāi-bimukha-janāra mukha nā heriba 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯೆದೆಶೆ ನಿತಾಇ ನಾಇ, ಸೆದೆಶೆ ನಾ ಯಾಽಬ",
+            "ನಿತಾಇಬಿಮುಖಜನಾರ ಮುಖ ನಾ ಹೆರಿಬ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యెదెశె నితాఇ నాఇ, సెదెశె నా యాఽబ",
+            "నితాఇబిముఖజనార ముఖ నా హెరిబ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йэ̆дэ̆ш́э̆ нита̄и на̄и, сэ̆дэ̆ш́э̆ на̄ йа̄'ба",
+            "нита̄ибимукхаджана̄ра мукха на̄ хэ̆риба 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യെദെശെ നിതാഇ നാഇ, സെദെശെ നാ യാഽബ",
+            "നിതാഇബിമുഖജനാര മുഖ നാ ഹെരിബ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யெதெ³ஶெ நிதாஇ நாஇ, ஸெதெ³ஶெ நா யா(அ)ப³",
+            "நிதாஇபி³முக²ஜனார முக² நா ஹெரிப³ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ye-deśe nitāi nāi, se-deśe nā yā’ba",
+            "nitāi-bimukha-janāra mukha nā heriba 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ye-deśe nitāi nāi, se-deśe nā yā’ba",
+            "nitāi-bimukha-janāra mukha nā heriba 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "gaṅgā yā̃’ra padajala, hara śire dhare",
+        "hena nitāi nā bhajiyā duḥkha peye mare 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "The water that bathes Nitāi’s feet is the same Gaṅgā that Lord Śiva bears upon his head. One who does not worship this Nitāi will suffer and die."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "gaṅgā",
+              "Gāṅgā"
+            ],
+            [
+              "yā̃’ra",
+              "whose (Nitāi’s)"
+            ],
+            [
+              "padajala",
+              "foot + water"
+            ],
+            [
+              "hara",
+              "Lord Śiva"
+            ],
+            [
+              "śire",
+              "on head"
+            ],
+            [
+              "dhare",
+              "bears, holds"
+            ],
+            [
+              "hena",
+              "such"
+            ],
+            [
+              "nitāi",
+              "Nitāi"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "bhajiyā",
+              "having worshiped"
+            ],
+            [
+              "duḥkha",
+              "misery"
+            ],
+            [
+              "peye",
+              "having obtained"
+            ],
+            [
+              "mare",
+              "he dies"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "गङ्गा",
+              "Gāṅgā"
+            ],
+            [
+              "यांऽर",
+              "whose (Nitāi’s)"
+            ],
+            [
+              "पदजल",
+              "foot + water"
+            ],
+            [
+              "हर",
+              "Lord Śiva"
+            ],
+            [
+              "शिरॆ",
+              "on head"
+            ],
+            [
+              "धरॆ",
+              "bears, holds"
+            ],
+            [
+              "हॆन",
+              "such"
+            ],
+            [
+              "निताइ",
+              "Nitāi"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "भजिया",
+              "having worshiped"
+            ],
+            [
+              "दुःख",
+              "misery"
+            ],
+            [
+              "पॆयॆ",
+              "having obtained"
+            ],
+            [
+              "मरॆ",
+              "he dies"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "গঙ্গা",
+              "Gāṅgā"
+            ],
+            [
+              "যাংঽর",
+              "whose (Nitāi’s)"
+            ],
+            [
+              "পদজল",
+              "foot + water"
+            ],
+            [
+              "হর",
+              "Lord Śiva"
+            ],
+            [
+              "শিরে",
+              "on head"
+            ],
+            [
+              "ধরে",
+              "bears, holds"
+            ],
+            [
+              "হেন",
+              "such"
+            ],
+            [
+              "নিতাই",
+              "Nitāi"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "ভজিয়া",
+              "having worshiped"
+            ],
+            [
+              "দুঃখ",
+              "misery"
+            ],
+            [
+              "পেয়ে",
+              "having obtained"
+            ],
+            [
+              "মরে",
+              "he dies"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ગઙ્ગા",
+              "Gāṅgā"
+            ],
+            [
+              "યાંઽર",
+              "whose (Nitāi’s)"
+            ],
+            [
+              "પદજલ",
+              "foot + water"
+            ],
+            [
+              "હર",
+              "Lord Śiva"
+            ],
+            [
+              "શિરે",
+              "on head"
+            ],
+            [
+              "ધરે",
+              "bears, holds"
+            ],
+            [
+              "હેન",
+              "such"
+            ],
+            [
+              "નિતાઇ",
+              "Nitāi"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "ભજિયા",
+              "having worshiped"
+            ],
+            [
+              "દુઃખ",
+              "misery"
+            ],
+            [
+              "પેયે",
+              "having obtained"
+            ],
+            [
+              "મરે",
+              "he dies"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गङ्गा यांऽर पदजल, हर शिरॆ धरॆ",
+            "हॆन निताइ ना भजिया दुःख पॆयॆ मरॆ ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গঙ্গা যাংঽর পদজল, হর শিরে ধরে",
+            "হেন নিতাই না ভজিয়া দুঃখ পেয়ে মরে ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗଙ୍ଗା ଯାଂଽର ପଦଜଲ, ହର ଶିରେ ଧରେ",
+            "ହେନ ନିତାଇ ନା ଭଜିୟା ଦୁଃଖ ପେୟେ ମରେ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગઙ્ગા યાંઽર પદજલ, હર શિરે ધરે",
+            "હેન નિતાઇ ના ભજિયા દુઃખ પેયે મરે ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gaṅgā yā̃’ra padajala, hara śire dhare",
+            "hena nitāi nā bhajiyā duḥkha peye mare 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗಂಗಾ ಯಾಂಽರ ಪದಜಲ, ಹರ ಶಿರೆ ಧರೆ",
+            "ಹೆನ ನಿತಾಇ ನಾ ಭಜಿಯಾ ದುಃಖ ಪೆಯೆ ಮರೆ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గంగా యాంఽర పదజల, హర శిరె ధరె",
+            "హెన నితాఇ నా భజియా దుఃఖ పెయె మరె 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ган̇га̄ йа̄м̣'ра пададжала, хара ш́ирэ̆ дхарэ̆",
+            "хэ̆на нита̄и на̄ бхаджийа̄ дух̣кха пэ̆йэ̆ марэ̆ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗംഗാ യാംഽര പദജല, ഹര ശിരെ ധരെ",
+            "ഹെന നിതാഇ നാ ഭജിയാ ദുഃഖ പെയെ മരെ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "க³ங்கா³ யாம்ʼ(அ)ர பத³ஜல, ஹர ஶிரெ த⁴ரெ",
+            "ஹென நிதாஇ நா ப⁴ஜியா து³꞉க² பெயெ மரெ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gaṅgā yā̃’ra padajala, hara śire dhare",
+            "hena nitāi nā bhajiyā duḥkha peye mare 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gaṅgā yā̃’ra padajala, hara śire dhare",
+            "hena nitāi nā bhajiyā duḥkha peye mare 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "locana bale mora nitāi yebā nāhi māne",
+        "anala bhejāi tā’ra mājha[FLAG_HYPHEN_ALPHA]mukhakhāne 5"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Locana dāsa declares, “I shall scorch the face of one who has no regard for my Nitāi!”"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "locana",
+              "Locana dāsa"
+            ],
+            [
+              "bale",
+              "says"
+            ],
+            [
+              "mora",
+              "my"
+            ],
+            [
+              "nitāi",
+              "Nitāi"
+            ],
+            [
+              "yebā",
+              "who"
+            ],
+            [
+              "nāhi",
+              "no"
+            ],
+            [
+              "māne",
+              "regard"
+            ],
+            [
+              "anala",
+              "fire"
+            ],
+            [
+              "bhejāi",
+              "I light"
+            ],
+            [
+              "tā’ra",
+              "his"
+            ],
+            [
+              "mājha",
+              "inside"
+            ],
+            [
+              "mukhakhāne",
+              "mouth + in the"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "लॊचन",
+              "Locana dāsa"
+            ],
+            [
+              "बलॆ",
+              "says"
+            ],
+            [
+              "मॊर",
+              "my"
+            ],
+            [
+              "निताइ",
+              "Nitāi"
+            ],
+            [
+              "यॆबा",
+              "who"
+            ],
+            [
+              "नाहि",
+              "no"
+            ],
+            [
+              "मानॆ",
+              "regard"
+            ],
+            [
+              "अनल",
+              "fire"
+            ],
+            [
+              "भॆजाइ",
+              "I light"
+            ],
+            [
+              "ताऽर",
+              "his"
+            ],
+            [
+              "माझ",
+              "inside"
+            ],
+            [
+              "मुखखानॆ",
+              "mouth + in the"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "লোচন",
+              "Locana dāsa"
+            ],
+            [
+              "বলে",
+              "says"
+            ],
+            [
+              "মোর",
+              "my"
+            ],
+            [
+              "নিতাই",
+              "Nitāi"
+            ],
+            [
+              "যেবা",
+              "who"
+            ],
+            [
+              "নাহি",
+              "no"
+            ],
+            [
+              "মানে",
+              "regard"
+            ],
+            [
+              "অনল",
+              "fire"
+            ],
+            [
+              "ভেজাই",
+              "I light"
+            ],
+            [
+              "তাঽর",
+              "his"
+            ],
+            [
+              "মাঝ",
+              "inside"
+            ],
+            [
+              "মুখখানে",
+              "mouth + in the"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "લોચન",
+              "Locana dāsa"
+            ],
+            [
+              "બલે",
+              "says"
+            ],
+            [
+              "મોર",
+              "my"
+            ],
+            [
+              "નિતાઇ",
+              "Nitāi"
+            ],
+            [
+              "યેબા",
+              "who"
+            ],
+            [
+              "નાહિ",
+              "no"
+            ],
+            [
+              "માને",
+              "regard"
+            ],
+            [
+              "અનલ",
+              "fire"
+            ],
+            [
+              "ભેજાઇ",
+              "I light"
+            ],
+            [
+              "તાઽર",
+              "his"
+            ],
+            [
+              "માઝ",
+              "inside"
+            ],
+            [
+              "મુખખાને",
+              "mouth + in the"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "लॊचन बलॆ मॊर निताइ यॆबा नाहि मानॆ",
+            "अनल भॆजाइ ताऽर माझमुखखानॆ ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "লোচন বলে মোর নিতাই যেবা নাহি মানে",
+            "অনল ভেজাই তাঽর মাঝমুখখানে ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଲୋଚନ ବଲେ ମୋର ନିତାଇ ଯେବା ନାହି ମାନେ",
+            "ଅନଲ ଭେଜାଇ ତାଽର ମାଝମୁଖଖାନେ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "લોચન બલે મોર નિતાઇ યેબા નાહિ માને",
+            "અનલ ભેજાઇ તાઽર માઝમુખખાને ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "locana bale mora nitāi yebā nāhi māne",
+            "anala bhejāi tā’ra mājha-mukhakhāne 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಲೊಚನ ಬಲೆ ಮೊರ ನಿತಾಇ ಯೆಬಾ ನಾಹಿ ಮಾನೆ",
+            "ಅನಲ ಭೆಜಾಇ ತಾಽರ ಮಾಝಮುಖಖಾನೆ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "లొచన బలె మొర నితాఇ యెబా నాహి మానె",
+            "అనల భెజాఇ తాఽర మాఝముఖఖానె 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ло̆чана балэ̆ мо̆ра нита̄и йэ̆ба̄ на̄хи ма̄нэ̆",
+            "анала бхэ̆джа̄и та̄'ра ма̄джхамукхакха̄нэ̆ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ലൊചന ബലെ മൊര നിതാഇ യെബാ നാഹി മാനെ",
+            "അനല ഭെജാഇ താഽര മാഝമുഖഖാനെ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "லொசன ப³லெ மொர நிதாஇ யெபா³ நாஹி மானெ",
+            "அனல பெ⁴ஜாஇ தா(அ)ர மாஜ²முக²கா²னெ 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "locana bale mora nitāi yebā nāhi māne",
+            "anala bhejāi tā’ra mājha-mukhakhāne 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "locana bale mora nitāi yebā nāhi māne",
+            "anala bhejāi tā’ra mājha-mukhakhāne 5"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Firm Faith in Nityānanda Prabhu",
+    "Śrī Nityānanda Prabhu"
+  ]
+}

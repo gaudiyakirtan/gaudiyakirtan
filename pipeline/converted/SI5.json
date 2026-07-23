@@ -1,0 +1,2067 @@
+{
+ "uid": "SI5",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "অনাদি করম-ফলে"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "anādi karama-phale"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "anādi karama[FLAG_HYPHEN_ALPHA]phale,    paḓi’ bhabārṇaba[FLAG_HYPHEN_ALPHA]jale,",
+    "taribāre nā dekhi’ upāya",
+    "e biṣaya[FLAG_HYPHEN_ALPHA]halāhale,    dibā[FLAG_HYPHEN_ALPHA]niśi hiyā jbale,",
+    "mana kabhu sukha nāhi pāya 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "In consequence to my actions since time immemorial, I have plunged into the ocean of material existence and see no means of deliverance. Due to the poison of worldly pleasures, my heart blazes day and night and my mind never receives any comfort."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "anādi",
+       "having no beginning"
+      ],
+      [
+       "karama",
+       "actions"
+      ],
+      [
+       "phale",
+       "in consequence"
+      ],
+      [
+       "paḓi’",
+       "having fallen"
+      ],
+      [
+       "bhabārṇaba",
+       "material existence + ocean"
+      ],
+      [
+       "jale",
+       "into the waters"
+      ],
+      [
+       "taribāre",
+       "for deliverance"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "dekhi’",
+       "I see"
+      ],
+      [
+       "upāya",
+       "means"
+      ],
+      [
+       "e",
+       "this"
+      ],
+      [
+       "biṣaya",
+       "worldly pleasure"
+      ],
+      [
+       "halāhale",
+       "by deadly poison"
+      ],
+      [
+       "dibā",
+       "day"
+      ],
+      [
+       "niśi",
+       "night"
+      ],
+      [
+       "hiyā",
+       "heart"
+      ],
+      [
+       "jbale",
+       "burns, blazes"
+      ],
+      [
+       "mana",
+       "mind"
+      ],
+      [
+       "kabhu",
+       "ever"
+      ],
+      [
+       "sukha",
+       "comfort, happiness"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "pāya",
+       "gets, receives"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "अनादि",
+       "having no beginning"
+      ],
+      [
+       "करम",
+       "actions"
+      ],
+      [
+       "फलॆ",
+       "in consequence"
+      ],
+      [
+       "पḓइऽ",
+       "having fallen"
+      ],
+      [
+       "भबार्णब",
+       "material existence + ocean"
+      ],
+      [
+       "जलॆ",
+       "into the waters"
+      ],
+      [
+       "तरिबारॆ",
+       "for deliverance"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "दॆखिऽ",
+       "I see"
+      ],
+      [
+       "उपाय",
+       "means"
+      ],
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "बिषय",
+       "worldly pleasure"
+      ],
+      [
+       "हलाहलॆ",
+       "by deadly poison"
+      ],
+      [
+       "दिबा",
+       "day"
+      ],
+      [
+       "निशि",
+       "night"
+      ],
+      [
+       "हिया",
+       "heart"
+      ],
+      [
+       "ज्बलॆ",
+       "burns, blazes"
+      ],
+      [
+       "मन",
+       "mind"
+      ],
+      [
+       "कभु",
+       "ever"
+      ],
+      [
+       "सुख",
+       "comfort, happiness"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "पाय",
+       "gets, receives"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "অনাদি",
+       "having no beginning"
+      ],
+      [
+       "করম",
+       "actions"
+      ],
+      [
+       "ফলে",
+       "in consequence"
+      ],
+      [
+       "পḓইঽ",
+       "having fallen"
+      ],
+      [
+       "ভবার্ণব",
+       "material existence + ocean"
+      ],
+      [
+       "জলে",
+       "into the waters"
+      ],
+      [
+       "তরিবারে",
+       "for deliverance"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "দেখিঽ",
+       "I see"
+      ],
+      [
+       "উপায়",
+       "means"
+      ],
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "বিষয়",
+       "worldly pleasure"
+      ],
+      [
+       "হলাহলে",
+       "by deadly poison"
+      ],
+      [
+       "দিবা",
+       "day"
+      ],
+      [
+       "নিশি",
+       "night"
+      ],
+      [
+       "হিয়া",
+       "heart"
+      ],
+      [
+       "জ্বলে",
+       "burns, blazes"
+      ],
+      [
+       "মন",
+       "mind"
+      ],
+      [
+       "কভু",
+       "ever"
+      ],
+      [
+       "সুখ",
+       "comfort, happiness"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "পায়",
+       "gets, receives"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "અનાદિ",
+       "having no beginning"
+      ],
+      [
+       "કરમ",
+       "actions"
+      ],
+      [
+       "ફલે",
+       "in consequence"
+      ],
+      [
+       "પḓઇઽ",
+       "having fallen"
+      ],
+      [
+       "ભબાર્ણબ",
+       "material existence + ocean"
+      ],
+      [
+       "જલે",
+       "into the waters"
+      ],
+      [
+       "તરિબારે",
+       "for deliverance"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "દેખિઽ",
+       "I see"
+      ],
+      [
+       "ઉપાય",
+       "means"
+      ],
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "બિષય",
+       "worldly pleasure"
+      ],
+      [
+       "હલાહલે",
+       "by deadly poison"
+      ],
+      [
+       "દિબા",
+       "day"
+      ],
+      [
+       "નિશિ",
+       "night"
+      ],
+      [
+       "હિયા",
+       "heart"
+      ],
+      [
+       "જ્બલે",
+       "burns, blazes"
+      ],
+      [
+       "મન",
+       "mind"
+      ],
+      [
+       "કભુ",
+       "ever"
+      ],
+      [
+       "સુખ",
+       "comfort, happiness"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "પાય",
+       "gets, receives"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अनादि करमफलॆ,    पḓइऽ भबार्णबजलॆ,",
+      "तरिबारॆ ना दॆखिऽ उपाय",
+      "ऎ बिषयहलाहलॆ,    दिबानिशि हिया ज्बलॆ,",
+      "मन कभु सुख नाहि पाय १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অনাদি করমফলে,    পḓইঽ ভবার্ণবজলে,",
+      "তরিবারে না দেখিঽ উপায়",
+      "এ বিষয়হলাহলে,    দিবানিশি হিয়া জ্বলে,",
+      "মন কভু সুখ নাহি পায় ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅନାଦି କରମଫଲେ,    ପḓଇଽ ଭବାର୍ଣବଜଲେ,",
+      "ତରିବାରେ ନା ଦେଖିଽ ଉପାୟ",
+      "ଏ ବିଷୟହଲାହଲେ,    ଦିବାନିଶି ହିୟା ଜ୍ବଲେ,",
+      "ମନ କଭୁ ସୁଖ ନାହି ପାୟ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અનાદિ કરમફલે,    પḓઇઽ ભબાર્ણબજલે,",
+      "તરિબારે ના દેખિઽ ઉપાય",
+      "એ બિષયહલાહલે,    દિબાનિશિ હિયા જ્બલે,",
+      "મન કભુ સુખ નાહિ પાય ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "anādi karama-phale,    paḓi’ bhabārṇaba-jale,",
+      "taribāre nā dekhi’ upāya",
+      "e biṣaya-halāhale,    dibā-niśi hiyā jbale,",
+      "mana kabhu sukha nāhi pāya 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅನಾದಿ ಕರಮಫಲೆ,    ಪḓಇಽ ಭಬಾರ್ಣಬಜಲೆ,",
+      "ತರಿಬಾರೆ ನಾ ದೆಖಿಽ ಉಪಾಯ",
+      "ಎ ಬಿಷಯಹಲಾಹಲೆ,    ದಿಬಾನಿಶಿ ಹಿಯಾ ಜ್ಬಲೆ,",
+      "ಮನ ಕಭು ಸುಖ ನಾಹಿ ಪಾಯ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అనాది కరమఫలె,    పḓఇఽ భబార్ణబజలె,",
+      "తరిబారె నా దెఖిఽ ఉపాయ",
+      "ఎ బిషయహలాహలె,    దిబానిశి హియా జ్బలె,",
+      "మన కభు సుఖ నాహి పాయ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ана̄ди карамапхалэ̆,    паḓи' бхаба̄рн̣абаджалэ̆,",
+      "тариба̄рэ̆ на̄ дэ̆кхи' упа̄йа",
+      "э̆ бишайахала̄халэ̆,    диба̄ниш́и хийа̄ джбалэ̆,",
+      "мана кабху сукха на̄хи па̄йа 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അനാദി കരമഫലെ,    പḓഇഽ ഭബാർണബജലെ,",
+      "തരിബാരെ നാ ദെഖിഽ ഉപായ",
+      "എ ബിഷയഹലാഹലെ,    ദിബാനിശി ഹിയാ ജ്ബലെ,",
+      "മന കഭു സുഖ നാഹി പായ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அநாதி³ கரமப²லெ,    பḓஇ(அ) ப⁴பா³ர்ணப³ஜலெ,",
+      "தரிபா³ரெ நா தெ³கி²(அ) உபாய",
+      "எ பி³ஷயஹலாஹலெ,    தி³பா³நிஶி ஹியா ஜ்ப³லெ,",
+      "மன கபு⁴ ஸுக² நாஹி பாய 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "anādi karama-phale,    paḍi’ bhabārṇaba-jale,",
+      "taribāre nā dekhi’ upāya",
+      "e biṣaya-halāhale,    dibā-niśi hiyā jbale,",
+      "mana kabhu sukha nāhi pāya 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "anādi karama-phale,    paḓi’ bhabārṇaba-jale,",
+      "taribāre nā dekhi’ upāya",
+      "e biṣaya-halāhale,    dibā-niśi hiyā jbale,",
+      "mana kabhu sukha nāhi pāya 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "āśā[FLAG_HYPHEN_ALPHA]pāśa śataśata,    kleśa deya abirata,",
+    "prabṛtti[FLAG_HYPHEN_ALPHA]ūrmira tāhe khelā",
+    "kāma[FLAG_HYPHEN_ALPHA]krodha ādi chaya,    bāṭapāḓe deya bhaya,",
+    "abasāna haila āsi’ belā 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The bonds of hundreds upon hundreds of desires constantly give me pain—such is the play of the waves of the ocean of worldly life. The six rogues, headed by lust and anger, dispense fear as the end draws near."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "āśā",
+       "desires"
+      ],
+      [
+       "pāśa",
+       "bonds"
+      ],
+      [
+       "śataśata",
+       "hundreds and hundreds"
+      ],
+      [
+       "kleśa",
+       "trouble, sorrow, misery, pain"
+      ],
+      [
+       "deya",
+       "gives"
+      ],
+      [
+       "abirata",
+       "constantly"
+      ],
+      [
+       "prabṛtti",
+       "(saṁsār-sukha-prāpak ceṣṭā) engagement (endeavors for worldly happiness)"
+      ],
+      [
+       "ūrmira",
+       "(ḍheu) of the waves"
+      ],
+      [
+       "tāhe",
+       "in that"
+      ],
+      [
+       "khelā",
+       "play"
+      ],
+      [
+       "kāma",
+       "lust"
+      ],
+      [
+       "krodha",
+       "anger"
+      ],
+      [
+       "ādi",
+       "and so on"
+      ],
+      [
+       "chaya",
+       "six"
+      ],
+      [
+       "bāṭapāḓe",
+       "from the highwaymen, robbers, swindlers"
+      ],
+      [
+       "deya",
+       "they give"
+      ],
+      [
+       "bhaya",
+       "fear"
+      ],
+      [
+       "abasāna",
+       "end, death"
+      ],
+      [
+       "haila",
+       "happens"
+      ],
+      [
+       "āsi’",
+       "having come"
+      ],
+      [
+       "belā",
+       "time"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "आशा",
+       "desires"
+      ],
+      [
+       "पाश",
+       "bonds"
+      ],
+      [
+       "शतशत",
+       "hundreds and hundreds"
+      ],
+      [
+       "क्लॆश",
+       "trouble, sorrow, misery, pain"
+      ],
+      [
+       "दॆय",
+       "gives"
+      ],
+      [
+       "अबिरत",
+       "constantly"
+      ],
+      [
+       "प्रब्ड़्त्ति",
+       "(saṁsār-sukha-prāpak ceṣṭā) engagement (endeavors for worldly happiness)"
+      ],
+      [
+       "ऊर्मिर",
+       "(ḍheu) of the waves"
+      ],
+      [
+       "ताहॆ",
+       "in that"
+      ],
+      [
+       "खॆला",
+       "play"
+      ],
+      [
+       "काम",
+       "lust"
+      ],
+      [
+       "क्रॊध",
+       "anger"
+      ],
+      [
+       "आदि",
+       "and so on"
+      ],
+      [
+       "छय",
+       "six"
+      ],
+      [
+       "बाटपाḓऎ",
+       "from the highwaymen, robbers, swindlers"
+      ],
+      [
+       "दॆय",
+       "they give"
+      ],
+      [
+       "भय",
+       "fear"
+      ],
+      [
+       "अबसान",
+       "end, death"
+      ],
+      [
+       "हैल",
+       "happens"
+      ],
+      [
+       "आसिऽ",
+       "having come"
+      ],
+      [
+       "बॆला",
+       "time"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "আশা",
+       "desires"
+      ],
+      [
+       "পাশ",
+       "bonds"
+      ],
+      [
+       "শতশত",
+       "hundreds and hundreds"
+      ],
+      [
+       "ক্লেশ",
+       "trouble, sorrow, misery, pain"
+      ],
+      [
+       "দেয়",
+       "gives"
+      ],
+      [
+       "অবিরত",
+       "constantly"
+      ],
+      [
+       "প্রব্ড়্ত্তি",
+       "(saṁsār-sukha-prāpak ceṣṭā) engagement (endeavors for worldly happiness)"
+      ],
+      [
+       "ঊর্মির",
+       "(ḍheu) of the waves"
+      ],
+      [
+       "তাহে",
+       "in that"
+      ],
+      [
+       "খেলা",
+       "play"
+      ],
+      [
+       "কাম",
+       "lust"
+      ],
+      [
+       "ক্রোধ",
+       "anger"
+      ],
+      [
+       "আদি",
+       "and so on"
+      ],
+      [
+       "ছয়",
+       "six"
+      ],
+      [
+       "বাটপাḓএ",
+       "from the highwaymen, robbers, swindlers"
+      ],
+      [
+       "দেয়",
+       "they give"
+      ],
+      [
+       "ভয়",
+       "fear"
+      ],
+      [
+       "অবসান",
+       "end, death"
+      ],
+      [
+       "হৈল",
+       "happens"
+      ],
+      [
+       "আসিঽ",
+       "having come"
+      ],
+      [
+       "বেলা",
+       "time"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "આશા",
+       "desires"
+      ],
+      [
+       "પાશ",
+       "bonds"
+      ],
+      [
+       "શતશત",
+       "hundreds and hundreds"
+      ],
+      [
+       "ક્લેશ",
+       "trouble, sorrow, misery, pain"
+      ],
+      [
+       "દેય",
+       "gives"
+      ],
+      [
+       "અબિરત",
+       "constantly"
+      ],
+      [
+       "પ્રબ્ડ઼્ત્તિ",
+       "(saṁsār-sukha-prāpak ceṣṭā) engagement (endeavors for worldly happiness)"
+      ],
+      [
+       "ઊર્મિર",
+       "(ḍheu) of the waves"
+      ],
+      [
+       "તાહે",
+       "in that"
+      ],
+      [
+       "ખેલા",
+       "play"
+      ],
+      [
+       "કામ",
+       "lust"
+      ],
+      [
+       "ક્રોધ",
+       "anger"
+      ],
+      [
+       "આદિ",
+       "and so on"
+      ],
+      [
+       "છય",
+       "six"
+      ],
+      [
+       "બાટપાḓએ",
+       "from the highwaymen, robbers, swindlers"
+      ],
+      [
+       "દેય",
+       "they give"
+      ],
+      [
+       "ભય",
+       "fear"
+      ],
+      [
+       "અબસાન",
+       "end, death"
+      ],
+      [
+       "હૈલ",
+       "happens"
+      ],
+      [
+       "આસિઽ",
+       "having come"
+      ],
+      [
+       "બેલા",
+       "time"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आशापाश शतशत,    क्लॆश दॆय अबिरत,",
+      "प्रब्ड़्त्तिऊर्मिर ताहॆ खॆला",
+      "कामक्रॊध आदि छय,    बाटपाḓऎ दॆय भय,",
+      "अबसान हैल आसिऽ बॆला २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আশাপাশ শতশত,    ক্লেশ দেয় অবিরত,",
+      "প্রব্ড়্ত্তিঊর্মির তাহে খেলা",
+      "কামক্রোধ আদি ছয়,    বাটপাḓএ দেয় ভয়,",
+      "অবসান হৈল আসিঽ বেলা ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆଶାପାଶ ଶତଶତ,    କ୍ଲେଶ ଦେୟ ଅବିରତ,",
+      "ପ୍ରବ୍ଡ଼୍ତ୍ତିଊର୍ମିର ତାହେ ଖେଲା",
+      "କାମକ୍ରୋଧ ଆଦି ଛୟ,    ବାଟପାḓଏ ଦେୟ ଭୟ,",
+      "ଅବସାନ ହୈଲ ଆସିଽ ବେଲା ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આશાપાશ શતશત,    ક્લેશ દેય અબિરત,",
+      "પ્રબ્ડ઼્ત્તિઊર્મિર તાહે ખેલા",
+      "કામક્રોધ આદિ છય,    બાટપાḓએ દેય ભય,",
+      "અબસાન હૈલ આસિઽ બેલા ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "āśā-pāśa śataśata,    kleśa deya abirata,",
+      "prabṛtti-ūrmira tāhe khelā",
+      "kāma-krodha ādi chaya,    bāṭapāḓe deya bhaya,",
+      "abasāna haila āsi’ belā 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆಶಾಪಾಶ ಶತಶತ,    ಕ್ಲೆಶ ದೆಯ ಅಬಿರತ,",
+      "ಪ್ರಬ್‌ಡ಼್ತ್ತಿಊರ್ಮಿರ ತಾಹೆ ಖೆಲಾ",
+      "ಕಾಮಕ್ರೊಧ ಆದಿ ಛಯ,    ಬಾಟಪಾḓಎ ದೆಯ ಭಯ,",
+      "ಅಬಸಾನ ಹೈಲ ಆಸಿಽ ಬೆಲಾ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆశాపాశ శతశత,    క్లెశ దెయ అబిరత,",
+      "ప్రబ్డ్త్తిఊర్మిర తాహె ఖెలా",
+      "కామక్రొధ ఆది ఛయ,    బాటపాḓఎ దెయ భయ,",
+      "అబసాన హైల ఆసిఽ బెలా 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄ш́а̄па̄ш́а ш́аташ́ата,    клэ̆ш́а дэ̆йа абирата,",
+      "прабр̤ттиӯрмира та̄хэ̆ кхэ̆ла̄",
+      "ка̄макро̆дха а̄ди чхайа,    ба̄т̣апа̄ḓэ̆ дэ̆йа бхайа,",
+      "абаса̄на хаила а̄си' бэ̆ла̄ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആശാപാശ ശതശത,    ക്ലെശ ദെയ അബിരത,",
+      "പ്രബ്ഡ്ത്തിഊർമിര താഹെ ഖെലാ",
+      "കാമക്രൊധ ആദി ഛയ,    ബാടപാḓഎ ദെയ ഭയ,",
+      "അബസാന ഹൈല ആസിഽ ബെലാ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆஶாபாஶ ஶதஶத,    க்லெஶ தெ³ய அபி³ரத,",
+      "ப்ரப்³ஃட்²த்திஊர்மிர தாஹெ கெ²லா",
+      "காமக்ரொத⁴ ஆதி³ ச²ய,    பா³டபாḓஎ தெ³ய ப⁴ய,",
+      "அப³ஸான ஹைல ஆஸி(அ) பெ³லா 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "āśā-pāśa śataśata,    kleśa deya abirata,",
+      "prabṛtti-ūrmira tāhe khelā",
+      "kāma-krodha ādi chaya,    bāṭapāḍe deya bhaya,",
+      "abasāna haila āsi’ belā 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "āśā-pāśa śataśata,    kleśa deya abirata,",
+      "prabṛtti-ūrmira tāhe khelā",
+      "kāma-krodha ādi chaya,    bāṭapāḓe deya bhaya,",
+      "abasāna haila āsi’ belā 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "jñāna[FLAG_HYPHEN_ALPHA]karma[FLAG_HYPHEN_ALPHA]ṭhaga dui,    more pratāriyā la·i,",
+    "abaśeṣe phele sindhu[FLAG_HYPHEN_ALPHA]jale",
+    "e hena samaye bandhu,    tumi kṛṣṇa kṛpāsindhu,",
+    "kṛpā kari’ tola more bale 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Having cheated me, the two thugs of jñāna and karma finally throw me into that ocean’s waters. This is a critical time, O Kṛṣṇa, my dear friend. Kindly lift me from those waters with Your strength, for You are an ocean of compassion."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "jñāna",
+       "knowledge"
+      ],
+      [
+       "karma",
+       "mundane fruitive activities"
+      ],
+      [
+       "ṭhaga",
+       "thugs"
+      ],
+      [
+       "dui",
+       "two"
+      ],
+      [
+       "more",
+       "to me"
+      ],
+      [
+       "pratāriyā",
+       "having cheated"
+      ],
+      [
+       "la·i",
+       "having taken"
+      ],
+      [
+       "abaśeṣe",
+       "in the end, finally"
+      ],
+      [
+       "phele",
+       "throw"
+      ],
+      [
+       "sindhu",
+       "ocean"
+      ],
+      [
+       "jale",
+       "in the waters"
+      ],
+      [
+       "e",
+       "this"
+      ],
+      [
+       "hena",
+       "such"
+      ],
+      [
+       "samaye",
+       "in time"
+      ],
+      [
+       "bandhu",
+       "friend"
+      ],
+      [
+       "tumi",
+       "You"
+      ],
+      [
+       "kṛṣṇa",
+       "Kṛṣṇa"
+      ],
+      [
+       "kṛpāsindhu",
+       "mercy + ocean"
+      ],
+      [
+       "kṛpā kari’",
+       "kindly, mercifully"
+      ],
+      [
+       "tola",
+       "lift"
+      ],
+      [
+       "more",
+       "to me"
+      ],
+      [
+       "bale",
+       "by strength"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ज्ञान",
+       "knowledge"
+      ],
+      [
+       "कर्म",
+       "mundane fruitive activities"
+      ],
+      [
+       "ठग",
+       "thugs"
+      ],
+      [
+       "दुइ",
+       "two"
+      ],
+      [
+       "मॊरॆ",
+       "to me"
+      ],
+      [
+       "प्रतारिया",
+       "having cheated"
+      ],
+      [
+       "लइ",
+       "having taken"
+      ],
+      [
+       "अबशॆषॆ",
+       "in the end, finally"
+      ],
+      [
+       "फॆलॆ",
+       "throw"
+      ],
+      [
+       "सिन्धु",
+       "ocean"
+      ],
+      [
+       "जलॆ",
+       "in the waters"
+      ],
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "हॆन",
+       "such"
+      ],
+      [
+       "समयॆ",
+       "in time"
+      ],
+      [
+       "बन्धु",
+       "friend"
+      ],
+      [
+       "तुमि",
+       "You"
+      ],
+      [
+       "क्ड़्ष्ण",
+       "Kṛṣṇa"
+      ],
+      [
+       "क्ड़्पासिन्धु",
+       "mercy + ocean"
+      ],
+      [
+       "क्ड़्पा करिऽ",
+       "kindly, mercifully"
+      ],
+      [
+       "तॊल",
+       "lift"
+      ],
+      [
+       "मॊरॆ",
+       "to me"
+      ],
+      [
+       "बलॆ",
+       "by strength"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "জ্ঞান",
+       "knowledge"
+      ],
+      [
+       "কর্ম",
+       "mundane fruitive activities"
+      ],
+      [
+       "ঠগ",
+       "thugs"
+      ],
+      [
+       "দুই",
+       "two"
+      ],
+      [
+       "মোরে",
+       "to me"
+      ],
+      [
+       "প্রতারিয়া",
+       "having cheated"
+      ],
+      [
+       "লই",
+       "having taken"
+      ],
+      [
+       "অবশেষে",
+       "in the end, finally"
+      ],
+      [
+       "ফেলে",
+       "throw"
+      ],
+      [
+       "সিন্ধু",
+       "ocean"
+      ],
+      [
+       "জলে",
+       "in the waters"
+      ],
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "হেন",
+       "such"
+      ],
+      [
+       "সময়ে",
+       "in time"
+      ],
+      [
+       "বন্ধু",
+       "friend"
+      ],
+      [
+       "তুমি",
+       "You"
+      ],
+      [
+       "ক্ড়্ষ্ণ",
+       "Kṛṣṇa"
+      ],
+      [
+       "ক্ড়্পাসিন্ধু",
+       "mercy + ocean"
+      ],
+      [
+       "ক্ড়্পা করিঽ",
+       "kindly, mercifully"
+      ],
+      [
+       "তোল",
+       "lift"
+      ],
+      [
+       "মোরে",
+       "to me"
+      ],
+      [
+       "বলে",
+       "by strength"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "જ્ઞાન",
+       "knowledge"
+      ],
+      [
+       "કર્મ",
+       "mundane fruitive activities"
+      ],
+      [
+       "ઠગ",
+       "thugs"
+      ],
+      [
+       "દુઇ",
+       "two"
+      ],
+      [
+       "મોરે",
+       "to me"
+      ],
+      [
+       "પ્રતારિયા",
+       "having cheated"
+      ],
+      [
+       "લઇ",
+       "having taken"
+      ],
+      [
+       "અબશેષે",
+       "in the end, finally"
+      ],
+      [
+       "ફેલે",
+       "throw"
+      ],
+      [
+       "સિન્ધુ",
+       "ocean"
+      ],
+      [
+       "જલે",
+       "in the waters"
+      ],
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "હેન",
+       "such"
+      ],
+      [
+       "સમયે",
+       "in time"
+      ],
+      [
+       "બન્ધુ",
+       "friend"
+      ],
+      [
+       "તુમિ",
+       "You"
+      ],
+      [
+       "ક્ડ઼્ષ્ણ",
+       "Kṛṣṇa"
+      ],
+      [
+       "ક્ડ઼્પાસિન્ધુ",
+       "mercy + ocean"
+      ],
+      [
+       "ક્ડ઼્પા કરિઽ",
+       "kindly, mercifully"
+      ],
+      [
+       "તોલ",
+       "lift"
+      ],
+      [
+       "મોરે",
+       "to me"
+      ],
+      [
+       "બલે",
+       "by strength"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ज्ञानकर्मठग दुइ,    मॊरॆ प्रतारिया लइ,",
+      "अबशॆषॆ फॆलॆ सिन्धुजलॆ",
+      "ऎ हॆन समयॆ बन्धु,    तुमि क्ड़्ष्ण क्ड़्पासिन्धु,",
+      "क्ड़्पा करिऽ तॊल मॊरॆ बलॆ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জ্ঞানকর্মঠগ দুই,    মোরে প্রতারিয়া লই,",
+      "অবশেষে ফেলে সিন্ধুজলে",
+      "এ হেন সময়ে বন্ধু,    তুমি ক্ড়্ষ্ণ ক্ড়্পাসিন্ধু,",
+      "ক্ড়্পা করিঽ তোল মোরে বলে ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜ୍ଞାନକର୍ମଠଗ ଦୁଇ,    ମୋରେ ପ୍ରତାରିୟା ଲଇ,",
+      "ଅବଶେଷେ ଫେଲେ ସିନ୍ଧୁଜଲେ",
+      "ଏ ହେନ ସମୟେ ବନ୍ଧୁ,    ତୁମି କ୍ଡ଼୍ଷ୍ଣ କ୍ଡ଼୍ପାସିନ୍ଧୁ,",
+      "କ୍ଡ଼୍ପା କରିଽ ତୋଲ ମୋରେ ବଲେ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જ્ઞાનકર્મઠગ દુઇ,    મોરે પ્રતારિયા લઇ,",
+      "અબશેષે ફેલે સિન્ધુજલે",
+      "એ હેન સમયે બન્ધુ,    તુમિ ક્ડ઼્ષ્ણ ક્ડ઼્પાસિન્ધુ,",
+      "ક્ડ઼્પા કરિઽ તોલ મોરે બલે ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jñāna-karma-ṭhaga dui,    more pratāriyā la·i,",
+      "abaśeṣe phele sindhu-jale",
+      "e hena samaye bandhu,    tumi kṛṣṇa kṛpāsindhu,",
+      "kṛpā kari’ tola more bale 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜ್ಞಾನಕರ್ಮಠಗ ದುಇ,    ಮೊರೆ ಪ್ರತಾರಿಯಾ ಲಇ,",
+      "ಅಬಶೆಷೆ ಫೆಲೆ ಸಿಂಧುಜಲೆ",
+      "ಎ ಹೆನ ಸಮಯೆ ಬಂಧು,    ತುಮಿ ಕ್‌ಡ಼್ಷ್ಣ ಕ್‌ಡ಼್ಪಾಸಿಂಧು,",
+      "ಕ್‌ಡ಼್ಪಾ ಕರಿಽ ತೊಲ ಮೊರೆ ಬಲೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జ్ఞానకర్మఠగ దుఇ,    మొరె ప్రతారియా లఇ,",
+      "అబశెషె ఫెలె సింధుజలె",
+      "ఎ హెన సమయె బంధు,    తుమి క్డ్ష్ణ క్డ్పాసింధు,",
+      "క్డ్పా కరిఽ తొల మొరె బలె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джн̃а̄накармат̣хага дуи,    мо̆рэ̆ прата̄рийа̄ лаи,",
+      "абаш́э̆шэ̆ пхэ̆лэ̆ синдхуджалэ̆",
+      "э̆ хэ̆на самайэ̆ бандху,    туми кр̤шн̣а кр̤па̄синдху,",
+      "кр̤па̄ кари' то̆ла мо̆рэ̆ балэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജ്ഞാനകർമഠഗ ദുഇ,    മൊരെ പ്രതാരിയാ ലഇ,",
+      "അബശെഷെ ഫെലെ സിന്ധുജലെ",
+      "എ ഹെന സമയെ ബന്ധു,    തുമി ക്ഡ്ഷ്ണ ക്ഡ്പാസിന്ധു,",
+      "ക്ഡ്പാ കരിഽ തൊല മൊരെ ബലെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜ்ஞானகர்மட²க³ து³இ,    மொரெ ப்ரதாரியா லஇ,",
+      "அப³ஶெஷெ பெ²லெ ஸிந்து⁴ஜலெ",
+      "எ ஹென ஸமயெ ப³ந்து⁴,    துமி க்ஃட்²ஷ்ண க்ஃட்²பாஸிந்து⁴,",
+      "க்ஃட்²பா கரி(அ) தொல மொரெ ப³லெ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jñāna-karma-ṭhaga dui,    more pratāriyā la·i,",
+      "abaśeṣe phele sindhu-jale",
+      "e hena samaye bandhu,    tumi kṛṣṇa kṛpāsindhu,",
+      "kṛpā kari’ tola more bale 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jñāna-karma-ṭhaga dui,    more pratāriyā la·i,",
+      "abaśeṣe phele sindhu-jale",
+      "e hena samaye bandhu,    tumi kṛṣṇa kṛpāsindhu,",
+      "kṛpā kari’ tola more bale 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "patita kiṅkare dhari’,    pādapadmadhūli kari’,",
+    "deha bhaktibinode āśraya",
+    "ami taba nityadāsa,    bhuliyā māyāra pāśa,",
+    "baddha ha’ye āchi dayāmaya 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Taking this fallen servant and making him a particle of dust at Your lotus feet, give this Bhaktivinoda sanctuary. O merciful Lord, I am actually Your eternal servant, but having forgotten this, I remain bound by the trap of māyā."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "patita",
+       "fallen"
+      ],
+      [
+       "kiṅkare",
+       "to servant"
+      ],
+      [
+       "dhari’",
+       "having caught, taken by the hand"
+      ],
+      [
+       "pādapadmadhūli",
+       "feet + lotus + dust"
+      ],
+      [
+       "kari’",
+       "having made"
+      ],
+      [
+       "deha",
+       "give"
+      ],
+      [
+       "bhaktibinode",
+       "to Bhaktivinoda"
+      ],
+      [
+       "āśraya",
+       "shelter"
+      ],
+      [
+       "ami",
+       "I"
+      ],
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "nityadāsa",
+       "eternal + servant"
+      ],
+      [
+       "bhuliyā",
+       "having forgotten"
+      ],
+      [
+       "māyāra",
+       "of illusion"
+      ],
+      [
+       "pāśa",
+       "trap, snare, bondage"
+      ],
+      [
+       "baddha",
+       "bound"
+      ],
+      [
+       "ha’ye",
+       "having become"
+      ],
+      [
+       "āchi",
+       "I am"
+      ],
+      [
+       "dayāmaya",
+       "O merciful one"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "पतित",
+       "fallen"
+      ],
+      [
+       "किङ्करॆ",
+       "to servant"
+      ],
+      [
+       "धरिऽ",
+       "having caught, taken by the hand"
+      ],
+      [
+       "पादपद्मधूलि",
+       "feet + lotus + dust"
+      ],
+      [
+       "करिऽ",
+       "having made"
+      ],
+      [
+       "दॆह",
+       "give"
+      ],
+      [
+       "भक्तिबिनॊदॆ",
+       "to Bhaktivinoda"
+      ],
+      [
+       "आश्रय",
+       "shelter"
+      ],
+      [
+       "अमि",
+       "I"
+      ],
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "नित्यदास",
+       "eternal + servant"
+      ],
+      [
+       "भुलिया",
+       "having forgotten"
+      ],
+      [
+       "मायार",
+       "of illusion"
+      ],
+      [
+       "पाश",
+       "trap, snare, bondage"
+      ],
+      [
+       "बद्ध",
+       "bound"
+      ],
+      [
+       "हऽयॆ",
+       "having become"
+      ],
+      [
+       "आछि",
+       "I am"
+      ],
+      [
+       "दयामय",
+       "O merciful one"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "পতিত",
+       "fallen"
+      ],
+      [
+       "কিঙ্করে",
+       "to servant"
+      ],
+      [
+       "ধরিঽ",
+       "having caught, taken by the hand"
+      ],
+      [
+       "পাদপদ্মধূলি",
+       "feet + lotus + dust"
+      ],
+      [
+       "করিঽ",
+       "having made"
+      ],
+      [
+       "দেহ",
+       "give"
+      ],
+      [
+       "ভক্তিবিনোদে",
+       "to Bhaktivinoda"
+      ],
+      [
+       "আশ্রয়",
+       "shelter"
+      ],
+      [
+       "অমি",
+       "I"
+      ],
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "নিত্যদাস",
+       "eternal + servant"
+      ],
+      [
+       "ভুলিয়া",
+       "having forgotten"
+      ],
+      [
+       "মায়ার",
+       "of illusion"
+      ],
+      [
+       "পাশ",
+       "trap, snare, bondage"
+      ],
+      [
+       "বদ্ধ",
+       "bound"
+      ],
+      [
+       "হঽয়ে",
+       "having become"
+      ],
+      [
+       "আছি",
+       "I am"
+      ],
+      [
+       "দয়াময়",
+       "O merciful one"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "પતિત",
+       "fallen"
+      ],
+      [
+       "કિઙ્કરે",
+       "to servant"
+      ],
+      [
+       "ધરિઽ",
+       "having caught, taken by the hand"
+      ],
+      [
+       "પાદપદ્મધૂલિ",
+       "feet + lotus + dust"
+      ],
+      [
+       "કરિઽ",
+       "having made"
+      ],
+      [
+       "દેહ",
+       "give"
+      ],
+      [
+       "ભક્તિબિનોદે",
+       "to Bhaktivinoda"
+      ],
+      [
+       "આશ્રય",
+       "shelter"
+      ],
+      [
+       "અમિ",
+       "I"
+      ],
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "નિત્યદાસ",
+       "eternal + servant"
+      ],
+      [
+       "ભુલિયા",
+       "having forgotten"
+      ],
+      [
+       "માયાર",
+       "of illusion"
+      ],
+      [
+       "પાશ",
+       "trap, snare, bondage"
+      ],
+      [
+       "બદ્ધ",
+       "bound"
+      ],
+      [
+       "હઽયે",
+       "having become"
+      ],
+      [
+       "આછિ",
+       "I am"
+      ],
+      [
+       "દયામય",
+       "O merciful one"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "पतित किङ्करॆ धरिऽ,    पादपद्मधूलि करिऽ,",
+      "दॆह भक्तिबिनॊदॆ आश्रय",
+      "अमि तब नित्यदास,    भुलिया मायार पाश,",
+      "बद्ध हऽयॆ आछि दयामय ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "পতিত কিঙ্করে ধরিঽ,    পাদপদ্মধূলি করিঽ,",
+      "দেহ ভক্তিবিনোদে আশ্রয়",
+      "অমি তব নিত্যদাস,    ভুলিয়া মায়ার পাশ,",
+      "বদ্ধ হঽয়ে আছি দয়াময় ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପତିତ କିଙ୍କରେ ଧରିଽ,    ପାଦପଦ୍ମଧୂଲି କରିଽ,",
+      "ଦେହ ଭକ୍ତିବିନୋଦେ ଆଶ୍ରୟ",
+      "ଅମି ତବ ନିତ୍ୟଦାସ,    ଭୁଲିୟା ମାୟାର ପାଶ,",
+      "ବଦ୍ଧ ହଽୟେ ଆଛି ଦୟାମୟ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પતિત કિઙ્કરે ધરિઽ,    પાદપદ્મધૂલિ કરિઽ,",
+      "દેહ ભક્તિબિનોદે આશ્રય",
+      "અમિ તબ નિત્યદાસ,    ભુલિયા માયાર પાશ,",
+      "બદ્ધ હઽયે આછિ દયામય ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "patita kiṅkare dhari’,    pādapadmadhūli kari’,",
+      "deha bhaktibinode āśraya",
+      "ami taba nityadāsa,    bhuliyā māyāra pāśa,",
+      "baddha ha’ye āchi dayāmaya 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪತಿತ ಕಿಂಕರೆ ಧರಿಽ,    ಪಾದಪದ್ಮಧೂಲಿ ಕರಿಽ,",
+      "ದೆಹ ಭಕ್ತಿಬಿನೊದೆ ಆಶ್ರಯ",
+      "ಅಮಿ ತಬ ನಿತ್ಯದಾಸ,    ಭುಲಿಯಾ ಮಾಯಾರ ಪಾಶ,",
+      "ಬದ್ಧ ಹಽಯೆ ಆಛಿ ದಯಾಮಯ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "పతిత కింకరె ధరిఽ,    పాదపద్మధూలి కరిఽ,",
+      "దెహ భక్తిబినొదె ఆశ్రయ",
+      "అమి తబ నిత్యదాస,    భులియా మాయార పాశ,",
+      "బద్ధ హఽయె ఆఛి దయామయ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "патита кин̇карэ̆ дхари',    па̄дападмадхӯли кари',",
+      "дэ̆ха бхактибино̆дэ̆ а̄ш́райа",
+      "ами таба нитйада̄са,    бхулийа̄ ма̄йа̄ра па̄ш́а,",
+      "баддха ха'йэ̆ а̄чхи дайа̄майа 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പതിത കിങ്കരെ ധരിഽ,    പാദപദ്മധൂലി കരിഽ,",
+      "ദെഹ ഭക്തിബിനൊദെ ആശ്രയ",
+      "അമി തബ നിത്യദാസ,    ഭുലിയാ മായാര പാശ,",
+      "ബദ്ധ ഹഽയെ ആഛി ദയാമയ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பதித கிங்கரெ த⁴ரி(அ),    பாத³பத்³மதூ⁴லி கரி(அ),",
+      "தெ³ஹ ப⁴க்திபி³னொதெ³ ஆஶ்ரய",
+      "அமி தப³ நித்யதா³ஸ,    பு⁴லியா மாயார பாஶ,",
+      "ப³த்³த⁴ ஹ(அ)யெ ஆசி² த³யாமய 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "patita kiṅkare dhari’,    pādapadmadhūli kari’,",
+      "deha bhaktibinode āśraya",
+      "ami taba nityadāsa,    bhuliyā māyāra pāśa,",
+      "baddha ha’ye āchi dayāmaya 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "patita kiṅkare dhari’,    pādapadmadhūli kari’,",
+      "deha bhaktibinode āśraya",
+      "ami taba nityadāsa,    bhuliyā māyāra pāśa,",
+      "baddha ha’ye āchi dayāmaya 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "অয়ি নন্দতনুজ কিঙ্করং"
+  },
+  {
+   "language_code": "ben",
+   "text": "পতিতং মাং বিষমে ভবাম্বুধৌ ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "কৃপয়া তব পাদপঙ্কজ-"
+  },
+  {
+   "language_code": "ben",
+   "text": "স্থিত-ধূলীসদৃশং বিচিন্তয় ॥ঙ॥"
+  },
+  {
+   "language_code": "ben",
+   "text": ""
+  },
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- প্রবৃত্তি—সংসারসুখ-প্রাপক চেষ্টা; ঊর্ম্মি—ঢেউ ।"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "srrb-1",
+   "filename": "SI5-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ]
+}

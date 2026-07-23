@@ -1,0 +1,1508 @@
+{
+ "uid": "A8",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "যশোমতী-নন্দন"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "yaśomatī-nandana"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "yaśomatī[FLAG_HYPHEN_ALPHA]nandana,    brajabara[FLAG_HYPHEN_ALPHA]nāgara,",
+    "gokula[FLAG_HYPHEN_ALPHA]rañjana kāna",
+    "gopī[FLAG_HYPHEN_ALPHA]parāṇadhana,    madana[FLAG_HYPHEN_ALPHA]manohara,",
+    "kālīya[FLAG_HYPHEN_ALPHA]damana[FLAG_HYPHEN_ALPHA]bidhāna 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Kṛṣṇa is the beloved son of Mother Yaśodā, the topmost hero of Vraja, the delight of Gokula, and Kāna [an affectionate nickname for Kṛṣṇa]. He is the treasure of the lives of the gopīs, the enchanter of Cupid, and the punisher of the serpent Kālīya."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "yaśomatī",
+       "Mother Yaśodā"
+      ],
+      [
+       "nandana",
+       "son"
+      ],
+      [
+       "brajabara",
+       "Vraja + topmost"
+      ],
+      [
+       "nāgara",
+       "hero"
+      ],
+      [
+       "gokula",
+       "Gokula"
+      ],
+      [
+       "rañjana",
+       "delight"
+      ],
+      [
+       "kāna",
+       "[an affectionate name for Kṛṣṇa]"
+      ],
+      [
+       "gopī",
+       "cowherd damsels"
+      ],
+      [
+       "parāṇadhana",
+       "life + treasure"
+      ],
+      [
+       "madana",
+       "cupid"
+      ],
+      [
+       "manohara",
+       "enchanter"
+      ],
+      [
+       "kālīya",
+       "the serpent Kālīya"
+      ],
+      [
+       "damana",
+       "subdual"
+      ],
+      [
+       "bidhāna",
+       "regulator"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "यशॊमती",
+       "Mother Yaśodā"
+      ],
+      [
+       "नन्दन",
+       "son"
+      ],
+      [
+       "ब्रजबर",
+       "Vraja + topmost"
+      ],
+      [
+       "नागर",
+       "hero"
+      ],
+      [
+       "गॊकुल",
+       "Gokula"
+      ],
+      [
+       "रञ्जन",
+       "delight"
+      ],
+      [
+       "कान",
+       "[an affectionate name for Kṛṣṇa]"
+      ],
+      [
+       "गॊपी",
+       "cowherd damsels"
+      ],
+      [
+       "पराणधन",
+       "life + treasure"
+      ],
+      [
+       "मदन",
+       "cupid"
+      ],
+      [
+       "मनॊहर",
+       "enchanter"
+      ],
+      [
+       "कालीय",
+       "the serpent Kālīya"
+      ],
+      [
+       "दमन",
+       "subdual"
+      ],
+      [
+       "बिधान",
+       "regulator"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "যশোমতী",
+       "Mother Yaśodā"
+      ],
+      [
+       "নন্দন",
+       "son"
+      ],
+      [
+       "ব্রজবর",
+       "Vraja + topmost"
+      ],
+      [
+       "নাগর",
+       "hero"
+      ],
+      [
+       "গোকুল",
+       "Gokula"
+      ],
+      [
+       "রঞ্জন",
+       "delight"
+      ],
+      [
+       "কান",
+       "[an affectionate name for Kṛṣṇa]"
+      ],
+      [
+       "গোপী",
+       "cowherd damsels"
+      ],
+      [
+       "পরাণধন",
+       "life + treasure"
+      ],
+      [
+       "মদন",
+       "cupid"
+      ],
+      [
+       "মনোহর",
+       "enchanter"
+      ],
+      [
+       "কালীয়",
+       "the serpent Kālīya"
+      ],
+      [
+       "দমন",
+       "subdual"
+      ],
+      [
+       "বিধান",
+       "regulator"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "યશોમતી",
+       "Mother Yaśodā"
+      ],
+      [
+       "નન્દન",
+       "son"
+      ],
+      [
+       "બ્રજબર",
+       "Vraja + topmost"
+      ],
+      [
+       "નાગર",
+       "hero"
+      ],
+      [
+       "ગોકુલ",
+       "Gokula"
+      ],
+      [
+       "રઞ્જન",
+       "delight"
+      ],
+      [
+       "કાન",
+       "[an affectionate name for Kṛṣṇa]"
+      ],
+      [
+       "ગોપી",
+       "cowherd damsels"
+      ],
+      [
+       "પરાણધન",
+       "life + treasure"
+      ],
+      [
+       "મદન",
+       "cupid"
+      ],
+      [
+       "મનોહર",
+       "enchanter"
+      ],
+      [
+       "કાલીય",
+       "the serpent Kālīya"
+      ],
+      [
+       "દમન",
+       "subdual"
+      ],
+      [
+       "બિધાન",
+       "regulator"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "यशॊमतीनन्दन,    ब्रजबरनागर,",
+      "गॊकुलरञ्जन कान",
+      "गॊपीपराणधन,    मदनमनॊहर,",
+      "कालीयदमनबिधान १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "যশোমতীনন্দন,    ব্রজবরনাগর,",
+      "গোকুলরঞ্জন কান",
+      "গোপীপরাণধন,    মদনমনোহর,",
+      "কালীয়দমনবিধান ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଯଶୋମତୀନନ୍ଦନ,    ବ୍ରଜବରନାଗର,",
+      "ଗୋକୁଲରଞ୍ଜନ କାନ",
+      "ଗୋପୀପରାଣଧନ,    ମଦନମନୋହର,",
+      "କାଲୀୟଦମନବିଧାନ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "યશોમતીનન્દન,    બ્રજબરનાગર,",
+      "ગોકુલરઞ્જન કાન",
+      "ગોપીપરાણધન,    મદનમનોહર,",
+      "કાલીયદમનબિધાન ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "yaśomatī-nandana,    brajabara-nāgara,",
+      "gokula-rañjana kāna",
+      "gopī-parāṇadhana,    madana-manohara,",
+      "kālīya-damana-bidhāna 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಯಶೊಮತೀನಂದನ,    ಬ್ರಜಬರನಾಗರ,",
+      "ಗೊಕುಲರಂಜನ ಕಾನ",
+      "ಗೊಪೀಪರಾಣಧನ,    ಮದನಮನೊಹರ,",
+      "ಕಾಲೀಯದಮನಬಿಧಾನ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "యశొమతీనందన,    బ్రజబరనాగర,",
+      "గొకులరంజన కాన",
+      "గొపీపరాణధన,    మదనమనొహర,",
+      "కాలీయదమనబిధాన 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "йаш́о̆матӣнандана,    браджабарана̄гара,",
+      "го̆куларан̃джана ка̄на",
+      "го̆пӣпара̄н̣адхана,    маданамано̆хара,",
+      "ка̄лӣйадаманабидха̄на 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "യശൊമതീനന്ദന,    ബ്രജബരനാഗര,",
+      "ഗൊകുലരഞ്ജന കാന",
+      "ഗൊപീപരാണധന,    മദനമനൊഹര,",
+      "കാലീയദമനബിധാന 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "யஶொமதீநந்த³ன,    ப்³ரஜப³ரநாக³ர,",
+      "கொ³குலரஞ்ஜன கான",
+      "கொ³பீபராணத⁴ன,    மத³னமனொஹர,",
+      "காலீயத³மனபி³தா⁴ன 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "yaśomatī-nandana,    brajabara-nāgara,",
+      "gokula-rañjana kāna",
+      "gopī-parāṇadhana,    madana-manohara,",
+      "kālīya-damana-bidhāna 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "yaśomatī-nandana,    brajabara-nāgara,",
+      "gokula-rañjana kāna",
+      "gopī-parāṇadhana,    madana-manohara,",
+      "kālīya-damana-bidhāna 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "amala harināma amiya[FLAG_HYPHEN_ALPHA]bilāsā",
+    "bipina[FLAG_HYPHEN_ALPHA]purandara,    nabīna[FLAG_HYPHEN_ALPHA]nāgarabara,",
+    "baṁśībadana, subāsā 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "These spotless holy names are filled with Kṛṣṇa’s nectarean pastimes. He is the king of the forests of Vraja and the supreme youthful lover. He holds the flute to His mouth and wears very beautiful garments."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "amala",
+       "spotless"
+      ],
+      [
+       "harināma",
+       "names of Hari"
+      ],
+      [
+       "amiya",
+       "nectar"
+      ],
+      [
+       "bilāsā",
+       "pastimes"
+      ],
+      [
+       "bipina",
+       "forest"
+      ],
+      [
+       "purandara",
+       "king"
+      ],
+      [
+       "nabīna",
+       "youthful"
+      ],
+      [
+       "nāgarabara",
+       "hero + supreme"
+      ],
+      [
+       "baṁśībadana",
+       "Vaṁśī flute + mouth"
+      ],
+      [
+       "subāsā",
+       "beautiful garments"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "अमल",
+       "spotless"
+      ],
+      [
+       "हरिनाम",
+       "names of Hari"
+      ],
+      [
+       "अमिय",
+       "nectar"
+      ],
+      [
+       "बिलासा",
+       "pastimes"
+      ],
+      [
+       "बिपिन",
+       "forest"
+      ],
+      [
+       "पुरन्दर",
+       "king"
+      ],
+      [
+       "नबीन",
+       "youthful"
+      ],
+      [
+       "नागरबर",
+       "hero + supreme"
+      ],
+      [
+       "बंशीबदन",
+       "Vaṁśī flute + mouth"
+      ],
+      [
+       "सुबासा",
+       "beautiful garments"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "অমল",
+       "spotless"
+      ],
+      [
+       "হরিনাম",
+       "names of Hari"
+      ],
+      [
+       "অমিয়",
+       "nectar"
+      ],
+      [
+       "বিলাসা",
+       "pastimes"
+      ],
+      [
+       "বিপিন",
+       "forest"
+      ],
+      [
+       "পুরন্দর",
+       "king"
+      ],
+      [
+       "নবীন",
+       "youthful"
+      ],
+      [
+       "নাগরবর",
+       "hero + supreme"
+      ],
+      [
+       "বংশীবদন",
+       "Vaṁśī flute + mouth"
+      ],
+      [
+       "সুবাসা",
+       "beautiful garments"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "અમલ",
+       "spotless"
+      ],
+      [
+       "હરિનામ",
+       "names of Hari"
+      ],
+      [
+       "અમિય",
+       "nectar"
+      ],
+      [
+       "બિલાસા",
+       "pastimes"
+      ],
+      [
+       "બિપિન",
+       "forest"
+      ],
+      [
+       "પુરન્દર",
+       "king"
+      ],
+      [
+       "નબીન",
+       "youthful"
+      ],
+      [
+       "નાગરબર",
+       "hero + supreme"
+      ],
+      [
+       "બંશીબદન",
+       "Vaṁśī flute + mouth"
+      ],
+      [
+       "સુબાસા",
+       "beautiful garments"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अमल हरिनाम अमियबिलासा",
+      "बिपिनपुरन्दर,    नबीननागरबर,",
+      "बंशीबदन, सुबासा २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অমল হরিনাম অমিয়বিলাসা",
+      "বিপিনপুরন্দর,    নবীননাগরবর,",
+      "বংশীবদন, সুবাসা ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅମଲ ହରିନାମ ଅମିୟବିଲାସା",
+      "ବିପିନପୁରନ୍ଦର,    ନବୀନନାଗରବର,",
+      "ବଂଶୀବଦନ, ସୁବାସା ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અમલ હરિનામ અમિયબિલાસા",
+      "બિપિનપુરન્દર,    નબીનનાગરબર,",
+      "બંશીબદન, સુબાસા ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "amala harināma amiya-bilāsā",
+      "bipina-purandara,    nabīna-nāgarabara,",
+      "baṁśībadana, subāsā 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅಮಲ ಹರಿನಾಮ ಅಮಿಯಬಿಲಾಸಾ",
+      "ಬಿಪಿನಪುರಂದರ,    ನಬೀನನಾಗರಬರ,",
+      "ಬಂಶೀಬದನ, ಸುಬಾಸಾ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అమల హరినామ అమియబిలాసా",
+      "బిపినపురందర,    నబీననాగరబర,",
+      "బంశీబదన, సుబాసా 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "амала харина̄ма амийабила̄са̄",
+      "бипинапурандара,    набӣнана̄гарабара,",
+      "бам̣ш́ӣбадана, суба̄са̄ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അമല ഹരിനാമ അമിയബിലാസാ",
+      "ബിപിനപുരന്ദര,    നബീനനാഗരബര,",
+      "ബംശീബദന, സുബാസാ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அமல ஹரிநாம அமியபி³லாஸா",
+      "பி³பினபுரந்த³ர,    நபீ³னநாக³ரப³ர,",
+      "ப³ம்ʼஶீப³த³ன, ஸுபா³ஸா 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "amala harināma amiya-bilāsā",
+      "bipina-purandara,    nabīna-nāgarabara,",
+      "baṁśībadana, subāsā 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "amala harināma amiya-bilāsā",
+      "bipina-purandara,    nabīna-nāgarabara,",
+      "baṁśībadana, subāsā 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "brajajana[FLAG_HYPHEN_ALPHA]pālana,    asurakula[FLAG_HYPHEN_ALPHA]nāśana,",
+    "nanda[FLAG_HYPHEN_ALPHA]godhana[FLAG_HYPHEN_ALPHA]rākhaoyālā",
+    "gobinda, mādhaba,    nabanīta[FLAG_HYPHEN_ALPHA]taskara,",
+    "sundara nandagopālā 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "He is the maintainer of the residents of Vraja, the killer of many demons, and the protector of Nanda Mahārāja’s herd of cows. He is Govinda (the giver of pleasure to the cows, gopas, and gopīs) and Mādhava (the consort of the topmost Lakṣmī). He is a butter thief and the beautiful cowherd boy of Nanda."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "brajajana",
+       "Vraja + people"
+      ],
+      [
+       "pālana",
+       "maintenance"
+      ],
+      [
+       "asurakula",
+       "demons + group"
+      ],
+      [
+       "nāśana",
+       "destroying"
+      ],
+      [
+       "nanda",
+       "Nanda Mahārāja"
+      ],
+      [
+       "godhana",
+       "herd of cows (lit. cow-wealth)"
+      ],
+      [
+       "rākhaoyālā",
+       "protector"
+      ],
+      [
+       "gobinda",
+       "giver of pleasure to the cows, gopas, and gopīs)"
+      ],
+      [
+       "mādhaba",
+       "the consort of the original Lakṣmī, Śrīmatī Rādhikā"
+      ],
+      [
+       "nabanīta",
+       "butter"
+      ],
+      [
+       "taskara",
+       "theif"
+      ],
+      [
+       "sundara",
+       "beautiful"
+      ],
+      [
+       "nandagopālā",
+       "Nanda Mahārāja + cowherd boy"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ब्रजजन",
+       "Vraja + people"
+      ],
+      [
+       "पालन",
+       "maintenance"
+      ],
+      [
+       "असुरकुल",
+       "demons + group"
+      ],
+      [
+       "नाशन",
+       "destroying"
+      ],
+      [
+       "नन्द",
+       "Nanda Mahārāja"
+      ],
+      [
+       "गॊधन",
+       "herd of cows (lit. cow-wealth)"
+      ],
+      [
+       "राखऒयाला",
+       "protector"
+      ],
+      [
+       "गॊबिन्द",
+       "giver of pleasure to the cows, gopas, and gopīs)"
+      ],
+      [
+       "माधब",
+       "the consort of the original Lakṣmī, Śrīmatī Rādhikā"
+      ],
+      [
+       "नबनीत",
+       "butter"
+      ],
+      [
+       "तस्कर",
+       "theif"
+      ],
+      [
+       "सुन्दर",
+       "beautiful"
+      ],
+      [
+       "नन्दगॊपाला",
+       "Nanda Mahārāja + cowherd boy"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ব্রজজন",
+       "Vraja + people"
+      ],
+      [
+       "পালন",
+       "maintenance"
+      ],
+      [
+       "অসুরকুল",
+       "demons + group"
+      ],
+      [
+       "নাশন",
+       "destroying"
+      ],
+      [
+       "নন্দ",
+       "Nanda Mahārāja"
+      ],
+      [
+       "গোধন",
+       "herd of cows (lit. cow-wealth)"
+      ],
+      [
+       "রাখওয়ালা",
+       "protector"
+      ],
+      [
+       "গোবিন্দ",
+       "giver of pleasure to the cows, gopas, and gopīs)"
+      ],
+      [
+       "মাধব",
+       "the consort of the original Lakṣmī, Śrīmatī Rādhikā"
+      ],
+      [
+       "নবনীত",
+       "butter"
+      ],
+      [
+       "তস্কর",
+       "theif"
+      ],
+      [
+       "সুন্দর",
+       "beautiful"
+      ],
+      [
+       "নন্দগোপালা",
+       "Nanda Mahārāja + cowherd boy"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બ્રજજન",
+       "Vraja + people"
+      ],
+      [
+       "પાલન",
+       "maintenance"
+      ],
+      [
+       "અસુરકુલ",
+       "demons + group"
+      ],
+      [
+       "નાશન",
+       "destroying"
+      ],
+      [
+       "નન્દ",
+       "Nanda Mahārāja"
+      ],
+      [
+       "ગોધન",
+       "herd of cows (lit. cow-wealth)"
+      ],
+      [
+       "રાખઓયાલા",
+       "protector"
+      ],
+      [
+       "ગોબિન્દ",
+       "giver of pleasure to the cows, gopas, and gopīs)"
+      ],
+      [
+       "માધબ",
+       "the consort of the original Lakṣmī, Śrīmatī Rādhikā"
+      ],
+      [
+       "નબનીત",
+       "butter"
+      ],
+      [
+       "તસ્કર",
+       "theif"
+      ],
+      [
+       "સુન્દર",
+       "beautiful"
+      ],
+      [
+       "નન્દગોપાલા",
+       "Nanda Mahārāja + cowherd boy"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ब्रजजनपालन,    असुरकुलनाशन,",
+      "नन्दगॊधनराखऒयाला",
+      "गॊबिन्द, माधब,    नबनीततस्कर,",
+      "सुन्दर नन्दगॊपाला ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ব্রজজনপালন,    অসুরকুলনাশন,",
+      "নন্দগোধনরাখওয়ালা",
+      "গোবিন্দ, মাধব,    নবনীততস্কর,",
+      "সুন্দর নন্দগোপালা ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବ୍ରଜଜନପାଲନ,    ଅସୁରକୁଲନାଶନ,",
+      "ନନ୍ଦଗୋଧନରାଖଓୟାଲା",
+      "ଗୋବିନ୍ଦ, ମାଧବ,    ନବନୀତତସ୍କର,",
+      "ସୁନ୍ଦର ନନ୍ଦଗୋପାଲା ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બ્રજજનપાલન,    અસુરકુલનાશન,",
+      "નન્દગોધનરાખઓયાલા",
+      "ગોબિન્દ, માધબ,    નબનીતતસ્કર,",
+      "સુન્દર નન્દગોપાલા ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "brajajana-pālana,    asurakula-nāśana,",
+      "nanda-godhana-rākhaoyālā",
+      "gobinda, mādhaba,    nabanīta-taskara,",
+      "sundara nandagopālā 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬ್ರಜಜನಪಾಲನ,    ಅಸುರಕುಲನಾಶನ,",
+      "ನಂದಗೊಧನರಾಖಒಯಾಲಾ",
+      "ಗೊಬಿಂದ, ಮಾಧಬ,    ನಬನೀತತಸ್ಕರ,",
+      "ಸುಂದರ ನಂದಗೊಪಾಲಾ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బ్రజజనపాలన,    అసురకులనాశన,",
+      "నందగొధనరాఖఒయాలా",
+      "గొబింద, మాధబ,    నబనీతతస్కర,",
+      "సుందర నందగొపాలా 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "браджаджанапа̄лана,    асуракулана̄ш́ана,",
+      "нандаго̆дханара̄кхао̆йа̄ла̄",
+      "го̆бинда, ма̄дхаба,    набанӣтатаскара,",
+      "сундара нандаго̆па̄ла̄ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബ്രജജനപാലന,    അസുരകുലനാശന,",
+      "നന്ദഗൊധനരാഖഒയാലാ",
+      "ഗൊബിന്ദ, മാധബ,    നബനീതതസ്കര,",
+      "സുന്ദര നന്ദഗൊപാലാ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்³ரஜஜனபாலன,    அஸுரகுலநாஶன,",
+      "நந்த³கொ³த⁴னராக²ஒயாலா",
+      "கொ³பி³ந்த³, மாத⁴ப³,    நப³னீததஸ்கர,",
+      "ஸுந்த³ர நந்த³கொ³பாலா 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "brajajana-pālana,    asurakula-nāśana,",
+      "nanda-godhana-rākhaoyālā",
+      "gobinda, mādhaba,    nabanīta-taskara,",
+      "sundara nandagopālā 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "brajajana-pālana,    asurakula-nāśana,",
+      "nanda-godhana-rākhaoyālā",
+      "gobinda, mādhaba,    nabanīta-taskara,",
+      "sundara nandagopālā 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "yāmuna[FLAG_HYPHEN_ALPHA]taṭacara,    gopī[FLAG_HYPHEN_ALPHA]basanahara,",
+    "rāsa[FLAG_HYPHEN_ALPHA]rasika kṛpāmaya",
+    "śrīrādhāballabha,    bṛndābana[FLAG_HYPHEN_ALPHA]naṭabara,",
+    "bhakatibinoda[FLAG_HYPHEN_ALPHA]āśraya 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "He wanders along the banks of the Yamunā River, and He is the thief of the young gopīs’ clothes. He is the enjoyer of the rasa of the rāsa dance. He is full of mercy. He is the beloved of Śrīmatī Rādhikā, and He is the"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "yāmuna",
+       "Yamunā River"
+      ],
+      [
+       "taṭacara",
+       "banks + wanders"
+      ],
+      [
+       "gopī",
+       "cowherd girls"
+      ],
+      [
+       "basanahara",
+       "clothes + stealing"
+      ],
+      [
+       "rāsa",
+       "the rāsa-dance"
+      ],
+      [
+       "rasika",
+       "expert in relishing mellows"
+      ],
+      [
+       "kṛpāmaya",
+       "full of mercy"
+      ],
+      [
+       "śrīrādhāballabha",
+       "the beloved of Śrī Rādhā"
+      ],
+      [
+       "bṛndābana",
+       "Vṛndāvana"
+      ],
+      [
+       "naṭabara",
+       "expert dancer"
+      ],
+      [
+       "bhakatibinoda",
+       "Bhaktivinoda"
+      ],
+      [
+       "āśraya",
+       "shelter"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "यामुन",
+       "Yamunā River"
+      ],
+      [
+       "तटचर",
+       "banks + wanders"
+      ],
+      [
+       "गॊपी",
+       "cowherd girls"
+      ],
+      [
+       "बसनहर",
+       "clothes + stealing"
+      ],
+      [
+       "रास",
+       "the rāsa-dance"
+      ],
+      [
+       "रसिक",
+       "expert in relishing mellows"
+      ],
+      [
+       "क्ड़्पामय",
+       "full of mercy"
+      ],
+      [
+       "श्रीराधाबल्लभ",
+       "the beloved of Śrī Rādhā"
+      ],
+      [
+       "ब्ड़्न्दाबन",
+       "Vṛndāvana"
+      ],
+      [
+       "नटबर",
+       "expert dancer"
+      ],
+      [
+       "भकतिबिनॊद",
+       "Bhaktivinoda"
+      ],
+      [
+       "आश्रय",
+       "shelter"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "যামুন",
+       "Yamunā River"
+      ],
+      [
+       "তটচর",
+       "banks + wanders"
+      ],
+      [
+       "গোপী",
+       "cowherd girls"
+      ],
+      [
+       "বসনহর",
+       "clothes + stealing"
+      ],
+      [
+       "রাস",
+       "the rāsa-dance"
+      ],
+      [
+       "রসিক",
+       "expert in relishing mellows"
+      ],
+      [
+       "ক্ড়্পাময়",
+       "full of mercy"
+      ],
+      [
+       "শ্রীরাধাবল্লভ",
+       "the beloved of Śrī Rādhā"
+      ],
+      [
+       "ব্ড়্ন্দাবন",
+       "Vṛndāvana"
+      ],
+      [
+       "নটবর",
+       "expert dancer"
+      ],
+      [
+       "ভকতিবিনোদ",
+       "Bhaktivinoda"
+      ],
+      [
+       "আশ্রয়",
+       "shelter"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "યામુન",
+       "Yamunā River"
+      ],
+      [
+       "તટચર",
+       "banks + wanders"
+      ],
+      [
+       "ગોપી",
+       "cowherd girls"
+      ],
+      [
+       "બસનહર",
+       "clothes + stealing"
+      ],
+      [
+       "રાસ",
+       "the rāsa-dance"
+      ],
+      [
+       "રસિક",
+       "expert in relishing mellows"
+      ],
+      [
+       "ક્ડ઼્પામય",
+       "full of mercy"
+      ],
+      [
+       "શ્રીરાધાબલ્લભ",
+       "the beloved of Śrī Rādhā"
+      ],
+      [
+       "બ્ડ઼્ન્દાબન",
+       "Vṛndāvana"
+      ],
+      [
+       "નટબર",
+       "expert dancer"
+      ],
+      [
+       "ભકતિબિનોદ",
+       "Bhaktivinoda"
+      ],
+      [
+       "આશ્રય",
+       "shelter"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "यामुनतटचर,    गॊपीबसनहर,",
+      "रासरसिक क्ड़्पामय",
+      "श्रीराधाबल्लभ,    ब्ड़्न्दाबननटबर,",
+      "भकतिबिनॊदआश्रय ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "যামুনতটচর,    গোপীবসনহর,",
+      "রাসরসিক ক্ড়্পাময়",
+      "শ্রীরাধাবল্লভ,    ব্ড়্ন্দাবননটবর,",
+      "ভকতিবিনোদআশ্রয় ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଯାମୁନତଟଚର,    ଗୋପୀବସନହର,",
+      "ରାସରସିକ କ୍ଡ଼୍ପାମୟ",
+      "ଶ୍ରୀରାଧାବଲ୍ଲଭ,    ବ୍ଡ଼୍ନ୍ଦାବନନଟବର,",
+      "ଭକତିବିନୋଦଆଶ୍ରୟ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "યામુનતટચર,    ગોપીબસનહર,",
+      "રાસરસિક ક્ડ઼્પામય",
+      "શ્રીરાધાબલ્લભ,    બ્ડ઼્ન્દાબનનટબર,",
+      "ભકતિબિનોદઆશ્રય ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "yāmuna-taṭacara,    gopī-basanahara,",
+      "rāsa-rasika kṛpāmaya",
+      "śrīrādhāballabha,    bṛndābana-naṭabara,",
+      "bhakatibinoda-āśraya 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಯಾಮುನತಟಚರ,    ಗೊಪೀಬಸನಹರ,",
+      "ರಾಸರಸಿಕ ಕ್‌ಡ಼್ಪಾಮಯ",
+      "ಶ್ರೀರಾಧಾಬಲ್ಲಭ,    ಬ್‌ಡ಼್ನ್ದಾಬನನಟಬರ,",
+      "ಭಕತಿಬಿನೊದಆಶ್ರಯ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "యామునతటచర,    గొపీబసనహర,",
+      "రాసరసిక క్డ్పామయ",
+      "శ్రీరాధాబల్లభ,    బ్డ్న్దాబననటబర,",
+      "భకతిబినొదఆశ్రయ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "йа̄мунатат̣ачара,    го̆пӣбасанахара,",
+      "ра̄сарасика кр̤па̄майа",
+      "ш́рӣра̄дха̄баллабха,    бр̤нда̄бананат̣абара,",
+      "бхакатибино̆даа̄ш́райа 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "യാമുനതടചര,    ഗൊപീബസനഹര,",
+      "രാസരസിക ക്ഡ്പാമയ",
+      "ശ്രീരാധാബല്ലഭ,    ബ്ഡ്ന്ദാബനനടബര,",
+      "ഭകതിബിനൊദആശ്രയ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "யாமுனதடசர,    கொ³பீப³ஸனஹர,",
+      "ராஸரஸிக க்ஃட்²பாமய",
+      "ஶ்ரீராதா⁴ப³ல்லப⁴,    ப்³ஃட்²ந்தா³ப³னனடப³ர,",
+      "ப⁴கதிபி³னொத³ஆஶ்ரய 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "yāmuna-taṭacara,    gopī-basanahara,",
+      "rāsa-rasika kṛpāmaya",
+      "śrīrādhāballabha,    bṛndābana-naṭabara,",
+      "bhakatibinoda-āśraya 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "yāmuna-taṭacara,    gopī-basanahara,",
+      "rāsa-rasika kṛpāmaya",
+      "śrīrādhāballabha,    bṛndābana-naṭabara,",
+      "bhakatibinoda-āśraya 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "bvnm-1",
+   "filename": "A8-bvnm-1.mp3",
+   "artist": "Srila BV Narayana Gosvami Maharaja"
+  },
+  {
+   "uid": "bvsm-1",
+   "filename": "A8-bvsm-1.mp3",
+   "artist": "Srila BV Svami Prabhupada"
+  },
+  {
+   "uid": "casu-1",
+   "filename": "A8-casu-1.mp3",
+   "artist": "casu"
+  },
+  {
+   "uid": "krsn-1",
+   "filename": "A8-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "sesa-1",
+   "filename": "A8-sesa-1.mp3",
+   "artist": "Sesasayi Prabhu"
+  }
+ ],
+ "tags": [
+  "Noon Ārati"
+ ]
+}

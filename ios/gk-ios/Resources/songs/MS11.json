@@ -1,0 +1,641 @@
+{
+  "uid": "MS11",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ব্রজবন-সুধাকর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "brajabana-sudhākara"
+    },
+    {
+      "script_code": "Deva",
+      "text": "ब्रजबन-सुधाकर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "బ్రజబన-సుధాకర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಬ್ರಜಬನ-ಸುಧಾಕರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ப்³ரஜப³ன-ஸுதா⁴கர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ബ്രജബന-സുധാകര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "બ્રજબન-સુધાકર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ବ୍ରଜବନ-ସୁଧାକର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "браджабана-судха̄кара"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "brajabana[FLAG_HYPHEN_ALPHA]sudhākara,    brajabanera īśbara,",
+        "brajeśbarī āmāra īśbarī",
+        "lalitā tā̃hāra sakhī,    tulya tā’ra nāhi likhi,",
+        "biśākhā śikṣikā[FLAG_HYPHEN_ALPHA]pada dhari 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ब्रजबनसुधाकर,    ब्रजबनॆर ईश्बर,",
+            "ब्रजॆश्बरी आमार ईश्बरी",
+            "ललिता तांहार सखी,    तुल्य ताऽर नाहि लिखि,",
+            "बिशाखा शिक्षिकापद धरि १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ব্রজবনসুধাকর,    ব্রজবনের ঈশ্বর,",
+            "ব্রজেশ্বরী আমার ঈশ্বরী",
+            "ললিতা তাংহার সখী,    তুল্য তাঽর নাহি লিখি,",
+            "বিশাখা শিক্ষিকাপদ ধরি ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବ୍ରଜବନସୁଧାକର,    ବ୍ରଜବନେର ଈଶ୍ବର,",
+            "ବ୍ରଜେଶ୍ବରୀ ଆମାର ଈଶ୍ବରୀ",
+            "ଲଲିତା ତାଂହାର ସଖୀ,    ତୁଲ୍ୟ ତାଽର ନାହି ଲିଖି,",
+            "ବିଶାଖା ଶିକ୍ଷିକାପଦ ଧରି ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બ્રજબનસુધાકર,    બ્રજબનેર ઈશ્બર,",
+            "બ્રજેશ્બરી આમાર ઈશ્બરી",
+            "લલિતા તાંહાર સખી,    તુલ્ય તાઽર નાહિ લિખિ,",
+            "બિશાખા શિક્ષિકાપદ ધરિ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "brajabana-sudhākara,    brajabanera īśbara,",
+            "brajeśbarī āmāra īśbarī",
+            "lalitā tā̃hāra sakhī,    tulya tā’ra nāhi likhi,",
+            "biśākhā śikṣikā-pada dhari 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬ್ರಜಬನಸುಧಾಕರ,    ಬ್ರಜಬನೆರ ಈಶ್ಬರ,",
+            "ಬ್ರಜೆಶ್ಬರೀ ಆಮಾರ ಈಶ್ಬರೀ",
+            "ಲಲಿತಾ ತಾಂಹಾರ ಸಖೀ,    ತುಲ್ಯ ತಾಽರ ನಾಹಿ ಲಿಖಿ,",
+            "ಬಿಶಾಖಾ ಶಿಕ್ಷಿಕಾಪದ ಧರಿ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బ్రజబనసుధాకర,    బ్రజబనెర ఈశ్బర,",
+            "బ్రజెశ్బరీ ఆమార ఈశ్బరీ",
+            "లలితా తాంహార సఖీ,    తుల్య తాఽర నాహి లిఖి,",
+            "బిశాఖా శిక్షికాపద ధరి 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "браджабанасудха̄кара,    браджабанэ̆ра ӣш́бара,",
+            "браджэ̆ш́барӣ а̄ма̄ра ӣш́барӣ",
+            "лалита̄ та̄м̣ха̄ра сакхӣ,    тулйа та̄'ра на̄хи ликхи,",
+            "биш́а̄кха̄ ш́икшика̄пада дхари 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബ്രജബനസുധാകര,    ബ്രജബനെര ഈശ്ബര,",
+            "ബ്രജെശ്ബരീ ആമാര ഈശ്ബരീ",
+            "ലലിതാ താംഹാര സഖീ,    തുല്യ താഽര നാഹി ലിഖി,",
+            "ബിശാഖാ ശിക്ഷികാപദ ധരി 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப்³ரஜப³னஸுதா⁴கர,    ப்³ரஜப³னெர ஈஶ்ப³ர,",
+            "ப்³ரஜெஶ்ப³ரீ ஆமார ஈஶ்ப³ரீ",
+            "லலிதா தாம்ʼஹார ஸகீ²,    துல்ய தா(அ)ர நாஹி லிகி²,",
+            "பி³ஶாகா² ஶிக்ஷிகாபத³ த⁴ரி 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "brajabana-sudhākara,    brajabanera īśbara,",
+            "brajeśbarī āmāra īśbarī",
+            "lalitā tā̃hāra sakhī,    tulya tā’ra nāhi likhi,",
+            "biśākhā śikṣikā-pada dhari 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "brajabana-sudhākara,    brajabanera īśbara,",
+            "brajeśbarī āmāra īśbarī",
+            "lalitā tā̃hāra sakhī,    tulya tā’ra nāhi likhi,",
+            "biśākhā śikṣikā-pada dhari 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "eibhābe bhāba, ore mana",
+        "rādhākuṇḍa[FLAG_HYPHEN_ALPHA]sarobara,    gobardhana[FLAG_HYPHEN_ALPHA]girīśbara,",
+        "ratiprada[FLAG_HYPHEN_ALPHA]tattba tadīkṣaṇa 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎइभाबॆ भाब, ऒरॆ मन",
+            "राधाकुण्डसरॊबर,    गॊबर्धनगिरीश्बर,",
+            "रतिप्रदतत्त्ब तदीक्षण २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এইভাবে ভাব, ওরে মন",
+            "রাধাকুণ্ডসরোবর,    গোবর্ধনগিরীশ্বর,",
+            "রতিপ্রদতত্ত্ব তদীক্ষণ ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏଇଭାବେ ଭାବ, ଓରେ ମନ",
+            "ରାଧାକୁଣ୍ଡସରୋବର,    ଗୋବର୍ଧନଗିରୀଶ୍ବର,",
+            "ରତିପ୍ରଦତତ୍ତ୍ବ ତଦୀକ୍ଷଣ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એઇભાબે ભાબ, ઓરે મન",
+            "રાધાકુણ્ડસરોબર,    ગોબર્ધનગિરીશ્બર,",
+            "રતિપ્રદતત્ત્બ તદીક્ષણ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "eibhābe bhāba, ore mana",
+            "rādhākuṇḍa-sarobara,    gobardhana-girīśbara,",
+            "ratiprada-tattba tadīkṣaṇa 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎಇಭಾಬೆ ಭಾಬ, ಒರೆ ಮನ",
+            "ರಾಧಾಕುಂಡಸರೊಬರ,    ಗೊಬರ್ಧನಗಿರೀಶ್ಬರ,",
+            "ರತಿಪ್ರದತತ್ತ್ಬ ತದೀಕ್ಷಣ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎఇభాబె భాబ, ఒరె మన",
+            "రాధాకుండసరొబర,    గొబర్ధనగిరీశ్బర,",
+            "రతిప్రదతత్త్బ తదీక్షణ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆ибха̄бэ̆ бха̄ба, о̆рэ̆ мана",
+            "ра̄дха̄кун̣д̣асаро̆бара,    го̆бардханагирӣш́бара,",
+            "ратипрадататтба тадӣкшан̣а 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എഇഭാബെ ഭാബ, ഒരെ മന",
+            "രാധാകുണ്ഡസരൊബര,    ഗൊബർധനഗിരീശ്ബര,",
+            "രതിപ്രദതത്ത്ബ തദീക്ഷണ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எஇபா⁴பெ³ பா⁴ப³, ஒரெ மன",
+            "ராதா⁴குண்ட³ஸரொப³ர,    கொ³ப³ர்த⁴னகி³ரீஶ்ப³ர,",
+            "ரதிப்ரத³தத்த்ப³ ததீ³க்ஷண 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "eibhābe bhāba, ore mana",
+            "rādhākuṇḍa-sarobara,    gobardhana-girīśbara,",
+            "ratiprada-tattba tadīkṣaṇa 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "eibhābe bhāba, ore mana",
+            "rādhākuṇḍa-sarobara,    gobardhana-girīśbara,",
+            "ratiprada-tattba tadīkṣaṇa 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "braje gopīdeha dhari’,    mañjarī āśraya kari’,",
+        "prāpta[FLAG_HYPHEN_ALPHA]sebā kara sampādana",
+        "mañjarīra kṛpā ha’be,    sakhīra caraṇa pā’be,",
+        "sakhī dekhāibe nityadhana 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ब्रजॆ गॊपीदॆह धरिऽ,    मञ्जरी आश्रय करिऽ,",
+            "प्राप्तसॆबा कर सम्पादन",
+            "मञ्जरीर क्ड़्पा हऽबॆ,    सखीर चरण पाऽबॆ,",
+            "सखी दॆखाइबॆ नित्यधन ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ব্রজে গোপীদেহ ধরিঽ,    মঞ্জরী আশ্রয় করিঽ,",
+            "প্রাপ্তসেবা কর সম্পাদন",
+            "মঞ্জরীর ক্ড়্পা হঽবে,    সখীর চরণ পাঽবে,",
+            "সখী দেখাইবে নিত্যধন ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବ୍ରଜେ ଗୋପୀଦେହ ଧରିଽ,    ମଞ୍ଜରୀ ଆଶ୍ରୟ କରିଽ,",
+            "ପ୍ରାପ୍ତସେବା କର ସମ୍ପାଦନ",
+            "ମଞ୍ଜରୀର କ୍ଡ଼୍ପା ହଽବେ,    ସଖୀର ଚରଣ ପାଽବେ,",
+            "ସଖୀ ଦେଖାଇବେ ନିତ୍ୟଧନ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બ્રજે ગોપીદેહ ધરિઽ,    મઞ્જરી આશ્રય કરિઽ,",
+            "પ્રાપ્તસેબા કર સમ્પાદન",
+            "મઞ્જરીર ક્ડ઼્પા હઽબે,    સખીર ચરણ પાઽબે,",
+            "સખી દેખાઇબે નિત્યધન ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "braje gopīdeha dhari’,    mañjarī āśraya kari’,",
+            "prāpta-sebā kara sampādana",
+            "mañjarīra kṛpā ha’be,    sakhīra caraṇa pā’be,",
+            "sakhī dekhāibe nityadhana 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬ್ರಜೆ ಗೊಪೀದೆಹ ಧರಿಽ,    ಮಂಜರೀ ಆಶ್ರಯ ಕರಿಽ,",
+            "ಪ್ರಾಪ್ತಸೆಬಾ ಕರ ಸಂಪಾದನ",
+            "ಮಂಜರೀರ ಕ್‌ಡ಼್ಪಾ ಹಽಬೆ,    ಸಖೀರ ಚರಣ ಪಾಽಬೆ,",
+            "ಸಖೀ ದೆಖಾಇಬೆ ನಿತ್ಯಧನ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బ్రజె గొపీదెహ ధరిఽ,    మంజరీ ఆశ్రయ కరిఽ,",
+            "ప్రాప్తసెబా కర సంపాదన",
+            "మంజరీర క్డ్పా హఽబె,    సఖీర చరణ పాఽబె,",
+            "సఖీ దెఖాఇబె నిత్యధన 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "браджэ̆ го̆пӣдэ̆ха дхари',    ман̃джарӣ а̄ш́райа кари',",
+            "пра̄птасэ̆ба̄ кара сампа̄дана",
+            "ман̃джарӣра кр̤па̄ ха'бэ̆,    сакхӣра чаран̣а па̄'бэ̆,",
+            "сакхӣ дэ̆кха̄ибэ̆ нитйадхана 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബ്രജെ ഗൊപീദെഹ ധരിഽ,    മഞ്ജരീ ആശ്രയ കരിഽ,",
+            "പ്രാപ്തസെബാ കര സമ്പാദന",
+            "മഞ്ജരീര ക്ഡ്പാ ഹഽബെ,    സഖീര ചരണ പാഽബെ,",
+            "സഖീ ദെഖാഇബെ നിത്യധന 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப்³ரஜெ கொ³பீதெ³ஹ த⁴ரி(அ),    மஞ்ஜரீ ஆஶ்ரய கரி(அ),",
+            "ப்ராப்தஸெபா³ கர ஸம்பாத³ன",
+            "மஞ்ஜரீர க்ஃட்²பா ஹ(அ)பெ³,    ஸகீ²ர சரண பா(அ)பெ³,",
+            "ஸகீ² தெ³கா²இபெ³ நித்யத⁴ன 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "braje gopīdeha dhari’,    mañjarī āśraya kari’,",
+            "prāpta-sebā kara sampādana",
+            "mañjarīra kṛpā ha’be,    sakhīra caraṇa pā’be,",
+            "sakhī dekhāibe nityadhana 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "braje gopīdeha dhari’,    mañjarī āśraya kari’,",
+            "prāpta-sebā kara sampādana",
+            "mañjarīra kṛpā ha’be,    sakhīra caraṇa pā’be,",
+            "sakhī dekhāibe nityadhana 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "prahare prahare āra,    daṇḍe daṇḍe sebāsāra,",
+        "kariyā yugaladhane ḍāka",
+        "sakala anartha yā’be,    cidbilāsa[FLAG_HYPHEN_ALPHA]rasa pā’be,",
+        "bhaktibinodera kathā rākha 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "प्रहरॆ प्रहरॆ आर,    दण्डॆ दण्डॆ सॆबासार,",
+            "करिया युगलधनॆ डाक",
+            "सकल अनर्थ याऽबॆ,    चिद्बिलासरस पाऽबॆ,",
+            "भक्तिबिनॊदॆर कथा राख ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "প্রহরে প্রহরে আর,    দণ্ডে দণ্ডে সেবাসার,",
+            "করিয়া যুগলধনে ডাক",
+            "সকল অনর্থ যাঽবে,    চিদ্বিলাসরস পাঽবে,",
+            "ভক্তিবিনোদের কথা রাখ ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ପ୍ରହରେ ପ୍ରହରେ ଆର,    ଦଣ୍ଡେ ଦଣ୍ଡେ ସେବାସାର,",
+            "କରିୟା ଯୁଗଲଧନେ ଡାକ",
+            "ସକଲ ଅନର୍ଥ ଯାଽବେ,    ଚିଦ୍ବିଲାସରସ ପାଽବେ,",
+            "ଭକ୍ତିବିନୋଦେର କଥା ରାଖ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "પ્રહરે પ્રહરે આર,    દણ્ડે દણ્ડે સેબાસાર,",
+            "કરિયા યુગલધને ડાક",
+            "સકલ અનર્થ યાઽબે,    ચિદ્બિલાસરસ પાઽબે,",
+            "ભક્તિબિનોદેર કથા રાખ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "prahare prahare āra,    daṇḍe daṇḍe sebāsāra,",
+            "kariyā yugaladhane ḍāka",
+            "sakala anartha yā’be,    cidbilāsa-rasa pā’be,",
+            "bhaktibinodera kathā rākha 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಪ್ರಹರೆ ಪ್ರಹರೆ ಆರ,    ದಂಡೆ ದಂಡೆ ಸೆಬಾಸಾರ,",
+            "ಕರಿಯಾ ಯುಗಲಧನೆ ಡಾಕ",
+            "ಸಕಲ ಅನರ್ಥ ಯಾಽಬೆ,    ಚಿದ್ಬಿಲಾಸರಸ ಪಾಽಬೆ,",
+            "ಭಕ್ತಿಬಿನೊದೆರ ಕಥಾ ರಾಖ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ప్రహరె ప్రహరె ఆర,    దండె దండె సెబాసార,",
+            "కరియా యుగలధనె డాక",
+            "సకల అనర్థ యాఽబె,    చిద్బిలాసరస పాఽబె,",
+            "భక్తిబినొదెర కథా రాఖ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "прахарэ̆ прахарэ̆ а̄ра,    дан̣д̣э̆ дан̣д̣э̆ сэ̆ба̄са̄ра,",
+            "карийа̄ йугаладханэ̆ д̣а̄ка",
+            "сакала анартха йа̄'бэ̆,    чидбила̄сараса па̄'бэ̆,",
+            "бхактибино̆дэ̆ра катха̄ ра̄кха 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "പ്രഹരെ പ്രഹരെ ആര,    ദണ്ഡെ ദണ്ഡെ സെബാസാര,",
+            "കരിയാ യുഗലധനെ ഡാക",
+            "സകല അനർഥ യാഽബെ,    ചിദ്ബിലാസരസ പാഽബെ,",
+            "ഭക്തിബിനൊദെര കഥാ രാഖ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப்ரஹரெ ப்ரஹரெ ஆர,    த³ண்டெ³ த³ண்டெ³ ஸெபா³ஸார,",
+            "கரியா யுக³லத⁴னெ டா³க",
+            "ஸகல அனர்த² யா(அ)பெ³,    சித்³பி³லாஸரஸ பா(அ)பெ³,",
+            "ப⁴க்திபி³னொதெ³ர கதா² ராக² 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "prahare prahare āra,    daṇḍe daṇḍe sebāsāra,",
+            "kariyā yugaladhane ḍāka",
+            "sakala anartha yā’be,    cidbilāsa-rasa pā’be,",
+            "bhaktibinodera kathā rākha 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "prahare prahare āra,    daṇḍe daṇḍe sebāsāra,",
+            "kariyā yugaladhane ḍāka",
+            "sakala anartha yā’be,    cidbilāsa-rasa pā’be,",
+            "bhaktibinodera kathā rākha 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "মদীশানাথত্বে ব্রজবিপিনচন্দ্রং ব্রজবনে-"
+    },
+    {
+      "language_code": "ben",
+      "text": "শ্বরীং তন্নাথত্বে তদতুলসখীত্বে তু ললিতাম্ ।"
+    },
+    {
+      "language_code": "ben",
+      "text": "বিশাখাং শিক্ষালী-বিতরণ-গুরুত্বে প্রিয়সরো-"
+    },
+    {
+      "language_code": "ben",
+      "text": "গিরীন্দ্রৌ তৎপ্রেক্ষা-ললিতরতিদত্বে স্মর মনঃ ॥৯॥"
+    },
+    {
+      "language_code": "ben",
+      "text": ""
+    },
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- সুধাকর—চন্দ্র; ব্রজেশ্বরী—শ্রীরাধা; তদীক্ষণ—তাঁহার দর্শন ।"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "srrb-1",
+      "filename": "MS11-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    }
+  ],
+  "tags": [
+    "Śrī Manaḥ-śikṣā"
+  ]
+}

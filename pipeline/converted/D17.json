@@ -1,0 +1,1738 @@
+{
+ "uid": "D17",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হরি! কবে হব বৃন্দাবনবাসী"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari hari! kabe haba bṛndābanabāsī"
+  }
+ ],
+ "author_uid": "ndt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Narottama dāsa Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari hari! kabe haba bṛndābanabāsī",
+    "nirakhiba nayane yugala[FLAG_HYPHEN_ALPHA]rūparāśi 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Śrī Hari! When will I become a resident of Vṛndāvana and behold with my eyes the radiantly beautiful forms of the Divine Couple?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hari hari",
+       "O Hari"
+      ],
+      [
+       "kabe",
+       "when"
+      ],
+      [
+       "haba",
+       "I will become"
+      ],
+      [
+       "bṛndābanabāsī",
+       "a resident of Vṛndāvana"
+      ],
+      [
+       "nirakhiba",
+       "I will behold"
+      ],
+      [
+       "nayane",
+       "with eyes"
+      ],
+      [
+       "yugala",
+       "the Divine Couple"
+      ],
+      [
+       "rūparāśi",
+       "beauty + abundant"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हरि हरि",
+       "O Hari"
+      ],
+      [
+       "कबॆ",
+       "when"
+      ],
+      [
+       "हब",
+       "I will become"
+      ],
+      [
+       "ब्ड़्न्दाबनबासी",
+       "a resident of Vṛndāvana"
+      ],
+      [
+       "निरखिब",
+       "I will behold"
+      ],
+      [
+       "नयनॆ",
+       "with eyes"
+      ],
+      [
+       "युगल",
+       "the Divine Couple"
+      ],
+      [
+       "रूपराशि",
+       "beauty + abundant"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হরি হরি",
+       "O Hari"
+      ],
+      [
+       "কবে",
+       "when"
+      ],
+      [
+       "হব",
+       "I will become"
+      ],
+      [
+       "ব্ড়্ন্দাবনবাসী",
+       "a resident of Vṛndāvana"
+      ],
+      [
+       "নিরখিব",
+       "I will behold"
+      ],
+      [
+       "নয়নে",
+       "with eyes"
+      ],
+      [
+       "যুগল",
+       "the Divine Couple"
+      ],
+      [
+       "রূপরাশি",
+       "beauty + abundant"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હરિ હરિ",
+       "O Hari"
+      ],
+      [
+       "કબે",
+       "when"
+      ],
+      [
+       "હબ",
+       "I will become"
+      ],
+      [
+       "બ્ડ઼્ન્દાબનબાસી",
+       "a resident of Vṛndāvana"
+      ],
+      [
+       "નિરખિબ",
+       "I will behold"
+      ],
+      [
+       "નયને",
+       "with eyes"
+      ],
+      [
+       "યુગલ",
+       "the Divine Couple"
+      ],
+      [
+       "રૂપરાશિ",
+       "beauty + abundant"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हरि! कबॆ हब ब्ड़्न्दाबनबासी",
+      "निरखिब नयनॆ युगलरूपराशि १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হরি! কবে হব ব্ড়্ন্দাবনবাসী",
+      "নিরখিব নয়নে যুগলরূপরাশি ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହରି! କବେ ହବ ବ୍ଡ଼୍ନ୍ଦାବନବାସୀ",
+      "ନିରଖିବ ନୟନେ ଯୁଗଲରୂପରାଶି ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હરિ! કબે હબ બ્ડ઼્ન્દાબનબાસી",
+      "નિરખિબ નયને યુગલરૂપરાશિ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari hari! kabe haba bṛndābanabāsī",
+      "nirakhiba nayane yugala-rūparāśi 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹರಿ! ಕಬೆ ಹಬ ಬ್‌ಡ಼್ನ್ದಾಬನಬಾಸೀ",
+      "ನಿರಖಿಬ ನಯನೆ ಯುಗಲರೂಪರಾಶಿ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హరి! కబె హబ బ్డ్న్దాబనబాసీ",
+      "నిరఖిబ నయనె యుగలరూపరాశి 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хари! кабэ̆ хаба бр̤нда̄банаба̄сӣ",
+      "ниракхиба найанэ̆ йугаларӯпара̄ш́и 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹരി! കബെ ഹബ ബ്ഡ്ന്ദാബനബാസീ",
+      "നിരഖിബ നയനെ യുഗലരൂപരാശി 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹரி! கபெ³ ஹப³ ப்³ஃட்²ந்தா³ப³னபா³ஸீ",
+      "நிரகி²ப³ நயனெ யுக³லரூபராஶி 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari hari! kabe haba bṛndābanabāsī",
+      "nirakhiba nayane yugala-rūparāśi 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari hari! kabe haba bṛndābanabāsī",
+      "nirakhiba nayane yugala-rūparāśi 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "tyajiyā śayanasukha bicitra pālaṅka",
+    "kabe brajera dhūlāya dhūsara ha’be aṅga 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Relinquishing the pleasure of sleeping on a wonderful bed, when will my body become grey-colored from [sleeping on] the dust of Vraja?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "tyajiyā",
+       "having relinquished"
+      ],
+      [
+       "śayanasukha",
+       "sleeping + the pleasure"
+      ],
+      [
+       "bicitra",
+       "wonderful"
+      ],
+      [
+       "pālaṅka",
+       "bed"
+      ],
+      [
+       "kabe",
+       "when"
+      ],
+      [
+       "brajera",
+       "of Vraja"
+      ],
+      [
+       "dhūlāya",
+       "on the dust"
+      ],
+      [
+       "dhūsara",
+       "grey-colored"
+      ],
+      [
+       "ha’be",
+       "will be"
+      ],
+      [
+       "aṅga",
+       "body"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "त्यजिया",
+       "having relinquished"
+      ],
+      [
+       "शयनसुख",
+       "sleeping + the pleasure"
+      ],
+      [
+       "बिचित्र",
+       "wonderful"
+      ],
+      [
+       "पालङ्क",
+       "bed"
+      ],
+      [
+       "कबॆ",
+       "when"
+      ],
+      [
+       "ब्रजॆर",
+       "of Vraja"
+      ],
+      [
+       "धूलाय",
+       "on the dust"
+      ],
+      [
+       "धूसर",
+       "grey-colored"
+      ],
+      [
+       "हऽबॆ",
+       "will be"
+      ],
+      [
+       "अङ्ग",
+       "body"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ত্যজিয়া",
+       "having relinquished"
+      ],
+      [
+       "শয়নসুখ",
+       "sleeping + the pleasure"
+      ],
+      [
+       "বিচিত্র",
+       "wonderful"
+      ],
+      [
+       "পালঙ্ক",
+       "bed"
+      ],
+      [
+       "কবে",
+       "when"
+      ],
+      [
+       "ব্রজের",
+       "of Vraja"
+      ],
+      [
+       "ধূলায়",
+       "on the dust"
+      ],
+      [
+       "ধূসর",
+       "grey-colored"
+      ],
+      [
+       "হঽবে",
+       "will be"
+      ],
+      [
+       "অঙ্গ",
+       "body"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ત્યજિયા",
+       "having relinquished"
+      ],
+      [
+       "શયનસુખ",
+       "sleeping + the pleasure"
+      ],
+      [
+       "બિચિત્ર",
+       "wonderful"
+      ],
+      [
+       "પાલઙ્ક",
+       "bed"
+      ],
+      [
+       "કબે",
+       "when"
+      ],
+      [
+       "બ્રજેર",
+       "of Vraja"
+      ],
+      [
+       "ધૂલાય",
+       "on the dust"
+      ],
+      [
+       "ધૂસર",
+       "grey-colored"
+      ],
+      [
+       "હઽબે",
+       "will be"
+      ],
+      [
+       "અઙ્ગ",
+       "body"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "त्यजिया शयनसुख बिचित्र पालङ्क",
+      "कबॆ ब्रजॆर धूलाय धूसर हऽबॆ अङ्ग २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ত্যজিয়া শয়নসুখ বিচিত্র পালঙ্ক",
+      "কবে ব্রজের ধূলায় ধূসর হঽবে অঙ্গ ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତ୍ୟଜିୟା ଶୟନସୁଖ ବିଚିତ୍ର ପାଲଙ୍କ",
+      "କବେ ବ୍ରଜେର ଧୂଲାୟ ଧୂସର ହଽବେ ଅଙ୍ଗ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ત્યજિયા શયનસુખ બિચિત્ર પાલઙ્ક",
+      "કબે બ્રજેર ધૂલાય ધૂસર હઽબે અઙ્ગ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tyajiyā śayanasukha bicitra pālaṅka",
+      "kabe brajera dhūlāya dhūsara ha’be aṅga 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತ್ಯಜಿಯಾ ಶಯನಸುಖ ಬಿಚಿತ್ರ ಪಾಲಂಕ",
+      "ಕಬೆ ಬ್ರಜೆರ ಧೂಲಾಯ ಧೂಸರ ಹಽಬೆ ಅಂಗ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "త్యజియా శయనసుఖ బిచిత్ర పాలంక",
+      "కబె బ్రజెర ధూలాయ ధూసర హఽబె అంగ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "тйаджийа̄ ш́айанасукха бичитра па̄лан̇ка",
+      "кабэ̆ браджэ̆ра дхӯла̄йа дхӯсара ха'бэ̆ ан̇га 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ത്യജിയാ ശയനസുഖ ബിചിത്ര പാലങ്ക",
+      "കബെ ബ്രജെര ധൂലായ ധൂസര ഹഽബെ അംഗ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "த்யஜியா ஶயனஸுக² பி³சித்ர பாலங்க",
+      "கபெ³ ப்³ரஜெர தூ⁴லாய தூ⁴ஸர ஹ(அ)பெ³ அங்க³ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tyajiyā śayanasukha bicitra pālaṅka",
+      "kabe brajera dhūlāya dhūsara ha’be aṅga 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tyajiyā śayanasukha bicitra pālaṅka",
+      "kabe brajera dhūlāya dhūsara ha’be aṅga 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "ṣaḓ‌rasa bhojana dūre parihari",
+    "kabe braje māgiyā khāiba mādhukarī 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Giving up the enjoyment of the six flavors of palatable food (sweet, sour, salty, pungent, bitter, and astringent), when will I eat the mādhukarī obtained by begging from the residents of Vraja?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ṣaḓ‌rasa",
+       "six + flavors"
+      ],
+      [
+       "bhojana",
+       "food"
+      ],
+      [
+       "dūre",
+       "far away"
+      ],
+      [
+       "parihari",
+       "I give up"
+      ],
+      [
+       "kabe",
+       "when"
+      ],
+      [
+       "braje",
+       "in Vraja"
+      ],
+      [
+       "māgiyā",
+       "having begged"
+      ],
+      [
+       "khāiba",
+       "I will eat"
+      ],
+      [
+       "mādhukarī",
+       "foodstuffs begged from home to home by a renunciant, in the manner that a honey bee (madhukar) gathers honey by going from flower to flower"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "षḓ‌रस",
+       "six + flavors"
+      ],
+      [
+       "भॊजन",
+       "food"
+      ],
+      [
+       "दूरॆ",
+       "far away"
+      ],
+      [
+       "परिहरि",
+       "I give up"
+      ],
+      [
+       "कबॆ",
+       "when"
+      ],
+      [
+       "ब्रजॆ",
+       "in Vraja"
+      ],
+      [
+       "मागिया",
+       "having begged"
+      ],
+      [
+       "खाइब",
+       "I will eat"
+      ],
+      [
+       "माधुकरी",
+       "foodstuffs begged from home to home by a renunciant, in the manner that a honey bee (madhukar) gathers honey by going from flower to flower"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ষḓ‌রস",
+       "six + flavors"
+      ],
+      [
+       "ভোজন",
+       "food"
+      ],
+      [
+       "দূরে",
+       "far away"
+      ],
+      [
+       "পরিহরি",
+       "I give up"
+      ],
+      [
+       "কবে",
+       "when"
+      ],
+      [
+       "ব্রজে",
+       "in Vraja"
+      ],
+      [
+       "মাগিয়া",
+       "having begged"
+      ],
+      [
+       "খাইব",
+       "I will eat"
+      ],
+      [
+       "মাধুকরী",
+       "foodstuffs begged from home to home by a renunciant, in the manner that a honey bee (madhukar) gathers honey by going from flower to flower"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ષḓ‌રસ",
+       "six + flavors"
+      ],
+      [
+       "ભોજન",
+       "food"
+      ],
+      [
+       "દૂરે",
+       "far away"
+      ],
+      [
+       "પરિહરિ",
+       "I give up"
+      ],
+      [
+       "કબે",
+       "when"
+      ],
+      [
+       "બ્રજે",
+       "in Vraja"
+      ],
+      [
+       "માગિયા",
+       "having begged"
+      ],
+      [
+       "ખાઇબ",
+       "I will eat"
+      ],
+      [
+       "માધુકરી",
+       "foodstuffs begged from home to home by a renunciant, in the manner that a honey bee (madhukar) gathers honey by going from flower to flower"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "षḓ‌रस भॊजन दूरॆ परिहरि",
+      "कबॆ ब्रजॆ मागिया खाइब माधुकरी ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ষḓ‌রস ভোজন দূরে পরিহরি",
+      "কবে ব্রজে মাগিয়া খাইব মাধুকরী ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଷḓ‌ରସ ଭୋଜନ ଦୂରେ ପରିହରି",
+      "କବେ ବ୍ରଜେ ମାଗିୟା ଖାଇବ ମାଧୁକରୀ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ષḓ‌રસ ભોજન દૂરે પરિહરિ",
+      "કબે બ્રજે માગિયા ખાઇબ માધુકરી ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ṣaḓ‌rasa bhojana dūre parihari",
+      "kabe braje māgiyā khāiba mādhukarī 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಷḓ‌ರಸ ಭೊಜನ ದೂರೆ ಪರಿಹರಿ",
+      "ಕಬೆ ಬ್ರಜೆ ಮಾಗಿಯಾ ಖಾಇಬ ಮಾಧುಕರೀ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "షḓ‌రస భొజన దూరె పరిహరి",
+      "కబె బ్రజె మాగియా ఖాఇబ మాధుకరీ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "шаḓ‌раса бхо̆джана дӯрэ̆ парихари",
+      "кабэ̆ браджэ̆ ма̄гийа̄ кха̄иба ма̄дхукарӣ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഷḓ‌രസ ഭൊജന ദൂരെ പരിഹരി",
+      "കബെ ബ്രജെ മാഗിയാ ഖാഇബ മാധുകരീ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஷḓ‌ரஸ பொ⁴ஜன தூ³ரெ பரிஹரி",
+      "கபெ³ ப்³ரஜெ மாகி³யா கா²இப³ மாது⁴கரீ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ṣaḍ‌rasa bhojana dūre parihari",
+      "kabe braje māgiyā khāiba mādhukarī 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ṣaḓ‌rasa bhojana dūre parihari",
+      "kabe braje māgiyā khāiba mādhukarī 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "parikramā kariyā beḓāba bane bane",
+    "biśrāma kariyā yāi yamunā[FLAG_HYPHEN_ALPHA]puline 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Circumambulating the holy places, I will roam from forest to forest and then rest on the bank of the Yamunā."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "parikramā kariyā",
+       "having circumambulated"
+      ],
+      [
+       "beḓāba",
+       "I will roam"
+      ],
+      [
+       "bane bane",
+       "from forest to forest"
+      ],
+      [
+       "biśrāma kariyā",
+       "having rested"
+      ],
+      [
+       "yāi",
+       "I go"
+      ],
+      [
+       "yamunā",
+       "Yamunā"
+      ],
+      [
+       "puline",
+       "on the bank"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "परिक्रमा करिया",
+       "having circumambulated"
+      ],
+      [
+       "बॆḓआब",
+       "I will roam"
+      ],
+      [
+       "बनॆ बनॆ",
+       "from forest to forest"
+      ],
+      [
+       "बिश्राम करिया",
+       "having rested"
+      ],
+      [
+       "याइ",
+       "I go"
+      ],
+      [
+       "यमुना",
+       "Yamunā"
+      ],
+      [
+       "पुलिनॆ",
+       "on the bank"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "পরিক্রমা করিয়া",
+       "having circumambulated"
+      ],
+      [
+       "বেḓআব",
+       "I will roam"
+      ],
+      [
+       "বনে বনে",
+       "from forest to forest"
+      ],
+      [
+       "বিশ্রাম করিয়া",
+       "having rested"
+      ],
+      [
+       "যাই",
+       "I go"
+      ],
+      [
+       "যমুনা",
+       "Yamunā"
+      ],
+      [
+       "পুলিনে",
+       "on the bank"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "પરિક્રમા કરિયા",
+       "having circumambulated"
+      ],
+      [
+       "બેḓઆબ",
+       "I will roam"
+      ],
+      [
+       "બને બને",
+       "from forest to forest"
+      ],
+      [
+       "બિશ્રામ કરિયા",
+       "having rested"
+      ],
+      [
+       "યાઇ",
+       "I go"
+      ],
+      [
+       "યમુના",
+       "Yamunā"
+      ],
+      [
+       "પુલિને",
+       "on the bank"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "परिक्रमा करिया बॆḓआब बनॆ बनॆ",
+      "बिश्राम करिया याइ यमुनापुलिनॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "পরিক্রমা করিয়া বেḓআব বনে বনে",
+      "বিশ্রাম করিয়া যাই যমুনাপুলিনে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପରିକ୍ରମା କରିୟା ବେḓଆବ ବନେ ବନେ",
+      "ବିଶ୍ରାମ କରିୟା ଯାଇ ଯମୁନାପୁଲିନେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પરિક્રમા કરિયા બેḓઆબ બને બને",
+      "બિશ્રામ કરિયા યાઇ યમુનાપુલિને ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "parikramā kariyā beḓāba bane bane",
+      "biśrāma kariyā yāi yamunā-puline 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪರಿಕ್ರಮಾ ಕರಿಯಾ ಬೆḓಆಬ ಬನೆ ಬನೆ",
+      "ಬಿಶ್ರಾಮ ಕರಿಯಾ ಯಾಇ ಯಮುನಾಪುಲಿನೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "పరిక్రమా కరియా బెḓఆబ బనె బనె",
+      "బిశ్రామ కరియా యాఇ యమునాపులినె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "парикрама̄ карийа̄ бэ̆ḓа̄ба банэ̆ банэ̆",
+      "биш́ра̄ма карийа̄ йа̄и йамуна̄пулинэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പരിക്രമാ കരിയാ ബെḓആബ ബനെ ബനെ",
+      "ബിശ്രാമ കരിയാ യാഇ യമുനാപുലിനെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பரிக்ரமா கரியா பெ³ḓஆப³ ப³னெ ப³னெ",
+      "பி³ஶ்ராம கரியா யாஇ யமுனாபுலினெ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "parikramā kariyā beḍāba bane bane",
+      "biśrāma kariyā yāi yamunā-puline 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "parikramā kariyā beḓāba bane bane",
+      "biśrāma kariyā yāi yamunā-puline 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "tāpa dūra kariba śītala baṁśībaṭe",
+    "(kabe) kuñje baiṭhaba hāma baiṣṇaba[FLAG_HYPHEN_ALPHA]nikaṭe 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "I shall find relief from the midday heat under the cooling shade of Vaṁśīvaṭa. When will I sit in the groves of Vṛndāvana and closely associate with the Vaiṣṇavas?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "tāpa",
+       "heat"
+      ],
+      [
+       "dūra kariba",
+       "I shall relieve"
+      ],
+      [
+       "śītala",
+       "cooling"
+      ],
+      [
+       "baṁśībaṭe",
+       "in Vaṁśīvaṭa"
+      ],
+      [
+       "(kabe)",
+       "when"
+      ],
+      [
+       "kuñje",
+       "in the groves"
+      ],
+      [
+       "baiṭhaba",
+       "will sit"
+      ],
+      [
+       "hāma",
+       "I"
+      ],
+      [
+       "baiṣṇaba",
+       "Vaiṣṇavas"
+      ],
+      [
+       "nikaṭe",
+       "nearby"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ताप",
+       "heat"
+      ],
+      [
+       "दूर करिब",
+       "I shall relieve"
+      ],
+      [
+       "शीतल",
+       "cooling"
+      ],
+      [
+       "बंशीबटॆ",
+       "in Vaṁśīvaṭa"
+      ],
+      [
+       "(कबॆ)",
+       "when"
+      ],
+      [
+       "कुञ्जॆ",
+       "in the groves"
+      ],
+      [
+       "बैठब",
+       "will sit"
+      ],
+      [
+       "हाम",
+       "I"
+      ],
+      [
+       "बैष्णब",
+       "Vaiṣṇavas"
+      ],
+      [
+       "निकटॆ",
+       "nearby"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "তাপ",
+       "heat"
+      ],
+      [
+       "দূর করিব",
+       "I shall relieve"
+      ],
+      [
+       "শীতল",
+       "cooling"
+      ],
+      [
+       "বংশীবটে",
+       "in Vaṁśīvaṭa"
+      ],
+      [
+       "(কবে)",
+       "when"
+      ],
+      [
+       "কুঞ্জে",
+       "in the groves"
+      ],
+      [
+       "বৈঠব",
+       "will sit"
+      ],
+      [
+       "হাম",
+       "I"
+      ],
+      [
+       "বৈষ্ণব",
+       "Vaiṣṇavas"
+      ],
+      [
+       "নিকটে",
+       "nearby"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "તાપ",
+       "heat"
+      ],
+      [
+       "દૂર કરિબ",
+       "I shall relieve"
+      ],
+      [
+       "શીતલ",
+       "cooling"
+      ],
+      [
+       "બંશીબટે",
+       "in Vaṁśīvaṭa"
+      ],
+      [
+       "(કબે)",
+       "when"
+      ],
+      [
+       "કુઞ્જે",
+       "in the groves"
+      ],
+      [
+       "બૈઠબ",
+       "will sit"
+      ],
+      [
+       "હામ",
+       "I"
+      ],
+      [
+       "બૈષ્ણબ",
+       "Vaiṣṇavas"
+      ],
+      [
+       "નિકટે",
+       "nearby"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ताप दूर करिब शीतल बंशीबटॆ",
+      "(कबॆ) कुञ्जॆ बैठब हाम बैष्णबनिकटॆ ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তাপ দূর করিব শীতল বংশীবটে",
+      "(কবে) কুঞ্জে বৈঠব হাম বৈষ্ণবনিকটে ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତାପ ଦୂର କରିବ ଶୀତଲ ବଂଶୀବଟେ",
+      "(କବେ) କୁଞ୍ଜେ ବୈଠବ ହାମ ବୈଷ୍ଣବନିକଟେ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તાપ દૂર કરિબ શીતલ બંશીબટે",
+      "(કબે) કુઞ્જે બૈઠબ હામ બૈષ્ણબનિકટે ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tāpa dūra kariba śītala baṁśībaṭe",
+      "(kabe) kuñje baiṭhaba hāma baiṣṇaba-nikaṭe 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಾಪ ದೂರ ಕರಿಬ ಶೀತಲ ಬಂಶೀಬಟೆ",
+      "(ಕಬೆ) ಕುಂಜೆ ಬೈಠಬ ಹಾಮ ಬೈಷ್ಣಬನಿಕಟೆ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తాప దూర కరిబ శీతల బంశీబటె",
+      "(కబె) కుంజె బైఠబ హామ బైష్ణబనికటె 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "та̄па дӯра кариба ш́ӣтала бам̣ш́ӣбат̣э̆",
+      "(кабэ̆) кун̃джэ̆ баит̣хаба ха̄ма баишн̣абаникат̣э̆ 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "താപ ദൂര കരിബ ശീതല ബംശീബടെ",
+      "(കബെ) കുഞ്ജെ ബൈഠബ ഹാമ ബൈഷ്ണബനികടെ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தாப தூ³ர கரிப³ ஶீதல ப³ம்ʼஶீப³டெ",
+      "(கபெ³) குஞ்ஜெ பை³ட²ப³ ஹாம பை³ஷ்ணப³நிகடெ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tāpa dūra kariba śītala baṁśībaṭe",
+      "(kabe) kuñje baiṭhaba hāma baiṣṇaba-nikaṭe 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tāpa dūra kariba śītala baṁśībaṭe",
+      "(kabe) kuñje baiṭhaba hāma baiṣṇaba-nikaṭe 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "narottamadāsa kahe kari’ parihāra",
+    "kabe bā emana daśā ha·ibe āmāra 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Narottama dāsa prays, “When will such a state be mine?”"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "narottamadāsa",
+       "Narottama dāsa"
+      ],
+      [
+       "kahe",
+       "says"
+      ],
+      [
+       "kari’ parihāra",
+       "having prayed"
+      ],
+      [
+       "kabe",
+       "when"
+      ],
+      [
+       "bā",
+       "[used to emphasize a question]"
+      ],
+      [
+       "emana",
+       "such"
+      ],
+      [
+       "daśā",
+       "a state"
+      ],
+      [
+       "ha·ibe",
+       "will be"
+      ],
+      [
+       "āmāra",
+       "mine"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "नरॊत्तमदास",
+       "Narottama dāsa"
+      ],
+      [
+       "कहॆ",
+       "says"
+      ],
+      [
+       "करिऽ परिहार",
+       "having prayed"
+      ],
+      [
+       "कबॆ",
+       "when"
+      ],
+      [
+       "बा",
+       "[used to emphasize a question]"
+      ],
+      [
+       "ऎमन",
+       "such"
+      ],
+      [
+       "दशा",
+       "a state"
+      ],
+      [
+       "हइबॆ",
+       "will be"
+      ],
+      [
+       "आमार",
+       "mine"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "নরোত্তমদাস",
+       "Narottama dāsa"
+      ],
+      [
+       "কহে",
+       "says"
+      ],
+      [
+       "করিঽ পরিহার",
+       "having prayed"
+      ],
+      [
+       "কবে",
+       "when"
+      ],
+      [
+       "বা",
+       "[used to emphasize a question]"
+      ],
+      [
+       "এমন",
+       "such"
+      ],
+      [
+       "দশা",
+       "a state"
+      ],
+      [
+       "হইবে",
+       "will be"
+      ],
+      [
+       "আমার",
+       "mine"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "નરોત્તમદાસ",
+       "Narottama dāsa"
+      ],
+      [
+       "કહે",
+       "says"
+      ],
+      [
+       "કરિઽ પરિહાર",
+       "having prayed"
+      ],
+      [
+       "કબે",
+       "when"
+      ],
+      [
+       "બા",
+       "[used to emphasize a question]"
+      ],
+      [
+       "એમન",
+       "such"
+      ],
+      [
+       "દશા",
+       "a state"
+      ],
+      [
+       "હઇબે",
+       "will be"
+      ],
+      [
+       "આમાર",
+       "mine"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "नरॊत्तमदास कहॆ करिऽ परिहार",
+      "कबॆ बा ऎमन दशा हइबॆ आमार ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নরোত্তমদাস কহে করিঽ পরিহার",
+      "কবে বা এমন দশা হইবে আমার ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନରୋତ୍ତମଦାସ କହେ କରିଽ ପରିହାର",
+      "କବେ ବା ଏମନ ଦଶା ହଇବେ ଆମାର ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નરોત્તમદાસ કહે કરિઽ પરિહાર",
+      "કબે બા એમન દશા હઇબે આમાર ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "narottamadāsa kahe kari’ parihāra",
+      "kabe bā emana daśā ha·ibe āmāra 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನರೊತ್ತಮದಾಸ ಕಹೆ ಕರಿಽ ಪರಿಹಾರ",
+      "ಕಬೆ ಬಾ ಎಮನ ದಶಾ ಹಇಬೆ ಆಮಾರ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నరొత్తమదాస కహె కరిఽ పరిహార",
+      "కబె బా ఎమన దశా హఇబె ఆమార 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "наро̆ттамада̄са кахэ̆ кари' париха̄ра",
+      "кабэ̆ ба̄ э̆мана даш́а̄ хаибэ̆ а̄ма̄ра 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നരൊത്തമദാസ കഹെ കരിഽ പരിഹാര",
+      "കബെ ബാ എമന ദശാ ഹഇബെ ആമാര 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நரொத்தமதா³ஸ கஹெ கரி(அ) பரிஹார",
+      "கபெ³ பா³ எமன த³ஶா ஹஇபெ³ ஆமார 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "narottamadāsa kahe kari’ parihāra",
+      "kabe bā emana daśā ha·ibe āmāra 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "narottamadāsa kahe kari’ parihāra",
+      "kabe bā emana daśā ha·ibe āmāra 6"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": []
+}

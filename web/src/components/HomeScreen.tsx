@@ -1,95 +1,108 @@
-import React, { useState } from "react";
-import { useRouter } from "next/router";
-import { IExtendedSong } from "../models/Song";
-import { IAuthor } from "../models/Author";
-import { ITopic } from "../models/Topic";
-import { IBook } from "../models/Book";
-import { SongsSection } from "./SongsSection";
-import { AuthorsSection } from "./AuthorsSection";
-import { TopicsSection } from "./TopicsSection";
-import { BooksSection } from "./BooksSection";
+import React, { useMemo } from 'react'
+import { useRouter } from 'next/router'
+import { ISongGroup } from '../models/Collections'
+import { UNKNOWN_AUTHOR_UID } from '../models/Common'
+import { IAuthorListing } from '../services/authorRepository'
+import { ISongListing } from '../services/songListingView'
+import { NowSection } from './NowSection'
+import { RecentlyPlayedSection } from './RecentlyPlayedSection'
+import { TopicsSection } from './TopicsSection'
+import { BooksSection } from './BooksSection'
+import { AuthorsSection } from './AuthorsSection'
 
-// Sample data - In a real implementation, this would come from an API or context
-import {
-  sampleSongs,
-  sampleAuthors,
-  sampleTopicInstances,
-  sampleBooks,
-} from "../data/sampleData";
+interface HomeScreenProps {
+  /** Lookup source for uid-only references (calendar song refs, local recents). */
+  referenceListings: ISongListing[]
+  authors: IAuthorListing[]
+  books: ISongGroup[]
+  topics: ISongGroup[]
+}
 
-export const HomeScreen: React.FC = () => {
-  const router = useRouter();
-  const [songs] = useState<IExtendedSong[]>(sampleSongs);
-  const [authors] = useState<IAuthor[]>(sampleAuthors);
-  const [topics] = useState<ITopic[]>(sampleTopicInstances);
-  const [books] = useState<IBook[]>(sampleBooks);
-  const [language] = useState("en");
+/**
+ * Home (docs/screens/home.md) — leads with what to sing now, then what the reader was last
+ * reading, then the browse sections.
+ *
+ *   1. This month      — the lunar month's songs + the ārati for the time of day
+ *   2. Recently played — from localStorage, most recent first
+ *   3. Topics          — one row
+ *   4. Books           — one row
+ *   5. Authors         — one row
+ *
+ * There is no "Popular" region: the corpus carries no usage signal and none can be manufactured
+ * (~30 of 702 songs appear even once across 2,172 dated community livestreams).
+ */
+export const HomeScreen: React.FC<HomeScreenProps> = ({
+  referenceListings,
+  authors,
+  books,
+  topics,
+}) => {
+  const router = useRouter()
 
-  // Navigation handlers
-  const handleSongClick = (song: IExtendedSong) => {
-    router.push(`/songs/${song.id}`);
-  };
+  const listingsByUid = useMemo(
+    () => Object.fromEntries(referenceListings.map((l) => [l.uid, l])),
+    [referenceListings],
+  )
 
-  const handleAuthorClick = (author: IAuthor) => {
-    console.log("Navigate to author:", author.id);
-    // router.push(`/authors/${author.id}`)
-  };
+  const handleSongClick = (song: ISongListing) => {
+    router.push(`/songs/${song.uid}`)
+  }
 
-  const handleTopicClick = (topic: ITopic) => {
-    console.log("Navigate to topic:", topic.name);
-    // router.push(`/topics/${encodeURIComponent(topic.name)}`)
-  };
+  const handleAuthorClick = (listing: IAuthorListing) => {
+    router.push(`/songs?author=${encodeURIComponent(listing.author.uid)}`)
+  }
 
-  const handleBookClick = (book: IBook) => {
-    console.log("Navigate to book:", book.id);
-    // router.push(`/books/${book.id}`)
-  };
+  const handleBookClick = (book: ISongGroup) => {
+    router.push(`/books/${book.uid}`)
+  }
+
+  const handleTopicClick = (topic: ISongGroup) => {
+    router.push(`/topics/${topic.uid}`)
+  }
 
   return (
     <div className="w-full max-w-screen-lg pt-4 pb-20 mx-auto">
-      {/* Header/Search area would go here */}
-        {/* Popular Songs in 2x2 Grid */}
-        <SongsSection
-          songs={songs}
-          title="Popular Songs"
-          language={language}
-          onSongClick={handleSongClick}
-          gridLayout={true}
-          limit={4}
-          viewAllLink="/songs"
-        />
+      {/* "This month" is the lead region: the month's songs plus the ārati for the time of day.
+          It carries the seasonal recommendations (in Āṣāḍha, the Jagannātha/Ratha-yātrā and
+          Guru-pūrṇimā songs) and is the only region that changes through the day and year. */}
+      <NowSection listingsByUid={listingsByUid} onSongClick={handleSongClick} />
 
-      {/* Topics Section */}
+      <RecentlyPlayedSection listingsByUid={listingsByUid} onSongClick={handleSongClick} />
+
+      {/* Topics -> Books -> Authors, each ONE horizontally-scrollable row (`singleRow`). The
+          wrapping grids these sections use by default belong on /topics and /books, where the
+          whole set is the point; on home they cost three rows of vertical scroll each.
+          Topics and Books hide themselves when the corpus ships no groups of that kind. */}
       <div className="mb-8">
-        <TopicsSection 
-          topics={topics} 
+        <TopicsSection
+          topics={topics}
           onTopicClick={handleTopicClick}
-          title="Browse by Topics"
-          limit={8}
+          title="Topics"
+          limit={12}
+          singleRow
           viewAllLink="/topics"
         />
       </div>
-      
-      {/* Authors Section */}
+
       <div className="mb-8">
-        <AuthorsSection 
-          authors={authors} 
-          onAuthorClick={handleAuthorClick}
-          title="Popular Authors"
-          limit={10}
-          viewAllLink="/authors"
+        <BooksSection
+          books={books}
+          onBookClick={handleBookClick}
+          title="Books"
+          limit={12}
+          singleRow
+          viewAllLink="/books"
         />
       </div>
-      
-      {/* Books Section */}
-      <BooksSection 
-        books={books} 
-        onBookClick={handleBookClick}
-        title="Featured Books"
-        viewAllLink="/books"
-        gridLayout={false}
-      />
 
+      <AuthorsSection
+        authors={authors.filter((a) => a.author.uid !== UNKNOWN_AUTHOR_UID)}
+        onAuthorClick={handleAuthorClick}
+        title="Authors"
+        limit={12}
+        singleRow
+        viewAllLink="/authors"
+      />
     </div>
-  );
-};
+  )
+}

@@ -1,0 +1,2916 @@
+{
+ "uid": "K50",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "গোপীনাথ, ঘুচাও সংসার-জ্বালা"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "gopīnātha, ghucāo saṁsāra-jbālā"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "gopīnātha, ghucāo saṁsāra[FLAG_HYPHEN_ALPHA]jbālā",
+    "abidyā[FLAG_HYPHEN_ALPHA]yātanā,    āra nāhi sahe,",
+    "janama[FLAG_HYPHEN_ALPHA]maraṇa[FLAG_HYPHEN_ALPHA]mālā 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Gopīnātha, please remove the burning torment of worldly existence. I can no longer tolerate the pain of ignorance and the cycle of repeated birth and death."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gopīnātha",
+       "O Gopīnātha"
+      ],
+      [
+       "ghucāo",
+       "remove"
+      ],
+      [
+       "saṁsāra",
+       "worldly existence"
+      ],
+      [
+       "jbālā",
+       "burning"
+      ],
+      [
+       "abidyā",
+       "of ignorance"
+      ],
+      [
+       "yātanā",
+       "the agony"
+      ],
+      [
+       "āra",
+       "more"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "sahe",
+       "tolerate"
+      ],
+      [
+       "janama",
+       "birth"
+      ],
+      [
+       "maraṇa",
+       "death"
+      ],
+      [
+       "mālā",
+       "cycle"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गॊपीनाथ",
+       "O Gopīnātha"
+      ],
+      [
+       "घुचाऒ",
+       "remove"
+      ],
+      [
+       "संसार",
+       "worldly existence"
+      ],
+      [
+       "ज्बाला",
+       "burning"
+      ],
+      [
+       "अबिद्या",
+       "of ignorance"
+      ],
+      [
+       "यातना",
+       "the agony"
+      ],
+      [
+       "आर",
+       "more"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "सहॆ",
+       "tolerate"
+      ],
+      [
+       "जनम",
+       "birth"
+      ],
+      [
+       "मरण",
+       "death"
+      ],
+      [
+       "माला",
+       "cycle"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গোপীনাথ",
+       "O Gopīnātha"
+      ],
+      [
+       "ঘুচাও",
+       "remove"
+      ],
+      [
+       "সংসার",
+       "worldly existence"
+      ],
+      [
+       "জ্বালা",
+       "burning"
+      ],
+      [
+       "অবিদ্যা",
+       "of ignorance"
+      ],
+      [
+       "যাতনা",
+       "the agony"
+      ],
+      [
+       "আর",
+       "more"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "সহে",
+       "tolerate"
+      ],
+      [
+       "জনম",
+       "birth"
+      ],
+      [
+       "মরণ",
+       "death"
+      ],
+      [
+       "মালা",
+       "cycle"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગોપીનાથ",
+       "O Gopīnātha"
+      ],
+      [
+       "ઘુચાઓ",
+       "remove"
+      ],
+      [
+       "સંસાર",
+       "worldly existence"
+      ],
+      [
+       "જ્બાલા",
+       "burning"
+      ],
+      [
+       "અબિદ્યા",
+       "of ignorance"
+      ],
+      [
+       "યાતના",
+       "the agony"
+      ],
+      [
+       "આર",
+       "more"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "સહે",
+       "tolerate"
+      ],
+      [
+       "જનમ",
+       "birth"
+      ],
+      [
+       "મરણ",
+       "death"
+      ],
+      [
+       "માલા",
+       "cycle"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गॊपीनाथ, घुचाऒ संसारज्बाला",
+      "अबिद्यायातना,    आर नाहि सहॆ,",
+      "जनममरणमाला १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গোপীনাথ, ঘুচাও সংসারজ্বালা",
+      "অবিদ্যায়াতনা,    আর নাহি সহে,",
+      "জনমমরণমালা ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୋପୀନାଥ, ଘୁଚାଓ ସଂସାରଜ୍ବାଲା",
+      "ଅବିଦ୍ୟାୟାତନା,    ଆର ନାହି ସହେ,",
+      "ଜନମମରଣମାଲା ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગોપીનાથ, ઘુચાઓ સંસારજ્બાલા",
+      "અબિદ્યાયાતના,    આર નાહિ સહે,",
+      "જનમમરણમાલા ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gopīnātha, ghucāo saṁsāra-jbālā",
+      "abidyā-yātanā,    āra nāhi sahe,",
+      "janama-maraṇa-mālā 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗೊಪೀನಾಥ, ಘುಚಾಒ ಸಂಸಾರಜ್ಬಾಲಾ",
+      "ಅಬಿದ್ಯಾಯಾತನಾ,    ಆರ ನಾಹಿ ಸಹೆ,",
+      "ಜನಮಮರಣಮಾಲಾ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గొపీనాథ, ఘుచాఒ సంసారజ్బాలా",
+      "అబిద్యాయాతనా,    ఆర నాహి సహె,",
+      "జనమమరణమాలా 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "го̆пӣна̄тха, гхуча̄о̆ сам̣са̄раджба̄ла̄",
+      "абидйа̄йа̄тана̄,    а̄ра на̄хи сахэ̆,",
+      "джанамамаран̣ама̄ла̄ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗൊപീനാഥ, ഘുചാഒ സംസാരജ്ബാലാ",
+      "അബിദ്യായാതനാ,    ആര നാഹി സഹെ,",
+      "ജനമമരണമാലാ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கொ³பீநாத², கு⁴சாஒ ஸம்ʼஸாரஜ்பா³லா",
+      "அபி³த்³யாயாதனா,    ஆர நாஹி ஸஹெ,",
+      "ஜனமமரணமாலா 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gopīnātha, ghucāo saṁsāra-jbālā",
+      "abidyā-yātanā,    āra nāhi sahe,",
+      "janama-maraṇa-mālā 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gopīnātha, ghucāo saṁsāra-jbālā",
+      "abidyā-yātanā,    āra nāhi sahe,",
+      "janama-maraṇa-mālā 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "gopīnātha, āmi ta’ kāmera dāsa",
+    "biṣaya[FLAG_HYPHEN_ALPHA]bāsanā,    jāgiche hṛdaye,",
+    "phā̃diche karama phā̃sa 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Gopīnātha, I am the servant of lust. The desire for mundane sense enjoyment has awakened in my heart and has ensnared me with the noose of fruitive activity."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gopīnātha",
+       "O Gopīnātha"
+      ],
+      [
+       "āmi",
+       "I"
+      ],
+      [
+       "kāmera",
+       "of lust"
+      ],
+      [
+       "dāsa",
+       "a servant"
+      ],
+      [
+       "biṣaya",
+       "sense enjoyment"
+      ],
+      [
+       "bāsanā",
+       "desire"
+      ],
+      [
+       "jāgiche",
+       "it is awakening"
+      ],
+      [
+       "hṛdaye",
+       "in heart"
+      ],
+      [
+       "phā̃diche",
+       "it is ensnaring"
+      ],
+      [
+       "karama",
+       "frutive activity"
+      ],
+      [
+       "phā̃sa",
+       "noose"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गॊपीनाथ",
+       "O Gopīnātha"
+      ],
+      [
+       "आमि",
+       "I"
+      ],
+      [
+       "कामॆर",
+       "of lust"
+      ],
+      [
+       "दास",
+       "a servant"
+      ],
+      [
+       "बिषय",
+       "sense enjoyment"
+      ],
+      [
+       "बासना",
+       "desire"
+      ],
+      [
+       "जागिछॆ",
+       "it is awakening"
+      ],
+      [
+       "ह्ड़्दयॆ",
+       "in heart"
+      ],
+      [
+       "फांदिछॆ",
+       "it is ensnaring"
+      ],
+      [
+       "करम",
+       "frutive activity"
+      ],
+      [
+       "फांस",
+       "noose"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গোপীনাথ",
+       "O Gopīnātha"
+      ],
+      [
+       "আমি",
+       "I"
+      ],
+      [
+       "কামের",
+       "of lust"
+      ],
+      [
+       "দাস",
+       "a servant"
+      ],
+      [
+       "বিষয়",
+       "sense enjoyment"
+      ],
+      [
+       "বাসনা",
+       "desire"
+      ],
+      [
+       "জাগিছে",
+       "it is awakening"
+      ],
+      [
+       "হ্ড়্দয়ে",
+       "in heart"
+      ],
+      [
+       "ফান্দিছে",
+       "it is ensnaring"
+      ],
+      [
+       "করম",
+       "frutive activity"
+      ],
+      [
+       "ফাংস",
+       "noose"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગોપીનાથ",
+       "O Gopīnātha"
+      ],
+      [
+       "આમિ",
+       "I"
+      ],
+      [
+       "કામેર",
+       "of lust"
+      ],
+      [
+       "દાસ",
+       "a servant"
+      ],
+      [
+       "બિષય",
+       "sense enjoyment"
+      ],
+      [
+       "બાસના",
+       "desire"
+      ],
+      [
+       "જાગિછે",
+       "it is awakening"
+      ],
+      [
+       "હ્ડ઼્દયે",
+       "in heart"
+      ],
+      [
+       "ફાંદિછે",
+       "it is ensnaring"
+      ],
+      [
+       "કરમ",
+       "frutive activity"
+      ],
+      [
+       "ફાંસ",
+       "noose"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गॊपीनाथ, आमि तऽ कामॆर दास",
+      "बिषयबासना,    जागिछॆ ह्ड़्दयॆ,",
+      "फांदिछॆ करम फांस २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গোপীনাথ, আমি তঽ কামের দাস",
+      "বিষয়বাসনা,    জাগিছে হ্ড়্দয়ে,",
+      "ফান্দিছে করম ফাংস ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୋପୀନାଥ, ଆମି ତଽ କାମେର ଦାସ",
+      "ବିଷୟବାସନା,    ଜାଗିଛେ ହ୍ଡ଼୍ଦୟେ,",
+      "ଫାନ୍ଦିଛେ କରମ ଫାଂସ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગોપીનાથ, આમિ તઽ કામેર દાસ",
+      "બિષયબાસના,    જાગિછે હ્ડ઼્દયે,",
+      "ફાંદિછે કરમ ફાંસ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gopīnātha, āmi ta’ kāmera dāsa",
+      "biṣaya-bāsanā,    jāgiche hṛdaye,",
+      "phā̃diche karama phā̃sa 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗೊಪೀನಾಥ, ಆಮಿ ತಽ ಕಾಮೆರ ದಾಸ",
+      "ಬಿಷಯಬಾಸನಾ,    ಜಾಗಿಛೆ ಹ್‌ಡ಼್ದಯೆ,",
+      "ಫಾಂದಿಛೆ ಕರಮ ಫಾಂಸ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గొపీనాథ, ఆమి తఽ కామెర దాస",
+      "బిషయబాసనా,    జాగిఛె హ్డ్దయె,",
+      "ఫాందిఛె కరమ ఫాంస 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "го̆пӣна̄тха, а̄ми та' ка̄мэ̆ра да̄са",
+      "бишайаба̄сана̄,    джа̄гичхэ̆ хр̤дайэ̆,",
+      "пха̄м̣дичхэ̆ карама пха̄м̣са 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗൊപീനാഥ, ആമി തഽ കാമെര ദാസ",
+      "ബിഷയബാസനാ,    ജാഗിഛെ ഹ്ഡ്ദയെ,",
+      "ഫാന്ദിഛെ കരമ ഫാംസ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கொ³பீநாத², ஆமி த(அ) காமெர தா³ஸ",
+      "பி³ஷயபா³ஸனா,    ஜாகி³செ² ஹ்ஃட்²த³யெ,",
+      "பா²ந்தி³செ² கரம பா²ம்ʼஸ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gopīnātha, āmi ta’ kāmera dāsa",
+      "biṣaya-bāsanā,    jāgiche hṛdaye,",
+      "phā̃diche karama phā̃sa 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gopīnātha, āmi ta’ kāmera dāsa",
+      "biṣaya-bāsanā,    jāgiche hṛdaye,",
+      "phā̃diche karama phā̃sa 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "gopīnātha, kabe bā jāgiba āmi",
+    "kāmarūpa ari,    dūre teyāgiba,",
+    "hṛdaye sphuribe tumi 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Gopīnātha, when will I wake up and cast the enemy of lust far away? At that time, You will manifest within my heart."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gopīnātha",
+       "O Gopīnātha"
+      ],
+      [
+       "kabe",
+       "when"
+      ],
+      [
+       "bā",
+       "[used to emphasize a question]"
+      ],
+      [
+       "jāgiba",
+       "will wake up"
+      ],
+      [
+       "āmi",
+       "I"
+      ],
+      [
+       "kāmarūpa",
+       "of lust + in the form of"
+      ],
+      [
+       "ari",
+       "the enemy"
+      ],
+      [
+       "dūre",
+       "far away"
+      ],
+      [
+       "teyāgiba",
+       "I will cast"
+      ],
+      [
+       "hṛdaye",
+       "in heart"
+      ],
+      [
+       "sphuribe",
+       "will manifest"
+      ],
+      [
+       "tumi",
+       "You"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गॊपीनाथ",
+       "O Gopīnātha"
+      ],
+      [
+       "कबॆ",
+       "when"
+      ],
+      [
+       "बा",
+       "[used to emphasize a question]"
+      ],
+      [
+       "जागिब",
+       "will wake up"
+      ],
+      [
+       "आमि",
+       "I"
+      ],
+      [
+       "कामरूप",
+       "of lust + in the form of"
+      ],
+      [
+       "अरि",
+       "the enemy"
+      ],
+      [
+       "दूरॆ",
+       "far away"
+      ],
+      [
+       "तॆयागिब",
+       "I will cast"
+      ],
+      [
+       "ह्ड़्दयॆ",
+       "in heart"
+      ],
+      [
+       "स्फुरिबॆ",
+       "will manifest"
+      ],
+      [
+       "तुमि",
+       "You"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গোপীনাথ",
+       "O Gopīnātha"
+      ],
+      [
+       "কবে",
+       "when"
+      ],
+      [
+       "বা",
+       "[used to emphasize a question]"
+      ],
+      [
+       "জাগিব",
+       "will wake up"
+      ],
+      [
+       "আমি",
+       "I"
+      ],
+      [
+       "কামরূপ",
+       "of lust + in the form of"
+      ],
+      [
+       "অরি",
+       "the enemy"
+      ],
+      [
+       "দূরে",
+       "far away"
+      ],
+      [
+       "তেয়াগিব",
+       "I will cast"
+      ],
+      [
+       "হ্ড়্দয়ে",
+       "in heart"
+      ],
+      [
+       "স্ফুরিবে",
+       "will manifest"
+      ],
+      [
+       "তুমি",
+       "You"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગોપીનાથ",
+       "O Gopīnātha"
+      ],
+      [
+       "કબે",
+       "when"
+      ],
+      [
+       "બા",
+       "[used to emphasize a question]"
+      ],
+      [
+       "જાગિબ",
+       "will wake up"
+      ],
+      [
+       "આમિ",
+       "I"
+      ],
+      [
+       "કામરૂપ",
+       "of lust + in the form of"
+      ],
+      [
+       "અરિ",
+       "the enemy"
+      ],
+      [
+       "દૂરે",
+       "far away"
+      ],
+      [
+       "તેયાગિબ",
+       "I will cast"
+      ],
+      [
+       "હ્ડ઼્દયે",
+       "in heart"
+      ],
+      [
+       "સ્ફુરિબે",
+       "will manifest"
+      ],
+      [
+       "તુમિ",
+       "You"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गॊपीनाथ, कबॆ बा जागिब आमि",
+      "कामरूप अरि,    दूरॆ तॆयागिब,",
+      "ह्ड़्दयॆ स्फुरिबॆ तुमि ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গোপীনাথ, কবে বা জাগিব আমি",
+      "কামরূপ অরি,    দূরে তেয়াগিব,",
+      "হ্ড়্দয়ে স্ফুরিবে তুমি ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୋପୀନାଥ, କବେ ବା ଜାଗିବ ଆମି",
+      "କାମରୂପ ଅରି,    ଦୂରେ ତେୟାଗିବ,",
+      "ହ୍ଡ଼୍ଦୟେ ସ୍ଫୁରିବେ ତୁମି ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગોપીનાથ, કબે બા જાગિબ આમિ",
+      "કામરૂપ અરિ,    દૂરે તેયાગિબ,",
+      "હ્ડ઼્દયે સ્ફુરિબે તુમિ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gopīnātha, kabe bā jāgiba āmi",
+      "kāmarūpa ari,    dūre teyāgiba,",
+      "hṛdaye sphuribe tumi 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗೊಪೀನಾಥ, ಕಬೆ ಬಾ ಜಾಗಿಬ ಆಮಿ",
+      "ಕಾಮರೂಪ ಅರಿ,    ದೂರೆ ತೆಯಾಗಿಬ,",
+      "ಹ್‌ಡ಼್ದಯೆ ಸ್ಫುರಿಬೆ ತುಮಿ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గొపీనాథ, కబె బా జాగిబ ఆమి",
+      "కామరూప అరి,    దూరె తెయాగిబ,",
+      "హ్డ్దయె స్ఫురిబె తుమి 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "го̆пӣна̄тха, кабэ̆ ба̄ джа̄гиба а̄ми",
+      "ка̄марӯпа ари,    дӯрэ̆ тэ̆йа̄гиба,",
+      "хр̤дайэ̆ спхурибэ̆ туми 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗൊപീനാഥ, കബെ ബാ ജാഗിബ ആമി",
+      "കാമരൂപ അരി,    ദൂരെ തെയാഗിബ,",
+      "ഹ്ഡ്ദയെ സ്ഫുരിബെ തുമി 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கொ³பீநாத², கபெ³ பா³ ஜாகி³ப³ ஆமி",
+      "காமரூப அரி,    தூ³ரெ தெயாகி³ப³,",
+      "ஹ்ஃட்²த³யெ ஸ்பு²ரிபெ³ துமி 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gopīnātha, kabe bā jāgiba āmi",
+      "kāmarūpa ari,    dūre teyāgiba,",
+      "hṛdaye sphuribe tumi 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gopīnātha, kabe bā jāgiba āmi",
+      "kāmarūpa ari,    dūre teyāgiba,",
+      "hṛdaye sphuribe tumi 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "gopīnātha, āmi ta’ tomāra jana",
+    "tomāre chāḓiyā,    saṁsāra bhajinu,",
+    "bhuliyā āpana dhana 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Gopīnātha, I am actually Yours, but having left You to enjoy the material world, I have forgotten my real wealth."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gopīnātha",
+       "O Gopīnātha"
+      ],
+      [
+       "āmi",
+       "I"
+      ],
+      [
+       "tomāra",
+       "Your"
+      ],
+      [
+       "jana",
+       "person"
+      ],
+      [
+       "tomāre",
+       "to You"
+      ],
+      [
+       "chāḓiyā",
+       "having left"
+      ],
+      [
+       "saṁsāra",
+       "the material world"
+      ],
+      [
+       "bhajinu",
+       "I have adored"
+      ],
+      [
+       "bhuliyā",
+       "having forgotten"
+      ],
+      [
+       "āpana",
+       "my"
+      ],
+      [
+       "dhana",
+       "wealth"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गॊपीनाथ",
+       "O Gopīnātha"
+      ],
+      [
+       "आमि",
+       "I"
+      ],
+      [
+       "तॊमार",
+       "Your"
+      ],
+      [
+       "जन",
+       "person"
+      ],
+      [
+       "तॊमारॆ",
+       "to You"
+      ],
+      [
+       "छाḓइया",
+       "having left"
+      ],
+      [
+       "संसार",
+       "the material world"
+      ],
+      [
+       "भजिनु",
+       "I have adored"
+      ],
+      [
+       "भुलिया",
+       "having forgotten"
+      ],
+      [
+       "आपन",
+       "my"
+      ],
+      [
+       "धन",
+       "wealth"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গোপীনাথ",
+       "O Gopīnātha"
+      ],
+      [
+       "আমি",
+       "I"
+      ],
+      [
+       "তোমার",
+       "Your"
+      ],
+      [
+       "জন",
+       "person"
+      ],
+      [
+       "তোমারে",
+       "to You"
+      ],
+      [
+       "ছাḓইয়া",
+       "having left"
+      ],
+      [
+       "সংসার",
+       "the material world"
+      ],
+      [
+       "ভজিনু",
+       "I have adored"
+      ],
+      [
+       "ভুলিয়া",
+       "having forgotten"
+      ],
+      [
+       "আপন",
+       "my"
+      ],
+      [
+       "ধন",
+       "wealth"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગોપીનાથ",
+       "O Gopīnātha"
+      ],
+      [
+       "આમિ",
+       "I"
+      ],
+      [
+       "તોમાર",
+       "Your"
+      ],
+      [
+       "જન",
+       "person"
+      ],
+      [
+       "તોમારે",
+       "to You"
+      ],
+      [
+       "છાḓઇયા",
+       "having left"
+      ],
+      [
+       "સંસાર",
+       "the material world"
+      ],
+      [
+       "ભજિનુ",
+       "I have adored"
+      ],
+      [
+       "ભુલિયા",
+       "having forgotten"
+      ],
+      [
+       "આપન",
+       "my"
+      ],
+      [
+       "ધન",
+       "wealth"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गॊपीनाथ, आमि तऽ तॊमार जन",
+      "तॊमारॆ छाḓइया,    संसार भजिनु,",
+      "भुलिया आपन धन ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গোপীনাথ, আমি তঽ তোমার জন",
+      "তোমারে ছাḓইয়া,    সংসার ভজিনু,",
+      "ভুলিয়া আপন ধন ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୋପୀନାଥ, ଆମି ତଽ ତୋମାର ଜନ",
+      "ତୋମାରେ ଛାḓଇୟା,    ସଂସାର ଭଜିନୁ,",
+      "ଭୁଲିୟା ଆପନ ଧନ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગોપીનાથ, આમિ તઽ તોમાર જન",
+      "તોમારે છાḓઇયા,    સંસાર ભજિનુ,",
+      "ભુલિયા આપન ધન ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gopīnātha, āmi ta’ tomāra jana",
+      "tomāre chāḓiyā,    saṁsāra bhajinu,",
+      "bhuliyā āpana dhana 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗೊಪೀನಾಥ, ಆಮಿ ತಽ ತೊಮಾರ ಜನ",
+      "ತೊಮಾರೆ ಛಾḓಇಯಾ,    ಸಂಸಾರ ಭಜಿನು,",
+      "ಭುಲಿಯಾ ಆಪನ ಧನ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గొపీనాథ, ఆమి తఽ తొమార జన",
+      "తొమారె ఛాḓఇయా,    సంసార భజిను,",
+      "భులియా ఆపన ధన 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "го̆пӣна̄тха, а̄ми та' то̆ма̄ра джана",
+      "то̆ма̄рэ̆ чха̄ḓийа̄,    сам̣са̄ра бхаджину,",
+      "бхулийа̄ а̄пана дхана 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗൊപീനാഥ, ആമി തഽ തൊമാര ജന",
+      "തൊമാരെ ഛാḓഇയാ,    സംസാര ഭജിനു,",
+      "ഭുലിയാ ആപന ധന 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கொ³பீநாத², ஆமி த(அ) தொமார ஜன",
+      "தொமாரெ சா²ḓஇயா,    ஸம்ʼஸார ப⁴ஜினு,",
+      "பு⁴லியா ஆபன த⁴ன 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gopīnātha, āmi ta’ tomāra jana",
+      "tomāre chāḍiyā,    saṁsāra bhajinu,",
+      "bhuliyā āpana dhana 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gopīnātha, āmi ta’ tomāra jana",
+      "tomāre chāḓiyā,    saṁsāra bhajinu,",
+      "bhuliyā āpana dhana 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "gopīnātha, tumi ta’ sakali jāna",
+    "āpanāra jane,    daṇḍiyā ekhana,",
+    "śrīcaraṇe deha sthāna 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Gopīnātha, You certainly know everything. You may now punish this servant of Yours and kindly give me a place at Your divine lotus feet."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gopīnātha",
+       "O Gopīnātha"
+      ],
+      [
+       "tumi",
+       "You"
+      ],
+      [
+       "sakali",
+       "everything"
+      ],
+      [
+       "jāna",
+       "know"
+      ],
+      [
+       "āpanāra",
+       "Your"
+      ],
+      [
+       "jane",
+       "to servant"
+      ],
+      [
+       "daṇḍiyā",
+       "having punished"
+      ],
+      [
+       "ekhana",
+       "now"
+      ],
+      [
+       "śrīcaraṇe",
+       "divine + at feet"
+      ],
+      [
+       "deha",
+       "give"
+      ],
+      [
+       "sthāna",
+       "a place"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गॊपीनाथ",
+       "O Gopīnātha"
+      ],
+      [
+       "तुमि",
+       "You"
+      ],
+      [
+       "सकलि",
+       "everything"
+      ],
+      [
+       "जान",
+       "know"
+      ],
+      [
+       "आपनार",
+       "Your"
+      ],
+      [
+       "जनॆ",
+       "to servant"
+      ],
+      [
+       "दण्डिया",
+       "having punished"
+      ],
+      [
+       "ऎखन",
+       "now"
+      ],
+      [
+       "श्रीचरणॆ",
+       "divine + at feet"
+      ],
+      [
+       "दॆह",
+       "give"
+      ],
+      [
+       "स्थान",
+       "a place"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গোপীনাথ",
+       "O Gopīnātha"
+      ],
+      [
+       "তুমি",
+       "You"
+      ],
+      [
+       "সকলি",
+       "everything"
+      ],
+      [
+       "জান",
+       "know"
+      ],
+      [
+       "আপনার",
+       "Your"
+      ],
+      [
+       "জনে",
+       "to servant"
+      ],
+      [
+       "দণ্ডিয়া",
+       "having punished"
+      ],
+      [
+       "এখন",
+       "now"
+      ],
+      [
+       "শ্রীচরণে",
+       "divine + at feet"
+      ],
+      [
+       "দেহ",
+       "give"
+      ],
+      [
+       "স্থান",
+       "a place"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગોપીનાથ",
+       "O Gopīnātha"
+      ],
+      [
+       "તુમિ",
+       "You"
+      ],
+      [
+       "સકલિ",
+       "everything"
+      ],
+      [
+       "જાન",
+       "know"
+      ],
+      [
+       "આપનાર",
+       "Your"
+      ],
+      [
+       "જને",
+       "to servant"
+      ],
+      [
+       "દણ્ડિયા",
+       "having punished"
+      ],
+      [
+       "એખન",
+       "now"
+      ],
+      [
+       "શ્રીચરણે",
+       "divine + at feet"
+      ],
+      [
+       "દેહ",
+       "give"
+      ],
+      [
+       "સ્થાન",
+       "a place"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गॊपीनाथ, तुमि तऽ सकलि जान",
+      "आपनार जनॆ,    दण्डिया ऎखन,",
+      "श्रीचरणॆ दॆह स्थान ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গোপীনাথ, তুমি তঽ সকলি জান",
+      "আপনার জনে,    দণ্ডিয়া এখন,",
+      "শ্রীচরণে দেহ স্থান ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୋପୀନାଥ, ତୁମି ତଽ ସକଲି ଜାନ",
+      "ଆପନାର ଜନେ,    ଦଣ୍ଡିୟା ଏଖନ,",
+      "ଶ୍ରୀଚରଣେ ଦେହ ସ୍ଥାନ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગોપીનાથ, તુમિ તઽ સકલિ જાન",
+      "આપનાર જને,    દણ્ડિયા એખન,",
+      "શ્રીચરણે દેહ સ્થાન ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gopīnātha, tumi ta’ sakali jāna",
+      "āpanāra jane,    daṇḍiyā ekhana,",
+      "śrīcaraṇe deha sthāna 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗೊಪೀನಾಥ, ತುಮಿ ತಽ ಸಕಲಿ ಜಾನ",
+      "ಆಪನಾರ ಜನೆ,    ದಂಡಿಯಾ ಎಖನ,",
+      "ಶ್ರೀಚರಣೆ ದೆಹ ಸ್ಥಾನ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గొపీనాథ, తుమి తఽ సకలి జాన",
+      "ఆపనార జనె,    దండియా ఎఖన,",
+      "శ్రీచరణె దెహ స్థాన 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "го̆пӣна̄тха, туми та' сакали джа̄на",
+      "а̄пана̄ра джанэ̆,    дан̣д̣ийа̄ э̆кхана,",
+      "ш́рӣчаран̣э̆ дэ̆ха стха̄на 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗൊപീനാഥ, തുമി തഽ സകലി ജാന",
+      "ആപനാര ജനെ,    ദണ്ഡിയാ എഖന,",
+      "ശ്രീചരണെ ദെഹ സ്ഥാന 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கொ³பீநாத², துமி த(அ) ஸகலி ஜான",
+      "ஆபனார ஜனெ,    த³ண்டி³யா எக²ன,",
+      "ஶ்ரீசரணெ தெ³ஹ ஸ்தா²ன 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gopīnātha, tumi ta’ sakali jāna",
+      "āpanāra jane,    daṇḍiyā ekhana,",
+      "śrīcaraṇe deha sthāna 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gopīnātha, tumi ta’ sakali jāna",
+      "āpanāra jane,    daṇḍiyā ekhana,",
+      "śrīcaraṇe deha sthāna 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "gopīnātha, ei ki bicāra taba",
+    "bimukha dekhiyā,    chāḓa nija[FLAG_HYPHEN_ALPHA]jane,",
+    "nā kara’ karuṇā[FLAG_HYPHEN_ALPHA]laba 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Gopīnātha, is this Your judgment—that upon seeing he who is averse to You, You will abandon Your own servant without bestowing even a drop of mercy [upon him]?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gopīnātha",
+       "O Gopīnātha"
+      ],
+      [
+       "ei",
+       "this"
+      ],
+      [
+       "ki",
+       "[marks a question]"
+      ],
+      [
+       "bicāra",
+       "judgement"
+      ],
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "bimukha",
+       "one who is averse"
+      ],
+      [
+       "dekhiyā",
+       "having seen"
+      ],
+      [
+       "chāḓa",
+       "You abandon"
+      ],
+      [
+       "nija jane",
+       "to Your own servant"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "kara’ karuṇā",
+       "You give mercy"
+      ],
+      [
+       "laba",
+       "a drop"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गॊपीनाथ",
+       "O Gopīnātha"
+      ],
+      [
+       "ऎइ",
+       "this"
+      ],
+      [
+       "कि",
+       "[marks a question]"
+      ],
+      [
+       "बिचार",
+       "judgement"
+      ],
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "बिमुख",
+       "one who is averse"
+      ],
+      [
+       "दॆखिया",
+       "having seen"
+      ],
+      [
+       "छाḓअ",
+       "You abandon"
+      ],
+      [
+       "निज जनॆ",
+       "to Your own servant"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "करऽ करुणा",
+       "You give mercy"
+      ],
+      [
+       "लब",
+       "a drop"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গোপীনাথ",
+       "O Gopīnātha"
+      ],
+      [
+       "এই",
+       "this"
+      ],
+      [
+       "কি",
+       "[marks a question]"
+      ],
+      [
+       "বিচার",
+       "judgement"
+      ],
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "বিমুখ",
+       "one who is averse"
+      ],
+      [
+       "দেখিয়া",
+       "having seen"
+      ],
+      [
+       "ছাḓঅ",
+       "You abandon"
+      ],
+      [
+       "নিজ জনে",
+       "to Your own servant"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "করঽ করুণা",
+       "You give mercy"
+      ],
+      [
+       "লব",
+       "a drop"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગોપીનાથ",
+       "O Gopīnātha"
+      ],
+      [
+       "એઇ",
+       "this"
+      ],
+      [
+       "કિ",
+       "[marks a question]"
+      ],
+      [
+       "બિચાર",
+       "judgement"
+      ],
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "બિમુખ",
+       "one who is averse"
+      ],
+      [
+       "દેખિયા",
+       "having seen"
+      ],
+      [
+       "છાḓઅ",
+       "You abandon"
+      ],
+      [
+       "નિજ જને",
+       "to Your own servant"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "કરઽ કરુણા",
+       "You give mercy"
+      ],
+      [
+       "લબ",
+       "a drop"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गॊपीनाथ, ऎइ कि बिचार तब",
+      "बिमुख दॆखिया,    छाḓअ निजजनॆ,",
+      "ना करऽ करुणालब ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গোপীনাথ, এই কি বিচার তব",
+      "বিমুখ দেখিয়া,    ছাḓঅ নিজজনে,",
+      "না করঽ করুণালব ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୋପୀନାଥ, ଏଇ କି ବିଚାର ତବ",
+      "ବିମୁଖ ଦେଖିୟା,    ଛାḓଅ ନିଜଜନେ,",
+      "ନା କରଽ କରୁଣାଲବ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગોપીનાથ, એઇ કિ બિચાર તબ",
+      "બિમુખ દેખિયા,    છાḓઅ નિજજને,",
+      "ના કરઽ કરુણાલબ ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gopīnātha, ei ki bicāra taba",
+      "bimukha dekhiyā,    chāḓa nija-jane,",
+      "nā kara’ karuṇā-laba 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗೊಪೀನಾಥ, ಎಇ ಕಿ ಬಿಚಾರ ತಬ",
+      "ಬಿಮುಖ ದೆಖಿಯಾ,    ಛಾḓಅ ನಿಜಜನೆ,",
+      "ನಾ ಕರಽ ಕರುಣಾಲಬ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గొపీనాథ, ఎఇ కి బిచార తబ",
+      "బిముఖ దెఖియా,    ఛాḓఅ నిజజనె,",
+      "నా కరఽ కరుణాలబ 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "го̆пӣна̄тха, э̆и ки бича̄ра таба",
+      "бимукха дэ̆кхийа̄,    чха̄ḓа ниджаджанэ̆,",
+      "на̄ кара' карун̣а̄лаба 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗൊപീനാഥ, എഇ കി ബിചാര തബ",
+      "ബിമുഖ ദെഖിയാ,    ഛാḓഅ നിജജനെ,",
+      "നാ കരഽ കരുണാലബ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கொ³பீநாத², எஇ கி பி³சார தப³",
+      "பி³முக² தெ³கி²யா,    சா²ḓஅ நிஜஜனெ,",
+      "நா கர(அ) கருணாலப³ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gopīnātha, ei ki bicāra taba",
+      "bimukha dekhiyā,    chāḍa nija-jane,",
+      "nā kara’ karuṇā-laba 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gopīnātha, ei ki bicāra taba",
+      "bimukha dekhiyā,    chāḓa nija-jane,",
+      "nā kara’ karuṇā-laba 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "gopīnātha, āmi ta’ mūrakha ati",
+    "kise bhāla haya,    kabhu nā bujhinu,",
+    "tāi hena mama gati 7"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Gopīnātha, I am indeed a great fool, and I have never understood what is good for me. That is why I am in such a state."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gopīnātha",
+       "O Gopīnātha"
+      ],
+      [
+       "āmi",
+       "I"
+      ],
+      [
+       "ta’",
+       "indeed"
+      ],
+      [
+       "mūrakha",
+       "fool"
+      ],
+      [
+       "ati",
+       "great"
+      ],
+      [
+       "kise",
+       "by what"
+      ],
+      [
+       "bhāla",
+       "good"
+      ],
+      [
+       "haya",
+       "happens"
+      ],
+      [
+       "kabhu nā",
+       "never"
+      ],
+      [
+       "bujhinu",
+       "I have understood"
+      ],
+      [
+       "tāi",
+       "because of that"
+      ],
+      [
+       "hena",
+       "such"
+      ],
+      [
+       "mama",
+       "my"
+      ],
+      [
+       "gati",
+       "a state"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गॊपीनाथ",
+       "O Gopīnātha"
+      ],
+      [
+       "आमि",
+       "I"
+      ],
+      [
+       "तऽ",
+       "indeed"
+      ],
+      [
+       "मूरख",
+       "fool"
+      ],
+      [
+       "अति",
+       "great"
+      ],
+      [
+       "किसॆ",
+       "by what"
+      ],
+      [
+       "भाल",
+       "good"
+      ],
+      [
+       "हय",
+       "happens"
+      ],
+      [
+       "कभु ना",
+       "never"
+      ],
+      [
+       "बुझिनु",
+       "I have understood"
+      ],
+      [
+       "ताइ",
+       "because of that"
+      ],
+      [
+       "हॆन",
+       "such"
+      ],
+      [
+       "मम",
+       "my"
+      ],
+      [
+       "गति",
+       "a state"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গোপীনাথ",
+       "O Gopīnātha"
+      ],
+      [
+       "আমি",
+       "I"
+      ],
+      [
+       "তঽ",
+       "indeed"
+      ],
+      [
+       "মূরখ",
+       "fool"
+      ],
+      [
+       "অতি",
+       "great"
+      ],
+      [
+       "কিসে",
+       "by what"
+      ],
+      [
+       "ভাল",
+       "good"
+      ],
+      [
+       "হয়",
+       "happens"
+      ],
+      [
+       "কভু না",
+       "never"
+      ],
+      [
+       "বুঝিনু",
+       "I have understood"
+      ],
+      [
+       "তাই",
+       "because of that"
+      ],
+      [
+       "হেন",
+       "such"
+      ],
+      [
+       "মম",
+       "my"
+      ],
+      [
+       "গতি",
+       "a state"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગોપીનાથ",
+       "O Gopīnātha"
+      ],
+      [
+       "આમિ",
+       "I"
+      ],
+      [
+       "તઽ",
+       "indeed"
+      ],
+      [
+       "મૂરખ",
+       "fool"
+      ],
+      [
+       "અતિ",
+       "great"
+      ],
+      [
+       "કિસે",
+       "by what"
+      ],
+      [
+       "ભાલ",
+       "good"
+      ],
+      [
+       "હય",
+       "happens"
+      ],
+      [
+       "કભુ ના",
+       "never"
+      ],
+      [
+       "બુઝિનુ",
+       "I have understood"
+      ],
+      [
+       "તાઇ",
+       "because of that"
+      ],
+      [
+       "હેન",
+       "such"
+      ],
+      [
+       "મમ",
+       "my"
+      ],
+      [
+       "ગતિ",
+       "a state"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गॊपीनाथ, आमि तऽ मूरख अति",
+      "किसॆ भाल हय,    कभु ना बुझिनु,",
+      "ताइ हॆन मम गति ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গোপীনাথ, আমি তঽ মূরখ অতি",
+      "কিসে ভাল হয়,    কভু না বুঝিনু,",
+      "তাই হেন মম গতি ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୋପୀନାଥ, ଆମି ତଽ ମୂରଖ ଅତି",
+      "କିସେ ଭାଲ ହୟ,    କଭୁ ନା ବୁଝିନୁ,",
+      "ତାଇ ହେନ ମମ ଗତି ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગોપીનાથ, આમિ તઽ મૂરખ અતિ",
+      "કિસે ભાલ હય,    કભુ ના બુઝિનુ,",
+      "તાઇ હેન મમ ગતિ ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gopīnātha, āmi ta’ mūrakha ati",
+      "kise bhāla haya,    kabhu nā bujhinu,",
+      "tāi hena mama gati 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗೊಪೀನಾಥ, ಆಮಿ ತಽ ಮೂರಖ ಅತಿ",
+      "ಕಿಸೆ ಭಾಲ ಹಯ,    ಕಭು ನಾ ಬುಝಿನು,",
+      "ತಾಇ ಹೆನ ಮಮ ಗತಿ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గొపీనాథ, ఆమి తఽ మూరఖ అతి",
+      "కిసె భాల హయ,    కభు నా బుఝిను,",
+      "తాఇ హెన మమ గతి 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "го̆пӣна̄тха, а̄ми та' мӯракха ати",
+      "кисэ̆ бха̄ла хайа,    кабху на̄ буджхину,",
+      "та̄и хэ̆на мама гати 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗൊപീനാഥ, ആമി തഽ മൂരഖ അതി",
+      "കിസെ ഭാല ഹയ,    കഭു നാ ബുഝിനു,",
+      "താഇ ഹെന മമ ഗതി 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கொ³பீநாத², ஆமி த(அ) மூரக² அதி",
+      "கிஸெ பா⁴ல ஹய,    கபு⁴ நா பு³ஜி²னு,",
+      "தாஇ ஹென மம க³தி 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gopīnātha, āmi ta’ mūrakha ati",
+      "kise bhāla haya,    kabhu nā bujhinu,",
+      "tāi hena mama gati 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gopīnātha, āmi ta’ mūrakha ati",
+      "kise bhāla haya,    kabhu nā bujhinu,",
+      "tāi hena mama gati 7"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 8,
+   "source_text_master": [
+    "gopīnātha, tumi ta’ paṇḍitabara",
+    "mūḓhera maṅgala,    tumi anbeṣibe,",
+    "e dāse nā bhāba’ para 8"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Gopīnātha, You are indeed the wisest person and will search for the means to bring auspiciousness to all the fools of the world. Do not consider this servant an outsider."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gopīnātha",
+       "O Gopīnātha"
+      ],
+      [
+       "tumi",
+       "You"
+      ],
+      [
+       "ta’",
+       "indeed"
+      ],
+      [
+       "paṇḍitabara",
+       "of the wise + the best"
+      ],
+      [
+       "mūḓhera",
+       "for fools"
+      ],
+      [
+       "maṅgala",
+       "auspiciousness"
+      ],
+      [
+       "tumi",
+       "You"
+      ],
+      [
+       "anbeṣibe",
+       "will search"
+      ],
+      [
+       "e",
+       "this"
+      ],
+      [
+       "dāse",
+       "to servant"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "bhāba’",
+       "consider"
+      ],
+      [
+       "para",
+       "other, outsider, stranger, not related"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गॊपीनाथ",
+       "O Gopīnātha"
+      ],
+      [
+       "तुमि",
+       "You"
+      ],
+      [
+       "तऽ",
+       "indeed"
+      ],
+      [
+       "पण्डितबर",
+       "of the wise + the best"
+      ],
+      [
+       "मूḓहॆर",
+       "for fools"
+      ],
+      [
+       "मङ्गल",
+       "auspiciousness"
+      ],
+      [
+       "तुमि",
+       "You"
+      ],
+      [
+       "अन्बॆषिबॆ",
+       "will search"
+      ],
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "दासॆ",
+       "to servant"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "भाबऽ",
+       "consider"
+      ],
+      [
+       "पर",
+       "other, outsider, stranger, not related"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গোপীনাথ",
+       "O Gopīnātha"
+      ],
+      [
+       "তুমি",
+       "You"
+      ],
+      [
+       "তঽ",
+       "indeed"
+      ],
+      [
+       "পণ্ডিতবর",
+       "of the wise + the best"
+      ],
+      [
+       "মূḓহের",
+       "for fools"
+      ],
+      [
+       "মঙ্গল",
+       "auspiciousness"
+      ],
+      [
+       "তুমি",
+       "You"
+      ],
+      [
+       "অন্বেষিবে",
+       "will search"
+      ],
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "দাসে",
+       "to servant"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "ভাবঽ",
+       "consider"
+      ],
+      [
+       "পর",
+       "other, outsider, stranger, not related"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગોપીનાથ",
+       "O Gopīnātha"
+      ],
+      [
+       "તુમિ",
+       "You"
+      ],
+      [
+       "તઽ",
+       "indeed"
+      ],
+      [
+       "પણ્ડિતબર",
+       "of the wise + the best"
+      ],
+      [
+       "મૂḓહેર",
+       "for fools"
+      ],
+      [
+       "મઙ્ગલ",
+       "auspiciousness"
+      ],
+      [
+       "તુમિ",
+       "You"
+      ],
+      [
+       "અન્બેષિબે",
+       "will search"
+      ],
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "દાસે",
+       "to servant"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "ભાબઽ",
+       "consider"
+      ],
+      [
+       "પર",
+       "other, outsider, stranger, not related"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गॊपीनाथ, तुमि तऽ पण्डितबर",
+      "मूḓहॆर मङ्गल,    तुमि अन्बॆषिबॆ,",
+      "ऎ दासॆ ना भाबऽ पर ८"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গোপীনাথ, তুমি তঽ পণ্ডিতবর",
+      "মূḓহের মঙ্গল,    তুমি অন্বেষিবে,",
+      "এ দাসে না ভাবঽ পর ৮"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗୋପୀନାଥ, ତୁମି ତଽ ପଣ୍ଡିତବର",
+      "ମୂḓହେର ମଙ୍ଗଲ,    ତୁମି ଅନ୍ବେଷିବେ,",
+      "ଏ ଦାସେ ନା ଭାବଽ ପର ୮"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગોપીનાથ, તુમિ તઽ પણ્ડિતબર",
+      "મૂḓહેર મઙ્ગલ,    તુમિ અન્બેષિબે,",
+      "એ દાસે ના ભાબઽ પર ૮"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gopīnātha, tumi ta’ paṇḍitabara",
+      "mūḓhera maṅgala,    tumi anbeṣibe,",
+      "e dāse nā bhāba’ para 8"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗೊಪೀನಾಥ, ತುಮಿ ತಽ ಪಂಡಿತಬರ",
+      "ಮೂḓಹೆರ ಮಂಗಲ,    ತುಮಿ ಅನ್ಬೆಷಿಬೆ,",
+      "ಎ ದಾಸೆ ನಾ ಭಾಬಽ ಪರ ೮"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గొపీనాథ, తుమి తఽ పండితబర",
+      "మూḓహెర మంగల,    తుమి అన్బెషిబె,",
+      "ఎ దాసె నా భాబఽ పర 8"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "го̆пӣна̄тха, туми та' пан̣д̣итабара",
+      "мӯḓхэ̆ра ман̇гала,    туми анбэ̆шибэ̆,",
+      "э̆ да̄сэ̆ на̄ бха̄ба' пара 8"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗൊപീനാഥ, തുമി തഽ പണ്ഡിതബര",
+      "മൂḓഹെര മംഗല,    തുമി അൻബെഷിബെ,",
+      "എ ദാസെ നാ ഭാബഽ പര 8"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கொ³பீநாத², துமி த(அ) பண்டி³தப³ர",
+      "மூḓஹெர மங்க³ல,    துமி அன்பெ³ஷிபெ³,",
+      "எ தா³ஸெ நா பா⁴ப³(அ) பர 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gopīnātha, tumi ta’ paṇḍitabara",
+      "mūḍhera maṅgala,    tumi anbeṣibe,",
+      "e dāse nā bhāba’ para 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gopīnātha, tumi ta’ paṇḍitabara",
+      "mūḓhera maṅgala,    tumi anbeṣibe,",
+      "e dāse nā bhāba’ para 8"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 9,
+   "source_text_master": [
+    "(śrīla bhaktibinoda ṭhākura)"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "(श्रील भक्तिबिनॊद ठाकुर)"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "(শ্রীল ভক্তিবিনোদ ঠাকুর)"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "(ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର)"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "(શ્રીલ ભક્તિબિનોદ ઠાકુર)"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "(śrīla bhaktibinoda ṭhākura)"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "(ಶ್ರೀಲ ಭಕ್ತಿಬಿನೊದ ಠಾಕುರ)"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "(శ్రీల భక్తిబినొద ఠాకుర)"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "(ш́рӣла бхактибино̆да т̣ха̄кура)"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "(ശ്രീല ഭക്തിബിനൊദ ഠാകുര)"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "(ஶ்ரீல ப⁴க்திபி³னொத³ டா²குர)"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "(śrīla bhaktibinoda ṭhākura)"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "(śrīla bhaktibinoda ṭhākura)"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শ্রীকৃষ্ণ বিজ্ঞপ্তি"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Entreaties"
+ ]
+}

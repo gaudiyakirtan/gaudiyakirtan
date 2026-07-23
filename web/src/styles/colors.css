@@ -3,10 +3,16 @@
   /* Light theme colors (Gaur) */
   --gaur-primary: #1A1A1A;
   --gaur-secondary: #3A3A3A;
-  --gaur-tertiary: #6e6e6e;
+  /* Corrected from #1A1A1A (a typo that duplicated primary and collapsed the light-mode text
+     hierarchy) - see docs/theme/colors.md. */
+  --gaur-tertiary: #5A5A5A;
   --gaur-accent: #B36B00;
   --gaur-highlight: #B36B00;
   --gaur-highlight-transparent: rgba(179, 107, 0, 0.15);
+  /* Derived contrast color for text/icons ON a highlight/accent fill. Not one of the 9 spec
+     tokens, but required so accent-filled buttons theme legibly: white reads on Gaura's dark gold,
+     near-black reads on Shyam's light blue (and matches the dark icon on blue in the Shyam frames). */
+  --gaur-on-highlight: #FFFFFF;
   --gaur-background: #FFF4E8;
   --gaur-background-offset: #F6E5D1;
   --gaur-border: #E6D7C3;
@@ -19,6 +25,7 @@
   --shyam-accent: #8CB4FF;
   --shyam-highlight: #8CB4FF;
   --shyam-highlight-transparent: rgba(140, 180, 255, 0.15);
+  --shyam-on-highlight: #191919;
   --shyam-background: #191919;
   --shyam-background-offset: #202020;
   --shyam-border: #333333;
@@ -34,6 +41,7 @@
   --accent: var(--gaur-accent);
   --highlight: var(--gaur-highlight);
   --highlight-transparent: var(--gaur-highlight-transparent);
+  --on-highlight: var(--gaur-on-highlight);
   --background: var(--gaur-background);
   --background-offset: var(--gaur-background-offset);
   --border: var(--gaur-border);
@@ -48,6 +56,7 @@
   --accent: var(--shyam-accent);
   --highlight: var(--shyam-highlight);
   --highlight-transparent: var(--shyam-highlight-transparent);
+  --on-highlight: var(--shyam-on-highlight);
   --background: var(--shyam-background);
   --background-offset: var(--shyam-background-offset);
   --border: var(--shyam-border);
@@ -63,11 +72,32 @@
     --accent: var(--shyam-accent);
     --highlight: var(--shyam-highlight);
     --highlight-transparent: var(--shyam-highlight-transparent);
+    --on-highlight: var(--shyam-on-highlight);
     --background: var(--shyam-background);
     --background-offset: var(--shyam-background-offset);
     --border: var(--shyam-border);
     --neutral: var(--shyam-neutral);
   }
+}
+
+/* Fixed reference palette (docs/screens/browse.md "Resources (web)"). These are NOT theme
+   tokens - they colour-code verse-meter syllable groups and pronunciation guide comparisons on
+   the static Resources pages (meters.tsx, pronunciation.tsx) and stay constant across
+   Gaura/Shyam, unlike --primary/--accent/etc. above. Previously referenced but undefined, so
+   these cells rendered blank. Reuses the same named hues as the MEDIA_COLORS palette
+   (utils/colors.ts) used for Book/Topic card backgrounds, for one consistent "fixed color" set. */
+:root {
+  --red: #E91429;
+  --green: #148A08;
+  --blue: #1E3264;
+  --royal-blue: #2D46B9;
+  --purple: #8D67AB;
+  --orange: #BA5D07;
+  --dark-purple: #503750;
+  --dark-green: #006450;
+  --red-orange: #D84000;
+  --light-blue: #537AA1;
+  --gray: #777777;
 }
 
 /* No scrollbar utility */
@@ -89,4 +119,10 @@ img {
   -o-user-drag: none;
   user-select: none;
   draggable: false;
+}
+/* The wordmark SVG is white artwork; invert it to dark on light backgrounds so it stays
+   visible in the Gaura (light) theme and the light system default. */
+.light-theme .brand-logo { filter: invert(1); }
+@media (prefers-color-scheme: light) {
+  :root:not(.dark-theme):not(.light-theme) .brand-logo { filter: invert(1); }
 }

@@ -1,0 +1,2931 @@
+{
+ "uid": "A4",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীমঙ্গল-আরতি (GVS & IPBYS)"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "śrīmaṅgala-ārati (GVS & IPBYS)"
+  }
+ ],
+ "author_uid": "শ্রীমদ্ভক্তিপ্রজ্ঞান কেশব গোস্বামী মহারাজ",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীমদ্ভক্তিপ্রজ্ঞান কেশব গোস্বামী মহারাজ"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīmad Bhakti Prajñāna Keśava Gosvāmī Mahārāja"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "maṅgala śrīguru[FLAG_HYPHEN_ALPHA]gaura maṅgala mūrati",
+    "maṅgala śrīrādhākṛṣṇa[FLAG_HYPHEN_ALPHA]yugala[FLAG_HYPHEN_ALPHA]pīriti 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "All glories to the auspicious forms of śrī guru and Śrī Gaura. All glories to the divine amorous love of Śrī Śrī Rādhā-Kṛṣṇa."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "maṅgala",
+       "auspicious"
+      ],
+      [
+       "śrīguru",
+       "śrī guru"
+      ],
+      [
+       "gaura",
+       "Śrī Gaura"
+      ],
+      [
+       "maṅgala",
+       "auspicious"
+      ],
+      [
+       "mūrati",
+       "forms"
+      ],
+      [
+       "maṅgala",
+       "auspicious"
+      ],
+      [
+       "śrīrādhākṛṣṇa",
+       "Śrī Śrī Rādhā Kṛṣṇa"
+      ],
+      [
+       "yugala",
+       "the Divine Couple"
+      ],
+      [
+       "pīriti",
+       "amorous love"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "मङ्गल",
+       "auspicious"
+      ],
+      [
+       "श्रीगुरु",
+       "śrī guru"
+      ],
+      [
+       "गौर",
+       "Śrī Gaura"
+      ],
+      [
+       "मङ्गल",
+       "auspicious"
+      ],
+      [
+       "मूरति",
+       "forms"
+      ],
+      [
+       "मङ्गल",
+       "auspicious"
+      ],
+      [
+       "श्रीराधाक्ड़्ष्ण",
+       "Śrī Śrī Rādhā Kṛṣṇa"
+      ],
+      [
+       "युगल",
+       "the Divine Couple"
+      ],
+      [
+       "पीरिति",
+       "amorous love"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মঙ্গল",
+       "auspicious"
+      ],
+      [
+       "শ্রীগুরু",
+       "śrī guru"
+      ],
+      [
+       "গৌর",
+       "Śrī Gaura"
+      ],
+      [
+       "মঙ্গল",
+       "auspicious"
+      ],
+      [
+       "মূরতি",
+       "forms"
+      ],
+      [
+       "মঙ্গল",
+       "auspicious"
+      ],
+      [
+       "শ্রীরাধাক্ড়্ষ্ণ",
+       "Śrī Śrī Rādhā Kṛṣṇa"
+      ],
+      [
+       "যুগল",
+       "the Divine Couple"
+      ],
+      [
+       "পীরিতি",
+       "amorous love"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "મઙ્ગલ",
+       "auspicious"
+      ],
+      [
+       "શ્રીગુરુ",
+       "śrī guru"
+      ],
+      [
+       "ગૌર",
+       "Śrī Gaura"
+      ],
+      [
+       "મઙ્ગલ",
+       "auspicious"
+      ],
+      [
+       "મૂરતિ",
+       "forms"
+      ],
+      [
+       "મઙ્ગલ",
+       "auspicious"
+      ],
+      [
+       "શ્રીરાધાક્ડ઼્ષ્ણ",
+       "Śrī Śrī Rādhā Kṛṣṇa"
+      ],
+      [
+       "યુગલ",
+       "the Divine Couple"
+      ],
+      [
+       "પીરિતિ",
+       "amorous love"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मङ्गल श्रीगुरुगौर मङ्गल मूरति",
+      "मङ्गल श्रीराधाक्ड़्ष्णयुगलपीरिति १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মঙ্গল শ্রীগুরুগৌর মঙ্গল মূরতি",
+      "মঙ্গল শ্রীরাধাক্ড়্ষ্ণয়ুগলপীরিতি ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମଙ୍ଗଲ ଶ୍ରୀଗୁରୁଗୌର ମଙ୍ଗଲ ମୂରତି",
+      "ମଙ୍ଗଲ ଶ୍ରୀରାଧାକ୍ଡ଼୍ଷ୍ଣୟୁଗଲପୀରିତି ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મઙ્ગલ શ્રીગુરુગૌર મઙ્ગલ મૂરતિ",
+      "મઙ્ગલ શ્રીરાધાક્ડ઼્ષ્ણયુગલપીરિતિ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "maṅgala śrīguru-gaura maṅgala mūrati",
+      "maṅgala śrīrādhākṛṣṇa-yugala-pīriti 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಂಗಲ ಶ್ರೀಗುರುಗೌರ ಮಂಗಲ ಮೂರತಿ",
+      "ಮಂಗಲ ಶ್ರೀರಾಧಾಕ್‌ಡ಼್ಷ್ಣಯುಗಲಪೀರಿತಿ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మంగల శ్రీగురుగౌర మంగల మూరతి",
+      "మంగల శ్రీరాధాక్డ్ష్ణయుగలపీరితి 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ман̇гала ш́рӣгуругаура ман̇гала мӯрати",
+      "ман̇гала ш́рӣра̄дха̄кр̤шн̣айугалапӣрити 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മംഗല ശ്രീഗുരുഗൗര മംഗല മൂരതി",
+      "മംഗല ശ്രീരാധാക്ഡ്ഷ്ണയുഗലപീരിതി 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மங்க³ல ஶ்ரீகு³ருகௌ³ர மங்க³ல மூரதி",
+      "மங்க³ல ஶ்ரீராதா⁴க்ஃட்²ஷ்ணயுக³லபீரிதி 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "maṅgala śrīguru-gaura maṅgala mūrati",
+      "maṅgala śrīrādhākṛṣṇa-yugala-pīriti 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "maṅgala śrīguru-gaura maṅgala mūrati",
+      "maṅgala śrīrādhākṛṣṇa-yugala-pīriti 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "maṅgala niśānta[FLAG_HYPHEN_ALPHA]līlā maṅgala udaye",
+    "maṅgala ārati jāge bhakata[FLAG_HYPHEN_ALPHA]hṛdaye 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "All glories to Their niśānta-līlā, which awakens all-auspiciousness. All glories to Their ārati ceremony, which awakens within the hearts of the devotees."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "maṅgala",
+       "auspicious"
+      ],
+      [
+       "niśānta",
+       "(lit.) night-end, just prior to dawn"
+      ],
+      [
+       "līlā",
+       "pastimes"
+      ],
+      [
+       "maṅgala",
+       "auspiciousness"
+      ],
+      [
+       "udaye",
+       "awakens"
+      ],
+      [
+       "maṅgala",
+       "auspicious"
+      ],
+      [
+       "ārati",
+       "ārati ceremony"
+      ],
+      [
+       "jāge",
+       "awakens"
+      ],
+      [
+       "bhakata",
+       "devotees"
+      ],
+      [
+       "hṛdaye",
+       "in heart"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "मङ्गल",
+       "auspicious"
+      ],
+      [
+       "निशान्त",
+       "(lit.) night-end, just prior to dawn"
+      ],
+      [
+       "लीला",
+       "pastimes"
+      ],
+      [
+       "मङ्गल",
+       "auspiciousness"
+      ],
+      [
+       "उदयॆ",
+       "awakens"
+      ],
+      [
+       "मङ्गल",
+       "auspicious"
+      ],
+      [
+       "आरति",
+       "ārati ceremony"
+      ],
+      [
+       "जागॆ",
+       "awakens"
+      ],
+      [
+       "भकत",
+       "devotees"
+      ],
+      [
+       "ह्ड़्दयॆ",
+       "in heart"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মঙ্গল",
+       "auspicious"
+      ],
+      [
+       "নিশান্ত",
+       "(lit.) night-end, just prior to dawn"
+      ],
+      [
+       "লীলা",
+       "pastimes"
+      ],
+      [
+       "মঙ্গল",
+       "auspiciousness"
+      ],
+      [
+       "উদয়ে",
+       "awakens"
+      ],
+      [
+       "মঙ্গল",
+       "auspicious"
+      ],
+      [
+       "আরতি",
+       "ārati ceremony"
+      ],
+      [
+       "জাগে",
+       "awakens"
+      ],
+      [
+       "ভকত",
+       "devotees"
+      ],
+      [
+       "হ্ড়্দয়ে",
+       "in heart"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "મઙ્ગલ",
+       "auspicious"
+      ],
+      [
+       "નિશાન્ત",
+       "(lit.) night-end, just prior to dawn"
+      ],
+      [
+       "લીલા",
+       "pastimes"
+      ],
+      [
+       "મઙ્ગલ",
+       "auspiciousness"
+      ],
+      [
+       "ઉદયે",
+       "awakens"
+      ],
+      [
+       "મઙ્ગલ",
+       "auspicious"
+      ],
+      [
+       "આરતિ",
+       "ārati ceremony"
+      ],
+      [
+       "જાગે",
+       "awakens"
+      ],
+      [
+       "ભકત",
+       "devotees"
+      ],
+      [
+       "હ્ડ઼્દયે",
+       "in heart"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मङ्गल निशान्तलीला मङ्गल उदयॆ",
+      "मङ्गल आरति जागॆ भकतह्ड़्दयॆ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মঙ্গল নিশান্তলীলা মঙ্গল উদয়ে",
+      "মঙ্গল আরতি জাগে ভকতহ্ড়্দয়ে ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମଙ୍ଗଲ ନିଶାନ୍ତଲୀଲା ମଙ୍ଗଲ ଉଦୟେ",
+      "ମଙ୍ଗଲ ଆରତି ଜାଗେ ଭକତହ୍ଡ଼୍ଦୟେ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મઙ્ગલ નિશાન્તલીલા મઙ્ગલ ઉદયે",
+      "મઙ્ગલ આરતિ જાગે ભકતહ્ડ઼્દયે ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "maṅgala niśānta-līlā maṅgala udaye",
+      "maṅgala ārati jāge bhakata-hṛdaye 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಂಗಲ ನಿಶಾಂತಲೀಲಾ ಮಂಗಲ ಉದಯೆ",
+      "ಮಂಗಲ ಆರತಿ ಜಾಗೆ ಭಕತಹ್‌ಡ಼್ದಯೆ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మంగల నిశాంతలీలా మంగల ఉదయె",
+      "మంగల ఆరతి జాగె భకతహ్డ్దయె 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ман̇гала ниш́а̄нталӣла̄ ман̇гала удайэ̆",
+      "ман̇гала а̄рати джа̄гэ̆ бхакатахр̤дайэ̆ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മംഗല നിശാന്തലീലാ മംഗല ഉദയെ",
+      "മംഗല ആരതി ജാഗെ ഭകതഹ്ഡ്ദയെ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மங்க³ல நிஶாந்தலீலா மங்க³ல உத³யெ",
+      "மங்க³ல ஆரதி ஜாகெ³ ப⁴கதஹ்ஃட்²த³யெ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "maṅgala niśānta-līlā maṅgala udaye",
+      "maṅgala ārati jāge bhakata-hṛdaye 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "maṅgala niśānta-līlā maṅgala udaye",
+      "maṅgala ārati jāge bhakata-hṛdaye 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "tomāra nidrāya jība nidrita dharāya",
+    "taba jāgaraṇe biśba jāgarita haya 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "During Your slumber, the jīvas remain sleeping in this world, but upon Your rising, the whole world awakens."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "tomāra",
+       "Your"
+      ],
+      [
+       "nidrāya",
+       "in sleep"
+      ],
+      [
+       "jība",
+       "souls"
+      ],
+      [
+       "nidrita",
+       "asleep"
+      ],
+      [
+       "dharāya",
+       "in the world"
+      ],
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "jāgaraṇe",
+       "rising"
+      ],
+      [
+       "biśba",
+       "the world"
+      ],
+      [
+       "jāgarita haya",
+       "awakens"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "तॊमार",
+       "Your"
+      ],
+      [
+       "निद्राय",
+       "in sleep"
+      ],
+      [
+       "जीब",
+       "souls"
+      ],
+      [
+       "निद्रित",
+       "asleep"
+      ],
+      [
+       "धराय",
+       "in the world"
+      ],
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "जागरणॆ",
+       "rising"
+      ],
+      [
+       "बिश्ब",
+       "the world"
+      ],
+      [
+       "जागरित हय",
+       "awakens"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "তোমার",
+       "Your"
+      ],
+      [
+       "নিদ্রায়",
+       "in sleep"
+      ],
+      [
+       "জীব",
+       "souls"
+      ],
+      [
+       "নিদ্রিত",
+       "asleep"
+      ],
+      [
+       "ধরায়",
+       "in the world"
+      ],
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "জাগরণে",
+       "rising"
+      ],
+      [
+       "বিশ্ব",
+       "the world"
+      ],
+      [
+       "জাগরিত হয়",
+       "awakens"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "તોમાર",
+       "Your"
+      ],
+      [
+       "નિદ્રાય",
+       "in sleep"
+      ],
+      [
+       "જીબ",
+       "souls"
+      ],
+      [
+       "નિદ્રિત",
+       "asleep"
+      ],
+      [
+       "ધરાય",
+       "in the world"
+      ],
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "જાગરણે",
+       "rising"
+      ],
+      [
+       "બિશ્બ",
+       "the world"
+      ],
+      [
+       "જાગરિત હય",
+       "awakens"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तॊमार निद्राय जीब निद्रित धराय",
+      "तब जागरणॆ बिश्ब जागरित हय ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তোমার নিদ্রায় জীব নিদ্রিত ধরায়",
+      "তব জাগরণে বিশ্ব জাগরিত হয় ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୋମାର ନିଦ୍ରାୟ ଜୀବ ନିଦ୍ରିତ ଧରାୟ",
+      "ତବ ଜାଗରଣେ ବିଶ୍ବ ଜାଗରିତ ହୟ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તોમાર નિદ્રાય જીબ નિદ્રિત ધરાય",
+      "તબ જાગરણે બિશ્બ જાગરિત હય ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tomāra nidrāya jība nidrita dharāya",
+      "taba jāgaraṇe biśba jāgarita haya 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತೊಮಾರ ನಿದ್ರಾಯ ಜೀಬ ನಿದ್ರಿತ ಧರಾಯ",
+      "ತಬ ಜಾಗರಣೆ ಬಿಶ್ಬ ಜಾಗರಿತ ಹಯ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తొమార నిద్రాయ జీబ నిద్రిత ధరాయ",
+      "తబ జాగరణె బిశ్బ జాగరిత హయ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "то̆ма̄ра нидра̄йа джӣба нидрита дхара̄йа",
+      "таба джа̄гаран̣э̆ биш́ба джа̄гарита хайа 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തൊമാര നിദ്രായ ജീബ നിദ്രിത ധരായ",
+      "തബ ജാഗരണെ ബിശ്ബ ജാഗരിത ഹയ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தொமார நித்³ராய ஜீப³ நித்³ரித த⁴ராய",
+      "தப³ ஜாக³ரணெ பி³ஶ்ப³ ஜாக³ரித ஹய 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tomāra nidrāya jība nidrita dharāya",
+      "taba jāgaraṇe biśba jāgarita haya 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tomāra nidrāya jība nidrita dharāya",
+      "taba jāgaraṇe biśba jāgarita haya 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "śubha dṛṣṭi kara ebe jagatera prati",
+    "jāguka hṛdaye mora sumaṅgalā rati 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "[O Lord!] Bestow Your beneficent glance upon the world, just now. May that most auspicious rati awaken in my heart."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śubha",
+       "auspicious"
+      ],
+      [
+       "dṛṣṭi",
+       "glance"
+      ],
+      [
+       "kara",
+       "do"
+      ],
+      [
+       "ebe",
+       "now"
+      ],
+      [
+       "jagatera",
+       "world’s"
+      ],
+      [
+       "prati",
+       "toward"
+      ],
+      [
+       "jāguka",
+       "may awaken"
+      ],
+      [
+       "hṛdaye",
+       "heart"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "sumaṅgalā",
+       "most auspicious"
+      ],
+      [
+       "rati",
+       "attachment"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "शुभ",
+       "auspicious"
+      ],
+      [
+       "द्ड़्ष्टि",
+       "glance"
+      ],
+      [
+       "कर",
+       "do"
+      ],
+      [
+       "ऎबॆ",
+       "now"
+      ],
+      [
+       "जगतॆर",
+       "world’s"
+      ],
+      [
+       "प्रति",
+       "toward"
+      ],
+      [
+       "जागुक",
+       "may awaken"
+      ],
+      [
+       "ह्ड़्दयॆ",
+       "heart"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "सुमङ्गला",
+       "most auspicious"
+      ],
+      [
+       "रति",
+       "attachment"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শুভ",
+       "auspicious"
+      ],
+      [
+       "দ্ড়্ষ্টি",
+       "glance"
+      ],
+      [
+       "কর",
+       "do"
+      ],
+      [
+       "এবে",
+       "now"
+      ],
+      [
+       "জগতের",
+       "world’s"
+      ],
+      [
+       "প্রতি",
+       "toward"
+      ],
+      [
+       "জাগুক",
+       "may awaken"
+      ],
+      [
+       "হ্ড়্দয়ে",
+       "heart"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "সুমঙ্গলা",
+       "most auspicious"
+      ],
+      [
+       "রতি",
+       "attachment"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શુભ",
+       "auspicious"
+      ],
+      [
+       "દ્ડ઼્ષ્ટિ",
+       "glance"
+      ],
+      [
+       "કર",
+       "do"
+      ],
+      [
+       "એબે",
+       "now"
+      ],
+      [
+       "જગતેર",
+       "world’s"
+      ],
+      [
+       "પ્રતિ",
+       "toward"
+      ],
+      [
+       "જાગુક",
+       "may awaken"
+      ],
+      [
+       "હ્ડ઼્દયે",
+       "heart"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "સુમઙ્ગલા",
+       "most auspicious"
+      ],
+      [
+       "રતિ",
+       "attachment"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शुभ द्ड़्ष्टि कर ऎबॆ जगतॆर प्रति",
+      "जागुक ह्ड़्दयॆ मॊर सुमङ्गला रति ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শুভ দ্ড়্ষ্টি কর এবে জগতের প্রতি",
+      "জাগুক হ্ড়্দয়ে মোর সুমঙ্গলা রতি ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶୁଭ ଦ୍ଡ଼୍ଷ୍ଟି କର ଏବେ ଜଗତେର ପ୍ରତି",
+      "ଜାଗୁକ ହ୍ଡ଼୍ଦୟେ ମୋର ସୁମଙ୍ଗଲା ରତି ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શુભ દ્ડ઼્ષ્ટિ કર એબે જગતેર પ્રતિ",
+      "જાગુક હ્ડ઼્દયે મોર સુમઙ્ગલા રતિ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śubha dṛṣṭi kara ebe jagatera prati",
+      "jāguka hṛdaye mora sumaṅgalā rati 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶುಭ ದ್‌ಡ಼್ಷ್ಟಿ ಕರ ಎಬೆ ಜಗತೆರ ಪ್ರತಿ",
+      "ಜಾಗುಕ ಹ್‌ಡ಼್ದಯೆ ಮೊರ ಸುಮಂಗಲಾ ರತಿ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శుభ ద్డ్ష్టి కర ఎబె జగతెర ప్రతి",
+      "జాగుక హ్డ్దయె మొర సుమంగలా రతి 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́убха др̤шт̣и кара э̆бэ̆ джагатэ̆ра прати",
+      "джа̄гука хр̤дайэ̆ мо̆ра суман̇гала̄ рати 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശുഭ ദ്ഡ്ഷ്ടി കര എബെ ജഗതെര പ്രതി",
+      "ജാഗുക ഹ്ഡ്ദയെ മൊര സുമംഗലാ രതി 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶுப⁴ த்³ஃட்²ஷ்டி கர எபெ³ ஜக³தெர ப்ரதி",
+      "ஜாகு³க ஹ்ஃட்²த³யெ மொர ஸுமங்க³லா ரதி 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śubha dṛṣṭi kara ebe jagatera prati",
+      "jāguka hṛdaye mora sumaṅgalā rati 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śubha dṛṣṭi kara ebe jagatera prati",
+      "jāguka hṛdaye mora sumaṅgalā rati 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "mayūra[FLAG_HYPHEN_ALPHA]śukādi sāri kata pikarāja",
+    "maṅgala jāgara[FLAG_HYPHEN_ALPHA]hetu kariche birāja 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Many peacocks, male and female parrots, cuckoos, and other birds are present to herald Your auspicious awakening."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "mayūra",
+       "peacocks"
+      ],
+      [
+       "śukādi",
+       "male parrots + and so on"
+      ],
+      [
+       "sāri",
+       "female parrots"
+      ],
+      [
+       "kata",
+       "many"
+      ],
+      [
+       "pikarāja",
+       "cuckoos"
+      ],
+      [
+       "maṅgala",
+       "auspicious"
+      ],
+      [
+       "jāgara",
+       "awakening"
+      ],
+      [
+       "hetu",
+       "for"
+      ],
+      [
+       "kariche birāja",
+       "gracefully present"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "मयूर",
+       "peacocks"
+      ],
+      [
+       "शुकादि",
+       "male parrots + and so on"
+      ],
+      [
+       "सारि",
+       "female parrots"
+      ],
+      [
+       "कत",
+       "many"
+      ],
+      [
+       "पिकराज",
+       "cuckoos"
+      ],
+      [
+       "मङ्गल",
+       "auspicious"
+      ],
+      [
+       "जागर",
+       "awakening"
+      ],
+      [
+       "हॆतु",
+       "for"
+      ],
+      [
+       "करिछॆ बिराज",
+       "gracefully present"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ময়ূর",
+       "peacocks"
+      ],
+      [
+       "শুকাদি",
+       "male parrots + and so on"
+      ],
+      [
+       "সারি",
+       "female parrots"
+      ],
+      [
+       "কত",
+       "many"
+      ],
+      [
+       "পিকরাজ",
+       "cuckoos"
+      ],
+      [
+       "মঙ্গল",
+       "auspicious"
+      ],
+      [
+       "জাগর",
+       "awakening"
+      ],
+      [
+       "হেতু",
+       "for"
+      ],
+      [
+       "করিছে বিরাজ",
+       "gracefully present"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "મયૂર",
+       "peacocks"
+      ],
+      [
+       "શુકાદિ",
+       "male parrots + and so on"
+      ],
+      [
+       "સારિ",
+       "female parrots"
+      ],
+      [
+       "કત",
+       "many"
+      ],
+      [
+       "પિકરાજ",
+       "cuckoos"
+      ],
+      [
+       "મઙ્ગલ",
+       "auspicious"
+      ],
+      [
+       "જાગર",
+       "awakening"
+      ],
+      [
+       "હેતુ",
+       "for"
+      ],
+      [
+       "કરિછે બિરાજ",
+       "gracefully present"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मयूरशुकादि सारि कत पिकराज",
+      "मङ्गल जागरहॆतु करिछॆ बिराज ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ময়ূরশুকাদি সারি কত পিকরাজ",
+      "মঙ্গল জাগরহেতু করিছে বিরাজ ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମୟୂରଶୁକାଦି ସାରି କତ ପିକରାଜ",
+      "ମଙ୍ଗଲ ଜାଗରହେତୁ କରିଛେ ବିରାଜ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મયૂરશુકાદિ સારિ કત પિકરાજ",
+      "મઙ્ગલ જાગરહેતુ કરિછે બિરાજ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "mayūra-śukādi sāri kata pikarāja",
+      "maṅgala jāgara-hetu kariche birāja 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಯೂರಶುಕಾದಿ ಸಾರಿ ಕತ ಪಿಕರಾಜ",
+      "ಮಂಗಲ ಜಾಗರಹೆತು ಕರಿಛೆ ಬಿರಾಜ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మయూరశుకాది సారి కత పికరాజ",
+      "మంగల జాగరహెతు కరిఛె బిరాజ 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "майӯраш́ука̄ди са̄ри ката пикара̄джа",
+      "ман̇гала джа̄гарахэ̆ту каричхэ̆ бира̄джа 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മയൂരശുകാദി സാരി കത പികരാജ",
+      "മംഗല ജാഗരഹെതു കരിഛെ ബിരാജ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மயூரஶுகாதி³ ஸாரி கத பிகராஜ",
+      "மங்க³ல ஜாக³ரஹெது கரிசெ² பி³ராஜ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "mayūra-śukādi sāri kata pikarāja",
+      "maṅgala jāgara-hetu kariche birāja 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "mayūra-śukādi sāri kata pikarāja",
+      "maṅgala jāgara-hetu kariche birāja 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "sumadhura dhbani kare yata śākhīgaṇa",
+    "maṅgala śrabaṇe bāje madhura kūjana 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The birds on the branches make the sweetest sounds. Their sweet chirping resounds auspiciously."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "sumadhura",
+       "most sweet"
+      ],
+      [
+       "dhbani",
+       "sounds"
+      ],
+      [
+       "kare",
+       "make"
+      ],
+      [
+       "yata",
+       "whatever"
+      ],
+      [
+       "śākhīgaṇa",
+       "birds"
+      ],
+      [
+       "maṅgala",
+       "auspicious"
+      ],
+      [
+       "śrabaṇe",
+       "to hear"
+      ],
+      [
+       "bāje",
+       "resounds"
+      ],
+      [
+       "madhura",
+       "sweet"
+      ],
+      [
+       "kūjana",
+       "chirping"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "सुमधुर",
+       "most sweet"
+      ],
+      [
+       "ध्बनि",
+       "sounds"
+      ],
+      [
+       "करॆ",
+       "make"
+      ],
+      [
+       "यत",
+       "whatever"
+      ],
+      [
+       "शाखीगण",
+       "birds"
+      ],
+      [
+       "मङ्गल",
+       "auspicious"
+      ],
+      [
+       "श्रबणॆ",
+       "to hear"
+      ],
+      [
+       "बाजॆ",
+       "resounds"
+      ],
+      [
+       "मधुर",
+       "sweet"
+      ],
+      [
+       "कूजन",
+       "chirping"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "সুমধুর",
+       "most sweet"
+      ],
+      [
+       "ধ্বনি",
+       "sounds"
+      ],
+      [
+       "করে",
+       "make"
+      ],
+      [
+       "যত",
+       "whatever"
+      ],
+      [
+       "শাখীগণ",
+       "birds"
+      ],
+      [
+       "মঙ্গল",
+       "auspicious"
+      ],
+      [
+       "শ্রবণে",
+       "to hear"
+      ],
+      [
+       "বাজে",
+       "resounds"
+      ],
+      [
+       "মধুর",
+       "sweet"
+      ],
+      [
+       "কূজন",
+       "chirping"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "સુમધુર",
+       "most sweet"
+      ],
+      [
+       "ધ્બનિ",
+       "sounds"
+      ],
+      [
+       "કરે",
+       "make"
+      ],
+      [
+       "યત",
+       "whatever"
+      ],
+      [
+       "શાખીગણ",
+       "birds"
+      ],
+      [
+       "મઙ્ગલ",
+       "auspicious"
+      ],
+      [
+       "શ્રબણે",
+       "to hear"
+      ],
+      [
+       "બાજે",
+       "resounds"
+      ],
+      [
+       "મધુર",
+       "sweet"
+      ],
+      [
+       "કૂજન",
+       "chirping"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सुमधुर ध्बनि करॆ यत शाखीगण",
+      "मङ्गल श्रबणॆ बाजॆ मधुर कूजन ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সুমধুর ধ্বনি করে যত শাখীগণ",
+      "মঙ্গল শ্রবণে বাজে মধুর কূজন ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସୁମଧୁର ଧ୍ବନି କରେ ଯତ ଶାଖୀଗଣ",
+      "ମଙ୍ଗଲ ଶ୍ରବଣେ ବାଜେ ମଧୁର କୂଜନ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સુમધુર ધ્બનિ કરે યત શાખીગણ",
+      "મઙ્ગલ શ્રબણે બાજે મધુર કૂજન ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sumadhura dhbani kare yata śākhīgaṇa",
+      "maṅgala śrabaṇe bāje madhura kūjana 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸುಮಧುರ ಧ್ಬನಿ ಕರೆ ಯತ ಶಾಖೀಗಣ",
+      "ಮಂಗಲ ಶ್ರಬಣೆ ಬಾಜೆ ಮಧುರ ಕೂಜನ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సుమధుర ధ్బని కరె యత శాఖీగణ",
+      "మంగల శ్రబణె బాజె మధుర కూజన 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сумадхура дхбани карэ̆ йата ш́а̄кхӣган̣а",
+      "ман̇гала ш́рабан̣э̆ ба̄джэ̆ мадхура кӯджана 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സുമധുര ധ്ബനി കരെ യത ശാഖീഗണ",
+      "മംഗല ശ്രബണെ ബാജെ മധുര കൂജന 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸுமது⁴ர த்⁴ப³னி கரெ யத ஶாகீ²க³ண",
+      "மங்க³ல ஶ்ரப³ணெ பா³ஜெ மது⁴ர கூஜன 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sumadhura dhbani kare yata śākhīgaṇa",
+      "maṅgala śrabaṇe bāje madhura kūjana 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sumadhura dhbani kare yata śākhīgaṇa",
+      "maṅgala śrabaṇe bāje madhura kūjana 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "kusumita sarobare kamala[FLAG_HYPHEN_ALPHA]hillola",
+    "maṅgala saurabha bahe pabana[FLAG_HYPHEN_ALPHA]kallola 7"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "In a pond filled with many varieties of flowers, lotuses sway to and fro. Gently billowing breezes carry their auspicious fragrance in all directions."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "kusumita",
+       "blossomed, flowered"
+      ],
+      [
+       "sarobare",
+       "in a pond"
+      ],
+      [
+       "kamala",
+       "lotuses"
+      ],
+      [
+       "hillola",
+       "sway"
+      ],
+      [
+       "maṅgala",
+       "auspicious"
+      ],
+      [
+       "saurabha",
+       "fragrance"
+      ],
+      [
+       "bahe",
+       "carry"
+      ],
+      [
+       "pabana",
+       "breezes"
+      ],
+      [
+       "kallola",
+       "billow"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "कुसुमित",
+       "blossomed, flowered"
+      ],
+      [
+       "सरॊबरॆ",
+       "in a pond"
+      ],
+      [
+       "कमल",
+       "lotuses"
+      ],
+      [
+       "हिल्लॊल",
+       "sway"
+      ],
+      [
+       "मङ्गल",
+       "auspicious"
+      ],
+      [
+       "सौरभ",
+       "fragrance"
+      ],
+      [
+       "बहॆ",
+       "carry"
+      ],
+      [
+       "पबन",
+       "breezes"
+      ],
+      [
+       "कल्लॊल",
+       "billow"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "কুসুমিত",
+       "blossomed, flowered"
+      ],
+      [
+       "সরোবরে",
+       "in a pond"
+      ],
+      [
+       "কমল",
+       "lotuses"
+      ],
+      [
+       "হিল্লোল",
+       "sway"
+      ],
+      [
+       "মঙ্গল",
+       "auspicious"
+      ],
+      [
+       "সৌরভ",
+       "fragrance"
+      ],
+      [
+       "বহে",
+       "carry"
+      ],
+      [
+       "পবন",
+       "breezes"
+      ],
+      [
+       "কল্লোল",
+       "billow"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "કુસુમિત",
+       "blossomed, flowered"
+      ],
+      [
+       "સરોબરે",
+       "in a pond"
+      ],
+      [
+       "કમલ",
+       "lotuses"
+      ],
+      [
+       "હિલ્લોલ",
+       "sway"
+      ],
+      [
+       "મઙ્ગલ",
+       "auspicious"
+      ],
+      [
+       "સૌરભ",
+       "fragrance"
+      ],
+      [
+       "બહે",
+       "carry"
+      ],
+      [
+       "પબન",
+       "breezes"
+      ],
+      [
+       "કલ્લોલ",
+       "billow"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कुसुमित सरॊबरॆ कमलहिल्लॊल",
+      "मङ्गल सौरभ बहॆ पबनकल्लॊल ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কুসুমিত সরোবরে কমলহিল্লোল",
+      "মঙ্গল সৌরভ বহে পবনকল্লোল ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କୁସୁମିତ ସରୋବରେ କମଲହିଲ୍ଲୋଲ",
+      "ମଙ୍ଗଲ ସୌରଭ ବହେ ପବନକଲ୍ଲୋଲ ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કુસુમિત સરોબરે કમલહિલ્લોલ",
+      "મઙ્ગલ સૌરભ બહે પબનકલ્લોલ ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kusumita sarobare kamala-hillola",
+      "maṅgala saurabha bahe pabana-kallola 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕುಸುಮಿತ ಸರೊಬರೆ ಕಮಲಹಿಲ್ಲೊಲ",
+      "ಮಂಗಲ ಸೌರಭ ಬಹೆ ಪಬನಕಲ್ಲೊಲ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కుసుమిత సరొబరె కమలహిల్లొల",
+      "మంగల సౌరభ బహె పబనకల్లొల 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кусумита саро̆барэ̆ камалахилло̆ла",
+      "ман̇гала саурабха бахэ̆ пабанакалло̆ла 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കുസുമിത സരൊബരെ കമലഹില്ലൊല",
+      "മംഗല സൗരഭ ബഹെ പബനകല്ലൊല 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "குஸுமித ஸரொப³ரெ கமலஹில்லொல",
+      "மங்க³ல ஸௌரப⁴ ப³ஹெ பப³னகல்லொல 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kusumita sarobare kamala-hillola",
+      "maṅgala saurabha bahe pabana-kallola 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kusumita sarobare kamala-hillola",
+      "maṅgala saurabha bahe pabana-kallola 7"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 8,
+   "source_text_master": [
+    "jhā̃jhara kā̃sara ghaṇṭā śaṅkha karatāla",
+    "maṅgala mṛdaṅga bāje parama rasāla 8"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Large cymbals, gongs, bells, conches, karatālas, and auspicious mṛdaṅgas resonate most sweetly."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "jhā̃jhara",
+       "whompers"
+      ],
+      [
+       "kā̃sara",
+       "gong"
+      ],
+      [
+       "ghaṇṭā",
+       "bell"
+      ],
+      [
+       "śaṅkha",
+       "conch"
+      ],
+      [
+       "karatāla",
+       "karatālas"
+      ],
+      [
+       "maṅgala",
+       "auspicious"
+      ],
+      [
+       "mṛdaṅga",
+       "mṛdaṅga drum"
+      ],
+      [
+       "bāje",
+       "resonate"
+      ],
+      [
+       "parama",
+       "supreme"
+      ],
+      [
+       "rasāla",
+       "sweetness"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "झांझर",
+       "whompers"
+      ],
+      [
+       "कांसर",
+       "gong"
+      ],
+      [
+       "घण्टा",
+       "bell"
+      ],
+      [
+       "शङ्ख",
+       "conch"
+      ],
+      [
+       "करताल",
+       "karatālas"
+      ],
+      [
+       "मङ्गल",
+       "auspicious"
+      ],
+      [
+       "म्ड़्दङ्ग",
+       "mṛdaṅga drum"
+      ],
+      [
+       "बाजॆ",
+       "resonate"
+      ],
+      [
+       "परम",
+       "supreme"
+      ],
+      [
+       "रसाल",
+       "sweetness"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ঝাঞ্ঝর",
+       "whompers"
+      ],
+      [
+       "কাংসর",
+       "gong"
+      ],
+      [
+       "ঘণ্টা",
+       "bell"
+      ],
+      [
+       "শঙ্খ",
+       "conch"
+      ],
+      [
+       "করতাল",
+       "karatālas"
+      ],
+      [
+       "মঙ্গল",
+       "auspicious"
+      ],
+      [
+       "ম্ড়্দঙ্গ",
+       "mṛdaṅga drum"
+      ],
+      [
+       "বাজে",
+       "resonate"
+      ],
+      [
+       "পরম",
+       "supreme"
+      ],
+      [
+       "রসাল",
+       "sweetness"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ઝાંઝર",
+       "whompers"
+      ],
+      [
+       "કાંસર",
+       "gong"
+      ],
+      [
+       "ઘણ્ટા",
+       "bell"
+      ],
+      [
+       "શઙ્ખ",
+       "conch"
+      ],
+      [
+       "કરતાલ",
+       "karatālas"
+      ],
+      [
+       "મઙ્ગલ",
+       "auspicious"
+      ],
+      [
+       "મ્ડ઼્દઙ્ગ",
+       "mṛdaṅga drum"
+      ],
+      [
+       "બાજે",
+       "resonate"
+      ],
+      [
+       "પરમ",
+       "supreme"
+      ],
+      [
+       "રસાલ",
+       "sweetness"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "झांझर कांसर घण्टा शङ्ख करताल",
+      "मङ्गल म्ड़्दङ्ग बाजॆ परम रसाल ८"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ঝাঞ্ঝর কাংসর ঘণ্টা শঙ্খ করতাল",
+      "মঙ্গল ম্ড়্দঙ্গ বাজে পরম রসাল ৮"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଝାଞ୍ଝର କାଂସର ଘଣ୍ଟା ଶଙ୍ଖ କରତାଲ",
+      "ମଙ୍ଗଲ ମ୍ଡ଼୍ଦଙ୍ଗ ବାଜେ ପରମ ରସାଲ ୮"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઝાંઝર કાંસર ઘણ્ટા શઙ્ખ કરતાલ",
+      "મઙ્ગલ મ્ડ઼્દઙ્ગ બાજે પરમ રસાલ ૮"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jhā̃jhara kā̃sara ghaṇṭā śaṅkha karatāla",
+      "maṅgala mṛdaṅga bāje parama rasāla 8"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಝಾಂಝರ ಕಾಂಸರ ಘಂಟಾ ಶಂಖ ಕರತಾಲ",
+      "ಮಂಗಲ ಮ್‌ಡ಼್ದಂಗ ಬಾಜೆ ಪರಮ ರಸಾಲ ೮"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఝాంఝర కాంసర ఘంటా శంఖ కరతాల",
+      "మంగల మ్డ్దంగ బాజె పరమ రసాల 8"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джха̄м̣джхара ка̄м̣сара гхан̣т̣а̄ ш́ан̇кха карата̄ла",
+      "ман̇гала мр̤дан̇га ба̄джэ̆ парама раса̄ла 8"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഝാംഝര കാംസര ഘണ്ടാ ശംഖ കരതാല",
+      "മംഗല മ്ഡ്ദംഗ ബാജെ പരമ രസാല 8"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜா²ஞ்ஜ²ர காம்ʼஸர க⁴ண்டா ஶங்க² கரதால",
+      "மங்க³ல ம்ஃட்²த³ங்க³ பா³ஜெ பரம ரஸால 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jhā̃jhara kā̃sara ghaṇṭā śaṅkha karatāla",
+      "maṅgala mṛdaṅga bāje parama rasāla 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jhā̃jhara kā̃sara ghaṇṭā śaṅkha karatāla",
+      "maṅgala mṛdaṅga bāje parama rasāla 8"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 9,
+   "source_text_master": [
+    "maṅgala ārati kare bhakatera gaṇa",
+    "abhāgā keśaba kare nāma[FLAG_HYPHEN_ALPHA]saṅkīrtana 9*",
+    "śrīkṛṣṇa[FLAG_HYPHEN_ALPHA]caitanya prabhu[FLAG_HYPHEN_ALPHA]nityānanda",
+    "śrīadbaita gadādhara śrībāsādi[FLAG_HYPHEN_ALPHA]gaurabhaktabṛnda 10"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "While the devotees perform maṅgala-ārati, this unfortunate Keśava (the servant of Śrī Keśava) sings nāma-saṅkīrtana."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "maṅgala ārati",
+       "the maṅgala-ārati ceremony"
+      ],
+      [
+       "kare",
+       "performs"
+      ],
+      [
+       "bhakatera",
+       "of devotees"
+      ],
+      [
+       "gaṇa",
+       "the group"
+      ],
+      [
+       "abhāgā",
+       "unfortunate"
+      ],
+      [
+       "keśaba",
+       "Śrīla B.P. Keśava Gosvāmī Mahārāja"
+      ],
+      [
+       "kare",
+       "performs"
+      ],
+      [
+       "nāma saṅkīrtana",
+       "chanting of the holy names"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "मङ्गल आरति",
+       "the maṅgala-ārati ceremony"
+      ],
+      [
+       "करॆ",
+       "performs"
+      ],
+      [
+       "भकतॆर",
+       "of devotees"
+      ],
+      [
+       "गण",
+       "the group"
+      ],
+      [
+       "अभागा",
+       "unfortunate"
+      ],
+      [
+       "कॆशब",
+       "Śrīla B.P. Keśava Gosvāmī Mahārāja"
+      ],
+      [
+       "करॆ",
+       "performs"
+      ],
+      [
+       "नाम सङ्कीर्तन",
+       "chanting of the holy names"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মঙ্গল আরতি",
+       "the maṅgala-ārati ceremony"
+      ],
+      [
+       "করে",
+       "performs"
+      ],
+      [
+       "ভকতের",
+       "of devotees"
+      ],
+      [
+       "গণ",
+       "the group"
+      ],
+      [
+       "অভাগা",
+       "unfortunate"
+      ],
+      [
+       "কেশব",
+       "Śrīla B.P. Keśava Gosvāmī Mahārāja"
+      ],
+      [
+       "করে",
+       "performs"
+      ],
+      [
+       "নাম সঙ্কীর্তন",
+       "chanting of the holy names"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "મઙ્ગલ આરતિ",
+       "the maṅgala-ārati ceremony"
+      ],
+      [
+       "કરે",
+       "performs"
+      ],
+      [
+       "ભકતેર",
+       "of devotees"
+      ],
+      [
+       "ગણ",
+       "the group"
+      ],
+      [
+       "અભાગા",
+       "unfortunate"
+      ],
+      [
+       "કેશબ",
+       "Śrīla B.P. Keśava Gosvāmī Mahārāja"
+      ],
+      [
+       "કરે",
+       "performs"
+      ],
+      [
+       "નામ સઙ્કીર્તન",
+       "chanting of the holy names"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मङ्गल आरति करॆ भकतॆर गण",
+      "अभागा कॆशब करॆ नामसङ्कीर्तन ९*",
+      "श्रीक्ड़्ष्णचैतन्य प्रभुनित्यानन्द",
+      "श्रीअद्बैत गदाधर श्रीबासादिगौरभक्तब्ड़्न्द १०"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মঙ্গল আরতি করে ভকতের গণ",
+      "অভাগা কেশব করে নামসঙ্কীর্তন ৯*",
+      "শ্রীক্ড়্ষ্ণচৈতন্য প্রভুনিত্যানন্দ",
+      "শ্রীঅদ্বৈত গদাধর শ্রীবাসাদিগৌরভক্তব্ড়্ন্দ ১০"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମଙ୍ଗଲ ଆରତି କରେ ଭକତେର ଗଣ",
+      "ଅଭାଗା କେଶବ କରେ ନାମସଙ୍କୀର୍ତନ ୯*",
+      "ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣଚୈତନ୍ୟ ପ୍ରଭୁନିତ୍ୟାନନ୍ଦ",
+      "ଶ୍ରୀଅଦ୍ବୈତ ଗଦାଧର ଶ୍ରୀବାସାଦିଗୌରଭକ୍ତବ୍ଡ଼୍ନ୍ଦ ୧୦"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મઙ્ગલ આરતિ કરે ભકતેર ગણ",
+      "અભાગા કેશબ કરે નામસઙ્કીર્તન ૯*",
+      "શ્રીક્ડ઼્ષ્ણચૈતન્ય પ્રભુનિત્યાનન્દ",
+      "શ્રીઅદ્બૈત ગદાધર શ્રીબાસાદિગૌરભક્તબ્ડ઼્ન્દ ૧૦"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "maṅgala ārati kare bhakatera gaṇa",
+      "abhāgā keśaba kare nāma-saṅkīrtana 9*",
+      "śrīkṛṣṇa-caitanya prabhu-nityānanda",
+      "śrīadbaita gadādhara śrībāsādi-gaurabhaktabṛnda 10"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಂಗಲ ಆರತಿ ಕರೆ ಭಕತೆರ ಗಣ",
+      "ಅಭಾಗಾ ಕೆಶಬ ಕರೆ ನಾಮಸಂಕೀರ್ತನ ೯*",
+      "ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಚೈತನ್ಯ ಪ್ರಭುನಿತ್ಯಾನಂದ",
+      "ಶ್ರೀಅದ್ಬೈತ ಗದಾಧರ ಶ್ರೀಬಾಸಾದಿಗೌರಭಕ್ತಬ್‌ಡ಼್ನ್ದ ೧೦"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మంగల ఆరతి కరె భకతెర గణ",
+      "అభాగా కెశబ కరె నామసంకీర్తన 9*",
+      "శ్రీక్డ్ష్ణచైతన్య ప్రభునిత్యానంద",
+      "శ్రీఅద్బైత గదాధర శ్రీబాసాదిగౌరభక్తబ్డ్న్ద 10"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ман̇гала а̄рати карэ̆ бхакатэ̆ра ган̣а",
+      "абха̄га̄ кэ̆ш́аба карэ̆ на̄масан̇кӣртана 9*",
+      "ш́рӣкр̤шн̣ачаитанйа прабхунитйа̄нанда",
+      "ш́рӣадбаита гада̄дхара ш́рӣба̄са̄дигаурабхактабр̤нда 10"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മംഗല ആരതി കരെ ഭകതെര ഗണ",
+      "അഭാഗാ കെശബ കരെ നാമസങ്കീർതന 9*",
+      "ശ്രീക്ഡ്ഷ്ണചൈതന്യ പ്രഭുനിത്യാനന്ദ",
+      "ശ്രീഅദ്ബൈത ഗദാധര ശ്രീബാസാദിഗൗരഭക്തബ്ഡ്ന്ദ 10"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மங்க³ல ஆரதி கரெ ப⁴கதெர க³ண",
+      "அபா⁴கா³ கெஶப³ கரெ நாமஸங்கீர்தன 9*",
+      "ஶ்ரீக்ஃட்²ஷ்ணசைதன்ய ப்ரபு⁴நித்யானந்த³",
+      "ஶ்ரீஅத்³பை³த க³தா³த⁴ர ஶ்ரீபா³ஸாதி³கௌ³ரப⁴க்தப்³ஃட்²ந்த³ 10"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "maṅgala ārati kare bhakatera gaṇa",
+      "abhāgā keśaba kare nāma-saṅkīrtana 9*",
+      "śrīkṛṣṇa-caitanya prabhu-nityānanda",
+      "śrīadbaita gadādhara śrībāsādi-gaurabhaktabṛnda 10"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "maṅgala ārati kare bhakatera gaṇa",
+      "abhāgā keśaba kare nāma-saṅkīrtana 9*",
+      "śrīkṛṣṇa-caitanya prabhu-nityānanda",
+      "śrīadbaita gadādhara śrībāsādi-gaurabhaktabṛnda 10"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 10,
+   "source_text_master": [
+    "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare",
+    "hare rāma hare rāma rāma rāma hare hare 11"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरॆ क्ड़्ष्ण हरॆ क्ड़्ष्ण क्ड़्ष्ण क्ड़्ष्ण हरॆ हरॆ",
+      "हरॆ राम हरॆ राम राम राम हरॆ हरॆ ११"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরে ক্ড়্ষ্ণ হরে ক্ড়্ষ্ণ ক্ড়্ষ্ণ ক্ড়্ষ্ণ হরে হরে",
+      "হরে রাম হরে রাম রাম রাম হরে হরে ১১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରେ କ୍ଡ଼୍ଷ୍ଣ ହରେ କ୍ଡ଼୍ଷ୍ଣ କ୍ଡ଼୍ଷ୍ଣ କ୍ଡ଼୍ଷ୍ଣ ହରେ ହରେ",
+      "ହରେ ରାମ ହରେ ରାମ ରାମ ରାମ ହରେ ହରେ ୧୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરે ક્ડ઼્ષ્ણ હરે ક્ડ઼્ષ્ણ ક્ડ઼્ષ્ણ ક્ડ઼્ષ્ણ હરે હરે",
+      "હરે રામ હરે રામ રામ રામ હરે હરે ૧૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare",
+      "hare rāma hare rāma rāma rāma hare hare 11"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರೆ ಕ್‌ಡ಼್ಷ್ಣ ಹರೆ ಕ್‌ಡ಼್ಷ್ಣ ಕ್‌ಡ಼್ಷ್ಣ ಕ್‌ಡ಼್ಷ್ಣ ಹರೆ ಹರೆ",
+      "ಹರೆ ರಾಮ ಹರೆ ರಾಮ ರಾಮ ರಾಮ ಹರೆ ಹರೆ ೧೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరె క్డ్ష్ణ హరె క్డ్ష్ణ క్డ్ష్ణ క్డ్ష్ణ హరె హరె",
+      "హరె రామ హరె రామ రామ రామ హరె హరె 11"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "харэ̆ кр̤шн̣а харэ̆ кр̤шн̣а кр̤шн̣а кр̤шн̣а харэ̆ харэ̆",
+      "харэ̆ ра̄ма харэ̆ ра̄ма ра̄ма ра̄ма харэ̆ харэ̆ 11"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരെ ക്ഡ്ഷ്ണ ഹരെ ക്ഡ്ഷ്ണ ക്ഡ്ഷ്ണ ക്ഡ്ഷ്ണ ഹരെ ഹരെ",
+      "ഹരെ രാമ ഹരെ രാമ രാമ രാമ ഹരെ ഹരെ 11"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரெ க்ஃட்²ஷ்ண ஹரெ க்ஃட்²ஷ்ண க்ஃட்²ஷ்ண க்ஃட்²ஷ்ண ஹரெ ஹரெ",
+      "ஹரெ ராம ஹரெ ராம ராம ராம ஹரெ ஹரெ 11"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare",
+      "hare rāma hare rāma rāma rāma hare hare 11"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare",
+      "hare rāma hare rāma rāma rāma hare hare 11"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 11,
+   "source_text_master": [
+    "*gītikāra sbayaṁ mūla[FLAG_HYPHEN_ALPHA]kīrtanīya  tā̃hāra (paścāt[FLAG_HYPHEN_ALPHA]) dohāra[FLAG_HYPHEN_ALPHA]kārīrūpe tā̃hāra kīrtita dainyātmaka kīrtana[FLAG_HYPHEN_ALPHA]śeṣe “śrīkeśabera dāsa kare nāma[FLAG_HYPHEN_ALPHA]saṅkīrtana”’—ityādi rūpe kīrtanīya"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "*गीतिकार स्बयं मूलकीर्तनीय  तांहार (पश्चात्) दॊहारकारीरूपॆ तांहार कीर्तित दैन्यात्मक कीर्तनशॆषॆ “श्रीकॆशबॆर दास करॆ नामसङ्कीर्तन”ऽ—इत्यादि रूपॆ कीर्तनीय"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "*গীতিকার স্বয়ং মূলকীর্তনীয়  তাংহার (পশ্চাৎ) দোহারকারীরূপে তাংহার কীর্তিত দৈন্যাত্মক কীর্তনশেষে “শ্রীকেশবের দাস করে নামসঙ্কীর্তন”ঽ—ইত্যাদি রূপে কীর্তনীয়"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "*ଗୀତିକାର ସ୍ବୟଂ ମୂଲକୀର୍ତନୀୟ  ତାଂହାର (ପଶ୍ଚାତ୍) ଦୋହାରକାରୀରୂପେ ତାଂହାର କୀର୍ତିତ ଦୈନ୍ୟାତ୍ମକ କୀର୍ତନଶେଷେ “ଶ୍ରୀକେଶବେର ଦାସ କରେ ନାମସଙ୍କୀର୍ତନ”ଽ—ଇତ୍ୟାଦି ରୂପେ କୀର୍ତନୀୟ"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "*ગીતિકાર સ્બયં મૂલકીર્તનીય  તાંહાર (પશ્ચાત્) દોહારકારીરૂપે તાંહાર કીર્તિત દૈન્યાત્મક કીર્તનશેષે “શ્રીકેશબેર દાસ કરે નામસઙ્કીર્તન”ઽ—ઇત્યાદિ રૂપે કીર્તનીય"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "*gītikāra sbayaṁ mūla-kīrtanīya  tā̃hāra (paścāt-) dohāra-kārīrūpe tā̃hāra kīrtita dainyātmaka kīrtana-śeṣe “śrīkeśabera dāsa kare nāma-saṅkīrtana”’—ityādi rūpe kīrtanīya"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "*ಗೀತಿಕಾರ ಸ್ಬಯಂ ಮೂಲಕೀರ್ತನೀಯ  ತಾಂಹಾರ (ಪಶ್ಚಾತ್) ದೊಹಾರಕಾರೀರೂಪೆ ತಾಂಹಾರ ಕೀರ್ತಿತ ದೈನ್ಯಾತ್ಮಕ ಕೀರ್ತನಶೆಷೆ “ಶ್ರೀಕೆಶಬೆರ ದಾಸ ಕರೆ ನಾಮಸಂಕೀರ್ತನ”ಽ—ಇತ್ಯಾದಿ ರೂಪೆ ಕೀರ್ತನೀಯ"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "*గీతికార స్బయం మూలకీర్తనీయ  తాంహార (పశ్చాత్) దొహారకారీరూపె తాంహార కీర్తిత దైన్యాత్మక కీర్తనశెషె “శ్రీకెశబెర దాస కరె నామసంకీర్తన”ఽ—ఇత్యాది రూపె కీర్తనీయ"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "*гӣтика̄ра сбайам̣ мӯлакӣртанӣйа  та̄м̣ха̄ра (паш́ча̄т) до̆ха̄рака̄рӣрӯпэ̆ та̄м̣ха̄ра кӣртита даинйа̄тмака кӣртанаш́э̆шэ̆ “ш́рӣкэ̆ш́абэ̆ра да̄са карэ̆ на̄масан̇кӣртана”'—итйа̄ди рӯпэ̆ кӣртанӣйа"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "*ഗീതികാര സ്ബയം മൂലകീർതനീയ  താംഹാര (പശ്ചാത്) ദൊഹാരകാരീരൂപെ താംഹാര കീർതിത ദൈന്യാത്മക കീർതനശെഷെ “ശ്രീകെശബെര ദാസ കരെ നാമസങ്കീർതന”ഽ—ഇത്യാദി രൂപെ കീർതനീയ"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "*கீ³திகார ஸ்ப³யம்ʼ மூலகீர்தனீய  தாம்ʼஹார (பஶ்சாத்) தொ³ஹாரகாரீரூபெ தாம்ʼஹார கீர்தித தை³ன்யாத்மக கீர்தனஶெஷெ “ஶ்ரீகெஶபெ³ர தா³ஸ கரெ நாமஸங்கீர்தன”(அ)—இத்யாதி³ ரூபெ கீர்தனீய"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "*gītikāra sbayaṁ mūla-kīrtanīya  tā̃hāra (paścāt-) dohāra-kārīrūpe tā̃hāra kīrtita dainyātmaka kīrtana-śeṣe “śrīkeśabera dāsa kare nāma-saṅkīrtana”’—ityādi rūpe kīrtanīya"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "*gītikāra sbayaṁ mūla-kīrtanīya  tā̃hāra (paścāt-) dohāra-kārīrūpe tā̃hāra kīrtita dainyātmaka kīrtana-śeṣe “śrīkeśabera dāsa kare nāma-saṅkīrtana”’—ityādi rūpe kīrtanīya"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "anad-1",
+   "filename": "A4-anad-1.mp3",
+   "artist": "Anadi Krsna das"
+  },
+  {
+   "uid": "casu-1",
+   "filename": "A4-casu-1.mp3",
+   "artist": "casu"
+  },
+  {
+   "uid": "krsn-1",
+   "filename": "A4-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "madh-1",
+   "filename": "A4-madh-1.mp3",
+   "artist": "Madhukar das"
+  },
+  {
+   "uid": "vraj-1",
+   "filename": "A4-vraj-1.mp3",
+   "artist": "Vraj Mohan das"
+  }
+ ],
+ "tags": [
+  "Predawn Ārati"
+ ]
+}

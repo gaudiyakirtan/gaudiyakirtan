@@ -24,3 +24,17 @@ body {
 .bg-offset-custom {
   background-color: var(--background-offset) !important;
 }
+/* Now-playing title marquee: when the title can't fit two lines, it scrolls like a sign.
+   Two copies of the text sit side by side; translating -50% loops seamlessly. */
+@keyframes marquee-scroll {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.marquee-track {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee-scroll 12s linear infinite;
+}
+.marquee-track > span { padding-right: 2.5rem; }

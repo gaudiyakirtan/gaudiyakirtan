@@ -1,0 +1,1908 @@
+{
+ "uid": "GN11",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হা হা কবে গৌর-নিতাই"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hā hā kabe gaura-nitāi"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hā hā kabe gaura[FLAG_HYPHEN_ALPHA]nitāi",
+    "e patita jane,    uru kṛpā kari’,",
+    "dekhā dibe du’ṭī bhāi 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Alas, alas! When will the two brothers Gaura-Nitāi bestow Their abundant mercy upon this most fallen person and show Them­selves to him?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hā hā",
+       "alas"
+      ],
+      [
+       "kabe",
+       "when"
+      ],
+      [
+       "gaura nitāi",
+       "Gaura-Nitāi"
+      ],
+      [
+       "e",
+       "this"
+      ],
+      [
+       "patita",
+       "fallen"
+      ],
+      [
+       "jane",
+       "upon the person"
+      ],
+      [
+       "uru",
+       "abundant"
+      ],
+      [
+       "kṛpā kari’",
+       "having bestowed mercy"
+      ],
+      [
+       "dekhā dibe",
+       "They will show"
+      ],
+      [
+       "du’ṭī",
+       "the two"
+      ],
+      [
+       "bhāi",
+       "brothers"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हा हा",
+       "alas"
+      ],
+      [
+       "कबॆ",
+       "when"
+      ],
+      [
+       "गौर निताइ",
+       "Gaura-Nitāi"
+      ],
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "पतित",
+       "fallen"
+      ],
+      [
+       "जनॆ",
+       "upon the person"
+      ],
+      [
+       "उरु",
+       "abundant"
+      ],
+      [
+       "क्ड़्पा करिऽ",
+       "having bestowed mercy"
+      ],
+      [
+       "दॆखा दिबॆ",
+       "They will show"
+      ],
+      [
+       "दुऽटी",
+       "the two"
+      ],
+      [
+       "भाइ",
+       "brothers"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হা হা",
+       "alas"
+      ],
+      [
+       "কবে",
+       "when"
+      ],
+      [
+       "গৌর নিতাই",
+       "Gaura-Nitāi"
+      ],
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "পতিত",
+       "fallen"
+      ],
+      [
+       "জনে",
+       "upon the person"
+      ],
+      [
+       "উরু",
+       "abundant"
+      ],
+      [
+       "ক্ড়্পা করিঽ",
+       "having bestowed mercy"
+      ],
+      [
+       "দেখা দিবে",
+       "They will show"
+      ],
+      [
+       "দুঽটী",
+       "the two"
+      ],
+      [
+       "ভাই",
+       "brothers"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હા હા",
+       "alas"
+      ],
+      [
+       "કબે",
+       "when"
+      ],
+      [
+       "ગૌર નિતાઇ",
+       "Gaura-Nitāi"
+      ],
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "પતિત",
+       "fallen"
+      ],
+      [
+       "જને",
+       "upon the person"
+      ],
+      [
+       "ઉરુ",
+       "abundant"
+      ],
+      [
+       "ક્ડ઼્પા કરિઽ",
+       "having bestowed mercy"
+      ],
+      [
+       "દેખા દિબે",
+       "They will show"
+      ],
+      [
+       "દુઽટી",
+       "the two"
+      ],
+      [
+       "ભાઇ",
+       "brothers"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हा हा कबॆ गौरनिताइ",
+      "ऎ पतित जनॆ,    उरु क्ड़्पा करिऽ,",
+      "दॆखा दिबॆ दुऽटी भाइ १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হা হা কবে গৌরনিতাই",
+      "এ পতিত জনে,    উরু ক্ড়্পা করিঽ,",
+      "দেখা দিবে দুঽটী ভাই ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହା ହା କବେ ଗୌରନିତାଇ",
+      "ଏ ପତିତ ଜନେ,    ଉରୁ କ୍ଡ଼୍ପା କରିଽ,",
+      "ଦେଖା ଦିବେ ଦୁଽଟୀ ଭାଇ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હા હા કબે ગૌરનિતાઇ",
+      "એ પતિત જને,    ઉરુ ક્ડ઼્પા કરિઽ,",
+      "દેખા દિબે દુઽટી ભાઇ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hā hā kabe gaura-nitāi",
+      "e patita jane,    uru kṛpā kari’,",
+      "dekhā dibe du’ṭī bhāi 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹಾ ಹಾ ಕಬೆ ಗೌರನಿತಾಇ",
+      "ಎ ಪತಿತ ಜನೆ,    ಉರು ಕ್‌ಡ಼್ಪಾ ಕರಿಽ,",
+      "ದೆಖಾ ದಿಬೆ ದುಽಟೀ ಭಾಇ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హా హా కబె గౌరనితాఇ",
+      "ఎ పతిత జనె,    ఉరు క్డ్పా కరిఽ,",
+      "దెఖా దిబె దుఽటీ భాఇ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ха̄ ха̄ кабэ̆ гауранита̄и",
+      "э̆ патита джанэ̆,    уру кр̤па̄ кари',",
+      "дэ̆кха̄ дибэ̆ ду'т̣ӣ бха̄и 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹാ ഹാ കബെ ഗൗരനിതാഇ",
+      "എ പതിത ജനെ,    ഉരു ക്ഡ്പാ കരിഽ,",
+      "ദെഖാ ദിബെ ദുഽടീ ഭാഇ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹா ஹா கபெ³ கௌ³ரனிதாஇ",
+      "எ பதித ஜனெ,    உரு க்ஃட்²பா கரி(அ),",
+      "தெ³கா² தி³பெ³ து³(அ)டீ பா⁴இ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hā hā kabe gaura-nitāi",
+      "e patita jane,    uru kṛpā kari’,",
+      "dekhā dibe du’ṭī bhāi 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hā hā kabe gaura-nitāi",
+      "e patita jane,    uru kṛpā kari’,",
+      "dekhā dibe du’ṭī bhāi 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "dũhu kṛpā[FLAG_HYPHEN_ALPHA]bale,    nabadbīpa[FLAG_HYPHEN_ALPHA]dhāme,",
+    "dekhiba brajera śobhā",
+    "ānanda[FLAG_HYPHEN_ALPHA]sukhada[FLAG_HYPHEN_ALPHA],    kuñja manohara,",
+    "heriba nayana[FLAG_HYPHEN_ALPHA]lobhā 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "By the power of Their mercy, I shall see the transcendental splendor of Vraja in Navadvīpa. I shall behold the enchanting Ānanda-sukhada-kuñja, with greedy eyes."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "dũhu",
+       "both"
+      ],
+      [
+       "kṛpā",
+       "mercy"
+      ],
+      [
+       "bale",
+       "by the power"
+      ],
+      [
+       "nabadbīpa dhāme",
+       "in the abode of Navadvīpa"
+      ],
+      [
+       "dekhiba",
+       "I will see"
+      ],
+      [
+       "brajera",
+       "of Vraja"
+      ],
+      [
+       "śobhā",
+       "splendor"
+      ],
+      [
+       "ānanda sukhada kuñja",
+       "Ānanda-sukhada-kuñja"
+      ],
+      [
+       "manohara",
+       "enchanting"
+      ],
+      [
+       "heriba",
+       "I will see"
+      ],
+      [
+       "nayana",
+       "eyes"
+      ],
+      [
+       "lobhā",
+       "being greedy"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "दुंहु",
+       "both"
+      ],
+      [
+       "क्ड़्पा",
+       "mercy"
+      ],
+      [
+       "बलॆ",
+       "by the power"
+      ],
+      [
+       "नबद्बीप धामॆ",
+       "in the abode of Navadvīpa"
+      ],
+      [
+       "दॆखिब",
+       "I will see"
+      ],
+      [
+       "ब्रजॆर",
+       "of Vraja"
+      ],
+      [
+       "शॊभा",
+       "splendor"
+      ],
+      [
+       "आनन्द सुखद कुञ्ज",
+       "Ānanda-sukhada-kuñja"
+      ],
+      [
+       "मनॊहर",
+       "enchanting"
+      ],
+      [
+       "हॆरिब",
+       "I will see"
+      ],
+      [
+       "नयन",
+       "eyes"
+      ],
+      [
+       "लॊभा",
+       "being greedy"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "দুংহু",
+       "both"
+      ],
+      [
+       "ক্ড়্পা",
+       "mercy"
+      ],
+      [
+       "বলে",
+       "by the power"
+      ],
+      [
+       "নবদ্বীপ ধামে",
+       "in the abode of Navadvīpa"
+      ],
+      [
+       "দেখিব",
+       "I will see"
+      ],
+      [
+       "ব্রজের",
+       "of Vraja"
+      ],
+      [
+       "শোভা",
+       "splendor"
+      ],
+      [
+       "আনন্দ সুখদ কুঞ্জ",
+       "Ānanda-sukhada-kuñja"
+      ],
+      [
+       "মনোহর",
+       "enchanting"
+      ],
+      [
+       "হেরিব",
+       "I will see"
+      ],
+      [
+       "নয়ন",
+       "eyes"
+      ],
+      [
+       "লোভা",
+       "being greedy"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "દુંહુ",
+       "both"
+      ],
+      [
+       "ક્ડ઼્પા",
+       "mercy"
+      ],
+      [
+       "બલે",
+       "by the power"
+      ],
+      [
+       "નબદ્બીપ ધામે",
+       "in the abode of Navadvīpa"
+      ],
+      [
+       "દેખિબ",
+       "I will see"
+      ],
+      [
+       "બ્રજેર",
+       "of Vraja"
+      ],
+      [
+       "શોભા",
+       "splendor"
+      ],
+      [
+       "આનન્દ સુખદ કુઞ્જ",
+       "Ānanda-sukhada-kuñja"
+      ],
+      [
+       "મનોહર",
+       "enchanting"
+      ],
+      [
+       "હેરિબ",
+       "I will see"
+      ],
+      [
+       "નયન",
+       "eyes"
+      ],
+      [
+       "લોભા",
+       "being greedy"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "दुंहु क्ड़्पाबलॆ,    नबद्बीपधामॆ,",
+      "दॆखिब ब्रजॆर शॊभा",
+      "आनन्दसुखद,    कुञ्ज मनॊहर,",
+      "हॆरिब नयनलॊभा २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "দুংহু ক্ড়্পাবলে,    নবদ্বীপধামে,",
+      "দেখিব ব্রজের শোভা",
+      "আনন্দসুখদ,    কুঞ্জ মনোহর,",
+      "হেরিব নয়নলোভা ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଦୁଂହୁ କ୍ଡ଼୍ପାବଲେ,    ନବଦ୍ବୀପଧାମେ,",
+      "ଦେଖିବ ବ୍ରଜେର ଶୋଭା",
+      "ଆନନ୍ଦସୁଖଦ,    କୁଞ୍ଜ ମନୋହର,",
+      "ହେରିବ ନୟନଲୋଭା ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "દુંહુ ક્ડ઼્પાબલે,    નબદ્બીપધામે,",
+      "દેખિબ બ્રજેર શોભા",
+      "આનન્દસુખદ,    કુઞ્જ મનોહર,",
+      "હેરિબ નયનલોભા ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "dũhu kṛpā-bale,    nabadbīpa-dhāme,",
+      "dekhiba brajera śobhā",
+      "ānanda-sukhada-,    kuñja manohara,",
+      "heriba nayana-lobhā 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ದುಂಹು ಕ್‌ಡ಼್ಪಾಬಲೆ,    ನಬದ್ಬೀಪಧಾಮೆ,",
+      "ದೆಖಿಬ ಬ್ರಜೆರ ಶೊಭಾ",
+      "ಆನಂದಸುಖದ,    ಕುಂಜ ಮನೊಹರ,",
+      "ಹೆರಿಬ ನಯನಲೊಭಾ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "దుంహు క్డ్పాబలె,    నబద్బీపధామె,",
+      "దెఖిబ బ్రజెర శొభా",
+      "ఆనందసుఖద,    కుంజ మనొహర,",
+      "హెరిబ నయనలొభా 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "дум̣ху кр̤па̄балэ̆,    набадбӣпадха̄мэ̆,",
+      "дэ̆кхиба браджэ̆ра ш́о̆бха̄",
+      "а̄нандасукхада,    кун̃джа мано̆хара,",
+      "хэ̆риба найанало̆бха̄ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ദുംഹു ക്ഡ്പാബലെ,    നബദ്ബീപധാമെ,",
+      "ദെഖിബ ബ്രജെര ശൊഭാ",
+      "ആനന്ദസുഖദ,    കുഞ്ജ മനൊഹര,",
+      "ഹെരിബ നയനലൊഭാ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "து³ம்ʼஹு க்ஃட்²பாப³லெ,    நப³த்³பீ³பதா⁴மெ,",
+      "தெ³கி²ப³ ப்³ரஜெர ஶொபா⁴",
+      "ஆனந்த³ஸுக²த³,    குஞ்ஜ மனொஹர,",
+      "ஹெரிப³ நயனலொபா⁴ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "dũhu kṛpā-bale,    nabadbīpa-dhāme,",
+      "dekhiba brajera śobhā",
+      "ānanda-sukhada-,    kuñja manohara,",
+      "heriba nayana-lobhā 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "dũhu kṛpā-bale,    nabadbīpa-dhāme,",
+      "dekhiba brajera śobhā",
+      "ānanda-sukhada-,    kuñja manohara,",
+      "heriba nayana-lobhā 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "tāhāra nikaṭe,    śrīlalitā[FLAG_HYPHEN_ALPHA]kuṇḍa,",
+    "ratnabedī kata śata",
+    "yathā rādhākṛṣṇa,    līlā bistāriyā,",
+    "biharena abirata 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Near to Ānanda-sukhada-kuñja is Śrī Lalitā-kuṇḍa, surrounded by hundreds and hundreds of bejewelled sitting places where Śrī Śrī Rādhā-Kṛṣṇa expand the incessant revelry of Their pastimes."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "tāhāra",
+       "of that"
+      ],
+      [
+       "nikaṭe",
+       "nearby"
+      ],
+      [
+       "śrīlalitā kuṇḍa",
+       "Śrī Lalitā-kuṇḍa"
+      ],
+      [
+       "ratnabedī",
+       "bejewelled + sitting place"
+      ],
+      [
+       "kata",
+       "how many"
+      ],
+      [
+       "śata",
+       "hundreds"
+      ],
+      [
+       "yathā",
+       "where"
+      ],
+      [
+       "rādhākṛṣṇa",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "līlā",
+       "pastimes"
+      ],
+      [
+       "bistāriyā",
+       "having expanded"
+      ],
+      [
+       "biharena",
+       "revelry"
+      ],
+      [
+       "abirata",
+       "incessant"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ताहार",
+       "of that"
+      ],
+      [
+       "निकटॆ",
+       "nearby"
+      ],
+      [
+       "श्रीललिता कुण्ड",
+       "Śrī Lalitā-kuṇḍa"
+      ],
+      [
+       "रत्नबॆदी",
+       "bejewelled + sitting place"
+      ],
+      [
+       "कत",
+       "how many"
+      ],
+      [
+       "शत",
+       "hundreds"
+      ],
+      [
+       "यथा",
+       "where"
+      ],
+      [
+       "राधाक्ड़्ष्ण",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "लीला",
+       "pastimes"
+      ],
+      [
+       "बिस्तारिया",
+       "having expanded"
+      ],
+      [
+       "बिहरॆन",
+       "revelry"
+      ],
+      [
+       "अबिरत",
+       "incessant"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "তাহার",
+       "of that"
+      ],
+      [
+       "নিকটে",
+       "nearby"
+      ],
+      [
+       "শ্রীললিতা কুণ্ড",
+       "Śrī Lalitā-kuṇḍa"
+      ],
+      [
+       "রত্নবেদী",
+       "bejewelled + sitting place"
+      ],
+      [
+       "কত",
+       "how many"
+      ],
+      [
+       "শত",
+       "hundreds"
+      ],
+      [
+       "যথা",
+       "where"
+      ],
+      [
+       "রাধাক্ড়্ষ্ণ",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "লীলা",
+       "pastimes"
+      ],
+      [
+       "বিস্তারিয়া",
+       "having expanded"
+      ],
+      [
+       "বিহরেন",
+       "revelry"
+      ],
+      [
+       "অবিরত",
+       "incessant"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "તાહાર",
+       "of that"
+      ],
+      [
+       "નિકટે",
+       "nearby"
+      ],
+      [
+       "શ્રીલલિતા કુણ્ડ",
+       "Śrī Lalitā-kuṇḍa"
+      ],
+      [
+       "રત્નબેદી",
+       "bejewelled + sitting place"
+      ],
+      [
+       "કત",
+       "how many"
+      ],
+      [
+       "શત",
+       "hundreds"
+      ],
+      [
+       "યથા",
+       "where"
+      ],
+      [
+       "રાધાક્ડ઼્ષ્ણ",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "લીલા",
+       "pastimes"
+      ],
+      [
+       "બિસ્તારિયા",
+       "having expanded"
+      ],
+      [
+       "બિહરેન",
+       "revelry"
+      ],
+      [
+       "અબિરત",
+       "incessant"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ताहार निकटॆ,    श्रीललिताकुण्ड,",
+      "रत्नबॆदी कत शत",
+      "यथा राधाक्ड़्ष्ण,    लीला बिस्तारिया,",
+      "बिहरॆन अबिरत ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তাহার নিকটে,    শ্রীললিতাকুণ্ড,",
+      "রত্নবেদী কত শত",
+      "যথা রাধাক্ড়্ষ্ণ,    লীলা বিস্তারিয়া,",
+      "বিহরেন অবিরত ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତାହାର ନିକଟେ,    ଶ୍ରୀଲଲିତାକୁଣ୍ଡ,",
+      "ରତ୍ନବେଦୀ କତ ଶତ",
+      "ଯଥା ରାଧାକ୍ଡ଼୍ଷ୍ଣ,    ଲୀଲା ବିସ୍ତାରିୟା,",
+      "ବିହରେନ ଅବିରତ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તાહાર નિકટે,    શ્રીલલિતાકુણ્ડ,",
+      "રત્નબેદી કત શત",
+      "યથા રાધાક્ડ઼્ષ્ણ,    લીલા બિસ્તારિયા,",
+      "બિહરેન અબિરત ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tāhāra nikaṭe,    śrīlalitā-kuṇḍa,",
+      "ratnabedī kata śata",
+      "yathā rādhākṛṣṇa,    līlā bistāriyā,",
+      "biharena abirata 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಾಹಾರ ನಿಕಟೆ,    ಶ್ರೀಲಲಿತಾಕುಂಡ,",
+      "ರತ್ನಬೆದೀ ಕತ ಶತ",
+      "ಯಥಾ ರಾಧಾಕ್‌ಡ಼್ಷ್ಣ,    ಲೀಲಾ ಬಿಸ್ತಾರಿಯಾ,",
+      "ಬಿಹರೆನ ಅಬಿರತ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తాహార నికటె,    శ్రీలలితాకుండ,",
+      "రత్నబెదీ కత శత",
+      "యథా రాధాక్డ్ష్ణ,    లీలా బిస్తారియా,",
+      "బిహరెన అబిరత 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "та̄ха̄ра никат̣э̆,    ш́рӣлалита̄кун̣д̣а,",
+      "ратнабэ̆дӣ ката ш́ата",
+      "йатха̄ ра̄дха̄кр̤шн̣а,    лӣла̄ биста̄рийа̄,",
+      "бихарэ̆на абирата 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "താഹാര നികടെ,    ശ്രീലലിതാകുണ്ഡ,",
+      "രത്നബെദീ കത ശത",
+      "യഥാ രാധാക്ഡ്ഷ്ണ,    ലീലാ ബിസ്താരിയാ,",
+      "ബിഹരെന അബിരത 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தாஹார நிகடெ,    ஶ்ரீலலிதாகுண்ட³,",
+      "ரத்னபெ³தீ³ கத ஶத",
+      "யதா² ராதா⁴க்ஃட்²ஷ்ண,    லீலா பி³ஸ்தாரியா,",
+      "பி³ஹரென அபி³ரத 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tāhāra nikaṭe,    śrīlalitā-kuṇḍa,",
+      "ratnabedī kata śata",
+      "yathā rādhākṛṣṇa,    līlā bistāriyā,",
+      "biharena abirata 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tāhāra nikaṭe,    śrīlalitā-kuṇḍa,",
+      "ratnabedī kata śata",
+      "yathā rādhākṛṣṇa,    līlā bistāriyā,",
+      "biharena abirata 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "sakhīgaṇa yathā,    līlāra sahāya,",
+    "nānā[FLAG_HYPHEN_ALPHA]sebā[FLAG_HYPHEN_ALPHA]sukha pāya",
+    "e dāsī tathāya,    sakhīra ājñāte,",
+    "kārye iti[FLAG_HYPHEN_ALPHA]uti dhāya 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "All of Their sakhīs are there to assist in these pastimes, realizing the joy of rendering various kinds of sevā. This maidservant is also present, running here and there to carry out her duties on the order of her sakhī."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "sakhīgaṇa",
+       "the sakhīs"
+      ],
+      [
+       "yathā",
+       "where"
+      ],
+      [
+       "līlāra",
+       "of the pastimes"
+      ],
+      [
+       "sahāya",
+       "assist"
+      ],
+      [
+       "nānā",
+       "various"
+      ],
+      [
+       "sebā",
+       "services"
+      ],
+      [
+       "sukha",
+       "joy"
+      ],
+      [
+       "pāya",
+       "they attain"
+      ],
+      [
+       "e",
+       "this"
+      ],
+      [
+       "dāsī",
+       "maidservant"
+      ],
+      [
+       "tathāya",
+       "there"
+      ],
+      [
+       "sakhīra",
+       "of the sakhīs"
+      ],
+      [
+       "ājñāte",
+       "on the order"
+      ],
+      [
+       "kārye",
+       "in carrying out duties"
+      ],
+      [
+       "iti uti",
+       "here and there"
+      ],
+      [
+       "dhāya",
+       "runs"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "सखीगण",
+       "the sakhīs"
+      ],
+      [
+       "यथा",
+       "where"
+      ],
+      [
+       "लीलार",
+       "of the pastimes"
+      ],
+      [
+       "सहाय",
+       "assist"
+      ],
+      [
+       "नाना",
+       "various"
+      ],
+      [
+       "सॆबा",
+       "services"
+      ],
+      [
+       "सुख",
+       "joy"
+      ],
+      [
+       "पाय",
+       "they attain"
+      ],
+      [
+       "ऎ",
+       "this"
+      ],
+      [
+       "दासी",
+       "maidservant"
+      ],
+      [
+       "तथाय",
+       "there"
+      ],
+      [
+       "सखीर",
+       "of the sakhīs"
+      ],
+      [
+       "आज्ञातॆ",
+       "on the order"
+      ],
+      [
+       "कार्यॆ",
+       "in carrying out duties"
+      ],
+      [
+       "इति उति",
+       "here and there"
+      ],
+      [
+       "धाय",
+       "runs"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "সখীগণ",
+       "the sakhīs"
+      ],
+      [
+       "যথা",
+       "where"
+      ],
+      [
+       "লীলার",
+       "of the pastimes"
+      ],
+      [
+       "সহায়",
+       "assist"
+      ],
+      [
+       "নানা",
+       "various"
+      ],
+      [
+       "সেবা",
+       "services"
+      ],
+      [
+       "সুখ",
+       "joy"
+      ],
+      [
+       "পায়",
+       "they attain"
+      ],
+      [
+       "এ",
+       "this"
+      ],
+      [
+       "দাসী",
+       "maidservant"
+      ],
+      [
+       "তথায়",
+       "there"
+      ],
+      [
+       "সখীর",
+       "of the sakhīs"
+      ],
+      [
+       "আজ্ঞাতে",
+       "on the order"
+      ],
+      [
+       "কার্যে",
+       "in carrying out duties"
+      ],
+      [
+       "ইতি উতি",
+       "here and there"
+      ],
+      [
+       "ধায়",
+       "runs"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "સખીગણ",
+       "the sakhīs"
+      ],
+      [
+       "યથા",
+       "where"
+      ],
+      [
+       "લીલાર",
+       "of the pastimes"
+      ],
+      [
+       "સહાય",
+       "assist"
+      ],
+      [
+       "નાના",
+       "various"
+      ],
+      [
+       "સેબા",
+       "services"
+      ],
+      [
+       "સુખ",
+       "joy"
+      ],
+      [
+       "પાય",
+       "they attain"
+      ],
+      [
+       "એ",
+       "this"
+      ],
+      [
+       "દાસી",
+       "maidservant"
+      ],
+      [
+       "તથાય",
+       "there"
+      ],
+      [
+       "સખીર",
+       "of the sakhīs"
+      ],
+      [
+       "આજ્ઞાતે",
+       "on the order"
+      ],
+      [
+       "કાર્યે",
+       "in carrying out duties"
+      ],
+      [
+       "ઇતિ ઉતિ",
+       "here and there"
+      ],
+      [
+       "ધાય",
+       "runs"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सखीगण यथा,    लीलार सहाय,",
+      "नानासॆबासुख पाय",
+      "ऎ दासी तथाय,    सखीर आज्ञातॆ,",
+      "कार्यॆ इतिउति धाय ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সখীগণ যথা,    লীলার সহায়,",
+      "নানাসেবাসুখ পায়",
+      "এ দাসী তথায়,    সখীর আজ্ঞাতে,",
+      "কার্যে ইতিউতি ধায় ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସଖୀଗଣ ଯଥା,    ଲୀଲାର ସହାୟ,",
+      "ନାନାସେବାସୁଖ ପାୟ",
+      "ଏ ଦାସୀ ତଥାୟ,    ସଖୀର ଆଜ୍ଞାତେ,",
+      "କାର୍ୟେ ଇତିଉତି ଧାୟ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સખીગણ યથા,    લીલાર સહાય,",
+      "નાનાસેબાસુખ પાય",
+      "એ દાસી તથાય,    સખીર આજ્ઞાતે,",
+      "કાર્યે ઇતિઉતિ ધાય ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sakhīgaṇa yathā,    līlāra sahāya,",
+      "nānā-sebā-sukha pāya",
+      "e dāsī tathāya,    sakhīra ājñāte,",
+      "kārye iti-uti dhāya 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸಖೀಗಣ ಯಥಾ,    ಲೀಲಾರ ಸಹಾಯ,",
+      "ನಾನಾಸೆಬಾಸುಖ ಪಾಯ",
+      "ಎ ದಾಸೀ ತಥಾಯ,    ಸಖೀರ ಆಜ್ಞಾತೆ,",
+      "ಕಾರ್ಯೆ ಇತಿಉತಿ ಧಾಯ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సఖీగణ యథా,    లీలార సహాయ,",
+      "నానాసెబాసుఖ పాయ",
+      "ఎ దాసీ తథాయ,    సఖీర ఆజ్ఞాతె,",
+      "కార్యె ఇతిఉతి ధాయ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сакхӣган̣а йатха̄,    лӣла̄ра саха̄йа,",
+      "на̄на̄сэ̆ба̄сукха па̄йа",
+      "э̆ да̄сӣ татха̄йа,    сакхӣра а̄джн̃а̄тэ̆,",
+      "ка̄рйэ̆ итиути дха̄йа 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സഖീഗണ യഥാ,    ലീലാര സഹായ,",
+      "നാനാസെബാസുഖ പായ",
+      "എ ദാസീ തഥായ,    സഖീര ആജ്ഞാതെ,",
+      "കാര്യെ ഇതിഉതി ധായ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸகீ²க³ண யதா²,    லீலார ஸஹாய,",
+      "நானாஸெபா³ஸுக² பாய",
+      "எ தா³ஸீ ததா²ய,    ஸகீ²ர ஆஜ்ஞாதெ,",
+      "கார்யெ இதிஉதி தா⁴ய 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sakhīgaṇa yathā,    līlāra sahāya,",
+      "nānā-sebā-sukha pāya",
+      "e dāsī tathāya,    sakhīra ājñāte,",
+      "kārye iti-uti dhāya 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sakhīgaṇa yathā,    līlāra sahāya,",
+      "nānā-sebā-sukha pāya",
+      "e dāsī tathāya,    sakhīra ājñāte,",
+      "kārye iti-uti dhāya 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "mālatīra mālā,    gā̃thiyā āniba,",
+    "diba tabe sakhī[FLAG_HYPHEN_ALPHA]kare",
+    "rādhākṛṣṇa[FLAG_HYPHEN_ALPHA]gale,    sakhī parāibe,",
+    "nāciba ānandabhare 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Stringing a garland of mālatī flowers, I shall bring it and place it in the hands of my sakhī. She will place it around the necks of Śrī Śrī Rādhā-Kṛṣṇa and I shall dance, filled with ecstasy."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "mālatīra",
+       "of mālatī flowers"
+      ],
+      [
+       "mālā",
+       "garland"
+      ],
+      [
+       "gā̃thiyā",
+       "having strung"
+      ],
+      [
+       "āniba",
+       "I will bring"
+      ],
+      [
+       "diba",
+       "I will give"
+      ],
+      [
+       "tabe",
+       "then"
+      ],
+      [
+       "sakhī",
+       "a sakhī"
+      ],
+      [
+       "kare",
+       "in the hands"
+      ],
+      [
+       "rādhākṛṣṇa",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "gale",
+       "on the necks"
+      ],
+      [
+       "sakhī",
+       "the sakhī"
+      ],
+      [
+       "parāibe",
+       "will place"
+      ],
+      [
+       "nāciba",
+       "I shall dance"
+      ],
+      [
+       "ānandabhare",
+       "ecstacy + filled with"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "मालतीर",
+       "of mālatī flowers"
+      ],
+      [
+       "माला",
+       "garland"
+      ],
+      [
+       "गांथिया",
+       "having strung"
+      ],
+      [
+       "आनिब",
+       "I will bring"
+      ],
+      [
+       "दिब",
+       "I will give"
+      ],
+      [
+       "तबॆ",
+       "then"
+      ],
+      [
+       "सखी",
+       "a sakhī"
+      ],
+      [
+       "करॆ",
+       "in the hands"
+      ],
+      [
+       "राधाक्ड़्ष्ण",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "गलॆ",
+       "on the necks"
+      ],
+      [
+       "सखी",
+       "the sakhī"
+      ],
+      [
+       "पराइबॆ",
+       "will place"
+      ],
+      [
+       "नाचिब",
+       "I shall dance"
+      ],
+      [
+       "आनन्दभरॆ",
+       "ecstacy + filled with"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মালতীর",
+       "of mālatī flowers"
+      ],
+      [
+       "মালা",
+       "garland"
+      ],
+      [
+       "গান্থিয়া",
+       "having strung"
+      ],
+      [
+       "আনিব",
+       "I will bring"
+      ],
+      [
+       "দিব",
+       "I will give"
+      ],
+      [
+       "তবে",
+       "then"
+      ],
+      [
+       "সখী",
+       "a sakhī"
+      ],
+      [
+       "করে",
+       "in the hands"
+      ],
+      [
+       "রাধাক্ড়্ষ্ণ",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "গলে",
+       "on the necks"
+      ],
+      [
+       "সখী",
+       "the sakhī"
+      ],
+      [
+       "পরাইবে",
+       "will place"
+      ],
+      [
+       "নাচিব",
+       "I shall dance"
+      ],
+      [
+       "আনন্দভরে",
+       "ecstacy + filled with"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "માલતીર",
+       "of mālatī flowers"
+      ],
+      [
+       "માલા",
+       "garland"
+      ],
+      [
+       "ગાંથિયા",
+       "having strung"
+      ],
+      [
+       "આનિબ",
+       "I will bring"
+      ],
+      [
+       "દિબ",
+       "I will give"
+      ],
+      [
+       "તબે",
+       "then"
+      ],
+      [
+       "સખી",
+       "a sakhī"
+      ],
+      [
+       "કરે",
+       "in the hands"
+      ],
+      [
+       "રાધાક્ડ઼્ષ્ણ",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "ગલે",
+       "on the necks"
+      ],
+      [
+       "સખી",
+       "the sakhī"
+      ],
+      [
+       "પરાઇબે",
+       "will place"
+      ],
+      [
+       "નાચિબ",
+       "I shall dance"
+      ],
+      [
+       "આનન્દભરે",
+       "ecstacy + filled with"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मालतीर माला,    गांथिया आनिब,",
+      "दिब तबॆ सखीकरॆ",
+      "राधाक्ड़्ष्णगलॆ,    सखी पराइबॆ,",
+      "नाचिब आनन्दभरॆ ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মালতীর মালা,    গান্থিয়া আনিব,",
+      "দিব তবে সখীকরে",
+      "রাধাক্ড়্ষ্ণগলে,    সখী পরাইবে,",
+      "নাচিব আনন্দভরে ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମାଲତୀର ମାଲା,    ଗାନ୍ଥିୟା ଆନିବ,",
+      "ଦିବ ତବେ ସଖୀକରେ",
+      "ରାଧାକ୍ଡ଼୍ଷ୍ଣଗଲେ,    ସଖୀ ପରାଇବେ,",
+      "ନାଚିବ ଆନନ୍ଦଭରେ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "માલતીર માલા,    ગાંથિયા આનિબ,",
+      "દિબ તબે સખીકરે",
+      "રાધાક્ડ઼્ષ્ણગલે,    સખી પરાઇબે,",
+      "નાચિબ આનન્દભરે ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "mālatīra mālā,    gā̃thiyā āniba,",
+      "diba tabe sakhī-kare",
+      "rādhākṛṣṇa-gale,    sakhī parāibe,",
+      "nāciba ānandabhare 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಾಲತೀರ ಮಾಲಾ,    ಗಾಂಥಿಯಾ ಆನಿಬ,",
+      "ದಿಬ ತಬೆ ಸಖೀಕರೆ",
+      "ರಾಧಾಕ್‌ಡ಼್ಷ್ಣಗಲೆ,    ಸಖೀ ಪರಾಇಬೆ,",
+      "ನಾಚಿಬ ಆನಂದಭರೆ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మాలతీర మాలా,    గాంథియా ఆనిబ,",
+      "దిబ తబె సఖీకరె",
+      "రాధాక్డ్ష్ణగలె,    సఖీ పరాఇబె,",
+      "నాచిబ ఆనందభరె 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ма̄латӣра ма̄ла̄,    га̄м̣тхийа̄ а̄ниба,",
+      "диба табэ̆ сакхӣкарэ̆",
+      "ра̄дха̄кр̤шн̣агалэ̆,    сакхӣ пара̄ибэ̆,",
+      "на̄чиба а̄нандабхарэ̆ 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മാലതീര മാലാ,    ഗാന്ഥിയാ ആനിബ,",
+      "ദിബ തബെ സഖീകരെ",
+      "രാധാക്ഡ്ഷ്ണഗലെ,    സഖീ പരാഇബെ,",
+      "നാചിബ ആനന്ദഭരെ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மாலதீர மாலா,    கா³ந்தி²யா ஆனிப³,",
+      "தி³ப³ தபெ³ ஸகீ²கரெ",
+      "ராதா⁴க்ஃட்²ஷ்ணக³லெ,    ஸகீ² பராஇபெ³,",
+      "நாசிப³ ஆனந்த³ப⁴ரெ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "mālatīra mālā,    gā̃thiyā āniba,",
+      "diba tabe sakhī-kare",
+      "rādhākṛṣṇa-gale,    sakhī parāibe,",
+      "nāciba ānandabhare 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "mālatīra mālā,    gā̃thiyā āniba,",
+      "diba tabe sakhī-kare",
+      "rādhākṛṣṇa-gale,    sakhī parāibe,",
+      "nāciba ānandabhare 5"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Prayers Full Of Longing",
+  "Śrī Gaura-Nitāi"
+ ]
+}

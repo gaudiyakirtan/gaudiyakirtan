@@ -1,0 +1,555 @@
+{
+  "uid": "BS12",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "হ’য়ে বিষয়ে আবেশ, পে’লে মন, যাতনা অশেষ"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "ha’ye biṣaye ābeśa, pe’le mana, yātanā aśeṣa"
+    },
+    {
+      "script_code": "Deva",
+      "text": "ह’ये बिषये आबेश, पे’ले मन, यातना अशेष"
+    },
+    {
+      "script_code": "Telu",
+      "text": "హ’యే బిషయే ఆబేశ, పే’లే మన, యాతనా అశేష"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಹ’ಯೇ ಬಿಷಯೇ ಆಬೇಶ, ಪೇ’ಲೇ ಮನ, ಯಾತನಾ ಅಶೇಷ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஹ’யே பி³ஷயே ஆபே³ஶ, பே’லே மன, யாதனா அஶேஷ"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഹ’യേ ബിഷയേ ആബേശ, പേ’ലേ മന, യാതനാ അശേഷ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "હ’યે બિષયે આબેશ, પે’લે મન, યાતના અશેષ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ହ’ଯେ ବିଷୟେ ଆବେଶ, ପେ’ଲେ ମନ, ଯାତନା ଅଶେଷ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ха’йэ бишайэ а̄бэш́а, пэ’лэ мана, йа̄тана̄ аш́эша"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "ha’ye biṣaye ābeśa, pe’le mana, yātanā aśeṣa",
+        "chāḓi’ rādhāśyāme, brajadhāme, bhug‌cho hethā nānākleśa 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हऽयॆ बिषयॆ आबॆश, पॆऽलॆ मन, यातना अशॆष",
+            "छाḓइऽ राधाश्यामॆ, ब्रजधामॆ, भुग्‌छॊ हॆथा नानाक्लॆश १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হঽয়ে বিষয়ে আবেশ, পেঽলে মন, যাতনা অশেষ",
+            "ছাḓইঽ রাধাশ্যামে, ব্রজধামে, ভুগ্‌ছো হেথা নানাক্লেশ ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହଽୟେ ବିଷୟେ ଆବେଶ, ପେଽଲେ ମନ, ଯାତନା ଅଶେଷ",
+            "ଛାḓଇଽ ରାଧାଶ୍ୟାମେ, ବ୍ରଜଧାମେ, ଭୁଗ୍‌ଛୋ ହେଥା ନାନାକ୍ଲେଶ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હઽયે બિષયે આબેશ, પેઽલે મન, યાતના અશેષ",
+            "છાḓઇઽ રાધાશ્યામે, બ્રજધામે, ભુગ્‌છો હેથા નાનાક્લેશ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ha’ye biṣaye ābeśa, pe’le mana, yātanā aśeṣa",
+            "chāḓi’ rādhāśyāme, brajadhāme, bhug‌cho hethā nānākleśa 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹಽಯೆ ಬಿಷಯೆ ಆಬೆಶ, ಪೆಽಲೆ ಮನ, ಯಾತನಾ ಅಶೆಷ",
+            "ಛಾḓಇಽ ರಾಧಾಶ್ಯಾಮೆ, ಬ್ರಜಧಾಮೆ, ಭುಗ್‌ಛೊ ಹೆಥಾ ನಾನಾಕ್ಲೆಶ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హఽయె బిషయె ఆబెశ, పెఽలె మన, యాతనా అశెష",
+            "ఛాḓఇఽ రాధాశ్యామె, బ్రజధామె, భుగ్‌ఛొ హెథా నానాక్లెశ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ха'йэ̆ бишайэ̆ а̄бэ̆ш́а, пэ̆'лэ̆ мана, йа̄тана̄ аш́э̆ша",
+            "чха̄ḓи' ра̄дха̄ш́йа̄мэ̆, браджадха̄мэ̆, бхуг‌чхо̆ хэ̆тха̄ на̄на̄клэ̆ш́а 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹഽയെ ബിഷയെ ആബെശ, പെഽലെ മന, യാതനാ അശെഷ",
+            "ഛാḓഇഽ രാധാശ്യാമെ, ബ്രജധാമെ, ഭുഗ്‌ഛൊ ഹെഥാ നാനാക്ലെശ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹ(அ)யெ பி³ஷயெ ஆபெ³ஶ, பெ(அ)லெ மன, யாதனா அஶெஷ",
+            "சா²ḓஇ(அ) ராதா⁴ஶ்யாமெ, ப்³ரஜதா⁴மெ, பு⁴க்³‌சொ² ஹெதா² நானாக்லெஶ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ha’ye biṣaye ābeśa, pe’le mana, yātanā aśeṣa",
+            "chāḍi’ rādhāśyāme, brajadhāme, bhug‌cho hethā nānākleśa 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ha’ye biṣaye ābeśa, pe’le mana, yātanā aśeṣa",
+            "chāḓi’ rādhāśyāme, brajadhāme, bhug‌cho hethā nānākleśa 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "māyādebīra kārāgāre,    nijera karma[FLAG_HYPHEN_ALPHA]anusāre,",
+        "bhūtera begāra khāṭ‌te khāṭ‌te jībana kar‌cha śeṣa;",
+        "kari’ ‘āmi[FLAG_HYPHEN_ALPHA]āmāra’, dehe ābāra, kar‌cha jaḓa rāga[FLAG_HYPHEN_ALPHA]dbeṣa 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "मायादॆबीर कारागारॆ,    निजॆर कर्मअनुसारॆ,",
+            "भूतॆर बॆगार खाट्‌तॆ खाट्‌तॆ जीबन कर्‌छ शॆष;",
+            "करिऽ ‘आमिआमारऽ, दॆहॆ आबार, कर्‌छ जḓअ रागद्बॆष २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মায়াদেবীর কারাগারে,    নিজের কর্মঅনুসারে,",
+            "ভূতের বেগার খাট্‌তে খাট্‌তে জীবন কর্‌ছ শেষ;",
+            "করিঽ ‘আমিআমারঽ, দেহে আবার, কর্‌ছ জḓঅ রাগদ্বেষ ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମାୟାଦେବୀର କାରାଗାରେ,    ନିଜେର କର୍ମଅନୁସାରେ,",
+            "ଭୂତେର ବେଗାର ଖାଟ୍‌ତେ ଖାଟ୍‌ତେ ଜୀବନ କର୍‌ଛ ଶେଷ;",
+            "କରିଽ ‘ଆମିଆମାରଽ, ଦେହେ ଆବାର, କର୍‌ଛ ଜḓଅ ରାଗଦ୍ବେଷ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "માયાદેબીર કારાગારે,    નિજેર કર્મઅનુસારે,",
+            "ભૂતેર બેગાર ખાટ્‌તે ખાટ્‌તે જીબન કર્‌છ શેષ;",
+            "કરિઽ ‘આમિઆમારઽ, દેહે આબાર, કર્‌છ જḓઅ રાગદ્બેષ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "māyādebīra kārāgāre,    nijera karma-anusāre,",
+            "bhūtera begāra khāṭ‌te khāṭ‌te jībana kar‌cha śeṣa;",
+            "kari’ ‘āmi-āmāra’, dehe ābāra, kar‌cha jaḓa rāga-dbeṣa 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮಾಯಾದೆಬೀರ ಕಾರಾಗಾರೆ,    ನಿಜೆರ ಕರ್ಮಅನುಸಾರೆ,",
+            "ಭೂತೆರ ಬೆಗಾರ ಖಾಟ್‌ತೆ ಖಾಟ್‌ತೆ ಜೀಬನ ಕರ್‌ಛ ಶೆಷ;",
+            "ಕರಿಽ ‘ಆಮಿಆಮಾರಽ, ದೆಹೆ ಆಬಾರ, ಕರ್‌ಛ ಜḓಅ ರಾಗದ್ಬೆಷ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మాయాదెబీర కారాగారె,    నిజెర కర్మఅనుసారె,",
+            "భూతెర బెగార ఖాట్‌తె ఖాట్‌తె జీబన కర్‌ఛ శెష;",
+            "కరిఽ ‘ఆమిఆమారఽ, దెహె ఆబార, కర్‌ఛ జḓఅ రాగద్బెష 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ма̄йа̄дэ̆бӣра ка̄ра̄га̄рэ̆,    ниджэ̆ра кармаануса̄рэ̆,",
+            "бхӯтэ̆ра бэ̆га̄ра кха̄т̣‌тэ̆ кха̄т̣‌тэ̆ джӣбана кар‌чха ш́э̆ша;",
+            "кари' ‘а̄миа̄ма̄ра', дэ̆хэ̆ а̄ба̄ра, кар‌чха джаḓа ра̄гадбэ̆ша 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മായാദെബീര കാരാഗാരെ,    നിജെര കർമഅനുസാരെ,",
+            "ഭൂതെര ബെഗാര ഖാട്‌തെ ഖാട്‌തെ ജീബന കർ‌ഛ ശെഷ;",
+            "കരിഽ ‘ആമിആമാരഽ, ദെഹെ ആബാര, കർ‌ഛ ജḓഅ രാഗദ്ബെഷ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மாயாதெ³பீ³ர காராகா³ரெ,    நிஜெர கர்மஅனுஸாரெ,",
+            "பூ⁴தெர பெ³கா³ர கா²ட்‌தெ கா²ட்‌தெ ஜீப³ன கர்‌ச² ஶெஷ;",
+            "கரி(அ) ‘ஆமிஆமார(அ), தெ³ஹெ ஆபா³ர, கர்‌ச² ஜḓஅ ராக³த்³பெ³ஷ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "māyādebīra kārāgāre,    nijera karma-anusāre,",
+            "bhūtera begāra khāṭ‌te khāṭ‌te jībana kar‌cha śeṣa;",
+            "kari’ ‘āmi-āmāra’, dehe ābāra, kar‌cha jaḍa rāga-dbeṣa 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "māyādebīra kārāgāre,    nijera karma-anusāre,",
+            "bhūtera begāra khāṭ‌te khāṭ‌te jībana kar‌cha śeṣa;",
+            "kari’ ‘āmi-āmāra’, dehe ābāra, kar‌cha jaḓa rāga-dbeṣa 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "tumi śuddha cidānanda,    kṛṣṇasebā to’ra ānanda,",
+        "pañcabhūtera hāte paḓe’ haye ācha ekaṭī meṣa;",
+        "ekhana sādhusaṅge, citprasaṅge, tomāra upāya abaśeṣa 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तुमि शुद्ध चिदानन्द,    क्ड़्ष्णसॆबा तॊऽर आनन्द,",
+            "पञ्चभूतॆर हातॆ पḓऎऽ हयॆ आछ ऎकटी मॆष;",
+            "ऎखन साधुसङ्गॆ, चित्प्रसङ्गॆ, तॊमार उपाय अबशॆष ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তুমি শুদ্ধ চিদানন্দ,    ক্ড়্ষ্ণসেবা তোঽর আনন্দ,",
+            "পঞ্চভূতের হাতে পḓএঽ হয়ে আছ একটী মেষ;",
+            "এখন সাধুসঙ্গে, চিৎপ্রসঙ্গে, তোমার উপায় অবশেষ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତୁମି ଶୁଦ୍ଧ ଚିଦାନନ୍ଦ,    କ୍ଡ଼୍ଷ୍ଣସେବା ତୋଽର ଆନନ୍ଦ,",
+            "ପଞ୍ଚଭୂତେର ହାତେ ପḓଏଽ ହୟେ ଆଛ ଏକଟୀ ମେଷ;",
+            "ଏଖନ ସାଧୁସଙ୍ଗେ, ଚିତ୍ପ୍ରସଙ୍ଗେ, ତୋମାର ଉପାୟ ଅବଶେଷ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તુમિ શુદ્ધ ચિદાનન્દ,    ક્ડ઼્ષ્ણસેબા તોઽર આનન્દ,",
+            "પઞ્ચભૂતેર હાતે પḓએઽ હયે આછ એકટી મેષ;",
+            "એખન સાધુસઙ્ગે, ચિત્પ્રસઙ્ગે, તોમાર ઉપાય અબશેષ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tumi śuddha cidānanda,    kṛṣṇasebā to’ra ānanda,",
+            "pañcabhūtera hāte paḓe’ haye ācha ekaṭī meṣa;",
+            "ekhana sādhusaṅge, citprasaṅge, tomāra upāya abaśeṣa 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತುಮಿ ಶುದ್ಧ ಚಿದಾನಂದ,    ಕ್‌ಡ಼್ಷ್ಣಸೆಬಾ ತೊಽರ ಆನಂದ,",
+            "ಪಂಚಭೂತೆರ ಹಾತೆ ಪḓಎಽ ಹಯೆ ಆಛ ಎಕಟೀ ಮೆಷ;",
+            "ಎಖನ ಸಾಧುಸಂಗೆ, ಚಿತ್ಪ್ರಸಂಗೆ, ತೊಮಾರ ಉಪಾಯ ಅಬಶೆಷ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తుమి శుద్ధ చిదానంద,    క్డ్ష్ణసెబా తొఽర ఆనంద,",
+            "పంచభూతెర హాతె పḓఎఽ హయె ఆఛ ఎకటీ మెష;",
+            "ఎఖన సాధుసంగె, చిత్ప్రసంగె, తొమార ఉపాయ అబశెష 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "туми ш́уддха чида̄нанда,    кр̤шн̣асэ̆ба̄ то̆'ра а̄нанда,",
+            "пан̃чабхӯтэ̆ра ха̄тэ̆ паḓэ̆' хайэ̆ а̄чха э̆кат̣ӣ мэ̆ша;",
+            "э̆кхана са̄дхусан̇гэ̆, читпрасан̇гэ̆, то̆ма̄ра упа̄йа абаш́э̆ша 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തുമി ശുദ്ധ ചിദാനന്ദ,    ക്ഡ്ഷ്ണസെബാ തൊഽര ആനന്ദ,",
+            "പഞ്ചഭൂതെര ഹാതെ പḓഎഽ ഹയെ ആഛ എകടീ മെഷ;",
+            "എഖന സാധുസംഗെ, ചിത്പ്രസംഗെ, തൊമാര ഉപായ അബശെഷ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "துமி ஶுத்³த⁴ சிதா³னந்த³,    க்ஃட்²ஷ்ணஸெபா³ தொ(அ)ர ஆனந்த³,",
+            "பஞ்சபூ⁴தெர ஹாதெ பḓஎ(அ) ஹயெ ஆச² எகடீ மெஷ;",
+            "எக²ன ஸாது⁴ஸங்கெ³, சித்ப்ரஸங்கெ³, தொமார உபாய அப³ஶெஷ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tumi śuddha cidānanda,    kṛṣṇasebā to’ra ānanda,",
+            "pañcabhūtera hāte paḍe’ haye ācha ekaṭī meṣa;",
+            "ekhana sādhusaṅge, citprasaṅge, tomāra upāya abaśeṣa 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tumi śuddha cidānanda,    kṛṣṇasebā to’ra ānanda,",
+            "pañcabhūtera hāte paḓe’ haye ācha ekaṭī meṣa;",
+            "ekhana sādhusaṅge, citprasaṅge, tomāra upāya abaśeṣa 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "kanaka[FLAG_HYPHEN_ALPHA]kāminī[FLAG_HYPHEN_ALPHA]saṅga,    chāḓi’ o bhāi miche raṅga,",
+        "grahaṇa kara bāula[FLAG_HYPHEN_ALPHA]cā̃dera śuddha[FLAG_HYPHEN_ALPHA]upadeśa;",
+        "tyaji’ lukocuri, bāulagiri, śuddharase kara prabeśa 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कनककामिनीसङ्ग,    छाḓइऽ ऒ भाइ मिछॆ रङ्ग,",
+            "ग्रहण कर बाउलचांदॆर शुद्धौपदॆश;",
+            "त्यजिऽ लुकॊचुरि, बाउलगिरि, शुद्धरसॆ कर प्रबॆश ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কনককামিনীসঙ্গ,    ছাḓইঽ ও ভাই মিছে রঙ্গ,",
+            "গ্রহণ কর বাউলচান্দের শুদ্ধৌপদেশ;",
+            "ত্যজিঽ লুকোচুরি, বাউলগিরি, শুদ্ধরসে কর প্রবেশ ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କନକକାମିନୀସଙ୍ଗ,    ଛାḓଇଽ ଓ ଭାଇ ମିଛେ ରଙ୍ଗ,",
+            "ଗ୍ରହଣ କର ବାଉଲଚାନ୍ଦେର ଶୁଦ୍ଧୌପଦେଶ;",
+            "ତ୍ୟଜିଽ ଲୁକୋଚୁରି, ବାଉଲଗିରି, ଶୁଦ୍ଧରସେ କର ପ୍ରବେଶ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કનકકામિનીસઙ્ગ,    છાḓઇઽ ઓ ભાઇ મિછે રઙ્ગ,",
+            "ગ્રહણ કર બાઉલચાંદેર શુદ્ધૌપદેશ;",
+            "ત્યજિઽ લુકોચુરિ, બાઉલગિરિ, શુદ્ધરસે કર પ્રબેશ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kanaka-kāminī-saṅga,    chāḓi’ o bhāi miche raṅga,",
+            "grahaṇa kara bāula-cā̃dera śuddha-upadeśa;",
+            "tyaji’ lukocuri, bāulagiri, śuddharase kara prabeśa 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕನಕಕಾಮಿನೀಸಂಗ,    ಛಾḓಇಽ ಒ ಭಾಇ ಮಿಛೆ ರಂಗ,",
+            "ಗ್ರಹಣ ಕರ ಬಾಉಲಚಾಂದೆರ ಶುದ್ಧೌಪದೆಶ;",
+            "ತ್ಯಜಿಽ ಲುಕೊಚುರಿ, ಬಾಉಲಗಿರಿ, ಶುದ್ಧರಸೆ ಕರ ಪ್ರಬೆಶ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కనకకామినీసంగ,    ఛాḓఇఽ ఒ భాఇ మిఛె రంగ,",
+            "గ్రహణ కర బాఉలచాందెర శుద్ధౌపదెశ;",
+            "త్యజిఽ లుకొచురి, బాఉలగిరి, శుద్ధరసె కర ప్రబెశ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "канакака̄минӣсан̇га,    чха̄ḓи' о̆ бха̄и мичхэ̆ ран̇га,",
+            "грахан̣а кара ба̄улача̄м̣дэ̆ра ш́уддхаупадэ̆ш́а;",
+            "тйаджи' луко̆чури, ба̄улагири, ш́уддхарасэ̆ кара прабэ̆ш́а 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കനകകാമിനീസംഗ,    ഛാḓഇഽ ഒ ഭാഇ മിഛെ രംഗ,",
+            "ഗ്രഹണ കര ബാഉലചാന്ദെര ശുദ്ധൗപദെശ;",
+            "ത്യജിഽ ലുകൊചുരി, ബാഉലഗിരി, ശുദ്ധരസെ കര പ്രബെശ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கனககாமினீஸங்க³,    சா²ḓஇ(அ) ஒ பா⁴இ மிசெ² ரங்க³,",
+            "க்³ரஹண கர பா³உலசாந்தெ³ர ஶுத்³தௌ⁴பதெ³ஶ;",
+            "த்யஜி(அ) லுகொசுரி, பா³உலகி³ரி, ஶுத்³த⁴ரஸெ கர ப்ரபெ³ஶ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kanaka-kāminī-saṅga,    chāḍi’ o bhāi miche raṅga,",
+            "grahaṇa kara bāula-cā̃dera śuddha-upadeśa;",
+            "tyaji’ lukocuri, bāulagiri, śuddharase kara prabeśa 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kanaka-kāminī-saṅga,    chāḓi’ o bhāi miche raṅga,",
+            "grahaṇa kara bāula-cā̃dera śuddha-upadeśa;",
+            "tyaji’ lukocuri, bāulagiri, śuddharase kara prabeśa 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": []
+}

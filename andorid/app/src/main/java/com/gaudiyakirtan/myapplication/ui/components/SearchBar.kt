@@ -1,5 +1,7 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.neutral
+
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -32,7 +34,10 @@ fun SearchBar(
     searchText: String,
     onSearchTextChange: (String) -> Unit,
     onSettingsClick: () -> Unit,
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    // When set, the search field acts as a button that expands into the Search screen
+    // (docs/screens/search.md) instead of editing inline.
+    onSearchClick: (() -> Unit)? = null
 ) {
     Row(
         modifier = modifier
@@ -48,11 +53,11 @@ fun SearchBar(
             contentAlignment = Alignment.Center
         ) {
             MusicNote(
-                color = MaterialTheme.colorScheme.primary,
+                color = MaterialTheme.colorScheme.surfaceVariant,
                 size = 28.dp
             )
         }
-        
+
         // Search field
         Box(
             modifier = Modifier
@@ -60,6 +65,7 @@ fun SearchBar(
                 .height(40.dp)
                 .clip(RoundedCornerShape(20.dp))
                 .background(MaterialTheme.colorScheme.surface)
+                .then(if (onSearchClick != null) Modifier.clickable { onSearchClick() } else Modifier)
         ) {
             Row(
                 modifier = Modifier
@@ -67,50 +73,60 @@ fun SearchBar(
                     .padding(horizontal = 12.dp),
                 verticalAlignment = Alignment.CenterVertically
             ) {
-                BasicTextField(
-                    value = searchText,
-                    onValueChange = onSearchTextChange,
-                    modifier = Modifier
-                        .weight(1f)
-                        .padding(vertical = 8.dp),
-                    singleLine = true,
-                    textStyle = MaterialTheme.typography.bodyMedium.copy(
-                        color = MaterialTheme.colorScheme.onSurface
-                    ),
-                    decorationBox = { innerTextField ->
-                        if (searchText.isEmpty()) {
-                            Text(
-                                text = "Search",
-                                style = MaterialTheme.typography.bodyMedium,
-                                color = MaterialTheme.colorScheme.tertiary
+                if (onSearchClick != null) {
+                    // Button mode: a static placeholder that navigates into the Search screen.
+                    Text(
+                        text = "Search",
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.neutral,
+                        modifier = Modifier.weight(1f)
+                    )
+                } else {
+                    BasicTextField(
+                        value = searchText,
+                        onValueChange = onSearchTextChange,
+                        modifier = Modifier
+                            .weight(1f)
+                            .padding(vertical = 8.dp),
+                        singleLine = true,
+                        textStyle = MaterialTheme.typography.bodyMedium.copy(
+                            color = MaterialTheme.colorScheme.onSurface
+                        ),
+                        decorationBox = { innerTextField ->
+                            if (searchText.isEmpty()) {
+                                Text(
+                                    text = "Search",
+                                    style = MaterialTheme.typography.bodyMedium,
+                                    color = MaterialTheme.colorScheme.neutral
+                                )
+                            }
+                            innerTextField()
+                        }
+                    )
+
+                    // Clear button (only shows when text is not empty)
+                    if (searchText.isNotEmpty()) {
+                        Box(
+                            modifier = Modifier.size(24.dp),
+                            contentAlignment = Alignment.Center
+                        ) {
+                            Icon(
+                                imageVector = Icons.Default.Clear,
+                                contentDescription = "Clear search",
+                                tint = MaterialTheme.colorScheme.neutral,
+                                modifier = Modifier
+                                    .size(16.dp)
+                                    .clickable { onSearchTextChange("") }
                             )
                         }
-                        innerTextField()
-                    }
-                )
-                
-                // Clear button (only shows when text is not empty)
-                if (searchText.isNotEmpty()) {
-                    Box(
-                        modifier = Modifier.size(24.dp),
-                        contentAlignment = Alignment.Center
-                    ) {
-                        Icon(
-                            imageVector = Icons.Default.Clear,
-                            contentDescription = "Clear search",
-                            tint = MaterialTheme.colorScheme.onSurfaceVariant.copy(alpha = 0.6f),
-                            modifier = Modifier
-                                .size(16.dp)
-                                .clickable { onSearchTextChange("") }
-                        )
                     }
                 }
-                
+
                 // Search icon
                 Icon(
                     imageVector = ImageVector.vectorResource(id = R.drawable.ic_search),
                     contentDescription = "Search",
-                    tint = MaterialTheme.colorScheme.tertiary,
+                    tint = MaterialTheme.colorScheme.neutral,
                     modifier = Modifier.size(20.dp)
                 )
             }
@@ -124,7 +140,7 @@ fun SearchBar(
             Icon(
                 imageVector = ImageVector.vectorResource(id = R.drawable.ic_settings),
                 contentDescription = "Settings",
-                tint = MaterialTheme.colorScheme.tertiary,
+                tint = MaterialTheme.colorScheme.neutral,
                 modifier = Modifier
                     .size(24.dp)
                     .clickable { onSettingsClick() }

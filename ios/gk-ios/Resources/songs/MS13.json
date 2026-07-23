@@ -1,0 +1,641 @@
+{
+  "uid": "MS13",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ব্রজের নিকুঞ্জ-বনে"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "brajera nikuñja-bane"
+    },
+    {
+      "script_code": "Deva",
+      "text": "ब्रजेर निकुञ्ज-बने"
+    },
+    {
+      "script_code": "Telu",
+      "text": "బ్రజేర నికుంజ-బనే"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಬ್ರಜೇರ ನಿಕುಂಜ-ಬನೇ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ப்³ரஜேர நிகுஞ்ஜ-ப³னே"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ബ്രജേര നികുഞ്ജ-ബനേ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "બ્રજેર નિકુઞ્જ-બને"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ବ୍ରଜେର ନିକୁଞ୍ଜ-ବନେ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "браджэра никун̃джа-банэ"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "brajera nikuñja[FLAG_HYPHEN_ALPHA]bane,    rādhākṛṣṇa sakhīsane,",
+        "līlārase nitya thāke bhora",
+        "sei dainandina[FLAG_HYPHEN_ALPHA]līlā,    bahubhāgye ye sebilā,",
+        "tāhāra bhāgyera baḓa jora 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ब्रजॆर निकुञ्जबनॆ,    राधाक्ड़्ष्ण सखीसनॆ,",
+            "लीलारसॆ नित्य थाकॆ भॊर",
+            "सॆइ दैनन्दिनलीला,    बहुभाग्यॆ यॆ सॆबिला,",
+            "ताहार भाग्यॆर बḓअ जॊर १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ব্রজের নিকুঞ্জবনে,    রাধাক্ড়্ষ্ণ সখীসনে,",
+            "লীলারসে নিত্য থাকে ভোর",
+            "সেই দৈনন্দিনলীলা,    বহুভাগ্যে যে সেবিলা,",
+            "তাহার ভাগ্যের বḓঅ জোর ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବ୍ରଜେର ନିକୁଞ୍ଜବନେ,    ରାଧାକ୍ଡ଼୍ଷ୍ଣ ସଖୀସନେ,",
+            "ଲୀଲାରସେ ନିତ୍ୟ ଥାକେ ଭୋର",
+            "ସେଇ ଦୈନନ୍ଦିନଲୀଲା,    ବହୁଭାଗ୍ୟେ ଯେ ସେବିଲା,",
+            "ତାହାର ଭାଗ୍ୟେର ବḓଅ ଜୋର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બ્રજેર નિકુઞ્જબને,    રાધાક્ડ઼્ષ્ણ સખીસને,",
+            "લીલારસે નિત્ય થાકે ભોર",
+            "સેઇ દૈનન્દિનલીલા,    બહુભાગ્યે યે સેબિલા,",
+            "તાહાર ભાગ્યેર બḓઅ જોર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "brajera nikuñja-bane,    rādhākṛṣṇa sakhīsane,",
+            "līlārase nitya thāke bhora",
+            "sei dainandina-līlā,    bahubhāgye ye sebilā,",
+            "tāhāra bhāgyera baḓa jora 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬ್ರಜೆರ ನಿಕುಂಜಬನೆ,    ರಾಧಾಕ್‌ಡ಼್ಷ್ಣ ಸಖೀಸನೆ,",
+            "ಲೀಲಾರಸೆ ನಿತ್ಯ ಥಾಕೆ ಭೊರ",
+            "ಸೆಇ ದೈನಂದಿನಲೀಲಾ,    ಬಹುಭಾಗ್ಯೆ ಯೆ ಸೆಬಿಲಾ,",
+            "ತಾಹಾರ ಭಾಗ್ಯೆರ ಬḓಅ ಜೊರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బ్రజెర నికుంజబనె,    రాధాక్డ్ష్ణ సఖీసనె,",
+            "లీలారసె నిత్య థాకె భొర",
+            "సెఇ దైనందినలీలా,    బహుభాగ్యె యె సెబిలా,",
+            "తాహార భాగ్యెర బḓఅ జొర 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "браджэ̆ра никун̃джабанэ̆,    ра̄дха̄кр̤шн̣а сакхӣсанэ̆,",
+            "лӣла̄расэ̆ нитйа тха̄кэ̆ бхо̆ра",
+            "сэ̆и даинандиналӣла̄,    бахубха̄гйэ̆ йэ̆ сэ̆била̄,",
+            "та̄ха̄ра бха̄гйэ̆ра баḓа джо̆ра 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബ്രജെര നികുഞ്ജബനെ,    രാധാക്ഡ്ഷ്ണ സഖീസനെ,",
+            "ലീലാരസെ നിത്യ ഥാകെ ഭൊര",
+            "സെഇ ദൈനന്ദിനലീലാ,    ബഹുഭാഗ്യെ യെ സെബിലാ,",
+            "താഹാര ഭാഗ്യെര ബḓഅ ജൊര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப்³ரஜெர நிகுஞ்ஜப³னெ,    ராதா⁴க்ஃட்²ஷ்ண ஸகீ²ஸனெ,",
+            "லீலாரஸெ நித்ய தா²கெ பொ⁴ர",
+            "ஸெஇ தை³னந்தி³னலீலா,    ப³ஹுபா⁴க்³யெ யெ ஸெபி³லா,",
+            "தாஹார பா⁴க்³யெர ப³ḓஅ ஜொர 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "brajera nikuñja-bane,    rādhākṛṣṇa sakhīsane,",
+            "līlārase nitya thāke bhora",
+            "sei dainandina-līlā,    bahubhāgye ye sebilā,",
+            "tāhāra bhāgyera baḍa jora 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "brajera nikuñja-bane,    rādhākṛṣṇa sakhīsane,",
+            "līlārase nitya thāke bhora",
+            "sei dainandina-līlā,    bahubhāgye ye sebilā,",
+            "tāhāra bhāgyera baḓa jora 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "mana, yadi cāha sei dhana",
+        "śrīrūpera saṅga la’ye,    tā̃’ra anucarī ha’ye,",
+        "kara’ tā̃’ra nirdiṣṭa bhajana 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "मन, यदि चाह सॆइ धन",
+            "श्रीरूपॆर सङ्ग लऽयॆ,    तांऽर अनुचरी हऽयॆ,",
+            "करऽ तांऽर निर्दिष्ट भजन २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মন, যদি চাহ সেই ধন",
+            "শ্রীরূপের সঙ্গ লঽয়ে,    তাংঽর অনুচরী হঽয়ে,",
+            "করঽ তাংঽর নির্দিষ্ট ভজন ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମନ, ଯଦି ଚାହ ସେଇ ଧନ",
+            "ଶ୍ରୀରୂପେର ସଙ୍ଗ ଲଽୟେ,    ତାଂଽର ଅନୁଚରୀ ହଽୟେ,",
+            "କରଽ ତାଂଽର ନିର୍ଦିଷ୍ଟ ଭଜନ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મન, યદિ ચાહ સેઇ ધન",
+            "શ્રીરૂપેર સઙ્ગ લઽયે,    તાંઽર અનુચરી હઽયે,",
+            "કરઽ તાંઽર નિર્દિષ્ટ ભજન ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "mana, yadi cāha sei dhana",
+            "śrīrūpera saṅga la’ye,    tā̃’ra anucarī ha’ye,",
+            "kara’ tā̃’ra nirdiṣṭa bhajana 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮನ, ಯದಿ ಚಾಹ ಸೆಇ ಧನ",
+            "ಶ್ರೀರೂಪೆರ ಸಂಗ ಲಽಯೆ,    ತಾಂಽರ ಅನುಚರೀ ಹಽಯೆ,",
+            "ಕರಽ ತಾಂಽರ ನಿರ್ದಿಷ್ಟ ಭಜನ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మన, యది చాహ సెఇ ధన",
+            "శ్రీరూపెర సంగ లఽయె,    తాంఽర అనుచరీ హఽయె,",
+            "కరఽ తాంఽర నిర్దిష్ట భజన 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "мана, йади ча̄ха сэ̆и дхана",
+            "ш́рӣрӯпэ̆ра сан̇га ла'йэ̆,    та̄м̣'ра анучарӣ ха'йэ̆,",
+            "кара' та̄м̣'ра нирдишт̣а бхаджана 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മന, യദി ചാഹ സെഇ ധന",
+            "ശ്രീരൂപെര സംഗ ലഽയെ,    താംഽര അനുചരീ ഹഽയെ,",
+            "കരഽ താംഽര നിർദിഷ്ട ഭജന 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மன, யதி³ சாஹ ஸெஇ த⁴ன",
+            "ஶ்ரீரூபெர ஸங்க³ ல(அ)யெ,    தாம்ʼ(அ)ர அனுசரீ ஹ(அ)யெ,",
+            "கர(அ) தாம்ʼ(அ)ர நிர்தி³ஷ்ட ப⁴ஜன 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "mana, yadi cāha sei dhana",
+            "śrīrūpera saṅga la’ye,    tā̃’ra anucarī ha’ye,",
+            "kara’ tā̃’ra nirdiṣṭa bhajana 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "mana, yadi cāha sei dhana",
+            "śrīrūpera saṅga la’ye,    tā̃’ra anucarī ha’ye,",
+            "kara’ tā̃’ra nirdiṣṭa bhajana 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "hṛdaye rāgera bhābe,    kālocita sebā pā’be,",
+        "sadā rase rahibe majiyā",
+        "bāhire sādhana[FLAG_HYPHEN_ALPHA]deha,    karibe bhajana[FLAG_HYPHEN_ALPHA]geha,",
+        "niḥsaṅge bā sādhusaṅga layā 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ह्ड़्दयॆ रागॆर भाबॆ,    कालॊचित सॆबा पाऽबॆ,",
+            "सदा रसॆ रहिबॆ मजिया",
+            "बाहिरॆ साधनदॆह,    करिबॆ भजनगॆह,",
+            "निःसङ्गॆ बा साधुसङ्ग लया ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হ্ড়্দয়ে রাগের ভাবে,    কালোচিত সেবা পাঽবে,",
+            "সদা রসে রহিবে মজিয়া",
+            "বাহিরে সাধনদেহ,    করিবে ভজনগেহ,",
+            "নিঃসঙ্গে বা সাধুসঙ্গ লয়া ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହ୍ଡ଼୍ଦୟେ ରାଗେର ଭାବେ,    କାଲୋଚିତ ସେବା ପାଽବେ,",
+            "ସଦା ରସେ ରହିବେ ମଜିୟା",
+            "ବାହିରେ ସାଧନଦେହ,    କରିବେ ଭଜନଗେହ,",
+            "ନିଃସଙ୍ଗେ ବା ସାଧୁସଙ୍ଗ ଲୟା ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હ્ડ઼્દયે રાગેર ભાબે,    કાલોચિત સેબા પાઽબે,",
+            "સદા રસે રહિબે મજિયા",
+            "બાહિરે સાધનદેહ,    કરિબે ભજનગેહ,",
+            "નિઃસઙ્ગે બા સાધુસઙ્ગ લયા ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hṛdaye rāgera bhābe,    kālocita sebā pā’be,",
+            "sadā rase rahibe majiyā",
+            "bāhire sādhana-deha,    karibe bhajana-geha,",
+            "niḥsaṅge bā sādhusaṅga layā 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹ್‌ಡ಼್ದಯೆ ರಾಗೆರ ಭಾಬೆ,    ಕಾಲೊಚಿತ ಸೆಬಾ ಪಾಽಬೆ,",
+            "ಸದಾ ರಸೆ ರಹಿಬೆ ಮಜಿಯಾ",
+            "ಬಾಹಿರೆ ಸಾಧನದೆಹ,    ಕರಿಬೆ ಭಜನಗೆಹ,",
+            "ನಿಃಸಂಗೆ ಬಾ ಸಾಧುಸಂಗ ಲಯಾ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హ్డ్దయె రాగెర భాబె,    కాలొచిత సెబా పాఽబె,",
+            "సదా రసె రహిబె మజియా",
+            "బాహిరె సాధనదెహ,    కరిబె భజనగెహ,",
+            "నిఃసంగె బా సాధుసంగ లయా 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хр̤дайэ̆ ра̄гэ̆ра бха̄бэ̆,    ка̄ло̆чита сэ̆ба̄ па̄'бэ̆,",
+            "сада̄ расэ̆ рахибэ̆ маджийа̄",
+            "ба̄хирэ̆ са̄дханадэ̆ха,    карибэ̆ бхаджанагэ̆ха,",
+            "них̣сан̇гэ̆ ба̄ са̄дхусан̇га лайа̄ 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹ്ഡ്ദയെ രാഗെര ഭാബെ,    കാലൊചിത സെബാ പാഽബെ,",
+            "സദാ രസെ രഹിബെ മജിയാ",
+            "ബാഹിരെ സാധനദെഹ,    കരിബെ ഭജനഗെഹ,",
+            "നിഃസംഗെ ബാ സാധുസംഗ ലയാ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹ்ஃட்²த³யெ ராகெ³ர பா⁴பெ³,    காலொசித ஸெபா³ பா(அ)பெ³,",
+            "ஸதா³ ரஸெ ரஹிபெ³ மஜியா",
+            "பா³ஹிரெ ஸாத⁴னதெ³ஹ,    கரிபெ³ ப⁴ஜனகெ³ஹ,",
+            "நி꞉ஸங்கெ³ பா³ ஸாது⁴ஸங்க³ லயா 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hṛdaye rāgera bhābe,    kālocita sebā pā’be,",
+            "sadā rase rahibe majiyā",
+            "bāhire sādhana-deha,    karibe bhajana-geha,",
+            "niḥsaṅge bā sādhusaṅga layā 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hṛdaye rāgera bhābe,    kālocita sebā pā’be,",
+            "sadā rase rahibe majiyā",
+            "bāhire sādhana-deha,    karibe bhajana-geha,",
+            "niḥsaṅge bā sādhusaṅga layā 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "yugala[FLAG_HYPHEN_ALPHA]pūjana, dhyāna,    nati, śruti, saṅkīrtana,",
+        "pañcāmṛte seba gobardhane",
+        "rūpa[FLAG_HYPHEN_ALPHA]raghunātha pāya,    e bhaktibinoda cāya,",
+        "dṛḓhamati erūpa bhajane 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "युगलपूजन, ध्यान,    नति, श्रुति, सङ्कीर्तन,",
+            "पञ्चाम्ड़्तॆ सॆब गॊबर्धनॆ",
+            "रूपरघुनाथ पाय,    ऎ भक्तिबिनॊद चाय,",
+            "द्ड़्ḓहमति ऎरूप भजनॆ ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যুগলপূজন, ধ্যান,    নতি, শ্রুতি, সঙ্কীর্তন,",
+            "পঞ্চাম্ড়্তে সেব গোবর্ধনে",
+            "রূপরঘুনাথ পায়,    এ ভক্তিবিনোদ চায়,",
+            "দ্ড়্ḓহমতি এরূপ ভজনে ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯୁଗଲପୂଜନ, ଧ୍ୟାନ,    ନତି, ଶ୍ରୁତି, ସଙ୍କୀର୍ତନ,",
+            "ପଞ୍ଚାମ୍ଡ଼୍ତେ ସେବ ଗୋବର୍ଧନେ",
+            "ରୂପରଘୁନାଥ ପାୟ,    ଏ ଭକ୍ତିବିନୋଦ ଚାୟ,",
+            "ଦ୍ଡ଼୍ḓହମତି ଏରୂପ ଭଜନେ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યુગલપૂજન, ધ્યાન,    નતિ, શ્રુતિ, સઙ્કીર્તન,",
+            "પઞ્ચામ્ડ઼્તે સેબ ગોબર્ધને",
+            "રૂપરઘુનાથ પાય,    એ ભક્તિબિનોદ ચાય,",
+            "દ્ડ઼્ḓહમતિ એરૂપ ભજને ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yugala-pūjana, dhyāna,    nati, śruti, saṅkīrtana,",
+            "pañcāmṛte seba gobardhane",
+            "rūpa-raghunātha pāya,    e bhaktibinoda cāya,",
+            "dṛḓhamati erūpa bhajane 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯುಗಲಪೂಜನ, ಧ್ಯಾನ,    ನತಿ, ಶ್ರುತಿ, ಸಂಕೀರ್ತನ,",
+            "ಪಂಚಾಂ‌ಡ಼್ತೆ ಸೆಬ ಗೊಬರ್ಧನೆ",
+            "ರೂಪರಘುನಾಥ ಪಾಯ,    ಎ ಭಕ್ತಿಬಿನೊದ ಚಾಯ,",
+            "ದ್‌ಡ಼್ḓಹಮತಿ ಎರೂಪ ಭಜನೆ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యుగలపూజన, ధ్యాన,    నతి, శ్రుతి, సంకీర్తన,",
+            "పంచామ్డ్తె సెబ గొబర్ధనె",
+            "రూపరఘునాథ పాయ,    ఎ భక్తిబినొద చాయ,",
+            "ద్డ్ḓహమతి ఎరూప భజనె 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йугалапӯджана, дхйа̄на,    нати, ш́рути, сан̇кӣртана,",
+            "пан̃ча̄мр̤тэ̆ сэ̆ба го̆бардханэ̆",
+            "рӯпарагхуна̄тха па̄йа,    э̆ бхактибино̆да ча̄йа,",
+            "др̤ḓхамати э̆рӯпа бхаджанэ̆ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യുഗലപൂജന, ധ്യാന,    നതി, ശ്രുതി, സങ്കീർതന,",
+            "പഞ്ചാമ്ഡ്തെ സെബ ഗൊബർധനെ",
+            "രൂപരഘുനാഥ പായ,    എ ഭക്തിബിനൊദ ചായ,",
+            "ദ്ഡ്ḓഹമതി എരൂപ ഭജനെ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யுக³லபூஜன, த்⁴யான,    நதி, ஶ்ருதி, ஸங்கீர்தன,",
+            "பஞ்சாம்ஃட்²தெ ஸெப³ கொ³ப³ர்த⁴னெ",
+            "ரூபரகு⁴நாத² பாய,    எ ப⁴க்திபி³னொத³ சாய,",
+            "த்³ஃட்²ḓஹமதி எரூப ப⁴ஜனெ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yugala-pūjana, dhyāna,    nati, śruti, saṅkīrtana,",
+            "pañcāmṛte seba gobardhane",
+            "rūpa-raghunātha pāya,    e bhaktibinoda cāya,",
+            "dṛḍhamati erūpa bhajane 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yugala-pūjana, dhyāna,    nati, śruti, saṅkīrtana,",
+            "pañcāmṛte seba gobardhane",
+            "rūpa-raghunātha pāya,    e bhaktibinoda cāya,",
+            "dṛḓhamati erūpa bhajane 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "সমং শ্রীরূপেণ স্মর-বিবশ-রাধাগিরিভৃতো-"
+    },
+    {
+      "language_code": "ben",
+      "text": "র্ব্রজে সাক্ষাৎসেবা-লভন-বিধয়ে তদ্‌গণযুজোঃ ।"
+    },
+    {
+      "language_code": "ben",
+      "text": "তদিজ্যাখ্যা-ধ্যান-শ্রবণ-নতি পঞ্চামৃতমিদং"
+    },
+    {
+      "language_code": "ben",
+      "text": "ধয়ন্নীত্যা গোবর্দ্ধনমনুদিনং ত্বং ভজ মনঃ ॥১১॥"
+    },
+    {
+      "language_code": "ben",
+      "text": ""
+    },
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থ:- ভজনগেহ—ভজনের গৃহ; নতি—প্রণতি; শ্রুতি—শ্রবন ।"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "srrb-1",
+      "filename": "MS13-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    }
+  ],
+  "tags": [
+    "Śrī Manaḥ-śikṣā"
+  ]
+}

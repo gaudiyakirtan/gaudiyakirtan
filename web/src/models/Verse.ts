@@ -1,42 +1,38 @@
-export interface ITranslation {
-  language: string
-  text: string
+// Conforms to docs/data/verse.md, spec v1.
+import { LanguageCode, ScriptCode, TransliterationStandard } from './Common'
+import { ITranslation } from './Translation'
+
+/** The verse's lines rendered in one script. Line count matches sourceTextMaster. */
+export interface IDisplayScript {
+  scriptCode: ScriptCode
+  /** Only present when scriptCode === 'Latn'; absent/null otherwise. */
+  standard?: TransliterationStandard | null
+  text: string[]
 }
 
-export interface ITransliteration {
-  language: string
-  text: string
+/** The ordered per-word glossary for one language rendered in one script. */
+export interface IWordToWord {
+  languageCode: LanguageCode
+  /** Script the headwords are written in. */
+  scriptCode: ScriptCode
+  standard?: TransliterationStandard | null
+  /** Ordered [headword, gloss] pairs, in reading order. Never sorted. */
+  words: [string, string][]
 }
 
-export interface IWordToWordTranslation {
-  language: string
-  translations: { [key: string]: string }
-}
-
+/**
+ * One ordered stanza of a Song. Holds the master ISO 15919 Latin text, every script
+ * rendering of it, the word-to-word glossary, and full Translations.
+ */
 export interface IVerse {
-  id?: string
-  originalText: string
-  translations: ITranslation[]
-  transliterations: ITransliteration[]
-  wordToWordTranslations: IWordToWordTranslation[]
+  /** 1-based printed label. Display only - never used to reorder; order = array order. */
+  verseNumber: number
+  /** Master lines in ISO 15919 Latin, with inline [FLAG_*] markers. Not for display. */
+  sourceTextMaster: string[]
+  /** The master rendered into each supported script, flags resolved. */
+  displayScripts: IDisplayScript[]
+  /** Per-word glossary. Absent on ~80% of verses in the shipped corpus - omit, don't stub. */
+  wordToWords?: IWordToWord[]
+  /** Full-meaning renderings. Absent on ~78% of verses in the shipped corpus. */
+  translations?: ITranslation[]
 }
-
-// Helper functions for language selection
-export function getTransliteration(verse: IVerse, language = 'english'): string | null {
-  const transliteration = verse.transliterations.find(t => t.language.toLowerCase() === language.toLowerCase())
-  return transliteration?.text || null
-}
-
-export function getTranslation(verse: IVerse, language = 'english'): string | null {
-  const translation = verse.translations.find(t => t.language.toLowerCase() === language.toLowerCase())
-  return translation?.text || null
-}
-
-export function getWordToWordTranslation(verse: IVerse, language = 'english'): { [key: string]: string } | null {
-  const wtw = verse.wordToWordTranslations.find(t => t.language.toLowerCase() === language.toLowerCase())
-  return wtw?.translations || null
-}
-
-// Default language preferences
-export const DEFAULT_LANGUAGE = 'english'
-export const AVAILABLE_LANGUAGES = ['english', 'hindi', 'bengali']

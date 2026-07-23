@@ -1,5 +1,7 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.neutral
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -49,14 +51,14 @@ fun LibrarySearchBar(
                     .padding(vertical = 8.dp),
                 singleLine = true,
                 textStyle = MaterialTheme.typography.bodyMedium.copy(
-                    color = MaterialTheme.colorScheme.tertiary
+                    color = MaterialTheme.colorScheme.neutral
                 ),
                 decorationBox = { innerTextField ->
                     if (searchText.isEmpty()) {
                         Text(
                             text = placeholder,
                             style = MaterialTheme.typography.bodyMedium,
-                            color = MaterialTheme.colorScheme.tertiary
+                            color = MaterialTheme.colorScheme.neutral
                         )
                     }
                     innerTextField()
@@ -72,7 +74,7 @@ fun LibrarySearchBar(
                     Icon(
                         imageVector = Icons.Default.Clear,
                         contentDescription = "Clear search",
-                        tint = MaterialTheme.colorScheme.tertiary,
+                        tint = MaterialTheme.colorScheme.neutral,
                         modifier = Modifier.size(16.dp)
                     )
                 }
@@ -82,7 +84,7 @@ fun LibrarySearchBar(
             Icon(
                 imageVector = ImageVector.vectorResource(id = R.drawable.ic_search),
                 contentDescription = "Search",
-                tint = MaterialTheme.colorScheme.tertiary,
+                tint = MaterialTheme.colorScheme.neutral,
                 modifier = Modifier.size(20.dp)
             )
         }

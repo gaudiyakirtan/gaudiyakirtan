@@ -1,0 +1,573 @@
+{
+  "uid": "BS11",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "কেন ভেকের প্রয়াস ?"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "kena bhekera prayāsa ?"
+    },
+    {
+      "script_code": "Deva",
+      "text": "केन भेकेर प्रयास ?"
+    },
+    {
+      "script_code": "Telu",
+      "text": "కేన భేకేర ప్రయాస ?"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಕೇನ ಭೇಕೇರ ಪ್ರಯಾಸ ?"
+    },
+    {
+      "script_code": "Taml",
+      "text": "கேன பே⁴கேர ப்ரயாஸ ?"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "കേന ഭേകേര പ്രയാസ ?"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "કેન ભેકેર પ્રયાસ ?"
+    },
+    {
+      "script_code": "Orya",
+      "text": "କେନ ଭେକେର ପ୍ରୟାସ ?"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "кэна бхэкэра прайа̄са ?"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "kena bhekera prayāsa ?",
+        "haya akāla[FLAG_HYPHEN_ALPHA]bheke sarbanāśa",
+        "ha’le cittaśuddhi, tattbabuddhi, bheka āpani ese’ haya prakāśa 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कॆन भॆकॆर प्रयास ?",
+            "हय अकालभॆकॆ सर्बनाश",
+            "हऽलॆ चित्तशुद्धि, तत्त्बबुद्धि, भॆक आपनि ऎसॆऽ हय प्रकाश १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কেন ভেকের প্রয়াস ?",
+            "হয় অকালভেকে সর্বনাশ",
+            "হঽলে চিত্তশুদ্ধি, তত্ত্ববুদ্ধি, ভেক আপনি এসেঽ হয় প্রকাশ ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କେନ ଭେକେର ପ୍ରୟାସ ?",
+            "ହୟ ଅକାଲଭେକେ ସର୍ବନାଶ",
+            "ହଽଲେ ଚିତ୍ତଶୁଦ୍ଧି, ତତ୍ତ୍ବବୁଦ୍ଧି, ଭେକ ଆପନି ଏସେଽ ହୟ ପ୍ରକାଶ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કેન ભેકેર પ્રયાસ ?",
+            "હય અકાલભેકે સર્બનાશ",
+            "હઽલે ચિત્તશુદ્ધિ, તત્ત્બબુદ્ધિ, ભેક આપનિ એસેઽ હય પ્રકાશ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kena bhekera prayāsa ?",
+            "haya akāla-bheke sarbanāśa",
+            "ha’le cittaśuddhi, tattbabuddhi, bheka āpani ese’ haya prakāśa 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕೆನ ಭೆಕೆರ ಪ್ರಯಾಸ ?",
+            "ಹಯ ಅಕಾಲಭೆಕೆ ಸರ್ಬನಾಶ",
+            "ಹಽಲೆ ಚಿತ್ತಶುದ್ಧಿ, ತತ್ತ್ಬಬುದ್ಧಿ, ಭೆಕ ಆಪನಿ ಎಸೆಽ ಹಯ ಪ್ರಕಾಶ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కెన భెకెర ప్రయాస ?",
+            "హయ అకాలభెకె సర్బనాశ",
+            "హఽలె చిత్తశుద్ధి, తత్త్బబుద్ధి, భెక ఆపని ఎసెఽ హయ ప్రకాశ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кэ̆на бхэ̆кэ̆ра прайа̄са ?",
+            "хайа ака̄лабхэ̆кэ̆ сарбана̄ш́а",
+            "ха'лэ̆ читташ́уддхи, таттбабуддхи, бхэ̆ка а̄пани э̆сэ̆' хайа прака̄ш́а 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കെന ഭെകെര പ്രയാസ ?",
+            "ഹയ അകാലഭെകെ സർബനാശ",
+            "ഹഽലെ ചിത്തശുദ്ധി, തത്ത്ബബുദ്ധി, ഭെക ആപനി എസെഽ ഹയ പ്രകാശ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கென பெ⁴கெர ப்ரயாஸ ?",
+            "ஹய அகாலபெ⁴கெ ஸர்ப³நாஶ",
+            "ஹ(அ)லெ சித்தஶுத்³தி⁴, தத்த்ப³பு³த்³தி⁴, பெ⁴க ஆபனி எஸெ(அ) ஹய ப்ரகாஶ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kena bhekera prayāsa ?",
+            "haya akāla-bheke sarbanāśa",
+            "ha’le cittaśuddhi, tattbabuddhi, bheka āpani ese’ haya prakāśa 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kena bhekera prayāsa ?",
+            "haya akāla-bheke sarbanāśa",
+            "ha’le cittaśuddhi, tattbabuddhi, bheka āpani ese’ haya prakāśa 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "bheka dhari’ ceṣṭā kare,    bhekera jbālāya śeṣe mare,",
+        "neḓāneḓī chaḓāchaḓi ākhaḓā bẽdhe bāsa;",
+        "akāla kuṣmāṇḍa, yata bhaṇḍa, kar‌che jībera sarbanāśa 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भॆक धरिऽ चॆष्टा करॆ,    भॆकॆर ज्बालाय शॆषॆ मरॆ,",
+            "नॆḓआनॆḓई छḓआछḓइ आखḓआ ब्ẽधॆ बास;",
+            "अकाल कुष्माण्ड, यत भण्ड, कर्‌छॆ जीबॆर सर्बनाश २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভেক ধরিঽ চেষ্টা করে,    ভেকের জ্বালায় শেষে মরে,",
+            "নেḓআনেḓঈ ছḓআছḓই আখḓআ ব্ẽধে বাস;",
+            "অকাল কুষ্মাণ্ড, যত ভণ্ড, কর্‌ছে জীবের সর্বনাশ ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭେକ ଧରିଽ ଚେଷ୍ଟା କରେ,    ଭେକେର ଜ୍ବାଲାୟ ଶେଷେ ମରେ,",
+            "ନେḓଆନେḓଈ ଛḓଆଛḓଇ ଆଖḓଆ ବ୍ẽଧେ ବାସ;",
+            "ଅକାଲ କୁଷ୍ମାଣ୍ଡ, ଯତ ଭଣ୍ଡ, କର୍‌ଛେ ଜୀବେର ସର୍ବନାଶ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભેક ધરિઽ ચેષ્ટા કરે,    ભેકેર જ્બાલાય શેષે મરે,",
+            "નેḓઆનેḓઈ છḓઆછḓઇ આખḓઆ બ્ẽધે બાસ;",
+            "અકાલ કુષ્માણ્ડ, યત ભણ્ડ, કર્‌છે જીબેર સર્બનાશ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bheka dhari’ ceṣṭā kare,    bhekera jbālāya śeṣe mare,",
+            "neḓāneḓī chaḓāchaḓi ākhaḓā bẽdhe bāsa;",
+            "akāla kuṣmāṇḍa, yata bhaṇḍa, kar‌che jībera sarbanāśa 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭೆಕ ಧರಿಽ ಚೆಷ್ಟಾ ಕರೆ,    ಭೆಕೆರ ಜ್ಬಾಲಾಯ ಶೆಷೆ ಮರೆ,",
+            "ನೆḓಆನೆḓಈ ಛḓಆಛḓಇ ಆಖḓಆ ಬ್ẽಧೆ ಬಾಸ;",
+            "ಅಕಾಲ ಕುಷ್ಮಾಂಡ, ಯತ ಭಂಡ, ಕರ್‌ಛೆ ಜೀಬೆರ ಸರ್ಬನಾಶ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భెక ధరిఽ చెష్టా కరె,    భెకెర జ్బాలాయ శెషె మరె,",
+            "నెḓఆనెḓఈ ఛḓఆఛḓఇ ఆఖḓఆ బ్ẽధె బాస;",
+            "అకాల కుష్మాండ, యత భండ, కర్‌ఛె జీబెర సర్బనాశ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхэ̆ка дхари' чэ̆шт̣а̄ карэ̆,    бхэ̆кэ̆ра джба̄ла̄йа ш́э̆шэ̆ марэ̆,",
+            "нэ̆ḓа̄нэ̆ḓӣ чхаḓа̄чхаḓи а̄кхаḓа̄ бẽдхэ̆ ба̄са;",
+            "ака̄ла кушма̄н̣д̣а, йата бхан̣д̣а, кар‌чхэ̆ джӣбэ̆ра сарбана̄ш́а 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭെക ധരിഽ ചെഷ്ടാ കരെ,    ഭെകെര ജ്ബാലായ ശെഷെ മരെ,",
+            "നെḓആനെḓഈ ഛḓആഛḓഇ ആഖḓആ ബ്ẽധെ ബാസ;",
+            "അകാല കുഷ്മാണ്ഡ, യത ഭണ്ഡ, കർ‌ഛെ ജീബെര സർബനാശ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பெ⁴க த⁴ரி(அ) செஷ்டா கரெ,    பெ⁴கெர ஜ்பா³லாய ஶெஷெ மரெ,",
+            "நெḓஆனெḓஈ ச²ḓஆச²ḓஇ ஆக²ḓஆ ப்³ẽதெ⁴ பா³ஸ;",
+            "அகால குஷ்மாண்ட³, யத ப⁴ண்ட³, கர்‌செ² ஜீபெ³ர ஸர்ப³நாஶ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bheka dhari’ ceṣṭā kare,    bhekera jbālāya śeṣe mare,",
+            "neḍāneḍī chaḍāchaḍi ākhaḍā bẽdhe bāsa;",
+            "akāla kuṣmāṇḍa, yata bhaṇḍa, kar‌che jībera sarbanāśa 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bheka dhari’ ceṣṭā kare,    bhekera jbālāya śeṣe mare,",
+            "neḓāneḓī chaḓāchaḓi ākhaḓā bẽdhe bāsa;",
+            "akāla kuṣmāṇḍa, yata bhaṇḍa, kar‌che jībera sarbanāśa 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "śuka, nārada, catuḥsana,    bhekera adhikārī hana,",
+        "tā’dera samāna pār‌le ha’te bheke kar‌be āśa;",
+        "bala—temana buddhi, cittaśuddhi, ka’jana dharāya kar‌che bāsa 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "शुक, नारद, चतुःसन,    भॆकॆर अधिकारी हन,",
+            "ताऽदॆर समान पार्‌लॆ हऽतॆ भॆकॆ कर्‌बॆ आश;",
+            "बल—तॆमन बुद्धि, चित्तशुद्धि, कऽजन धराय कर्‌छॆ बास ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শুক, নারদ, চতুঃসন,    ভেকের অধিকারী হন,",
+            "তাঽদের সমান পার্‌লে হঽতে ভেকে কর্বে আশ;",
+            "বল—তেমন বুদ্ধি, চিত্তশুদ্ধি, কঽজন ধরায় কর্‌ছে বাস ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶୁକ, ନାରଦ, ଚତୁଃସନ,    ଭେକେର ଅଧିକାରୀ ହନ,",
+            "ତାଽଦେର ସମାନ ପାର୍‌ଲେ ହଽତେ ଭେକେ କର୍‌ବେ ଆଶ;",
+            "ବଲ—ତେମନ ବୁଦ୍ଧି, ଚିତ୍ତଶୁଦ୍ଧି, କଽଜନ ଧରାୟ କର୍‌ଛେ ବାସ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શુક, નારદ, ચતુઃસન,    ભેકેર અધિકારી હન,",
+            "તાઽદેર સમાન પાર્‌લે હઽતે ભેકે કર્‌બે આશ;",
+            "બલ—તેમન બુદ્ધિ, ચિત્તશુદ્ધિ, કઽજન ધરાય કર્‌છે બાસ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śuka, nārada, catuḥsana,    bhekera adhikārī hana,",
+            "tā’dera samāna pār‌le ha’te bheke kar‌be āśa;",
+            "bala—temana buddhi, cittaśuddhi, ka’jana dharāya kar‌che bāsa 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶುಕ, ನಾರದ, ಚತುಃಸನ,    ಭೆಕೆರ ಅಧಿಕಾರೀ ಹನ,",
+            "ತಾಽದೆರ ಸಮಾನ ಪಾರ್‌ಲೆ ಹಽತೆ ಭೆಕೆ ಕರ್‌ಬೆ ಆಶ;",
+            "ಬಲ—ತೆಮನ ಬುದ್ಧಿ, ಚಿತ್ತಶುದ್ಧಿ, ಕಽಜನ ಧರಾಯ ಕರ್‌ಛೆ ಬಾಸ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శుక, నారద, చతుఃసన,    భెకెర అధికారీ హన,",
+            "తాఽదెర సమాన పార్‌లె హఽతె భెకె కర్‌బె ఆశ;",
+            "బల—తెమన బుద్ధి, చిత్తశుద్ధి, కఽజన ధరాయ కర్‌ఛె బాస 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́ука, на̄рада, чатух̣сана,    бхэ̆кэ̆ра адхика̄рӣ хана,",
+            "та̄'дэ̆ра сама̄на па̄р‌лэ̆ ха'тэ̆ бхэ̆кэ̆ кар‌бэ̆ а̄ш́а;",
+            "бала—тэ̆мана буддхи, читташ́уддхи, ка'джана дхара̄йа кар‌чхэ̆ ба̄са 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശുക, നാരദ, ചതുഃസന,    ഭെകെര അധികാരീ ഹന,",
+            "താഽദെര സമാന പാർ‌ലെ ഹഽതെ ഭെകെ കർ‌ബെ ആശ;",
+            "ബല—തെമന ബുദ്ധി, ചിത്തശുദ്ധി, കഽജന ധരായ കർ‌ഛെ ബാസ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶுக, நாரத³, சது꞉ஸன,    பெ⁴கெர அதி⁴காரீ ஹன,",
+            "தா(அ)தெ³ர ஸமான பார்‌லெ ஹ(அ)தெ பெ⁴கெ கர்‌பெ³ ஆஶ;",
+            "ப³ல—தெமன பு³த்³தி⁴, சித்தஶுத்³தி⁴, க(அ)ஜன த⁴ராய கர்‌செ² பா³ஸ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śuka, nārada, catuḥsana,    bhekera adhikārī hana,",
+            "tā’dera samāna pār‌le ha’te bheke kar‌be āśa;",
+            "bala—temana buddhi, cittaśuddhi, ka’jana dharāya kar‌che bāsa 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śuka, nārada, catuḥsana,    bhekera adhikārī hana,",
+            "tā’dera samāna pār‌le ha’te bheke kar‌be āśa;",
+            "bala—temana buddhi, cittaśuddhi, ka’jana dharāya kar‌che bāsa 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "ātmānātma[FLAG_HYPHEN_ALPHA]subibeke,    prema[FLAG_HYPHEN_ALPHA]latāya citta bheke,",
+        "bhajana[FLAG_HYPHEN_ALPHA]sādhana[FLAG_HYPHEN_ALPHA]bāri[FLAG_HYPHEN_ALPHA]seke karaha ullāsa;",
+        "cā̃da[FLAG_HYPHEN_ALPHA]bāula bale, emana ha’le, ha’te pār‌be kṛṣṇadāsa 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "आत्मानात्मसुबिबॆकॆ,    प्रॆमलताय चित्त भॆकॆ,",
+            "भजनसाधनबारिसॆकॆ करह उल्लास;",
+            "चांदबाउल बलॆ, ऎमन हऽलॆ, हऽतॆ पार्‌बॆ क्ड़्ष्णदास ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "আত্মানাত্মসুবিবেকে,    প্রেমলতায় চিত্ত ভেকে,",
+            "ভজনসাধনবারিসেকে করহ উল্লাস;",
+            "চান্দবাউল বলে, এমন হঽলে, হঽতে পার্বে ক্ড়্ষ্ণদাস ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଆତ୍ମାନାତ୍ମସୁବିବେକେ,    ପ୍ରେମଲତାୟ ଚିତ୍ତ ଭେକେ,",
+            "ଭଜନସାଧନବାରିସେକେ କରହ ଉଲ୍ଲାସ;",
+            "ଚାନ୍ଦବାଉଲ ବଲେ, ଏମନ ହଽଲେ, ହଽତେ ପାର୍‌ବେ କ୍ଡ଼୍ଷ୍ଣଦାସ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "આત્માનાત્મસુબિબેકે,    પ્રેમલતાય ચિત્ત ભેકે,",
+            "ભજનસાધનબારિસેકે કરહ ઉલ્લાસ;",
+            "ચાંદબાઉલ બલે, એમન હઽલે, હઽતે પાર્‌બે ક્ડ઼્ષ્ણદાસ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ātmānātma-subibeke,    prema-latāya citta bheke,",
+            "bhajana-sādhana-bāri-seke karaha ullāsa;",
+            "cā̃da-bāula bale, emana ha’le, ha’te pār‌be kṛṣṇadāsa 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಆತ್ಮಾನಾತ್ಮಸುಬಿಬೆಕೆ,    ಪ್ರೆಮಲತಾಯ ಚಿತ್ತ ಭೆಕೆ,",
+            "ಭಜನಸಾಧನಬಾರಿಸೆಕೆ ಕರಹ ಉಲ್ಲಾಸ;",
+            "ಚಾಂದಬಾಉಲ ಬಲೆ, ಎಮನ ಹಽಲೆ, ಹಽತೆ ಪಾರ್‌ಬೆ ಕ್‌ಡ಼್ಷ್ಣದಾಸ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఆత్మానాత్మసుబిబెకె,    ప్రెమలతాయ చిత్త భెకె,",
+            "భజనసాధనబారిసెకె కరహ ఉల్లాస;",
+            "చాందబాఉల బలె, ఎమన హఽలె, హఽతె పార్‌బె క్డ్ష్ణదాస 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "а̄тма̄на̄тмасубибэ̆кэ̆,    прэ̆малата̄йа читта бхэ̆кэ̆,",
+            "бхаджанаса̄дханаба̄рисэ̆кэ̆ караха улла̄са;",
+            "ча̄м̣даба̄ула балэ̆, э̆мана ха'лэ̆, ха'тэ̆ па̄р‌бэ̆ кр̤шн̣ада̄са 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ആത്മാനാത്മസുബിബെകെ,    പ്രെമലതായ ചിത്ത ഭെകെ,",
+            "ഭജനസാധനബാരിസെകെ കരഹ ഉല്ലാസ;",
+            "ചാന്ദബാഉല ബലെ, എമന ഹഽലെ, ഹഽതെ പാർ‌ബെ ക്ഡ്ഷ്ണദാസ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஆத்மானாத்மஸுபி³பெ³கெ,    ப்ரெமலதாய சித்த பெ⁴கெ,",
+            "ப⁴ஜனஸாத⁴னபா³ரிஸெகெ கரஹ உல்லாஸ;",
+            "சாந்த³பா³உல ப³லெ, எமன ஹ(அ)லெ, ஹ(அ)தெ பார்‌பெ³ க்ஃட்²ஷ்ணதா³ஸ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ātmānātma-subibeke,    prema-latāya citta bheke,",
+            "bhajana-sādhana-bāri-seke karaha ullāsa;",
+            "cā̃da-bāula bale, emana ha’le, ha’te pār‌be kṛṣṇadāsa 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ātmānātma-subibeke,    prema-latāya citta bheke,",
+            "bhajana-sādhana-bāri-seke karaha ullāsa;",
+            "cā̃da-bāula bale, emana ha’le, ha’te pār‌be kṛṣṇadāsa 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- ভেক—বৈরাগীর বেশ; নেড়ানেড়ী—উদর-উপস্থ-ভরণ উদ্দেশ্যে আখড়া বাঁধিয়া থাকা নরনারীগণ; চিত্তভেক—অন্তর্বৈরাগ্য; বারিসেকে—জলসেচনে ।"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

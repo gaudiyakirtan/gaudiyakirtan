@@ -1,0 +1,2461 @@
+{
+  "uid": "S7",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "আমার জীবন, সদা পাপে রত"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "āmāra jībana, sadā pāpe rata"
+    },
+    {
+      "script_code": "Deva",
+      "text": "आमार जीबन, सदा पापे रत"
+    },
+    {
+      "script_code": "Telu",
+      "text": "ఆమార జీబన, సదా పాపే రత"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಆಮಾರ ಜೀಬನ, ಸದಾ ಪಾಪೇ ರತ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஆமார ஜீப³ன, ஸதா³ பாபே ரத"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ആമാര ജീബന, സദാ പാപേ രത"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "આમાર જીબન, સદા પાપે રત"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଆମାର ଜୀବନ, ସଦା ପାପେ ରତ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "а̄ма̄ра джӣбана, сада̄ па̄пэ рата"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "āmāra jībana,    sadā pāpe rata,",
+        "nāhika puṇyera leśa",
+        "parere udbega,    diyāchi ye kata,",
+        "diyāchi jībere kleśa 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "My life is perpetually dedicated to sin; thus I am without a trace of piety. I have given others great anxiety and brought only misery to living beings."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "āmāra",
+              "my"
+            ],
+            [
+              "jībana",
+              "life"
+            ],
+            [
+              "sadā",
+              "always"
+            ],
+            [
+              "pāpe",
+              "to sin"
+            ],
+            [
+              "rata",
+              "engaged in, devoted to"
+            ],
+            [
+              "nāhika",
+              "there is not"
+            ],
+            [
+              "puṇyera",
+              "of piety"
+            ],
+            [
+              "leśa",
+              "trace, shadow, iota"
+            ],
+            [
+              "parere",
+              "to others"
+            ],
+            [
+              "udbega",
+              "anxiety"
+            ],
+            [
+              "diyāchi",
+              "I have given"
+            ],
+            [
+              "ye",
+              "which"
+            ],
+            [
+              "kata",
+              "much"
+            ],
+            [
+              "diyāchi",
+              "I have given"
+            ],
+            [
+              "jībere",
+              "to living beings"
+            ],
+            [
+              "kleśa",
+              "misery, trouble, pain, sorrow"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "आमार",
+              "my"
+            ],
+            [
+              "जीबन",
+              "life"
+            ],
+            [
+              "सदा",
+              "always"
+            ],
+            [
+              "पापॆ",
+              "to sin"
+            ],
+            [
+              "रत",
+              "engaged in, devoted to"
+            ],
+            [
+              "नाहिक",
+              "there is not"
+            ],
+            [
+              "पुण्यॆर",
+              "of piety"
+            ],
+            [
+              "लॆश",
+              "trace, shadow, iota"
+            ],
+            [
+              "परॆरॆ",
+              "to others"
+            ],
+            [
+              "उद्बॆग",
+              "anxiety"
+            ],
+            [
+              "दियाछि",
+              "I have given"
+            ],
+            [
+              "यॆ",
+              "which"
+            ],
+            [
+              "कत",
+              "much"
+            ],
+            [
+              "दियाछि",
+              "I have given"
+            ],
+            [
+              "जीबॆरॆ",
+              "to living beings"
+            ],
+            [
+              "क्लॆश",
+              "misery, trouble, pain, sorrow"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "আমার",
+              "my"
+            ],
+            [
+              "জীবন",
+              "life"
+            ],
+            [
+              "সদা",
+              "always"
+            ],
+            [
+              "পাপে",
+              "to sin"
+            ],
+            [
+              "রত",
+              "engaged in, devoted to"
+            ],
+            [
+              "নাহিক",
+              "there is not"
+            ],
+            [
+              "পুণ্যের",
+              "of piety"
+            ],
+            [
+              "লেশ",
+              "trace, shadow, iota"
+            ],
+            [
+              "পরেরে",
+              "to others"
+            ],
+            [
+              "উদ্বেগ",
+              "anxiety"
+            ],
+            [
+              "দিয়াছি",
+              "I have given"
+            ],
+            [
+              "যে",
+              "which"
+            ],
+            [
+              "কত",
+              "much"
+            ],
+            [
+              "দিয়াছি",
+              "I have given"
+            ],
+            [
+              "জীবেরে",
+              "to living beings"
+            ],
+            [
+              "ক্লেশ",
+              "misery, trouble, pain, sorrow"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "આમાર",
+              "my"
+            ],
+            [
+              "જીબન",
+              "life"
+            ],
+            [
+              "સદા",
+              "always"
+            ],
+            [
+              "પાપે",
+              "to sin"
+            ],
+            [
+              "રત",
+              "engaged in, devoted to"
+            ],
+            [
+              "નાહિક",
+              "there is not"
+            ],
+            [
+              "પુણ્યેર",
+              "of piety"
+            ],
+            [
+              "લેશ",
+              "trace, shadow, iota"
+            ],
+            [
+              "પરેરે",
+              "to others"
+            ],
+            [
+              "ઉદ્બેગ",
+              "anxiety"
+            ],
+            [
+              "દિયાછિ",
+              "I have given"
+            ],
+            [
+              "યે",
+              "which"
+            ],
+            [
+              "કત",
+              "much"
+            ],
+            [
+              "દિયાછિ",
+              "I have given"
+            ],
+            [
+              "જીબેરે",
+              "to living beings"
+            ],
+            [
+              "ક્લેશ",
+              "misery, trouble, pain, sorrow"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "आमार जीबन,    सदा पापॆ रत,",
+            "नाहिक पुण्यॆर लॆश",
+            "परॆरॆ उद्बॆग,    दियाछि यॆ कत,",
+            "दियाछि जीबॆरॆ क्लॆश १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "আমার জীবন,    সদা পাপে রত,",
+            "নাহিক পুণ্যের লেশ",
+            "পরেরে উদ্বেগ,    দিয়াছি যে কত,",
+            "দিয়াছি জীবেরে ক্লেশ ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଆମାର ଜୀବନ,    ସଦା ପାପେ ରତ,",
+            "ନାହିକ ପୁଣ୍ୟେର ଲେଶ",
+            "ପରେରେ ଉଦ୍ବେଗ,    ଦିୟାଛି ଯେ କତ,",
+            "ଦିୟାଛି ଜୀବେରେ କ୍ଲେଶ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "આમાર જીબન,    સદા પાપે રત,",
+            "નાહિક પુણ્યેર લેશ",
+            "પરેરે ઉદ્બેગ,    દિયાછિ યે કત,",
+            "દિયાછિ જીબેરે ક્લેશ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "āmāra jībana,    sadā pāpe rata,",
+            "nāhika puṇyera leśa",
+            "parere udbega,    diyāchi ye kata,",
+            "diyāchi jībere kleśa 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಆಮಾರ ಜೀಬನ,    ಸದಾ ಪಾಪೆ ರತ,",
+            "ನಾಹಿಕ ಪುಣ್ಯೆರ ಲೆಶ",
+            "ಪರೆರೆ ಉದ್ಬೆಗ,    ದಿಯಾಛಿ ಯೆ ಕತ,",
+            "ದಿಯಾಛಿ ಜೀಬೆರೆ ಕ್ಲೆಶ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఆమార జీబన,    సదా పాపె రత,",
+            "నాహిక పుణ్యెర లెశ",
+            "పరెరె ఉద్బెగ,    దియాఛి యె కత,",
+            "దియాఛి జీబెరె క్లెశ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "а̄ма̄ра джӣбана,    сада̄ па̄пэ̆ рата,",
+            "на̄хика пун̣йэ̆ра лэ̆ш́а",
+            "парэ̆рэ̆ удбэ̆га,    дийа̄чхи йэ̆ ката,",
+            "дийа̄чхи джӣбэ̆рэ̆ клэ̆ш́а 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ആമാര ജീബന,    സദാ പാപെ രത,",
+            "നാഹിക പുണ്യെര ലെശ",
+            "പരെരെ ഉദ്ബെഗ,    ദിയാഛി യെ കത,",
+            "ദിയാഛി ജീബെരെ ക്ലെശ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஆமார ஜீப³ன,    ஸதா³ பாபெ ரத,",
+            "நாஹிக புண்யெர லெஶ",
+            "பரெரெ உத்³பெ³க³,    தி³யாசி² யெ கத,",
+            "தி³யாசி² ஜீபெ³ரெ க்லெஶ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "āmāra jībana,    sadā pāpe rata,",
+            "nāhika puṇyera leśa",
+            "parere udbega,    diyāchi ye kata,",
+            "diyāchi jībere kleśa 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "āmāra jībana,    sadā pāpe rata,",
+            "nāhika puṇyera leśa",
+            "parere udbega,    diyāchi ye kata,",
+            "diyāchi jībere kleśa 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "nija sukha lāgi’,    pāpe nāhi ḍari,",
+        "dayāhīna sbārthapara",
+        "para[FLAG_HYPHEN_ALPHA]sukhe duḥkhī,    sadā mithyābhāṣī,",
+        "paraduḥkha sukhakara 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "For the sake of my own pleasure, I am not afraid to commit any sin. Devoid of all compassion and full of selfishness, I feel sorrow at the happiness of others. I am an inveterate liar, and the misery of others delights me."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "nija",
+              "own"
+            ],
+            [
+              "sukha",
+              "pleasure, happiness"
+            ],
+            [
+              "lāgi’",
+              "for"
+            ],
+            [
+              "pāpe",
+              "in sinning"
+            ],
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "ḍari",
+              "I fear"
+            ],
+            [
+              "dayāhīna",
+              "compassion + devoid"
+            ],
+            [
+              "sbārthapara",
+              "selfish"
+            ],
+            [
+              "para",
+              "others"
+            ],
+            [
+              "sukhe",
+              "at the happiness"
+            ],
+            [
+              "duḥkhī",
+              "sad"
+            ],
+            [
+              "sadā",
+              "always"
+            ],
+            [
+              "mithyābhāṣī",
+              "lying, untruthful"
+            ],
+            [
+              "paraduḥkha",
+              "others + distress"
+            ],
+            [
+              "sukhakara",
+              "happy + makes"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "निज",
+              "own"
+            ],
+            [
+              "सुख",
+              "pleasure, happiness"
+            ],
+            [
+              "लागिऽ",
+              "for"
+            ],
+            [
+              "पापॆ",
+              "in sinning"
+            ],
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "डरि",
+              "I fear"
+            ],
+            [
+              "दयाहीन",
+              "compassion + devoid"
+            ],
+            [
+              "स्बार्थपर",
+              "selfish"
+            ],
+            [
+              "पर",
+              "others"
+            ],
+            [
+              "सुखॆ",
+              "at the happiness"
+            ],
+            [
+              "दुःखी",
+              "sad"
+            ],
+            [
+              "सदा",
+              "always"
+            ],
+            [
+              "मिथ्याभाषी",
+              "lying, untruthful"
+            ],
+            [
+              "परदुःख",
+              "others + distress"
+            ],
+            [
+              "सुखकर",
+              "happy + makes"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "নিজ",
+              "own"
+            ],
+            [
+              "সুখ",
+              "pleasure, happiness"
+            ],
+            [
+              "লাগিঽ",
+              "for"
+            ],
+            [
+              "পাপে",
+              "in sinning"
+            ],
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "ডরি",
+              "I fear"
+            ],
+            [
+              "দয়াহীন",
+              "compassion + devoid"
+            ],
+            [
+              "স্বার্থপর",
+              "selfish"
+            ],
+            [
+              "পর",
+              "others"
+            ],
+            [
+              "সুখে",
+              "at the happiness"
+            ],
+            [
+              "দুঃখী",
+              "sad"
+            ],
+            [
+              "সদা",
+              "always"
+            ],
+            [
+              "মিথ্যাভাষী",
+              "lying, untruthful"
+            ],
+            [
+              "পরদুঃখ",
+              "others + distress"
+            ],
+            [
+              "সুখকর",
+              "happy + makes"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "નિજ",
+              "own"
+            ],
+            [
+              "સુખ",
+              "pleasure, happiness"
+            ],
+            [
+              "લાગિઽ",
+              "for"
+            ],
+            [
+              "પાપે",
+              "in sinning"
+            ],
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "ડરિ",
+              "I fear"
+            ],
+            [
+              "દયાહીન",
+              "compassion + devoid"
+            ],
+            [
+              "સ્બાર્થપર",
+              "selfish"
+            ],
+            [
+              "પર",
+              "others"
+            ],
+            [
+              "સુખે",
+              "at the happiness"
+            ],
+            [
+              "દુઃખી",
+              "sad"
+            ],
+            [
+              "સદા",
+              "always"
+            ],
+            [
+              "મિથ્યાભાષી",
+              "lying, untruthful"
+            ],
+            [
+              "પરદુઃખ",
+              "others + distress"
+            ],
+            [
+              "સુખકર",
+              "happy + makes"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "निज सुख लागिऽ,    पापॆ नाहि डरि,",
+            "दयाहीन स्बार्थपर",
+            "परसुखॆ दुःखी,    सदा मिथ्याभाषी,",
+            "परदुःख सुखकर २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নিজ সুখ লাগিঽ,    পাপে নাহি ডরি,",
+            "দয়াহীন স্বার্থপর",
+            "পরসুখে দুঃখী,    সদা মিথ্যাভাষী,",
+            "পরদুঃখ সুখকর ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନିଜ ସୁଖ ଲାଗିଽ,    ପାପେ ନାହି ଡରି,",
+            "ଦୟାହୀନ ସ୍ବାର୍ଥପର",
+            "ପରସୁଖେ ଦୁଃଖୀ,    ସଦା ମିଥ୍ୟାଭାଷୀ,",
+            "ପରଦୁଃଖ ସୁଖକର ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નિજ સુખ લાગિઽ,    પાપે નાહિ ડરિ,",
+            "દયાહીન સ્બાર્થપર",
+            "પરસુખે દુઃખી,    સદા મિથ્યાભાષી,",
+            "પરદુઃખ સુખકર ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nija sukha lāgi’,    pāpe nāhi ḍari,",
+            "dayāhīna sbārthapara",
+            "para-sukhe duḥkhī,    sadā mithyābhāṣī,",
+            "paraduḥkha sukhakara 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಿಜ ಸುಖ ಲಾಗಿಽ,    ಪಾಪೆ ನಾಹಿ ಡರಿ,",
+            "ದಯಾಹೀನ ಸ್ಬಾರ್ಥಪರ",
+            "ಪರಸುಖೆ ದುಃಖೀ,    ಸದಾ ಮಿಥ್ಯಾಭಾಷೀ,",
+            "ಪರದುಃಖ ಸುಖಕರ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నిజ సుఖ లాగిఽ,    పాపె నాహి డరి,",
+            "దయాహీన స్బార్థపర",
+            "పరసుఖె దుఃఖీ,    సదా మిథ్యాభాషీ,",
+            "పరదుఃఖ సుఖకర 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ниджа сукха ла̄ги',    па̄пэ̆ на̄хи д̣ари,",
+            "дайа̄хӣна сба̄ртхапара",
+            "парасукхэ̆ дух̣кхӣ,    сада̄ митхйа̄бха̄шӣ,",
+            "парадух̣кха сукхакара 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നിജ സുഖ ലാഗിഽ,    പാപെ നാഹി ഡരി,",
+            "ദയാഹീന സ്ബാർഥപര",
+            "പരസുഖെ ദുഃഖീ,    സദാ മിഥ്യാഭാഷീ,",
+            "പരദുഃഖ സുഖകര 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நிஜ ஸுக² லாகி³(அ),    பாபெ நாஹி ட³ரி,",
+            "த³யாஹீன ஸ்பா³ர்த²பர",
+            "பரஸுகெ² து³꞉கீ²,    ஸதா³ மித்²யாபா⁴ஷீ,",
+            "பரது³꞉க² ஸுக²கர 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nija sukha lāgi’,    pāpe nāhi ḍari,",
+            "dayāhīna sbārthapara",
+            "para-sukhe duḥkhī,    sadā mithyābhāṣī,",
+            "paraduḥkha sukhakara 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nija sukha lāgi’,    pāpe nāhi ḍari,",
+            "dayāhīna sbārthapara",
+            "para-sukhe duḥkhī,    sadā mithyābhāṣī,",
+            "paraduḥkha sukhakara 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "aśeṣa kāmanā,    hṛdi mājhe mora,",
+        "krodhī dambhaparāyaṇa",
+        "madamatta sadā,    biṣaye mohita,",
+        "hiṁsā[FLAG_HYPHEN_ALPHA]garba[FLAG_HYPHEN_ALPHA]bibhūṣaṇa 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "There are unlimited material desires within my heart. I am full of anger and devoted to false pride. Indeed, I am always intoxicated by conceit and bewildered by mundane enjoyment. Envy and egotism are my ornaments."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "aśeṣa",
+              "endless"
+            ],
+            [
+              "kāmanā",
+              "desires"
+            ],
+            [
+              "hṛdi",
+              "heart"
+            ],
+            [
+              "mājhe",
+              "within"
+            ],
+            [
+              "mora",
+              "my"
+            ],
+            [
+              "krodhī",
+              "angry, hot-tempered"
+            ],
+            [
+              "dambhaparāyaṇa",
+              "vanity, pride, arrogance, haughtiness + devoted to, addicted to"
+            ],
+            [
+              "madamatta",
+              "vanity, pride, arrogance + mad, intoxicated"
+            ],
+            [
+              "sadā",
+              "always"
+            ],
+            [
+              "biṣaye",
+              "by enjoyment"
+            ],
+            [
+              "mohita",
+              "bewhildered"
+            ],
+            [
+              "hiṁsā",
+              "harming others, killing, malice, envy, jealousy"
+            ],
+            [
+              "garba",
+              "egotism"
+            ],
+            [
+              "bibhūṣaṇa",
+              "ornaments"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "अशॆष",
+              "endless"
+            ],
+            [
+              "कामना",
+              "desires"
+            ],
+            [
+              "ह्ड़्दि",
+              "heart"
+            ],
+            [
+              "माझॆ",
+              "within"
+            ],
+            [
+              "मॊर",
+              "my"
+            ],
+            [
+              "क्रॊधी",
+              "angry, hot-tempered"
+            ],
+            [
+              "दम्भपरायण",
+              "vanity, pride, arrogance, haughtiness + devoted to, addicted to"
+            ],
+            [
+              "मदमत्त",
+              "vanity, pride, arrogance + mad, intoxicated"
+            ],
+            [
+              "सदा",
+              "always"
+            ],
+            [
+              "बिषयॆ",
+              "by enjoyment"
+            ],
+            [
+              "मॊहित",
+              "bewhildered"
+            ],
+            [
+              "हिंसा",
+              "harming others, killing, malice, envy, jealousy"
+            ],
+            [
+              "गर्ब",
+              "egotism"
+            ],
+            [
+              "बिभूषण",
+              "ornaments"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "অশেষ",
+              "endless"
+            ],
+            [
+              "কামনা",
+              "desires"
+            ],
+            [
+              "হ্ড়্দি",
+              "heart"
+            ],
+            [
+              "মাঝে",
+              "within"
+            ],
+            [
+              "মোর",
+              "my"
+            ],
+            [
+              "ক্রোধী",
+              "angry, hot-tempered"
+            ],
+            [
+              "দম্ভপরায়ণ",
+              "vanity, pride, arrogance, haughtiness + devoted to, addicted to"
+            ],
+            [
+              "মদমত্ত",
+              "vanity, pride, arrogance + mad, intoxicated"
+            ],
+            [
+              "সদা",
+              "always"
+            ],
+            [
+              "বিষয়ে",
+              "by enjoyment"
+            ],
+            [
+              "মোহিত",
+              "bewhildered"
+            ],
+            [
+              "হিংসা",
+              "harming others, killing, malice, envy, jealousy"
+            ],
+            [
+              "গর্ব",
+              "egotism"
+            ],
+            [
+              "বিভূষণ",
+              "ornaments"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "અશેષ",
+              "endless"
+            ],
+            [
+              "કામના",
+              "desires"
+            ],
+            [
+              "હ્ડ઼્દિ",
+              "heart"
+            ],
+            [
+              "માઝે",
+              "within"
+            ],
+            [
+              "મોર",
+              "my"
+            ],
+            [
+              "ક્રોધી",
+              "angry, hot-tempered"
+            ],
+            [
+              "દમ્ભપરાયણ",
+              "vanity, pride, arrogance, haughtiness + devoted to, addicted to"
+            ],
+            [
+              "મદમત્ત",
+              "vanity, pride, arrogance + mad, intoxicated"
+            ],
+            [
+              "સદા",
+              "always"
+            ],
+            [
+              "બિષયે",
+              "by enjoyment"
+            ],
+            [
+              "મોહિત",
+              "bewhildered"
+            ],
+            [
+              "હિંસા",
+              "harming others, killing, malice, envy, jealousy"
+            ],
+            [
+              "ગર્બ",
+              "egotism"
+            ],
+            [
+              "બિભૂષણ",
+              "ornaments"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अशॆष कामना,    ह्ड़्दि माझॆ मॊर,",
+            "क्रॊधी दम्भपरायण",
+            "मदमत्त सदा,    बिषयॆ मॊहित,",
+            "हिंसागर्बबिभूषण ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অশেষ কামনা,    হ্ড়্দি মাঝে মোর,",
+            "ক্রোধী দম্ভপরায়ণ",
+            "মদমত্ত সদা,    বিষয়ে মোহিত,",
+            "হিংসাগর্ববিভূষণ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅଶେଷ କାମନା,    ହ୍ଡ଼୍ଦି ମାଝେ ମୋର,",
+            "କ୍ରୋଧୀ ଦମ୍ଭପରାୟଣ",
+            "ମଦମତ୍ତ ସଦା,    ବିଷୟେ ମୋହିତ,",
+            "ହିଂସାଗର୍ବବିଭୂଷଣ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અશેષ કામના,    હ્ડ઼્દિ માઝે મોર,",
+            "ક્રોધી દમ્ભપરાયણ",
+            "મદમત્ત સદા,    બિષયે મોહિત,",
+            "હિંસાગર્બબિભૂષણ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "aśeṣa kāmanā,    hṛdi mājhe mora,",
+            "krodhī dambhaparāyaṇa",
+            "madamatta sadā,    biṣaye mohita,",
+            "hiṁsā-garba-bibhūṣaṇa 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅಶೆಷ ಕಾಮನಾ,    ಹ್‌ಡ಼್ದಿ ಮಾಝೆ ಮೊರ,",
+            "ಕ್ರೊಧೀ ದಂಭಪರಾಯಣ",
+            "ಮದಮತ್ತ ಸದಾ,    ಬಿಷಯೆ ಮೊಹಿತ,",
+            "ಹಿಂಸಾಗರ್ಬಬಿಭೂಷಣ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అశెష కామనా,    హ్డ్ది మాఝె మొర,",
+            "క్రొధీ దంభపరాయణ",
+            "మదమత్త సదా,    బిషయె మొహిత,",
+            "హింసాగర్బబిభూషణ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "аш́э̆ша ка̄мана̄,    хр̤ди ма̄джхэ̆ мо̆ра,",
+            "кро̆дхӣ дамбхапара̄йан̣а",
+            "мадаматта сада̄,    бишайэ̆ мо̆хита,",
+            "хим̣са̄гарбабибхӯшан̣а 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അശെഷ കാമനാ,    ഹ്ഡ്ദി മാഝെ മൊര,",
+            "ക്രൊധീ ദംഭപരായണ",
+            "മദമത്ത സദാ,    ബിഷയെ മൊഹിത,",
+            "ഹിംസാഗർബബിഭൂഷണ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அஶெஷ காமனா,    ஹ்ஃட்²தி³ மாஜெ² மொர,",
+            "க்ரொதீ⁴ த³ம்ப⁴பராயண",
+            "மத³மத்த ஸதா³,    பி³ஷயெ மொஹித,",
+            "ஹிம்ʼஸாக³ர்ப³பி³பூ⁴ஷண 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "aśeṣa kāmanā,    hṛdi mājhe mora,",
+            "krodhī dambhaparāyaṇa",
+            "madamatta sadā,    biṣaye mohita,",
+            "hiṁsā-garba-bibhūṣaṇa 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "aśeṣa kāmanā,    hṛdi mājhe mora,",
+            "krodhī dambhaparāyaṇa",
+            "madamatta sadā,    biṣaye mohita,",
+            "hiṁsā-garba-bibhūṣaṇa 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "nidrālasya[FLAG_HYPHEN_ALPHA]hata,    sukārye birata,",
+        "akārye udyogī āmi",
+        "pratiṣṭhā lāgiyā,    śāṭhya ācaraṇa,",
+        "lobhahata sadā kāmī 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Plagued by indolence, I am disinclined to perform pious work, but I am enthusiastic to undertake forbidden deeds. For want of prestige, I behave most duplicitously. I have been destroyed by greed and am always filled with desire."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "nidrālasya",
+              "indolence, lethargy"
+            ],
+            [
+              "hata",
+              "ruined, spoiled"
+            ],
+            [
+              "sukārye",
+              "pious deeds"
+            ],
+            [
+              "birata",
+              "desisting from"
+            ],
+            [
+              "akārye",
+              "misdeed"
+            ],
+            [
+              "udyogī",
+              "endeavoring, assiduous, ready for"
+            ],
+            [
+              "āmi",
+              "I"
+            ],
+            [
+              "pratiṣṭhā",
+              "(sammān) prestige (respect)"
+            ],
+            [
+              "lāgiyā",
+              "for the sake"
+            ],
+            [
+              "śāṭhya",
+              "(vañcanā) duplicitous, dishonest (deception, deceit)"
+            ],
+            [
+              "ācaraṇa",
+              "behavior"
+            ],
+            [
+              "lobhahata",
+              "greed + destroyed"
+            ],
+            [
+              "sadā",
+              "always"
+            ],
+            [
+              "kāmī",
+              "lustful, desirous"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "निद्रालस्य",
+              "indolence, lethargy"
+            ],
+            [
+              "हत",
+              "ruined, spoiled"
+            ],
+            [
+              "सुकार्यॆ",
+              "pious deeds"
+            ],
+            [
+              "बिरत",
+              "desisting from"
+            ],
+            [
+              "अकार्यॆ",
+              "misdeed"
+            ],
+            [
+              "उद्यॊगी",
+              "endeavoring, assiduous, ready for"
+            ],
+            [
+              "आमि",
+              "I"
+            ],
+            [
+              "प्रतिष्ठा",
+              "(sammān) prestige (respect)"
+            ],
+            [
+              "लागिया",
+              "for the sake"
+            ],
+            [
+              "शाठ्य",
+              "(vañcanā) duplicitous, dishonest (deception, deceit)"
+            ],
+            [
+              "आचरण",
+              "behavior"
+            ],
+            [
+              "लॊभहत",
+              "greed + destroyed"
+            ],
+            [
+              "सदा",
+              "always"
+            ],
+            [
+              "कामी",
+              "lustful, desirous"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "নিদ্রালস্য",
+              "indolence, lethargy"
+            ],
+            [
+              "হত",
+              "ruined, spoiled"
+            ],
+            [
+              "সুকার্যে",
+              "pious deeds"
+            ],
+            [
+              "বিরত",
+              "desisting from"
+            ],
+            [
+              "অকার্যে",
+              "misdeed"
+            ],
+            [
+              "উদ্যোগী",
+              "endeavoring, assiduous, ready for"
+            ],
+            [
+              "আমি",
+              "I"
+            ],
+            [
+              "প্রতিষ্ঠা",
+              "(sammān) prestige (respect)"
+            ],
+            [
+              "লাগিয়া",
+              "for the sake"
+            ],
+            [
+              "শাঠ্য",
+              "(vañcanā) duplicitous, dishonest (deception, deceit)"
+            ],
+            [
+              "আচরণ",
+              "behavior"
+            ],
+            [
+              "লোভহত",
+              "greed + destroyed"
+            ],
+            [
+              "সদা",
+              "always"
+            ],
+            [
+              "কামী",
+              "lustful, desirous"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "નિદ્રાલસ્ય",
+              "indolence, lethargy"
+            ],
+            [
+              "હત",
+              "ruined, spoiled"
+            ],
+            [
+              "સુકાર્યે",
+              "pious deeds"
+            ],
+            [
+              "બિરત",
+              "desisting from"
+            ],
+            [
+              "અકાર્યે",
+              "misdeed"
+            ],
+            [
+              "ઉદ્યોગી",
+              "endeavoring, assiduous, ready for"
+            ],
+            [
+              "આમિ",
+              "I"
+            ],
+            [
+              "પ્રતિષ્ઠા",
+              "(sammān) prestige (respect)"
+            ],
+            [
+              "લાગિયા",
+              "for the sake"
+            ],
+            [
+              "શાઠ્ય",
+              "(vañcanā) duplicitous, dishonest (deception, deceit)"
+            ],
+            [
+              "આચરણ",
+              "behavior"
+            ],
+            [
+              "લોભહત",
+              "greed + destroyed"
+            ],
+            [
+              "સદા",
+              "always"
+            ],
+            [
+              "કામી",
+              "lustful, desirous"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "निद्रालस्यहत,    सुकार्यॆ बिरत,",
+            "अकार्यॆ उद्यॊगी आमि",
+            "प्रतिष्ठा लागिया,    शाठ्य आचरण,",
+            "लॊभहत सदा कामी ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নিদ্রালস্যহত,    সুকার্যে বিরত,",
+            "অকার্যে উদ্যোগী আমি",
+            "প্রতিষ্ঠা লাগিয়া,    শাঠ্য আচরণ,",
+            "লোভহত সদা কামী ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନିଦ୍ରାଲସ୍ୟହତ,    ସୁକାର୍ୟେ ବିରତ,",
+            "ଅକାର୍ୟେ ଉଦ୍ୟୋଗୀ ଆମି",
+            "ପ୍ରତିଷ୍ଠା ଲାଗିୟା,    ଶାଠ୍ୟ ଆଚରଣ,",
+            "ଲୋଭହତ ସଦା କାମୀ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નિદ્રાલસ્યહત,    સુકાર્યે બિરત,",
+            "અકાર્યે ઉદ્યોગી આમિ",
+            "પ્રતિષ્ઠા લાગિયા,    શાઠ્ય આચરણ,",
+            "લોભહત સદા કામી ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nidrālasya-hata,    sukārye birata,",
+            "akārye udyogī āmi",
+            "pratiṣṭhā lāgiyā,    śāṭhya ācaraṇa,",
+            "lobhahata sadā kāmī 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಿದ್ರಾಲಸ್ಯಹತ,    ಸುಕಾರ್ಯೆ ಬಿರತ,",
+            "ಅಕಾರ್ಯೆ ಉದ್ಯೊಗೀ ಆಮಿ",
+            "ಪ್ರತಿಷ್ಠಾ ಲಾಗಿಯಾ,    ಶಾಠ್ಯ ಆಚರಣ,",
+            "ಲೊಭಹತ ಸದಾ ಕಾಮೀ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నిద్రాలస్యహత,    సుకార్యె బిరత,",
+            "అకార్యె ఉద్యొగీ ఆమి",
+            "ప్రతిష్ఠా లాగియా,    శాఠ్య ఆచరణ,",
+            "లొభహత సదా కామీ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "нидра̄ласйахата,    сука̄рйэ̆ бирата,",
+            "ака̄рйэ̆ удйо̆гӣ а̄ми",
+            "пратишт̣ха̄ ла̄гийа̄,    ш́а̄т̣хйа а̄чаран̣а,",
+            "ло̆бхахата сада̄ ка̄мӣ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നിദ്രാലസ്യഹത,    സുകാര്യെ ബിരത,",
+            "അകാര്യെ ഉദ്യൊഗീ ആമി",
+            "പ്രതിഷ്ഠാ ലാഗിയാ,    ശാഠ്യ ആചരണ,",
+            "ലൊഭഹത സദാ കാമീ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நித்³ராலஸ்யஹத,    ஸுகார்யெ பி³ரத,",
+            "அகார்யெ உத்³யொகீ³ ஆமி",
+            "ப்ரதிஷ்டா² லாகி³யா,    ஶாட்²ய ஆசரண,",
+            "லொப⁴ஹத ஸதா³ காமீ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nidrālasya-hata,    sukārye birata,",
+            "akārye udyogī āmi",
+            "pratiṣṭhā lāgiyā,    śāṭhya ācaraṇa,",
+            "lobhahata sadā kāmī 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nidrālasya-hata,    sukārye birata,",
+            "akārye udyogī āmi",
+            "pratiṣṭhā lāgiyā,    śāṭhya ācaraṇa,",
+            "lobhahata sadā kāmī 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "e hena durjana,    sajjana[FLAG_HYPHEN_ALPHA]barjita,",
+        "aparādhī nirantara",
+        "śubhakāryaśūnya,    sadānarthamanā,",
+        "nānā duḥkhe jara jara 5"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Being such a miscreant and being rejected by saintly persons, I am a perpetual offender. Devoid of good deeds and habituated to vice, I am oppressed by various miseries."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "e",
+              "this"
+            ],
+            [
+              "hena",
+              "such"
+            ],
+            [
+              "durjana",
+              "miscreant"
+            ],
+            [
+              "sajjana",
+              "saintly people"
+            ],
+            [
+              "barjita",
+              "rejected"
+            ],
+            [
+              "aparādhī",
+              "offender"
+            ],
+            [
+              "nirantara",
+              "perpetual"
+            ],
+            [
+              "śubhakāryaśūnya",
+              "good + deeds + devoid"
+            ],
+            [
+              "sadānarthamanā",
+              "always + vice + devoted, attached"
+            ],
+            [
+              "nānā",
+              "various"
+            ],
+            [
+              "duḥkhe",
+              "by miseries"
+            ],
+            [
+              "jara jara",
+              "very much oppressed or stricken with"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "ऎ",
+              "this"
+            ],
+            [
+              "हॆन",
+              "such"
+            ],
+            [
+              "दुर्जन",
+              "miscreant"
+            ],
+            [
+              "सज्जन",
+              "saintly people"
+            ],
+            [
+              "बर्जित",
+              "rejected"
+            ],
+            [
+              "अपराधी",
+              "offender"
+            ],
+            [
+              "निरन्तर",
+              "perpetual"
+            ],
+            [
+              "शुभकार्यशून्य",
+              "good + deeds + devoid"
+            ],
+            [
+              "सदानर्थमना",
+              "always + vice + devoted, attached"
+            ],
+            [
+              "नाना",
+              "various"
+            ],
+            [
+              "दुःखॆ",
+              "by miseries"
+            ],
+            [
+              "जर जर",
+              "very much oppressed or stricken with"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "এ",
+              "this"
+            ],
+            [
+              "হেন",
+              "such"
+            ],
+            [
+              "দুর্জন",
+              "miscreant"
+            ],
+            [
+              "সজ্জন",
+              "saintly people"
+            ],
+            [
+              "বর্জিত",
+              "rejected"
+            ],
+            [
+              "অপরাধী",
+              "offender"
+            ],
+            [
+              "নিরন্তর",
+              "perpetual"
+            ],
+            [
+              "শুভকার্যশূন্য",
+              "good + deeds + devoid"
+            ],
+            [
+              "সদানর্থমনা",
+              "always + vice + devoted, attached"
+            ],
+            [
+              "নানা",
+              "various"
+            ],
+            [
+              "দুঃখে",
+              "by miseries"
+            ],
+            [
+              "জর জর",
+              "very much oppressed or stricken with"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "એ",
+              "this"
+            ],
+            [
+              "હેન",
+              "such"
+            ],
+            [
+              "દુર્જન",
+              "miscreant"
+            ],
+            [
+              "સજ્જન",
+              "saintly people"
+            ],
+            [
+              "બર્જિત",
+              "rejected"
+            ],
+            [
+              "અપરાધી",
+              "offender"
+            ],
+            [
+              "નિરન્તર",
+              "perpetual"
+            ],
+            [
+              "શુભકાર્યશૂન્ય",
+              "good + deeds + devoid"
+            ],
+            [
+              "સદાનર્થમના",
+              "always + vice + devoted, attached"
+            ],
+            [
+              "નાના",
+              "various"
+            ],
+            [
+              "દુઃખે",
+              "by miseries"
+            ],
+            [
+              "જર જર",
+              "very much oppressed or stricken with"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎ हॆन दुर्जन,    सज्जनबर्जित,",
+            "अपराधी निरन्तर",
+            "शुभकार्यशून्य,    सदानर्थमना,",
+            "नाना दुःखॆ जर जर ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এ হেন দুর্জন,    সজ্জনবর্জিত,",
+            "অপরাধী নিরন্তর",
+            "শুভকার্যশূন্য,    সদানর্থমনা,",
+            "নানা দুঃখে জর জর ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏ ହେନ ଦୁର୍ଜନ,    ସଜ୍ଜନବର୍ଜିତ,",
+            "ଅପରାଧୀ ନିରନ୍ତର",
+            "ଶୁଭକାର୍ୟଶୂନ୍ୟ,    ସଦାନର୍ଥମନା,",
+            "ନାନା ଦୁଃଖେ ଜର ଜର ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એ હેન દુર્જન,    સજ્જનબર્જિત,",
+            "અપરાધી નિરન્તર",
+            "શુભકાર્યશૂન્ય,    સદાનર્થમના,",
+            "નાના દુઃખે જર જર ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "e hena durjana,    sajjana-barjita,",
+            "aparādhī nirantara",
+            "śubhakāryaśūnya,    sadānarthamanā,",
+            "nānā duḥkhe jara jara 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎ ಹೆನ ದುರ್ಜನ,    ಸಜ್ಜನಬರ್ಜಿತ,",
+            "ಅಪರಾಧೀ ನಿರಂತರ",
+            "ಶುಭಕಾರ್ಯಶೂನ್ಯ,    ಸದಾನರ್ಥಮನಾ,",
+            "ನಾನಾ ದುಃಖೆ ಜರ ಜರ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎ హెన దుర్జన,    సజ్జనబర్జిత,",
+            "అపరాధీ నిరంతర",
+            "శుభకార్యశూన్య,    సదానర్థమనా,",
+            "నానా దుఃఖె జర జర 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆ хэ̆на дурджана,    саджджанабарджита,",
+            "апара̄дхӣ нирантара",
+            "ш́убхака̄рйаш́ӯнйа,    сада̄нартхамана̄,",
+            "на̄на̄ дух̣кхэ̆ джара джара 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എ ഹെന ദുർജന,    സജ്ജനബർജിത,",
+            "അപരാധീ നിരന്തര",
+            "ശുഭകാര്യശൂന്യ,    സദാനർഥമനാ,",
+            "നാനാ ദുഃഖെ ജര ജര 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எ ஹென து³ர்ஜன,    ஸஜ்ஜனப³ர்ஜித,",
+            "அபராதீ⁴ நிரந்தர",
+            "ஶுப⁴கார்யஶூன்ய,    ஸதா³னர்த²மனா,",
+            "நானா து³꞉கெ² ஜர ஜர 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "e hena durjana,    sajjana-barjita,",
+            "aparādhī nirantara",
+            "śubhakāryaśūnya,    sadānarthamanā,",
+            "nānā duḥkhe jara jara 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "e hena durjana,    sajjana-barjita,",
+            "aparādhī nirantara",
+            "śubhakāryaśūnya,    sadānarthamanā,",
+            "nānā duḥkhe jara jara 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "bārdhakye ekhana,    upāyabihīna,",
+        "tā’te dīna akiñcana",
+        "bhakatibinoda,    prabhura caraṇe,",
+        "kare duḥkha nibedana 6"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Now, in old age, I am deprived of any remedy. Thus, the humbled and poor Bhaktivinoda submits his sorrows at the feet of the Lord."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bārdhakye",
+              "in old age"
+            ],
+            [
+              "ekhana",
+              "now"
+            ],
+            [
+              "upāyabihīna",
+              "remedy, a means to relieve or help + deprived, without"
+            ],
+            [
+              "tā’te",
+              "by that"
+            ],
+            [
+              "dīna",
+              "humbled"
+            ],
+            [
+              "akiñcana",
+              "(saṅgati-śūnya) poor (without wealth, property)"
+            ],
+            [
+              "bhakatibinoda",
+              "Bhaktivinoda"
+            ],
+            [
+              "prabhura",
+              "Lord’s"
+            ],
+            [
+              "caraṇe",
+              "at feet"
+            ],
+            [
+              "kare",
+              "makes"
+            ],
+            [
+              "duḥkha",
+              "sorrow"
+            ],
+            [
+              "nibedana",
+              "submission"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "बार्धक्यॆ",
+              "in old age"
+            ],
+            [
+              "ऎखन",
+              "now"
+            ],
+            [
+              "उपायबिहीन",
+              "remedy, a means to relieve or help + deprived, without"
+            ],
+            [
+              "ताऽतॆ",
+              "by that"
+            ],
+            [
+              "दीन",
+              "humbled"
+            ],
+            [
+              "अकिञ्चन",
+              "(saṅgati-śūnya) poor (without wealth, property)"
+            ],
+            [
+              "भकतिबिनॊद",
+              "Bhaktivinoda"
+            ],
+            [
+              "प्रभुर",
+              "Lord’s"
+            ],
+            [
+              "चरणॆ",
+              "at feet"
+            ],
+            [
+              "करॆ",
+              "makes"
+            ],
+            [
+              "दुःख",
+              "sorrow"
+            ],
+            [
+              "निबॆदन",
+              "submission"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "বার্ধক্যে",
+              "in old age"
+            ],
+            [
+              "এখন",
+              "now"
+            ],
+            [
+              "উপায়বিহীন",
+              "remedy, a means to relieve or help + deprived, without"
+            ],
+            [
+              "তাঽতে",
+              "by that"
+            ],
+            [
+              "দীন",
+              "humbled"
+            ],
+            [
+              "অকিঞ্চন",
+              "(saṅgati-śūnya) poor (without wealth, property)"
+            ],
+            [
+              "ভকতিবিনোদ",
+              "Bhaktivinoda"
+            ],
+            [
+              "প্রভুর",
+              "Lord’s"
+            ],
+            [
+              "চরণে",
+              "at feet"
+            ],
+            [
+              "করে",
+              "makes"
+            ],
+            [
+              "দুঃখ",
+              "sorrow"
+            ],
+            [
+              "নিবেদন",
+              "submission"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "બાર્ધક્યે",
+              "in old age"
+            ],
+            [
+              "એખન",
+              "now"
+            ],
+            [
+              "ઉપાયબિહીન",
+              "remedy, a means to relieve or help + deprived, without"
+            ],
+            [
+              "તાઽતે",
+              "by that"
+            ],
+            [
+              "દીન",
+              "humbled"
+            ],
+            [
+              "અકિઞ્ચન",
+              "(saṅgati-śūnya) poor (without wealth, property)"
+            ],
+            [
+              "ભકતિબિનોદ",
+              "Bhaktivinoda"
+            ],
+            [
+              "પ્રભુર",
+              "Lord’s"
+            ],
+            [
+              "ચરણે",
+              "at feet"
+            ],
+            [
+              "કરે",
+              "makes"
+            ],
+            [
+              "દુઃખ",
+              "sorrow"
+            ],
+            [
+              "નિબેદન",
+              "submission"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बार्धक्यॆ ऎखन,    उपायबिहीन,",
+            "ताऽतॆ दीन अकिञ्चन",
+            "भकतिबिनॊद,    प्रभुर चरणॆ,",
+            "करॆ दुःख निबॆदन ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বার্ধক্যে এখন,    উপায়বিহীন,",
+            "তাঽতে দীন অকিঞ্চন",
+            "ভকতিবিনোদ,    প্রভুর চরণে,",
+            "করে দুঃখ নিবেদন ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବାର୍ଧକ୍ୟେ ଏଖନ,    ଉପାୟବିହୀନ,",
+            "ତାଽତେ ଦୀନ ଅକିଞ୍ଚନ",
+            "ଭକତିବିନୋଦ,    ପ୍ରଭୁର ଚରଣେ,",
+            "କରେ ଦୁଃଖ ନିବେଦନ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બાર્ધક્યે એખન,    ઉપાયબિહીન,",
+            "તાઽતે દીન અકિઞ્ચન",
+            "ભકતિબિનોદ,    પ્રભુર ચરણે,",
+            "કરે દુઃખ નિબેદન ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bārdhakye ekhana,    upāyabihīna,",
+            "tā’te dīna akiñcana",
+            "bhakatibinoda,    prabhura caraṇe,",
+            "kare duḥkha nibedana 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಾರ್ಧಕ್ಯೆ ಎಖನ,    ಉಪಾಯಬಿಹೀನ,",
+            "ತಾಽತೆ ದೀನ ಅಕಿಂಚನ",
+            "ಭಕತಿಬಿನೊದ,    ಪ್ರಭುರ ಚರಣೆ,",
+            "ಕರೆ ದುಃಖ ನಿಬೆದನ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బార్ధక్యె ఎఖన,    ఉపాయబిహీన,",
+            "తాఽతె దీన అకించన",
+            "భకతిబినొద,    ప్రభుర చరణె,",
+            "కరె దుఃఖ నిబెదన 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ба̄рдхакйэ̆ э̆кхана,    упа̄йабихӣна,",
+            "та̄'тэ̆ дӣна акин̃чана",
+            "бхакатибино̆да,    прабхура чаран̣э̆,",
+            "карэ̆ дух̣кха нибэ̆дана 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബാർധക്യെ എഖന,    ഉപായബിഹീന,",
+            "താഽതെ ദീന അകിഞ്ചന",
+            "ഭകതിബിനൊദ,    പ്രഭുര ചരണെ,",
+            "കരെ ദുഃഖ നിബെദന 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பா³ர்த⁴க்யெ எக²ன,    உபாயபி³ஹீன,",
+            "தா(அ)தெ தீ³ன அகிஞ்சன",
+            "ப⁴கதிபி³னொத³,    ப்ரபு⁴ர சரணெ,",
+            "கரெ து³꞉க² நிபெ³த³ன 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bārdhakye ekhana,    upāyabihīna,",
+            "tā’te dīna akiñcana",
+            "bhakatibinoda,    prabhura caraṇe,",
+            "kare duḥkha nibedana 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bārdhakye ekhana,    upāyabihīna,",
+            "tā’te dīna akiñcana",
+            "bhakatibinoda,    prabhura caraṇe,",
+            "kare duḥkha nibedana 6"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "(৬)"
+    },
+    {
+      "language_code": "ben",
+      "text": "দৈন্য—অপরাধাত্মক"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "krsn-1",
+      "filename": "S7-krsn-1.mp3",
+      "artist": "Krsnadas das"
+    },
+    {
+      "uid": "srrb-1",
+      "filename": "S7-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    }
+  ],
+  "tags": [
+    "Dainya (Humility)"
+  ]
+}

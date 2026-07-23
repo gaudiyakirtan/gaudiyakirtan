@@ -45,11 +45,6 @@ module.exports = {
         'background-offset': 'var(--background-offset)',
         border: 'var(--border)',
         neutral: 'var(--neutral)',
-        
-        // Debug colors
-        'debug-red': '#ff0000',
-        'debug-green': '#00ff00',
-        'debug-blue': '#0000ff',
       },
     },
   },

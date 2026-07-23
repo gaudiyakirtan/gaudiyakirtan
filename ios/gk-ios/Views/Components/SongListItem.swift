@@ -1,22 +1,29 @@
 import SwiftUI
 
 struct SongListItem: View {
-    let song: Song
-    
+    let entry: ManifestEntry
+    /// App-wide settings (injected at the app root). Read here so the row title honors the
+    /// `listLanguage` setting (settings.md — "which script titles appear in lists").
+    @EnvironmentObject private var settings: ReaderSettings
+
+    private var authorName: String {
+        SongRepository.shared.authorDisplayName(forUid: entry.authorUid)
+    }
+
     var body: some View {
         // Use NavigationLink for navigation
-        NavigationLink(destination: SongView(song: song)) {
+        NavigationLink(destination: SongDetailLoader(uid: entry.uid)) {
             HStack {
                 // Main content
                 VStack(alignment: .leading, spacing: 4) {
                     // Title and UID row
                     HStack(alignment: .center, spacing: 8) {
-                        Text(song.title)
+                        Text(entry.title(inScript: settings.listLanguage))
                             .font(.system(size: 14))
                             .foregroundColor(Color("primaryText"))
                             .lineLimit(1)
-                        
-                        Text(song.uid)
+
+                        Text(entry.uid)
                             .font(.system(size: 10, weight: .medium))
                             .foregroundColor(Color.neutral)
                             .padding(.horizontal, 10)
@@ -25,23 +32,23 @@ struct SongListItem: View {
                             .cornerRadius(11)
                             .lineLimit(1)
                             .fixedSize()
-                        
+
                         Spacer()
                     }
-                    
+
                     // Author and audio icon
                     HStack(spacing: 6) {
-                        Text(song.author)
+                        Text(authorName)
                             .font(.system(size: 14))
                             .foregroundColor(Color.neutral)
                             .lineLimit(1)
-                        
-                        if song.audio {
+
+                        if entry.audioAvailable {
                             Image(systemName: "music.note")
                                 .font(.system(size: 12))
                                 .foregroundColor(Color.neutral)
                         }
-                        
+
                         Spacer()
                     }
                 }

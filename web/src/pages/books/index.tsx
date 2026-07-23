@@ -2,21 +2,20 @@ import React from 'react'
 import { GetStaticProps } from 'next'
 import Head from 'next/head'
 import { useRouter } from 'next/router'
-import { IBook } from '../../models/Book'
-import { sampleBooks } from '../../data/sampleData'
+import { ISongGroup } from '../../models/Collections'
+import { getSongGroups } from '../../services'
 import { BooksSection } from '../../components/BooksSection'
+import { EmptyState } from '../../components/ui/EmptyState'
+import { BooksIcon } from '../../components/icons/SidebarIcons'
 
 interface BooksPageProps {
-  books: IBook[]
+  books: ISongGroup[]
 }
 
 const BooksPage: React.FC<BooksPageProps> = ({ books }) => {
   const router = useRouter()
-
-  const handleBookClick = (book: IBook) => {
-    // Navigate to book detail page (to be implemented)
-    console.log('Navigate to book:', book.id)
-    // router.push(`/books/${book.id}`)
+  const handleBookClick = (book: ISongGroup) => {
+    router.push(`/books/${book.uid}`)
   }
 
   return (
@@ -27,24 +26,34 @@ const BooksPage: React.FC<BooksPageProps> = ({ books }) => {
       </Head>
 
       <div className="w-full max-w-screen-lg mx-auto pb-12">
-        <BooksSection 
-          books={books}
-          title="Books"
-          onBookClick={handleBookClick}
-          gridLayout={true}
-        />
+        {books.length > 0 ? (
+          <BooksSection books={books} title="Books" onBookClick={handleBookClick} />
+        ) : (
+          <>
+            <div className="px-4 py-4">
+              <h1 className="text-xl font-bold text-[var(--primary)]">Books</h1>
+            </div>
+            {/* No book groupings ship in the corpus yet (docs/data/collections.md) - a tasteful
+                empty state, never fabricated rows (docs/screens/browse.md). This lights up
+                automatically once song_groups.json ships book entries. */}
+            <EmptyState
+              icon={<BooksIcon />}
+              title="No books yet"
+              message="Published songbooks will appear here once the corpus ships book groupings."
+            />
+          </>
+        )}
       </div>
     </>
   )
 }
 
-export const getStaticProps: GetStaticProps = async () => {
-  // In a real app, fetch books from an API
+export const getStaticProps: GetStaticProps<BooksPageProps> = async () => {
+  // No book groupings are shipped in the corpus yet - see services/songGroupRepository.ts.
   return {
     props: {
-      books: sampleBooks
+      books: getSongGroups('book'),
     },
-    revalidate: 60 * 60 // Revalidate every hour
   }
 }
 

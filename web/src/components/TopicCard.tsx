@@ -1,31 +1,27 @@
 import React from 'react'
-import { ITopic } from '../models/Topic'
+import { ISongGroup } from '../models/Collections'
 import { getMediaColor, isColorDark } from '../utils/colors'
-import { Tag } from './ui/Tag'
+import { pickScriptText } from '../services/textDisplay'
+import { useSettings } from '../utils/SettingsContext'
 
 interface TopicCardProps {
-  topic: ITopic
+  topic: ISongGroup
   onClick?: () => void
-  songCount?: number
   className?: string
 }
 
-export const TopicCard: React.FC<TopicCardProps> = ({ 
-  topic, 
-  onClick, 
-  songCount,
-  className = "",
-}) => {
-  const bgColor = getMediaColor(topic.name)
+export const TopicCard: React.FC<TopicCardProps> = ({ topic, onClick, className = '' }) => {
+  const { settings } = useSettings()
+  // Title in the reader's List-language; color seed stays on the fixed Latin title (see BookCard).
+  const title = pickScriptText(topic.titles, [settings.listLanguage, 'Latn', 'Beng'])
+  const bgColor = topic.color || getMediaColor(pickScriptText(topic.titles, ['Latn', 'Beng']))
   const isDark = isColorDark(bgColor)
   const textColor = isDark ? 'text-white' : 'text-black'
 
-  // Use background color but allow the container to adapt to parent dimensions
-  // with different styles based on grid/horizontal mode
-  const containerStyle = { 
+  const containerStyle = {
     backgroundColor: bgColor,
     width: '100%',
-    height: '100%'
+    height: '100%',
   }
 
   return (
@@ -35,24 +31,26 @@ export const TopicCard: React.FC<TopicCardProps> = ({
       onClick={onClick}
     >
       <div className="flex flex-col justify-between w-full h-full p-4">
-        <div className="">
+        <div>
           <p
             className={`text-base font-bold ${textColor} text-left line-clamp-2`}
-            style={{ lineHeight: "1.2" }}
+            style={{ lineHeight: '1.2' }}
           >
-            {topic.name}
+            {title}
           </p>
         </div>
 
-        {/* Song count badge at the bottom */}
-        {songCount !== undefined && (
+        {/* Real song count from songUids - never a fabricated placeholder number */}
+        {topic.songUids.length > 0 && (
           <div className="mt-auto">
             <span className="px-2.5 py-1 text-xs rounded-full bg-white/30 text-white">
-              {songCount}{" songs"}
+              {topic.songUids.length} songs
             </span>
           </div>
         )}
       </div>
     </div>
-  );
+  )
 }
+
+export default TopicCard

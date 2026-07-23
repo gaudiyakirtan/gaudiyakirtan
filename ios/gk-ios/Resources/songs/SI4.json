@@ -1,0 +1,2346 @@
+{
+  "uid": "SI4",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "প্রভু! তব পদযুগে মোর নিবেদন"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "prabhu! taba padayuge mora nibedana"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "prabhu! taba padayuge mora nibedana",
+        "nāhi māgi deha[FLAG_HYPHEN_ALPHA]sukha, bidyā, dhana, jana 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O Lord, I submit my humble entreaty at Your lotus feet. I do not pray for physical pleasures, knowledge, wealth, or followers."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "prabhu",
+              "O Lord"
+            ],
+            [
+              "taba",
+              "Your"
+            ],
+            [
+              "padayuge",
+              "feet + at the two"
+            ],
+            [
+              "mora",
+              "my"
+            ],
+            [
+              "nibedana",
+              "humble submission, entreaty"
+            ],
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "māgi",
+              "I beg, ask for, pray for"
+            ],
+            [
+              "deha",
+              "body"
+            ],
+            [
+              "sukha",
+              "pleasure"
+            ],
+            [
+              "bidyā",
+              "knowledge"
+            ],
+            [
+              "dhana",
+              "wealth"
+            ],
+            [
+              "jana",
+              "followers"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "प्रभु",
+              "O Lord"
+            ],
+            [
+              "तब",
+              "Your"
+            ],
+            [
+              "पदयुगॆ",
+              "feet + at the two"
+            ],
+            [
+              "मॊर",
+              "my"
+            ],
+            [
+              "निबॆदन",
+              "humble submission, entreaty"
+            ],
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "मागि",
+              "I beg, ask for, pray for"
+            ],
+            [
+              "दॆह",
+              "body"
+            ],
+            [
+              "सुख",
+              "pleasure"
+            ],
+            [
+              "बिद्या",
+              "knowledge"
+            ],
+            [
+              "धन",
+              "wealth"
+            ],
+            [
+              "जन",
+              "followers"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "প্রভু",
+              "O Lord"
+            ],
+            [
+              "তব",
+              "Your"
+            ],
+            [
+              "পদয়ুগে",
+              "feet + at the two"
+            ],
+            [
+              "মোর",
+              "my"
+            ],
+            [
+              "নিবেদন",
+              "humble submission, entreaty"
+            ],
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "মাগি",
+              "I beg, ask for, pray for"
+            ],
+            [
+              "দেহ",
+              "body"
+            ],
+            [
+              "সুখ",
+              "pleasure"
+            ],
+            [
+              "বিদ্যা",
+              "knowledge"
+            ],
+            [
+              "ধন",
+              "wealth"
+            ],
+            [
+              "জন",
+              "followers"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "પ્રભુ",
+              "O Lord"
+            ],
+            [
+              "તબ",
+              "Your"
+            ],
+            [
+              "પદયુગે",
+              "feet + at the two"
+            ],
+            [
+              "મોર",
+              "my"
+            ],
+            [
+              "નિબેદન",
+              "humble submission, entreaty"
+            ],
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "માગિ",
+              "I beg, ask for, pray for"
+            ],
+            [
+              "દેહ",
+              "body"
+            ],
+            [
+              "સુખ",
+              "pleasure"
+            ],
+            [
+              "બિદ્યા",
+              "knowledge"
+            ],
+            [
+              "ધન",
+              "wealth"
+            ],
+            [
+              "જન",
+              "followers"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "प्रभु! तब पदयुगॆ मॊर निबॆदन",
+            "नाहि मागि दॆहसुख, बिद्या, धन, जन १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "প্রভু! তব পদয়ুগে মোর নিবেদন",
+            "নাহি মাগি দেহসুখ, বিদ্যা, ধন, জন ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ପ୍ରଭୁ! ତବ ପଦୟୁଗେ ମୋର ନିବେଦନ",
+            "ନାହି ମାଗି ଦେହସୁଖ, ବିଦ୍ୟା, ଧନ, ଜନ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "પ્રભુ! તબ પદયુગે મોર નિબેદન",
+            "નાહિ માગિ દેહસુખ, બિદ્યા, ધન, જન ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "prabhu! taba padayuge mora nibedana",
+            "nāhi māgi deha-sukha, bidyā, dhana, jana 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಪ್ರಭು! ತಬ ಪದಯುಗೆ ಮೊರ ನಿಬೆದನ",
+            "ನಾಹಿ ಮಾಗಿ ದೆಹಸುಖ, ಬಿದ್ಯಾ, ಧನ, ಜನ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ప్రభు! తబ పదయుగె మొర నిబెదన",
+            "నాహి మాగి దెహసుఖ, బిద్యా, ధన, జన 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "прабху! таба падайугэ̆ мо̆ра нибэ̆дана",
+            "на̄хи ма̄ги дэ̆хасукха, бидйа̄, дхана, джана 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "പ്രഭു! തബ പദയുഗെ മൊര നിബെദന",
+            "നാഹി മാഗി ദെഹസുഖ, ബിദ്യാ, ധന, ജന 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப்ரபு⁴! தப³ பத³யுகெ³ மொர நிபெ³த³ன",
+            "நாஹி மாகி³ தெ³ஹஸுக², பி³த்³யா, த⁴ன, ஜன 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "prabhu! taba padayuge mora nibedana",
+            "nāhi māgi deha-sukha, bidyā, dhana, jana 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "prabhu! taba padayuge mora nibedana",
+            "nāhi māgi deha-sukha, bidyā, dhana, jana 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "nāhi māgi sbarga, āra mokṣa nāhi māgi",
+        "nā kari prārthanā kona bibhūtira lāgi 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I seek neither heaven nor salvation, nor do I pray for any kind of opulence."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "māgi",
+              "I beg, ask for, pray for"
+            ],
+            [
+              "sbarga",
+              "heaven"
+            ],
+            [
+              "āra",
+              "and"
+            ],
+            [
+              "mokṣa",
+              "salvation"
+            ],
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "māgi",
+              "I beg, ask for, pray for"
+            ],
+            [
+              "nā",
+              "no"
+            ],
+            [
+              "kari prārthanā",
+              "I pray"
+            ],
+            [
+              "kona",
+              "any"
+            ],
+            [
+              "bibhūtira",
+              "of prosperity, wealth"
+            ],
+            [
+              "lāgi",
+              "for"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "मागि",
+              "I beg, ask for, pray for"
+            ],
+            [
+              "स्बर्ग",
+              "heaven"
+            ],
+            [
+              "आर",
+              "and"
+            ],
+            [
+              "मॊक्ष",
+              "salvation"
+            ],
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "मागि",
+              "I beg, ask for, pray for"
+            ],
+            [
+              "ना",
+              "no"
+            ],
+            [
+              "करि प्रार्थना",
+              "I pray"
+            ],
+            [
+              "कॊन",
+              "any"
+            ],
+            [
+              "बिभूतिर",
+              "of prosperity, wealth"
+            ],
+            [
+              "लागि",
+              "for"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "মাগি",
+              "I beg, ask for, pray for"
+            ],
+            [
+              "স্বর্গ",
+              "heaven"
+            ],
+            [
+              "আর",
+              "and"
+            ],
+            [
+              "মোক্ষ",
+              "salvation"
+            ],
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "মাগি",
+              "I beg, ask for, pray for"
+            ],
+            [
+              "না",
+              "no"
+            ],
+            [
+              "করি প্রার্থনা",
+              "I pray"
+            ],
+            [
+              "কোন",
+              "any"
+            ],
+            [
+              "বিভূতির",
+              "of prosperity, wealth"
+            ],
+            [
+              "লাগি",
+              "for"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "માગિ",
+              "I beg, ask for, pray for"
+            ],
+            [
+              "સ્બર્ગ",
+              "heaven"
+            ],
+            [
+              "આર",
+              "and"
+            ],
+            [
+              "મોક્ષ",
+              "salvation"
+            ],
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "માગિ",
+              "I beg, ask for, pray for"
+            ],
+            [
+              "ના",
+              "no"
+            ],
+            [
+              "કરિ પ્રાર્થના",
+              "I pray"
+            ],
+            [
+              "કોન",
+              "any"
+            ],
+            [
+              "બિભૂતિર",
+              "of prosperity, wealth"
+            ],
+            [
+              "લાગિ",
+              "for"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "नाहि मागि स्बर्ग, आर मॊक्ष नाहि मागि",
+            "ना करि प्रार्थना कॊन बिभूतिर लागि २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নাহি মাগি স্বর্গ, আর মোক্ষ নাহি মাগি",
+            "না করি প্রার্থনা কোন বিভূতির লাগি ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନାହି ମାଗି ସ୍ବର୍ଗ, ଆର ମୋକ୍ଷ ନାହି ମାଗି",
+            "ନା କରି ପ୍ରାର୍ଥନା କୋନ ବିଭୂତିର ଲାଗି ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નાહિ માગિ સ્બર્ગ, આર મોક્ષ નાહિ માગિ",
+            "ના કરિ પ્રાર્થના કોન બિભૂતિર લાગિ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nāhi māgi sbarga, āra mokṣa nāhi māgi",
+            "nā kari prārthanā kona bibhūtira lāgi 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಾಹಿ ಮಾಗಿ ಸ್ಬರ್ಗ, ಆರ ಮೊಕ್ಷ ನಾಹಿ ಮಾಗಿ",
+            "ನಾ ಕರಿ ಪ್ರಾರ್ಥನಾ ಕೊನ ಬಿಭೂತಿರ ಲಾಗಿ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నాహి మాగి స్బర్గ, ఆర మొక్ష నాహి మాగి",
+            "నా కరి ప్రార్థనా కొన బిభూతిర లాగి 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "на̄хи ма̄ги сбарга, а̄ра мо̆кша на̄хи ма̄ги",
+            "на̄ кари пра̄ртхана̄ ко̆на бибхӯтира ла̄ги 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നാഹി മാഗി സ്ബർഗ, ആര മൊക്ഷ നാഹി മാഗി",
+            "നാ കരി പ്രാർഥനാ കൊന ബിഭൂതിര ലാഗി 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நாஹி மாகி³ ஸ்ப³ர்க³, ஆர மொக்ஷ நாஹி மாகி³",
+            "நா கரி ப்ரார்த²னா கொன பி³பூ⁴திர லாகி³ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nāhi māgi sbarga, āra mokṣa nāhi māgi",
+            "nā kari prārthanā kona bibhūtira lāgi 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nāhi māgi sbarga, āra mokṣa nāhi māgi",
+            "nā kari prārthanā kona bibhūtira lāgi 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "nija[FLAG_HYPHEN_ALPHA]karma[FLAG_HYPHEN_ALPHA]guṇa[FLAG_HYPHEN_ALPHA]doṣe ye ye[FLAG_HYPHEN_ALPHA]janma pāi",
+        "janme janme yena taba nāma[FLAG_HYPHEN_ALPHA]guṇa gāi 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Whatever birth I attain by the merits and faults of my karma, may I, birth after birth, sing the glories of Your holy name."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "nija",
+              "my own"
+            ],
+            [
+              "karma",
+              "actions"
+            ],
+            [
+              "guṇa",
+              "merits"
+            ],
+            [
+              "doṣe",
+              "by faults"
+            ],
+            [
+              "ye ye",
+              "whatever"
+            ],
+            [
+              "janma",
+              "birth"
+            ],
+            [
+              "pāi",
+              "I attain"
+            ],
+            [
+              "janme janme",
+              "birth after birth"
+            ],
+            [
+              "yena",
+              "by which"
+            ],
+            [
+              "taba",
+              "Your"
+            ],
+            [
+              "nāma",
+              "name"
+            ],
+            [
+              "guṇa",
+              "qualities, glories"
+            ],
+            [
+              "gāi",
+              "I sing"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "निज",
+              "my own"
+            ],
+            [
+              "कर्म",
+              "actions"
+            ],
+            [
+              "गुण",
+              "merits"
+            ],
+            [
+              "दॊषॆ",
+              "by faults"
+            ],
+            [
+              "यॆ यॆ",
+              "whatever"
+            ],
+            [
+              "जन्म",
+              "birth"
+            ],
+            [
+              "पाइ",
+              "I attain"
+            ],
+            [
+              "जन्मॆ जन्मॆ",
+              "birth after birth"
+            ],
+            [
+              "यॆन",
+              "by which"
+            ],
+            [
+              "तब",
+              "Your"
+            ],
+            [
+              "नाम",
+              "name"
+            ],
+            [
+              "गुण",
+              "qualities, glories"
+            ],
+            [
+              "गाइ",
+              "I sing"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "নিজ",
+              "my own"
+            ],
+            [
+              "কর্ম",
+              "actions"
+            ],
+            [
+              "গুণ",
+              "merits"
+            ],
+            [
+              "দোষে",
+              "by faults"
+            ],
+            [
+              "যে যে",
+              "whatever"
+            ],
+            [
+              "জন্ম",
+              "birth"
+            ],
+            [
+              "পাই",
+              "I attain"
+            ],
+            [
+              "জন্মে জন্মে",
+              "birth after birth"
+            ],
+            [
+              "যেন",
+              "by which"
+            ],
+            [
+              "তব",
+              "Your"
+            ],
+            [
+              "নাম",
+              "name"
+            ],
+            [
+              "গুণ",
+              "qualities, glories"
+            ],
+            [
+              "গাই",
+              "I sing"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "નિજ",
+              "my own"
+            ],
+            [
+              "કર્મ",
+              "actions"
+            ],
+            [
+              "ગુણ",
+              "merits"
+            ],
+            [
+              "દોષે",
+              "by faults"
+            ],
+            [
+              "યે યે",
+              "whatever"
+            ],
+            [
+              "જન્મ",
+              "birth"
+            ],
+            [
+              "પાઇ",
+              "I attain"
+            ],
+            [
+              "જન્મે જન્મે",
+              "birth after birth"
+            ],
+            [
+              "યેન",
+              "by which"
+            ],
+            [
+              "તબ",
+              "Your"
+            ],
+            [
+              "નામ",
+              "name"
+            ],
+            [
+              "ગુણ",
+              "qualities, glories"
+            ],
+            [
+              "ગાઇ",
+              "I sing"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "निजकर्मगुणदॊषॆ यॆ यॆजन्म पाइ",
+            "जन्मॆ जन्मॆ यॆन तब नामगुण गाइ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নিজকর্মগুণদোষে যে যেজন্ম পাই",
+            "জন্মে জন্মে যেন তব নামগুণ গাই ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନିଜକର୍ମଗୁଣଦୋଷେ ଯେ ଯେଜନ୍ମ ପାଇ",
+            "ଜନ୍ମେ ଜନ୍ମେ ଯେନ ତବ ନାମଗୁଣ ଗାଇ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નિજકર્મગુણદોષે યે યેજન્મ પાઇ",
+            "જન્મે જન્મે યેન તબ નામગુણ ગાઇ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nija-karma-guṇa-doṣe ye ye-janma pāi",
+            "janme janme yena taba nāma-guṇa gāi 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಿಜಕರ್ಮಗುಣದೊಷೆ ಯೆ ಯೆಜನ್ಮ ಪಾಇ",
+            "ಜನ್ಮೆ ಜನ್ಮೆ ಯೆನ ತಬ ನಾಮಗುಣ ಗಾಇ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నిజకర్మగుణదొషె యె యెజన్మ పాఇ",
+            "జన్మె జన్మె యెన తబ నామగుణ గాఇ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ниджакармагун̣адо̆шэ̆ йэ̆ йэ̆джанма па̄и",
+            "джанмэ̆ джанмэ̆ йэ̆на таба на̄магун̣а га̄и 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നിജകർമഗുണദൊഷെ യെ യെജന്മ പാഇ",
+            "ജന്മെ ജന്മെ യെന തബ നാമഗുണ ഗാഇ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நிஜகர்மகு³ணதொ³ஷெ யெ யெஜன்ம பாஇ",
+            "ஜன்மெ ஜன்மெ யென தப³ நாமகு³ண கா³இ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nija-karma-guṇa-doṣe ye ye-janma pāi",
+            "janme janme yena taba nāma-guṇa gāi 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nija-karma-guṇa-doṣe ye ye-janma pāi",
+            "janme janme yena taba nāma-guṇa gāi 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "eimātra āśā mama, tomāra caraṇe",
+        "ahaitukī bhakti hṛde jāge anukṣaṇe 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "My only hope is that ahaitukī-bhakti (unmotivated devotion) for Your lotus feet awakens in my heart at every moment."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "eimātra",
+              "this + only"
+            ],
+            [
+              "āśā",
+              "hope"
+            ],
+            [
+              "mama",
+              "my"
+            ],
+            [
+              "tomāra",
+              "Your"
+            ],
+            [
+              "caraṇe",
+              "at feet"
+            ],
+            [
+              "ahaitukī",
+              "unmotivated"
+            ],
+            [
+              "bhakti",
+              "devotion"
+            ],
+            [
+              "hṛde",
+              "in heart"
+            ],
+            [
+              "jāge",
+              "awakens"
+            ],
+            [
+              "anukṣaṇe",
+              "at every moment"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "ऎइमात्र",
+              "this + only"
+            ],
+            [
+              "आशा",
+              "hope"
+            ],
+            [
+              "मम",
+              "my"
+            ],
+            [
+              "तॊमार",
+              "Your"
+            ],
+            [
+              "चरणॆ",
+              "at feet"
+            ],
+            [
+              "अहैतुकी",
+              "unmotivated"
+            ],
+            [
+              "भक्ति",
+              "devotion"
+            ],
+            [
+              "ह्ड़्दॆ",
+              "in heart"
+            ],
+            [
+              "जागॆ",
+              "awakens"
+            ],
+            [
+              "अनुक्षणॆ",
+              "at every moment"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "এইমাত্র",
+              "this + only"
+            ],
+            [
+              "আশা",
+              "hope"
+            ],
+            [
+              "মম",
+              "my"
+            ],
+            [
+              "তোমার",
+              "Your"
+            ],
+            [
+              "চরণে",
+              "at feet"
+            ],
+            [
+              "অহৈতুকী",
+              "unmotivated"
+            ],
+            [
+              "ভক্তি",
+              "devotion"
+            ],
+            [
+              "হ্ড়্দে",
+              "in heart"
+            ],
+            [
+              "জাগে",
+              "awakens"
+            ],
+            [
+              "অনুক্ষণে",
+              "at every moment"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "એઇમાત્ર",
+              "this + only"
+            ],
+            [
+              "આશા",
+              "hope"
+            ],
+            [
+              "મમ",
+              "my"
+            ],
+            [
+              "તોમાર",
+              "Your"
+            ],
+            [
+              "ચરણે",
+              "at feet"
+            ],
+            [
+              "અહૈતુકી",
+              "unmotivated"
+            ],
+            [
+              "ભક્તિ",
+              "devotion"
+            ],
+            [
+              "હ્ડ઼્દે",
+              "in heart"
+            ],
+            [
+              "જાગે",
+              "awakens"
+            ],
+            [
+              "અનુક્ષણે",
+              "at every moment"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎइमात्र आशा मम, तॊमार चरणॆ",
+            "अहैतुकी भक्ति ह्ड़्दॆ जागॆ अनुक्षणॆ ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এইমাত্র আশা মম, তোমার চরণে",
+            "অহৈতুকী ভক্তি হ্ড়্দে জাগে অনুক্ষণে ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏଇମାତ୍ର ଆଶା ମମ, ତୋମାର ଚରଣେ",
+            "ଅହୈତୁକୀ ଭକ୍ତି ହ୍ଡ଼୍ଦେ ଜାଗେ ଅନୁକ୍ଷଣେ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એઇમાત્ર આશા મમ, તોમાર ચરણે",
+            "અહૈતુકી ભક્તિ હ્ડ઼્દે જાગે અનુક્ષણે ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "eimātra āśā mama, tomāra caraṇe",
+            "ahaitukī bhakti hṛde jāge anukṣaṇe 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎಇಮಾತ್ರ ಆಶಾ ಮಮ, ತೊಮಾರ ಚರಣೆ",
+            "ಅಹೈತುಕೀ ಭಕ್ತಿ ಹ್‌ಡ಼್ದೆ ಜಾಗೆ ಅನುಕ್ಷಣೆ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎఇమాత్ర ఆశా మమ, తొమార చరణె",
+            "అహైతుకీ భక్తి హ్డ్దె జాగె అనుక్షణె 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆има̄тра а̄ш́а̄ мама, то̆ма̄ра чаран̣э̆",
+            "ахаитукӣ бхакти хр̤дэ̆ джа̄гэ̆ анукшан̣э̆ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എഇമാത്ര ആശാ മമ, തൊമാര ചരണെ",
+            "അഹൈതുകീ ഭക്തി ഹ്ഡ്ദെ ജാഗെ അനുക്ഷണെ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எஇமாத்ர ஆஶா மம, தொமார சரணெ",
+            "அஹைதுகீ ப⁴க்தி ஹ்ஃட்²தெ³ ஜாகெ³ அனுக்ஷணெ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "eimātra āśā mama, tomāra caraṇe",
+            "ahaitukī bhakti hṛde jāge anukṣaṇe 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "eimātra āśā mama, tomāra caraṇe",
+            "ahaitukī bhakti hṛde jāge anukṣaṇe 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "biṣaye ye prīti ebe āchaye āmāra",
+        "sei mata prīti ha·uka, caraṇe tomāra 5"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Whatever attraction I now have for worldly pleasures, may I develop such attraction for Your feet."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "biṣaye",
+              "for worldly enjoyment"
+            ],
+            [
+              "ye",
+              "that"
+            ],
+            [
+              "prīti",
+              "attachment, love"
+            ],
+            [
+              "ebe",
+              "now"
+            ],
+            [
+              "āchaye",
+              "there is"
+            ],
+            [
+              "āmāra",
+              "mine (I have)"
+            ],
+            [
+              "sei",
+              "that"
+            ],
+            [
+              "mata",
+              "way, like"
+            ],
+            [
+              "prīti",
+              "attachment, love"
+            ],
+            [
+              "ha·uka",
+              "may it be"
+            ],
+            [
+              "caraṇe",
+              "at feet"
+            ],
+            [
+              "tomāra",
+              "Your"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "बिषयॆ",
+              "for worldly enjoyment"
+            ],
+            [
+              "यॆ",
+              "that"
+            ],
+            [
+              "प्रीति",
+              "attachment, love"
+            ],
+            [
+              "ऎबॆ",
+              "now"
+            ],
+            [
+              "आछयॆ",
+              "there is"
+            ],
+            [
+              "आमार",
+              "mine (I have)"
+            ],
+            [
+              "सॆइ",
+              "that"
+            ],
+            [
+              "मत",
+              "way, like"
+            ],
+            [
+              "प्रीति",
+              "attachment, love"
+            ],
+            [
+              "हउक",
+              "may it be"
+            ],
+            [
+              "चरणॆ",
+              "at feet"
+            ],
+            [
+              "तॊमार",
+              "Your"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "বিষয়ে",
+              "for worldly enjoyment"
+            ],
+            [
+              "যে",
+              "that"
+            ],
+            [
+              "প্রীতি",
+              "attachment, love"
+            ],
+            [
+              "এবে",
+              "now"
+            ],
+            [
+              "আছয়ে",
+              "there is"
+            ],
+            [
+              "আমার",
+              "mine (I have)"
+            ],
+            [
+              "সেই",
+              "that"
+            ],
+            [
+              "মত",
+              "way, like"
+            ],
+            [
+              "প্রীতি",
+              "attachment, love"
+            ],
+            [
+              "হউক",
+              "may it be"
+            ],
+            [
+              "চরণে",
+              "at feet"
+            ],
+            [
+              "তোমার",
+              "Your"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "બિષયે",
+              "for worldly enjoyment"
+            ],
+            [
+              "યે",
+              "that"
+            ],
+            [
+              "પ્રીતિ",
+              "attachment, love"
+            ],
+            [
+              "એબે",
+              "now"
+            ],
+            [
+              "આછયે",
+              "there is"
+            ],
+            [
+              "આમાર",
+              "mine (I have)"
+            ],
+            [
+              "સેઇ",
+              "that"
+            ],
+            [
+              "મત",
+              "way, like"
+            ],
+            [
+              "પ્રીતિ",
+              "attachment, love"
+            ],
+            [
+              "હઉક",
+              "may it be"
+            ],
+            [
+              "ચરણે",
+              "at feet"
+            ],
+            [
+              "તોમાર",
+              "Your"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बिषयॆ यॆ प्रीति ऎबॆ आछयॆ आमार",
+            "सॆइ मत प्रीति हउक, चरणॆ तॊमार ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বিষয়ে যে প্রীতি এবে আছয়ে আমার",
+            "সেই মত প্রীতি হউক, চরণে তোমার ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବିଷୟେ ଯେ ପ୍ରୀତି ଏବେ ଆଛୟେ ଆମାର",
+            "ସେଇ ମତ ପ୍ରୀତି ହଉକ, ଚରଣେ ତୋମାର ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બિષયે યે પ્રીતિ એબે આછયે આમાર",
+            "સેઇ મત પ્રીતિ હઉક, ચરણે તોમાર ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "biṣaye ye prīti ebe āchaye āmāra",
+            "sei mata prīti ha·uka, caraṇe tomāra 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಿಷಯೆ ಯೆ ಪ್ರೀತಿ ಎಬೆ ಆಛಯೆ ಆಮಾರ",
+            "ಸೆಇ ಮತ ಪ್ರೀತಿ ಹಉಕ, ಚರಣೆ ತೊಮಾರ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బిషయె యె ప్రీతి ఎబె ఆఛయె ఆమార",
+            "సెఇ మత ప్రీతి హఉక, చరణె తొమార 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бишайэ̆ йэ̆ прӣти э̆бэ̆ а̄чхайэ̆ а̄ма̄ра",
+            "сэ̆и мата прӣти хаука, чаран̣э̆ то̆ма̄ра 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബിഷയെ യെ പ്രീതി എബെ ആഛയെ ആമാര",
+            "സെഇ മത പ്രീതി ഹഉക, ചരണെ തൊമാര 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பி³ஷயெ யெ ப்ரீதி எபெ³ ஆச²யெ ஆமார",
+            "ஸெஇ மத ப்ரீதி ஹஉக, சரணெ தொமார 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "biṣaye ye prīti ebe āchaye āmāra",
+            "sei mata prīti ha·uka, caraṇe tomāra 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "biṣaye ye prīti ebe āchaye āmāra",
+            "sei mata prīti ha·uka, caraṇe tomāra 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "bipade sampade tāhā thākuka samabhābe",
+        "dine dine bṛddhi ha·uka nāmera prabhābe 6"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "In adversity or prosperity, may that attraction remain steady. Day after day, may it grow by the influence of the holy name."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bipade",
+              "in adversity"
+            ],
+            [
+              "sampade",
+              "in prosperity"
+            ],
+            [
+              "tāhā",
+              "that"
+            ],
+            [
+              "thākuka",
+              "may remain"
+            ],
+            [
+              "samabhābe",
+              "same + in way"
+            ],
+            [
+              "dine dine",
+              "day after day"
+            ],
+            [
+              "bṛddhi ha·uka",
+              "may it grow, increase"
+            ],
+            [
+              "nāmera",
+              "of the holy name"
+            ],
+            [
+              "prabhābe",
+              "by influence"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "बिपदॆ",
+              "in adversity"
+            ],
+            [
+              "सम्पदॆ",
+              "in prosperity"
+            ],
+            [
+              "ताहा",
+              "that"
+            ],
+            [
+              "थाकुक",
+              "may remain"
+            ],
+            [
+              "समभाबॆ",
+              "same + in way"
+            ],
+            [
+              "दिनॆ दिनॆ",
+              "day after day"
+            ],
+            [
+              "ब्ड़्द्धि हउक",
+              "may it grow, increase"
+            ],
+            [
+              "नामॆर",
+              "of the holy name"
+            ],
+            [
+              "प्रभाबॆ",
+              "by influence"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "বিপদে",
+              "in adversity"
+            ],
+            [
+              "সম্পদে",
+              "in prosperity"
+            ],
+            [
+              "তাহা",
+              "that"
+            ],
+            [
+              "থাকুক",
+              "may remain"
+            ],
+            [
+              "সমভাবে",
+              "same + in way"
+            ],
+            [
+              "দিনে দিনে",
+              "day after day"
+            ],
+            [
+              "ব্ড়্দ্ধি হউক",
+              "may it grow, increase"
+            ],
+            [
+              "নামের",
+              "of the holy name"
+            ],
+            [
+              "প্রভাবে",
+              "by influence"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "બિપદે",
+              "in adversity"
+            ],
+            [
+              "સમ્પદે",
+              "in prosperity"
+            ],
+            [
+              "તાહા",
+              "that"
+            ],
+            [
+              "થાકુક",
+              "may remain"
+            ],
+            [
+              "સમભાબે",
+              "same + in way"
+            ],
+            [
+              "દિને દિને",
+              "day after day"
+            ],
+            [
+              "બ્ડ઼્દ્ધિ હઉક",
+              "may it grow, increase"
+            ],
+            [
+              "નામેર",
+              "of the holy name"
+            ],
+            [
+              "પ્રભાબે",
+              "by influence"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बिपदॆ सम्पदॆ ताहा थाकुक समभाबॆ",
+            "दिनॆ दिनॆ ब्ड़्द्धि हउक नामॆर प्रभाबॆ ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বিপদে সম্পদে তাহা থাকুক সমভাবে",
+            "দিনে দিনে ব্ড়্দ্ধি হউক নামের প্রভাবে ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବିପଦେ ସମ୍ପଦେ ତାହା ଥାକୁକ ସମଭାବେ",
+            "ଦିନେ ଦିନେ ବ୍ଡ଼୍ଦ୍ଧି ହଉକ ନାମେର ପ୍ରଭାବେ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બિપદે સમ્પદે તાહા થાકુક સમભાબે",
+            "દિને દિને બ્ડ઼્દ્ધિ હઉક નામેર પ્રભાબે ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bipade sampade tāhā thākuka samabhābe",
+            "dine dine bṛddhi ha·uka nāmera prabhābe 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಿಪದೆ ಸಂಪದೆ ತಾಹಾ ಥಾಕುಕ ಸಮಭಾಬೆ",
+            "ದಿನೆ ದಿನೆ ಬ್‌ಡ಼್ದ್ಧಿ ಹಉಕ ನಾಮೆರ ಪ್ರಭಾಬೆ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బిపదె సంపదె తాహా థాకుక సమభాబె",
+            "దినె దినె బ్డ్ద్ధి హఉక నామెర ప్రభాబె 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бипадэ̆ сампадэ̆ та̄ха̄ тха̄кука самабха̄бэ̆",
+            "динэ̆ динэ̆ бр̤ддхи хаука на̄мэ̆ра прабха̄бэ̆ 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബിപദെ സമ്പദെ താഹാ ഥാകുക സമഭാബെ",
+            "ദിനെ ദിനെ ബ്ഡ്ദ്ധി ഹഉക നാമെര പ്രഭാബെ 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பி³பதெ³ ஸம்பதெ³ தாஹா தா²குக ஸமபா⁴பெ³",
+            "தி³னெ தி³னெ ப்³ஃட்²த்³தி⁴ ஹஉக நாமெர ப்ரபா⁴பெ³ 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bipade sampade tāhā thākuka samabhābe",
+            "dine dine bṛddhi ha·uka nāmera prabhābe 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bipade sampade tāhā thākuka samabhābe",
+            "dine dine bṛddhi ha·uka nāmera prabhābe 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "paśupakṣī haye thāki sbarge bā niraye",
+        "taba bhakti rahu bhaktibinoda[FLAG_HYPHEN_ALPHA]hṛdaye 7"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Be I a bird or a beast, in heaven or in hell, may bhakti to You remain perpetually within the heart of this Bhaktivinoda."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "paśupakṣī",
+              "animal + bird"
+            ],
+            [
+              "haye",
+              "having become"
+            ],
+            [
+              "thāki",
+              "I stay"
+            ],
+            [
+              "sbarge",
+              "in heaven"
+            ],
+            [
+              "bā",
+              "or"
+            ],
+            [
+              "niraye",
+              "in hell"
+            ],
+            [
+              "taba",
+              "Your (to You)"
+            ],
+            [
+              "bhakti",
+              "devotion"
+            ],
+            [
+              "rahu",
+              "remain"
+            ],
+            [
+              "bhaktibinoda",
+              "Bhaktivinoda"
+            ],
+            [
+              "hṛdaye",
+              "in the heart"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "पशुपक्षी",
+              "animal + bird"
+            ],
+            [
+              "हयॆ",
+              "having become"
+            ],
+            [
+              "थाकि",
+              "I stay"
+            ],
+            [
+              "स्बर्गॆ",
+              "in heaven"
+            ],
+            [
+              "बा",
+              "or"
+            ],
+            [
+              "निरयॆ",
+              "in hell"
+            ],
+            [
+              "तब",
+              "Your (to You)"
+            ],
+            [
+              "भक्ति",
+              "devotion"
+            ],
+            [
+              "रहु",
+              "remain"
+            ],
+            [
+              "भक्तिबिनॊद",
+              "Bhaktivinoda"
+            ],
+            [
+              "ह्ड़्दयॆ",
+              "in the heart"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "পশুপক্ষী",
+              "animal + bird"
+            ],
+            [
+              "হয়ে",
+              "having become"
+            ],
+            [
+              "থাকি",
+              "I stay"
+            ],
+            [
+              "স্বর্গে",
+              "in heaven"
+            ],
+            [
+              "বা",
+              "or"
+            ],
+            [
+              "নিরয়ে",
+              "in hell"
+            ],
+            [
+              "তব",
+              "Your (to You)"
+            ],
+            [
+              "ভক্তি",
+              "devotion"
+            ],
+            [
+              "রহু",
+              "remain"
+            ],
+            [
+              "ভক্তিবিনোদ",
+              "Bhaktivinoda"
+            ],
+            [
+              "হ্ড়্দয়ে",
+              "in the heart"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "પશુપક્ષી",
+              "animal + bird"
+            ],
+            [
+              "હયે",
+              "having become"
+            ],
+            [
+              "થાકિ",
+              "I stay"
+            ],
+            [
+              "સ્બર્ગે",
+              "in heaven"
+            ],
+            [
+              "બા",
+              "or"
+            ],
+            [
+              "નિરયે",
+              "in hell"
+            ],
+            [
+              "તબ",
+              "Your (to You)"
+            ],
+            [
+              "ભક્તિ",
+              "devotion"
+            ],
+            [
+              "રહુ",
+              "remain"
+            ],
+            [
+              "ભક્તિબિનોદ",
+              "Bhaktivinoda"
+            ],
+            [
+              "હ્ડ઼્દયે",
+              "in the heart"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "पशुपक्षी हयॆ थाकि स्बर्गॆ बा निरयॆ",
+            "तब भक्ति रहु भक्तिबिनॊदह्ड़्दयॆ ७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "পশুপক্ষী হয়ে থাকি স্বর্গে বা নিরয়ে",
+            "তব ভক্তি রহু ভক্তিবিনোদহ্ড়্দয়ে ৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ପଶୁପକ୍ଷୀ ହୟେ ଥାକି ସ୍ବର୍ଗେ ବା ନିରୟେ",
+            "ତବ ଭକ୍ତି ରହୁ ଭକ୍ତିବିନୋଦହ୍ଡ଼୍ଦୟେ ୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "પશુપક્ષી હયે થાકિ સ્બર્ગે બા નિરયે",
+            "તબ ભક્તિ રહુ ભક્તિબિનોદહ્ડ઼્દયે ૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "paśupakṣī haye thāki sbarge bā niraye",
+            "taba bhakti rahu bhaktibinoda-hṛdaye 7"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಪಶುಪಕ್ಷೀ ಹಯೆ ಥಾಕಿ ಸ್ಬರ್ಗೆ ಬಾ ನಿರಯೆ",
+            "ತಬ ಭಕ್ತಿ ರಹು ಭಕ್ತಿಬಿನೊದಹ್‌ಡ಼್ದಯೆ ೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "పశుపక్షీ హయె థాకి స్బర్గె బా నిరయె",
+            "తబ భక్తి రహు భక్తిబినొదహ్డ్దయె 7"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "паш́упакшӣ хайэ̆ тха̄ки сбаргэ̆ ба̄ нирайэ̆",
+            "таба бхакти раху бхактибино̆дахр̤дайэ̆ 7"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "പശുപക്ഷീ ഹയെ ഥാകി സ്ബർഗെ ബാ നിരയെ",
+            "തബ ഭക്തി രഹു ഭക്തിബിനൊദഹ്ഡ്ദയെ 7"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பஶுபக்ஷீ ஹயெ தா²கி ஸ்ப³ர்கெ³ பா³ நிரயெ",
+            "தப³ ப⁴க்தி ரஹு ப⁴க்திபி³னொத³ஹ்ஃட்²த³யெ 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "paśupakṣī haye thāki sbarge bā niraye",
+            "taba bhakti rahu bhaktibinoda-hṛdaye 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "paśupakṣī haye thāki sbarge bā niraye",
+            "taba bhakti rahu bhaktibinoda-hṛdaye 7"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "ন ধনং ন জনং সুন্দরীং"
+    },
+    {
+      "language_code": "ben",
+      "text": "কবিতাং বা জগদীশ কাময়ে ।"
+    },
+    {
+      "language_code": "ben",
+      "text": "মম জন্মনি জন্মনীশ্বরে"
+    },
+    {
+      "language_code": "ben",
+      "text": "ভবতাদ্ভক্তিরহৈতুকী ত্বয়ি ॥ঘ॥"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": []
+}

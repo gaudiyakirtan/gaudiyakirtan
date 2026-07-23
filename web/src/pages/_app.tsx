@@ -2,6 +2,8 @@ import React from 'react'
 import { AppProps } from 'next/app'
 import Layout from '../components/Layout'
 import { ThemeProvider } from '../utils/ThemeContext'
+import { SettingsProvider } from '../utils/SettingsContext'
+import { PlayerProvider } from '../utils/PlayerContext'
 import '../styles/globals.css'
 
 function MyApp({ Component, pageProps, router }: AppProps) {
@@ -13,6 +15,9 @@ function MyApp({ Component, pageProps, router }: AppProps) {
     if (router.pathname === '/authors') return 'Gaudiya Kirtan - Authors'
     if (router.pathname === '/topics') return 'Gaudiya Kirtan - Topics'
     if (router.pathname === '/books') return 'Gaudiya Kirtan - Books'
+    if (router.pathname === '/settings') return 'Gaudiya Kirtan - Settings'
+    if (router.pathname === '/about') return 'Gaudiya Kirtan - About'
+    if (router.pathname === '/contact') return 'Gaudiya Kirtan - Contact'
     return 'Gaudiya Kirtan'
   }
 
@@ -28,9 +33,15 @@ function MyApp({ Component, pageProps, router }: AppProps) {
 
   return (
     <ThemeProvider>
-      <Layout title={getPageTitle()} subtitle={getSubtitle()}>
-        <Component {...pageProps} />
-      </Layout>
+      <SettingsProvider>
+        {/* Mounted once at the app root so playback survives client-side navigation between
+            pages - the "global playback service" required by docs/screens/player.md. */}
+        <PlayerProvider>
+          <Layout title={getPageTitle()} subtitle={getSubtitle()}>
+            <Component {...pageProps} />
+          </Layout>
+        </PlayerProvider>
+      </SettingsProvider>
     </ThemeProvider>
   )
 }

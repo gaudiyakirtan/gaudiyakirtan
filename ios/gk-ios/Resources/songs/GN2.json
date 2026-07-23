@@ -1,0 +1,940 @@
+{
+  "uid": "GN2",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীকৃষ্ণচৈতন্য নিত্যানন্দ দুই প্রভু"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "śrīkṛṣṇacaitanya nityānanda dui prabhu"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रीकृष्णचैतन्य नित्यानन्द दुइ प्रभु"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీకృష్ణచైతన్య నిత్యానంద దుఇ ప్రభు"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಕೃಷ್ಣಚೈತನ್ಯ ನಿತ್ಯಾನಂದ ದುಇ ಪ್ರಭು"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீக்ருʼஷ்ணசைதன்ய நித்யானந்த³ து³இ ப்ரபு⁴"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീകൃഷ്ണചൈതന്യ നിത്യാനന്ദ ദുഇ പ്രഭു"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીકૃષ્ણચૈતન્ય નિત્યાનન્દ દુઇ પ્રભુ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀକୃଷ୍ଣଚୈତନ୍ୟ ନିତ୍ୟାନନ୍ଦ ଦୁଇ ପ୍ରଭୁ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣкр̣шн̣ачаитанйа нитйа̄нанда дуи прабху"
+    }
+  ],
+  "author_uid": "vdt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ৱৃন্দাৱন দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Vṛndāvana dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील वृन्दावन दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల వృందావన దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ವೃಂದಾವನ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல வ்ருʼந்தா³வன தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല വൃന്ദാവന ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ વૃન્દાવન દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ବୃନ୍ଦାବନ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла вр̣нда̄вана да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "śrīkṛṣṇacaitanya nityānanda dui prabhu",
+        "ei kṛpā kara yena nā pāsara kabhu 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीक्ड़्ष्णचैतन्य नित्यानन्द दुइ प्रभु",
+            "ऎइ क्ड़्पा कर यॆन ना पासर कभु १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীক্ড়্ষ্ণচৈতন্য নিত্যানন্দ দুই প্রভু",
+            "এই ক্ড়্পা কর যেন না পাসর কভু ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣଚୈତନ୍ୟ ନିତ୍ୟାନନ୍ଦ ଦୁଇ ପ୍ରଭୁ",
+            "ଏଇ କ୍ଡ଼୍ପା କର ଯେନ ନା ପାସର କଭୁ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીક્ડ઼્ષ્ણચૈતન્ય નિત્યાનન્દ દુઇ પ્રભુ",
+            "એઇ ક્ડ઼્પા કર યેન ના પાસર કભુ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrīkṛṣṇacaitanya nityānanda dui prabhu",
+            "ei kṛpā kara yena nā pāsara kabhu 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಚೈತನ್ಯ ನಿತ್ಯಾನಂದ ದುಇ ಪ್ರಭು",
+            "ಎಇ ಕ್‌ಡ಼್ಪಾ ಕರ ಯೆನ ನಾ ಪಾಸರ ಕಭು ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీక్డ్ష్ణచైతన్య నిత్యానంద దుఇ ప్రభు",
+            "ఎఇ క్డ్పా కర యెన నా పాసర కభు 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣкр̤шн̣ачаитанйа нитйа̄нанда дуи прабху",
+            "э̆и кр̤па̄ кара йэ̆на на̄ па̄сара кабху 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീക്ഡ്ഷ്ണചൈതന്യ നിത്യാനന്ദ ദുഇ പ്രഭു",
+            "എഇ ക്ഡ്പാ കര യെന നാ പാസര കഭു 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீக்ஃட்²ஷ்ணசைதன்ய நித்யானந்த³ து³இ ப்ரபு⁴",
+            "எஇ க்ஃட்²பா கர யென நா பாஸர கபு⁴ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrīkṛṣṇacaitanya nityānanda dui prabhu",
+            "ei kṛpā kara yena nā pāsara kabhu 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrīkṛṣṇacaitanya nityānanda dui prabhu",
+            "ei kṛpā kara yena nā pāsara kabhu 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "ha·ila pāpiṣṭha[FLAG_HYPHEN_ALPHA]janma nā ha·ila takhane",
+        "bañcita ha·inu sei sukha[FLAG_HYPHEN_ALPHA]daraśane 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हइल पापिष्ठजन्म ना हइल तखनॆ",
+            "बञ्चित हइनु सॆइ सुखदरशनॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হইল পাপিষ্ঠজন্ম না হইল তখনে",
+            "বঞ্চিত হইনু সেই সুখদরশনে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହଇଲ ପାପିଷ୍ଠଜନ୍ମ ନା ହଇଲ ତଖନେ",
+            "ବଞ୍ଚିତ ହଇନୁ ସେଇ ସୁଖଦରଶନେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હઇલ પાપિષ્ઠજન્મ ના હઇલ તખને",
+            "બઞ્ચિત હઇનુ સેઇ સુખદરશને ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ha·ila pāpiṣṭha-janma nā ha·ila takhane",
+            "bañcita ha·inu sei sukha-daraśane 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹಇಲ ಪಾಪಿಷ್ಠಜನ್ಮ ನಾ ಹಇಲ ತಖನೆ",
+            "ಬಂಚಿತ ಹಇನು ಸೆಇ ಸುಖದರಶನೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హఇల పాపిష్ఠజన్మ నా హఇల తఖనె",
+            "బంచిత హఇను సెఇ సుఖదరశనె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хаила па̄пишт̣хаджанма на̄ хаила такханэ̆",
+            "бан̃чита хаину сэ̆и сукхадараш́анэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹഇല പാപിഷ്ഠജന്മ നാ ഹഇല തഖനെ",
+            "ബഞ്ചിത ഹഇനു സെഇ സുഖദരശനെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹஇல பாபிஷ்ட²ஜன்ம நா ஹஇல தக²னெ",
+            "ப³ஞ்சித ஹஇனு ஸெஇ ஸுக²த³ரஶனெ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ha·ila pāpiṣṭha-janma nā ha·ila takhane",
+            "bañcita ha·inu sei sukha-daraśane 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ha·ila pāpiṣṭha-janma nā ha·ila takhane",
+            "bañcita ha·inu sei sukha-daraśane 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "tathāpiha ei kṛpā kara mahāśaya",
+        "e saba bihāra mora rahuka hṛdaya 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तथापिह ऎइ क्ड़्पा कर महाशय",
+            "ऎ सब बिहार मॊर रहुक ह्ड़्दय ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তথাপিহ এই ক্ড়্পা কর মহাশয়",
+            "এ সব বিহার মোর রহুক হ্ড়্দয় ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତଥାପିହ ଏଇ କ୍ଡ଼୍ପା କର ମହାଶୟ",
+            "ଏ ସବ ବିହାର ମୋର ରହୁକ ହ୍ଡ଼୍ଦୟ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તથાપિહ એઇ ક્ડ઼્પા કર મહાશય",
+            "એ સબ બિહાર મોર રહુક હ્ડ઼્દય ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tathāpiha ei kṛpā kara mahāśaya",
+            "e saba bihāra mora rahuka hṛdaya 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತಥಾಪಿಹ ಎಇ ಕ್‌ಡ಼್ಪಾ ಕರ ಮಹಾಶಯ",
+            "ಎ ಸಬ ಬಿಹಾರ ಮೊರ ರಹುಕ ಹ್‌ಡ಼್ದಯ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తథాపిహ ఎఇ క్డ్పా కర మహాశయ",
+            "ఎ సబ బిహార మొర రహుక హ్డ్దయ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "татха̄пиха э̆и кр̤па̄ кара маха̄ш́айа",
+            "э̆ саба биха̄ра мо̆ра рахука хр̤дайа 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തഥാപിഹ എഇ ക്ഡ്പാ കര മഹാശയ",
+            "എ സബ ബിഹാര മൊര രഹുക ഹ്ഡ്ദയ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ததா²பிஹ எஇ க்ஃட்²பா கர மஹாஶய",
+            "எ ஸப³ பி³ஹார மொர ரஹுக ஹ்ஃட்²த³ய 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tathāpiha ei kṛpā kara mahāśaya",
+            "e saba bihāra mora rahuka hṛdaya 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tathāpiha ei kṛpā kara mahāśaya",
+            "e saba bihāra mora rahuka hṛdaya 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "jaya jaya śrīcaitanya, nityānanda rāya",
+        "tomāra caraṇa[FLAG_HYPHEN_ALPHA]dhana rahuka hiyāya 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय श्रीचैतन्य, नित्यानन्द राय",
+            "तॊमार चरणधन रहुक हियाय ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় শ্রীচৈতন্য, নিত্যানন্দ রায়",
+            "তোমার চরণধন রহুক হিয়ায় ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ଶ୍ରୀଚୈତନ୍ୟ, ନିତ୍ୟାନନ୍ଦ ରାୟ",
+            "ତୋମାର ଚରଣଧନ ରହୁକ ହିୟାୟ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય શ્રીચૈતન્ય, નિત્યાનન્દ રાય",
+            "તોમાર ચરણધન રહુક હિયાય ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya śrīcaitanya, nityānanda rāya",
+            "tomāra caraṇa-dhana rahuka hiyāya 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ಶ್ರೀಚೈತನ್ಯ, ನಿತ್ಯಾನಂದ ರಾಯ",
+            "ತೊಮಾರ ಚರಣಧನ ರಹುಕ ಹಿಯಾಯ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ శ్రీచైతన్య, నిత్యానంద రాయ",
+            "తొమార చరణధన రహుక హియాయ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ш́рӣчаитанйа, нитйа̄нанда ра̄йа",
+            "то̆ма̄ра чаран̣адхана рахука хийа̄йа 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ ശ്രീചൈതന്യ, നിത്യാനന്ദ രായ",
+            "തൊമാര ചരണധന രഹുക ഹിയായ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ஶ்ரீசைதன்ய, நித்யானந்த³ ராய",
+            "தொமார சரணத⁴ன ரஹுக ஹியாய 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya śrīcaitanya, nityānanda rāya",
+            "tomāra caraṇa-dhana rahuka hiyāya 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya śrīcaitanya, nityānanda rāya",
+            "tomāra caraṇa-dhana rahuka hiyāya 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "sapārṣade tumi nityānanda yathā yathā",
+        "kṛpā kara muĩ yena bhṛtya ha·i tathā 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सपार्षदॆ तुमि नित्यानन्द यथा यथा",
+            "क्ड़्पा कर मुइं यॆन भ्ड़्त्य हइ तथा ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সপার্ষদে তুমি নিত্যানন্দ যথা যথা",
+            "ক্ড়্পা কর মুইং যেন ভ্ড়্ত্য হই তথা ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସପାର୍ଷଦେ ତୁମି ନିତ୍ୟାନନ୍ଦ ଯଥା ଯଥା",
+            "କ୍ଡ଼୍ପା କର ମୁଇଂ ଯେନ ଭ୍ଡ଼୍ତ୍ୟ ହଇ ତଥା ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સપાર્ષદે તુમિ નિત્યાનન્દ યથા યથા",
+            "ક્ડ઼્પા કર મુઇં યેન ભ્ડ઼્ત્ય હઇ તથા ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sapārṣade tumi nityānanda yathā yathā",
+            "kṛpā kara muĩ yena bhṛtya ha·i tathā 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸಪಾರ್ಷದೆ ತುಮಿ ನಿತ್ಯಾನಂದ ಯಥಾ ಯಥಾ",
+            "ಕ್‌ಡ಼್ಪಾ ಕರ ಮುಇಂ ಯೆನ ಭ್‌ಡ಼್ತ್ಯ ಹಇ ತಥಾ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సపార్షదె తుమి నిత్యానంద యథా యథా",
+            "క్డ్పా కర ముఇం యెన భ్డ్త్య హఇ తథా 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сапа̄ршадэ̆ туми нитйа̄нанда йатха̄ йатха̄",
+            "кр̤па̄ кара муим̣ йэ̆на бхр̤тйа хаи татха̄ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സപാർഷദെ തുമി നിത്യാനന്ദ യഥാ യഥാ",
+            "ക്ഡ്പാ കര മുഇം യെന ഭ്ഡ്ത്യ ഹഇ തഥാ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸபார்ஷதெ³ துமி நித்யானந்த³ யதா² யதா²",
+            "க்ஃட்²பா கர முஇம்ʼ யென ப்⁴ஃட்²த்ய ஹஇ ததா² 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sapārṣade tumi nityānanda yathā yathā",
+            "kṛpā kara muĩ yena bhṛtya ha·i tathā 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sapārṣade tumi nityānanda yathā yathā",
+            "kṛpā kara muĩ yena bhṛtya ha·i tathā 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "saṁsārera pāra hayā bhaktira sāgare",
+        "ye ḍubibe, se bhajuka nitāicā̃dere 6"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "संसारॆर पार हया भक्तिर सागरॆ",
+            "यॆ डुबिबॆ, सॆ भजुक निताइचांदॆरॆ ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সংসারের পার হয়া ভক্তির সাগরে",
+            "যে ডুবিবে, সে ভজুক নিতাইচান্দেরে ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସଂସାରେର ପାର ହୟା ଭକ୍ତିର ସାଗରେ",
+            "ଯେ ଡୁବିବେ, ସେ ଭଜୁକ ନିତାଇଚାନ୍ଦେରେ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સંસારેર પાર હયા ભક્તિર સાગરે",
+            "યે ડુબિબે, સે ભજુક નિતાઇચાંદેરે ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "saṁsārera pāra hayā bhaktira sāgare",
+            "ye ḍubibe, se bhajuka nitāicā̃dere 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸಂಸಾರೆರ ಪಾರ ಹಯಾ ಭಕ್ತಿರ ಸಾಗರೆ",
+            "ಯೆ ಡುಬಿಬೆ, ಸೆ ಭಜುಕ ನಿತಾಇಚಾಂದೆರೆ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సంసారెర పార హయా భక్తిర సాగరె",
+            "యె డుబిబె, సె భజుక నితాఇచాందెరె 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сам̣са̄рэ̆ра па̄ра хайа̄ бхактира са̄гарэ̆",
+            "йэ̆ д̣убибэ̆, сэ̆ бхаджука нита̄ича̄м̣дэ̆рэ̆ 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സംസാരെര പാര ഹയാ ഭക്തിര സാഗരെ",
+            "യെ ഡുബിബെ, സെ ഭജുക നിതാഇചാന്ദെരെ 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸம்ʼஸாரெர பார ஹயா ப⁴க்திர ஸாக³ரெ",
+            "யெ டு³பி³பெ³, ஸெ ப⁴ஜுக நிதாஇசாந்தெ³ரெ 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "saṁsārera pāra hayā bhaktira sāgare",
+            "ye ḍubibe, se bhajuka nitāicā̃dere 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "saṁsārera pāra hayā bhaktira sāgare",
+            "ye ḍubibe, se bhajuka nitāicā̃dere 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "hena dina ha·ibe caitanya[FLAG_HYPHEN_ALPHA]nityānanda",
+        "dekhiba beṣṭita ki sakala bhaktabṛnda 7"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हॆन दिन हइबॆ चैतन्यनित्यानन्द",
+            "दॆखिब बॆष्टित कि सकल भक्तब्ड़्न्द ७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হেন দিন হইবে চৈতন্যনিত্যানন্দ",
+            "দেখিব বেষ্টিত কি সকল ভক্তব্ড়্ন্দ ৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହେନ ଦିନ ହଇବେ ଚୈତନ୍ୟନିତ୍ୟାନନ୍ଦ",
+            "ଦେଖିବ ବେଷ୍ଟିତ କି ସକଲ ଭକ୍ତବ୍ଡ଼୍ନ୍ଦ ୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હેન દિન હઇબે ચૈતન્યનિત્યાનન્દ",
+            "દેખિબ બેષ્ટિત કિ સકલ ભક્તબ્ડ઼્ન્દ ૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hena dina ha·ibe caitanya-nityānanda",
+            "dekhiba beṣṭita ki sakala bhaktabṛnda 7"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹೆನ ದಿನ ಹಇಬೆ ಚೈತನ್ಯನಿತ್ಯಾನಂದ",
+            "ದೆಖಿಬ ಬೆಷ್ಟಿತ ಕಿ ಸಕಲ ಭಕ್ತಬ್‌ಡ಼್ನ್ದ ೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హెన దిన హఇబె చైతన్యనిత్యానంద",
+            "దెఖిబ బెష్టిత కి సకల భక్తబ్డ్న్ద 7"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хэ̆на дина хаибэ̆ чаитанйанитйа̄нанда",
+            "дэ̆кхиба бэ̆шт̣ита ки сакала бхактабр̤нда 7"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹെന ദിന ഹഇബെ ചൈതന്യനിത്യാനന്ദ",
+            "ദെഖിബ ബെഷ്ടിത കി സകല ഭക്തബ്ഡ്ന്ദ 7"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹென தி³ன ஹஇபெ³ சைதன்யநித்யானந்த³",
+            "தெ³கி²ப³ பெ³ஷ்டித கி ஸகல ப⁴க்தப்³ஃட்²ந்த³ 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hena dina ha·ibe caitanya-nityānanda",
+            "dekhiba beṣṭita ki sakala bhaktabṛnda 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hena dina ha·ibe caitanya-nityānanda",
+            "dekhiba beṣṭita ki sakala bhaktabṛnda 7"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "source_text_master": [
+        "śrīcaitanya[FLAG_HYPHEN_ALPHA]nityānandacā̃da pãhu jāna",
+        "bṛndābanadāsa tachu padayuge gāna 8"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीचैतन्यनित्यानन्दचांद पंहु जान",
+            "ब्ड़्न्दाबनदास तछु पदयुगॆ गान ८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীচৈতন্যনিত্যানন্দচান্দ পংহু জান",
+            "ব্ড়্ন্দাবনদাস তছু পদয়ুগে গান ৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀଚୈତନ୍ୟନିତ୍ୟାନନ୍ଦଚାନ୍ଦ ପଂହୁ ଜାନ",
+            "ବ୍ଡ଼୍ନ୍ଦାବନଦାସ ତଛୁ ପଦୟୁଗେ ଗାନ ୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીચૈતન્યનિત્યાનન્દચાંદ પંહુ જાન",
+            "બ્ડ઼્ન્દાબનદાસ તછુ પદયુગે ગાન ૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrīcaitanya-nityānandacā̃da pãhu jāna",
+            "bṛndābanadāsa tachu padayuge gāna 8"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಚೈತನ್ಯನಿತ್ಯಾನಂದಚಾಂದ ಪಂಹು ಜಾನ",
+            "ಬ್‌ಡ಼್ನ್ದಾಬನದಾಸ ತಛು ಪದಯುಗೆ ಗಾನ ೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీచైతన్యనిత్యానందచాంద పంహు జాన",
+            "బ్డ్న్దాబనదాస తఛు పదయుగె గాన 8"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣчаитанйанитйа̄нандача̄м̣да пам̣ху джа̄на",
+            "бр̤нда̄банада̄са тачху падайугэ̆ га̄на 8"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീചൈതന്യനിത്യാനന്ദചാന്ദ പംഹു ജാന",
+            "ബ്ഡ്ന്ദാബനദാസ തഛു പദയുഗെ ഗാന 8"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீசைதன்யநித்யானந்த³சாந்த³ பம்ʼஹு ஜான",
+            "ப்³ஃட்²ந்தா³ப³னதா³ஸ தசு² பத³யுகெ³ கா³ன 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrīcaitanya-nityānandacā̃da pãhu jāna",
+            "bṛndābanadāsa tachu padayuge gāna 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrīcaitanya-nityānandacā̃da pãhu jāna",
+            "bṛndābanadāsa tachu padayuge gāna 8"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Entreaties",
+    "Śrī Gaura-Nitāi"
+  ]
+}

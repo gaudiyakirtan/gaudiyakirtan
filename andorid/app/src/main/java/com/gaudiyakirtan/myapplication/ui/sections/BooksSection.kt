@@ -8,11 +8,12 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.gaudiyakirtan.myapplication.models.Book
+import com.gaudiyakirtan.myapplication.models.SongGroup
 import com.gaudiyakirtan.myapplication.ui.components.BookCard
 
+/** Book [SongGroup]s (docs/data/collections.md), rendered only when [books] is non-empty. */
 @Composable
-fun BooksSection(books: List<Book>) {
+fun BooksSection(books: List<SongGroup>, onBookClick: (String) -> Unit = {}) {
     Column(
         modifier = Modifier.fillMaxWidth(),
         verticalArrangement = Arrangement.spacedBy(8.dp)
@@ -33,9 +34,9 @@ fun BooksSection(books: List<Book>) {
             item {
                 Spacer(modifier = Modifier.width(6.dp))
             }
-            
-            items(books) { book ->
-                BookCard(book = book)
+
+            items(books, key = { it.uid }) { book ->
+                BookCard(group = book, onClick = { onBookClick(book.uid) })
             }
         }
     }

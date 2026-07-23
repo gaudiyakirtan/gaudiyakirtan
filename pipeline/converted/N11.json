@@ -1,0 +1,552 @@
+{
+ "uid": "N11",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "আরে ভাই! নিতাই আমার দয়ার অবধি"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "āre bhāi! nitāi āmāra dayāra abadhi"
+  }
+ ],
+ "author_uid": "ldt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল লোচন দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Locana dāsa Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "āre bhāi! nitāi āmāra dayāra abadhi",
+    "jībere karuṇā kari’,    deśe deśe phiri’ phiri’,",
+    "prema[FLAG_HYPHEN_ALPHA]dhana yāce nirabadhi 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आरॆ भाइ! निताइ आमार दयार अबधि",
+      "जीबॆरॆ करुणा करिऽ,    दॆशॆ दॆशॆ फिरिऽ फिरिऽ,",
+      "प्रॆमधन याचॆ निरबधि १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আরে ভাই! নিতাই আমার দয়ার অবধি",
+      "জীবেরে করুণা করিঽ,    দেশে দেশে ফিরিঽ ফিরিঽ,",
+      "প্রেমধন যাচে নিরবধি ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆରେ ଭାଇ! ନିତାଇ ଆମାର ଦୟାର ଅବଧି",
+      "ଜୀବେରେ କରୁଣା କରିଽ,    ଦେଶେ ଦେଶେ ଫିରିଽ ଫିରିଽ,",
+      "ପ୍ରେମଧନ ଯାଚେ ନିରବଧି ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આરે ભાઇ! નિતાઇ આમાર દયાર અબધિ",
+      "જીબેરે કરુણા કરિઽ,    દેશે દેશે ફિરિઽ ફિરિઽ,",
+      "પ્રેમધન યાચે નિરબધિ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "āre bhāi! nitāi āmāra dayāra abadhi",
+      "jībere karuṇā kari’,    deśe deśe phiri’ phiri’,",
+      "prema-dhana yāce nirabadhi 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆರೆ ಭಾಇ! ನಿತಾಇ ಆಮಾರ ದಯಾರ ಅಬಧಿ",
+      "ಜೀಬೆರೆ ಕರುಣಾ ಕರಿಽ,    ದೆಶೆ ದೆಶೆ ಫಿರಿಽ ಫಿರಿಽ,",
+      "ಪ್ರೆಮಧನ ಯಾಚೆ ನಿರಬಧಿ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆరె భాఇ! నితాఇ ఆమార దయార అబధి",
+      "జీబెరె కరుణా కరిఽ,    దెశె దెశె ఫిరిఽ ఫిరిఽ,",
+      "ప్రెమధన యాచె నిరబధి 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄рэ̆ бха̄и! нита̄и а̄ма̄ра дайа̄ра абадхи",
+      "джӣбэ̆рэ̆ карун̣а̄ кари',    дэ̆ш́э̆ дэ̆ш́э̆ пхири' пхири',",
+      "прэ̆мадхана йа̄чэ̆ нирабадхи 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആരെ ഭാഇ! നിതാഇ ആമാര ദയാര അബധി",
+      "ജീബെരെ കരുണാ കരിഽ,    ദെശെ ദെശെ ഫിരിഽ ഫിരിഽ,",
+      "പ്രെമധന യാചെ നിരബധി 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆரெ பா⁴இ! நிதாஇ ஆமார த³யார அப³தி⁴",
+      "ஜீபெ³ரெ கருணா கரி(அ),    தெ³ஶெ தெ³ஶெ பி²ரி(அ) பி²ரி(அ),",
+      "ப்ரெமத⁴ன யாசெ நிரப³தி⁴ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "āre bhāi! nitāi āmāra dayāra abadhi",
+      "jībere karuṇā kari’,    deśe deśe phiri’ phiri’,",
+      "prema-dhana yāce nirabadhi 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "āre bhāi! nitāi āmāra dayāra abadhi",
+      "jībere karuṇā kari’,    deśe deśe phiri’ phiri’,",
+      "prema-dhana yāce nirabadhi 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "adbaitera saṅge raṅga,    dharaṇe nā yāya aṅga,",
+    "gorā[FLAG_HYPHEN_ALPHA]preme gaḓā tanukhāni",
+    "ḍhuliyā ḍhuliyā cale,    bāhu tuli’ hari bale,",
+    "du’nayane bahe nitāi[FLAG_HYPHEN_ALPHA]era pāni 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अद्बैतॆर सङ्गॆ रङ्ग,    धरणॆ ना याय अङ्ग,",
+      "गॊराप्रॆमॆ गḓआ तनुखानि",
+      "ढुलिया ढुलिया चलॆ,    बाहु तुलिऽ हरि बलॆ,",
+      "दुऽनयनॆ बहॆ निताइऎर पानि २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অদ্বৈতের সঙ্গে রঙ্গ,    ধরণে না যায় অঙ্গ,",
+      "গোরাপ্রেমে গḓআ তনুখানি",
+      "ঢুলিয়া ঢুলিয়া চলে,    বাহু তুলিঽ হরি বলে,",
+      "দুঽনয়নে বহে নিতাইএর পানি ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅଦ୍ବୈତେର ସଙ୍ଗେ ରଙ୍ଗ,    ଧରଣେ ନା ଯାୟ ଅଙ୍ଗ,",
+      "ଗୋରାପ୍ରେମେ ଗḓଆ ତନୁଖାନି",
+      "ଢୁଲିୟା ଢୁଲିୟା ଚଲେ,    ବାହୁ ତୁଲିଽ ହରି ବଲେ,",
+      "ଦୁଽନୟନେ ବହେ ନିତାଇଏର ପାନି ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અદ્બૈતેર સઙ્ગે રઙ્ગ,    ધરણે ના યાય અઙ્ગ,",
+      "ગોરાપ્રેમે ગḓઆ તનુખાનિ",
+      "ઢુલિયા ઢુલિયા ચલે,    બાહુ તુલિઽ હરિ બલે,",
+      "દુઽનયને બહે નિતાઇએર પાનિ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "adbaitera saṅge raṅga,    dharaṇe nā yāya aṅga,",
+      "gorā-preme gaḓā tanukhāni",
+      "ḍhuliyā ḍhuliyā cale,    bāhu tuli’ hari bale,",
+      "du’nayane bahe nitāi-era pāni 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅದ್ಬೈತೆರ ಸಂಗೆ ರಂಗ,    ಧರಣೆ ನಾ ಯಾಯ ಅಂಗ,",
+      "ಗೊರಾಪ್ರೆಮೆ ಗḓಆ ತನುಖಾನಿ",
+      "ಢುಲಿಯಾ ಢುಲಿಯಾ ಚಲೆ,    ಬಾಹು ತುಲಿಽ ಹರಿ ಬಲೆ,",
+      "ದುಽನಯನೆ ಬಹೆ ನಿತಾಇಎರ ಪಾನಿ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అద్బైతెర సంగె రంగ,    ధరణె నా యాయ అంగ,",
+      "గొరాప్రెమె గḓఆ తనుఖాని",
+      "ఢులియా ఢులియా చలె,    బాహు తులిఽ హరి బలె,",
+      "దుఽనయనె బహె నితాఇఎర పాని 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "адбаитэ̆ра сан̇гэ̆ ран̇га,    дхаран̣э̆ на̄ йа̄йа ан̇га,",
+      "го̆ра̄прэ̆мэ̆ гаḓа̄ танукха̄ни",
+      "д̣хулийа̄ д̣хулийа̄ чалэ̆,    ба̄ху тули' хари балэ̆,",
+      "ду'найанэ̆ бахэ̆ нита̄иэ̆ра па̄ни 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അദ്ബൈതെര സംഗെ രംഗ,    ധരണെ നാ യായ അംഗ,",
+      "ഗൊരാപ്രെമെ ഗḓആ തനുഖാനി",
+      "ഢുലിയാ ഢുലിയാ ചലെ,    ബാഹു തുലിഽ ഹരി ബലെ,",
+      "ദുഽനയനെ ബഹെ നിതാഇഎര പാനി 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அத்³பை³தெர ஸங்கெ³ ரங்க³,    த⁴ரணெ நா யாய அங்க³,",
+      "கொ³ராப்ரெமெ க³ḓஆ தனுகா²னி",
+      "டு⁴லியா டு⁴லியா சலெ,    பா³ஹு துலி(அ) ஹரி ப³லெ,",
+      "து³(அ)நயனெ ப³ஹெ நிதாஇஎர பானி 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "adbaitera saṅge raṅga,    dharaṇe nā yāya aṅga,",
+      "gorā-preme gaḍā tanukhāni",
+      "ḍhuliyā ḍhuliyā cale,    bāhu tuli’ hari bale,",
+      "du’nayane bahe nitāi-era pāni 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "adbaitera saṅge raṅga,    dharaṇe nā yāya aṅga,",
+      "gorā-preme gaḓā tanukhāni",
+      "ḍhuliyā ḍhuliyā cale,    bāhu tuli’ hari bale,",
+      "du’nayane bahe nitāi-era pāni 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "kapāle tilaka śobhe,    kuṭila[FLAG_HYPHEN_ALPHA]kuntala[FLAG_HYPHEN_ALPHA]lole,",
+    "guñjāhāra ā̃ṭuni cūḓā tāya",
+    "keśarī jiniyā kaṭi,    kaṭitaṭe nīladhaṭī,",
+    "bājana nūpura rāṅgā pāya 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कपालॆ तिलक शॊभॆ,    कुटिलकुन्तललॊलॆ,",
+      "गुञ्जाहार आंटुनि चूḓआ ताय",
+      "कॆशरी जिनिया कटि,    कटितटॆ नीलधटी,",
+      "बाजन नूपुर राङ्गा पाय ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কপালে তিলক শোভে,    কুটিলকুন্তললোলে,",
+      "গুঞ্জাহার আণ্টুনি চূḓআ তায়",
+      "কেশরী জিনিয়া কটি,    কটিতটে নীলধটী,",
+      "বাজন নূপুর রাঙ্গা পায় ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କପାଲେ ତିଲକ ଶୋଭେ,    କୁଟିଲକୁନ୍ତଲଲୋଲେ,",
+      "ଗୁଞ୍ଜାହାର ଆଣ୍ଟୁନି ଚୂḓଆ ତାୟ",
+      "କେଶରୀ ଜିନିୟା କଟି,    କଟିତଟେ ନୀଲଧଟୀ,",
+      "ବାଜନ ନୂପୁର ରାଙ୍ଗା ପାୟ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કપાલે તિલક શોભે,    કુટિલકુન્તલલોલે,",
+      "ગુઞ્જાહાર આંટુનિ ચૂḓઆ તાય",
+      "કેશરી જિનિયા કટિ,    કટિતટે નીલધટી,",
+      "બાજન નૂપુર રાઙ્ગા પાય ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kapāle tilaka śobhe,    kuṭila-kuntala-lole,",
+      "guñjāhāra ā̃ṭuni cūḓā tāya",
+      "keśarī jiniyā kaṭi,    kaṭitaṭe nīladhaṭī,",
+      "bājana nūpura rāṅgā pāya 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕಪಾಲೆ ತಿಲಕ ಶೊಭೆ,    ಕುಟಿಲಕುಂತಲಲೊಲೆ,",
+      "ಗುಂಜಾಹಾರ ಆಂಟುನಿ ಚೂḓಆ ತಾಯ",
+      "ಕೆಶರೀ ಜಿನಿಯಾ ಕಟಿ,    ಕಟಿತಟೆ ನೀಲಧಟೀ,",
+      "ಬಾಜನ ನೂಪುರ ರಾಂಗಾ ಪಾಯ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కపాలె తిలక శొభె,    కుటిలకుంతలలొలె,",
+      "గుంజాహార ఆంటుని చూḓఆ తాయ",
+      "కెశరీ జినియా కటి,    కటితటె నీలధటీ,",
+      "బాజన నూపుర రాంగా పాయ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "капа̄лэ̆ тилака ш́о̆бхэ̆,    кут̣илакунталало̆лэ̆,",
+      "гун̃джа̄ха̄ра а̄м̣т̣уни чӯḓа̄ та̄йа",
+      "кэ̆ш́арӣ джинийа̄ кат̣и,    кат̣итат̣э̆ нӣладхат̣ӣ,",
+      "ба̄джана нӯпура ра̄н̇га̄ па̄йа 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കപാലെ തിലക ശൊഭെ,    കുടിലകുന്തലലൊലെ,",
+      "ഗുഞ്ജാഹാര ആണ്ടുനി ചൂḓആ തായ",
+      "കെശരീ ജിനിയാ കടി,    കടിതടെ നീലധടീ,",
+      "ബാജന നൂപുര രാംഗാ പായ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கபாலெ திலக ஶொபெ⁴,    குடிலகுந்தலலொலெ,",
+      "கு³ஞ்ஜாஹார ஆண்டுனி சூḓஆ தாய",
+      "கெஶரீ ஜினியா கடி,    கடிதடெ நீலத⁴டீ,",
+      "பா³ஜன நூபுர ராங்கா³ பாய 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kapāle tilaka śobhe,    kuṭila-kuntala-lole,",
+      "guñjāhāra ā̃ṭuni cūḍā tāya",
+      "keśarī jiniyā kaṭi,    kaṭitaṭe nīladhaṭī,",
+      "bājana nūpura rāṅgā pāya 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kapāle tilaka śobhe,    kuṭila-kuntala-lole,",
+      "guñjāhāra ā̃ṭuni cūḓā tāya",
+      "keśarī jiniyā kaṭi,    kaṭitaṭe nīladhaṭī,",
+      "bājana nūpura rāṅgā pāya 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "bhubanamohana beśa,    majāila saba deśa,",
+    "rasābeśe aṭṭa aṭṭa hāsa",
+    "prabhu mora nityānanda,    kebala ānanda[FLAG_HYPHEN_ALPHA]kanda,",
+    "guṇa gāya bṛndābanadāsa 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भुबनमॊहन बॆश,    मजाइल सब दॆश,",
+      "रसाबॆशॆ अट्ट अट्ट हास",
+      "प्रभु मॊर नित्यानन्द,    कॆबल आनन्दकन्द,",
+      "गुण गाय ब्ड़्न्दाबनदास ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভুবনমোহন বেশ,    মজাইল সব দেশ,",
+      "রসাবেশে অট্ট অট্ট হাস",
+      "প্রভু মোর নিত্যানন্দ,    কেবল আনন্দকন্দ,",
+      "গুণ গায় ব্ড়্ন্দাবনদাস ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭୁବନମୋହନ ବେଶ,    ମଜାଇଲ ସବ ଦେଶ,",
+      "ରସାବେଶେ ଅଟ୍ଟ ଅଟ୍ଟ ହାସ",
+      "ପ୍ରଭୁ ମୋର ନିତ୍ୟାନନ୍ଦ,    କେବଲ ଆନନ୍ଦକନ୍ଦ,",
+      "ଗୁଣ ଗାୟ ବ୍ଡ଼୍ନ୍ଦାବନଦାସ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભુબનમોહન બેશ,    મજાઇલ સબ દેશ,",
+      "રસાબેશે અટ્ટ અટ્ટ હાસ",
+      "પ્રભુ મોર નિત્યાનન્દ,    કેબલ આનન્દકન્દ,",
+      "ગુણ ગાય બ્ડ઼્ન્દાબનદાસ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhubanamohana beśa,    majāila saba deśa,",
+      "rasābeśe aṭṭa aṭṭa hāsa",
+      "prabhu mora nityānanda,    kebala ānanda-kanda,",
+      "guṇa gāya bṛndābanadāsa 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭುಬನಮೊಹನ ಬೆಶ,    ಮಜಾಇಲ ಸಬ ದೆಶ,",
+      "ರಸಾಬೆಶೆ ಅಟ್ಟ ಅಟ್ಟ ಹಾಸ",
+      "ಪ್ರಭು ಮೊರ ನಿತ್ಯಾನಂದ,    ಕೆಬಲ ಆನಂದಕಂದ,",
+      "ಗುಣ ಗಾಯ ಬ್‌ಡ಼್ನ್ದಾಬನದಾಸ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భుబనమొహన బెశ,    మజాఇల సబ దెశ,",
+      "రసాబెశె అట్ట అట్ట హాస",
+      "ప్రభు మొర నిత్యానంద,    కెబల ఆనందకంద,",
+      "గుణ గాయ బ్డ్న్దాబనదాస 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бхубанамо̆хана бэ̆ш́а,    маджа̄ила саба дэ̆ш́а,",
+      "раса̄бэ̆ш́э̆ ат̣т̣а ат̣т̣а ха̄са",
+      "прабху мо̆ра нитйа̄нанда,    кэ̆бала а̄нандаканда,",
+      "гун̣а га̄йа бр̤нда̄банада̄са 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭുബനമൊഹന ബെശ,    മജാഇല സബ ദെശ,",
+      "രസാബെശെ അട്ട അട്ട ഹാസ",
+      "പ്രഭു മൊര നിത്യാനന്ദ,    കെബല ആനന്ദകന്ദ,",
+      "ഗുണ ഗായ ബ്ഡ്ന്ദാബനദാസ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பு⁴ப³னமொஹன பெ³ஶ,    மஜாஇல ஸப³ தெ³ஶ,",
+      "ரஸாபெ³ஶெ அட்ட அட்ட ஹாஸ",
+      "ப்ரபு⁴ மொர நித்யானந்த³,    கெப³ல ஆனந்த³கந்த³,",
+      "கு³ண கா³ய ப்³ஃட்²ந்தா³ப³னதா³ஸ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhubanamohana beśa,    majāila saba deśa,",
+      "rasābeśe aṭṭa aṭṭa hāsa",
+      "prabhu mora nityānanda,    kebala ānanda-kanda,",
+      "guṇa gāya bṛndābanadāsa 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhubanamohana beśa,    majāila saba deśa,",
+      "rasābeśe aṭṭa aṭṭa hāsa",
+      "prabhu mora nityānanda,    kebala ānanda-kanda,",
+      "guṇa gāya bṛndābanadāsa 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- লোলে—দুলে; আঁটুনি—বন্ধন; কটি—কোমড়; কটিতট—পাছা; ধটী—ধূতি ।"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "The Beautiful Form of Nityānanda Prabhu",
+  "Śrī Nityānanda Prabhu"
+ ]
+}

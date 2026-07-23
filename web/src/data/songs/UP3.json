@@ -1,0 +1,616 @@
+{
+  "uid": "UP3",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ওরে মন, কর্ম্মের কুহরে গেল কাল"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "ore mana, karmera kuhare gela kāla"
+    },
+    {
+      "script_code": "Deva",
+      "text": "ओरे मन, कर्मेर कुहरे गेल काल"
+    },
+    {
+      "script_code": "Telu",
+      "text": "ఓరే మన, కర్మేర కుహరే గేల కాల"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಓರೇ ಮನ, ಕರ್ಮೇರ ಕುಹರೇ ಗೇಲ ಕಾಲ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஓரே மன, கர்மேர குஹரே கே³ல கால"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഓരേ മന, കർമേര കുഹരേ ഗേല കാല"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ઓરે મન, કર્મેર કુહરે ગેલ કાલ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଓରେ ମନ, କର୍ମେର କୁହରେ ଗେଲ କାଲ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "орэ мана, кармэра кухарэ гэла ка̄ла"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "ore mana, karmera kuhare gela kāla",
+        "sbargādi sukhera āśe,    parilāma karma[FLAG_HYPHEN_ALPHA]phā̃se,",
+        "ūrṇanābhi[FLAG_HYPHEN_ALPHA]sama karmajāla 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऒरॆ मन, कर्मॆर कुहरॆ गॆल काल",
+            "स्बर्गादि सुखॆर आशॆ,    परिलाम कर्मफांसॆ,",
+            "ऊर्णनाभिसम कर्मजाल १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ওরে মন, কর্মের কুহরে গেল কাল",
+            "স্বর্গাদি সুখের আশে,    পরিলাম কর্মফাংসে,",
+            "ঊর্ণনাভিসম কর্মজাল ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଓରେ ମନ, କର୍ମେର କୁହରେ ଗେଲ କାଲ",
+            "ସ୍ବର୍ଗାଦି ସୁଖେର ଆଶେ,    ପରିଲାମ କର୍ମଫାଂସେ,",
+            "ଊର୍ଣନାଭିସମ କର୍ମଜାଲ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઓરે મન, કર્મેર કુહરે ગેલ કાલ",
+            "સ્બર્ગાદિ સુખેર આશે,    પરિલામ કર્મફાંસે,",
+            "ઊર્ણનાભિસમ કર્મજાલ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ore mana, karmera kuhare gela kāla",
+            "sbargādi sukhera āśe,    parilāma karma-phā̃se,",
+            "ūrṇanābhi-sama karmajāla 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಒರೆ ಮನ, ಕರ್ಮೆರ ಕುಹರೆ ಗೆಲ ಕಾಲ",
+            "ಸ್ಬರ್ಗಾದಿ ಸುಖೆರ ಆಶೆ,    ಪರಿಲಾಮ ಕರ್ಮಫಾಂಸೆ,",
+            "ಊರ್ಣನಾಭಿಸಮ ಕರ್ಮಜಾಲ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఒరె మన, కర్మెర కుహరె గెల కాల",
+            "స్బర్గాది సుఖెర ఆశె,    పరిలామ కర్మఫాంసె,",
+            "ఊర్ణనాభిసమ కర్మజాల 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "о̆рэ̆ мана, кармэ̆ра кухарэ̆ гэ̆ла ка̄ла",
+            "сбарга̄ди сукхэ̆ра а̄ш́э̆,    парила̄ма кармапха̄м̣сэ̆,",
+            "ӯрн̣ана̄бхисама кармаджа̄ла 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഒരെ മന, കർമെര കുഹരെ ഗെല കാല",
+            "സ്ബർഗാദി സുഖെര ആശെ,    പരിലാമ കർമഫാംസെ,",
+            "ഊർണനാഭിസമ കർമജാല 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஒரெ மன, கர்மெர குஹரெ கெ³ல கால",
+            "ஸ்ப³ர்கா³தி³ ஸுகெ²ர ஆஶெ,    பரிலாம கர்மபா²ம்ʼஸெ,",
+            "ஊர்ணநாபி⁴ஸம கர்மஜால 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ore mana, karmera kuhare gela kāla",
+            "sbargādi sukhera āśe,    parilāma karma-phā̃se,",
+            "ūrṇanābhi-sama karmajāla 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ore mana, karmera kuhare gela kāla",
+            "sbargādi sukhera āśe,    parilāma karma-phā̃se,",
+            "ūrṇanābhi-sama karmajāla 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "upabāsa[FLAG_HYPHEN_ALPHA]brata dhari’,    nānā kāyakleśa kari’,",
+        "bhasme ghṛta ḍhāliyā apāra",
+        "marilāma nija doṣe,    jarā[FLAG_HYPHEN_ALPHA]maraṇera phā̃se,",
+        "ha·ibāre nārinu uddhāra 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "उपबासब्रत धरिऽ,    नाना कायक्लॆश करिऽ,",
+            "भस्मॆ घ्ड़्त ढालिया अपार",
+            "मरिलाम निज दॊषॆ,    जरामरणॆर फांसॆ,",
+            "हइबारॆ नारिनु उद्धार २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "উপবাসব্রত ধরিঽ,    নানা কায়ক্লেশ করিঽ,",
+            "ভস্মে ঘ্ড়্ত ঢালিয়া অপার",
+            "মরিলাম নিজ দোষে,    জরামরণের ফাংসে,",
+            "হইবারে নারিনু উদ্ধার ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଉପବାସବ୍ରତ ଧରିଽ,    ନାନା କାୟକ୍ଲେଶ କରିଽ,",
+            "ଭସ୍ମେ ଘ୍ଡ଼୍ତ ଢାଲିୟା ଅପାର",
+            "ମରିଲାମ ନିଜ ଦୋଷେ,    ଜରାମରଣେର ଫାଂସେ,",
+            "ହଇବାରେ ନାରିନୁ ଉଦ୍ଧାର ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઉપબાસબ્રત ધરિઽ,    નાના કાયક્લેશ કરિઽ,",
+            "ભસ્મે ઘ્ડ઼્ત ઢાલિયા અપાર",
+            "મરિલામ નિજ દોષે,    જરામરણેર ફાંસે,",
+            "હઇબારે નારિનુ ઉદ્ધાર ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "upabāsa-brata dhari’,    nānā kāyakleśa kari’,",
+            "bhasme ghṛta ḍhāliyā apāra",
+            "marilāma nija doṣe,    jarā-maraṇera phā̃se,",
+            "ha·ibāre nārinu uddhāra 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಉಪಬಾಸಬ್ರತ ಧರಿಽ,    ನಾನಾ ಕಾಯಕ್ಲೆಶ ಕರಿಽ,",
+            "ಭಸ್ಮೆ ಘ್‌ಡ಼್ತ ಢಾಲಿಯಾ ಅಪಾರ",
+            "ಮರಿಲಾಮ ನಿಜ ದೊಷೆ,    ಜರಾಮರಣೆರ ಫಾಂಸೆ,",
+            "ಹಇಬಾರೆ ನಾರಿನು ಉದ್ಧಾರ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఉపబాసబ్రత ధరిఽ,    నానా కాయక్లెశ కరిఽ,",
+            "భస్మె ఘ్డ్త ఢాలియా అపార",
+            "మరిలామ నిజ దొషె,    జరామరణెర ఫాంసె,",
+            "హఇబారె నారిను ఉద్ధార 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "упаба̄сабрата дхари',    на̄на̄ ка̄йаклэ̆ш́а кари',",
+            "бхасмэ̆ гхр̤та д̣ха̄лийа̄ апа̄ра",
+            "марила̄ма ниджа до̆шэ̆,    джара̄маран̣э̆ра пха̄м̣сэ̆,",
+            "хаиба̄рэ̆ на̄рину уддха̄ра 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഉപബാസബ്രത ധരിഽ,    നാനാ കായക്ലെശ കരിഽ,",
+            "ഭസ്മെ ഘ്ഡ്ത ഢാലിയാ അപാര",
+            "മരിലാമ നിജ ദൊഷെ,    ജരാമരണെര ഫാംസെ,",
+            "ഹഇബാരെ നാരിനു ഉദ്ധാര 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "உபபா³ஸப்³ரத த⁴ரி(அ),    நானா காயக்லெஶ கரி(அ),",
+            "ப⁴ஸ்மெ க்⁴ஃட்²த டா⁴லியா அபார",
+            "மரிலாம நிஜ தொ³ஷெ,    ஜராமரணெர பா²ம்ʼஸெ,",
+            "ஹஇபா³ரெ நாரினு உத்³தா⁴ர 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "upabāsa-brata dhari’,    nānā kāyakleśa kari’,",
+            "bhasme ghṛta ḍhāliyā apāra",
+            "marilāma nija doṣe,    jarā-maraṇera phā̃se,",
+            "ha·ibāre nārinu uddhāra 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "upabāsa-brata dhari’,    nānā kāyakleśa kari’,",
+            "bhasme ghṛta ḍhāliyā apāra",
+            "marilāma nija doṣe,    jarā-maraṇera phā̃se,",
+            "ha·ibāre nārinu uddhāra 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "barṇāśrama[FLAG_HYPHEN_ALPHA]dharma yaji’,    nānā deba[FLAG_HYPHEN_ALPHA]debī bhaji’,",
+        "mada[FLAG_HYPHEN_ALPHA]garbe kāṭānu jībana",
+        "sthira nā ha·ila mana,    nā labhinu śānti[FLAG_HYPHEN_ALPHA]dhana,",
+        "nā bhajinu śrīkṛṣṇa[FLAG_HYPHEN_ALPHA]caraṇa 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बर्णाश्रमधर्म यजिऽ,    नाना दॆबदॆबी भजिऽ,",
+            "मदगर्बॆ काटानु जीबन",
+            "स्थिर ना हइल मन,    ना लभिनु शान्तिधन,",
+            "ना भजिनु श्रीक्ड़्ष्णचरण ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বর্ণাশ্রমধর্ম যজিঽ,    নানা দেবদেবী ভজিঽ,",
+            "মদগর্বে কাটানু জীবন",
+            "স্থির না হইল মন,    না লভিনু শান্তিধন,",
+            "না ভজিনু শ্রীক্ড়্ষ্ণচরণ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବର୍ଣାଶ୍ରମଧର୍ମ ଯଜିଽ,    ନାନା ଦେବଦେବୀ ଭଜିଽ,",
+            "ମଦଗର୍ବେ କାଟାନୁ ଜୀବନ",
+            "ସ୍ଥିର ନା ହଇଲ ମନ,    ନା ଲଭିନୁ ଶାନ୍ତିଧନ,",
+            "ନା ଭଜିନୁ ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣଚରଣ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બર્ણાશ્રમધર્મ યજિઽ,    નાના દેબદેબી ભજિઽ,",
+            "મદગર્બે કાટાનુ જીબન",
+            "સ્થિર ના હઇલ મન,    ના લભિનુ શાન્તિધન,",
+            "ના ભજિનુ શ્રીક્ડ઼્ષ્ણચરણ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "barṇāśrama-dharma yaji’,    nānā deba-debī bhaji’,",
+            "mada-garbe kāṭānu jībana",
+            "sthira nā ha·ila mana,    nā labhinu śānti-dhana,",
+            "nā bhajinu śrīkṛṣṇa-caraṇa 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬರ್ಣಾಶ್ರಮಧರ್ಮ ಯಜಿಽ,    ನಾನಾ ದೆಬದೆಬೀ ಭಜಿಽ,",
+            "ಮದಗರ್ಬೆ ಕಾಟಾನು ಜೀಬನ",
+            "ಸ್ಥಿರ ನಾ ಹಇಲ ಮನ,    ನಾ ಲಭಿನು ಶಾಂತಿಧನ,",
+            "ನಾ ಭಜಿನು ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಚರಣ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బర్ణాశ్రమధర్మ యజిఽ,    నానా దెబదెబీ భజిఽ,",
+            "మదగర్బె కాటాను జీబన",
+            "స్థిర నా హఇల మన,    నా లభిను శాంతిధన,",
+            "నా భజిను శ్రీక్డ్ష్ణచరణ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "барн̣а̄ш́рамадхарма йаджи',    на̄на̄ дэ̆бадэ̆бӣ бхаджи',",
+            "мадагарбэ̆ ка̄т̣а̄ну джӣбана",
+            "стхира на̄ хаила мана,    на̄ лабхину ш́а̄нтидхана,",
+            "на̄ бхаджину ш́рӣкр̤шн̣ачаран̣а 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബർണാശ്രമധർമ യജിഽ,    നാനാ ദെബദെബീ ഭജിഽ,",
+            "മദഗർബെ കാടാനു ജീബന",
+            "സ്ഥിര നാ ഹഇല മന,    നാ ലഭിനു ശാന്തിധന,",
+            "നാ ഭജിനു ശ്രീക്ഡ്ഷ്ണചരണ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ர்ணாஶ்ரமத⁴ர்ம யஜி(அ),    நானா தெ³ப³தெ³பீ³ ப⁴ஜி(அ),",
+            "மத³க³ர்பெ³ காடானு ஜீப³ன",
+            "ஸ்தி²ர நா ஹஇல மன,    நா லபி⁴னு ஶாந்தித⁴ன,",
+            "நா ப⁴ஜினு ஶ்ரீக்ஃட்²ஷ்ணசரண 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "barṇāśrama-dharma yaji’,    nānā deba-debī bhaji’,",
+            "mada-garbe kāṭānu jībana",
+            "sthira nā ha·ila mana,    nā labhinu śānti-dhana,",
+            "nā bhajinu śrīkṛṣṇa-caraṇa 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "barṇāśrama-dharma yaji’,    nānā deba-debī bhaji’,",
+            "mada-garbe kāṭānu jībana",
+            "sthira nā ha·ila mana,    nā labhinu śānti-dhana,",
+            "nā bhajinu śrīkṛṣṇa-caraṇa 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "dhik mora e jībane,    dhik mora dhana[FLAG_HYPHEN_ALPHA]jane,",
+        "dhik mora barṇa[FLAG_HYPHEN_ALPHA]abhimāna",
+        "dhik mora kula[FLAG_HYPHEN_ALPHA]māne,    dhik śāstra[FLAG_HYPHEN_ALPHA]adhyayane,",
+        "haribhakti nā pāila sthāna 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "धिक् मॊर ऎ जीबनॆ,    धिक् मॊर धनजनॆ,",
+            "धिक् मॊर बर्णअभिमान",
+            "धिक् मॊर कुलमानॆ,    धिक् शास्त्रअध्ययनॆ,",
+            "हरिभक्ति ना पाइल स्थान ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ধিক্ মোর এ জীবনে,    ধিক্ মোর ধনজনে,",
+            "ধিক্ মোর বর্ণঅভিমান",
+            "ধিক্ মোর কুলমানে,    ধিক্ শাস্ত্রঅধ্যযনে,",
+            "হরিভক্তি না পাইল স্থান ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଧିକ୍ ମୋର ଏ ଜୀବନେ,    ଧିକ୍ ମୋର ଧନଜନେ,",
+            "ଧିକ୍ ମୋର ବର୍ଣଅଭିମାନ",
+            "ଧିକ୍ ମୋର କୁଲମାନେ,    ଧିକ୍ ଶାସ୍ତ୍ରଅଧ୍ୟଯନେ,",
+            "ହରିଭକ୍ତି ନା ପାଇଲ ସ୍ଥାନ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ધિક્ મોર એ જીબને,    ધિક્ મોર ધનજને,",
+            "ધિક્ મોર બર્ણઅભિમાન",
+            "ધિક્ મોર કુલમાને,    ધિક્ શાસ્ત્રઅધ્યયને,",
+            "હરિભક્તિ ના પાઇલ સ્થાન ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "dhik mora e jībane,    dhik mora dhana-jane,",
+            "dhik mora barṇa-abhimāna",
+            "dhik mora kula-māne,    dhik śāstra-adhyayane,",
+            "haribhakti nā pāila sthāna 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಧಿಕ್ ಮೊರ ಎ ಜೀಬನೆ,    ಧಿಕ್ ಮೊರ ಧನಜನೆ,",
+            "ಧಿಕ್ ಮೊರ ಬರ್ಣಅಭಿಮಾನ",
+            "ಧಿಕ್ ಮೊರ ಕುಲಮಾನೆ,    ಧಿಕ್ ಶಾಸ್ತ್ರಅಧ್ಯಯನೆ,",
+            "ಹರಿಭಕ್ತಿ ನಾ ಪಾಇಲ ಸ್ಥಾನ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ధిక్ మొర ఎ జీబనె,    ధిక్ మొర ధనజనె,",
+            "ధిక్ మొర బర్ణఅభిమాన",
+            "ధిక్ మొర కులమానె,    ధిక్ శాస్త్రఅధ్యయనె,",
+            "హరిభక్తి నా పాఇల స్థాన 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "дхик мо̆ра э̆ джӣбанэ̆,    дхик мо̆ра дханаджанэ̆,",
+            "дхик мо̆ра барн̣аабхима̄на",
+            "дхик мо̆ра кулама̄нэ̆,    дхик ш́а̄страадхйайанэ̆,",
+            "харибхакти на̄ па̄ила стха̄на 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ധിക് മൊര എ ജീബനെ,    ധിക് മൊര ധനജനെ,",
+            "ധിക് മൊര ബർണഅഭിമാന",
+            "ധിക് മൊര കുലമാനെ,    ധിക് ശാസ്ത്രഅധ്യയനെ,",
+            "ഹരിഭക്തി നാ പാഇല സ്ഥാന 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தி⁴க் மொர எ ஜீப³னெ,    தி⁴க் மொர த⁴னஜனெ,",
+            "தி⁴க் மொர ப³ர்ணஅபி⁴மான",
+            "தி⁴க் மொர குலமானெ,    தி⁴க் ஶாஸ்த்ரஅத்⁴யயனெ,",
+            "ஹரிப⁴க்தி நா பாஇல ஸ்தா²ன 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "dhik mora e jībane,    dhik mora dhana-jane,",
+            "dhik mora barṇa-abhimāna",
+            "dhik mora kula-māne,    dhik śāstra-adhyayane,",
+            "haribhakti nā pāila sthāna 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "dhik mora e jībane,    dhik mora dhana-jane,",
+            "dhik mora barṇa-abhimāna",
+            "dhik mora kula-māne,    dhik śāstra-adhyayane,",
+            "haribhakti nā pāila sthāna 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- কুহর—গর্ত; ঊর্ণনাভি—মাকড়সা ।"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Anutāpa",
+    "Upalabdhi from Kalyāṇa-kalpataru"
+  ]
+}

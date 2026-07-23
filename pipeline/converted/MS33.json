@@ -1,0 +1,677 @@
+{
+ "uid": "MS33",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "কেন মন, কামেরে নাচাও প্রেম-প্রায় ?"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "kena mana, kāmere nācāo prema-prāya ?"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "kena mana, kāmere nācāo prema[FLAG_HYPHEN_ALPHA]prāya ?",
+    "carmamāṁsamaya kāma,    jaḓasukha abirāma,",
+    "jaḓa biṣayete sadā dhāya 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कॆन मन, कामॆरॆ नाचाऒ प्रॆमप्राय ?",
+      "चर्ममांसमय काम,    जḓअसुख अबिराम,",
+      "जḓअ बिषयॆतॆ सदा धाय १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কেন মন, কামেরে নাচাও প্রেমপ্রায় ?",
+      "চর্মমাংসময় কাম,    জḓঅসুখ অবিরাম,",
+      "জḓঅ বিষয়েতে সদা ধায় ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କେନ ମନ, କାମେରେ ନାଚାଓ ପ୍ରେମପ୍ରାୟ ?",
+      "ଚର୍ମମାଂସମୟ କାମ,    ଜḓଅସୁଖ ଅବିରାମ,",
+      "ଜḓଅ ବିଷୟେତେ ସଦା ଧାୟ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કેન મન, કામેરે નાચાઓ પ્રેમપ્રાય ?",
+      "ચર્મમાંસમય કામ,    જḓઅસુખ અબિરામ,",
+      "જḓઅ બિષયેતે સદા ધાય ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kena mana, kāmere nācāo prema-prāya ?",
+      "carmamāṁsamaya kāma,    jaḓasukha abirāma,",
+      "jaḓa biṣayete sadā dhāya 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕೆನ ಮನ, ಕಾಮೆರೆ ನಾಚಾಒ ಪ್ರೆಮಪ್ರಾಯ ?",
+      "ಚರ್ಮಮಾಂಸಮಯ ಕಾಮ,    ಜḓಅಸುಖ ಅಬಿರಾಮ,",
+      "ಜḓಅ ಬಿಷಯೆತೆ ಸದಾ ಧಾಯ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కెన మన, కామెరె నాచాఒ ప్రెమప్రాయ ?",
+      "చర్మమాంసమయ కామ,    జḓఅసుఖ అబిరామ,",
+      "జḓఅ బిషయెతె సదా ధాయ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кэ̆на мана, ка̄мэ̆рэ̆ на̄ча̄о̆ прэ̆мапра̄йа ?",
+      "чармама̄м̣самайа ка̄ма,    джаḓасукха абира̄ма,",
+      "джаḓа бишайэ̆тэ̆ сада̄ дха̄йа 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കെന മന, കാമെരെ നാചാഒ പ്രെമപ്രായ ?",
+      "ചർമമാംസമയ കാമ,    ജḓഅസുഖ അബിരാമ,",
+      "ജḓഅ ബിഷയെതെ സദാ ധായ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கென மன, காமெரெ நாசாஒ ப்ரெமப்ராய ?",
+      "சர்மமாம்ʼஸமய காம,    ஜḓஅஸுக² அபி³ராம,",
+      "ஜḓஅ பி³ஷயெதெ ஸதா³ தா⁴ய 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kena mana, kāmere nācāo prema-prāya ?",
+      "carmamāṁsamaya kāma,    jaḍasukha abirāma,",
+      "jaḍa biṣayete sadā dhāya 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kena mana, kāmere nācāo prema-prāya ?",
+      "carmamāṁsamaya kāma,    jaḓasukha abirāma,",
+      "jaḓa biṣayete sadā dhāya 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "jībera sbarūpa[FLAG_HYPHEN_ALPHA]dharma,    citsbarūpe prema[FLAG_HYPHEN_ALPHA]marma,",
+    "tāhāra biṣayamātra hari",
+    "kāma[FLAG_HYPHEN_ALPHA]ābaraṇe hāya,    prema ebe supta[FLAG_HYPHEN_ALPHA]prāya,",
+    "preme jāgāo kāma dūra kari’ 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जीबॆर स्बरूपधर्म,    चित्स्बरूपॆ प्रॆममर्म,",
+      "ताहार बिषयमात्र हरि",
+      "कामआबरणॆ हाय,    प्रॆम ऎबॆ सुप्तप्राय,",
+      "प्रॆमॆ जागाऒ काम दूर करिऽ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জীবের স্বরূপধর্ম,    চিৎস্বরূপে প্রেমমর্ম,",
+      "তাহার বিষয়মাত্র হরি",
+      "কামআবরণে হায়,    প্রেম এবে সুপ্তপ্রায়,",
+      "প্রেমে জাগাও কাম দূর করিঽ ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜୀବେର ସ୍ବରୂପଧର୍ମ,    ଚିତ୍ସ୍ବରୂପେ ପ୍ରେମମର୍ମ,",
+      "ତାହାର ବିଷୟମାତ୍ର ହରି",
+      "କାମଆବରଣେ ହାୟ,    ପ୍ରେମ ଏବେ ସୁପ୍ତପ୍ରାୟ,",
+      "ପ୍ରେମେ ଜାଗାଓ କାମ ଦୂର କରିଽ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જીબેર સ્બરૂપધર્મ,    ચિત્સ્બરૂપે પ્રેમમર્મ,",
+      "તાહાર બિષયમાત્ર હરિ",
+      "કામઆબરણે હાય,    પ્રેમ એબે સુપ્તપ્રાય,",
+      "પ્રેમે જાગાઓ કામ દૂર કરિઽ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jībera sbarūpa-dharma,    citsbarūpe prema-marma,",
+      "tāhāra biṣayamātra hari",
+      "kāma-ābaraṇe hāya,    prema ebe supta-prāya,",
+      "preme jāgāo kāma dūra kari’ 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜೀಬೆರ ಸ್ಬರೂಪಧರ್ಮ,    ಚಿತ್ಸ್ಬರೂಪೆ ಪ್ರೆಮಮರ್ಮ,",
+      "ತಾಹಾರ ಬಿಷಯಮಾತ್ರ ಹರಿ",
+      "ಕಾಮಆಬರಣೆ ಹಾಯ,    ಪ್ರೆಮ ಎಬೆ ಸುಪ್ತಪ್ರಾಯ,",
+      "ಪ್ರೆಮೆ ಜಾಗಾಒ ಕಾಮ ದೂರ ಕರಿಽ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జీబెర స్బరూపధర్మ,    చిత్స్బరూపె ప్రెమమర్మ,",
+      "తాహార బిషయమాత్ర హరి",
+      "కామఆబరణె హాయ,    ప్రెమ ఎబె సుప్తప్రాయ,",
+      "ప్రెమె జాగాఒ కామ దూర కరిఽ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джӣбэ̆ра сбарӯпадхарма,    читсбарӯпэ̆ прэ̆мамарма,",
+      "та̄ха̄ра бишайама̄тра хари",
+      "ка̄маа̄баран̣э̆ ха̄йа,    прэ̆ма э̆бэ̆ суптапра̄йа,",
+      "прэ̆мэ̆ джа̄га̄о̆ ка̄ма дӯра кари' 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജീബെര സ്ബരൂപധർമ,    ചിത്സ്ബരൂപെ പ്രെമമർമ,",
+      "താഹാര ബിഷയമാത്ര ഹരി",
+      "കാമആബരണെ ഹായ,    പ്രെമ എബെ സുപ്തപ്രായ,",
+      "പ്രെമെ ജാഗാഒ കാമ ദൂര കരിഽ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜீபெ³ர ஸ்ப³ரூபத⁴ர்ம,    சித்ஸ்ப³ரூபெ ப்ரெமமர்ம,",
+      "தாஹார பி³ஷயமாத்ர ஹரி",
+      "காமஆப³ரணெ ஹாய,    ப்ரெம எபெ³ ஸுப்தப்ராய,",
+      "ப்ரெமெ ஜாகா³ஒ காம தூ³ர கரி(அ) 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jībera sbarūpa-dharma,    citsbarūpe prema-marma,",
+      "tāhāra biṣayamātra hari",
+      "kāma-ābaraṇe hāya,    prema ebe supta-prāya,",
+      "preme jāgāo kāma dūra kari’ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jībera sbarūpa-dharma,    citsbarūpe prema-marma,",
+      "tāhāra biṣayamātra hari",
+      "kāma-ābaraṇe hāya,    prema ebe supta-prāya,",
+      "preme jāgāo kāma dūra kari’ 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "śraddhā haite sādhusaṅge,    bhajanera kriyā[FLAG_HYPHEN_ALPHA]raṅge,",
+    "niṣṭhā[FLAG_HYPHEN_ALPHA]ruci[FLAG_HYPHEN_ALPHA]āsakti[FLAG_HYPHEN_ALPHA]udaya",
+    "āsakti ha·ite bhāba,    tāhe prema prādurbhāba,",
+    "ei krame prema upajaya 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्रद्धा हैतॆ साधुसङ्गॆ,    भजनॆर क्रियारङ्गॆ,",
+      "निष्ठारुचिआसक्तिउदय",
+      "आसक्ति हइतॆ भाब,    ताहॆ प्रॆम प्रादुर्भाब,",
+      "ऎइ क्रमॆ प्रॆम उपजय ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্রদ্ধা হৈতে সাধুসঙ্গে,    ভজনের ক্রিয়ারঙ্গে,",
+      "নিষ্ঠারুচিআসক্তিউদয়",
+      "আসক্তি হইতে ভাব,    তাহে প্রেম প্রাদুর্ভাব,",
+      "এই ক্রমে প্রেম উপজয় ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ରଦ୍ଧା ହୈତେ ସାଧୁସଙ୍ଗେ,    ଭଜନେର କ୍ରିୟାରଙ୍ଗେ,",
+      "ନିଷ୍ଠାରୁଚିଆସକ୍ତିଉଦୟ",
+      "ଆସକ୍ତି ହଇତେ ଭାବ,    ତାହେ ପ୍ରେମ ପ୍ରାଦୁର୍ଭାବ,",
+      "ଏଇ କ୍ରମେ ପ୍ରେମ ଉପଜୟ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્રદ્ધા હૈતે સાધુસઙ્ગે,    ભજનેર ક્રિયારઙ્ગે,",
+      "નિષ્ઠારુચિઆસક્તિઉદય",
+      "આસક્તિ હઇતે ભાબ,    તાહે પ્રેમ પ્રાદુર્ભાબ,",
+      "એઇ ક્રમે પ્રેમ ઉપજય ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śraddhā haite sādhusaṅge,    bhajanera kriyā-raṅge,",
+      "niṣṭhā-ruci-āsakti-udaya",
+      "āsakti ha·ite bhāba,    tāhe prema prādurbhāba,",
+      "ei krame prema upajaya 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ರದ್ಧಾ ಹೈತೆ ಸಾಧುಸಂಗೆ,    ಭಜನೆರ ಕ್ರಿಯಾರಂಗೆ,",
+      "ನಿಷ್ಠಾರುಚಿಆಸಕ್ತಿಉದಯ",
+      "ಆಸಕ್ತಿ ಹಇತೆ ಭಾಬ,    ತಾಹೆ ಪ್ರೆಮ ಪ್ರಾದುರ್ಭಾಬ,",
+      "ಎಇ ಕ್ರಮೆ ಪ್ರೆಮ ಉಪಜಯ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్రద్ధా హైతె సాధుసంగె,    భజనెర క్రియారంగె,",
+      "నిష్ఠారుచిఆసక్తిఉదయ",
+      "ఆసక్తి హఇతె భాబ,    తాహె ప్రెమ ప్రాదుర్భాబ,",
+      "ఎఇ క్రమె ప్రెమ ఉపజయ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́раддха̄ хаитэ̆ са̄дхусан̇гэ̆,    бхаджанэ̆ра крийа̄ран̇гэ̆,",
+      "ништ̣ха̄ручиа̄сактиудайа",
+      "а̄сакти хаитэ̆ бха̄ба,    та̄хэ̆ прэ̆ма пра̄дурбха̄ба,",
+      "э̆и крамэ̆ прэ̆ма упаджайа 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്രദ്ധാ ഹൈതെ സാധുസംഗെ,    ഭജനെര ക്രിയാരംഗെ,",
+      "നിഷ്ഠാരുചിആസക്തിഉദയ",
+      "ആസക്തി ഹഇതെ ഭാബ,    താഹെ പ്രെമ പ്രാദുർഭാബ,",
+      "എഇ ക്രമെ പ്രെമ ഉപജയ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்ரத்³தா⁴ ஹைதெ ஸாது⁴ஸங்கெ³,    ப⁴ஜனெர க்ரியாரங்கெ³,",
+      "நிஷ்டா²ருசிஆஸக்திஉத³ய",
+      "ஆஸக்தி ஹஇதெ பா⁴ப³,    தாஹெ ப்ரெம ப்ராது³ர்பா⁴ப³,",
+      "எஇ க்ரமெ ப்ரெம உபஜய 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śraddhā haite sādhusaṅge,    bhajanera kriyā-raṅge,",
+      "niṣṭhā-ruci-āsakti-udaya",
+      "āsakti ha·ite bhāba,    tāhe prema prādurbhāba,",
+      "ei krame prema upajaya 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śraddhā haite sādhusaṅge,    bhajanera kriyā-raṅge,",
+      "niṣṭhā-ruci-āsakti-udaya",
+      "āsakti ha·ite bhāba,    tāhe prema prādurbhāba,",
+      "ei krame prema upajaya 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "ihāte yatana yā’ra,    sei pāya premasāra,",
+    "kramatyāge prema nāhi jāge",
+    "e[FLAG_HYPHEN_ALPHA]krama[FLAG_HYPHEN_ALPHA]sādhane bhaya,    kena kara’ durāśaya,",
+    "kāme prema kabhu nāhi lāge 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "इहातॆ यतन याऽर,    सॆइ पाय प्रॆमसार,",
+      "क्रमत्यागॆ प्रॆम नाहि जागॆ",
+      "ऎक्रमसाधनॆ भय,    कॆन करऽ दुराशय,",
+      "कामॆ प्रॆम कभु नाहि लागॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ইহাতে যতন যাঽর,    সেই পায় প্রেমসার,",
+      "ক্রমত্যাগে প্রেম নাহি জাগে",
+      "এক্রমসাধনে ভয়,    কেন করঽ দুরাশয়,",
+      "কামে প্রেম কভু নাহি লাগে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଇହାତେ ଯତନ ଯାଽର,    ସେଇ ପାୟ ପ୍ରେମସାର,",
+      "କ୍ରମତ୍ୟାଗେ ପ୍ରେମ ନାହି ଜାଗେ",
+      "ଏକ୍ରମସାଧନେ ଭୟ,    କେନ କରଽ ଦୁରାଶୟ,",
+      "କାମେ ପ୍ରେମ କଭୁ ନାହି ଲାଗେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઇહાતે યતન યાઽર,    સેઇ પાય પ્રેમસાર,",
+      "ક્રમત્યાગે પ્રેમ નાહિ જાગે",
+      "એક્રમસાધને ભય,    કેન કરઽ દુરાશય,",
+      "કામે પ્રેમ કભુ નાહિ લાગે ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ihāte yatana yā’ra,    sei pāya premasāra,",
+      "kramatyāge prema nāhi jāge",
+      "e-krama-sādhane bhaya,    kena kara’ durāśaya,",
+      "kāme prema kabhu nāhi lāge 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಇಹಾತೆ ಯತನ ಯಾಽರ,    ಸೆಇ ಪಾಯ ಪ್ರೆಮಸಾರ,",
+      "ಕ್ರಮತ್ಯಾಗೆ ಪ್ರೆಮ ನಾಹಿ ಜಾಗೆ",
+      "ಎಕ್ರಮಸಾಧನೆ ಭಯ,    ಕೆನ ಕರಽ ದುರಾಶಯ,",
+      "ಕಾಮೆ ಪ್ರೆಮ ಕಭು ನಾಹಿ ಲಾಗೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఇహాతె యతన యాఽర,    సెఇ పాయ ప్రెమసార,",
+      "క్రమత్యాగె ప్రెమ నాహి జాగె",
+      "ఎక్రమసాధనె భయ,    కెన కరఽ దురాశయ,",
+      "కామె ప్రెమ కభు నాహి లాగె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "иха̄тэ̆ йатана йа̄'ра,    сэ̆и па̄йа прэ̆маса̄ра,",
+      "краматйа̄гэ̆ прэ̆ма на̄хи джа̄гэ̆",
+      "э̆крамаса̄дханэ̆ бхайа,    кэ̆на кара' дура̄ш́айа,",
+      "ка̄мэ̆ прэ̆ма кабху на̄хи ла̄гэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഇഹാതെ യതന യാഽര,    സെഇ പായ പ്രെമസാര,",
+      "ക്രമത്യാഗെ പ്രെമ നാഹി ജാഗെ",
+      "എക്രമസാധനെ ഭയ,    കെന കരഽ ദുരാശയ,",
+      "കാമെ പ്രെമ കഭു നാഹി ലാഗെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "இஹாதெ யதன யா(அ)ர,    ஸெஇ பாய ப்ரெமஸார,",
+      "க்ரமத்யாகெ³ ப்ரெம நாஹி ஜாகெ³",
+      "எக்ரமஸாத⁴னெ ப⁴ய,    கென கர(அ) து³ராஶய,",
+      "காமெ ப்ரெம கபு⁴ நாஹி லாகெ³ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ihāte yatana yā’ra,    sei pāya premasāra,",
+      "kramatyāge prema nāhi jāge",
+      "e-krama-sādhane bhaya,    kena kara’ durāśaya,",
+      "kāme prema kabhu nāhi lāge 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ihāte yatana yā’ra,    sei pāya premasāra,",
+      "kramatyāge prema nāhi jāge",
+      "e-krama-sādhane bhaya,    kena kara’ durāśaya,",
+      "kāme prema kabhu nāhi lāge 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "nāṭakābhinaya prāya,    sakapaṭa prema bhāya,",
+    "tāhe mātra indriya[FLAG_HYPHEN_ALPHA]santoṣa",
+    "indriya[FLAG_HYPHEN_ALPHA]toṣaṇa chāra,    sadā kara’ parihāra,",
+    "chāḓa’ bhāi aparādha[FLAG_HYPHEN_ALPHA]doṣa 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "नाटकाभिनय प्राय,    सकपट प्रॆम भाय,",
+      "ताहॆ मात्र इन्द्रियसन्तॊष",
+      "इन्द्रियतॊषण छार,    सदा करऽ परिहार,",
+      "छाḓअऽ भाइ अपराधदॊष ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নাটকাভিনয় প্রায়,    সকপট প্রেম ভায়,",
+      "তাহে মাত্র ইন্দ্রিয়সন্তোষ",
+      "ইন্দ্রিয়তোষণ ছার,    সদা করঽ পরিহার,",
+      "ছাḓঅঽ ভাই অপরাধদোষ ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନାଟକାଭିନୟ ପ୍ରାୟ,    ସକପଟ ପ୍ରେମ ଭାୟ,",
+      "ତାହେ ମାତ୍ର ଇନ୍ଦ୍ରିୟସନ୍ତୋଷ",
+      "ଇନ୍ଦ୍ରିୟତୋଷଣ ଛାର,    ସଦା କରଽ ପରିହାର,",
+      "ଛାḓଅଽ ଭାଇ ଅପରାଧଦୋଷ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નાટકાભિનય પ્રાય,    સકપટ પ્રેમ ભાય,",
+      "તાહે માત્ર ઇન્દ્રિયસન્તોષ",
+      "ઇન્દ્રિયતોષણ છાર,    સદા કરઽ પરિહાર,",
+      "છાḓઅઽ ભાઇ અપરાધદોષ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nāṭakābhinaya prāya,    sakapaṭa prema bhāya,",
+      "tāhe mātra indriya-santoṣa",
+      "indriya-toṣaṇa chāra,    sadā kara’ parihāra,",
+      "chāḓa’ bhāi aparādha-doṣa 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಾಟಕಾಭಿನಯ ಪ್ರಾಯ,    ಸಕಪಟ ಪ್ರೆಮ ಭಾಯ,",
+      "ತಾಹೆ ಮಾತ್ರ ಇಂದ್ರಿಯಸಂತೊಷ",
+      "ಇಂದ್ರಿಯತೊಷಣ ಛಾರ,    ಸದಾ ಕರಽ ಪರಿಹಾರ,",
+      "ಛಾḓಅಽ ಭಾಇ ಅಪರಾಧದೊಷ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నాటకాభినయ ప్రాయ,    సకపట ప్రెమ భాయ,",
+      "తాహె మాత్ర ఇంద్రియసంతొష",
+      "ఇంద్రియతొషణ ఛార,    సదా కరఽ పరిహార,",
+      "ఛాḓఅఽ భాఇ అపరాధదొష 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "на̄т̣ака̄бхинайа пра̄йа,    сакапат̣а прэ̆ма бха̄йа,",
+      "та̄хэ̆ ма̄тра индрийасанто̆ша",
+      "индрийато̆шан̣а чха̄ра,    сада̄ кара' париха̄ра,",
+      "чха̄ḓа' бха̄и апара̄дхадо̆ша 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നാടകാഭിനയ പ്രായ,    സകപട പ്രെമ ഭായ,",
+      "താഹെ മാത്ര ഇന്ദ്രിയസന്തൊഷ",
+      "ഇന്ദ്രിയതൊഷണ ഛാര,    സദാ കരഽ പരിഹാര,",
+      "ഛാḓഅഽ ഭാഇ അപരാധദൊഷ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நாடகாபி⁴னய ப்ராய,    ஸகபட ப்ரெம பா⁴ய,",
+      "தாஹெ மாத்ர இந்த்³ரியஸந்தொஷ",
+      "இந்த்³ரியதொஷண சா²ர,    ஸதா³ கர(அ) பரிஹார,",
+      "சா²ḓஅ(அ) பா⁴இ அபராத⁴தொ³ஷ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nāṭakābhinaya prāya,    sakapaṭa prema bhāya,",
+      "tāhe mātra indriya-santoṣa",
+      "indriya-toṣaṇa chāra,    sadā kara’ parihāra,",
+      "chāḍa’ bhāi aparādha-doṣa 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nāṭakābhinaya prāya,    sakapaṭa prema bhāya,",
+      "tāhe mātra indriya-santoṣa",
+      "indriya-toṣaṇa chāra,    sadā kara’ parihāra,",
+      "chāḓa’ bhāi aparādha-doṣa 5"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Upadeśa from Kalyāṇa Kalpataru"
+ ]
+}

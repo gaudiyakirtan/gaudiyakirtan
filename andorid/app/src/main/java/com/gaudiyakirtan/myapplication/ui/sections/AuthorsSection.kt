@@ -11,7 +11,11 @@ import com.gaudiyakirtan.myapplication.models.Author
 import com.gaudiyakirtan.myapplication.ui.components.AuthorCard
 
 @Composable
-fun AuthorsSection(authors: List<Author>) {
+fun AuthorsSection(
+    authors: List<Author>,
+    songCounts: Map<String, Int> = emptyMap(),
+    onAuthorClick: (String) -> Unit = {}
+) {
     Column(
         modifier = Modifier.fillMaxWidth(),
         verticalArrangement = Arrangement.spacedBy(16.dp)
@@ -27,7 +31,11 @@ fun AuthorsSection(authors: List<Author>) {
             contentPadding = PaddingValues(horizontal = 16.dp)
         ) {
             items(authors) { author ->
-                AuthorCard(author = author)
+                AuthorCard(
+                    author = author,
+                    songCount = songCounts[author.uid],
+                    onClick = { onAuthorClick(author.uid) }
+                )
             }
         }
     }

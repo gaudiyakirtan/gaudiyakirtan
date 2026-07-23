@@ -1,0 +1,615 @@
+{
+  "uid": "MS15",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "মন রে, কেন মিছে ভজিছ অসার ?"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "mana re, kena miche bhajicha asāra ?"
+    },
+    {
+      "script_code": "Deva",
+      "text": "मन रे, केन मिछे भजिछ असार ?"
+    },
+    {
+      "script_code": "Telu",
+      "text": "మన రే, కేన మిఛే భజిఛ అసార ?"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಮನ ರೇ, ಕೇನ ಮಿಛೇ ಭಜಿಛ ಅಸಾರ ?"
+    },
+    {
+      "script_code": "Taml",
+      "text": "மன ரே, கேன மிசே² ப⁴ஜிச² அஸார ?"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "മന രേ, കേന മിഛേ ഭജിഛ അസാര ?"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "મન રે, કેન મિછે ભજિછ અસાર ?"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ମନ ରେ, କେନ ମିଛେ ଭଜିଛ ଅସାର ?"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "мана рэ, кэна мичхэ бхаджичха аса̄ра ?"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "mana re, kena miche bhajicha asāra ?",
+        "bhūtamaya e saṁsāra,    jībera pakṣete chāra,",
+        "amaṅgala[FLAG_HYPHEN_ALPHA]samudra apāra 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "मन रॆ, कॆन मिछॆ भजिछ असार ?",
+            "भूतमय ऎ संसार,    जीबॆर पक्षॆतॆ छार,",
+            "अमङ्गलसमुद्र अपार १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মন রে, কেন মিছে ভজিছ অসার ?",
+            "ভূতময় এ সংসার,    জীবের পক্ষেতে ছার,",
+            "অমঙ্গলসমুদ্র অপার ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମନ ରେ, କେନ ମିଛେ ଭଜିଛ ଅସାର ?",
+            "ଭୂତମୟ ଏ ସଂସାର,    ଜୀବେର ପକ୍ଷେତେ ଛାର,",
+            "ଅମଙ୍ଗଲସମୁଦ୍ର ଅପାର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મન રે, કેન મિછે ભજિછ અસાર ?",
+            "ભૂતમય એ સંસાર,    જીબેર પક્ષેતે છાર,",
+            "અમઙ્ગલસમુદ્ર અપાર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "mana re, kena miche bhajicha asāra ?",
+            "bhūtamaya e saṁsāra,    jībera pakṣete chāra,",
+            "amaṅgala-samudra apāra 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮನ ರೆ, ಕೆನ ಮಿಛೆ ಭಜಿಛ ಅಸಾರ ?",
+            "ಭೂತಮಯ ಎ ಸಂಸಾರ,    ಜೀಬೆರ ಪಕ್ಷೆತೆ ಛಾರ,",
+            "ಅಮಂಗಲಸಮುದ್ರ ಅಪಾರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మన రె, కెన మిఛె భజిఛ అసార ?",
+            "భూతమయ ఎ సంసార,    జీబెర పక్షెతె ఛార,",
+            "అమంగలసముద్ర అపార 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "мана рэ̆, кэ̆на мичхэ̆ бхаджичха аса̄ра ?",
+            "бхӯтамайа э̆ сам̣са̄ра,    джӣбэ̆ра пакшэ̆тэ̆ чха̄ра,",
+            "аман̇галасамудра апа̄ра 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മന രെ, കെന മിഛെ ഭജിഛ അസാര ?",
+            "ഭൂതമയ എ സംസാര,    ജീബെര പക്ഷെതെ ഛാര,",
+            "അമംഗലസമുദ്ര അപാര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மன ரெ, கென மிசெ² ப⁴ஜிச² அஸார ?",
+            "பூ⁴தமய எ ஸம்ʼஸார,    ஜீபெ³ர பக்ஷெதெ சா²ர,",
+            "அமங்க³லஸமுத்³ர அபார 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "mana re, kena miche bhajicha asāra ?",
+            "bhūtamaya e saṁsāra,    jībera pakṣete chāra,",
+            "amaṅgala-samudra apāra 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "mana re, kena miche bhajicha asāra ?",
+            "bhūtamaya e saṁsāra,    jībera pakṣete chāra,",
+            "amaṅgala-samudra apāra 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "bhūtātīta śuddhajība,    nirañjana sadā śiba,",
+        "māyātīta premera ādhāra",
+        "taba śuddhasattā tāi,    e jaḓa[FLAG_HYPHEN_ALPHA]jagate bhāi,",
+        "kena mugdha hao bāra bāra 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भूतातीत शुद्धजीब,    निरञ्जन सदा शिब,",
+            "मायातीत प्रॆमॆर आधार",
+            "तब शुद्धसत्ता ताइ,    ऎ जḓअजगतॆ भाइ,",
+            "कॆन मुग्ध हऒ बार बार २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভূতাতীত শুদ্ধজীব,    নিরঞ্জন সদা শিব,",
+            "মায়াতীত প্রেমের আধার",
+            "তব শুদ্ধসত্তা তাই,    এ জḓঅজগতে ভাই,",
+            "কেন মুগ্ধ হও বার বার ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭୂତାତୀତ ଶୁଦ୍ଧଜୀବ,    ନିରଞ୍ଜନ ସଦା ଶିବ,",
+            "ମାୟାତୀତ ପ୍ରେମେର ଆଧାର",
+            "ତବ ଶୁଦ୍ଧସତ୍ତା ତାଇ,    ଏ ଜḓଅଜଗତେ ଭାଇ,",
+            "କେନ ମୁଗ୍ଧ ହଓ ବାର ବାର ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભૂતાતીત શુદ્ધજીબ,    નિરઞ્જન સદા શિબ,",
+            "માયાતીત પ્રેમેર આધાર",
+            "તબ શુદ્ધસત્તા તાઇ,    એ જḓઅજગતે ભાઇ,",
+            "કેન મુગ્ધ હઓ બાર બાર ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhūtātīta śuddhajība,    nirañjana sadā śiba,",
+            "māyātīta premera ādhāra",
+            "taba śuddhasattā tāi,    e jaḓa-jagate bhāi,",
+            "kena mugdha hao bāra bāra 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭೂತಾತೀತ ಶುದ್ಧಜೀಬ,    ನಿರಂಜನ ಸದಾ ಶಿಬ,",
+            "ಮಾಯಾತೀತ ಪ್ರೆಮೆರ ಆಧಾರ",
+            "ತಬ ಶುದ್ಧಸತ್ತಾ ತಾಇ,    ಎ ಜḓಅಜಗತೆ ಭಾಇ,",
+            "ಕೆನ ಮುಗ್ಧ ಹಒ ಬಾರ ಬಾರ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భూతాతీత శుద్ధజీబ,    నిరంజన సదా శిబ,",
+            "మాయాతీత ప్రెమెర ఆధార",
+            "తబ శుద్ధసత్తా తాఇ,    ఎ జḓఅజగతె భాఇ,",
+            "కెన ముగ్ధ హఒ బార బార 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхӯта̄тӣта ш́уддхаджӣба,    ниран̃джана сада̄ ш́иба,",
+            "ма̄йа̄тӣта прэ̆мэ̆ра а̄дха̄ра",
+            "таба ш́уддхасатта̄ та̄и,    э̆ джаḓаджагатэ̆ бха̄и,",
+            "кэ̆на мугдха хао̆ ба̄ра ба̄ра 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭൂതാതീത ശുദ്ധജീബ,    നിരഞ്ജന സദാ ശിബ,",
+            "മായാതീത പ്രെമെര ആധാര",
+            "തബ ശുദ്ധസത്താ താഇ,    എ ജḓഅജഗതെ ഭാഇ,",
+            "കെന മുഗ്ധ ഹഒ ബാര ബാര 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பூ⁴தாதீத ஶுத்³த⁴ஜீப³,    நிரஞ்ஜன ஸதா³ ஶிப³,",
+            "மாயாதீத ப்ரெமெர ஆதா⁴ர",
+            "தப³ ஶுத்³த⁴ஸத்தா தாஇ,    எ ஜḓஅஜக³தெ பா⁴இ,",
+            "கென முக்³த⁴ ஹஒ பா³ர பா³ர 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhūtātīta śuddhajība,    nirañjana sadā śiba,",
+            "māyātīta premera ādhāra",
+            "taba śuddhasattā tāi,    e jaḍa-jagate bhāi,",
+            "kena mugdha hao bāra bāra 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhūtātīta śuddhajība,    nirañjana sadā śiba,",
+            "māyātīta premera ādhāra",
+            "taba śuddhasattā tāi,    e jaḓa-jagate bhāi,",
+            "kena mugdha hao bāra bāra 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "phire dekha ekabāra,    ātmā amṛtera dhāra,",
+        "tā’te buddhi ucita tomāra",
+        "tumi ātmā[FLAG_HYPHEN_ALPHA]rūpī ha’ye,    śrīcaitanya[FLAG_HYPHEN_ALPHA]samāśraye,",
+        "bṛndābane thāka anibāra 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "फिरॆ दॆख ऎकबार,    आत्मा अम्ड़्तॆर धार,",
+            "ताऽतॆ बुद्धि उचित तॊमार",
+            "तुमि आत्मारूपी हऽयॆ,    श्रीचैतन्यसमाश्रयॆ,",
+            "ब्ड़्न्दाबनॆ थाक अनिबार ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ফিরে দেখ একবার,    আত্মা অম্ড়্তের ধার,",
+            "তাঽতে বুদ্ধি উচিত তোমার",
+            "তুমি আত্মারূপী হঽয়ে,    শ্রীচৈতন্যসমাশ্রয়ে,",
+            "ব্ড়্ন্দাবনে থাক অনিবার ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଫିରେ ଦେଖ ଏକବାର,    ଆତ୍ମା ଅମ୍ଡ଼୍ତେର ଧାର,",
+            "ତାଽତେ ବୁଦ୍ଧି ଉଚିତ ତୋମାର",
+            "ତୁମି ଆତ୍ମାରୂପୀ ହଽୟେ,    ଶ୍ରୀଚୈତନ୍ୟସମାଶ୍ରୟେ,",
+            "ବ୍ଡ଼୍ନ୍ଦାବନେ ଥାକ ଅନିବାର ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ફિરે દેખ એકબાર,    આત્મા અમ્ડ઼્તેર ધાર,",
+            "તાઽતે બુદ્ધિ ઉચિત તોમાર",
+            "તુમિ આત્મારૂપી હઽયે,    શ્રીચૈતન્યસમાશ્રયે,",
+            "બ્ડ઼્ન્દાબને થાક અનિબાર ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "phire dekha ekabāra,    ātmā amṛtera dhāra,",
+            "tā’te buddhi ucita tomāra",
+            "tumi ātmā-rūpī ha’ye,    śrīcaitanya-samāśraye,",
+            "bṛndābane thāka anibāra 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಫಿರೆ ದೆಖ ಎಕಬಾರ,    ಆತ್ಮಾ ಅಂ‌ಡ಼್ತೆರ ಧಾರ,",
+            "ತಾಽತೆ ಬುದ್ಧಿ ಉಚಿತ ತೊಮಾರ",
+            "ತುಮಿ ಆತ್ಮಾರೂಪೀ ಹಽಯೆ,    ಶ್ರೀಚೈತನ್ಯಸಮಾಶ್ರಯೆ,",
+            "ಬ್‌ಡ಼್ನ್ದಾಬನೆ ಥಾಕ ಅನಿಬಾರ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఫిరె దెఖ ఎకబార,    ఆత్మా అమ్డ్తెర ధార,",
+            "తాఽతె బుద్ధి ఉచిత తొమార",
+            "తుమి ఆత్మారూపీ హఽయె,    శ్రీచైతన్యసమాశ్రయె,",
+            "బ్డ్న్దాబనె థాక అనిబార 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "пхирэ̆ дэ̆кха э̆каба̄ра,    а̄тма̄ амр̤тэ̆ра дха̄ра,",
+            "та̄'тэ̆ буддхи учита то̆ма̄ра",
+            "туми а̄тма̄рӯпӣ ха'йэ̆,    ш́рӣчаитанйасама̄ш́райэ̆,",
+            "бр̤нда̄банэ̆ тха̄ка аниба̄ра 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഫിരെ ദെഖ എകബാര,    ആത്മാ അമ്ഡ്തെര ധാര,",
+            "താഽതെ ബുദ്ധി ഉചിത തൊമാര",
+            "തുമി ആത്മാരൂപീ ഹഽയെ,    ശ്രീചൈതന്യസമാശ്രയെ,",
+            "ബ്ഡ്ന്ദാബനെ ഥാക അനിബാര 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பி²ரெ தெ³க² எகபா³ர,    ஆத்மா அம்ஃட்²தெர தா⁴ர,",
+            "தா(அ)தெ பு³த்³தி⁴ உசித தொமார",
+            "துமி ஆத்மாரூபீ ஹ(அ)யெ,    ஶ்ரீசைதன்யஸமாஶ்ரயெ,",
+            "ப்³ஃட்²ந்தா³ப³னெ தா²க அனிபா³ர 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "phire dekha ekabāra,    ātmā amṛtera dhāra,",
+            "tā’te buddhi ucita tomāra",
+            "tumi ātmā-rūpī ha’ye,    śrīcaitanya-samāśraye,",
+            "bṛndābane thāka anibāra 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "phire dekha ekabāra,    ātmā amṛtera dhāra,",
+            "tā’te buddhi ucita tomāra",
+            "tumi ātmā-rūpī ha’ye,    śrīcaitanya-samāśraye,",
+            "bṛndābane thāka anibāra 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "nityakāla sakhīsaṅge,    parānanda[FLAG_HYPHEN_ALPHA]sebāraṅge,",
+        "yugala[FLAG_HYPHEN_ALPHA]bhajana kara’ sāra",
+        "e[FLAG_HYPHEN_ALPHA]hena yugala[FLAG_HYPHEN_ALPHA]dhana,    chāḓe yei mūrkhajana,",
+        "tā’ra gati nāhi dekhi āra 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "नित्यकाल सखीसङ्गॆ,    परानन्दसॆबारङ्गॆ,",
+            "युगलभजन करऽ सार",
+            "ऎहॆन युगलधन,    छाḓऎ यॆइ मूर्खजन,",
+            "ताऽर गति नाहि दॆखि आर ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নিত্যকাল সখীসঙ্গে,    পরানন্দসেবারঙ্গে,",
+            "যুগলভজন করঽ সার",
+            "এহেন যুগলধন,    ছাḓএ যেই মূর্খজন,",
+            "তাঽর গতি নাহি দেখি আর ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନିତ୍ୟକାଲ ସଖୀସଙ୍ଗେ,    ପରାନନ୍ଦସେବାରଙ୍ଗେ,",
+            "ଯୁଗଲଭଜନ କରଽ ସାର",
+            "ଏହେନ ଯୁଗଲଧନ,    ଛାḓଏ ଯେଇ ମୂର୍ଖଜନ,",
+            "ତାଽର ଗତି ନାହି ଦେଖି ଆର ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નિત્યકાલ સખીસઙ્ગે,    પરાનન્દસેબારઙ્ગે,",
+            "યુગલભજન કરઽ સાર",
+            "એહેન યુગલધન,    છાḓએ યેઇ મૂર્ખજન,",
+            "તાઽર ગતિ નાહિ દેખિ આર ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nityakāla sakhīsaṅge,    parānanda-sebāraṅge,",
+            "yugala-bhajana kara’ sāra",
+            "e-hena yugala-dhana,    chāḓe yei mūrkhajana,",
+            "tā’ra gati nāhi dekhi āra 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಿತ್ಯಕಾಲ ಸಖೀಸಂಗೆ,    ಪರಾನಂದಸೆಬಾರಂಗೆ,",
+            "ಯುಗಲಭಜನ ಕರಽ ಸಾರ",
+            "ಎಹೆನ ಯುಗಲಧನ,    ಛಾḓಎ ಯೆಇ ಮೂರ್ಖಜನ,",
+            "ತಾಽರ ಗತಿ ನಾಹಿ ದೆಖಿ ಆರ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నిత్యకాల సఖీసంగె,    పరానందసెబారంగె,",
+            "యుగలభజన కరఽ సార",
+            "ఎహెన యుగలధన,    ఛాḓఎ యెఇ మూర్ఖజన,",
+            "తాఽర గతి నాహి దెఖి ఆర 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "нитйака̄ла сакхӣсан̇гэ̆,    пара̄нандасэ̆ба̄ран̇гэ̆,",
+            "йугалабхаджана кара' са̄ра",
+            "э̆хэ̆на йугаладхана,    чха̄ḓэ̆ йэ̆и мӯркхаджана,",
+            "та̄'ра гати на̄хи дэ̆кхи а̄ра 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നിത്യകാല സഖീസംഗെ,    പരാനന്ദസെബാരംഗെ,",
+            "യുഗലഭജന കരഽ സാര",
+            "എഹെന യുഗലധന,    ഛാḓഎ യെഇ മൂർഖജന,",
+            "താഽര ഗതി നാഹി ദെഖി ആര 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நித்யகால ஸகீ²ஸங்கெ³,    பரானந்த³ஸெபா³ரங்கெ³,",
+            "யுக³லப⁴ஜன கர(அ) ஸார",
+            "எஹென யுக³லத⁴ன,    சா²ḓஎ யெஇ மூர்க²ஜன,",
+            "தா(அ)ர க³தி நாஹி தெ³கி² ஆர 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nityakāla sakhīsaṅge,    parānanda-sebāraṅge,",
+            "yugala-bhajana kara’ sāra",
+            "e-hena yugala-dhana,    chāḍe yei mūrkhajana,",
+            "tā’ra gati nāhi dekhi āra 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nityakāla sakhīsaṅge,    parānanda-sebāraṅge,",
+            "yugala-bhajana kara’ sāra",
+            "e-hena yugala-dhana,    chāḓe yei mūrkhajana,",
+            "tā’ra gati nāhi dekhi āra 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- ভূতাতীত—পঞ্চভূতের অতীত; নিরঞ্জন—জড় উপাধিহীন; সদা শিব—সদা মঙ্গলময় ।"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Upadeśa from Kalyāṇa Kalpataru"
+  ]
+}

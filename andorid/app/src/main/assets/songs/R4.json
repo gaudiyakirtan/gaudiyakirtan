@@ -1,0 +1,1803 @@
+{
+  "uid": "R4",
+  "language_of_origin": "san",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীরাধা-কৃপা-কটাক্ষ-স্তোত্রম্"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "śrīrādhā-kṛpā-kaṭākṣa-stotram"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रीराधा-कृपा-कटाक्ष-स्तोत्रम्"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీరాధా-కృపా-కటాక్ష-స్తోత్రం"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀರಾಧಾ-ಕೃಪಾ-ಕಟಾಕ್ಷ-ಸ್ತೋತ್ರಂ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீராதா⁴-க்ருʼபா-கடாக்ஷ-ஸ்தோத்ரம்"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീരാധാ-കൃപാ-കടാക്ഷ-സ്തോത്രം"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીરાધા-કૃપા-કટાક્ષ-સ્તોત્રમ્"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀରାଧା-କୃପା-କଟାକ୍ଷ-ସ୍ତୋତ୍ରମ୍"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣра̄дха̄-кр̣па̄-кат̣а̄кша-стотрам"
+    }
+  ],
+  "author_uid": "?",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "অজানা লেখক"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Unknown Author"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "munīndravṛnda[FLAG_HYPHEN_ALPHA]vandite triloka[FLAG_HYPHEN_ALPHA]śokahāriṇī",
+        "prasanna[FLAG_HYPHEN_ALPHA]vaktrapaṅkaje nikuñja[FLAG_HYPHEN_ALPHA]bhū[FLAG_HYPHEN_ALPHA]vilāsini",
+        "vrajendra[FLAG_HYPHEN_ALPHA]bhānu[FLAG_HYPHEN_ALPHA]nandini vrajendra[FLAG_HYPHEN_ALPHA]sūnu[FLAG_HYPHEN_ALPHA]saṅgate",
+        "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "मुनीन्द्रव्ड़्न्दवन्दितॆ त्रिलॊकशॊकहारिणी",
+            "प्रसन्नवक्त्रपङ्कजॆ निकुञ्जभूविलासिनि",
+            "व्रजॆन्द्रभानुनन्दिनि व्रजॆन्द्रसूनुसङ्गतॆ",
+            "कदा करिष्यसीह मां क्ड़्पाकटाक्षभाजनम् १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মুনীন্দ্রব্ড়্ন্দবন্দিতে ত্রিলোকশোকহারিণী",
+            "প্রসন্নবক্ত্রপঙ্কজে নিকুঞ্জভূবিলাসিনি",
+            "ব্রজেন্দ্রভানুনন্দিনি ব্রজেন্দ্রসূনুসঙ্গতে",
+            "কদা করিষ্যসীহ মাং ক্ড়্পাকটাক্ষভাজনম্ ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମୁନୀନ୍ଦ୍ରବ୍ଡ଼୍ନ୍ଦବନ୍ଦିତେ ତ୍ରିଲୋକଶୋକହାରିଣୀ",
+            "ପ୍ରସନ୍ନବକ୍ତ୍ରପଙ୍କଜେ ନିକୁଞ୍ଜଭୂବିଲାସିନି",
+            "ବ୍ରଜେନ୍ଦ୍ରଭାନୁନନ୍ଦିନି ବ୍ରଜେନ୍ଦ୍ରସୂନୁସଙ୍ଗତେ",
+            "କଦା କରିଷ୍ୟସୀହ ମାଂ କ୍ଡ଼୍ପାକଟାକ୍ଷଭାଜନମ୍ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મુનીન્દ્રવ્ડ઼્ન્દવન્દિતે ત્રિલોકશોકહારિણી",
+            "પ્રસન્નવક્ત્રપઙ્કજે નિકુઞ્જભૂવિલાસિનિ",
+            "વ્રજેન્દ્રભાનુનન્દિનિ વ્રજેન્દ્રસૂનુસઙ્ગતે",
+            "કદા કરિષ્યસીહ માં ક્ડ઼્પાકટાક્ષભાજનમ્ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "munīndravṛnda-vandite triloka-śokahāriṇī",
+            "prasanna-vaktrapaṅkaje nikuñja-bhū-vilāsini",
+            "vrajendra-bhānu-nandini vrajendra-sūnu-saṅgate",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮುನೀಂದ್ರವ್‌ಡ಼್ನ್ದವಂದಿತೆ ತ್ರಿಲೊಕಶೊಕಹಾರಿಣೀ",
+            "ಪ್ರಸನ್ನವಕ್ತ್ರಪಂಕಜೆ ನಿಕುಂಜಭೂವಿಲಾಸಿನಿ",
+            "ವ್ರಜೆಂದ್ರಭಾನುನಂದಿನಿ ವ್ರಜೆಂದ್ರಸೂನುಸಂಗತೆ",
+            "ಕದಾ ಕರಿಷ್ಯಸೀಹ ಮಾಂ ಕ್‌ಡ಼್ಪಾಕಟಾಕ್ಷಭಾಜನಂ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మునీంద్రవ్డ్న్దవందితె త్రిలొకశొకహారిణీ",
+            "ప్రసన్నవక్త్రపంకజె నికుంజభూవిలాసిని",
+            "వ్రజెంద్రభానునందిని వ్రజెంద్రసూనుసంగతె",
+            "కదా కరిష్యసీహ మాం క్డ్పాకటాక్షభాజనం 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "мунӣндравр̤ндавандитэ̆ трило̆каш́о̆каха̄рин̣ӣ",
+            "прасаннавактрапан̇каджэ̆ никун̃джабхӯвила̄сини",
+            "враджэ̆ндрабха̄нунандини враджэ̆ндрасӯнусан̇гатэ̆",
+            "када̄ каришйасӣха ма̄м̣ кр̤па̄кат̣а̄кшабха̄джанам 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മുനീന്ദ്രവ്ഡ്ന്ദവന്ദിതെ ത്രിലൊകശൊകഹാരിണീ",
+            "പ്രസന്നവക്ത്രപങ്കജെ നികുഞ്ജഭൂവിലാസിനി",
+            "വ്രജെന്ദ്രഭാനുനന്ദിനി വ്രജെന്ദ്രസൂനുസംഗതെ",
+            "കദാ കരിഷ്യസീഹ മാം ക്ഡ്പാകടാക്ഷഭാജനം 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "முனீந்த்³ரவ்ஃட்²ந்த³வந்தி³தெ த்ரிலொகஶொகஹாரிணீ",
+            "ப்ரஸன்னவக்த்ரபங்கஜெ நிகுஞ்ஜபூ⁴விலாஸினி",
+            "வ்ரஜெந்த்³ரபா⁴னுனந்தி³னி வ்ரஜெந்த்³ரஸூனுஸங்க³தெ",
+            "கதா³ கரிஷ்யஸீஹ மாம்ʼ க்ஃட்²பாகடாக்ஷபா⁴ஜனம் 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "munīndravṛnda-vandite triloka-śokahāriṇī",
+            "prasanna-vaktrapaṅkaje nikuñja-bhū-vilāsini",
+            "vrajendra-bhānu-nandini vrajendra-sūnu-saṅgate",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "munīndravṛnda-vandite triloka-śokahāriṇī",
+            "prasanna-vaktrapaṅkaje nikuñja-bhū-vilāsini",
+            "vrajendra-bhānu-nandini vrajendra-sūnu-saṅgate",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "aśoka[FLAG_HYPHEN_ALPHA]vṛkṣa[FLAG_HYPHEN_ALPHA]vallarī[FLAG_HYPHEN_ALPHA]vitāna[FLAG_HYPHEN_ALPHA]maṇḍapa[FLAG_HYPHEN_ALPHA]sthite",
+        "pravālavāla[FLAG_HYPHEN_ALPHA]pallava[FLAG_HYPHEN_ALPHA]prabhā’ruṇāṅghri[FLAG_HYPHEN_ALPHA]komale",
+        "varābhayasphurat[FLAG_HYPHEN_ALPHA]kare prabhūta[FLAG_HYPHEN_ALPHA]sampadālaye",
+        "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अशॊकव्ड़्क्षवल्लरीवितानमण्डपस्थितॆ",
+            "प्रवालवालपल्लवप्रभाऽरुणाङ्घ्रिकॊमलॆ",
+            "वराभयस्फुरत्करॆ प्रभूतसम्पदालयॆ",
+            "कदा करिष्यसीह मां क्ड़्पाकटाक्षभाजनम् २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অশোকব্ড়্ক্ষবল্লরীবিতানমণ্ডপস্থিতে",
+            "প্রবালবালপল্লবপ্রভাঽরুণাঙ্ঘ্রিকোমলে",
+            "বরাভয়স্ফুরৎকরে প্রভূতসম্পদালয়ে",
+            "কদা করিষ্যসীহ মাং ক্ড়্পাকটাক্ষভাজনম্ ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅଶୋକବ୍ଡ଼୍କ୍ଷବଲ୍ଲରୀବିତାନମଣ୍ଡପସ୍ଥିତେ",
+            "ପ୍ରବାଲବାଲପଲ୍ଲବପ୍ରଭାଽରୁଣାଙ୍ଘ୍ରିକୋମଲେ",
+            "ବରାଭୟସ୍ଫୁରତ୍କରେ ପ୍ରଭୂତସମ୍ପଦାଲୟେ",
+            "କଦା କରିଷ୍ୟସୀହ ମାଂ କ୍ଡ଼୍ପାକଟାକ୍ଷଭାଜନମ୍ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અશોકવ્ડ઼્ક્ષવલ્લરીવિતાનમણ્ડપસ્થિતે",
+            "પ્રવાલવાલપલ્લવપ્રભાઽરુણાઙ્ઘ્રિકોમલે",
+            "વરાભયસ્ફુરત્કરે પ્રભૂતસમ્પદાલયે",
+            "કદા કરિષ્યસીહ માં ક્ડ઼્પાકટાક્ષભાજનમ્ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "aśoka-vṛkṣa-vallarī-vitāna-maṇḍapa-sthite",
+            "pravālavāla-pallava-prabhā’ruṇāṅghri-komale",
+            "varābhayasphurat-kare prabhūta-sampadālaye",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅಶೊಕವ್‌ಡ಼್ಕ್ಷವಲ್ಲರೀವಿತಾನಮಂಡಪಸ್ಥಿತೆ",
+            "ಪ್ರವಾಲವಾಲಪಲ್ಲವಪ್ರಭಾಽರುಣಾಂಘ್ರಿಕೊಮಲೆ",
+            "ವರಾಭಯಸ್ಫುರತ್ಕರೆ ಪ್ರಭೂತಸಂಪದಾಲಯೆ",
+            "ಕದಾ ಕರಿಷ್ಯಸೀಹ ಮಾಂ ಕ್‌ಡ಼್ಪಾಕಟಾಕ್ಷಭಾಜನಂ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అశొకవ్డ్క్షవల్లరీవితానమండపస్థితె",
+            "ప్రవాలవాలపల్లవప్రభాఽరుణాంఘ్రికొమలె",
+            "వరాభయస్ఫురత్కరె ప్రభూతసంపదాలయె",
+            "కదా కరిష్యసీహ మాం క్డ్పాకటాక్షభాజనం 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "аш́о̆кавр̤кшавалларӣвита̄наман̣д̣апастхитэ̆",
+            "права̄лава̄лапаллавапрабха̄'рун̣а̄н̇гхрико̆малэ̆",
+            "вара̄бхайаспхураткарэ̆ прабхӯтасампада̄лайэ̆",
+            "када̄ каришйасӣха ма̄м̣ кр̤па̄кат̣а̄кшабха̄джанам 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അശൊകവ്ഡ്ക്ഷവല്ലരീവിതാനമണ്ഡപസ്ഥിതെ",
+            "പ്രവാലവാലപല്ലവപ്രഭാഽരുണാംഘ്രികൊമലെ",
+            "വരാഭയസ്ഫുരത്കരെ പ്രഭൂതസമ്പദാലയെ",
+            "കദാ കരിഷ്യസീഹ മാം ക്ഡ്പാകടാക്ഷഭാജനം 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அஶொகவ்ஃட்²க்ஷவல்லரீவிதானமண்ட³பஸ்தி²தெ",
+            "ப்ரவாலவாலபல்லவப்ரபா⁴(அ)ருணாங்க்⁴ரிகொமலெ",
+            "வராப⁴யஸ்பு²ரத்கரெ ப்ரபூ⁴தஸம்பதா³லயெ",
+            "கதா³ கரிஷ்யஸீஹ மாம்ʼ க்ஃட்²பாகடாக்ஷபா⁴ஜனம் 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "aśoka-vṛkṣa-vallarī-vitāna-maṇḍapa-sthite",
+            "pravālavāla-pallava-prabhā’ruṇāṅghri-komale",
+            "varābhayasphurat-kare prabhūta-sampadālaye",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "aśoka-vṛkṣa-vallarī-vitāna-maṇḍapa-sthite",
+            "pravālavāla-pallava-prabhā’ruṇāṅghri-komale",
+            "varābhayasphurat-kare prabhūta-sampadālaye",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "anaṅga[FLAG_HYPHEN_ALPHA]raṅga[FLAG_HYPHEN_ALPHA]maṅgala[FLAG_HYPHEN_ALPHA]prasaṅga[FLAG_HYPHEN_ALPHA]bhaṅgurabhruvāṁ",
+        "suvibhramaṁ sasambhramaṁ dṛganta[FLAG_HYPHEN_ALPHA]bāṇa[FLAG_HYPHEN_ALPHA]pātanaiḥ",
+        "nirantaraṁ vaśīkṛta[FLAG_HYPHEN_ALPHA]pratīti[FLAG_HYPHEN_ALPHA]nandanandane",
+        "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अनङ्गरङ्गमङ्गलप्रसङ्गभङ्गुरभ्रुवां",
+            "सुविभ्रमं ससम्भ्रमं द्ड़्गन्तबाणपातनैः",
+            "निरन्तरं वशीक्ड़्तप्रतीतिनन्दनन्दनॆ",
+            "कदा करिष्यसीह मां क्ड़्पाकटाक्षभाजनम् ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অনঙ্গরঙ্গমঙ্গলপ্রসঙ্গভঙ্গুরভ্রুবাং",
+            "সুবিভ্রমং সসম্ভ্রমং দ্ড়্গন্তবাণপাতনৈঃ",
+            "নিরন্তরং বশীক্ড়্তপ্রতীতিনন্দনন্দনে",
+            "কদা করিষ্যসীহ মাং ক্ড়্পাকটাক্ষভাজনম্ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅନଙ୍ଗରଙ୍ଗମଙ୍ଗଲପ୍ରସଙ୍ଗଭଙ୍ଗୁରଭ୍ରୁବାଂ",
+            "ସୁବିଭ୍ରମଂ ସସମ୍ଭ୍ରମଂ ଦ୍ଡ଼୍ଗନ୍ତବାଣପାତନୈଃ",
+            "ନିରନ୍ତରଂ ବଶୀକ୍ଡ଼୍ତପ୍ରତୀତିନନ୍ଦନନ୍ଦନେ",
+            "କଦା କରିଷ୍ୟସୀହ ମାଂ କ୍ଡ଼୍ପାକଟାକ୍ଷଭାଜନମ୍ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અનઙ્ગરઙ્ગમઙ્ગલપ્રસઙ્ગભઙ્ગુરભ્રુવાં",
+            "સુવિભ્રમં સસમ્ભ્રમં દ્ડ઼્ગન્તબાણપાતનૈઃ",
+            "નિરન્તરં વશીક્ડ઼્તપ્રતીતિનન્દનન્દને",
+            "કદા કરિષ્યસીહ માં ક્ડ઼્પાકટાક્ષભાજનમ્ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "anaṅga-raṅga-maṅgala-prasaṅga-bhaṅgurabhruvāṁ",
+            "suvibhramaṁ sasambhramaṁ dṛganta-bāṇa-pātanaiḥ",
+            "nirantaraṁ vaśīkṛta-pratīti-nandanandane",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅನಂಗರಂಗಮಂಗಲಪ್ರಸಂಗಭಂಗುರಭ್ರುವಾಂ",
+            "ಸುವಿಭ್ರಮಂ ಸಸಂಭ್ರಮಂ ದ್‌ಡ಼್ಗಂತಬಾಣಪಾತನೈಃ",
+            "ನಿರಂತರಂ ವಶೀಕ್‌ಡ಼್ತಪ್ರತೀತಿನಂದನಂದನೆ",
+            "ಕದಾ ಕರಿಷ್ಯಸೀಹ ಮಾಂ ಕ್‌ಡ಼್ಪಾಕಟಾಕ್ಷಭಾಜನಂ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అనంగరంగమంగలప్రసంగభంగురభ్రువాం",
+            "సువిభ్రమం ససంభ్రమం ద్డ్గంతబాణపాతనైః",
+            "నిరంతరం వశీక్డ్తప్రతీతినందనందనె",
+            "కదా కరిష్యసీహ మాం క్డ్పాకటాక్షభాజనం 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "анан̇гаран̇гаман̇галапрасан̇габхан̇гурабхрува̄м̣",
+            "сувибхрамам̣ сасамбхрамам̣ др̤гантаба̄н̣апа̄танаих̣",
+            "нирантарам̣ ваш́ӣкр̤тапратӣтинандананданэ̆",
+            "када̄ каришйасӣха ма̄м̣ кр̤па̄кат̣а̄кшабха̄джанам 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അനംഗരംഗമംഗലപ്രസംഗഭംഗുരഭ്രുവാം",
+            "സുവിഭ്രമം സസംഭ്രമം ദ്ഡ്ഗന്തബാണപാതനൈഃ",
+            "നിരന്തരം വശീക്ഡ്തപ്രതീതിനന്ദനന്ദനെ",
+            "കദാ കരിഷ്യസീഹ മാം ക്ഡ്പാകടാക്ഷഭാജനം 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அனங்க³ரங்க³மங்க³லப்ரஸங்க³ப⁴ங்கு³ரப்⁴ருவாம்ʼ",
+            "ஸுவிப்⁴ரமம்ʼ ஸஸம்ப்⁴ரமம்ʼ த்³ஃட்²க³ந்தபா³ணபாதனை꞉",
+            "நிரந்தரம்ʼ வஶீக்ஃட்²தப்ரதீதிநந்த³னந்த³னெ",
+            "கதா³ கரிஷ்யஸீஹ மாம்ʼ க்ஃட்²பாகடாக்ஷபா⁴ஜனம் 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "anaṅga-raṅga-maṅgala-prasaṅga-bhaṅgurabhruvāṁ",
+            "suvibhramaṁ sasambhramaṁ dṛganta-bāṇa-pātanaiḥ",
+            "nirantaraṁ vaśīkṛta-pratīti-nandanandane",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "anaṅga-raṅga-maṅgala-prasaṅga-bhaṅgurabhruvāṁ",
+            "suvibhramaṁ sasambhramaṁ dṛganta-bāṇa-pātanaiḥ",
+            "nirantaraṁ vaśīkṛta-pratīti-nandanandane",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "taḓit[FLAG_HYPHEN_ALPHA]suvarṇa[FLAG_HYPHEN_ALPHA]campaka[FLAG_HYPHEN_ALPHA]pradīpta[FLAG_HYPHEN_ALPHA]gaura[FLAG_HYPHEN_ALPHA]vigrahe",
+        "mukhaprabhā[FLAG_HYPHEN_ALPHA]parāsta[FLAG_HYPHEN_ALPHA]koṭi[FLAG_HYPHEN_ALPHA]śāradendumaṇḍale",
+        "vicitra[FLAG_HYPHEN_ALPHA]citra[FLAG_HYPHEN_ALPHA]sañcaraccakora[FLAG_HYPHEN_ALPHA]śāvalocane",
+        "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तḓइत्सुवर्णचम्पकप्रदीप्तगौरविग्रहॆ",
+            "मुखप्रभापरास्तकॊटिशारदॆन्दुमण्डलॆ",
+            "विचित्रचित्रसञ्चरच्चकॊरशावलॊचनॆ",
+            "कदा करिष्यसीह मां क्ड़्पाकटाक्षभाजनम् ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তḓইৎসুবর্ণচম্পকপ্রদীপ্তগৌরবিগ্রহে",
+            "মুখপ্রভাপরাস্তকোটিশারদেন্দুমণ্ডলে",
+            "বিচিত্রচিত্রসঞ্চরচ্চকোরশাবলোচনে",
+            "কদা করিষ্যসীহ মাং ক্ড়্পাকটাক্ষভাজনম্ ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତḓଇତ୍ସୁବର୍ଣଚମ୍ପକପ୍ରଦୀପ୍ତଗୌରବିଗ୍ରହେ",
+            "ମୁଖପ୍ରଭାପରାସ୍ତକୋଟିଶାରଦେନ୍ଦୁମଣ୍ଡଲେ",
+            "ବିଚିତ୍ରଚିତ୍ରସଞ୍ଚରଚ୍ଚକୋରଶାବଲୋଚନେ",
+            "କଦା କରିଷ୍ୟସୀହ ମାଂ କ୍ଡ଼୍ପାକଟାକ୍ଷଭାଜନମ୍ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તḓઇત્સુવર્ણચમ્પકપ્રદીપ્તગૌરવિગ્રહે",
+            "મુખપ્રભાપરાસ્તકોટિશારદેન્દુમણ્ડલે",
+            "વિચિત્રચિત્રસઞ્ચરચ્ચકોરશાવલોચને",
+            "કદા કરિષ્યસીહ માં ક્ડ઼્પાકટાક્ષભાજનમ્ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "taḓit-suvarṇa-campaka-pradīpta-gaura-vigrahe",
+            "mukhaprabhā-parāsta-koṭi-śāradendumaṇḍale",
+            "vicitra-citra-sañcaraccakora-śāvalocane",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತḓಇತ್ಸುವರ್ಣಚಂಪಕಪ್ರದೀಪ್ತಗೌರವಿಗ್ರಹೆ",
+            "ಮುಖಪ್ರಭಾಪರಾಸ್ತಕೊಟಿಶಾರದೆಂದುಮಂಡಲೆ",
+            "ವಿಚಿತ್ರಚಿತ್ರಸಂಚರಚ್ಚಕೊರಶಾವಲೊಚನೆ",
+            "ಕದಾ ಕರಿಷ್ಯಸೀಹ ಮಾಂ ಕ್‌ಡ಼್ಪಾಕಟಾಕ್ಷಭಾಜನಂ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తḓఇత్సువర్ణచంపకప్రదీప్తగౌరవిగ్రహె",
+            "ముఖప్రభాపరాస్తకొటిశారదెందుమండలె",
+            "విచిత్రచిత్రసంచరచ్చకొరశావలొచనె",
+            "కదా కరిష్యసీహ మాం క్డ్పాకటాక్షభాజనం 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "таḓитсуварн̣ачампакапрадӣптагауравиграхэ̆",
+            "мукхапрабха̄пара̄стако̆т̣иш́а̄радэ̆ндуман̣д̣алэ̆",
+            "вичитрачитрасан̃чараччако̆раш́а̄вало̆чанэ̆",
+            "када̄ каришйасӣха ма̄м̣ кр̤па̄кат̣а̄кшабха̄джанам 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തḓഇത്സുവർണചമ്പകപ്രദീപ്തഗൗരവിഗ്രഹെ",
+            "മുഖപ്രഭാപരാസ്തകൊടിശാരദെന്ദുമണ്ഡലെ",
+            "വിചിത്രചിത്രസഞ്ചരച്ചകൊരശാവലൊചനെ",
+            "കദാ കരിഷ്യസീഹ മാം ക്ഡ്പാകടാക്ഷഭാജനം 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தḓஇத்ஸுவர்ணசம்பகப்ரதீ³ப்தகௌ³ரவிக்³ரஹெ",
+            "முக²ப்ரபா⁴பராஸ்தகொடிஶாரதெ³ந்து³மண்ட³லெ",
+            "விசித்ரசித்ரஸஞ்சரச்சகொரஶாவலொசனெ",
+            "கதா³ கரிஷ்யஸீஹ மாம்ʼ க்ஃட்²பாகடாக்ஷபா⁴ஜனம் 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "taḍit-suvarṇa-campaka-pradīpta-gaura-vigrahe",
+            "mukhaprabhā-parāsta-koṭi-śāradendumaṇḍale",
+            "vicitra-citra-sañcaraccakora-śāvalocane",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "taḓit-suvarṇa-campaka-pradīpta-gaura-vigrahe",
+            "mukhaprabhā-parāsta-koṭi-śāradendumaṇḍale",
+            "vicitra-citra-sañcaraccakora-śāvalocane",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "madonmadāti[FLAG_HYPHEN_ALPHA]yauvane pramoda[FLAG_HYPHEN_ALPHA]māna[FLAG_HYPHEN_ALPHA]maṇḍite",
+        "priyānurāga[FLAG_HYPHEN_ALPHA]rañjite kalā[FLAG_HYPHEN_ALPHA]vilāsa[FLAG_HYPHEN_ALPHA]paṇḍite",
+        "ananya[FLAG_HYPHEN_ALPHA]dhanya[FLAG_HYPHEN_ALPHA]kuñja[FLAG_HYPHEN_ALPHA]rājya[FLAG_HYPHEN_ALPHA]kāmakeli[FLAG_HYPHEN_ALPHA]kovide",
+        "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "मदॊन्मदातियौवनॆ प्रमॊदमानमण्डितॆ",
+            "प्रियानुरागरञ्जितॆ कलाविलासपण्डितॆ",
+            "अनन्यधन्यकुञ्जराज्यकामकॆलिकॊविदॆ",
+            "कदा करिष्यसीह मां क्ड़्पाकटाक्षभाजनम् ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মদোন্মদাতিয়ৌবনে প্রমোদমানমণ্ডিতে",
+            "প্রিয়ানুরাগরঞ্জিতে কলাবিলাসপণ্ডিতে",
+            "অনন্যধন্যকুঞ্জরাজ্যকামকেলিকোবিদে",
+            "কদা করিষ্যসীহ মাং ক্ড়্পাকটাক্ষভাজনম্ ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମଦୋନ୍ମଦାତିୟୌବନେ ପ୍ରମୋଦମାନମଣ୍ଡିତେ",
+            "ପ୍ରିୟାନୁରାଗରଞ୍ଜିତେ କଲାବିଲାସପଣ୍ଡିତେ",
+            "ଅନନ୍ୟଧନ୍ୟକୁଞ୍ଜରାଜ୍ୟକାମକେଲିକୋବିଦେ",
+            "କଦା କରିଷ୍ୟସୀହ ମାଂ କ୍ଡ଼୍ପାକଟାକ୍ଷଭାଜନମ୍ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મદોન્મદાતિયૌવને પ્રમોદમાનમણ્ડિતે",
+            "પ્રિયાનુરાગરઞ્જિતે કલાવિલાસપણ્ડિતે",
+            "અનન્યધન્યકુઞ્જરાજ્યકામકેલિકોવિદે",
+            "કદા કરિષ્યસીહ માં ક્ડ઼્પાકટાક્ષભાજનમ્ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "madonmadāti-yauvane pramoda-māna-maṇḍite",
+            "priyānurāga-rañjite kalā-vilāsa-paṇḍite",
+            "ananya-dhanya-kuñja-rājya-kāmakeli-kovide",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮದೊನ್ಮದಾತಿಯೌವನೆ ಪ್ರಮೊದಮಾನಮಂಡಿತೆ",
+            "ಪ್ರಿಯಾನುರಾಗರಂಜಿತೆ ಕಲಾವಿಲಾಸಪಂಡಿತೆ",
+            "ಅನನ್ಯಧನ್ಯಕುಂಜರಾಜ್ಯಕಾಮಕೆಲಿಕೊವಿದೆ",
+            "ಕದಾ ಕರಿಷ್ಯಸೀಹ ಮಾಂ ಕ್‌ಡ಼್ಪಾಕಟಾಕ್ಷಭಾಜನಂ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మదొన్మదాతియౌవనె ప్రమొదమానమండితె",
+            "ప్రియానురాగరంజితె కలావిలాసపండితె",
+            "అనన్యధన్యకుంజరాజ్యకామకెలికొవిదె",
+            "కదా కరిష్యసీహ మాం క్డ్పాకటాక్షభాజనం 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "мадо̆нмада̄тийауванэ̆ прамо̆дама̄наман̣д̣итэ̆",
+            "прийа̄нура̄гаран̃джитэ̆ кала̄вила̄сапан̣д̣итэ̆",
+            "ананйадханйакун̃джара̄джйака̄макэ̆лико̆видэ̆",
+            "када̄ каришйасӣха ма̄м̣ кр̤па̄кат̣а̄кшабха̄джанам 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മദൊന്മദാതിയൗവനെ പ്രമൊദമാനമണ്ഡിതെ",
+            "പ്രിയാനുരാഗരഞ്ജിതെ കലാവിലാസപണ്ഡിതെ",
+            "അനന്യധന്യകുഞ്ജരാജ്യകാമകെലികൊവിദെ",
+            "കദാ കരിഷ്യസീഹ മാം ക്ഡ്പാകടാക്ഷഭാജനം 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மதொ³ன்மதா³தியௌவனெ ப்ரமொத³மானமண்டி³தெ",
+            "ப்ரியானுராக³ரஞ்ஜிதெ கலாவிலாஸபண்டி³தெ",
+            "அனன்யத⁴ன்யகுஞ்ஜராஜ்யகாமகெலிகொவிதெ³",
+            "கதா³ கரிஷ்யஸீஹ மாம்ʼ க்ஃட்²பாகடாக்ஷபா⁴ஜனம் 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "madonmadāti-yauvane pramoda-māna-maṇḍite",
+            "priyānurāga-rañjite kalā-vilāsa-paṇḍite",
+            "ananya-dhanya-kuñja-rājya-kāmakeli-kovide",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "madonmadāti-yauvane pramoda-māna-maṇḍite",
+            "priyānurāga-rañjite kalā-vilāsa-paṇḍite",
+            "ananya-dhanya-kuñja-rājya-kāmakeli-kovide",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "aśeṣa[FLAG_HYPHEN_ALPHA]hāva[FLAG_HYPHEN_ALPHA]bhāva[FLAG_HYPHEN_ALPHA]dhīra[FLAG_HYPHEN_ALPHA]hīrahāra[FLAG_HYPHEN_ALPHA]bhūṣite",
+        "prabhūta[FLAG_HYPHEN_ALPHA]śātakumbha[FLAG_HYPHEN_ALPHA]kumbha[FLAG_HYPHEN_ALPHA]kumbhi kumbha[FLAG_HYPHEN_ALPHA]sustani",
+        "praśasta[FLAG_HYPHEN_ALPHA]manda[FLAG_HYPHEN_ALPHA]hāsya[FLAG_HYPHEN_ALPHA]cūrṇa[FLAG_HYPHEN_ALPHA]pūrṇa[FLAG_HYPHEN_ALPHA]saukhyasāgare",
+        "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 6"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अशॆषहावभावधीरहीरहारभूषितॆ",
+            "प्रभूतशातकुम्भकुम्भकुम्भि कुम्भसुस्तनि",
+            "प्रशस्तमन्दहास्यचूर्णपूर्णसौख्यसागरॆ",
+            "कदा करिष्यसीह मां क्ड़्पाकटाक्षभाजनम् ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অশেষহাবভাবধীরহীরহারভূষিতে",
+            "প্রভূতশাতকুম্ভকুম্ভকুম্ভি কুম্ভসুস্তনি",
+            "প্রশস্তমন্দহাস্যচূর্ণপূর্ণসৌখ্যসাগরে",
+            "কদা করিষ্যসীহ মাং ক্ড়্পাকটাক্ষভাজনম্ ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅଶେଷହାବଭାବଧୀରହୀରହାରଭୂଷିତେ",
+            "ପ୍ରଭୂତଶାତକୁମ୍ଭକୁମ୍ଭକୁମ୍ଭି କୁମ୍ଭସୁସ୍ତନି",
+            "ପ୍ରଶସ୍ତମନ୍ଦହାସ୍ୟଚୂର୍ଣପୂର୍ଣସୌଖ୍ୟସାଗରେ",
+            "କଦା କରିଷ୍ୟସୀହ ମାଂ କ୍ଡ଼୍ପାକଟାକ୍ଷଭାଜନମ୍ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અશેષહાવભાવધીરહીરહારભૂષિતે",
+            "પ્રભૂતશાતકુમ્ભકુમ્ભકુમ્ભિ કુમ્ભસુસ્તનિ",
+            "પ્રશસ્તમન્દહાસ્યચૂર્ણપૂર્ણસૌખ્યસાગરે",
+            "કદા કરિષ્યસીહ માં ક્ડ઼્પાકટાક્ષભાજનમ્ ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "aśeṣa-hāva-bhāva-dhīra-hīrahāra-bhūṣite",
+            "prabhūta-śātakumbha-kumbha-kumbhi kumbha-sustani",
+            "praśasta-manda-hāsya-cūrṇa-pūrṇa-saukhyasāgare",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅಶೆಷಹಾವಭಾವಧೀರಹೀರಹಾರಭೂಷಿತೆ",
+            "ಪ್ರಭೂತಶಾತಕುಂಭಕುಂಭಕುಂಭಿ ಕುಂಭಸುಸ್ತನಿ",
+            "ಪ್ರಶಸ್ತಮಂದಹಾಸ್ಯಚೂರ್ಣಪೂರ್ಣಸೌಖ್ಯಸಾಗರೆ",
+            "ಕದಾ ಕರಿಷ್ಯಸೀಹ ಮಾಂ ಕ್‌ಡ಼್ಪಾಕಟಾಕ್ಷಭಾಜನಂ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అశెషహావభావధీరహీరహారభూషితె",
+            "ప్రభూతశాతకుంభకుంభకుంభి కుంభసుస్తని",
+            "ప్రశస్తమందహాస్యచూర్ణపూర్ణసౌఖ్యసాగరె",
+            "కదా కరిష్యసీహ మాం క్డ్పాకటాక్షభాజనం 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "аш́э̆шаха̄вабха̄вадхӣрахӣраха̄рабхӯшитэ̆",
+            "прабхӯташ́а̄такумбхакумбхакумбхи кумбхасустани",
+            "праш́астамандаха̄сйачӯрн̣апӯрн̣асаукхйаса̄гарэ̆",
+            "када̄ каришйасӣха ма̄м̣ кр̤па̄кат̣а̄кшабха̄джанам 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അശെഷഹാവഭാവധീരഹീരഹാരഭൂഷിതെ",
+            "പ്രഭൂതശാതകുംഭകുംഭകുംഭി കുംഭസുസ്തനി",
+            "പ്രശസ്തമന്ദഹാസ്യചൂർണപൂർണസൗഖ്യസാഗരെ",
+            "കദാ കരിഷ്യസീഹ മാം ക്ഡ്പാകടാക്ഷഭാജനം 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அஶெஷஹாவபா⁴வதீ⁴ரஹீரஹாரபூ⁴ஷிதெ",
+            "ப்ரபூ⁴தஶாதகும்ப⁴கும்ப⁴கும்பி⁴ கும்ப⁴ஸுஸ்தனி",
+            "ப்ரஶஸ்தமந்த³ஹாஸ்யசூர்ணபூர்ணஸௌக்²யஸாக³ரெ",
+            "கதா³ கரிஷ்யஸீஹ மாம்ʼ க்ஃட்²பாகடாக்ஷபா⁴ஜனம் 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "aśeṣa-hāva-bhāva-dhīra-hīrahāra-bhūṣite",
+            "prabhūta-śātakumbha-kumbha-kumbhi kumbha-sustani",
+            "praśasta-manda-hāsya-cūrṇa-pūrṇa-saukhyasāgare",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "aśeṣa-hāva-bhāva-dhīra-hīrahāra-bhūṣite",
+            "prabhūta-śātakumbha-kumbha-kumbhi kumbha-sustani",
+            "praśasta-manda-hāsya-cūrṇa-pūrṇa-saukhyasāgare",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "mṛṇāla[FLAG_HYPHEN_ALPHA]vāla[FLAG_HYPHEN_ALPHA]vallarī[FLAG_HYPHEN_ALPHA]taraṅga[FLAG_HYPHEN_ALPHA]raṅga[FLAG_HYPHEN_ALPHA]dorlate",
+        "latāgra[FLAG_HYPHEN_ALPHA]lāsya[FLAG_HYPHEN_ALPHA]lola[FLAG_HYPHEN_ALPHA]nīla[FLAG_HYPHEN_ALPHA]locanāvalokane",
+        "lalallulanmilanmanojña[FLAG_HYPHEN_ALPHA]mugdha[FLAG_HYPHEN_ALPHA]mohanāśrite",
+        "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 7"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "म्ड़्णालवालवल्लरीतरङ्गरङ्गदॊर्लतॆ",
+            "लताग्रलास्यलॊलनीललॊचनावलॊकनॆ",
+            "ललल्लुलन्मिलन्मनॊज्ञमुग्धमॊहनाश्रितॆ",
+            "कदा करिष्यसीह मां क्ड़्पाकटाक्षभाजनम् ७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ম্ড়্ণালবালবল্লরীতরঙ্গরঙ্গদোর্লতে",
+            "লতাগ্রলাস্যলোলনীললোচনাবলোকনে",
+            "ললল্লুলন্মিলন্মনোজ্ঞমুগ্ধমোহনাশ্রিতে",
+            "কদা করিষ্যসীহ মাং ক্ড়্পাকটাক্ষভাজনম্ ৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମ୍ଡ଼୍ଣାଲବାଲବଲ୍ଲରୀତରଙ୍ଗରଙ୍ଗଦୋର୍ଲତେ",
+            "ଲତାଗ୍ରଲାସ୍ୟଲୋଲନୀଲଲୋଚନାବଲୋକନେ",
+            "ଲଲଲ୍ଲୁଲନ୍ମିଲନ୍ମନୋଜ୍ଞମୁଗ୍ଧମୋହନାଶ୍ରିତେ",
+            "କଦା କରିଷ୍ୟସୀହ ମାଂ କ୍ଡ଼୍ପାକଟାକ୍ଷଭାଜନମ୍ ୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મ્ડ઼્ણાલવાલવલ્લરીતરઙ્ગરઙ્ગદોર્લતે",
+            "લતાગ્રલાસ્યલોલનીલલોચનાવલોકને",
+            "લલલ્લુલન્મિલન્મનોજ્ઞમુગ્ધમોહનાશ્રિતે",
+            "કદા કરિષ્યસીહ માં ક્ડ઼્પાકટાક્ષભાજનમ્ ૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "mṛṇāla-vāla-vallarī-taraṅga-raṅga-dorlate",
+            "latāgra-lāsya-lola-nīla-locanāvalokane",
+            "lalallulanmilanmanojña-mugdha-mohanāśrite",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 7"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮ್‌ಡ಼್ಣಾಲವಾಲವಲ್ಲರೀತರಂಗರಂಗದೊರ್ಲತೆ",
+            "ಲತಾಗ್ರಲಾಸ್ಯಲೊಲನೀಲಲೊಚನಾವಲೊಕನೆ",
+            "ಲಲಲ್ಲುಲನ್ಮಿಲನ್ಮನೊಜ್ಞಮುಗ್ಧಮೊಹನಾಶ್ರಿತೆ",
+            "ಕದಾ ಕರಿಷ್ಯಸೀಹ ಮಾಂ ಕ್‌ಡ಼್ಪಾಕಟಾಕ್ಷಭಾಜನಂ ೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మ్డ్ణాలవాలవల్లరీతరంగరంగదొర్లతె",
+            "లతాగ్రలాస్యలొలనీలలొచనావలొకనె",
+            "లలల్లులన్మిలన్మనొజ్ఞముగ్ధమొహనాశ్రితె",
+            "కదా కరిష్యసీహ మాం క్డ్పాకటాక్షభాజనం 7"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "мр̤н̣а̄лава̄лавалларӣтаран̇гаран̇гадо̆рлатэ̆",
+            "лата̄грала̄сйало̆ланӣлало̆чана̄вало̆канэ̆",
+            "лалаллуланмиланмано̆джн̃амугдхамо̆хана̄ш́ритэ̆",
+            "када̄ каришйасӣха ма̄м̣ кр̤па̄кат̣а̄кшабха̄джанам 7"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മ്ഡ്ണാലവാലവല്ലരീതരംഗരംഗദൊർലതെ",
+            "ലതാഗ്രലാസ്യലൊലനീലലൊചനാവലൊകനെ",
+            "ലലല്ലുലന്മിലന്മനൊജ്ഞമുഗ്ധമൊഹനാശ്രിതെ",
+            "കദാ കരിഷ്യസീഹ മാം ക്ഡ്പാകടാക്ഷഭാജനം 7"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ம்ஃட்²ணாலவாலவல்லரீதரங்க³ரங்க³தொ³ர்லதெ",
+            "லதாக்³ரலாஸ்யலொலநீலலொசனாவலொகனெ",
+            "லலல்லுலன்மிலன்மனொஜ்ஞமுக்³த⁴மொஹநாஶ்ரிதெ",
+            "கதா³ கரிஷ்யஸீஹ மாம்ʼ க்ஃட்²பாகடாக்ஷபா⁴ஜனம் 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "mṛṇāla-vāla-vallarī-taraṅga-raṅga-dorlate",
+            "latāgra-lāsya-lola-nīla-locanāvalokane",
+            "lalallulanmilanmanojña-mugdha-mohanāśrite",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "mṛṇāla-vāla-vallarī-taraṅga-raṅga-dorlate",
+            "latāgra-lāsya-lola-nīla-locanāvalokane",
+            "lalallulanmilanmanojña-mugdha-mohanāśrite",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 7"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "source_text_master": [
+        "suvarṇa[FLAG_HYPHEN_ALPHA]mālikāñcita[FLAG_HYPHEN_ALPHA]trirekha[FLAG_HYPHEN_ALPHA]kambu[FLAG_HYPHEN_ALPHA]kaṇṭhage",
+        "trisūtra[FLAG_HYPHEN_ALPHA]maṅgalīguṇa[FLAG_HYPHEN_ALPHA]triratna[FLAG_HYPHEN_ALPHA]dīpti[FLAG_HYPHEN_ALPHA]dīdhiti",
+        "salola[FLAG_HYPHEN_ALPHA]nīlakuntala[FLAG_HYPHEN_ALPHA]prasūna[FLAG_HYPHEN_ALPHA]guccha[FLAG_HYPHEN_ALPHA]gumphite",
+        "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 8"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सुवर्णमालिकाञ्चितत्रिरॆखकम्बुकण्ठगॆ",
+            "त्रिसूत्रमङ्गलीगुणत्रिरत्नदीप्तिदीधिति",
+            "सलॊलनीलकुन्तलप्रसूनगुच्छगुम्फितॆ",
+            "कदा करिष्यसीह मां क्ड़्पाकटाक्षभाजनम् ८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সুবর্ণমালিকাঞ্চিতত্রিরেখকম্বুকণ্ঠগে",
+            "ত্রিসূত্রমঙ্গলীগুণত্রিরত্নদীপ্তিদীধিতি",
+            "সলোলনীলকুন্তলপ্রসূনগুচ্ছগুম্ফিতে",
+            "কদা করিষ্যসীহ মাং ক্ড়্পাকটাক্ষভাজনম্ ৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସୁବର୍ଣମାଲିକାଞ୍ଚିତତ୍ରିରେଖକମ୍ବୁକଣ୍ଠଗେ",
+            "ତ୍ରିସୂତ୍ରମଙ୍ଗଲୀଗୁଣତ୍ରିରତ୍ନଦୀପ୍ତିଦୀଧିତି",
+            "ସଲୋଲନୀଲକୁନ୍ତଲପ୍ରସୂନଗୁଚ୍ଛଗୁମ୍ଫିତେ",
+            "କଦା କରିଷ୍ୟସୀହ ମାଂ କ୍ଡ଼୍ପାକଟାକ୍ଷଭାଜନମ୍ ୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સુવર્ણમાલિકાઞ્ચિતત્રિરેખકમ્બુકણ્ઠગે",
+            "ત્રિસૂત્રમઙ્ગલીગુણત્રિરત્નદીપ્તિદીધિતિ",
+            "સલોલનીલકુન્તલપ્રસૂનગુચ્છગુમ્ફિતે",
+            "કદા કરિષ્યસીહ માં ક્ડ઼્પાકટાક્ષભાજનમ્ ૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "suvarṇa-mālikāñcita-trirekha-kambu-kaṇṭhage",
+            "trisūtra-maṅgalīguṇa-triratna-dīpti-dīdhiti",
+            "salola-nīlakuntala-prasūna-guccha-gumphite",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 8"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸುವರ್ಣಮಾಲಿಕಾಂಚಿತತ್ರಿರೆಖಕಂಬುಕಂಠಗೆ",
+            "ತ್ರಿಸೂತ್ರಮಂಗಲೀಗುಣತ್ರಿರತ್ನದೀಪ್ತಿದೀಧಿತಿ",
+            "ಸಲೊಲನೀಲಕುಂತಲಪ್ರಸೂನಗುಚ್ಛಗುಂಫಿತೆ",
+            "ಕದಾ ಕರಿಷ್ಯಸೀಹ ಮಾಂ ಕ್‌ಡ಼್ಪಾಕಟಾಕ್ಷಭಾಜನಂ ೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సువర్ణమాలికాంచితత్రిరెఖకంబుకంఠగె",
+            "త్రిసూత్రమంగలీగుణత్రిరత్నదీప్తిదీధితి",
+            "సలొలనీలకుంతలప్రసూనగుచ్ఛగుంఫితె",
+            "కదా కరిష్యసీహ మాం క్డ్పాకటాక్షభాజనం 8"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "суварн̣ама̄лика̄н̃читатрирэ̆кхакамбукан̣т̣хагэ̆",
+            "трисӯтраман̇галӣгун̣атриратнадӣптидӣдхити",
+            "сало̆ланӣлакунталапрасӯнагуччхагумпхитэ̆",
+            "када̄ каришйасӣха ма̄м̣ кр̤па̄кат̣а̄кшабха̄джанам 8"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സുവർണമാലികാഞ്ചിതത്രിരെഖകംബുകണ്ഠഗെ",
+            "ത്രിസൂത്രമംഗലീഗുണത്രിരത്നദീപ്തിദീധിതി",
+            "സലൊലനീലകുന്തലപ്രസൂനഗുച്ഛഗുംഫിതെ",
+            "കദാ കരിഷ്യസീഹ മാം ക്ഡ്പാകടാക്ഷഭാജനം 8"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸுவர்ணமாலிகாஞ்சிதத்ரிரெக²கம்பு³கண்ட²கெ³",
+            "த்ரிஸூத்ரமங்க³லீகு³ணத்ரிரத்நதீ³ப்திதீ³தி⁴தி",
+            "ஸலொலநீலகுந்தலப்ரஸூனகு³ச்ச²கு³ம்பி²தெ",
+            "கதா³ கரிஷ்யஸீஹ மாம்ʼ க்ஃட்²பாகடாக்ஷபா⁴ஜனம் 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "suvarṇa-mālikāñcita-trirekha-kambu-kaṇṭhage",
+            "trisūtra-maṅgalīguṇa-triratna-dīpti-dīdhiti",
+            "salola-nīlakuntala-prasūna-guccha-gumphite",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "suvarṇa-mālikāñcita-trirekha-kambu-kaṇṭhage",
+            "trisūtra-maṅgalīguṇa-triratna-dīpti-dīdhiti",
+            "salola-nīlakuntala-prasūna-guccha-gumphite",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 8"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 9,
+      "source_text_master": [
+        "nitambabimba[FLAG_HYPHEN_ALPHA]lambamāna[FLAG_HYPHEN_ALPHA]puṣpamekhalā[FLAG_HYPHEN_ALPHA]guṇe",
+        "praśasta[FLAG_HYPHEN_ALPHA]ratna[FLAG_HYPHEN_ALPHA]kiṅkiṇī[FLAG_HYPHEN_ALPHA]kalāpa[FLAG_HYPHEN_ALPHA]madhya[FLAG_HYPHEN_ALPHA]mañjule",
+        "karīndra[FLAG_HYPHEN_ALPHA]śuṇḍa[FLAG_HYPHEN_ALPHA]daṇḍikā[FLAG_HYPHEN_ALPHA]varoha[FLAG_HYPHEN_ALPHA]saubhagoruke",
+        "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 9"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "नितम्बबिम्बलम्बमानपुष्पमॆखलागुणॆ",
+            "प्रशस्तरत्नकिङ्किणीकलापमध्यमञ्जुलॆ",
+            "करीन्द्रशुण्डदण्डिकावरॊहसौभगॊरुकॆ",
+            "कदा करिष्यसीह मां क्ड़्पाकटाक्षभाजनम् ९"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নিতম্ববিম্বলম্বমানপুষ্পমেখলাগুণে",
+            "প্রশস্তরত্নকিঙ্কিণীকলাপমধ্যমঞ্জুলে",
+            "করীন্দ্রশুণ্ডদণ্ডিকাবরোহসৌভগোরুকে",
+            "কদা করিষ্যসীহ মাং ক্ড়্পাকটাক্ষভাজনম্ ৯"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନିତମ୍ବବିମ୍ବଲମ୍ବମାନପୁଷ୍ପମେଖଲାଗୁଣେ",
+            "ପ୍ରଶସ୍ତରତ୍ନକିଙ୍କିଣୀକଲାପମଧ୍ୟମଞ୍ଜୁଲେ",
+            "କରୀନ୍ଦ୍ରଶୁଣ୍ଡଦଣ୍ଡିକାବରୋହସୌଭଗୋରୁକେ",
+            "କଦା କରିଷ୍ୟସୀହ ମାଂ କ୍ଡ଼୍ପାକଟାକ୍ଷଭାଜନମ୍ ୯"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નિતમ્બબિમ્બલમ્બમાનપુષ્પમેખલાગુણે",
+            "પ્રશસ્તરત્નકિઙ્કિણીકલાપમધ્યમઞ્જુલે",
+            "કરીન્દ્રશુણ્ડદણ્ડિકાવરોહસૌભગોરુકે",
+            "કદા કરિષ્યસીહ માં ક્ડ઼્પાકટાક્ષભાજનમ્ ૯"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nitambabimba-lambamāna-puṣpamekhalā-guṇe",
+            "praśasta-ratna-kiṅkiṇī-kalāpa-madhya-mañjule",
+            "karīndra-śuṇḍa-daṇḍikā-varoha-saubhagoruke",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 9"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಿತಂಬಬಿಂಬಲಂಬಮಾನಪುಷ್ಪಮೆಖಲಾಗುಣೆ",
+            "ಪ್ರಶಸ್ತರತ್ನಕಿಂಕಿಣೀಕಲಾಪಮಧ್ಯಮಂಜುಲೆ",
+            "ಕರೀಂದ್ರಶುಂಡದಂಡಿಕಾವರೊಹಸೌಭಗೊರುಕೆ",
+            "ಕದಾ ಕರಿಷ್ಯಸೀಹ ಮಾಂ ಕ್‌ಡ಼್ಪಾಕಟಾಕ್ಷಭಾಜನಂ ೯"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నితంబబింబలంబమానపుష్పమెఖలాగుణె",
+            "ప్రశస్తరత్నకింకిణీకలాపమధ్యమంజులె",
+            "కరీంద్రశుండదండికావరొహసౌభగొరుకె",
+            "కదా కరిష్యసీహ మాం క్డ్పాకటాక్షభాజనం 9"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "нитамбабимбаламбама̄напушпамэ̆кхала̄гун̣э̆",
+            "праш́астаратнакин̇кин̣ӣкала̄памадхйаман̃джулэ̆",
+            "карӣндраш́ун̣д̣адан̣д̣ика̄варо̆хасаубхаго̆рукэ̆",
+            "када̄ каришйасӣха ма̄м̣ кр̤па̄кат̣а̄кшабха̄джанам 9"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നിതംബബിംബലംബമാനപുഷ്പമെഖലാഗുണെ",
+            "പ്രശസ്തരത്നകിങ്കിണീകലാപമധ്യമഞ്ജുലെ",
+            "കരീന്ദ്രശുണ്ഡദണ്ഡികാവരൊഹസൗഭഗൊരുകെ",
+            "കദാ കരിഷ്യസീഹ മാം ക്ഡ്പാകടാക്ഷഭാജനം 9"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நிதம்ப³பி³ம்ப³லம்ப³மானபுஷ்பமெக²லாகு³ணெ",
+            "ப்ரஶஸ்தரத்னகிங்கிணீகலாபமத்⁴யமஞ்ஜுலெ",
+            "கரீந்த்³ரஶுண்ட³த³ண்டி³காவரொஹஸௌப⁴கொ³ருகெ",
+            "கதா³ கரிஷ்யஸீஹ மாம்ʼ க்ஃட்²பாகடாக்ஷபா⁴ஜனம் 9"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nitambabimba-lambamāna-puṣpamekhalā-guṇe",
+            "praśasta-ratna-kiṅkiṇī-kalāpa-madhya-mañjule",
+            "karīndra-śuṇḍa-daṇḍikā-varoha-saubhagoruke",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 9"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nitambabimba-lambamāna-puṣpamekhalā-guṇe",
+            "praśasta-ratna-kiṅkiṇī-kalāpa-madhya-mañjule",
+            "karīndra-śuṇḍa-daṇḍikā-varoha-saubhagoruke",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 9"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 10,
+      "source_text_master": [
+        "aneka[FLAG_HYPHEN_ALPHA]mantranāda[FLAG_HYPHEN_ALPHA]mañju[FLAG_HYPHEN_ALPHA]nūpurāravaskhalat",
+        "samāja[FLAG_HYPHEN_ALPHA]rājahaṁsa[FLAG_HYPHEN_ALPHA]vaṁśa[FLAG_HYPHEN_ALPHA]nikvaṇātigaurave",
+        "vilola[FLAG_HYPHEN_ALPHA]hemavallarī[FLAG_HYPHEN_ALPHA]viḓambi[FLAG_HYPHEN_ALPHA]cārucaṅkrame",
+        "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 10"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अनॆकमन्त्रनादमञ्जुनूपुरारवस्खलत्",
+            "समाजराजहंसवंशनिक्वणातिगौरवॆ",
+            "विलॊलहॆमवल्लरीविḓअम्बिचारुचङ्क्रमॆ",
+            "कदा करिष्यसीह मां क्ड़्पाकटाक्षभाजनम् १०"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অনেকমন্ত্রনাদমঞ্জুনূপুরারবস্খলৎ",
+            "সমাজরাজহংসবংশনিক্বণাতিগৌরবে",
+            "বিলোলহেমবল্লরীবিḓঅম্বিচারুচঙ্ক্রমে",
+            "কদা করিষ্যসীহ মাং ক্ড়্পাকটাক্ষভাজনম্ ১০"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅନେକମନ୍ତ୍ରନାଦମଞ୍ଜୁନୂପୁରାରବସ୍ଖଲତ୍",
+            "ସମାଜରାଜହଂସବଂଶନିକ୍ୱଣାତିଗୌରବେ",
+            "ବିଲୋଲହେମବଲ୍ଲରୀବିḓଅମ୍ବିଚାରୁଚଙ୍କ୍ରମେ",
+            "କଦା କରିଷ୍ୟସୀହ ମାଂ କ୍ଡ଼୍ପାକଟାକ୍ଷଭାଜନମ୍ ୧୦"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અનેકમન્ત્રનાદમઞ્જુનૂપુરારવસ્ખલત્",
+            "સમાજરાજહંસવંશનિક્વણાતિગૌરવે",
+            "વિલોલહેમવલ્લરીવિḓઅમ્બિચારુચઙ્ક્રમે",
+            "કદા કરિષ્યસીહ માં ક્ડ઼્પાકટાક્ષભાજનમ્ ૧૦"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "aneka-mantranāda-mañju-nūpurāravaskhalat",
+            "samāja-rājahaṁsa-vaṁśa-nikvaṇātigaurave",
+            "vilola-hemavallarī-viḓambi-cārucaṅkrame",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 10"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅನೆಕಮಂತ್ರನಾದಮಂಜುನೂಪುರಾರವಸ್ಖಲತ್",
+            "ಸಮಾಜರಾಜಹಂಸವಂಶನಿಕ್ವಣಾತಿಗೌರವೆ",
+            "ವಿಲೊಲಹೆಮವಲ್ಲರೀವಿḓಅಂಬಿಚಾರುಚಂಕ್ರಮೆ",
+            "ಕದಾ ಕರಿಷ್ಯಸೀಹ ಮಾಂ ಕ್‌ಡ಼್ಪಾಕಟಾಕ್ಷಭಾಜನಂ ೧೦"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అనెకమంత్రనాదమంజునూపురారవస్ఖలత్",
+            "సమాజరాజహంసవంశనిక్వణాతిగౌరవె",
+            "విలొలహెమవల్లరీవిḓఅంబిచారుచంక్రమె",
+            "కదా కరిష్యసీహ మాం క్డ్పాకటాక్షభాజనం 10"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "анэ̆камантрана̄даман̃джунӯпура̄раваскхалат",
+            "сама̄джара̄джахам̣савам̣ш́аникван̣а̄тигауравэ̆",
+            "вило̆лахэ̆мавалларӣвиḓамбича̄ручан̇крамэ̆",
+            "када̄ каришйасӣха ма̄м̣ кр̤па̄кат̣а̄кшабха̄джанам 10"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അനെകമന്ത്രനാദമഞ്ജുനൂപുരാരവസ്ഖലത്",
+            "സമാജരാജഹംസവംശനിക്വണാതിഗൗരവെ",
+            "വിലൊലഹെമവല്ലരീവിḓഅംബിചാരുചങ്ക്രമെ",
+            "കദാ കരിഷ്യസീഹ മാം ക്ഡ്പാകടാക്ഷഭാജനം 10"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அனெகமந்த்ரநாத³மஞ்ஜுநூபுராரவஸ்க²லத்",
+            "ஸமாஜராஜஹம்ʼஸவம்ʼஶனிக்வணாதிகௌ³ரவெ",
+            "விலொலஹெமவல்லரீவிḓஅம்பி³சாருசங்க்ரமெ",
+            "கதா³ கரிஷ்யஸீஹ மாம்ʼ க்ஃட்²பாகடாக்ஷபா⁴ஜனம் 10"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "aneka-mantranāda-mañju-nūpurāravaskhalat",
+            "samāja-rājahaṁsa-vaṁśa-nikvaṇātigaurave",
+            "vilola-hemavallarī-viḍambi-cārucaṅkrame",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 10"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "aneka-mantranāda-mañju-nūpurāravaskhalat",
+            "samāja-rājahaṁsa-vaṁśa-nikvaṇātigaurave",
+            "vilola-hemavallarī-viḓambi-cārucaṅkrame",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 10"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 11,
+      "source_text_master": [
+        "anantakoṭi[FLAG_HYPHEN_ALPHA]viṣṇuloka[FLAG_HYPHEN_ALPHA]namrapadmajārcite,",
+        "himādrijā[FLAG_HYPHEN_ALPHA]pulomajā[FLAG_HYPHEN_ALPHA]viriñcajā[FLAG_HYPHEN_ALPHA]varaprade",
+        "apāra[FLAG_HYPHEN_ALPHA]siddhi[FLAG_HYPHEN_ALPHA]ṛddhi[FLAG_HYPHEN_ALPHA]digdha satpadāṅgulīnakhe",
+        "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 11"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अनन्तकॊटिविष्णुलॊकनम्रपद्मजार्चितॆ,",
+            "हिमाद्रिजापुलॊमजाविरिञ्चजावरप्रदॆ",
+            "अपारसिद्धिड़्द्धिदिग्ध सत्पदाङ्गुलीनखॆ",
+            "कदा करिष्यसीह मां क्ड़्पाकटाक्षभाजनम् ११"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অনন্তকোটিবিষ্ণুলোকনম্রপদ্মজার্চিতে,",
+            "হিমাদ্রিজাপুলোমজাবিরিঞ্চজাবরপ্রদে",
+            "অপারসিদ্ধিড়্দ্ধিদিগ্ধ সৎপদাঙ্গুলীনখে",
+            "কদা করিষ্যসীহ মাং ক্ড়্পাকটাক্ষভাজনম্ ১১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅନନ୍ତକୋଟିବିଷ୍ଣୁଲୋକନମ୍ରପଦ୍ମଜାର୍ଚିତେ,",
+            "ହିମାଦ୍ରିଜାପୁଲୋମଜାବିରିଞ୍ଚଜାବରପ୍ରଦେ",
+            "ଅପାରସିଦ୍ଧିଡ଼୍ଦ୍ଧିଦିଗ୍ଧ ସତ୍ପଦାଙ୍ଗୁଲୀନଖେ",
+            "କଦା କରିଷ୍ୟସୀହ ମାଂ କ୍ଡ଼୍ପାକଟାକ୍ଷଭାଜନମ୍ ୧୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અનન્તકોટિવિષ્ણુલોકનમ્રપદ્મજાર્ચિતે,",
+            "હિમાદ્રિજાપુલોમજાવિરિઞ્ચજાવરપ્રદે",
+            "અપારસિદ્ધિડ઼્દ્ધિદિગ્ધ સત્પદાઙ્ગુલીનખે",
+            "કદા કરિષ્યસીહ માં ક્ડ઼્પાકટાક્ષભાજનમ્ ૧૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "anantakoṭi-viṣṇuloka-namrapadmajārcite,",
+            "himādrijā-pulomajā-viriñcajā-varaprade",
+            "apāra-siddhi-ṛddhi-digdha satpadāṅgulīnakhe",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 11"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅನಂತಕೊಟಿವಿಷ್ಣುಲೊಕನಮ್ರಪದ್ಮಜಾರ್ಚಿತೆ,",
+            "ಹಿಮಾದ್ರಿಜಾಪುಲೊಮಜಾವಿರಿಂಚಜಾವರಪ್ರದೆ",
+            "ಅಪಾರಸಿದ್ಧಿಡ಼್ದ್ಧಿದಿಗ್ಧ ಸತ್ಪದಾಂಗುಲೀನಖೆ",
+            "ಕದಾ ಕರಿಷ್ಯಸೀಹ ಮಾಂ ಕ್‌ಡ಼್ಪಾಕಟಾಕ್ಷಭಾಜನಂ ೧೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అనంతకొటివిష్ణులొకనమ్రపద్మజార్చితె,",
+            "హిమాద్రిజాపులొమజావిరించజావరప్రదె",
+            "అపారసిద్ధిడ్ద్ధిదిగ్ధ సత్పదాంగులీనఖె",
+            "కదా కరిష్యసీహ మాం క్డ్పాకటాక్షభాజనం 11"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "анантако̆т̣ивишн̣уло̆канамрападмаджа̄рчитэ̆,",
+            "хима̄дриджа̄пуло̆маджа̄вирин̃чаджа̄варапрадэ̆",
+            "апа̄расиддхир̤ддхидигдха сатпада̄н̇гулӣнакхэ̆",
+            "када̄ каришйасӣха ма̄м̣ кр̤па̄кат̣а̄кшабха̄джанам 11"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അനന്തകൊടിവിഷ്ണുലൊകനമ്രപദ്മജാർചിതെ,",
+            "ഹിമാദ്രിജാപുലൊമജാവിരിഞ്ചജാവരപ്രദെ",
+            "അപാരസിദ്ധിഡ്ദ്ധിദിഗ്ധ സത്പദാംഗുലീനഖെ",
+            "കദാ കരിഷ്യസീഹ മാം ക്ഡ്പാകടാക്ഷഭാജനം 11"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அனந்தகொடிவிஷ்ணுலொகனம்ரபத்³மஜார்சிதெ,",
+            "ஹிமாத்³ரிஜாபுலொமஜாவிரிஞ்சஜாவரப்ரதெ³",
+            "அபாரஸித்³தி⁴ஃட்²த்³தி⁴தி³க்³த⁴ ஸத்பதா³ங்கு³லீநகெ²",
+            "கதா³ கரிஷ்யஸீஹ மாம்ʼ க்ஃட்²பாகடாக்ஷபா⁴ஜனம் 11"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "anantakoṭi-viṣṇuloka-namrapadmajārcite,",
+            "himādrijā-pulomajā-viriñcajā-varaprade",
+            "apāra-siddhi-ṛddhi-digdha satpadāṅgulīnakhe",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 11"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "anantakoṭi-viṣṇuloka-namrapadmajārcite,",
+            "himādrijā-pulomajā-viriñcajā-varaprade",
+            "apāra-siddhi-ṛddhi-digdha satpadāṅgulīnakhe",
+            "kadā kariṣyasīha māṁ kṛpākaṭākṣabhājanam 11"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 12,
+      "source_text_master": [
+        "makheśvari! kriyeśvari svadheśvari sureśvari",
+        "triveda[FLAG_HYPHEN_ALPHA]bhāratīśvari pramāṇa[FLAG_HYPHEN_ALPHA]śāsaneśvari",
+        "rameśvari! kṣameśvari pramoda[FLAG_HYPHEN_ALPHA]kānaneśvari",
+        "vrajeśvari vrajādhipe śrīrādhike namohstu te 12"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "मखॆश्वरि! क्रियॆश्वरि स्वधॆश्वरि सुरॆश्वरि",
+            "त्रिवॆदभारतीश्वरि प्रमाणशासनॆश्वरि",
+            "रमॆश्वरि! क्षमॆश्वरि प्रमॊदकाननॆश्वरि",
+            "व्रजॆश्वरि व्रजाधिपॆ श्रीराधिकॆ नमॊह्स्तु तॆ १२"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মখেশ্বরি! ক্রিয়েশ্বরি স্বধেশ্বরি সুরেশ্বরি",
+            "ত্রিবেদভারতীশ্বরি প্রমাণশাসনেশ্বরি",
+            "রমেশ্বরি! ক্ষমেশ্বরি প্রমোদকাননেশ্বরি",
+            "ব্রজেশ্বরি ব্রজাধিপে শ্রীরাধিকে নমোহ্স্তু তে ১২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମଖେଶ୍ୱରି! କ୍ରିୟେଶ୍ୱରି ସ୍ୱଧେଶ୍ୱରି ସୁରେଶ୍ୱରି",
+            "ତ୍ରିବେଦଭାରତୀଶ୍ୱରି ପ୍ରମାଣଶାସନେଶ୍ୱରି",
+            "ରମେଶ୍ୱରି! କ୍ଷମେଶ୍ୱରି ପ୍ରମୋଦକାନନେଶ୍ୱରି",
+            "ବ୍ରଜେଶ୍ୱରି ବ୍ରଜାଧିପେ ଶ୍ରୀରାଧିକେ ନମୋହ୍ସ୍ତୁ ତେ ୧୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "મખેશ્વરિ! ક્રિયેશ્વરિ સ્વધેશ્વરિ સુરેશ્વરિ",
+            "ત્રિવેદભારતીશ્વરિ પ્રમાણશાસનેશ્વરિ",
+            "રમેશ્વરિ! ક્ષમેશ્વરિ પ્રમોદકાનનેશ્વરિ",
+            "વ્રજેશ્વરિ વ્રજાધિપે શ્રીરાધિકે નમોહ્સ્તુ તે ૧૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "makheśvari! kriyeśvari svadheśvari sureśvari",
+            "triveda-bhāratīśvari pramāṇa-śāsaneśvari",
+            "rameśvari! kṣameśvari pramoda-kānaneśvari",
+            "vrajeśvari vrajādhipe śrīrādhike namohstu te 12"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮಖೆಶ್ವರಿ! ಕ್ರಿಯೆಶ್ವರಿ ಸ್ವಧೆಶ್ವರಿ ಸುರೆಶ್ವರಿ",
+            "ತ್ರಿವೆದಭಾರತೀಶ್ವರಿ ಪ್ರಮಾಣಶಾಸನೆಶ್ವರಿ",
+            "ರಮೆಶ್ವರಿ! ಕ್ಷಮೆಶ್ವರಿ ಪ್ರಮೊದಕಾನನೆಶ್ವರಿ",
+            "ವ್ರಜೆಶ್ವರಿ ವ್ರಜಾಧಿಪೆ ಶ್ರೀರಾಧಿಕೆ ನಮೊಹ್ಸ್ತು ತೆ ೧೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మఖెశ్వరి! క్రియెశ్వరి స్వధెశ్వరి సురెశ్వరి",
+            "త్రివెదభారతీశ్వరి ప్రమాణశాసనెశ్వరి",
+            "రమెశ్వరి! క్షమెశ్వరి ప్రమొదకాననెశ్వరి",
+            "వ్రజెశ్వరి వ్రజాధిపె శ్రీరాధికె నమొహ్స్తు తె 12"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "макхэ̆ш́вари! крийэ̆ш́вари свадхэ̆ш́вари сурэ̆ш́вари",
+            "тривэ̆дабха̄ратӣш́вари прама̄н̣аш́а̄санэ̆ш́вари",
+            "рамэ̆ш́вари! кшамэ̆ш́вари прамо̆дака̄нанэ̆ш́вари",
+            "враджэ̆ш́вари враджа̄дхипэ̆ ш́рӣра̄дхикэ̆ намо̆хсту тэ̆ 12"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മഖെശ്വരി! ക്രിയെശ്വരി സ്വധെശ്വരി സുരെശ്വരി",
+            "ത്രിവെദഭാരതീശ്വരി പ്രമാണശാസനെശ്വരി",
+            "രമെശ്വരി! ക്ഷമെശ്വരി പ്രമൊദകാനനെശ്വരി",
+            "വ്രജെശ്വരി വ്രജാധിപെ ശ്രീരാധികെ നമൊഹ്സ്തു തെ 12"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மகெ²ஶ்வரி! க்ரியெஶ்வரி ஸ்வதெ⁴ஶ்வரி ஸுரெஶ்வரி",
+            "த்ரிவெத³பா⁴ரதீஶ்வரி ப்ரமாணஶாஸனெஶ்வரி",
+            "ரமெஶ்வரி! க்ஷமெஶ்வரி ப்ரமொத³கானனெஶ்வரி",
+            "வ்ரஜெஶ்வரி வ்ரஜாதி⁴பெ ஶ்ரீராதி⁴கெ நமொஹ்ஸ்து தெ 12"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "makheśvari! kriyeśvari svadheśvari sureśvari",
+            "triveda-bhāratīśvari pramāṇa-śāsaneśvari",
+            "rameśvari! kṣameśvari pramoda-kānaneśvari",
+            "vrajeśvari vrajādhipe śrīrādhike namohstu te 12"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "makheśvari! kriyeśvari svadheśvari sureśvari",
+            "triveda-bhāratīśvari pramāṇa-śāsaneśvari",
+            "rameśvari! kṣameśvari pramoda-kānaneśvari",
+            "vrajeśvari vrajādhipe śrīrādhike namohstu te 12"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 13,
+      "source_text_master": [
+        "itīmamādbhutaṁ stavaṁ niśamya bhānunandinī",
+        "karotu santataṁ janaṁ kṛpākaṭākṣabhājanam",
+        "bhavettadaiva[FLAG_HYPHEN_ALPHA]sañcita[FLAG_HYPHEN_ALPHA]trirūpa[FLAG_HYPHEN_ALPHA]karmanāśanam",
+        "bhavettadā vrajendrasūnu[FLAG_HYPHEN_ALPHA]maṇḍala[FLAG_HYPHEN_ALPHA]praveśanam 13"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "इतीममाद्भुतं स्तवं निशम्य भानुनन्दिनी",
+            "करॊतु सन्ततं जनं क्ड़्पाकटाक्षभाजनम्",
+            "भवॆत्तदैवसञ्चितत्रिरूपकर्मनाशनम्",
+            "भवॆत्तदा व्रजॆन्द्रसूनुमण्डलप्रवॆशनम् १३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ইতীমমাদ্ভুতং স্তবং নিশম্য ভানুনন্দিনী",
+            "করোতু সন্ততং জনং ক্ড়্পাকটাক্ষভাজনম্",
+            "ভবেত্তদৈবসঞ্চিতত্রিরূপকর্মনাশনম্",
+            "ভবেত্তদা ব্রজেন্দ্রসূনুমণ্ডলপ্রবেশনম্ ১৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଇତୀମମାଦ୍ଭୁତଂ ସ୍ତବଂ ନିଶମ୍ୟ ଭାନୁନନ୍ଦିନୀ",
+            "କରୋତୁ ସନ୍ତତଂ ଜନଂ କ୍ଡ଼୍ପାକଟାକ୍ଷଭାଜନମ୍",
+            "ଭବେତ୍ତଦୈବସଞ୍ଚିତତ୍ରିରୂପକର୍ମନାଶନମ୍",
+            "ଭବେତ୍ତଦା ବ୍ରଜେନ୍ଦ୍ରସୂନୁମଣ୍ଡଲପ୍ରବେଶନମ୍ ୧୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઇતીમમાદ્ભુતં સ્તવં નિશમ્ય ભાનુનન્દિની",
+            "કરોતુ સન્તતં જનં ક્ડ઼્પાકટાક્ષભાજનમ્",
+            "ભવેત્તદૈવસઞ્ચિતત્રિરૂપકર્મનાશનમ્",
+            "ભવેત્તદા વ્રજેન્દ્રસૂનુમણ્ડલપ્રવેશનમ્ ૧૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "itīmamādbhutaṁ stavaṁ niśamya bhānunandinī",
+            "karotu santataṁ janaṁ kṛpākaṭākṣabhājanam",
+            "bhavettadaiva-sañcita-trirūpa-karmanāśanam",
+            "bhavettadā vrajendrasūnu-maṇḍala-praveśanam 13"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಇತೀಮಮಾದ್ಭುತಂ ಸ್ತವಂ ನಿಶಮ್ಯ ಭಾನುನಂದಿನೀ",
+            "ಕರೊತು ಸಂತತಂ ಜನಂ ಕ್‌ಡ಼್ಪಾಕಟಾಕ್ಷಭಾಜನಂ",
+            "ಭವೆತ್ತದೈವಸಂಚಿತತ್ರಿರೂಪಕರ್ಮನಾಶನಂ",
+            "ಭವೆತ್ತದಾ ವ್ರಜೆಂದ್ರಸೂನುಮಂಡಲಪ್ರವೆಶನಂ ೧೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఇతీమమాద్భుతం స్తవం నిశమ్య భానునందినీ",
+            "కరొతు సంతతం జనం క్డ్పాకటాక్షభాజనం",
+            "భవెత్తదైవసంచితత్రిరూపకర్మనాశనం",
+            "భవెత్తదా వ్రజెంద్రసూనుమండలప్రవెశనం 13"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "итӣмама̄дбхутам̣ ставам̣ ниш́амйа бха̄нунандинӣ",
+            "каро̆ту сантатам̣ джанам̣ кр̤па̄кат̣а̄кшабха̄джанам",
+            "бхавэ̆ттадаивасан̃читатрирӯпакармана̄ш́анам",
+            "бхавэ̆ттада̄ враджэ̆ндрасӯнуман̣д̣алаправэ̆ш́анам 13"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഇതീമമാദ്ഭുതം സ്തവം നിശമ്യ ഭാനുനന്ദിനീ",
+            "കരൊതു സന്തതം ജനം ക്ഡ്പാകടാക്ഷഭാജനം",
+            "ഭവെത്തദൈവസഞ്ചിതത്രിരൂപകർമനാശനം",
+            "ഭവെത്തദാ വ്രജെന്ദ്രസൂനുമണ്ഡലപ്രവെശനം 13"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "இதீமமாத்³பு⁴தம்ʼ ஸ்தவம்ʼ நிஶம்ய பா⁴னுனந்தி³னீ",
+            "கரொது ஸந்ததம்ʼ ஜனம்ʼ க்ஃட்²பாகடாக்ஷபா⁴ஜனம்",
+            "ப⁴வெத்ததை³வஸஞ்சிதத்ரிரூபகர்மநாஶனம்",
+            "ப⁴வெத்ததா³ வ்ரஜெந்த்³ரஸூனுமண்ட³லப்ரவெஶனம் 13"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "itīmamādbhutaṁ stavaṁ niśamya bhānunandinī",
+            "karotu santataṁ janaṁ kṛpākaṭākṣabhājanam",
+            "bhavettadaiva-sañcita-trirūpa-karmanāśanam",
+            "bhavettadā vrajendrasūnu-maṇḍala-praveśanam 13"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "itīmamādbhutaṁ stavaṁ niśamya bhānunandinī",
+            "karotu santataṁ janaṁ kṛpākaṭākṣabhājanam",
+            "bhavettadaiva-sañcita-trirūpa-karmanāśanam",
+            "bhavettadā vrajendrasūnu-maṇḍala-praveśanam 13"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "bvnm-1",
+      "filename": "R4-bvnm-1.mp3",
+      "artist": "Srila BV Narayana Gosvami Maharaja"
+    },
+    {
+      "uid": "jana-1",
+      "filename": "R4-jana-1.mp3",
+      "artist": "Janaki dasi"
+    },
+    {
+      "uid": "krsn-1",
+      "filename": "R4-krsn-1.mp3",
+      "artist": "Krsnadas das"
+    },
+    {
+      "uid": "srrb-1",
+      "filename": "R4-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    },
+    {
+      "uid": "taru-1",
+      "filename": "R4-taru-1.mp3",
+      "artist": "taru"
+    },
+    {
+      "uid": "taru-2",
+      "filename": "R4-taru-2.mp3",
+      "artist": "taru"
+    },
+    {
+      "uid": "taru-3",
+      "filename": "R4-taru-3.mp3",
+      "artist": "taru"
+    }
+  ]
+}

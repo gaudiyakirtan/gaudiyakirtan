@@ -1,0 +1,599 @@
+{
+ "uid": "NK9",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "জয় শচীনন্দন, জয় গৌরহরি"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "jaya śacīnandana, jaya gaurahari"
+  }
+ ],
+ "author_uid": "?",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "অজানা লেখক"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Unknown Author"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "jaya śacīnandana,    jaya gaurahari",
+    "biṣṇupriyā[FLAG_HYPHEN_ALPHA]prāṇadhana,    nadīyā[FLAG_HYPHEN_ALPHA]bihārī"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "All glories to the son of Mother Śacī-devī, all glories to Śrī Gaurahari! He is the wealth of the life of Viṣṇupriyā, and He revels in pastimes in the land Nadīyā."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "jaya",
+       "all glories"
+      ],
+      [
+       "śacīnandana",
+       "son of Mother Śacī-devī"
+      ],
+      [
+       "jaya",
+       "all glories"
+      ],
+      [
+       "gaurahari",
+       "Śrī Gaurahari"
+      ],
+      [
+       "biṣṇupriyā",
+       "Viṣṇupriyā-devī"
+      ],
+      [
+       "prāṇadhana",
+       "life + treasure"
+      ],
+      [
+       "nadīyā",
+       "Nadīyā-dhāma"
+      ],
+      [
+       "bihārī",
+       "He who revels"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "जय",
+       "all glories"
+      ],
+      [
+       "शचीनन्दन",
+       "son of Mother Śacī-devī"
+      ],
+      [
+       "जय",
+       "all glories"
+      ],
+      [
+       "गौरहरि",
+       "Śrī Gaurahari"
+      ],
+      [
+       "बिष्णुप्रिया",
+       "Viṣṇupriyā-devī"
+      ],
+      [
+       "प्राणधन",
+       "life + treasure"
+      ],
+      [
+       "नदीया",
+       "Nadīyā-dhāma"
+      ],
+      [
+       "बिहारी",
+       "He who revels"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "জয়",
+       "all glories"
+      ],
+      [
+       "শচীনন্দন",
+       "son of Mother Śacī-devī"
+      ],
+      [
+       "জয়",
+       "all glories"
+      ],
+      [
+       "গৌরহরি",
+       "Śrī Gaurahari"
+      ],
+      [
+       "বিষ্ণুপ্রিয়া",
+       "Viṣṇupriyā-devī"
+      ],
+      [
+       "প্রাণধন",
+       "life + treasure"
+      ],
+      [
+       "নদীয়া",
+       "Nadīyā-dhāma"
+      ],
+      [
+       "বিহারী",
+       "He who revels"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "જય",
+       "all glories"
+      ],
+      [
+       "શચીનન્દન",
+       "son of Mother Śacī-devī"
+      ],
+      [
+       "જય",
+       "all glories"
+      ],
+      [
+       "ગૌરહરિ",
+       "Śrī Gaurahari"
+      ],
+      [
+       "બિષ્ણુપ્રિયા",
+       "Viṣṇupriyā-devī"
+      ],
+      [
+       "પ્રાણધન",
+       "life + treasure"
+      ],
+      [
+       "નદીયા",
+       "Nadīyā-dhāma"
+      ],
+      [
+       "બિહારી",
+       "He who revels"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जय शचीनन्दन,    जय गौरहरि",
+      "बिष्णुप्रियाप्राणधन,    नदीयाबिहारी"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জয় শচীনন্দন,    জয় গৌরহরি",
+      "বিষ্ণুপ্রিয়াপ্রাণধন,    নদীয়াবিহারী"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜୟ ଶଚୀନନ୍ଦନ,    ଜୟ ଗୌରହରି",
+      "ବିଷ୍ଣୁପ୍ରିୟାପ୍ରାଣଧନ,    ନଦୀୟାବିହାରୀ"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જય શચીનન્દન,    જય ગૌરહરિ",
+      "બિષ્ણુપ્રિયાપ્રાણધન,    નદીયાબિહારી"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jaya śacīnandana,    jaya gaurahari",
+      "biṣṇupriyā-prāṇadhana,    nadīyā-bihārī"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜಯ ಶಚೀನಂದನ,    ಜಯ ಗೌರಹರಿ",
+      "ಬಿಷ್ಣುಪ್ರಿಯಾಪ್ರಾಣಧನ,    ನದೀಯಾಬಿಹಾರೀ"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జయ శచీనందన,    జయ గౌరహరి",
+      "బిష్ణుప్రియాప్రాణధన,    నదీయాబిహారీ"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джайа ш́ачӣнандана,    джайа гаурахари",
+      "бишн̣уприйа̄пра̄н̣адхана,    надӣйа̄биха̄рӣ"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജയ ശചീനന്ദന,    ജയ ഗൗരഹരി",
+      "ബിഷ്ണുപ്രിയാപ്രാണധന,    നദീയാബിഹാരീ"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜய ஶசீநந்த³ன,    ஜய கௌ³ரஹரி",
+      "பி³ஷ்ணுப்ரியாப்ராணத⁴ன,    நதீ³யாபி³ஹாரீ"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jaya śacīnandana,    jaya gaurahari",
+      "biṣṇupriyā-prāṇadhana,    nadīyā-bihārī"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jaya śacīnandana,    jaya gaurahari",
+      "biṣṇupriyā-prāṇadhana,    nadīyā-bihārī"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "jaya śacīnandana,    gaura guṇākara",
+    "prema[FLAG_HYPHEN_ALPHA]paraśamaṇi,    bhāba[FLAG_HYPHEN_ALPHA]rasa[FLAG_HYPHEN_ALPHA]sāgara"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "All glories to the son of Śacī, Gaurāṅga—the abode of wonderful qualities, the touchstone of prema, and the ocean of bhāva-rāsa."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "jaya",
+       "all glories"
+      ],
+      [
+       "śacīnandana",
+       "son of Mother Śacī-devī"
+      ],
+      [
+       "gaura",
+       "Gaurāṅga"
+      ],
+      [
+       "guṇākara",
+       "good qualities + abode"
+      ],
+      [
+       "prema",
+       "divine love"
+      ],
+      [
+       "paraśamaṇi",
+       "touchstone"
+      ],
+      [
+       "bhāba",
+       "ecstasy"
+      ],
+      [
+       "rasa",
+       "nectar"
+      ],
+      [
+       "sāgara",
+       "ocean"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "जय",
+       "all glories"
+      ],
+      [
+       "शचीनन्दन",
+       "son of Mother Śacī-devī"
+      ],
+      [
+       "गौर",
+       "Gaurāṅga"
+      ],
+      [
+       "गुणाकर",
+       "good qualities + abode"
+      ],
+      [
+       "प्रॆम",
+       "divine love"
+      ],
+      [
+       "परशमणि",
+       "touchstone"
+      ],
+      [
+       "भाब",
+       "ecstasy"
+      ],
+      [
+       "रस",
+       "nectar"
+      ],
+      [
+       "सागर",
+       "ocean"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "জয়",
+       "all glories"
+      ],
+      [
+       "শচীনন্দন",
+       "son of Mother Śacī-devī"
+      ],
+      [
+       "গৌর",
+       "Gaurāṅga"
+      ],
+      [
+       "গুণাকর",
+       "good qualities + abode"
+      ],
+      [
+       "প্রেম",
+       "divine love"
+      ],
+      [
+       "পরশমণি",
+       "touchstone"
+      ],
+      [
+       "ভাব",
+       "ecstasy"
+      ],
+      [
+       "রস",
+       "nectar"
+      ],
+      [
+       "সাগর",
+       "ocean"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "જય",
+       "all glories"
+      ],
+      [
+       "શચીનન્દન",
+       "son of Mother Śacī-devī"
+      ],
+      [
+       "ગૌર",
+       "Gaurāṅga"
+      ],
+      [
+       "ગુણાકર",
+       "good qualities + abode"
+      ],
+      [
+       "પ્રેમ",
+       "divine love"
+      ],
+      [
+       "પરશમણિ",
+       "touchstone"
+      ],
+      [
+       "ભાબ",
+       "ecstasy"
+      ],
+      [
+       "રસ",
+       "nectar"
+      ],
+      [
+       "સાગર",
+       "ocean"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जय शचीनन्दन,    गौर गुणाकर",
+      "प्रॆमपरशमणि,    भाबरससागर"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জয় শচীনন্দন,    গৌর গুণাকর",
+      "প্রেমপরশমণি,    ভাবরসসাগর"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜୟ ଶଚୀନନ୍ଦନ,    ଗୌର ଗୁଣାକର",
+      "ପ୍ରେମପରଶମଣି,    ଭାବରସସାଗର"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જય શચીનન્દન,    ગૌર ગુણાકર",
+      "પ્રેમપરશમણિ,    ભાબરસસાગર"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jaya śacīnandana,    gaura guṇākara",
+      "prema-paraśamaṇi,    bhāba-rasa-sāgara"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜಯ ಶಚೀನಂದನ,    ಗೌರ ಗುಣಾಕರ",
+      "ಪ್ರೆಮಪರಶಮಣಿ,    ಭಾಬರಸಸಾಗರ"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జయ శచీనందన,    గౌర గుణాకర",
+      "ప్రెమపరశమణి,    భాబరససాగర"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джайа ш́ачӣнандана,    гаура гун̣а̄кара",
+      "прэ̆мапараш́аман̣и,    бха̄барасаса̄гара"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജയ ശചീനന്ദന,    ഗൗര ഗുണാകര",
+      "പ്രെമപരശമണി,    ഭാബരസസാഗര"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜய ஶசீநந்த³ன,    கௌ³ர கு³ணாகர",
+      "ப்ரெமபரஶமணி,    பா⁴ப³ரஸஸாக³ர"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jaya śacīnandana,    gaura guṇākara",
+      "prema-paraśamaṇi,    bhāba-rasa-sāgara"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jaya śacīnandana,    gaura guṇākara",
+      "prema-paraśamaṇi,    bhāba-rasa-sāgara"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "krsb-1",
+   "filename": "NK9-krsb-1.mp3",
+   "artist": "Krsna das Babaji"
+  }
+ ],
+ "tags": [
+  "Small Mahāprabhu Kīrtana Chants"
+ ]
+}

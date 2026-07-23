@@ -1,0 +1,747 @@
+{
+  "uid": "MS66",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ওরে মন! কৃষ্ণনাম-সম নাহি আন"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "ore mana! kṛṣṇanāma-sama nāhi āna"
+    },
+    {
+      "script_code": "Deva",
+      "text": "ओरे मन! कृष्णनाम-सम नाहि आन"
+    },
+    {
+      "script_code": "Telu",
+      "text": "ఓరే మన! కృష్ణనామ-సమ నాహి ఆన"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಓರೇ ಮನ! ಕೃಷ್ಣನಾಮ-ಸಮ ನಾಹಿ ಆನ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஓரே மன! க்ருʼஷ்ணநாம-ஸம நாஹி ஆன"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഓരേ മന! കൃഷ്ണനാമ-സമ നാഹി ആന"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ઓરે મન! કૃષ્ણનામ-સમ નાહિ આન"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଓରେ ମନ! କୃଷ୍ଣନାମ-ସମ ନାହି ଆନ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "орэ мана! кр̣шн̣ана̄ма-сама на̄хи а̄на"
+    }
+  ],
+  "author_uid": "pdt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল প্রেমানন্দ দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Premānanda dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील प्रेमानन्द दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల ప్రేమానంద దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಪ್ರೇಮಾನಂದ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப்ரேமானந்த³ தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല പ്രേമാനന്ദ ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ પ્રેમાનન્દ દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ପ୍ରେମାନନ୍ଦ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла прэма̄нанда да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "ore mana! kṛṣṇanāma[FLAG_HYPHEN_ALPHA]sama nāhi āna",
+        "dharma[FLAG_HYPHEN_ALPHA]karma[FLAG_HYPHEN_ALPHA]tapa[FLAG_HYPHEN_ALPHA]tyāga,    dhyāna[FLAG_HYPHEN_ALPHA]jñāna[FLAG_HYPHEN_ALPHA]brata[FLAG_HYPHEN_ALPHA]yāga,",
+        "kichu nahe nāmera samāna 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऒरॆ मन! क्ड़्ष्णनामसम नाहि आन",
+            "धर्मकर्मतपत्याग,    ध्यानज्ञानब्रतयाग,",
+            "किछु नहॆ नामॆर समान १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ওরে মন! ক্ড়্ষ্ণনামসম নাহি আন",
+            "ধর্মকর্মতপত্যাগ,    ধ্যানজ্ঞানব্রতয়াগ,",
+            "কিছু নহে নামের সমান ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଓରେ ମନ! କ୍ଡ଼୍ଷ୍ଣନାମସମ ନାହି ଆନ",
+            "ଧର୍ମକର୍ମତପତ୍ୟାଗ,    ଧ୍ୟାନଜ୍ଞାନବ୍ରତୟାଗ,",
+            "କିଛୁ ନହେ ନାମେର ସମାନ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઓરે મન! ક્ડ઼્ષ્ણનામસમ નાહિ આન",
+            "ધર્મકર્મતપત્યાગ,    ધ્યાનજ્ઞાનબ્રતયાગ,",
+            "કિછુ નહે નામેર સમાન ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ore mana! kṛṣṇanāma-sama nāhi āna",
+            "dharma-karma-tapa-tyāga,    dhyāna-jñāna-brata-yāga,",
+            "kichu nahe nāmera samāna 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಒರೆ ಮನ! ಕ್‌ಡ಼್ಷ್ಣನಾಮಸಮ ನಾಹಿ ಆನ",
+            "ಧರ್ಮಕರ್ಮತಪತ್ಯಾಗ,    ಧ್ಯಾನಜ್ಞಾನಬ್ರತಯಾಗ,",
+            "ಕಿಛು ನಹೆ ನಾಮೆರ ಸಮಾನ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఒరె మన! క్డ్ష్ణనామసమ నాహి ఆన",
+            "ధర్మకర్మతపత్యాగ,    ధ్యానజ్ఞానబ్రతయాగ,",
+            "కిఛు నహె నామెర సమాన 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "о̆рэ̆ мана! кр̤шн̣ана̄масама на̄хи а̄на",
+            "дхармакарматапатйа̄га,    дхйа̄наджн̃а̄набратайа̄га,",
+            "кичху нахэ̆ на̄мэ̆ра сама̄на 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഒരെ മന! ക്ഡ്ഷ്ണനാമസമ നാഹി ആന",
+            "ധർമകർമതപത്യാഗ,    ധ്യാനജ്ഞാനബ്രതയാഗ,",
+            "കിഛു നഹെ നാമെര സമാന 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஒரெ மன! க்ஃட்²ஷ்ணநாமஸம நாஹி ஆன",
+            "த⁴ர்மகர்மதபத்யாக³,    த்⁴யானஜ்ஞானப்³ரதயாக³,",
+            "கிசு² நஹெ நாமெர ஸமான 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ore mana! kṛṣṇanāma-sama nāhi āna",
+            "dharma-karma-tapa-tyāga,    dhyāna-jñāna-brata-yāga,",
+            "kichu nahe nāmera samāna 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ore mana! kṛṣṇanāma-sama nāhi āna",
+            "dharma-karma-tapa-tyāga,    dhyāna-jñāna-brata-yāga,",
+            "kichu nahe nāmera samāna 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "ye nāma la·ite hara,    preme matta digambara,",
+        "bālmīki ha·ila tapodhana",
+        "ajāmila pāpī chila,    nāmābhāse tare gela,",
+        "putrake ḍākiyā nārāyaṇa 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "यॆ नाम लइतॆ हर,    प्रॆमॆ मत्त दिगम्बर,",
+            "बाल्मीकि हइल तपॊधन",
+            "अजामिल पापी छिल,    नामाभासॆ तरॆ गॆल,",
+            "पुत्रकॆ डाकिया नारायण २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যে নাম লইতে হর,    প্রেমে মত্ত দিগম্বর,",
+            "বাল্মীকি হইল তপোধন",
+            "অজামিল পাপী ছিল,    নামাভাসে তরে গেল,",
+            "পুত্রকে ডাকিয়া নারায়ণ ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯେ ନାମ ଲଇତେ ହର,    ପ୍ରେମେ ମତ୍ତ ଦିଗମ୍ବର,",
+            "ବାଲ୍ମୀକି ହଇଲ ତପୋଧନ",
+            "ଅଜାମିଲ ପାପୀ ଛିଲ,    ନାମାଭାସେ ତରେ ଗେଲ,",
+            "ପୁତ୍ରକେ ଡାକିୟା ନାରାୟଣ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યે નામ લઇતે હર,    પ્રેમે મત્ત દિગમ્બર,",
+            "બાલ્મીકિ હઇલ તપોધન",
+            "અજામિલ પાપી છિલ,    નામાભાસે તરે ગેલ,",
+            "પુત્રકે ડાકિયા નારાયણ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ye nāma la·ite hara,    preme matta digambara,",
+            "bālmīki ha·ila tapodhana",
+            "ajāmila pāpī chila,    nāmābhāse tare gela,",
+            "putrake ḍākiyā nārāyaṇa 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯೆ ನಾಮ ಲಇತೆ ಹರ,    ಪ್ರೆಮೆ ಮತ್ತ ದಿಗಂಬರ,",
+            "ಬಾಲ್ಮೀಕಿ ಹಇಲ ತಪೊಧನ",
+            "ಅಜಾಮಿಲ ಪಾಪೀ ಛಿಲ,    ನಾಮಾಭಾಸೆ ತರೆ ಗೆಲ,",
+            "ಪುತ್ರಕೆ ಡಾಕಿಯಾ ನಾರಾಯಣ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యె నామ లఇతె హర,    ప్రెమె మత్త దిగంబర,",
+            "బాల్మీకి హఇల తపొధన",
+            "అజామిల పాపీ ఛిల,    నామాభాసె తరె గెల,",
+            "పుత్రకె డాకియా నారాయణ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йэ̆ на̄ма лаитэ̆ хара,    прэ̆мэ̆ матта дигамбара,",
+            "ба̄лмӣки хаила тапо̆дхана",
+            "аджа̄мила па̄пӣ чхила,    на̄ма̄бха̄сэ̆ тарэ̆ гэ̆ла,",
+            "путракэ̆ д̣а̄кийа̄ на̄ра̄йан̣а 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യെ നാമ ലഇതെ ഹര,    പ്രെമെ മത്ത ദിഗംബര,",
+            "ബാല്മീകി ഹഇല തപൊധന",
+            "അജാമില പാപീ ഛില,    നാമാഭാസെ തരെ ഗെല,",
+            "പുത്രകെ ഡാകിയാ നാരായണ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யெ நாம லஇதெ ஹர,    ப்ரெமெ மத்த தி³க³ம்ப³ர,",
+            "பா³ல்மீகி ஹஇல தபொத⁴ன",
+            "அஜாமில பாபீ சி²ல,    நாமாபா⁴ஸெ தரெ கெ³ல,",
+            "புத்ரகெ டா³கியா நாராயண 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ye nāma la·ite hara,    preme matta digambara,",
+            "bālmīki ha·ila tapodhana",
+            "ajāmila pāpī chila,    nāmābhāse tare gela,",
+            "putrake ḍākiyā nārāyaṇa 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ye nāma la·ite hara,    preme matta digambara,",
+            "bālmīki ha·ila tapodhana",
+            "ajāmila pāpī chila,    nāmābhāse tare gela,",
+            "putrake ḍākiyā nārāyaṇa 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "ye[FLAG_HYPHEN_ALPHA]nāmera sbāda peye,    tambure phiraye geye,",
+        "debaṛṣi nārada[FLAG_HYPHEN_ALPHA]gosāi",
+        "satyabhāmā brata[FLAG_HYPHEN_ALPHA]chale,    kṛṣṇa[FLAG_HYPHEN_ALPHA]saṅge kari’ tūle,",
+        "dekhāilā nāmera baḓāi 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "यॆनामॆर स्बाद पॆयॆ,    तम्बुरॆ फिरयॆ गॆयॆ,",
+            "दॆबड़्षि नारदगॊसाइ",
+            "सत्यभामा ब्रतछलॆ,    क्ड़्ष्णसङ्गॆ करिऽ तूलॆ,",
+            "दॆखाइला नामॆर बḓआइ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যেনামের স্বাদ পেয়ে,    তম্বুরে ফিরয়ে গেয়ে,",
+            "দেবড়্ষি নারদগোসাই",
+            "সত্যভামা ব্রতছলে,    ক্ড়্ষ্ণসঙ্গে করিঽ তূলে,",
+            "দেখাইলা নামের বḓআই ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯେନାମେର ସ୍ବାଦ ପେୟେ,    ତମ୍ବୁରେ ଫିରୟେ ଗେୟେ,",
+            "ଦେବଡ଼୍ଷି ନାରଦଗୋସାଇ",
+            "ସତ୍ୟଭାମା ବ୍ରତଛଲେ,    କ୍ଡ଼୍ଷ୍ଣସଙ୍ଗେ କରିଽ ତୂଲେ,",
+            "ଦେଖାଇଲା ନାମେର ବḓଆଇ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યેનામેર સ્બાદ પેયે,    તમ્બુરે ફિરયે ગેયે,",
+            "દેબડ઼્ષિ નારદગોસાઇ",
+            "સત્યભામા બ્રતછલે,    ક્ડ઼્ષ્ણસઙ્ગે કરિઽ તૂલે,",
+            "દેખાઇલા નામેર બḓઆઇ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ye-nāmera sbāda peye,    tambure phiraye geye,",
+            "debaṛṣi nārada-gosāi",
+            "satyabhāmā brata-chale,    kṛṣṇa-saṅge kari’ tūle,",
+            "dekhāilā nāmera baḓāi 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯೆನಾಮೆರ ಸ್ಬಾದ ಪೆಯೆ,    ತಂಬುರೆ ಫಿರಯೆ ಗೆಯೆ,",
+            "ದೆಬಡ಼್ಷಿ ನಾರದಗೊಸಾಇ",
+            "ಸತ್ಯಭಾಮಾ ಬ್ರತಛಲೆ,    ಕ್‌ಡ಼್ಷ್ಣಸಂಗೆ ಕರಿಽ ತೂಲೆ,",
+            "ದೆಖಾಇಲಾ ನಾಮೆರ ಬḓಆಇ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యెనామెర స్బాద పెయె,    తంబురె ఫిరయె గెయె,",
+            "దెబడ్షి నారదగొసాఇ",
+            "సత్యభామా బ్రతఛలె,    క్డ్ష్ణసంగె కరిఽ తూలె,",
+            "దెఖాఇలా నామెర బḓఆఇ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йэ̆на̄мэ̆ра сба̄да пэ̆йэ̆,    тамбурэ̆ пхирайэ̆ гэ̆йэ̆,",
+            "дэ̆бар̤ши на̄радаго̆са̄и",
+            "сатйабха̄ма̄ братачхалэ̆,    кр̤шн̣асан̇гэ̆ кари' тӯлэ̆,",
+            "дэ̆кха̄ила̄ на̄мэ̆ра баḓа̄и 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യെനാമെര സ്ബാദ പെയെ,    തംബുരെ ഫിരയെ ഗെയെ,",
+            "ദെബഡ്ഷി നാരദഗൊസാഇ",
+            "സത്യഭാമാ ബ്രതഛലെ,    ക്ഡ്ഷ്ണസംഗെ കരിഽ തൂലെ,",
+            "ദെഖാഇലാ നാമെര ബḓആഇ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யெநாமெர ஸ்பா³த³ பெயெ,    தம்பு³ரெ பி²ரயெ கெ³யெ,",
+            "தெ³ப³ஃட்²ஷி நாரத³கொ³ஸாஇ",
+            "ஸத்யபா⁴மா ப்³ரதச²லெ,    க்ஃட்²ஷ்ணஸங்கெ³ கரி(அ) தூலெ,",
+            "தெ³கா²இலா நாமெர ப³ḓஆஇ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ye-nāmera sbāda peye,    tambure phiraye geye,",
+            "debaṛṣi nārada-gosāi",
+            "satyabhāmā brata-chale,    kṛṣṇa-saṅge kari’ tūle,",
+            "dekhāilā nāmera baḍāi 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ye-nāmera sbāda peye,    tambure phiraye geye,",
+            "debaṛṣi nārada-gosāi",
+            "satyabhāmā brata-chale,    kṛṣṇa-saṅge kari’ tūle,",
+            "dekhāilā nāmera baḓāi 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "ananta sahasra mukhe,    ye nāma gāyena sukhe,",
+        "tabu to karite nāre sīmā",
+        "lakṣya kari’ arjunake,    prabhu āpanāra mukhe,",
+        "kahechena nāmera mahimā 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "अनन्त सहस्र मुखॆ,    यॆ नाम गायॆन सुखॆ,",
+            "तबु तॊ करितॆ नारॆ सीमा",
+            "लक्ष्य करिऽ अर्जुनकॆ,    प्रभु आपनार मुखॆ,",
+            "कहॆछॆन नामॆर महिमा ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "অনন্ত সহস্র মুখে,    যে নাম গায়েন সুখে,",
+            "তবু তো করিতে নারে সীমা",
+            "লক্ষ্য করিঽ অর্জুনকে,    প্রভু আপনার মুখে,",
+            "কহেছেন নামের মহিমা ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଅନନ୍ତ ସହସ୍ର ମୁଖେ,    ଯେ ନାମ ଗାୟେନ ସୁଖେ,",
+            "ତବୁ ତୋ କରିତେ ନାରେ ସୀମା",
+            "ଲକ୍ଷ୍ୟ କରିଽ ଅର୍ଜୁନକେ,    ପ୍ରଭୁ ଆପନାର ମୁଖେ,",
+            "କହେଛେନ ନାମେର ମହିମା ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "અનન્ત સહસ્ર મુખે,    યે નામ ગાયેન સુખે,",
+            "તબુ તો કરિતે નારે સીમા",
+            "લક્ષ્ય કરિઽ અર્જુનકે,    પ્રભુ આપનાર મુખે,",
+            "કહેછેન નામેર મહિમા ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ananta sahasra mukhe,    ye nāma gāyena sukhe,",
+            "tabu to karite nāre sīmā",
+            "lakṣya kari’ arjunake,    prabhu āpanāra mukhe,",
+            "kahechena nāmera mahimā 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಅನಂತ ಸಹಸ್ರ ಮುಖೆ,    ಯೆ ನಾಮ ಗಾಯೆನ ಸುಖೆ,",
+            "ತಬು ತೊ ಕರಿತೆ ನಾರೆ ಸೀಮಾ",
+            "ಲಕ್ಷ್ಯ ಕರಿಽ ಅರ್ಜುನಕೆ,    ಪ್ರಭು ಆಪನಾರ ಮುಖೆ,",
+            "ಕಹೆಛೆನ ನಾಮೆರ ಮಹಿಮಾ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "అనంత సహస్ర ముఖె,    యె నామ గాయెన సుఖె,",
+            "తబు తొ కరితె నారె సీమా",
+            "లక్ష్య కరిఽ అర్జునకె,    ప్రభు ఆపనార ముఖె,",
+            "కహెఛెన నామెర మహిమా 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ананта сахасра мукхэ̆,    йэ̆ на̄ма га̄йэ̆на сукхэ̆,",
+            "табу то̆ каритэ̆ на̄рэ̆ сӣма̄",
+            "лакшйа кари' арджунакэ̆,    прабху а̄пана̄ра мукхэ̆,",
+            "кахэ̆чхэ̆на на̄мэ̆ра махима̄ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "അനന്ത സഹസ്ര മുഖെ,    യെ നാമ ഗായെന സുഖെ,",
+            "തബു തൊ കരിതെ നാരെ സീമാ",
+            "ലക്ഷ്യ കരിഽ അർജുനകെ,    പ്രഭു ആപനാര മുഖെ,",
+            "കഹെഛെന നാമെര മഹിമാ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "அனந்த ஸஹஸ்ர முகெ²,    யெ நாம கா³யென ஸுகெ²,",
+            "தபு³ தொ கரிதெ நாரெ ஸீமா",
+            "லக்ஷ்ய கரி(அ) அர்ஜுனகெ,    ப்ரபு⁴ ஆபனார முகெ²,",
+            "கஹெசெ²ன நாமெர மஹிமா 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ananta sahasra mukhe,    ye nāma gāyena sukhe,",
+            "tabu to karite nāre sīmā",
+            "lakṣya kari’ arjunake,    prabhu āpanāra mukhe,",
+            "kahechena nāmera mahimā 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ananta sahasra mukhe,    ye nāma gāyena sukhe,",
+            "tabu to karite nāre sīmā",
+            "lakṣya kari’ arjunake,    prabhu āpanāra mukhe,",
+            "kahechena nāmera mahimā 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "premānanda kahe mana,    ‘kṛṣṇa’ bala anukṣaṇa,",
+        "durbāsanā chāḓiyā hṛdaya",
+        "preme ucca nāma kari’,    abaśya pāibe hari,",
+        "nāma āra nāmī bhinna naya 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "प्रॆमानन्द कहॆ मन,    ‘क्ड़्ष्णऽ बल अनुक्षण,",
+            "दुर्बासना छाḓइया ह्ड़्दय",
+            "प्रॆमॆ उच्च नाम करिऽ,    अबश्य पाइबॆ हरि,",
+            "नाम आर नामी भिन्न नय ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "প্রেমানন্দ কহে মন,    ‘ক্ড়্ষ্ণঽ বল অনুক্ষণ,",
+            "দুর্বাসনা ছাḓইয়া হ্ড়্দয়",
+            "প্রেমে উচ্চ নাম করিঽ,    অবশ্য পাইবে হরি,",
+            "নাম আর নামী ভিন্ন নয় ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ପ୍ରେମାନନ୍ଦ କହେ ମନ,    ‘କ୍ଡ଼୍ଷ୍ଣଽ ବଲ ଅନୁକ୍ଷଣ,",
+            "ଦୁର୍ବାସନା ଛାḓଇୟା ହ୍ଡ଼୍ଦୟ",
+            "ପ୍ରେମେ ଉଚ୍ଚ ନାମ କରିଽ,    ଅବଶ୍ୟ ପାଇବେ ହରି,",
+            "ନାମ ଆର ନାମୀ ଭିନ୍ନ ନୟ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "પ્રેમાનન્દ કહે મન,    ‘ક્ડ઼્ષ્ણઽ બલ અનુક્ષણ,",
+            "દુર્બાસના છાḓઇયા હ્ડ઼્દય",
+            "પ્રેમે ઉચ્ચ નામ કરિઽ,    અબશ્ય પાઇબે હરિ,",
+            "નામ આર નામી ભિન્ન નય ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "premānanda kahe mana,    ‘kṛṣṇa’ bala anukṣaṇa,",
+            "durbāsanā chāḓiyā hṛdaya",
+            "preme ucca nāma kari’,    abaśya pāibe hari,",
+            "nāma āra nāmī bhinna naya 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಪ್ರೆಮಾನಂದ ಕಹೆ ಮನ,    ‘ಕ್‌ಡ಼್ಷ್ಣಽ ಬಲ ಅನುಕ್ಷಣ,",
+            "ದುರ್ಬಾಸನಾ ಛಾḓಇಯಾ ಹ್‌ಡ಼್ದಯ",
+            "ಪ್ರೆಮೆ ಉಚ್ಚ ನಾಮ ಕರಿಽ,    ಅಬಶ್ಯ ಪಾಇಬೆ ಹರಿ,",
+            "ನಾಮ ಆರ ನಾಮೀ ಭಿನ್ನ ನಯ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ప్రెమానంద కహె మన,    ‘క్డ్ష్ణఽ బల అనుక్షణ,",
+            "దుర్బాసనా ఛాḓఇయా హ్డ్దయ",
+            "ప్రెమె ఉచ్చ నామ కరిఽ,    అబశ్య పాఇబె హరి,",
+            "నామ ఆర నామీ భిన్న నయ 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "прэ̆ма̄нанда кахэ̆ мана,    ‘кр̤шн̣а' бала анукшан̣а,",
+            "дурба̄сана̄ чха̄ḓийа̄ хр̤дайа",
+            "прэ̆мэ̆ учча на̄ма кари',    абаш́йа па̄ибэ̆ хари,",
+            "на̄ма а̄ра на̄мӣ бхинна найа 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "പ്രെമാനന്ദ കഹെ മന,    ‘ക്ഡ്ഷ്ണഽ ബല അനുക്ഷണ,",
+            "ദുർബാസനാ ഛാḓഇയാ ഹ്ഡ്ദയ",
+            "പ്രെമെ ഉച്ച നാമ കരിഽ,    അബശ്യ പാഇബെ ഹരി,",
+            "നാമ ആര നാമീ ഭിന്ന നയ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப்ரெமானந்த³ கஹெ மன,    ‘க்ஃட்²ஷ்ண(அ) ப³ல அனுக்ஷண,",
+            "து³ர்பா³ஸனா சா²ḓஇயா ஹ்ஃட்²த³ய",
+            "ப்ரெமெ உச்ச நாம கரி(அ),    அப³ஶ்ய பாஇபெ³ ஹரி,",
+            "நாம ஆர நாமீ பி⁴ன்ன நய 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "premānanda kahe mana,    ‘kṛṣṇa’ bala anukṣaṇa,",
+            "durbāsanā chāḍiyā hṛdaya",
+            "preme ucca nāma kari’,    abaśya pāibe hari,",
+            "nāma āra nāmī bhinna naya 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "premānanda kahe mana,    ‘kṛṣṇa’ bala anukṣaṇa,",
+            "durbāsanā chāḓiyā hṛdaya",
+            "preme ucca nāma kari’,    abaśya pāibe hari,",
+            "nāma āra nāmī bhinna naya 5"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "(২৭)"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "More Instructions to the Mind",
+    "Selected Manaḥ-śikṣā songs by Premānanda dāsa Ṭhākura"
+  ]
+}

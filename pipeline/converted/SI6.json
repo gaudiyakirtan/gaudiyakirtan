@@ -1,0 +1,2231 @@
+{
+ "uid": "SI6",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "অপরাধ-ফলে মম"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "aparādha-phale mama"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "aparādha[FLAG_HYPHEN_ALPHA]phale mama,    citta bhela bajrasama,",
+    "tuyā nāme nā labhe bikāra",
+    "hatāśa ha·iye hari,    taba nāma ucca kari’,",
+    "baḓa duḥkhe ḍāki bārabāra 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Due to my offenses, my heart has become hard like a bolt of lightning and feels no transformation from chanting Your name. Downcast, O Hari, I cry out Your name again and again in great distress."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "aparādha",
+       "offenses"
+      ],
+      [
+       "phale",
+       "as a result of"
+      ],
+      [
+       "mama",
+       "my"
+      ],
+      [
+       "citta",
+       "heart"
+      ],
+      [
+       "bhela",
+       "(hôilô) became"
+      ],
+      [
+       "bajrasama",
+       "thunderbolt + like"
+      ],
+      [
+       "tuyā",
+       "Your"
+      ],
+      [
+       "nāme",
+       "from name"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "labhe",
+       "get"
+      ],
+      [
+       "bikāra",
+       "transformation"
+      ],
+      [
+       "hatāśa",
+       "dejected, despondent"
+      ],
+      [
+       "ha·iye",
+       "having become"
+      ],
+      [
+       "hari",
+       "O Hari"
+      ],
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "nāma",
+       "name"
+      ],
+      [
+       "ucca kari’",
+       "loudly"
+      ],
+      [
+       "baḓa",
+       "great"
+      ],
+      [
+       "duḥkhe",
+       "in distress"
+      ],
+      [
+       "ḍāki",
+       "I call out"
+      ],
+      [
+       "bārabāra",
+       "again and again"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "अपराध",
+       "offenses"
+      ],
+      [
+       "फलॆ",
+       "as a result of"
+      ],
+      [
+       "मम",
+       "my"
+      ],
+      [
+       "चित्त",
+       "heart"
+      ],
+      [
+       "भॆल",
+       "(hôilô) became"
+      ],
+      [
+       "बज्रसम",
+       "thunderbolt + like"
+      ],
+      [
+       "तुया",
+       "Your"
+      ],
+      [
+       "नामॆ",
+       "from name"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "लभॆ",
+       "get"
+      ],
+      [
+       "बिकार",
+       "transformation"
+      ],
+      [
+       "हताश",
+       "dejected, despondent"
+      ],
+      [
+       "हइयॆ",
+       "having become"
+      ],
+      [
+       "हरि",
+       "O Hari"
+      ],
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "नाम",
+       "name"
+      ],
+      [
+       "उच्च करिऽ",
+       "loudly"
+      ],
+      [
+       "बḓअ",
+       "great"
+      ],
+      [
+       "दुःखॆ",
+       "in distress"
+      ],
+      [
+       "डाकि",
+       "I call out"
+      ],
+      [
+       "बारबार",
+       "again and again"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "অপরাধ",
+       "offenses"
+      ],
+      [
+       "ফলে",
+       "as a result of"
+      ],
+      [
+       "মম",
+       "my"
+      ],
+      [
+       "চিত্ত",
+       "heart"
+      ],
+      [
+       "ভেল",
+       "(hôilô) became"
+      ],
+      [
+       "বজ্রসম",
+       "thunderbolt + like"
+      ],
+      [
+       "তুয়া",
+       "Your"
+      ],
+      [
+       "নামে",
+       "from name"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "লভে",
+       "get"
+      ],
+      [
+       "বিকার",
+       "transformation"
+      ],
+      [
+       "হতাশ",
+       "dejected, despondent"
+      ],
+      [
+       "হইয়ে",
+       "having become"
+      ],
+      [
+       "হরি",
+       "O Hari"
+      ],
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "নাম",
+       "name"
+      ],
+      [
+       "উচ্চ করিঽ",
+       "loudly"
+      ],
+      [
+       "বḓঅ",
+       "great"
+      ],
+      [
+       "দুঃখে",
+       "in distress"
+      ],
+      [
+       "ডাকি",
+       "I call out"
+      ],
+      [
+       "বারবার",
+       "again and again"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "અપરાધ",
+       "offenses"
+      ],
+      [
+       "ફલે",
+       "as a result of"
+      ],
+      [
+       "મમ",
+       "my"
+      ],
+      [
+       "ચિત્ત",
+       "heart"
+      ],
+      [
+       "ભેલ",
+       "(hôilô) became"
+      ],
+      [
+       "બજ્રસમ",
+       "thunderbolt + like"
+      ],
+      [
+       "તુયા",
+       "Your"
+      ],
+      [
+       "નામે",
+       "from name"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "લભે",
+       "get"
+      ],
+      [
+       "બિકાર",
+       "transformation"
+      ],
+      [
+       "હતાશ",
+       "dejected, despondent"
+      ],
+      [
+       "હઇયે",
+       "having become"
+      ],
+      [
+       "હરિ",
+       "O Hari"
+      ],
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "નામ",
+       "name"
+      ],
+      [
+       "ઉચ્ચ કરિઽ",
+       "loudly"
+      ],
+      [
+       "બḓઅ",
+       "great"
+      ],
+      [
+       "દુઃખે",
+       "in distress"
+      ],
+      [
+       "ડાકિ",
+       "I call out"
+      ],
+      [
+       "બારબાર",
+       "again and again"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अपराधफलॆ मम,    चित्त भॆल बज्रसम,",
+      "तुया नामॆ ना लभॆ बिकार",
+      "हताश हइयॆ हरि,    तब नाम उच्च करिऽ,",
+      "बḓअ दुःखॆ डाकि बारबार १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অপরাধফলে মম,    চিত্ত ভেল বজ্রসম,",
+      "তুয়া নামে না লভে বিকার",
+      "হতাশ হইয়ে হরি,    তব নাম উচ্চ করিঽ,",
+      "বḓঅ দুঃখে ডাকি বারবার ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅପରାଧଫଲେ ମମ,    ଚିତ୍ତ ଭେଲ ବଜ୍ରସମ,",
+      "ତୁୟା ନାମେ ନା ଲଭେ ବିକାର",
+      "ହତାଶ ହଇୟେ ହରି,    ତବ ନାମ ଉଚ୍ଚ କରିଽ,",
+      "ବḓଅ ଦୁଃଖେ ଡାକି ବାରବାର ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અપરાધફલે મમ,    ચિત્ત ભેલ બજ્રસમ,",
+      "તુયા નામે ના લભે બિકાર",
+      "હતાશ હઇયે હરિ,    તબ નામ ઉચ્ચ કરિઽ,",
+      "બḓઅ દુઃખે ડાકિ બારબાર ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "aparādha-phale mama,    citta bhela bajrasama,",
+      "tuyā nāme nā labhe bikāra",
+      "hatāśa ha·iye hari,    taba nāma ucca kari’,",
+      "baḓa duḥkhe ḍāki bārabāra 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅಪರಾಧಫಲೆ ಮಮ,    ಚಿತ್ತ ಭೆಲ ಬಜ್ರಸಮ,",
+      "ತುಯಾ ನಾಮೆ ನಾ ಲಭೆ ಬಿಕಾರ",
+      "ಹತಾಶ ಹಇಯೆ ಹರಿ,    ತಬ ನಾಮ ಉಚ್ಚ ಕರಿಽ,",
+      "ಬḓಅ ದುಃಖೆ ಡಾಕಿ ಬಾರಬಾರ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అపరాధఫలె మమ,    చిత్త భెల బజ్రసమ,",
+      "తుయా నామె నా లభె బికార",
+      "హతాశ హఇయె హరి,    తబ నామ ఉచ్చ కరిఽ,",
+      "బḓఅ దుఃఖె డాకి బారబార 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "апара̄дхапхалэ̆ мама,    читта бхэ̆ла баджрасама,",
+      "туйа̄ на̄мэ̆ на̄ лабхэ̆ бика̄ра",
+      "хата̄ш́а хаийэ̆ хари,    таба на̄ма учча кари',",
+      "баḓа дух̣кхэ̆ д̣а̄ки ба̄раба̄ра 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അപരാധഫലെ മമ,    ചിത്ത ഭെല ബജ്രസമ,",
+      "തുയാ നാമെ നാ ലഭെ ബികാര",
+      "ഹതാശ ഹഇയെ ഹരി,    തബ നാമ ഉച്ച കരിഽ,",
+      "ബḓഅ ദുഃഖെ ഡാകി ബാരബാര 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அபராத⁴ப²லெ மம,    சித்த பெ⁴ல ப³ஜ்ரஸம,",
+      "துயா நாமெ நா லபெ⁴ பி³கார",
+      "ஹதாஶ ஹஇயெ ஹரி,    தப³ நாம உச்ச கரி(அ),",
+      "ப³ḓஅ து³꞉கெ² டா³கி பா³ரபா³ர 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "aparādha-phale mama,    citta bhela bajrasama,",
+      "tuyā nāme nā labhe bikāra",
+      "hatāśa ha·iye hari,    taba nāma ucca kari’,",
+      "baḍa duḥkhe ḍāki bārabāra 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "aparādha-phale mama,    citta bhela bajrasama,",
+      "tuyā nāme nā labhe bikāra",
+      "hatāśa ha·iye hari,    taba nāma ucca kari’,",
+      "baḓa duḥkhe ḍāki bārabāra 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "dīna dayāmaya karuṇā[FLAG_HYPHEN_ALPHA]nidāna",
+    "bhābabindu dei rākhaha parāṇa 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O You who are merciful to the fallen! O root cause of compassion! Please give me a drop of bhāva and save my life."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "dīna",
+       "fallen"
+      ],
+      [
+       "dayāmaya",
+       "merciful"
+      ],
+      [
+       "karuṇā",
+       "compassion"
+      ],
+      [
+       "nidāna",
+       "root cause"
+      ],
+      [
+       "bhābabindu",
+       "feeling, emotion + drop"
+      ],
+      [
+       "dei",
+       "give"
+      ],
+      [
+       "rākhaha",
+       "save"
+      ],
+      [
+       "parāṇa",
+       "life"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "दीन",
+       "fallen"
+      ],
+      [
+       "दयामय",
+       "merciful"
+      ],
+      [
+       "करुणा",
+       "compassion"
+      ],
+      [
+       "निदान",
+       "root cause"
+      ],
+      [
+       "भाबबिन्दु",
+       "feeling, emotion + drop"
+      ],
+      [
+       "दॆइ",
+       "give"
+      ],
+      [
+       "राखह",
+       "save"
+      ],
+      [
+       "पराण",
+       "life"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "দীন",
+       "fallen"
+      ],
+      [
+       "দয়াময়",
+       "merciful"
+      ],
+      [
+       "করুণা",
+       "compassion"
+      ],
+      [
+       "নিদান",
+       "root cause"
+      ],
+      [
+       "ভাববিন্দু",
+       "feeling, emotion + drop"
+      ],
+      [
+       "দেই",
+       "give"
+      ],
+      [
+       "রাখহ",
+       "save"
+      ],
+      [
+       "পরাণ",
+       "life"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "દીન",
+       "fallen"
+      ],
+      [
+       "દયામય",
+       "merciful"
+      ],
+      [
+       "કરુણા",
+       "compassion"
+      ],
+      [
+       "નિદાન",
+       "root cause"
+      ],
+      [
+       "ભાબબિન્દુ",
+       "feeling, emotion + drop"
+      ],
+      [
+       "દેઇ",
+       "give"
+      ],
+      [
+       "રાખહ",
+       "save"
+      ],
+      [
+       "પરાણ",
+       "life"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "दीन दयामय करुणानिदान",
+      "भाबबिन्दु दॆइ राखह पराण २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "দীন দয়াময় করুণানিদান",
+      "ভাববিন্দু দেই রাখহ পরাণ ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଦୀନ ଦୟାମୟ କରୁଣାନିଦାନ",
+      "ଭାବବିନ୍ଦୁ ଦେଇ ରାଖହ ପରାଣ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "દીન દયામય કરુણાનિદાન",
+      "ભાબબિન્દુ દેઇ રાખહ પરાણ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "dīna dayāmaya karuṇā-nidāna",
+      "bhābabindu dei rākhaha parāṇa 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ದೀನ ದಯಾಮಯ ಕರುಣಾನಿದಾನ",
+      "ಭಾಬಬಿಂದು ದೆಇ ರಾಖಹ ಪರಾಣ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "దీన దయామయ కరుణానిదాన",
+      "భాబబిందు దెఇ రాఖహ పరాణ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "дӣна дайа̄майа карун̣а̄нида̄на",
+      "бха̄бабинду дэ̆и ра̄кхаха пара̄н̣а 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ദീന ദയാമയ കരുണാനിദാന",
+      "ഭാബബിന്ദു ദെഇ രാഖഹ പരാണ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தீ³ன த³யாமய கருணாநிதா³ன",
+      "பா⁴ப³பி³ந்து³ தெ³இ ராக²ஹ பராண 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "dīna dayāmaya karuṇā-nidāna",
+      "bhābabindu dei rākhaha parāṇa 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "dīna dayāmaya karuṇā-nidāna",
+      "bhābabindu dei rākhaha parāṇa 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "kabe taba nāma uccāraṇe mora",
+    "nayane jharaba daradara lora 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "When will tears flow continuously from my eyes upon uttering Your holy name?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "kabe",
+       "when"
+      ],
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "nāma",
+       "name"
+      ],
+      [
+       "uccāraṇe",
+       "upon uttering"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "nayane",
+       "from eyes"
+      ],
+      [
+       "jharaba",
+       "will stream"
+      ],
+      [
+       "daradara",
+       "continuous and rapid flow"
+      ],
+      [
+       "lora",
+       "(aśru) tears"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "कबॆ",
+       "when"
+      ],
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "नाम",
+       "name"
+      ],
+      [
+       "उच्चारणॆ",
+       "upon uttering"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "नयनॆ",
+       "from eyes"
+      ],
+      [
+       "झरब",
+       "will stream"
+      ],
+      [
+       "दरदर",
+       "continuous and rapid flow"
+      ],
+      [
+       "लॊर",
+       "(aśru) tears"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "কবে",
+       "when"
+      ],
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "নাম",
+       "name"
+      ],
+      [
+       "উচ্চারণে",
+       "upon uttering"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "নয়নে",
+       "from eyes"
+      ],
+      [
+       "ঝরব",
+       "will stream"
+      ],
+      [
+       "দরদর",
+       "continuous and rapid flow"
+      ],
+      [
+       "লোর",
+       "(aśru) tears"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "કબે",
+       "when"
+      ],
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "નામ",
+       "name"
+      ],
+      [
+       "ઉચ્ચારણે",
+       "upon uttering"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "નયને",
+       "from eyes"
+      ],
+      [
+       "ઝરબ",
+       "will stream"
+      ],
+      [
+       "દરદર",
+       "continuous and rapid flow"
+      ],
+      [
+       "લોર",
+       "(aśru) tears"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कबॆ तब नाम उच्चारणॆ मॊर",
+      "नयनॆ झरब दरदर लॊर ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কবে তব নাম উচ্চারণে মোর",
+      "নয়নে ঝরব দরদর লোর ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କବେ ତବ ନାମ ଉଚ୍ଚାରଣେ ମୋର",
+      "ନୟନେ ଝରବ ଦରଦର ଲୋର ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કબે તબ નામ ઉચ્ચારણે મોર",
+      "નયને ઝરબ દરદર લોર ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kabe taba nāma uccāraṇe mora",
+      "nayane jharaba daradara lora 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕಬೆ ತಬ ನಾಮ ಉಚ್ಚಾರಣೆ ಮೊರ",
+      "ನಯನೆ ಝರಬ ದರದರ ಲೊರ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కబె తబ నామ ఉచ్చారణె మొర",
+      "నయనె ఝరబ దరదర లొర 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кабэ̆ таба на̄ма учча̄ран̣э̆ мо̆ра",
+      "найанэ̆ джхараба дарадара ло̆ра 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കബെ തബ നാമ ഉച്ചാരണെ മൊര",
+      "നയനെ ഝരബ ദരദര ലൊര 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கபெ³ தப³ நாம உச்சாரணெ மொர",
+      "நயனெ ஜ²ரப³ த³ரத³ர லொர 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kabe taba nāma uccāraṇe mora",
+      "nayane jharaba daradara lora 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kabe taba nāma uccāraṇe mora",
+      "nayane jharaba daradara lora 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "gadagada[FLAG_HYPHEN_ALPHA]sbara kaṇṭhe upajaba",
+    "mukhe bola ādha ādha bāhirāba 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "My throat then choked, only stuttered half-syllables will issue from my mouth."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gadagada",
+       "choked"
+      ],
+      [
+       "sbara",
+       "voice"
+      ],
+      [
+       "kaṇṭhe",
+       "in the throat"
+      ],
+      [
+       "upajaba",
+       "(saṁghaṭit hôibe) I will make"
+      ],
+      [
+       "mukhe",
+       "from mouth"
+      ],
+      [
+       "bola",
+       "words"
+      ],
+      [
+       "ādha ādha",
+       "half half"
+      ],
+      [
+       "bāhirāba",
+       "I will let out"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गदगद",
+       "choked"
+      ],
+      [
+       "स्बर",
+       "voice"
+      ],
+      [
+       "कण्ठॆ",
+       "in the throat"
+      ],
+      [
+       "उपजब",
+       "(saṁghaṭit hôibe) I will make"
+      ],
+      [
+       "मुखॆ",
+       "from mouth"
+      ],
+      [
+       "बॊल",
+       "words"
+      ],
+      [
+       "आध आध",
+       "half half"
+      ],
+      [
+       "बाहिराब",
+       "I will let out"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গদগদ",
+       "choked"
+      ],
+      [
+       "স্বর",
+       "voice"
+      ],
+      [
+       "কণ্ঠে",
+       "in the throat"
+      ],
+      [
+       "উপজব",
+       "(saṁghaṭit hôibe) I will make"
+      ],
+      [
+       "মুখে",
+       "from mouth"
+      ],
+      [
+       "বোল",
+       "words"
+      ],
+      [
+       "আধ আধ",
+       "half half"
+      ],
+      [
+       "বাহিরাব",
+       "I will let out"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગદગદ",
+       "choked"
+      ],
+      [
+       "સ્બર",
+       "voice"
+      ],
+      [
+       "કણ્ઠે",
+       "in the throat"
+      ],
+      [
+       "ઉપજબ",
+       "(saṁghaṭit hôibe) I will make"
+      ],
+      [
+       "મુખે",
+       "from mouth"
+      ],
+      [
+       "બોલ",
+       "words"
+      ],
+      [
+       "આધ આધ",
+       "half half"
+      ],
+      [
+       "બાહિરાબ",
+       "I will let out"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गदगदस्बर कण्ठॆ उपजब",
+      "मुखॆ बॊल आध आध बाहिराब ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গদগদস্বর কণ্ঠে উপজব",
+      "মুখে বোল আধ আধ বাহিরাব ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗଦଗଦସ୍ବର କଣ୍ଠେ ଉପଜବ",
+      "ମୁଖେ ବୋଲ ଆଧ ଆଧ ବାହିରାବ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગદગદસ્બર કણ્ઠે ઉપજબ",
+      "મુખે બોલ આધ આધ બાહિરાબ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gadagada-sbara kaṇṭhe upajaba",
+      "mukhe bola ādha ādha bāhirāba 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗದಗದಸ್ಬರ ಕಂಠೆ ಉಪಜಬ",
+      "ಮುಖೆ ಬೊಲ ಆಧ ಆಧ ಬಾಹಿರಾಬ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గదగదస్బర కంఠె ఉపజబ",
+      "ముఖె బొల ఆధ ఆధ బాహిరాబ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "гадагадасбара кан̣т̣хэ̆ упаджаба",
+      "мукхэ̆ бо̆ла а̄дха а̄дха ба̄хира̄ба 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗദഗദസ്ബര കണ്ഠെ ഉപജബ",
+      "മുഖെ ബൊല ആധ ആധ ബാഹിരാബ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "க³த³க³த³ஸ்ப³ர கண்டெ² உபஜப³",
+      "முகெ² பொ³ல ஆத⁴ ஆத⁴ பா³ஹிராப³ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gadagada-sbara kaṇṭhe upajaba",
+      "mukhe bola ādha ādha bāhirāba 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gadagada-sbara kaṇṭhe upajaba",
+      "mukhe bola ādha ādha bāhirāba 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "pulake bharaba śarīra hāmāra",
+    "sbeda[FLAG_HYPHEN_ALPHA]kampa[FLAG_HYPHEN_ALPHA]stambha habe bārabāra 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "My whole body shall be covered in goose bumps, and I shall perspire, tremble, and become stunned again and again."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "pulake",
+       "in goose bumps, horripilation"
+      ],
+      [
+       "bharaba",
+       "I will be covered"
+      ],
+      [
+       "śarīra",
+       "body"
+      ],
+      [
+       "hāmāra",
+       "my"
+      ],
+      [
+       "sbeda",
+       "perspire"
+      ],
+      [
+       "kampa",
+       "tremble"
+      ],
+      [
+       "stambha",
+       "stunned"
+      ],
+      [
+       "habe",
+       "will become"
+      ],
+      [
+       "bārabāra",
+       "again and again"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "पुलकॆ",
+       "in goose bumps, horripilation"
+      ],
+      [
+       "भरब",
+       "I will be covered"
+      ],
+      [
+       "शरीर",
+       "body"
+      ],
+      [
+       "हामार",
+       "my"
+      ],
+      [
+       "स्बॆद",
+       "perspire"
+      ],
+      [
+       "कम्प",
+       "tremble"
+      ],
+      [
+       "स्तम्भ",
+       "stunned"
+      ],
+      [
+       "हबॆ",
+       "will become"
+      ],
+      [
+       "बारबार",
+       "again and again"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "পুলকে",
+       "in goose bumps, horripilation"
+      ],
+      [
+       "ভরব",
+       "I will be covered"
+      ],
+      [
+       "শরীর",
+       "body"
+      ],
+      [
+       "হামার",
+       "my"
+      ],
+      [
+       "স্বেদ",
+       "perspire"
+      ],
+      [
+       "কম্প",
+       "tremble"
+      ],
+      [
+       "স্তম্ভ",
+       "stunned"
+      ],
+      [
+       "হবে",
+       "will become"
+      ],
+      [
+       "বারবার",
+       "again and again"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "પુલકે",
+       "in goose bumps, horripilation"
+      ],
+      [
+       "ભરબ",
+       "I will be covered"
+      ],
+      [
+       "શરીર",
+       "body"
+      ],
+      [
+       "હામાર",
+       "my"
+      ],
+      [
+       "સ્બેદ",
+       "perspire"
+      ],
+      [
+       "કમ્પ",
+       "tremble"
+      ],
+      [
+       "સ્તમ્ભ",
+       "stunned"
+      ],
+      [
+       "હબે",
+       "will become"
+      ],
+      [
+       "બારબાર",
+       "again and again"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "पुलकॆ भरब शरीर हामार",
+      "स्बॆदकम्पस्तम्भ हबॆ बारबार ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "পুলকে ভরব শরীর হামার",
+      "স্বেদকম্পস্তম্ভ হবে বারবার ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପୁଲକେ ଭରବ ଶରୀର ହାମାର",
+      "ସ୍ବେଦକମ୍ପସ୍ତମ୍ଭ ହବେ ବାରବାର ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પુલકે ભરબ શરીર હામાર",
+      "સ્બેદકમ્પસ્તમ્ભ હબે બારબાર ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "pulake bharaba śarīra hāmāra",
+      "sbeda-kampa-stambha habe bārabāra 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪುಲಕೆ ಭರಬ ಶರೀರ ಹಾಮಾರ",
+      "ಸ್ಬೆದಕಂಪಸ್ತಂಭ ಹಬೆ ಬಾರಬಾರ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "పులకె భరబ శరీర హామార",
+      "స్బెదకంపస్తంభ హబె బారబార 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "пулакэ̆ бхараба ш́арӣра ха̄ма̄ра",
+      "сбэ̆дакампастамбха хабэ̆ ба̄раба̄ра 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പുലകെ ഭരബ ശരീര ഹാമാര",
+      "സ്ബെദകമ്പസ്തംഭ ഹബെ ബാരബാര 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "புலகெ ப⁴ரப³ ஶரீர ஹாமார",
+      "ஸ்பெ³த³கம்பஸ்தம்ப⁴ ஹபெ³ பா³ரபா³ர 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "pulake bharaba śarīra hāmāra",
+      "sbeda-kampa-stambha habe bārabāra 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "pulake bharaba śarīra hāmāra",
+      "sbeda-kampa-stambha habe bārabāra 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "bibarṇa[FLAG_HYPHEN_ALPHA]śarīre hārāoba jñāna",
+    "nāma[FLAG_HYPHEN_ALPHA]samāśraye dharabũ parāṇa 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "My body becoming pale, I shall lose consciousness and then hold onto my life by taking shelter of the holy name."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "bibarṇa",
+       "pale"
+      ],
+      [
+       "śarīre",
+       "body"
+      ],
+      [
+       "hārāoba",
+       "I will lose"
+      ],
+      [
+       "jñāna",
+       "consciousness"
+      ],
+      [
+       "nāma",
+       "the holy name"
+      ],
+      [
+       "samāśraye",
+       "shelter of, dependence on, connection with"
+      ],
+      [
+       "dharabũ",
+       "I will hold"
+      ],
+      [
+       "parāṇa",
+       "life"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "बिबर्ण",
+       "pale"
+      ],
+      [
+       "शरीरॆ",
+       "body"
+      ],
+      [
+       "हाराऒब",
+       "I will lose"
+      ],
+      [
+       "ज्ञान",
+       "consciousness"
+      ],
+      [
+       "नाम",
+       "the holy name"
+      ],
+      [
+       "समाश्रयॆ",
+       "shelter of, dependence on, connection with"
+      ],
+      [
+       "धरबुं",
+       "I will hold"
+      ],
+      [
+       "पराण",
+       "life"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "বিবর্ণ",
+       "pale"
+      ],
+      [
+       "শরীরে",
+       "body"
+      ],
+      [
+       "হারাওব",
+       "I will lose"
+      ],
+      [
+       "জ্ঞান",
+       "consciousness"
+      ],
+      [
+       "নাম",
+       "the holy name"
+      ],
+      [
+       "সমাশ্রয়ে",
+       "shelter of, dependence on, connection with"
+      ],
+      [
+       "ধরবুং",
+       "I will hold"
+      ],
+      [
+       "পরাণ",
+       "life"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બિબર્ણ",
+       "pale"
+      ],
+      [
+       "શરીરે",
+       "body"
+      ],
+      [
+       "હારાઓબ",
+       "I will lose"
+      ],
+      [
+       "જ્ઞાન",
+       "consciousness"
+      ],
+      [
+       "નામ",
+       "the holy name"
+      ],
+      [
+       "સમાશ્રયે",
+       "shelter of, dependence on, connection with"
+      ],
+      [
+       "ધરબું",
+       "I will hold"
+      ],
+      [
+       "પરાણ",
+       "life"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बिबर्णशरीरॆ हाराऒब ज्ञान",
+      "नामसमाश्रयॆ धरबुं पराण ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বিবর্ণশরীরে হারাওব জ্ঞান",
+      "নামসমাশ্রয়ে ধরবুং পরাণ ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବିବର୍ଣଶରୀରେ ହାରାଓବ ଜ୍ଞାନ",
+      "ନାମସମାଶ୍ରୟେ ଧରବୁଂ ପରାଣ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બિબર્ણશરીરે હારાઓબ જ્ઞાન",
+      "નામસમાશ્રયે ધરબું પરાણ ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bibarṇa-śarīre hārāoba jñāna",
+      "nāma-samāśraye dharabũ parāṇa 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬಿಬರ್ಣಶರೀರೆ ಹಾರಾಒಬ ಜ್ಞಾನ",
+      "ನಾಮಸಮಾಶ್ರಯೆ ಧರಬುಂ ಪರಾಣ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బిబర్ణశరీరె హారాఒబ జ్ఞాన",
+      "నామసమాశ్రయె ధరబుం పరాణ 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бибарн̣аш́арӣрэ̆ ха̄ра̄о̆ба джн̃а̄на",
+      "на̄масама̄ш́райэ̆ дхарабум̣ пара̄н̣а 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബിബർണശരീരെ ഹാരാഒബ ജ്ഞാന",
+      "നാമസമാശ്രയെ ധരബും പരാണ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பி³ப³ர்ணஶரீரெ ஹாராஒப³ ஜ்ஞான",
+      "நாமஸமாஶ்ரயெ த⁴ரபு³ம்ʼ பராண 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bibarṇa-śarīre hārāoba jñāna",
+      "nāma-samāśraye dharabũ parāṇa 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bibarṇa-śarīre hārāoba jñāna",
+      "nāma-samāśraye dharabũ parāṇa 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "milaba hāmāra kie aiche dina",
+    "roye bhaktibinoda matihīna 7"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Bhaktivinoda, who is devoid of intelligence, weeps, “O Lord, will I ever encounter such a day?”"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "milaba",
+       "I will meet"
+      ],
+      [
+       "hāmāra",
+       "my"
+      ],
+      [
+       "kie",
+       "will it be"
+      ],
+      [
+       "aiche",
+       "such"
+      ],
+      [
+       "dina",
+       "day"
+      ],
+      [
+       "roye",
+       "(krandan kare) weeps"
+      ],
+      [
+       "bhaktibinoda",
+       "Bhaktivinoda"
+      ],
+      [
+       "matihīna",
+       "intelligence + devoid of"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "मिलब",
+       "I will meet"
+      ],
+      [
+       "हामार",
+       "my"
+      ],
+      [
+       "किऎ",
+       "will it be"
+      ],
+      [
+       "ऐछॆ",
+       "such"
+      ],
+      [
+       "दिन",
+       "day"
+      ],
+      [
+       "रॊयॆ",
+       "(krandan kare) weeps"
+      ],
+      [
+       "भक्तिबिनॊद",
+       "Bhaktivinoda"
+      ],
+      [
+       "मतिहीन",
+       "intelligence + devoid of"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মিলব",
+       "I will meet"
+      ],
+      [
+       "হামার",
+       "my"
+      ],
+      [
+       "কিএ",
+       "will it be"
+      ],
+      [
+       "ঐছে",
+       "such"
+      ],
+      [
+       "দিন",
+       "day"
+      ],
+      [
+       "রোয়ে",
+       "(krandan kare) weeps"
+      ],
+      [
+       "ভক্তিবিনোদ",
+       "Bhaktivinoda"
+      ],
+      [
+       "মতিহীন",
+       "intelligence + devoid of"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "મિલબ",
+       "I will meet"
+      ],
+      [
+       "હામાર",
+       "my"
+      ],
+      [
+       "કિએ",
+       "will it be"
+      ],
+      [
+       "ઐછે",
+       "such"
+      ],
+      [
+       "દિન",
+       "day"
+      ],
+      [
+       "રોયે",
+       "(krandan kare) weeps"
+      ],
+      [
+       "ભક્તિબિનોદ",
+       "Bhaktivinoda"
+      ],
+      [
+       "મતિહીન",
+       "intelligence + devoid of"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मिलब हामार किऎ ऐछॆ दिन",
+      "रॊयॆ भक्तिबिनॊद मतिहीन ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মিলব হামার কিএ ঐছে দিন",
+      "রোয়ে ভক্তিবিনোদ মতিহীন ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମିଲବ ହାମାର କିଏ ଐଛେ ଦିନ",
+      "ରୋୟେ ଭକ୍ତିବିନୋଦ ମତିହୀନ ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મિલબ હામાર કિએ ઐછે દિન",
+      "રોયે ભક્તિબિનોદ મતિહીન ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "milaba hāmāra kie aiche dina",
+      "roye bhaktibinoda matihīna 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಿಲಬ ಹಾಮಾರ ಕಿಎ ಐಛೆ ದಿನ",
+      "ರೊಯೆ ಭಕ್ತಿಬಿನೊದ ಮತಿಹೀನ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మిలబ హామార కిఎ ఐఛె దిన",
+      "రొయె భక్తిబినొద మతిహీన 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "милаба ха̄ма̄ра киэ̆ аичхэ̆ дина",
+      "ро̆йэ̆ бхактибино̆да матихӣна 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മിലബ ഹാമാര കിഎ ഐഛെ ദിന",
+      "രൊയെ ഭക്തിബിനൊദ മതിഹീന 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மிலப³ ஹாமார கிஎ ஐசெ² தி³ன",
+      "ரொயெ ப⁴க்திபி³னொத³ மதிஹீன 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "milaba hāmāra kie aiche dina",
+      "roye bhaktibinoda matihīna 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "milaba hāmāra kie aiche dina",
+      "roye bhaktibinoda matihīna 7"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "নয়নং গলদশ্রুধারয়া"
+  },
+  {
+   "language_code": "ben",
+   "text": "বদনং গদ্গদরুদ্ধয়া গিরা ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "পুলকৈর্নিচিতং বপুঃ কদা"
+  },
+  {
+   "language_code": "ben",
+   "text": "তব নামগ্রহণে ভবিষ্যতি ॥চ॥"
+  },
+  {
+   "language_code": "ben",
+   "text": ""
+  },
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- লোর—অশ্রু; উপজব—সংঘাটিত হইবে; রোয়ে—ক্রন্দন করে ।"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "sadh-1",
+   "filename": "SI6-sadh-1.mp3",
+   "artist": "BV Sadhu Maharaja"
+  },
+  {
+   "uid": "srrb-1",
+   "filename": "SI6-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ]
+}

@@ -1,0 +1,1640 @@
+{
+ "uid": "A11",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীযুগল-আরতি"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "śrīyugala-ārati"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "jaya jaya rādhākṛṣṇa[FLAG_HYPHEN_ALPHA]yugala milana",
+    "ārati karaye lalitādi sakhīgaṇa 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "All glories, all glories to the meeting of the Divine Couple, Śrī Śrī Rādhā-Kṛṣṇa. The sakhīs, led by Lalitā-devī, perform Their ārati ceremony."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "jaya jaya",
+       "all glories, all glories"
+      ],
+      [
+       "rādhākṛṣṇa",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "yugala",
+       "Divine Couple"
+      ],
+      [
+       "milana",
+       "meeting"
+      ],
+      [
+       "ārati karaye",
+       "performing ārati"
+      ],
+      [
+       "lalitādi",
+       "Lalitā-devī + and so on"
+      ],
+      [
+       "sakhīgaṇa",
+       "sakhīs"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "जय जय",
+       "all glories, all glories"
+      ],
+      [
+       "राधाक्ड़्ष्ण",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "युगल",
+       "Divine Couple"
+      ],
+      [
+       "मिलन",
+       "meeting"
+      ],
+      [
+       "आरति करयॆ",
+       "performing ārati"
+      ],
+      [
+       "ललितादि",
+       "Lalitā-devī + and so on"
+      ],
+      [
+       "सखीगण",
+       "sakhīs"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "জয় জয়",
+       "all glories, all glories"
+      ],
+      [
+       "রাধাক্ড়্ষ্ণ",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "যুগল",
+       "Divine Couple"
+      ],
+      [
+       "মিলন",
+       "meeting"
+      ],
+      [
+       "আরতি করয়ে",
+       "performing ārati"
+      ],
+      [
+       "ললিতাদি",
+       "Lalitā-devī + and so on"
+      ],
+      [
+       "সখীগণ",
+       "sakhīs"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "જય જય",
+       "all glories, all glories"
+      ],
+      [
+       "રાધાક્ડ઼્ષ્ણ",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "યુગલ",
+       "Divine Couple"
+      ],
+      [
+       "મિલન",
+       "meeting"
+      ],
+      [
+       "આરતિ કરયે",
+       "performing ārati"
+      ],
+      [
+       "લલિતાદિ",
+       "Lalitā-devī + and so on"
+      ],
+      [
+       "સખીગણ",
+       "sakhīs"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जय जय राधाक्ड़्ष्णयुगल मिलन",
+      "आरति करयॆ ललितादि सखीगण १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জয় জয় রাধাক্ড়্ষ্ণয়ুগল মিলন",
+      "আরতি করয়ে ললিতাদি সখীগণ ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜୟ ଜୟ ରାଧାକ୍ଡ଼୍ଷ୍ଣୟୁଗଲ ମିଲନ",
+      "ଆରତି କରୟେ ଲଲିତାଦି ସଖୀଗଣ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જય જય રાધાક્ડ઼્ષ્ણયુગલ મિલન",
+      "આરતિ કરયે લલિતાદિ સખીગણ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jaya jaya rādhākṛṣṇa-yugala milana",
+      "ārati karaye lalitādi sakhīgaṇa 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜಯ ಜಯ ರಾಧಾಕ್‌ಡ಼್ಷ್ಣಯುಗಲ ಮಿಲನ",
+      "ಆರತಿ ಕರಯೆ ಲಲಿತಾದಿ ಸಖೀಗಣ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జయ జయ రాధాక్డ్ష్ణయుగల మిలన",
+      "ఆరతి కరయె లలితాది సఖీగణ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джайа джайа ра̄дха̄кр̤шн̣айугала милана",
+      "а̄рати карайэ̆ лалита̄ди сакхӣган̣а 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജയ ജയ രാധാക്ഡ്ഷ്ണയുഗല മിലന",
+      "ആരതി കരയെ ലലിതാദി സഖീഗണ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜய ஜய ராதா⁴க்ஃட்²ஷ்ணயுக³ல மிலன",
+      "ஆரதி கரயெ லலிதாதி³ ஸகீ²க³ண 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jaya jaya rādhākṛṣṇa-yugala milana",
+      "ārati karaye lalitādi sakhīgaṇa 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jaya jaya rādhākṛṣṇa-yugala milana",
+      "ārati karaye lalitādi sakhīgaṇa 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "madanamohana[FLAG_HYPHEN_ALPHA]rūpa tribhaṅgasundara",
+    "pītāmbara śikhipuccha cūḓā[FLAG_HYPHEN_ALPHA]manohara 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The beautiful threefold bending form of Kṛṣṇa, the enchanter of Cupid, wears yellow silk garments and a crown of peacock feathers, captivating the minds of all."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "madanamohana",
+       "Cupid + enchanter"
+      ],
+      [
+       "rūpa",
+       "form"
+      ],
+      [
+       "tribhaṅgasundara",
+       "threefold bending + beautiful"
+      ],
+      [
+       "pītāmbara",
+       "yellow garment"
+      ],
+      [
+       "śikhipuccha",
+       "peacock + tail"
+      ],
+      [
+       "cūḓā",
+       "crown"
+      ],
+      [
+       "manohara",
+       "mind-stealing, charming"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "मदनमॊहन",
+       "Cupid + enchanter"
+      ],
+      [
+       "रूप",
+       "form"
+      ],
+      [
+       "त्रिभङ्गसुन्दर",
+       "threefold bending + beautiful"
+      ],
+      [
+       "पीताम्बर",
+       "yellow garment"
+      ],
+      [
+       "शिखिपुच्छ",
+       "peacock + tail"
+      ],
+      [
+       "चूḓआ",
+       "crown"
+      ],
+      [
+       "मनॊहर",
+       "mind-stealing, charming"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মদনমোহন",
+       "Cupid + enchanter"
+      ],
+      [
+       "রূপ",
+       "form"
+      ],
+      [
+       "ত্রিভঙ্গসুন্দর",
+       "threefold bending + beautiful"
+      ],
+      [
+       "পীতাম্বর",
+       "yellow garment"
+      ],
+      [
+       "শিখিপুচ্ছ",
+       "peacock + tail"
+      ],
+      [
+       "চূḓআ",
+       "crown"
+      ],
+      [
+       "মনোহর",
+       "mind-stealing, charming"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "મદનમોહન",
+       "Cupid + enchanter"
+      ],
+      [
+       "રૂપ",
+       "form"
+      ],
+      [
+       "ત્રિભઙ્ગસુન્દર",
+       "threefold bending + beautiful"
+      ],
+      [
+       "પીતામ્બર",
+       "yellow garment"
+      ],
+      [
+       "શિખિપુચ્છ",
+       "peacock + tail"
+      ],
+      [
+       "ચૂḓઆ",
+       "crown"
+      ],
+      [
+       "મનોહર",
+       "mind-stealing, charming"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मदनमॊहनरूप त्रिभङ्गसुन्दर",
+      "पीताम्बर शिखिपुच्छ चूḓआमनॊहर २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মদনমোহনরূপ ত্রিভঙ্গসুন্দর",
+      "পীতাম্বর শিখিপুচ্ছ চূḓআমনোহর ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମଦନମୋହନରୂପ ତ୍ରିଭଙ୍ଗସୁନ୍ଦର",
+      "ପୀତାମ୍ବର ଶିଖିପୁଚ୍ଛ ଚୂḓଆମନୋହର ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મદનમોહનરૂપ ત્રિભઙ્ગસુન્દર",
+      "પીતામ્બર શિખિપુચ્છ ચૂḓઆમનોહર ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "madanamohana-rūpa tribhaṅgasundara",
+      "pītāmbara śikhipuccha cūḓā-manohara 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮದನಮೊಹನರೂಪ ತ್ರಿಭಂಗಸುಂದರ",
+      "ಪೀತಾಂಬರ ಶಿಖಿಪುಚ್ಛ ಚೂḓಆಮನೊಹರ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మదనమొహనరూప త్రిభంగసుందర",
+      "పీతాంబర శిఖిపుచ్ఛ చూḓఆమనొహర 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "маданамо̆ханарӯпа трибхан̇гасундара",
+      "пӣта̄мбара ш́икхипуччха чӯḓа̄мано̆хара 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മദനമൊഹനരൂപ ത്രിഭംഗസുന്ദര",
+      "പീതാംബര ശിഖിപുച്ഛ ചൂḓആമനൊഹര 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மத³னமொஹனரூப த்ரிப⁴ங்க³ஸுந்த³ர",
+      "பீதாம்ப³ர ஶிகி²புச்ச² சூḓஆமனொஹர 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "madanamohana-rūpa tribhaṅgasundara",
+      "pītāmbara śikhipuccha cūḍā-manohara 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "madanamohana-rūpa tribhaṅgasundara",
+      "pītāmbara śikhipuccha cūḓā-manohara 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "lalitamādhaba[FLAG_HYPHEN_ALPHA]bāme bṛṣabhānu[FLAG_HYPHEN_ALPHA]kanyā",
+    "nīlabasanā gaurī rūpe guṇe dhanyā 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "To the left of the charming Mādhava is the beautiful daughter of King Vṛṣabhānu, Śrīmatī Rādhikā. She wears blue garments, Her complexion is the color of molten gold, and She is well endowed with beauty and other fine qualities."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "lalitamādhaba",
+       "charming + Mādhava"
+      ],
+      [
+       "bāme",
+       "to the left"
+      ],
+      [
+       "bṛṣabhānu kanyā",
+       "the daughter of King Vṛṣabhānu"
+      ],
+      [
+       "nīlabasanā",
+       "blue + garments"
+      ],
+      [
+       "gaurī",
+       "golden"
+      ],
+      [
+       "rūpe",
+       "in the form"
+      ],
+      [
+       "guṇe",
+       "with qualities"
+      ],
+      [
+       "dhanyā",
+       "blessed, virtuous"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ललितमाधब",
+       "charming + Mādhava"
+      ],
+      [
+       "बामॆ",
+       "to the left"
+      ],
+      [
+       "ब्ड़्षभानु कन्या",
+       "the daughter of King Vṛṣabhānu"
+      ],
+      [
+       "नीलबसना",
+       "blue + garments"
+      ],
+      [
+       "गौरी",
+       "golden"
+      ],
+      [
+       "रूपॆ",
+       "in the form"
+      ],
+      [
+       "गुणॆ",
+       "with qualities"
+      ],
+      [
+       "धन्या",
+       "blessed, virtuous"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ললিতমাধব",
+       "charming + Mādhava"
+      ],
+      [
+       "বামে",
+       "to the left"
+      ],
+      [
+       "ব্ড়্ষভানু কন্যা",
+       "the daughter of King Vṛṣabhānu"
+      ],
+      [
+       "নীলবসনা",
+       "blue + garments"
+      ],
+      [
+       "গৌরী",
+       "golden"
+      ],
+      [
+       "রূপে",
+       "in the form"
+      ],
+      [
+       "গুণে",
+       "with qualities"
+      ],
+      [
+       "ধন্যা",
+       "blessed, virtuous"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "લલિતમાધબ",
+       "charming + Mādhava"
+      ],
+      [
+       "બામે",
+       "to the left"
+      ],
+      [
+       "બ્ડ઼્ષભાનુ કન્યા",
+       "the daughter of King Vṛṣabhānu"
+      ],
+      [
+       "નીલબસના",
+       "blue + garments"
+      ],
+      [
+       "ગૌરી",
+       "golden"
+      ],
+      [
+       "રૂપે",
+       "in the form"
+      ],
+      [
+       "ગુણે",
+       "with qualities"
+      ],
+      [
+       "ધન્યા",
+       "blessed, virtuous"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ललितमाधबबामॆ ब्ड़्षभानुकन्या",
+      "नीलबसना गौरी रूपॆ गुणॆ धन्या ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ললিতমাধববামে ব্ড়্ষভানুকন্যা",
+      "নীলবসনা গৌরী রূপে গুণে ধন্যা ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଲଲିତମାଧବବାମେ ବ୍ଡ଼୍ଷଭାନୁକନ୍ୟା",
+      "ନୀଲବସନା ଗୌରୀ ରୂପେ ଗୁଣେ ଧନ୍ୟା ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "લલિતમાધબબામે બ્ડ઼્ષભાનુકન્યા",
+      "નીલબસના ગૌરી રૂપે ગુણે ધન્યા ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "lalitamādhaba-bāme bṛṣabhānu-kanyā",
+      "nīlabasanā gaurī rūpe guṇe dhanyā 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಲಲಿತಮಾಧಬಬಾಮೆ ಬ್‌ಡ಼್ಷಭಾನುಕನ್ಯಾ",
+      "ನೀಲಬಸನಾ ಗೌರೀ ರೂಪೆ ಗುಣೆ ಧನ್ಯಾ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "లలితమాధబబామె బ్డ్షభానుకన్యా",
+      "నీలబసనా గౌరీ రూపె గుణె ధన్యా 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "лалитама̄дхабаба̄мэ̆ бр̤шабха̄нуканйа̄",
+      "нӣлабасана̄ гаурӣ рӯпэ̆ гун̣э̆ дханйа̄ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ലലിതമാധബബാമെ ബ്ഡ്ഷഭാനുകന്യാ",
+      "നീലബസനാ ഗൗരീ രൂപെ ഗുണെ ധന്യാ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "லலிதமாத⁴ப³பா³மெ ப்³ஃட்²ஷபா⁴னுகன்யா",
+      "நீலப³ஸனா கௌ³ரீ ரூபெ கு³ணெ த⁴ன்யா 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "lalitamādhaba-bāme bṛṣabhānu-kanyā",
+      "nīlabasanā gaurī rūpe guṇe dhanyā 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "lalitamādhaba-bāme bṛṣabhānu-kanyā",
+      "nīlabasanā gaurī rūpe guṇe dhanyā 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "nānābidha alaṅkāra kare jhalamala",
+    "harimano[FLAG_HYPHEN_ALPHA]bimohana badana ujjbala 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "She is adorned with various ornaments that sparkle and shimmer. Her radiant face enchants the mind of Śrī Hari."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "nānābidha",
+       "many and diverse + varieties"
+      ],
+      [
+       "alaṅkāra",
+       "ornaments"
+      ],
+      [
+       "kare jhalamala",
+       "shimmer"
+      ],
+      [
+       "harimano",
+       "Śrī Hari + mind"
+      ],
+      [
+       "bimohana",
+       "enchants"
+      ],
+      [
+       "badana",
+       "face"
+      ],
+      [
+       "ujjbala",
+       "brilliant, radiant"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "नानाबिध",
+       "many and diverse + varieties"
+      ],
+      [
+       "अलङ्कार",
+       "ornaments"
+      ],
+      [
+       "करॆ झलमल",
+       "shimmer"
+      ],
+      [
+       "हरिमनॊ",
+       "Śrī Hari + mind"
+      ],
+      [
+       "बिमॊहन",
+       "enchants"
+      ],
+      [
+       "बदन",
+       "face"
+      ],
+      [
+       "उज्ज्बल",
+       "brilliant, radiant"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "নানাবিধ",
+       "many and diverse + varieties"
+      ],
+      [
+       "অলঙ্কার",
+       "ornaments"
+      ],
+      [
+       "করে ঝলমল",
+       "shimmer"
+      ],
+      [
+       "হরিমনো",
+       "Śrī Hari + mind"
+      ],
+      [
+       "বিমোহন",
+       "enchants"
+      ],
+      [
+       "বদন",
+       "face"
+      ],
+      [
+       "উজ্জ্বল",
+       "brilliant, radiant"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "નાનાબિધ",
+       "many and diverse + varieties"
+      ],
+      [
+       "અલઙ્કાર",
+       "ornaments"
+      ],
+      [
+       "કરે ઝલમલ",
+       "shimmer"
+      ],
+      [
+       "હરિમનો",
+       "Śrī Hari + mind"
+      ],
+      [
+       "બિમોહન",
+       "enchants"
+      ],
+      [
+       "બદન",
+       "face"
+      ],
+      [
+       "ઉજ્જ્બલ",
+       "brilliant, radiant"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "नानाबिध अलङ्कार करॆ झलमल",
+      "हरिमनॊबिमॊहन बदन उज्ज्बल ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নানাবিধ অলঙ্কার করে ঝলমল",
+      "হরিমনোবিমোহন বদন উজ্জ্বল ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନାନାବିଧ ଅଲଙ୍କାର କରେ ଝଲମଲ",
+      "ହରିମନୋବିମୋହନ ବଦନ ଉଜ୍ଜ୍ବଲ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નાનાબિધ અલઙ્કાર કરે ઝલમલ",
+      "હરિમનોબિમોહન બદન ઉજ્જ્બલ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nānābidha alaṅkāra kare jhalamala",
+      "harimano-bimohana badana ujjbala 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಾನಾಬಿಧ ಅಲಂಕಾರ ಕರೆ ಝಲಮಲ",
+      "ಹರಿಮನೊಬಿಮೊಹನ ಬದನ ಉಜ್ಜ್ಬಲ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నానాబిధ అలంకార కరె ఝలమల",
+      "హరిమనొబిమొహన బదన ఉజ్జ్బల 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "на̄на̄бидха алан̇ка̄ра карэ̆ джхаламала",
+      "харимано̆бимо̆хана бадана уджджбала 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നാനാബിധ അലങ്കാര കരെ ഝലമല",
+      "ഹരിമനൊബിമൊഹന ബദന ഉജ്ജ്ബല 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நானாபி³த⁴ அலங்கார கரெ ஜ²லமல",
+      "ஹரிமனொபி³மொஹன ப³த³ன உஜ்ஜ்ப³ல 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nānābidha alaṅkāra kare jhalamala",
+      "harimano-bimohana badana ujjbala 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nānābidha alaṅkāra kare jhalamala",
+      "harimano-bimohana badana ujjbala 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "biśākhādi sakhīgaṇa nānā rāge gāya",
+    "priyanarmasakhī yata cāmara ḍhulāya 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The sakhīs, led by Viśākhā-devī, sing in various melodies, while other priya-narma-sakhīs fan the Divine Couple with cāmaras."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "biśākhādi",
+       "Viśākhā-devī + and so on, headed by"
+      ],
+      [
+       "sakhīgaṇa",
+       "sakhīs"
+      ],
+      [
+       "nānā",
+       "many and diverse"
+      ],
+      [
+       "rāge",
+       "in melodies"
+      ],
+      [
+       "gāya",
+       "sings"
+      ],
+      [
+       "priyanarmasakhī",
+       "some special gopīs that are even more inclined toward Śrī Rādhā than Kṛṣṇa such as Lalitā and Viśākhā"
+      ],
+      [
+       "yata",
+       "all"
+      ],
+      [
+       "cāmara",
+       "yak-tail fan"
+      ],
+      [
+       "ḍhulāya",
+       "fanning"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "बिशाखादि",
+       "Viśākhā-devī + and so on, headed by"
+      ],
+      [
+       "सखीगण",
+       "sakhīs"
+      ],
+      [
+       "नाना",
+       "many and diverse"
+      ],
+      [
+       "रागॆ",
+       "in melodies"
+      ],
+      [
+       "गाय",
+       "sings"
+      ],
+      [
+       "प्रियनर्मसखी",
+       "some special gopīs that are even more inclined toward Śrī Rādhā than Kṛṣṇa such as Lalitā and Viśākhā"
+      ],
+      [
+       "यत",
+       "all"
+      ],
+      [
+       "चामर",
+       "yak-tail fan"
+      ],
+      [
+       "ढुलाय",
+       "fanning"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "বিশাখাদি",
+       "Viśākhā-devī + and so on, headed by"
+      ],
+      [
+       "সখীগণ",
+       "sakhīs"
+      ],
+      [
+       "নানা",
+       "many and diverse"
+      ],
+      [
+       "রাগে",
+       "in melodies"
+      ],
+      [
+       "গায়",
+       "sings"
+      ],
+      [
+       "প্রিয়নর্মসখী",
+       "some special gopīs that are even more inclined toward Śrī Rādhā than Kṛṣṇa such as Lalitā and Viśākhā"
+      ],
+      [
+       "যত",
+       "all"
+      ],
+      [
+       "চামর",
+       "yak-tail fan"
+      ],
+      [
+       "ঢুলায়",
+       "fanning"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બિશાખાદિ",
+       "Viśākhā-devī + and so on, headed by"
+      ],
+      [
+       "સખીગણ",
+       "sakhīs"
+      ],
+      [
+       "નાના",
+       "many and diverse"
+      ],
+      [
+       "રાગે",
+       "in melodies"
+      ],
+      [
+       "ગાય",
+       "sings"
+      ],
+      [
+       "પ્રિયનર્મસખી",
+       "some special gopīs that are even more inclined toward Śrī Rādhā than Kṛṣṇa such as Lalitā and Viśākhā"
+      ],
+      [
+       "યત",
+       "all"
+      ],
+      [
+       "ચામર",
+       "yak-tail fan"
+      ],
+      [
+       "ઢુલાય",
+       "fanning"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बिशाखादि सखीगण नाना रागॆ गाय",
+      "प्रियनर्मसखी यत चामर ढुलाय ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বিশাখাদি সখীগণ নানা রাগে গায়",
+      "প্রিয়নর্মসখী যত চামর ঢুলায় ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବିଶାଖାଦି ସଖୀଗଣ ନାନା ରାଗେ ଗାୟ",
+      "ପ୍ରିୟନର୍ମସଖୀ ଯତ ଚାମର ଢୁଲାୟ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બિશાખાદિ સખીગણ નાના રાગે ગાય",
+      "પ્રિયનર્મસખી યત ચામર ઢુલાય ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "biśākhādi sakhīgaṇa nānā rāge gāya",
+      "priyanarmasakhī yata cāmara ḍhulāya 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬಿಶಾಖಾದಿ ಸಖೀಗಣ ನಾನಾ ರಾಗೆ ಗಾಯ",
+      "ಪ್ರಿಯನರ್ಮಸಖೀ ಯತ ಚಾಮರ ಢುಲಾಯ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బిశాఖాది సఖీగణ నానా రాగె గాయ",
+      "ప్రియనర్మసఖీ యత చామర ఢులాయ 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "биш́а̄кха̄ди сакхӣган̣а на̄на̄ ра̄гэ̆ га̄йа",
+      "прийанармасакхӣ йата ча̄мара д̣хула̄йа 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബിശാഖാദി സഖീഗണ നാനാ രാഗെ ഗായ",
+      "പ്രിയനർമസഖീ യത ചാമര ഢുലായ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பி³ஶாகா²தி³ ஸகீ²க³ண நானா ராகெ³ கா³ய",
+      "ப்ரியனர்மஸகீ² யத சாமர டு⁴லாய 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "biśākhādi sakhīgaṇa nānā rāge gāya",
+      "priyanarmasakhī yata cāmara ḍhulāya 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "biśākhādi sakhīgaṇa nānā rāge gāya",
+      "priyanarmasakhī yata cāmara ḍhulāya 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "śrīrādhāmādhaba[FLAG_HYPHEN_ALPHA]pada[FLAG_HYPHEN_ALPHA]sarasija[FLAG_HYPHEN_ALPHA]āśe",
+    "bhakatibinoda sakhīpade sukhe bhāse 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Hoping to attain the lotus feet of Śrī Śrī Rādhā-Mādhava, Bhaktivinoda happily floats in happiness at the lotus feet of the sakhīs."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śrīrādhāmādhaba",
+       "Śrī Śrī Rādhā-Mādhava"
+      ],
+      [
+       "pada",
+       "feet"
+      ],
+      [
+       "sarasija",
+       "lotus"
+      ],
+      [
+       "āśe",
+       "with the hope"
+      ],
+      [
+       "bhakatibinoda",
+       "Bhaktivinoda"
+      ],
+      [
+       "sakhīpade",
+       "female companions, the sakhīs + at the feet"
+      ],
+      [
+       "sukhe",
+       "in happiness"
+      ],
+      [
+       "bhāse",
+       "floats"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "श्रीराधामाधब",
+       "Śrī Śrī Rādhā-Mādhava"
+      ],
+      [
+       "पद",
+       "feet"
+      ],
+      [
+       "सरसिज",
+       "lotus"
+      ],
+      [
+       "आशॆ",
+       "with the hope"
+      ],
+      [
+       "भकतिबिनॊद",
+       "Bhaktivinoda"
+      ],
+      [
+       "सखीपदॆ",
+       "female companions, the sakhīs + at the feet"
+      ],
+      [
+       "सुखॆ",
+       "in happiness"
+      ],
+      [
+       "भासॆ",
+       "floats"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শ্রীরাধামাধব",
+       "Śrī Śrī Rādhā-Mādhava"
+      ],
+      [
+       "পদ",
+       "feet"
+      ],
+      [
+       "সরসিজ",
+       "lotus"
+      ],
+      [
+       "আশে",
+       "with the hope"
+      ],
+      [
+       "ভকতিবিনোদ",
+       "Bhaktivinoda"
+      ],
+      [
+       "সখীপদে",
+       "female companions, the sakhīs + at the feet"
+      ],
+      [
+       "সুখে",
+       "in happiness"
+      ],
+      [
+       "ভাসে",
+       "floats"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શ્રીરાધામાધબ",
+       "Śrī Śrī Rādhā-Mādhava"
+      ],
+      [
+       "પદ",
+       "feet"
+      ],
+      [
+       "સરસિજ",
+       "lotus"
+      ],
+      [
+       "આશે",
+       "with the hope"
+      ],
+      [
+       "ભકતિબિનોદ",
+       "Bhaktivinoda"
+      ],
+      [
+       "સખીપદે",
+       "female companions, the sakhīs + at the feet"
+      ],
+      [
+       "સુખે",
+       "in happiness"
+      ],
+      [
+       "ભાસે",
+       "floats"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्रीराधामाधबपदसरसिजआशॆ",
+      "भकतिबिनॊद सखीपदॆ सुखॆ भासॆ ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্রীরাধামাধবপদসরসিজআশে",
+      "ভকতিবিনোদ সখীপদে সুখে ভাসে ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ରୀରାଧାମାଧବପଦସରସିଜଆଶେ",
+      "ଭକତିବିନୋଦ ସଖୀପଦେ ସୁଖେ ଭାସେ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્રીરાધામાધબપદસરસિજઆશે",
+      "ભકતિબિનોદ સખીપદે સુખે ભાસે ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śrīrādhāmādhaba-pada-sarasija-āśe",
+      "bhakatibinoda sakhīpade sukhe bhāse 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ರೀರಾಧಾಮಾಧಬಪದಸರಸಿಜಆಶೆ",
+      "ಭಕತಿಬಿನೊದ ಸಖೀಪದೆ ಸುಖೆ ಭಾಸೆ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్రీరాధామాధబపదసరసిజఆశె",
+      "భకతిబినొద సఖీపదె సుఖె భాసె 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́рӣра̄дха̄ма̄дхабападасарасиджаа̄ш́э̆",
+      "бхакатибино̆да сакхӣпадэ̆ сукхэ̆ бха̄сэ̆ 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്രീരാധാമാധബപദസരസിജആശെ",
+      "ഭകതിബിനൊദ സഖീപദെ സുഖെ ഭാസെ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்ரீராதா⁴மாத⁴ப³பத³ஸரஸிஜஆஶெ",
+      "ப⁴கதிபி³னொத³ ஸகீ²பதெ³ ஸுகெ² பா⁴ஸெ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śrīrādhāmādhaba-pada-sarasija-āśe",
+      "bhakatibinoda sakhīpade sukhe bhāse 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śrīrādhāmādhaba-pada-sarasija-āśe",
+      "bhakatibinoda sakhīpade sukhe bhāse 6"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "krsn-1",
+   "filename": "A11-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "krsn-2",
+   "filename": "A11-krsn-2.mp3",
+   "artist": "Krsnadas das"
+  }
+ ],
+ "tags": [
+  "Evening Ārati"
+ ]
+}

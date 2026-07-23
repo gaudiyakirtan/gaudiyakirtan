@@ -6,7 +6,9 @@ struct AlphabeticalScrollView<Content: View, T: Identifiable>: View {
         if !section.isAvailable {
             return Color.neutral.opacity(0.3)
         } else if activeIndex == section.letter {
-            return Color.background
+            // Active letter sits on the `highlight` background below — `onHighlight`, not
+            // `background` (theme.md on-accent contrast rule).
+            return Color("onHighlight")
         } else {
             return Color.neutral
         }
@@ -113,7 +115,7 @@ struct AlphabeticalScrollView<Content: View, T: Identifiable>: View {
                         if let activeIndex = activeIndex {
                             Text(activeIndex)
                                 .font(.system(size: 70, weight: .bold))
-                                .foregroundColor(Color.background)
+                                .foregroundColor(Color("onHighlight"))
                                 .padding(20)
                                 .background(Color.highlight.opacity(0.7))
                                 .clipShape(Circle())

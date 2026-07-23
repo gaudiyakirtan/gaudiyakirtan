@@ -1,0 +1,2316 @@
+{
+  "uid": "S12",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "‘আমার’ বলিতে প্রভু! আর কিছু নাই"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "‘āmāra’ balite prabhu! āra kichu nāi"
+    },
+    {
+      "script_code": "Deva",
+      "text": "‘आमार’ बलिते प्रभु! आर किछु नाइ"
+    },
+    {
+      "script_code": "Telu",
+      "text": "‘ఆమార’ బలితే ప్రభు! ఆర కిఛు నాఇ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "‘ಆಮಾರ’ ಬಲಿತೇ ಪ್ರಭು! ಆರ ಕಿಛು ನಾಇ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "‘ஆமார’ ப³லிதே ப்ரபு⁴! ஆர கிசு² நாஇ"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "‘ആമാര’ ബലിതേ പ്രഭു! ആര കിഛു നാഇ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "‘આમાર’ બલિતે પ્રભુ! આર કિછુ નાઇ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "‘ଆମାର’ ବଲିତେ ପ୍ରଭୁ! ଆର କିଛୁ ନାଇ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "‘а̄ма̄ра’ балитэ прабху! а̄ра кичху на̄и"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "‘āmāra’ balite prabhu! āra kichu nāi",
+        "tumii āmāra mātra pitā[FLAG_HYPHEN_ALPHA]bandhu[FLAG_HYPHEN_ALPHA]bhāi 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "O Lord, apart from You, there is nothing else that I can call my own. You alone are my father, friend, and brother."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "āmāra’",
+              "mine"
+            ],
+            [
+              "balite",
+              "to call, consider"
+            ],
+            [
+              "prabhu",
+              "O Lord"
+            ],
+            [
+              "āra",
+              "else"
+            ],
+            [
+              "kichu nāi",
+              "nothing"
+            ],
+            [
+              "tumii",
+              "You alone"
+            ],
+            [
+              "āmāra",
+              "my"
+            ],
+            [
+              "mātra",
+              "only"
+            ],
+            [
+              "pitā",
+              "father"
+            ],
+            [
+              "bandhu",
+              "friend"
+            ],
+            [
+              "bhāi",
+              "brother"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "आमारऽ",
+              "mine"
+            ],
+            [
+              "बलितॆ",
+              "to call, consider"
+            ],
+            [
+              "प्रभु",
+              "O Lord"
+            ],
+            [
+              "आर",
+              "else"
+            ],
+            [
+              "किछु नाइ",
+              "nothing"
+            ],
+            [
+              "तुमिइ",
+              "You alone"
+            ],
+            [
+              "आमार",
+              "my"
+            ],
+            [
+              "मात्र",
+              "only"
+            ],
+            [
+              "पिता",
+              "father"
+            ],
+            [
+              "बन्धु",
+              "friend"
+            ],
+            [
+              "भाइ",
+              "brother"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "আমারঽ",
+              "mine"
+            ],
+            [
+              "বলিতে",
+              "to call, consider"
+            ],
+            [
+              "প্রভু",
+              "O Lord"
+            ],
+            [
+              "আর",
+              "else"
+            ],
+            [
+              "কিছু নাই",
+              "nothing"
+            ],
+            [
+              "তুমিই",
+              "You alone"
+            ],
+            [
+              "আমার",
+              "my"
+            ],
+            [
+              "মাত্র",
+              "only"
+            ],
+            [
+              "পিতা",
+              "father"
+            ],
+            [
+              "বন্ধু",
+              "friend"
+            ],
+            [
+              "ভাই",
+              "brother"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "આમારઽ",
+              "mine"
+            ],
+            [
+              "બલિતે",
+              "to call, consider"
+            ],
+            [
+              "પ્રભુ",
+              "O Lord"
+            ],
+            [
+              "આર",
+              "else"
+            ],
+            [
+              "કિછુ નાઇ",
+              "nothing"
+            ],
+            [
+              "તુમિઇ",
+              "You alone"
+            ],
+            [
+              "આમાર",
+              "my"
+            ],
+            [
+              "માત્ર",
+              "only"
+            ],
+            [
+              "પિતા",
+              "father"
+            ],
+            [
+              "બન્ધુ",
+              "friend"
+            ],
+            [
+              "ભાઇ",
+              "brother"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "‘आमारऽ बलितॆ प्रभु! आर किछु नाइ",
+            "तुमिइ आमार मात्र पिताबन्धुभाइ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "‘আমারঽ বলিতে প্রভু! আর কিছু নাই",
+            "তুমিই আমার মাত্র পিতাবন্ধুভাই ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "‘ଆମାରଽ ବଲିତେ ପ୍ରଭୁ! ଆର କିଛୁ ନାଇ",
+            "ତୁମିଇ ଆମାର ମାତ୍ର ପିତାବନ୍ଧୁଭାଇ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "‘આમારઽ બલિતે પ્રભુ! આર કિછુ નાઇ",
+            "તુમિઇ આમાર માત્ર પિતાબન્ધુભાઇ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "‘āmāra’ balite prabhu! āra kichu nāi",
+            "tumii āmāra mātra pitā-bandhu-bhāi 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "‘ಆಮಾರಽ ಬಲಿತೆ ಪ್ರಭು! ಆರ ಕಿಛು ನಾಇ",
+            "ತುಮಿಇ ಆಮಾರ ಮಾತ್ರ ಪಿತಾಬಂಧುಭಾಇ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "‘ఆమారఽ బలితె ప్రభు! ఆర కిఛు నాఇ",
+            "తుమిఇ ఆమార మాత్ర పితాబంధుభాఇ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "‘а̄ма̄ра' балитэ̆ прабху! а̄ра кичху на̄и",
+            "тумии а̄ма̄ра ма̄тра пита̄бандхубха̄и 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "‘ആമാരഽ ബലിതെ പ്രഭു! ആര കിഛു നാഇ",
+            "തുമിഇ ആമാര മാത്ര പിതാബന്ധുഭാഇ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "‘ஆமார(அ) ப³லிதெ ப்ரபு⁴! ஆர கிசு² நாஇ",
+            "துமிஇ ஆமார மாத்ர பிதாப³ந்து⁴பா⁴இ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "‘āmāra’ balite prabhu! āra kichu nāi",
+            "tumii āmāra mātra pitā-bandhu-bhāi 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "‘āmāra’ balite prabhu! āra kichu nāi",
+            "tumii āmāra mātra pitā-bandhu-bhāi 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "bandhu, dārā, suta[FLAG_HYPHEN_ALPHA]sutā—taba dāsī[FLAG_HYPHEN_ALPHA]dāsa",
+        "sei ta’ sambandhe sabe āmāra prayāsa 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "My friends, wife, sons, and daughters are all Your servants and maid­servants. My endeavors for them are based on that relationship only."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bandhu",
+              "friends"
+            ],
+            [
+              "dārā",
+              "wife"
+            ],
+            [
+              "suta",
+              "sons"
+            ],
+            [
+              "sutā",
+              "daughters"
+            ],
+            [
+              "taba",
+              "Your"
+            ],
+            [
+              "dāsī",
+              "maid-servants"
+            ],
+            [
+              "dāsa",
+              "servants"
+            ],
+            [
+              "sei",
+              "that"
+            ],
+            [
+              "ta’",
+              "certainly"
+            ],
+            [
+              "sambandhe",
+              "in relationship"
+            ],
+            [
+              "sabe",
+              "they all"
+            ],
+            [
+              "āmāra",
+              "my"
+            ],
+            [
+              "prayāsa",
+              "endeavors"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "बन्धु",
+              "friends"
+            ],
+            [
+              "दारा",
+              "wife"
+            ],
+            [
+              "सुत",
+              "sons"
+            ],
+            [
+              "सुता",
+              "daughters"
+            ],
+            [
+              "तब",
+              "Your"
+            ],
+            [
+              "दासी",
+              "maid-servants"
+            ],
+            [
+              "दास",
+              "servants"
+            ],
+            [
+              "सॆइ",
+              "that"
+            ],
+            [
+              "तऽ",
+              "certainly"
+            ],
+            [
+              "सम्बन्धॆ",
+              "in relationship"
+            ],
+            [
+              "सबॆ",
+              "they all"
+            ],
+            [
+              "आमार",
+              "my"
+            ],
+            [
+              "प्रयास",
+              "endeavors"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "বন্ধু",
+              "friends"
+            ],
+            [
+              "দারা",
+              "wife"
+            ],
+            [
+              "সুত",
+              "sons"
+            ],
+            [
+              "সুতা",
+              "daughters"
+            ],
+            [
+              "তব",
+              "Your"
+            ],
+            [
+              "দাসী",
+              "maid-servants"
+            ],
+            [
+              "দাস",
+              "servants"
+            ],
+            [
+              "সেই",
+              "that"
+            ],
+            [
+              "তঽ",
+              "certainly"
+            ],
+            [
+              "সম্বন্ধে",
+              "in relationship"
+            ],
+            [
+              "সবে",
+              "they all"
+            ],
+            [
+              "আমার",
+              "my"
+            ],
+            [
+              "প্রয়াস",
+              "endeavors"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "બન્ધુ",
+              "friends"
+            ],
+            [
+              "દારા",
+              "wife"
+            ],
+            [
+              "સુત",
+              "sons"
+            ],
+            [
+              "સુતા",
+              "daughters"
+            ],
+            [
+              "તબ",
+              "Your"
+            ],
+            [
+              "દાસી",
+              "maid-servants"
+            ],
+            [
+              "દાસ",
+              "servants"
+            ],
+            [
+              "સેઇ",
+              "that"
+            ],
+            [
+              "તઽ",
+              "certainly"
+            ],
+            [
+              "સમ્બન્ધે",
+              "in relationship"
+            ],
+            [
+              "સબે",
+              "they all"
+            ],
+            [
+              "આમાર",
+              "my"
+            ],
+            [
+              "પ્રયાસ",
+              "endeavors"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बन्धु, दारा, सुतसुता—तब दासीदास",
+            "सॆइ तऽ सम्बन्धॆ सबॆ आमार प्रयास २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বন্ধু, দারা, সুতসুতা—তব দাসীদাস",
+            "সেই তঽ সম্বন্ধে সবে আমার প্রয়াস ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବନ୍ଧୁ, ଦାରା, ସୁତସୁତା—ତବ ଦାସୀଦାସ",
+            "ସେଇ ତଽ ସମ୍ବନ୍ଧେ ସବେ ଆମାର ପ୍ରୟାସ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બન્ધુ, દારા, સુતસુતા—તબ દાસીદાસ",
+            "સેઇ તઽ સમ્બન્ધે સબે આમાર પ્રયાસ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bandhu, dārā, suta-sutā—taba dāsī-dāsa",
+            "sei ta’ sambandhe sabe āmāra prayāsa 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಂಧು, ದಾರಾ, ಸುತಸುತಾ—ತಬ ದಾಸೀದಾಸ",
+            "ಸೆಇ ತಽ ಸಂಬಂಧೆ ಸಬೆ ಆಮಾರ ಪ್ರಯಾಸ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బంధు, దారా, సుతసుతా—తబ దాసీదాస",
+            "సెఇ తఽ సంబంధె సబె ఆమార ప్రయాస 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бандху, да̄ра̄, сутасута̄—таба да̄сӣда̄са",
+            "сэ̆и та' самбандхэ̆ сабэ̆ а̄ма̄ра прайа̄са 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബന്ധു, ദാരാ, സുതസുതാ—തബ ദാസീദാസ",
+            "സെഇ തഽ സംബന്ധെ സബെ ആമാര പ്രയാസ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப³ந்து⁴, தா³ரா, ஸுதஸுதா—தப³ தா³ஸீதா³ஸ",
+            "ஸெஇ த(அ) ஸம்ப³ந்தெ⁴ ஸபெ³ ஆமார ப்ரயாஸ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bandhu, dārā, suta-sutā—taba dāsī-dāsa",
+            "sei ta’ sambandhe sabe āmāra prayāsa 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bandhu, dārā, suta-sutā—taba dāsī-dāsa",
+            "sei ta’ sambandhe sabe āmāra prayāsa 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "dhana, jana, gṛha, dāra, ‘tomāra’ baliyā",
+        "rakṣā kari āmi mātra sebaka ha·iyā 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Considering my wealth, family members, home, and possessions to be Yours, I protect them, only as Your servant."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "dhana",
+              "wealth"
+            ],
+            [
+              "jana",
+              "people (relatives)"
+            ],
+            [
+              "gṛha",
+              "house"
+            ],
+            [
+              "dāra",
+              "wife"
+            ],
+            [
+              "tomāra’",
+              "Yours"
+            ],
+            [
+              "baliyā",
+              "having considered"
+            ],
+            [
+              "rakṣā kari",
+              "protect"
+            ],
+            [
+              "āmi",
+              "I"
+            ],
+            [
+              "mātra",
+              "only"
+            ],
+            [
+              "sebaka",
+              "servant"
+            ],
+            [
+              "ha·iyā",
+              "having become"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "धन",
+              "wealth"
+            ],
+            [
+              "जन",
+              "people (relatives)"
+            ],
+            [
+              "ग्ढ़",
+              "house"
+            ],
+            [
+              "दार",
+              "wife"
+            ],
+            [
+              "तॊमारऽ",
+              "Yours"
+            ],
+            [
+              "बलिया",
+              "having considered"
+            ],
+            [
+              "रक्षा करि",
+              "protect"
+            ],
+            [
+              "आमि",
+              "I"
+            ],
+            [
+              "मात्र",
+              "only"
+            ],
+            [
+              "सॆबक",
+              "servant"
+            ],
+            [
+              "हइया",
+              "having become"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ধন",
+              "wealth"
+            ],
+            [
+              "জন",
+              "people (relatives)"
+            ],
+            [
+              "গ্ঢ়",
+              "house"
+            ],
+            [
+              "দার",
+              "wife"
+            ],
+            [
+              "তোমারঽ",
+              "Yours"
+            ],
+            [
+              "বলিয়া",
+              "having considered"
+            ],
+            [
+              "রক্ষা করি",
+              "protect"
+            ],
+            [
+              "আমি",
+              "I"
+            ],
+            [
+              "মাত্র",
+              "only"
+            ],
+            [
+              "সেবক",
+              "servant"
+            ],
+            [
+              "হইয়া",
+              "having become"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ધન",
+              "wealth"
+            ],
+            [
+              "જન",
+              "people (relatives)"
+            ],
+            [
+              "ગ્ઢ઼",
+              "house"
+            ],
+            [
+              "દાર",
+              "wife"
+            ],
+            [
+              "તોમારઽ",
+              "Yours"
+            ],
+            [
+              "બલિયા",
+              "having considered"
+            ],
+            [
+              "રક્ષા કરિ",
+              "protect"
+            ],
+            [
+              "આમિ",
+              "I"
+            ],
+            [
+              "માત્ર",
+              "only"
+            ],
+            [
+              "સેબક",
+              "servant"
+            ],
+            [
+              "હઇયા",
+              "having become"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "धन, जन, ग्ढ़, दार, ‘तॊमारऽ बलिया",
+            "रक्षा करि आमि मात्र सॆबक हइया ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ধন, জন, গ্ঢ়, দার, ‘তোমারঽ বলিয়া",
+            "রক্ষা করি আমি মাত্র সেবক হইয়া ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଧନ, ଜନ, ଗ୍ଢ଼, ଦାର, ‘ତୋମାରଽ ବଲିୟା",
+            "ରକ୍ଷା କରି ଆମି ମାତ୍ର ସେବକ ହଇୟା ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ધન, જન, ગ્ઢ઼, દાર, ‘તોમારઽ બલિયા",
+            "રક્ષા કરિ આમિ માત્ર સેબક હઇયા ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "dhana, jana, gṛha, dāra, ‘tomāra’ baliyā",
+            "rakṣā kari āmi mātra sebaka ha·iyā 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಧನ, ಜನ, ಗ್‌ಢ಼, ದಾರ, ‘ತೊಮಾರಽ ಬಲಿಯಾ",
+            "ರಕ್ಷಾ ಕರಿ ಆಮಿ ಮಾತ್ರ ಸೆಬಕ ಹಇಯಾ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ధన, జన, గ్ఢ, దార, ‘తొమారఽ బలియా",
+            "రక్షా కరి ఆమి మాత్ర సెబక హఇయా 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "дхана, джана, гр̤ха, да̄ра, ‘то̆ма̄ра' балийа̄",
+            "ракша̄ кари а̄ми ма̄тра сэ̆бака хаийа̄ 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ധന, ജന, ഗ്ഢ, ദാര, ‘തൊമാരഽ ബലിയാ",
+            "രക്ഷാ കരി ആമി മാത്ര സെബക ഹഇയാ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "த⁴ன, ஜன, க்³ஃட³, தா³ர, ‘தொமார(அ) ப³லியா",
+            "ரக்ஷா கரி ஆமி மாத்ர ஸெப³க ஹஇயா 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "dhana, jana, gṛha, dāra, ‘tomāra’ baliyā",
+            "rakṣā kari āmi mātra sebaka ha·iyā 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "dhana, jana, gṛha, dāra, ‘tomāra’ baliyā",
+            "rakṣā kari āmi mātra sebaka ha·iyā 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "tomāra kāryera tare upārjiba dhana",
+        "tomāra saṁsāra[FLAG_HYPHEN_ALPHA]byaya kariba bahana 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "For Your service I shall earn money and bear the expenses of Your household."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "tomāra",
+              "Your"
+            ],
+            [
+              "kāryera",
+              "of service"
+            ],
+            [
+              "tare",
+              "for"
+            ],
+            [
+              "upārjiba",
+              "I shall earn"
+            ],
+            [
+              "dhana",
+              "wealth"
+            ],
+            [
+              "tomāra",
+              "Your"
+            ],
+            [
+              "saṁsāra",
+              "family, household"
+            ],
+            [
+              "byaya",
+              "expenses"
+            ],
+            [
+              "kariba bahana",
+              "I shall bear, carry"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "तॊमार",
+              "Your"
+            ],
+            [
+              "कार्यॆर",
+              "of service"
+            ],
+            [
+              "तरॆ",
+              "for"
+            ],
+            [
+              "उपार्जिब",
+              "I shall earn"
+            ],
+            [
+              "धन",
+              "wealth"
+            ],
+            [
+              "तॊमार",
+              "Your"
+            ],
+            [
+              "संसार",
+              "family, household"
+            ],
+            [
+              "ब्यय",
+              "expenses"
+            ],
+            [
+              "करिब बहन",
+              "I shall bear, carry"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "তোমার",
+              "Your"
+            ],
+            [
+              "কার্যের",
+              "of service"
+            ],
+            [
+              "তরে",
+              "for"
+            ],
+            [
+              "উপার্জিব",
+              "I shall earn"
+            ],
+            [
+              "ধন",
+              "wealth"
+            ],
+            [
+              "তোমার",
+              "Your"
+            ],
+            [
+              "সংসার",
+              "family, household"
+            ],
+            [
+              "ব্যয",
+              "expenses"
+            ],
+            [
+              "করিব বহন",
+              "I shall bear, carry"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "તોમાર",
+              "Your"
+            ],
+            [
+              "કાર્યેર",
+              "of service"
+            ],
+            [
+              "તરે",
+              "for"
+            ],
+            [
+              "ઉપાર્જિબ",
+              "I shall earn"
+            ],
+            [
+              "ધન",
+              "wealth"
+            ],
+            [
+              "તોમાર",
+              "Your"
+            ],
+            [
+              "સંસાર",
+              "family, household"
+            ],
+            [
+              "બ્યય",
+              "expenses"
+            ],
+            [
+              "કરિબ બહન",
+              "I shall bear, carry"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तॊमार कार्यॆर तरॆ उपार्जिब धन",
+            "तॊमार संसारब्यय करिब बहन ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তোমার কার্যের তরে উপার্জিব ধন",
+            "তোমার সংসারব্যয করিব বহন ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତୋମାର କାର୍ୟେର ତରେ ଉପାର୍ଜିବ ଧନ",
+            "ତୋମାର ସଂସାରବ୍ୟଯ କରିବ ବହନ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તોમાર કાર્યેર તરે ઉપાર્જિબ ધન",
+            "તોમાર સંસારબ્યય કરિબ બહન ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tomāra kāryera tare upārjiba dhana",
+            "tomāra saṁsāra-byaya kariba bahana 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತೊಮಾರ ಕಾರ್ಯೆರ ತರೆ ಉಪಾರ್ಜಿಬ ಧನ",
+            "ತೊಮಾರ ಸಂಸಾರಬ್ಯಯ ಕರಿಬ ಬಹನ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తొమార కార్యెర తరె ఉపార్జిబ ధన",
+            "తొమార సంసారబ్యయ కరిబ బహన 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "то̆ма̄ра ка̄рйэ̆ра тарэ̆ упа̄рджиба дхана",
+            "то̆ма̄ра сам̣са̄рабйайа кариба бахана 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തൊമാര കാര്യെര തരെ ഉപാർജിബ ധന",
+            "തൊമാര സംസാരബ്യയ കരിബ ബഹന 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தொமார கார்யெர தரெ உபார்ஜிப³ த⁴ன",
+            "தொமார ஸம்ʼஸாரப்³யய கரிப³ ப³ஹன 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tomāra kāryera tare upārjiba dhana",
+            "tomāra saṁsāra-byaya kariba bahana 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tomāra kāryera tare upārjiba dhana",
+            "tomāra saṁsāra-byaya kariba bahana 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "bhālamanda nāhi jāni sebā mātra kari",
+        "tomāra saṁsāre āmi biṣaya[FLAG_HYPHEN_ALPHA]praharī 5"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I know neither good nor bad—I only serve. I am but a watchman, guarding the interests of Your household."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bhālamanda",
+              "good + bad"
+            ],
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "jāni",
+              "I know"
+            ],
+            [
+              "sebā",
+              "serve"
+            ],
+            [
+              "mātra",
+              "only"
+            ],
+            [
+              "kari",
+              "I do"
+            ],
+            [
+              "tomāra",
+              "Your"
+            ],
+            [
+              "saṁsāre",
+              "in family"
+            ],
+            [
+              "āmi",
+              "I"
+            ],
+            [
+              "biṣaya",
+              "interests, property"
+            ],
+            [
+              "praharī",
+              "a guard, watchman"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "भालमन्द",
+              "good + bad"
+            ],
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "जानि",
+              "I know"
+            ],
+            [
+              "सॆबा",
+              "serve"
+            ],
+            [
+              "मात्र",
+              "only"
+            ],
+            [
+              "करि",
+              "I do"
+            ],
+            [
+              "तॊमार",
+              "Your"
+            ],
+            [
+              "संसारॆ",
+              "in family"
+            ],
+            [
+              "आमि",
+              "I"
+            ],
+            [
+              "बिषय",
+              "interests, property"
+            ],
+            [
+              "प्रहरी",
+              "a guard, watchman"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ভালমন্দ",
+              "good + bad"
+            ],
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "জানি",
+              "I know"
+            ],
+            [
+              "সেবা",
+              "serve"
+            ],
+            [
+              "মাত্র",
+              "only"
+            ],
+            [
+              "করি",
+              "I do"
+            ],
+            [
+              "তোমার",
+              "Your"
+            ],
+            [
+              "সংসারে",
+              "in family"
+            ],
+            [
+              "আমি",
+              "I"
+            ],
+            [
+              "বিষয়",
+              "interests, property"
+            ],
+            [
+              "প্রহরী",
+              "a guard, watchman"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ભાલમન્દ",
+              "good + bad"
+            ],
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "જાનિ",
+              "I know"
+            ],
+            [
+              "સેબા",
+              "serve"
+            ],
+            [
+              "માત્ર",
+              "only"
+            ],
+            [
+              "કરિ",
+              "I do"
+            ],
+            [
+              "તોમાર",
+              "Your"
+            ],
+            [
+              "સંસારે",
+              "in family"
+            ],
+            [
+              "આમિ",
+              "I"
+            ],
+            [
+              "બિષય",
+              "interests, property"
+            ],
+            [
+              "પ્રહરી",
+              "a guard, watchman"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भालमन्द नाहि जानि सॆबा मात्र करि",
+            "तॊमार संसारॆ आमि बिषयप्रहरी ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভালমন্দ নাহি জানি সেবা মাত্র করি",
+            "তোমার সংসারে আমি বিষয়প্রহরী ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭାଲମନ୍ଦ ନାହି ଜାନି ସେବା ମାତ୍ର କରି",
+            "ତୋମାର ସଂସାରେ ଆମି ବିଷୟପ୍ରହରୀ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભાલમન્દ નાહિ જાનિ સેબા માત્ર કરિ",
+            "તોમાર સંસારે આમિ બિષયપ્રહરી ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhālamanda nāhi jāni sebā mātra kari",
+            "tomāra saṁsāre āmi biṣaya-praharī 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಾಲಮಂದ ನಾಹಿ ಜಾನಿ ಸೆಬಾ ಮಾತ್ರ ಕರಿ",
+            "ತೊಮಾರ ಸಂಸಾರೆ ಆಮಿ ಬಿಷಯಪ್ರಹರೀ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భాలమంద నాహి జాని సెబా మాత్ర కరి",
+            "తొమార సంసారె ఆమి బిషయప్రహరీ 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бха̄ламанда на̄хи джа̄ни сэ̆ба̄ ма̄тра кари",
+            "то̆ма̄ра сам̣са̄рэ̆ а̄ми бишайапрахарӣ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭാലമന്ദ നാഹി ജാനി സെബാ മാത്ര കരി",
+            "തൊമാര സംസാരെ ആമി ബിഷയപ്രഹരീ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பா⁴லமந்த³ நாஹி ஜானி ஸெபா³ மாத்ர கரி",
+            "தொமார ஸம்ʼஸாரெ ஆமி பி³ஷயப்ரஹரீ 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhālamanda nāhi jāni sebā mātra kari",
+            "tomāra saṁsāre āmi biṣaya-praharī 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhālamanda nāhi jāni sebā mātra kari",
+            "tomāra saṁsāre āmi biṣaya-praharī 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "tomāra icchāya mora indriya[FLAG_HYPHEN_ALPHA]cālanā",
+        "śrabaṇa, darśana, ghrāṇa, bhojana[FLAG_HYPHEN_ALPHA]bāsanā 6"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I engage my senses—hearing, sight, smell, and taste—in accordance with Your desire."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "tomāra",
+              "Your"
+            ],
+            [
+              "icchāya",
+              "with desire"
+            ],
+            [
+              "mora",
+              "my"
+            ],
+            [
+              "indriya",
+              "senses"
+            ],
+            [
+              "cālanā",
+              "act of ruling, directing"
+            ],
+            [
+              "śrabaṇa",
+              "hearing"
+            ],
+            [
+              "darśana",
+              "sight"
+            ],
+            [
+              "ghrāṇa",
+              "smell"
+            ],
+            [
+              "bhojana",
+              "eating"
+            ],
+            [
+              "bāsanā",
+              "desire"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "तॊमार",
+              "Your"
+            ],
+            [
+              "इच्छाय",
+              "with desire"
+            ],
+            [
+              "मॊर",
+              "my"
+            ],
+            [
+              "इन्द्रिय",
+              "senses"
+            ],
+            [
+              "चालना",
+              "act of ruling, directing"
+            ],
+            [
+              "श्रबण",
+              "hearing"
+            ],
+            [
+              "दर्शन",
+              "sight"
+            ],
+            [
+              "घ्राण",
+              "smell"
+            ],
+            [
+              "भॊजन",
+              "eating"
+            ],
+            [
+              "बासना",
+              "desire"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "তোমার",
+              "Your"
+            ],
+            [
+              "ইচ্ছায়",
+              "with desire"
+            ],
+            [
+              "মোর",
+              "my"
+            ],
+            [
+              "ইন্দ্রিয়",
+              "senses"
+            ],
+            [
+              "চালনা",
+              "act of ruling, directing"
+            ],
+            [
+              "শ্রবণ",
+              "hearing"
+            ],
+            [
+              "দর্শন",
+              "sight"
+            ],
+            [
+              "ঘ্রাণ",
+              "smell"
+            ],
+            [
+              "ভোজন",
+              "eating"
+            ],
+            [
+              "বাসনা",
+              "desire"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "તોમાર",
+              "Your"
+            ],
+            [
+              "ઇચ્છાય",
+              "with desire"
+            ],
+            [
+              "મોર",
+              "my"
+            ],
+            [
+              "ઇન્દ્રિય",
+              "senses"
+            ],
+            [
+              "ચાલના",
+              "act of ruling, directing"
+            ],
+            [
+              "શ્રબણ",
+              "hearing"
+            ],
+            [
+              "દર્શન",
+              "sight"
+            ],
+            [
+              "ઘ્રાણ",
+              "smell"
+            ],
+            [
+              "ભોજન",
+              "eating"
+            ],
+            [
+              "બાસના",
+              "desire"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "तॊमार इच्छाय मॊर इन्द्रियचालना",
+            "श्रबण, दर्शन, घ्राण, भॊजनबासना ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "তোমার ইচ্ছায় মোর ইন্দ্রিয়চালনা",
+            "শ্রবণ, দর্শন, ঘ্রাণ, ভোজনবাসনা ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ତୋମାର ଇଚ୍ଛାୟ ମୋର ଇନ୍ଦ୍ରିୟଚାଲନା",
+            "ଶ୍ରବଣ, ଦର୍ଶନ, ଘ୍ରାଣ, ଭୋଜନବାସନା ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "તોમાર ઇચ્છાય મોર ઇન્દ્રિયચાલના",
+            "શ્રબણ, દર્શન, ઘ્રાણ, ભોજનબાસના ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "tomāra icchāya mora indriya-cālanā",
+            "śrabaṇa, darśana, ghrāṇa, bhojana-bāsanā 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ತೊಮಾರ ಇಚ್ಛಾಯ ಮೊರ ಇಂದ್ರಿಯಚಾಲನಾ",
+            "ಶ್ರಬಣ, ದರ್ಶನ, ಘ್ರಾಣ, ಭೊಜನಬಾಸನಾ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "తొమార ఇచ్ఛాయ మొర ఇంద్రియచాలనా",
+            "శ్రబణ, దర్శన, ఘ్రాణ, భొజనబాసనా 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "то̆ма̄ра иччха̄йа мо̆ра индрийача̄лана̄",
+            "ш́рабан̣а, дарш́ана, гхра̄н̣а, бхо̆джанаба̄сана̄ 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "തൊമാര ഇച്ഛായ മൊര ഇന്ദ്രിയചാലനാ",
+            "ശ്രബണ, ദർശന, ഘ്രാണ, ഭൊജനബാസനാ 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "தொமார இச்சா²ய மொர இந்த்³ரியசாலனா",
+            "ஶ்ரப³ண, த³ர்ஶன, க்⁴ராண, பொ⁴ஜனபா³ஸனா 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "tomāra icchāya mora indriya-cālanā",
+            "śrabaṇa, darśana, ghrāṇa, bhojana-bāsanā 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "tomāra icchāya mora indriya-cālanā",
+            "śrabaṇa, darśana, ghrāṇa, bhojana-bāsanā 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "nijasukha lāgi’ kichu nāhi kari āra",
+        "bhakatibinoda bale, taba sukha sāra 7"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "I no longer do anything for the sake of my own pleasure. Bhaktivinoda says, “Your happiness is the essence [of my life].”"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "nijasukha",
+              "own + pleasure"
+            ],
+            [
+              "lāgi’",
+              "for the sake"
+            ],
+            [
+              "kichu nāhi",
+              "nothing"
+            ],
+            [
+              "kari",
+              "I do"
+            ],
+            [
+              "āra",
+              "more"
+            ],
+            [
+              "bhakatibinoda",
+              "Bhaktivinoda"
+            ],
+            [
+              "bale",
+              "says"
+            ],
+            [
+              "taba",
+              "Your"
+            ],
+            [
+              "sukha",
+              "happiness"
+            ],
+            [
+              "sāra",
+              "essence"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "निजसुख",
+              "own + pleasure"
+            ],
+            [
+              "लागिऽ",
+              "for the sake"
+            ],
+            [
+              "किछु नाहि",
+              "nothing"
+            ],
+            [
+              "करि",
+              "I do"
+            ],
+            [
+              "आर",
+              "more"
+            ],
+            [
+              "भकतिबिनॊद",
+              "Bhaktivinoda"
+            ],
+            [
+              "बलॆ",
+              "says"
+            ],
+            [
+              "तब",
+              "Your"
+            ],
+            [
+              "सुख",
+              "happiness"
+            ],
+            [
+              "सार",
+              "essence"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "নিজসুখ",
+              "own + pleasure"
+            ],
+            [
+              "লাগিঽ",
+              "for the sake"
+            ],
+            [
+              "কিছু নাহি",
+              "nothing"
+            ],
+            [
+              "করি",
+              "I do"
+            ],
+            [
+              "আর",
+              "more"
+            ],
+            [
+              "ভকতিবিনোদ",
+              "Bhaktivinoda"
+            ],
+            [
+              "বলে",
+              "says"
+            ],
+            [
+              "তব",
+              "Your"
+            ],
+            [
+              "সুখ",
+              "happiness"
+            ],
+            [
+              "সার",
+              "essence"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "નિજસુખ",
+              "own + pleasure"
+            ],
+            [
+              "લાગિઽ",
+              "for the sake"
+            ],
+            [
+              "કિછુ નાહિ",
+              "nothing"
+            ],
+            [
+              "કરિ",
+              "I do"
+            ],
+            [
+              "આર",
+              "more"
+            ],
+            [
+              "ભકતિબિનોદ",
+              "Bhaktivinoda"
+            ],
+            [
+              "બલે",
+              "says"
+            ],
+            [
+              "તબ",
+              "Your"
+            ],
+            [
+              "સુખ",
+              "happiness"
+            ],
+            [
+              "સાર",
+              "essence"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "निजसुख लागिऽ किछु नाहि करि आर",
+            "भकतिबिनॊद बलॆ, तब सुख सार ७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নিজসুখ লাগিঽ কিছু নাহি করি আর",
+            "ভকতিবিনোদ বলে, তব সুখ সার ৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନିଜସୁଖ ଲାଗିଽ କିଛୁ ନାହି କରି ଆର",
+            "ଭକତିବିନୋଦ ବଲେ, ତବ ସୁଖ ସାର ୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નિજસુખ લાગિઽ કિછુ નાહિ કરિ આર",
+            "ભકતિબિનોદ બલે, તબ સુખ સાર ૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nijasukha lāgi’ kichu nāhi kari āra",
+            "bhakatibinoda bale, taba sukha sāra 7"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಿಜಸುಖ ಲಾಗಿಽ ಕಿಛು ನಾಹಿ ಕರಿ ಆರ",
+            "ಭಕತಿಬಿನೊದ ಬಲೆ, ತಬ ಸುಖ ಸಾರ ೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నిజసుఖ లాగిఽ కిఛు నాహి కరి ఆర",
+            "భకతిబినొద బలె, తబ సుఖ సార 7"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ниджасукха ла̄ги' кичху на̄хи кари а̄ра",
+            "бхакатибино̆да балэ̆, таба сукха са̄ра 7"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നിജസുഖ ലാഗിഽ കിഛു നാഹി കരി ആര",
+            "ഭകതിബിനൊദ ബലെ, തബ സുഖ സാര 7"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நிஜஸுக² லாகி³(அ) கிசு² நாஹி கரி ஆர",
+            "ப⁴கதிபி³னொத³ ப³லெ, தப³ ஸுக² ஸார 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nijasukha lāgi’ kichu nāhi kari āra",
+            "bhakatibinoda bale, taba sukha sāra 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nijasukha lāgi’ kichu nāhi kari āra",
+            "bhakatibinoda bale, taba sukha sāra 7"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "(৯)"
+    },
+    {
+      "language_code": "ben",
+      "text": "আত্মনিবেদন—মমতাস্পদ দেহসমর্পণ"
+    },
+    {
+      "language_code": "ben",
+      "text": "(কায়িক)"
+    }
+  ],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "srav-1",
+      "filename": "S12-srav-1.mp3",
+      "artist": "Sravan das"
+    }
+  ]
+}

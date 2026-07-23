@@ -1,0 +1,810 @@
+{
+ "uid": "MS43",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "ওরে মন! কিসে কর দেহের গুমান"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "ore mana! kise kara dehera gumāna"
+  }
+ ],
+ "author_uid": "pdt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল প্রেমানন্দ দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Premānanda dāsa Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "ore mana! kise kara dehera gumāna",
+    "maile dehera ye[FLAG_HYPHEN_ALPHA]abasthā,    naha ki tāhāra jñātā,",
+    "dekhiye śuniye nahe jñāna 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऒरॆ मन! किसॆ कर दॆहॆर गुमान",
+      "मैलॆ दॆहॆर यॆअबस्था,    नह कि ताहार ज्ञाता,",
+      "दॆखियॆ शुनियॆ नहॆ ज्ञान १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ওরে মন! কিসে কর দেহের গুমান",
+      "মৈলে দেহের যেঅবস্থা,    নহ কি তাহার জ্ঞাতা,",
+      "দেখিয়ে শুনিয়ে নহে জ্ঞান ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଓରେ ମନ! କିସେ କର ଦେହେର ଗୁମାନ",
+      "ମୈଲେ ଦେହେର ଯେଅବସ୍ଥା,    ନହ କି ତାହାର ଜ୍ଞାତା,",
+      "ଦେଖିୟେ ଶୁନିୟେ ନହେ ଜ୍ଞାନ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઓરે મન! કિસે કર દેહેર ગુમાન",
+      "મૈલે દેહેર યેઅબસ્થા,    નહ કિ તાહાર જ્ઞાતા,",
+      "દેખિયે શુનિયે નહે જ્ઞાન ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ore mana! kise kara dehera gumāna",
+      "maile dehera ye-abasthā,    naha ki tāhāra jñātā,",
+      "dekhiye śuniye nahe jñāna 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಒರೆ ಮನ! ಕಿಸೆ ಕರ ದೆಹೆರ ಗುಮಾನ",
+      "ಮೈಲೆ ದೆಹೆರ ಯೆಅಬಸ್ಥಾ,    ನಹ ಕಿ ತಾಹಾರ ಜ್ಞಾತಾ,",
+      "ದೆಖಿಯೆ ಶುನಿಯೆ ನಹೆ ಜ್ಞಾನ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఒరె మన! కిసె కర దెహెర గుమాన",
+      "మైలె దెహెర యెఅబస్థా,    నహ కి తాహార జ్ఞాతా,",
+      "దెఖియె శునియె నహె జ్ఞాన 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "о̆рэ̆ мана! кисэ̆ кара дэ̆хэ̆ра гума̄на",
+      "маилэ̆ дэ̆хэ̆ра йэ̆абастха̄,    наха ки та̄ха̄ра джн̃а̄та̄,",
+      "дэ̆кхийэ̆ ш́унийэ̆ нахэ̆ джн̃а̄на 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഒരെ മന! കിസെ കര ദെഹെര ഗുമാന",
+      "മൈലെ ദെഹെര യെഅബസ്ഥാ,    നഹ കി താഹാര ജ്ഞാതാ,",
+      "ദെഖിയെ ശുനിയെ നഹെ ജ്ഞാന 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஒரெ மன! கிஸெ கர தெ³ஹெர கு³மான",
+      "மைலெ தெ³ஹெர யெஅப³ஸ்தா²,    நஹ கி தாஹார ஜ்ஞாதா,",
+      "தெ³கி²யெ ஶுனியெ நஹெ ஜ்ஞான 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ore mana! kise kara dehera gumāna",
+      "maile dehera ye-abasthā,    naha ki tāhāra jñātā,",
+      "dekhiye śuniye nahe jñāna 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ore mana! kise kara dehera gumāna",
+      "maile dehera ye-abasthā,    naha ki tāhāra jñātā,",
+      "dekhiye śuniye nahe jñāna 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "bhūṣaṇe bhūṣita yei,    paciye paḓibe sei,",
+    "poḓā’ye karibe nahe chāi",
+    "kukkura[FLAG_HYPHEN_ALPHA]śakuni[FLAG_HYPHEN_ALPHA]śibā,    beḓiye khāibe kibā,",
+    "kimbā kṛmi, ihā ki eḓāi 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भूषणॆ भूषित यॆइ,    पचियॆ पḓइबॆ सॆइ,",
+      "पॊḓआऽयॆ करिबॆ नहॆ छाइ",
+      "कुक्कुरशकुनिशिबा,    बॆḓइयॆ खाइबॆ किबा,",
+      "किम्बा क्ड़्मि, इहा कि ऎḓआइ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভূষণে ভূষিত যেই,    পচিয়ে পḓইবে সেই,",
+      "পোḓআঽয়ে করিবে নহে ছাই",
+      "কুক্কুরশকুনিশিবা,    বেḓইয়ে খাইবে কিবা,",
+      "কিম্বা ক্ড়্মি, ইহা কি এḓআই ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭୂଷଣେ ଭୂଷିତ ଯେଇ,    ପଚିୟେ ପḓଇବେ ସେଇ,",
+      "ପୋḓଆଽୟେ କରିବେ ନହେ ଛାଇ",
+      "କୁକ୍କୁରଶକୁନିଶିବା,    ବେḓଇୟେ ଖାଇବେ କିବା,",
+      "କିମ୍ବା କ୍ଡ଼୍ମି, ଇହା କି ଏḓଆଇ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભૂષણે ભૂષિત યેઇ,    પચિયે પḓઇબે સેઇ,",
+      "પોḓઆઽયે કરિબે નહે છાઇ",
+      "કુક્કુરશકુનિશિબા,    બેḓઇયે ખાઇબે કિબા,",
+      "કિમ્બા ક્ડ઼્મિ, ઇહા કિ એḓઆઇ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhūṣaṇe bhūṣita yei,    paciye paḓibe sei,",
+      "poḓā’ye karibe nahe chāi",
+      "kukkura-śakuni-śibā,    beḓiye khāibe kibā,",
+      "kimbā kṛmi, ihā ki eḓāi 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭೂಷಣೆ ಭೂಷಿತ ಯೆಇ,    ಪಚಿಯೆ ಪḓಇಬೆ ಸೆಇ,",
+      "ಪೊḓಆಽಯೆ ಕರಿಬೆ ನಹೆ ಛಾಇ",
+      "ಕುಕ್ಕುರಶಕುನಿಶಿಬಾ,    ಬೆḓಇಯೆ ಖಾಇಬೆ ಕಿಬಾ,",
+      "ಕಿಂಬಾ ಕ್‌ಡ಼್ಮಿ, ಇಹಾ ಕಿ ಎḓಆಇ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భూషణె భూషిత యెఇ,    పచియె పḓఇబె సెఇ,",
+      "పొḓఆఽయె కరిబె నహె ఛాఇ",
+      "కుక్కురశకునిశిబా,    బెḓఇయె ఖాఇబె కిబా,",
+      "కింబా క్డ్మి, ఇహా కి ఎḓఆఇ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бхӯшан̣э̆ бхӯшита йэ̆и,    пачийэ̆ паḓибэ̆ сэ̆и,",
+      "по̆ḓа̄'йэ̆ карибэ̆ нахэ̆ чха̄и",
+      "куккураш́акуниш́иба̄,    бэ̆ḓийэ̆ кха̄ибэ̆ киба̄,",
+      "кимба̄ кр̤ми, иха̄ ки э̆ḓа̄и 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭൂഷണെ ഭൂഷിത യെഇ,    പചിയെ പḓഇബെ സെഇ,",
+      "പൊḓആഽയെ കരിബെ നഹെ ഛാഇ",
+      "കുക്കുരശകുനിശിബാ,    ബെḓഇയെ ഖാഇബെ കിബാ,",
+      "കിംബാ ക്ഡ്മി, ഇഹാ കി എḓആഇ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பூ⁴ஷணெ பூ⁴ஷித யெஇ,    பசியெ பḓஇபெ³ ஸெஇ,",
+      "பொḓஆ(அ)யெ கரிபெ³ நஹெ சா²இ",
+      "குக்குரஶகுநிஶிபா³,    பெ³ḓஇயெ கா²இபெ³ கிபா³,",
+      "கிம்பா³ க்ஃட்²மி, இஹா கி எḓஆஇ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhūṣaṇe bhūṣita yei,    paciye paḍibe sei,",
+      "poḍā’ye karibe nahe chāi",
+      "kukkura-śakuni-śibā,    beḍiye khāibe kibā,",
+      "kimbā kṛmi, ihā ki eḍāi 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhūṣaṇe bhūṣita yei,    paciye paḓibe sei,",
+      "poḓā’ye karibe nahe chāi",
+      "kukkura-śakuni-śibā,    beḓiye khāibe kibā,",
+      "kimbā kṛmi, ihā ki eḓāi 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "satye lakṣya[FLAG_HYPHEN_ALPHA]barṣa yā’rā,    keha nāhi āche tā’rā,",
+    "ebe kali ki āyu tomāra",
+    "carācara dekha yata,    sakali ha·ibe hata,",
+    "dhana[FLAG_HYPHEN_ALPHA]jana[FLAG_HYPHEN_ALPHA]sampada āra 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सत्यॆ लक्ष्यबर्ष याऽरा,    कॆह नाहि आछॆ ताऽरा,",
+      "ऎबॆ कलि कि आयु तॊमार",
+      "चराचर दॆख यत,    सकलि हइबॆ हत,",
+      "धनजनसम्पद आर ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সত্যে লক্ষ্যবর্ষ যাঽরা,    কেহ নাহি আছে তাঽরা,",
+      "এবে কলি কি আয়ু তোমার",
+      "চরাচর দেখ যত,    সকলি হইবে হত,",
+      "ধনজনসম্পদ আর ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସତ୍ୟେ ଲକ୍ଷ୍ୟବର୍ଷ ଯାଽରା,    କେହ ନାହି ଆଛେ ତାଽରା,",
+      "ଏବେ କଲି କି ଆୟୁ ତୋମାର",
+      "ଚରାଚର ଦେଖ ଯତ,    ସକଲି ହଇବେ ହତ,",
+      "ଧନଜନସମ୍ପଦ ଆର ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સત્યે લક્ષ્યબર્ષ યાઽરા,    કેહ નાહિ આછે તાઽરા,",
+      "એબે કલિ કિ આયુ તોમાર",
+      "ચરાચર દેખ યત,    સકલિ હઇબે હત,",
+      "ધનજનસમ્પદ આર ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "satye lakṣya-barṣa yā’rā,    keha nāhi āche tā’rā,",
+      "ebe kali ki āyu tomāra",
+      "carācara dekha yata,    sakali ha·ibe hata,",
+      "dhana-jana-sampada āra 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸತ್ಯೆ ಲಕ್ಷ್ಯಬರ್ಷ ಯಾಽರಾ,    ಕೆಹ ನಾಹಿ ಆಛೆ ತಾಽರಾ,",
+      "ಎಬೆ ಕಲಿ ಕಿ ಆಯು ತೊಮಾರ",
+      "ಚರಾಚರ ದೆಖ ಯತ,    ಸಕಲಿ ಹಇಬೆ ಹತ,",
+      "ಧನಜನಸಂಪದ ಆರ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సత్యె లక్ష్యబర్ష యాఽరా,    కెహ నాహి ఆఛె తాఽరా,",
+      "ఎబె కలి కి ఆయు తొమార",
+      "చరాచర దెఖ యత,    సకలి హఇబె హత,",
+      "ధనజనసంపద ఆర 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сатйэ̆ лакшйабарша йа̄'ра̄,    кэ̆ха на̄хи а̄чхэ̆ та̄'ра̄,",
+      "э̆бэ̆ кали ки а̄йу то̆ма̄ра",
+      "чара̄чара дэ̆кха йата,    сакали хаибэ̆ хата,",
+      "дханаджанасампада а̄ра 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സത്യെ ലക്ഷ്യബർഷ യാഽരാ,    കെഹ നാഹി ആഛെ താഽരാ,",
+      "എബെ കലി കി ആയു തൊമാര",
+      "ചരാചര ദെഖ യത,    സകലി ഹഇബെ ഹത,",
+      "ധനജനസമ്പദ ആര 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸத்யெ லக்ஷ்யப³ர்ஷ யா(அ)ரா,    கெஹ நாஹி ஆசெ² தா(அ)ரா,",
+      "எபெ³ கலி கி ஆயு தொமார",
+      "சராசர தெ³க² யத,    ஸகலி ஹஇபெ³ ஹத,",
+      "த⁴னஜனஸம்பத³ ஆர 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "satye lakṣya-barṣa yā’rā,    keha nāhi āche tā’rā,",
+      "ebe kali ki āyu tomāra",
+      "carācara dekha yata,    sakali ha·ibe hata,",
+      "dhana-jana-sampada āra 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "satye lakṣya-barṣa yā’rā,    keha nāhi āche tā’rā,",
+      "ebe kali ki āyu tomāra",
+      "carācara dekha yata,    sakali ha·ibe hata,",
+      "dhana-jana-sampada āra 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "‘kṛṣṇa’ haite janma tora,    māyāte bhuliyā bhora,",
+    "curi[FLAG_HYPHEN_ALPHA]dārī prabañca[FLAG_HYPHEN_ALPHA]bacane",
+    "āpana[FLAG_HYPHEN_ALPHA]uddhāra[FLAG_HYPHEN_ALPHA]pathe,    tile dṛṣṭi nāhi tā’te,",
+    "narakera hetu rātri[FLAG_HYPHEN_ALPHA]dine 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "‘क्ड़्ष्णऽ हैतॆ जन्म तॊर,    मायातॆ भुलिया भॊर,",
+      "चुरिदारी प्रबञ्चबचनॆ",
+      "आपनौद्धारपथॆ,    तिलॆ द्ड़्ष्टि नाहि ताऽतॆ,",
+      "नरकॆर हॆतु रात्रिदिनॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "‘ক্ড়্ষ্ণঽ হৈতে জন্ম তোর,    মায়াতে ভুলিয়া ভোর,",
+      "চুরিদারী প্রবঞ্চবচনে",
+      "আপনৌদ্ধারপথে,    তিলে দ্ড়্ষ্টি নাহি তাঽতে,",
+      "নরকের হেতু রাত্রিদিনে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "‘କ୍ଡ଼୍ଷ୍ଣଽ ହୈତେ ଜନ୍ମ ତୋର,    ମାୟାତେ ଭୁଲିୟା ଭୋର,",
+      "ଚୁରିଦାରୀ ପ୍ରବଞ୍ଚବଚନେ",
+      "ଆପନୌଦ୍ଧାରପଥେ,    ତିଲେ ଦ୍ଡ଼୍ଷ୍ଟି ନାହି ତାଽତେ,",
+      "ନରକେର ହେତୁ ରାତ୍ରିଦିନେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "‘ક્ડ઼્ષ્ણઽ હૈતે જન્મ તોર,    માયાતે ભુલિયા ભોર,",
+      "ચુરિદારી પ્રબઞ્ચબચને",
+      "આપનૌદ્ધારપથે,    તિલે દ્ડ઼્ષ્ટિ નાહિ તાઽતે,",
+      "નરકેર હેતુ રાત્રિદિને ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "‘kṛṣṇa’ haite janma tora,    māyāte bhuliyā bhora,",
+      "curi-dārī prabañca-bacane",
+      "āpana-uddhāra-pathe,    tile dṛṣṭi nāhi tā’te,",
+      "narakera hetu rātri-dine 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "‘ಕ್‌ಡ಼್ಷ್ಣಽ ಹೈತೆ ಜನ್ಮ ತೊರ,    ಮಾಯಾತೆ ಭುಲಿಯಾ ಭೊರ,",
+      "ಚುರಿದಾರೀ ಪ್ರಬಂಚಬಚನೆ",
+      "ಆಪನೌದ್ಧಾರಪಥೆ,    ತಿಲೆ ದ್‌ಡ಼್ಷ್ಟಿ ನಾಹಿ ತಾಽತೆ,",
+      "ನರಕೆರ ಹೆತು ರಾತ್ರಿದಿನೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "‘క్డ్ష్ణఽ హైతె జన్మ తొర,    మాయాతె భులియా భొర,",
+      "చురిదారీ ప్రబంచబచనె",
+      "ఆపనౌద్ధారపథె,    తిలె ద్డ్ష్టి నాహి తాఽతె,",
+      "నరకెర హెతు రాత్రిదినె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "‘кр̤шн̣а' хаитэ̆ джанма то̆ра,    ма̄йа̄тэ̆ бхулийа̄ бхо̆ра,",
+      "чурида̄рӣ прабан̃чабачанэ̆",
+      "а̄панауддха̄рапатхэ̆,    тилэ̆ др̤шт̣и на̄хи та̄'тэ̆,",
+      "наракэ̆ра хэ̆ту ра̄тридинэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "‘ക്ഡ്ഷ്ണഽ ഹൈതെ ജന്മ തൊര,    മായാതെ ഭുലിയാ ഭൊര,",
+      "ചുരിദാരീ പ്രബഞ്ചബചനെ",
+      "ആപനൗദ്ധാരപഥെ,    തിലെ ദ്ഡ്ഷ്ടി നാഹി താഽതെ,",
+      "നരകെര ഹെതു രാത്രിദിനെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "‘க்ஃட்²ஷ்ண(அ) ஹைதெ ஜன்ம தொர,    மாயாதெ பு⁴லியா பொ⁴ர,",
+      "சுரிதா³ரீ ப்ரப³ஞ்சப³சனெ",
+      "ஆபனௌத்³தா⁴ரபதெ²,    திலெ த்³ஃட்²ஷ்டி நாஹி தா(அ)தெ,",
+      "நரகெர ஹெது ராத்ரிதி³னெ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "‘kṛṣṇa’ haite janma tora,    māyāte bhuliyā bhora,",
+      "curi-dārī prabañca-bacane",
+      "āpana-uddhāra-pathe,    tile dṛṣṭi nāhi tā’te,",
+      "narakera hetu rātri-dine 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "‘kṛṣṇa’ haite janma tora,    māyāte bhuliyā bhora,",
+      "curi-dārī prabañca-bacane",
+      "āpana-uddhāra-pathe,    tile dṛṣṭi nāhi tā’te,",
+      "narakera hetu rātri-dine 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "cāri yuge tribhubane,    bhūta[FLAG_HYPHEN_ALPHA]bhabiṣya[FLAG_HYPHEN_ALPHA]bartamāne,",
+    "satya satya ‘harināma’ sāra",
+    "smṛti chāḓi’ haripade,    ḍubile saṁsāra[FLAG_HYPHEN_ALPHA]made,",
+    "e sukha luṭibe yama[FLAG_HYPHEN_ALPHA]dbāra 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "चारि युगॆ त्रिभुबनॆ,    भूतभबिष्यबर्तमानॆ,",
+      "सत्य सत्य ‘हरिनामऽ सार",
+      "स्म्ड़्ति छाḓइऽ हरिपदॆ,    डुबिलॆ संसारमदॆ,",
+      "ऎ सुख लुटिबॆ यमद्बार ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "চারি যুগে ত্রিভুবনে,    ভূতভবিষ্যবর্তমানে,",
+      "সত্য সত্য ‘হরিনামঽ সার",
+      "স্ম্ড়্তি ছাḓইঽ হরিপদে,    ডুবিলে সংসারমদে,",
+      "এ সুখ লুটিবে যমদ্বার ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଚାରି ଯୁଗେ ତ୍ରିଭୁବନେ,    ଭୂତଭବିଷ୍ୟବର୍ତମାନେ,",
+      "ସତ୍ୟ ସତ୍ୟ ‘ହରିନାମଽ ସାର",
+      "ସ୍ମ୍ଡ଼୍ତି ଛାḓଇଽ ହରିପଦେ,    ଡୁବିଲେ ସଂସାରମଦେ,",
+      "ଏ ସୁଖ ଲୁଟିବେ ଯମଦ୍ବାର ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ચારિ યુગે ત્રિભુબને,    ભૂતભબિષ્યબર્તમાને,",
+      "સત્ય સત્ય ‘હરિનામઽ સાર",
+      "સ્મ્ડ઼્તિ છાḓઇઽ હરિપદે,    ડુબિલે સંસારમદે,",
+      "એ સુખ લુટિબે યમદ્બાર ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "cāri yuge tribhubane,    bhūta-bhabiṣya-bartamāne,",
+      "satya satya ‘harināma’ sāra",
+      "smṛti chāḓi’ haripade,    ḍubile saṁsāra-made,",
+      "e sukha luṭibe yama-dbāra 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಚಾರಿ ಯುಗೆ ತ್ರಿಭುಬನೆ,    ಭೂತಭಬಿಷ್ಯಬರ್ತಮಾನೆ,",
+      "ಸತ್ಯ ಸತ್ಯ ‘ಹರಿನಾಮಽ ಸಾರ",
+      "ಸ್ಮ್‌ಡ಼್ತಿ ಛಾḓಇಽ ಹರಿಪದೆ,    ಡುಬಿಲೆ ಸಂಸಾರಮದೆ,",
+      "ಎ ಸುಖ ಲುಟಿಬೆ ಯಮದ್ಬಾರ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "చారి యుగె త్రిభుబనె,    భూతభబిష్యబర్తమానె,",
+      "సత్య సత్య ‘హరినామఽ సార",
+      "స్మ్డ్తి ఛాḓఇఽ హరిపదె,    డుబిలె సంసారమదె,",
+      "ఎ సుఖ లుటిబె యమద్బార 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ча̄ри йугэ̆ трибхубанэ̆,    бхӯтабхабишйабартама̄нэ̆,",
+      "сатйа сатйа ‘харина̄ма' са̄ра",
+      "смр̤ти чха̄ḓи' харипадэ̆,    д̣убилэ̆ сам̣са̄рамадэ̆,",
+      "э̆ сукха лут̣ибэ̆ йамадба̄ра 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ചാരി യുഗെ ത്രിഭുബനെ,    ഭൂതഭബിഷ്യബർതമാനെ,",
+      "സത്യ സത്യ ‘ഹരിനാമഽ സാര",
+      "സ്മ്ഡ്തി ഛാḓഇഽ ഹരിപദെ,    ഡുബിലെ സംസാരമദെ,",
+      "എ സുഖ ലുടിബെ യമദ്ബാര 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "சாரி யுகெ³ த்ரிபு⁴ப³னெ,    பூ⁴தப⁴பி³ஷ்யப³ர்தமானெ,",
+      "ஸத்ய ஸத்ய ‘ஹரிநாம(அ) ஸார",
+      "ஸ்ம்ஃட்²தி சா²ḓஇ(அ) ஹரிபதெ³,    டு³பி³லெ ஸம்ʼஸாரமதெ³,",
+      "எ ஸுக² லுடிபெ³ யமத்³பா³ர 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "cāri yuge tribhubane,    bhūta-bhabiṣya-bartamāne,",
+      "satya satya ‘harināma’ sāra",
+      "smṛti chāḍi’ haripade,    ḍubile saṁsāra-made,",
+      "e sukha luṭibe yama-dbāra 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "cāri yuge tribhubane,    bhūta-bhabiṣya-bartamāne,",
+      "satya satya ‘harināma’ sāra",
+      "smṛti chāḓi’ haripade,    ḍubile saṁsāra-made,",
+      "e sukha luṭibe yama-dbāra 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "kahe premānanda[FLAG_HYPHEN_ALPHA]dāsa,    dante tṛṇa, gale bāsa,",
+    "‘hari hari’ kaha ore bhāi",
+    "yadi ‘hari’ bala baktre,    phukāra karaye śāstre,",
+    "tribhubane tāra sama nāi 6"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कहॆ प्रॆमानन्ददास,    दन्तॆ त्ड़्ण, गलॆ बास,",
+      "‘हरि हरिऽ कह ऒरॆ भाइ",
+      "यदि ‘हरिऽ बल बक्त्रॆ,    फुकार करयॆ शास्त्रॆ,",
+      "त्रिभुबनॆ तार सम नाइ ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কহে প্রেমানন্দদাস,    দন্তে ৎড়্ণ, গলে বাস,",
+      "‘হরি হরিঽ কহ ওরে ভাই",
+      "যদি ‘হরিঽ বল বক্ত্রে,    ফুকার করয়ে শাস্ত্রে,",
+      "ত্রিভুবনে তার সম নাই ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କହେ ପ୍ରେମାନନ୍ଦଦାସ,    ଦନ୍ତେ ତ୍ଡ଼୍ଣ, ଗଲେ ବାସ,",
+      "‘ହରି ହରିଽ କହ ଓରେ ଭାଇ",
+      "ଯଦି ‘ହରିଽ ବଲ ବକ୍ତ୍ରେ,    ଫୁକାର କରୟେ ଶାସ୍ତ୍ରେ,",
+      "ତ୍ରିଭୁବନେ ତାର ସମ ନାଇ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કહે પ્રેમાનન્દદાસ,    દન્તે ત્ડ઼્ણ, ગલે બાસ,",
+      "‘હરિ હરિઽ કહ ઓરે ભાઇ",
+      "યદિ ‘હરિઽ બલ બક્ત્રે,    ફુકાર કરયે શાસ્ત્રે,",
+      "ત્રિભુબને તાર સમ નાઇ ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kahe premānanda-dāsa,    dante tṛṇa, gale bāsa,",
+      "‘hari hari’ kaha ore bhāi",
+      "yadi ‘hari’ bala baktre,    phukāra karaye śāstre,",
+      "tribhubane tāra sama nāi 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕಹೆ ಪ್ರೆಮಾನಂದದಾಸ,    ದಂತೆ ತ್‌ಡ಼್ಣ, ಗಲೆ ಬಾಸ,",
+      "‘ಹರಿ ಹರಿಽ ಕಹ ಒರೆ ಭಾಇ",
+      "ಯದಿ ‘ಹರಿಽ ಬಲ ಬಕ್ತ್ರೆ,    ಫುಕಾರ ಕರಯೆ ಶಾಸ್ತ್ರೆ,",
+      "ತ್ರಿಭುಬನೆ ತಾರ ಸಮ ನಾಇ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కహె ప్రెమానందదాస,    దంతె త్డ్ణ, గలె బాస,",
+      "‘హరి హరిఽ కహ ఒరె భాఇ",
+      "యది ‘హరిఽ బల బక్త్రె,    ఫుకార కరయె శాస్త్రె,",
+      "త్రిభుబనె తార సమ నాఇ 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кахэ̆ прэ̆ма̄нандада̄са,    дантэ̆ тр̤н̣а, галэ̆ ба̄са,",
+      "‘хари хари' каха о̆рэ̆ бха̄и",
+      "йади ‘хари' бала бактрэ̆,    пхука̄ра карайэ̆ ш́а̄стрэ̆,",
+      "трибхубанэ̆ та̄ра сама на̄и 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കഹെ പ്രെമാനന്ദദാസ,    ദന്തെ ത്ഡ്ണ, ഗലെ ബാസ,",
+      "‘ഹരി ഹരിഽ കഹ ഒരെ ഭാഇ",
+      "യദി ‘ഹരിഽ ബല ബക്ത്രെ,    ഫുകാര കരയെ ശാസ്ത്രെ,",
+      "ത്രിഭുബനെ താര സമ നാഇ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கஹெ ப்ரெமானந்த³தா³ஸ,    த³ந்தெ த்ஃட்²ண, க³லெ பா³ஸ,",
+      "‘ஹரி ஹரி(அ) கஹ ஒரெ பா⁴இ",
+      "யதி³ ‘ஹரி(அ) ப³ல ப³க்த்ரெ,    பு²கார கரயெ ஶாஸ்த்ரெ,",
+      "த்ரிபு⁴ப³னெ தார ஸம நாஇ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kahe premānanda-dāsa,    dante tṛṇa, gale bāsa,",
+      "‘hari hari’ kaha ore bhāi",
+      "yadi ‘hari’ bala baktre,    phukāra karaye śāstre,",
+      "tribhubane tāra sama nāi 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kahe premānanda-dāsa,    dante tṛṇa, gale bāsa,",
+      "‘hari hari’ kaha ore bhāi",
+      "yadi ‘hari’ bala baktre,    phukāra karaye śāstre,",
+      "tribhubane tāra sama nāi 6"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "(৪)"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

@@ -1,0 +1,607 @@
+{
+  "uid": "GH54",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ভাইরে! ভজ গোরাচাঁদের চরণ"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "bhāire! bhaja gorācā̃dera caraṇa"
+    },
+    {
+      "script_code": "Deva",
+      "text": "भाइरे! भज गोराचांदेर चरण"
+    },
+    {
+      "script_code": "Telu",
+      "text": "భాఇరే! భజ గోరాచాందేర చరణ"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಭಾಇರೇ! ಭಜ ಗೋರಾಚಾಂದೇರ ಚರಣ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "பா⁴இரே! ப⁴ஜ கோ³ராசாந்தே³ர சரண"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഭാഇരേ! ഭജ ഗോരാചാന്ദേര ചരണ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ભાઇરે! ભજ ગોરાચાંદેર ચરણ"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଭାଇରେ! ଭଜ ଗୋରାଚାନ୍ଦେର ଚରଣ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "бха̄ирэ! бхаджа гора̄ча̄м̣дэра чаран̣а"
+    }
+  ],
+  "author_uid": "pdt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল প্রেমানন্দ দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Premānanda dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील प्रेमानन्द दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల ప్రేమానంద దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಪ್ರೇಮಾನಂದ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப்ரேமானந்த³ தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല പ്രേമാനന്ദ ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ પ્રેમાનન્દ દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ପ୍ରେମାନନ୍ଦ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла прэма̄нанда да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "bhāire! bhaja gorācā̃dera caraṇa",
+        "e tina bhubane āra,    dayāra ṭhākura nāi,",
+        "gorā baḓa patitapābana 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भाइरॆ! भज गॊराचांदॆर चरण",
+            "ऎ तिन भुबनॆ आर,    दयार ठाकुर नाइ,",
+            "गॊरा बḓअ पतितपाबन १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভাইরে! ভজ গোরাচান্দের চরণ",
+            "এ তিন ভুবনে আর,    দয়ার ঠাকুর নাই,",
+            "গোরা বḓঅ পতিতপাবন ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭାଇରେ! ଭଜ ଗୋରାଚାନ୍ଦେର ଚରଣ",
+            "ଏ ତିନ ଭୁବନେ ଆର,    ଦୟାର ଠାକୁର ନାଇ,",
+            "ଗୋରା ବḓଅ ପତିତପାବନ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભાઇરે! ભજ ગોરાચાંદેર ચરણ",
+            "એ તિન ભુબને આર,    દયાર ઠાકુર નાઇ,",
+            "ગોરા બḓઅ પતિતપાબન ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhāire! bhaja gorācā̃dera caraṇa",
+            "e tina bhubane āra,    dayāra ṭhākura nāi,",
+            "gorā baḓa patitapābana 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಾಇರೆ! ಭಜ ಗೊರಾಚಾಂದೆರ ಚರಣ",
+            "ಎ ತಿನ ಭುಬನೆ ಆರ,    ದಯಾರ ಠಾಕುರ ನಾಇ,",
+            "ಗೊರಾ ಬḓಅ ಪತಿತಪಾಬನ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భాఇరె! భజ గొరాచాందెర చరణ",
+            "ఎ తిన భుబనె ఆర,    దయార ఠాకుర నాఇ,",
+            "గొరా బḓఅ పతితపాబన 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бха̄ирэ̆! бхаджа го̆ра̄ча̄м̣дэ̆ра чаран̣а",
+            "э̆ тина бхубанэ̆ а̄ра,    дайа̄ра т̣ха̄кура на̄и,",
+            "го̆ра̄ баḓа патитапа̄бана 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭാഇരെ! ഭജ ഗൊരാചാന്ദെര ചരണ",
+            "എ തിന ഭുബനെ ആര,    ദയാര ഠാകുര നാഇ,",
+            "ഗൊരാ ബḓഅ പതിതപാബന 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பா⁴இரெ! ப⁴ஜ கொ³ராசாந்தெ³ர சரண",
+            "எ தின பு⁴ப³னெ ஆர,    த³யார டா²குர நாஇ,",
+            "கொ³ரா ப³ḓஅ பதிதபாப³ன 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhāire! bhaja gorācā̃dera caraṇa",
+            "e tina bhubane āra,    dayāra ṭhākura nāi,",
+            "gorā baḍa patitapābana 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhāire! bhaja gorācā̃dera caraṇa",
+            "e tina bhubane āra,    dayāra ṭhākura nāi,",
+            "gorā baḓa patitapābana 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "hena abatāre yā’ra,    nahila bhakati leśa,",
+        "bala tā’ra ki habe upāya",
+        "rabira kiraṇe yā’ra,    ā̃khi parasanna naila,",
+        "bidhātā bañcita kaila tāya 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हॆन अबतारॆ याऽर,    नहिल भकति लॆश,",
+            "बल ताऽर कि हबॆ उपाय",
+            "रबिर किरणॆ याऽर,    आंखि परसन्न नैल,",
+            "बिधाता बञ्चित कैल ताय २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হেন অবতারে যাঽর,    নহিল ভকতি লেশ,",
+            "বল তাঽর কি হবে উপায়",
+            "রবির কিরণে যাঽর,    আঙ্খি পরসন্ন নৈল,",
+            "বিধাতা বঞ্চিত কৈল তায় ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହେନ ଅବତାରେ ଯାଽର,    ନହିଲ ଭକତି ଲେଶ,",
+            "ବଲ ତାଽର କି ହବେ ଉପାୟ",
+            "ରବିର କିରଣେ ଯାଽର,    ଆଙ୍ଖି ପରସନ୍ନ ନୈଲ,",
+            "ବିଧାତା ବଞ୍ଚିତ କୈଲ ତାୟ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હેન અબતારે યાઽર,    નહિલ ભકતિ લેશ,",
+            "બલ તાઽર કિ હબે ઉપાય",
+            "રબિર કિરણે યાઽર,    આંખિ પરસન્ન નૈલ,",
+            "બિધાતા બઞ્ચિત કૈલ તાય ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hena abatāre yā’ra,    nahila bhakati leśa,",
+            "bala tā’ra ki habe upāya",
+            "rabira kiraṇe yā’ra,    ā̃khi parasanna naila,",
+            "bidhātā bañcita kaila tāya 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹೆನ ಅಬತಾರೆ ಯಾಽರ,    ನಹಿಲ ಭಕತಿ ಲೆಶ,",
+            "ಬಲ ತಾಽರ ಕಿ ಹಬೆ ಉಪಾಯ",
+            "ರಬಿರ ಕಿರಣೆ ಯಾಽರ,    ಆಂಖಿ ಪರಸನ್ನ ನೈಲ,",
+            "ಬಿಧಾತಾ ಬಂಚಿತ ಕೈಲ ತಾಯ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హెన అబతారె యాఽర,    నహిల భకతి లెశ,",
+            "బల తాఽర కి హబె ఉపాయ",
+            "రబిర కిరణె యాఽర,    ఆంఖి పరసన్న నైల,",
+            "బిధాతా బంచిత కైల తాయ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хэ̆на абата̄рэ̆ йа̄'ра,    нахила бхакати лэ̆ш́а,",
+            "бала та̄'ра ки хабэ̆ упа̄йа",
+            "рабира киран̣э̆ йа̄'ра,    а̄м̣кхи парасанна наила,",
+            "бидха̄та̄ бан̃чита каила та̄йа 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹെന അബതാരെ യാഽര,    നഹില ഭകതി ലെശ,",
+            "ബല താഽര കി ഹബെ ഉപായ",
+            "രബിര കിരണെ യാഽര,    ആംഖി പരസന്ന നൈല,",
+            "ബിധാതാ ബഞ്ചിത കൈല തായ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹென அப³தாரெ யா(அ)ர,    நஹில ப⁴கதி லெஶ,",
+            "ப³ல தா(அ)ர கி ஹபெ³ உபாய",
+            "ரபி³ர கிரணெ யா(அ)ர,    ஆங்கி² பரஸன்ன நைல,",
+            "பி³தா⁴தா ப³ஞ்சித கைல தாய 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hena abatāre yā’ra,    nahila bhakati leśa,",
+            "bala tā’ra ki habe upāya",
+            "rabira kiraṇe yā’ra,    ā̃khi parasanna naila,",
+            "bidhātā bañcita kaila tāya 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hena abatāre yā’ra,    nahila bhakati leśa,",
+            "bala tā’ra ki habe upāya",
+            "rabira kiraṇe yā’ra,    ā̃khi parasanna naila,",
+            "bidhātā bañcita kaila tāya 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "hena[FLAG_HYPHEN_ALPHA]jalada kāya,    premadhārā bariṣaya,",
+        "karuṇāmaya abatāra",
+        "gorā hena prabhu peye,    ye[FLAG_HYPHEN_ALPHA]jana śītala naila,",
+        "ki jāni kemana mana tā’ra 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "हॆनजलद काय,    प्रॆमधारा बरिषय,",
+            "करुणामय अबतार",
+            "गॊरा हॆन प्रभु पॆयॆ,    यॆजन शीतल नैल,",
+            "कि जानि कॆमन मन ताऽर ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "হেনজলদ কায়,    প্রেমধারা বরিষয়,",
+            "করুণাময় অবতার",
+            "গোরা হেন প্রভু পেয়ে,    যেজন শীতল নৈল,",
+            "কি জানি কেমন মন তাঽর ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ହେନଜଲଦ କାୟ,    ପ୍ରେମଧାରା ବରିଷୟ,",
+            "କରୁଣାମୟ ଅବତାର",
+            "ଗୋରା ହେନ ପ୍ରଭୁ ପେୟେ,    ଯେଜନ ଶୀତଲ ନୈଲ,",
+            "କି ଜାନି କେମନ ମନ ତାଽର ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "હેનજલદ કાય,    પ્રેમધારા બરિષય,",
+            "કરુણામય અબતાર",
+            "ગોરા હેન પ્રભુ પેયે,    યેજન શીતલ નૈલ,",
+            "કિ જાનિ કેમન મન તાઽર ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "hena-jalada kāya,    premadhārā bariṣaya,",
+            "karuṇāmaya abatāra",
+            "gorā hena prabhu peye,    ye-jana śītala naila,",
+            "ki jāni kemana mana tā’ra 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಹೆನಜಲದ ಕಾಯ,    ಪ್ರೆಮಧಾರಾ ಬರಿಷಯ,",
+            "ಕರುಣಾಮಯ ಅಬತಾರ",
+            "ಗೊರಾ ಹೆನ ಪ್ರಭು ಪೆಯೆ,    ಯೆಜನ ಶೀತಲ ನೈಲ,",
+            "ಕಿ ಜಾನಿ ಕೆಮನ ಮನ ತಾಽರ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "హెనజలద కాయ,    ప్రెమధారా బరిషయ,",
+            "కరుణామయ అబతార",
+            "గొరా హెన ప్రభు పెయె,    యెజన శీతల నైల,",
+            "కి జాని కెమన మన తాఽర 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "хэ̆наджалада ка̄йа,    прэ̆мадха̄ра̄ баришайа,",
+            "карун̣а̄майа абата̄ра",
+            "го̆ра̄ хэ̆на прабху пэ̆йэ̆,    йэ̆джана ш́ӣтала наила,",
+            "ки джа̄ни кэ̆мана мана та̄'ра 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഹെനജലദ കായ,    പ്രെമധാരാ ബരിഷയ,",
+            "കരുണാമയ അബതാര",
+            "ഗൊരാ ഹെന പ്രഭു പെയെ,    യെജന ശീതല നൈല,",
+            "കി ജാനി കെമന മന താഽര 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஹெனஜலத³ காய,    ப்ரெமதா⁴ரா ப³ரிஷய,",
+            "கருணாமய அப³தார",
+            "கொ³ரா ஹென ப்ரபு⁴ பெயெ,    யெஜன ஶீதல நைல,",
+            "கி ஜானி கெமன மன தா(அ)ர 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "hena-jalada kāya,    premadhārā bariṣaya,",
+            "karuṇāmaya abatāra",
+            "gorā hena prabhu peye,    ye-jana śītala naila,",
+            "ki jāni kemana mana tā’ra 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "hena-jalada kāya,    premadhārā bariṣaya,",
+            "karuṇāmaya abatāra",
+            "gorā hena prabhu peye,    ye-jana śītala naila,",
+            "ki jāni kemana mana tā’ra 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "kali[FLAG_HYPHEN_ALPHA]bhaba[FLAG_HYPHEN_ALPHA]sāgare,    nija[FLAG_HYPHEN_ALPHA]nāma bhelā kari’,",
+        "āpane gaurāṅga kare pāra",
+        "tabe ye ḍubiyā mare,    ke tā’re uddhāra kare,",
+        "e premānandera parihāra 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कलिभबसागरॆ,    निजनाम भॆला करिऽ,",
+            "आपनॆ गौराङ्ग करॆ पार",
+            "तबॆ यॆ डुबिया मरॆ,    कॆ ताऽरॆ उद्धार करॆ,",
+            "ऎ प्रॆमानन्दॆर परिहार ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কলিভবসাগরে,    নিজনাম ভেলা করিঽ,",
+            "আপনে গৌরাঙ্গ করে পার",
+            "তবে যে ডুবিয়া মরে,    কে তাঽরে উদ্ধার করে,",
+            "এ প্রেমানন্দের পরিহার ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କଲିଭବସାଗରେ,    ନିଜନାମ ଭେଲା କରିଽ,",
+            "ଆପନେ ଗୌରାଙ୍ଗ କରେ ପାର",
+            "ତବେ ଯେ ଡୁବିୟା ମରେ,    କେ ତାଽରେ ଉଦ୍ଧାର କରେ,",
+            "ଏ ପ୍ରେମାନନ୍ଦେର ପରିହାର ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કલિભબસાગરે,    નિજનામ ભેલા કરિઽ,",
+            "આપને ગૌરાઙ્ગ કરે પાર",
+            "તબે યે ડુબિયા મરે,    કે તાઽરે ઉદ્ધાર કરે,",
+            "એ પ્રેમાનન્દેર પરિહાર ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kali-bhaba-sāgare,    nija-nāma bhelā kari’,",
+            "āpane gaurāṅga kare pāra",
+            "tabe ye ḍubiyā mare,    ke tā’re uddhāra kare,",
+            "e premānandera parihāra 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕಲಿಭಬಸಾಗರೆ,    ನಿಜನಾಮ ಭೆಲಾ ಕರಿಽ,",
+            "ಆಪನೆ ಗೌರಾಂಗ ಕರೆ ಪಾರ",
+            "ತಬೆ ಯೆ ಡುಬಿಯಾ ಮರೆ,    ಕೆ ತಾಽರೆ ಉದ್ಧಾರ ಕರೆ,",
+            "ಎ ಪ್ರೆಮಾನಂದೆರ ಪರಿಹಾರ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కలిభబసాగరె,    నిజనామ భెలా కరిఽ,",
+            "ఆపనె గౌరాంగ కరె పార",
+            "తబె యె డుబియా మరె,    కె తాఽరె ఉద్ధార కరె,",
+            "ఎ ప్రెమానందెర పరిహార 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "калибхабаса̄гарэ̆,    ниджана̄ма бхэ̆ла̄ кари',",
+            "а̄панэ̆ гаура̄н̇га карэ̆ па̄ра",
+            "табэ̆ йэ̆ д̣убийа̄ марэ̆,    кэ̆ та̄'рэ̆ уддха̄ра карэ̆,",
+            "э̆ прэ̆ма̄нандэ̆ра париха̄ра 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കലിഭബസാഗരെ,    നിജനാമ ഭെലാ കരിഽ,",
+            "ആപനെ ഗൗരാംഗ കരെ പാര",
+            "തബെ യെ ഡുബിയാ മരെ,    കെ താഽരെ ഉദ്ധാര കരെ,",
+            "എ പ്രെമാനന്ദെര പരിഹാര 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கலிப⁴ப³ஸாக³ரெ,    நிஜநாம பெ⁴லா கரி(அ),",
+            "ஆபனெ கௌ³ராங்க³ கரெ பார",
+            "தபெ³ யெ டு³பி³யா மரெ,    கெ தா(அ)ரெ உத்³தா⁴ர கரெ,",
+            "எ ப்ரெமானந்தெ³ர பரிஹார 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kali-bhaba-sāgare,    nija-nāma bhelā kari’,",
+            "āpane gaurāṅga kare pāra",
+            "tabe ye ḍubiyā mare,    ke tā’re uddhāra kare,",
+            "e premānandera parihāra 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kali-bhaba-sāgare,    nija-nāma bhelā kari’,",
+            "āpane gaurāṅga kare pāra",
+            "tabe ye ḍubiyā mare,    ke tā’re uddhāra kare,",
+            "e premānandera parihāra 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": []
+}

@@ -1,0 +1,1631 @@
+{
+ "uid": "U7",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হে! তোমারে ভুলিয়া"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari he! tomāre bhuliyā"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari he!",
+    "tomāre bhuliyā,    abidyā[FLAG_HYPHEN_ALPHA]pīḓāya,",
+    "pīḓita rasanā mora",
+    "kṛṣṇanāma[FLAG_HYPHEN_ALPHA]sudhā,    bhāla nāhi lāge,",
+    "biṣaya[FLAG_HYPHEN_ALPHA]sukhete bhora 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O Hari! Having forgotten You, my tongue is afflicted with the jaundice of ignorance. The ambrosia of the holy name of Kṛṣṇa is unpleasant for me, as I am engrossed in worldly pleasures."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "hari",
+       "Hari"
+      ],
+      [
+       "he",
+       "O"
+      ],
+      [
+       "tomāre",
+       "to You"
+      ],
+      [
+       "bhuliyā",
+       "having forgotten"
+      ],
+      [
+       "abidyā",
+       "ignorance"
+      ],
+      [
+       "pīḓāya",
+       "with the disease [of jaundice]"
+      ],
+      [
+       "pīḓita",
+       "diseased"
+      ],
+      [
+       "rasanā",
+       "tongue"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "kṛṣṇanāma",
+       "Kṛṣṇa + names"
+      ],
+      [
+       "sudhā",
+       "nectar"
+      ],
+      [
+       "bhāla",
+       "well"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "lāge",
+       "strikes"
+      ],
+      [
+       "biṣaya",
+       "worldly enjoyment"
+      ],
+      [
+       "sukhete",
+       "in the pleasures"
+      ],
+      [
+       "bhora",
+       "engrossed"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "हरि",
+       "Hari"
+      ],
+      [
+       "हॆ",
+       "O"
+      ],
+      [
+       "तॊमारॆ",
+       "to You"
+      ],
+      [
+       "भुलिया",
+       "having forgotten"
+      ],
+      [
+       "अबिद्या",
+       "ignorance"
+      ],
+      [
+       "पीḓआय",
+       "with the disease [of jaundice]"
+      ],
+      [
+       "पीḓइत",
+       "diseased"
+      ],
+      [
+       "रसना",
+       "tongue"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "क्ड़्ष्णनाम",
+       "Kṛṣṇa + names"
+      ],
+      [
+       "सुधा",
+       "nectar"
+      ],
+      [
+       "भाल",
+       "well"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "लागॆ",
+       "strikes"
+      ],
+      [
+       "बिषय",
+       "worldly enjoyment"
+      ],
+      [
+       "सुखॆतॆ",
+       "in the pleasures"
+      ],
+      [
+       "भॊर",
+       "engrossed"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "হরি",
+       "Hari"
+      ],
+      [
+       "হে",
+       "O"
+      ],
+      [
+       "তোমারে",
+       "to You"
+      ],
+      [
+       "ভুলিয়া",
+       "having forgotten"
+      ],
+      [
+       "অবিদ্যা",
+       "ignorance"
+      ],
+      [
+       "পীḓআয়",
+       "with the disease [of jaundice]"
+      ],
+      [
+       "পীḓইত",
+       "diseased"
+      ],
+      [
+       "রসনা",
+       "tongue"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "ক্ড়্ষ্ণনাম",
+       "Kṛṣṇa + names"
+      ],
+      [
+       "সুধা",
+       "nectar"
+      ],
+      [
+       "ভাল",
+       "well"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "লাগে",
+       "strikes"
+      ],
+      [
+       "বিষয়",
+       "worldly enjoyment"
+      ],
+      [
+       "সুখেতে",
+       "in the pleasures"
+      ],
+      [
+       "ভোর",
+       "engrossed"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "હરિ",
+       "Hari"
+      ],
+      [
+       "હે",
+       "O"
+      ],
+      [
+       "તોમારે",
+       "to You"
+      ],
+      [
+       "ભુલિયા",
+       "having forgotten"
+      ],
+      [
+       "અબિદ્યા",
+       "ignorance"
+      ],
+      [
+       "પીḓઆય",
+       "with the disease [of jaundice]"
+      ],
+      [
+       "પીḓઇત",
+       "diseased"
+      ],
+      [
+       "રસના",
+       "tongue"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "ક્ડ઼્ષ્ણનામ",
+       "Kṛṣṇa + names"
+      ],
+      [
+       "સુધા",
+       "nectar"
+      ],
+      [
+       "ભાલ",
+       "well"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "લાગે",
+       "strikes"
+      ],
+      [
+       "બિષય",
+       "worldly enjoyment"
+      ],
+      [
+       "સુખેતે",
+       "in the pleasures"
+      ],
+      [
+       "ભોર",
+       "engrossed"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हॆ!",
+      "तॊमारॆ भुलिया,    अबिद्यापीḓआय,",
+      "पीḓइत रसना मॊर",
+      "क्ड़्ष्णनामसुधा,    भाल नाहि लागॆ,",
+      "बिषयसुखॆतॆ भॊर १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হে!",
+      "তোমারে ভুলিয়া,    অবিদ্যাপীḓআয়,",
+      "পীḓইত রসনা মোর",
+      "ক্ড়্ষ্ণনামসুধা,    ভাল নাহি লাগে,",
+      "বিষয়সুখেতে ভোর ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହେ!",
+      "ତୋମାରେ ଭୁଲିୟା,    ଅବିଦ୍ୟାପୀḓଆୟ,",
+      "ପୀḓଇତ ରସନା ମୋର",
+      "କ୍ଡ଼୍ଷ୍ଣନାମସୁଧା,    ଭାଲ ନାହି ଲାଗେ,",
+      "ବିଷୟସୁଖେତେ ଭୋର ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હે!",
+      "તોમારે ભુલિયા,    અબિદ્યાપીḓઆય,",
+      "પીḓઇત રસના મોર",
+      "ક્ડ઼્ષ્ણનામસુધા,    ભાલ નાહિ લાગે,",
+      "બિષયસુખેતે ભોર ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari he!",
+      "tomāre bhuliyā,    abidyā-pīḓāya,",
+      "pīḓita rasanā mora",
+      "kṛṣṇanāma-sudhā,    bhāla nāhi lāge,",
+      "biṣaya-sukhete bhora 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹೆ!",
+      "ತೊಮಾರೆ ಭುಲಿಯಾ,    ಅಬಿದ್ಯಾಪೀḓಆಯ,",
+      "ಪೀḓಇತ ರಸನಾ ಮೊರ",
+      "ಕ್‌ಡ಼್ಷ್ಣನಾಮಸುಧಾ,    ಭಾಲ ನಾಹಿ ಲಾಗೆ,",
+      "ಬಿಷಯಸುಖೆತೆ ಭೊರ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హె!",
+      "తొమారె భులియా,    అబిద్యాపీḓఆయ,",
+      "పీḓఇత రసనా మొర",
+      "క్డ్ష్ణనామసుధా,    భాల నాహి లాగె,",
+      "బిషయసుఖెతె భొర 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хэ̆!",
+      "то̆ма̄рэ̆ бхулийа̄,    абидйа̄пӣḓа̄йа,",
+      "пӣḓита расана̄ мо̆ра",
+      "кр̤шн̣ана̄масудха̄,    бха̄ла на̄хи ла̄гэ̆,",
+      "бишайасукхэ̆тэ̆ бхо̆ра 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹെ!",
+      "തൊമാരെ ഭുലിയാ,    അബിദ്യാപീḓആയ,",
+      "പീḓഇത രസനാ മൊര",
+      "ക്ഡ്ഷ്ണനാമസുധാ,    ഭാല നാഹി ലാഗെ,",
+      "ബിഷയസുഖെതെ ഭൊര 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹெ!",
+      "தொமாரெ பு⁴லியா,    அபி³த்³யாபீḓஆய,",
+      "பீḓஇத ரஸனா மொர",
+      "க்ஃட்²ஷ்ணநாமஸுதா⁴,    பா⁴ல நாஹி லாகெ³,",
+      "பி³ஷயஸுகெ²தெ பொ⁴ர 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari he!",
+      "tomāre bhuliyā,    abidyā-pīḍāya,",
+      "pīḍita rasanā mora",
+      "kṛṣṇanāma-sudhā,    bhāla nāhi lāge,",
+      "biṣaya-sukhete bhora 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari he!",
+      "tomāre bhuliyā,    abidyā-pīḓāya,",
+      "pīḓita rasanā mora",
+      "kṛṣṇanāma-sudhā,    bhāla nāhi lāge,",
+      "biṣaya-sukhete bhora 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "pratidina yadi,    ādara kariyā,",
+    "se[FLAG_HYPHEN_ALPHA]nāma kīrtana kari",
+    "sitapala yena,    nāśi’ roga[FLAG_HYPHEN_ALPHA]mūla,",
+    "krame sbādu haya, hari 2",
+    "durdaiba āmāra,    se nāme ādara,",
+    "nā ha·ila dayāmaya!",
+    "daśa aparādha,    āmāra durdaiba,",
+    "kemane ha·ibe kṣaya 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "If, with loving regard, I daily chant that holy name, which acts like sugar candy that can destroy jaundice at its root, gradually that name will become sweet to me, O Hari! My misfortune is that I have not developed loving regard for that name, O merciful Lord! How will the ten offenses [to the holy name], which are the cause of my misfortune, ever be obliterated?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "pratidina",
+       "every + day"
+      ],
+      [
+       "yadi",
+       "if"
+      ],
+      [
+       "ādara kariyā",
+       "respectfully"
+      ],
+      [
+       "se",
+       "that"
+      ],
+      [
+       "nāma",
+       "name"
+      ],
+      [
+       "kīrtana",
+       "I chant"
+      ],
+      [
+       "sitapala",
+       "(michari) sugar candy"
+      ],
+      [
+       "yena",
+       "that"
+      ],
+      [
+       "nāśi’",
+       "having destroyed"
+      ],
+      [
+       "roga",
+       "disease"
+      ],
+      [
+       "mūla",
+       "root"
+      ],
+      [
+       "krame",
+       "gradually"
+      ],
+      [
+       "sbādu",
+       "taste"
+      ],
+      [
+       "haya",
+       "becomes"
+      ],
+      [
+       "hari",
+       "O Hari."
+      ],
+      [
+       "durdaiba",
+       "(duṣkṛti, aparādh) misfortune (misdeeds, offences)"
+      ],
+      [
+       "āmāra",
+       "my"
+      ],
+      [
+       "se",
+       "that"
+      ],
+      [
+       "nāme",
+       "for name"
+      ],
+      [
+       "ādara",
+       "love, appreciation, respect"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "ha·ila",
+       "happened"
+      ],
+      [
+       "dayāmaya",
+       "O merciful one"
+      ],
+      [
+       "daśa",
+       "ten"
+      ],
+      [
+       "aparādha",
+       "offenses"
+      ],
+      [
+       "āmāra",
+       "my"
+      ],
+      [
+       "durdaiba",
+       "misfortune"
+      ],
+      [
+       "kemane",
+       "how"
+      ],
+      [
+       "ha·ibe",
+       "will be"
+      ],
+      [
+       "kṣaya",
+       "destroyed"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "प्रतिदिन",
+       "every + day"
+      ],
+      [
+       "यदि",
+       "if"
+      ],
+      [
+       "आदर करिया",
+       "respectfully"
+      ],
+      [
+       "सॆ",
+       "that"
+      ],
+      [
+       "नाम",
+       "name"
+      ],
+      [
+       "कीर्तन",
+       "I chant"
+      ],
+      [
+       "सितपल",
+       "(michari) sugar candy"
+      ],
+      [
+       "यॆन",
+       "that"
+      ],
+      [
+       "नाशिऽ",
+       "having destroyed"
+      ],
+      [
+       "रॊग",
+       "disease"
+      ],
+      [
+       "मूल",
+       "root"
+      ],
+      [
+       "क्रमॆ",
+       "gradually"
+      ],
+      [
+       "स्बादु",
+       "taste"
+      ],
+      [
+       "हय",
+       "becomes"
+      ],
+      [
+       "हरि",
+       "O Hari."
+      ],
+      [
+       "दुर्दैब",
+       "(duṣkṛti, aparādh) misfortune (misdeeds, offences)"
+      ],
+      [
+       "आमार",
+       "my"
+      ],
+      [
+       "सॆ",
+       "that"
+      ],
+      [
+       "नामॆ",
+       "for name"
+      ],
+      [
+       "आदर",
+       "love, appreciation, respect"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "हइल",
+       "happened"
+      ],
+      [
+       "दयामय",
+       "O merciful one"
+      ],
+      [
+       "दश",
+       "ten"
+      ],
+      [
+       "अपराध",
+       "offenses"
+      ],
+      [
+       "आमार",
+       "my"
+      ],
+      [
+       "दुर्दैब",
+       "misfortune"
+      ],
+      [
+       "कॆमनॆ",
+       "how"
+      ],
+      [
+       "हइबॆ",
+       "will be"
+      ],
+      [
+       "क्षय",
+       "destroyed"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "প্রতিদিন",
+       "every + day"
+      ],
+      [
+       "যদি",
+       "if"
+      ],
+      [
+       "আদর করিয়া",
+       "respectfully"
+      ],
+      [
+       "সে",
+       "that"
+      ],
+      [
+       "নাম",
+       "name"
+      ],
+      [
+       "কীর্তন",
+       "I chant"
+      ],
+      [
+       "সিতপল",
+       "(michari) sugar candy"
+      ],
+      [
+       "যেন",
+       "that"
+      ],
+      [
+       "নাশিঽ",
+       "having destroyed"
+      ],
+      [
+       "রোগ",
+       "disease"
+      ],
+      [
+       "মূল",
+       "root"
+      ],
+      [
+       "ক্রমে",
+       "gradually"
+      ],
+      [
+       "স্বাদু",
+       "taste"
+      ],
+      [
+       "হয়",
+       "becomes"
+      ],
+      [
+       "হরি",
+       "O Hari."
+      ],
+      [
+       "দুর্দৈব",
+       "(duṣkṛti, aparādh) misfortune (misdeeds, offences)"
+      ],
+      [
+       "আমার",
+       "my"
+      ],
+      [
+       "সে",
+       "that"
+      ],
+      [
+       "নামে",
+       "for name"
+      ],
+      [
+       "আদর",
+       "love, appreciation, respect"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "হইল",
+       "happened"
+      ],
+      [
+       "দয়াময়",
+       "O merciful one"
+      ],
+      [
+       "দশ",
+       "ten"
+      ],
+      [
+       "অপরাধ",
+       "offenses"
+      ],
+      [
+       "আমার",
+       "my"
+      ],
+      [
+       "দুর্দৈব",
+       "misfortune"
+      ],
+      [
+       "কেমনে",
+       "how"
+      ],
+      [
+       "হইবে",
+       "will be"
+      ],
+      [
+       "ক্ষয়",
+       "destroyed"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "પ્રતિદિન",
+       "every + day"
+      ],
+      [
+       "યદિ",
+       "if"
+      ],
+      [
+       "આદર કરિયા",
+       "respectfully"
+      ],
+      [
+       "સે",
+       "that"
+      ],
+      [
+       "નામ",
+       "name"
+      ],
+      [
+       "કીર્તન",
+       "I chant"
+      ],
+      [
+       "સિતપલ",
+       "(michari) sugar candy"
+      ],
+      [
+       "યેન",
+       "that"
+      ],
+      [
+       "નાશિઽ",
+       "having destroyed"
+      ],
+      [
+       "રોગ",
+       "disease"
+      ],
+      [
+       "મૂલ",
+       "root"
+      ],
+      [
+       "ક્રમે",
+       "gradually"
+      ],
+      [
+       "સ્બાદુ",
+       "taste"
+      ],
+      [
+       "હય",
+       "becomes"
+      ],
+      [
+       "હરિ",
+       "O Hari."
+      ],
+      [
+       "દુર્દૈબ",
+       "(duṣkṛti, aparādh) misfortune (misdeeds, offences)"
+      ],
+      [
+       "આમાર",
+       "my"
+      ],
+      [
+       "સે",
+       "that"
+      ],
+      [
+       "નામે",
+       "for name"
+      ],
+      [
+       "આદર",
+       "love, appreciation, respect"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "હઇલ",
+       "happened"
+      ],
+      [
+       "દયામય",
+       "O merciful one"
+      ],
+      [
+       "દશ",
+       "ten"
+      ],
+      [
+       "અપરાધ",
+       "offenses"
+      ],
+      [
+       "આમાર",
+       "my"
+      ],
+      [
+       "દુર્દૈબ",
+       "misfortune"
+      ],
+      [
+       "કેમને",
+       "how"
+      ],
+      [
+       "હઇબે",
+       "will be"
+      ],
+      [
+       "ક્ષય",
+       "destroyed"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "प्रतिदिन यदि,    आदर करिया,",
+      "सॆनाम कीर्तन करि",
+      "सितपल यॆन,    नाशिऽ रॊगमूल,",
+      "क्रमॆ स्बादु हय, हरि २",
+      "दुर्दैब आमार,    सॆ नामॆ आदर,",
+      "ना हइल दयामय!",
+      "दश अपराध,    आमार दुर्दैब,",
+      "कॆमनॆ हइबॆ क्षय ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "প্রতিদিন যদি,    আদর করিয়া,",
+      "সেনাম কীর্তন করি",
+      "সিতপল যেন,    নাশিঽ রোগমূল,",
+      "ক্রমে স্বাদু হয়, হরি ২",
+      "দুর্দৈব আমার,    সে নামে আদর,",
+      "না হইল দয়াময়!",
+      "দশ অপরাধ,    আমার দুর্দৈব,",
+      "কেমনে হইবে ক্ষয় ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପ୍ରତିଦିନ ଯଦି,    ଆଦର କରିୟା,",
+      "ସେନାମ କୀର୍ତନ କରି",
+      "ସିତପଲ ଯେନ,    ନାଶିଽ ରୋଗମୂଲ,",
+      "କ୍ରମେ ସ୍ବାଦୁ ହୟ, ହରି ୨",
+      "ଦୁର୍ଦୈବ ଆମାର,    ସେ ନାମେ ଆଦର,",
+      "ନା ହଇଲ ଦୟାମୟ!",
+      "ଦଶ ଅପରାଧ,    ଆମାର ଦୁର୍ଦୈବ,",
+      "କେମନେ ହଇବେ କ୍ଷୟ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પ્રતિદિન યદિ,    આદર કરિયા,",
+      "સેનામ કીર્તન કરિ",
+      "સિતપલ યેન,    નાશિઽ રોગમૂલ,",
+      "ક્રમે સ્બાદુ હય, હરિ ૨",
+      "દુર્દૈબ આમાર,    સે નામે આદર,",
+      "ના હઇલ દયામય!",
+      "દશ અપરાધ,    આમાર દુર્દૈબ,",
+      "કેમને હઇબે ક્ષય ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "pratidina yadi,    ādara kariyā,",
+      "se-nāma kīrtana kari",
+      "sitapala yena,    nāśi’ roga-mūla,",
+      "krame sbādu haya, hari 2",
+      "durdaiba āmāra,    se nāme ādara,",
+      "nā ha·ila dayāmaya!",
+      "daśa aparādha,    āmāra durdaiba,",
+      "kemane ha·ibe kṣaya 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪ್ರತಿದಿನ ಯದಿ,    ಆದರ ಕರಿಯಾ,",
+      "ಸೆನಾಮ ಕೀರ್ತನ ಕರಿ",
+      "ಸಿತಪಲ ಯೆನ,    ನಾಶಿಽ ರೊಗಮೂಲ,",
+      "ಕ್ರಮೆ ಸ್ಬಾದು ಹಯ, ಹರಿ ೨",
+      "ದುರ್ದೈಬ ಆಮಾರ,    ಸೆ ನಾಮೆ ಆದರ,",
+      "ನಾ ಹಇಲ ದಯಾಮಯ!",
+      "ದಶ ಅಪರಾಧ,    ಆಮಾರ ದುರ್ದೈಬ,",
+      "ಕೆಮನೆ ಹಇಬೆ ಕ್ಷಯ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ప్రతిదిన యది,    ఆదర కరియా,",
+      "సెనామ కీర్తన కరి",
+      "సితపల యెన,    నాశిఽ రొగమూల,",
+      "క్రమె స్బాదు హయ, హరి 2",
+      "దుర్దైబ ఆమార,    సె నామె ఆదర,",
+      "నా హఇల దయామయ!",
+      "దశ అపరాధ,    ఆమార దుర్దైబ,",
+      "కెమనె హఇబె క్షయ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "пратидина йади,    а̄дара карийа̄,",
+      "сэ̆на̄ма кӣртана кари",
+      "ситапала йэ̆на,    на̄ш́и' ро̆гамӯла,",
+      "крамэ̆ сба̄ду хайа, хари 2",
+      "дурдаиба а̄ма̄ра,    сэ̆ на̄мэ̆ а̄дара,",
+      "на̄ хаила дайа̄майа!",
+      "даш́а апара̄дха,    а̄ма̄ра дурдаиба,",
+      "кэ̆манэ̆ хаибэ̆ кшайа 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പ്രതിദിന യദി,    ആദര കരിയാ,",
+      "സെനാമ കീർതന കരി",
+      "സിതപല യെന,    നാശിഽ രൊഗമൂല,",
+      "ക്രമെ സ്ബാദു ഹയ, ഹരി 2",
+      "ദുർദൈബ ആമാര,    സെ നാമെ ആദര,",
+      "നാ ഹഇല ദയാമയ!",
+      "ദശ അപരാധ,    ആമാര ദുർദൈബ,",
+      "കെമനെ ഹഇബെ ക്ഷയ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்ரதிதி³ன யதி³,    ஆத³ர கரியா,",
+      "ஸெநாம கீர்தன கரி",
+      "ஸிதபல யென,    நாஶி(அ) ரொக³மூல,",
+      "க்ரமெ ஸ்பா³து³ ஹய, ஹரி 2",
+      "து³ர்தை³ப³ ஆமார,    ஸெ நாமெ ஆத³ர,",
+      "நா ஹஇல த³யாமய!",
+      "த³ஶ அபராத⁴,    ஆமார து³ர்தை³ப³,",
+      "கெமனெ ஹஇபெ³ க்ஷய 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "pratidina yadi,    ādara kariyā,",
+      "se-nāma kīrtana kari",
+      "sitapala yena,    nāśi’ roga-mūla,",
+      "krame sbādu haya, hari 2",
+      "durdaiba āmāra,    se nāme ādara,",
+      "nā ha·ila dayāmaya!",
+      "daśa aparādha,    āmāra durdaiba,",
+      "kemane ha·ibe kṣaya 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "pratidina yadi,    ādara kariyā,",
+      "se-nāma kīrtana kari",
+      "sitapala yena,    nāśi’ roga-mūla,",
+      "krame sbādu haya, hari 2",
+      "durdaiba āmāra,    se nāme ādara,",
+      "nā ha·ila dayāmaya!",
+      "daśa aparādha,    āmāra durdaiba,",
+      "kemane ha·ibe kṣaya 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "anudina yena,    taba nāma gāi,",
+    "kramete kṛpāya taba",
+    "aparādha yā’be,    nāme ruci ha’be,",
+    "āsbādiba nāmāsaba 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "If I sing Your holy name every day, by Your mercy, all my offenses will gradually disappear, a taste for Your holy name will develop within me, and I will relish the nectar of that name."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "anudina",
+       "(nirantar) every day (without cessation)"
+      ],
+      [
+       "yena",
+       "as"
+      ],
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "nāma",
+       "name"
+      ],
+      [
+       "gāi",
+       "I sing"
+      ],
+      [
+       "kramete",
+       "gradually"
+      ],
+      [
+       "kṛpāya",
+       "by mercy"
+      ],
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "aparādha",
+       "offences"
+      ],
+      [
+       "yā’be",
+       "will go"
+      ],
+      [
+       "nāme",
+       "for name"
+      ],
+      [
+       "ruci",
+       "relish, taste"
+      ],
+      [
+       "ha’be",
+       "will be"
+      ],
+      [
+       "āsbādiba",
+       "I will relish"
+      ],
+      [
+       "nāmāsaba",
+       "(nāma-madhu) nectar (honey) of the name"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "अनुदिन",
+       "(nirantar) every day (without cessation)"
+      ],
+      [
+       "यॆन",
+       "as"
+      ],
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "नाम",
+       "name"
+      ],
+      [
+       "गाइ",
+       "I sing"
+      ],
+      [
+       "क्रमॆतॆ",
+       "gradually"
+      ],
+      [
+       "क्ड़्पाय",
+       "by mercy"
+      ],
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "अपराध",
+       "offences"
+      ],
+      [
+       "याऽबॆ",
+       "will go"
+      ],
+      [
+       "नामॆ",
+       "for name"
+      ],
+      [
+       "रुचि",
+       "relish, taste"
+      ],
+      [
+       "हऽबॆ",
+       "will be"
+      ],
+      [
+       "आस्बादिब",
+       "I will relish"
+      ],
+      [
+       "नामासब",
+       "(nāma-madhu) nectar (honey) of the name"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "অনুদিন",
+       "(nirantar) every day (without cessation)"
+      ],
+      [
+       "যেন",
+       "as"
+      ],
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "নাম",
+       "name"
+      ],
+      [
+       "গাই",
+       "I sing"
+      ],
+      [
+       "ক্রমেতে",
+       "gradually"
+      ],
+      [
+       "ক্ড়্পায়",
+       "by mercy"
+      ],
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "অপরাধ",
+       "offences"
+      ],
+      [
+       "যাঽবে",
+       "will go"
+      ],
+      [
+       "নামে",
+       "for name"
+      ],
+      [
+       "রুচি",
+       "relish, taste"
+      ],
+      [
+       "হঽবে",
+       "will be"
+      ],
+      [
+       "আস্বাদিব",
+       "I will relish"
+      ],
+      [
+       "নামাসব",
+       "(nāma-madhu) nectar (honey) of the name"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "અનુદિન",
+       "(nirantar) every day (without cessation)"
+      ],
+      [
+       "યેન",
+       "as"
+      ],
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "નામ",
+       "name"
+      ],
+      [
+       "ગાઇ",
+       "I sing"
+      ],
+      [
+       "ક્રમેતે",
+       "gradually"
+      ],
+      [
+       "ક્ડ઼્પાય",
+       "by mercy"
+      ],
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "અપરાધ",
+       "offences"
+      ],
+      [
+       "યાઽબે",
+       "will go"
+      ],
+      [
+       "નામે",
+       "for name"
+      ],
+      [
+       "રુચિ",
+       "relish, taste"
+      ],
+      [
+       "હઽબે",
+       "will be"
+      ],
+      [
+       "આસ્બાદિબ",
+       "I will relish"
+      ],
+      [
+       "નામાસબ",
+       "(nāma-madhu) nectar (honey) of the name"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अनुदिन यॆन,    तब नाम गाइ,",
+      "क्रमॆतॆ क्ड़्पाय तब",
+      "अपराध याऽबॆ,    नामॆ रुचि हऽबॆ,",
+      "आस्बादिब नामासब ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অনুদিন যেন,    তব নাম গাই,",
+      "ক্রমেতে ক্ড়্পায় তব",
+      "অপরাধ যাঽবে,    নামে রুচি হঽবে,",
+      "আস্বাদিব নামাসব ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅନୁଦିନ ଯେନ,    ତବ ନାମ ଗାଇ,",
+      "କ୍ରମେତେ କ୍ଡ଼୍ପାୟ ତବ",
+      "ଅପରାଧ ଯାଽବେ,    ନାମେ ରୁଚି ହଽବେ,",
+      "ଆସ୍ବାଦିବ ନାମାସବ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અનુદિન યેન,    તબ નામ ગાઇ,",
+      "ક્રમેતે ક્ડ઼્પાય તબ",
+      "અપરાધ યાઽબે,    નામે રુચિ હઽબે,",
+      "આસ્બાદિબ નામાસબ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "anudina yena,    taba nāma gāi,",
+      "kramete kṛpāya taba",
+      "aparādha yā’be,    nāme ruci ha’be,",
+      "āsbādiba nāmāsaba 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅನುದಿನ ಯೆನ,    ತಬ ನಾಮ ಗಾಇ,",
+      "ಕ್ರಮೆತೆ ಕ್‌ಡ಼್ಪಾಯ ತಬ",
+      "ಅಪರಾಧ ಯಾಽಬೆ,    ನಾಮೆ ರುಚಿ ಹಽಬೆ,",
+      "ಆಸ್ಬಾದಿಬ ನಾಮಾಸಬ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అనుదిన యెన,    తబ నామ గాఇ,",
+      "క్రమెతె క్డ్పాయ తబ",
+      "అపరాధ యాఽబె,    నామె రుచి హఽబె,",
+      "ఆస్బాదిబ నామాసబ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "анудина йэ̆на,    таба на̄ма га̄и,",
+      "крамэ̆тэ̆ кр̤па̄йа таба",
+      "апара̄дха йа̄'бэ̆,    на̄мэ̆ ручи ха'бэ̆,",
+      "а̄сба̄диба на̄ма̄саба 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അനുദിന യെന,    തബ നാമ ഗാഇ,",
+      "ക്രമെതെ ക്ഡ്പായ തബ",
+      "അപരാധ യാഽബെ,    നാമെ രുചി ഹഽബെ,",
+      "ആസ്ബാദിബ നാമാസബ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அனுதி³ன யென,    தப³ நாம கா³இ,",
+      "க்ரமெதெ க்ஃட்²பாய தப³",
+      "அபராத⁴ யா(அ)பெ³,    நாமெ ருசி ஹ(அ)பெ³,",
+      "ஆஸ்பா³தி³ப³ நாமாஸப³ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "anudina yena,    taba nāma gāi,",
+      "kramete kṛpāya taba",
+      "aparādha yā’be,    nāme ruci ha’be,",
+      "āsbādiba nāmāsaba 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "anudina yena,    taba nāma gāi,",
+      "kramete kṛpāya taba",
+      "aparādha yā’be,    nāme ruci ha’be,",
+      "āsbādiba nāmāsaba 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "স্যাৎ কৃষ্ণনাম-চরিতাদি-সিতাপ্যবিদ্যা-"
+  },
+  {
+   "language_code": "ben",
+   "text": "পিত্তোপতপ্ত-রসনস্য ন রোচিকা নু ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "কিন্ত্বাদরাদনুদিনং খলু সৈব জুষ্টা"
+  },
+  {
+   "language_code": "ben",
+   "text": "স্বাদ্বী ক্রমাদ্ভবতি তদ্‌গদমূলহন্ত্রী ॥৭॥"
+  },
+  {
+   "language_code": "ben",
+   "text": ""
+  },
+  {
+   "language_code": "ben",
+   "text": ""
+  },
+  {
+   "language_code": "ben",
+   "text": "শবার্থঃ- রসনা—জিহ্বা; সিতপল—মিছরীখণ্ড; নামাসব—নাম রূপ মধু ।"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "srrb-1",
+   "filename": "U7-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ]
+}

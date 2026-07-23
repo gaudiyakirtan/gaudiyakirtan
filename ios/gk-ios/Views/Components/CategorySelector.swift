@@ -16,7 +16,10 @@ struct CategorySelector<T: Identifiable & RawRepresentable>: View where T.RawVal
                             .padding(.vertical, 8)
                             .padding(.horizontal, 16)
                             .background(selection == category ? Color.highlight : Color.backgroundOffset)
-                            .foregroundColor(selection == category ? Color.background : Color.neutral)
+                            // Selected pill text sits on the `highlight` fill — use `onHighlight`
+                            // (near-black in Shyam, white in Gaura), not the unrelated `background`
+                            // token, per theme.md's on-accent contrast rule.
+                            .foregroundColor(selection == category ? Color("onHighlight") : Color.neutral)
                             .cornerRadius(16)
                     }
                 }

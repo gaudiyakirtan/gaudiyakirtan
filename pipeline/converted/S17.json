@@ -1,0 +1,2456 @@
+{
+ "uid": "S17",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "তুমি সর্ব্বেশ্বরেশ্বর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "tumi sarbeśbareśbara"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "tumi sarbeśbareśbara, brajendrakumāra !",
+    "tomāra icchāya biśbe sṛjana[FLAG_HYPHEN_ALPHA]saṁhāra 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O youthful son of the king of Vraja, You are the Lord of all lords. In accord with Your will, universal creation and destruction take place."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "tumi",
+       "You"
+      ],
+      [
+       "sarbeśbareśbara",
+       "all + lords + Lord"
+      ],
+      [
+       "brajendrakumāra",
+       "the king of Vraja + young boy, son, prince"
+      ],
+      [
+       "tomāra",
+       "Your"
+      ],
+      [
+       "icchāya",
+       "by will"
+      ],
+      [
+       "biśbe",
+       "in the universe"
+      ],
+      [
+       "sṛjana",
+       "creation"
+      ],
+      [
+       "saṁhāra",
+       "destruction"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "तुमि",
+       "You"
+      ],
+      [
+       "सर्बॆश्बरॆश्बर",
+       "all + lords + Lord"
+      ],
+      [
+       "ब्रजॆन्द्रकुमार",
+       "the king of Vraja + young boy, son, prince"
+      ],
+      [
+       "तॊमार",
+       "Your"
+      ],
+      [
+       "इच्छाय",
+       "by will"
+      ],
+      [
+       "बिश्बॆ",
+       "in the universe"
+      ],
+      [
+       "स्ड़्जन",
+       "creation"
+      ],
+      [
+       "संहार",
+       "destruction"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "তুমি",
+       "You"
+      ],
+      [
+       "সর্বেশ্বরেশ্বর",
+       "all + lords + Lord"
+      ],
+      [
+       "ব্রজেন্দ্রকুমার",
+       "the king of Vraja + young boy, son, prince"
+      ],
+      [
+       "তোমার",
+       "Your"
+      ],
+      [
+       "ইচ্ছায়",
+       "by will"
+      ],
+      [
+       "বিশ্বে",
+       "in the universe"
+      ],
+      [
+       "স্ড়্জন",
+       "creation"
+      ],
+      [
+       "সংহার",
+       "destruction"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "તુમિ",
+       "You"
+      ],
+      [
+       "સર્બેશ્બરેશ્બર",
+       "all + lords + Lord"
+      ],
+      [
+       "બ્રજેન્દ્રકુમાર",
+       "the king of Vraja + young boy, son, prince"
+      ],
+      [
+       "તોમાર",
+       "Your"
+      ],
+      [
+       "ઇચ્છાય",
+       "by will"
+      ],
+      [
+       "બિશ્બે",
+       "in the universe"
+      ],
+      [
+       "સ્ડ઼્જન",
+       "creation"
+      ],
+      [
+       "સંહાર",
+       "destruction"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तुमि सर्बॆश्बरॆश्बर, ब्रजॆन्द्रकुमार !",
+      "तॊमार इच्छाय बिश्बॆ स्ड़्जनसंहार १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তুমি সর্বেশ্বরেশ্বর, ব্রজেন্দ্রকুমার !",
+      "তোমার ইচ্ছায় বিশ্বে স্ড়্জনসংহার ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୁମି ସର୍ବେଶ୍ବରେଶ୍ବର, ବ୍ରଜେନ୍ଦ୍ରକୁମାର !",
+      "ତୋମାର ଇଚ୍ଛାୟ ବିଶ୍ବେ ସ୍ଡ଼୍ଜନସଂହାର ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તુમિ સર્બેશ્બરેશ્બર, બ્રજેન્દ્રકુમાર !",
+      "તોમાર ઇચ્છાય બિશ્બે સ્ડ઼્જનસંહાર ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tumi sarbeśbareśbara, brajendrakumāra !",
+      "tomāra icchāya biśbe sṛjana-saṁhāra 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತುಮಿ ಸರ್ಬೆಶ್ಬರೆಶ್ಬರ, ಬ್ರಜೆಂದ್ರಕುಮಾರ !",
+      "ತೊಮಾರ ಇಚ್ಛಾಯ ಬಿಶ್ಬೆ ಸ್‌ಡ಼್ಜನಸಂಹಾರ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తుమి సర్బెశ్బరెశ్బర, బ్రజెంద్రకుమార !",
+      "తొమార ఇచ్ఛాయ బిశ్బె స్డ్జనసంహార 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "туми сарбэ̆ш́барэ̆ш́бара, браджэ̆ндракума̄ра !",
+      "то̆ма̄ра иччха̄йа биш́бэ̆ ср̤джанасам̣ха̄ра 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തുമി സർബെശ്ബരെശ്ബര, ബ്രജെന്ദ്രകുമാര !",
+      "തൊമാര ഇച്ഛായ ബിശ്ബെ സ്ഡ്ജനസംഹാര 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "துமி ஸர்பெ³ஶ்ப³ரெஶ்ப³ர, ப்³ரஜெந்த்³ரகுமார !",
+      "தொமார இச்சா²ய பி³ஶ்பெ³ ஸ்ஃட்²ஜனஸம்ʼஹார 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tumi sarbeśbareśbara, brajendrakumāra !",
+      "tomāra icchāya biśbe sṛjana-saṁhāra 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tumi sarbeśbareśbara, brajendrakumāra !",
+      "tomāra icchāya biśbe sṛjana-saṁhāra 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "taba icchāmata brahmā karena sṛjana",
+    "taba icchāmata biṣṇu karena pālana 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "In accord with Your will, Lord Brahmā creates, and in accord with Your will, Lord Viṣṇu maintains."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "icchāmata",
+       "desire + according to, in keeping with"
+      ],
+      [
+       "brahmā",
+       "Lord Brahmā"
+      ],
+      [
+       "karena sṛjana",
+       "creates"
+      ],
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "icchāmata",
+       "desire + according to"
+      ],
+      [
+       "biṣṇu",
+       "Lord Viṣṇu"
+      ],
+      [
+       "karena pālana",
+       "maintains"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "इच्छामत",
+       "desire + according to, in keeping with"
+      ],
+      [
+       "ब्रह्मा",
+       "Lord Brahmā"
+      ],
+      [
+       "करॆन स्ड़्जन",
+       "creates"
+      ],
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "इच्छामत",
+       "desire + according to"
+      ],
+      [
+       "बिष्णु",
+       "Lord Viṣṇu"
+      ],
+      [
+       "करॆन पालन",
+       "maintains"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "ইচ্ছামত",
+       "desire + according to, in keeping with"
+      ],
+      [
+       "ব্রহ্মা",
+       "Lord Brahmā"
+      ],
+      [
+       "করেন স্ড়্জন",
+       "creates"
+      ],
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "ইচ্ছামত",
+       "desire + according to"
+      ],
+      [
+       "বিষ্ণু",
+       "Lord Viṣṇu"
+      ],
+      [
+       "করেন পালন",
+       "maintains"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "ઇચ્છામત",
+       "desire + according to, in keeping with"
+      ],
+      [
+       "બ્રહ્મા",
+       "Lord Brahmā"
+      ],
+      [
+       "કરેન સ્ડ઼્જન",
+       "creates"
+      ],
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "ઇચ્છામત",
+       "desire + according to"
+      ],
+      [
+       "બિષ્ણુ",
+       "Lord Viṣṇu"
+      ],
+      [
+       "કરેન પાલન",
+       "maintains"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तब इच्छामत ब्रह्मा करॆन स्ड़्जन",
+      "तब इच्छामत बिष्णु करॆन पालन २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তব ইচ্ছামত ব্রহ্মা করেন স্ড়্জন",
+      "তব ইচ্ছামত বিষ্ণু করেন পালন ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତବ ଇଚ୍ଛାମତ ବ୍ରହ୍ମା କରେନ ସ୍ଡ଼୍ଜନ",
+      "ତବ ଇଚ୍ଛାମତ ବିଷ୍ଣୁ କରେନ ପାଲନ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તબ ઇચ્છામત બ્રહ્મા કરેન સ્ડ઼્જન",
+      "તબ ઇચ્છામત બિષ્ણુ કરેન પાલન ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "taba icchāmata brahmā karena sṛjana",
+      "taba icchāmata biṣṇu karena pālana 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಬ ಇಚ್ಛಾಮತ ಬ್ರಹ್ಮಾ ಕರೆನ ಸ್‌ಡ಼್ಜನ",
+      "ತಬ ಇಚ್ಛಾಮತ ಬಿಷ್ಣು ಕರೆನ ಪಾಲನ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తబ ఇచ్ఛామత బ్రహ్మా కరెన స్డ్జన",
+      "తబ ఇచ్ఛామత బిష్ణు కరెన పాలన 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "таба иччха̄мата брахма̄ карэ̆на ср̤джана",
+      "таба иччха̄мата бишн̣у карэ̆на па̄лана 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തബ ഇച്ഛാമത ബ്രഹ്മാ കരെന സ്ഡ്ജന",
+      "തബ ഇച്ഛാമത ബിഷ്ണു കരെന പാലന 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தப³ இச்சா²மத ப்³ரஹ்மா கரென ஸ்ஃட்²ஜன",
+      "தப³ இச்சா²மத பி³ஷ்ணு கரென பாலன 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "taba icchāmata brahmā karena sṛjana",
+      "taba icchāmata biṣṇu karena pālana 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "taba icchāmata brahmā karena sṛjana",
+      "taba icchāmata biṣṇu karena pālana 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "taba icchāmate śiba karena saṁhāra",
+    "taba icchāmate māyā sṛje kārāgāra 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "In accord with Your will, Lord Śiva destroys, and in accord with Your will, Māyā-devī constructs the prison house of this world."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "icchāmate",
+       "desire + in accordance with"
+      ],
+      [
+       "śiba",
+       "Lord Śiva"
+      ],
+      [
+       "karena saṁhāra",
+       "destroys"
+      ],
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "icchāmate",
+       "desire + in accordance with"
+      ],
+      [
+       "māyā",
+       "Māyā-devī"
+      ],
+      [
+       "sṛje",
+       "constructs, designs"
+      ],
+      [
+       "kārāgāra",
+       "prison house"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "इच्छामतॆ",
+       "desire + in accordance with"
+      ],
+      [
+       "शिब",
+       "Lord Śiva"
+      ],
+      [
+       "करॆन संहार",
+       "destroys"
+      ],
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "इच्छामतॆ",
+       "desire + in accordance with"
+      ],
+      [
+       "माया",
+       "Māyā-devī"
+      ],
+      [
+       "स्ड़्जॆ",
+       "constructs, designs"
+      ],
+      [
+       "कारागार",
+       "prison house"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "ইচ্ছামতে",
+       "desire + in accordance with"
+      ],
+      [
+       "শিব",
+       "Lord Śiva"
+      ],
+      [
+       "করেন সংহার",
+       "destroys"
+      ],
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "ইচ্ছামতে",
+       "desire + in accordance with"
+      ],
+      [
+       "মায়া",
+       "Māyā-devī"
+      ],
+      [
+       "স্ড়্জে",
+       "constructs, designs"
+      ],
+      [
+       "কারাগার",
+       "prison house"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "ઇચ્છામતે",
+       "desire + in accordance with"
+      ],
+      [
+       "શિબ",
+       "Lord Śiva"
+      ],
+      [
+       "કરેન સંહાર",
+       "destroys"
+      ],
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "ઇચ્છામતે",
+       "desire + in accordance with"
+      ],
+      [
+       "માયા",
+       "Māyā-devī"
+      ],
+      [
+       "સ્ડ઼્જે",
+       "constructs, designs"
+      ],
+      [
+       "કારાગાર",
+       "prison house"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तब इच्छामतॆ शिब करॆन संहार",
+      "तब इच्छामतॆ माया स्ड़्जॆ कारागार ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তব ইচ্ছামতে শিব করেন সংহার",
+      "তব ইচ্ছামতে মায়া স্ড়্জে কারাগার ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତବ ଇଚ୍ଛାମତେ ଶିବ କରେନ ସଂହାର",
+      "ତବ ଇଚ୍ଛାମତେ ମାୟା ସ୍ଡ଼୍ଜେ କାରାଗାର ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તબ ઇચ્છામતે શિબ કરેન સંહાર",
+      "તબ ઇચ્છામતે માયા સ્ડ઼્જે કારાગાર ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "taba icchāmate śiba karena saṁhāra",
+      "taba icchāmate māyā sṛje kārāgāra 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಬ ಇಚ್ಛಾಮತೆ ಶಿಬ ಕರೆನ ಸಂಹಾರ",
+      "ತಬ ಇಚ್ಛಾಮತೆ ಮಾಯಾ ಸ್‌ಡ಼್ಜೆ ಕಾರಾಗಾರ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తబ ఇచ్ఛామతె శిబ కరెన సంహార",
+      "తబ ఇచ్ఛామతె మాయా స్డ్జె కారాగార 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "таба иччха̄матэ̆ ш́иба карэ̆на сам̣ха̄ра",
+      "таба иччха̄матэ̆ ма̄йа̄ ср̤джэ̆ ка̄ра̄га̄ра 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തബ ഇച്ഛാമതെ ശിബ കരെന സംഹാര",
+      "തബ ഇച്ഛാമതെ മായാ സ്ഡ്ജെ കാരാഗാര 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தப³ இச்சா²மதெ ஶிப³ கரென ஸம்ʼஹார",
+      "தப³ இச்சா²மதெ மாயா ஸ்ஃட்²ஜெ காராகா³ர 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "taba icchāmate śiba karena saṁhāra",
+      "taba icchāmate māyā sṛje kārāgāra 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "taba icchāmate śiba karena saṁhāra",
+      "taba icchāmate māyā sṛje kārāgāra 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "taba icchāmate jībera janama[FLAG_HYPHEN_ALPHA]maraṇa",
+    "samṛddhi[FLAG_HYPHEN_ALPHA]nipāta duḥkha[FLAG_HYPHEN_ALPHA]sukha[FLAG_HYPHEN_ALPHA]saṁghaṭana 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "In accord with Your will, the living beings take birth and die, and in accord with Your will, they meet with prosperity and ruin, happiness and sorrow."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "icchāmate",
+       "desire + in accordance with"
+      ],
+      [
+       "jībera",
+       "the living being’s"
+      ],
+      [
+       "janama",
+       "birth"
+      ],
+      [
+       "maraṇa",
+       "death"
+      ],
+      [
+       "samṛddhi",
+       "(unnati) prosperity (uplift, good fortune, advancement)"
+      ],
+      [
+       "nipāta",
+       "(avanati) death, ruin, destruction (downfall, depression, depravity)"
+      ],
+      [
+       "duḥkha",
+       "sorrow"
+      ],
+      [
+       "sukha",
+       "happiness"
+      ],
+      [
+       "saṁghaṭana",
+       "occurrence, happening, assemblage"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "इच्छामतॆ",
+       "desire + in accordance with"
+      ],
+      [
+       "जीबॆर",
+       "the living being’s"
+      ],
+      [
+       "जनम",
+       "birth"
+      ],
+      [
+       "मरण",
+       "death"
+      ],
+      [
+       "सम्ड़्द्धि",
+       "(unnati) prosperity (uplift, good fortune, advancement)"
+      ],
+      [
+       "निपात",
+       "(avanati) death, ruin, destruction (downfall, depression, depravity)"
+      ],
+      [
+       "दुःख",
+       "sorrow"
+      ],
+      [
+       "सुख",
+       "happiness"
+      ],
+      [
+       "संघटन",
+       "occurrence, happening, assemblage"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "ইচ্ছামতে",
+       "desire + in accordance with"
+      ],
+      [
+       "জীবের",
+       "the living being’s"
+      ],
+      [
+       "জনম",
+       "birth"
+      ],
+      [
+       "মরণ",
+       "death"
+      ],
+      [
+       "সম্ড়্দ্ধি",
+       "(unnati) prosperity (uplift, good fortune, advancement)"
+      ],
+      [
+       "নিপাত",
+       "(avanati) death, ruin, destruction (downfall, depression, depravity)"
+      ],
+      [
+       "দুঃখ",
+       "sorrow"
+      ],
+      [
+       "সুখ",
+       "happiness"
+      ],
+      [
+       "সঙ্ঘটন",
+       "occurrence, happening, assemblage"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "ઇચ્છામતે",
+       "desire + in accordance with"
+      ],
+      [
+       "જીબેર",
+       "the living being’s"
+      ],
+      [
+       "જનમ",
+       "birth"
+      ],
+      [
+       "મરણ",
+       "death"
+      ],
+      [
+       "સમ્ડ઼્દ્ધિ",
+       "(unnati) prosperity (uplift, good fortune, advancement)"
+      ],
+      [
+       "નિપાત",
+       "(avanati) death, ruin, destruction (downfall, depression, depravity)"
+      ],
+      [
+       "દુઃખ",
+       "sorrow"
+      ],
+      [
+       "સુખ",
+       "happiness"
+      ],
+      [
+       "સંઘટન",
+       "occurrence, happening, assemblage"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तब इच्छामतॆ जीबॆर जनममरण",
+      "सम्ड़्द्धिनिपात दुःखसुखसंघटन ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তব ইচ্ছামতে জীবের জনমমরণ",
+      "সম্ড়্দ্ধিনিপাত দুঃখসুখসঙ্ঘটন ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତବ ଇଚ୍ଛାମତେ ଜୀବେର ଜନମମରଣ",
+      "ସମ୍ଡ଼୍ଦ୍ଧିନିପାତ ଦୁଃଖସୁଖସଙ୍ଘଟନ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તબ ઇચ્છામતે જીબેર જનમમરણ",
+      "સમ્ડ઼્દ્ધિનિપાત દુઃખસુખસંઘટન ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "taba icchāmate jībera janama-maraṇa",
+      "samṛddhi-nipāta duḥkha-sukha-saṁghaṭana 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಬ ಇಚ್ಛಾಮತೆ ಜೀಬೆರ ಜನಮಮರಣ",
+      "ಸಂ‌ಡ಼್ದ್ಧಿನಿಪಾತ ದುಃಖಸುಖಸಂಘಟನ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తబ ఇచ్ఛామతె జీబెర జనమమరణ",
+      "సమ్డ్ద్ధినిపాత దుఃఖసుఖసంఘటన 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "таба иччха̄матэ̆ джӣбэ̆ра джанамамаран̣а",
+      "самр̤ддхинипа̄та дух̣кхасукхасам̣гхат̣ана 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തബ ഇച്ഛാമതെ ജീബെര ജനമമരണ",
+      "സമ്ഡ്ദ്ധിനിപാത ദുഃഖസുഖസംഘടന 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தப³ இச்சா²மதெ ஜீபெ³ர ஜனமமரண",
+      "ஸம்ஃட்²த்³தி⁴னிபாத து³꞉க²ஸுக²ஸங்க⁴டன 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "taba icchāmate jībera janama-maraṇa",
+      "samṛddhi-nipāta duḥkha-sukha-saṁghaṭana 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "taba icchāmate jībera janama-maraṇa",
+      "samṛddhi-nipāta duḥkha-sukha-saṁghaṭana 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "miche māyābaddha jība āśāpāśe phire’",
+    "taba icchā binā kichu karite nā pāre 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The living being, bound by illusory māyā, simply wanders hither and thither. Without Your will, he cannot accomplish anything."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "miche",
+       "in vain"
+      ],
+      [
+       "māyābaddha",
+       "illusion + bound"
+      ],
+      [
+       "jība",
+       "the living being"
+      ],
+      [
+       "āśāpāśe",
+       "(āśepāśe M) hither and thither, around"
+      ],
+      [
+       "phire’",
+       "wonders"
+      ],
+      [
+       "taba",
+       "Your"
+      ],
+      [
+       "icchā",
+       "desire"
+      ],
+      [
+       "binā",
+       "without"
+      ],
+      [
+       "kichu",
+       "anything"
+      ],
+      [
+       "karite",
+       "to do"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "pāre",
+       "he can"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "मिछॆ",
+       "in vain"
+      ],
+      [
+       "मायाबद्ध",
+       "illusion + bound"
+      ],
+      [
+       "जीब",
+       "the living being"
+      ],
+      [
+       "आशापाशॆ",
+       "(āśepāśe M) hither and thither, around"
+      ],
+      [
+       "फिरॆऽ",
+       "wonders"
+      ],
+      [
+       "तब",
+       "Your"
+      ],
+      [
+       "इच्छा",
+       "desire"
+      ],
+      [
+       "बिना",
+       "without"
+      ],
+      [
+       "किछु",
+       "anything"
+      ],
+      [
+       "करितॆ",
+       "to do"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "पारॆ",
+       "he can"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মিছে",
+       "in vain"
+      ],
+      [
+       "মায়াবদ্ধ",
+       "illusion + bound"
+      ],
+      [
+       "জীব",
+       "the living being"
+      ],
+      [
+       "আশাপাশে",
+       "(āśepāśe M) hither and thither, around"
+      ],
+      [
+       "ফিরেঽ",
+       "wonders"
+      ],
+      [
+       "তব",
+       "Your"
+      ],
+      [
+       "ইচ্ছা",
+       "desire"
+      ],
+      [
+       "বিনা",
+       "without"
+      ],
+      [
+       "কিছু",
+       "anything"
+      ],
+      [
+       "করিতে",
+       "to do"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "পারে",
+       "he can"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "મિછે",
+       "in vain"
+      ],
+      [
+       "માયાબદ્ધ",
+       "illusion + bound"
+      ],
+      [
+       "જીબ",
+       "the living being"
+      ],
+      [
+       "આશાપાશે",
+       "(āśepāśe M) hither and thither, around"
+      ],
+      [
+       "ફિરેઽ",
+       "wonders"
+      ],
+      [
+       "તબ",
+       "Your"
+      ],
+      [
+       "ઇચ્છા",
+       "desire"
+      ],
+      [
+       "બિના",
+       "without"
+      ],
+      [
+       "કિછુ",
+       "anything"
+      ],
+      [
+       "કરિતે",
+       "to do"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "પારે",
+       "he can"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मिछॆ मायाबद्ध जीब आशापाशॆ फिरॆऽ",
+      "तब इच्छा बिना किछु करितॆ ना पारॆ ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মিছে মায়াবদ্ধ জীব আশাপাশে ফিরেঽ",
+      "তব ইচ্ছা বিনা কিছু করিতে না পারে ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମିଛେ ମାୟାବଦ୍ଧ ଜୀବ ଆଶାପାଶେ ଫିରେଽ",
+      "ତବ ଇଚ୍ଛା ବିନା କିଛୁ କରିତେ ନା ପାରେ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મિછે માયાબદ્ધ જીબ આશાપાશે ફિરેઽ",
+      "તબ ઇચ્છા બિના કિછુ કરિતે ના પારે ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "miche māyābaddha jība āśāpāśe phire’",
+      "taba icchā binā kichu karite nā pāre 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಿಛೆ ಮಾಯಾಬದ್ಧ ಜೀಬ ಆಶಾಪಾಶೆ ಫಿರೆಽ",
+      "ತಬ ಇಚ್ಛಾ ಬಿನಾ ಕಿಛು ಕರಿತೆ ನಾ ಪಾರೆ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మిఛె మాయాబద్ధ జీబ ఆశాపాశె ఫిరెఽ",
+      "తబ ఇచ్ఛా బినా కిఛు కరితె నా పారె 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "мичхэ̆ ма̄йа̄баддха джӣба а̄ш́а̄па̄ш́э̆ пхирэ̆'",
+      "таба иччха̄ бина̄ кичху каритэ̆ на̄ па̄рэ̆ 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മിഛെ മായാബദ്ധ ജീബ ആശാപാശെ ഫിരെഽ",
+      "തബ ഇച്ഛാ ബിനാ കിഛു കരിതെ നാ പാരെ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மிசெ² மாயாப³த்³த⁴ ஜீப³ ஆஶாபாஶெ பி²ரெ(அ)",
+      "தப³ இச்சா² பி³னா கிசு² கரிதெ நா பாரெ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "miche māyābaddha jība āśāpāśe phire’",
+      "taba icchā binā kichu karite nā pāre 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "miche māyābaddha jība āśāpāśe phire’",
+      "taba icchā binā kichu karite nā pāre 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "tumi ta’ rakṣaka āra pālaka āmāra",
+    "tomāra caraṇa binā āśā nāhi āra 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "You are my only protector and maintainer. Except for Your lotus feet, there is no hope for me."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "tumi",
+       "You"
+      ],
+      [
+       "ta’",
+       "indeed"
+      ],
+      [
+       "rakṣaka",
+       "protector"
+      ],
+      [
+       "āra",
+       "and"
+      ],
+      [
+       "pālaka",
+       "maintainer"
+      ],
+      [
+       "āmāra",
+       "my"
+      ],
+      [
+       "tomāra",
+       "Your"
+      ],
+      [
+       "caraṇa",
+       "feet"
+      ],
+      [
+       "binā",
+       "except"
+      ],
+      [
+       "āśā",
+       "hope"
+      ],
+      [
+       "nāhi",
+       "no"
+      ],
+      [
+       "āra",
+       "other"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "तुमि",
+       "You"
+      ],
+      [
+       "तऽ",
+       "indeed"
+      ],
+      [
+       "रक्षक",
+       "protector"
+      ],
+      [
+       "आर",
+       "and"
+      ],
+      [
+       "पालक",
+       "maintainer"
+      ],
+      [
+       "आमार",
+       "my"
+      ],
+      [
+       "तॊमार",
+       "Your"
+      ],
+      [
+       "चरण",
+       "feet"
+      ],
+      [
+       "बिना",
+       "except"
+      ],
+      [
+       "आशा",
+       "hope"
+      ],
+      [
+       "नाहि",
+       "no"
+      ],
+      [
+       "आर",
+       "other"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "তুমি",
+       "You"
+      ],
+      [
+       "তঽ",
+       "indeed"
+      ],
+      [
+       "রক্ষক",
+       "protector"
+      ],
+      [
+       "আর",
+       "and"
+      ],
+      [
+       "পালক",
+       "maintainer"
+      ],
+      [
+       "আমার",
+       "my"
+      ],
+      [
+       "তোমার",
+       "Your"
+      ],
+      [
+       "চরণ",
+       "feet"
+      ],
+      [
+       "বিনা",
+       "except"
+      ],
+      [
+       "আশা",
+       "hope"
+      ],
+      [
+       "নাহি",
+       "no"
+      ],
+      [
+       "আর",
+       "other"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "તુમિ",
+       "You"
+      ],
+      [
+       "તઽ",
+       "indeed"
+      ],
+      [
+       "રક્ષક",
+       "protector"
+      ],
+      [
+       "આર",
+       "and"
+      ],
+      [
+       "પાલક",
+       "maintainer"
+      ],
+      [
+       "આમાર",
+       "my"
+      ],
+      [
+       "તોમાર",
+       "Your"
+      ],
+      [
+       "ચરણ",
+       "feet"
+      ],
+      [
+       "બિના",
+       "except"
+      ],
+      [
+       "આશા",
+       "hope"
+      ],
+      [
+       "નાહિ",
+       "no"
+      ],
+      [
+       "આર",
+       "other"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तुमि तऽ रक्षक आर पालक आमार",
+      "तॊमार चरण बिना आशा नाहि आर ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তুমি তঽ রক্ষক আর পালক আমার",
+      "তোমার চরণ বিনা আশা নাহি আর ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୁମି ତଽ ରକ୍ଷକ ଆର ପାଲକ ଆମାର",
+      "ତୋମାର ଚରଣ ବିନା ଆଶା ନାହି ଆର ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તુમિ તઽ રક્ષક આર પાલક આમાર",
+      "તોમાર ચરણ બિના આશા નાહિ આર ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tumi ta’ rakṣaka āra pālaka āmāra",
+      "tomāra caraṇa binā āśā nāhi āra 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತುಮಿ ತಽ ರಕ್ಷಕ ಆರ ಪಾಲಕ ಆಮಾರ",
+      "ತೊಮಾರ ಚರಣ ಬಿನಾ ಆಶಾ ನಾಹಿ ಆರ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తుమి తఽ రక్షక ఆర పాలక ఆమార",
+      "తొమార చరణ బినా ఆశా నాహి ఆర 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "туми та' ракшака а̄ра па̄лака а̄ма̄ра",
+      "то̆ма̄ра чаран̣а бина̄ а̄ш́а̄ на̄хи а̄ра 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തുമി തഽ രക്ഷക ആര പാലക ആമാര",
+      "തൊമാര ചരണ ബിനാ ആശാ നാഹി ആര 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "துமி த(அ) ரக்ஷக ஆர பாலக ஆமார",
+      "தொமார சரண பி³னா ஆஶா நாஹி ஆர 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tumi ta’ rakṣaka āra pālaka āmāra",
+      "tomāra caraṇa binā āśā nāhi āra 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tumi ta’ rakṣaka āra pālaka āmāra",
+      "tomāra caraṇa binā āśā nāhi āra 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "nija[FLAG_HYPHEN_ALPHA]bala[FLAG_HYPHEN_ALPHA]ceṣṭā[FLAG_HYPHEN_ALPHA]prati bharasā chāḓiyā",
+    "tomāra icchāya āchi nirbhara kariyā 7"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Having given up faith in my own strength and endeavors, I am solely dependent upon Your will."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "nija",
+       "own"
+      ],
+      [
+       "bala",
+       "strength"
+      ],
+      [
+       "ceṣṭā",
+       "endeavors"
+      ],
+      [
+       "prati",
+       "towards"
+      ],
+      [
+       "bharasā",
+       "hope"
+      ],
+      [
+       "chāḓiyā",
+       "having given up"
+      ],
+      [
+       "tomāra",
+       "Your"
+      ],
+      [
+       "icchāya",
+       "upon will"
+      ],
+      [
+       "āchi",
+       "I am"
+      ],
+      [
+       "nirbhara kariyā",
+       "having depended"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "निज",
+       "own"
+      ],
+      [
+       "बल",
+       "strength"
+      ],
+      [
+       "चॆष्टा",
+       "endeavors"
+      ],
+      [
+       "प्रति",
+       "towards"
+      ],
+      [
+       "भरसा",
+       "hope"
+      ],
+      [
+       "छाḓइया",
+       "having given up"
+      ],
+      [
+       "तॊमार",
+       "Your"
+      ],
+      [
+       "इच्छाय",
+       "upon will"
+      ],
+      [
+       "आछि",
+       "I am"
+      ],
+      [
+       "निर्भर करिया",
+       "having depended"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "নিজ",
+       "own"
+      ],
+      [
+       "বল",
+       "strength"
+      ],
+      [
+       "চেষ্টা",
+       "endeavors"
+      ],
+      [
+       "প্রতি",
+       "towards"
+      ],
+      [
+       "ভরসা",
+       "hope"
+      ],
+      [
+       "ছাḓইয়া",
+       "having given up"
+      ],
+      [
+       "তোমার",
+       "Your"
+      ],
+      [
+       "ইচ্ছায়",
+       "upon will"
+      ],
+      [
+       "আছি",
+       "I am"
+      ],
+      [
+       "নির্ভর করিয়া",
+       "having depended"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "નિજ",
+       "own"
+      ],
+      [
+       "બલ",
+       "strength"
+      ],
+      [
+       "ચેષ્ટા",
+       "endeavors"
+      ],
+      [
+       "પ્રતિ",
+       "towards"
+      ],
+      [
+       "ભરસા",
+       "hope"
+      ],
+      [
+       "છાḓઇયા",
+       "having given up"
+      ],
+      [
+       "તોમાર",
+       "Your"
+      ],
+      [
+       "ઇચ્છાય",
+       "upon will"
+      ],
+      [
+       "આછિ",
+       "I am"
+      ],
+      [
+       "નિર્ભર કરિયા",
+       "having depended"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "निजबलचॆष्टाप्रति भरसा छाḓइया",
+      "तॊमार इच्छाय आछि निर्भर करिया ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নিজবলচেষ্টাপ্রতি ভরসা ছাḓইয়া",
+      "তোমার ইচ্ছায় আছি নির্ভর করিয়া ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନିଜବଲଚେଷ୍ଟାପ୍ରତି ଭରସା ଛାḓଇୟା",
+      "ତୋମାର ଇଚ୍ଛାୟ ଆଛି ନିର୍ଭର କରିୟା ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નિજબલચેષ્ટાપ્રતિ ભરસા છાḓઇયા",
+      "તોમાર ઇચ્છાય આછિ નિર્ભર કરિયા ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nija-bala-ceṣṭā-prati bharasā chāḓiyā",
+      "tomāra icchāya āchi nirbhara kariyā 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಿಜಬಲಚೆಷ್ಟಾಪ್ರತಿ ಭರಸಾ ಛಾḓಇಯಾ",
+      "ತೊಮಾರ ಇಚ್ಛಾಯ ಆಛಿ ನಿರ್ಭರ ಕರಿಯಾ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నిజబలచెష్టాప్రతి భరసా ఛాḓఇయా",
+      "తొమార ఇచ్ఛాయ ఆఛి నిర్భర కరియా 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ниджабалачэ̆шт̣а̄прати бхараса̄ чха̄ḓийа̄",
+      "то̆ма̄ра иччха̄йа а̄чхи нирбхара карийа̄ 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നിജബലചെഷ്ടാപ്രതി ഭരസാ ഛാḓഇയാ",
+      "തൊമാര ഇച്ഛായ ആഛി നിർഭര കരിയാ 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நிஜப³லசெஷ்டாப்ரதி ப⁴ரஸா சா²ḓஇயா",
+      "தொமார இச்சா²ய ஆசி² நிர்ப⁴ர கரியா 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nija-bala-ceṣṭā-prati bharasā chāḍiyā",
+      "tomāra icchāya āchi nirbhara kariyā 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nija-bala-ceṣṭā-prati bharasā chāḓiyā",
+      "tomāra icchāya āchi nirbhara kariyā 7"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 8,
+   "source_text_master": [
+    "bhakatibinoda ati dīna akiñcana",
+    "tomāra icchāya tā’ra jībana[FLAG_HYPHEN_ALPHA]maraṇa 8"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Bhaktivinoda is very lowly and poor. According to Your will, he lives and dies."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "bhakatibinoda",
+       "Bhaktivinoda"
+      ],
+      [
+       "ati",
+       "extremely"
+      ],
+      [
+       "dīna",
+       "wretched"
+      ],
+      [
+       "akiñcana",
+       "poor"
+      ],
+      [
+       "tomāra",
+       "Your"
+      ],
+      [
+       "icchāya",
+       "according to will"
+      ],
+      [
+       "tā’ra",
+       "his"
+      ],
+      [
+       "jībana",
+       "birth"
+      ],
+      [
+       "maraṇa",
+       "death"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "भकतिबिनॊद",
+       "Bhaktivinoda"
+      ],
+      [
+       "अति",
+       "extremely"
+      ],
+      [
+       "दीन",
+       "wretched"
+      ],
+      [
+       "अकिञ्चन",
+       "poor"
+      ],
+      [
+       "तॊमार",
+       "Your"
+      ],
+      [
+       "इच्छाय",
+       "according to will"
+      ],
+      [
+       "ताऽर",
+       "his"
+      ],
+      [
+       "जीबन",
+       "birth"
+      ],
+      [
+       "मरण",
+       "death"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ভকতিবিনোদ",
+       "Bhaktivinoda"
+      ],
+      [
+       "অতি",
+       "extremely"
+      ],
+      [
+       "দীন",
+       "wretched"
+      ],
+      [
+       "অকিঞ্চন",
+       "poor"
+      ],
+      [
+       "তোমার",
+       "Your"
+      ],
+      [
+       "ইচ্ছায়",
+       "according to will"
+      ],
+      [
+       "তাঽর",
+       "his"
+      ],
+      [
+       "জীবন",
+       "birth"
+      ],
+      [
+       "মরণ",
+       "death"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ભકતિબિનોદ",
+       "Bhaktivinoda"
+      ],
+      [
+       "અતિ",
+       "extremely"
+      ],
+      [
+       "દીન",
+       "wretched"
+      ],
+      [
+       "અકિઞ્ચન",
+       "poor"
+      ],
+      [
+       "તોમાર",
+       "Your"
+      ],
+      [
+       "ઇચ્છાય",
+       "according to will"
+      ],
+      [
+       "તાઽર",
+       "his"
+      ],
+      [
+       "જીબન",
+       "birth"
+      ],
+      [
+       "મરણ",
+       "death"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भकतिबिनॊद अति दीन अकिञ्चन",
+      "तॊमार इच्छाय ताऽर जीबनमरण ८"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভকতিবিনোদ অতি দীন অকিঞ্চন",
+      "তোমার ইচ্ছায় তাঽর জীবনমরণ ৮"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭକତିବିନୋଦ ଅତି ଦୀନ ଅକିଞ୍ଚନ",
+      "ତୋମାର ଇଚ୍ଛାୟ ତାଽର ଜୀବନମରଣ ୮"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભકતિબિનોદ અતિ દીન અકિઞ્ચન",
+      "તોમાર ઇચ્છાય તાઽર જીબનમરણ ૮"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhakatibinoda ati dīna akiñcana",
+      "tomāra icchāya tā’ra jībana-maraṇa 8"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭಕತಿಬಿನೊದ ಅತಿ ದೀನ ಅಕಿಂಚನ",
+      "ತೊಮಾರ ಇಚ್ಛಾಯ ತಾಽರ ಜೀಬನಮರಣ ೮"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భకతిబినొద అతి దీన అకించన",
+      "తొమార ఇచ్ఛాయ తాఽర జీబనమరణ 8"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бхакатибино̆да ати дӣна акин̃чана",
+      "то̆ма̄ра иччха̄йа та̄'ра джӣбанамаран̣а 8"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭകതിബിനൊദ അതി ദീന അകിഞ്ചന",
+      "തൊമാര ഇച്ഛായ താഽര ജീബനമരണ 8"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப⁴கதிபி³னொத³ அதி தீ³ன அகிஞ்சன",
+      "தொமார இச்சா²ய தா(அ)ர ஜீப³னமரண 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhakatibinoda ati dīna akiñcana",
+      "tomāra icchāya tā’ra jībana-maraṇa 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhakatibinoda ati dīna akiñcana",
+      "tomāra icchāya tā’ra jībana-maraṇa 8"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "(১৪)"
+  },
+  {
+   "language_code": "ben",
+   "text": "গোপ্তৃত্বেবরণ—অবশ্য রক্ষিবে কৃষ্ণ"
+  },
+  {
+   "language_code": "ben",
+   "text": "(বাচিক)"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "krsn-1",
+   "filename": "S17-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "sggm-1",
+   "filename": "S17-sggm-1.mp3",
+   "artist": "Srila Gaura Govinda Gosvami Maharaja"
+  },
+  {
+   "uid": "srrb-1",
+   "filename": "S17-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ],
+ "tags": [
+  "Goptṛtve Varaṇa (Acceptance of the Lord as One’s Only Maintainer)"
+ ]
+}

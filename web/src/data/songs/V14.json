@@ -1,0 +1,839 @@
+{
+  "uid": "V14",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "আমার এমন ভাগ্য কত দিনে হ’বে"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "āmāra emana bhāgya kata dine ha’be"
+    },
+    {
+      "script_code": "Deva",
+      "text": "आमार एमन भाग्य कत दिने ह’बे"
+    },
+    {
+      "script_code": "Telu",
+      "text": "ఆమార ఏమన భాగ్య కత దినే హ’బే"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಆಮಾರ ಏಮನ ಭಾಗ್ಯ ಕತ ದಿನೇ ಹ’ಬೇ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஆமார ஏமன பா⁴க்³ய கத தி³னே ஹ’பே³"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ആമാര ഏമന ഭാഗ്യ കത ദിനേ ഹ’ബേ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "આમાર એમન ભાગ્ય કત દિને હ’બે"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଆମାର ଏମନ ଭାଗ୍ୟ କତ ଦିନେ ହ’ବେ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "а̄ма̄ра эмана бха̄гйа ката динэ ха’бэ"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "āmāra emana bhāgya kata dine ha’be",
+        "āmāre āpana bali’ jānibe baiṣṇabe 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "आमार ऎमन भाग्य कत दिनॆ हऽबॆ",
+            "आमारॆ आपन बलिऽ जानिबॆ बैष्णबॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "আমার এমন ভাগ্য কত দিনে হঽবে",
+            "আমারে আপন বলিঽ জানিবে বৈষ্ণবে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଆମାର ଏମନ ଭାଗ୍ୟ କତ ଦିନେ ହଽବେ",
+            "ଆମାରେ ଆପନ ବଲିଽ ଜାନିବେ ବୈଷ୍ଣବେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "આમાર એમન ભાગ્ય કત દિને હઽબે",
+            "આમારે આપન બલિઽ જાનિબે બૈષ્ણબે ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "āmāra emana bhāgya kata dine ha’be",
+            "āmāre āpana bali’ jānibe baiṣṇabe 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಆಮಾರ ಎಮನ ಭಾಗ್ಯ ಕತ ದಿನೆ ಹಽಬೆ",
+            "ಆಮಾರೆ ಆಪನ ಬಲಿಽ ಜಾನಿಬೆ ಬೈಷ್ಣಬೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఆమార ఎమన భాగ్య కత దినె హఽబె",
+            "ఆమారె ఆపన బలిఽ జానిబె బైష్ణబె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "а̄ма̄ра э̆мана бха̄гйа ката динэ̆ ха'бэ̆",
+            "а̄ма̄рэ̆ а̄пана бали' джа̄нибэ̆ баишн̣абэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ആമാര എമന ഭാഗ്യ കത ദിനെ ഹഽബെ",
+            "ആമാരെ ആപന ബലിഽ ജാനിബെ ബൈഷ്ണബെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஆமார எமன பா⁴க்³ய கத தி³னெ ஹ(அ)பெ³",
+            "ஆமாரெ ஆபன ப³லி(அ) ஜானிபெ³ பை³ஷ்ணபெ³ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "āmāra emana bhāgya kata dine ha’be",
+            "āmāre āpana bali’ jānibe baiṣṇabe 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "āmāra emana bhāgya kata dine ha’be",
+            "āmāre āpana bali’ jānibe baiṣṇabe 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "śrīgurucaraṇāmṛta[FLAG_HYPHEN_ALPHA]mādhbika[FLAG_HYPHEN_ALPHA]sebane",
+        "matta ha’ye kṛṣṇaguṇa gā’ba bṛndābane 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीगुरुचरणाम्ड़्तमाध्बिकसॆबनॆ",
+            "मत्त हऽयॆ क्ड़्ष्णगुण गाऽब ब्ड़्न्दाबनॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীগুরুচরণাম্ড়্তমাধ্বিকসেবনে",
+            "মত্ত হঽয়ে ক্ড়্ষ্ণগুণ গাঽব ব্ড়্ন্দাবনে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀଗୁରୁଚରଣାମ୍ଡ଼୍ତମାଧ୍ବିକସେବନେ",
+            "ମତ୍ତ ହଽୟେ କ୍ଡ଼୍ଷ୍ଣଗୁଣ ଗାଽବ ବ୍ଡ଼୍ନ୍ଦାବନେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીગુરુચરણામ્ડ઼્તમાધ્બિકસેબને",
+            "મત્ત હઽયે ક્ડ઼્ષ્ણગુણ ગાઽબ બ્ડ઼્ન્દાબને ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrīgurucaraṇāmṛta-mādhbika-sebane",
+            "matta ha’ye kṛṣṇaguṇa gā’ba bṛndābane 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಗುರುಚರಣಾಂ‌ಡ಼್ತಮಾಧ್ಬಿಕಸೆಬನೆ",
+            "ಮತ್ತ ಹಽಯೆ ಕ್‌ಡ಼್ಷ್ಣಗುಣ ಗಾಽಬ ಬ್‌ಡ಼್ನ್ದಾಬನೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీగురుచరణామ్డ్తమాధ్బికసెబనె",
+            "మత్త హఽయె క్డ్ష్ణగుణ గాఽబ బ్డ్న్దాబనె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣгуручаран̣а̄мр̤тама̄дхбикасэ̆банэ̆",
+            "матта ха'йэ̆ кр̤шн̣агун̣а га̄'ба бр̤нда̄банэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീഗുരുചരണാമ്ഡ്തമാധ്ബികസെബനെ",
+            "മത്ത ഹഽയെ ക്ഡ്ഷ്ണഗുണ ഗാഽബ ബ്ഡ്ന്ദാബനെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீகு³ருசரணாம்ஃட்²தமாத்⁴பி³கஸெப³னெ",
+            "மத்த ஹ(அ)யெ க்ஃட்²ஷ்ணகு³ண கா³(அ)ப³ ப்³ஃட்²ந்தா³ப³னெ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrīgurucaraṇāmṛta-mādhbika-sebane",
+            "matta ha’ye kṛṣṇaguṇa gā’ba bṛndābane 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrīgurucaraṇāmṛta-mādhbika-sebane",
+            "matta ha’ye kṛṣṇaguṇa gā’ba bṛndābane 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "karmī, jñānī, kṛṣṇadbeṣī bahirmukha[FLAG_HYPHEN_ALPHA]jana",
+        "ghṛṇā kari’ akiñcane karibe barjana 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कर्मी, ज्ञानी, क्ड़्ष्णद्बॆषी बहिर्मुखजन",
+            "घ्ड़्णा करिऽ अकिञ्चनॆ करिबॆ बर्जन ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কর্মী, জ্ঞানী, ক্ড়্ষ্ণদ্বেষী বহির্মুখজন",
+            "ঘ্ড়্ণা করিঽ অকিঞ্চনে করিবে বর্জন ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କର୍ମୀ, ଜ୍ଞାନୀ, କ୍ଡ଼୍ଷ୍ଣଦ୍ବେଷୀ ବହିର୍ମୁଖଜନ",
+            "ଘ୍ଡ଼୍ଣା କରିଽ ଅକିଞ୍ଚନେ କରିବେ ବର୍ଜନ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કર્મી, જ્ઞાની, ક્ડ઼્ષ્ણદ્બેષી બહિર્મુખજન",
+            "ઘ્ડ઼્ણા કરિઽ અકિઞ્ચને કરિબે બર્જન ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "karmī, jñānī, kṛṣṇadbeṣī bahirmukha-jana",
+            "ghṛṇā kari’ akiñcane karibe barjana 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕರ್ಮೀ, ಜ್ಞಾನೀ, ಕ್‌ಡ಼್ಷ್ಣದ್ಬೆಷೀ ಬಹಿರ್ಮುಖಜನ",
+            "ಘ್‌ಡ಼್ಣಾ ಕರಿಽ ಅಕಿಂಚನೆ ಕರಿಬೆ ಬರ್ಜನ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కర్మీ, జ్ఞానీ, క్డ్ష్ణద్బెషీ బహిర్ముఖజన",
+            "ఘ్డ్ణా కరిఽ అకించనె కరిబె బర్జన 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кармӣ, джн̃а̄нӣ, кр̤шн̣адбэ̆шӣ бахирмукхаджана",
+            "гхр̤н̣а̄ кари' акин̃чанэ̆ карибэ̆ барджана 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കർമീ, ജ്ഞാനീ, ക്ഡ്ഷ്ണദ്ബെഷീ ബഹിർമുഖജന",
+            "ഘ്ഡ്ണാ കരിഽ അകിഞ്ചനെ കരിബെ ബർജന 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கர்மீ, ஜ்ஞானீ, க்ஃட்²ஷ்ணத்³பெ³ஷீ ப³ஹிர்முக²ஜன",
+            "க்⁴ஃட்²ணா கரி(அ) அகிஞ்சனெ கரிபெ³ ப³ர்ஜன 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "karmī, jñānī, kṛṣṇadbeṣī bahirmukha-jana",
+            "ghṛṇā kari’ akiñcane karibe barjana 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "karmī, jñānī, kṛṣṇadbeṣī bahirmukha-jana",
+            "ghṛṇā kari’ akiñcane karibe barjana 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "karmajaḓa[FLAG_HYPHEN_ALPHA]smārtagaṇa karibe siddhānta",
+        "ācāra[FLAG_HYPHEN_ALPHA]rahita ei nitānta aśānta 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कर्मजḓअस्मार्तगण करिबॆ सिद्धान्त",
+            "आचाररहित ऎइ नितान्त अशान्त ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কর্মজḓঅস্মার্তগণ করিবে সিদ্ধান্ত",
+            "আচাররহিত এই নিতান্ত অশান্ত ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କର୍ମଜḓଅସ୍ମାର୍ତଗଣ କରିବେ ସିଦ୍ଧାନ୍ତ",
+            "ଆଚାରରହିତ ଏଇ ନିତାନ୍ତ ଅଶାନ୍ତ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કર્મજḓઅસ્માર્તગણ કરિબે સિદ્ધાન્ત",
+            "આચારરહિત એઇ નિતાન્ત અશાન્ત ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "karmajaḓa-smārtagaṇa karibe siddhānta",
+            "ācāra-rahita ei nitānta aśānta 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕರ್ಮಜḓಅಸ್ಮಾರ್ತಗಣ ಕರಿಬೆ ಸಿದ್ಧಾಂತ",
+            "ಆಚಾರರಹಿತ ಎಇ ನಿತಾಂತ ಅಶಾಂತ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కర్మజḓఅస్మార్తగణ కరిబె సిద్ధాంత",
+            "ఆచారరహిత ఎఇ నితాంత అశాంత 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кармаджаḓасма̄ртаган̣а карибэ̆ сиддха̄нта",
+            "а̄ча̄рарахита э̆и нита̄нта аш́а̄нта 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കർമജḓഅസ്മാർതഗണ കരിബെ സിദ്ധാന്ത",
+            "ആചാരരഹിത എഇ നിതാന്ത അശാന്ത 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கர்மஜḓஅஸ்மார்தக³ண கரிபெ³ ஸித்³தா⁴ந்த",
+            "ஆசாரரஹித எஇ நிதாந்த அஶாந்த 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "karmajaḍa-smārtagaṇa karibe siddhānta",
+            "ācāra-rahita ei nitānta aśānta 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "karmajaḓa-smārtagaṇa karibe siddhānta",
+            "ācāra-rahita ei nitānta aśānta 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "bātula baliyā more paṇḍitābhimānī",
+        "tyajibe āmāra saṅga māyābādī jñānī 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "बातुल बलिया मॊरॆ पण्डिताभिमानी",
+            "त्यजिबॆ आमार सङ्ग मायाबादी ज्ञानी ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বাতুল বলিয়া মোরে পণ্ডিতাভিমানী",
+            "ত্যজিবে আমার সঙ্গ মায়াবাদী জ্ঞানী ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବାତୁଲ ବଲିୟା ମୋରେ ପଣ୍ଡିତାଭିମାନୀ",
+            "ତ୍ୟଜିବେ ଆମାର ସଙ୍ଗ ମାୟାବାଦୀ ଜ୍ଞାନୀ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "બાતુલ બલિયા મોરે પણ્ડિતાભિમાની",
+            "ત્યજિબે આમાર સઙ્ગ માયાબાદી જ્ઞાની ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bātula baliyā more paṇḍitābhimānī",
+            "tyajibe āmāra saṅga māyābādī jñānī 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಬಾತುಲ ಬಲಿಯಾ ಮೊರೆ ಪಂಡಿತಾಭಿಮಾನೀ",
+            "ತ್ಯಜಿಬೆ ಆಮಾರ ಸಂಗ ಮಾಯಾಬಾದೀ ಜ್ಞಾನೀ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "బాతుల బలియా మొరె పండితాభిమానీ",
+            "త్యజిబె ఆమార సంగ మాయాబాదీ జ్ఞానీ 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ба̄тула балийа̄ мо̆рэ̆ пан̣д̣ита̄бхима̄нӣ",
+            "тйаджибэ̆ а̄ма̄ра сан̇га ма̄йа̄ба̄дӣ джн̃а̄нӣ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ബാതുല ബലിയാ മൊരെ പണ്ഡിതാഭിമാനീ",
+            "ത്യജിബെ ആമാര സംഗ മായാബാദീ ജ്ഞാനീ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "பா³துல ப³லியா மொரெ பண்டி³தாபி⁴மானீ",
+            "த்யஜிபெ³ ஆமார ஸங்க³ மாயாபா³தீ³ ஜ்ஞானீ 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bātula baliyā more paṇḍitābhimānī",
+            "tyajibe āmāra saṅga māyābādī jñānī 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bātula baliyā more paṇḍitābhimānī",
+            "tyajibe āmāra saṅga māyābādī jñānī 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "kusaṅga[FLAG_HYPHEN_ALPHA]rahita dekhi’ baiṣṇaba[FLAG_HYPHEN_ALPHA]sujana",
+        "kṛpā kari’ āmāre dibena āliṅgana 6"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कुसङ्गरहित दॆखिऽ बैष्णबसुजन",
+            "क्ड़्पा करिऽ आमारॆ दिबॆन आलिङ्गन ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কুসঙ্গরহিত দেখিঽ বৈষ্ণবসুজন",
+            "ক্ড়্পা করিঽ আমারে দিবেন আলিঙ্গন ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କୁସଙ୍ଗରହିତ ଦେଖିଽ ବୈଷ୍ଣବସୁଜନ",
+            "କ୍ଡ଼୍ପା କରିଽ ଆମାରେ ଦିବେନ ଆଲିଙ୍ଗନ ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કુસઙ્ગરહિત દેખિઽ બૈષ્ણબસુજન",
+            "ક્ડ઼્પા કરિઽ આમારે દિબેન આલિઙ્ગન ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kusaṅga-rahita dekhi’ baiṣṇaba-sujana",
+            "kṛpā kari’ āmāre dibena āliṅgana 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕುಸಂಗರಹಿತ ದೆಖಿಽ ಬೈಷ್ಣಬಸುಜನ",
+            "ಕ್‌ಡ಼್ಪಾ ಕರಿಽ ಆಮಾರೆ ದಿಬೆನ ಆಲಿಂಗನ ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కుసంగరహిత దెఖిఽ బైష్ణబసుజన",
+            "క్డ్పా కరిఽ ఆమారె దిబెన ఆలింగన 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кусан̇гарахита дэ̆кхи' баишн̣абасуджана",
+            "кр̤па̄ кари' а̄ма̄рэ̆ дибэ̆на а̄лин̇гана 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കുസംഗരഹിത ദെഖിഽ ബൈഷ്ണബസുജന",
+            "ക്ഡ്പാ കരിഽ ആമാരെ ദിബെന ആലിംഗന 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "குஸங்க³ரஹித தெ³கி²(அ) பை³ஷ்ணப³ஸுஜன",
+            "க்ஃட்²பா கரி(அ) ஆமாரெ தி³பெ³ன ஆலிங்க³ன 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kusaṅga-rahita dekhi’ baiṣṇaba-sujana",
+            "kṛpā kari’ āmāre dibena āliṅgana 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kusaṅga-rahita dekhi’ baiṣṇaba-sujana",
+            "kṛpā kari’ āmāre dibena āliṅgana 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "sparśiyā baiṣṇaba[FLAG_HYPHEN_ALPHA]deha e durjana chāra",
+        "ānande labhibe kabe sāttbika bikāra 7"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "स्पर्शिया बैष्णबदॆह ऎ दुर्जन छार",
+            "आनन्दॆ लभिबॆ कबॆ सात्त्बिक बिकार ७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "স্পর্শিয়া বৈষ্ণবদেহ এ দুর্জন ছার",
+            "আনন্দে লভিবে কবে সাত্ত্বিক বিকার ৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସ୍ପର୍ଶିୟା ବୈଷ୍ଣବଦେହ ଏ ଦୁର୍ଜନ ଛାର",
+            "ଆନନ୍ଦେ ଲଭିବେ କବେ ସାତ୍ତ୍ବିକ ବିକାର ୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સ્પર્શિયા બૈષ્ણબદેહ એ દુર્જન છાર",
+            "આનન્દે લભિબે કબે સાત્ત્બિક બિકાર ૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sparśiyā baiṣṇaba-deha e durjana chāra",
+            "ānande labhibe kabe sāttbika bikāra 7"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸ್ಪರ್ಶಿಯಾ ಬೈಷ್ಣಬದೆಹ ಎ ದುರ್ಜನ ಛಾರ",
+            "ಆನಂದೆ ಲಭಿಬೆ ಕಬೆ ಸಾತ್ತ್ಬಿಕ ಬಿಕಾರ ೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "స్పర్శియా బైష్ణబదెహ ఎ దుర్జన ఛార",
+            "ఆనందె లభిబె కబె సాత్త్బిక బికార 7"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "спарш́ийа̄ баишн̣абадэ̆ха э̆ дурджана чха̄ра",
+            "а̄нандэ̆ лабхибэ̆ кабэ̆ са̄ттбика бика̄ра 7"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സ്പർശിയാ ബൈഷ്ണബദെഹ എ ദുർജന ഛാര",
+            "ആനന്ദെ ലഭിബെ കബെ സാത്ത്ബിക ബികാര 7"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸ்பர்ஶியா பை³ஷ்ணப³தெ³ஹ எ து³ர்ஜன சா²ர",
+            "ஆனந்தெ³ லபி⁴பெ³ கபெ³ ஸாத்த்பி³க பி³கார 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sparśiyā baiṣṇaba-deha e durjana chāra",
+            "ānande labhibe kabe sāttbika bikāra 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sparśiyā baiṣṇaba-deha e durjana chāra",
+            "ānande labhibe kabe sāttbika bikāra 7"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [
+    {
+      "language_code": "ben",
+      "text": "শব্দার্থঃ- মাধ্বিক—মধু হইতে উৎপন্ন মদ; বাতুল—বায়ুরোগগ্রস্ত অর্থাৎ কৃষ্ণপ্রেমে মত্ততা ।"
+    }
+  ],
+  "audio_available": false,
+  "audio_files": [],
+  "tags": [
+    "Prayers Full Of Longing to Śrī Guru and the Vaiṣṇavas"
+  ]
+}

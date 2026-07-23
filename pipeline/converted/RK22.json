@@ -1,0 +1,431 @@
+{
+ "uid": "RK22",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "বৃন্দাবন রম্য-স্থান, দিব্য-চিন্তামণি-ধাম"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "bṛndābana ramya-sthāna, dibya-cintāmaṇi-dhāma"
+  }
+ ],
+ "author_uid": "ndt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Narottama dāsa Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "bṛndābana ramya[FLAG_HYPHEN_ALPHA]sthāna, dibya[FLAG_HYPHEN_ALPHA]cintāmaṇi[FLAG_HYPHEN_ALPHA]dhāma",
+    "ratana[FLAG_HYPHEN_ALPHA]mandira manohara",
+    "ābṛta kālindī[FLAG_HYPHEN_ALPHA]nīre, rāja[FLAG_HYPHEN_ALPHA]haṁsa keli kare",
+    "tahe śobhe kanaka[FLAG_HYPHEN_ALPHA]kamala 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ब्ड़्न्दाबन रम्यस्थान, दिब्यचिन्तामणिधाम",
+      "रतनमन्दिर मनॊहर",
+      "आब्ड़्त कालिन्दीनीरॆ, राजहंस कॆलि करॆ",
+      "तहॆ शॊभॆ कनककमल १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ব্ড়্ন্দাবন রম্যস্থান, দিব্যচিন্তামণিধাম",
+      "রতনমন্দির মনোহর",
+      "আব্ড়্ত কালিন্দীনীরে, রাজহংস কেলি করে",
+      "তহে শোভে কনককমল ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବ୍ଡ଼୍ନ୍ଦାବନ ରମ୍ୟସ୍ଥାନ, ଦିବ୍ୟଚିନ୍ତାମଣିଧାମ",
+      "ରତନମନ୍ଦିର ମନୋହର",
+      "ଆବ୍ଡ଼୍ତ କାଲିନ୍ଦୀନୀରେ, ରାଜହଂସ କେଲି କରେ",
+      "ତହେ ଶୋଭେ କନକକମଲ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બ્ડ઼્ન્દાબન રમ્યસ્થાન, દિબ્યચિન્તામણિધામ",
+      "રતનમન્દિર મનોહર",
+      "આબ્ડ઼્ત કાલિન્દીનીરે, રાજહંસ કેલિ કરે",
+      "તહે શોભે કનકકમલ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bṛndābana ramya-sthāna, dibya-cintāmaṇi-dhāma",
+      "ratana-mandira manohara",
+      "ābṛta kālindī-nīre, rāja-haṁsa keli kare",
+      "tahe śobhe kanaka-kamala 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬ್‌ಡ಼್ನ್ದಾಬನ ರಮ್ಯಸ್ಥಾನ, ದಿಬ್ಯಚಿಂತಾಮಣಿಧಾಮ",
+      "ರತನಮಂದಿರ ಮನೊಹರ",
+      "ಆಬ್‌ಡ಼್ತ ಕಾಲಿಂದೀನೀರೆ, ರಾಜಹಂಸ ಕೆಲಿ ಕರೆ",
+      "ತಹೆ ಶೊಭೆ ಕನಕಕಮಲ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బ్డ్న్దాబన రమ్యస్థాన, దిబ్యచింతామణిధామ",
+      "రతనమందిర మనొహర",
+      "ఆబ్డ్త కాలిందీనీరె, రాజహంస కెలి కరె",
+      "తహె శొభె కనకకమల 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бр̤нда̄бана рамйастха̄на, дибйачинта̄ман̣идха̄ма",
+      "ратанамандира мано̆хара",
+      "а̄бр̤та ка̄линдӣнӣрэ̆, ра̄джахам̣са кэ̆ли карэ̆",
+      "тахэ̆ ш́о̆бхэ̆ канакакамала 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബ്ഡ്ന്ദാബന രമ്യസ്ഥാന, ദിബ്യചിന്താമണിധാമ",
+      "രതനമന്ദിര മനൊഹര",
+      "ആബ്ഡ്ത കാലിന്ദീനീരെ, രാജഹംസ കെലി കരെ",
+      "തഹെ ശൊഭെ കനകകമല 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்³ஃட்²ந்தா³ப³ன ரம்யஸ்தா²ன, தி³ப்³யசிந்தாமணிதா⁴ம",
+      "ரதனமந்தி³ர மனொஹர",
+      "ஆப்³ஃட்²த காலிந்தீ³நீரெ, ராஜஹம்ʼஸ கெலி கரெ",
+      "தஹெ ஶொபெ⁴ கனககமல 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bṛndābana ramya-sthāna, dibya-cintāmaṇi-dhāma",
+      "ratana-mandira manohara",
+      "ābṛta kālindī-nīre, rāja-haṁsa keli kare",
+      "tahe śobhe kanaka-kamala 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bṛndābana ramya-sthāna, dibya-cintāmaṇi-dhāma",
+      "ratana-mandira manohara",
+      "ābṛta kālindī-nīre, rāja-haṁsa keli kare",
+      "tahe śobhe kanaka-kamala 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "tāra madhye hema[FLAG_HYPHEN_ALPHA]pīṭha, aṣṭa[FLAG_HYPHEN_ALPHA]dale subeṣṭita",
+    "aṣṭa[FLAG_HYPHEN_ALPHA]dale prādhāna nāyikā",
+    "tāra madhye ratnāsane, basi’ āchena dui[FLAG_HYPHEN_ALPHA]jane",
+    "śyāma[FLAG_HYPHEN_ALPHA]saṅge sundarī rādhikā 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तार मध्यॆ हॆमपीठ, अष्टदलॆ सुबॆष्टित",
+      "अष्टदलॆ प्राधान नायिका",
+      "तार मध्यॆ रत्नासनॆ, बसिऽ आछॆन दुइजनॆ",
+      "श्यामसङ्गॆ सुन्दरी राधिका २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তার মধ্যে হেমপীঠ, অষ্টদলে সুবেষ্টিত",
+      "অষ্টদলে প্রাধান নায়িকা",
+      "তার মধ্যে রত্নাসনে, বসিঽ আছেন দুইজনে",
+      "শ্যামসঙ্গে সুন্দরী রাধিকা ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତାର ମଧ୍ୟେ ହେମପୀଠ, ଅଷ୍ଟଦଲେ ସୁବେଷ୍ଟିତ",
+      "ଅଷ୍ଟଦଲେ ପ୍ରାଧାନ ନାୟିକା",
+      "ତାର ମଧ୍ୟେ ରତ୍ନାସନେ, ବସିଽ ଆଛେନ ଦୁଇଜନେ",
+      "ଶ୍ୟାମସଙ୍ଗେ ସୁନ୍ଦରୀ ରାଧିକା ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તાર મધ્યે હેમપીઠ, અષ્ટદલે સુબેષ્ટિત",
+      "અષ્ટદલે પ્રાધાન નાયિકા",
+      "તાર મધ્યે રત્નાસને, બસિઽ આછેન દુઇજને",
+      "શ્યામસઙ્ગે સુન્દરી રાધિકા ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tāra madhye hema-pīṭha, aṣṭa-dale subeṣṭita",
+      "aṣṭa-dale prādhāna nāyikā",
+      "tāra madhye ratnāsane, basi’ āchena dui-jane",
+      "śyāma-saṅge sundarī rādhikā 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಾರ ಮಧ್ಯೆ ಹೆಮಪೀಠ, ಅಷ್ಟದಲೆ ಸುಬೆಷ್ಟಿತ",
+      "ಅಷ್ಟದಲೆ ಪ್ರಾಧಾನ ನಾಯಿಕಾ",
+      "ತಾರ ಮಧ್ಯೆ ರತ್ನಾಸನೆ, ಬಸಿಽ ಆಛೆನ ದುಇಜನೆ",
+      "ಶ್ಯಾಮಸಂಗೆ ಸುಂದರೀ ರಾಧಿಕಾ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తార మధ్యె హెమపీఠ, అష్టదలె సుబెష్టిత",
+      "అష్టదలె ప్రాధాన నాయికా",
+      "తార మధ్యె రత్నాసనె, బసిఽ ఆఛెన దుఇజనె",
+      "శ్యామసంగె సుందరీ రాధికా 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "та̄ра мадхйэ̆ хэ̆мапӣт̣ха, ашт̣адалэ̆ субэ̆шт̣ита",
+      "ашт̣адалэ̆ пра̄дха̄на на̄йика̄",
+      "та̄ра мадхйэ̆ ратна̄санэ̆, баси' а̄чхэ̆на дуиджанэ̆",
+      "ш́йа̄масан̇гэ̆ сундарӣ ра̄дхика̄ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "താര മധ്യെ ഹെമപീഠ, അഷ്ടദലെ സുബെഷ്ടിത",
+      "അഷ്ടദലെ പ്രാധാന നായികാ",
+      "താര മധ്യെ രത്നാസനെ, ബസിഽ ആഛെന ദുഇജനെ",
+      "ശ്യാമസംഗെ സുന്ദരീ രാധികാ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தார மத்⁴யெ ஹெமபீட², அஷ்டத³லெ ஸுபெ³ஷ்டித",
+      "அஷ்டத³லெ ப்ராதா⁴ன நாயிகா",
+      "தார மத்⁴யெ ரத்னாஸனெ, ப³ஸி(அ) ஆசெ²ன து³இஜனெ",
+      "ஶ்யாமஸங்கெ³ ஸுந்த³ரீ ராதி⁴கா 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tāra madhye hema-pīṭha, aṣṭa-dale subeṣṭita",
+      "aṣṭa-dale prādhāna nāyikā",
+      "tāra madhye ratnāsane, basi’ āchena dui-jane",
+      "śyāma-saṅge sundarī rādhikā 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tāra madhye hema-pīṭha, aṣṭa-dale subeṣṭita",
+      "aṣṭa-dale prādhāna nāyikā",
+      "tāra madhye ratnāsane, basi’ āchena dui-jane",
+      "śyāma-saṅge sundarī rādhikā 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "o’ rūpa lābaṇya[FLAG_HYPHEN_ALPHA]rāśi, amiyā paḓiche khasi,",
+    "hāsya parihāsa sambhāṣaṇe",
+    "narottama[FLAG_HYPHEN_ALPHA]dāsa kaya, nitya[FLAG_HYPHEN_ALPHA]līlā sukhamaya",
+    "sadāi sphuruka mora mane 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऒऽ रूप लाबण्यराशि, अमिया पḓइछॆ खसि,",
+      "हास्य परिहास सम्भाषणॆ",
+      "नरॊत्तमदास कय, नित्यलीला सुखमय",
+      "सदाइ स्फुरुक मॊर मनॆ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ওঽ রূপ লাবণ্যরাশি, অমিয়া পḓইছে খসি,",
+      "হাস্য পরিহাস সম্ভাষণে",
+      "নরোত্তমদাস কয়, নিত্যলীলা সুখময়",
+      "সদাই স্ফুরুক মোর মনে ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଓଽ ରୂପ ଲାବଣ୍ୟରାଶି, ଅମିୟା ପḓଇଛେ ଖସି,",
+      "ହାସ୍ୟ ପରିହାସ ସମ୍ଭାଷଣେ",
+      "ନରୋତ୍ତମଦାସ କୟ, ନିତ୍ୟଲୀଲା ସୁଖମୟ",
+      "ସଦାଇ ସ୍ଫୁରୁକ ମୋର ମନେ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ઓઽ રૂપ લાબણ્યરાશિ, અમિયા પḓઇછે ખસિ,",
+      "હાસ્ય પરિહાસ સમ્ભાષણે",
+      "નરોત્તમદાસ કય, નિત્યલીલા સુખમય",
+      "સદાઇ સ્ફુરુક મોર મને ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "o’ rūpa lābaṇya-rāśi, amiyā paḓiche khasi,",
+      "hāsya parihāsa sambhāṣaṇe",
+      "narottama-dāsa kaya, nitya-līlā sukhamaya",
+      "sadāi sphuruka mora mane 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಒಽ ರೂಪ ಲಾಬಣ್ಯರಾಶಿ, ಅಮಿಯಾ ಪḓಇಛೆ ಖಸಿ,",
+      "ಹಾಸ್ಯ ಪರಿಹಾಸ ಸಂಭಾಷಣೆ",
+      "ನರೊತ್ತಮದಾಸ ಕಯ, ನಿತ್ಯಲೀಲಾ ಸುಖಮಯ",
+      "ಸದಾಇ ಸ್ಫುರುಕ ಮೊರ ಮನೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఒఽ రూప లాబణ్యరాశి, అమియా పḓఇఛె ఖసి,",
+      "హాస్య పరిహాస సంభాషణె",
+      "నరొత్తమదాస కయ, నిత్యలీలా సుఖమయ",
+      "సదాఇ స్ఫురుక మొర మనె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "о̆' рӯпа ла̄бан̣йара̄ш́и, амийа̄ паḓичхэ̆ кхаси,",
+      "ха̄сйа париха̄са самбха̄шан̣э̆",
+      "наро̆ттамада̄са кайа, нитйалӣла̄ сукхамайа",
+      "сада̄и спхурука мо̆ра манэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഒഽ രൂപ ലാബണ്യരാശി, അമിയാ പḓഇഛെ ഖസി,",
+      "ഹാസ്യ പരിഹാസ സംഭാഷണെ",
+      "നരൊത്തമദാസ കയ, നിത്യലീലാ സുഖമയ",
+      "സദാഇ സ്ഫുരുക മൊര മനെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஒ(அ) ரூப லாப³ண்யராஶி, அமியா பḓஇசெ² க²ஸி,",
+      "ஹாஸ்ய பரிஹாஸ ஸம்பா⁴ஷணெ",
+      "நரொத்தமதா³ஸ கய, நித்யலீலா ஸுக²மய",
+      "ஸதா³இ ஸ்பு²ருக மொர மனெ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "o’ rūpa lābaṇya-rāśi, amiyā paḍiche khasi,",
+      "hāsya parihāsa sambhāṣaṇe",
+      "narottama-dāsa kaya, nitya-līlā sukhamaya",
+      "sadāi sphuruka mora mane 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "o’ rūpa lābaṇya-rāśi, amiyā paḓiche khasi,",
+      "hāsya parihāsa sambhāṣaṇe",
+      "narottama-dāsa kaya, nitya-līlā sukhamaya",
+      "sadāi sphuruka mora mane 3"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "mith-1",
+   "filename": "RK22-mith-1.mp3",
+   "artist": "Mithu dasi"
+  }
+ ]
+}

@@ -1,0 +1,664 @@
+{
+ "uid": "UP10",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "শরীরের সুখে, মন, দেহ জলাঞ্জলি"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "śarīrera sukhe, mana, deha jalāñjali"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "śarīrera sukhe, mana, deha jalāñjali",
+    "e deha tomāra naya,    barañca e śatru haya,",
+    "siddha[FLAG_HYPHEN_ALPHA]deha[FLAG_HYPHEN_ALPHA]sādhana[FLAG_HYPHEN_ALPHA]samaye",
+    "sarbadā ihāra bale rahiyācha balī",
+    "kintu nāhi jāna mana,    e śarīra acetana,",
+    "paḓe raya jībana[FLAG_HYPHEN_ALPHA]bilaye 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शरीरॆर सुखॆ, मन, दॆह जलाञ्जलि",
+      "ऎ दॆह तॊमार नय,    बरञ्च ऎ शत्रु हय,",
+      "सिद्धदॆहसाधनसमयॆ",
+      "सर्बदा इहार बलॆ रहियाछ बली",
+      "किन्तु नाहि जान मन,    ऎ शरीर अचॆतन,",
+      "पḓऎ रय जीबनबिलयॆ १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শরীরের সুখে, মন, দেহ জলাঞ্জলি",
+      "এ দেহ তোমার নয়,    বরঞ্চ এ শত্রু হয়,",
+      "সিদ্ধদেহসাধনসময়ে",
+      "সর্বদা ইহার বলে রহিয়াছ বলী",
+      "কিন্তু নাহি জান মন,    এ শরীর অচেতন,",
+      "পḓএ রয় জীবনবিলয়ে ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶରୀରେର ସୁଖେ, ମନ, ଦେହ ଜଲାଞ୍ଜଲି",
+      "ଏ ଦେହ ତୋମାର ନୟ,    ବରଞ୍ଚ ଏ ଶତ୍ରୁ ହୟ,",
+      "ସିଦ୍ଧଦେହସାଧନସମୟେ",
+      "ସର୍ବଦା ଇହାର ବଲେ ରହିୟାଛ ବଲୀ",
+      "କିନ୍ତୁ ନାହି ଜାନ ମନ,    ଏ ଶରୀର ଅଚେତନ,",
+      "ପḓଏ ରୟ ଜୀବନବିଲୟେ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શરીરેર સુખે, મન, દેહ જલાઞ્જલિ",
+      "એ દેહ તોમાર નય,    બરઞ્ચ એ શત્રુ હય,",
+      "સિદ્ધદેહસાધનસમયે",
+      "સર્બદા ઇહાર બલે રહિયાછ બલી",
+      "કિન્તુ નાહિ જાન મન,    એ શરીર અચેતન,",
+      "પḓએ રય જીબનબિલયે ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śarīrera sukhe, mana, deha jalāñjali",
+      "e deha tomāra naya,    barañca e śatru haya,",
+      "siddha-deha-sādhana-samaye",
+      "sarbadā ihāra bale rahiyācha balī",
+      "kintu nāhi jāna mana,    e śarīra acetana,",
+      "paḓe raya jībana-bilaye 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶರೀರೆರ ಸುಖೆ, ಮನ, ದೆಹ ಜಲಾಂಜಲಿ",
+      "ಎ ದೆಹ ತೊಮಾರ ನಯ,    ಬರಂಚ ಎ ಶತ್ರು ಹಯ,",
+      "ಸಿದ್ಧದೆಹಸಾಧನಸಮಯೆ",
+      "ಸರ್ಬದಾ ಇಹಾರ ಬಲೆ ರಹಿಯಾಛ ಬಲೀ",
+      "ಕಿಂತು ನಾಹಿ ಜಾನ ಮನ,    ಎ ಶರೀರ ಅಚೆತನ,",
+      "ಪḓಎ ರಯ ಜೀಬನಬಿಲಯೆ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శరీరెర సుఖె, మన, దెహ జలాంజలి",
+      "ఎ దెహ తొమార నయ,    బరంచ ఎ శత్రు హయ,",
+      "సిద్ధదెహసాధనసమయె",
+      "సర్బదా ఇహార బలె రహియాఛ బలీ",
+      "కింతు నాహి జాన మన,    ఎ శరీర అచెతన,",
+      "పḓఎ రయ జీబనబిలయె 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́арӣрэ̆ра сукхэ̆, мана, дэ̆ха джала̄н̃джали",
+      "э̆ дэ̆ха то̆ма̄ра найа,    баран̃ча э̆ ш́атру хайа,",
+      "сиддхадэ̆хаса̄дханасамайэ̆",
+      "сарбада̄ иха̄ра балэ̆ рахийа̄чха балӣ",
+      "кинту на̄хи джа̄на мана,    э̆ ш́арӣра ачэ̆тана,",
+      "паḓэ̆ райа джӣбанабилайэ̆ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശരീരെര സുഖെ, മന, ദെഹ ജലാഞ്ജലി",
+      "എ ദെഹ തൊമാര നയ,    ബരഞ്ച എ ശത്രു ഹയ,",
+      "സിദ്ധദെഹസാധനസമയെ",
+      "സർബദാ ഇഹാര ബലെ രഹിയാഛ ബലീ",
+      "കിന്തു നാഹി ജാന മന,    എ ശരീര അചെതന,",
+      "പḓഎ രയ ജീബനബിലയെ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶரீரெர ஸுகெ², மன, தெ³ஹ ஜலாஞ்ஜலி",
+      "எ தெ³ஹ தொமார நய,    ப³ரஞ்ச எ ஶத்ரு ஹய,",
+      "ஸித்³த⁴தெ³ஹஸாத⁴னஸமயெ",
+      "ஸர்ப³தா³ இஹார ப³லெ ரஹியாச² ப³லீ",
+      "கிந்து நாஹி ஜான மன,    எ ஶரீர அசெதன,",
+      "பḓஎ ரய ஜீப³னபி³லயெ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śarīrera sukhe, mana, deha jalāñjali",
+      "e deha tomāra naya,    barañca e śatru haya,",
+      "siddha-deha-sādhana-samaye",
+      "sarbadā ihāra bale rahiyācha balī",
+      "kintu nāhi jāna mana,    e śarīra acetana,",
+      "paḍe raya jībana-bilaye 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śarīrera sukhe, mana, deha jalāñjali",
+      "e deha tomāra naya,    barañca e śatru haya,",
+      "siddha-deha-sādhana-samaye",
+      "sarbadā ihāra bale rahiyācha balī",
+      "kintu nāhi jāna mana,    e śarīra acetana,",
+      "paḓe raya jībana-bilaye 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "dehera saundarya[FLAG_HYPHEN_ALPHA]bala—nahe ciradina",
+    "ataeba tāhā la’ye,    nā thāka garbita ha’ye,",
+    "tomā’ prati ei anunaya",
+    "śuddhajība siddhadehe sadāi nabīna",
+    "jaḓībhūta deha[FLAG_HYPHEN_ALPHA]yoga,    jībanera karmabhoga,",
+    "jībera patana yadāśraya 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "दॆहॆर सौन्दर्यबल—नहॆ चिरदिन",
+      "अतऎब ताहा लऽयॆ,    ना थाक गर्बित हऽयॆ,",
+      "तॊमाऽ प्रति ऎइ अनुनय",
+      "शुद्धजीब सिद्धदॆहॆ सदाइ नबीन",
+      "जḓईभूत दॆहयॊग,    जीबनॆर कर्मभॊग,",
+      "जीबॆर पतन यदाश्रय २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "দেহের সৌন্দর্যবল—নহে চিরদিন",
+      "অতএব তাহা লঽয়ে,    না থাক গর্বিত হঽয়ে,",
+      "তোমাঽ প্রতি এই অনুনয়",
+      "শুদ্ধজীব সিদ্ধদেহে সদাই নবীন",
+      "জḓঈভূত দেহয়োগ,    জীবনের কর্মভোগ,",
+      "জীবের পতন যদাশ্রয় ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଦେହେର ସୌନ୍ଦର୍ୟବଲ—ନହେ ଚିରଦିନ",
+      "ଅତଏବ ତାହା ଲଽୟେ,    ନା ଥାକ ଗର୍ବିତ ହଽୟେ,",
+      "ତୋମାଽ ପ୍ରତି ଏଇ ଅନୁନୟ",
+      "ଶୁଦ୍ଧଜୀବ ସିଦ୍ଧଦେହେ ସଦାଇ ନବୀନ",
+      "ଜḓଈଭୂତ ଦେହୟୋଗ,    ଜୀବନେର କର୍ମଭୋଗ,",
+      "ଜୀବେର ପତନ ଯଦାଶ୍ରୟ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "દેહેર સૌન્દર્યબલ—નહે ચિરદિન",
+      "અતએબ તાહા લઽયે,    ના થાક ગર્બિત હઽયે,",
+      "તોમાઽ પ્રતિ એઇ અનુનય",
+      "શુદ્ધજીબ સિદ્ધદેહે સદાઇ નબીન",
+      "જḓઈભૂત દેહયોગ,    જીબનેર કર્મભોગ,",
+      "જીબેર પતન યદાશ્રય ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "dehera saundarya-bala—nahe ciradina",
+      "ataeba tāhā la’ye,    nā thāka garbita ha’ye,",
+      "tomā’ prati ei anunaya",
+      "śuddhajība siddhadehe sadāi nabīna",
+      "jaḓībhūta deha-yoga,    jībanera karmabhoga,",
+      "jībera patana yadāśraya 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ದೆಹೆರ ಸೌಂದರ್ಯಬಲ—ನಹೆ ಚಿರದಿನ",
+      "ಅತಎಬ ತಾಹಾ ಲಽಯೆ,    ನಾ ಥಾಕ ಗರ್ಬಿತ ಹಽಯೆ,",
+      "ತೊಮಾಽ ಪ್ರತಿ ಎಇ ಅನುನಯ",
+      "ಶುದ್ಧಜೀಬ ಸಿದ್ಧದೆಹೆ ಸದಾಇ ನಬೀನ",
+      "ಜḓಈಭೂತ ದೆಹಯೊಗ,    ಜೀಬನೆರ ಕರ್ಮಭೊಗ,",
+      "ಜೀಬೆರ ಪತನ ಯದಾಶ್ರಯ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "దెహెర సౌందర్యబల—నహె చిరదిన",
+      "అతఎబ తాహా లఽయె,    నా థాక గర్బిత హఽయె,",
+      "తొమాఽ ప్రతి ఎఇ అనునయ",
+      "శుద్ధజీబ సిద్ధదెహె సదాఇ నబీన",
+      "జḓఈభూత దెహయొగ,    జీబనెర కర్మభొగ,",
+      "జీబెర పతన యదాశ్రయ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "дэ̆хэ̆ра саундарйабала—нахэ̆ чирадина",
+      "атаэ̆ба та̄ха̄ ла'йэ̆,    на̄ тха̄ка гарбита ха'йэ̆,",
+      "то̆ма̄' прати э̆и анунайа",
+      "ш́уддхаджӣба сиддхадэ̆хэ̆ сада̄и набӣна",
+      "джаḓӣбхӯта дэ̆хайо̆га,    джӣбанэ̆ра кармабхо̆га,",
+      "джӣбэ̆ра патана йада̄ш́райа 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ദെഹെര സൗന്ദര്യബല—നഹെ ചിരദിന",
+      "അതഎബ താഹാ ലഽയെ,    നാ ഥാക ഗർബിത ഹഽയെ,",
+      "തൊമാഽ പ്രതി എഇ അനുനയ",
+      "ശുദ്ധജീബ സിദ്ധദെഹെ സദാഇ നബീന",
+      "ജḓഈഭൂത ദെഹയൊഗ,    ജീബനെര കർമഭൊഗ,",
+      "ജീബെര പതന യദാശ്രയ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தெ³ஹெர ஸௌந்த³ர்யப³ல—நஹெ சிரதி³ன",
+      "அதஎப³ தாஹா ல(அ)யெ,    நா தா²க க³ர்பி³த ஹ(அ)யெ,",
+      "தொமா(அ) ப்ரதி எஇ அனுனய",
+      "ஶுத்³த⁴ஜீப³ ஸித்³த⁴தெ³ஹெ ஸதா³இ நபீ³ன",
+      "ஜḓஈபூ⁴த தெ³ஹயொக³,    ஜீப³னெர கர்மபொ⁴க³,",
+      "ஜீபெ³ர பதன யதா³ஶ்ரய 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "dehera saundarya-bala—nahe ciradina",
+      "ataeba tāhā la’ye,    nā thāka garbita ha’ye,",
+      "tomā’ prati ei anunaya",
+      "śuddhajība siddhadehe sadāi nabīna",
+      "jaḍībhūta deha-yoga,    jībanera karmabhoga,",
+      "jībera patana yadāśraya 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "dehera saundarya-bala—nahe ciradina",
+      "ataeba tāhā la’ye,    nā thāka garbita ha’ye,",
+      "tomā’ prati ei anunaya",
+      "śuddhajība siddhadehe sadāi nabīna",
+      "jaḓībhūta deha-yoga,    jībanera karmabhoga,",
+      "jībera patana yadāśraya 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "ye[FLAG_HYPHEN_ALPHA]paryanta e dehete jībera saṅgati",
+    "cakṣu karṇa nāsā jihbā,    tbagādira jaḓaspṛhā,",
+    "jībe la’ye kare ṭānāṭāni",
+    "dekha, dekha, bhayaṅkara jībera durgati",
+    "jība cāya kṛṣṇa bhaji’,    deha jaḓe yāya maji’,",
+    "śeṣe jība pāśare āpani 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "यॆपर्यन्त ऎ दॆहॆतॆ जीबॆर सङ्गति",
+      "चक्षु कर्ण नासा जिह्बा,    त्बगादिर जḓअस्प्ढ़ा,",
+      "जीबॆ लऽयॆ करॆ टानाटानि",
+      "दॆख, दॆख, भयङ्कर जीबॆर दुर्गति",
+      "जीब चाय क्ड़्ष्ण भजिऽ,    दॆह जḓऎ याय मजिऽ,",
+      "शॆषॆ जीब पाशरॆ आपनि ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "যেপর্যন্ত এ দেহেতে জীবের সঙ্গতি",
+      "চক্ষু কর্ণ নাসা জিহ্বা,    ত্বগাদির জḓঅস্প্ঢ়া,",
+      "জীবে লঽয়ে করে টানাটানি",
+      "দেখ, দেখ, ভয়ঙ্কর জীবের দুর্গতি",
+      "জীব চায় ক্ড়্ষ্ণ ভজিঽ,    দেহ জḓএ যায় মজিঽ,",
+      "শেষে জীব পাশরে আপনি ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଯେପର୍ୟନ୍ତ ଏ ଦେହେତେ ଜୀବେର ସଙ୍ଗତି",
+      "ଚକ୍ଷୁ କର୍ଣ ନାସା ଜିହ୍ବା,    ତ୍ବଗାଦିର ଜḓଅସ୍ପ୍ଢ଼ା,",
+      "ଜୀବେ ଲଽୟେ କରେ ଟାନାଟାନି",
+      "ଦେଖ, ଦେଖ, ଭୟଙ୍କର ଜୀବେର ଦୁର୍ଗତି",
+      "ଜୀବ ଚାୟ କ୍ଡ଼୍ଷ୍ଣ ଭଜିଽ,    ଦେହ ଜḓଏ ଯାୟ ମଜିଽ,",
+      "ଶେଷେ ଜୀବ ପାଶରେ ଆପନି ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "યેપર્યન્ત એ દેહેતે જીબેર સઙ્ગતિ",
+      "ચક્ષુ કર્ણ નાસા જિહ્બા,    ત્બગાદિર જḓઅસ્પ્ઢ઼ા,",
+      "જીબે લઽયે કરે ટાનાટાનિ",
+      "દેખ, દેખ, ભયઙ્કર જીબેર દુર્ગતિ",
+      "જીબ ચાય ક્ડ઼્ષ્ણ ભજિઽ,    દેહ જḓએ યાય મજિઽ,",
+      "શેષે જીબ પાશરે આપનિ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ye-paryanta e dehete jībera saṅgati",
+      "cakṣu karṇa nāsā jihbā,    tbagādira jaḓaspṛhā,",
+      "jībe la’ye kare ṭānāṭāni",
+      "dekha, dekha, bhayaṅkara jībera durgati",
+      "jība cāya kṛṣṇa bhaji’,    deha jaḓe yāya maji’,",
+      "śeṣe jība pāśare āpani 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಯೆಪರ್ಯಂತ ಎ ದೆಹೆತೆ ಜೀಬೆರ ಸಂಗತಿ",
+      "ಚಕ್ಷು ಕರ್ಣ ನಾಸಾ ಜಿಹ್ಬಾ,    ತ್ಬಗಾದಿರ ಜḓಅಸ್ಪ್‌ಢ಼ಾ,",
+      "ಜೀಬೆ ಲಽಯೆ ಕರೆ ಟಾನಾಟಾನಿ",
+      "ದೆಖ, ದೆಖ, ಭಯಂಕರ ಜೀಬೆರ ದುರ್ಗತಿ",
+      "ಜೀಬ ಚಾಯ ಕ್‌ಡ಼್ಷ್ಣ ಭಜಿಽ,    ದೆಹ ಜḓಎ ಯಾಯ ಮಜಿಽ,",
+      "ಶೆಷೆ ಜೀಬ ಪಾಶರೆ ಆಪನಿ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "యెపర్యంత ఎ దెహెతె జీబెర సంగతి",
+      "చక్షు కర్ణ నాసా జిహ్బా,    త్బగాదిర జḓఅస్ప్ఢా,",
+      "జీబె లఽయె కరె టానాటాని",
+      "దెఖ, దెఖ, భయంకర జీబెర దుర్గతి",
+      "జీబ చాయ క్డ్ష్ణ భజిఽ,    దెహ జḓఎ యాయ మజిఽ,",
+      "శెషె జీబ పాశరె ఆపని 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "йэ̆парйанта э̆ дэ̆хэ̆тэ̆ джӣбэ̆ра сан̇гати",
+      "чакшу карн̣а на̄са̄ джихба̄,    тбага̄дира джаḓаспр̤ха̄,",
+      "джӣбэ̆ ла'йэ̆ карэ̆ т̣а̄на̄т̣а̄ни",
+      "дэ̆кха, дэ̆кха, бхайан̇кара джӣбэ̆ра дургати",
+      "джӣба ча̄йа кр̤шн̣а бхаджи',    дэ̆ха джаḓэ̆ йа̄йа маджи',",
+      "ш́э̆шэ̆ джӣба па̄ш́арэ̆ а̄пани 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "യെപര്യന്ത എ ദെഹെതെ ജീബെര സംഗതി",
+      "ചക്ഷു കർണ നാസാ ജിഹ്ബാ,    ത്ബഗാദിര ജḓഅസ്പ്ഢാ,",
+      "ജീബെ ലഽയെ കരെ ടാനാടാനി",
+      "ദെഖ, ദെഖ, ഭയങ്കര ജീബെര ദുർഗതി",
+      "ജീബ ചായ ക്ഡ്ഷ്ണ ഭജിഽ,    ദെഹ ജḓഎ യായ മജിഽ,",
+      "ശെഷെ ജീബ പാശരെ ആപനി 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "யெபர்யந்த எ தெ³ஹெதெ ஜீபெ³ர ஸங்க³தி",
+      "சக்ஷு கர்ண நாஸா ஜிஹ்பா³,    த்ப³கா³தி³ர ஜḓஅஸ்ப்ஃடா³,",
+      "ஜீபெ³ ல(அ)யெ கரெ டானாடானி",
+      "தெ³க², தெ³க², ப⁴யங்கர ஜீபெ³ர து³ர்க³தி",
+      "ஜீப³ சாய க்ஃட்²ஷ்ண ப⁴ஜி(அ),    தெ³ஹ ஜḓஎ யாய மஜி(அ),",
+      "ஶெஷெ ஜீப³ பாஶரெ ஆபனி 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ye-paryanta e dehete jībera saṅgati",
+      "cakṣu karṇa nāsā jihbā,    tbagādira jaḍaspṛhā,",
+      "jībe la’ye kare ṭānāṭāni",
+      "dekha, dekha, bhayaṅkara jībera durgati",
+      "jība cāya kṛṣṇa bhaji’,    deha jaḍe yāya maji’,",
+      "śeṣe jība pāśare āpani 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ye-paryanta e dehete jībera saṅgati",
+      "cakṣu karṇa nāsā jihbā,    tbagādira jaḓaspṛhā,",
+      "jībe la’ye kare ṭānāṭāni",
+      "dekha, dekha, bhayaṅkara jībera durgati",
+      "jība cāya kṛṣṇa bhaji’,    deha jaḓe yāya maji’,",
+      "śeṣe jība pāśare āpani 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "āra kena jība jaḓe karibe samara ?",
+    "jaḓe deo bisarjana,    śuddhajība[FLAG_HYPHEN_ALPHA]prabodhana,",
+    "sahajasamādhi[FLAG_HYPHEN_ALPHA]yoge sādha’",
+    "krame krame jaḓasattā ha’be abasara",
+    "siddhadeha[FLAG_HYPHEN_ALPHA]anugata,    kara’ deha jaḓāśrita,",
+    "paramārtha nā ha·ibe bādha 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आर कॆन जीब जḓऎ करिबॆ समर ?",
+      "जḓऎ दॆऒ बिसर्जन,    शुद्धजीबप्रबॊधन,",
+      "सहजसमाधियॊगॆ साधऽ",
+      "क्रमॆ क्रमॆ जḓअसत्ता हऽबॆ अबसर",
+      "सिद्धदॆहअनुगत,    करऽ दॆह जḓआश्रित,",
+      "परमार्थ ना हइबॆ बाध ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আর কেন জীব জḓএ করিবে সমর ?",
+      "জḓএ দেও বিসর্জন,    শুদ্ধজীবপ্রবোধন,",
+      "সহজসমাধিয়োগে সাধঽ",
+      "ক্রমে ক্রমে জḓঅসত্তা হঽবে অবসর",
+      "সিদ্ধদেহঅনুগত,    করঽ দেহ জḓআশ্রিত,",
+      "পরমার্থ না হইবে বাধ ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆର କେନ ଜୀବ ଜḓଏ କରିବେ ସମର ?",
+      "ଜḓଏ ଦେଓ ବିସର୍ଜନ,    ଶୁଦ୍ଧଜୀବପ୍ରବୋଧନ,",
+      "ସହଜସମାଧିୟୋଗେ ସାଧଽ",
+      "କ୍ରମେ କ୍ରମେ ଜḓଅସତ୍ତା ହଽବେ ଅବସର",
+      "ସିଦ୍ଧଦେହଅନୁଗତ,    କରଽ ଦେହ ଜḓଆଶ୍ରିତ,",
+      "ପରମାର୍ଥ ନା ହଇବେ ବାଧ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આર કેન જીબ જḓએ કરિબે સમર ?",
+      "જḓએ દેઓ બિસર્જન,    શુદ્ધજીબપ્રબોધન,",
+      "સહજસમાધિયોગે સાધઽ",
+      "ક્રમે ક્રમે જḓઅસત્તા હઽબે અબસર",
+      "સિદ્ધદેહઅનુગત,    કરઽ દેહ જḓઆશ્રિત,",
+      "પરમાર્થ ના હઇબે બાધ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "āra kena jība jaḓe karibe samara ?",
+      "jaḓe deo bisarjana,    śuddhajība-prabodhana,",
+      "sahajasamādhi-yoge sādha’",
+      "krame krame jaḓasattā ha’be abasara",
+      "siddhadeha-anugata,    kara’ deha jaḓāśrita,",
+      "paramārtha nā ha·ibe bādha 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆರ ಕೆನ ಜೀಬ ಜḓಎ ಕರಿಬೆ ಸಮರ ?",
+      "ಜḓಎ ದೆಒ ಬಿಸರ್ಜನ,    ಶುದ್ಧಜೀಬಪ್ರಬೊಧನ,",
+      "ಸಹಜಸಮಾಧಿಯೊಗೆ ಸಾಧಽ",
+      "ಕ್ರಮೆ ಕ್ರಮೆ ಜḓಅಸತ್ತಾ ಹಽಬೆ ಅಬಸರ",
+      "ಸಿದ್ಧದೆಹಅನುಗತ,    ಕರಽ ದೆಹ ಜḓಆಶ್ರಿತ,",
+      "ಪರಮಾರ್ಥ ನಾ ಹಇಬೆ ಬಾಧ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆర కెన జీబ జḓఎ కరిబె సమర ?",
+      "జḓఎ దెఒ బిసర్జన,    శుద్ధజీబప్రబొధన,",
+      "సహజసమాధియొగె సాధఽ",
+      "క్రమె క్రమె జḓఅసత్తా హఽబె అబసర",
+      "సిద్ధదెహఅనుగత,    కరఽ దెహ జḓఆశ్రిత,",
+      "పరమార్థ నా హఇబె బాధ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄ра кэ̆на джӣба джаḓэ̆ карибэ̆ самара ?",
+      "джаḓэ̆ дэ̆о̆ бисарджана,    ш́уддхаджӣбапрабо̆дхана,",
+      "сахаджасама̄дхийо̆гэ̆ са̄дха'",
+      "крамэ̆ крамэ̆ джаḓасатта̄ ха'бэ̆ абасара",
+      "сиддхадэ̆хаанугата,    кара' дэ̆ха джаḓа̄ш́рита,",
+      "парама̄ртха на̄ хаибэ̆ ба̄дха 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആര കെന ജീബ ജḓഎ കരിബെ സമര ?",
+      "ജḓഎ ദെഒ ബിസർജന,    ശുദ്ധജീബപ്രബൊധന,",
+      "സഹജസമാധിയൊഗെ സാധഽ",
+      "ക്രമെ ക്രമെ ജḓഅസത്താ ഹഽബെ അബസര",
+      "സിദ്ധദെഹഅനുഗത,    കരഽ ദെഹ ജḓആശ്രിത,",
+      "പരമാർഥ നാ ഹഇബെ ബാധ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆர கென ஜீப³ ஜḓஎ கரிபெ³ ஸமர ?",
+      "ஜḓஎ தெ³ஒ பி³ஸர்ஜன,    ஶுத்³த⁴ஜீப³ப்ரபொ³த⁴ன,",
+      "ஸஹஜஸமாதி⁴யொகெ³ ஸாத⁴(அ)",
+      "க்ரமெ க்ரமெ ஜḓஅஸத்தா ஹ(அ)பெ³ அப³ஸர",
+      "ஸித்³த⁴தெ³ஹஅனுக³த,    கர(அ) தெ³ஹ ஜḓஆஶ்ரித,",
+      "பரமார்த² நா ஹஇபெ³ பா³த⁴ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "āra kena jība jaḍe karibe samara ?",
+      "jaḍe deo bisarjana,    śuddhajība-prabodhana,",
+      "sahajasamādhi-yoge sādha’",
+      "krame krame jaḍasattā ha’be abasara",
+      "siddhadeha-anugata,    kara’ deha jaḍāśrita,",
+      "paramārtha nā ha·ibe bādha 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "āra kena jība jaḓe karibe samara ?",
+      "jaḓe deo bisarjana,    śuddhajība-prabodhana,",
+      "sahajasamādhi-yoge sādha’",
+      "krame krame jaḓasattā ha’be abasara",
+      "siddhadeha-anugata,    kara’ deha jaḓāśrita,",
+      "paramārtha nā ha·ibe bādha 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Nirveda",
+  "Upalabdhi from Kalyāṇa-kalpataru"
+ ]
+}

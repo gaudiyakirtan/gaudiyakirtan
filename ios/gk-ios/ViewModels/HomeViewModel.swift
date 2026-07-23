@@ -2,33 +2,33 @@ import Foundation
 import SwiftUI
 
 class HomeViewModel: ObservableObject {
-    @Published var songs: [Song] = []
+    @Published var songs: [ManifestEntry] = []
     @Published var authors: [Author] = []
     @Published var topics: [Topic] = []
     @Published var books: [Book] = []
-    @Published var verses: [Verse] = []
+    @Published var featuredSong: Song?
     @Published var collections: [Collection] = []
     @Published var searchText: String = ""
     @Published var showSettings: Bool = false
-    
-    init() {
-        setupSampleData()
+
+    private let repository: SongRepository
+
+    /// Uid of the song featured at the bottom of Home. Real data (pipeline/converted/N9.json:
+    /// "akrodha paramānanda" by Locana Dāsa Ṭhākura) happens to match what this screen showed as
+    /// static sample text, so wiring it to the repository keeps the same visible content.
+    private let featuredSongUid = "N9"
+
+    init(repository: SongRepository = .shared) {
+        self.repository = repository
+        loadData()
     }
-    
-    private func setupSampleData() {
-        // Load sample data from the SampleData struct
-        authors = SampleData.authors
-        topics = SampleData.topics
-        books = SampleData.books
-        songs = SampleData.songs
-        verses = SampleData.verses
-        
-        // Sample Collections
-        collections = [
-            Collection(name: "Favorites", type: .bookmark, songIds: ["N3", "S1", "E4"]),
-            Collection(name: "Kartik Songs", type: .playlist, songIds: ["SQ2", "L5"]),
-            Collection(name: "IPBYS", type: .playlist, songIds: ["E4", "N3"]),
-            Collection(name: "Memorize", type: .bookmark, songIds: ["S1", "SQ2", "L5"])
-        ]
+
+    private func loadData() {
+        songs = repository.manifest
+        authors = repository.authors()
+        topics = repository.songGroups(kind: .topic).map(Topic.init(songGroup:))
+        books = repository.songGroups(kind: .book).map { Book(songGroup: $0) }
+        collections = repository.songGroups(kind: .collection).map { Collection(songGroup: $0, type: .playlist) }
+        featuredSong = repository.song(uid: featuredSongUid)
     }
 }

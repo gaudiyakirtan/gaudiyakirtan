@@ -1,5 +1,7 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.neutral
+
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -8,26 +10,27 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.gaudiyakirtan.myapplication.models.Song
 import com.gaudiyakirtan.myapplication.ui.components.icons.MusicNote
 
 /**
- * A list item for displaying songs in a single column layout
- * Used in the Library view Songs tab
+ * A list item for displaying songs in a single column layout (Library view Songs tab).
+ * Driven by the lightweight list fields a
+ * [com.gaudiyakirtan.myapplication.models.ManifestEntry] carries -- see [SongCard]'s doc comment.
  */
 @Composable
 fun SongListItem(
-    song: Song,
+    uid: String,
+    title: String,
+    authorName: String,
+    audioAvailable: Boolean,
     onClick: () -> Unit = {},
-    showTags: Boolean = false,
     modifier: Modifier = Modifier
 ) {
-    val neutralColor = MaterialTheme.colorScheme.tertiary
-    
+    val neutralColor = MaterialTheme.colorScheme.neutral
+
     Surface(
         modifier = modifier
             .fillMaxWidth()
@@ -45,18 +48,18 @@ fun SongListItem(
                 modifier = Modifier.padding(top = 4.dp)
             ) {
                 Text(
-                    text = song.title,
+                    text = title,
                     style = MaterialTheme.typography.bodyLarge.copy(
-                        color = MaterialTheme.colorScheme.primary,
+                        color = MaterialTheme.colorScheme.surfaceVariant,
                         fontSize = 14.sp
                     ),
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis,
                     modifier = Modifier.weight(1f, fill = false)
                 )
-                
+
                 Spacer(modifier = Modifier.width(8.dp))
-                
+
                 // UID tag
                 Box(
                     modifier = Modifier
@@ -65,7 +68,7 @@ fun SongListItem(
                         .padding(horizontal = 10.dp, vertical = 2.dp)
                 ) {
                     Text(
-                        text = song.uid,
+                        text = uid,
                         style = MaterialTheme.typography.labelSmall.copy(
                             color = neutralColor,
                             fontSize = 10.sp,
@@ -74,7 +77,7 @@ fun SongListItem(
                     )
                 }
             }
-            
+
             // Author and audio icon row
             Row(
                 verticalAlignment = Alignment.CenterVertically,
@@ -82,7 +85,7 @@ fun SongListItem(
                 modifier = Modifier.padding(bottom = 4.dp, top = 2.dp)
             ) {
                 Text(
-                    text = song.author,
+                    text = authorName,
                     style = MaterialTheme.typography.bodyMedium.copy(
                         color = neutralColor,
                         fontSize = 14.sp
@@ -91,37 +94,12 @@ fun SongListItem(
                     overflow = TextOverflow.Ellipsis,
                     modifier = Modifier.weight(1f, fill = false)
                 )
-                
-                if (song.audio) {
+
+                if (audioAvailable) {
                     MusicNote(
                         modifier = Modifier.size(12.dp),
                         color = neutralColor
                     )
-                }
-                
-                // Tags - only shown conditionally
-                if (showTags && song.tags.isNotEmpty()) {
-                    Row(
-                        horizontalArrangement = Arrangement.spacedBy(4.dp)
-                    ) {
-                        // Display up to 2 tags
-                        song.tags.take(2).forEach { tag ->
-                            Box(
-                                modifier = Modifier
-                                    .clip(RoundedCornerShape(10.dp))
-                                    .background(neutralColor.copy(alpha = 0.25f))
-                                    .padding(horizontal = 8.dp, vertical = 2.dp)
-                            ) {
-                                Text(
-                                    text = tag,
-                                    style = MaterialTheme.typography.labelSmall.copy(
-                                        color = neutralColor,
-                                        fontSize = 12.sp
-                                    )
-                                )
-                            }
-                        }
-                    }
                 }
             }
         }

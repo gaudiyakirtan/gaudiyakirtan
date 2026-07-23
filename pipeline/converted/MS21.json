@@ -1,0 +1,656 @@
+{
+ "uid": "MS21",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "মন, যোগী হ’তে তোমার বাসনা"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "mana, yogī ha’te tomāra bāsanā"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "mana, yogī ha’te tomāra bāsanā",
+    "yogaśāstra adhyayana,    niyama[FLAG_HYPHEN_ALPHA]yama[FLAG_HYPHEN_ALPHA]sādhana,",
+    "prāṇāyāma, āsana[FLAG_HYPHEN_ALPHA]racanā 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मन, यॊगी हऽतॆ तॊमार बासना",
+      "यॊगशास्त्र अध्ययन,    नियमयमसाधन,",
+      "प्राणायाम, आसनरचना १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মন, যোগী হঽতে তোমার বাসনা",
+      "যোগশাস্ত্র অধ্যযন,    নিয়ময়মসাধন,",
+      "প্রাণায়াম, আসনরচনা ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମନ, ଯୋଗୀ ହଽତେ ତୋମାର ବାସନା",
+      "ଯୋଗଶାସ୍ତ୍ର ଅଧ୍ୟଯନ,    ନିୟମୟମସାଧନ,",
+      "ପ୍ରାଣାୟାମ, ଆସନରଚନା ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મન, યોગી હઽતે તોમાર બાસના",
+      "યોગશાસ્ત્ર અધ્યયન,    નિયમયમસાધન,",
+      "પ્રાણાયામ, આસનરચના ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "mana, yogī ha’te tomāra bāsanā",
+      "yogaśāstra adhyayana,    niyama-yama-sādhana,",
+      "prāṇāyāma, āsana-racanā 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮನ, ಯೊಗೀ ಹಽತೆ ತೊಮಾರ ಬಾಸನಾ",
+      "ಯೊಗಶಾಸ್ತ್ರ ಅಧ್ಯಯನ,    ನಿಯಮಯಮಸಾಧನ,",
+      "ಪ್ರಾಣಾಯಾಮ, ಆಸನರಚನಾ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మన, యొగీ హఽతె తొమార బాసనా",
+      "యొగశాస్త్ర అధ్యయన,    నియమయమసాధన,",
+      "ప్రాణాయామ, ఆసనరచనా 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "мана, йо̆гӣ ха'тэ̆ то̆ма̄ра ба̄сана̄",
+      "йо̆гаш́а̄стра адхйайана,    нийамайамаса̄дхана,",
+      "пра̄н̣а̄йа̄ма, а̄санарачана̄ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മന, യൊഗീ ഹഽതെ തൊമാര ബാസനാ",
+      "യൊഗശാസ്ത്ര അധ്യയന,    നിയമയമസാധന,",
+      "പ്രാണായാമ, ആസനരചനാ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மன, யொகீ³ ஹ(அ)தெ தொமார பா³ஸனா",
+      "யொக³ஶாஸ்த்ர அத்⁴யயன,    நியமயமஸாத⁴ன,",
+      "ப்ராணாயாம, ஆஸனரசனா 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "mana, yogī ha’te tomāra bāsanā",
+      "yogaśāstra adhyayana,    niyama-yama-sādhana,",
+      "prāṇāyāma, āsana-racanā 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "mana, yogī ha’te tomāra bāsanā",
+      "yogaśāstra adhyayana,    niyama-yama-sādhana,",
+      "prāṇāyāma, āsana-racanā 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "pratyāhāra, dhyāna, dhṛti,    samādhite ha’le bratī,",
+    "phala kibā ha·ibe bala nā",
+    "deha[FLAG_HYPHEN_ALPHA]mana śuṣka kari’,    rahibe kumbhaka dhari’,",
+    "brahmātmatā karibe bhābanā 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "प्रत्याहार, ध्यान, ध्ड़्ति,    समाधितॆ हऽलॆ ब्रती,",
+      "फल किबा हइबॆ बल ना",
+      "दॆहमन शुष्क करिऽ,    रहिबॆ कुम्भक धरिऽ,",
+      "ब्रह्मात्मता करिबॆ भाबना २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "প্রত্যাহার, ধ্যান, ধ্ড়্তি,    সমাধিতে হঽলে ব্রতী,",
+      "ফল কিবা হইবে বল না",
+      "দেহমন শুষ্ক করিঽ,    রহিবে কুম্ভক ধরিঽ,",
+      "ব্রহ্মাত্মতা করিবে ভাবনা ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପ୍ରତ୍ୟାହାର, ଧ୍ୟାନ, ଧ୍ଡ଼୍ତି,    ସମାଧିତେ ହଽଲେ ବ୍ରତୀ,",
+      "ଫଲ କିବା ହଇବେ ବଲ ନା",
+      "ଦେହମନ ଶୁଷ୍କ କରିଽ,    ରହିବେ କୁମ୍ଭକ ଧରିଽ,",
+      "ବ୍ରହ୍ମାତ୍ମତା କରିବେ ଭାବନା ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પ્રત્યાહાર, ધ્યાન, ધ્ડ઼્તિ,    સમાધિતે હઽલે બ્રતી,",
+      "ફલ કિબા હઇબે બલ ના",
+      "દેહમન શુષ્ક કરિઽ,    રહિબે કુમ્ભક ધરિઽ,",
+      "બ્રહ્માત્મતા કરિબે ભાબના ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "pratyāhāra, dhyāna, dhṛti,    samādhite ha’le bratī,",
+      "phala kibā ha·ibe bala nā",
+      "deha-mana śuṣka kari’,    rahibe kumbhaka dhari’,",
+      "brahmātmatā karibe bhābanā 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪ್ರತ್ಯಾಹಾರ, ಧ್ಯಾನ, ಧ್‌ಡ಼್ತಿ,    ಸಮಾಧಿತೆ ಹಽಲೆ ಬ್ರತೀ,",
+      "ಫಲ ಕಿಬಾ ಹಇಬೆ ಬಲ ನಾ",
+      "ದೆಹಮನ ಶುಷ್ಕ ಕರಿಽ,    ರಹಿಬೆ ಕುಂಭಕ ಧರಿಽ,",
+      "ಬ್ರಹ್ಮಾತ್ಮತಾ ಕರಿಬೆ ಭಾಬನಾ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ప్రత్యాహార, ధ్యాన, ధ్డ్తి,    సమాధితె హఽలె బ్రతీ,",
+      "ఫల కిబా హఇబె బల నా",
+      "దెహమన శుష్క కరిఽ,    రహిబె కుంభక ధరిఽ,",
+      "బ్రహ్మాత్మతా కరిబె భాబనా 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "пратйа̄ха̄ра, дхйа̄на, дхр̤ти,    сама̄дхитэ̆ ха'лэ̆ братӣ,",
+      "пхала киба̄ хаибэ̆ бала на̄",
+      "дэ̆хамана ш́ушка кари',    рахибэ̆ кумбхака дхари',",
+      "брахма̄тмата̄ карибэ̆ бха̄бана̄ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പ്രത്യാഹാര, ധ്യാന, ധ്ഡ്തി,    സമാധിതെ ഹഽലെ ബ്രതീ,",
+      "ഫല കിബാ ഹഇബെ ബല നാ",
+      "ദെഹമന ശുഷ്ക കരിഽ,    രഹിബെ കുംഭക ധരിഽ,",
+      "ബ്രഹ്മാത്മതാ കരിബെ ഭാബനാ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்ரத்யாஹார, த்⁴யான, த்⁴ஃட்²தி,    ஸமாதி⁴தெ ஹ(அ)லெ ப்³ரதீ,",
+      "ப²ல கிபா³ ஹஇபெ³ ப³ல நா",
+      "தெ³ஹமன ஶுஷ்க கரி(அ),    ரஹிபெ³ கும்ப⁴க த⁴ரி(அ),",
+      "ப்³ரஹ்மாத்மதா கரிபெ³ பா⁴ப³னா 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "pratyāhāra, dhyāna, dhṛti,    samādhite ha’le bratī,",
+      "phala kibā ha·ibe bala nā",
+      "deha-mana śuṣka kari’,    rahibe kumbhaka dhari’,",
+      "brahmātmatā karibe bhābanā 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "pratyāhāra, dhyāna, dhṛti,    samādhite ha’le bratī,",
+      "phala kibā ha·ibe bala nā",
+      "deha-mana śuṣka kari’,    rahibe kumbhaka dhari’,",
+      "brahmātmatā karibe bhābanā 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "aṣṭādaśa siddhi pā’be,    paramārtha bhule yā’be,",
+    "aiśbaryādi karibe kāmanā",
+    "sthūla[FLAG_HYPHEN_ALPHA]jaḓa parihari’,    sūkṣmete prabeśa kari’,",
+    "punarāya bhugibe yātanā 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अष्टादश सिद्धि पाऽबॆ,    परमार्थ भुलॆ याऽबॆ,",
+      "ऐश्बर्यादि करिबॆ कामना",
+      "स्थूलजḓअ परिहरिऽ,    सूक्ष्मॆतॆ प्रबॆश करिऽ,",
+      "पुनराय भुगिबॆ यातना ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অষ্টাদশ সিদ্ধি পাঽবে,    পরমার্থ ভুলে যাঽবে,",
+      "ঐশ্বর্যাদি করিবে কামনা",
+      "স্থূলজḓঅ পরিহরিঽ,    সূক্ষ্মেতে প্রবেশ করিঽ,",
+      "পুনরায় ভুগিবে যাতনা ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅଷ୍ଟାଦଶ ସିଦ୍ଧି ପାଽବେ,    ପରମାର୍ଥ ଭୁଲେ ଯାଽବେ,",
+      "ଐଶ୍ବର୍ୟାଦି କରିବେ କାମନା",
+      "ସ୍ଥୂଲଜḓଅ ପରିହରିଽ,    ସୂକ୍ଷ୍ମେତେ ପ୍ରବେଶ କରିଽ,",
+      "ପୁନରାୟ ଭୁଗିବେ ଯାତନା ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અષ્ટાદશ સિદ્ધિ પાઽબે,    પરમાર્થ ભુલે યાઽબે,",
+      "ઐશ્બર્યાદિ કરિબે કામના",
+      "સ્થૂલજḓઅ પરિહરિઽ,    સૂક્ષ્મેતે પ્રબેશ કરિઽ,",
+      "પુનરાય ભુગિબે યાતના ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "aṣṭādaśa siddhi pā’be,    paramārtha bhule yā’be,",
+      "aiśbaryādi karibe kāmanā",
+      "sthūla-jaḓa parihari’,    sūkṣmete prabeśa kari’,",
+      "punarāya bhugibe yātanā 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅಷ್ಟಾದಶ ಸಿದ್ಧಿ ಪಾಽಬೆ,    ಪರಮಾರ್ಥ ಭುಲೆ ಯಾಽಬೆ,",
+      "ಐಶ್ಬರ್ಯಾದಿ ಕರಿಬೆ ಕಾಮನಾ",
+      "ಸ್ಥೂಲಜḓಅ ಪರಿಹರಿಽ,    ಸೂಕ್ಷ್ಮೆತೆ ಪ್ರಬೆಶ ಕರಿಽ,",
+      "ಪುನರಾಯ ಭುಗಿಬೆ ಯಾತನಾ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అష్టాదశ సిద్ధి పాఽబె,    పరమార్థ భులె యాఽబె,",
+      "ఐశ్బర్యాది కరిబె కామనా",
+      "స్థూలజḓఅ పరిహరిఽ,    సూక్ష్మెతె ప్రబెశ కరిఽ,",
+      "పునరాయ భుగిబె యాతనా 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ашт̣а̄даш́а сиддхи па̄'бэ̆,    парама̄ртха бхулэ̆ йа̄'бэ̆,",
+      "аиш́барйа̄ди карибэ̆ ка̄мана̄",
+      "стхӯладжаḓа парихари',    сӯкшмэ̆тэ̆ прабэ̆ш́а кари',",
+      "пунара̄йа бхугибэ̆ йа̄тана̄ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അഷ്ടാദശ സിദ്ധി പാഽബെ,    പരമാർഥ ഭുലെ യാഽബെ,",
+      "ഐശ്ബര്യാദി കരിബെ കാമനാ",
+      "സ്ഥൂലജḓഅ പരിഹരിഽ,    സൂക്ഷ്മെതെ പ്രബെശ കരിഽ,",
+      "പുനരായ ഭുഗിബെ യാതനാ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அஷ்டாத³ஶ ஸித்³தி⁴ பா(அ)பெ³,    பரமார்த² பு⁴லெ யா(அ)பெ³,",
+      "ஐஶ்ப³ர்யாதி³ கரிபெ³ காமனா",
+      "ஸ்தூ²லஜḓஅ பரிஹரி(அ),    ஸூக்ஷ்மெதெ ப்ரபெ³ஶ கரி(அ),",
+      "புனராய பு⁴கி³பெ³ யாதனா 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "aṣṭādaśa siddhi pā’be,    paramārtha bhule yā’be,",
+      "aiśbaryādi karibe kāmanā",
+      "sthūla-jaḍa parihari’,    sūkṣmete prabeśa kari’,",
+      "punarāya bhugibe yātanā 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "aṣṭādaśa siddhi pā’be,    paramārtha bhule yā’be,",
+      "aiśbaryādi karibe kāmanā",
+      "sthūla-jaḓa parihari’,    sūkṣmete prabeśa kari’,",
+      "punarāya bhugibe yātanā 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "ātmā nitya śuddhadhana,    haridāsa akiñcana,",
+    "yoge tā’ra ki phala ghaṭanā",
+    "kara’ bhakti[FLAG_HYPHEN_ALPHA]yogāśraya,    nā thākibe kona bhaya,",
+    "sahaja amṛta sambhābanā 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आत्मा नित्य शुद्धधन,    हरिदास अकिञ्चन,",
+      "यॊगॆ ताऽर कि फल घटना",
+      "करऽ भक्तियॊगाश्रय,    ना थाकिबॆ कॊन भय,",
+      "सहज अम्ड़्त सम्भाबना ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আত্মা নিত্য শুদ্ধধন,    হরিদাস অকিঞ্চন,",
+      "যোগে তাঽর কি ফল ঘটনা",
+      "করঽ ভক্তিয়োগাশ্রয়,    না থাকিবে কোন ভয়,",
+      "সহজ অম্ড়্ত সম্ভাবনা ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆତ୍ମା ନିତ୍ୟ ଶୁଦ୍ଧଧନ,    ହରିଦାସ ଅକିଞ୍ଚନ,",
+      "ଯୋଗେ ତାଽର କି ଫଲ ଘଟନା",
+      "କରଽ ଭକ୍ତିୟୋଗାଶ୍ରୟ,    ନା ଥାକିବେ କୋନ ଭୟ,",
+      "ସହଜ ଅମ୍ଡ଼୍ତ ସମ୍ଭାବନା ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આત્મા નિત્ય શુદ્ધધન,    હરિદાસ અકિઞ્ચન,",
+      "યોગે તાઽર કિ ફલ ઘટના",
+      "કરઽ ભક્તિયોગાશ્રય,    ના થાકિબે કોન ભય,",
+      "સહજ અમ્ડ઼્ત સમ્ભાબના ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ātmā nitya śuddhadhana,    haridāsa akiñcana,",
+      "yoge tā’ra ki phala ghaṭanā",
+      "kara’ bhakti-yogāśraya,    nā thākibe kona bhaya,",
+      "sahaja amṛta sambhābanā 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆತ್ಮಾ ನಿತ್ಯ ಶುದ್ಧಧನ,    ಹರಿದಾಸ ಅಕಿಂಚನ,",
+      "ಯೊಗೆ ತಾಽರ ಕಿ ಫಲ ಘಟನಾ",
+      "ಕರಽ ಭಕ್ತಿಯೊಗಾಶ್ರಯ,    ನಾ ಥಾಕಿಬೆ ಕೊನ ಭಯ,",
+      "ಸಹಜ ಅಂ‌ಡ಼್ತ ಸಂಭಾಬನಾ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆత్మా నిత్య శుద్ధధన,    హరిదాస అకించన,",
+      "యొగె తాఽర కి ఫల ఘటనా",
+      "కరఽ భక్తియొగాశ్రయ,    నా థాకిబె కొన భయ,",
+      "సహజ అమ్డ్త సంభాబనా 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄тма̄ нитйа ш́уддхадхана,    харида̄са акин̃чана,",
+      "йо̆гэ̆ та̄'ра ки пхала гхат̣ана̄",
+      "кара' бхактийо̆га̄ш́райа,    на̄ тха̄кибэ̆ ко̆на бхайа,",
+      "сахаджа амр̤та самбха̄бана̄ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആത്മാ നിത്യ ശുദ്ധധന,    ഹരിദാസ അകിഞ്ചന,",
+      "യൊഗെ താഽര കി ഫല ഘടനാ",
+      "കരഽ ഭക്തിയൊഗാശ്രയ,    നാ ഥാകിബെ കൊന ഭയ,",
+      "സഹജ അമ്ഡ്ത സംഭാബനാ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆத்மா நித்ய ஶுத்³த⁴த⁴ன,    ஹரிதா³ஸ அகிஞ்சன,",
+      "யொகெ³ தா(அ)ர கி ப²ல க⁴டனா",
+      "கர(அ) ப⁴க்தியொகா³ஶ்ரய,    நா தா²கிபெ³ கொன ப⁴ய,",
+      "ஸஹஜ அம்ஃட்²த ஸம்பா⁴ப³னா 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ātmā nitya śuddhadhana,    haridāsa akiñcana,",
+      "yoge tā’ra ki phala ghaṭanā",
+      "kara’ bhakti-yogāśraya,    nā thākibe kona bhaya,",
+      "sahaja amṛta sambhābanā 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ātmā nitya śuddhadhana,    haridāsa akiñcana,",
+      "yoge tā’ra ki phala ghaṭanā",
+      "kara’ bhakti-yogāśraya,    nā thākibe kona bhaya,",
+      "sahaja amṛta sambhābanā 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "binodera e minati,    chāḓi’ anya yogagati,",
+    "kara’ rādhākṛṣṇa[FLAG_HYPHEN_ALPHA]ārādhanā 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बिनॊदॆर ऎ मिनति,    छाḓइऽ अन्य यॊगगति,",
+      "करऽ राधाक्ड़्ष्णआराधना ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বিনোদের এ মিনতি,    ছাḓইঽ অন্য যোগগতি,",
+      "করঽ রাধাক্ড়্ষ্ণআরাধনা ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବିନୋଦେର ଏ ମିନତି,    ଛାḓଇଽ ଅନ୍ୟ ଯୋଗଗତି,",
+      "କରଽ ରାଧାକ୍ଡ଼୍ଷ୍ଣଆରାଧନା ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બિનોદેર એ મિનતિ,    છાḓઇઽ અન્ય યોગગતિ,",
+      "કરઽ રાધાક્ડ઼્ષ્ણઆરાધના ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "binodera e minati,    chāḓi’ anya yogagati,",
+      "kara’ rādhākṛṣṇa-ārādhanā 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬಿನೊದೆರ ಎ ಮಿನತಿ,    ಛಾḓಇಽ ಅನ್ಯ ಯೊಗಗತಿ,",
+      "ಕರಽ ರಾಧಾಕ್‌ಡ಼್ಷ್ಣಆರಾಧನಾ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బినొదెర ఎ మినతి,    ఛాḓఇఽ అన్య యొగగతి,",
+      "కరఽ రాధాక్డ్ష్ణఆరాధనా 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бино̆дэ̆ра э̆ минати,    чха̄ḓи' анйа йо̆гагати,",
+      "кара' ра̄дха̄кр̤шн̣аа̄ра̄дхана̄ 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബിനൊദെര എ മിനതി,    ഛാḓഇഽ അന്യ യൊഗഗതി,",
+      "കരഽ രാധാക്ഡ്ഷ്ണആരാധനാ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பி³னொதெ³ர எ மினதி,    சா²ḓஇ(அ) அன்ய யொக³க³தி,",
+      "கர(அ) ராதா⁴க்ஃட்²ஷ்ணஆராத⁴னா 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "binodera e minati,    chāḍi’ anya yogagati,",
+      "kara’ rādhākṛṣṇa-ārādhanā 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "binodera e minati,    chāḓi’ anya yogagati,",
+      "kara’ rādhākṛṣṇa-ārādhanā 5"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "shabdartha missing"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Upadeśa from Kalyāṇa Kalpataru"
+ ]
+}

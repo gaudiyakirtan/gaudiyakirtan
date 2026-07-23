@@ -1,0 +1,188 @@
+{
+  "uid": "X2",
+  "language_of_origin": "san",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীস্ৱনিয়ম-দ্ৱাদশকম্"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "śrīsvaniyama-dvādaśakam"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रीस्वनियम-द्वादशकम्"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీస్వనియమ-ద్వాదశకం"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಸ್ವನಿಯಮ-ದ್ವಾದಶಕಂ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீஸ்வநியம-த்³வாத³ஶகம்"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീസ്വനിയമ-ദ്വാദശകം"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીસ્વનિયમ-દ્વાદશકમ્"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀସ୍ୱନିୟମ-ଦ୍ୱାଦଶକମ୍"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣсванийама-два̄даш́акам"
+    }
+  ],
+  "author_uid": "bt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Bhaktivinoda Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील भक्तिविनोद ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల భక్తివినోద ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "śrīsvaniyam[FLAG_HYPHEN_ALPHA]dvādaśakam"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीस्वनियम्द्वादशकम्"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীস্বনিয়ম্দ্বাদশকম্"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀସ୍ୱନିୟମ୍ଦ୍ୱାଦଶକମ୍"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીસ્વનિયમ્દ્વાદશકમ્"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrīsvaniyam-dvādaśakam"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಸ್ವನಿಯಮ್ದ್ವಾದಶಕಂ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీస్వనియమ్ద్వాదశకం"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣсванийамдва̄даш́акам"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീസ്വനിയമ്ദ്വാദശകം"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீஸ்வநியம்த்³வாத³ஶகம்"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrīsvaniyam-dvādaśakam"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrīsvaniyam-dvādaśakam"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": []
+}

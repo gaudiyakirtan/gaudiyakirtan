@@ -1,0 +1,2341 @@
+{
+ "uid": "NM8",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "নারদ মুনি বাজায় বীণা"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "nārada muni bājāya bīṇā"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "nārada muni,    bājāya bīṇā,",
+    "rādhikāramaṇa[FLAG_HYPHEN_ALPHA]nāme",
+    "nāma amani,    udita haya,",
+    "bhakata[FLAG_HYPHEN_ALPHA]gīta sāme 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The great sage Nārada plays his vīṇā in accompaniment to [the chanting of] the names of Śrī Rādhikā-Ramaṇa, and the holy name immediately appears amidst the devotees’ singing."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "nārada",
+       "Nārada"
+      ],
+      [
+       "muni",
+       "the great sage"
+      ],
+      [
+       "bājāya",
+       "plays"
+      ],
+      [
+       "bīṇā",
+       "a kind of musical heptacord"
+      ],
+      [
+       "rādhikāramaṇa",
+       "Rādhikā-Ramaṇa"
+      ],
+      [
+       "nāme",
+       "to the names"
+      ],
+      [
+       "nāma",
+       "the holy name"
+      ],
+      [
+       "amani",
+       "immediately"
+      ],
+      [
+       "udita haya",
+       "appears"
+      ],
+      [
+       "bhakata",
+       "devotees"
+      ],
+      [
+       "gīta",
+       "singing"
+      ],
+      [
+       "sāme",
+       "(rāg-viśeṣ) in the melody"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "नारद",
+       "Nārada"
+      ],
+      [
+       "मुनि",
+       "the great sage"
+      ],
+      [
+       "बाजाय",
+       "plays"
+      ],
+      [
+       "बीणा",
+       "a kind of musical heptacord"
+      ],
+      [
+       "राधिकारमण",
+       "Rādhikā-Ramaṇa"
+      ],
+      [
+       "नामॆ",
+       "to the names"
+      ],
+      [
+       "नाम",
+       "the holy name"
+      ],
+      [
+       "अमनि",
+       "immediately"
+      ],
+      [
+       "उदित हय",
+       "appears"
+      ],
+      [
+       "भकत",
+       "devotees"
+      ],
+      [
+       "गीत",
+       "singing"
+      ],
+      [
+       "सामॆ",
+       "(rāg-viśeṣ) in the melody"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "নারদ",
+       "Nārada"
+      ],
+      [
+       "মুনি",
+       "the great sage"
+      ],
+      [
+       "বাজায়",
+       "plays"
+      ],
+      [
+       "বীণা",
+       "a kind of musical heptacord"
+      ],
+      [
+       "রাধিকারমণ",
+       "Rādhikā-Ramaṇa"
+      ],
+      [
+       "নামে",
+       "to the names"
+      ],
+      [
+       "নাম",
+       "the holy name"
+      ],
+      [
+       "অমনি",
+       "immediately"
+      ],
+      [
+       "উদিত হয়",
+       "appears"
+      ],
+      [
+       "ভকত",
+       "devotees"
+      ],
+      [
+       "গীত",
+       "singing"
+      ],
+      [
+       "সামে",
+       "(rāg-viśeṣ) in the melody"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "નારદ",
+       "Nārada"
+      ],
+      [
+       "મુનિ",
+       "the great sage"
+      ],
+      [
+       "બાજાય",
+       "plays"
+      ],
+      [
+       "બીણા",
+       "a kind of musical heptacord"
+      ],
+      [
+       "રાધિકારમણ",
+       "Rādhikā-Ramaṇa"
+      ],
+      [
+       "નામે",
+       "to the names"
+      ],
+      [
+       "નામ",
+       "the holy name"
+      ],
+      [
+       "અમનિ",
+       "immediately"
+      ],
+      [
+       "ઉદિત હય",
+       "appears"
+      ],
+      [
+       "ભકત",
+       "devotees"
+      ],
+      [
+       "ગીત",
+       "singing"
+      ],
+      [
+       "સામે",
+       "(rāg-viśeṣ) in the melody"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "नारद मुनि,    बाजाय बीणा,",
+      "राधिकारमणनामॆ",
+      "नाम अमनि,    उदित हय,",
+      "भकतगीत सामॆ १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নারদ মুনি,    বাজায় বীণা,",
+      "রাধিকারমণনামে",
+      "নাম অমনি,    উদিত হয়,",
+      "ভকতগীত সামে ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନାରଦ ମୁନି,    ବାଜାୟ ବୀଣା,",
+      "ରାଧିକାରମଣନାମେ",
+      "ନାମ ଅମନି,    ଉଦିତ ହୟ,",
+      "ଭକତଗୀତ ସାମେ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નારદ મુનિ,    બાજાય બીણા,",
+      "રાધિકારમણનામે",
+      "નામ અમનિ,    ઉદિત હય,",
+      "ભકતગીત સામે ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nārada muni,    bājāya bīṇā,",
+      "rādhikāramaṇa-nāme",
+      "nāma amani,    udita haya,",
+      "bhakata-gīta sāme 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಾರದ ಮುನಿ,    ಬಾಜಾಯ ಬೀಣಾ,",
+      "ರಾಧಿಕಾರಮಣನಾಮೆ",
+      "ನಾಮ ಅಮನಿ,    ಉದಿತ ಹಯ,",
+      "ಭಕತಗೀತ ಸಾಮೆ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నారద ముని,    బాజాయ బీణా,",
+      "రాధికారమణనామె",
+      "నామ అమని,    ఉదిత హయ,",
+      "భకతగీత సామె 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "на̄рада муни,    ба̄джа̄йа бӣн̣а̄,",
+      "ра̄дхика̄раман̣ана̄мэ̆",
+      "на̄ма амани,    удита хайа,",
+      "бхакатагӣта са̄мэ̆ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നാരദ മുനി,    ബാജായ ബീണാ,",
+      "രാധികാരമണനാമെ",
+      "നാമ അമനി,    ഉദിത ഹയ,",
+      "ഭകതഗീത സാമെ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நாரத³ முனி,    பா³ஜாய பீ³ணா,",
+      "ராதி⁴காரமணநாமெ",
+      "நாம அமனி,    உதி³த ஹய,",
+      "ப⁴கதகீ³த ஸாமெ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nārada muni,    bājāya bīṇā,",
+      "rādhikāramaṇa-nāme",
+      "nāma amani,    udita haya,",
+      "bhakata-gīta sāme 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nārada muni,    bājāya bīṇā,",
+      "rādhikāramaṇa-nāme",
+      "nāma amani,    udita haya,",
+      "bhakata-gīta sāme 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "amiya[FLAG_HYPHEN_ALPHA]dhārā,    bariṣe ghana,",
+    "śrabaṇa[FLAG_HYPHEN_ALPHA]yugale giyā",
+    "bhakata[FLAG_HYPHEN_ALPHA]jana,    saghane nāce,",
+    "bhariyā āpana hiyā 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "When the current of nectar [of the holy names of the Lord] streams profusely and enters both ears, the devotees dance continuously, their heart filling with joy."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "amiya",
+       "(amṛta) nectar"
+      ],
+      [
+       "dhārā",
+       "current"
+      ],
+      [
+       "bariṣe",
+       "showers, streams"
+      ],
+      [
+       "ghana",
+       "profuse, severe"
+      ],
+      [
+       "śrabaṇa",
+       "ears"
+      ],
+      [
+       "yugale",
+       "into the two"
+      ],
+      [
+       "giyā",
+       "having gone"
+      ],
+      [
+       "bhakata jana",
+       "the devotees"
+      ],
+      [
+       "saghane",
+       "ceaselessly"
+      ],
+      [
+       "nāce",
+       "dance"
+      ],
+      [
+       "bhariyā",
+       "having filled"
+      ],
+      [
+       "āpana",
+       "their"
+      ],
+      [
+       "hiyā",
+       "hearts"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "अमिय",
+       "(amṛta) nectar"
+      ],
+      [
+       "धारा",
+       "current"
+      ],
+      [
+       "बरिषॆ",
+       "showers, streams"
+      ],
+      [
+       "घन",
+       "profuse, severe"
+      ],
+      [
+       "श्रबण",
+       "ears"
+      ],
+      [
+       "युगलॆ",
+       "into the two"
+      ],
+      [
+       "गिया",
+       "having gone"
+      ],
+      [
+       "भकत जन",
+       "the devotees"
+      ],
+      [
+       "सघनॆ",
+       "ceaselessly"
+      ],
+      [
+       "नाचॆ",
+       "dance"
+      ],
+      [
+       "भरिया",
+       "having filled"
+      ],
+      [
+       "आपन",
+       "their"
+      ],
+      [
+       "हिया",
+       "hearts"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "অমিয়",
+       "(amṛta) nectar"
+      ],
+      [
+       "ধারা",
+       "current"
+      ],
+      [
+       "বরিষে",
+       "showers, streams"
+      ],
+      [
+       "ঘন",
+       "profuse, severe"
+      ],
+      [
+       "শ্রবণ",
+       "ears"
+      ],
+      [
+       "যুগলে",
+       "into the two"
+      ],
+      [
+       "গিয়া",
+       "having gone"
+      ],
+      [
+       "ভকত জন",
+       "the devotees"
+      ],
+      [
+       "সঘনে",
+       "ceaselessly"
+      ],
+      [
+       "নাচে",
+       "dance"
+      ],
+      [
+       "ভরিয়া",
+       "having filled"
+      ],
+      [
+       "আপন",
+       "their"
+      ],
+      [
+       "হিয়া",
+       "hearts"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "અમિય",
+       "(amṛta) nectar"
+      ],
+      [
+       "ધારા",
+       "current"
+      ],
+      [
+       "બરિષે",
+       "showers, streams"
+      ],
+      [
+       "ઘન",
+       "profuse, severe"
+      ],
+      [
+       "શ્રબણ",
+       "ears"
+      ],
+      [
+       "યુગલે",
+       "into the two"
+      ],
+      [
+       "ગિયા",
+       "having gone"
+      ],
+      [
+       "ભકત જન",
+       "the devotees"
+      ],
+      [
+       "સઘને",
+       "ceaselessly"
+      ],
+      [
+       "નાચે",
+       "dance"
+      ],
+      [
+       "ભરિયા",
+       "having filled"
+      ],
+      [
+       "આપન",
+       "their"
+      ],
+      [
+       "હિયા",
+       "hearts"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अमियधारा,    बरिषॆ घन,",
+      "श्रबणयुगलॆ गिया",
+      "भकतजन,    सघनॆ नाचॆ,",
+      "भरिया आपन हिया २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অমিয়ধারা,    বরিষে ঘন,",
+      "শ্রবণয়ুগলে গিয়া",
+      "ভকতজন,    সঘনে নাচে,",
+      "ভরিয়া আপন হিয়া ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅମିୟଧାରା,    ବରିଷେ ଘନ,",
+      "ଶ୍ରବଣୟୁଗଲେ ଗିୟା",
+      "ଭକତଜନ,    ସଘନେ ନାଚେ,",
+      "ଭରିୟା ଆପନ ହିୟା ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અમિયધારા,    બરિષે ઘન,",
+      "શ્રબણયુગલે ગિયા",
+      "ભકતજન,    સઘને નાચે,",
+      "ભરિયા આપન હિયા ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "amiya-dhārā,    bariṣe ghana,",
+      "śrabaṇa-yugale giyā",
+      "bhakata-jana,    saghane nāce,",
+      "bhariyā āpana hiyā 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅಮಿಯಧಾರಾ,    ಬರಿಷೆ ಘನ,",
+      "ಶ್ರಬಣಯುಗಲೆ ಗಿಯಾ",
+      "ಭಕತಜನ,    ಸಘನೆ ನಾಚೆ,",
+      "ಭರಿಯಾ ಆಪನ ಹಿಯಾ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అమియధారా,    బరిషె ఘన,",
+      "శ్రబణయుగలె గియా",
+      "భకతజన,    సఘనె నాచె,",
+      "భరియా ఆపన హియా 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "амийадха̄ра̄,    баришэ̆ гхана,",
+      "ш́рабан̣айугалэ̆ гийа̄",
+      "бхакатаджана,    сагханэ̆ на̄чэ̆,",
+      "бхарийа̄ а̄пана хийа̄ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അമിയധാരാ,    ബരിഷെ ഘന,",
+      "ശ്രബണയുഗലെ ഗിയാ",
+      "ഭകതജന,    സഘനെ നാചെ,",
+      "ഭരിയാ ആപന ഹിയാ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அமியதா⁴ரா,    ப³ரிஷெ க⁴ன,",
+      "ஶ்ரப³ணயுக³லெ கி³யா",
+      "ப⁴கதஜன,    ஸக⁴னெ நாசெ,",
+      "ப⁴ரியா ஆபன ஹியா 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "amiya-dhārā,    bariṣe ghana,",
+      "śrabaṇa-yugale giyā",
+      "bhakata-jana,    saghane nāce,",
+      "bhariyā āpana hiyā 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "amiya-dhārā,    bariṣe ghana,",
+      "śrabaṇa-yugale giyā",
+      "bhakata-jana,    saghane nāce,",
+      "bhariyā āpana hiyā 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "mādhurī[FLAG_HYPHEN_ALPHA]pura,    āsaba paśi’,",
+    "mātāya jagata[FLAG_HYPHEN_ALPHA]jane",
+    "keha bā kā̃de,    keha bā nāce,",
+    "keha māte mane mane 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The stream of sweet nectar maddens the people of the universe. Some weep, some dance, and others become fully intoxicated within their minds."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "mādhurī",
+       "sweet"
+      ],
+      [
+       "pura",
+       "(bhāṇḍār) stream"
+      ],
+      [
+       "āsaba",
+       "(madhu, ĵāhā matta kare)"
+      ],
+      [
+       "paśi’",
+       "having entered"
+      ],
+      [
+       "mātāya",
+       "maddens"
+      ],
+      [
+       "jagata",
+       "the world"
+      ],
+      [
+       "jane",
+       "to the people"
+      ],
+      [
+       "keha",
+       "some"
+      ],
+      [
+       "bā",
+       "[used for emphasis]"
+      ],
+      [
+       "kā̃de",
+       "cry"
+      ],
+      [
+       "keha",
+       "some"
+      ],
+      [
+       "bā",
+       "[used for emphasis]"
+      ],
+      [
+       "nāce",
+       "dance"
+      ],
+      [
+       "keha",
+       "some"
+      ],
+      [
+       "māte",
+       "become intoxicated"
+      ],
+      [
+       "mane mane",
+       "within hearts"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "माधुरी",
+       "sweet"
+      ],
+      [
+       "पुर",
+       "(bhāṇḍār) stream"
+      ],
+      [
+       "आसब",
+       "(madhu, ĵāhā matta kare)"
+      ],
+      [
+       "पशिऽ",
+       "having entered"
+      ],
+      [
+       "माताय",
+       "maddens"
+      ],
+      [
+       "जगत",
+       "the world"
+      ],
+      [
+       "जनॆ",
+       "to the people"
+      ],
+      [
+       "कॆह",
+       "some"
+      ],
+      [
+       "बा",
+       "[used for emphasis]"
+      ],
+      [
+       "कांदॆ",
+       "cry"
+      ],
+      [
+       "कॆह",
+       "some"
+      ],
+      [
+       "बा",
+       "[used for emphasis]"
+      ],
+      [
+       "नाचॆ",
+       "dance"
+      ],
+      [
+       "कॆह",
+       "some"
+      ],
+      [
+       "मातॆ",
+       "become intoxicated"
+      ],
+      [
+       "मनॆ मनॆ",
+       "within hearts"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মাধুরী",
+       "sweet"
+      ],
+      [
+       "পুর",
+       "(bhāṇḍār) stream"
+      ],
+      [
+       "আসব",
+       "(madhu, ĵāhā matta kare)"
+      ],
+      [
+       "পশিঽ",
+       "having entered"
+      ],
+      [
+       "মাতায়",
+       "maddens"
+      ],
+      [
+       "জগত",
+       "the world"
+      ],
+      [
+       "জনে",
+       "to the people"
+      ],
+      [
+       "কেহ",
+       "some"
+      ],
+      [
+       "বা",
+       "[used for emphasis]"
+      ],
+      [
+       "কান্দে",
+       "cry"
+      ],
+      [
+       "কেহ",
+       "some"
+      ],
+      [
+       "বা",
+       "[used for emphasis]"
+      ],
+      [
+       "নাচে",
+       "dance"
+      ],
+      [
+       "কেহ",
+       "some"
+      ],
+      [
+       "মাতে",
+       "become intoxicated"
+      ],
+      [
+       "মনে মনে",
+       "within hearts"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "માધુરી",
+       "sweet"
+      ],
+      [
+       "પુર",
+       "(bhāṇḍār) stream"
+      ],
+      [
+       "આસબ",
+       "(madhu, ĵāhā matta kare)"
+      ],
+      [
+       "પશિઽ",
+       "having entered"
+      ],
+      [
+       "માતાય",
+       "maddens"
+      ],
+      [
+       "જગત",
+       "the world"
+      ],
+      [
+       "જને",
+       "to the people"
+      ],
+      [
+       "કેહ",
+       "some"
+      ],
+      [
+       "બા",
+       "[used for emphasis]"
+      ],
+      [
+       "કાંદે",
+       "cry"
+      ],
+      [
+       "કેહ",
+       "some"
+      ],
+      [
+       "બા",
+       "[used for emphasis]"
+      ],
+      [
+       "નાચે",
+       "dance"
+      ],
+      [
+       "કેહ",
+       "some"
+      ],
+      [
+       "માતે",
+       "become intoxicated"
+      ],
+      [
+       "મને મને",
+       "within hearts"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "माधुरीपुर,    आसब पशिऽ,",
+      "माताय जगतजनॆ",
+      "कॆह बा कांदॆ,    कॆह बा नाचॆ,",
+      "कॆह मातॆ मनॆ मनॆ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মাধুরীপুর,    আসব পশিঽ,",
+      "মাতায় জগতজনে",
+      "কেহ বা কান্দে,    কেহ বা নাচে,",
+      "কেহ মাতে মনে মনে ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମାଧୁରୀପୁର,    ଆସବ ପଶିଽ,",
+      "ମାତାୟ ଜଗତଜନେ",
+      "କେହ ବା କାନ୍ଦେ,    କେହ ବା ନାଚେ,",
+      "କେହ ମାତେ ମନେ ମନେ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "માધુરીપુર,    આસબ પશિઽ,",
+      "માતાય જગતજને",
+      "કેહ બા કાંદે,    કેહ બા નાચે,",
+      "કેહ માતે મને મને ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "mādhurī-pura,    āsaba paśi’,",
+      "mātāya jagata-jane",
+      "keha bā kā̃de,    keha bā nāce,",
+      "keha māte mane mane 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಾಧುರೀಪುರ,    ಆಸಬ ಪಶಿಽ,",
+      "ಮಾತಾಯ ಜಗತಜನೆ",
+      "ಕೆಹ ಬಾ ಕಾಂದೆ,    ಕೆಹ ಬಾ ನಾಚೆ,",
+      "ಕೆಹ ಮಾತೆ ಮನೆ ಮನೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మాధురీపుర,    ఆసబ పశిఽ,",
+      "మాతాయ జగతజనె",
+      "కెహ బా కాందె,    కెహ బా నాచె,",
+      "కెహ మాతె మనె మనె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ма̄дхурӣпура,    а̄саба паш́и',",
+      "ма̄та̄йа джагатаджанэ̆",
+      "кэ̆ха ба̄ ка̄м̣дэ̆,    кэ̆ха ба̄ на̄чэ̆,",
+      "кэ̆ха ма̄тэ̆ манэ̆ манэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മാധുരീപുര,    ആസബ പശിഽ,",
+      "മാതായ ജഗതജനെ",
+      "കെഹ ബാ കാന്ദെ,    കെഹ ബാ നാചെ,",
+      "കെഹ മാതെ മനെ മനെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மாது⁴ரீபுர,    ஆஸப³ பஶி(அ),",
+      "மாதாய ஜக³தஜனெ",
+      "கெஹ பா³ காந்தெ³,    கெஹ பா³ நாசெ,",
+      "கெஹ மாதெ மனெ மனெ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "mādhurī-pura,    āsaba paśi’,",
+      "mātāya jagata-jane",
+      "keha bā kā̃de,    keha bā nāce,",
+      "keha māte mane mane 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "mādhurī-pura,    āsaba paśi’,",
+      "mātāya jagata-jane",
+      "keha bā kā̃de,    keha bā nāce,",
+      "keha māte mane mane 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "pañcabadana,    nārade dhari’,",
+    "premera saghana rola",
+    "kamalāsana,    nāciyā bale,",
+    "‘bola bola haribola’ 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The five-headed Lord Śiva, embracing Nārada, roars repeatedly out of prema, while he who sits upon a lotus flower, Lord Brahmā, dances enthusiastically and calls out, “Haribol! Haribol!”"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "pañcabadana",
+       "a name for Śiva which means “he of five (pañca) heads (vadan)”"
+      ],
+      [
+       "nārade",
+       "to Nārada"
+      ],
+      [
+       "dhari’",
+       "having embraced"
+      ],
+      [
+       "premera",
+       "out of love"
+      ],
+      [
+       "saghana",
+       "repeatedly"
+      ],
+      [
+       "rola",
+       "cries out"
+      ],
+      [
+       "kamalāsana",
+       "a name for Lord Brahmā which means “he whose seat (āsan) is of a lotus flower (kamala)”"
+      ],
+      [
+       "nāciyā",
+       "having danced"
+      ],
+      [
+       "bale",
+       "calls out"
+      ],
+      [
+       "bola",
+       "chant"
+      ],
+      [
+       "bola",
+       "chant"
+      ],
+      [
+       "haribola’",
+       "chant the names of Hari"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "पञ्चबदन",
+       "a name for Śiva which means “he of five (pañca) heads (vadan)”"
+      ],
+      [
+       "नारदॆ",
+       "to Nārada"
+      ],
+      [
+       "धरिऽ",
+       "having embraced"
+      ],
+      [
+       "प्रॆमॆर",
+       "out of love"
+      ],
+      [
+       "सघन",
+       "repeatedly"
+      ],
+      [
+       "रॊल",
+       "cries out"
+      ],
+      [
+       "कमलासन",
+       "a name for Lord Brahmā which means “he whose seat (āsan) is of a lotus flower (kamala)”"
+      ],
+      [
+       "नाचिया",
+       "having danced"
+      ],
+      [
+       "बलॆ",
+       "calls out"
+      ],
+      [
+       "बॊल",
+       "chant"
+      ],
+      [
+       "बॊल",
+       "chant"
+      ],
+      [
+       "हरिबॊलऽ",
+       "chant the names of Hari"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "পঞ্চবদন",
+       "a name for Śiva which means “he of five (pañca) heads (vadan)”"
+      ],
+      [
+       "নারদে",
+       "to Nārada"
+      ],
+      [
+       "ধরিঽ",
+       "having embraced"
+      ],
+      [
+       "প্রেমের",
+       "out of love"
+      ],
+      [
+       "সঘন",
+       "repeatedly"
+      ],
+      [
+       "রোল",
+       "cries out"
+      ],
+      [
+       "কমলাসন",
+       "a name for Lord Brahmā which means “he whose seat (āsan) is of a lotus flower (kamala)”"
+      ],
+      [
+       "নাচিয়া",
+       "having danced"
+      ],
+      [
+       "বলে",
+       "calls out"
+      ],
+      [
+       "বোল",
+       "chant"
+      ],
+      [
+       "বোল",
+       "chant"
+      ],
+      [
+       "হরিবোলঽ",
+       "chant the names of Hari"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "પઞ્ચબદન",
+       "a name for Śiva which means “he of five (pañca) heads (vadan)”"
+      ],
+      [
+       "નારદે",
+       "to Nārada"
+      ],
+      [
+       "ધરિઽ",
+       "having embraced"
+      ],
+      [
+       "પ્રેમેર",
+       "out of love"
+      ],
+      [
+       "સઘન",
+       "repeatedly"
+      ],
+      [
+       "રોલ",
+       "cries out"
+      ],
+      [
+       "કમલાસન",
+       "a name for Lord Brahmā which means “he whose seat (āsan) is of a lotus flower (kamala)”"
+      ],
+      [
+       "નાચિયા",
+       "having danced"
+      ],
+      [
+       "બલે",
+       "calls out"
+      ],
+      [
+       "બોલ",
+       "chant"
+      ],
+      [
+       "બોલ",
+       "chant"
+      ],
+      [
+       "હરિબોલઽ",
+       "chant the names of Hari"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "पञ्चबदन,    नारदॆ धरिऽ,",
+      "प्रॆमॆर सघन रॊल",
+      "कमलासन,    नाचिया बलॆ,",
+      "‘बॊल बॊल हरिबॊलऽ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "পঞ্চবদন,    নারদে ধরিঽ,",
+      "প্রেমের সঘন রোল",
+      "কমলাসন,    নাচিয়া বলে,",
+      "‘বোল বোল হরিবোলঽ ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପଞ୍ଚବଦନ,    ନାରଦେ ଧରିଽ,",
+      "ପ୍ରେମେର ସଘନ ରୋଲ",
+      "କମଲାସନ,    ନାଚିୟା ବଲେ,",
+      "‘ବୋଲ ବୋଲ ହରିବୋଲଽ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પઞ્ચબદન,    નારદે ધરિઽ,",
+      "પ્રેમેર સઘન રોલ",
+      "કમલાસન,    નાચિયા બલે,",
+      "‘બોલ બોલ હરિબોલઽ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "pañcabadana,    nārade dhari’,",
+      "premera saghana rola",
+      "kamalāsana,    nāciyā bale,",
+      "‘bola bola haribola’ 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪಂಚಬದನ,    ನಾರದೆ ಧರಿಽ,",
+      "ಪ್ರೆಮೆರ ಸಘನ ರೊಲ",
+      "ಕಮಲಾಸನ,    ನಾಚಿಯಾ ಬಲೆ,",
+      "‘ಬೊಲ ಬೊಲ ಹರಿಬೊಲಽ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "పంచబదన,    నారదె ధరిఽ,",
+      "ప్రెమెర సఘన రొల",
+      "కమలాసన,    నాచియా బలె,",
+      "‘బొల బొల హరిబొలఽ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "пан̃чабадана,    на̄радэ̆ дхари',",
+      "прэ̆мэ̆ра сагхана ро̆ла",
+      "камала̄сана,    на̄чийа̄ балэ̆,",
+      "‘бо̆ла бо̆ла харибо̆ла' 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പഞ്ചബദന,    നാരദെ ധരിഽ,",
+      "പ്രെമെര സഘന രൊല",
+      "കമലാസന,    നാചിയാ ബലെ,",
+      "‘ബൊല ബൊല ഹരിബൊലഽ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பஞ்சப³த³ன,    நாரதெ³ த⁴ரி(அ),",
+      "ப்ரெமெர ஸக⁴ன ரொல",
+      "கமலாஸன,    நாசியா ப³லெ,",
+      "‘பொ³ல பொ³ல ஹரிபொ³ல(அ) 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "pañcabadana,    nārade dhari’,",
+      "premera saghana rola",
+      "kamalāsana,    nāciyā bale,",
+      "‘bola bola haribola’ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "pañcabadana,    nārade dhari’,",
+      "premera saghana rola",
+      "kamalāsana,    nāciyā bale,",
+      "‘bola bola haribola’ 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "sahasrānana,    paramasukhe,",
+    "‘hari hari’ bali’ gāya",
+    "nāma[FLAG_HYPHEN_ALPHA]prabhābe,    mātila biśba,",
+    "nāma[FLAG_HYPHEN_ALPHA]rasa sabe pāya 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Thousand-headed Lord Śeṣa, feeling supreme happiness, sings, “Hari!  Hari!”  By the influence of the holy name, the entire universe becomes maddened, and everyone tastes the rasa of the holy name."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "sahasrānana",
+       "a name for Ananta Śeṣa which means “he of a thousand (sahasra) faces (ānana)"
+      ],
+      [
+       "paramasukhe",
+       "supreme + in happiness"
+      ],
+      [
+       "hari hari’",
+       "“Hari Hari”"
+      ],
+      [
+       "bali’",
+       "having uttered"
+      ],
+      [
+       "gāya",
+       "sings"
+      ],
+      [
+       "nāma",
+       "the holy names"
+      ],
+      [
+       "prabhābe",
+       "by the influence"
+      ],
+      [
+       "mātila",
+       "maddened, intoxicated"
+      ],
+      [
+       "biśba",
+       "the universe"
+      ],
+      [
+       "nāma",
+       "the holy name"
+      ],
+      [
+       "rasa",
+       "nectar"
+      ],
+      [
+       "sabe",
+       "everyone"
+      ],
+      [
+       "pāya",
+       "obtains"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "सहस्रानन",
+       "a name for Ananta Śeṣa which means “he of a thousand (sahasra) faces (ānana)"
+      ],
+      [
+       "परमसुखॆ",
+       "supreme + in happiness"
+      ],
+      [
+       "हरि हरिऽ",
+       "“Hari Hari”"
+      ],
+      [
+       "बलिऽ",
+       "having uttered"
+      ],
+      [
+       "गाय",
+       "sings"
+      ],
+      [
+       "नाम",
+       "the holy names"
+      ],
+      [
+       "प्रभाबॆ",
+       "by the influence"
+      ],
+      [
+       "मातिल",
+       "maddened, intoxicated"
+      ],
+      [
+       "बिश्ब",
+       "the universe"
+      ],
+      [
+       "नाम",
+       "the holy name"
+      ],
+      [
+       "रस",
+       "nectar"
+      ],
+      [
+       "सबॆ",
+       "everyone"
+      ],
+      [
+       "पाय",
+       "obtains"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "সহস্রানন",
+       "a name for Ananta Śeṣa which means “he of a thousand (sahasra) faces (ānana)"
+      ],
+      [
+       "পরমসুখে",
+       "supreme + in happiness"
+      ],
+      [
+       "হরি হরিঽ",
+       "“Hari Hari”"
+      ],
+      [
+       "বলিঽ",
+       "having uttered"
+      ],
+      [
+       "গায়",
+       "sings"
+      ],
+      [
+       "নাম",
+       "the holy names"
+      ],
+      [
+       "প্রভাবে",
+       "by the influence"
+      ],
+      [
+       "মাতিল",
+       "maddened, intoxicated"
+      ],
+      [
+       "বিশ্ব",
+       "the universe"
+      ],
+      [
+       "নাম",
+       "the holy name"
+      ],
+      [
+       "রস",
+       "nectar"
+      ],
+      [
+       "সবে",
+       "everyone"
+      ],
+      [
+       "পায়",
+       "obtains"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "સહસ્રાનન",
+       "a name for Ananta Śeṣa which means “he of a thousand (sahasra) faces (ānana)"
+      ],
+      [
+       "પરમસુખે",
+       "supreme + in happiness"
+      ],
+      [
+       "હરિ હરિઽ",
+       "“Hari Hari”"
+      ],
+      [
+       "બલિઽ",
+       "having uttered"
+      ],
+      [
+       "ગાય",
+       "sings"
+      ],
+      [
+       "નામ",
+       "the holy names"
+      ],
+      [
+       "પ્રભાબે",
+       "by the influence"
+      ],
+      [
+       "માતિલ",
+       "maddened, intoxicated"
+      ],
+      [
+       "બિશ્બ",
+       "the universe"
+      ],
+      [
+       "નામ",
+       "the holy name"
+      ],
+      [
+       "રસ",
+       "nectar"
+      ],
+      [
+       "સબે",
+       "everyone"
+      ],
+      [
+       "પાય",
+       "obtains"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सहस्रानन,    परमसुखॆ,",
+      "‘हरि हरिऽ बलिऽ गाय",
+      "नामप्रभाबॆ,    मातिल बिश्ब,",
+      "नामरस सबॆ पाय ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সহস্রানন,    পরমসুখে,",
+      "‘হরি হরিঽ বলিঽ গায়",
+      "নামপ্রভাবে,    মাতিল বিশ্ব,",
+      "নামরস সবে পায় ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସହସ୍ରାନନ,    ପରମସୁଖେ,",
+      "‘ହରି ହରିଽ ବଲିଽ ଗାୟ",
+      "ନାମପ୍ରଭାବେ,    ମାତିଲ ବିଶ୍ବ,",
+      "ନାମରସ ସବେ ପାୟ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સહસ્રાનન,    પરમસુખે,",
+      "‘હરિ હરિઽ બલિઽ ગાય",
+      "નામપ્રભાબે,    માતિલ બિશ્બ,",
+      "નામરસ સબે પાય ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sahasrānana,    paramasukhe,",
+      "‘hari hari’ bali’ gāya",
+      "nāma-prabhābe,    mātila biśba,",
+      "nāma-rasa sabe pāya 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸಹಸ್ರಾನನ,    ಪರಮಸುಖೆ,",
+      "‘ಹರಿ ಹರಿಽ ಬಲಿಽ ಗಾಯ",
+      "ನಾಮಪ್ರಭಾಬೆ,    ಮಾತಿಲ ಬಿಶ್ಬ,",
+      "ನಾಮರಸ ಸಬೆ ಪಾಯ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సహస్రానన,    పరమసుఖె,",
+      "‘హరి హరిఽ బలిఽ గాయ",
+      "నామప్రభాబె,    మాతిల బిశ్బ,",
+      "నామరస సబె పాయ 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сахасра̄нана,    парамасукхэ̆,",
+      "‘хари хари' бали' га̄йа",
+      "на̄мапрабха̄бэ̆,    ма̄тила биш́ба,",
+      "на̄мараса сабэ̆ па̄йа 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സഹസ്രാനന,    പരമസുഖെ,",
+      "‘ഹരി ഹരിഽ ബലിഽ ഗായ",
+      "നാമപ്രഭാബെ,    മാതില ബിശ്ബ,",
+      "നാമരസ സബെ പായ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸஹஸ்ரானன,    பரமஸுகெ²,",
+      "‘ஹரி ஹரி(அ) ப³லி(அ) கா³ய",
+      "நாமப்ரபா⁴பெ³,    மாதில பி³ஶ்ப³,",
+      "நாமரஸ ஸபெ³ பாய 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sahasrānana,    paramasukhe,",
+      "‘hari hari’ bali’ gāya",
+      "nāma-prabhābe,    mātila biśba,",
+      "nāma-rasa sabe pāya 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sahasrānana,    paramasukhe,",
+      "‘hari hari’ bali’ gāya",
+      "nāma-prabhābe,    mātila biśba,",
+      "nāma-rasa sabe pāya 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "śrīkṛṣṇanāma,    rasane sphuri’,",
+    "pūrā’la āmāra āśa",
+    "śrīrūpa[FLAG_HYPHEN_ALPHA]pade,    yācaye ihā,",
+    "bhakatibinoda[FLAG_HYPHEN_ALPHA]dāsa 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "This servant, Bhaktivinoda, prays at the lotus feet of Śrīla Rūpa Gosvāmī, “May the holy names of Śrī Kṛṣṇa fulfill all my desires by manifesting upon my tongue.”"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śrīkṛṣṇanāma",
+       "Śrī Kṛṣṇa + names"
+      ],
+      [
+       "rasane",
+       "on the tongue"
+      ],
+      [
+       "sphuri’",
+       "having manifested"
+      ],
+      [
+       "pūrā’la",
+       "fulfilled"
+      ],
+      [
+       "āmāra",
+       "my"
+      ],
+      [
+       "āśa",
+       "desires"
+      ],
+      [
+       "śrīrūpa",
+       "Śrī Rūpa Gosvāmī"
+      ],
+      [
+       "pade",
+       "at the feet"
+      ],
+      [
+       "yācaye",
+       "prays, begs"
+      ],
+      [
+       "ihā",
+       "this"
+      ],
+      [
+       "bhakatibinoda",
+       "Bhaktivinoda"
+      ],
+      [
+       "dāsa",
+       "the servant"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "श्रीक्ड़्ष्णनाम",
+       "Śrī Kṛṣṇa + names"
+      ],
+      [
+       "रसनॆ",
+       "on the tongue"
+      ],
+      [
+       "स्फुरिऽ",
+       "having manifested"
+      ],
+      [
+       "पूराऽल",
+       "fulfilled"
+      ],
+      [
+       "आमार",
+       "my"
+      ],
+      [
+       "आश",
+       "desires"
+      ],
+      [
+       "श्रीरूप",
+       "Śrī Rūpa Gosvāmī"
+      ],
+      [
+       "पदॆ",
+       "at the feet"
+      ],
+      [
+       "याचयॆ",
+       "prays, begs"
+      ],
+      [
+       "इहा",
+       "this"
+      ],
+      [
+       "भकतिबिनॊद",
+       "Bhaktivinoda"
+      ],
+      [
+       "दास",
+       "the servant"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শ্রীক্ড়্ষ্ণনাম",
+       "Śrī Kṛṣṇa + names"
+      ],
+      [
+       "রসনে",
+       "on the tongue"
+      ],
+      [
+       "স্ফুরিঽ",
+       "having manifested"
+      ],
+      [
+       "পূরাঽল",
+       "fulfilled"
+      ],
+      [
+       "আমার",
+       "my"
+      ],
+      [
+       "আশ",
+       "desires"
+      ],
+      [
+       "শ্রীরূপ",
+       "Śrī Rūpa Gosvāmī"
+      ],
+      [
+       "পদে",
+       "at the feet"
+      ],
+      [
+       "যাচয়ে",
+       "prays, begs"
+      ],
+      [
+       "ইহা",
+       "this"
+      ],
+      [
+       "ভকতিবিনোদ",
+       "Bhaktivinoda"
+      ],
+      [
+       "দাস",
+       "the servant"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શ્રીક્ડ઼્ષ્ણનામ",
+       "Śrī Kṛṣṇa + names"
+      ],
+      [
+       "રસને",
+       "on the tongue"
+      ],
+      [
+       "સ્ફુરિઽ",
+       "having manifested"
+      ],
+      [
+       "પૂરાઽલ",
+       "fulfilled"
+      ],
+      [
+       "આમાર",
+       "my"
+      ],
+      [
+       "આશ",
+       "desires"
+      ],
+      [
+       "શ્રીરૂપ",
+       "Śrī Rūpa Gosvāmī"
+      ],
+      [
+       "પદે",
+       "at the feet"
+      ],
+      [
+       "યાચયે",
+       "prays, begs"
+      ],
+      [
+       "ઇહા",
+       "this"
+      ],
+      [
+       "ભકતિબિનોદ",
+       "Bhaktivinoda"
+      ],
+      [
+       "દાસ",
+       "the servant"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्रीक्ड़्ष्णनाम,    रसनॆ स्फुरिऽ,",
+      "पूराऽल आमार आश",
+      "श्रीरूपपदॆ,    याचयॆ इहा,",
+      "भकतिबिनॊददास ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্রীক্ড়্ষ্ণনাম,    রসনে স্ফুরিঽ,",
+      "পূরাঽল আমার আশ",
+      "শ্রীরূপপদে,    যাচয়ে ইহা,",
+      "ভকতিবিনোদদাস ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣନାମ,    ରସନେ ସ୍ଫୁରିଽ,",
+      "ପୂରାଽଲ ଆମାର ଆଶ",
+      "ଶ୍ରୀରୂପପଦେ,    ଯାଚୟେ ଇହା,",
+      "ଭକତିବିନୋଦଦାସ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્રીક્ડ઼્ષ્ણનામ,    રસને સ્ફુરિઽ,",
+      "પૂરાઽલ આમાર આશ",
+      "શ્રીરૂપપદે,    યાચયે ઇહા,",
+      "ભકતિબિનોદદાસ ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śrīkṛṣṇanāma,    rasane sphuri’,",
+      "pūrā’la āmāra āśa",
+      "śrīrūpa-pade,    yācaye ihā,",
+      "bhakatibinoda-dāsa 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣನಾಮ,    ರಸನೆ ಸ್ಫುರಿಽ,",
+      "ಪೂರಾಽಲ ಆಮಾರ ಆಶ",
+      "ಶ್ರೀರೂಪಪದೆ,    ಯಾಚಯೆ ಇಹಾ,",
+      "ಭಕತಿಬಿನೊದದಾಸ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్రీక్డ్ష్ణనామ,    రసనె స్ఫురిఽ,",
+      "పూరాఽల ఆమార ఆశ",
+      "శ్రీరూపపదె,    యాచయె ఇహా,",
+      "భకతిబినొదదాస 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́рӣкр̤шн̣ана̄ма,    расанэ̆ спхури',",
+      "пӯра̄'ла а̄ма̄ра а̄ш́а",
+      "ш́рӣрӯпападэ̆,    йа̄чайэ̆ иха̄,",
+      "бхакатибино̆дада̄са 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്രീക്ഡ്ഷ്ണനാമ,    രസനെ സ്ഫുരിഽ,",
+      "പൂരാഽല ആമാര ആശ",
+      "ശ്രീരൂപപദെ,    യാചയെ ഇഹാ,",
+      "ഭകതിബിനൊദദാസ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்ரீக்ஃட்²ஷ்ணநாம,    ரஸனெ ஸ்பு²ரி(அ),",
+      "பூரா(அ)ல ஆமார ஆஶ",
+      "ஶ்ரீரூபபதெ³,    யாசயெ இஹா,",
+      "ப⁴கதிபி³னொத³தா³ஸ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śrīkṛṣṇanāma,    rasane sphuri’,",
+      "pūrā’la āmāra āśa",
+      "śrīrūpa-pade,    yācaye ihā,",
+      "bhakatibinoda-dāsa 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śrīkṛṣṇanāma,    rasane sphuri’,",
+      "pūrā’la āmāra āśa",
+      "śrīrūpa-pade,    yācaye ihā,",
+      "bhakatibinoda-dāsa 6"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "নারদবীণোজ্জীবন সুধোর্মি-নির্য্যাস-মাধুরীপুর ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "ত্বং কৃষ্ণনাম কামং স্ফুর মে রসনে রসেন সদা ॥৮॥"
+  },
+  {
+   "language_code": "ben",
+   "text": ""
+  },
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- সাম—রাগ-বিশেষ; অমিয়—অমৃত; পুর—ভাণ্ডার; আসব—মধু, যাহা মত্ত করে; পঞ্চবদন—শিব; কমলাসন—ব্রহ্মা; সহ্স্রানন—অনন্ত ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "শ্রীশিক্ষাষ্টক"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "gaur-1",
+   "filename": "NM8-gaur-1.mp3",
+   "artist": "Gaurasundar das"
+  },
+  {
+   "uid": "krsn-1",
+   "filename": "NM8-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "krsn-2",
+   "filename": "NM8-krsn-2.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "krsn-3",
+   "filename": "NM8-krsn-3.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "srrb-1",
+   "filename": "NM8-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ]
+}

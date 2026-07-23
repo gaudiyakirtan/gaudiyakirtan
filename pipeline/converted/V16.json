@@ -1,0 +1,554 @@
+{
+ "uid": "V16",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "মিছে মায়া-বশে, সংসার-সাগরে"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "miche māyā-baśe, saṁsāra-sāgare"
+  }
+ ],
+ "author_uid": "কৃষ্ণদাস",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "কৃষ্ণদাস"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Kṛṣṇadāsa"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "miche māyā[FLAG_HYPHEN_ALPHA]baśe,    saṁsāra[FLAG_HYPHEN_ALPHA]sāgare,",
+    "paḓiyā chilāma āmi",
+    "karuṇā kariyā,    diyā pada[FLAG_HYPHEN_ALPHA]chāyā,",
+    "āmāre tārile tumi 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मिछॆ मायाबशॆ,    संसारसागरॆ,",
+      "पḓइया छिलाम आमि",
+      "करुणा करिया,    दिया पदछाया,",
+      "आमारॆ तारिलॆ तुमि १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মিছে মায়াবশে,    সংসারসাগরে,",
+      "পḓইয়া ছিলাম আমি",
+      "করুণা করিয়া,    দিয়া পদছায়া,",
+      "আমারে তারিলে তুমি ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମିଛେ ମାୟାବଶେ,    ସଂସାରସାଗରେ,",
+      "ପḓଇୟା ଛିଲାମ ଆମି",
+      "କରୁଣା କରିୟା,    ଦିୟା ପଦଛାୟା,",
+      "ଆମାରେ ତାରିଲେ ତୁମି ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મિછે માયાબશે,    સંસારસાગરે,",
+      "પḓઇયા છિલામ આમિ",
+      "કરુણા કરિયા,    દિયા પદછાયા,",
+      "આમારે તારિલે તુમિ ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "miche māyā-baśe,    saṁsāra-sāgare,",
+      "paḓiyā chilāma āmi",
+      "karuṇā kariyā,    diyā pada-chāyā,",
+      "āmāre tārile tumi 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಿಛೆ ಮಾಯಾಬಶೆ,    ಸಂಸಾರಸಾಗರೆ,",
+      "ಪḓಇಯಾ ಛಿಲಾಮ ಆಮಿ",
+      "ಕರುಣಾ ಕರಿಯಾ,    ದಿಯಾ ಪದಛಾಯಾ,",
+      "ಆಮಾರೆ ತಾರಿಲೆ ತುಮಿ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మిఛె మాయాబశె,    సంసారసాగరె,",
+      "పḓఇయా ఛిలామ ఆమి",
+      "కరుణా కరియా,    దియా పదఛాయా,",
+      "ఆమారె తారిలె తుమి 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "мичхэ̆ ма̄йа̄баш́э̆,    сам̣са̄раса̄гарэ̆,",
+      "паḓийа̄ чхила̄ма а̄ми",
+      "карун̣а̄ карийа̄,    дийа̄ падачха̄йа̄,",
+      "а̄ма̄рэ̆ та̄рилэ̆ туми 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മിഛെ മായാബശെ,    സംസാരസാഗരെ,",
+      "പḓഇയാ ഛിലാമ ആമി",
+      "കരുണാ കരിയാ,    ദിയാ പദഛായാ,",
+      "ആമാരെ താരിലെ തുമി 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மிசெ² மாயாப³ஶெ,    ஸம்ʼஸாரஸாக³ரெ,",
+      "பḓஇயா சி²லாம ஆமி",
+      "கருணா கரியா,    தி³யா பத³சா²யா,",
+      "ஆமாரெ தாரிலெ துமி 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "miche māyā-baśe,    saṁsāra-sāgare,",
+      "paḍiyā chilāma āmi",
+      "karuṇā kariyā,    diyā pada-chāyā,",
+      "āmāre tārile tumi 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "miche māyā-baśe,    saṁsāra-sāgare,",
+      "paḓiyā chilāma āmi",
+      "karuṇā kariyā,    diyā pada-chāyā,",
+      "āmāre tārile tumi 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "śuna śuna baiṣṇaba ṭhākura",
+    "tomāra caraṇe,    sā̃piyāchi māthā,",
+    "mora duḥkha kara dūra 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शुन शुन बैष्णब ठाकुर",
+      "तॊमार चरणॆ,    सांपियाछि माथा,",
+      "मॊर दुःख कर दूर २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শুন শুন বৈষ্ণব ঠাকুর",
+      "তোমার চরণে,    সাম্পিয়াছি মাথা,",
+      "মোর দুঃখ কর দূর ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶୁନ ଶୁନ ବୈଷ୍ଣବ ଠାକୁର",
+      "ତୋମାର ଚରଣେ,    ସାମ୍ପିୟାଛି ମାଥା,",
+      "ମୋର ଦୁଃଖ କର ଦୂର ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શુન શુન બૈષ્ણબ ઠાકુર",
+      "તોમાર ચરણે,    સાંપિયાછિ માથા,",
+      "મોર દુઃખ કર દૂર ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śuna śuna baiṣṇaba ṭhākura",
+      "tomāra caraṇe,    sā̃piyāchi māthā,",
+      "mora duḥkha kara dūra 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶುನ ಶುನ ಬೈಷ್ಣಬ ಠಾಕುರ",
+      "ತೊಮಾರ ಚರಣೆ,    ಸಾಂಪಿಯಾಛಿ ಮಾಥಾ,",
+      "ಮೊರ ದುಃಖ ಕರ ದೂರ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శున శున బైష్ణబ ఠాకుర",
+      "తొమార చరణె,    సాంపియాఛి మాథా,",
+      "మొర దుఃఖ కర దూర 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́уна ш́уна баишн̣аба т̣ха̄кура",
+      "то̆ма̄ра чаран̣э̆,    са̄м̣пийа̄чхи ма̄тха̄,",
+      "мо̆ра дух̣кха кара дӯра 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശുന ശുന ബൈഷ്ണബ ഠാകുര",
+      "തൊമാര ചരണെ,    സാമ്പിയാഛി മാഥാ,",
+      "മൊര ദുഃഖ കര ദൂര 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶுன ஶுன பை³ஷ்ணப³ டா²குர",
+      "தொமார சரணெ,    ஸாம்பியாசி² மாதா²,",
+      "மொர து³꞉க² கர தூ³ர 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śuna śuna baiṣṇaba ṭhākura",
+      "tomāra caraṇe,    sā̃piyāchi māthā,",
+      "mora duḥkha kara dūra 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śuna śuna baiṣṇaba ṭhākura",
+      "tomāra caraṇe,    sā̃piyāchi māthā,",
+      "mora duḥkha kara dūra 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "jātira gauraba,    kebala rauraba,",
+    "bidyā se abidyā[FLAG_HYPHEN_ALPHA]kalā",
+    "śadhiyā āmāya,    nitāi[FLAG_HYPHEN_ALPHA]caraṇe,",
+    "sā̃pahe—jāuka jbālā 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जातिर गौरब,    कॆबल रौरब,",
+      "बिद्या सॆ अबिद्याकला",
+      "शधिया आमाय,    निताइचरणॆ,",
+      "सांपहॆ—जाउक ज्बाला ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জাতির গৌরব,    কেবল রৌরব,",
+      "বিদ্যা সে অবিদ্যাকলা",
+      "শধিয়া আমায়,    নিতাইচরণে,",
+      "সাম্পহে—জাউক জ্বালা ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜାତିର ଗୌରବ,    କେବଲ ରୌରବ,",
+      "ବିଦ୍ୟା ସେ ଅବିଦ୍ୟାକଲା",
+      "ଶଧିୟା ଆମାୟ,    ନିତାଇଚରଣେ,",
+      "ସାମ୍ପହେ—ଜାଉକ ଜ୍ବାଲା ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જાતિર ગૌરબ,    કેબલ રૌરબ,",
+      "બિદ્યા સે અબિદ્યાકલા",
+      "શધિયા આમાય,    નિતાઇચરણે,",
+      "સાંપહે—જાઉક જ્બાલા ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jātira gauraba,    kebala rauraba,",
+      "bidyā se abidyā-kalā",
+      "śadhiyā āmāya,    nitāi-caraṇe,",
+      "sā̃pahe—jāuka jbālā 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜಾತಿರ ಗೌರಬ,    ಕೆಬಲ ರೌರಬ,",
+      "ಬಿದ್ಯಾ ಸೆ ಅಬಿದ್ಯಾಕಲಾ",
+      "ಶಧಿಯಾ ಆಮಾಯ,    ನಿತಾಇಚರಣೆ,",
+      "ಸಾಂಪಹೆ—ಜಾಉಕ ಜ್ಬಾಲಾ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జాతిర గౌరబ,    కెబల రౌరబ,",
+      "బిద్యా సె అబిద్యాకలా",
+      "శధియా ఆమాయ,    నితాఇచరణె,",
+      "సాంపహె—జాఉక జ్బాలా 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джа̄тира гаураба,    кэ̆бала раураба,",
+      "бидйа̄ сэ̆ абидйа̄кала̄",
+      "ш́адхийа̄ а̄ма̄йа,    нита̄ичаран̣э̆,",
+      "са̄м̣пахэ̆—джа̄ука джба̄ла̄ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജാതിര ഗൗരബ,    കെബല രൗരബ,",
+      "ബിദ്യാ സെ അബിദ്യാകലാ",
+      "ശധിയാ ആമായ,    നിതാഇചരണെ,",
+      "സാമ്പഹെ—ജാഉക ജ്ബാലാ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜாதிர கௌ³ரப³,    கெப³ல ரௌரப³,",
+      "பி³த்³யா ஸெ அபி³த்³யாகலா",
+      "ஶதி⁴யா ஆமாய,    நிதாஇசரணெ,",
+      "ஸாம்பஹெ—ஜாஉக ஜ்பா³லா 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jātira gauraba,    kebala rauraba,",
+      "bidyā se abidyā-kalā",
+      "śadhiyā āmāya,    nitāi-caraṇe,",
+      "sā̃pahe—jāuka jbālā 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jātira gauraba,    kebala rauraba,",
+      "bidyā se abidyā-kalā",
+      "śadhiyā āmāya,    nitāi-caraṇe,",
+      "sā̃pahe—jāuka jbālā 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "tomāra kṛpāya,    āmāra jihbāya,",
+    "sphuruka yugala[FLAG_HYPHEN_ALPHA]nāma",
+    "kahe kṛṣṇadāsa,    āmāra hṛdaye,",
+    "jāguka śrīrādhāśyāma 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तॊमार क्ड़्पाय,    आमार जिह्बाय,",
+      "स्फुरुक युगलनाम",
+      "कहॆ क्ड़्ष्णदास,    आमार ह्ड़्दयॆ,",
+      "जागुक श्रीराधाश्याम ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তোমার ক্ড়্পায়,    আমার জিহ্বায়,",
+      "স্ফুরুক যুগলনাম",
+      "কহে ক্ড়্ষ্ণদাস,    আমার হ্ড়্দয়ে,",
+      "জাগুক শ্রীরাধাশ্যাম ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୋମାର କ୍ଡ଼୍ପାୟ,    ଆମାର ଜିହ୍ବାୟ,",
+      "ସ୍ଫୁରୁକ ଯୁଗଲନାମ",
+      "କହେ କ୍ଡ଼୍ଷ୍ଣଦାସ,    ଆମାର ହ୍ଡ଼୍ଦୟେ,",
+      "ଜାଗୁକ ଶ୍ରୀରାଧାଶ୍ୟାମ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તોમાર ક્ડ઼્પાય,    આમાર જિહ્બાય,",
+      "સ્ફુરુક યુગલનામ",
+      "કહે ક્ડ઼્ષ્ણદાસ,    આમાર હ્ડ઼્દયે,",
+      "જાગુક શ્રીરાધાશ્યામ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tomāra kṛpāya,    āmāra jihbāya,",
+      "sphuruka yugala-nāma",
+      "kahe kṛṣṇadāsa,    āmāra hṛdaye,",
+      "jāguka śrīrādhāśyāma 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತೊಮಾರ ಕ್‌ಡ಼್ಪಾಯ,    ಆಮಾರ ಜಿಹ್ಬಾಯ,",
+      "ಸ್ಫುರುಕ ಯುಗಲನಾಮ",
+      "ಕಹೆ ಕ್‌ಡ಼್ಷ್ಣದಾಸ,    ಆಮಾರ ಹ್‌ಡ಼್ದಯೆ,",
+      "ಜಾಗುಕ ಶ್ರೀರಾಧಾಶ್ಯಾಮ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తొమార క్డ్పాయ,    ఆమార జిహ్బాయ,",
+      "స్ఫురుక యుగలనామ",
+      "కహె క్డ్ష్ణదాస,    ఆమార హ్డ్దయె,",
+      "జాగుక శ్రీరాధాశ్యామ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "то̆ма̄ра кр̤па̄йа,    а̄ма̄ра джихба̄йа,",
+      "спхурука йугалана̄ма",
+      "кахэ̆ кр̤шн̣ада̄са,    а̄ма̄ра хр̤дайэ̆,",
+      "джа̄гука ш́рӣра̄дха̄ш́йа̄ма 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തൊമാര ക്ഡ്പായ,    ആമാര ജിഹ്ബായ,",
+      "സ്ഫുരുക യുഗലനാമ",
+      "കഹെ ക്ഡ്ഷ്ണദാസ,    ആമാര ഹ്ഡ്ദയെ,",
+      "ജാഗുക ശ്രീരാധാശ്യാമ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தொமார க்ஃட்²பாய,    ஆமார ஜிஹ்பா³ய,",
+      "ஸ்பு²ருக யுக³லநாம",
+      "கஹெ க்ஃட்²ஷ்ணதா³ஸ,    ஆமார ஹ்ஃட்²த³யெ,",
+      "ஜாகு³க ஶ்ரீராதா⁴ஶ்யாம 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tomāra kṛpāya,    āmāra jihbāya,",
+      "sphuruka yugala-nāma",
+      "kahe kṛṣṇadāsa,    āmāra hṛdaye,",
+      "jāguka śrīrādhāśyāma 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tomāra kṛpāya,    āmāra jihbāya,",
+      "sphuruka yugala-nāma",
+      "kahe kṛṣṇadāsa,    āmāra hṛdaye,",
+      "jāguka śrīrādhāśyāma 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "জৈবধর্ম্ম হইতে উদ্ধৃত ~ From Jaiva-dharma"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "srrb-1",
+   "filename": "V16-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ]
+}

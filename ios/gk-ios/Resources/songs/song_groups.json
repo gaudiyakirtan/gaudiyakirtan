@@ -1,0 +1,3276 @@
+[
+ {
+  "uid": "book-sanskritsongs",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Sanskrit Songs"
+   }
+  ],
+  "song_uids": [
+   "B10",
+   "B4",
+   "GG1",
+   "GH13",
+   "GH14",
+   "GH15",
+   "GH76",
+   "K28",
+   "K29",
+   "K30",
+   "K31",
+   "K32",
+   "K33",
+   "K35",
+   "K36",
+   "K37",
+   "NM17",
+   "R10",
+   "R12",
+   "R8",
+   "R9",
+   "VT4",
+   "VT7"
+  ],
+  "color": "#B36B00"
+ },
+ {
+  "uid": "book-srikrsna",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Kṛṣṇa"
+   }
+  ],
+  "song_uids": [
+   "D17",
+   "K40",
+   "K41",
+   "K42",
+   "K45",
+   "K49",
+   "K50",
+   "K51",
+   "K54",
+   "K56",
+   "K60",
+   "K61",
+   "K65",
+   "K67",
+   "MS35",
+   "MS36",
+   "NK11",
+   "NK13",
+   "NK15",
+   "NK18",
+   "NK3",
+   "NK30",
+   "NK32"
+  ],
+  "color": "#8CB4FF"
+ },
+ {
+  "uid": "book-srigauranga",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Gaurāṅga"
+   }
+  ],
+  "song_uids": [
+   "GH22",
+   "GH23",
+   "GH34",
+   "GH35",
+   "GH36",
+   "GH37",
+   "GH38",
+   "GH39",
+   "GH40",
+   "GH45",
+   "GH47",
+   "GH49",
+   "GH50",
+   "GH51",
+   "GH52",
+   "GH53",
+   "GH56",
+   "GN11",
+   "GP14"
+  ],
+  "color": "#7A5FAf"
+ },
+ {
+  "uid": "book-srinamakirtana",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Nāma-kīrtana"
+   }
+  ],
+  "song_uids": [
+   "GP1",
+   "MS34",
+   "NK10",
+   "NK17",
+   "NK19",
+   "NK25",
+   "NK26",
+   "NK27",
+   "NK28",
+   "NK29",
+   "NK31",
+   "NK33",
+   "NK4",
+   "NK5",
+   "NK6",
+   "NK8",
+   "NK9",
+   "NM11",
+   "NM12"
+  ],
+  "color": "#3F8C6E"
+ },
+ {
+  "uid": "book-saranagati",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śaraṇāgati"
+   }
+  ],
+  "song_uids": [
+   "E1",
+   "RK28",
+   "S1",
+   "S10",
+   "S12",
+   "S14",
+   "S15",
+   "S16",
+   "S17",
+   "S18",
+   "S20",
+   "S21",
+   "S3",
+   "S30",
+   "S4",
+   "S5",
+   "S6",
+   "S7"
+  ],
+  "color": "#B0553A"
+ },
+ {
+  "uid": "book-sriekadasi",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Srī- Eka-daśī-"
+   }
+  ],
+  "song_uids": [
+   "D10",
+   "D12",
+   "D3",
+   "D7",
+   "D8",
+   "GV15",
+   "K10",
+   "K17",
+   "MS1",
+   "N1",
+   "NM9",
+   "P1",
+   "P2",
+   "R3",
+   "R6",
+   "R7",
+   "U12",
+   "VT6"
+  ],
+  "color": "#9C6B3F"
+ },
+ {
+  "uid": "book-manahsiksa",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Manaḥ-śikṣā"
+   }
+  ],
+  "song_uids": [
+   "MS10",
+   "MS11",
+   "MS12",
+   "MS13",
+   "MS2",
+   "MS3",
+   "MS39",
+   "MS4",
+   "MS40",
+   "MS5",
+   "MS6",
+   "MS61",
+   "MS67",
+   "MS7",
+   "MS8",
+   "MS9",
+   "S8",
+   "U10"
+  ],
+  "color": "#B36B00"
+ },
+ {
+  "uid": "book-sriradha",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Rādhā"
+   }
+  ],
+  "song_uids": [
+   "R13",
+   "R14",
+   "R15",
+   "R16",
+   "R17",
+   "R18",
+   "R19",
+   "R20",
+   "R21",
+   "R22",
+   "R23",
+   "R24",
+   "R25",
+   "R27",
+   "R28",
+   "R31"
+  ],
+  "color": "#8CB4FF"
+ },
+ {
+  "uid": "book-hindibrajbhashakirtanas",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Hindi & Braj Bhasha Kīrtanas"
+   }
+  ],
+  "song_uids": [
+   "B19",
+   "B2",
+   "B22",
+   "B25",
+   "B3",
+   "B5",
+   "B6",
+   "B7",
+   "B8",
+   "D19",
+   "D21",
+   "G13",
+   "G14"
+  ],
+  "color": "#7A5FAf"
+ },
+ {
+  "uid": "book-sanskritstotras",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Sanskrit Stotras"
+   }
+  ],
+  "song_uids": [
+   "D13",
+   "G1",
+   "GH1",
+   "GV17",
+   "GV31",
+   "K1",
+   "K2",
+   "K3",
+   "K4",
+   "R4",
+   "RK1",
+   "SI11"
+  ],
+  "color": "#3F8C6E"
+ },
+ {
+  "uid": "book-vaisnavas",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Vaiṣṇavas"
+   }
+  ],
+  "song_uids": [
+   "V1",
+   "V10",
+   "V16",
+   "V2",
+   "V3",
+   "V4",
+   "V5",
+   "V6",
+   "V7",
+   "V8",
+   "V9"
+  ],
+  "color": "#B0553A"
+ },
+ {
+  "uid": "book-sriguru",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Guru"
+   }
+  ],
+  "song_uids": [
+   "G10",
+   "G2",
+   "G3",
+   "G4",
+   "G6",
+   "G7",
+   "G8",
+   "G9",
+   "GV18",
+   "GV2",
+   "GV30"
+  ],
+  "color": "#9C6B3F"
+ },
+ {
+  "uid": "book-sriupadesamrta",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Upadeśāmṛta"
+   }
+  ],
+  "song_uids": [
+   "U1",
+   "U11",
+   "U2",
+   "U3",
+   "U4",
+   "U5",
+   "U6",
+   "U7",
+   "U8",
+   "U9"
+  ],
+  "color": "#B36B00"
+ },
+ {
+  "uid": "book-namamahima",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Nāma-mahimā"
+   }
+  ],
+  "song_uids": [
+   "NM1",
+   "NM13",
+   "NM15",
+   "NM2",
+   "NM3",
+   "NM4",
+   "NM5",
+   "NM6",
+   "NM7",
+   "NM8"
+  ],
+  "color": "#8CB4FF"
+ },
+ {
+  "uid": "book-pancatattva",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Pañca-tattva"
+   }
+  ],
+  "song_uids": [
+   "N13",
+   "N14",
+   "N19",
+   "N7",
+   "N8",
+   "N9",
+   "PT13",
+   "PT3",
+   "PT7"
+  ],
+  "color": "#7A5FAf"
+ },
+ {
+  "uid": "book-gauranityananda",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gaura-Nityānanda"
+   }
+  ],
+  "song_uids": [
+   "GH31",
+   "GH55",
+   "GN10",
+   "GN12",
+   "GN13",
+   "GN3",
+   "GN7",
+   "GN8",
+   "GN9"
+  ],
+  "color": "#3F8C6E"
+ },
+ {
+  "uid": "book-arati",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ārati"
+   }
+  ],
+  "song_uids": [
+   "A10",
+   "A11",
+   "A13",
+   "A14",
+   "A4",
+   "A7",
+   "A8",
+   "A9"
+  ],
+  "color": "#B0553A"
+ },
+ {
+  "uid": "book-addendum",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Addendum"
+   }
+  ],
+  "song_uids": [
+   "D4",
+   "D5",
+   "GH12",
+   "K6",
+   "K62",
+   "K68",
+   "S2",
+   "SB1"
+  ],
+  "color": "#9C6B3F"
+ },
+ {
+  "uid": "book-srisiksastaka",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Śikṣāṣṭaka"
+   }
+  ],
+  "song_uids": [
+   "SI1",
+   "SI2",
+   "SI3",
+   "SI5",
+   "SI6",
+   "SI7",
+   "SI8"
+  ],
+  "color": "#B36B00"
+ },
+ {
+  "uid": "book-mahaprasada",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Mahā-prasāda"
+   }
+  ],
+  "song_uids": [
+   "PR1",
+   "PR2",
+   "PR3",
+   "PR4",
+   "PR5",
+   "PR6"
+  ],
+  "color": "#8CB4FF"
+ },
+ {
+  "uid": "book-radhakrsna",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Rādhā-Kṛṣṇa"
+   }
+  ],
+  "song_uids": [
+   "RK10",
+   "RK11",
+   "RK12",
+   "RK22",
+   "RK26",
+   "RK9"
+  ],
+  "color": "#7A5FAf"
+ },
+ {
+  "uid": "book-gauraparsada",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gaura-parṣada"
+   }
+  ],
+  "song_uids": [
+   "D2",
+   "GP12",
+   "GP13",
+   "GP2",
+   "GP9",
+   "GV47"
+  ],
+  "color": "#3F8C6E"
+ },
+ {
+  "uid": "book-srilarupagosvami",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrīla Rūpa Gosvāmī"
+   }
+  ],
+  "song_uids": [
+   "GV43",
+   "GV44",
+   "GV45",
+   "GV46"
+  ],
+  "color": "#B0553A"
+ },
+ {
+  "uid": "book-misc",
+  "kind": "book",
+  "ordered": true,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Misc"
+   }
+  ],
+  "song_uids": [
+   "BS6",
+   "K43",
+   "M1"
+  ],
+  "color": "#9C6B3F"
+ },
+ {
+  "uid": "topic-addendum-bhuliyatomare",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Bhuliyā Tomāre"
+   }
+  ],
+  "song_uids": [
+   "S2"
+  ]
+ },
+ {
+  "uid": "topic-addendum-mamamanamandire",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Mama Mana Mandire"
+   }
+  ],
+  "song_uids": [
+   "K68"
+  ]
+ },
+ {
+  "uid": "topic-addendum-sribrahmasamhita",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Brahmā-saṁhita"
+   }
+  ],
+  "song_uids": [
+   "K6"
+  ]
+ },
+ {
+  "uid": "topic-gauranityana-dhanamoranityana",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Dhana Mora Nityānanda"
+   }
+  ],
+  "song_uids": [
+   "GN12"
+  ]
+ },
+ {
+  "uid": "topic-gauranityana-eghorasamsare",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "E Ghora-saṁsāre"
+   }
+  ],
+  "song_uids": [
+   "GN8"
+  ]
+ },
+ {
+  "uid": "topic-gauranityana-gauridasamandire",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gaurīdāsa-mandire"
+   }
+  ],
+  "song_uids": [
+   "GH31"
+  ]
+ },
+ {
+  "uid": "topic-gauranityana-kabehabebolo",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Kabe Ha’be Bôlô"
+   }
+  ],
+  "song_uids": [
+   "GN7"
+  ]
+ },
+ {
+  "uid": "topic-gauranityana-kabehabehenodasa",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Kabe Ha’be Henô Daśā Mora"
+   }
+  ],
+  "song_uids": [
+   "GN10"
+  ]
+ },
+ {
+  "uid": "topic-gauranityana-nitaigauranama",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Nitāi-Gaura-nāma"
+   }
+  ],
+  "song_uids": [
+   "GN13"
+  ]
+ },
+ {
+  "uid": "topic-gauranityana-paramakaruna",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Parama Karuṇa"
+   }
+  ],
+  "song_uids": [
+   "GN3"
+  ]
+ },
+ {
+  "uid": "topic-gauranityana-gaurangaboliteha",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "‘Gaurāṅga’ Bôlite Ha’be"
+   }
+  ],
+  "song_uids": [
+   "GN9"
+  ]
+ },
+ {
+  "uid": "topic-gauraparsada-elogaurarasanadi",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "E’lo Gaura-rasa-nadī"
+   }
+  ],
+  "song_uids": [
+   "GP2"
+  ]
+ },
+ {
+  "uid": "topic-gauraparsada-hariharibiphalej",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Hari Hari! Biphale Janama Gõāinu"
+   }
+  ],
+  "song_uids": [
+   "GP13"
+  ]
+ },
+ {
+  "uid": "topic-gauraparsada-jayjaynityananda",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jay Jay Nityānandādvaita Gaurāṅga"
+   }
+  ],
+  "song_uids": [
+   "GP12"
+  ]
+ },
+ {
+  "uid": "topic-gauraparsada-jeanilopremadhan",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ĵe Ānilô Prema-dhana"
+   }
+  ],
+  "song_uids": [
+   "GV47"
+  ]
+ },
+ {
+  "uid": "topic-gauraparsada-kabegauravane",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Kabe Gaura-vane"
+   }
+  ],
+  "song_uids": [
+   "D2"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-anupamamadhurijo",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Anūpama Mādhurī Joḓī"
+   }
+  ],
+  "song_uids": [
+   "B7"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-alimohelagevrnda",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ālī! Mohe Lāge Vṛndāvana Nīko"
+   }
+  ],
+  "song_uids": [
+   "D21"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-basomerenayanana",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Baso Mere Nayanana Mẽ"
+   }
+  ],
+  "song_uids": [
+   "B5"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-brajajanamanasuk",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Braja-jana-mana-sukhakārī"
+   }
+  ],
+  "song_uids": [
+   "B3"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-gurucaranakamala",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Guru-caraṇa-kamala Bhaja Mana"
+   }
+  ],
+  "song_uids": [
+   "G13"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-gurudevakrpakark",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gurudeva, Kṛpā Karke"
+   }
+  ],
+  "song_uids": [
+   "G14"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-jayagovindajayag",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jaya Govinda, Jaya Gopāla"
+   }
+  ],
+  "song_uids": [
+   "B2"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-jayajayaradharam",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jaya Jaya Rādhā Ramaṇa Haribol"
+   }
+  ],
+  "song_uids": [
+   "B19"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-kanhaiyaradhikar",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Kanhaiyā Rādhikārāṇī"
+   }
+  ],
+  "song_uids": [
+   "B8"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-parakarenge",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Pāra Kareṅge"
+   }
+  ],
+  "song_uids": [
+   "B6"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-radhanamaparamas",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Rādhā-nāma Parama Sukhadāī"
+   }
+  ],
+  "song_uids": [
+   "B22"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-radhejhulanapadh",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Rādhe Jhūlana Padhāro"
+   }
+  ],
+  "song_uids": [
+   "B25"
+  ]
+ },
+ {
+  "uid": "topic-hindibrajbha-srigovardhanamah",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Govardhana Mahārāja"
+   }
+  ],
+  "song_uids": [
+   "D19"
+  ]
+ },
+ {
+  "uid": "topic-namamahima-harinamatuwaanek",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Harināma Tuŵā Aneka Svarūpa"
+   }
+  ],
+  "song_uids": [
+   "NM5"
+  ]
+ },
+ {
+  "uid": "topic-namamahima-jayajayaharinama",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jaya Jaya Harināma"
+   }
+  ],
+  "song_uids": [
+   "NM2"
+  ]
+ },
+ {
+  "uid": "topic-namamahima-naradamuni",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Nārada Muni"
+   }
+  ],
+  "song_uids": [
+   "NM8"
+  ]
+ },
+ {
+  "uid": "topic-namamahima-soikebasunailosy",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Sôi, Kebā Śunāilô Śyāma-nāma"
+   }
+  ],
+  "song_uids": [
+   "NM15"
+  ]
+ },
+ {
+  "uid": "topic-pancatattva-akrodhaparamanan",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Akrodha Paramānanda"
+   }
+  ],
+  "song_uids": [
+   "N9"
+  ]
+ },
+ {
+  "uid": "topic-pancatattva-anandakanda",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ānanda-kanda"
+   }
+  ],
+  "song_uids": [
+   "N19"
+  ]
+ },
+ {
+  "uid": "topic-pancatattva-firmfaithinsrini",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Firm Faith in Śrī Nityānanda Prabhu"
+   }
+  ],
+  "song_uids": [
+   "N8"
+  ]
+ },
+ {
+  "uid": "topic-pancatattva-jayajayaadvaitaa",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jaya Jaya Advaita Ācārya Dayāmaya"
+   }
+  ],
+  "song_uids": [
+   "PT13"
+  ]
+ },
+ {
+  "uid": "topic-pancatattva-jayajayagadadhar",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jaya Jaya Gadādhara Paṇḍita Gosā̃i"
+   }
+  ],
+  "song_uids": [
+   "PT7"
+  ]
+ },
+ {
+  "uid": "topic-pancatattva-nitaigunamani",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Nitāi Guṇa-maṇi"
+   }
+  ],
+  "song_uids": [
+   "N14"
+  ]
+ },
+ {
+  "uid": "topic-pancatattva-nitaipadakamala",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Nitāi-pada-kamala"
+   }
+  ],
+  "song_uids": [
+   "N7"
+  ]
+ },
+ {
+  "uid": "topic-pancatattva-thegloriesofsris",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "The Glories of Śrī Śrīvāsa Ṭhākura"
+   }
+  ],
+  "song_uids": [
+   "PT3"
+  ]
+ },
+ {
+  "uid": "topic-radhakrsna-prayersfulloflon",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Prayers Full of Longing"
+   }
+  ],
+  "song_uids": [
+   "RK10"
+  ]
+ },
+ {
+  "uid": "topic-radhakrsna-radhakrsnapranam",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Rādhā-Kṛṣṇa Prāṇa Mora"
+   }
+  ],
+  "song_uids": [
+   "RK9"
+  ]
+ },
+ {
+  "uid": "topic-radhakrsna-sriradhakrsnapad",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Rādhā-Kṛṣṇa Pada-kamale Mana"
+   }
+  ],
+  "song_uids": [
+   "RK11"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-krsnadevabhavant",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "(Kṛṣṇa) Deva! Bhavantaṁ Vande"
+   }
+  ],
+  "song_uids": [
+   "K28"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-jayajayaballavar",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jaya Jaya Ballava-rāja-kumāra"
+   }
+  ],
+  "song_uids": [
+   "K36"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-jayajayasundaran",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jaya Jaya Sundara Nanda-kumāra"
+   }
+  ],
+  "song_uids": [
+   "K35"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-kalayatinayanam",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Kalayati Nayanam"
+   }
+  ],
+  "song_uids": [
+   "R9"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-pasyasacisutam",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Paśya Śacī-sutam"
+   }
+  ],
+  "song_uids": [
+   "GH13"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-ratisukhasare",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Rati-sukha-sāre"
+   }
+  ],
+  "song_uids": [
+   "GG1"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-radhejayajayamad",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Rādhe! Jaya Jaya Mādhava-dayite!"
+   }
+  ],
+  "song_uids": [
+   "R8"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-sakhekalayagaura",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Sakhe, Kalaya Gauram Udāram"
+   }
+  ],
+  "song_uids": [
+   "GH15"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-sridasavatarasto",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Daśāvatāra-stotram"
+   }
+  ],
+  "song_uids": [
+   "VT4"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-srimangalagitam",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Maṅgala-gītam"
+   }
+  ],
+  "song_uids": [
+   "K29"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-srinrsimhastuti",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Nṛsiṁha-stuti"
+   }
+  ],
+  "song_uids": [
+   "VT7"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-vandegirivaradha",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Vande Girivara-dhara-pada-kamalam"
+   }
+  ],
+  "song_uids": [
+   "K33"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-vandevisvambhara",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Vande Viśvambhara"
+   }
+  ],
+  "song_uids": [
+   "GH14"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-srigauranga",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Gaurāṅga"
+   }
+  ],
+  "song_uids": [
+   "GH76"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-srikrsna",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Kṛṣṇa"
+   }
+  ],
+  "song_uids": [
+   "K31",
+   "K37"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-srinama",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Nāma"
+   }
+  ],
+  "song_uids": [
+   "NM17"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-sriradha",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Rādhā"
+   }
+  ],
+  "song_uids": [
+   "R10"
+  ]
+ },
+ {
+  "uid": "topic-sanskritsong-srisriradhakrsna",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Śrī Rādhā-Kṛṣṇa"
+   }
+  ],
+  "song_uids": [
+   "B10",
+   "B4"
+  ]
+ },
+ {
+  "uid": "topic-sanskritstot-sridamodarastaka",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Dāmodarāṣṭakam"
+   }
+  ],
+  "song_uids": [
+   "K1"
+  ]
+ },
+ {
+  "uid": "topic-sanskritstot-srigangastotram",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Gaṅgā-stotram"
+   }
+  ],
+  "song_uids": [
+   "D13"
+  ]
+ },
+ {
+  "uid": "topic-sanskritstot-srigurvastakam",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Gurvāṣṭakam"
+   }
+  ],
+  "song_uids": [
+   "G1"
+  ]
+ },
+ {
+  "uid": "topic-sanskritstot-srimadhurastakam",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Madhurāṣṭakam"
+   }
+  ],
+  "song_uids": [
+   "K4"
+  ]
+ },
+ {
+  "uid": "topic-sanskritstot-srinandanandanas",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Nanda-nandanāṣṭakam"
+   }
+  ],
+  "song_uids": [
+   "K3"
+  ]
+ },
+ {
+  "uid": "topic-sanskritstot-sriprabhupadapad",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Prabhupāda-padma-stavakaḥ"
+   }
+  ],
+  "song_uids": [
+   "GV17"
+  ]
+ },
+ {
+  "uid": "topic-sanskritstot-srisacitanayasta",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Śacī-tanayāṣṭakam"
+   }
+  ],
+  "song_uids": [
+   "GH1"
+  ]
+ },
+ {
+  "uid": "topic-sanskritstot-srisiksastakam",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Śikṣāṣṭakam"
+   }
+  ],
+  "song_uids": [
+   "SI11"
+  ]
+ },
+ {
+  "uid": "topic-sanskritstot-srisadgosvamyast",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Ṣaḍ-gosvāmyaṣṭakam"
+   }
+  ],
+  "song_uids": [
+   "GV31"
+  ]
+ },
+ {
+  "uid": "topic-sanskritstot-srivrajarajasuta",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Vraja-rāja-sutāṣṭakam"
+   }
+  ],
+  "song_uids": [
+   "K2"
+  ]
+ },
+ {
+  "uid": "topic-sriekadasi-dhamaandparikara",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Dhāma and Parikāra"
+   }
+  ],
+  "song_uids": [
+   "D10",
+   "D12",
+   "D3",
+   "D7",
+   "D8",
+   "P1",
+   "P2"
+  ]
+ },
+ {
+  "uid": "topic-sriekadasi-versesforrecitat",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Verses for Recitation"
+   }
+  ],
+  "song_uids": [
+   "MS1",
+   "NM9",
+   "U12"
+  ]
+ },
+ {
+  "uid": "topic-sriekadasi-srisrigurugauran",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Śrī Guru-Gaurāṅga"
+   }
+  ],
+  "song_uids": [
+   "GV15",
+   "N1"
+  ]
+ },
+ {
+  "uid": "topic-sriekadasi-srisriradhakrsna",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Śrī Rādhā-Kṛṣṇa"
+   }
+  ],
+  "song_uids": [
+   "K10",
+   "K17",
+   "R3",
+   "R6",
+   "R7",
+   "VT6"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-avatarasara",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Avatāra-sāra"
+   }
+  ],
+  "song_uids": [
+   "GH39"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-emonagaurangabin",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Emôna Gaurāṅga Binā Nāhi Āra"
+   }
+  ],
+  "song_uids": [
+   "GH35"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-emonasacirananda",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Emôna Śacīra Nandana Bine"
+   }
+  ],
+  "song_uids": [
+   "GH37"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-firmfaithinsriga",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Firm Faith in Śrī Gaurāṅga"
+   }
+  ],
+  "song_uids": [
+   "GH52"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-gaurangatumimore",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gaurāṅga Tumi More"
+   }
+  ],
+  "song_uids": [
+   "GH49"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-gaurangeradutipa",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gaurāṅgera Du’ṭī Pada"
+   }
+  ],
+  "song_uids": [
+   "GH40"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-gorapahunabhajiy",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gorā Pahũ Nā Bhajiyā Mainu"
+   }
+  ],
+  "song_uids": [
+   "GH56"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-hahamoragaurakis",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Hā Hā Mora Gaura-kiśora"
+   }
+  ],
+  "song_uids": [
+   "GH50"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-jayanandanandana",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jaya Nanda-nandana"
+   }
+  ],
+  "song_uids": [
+   "GH22"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-jadigauranganahi",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ĵadi Gaurāṅga Nahito"
+   }
+  ],
+  "song_uids": [
+   "GH36"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-kabeahagaurangab",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Kabe Āhā Gaurāṅga Bôliyā"
+   }
+  ],
+  "song_uids": [
+   "GH51"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-kabesricaitanyam",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Kabe Śrī Caitanya More"
+   }
+  ],
+  "song_uids": [
+   "GH47"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-kejabikejabirebh",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ke Ĵābi Ke Ĵābi Re Bhāi"
+   }
+  ],
+  "song_uids": [
+   "GH38"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-manarekahonagaur",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Mana re! Kahô Nā Gaura Kathā"
+   }
+  ],
+  "song_uids": [
+   "GH53"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-ohepremerathakur",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ohe! Premera Ṭhākura Gorā"
+   }
+  ],
+  "song_uids": [
+   "GH45"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-prayersfulloflon",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Prayers Full Of Longing"
+   }
+  ],
+  "song_uids": [
+   "GN11"
+  ]
+ },
+ {
+  "uid": "topic-srigauranga-srigauratattva",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Gaura-tattva"
+   }
+  ],
+  "song_uids": [
+   "GH23"
+  ]
+ },
+ {
+  "uid": "topic-sriguru-asrayakoriyavand",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Āśraya Kôriyā Vandõ"
+   }
+  ],
+  "song_uids": [
+   "G4"
+  ]
+ },
+ {
+  "uid": "topic-sriguru-gurudevabadokrpa",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gurudeva! Baḓô Kṛpā Kôri"
+   }
+  ],
+  "song_uids": [
+   "G7"
+  ]
+ },
+ {
+  "uid": "topic-sriguru-gurudevakabetava",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gurudeva! Kabe Tava Karuṇā Prakāśe"
+   }
+  ],
+  "song_uids": [
+   "G9"
+  ]
+ },
+ {
+  "uid": "topic-sriguru-gurudevakrpabind",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gurudeva! Kṛpā-bindu Diyā"
+   }
+  ],
+  "song_uids": [
+   "G6"
+  ]
+ },
+ {
+  "uid": "topic-sriguru-jayajayasriguru",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jaya Jaya Śrī Guru"
+   }
+  ],
+  "song_uids": [
+   "G10"
+  ]
+ },
+ {
+  "uid": "topic-sriguru-prayersformercy",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Prayers For Mercy"
+   }
+  ],
+  "song_uids": [
+   "G8"
+  ]
+ },
+ {
+  "uid": "topic-sriguru-srigurucaranapad",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Guru-caraṇa-padma"
+   }
+  ],
+  "song_uids": [
+   "G3"
+  ]
+ },
+ {
+  "uid": "topic-sriguru-sriguruparampara",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Guru-paramparā"
+   }
+  ],
+  "song_uids": [
+   "GV2"
+  ]
+ },
+ {
+  "uid": "topic-sriguru-srigurvastakambe",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Gurvāṣṭakam (Bengali Rendition)"
+   }
+  ],
+  "song_uids": [
+   "G2"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-bandhusange",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Bandhu-saṅge"
+   }
+  ],
+  "song_uids": [
+   "K42"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-bhajahuremana",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Bhajahũ Re Mana"
+   }
+  ],
+  "song_uids": [
+   "MS36"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-bhajobhajohari",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Bhajô Bhajô Hari"
+   }
+  ],
+  "song_uids": [
+   "MS35"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-entreaties",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Entreaties"
+   }
+  ],
+  "song_uids": [
+   "K50"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-gopinathaamaraup",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gopīnātha, Āmāra Upāya Nāi"
+   }
+  ],
+  "song_uids": [
+   "K51"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-gopinathamamaniv",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gopīnātha, Mama Nivedana Śunô"
+   }
+  ],
+  "song_uids": [
+   "K49"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-haribolboaramada",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Hari Bôlbô Āra Madana-mohana Heribô Go"
+   }
+  ],
+  "song_uids": [
+   "K67"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-hariharikrpakori",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Hari Hari! Kṛpā Kôri’ Rākhô Nija Pade"
+   }
+  ],
+  "song_uids": [
+   "K56"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-harihedayalamora",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Hari He Dayāla Mora"
+   }
+  ],
+  "song_uids": [
+   "K61"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-janamasaphalatar",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Janama Saphala Tā’ra"
+   }
+  ],
+  "song_uids": [
+   "K41"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-kabekrsnadhanapa",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Kabe Kṛṣṇa-dhana Pābô"
+   }
+  ],
+  "song_uids": [
+   "K65"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-madhavabahutamin",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Mādhava, Bahuta Minati Kôri Taya"
+   }
+  ],
+  "song_uids": [
+   "K60"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-sunoherasikajana",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śunô, He Rasika Jana"
+   }
+  ],
+  "song_uids": [
+   "K40"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-vrajendranandana",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Vrajendra-nandana"
+   }
+  ],
+  "song_uids": [
+   "K54"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-yamunapuline",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Yamunā-puline"
+   }
+  ],
+  "song_uids": [
+   "K45"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-yearningforresid",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Yearning for Residence in Vṛndāvana"
+   }
+  ],
+  "song_uids": [
+   "D17"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-srigauranamakirt",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Gaura-nāma-kīrtana"
+   }
+  ],
+  "song_uids": [
+   "NK11",
+   "NK13"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-srikrsnanamakirt",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Kṛṣṇa-nāma-kīrtana"
+   }
+  ],
+  "song_uids": [
+   "NK15",
+   "NK18"
+  ]
+ },
+ {
+  "uid": "topic-srikrsna-srinagarakirtana",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Nagara-kīrtana"
+   }
+  ],
+  "song_uids": [
+   "NK30",
+   "NK32"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-angaupangaastrap",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Aṅga-upāṅga-astra-pārṣada Saṅge"
+   }
+  ],
+  "song_uids": [
+   "NK31"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-badosukherkhabor",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Baḓô Sukher Khabor Gāi"
+   }
+  ],
+  "song_uids": [
+   "NK26"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-bhajogauranga",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Bhajô Gaurāṅga"
+   }
+  ],
+  "song_uids": [
+   "NK10"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-bhajorebhajoream",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Bhajô Re Bhajô Re Āmāra Mana"
+   }
+  ],
+  "song_uids": [
+   "GP1"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-bhabonabhabonama",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Bhābô Nā Bhābô Nā Mana"
+   }
+  ],
+  "song_uids": [
+   "MS34"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-bolharibol",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Bol Hari Bol"
+   }
+  ],
+  "song_uids": [
+   "NK8"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-gaygoramadhurasv",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gāy Gorā Madhura Svare"
+   }
+  ],
+  "song_uids": [
+   "NK27"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-haribolemodergau",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Hari Bôle Moder Gaura Elo"
+   }
+  ],
+  "song_uids": [
+   "NK33"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-jayasacinandanaj",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jaya Śacī-nandana, Jaya Gaurahari"
+   }
+  ],
+  "song_uids": [
+   "NK9"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-jayayasodanandan",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jaya Yaśodā-nandana Kṛṣṇa"
+   }
+  ],
+  "song_uids": [
+   "NK19"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-jivajagojivajago",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Jīva Jāgô, Jīva Jāgô"
+   }
+  ],
+  "song_uids": [
+   "NM12"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-kalikukura",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Kali Kukura"
+   }
+  ],
+  "song_uids": [
+   "NK5"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-nadiyagodrume",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Nadīyā-godrume"
+   }
+  ],
+  "song_uids": [
+   "NK25"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-radhakrsnabolbol",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Rādhā-Kṛṣṇa Bôl Bôl"
+   }
+  ],
+  "song_uids": [
+   "NK29"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-udiloaruna",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Udilô Aruṇa"
+   }
+  ],
+  "song_uids": [
+   "NM11"
+  ]
+ },
+ {
+  "uid": "topic-srinamakirta-dayalnitaicaitan",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "‘Dayāl Nitāi Caitanya’ Bô’le"
+   }
+  ],
+  "song_uids": [
+   "NK6"
+  ]
+ },
+ {
+  "uid": "topic-sriradha-cintamanimaya",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Cintāmaṇi-maya"
+   }
+  ],
+  "song_uids": [
+   "R28"
+  ]
+ },
+ {
+  "uid": "topic-sriradha-dekhitedekhite",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Dekhite Dekhite"
+   }
+  ],
+  "song_uids": [
+   "R25"
+  ]
+ },
+ {
+  "uid": "topic-sriradha-palyadasikori",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Pālya-dāsī Kôri’"
+   }
+  ],
+  "song_uids": [
+   "R27"
+  ]
+ },
+ {
+  "uid": "topic-sriradha-ramanisiromani",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ramaṇī-śiromaṇi"
+   }
+  ],
+  "song_uids": [
+   "R15"
+  ]
+ },
+ {
+  "uid": "topic-sriradha-radhabhajanejadi",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Rādhā-bhajane Ĵadi"
+   }
+  ],
+  "song_uids": [
+   "R20"
+  ]
+ },
+ {
+  "uid": "topic-sriradha-radhikacaranaren",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Rādhikā Caraṇa-reṇu"
+   }
+  ],
+  "song_uids": [
+   "R23"
+  ]
+ },
+ {
+  "uid": "topic-sriradha-radhikacaranapad",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Rādhikā-caraṇa-padma"
+   }
+  ],
+  "song_uids": [
+   "R13"
+  ]
+ },
+ {
+  "uid": "topic-sriradha-satakotigopi",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śata-koṭī Gopī"
+   }
+  ],
+  "song_uids": [
+   "R19"
+  ]
+ },
+ {
+  "uid": "topic-sriradha-srikrsnavirahe",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Kṛṣṇa-virahe"
+   }
+  ],
+  "song_uids": [
+   "R22"
+  ]
+ },
+ {
+  "uid": "topic-sriradha-varajavipine",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Varaja-vipine"
+   }
+  ],
+  "song_uids": [
+   "R18"
+  ]
+ },
+ {
+  "uid": "topic-sriradha-vrsabhanusuta",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Vṛṣabhānu-sutā"
+   }
+  ],
+  "song_uids": [
+   "R21"
+  ]
+ },
+ {
+  "uid": "topic-srisiksastak-anadikaramaphale",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Anādi Karama-phale"
+   }
+  ],
+  "song_uids": [
+   "SI5"
+  ]
+ },
+ {
+  "uid": "topic-srisiksastak-aparadhaphalemam",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Aparādha-phale Mama"
+   }
+  ],
+  "song_uids": [
+   "SI6"
+  ]
+ },
+ {
+  "uid": "topic-srisiksastak-gaitegaitenama",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gaite Gaite Nama"
+   }
+  ],
+  "song_uids": [
+   "SI7"
+  ]
+ },
+ {
+  "uid": "topic-srisiksastak-gaitegovindanama",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Gaite Govinda nama"
+   }
+  ],
+  "song_uids": [
+   "SI8"
+  ]
+ },
+ {
+  "uid": "topic-srisiksastak-pitavaranakalipa",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Pīta-varaṇa Kali-pāvana Gorā"
+   }
+  ],
+  "song_uids": [
+   "SI1"
+  ]
+ },
+ {
+  "uid": "topic-srisiksastak-srikrsnakirtanej",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Kṛṣṇa-kīrtane Ĵadi"
+   }
+  ],
+  "song_uids": [
+   "SI3"
+  ]
+ },
+ {
+  "uid": "topic-srisiksastak-tuhudayasagara",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Tuhũ Dayā-sāgara"
+   }
+  ],
+  "song_uids": [
+   "SI2"
+  ]
+ },
+ {
+  "uid": "topic-srilarupagos-srirupamanjaripa",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Rūpa Mañjarī-pada"
+   }
+  ],
+  "song_uids": [
+   "GV44"
+  ]
+ },
+ {
+  "uid": "topic-srilarupagos-suniyachisadhumu",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śuniyāchi Sādhu-mukhe"
+   }
+  ],
+  "song_uids": [
+   "GV45"
+  ]
+ },
+ {
+  "uid": "topic-srilarupagos-visayavasanarupa",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Viṣaya-vāsanā-rūpa"
+   }
+  ],
+  "song_uids": [
+   "GV46"
+  ]
+ },
+ {
+  "uid": "topic-srilarupagos-yankalirupasarir",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Yaṅ Kali Rūpa Śarīra Na Dharata"
+   }
+  ],
+  "song_uids": [
+   "GV43"
+  ]
+ },
+ {
+  "uid": "topic-vaisnavas-eibarakarunakaro",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ei-bāra Karuṇā Karô"
+   }
+  ],
+  "song_uids": [
+   "V8"
+  ]
+ },
+ {
+  "uid": "topic-vaisnavas-hariharikabemora",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Hari Hari! Kabe Mora Habe Henô Dina"
+   }
+  ],
+  "song_uids": [
+   "V6"
+  ]
+ },
+ {
+  "uid": "topic-vaisnavas-kirupepaiboseva",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ki-rūpe Pāibô Sevā"
+   }
+  ],
+  "song_uids": [
+   "V9"
+  ]
+ },
+ {
+  "uid": "topic-vaisnavas-krpakarovaisnava",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Kṛpā Karô Vaiṣṇava Ṭhākura"
+   }
+  ],
+  "song_uids": [
+   "V4"
+  ]
+ },
+ {
+  "uid": "topic-vaisnavas-michemayavase",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Miche-māyā-vaśe"
+   }
+  ],
+  "song_uids": [
+   "V16"
+  ]
+ },
+ {
+  "uid": "topic-vaisnavas-ohevaisnavathaku",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ohe! Vaiṣṇava Ṭhākura"
+   }
+  ],
+  "song_uids": [
+   "V3"
+  ]
+ },
+ {
+  "uid": "topic-vaisnavas-prayersformercy",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Prayers For Mercy"
+   }
+  ],
+  "song_uids": [
+   "V5"
+  ]
+ },
+ {
+  "uid": "topic-vaisnavas-sakalavaisnavago",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Sakala Vaiṣṇava Gosā̃i"
+   }
+  ],
+  "song_uids": [
+   "V10"
+  ]
+ },
+ {
+  "uid": "topic-vaisnavas-srivaisnavavanda",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Vaiṣṇava-vandanā"
+   }
+  ],
+  "song_uids": [
+   "V1"
+  ]
+ },
+ {
+  "uid": "topic-vaisnavas-thakuravaisnavag",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ṭhākura Vaiṣṇava-gaṇa"
+   }
+  ],
+  "song_uids": [
+   "V7"
+  ]
+ },
+ {
+  "uid": "topic-vaisnavas-thakuravaisnavap",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ṭhākura Vaiṣṇava-pada"
+   }
+  ],
+  "song_uids": [
+   "V2"
+  ]
+ },
+ {
+  "uid": "topic-arati-predawnarati",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Predawn Ārati"
+   }
+  ],
+  "song_uids": [
+   "A13"
+  ]
+ },
+ {
+  "uid": "topic-arati-srigauraarati",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Gaura Ārati"
+   }
+  ],
+  "song_uids": [
+   "A10"
+  ]
+ },
+ {
+  "uid": "topic-arati-srimadhyahnabhog",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Madhyāhna Bhoga Ārati"
+   }
+  ],
+  "song_uids": [
+   "A9"
+  ]
+ },
+ {
+  "uid": "topic-arati-srimangalaarati",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Maṅgala Ārati"
+   }
+  ],
+  "song_uids": [
+   "A4"
+  ]
+ },
+ {
+  "uid": "topic-arati-sritulasiparikra",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Tulasī Parikramā and Ārati (1)"
+   }
+  ],
+  "song_uids": [
+   "A14"
+  ]
+ },
+ {
+  "uid": "topic-arati-sriyugalaarati",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śrī Yugala Ārati"
+   }
+  ],
+  "song_uids": [
+   "A11"
+  ]
+ },
+ {
+  "uid": "topic-arati-vibhavarisesa",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Vibhāvarī-Śeṣa"
+   }
+  ],
+  "song_uids": [
+   "A7"
+  ]
+ },
+ {
+  "uid": "topic-arati-yasomatinandana",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Yaśomatī-nandana"
+   }
+  ],
+  "song_uids": [
+   "A8"
+  ]
+ },
+ {
+  "uid": "topic-saranagati-amarajivana",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Āmāra Jīvana"
+   }
+  ],
+  "song_uids": [
+   "S7"
+  ]
+ },
+ {
+  "uid": "topic-saranagati-atmanivedana",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ātma-nivedana"
+   }
+  ],
+  "song_uids": [
+   "S16"
+  ]
+ },
+ {
+  "uid": "topic-saranagati-ekhonabujhinupra",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ekhôna Bujhinu Prabhu!"
+   }
+  ],
+  "song_uids": [
+   "S20"
+  ]
+ },
+ {
+  "uid": "topic-saranagati-kijanikibale",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Ki Jāni Ki Bale"
+   }
+  ],
+  "song_uids": [
+   "S18"
+  ]
+ },
+ {
+  "uid": "topic-saranagati-manasadehageha",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Mānasa, Deha, Geha"
+   }
+  ],
+  "song_uids": [
+   "S14"
+  ]
+ },
+ {
+  "uid": "topic-saranagati-radhakundatata",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Rādhā-kuṇḍa-taṭa"
+   }
+  ],
+  "song_uids": [
+   "S30"
+  ]
+ },
+ {
+  "uid": "topic-saranagati-sarvasvatomara",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Sarvasva Tomāra"
+   }
+  ],
+  "song_uids": [
+   "S10"
+  ]
+ },
+ {
+  "uid": "topic-saranagati-suddhabhakata",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Śuddha-bhakata"
+   }
+  ],
+  "song_uids": [
+   "E1"
+  ]
+ },
+ {
+  "uid": "topic-saranagati-tumisarvesvaresv",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "Tumi Sarveśvareśvara"
+   }
+  ],
+  "song_uids": [
+   "S17"
+  ]
+ },
+ {
+  "uid": "topic-saranagati-amaraboliteprabh",
+  "kind": "topic",
+  "ordered": false,
+  "titles": [
+   {
+    "script_code": "Latn",
+    "text": "‘Āmāra’ Bôlite Prabhu!"
+   }
+  ],
+  "song_uids": [
+   "S12"
+  ]
+ }
+]

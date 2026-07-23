@@ -1,0 +1,4948 @@
+{
+  "uid": "M7",
+  "language_of_origin": "san",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "মঙ্গলাচরণ (শ্রীচৈতন্য গৌড়ীয় মঠ)"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "maṅgalācaraṇa (śrīcaitanya gauḓīya maṭha)"
+    },
+    {
+      "script_code": "Deva",
+      "text": "मङ्गलाचरण (श्रीचैतन्य गौḓईय मठ)"
+    },
+    {
+      "script_code": "Telu",
+      "text": "మంగలాచరణ (శ్రీచైతన్య గౌḓఈయ మఠ)"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಮಂಗಲಾಚರಣ (ಶ್ರೀಚೈತನ್ಯ ಗೌḓಈಯ ಮಠ)"
+    },
+    {
+      "script_code": "Taml",
+      "text": "மங்க³லாசரண (ஶ்ரீசைதன்ய கௌ³ḓஈய மட²)"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "മംഗലാചരണ (ശ്രീചൈതന്യ ഗൗḓഈയ മഠ)"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "મઙ્ગલાચરણ (શ્રીચૈતન્ય ગૌḓઈય મઠ)"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ମଙ୍ଗଲାଚରଣ (ଶ୍ରୀଚୈତନ୍ୟ ଗୌḓଈୟ ମଠ)"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ман̇гала̄чаран̣а (ш́рӣчаитанйа гауḓӣйа мат̣ха)"
+    }
+  ],
+  "author_uid": "?",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "অজানা লেখক"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Unknown Author"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "vande’haṁ śrīguroḥ śrīyutapadakamalaṁ śrīgurūn vaiṣṇavāṁśca",
+        "śrīrūpaṁ sāgrajātaṁ sahagaṇa[FLAG_HYPHEN_ALPHA]raghunāthānvitaṁ taṁ sajīvam",
+        "sādvaitaṁ sāvadhūtaṁ parijanasahitaṁ kṛṣṇacaitanya[FLAG_HYPHEN_ALPHA]devaṁ",
+        "śrīrādhā[FLAG_HYPHEN_ALPHA]kṛṣṇapādān sahagaṇa[FLAG_HYPHEN_ALPHA]lalitā[FLAG_HYPHEN_ALPHA]śrīviśākhānvitāṁśca"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "वन्दॆऽहं श्रीगुरॊः श्रीयुतपदकमलं श्रीगुरून् वैष्णवांश्च",
+            "श्रीरूपं साग्रजातं सहगणरघुनाथान्वितं तं सजीवम्",
+            "साद्वैतं सावधूतं परिजनसहितं क्ड़्ष्णचैतन्यदॆवं",
+            "श्रीराधाक्ड़्ष्णपादान् सहगणललिताश्रीविशाखान्वितांश्च"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "বন্দেঽহং শ্রীগুরোঃ শ্রীয়ুতপদকমলং শ্রীগুরূন্ বৈষ্ণবাংশ্চ",
+            "শ্রীরূপং সাগ্রজাতং সহগণরঘুনাথান্বিতং তং সজীবম্",
+            "সাদ্বৈতং সাবধূতং পরিজনসহিতং ক্ড়্ষ্ণচৈতন্যদেবং",
+            "শ্রীরাধাক্ড়্ষ্ণপাদান্ সহগণললিতাশ্রীবিশাখান্বিতাংশ্চ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ବନ୍ଦେଽହଂ ଶ୍ରୀଗୁରୋଃ ଶ୍ରୀୟୁତପଦକମଲଂ ଶ୍ରୀଗୁରୂନ୍ ବୈଷ୍ଣବାଂଶ୍ଚ",
+            "ଶ୍ରୀରୂପଂ ସାଗ୍ରଜାତଂ ସହଗଣରଘୁନାଥାନ୍ୱିତଂ ତଂ ସଜୀବମ୍",
+            "ସାଦ୍ୱୈତଂ ସାବଧୂତଂ ପରିଜନସହିତଂ କ୍ଡ଼୍ଷ୍ଣଚୈତନ୍ୟଦେବଂ",
+            "ଶ୍ରୀରାଧାକ୍ଡ଼୍ଷ୍ଣପାଦାନ୍ ସହଗଣଲଲିତାଶ୍ରୀବିଶାଖାନ୍ୱିତାଂଶ୍ଚ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "વન્દેઽહં શ્રીગુરોઃ શ્રીયુતપદકમલં શ્રીગુરૂન્ વૈષ્ણવાંશ્ચ",
+            "શ્રીરૂપં સાગ્રજાતં સહગણરઘુનાથાન્વિતં તં સજીવમ્",
+            "સાદ્વૈતં સાવધૂતં પરિજનસહિતં ક્ડ઼્ષ્ણચૈતન્યદેવં",
+            "શ્રીરાધાક્ડ઼્ષ્ણપાદાન્ સહગણલલિતાશ્રીવિશાખાન્વિતાંશ્ચ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "vande’haṁ śrīguroḥ śrīyutapadakamalaṁ śrīgurūn vaiṣṇavāṁśca",
+            "śrīrūpaṁ sāgrajātaṁ sahagaṇa-raghunāthānvitaṁ taṁ sajīvam",
+            "sādvaitaṁ sāvadhūtaṁ parijanasahitaṁ kṛṣṇacaitanya-devaṁ",
+            "śrīrādhā-kṛṣṇapādān sahagaṇa-lalitā-śrīviśākhānvitāṁśca"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ವಂದೆಽಹಂ ಶ್ರೀಗುರೊಃ ಶ್ರೀಯುತಪದಕಮಲಂ ಶ್ರೀಗುರೂನ್ ವೈಷ್ಣವಾಂಶ್ಚ",
+            "ಶ್ರೀರೂಪಂ ಸಾಗ್ರಜಾತಂ ಸಹಗಣರಘುನಾಥಾನ್ವಿತಂ ತಂ ಸಜೀವಂ",
+            "ಸಾದ್ವೈತಂ ಸಾವಧೂತಂ ಪರಿಜನಸಹಿತಂ ಕ್‌ಡ಼್ಷ್ಣಚೈತನ್ಯದೆವಂ",
+            "ಶ್ರೀರಾಧಾಕ್‌ಡ಼್ಷ್ಣಪಾದಾನ್ ಸಹಗಣಲಲಿತಾಶ್ರೀವಿಶಾಖಾನ್ವಿತಾಂಶ್ಚ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "వందెఽహం శ్రీగురొః శ్రీయుతపదకమలం శ్రీగురూన్ వైష్ణవాంశ్చ",
+            "శ్రీరూపం సాగ్రజాతం సహగణరఘునాథాన్వితం తం సజీవం",
+            "సాద్వైతం సావధూతం పరిజనసహితం క్డ్ష్ణచైతన్యదెవం",
+            "శ్రీరాధాక్డ్ష్ణపాదాన్ సహగణలలితాశ్రీవిశాఖాన్వితాంశ్చ"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "вандэ̆'хам̣ ш́рӣгуро̆х̣ ш́рӣйутападакамалам̣ ш́рӣгурӯн ваишн̣ава̄м̣ш́ча",
+            "ш́рӣрӯпам̣ са̄граджа̄там̣ сахаган̣арагхуна̄тха̄нвитам̣ там̣ саджӣвам",
+            "са̄дваитам̣ са̄вадхӯтам̣ париджанасахитам̣ кр̤шн̣ачаитанйадэ̆вам̣",
+            "ш́рӣра̄дха̄кр̤шн̣апа̄да̄н сахаган̣алалита̄ш́рӣвиш́а̄кха̄нвита̄м̣ш́ча"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "വന്ദെഽഹം ശ്രീഗുരൊഃ ശ്രീയുതപദകമലം ശ്രീഗുരൂൻ വൈഷ്ണവാംശ്ച",
+            "ശ്രീരൂപം സാഗ്രജാതം സഹഗണരഘുനാഥാന്വിതം തം സജീവം",
+            "സാദ്വൈതം സാവധൂതം പരിജനസഹിതം ക്ഡ്ഷ്ണചൈതന്യദെവം",
+            "ശ്രീരാധാക്ഡ്ഷ്ണപാദാൻ സഹഗണലലിതാശ്രീവിശാഖാന്വിതാംശ്ച"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "வந்தெ³(அ)ஹம்ʼ ஶ்ரீகு³ரொ꞉ ஶ்ரீயுதபத³கமலம்ʼ ஶ்ரீகு³ரூன் வைஷ்ணவாம்ʼஶ்ச",
+            "ஶ்ரீரூபம்ʼ ஸாக்³ரஜாதம்ʼ ஸஹக³ணரகு⁴நாதா²ன்விதம்ʼ தம்ʼ ஸஜீவம்",
+            "ஸாத்³வைதம்ʼ ஸாவதூ⁴தம்ʼ பரிஜனஸஹிதம்ʼ க்ஃட்²ஷ்ணசைதன்யதெ³வம்ʼ",
+            "ஶ்ரீராதா⁴க்ஃட்²ஷ்ணபாதா³ன் ஸஹக³ணலலிதாஶ்ரீவிஶாகா²ன்விதாம்ʼஶ்ச"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "vande’haṁ śrīguroḥ śrīyutapadakamalaṁ śrīgurūn vaiṣṇavāṁśca",
+            "śrīrūpaṁ sāgrajātaṁ sahagaṇa-raghunāthānvitaṁ taṁ sajīvam",
+            "sādvaitaṁ sāvadhūtaṁ parijanasahitaṁ kṛṣṇacaitanya-devaṁ",
+            "śrīrādhā-kṛṣṇapādān sahagaṇa-lalitā-śrīviśākhānvitāṁśca"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "vande’haṁ śrīguroḥ śrīyutapadakamalaṁ śrīgurūn vaiṣṇavāṁśca",
+            "śrīrūpaṁ sāgrajātaṁ sahagaṇa-raghunāthānvitaṁ taṁ sajīvam",
+            "sādvaitaṁ sāvadhūtaṁ parijanasahitaṁ kṛṣṇacaitanya-devaṁ",
+            "śrīrādhā-kṛṣṇapādān sahagaṇa-lalitā-śrīviśākhānvitāṁśca"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "&śrīla tīrtha gosvāmī mahārāja[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "namaḥ õ viṣṇupādāya",
+        "śrīgaurapriyamūrtaye",
+        "śrīmate bhaktivallabha[FLAG_HYPHEN_ALPHA]",
+        "tīrtha[FLAG_HYPHEN_ALPHA]gosvāmīnāmine 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रील तीर्थ गॊस्वामी महाराजप्रणाम&",
+            "नमः õ विष्णुपादाय",
+            "श्रीगौरप्रियमूर्तयॆ",
+            "श्रीमतॆ भक्तिवल्लभ",
+            "तीर्थगॊस्वामीनामिनॆ १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীল তীর্থ গোস্বামী মহারাজপ্রণাম&",
+            "নমঃ õ বিষ্ণুপাদায়",
+            "শ্রীগৌরপ্রিয়মূর্তয়ে",
+            "শ্রীমতে ভক্তিবল্লভ",
+            "তীর্থগোস্বামীনামিনে ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀଲ ତୀର୍ଥ ଗୋସ୍ୱାମୀ ମହାରାଜପ୍ରଣାମ&",
+            "ନମଃ õ ବିଷ୍ଣୁପାଦାୟ",
+            "ଶ୍ରୀଗୌରପ୍ରିୟମୂର୍ତୟେ",
+            "ଶ୍ରୀମତେ ଭକ୍ତିବଲ୍ଲଭ",
+            "ତୀର୍ଥଗୋସ୍ୱାମୀନାମିନେ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીલ તીર્થ ગોસ્વામી મહારાજપ્રણામ&",
+            "નમઃ õ વિષ્ણુપાદાય",
+            "શ્રીગૌરપ્રિયમૂર્તયે",
+            "શ્રીમતે ભક્તિવલ્લભ",
+            "તીર્થગોસ્વામીનામિને ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīla tīrtha gosvāmī mahārāja-praṇāma&",
+            "namaḥ õ viṣṇupādāya",
+            "śrīgaurapriyamūrtaye",
+            "śrīmate bhaktivallabha-",
+            "tīrtha-gosvāmīnāmine 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀಲ ತೀರ್ಥ ಗೊಸ್ವಾಮೀ ಮಹಾರಾಜಪ್ರಣಾಮ&",
+            "ನಮಃ õ ವಿಷ್ಣುಪಾದಾಯ",
+            "ಶ್ರೀಗೌರಪ್ರಿಯಮೂರ್ತಯೆ",
+            "ಶ್ರೀಮತೆ ಭಕ್ತಿವಲ್ಲಭ",
+            "ತೀರ್ಥಗೊಸ್ವಾಮೀನಾಮಿನೆ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీల తీర్థ గొస్వామీ మహారాజప్రణామ&",
+            "నమః õ విష్ణుపాదాయ",
+            "శ్రీగౌరప్రియమూర్తయె",
+            "శ్రీమతె భక్తివల్లభ",
+            "తీర్థగొస్వామీనామినె 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣла тӣртха го̆сва̄мӣ маха̄ра̄джапран̣а̄ма&",
+            "намах̣ õ вишн̣упа̄да̄йа",
+            "ш́рӣгаураприйамӯртайэ̆",
+            "ш́рӣматэ̆ бхактиваллабха",
+            "тӣртхаго̆сва̄мӣна̄минэ̆ 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീല തീർഥ ഗൊസ്വാമീ മഹാരാജപ്രണാമ&",
+            "നമഃ õ വിഷ്ണുപാദായ",
+            "ശ്രീഗൗരപ്രിയമൂർതയെ",
+            "ശ്രീമതെ ഭക്തിവല്ലഭ",
+            "തീർഥഗൊസ്വാമീനാമിനെ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீல தீர்த² கொ³ஸ்வாமீ மஹாராஜப்ரணாம&",
+            "நம꞉ õ விஷ்ணுபாதா³ய",
+            "ஶ்ரீகௌ³ரப்ரியமூர்தயெ",
+            "ஶ்ரீமதெ ப⁴க்திவல்லப⁴",
+            "தீர்த²கொ³ஸ்வாமீநாமினெ 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīla tīrtha gosvāmī mahārāja-praṇāma&",
+            "namaḥ õ viṣṇupādāya",
+            "śrīgaurapriyamūrtaye",
+            "śrīmate bhaktivallabha-",
+            "tīrtha-gosvāmīnāmine 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīla tīrtha gosvāmī mahārāja-praṇāma&",
+            "namaḥ õ viṣṇupādāya",
+            "śrīgaurapriyamūrtaye",
+            "śrīmate bhaktivallabha-",
+            "tīrtha-gosvāmīnāmine 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "māyāvādavikhaṇḍanaṁ",
+        "gurorvāṇyanukīrtanam‌",
+        "pāścātdeśopadeśakaṁ",
+        "prasannavadanaṁ sadā 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "मायावादविखण्डनं",
+            "गुरॊर्वाण्यनुकीर्तनम्‌",
+            "पाश्चात्दॆशॊपदॆशकं",
+            "प्रसन्नवदनं सदा २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মায়াবাদবিখণ্ডনং",
+            "গুরোর্বাণ্যনুকীর্তনম্‌",
+            "পাশ্চাৎদেশোপদেশকং",
+            "প্রসন্নবদনং সদা ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମାୟାବାଦବିଖଣ୍ଡନଂ",
+            "ଗୁରୋର୍ୱାଣ୍ୟନୁକୀର୍ତନମ୍‌",
+            "ପାଶ୍ଚାତ୍ଦେଶୋପଦେଶକଂ",
+            "ପ୍ରସନ୍ନବଦନଂ ସଦା ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "માયાવાદવિખણ્ડનં",
+            "ગુરોર્વાણ્યનુકીર્તનમ્‌",
+            "પાશ્ચાત્દેશોપદેશકં",
+            "પ્રસન્નવદનં સદા ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "māyāvādavikhaṇḍanaṁ",
+            "gurorvāṇyanukīrtanam‌",
+            "pāścātdeśopadeśakaṁ",
+            "prasannavadanaṁ sadā 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮಾಯಾವಾದವಿಖಂಡನಂ",
+            "ಗುರೊರ್ವಾಣ್ಯನುಕೀರ್ತನಂ‌",
+            "ಪಾಶ್ಚಾತ್ದೆಶೊಪದೆಶಕಂ",
+            "ಪ್ರಸನ್ನವದನಂ ಸದಾ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మాయావాదవిఖండనం",
+            "గురొర్వాణ్యనుకీర్తనం‌",
+            "పాశ్చాత్దెశొపదెశకం",
+            "ప్రసన్నవదనం సదా 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ма̄йа̄ва̄давикхан̣д̣анам̣",
+            "гуро̆рва̄н̣йанукӣртанам‌",
+            "па̄ш́ча̄тдэ̆ш́о̆падэ̆ш́акам̣",
+            "прасаннаваданам̣ сада̄ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മായാവാദവിഖണ്ഡനം",
+            "ഗുരൊർവാണ്യനുകീർതനം‌",
+            "പാശ്ചാത്ദെശൊപദെശകം",
+            "പ്രസന്നവദനം സദാ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மாயாவாத³விக²ண்ட³னம்ʼ",
+            "கு³ரொர்வாண்யனுகீர்தனம்‌",
+            "பாஶ்சாத்தெ³ஶொபதெ³ஶகம்ʼ",
+            "ப்ரஸன்னவத³னம்ʼ ஸதா³ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "māyāvādavikhaṇḍanaṁ",
+            "gurorvāṇyanukīrtanam‌",
+            "pāścātdeśopadeśakaṁ",
+            "prasannavadanaṁ sadā 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "māyāvādavikhaṇḍanaṁ",
+            "gurorvāṇyanukīrtanam‌",
+            "pāścātdeśopadeśakaṁ",
+            "prasannavadanaṁ sadā 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "śuddhā[FLAG_HYPHEN_ALPHA]bhaktipravāhakaṁ śuddhā[FLAG_HYPHEN_ALPHA]bhaktibhagīratham‌",
+        "bhaktidayita mādhavābhinnatanuṁ namāmyaham‌ 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "शुद्धाभक्तिप्रवाहकं शुद्धाभक्तिभगीरथम्‌",
+            "भक्तिदयित माधवाभिन्नतनुं नमाम्यहम्‌ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শুদ্ধাভক্তিপ্রবাহকং শুদ্ধাভক্তিভগীরথম্‌",
+            "ভক্তিদয়িত মাধবাভিন্নতনুং নমাম্যহম্‌ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶୁଦ୍ଧାଭକ୍ତିପ୍ରବାହକଂ ଶୁଦ୍ଧାଭକ୍ତିଭଗୀରଥମ୍‌",
+            "ଭକ୍ତିଦୟିତ ମାଧବାଭିନ୍ନତନୁଂ ନମାମ୍ୟହମ୍‌ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શુદ્ધાભક્તિપ્રવાહકં શુદ્ધાભક્તિભગીરથમ્‌",
+            "ભક્તિદયિત માધવાભિન્નતનું નમામ્યહમ્‌ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śuddhā-bhaktipravāhakaṁ śuddhā-bhaktibhagīratham‌",
+            "bhaktidayita mādhavābhinnatanuṁ namāmyaham‌ 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶುದ್ಧಾಭಕ್ತಿಪ್ರವಾಹಕಂ ಶುದ್ಧಾಭಕ್ತಿಭಗೀರಥಂ‌",
+            "ಭಕ್ತಿದಯಿತ ಮಾಧವಾಭಿನ್ನತನುಂ ನಮಾಮ್ಯಹಂ‌ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శుద్ధాభక్తిప్రవాహకం శుద్ధాభక్తిభగీరథం‌",
+            "భక్తిదయిత మాధవాభిన్నతనుం నమామ్యహం‌ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́уддха̄бхактиправа̄хакам̣ ш́уддха̄бхактибхагӣратхам‌",
+            "бхактидайита ма̄дхава̄бхиннатанум̣ нама̄мйахам‌ 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശുദ്ധാഭക്തിപ്രവാഹകം ശുദ്ധാഭക്തിഭഗീരഥം‌",
+            "ഭക്തിദയിത മാധവാഭിന്നതനും നമാമ്യഹം‌ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶுத்³தா⁴ப⁴க்திப்ரவாஹகம்ʼ ஶுத்³தா⁴ப⁴க்திப⁴கீ³ரத²ம்‌",
+            "ப⁴க்தித³யித மாத⁴வாபி⁴ன்னதனும்ʼ நமாம்யஹம்‌ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śuddhā-bhaktipravāhakaṁ śuddhā-bhaktibhagīratham‌",
+            "bhaktidayita mādhavābhinnatanuṁ namāmyaham‌ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śuddhā-bhaktipravāhakaṁ śuddhā-bhaktibhagīratham‌",
+            "bhaktidayita mādhavābhinnatanuṁ namāmyaham‌ 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "nāmasaṁkīrtanāmṛta[FLAG_HYPHEN_ALPHA]",
+        "rasāsvādavidhāyakam‌",
+        "kṛṣṇāmnayakṛpāmūrtiṁ",
+        "ācāryaṁ taṁ namāmyaham‌ 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "नामसंकीर्तनाम्ड़्त",
+            "रसास्वादविधायकम्‌",
+            "क्ड़्ष्णाम्नयक्ड़्पामूर्तिं",
+            "आचार्यं तं नमाम्यहम्‌ ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নামসঙ্কীর্তনাম্ড়্ত",
+            "রসাস্বাদবিধায়কম্‌",
+            "ক্ড়্ষ্ণাম্নয়ক্ড়্পামূর্তিং",
+            "আচার্যং তং নমাম্যহম্‌ ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନାମସଙ୍କୀର୍ତନାମ୍ଡ଼୍ତ",
+            "ରସାସ୍ୱାଦବିଧାୟକମ୍‌",
+            "କ୍ଡ଼୍ଷ୍ଣାମ୍ନୟକ୍ଡ଼୍ପାମୂର୍ତିଂ",
+            "ଆଚାର୍ୟଂ ତଂ ନମାମ୍ୟହମ୍‌ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નામસંકીર્તનામ્ડ઼્ત",
+            "રસાસ્વાદવિધાયકમ્‌",
+            "ક્ડ઼્ષ્ણામ્નયક્ડ઼્પામૂર્તિં",
+            "આચાર્યં તં નમામ્યહમ્‌ ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nāmasaṁkīrtanāmṛta-",
+            "rasāsvādavidhāyakam‌",
+            "kṛṣṇāmnayakṛpāmūrtiṁ",
+            "ācāryaṁ taṁ namāmyaham‌ 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಾಮಸಂಕೀರ್ತನಾಂ‌ಡ಼್ತ",
+            "ರಸಾಸ್ವಾದವಿಧಾಯಕಂ‌",
+            "ಕ್‌ಡ಼್ಷ್ಣಾಮ್ನಯಕ್‌ಡ಼್ಪಾಮೂರ್ತಿಂ",
+            "ಆಚಾರ್ಯಂ ತಂ ನಮಾಮ್ಯಹಂ‌ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నామసంకీర్తనామ్డ్త",
+            "రసాస్వాదవిధాయకం‌",
+            "క్డ్ష్ణామ్నయక్డ్పామూర్తిం",
+            "ఆచార్యం తం నమామ్యహం‌ 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "на̄масам̣кӣртана̄мр̤та",
+            "раса̄сва̄давидха̄йакам‌",
+            "кр̤шн̣а̄мнайакр̤па̄мӯртим̣",
+            "а̄ча̄рйам̣ там̣ нама̄мйахам‌ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നാമസങ്കീർതനാമ്ഡ്ത",
+            "രസാസ്വാദവിധായകം‌",
+            "ക്ഡ്ഷ്ണാമ്നയക്ഡ്പാമൂർതിം",
+            "ആചാര്യം തം നമാമ്യഹം‌ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நாமஸங்கீர்தனாம்ஃட்²த",
+            "ரஸாஸ்வாத³விதா⁴யகம்‌",
+            "க்ஃட்²ஷ்ணாம்னயக்ஃட்²பாமூர்திம்ʼ",
+            "ஆசார்யம்ʼ தம்ʼ நமாம்யஹம்‌ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nāmasaṁkīrtanāmṛta-",
+            "rasāsvādavidhāyakam‌",
+            "kṛṣṇāmnayakṛpāmūrtiṁ",
+            "ācāryaṁ taṁ namāmyaham‌ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nāmasaṁkīrtanāmṛta-",
+            "rasāsvādavidhāyakam‌",
+            "kṛṣṇāmnayakṛpāmūrtiṁ",
+            "ācāryaṁ taṁ namāmyaham‌ 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "gauranāma[FLAG_HYPHEN_ALPHA]pracārādraṁ",
+        "bhaktasevānukāṅkṣiṇam‌",
+        "satīrthaprītisadbhāvaṁ",
+        "naumi tīrthamahāśayam‌ 5"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गौरनामप्रचाराद्रं",
+            "भक्तसॆवानुकाङ्क्षिणम्‌",
+            "सतीर्थप्रीतिसद्भावं",
+            "नौमि तीर्थमहाशयम्‌ ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গৌরনামপ্রচারাদ্রং",
+            "ভক্তসেবানুকাঙ্ক্ষিণম্‌",
+            "সতীর্থপ্রীতিসদ্ভাবং",
+            "নৌমি তীর্থমহাশয়ম্‌ ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗୌରନାମପ୍ରଚାରାଦ୍ରଂ",
+            "ଭକ୍ତସେବାନୁକାଙ୍କ୍ଷିଣମ୍‌",
+            "ସତୀର୍ଥପ୍ରୀତିସଦ୍ଭାବଂ",
+            "ନୌମି ତୀର୍ଥମହାଶୟମ୍‌ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગૌરનામપ્રચારાદ્રં",
+            "ભક્તસેવાનુકાઙ્ક્ષિણમ્‌",
+            "સતીર્થપ્રીતિસદ્ભાવં",
+            "નૌમિ તીર્થમહાશયમ્‌ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gauranāma-pracārādraṁ",
+            "bhaktasevānukāṅkṣiṇam‌",
+            "satīrthaprītisadbhāvaṁ",
+            "naumi tīrthamahāśayam‌ 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗೌರನಾಮಪ್ರಚಾರಾದ್ರಂ",
+            "ಭಕ್ತಸೆವಾನುಕಾಂಕ್ಷಿಣಂ‌",
+            "ಸತೀರ್ಥಪ್ರೀತಿಸದ್ಭಾವಂ",
+            "ನೌಮಿ ತೀರ್ಥಮಹಾಶಯಂ‌ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గౌరనామప్రచారాద్రం",
+            "భక్తసెవానుకాంక్షిణం‌",
+            "సతీర్థప్రీతిసద్భావం",
+            "నౌమి తీర్థమహాశయం‌ 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "гаурана̄мапрача̄ра̄драм̣",
+            "бхактасэ̆ва̄нука̄н̇кшин̣ам‌",
+            "сатӣртхапрӣтисадбха̄вам̣",
+            "науми тӣртхамаха̄ш́айам‌ 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗൗരനാമപ്രചാരാദ്രം",
+            "ഭക്തസെവാനുകാങ്ക്ഷിണം‌",
+            "സതീർഥപ്രീതിസദ്ഭാവം",
+            "നൗമി തീർഥമഹാശയം‌ 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கௌ³ரநாமப்ரசாராத்³ரம்ʼ",
+            "ப⁴க்தஸெவானுகாங்க்ஷிணம்‌",
+            "ஸதீர்த²ப்ரீதிஸத்³பா⁴வம்ʼ",
+            "நௌமி தீர்த²மஹாஶயம்‌ 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gauranāma-pracārādraṁ",
+            "bhaktasevānukāṅkṣiṇam‌",
+            "satīrthaprītisadbhāvaṁ",
+            "naumi tīrthamahāśayam‌ 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gauranāma-pracārādraṁ",
+            "bhaktasevānukāṅkṣiṇam‌",
+            "satīrthaprītisadbhāvaṁ",
+            "naumi tīrthamahāśayam‌ 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "&śrīgurudeva[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "ajñāna[FLAG_HYPHEN_ALPHA]timirāndhasya",
+        "jñānāñjana[FLAG_HYPHEN_ALPHA]śalākayā",
+        "cakṣurunmīlitaṁ yena",
+        "tasmai śrīgurave namaḥ"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रीगुरुदॆवप्रणाम&",
+            "अज्ञानतिमिरान्धस्य",
+            "ज्ञानाञ्जनशलाकया",
+            "चक्षुरुन्मीलितं यॆन",
+            "तस्मै श्रीगुरवॆ नमः"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীগুরুদেবপ্রণাম&",
+            "অজ্ঞানতিমিরান্ধস্য",
+            "জ্ঞানাঞ্জনশলাকয়া",
+            "চক্ষুরুন্মীলিতং যেন",
+            "তস্মৈ শ্রীগুরবে নমঃ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀଗୁରୁଦେବପ୍ରଣାମ&",
+            "ଅଜ୍ଞାନତିମିରାନ୍ଧସ୍ୟ",
+            "ଜ୍ଞାନାଞ୍ଜନଶଲାକୟା",
+            "ଚକ୍ଷୁରୁନ୍ମୀଲିତଂ ଯେନ",
+            "ତସ୍ମୈ ଶ୍ରୀଗୁରବେ ନମଃ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીગુરુદેવપ્રણામ&",
+            "અજ્ઞાનતિમિરાન્ધસ્ય",
+            "જ્ઞાનાઞ્જનશલાકયા",
+            "ચક્ષુરુન્મીલિતં યેન",
+            "તસ્મૈ શ્રીગુરવે નમઃ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīgurudeva-praṇāma&",
+            "ajñāna-timirāndhasya",
+            "jñānāñjana-śalākayā",
+            "cakṣurunmīlitaṁ yena",
+            "tasmai śrīgurave namaḥ"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀಗುರುದೆವಪ್ರಣಾಮ&",
+            "ಅಜ್ಞಾನತಿಮಿರಾಂಧಸ್ಯ",
+            "ಜ್ಞಾನಾಂಜನಶಲಾಕಯಾ",
+            "ಚಕ್ಷುರುನ್ಮೀಲಿತಂ ಯೆನ",
+            "ತಸ್ಮೈ ಶ್ರೀಗುರವೆ ನಮಃ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీగురుదెవప్రణామ&",
+            "అజ్ఞానతిమిరాంధస్య",
+            "జ్ఞానాంజనశలాకయా",
+            "చక్షురున్మీలితం యెన",
+            "తస్మై శ్రీగురవె నమః"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣгурудэ̆вапран̣а̄ма&",
+            "аджн̃а̄натимира̄ндхасйа",
+            "джн̃а̄на̄н̃джанаш́ала̄кайа̄",
+            "чакшурунмӣлитам̣ йэ̆на",
+            "тасмаи ш́рӣгуравэ̆ намах̣"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീഗുരുദെവപ്രണാമ&",
+            "അജ്ഞാനതിമിരാന്ധസ്യ",
+            "ജ്ഞാനാഞ്ജനശലാകയാ",
+            "ചക്ഷുരുന്മീലിതം യെന",
+            "തസ്മൈ ശ്രീഗുരവെ നമഃ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீகு³ருதெ³வப்ரணாம&",
+            "அஜ்ஞானதிமிராந்த⁴ஸ்ய",
+            "ஜ்ஞானாஞ்ஜனஶலாகயா",
+            "சக்ஷுருன்மீலிதம்ʼ யென",
+            "தஸ்மை ஶ்ரீகு³ரவெ நம꞉"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīgurudeva-praṇāma&",
+            "ajñāna-timirāndhasya",
+            "jñānāñjana-śalākayā",
+            "cakṣurunmīlitaṁ yena",
+            "tasmai śrīgurave namaḥ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīgurudeva-praṇāma&",
+            "ajñāna-timirāndhasya",
+            "jñānāñjana-śalākayā",
+            "cakṣurunmīlitaṁ yena",
+            "tasmai śrīgurave namaḥ"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "source_text_master": [
+        "nāmaśreṣṭhaṁ manumapi śacīputramatra svarūpaṁ",
+        "rūpaṁ tasyāgrajamurupurīṁ māthurīṁ goṣṭhavāṭīm",
+        "rādhākuṇḍaṁ girivaramaho! rādhikāmādhavāśāṁ",
+        "prāpto yasya prathitakṛpayā śrīguruṁ taṁ nato’smi"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "नामश्रॆष्ठं मनुमपि शचीपुत्रमत्र स्वरूपं",
+            "रूपं तस्याग्रजमुरुपुरीं माथुरीं गॊष्ठवाटीम्",
+            "राधाकुण्डं गिरिवरमहॊ! राधिकामाधवाशां",
+            "प्राप्तॊ यस्य प्रथितक्ड़्पया श्रीगुरुं तं नतॊऽस्मि"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নামশ্রেষ্ঠং মনুমপি শচীপুত্রমত্র স্বরূপং",
+            "রূপং তস্যাগ্রজমুরুপুরীং মাথুরীং গোষ্ঠবাটীম্",
+            "রাধাকুণ্ডং গিরিবরমহো! রাধিকামাধবাশাং",
+            "প্রাপ্তো যস্য প্রথিতক্ড়্পয়া শ্রীগুরুং তং নতোঽস্মি"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନାମଶ୍ରେଷ୍ଠଂ ମନୁମପି ଶଚୀପୁତ୍ରମତ୍ର ସ୍ୱରୂପଂ",
+            "ରୂପଂ ତସ୍ୟାଗ୍ରଜମୁରୁପୁରୀଂ ମାଥୁରୀଂ ଗୋଷ୍ଠବାଟୀମ୍",
+            "ରାଧାକୁଣ୍ଡଂ ଗିରିବରମହୋ! ରାଧିକାମାଧବାଶାଂ",
+            "ପ୍ରାପ୍ତୋ ଯସ୍ୟ ପ୍ରଥିତକ୍ଡ଼୍ପୟା ଶ୍ରୀଗୁରୁଂ ତଂ ନତୋଽସ୍ମି"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નામશ્રેષ્ઠં મનુમપિ શચીપુત્રમત્ર સ્વરૂપં",
+            "રૂપં તસ્યાગ્રજમુરુપુરીં માથુરીં ગોષ્ઠવાટીમ્",
+            "રાધાકુણ્ડં ગિરિવરમહો! રાધિકામાધવાશાં",
+            "પ્રાપ્તો યસ્ય પ્રથિતક્ડ઼્પયા શ્રીગુરું તં નતોઽસ્મિ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "nāmaśreṣṭhaṁ manumapi śacīputramatra svarūpaṁ",
+            "rūpaṁ tasyāgrajamurupurīṁ māthurīṁ goṣṭhavāṭīm",
+            "rādhākuṇḍaṁ girivaramaho! rādhikāmādhavāśāṁ",
+            "prāpto yasya prathitakṛpayā śrīguruṁ taṁ nato’smi"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಾಮಶ್ರೆಷ್ಠಂ ಮನುಮಪಿ ಶಚೀಪುತ್ರಮತ್ರ ಸ್ವರೂಪಂ",
+            "ರೂಪಂ ತಸ್ಯಾಗ್ರಜಮುರುಪುರೀಂ ಮಾಥುರೀಂ ಗೊಷ್ಠವಾಟೀಂ",
+            "ರಾಧಾಕುಂಡಂ ಗಿರಿವರಮಹೊ! ರಾಧಿಕಾಮಾಧವಾಶಾಂ",
+            "ಪ್ರಾಪ್ತೊ ಯಸ್ಯ ಪ್ರಥಿತಕ್‌ಡ಼್ಪಯಾ ಶ್ರೀಗುರುಂ ತಂ ನತೊಽಸ್ಮಿ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నామశ్రెష్ఠం మనుమపి శచీపుత్రమత్ర స్వరూపం",
+            "రూపం తస్యాగ్రజమురుపురీం మాథురీం గొష్ఠవాటీం",
+            "రాధాకుండం గిరివరమహొ! రాధికామాధవాశాం",
+            "ప్రాప్తొ యస్య ప్రథితక్డ్పయా శ్రీగురుం తం నతొఽస్మి"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "на̄маш́рэ̆шт̣хам̣ манумапи ш́ачӣпутраматра сварӯпам̣",
+            "рӯпам̣ тасйа̄граджамурупурӣм̣ ма̄тхурӣм̣ го̆шт̣хава̄т̣ӣм",
+            "ра̄дха̄кун̣д̣ам̣ гириварамахо̆! ра̄дхика̄ма̄дхава̄ш́а̄м̣",
+            "пра̄пто̆ йасйа пратхитакр̤пайа̄ ш́рӣгурум̣ там̣ нато̆'сми"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നാമശ്രെഷ്ഠം മനുമപി ശചീപുത്രമത്ര സ്വരൂപം",
+            "രൂപം തസ്യാഗ്രജമുരുപുരീം മാഥുരീം ഗൊഷ്ഠവാടീം",
+            "രാധാകുണ്ഡം ഗിരിവരമഹൊ! രാധികാമാധവാശാം",
+            "പ്രാപ്തൊ യസ്യ പ്രഥിതക്ഡ്പയാ ശ്രീഗുരും തം നതൊഽസ്മി"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நாமஶ்ரெஷ்ட²ம்ʼ மனுமபி ஶசீபுத்ரமத்ர ஸ்வரூபம்ʼ",
+            "ரூபம்ʼ தஸ்யாக்³ரஜமுருபுரீம்ʼ மாது²ரீம்ʼ கொ³ஷ்ட²வாடீம்",
+            "ராதா⁴குண்ட³ம்ʼ கி³ரிவரமஹொ! ராதி⁴காமாத⁴வாஶாம்ʼ",
+            "ப்ராப்தொ யஸ்ய ப்ரதி²தக்ஃட்²பயா ஶ்ரீகு³ரும்ʼ தம்ʼ நதொ(அ)ஸ்மி"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "nāmaśreṣṭhaṁ manumapi śacīputramatra svarūpaṁ",
+            "rūpaṁ tasyāgrajamurupurīṁ māthurīṁ goṣṭhavāṭīm",
+            "rādhākuṇḍaṁ girivaramaho! rādhikāmādhavāśāṁ",
+            "prāpto yasya prathitakṛpayā śrīguruṁ taṁ nato’smi"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "nāmaśreṣṭhaṁ manumapi śacīputramatra svarūpaṁ",
+            "rūpaṁ tasyāgrajamurupurīṁ māthurīṁ goṣṭhavāṭīm",
+            "rādhākuṇḍaṁ girivaramaho! rādhikāmādhavāśāṁ",
+            "prāpto yasya prathitakṛpayā śrīguruṁ taṁ nato’smi"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 9,
+      "source_text_master": [
+        "&śrīla mādhava gosvāmī[FLAG_HYPHEN_ALPHA]mahārāja[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "nama õ viṣṇupādāya",
+        "rūpānuga priyāya ca",
+        "śrīmate bhaktidayita",
+        "mādhava svāmi nāmine"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रील माधव गॊस्वामीमहाराजप्रणाम&",
+            "नम õ विष्णुपादाय",
+            "रूपानुग प्रियाय च",
+            "श्रीमतॆ भक्तिदयित",
+            "माधव स्वामि नामिनॆ"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীল মাধব গোস্বামীমহারাজপ্রণাম&",
+            "নম õ বিষ্ণুপাদায়",
+            "রূপানুগ প্রিয়ায় চ",
+            "শ্রীমতে ভক্তিদয়িত",
+            "মাধব স্বামি নামিনে"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀଲ ମାଧବ ଗୋସ୍ୱାମୀମହାରାଜପ୍ରଣାମ&",
+            "ନମ õ ବିଷ୍ଣୁପାଦାୟ",
+            "ରୂପାନୁଗ ପ୍ରିୟାୟ ଚ",
+            "ଶ୍ରୀମତେ ଭକ୍ତିଦୟିତ",
+            "ମାଧବ ସ୍ୱାମି ନାମିନେ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીલ માધવ ગોસ્વામીમહારાજપ્રણામ&",
+            "નમ õ વિષ્ણુપાદાય",
+            "રૂપાનુગ પ્રિયાય ચ",
+            "શ્રીમતે ભક્તિદયિત",
+            "માધવ સ્વામિ નામિને"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīla mādhava gosvāmī-mahārāja-praṇāma&",
+            "nama õ viṣṇupādāya",
+            "rūpānuga priyāya ca",
+            "śrīmate bhaktidayita",
+            "mādhava svāmi nāmine"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀಲ ಮಾಧವ ಗೊಸ್ವಾಮೀಮಹಾರಾಜಪ್ರಣಾಮ&",
+            "ನಮ õ ವಿಷ್ಣುಪಾದಾಯ",
+            "ರೂಪಾನುಗ ಪ್ರಿಯಾಯ ಚ",
+            "ಶ್ರೀಮತೆ ಭಕ್ತಿದಯಿತ",
+            "ಮಾಧವ ಸ್ವಾಮಿ ನಾಮಿನೆ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీల మాధవ గొస్వామీమహారాజప్రణామ&",
+            "నమ õ విష్ణుపాదాయ",
+            "రూపానుగ ప్రియాయ చ",
+            "శ్రీమతె భక్తిదయిత",
+            "మాధవ స్వామి నామినె"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣла ма̄дхава го̆сва̄мӣмаха̄ра̄джапран̣а̄ма&",
+            "нама õ вишн̣упа̄да̄йа",
+            "рӯпа̄нуга прийа̄йа ча",
+            "ш́рӣматэ̆ бхактидайита",
+            "ма̄дхава сва̄ми на̄минэ̆"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീല മാധവ ഗൊസ്വാമീമഹാരാജപ്രണാമ&",
+            "നമ õ വിഷ്ണുപാദായ",
+            "രൂപാനുഗ പ്രിയായ ച",
+            "ശ്രീമതെ ഭക്തിദയിത",
+            "മാധവ സ്വാമി നാമിനെ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீல மாத⁴வ கொ³ஸ்வாமீமஹாராஜப்ரணாம&",
+            "நம õ விஷ்ணுபாதா³ய",
+            "ரூபானுக³ ப்ரியாய ச",
+            "ஶ்ரீமதெ ப⁴க்தித³யித",
+            "மாத⁴வ ஸ்வாமி நாமினெ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīla mādhava gosvāmī-mahārāja-praṇāma&",
+            "nama õ viṣṇupādāya",
+            "rūpānuga priyāya ca",
+            "śrīmate bhaktidayita",
+            "mādhava svāmi nāmine"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīla mādhava gosvāmī-mahārāja-praṇāma&",
+            "nama õ viṣṇupādāya",
+            "rūpānuga priyāya ca",
+            "śrīmate bhaktidayita",
+            "mādhava svāmi nāmine"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 10,
+      "source_text_master": [
+        "kṛṣṇābhinna prakāśa śrī[FLAG_HYPHEN_ALPHA]",
+        "mūrtaye dīnatāriṇe",
+        "kṣamāguṇāvatārāya",
+        "gurave prabhave namaḥ"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "क्ड़्ष्णाभिन्न प्रकाश श्री",
+            "मूर्तयॆ दीनतारिणॆ",
+            "क्षमागुणावताराय",
+            "गुरवॆ प्रभवॆ नमः"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ক্ড়্ষ্ণাভিন্ন প্রকাশ শ্রী",
+            "মূর্তয়ে দীনতারিণে",
+            "ক্ষমাগুণাবতারায়",
+            "গুরবে প্রভবে নমঃ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କ୍ଡ଼୍ଷ୍ଣାଭିନ୍ନ ପ୍ରକାଶ ଶ୍ରୀ",
+            "ମୂର୍ତୟେ ଦୀନତାରିଣେ",
+            "କ୍ଷମାଗୁଣାବତାରାୟ",
+            "ଗୁରବେ ପ୍ରଭବେ ନମଃ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ક્ડ઼્ષ્ણાભિન્ન પ્રકાશ શ્રી",
+            "મૂર્તયે દીનતારિણે",
+            "ક્ષમાગુણાવતારાય",
+            "ગુરવે પ્રભવે નમઃ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kṛṣṇābhinna prakāśa śrī-",
+            "mūrtaye dīnatāriṇe",
+            "kṣamāguṇāvatārāya",
+            "gurave prabhave namaḥ"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕ್‌ಡ಼್ಷ್ಣಾಭಿನ್ನ ಪ್ರಕಾಶ ಶ್ರೀ",
+            "ಮೂರ್ತಯೆ ದೀನತಾರಿಣೆ",
+            "ಕ್ಷಮಾಗುಣಾವತಾರಾಯ",
+            "ಗುರವೆ ಪ್ರಭವೆ ನಮಃ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "క్డ్ష్ణాభిన్న ప్రకాశ శ్రీ",
+            "మూర్తయె దీనతారిణె",
+            "క్షమాగుణావతారాయ",
+            "గురవె ప్రభవె నమః"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "кр̤шн̣а̄бхинна прака̄ш́а ш́рӣ",
+            "мӯртайэ̆ дӣната̄рин̣э̆",
+            "кшама̄гун̣а̄вата̄ра̄йа",
+            "гуравэ̆ прабхавэ̆ намах̣"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ക്ഡ്ഷ്ണാഭിന്ന പ്രകാശ ശ്രീ",
+            "മൂർതയെ ദീനതാരിണെ",
+            "ക്ഷമാഗുണാവതാരായ",
+            "ഗുരവെ പ്രഭവെ നമഃ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "க்ஃட்²ஷ்ணாபி⁴ன்ன ப்ரகாஶ ஶ்ரீ",
+            "மூர்தயெ தீ³னதாரிணெ",
+            "க்ஷமாகு³ணாவதாராய",
+            "கு³ரவெ ப்ரப⁴வெ நம꞉"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kṛṣṇābhinna prakāśa śrī-",
+            "mūrtaye dīnatāriṇe",
+            "kṣamāguṇāvatārāya",
+            "gurave prabhave namaḥ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kṛṣṇābhinna prakāśa śrī-",
+            "mūrtaye dīnatāriṇe",
+            "kṣamāguṇāvatārāya",
+            "gurave prabhave namaḥ"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 11,
+      "source_text_master": [
+        "satīrthaprītisaddharma[FLAG_HYPHEN_ALPHA]",
+        "guruprīti[FLAG_HYPHEN_ALPHA]pradarśine",
+        "īśodyāna prabhāvasya",
+        "prakāśakāya te namaḥ"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सतीर्थप्रीतिसद्धर्म",
+            "गुरुप्रीतिप्रदर्शिनॆ",
+            "ईशॊद्यान प्रभावस्य",
+            "प्रकाशकाय तॆ नमः"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সতীর্থপ্রীতিসদ্ধর্ম",
+            "গুরুপ্রীতিপ্রদর্শিনে",
+            "ঈশোদ্যান প্রভাবস্য",
+            "প্রকাশকায় তে নমঃ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସତୀର୍ଥପ୍ରୀତିସଦ୍ଧର୍ମ",
+            "ଗୁରୁପ୍ରୀତିପ୍ରଦର୍ଶିନେ",
+            "ଈଶୋଦ୍ୟାନ ପ୍ରଭାବସ୍ୟ",
+            "ପ୍ରକାଶକାୟ ତେ ନମଃ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સતીર્થપ્રીતિસદ્ધર્મ",
+            "ગુરુપ્રીતિપ્રદર્શિને",
+            "ઈશોદ્યાન પ્રભાવસ્ય",
+            "પ્રકાશકાય તે નમઃ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "satīrthaprītisaddharma-",
+            "guruprīti-pradarśine",
+            "īśodyāna prabhāvasya",
+            "prakāśakāya te namaḥ"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸತೀರ್ಥಪ್ರೀತಿಸದ್ಧರ್ಮ",
+            "ಗುರುಪ್ರೀತಿಪ್ರದರ್ಶಿನೆ",
+            "ಈಶೊದ್ಯಾನ ಪ್ರಭಾವಸ್ಯ",
+            "ಪ್ರಕಾಶಕಾಯ ತೆ ನಮಃ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సతీర్థప్రీతిసద్ధర్మ",
+            "గురుప్రీతిప్రదర్శినె",
+            "ఈశొద్యాన ప్రభావస్య",
+            "ప్రకాశకాయ తె నమః"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сатӣртхапрӣтисаддхарма",
+            "гурупрӣтипрадарш́инэ̆",
+            "ӣш́о̆дйа̄на прабха̄васйа",
+            "прака̄ш́ака̄йа тэ̆ намах̣"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സതീർഥപ്രീതിസദ്ധർമ",
+            "ഗുരുപ്രീതിപ്രദർശിനെ",
+            "ഈശൊദ്യാന പ്രഭാവസ്യ",
+            "പ്രകാശകായ തെ നമഃ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸதீர்த²ப்ரீதிஸத்³த⁴ர்ம",
+            "கு³ருப்ரீதிப்ரத³ர்ஶினெ",
+            "ஈஶொத்³யான ப்ரபா⁴வஸ்ய",
+            "ப்ரகாஶகாய தெ நம꞉"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "satīrthaprītisaddharma-",
+            "guruprīti-pradarśine",
+            "īśodyāna prabhāvasya",
+            "prakāśakāya te namaḥ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "satīrthaprītisaddharma-",
+            "guruprīti-pradarśine",
+            "īśodyāna prabhāvasya",
+            "prakāśakāya te namaḥ"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 12,
+      "source_text_master": [
+        "śrīkṣetre prabhupādasya",
+        "sthānoddhāra[FLAG_HYPHEN_ALPHA]sukīrtaye",
+        "sārasvatagaṇānanda",
+        "samvardhanāya te namaḥ"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीक्षॆत्रॆ प्रभुपादस्य",
+            "स्थानॊद्धारसुकीर्तयॆ",
+            "सारस्वतगणानन्द",
+            "सम्वर्धनाय तॆ नमः"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীক্ষেত্রে প্রভুপাদস্য",
+            "স্থানোদ্ধারসুকীর্তয়ে",
+            "সারস্বতগণানন্দ",
+            "সম্বর্ধনায় তে নমঃ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀକ୍ଷେତ୍ରେ ପ୍ରଭୁପାଦସ୍ୟ",
+            "ସ୍ଥାନୋଦ୍ଧାରସୁକୀର୍ତୟେ",
+            "ସାରସ୍ୱତଗଣାନନ୍ଦ",
+            "ସମ୍ୱର୍ଧନାୟ ତେ ନମଃ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીક્ષેત્રે પ્રભુપાદસ્ય",
+            "સ્થાનોદ્ધારસુકીર્તયે",
+            "સારસ્વતગણાનન્દ",
+            "સમ્વર્ધનાય તે નમઃ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrīkṣetre prabhupādasya",
+            "sthānoddhāra-sukīrtaye",
+            "sārasvatagaṇānanda",
+            "samvardhanāya te namaḥ"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಕ್ಷೆತ್ರೆ ಪ್ರಭುಪಾದಸ್ಯ",
+            "ಸ್ಥಾನೊದ್ಧಾರಸುಕೀರ್ತಯೆ",
+            "ಸಾರಸ್ವತಗಣಾನಂದ",
+            "ಸಮ್ವರ್ಧನಾಯ ತೆ ನಮಃ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీక్షెత్రె ప్రభుపాదస్య",
+            "స్థానొద్ధారసుకీర్తయె",
+            "సారస్వతగణానంద",
+            "సమ్వర్ధనాయ తె నమః"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣкшэ̆трэ̆ прабхупа̄дасйа",
+            "стха̄но̆ддха̄расукӣртайэ̆",
+            "са̄расватаган̣а̄нанда",
+            "самвардхана̄йа тэ̆ намах̣"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീക്ഷെത്രെ പ്രഭുപാദസ്യ",
+            "സ്ഥാനൊദ്ധാരസുകീർതയെ",
+            "സാരസ്വതഗണാനന്ദ",
+            "സമ്വർധനായ തെ നമഃ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீக்ஷெத்ரெ ப்ரபு⁴பாத³ஸ்ய",
+            "ஸ்தா²னொத்³தா⁴ரஸுகீர்தயெ",
+            "ஸாரஸ்வதக³ணானந்த³",
+            "ஸம்வர்த⁴னாய தெ நம꞉"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrīkṣetre prabhupādasya",
+            "sthānoddhāra-sukīrtaye",
+            "sārasvatagaṇānanda",
+            "samvardhanāya te namaḥ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrīkṣetre prabhupādasya",
+            "sthānoddhāra-sukīrtaye",
+            "sārasvatagaṇānanda",
+            "samvardhanāya te namaḥ"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 13,
+      "source_text_master": [
+        "&śrīla mādhava[FLAG_HYPHEN_ALPHA]gosvāmī mahārāja[FLAG_HYPHEN_ALPHA]vandanā&",
+        "sudīrghaṁ svarṇa varṇāṅgaṁ",
+        "divyāvayava sundaram‌",
+        "tridaṇḍiveṣadhṛk‌ saumyaṁ",
+        "sarvabhārata sañcaram‌"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रील माधवगॊस्वामी महाराजवन्दना&",
+            "सुदीर्घं स्वर्ण वर्णाङ्गं",
+            "दिव्यावयव सुन्दरम्‌",
+            "त्रिदण्डिवॆषध्ड़्क्‌ सौम्यं",
+            "सर्वभारत सञ्चरम्‌"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীল মাধবগোস্বামী মহারাজবন্দনা&",
+            "সুদীর্ঘং স্বর্ণ বর্ণাঙ্গং",
+            "দিব্যাবয়ব সুন্দরম্‌",
+            "ত্রিদণ্ডিবেষধ্ড়্ক্‌ সৌম্যং",
+            "সর্বভারত সঞ্চরম্‌"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀଲ ମାଧବଗୋସ୍ୱାମୀ ମହାରାଜବନ୍ଦନା&",
+            "ସୁଦୀର୍ଘଂ ସ୍ୱର୍ଣ ବର୍ଣାଙ୍ଗଂ",
+            "ଦିବ୍ୟାବୟବ ସୁନ୍ଦରମ୍‌",
+            "ତ୍ରିଦଣ୍ଡିବେଷଧ୍ଡ଼୍କ୍‌ ସୌମ୍ୟଂ",
+            "ସର୍ୱଭାରତ ସଞ୍ଚରମ୍‌"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીલ માધવગોસ્વામી મહારાજવન્દના&",
+            "સુદીર્ઘં સ્વર્ણ વર્ણાઙ્ગં",
+            "દિવ્યાવયવ સુન્દરમ્‌",
+            "ત્રિદણ્ડિવેષધ્ડ઼્ક્‌ સૌમ્યં",
+            "સર્વભારત સઞ્ચરમ્‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīla mādhava-gosvāmī mahārāja-vandanā&",
+            "sudīrghaṁ svarṇa varṇāṅgaṁ",
+            "divyāvayava sundaram‌",
+            "tridaṇḍiveṣadhṛk‌ saumyaṁ",
+            "sarvabhārata sañcaram‌"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀಲ ಮಾಧವಗೊಸ್ವಾಮೀ ಮಹಾರಾಜವಂದನಾ&",
+            "ಸುದೀರ್ಘಂ ಸ್ವರ್ಣ ವರ್ಣಾಂಗಂ",
+            "ದಿವ್ಯಾವಯವ ಸುಂದರಂ‌",
+            "ತ್ರಿದಂಡಿವೆಷಧ್‌ಡ಼್ಕ್‌ ಸೌಮ್ಯಂ",
+            "ಸರ್ವಭಾರತ ಸಂಚರಂ‌"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీల మాధవగొస్వామీ మహారాజవందనా&",
+            "సుదీర్ఘం స్వర్ణ వర్ణాంగం",
+            "దివ్యావయవ సుందరం‌",
+            "త్రిదండివెషధ్డ్క్‌ సౌమ్యం",
+            "సర్వభారత సంచరం‌"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣла ма̄дхаваго̆сва̄мӣ маха̄ра̄джавандана̄&",
+            "судӣргхам̣ сварн̣а варн̣а̄н̇гам̣",
+            "дивйа̄вайава сундарам‌",
+            "тридан̣д̣ивэ̆шадхр̤к‌ саумйам̣",
+            "сарвабха̄рата сан̃чарам‌"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീല മാധവഗൊസ്വാമീ മഹാരാജവന്ദനാ&",
+            "സുദീർഘം സ്വർണ വർണാംഗം",
+            "ദിവ്യാവയവ സുന്ദരം‌",
+            "ത്രിദണ്ഡിവെഷധ്ഡ്ക്‌ സൗമ്യം",
+            "സർവഭാരത സഞ്ചരം‌"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீல மாத⁴வகொ³ஸ்வாமீ மஹாராஜவந்த³னா&",
+            "ஸுதீ³ர்க⁴ம்ʼ ஸ்வர்ண வர்ணாங்க³ம்ʼ",
+            "தி³வ்யாவயவ ஸுந்த³ரம்‌",
+            "த்ரித³ண்டி³வெஷத்⁴ஃட்²க்‌ ஸௌம்யம்ʼ",
+            "ஸர்வபா⁴ரத ஸஞ்சரம்‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīla mādhava-gosvāmī mahārāja-vandanā&",
+            "sudīrghaṁ svarṇa varṇāṅgaṁ",
+            "divyāvayava sundaram‌",
+            "tridaṇḍiveṣadhṛk‌ saumyaṁ",
+            "sarvabhārata sañcaram‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīla mādhava-gosvāmī mahārāja-vandanā&",
+            "sudīrghaṁ svarṇa varṇāṅgaṁ",
+            "divyāvayava sundaram‌",
+            "tridaṇḍiveṣadhṛk‌ saumyaṁ",
+            "sarvabhārata sañcaram‌"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 14,
+      "source_text_master": [
+        "navadvīpe tathāsāme",
+        "vraje pañcanadāndhrayoḥ",
+        "sthāpayantaṁ maṭhaṁ gaura[FLAG_HYPHEN_ALPHA]",
+        "rādhākṛṣṇārccanojjvalam‌"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "नवद्वीपॆ तथासामॆ",
+            "व्रजॆ पञ्चनदान्ध्रयॊः",
+            "स्थापयन्तं मठं गौर",
+            "राधाक्ड़्ष्णार्च्चनॊज्ज्वलम्‌"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নবদ্বীপে তথাসামে",
+            "ব্রজে পঞ্চনদান্ধ্রয়োঃ",
+            "স্থাপয়ন্তং মঠং গৌর",
+            "রাধাক্ড়্ষ্ণার্চ্চনোজ্জ্বলম্‌"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନବଦ୍ୱୀପେ ତଥାସାମେ",
+            "ବ୍ରଜେ ପଞ୍ଚନଦାନ୍ଧ୍ରୟୋଃ",
+            "ସ୍ଥାପୟନ୍ତଂ ମଠଂ ଗୌର",
+            "ରାଧାକ୍ଡ଼୍ଷ୍ଣାର୍ଚ୍ଚନୋଜ୍ଜ୍ୱଲମ୍‌"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નવદ્વીપે તથાસામે",
+            "વ્રજે પઞ્ચનદાન્ધ્રયોઃ",
+            "સ્થાપયન્તં મઠં ગૌર",
+            "રાધાક્ડ઼્ષ્ણાર્ચ્ચનોજ્જ્વલમ્‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "navadvīpe tathāsāme",
+            "vraje pañcanadāndhrayoḥ",
+            "sthāpayantaṁ maṭhaṁ gaura-",
+            "rādhākṛṣṇārccanojjvalam‌"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನವದ್ವೀಪೆ ತಥಾಸಾಮೆ",
+            "ವ್ರಜೆ ಪಂಚನದಾಂಧ್ರಯೊಃ",
+            "ಸ್ಥಾಪಯಂತಂ ಮಠಂ ಗೌರ",
+            "ರಾಧಾಕ್‌ಡ಼್ಷ್ಣಾರ್ಚ್ಚನೊಜ್ಜ್ವಲಂ‌"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నవద్వీపె తథాసామె",
+            "వ్రజె పంచనదాంధ్రయొః",
+            "స్థాపయంతం మఠం గౌర",
+            "రాధాక్డ్ష్ణార్చ్చనొజ్జ్వలం‌"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "навадвӣпэ̆ татха̄са̄мэ̆",
+            "враджэ̆ пан̃чанада̄ндхрайо̆х̣",
+            "стха̄пайантам̣ мат̣хам̣ гаура",
+            "ра̄дха̄кр̤шн̣а̄рччано̆джджвалам‌"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നവദ്വീപെ തഥാസാമെ",
+            "വ്രജെ പഞ്ചനദാന്ധ്രയൊഃ",
+            "സ്ഥാപയന്തം മഠം ഗൗര",
+            "രാധാക്ഡ്ഷ്ണാർച്ചനൊജ്ജ്വലം‌"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நவத்³வீபெ ததா²ஸாமெ",
+            "வ்ரஜெ பஞ்சனதா³ந்த்⁴ரயொ꞉",
+            "ஸ்தா²பயந்தம்ʼ மட²ம்ʼ கௌ³ர",
+            "ராதா⁴க்ஃட்²ஷ்ணார்ச்சனொஜ்ஜ்வலம்‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "navadvīpe tathāsāme",
+            "vraje pañcanadāndhrayoḥ",
+            "sthāpayantaṁ maṭhaṁ gaura-",
+            "rādhākṛṣṇārccanojjvalam‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "navadvīpe tathāsāme",
+            "vraje pañcanadāndhrayoḥ",
+            "sthāpayantaṁ maṭhaṁ gaura-",
+            "rādhākṛṣṇārccanojjvalam‌"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 15,
+      "source_text_master": [
+        "gurvāvirbhāva pīṭhe tu",
+        "śrīkṣetre puruṣottame",
+        "divya mandira nirmāṇa",
+        "sevā prakaṭakārakam‌"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "गुर्वाविर्भाव पीठॆ तु",
+            "श्रीक्षॆत्रॆ पुरुषॊत्तमॆ",
+            "दिव्य मन्दिर निर्माण",
+            "सॆवा प्रकटकारकम्‌"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "গুর্বাবির্ভাব পীঠে তু",
+            "শ্রীক্ষেত্রে পুরুষোত্তমে",
+            "দিব্য মন্দির নির্মাণ",
+            "সেবা প্রকটকারকম্‌"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଗୁର୍ୱାବିର୍ଭାବ ପୀଠେ ତୁ",
+            "ଶ୍ରୀକ୍ଷେତ୍ରେ ପୁରୁଷୋତ୍ତମେ",
+            "ଦିବ୍ୟ ମନ୍ଦିର ନିର୍ମାଣ",
+            "ସେବା ପ୍ରକଟକାରକମ୍‌"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ગુર્વાવિર્ભાવ પીઠે તુ",
+            "શ્રીક્ષેત્રે પુરુષોત્તમે",
+            "દિવ્ય મન્દિર નિર્માણ",
+            "સેવા પ્રકટકારકમ્‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "gurvāvirbhāva pīṭhe tu",
+            "śrīkṣetre puruṣottame",
+            "divya mandira nirmāṇa",
+            "sevā prakaṭakārakam‌"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಗುರ್ವಾವಿರ್ಭಾವ ಪೀಠೆ ತು",
+            "ಶ್ರೀಕ್ಷೆತ್ರೆ ಪುರುಷೊತ್ತಮೆ",
+            "ದಿವ್ಯ ಮಂದಿರ ನಿರ್ಮಾಣ",
+            "ಸೆವಾ ಪ್ರಕಟಕಾರಕಂ‌"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "గుర్వావిర్భావ పీఠె తు",
+            "శ్రీక్షెత్రె పురుషొత్తమె",
+            "దివ్య మందిర నిర్మాణ",
+            "సెవా ప్రకటకారకం‌"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "гурва̄вирбха̄ва пӣт̣хэ̆ ту",
+            "ш́рӣкшэ̆трэ̆ пурушо̆ттамэ̆",
+            "дивйа мандира нирма̄н̣а",
+            "сэ̆ва̄ пракат̣ака̄ракам‌"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഗുർവാവിർഭാവ പീഠെ തു",
+            "ശ്രീക്ഷെത്രെ പുരുഷൊത്തമെ",
+            "ദിവ്യ മന്ദിര നിർമാണ",
+            "സെവാ പ്രകടകാരകം‌"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கு³ர்வாவிர்பா⁴வ பீடெ² து",
+            "ஶ்ரீக்ஷெத்ரெ புருஷொத்தமெ",
+            "தி³வ்ய மந்தி³ர நிர்மாண",
+            "ஸெவா ப்ரகடகாரகம்‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "gurvāvirbhāva pīṭhe tu",
+            "śrīkṣetre puruṣottame",
+            "divya mandira nirmāṇa",
+            "sevā prakaṭakārakam‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "gurvāvirbhāva pīṭhe tu",
+            "śrīkṣetre puruṣottame",
+            "divya mandira nirmāṇa",
+            "sevā prakaṭakārakam‌"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 16,
+      "source_text_master": [
+        "sarvatra sādhu saṅgheṣū",
+        "sajjaneṣu tathā guroḥ",
+        "vāṇīvaibhava vistāra",
+        "sadācāra pravartakam‌"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "सर्वत्र साधु सङ्घॆषू",
+            "सज्जनॆषु तथा गुरॊः",
+            "वाणीवैभव विस्तार",
+            "सदाचार प्रवर्तकम्‌"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "সর্বত্র সাধু সঙ্ঘেষূ",
+            "সজ্জনেষু তথা গুরোঃ",
+            "বাণীবৈভব বিস্তার",
+            "সদাচার প্রবর্তকম্‌"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ସର୍ୱତ୍ର ସାଧୁ ସଙ୍ଘେଷୂ",
+            "ସଜ୍ଜନେଷୁ ତଥା ଗୁରୋଃ",
+            "ବାଣୀବୈଭବ ବିସ୍ତାର",
+            "ସଦାଚାର ପ୍ରବର୍ତକମ୍‌"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "સર્વત્ર સાધુ સઙ્ઘેષૂ",
+            "સજ્જનેષુ તથા ગુરોઃ",
+            "વાણીવૈભવ વિસ્તાર",
+            "સદાચાર પ્રવર્તકમ્‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "sarvatra sādhu saṅgheṣū",
+            "sajjaneṣu tathā guroḥ",
+            "vāṇīvaibhava vistāra",
+            "sadācāra pravartakam‌"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಸರ್ವತ್ರ ಸಾಧು ಸಂಘೆಷೂ",
+            "ಸಜ್ಜನೆಷು ತಥಾ ಗುರೊಃ",
+            "ವಾಣೀವೈಭವ ವಿಸ್ತಾರ",
+            "ಸದಾಚಾರ ಪ್ರವರ್ತಕಂ‌"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "సర్వత్ర సాధు సంఘెషూ",
+            "సజ్జనెషు తథా గురొః",
+            "వాణీవైభవ విస్తార",
+            "సదాచార ప్రవర్తకం‌"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "сарватра са̄дху сан̇гхэ̆шӯ",
+            "саджджанэ̆шу татха̄ гуро̆х̣",
+            "ва̄н̣ӣваибхава виста̄ра",
+            "сада̄ча̄ра правартакам‌"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "സർവത്ര സാധു സംഘെഷൂ",
+            "സജ്ജനെഷു തഥാ ഗുരൊഃ",
+            "വാണീവൈഭവ വിസ്താര",
+            "സദാചാര പ്രവർതകം‌"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஸர்வத்ர ஸாது⁴ ஸங்கெ⁴ஷூ",
+            "ஸஜ்ஜனெஷு ததா² கு³ரொ꞉",
+            "வாணீவைப⁴வ விஸ்தார",
+            "ஸதா³சார ப்ரவர்தகம்‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "sarvatra sādhu saṅgheṣū",
+            "sajjaneṣu tathā guroḥ",
+            "vāṇīvaibhava vistāra",
+            "sadācāra pravartakam‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "sarvatra sādhu saṅgheṣū",
+            "sajjaneṣu tathā guroḥ",
+            "vāṇīvaibhava vistāra",
+            "sadācāra pravartakam‌"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 17,
+      "source_text_master": [
+        "śiṣye’śeṣa kṛpāsindhuṁ",
+        "prītimantaṁ satīrthake",
+        "gurorabhīṣṭa yajñeṣu",
+        "tūtsargīkṛta jīvanam‌"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "शिष्यॆऽशॆष क्ड़्पासिन्धुं",
+            "प्रीतिमन्तं सतीर्थकॆ",
+            "गुरॊरभीष्ट यज्ञॆषु",
+            "तूत्सर्गीक्ड़्त जीवनम्‌"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শিষ্যেঽশেষ ক্ড়্পাসিন্ধুং",
+            "প্রীতিমন্তং সতীর্থকে",
+            "গুরোরভীষ্ট যজ্ঞেষু",
+            "তূৎসর্গীক্ড়্ত জীবনম্‌"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶିଷ୍ୟେଽଶେଷ କ୍ଡ଼୍ପାସିନ୍ଧୁଂ",
+            "ପ୍ରୀତିମନ୍ତଂ ସତୀର୍ଥକେ",
+            "ଗୁରୋରଭୀଷ୍ଟ ଯଜ୍ଞେଷୁ",
+            "ତୂତ୍ସର୍ଗୀକ୍ଡ଼୍ତ ଜୀବନମ୍‌"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શિષ્યેઽશેષ ક્ડ઼્પાસિન્ધું",
+            "પ્રીતિમન્તં સતીર્થકે",
+            "ગુરોરભીષ્ટ યજ્ઞેષુ",
+            "તૂત્સર્ગીક્ડ઼્ત જીવનમ્‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śiṣye’śeṣa kṛpāsindhuṁ",
+            "prītimantaṁ satīrthake",
+            "gurorabhīṣṭa yajñeṣu",
+            "tūtsargīkṛta jīvanam‌"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶಿಷ್ಯೆಽಶೆಷ ಕ್‌ಡ಼್ಪಾಸಿಂಧುಂ",
+            "ಪ್ರೀತಿಮಂತಂ ಸತೀರ್ಥಕೆ",
+            "ಗುರೊರಭೀಷ್ಟ ಯಜ್ಞೆಷು",
+            "ತೂತ್ಸರ್ಗೀಕ್‌ಡ಼್ತ ಜೀವನಂ‌"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శిష్యెఽశెష క్డ్పాసింధుం",
+            "ప్రీతిమంతం సతీర్థకె",
+            "గురొరభీష్ట యజ్ఞెషు",
+            "తూత్సర్గీక్డ్త జీవనం‌"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́ишйэ̆'ш́э̆ша кр̤па̄синдхум̣",
+            "прӣтимантам̣ сатӣртхакэ̆",
+            "гуро̆рабхӣшт̣а йаджн̃э̆шу",
+            "тӯтсаргӣкр̤та джӣванам‌"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശിഷ്യെഽശെഷ ക്ഡ്പാസിന്ധും",
+            "പ്രീതിമന്തം സതീർഥകെ",
+            "ഗുരൊരഭീഷ്ട യജ്ഞെഷു",
+            "തൂത്സർഗീക്ഡ്ത ജീവനം‌"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶிஷ்யெ(அ)ஶெஷ க்ஃட்²பாஸிந்து⁴ம்ʼ",
+            "ப்ரீதிமந்தம்ʼ ஸதீர்த²கெ",
+            "கு³ரொரபீ⁴ஷ்ட யஜ்ஞெஷு",
+            "தூத்ஸர்கீ³க்ஃட்²த ஜீவனம்‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śiṣye’śeṣa kṛpāsindhuṁ",
+            "prītimantaṁ satīrthake",
+            "gurorabhīṣṭa yajñeṣu",
+            "tūtsargīkṛta jīvanam‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śiṣye’śeṣa kṛpāsindhuṁ",
+            "prītimantaṁ satīrthake",
+            "gurorabhīṣṭa yajñeṣu",
+            "tūtsargīkṛta jīvanam‌"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 18,
+      "source_text_master": [
+        "śrībhaktidayitaṁ nāmācāryavaryaṁ jagad‌gurum‌",
+        "vande śrīmādhavaṁ deva gosvāmipravaraṁ prabhum‌"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीभक्तिदयितं नामाचार्यवर्यं जगद्‌गुरुम्‌",
+            "वन्दॆ श्रीमाधवं दॆव गॊस्वामिप्रवरं प्रभुम्‌"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীভক্তিদয়িতং নামাচার্যবর্যং জগদ্‌গুরুম্‌",
+            "বন্দে শ্রীমাধবং দেব গোস্বামিপ্রবরং প্রভুম্‌"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀଭକ୍ତିଦୟିତଂ ନାମାଚାର୍ୟବର୍ୟଂ ଜଗଦ୍‌ଗୁରୁମ୍‌",
+            "ବନ୍ଦେ ଶ୍ରୀମାଧବଂ ଦେବ ଗୋସ୍ୱାମିପ୍ରବରଂ ପ୍ରଭୁମ୍‌"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીભક્તિદયિતં નામાચાર્યવર્યં જગદ્‌ગુરુમ્‌",
+            "વન્દે શ્રીમાધવં દેવ ગોસ્વામિપ્રવરં પ્રભુમ્‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrībhaktidayitaṁ nāmācāryavaryaṁ jagad‌gurum‌",
+            "vande śrīmādhavaṁ deva gosvāmipravaraṁ prabhum‌"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀಭಕ್ತಿದಯಿತಂ ನಾಮಾಚಾರ್ಯವರ್ಯಂ ಜಗದ್‌ಗುರುಂ‌",
+            "ವಂದೆ ಶ್ರೀಮಾಧವಂ ದೆವ ಗೊಸ್ವಾಮಿಪ್ರವರಂ ಪ್ರಭುಂ‌"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీభక్తిదయితం నామాచార్యవర్యం జగద్‌గురుం‌",
+            "వందె శ్రీమాధవం దెవ గొస్వామిప్రవరం ప్రభుం‌"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣбхактидайитам̣ на̄ма̄ча̄рйаварйам̣ джагад‌гурум‌",
+            "вандэ̆ ш́рӣма̄дхавам̣ дэ̆ва го̆сва̄миправарам̣ прабхум‌"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീഭക്തിദയിതം നാമാചാര്യവര്യം ജഗദ്‌ഗുരും‌",
+            "വന്ദെ ശ്രീമാധവം ദെവ ഗൊസ്വാമിപ്രവരം പ്രഭും‌"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீப⁴க்தித³யிதம்ʼ நாமாசார்யவர்யம்ʼ ஜக³த்³‌கு³ரும்‌",
+            "வந்தெ³ ஶ்ரீமாத⁴வம்ʼ தெ³வ கொ³ஸ்வாமிப்ரவரம்ʼ ப்ரபு⁴ம்‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrībhaktidayitaṁ nāmācāryavaryaṁ jagad‌gurum‌",
+            "vande śrīmādhavaṁ deva gosvāmipravaraṁ prabhum‌"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrībhaktidayitaṁ nāmācāryavaryaṁ jagad‌gurum‌",
+            "vande śrīmādhavaṁ deva gosvāmipravaraṁ prabhum‌"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 19,
+      "source_text_master": [
+        "&śrīla prabhupāda[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "namaḥ õ viṣṇupādāya",
+        "kṛṣṇapreṣṭhāya bhūtale",
+        "śrīmate bhaktisiddhānta[FLAG_HYPHEN_ALPHA]",
+        "sarasvatīti[FLAG_HYPHEN_ALPHA]nāmine"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रील प्रभुपादप्रणाम&",
+            "नमः õ विष्णुपादाय",
+            "क्ड़्ष्णप्रॆष्ठाय भूतलॆ",
+            "श्रीमतॆ भक्तिसिद्धान्त",
+            "सरस्वतीतिनामिनॆ"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীল প্রভুপাদপ্রণাম&",
+            "নমঃ õ বিষ্ণুপাদায়",
+            "ক্ড়্ষ্ণপ্রেষ্ঠায় ভূতলে",
+            "শ্রীমতে ভক্তিসিদ্ধান্ত",
+            "সরস্বতীতিনামিনে"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀଲ ପ୍ରଭୁପାଦପ୍ରଣାମ&",
+            "ନମଃ õ ବିଷ୍ଣୁପାଦାୟ",
+            "କ୍ଡ଼୍ଷ୍ଣପ୍ରେଷ୍ଠାୟ ଭୂତଲେ",
+            "ଶ୍ରୀମତେ ଭକ୍ତିସିଦ୍ଧାନ୍ତ",
+            "ସରସ୍ୱତୀତିନାମିନେ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીલ પ્રભુપાદપ્રણામ&",
+            "નમઃ õ વિષ્ણુપાદાય",
+            "ક્ડ઼્ષ્ણપ્રેષ્ઠાય ભૂતલે",
+            "શ્રીમતે ભક્તિસિદ્ધાન્ત",
+            "સરસ્વતીતિનામિને"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīla prabhupāda-praṇāma&",
+            "namaḥ õ viṣṇupādāya",
+            "kṛṣṇapreṣṭhāya bhūtale",
+            "śrīmate bhaktisiddhānta-",
+            "sarasvatīti-nāmine"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀಲ ಪ್ರಭುಪಾದಪ್ರಣಾಮ&",
+            "ನಮಃ õ ವಿಷ್ಣುಪಾದಾಯ",
+            "ಕ್‌ಡ಼್ಷ್ಣಪ್ರೆಷ್ಠಾಯ ಭೂತಲೆ",
+            "ಶ್ರೀಮತೆ ಭಕ್ತಿಸಿದ್ಧಾಂತ",
+            "ಸರಸ್ವತೀತಿನಾಮಿನೆ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీల ప్రభుపాదప్రణామ&",
+            "నమః õ విష్ణుపాదాయ",
+            "క్డ్ష్ణప్రెష్ఠాయ భూతలె",
+            "శ్రీమతె భక్తిసిద్ధాంత",
+            "సరస్వతీతినామినె"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣла прабхупа̄дапран̣а̄ма&",
+            "намах̣ õ вишн̣упа̄да̄йа",
+            "кр̤шн̣апрэ̆шт̣ха̄йа бхӯталэ̆",
+            "ш́рӣматэ̆ бхактисиддха̄нта",
+            "сарасватӣтина̄минэ̆"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീല പ്രഭുപാദപ്രണാമ&",
+            "നമഃ õ വിഷ്ണുപാദായ",
+            "ക്ഡ്ഷ്ണപ്രെഷ്ഠായ ഭൂതലെ",
+            "ശ്രീമതെ ഭക്തിസിദ്ധാന്ത",
+            "സരസ്വതീതിനാമിനെ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீல ப்ரபு⁴பாத³ப்ரணாம&",
+            "நம꞉ õ விஷ்ணுபாதா³ய",
+            "க்ஃட்²ஷ்ணப்ரெஷ்டா²ய பூ⁴தலெ",
+            "ஶ்ரீமதெ ப⁴க்திஸித்³தா⁴ந்த",
+            "ஸரஸ்வதீதிநாமினெ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīla prabhupāda-praṇāma&",
+            "namaḥ õ viṣṇupādāya",
+            "kṛṣṇapreṣṭhāya bhūtale",
+            "śrīmate bhaktisiddhānta-",
+            "sarasvatīti-nāmine"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīla prabhupāda-praṇāma&",
+            "namaḥ õ viṣṇupādāya",
+            "kṛṣṇapreṣṭhāya bhūtale",
+            "śrīmate bhaktisiddhānta-",
+            "sarasvatīti-nāmine"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 20,
+      "source_text_master": [
+        "śrīvārṣabhānavīdevī[FLAG_HYPHEN_ALPHA]",
+        "dayitāya kṛpāvdhaye",
+        "kṛṣṇasamvandha[FLAG_HYPHEN_ALPHA]vijñāna[FLAG_HYPHEN_ALPHA]",
+        "dāyine prabhave namaḥ"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "श्रीवार्षभानवीदॆवी",
+            "दयिताय क्ड़्पाव्धयॆ",
+            "क्ड़्ष्णसम्वन्धविज्ञान",
+            "दायिनॆ प्रभवॆ नमः"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "শ্রীবার্ষভানবীদেবী",
+            "দয়িতায় ক্ড়্পাব্ধয়ে",
+            "ক্ড়্ষ্ণসম্বন্ধবিজ্ঞান",
+            "দায়িনে প্রভবে নমঃ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଶ୍ରୀବାର୍ଷଭାନବୀଦେବୀ",
+            "ଦୟିତାୟ କ୍ଡ଼୍ପାବ୍ଧୟେ",
+            "କ୍ଡ଼୍ଷ୍ଣସମ୍ୱନ୍ଧବିଜ୍ଞାନ",
+            "ଦାୟିନେ ପ୍ରଭବେ ନମଃ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "શ્રીવાર્ષભાનવીદેવી",
+            "દયિતાય ક્ડ઼્પાવ્ધયે",
+            "ક્ડ઼્ષ્ણસમ્વન્ધવિજ્ઞાન",
+            "દાયિને પ્રભવે નમઃ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "śrīvārṣabhānavīdevī-",
+            "dayitāya kṛpāvdhaye",
+            "kṛṣṇasamvandha-vijñāna-",
+            "dāyine prabhave namaḥ"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಶ್ರೀವಾರ್ಷಭಾನವೀದೆವೀ",
+            "ದಯಿತಾಯ ಕ್‌ಡ಼್ಪಾವ್ಧಯೆ",
+            "ಕ್‌ಡ಼್ಷ್ಣಸಮ್ವಂಧವಿಜ್ಞಾನ",
+            "ದಾಯಿನೆ ಪ್ರಭವೆ ನಮಃ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "శ్రీవార్షభానవీదెవీ",
+            "దయితాయ క్డ్పావ్ధయె",
+            "క్డ్ష్ణసమ్వంధవిజ్ఞాన",
+            "దాయినె ప్రభవె నమః"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ш́рӣва̄ршабха̄навӣдэ̆вӣ",
+            "дайита̄йа кр̤па̄вдхайэ̆",
+            "кр̤шн̣асамвандхавиджн̃а̄на",
+            "да̄йинэ̆ прабхавэ̆ намах̣"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ശ്രീവാർഷഭാനവീദെവീ",
+            "ദയിതായ ക്ഡ്പാവ്ധയെ",
+            "ക്ഡ്ഷ്ണസമ്വന്ധവിജ്ഞാന",
+            "ദായിനെ പ്രഭവെ നമഃ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஶ்ரீவார்ஷபா⁴னவீதெ³வீ",
+            "த³யிதாய க்ஃட்²பாவ்த⁴யெ",
+            "க்ஃட்²ஷ்ணஸம்வந்த⁴விஜ்ஞான",
+            "தா³யினெ ப்ரப⁴வெ நம꞉"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "śrīvārṣabhānavīdevī-",
+            "dayitāya kṛpāvdhaye",
+            "kṛṣṇasamvandha-vijñāna-",
+            "dāyine prabhave namaḥ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "śrīvārṣabhānavīdevī-",
+            "dayitāya kṛpāvdhaye",
+            "kṛṣṇasamvandha-vijñāna-",
+            "dāyine prabhave namaḥ"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 21,
+      "source_text_master": [
+        "mādhuryojjvala[FLAG_HYPHEN_ALPHA]premāḍhya[FLAG_HYPHEN_ALPHA]",
+        "śrīrūpānugabhaktida",
+        "śrīgaura[FLAG_HYPHEN_ALPHA]karuṇāśakti[FLAG_HYPHEN_ALPHA]",
+        "vigrahāya namo’stu te"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "माधुर्यॊज्ज्वलप्रॆमाढ्य",
+            "श्रीरूपानुगभक्तिद",
+            "श्रीगौरकरुणाशक्ति",
+            "विग्रहाय नमॊऽस्तु तॆ"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "মাধুর্যোজ্জ্বলপ্রেমাঢ্য",
+            "শ্রীরূপানুগভক্তিদ",
+            "শ্রীগৌরকরুণাশক্তি",
+            "বিগ্রহায় নমোঽস্তু তে"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ମାଧୁର୍ୟୋଜ୍ଜ୍ୱଲପ୍ରେମାଢ୍ୟ",
+            "ଶ୍ରୀରୂପାନୁଗଭକ୍ତିଦ",
+            "ଶ୍ରୀଗୌରକରୁଣାଶକ୍ତି",
+            "ବିଗ୍ରହାୟ ନମୋଽସ୍ତୁ ତେ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "માધુર્યોજ્જ્વલપ્રેમાઢ્ય",
+            "શ્રીરૂપાનુગભક્તિદ",
+            "શ્રીગૌરકરુણાશક્તિ",
+            "વિગ્રહાય નમોઽસ્તુ તે"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "mādhuryojjvala-premāḍhya-",
+            "śrīrūpānugabhaktida",
+            "śrīgaura-karuṇāśakti-",
+            "vigrahāya namo’stu te"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಮಾಧುರ್ಯೊಜ್ಜ್ವಲಪ್ರೆಮಾಢ್ಯ",
+            "ಶ್ರೀರೂಪಾನುಗಭಕ್ತಿದ",
+            "ಶ್ರೀಗೌರಕರುಣಾಶಕ್ತಿ",
+            "ವಿಗ್ರಹಾಯ ನಮೊಽಸ್ತು ತೆ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "మాధుర్యొజ్జ్వలప్రెమాఢ్య",
+            "శ్రీరూపానుగభక్తిద",
+            "శ్రీగౌరకరుణాశక్తి",
+            "విగ్రహాయ నమొఽస్తు తె"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "ма̄дхурйо̆джджвалапрэ̆ма̄д̣хйа",
+            "ш́рӣрӯпа̄нугабхактида",
+            "ш́рӣгауракарун̣а̄ш́акти",
+            "виграха̄йа намо̆'сту тэ̆"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "മാധുര്യൊജ്ജ്വലപ്രെമാഢ്യ",
+            "ശ്രീരൂപാനുഗഭക്തിദ",
+            "ശ്രീഗൗരകരുണാശക്തി",
+            "വിഗ്രഹായ നമൊഽസ്തു തെ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "மாது⁴ர்யொஜ்ஜ்வலப்ரெமாட்⁴ய",
+            "ஶ்ரீரூபானுக³ப⁴க்தித³",
+            "ஶ்ரீகௌ³ரகருணாஶக்தி",
+            "விக்³ரஹாய நமொ(அ)ஸ்து தெ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "mādhuryojjvala-premāḍhya-",
+            "śrīrūpānugabhaktida",
+            "śrīgaura-karuṇāśakti-",
+            "vigrahāya namo’stu te"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "mādhuryojjvala-premāḍhya-",
+            "śrīrūpānugabhaktida",
+            "śrīgaura-karuṇāśakti-",
+            "vigrahāya namo’stu te"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 22,
+      "source_text_master": [
+        "namaste gauravāṇī[FLAG_HYPHEN_ALPHA]",
+        "śrīmūrtaye dīna[FLAG_HYPHEN_ALPHA]tāriṇe",
+        "rūpānuga[FLAG_HYPHEN_ALPHA]viruddhāpa[FLAG_HYPHEN_ALPHA]",
+        "siddhānta[FLAG_HYPHEN_ALPHA]dhvānta[FLAG_HYPHEN_ALPHA]hāriṇe"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "नमस्तॆ गौरवाणी",
+            "श्रीमूर्तयॆ दीनतारिणॆ",
+            "रूपानुगविरुद्धाप",
+            "सिद्धान्तध्वान्तहारिणॆ"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "নমস্তে গৌরবাণী",
+            "শ্রীমূর্তয়ে দীনতারিণে",
+            "রূপানুগবিরুদ্ধাপ",
+            "সিদ্ধান্তধ্বান্তহারিণে"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ନମସ୍ତେ ଗୌରବାଣୀ",
+            "ଶ୍ରୀମୂର୍ତୟେ ଦୀନତାରିଣେ",
+            "ରୂପାନୁଗବିରୁଦ୍ଧାପ",
+            "ସିଦ୍ଧାନ୍ତଧ୍ୱାନ୍ତହାରିଣେ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "નમસ્તે ગૌરવાણી",
+            "શ્રીમૂર્તયે દીનતારિણે",
+            "રૂપાનુગવિરુદ્ધાપ",
+            "સિદ્ધાન્તધ્વાન્તહારિણે"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "namaste gauravāṇī-",
+            "śrīmūrtaye dīna-tāriṇe",
+            "rūpānuga-viruddhāpa-",
+            "siddhānta-dhvānta-hāriṇe"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ನಮಸ್ತೆ ಗೌರವಾಣೀ",
+            "ಶ್ರೀಮೂರ್ತಯೆ ದೀನತಾರಿಣೆ",
+            "ರೂಪಾನುಗವಿರುದ್ಧಾಪ",
+            "ಸಿದ್ಧಾಂತಧ್ವಾಂತಹಾರಿಣೆ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "నమస్తె గౌరవాణీ",
+            "శ్రీమూర్తయె దీనతారిణె",
+            "రూపానుగవిరుద్ధాప",
+            "సిద్ధాంతధ్వాంతహారిణె"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "намастэ̆ гаурава̄н̣ӣ",
+            "ш́рӣмӯртайэ̆ дӣната̄рин̣э̆",
+            "рӯпа̄нугавируддха̄па",
+            "сиддха̄нтадхва̄нтаха̄рин̣э̆"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "നമസ്തെ ഗൗരവാണീ",
+            "ശ്രീമൂർതയെ ദീനതാരിണെ",
+            "രൂപാനുഗവിരുദ്ധാപ",
+            "സിദ്ധാന്തധ്വാന്തഹാരിണെ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "நமஸ்தெ கௌ³ரவாணீ",
+            "ஶ்ரீமூர்தயெ தீ³னதாரிணெ",
+            "ரூபானுக³விருத்³தா⁴ப",
+            "ஸித்³தா⁴ந்தத்⁴வாந்தஹாரிணெ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "namaste gauravāṇī-",
+            "śrīmūrtaye dīna-tāriṇe",
+            "rūpānuga-viruddhāpa-",
+            "siddhānta-dhvānta-hāriṇe"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "namaste gauravāṇī-",
+            "śrīmūrtaye dīna-tāriṇe",
+            "rūpānuga-viruddhāpa-",
+            "siddhānta-dhvānta-hāriṇe"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 23,
+      "source_text_master": [
+        "&śrīla gaurakiśora[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "namo gaurakiśorāya",
+        "sākṣādvairāgyamūrtaye",
+        "vipralambha[FLAG_HYPHEN_ALPHA]rasāmbhodhe",
+        "pādāmvujāya te namaḥ"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रील गौरकिशॊरप्रणाम&",
+            "नमॊ गौरकिशॊराय",
+            "साक्षाद्वैराग्यमूर्तयॆ",
+            "विप्रलम्भरसाम्भॊधॆ",
+            "पादाम्वुजाय तॆ नमः"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীল গৌরকিশোরপ্রণাম&",
+            "নমো গৌরকিশোরায়",
+            "সাক্ষাদ্বৈরাগ্যমূর্তয়ে",
+            "বিপ্রলম্ভরসাম্ভোধে",
+            "পাদাম্বুজায় তে নমঃ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀଲ ଗୌରକିଶୋରପ୍ରଣାମ&",
+            "ନମୋ ଗୌରକିଶୋରାୟ",
+            "ସାକ୍ଷାଦ୍ୱୈରାଗ୍ୟମୂର୍ତୟେ",
+            "ବିପ୍ରଲମ୍ଭରସାମ୍ଭୋଧେ",
+            "ପାଦାମ୍ୱୁଜାୟ ତେ ନମଃ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીલ ગૌરકિશોરપ્રણામ&",
+            "નમો ગૌરકિશોરાય",
+            "સાક્ષાદ્વૈરાગ્યમૂર્તયે",
+            "વિપ્રલમ્ભરસામ્ભોધે",
+            "પાદામ્વુજાય તે નમઃ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīla gaurakiśora-praṇāma&",
+            "namo gaurakiśorāya",
+            "sākṣādvairāgyamūrtaye",
+            "vipralambha-rasāmbhodhe",
+            "pādāmvujāya te namaḥ"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀಲ ಗೌರಕಿಶೊರಪ್ರಣಾಮ&",
+            "ನಮೊ ಗೌರಕಿಶೊರಾಯ",
+            "ಸಾಕ್ಷಾದ್ವೈರಾಗ್ಯಮೂರ್ತಯೆ",
+            "ವಿಪ್ರಲಂಭರಸಾಂಭೊಧೆ",
+            "ಪಾದಾಮ್ವುಜಾಯ ತೆ ನಮಃ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీల గౌరకిశొరప్రణామ&",
+            "నమొ గౌరకిశొరాయ",
+            "సాక్షాద్వైరాగ్యమూర్తయె",
+            "విప్రలంభరసాంభొధె",
+            "పాదామ్వుజాయ తె నమః"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣла гауракиш́о̆рапран̣а̄ма&",
+            "намо̆ гауракиш́о̆ра̄йа",
+            "са̄кша̄дваира̄гйамӯртайэ̆",
+            "випраламбхараса̄мбхо̆дхэ̆",
+            "па̄да̄мвуджа̄йа тэ̆ намах̣"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീല ഗൗരകിശൊരപ്രണാമ&",
+            "നമൊ ഗൗരകിശൊരായ",
+            "സാക്ഷാദ്വൈരാഗ്യമൂർതയെ",
+            "വിപ്രലംഭരസാംഭൊധെ",
+            "പാദാമ്വുജായ തെ നമഃ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீல கௌ³ரகிஶொரப்ரணாம&",
+            "நமொ கௌ³ரகிஶொராய",
+            "ஸாக்ஷாத்³வைராக்³யமூர்தயெ",
+            "விப்ரலம்ப⁴ரஸாம்பொ⁴தெ⁴",
+            "பாதா³ம்வுஜாய தெ நம꞉"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīla gaurakiśora-praṇāma&",
+            "namo gaurakiśorāya",
+            "sākṣādvairāgyamūrtaye",
+            "vipralambha-rasāmbhodhe",
+            "pādāmvujāya te namaḥ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīla gaurakiśora-praṇāma&",
+            "namo gaurakiśorāya",
+            "sākṣādvairāgyamūrtaye",
+            "vipralambha-rasāmbhodhe",
+            "pādāmvujāya te namaḥ"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 24,
+      "source_text_master": [
+        "&śrīla bhaktivinoda[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "namo bhaktivinodāya",
+        "saccidānanda[FLAG_HYPHEN_ALPHA]nāmine",
+        "gauraśakti[FLAG_HYPHEN_ALPHA]svarūpāya",
+        "rūpānugavarāya te"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रील भक्तिविनॊदप्रणाम&",
+            "नमॊ भक्तिविनॊदाय",
+            "सच्चिदानन्दनामिनॆ",
+            "गौरशक्तिस्वरूपाय",
+            "रूपानुगवराय तॆ"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীল ভক্তিবিনোদপ্রণাম&",
+            "নমো ভক্তিবিনোদায়",
+            "সচ্চিদানন্দনামিনে",
+            "গৌরশক্তিস্বরূপায়",
+            "রূপানুগবরায় তে"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦପ୍ରଣାମ&",
+            "ନମୋ ଭକ୍ତିବିନୋଦାୟ",
+            "ସଚ୍ଚିଦାନନ୍ଦନାମିନେ",
+            "ଗୌରଶକ୍ତିସ୍ୱରୂପାୟ",
+            "ରୂପାନୁଗବରାୟ ତେ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીલ ભક્તિવિનોદપ્રણામ&",
+            "નમો ભક્તિવિનોદાય",
+            "સચ્ચિદાનન્દનામિને",
+            "ગૌરશક્તિસ્વરૂપાય",
+            "રૂપાનુગવરાય તે"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīla bhaktivinoda-praṇāma&",
+            "namo bhaktivinodāya",
+            "saccidānanda-nāmine",
+            "gauraśakti-svarūpāya",
+            "rūpānugavarāya te"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀಲ ಭಕ್ತಿವಿನೊದಪ್ರಣಾಮ&",
+            "ನಮೊ ಭಕ್ತಿವಿನೊದಾಯ",
+            "ಸಚ್ಚಿದಾನಂದನಾಮಿನೆ",
+            "ಗೌರಶಕ್ತಿಸ್ವರೂಪಾಯ",
+            "ರೂಪಾನುಗವರಾಯ ತೆ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీల భక్తివినొదప్రణామ&",
+            "నమొ భక్తివినొదాయ",
+            "సచ్చిదానందనామినె",
+            "గౌరశక్తిస్వరూపాయ",
+            "రూపానుగవరాయ తె"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣла бхактивино̆дапран̣а̄ма&",
+            "намо̆ бхактивино̆да̄йа",
+            "саччида̄нандана̄минэ̆",
+            "гаураш́актисварӯпа̄йа",
+            "рӯпа̄нугавара̄йа тэ̆"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീല ഭക്തിവിനൊദപ്രണാമ&",
+            "നമൊ ഭക്തിവിനൊദായ",
+            "സച്ചിദാനന്ദനാമിനെ",
+            "ഗൗരശക്തിസ്വരൂപായ",
+            "രൂപാനുഗവരായ തെ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீல ப⁴க்திவினொத³ப்ரணாம&",
+            "நமொ ப⁴க்திவினொதா³ய",
+            "ஸச்சிதா³நந்த³நாமினெ",
+            "கௌ³ரஶக்திஸ்வரூபாய",
+            "ரூபானுக³வராய தெ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīla bhaktivinoda-praṇāma&",
+            "namo bhaktivinodāya",
+            "saccidānanda-nāmine",
+            "gauraśakti-svarūpāya",
+            "rūpānugavarāya te"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīla bhaktivinoda-praṇāma&",
+            "namo bhaktivinodāya",
+            "saccidānanda-nāmine",
+            "gauraśakti-svarūpāya",
+            "rūpānugavarāya te"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 25,
+      "source_text_master": [
+        "&śrījagannāthadāsa vāvājī[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "gaurāvirbhāva[FLAG_HYPHEN_ALPHA]bhūmestvaṁ",
+        "nirdeṣṭā sajjana[FLAG_HYPHEN_ALPHA]priyaḥ",
+        "vaiṣṇava[FLAG_HYPHEN_ALPHA]sārvabhauma[FLAG_HYPHEN_ALPHA]",
+        "śrījagannāthāya te namaḥ"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रीजगन्नाथदास वावाजीप्रणाम&",
+            "गौराविर्भावभूमॆस्त्वं",
+            "निर्दॆष्टा सज्जनप्रियः",
+            "वैष्णवसार्वभौम",
+            "श्रीजगन्नाथाय तॆ नमः"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীজগন্নাথদাস বাবাজীপ্রণাম&",
+            "গৌরাবির্ভাবভূমেস্ত্বং",
+            "নির্দেষ্টা সজ্জনপ্রিয়ঃ",
+            "বৈষ্ণবসার্বভৌম",
+            "শ্রীজগন্নাথায় তে নমঃ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀଜଗନ୍ନାଥଦାସ ବାବାଜୀପ୍ରଣାମ&",
+            "ଗୌରାବିର୍ଭାବଭୂମେସ୍ତ୍ୱଂ",
+            "ନିର୍ଦେଷ୍ଟା ସଜ୍ଜନପ୍ରିୟଃ",
+            "ବୈଷ୍ଣବସାର୍ୱଭୌମ",
+            "ଶ୍ରୀଜଗନ୍ନାଥାୟ ତେ ନମଃ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીજગન્નાથદાસ વાવાજીપ્રણામ&",
+            "ગૌરાવિર્ભાવભૂમેસ્ત્વં",
+            "નિર્દેષ્ટા સજ્જનપ્રિયઃ",
+            "વૈષ્ણવસાર્વભૌમ",
+            "શ્રીજગન્નાથાય તે નમઃ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrījagannāthadāsa vāvājī-praṇāma&",
+            "gaurāvirbhāva-bhūmestvaṁ",
+            "nirdeṣṭā sajjana-priyaḥ",
+            "vaiṣṇava-sārvabhauma-",
+            "śrījagannāthāya te namaḥ"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀಜಗನ್ನಾಥದಾಸ ವಾವಾಜೀಪ್ರಣಾಮ&",
+            "ಗೌರಾವಿರ್ಭಾವಭೂಮೆಸ್ತ್ವಂ",
+            "ನಿರ್ದೆಷ್ಟಾ ಸಜ್ಜನಪ್ರಿಯಃ",
+            "ವೈಷ್ಣವಸಾರ್ವಭೌಮ",
+            "ಶ್ರೀಜಗನ್ನಾಥಾಯ ತೆ ನಮಃ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీజగన్నాథదాస వావాజీప్రణామ&",
+            "గౌరావిర్భావభూమెస్త్వం",
+            "నిర్దెష్టా సజ్జనప్రియః",
+            "వైష్ణవసార్వభౌమ",
+            "శ్రీజగన్నాథాయ తె నమః"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣджаганна̄тхада̄са ва̄ва̄джӣпран̣а̄ма&",
+            "гаура̄вирбха̄вабхӯмэ̆ствам̣",
+            "нирдэ̆шт̣а̄ саджджанаприйах̣",
+            "ваишн̣аваса̄рвабхаума",
+            "ш́рӣджаганна̄тха̄йа тэ̆ намах̣"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീജഗന്നാഥദാസ വാവാജീപ്രണാമ&",
+            "ഗൗരാവിർഭാവഭൂമെസ്ത്വം",
+            "നിർദെഷ്ടാ സജ്ജനപ്രിയഃ",
+            "വൈഷ്ണവസാർവഭൗമ",
+            "ശ്രീജഗന്നാഥായ തെ നമഃ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீஜக³ந்நாத²தா³ஸ வாவாஜீப்ரணாம&",
+            "கௌ³ராவிர்பா⁴வபூ⁴மெஸ்த்வம்ʼ",
+            "நிர்தெ³ஷ்டா ஸஜ்ஜனப்ரிய꞉",
+            "வைஷ்ணவஸார்வபௌ⁴ம",
+            "ஶ்ரீஜக³ந்நாதா²ய தெ நம꞉"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrījagannāthadāsa vāvājī-praṇāma&",
+            "gaurāvirbhāva-bhūmestvaṁ",
+            "nirdeṣṭā sajjana-priyaḥ",
+            "vaiṣṇava-sārvabhauma-",
+            "śrījagannāthāya te namaḥ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrījagannāthadāsa vāvājī-praṇāma&",
+            "gaurāvirbhāva-bhūmestvaṁ",
+            "nirdeṣṭā sajjana-priyaḥ",
+            "vaiṣṇava-sārvabhauma-",
+            "śrījagannāthāya te namaḥ"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 26,
+      "source_text_master": [
+        "&śrīvaiṣṇava[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "vāñchā[FLAG_HYPHEN_ALPHA]kalpatarubhyaśca",
+        "kṛpāsindhubhya eva ca",
+        "patitānāṁ pāvanebhyo",
+        "vaiṣṇavebhyo namo namaḥ"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रीवैष्णवप्रणाम&",
+            "वाञ्छाकल्पतरुभ्यश्च",
+            "क्ड़्पासिन्धुभ्य ऎव च",
+            "पतितानां पावनॆभ्यॊ",
+            "वैष्णवॆभ्यॊ नमॊ नमः"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীবৈষ্ণবপ্রণাম&",
+            "বাঞ্ছাকল্পতরুভ্যশ্চ",
+            "ক্ড়্পাসিন্ধুভ্য এব চ",
+            "পতিতানাং পাবনেভ্যো",
+            "বৈষ্ণবেভ্যো নমো নমঃ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀବୈଷ୍ଣବପ୍ରଣାମ&",
+            "ବାଞ୍ଛାକଲ୍ପତରୁଭ୍ୟଶ୍ଚ",
+            "କ୍ଡ଼୍ପାସିନ୍ଧୁଭ୍ୟ ଏବ ଚ",
+            "ପତିତାନାଂ ପାବନେଭ୍ୟୋ",
+            "ବୈଷ୍ଣବେଭ୍ୟୋ ନମୋ ନମଃ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીવૈષ્ણવપ્રણામ&",
+            "વાઞ્છાકલ્પતરુભ્યશ્ચ",
+            "ક્ડ઼્પાસિન્ધુભ્ય એવ ચ",
+            "પતિતાનાં પાવનેભ્યો",
+            "વૈષ્ણવેભ્યો નમો નમઃ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīvaiṣṇava-praṇāma&",
+            "vāñchā-kalpatarubhyaśca",
+            "kṛpāsindhubhya eva ca",
+            "patitānāṁ pāvanebhyo",
+            "vaiṣṇavebhyo namo namaḥ"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀವೈಷ್ಣವಪ್ರಣಾಮ&",
+            "ವಾಂಛಾಕಲ್ಪತರುಭ್ಯಶ್ಚ",
+            "ಕ್‌ಡ಼್ಪಾಸಿಂಧುಭ್ಯ ಎವ ಚ",
+            "ಪತಿತಾನಾಂ ಪಾವನೆಭ್ಯೊ",
+            "ವೈಷ್ಣವೆಭ್ಯೊ ನಮೊ ನಮಃ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీవైష్ణవప్రణామ&",
+            "వాంఛాకల్పతరుభ్యశ్చ",
+            "క్డ్పాసింధుభ్య ఎవ చ",
+            "పతితానాం పావనెభ్యొ",
+            "వైష్ణవెభ్యొ నమొ నమః"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣваишн̣авапран̣а̄ма&",
+            "ва̄н̃чха̄калпатарубхйаш́ча",
+            "кр̤па̄синдхубхйа э̆ва ча",
+            "патита̄на̄м̣ па̄ванэ̆бхйо̆",
+            "ваишн̣авэ̆бхйо̆ намо̆ намах̣"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീവൈഷ്ണവപ്രണാമ&",
+            "വാഞ്ഛാകല്പതരുഭ്യശ്ച",
+            "ക്ഡ്പാസിന്ധുഭ്യ എവ ച",
+            "പതിതാനാം പാവനെഭ്യൊ",
+            "വൈഷ്ണവെഭ്യൊ നമൊ നമഃ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீவைஷ்ணவப்ரணாம&",
+            "வாஞ்சா²கல்பதருப்⁴யஶ்ச",
+            "க்ஃட்²பாஸிந்து⁴ப்⁴ய எவ ச",
+            "பதிதானாம்ʼ பாவனெப்⁴யொ",
+            "வைஷ்ணவெப்⁴யொ நமொ நம꞉"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīvaiṣṇava-praṇāma&",
+            "vāñchā-kalpatarubhyaśca",
+            "kṛpāsindhubhya eva ca",
+            "patitānāṁ pāvanebhyo",
+            "vaiṣṇavebhyo namo namaḥ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīvaiṣṇava-praṇāma&",
+            "vāñchā-kalpatarubhyaśca",
+            "kṛpāsindhubhya eva ca",
+            "patitānāṁ pāvanebhyo",
+            "vaiṣṇavebhyo namo namaḥ"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 27,
+      "source_text_master": [
+        "&śrīśrīnityānanda[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "saṅkarṣaṇaḥ kāraṇa[FLAG_HYPHEN_ALPHA]toyaśāyī",
+        "garbhodaśāyī ca payovdhiśāyī",
+        "śeṣaśca yasyāṁśakalāḥ sa nityā[FLAG_HYPHEN_ALPHA]",
+        "nandākhya[FLAG_HYPHEN_ALPHA]rāmaḥ śaraṇaṁ mamāstu"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रीश्रीनित्यानन्दप्रणाम&",
+            "सङ्कर्षणः कारणतॊयशायी",
+            "गर्भॊदशायी च पयॊव्धिशायी",
+            "शॆषश्च यस्यांशकलाः स नित्या",
+            "नन्दाख्यरामः शरणं ममास्तु"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীশ্রীনিত্যানন্দপ্রণাম&",
+            "সঙ্কর্ষণঃ কারণতোয়শায়ী",
+            "গর্ভোদশায়ী চ পয়োব্ধিশায়ী",
+            "শেষশ্চ যস্যাংশকলাঃ স নিত্যা",
+            "নন্দাখ্যরামঃ শরণং মমাস্তু"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀଶ୍ରୀନିତ୍ୟାନନ୍ଦପ୍ରଣାମ&",
+            "ସଙ୍କର୍ଷଣଃ କାରଣତୋୟଶାୟୀ",
+            "ଗର୍ଭୋଦଶାୟୀ ଚ ପୟୋବ୍ଧିଶାୟୀ",
+            "ଶେଷଶ୍ଚ ଯସ୍ୟାଂଶକଲାଃ ସ ନିତ୍ୟା",
+            "ନନ୍ଦାଖ୍ୟରାମଃ ଶରଣଂ ମମାସ୍ତୁ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીશ્રીનિત્યાનન્દપ્રણામ&",
+            "સઙ્કર્ષણઃ કારણતોયશાયી",
+            "ગર્ભોદશાયી ચ પયોવ્ધિશાયી",
+            "શેષશ્ચ યસ્યાંશકલાઃ સ નિત્યા",
+            "નન્દાખ્યરામઃ શરણં મમાસ્તુ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīśrīnityānanda-praṇāma&",
+            "saṅkarṣaṇaḥ kāraṇa-toyaśāyī",
+            "garbhodaśāyī ca payovdhiśāyī",
+            "śeṣaśca yasyāṁśakalāḥ sa nityā-",
+            "nandākhya-rāmaḥ śaraṇaṁ mamāstu"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀಶ್ರೀನಿತ್ಯಾನಂದಪ್ರಣಾಮ&",
+            "ಸಂಕರ್ಷಣಃ ಕಾರಣತೊಯಶಾಯೀ",
+            "ಗರ್ಭೊದಶಾಯೀ ಚ ಪಯೊವ್ಧಿಶಾಯೀ",
+            "ಶೆಷಶ್ಚ ಯಸ್ಯಾಂಶಕಲಾಃ ಸ ನಿತ್ಯಾ",
+            "ನಂದಾಖ್ಯರಾಮಃ ಶರಣಂ ಮಮಾಸ್ತು"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీశ్రీనిత్యానందప్రణామ&",
+            "సంకర్షణః కారణతొయశాయీ",
+            "గర్భొదశాయీ చ పయొవ్ధిశాయీ",
+            "శెషశ్చ యస్యాంశకలాః స నిత్యా",
+            "నందాఖ్యరామః శరణం మమాస్తు"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣш́рӣнитйа̄нандапран̣а̄ма&",
+            "сан̇каршан̣ах̣ ка̄ран̣ато̆йаш́а̄йӣ",
+            "гарбхо̆даш́а̄йӣ ча пайо̆вдхиш́а̄йӣ",
+            "ш́э̆шаш́ча йасйа̄м̣ш́акала̄х̣ са нитйа̄",
+            "нанда̄кхйара̄мах̣ ш́аран̣ам̣ мама̄сту"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീശ്രീനിത്യാനന്ദപ്രണാമ&",
+            "സങ്കർഷണഃ കാരണതൊയശായീ",
+            "ഗർഭൊദശായീ ച പയൊവ്ധിശായീ",
+            "ശെഷശ്ച യസ്യാംശകലാഃ സ നിത്യാ",
+            "നന്ദാഖ്യരാമഃ ശരണം മമാസ്തു"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீஶ்ரீநித்யானந்த³ப்ரணாம&",
+            "ஸங்கர்ஷண꞉ காரணதொயஶாயீ",
+            "க³ர்பொ⁴த³ஶாயீ ச பயொவ்தி⁴ஶாயீ",
+            "ஶெஷஶ்ச யஸ்யாம்ʼஶகலா꞉ ஸ நித்யா",
+            "நந்தா³க்²யராம꞉ ஶரணம்ʼ மமாஸ்து"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīśrīnityānanda-praṇāma&",
+            "saṅkarṣaṇaḥ kāraṇa-toyaśāyī",
+            "garbhodaśāyī ca payovdhiśāyī",
+            "śeṣaśca yasyāṁśakalāḥ sa nityā-",
+            "nandākhya-rāmaḥ śaraṇaṁ mamāstu"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīśrīnityānanda-praṇāma&",
+            "saṅkarṣaṇaḥ kāraṇa-toyaśāyī",
+            "garbhodaśāyī ca payovdhiśāyī",
+            "śeṣaśca yasyāṁśakalāḥ sa nityā-",
+            "nandākhya-rāmaḥ śaraṇaṁ mamāstu"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 28,
+      "source_text_master": [
+        "&śrīgaurāṅga[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "namo mahāvadānyāya",
+        "kṛṣṇaprema[FLAG_HYPHEN_ALPHA]pradāya te",
+        "kṛṣṇāya ‘kṛṣṇacaitanya’[FLAG_HYPHEN_ALPHA]",
+        "nāmne gauratviṣe namaḥ"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रीगौराङ्गप्रणाम&",
+            "नमॊ महावदान्याय",
+            "क्ड़्ष्णप्रॆमप्रदाय तॆ",
+            "क्ड़्ष्णाय ‘क्ड़्ष्णचैतन्यऽ",
+            "नाम्नॆ गौरत्विषॆ नमः"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীগৌরাঙ্গপ্রণাম&",
+            "নমো মহাবদান্যায়",
+            "ক্ড়্ষ্ণপ্রেমপ্রদায় তে",
+            "ক্ড়্ষ্ণায় ‘ক্ড়্ষ্ণচৈতন্যঽ",
+            "নাম্নে গৌরত্বিষে নমঃ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀଗୌରାଙ୍ଗପ୍ରଣାମ&",
+            "ନମୋ ମହାବଦାନ୍ୟାୟ",
+            "କ୍ଡ଼୍ଷ୍ଣପ୍ରେମପ୍ରଦାୟ ତେ",
+            "କ୍ଡ଼୍ଷ୍ଣାୟ ‘କ୍ଡ଼୍ଷ୍ଣଚୈତନ୍ୟଽ",
+            "ନାମ୍ନେ ଗୌରତ୍ୱିଷେ ନମଃ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીગૌરાઙ્ગપ્રણામ&",
+            "નમો મહાવદાન્યાય",
+            "ક્ડ઼્ષ્ણપ્રેમપ્રદાય તે",
+            "ક્ડ઼્ષ્ણાય ‘ક્ડ઼્ષ્ણચૈતન્યઽ",
+            "નામ્ને ગૌરત્વિષે નમઃ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīgaurāṅga-praṇāma&",
+            "namo mahāvadānyāya",
+            "kṛṣṇaprema-pradāya te",
+            "kṛṣṇāya ‘kṛṣṇacaitanya’-",
+            "nāmne gauratviṣe namaḥ"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀಗೌರಾಂಗಪ್ರಣಾಮ&",
+            "ನಮೊ ಮಹಾವದಾನ್ಯಾಯ",
+            "ಕ್‌ಡ಼್ಷ್ಣಪ್ರೆಮಪ್ರದಾಯ ತೆ",
+            "ಕ್‌ಡ಼್ಷ್ಣಾಯ ‘ಕ್‌ಡ಼್ಷ್ಣಚೈತನ್ಯಽ",
+            "ನಾಮ್ನೆ ಗೌರತ್ವಿಷೆ ನಮಃ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీగౌరాంగప్రణామ&",
+            "నమొ మహావదాన్యాయ",
+            "క్డ్ష్ణప్రెమప్రదాయ తె",
+            "క్డ్ష్ణాయ ‘క్డ్ష్ణచైతన్యఽ",
+            "నామ్నె గౌరత్విషె నమః"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣгаура̄н̇гапран̣а̄ма&",
+            "намо̆ маха̄вада̄нйа̄йа",
+            "кр̤шн̣апрэ̆мапрада̄йа тэ̆",
+            "кр̤шн̣а̄йа ‘кр̤шн̣ачаитанйа'",
+            "на̄мнэ̆ гауратвишэ̆ намах̣"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീഗൗരാംഗപ്രണാമ&",
+            "നമൊ മഹാവദാന്യായ",
+            "ക്ഡ്ഷ്ണപ്രെമപ്രദായ തെ",
+            "ക്ഡ്ഷ്ണായ ‘ക്ഡ്ഷ്ണചൈതന്യഽ",
+            "നാമ്നെ ഗൗരത്വിഷെ നമഃ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீகௌ³ராங்க³ப்ரணாம&",
+            "நமொ மஹாவதா³ந்யாய",
+            "க்ஃட்²ஷ்ணப்ரெமப்ரதா³ய தெ",
+            "க்ஃட்²ஷ்ணாய ‘க்ஃட்²ஷ்ணசைதன்ய(அ)",
+            "நாம்னெ கௌ³ரத்விஷெ நம꞉"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīgaurāṅga-praṇāma&",
+            "namo mahāvadānyāya",
+            "kṛṣṇaprema-pradāya te",
+            "kṛṣṇāya ‘kṛṣṇacaitanya’-",
+            "nāmne gauratviṣe namaḥ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīgaurāṅga-praṇāma&",
+            "namo mahāvadānyāya",
+            "kṛṣṇaprema-pradāya te",
+            "kṛṣṇāya ‘kṛṣṇacaitanya’-",
+            "nāmne gauratviṣe namaḥ"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 29,
+      "source_text_master": [
+        "&śrīpañcatattva[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "pañcatattvātmakaṁ kṛṣṇaṁ",
+        "bhaktarūpa[FLAG_HYPHEN_ALPHA]svarūpakam",
+        "bhaktāvatāraṁ bhaktākhyaṁ",
+        "namāmi bhaktaśaktikam"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रीपञ्चतत्त्वप्रणाम&",
+            "पञ्चतत्त्वात्मकं क्ड़्ष्णं",
+            "भक्तरूपस्वरूपकम्",
+            "भक्तावतारं भक्ताख्यं",
+            "नमामि भक्तशक्तिकम्"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীপঞ্চতত্ত্বপ্রণাম&",
+            "পঞ্চতত্ত্বাত্মকং ক্ড়্ষ্ণং",
+            "ভক্তরূপস্বরূপকম্",
+            "ভক্তাবতারং ভক্তাখ্যং",
+            "নমামি ভক্তশক্তিকম্"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀପଞ୍ଚତତ୍ତ୍ୱପ୍ରଣାମ&",
+            "ପଞ୍ଚତତ୍ତ୍ୱାତ୍ମକଂ କ୍ଡ଼୍ଷ୍ଣଂ",
+            "ଭକ୍ତରୂପସ୍ୱରୂପକମ୍",
+            "ଭକ୍ତାବତାରଂ ଭକ୍ତାଖ୍ୟଂ",
+            "ନମାମି ଭକ୍ତଶକ୍ତିକମ୍"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીપઞ્ચતત્ત્વપ્રણામ&",
+            "પઞ્ચતત્ત્વાત્મકં ક્ડ઼્ષ્ણં",
+            "ભક્તરૂપસ્વરૂપકમ્",
+            "ભક્તાવતારં ભક્તાખ્યં",
+            "નમામિ ભક્તશક્તિકમ્"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīpañcatattva-praṇāma&",
+            "pañcatattvātmakaṁ kṛṣṇaṁ",
+            "bhaktarūpa-svarūpakam",
+            "bhaktāvatāraṁ bhaktākhyaṁ",
+            "namāmi bhaktaśaktikam"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀಪಂಚತತ್ತ್ವಪ್ರಣಾಮ&",
+            "ಪಂಚತತ್ತ್ವಾತ್ಮಕಂ ಕ್‌ಡ಼್ಷ್ಣಂ",
+            "ಭಕ್ತರೂಪಸ್ವರೂಪಕಂ",
+            "ಭಕ್ತಾವತಾರಂ ಭಕ್ತಾಖ್ಯಂ",
+            "ನಮಾಮಿ ಭಕ್ತಶಕ್ತಿಕಂ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీపంచతత్త్వప్రణామ&",
+            "పంచతత్త్వాత్మకం క్డ్ష్ణం",
+            "భక్తరూపస్వరూపకం",
+            "భక్తావతారం భక్తాఖ్యం",
+            "నమామి భక్తశక్తికం"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣпан̃чататтвапран̣а̄ма&",
+            "пан̃чататтва̄тмакам̣ кр̤шн̣ам̣",
+            "бхактарӯпасварӯпакам",
+            "бхакта̄вата̄рам̣ бхакта̄кхйам̣",
+            "нама̄ми бхакташ́актикам"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീപഞ്ചതത്ത്വപ്രണാമ&",
+            "പഞ്ചതത്ത്വാത്മകം ക്ഡ്ഷ്ണം",
+            "ഭക്തരൂപസ്വരൂപകം",
+            "ഭക്താവതാരം ഭക്താഖ്യം",
+            "നമാമി ഭക്തശക്തികം"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீபஞ்சதத்த்வப்ரணாம&",
+            "பஞ்சதத்த்வாத்மகம்ʼ க்ஃட்²ஷ்ணம்ʼ",
+            "ப⁴க்தரூபஸ்வரூபகம்",
+            "ப⁴க்தாவதாரம்ʼ ப⁴க்தாக்²யம்ʼ",
+            "நமாமி ப⁴க்தஶக்திகம்"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīpañcatattva-praṇāma&",
+            "pañcatattvātmakaṁ kṛṣṇaṁ",
+            "bhaktarūpa-svarūpakam",
+            "bhaktāvatāraṁ bhaktākhyaṁ",
+            "namāmi bhaktaśaktikam"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīpañcatattva-praṇāma&",
+            "pañcatattvātmakaṁ kṛṣṇaṁ",
+            "bhaktarūpa-svarūpakam",
+            "bhaktāvatāraṁ bhaktākhyaṁ",
+            "namāmi bhaktaśaktikam"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 30,
+      "source_text_master": [
+        "&śrīvaladeva[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "namaste tu halagrāma!",
+        "namaste muṣalāyudha !",
+        "namaste revatīkāsta!",
+        "namaste bhakta[FLAG_HYPHEN_ALPHA]vatsala !",
+        "namaste valināṁ śreṣṭha!",
+        "namaste dharaṇīdhara !",
+        "pralamvāre! namaste tu",
+        "trāhi māṁ kṛṣṇapūrvaja !",
+        "&śrīkṛṣṇa[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "he kṛṣṇa karuṇā[FLAG_HYPHEN_ALPHA]sindho",
+        "dīnavandho jagatpate",
+        "gopeśa gopikākānta",
+        "rādhākānta! namo’stu te"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रीवलदॆवप्रणाम&",
+            "नमस्तॆ तु हलग्राम!",
+            "नमस्तॆ मुषलायुध !",
+            "नमस्तॆ रॆवतीकास्त!",
+            "नमस्तॆ भक्तवत्सल !",
+            "नमस्तॆ वलिनां श्रॆष्ठ!",
+            "नमस्तॆ धरणीधर !",
+            "प्रलम्वारॆ! नमस्तॆ तु",
+            "त्राहि मां क्ड़्ष्णपूर्वज !",
+            "&श्रीक्ड़्ष्णप्रणाम&",
+            "हॆ क्ड़्ष्ण करुणासिन्धॊ",
+            "दीनवन्धॊ जगत्पतॆ",
+            "गॊपॆश गॊपिकाकान्त",
+            "राधाकान्त! नमॊऽस्तु तॆ"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীবলদেবপ্রণাম&",
+            "নমস্তে তু হলগ্রাম!",
+            "নমস্তে মুষলায়ুধ !",
+            "নমস্তে রেবতীকাস্ত!",
+            "নমস্তে ভক্তবৎসল !",
+            "নমস্তে বলিনাং শ্রেষ্ঠ!",
+            "নমস্তে ধরণীধর !",
+            "প্রলম্বারে! নমস্তে তু",
+            "ত্রাহি মাং ক্ড়্ষ্ণপূর্বজ !",
+            "&শ্রীক্ড়্ষ্ণপ্রণাম&",
+            "হে ক্ড়্ষ্ণ করুণাসিন্ধো",
+            "দীনবন্ধো জগৎপতে",
+            "গোপেশ গোপিকাকান্ত",
+            "রাধাকান্ত! নমোঽস্তু তে"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀବଲଦେବପ୍ରଣାମ&",
+            "ନମସ୍ତେ ତୁ ହଲଗ୍ରାମ!",
+            "ନମସ୍ତେ ମୁଷଲାୟୁଧ !",
+            "ନମସ୍ତେ ରେବତୀକାସ୍ତ!",
+            "ନମସ୍ତେ ଭକ୍ତବତ୍ସଲ !",
+            "ନମସ୍ତେ ବଲିନାଂ ଶ୍ରେଷ୍ଠ!",
+            "ନମସ୍ତେ ଧରଣୀଧର !",
+            "ପ୍ରଲମ୍ୱାରେ! ନମସ୍ତେ ତୁ",
+            "ତ୍ରାହି ମାଂ କ୍ଡ଼୍ଷ୍ଣପୂର୍ୱଜ !",
+            "&ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣପ୍ରଣାମ&",
+            "ହେ କ୍ଡ଼୍ଷ୍ଣ କରୁଣାସିନ୍ଧୋ",
+            "ଦୀନବନ୍ଧୋ ଜଗତ୍ପତେ",
+            "ଗୋପେଶ ଗୋପିକାକାନ୍ତ",
+            "ରାଧାକାନ୍ତ! ନମୋଽସ୍ତୁ ତେ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીવલદેવપ્રણામ&",
+            "નમસ્તે તુ હલગ્રામ!",
+            "નમસ્તે મુષલાયુધ !",
+            "નમસ્તે રેવતીકાસ્ત!",
+            "નમસ્તે ભક્તવત્સલ !",
+            "નમસ્તે વલિનાં શ્રેષ્ઠ!",
+            "નમસ્તે ધરણીધર !",
+            "પ્રલમ્વારે! નમસ્તે તુ",
+            "ત્રાહિ માં ક્ડ઼્ષ્ણપૂર્વજ !",
+            "&શ્રીક્ડ઼્ષ્ણપ્રણામ&",
+            "હે ક્ડ઼્ષ્ણ કરુણાસિન્ધો",
+            "દીનવન્ધો જગત્પતે",
+            "ગોપેશ ગોપિકાકાન્ત",
+            "રાધાકાન્ત! નમોઽસ્તુ તે"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīvaladeva-praṇāma&",
+            "namaste tu halagrāma!",
+            "namaste muṣalāyudha !",
+            "namaste revatīkāsta!",
+            "namaste bhakta-vatsala !",
+            "namaste valināṁ śreṣṭha!",
+            "namaste dharaṇīdhara !",
+            "pralamvāre! namaste tu",
+            "trāhi māṁ kṛṣṇapūrvaja !",
+            "&śrīkṛṣṇa-praṇāma&",
+            "he kṛṣṇa karuṇā-sindho",
+            "dīnavandho jagatpate",
+            "gopeśa gopikākānta",
+            "rādhākānta! namo’stu te"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀವಲದೆವಪ್ರಣಾಮ&",
+            "ನಮಸ್ತೆ ತು ಹಲಗ್ರಾಮ!",
+            "ನಮಸ್ತೆ ಮುಷಲಾಯುಧ !",
+            "ನಮಸ್ತೆ ರೆವತೀಕಾಸ್ತ!",
+            "ನಮಸ್ತೆ ಭಕ್ತವತ್ಸಲ !",
+            "ನಮಸ್ತೆ ವಲಿನಾಂ ಶ್ರೆಷ್ಠ!",
+            "ನಮಸ್ತೆ ಧರಣೀಧರ !",
+            "ಪ್ರಲಮ್ವಾರೆ! ನಮಸ್ತೆ ತು",
+            "ತ್ರಾಹಿ ಮಾಂ ಕ್‌ಡ಼್ಷ್ಣಪೂರ್ವಜ !",
+            "&ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಪ್ರಣಾಮ&",
+            "ಹೆ ಕ್‌ಡ಼್ಷ್ಣ ಕರುಣಾಸಿಂಧೊ",
+            "ದೀನವಂಧೊ ಜಗತ್ಪತೆ",
+            "ಗೊಪೆಶ ಗೊಪಿಕಾಕಾಂತ",
+            "ರಾಧಾಕಾಂತ! ನಮೊಽಸ್ತು ತೆ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీవలదెవప్రణామ&",
+            "నమస్తె తు హలగ్రామ!",
+            "నమస్తె ముషలాయుధ !",
+            "నమస్తె రెవతీకాస్త!",
+            "నమస్తె భక్తవత్సల !",
+            "నమస్తె వలినాం శ్రెష్ఠ!",
+            "నమస్తె ధరణీధర !",
+            "ప్రలమ్వారె! నమస్తె తు",
+            "త్రాహి మాం క్డ్ష్ణపూర్వజ !",
+            "&శ్రీక్డ్ష్ణప్రణామ&",
+            "హె క్డ్ష్ణ కరుణాసింధొ",
+            "దీనవంధొ జగత్పతె",
+            "గొపెశ గొపికాకాంత",
+            "రాధాకాంత! నమొఽస్తు తె"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣваладэ̆вапран̣а̄ма&",
+            "намастэ̆ ту халагра̄ма!",
+            "намастэ̆ мушала̄йудха !",
+            "намастэ̆ рэ̆ватӣка̄ста!",
+            "намастэ̆ бхактаватсала !",
+            "намастэ̆ валина̄м̣ ш́рэ̆шт̣ха!",
+            "намастэ̆ дхаран̣ӣдхара !",
+            "праламва̄рэ̆! намастэ̆ ту",
+            "тра̄хи ма̄м̣ кр̤шн̣апӯрваджа !",
+            "&ш́рӣкр̤шн̣апран̣а̄ма&",
+            "хэ̆ кр̤шн̣а карун̣а̄синдхо̆",
+            "дӣнавандхо̆ джагатпатэ̆",
+            "го̆пэ̆ш́а го̆пика̄ка̄нта",
+            "ра̄дха̄ка̄нта! намо̆'сту тэ̆"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീവലദെവപ്രണാമ&",
+            "നമസ്തെ തു ഹലഗ്രാമ!",
+            "നമസ്തെ മുഷലായുധ !",
+            "നമസ്തെ രെവതീകാസ്ത!",
+            "നമസ്തെ ഭക്തവത്സല !",
+            "നമസ്തെ വലിനാം ശ്രെഷ്ഠ!",
+            "നമസ്തെ ധരണീധര !",
+            "പ്രലമ്വാരെ! നമസ്തെ തു",
+            "ത്രാഹി മാം ക്ഡ്ഷ്ണപൂർവജ !",
+            "&ശ്രീക്ഡ്ഷ്ണപ്രണാമ&",
+            "ഹെ ക്ഡ്ഷ്ണ കരുണാസിന്ധൊ",
+            "ദീനവന്ധൊ ജഗത്പതെ",
+            "ഗൊപെശ ഗൊപികാകാന്ത",
+            "രാധാകാന്ത! നമൊഽസ്തു തെ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீவலதெ³வப்ரணாம&",
+            "நமஸ்தெ து ஹலக்³ராம!",
+            "நமஸ்தெ முஷலாயுத⁴ !",
+            "நமஸ்தெ ரெவதீகாஸ்த!",
+            "நமஸ்தெ ப⁴க்தவத்ஸல !",
+            "நமஸ்தெ வலினாம்ʼ ஶ்ரெஷ்ட²!",
+            "நமஸ்தெ த⁴ரணீத⁴ர !",
+            "ப்ரலம்வாரெ! நமஸ்தெ து",
+            "த்ராஹி மாம்ʼ க்ஃட்²ஷ்ணபூர்வஜ !",
+            "&ஶ்ரீக்ஃட்²ஷ்ணப்ரணாம&",
+            "ஹெ க்ஃட்²ஷ்ண கருணாஸிந்தொ⁴",
+            "தீ³னவந்தொ⁴ ஜக³த்பதெ",
+            "கொ³பெஶ கொ³பிகாகாந்த",
+            "ராதா⁴காந்த! நமொ(அ)ஸ்து தெ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīvaladeva-praṇāma&",
+            "namaste tu halagrāma!",
+            "namaste muṣalāyudha !",
+            "namaste revatīkāsta!",
+            "namaste bhakta-vatsala !",
+            "namaste valināṁ śreṣṭha!",
+            "namaste dharaṇīdhara !",
+            "pralamvāre! namaste tu",
+            "trāhi māṁ kṛṣṇapūrvaja !",
+            "&śrīkṛṣṇa-praṇāma&",
+            "he kṛṣṇa karuṇā-sindho",
+            "dīnavandho jagatpate",
+            "gopeśa gopikākānta",
+            "rādhākānta! namo’stu te"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīvaladeva-praṇāma&",
+            "namaste tu halagrāma!",
+            "namaste muṣalāyudha !",
+            "namaste revatīkāsta!",
+            "namaste bhakta-vatsala !",
+            "namaste valināṁ śreṣṭha!",
+            "namaste dharaṇīdhara !",
+            "pralamvāre! namaste tu",
+            "trāhi māṁ kṛṣṇapūrvaja !",
+            "&śrīkṛṣṇa-praṇāma&",
+            "he kṛṣṇa karuṇā-sindho",
+            "dīnavandho jagatpate",
+            "gopeśa gopikākānta",
+            "rādhākānta! namo’stu te"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 31,
+      "source_text_master": [
+        "&samvandhādhideva[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "jayatāṁ suratau paṅgo[FLAG_HYPHEN_ALPHA]",
+        "rmama manda[FLAG_HYPHEN_ALPHA]matergatī",
+        "matsarvasva[FLAG_HYPHEN_ALPHA]padāmbhojau",
+        "rādhā[FLAG_HYPHEN_ALPHA]madanamohanau"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&सम्वन्धाधिदॆवप्रणाम&",
+            "जयतां सुरतौ पङ्गॊ",
+            "र्मम मन्दमतॆर्गती",
+            "मत्सर्वस्वपदाम्भॊजौ",
+            "राधामदनमॊहनौ"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&সম্বন্ধাধিদেবপ্রণাম&",
+            "জয়তাং সুরতৌ পঙ্গো",
+            "র্মম মন্দমতের্গতী",
+            "মৎসর্বস্বপদাম্ভোজৌ",
+            "রাধামদনমোহনৌ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ସମ୍ୱନ୍ଧାଧିଦେବପ୍ରଣାମ&",
+            "ଜୟତାଂ ସୁରତୌ ପଙ୍ଗୋ",
+            "ର୍ମମ ମନ୍ଦମତେର୍ଗତୀ",
+            "ମତ୍ସର୍ୱସ୍ୱପଦାମ୍ଭୋଜୌ",
+            "ରାଧାମଦନମୋହନୌ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&સમ્વન્ધાધિદેવપ્રણામ&",
+            "જયતાં સુરતૌ પઙ્ગો",
+            "ર્મમ મન્દમતેર્ગતી",
+            "મત્સર્વસ્વપદામ્ભોજૌ",
+            "રાધામદનમોહનૌ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&samvandhādhideva-praṇāma&",
+            "jayatāṁ suratau paṅgo-",
+            "rmama manda-matergatī",
+            "matsarvasva-padāmbhojau",
+            "rādhā-madanamohanau"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಸಮ್ವಂಧಾಧಿದೆವಪ್ರಣಾಮ&",
+            "ಜಯತಾಂ ಸುರತೌ ಪಂಗೊ",
+            "ರ್ಮಮ ಮಂದಮತೆರ್ಗತೀ",
+            "ಮತ್ಸರ್ವಸ್ವಪದಾಂಭೊಜೌ",
+            "ರಾಧಾಮದನಮೊಹನೌ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&సమ్వంధాధిదెవప్రణామ&",
+            "జయతాం సురతౌ పంగొ",
+            "ర్మమ మందమతెర్గతీ",
+            "మత్సర్వస్వపదాంభొజౌ",
+            "రాధామదనమొహనౌ"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&самвандха̄дхидэ̆вапран̣а̄ма&",
+            "джайата̄м̣ суратау пан̇го̆",
+            "рмама мандаматэ̆ргатӣ",
+            "матсарвасвапада̄мбхо̆джау",
+            "ра̄дха̄маданамо̆ханау"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&സമ്വന്ധാധിദെവപ്രണാമ&",
+            "ജയതാം സുരതൗ പംഗൊ",
+            "ര്മമ മന്ദമതെർഗതീ",
+            "മത്സർവസ്വപദാംഭൊജൗ",
+            "രാധാമദനമൊഹനൗ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஸம்வந்தா⁴தி⁴தெ³வப்ரணாம&",
+            "ஜயதாம்ʼ ஸுரதௌ பங்கொ³",
+            "ர்மம மந்த³மதெர்க³தீ",
+            "மத்ஸர்வஸ்வபதா³ம்பொ⁴ஜௌ",
+            "ராதா⁴மத³னமொஹனௌ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&samvandhādhideva-praṇāma&",
+            "jayatāṁ suratau paṅgo-",
+            "rmama manda-matergatī",
+            "matsarvasva-padāmbhojau",
+            "rādhā-madanamohanau"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&samvandhādhideva-praṇāma&",
+            "jayatāṁ suratau paṅgo-",
+            "rmama manda-matergatī",
+            "matsarvasva-padāmbhojau",
+            "rādhā-madanamohanau"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 32,
+      "source_text_master": [
+        "&abhidheyādhideva[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "dīvyad[FLAG_HYPHEN_ALPHA]vṛndāraṇya[FLAG_HYPHEN_ALPHA]kalpadrumādhaḥ",
+        "śrīmad‌ratnāgāra[FLAG_HYPHEN_ALPHA]siṁhāsanasthau",
+        "śrīśrīrādhā[FLAG_HYPHEN_ALPHA]śrīla[FLAG_HYPHEN_ALPHA]govindadevau",
+        "preṣṭhālībhiḥ sevyamānau smarāmi"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&अभिधॆयाधिदॆवप्रणाम&",
+            "दीव्यद्व्ड़्न्दारण्यकल्पद्रुमाधः",
+            "श्रीमद्‌रत्नागारसिंहासनस्थौ",
+            "श्रीश्रीराधाश्रीलगॊविन्ददॆवौ",
+            "प्रॆष्ठालीभिः सॆव्यमानौ स्मरामि"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&অভিধেয়াধিদেবপ্রণাম&",
+            "দীব্যদ্ব্ড়্ন্দারণ্যকল্পদ্রুমাধঃ",
+            "শ্রীমদ্‌রত্নাগারসিংহাসনস্থৌ",
+            "শ্রীশ্রীরাধাশ্রীলগোবিন্দদেবৌ",
+            "প্রেষ্ঠালীভিঃ সেব্যমানৌ স্মরামি"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଅଭିଧେୟାଧିଦେବପ୍ରଣାମ&",
+            "ଦୀବ୍ୟଦ୍ୱ୍ଡ଼୍ନ୍ଦାରଣ୍ୟକଲ୍ପଦ୍ରୁମାଧଃ",
+            "ଶ୍ରୀମଦ୍‌ରତ୍ନାଗାରସିଂହାସନସ୍ଥୌ",
+            "ଶ୍ରୀଶ୍ରୀରାଧାଶ୍ରୀଲଗୋବିନ୍ଦଦେବୌ",
+            "ପ୍ରେଷ୍ଠାଲୀଭିଃ ସେବ୍ୟମାନୌ ସ୍ମରାମି"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&અભિધેયાધિદેવપ્રણામ&",
+            "દીવ્યદ્વ્ડ઼્ન્દારણ્યકલ્પદ્રુમાધઃ",
+            "શ્રીમદ્‌રત્નાગારસિંહાસનસ્થૌ",
+            "શ્રીશ્રીરાધાશ્રીલગોવિન્દદેવૌ",
+            "પ્રેષ્ઠાલીભિઃ સેવ્યમાનૌ સ્મરામિ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&abhidheyādhideva-praṇāma&",
+            "dīvyad-vṛndāraṇya-kalpadrumādhaḥ",
+            "śrīmad‌ratnāgāra-siṁhāsanasthau",
+            "śrīśrīrādhā-śrīla-govindadevau",
+            "preṣṭhālībhiḥ sevyamānau smarāmi"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಅಭಿಧೆಯಾಧಿದೆವಪ್ರಣಾಮ&",
+            "ದೀವ್ಯದ್ವ್‌ಡ಼್ನ್ದಾರಣ್ಯಕಲ್ಪದ್ರುಮಾಧಃ",
+            "ಶ್ರೀಮದ್‌ರತ್ನಾಗಾರಸಿಂಹಾಸನಸ್ಥೌ",
+            "ಶ್ರೀಶ್ರೀರಾಧಾಶ್ರೀಲಗೊವಿಂದದೆವೌ",
+            "ಪ್ರೆಷ್ಠಾಲೀಭಿಃ ಸೆವ್ಯಮಾನೌ ಸ್ಮರಾಮಿ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&అభిధెయాధిదెవప్రణామ&",
+            "దీవ్యద్వ్డ్న్దారణ్యకల్పద్రుమాధః",
+            "శ్రీమద్‌రత్నాగారసింహాసనస్థౌ",
+            "శ్రీశ్రీరాధాశ్రీలగొవిందదెవౌ",
+            "ప్రెష్ఠాలీభిః సెవ్యమానౌ స్మరామి"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&абхидхэ̆йа̄дхидэ̆вапран̣а̄ма&",
+            "дӣвйадвр̤нда̄ран̣йакалпадрума̄дхах̣",
+            "ш́рӣмад‌ратна̄га̄расим̣ха̄санастхау",
+            "ш́рӣш́рӣра̄дха̄ш́рӣлаго̆виндадэ̆вау",
+            "прэ̆шт̣ха̄лӣбхих̣ сэ̆вйама̄нау смара̄ми"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&അഭിധെയാധിദെവപ്രണാമ&",
+            "ദീവ്യദ്വ്ഡ്ന്ദാരണ്യകല്പദ്രുമാധഃ",
+            "ശ്രീമദ്‌രത്നാഗാരസിംഹാസനസ്ഥൗ",
+            "ശ്രീശ്രീരാധാശ്രീലഗൊവിന്ദദെവൗ",
+            "പ്രെഷ്ഠാലീഭിഃ സെവ്യമാനൗ സ്മരാമി"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&அபி⁴தெ⁴யாதி⁴தெ³வப்ரணாம&",
+            "தீ³வ்யத்³வ்ஃட்²ந்தா³ரண்யகல்பத்³ருமாத⁴꞉",
+            "ஶ்ரீமத்³‌ரத்நாகா³ரஸிம்ʼஹாஸனஸ்தௌ²",
+            "ஶ்ரீஶ்ரீராதா⁴ஶ்ரீலகொ³விந்த³தெ³வௌ",
+            "ப்ரெஷ்டா²லீபி⁴꞉ ஸெவ்யமானௌ ஸ்மராமி"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&abhidheyādhideva-praṇāma&",
+            "dīvyad-vṛndāraṇya-kalpadrumādhaḥ",
+            "śrīmad‌ratnāgāra-siṁhāsanasthau",
+            "śrīśrīrādhā-śrīla-govindadevau",
+            "preṣṭhālībhiḥ sevyamānau smarāmi"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&abhidheyādhideva-praṇāma&",
+            "dīvyad-vṛndāraṇya-kalpadrumādhaḥ",
+            "śrīmad‌ratnāgāra-siṁhāsanasthau",
+            "śrīśrīrādhā-śrīla-govindadevau",
+            "preṣṭhālībhiḥ sevyamānau smarāmi"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 33,
+      "source_text_master": [
+        "&prayojanādhideva[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "śrīmān rāsarasārambhī",
+        "vaṁśīvaṭataṭasthitaḥ",
+        "karṣan veṇusvanairgopī",
+        "rgopīnāthaḥ śriye’stu naḥ"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&प्रयॊजनाधिदॆवप्रणाम&",
+            "श्रीमान् रासरसारम्भी",
+            "वंशीवटतटस्थितः",
+            "कर्षन् वॆणुस्वनैर्गॊपी",
+            "र्गॊपीनाथः श्रियॆऽस्तु नः"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&প্রয়োজনাধিদেবপ্রণাম&",
+            "শ্রীমান্ রাসরসারম্ভী",
+            "বংশীবটতটস্থিতঃ",
+            "কর্ষন্ বেণুস্বনৈর্গোপী",
+            "র্গোপীনাথঃ শ্রিয়েঽস্তু নঃ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ପ୍ରୟୋଜନାଧିଦେବପ୍ରଣାମ&",
+            "ଶ୍ରୀମାନ୍ ରାସରସାରମ୍ଭୀ",
+            "ବଂଶୀବଟତଟସ୍ଥିତଃ",
+            "କର୍ଷନ୍ ବେଣୁସ୍ୱନୈର୍ଗୋପୀ",
+            "ର୍ଗୋପୀନାଥଃ ଶ୍ରିୟେଽସ୍ତୁ ନଃ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&પ્રયોજનાધિદેવપ્રણામ&",
+            "શ્રીમાન્ રાસરસારમ્ભી",
+            "વંશીવટતટસ્થિતઃ",
+            "કર્ષન્ વેણુસ્વનૈર્ગોપી",
+            "ર્ગોપીનાથઃ શ્રિયેઽસ્તુ નઃ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&prayojanādhideva-praṇāma&",
+            "śrīmān rāsarasārambhī",
+            "vaṁśīvaṭataṭasthitaḥ",
+            "karṣan veṇusvanairgopī",
+            "rgopīnāthaḥ śriye’stu naḥ"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಪ್ರಯೊಜನಾಧಿದೆವಪ್ರಣಾಮ&",
+            "ಶ್ರೀಮಾನ್ ರಾಸರಸಾರಂಭೀ",
+            "ವಂಶೀವಟತಟಸ್ಥಿತಃ",
+            "ಕರ್ಷನ್ ವೆಣುಸ್ವನೈರ್ಗೊಪೀ",
+            "ರ್ಗೊಪೀನಾಥಃ ಶ್ರಿಯೆಽಸ್ತು ನಃ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&ప్రయొజనాధిదెవప్రణామ&",
+            "శ్రీమాన్ రాసరసారంభీ",
+            "వంశీవటతటస్థితః",
+            "కర్షన్ వెణుస్వనైర్గొపీ",
+            "ర్గొపీనాథః శ్రియెఽస్తు నః"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&прайо̆джана̄дхидэ̆вапран̣а̄ма&",
+            "ш́рӣма̄н ра̄сараса̄рамбхӣ",
+            "вам̣ш́ӣват̣атат̣астхитах̣",
+            "каршан вэ̆н̣усванаирго̆пӣ",
+            "рго̆пӣна̄тхах̣ ш́рийэ̆'сту нах̣"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&പ്രയൊജനാധിദെവപ്രണാമ&",
+            "ശ്രീമാൻ രാസരസാരംഭീ",
+            "വംശീവടതടസ്ഥിതഃ",
+            "കർഷൻ വെണുസ്വനൈർഗൊപീ",
+            "ര്ഗൊപീനാഥഃ ശ്രിയെഽസ്തു നഃ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ப்ரயொஜனாதி⁴தெ³வப்ரணாம&",
+            "ஶ்ரீமான் ராஸரஸாரம்பீ⁴",
+            "வம்ʼஶீவடதடஸ்தி²த꞉",
+            "கர்ஷன் வெணுஸ்வனைர்கொ³பீ",
+            "ர்கொ³பீநாத²꞉ ஶ்ரியெ(அ)ஸ்து ந꞉"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&prayojanādhideva-praṇāma&",
+            "śrīmān rāsarasārambhī",
+            "vaṁśīvaṭataṭasthitaḥ",
+            "karṣan veṇusvanairgopī",
+            "rgopīnāthaḥ śriye’stu naḥ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&prayojanādhideva-praṇāma&",
+            "śrīmān rāsarasārambhī",
+            "vaṁśīvaṭataṭasthitaḥ",
+            "karṣan veṇusvanairgopī",
+            "rgopīnāthaḥ śriye’stu naḥ"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 34,
+      "source_text_master": [
+        "&śrīrādhā[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "tapta[FLAG_HYPHEN_ALPHA]kāñcana[FLAG_HYPHEN_ALPHA]gaurāṅgi",
+        "rādhe vṛndāvaneśvari!",
+        "vṛṣabhānusute devi",
+        "praṇamāmi haripriye"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रीराधाप्रणाम&",
+            "तप्तकाञ्चनगौराङ्गि",
+            "राधॆ व्ड़्न्दावनॆश्वरि!",
+            "व्ड़्षभानुसुतॆ दॆवि",
+            "प्रणमामि हरिप्रियॆ"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীরাধাপ্রণাম&",
+            "তপ্তকাঞ্চনগৌরাঙ্গি",
+            "রাধে ব্ড়্ন্দাবনেশ্বরি!",
+            "ব্ড়্ষভানুসুতে দেবি",
+            "প্রণমামি হরিপ্রিয়ে"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀରାଧାପ୍ରଣାମ&",
+            "ତପ୍ତକାଞ୍ଚନଗୌରାଙ୍ଗି",
+            "ରାଧେ ବ୍ଡ଼୍ନ୍ଦାବନେଶ୍ୱରି!",
+            "ବ୍ଡ଼୍ଷଭାନୁସୁତେ ଦେବି",
+            "ପ୍ରଣମାମି ହରିପ୍ରିୟେ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીરાધાપ્રણામ&",
+            "તપ્તકાઞ્ચનગૌરાઙ્ગિ",
+            "રાધે વ્ડ઼્ન્દાવનેશ્વરિ!",
+            "વ્ડ઼્ષભાનુસુતે દેવિ",
+            "પ્રણમામિ હરિપ્રિયે"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrīrādhā-praṇāma&",
+            "tapta-kāñcana-gaurāṅgi",
+            "rādhe vṛndāvaneśvari!",
+            "vṛṣabhānusute devi",
+            "praṇamāmi haripriye"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀರಾಧಾಪ್ರಣಾಮ&",
+            "ತಪ್ತಕಾಂಚನಗೌರಾಂಗಿ",
+            "ರಾಧೆ ವ್‌ಡ಼್ನ್ದಾವನೆಶ್ವರಿ!",
+            "ವ್‌ಡ಼್ಷಭಾನುಸುತೆ ದೆವಿ",
+            "ಪ್ರಣಮಾಮಿ ಹರಿಪ್ರಿಯೆ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీరాధాప్రణామ&",
+            "తప్తకాంచనగౌరాంగి",
+            "రాధె వ్డ్న్దావనెశ్వరి!",
+            "వ్డ్షభానుసుతె దెవి",
+            "ప్రణమామి హరిప్రియె"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣра̄дха̄пран̣а̄ма&",
+            "таптака̄н̃чанагаура̄н̇ги",
+            "ра̄дхэ̆ вр̤нда̄ванэ̆ш́вари!",
+            "вр̤шабха̄нусутэ̆ дэ̆ви",
+            "пран̣ама̄ми хариприйэ̆"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീരാധാപ്രണാമ&",
+            "തപ്തകാഞ്ചനഗൗരാംഗി",
+            "രാധെ വ്ഡ്ന്ദാവനെശ്വരി!",
+            "വ്ഡ്ഷഭാനുസുതെ ദെവി",
+            "പ്രണമാമി ഹരിപ്രിയെ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீராதா⁴ப்ரணாம&",
+            "தப்தகாஞ்சனகௌ³ராங்கி³",
+            "ராதெ⁴ வ்ஃட்²ந்தா³வனெஶ்வரி!",
+            "வ்ஃட்²ஷபா⁴னுஸுதெ தெ³வி",
+            "ப்ரணமாமி ஹரிப்ரியெ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrīrādhā-praṇāma&",
+            "tapta-kāñcana-gaurāṅgi",
+            "rādhe vṛndāvaneśvari!",
+            "vṛṣabhānusute devi",
+            "praṇamāmi haripriye"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrīrādhā-praṇāma&",
+            "tapta-kāñcana-gaurāṅgi",
+            "rādhe vṛndāvaneśvari!",
+            "vṛṣabhānusute devi",
+            "praṇamāmi haripriye"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 35,
+      "source_text_master": [
+        "&śrītulasī[FLAG_HYPHEN_ALPHA]praṇāma&",
+        "vṛndāyai tulasīdevyai",
+        "priyāyai keśavasya ca",
+        "kṛṣṇabhakti[FLAG_HYPHEN_ALPHA]prade devi",
+        "satyavatyai namo namaḥ"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "&श्रीतुलसीप्रणाम&",
+            "व्ड़्न्दायै तुलसीदॆव्यै",
+            "प्रियायै कॆशवस्य च",
+            "क्ड़्ष्णभक्तिप्रदॆ दॆवि",
+            "सत्यवत्यै नमॊ नमः"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "&শ্রীতুলসীপ্রণাম&",
+            "ব্ড়্ন্দায়ৈ তুলসীদেব্যৈ",
+            "প্রিয়ায়ৈ কেশবস্য চ",
+            "ক্ড়্ষ্ণভক্তিপ্রদে দেবি",
+            "সত্যবত্যৈ নমো নমঃ"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "&ଶ୍ରୀତୁଲସୀପ୍ରଣାମ&",
+            "ବ୍ଡ଼୍ନ୍ଦାୟୈ ତୁଲସୀଦେବ୍ୟୈ",
+            "ପ୍ରିୟାୟୈ କେଶବସ୍ୟ ଚ",
+            "କ୍ଡ଼୍ଷ୍ଣଭକ୍ତିପ୍ରଦେ ଦେବି",
+            "ସତ୍ୟବତ୍ୟୈ ନମୋ ନମଃ"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "&શ્રીતુલસીપ્રણામ&",
+            "વ્ડ઼્ન્દાયૈ તુલસીદેવ્યૈ",
+            "પ્રિયાયૈ કેશવસ્ય ચ",
+            "ક્ડ઼્ષ્ણભક્તિપ્રદે દેવિ",
+            "સત્યવત્યૈ નમો નમઃ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "&śrītulasī-praṇāma&",
+            "vṛndāyai tulasīdevyai",
+            "priyāyai keśavasya ca",
+            "kṛṣṇabhakti-prade devi",
+            "satyavatyai namo namaḥ"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "&ಶ್ರೀತುಲಸೀಪ್ರಣಾಮ&",
+            "ವ್‌ಡ಼್ನ್ದಾಯೈ ತುಲಸೀದೆವ್ಯೈ",
+            "ಪ್ರಿಯಾಯೈ ಕೆಶವಸ್ಯ ಚ",
+            "ಕ್‌ಡ಼್ಷ್ಣಭಕ್ತಿಪ್ರದೆ ದೆವಿ",
+            "ಸತ್ಯವತ್ಯೈ ನಮೊ ನಮಃ"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "&శ్రీతులసీప్రణామ&",
+            "వ్డ్న్దాయై తులసీదెవ్యై",
+            "ప్రియాయై కెశవస్య చ",
+            "క్డ్ష్ణభక్తిప్రదె దెవి",
+            "సత్యవత్యై నమొ నమః"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "&ш́рӣтуласӣпран̣а̄ма&",
+            "вр̤нда̄йаи туласӣдэ̆вйаи",
+            "прийа̄йаи кэ̆ш́авасйа ча",
+            "кр̤шн̣абхактипрадэ̆ дэ̆ви",
+            "сатйаватйаи намо̆ намах̣"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "&ശ്രീതുലസീപ്രണാമ&",
+            "വ്ഡ്ന്ദായൈ തുലസീദെവ്യൈ",
+            "പ്രിയായൈ കെശവസ്യ ച",
+            "ക്ഡ്ഷ്ണഭക്തിപ്രദെ ദെവി",
+            "സത്യവത്യൈ നമൊ നമഃ"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "&ஶ்ரீதுலஸீப்ரணாம&",
+            "வ்ஃட்²ந்தா³யை துலஸீதெ³வ்யை",
+            "ப்ரியாயை கெஶவஸ்ய ச",
+            "க்ஃட்²ஷ்ணப⁴க்திப்ரதெ³ தெ³வி",
+            "ஸத்யவத்யை நமொ நம꞉"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "&śrītulasī-praṇāma&",
+            "vṛndāyai tulasīdevyai",
+            "priyāyai keśavasya ca",
+            "kṛṣṇabhakti-prade devi",
+            "satyavatyai namo namaḥ"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "&śrītulasī-praṇāma&",
+            "vṛndāyai tulasīdevyai",
+            "priyāyai keśavasya ca",
+            "kṛṣṇabhakti-prade devi",
+            "satyavatyai namo namaḥ"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": []
+}

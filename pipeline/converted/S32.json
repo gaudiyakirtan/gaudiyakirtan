@@ -1,0 +1,994 @@
+{
+ "uid": "S32",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "আর কেন মায়াজালে পড়িতেছ জীব মীন"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "āra kena māyājāle paḓitecha jība mīna"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "āra kena māyājāle paḓitecha jība mīna",
+    "nāhi jāna baddha ha’ye ra’be tumi ciradina 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Why are you plunging into the net of māyā, O fish-like jīva? You do not realize that you will remain trapped perpetually."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "āra",
+       "still now"
+      ],
+      [
+       "kena",
+       "why"
+      ],
+      [
+       "māyājāle",
+       "of māyā + into the net"
+      ],
+      [
+       "paḓitecha",
+       "you are plunging"
+      ],
+      [
+       "jība",
+       "living entity"
+      ],
+      [
+       "mīna",
+       "fish"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "jāna",
+       "you realize"
+      ],
+      [
+       "baddha ha’ye",
+       "having been entrapped, caught, imprisoned"
+      ],
+      [
+       "ra’be",
+       "will remain"
+      ],
+      [
+       "tumi",
+       "you"
+      ],
+      [
+       "ciradina",
+       "perpetually, forever"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "आर",
+       "still now"
+      ],
+      [
+       "कॆन",
+       "why"
+      ],
+      [
+       "मायाजालॆ",
+       "of māyā + into the net"
+      ],
+      [
+       "पḓइतॆछ",
+       "you are plunging"
+      ],
+      [
+       "जीब",
+       "living entity"
+      ],
+      [
+       "मीन",
+       "fish"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "जान",
+       "you realize"
+      ],
+      [
+       "बद्ध हऽयॆ",
+       "having been entrapped, caught, imprisoned"
+      ],
+      [
+       "रऽबॆ",
+       "will remain"
+      ],
+      [
+       "तुमि",
+       "you"
+      ],
+      [
+       "चिरदिन",
+       "perpetually, forever"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "আর",
+       "still now"
+      ],
+      [
+       "কেন",
+       "why"
+      ],
+      [
+       "মায়াজালে",
+       "of māyā + into the net"
+      ],
+      [
+       "পḓইতেছ",
+       "you are plunging"
+      ],
+      [
+       "জীব",
+       "living entity"
+      ],
+      [
+       "মীন",
+       "fish"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "জান",
+       "you realize"
+      ],
+      [
+       "বদ্ধ হঽয়ে",
+       "having been entrapped, caught, imprisoned"
+      ],
+      [
+       "রঽবে",
+       "will remain"
+      ],
+      [
+       "তুমি",
+       "you"
+      ],
+      [
+       "চিরদিন",
+       "perpetually, forever"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "આર",
+       "still now"
+      ],
+      [
+       "કેન",
+       "why"
+      ],
+      [
+       "માયાજાલે",
+       "of māyā + into the net"
+      ],
+      [
+       "પḓઇતેછ",
+       "you are plunging"
+      ],
+      [
+       "જીબ",
+       "living entity"
+      ],
+      [
+       "મીન",
+       "fish"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "જાન",
+       "you realize"
+      ],
+      [
+       "બદ્ધ હઽયે",
+       "having been entrapped, caught, imprisoned"
+      ],
+      [
+       "રઽબે",
+       "will remain"
+      ],
+      [
+       "તુમિ",
+       "you"
+      ],
+      [
+       "ચિરદિન",
+       "perpetually, forever"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "आर कॆन मायाजालॆ पḓइतॆछ जीब मीन",
+      "नाहि जान बद्ध हऽयॆ रऽबॆ तुमि चिरदिन १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "আর কেন মায়াজালে পḓইতেছ জীব মীন",
+      "নাহি জান বদ্ধ হঽয়ে রঽবে তুমি চিরদিন ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଆର କେନ ମାୟାଜାଲେ ପḓଇତେଛ ଜୀବ ମୀନ",
+      "ନାହି ଜାନ ବଦ୍ଧ ହଽୟେ ରଽବେ ତୁମି ଚିରଦିନ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "આર કેન માયાજાલે પḓઇતેછ જીબ મીન",
+      "નાહિ જાન બદ્ધ હઽયે રઽબે તુમિ ચિરદિન ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "āra kena māyājāle paḓitecha jība mīna",
+      "nāhi jāna baddha ha’ye ra’be tumi ciradina 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಆರ ಕೆನ ಮಾಯಾಜಾಲೆ ಪḓಇತೆಛ ಜೀಬ ಮೀನ",
+      "ನಾಹಿ ಜಾನ ಬದ್ಧ ಹಽಯೆ ರಽಬೆ ತುಮಿ ಚಿರದಿನ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఆర కెన మాయాజాలె పḓఇతెఛ జీబ మీన",
+      "నాహి జాన బద్ధ హఽయె రఽబె తుమి చిరదిన 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "а̄ра кэ̆на ма̄йа̄джа̄лэ̆ паḓитэ̆чха джӣба мӣна",
+      "на̄хи джа̄на баддха ха'йэ̆ ра'бэ̆ туми чирадина 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ആര കെന മായാജാലെ പḓഇതെഛ ജീബ മീന",
+      "നാഹി ജാന ബദ്ധ ഹഽയെ രഽബെ തുമി ചിരദിന 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஆர கென மாயாஜாலெ பḓஇதெச² ஜீப³ மீன",
+      "நாஹி ஜான ப³த்³த⁴ ஹ(அ)யெ ர(அ)பெ³ துமி சிரதி³ன 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "āra kena māyājāle paḍitecha jība mīna",
+      "nāhi jāna baddha ha’ye ra’be tumi ciradina 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "āra kena māyājāle paḓitecha jība mīna",
+      "nāhi jāna baddha ha’ye ra’be tumi ciradina 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "ati tuccha bhoga[FLAG_HYPHEN_ALPHA]āśe,    bandī ha’ye māyā[FLAG_HYPHEN_ALPHA]pāśe",
+    "rahile bikṛtabhābe daṇḍya yathā parādhīna 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Imprisoned in the net of māyā due to your desire for utterly insignificant pleasures, you remain in a vitiated condition, punished like an oppressed servant."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ati",
+       "utterly"
+      ],
+      [
+       "tuccha",
+       "insignificant"
+      ],
+      [
+       "bhoga",
+       "for enjoyment"
+      ],
+      [
+       "āśe",
+       "with a desire"
+      ],
+      [
+       "bandī ha’ye",
+       "having been imprisoned"
+      ],
+      [
+       "māyā",
+       "illusion"
+      ],
+      [
+       "pāśe",
+       "in the trap, snare"
+      ],
+      [
+       "rahile",
+       "you remained"
+      ],
+      [
+       "bikṛtabhābe",
+       "perverted, corrupted, vitiated + in a condition"
+      ],
+      [
+       "daṇḍya",
+       "punished"
+      ],
+      [
+       "yathā",
+       "like"
+      ],
+      [
+       "parādhīna",
+       "dominated by another, subjugated, subservient"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "अति",
+       "utterly"
+      ],
+      [
+       "तुच्छ",
+       "insignificant"
+      ],
+      [
+       "भॊग",
+       "for enjoyment"
+      ],
+      [
+       "आशॆ",
+       "with a desire"
+      ],
+      [
+       "बन्दी हऽयॆ",
+       "having been imprisoned"
+      ],
+      [
+       "माया",
+       "illusion"
+      ],
+      [
+       "पाशॆ",
+       "in the trap, snare"
+      ],
+      [
+       "रहिलॆ",
+       "you remained"
+      ],
+      [
+       "बिक्ड़्तभाबॆ",
+       "perverted, corrupted, vitiated + in a condition"
+      ],
+      [
+       "दण्ड्य",
+       "punished"
+      ],
+      [
+       "यथा",
+       "like"
+      ],
+      [
+       "पराधीन",
+       "dominated by another, subjugated, subservient"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "অতি",
+       "utterly"
+      ],
+      [
+       "তুচ্ছ",
+       "insignificant"
+      ],
+      [
+       "ভোগ",
+       "for enjoyment"
+      ],
+      [
+       "আশে",
+       "with a desire"
+      ],
+      [
+       "বন্দী হঽয়ে",
+       "having been imprisoned"
+      ],
+      [
+       "মায়া",
+       "illusion"
+      ],
+      [
+       "পাশে",
+       "in the trap, snare"
+      ],
+      [
+       "রহিলে",
+       "you remained"
+      ],
+      [
+       "বিক্ড়্তভাবে",
+       "perverted, corrupted, vitiated + in a condition"
+      ],
+      [
+       "দণ্ড্য",
+       "punished"
+      ],
+      [
+       "যথা",
+       "like"
+      ],
+      [
+       "পরাধীন",
+       "dominated by another, subjugated, subservient"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "અતિ",
+       "utterly"
+      ],
+      [
+       "તુચ્છ",
+       "insignificant"
+      ],
+      [
+       "ભોગ",
+       "for enjoyment"
+      ],
+      [
+       "આશે",
+       "with a desire"
+      ],
+      [
+       "બન્દી હઽયે",
+       "having been imprisoned"
+      ],
+      [
+       "માયા",
+       "illusion"
+      ],
+      [
+       "પાશે",
+       "in the trap, snare"
+      ],
+      [
+       "રહિલે",
+       "you remained"
+      ],
+      [
+       "બિક્ડ઼્તભાબે",
+       "perverted, corrupted, vitiated + in a condition"
+      ],
+      [
+       "દણ્ડ્ય",
+       "punished"
+      ],
+      [
+       "યથા",
+       "like"
+      ],
+      [
+       "પરાધીન",
+       "dominated by another, subjugated, subservient"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अति तुच्छ भॊगआशॆ,    बन्दी हऽयॆ मायापाशॆ",
+      "रहिलॆ बिक्ड़्तभाबॆ दण्ड्य यथा पराधीन २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অতি তুচ্ছ ভোগআশে,    বন্দী হঽয়ে মায়াপাশে",
+      "রহিলে বিক্ড়্তভাবে দণ্ড্য যথা পরাধীন ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅତି ତୁଚ୍ଛ ଭୋଗଆଶେ,    ବନ୍ଦୀ ହଽୟେ ମାୟାପାଶେ",
+      "ରହିଲେ ବିକ୍ଡ଼୍ତଭାବେ ଦଣ୍ଡ୍ୟ ଯଥା ପରାଧୀନ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અતિ તુચ્છ ભોગઆશે,    બન્દી હઽયે માયાપાશે",
+      "રહિલે બિક્ડ઼્તભાબે દણ્ડ્ય યથા પરાધીન ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ati tuccha bhoga-āśe,    bandī ha’ye māyā-pāśe",
+      "rahile bikṛtabhābe daṇḍya yathā parādhīna 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅತಿ ತುಚ್ಛ ಭೊಗಆಶೆ,    ಬಂದೀ ಹಽಯೆ ಮಾಯಾಪಾಶೆ",
+      "ರಹಿಲೆ ಬಿಕ್‌ಡ಼್ತಭಾಬೆ ದಂಡ್ಯ ಯಥಾ ಪರಾಧೀನ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అతి తుచ్ఛ భొగఆశె,    బందీ హఽయె మాయాపాశె",
+      "రహిలె బిక్డ్తభాబె దండ్య యథా పరాధీన 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ати туччха бхо̆гаа̄ш́э̆,    бандӣ ха'йэ̆ ма̄йа̄па̄ш́э̆",
+      "рахилэ̆ бикр̤табха̄бэ̆ дан̣д̣йа йатха̄ пара̄дхӣна 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അതി തുച്ഛ ഭൊഗആശെ,    ബന്ദീ ഹഽയെ മായാപാശെ",
+      "രഹിലെ ബിക്ഡ്തഭാബെ ദണ്ഡ്യ യഥാ പരാധീന 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அதி துச்ச² பொ⁴க³ஆஶெ,    ப³ந்தீ³ ஹ(அ)யெ மாயாபாஶெ",
+      "ரஹிலெ பி³க்ஃட்²தபா⁴பெ³ த³ண்ட்³ய யதா² பராதீ⁴ன 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ati tuccha bhoga-āśe,    bandī ha’ye māyā-pāśe",
+      "rahile bikṛtabhābe daṇḍya yathā parādhīna 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ati tuccha bhoga-āśe,    bandī ha’ye māyā-pāśe",
+      "rahile bikṛtabhābe daṇḍya yathā parādhīna 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "ekhana bhakatibale,    kṛṣṇapremasindhu[FLAG_HYPHEN_ALPHA]jale",
+    "krīḓā kari anāyāse thāka tumi kṛṣṇādhīna 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Now, remain subservient to Kṛṣṇa, and on the strength of bhakti, sport freely in the waters of the ocean of kṛṣṇa-prema."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ekhana",
+       "now"
+      ],
+      [
+       "bhakatibale",
+       "devotion + on strength"
+      ],
+      [
+       "kṛṣṇapremasindhu",
+       "Kṛṣṇa + love + ocean"
+      ],
+      [
+       "jale",
+       "in the waters"
+      ],
+      [
+       "krīḓā kari",
+       "having sported"
+      ],
+      [
+       "anāyāse",
+       "freely"
+      ],
+      [
+       "thāka",
+       "stay, remain"
+      ],
+      [
+       "tumi",
+       "you"
+      ],
+      [
+       "kṛṣṇādhīna",
+       "Kṛṣṇa + subservient"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ऎखन",
+       "now"
+      ],
+      [
+       "भकतिबलॆ",
+       "devotion + on strength"
+      ],
+      [
+       "क्ड़्ष्णप्रॆमसिन्धु",
+       "Kṛṣṇa + love + ocean"
+      ],
+      [
+       "जलॆ",
+       "in the waters"
+      ],
+      [
+       "क्रीḓआ करि",
+       "having sported"
+      ],
+      [
+       "अनायासॆ",
+       "freely"
+      ],
+      [
+       "थाक",
+       "stay, remain"
+      ],
+      [
+       "तुमि",
+       "you"
+      ],
+      [
+       "क्ड़्ष्णाधीन",
+       "Kṛṣṇa + subservient"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "এখন",
+       "now"
+      ],
+      [
+       "ভকতিবলে",
+       "devotion + on strength"
+      ],
+      [
+       "ক্ড়্ষ্ণপ্রেমসিন্ধু",
+       "Kṛṣṇa + love + ocean"
+      ],
+      [
+       "জলে",
+       "in the waters"
+      ],
+      [
+       "ক্রীḓআ করি",
+       "having sported"
+      ],
+      [
+       "অনায়াসে",
+       "freely"
+      ],
+      [
+       "থাক",
+       "stay, remain"
+      ],
+      [
+       "তুমি",
+       "you"
+      ],
+      [
+       "ক্ড়্ষ্ণাধীন",
+       "Kṛṣṇa + subservient"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "એખન",
+       "now"
+      ],
+      [
+       "ભકતિબલે",
+       "devotion + on strength"
+      ],
+      [
+       "ક્ડ઼્ષ્ણપ્રેમસિન્ધુ",
+       "Kṛṣṇa + love + ocean"
+      ],
+      [
+       "જલે",
+       "in the waters"
+      ],
+      [
+       "ક્રીḓઆ કરિ",
+       "having sported"
+      ],
+      [
+       "અનાયાસે",
+       "freely"
+      ],
+      [
+       "થાક",
+       "stay, remain"
+      ],
+      [
+       "તુમિ",
+       "you"
+      ],
+      [
+       "ક્ડ઼્ષ્ણાધીન",
+       "Kṛṣṇa + subservient"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎखन भकतिबलॆ,    क्ड़्ष्णप्रॆमसिन्धुजलॆ",
+      "क्रीḓआ करि अनायासॆ थाक तुमि क्ड़्ष्णाधीन ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এখন ভকতিবলে,    ক্ড়্ষ্ণপ্রেমসিন্ধুজলে",
+      "ক্রীḓআ করি অনায়াসে থাক তুমি ক্ড়্ষ্ণাধীন ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏଖନ ଭକତିବଲେ,    କ୍ଡ଼୍ଷ୍ଣପ୍ରେମସିନ୍ଧୁଜଲେ",
+      "କ୍ରୀḓଆ କରି ଅନାୟାସେ ଥାକ ତୁମି କ୍ଡ଼୍ଷ୍ଣାଧୀନ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એખન ભકતિબલે,    ક્ડ઼્ષ્ણપ્રેમસિન્ધુજલે",
+      "ક્રીḓઆ કરિ અનાયાસે થાક તુમિ ક્ડ઼્ષ્ણાધીન ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ekhana bhakatibale,    kṛṣṇapremasindhu-jale",
+      "krīḓā kari anāyāse thāka tumi kṛṣṇādhīna 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎಖನ ಭಕತಿಬಲೆ,    ಕ್‌ಡ಼್ಷ್ಣಪ್ರೆಮಸಿಂಧುಜಲೆ",
+      "ಕ್ರೀḓಆ ಕರಿ ಅನಾಯಾಸೆ ಥಾಕ ತುಮಿ ಕ್‌ಡ಼್ಷ್ಣಾಧೀನ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎఖన భకతిబలె,    క్డ్ష్ణప్రెమసింధుజలె",
+      "క్రీḓఆ కరి అనాయాసె థాక తుమి క్డ్ష్ణాధీన 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆кхана бхакатибалэ̆,    кр̤шн̣апрэ̆масиндхуджалэ̆",
+      "крӣḓа̄ кари ана̄йа̄сэ̆ тха̄ка туми кр̤шн̣а̄дхӣна 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എഖന ഭകതിബലെ,    ക്ഡ്ഷ്ണപ്രെമസിന്ധുജലെ",
+      "ക്രീḓആ കരി അനായാസെ ഥാക തുമി ക്ഡ്ഷ്ണാധീന 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எக²ன ப⁴கதிப³லெ,    க்ஃட்²ஷ்ணப்ரெமஸிந்து⁴ஜலெ",
+      "க்ரீḓஆ கரி அனாயாஸெ தா²க துமி க்ஃட்²ஷ்ணாதீ⁴ன 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ekhana bhakatibale,    kṛṣṇapremasindhu-jale",
+      "krīḍā kari anāyāse thāka tumi kṛṣṇādhīna 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ekhana bhakatibale,    kṛṣṇapremasindhu-jale",
+      "krīḓā kari anāyāse thāka tumi kṛṣṇādhīna 3"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "(খ)"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

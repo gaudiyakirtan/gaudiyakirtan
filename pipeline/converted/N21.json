@@ -1,0 +1,556 @@
+{
+ "uid": "N21",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "রাঢ়দেশ নাম, একচক্রা-গ্রাম"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "rāḓhadeśa nāma, ekacakrā-grāma"
+  }
+ ],
+ "author_uid": "কৃষ্ণদাস",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "কৃষ্ণদাস"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Kṛṣṇadāsa"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "rāḓhadeśa nāma,    ekacakrā[FLAG_HYPHEN_ALPHA]grāma,",
+    "hāḓāi paṇḍita ghara",
+    "śubha māgha[FLAG_HYPHEN_ALPHA]māsi,    śuklā[FLAG_HYPHEN_ALPHA]trayodaśī,",
+    "janamilā haladhara 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "राḓहदॆश नाम,    ऎकचक्राग्राम,",
+      "हाḓआइ पण्डित घर",
+      "शुभ माघमासि,    शुक्लात्रयॊदशी,",
+      "जनमिला हलधर १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "রাḓহদেশ নাম,    একচক্রাগ্রাম,",
+      "হাḓআই পণ্ডিত ঘর",
+      "শুভ মাঘমাসি,    শুক্লাত্রয়োদশী,",
+      "জনমিলা হলধর ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ରାḓହଦେଶ ନାମ,    ଏକଚକ୍ରାଗ୍ରାମ,",
+      "ହାḓଆଇ ପଣ୍ଡିତ ଘର",
+      "ଶୁଭ ମାଘମାସି,    ଶୁକ୍ଲାତ୍ରୟୋଦଶୀ,",
+      "ଜନମିଲା ହଲଧର ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "રાḓહદેશ નામ,    એકચક્રાગ્રામ,",
+      "હાḓઆઇ પણ્ડિત ઘર",
+      "શુભ માઘમાસિ,    શુક્લાત્રયોદશી,",
+      "જનમિલા હલધર ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "rāḓhadeśa nāma,    ekacakrā-grāma,",
+      "hāḓāi paṇḍita ghara",
+      "śubha māgha-māsi,    śuklā-trayodaśī,",
+      "janamilā haladhara 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ರಾḓಹದೆಶ ನಾಮ,    ಎಕಚಕ್ರಾಗ್ರಾಮ,",
+      "ಹಾḓಆಇ ಪಂಡಿತ ಘರ",
+      "ಶುಭ ಮಾಘಮಾಸಿ,    ಶುಕ್ಲಾತ್ರಯೊದಶೀ,",
+      "ಜನಮಿಲಾ ಹಲಧರ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "రాḓహదెశ నామ,    ఎకచక్రాగ్రామ,",
+      "హాḓఆఇ పండిత ఘర",
+      "శుభ మాఘమాసి,    శుక్లాత్రయొదశీ,",
+      "జనమిలా హలధర 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ра̄ḓхадэ̆ш́а на̄ма,    э̆качакра̄гра̄ма,",
+      "ха̄ḓа̄и пан̣д̣ита гхара",
+      "ш́убха ма̄гхама̄си,    ш́укла̄трайо̆даш́ӣ,",
+      "джанамила̄ халадхара 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "രാḓഹദെശ നാമ,    എകചക്രാഗ്രാമ,",
+      "ഹാḓആഇ പണ്ഡിത ഘര",
+      "ശുഭ മാഘമാസി,    ശുക്ലാത്രയൊദശീ,",
+      "ജനമിലാ ഹലധര 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ராḓஹதெ³ஶ நாம,    எகசக்ராக்³ராம,",
+      "ஹாḓஆஇ பண்டி³த க⁴ர",
+      "ஶுப⁴ மாக⁴மாஸி,    ஶுக்லாத்ரயொத³ஶீ,",
+      "ஜனமிலா ஹலத⁴ர 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "rāḍhadeśa nāma,    ekacakrā-grāma,",
+      "hāḍāi paṇḍita ghara",
+      "śubha māgha-māsi,    śuklā-trayodaśī,",
+      "janamilā haladhara 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "rāḓhadeśa nāma,    ekacakrā-grāma,",
+      "hāḓāi paṇḍita ghara",
+      "śubha māgha-māsi,    śuklā-trayodaśī,",
+      "janamilā haladhara 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "hāḓāi paṇḍita,    ati haraṣita,",
+    "putra[FLAG_HYPHEN_ALPHA]mahotsaba kare",
+    "dharaṇī[FLAG_HYPHEN_ALPHA]maṇḍala,    kare ṭalamala,",
+    "ānanda nāhika dhare 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हाḓआइ पण्डित,    अति हरषित,",
+      "पुत्रमहॊत्सब करॆ",
+      "धरणीमण्डल,    करॆ टलमल,",
+      "आनन्द नाहिक धरॆ २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হাḓআই পণ্ডিত,    অতি হরষিত,",
+      "পুত্রমহোৎসব করে",
+      "ধরণীমণ্ডল,    করে টলমল,",
+      "আনন্দ নাহিক ধরে ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହାḓଆଇ ପଣ୍ଡିତ,    ଅତି ହରଷିତ,",
+      "ପୁତ୍ରମହୋତ୍ସବ କରେ",
+      "ଧରଣୀମଣ୍ଡଲ,    କରେ ଟଲମଲ,",
+      "ଆନନ୍ଦ ନାହିକ ଧରେ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હાḓઆઇ પણ્ડિત,    અતિ હરષિત,",
+      "પુત્રમહોત્સબ કરે",
+      "ધરણીમણ્ડલ,    કરે ટલમલ,",
+      "આનન્દ નાહિક ધરે ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hāḓāi paṇḍita,    ati haraṣita,",
+      "putra-mahotsaba kare",
+      "dharaṇī-maṇḍala,    kare ṭalamala,",
+      "ānanda nāhika dhare 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹಾḓಆಇ ಪಂಡಿತ,    ಅತಿ ಹರಷಿತ,",
+      "ಪುತ್ರಮಹೊತ್ಸಬ ಕರೆ",
+      "ಧರಣೀಮಂಡಲ,    ಕರೆ ಟಲಮಲ,",
+      "ಆನಂದ ನಾಹಿಕ ಧರೆ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హాḓఆఇ పండిత,    అతి హరషిత,",
+      "పుత్రమహొత్సబ కరె",
+      "ధరణీమండల,    కరె టలమల,",
+      "ఆనంద నాహిక ధరె 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ха̄ḓа̄и пан̣д̣ита,    ати харашита,",
+      "путрамахо̆тсаба карэ̆",
+      "дхаран̣ӣман̣д̣ала,    карэ̆ т̣аламала,",
+      "а̄нанда на̄хика дхарэ̆ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹാḓആഇ പണ്ഡിത,    അതി ഹരഷിത,",
+      "പുത്രമഹൊത്സബ കരെ",
+      "ധരണീമണ്ഡല,    കരെ ടലമല,",
+      "ആനന്ദ നാഹിക ധരെ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹாḓஆஇ பண்டி³த,    அதி ஹரஷித,",
+      "புத்ரமஹொத்ஸப³ கரெ",
+      "த⁴ரணீமண்ட³ல,    கரெ டலமல,",
+      "ஆனந்த³ நாஹிக த⁴ரெ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hāḍāi paṇḍita,    ati haraṣita,",
+      "putra-mahotsaba kare",
+      "dharaṇī-maṇḍala,    kare ṭalamala,",
+      "ānanda nāhika dhare 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hāḓāi paṇḍita,    ati haraṣita,",
+      "putra-mahotsaba kare",
+      "dharaṇī-maṇḍala,    kare ṭalamala,",
+      "ānanda nāhika dhare 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "śāntipura[FLAG_HYPHEN_ALPHA]nātha,    mane haraṣita,",
+    "kari’ kichu anumāna",
+    "antare jānilā,    bujhi janamilā,",
+    "kṛṣṇera agraja rāma 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शान्तिपुरनाथ,    मनॆ हरषित,",
+      "करिऽ किछु अनुमान",
+      "अन्तरॆ जानिला,    बुझि जनमिला,",
+      "क्ड़्ष्णॆर अग्रज राम ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শান্তিপুরনাথ,    মনে হরষিত,",
+      "করিঽ কিছু অনুমান",
+      "অন্তরে জানিলা,    বুঝি জনমিলা,",
+      "ক্ড়্ষ্ণের অগ্রজ রাম ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶାନ୍ତିପୁରନାଥ,    ମନେ ହରଷିତ,",
+      "କରିଽ କିଛୁ ଅନୁମାନ",
+      "ଅନ୍ତରେ ଜାନିଲା,    ବୁଝି ଜନମିଲା,",
+      "କ୍ଡ଼୍ଷ୍ଣେର ଅଗ୍ରଜ ରାମ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શાન્તિપુરનાથ,    મને હરષિત,",
+      "કરિઽ કિછુ અનુમાન",
+      "અન્તરે જાનિલા,    બુઝિ જનમિલા,",
+      "ક્ડ઼્ષ્ણેર અગ્રજ રામ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śāntipura-nātha,    mane haraṣita,",
+      "kari’ kichu anumāna",
+      "antare jānilā,    bujhi janamilā,",
+      "kṛṣṇera agraja rāma 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶಾಂತಿಪುರನಾಥ,    ಮನೆ ಹರಷಿತ,",
+      "ಕರಿಽ ಕಿಛು ಅನುಮಾನ",
+      "ಅಂತರೆ ಜಾನಿಲಾ,    ಬುಝಿ ಜನಮಿಲಾ,",
+      "ಕ್‌ಡ಼್ಷ್ಣೆರ ಅಗ್ರಜ ರಾಮ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శాంతిపురనాథ,    మనె హరషిత,",
+      "కరిఽ కిఛు అనుమాన",
+      "అంతరె జానిలా,    బుఝి జనమిలా,",
+      "క్డ్ష్ణెర అగ్రజ రామ 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́а̄нтипурана̄тха,    манэ̆ харашита,",
+      "кари' кичху анума̄на",
+      "антарэ̆ джа̄нила̄,    буджхи джанамила̄,",
+      "кр̤шн̣э̆ра аграджа ра̄ма 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശാന്തിപുരനാഥ,    മനെ ഹരഷിത,",
+      "കരിഽ കിഛു അനുമാന",
+      "അന്തരെ ജാനിലാ,    ബുഝി ജനമിലാ,",
+      "ക്ഡ്ഷ്ണെര അഗ്രജ രാമ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶாந்திபுரநாத²,    மனெ ஹரஷித,",
+      "கரி(அ) கிசு² அனுமான",
+      "அந்தரெ ஜானிலா,    பு³ஜி² ஜனமிலா,",
+      "க்ஃட்²ஷ்ணெர அக்³ரஜ ராம 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śāntipura-nātha,    mane haraṣita,",
+      "kari’ kichu anumāna",
+      "antare jānilā,    bujhi janamilā,",
+      "kṛṣṇera agraja rāma 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śāntipura-nātha,    mane haraṣita,",
+      "kari’ kichu anumāna",
+      "antare jānilā,    bujhi janamilā,",
+      "kṛṣṇera agraja rāma 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "baiṣṇabera mana,    haila parasanna,",
+    "ānanda[FLAG_HYPHEN_ALPHA]sāgare bhāse",
+    "e dīna pāmara,    ha·ibe uddhāra,",
+    "kahe duḥkhī kṛṣṇadāse 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बैष्णबॆर मन,    हैल परसन्न,",
+      "आनन्दसागरॆ भासॆ",
+      "ऎ दीन पामर,    हइबॆ उद्धार,",
+      "कहॆ दुःखी क्ड़्ष्णदासॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বৈষ্ণবের মন,    হৈল পরসন্ন,",
+      "আনন্দসাগরে ভাসে",
+      "এ দীন পামর,    হইবে উদ্ধার,",
+      "কহে দুঃখী ক্ড়্ষ্ণদাসে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବୈଷ୍ଣବେର ମନ,    ହୈଲ ପରସନ୍ନ,",
+      "ଆନନ୍ଦସାଗରେ ଭାସେ",
+      "ଏ ଦୀନ ପାମର,    ହଇବେ ଉଦ୍ଧାର,",
+      "କହେ ଦୁଃଖୀ କ୍ଡ଼୍ଷ୍ଣଦାସେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બૈષ્ણબેર મન,    હૈલ પરસન્ન,",
+      "આનન્દસાગરે ભાસે",
+      "એ દીન પામર,    હઇબે ઉદ્ધાર,",
+      "કહે દુઃખી ક્ડ઼્ષ્ણદાસે ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "baiṣṇabera mana,    haila parasanna,",
+      "ānanda-sāgare bhāse",
+      "e dīna pāmara,    ha·ibe uddhāra,",
+      "kahe duḥkhī kṛṣṇadāse 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬೈಷ್ಣಬೆರ ಮನ,    ಹೈಲ ಪರಸನ್ನ,",
+      "ಆನಂದಸಾಗರೆ ಭಾಸೆ",
+      "ಎ ದೀನ ಪಾಮರ,    ಹಇಬೆ ಉದ್ಧಾರ,",
+      "ಕಹೆ ದುಃಖೀ ಕ್‌ಡ಼್ಷ್ಣದಾಸೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బైష్ణబెర మన,    హైల పరసన్న,",
+      "ఆనందసాగరె భాసె",
+      "ఎ దీన పామర,    హఇబె ఉద్ధార,",
+      "కహె దుఃఖీ క్డ్ష్ణదాసె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "баишн̣абэ̆ра мана,    хаила парасанна,",
+      "а̄нандаса̄гарэ̆ бха̄сэ̆",
+      "э̆ дӣна па̄мара,    хаибэ̆ уддха̄ра,",
+      "кахэ̆ дух̣кхӣ кр̤шн̣ада̄сэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബൈഷ്ണബെര മന,    ഹൈല പരസന്ന,",
+      "ആനന്ദസാഗരെ ഭാസെ",
+      "എ ദീന പാമര,    ഹഇബെ ഉദ്ധാര,",
+      "കഹെ ദുഃഖീ ക്ഡ്ഷ്ണദാസെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பை³ஷ்ணபெ³ர மன,    ஹைல பரஸன்ன,",
+      "ஆனந்த³ஸாக³ரெ பா⁴ஸெ",
+      "எ தீ³ன பாமர,    ஹஇபெ³ உத்³தா⁴ர,",
+      "கஹெ து³꞉கீ² க்ஃட்²ஷ்ணதா³ஸெ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "baiṣṇabera mana,    haila parasanna,",
+      "ānanda-sāgare bhāse",
+      "e dīna pāmara,    ha·ibe uddhāra,",
+      "kahe duḥkhī kṛṣṇadāse 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "baiṣṇabera mana,    haila parasanna,",
+      "ānanda-sāgare bhāse",
+      "e dīna pāmara,    ha·ibe uddhāra,",
+      "kahe duḥkhī kṛṣṇadāse 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": []
+}

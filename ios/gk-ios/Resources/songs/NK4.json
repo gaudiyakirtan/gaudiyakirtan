@@ -1,0 +1,3181 @@
+{
+  "uid": "NK4",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "জয় জয় রাধা-মাধব রাধা-মাধব রাধে"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "jaya jaya rādhā-mādhaba rādhā-mādhaba rādhe"
+    },
+    {
+      "script_code": "Deva",
+      "text": "जय जय राधा-माधब राधा-माधब राधे"
+    },
+    {
+      "script_code": "Telu",
+      "text": "జయ జయ రాధా-మాధబ రాధా-మాధబ రాధే"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಜಯ ಜಯ ರಾಧಾ-ಮಾಧಬ ರಾಧಾ-ಮಾಧಬ ರಾಧೇ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஜய ஜய ராதா⁴-மாத⁴ப³ ராதா⁴-மாத⁴ப³ ராதே⁴"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ജയ ജയ രാധാ-മാധബ രാധാ-മാധബ രാധേ"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "જય જય રાધા-માધબ રાધા-માધબ રાધે"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଜୟ ଜୟ ରାଧା-ମାଧବ ରାଧା-ମାଧବ ରାଧେ"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "джайа джайа ра̄дха̄-ма̄дхаба ра̄дха̄-ма̄дхаба ра̄дхэ"
+    }
+  ],
+  "author_uid": "?",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "অজানা লেখক"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Unknown Author"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "jaya jaya rādhā[FLAG_HYPHEN_ALPHA]mādhaba",
+        "rādhā[FLAG_HYPHEN_ALPHA]mādhaba rādhe",
+        "(jayadebera prāṇadhana he) 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā-Mādhava, the treasure of Śrī Jayadeva Gosvāmī’s heart!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "rādhā mādhaba",
+              "to Rādhā Mādhava"
+            ],
+            [
+              "rādhā mādhaba",
+              "to Rādhā Mādhava"
+            ],
+            [
+              "rādhe",
+              "O Rādhā"
+            ],
+            [
+              "(jayadebera",
+              "of Śrī Jayadeva Gosvāmī"
+            ],
+            [
+              "prāṇadhana",
+              "heart + treasure"
+            ],
+            [
+              "he)",
+              "hey"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "राधा माधब",
+              "to Rādhā Mādhava"
+            ],
+            [
+              "राधा माधब",
+              "to Rādhā Mādhava"
+            ],
+            [
+              "राधॆ",
+              "O Rādhā"
+            ],
+            [
+              "(जयदॆबॆर",
+              "of Śrī Jayadeva Gosvāmī"
+            ],
+            [
+              "प्राणधन",
+              "heart + treasure"
+            ],
+            [
+              "हॆ)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "রাধা মাধব",
+              "to Rādhā Mādhava"
+            ],
+            [
+              "রাধা মাধব",
+              "to Rādhā Mādhava"
+            ],
+            [
+              "রাধে",
+              "O Rādhā"
+            ],
+            [
+              "(জয়দেবের",
+              "of Śrī Jayadeva Gosvāmī"
+            ],
+            [
+              "প্রাণধন",
+              "heart + treasure"
+            ],
+            [
+              "হে)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "રાધા માધબ",
+              "to Rādhā Mādhava"
+            ],
+            [
+              "રાધા માધબ",
+              "to Rādhā Mādhava"
+            ],
+            [
+              "રાધે",
+              "O Rādhā"
+            ],
+            [
+              "(જયદેબેર",
+              "of Śrī Jayadeva Gosvāmī"
+            ],
+            [
+              "પ્રાણધન",
+              "heart + treasure"
+            ],
+            [
+              "હે)",
+              "hey"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय राधामाधब",
+            "राधामाधब राधॆ",
+            "(जयदॆबॆर प्राणधन हॆ) १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাধামাধব",
+            "রাধামাধব রাধে",
+            "(জয়দেবের প্রাণধন হে) ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାଧାମାଧବ",
+            "ରାଧାମାଧବ ରାଧେ",
+            "(ଜୟଦେବେର ପ୍ରାଣଧନ ହେ) ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાધામાધબ",
+            "રાધામાધબ રાધે",
+            "(જયદેબેર પ્રાણધન હે) ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rādhā-mādhaba",
+            "rādhā-mādhaba rādhe",
+            "(jayadebera prāṇadhana he) 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಧಾಮಾಧಬ",
+            "ರಾಧಾಮಾಧಬ ರಾಧೆ",
+            "(ಜಯದೆಬೆರ ಪ್ರಾಣಧನ ಹೆ) ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాధామాధబ",
+            "రాధామాధబ రాధె",
+            "(జయదెబెర ప్రాణధన హె) 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄дха̄ма̄дхаба",
+            "ра̄дха̄ма̄дхаба ра̄дхэ̆",
+            "(джайадэ̆бэ̆ра пра̄н̣адхана хэ̆) 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാധാമാധബ",
+            "രാധാമാധബ രാധെ",
+            "(ജയദെബെര പ്രാണധന ഹെ) 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராதா⁴மாத⁴ப³",
+            "ராதா⁴மாத⁴ப³ ராதெ⁴",
+            "(ஜயதெ³பெ³ர ப்ராணத⁴ன ஹெ) 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rādhā-mādhaba",
+            "rādhā-mādhaba rādhe",
+            "(jayadebera prāṇadhana he) 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rādhā-mādhaba",
+            "rādhā-mādhaba rādhe",
+            "(jayadebera prāṇadhana he) 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "jaya jaya rādhā[FLAG_HYPHEN_ALPHA]madanagopāla",
+        "rādhā[FLAG_HYPHEN_ALPHA]madanagopāla rādhe",
+        "(sītānāthera prāṇadhana he) 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā-Madana-gopāla, the treasure of Śrī Advaita Ācārya’s heart!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "rādhā madanagopāla",
+              "to Rādhā Madana-gopāl"
+            ],
+            [
+              "rādhā madanagopāla",
+              "to Rādhā Madana-gopāl"
+            ],
+            [
+              "rādhe",
+              "O Rādhā"
+            ],
+            [
+              "(sītānāthera",
+              "of the husband of Śrīmati Sītā-devī (Advaita Ācārya)"
+            ],
+            [
+              "prāṇadhana",
+              "heart + treasure"
+            ],
+            [
+              "he)",
+              "hey"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "राधा मदनगॊपाल",
+              "to Rādhā Madana-gopāl"
+            ],
+            [
+              "राधा मदनगॊपाल",
+              "to Rādhā Madana-gopāl"
+            ],
+            [
+              "राधॆ",
+              "O Rādhā"
+            ],
+            [
+              "(सीतानाथॆर",
+              "of the husband of Śrīmati Sītā-devī (Advaita Ācārya)"
+            ],
+            [
+              "प्राणधन",
+              "heart + treasure"
+            ],
+            [
+              "हॆ)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "রাধা মদনগোপাল",
+              "to Rādhā Madana-gopāl"
+            ],
+            [
+              "রাধা মদনগোপাল",
+              "to Rādhā Madana-gopāl"
+            ],
+            [
+              "রাধে",
+              "O Rādhā"
+            ],
+            [
+              "(সীতানাথের",
+              "of the husband of Śrīmati Sītā-devī (Advaita Ācārya)"
+            ],
+            [
+              "প্রাণধন",
+              "heart + treasure"
+            ],
+            [
+              "হে)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "રાધા મદનગોપાલ",
+              "to Rādhā Madana-gopāl"
+            ],
+            [
+              "રાધા મદનગોપાલ",
+              "to Rādhā Madana-gopāl"
+            ],
+            [
+              "રાધે",
+              "O Rādhā"
+            ],
+            [
+              "(સીતાનાથેર",
+              "of the husband of Śrīmati Sītā-devī (Advaita Ācārya)"
+            ],
+            [
+              "પ્રાણધન",
+              "heart + treasure"
+            ],
+            [
+              "હે)",
+              "hey"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय राधामदनगॊपाल",
+            "राधामदनगॊपाल राधॆ",
+            "(सीतानाथॆर प्राणधन हॆ) २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাধামদনগোপাল",
+            "রাধামদনগোপাল রাধে",
+            "(সীতানাথের প্রাণধন হে) ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାଧାମଦନଗୋପାଲ",
+            "ରାଧାମଦନଗୋପାଲ ରାଧେ",
+            "(ସୀତାନାଥେର ପ୍ରାଣଧନ ହେ) ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાધામદનગોપાલ",
+            "રાધામદનગોપાલ રાધે",
+            "(સીતાનાથેર પ્રાણધન હે) ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rādhā-madanagopāla",
+            "rādhā-madanagopāla rādhe",
+            "(sītānāthera prāṇadhana he) 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಧಾಮದನಗೊಪಾಲ",
+            "ರಾಧಾಮದನಗೊಪಾಲ ರಾಧೆ",
+            "(ಸೀತಾನಾಥೆರ ಪ್ರಾಣಧನ ಹೆ) ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాధామదనగొపాల",
+            "రాధామదనగొపాల రాధె",
+            "(సీతానాథెర ప్రాణధన హె) 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄дха̄маданаго̆па̄ла",
+            "ра̄дха̄маданаго̆па̄ла ра̄дхэ̆",
+            "(сӣта̄на̄тхэ̆ра пра̄н̣адхана хэ̆) 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാധാമദനഗൊപാല",
+            "രാധാമദനഗൊപാല രാധെ",
+            "(സീതാനാഥെര പ്രാണധന ഹെ) 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராதா⁴மத³னகொ³பால",
+            "ராதா⁴மத³னகொ³பால ராதெ⁴",
+            "(ஸீதாநாதெ²ர ப்ராணத⁴ன ஹெ) 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rādhā-madanagopāla",
+            "rādhā-madanagopāla rādhe",
+            "(sītānāthera prāṇadhana he) 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rādhā-madanagopāla",
+            "rādhā-madanagopāla rādhe",
+            "(sītānāthera prāṇadhana he) 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "jaya jaya rādhā[FLAG_HYPHEN_ALPHA]gobinda",
+        "rādhā[FLAG_HYPHEN_ALPHA]gobinda rādhe",
+        "(rūpa gosbāmīra prāṇadhana he) 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā-Govinda, the treasure of Śrī Rūpa Gosvāmī’s heart!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "rādhā gobinda",
+              "to Rādhā Govinda"
+            ],
+            [
+              "rādhā gobinda",
+              "to Rādhā Govinda"
+            ],
+            [
+              "rādhe",
+              "O Rādhā"
+            ],
+            [
+              "(rūpa gosbāmīra",
+              "of Śrī Rūpa Gosvāmī"
+            ],
+            [
+              "prāṇadhana",
+              "heart + treasure"
+            ],
+            [
+              "he)",
+              "hey"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "राधा गॊबिन्द",
+              "to Rādhā Govinda"
+            ],
+            [
+              "राधा गॊबिन्द",
+              "to Rādhā Govinda"
+            ],
+            [
+              "राधॆ",
+              "O Rādhā"
+            ],
+            [
+              "(रूप गॊस्बामीर",
+              "of Śrī Rūpa Gosvāmī"
+            ],
+            [
+              "प्राणधन",
+              "heart + treasure"
+            ],
+            [
+              "हॆ)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "রাধা গোবিন্দ",
+              "to Rādhā Govinda"
+            ],
+            [
+              "রাধা গোবিন্দ",
+              "to Rādhā Govinda"
+            ],
+            [
+              "রাধে",
+              "O Rādhā"
+            ],
+            [
+              "(রূপ গোস্বামীর",
+              "of Śrī Rūpa Gosvāmī"
+            ],
+            [
+              "প্রাণধন",
+              "heart + treasure"
+            ],
+            [
+              "হে)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "રાધા ગોબિન્દ",
+              "to Rādhā Govinda"
+            ],
+            [
+              "રાધા ગોબિન્દ",
+              "to Rādhā Govinda"
+            ],
+            [
+              "રાધે",
+              "O Rādhā"
+            ],
+            [
+              "(રૂપ ગોસ્બામીર",
+              "of Śrī Rūpa Gosvāmī"
+            ],
+            [
+              "પ્રાણધન",
+              "heart + treasure"
+            ],
+            [
+              "હે)",
+              "hey"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय राधागॊबिन्द",
+            "राधागॊबिन्द राधॆ",
+            "(रूप गॊस्बामीर प्राणधन हॆ) ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাধাগোবিন্দ",
+            "রাধাগোবিন্দ রাধে",
+            "(রূপ গোস্বামীর প্রাণধন হে) ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାଧାଗୋବିନ୍ଦ",
+            "ରାଧାଗୋବିନ୍ଦ ରାଧେ",
+            "(ରୂପ ଗୋସ୍ବାମୀର ପ୍ରାଣଧନ ହେ) ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાધાગોબિન્દ",
+            "રાધાગોબિન્દ રાધે",
+            "(રૂપ ગોસ્બામીર પ્રાણધન હે) ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rādhā-gobinda",
+            "rādhā-gobinda rādhe",
+            "(rūpa gosbāmīra prāṇadhana he) 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಧಾಗೊಬಿಂದ",
+            "ರಾಧಾಗೊಬಿಂದ ರಾಧೆ",
+            "(ರೂಪ ಗೊಸ್ಬಾಮೀರ ಪ್ರಾಣಧನ ಹೆ) ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాధాగొబింద",
+            "రాధాగొబింద రాధె",
+            "(రూప గొస్బామీర ప్రాణధన హె) 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄дха̄го̆бинда",
+            "ра̄дха̄го̆бинда ра̄дхэ̆",
+            "(рӯпа го̆сба̄мӣра пра̄н̣адхана хэ̆) 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാധാഗൊബിന്ദ",
+            "രാധാഗൊബിന്ദ രാധെ",
+            "(രൂപ ഗൊസ്ബാമീര പ്രാണധന ഹെ) 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராதா⁴கொ³பி³ந்த³",
+            "ராதா⁴கொ³பி³ந்த³ ராதெ⁴",
+            "(ரூப கொ³ஸ்பா³மீர ப்ராணத⁴ன ஹெ) 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rādhā-gobinda",
+            "rādhā-gobinda rādhe",
+            "(rūpa gosbāmīra prāṇadhana he) 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rādhā-gobinda",
+            "rādhā-gobinda rādhe",
+            "(rūpa gosbāmīra prāṇadhana he) 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "jaya jaya rādhā[FLAG_HYPHEN_ALPHA]madanamohana",
+        "rādhā[FLAG_HYPHEN_ALPHA]madanamohana rādhe",
+        "(sanātanera prāṇadhana he) 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā-Madana-mohana, the treasure of Śrī Sanātana Gosvāmī’s heart!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "rādhā madanamohana",
+              "to Rādhā Madana-mohana"
+            ],
+            [
+              "rādhā madanamohana",
+              "to Rādhā Madana-mohana"
+            ],
+            [
+              "rādhe",
+              "O Rādhā"
+            ],
+            [
+              "(sanātanera",
+              "of Śrī Sanātana Gosvāmī"
+            ],
+            [
+              "prāṇadhana",
+              "heart + treasure"
+            ],
+            [
+              "he)",
+              "hey"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "राधा मदनमॊहन",
+              "to Rādhā Madana-mohana"
+            ],
+            [
+              "राधा मदनमॊहन",
+              "to Rādhā Madana-mohana"
+            ],
+            [
+              "राधॆ",
+              "O Rādhā"
+            ],
+            [
+              "(सनातनॆर",
+              "of Śrī Sanātana Gosvāmī"
+            ],
+            [
+              "प्राणधन",
+              "heart + treasure"
+            ],
+            [
+              "हॆ)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "রাধা মদনমোহন",
+              "to Rādhā Madana-mohana"
+            ],
+            [
+              "রাধা মদনমোহন",
+              "to Rādhā Madana-mohana"
+            ],
+            [
+              "রাধে",
+              "O Rādhā"
+            ],
+            [
+              "(সনাতনের",
+              "of Śrī Sanātana Gosvāmī"
+            ],
+            [
+              "প্রাণধন",
+              "heart + treasure"
+            ],
+            [
+              "হে)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "રાધા મદનમોહન",
+              "to Rādhā Madana-mohana"
+            ],
+            [
+              "રાધા મદનમોહન",
+              "to Rādhā Madana-mohana"
+            ],
+            [
+              "રાધે",
+              "O Rādhā"
+            ],
+            [
+              "(સનાતનેર",
+              "of Śrī Sanātana Gosvāmī"
+            ],
+            [
+              "પ્રાણધન",
+              "heart + treasure"
+            ],
+            [
+              "હે)",
+              "hey"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय राधामदनमॊहन",
+            "राधामदनमॊहन राधॆ",
+            "(सनातनॆर प्राणधन हॆ) ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাধামদনমোহন",
+            "রাধামদনমোহন রাধে",
+            "(সনাতনের প্রাণধন হে) ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାଧାମଦନମୋହନ",
+            "ରାଧାମଦନମୋହନ ରାଧେ",
+            "(ସନାତନେର ପ୍ରାଣଧନ ହେ) ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાધામદનમોહન",
+            "રાધામદનમોહન રાધે",
+            "(સનાતનેર પ્રાણધન હે) ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rādhā-madanamohana",
+            "rādhā-madanamohana rādhe",
+            "(sanātanera prāṇadhana he) 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಧಾಮದನಮೊಹನ",
+            "ರಾಧಾಮದನಮೊಹನ ರಾಧೆ",
+            "(ಸನಾತನೆರ ಪ್ರಾಣಧನ ಹೆ) ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాధామదనమొహన",
+            "రాధామదనమొహన రాధె",
+            "(సనాతనెర ప్రాణధన హె) 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄дха̄маданамо̆хана",
+            "ра̄дха̄маданамо̆хана ра̄дхэ̆",
+            "(сана̄танэ̆ра пра̄н̣адхана хэ̆) 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാധാമദനമൊഹന",
+            "രാധാമദനമൊഹന രാധെ",
+            "(സനാതനെര പ്രാണധന ഹെ) 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராதா⁴மத³னமொஹன",
+            "ராதா⁴மத³னமொஹன ராதெ⁴",
+            "(ஸனாதனெர ப்ராணத⁴ன ஹெ) 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rādhā-madanamohana",
+            "rādhā-madanamohana rādhe",
+            "(sanātanera prāṇadhana he) 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rādhā-madanamohana",
+            "rādhā-madanamohana rādhe",
+            "(sanātanera prāṇadhana he) 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "jaya jaya rādhā[FLAG_HYPHEN_ALPHA]gopīnātha",
+        "rādhā[FLAG_HYPHEN_ALPHA]gopīnātha rādhe",
+        "(madhu paṇḍitera prāṇadhana he) 5"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā-Gopīnātha, the treasure of Śrī Madhu Paṇḍita’s heart!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "rādhā gopīnātha",
+              "to Rādhā Gopīnātha"
+            ],
+            [
+              "rādhā gopīnātha",
+              "to Rādhā Gopīnātha"
+            ],
+            [
+              "rādhe",
+              "O Rādhā"
+            ],
+            [
+              "(madhu paṇḍitera",
+              "of Śrī Madhu Paṇḍita"
+            ],
+            [
+              "prāṇadhana",
+              "heart + treasure"
+            ],
+            [
+              "he)",
+              "hey"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "राधा गॊपीनाथ",
+              "to Rādhā Gopīnātha"
+            ],
+            [
+              "राधा गॊपीनाथ",
+              "to Rādhā Gopīnātha"
+            ],
+            [
+              "राधॆ",
+              "O Rādhā"
+            ],
+            [
+              "(मधु पण्डितॆर",
+              "of Śrī Madhu Paṇḍita"
+            ],
+            [
+              "प्राणधन",
+              "heart + treasure"
+            ],
+            [
+              "हॆ)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "রাধা গোপীনাথ",
+              "to Rādhā Gopīnātha"
+            ],
+            [
+              "রাধা গোপীনাথ",
+              "to Rādhā Gopīnātha"
+            ],
+            [
+              "রাধে",
+              "O Rādhā"
+            ],
+            [
+              "(মধু পণ্ডিতের",
+              "of Śrī Madhu Paṇḍita"
+            ],
+            [
+              "প্রাণধন",
+              "heart + treasure"
+            ],
+            [
+              "হে)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "રાધા ગોપીનાથ",
+              "to Rādhā Gopīnātha"
+            ],
+            [
+              "રાધા ગોપીનાથ",
+              "to Rādhā Gopīnātha"
+            ],
+            [
+              "રાધે",
+              "O Rādhā"
+            ],
+            [
+              "(મધુ પણ્ડિતેર",
+              "of Śrī Madhu Paṇḍita"
+            ],
+            [
+              "પ્રાણધન",
+              "heart + treasure"
+            ],
+            [
+              "હે)",
+              "hey"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय राधागॊपीनाथ",
+            "राधागॊपीनाथ राधॆ",
+            "(मधु पण्डितॆर प्राणधन हॆ) ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাধাগোপীনাথ",
+            "রাধাগোপীনাথ রাধে",
+            "(মধু পণ্ডিতের প্রাণধন হে) ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାଧାଗୋପୀନାଥ",
+            "ରାଧାଗୋପୀନାଥ ରାଧେ",
+            "(ମଧୁ ପଣ୍ଡିତେର ପ୍ରାଣଧନ ହେ) ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાધાગોપીનાથ",
+            "રાધાગોપીનાથ રાધે",
+            "(મધુ પણ્ડિતેર પ્રાણધન હે) ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rādhā-gopīnātha",
+            "rādhā-gopīnātha rādhe",
+            "(madhu paṇḍitera prāṇadhana he) 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಧಾಗೊಪೀನಾಥ",
+            "ರಾಧಾಗೊಪೀನಾಥ ರಾಧೆ",
+            "(ಮಧು ಪಂಡಿತೆರ ಪ್ರಾಣಧನ ಹೆ) ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాధాగొపీనాథ",
+            "రాధాగొపీనాథ రాధె",
+            "(మధు పండితెర ప్రాణధన హె) 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄дха̄го̆пӣна̄тха",
+            "ра̄дха̄го̆пӣна̄тха ра̄дхэ̆",
+            "(мадху пан̣д̣итэ̆ра пра̄н̣адхана хэ̆) 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാധാഗൊപീനാഥ",
+            "രാധാഗൊപീനാഥ രാധെ",
+            "(മധു പണ്ഡിതെര പ്രാണധന ഹെ) 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராதா⁴கொ³பீநாத²",
+            "ராதா⁴கொ³பீநாத² ராதெ⁴",
+            "(மது⁴ பண்டி³தெர ப்ராணத⁴ன ஹெ) 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rādhā-gopīnātha",
+            "rādhā-gopīnātha rādhe",
+            "(madhu paṇḍitera prāṇadhana he) 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rādhā-gopīnātha",
+            "rādhā-gopīnātha rādhe",
+            "(madhu paṇḍitera prāṇadhana he) 5"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 6,
+      "source_text_master": [
+        "jaya jaya rādhā[FLAG_HYPHEN_ALPHA]dāmodara",
+        "rādhā[FLAG_HYPHEN_ALPHA]dāmodara rādhe",
+        "(jība gosbāmīra prāṇadhana he) 6"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā-Dāmodara, the treasure of Śrī Jīva Gosvāmī’s heart!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "rādhā dāmodara",
+              "to Rādhā Dāmodara"
+            ],
+            [
+              "rādhā dāmodara",
+              "to Rādhā Dāmodara"
+            ],
+            [
+              "rādhe",
+              "O Rādhā"
+            ],
+            [
+              "(jība gosbāmīra",
+              "of Śrī Jīva Gosvāmī"
+            ],
+            [
+              "prāṇadhana",
+              "heart + treasure"
+            ],
+            [
+              "he)",
+              "hey"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "राधा दामॊदर",
+              "to Rādhā Dāmodara"
+            ],
+            [
+              "राधा दामॊदर",
+              "to Rādhā Dāmodara"
+            ],
+            [
+              "राधॆ",
+              "O Rādhā"
+            ],
+            [
+              "(जीब गॊस्बामीर",
+              "of Śrī Jīva Gosvāmī"
+            ],
+            [
+              "प्राणधन",
+              "heart + treasure"
+            ],
+            [
+              "हॆ)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "রাধা দামোদর",
+              "to Rādhā Dāmodara"
+            ],
+            [
+              "রাধা দামোদর",
+              "to Rādhā Dāmodara"
+            ],
+            [
+              "রাধে",
+              "O Rādhā"
+            ],
+            [
+              "(জীব গোস্বামীর",
+              "of Śrī Jīva Gosvāmī"
+            ],
+            [
+              "প্রাণধন",
+              "heart + treasure"
+            ],
+            [
+              "হে)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "રાધા દામોદર",
+              "to Rādhā Dāmodara"
+            ],
+            [
+              "રાધા દામોદર",
+              "to Rādhā Dāmodara"
+            ],
+            [
+              "રાધે",
+              "O Rādhā"
+            ],
+            [
+              "(જીબ ગોસ્બામીર",
+              "of Śrī Jīva Gosvāmī"
+            ],
+            [
+              "પ્રાણધન",
+              "heart + treasure"
+            ],
+            [
+              "હે)",
+              "hey"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय राधादामॊदर",
+            "राधादामॊदर राधॆ",
+            "(जीब गॊस्बामीर प्राणधन हॆ) ६"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাধাদামোদর",
+            "রাধাদামোদর রাধে",
+            "(জীব গোস্বামীর প্রাণধন হে) ৬"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାଧାଦାମୋଦର",
+            "ରାଧାଦାମୋଦର ରାଧେ",
+            "(ଜୀବ ଗୋସ୍ବାମୀର ପ୍ରାଣଧନ ହେ) ୬"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાધાદામોદર",
+            "રાધાદામોદર રાધે",
+            "(જીબ ગોસ્બામીર પ્રાણધન હે) ૬"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rādhā-dāmodara",
+            "rādhā-dāmodara rādhe",
+            "(jība gosbāmīra prāṇadhana he) 6"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಧಾದಾಮೊದರ",
+            "ರಾಧಾದಾಮೊದರ ರಾಧೆ",
+            "(ಜೀಬ ಗೊಸ್ಬಾಮೀರ ಪ್ರಾಣಧನ ಹೆ) ೬"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాధాదామొదర",
+            "రాధాదామొదర రాధె",
+            "(జీబ గొస్బామీర ప్రాణధన హె) 6"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄дха̄да̄мо̆дара",
+            "ра̄дха̄да̄мо̆дара ра̄дхэ̆",
+            "(джӣба го̆сба̄мӣра пра̄н̣адхана хэ̆) 6"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാധാദാമൊദര",
+            "രാധാദാമൊദര രാധെ",
+            "(ജീബ ഗൊസ്ബാമീര പ്രാണധന ഹെ) 6"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராதா⁴தா³மொத³ர",
+            "ராதா⁴தா³மொத³ர ராதெ⁴",
+            "(ஜீப³ கொ³ஸ்பா³மீர ப்ராணத⁴ன ஹெ) 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rādhā-dāmodara",
+            "rādhā-dāmodara rādhe",
+            "(jība gosbāmīra prāṇadhana he) 6"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rādhā-dāmodara",
+            "rādhā-dāmodara rādhe",
+            "(jība gosbāmīra prāṇadhana he) 6"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 7,
+      "source_text_master": [
+        "jaya jaya rādhāramaṇa",
+        "rādhāramaṇa rādhe",
+        "(gopālabhaṭṭera prāṇadhana he) 7"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā-ramaṇa, the treasure of Śrī Gopāla Bhaṭṭa Gosvāmī’s heart!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "rādhāramaṇa",
+              "to Rādhā-ramaṇa"
+            ],
+            [
+              "rādhāramaṇa",
+              "to Rādhā-ramaṇa"
+            ],
+            [
+              "rādhe",
+              "O Rādhā"
+            ],
+            [
+              "(gopālabhaṭṭera",
+              "of Śrī Gopāla Bhaṭṭa Gosvāmī"
+            ],
+            [
+              "prāṇadhana",
+              "heart + treasure"
+            ],
+            [
+              "he)",
+              "hey"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "राधारमण",
+              "to Rādhā-ramaṇa"
+            ],
+            [
+              "राधारमण",
+              "to Rādhā-ramaṇa"
+            ],
+            [
+              "राधॆ",
+              "O Rādhā"
+            ],
+            [
+              "(गॊपालभट्टॆर",
+              "of Śrī Gopāla Bhaṭṭa Gosvāmī"
+            ],
+            [
+              "प्राणधन",
+              "heart + treasure"
+            ],
+            [
+              "हॆ)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "রাধারমণ",
+              "to Rādhā-ramaṇa"
+            ],
+            [
+              "রাধারমণ",
+              "to Rādhā-ramaṇa"
+            ],
+            [
+              "রাধে",
+              "O Rādhā"
+            ],
+            [
+              "(গোপালভট্টের",
+              "of Śrī Gopāla Bhaṭṭa Gosvāmī"
+            ],
+            [
+              "প্রাণধন",
+              "heart + treasure"
+            ],
+            [
+              "হে)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "રાધારમણ",
+              "to Rādhā-ramaṇa"
+            ],
+            [
+              "રાધારમણ",
+              "to Rādhā-ramaṇa"
+            ],
+            [
+              "રાધે",
+              "O Rādhā"
+            ],
+            [
+              "(ગોપાલભટ્ટેર",
+              "of Śrī Gopāla Bhaṭṭa Gosvāmī"
+            ],
+            [
+              "પ્રાણધન",
+              "heart + treasure"
+            ],
+            [
+              "હે)",
+              "hey"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय राधारमण",
+            "राधारमण राधॆ",
+            "(गॊपालभट्टॆर प्राणधन हॆ) ७"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাধারমণ",
+            "রাধারমণ রাধে",
+            "(গোপালভট্টের প্রাণধন হে) ৭"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାଧାରମଣ",
+            "ରାଧାରମଣ ରାଧେ",
+            "(ଗୋପାଲଭଟ୍ଟେର ପ୍ରାଣଧନ ହେ) ୭"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાધારમણ",
+            "રાધારમણ રાધે",
+            "(ગોપાલભટ્ટેર પ્રાણધન હે) ૭"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rādhāramaṇa",
+            "rādhāramaṇa rādhe",
+            "(gopālabhaṭṭera prāṇadhana he) 7"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಧಾರಮಣ",
+            "ರಾಧಾರಮಣ ರಾಧೆ",
+            "(ಗೊಪಾಲಭಟ್ಟೆರ ಪ್ರಾಣಧನ ಹೆ) ೭"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాధారమణ",
+            "రాధారమణ రాధె",
+            "(గొపాలభట్టెర ప్రాణధన హె) 7"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄дха̄раман̣а",
+            "ра̄дха̄раман̣а ра̄дхэ̆",
+            "(го̆па̄лабхат̣т̣э̆ра пра̄н̣адхана хэ̆) 7"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാധാരമണ",
+            "രാധാരമണ രാധെ",
+            "(ഗൊപാലഭട്ടെര പ്രാണധന ഹെ) 7"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராதா⁴ரமண",
+            "ராதா⁴ரமண ராதெ⁴",
+            "(கொ³பாலப⁴ட்டெர ப்ராணத⁴ன ஹெ) 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rādhāramaṇa",
+            "rādhāramaṇa rādhe",
+            "(gopālabhaṭṭera prāṇadhana he) 7"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rādhāramaṇa",
+            "rādhāramaṇa rādhe",
+            "(gopālabhaṭṭera prāṇadhana he) 7"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 8,
+      "source_text_master": [
+        "jaya jaya rādhābinoda",
+        "rādhābinoda rādhe",
+        "(lokanāthera prāṇadhana he) 8"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā-Vinoda, the treasure of Śrī Lokanātha Gosvāmī’s heart!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "rādhābinoda",
+              "to Rādhā-Vinoda"
+            ],
+            [
+              "rādhābinoda",
+              "to Rādhā-Vinoda"
+            ],
+            [
+              "rādhe",
+              "O Rādhā"
+            ],
+            [
+              "(lokanāthera",
+              "of Śrī Lokanātha Gosvāmī"
+            ],
+            [
+              "prāṇadhana",
+              "heart + treasure"
+            ],
+            [
+              "he)",
+              "hey"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "राधाबिनॊद",
+              "to Rādhā-Vinoda"
+            ],
+            [
+              "राधाबिनॊद",
+              "to Rādhā-Vinoda"
+            ],
+            [
+              "राधॆ",
+              "O Rādhā"
+            ],
+            [
+              "(लॊकनाथॆर",
+              "of Śrī Lokanātha Gosvāmī"
+            ],
+            [
+              "प्राणधन",
+              "heart + treasure"
+            ],
+            [
+              "हॆ)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "রাধাবিনোদ",
+              "to Rādhā-Vinoda"
+            ],
+            [
+              "রাধাবিনোদ",
+              "to Rādhā-Vinoda"
+            ],
+            [
+              "রাধে",
+              "O Rādhā"
+            ],
+            [
+              "(লোকনাথের",
+              "of Śrī Lokanātha Gosvāmī"
+            ],
+            [
+              "প্রাণধন",
+              "heart + treasure"
+            ],
+            [
+              "হে)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "રાધાબિનોદ",
+              "to Rādhā-Vinoda"
+            ],
+            [
+              "રાધાબિનોદ",
+              "to Rādhā-Vinoda"
+            ],
+            [
+              "રાધે",
+              "O Rādhā"
+            ],
+            [
+              "(લોકનાથેર",
+              "of Śrī Lokanātha Gosvāmī"
+            ],
+            [
+              "પ્રાણધન",
+              "heart + treasure"
+            ],
+            [
+              "હે)",
+              "hey"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय राधाबिनॊद",
+            "राधाबिनॊद राधॆ",
+            "(लॊकनाथॆर प्राणधन हॆ) ८"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাধাবিনোদ",
+            "রাধাবিনোদ রাধে",
+            "(লোকনাথের প্রাণধন হে) ৮"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାଧାବିନୋଦ",
+            "ରାଧାବିନୋଦ ରାଧେ",
+            "(ଲୋକନାଥେର ପ୍ରାଣଧନ ହେ) ୮"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાધાબિનોદ",
+            "રાધાબિનોદ રાધે",
+            "(લોકનાથેર પ્રાણધન હે) ૮"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rādhābinoda",
+            "rādhābinoda rādhe",
+            "(lokanāthera prāṇadhana he) 8"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಧಾಬಿನೊದ",
+            "ರಾಧಾಬಿನೊದ ರಾಧೆ",
+            "(ಲೊಕನಾಥೆರ ಪ್ರಾಣಧನ ಹೆ) ೮"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాధాబినొద",
+            "రాధాబినొద రాధె",
+            "(లొకనాథెర ప్రాణధన హె) 8"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄дха̄бино̆да",
+            "ра̄дха̄бино̆да ра̄дхэ̆",
+            "(ло̆кана̄тхэ̆ра пра̄н̣адхана хэ̆) 8"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാധാബിനൊദ",
+            "രാധാബിനൊദ രാധെ",
+            "(ലൊകനാഥെര പ്രാണധന ഹെ) 8"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராதா⁴பி³னொத³",
+            "ராதா⁴பி³னொத³ ராதெ⁴",
+            "(லொகநாதெ²ர ப்ராணத⁴ன ஹெ) 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rādhābinoda",
+            "rādhābinoda rādhe",
+            "(lokanāthera prāṇadhana he) 8"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rādhābinoda",
+            "rādhābinoda rādhe",
+            "(lokanāthera prāṇadhana he) 8"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 9,
+      "source_text_master": [
+        "jaya jaya rādhā[FLAG_HYPHEN_ALPHA]giridhārī",
+        "rādhā[FLAG_HYPHEN_ALPHA]giridhārī rādhe",
+        "(dāsa gosbāmīra prāṇadhana he) 9"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā-Giridhārī, the treasure of Śrī Raghunātha dāsa Gosvāmī’s heart!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "rādhā giridhārī",
+              "to Rādhā Giridhārī"
+            ],
+            [
+              "rādhā giridhārī",
+              "to Rādhā Giridhārī"
+            ],
+            [
+              "rādhe",
+              "O Rādhā"
+            ],
+            [
+              "(dāsa gosbāmīra",
+              "of Śrī Raghunātha dāsa Gosvāmī"
+            ],
+            [
+              "prāṇadhana",
+              "heart + treasure"
+            ],
+            [
+              "he)",
+              "hey"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "राधा गिरिधारी",
+              "to Rādhā Giridhārī"
+            ],
+            [
+              "राधा गिरिधारी",
+              "to Rādhā Giridhārī"
+            ],
+            [
+              "राधॆ",
+              "O Rādhā"
+            ],
+            [
+              "(दास गॊस्बामीर",
+              "of Śrī Raghunātha dāsa Gosvāmī"
+            ],
+            [
+              "प्राणधन",
+              "heart + treasure"
+            ],
+            [
+              "हॆ)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "রাধা গিরিধারী",
+              "to Rādhā Giridhārī"
+            ],
+            [
+              "রাধা গিরিধারী",
+              "to Rādhā Giridhārī"
+            ],
+            [
+              "রাধে",
+              "O Rādhā"
+            ],
+            [
+              "(দাস গোস্বামীর",
+              "of Śrī Raghunātha dāsa Gosvāmī"
+            ],
+            [
+              "প্রাণধন",
+              "heart + treasure"
+            ],
+            [
+              "হে)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "રાધા ગિરિધારી",
+              "to Rādhā Giridhārī"
+            ],
+            [
+              "રાધા ગિરિધારી",
+              "to Rādhā Giridhārī"
+            ],
+            [
+              "રાધે",
+              "O Rādhā"
+            ],
+            [
+              "(દાસ ગોસ્બામીર",
+              "of Śrī Raghunātha dāsa Gosvāmī"
+            ],
+            [
+              "પ્રાણધન",
+              "heart + treasure"
+            ],
+            [
+              "હે)",
+              "hey"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय राधागिरिधारी",
+            "राधागिरिधारी राधॆ",
+            "(दास गॊस्बामीर प्राणधन हॆ) ९"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাধাগিরিধারী",
+            "রাধাগিরিধারী রাধে",
+            "(দাস গোস্বামীর প্রাণধন হে) ৯"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାଧାଗିରିଧାରୀ",
+            "ରାଧାଗିରିଧାରୀ ରାଧେ",
+            "(ଦାସ ଗୋସ୍ବାମୀର ପ୍ରାଣଧନ ହେ) ୯"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાધાગિરિધારી",
+            "રાધાગિરિધારી રાધે",
+            "(દાસ ગોસ્બામીર પ્રાણધન હે) ૯"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rādhā-giridhārī",
+            "rādhā-giridhārī rādhe",
+            "(dāsa gosbāmīra prāṇadhana he) 9"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಧಾಗಿರಿಧಾರೀ",
+            "ರಾಧಾಗಿರಿಧಾರೀ ರಾಧೆ",
+            "(ದಾಸ ಗೊಸ್ಬಾಮೀರ ಪ್ರಾಣಧನ ಹೆ) ೯"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాధాగిరిధారీ",
+            "రాధాగిరిధారీ రాధె",
+            "(దాస గొస్బామీర ప్రాణధన హె) 9"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄дха̄гиридха̄рӣ",
+            "ра̄дха̄гиридха̄рӣ ра̄дхэ̆",
+            "(да̄са го̆сба̄мӣра пра̄н̣адхана хэ̆) 9"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാധാഗിരിധാരീ",
+            "രാധാഗിരിധാരീ രാധെ",
+            "(ദാസ ഗൊസ്ബാമീര പ്രാണധന ഹെ) 9"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராதா⁴கி³ரிதா⁴ரீ",
+            "ராதா⁴கி³ரிதா⁴ரீ ராதெ⁴",
+            "(தா³ஸ கொ³ஸ்பா³மீர ப்ராணத⁴ன ஹெ) 9"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rādhā-giridhārī",
+            "rādhā-giridhārī rādhe",
+            "(dāsa gosbāmīra prāṇadhana he) 9"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rādhā-giridhārī",
+            "rādhā-giridhārī rādhe",
+            "(dāsa gosbāmīra prāṇadhana he) 9"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 10,
+      "source_text_master": [
+        "jaya jaya rādhā[FLAG_HYPHEN_ALPHA]śyāmasundara",
+        "rādhā[FLAG_HYPHEN_ALPHA]śyāmasundara rādhe",
+        "(śyāmānandera prāṇadhana he) 10"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā-Śyāmasundara, the treasure of Śrī Śyāmānanda Prabhu’s heart!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "rādhā śyāmasundara",
+              "to Rādhā Śyāmasundara"
+            ],
+            [
+              "rādhā śyāmasundara",
+              "to Rādhā Śyāmasundara"
+            ],
+            [
+              "rādhe",
+              "O Rādhā"
+            ],
+            [
+              "(śyāmānandera",
+              "of Śrī Śyāmānanda Prabhu"
+            ],
+            [
+              "prāṇadhana",
+              "heart + treasure"
+            ],
+            [
+              "he)",
+              "hey"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "राधा श्यामसुन्दर",
+              "to Rādhā Śyāmasundara"
+            ],
+            [
+              "राधा श्यामसुन्दर",
+              "to Rādhā Śyāmasundara"
+            ],
+            [
+              "राधॆ",
+              "O Rādhā"
+            ],
+            [
+              "(श्यामानन्दॆर",
+              "of Śrī Śyāmānanda Prabhu"
+            ],
+            [
+              "प्राणधन",
+              "heart + treasure"
+            ],
+            [
+              "हॆ)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "রাধা শ্যামসুন্দর",
+              "to Rādhā Śyāmasundara"
+            ],
+            [
+              "রাধা শ্যামসুন্দর",
+              "to Rādhā Śyāmasundara"
+            ],
+            [
+              "রাধে",
+              "O Rādhā"
+            ],
+            [
+              "(শ্যামানন্দের",
+              "of Śrī Śyāmānanda Prabhu"
+            ],
+            [
+              "প্রাণধন",
+              "heart + treasure"
+            ],
+            [
+              "হে)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "રાધા શ્યામસુન્દર",
+              "to Rādhā Śyāmasundara"
+            ],
+            [
+              "રાધા શ્યામસુન્દર",
+              "to Rādhā Śyāmasundara"
+            ],
+            [
+              "રાધે",
+              "O Rādhā"
+            ],
+            [
+              "(શ્યામાનન્દેર",
+              "of Śrī Śyāmānanda Prabhu"
+            ],
+            [
+              "પ્રાણધન",
+              "heart + treasure"
+            ],
+            [
+              "હે)",
+              "hey"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय राधाश्यामसुन्दर",
+            "राधाश्यामसुन्दर राधॆ",
+            "(श्यामानन्दॆर प्राणधन हॆ) १०"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাধাশ্যামসুন্দর",
+            "রাধাশ্যামসুন্দর রাধে",
+            "(শ্যামানন্দের প্রাণধন হে) ১০"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାଧାଶ୍ୟାମସୁନ୍ଦର",
+            "ରାଧାଶ୍ୟାମସୁନ୍ଦର ରାଧେ",
+            "(ଶ୍ୟାମାନନ୍ଦେର ପ୍ରାଣଧନ ହେ) ୧୦"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાધાશ્યામસુન્દર",
+            "રાધાશ્યામસુન્દર રાધે",
+            "(શ્યામાનન્દેર પ્રાણધન હે) ૧૦"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rādhā-śyāmasundara",
+            "rādhā-śyāmasundara rādhe",
+            "(śyāmānandera prāṇadhana he) 10"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಧಾಶ್ಯಾಮಸುಂದರ",
+            "ರಾಧಾಶ್ಯಾಮಸುಂದರ ರಾಧೆ",
+            "(ಶ್ಯಾಮಾನಂದೆರ ಪ್ರಾಣಧನ ಹೆ) ೧೦"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాధాశ్యామసుందర",
+            "రాధాశ్యామసుందర రాధె",
+            "(శ్యామానందెర ప్రాణధన హె) 10"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄дха̄ш́йа̄масундара",
+            "ра̄дха̄ш́йа̄масундара ра̄дхэ̆",
+            "(ш́йа̄ма̄нандэ̆ра пра̄н̣адхана хэ̆) 10"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാധാശ്യാമസുന്ദര",
+            "രാധാശ്യാമസുന്ദര രാധെ",
+            "(ശ്യാമാനന്ദെര പ്രാണധന ഹെ) 10"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராதா⁴ஶ்யாமஸுந்த³ர",
+            "ராதா⁴ஶ்யாமஸுந்த³ர ராதெ⁴",
+            "(ஶ்யாமானந்தெ³ர ப்ராணத⁴ன ஹெ) 10"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rādhā-śyāmasundara",
+            "rādhā-śyāmasundara rādhe",
+            "(śyāmānandera prāṇadhana he) 10"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rādhā-śyāmasundara",
+            "rādhā-śyāmasundara rādhe",
+            "(śyāmānandera prāṇadhana he) 10"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 11,
+      "source_text_master": [
+        "jaya jaya rādhākānta",
+        "rādhākānta rādhe",
+        "(bakreśbarera prāṇadhana he) 11"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "All glories to Rādhā-Kānta, the treasure of Śrī Vakreśvara Paṇḍita’s heart!"
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "jaya",
+              "all glories"
+            ],
+            [
+              "rādhākānta",
+              "to Rādhā-Kānta"
+            ],
+            [
+              "rādhe",
+              "O Rādhā"
+            ],
+            [
+              "(bakreśbarera",
+              "of Śrī Vakreśvara Paṇḍita"
+            ],
+            [
+              "prāṇadhana",
+              "heart + treasure"
+            ],
+            [
+              "he)",
+              "hey"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "जय",
+              "all glories"
+            ],
+            [
+              "राधाकान्त",
+              "to Rādhā-Kānta"
+            ],
+            [
+              "राधॆ",
+              "O Rādhā"
+            ],
+            [
+              "(बक्रॆश्बरॆर",
+              "of Śrī Vakreśvara Paṇḍita"
+            ],
+            [
+              "प्राणधन",
+              "heart + treasure"
+            ],
+            [
+              "हॆ)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "জয়",
+              "all glories"
+            ],
+            [
+              "রাধাকান্ত",
+              "to Rādhā-Kānta"
+            ],
+            [
+              "রাধে",
+              "O Rādhā"
+            ],
+            [
+              "(বক্রেশ্বরের",
+              "of Śrī Vakreśvara Paṇḍita"
+            ],
+            [
+              "প্রাণধন",
+              "heart + treasure"
+            ],
+            [
+              "হে)",
+              "hey"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "જય",
+              "all glories"
+            ],
+            [
+              "રાધાકાન્ત",
+              "to Rādhā-Kānta"
+            ],
+            [
+              "રાધે",
+              "O Rādhā"
+            ],
+            [
+              "(બક્રેશ્બરેર",
+              "of Śrī Vakreśvara Paṇḍita"
+            ],
+            [
+              "પ્રાણધન",
+              "heart + treasure"
+            ],
+            [
+              "હે)",
+              "hey"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "जय जय राधाकान्त",
+            "राधाकान्त राधॆ",
+            "(बक्रॆश्बरॆर प्राणधन हॆ) ११"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "জয় জয় রাধাকান্ত",
+            "রাধাকান্ত রাধে",
+            "(বক্রেশ্বরের প্রাণধন হে) ১১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଜୟ ଜୟ ରାଧାକାନ୍ତ",
+            "ରାଧାକାନ୍ତ ରାଧେ",
+            "(ବକ୍ରେଶ୍ବରେର ପ୍ରାଣଧନ ହେ) ୧୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "જય જય રાધાકાન્ત",
+            "રાધાકાન્ત રાધે",
+            "(બક્રેશ્બરેર પ્રાણધન હે) ૧૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "jaya jaya rādhākānta",
+            "rādhākānta rādhe",
+            "(bakreśbarera prāṇadhana he) 11"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಜಯ ಜಯ ರಾಧಾಕಾಂತ",
+            "ರಾಧಾಕಾಂತ ರಾಧೆ",
+            "(ಬಕ್ರೆಶ್ಬರೆರ ಪ್ರಾಣಧನ ಹೆ) ೧೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "జయ జయ రాధాకాంత",
+            "రాధాకాంత రాధె",
+            "(బక్రెశ్బరెర ప్రాణధన హె) 11"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "джайа джайа ра̄дха̄ка̄нта",
+            "ра̄дха̄ка̄нта ра̄дхэ̆",
+            "(бакрэ̆ш́барэ̆ра пра̄н̣адхана хэ̆) 11"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ജയ ജയ രാധാകാന്ത",
+            "രാധാകാന്ത രാധെ",
+            "(ബക്രെശ്ബരെര പ്രാണധന ഹെ) 11"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஜய ஜய ராதா⁴காந்த",
+            "ராதா⁴காந்த ராதெ⁴",
+            "(ப³க்ரெஶ்ப³ரெர ப்ராணத⁴ன ஹெ) 11"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "jaya jaya rādhākānta",
+            "rādhākānta rādhe",
+            "(bakreśbarera prāṇadhana he) 11"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "jaya jaya rādhākānta",
+            "rādhākānta rādhe",
+            "(bakreśbarera prāṇadhana he) 11"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "srrb-1",
+      "filename": "NK4-srrb-1.mp3",
+      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+    }
+  ],
+  "tags": [
+    "Rādhā-Kṛṣṇa-nāma-kīrtana"
+  ]
+}

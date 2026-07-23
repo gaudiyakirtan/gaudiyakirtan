@@ -2,13 +2,7 @@ import SwiftUI
 
 struct TopicsScrollView: View {
     let topics: [Topic]
-    let songs: [Song]
-    
-    init(topics: [Topic], songs: [Song] = []) {
-        self.topics = topics
-        self.songs = songs
-    }
-    
+
     var body: some View {
         VStack(alignment: .leading) {
             Text("Topics")
@@ -20,12 +14,10 @@ struct TopicsScrollView: View {
                 HStack(spacing: 12) {
                     Spacer().frame(width: 6)
                     ForEach(topics) { topic in
-                        // Use actual song count if available, otherwise use the demo count
-                        let songCount = songs.isEmpty ? topic.demoSongCount : songs.filter { song in
-                            song.tags.contains(where: { $0.lowercased() == topic.name.lowercased() })
-                        }.count
-                        
-                        TopicCard(topic: topic, songCount: songCount > 0 ? songCount : topic.demoSongCount)
+                        // Real per-topic membership (`topic.songUids`) when available, otherwise
+                        // the deterministic placeholder used while no SongGroup data ships.
+                        let songCount = topic.songUids.isEmpty ? topic.demoSongCount : topic.songUids.count
+                        TopicCard(topic: topic, songCount: songCount)
                     }
                 }
             }

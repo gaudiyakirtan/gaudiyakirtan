@@ -1,0 +1,2007 @@
+{
+ "uid": "N7",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "নিতাই-পদ-কমল"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "nitāi-pada-kamala"
+  }
+ ],
+ "author_uid": "ndt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Narottama dāsa Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "nitāi[FLAG_HYPHEN_ALPHA]pada[FLAG_HYPHEN_ALPHA]kamala,    koṭīcandra[FLAG_HYPHEN_ALPHA]suśītala,",
+    "ye chāyāya jagat juḓāya",
+    "hena nitāi bine bhāi,    rādhākṛṣṇa pāite nāi,",
+    "dṛḓha kari’ dhara nitāira pāya 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The lotus feet of Nitāi are as cooling as millions of moons. Their shade gives solace to the entire universe. Without a personality such as Nitāi, O brother, it is not possible to attain Rādhā and Kṛṣṇa, so firmly take hold of His lotus feet."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "nitāi",
+       "Nitāi"
+      ],
+      [
+       "pada kamala",
+       "lotus feet"
+      ],
+      [
+       "koṭīcandra",
+       "millions + moons"
+      ],
+      [
+       "suśītala",
+       "cooling"
+      ],
+      [
+       "ye",
+       "which"
+      ],
+      [
+       "chāyāya",
+       "in shade"
+      ],
+      [
+       "jagat",
+       "world"
+      ],
+      [
+       "juḓāya",
+       "cools, pacifies"
+      ],
+      [
+       "hena",
+       "such"
+      ],
+      [
+       "nitāi",
+       "Nitāi"
+      ],
+      [
+       "bine",
+       "without"
+      ],
+      [
+       "bhāi",
+       "O brother"
+      ],
+      [
+       "rādhākṛṣṇa",
+       "Rādhā and Kṛṣṇa"
+      ],
+      [
+       "pāite",
+       "attained"
+      ],
+      [
+       "nāi",
+       "not"
+      ],
+      [
+       "dṛḓha kari’",
+       "firmly"
+      ],
+      [
+       "dhara",
+       "hold"
+      ],
+      [
+       "nitāira",
+       "Nitāi’s"
+      ],
+      [
+       "pāya",
+       "feet"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "निताइ",
+       "Nitāi"
+      ],
+      [
+       "पद कमल",
+       "lotus feet"
+      ],
+      [
+       "कॊटीचन्द्र",
+       "millions + moons"
+      ],
+      [
+       "सुशीतल",
+       "cooling"
+      ],
+      [
+       "यॆ",
+       "which"
+      ],
+      [
+       "छायाय",
+       "in shade"
+      ],
+      [
+       "जगत्",
+       "world"
+      ],
+      [
+       "जुḓआय",
+       "cools, pacifies"
+      ],
+      [
+       "हॆन",
+       "such"
+      ],
+      [
+       "निताइ",
+       "Nitāi"
+      ],
+      [
+       "बिनॆ",
+       "without"
+      ],
+      [
+       "भाइ",
+       "O brother"
+      ],
+      [
+       "राधाक्ड़्ष्ण",
+       "Rādhā and Kṛṣṇa"
+      ],
+      [
+       "पाइतॆ",
+       "attained"
+      ],
+      [
+       "नाइ",
+       "not"
+      ],
+      [
+       "द्ड़्ḓह करिऽ",
+       "firmly"
+      ],
+      [
+       "धर",
+       "hold"
+      ],
+      [
+       "निताइर",
+       "Nitāi’s"
+      ],
+      [
+       "पाय",
+       "feet"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "নিতাই",
+       "Nitāi"
+      ],
+      [
+       "পদ কমল",
+       "lotus feet"
+      ],
+      [
+       "কোটীচন্দ্র",
+       "millions + moons"
+      ],
+      [
+       "সুশীতল",
+       "cooling"
+      ],
+      [
+       "যে",
+       "which"
+      ],
+      [
+       "ছায়ায়",
+       "in shade"
+      ],
+      [
+       "জগৎ",
+       "world"
+      ],
+      [
+       "জুḓআয়",
+       "cools, pacifies"
+      ],
+      [
+       "হেন",
+       "such"
+      ],
+      [
+       "নিতাই",
+       "Nitāi"
+      ],
+      [
+       "বিনে",
+       "without"
+      ],
+      [
+       "ভাই",
+       "O brother"
+      ],
+      [
+       "রাধাক্ড়্ষ্ণ",
+       "Rādhā and Kṛṣṇa"
+      ],
+      [
+       "পাইতে",
+       "attained"
+      ],
+      [
+       "নাই",
+       "not"
+      ],
+      [
+       "দ্ড়্ḓহ করিঽ",
+       "firmly"
+      ],
+      [
+       "ধর",
+       "hold"
+      ],
+      [
+       "নিতাইর",
+       "Nitāi’s"
+      ],
+      [
+       "পায়",
+       "feet"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "નિતાઇ",
+       "Nitāi"
+      ],
+      [
+       "પદ કમલ",
+       "lotus feet"
+      ],
+      [
+       "કોટીચન્દ્ર",
+       "millions + moons"
+      ],
+      [
+       "સુશીતલ",
+       "cooling"
+      ],
+      [
+       "યે",
+       "which"
+      ],
+      [
+       "છાયાય",
+       "in shade"
+      ],
+      [
+       "જગત્",
+       "world"
+      ],
+      [
+       "જુḓઆય",
+       "cools, pacifies"
+      ],
+      [
+       "હેન",
+       "such"
+      ],
+      [
+       "નિતાઇ",
+       "Nitāi"
+      ],
+      [
+       "બિને",
+       "without"
+      ],
+      [
+       "ભાઇ",
+       "O brother"
+      ],
+      [
+       "રાધાક્ડ઼્ષ્ણ",
+       "Rādhā and Kṛṣṇa"
+      ],
+      [
+       "પાઇતે",
+       "attained"
+      ],
+      [
+       "નાઇ",
+       "not"
+      ],
+      [
+       "દ્ડ઼્ḓહ કરિઽ",
+       "firmly"
+      ],
+      [
+       "ધર",
+       "hold"
+      ],
+      [
+       "નિતાઇર",
+       "Nitāi’s"
+      ],
+      [
+       "પાય",
+       "feet"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "निताइपदकमल,    कॊटीचन्द्रसुशीतल,",
+      "यॆ छायाय जगत् जुḓआय",
+      "हॆन निताइ बिनॆ भाइ,    राधाक्ड़्ष्ण पाइतॆ नाइ,",
+      "द्ड़्ḓह करिऽ धर निताइर पाय १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নিতাইপদকমল,    কোটীচন্দ্রসুশীতল,",
+      "যে ছায়ায় জগৎ জুḓআয়",
+      "হেন নিতাই বিনে ভাই,    রাধাক্ড়্ষ্ণ পাইতে নাই,",
+      "দ্ড়্ḓহ করিঽ ধর নিতাইর পায় ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନିତାଇପଦକମଲ,    କୋଟୀଚନ୍ଦ୍ରସୁଶୀତଲ,",
+      "ଯେ ଛାୟାୟ ଜଗତ୍ ଜୁḓଆୟ",
+      "ହେନ ନିତାଇ ବିନେ ଭାଇ,    ରାଧାକ୍ଡ଼୍ଷ୍ଣ ପାଇତେ ନାଇ,",
+      "ଦ୍ଡ଼୍ḓହ କରିଽ ଧର ନିତାଇର ପାୟ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નિતાઇપદકમલ,    કોટીચન્દ્રસુશીતલ,",
+      "યે છાયાય જગત્ જુḓઆય",
+      "હેન નિતાઇ બિને ભાઇ,    રાધાક્ડ઼્ષ્ણ પાઇતે નાઇ,",
+      "દ્ડ઼્ḓહ કરિઽ ધર નિતાઇર પાય ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nitāi-pada-kamala,    koṭīcandra-suśītala,",
+      "ye chāyāya jagat juḓāya",
+      "hena nitāi bine bhāi,    rādhākṛṣṇa pāite nāi,",
+      "dṛḓha kari’ dhara nitāira pāya 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಿತಾಇಪದಕಮಲ,    ಕೊಟೀಚಂದ್ರಸುಶೀತಲ,",
+      "ಯೆ ಛಾಯಾಯ ಜಗತ್ ಜುḓಆಯ",
+      "ಹೆನ ನಿತಾಇ ಬಿನೆ ಭಾಇ,    ರಾಧಾಕ್‌ಡ಼್ಷ್ಣ ಪಾಇತೆ ನಾಇ,",
+      "ದ್‌ಡ಼್ḓಹ ಕರಿಽ ಧರ ನಿತಾಇರ ಪಾಯ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నితాఇపదకమల,    కొటీచంద్రసుశీతల,",
+      "యె ఛాయాయ జగత్ జుḓఆయ",
+      "హెన నితాఇ బినె భాఇ,    రాధాక్డ్ష్ణ పాఇతె నాఇ,",
+      "ద్డ్ḓహ కరిఽ ధర నితాఇర పాయ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "нита̄ипадакамала,    ко̆т̣ӣчандрасуш́ӣтала,",
+      "йэ̆ чха̄йа̄йа джагат джуḓа̄йа",
+      "хэ̆на нита̄и бинэ̆ бха̄и,    ра̄дха̄кр̤шн̣а па̄итэ̆ на̄и,",
+      "др̤ḓха кари' дхара нита̄ира па̄йа 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നിതാഇപദകമല,    കൊടീചന്ദ്രസുശീതല,",
+      "യെ ഛായായ ജഗത് ജുḓആയ",
+      "ഹെന നിതാഇ ബിനെ ഭാഇ,    രാധാക്ഡ്ഷ്ണ പാഇതെ നാഇ,",
+      "ദ്ഡ്ḓഹ കരിഽ ധര നിതാഇര പായ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நிதாஇபத³கமல,    கொடீசந்த்³ரஸுஶீதல,",
+      "யெ சா²யாய ஜக³த் ஜுḓஆய",
+      "ஹென நிதாஇ பி³னெ பா⁴இ,    ராதா⁴க்ஃட்²ஷ்ண பாஇதெ நாஇ,",
+      "த்³ஃட்²ḓஹ கரி(அ) த⁴ர நிதாஇர பாய 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nitāi-pada-kamala,    koṭīcandra-suśītala,",
+      "ye chāyāya jagat juḍāya",
+      "hena nitāi bine bhāi,    rādhākṛṣṇa pāite nāi,",
+      "dṛḍha kari’ dhara nitāira pāya 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nitāi-pada-kamala,    koṭīcandra-suśītala,",
+      "ye chāyāya jagat juḓāya",
+      "hena nitāi bine bhāi,    rādhākṛṣṇa pāite nāi,",
+      "dṛḓha kari’ dhara nitāira pāya 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "se[FLAG_HYPHEN_ALPHA]sambandha nāhi yā’ra,    bṛthā janma gela tā’ra,",
+    "sei paśu baḓa durācāra",
+    "nitāi nā balila mukhe,    majila saṁsāra[FLAG_HYPHEN_ALPHA]sukhe,",
+    "bidyākule ki karibe tā’ra 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "If someone does not establish a relationship with Nityānanda Prabhu, his human birth is wasted. Such an animalistic person is very wicked. Not uttering the name of Nitāi with his lips, he drowns himself in the [so-called] happiness of the material world. What, then, can his education and pedigree do for him?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "se",
+       "that"
+      ],
+      [
+       "sambandha",
+       "relationship"
+      ],
+      [
+       "nāhi",
+       "not"
+      ],
+      [
+       "yā’ra",
+       "whose (who has)"
+      ],
+      [
+       "bṛthā",
+       "useless"
+      ],
+      [
+       "janma",
+       "birth"
+      ],
+      [
+       "gela",
+       "gone"
+      ],
+      [
+       "tā’ra",
+       "his"
+      ],
+      [
+       "sei",
+       "that"
+      ],
+      [
+       "paśu",
+       "animal"
+      ],
+      [
+       "baḓa",
+       "greatly"
+      ],
+      [
+       "durācāra",
+       "wicked"
+      ],
+      [
+       "nitāi",
+       "Nitāi"
+      ],
+      [
+       "nā",
+       "not"
+      ],
+      [
+       "balila",
+       "he said"
+      ],
+      [
+       "mukhe",
+       "by lips"
+      ],
+      [
+       "majila",
+       "he drowned"
+      ],
+      [
+       "saṁsāra",
+       "material"
+      ],
+      [
+       "sukhe",
+       "in happiness"
+      ],
+      [
+       "bidyākule",
+       "in education and pedigree"
+      ],
+      [
+       "ki",
+       "what"
+      ],
+      [
+       "karibe",
+       "will do"
+      ],
+      [
+       "tā’ra",
+       "his"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "सॆ",
+       "that"
+      ],
+      [
+       "सम्बन्ध",
+       "relationship"
+      ],
+      [
+       "नाहि",
+       "not"
+      ],
+      [
+       "याऽर",
+       "whose (who has)"
+      ],
+      [
+       "ब्ड़्था",
+       "useless"
+      ],
+      [
+       "जन्म",
+       "birth"
+      ],
+      [
+       "गॆल",
+       "gone"
+      ],
+      [
+       "ताऽर",
+       "his"
+      ],
+      [
+       "सॆइ",
+       "that"
+      ],
+      [
+       "पशु",
+       "animal"
+      ],
+      [
+       "बḓअ",
+       "greatly"
+      ],
+      [
+       "दुराचार",
+       "wicked"
+      ],
+      [
+       "निताइ",
+       "Nitāi"
+      ],
+      [
+       "ना",
+       "not"
+      ],
+      [
+       "बलिल",
+       "he said"
+      ],
+      [
+       "मुखॆ",
+       "by lips"
+      ],
+      [
+       "मजिल",
+       "he drowned"
+      ],
+      [
+       "संसार",
+       "material"
+      ],
+      [
+       "सुखॆ",
+       "in happiness"
+      ],
+      [
+       "बिद्याकुलॆ",
+       "in education and pedigree"
+      ],
+      [
+       "कि",
+       "what"
+      ],
+      [
+       "करिबॆ",
+       "will do"
+      ],
+      [
+       "ताऽर",
+       "his"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "সে",
+       "that"
+      ],
+      [
+       "সম্বন্ধ",
+       "relationship"
+      ],
+      [
+       "নাহি",
+       "not"
+      ],
+      [
+       "যাঽর",
+       "whose (who has)"
+      ],
+      [
+       "ব্ড়্থা",
+       "useless"
+      ],
+      [
+       "জন্ম",
+       "birth"
+      ],
+      [
+       "গেল",
+       "gone"
+      ],
+      [
+       "তাঽর",
+       "his"
+      ],
+      [
+       "সেই",
+       "that"
+      ],
+      [
+       "পশু",
+       "animal"
+      ],
+      [
+       "বḓঅ",
+       "greatly"
+      ],
+      [
+       "দুরাচার",
+       "wicked"
+      ],
+      [
+       "নিতাই",
+       "Nitāi"
+      ],
+      [
+       "না",
+       "not"
+      ],
+      [
+       "বলিল",
+       "he said"
+      ],
+      [
+       "মুখে",
+       "by lips"
+      ],
+      [
+       "মজিল",
+       "he drowned"
+      ],
+      [
+       "সংসার",
+       "material"
+      ],
+      [
+       "সুখে",
+       "in happiness"
+      ],
+      [
+       "বিদ্যাকুলে",
+       "in education and pedigree"
+      ],
+      [
+       "কি",
+       "what"
+      ],
+      [
+       "করিবে",
+       "will do"
+      ],
+      [
+       "তাঽর",
+       "his"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "સે",
+       "that"
+      ],
+      [
+       "સમ્બન્ધ",
+       "relationship"
+      ],
+      [
+       "નાહિ",
+       "not"
+      ],
+      [
+       "યાઽર",
+       "whose (who has)"
+      ],
+      [
+       "બ્ડ઼્થા",
+       "useless"
+      ],
+      [
+       "જન્મ",
+       "birth"
+      ],
+      [
+       "ગેલ",
+       "gone"
+      ],
+      [
+       "તાઽર",
+       "his"
+      ],
+      [
+       "સેઇ",
+       "that"
+      ],
+      [
+       "પશુ",
+       "animal"
+      ],
+      [
+       "બḓઅ",
+       "greatly"
+      ],
+      [
+       "દુરાચાર",
+       "wicked"
+      ],
+      [
+       "નિતાઇ",
+       "Nitāi"
+      ],
+      [
+       "ના",
+       "not"
+      ],
+      [
+       "બલિલ",
+       "he said"
+      ],
+      [
+       "મુખે",
+       "by lips"
+      ],
+      [
+       "મજિલ",
+       "he drowned"
+      ],
+      [
+       "સંસાર",
+       "material"
+      ],
+      [
+       "સુખે",
+       "in happiness"
+      ],
+      [
+       "બિદ્યાકુલે",
+       "in education and pedigree"
+      ],
+      [
+       "કિ",
+       "what"
+      ],
+      [
+       "કરિબે",
+       "will do"
+      ],
+      [
+       "તાઽર",
+       "his"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सॆसम्बन्ध नाहि याऽर,    ब्ड़्था जन्म गॆल ताऽर,",
+      "सॆइ पशु बḓअ दुराचार",
+      "निताइ ना बलिल मुखॆ,    मजिल संसारसुखॆ,",
+      "बिद्याकुलॆ कि करिबॆ ताऽर २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সেসম্বন্ধ নাহি যাঽর,    ব্ড়্থা জন্ম গেল তাঽর,",
+      "সেই পশু বḓঅ দুরাচার",
+      "নিতাই না বলিল মুখে,    মজিল সংসারসুখে,",
+      "বিদ্যাকুলে কি করিবে তাঽর ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସେସମ୍ବନ୍ଧ ନାହି ଯାଽର,    ବ୍ଡ଼୍ଥା ଜନ୍ମ ଗେଲ ତାଽର,",
+      "ସେଇ ପଶୁ ବḓଅ ଦୁରାଚାର",
+      "ନିତାଇ ନା ବଲିଲ ମୁଖେ,    ମଜିଲ ସଂସାରସୁଖେ,",
+      "ବିଦ୍ୟାକୁଲେ କି କରିବେ ତାଽର ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સેસમ્બન્ધ નાહિ યાઽર,    બ્ડ઼્થા જન્મ ગેલ તાઽર,",
+      "સેઇ પશુ બḓઅ દુરાચાર",
+      "નિતાઇ ના બલિલ મુખે,    મજિલ સંસારસુખે,",
+      "બિદ્યાકુલે કિ કરિબે તાઽર ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "se-sambandha nāhi yā’ra,    bṛthā janma gela tā’ra,",
+      "sei paśu baḓa durācāra",
+      "nitāi nā balila mukhe,    majila saṁsāra-sukhe,",
+      "bidyākule ki karibe tā’ra 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸೆಸಂಬಂಧ ನಾಹಿ ಯಾಽರ,    ಬ್‌ಡ಼್ಥಾ ಜನ್ಮ ಗೆಲ ತಾಽರ,",
+      "ಸೆಇ ಪಶು ಬḓಅ ದುರಾಚಾರ",
+      "ನಿತಾಇ ನಾ ಬಲಿಲ ಮುಖೆ,    ಮಜಿಲ ಸಂಸಾರಸುಖೆ,",
+      "ಬಿದ್ಯಾಕುಲೆ ಕಿ ಕರಿಬೆ ತಾಽರ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సెసంబంధ నాహి యాఽర,    బ్డ్థా జన్మ గెల తాఽర,",
+      "సెఇ పశు బḓఅ దురాచార",
+      "నితాఇ నా బలిల ముఖె,    మజిల సంసారసుఖె,",
+      "బిద్యాకులె కి కరిబె తాఽర 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сэ̆самбандха на̄хи йа̄'ра,    бр̤тха̄ джанма гэ̆ла та̄'ра,",
+      "сэ̆и паш́у баḓа дура̄ча̄ра",
+      "нита̄и на̄ балила мукхэ̆,    маджила сам̣са̄расукхэ̆,",
+      "бидйа̄кулэ̆ ки карибэ̆ та̄'ра 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സെസംബന്ധ നാഹി യാഽര,    ബ്ഡ്ഥാ ജന്മ ഗെല താഽര,",
+      "സെഇ പശു ബḓഅ ദുരാചാര",
+      "നിതാഇ നാ ബലില മുഖെ,    മജില സംസാരസുഖെ,",
+      "ബിദ്യാകുലെ കി കരിബെ താഽര 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸெஸம்ப³ந்த⁴ நாஹி யா(அ)ர,    ப்³ஃட்²தா² ஜன்ம கெ³ல தா(அ)ர,",
+      "ஸெஇ பஶு ப³ḓஅ து³ராசார",
+      "நிதாஇ நா ப³லில முகெ²,    மஜில ஸம்ʼஸாரஸுகெ²,",
+      "பி³த்³யாகுலெ கி கரிபெ³ தா(அ)ர 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "se-sambandha nāhi yā’ra,    bṛthā janma gela tā’ra,",
+      "sei paśu baḍa durācāra",
+      "nitāi nā balila mukhe,    majila saṁsāra-sukhe,",
+      "bidyākule ki karibe tā’ra 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "se-sambandha nāhi yā’ra,    bṛthā janma gela tā’ra,",
+      "sei paśu baḓa durācāra",
+      "nitāi nā balila mukhe,    majila saṁsāra-sukhe,",
+      "bidyākule ki karibe tā’ra 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "ahaṅkāre matta haiyā,    nitāi[FLAG_HYPHEN_ALPHA]pada pāsariyā,",
+    "asatyare satya kari’ māni",
+    "nitāiyera karuṇā ha’be,    braje rādhākṛṣṇa pā’be,",
+    "dhara nitāiyera caraṇa du’khāni 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Maddened by false pride and forgetting Nitāi’s lotus feet, one considers illusion to be truth. If Nitāi is merciful, one can attain Rādhā and Kṛṣṇa in Vraja, so firmly take hold of Nitāi’s two lotus feet."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ahaṅkāre",
+       "by false pride"
+      ],
+      [
+       "matta",
+       "maddened"
+      ],
+      [
+       "haiyā",
+       "having become"
+      ],
+      [
+       "nitāi pada",
+       "Nitāi’s feet"
+      ],
+      [
+       "pāsariyā",
+       "having forgotten"
+      ],
+      [
+       "asatyare",
+       "to that of illusion"
+      ],
+      [
+       "satya",
+       "truth"
+      ],
+      [
+       "kari’ māni",
+       "having considered"
+      ],
+      [
+       "nitāiyera",
+       "Nitāi’s"
+      ],
+      [
+       "karuṇā",
+       "mercy"
+      ],
+      [
+       "ha’be",
+       "will happen"
+      ],
+      [
+       "braje",
+       "in Vraja"
+      ],
+      [
+       "rādhākṛṣṇa",
+       "Rādhā and Kṛṣṇa"
+      ],
+      [
+       "pā’be",
+       "will attain"
+      ],
+      [
+       "dhara",
+       "hold (imperative)"
+      ],
+      [
+       "nitāiyera",
+       "Nitāi’s"
+      ],
+      [
+       "caraṇa",
+       "feet"
+      ],
+      [
+       "du’khāni",
+       "two + the"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "अहङ्कारॆ",
+       "by false pride"
+      ],
+      [
+       "मत्त",
+       "maddened"
+      ],
+      [
+       "हैया",
+       "having become"
+      ],
+      [
+       "निताइ पद",
+       "Nitāi’s feet"
+      ],
+      [
+       "पासरिया",
+       "having forgotten"
+      ],
+      [
+       "असत्यरॆ",
+       "to that of illusion"
+      ],
+      [
+       "सत्य",
+       "truth"
+      ],
+      [
+       "करिऽ मानि",
+       "having considered"
+      ],
+      [
+       "निताइयॆर",
+       "Nitāi’s"
+      ],
+      [
+       "करुणा",
+       "mercy"
+      ],
+      [
+       "हऽबॆ",
+       "will happen"
+      ],
+      [
+       "ब्रजॆ",
+       "in Vraja"
+      ],
+      [
+       "राधाक्ड़्ष्ण",
+       "Rādhā and Kṛṣṇa"
+      ],
+      [
+       "पाऽबॆ",
+       "will attain"
+      ],
+      [
+       "धर",
+       "hold (imperative)"
+      ],
+      [
+       "निताइयॆर",
+       "Nitāi’s"
+      ],
+      [
+       "चरण",
+       "feet"
+      ],
+      [
+       "दुऽखानि",
+       "two + the"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "অহঙ্কারে",
+       "by false pride"
+      ],
+      [
+       "মত্ত",
+       "maddened"
+      ],
+      [
+       "হৈয়া",
+       "having become"
+      ],
+      [
+       "নিতাই পদ",
+       "Nitāi’s feet"
+      ],
+      [
+       "পাসরিয়া",
+       "having forgotten"
+      ],
+      [
+       "অসত্যরে",
+       "to that of illusion"
+      ],
+      [
+       "সত্য",
+       "truth"
+      ],
+      [
+       "করিঽ মানি",
+       "having considered"
+      ],
+      [
+       "নিতাইয়ের",
+       "Nitāi’s"
+      ],
+      [
+       "করুণা",
+       "mercy"
+      ],
+      [
+       "হঽবে",
+       "will happen"
+      ],
+      [
+       "ব্রজে",
+       "in Vraja"
+      ],
+      [
+       "রাধাক্ড়্ষ্ণ",
+       "Rādhā and Kṛṣṇa"
+      ],
+      [
+       "পাঽবে",
+       "will attain"
+      ],
+      [
+       "ধর",
+       "hold (imperative)"
+      ],
+      [
+       "নিতাইয়ের",
+       "Nitāi’s"
+      ],
+      [
+       "চরণ",
+       "feet"
+      ],
+      [
+       "দুঽখানি",
+       "two + the"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "અહઙ્કારે",
+       "by false pride"
+      ],
+      [
+       "મત્ત",
+       "maddened"
+      ],
+      [
+       "હૈયા",
+       "having become"
+      ],
+      [
+       "નિતાઇ પદ",
+       "Nitāi’s feet"
+      ],
+      [
+       "પાસરિયા",
+       "having forgotten"
+      ],
+      [
+       "અસત્યરે",
+       "to that of illusion"
+      ],
+      [
+       "સત્ય",
+       "truth"
+      ],
+      [
+       "કરિઽ માનિ",
+       "having considered"
+      ],
+      [
+       "નિતાઇયેર",
+       "Nitāi’s"
+      ],
+      [
+       "કરુણા",
+       "mercy"
+      ],
+      [
+       "હઽબે",
+       "will happen"
+      ],
+      [
+       "બ્રજે",
+       "in Vraja"
+      ],
+      [
+       "રાધાક્ડ઼્ષ્ણ",
+       "Rādhā and Kṛṣṇa"
+      ],
+      [
+       "પાઽબે",
+       "will attain"
+      ],
+      [
+       "ધર",
+       "hold (imperative)"
+      ],
+      [
+       "નિતાઇયેર",
+       "Nitāi’s"
+      ],
+      [
+       "ચરણ",
+       "feet"
+      ],
+      [
+       "દુઽખાનિ",
+       "two + the"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अहङ्कारॆ मत्त हैया,    निताइपद पासरिया,",
+      "असत्यरॆ सत्य करिऽ मानि",
+      "निताइयॆर करुणा हऽबॆ,    ब्रजॆ राधाक्ड़्ष्ण पाऽबॆ,",
+      "धर निताइयॆर चरण दुऽखानि ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অহঙ্কারে মত্ত হৈয়া,    নিতাইপদ পাসরিয়া,",
+      "অসত্যরে সত্য করিঽ মানি",
+      "নিতাইয়ের করুণা হঽবে,    ব্রজে রাধাক্ড়্ষ্ণ পাঽবে,",
+      "ধর নিতাইয়ের চরণ দুঽখানি ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅହଙ୍କାରେ ମତ୍ତ ହୈୟା,    ନିତାଇପଦ ପାସରିୟା,",
+      "ଅସତ୍ୟରେ ସତ୍ୟ କରିଽ ମାନି",
+      "ନିତାଇୟେର କରୁଣା ହଽବେ,    ବ୍ରଜେ ରାଧାକ୍ଡ଼୍ଷ୍ଣ ପାଽବେ,",
+      "ଧର ନିତାଇୟେର ଚରଣ ଦୁଽଖାନି ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અહઙ્કારે મત્ત હૈયા,    નિતાઇપદ પાસરિયા,",
+      "અસત્યરે સત્ય કરિઽ માનિ",
+      "નિતાઇયેર કરુણા હઽબે,    બ્રજે રાધાક્ડ઼્ષ્ણ પાઽબે,",
+      "ધર નિતાઇયેર ચરણ દુઽખાનિ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ahaṅkāre matta haiyā,    nitāi-pada pāsariyā,",
+      "asatyare satya kari’ māni",
+      "nitāiyera karuṇā ha’be,    braje rādhākṛṣṇa pā’be,",
+      "dhara nitāiyera caraṇa du’khāni 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅಹಂಕಾರೆ ಮತ್ತ ಹೈಯಾ,    ನಿತಾಇಪದ ಪಾಸರಿಯಾ,",
+      "ಅಸತ್ಯರೆ ಸತ್ಯ ಕರಿಽ ಮಾನಿ",
+      "ನಿತಾಇಯೆರ ಕರುಣಾ ಹಽಬೆ,    ಬ್ರಜೆ ರಾಧಾಕ್‌ಡ಼್ಷ್ಣ ಪಾಽಬೆ,",
+      "ಧರ ನಿತಾಇಯೆರ ಚರಣ ದುಽಖಾನಿ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అహంకారె మత్త హైయా,    నితాఇపద పాసరియా,",
+      "అసత్యరె సత్య కరిఽ మాని",
+      "నితాఇయెర కరుణా హఽబె,    బ్రజె రాధాక్డ్ష్ణ పాఽబె,",
+      "ధర నితాఇయెర చరణ దుఽఖాని 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ахан̇ка̄рэ̆ матта хаийа̄,    нита̄ипада па̄сарийа̄,",
+      "асатйарэ̆ сатйа кари' ма̄ни",
+      "нита̄ийэ̆ра карун̣а̄ ха'бэ̆,    браджэ̆ ра̄дха̄кр̤шн̣а па̄'бэ̆,",
+      "дхара нита̄ийэ̆ра чаран̣а ду'кха̄ни 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അഹങ്കാരെ മത്ത ഹൈയാ,    നിതാഇപദ പാസരിയാ,",
+      "അസത്യരെ സത്യ കരിഽ മാനി",
+      "നിതാഇയെര കരുണാ ഹഽബെ,    ബ്രജെ രാധാക്ഡ്ഷ്ണ പാഽബെ,",
+      "ധര നിതാഇയെര ചരണ ദുഽഖാനി 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அஹங்காரெ மத்த ஹையா,    நிதாஇபத³ பாஸரியா,",
+      "அஸத்யரெ ஸத்ய கரி(அ) மானி",
+      "நிதாஇயெர கருணா ஹ(அ)பெ³,    ப்³ரஜெ ராதா⁴க்ஃட்²ஷ்ண பா(அ)பெ³,",
+      "த⁴ர நிதாஇயெர சரண து³(அ)கா²னி 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ahaṅkāre matta haiyā,    nitāi-pada pāsariyā,",
+      "asatyare satya kari’ māni",
+      "nitāiyera karuṇā ha’be,    braje rādhākṛṣṇa pā’be,",
+      "dhara nitāiyera caraṇa du’khāni 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ahaṅkāre matta haiyā,    nitāi-pada pāsariyā,",
+      "asatyare satya kari’ māni",
+      "nitāiyera karuṇā ha’be,    braje rādhākṛṣṇa pā’be,",
+      "dhara nitāiyera caraṇa du’khāni 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "nitāiyera caraṇa satya,    tā̃hāra sebaka nitya,",
+    "nitāi[FLAG_HYPHEN_ALPHA]pada sadā kara āśa",
+    "narottama baḓa duḥkhī,    nitāi more kara sukhī,",
+    "rākha rāṅgā caraṇera pāśa 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The lotus feet of Nitāi are eternal truth, and His servitors are eternally liberated. Always aspire to attain the lotus feet of Nitāi. Narottama is very unhappy. O Nitāi, please make me happy by keeping me close to the reddish soles of Your lotus feet."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "nitāiyera",
+       "Nitāi’s"
+      ],
+      [
+       "caraṇa",
+       "feet"
+      ],
+      [
+       "satya",
+       "truth"
+      ],
+      [
+       "tā̃hāra",
+       "his"
+      ],
+      [
+       "sebaka",
+       "sevitors"
+      ],
+      [
+       "nitya",
+       "eternal"
+      ],
+      [
+       "nitāi pada",
+       "the feet of Nitāi"
+      ],
+      [
+       "sadā",
+       "always"
+      ],
+      [
+       "kara āśa",
+       "aspire"
+      ],
+      [
+       "narottama",
+       "Narottama dāsa"
+      ],
+      [
+       "baḓa",
+       "very"
+      ],
+      [
+       "duḥkhī",
+       "sad"
+      ],
+      [
+       "nitāi",
+       "Nitāi"
+      ],
+      [
+       "more",
+       "to me"
+      ],
+      [
+       "kara sukhī",
+       "make happy"
+      ],
+      [
+       "rākha",
+       "keep"
+      ],
+      [
+       "rāṅgā",
+       "reddish"
+      ],
+      [
+       "caraṇera",
+       "feet’s"
+      ],
+      [
+       "pāśa",
+       "near"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "निताइयॆर",
+       "Nitāi’s"
+      ],
+      [
+       "चरण",
+       "feet"
+      ],
+      [
+       "सत्य",
+       "truth"
+      ],
+      [
+       "तांहार",
+       "his"
+      ],
+      [
+       "सॆबक",
+       "sevitors"
+      ],
+      [
+       "नित्य",
+       "eternal"
+      ],
+      [
+       "निताइ पद",
+       "the feet of Nitāi"
+      ],
+      [
+       "सदा",
+       "always"
+      ],
+      [
+       "कर आश",
+       "aspire"
+      ],
+      [
+       "नरॊत्तम",
+       "Narottama dāsa"
+      ],
+      [
+       "बḓअ",
+       "very"
+      ],
+      [
+       "दुःखी",
+       "sad"
+      ],
+      [
+       "निताइ",
+       "Nitāi"
+      ],
+      [
+       "मॊरॆ",
+       "to me"
+      ],
+      [
+       "कर सुखी",
+       "make happy"
+      ],
+      [
+       "राख",
+       "keep"
+      ],
+      [
+       "राङ्गा",
+       "reddish"
+      ],
+      [
+       "चरणॆर",
+       "feet’s"
+      ],
+      [
+       "पाश",
+       "near"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "নিতাইয়ের",
+       "Nitāi’s"
+      ],
+      [
+       "চরণ",
+       "feet"
+      ],
+      [
+       "সত্য",
+       "truth"
+      ],
+      [
+       "তাংহার",
+       "his"
+      ],
+      [
+       "সেবক",
+       "sevitors"
+      ],
+      [
+       "নিত্য",
+       "eternal"
+      ],
+      [
+       "নিতাই পদ",
+       "the feet of Nitāi"
+      ],
+      [
+       "সদা",
+       "always"
+      ],
+      [
+       "কর আশ",
+       "aspire"
+      ],
+      [
+       "নরোত্তম",
+       "Narottama dāsa"
+      ],
+      [
+       "বḓঅ",
+       "very"
+      ],
+      [
+       "দুঃখী",
+       "sad"
+      ],
+      [
+       "নিতাই",
+       "Nitāi"
+      ],
+      [
+       "মোরে",
+       "to me"
+      ],
+      [
+       "কর সুখী",
+       "make happy"
+      ],
+      [
+       "রাখ",
+       "keep"
+      ],
+      [
+       "রাঙ্গা",
+       "reddish"
+      ],
+      [
+       "চরণের",
+       "feet’s"
+      ],
+      [
+       "পাশ",
+       "near"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "નિતાઇયેર",
+       "Nitāi’s"
+      ],
+      [
+       "ચરણ",
+       "feet"
+      ],
+      [
+       "સત્ય",
+       "truth"
+      ],
+      [
+       "તાંહાર",
+       "his"
+      ],
+      [
+       "સેબક",
+       "sevitors"
+      ],
+      [
+       "નિત્ય",
+       "eternal"
+      ],
+      [
+       "નિતાઇ પદ",
+       "the feet of Nitāi"
+      ],
+      [
+       "સદા",
+       "always"
+      ],
+      [
+       "કર આશ",
+       "aspire"
+      ],
+      [
+       "નરોત્તમ",
+       "Narottama dāsa"
+      ],
+      [
+       "બḓઅ",
+       "very"
+      ],
+      [
+       "દુઃખી",
+       "sad"
+      ],
+      [
+       "નિતાઇ",
+       "Nitāi"
+      ],
+      [
+       "મોરે",
+       "to me"
+      ],
+      [
+       "કર સુખી",
+       "make happy"
+      ],
+      [
+       "રાખ",
+       "keep"
+      ],
+      [
+       "રાઙ્ગા",
+       "reddish"
+      ],
+      [
+       "ચરણેર",
+       "feet’s"
+      ],
+      [
+       "પાશ",
+       "near"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "निताइयॆर चरण सत्य,    तांहार सॆबक नित्य,",
+      "निताइपद सदा कर आश",
+      "नरॊत्तम बḓअ दुःखी,    निताइ मॊरॆ कर सुखी,",
+      "राख राङ्गा चरणॆर पाश ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নিতাইয়ের চরণ সত্য,    তাংহার সেবক নিত্য,",
+      "নিতাইপদ সদা কর আশ",
+      "নরোত্তম বḓঅ দুঃখী,    নিতাই মোরে কর সুখী,",
+      "রাখ রাঙ্গা চরণের পাশ ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନିତାଇୟେର ଚରଣ ସତ୍ୟ,    ତାଂହାର ସେବକ ନିତ୍ୟ,",
+      "ନିତାଇପଦ ସଦା କର ଆଶ",
+      "ନରୋତ୍ତମ ବḓଅ ଦୁଃଖୀ,    ନିତାଇ ମୋରେ କର ସୁଖୀ,",
+      "ରାଖ ରାଙ୍ଗା ଚରଣେର ପାଶ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નિતાઇયેર ચરણ સત્ય,    તાંહાર સેબક નિત્ય,",
+      "નિતાઇપદ સદા કર આશ",
+      "નરોત્તમ બḓઅ દુઃખી,    નિતાઇ મોરે કર સુખી,",
+      "રાખ રાઙ્ગા ચરણેર પાશ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nitāiyera caraṇa satya,    tā̃hāra sebaka nitya,",
+      "nitāi-pada sadā kara āśa",
+      "narottama baḓa duḥkhī,    nitāi more kara sukhī,",
+      "rākha rāṅgā caraṇera pāśa 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಿತಾಇಯೆರ ಚರಣ ಸತ್ಯ,    ತಾಂಹಾರ ಸೆಬಕ ನಿತ್ಯ,",
+      "ನಿತಾಇಪದ ಸದಾ ಕರ ಆಶ",
+      "ನರೊತ್ತಮ ಬḓಅ ದುಃಖೀ,    ನಿತಾಇ ಮೊರೆ ಕರ ಸುಖೀ,",
+      "ರಾಖ ರಾಂಗಾ ಚರಣೆರ ಪಾಶ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నితాఇయెర చరణ సత్య,    తాంహార సెబక నిత్య,",
+      "నితాఇపద సదా కర ఆశ",
+      "నరొత్తమ బḓఅ దుఃఖీ,    నితాఇ మొరె కర సుఖీ,",
+      "రాఖ రాంగా చరణెర పాశ 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "нита̄ийэ̆ра чаран̣а сатйа,    та̄м̣ха̄ра сэ̆бака нитйа,",
+      "нита̄ипада сада̄ кара а̄ш́а",
+      "наро̆ттама баḓа дух̣кхӣ,    нита̄и мо̆рэ̆ кара сукхӣ,",
+      "ра̄кха ра̄н̇га̄ чаран̣э̆ра па̄ш́а 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നിതാഇയെര ചരണ സത്യ,    താംഹാര സെബക നിത്യ,",
+      "നിതാഇപദ സദാ കര ആശ",
+      "നരൊത്തമ ബḓഅ ദുഃഖീ,    നിതാഇ മൊരെ കര സുഖീ,",
+      "രാഖ രാംഗാ ചരണെര പാശ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நிதாஇயெர சரண ஸத்ய,    தாம்ʼஹார ஸெப³க நித்ய,",
+      "நிதாஇபத³ ஸதா³ கர ஆஶ",
+      "நரொத்தம ப³ḓஅ து³꞉கீ²,    நிதாஇ மொரெ கர ஸுகீ²,",
+      "ராக² ராங்கா³ சரணெர பாஶ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nitāiyera caraṇa satya,    tā̃hāra sebaka nitya,",
+      "nitāi-pada sadā kara āśa",
+      "narottama baḍa duḥkhī,    nitāi more kara sukhī,",
+      "rākha rāṅgā caraṇera pāśa 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nitāiyera caraṇa satya,    tā̃hāra sebaka nitya,",
+      "nitāi-pada sadā kara āśa",
+      "narottama baḓa duḥkhī,    nitāi more kara sukhī,",
+      "rākha rāṅgā caraṇera pāśa 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": " "
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "bvsm-1",
+   "filename": "N7-bvsm-1.mp3",
+   "artist": "Srila BV Svami Prabhupada"
+  },
+  {
+   "uid": "bvsm-2",
+   "filename": "N7-bvsm-2.mp3",
+   "artist": "Srila BV Svami Prabhupada"
+  },
+  {
+   "uid": "jahn-1",
+   "filename": "N7-jahn-1.mp3",
+   "artist": "Jahnava dasi"
+  },
+  {
+   "uid": "srrb-1",
+   "filename": "N7-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  },
+  {
+   "uid": "vija-1",
+   "filename": "N7-vija-1.mp3",
+   "artist": "vija"
+  }
+ ],
+ "tags": [
+  "Firm Faith in Nityānanda Prabhu",
+  "Śrī Nityānanda Prabhu"
+ ]
+}

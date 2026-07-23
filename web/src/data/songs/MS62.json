@@ -1,0 +1,607 @@
+{
+  "uid": "MS62",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ওরে মন! কি ভয় শমনে করি আর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "ore mana! ki bhaya śamane kari āra"
+    },
+    {
+      "script_code": "Deva",
+      "text": "ओरे मन! कि भय शमने करि आर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "ఓరే మన! కి భయ శమనే కరి ఆర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಓರೇ ಮನ! ಕಿ ಭಯ ಶಮನೇ ಕರಿ ಆರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஓரே மன! கி ப⁴ய ஶமனே கரி ஆர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഓരേ മന! കി ഭയ ശമനേ കരി ആര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ઓરે મન! કિ ભય શમને કરિ આર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଓରେ ମନ! କି ଭୟ ଶମନେ କରି ଆର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "орэ мана! ки бхайа ш́аманэ кари а̄ра"
+    }
+  ],
+  "author_uid": "pdt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল প্রেমানন্দ দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Premānanda dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील प्रेमानन्द दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల ప్రేమానంద దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಪ್ರೇಮಾನಂದ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல ப்ரேமானந்த³ தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല പ്രേമാനന്ദ ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ પ્રેમાનન્દ દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ପ୍ରେମାନନ୍ଦ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла прэма̄нанда да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "ore mana! ki bhaya śamane kari āra",
+        "yadi kṛṣṇapade rati,    ki karibe pitṛ[FLAG_HYPHEN_ALPHA]pati,",
+        "ihā kene nā kara bicāra 1"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऒरॆ मन! कि भय शमनॆ करि आर",
+            "यदि क्ड़्ष्णपदॆ रति,    कि करिबॆ पित्ड़्पति,",
+            "इहा कॆनॆ ना कर बिचार १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ওরে মন! কি ভয় শমনে করি আর",
+            "যদি ক্ড়্ষ্ণপদে রতি,    কি করিবে পিৎড়্পতি,",
+            "ইহা কেনে না কর বিচার ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଓରେ ମନ! କି ଭୟ ଶମନେ କରି ଆର",
+            "ଯଦି କ୍ଡ଼୍ଷ୍ଣପଦେ ରତି,    କି କରିବେ ପିତ୍ଡ଼୍ପତି,",
+            "ଇହା କେନେ ନା କର ବିଚାର ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ઓરે મન! કિ ભય શમને કરિ આર",
+            "યદિ ક્ડ઼્ષ્ણપદે રતિ,    કિ કરિબે પિત્ડ઼્પતિ,",
+            "ઇહા કેને ના કર બિચાર ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ore mana! ki bhaya śamane kari āra",
+            "yadi kṛṣṇapade rati,    ki karibe pitṛ-pati,",
+            "ihā kene nā kara bicāra 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಒರೆ ಮನ! ಕಿ ಭಯ ಶಮನೆ ಕರಿ ಆರ",
+            "ಯದಿ ಕ್‌ಡ಼್ಷ್ಣಪದೆ ರತಿ,    ಕಿ ಕರಿಬೆ ಪಿತ್‌ಡ಼್ಪತಿ,",
+            "ಇಹಾ ಕೆನೆ ನಾ ಕರ ಬಿಚಾರ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఒరె మన! కి భయ శమనె కరి ఆర",
+            "యది క్డ్ష్ణపదె రతి,    కి కరిబె పిత్డ్పతి,",
+            "ఇహా కెనె నా కర బిచార 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "о̆рэ̆ мана! ки бхайа ш́аманэ̆ кари а̄ра",
+            "йади кр̤шн̣ападэ̆ рати,    ки карибэ̆ питр̤пати,",
+            "иха̄ кэ̆нэ̆ на̄ кара бича̄ра 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഒരെ മന! കി ഭയ ശമനെ കരി ആര",
+            "യദി ക്ഡ്ഷ്ണപദെ രതി,    കി കരിബെ പിത്ഡ്പതി,",
+            "ഇഹാ കെനെ നാ കര ബിചാര 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ஒரெ மன! கி ப⁴ய ஶமனெ கரி ஆர",
+            "யதி³ க்ஃட்²ஷ்ணபதெ³ ரதி,    கி கரிபெ³ பித்ஃட்²பதி,",
+            "இஹா கெனெ நா கர பி³சார 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ore mana! ki bhaya śamane kari āra",
+            "yadi kṛṣṇapade rati,    ki karibe pitṛ-pati,",
+            "ihā kene nā kara bicāra 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ore mana! ki bhaya śamane kari āra",
+            "yadi kṛṣṇapade rati,    ki karibe pitṛ-pati,",
+            "ihā kene nā kara bicāra 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "ye pada bharasā kari’,    brahmā sṛṣṭi[FLAG_HYPHEN_ALPHA]adhikārī,",
+        "ye[FLAG_HYPHEN_ALPHA]pada bāñchaye pañcānana",
+        "ye pade gaṅgāra janma,    lakṣmī jāne yā’ra marma,",
+        "aharniśi smare anukṣaṇa 2"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "यॆ पद भरसा करिऽ,    ब्रह्मा स्ड़्ष्टिअधिकारी,",
+            "यॆपद बाञ्छयॆ पञ्चानन",
+            "यॆ पदॆ गङ्गार जन्म,    लक्ष्मी जानॆ याऽर मर्म,",
+            "अहर्निशि स्मरॆ अनुक्षण २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যে পদ ভরসা করিঽ,    ব্রহ্মা স্ড়্ষ্টিঅধিকারী,",
+            "যেপদ বাঞ্ছয়ে পঞ্চানন",
+            "যে পদে গঙ্গার জন্ম,    লক্ষ্মী জানে যাঽর মর্ম,",
+            "অহর্নিশি স্মরে অনুক্ষণ ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯେ ପଦ ଭରସା କରିଽ,    ବ୍ରହ୍ମା ସ୍ଡ଼୍ଷ୍ଟିଅଧିକାରୀ,",
+            "ଯେପଦ ବାଞ୍ଛୟେ ପଞ୍ଚାନନ",
+            "ଯେ ପଦେ ଗଙ୍ଗାର ଜନ୍ମ,    ଲକ୍ଷ୍ମୀ ଜାନେ ଯାଽର ମର୍ମ,",
+            "ଅହର୍ନିଶି ସ୍ମରେ ଅନୁକ୍ଷଣ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યે પદ ભરસા કરિઽ,    બ્રહ્મા સ્ડ઼્ષ્ટિઅધિકારી,",
+            "યેપદ બાઞ્છયે પઞ્ચાનન",
+            "યે પદે ગઙ્ગાર જન્મ,    લક્ષ્મી જાને યાઽર મર્મ,",
+            "અહર્નિશિ સ્મરે અનુક્ષણ ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "ye pada bharasā kari’,    brahmā sṛṣṭi-adhikārī,",
+            "ye-pada bāñchaye pañcānana",
+            "ye pade gaṅgāra janma,    lakṣmī jāne yā’ra marma,",
+            "aharniśi smare anukṣaṇa 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯೆ ಪದ ಭರಸಾ ಕರಿಽ,    ಬ್ರಹ್ಮಾ ಸ್‌ಡ಼್ಷ್ಟಿಅಧಿಕಾರೀ,",
+            "ಯೆಪದ ಬಾಂಛಯೆ ಪಂಚಾನನ",
+            "ಯೆ ಪದೆ ಗಂಗಾರ ಜನ್ಮ,    ಲಕ್ಷ್ಮೀ ಜಾನೆ ಯಾಽರ ಮರ್ಮ,",
+            "ಅಹರ್ನಿಶಿ ಸ್ಮರೆ ಅನುಕ್ಷಣ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యె పద భరసా కరిఽ,    బ్రహ్మా స్డ్ష్టిఅధికారీ,",
+            "యెపద బాంఛయె పంచానన",
+            "యె పదె గంగార జన్మ,    లక్ష్మీ జానె యాఽర మర్మ,",
+            "అహర్నిశి స్మరె అనుక్షణ 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йэ̆ пада бхараса̄ кари',    брахма̄ ср̤шт̣иадхика̄рӣ,",
+            "йэ̆пада ба̄н̃чхайэ̆ пан̃ча̄нана",
+            "йэ̆ падэ̆ ган̇га̄ра джанма,    лакшмӣ джа̄нэ̆ йа̄'ра марма,",
+            "ахарниш́и смарэ̆ анукшан̣а 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യെ പദ ഭരസാ കരിഽ,    ബ്രഹ്മാ സ്ഡ്ഷ്ടിഅധികാരീ,",
+            "യെപദ ബാഞ്ഛയെ പഞ്ചാനന",
+            "യെ പദെ ഗംഗാര ജന്മ,    ലക്ഷ്മീ ജാനെ യാഽര മർമ,",
+            "അഹർനിശി സ്മരെ അനുക്ഷണ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யெ பத³ ப⁴ரஸா கரி(அ),    ப்³ரஹ்மா ஸ்ஃட்²ஷ்டிஅதி⁴காரீ,",
+            "யெபத³ பா³ஞ்ச²யெ பஞ்சானன",
+            "யெ பதெ³ க³ங்கா³ர ஜன்ம,    லக்ஷ்மீ ஜானெ யா(அ)ர மர்ம,",
+            "அஹர்நிஶி ஸ்மரெ அனுக்ஷண 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "ye pada bharasā kari’,    brahmā sṛṣṭi-adhikārī,",
+            "ye-pada bāñchaye pañcānana",
+            "ye pade gaṅgāra janma,    lakṣmī jāne yā’ra marma,",
+            "aharniśi smare anukṣaṇa 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "ye pada bharasā kari’,    brahmā sṛṣṭi-adhikārī,",
+            "ye-pada bāñchaye pañcānana",
+            "ye pade gaṅgāra janma,    lakṣmī jāne yā’ra marma,",
+            "aharniśi smare anukṣaṇa 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "dhruba[FLAG_HYPHEN_ALPHA]ādi ye prasāde,    yogīndra dharaye hṛde,",
+        "munigaṇa ye[FLAG_HYPHEN_ALPHA]pada dheyāya",
+        "draupadī prahlāda kari,    ye[FLAG_HYPHEN_ALPHA]pada hṛdaye smari,",
+        "dekha kata saṅkaṭa eḓāya 3"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ध्रुबआदि यॆ प्रसादॆ,    यॊगीन्द्र धरयॆ ह्ड़्दॆ,",
+            "मुनिगण यॆपद धॆयाय",
+            "द्रौपदी प्रह्लाद करि,    यॆपद ह्ड़्दयॆ स्मरि,",
+            "दॆख कत सङ्कट ऎḓआय ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ধ্রুবআদি যে প্রসাদে,    যোগীন্দ্র ধরয়ে হ্ড়্দে,",
+            "মুনিগণ যেপদ ধেয়ায়",
+            "দ্রৌপদী প্রহ্লাদ করি,    যেপদ হ্ড়্দয়ে স্মরি,",
+            "দেখ কত সঙ্কট এḓআয় ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଧ୍ରୁବଆଦି ଯେ ପ୍ରସାଦେ,    ଯୋଗୀନ୍ଦ୍ର ଧରୟେ ହ୍ଡ଼୍ଦେ,",
+            "ମୁନିଗଣ ଯେପଦ ଧେୟାୟ",
+            "ଦ୍ରୌପଦୀ ପ୍ରହ୍ଲାଦ କରି,    ଯେପଦ ହ୍ଡ଼୍ଦୟେ ସ୍ମରି,",
+            "ଦେଖ କତ ସଙ୍କଟ ଏḓଆୟ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ધ્રુબઆદિ યે પ્રસાદે,    યોગીન્દ્ર ધરયે હ્ડ઼્દે,",
+            "મુનિગણ યેપદ ધેયાય",
+            "દ્રૌપદી પ્રહ્લાદ કરિ,    યેપદ હ્ડ઼્દયે સ્મરિ,",
+            "દેખ કત સઙ્કટ એḓઆય ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "dhruba-ādi ye prasāde,    yogīndra dharaye hṛde,",
+            "munigaṇa ye-pada dheyāya",
+            "draupadī prahlāda kari,    ye-pada hṛdaye smari,",
+            "dekha kata saṅkaṭa eḓāya 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಧ್ರುಬಆದಿ ಯೆ ಪ್ರಸಾದೆ,    ಯೊಗೀಂದ್ರ ಧರಯೆ ಹ್‌ಡ಼್ದೆ,",
+            "ಮುನಿಗಣ ಯೆಪದ ಧೆಯಾಯ",
+            "ದ್ರೌಪದೀ ಪ್ರಹ್ಲಾದ ಕರಿ,    ಯೆಪದ ಹ್‌ಡ಼್ದಯೆ ಸ್ಮರಿ,",
+            "ದೆಖ ಕತ ಸಂಕಟ ಎḓಆಯ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ధ్రుబఆది యె ప్రసాదె,    యొగీంద్ర ధరయె హ్డ్దె,",
+            "మునిగణ యెపద ధెయాయ",
+            "ద్రౌపదీ ప్రహ్లాద కరి,    యెపద హ్డ్దయె స్మరి,",
+            "దెఖ కత సంకట ఎḓఆయ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "дхрубаа̄ди йэ̆ праса̄дэ̆,    йо̆гӣндра дхарайэ̆ хр̤дэ̆,",
+            "муниган̣а йэ̆пада дхэ̆йа̄йа",
+            "драупадӣ прахла̄да кари,    йэ̆пада хр̤дайэ̆ смари,",
+            "дэ̆кха ката сан̇кат̣а э̆ḓа̄йа 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ധ്രുബആദി യെ പ്രസാദെ,    യൊഗീന്ദ്ര ധരയെ ഹ്ഡ്ദെ,",
+            "മുനിഗണ യെപദ ധെയായ",
+            "ദ്രൗപദീ പ്രഹ്ലാദ കരി,    യെപദ ഹ്ഡ്ദയെ സ്മരി,",
+            "ദെഖ കത സങ്കട എḓആയ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "த்⁴ருப³ஆதி³ யெ ப்ரஸாதெ³,    யொகீ³ந்த்³ர த⁴ரயெ ஹ்ஃட்²தெ³,",
+            "முனிக³ண யெபத³ தெ⁴யாய",
+            "த்³ரௌபதீ³ ப்ரஹ்லாத³ கரி,    யெபத³ ஹ்ஃட்²த³யெ ஸ்மரி,",
+            "தெ³க² கத ஸங்கட எḓஆய 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "dhruba-ādi ye prasāde,    yogīndra dharaye hṛde,",
+            "munigaṇa ye-pada dheyāya",
+            "draupadī prahlāda kari,    ye-pada hṛdaye smari,",
+            "dekha kata saṅkaṭa eḍāya 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "dhruba-ādi ye prasāde,    yogīndra dharaye hṛde,",
+            "munigaṇa ye-pada dheyāya",
+            "draupadī prahlāda kari,    ye-pada hṛdaye smari,",
+            "dekha kata saṅkaṭa eḓāya 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "yadi kara nija kāja,    mitra habe dharmarāja,",
+        "bṛthā cinta asāra[FLAG_HYPHEN_ALPHA]saṁsāra",
+        "kahe dīna premānanda,    cinta kṛṣṇa[FLAG_HYPHEN_ALPHA]padadbandba,",
+        "tribhubane śatru nahe āra 4"
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "यदि कर निज काज,    मित्र हबॆ धर्मराज,",
+            "ब्ड़्था चिन्त असारसंसार",
+            "कहॆ दीन प्रॆमानन्द,    चिन्त क्ड़्ष्णपदद्बन्द्ब,",
+            "त्रिभुबनॆ शत्रु नहॆ आर ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "যদি কর নিজ কাজ,    মিত্র হবে ধর্মরাজ,",
+            "ব্ড়্থা চিন্ত অসারসংসার",
+            "কহে দীন প্রেমানন্দ,    চিন্ত ক্ড়্ষ্ণপদদ্বন্দ্ব,",
+            "ত্রিভুবনে শত্রু নহে আর ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଯଦି କର ନିଜ କାଜ,    ମିତ୍ର ହବେ ଧର୍ମରାଜ,",
+            "ବ୍ଡ଼୍ଥା ଚିନ୍ତ ଅସାରସଂସାର",
+            "କହେ ଦୀନ ପ୍ରେମାନନ୍ଦ,    ଚିନ୍ତ କ୍ଡ଼୍ଷ୍ଣପଦଦ୍ବନ୍ଦ୍ବ,",
+            "ତ୍ରିଭୁବନେ ଶତ୍ରୁ ନହେ ଆର ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "યદિ કર નિજ કાજ,    મિત્ર હબે ધર્મરાજ,",
+            "બ્ડ઼્થા ચિન્ત અસારસંસાર",
+            "કહે દીન પ્રેમાનન્દ,    ચિન્ત ક્ડ઼્ષ્ણપદદ્બન્દ્બ,",
+            "ત્રિભુબને શત્રુ નહે આર ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "yadi kara nija kāja,    mitra habe dharmarāja,",
+            "bṛthā cinta asāra-saṁsāra",
+            "kahe dīna premānanda,    cinta kṛṣṇa-padadbandba,",
+            "tribhubane śatru nahe āra 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಯದಿ ಕರ ನಿಜ ಕಾಜ,    ಮಿತ್ರ ಹಬೆ ಧರ್ಮರಾಜ,",
+            "ಬ್‌ಡ಼್ಥಾ ಚಿಂತ ಅಸಾರಸಂಸಾರ",
+            "ಕಹೆ ದೀನ ಪ್ರೆಮಾನಂದ,    ಚಿಂತ ಕ್‌ಡ಼್ಷ್ಣಪದದ್ಬಂದ್ಬ,",
+            "ತ್ರಿಭುಬನೆ ಶತ್ರು ನಹೆ ಆರ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "యది కర నిజ కాజ,    మిత్ర హబె ధర్మరాజ,",
+            "బ్డ్థా చింత అసారసంసార",
+            "కహె దీన ప్రెమానంద,    చింత క్డ్ష్ణపదద్బంద్బ,",
+            "త్రిభుబనె శత్రు నహె ఆర 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "йади кара ниджа ка̄джа,    митра хабэ̆ дхармара̄джа,",
+            "бр̤тха̄ чинта аса̄расам̣са̄ра",
+            "кахэ̆ дӣна прэ̆ма̄нанда,    чинта кр̤шн̣апададбандба,",
+            "трибхубанэ̆ ш́атру нахэ̆ а̄ра 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "യദി കര നിജ കാജ,    മിത്ര ഹബെ ധർമരാജ,",
+            "ബ്ഡ്ഥാ ചിന്ത അസാരസംസാര",
+            "കഹെ ദീന പ്രെമാനന്ദ,    ചിന്ത ക്ഡ്ഷ്ണപദദ്ബന്ദ്ബ,",
+            "ത്രിഭുബനെ ശത്രു നഹെ ആര 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "யதி³ கர நிஜ காஜ,    மித்ர ஹபெ³ த⁴ர்மராஜ,",
+            "ப்³ஃட்²தா² சிந்த அஸாரஸம்ʼஸார",
+            "கஹெ தீ³ன ப்ரெமானந்த³,    சிந்த க்ஃட்²ஷ்ணபத³த்³ப³ந்த்³ப³,",
+            "த்ரிபு⁴ப³னெ ஶத்ரு நஹெ ஆர 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "yadi kara nija kāja,    mitra habe dharmarāja,",
+            "bṛthā cinta asāra-saṁsāra",
+            "kahe dīna premānanda,    cinta kṛṣṇa-padadbandba,",
+            "tribhubane śatru nahe āra 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "yadi kara nija kāja,    mitra habe dharmarāja,",
+            "bṛthā cinta asāra-saṁsāra",
+            "kahe dīna premānanda,    cinta kṛṣṇa-padadbandba,",
+            "tribhubane śatru nahe āra 4"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": false,
+  "audio_files": []
+}

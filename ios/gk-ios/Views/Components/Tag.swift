@@ -14,7 +14,7 @@ enum TagVariant {
         case .highlight:
             return Color.highlight.opacity(0.8)
         case .primary:
-            return Color.primary.opacity(0.2)
+            return Color.primaryText.opacity(0.2)
         case .black:
             return Color.black.opacity(0.3)
         case .custom(let background, _):
@@ -26,10 +26,15 @@ enum TagVariant {
         switch self {
         case .default:
             return Color.neutral
-        case .highlight, .black:
+        case .highlight:
+            // Text sitting on the `highlight` fill: `onHighlight` is near-black in Shyam (accent is
+            // light blue there) and white in Gaura, per theme.md's on-accent contrast rule — never a
+            // hardcoded white/black on an accent surface.
+            return Color("onHighlight")
+        case .black:
             return Color.white
         case .primary:
-            return Color.primary
+            return Color.primaryText
         case .custom(_, let text):
             return text
         }

@@ -1,0 +1,798 @@
+{
+ "uid": "AS3",
+ "language_of_origin": "asa",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "সবে আনন্দে দিয়া জয়ধ্বনি;"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "sabe ānande diyā jayadhbani;"
+  }
+ ],
+ "author_uid": "?",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "অজানা লেখক"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Unknown Author"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "sabe ānande diyā jayadhbani;",
+    "abatāra bhailā āhi gaura guṇamaṇi",
+    "gaura guṇamaṇi āmāra nitāi guṇamaṇi;",
+    "śuddha bhakatara saṅga, dhari kṛṣṇa parasaṅga",
+    "kari mahāraṅge mātā dibasa rajanī 1"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सबॆ आनन्दॆ दिया जयध्बनि;",
+      "अबतार भैला आहि गौर गुणमणि",
+      "गौर गुणमणि आमार निताइ गुणमणि;",
+      "शुद्ध भकतर सङ्ग, धरि क्ड़्ष्ण परसङ्ग",
+      "करि महारङ्गॆ माता दिबस रजनी १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সবে আনন্দে দিয়া জয়ধ্বনি;",
+      "অবতার ভৈলা আহি গৌর গুণমণি",
+      "গৌর গুণমণি আমার নিতাই গুণমণি;",
+      "শুদ্ধ ভকতর সঙ্গ, ধরি ক্ড়্ষ্ণ পরসঙ্গ",
+      "করি মহারঙ্গে মাতা দিবস রজনী ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସବେ ଆନନ୍ଦେ ଦିୟା ଜୟଧ୍ବନି;",
+      "ଅବତାର ଭୈଲା ଆହି ଗୌର ଗୁଣମଣି",
+      "ଗୌର ଗୁଣମଣି ଆମାର ନିତାଇ ଗୁଣମଣି;",
+      "ଶୁଦ୍ଧ ଭକତର ସଙ୍ଗ, ଧରି କ୍ଡ଼୍ଷ୍ଣ ପରସଙ୍ଗ",
+      "କରି ମହାରଙ୍ଗେ ମାତା ଦିବସ ରଜନୀ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સબે આનન્દે દિયા જયધ્બનિ;",
+      "અબતાર ભૈલા આહિ ગૌર ગુણમણિ",
+      "ગૌર ગુણમણિ આમાર નિતાઇ ગુણમણિ;",
+      "શુદ્ધ ભકતર સઙ્ગ, ધરિ ક્ડ઼્ષ્ણ પરસઙ્ગ",
+      "કરિ મહારઙ્ગે માતા દિબસ રજની ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sabe ānande diyā jayadhbani;",
+      "abatāra bhailā āhi gaura guṇamaṇi",
+      "gaura guṇamaṇi āmāra nitāi guṇamaṇi;",
+      "śuddha bhakatara saṅga, dhari kṛṣṇa parasaṅga",
+      "kari mahāraṅge mātā dibasa rajanī 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸಬೆ ಆನಂದೆ ದಿಯಾ ಜಯಧ್ಬನಿ;",
+      "ಅಬತಾರ ಭೈಲಾ ಆಹಿ ಗೌರ ಗುಣಮಣಿ",
+      "ಗೌರ ಗುಣಮಣಿ ಆಮಾರ ನಿತಾಇ ಗುಣಮಣಿ;",
+      "ಶುದ್ಧ ಭಕತರ ಸಂಗ, ಧರಿ ಕ್‌ಡ಼್ಷ್ಣ ಪರಸಂಗ",
+      "ಕರಿ ಮಹಾರಂಗೆ ಮಾತಾ ದಿಬಸ ರಜನೀ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సబె ఆనందె దియా జయధ్బని;",
+      "అబతార భైలా ఆహి గౌర గుణమణి",
+      "గౌర గుణమణి ఆమార నితాఇ గుణమణి;",
+      "శుద్ధ భకతర సంగ, ధరి క్డ్ష్ణ పరసంగ",
+      "కరి మహారంగె మాతా దిబస రజనీ 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сабэ̆ а̄нандэ̆ дийа̄ джайадхбани;",
+      "абата̄ра бхаила̄ а̄хи гаура гун̣аман̣и",
+      "гаура гун̣аман̣и а̄ма̄ра нита̄и гун̣аман̣и;",
+      "ш́уддха бхакатара сан̇га, дхари кр̤шн̣а парасан̇га",
+      "кари маха̄ран̇гэ̆ ма̄та̄ дибаса раджанӣ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സബെ ആനന്ദെ ദിയാ ജയധ്ബനി;",
+      "അബതാര ഭൈലാ ആഹി ഗൗര ഗുണമണി",
+      "ഗൗര ഗുണമണി ആമാര നിതാഇ ഗുണമണി;",
+      "ശുദ്ധ ഭകതര സംഗ, ധരി ക്ഡ്ഷ്ണ പരസംഗ",
+      "കരി മഹാരംഗെ മാതാ ദിബസ രജനീ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸபெ³ ஆனந்தெ³ தி³யா ஜயத்⁴ப³னி;",
+      "அப³தார பை⁴லா ஆஹி கௌ³ர கு³ணமணி",
+      "கௌ³ர கு³ணமணி ஆமார நிதாஇ கு³ணமணி;",
+      "ஶுத்³த⁴ ப⁴கதர ஸங்க³, த⁴ரி க்ஃட்²ஷ்ண பரஸங்க³",
+      "கரி மஹாரங்கெ³ மாதா தி³ப³ஸ ரஜனீ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sabe ānande diyā jayadhbani;",
+      "abatāra bhailā āhi gaura guṇamaṇi",
+      "gaura guṇamaṇi āmāra nitāi guṇamaṇi;",
+      "śuddha bhakatara saṅga, dhari kṛṣṇa parasaṅga",
+      "kari mahāraṅge mātā dibasa rajanī 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sabe ānande diyā jayadhbani;",
+      "abatāra bhailā āhi gaura guṇamaṇi",
+      "gaura guṇamaṇi āmāra nitāi guṇamaṇi;",
+      "śuddha bhakatara saṅga, dhari kṛṣṇa parasaṅga",
+      "kari mahāraṅge mātā dibasa rajanī 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "yāga, yajña, brata, dāna ādi yata śubhakāma",
+    "kalita biphala—nohe nāmara salani 2"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "याग, यज्ञ, ब्रत, दान आदि यत शुभकाम",
+      "कलित बिफल—नॊहॆ नामर सलनि २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "যাগ, যজ্ঞ, ব্রত, দান আদি যত শুভকাম",
+      "কলিত বিফল—নোহে নামর সলনি ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଯାଗ, ଯଜ୍ଞ, ବ୍ରତ, ଦାନ ଆଦି ଯତ ଶୁଭକାମ",
+      "କଲିତ ବିଫଲ—ନୋହେ ନାମର ସଲନି ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "યાગ, યજ્ઞ, બ્રત, દાન આદિ યત શુભકામ",
+      "કલિત બિફલ—નોહે નામર સલનિ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "yāga, yajña, brata, dāna ādi yata śubhakāma",
+      "kalita biphala—nohe nāmara salani 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಯಾಗ, ಯಜ್ಞ, ಬ್ರತ, ದಾನ ಆದಿ ಯತ ಶುಭಕಾಮ",
+      "ಕಲಿತ ಬಿಫಲ—ನೊಹೆ ನಾಮರ ಸಲನಿ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "యాగ, యజ్ఞ, బ్రత, దాన ఆది యత శుభకామ",
+      "కలిత బిఫల—నొహె నామర సలని 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "йа̄га, йаджн̃а, брата, да̄на а̄ди йата ш́убхака̄ма",
+      "калита бипхала—но̆хэ̆ на̄мара салани 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "യാഗ, യജ്ഞ, ബ്രത, ദാന ആദി യത ശുഭകാമ",
+      "കലിത ബിഫല—നൊഹെ നാമര സലനി 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "யாக³, யஜ்ஞ, ப்³ரத, தா³ன ஆதி³ யத ஶுப⁴காம",
+      "கலித பி³ப²ல—நொஹெ நாமர ஸலனி 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "yāga, yajña, brata, dāna ādi yata śubhakāma",
+      "kalita biphala—nohe nāmara salani 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "yāga, yajña, brata, dāna ādi yata śubhakāma",
+      "kalita biphala—nohe nāmara salani 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "nāmaka eriyā yiṭo dharma kare abirata",
+    "kulaṭāra dare siṭau ācari āpani 3"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "नामक ऎरिया यिटॊ धर्म करॆ अबिरत",
+      "कुलटार दरॆ सिटौ आचरि आपनि ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নামক এরিয়া যিটো ধর্ম করে অবিরত",
+      "কুলটার দরে সিটৌ আচরি আপনি ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନାମକ ଏରିୟା ଯିଟୋ ଧର୍ମ କରେ ଅବିରତ",
+      "କୁଲଟାର ଦରେ ସିଟୌ ଆଚରି ଆପନି ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નામક એરિયા યિટો ધર્મ કરે અબિરત",
+      "કુલટાર દરે સિટૌ આચરિ આપનિ ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "nāmaka eriyā yiṭo dharma kare abirata",
+      "kulaṭāra dare siṭau ācari āpani 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಾಮಕ ಎರಿಯಾ ಯಿಟೊ ಧರ್ಮ ಕರೆ ಅಬಿರತ",
+      "ಕುಲಟಾರ ದರೆ ಸಿಟೌ ಆಚರಿ ಆಪನಿ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నామక ఎరియా యిటొ ధర్మ కరె అబిరత",
+      "కులటార దరె సిటౌ ఆచరి ఆపని 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "на̄мака э̆рийа̄ йит̣о̆ дхарма карэ̆ абирата",
+      "кулат̣а̄ра дарэ̆ сит̣ау а̄чари а̄пани 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നാമക എരിയാ യിടൊ ധർമ കരെ അബിരത",
+      "കുലടാര ദരെ സിടൗ ആചരി ആപനി 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நாமக எரியா யிடொ த⁴ர்ம கரெ அபி³ரத",
+      "குலடார த³ரெ ஸிடௌ ஆசரி ஆபனி 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "nāmaka eriyā yiṭo dharma kare abirata",
+      "kulaṭāra dare siṭau ācari āpani 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "nāmaka eriyā yiṭo dharma kare abirata",
+      "kulaṭāra dare siṭau ācari āpani 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "aparādha eri sabe loyā nāma anurāge",
+    "goyā nāma śuddhabhābe gurumukhe śuni 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अपराध ऎरि सबॆ लॊया नाम अनुरागॆ",
+      "गॊया नाम शुद्धभाबॆ गुरुमुखॆ शुनि ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অপরাধ এরি সবে লোয়া নাম অনুরাগে",
+      "গোয়া নাম শুদ্ধভাবে গুরুমুখে শুনি ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅପରାଧ ଏରି ସବେ ଲୋୟା ନାମ ଅନୁରାଗେ",
+      "ଗୋୟା ନାମ ଶୁଦ୍ଧଭାବେ ଗୁରୁମୁଖେ ଶୁନି ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અપરાધ એરિ સબે લોયા નામ અનુરાગે",
+      "ગોયા નામ શુદ્ધભાબે ગુરુમુખે શુનિ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "aparādha eri sabe loyā nāma anurāge",
+      "goyā nāma śuddhabhābe gurumukhe śuni 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅಪರಾಧ ಎರಿ ಸಬೆ ಲೊಯಾ ನಾಮ ಅನುರಾಗೆ",
+      "ಗೊಯಾ ನಾಮ ಶುದ್ಧಭಾಬೆ ಗುರುಮುಖೆ ಶುನಿ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అపరాధ ఎరి సబె లొయా నామ అనురాగె",
+      "గొయా నామ శుద్ధభాబె గురుముఖె శుని 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "апара̄дха э̆ри сабэ̆ ло̆йа̄ на̄ма анура̄гэ̆",
+      "го̆йа̄ на̄ма ш́уддхабха̄бэ̆ гурумукхэ̆ ш́уни 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അപരാധ എരി സബെ ലൊയാ നാമ അനുരാഗെ",
+      "ഗൊയാ നാമ ശുദ്ധഭാബെ ഗുരുമുഖെ ശുനി 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அபராத⁴ எரி ஸபெ³ லொயா நாம அனுராகெ³",
+      "கொ³யா நாம ஶுத்³த⁴பா⁴பெ³ கு³ருமுகெ² ஶுனி 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "aparādha eri sabe loyā nāma anurāge",
+      "goyā nāma śuddhabhābe gurumukhe śuni 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "aparādha eri sabe loyā nāma anurāge",
+      "goyā nāma śuddhabhābe gurumukhe śuni 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "tāraka[FLAG_HYPHEN_ALPHA]brahma harināma, yugadharma anupama",
+    "bhaja abirāma śāstrasāra jāni 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तारकब्रह्म हरिनाम, युगधर्म अनुपम",
+      "भज अबिराम शास्त्रसार जानि ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তারকব্রহ্ম হরিনাম, যুগধর্ম অনুপম",
+      "ভজ অবিরাম শাস্ত্রসার জানি ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତାରକବ୍ରହ୍ମ ହରିନାମ, ଯୁଗଧର୍ମ ଅନୁପମ",
+      "ଭଜ ଅବିରାମ ଶାସ୍ତ୍ରସାର ଜାନି ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તારકબ્રહ્મ હરિનામ, યુગધર્મ અનુપમ",
+      "ભજ અબિરામ શાસ્ત્રસાર જાનિ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tāraka-brahma harināma, yugadharma anupama",
+      "bhaja abirāma śāstrasāra jāni 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತಾರಕಬ್ರಹ್ಮ ಹರಿನಾಮ, ಯುಗಧರ್ಮ ಅನುಪಮ",
+      "ಭಜ ಅಬಿರಾಮ ಶಾಸ್ತ್ರಸಾರ ಜಾನಿ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తారకబ్రహ్మ హరినామ, యుగధర్మ అనుపమ",
+      "భజ అబిరామ శాస్త్రసార జాని 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "та̄ракабрахма харина̄ма, йугадхарма анупама",
+      "бхаджа абира̄ма ш́а̄страса̄ра джа̄ни 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "താരകബ്രഹ്മ ഹരിനാമ, യുഗധർമ അനുപമ",
+      "ഭജ അബിരാമ ശാസ്ത്രസാര ജാനി 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தாரகப்³ரஹ்ம ஹரிநாம, யுக³த⁴ர்ம அனுபம",
+      "ப⁴ஜ அபி³ராம ஶாஸ்த்ரஸார ஜானி 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tāraka-brahma harināma, yugadharma anupama",
+      "bhaja abirāma śāstrasāra jāni 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tāraka-brahma harināma, yugadharma anupama",
+      "bhaja abirāma śāstrasāra jāni 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare",
+    "hare rāma hare rāma rāma rāma hare hare 6"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरॆ क्ड़्ष्ण हरॆ क्ड़्ष्ण क्ड़्ष्ण क्ड़्ष्ण हरॆ हरॆ",
+      "हरॆ राम हरॆ राम राम राम हरॆ हरॆ ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরে ক্ড়্ষ্ণ হরে ক্ড়্ষ্ণ ক্ড়্ষ্ণ ক্ড়্ষ্ণ হরে হরে",
+      "হরে রাম হরে রাম রাম রাম হরে হরে ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରେ କ୍ଡ଼୍ଷ୍ଣ ହରେ କ୍ଡ଼୍ଷ୍ଣ କ୍ଡ଼୍ଷ୍ଣ କ୍ଡ଼୍ଷ୍ଣ ହରେ ହରେ",
+      "ହରେ ରାମ ହରେ ରାମ ରାମ ରାମ ହରେ ହରେ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરે ક્ડ઼્ષ્ણ હરે ક્ડ઼્ષ્ણ ક્ડ઼્ષ્ણ ક્ડ઼્ષ્ણ હરે હરે",
+      "હરે રામ હરે રામ રામ રામ હરે હરે ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare",
+      "hare rāma hare rāma rāma rāma hare hare 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರೆ ಕ್‌ಡ಼್ಷ್ಣ ಹರೆ ಕ್‌ಡ಼್ಷ್ಣ ಕ್‌ಡ಼್ಷ್ಣ ಕ್‌ಡ಼್ಷ್ಣ ಹರೆ ಹರೆ",
+      "ಹರೆ ರಾಮ ಹರೆ ರಾಮ ರಾಮ ರಾಮ ಹರೆ ಹರೆ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరె క్డ్ష్ణ హరె క్డ్ష్ణ క్డ్ష్ణ క్డ్ష్ణ హరె హరె",
+      "హరె రామ హరె రామ రామ రామ హరె హరె 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "харэ̆ кр̤шн̣а харэ̆ кр̤шн̣а кр̤шн̣а кр̤шн̣а харэ̆ харэ̆",
+      "харэ̆ ра̄ма харэ̆ ра̄ма ра̄ма ра̄ма харэ̆ харэ̆ 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരെ ക്ഡ്ഷ്ണ ഹരെ ക്ഡ്ഷ്ണ ക്ഡ്ഷ്ണ ക്ഡ്ഷ്ണ ഹരെ ഹരെ",
+      "ഹരെ രാമ ഹരെ രാമ രാമ രാമ ഹരെ ഹരെ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரெ க்ஃட்²ஷ்ண ஹரெ க்ஃட்²ஷ்ண க்ஃட்²ஷ்ண க்ஃட்²ஷ்ண ஹரெ ஹரெ",
+      "ஹரெ ராம ஹரெ ராம ராம ராம ஹரெ ஹரெ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare",
+      "hare rāma hare rāma rāma rāma hare hare 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hare kṛṣṇa hare kṛṣṇa kṛṣṇa kṛṣṇa hare hare",
+      "hare rāma hare rāma rāma rāma hare hare 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "abirāma rāmanāma karā nāmara dhbani 7"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "अबिराम रामनाम करा नामर ध्बनि ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "অবিরাম রামনাম করা নামর ধ্বনি ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଅବିରାମ ରାମନାମ କରା ନାମର ଧ୍ବନି ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "અબિરામ રામનામ કરા નામર ધ્બનિ ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "abirāma rāmanāma karā nāmara dhbani 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಅಬಿರಾಮ ರಾಮನಾಮ ಕರಾ ನಾಮರ ಧ್ಬನಿ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "అబిరామ రామనామ కరా నామర ధ్బని 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "абира̄ма ра̄мана̄ма кара̄ на̄мара дхбани 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "അബിരാമ രാമനാമ കരാ നാമര ധ്ബനി 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "அபி³ராம ராமநாம கரா நாமர த்⁴ப³னி 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "abirāma rāmanāma karā nāmara dhbani 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "abirāma rāmanāma karā nāmara dhbani 7"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "(৩)"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": []
+}

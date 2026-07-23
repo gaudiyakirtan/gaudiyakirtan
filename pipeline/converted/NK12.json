@@ -1,0 +1,364 @@
+{
+ "uid": "NK12",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "কলিযুগপাবন বিশ্বম্ভর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "kaliyugapābana biśbambhara"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "kaliyugapābana biśbambhara",
+    "gauḓacittagagana[FLAG_HYPHEN_ALPHA]śaśadhara",
+    "kīrtana[FLAG_HYPHEN_ALPHA]bidhātā,    parapremadātā,",
+    "śacīsuta puraṭasundara"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Śrī Viśvambhara is the savior of this age of Kali, the full moon in the sky of the hearts of the inhabitants of Gauḓa-deśa, and the inaugurator of kīrtana. He bestows the highest kind of prema, He is the son of Mother Śacī, and He has a beautiful golden complexion."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "kaliyugapābana",
+       "the age of Kali + the savior"
+      ],
+      [
+       "biśbambhara",
+       "Śrī Viśvambhara"
+      ],
+      [
+       "gauḓacitta",
+       "the inhabitants of Gauḓa-deśa + hearts"
+      ],
+      [
+       "gagana",
+       "sky"
+      ],
+      [
+       "śaśadhara",
+       "moon"
+      ],
+      [
+       "kīrtana",
+       "kīrtana"
+      ],
+      [
+       "bidhātā",
+       "director, controller"
+      ],
+      [
+       "parapremadātā",
+       "supreme, chief, best, absolute / to others + love + the giver"
+      ],
+      [
+       "śacīsuta",
+       "the son of Mother Śacī"
+      ],
+      [
+       "puraṭasundara",
+       "golden + beauty"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "कलियुगपाबन",
+       "the age of Kali + the savior"
+      ],
+      [
+       "बिश्बम्भर",
+       "Śrī Viśvambhara"
+      ],
+      [
+       "गौḓअचित्त",
+       "the inhabitants of Gauḓa-deśa + hearts"
+      ],
+      [
+       "गगन",
+       "sky"
+      ],
+      [
+       "शशधर",
+       "moon"
+      ],
+      [
+       "कीर्तन",
+       "kīrtana"
+      ],
+      [
+       "बिधाता",
+       "director, controller"
+      ],
+      [
+       "परप्रॆमदाता",
+       "supreme, chief, best, absolute / to others + love + the giver"
+      ],
+      [
+       "शचीसुत",
+       "the son of Mother Śacī"
+      ],
+      [
+       "पुरटसुन्दर",
+       "golden + beauty"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "কলিয়ুগপাবন",
+       "the age of Kali + the savior"
+      ],
+      [
+       "বিশ্বম্ভর",
+       "Śrī Viśvambhara"
+      ],
+      [
+       "গৌḓঅচিত্ত",
+       "the inhabitants of Gauḓa-deśa + hearts"
+      ],
+      [
+       "গগন",
+       "sky"
+      ],
+      [
+       "শশধর",
+       "moon"
+      ],
+      [
+       "কীর্তন",
+       "kīrtana"
+      ],
+      [
+       "বিধাতা",
+       "director, controller"
+      ],
+      [
+       "পরপ্রেমদাতা",
+       "supreme, chief, best, absolute / to others + love + the giver"
+      ],
+      [
+       "শচীসুত",
+       "the son of Mother Śacī"
+      ],
+      [
+       "পুরটসুন্দর",
+       "golden + beauty"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "કલિયુગપાબન",
+       "the age of Kali + the savior"
+      ],
+      [
+       "બિશ્બમ્ભર",
+       "Śrī Viśvambhara"
+      ],
+      [
+       "ગૌḓઅચિત્ત",
+       "the inhabitants of Gauḓa-deśa + hearts"
+      ],
+      [
+       "ગગન",
+       "sky"
+      ],
+      [
+       "શશધર",
+       "moon"
+      ],
+      [
+       "કીર્તન",
+       "kīrtana"
+      ],
+      [
+       "બિધાતા",
+       "director, controller"
+      ],
+      [
+       "પરપ્રેમદાતા",
+       "supreme, chief, best, absolute / to others + love + the giver"
+      ],
+      [
+       "શચીસુત",
+       "the son of Mother Śacī"
+      ],
+      [
+       "પુરટસુન્દર",
+       "golden + beauty"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कलियुगपाबन बिश्बम्भर",
+      "गौḓअचित्तगगनशशधर",
+      "कीर्तनबिधाता,    परप्रॆमदाता,",
+      "शचीसुत पुरटसुन्दर"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কলিয়ুগপাবন বিশ্বম্ভর",
+      "গৌḓঅচিত্তগগনশশধর",
+      "কীর্তনবিধাতা,    পরপ্রেমদাতা,",
+      "শচীসুত পুরটসুন্দর"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କଲିୟୁଗପାବନ ବିଶ୍ବମ୍ଭର",
+      "ଗୌḓଅଚିତ୍ତଗଗନଶଶଧର",
+      "କୀର୍ତନବିଧାତା,    ପରପ୍ରେମଦାତା,",
+      "ଶଚୀସୁତ ପୁରଟସୁନ୍ଦର"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કલિયુગપાબન બિશ્બમ્ભર",
+      "ગૌḓઅચિત્તગગનશશધર",
+      "કીર્તનબિધાતા,    પરપ્રેમદાતા,",
+      "શચીસુત પુરટસુન્દર"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kaliyugapābana biśbambhara",
+      "gauḓacittagagana-śaśadhara",
+      "kīrtana-bidhātā,    parapremadātā,",
+      "śacīsuta puraṭasundara"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕಲಿಯುಗಪಾಬನ ಬಿಶ್ಬಂಭರ",
+      "ಗೌḓಅಚಿತ್ತಗಗನಶಶಧರ",
+      "ಕೀರ್ತನಬಿಧಾತಾ,    ಪರಪ್ರೆಮದಾತಾ,",
+      "ಶಚೀಸುತ ಪುರಟಸುಂದರ"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కలియుగపాబన బిశ్బంభర",
+      "గౌḓఅచిత్తగగనశశధర",
+      "కీర్తనబిధాతా,    పరప్రెమదాతా,",
+      "శచీసుత పురటసుందర"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "калийугапа̄бана биш́бамбхара",
+      "гауḓачиттагаганаш́аш́адхара",
+      "кӣртанабидха̄та̄,    парапрэ̆мада̄та̄,",
+      "ш́ачӣсута пурат̣асундара"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കലിയുഗപാബന ബിശ്ബംഭര",
+      "ഗൗḓഅചിത്തഗഗനശശധര",
+      "കീർതനബിധാതാ,    പരപ്രെമദാതാ,",
+      "ശചീസുത പുരടസുന്ദര"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கலியுக³பாப³ன பி³ஶ்ப³ம்ப⁴ர",
+      "கௌ³ḓஅசித்தக³க³னஶஶத⁴ர",
+      "கீர்தனபி³தா⁴தா,    பரப்ரெமதா³தா,",
+      "ஶசீஸுத புரடஸுந்த³ர"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kaliyugapābana biśbambhara",
+      "gauḍacittagagana-śaśadhara",
+      "kīrtana-bidhātā,    parapremadātā,",
+      "śacīsuta puraṭasundara"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kaliyugapābana biśbambhara",
+      "gauḓacittagagana-śaśadhara",
+      "kīrtana-bidhātā,    parapremadātā,",
+      "śacīsuta puraṭasundara"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "The 100 names of Mahāprabhu"
+ ]
+}

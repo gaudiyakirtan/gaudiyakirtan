@@ -1,0 +1,1794 @@
+{
+ "uid": "RK9",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "রাধাকৃষ্ণ প্রাণ মোর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "rādhākṛṣṇa prāṇa mora"
+  }
+ ],
+ "author_uid": "ndt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Narottama dāsa Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "rādhākṛṣṇa prāṇa mora yugala[FLAG_HYPHEN_ALPHA]kiśora",
+    "jībane maraṇe gati āra nāhi mora 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The youthful Divine Couple, Śrī Śrī Rādhā-Kṛṣṇa, are my life and soul. In life and in death, I have no shelter other than Them."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "rādhākṛṣṇa",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "prāṇa",
+       "life, soul"
+      ],
+      [
+       "mora",
+       "my"
+      ],
+      [
+       "yugala kiśora",
+       "the youthful Divine Couple"
+      ],
+      [
+       "jībane",
+       "in life"
+      ],
+      [
+       "maraṇe",
+       "in death"
+      ],
+      [
+       "gati",
+       "shelter"
+      ],
+      [
+       "āra",
+       "other"
+      ],
+      [
+       "nāhi",
+       "no"
+      ],
+      [
+       "mora",
+       "my"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "राधाक्ड़्ष्ण",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "प्राण",
+       "life, soul"
+      ],
+      [
+       "मॊर",
+       "my"
+      ],
+      [
+       "युगल किशॊर",
+       "the youthful Divine Couple"
+      ],
+      [
+       "जीबनॆ",
+       "in life"
+      ],
+      [
+       "मरणॆ",
+       "in death"
+      ],
+      [
+       "गति",
+       "shelter"
+      ],
+      [
+       "आर",
+       "other"
+      ],
+      [
+       "नाहि",
+       "no"
+      ],
+      [
+       "मॊर",
+       "my"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "রাধাক্ড়্ষ্ণ",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "প্রাণ",
+       "life, soul"
+      ],
+      [
+       "মোর",
+       "my"
+      ],
+      [
+       "যুগল কিশোর",
+       "the youthful Divine Couple"
+      ],
+      [
+       "জীবনে",
+       "in life"
+      ],
+      [
+       "মরণে",
+       "in death"
+      ],
+      [
+       "গতি",
+       "shelter"
+      ],
+      [
+       "আর",
+       "other"
+      ],
+      [
+       "নাহি",
+       "no"
+      ],
+      [
+       "মোর",
+       "my"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "રાધાક્ડ઼્ષ્ણ",
+       "Śrī Śrī Rādhā-Kṛṣṇa"
+      ],
+      [
+       "પ્રાણ",
+       "life, soul"
+      ],
+      [
+       "મોર",
+       "my"
+      ],
+      [
+       "યુગલ કિશોર",
+       "the youthful Divine Couple"
+      ],
+      [
+       "જીબને",
+       "in life"
+      ],
+      [
+       "મરણે",
+       "in death"
+      ],
+      [
+       "ગતિ",
+       "shelter"
+      ],
+      [
+       "આર",
+       "other"
+      ],
+      [
+       "નાહિ",
+       "no"
+      ],
+      [
+       "મોર",
+       "my"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "राधाक्ड़्ष्ण प्राण मॊर युगलकिशॊर",
+      "जीबनॆ मरणॆ गति आर नाहि मॊर १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "রাধাক্ড়্ষ্ণ প্রাণ মোর যুগলকিশোর",
+      "জীবনে মরণে গতি আর নাহি মোর ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ରାଧାକ୍ଡ଼୍ଷ୍ଣ ପ୍ରାଣ ମୋର ଯୁଗଲକିଶୋର",
+      "ଜୀବନେ ମରଣେ ଗତି ଆର ନାହି ମୋର ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "રાધાક્ડ઼્ષ્ણ પ્રાણ મોર યુગલકિશોર",
+      "જીબને મરણે ગતિ આર નાહિ મોર ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "rādhākṛṣṇa prāṇa mora yugala-kiśora",
+      "jībane maraṇe gati āra nāhi mora 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ರಾಧಾಕ್‌ಡ಼್ಷ್ಣ ಪ್ರಾಣ ಮೊರ ಯುಗಲಕಿಶೊರ",
+      "ಜೀಬನೆ ಮರಣೆ ಗತಿ ಆರ ನಾಹಿ ಮೊರ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "రాధాక్డ్ష్ణ ప్రాణ మొర యుగలకిశొర",
+      "జీబనె మరణె గతి ఆర నాహి మొర 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ра̄дха̄кр̤шн̣а пра̄н̣а мо̆ра йугалакиш́о̆ра",
+      "джӣбанэ̆ маран̣э̆ гати а̄ра на̄хи мо̆ра 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "രാധാക്ഡ്ഷ്ണ പ്രാണ മൊര യുഗലകിശൊര",
+      "ജീബനെ മരണെ ഗതി ആര നാഹി മൊര 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ராதா⁴க்ஃட்²ஷ்ண ப்ராண மொர யுக³லகிஶொர",
+      "ஜீப³னெ மரணெ க³தி ஆர நாஹி மொர 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "rādhākṛṣṇa prāṇa mora yugala-kiśora",
+      "jībane maraṇe gati āra nāhi mora 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "rādhākṛṣṇa prāṇa mora yugala-kiśora",
+      "jībane maraṇe gati āra nāhi mora 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "kālindīra kūle keli[FLAG_HYPHEN_ALPHA]kadambera bana",
+    "ratana bedīra upara basāba du’jana 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "On the banks of the Kālindi (Yamunā River), in a kadamba grove meant for amorous sporting, I will seat Them both upon a jeweled throne."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "kālindīra",
+       "of the Kālindi"
+      ],
+      [
+       "kūle",
+       "on the banks"
+      ],
+      [
+       "keli",
+       "amorous sports"
+      ],
+      [
+       "kadambera",
+       "of kadamba trees"
+      ],
+      [
+       "bana",
+       "forest"
+      ],
+      [
+       "ratana bedīra",
+       "jeweled throne"
+      ],
+      [
+       "upara",
+       "atop"
+      ],
+      [
+       "basāba",
+       "I will seat"
+      ],
+      [
+       "du’jana",
+       "the two"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "कालिन्दीर",
+       "of the Kālindi"
+      ],
+      [
+       "कूलॆ",
+       "on the banks"
+      ],
+      [
+       "कॆलि",
+       "amorous sports"
+      ],
+      [
+       "कदम्बॆर",
+       "of kadamba trees"
+      ],
+      [
+       "बन",
+       "forest"
+      ],
+      [
+       "रतन बॆदीर",
+       "jeweled throne"
+      ],
+      [
+       "उपर",
+       "atop"
+      ],
+      [
+       "बसाब",
+       "I will seat"
+      ],
+      [
+       "दुऽजन",
+       "the two"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "কালিন্দীর",
+       "of the Kālindi"
+      ],
+      [
+       "কূলে",
+       "on the banks"
+      ],
+      [
+       "কেলি",
+       "amorous sports"
+      ],
+      [
+       "কদম্বের",
+       "of kadamba trees"
+      ],
+      [
+       "বন",
+       "forest"
+      ],
+      [
+       "রতন বেদীর",
+       "jeweled throne"
+      ],
+      [
+       "উপর",
+       "atop"
+      ],
+      [
+       "বসাব",
+       "I will seat"
+      ],
+      [
+       "দুঽজন",
+       "the two"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "કાલિન્દીર",
+       "of the Kālindi"
+      ],
+      [
+       "કૂલે",
+       "on the banks"
+      ],
+      [
+       "કેલિ",
+       "amorous sports"
+      ],
+      [
+       "કદમ્બેર",
+       "of kadamba trees"
+      ],
+      [
+       "બન",
+       "forest"
+      ],
+      [
+       "રતન બેદીર",
+       "jeweled throne"
+      ],
+      [
+       "ઉપર",
+       "atop"
+      ],
+      [
+       "બસાબ",
+       "I will seat"
+      ],
+      [
+       "દુઽજન",
+       "the two"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कालिन्दीर कूलॆ कॆलिकदम्बॆर बन",
+      "रतन बॆदीर उपर बसाब दुऽजन २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কালিন্দীর কূলে কেলিকদম্বের বন",
+      "রতন বেদীর উপর বসাব দুঽজন ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କାଲିନ୍ଦୀର କୂଲେ କେଲିକଦମ୍ବେର ବନ",
+      "ରତନ ବେଦୀର ଉପର ବସାବ ଦୁଽଜନ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કાલિન્દીર કૂલે કેલિકદમ્બેર બન",
+      "રતન બેદીર ઉપર બસાબ દુઽજન ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kālindīra kūle keli-kadambera bana",
+      "ratana bedīra upara basāba du’jana 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕಾಲಿಂದೀರ ಕೂಲೆ ಕೆಲಿಕದಂಬೆರ ಬನ",
+      "ರತನ ಬೆದೀರ ಉಪರ ಬಸಾಬ ದುಽಜನ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కాలిందీర కూలె కెలికదంబెర బన",
+      "రతన బెదీర ఉపర బసాబ దుఽజన 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ка̄линдӣра кӯлэ̆ кэ̆ликадамбэ̆ра бана",
+      "ратана бэ̆дӣра упара баса̄ба ду'джана 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കാലിന്ദീര കൂലെ കെലികദംബെര ബന",
+      "രതന ബെദീര ഉപര ബസാബ ദുഽജന 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "காலிந்தீ³ர கூலெ கெலிகத³ம்பெ³ர ப³ன",
+      "ரதன பெ³தீ³ர உபர ப³ஸாப³ து³(அ)ஜன 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kālindīra kūle keli-kadambera bana",
+      "ratana bedīra upara basāba du’jana 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kālindīra kūle keli-kadambera bana",
+      "ratana bedīra upara basāba du’jana 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "śyāmagaurī aṅge diba (cuyā) candanera gandha",
+    "cāmara ḍhulāba kabe heriba mukhacandra 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "I will anoint Their dark and golden limbs with sandal paste scented with cuyā and then fan Them with a cāmara. Oh, when will I behold Their moon-like faces?"
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śyāmagaurī",
+       "dark + golden"
+      ],
+      [
+       "aṅge",
+       "on the limbs"
+      ],
+      [
+       "diba",
+       "I shall give"
+      ],
+      [
+       "(cuyā)",
+       "cuyā"
+      ],
+      [
+       "candanera",
+       "of sandle-wood"
+      ],
+      [
+       "gandha",
+       "fragrance"
+      ],
+      [
+       "cāmara",
+       "a yak-tail fan"
+      ],
+      [
+       "ḍhulāba",
+       "I will fan"
+      ],
+      [
+       "kabe",
+       "when"
+      ],
+      [
+       "heriba",
+       "I will behold"
+      ],
+      [
+       "mukhacandra",
+       "face + moon-like"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "श्यामगौरी",
+       "dark + golden"
+      ],
+      [
+       "अङ्गॆ",
+       "on the limbs"
+      ],
+      [
+       "दिब",
+       "I shall give"
+      ],
+      [
+       "(चुया)",
+       "cuyā"
+      ],
+      [
+       "चन्दनॆर",
+       "of sandle-wood"
+      ],
+      [
+       "गन्ध",
+       "fragrance"
+      ],
+      [
+       "चामर",
+       "a yak-tail fan"
+      ],
+      [
+       "ढुलाब",
+       "I will fan"
+      ],
+      [
+       "कबॆ",
+       "when"
+      ],
+      [
+       "हॆरिब",
+       "I will behold"
+      ],
+      [
+       "मुखचन्द्र",
+       "face + moon-like"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শ্যামগৌরী",
+       "dark + golden"
+      ],
+      [
+       "অঙ্গে",
+       "on the limbs"
+      ],
+      [
+       "দিব",
+       "I shall give"
+      ],
+      [
+       "(চুয়া)",
+       "cuyā"
+      ],
+      [
+       "চন্দনের",
+       "of sandle-wood"
+      ],
+      [
+       "গন্ধ",
+       "fragrance"
+      ],
+      [
+       "চামর",
+       "a yak-tail fan"
+      ],
+      [
+       "ঢুলাব",
+       "I will fan"
+      ],
+      [
+       "কবে",
+       "when"
+      ],
+      [
+       "হেরিব",
+       "I will behold"
+      ],
+      [
+       "মুখচন্দ্র",
+       "face + moon-like"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શ્યામગૌરી",
+       "dark + golden"
+      ],
+      [
+       "અઙ્ગે",
+       "on the limbs"
+      ],
+      [
+       "દિબ",
+       "I shall give"
+      ],
+      [
+       "(ચુયા)",
+       "cuyā"
+      ],
+      [
+       "ચન્દનેર",
+       "of sandle-wood"
+      ],
+      [
+       "ગન્ધ",
+       "fragrance"
+      ],
+      [
+       "ચામર",
+       "a yak-tail fan"
+      ],
+      [
+       "ઢુલાબ",
+       "I will fan"
+      ],
+      [
+       "કબે",
+       "when"
+      ],
+      [
+       "હેરિબ",
+       "I will behold"
+      ],
+      [
+       "મુખચન્દ્ર",
+       "face + moon-like"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्यामगौरी अङ्गॆ दिब (चुया) चन्दनॆर गन्ध",
+      "चामर ढुलाब कबॆ हॆरिब मुखचन्द्र ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্যামগৌরী অঙ্গে দিব (চুয়া) চন্দনের গন্ধ",
+      "চামর ঢুলাব কবে হেরিব মুখচন্দ্র ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ୟାମଗୌରୀ ଅଙ୍ଗେ ଦିବ (ଚୁୟା) ଚନ୍ଦନେର ଗନ୍ଧ",
+      "ଚାମର ଢୁଲାବ କବେ ହେରିବ ମୁଖଚନ୍ଦ୍ର ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્યામગૌરી અઙ્ગે દિબ (ચુયા) ચન્દનેર ગન્ધ",
+      "ચામર ઢુલાબ કબે હેરિબ મુખચન્દ્ર ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śyāmagaurī aṅge diba (cuyā) candanera gandha",
+      "cāmara ḍhulāba kabe heriba mukhacandra 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ಯಾಮಗೌರೀ ಅಂಗೆ ದಿಬ (ಚುಯಾ) ಚಂದನೆರ ಗಂಧ",
+      "ಚಾಮರ ಢುಲಾಬ ಕಬೆ ಹೆರಿಬ ಮುಖಚಂದ್ರ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్యామగౌరీ అంగె దిబ (చుయా) చందనెర గంధ",
+      "చామర ఢులాబ కబె హెరిబ ముఖచంద్ర 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́йа̄магаурӣ ан̇гэ̆ диба (чуйа̄) чанданэ̆ра гандха",
+      "ча̄мара д̣хула̄ба кабэ̆ хэ̆риба мукхачандра 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്യാമഗൗരീ അംഗെ ദിബ (ചുയാ) ചന്ദനെര ഗന്ധ",
+      "ചാമര ഢുലാബ കബെ ഹെരിബ മുഖചന്ദ്ര 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்யாமகௌ³ரீ அங்கெ³ தி³ப³ (சுயா) சந்த³னெர க³ந்த⁴",
+      "சாமர டு⁴லாப³ கபெ³ ஹெரிப³ முக²சந்த்³ர 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śyāmagaurī aṅge diba (cuyā) candanera gandha",
+      "cāmara ḍhulāba kabe heriba mukhacandra 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śyāmagaurī aṅge diba (cuyā) candanera gandha",
+      "cāmara ḍhulāba kabe heriba mukhacandra 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "gā̃thiyā mālatīra mālā diba dohāra gale",
+    "adhare tuliyā diba karpūra tāmbūle 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "After stringing together garlands of mālati flowers, I will place them around both Their necks. I will then place tāmbūla (betel) flavored with camphor in Their lotus mouths."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gā̃thiyā",
+       "having strung"
+      ],
+      [
+       "mālatīra",
+       "of mālati flowers (Jasminum Grandiflorum)"
+      ],
+      [
+       "mālā",
+       "garland"
+      ],
+      [
+       "diba",
+       "I will place"
+      ],
+      [
+       "dohāra",
+       "Their"
+      ],
+      [
+       "gale",
+       "on necks"
+      ],
+      [
+       "adhare",
+       "to the lips"
+      ],
+      [
+       "tuliyā",
+       "having lifted up"
+      ],
+      [
+       "diba",
+       "I will give"
+      ],
+      [
+       "karpūra",
+       "camphor"
+      ],
+      [
+       "tāmbūle",
+       "in betel leaf"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गांथिया",
+       "having strung"
+      ],
+      [
+       "मालतीर",
+       "of mālati flowers (Jasminum Grandiflorum)"
+      ],
+      [
+       "माला",
+       "garland"
+      ],
+      [
+       "दिब",
+       "I will place"
+      ],
+      [
+       "दॊहार",
+       "Their"
+      ],
+      [
+       "गलॆ",
+       "on necks"
+      ],
+      [
+       "अधरॆ",
+       "to the lips"
+      ],
+      [
+       "तुलिया",
+       "having lifted up"
+      ],
+      [
+       "दिब",
+       "I will give"
+      ],
+      [
+       "कर्पूर",
+       "camphor"
+      ],
+      [
+       "ताम्बूलॆ",
+       "in betel leaf"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গান্থিয়া",
+       "having strung"
+      ],
+      [
+       "মালতীর",
+       "of mālati flowers (Jasminum Grandiflorum)"
+      ],
+      [
+       "মালা",
+       "garland"
+      ],
+      [
+       "দিব",
+       "I will place"
+      ],
+      [
+       "দোহার",
+       "Their"
+      ],
+      [
+       "গলে",
+       "on necks"
+      ],
+      [
+       "অধরে",
+       "to the lips"
+      ],
+      [
+       "তুলিয়া",
+       "having lifted up"
+      ],
+      [
+       "দিব",
+       "I will give"
+      ],
+      [
+       "কর্পূর",
+       "camphor"
+      ],
+      [
+       "তাম্বূলে",
+       "in betel leaf"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગાંથિયા",
+       "having strung"
+      ],
+      [
+       "માલતીર",
+       "of mālati flowers (Jasminum Grandiflorum)"
+      ],
+      [
+       "માલા",
+       "garland"
+      ],
+      [
+       "દિબ",
+       "I will place"
+      ],
+      [
+       "દોહાર",
+       "Their"
+      ],
+      [
+       "ગલે",
+       "on necks"
+      ],
+      [
+       "અધરે",
+       "to the lips"
+      ],
+      [
+       "તુલિયા",
+       "having lifted up"
+      ],
+      [
+       "દિબ",
+       "I will give"
+      ],
+      [
+       "કર્પૂર",
+       "camphor"
+      ],
+      [
+       "તામ્બૂલે",
+       "in betel leaf"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गांथिया मालतीर माला दिब दॊहार गलॆ",
+      "अधरॆ तुलिया दिब कर्पूर ताम्बूलॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গান্থিয়া মালতীর মালা দিব দোহার গলে",
+      "অধরে তুলিয়া দিব কর্পূর তাম্বূলে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗାନ୍ଥିୟା ମାଲତୀର ମାଲା ଦିବ ଦୋହାର ଗଲେ",
+      "ଅଧରେ ତୁଲିୟା ଦିବ କର୍ପୂର ତାମ୍ବୂଲେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગાંથિયા માલતીર માલા દિબ દોહાર ગલે",
+      "અધરે તુલિયા દિબ કર્પૂર તામ્બૂલે ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gā̃thiyā mālatīra mālā diba dohāra gale",
+      "adhare tuliyā diba karpūra tāmbūle 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗಾಂಥಿಯಾ ಮಾಲತೀರ ಮಾಲಾ ದಿಬ ದೊಹಾರ ಗಲೆ",
+      "ಅಧರೆ ತುಲಿಯಾ ದಿಬ ಕರ್ಪೂರ ತಾಂಬೂಲೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గాంథియా మాలతీర మాలా దిబ దొహార గలె",
+      "అధరె తులియా దిబ కర్పూర తాంబూలె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "га̄м̣тхийа̄ ма̄латӣра ма̄ла̄ диба до̆ха̄ра галэ̆",
+      "адхарэ̆ тулийа̄ диба карпӯра та̄мбӯлэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗാന്ഥിയാ മാലതീര മാലാ ദിബ ദൊഹാര ഗലെ",
+      "അധരെ തുലിയാ ദിബ കർപൂര താംബൂലെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கா³ந்தி²யா மாலதீர மாலா தி³ப³ தொ³ஹார க³லெ",
+      "அத⁴ரெ துலியா தி³ப³ கர்பூர தாம்பூ³லெ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gā̃thiyā mālatīra mālā diba dohāra gale",
+      "adhare tuliyā diba karpūra tāmbūle 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gā̃thiyā mālatīra mālā diba dohāra gale",
+      "adhare tuliyā diba karpūra tāmbūle 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "lalitā biśākhā ādi yata sakhībṛnda",
+    "ājñāya kariba sebā caraṇārabinda 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "On the order of Lalitā, Viśākhā, and the other sakhīs, I will serve Their lotus feet."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "lalitā",
+       "Lalitā-devī"
+      ],
+      [
+       "biśākhā",
+       "Viśādhā-devī"
+      ],
+      [
+       "ādi",
+       "and the others"
+      ],
+      [
+       "yata",
+       "all that are"
+      ],
+      [
+       "sakhībṛnda",
+       "the multitude of sakhīs"
+      ],
+      [
+       "ājñāya",
+       "on the order"
+      ],
+      [
+       "kariba sebā",
+       "I will serve"
+      ],
+      [
+       "caraṇārabinda",
+       "feet + lotus"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ललिता",
+       "Lalitā-devī"
+      ],
+      [
+       "बिशाखा",
+       "Viśādhā-devī"
+      ],
+      [
+       "आदि",
+       "and the others"
+      ],
+      [
+       "यत",
+       "all that are"
+      ],
+      [
+       "सखीब्ड़्न्द",
+       "the multitude of sakhīs"
+      ],
+      [
+       "आज्ञाय",
+       "on the order"
+      ],
+      [
+       "करिब सॆबा",
+       "I will serve"
+      ],
+      [
+       "चरणारबिन्द",
+       "feet + lotus"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ললিতা",
+       "Lalitā-devī"
+      ],
+      [
+       "বিশাখা",
+       "Viśādhā-devī"
+      ],
+      [
+       "আদি",
+       "and the others"
+      ],
+      [
+       "যত",
+       "all that are"
+      ],
+      [
+       "সখীব্ড়্ন্দ",
+       "the multitude of sakhīs"
+      ],
+      [
+       "আজ্ঞায়",
+       "on the order"
+      ],
+      [
+       "করিব সেবা",
+       "I will serve"
+      ],
+      [
+       "চরণারবিন্দ",
+       "feet + lotus"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "લલિતા",
+       "Lalitā-devī"
+      ],
+      [
+       "બિશાખા",
+       "Viśādhā-devī"
+      ],
+      [
+       "આદિ",
+       "and the others"
+      ],
+      [
+       "યત",
+       "all that are"
+      ],
+      [
+       "સખીબ્ડ઼્ન્દ",
+       "the multitude of sakhīs"
+      ],
+      [
+       "આજ્ઞાય",
+       "on the order"
+      ],
+      [
+       "કરિબ સેબા",
+       "I will serve"
+      ],
+      [
+       "ચરણારબિન્દ",
+       "feet + lotus"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ललिता बिशाखा आदि यत सखीब्ड़्न्द",
+      "आज्ञाय करिब सॆबा चरणारबिन्द ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ললিতা বিশাখা আদি যত সখীব্ড়্ন্দ",
+      "আজ্ঞায় করিব সেবা চরণারবিন্দ ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଲଲିତା ବିଶାଖା ଆଦି ଯତ ସଖୀବ୍ଡ଼୍ନ୍ଦ",
+      "ଆଜ୍ଞାୟ କରିବ ସେବା ଚରଣାରବିନ୍ଦ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "લલિતા બિશાખા આદિ યત સખીબ્ડ઼્ન્દ",
+      "આજ્ઞાય કરિબ સેબા ચરણારબિન્દ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "lalitā biśākhā ādi yata sakhībṛnda",
+      "ājñāya kariba sebā caraṇārabinda 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಲಲಿತಾ ಬಿಶಾಖಾ ಆದಿ ಯತ ಸಖೀಬ್‌ಡ಼್ನ್ದ",
+      "ಆಜ್ಞಾಯ ಕರಿಬ ಸೆಬಾ ಚರಣಾರಬಿಂದ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "లలితా బిశాఖా ఆది యత సఖీబ్డ్న్ద",
+      "ఆజ్ఞాయ కరిబ సెబా చరణారబింద 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "лалита̄ биш́а̄кха̄ а̄ди йата сакхӣбр̤нда",
+      "а̄джн̃а̄йа кариба сэ̆ба̄ чаран̣а̄рабинда 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ലലിതാ ബിശാഖാ ആദി യത സഖീബ്ഡ്ന്ദ",
+      "ആജ്ഞായ കരിബ സെബാ ചരണാരബിന്ദ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "லலிதா பி³ஶாகா² ஆதி³ யத ஸகீ²ப்³ஃட்²ந்த³",
+      "ஆஜ்ஞாய கரிப³ ஸெபா³ சரணாரபி³ந்த³ 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "lalitā biśākhā ādi yata sakhībṛnda",
+      "ājñāya kariba sebā caraṇārabinda 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "lalitā biśākhā ādi yata sakhībṛnda",
+      "ājñāya kariba sebā caraṇārabinda 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "śrīkṛṣṇacaitanya prabhura dāsera anudāsa",
+    "sebā abhilāṣa kare narottamadāsa 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Narottama dāsa, servant of the servant of Śrī Kṛṣṇa Caitanya Mahāprabhu, yearns for service to the Divine Couple."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śrīkṛṣṇacaitanya prabhura",
+       "of Śrī Kṛṣṇa Caitanya Mahāprabhu"
+      ],
+      [
+       "dāsera",
+       "of the servant"
+      ],
+      [
+       "anudāsa",
+       "the servant"
+      ],
+      [
+       "sebā",
+       "service"
+      ],
+      [
+       "abhilāṣa kare",
+       "desires, yearns"
+      ],
+      [
+       "narottamadāsa",
+       "Narottama dāsa"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "श्रीक्ड़्ष्णचैतन्य प्रभुर",
+       "of Śrī Kṛṣṇa Caitanya Mahāprabhu"
+      ],
+      [
+       "दासॆर",
+       "of the servant"
+      ],
+      [
+       "अनुदास",
+       "the servant"
+      ],
+      [
+       "सॆबा",
+       "service"
+      ],
+      [
+       "अभिलाष करॆ",
+       "desires, yearns"
+      ],
+      [
+       "नरॊत्तमदास",
+       "Narottama dāsa"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শ্রীক্ড়্ষ্ণচৈতন্য প্রভুর",
+       "of Śrī Kṛṣṇa Caitanya Mahāprabhu"
+      ],
+      [
+       "দাসের",
+       "of the servant"
+      ],
+      [
+       "অনুদাস",
+       "the servant"
+      ],
+      [
+       "সেবা",
+       "service"
+      ],
+      [
+       "অভিলাষ করে",
+       "desires, yearns"
+      ],
+      [
+       "নরোত্তমদাস",
+       "Narottama dāsa"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શ્રીક્ડ઼્ષ્ણચૈતન્ય પ્રભુર",
+       "of Śrī Kṛṣṇa Caitanya Mahāprabhu"
+      ],
+      [
+       "દાસેર",
+       "of the servant"
+      ],
+      [
+       "અનુદાસ",
+       "the servant"
+      ],
+      [
+       "સેબા",
+       "service"
+      ],
+      [
+       "અભિલાષ કરે",
+       "desires, yearns"
+      ],
+      [
+       "નરોત્તમદાસ",
+       "Narottama dāsa"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्रीक्ड़्ष्णचैतन्य प्रभुर दासॆर अनुदास",
+      "सॆबा अभिलाष करॆ नरॊत्तमदास ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্রীক্ড়্ষ্ণচৈতন্য প্রভুর দাসের অনুদাস",
+      "সেবা অভিলাষ করে নরোত্তমদাস ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣଚୈତନ୍ୟ ପ୍ରଭୁର ଦାସେର ଅନୁଦାସ",
+      "ସେବା ଅଭିଲାଷ କରେ ନରୋତ୍ତମଦାସ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્રીક્ડ઼્ષ્ણચૈતન્ય પ્રભુર દાસેર અનુદાસ",
+      "સેબા અભિલાષ કરે નરોત્તમદાસ ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śrīkṛṣṇacaitanya prabhura dāsera anudāsa",
+      "sebā abhilāṣa kare narottamadāsa 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಚೈತನ್ಯ ಪ್ರಭುರ ದಾಸೆರ ಅನುದಾಸ",
+      "ಸೆಬಾ ಅಭಿಲಾಷ ಕರೆ ನರೊತ್ತಮದಾಸ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్రీక్డ్ష్ణచైతన్య ప్రభుర దాసెర అనుదాస",
+      "సెబా అభిలాష కరె నరొత్తమదాస 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́рӣкр̤шн̣ачаитанйа прабхура да̄сэ̆ра ануда̄са",
+      "сэ̆ба̄ абхила̄ша карэ̆ наро̆ттамада̄са 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്രീക്ഡ്ഷ്ണചൈതന്യ പ്രഭുര ദാസെര അനുദാസ",
+      "സെബാ അഭിലാഷ കരെ നരൊത്തമദാസ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்ரீக்ஃட்²ஷ்ணசைதன்ய ப்ரபு⁴ர தா³ஸெர அனுதா³ஸ",
+      "ஸெபா³ அபி⁴லாஷ கரெ நரொத்தமதா³ஸ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śrīkṛṣṇacaitanya prabhura dāsera anudāsa",
+      "sebā abhilāṣa kare narottamadāsa 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śrīkṛṣṇacaitanya prabhura dāsera anudāsa",
+      "sebā abhilāṣa kare narottamadāsa 6"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "krsn-1",
+   "filename": "RK9-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "krsn-2",
+   "filename": "RK9-krsn-2.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "muni-1",
+   "filename": "RK9-muni-1.mp3",
+   "artist": "BV Muni Maharaja"
+  },
+  {
+   "uid": "srrb-1",
+   "filename": "RK9-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ],
+ "tags": [
+  "Prayers Full of Longing [[GGG: Siddhi-lālasā]]"
+ ]
+}

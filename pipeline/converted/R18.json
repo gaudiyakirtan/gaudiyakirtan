@@ -1,0 +1,2709 @@
+{
+ "uid": "R18",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "বরজ-বিপিনে"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "baraja-bipine"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "baraja[FLAG_HYPHEN_ALPHA]bipine        yamunā[FLAG_HYPHEN_ALPHA]kūle",
+    "mañca manohara        śobhita phule 1"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "In the forests of Vraja, along the banks of the Yamunā, there are enchanting platforms beautifully decorated with flowers."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "baraja",
+       "Vraja"
+      ],
+      [
+       "bipine",
+       "in the forests"
+      ],
+      [
+       "yamunā",
+       "Yamunā"
+      ],
+      [
+       "kūle",
+       "along the banks"
+      ],
+      [
+       "mañca",
+       "platforms"
+      ],
+      [
+       "manohara",
+       "enchanting"
+      ],
+      [
+       "śobhita",
+       "decorated"
+      ],
+      [
+       "phule",
+       "with flowers"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "बरज",
+       "Vraja"
+      ],
+      [
+       "बिपिनॆ",
+       "in the forests"
+      ],
+      [
+       "यमुना",
+       "Yamunā"
+      ],
+      [
+       "कूलॆ",
+       "along the banks"
+      ],
+      [
+       "मञ्च",
+       "platforms"
+      ],
+      [
+       "मनॊहर",
+       "enchanting"
+      ],
+      [
+       "शॊभित",
+       "decorated"
+      ],
+      [
+       "फुलॆ",
+       "with flowers"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "বরজ",
+       "Vraja"
+      ],
+      [
+       "বিপিনে",
+       "in the forests"
+      ],
+      [
+       "যমুনা",
+       "Yamunā"
+      ],
+      [
+       "কূলে",
+       "along the banks"
+      ],
+      [
+       "মঞ্চ",
+       "platforms"
+      ],
+      [
+       "মনোহর",
+       "enchanting"
+      ],
+      [
+       "শোভিত",
+       "decorated"
+      ],
+      [
+       "ফুলে",
+       "with flowers"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બરજ",
+       "Vraja"
+      ],
+      [
+       "બિપિને",
+       "in the forests"
+      ],
+      [
+       "યમુના",
+       "Yamunā"
+      ],
+      [
+       "કૂલે",
+       "along the banks"
+      ],
+      [
+       "મઞ્ચ",
+       "platforms"
+      ],
+      [
+       "મનોહર",
+       "enchanting"
+      ],
+      [
+       "શોભિત",
+       "decorated"
+      ],
+      [
+       "ફુલે",
+       "with flowers"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बरजबिपिनॆ        यमुनाकूलॆ",
+      "मञ्च मनॊहर        शॊभित फुलॆ १"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বরজবিপিনে        যমুনাকূলে",
+      "মঞ্চ মনোহর        শোভিত ফুলে ১"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବରଜବିପିନେ        ଯମୁନାକୂଲେ",
+      "ମଞ୍ଚ ମନୋହର        ଶୋଭିତ ଫୁଲେ ୧"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બરજબિપિને        યમુનાકૂલે",
+      "મઞ્ચ મનોહર        શોભિત ફુલે ૧"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "baraja-bipine        yamunā-kūle",
+      "mañca manohara        śobhita phule 1"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬರಜಬಿಪಿನೆ        ಯಮುನಾಕೂಲೆ",
+      "ಮಂಚ ಮನೊಹರ        ಶೊಭಿತ ಫುಲೆ ೧"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బరజబిపినె        యమునాకూలె",
+      "మంచ మనొహర        శొభిత ఫులె 1"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бараджабипинэ̆        йамуна̄кӯлэ̆",
+      "ман̃ча мано̆хара        ш́о̆бхита пхулэ̆ 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബരജബിപിനെ        യമുനാകൂലെ",
+      "മഞ്ച മനൊഹര        ശൊഭിത ഫുലെ 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப³ரஜபி³பினெ        யமுனாகூலெ",
+      "மஞ்ச மனொஹர        ஶொபி⁴த பு²லெ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "baraja-bipine        yamunā-kūle",
+      "mañca manohara        śobhita phule 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "baraja-bipine        yamunā-kūle",
+      "mañca manohara        śobhita phule 1"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "banaspati latā        tuṣaye ā̃khi",
+    "tadupari kata        ḍākaye pākhī 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Varieties of fruit trees and creepers give satisfaction to the eyes. On them, many birds sing sweetly."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "banaspati",
+       "fruit trees"
+      ],
+      [
+       "latā",
+       "creepers"
+      ],
+      [
+       "tuṣaye",
+       "satisfies"
+      ],
+      [
+       "ā̃khi",
+       "the eyes"
+      ],
+      [
+       "tadupari",
+       "them + atop"
+      ],
+      [
+       "kata",
+       "how many"
+      ],
+      [
+       "ḍākaye",
+       "singing"
+      ],
+      [
+       "pākhī",
+       "birds"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "बनस्पति",
+       "fruit trees"
+      ],
+      [
+       "लता",
+       "creepers"
+      ],
+      [
+       "तुषयॆ",
+       "satisfies"
+      ],
+      [
+       "आंखि",
+       "the eyes"
+      ],
+      [
+       "तदुपरि",
+       "them + atop"
+      ],
+      [
+       "कत",
+       "how many"
+      ],
+      [
+       "डाकयॆ",
+       "singing"
+      ],
+      [
+       "पाखी",
+       "birds"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "বনস্পতি",
+       "fruit trees"
+      ],
+      [
+       "লতা",
+       "creepers"
+      ],
+      [
+       "তুষয়ে",
+       "satisfies"
+      ],
+      [
+       "আঙ্খি",
+       "the eyes"
+      ],
+      [
+       "তদুপরি",
+       "them + atop"
+      ],
+      [
+       "কত",
+       "how many"
+      ],
+      [
+       "ডাকয়ে",
+       "singing"
+      ],
+      [
+       "পাখী",
+       "birds"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બનસ્પતિ",
+       "fruit trees"
+      ],
+      [
+       "લતા",
+       "creepers"
+      ],
+      [
+       "તુષયે",
+       "satisfies"
+      ],
+      [
+       "આંખિ",
+       "the eyes"
+      ],
+      [
+       "તદુપરિ",
+       "them + atop"
+      ],
+      [
+       "કત",
+       "how many"
+      ],
+      [
+       "ડાકયે",
+       "singing"
+      ],
+      [
+       "પાખી",
+       "birds"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बनस्पति लता        तुषयॆ आंखि",
+      "तदुपरि कत        डाकयॆ पाखी २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বনস্পতি লতা        তুষয়ে আঙ্খি",
+      "তদুপরি কত        ডাকয়ে পাখী ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବନସ୍ପତି ଲତା        ତୁଷୟେ ଆଙ୍ଖି",
+      "ତଦୁପରି କତ        ଡାକୟେ ପାଖୀ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બનસ્પતિ લતા        તુષયે આંખિ",
+      "તદુપરિ કત        ડાકયે પાખી ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "banaspati latā        tuṣaye ā̃khi",
+      "tadupari kata        ḍākaye pākhī 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬನಸ್ಪತಿ ಲತಾ        ತುಷಯೆ ಆಂಖಿ",
+      "ತದುಪರಿ ಕತ        ಡಾಕಯೆ ಪಾಖೀ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బనస్పతి లతా        తుషయె ఆంఖి",
+      "తదుపరి కత        డాకయె పాఖీ 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "банаспати лата̄        тушайэ̆ а̄м̣кхи",
+      "тадупари ката        д̣а̄кайэ̆ па̄кхӣ 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബനസ്പതി ലതാ        തുഷയെ ആംഖി",
+      "തദുപരി കത        ഡാകയെ പാഖീ 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப³னஸ்பதி லதா        துஷயெ ஆங்கி²",
+      "தது³பரி கத        டா³கயெ பாகீ² 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "banaspati latā        tuṣaye ā̃khi",
+      "tadupari kata        ḍākaye pākhī 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "banaspati latā        tuṣaye ā̃khi",
+      "tadupari kata        ḍākaye pākhī 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "malaya anila        bahaye dhīre",
+    "alikula madhu[FLAG_HYPHEN_ALPHA]        lobhete phire 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "A cooling breeze from the Malaya Hills blows gently, and a swarm of bumblebees wanders about in search of honey."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "malaya",
+       "the Malaya Hills"
+      ],
+      [
+       "anila",
+       "breeze"
+      ],
+      [
+       "bahaye",
+       "blows"
+      ],
+      [
+       "dhīre",
+       "gently"
+      ],
+      [
+       "alikula",
+       "(bhramar-gaṇ) bumblebees"
+      ],
+      [
+       "madhu",
+       "honey"
+      ],
+      [
+       "lobhete",
+       "with greed for"
+      ],
+      [
+       "phire",
+       "wonders"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "मलय",
+       "the Malaya Hills"
+      ],
+      [
+       "अनिल",
+       "breeze"
+      ],
+      [
+       "बहयॆ",
+       "blows"
+      ],
+      [
+       "धीरॆ",
+       "gently"
+      ],
+      [
+       "अलिकुल",
+       "(bhramar-gaṇ) bumblebees"
+      ],
+      [
+       "मधु",
+       "honey"
+      ],
+      [
+       "लॊभॆतॆ",
+       "with greed for"
+      ],
+      [
+       "फिरॆ",
+       "wonders"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মলয়",
+       "the Malaya Hills"
+      ],
+      [
+       "অনিল",
+       "breeze"
+      ],
+      [
+       "বহয়ে",
+       "blows"
+      ],
+      [
+       "ধীরে",
+       "gently"
+      ],
+      [
+       "অলিকুল",
+       "(bhramar-gaṇ) bumblebees"
+      ],
+      [
+       "মধু",
+       "honey"
+      ],
+      [
+       "লোভেতে",
+       "with greed for"
+      ],
+      [
+       "ফিরে",
+       "wonders"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "મલય",
+       "the Malaya Hills"
+      ],
+      [
+       "અનિલ",
+       "breeze"
+      ],
+      [
+       "બહયે",
+       "blows"
+      ],
+      [
+       "ધીરે",
+       "gently"
+      ],
+      [
+       "અલિકુલ",
+       "(bhramar-gaṇ) bumblebees"
+      ],
+      [
+       "મધુ",
+       "honey"
+      ],
+      [
+       "લોભેતે",
+       "with greed for"
+      ],
+      [
+       "ફિરે",
+       "wonders"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मलय अनिल        बहयॆ धीरॆ",
+      "अलिकुल मधु        लॊभॆतॆ फिरॆ ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মলয় অনিল        বহয়ে ধীরে",
+      "অলিকুল মধু        লোভেতে ফিরে ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମଲୟ ଅନିଲ        ବହୟେ ଧୀରେ",
+      "ଅଲିକୁଲ ମଧୁ        ଲୋଭେତେ ଫିରେ ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મલય અનિલ        બહયે ધીરે",
+      "અલિકુલ મધુ        લોભેતે ફિરે ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "malaya anila        bahaye dhīre",
+      "alikula madhu-        lobhete phire 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಲಯ ಅನಿಲ        ಬಹಯೆ ಧೀರೆ",
+      "ಅಲಿಕುಲ ಮಧು        ಲೊಭೆತೆ ಫಿರೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మలయ అనిల        బహయె ధీరె",
+      "అలికుల మధు        లొభెతె ఫిరె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "малайа анила        бахайэ̆ дхӣрэ̆",
+      "аликула мадху        ло̆бхэ̆тэ̆ пхирэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മലയ അനില        ബഹയെ ധീരെ",
+      "അലികുല മധു        ലൊഭെതെ ഫിരെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மலய அனில        ப³ஹயெ தீ⁴ரெ",
+      "அலிகுல மது⁴        லொபெ⁴தெ பி²ரெ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "malaya anila        bahaye dhīre",
+      "alikula madhu-        lobhete phire 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "malaya anila        bahaye dhīre",
+      "alikula madhu-        lobhete phire 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "bāsantīra rākā[FLAG_HYPHEN_ALPHA]        uḓupa tadā",
+    "kaumudī bitare        ādare sadā 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The full moon of the spring season continuously distributes its soothing rays out of love."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "bāsantīra",
+       "of spring"
+      ],
+      [
+       "rākā uḓupa",
+       "(pūrṇimār-candra) full moon"
+      ],
+      [
+       "tadā",
+       "at that time"
+      ],
+      [
+       "kaumudī",
+       "(jyotsnā) rays"
+      ],
+      [
+       "bitare",
+       "distributes"
+      ],
+      [
+       "ādare",
+       "out of love"
+      ],
+      [
+       "sadā",
+       "continuously"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "बासन्तीर",
+       "of spring"
+      ],
+      [
+       "राका उḓउप",
+       "(pūrṇimār-candra) full moon"
+      ],
+      [
+       "तदा",
+       "at that time"
+      ],
+      [
+       "कौमुदी",
+       "(jyotsnā) rays"
+      ],
+      [
+       "बितरॆ",
+       "distributes"
+      ],
+      [
+       "आदरॆ",
+       "out of love"
+      ],
+      [
+       "सदा",
+       "continuously"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "বাসন্তীর",
+       "of spring"
+      ],
+      [
+       "রাকা উḓউপ",
+       "(pūrṇimār-candra) full moon"
+      ],
+      [
+       "তদা",
+       "at that time"
+      ],
+      [
+       "কৌমুদী",
+       "(jyotsnā) rays"
+      ],
+      [
+       "বিতরে",
+       "distributes"
+      ],
+      [
+       "আদরে",
+       "out of love"
+      ],
+      [
+       "সদা",
+       "continuously"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બાસન્તીર",
+       "of spring"
+      ],
+      [
+       "રાકા ઉḓઉપ",
+       "(pūrṇimār-candra) full moon"
+      ],
+      [
+       "તદા",
+       "at that time"
+      ],
+      [
+       "કૌમુદી",
+       "(jyotsnā) rays"
+      ],
+      [
+       "બિતરે",
+       "distributes"
+      ],
+      [
+       "આદરે",
+       "out of love"
+      ],
+      [
+       "સદા",
+       "continuously"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "बासन्तीर राका        उḓउप तदा",
+      "कौमुदी बितरॆ        आदरॆ सदा ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "বাসন্তীর রাকা        উḓউপ তদা",
+      "কৌমুদী বিতরে        আদরে সদা ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବାସନ୍ତୀର ରାକା        ଉḓଉପ ତଦା",
+      "କୌମୁଦୀ ବିତରେ        ଆଦରେ ସଦା ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બાસન્તીર રાકા        ઉḓઉપ તદા",
+      "કૌમુદી બિતરે        આદરે સદા ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bāsantīra rākā-        uḓupa tadā",
+      "kaumudī bitare        ādare sadā 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬಾಸಂತೀರ ರಾಕಾ        ಉḓಉಪ ತದಾ",
+      "ಕೌಮುದೀ ಬಿತರೆ        ಆದರೆ ಸದಾ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బాసంతీర రాకా        ఉḓఉప తదా",
+      "కౌముదీ బితరె        ఆదరె సదా 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ба̄сантӣра ра̄ка̄        уḓупа тада̄",
+      "каумудӣ битарэ̆        а̄дарэ̆ сада̄ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബാസന്തീര രാകാ        ഉḓഉപ തദാ",
+      "കൗമുദീ ബിതരെ        ആദരെ സദാ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பா³ஸந்தீர ராகா        உḓஉப ததா³",
+      "கௌமுதீ³ பி³தரெ        ஆத³ரெ ஸதா³ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bāsantīra rākā-        uḍupa tadā",
+      "kaumudī bitare        ādare sadā 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bāsantīra rākā-        uḓupa tadā",
+      "kaumudī bitare        ādare sadā 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "emata samaye        rasikabara",
+    "ārambhila rāsa        muralīdhara 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "At such a time, the supreme relisher of nectarean mellows, Mūralīdhara Śrī Kṛṣṇa, begins the rāsa dance."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "emata",
+       "such"
+      ],
+      [
+       "samaye",
+       "at a time"
+      ],
+      [
+       "rasikabara",
+       "relisher of rasa + supreme"
+      ],
+      [
+       "ārambhila",
+       "began"
+      ],
+      [
+       "rāsa",
+       "the rāsa dance"
+      ],
+      [
+       "muralīdhara",
+       "a name for Kṛṣṇa which means “He who holds the flute”"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ऎमत",
+       "such"
+      ],
+      [
+       "समयॆ",
+       "at a time"
+      ],
+      [
+       "रसिकबर",
+       "relisher of rasa + supreme"
+      ],
+      [
+       "आरम्भिल",
+       "began"
+      ],
+      [
+       "रास",
+       "the rāsa dance"
+      ],
+      [
+       "मुरलीधर",
+       "a name for Kṛṣṇa which means “He who holds the flute”"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "এমত",
+       "such"
+      ],
+      [
+       "সময়ে",
+       "at a time"
+      ],
+      [
+       "রসিকবর",
+       "relisher of rasa + supreme"
+      ],
+      [
+       "আরম্ভিল",
+       "began"
+      ],
+      [
+       "রাস",
+       "the rāsa dance"
+      ],
+      [
+       "মুরলীধর",
+       "a name for Kṛṣṇa which means “He who holds the flute”"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "એમત",
+       "such"
+      ],
+      [
+       "સમયે",
+       "at a time"
+      ],
+      [
+       "રસિકબર",
+       "relisher of rasa + supreme"
+      ],
+      [
+       "આરમ્ભિલ",
+       "began"
+      ],
+      [
+       "રાસ",
+       "the rāsa dance"
+      ],
+      [
+       "મુરલીધર",
+       "a name for Kṛṣṇa which means “He who holds the flute”"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎमत समयॆ        रसिकबर",
+      "आरम्भिल रास        मुरलीधर ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এমত সময়ে        রসিকবর",
+      "আরম্ভিল রাস        মুরলীধর ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏମତ ସମୟେ        ରସିକବର",
+      "ଆରମ୍ଭିଲ ରାସ        ମୁରଲୀଧର ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એમત સમયે        રસિકબર",
+      "આરમ્ભિલ રાસ        મુરલીધર ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "emata samaye        rasikabara",
+      "ārambhila rāsa        muralīdhara 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎಮತ ಸಮಯೆ        ರಸಿಕಬರ",
+      "ಆರಂಭಿಲ ರಾಸ        ಮುರಲೀಧರ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎమత సమయె        రసికబర",
+      "ఆరంభిల రాస        మురలీధర 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆мата самайэ̆        расикабара",
+      "а̄рамбхила ра̄са        муралӣдхара 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എമത സമയെ        രസികബര",
+      "ആരംഭില രാസ        മുരലീധര 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எமத ஸமயெ        ரஸிகப³ர",
+      "ஆரம்பி⁴ல ராஸ        முரலீத⁴ர 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "emata samaye        rasikabara",
+      "ārambhila rāsa        muralīdhara 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "emata samaye        rasikabara",
+      "ārambhila rāsa        muralīdhara 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "śatakoṭī gopī[FLAG_HYPHEN_ALPHA]        mājhete hari",
+    "rādhā[FLAG_HYPHEN_ALPHA]saha nāce        ānanda kari’ 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "In the midst of millions of lovely cowherd damsels, Śrī Hari blissfully dances with Rādhā."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "śatakoṭī",
+       "hundreds of millions"
+      ],
+      [
+       "gopī",
+       "gopīs"
+      ],
+      [
+       "mājhete",
+       "in the midst"
+      ],
+      [
+       "hari",
+       "Śrī Hari"
+      ],
+      [
+       "rādhā",
+       "Rādhā"
+      ],
+      [
+       "saha",
+       "with"
+      ],
+      [
+       "nāce",
+       "dances"
+      ],
+      [
+       "ānanda kari’",
+       "blissfully"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "शतकॊटी",
+       "hundreds of millions"
+      ],
+      [
+       "गॊपी",
+       "gopīs"
+      ],
+      [
+       "माझॆतॆ",
+       "in the midst"
+      ],
+      [
+       "हरि",
+       "Śrī Hari"
+      ],
+      [
+       "राधा",
+       "Rādhā"
+      ],
+      [
+       "सह",
+       "with"
+      ],
+      [
+       "नाचॆ",
+       "dances"
+      ],
+      [
+       "आनन्द करिऽ",
+       "blissfully"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "শতকোটী",
+       "hundreds of millions"
+      ],
+      [
+       "গোপী",
+       "gopīs"
+      ],
+      [
+       "মাঝেতে",
+       "in the midst"
+      ],
+      [
+       "হরি",
+       "Śrī Hari"
+      ],
+      [
+       "রাধা",
+       "Rādhā"
+      ],
+      [
+       "সহ",
+       "with"
+      ],
+      [
+       "নাচে",
+       "dances"
+      ],
+      [
+       "আনন্দ করিঽ",
+       "blissfully"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "શતકોટી",
+       "hundreds of millions"
+      ],
+      [
+       "ગોપી",
+       "gopīs"
+      ],
+      [
+       "માઝેતે",
+       "in the midst"
+      ],
+      [
+       "હરિ",
+       "Śrī Hari"
+      ],
+      [
+       "રાધા",
+       "Rādhā"
+      ],
+      [
+       "સહ",
+       "with"
+      ],
+      [
+       "નાચે",
+       "dances"
+      ],
+      [
+       "આનન્દ કરિઽ",
+       "blissfully"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शतकॊटी गॊपी        माझॆतॆ हरि",
+      "राधासह नाचॆ        आनन्द करिऽ ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শতকোটী গোপী        মাঝেতে হরি",
+      "রাধাসহ নাচে        আনন্দ করিঽ ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶତକୋଟୀ ଗୋପୀ        ମାଝେତେ ହରି",
+      "ରାଧାସହ ନାଚେ        ଆନନ୍ଦ କରିଽ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શતકોટી ગોપી        માઝેતે હરિ",
+      "રાધાસહ નાચે        આનન્દ કરિઽ ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śatakoṭī gopī-        mājhete hari",
+      "rādhā-saha nāce        ānanda kari’ 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶತಕೊಟೀ ಗೊಪೀ        ಮಾಝೆತೆ ಹರಿ",
+      "ರಾಧಾಸಹ ನಾಚೆ        ಆನಂದ ಕರಿಽ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శతకొటీ గొపీ        మాఝెతె హరి",
+      "రాధాసహ నాచె        ఆనంద కరిఽ 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́атако̆т̣ӣ го̆пӣ        ма̄джхэ̆тэ̆ хари",
+      "ра̄дха̄саха на̄чэ̆        а̄нанда кари' 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശതകൊടീ ഗൊപീ        മാഝെതെ ഹരി",
+      "രാധാസഹ നാചെ        ആനന്ദ കരിഽ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶதகொடீ கொ³பீ        மாஜெ²தெ ஹரி",
+      "ராதா⁴ஸஹ நாசெ        ஆனந்த³ கரி(அ) 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śatakoṭī gopī-        mājhete hari",
+      "rādhā-saha nāce        ānanda kari’ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śatakoṭī gopī-        mājhete hari",
+      "rādhā-saha nāce        ānanda kari’ 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "mādhaba[FLAG_HYPHEN_ALPHA]mohinī        gāiyā gīta",
+    "harila sakala        jagata cita 7"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Singing beautiful songs, the enchantress of Mādhava captivates the minds of all living beings."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "mādhaba",
+       "Mādhava"
+      ],
+      [
+       "mohinī",
+       "enchantress"
+      ],
+      [
+       "gāiyā",
+       "having sung"
+      ],
+      [
+       "gīta",
+       "songs"
+      ],
+      [
+       "harila",
+       "stole"
+      ],
+      [
+       "sakala",
+       "all"
+      ],
+      [
+       "jagata",
+       "the world"
+      ],
+      [
+       "cita",
+       "minds"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "माधब",
+       "Mādhava"
+      ],
+      [
+       "मॊहिनी",
+       "enchantress"
+      ],
+      [
+       "गाइया",
+       "having sung"
+      ],
+      [
+       "गीत",
+       "songs"
+      ],
+      [
+       "हरिल",
+       "stole"
+      ],
+      [
+       "सकल",
+       "all"
+      ],
+      [
+       "जगत",
+       "the world"
+      ],
+      [
+       "चित",
+       "minds"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মাধব",
+       "Mādhava"
+      ],
+      [
+       "মোহিনী",
+       "enchantress"
+      ],
+      [
+       "গাইয়া",
+       "having sung"
+      ],
+      [
+       "গীত",
+       "songs"
+      ],
+      [
+       "হরিল",
+       "stole"
+      ],
+      [
+       "সকল",
+       "all"
+      ],
+      [
+       "জগত",
+       "the world"
+      ],
+      [
+       "চিত",
+       "minds"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "માધબ",
+       "Mādhava"
+      ],
+      [
+       "મોહિની",
+       "enchantress"
+      ],
+      [
+       "ગાઇયા",
+       "having sung"
+      ],
+      [
+       "ગીત",
+       "songs"
+      ],
+      [
+       "હરિલ",
+       "stole"
+      ],
+      [
+       "સકલ",
+       "all"
+      ],
+      [
+       "જગત",
+       "the world"
+      ],
+      [
+       "ચિત",
+       "minds"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "माधबमॊहिनी        गाइया गीत",
+      "हरिल सकल        जगत चित ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মাধবমোহিনী        গাইয়া গীত",
+      "হরিল সকল        জগত চিত ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମାଧବମୋହିନୀ        ଗାଇୟା ଗୀତ",
+      "ହରିଲ ସକଲ        ଜଗତ ଚିତ ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "માધબમોહિની        ગાઇયા ગીત",
+      "હરિલ સકલ        જગત ચિત ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "mādhaba-mohinī        gāiyā gīta",
+      "harila sakala        jagata cita 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಾಧಬಮೊಹಿನೀ        ಗಾಇಯಾ ಗೀತ",
+      "ಹರಿಲ ಸಕಲ        ಜಗತ ಚಿತ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మాధబమొహినీ        గాఇయా గీత",
+      "హరిల సకల        జగత చిత 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ма̄дхабамо̆хинӣ        га̄ийа̄ гӣта",
+      "харила сакала        джагата чита 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മാധബമൊഹിനീ        ഗാഇയാ ഗീത",
+      "ഹരില സകല        ജഗത ചിത 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மாத⁴ப³மொஹினீ        கா³இயா கீ³த",
+      "ஹரில ஸகல        ஜக³த சித 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "mādhaba-mohinī        gāiyā gīta",
+      "harila sakala        jagata cita 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "mādhaba-mohinī        gāiyā gīta",
+      "harila sakala        jagata cita 7"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 8,
+   "source_text_master": [
+    "sthābara[FLAG_HYPHEN_ALPHA]jaṅgama        mohilā satī",
+    "hārāola candrā[FLAG_HYPHEN_ALPHA]        balīra matī 8"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "All moving and non-moving beings are enchanted by the chaste Rādhā, who has defeated the pride of Candrāvalī."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "sthābara",
+       "non-moving entities (such as hills, rocks, trees and plants)"
+      ],
+      [
+       "jaṅgama",
+       "moving entities"
+      ],
+      [
+       "mohilā",
+       "captivated"
+      ],
+      [
+       "satī",
+       "living beings"
+      ],
+      [
+       "hārāola",
+       "defeated"
+      ],
+      [
+       "candrā balīra",
+       "of Candrāvalī"
+      ],
+      [
+       "matī",
+       "pride"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "स्थाबर",
+       "non-moving entities (such as hills, rocks, trees and plants)"
+      ],
+      [
+       "जङ्गम",
+       "moving entities"
+      ],
+      [
+       "मॊहिला",
+       "captivated"
+      ],
+      [
+       "सती",
+       "living beings"
+      ],
+      [
+       "हाराऒल",
+       "defeated"
+      ],
+      [
+       "चन्द्रा बलीर",
+       "of Candrāvalī"
+      ],
+      [
+       "मती",
+       "pride"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "স্থাবর",
+       "non-moving entities (such as hills, rocks, trees and plants)"
+      ],
+      [
+       "জঙ্গম",
+       "moving entities"
+      ],
+      [
+       "মোহিলা",
+       "captivated"
+      ],
+      [
+       "সতী",
+       "living beings"
+      ],
+      [
+       "হারাওল",
+       "defeated"
+      ],
+      [
+       "চন্দ্রা বলীর",
+       "of Candrāvalī"
+      ],
+      [
+       "মতী",
+       "pride"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "સ્થાબર",
+       "non-moving entities (such as hills, rocks, trees and plants)"
+      ],
+      [
+       "જઙ્ગમ",
+       "moving entities"
+      ],
+      [
+       "મોહિલા",
+       "captivated"
+      ],
+      [
+       "સતી",
+       "living beings"
+      ],
+      [
+       "હારાઓલ",
+       "defeated"
+      ],
+      [
+       "ચન્દ્રા બલીર",
+       "of Candrāvalī"
+      ],
+      [
+       "મતી",
+       "pride"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "स्थाबरजङ्गम        मॊहिला सती",
+      "हाराऒल चन्द्रा        बलीर मती ८"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "স্থাবরজঙ্গম        মোহিলা সতী",
+      "হারাওল চন্দ্রা        বলীর মতী ৮"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସ୍ଥାବରଜଙ୍ଗମ        ମୋହିଲା ସତୀ",
+      "ହାରାଓଲ ଚନ୍ଦ୍ରା        ବଲୀର ମତୀ ୮"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સ્થાબરજઙ્ગમ        મોહિલા સતી",
+      "હારાઓલ ચન્દ્રા        બલીર મતી ૮"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sthābara-jaṅgama        mohilā satī",
+      "hārāola candrā-        balīra matī 8"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸ್ಥಾಬರಜಂಗಮ        ಮೊಹಿಲಾ ಸತೀ",
+      "ಹಾರಾಒಲ ಚಂದ್ರಾ        ಬಲೀರ ಮತೀ ೮"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "స్థాబరజంగమ        మొహిలా సతీ",
+      "హారాఒల చంద్రా        బలీర మతీ 8"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "стха̄бараджан̇гама        мо̆хила̄ сатӣ",
+      "ха̄ра̄о̆ла чандра̄        балӣра матӣ 8"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സ്ഥാബരജംഗമ        മൊഹിലാ സതീ",
+      "ഹാരാഒല ചന്ദ്രാ        ബലീര മതീ 8"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸ்தா²ப³ரஜங்க³ம        மொஹிலா ஸதீ",
+      "ஹாராஒல சந்த்³ரா        ப³லீர மதீ 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sthābara-jaṅgama        mohilā satī",
+      "hārāola candrā-        balīra matī 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sthābara-jaṅgama        mohilā satī",
+      "hārāola candrā-        balīra matī 8"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 9,
+   "source_text_master": [
+    "mathiyā baraja[FLAG_HYPHEN_ALPHA]        kiśora mana",
+    "antarita haya        rādhā takhana 9"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "After churning Vraja-kiśora’s heart, Rādhārāṇī disappears from the vāsantī-rāsa. "
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "mathiyā",
+       "having churned"
+      ],
+      [
+       "baraja",
+       "Vraja's"
+      ],
+      [
+       "kiśora",
+       "youth (Śrī Kṛṣṇa)"
+      ],
+      [
+       "mana",
+       "the heart"
+      ],
+      [
+       "antarita haya",
+       "disappears"
+      ],
+      [
+       "rādhā",
+       "Śrī Rādhā"
+      ],
+      [
+       "takhana",
+       "then"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "मथिया",
+       "having churned"
+      ],
+      [
+       "बरज",
+       "Vraja's"
+      ],
+      [
+       "किशॊर",
+       "youth (Śrī Kṛṣṇa)"
+      ],
+      [
+       "मन",
+       "the heart"
+      ],
+      [
+       "अन्तरित हय",
+       "disappears"
+      ],
+      [
+       "राधा",
+       "Śrī Rādhā"
+      ],
+      [
+       "तखन",
+       "then"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "মথিয়া",
+       "having churned"
+      ],
+      [
+       "বরজ",
+       "Vraja's"
+      ],
+      [
+       "কিশোর",
+       "youth (Śrī Kṛṣṇa)"
+      ],
+      [
+       "মন",
+       "the heart"
+      ],
+      [
+       "অন্তরিত হয়",
+       "disappears"
+      ],
+      [
+       "রাধা",
+       "Śrī Rādhā"
+      ],
+      [
+       "তখন",
+       "then"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "મથિયા",
+       "having churned"
+      ],
+      [
+       "બરજ",
+       "Vraja's"
+      ],
+      [
+       "કિશોર",
+       "youth (Śrī Kṛṣṇa)"
+      ],
+      [
+       "મન",
+       "the heart"
+      ],
+      [
+       "અન્તરિત હય",
+       "disappears"
+      ],
+      [
+       "રાધા",
+       "Śrī Rādhā"
+      ],
+      [
+       "તખન",
+       "then"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "मथिया बरज        किशॊर मन",
+      "अन्तरित हय        राधा तखन ९"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "মথিয়া বরজ        কিশোর মন",
+      "অন্তরিত হয়        রাধা তখন ৯"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମଥିୟା ବରଜ        କିଶୋର ମନ",
+      "ଅନ୍ତରିତ ହୟ        ରାଧା ତଖନ ୯"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મથિયા બરજ        કિશોર મન",
+      "અન્તરિત હય        રાધા તખન ૯"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "mathiyā baraja-        kiśora mana",
+      "antarita haya        rādhā takhana 9"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮಥಿಯಾ ಬರಜ        ಕಿಶೊರ ಮನ",
+      "ಅಂತರಿತ ಹಯ        ರಾಧಾ ತಖನ ೯"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మథియా బరజ        కిశొర మన",
+      "అంతరిత హయ        రాధా తఖన 9"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "матхийа̄ бараджа        киш́о̆ра мана",
+      "антарита хайа        ра̄дха̄ такхана 9"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മഥിയാ ബരജ        കിശൊര മന",
+      "അന്തരിത ഹയ        രാധാ തഖന 9"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "மதி²யா ப³ரஜ        கிஶொர மன",
+      "அந்தரித ஹய        ராதா⁴ தக²ன 9"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "mathiyā baraja-        kiśora mana",
+      "antarita haya        rādhā takhana 9"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "mathiyā baraja-        kiśora mana",
+      "antarita haya        rādhā takhana 9"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 10,
+   "source_text_master": [
+    "bhakatibinoda         paramāda gaṇe",
+    "rāsa bhāṅgala (āji)        rādhā bihane 10"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Bhaktivinoda foresees trouble. In the absence of Rādhā, the rāsa dance has (now) stopped."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "bhakatibinoda",
+       "Bhaktivinoda"
+      ],
+      [
+       "paramāda",
+       "trouble"
+      ],
+      [
+       "gaṇe",
+       "foresees"
+      ],
+      [
+       "rāsa",
+       "the rāsa dance"
+      ],
+      [
+       "bhāṅgala",
+       "stopped"
+      ],
+      [
+       "(āji)",
+       "now"
+      ],
+      [
+       "rādhā",
+       "Śrī Rādhā"
+      ],
+      [
+       "bihane",
+       "in absence"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "भकतिबिनॊद",
+       "Bhaktivinoda"
+      ],
+      [
+       "परमाद",
+       "trouble"
+      ],
+      [
+       "गणॆ",
+       "foresees"
+      ],
+      [
+       "रास",
+       "the rāsa dance"
+      ],
+      [
+       "भाङ्गल",
+       "stopped"
+      ],
+      [
+       "(आजि)",
+       "now"
+      ],
+      [
+       "राधा",
+       "Śrī Rādhā"
+      ],
+      [
+       "बिहनॆ",
+       "in absence"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ভকতিবিনোদ",
+       "Bhaktivinoda"
+      ],
+      [
+       "পরমাদ",
+       "trouble"
+      ],
+      [
+       "গণে",
+       "foresees"
+      ],
+      [
+       "রাস",
+       "the rāsa dance"
+      ],
+      [
+       "ভাঙ্গল",
+       "stopped"
+      ],
+      [
+       "(আজি)",
+       "now"
+      ],
+      [
+       "রাধা",
+       "Śrī Rādhā"
+      ],
+      [
+       "বিহনে",
+       "in absence"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ભકતિબિનોદ",
+       "Bhaktivinoda"
+      ],
+      [
+       "પરમાદ",
+       "trouble"
+      ],
+      [
+       "ગણે",
+       "foresees"
+      ],
+      [
+       "રાસ",
+       "the rāsa dance"
+      ],
+      [
+       "ભાઙ્ગલ",
+       "stopped"
+      ],
+      [
+       "(આજિ)",
+       "now"
+      ],
+      [
+       "રાધા",
+       "Śrī Rādhā"
+      ],
+      [
+       "બિહને",
+       "in absence"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भकतिबिनॊद         परमाद गणॆ",
+      "रास भाङ्गल (आजि)        राधा बिहनॆ १०"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভকতিবিনোদ         পরমাদ গণে",
+      "রাস ভাঙ্গল (আজি)        রাধা বিহনে ১০"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭକତିବିନୋଦ         ପରମାଦ ଗଣେ",
+      "ରାସ ଭାଙ୍ଗଲ (ଆଜି)        ରାଧା ବିହନେ ୧୦"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભકતિબિનોદ         પરમાદ ગણે",
+      "રાસ ભાઙ્ગલ (આજિ)        રાધા બિહને ૧૦"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhakatibinoda         paramāda gaṇe",
+      "rāsa bhāṅgala (āji)        rādhā bihane 10"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭಕತಿಬಿನೊದ         ಪರಮಾದ ಗಣೆ",
+      "ರಾಸ ಭಾಂಗಲ (ಆಜಿ)        ರಾಧಾ ಬಿಹನೆ ೧೦"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భకతిబినొద         పరమాద గణె",
+      "రాస భాంగల (ఆజి)        రాధా బిహనె 10"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бхакатибино̆да         парама̄да ган̣э̆",
+      "ра̄са бха̄н̇гала (а̄джи)        ра̄дха̄ биханэ̆ 10"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭകതിബിനൊദ         പരമാദ ഗണെ",
+      "രാസ ഭാംഗല (ആജി)        രാധാ ബിഹനെ 10"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப⁴கதிபி³னொத³         பரமாத³ க³ணெ",
+      "ராஸ பா⁴ங்க³ல (ஆஜி)        ராதா⁴ பி³ஹனெ 10"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhakatibinoda         paramāda gaṇe",
+      "rāsa bhāṅgala (āji)        rādhā bihane 10"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhakatibinoda         paramāda gaṇe",
+      "rāsa bhāṅgala (āji)        rādhā bihane 10"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "শ্রীরাধাষ্টক ৫/৮"
+  },
+  {
+   "language_code": "ben",
+   "text": "(কৃষ্ণাকর্ষকত্ব ও সর্ব্বশ্রেষ্ঠত্ব-বর্ণন)"
+  },
+  {
+   "language_code": "ben",
+   "text": "শব্দার্থঃ- অলিকূল—ভ্রমরগণ; রাকা-উড়ুপ—পূর্ণিমার-চন্দ্র; কৌমুদী—জ্যোৎস্না ।"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "krsn-1",
+   "filename": "R18-krsn-1.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "krsn-2",
+   "filename": "R18-krsn-2.mp3",
+   "artist": "Krsnadas das"
+  },
+  {
+   "uid": "srrb-1",
+   "filename": "R18-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  },
+  {
+   "uid": "tama-1",
+   "filename": "R18-tama-1.mp3",
+   "artist": "Tamal Krsna das"
+  },
+  {
+   "uid": "tama-2",
+   "filename": "R18-tama-2.mp3",
+   "artist": "Tamal Krsna das"
+  },
+  {
+   "uid": "tama-3",
+   "filename": "R18-tama-3.mp3",
+   "artist": "Tamal Krsna das"
+  }
+ ],
+ "tags": [
+  "Śrī Rādhāṣṭaka"
+ ]
+}

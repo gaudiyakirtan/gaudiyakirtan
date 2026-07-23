@@ -1,0 +1,2147 @@
+{
+  "uid": "MS35",
+  "language_of_origin": "ben",
+  "title_main": [
+    {
+      "script_code": "Beng",
+      "text": "ভজ ভজ হরি, মন দৃঢ় করি’"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "bhaja bhaja hari, mana dṛḓha kari’"
+    },
+    {
+      "script_code": "Deva",
+      "text": "भज भज हरि, मन दृḓह करि’"
+    },
+    {
+      "script_code": "Telu",
+      "text": "భజ భజ హరి, మన దృḓహ కరి’"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಭಜ ಭಜ ಹರಿ, ಮನ ದೃḓಹ ಕರಿ’"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ப⁴ஜ ப⁴ஜ ஹரி, மன த்³ருʼḓஹ கரி’"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ഭജ ഭജ ഹരി, മന ദൃḓഹ കരി’"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "ભજ ભજ હરિ, મન દૃḓહ કરિ’"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଭଜ ଭଜ ହରି, ମନ ଦୃḓହ କରି’"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "бхаджа бхаджа хари, мана др̣ḓха кари’"
+    }
+  ],
+  "author_uid": "ldt",
+  "author_display": [
+    {
+      "script_code": "Beng",
+      "text": "শ্রীল লোচন দাস ঠাকুর"
+    },
+    {
+      "script_code": "Latn",
+      "standard": "IAST",
+      "text": "Śrīla Locana dāsa Ṭhākura"
+    },
+    {
+      "script_code": "Deva",
+      "text": "श्रील लोचन दास ठाकुर"
+    },
+    {
+      "script_code": "Telu",
+      "text": "శ్రీల లోచన దాస ఠాకుర"
+    },
+    {
+      "script_code": "Knda",
+      "text": "ಶ್ರೀಲ ಲೋಚನ ದಾಸ ಠಾಕುರ"
+    },
+    {
+      "script_code": "Taml",
+      "text": "ஶ்ரீல லோசன தா³ஸ டா²குர"
+    },
+    {
+      "script_code": "Mlym",
+      "text": "ശ്രീല ലോചന ദാസ ഠാകുര"
+    },
+    {
+      "script_code": "Gujr",
+      "text": "શ્રીલ લોચન દાસ ઠાકુર"
+    },
+    {
+      "script_code": "Orya",
+      "text": "ଶ୍ରୀଲ ଲୋଚନ ଦାସ ଠାକୁର"
+    },
+    {
+      "script_code": "Cyrl",
+      "text": "ш́рӣла лочана да̄са т̣ха̄кура"
+    }
+  ],
+  "verses": [
+    {
+      "verse_number": 1,
+      "source_text_master": [
+        "bhaja bhaja hari,    mana dṛḓha kari’,",
+        "mukhe bola tā̃’ra nāma",
+        "brajendranandana,    gopī[FLAG_HYPHEN_ALPHA]prāṇadhana,",
+        "bhubanamohana śyāma 1"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Making your mind steady, worship Śrī Hari, and with your lips, chant His holy names: Vrajendra-nandana (son of the king of Vraja), Gopī-prāṇa-dhana (treasure of the life of the gopīs), and Śyāma (dark-complexioned one), whose beauty enchants the entire universe."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "bhaja bhaja",
+              "worship, just worship"
+            ],
+            [
+              "hari",
+              "Śrī Hari"
+            ],
+            [
+              "mana",
+              "the mind"
+            ],
+            [
+              "dṛḓha kari’",
+              "having steadied"
+            ],
+            [
+              "mukhe",
+              "with the lips"
+            ],
+            [
+              "bola",
+              "chant"
+            ],
+            [
+              "tā̃’ra",
+              "His"
+            ],
+            [
+              "nāma",
+              "name"
+            ],
+            [
+              "brajendranandana",
+              "the son of the king of Vraja"
+            ],
+            [
+              "gopī",
+              "of the gopīs"
+            ],
+            [
+              "prāṇadhana",
+              "of the life + the treasure"
+            ],
+            [
+              "bhubanamohana",
+              "the universe + enchants"
+            ],
+            [
+              "śyāma",
+              "dark-complexioned one"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "भज भज",
+              "worship, just worship"
+            ],
+            [
+              "हरि",
+              "Śrī Hari"
+            ],
+            [
+              "मन",
+              "the mind"
+            ],
+            [
+              "द्ड़्ḓह करिऽ",
+              "having steadied"
+            ],
+            [
+              "मुखॆ",
+              "with the lips"
+            ],
+            [
+              "बॊल",
+              "chant"
+            ],
+            [
+              "तांऽर",
+              "His"
+            ],
+            [
+              "नाम",
+              "name"
+            ],
+            [
+              "ब्रजॆन्द्रनन्दन",
+              "the son of the king of Vraja"
+            ],
+            [
+              "गॊपी",
+              "of the gopīs"
+            ],
+            [
+              "प्राणधन",
+              "of the life + the treasure"
+            ],
+            [
+              "भुबनमॊहन",
+              "the universe + enchants"
+            ],
+            [
+              "श्याम",
+              "dark-complexioned one"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "ভজ ভজ",
+              "worship, just worship"
+            ],
+            [
+              "হরি",
+              "Śrī Hari"
+            ],
+            [
+              "মন",
+              "the mind"
+            ],
+            [
+              "দ্ড়্ḓহ করিঽ",
+              "having steadied"
+            ],
+            [
+              "মুখে",
+              "with the lips"
+            ],
+            [
+              "বোল",
+              "chant"
+            ],
+            [
+              "তাংঽর",
+              "His"
+            ],
+            [
+              "নাম",
+              "name"
+            ],
+            [
+              "ব্রজেন্দ্রনন্দন",
+              "the son of the king of Vraja"
+            ],
+            [
+              "গোপী",
+              "of the gopīs"
+            ],
+            [
+              "প্রাণধন",
+              "of the life + the treasure"
+            ],
+            [
+              "ভুবনমোহন",
+              "the universe + enchants"
+            ],
+            [
+              "শ্যাম",
+              "dark-complexioned one"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "ભજ ભજ",
+              "worship, just worship"
+            ],
+            [
+              "હરિ",
+              "Śrī Hari"
+            ],
+            [
+              "મન",
+              "the mind"
+            ],
+            [
+              "દ્ડ઼્ḓહ કરિઽ",
+              "having steadied"
+            ],
+            [
+              "મુખે",
+              "with the lips"
+            ],
+            [
+              "બોલ",
+              "chant"
+            ],
+            [
+              "તાંઽર",
+              "His"
+            ],
+            [
+              "નામ",
+              "name"
+            ],
+            [
+              "બ્રજેન્દ્રનન્દન",
+              "the son of the king of Vraja"
+            ],
+            [
+              "ગોપી",
+              "of the gopīs"
+            ],
+            [
+              "પ્રાણધન",
+              "of the life + the treasure"
+            ],
+            [
+              "ભુબનમોહન",
+              "the universe + enchants"
+            ],
+            [
+              "શ્યામ",
+              "dark-complexioned one"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "भज भज हरि,    मन द्ड़्ḓह करिऽ,",
+            "मुखॆ बॊल तांऽर नाम",
+            "ब्रजॆन्द्रनन्दन,    गॊपीप्राणधन,",
+            "भुबनमॊहन श्याम १"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "ভজ ভজ হরি,    মন দ্ড়্ḓহ করিঽ,",
+            "মুখে বোল তাংঽর নাম",
+            "ব্রজেন্দ্রনন্দন,    গোপীপ্রাণধন,",
+            "ভুবনমোহন শ্যাম ১"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଭଜ ଭଜ ହରି,    ମନ ଦ୍ଡ଼୍ḓହ କରିଽ,",
+            "ମୁଖେ ବୋଲ ତାଂଽର ନାମ",
+            "ବ୍ରଜେନ୍ଦ୍ରନନ୍ଦନ,    ଗୋପୀପ୍ରାଣଧନ,",
+            "ଭୁବନମୋହନ ଶ୍ୟାମ ୧"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "ભજ ભજ હરિ,    મન દ્ડ઼્ḓહ કરિઽ,",
+            "મુખે બોલ તાંઽર નામ",
+            "બ્રજેન્દ્રનન્દન,    ગોપીપ્રાણધન,",
+            "ભુબનમોહન શ્યામ ૧"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "bhaja bhaja hari,    mana dṛḓha kari’,",
+            "mukhe bola tā̃’ra nāma",
+            "brajendranandana,    gopī-prāṇadhana,",
+            "bhubanamohana śyāma 1"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಭಜ ಭಜ ಹರಿ,    ಮನ ದ್‌ಡ಼್ḓಹ ಕರಿಽ,",
+            "ಮುಖೆ ಬೊಲ ತಾಂಽರ ನಾಮ",
+            "ಬ್ರಜೆಂದ್ರನಂದನ,    ಗೊಪೀಪ್ರಾಣಧನ,",
+            "ಭುಬನಮೊಹನ ಶ್ಯಾಮ ೧"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "భజ భజ హరి,    మన ద్డ్ḓహ కరిఽ,",
+            "ముఖె బొల తాంఽర నామ",
+            "బ్రజెంద్రనందన,    గొపీప్రాణధన,",
+            "భుబనమొహన శ్యామ 1"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "бхаджа бхаджа хари,    мана др̤ḓха кари',",
+            "мукхэ̆ бо̆ла та̄м̣'ра на̄ма",
+            "браджэ̆ндранандана,    го̆пӣпра̄н̣адхана,",
+            "бхубанамо̆хана ш́йа̄ма 1"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "ഭജ ഭജ ഹരി,    മന ദ്ഡ്ḓഹ കരിഽ,",
+            "മുഖെ ബൊല താംഽര നാമ",
+            "ബ്രജെന്ദ്രനന്ദന,    ഗൊപീപ്രാണധന,",
+            "ഭുബനമൊഹന ശ്യാമ 1"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "ப⁴ஜ ப⁴ஜ ஹரி,    மன த்³ஃட்²ḓஹ கரி(அ),",
+            "முகெ² பொ³ல தாம்ʼ(அ)ர நாம",
+            "ப்³ரஜெந்த்³ரநந்த³ன,    கொ³பீப்ராணத⁴ன,",
+            "பு⁴ப³னமொஹன ஶ்யாம 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "bhaja bhaja hari,    mana dṛḍha kari’,",
+            "mukhe bola tā̃’ra nāma",
+            "brajendranandana,    gopī-prāṇadhana,",
+            "bhubanamohana śyāma 1"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "bhaja bhaja hari,    mana dṛḓha kari’,",
+            "mukhe bola tā̃’ra nāma",
+            "brajendranandana,    gopī-prāṇadhana,",
+            "bhubanamohana śyāma 1"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 2,
+      "source_text_master": [
+        "kakhana maribe,    kemane taribe,",
+        "biṣama śamana ḍāke",
+        "yā̃hāra pratāpe,    bhubana kā̃paye,",
+        "nā jāni mara bipāke 2"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "When will you die? How will you be delivered? The fearsome lord of death, at whose power the universe quakes, is calling. You do not realize the mortal danger."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "kakhana",
+              "when"
+            ],
+            [
+              "maribe",
+              "you will die"
+            ],
+            [
+              "kemane",
+              "how"
+            ],
+            [
+              "taribe",
+              "you will be delivered"
+            ],
+            [
+              "biṣama",
+              "fearsome"
+            ],
+            [
+              "śamana",
+              "lord of death"
+            ],
+            [
+              "ḍāke",
+              "calls"
+            ],
+            [
+              "yā̃hāra",
+              "whose"
+            ],
+            [
+              "pratāpe",
+              "by power, domineering influence"
+            ],
+            [
+              "bhubana",
+              "the universe"
+            ],
+            [
+              "kā̃paye",
+              "quakes"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "jāni",
+              "I know"
+            ],
+            [
+              "mara",
+              "my"
+            ],
+            [
+              "bipāke",
+              "predicament"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "कखन",
+              "when"
+            ],
+            [
+              "मरिबॆ",
+              "you will die"
+            ],
+            [
+              "कॆमनॆ",
+              "how"
+            ],
+            [
+              "तरिबॆ",
+              "you will be delivered"
+            ],
+            [
+              "बिषम",
+              "fearsome"
+            ],
+            [
+              "शमन",
+              "lord of death"
+            ],
+            [
+              "डाकॆ",
+              "calls"
+            ],
+            [
+              "यांहार",
+              "whose"
+            ],
+            [
+              "प्रतापॆ",
+              "by power, domineering influence"
+            ],
+            [
+              "भुबन",
+              "the universe"
+            ],
+            [
+              "कांपयॆ",
+              "quakes"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "जानि",
+              "I know"
+            ],
+            [
+              "मर",
+              "my"
+            ],
+            [
+              "बिपाकॆ",
+              "predicament"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "কখন",
+              "when"
+            ],
+            [
+              "মরিবে",
+              "you will die"
+            ],
+            [
+              "কেমনে",
+              "how"
+            ],
+            [
+              "তরিবে",
+              "you will be delivered"
+            ],
+            [
+              "বিষম",
+              "fearsome"
+            ],
+            [
+              "শমন",
+              "lord of death"
+            ],
+            [
+              "ডাকে",
+              "calls"
+            ],
+            [
+              "যাংহার",
+              "whose"
+            ],
+            [
+              "প্রতাপে",
+              "by power, domineering influence"
+            ],
+            [
+              "ভুবন",
+              "the universe"
+            ],
+            [
+              "কাম্পয়ে",
+              "quakes"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "জানি",
+              "I know"
+            ],
+            [
+              "মর",
+              "my"
+            ],
+            [
+              "বিপাকে",
+              "predicament"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "કખન",
+              "when"
+            ],
+            [
+              "મરિબે",
+              "you will die"
+            ],
+            [
+              "કેમને",
+              "how"
+            ],
+            [
+              "તરિબે",
+              "you will be delivered"
+            ],
+            [
+              "બિષમ",
+              "fearsome"
+            ],
+            [
+              "શમન",
+              "lord of death"
+            ],
+            [
+              "ડાકે",
+              "calls"
+            ],
+            [
+              "યાંહાર",
+              "whose"
+            ],
+            [
+              "પ્રતાપે",
+              "by power, domineering influence"
+            ],
+            [
+              "ભુબન",
+              "the universe"
+            ],
+            [
+              "કાંપયે",
+              "quakes"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "જાનિ",
+              "I know"
+            ],
+            [
+              "મર",
+              "my"
+            ],
+            [
+              "બિપાકે",
+              "predicament"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कखन मरिबॆ,    कॆमनॆ तरिबॆ,",
+            "बिषम शमन डाकॆ",
+            "यांहार प्रतापॆ,    भुबन कांपयॆ,",
+            "ना जानि मर बिपाकॆ २"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কখন মরিবে,    কেমনে তরিবে,",
+            "বিষম শমন ডাকে",
+            "যাংহার প্রতাপে,    ভুবন কাম্পয়ে,",
+            "না জানি মর বিপাকে ২"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କଖନ ମରିବେ,    କେମନେ ତରିବେ,",
+            "ବିଷମ ଶମନ ଡାକେ",
+            "ଯାଂହାର ପ୍ରତାପେ,    ଭୁବନ କାମ୍ପୟେ,",
+            "ନା ଜାନି ମର ବିପାକେ ୨"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કખન મરિબે,    કેમને તરિબે,",
+            "બિષમ શમન ડાકે",
+            "યાંહાર પ્રતાપે,    ભુબન કાંપયે,",
+            "ના જાનિ મર બિપાકે ૨"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kakhana maribe,    kemane taribe,",
+            "biṣama śamana ḍāke",
+            "yā̃hāra pratāpe,    bhubana kā̃paye,",
+            "nā jāni mara bipāke 2"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕಖನ ಮರಿಬೆ,    ಕೆಮನೆ ತರಿಬೆ,",
+            "ಬಿಷಮ ಶಮನ ಡಾಕೆ",
+            "ಯಾಂಹಾರ ಪ್ರತಾಪೆ,    ಭುಬನ ಕಾಂಪಯೆ,",
+            "ನಾ ಜಾನಿ ಮರ ಬಿಪಾಕೆ ೨"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కఖన మరిబె,    కెమనె తరిబె,",
+            "బిషమ శమన డాకె",
+            "యాంహార ప్రతాపె,    భుబన కాంపయె,",
+            "నా జాని మర బిపాకె 2"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "какхана марибэ̆,    кэ̆манэ̆ тарибэ̆,",
+            "бишама ш́амана д̣а̄кэ̆",
+            "йа̄м̣ха̄ра прата̄пэ̆,    бхубана ка̄м̣пайэ̆,",
+            "на̄ джа̄ни мара бипа̄кэ̆ 2"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കഖന മരിബെ,    കെമനെ തരിബെ,",
+            "ബിഷമ ശമന ഡാകെ",
+            "യാംഹാര പ്രതാപെ,    ഭുബന കാമ്പയെ,",
+            "നാ ജാനി മര ബിപാകെ 2"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கக²ன மரிபெ³,    கெமனெ தரிபெ³,",
+            "பி³ஷம ஶமன டா³கெ",
+            "யாம்ʼஹார ப்ரதாபெ,    பு⁴ப³ன காம்பயெ,",
+            "நா ஜானி மர பி³பாகெ 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kakhana maribe,    kemane taribe,",
+            "biṣama śamana ḍāke",
+            "yā̃hāra pratāpe,    bhubana kā̃paye,",
+            "nā jāni mara bipāke 2"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kakhana maribe,    kemane taribe,",
+            "biṣama śamana ḍāke",
+            "yā̃hāra pratāpe,    bhubana kā̃paye,",
+            "nā jāni mara bipāke 2"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 3,
+      "source_text_master": [
+        "kula[FLAG_HYPHEN_ALPHA]dhana pāiyā,    unamata haiyā,",
+        "āpanāke jāna baḓa",
+        "śamanera dūte,    dhari’ pāye hāte,",
+        "bā̃dhiyā karibe jaḓa 3"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Intoxicated by your high birth and wealth, you think yourself very great. Yet the messengers of the lord of death will render you inert by capturing you and binding your hands and feet."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "kula",
+              "noble birth, aristacracy"
+            ],
+            [
+              "dhana",
+              "wealth"
+            ],
+            [
+              "pāiyā",
+              "having attained"
+            ],
+            [
+              "unamata",
+              "intoxicated"
+            ],
+            [
+              "haiyā",
+              "having become"
+            ],
+            [
+              "āpanāke",
+              "to yourself"
+            ],
+            [
+              "jāna",
+              "you think"
+            ],
+            [
+              "baḓa",
+              "great"
+            ],
+            [
+              "śamanera",
+              "of the lord of death"
+            ],
+            [
+              "dūte",
+              "by the messengers"
+            ],
+            [
+              "dhari’",
+              "having clutched"
+            ],
+            [
+              "pāye",
+              "by feet"
+            ],
+            [
+              "hāte",
+              "by hands"
+            ],
+            [
+              "bā̃dhiyā",
+              "having bound"
+            ],
+            [
+              "karibe",
+              "they will render"
+            ],
+            [
+              "jaḓa",
+              "inert"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "कुल",
+              "noble birth, aristacracy"
+            ],
+            [
+              "धन",
+              "wealth"
+            ],
+            [
+              "पाइया",
+              "having attained"
+            ],
+            [
+              "उनमत",
+              "intoxicated"
+            ],
+            [
+              "हैया",
+              "having become"
+            ],
+            [
+              "आपनाकॆ",
+              "to yourself"
+            ],
+            [
+              "जान",
+              "you think"
+            ],
+            [
+              "बḓअ",
+              "great"
+            ],
+            [
+              "शमनॆर",
+              "of the lord of death"
+            ],
+            [
+              "दूतॆ",
+              "by the messengers"
+            ],
+            [
+              "धरिऽ",
+              "having clutched"
+            ],
+            [
+              "पायॆ",
+              "by feet"
+            ],
+            [
+              "हातॆ",
+              "by hands"
+            ],
+            [
+              "बांधिया",
+              "having bound"
+            ],
+            [
+              "करिबॆ",
+              "they will render"
+            ],
+            [
+              "जḓअ",
+              "inert"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "কুল",
+              "noble birth, aristacracy"
+            ],
+            [
+              "ধন",
+              "wealth"
+            ],
+            [
+              "পাইয়া",
+              "having attained"
+            ],
+            [
+              "উনমত",
+              "intoxicated"
+            ],
+            [
+              "হৈয়া",
+              "having become"
+            ],
+            [
+              "আপনাকে",
+              "to yourself"
+            ],
+            [
+              "জান",
+              "you think"
+            ],
+            [
+              "বḓঅ",
+              "great"
+            ],
+            [
+              "শমনের",
+              "of the lord of death"
+            ],
+            [
+              "দূতে",
+              "by the messengers"
+            ],
+            [
+              "ধরিঽ",
+              "having clutched"
+            ],
+            [
+              "পায়ে",
+              "by feet"
+            ],
+            [
+              "হাতে",
+              "by hands"
+            ],
+            [
+              "বান্ধিয়া",
+              "having bound"
+            ],
+            [
+              "করিবে",
+              "they will render"
+            ],
+            [
+              "জḓঅ",
+              "inert"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "કુલ",
+              "noble birth, aristacracy"
+            ],
+            [
+              "ધન",
+              "wealth"
+            ],
+            [
+              "પાઇયા",
+              "having attained"
+            ],
+            [
+              "ઉનમત",
+              "intoxicated"
+            ],
+            [
+              "હૈયા",
+              "having become"
+            ],
+            [
+              "આપનાકે",
+              "to yourself"
+            ],
+            [
+              "જાન",
+              "you think"
+            ],
+            [
+              "બḓઅ",
+              "great"
+            ],
+            [
+              "શમનેર",
+              "of the lord of death"
+            ],
+            [
+              "દૂતે",
+              "by the messengers"
+            ],
+            [
+              "ધરિઽ",
+              "having clutched"
+            ],
+            [
+              "પાયે",
+              "by feet"
+            ],
+            [
+              "હાતે",
+              "by hands"
+            ],
+            [
+              "બાંધિયા",
+              "having bound"
+            ],
+            [
+              "કરિબે",
+              "they will render"
+            ],
+            [
+              "જḓઅ",
+              "inert"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "कुलधन पाइया,    उनमत हैया,",
+            "आपनाकॆ जान बḓअ",
+            "शमनॆर दूतॆ,    धरिऽ पायॆ हातॆ,",
+            "बांधिया करिबॆ जḓअ ३"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কুলধন পাইয়া,    উনমত হৈয়া,",
+            "আপনাকে জান বḓঅ",
+            "শমনের দূতে,    ধরিঽ পায়ে হাতে,",
+            "বান্ধিয়া করিবে জḓঅ ৩"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କୁଲଧନ ପାଇୟା,    ଉନମତ ହୈୟା,",
+            "ଆପନାକେ ଜାନ ବḓଅ",
+            "ଶମନେର ଦୂତେ,    ଧରିଽ ପାୟେ ହାତେ,",
+            "ବାନ୍ଧିୟା କରିବେ ଜḓଅ ୩"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કુલધન પાઇયા,    ઉનમત હૈયા,",
+            "આપનાકે જાન બḓઅ",
+            "શમનેર દૂતે,    ધરિઽ પાયે હાતે,",
+            "બાંધિયા કરિબે જḓઅ ૩"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kula-dhana pāiyā,    unamata haiyā,",
+            "āpanāke jāna baḓa",
+            "śamanera dūte,    dhari’ pāye hāte,",
+            "bā̃dhiyā karibe jaḓa 3"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕುಲಧನ ಪಾಇಯಾ,    ಉನಮತ ಹೈಯಾ,",
+            "ಆಪನಾಕೆ ಜಾನ ಬḓಅ",
+            "ಶಮನೆರ ದೂತೆ,    ಧರಿಽ ಪಾಯೆ ಹಾತೆ,",
+            "ಬಾಂಧಿಯಾ ಕರಿಬೆ ಜḓಅ ೩"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కులధన పాఇయా,    ఉనమత హైయా,",
+            "ఆపనాకె జాన బḓఅ",
+            "శమనెర దూతె,    ధరిఽ పాయె హాతె,",
+            "బాంధియా కరిబె జḓఅ 3"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "куладхана па̄ийа̄,    унамата хаийа̄,",
+            "а̄пана̄кэ̆ джа̄на баḓа",
+            "ш́аманэ̆ра дӯтэ̆,    дхари' па̄йэ̆ ха̄тэ̆,",
+            "ба̄м̣дхийа̄ карибэ̆ джаḓа 3"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കുലധന പാഇയാ,    ഉനമത ഹൈയാ,",
+            "ആപനാകെ ജാന ബḓഅ",
+            "ശമനെര ദൂതെ,    ധരിഽ പായെ ഹാതെ,",
+            "ബാന്ധിയാ കരിബെ ജḓഅ 3"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "குலத⁴ன பாஇயா,    உனமத ஹையா,",
+            "ஆபனாகெ ஜான ப³ḓஅ",
+            "ஶமனெர தூ³தெ,    த⁴ரி(அ) பாயெ ஹாதெ,",
+            "பா³ந்தி⁴யா கரிபெ³ ஜḓஅ 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kula-dhana pāiyā,    unamata haiyā,",
+            "āpanāke jāna baḍa",
+            "śamanera dūte,    dhari’ pāye hāte,",
+            "bā̃dhiyā karibe jaḍa 3"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kula-dhana pāiyā,    unamata haiyā,",
+            "āpanāke jāna baḓa",
+            "śamanera dūte,    dhari’ pāye hāte,",
+            "bā̃dhiyā karibe jaḓa 3"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 4,
+      "source_text_master": [
+        "kibā yati, satī,    kibā nīca jāti,",
+        "yei hari nāhi bhaje",
+        "tabe janamiyā,    bhramiyā bhramiyā,",
+        "rauraba[FLAG_HYPHEN_ALPHA]narake maje 4"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "Whether one is renounced, chaste, or low-caste, if he does not worship Śrī Hari, then he will take birth, wander within the material world, and drown in the hell known as Raurava."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "kibā",
+              "whether"
+            ],
+            [
+              "yati",
+              "renounced"
+            ],
+            [
+              "satī",
+              "chaste"
+            ],
+            [
+              "kibā",
+              "whether"
+            ],
+            [
+              "nīca",
+              "low"
+            ],
+            [
+              "jāti",
+              "caste"
+            ],
+            [
+              "yei",
+              "he who"
+            ],
+            [
+              "hari",
+              "Śrī Hari"
+            ],
+            [
+              "nāhi",
+              "not"
+            ],
+            [
+              "bhaje",
+              "worships"
+            ],
+            [
+              "tabe",
+              "then"
+            ],
+            [
+              "janamiyā",
+              "having taken birth"
+            ],
+            [
+              "bhramiyā bhramiyā",
+              "wondering and wondering"
+            ],
+            [
+              "rauraba",
+              "Raurava"
+            ],
+            [
+              "narake",
+              "in the hell"
+            ],
+            [
+              "maje",
+              "drowns"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "किबा",
+              "whether"
+            ],
+            [
+              "यति",
+              "renounced"
+            ],
+            [
+              "सती",
+              "chaste"
+            ],
+            [
+              "किबा",
+              "whether"
+            ],
+            [
+              "नीच",
+              "low"
+            ],
+            [
+              "जाति",
+              "caste"
+            ],
+            [
+              "यॆइ",
+              "he who"
+            ],
+            [
+              "हरि",
+              "Śrī Hari"
+            ],
+            [
+              "नाहि",
+              "not"
+            ],
+            [
+              "भजॆ",
+              "worships"
+            ],
+            [
+              "तबॆ",
+              "then"
+            ],
+            [
+              "जनमिया",
+              "having taken birth"
+            ],
+            [
+              "भ्रमिया भ्रमिया",
+              "wondering and wondering"
+            ],
+            [
+              "रौरब",
+              "Raurava"
+            ],
+            [
+              "नरकॆ",
+              "in the hell"
+            ],
+            [
+              "मजॆ",
+              "drowns"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "কিবা",
+              "whether"
+            ],
+            [
+              "যতি",
+              "renounced"
+            ],
+            [
+              "সতী",
+              "chaste"
+            ],
+            [
+              "কিবা",
+              "whether"
+            ],
+            [
+              "নীচ",
+              "low"
+            ],
+            [
+              "জাতি",
+              "caste"
+            ],
+            [
+              "যেই",
+              "he who"
+            ],
+            [
+              "হরি",
+              "Śrī Hari"
+            ],
+            [
+              "নাহি",
+              "not"
+            ],
+            [
+              "ভজে",
+              "worships"
+            ],
+            [
+              "তবে",
+              "then"
+            ],
+            [
+              "জনমিয়া",
+              "having taken birth"
+            ],
+            [
+              "ভ্রমিয়া ভ্রমিয়া",
+              "wondering and wondering"
+            ],
+            [
+              "রৌরব",
+              "Raurava"
+            ],
+            [
+              "নরকে",
+              "in the hell"
+            ],
+            [
+              "মজে",
+              "drowns"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "કિબા",
+              "whether"
+            ],
+            [
+              "યતિ",
+              "renounced"
+            ],
+            [
+              "સતી",
+              "chaste"
+            ],
+            [
+              "કિબા",
+              "whether"
+            ],
+            [
+              "નીચ",
+              "low"
+            ],
+            [
+              "જાતિ",
+              "caste"
+            ],
+            [
+              "યેઇ",
+              "he who"
+            ],
+            [
+              "હરિ",
+              "Śrī Hari"
+            ],
+            [
+              "નાહિ",
+              "not"
+            ],
+            [
+              "ભજે",
+              "worships"
+            ],
+            [
+              "તબે",
+              "then"
+            ],
+            [
+              "જનમિયા",
+              "having taken birth"
+            ],
+            [
+              "ભ્રમિયા ભ્રમિયા",
+              "wondering and wondering"
+            ],
+            [
+              "રૌરબ",
+              "Raurava"
+            ],
+            [
+              "નરકે",
+              "in the hell"
+            ],
+            [
+              "મજે",
+              "drowns"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "किबा यति, सती,    किबा नीच जाति,",
+            "यॆइ हरि नाहि भजॆ",
+            "तबॆ जनमिया,    भ्रमिया भ्रमिया,",
+            "रौरबनरकॆ मजॆ ४"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "কিবা যতি, সতী,    কিবা নীচ জাতি,",
+            "যেই হরি নাহি ভজে",
+            "তবে জনমিয়া,    ভ্রমিয়া ভ্রমিয়া,",
+            "রৌরবনরকে মজে ৪"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "କିବା ଯତି, ସତୀ,    କିବା ନୀଚ ଜାତି,",
+            "ଯେଇ ହରି ନାହି ଭଜେ",
+            "ତବେ ଜନମିୟା,    ଭ୍ରମିୟା ଭ୍ରମିୟା,",
+            "ରୌରବନରକେ ମଜେ ୪"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "કિબા યતિ, સતી,    કિબા નીચ જાતિ,",
+            "યેઇ હરિ નાહિ ભજે",
+            "તબે જનમિયા,    ભ્રમિયા ભ્રમિયા,",
+            "રૌરબનરકે મજે ૪"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "kibā yati, satī,    kibā nīca jāti,",
+            "yei hari nāhi bhaje",
+            "tabe janamiyā,    bhramiyā bhramiyā,",
+            "rauraba-narake maje 4"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಕಿಬಾ ಯತಿ, ಸತೀ,    ಕಿಬಾ ನೀಚ ಜಾತಿ,",
+            "ಯೆಇ ಹರಿ ನಾಹಿ ಭಜೆ",
+            "ತಬೆ ಜನಮಿಯಾ,    ಭ್ರಮಿಯಾ ಭ್ರಮಿಯಾ,",
+            "ರೌರಬನರಕೆ ಮಜೆ ೪"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "కిబా యతి, సతీ,    కిబా నీచ జాతి,",
+            "యెఇ హరి నాహి భజె",
+            "తబె జనమియా,    భ్రమియా భ్రమియా,",
+            "రౌరబనరకె మజె 4"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "киба̄ йати, сатӣ,    киба̄ нӣча джа̄ти,",
+            "йэ̆и хари на̄хи бхаджэ̆",
+            "табэ̆ джанамийа̄,    бхрамийа̄ бхрамийа̄,",
+            "раурабанаракэ̆ маджэ̆ 4"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "കിബാ യതി, സതീ,    കിബാ നീച ജാതി,",
+            "യെഇ ഹരി നാഹി ഭജെ",
+            "തബെ ജനമിയാ,    ഭ്രമിയാ ഭ്രമിയാ,",
+            "രൗരബനരകെ മജെ 4"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "கிபா³ யதி, ஸதீ,    கிபா³ நீச ஜாதி,",
+            "யெஇ ஹரி நாஹி ப⁴ஜெ",
+            "தபெ³ ஜனமியா,    ப்⁴ரமியா ப்⁴ரமியா,",
+            "ரௌரப³நரகெ மஜெ 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "kibā yati, satī,    kibā nīca jāti,",
+            "yei hari nāhi bhaje",
+            "tabe janamiyā,    bhramiyā bhramiyā,",
+            "rauraba-narake maje 4"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "kibā yati, satī,    kibā nīca jāti,",
+            "yei hari nāhi bhaje",
+            "tabe janamiyā,    bhramiyā bhramiyā,",
+            "rauraba-narake maje 4"
+          ]
+        }
+      ]
+    },
+    {
+      "verse_number": 5,
+      "source_text_master": [
+        "e dāsa locana,    bhābe anukṣaṇa,",
+        "bṛthāi janama gela",
+        "hari nā bhajinu,    biṣaye majinu,",
+        "hṛdaye rahala śela 5"
+      ],
+      "translations": [
+        {
+          "language_code": "eng",
+          "text": [
+            "This Locana dāsa always contemplates how his life has passed in vain. I have not worshiped Śrī Hari; rather I have absorbed myself in sense enjoyment, and thus a spear pierces my heart."
+          ]
+        }
+      ],
+      "word_to_words": [
+        {
+          "language_code": "eng",
+          "script_code": "Latn",
+          "words": [
+            [
+              "e",
+              "this"
+            ],
+            [
+              "dāsa locana",
+              "Locana dāsa"
+            ],
+            [
+              "bhābe",
+              "contemplates"
+            ],
+            [
+              "anukṣaṇa",
+              "always"
+            ],
+            [
+              "bṛthāi",
+              "in vain"
+            ],
+            [
+              "janama",
+              "birth"
+            ],
+            [
+              "gela",
+              "passed"
+            ],
+            [
+              "hari",
+              "Śrī Hari"
+            ],
+            [
+              "nā",
+              "not"
+            ],
+            [
+              "bhajinu",
+              "I have worshipped"
+            ],
+            [
+              "biṣaye",
+              "in sense enjoyment"
+            ],
+            [
+              "majinu",
+              "I have absorbed"
+            ],
+            [
+              "hṛdaye",
+              "in heart"
+            ],
+            [
+              "rahala",
+              "pierces"
+            ],
+            [
+              "śela",
+              "a spear"
+            ]
+          ],
+          "standard": "IAST"
+        },
+        {
+          "language_code": "hin",
+          "script_code": "Deva",
+          "standard": null,
+          "words": [
+            [
+              "ऎ",
+              "this"
+            ],
+            [
+              "दास लॊचन",
+              "Locana dāsa"
+            ],
+            [
+              "भाबॆ",
+              "contemplates"
+            ],
+            [
+              "अनुक्षण",
+              "always"
+            ],
+            [
+              "ब्ड़्थाइ",
+              "in vain"
+            ],
+            [
+              "जनम",
+              "birth"
+            ],
+            [
+              "गॆल",
+              "passed"
+            ],
+            [
+              "हरि",
+              "Śrī Hari"
+            ],
+            [
+              "ना",
+              "not"
+            ],
+            [
+              "भजिनु",
+              "I have worshipped"
+            ],
+            [
+              "बिषयॆ",
+              "in sense enjoyment"
+            ],
+            [
+              "मजिनु",
+              "I have absorbed"
+            ],
+            [
+              "ह्ड़्दयॆ",
+              "in heart"
+            ],
+            [
+              "रहल",
+              "pierces"
+            ],
+            [
+              "शॆल",
+              "a spear"
+            ]
+          ]
+        },
+        {
+          "language_code": "ben",
+          "script_code": "Beng",
+          "standard": null,
+          "words": [
+            [
+              "এ",
+              "this"
+            ],
+            [
+              "দাস লোচন",
+              "Locana dāsa"
+            ],
+            [
+              "ভাবে",
+              "contemplates"
+            ],
+            [
+              "অনুক্ষণ",
+              "always"
+            ],
+            [
+              "ব্ড়্থাই",
+              "in vain"
+            ],
+            [
+              "জনম",
+              "birth"
+            ],
+            [
+              "গেল",
+              "passed"
+            ],
+            [
+              "হরি",
+              "Śrī Hari"
+            ],
+            [
+              "না",
+              "not"
+            ],
+            [
+              "ভজিনু",
+              "I have worshipped"
+            ],
+            [
+              "বিষয়ে",
+              "in sense enjoyment"
+            ],
+            [
+              "মজিনু",
+              "I have absorbed"
+            ],
+            [
+              "হ্ড়্দয়ে",
+              "in heart"
+            ],
+            [
+              "রহল",
+              "pierces"
+            ],
+            [
+              "শেল",
+              "a spear"
+            ]
+          ]
+        },
+        {
+          "language_code": "guj",
+          "script_code": "Gujr",
+          "standard": null,
+          "words": [
+            [
+              "એ",
+              "this"
+            ],
+            [
+              "દાસ લોચન",
+              "Locana dāsa"
+            ],
+            [
+              "ભાબે",
+              "contemplates"
+            ],
+            [
+              "અનુક્ષણ",
+              "always"
+            ],
+            [
+              "બ્ડ઼્થાઇ",
+              "in vain"
+            ],
+            [
+              "જનમ",
+              "birth"
+            ],
+            [
+              "ગેલ",
+              "passed"
+            ],
+            [
+              "હરિ",
+              "Śrī Hari"
+            ],
+            [
+              "ના",
+              "not"
+            ],
+            [
+              "ભજિનુ",
+              "I have worshipped"
+            ],
+            [
+              "બિષયે",
+              "in sense enjoyment"
+            ],
+            [
+              "મજિનુ",
+              "I have absorbed"
+            ],
+            [
+              "હ્ડ઼્દયે",
+              "in heart"
+            ],
+            [
+              "રહલ",
+              "pierces"
+            ],
+            [
+              "શેલ",
+              "a spear"
+            ]
+          ]
+        }
+      ],
+      "display_scripts": [
+        {
+          "script_code": "Deva",
+          "standard": null,
+          "text": [
+            "ऎ दास लॊचन,    भाबॆ अनुक्षण,",
+            "ब्ड़्थाइ जनम गॆल",
+            "हरि ना भजिनु,    बिषयॆ मजिनु,",
+            "ह्ड़्दयॆ रहल शॆल ५"
+          ]
+        },
+        {
+          "script_code": "Beng",
+          "standard": null,
+          "text": [
+            "এ দাস লোচন,    ভাবে অনুক্ষণ,",
+            "ব্ড়্থাই জনম গেল",
+            "হরি না ভজিনু,    বিষয়ে মজিনু,",
+            "হ্ড়্দয়ে রহল শেল ৫"
+          ]
+        },
+        {
+          "script_code": "Orya",
+          "standard": null,
+          "text": [
+            "ଏ ଦାସ ଲୋଚନ,    ଭାବେ ଅନୁକ୍ଷଣ,",
+            "ବ୍ଡ଼୍ଥାଇ ଜନମ ଗେଲ",
+            "ହରି ନା ଭଜିନୁ,    ବିଷୟେ ମଜିନୁ,",
+            "ହ୍ଡ଼୍ଦୟେ ରହଲ ଶେଲ ୫"
+          ]
+        },
+        {
+          "script_code": "Gujr",
+          "standard": null,
+          "text": [
+            "એ દાસ લોચન,    ભાબે અનુક્ષણ,",
+            "બ્ડ઼્થાઇ જનમ ગેલ",
+            "હરિ ના ભજિનુ,    બિષયે મજિનુ,",
+            "હ્ડ઼્દયે રહલ શેલ ૫"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "IAST",
+          "text": [
+            "e dāsa locana,    bhābe anukṣaṇa,",
+            "bṛthāi janama gela",
+            "hari nā bhajinu,    biṣaye majinu,",
+            "hṛdaye rahala śela 5"
+          ]
+        },
+        {
+          "script_code": "Knda",
+          "standard": null,
+          "text": [
+            "ಎ ದಾಸ ಲೊಚನ,    ಭಾಬೆ ಅನುಕ್ಷಣ,",
+            "ಬ್‌ಡ಼್ಥಾಇ ಜನಮ ಗೆಲ",
+            "ಹರಿ ನಾ ಭಜಿನು,    ಬಿಷಯೆ ಮಜಿನು,",
+            "ಹ್‌ಡ಼್ದಯೆ ರಹಲ ಶೆಲ ೫"
+          ]
+        },
+        {
+          "script_code": "Telu",
+          "standard": null,
+          "text": [
+            "ఎ దాస లొచన,    భాబె అనుక్షణ,",
+            "బ్డ్థాఇ జనమ గెల",
+            "హరి నా భజిను,    బిషయె మజిను,",
+            "హ్డ్దయె రహల శెల 5"
+          ]
+        },
+        {
+          "script_code": "Cyrl",
+          "standard": null,
+          "text": [
+            "э̆ да̄са ло̆чана,    бха̄бэ̆ анукшан̣а,",
+            "бр̤тха̄и джанама гэ̆ла",
+            "хари на̄ бхаджину,    бишайэ̆ маджину,",
+            "хр̤дайэ̆ рахала ш́э̆ла 5"
+          ]
+        },
+        {
+          "script_code": "Mlym",
+          "standard": null,
+          "text": [
+            "എ ദാസ ലൊചന,    ഭാബെ അനുക്ഷണ,",
+            "ബ്ഡ്ഥാഇ ജനമ ഗെല",
+            "ഹരി നാ ഭജിനു,    ബിഷയെ മജിനു,",
+            "ഹ്ഡ്ദയെ രഹല ശെല 5"
+          ]
+        },
+        {
+          "script_code": "Taml",
+          "standard": null,
+          "text": [
+            "எ தா³ஸ லொசன,    பா⁴பெ³ அனுக்ஷண,",
+            "ப்³ஃட்²தா²இ ஜனம கெ³ல",
+            "ஹரி நா ப⁴ஜினு,    பி³ஷயெ மஜினு,",
+            "ஹ்ஃட்²த³யெ ரஹல ஶெல 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "BBT_Roman",
+          "text": [
+            "e dāsa locana,    bhābe anukṣaṇa,",
+            "bṛthāi janama gela",
+            "hari nā bhajinu,    biṣaye majinu,",
+            "hṛdaye rahala śela 5"
+          ]
+        },
+        {
+          "script_code": "Latn",
+          "standard": "GVP_Roman",
+          "text": [
+            "e dāsa locana,    bhābe anukṣaṇa,",
+            "bṛthāi janama gela",
+            "hari nā bhajinu,    biṣaye majinu,",
+            "hṛdaye rahala śela 5"
+          ]
+        }
+      ]
+    }
+  ],
+  "notes": [],
+  "audio_available": true,
+  "audio_files": [
+    {
+      "uid": "krsn-1",
+      "filename": "MS35-krsn-1.mp3",
+      "artist": "Krsnadas das"
+    }
+  ]
+}
