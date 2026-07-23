@@ -199,7 +199,14 @@ export const PlayerWidget: React.FC = () => {
         : null
 
   return (
-    <div ref={rootRef} className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2">
+    // Tighter inset on phones (12px sides, 16px bottom) than on desktop (24px) — at desktop's inset
+    // the card wasted a quarter of a narrow screen. `env(safe-area-inset-bottom)` is 0 in Safari,
+    // where the browser toolbar already reserves the space, and ~34px when installed as a PWA,
+    // where it keeps the card clear of the home indicator.
+    <div
+      ref={rootRef}
+      className="fixed bottom-[calc(1rem+env(safe-area-inset-bottom))] right-3 z-50 flex flex-col items-end gap-2 sm:bottom-6 sm:right-6"
+    >
       {/* recordings drop-up */}
       <AnimatePresence>
         {openMenu === 'recordings' && song && hasMultipleTakes && !showCircle && (
@@ -315,8 +322,11 @@ export const PlayerWidget: React.FC = () => {
         layout
         transition={spring}
         style={{ borderRadius: showCircle ? 28 : 24 }}
+        /* On a phone the card spans the screen less a 12px gutter each side, instead of sitting at a
+           fixed 21rem anchored right — which left a wide, lopsided gap on the left. Desktop keeps
+           the fixed 21rem. */
         className={`relative z-10 overflow-hidden border border-[var(--border)] bg-[var(--background-offset)] shadow-2xl ${
-          showCircle ? '' : 'w-[21rem] max-w-[calc(100vw-3rem)] p-3'
+          showCircle ? '' : 'w-[calc(100vw-1.5rem)] p-3 sm:w-[21rem] sm:max-w-[calc(100vw-3rem)]'
         }`}
       >
         <AnimatePresence mode="popLayout" initial={false}>
