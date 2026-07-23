@@ -8,6 +8,7 @@ import { pickScriptText, pickTranslation, pickWordToWord } from '../services/tex
 import { effectiveDisplayScript } from '../services/scripts'
 import { useSettings } from '../utils/SettingsContext'
 import { usePlayer } from '../utils/PlayerContext'
+import { useRegisterReaderOptions } from '../utils/ReaderOptionsContext'
 import { VerseListItem } from './VerseListItem'
 import { ReaderOptions } from './ReaderOptions'
 import { MusicNote } from './icons/MusicNote'
@@ -19,7 +20,9 @@ interface SongScreenProps {
 }
 
 export const SongScreen: React.FC<SongScreenProps> = ({ song, memberships = [] }) => {
-  const { settings, updateSetting } = useSettings()
+  // Only reads settings now — the display toggles moved into ReaderOptions, which writes them
+  // directly so it can be rendered from the top bar as well as from here.
+  const { settings } = useSettings()
   const { arm, playSong } = usePlayer()
   const router = useRouter()
 
@@ -65,6 +68,10 @@ export const SongScreen: React.FC<SongScreenProps> = ({ song, memberships = [] }
     [song, translationLanguage]
   )
 
+  // Publish what this song actually has, so the mobile top bar can render the Display control with
+  // the right toggles disabled. Cleared on leave, so it shows only on a song screen.
+  useRegisterReaderOptions(hasWordToWord, hasTranslation)
+
   // The header title/author follow the reader's **List language** (how the song appears in lists /
   // browse), independent of the per-verse Display/Transliteration scripts — so the header stays
   // consistent app-wide while the verse body honors the reading scripts.
@@ -76,21 +83,16 @@ export const SongScreen: React.FC<SongScreenProps> = ({ song, memberships = [] }
 
   return (
     <div className="px-4 pt-2 pb-12 md:px-0">
-      {/* Reader display options — collapsible, outlined panel at the content-area TOP-LEFT. Its
-          options are an absolute dropdown, so opening/closing overlays and never moves the page. */}
-      <div className="mb-4">
-        <ReaderOptions
-          showSource={showSource}
-          onToggleSource={() => updateSetting('showSource', !showSource)}
-          showTransliteration={showTransliteration}
-          onToggleTransliteration={() => updateSetting('showTransliteration', !showTransliteration)}
-          showWordToWord={showWordToWord}
-          onToggleWordToWord={() => updateSetting('showWordToWord', !showWordToWord)}
-          showTranslation={showTranslation}
-          onToggleTranslation={() => updateSetting('showTranslation', !showTranslation)}
-          hasWordToWord={hasWordToWord}
-          hasTranslation={hasTranslation}
-        />
+      {/* Reader display options, desktop only — a **sticky** control floating over the reader.
+          `h-0` is the point: it used to sit in flow and eat a whole row above the title for one
+          small button. With zero height it reserves no space, and `sticky` keeps it reachable as
+          the reader scrolls. `pointer-events-none` on the zero-height box so it never swallows
+          clicks meant for the verses behind it; the button itself opts back in.
+          On mobile the same control lives in the top bar beside search (see Layout). */}
+      <div className="pointer-events-none sticky top-3 z-30 hidden h-0 md:block">
+        <div className="pointer-events-auto w-fit">
+          <ReaderOptions />
+        </div>
       </div>
 
       <div className="mx-auto w-full max-w-4xl">

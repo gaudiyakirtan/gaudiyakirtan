@@ -7,6 +7,7 @@ import { BrandWordmark } from "./BrandWordmark";
 import Sidebar from "./Sidebar";
 import { PlayerWidget } from "./PlayerWidget";
 import { SearchModal } from "./SearchModal";
+import { ReaderOptions } from "./ReaderOptions";
 import { ServiceWorkerRegistration } from "./ServiceWorkerRegistration";
 
 interface LayoutProps {
@@ -103,11 +104,19 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
           <Link href="/" className="flex items-center">
             <BrandWordmark className="text-lg" />
           </Link>
+          {/* Reader display options — only on a song screen, which publishes its capabilities via
+              ReaderOptionsContext (the control renders nothing otherwise). It lives here on mobile
+              because there is no room for a floating sticky control over a phone-width reader.
+              Opens right-aligned so the panel stays on screen. */}
+          <div className="ml-auto">
+            <ReaderOptions variant="icon" align="right" />
+          </div>
+
           <button
             type="button"
             aria-label="Search"
             onClick={() => setSearchOpen(true)}
-            className="ml-auto text-[var(--neutral)]"
+            className="text-[var(--neutral)]"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
               stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

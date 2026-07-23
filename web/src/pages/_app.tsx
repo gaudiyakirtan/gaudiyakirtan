@@ -6,6 +6,7 @@ import Layout from '../components/Layout'
 import { ThemeProvider } from '../utils/ThemeContext'
 import { SettingsProvider } from '../utils/SettingsContext'
 import { PlayerProvider } from '../utils/PlayerContext'
+import { ReaderOptionsProvider } from '../utils/ReaderOptionsContext'
 import { initObservability, Sentry } from '../utils/observability'
 import '../styles/globals.css'
 
@@ -65,9 +66,13 @@ function MyApp({ Component, pageProps, router }: AppProps) {
           {/* Mounted once at the app root so playback survives client-side navigation between
               pages - the "global playback service" required by docs/screens/player.md. */}
           <PlayerProvider>
-            <Layout title={getPageTitle()} subtitle={getSubtitle()}>
-              <Component {...pageProps} />
-            </Layout>
+            {/* Above Layout so the mobile top bar can render the song's Display control, which the
+                song screen (a descendant of Layout) publishes on mount. */}
+            <ReaderOptionsProvider>
+              <Layout title={getPageTitle()} subtitle={getSubtitle()}>
+                <Component {...pageProps} />
+              </Layout>
+            </ReaderOptionsProvider>
           </PlayerProvider>
         </SettingsProvider>
       </ThemeProvider>

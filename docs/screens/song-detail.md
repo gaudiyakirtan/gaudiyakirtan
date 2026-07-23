@@ -112,6 +112,21 @@ Both flagged by all three implementations; tracked as pipeline enhancements, not
 
 ## Change log
 
+- **v6 (web)** — **The Display control no longer costs a row.** It sat in flow above the title,
+  spending a full row of a reader screen on one small button. On desktop it is now a **sticky**
+  control floating over the reader (`h-0` wrapper, so it reserves no vertical space, and
+  `pointer-events-none` on that wrapper so it never swallows clicks meant for the verses); on
+  **mobile it moves into the top bar beside the search icon**, where a floating control has no room.
+  The song screen publishes its capabilities through `ReaderOptionsContext`
+  (register-on-mount/clear-on-leave, mirroring the player's `arm(song)`), so the top bar — a parent
+  of the screen — can render it, and it stays inert on every other page. `ReaderOptions` now reads
+  and writes `SettingsContext` itself rather than taking eight props, and closes on outside
+  tap/Escape.
+  **This also fixed `position: sticky` app-wide.** `body` carried `overflow-x: hidden`, which forces
+  `overflow-y` to compute to `auto` and makes body a scroll container that never scrolls — silently
+  disabling sticky for every descendant, including the mobile top bar and the A–Z letter headings on
+  /songs and /tracks. Changed to `overflow-x: clip`, which contains stray overflow without
+  establishing a scroll container. Verified: no horizontal overflow on any of 11 pages at 390px.
 - **v5 (web)** — The header gained a **membership chip row**: the book(s) and topic(s) a song
   belongs to, linking to those collection pages, beside the existing `uid` and tags. Membership is
   derived from `song_groups.json` at build time (`getSongMemberships`), **not** from `Song.topics`,

@@ -32,7 +32,13 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-color: var(--background);
   color: var(--primary);
-  overflow-x: hidden;
+  /* `clip`, not `hidden`. On body, `overflow-x: hidden` forces `overflow-y` to compute to `auto`,
+     which makes body a scroll container that never actually scrolls (the document does) — and that
+     silently breaks `position: sticky` for EVERY descendant. It was disabling the mobile top bar,
+     the A–Z letter headings on /songs and /tracks, and the reader's Display control.
+     `overflow-x: clip` still contains stray horizontal overflow but establishes no scroll
+     container, so sticky works. */
+  overflow-x: clip;
 }
 
 * {
