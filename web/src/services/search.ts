@@ -186,6 +186,20 @@ export function searchListings(
 }
 
 /**
+ * Normalized edit-distance similarity in [0,1] between two labels — 1 = identical after
+ * normalization. This is the "did they *mistype* it?" signal, which the tiered `scoreText` ranker
+ * cannot express: its confident tiers (exact/prefix/substring) all require the query to be
+ * literally *contained* in the target, and a typo never is. "setings" vs "Settings" scores only
+ * 30.5 through `scoreText` but is 0.88 similar here.
+ */
+export function textCloseness(a: string, b: string): number {
+  const na = normalizeSearchText(a)
+  const nb = normalizeSearchText(b)
+  if (!na || !nb) return 0
+  return similarity(na, nb)
+}
+
+/**
  * Generic relevance score of a query against one or more label texts (best wins). Same
  * diacritic-insensitive, v/b-folding ranker used for song titles — used by the command palette to
  * rank arbitrary entities (pages, books, topics, authors, tags) alongside songs. 0 = no match.

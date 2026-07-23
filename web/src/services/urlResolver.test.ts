@@ -137,3 +137,52 @@ describe('resolvePath - fuzzy confidence', () => {
     expect(resolvePath('/Songs', entries)).toEqual({ href: '/songs', via: 'case' })
   })
 })
+
+describe('resolvePath - app pages', () => {
+  // Regression: pages lived only in the palette's own copy of the list, so they were never in this
+  // resolver's fuzzy pool. ⌘K found "Settings" from a typo while /setings 404'd.
+  it('rescues a misspelled page', () => {
+    expect(resolvePath('/setings', entries)).toEqual({ href: '/settings', via: 'fuzzy' })
+  })
+
+  it('rescues a miscased page (unchanged behavior)', () => {
+    expect(resolvePath('/Songs', entries)).toEqual({ href: '/songs', via: 'case' })
+    expect(resolvePath('/ABOUT', entries)).toEqual({ href: '/about', via: 'case' })
+  })
+
+  it('rescues the nested resources pages, which the old static list omitted', () => {
+    expect(resolvePath('/pronunciaton', entries)).toEqual({
+      href: '/resources/pronunciation',
+      via: 'fuzzy',
+    })
+  })
+
+  it('never resolves a page from inside a collection scope', () => {
+    // /songs/settings is not a page - the scope filter must drop nav entries entirely.
+    expect(resolvePath('/songs/settings', entries)).toBeNull()
+  })
+
+  it('leaves a path that is already the canonical page alone (no redirect loop)', () => {
+    expect(resolvePath('/settings', entries)).toBeNull()
+    expect(resolvePath('/about', entries)).toBeNull()
+  })
+})
+
+describe('resolvePath - typo tier', () => {
+  it('rescues a one-character typo in a song title', () => {
+    expect(resolvePath('/akrodha paramanand', entries)).toEqual({
+      href: '/songs/N9',
+      via: 'fuzzy',
+    })
+  })
+
+  it('still refuses a typo that is too far off to be confident about', () => {
+    expect(resolvePath('/xyzzy', entries)).toBeNull()
+  })
+
+  it('does not let a near-miss bypass the ambiguity margin', () => {
+    // Two near-identical siblings: śrīgaura-ārati / śrīyugala-ārati. A query close to both must
+    // still 404 rather than coin-flip.
+    expect(resolvePath('/arati', entries)).toBeNull()
+  })
+})

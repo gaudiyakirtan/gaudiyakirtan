@@ -92,6 +92,25 @@ the noisy full query is the semantic tier's job. Keep tier-1 conservative (preci
 
 ## Change log
 
+- **v4 (web)** — **The palette and the URL rescuer now search the same set.** They shared the
+  `scoreText` ranker but not the data: the palette kept its own 12-entry page list while
+  `urlResolver` had a shorter 8-route one that was *case-matched only, never fuzzy-matched*. So ⌘K
+  found "Settings" from a typo while `/setings` 404'd, and `/resources/*` was unreachable from a URL
+  at all. The list now lives once, as `NAV_ENTRIES` in `services/urlResolver.ts`, and the palette
+  imports it (attaching icons by href).
+  Also added a **typo tier**: every tier `scoreText` is confident about (exact/prefix/substring)
+  requires the query to be literally *contained* in the target, which a misspelling never is —
+  `/setings` scored 30.5 against a floor of 60. A normalized edit-distance similarity ≥ 0.8
+  (`textCloseness`) is now promoted to the substring tier, then judged by the same floor **and the
+  same 1.15× ambiguity margin**, so `/setings`, `/trackz` and `/pronunciaton` resolve while
+  `/xyzzy`, `/jaya jaya` and `/bhaktivinoda` still 404 on purpose (the last two are genuine ties —
+  a dozen songs at exactly 80.0 and a three-way tie at 60.0).
+  **Known gap, not fixed here:** `search-index.json` labels are Latin-only (0 of 968 rows carry
+  Indic text), so a Bengali/Devanagari title is unfindable in *either* path even though every song
+  ships 10 script renderings. The multi-script matcher that would fix it
+  (`buildSearchIndex`/`searchIndex`/`searchListings` in `search.ts`, plus `search-listings.json`)
+  still exists and is tested but has **zero importers** — it was the removed `/search` page's engine
+  (see v2). Wiring it up, or emitting all scripts into `search-index.json`, is the real fix.
 - **v3 (web)** — Palette is now **universal**: finds pages/nav (with icons), songs, books, topics,
   authors, and tags — one flat ranked list, each row showing a type icon + type label. Data entities
   come from `/search-index.json` (emitted by gen-markdown.mjs) + hardcoded page entries; generic

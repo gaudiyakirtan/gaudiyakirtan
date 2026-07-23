@@ -5,9 +5,9 @@
 // Why this exists: song uids are case-sensitive in the route (/songs/N9 is a page, /songs/n9 is
 // not), and links get retyped by hand, lowercased by chat clients, and shortened to a bare
 // /akrodha in conversation. Every one of those is a reader who knows exactly what they want.
-import { scoreText } from './search'
+import { scoreText, textCloseness } from './search'
 
-export type ISearchEntryType = 'song' | 'book' | 'topic' | 'author' | 'tag' | 'reciter'
+export type ISearchEntryType = 'page' | 'song' | 'book' | 'topic' | 'author' | 'tag' | 'reciter'
 
 /** One row of /search-index.json, emitted by scripts/gen-markdown.mjs. */
 export interface ISearchEntry {
@@ -25,18 +25,31 @@ export interface IResolvedPath {
   via: 'case' | 'fuzzy'
 }
 
-// Top-level routes that have no row in the search index. Listed here only so /Songs and /ABOUT
-// survive the same case fix that song uids get; they are not fuzzy-matched, because a page name
-// is short and generic enough ("about", "contact") to attract false positives from song titles.
-const STATIC_ROUTES = [
-  '/songs',
-  '/tracks',
-  '/authors',
-  '/topics',
-  '/books',
-  '/settings',
-  '/about',
-  '/contact',
+/**
+ * The app's own pages. These have no row in the build-time `/search-index.json` (which only carries
+ * data entities), so they must be listed here — and this is the **single source of truth** shared
+ * with the command palette (`components/SearchModal.tsx`), which previously kept a second, longer
+ * copy. That drift was user-visible: the palette found "Settings" from a typo while `/setings`
+ * 404'd, because pages simply were not in this resolver's pool.
+ *
+ * They now take part in fuzzy matching too. The old note here worried that page names are "short and
+ * generic enough to attract false positives from song titles" — but the corpus is transliterated
+ * Sanskrit/Bengali, so English page names barely collide with it ("setings" scores 30.5 against
+ * "Settings" and 7.1 against the best song), and the ambiguity margin below is the real guard.
+ */
+export const NAV_ENTRIES: ISearchEntry[] = [
+  { type: 'page', label: 'Home', subtitle: 'Page', href: '/' },
+  { type: 'page', label: 'Songs', subtitle: 'Page · library', href: '/songs' },
+  { type: 'page', label: 'Tracks', subtitle: 'Page · library · recordings', href: '/tracks' },
+  { type: 'page', label: 'Authors', subtitle: 'Page · library', href: '/authors' },
+  { type: 'page', label: 'Topics', subtitle: 'Page · library', href: '/topics' },
+  { type: 'page', label: 'Books', subtitle: 'Page · library', href: '/books' },
+  { type: 'page', label: 'Settings', subtitle: 'Page', href: '/settings' },
+  { type: 'page', label: 'About', subtitle: 'Page', href: '/about' },
+  { type: 'page', label: 'Contact', subtitle: 'Page', href: '/contact' },
+  { type: 'page', label: 'Verse Meters', subtitle: 'Page · resources', href: '/resources/meters' },
+  { type: 'page', label: 'Diacritic Guide', subtitle: 'Page · resources', href: '/resources/diacritics' },
+  { type: 'page', label: 'Pronunciation', subtitle: 'Page · resources', href: '/resources/pronunciation' },
 ]
 
 // A two-segment path names one collection, so it should only ever resolve inside it - /songs/na9
@@ -64,6 +77,18 @@ const FUZZY_MIN_SCORE = 60
  * flip performed on the reader's behalf. Better to show the 404 and let them search.
  */
 const FUZZY_MIN_MARGIN = 1.15
+
+/**
+ * A hand-retyped path is at least as likely to be *misspelled* as truncated, but every tier
+ * `scoreText` is confident about (exact/prefix/substring) requires the query to be literally
+ * contained in the target — which a typo never is. So `/setings` scored 30.5 and fell through to
+ * the 404 even though it is one dropped character from `/settings`.
+ *
+ * A near-miss this close is promoted to the substring tier and then judged by exactly the same
+ * threshold and ambiguity margin as everything else. 0.8 admits one edit in a five-character name
+ * and two in a ten-character one, while "songs"/"books" (0.4 similar) stay comfortably apart.
+ */
+const TYPO_MIN_SIMILARITY = 0.8
 
 /** Percent-decode one path segment, tolerating the malformed escapes that hand-typed URLs carry. */
 function decodeSegment(segment: string): string {
@@ -114,17 +139,15 @@ export function resolvePath(pathname: string, entries: ISearchEntry[]): IResolve
   if (!parsed || !parsed.term) return null
 
   const { term, scope } = parsed
-  const candidates = scope ? entries.filter((entry) => entry.type === scope) : entries
+  // Pages join the pool only when nothing scopes the path - /songs/settings is not a page. Being
+  // typed entries, the scope filter below excludes them on its own.
+  const pool = scope ? entries : [...NAV_ENTRIES, ...entries]
+  const candidates = scope ? pool.filter((entry) => entry.type === scope) : pool
   const lowered = term.toLowerCase()
 
   // Pass 1 - the same page, differently capitalized. Covers any casing (n9, N9, gp10, Gp10)
   // because both sides are lowercased; no fuzziness is involved, so this is always safe.
-  const addressable = [
-    ...candidates.map((entry) => entry.href),
-    // Static routes only join the search when nothing scopes it - /songs/settings is not a page.
-    ...(scope ? [] : STATIC_ROUTES),
-  ]
-  for (const href of addressable) {
+  for (const href of candidates.map((entry) => entry.href)) {
     const key = pathKey(href)
     if (!key || key.toLowerCase() !== lowered) continue
     // The path is already the canonical spelling of a real page, so it 404'd for some reason we
@@ -142,9 +165,16 @@ export function resolvePath(pathname: string, entries: ISearchEntry[]): IResolve
   let runnerUpScore = 0
   for (const entry of candidates) {
     if (entry.href === pathname) continue
-    const score = entry.code
+    const ranked = entry.code
       ? Math.max(scoreText(term, entry.label), scoreText(term, entry.code))
       : scoreText(term, entry.label)
+    // A close-enough misspelling counts as at least a substring match (see TYPO_MIN_SIMILARITY),
+    // so it clears the floor and is then held to the same ambiguity margin as any other candidate.
+    const typo = Math.max(
+      textCloseness(term, entry.label),
+      entry.code ? textCloseness(term, entry.code) : 0
+    )
+    const score = Math.max(ranked, typo >= TYPO_MIN_SIMILARITY ? FUZZY_MIN_SCORE : 0)
     if (score > bestScore) {
       runnerUpScore = bestScore
       bestScore = score

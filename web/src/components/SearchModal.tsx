@@ -5,6 +5,7 @@ import {
   AudioLines, Type, Volume2, Tag as TagIcon, FileText, Mic2, ListMusic,
 } from 'lucide-react'
 import { scoreText } from '../services/search'
+import { NAV_ENTRIES } from '../services/urlResolver'
 
 interface SearchModalProps {
   open: boolean
@@ -22,21 +23,24 @@ interface Entry {
   icon?: React.ReactNode
 }
 
-// Pages / nav — carry their own icons; searchable alongside the data entities.
-const PAGES: Entry[] = [
-  { type: 'page', label: 'Home', subtitle: 'Page', href: '/', icon: <Home size={16} /> },
-  { type: 'page', label: 'Songs', subtitle: 'Page · library', href: '/songs', icon: <Music size={16} /> },
-  { type: 'page', label: 'Tracks', subtitle: 'Page · library · recordings', href: '/tracks', icon: <ListMusic size={16} /> },
-  { type: 'page', label: 'Authors', subtitle: 'Page · library', href: '/authors', icon: <User size={16} /> },
-  { type: 'page', label: 'Topics', subtitle: 'Page · library', href: '/topics', icon: <Hash size={16} /> },
-  { type: 'page', label: 'Books', subtitle: 'Page · library', href: '/books', icon: <BookOpen size={16} /> },
-  { type: 'page', label: 'Settings', subtitle: 'Page', href: '/settings', icon: <Settings size={16} /> },
-  { type: 'page', label: 'About', subtitle: 'Page', href: '/about', icon: <Info size={16} /> },
-  { type: 'page', label: 'Contact', subtitle: 'Page', href: '/contact', icon: <Mail size={16} /> },
-  { type: 'page', label: 'Verse Meters', subtitle: 'Page · resources', href: '/resources/meters', icon: <AudioLines size={16} /> },
-  { type: 'page', label: 'Diacritic Guide', subtitle: 'Page · resources', href: '/resources/diacritics', icon: <Type size={16} /> },
-  { type: 'page', label: 'Pronunciation', subtitle: 'Page · resources', href: '/resources/pronunciation', icon: <Volume2 size={16} /> },
-]
+// Per-page icons, keyed by href. The page *list* itself lives in services/urlResolver (NAV_ENTRIES)
+// so the palette and the URL rescuer search exactly the same set — they used to keep separate
+// copies, and the resolver's shorter one is why /setings 404'd while ⌘K found Settings instantly.
+const PAGE_ICON: Record<string, React.ReactNode> = {
+  '/': <Home size={16} />,
+  '/songs': <Music size={16} />,
+  '/tracks': <ListMusic size={16} />,
+  '/authors': <User size={16} />,
+  '/topics': <Hash size={16} />,
+  '/books': <BookOpen size={16} />,
+  '/settings': <Settings size={16} />,
+  '/about': <Info size={16} />,
+  '/contact': <Mail size={16} />,
+  '/resources/meters': <AudioLines size={16} />,
+  '/resources/diacritics': <Type size={16} />,
+  '/resources/pronunciation': <Volume2 size={16} />,
+}
+const PAGES: Entry[] = NAV_ENTRIES.map((e) => ({ ...e, icon: PAGE_ICON[e.href] }))
 
 const TYPE_ICON: Record<EntryType, React.ReactNode> = {
   page: <FileText size={16} />,
