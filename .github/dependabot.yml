@@ -1,35 +1,44 @@
-# Dependabot keeps dependencies patched and flags CVEs before they bite. This exists specifically
-# because a critical Next.js RCE (GHSA-9qr9-h5gf-34mp) silently blocked a Vercel deploy — Dependabot
-# would have opened a bump PR for it in advance. One ecosystem per manifest in this native monorepo.
+# Dependabot config, tuned for LOW NOISE. The value we actually want is CVE protection, which comes
+# from **Dependabot security updates** (repo Settings → Code security) + alerts — those only open a
+# PR when there's a real vulnerability, so they're rare and high-signal. The routine version bumps
+# below are the part that spams, so they are: (a) monthly, and (b) GROUPED — every ecosystem's
+# updates collapse into a single PR per run instead of one PR per dependency (the first run opened
+# 20 separate PRs, which is what flooded the inbox). Net: at most ~4 PRs/month, not dozens.
 version: 2
 updates:
-  # Web (Next.js / React) — the actively deployed surface, so weekly and grouped to limit PR noise.
+  # Web (Next.js / React) — the actively deployed surface.
   - package-ecosystem: npm
     directory: /web
     schedule:
-      interval: weekly
-    open-pull-requests-limit: 10
+      interval: monthly
+    open-pull-requests-limit: 3
     groups:
-      # Non-major updates land as one PR per group; majors (breaking) stay separate for review.
-      web-minor-patch:
-        update-types: [minor, patch]
+      web-dependencies:
+        patterns: ["*"] # one PR for the whole ecosystem, all update types (incl. major)
 
-  # Android (Gradle)
   - package-ecosystem: gradle
     directory: /andorid
     schedule:
-      interval: weekly
-    open-pull-requests-limit: 5
+      interval: monthly
+    open-pull-requests-limit: 2
+    groups:
+      android-dependencies:
+        patterns: ["*"]
 
-  # Data pipeline (pip)
   - package-ecosystem: pip
     directory: /pipeline
     schedule:
       interval: monthly
-    open-pull-requests-limit: 5
+    open-pull-requests-limit: 2
+    groups:
+      pipeline-dependencies:
+        patterns: ["*"]
 
-  # The CI/workflow actions themselves (checkout, setup-node, pnpm/action-setup, …)
   - package-ecosystem: github-actions
     directory: /
     schedule:
       interval: monthly
+    open-pull-requests-limit: 2
+    groups:
+      actions:
+        patterns: ["*"]
