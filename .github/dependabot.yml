@@ -1,0 +1,35 @@
+# Dependabot keeps dependencies patched and flags CVEs before they bite. This exists specifically
+# because a critical Next.js RCE (GHSA-9qr9-h5gf-34mp) silently blocked a Vercel deploy — Dependabot
+# would have opened a bump PR for it in advance. One ecosystem per manifest in this native monorepo.
+version: 2
+updates:
+  # Web (Next.js / React) — the actively deployed surface, so weekly and grouped to limit PR noise.
+  - package-ecosystem: npm
+    directory: /web
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 10
+    groups:
+      # Non-major updates land as one PR per group; majors (breaking) stay separate for review.
+      web-minor-patch:
+        update-types: [minor, patch]
+
+  # Android (Gradle)
+  - package-ecosystem: gradle
+    directory: /andorid
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 5
+
+  # Data pipeline (pip)
+  - package-ecosystem: pip
+    directory: /pipeline
+    schedule:
+      interval: monthly
+    open-pull-requests-limit: 5
+
+  # The CI/workflow actions themselves (checkout, setup-node, pnpm/action-setup, …)
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

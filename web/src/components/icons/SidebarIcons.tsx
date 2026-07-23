@@ -22,10 +22,14 @@ import {
   type LucideProps,
 } from 'lucide-react'
 
-const make =
-  (Icon: React.ComponentType<LucideProps>) =>
-  ({ className = '', size = 18, ...rest }: LucideProps) =>
+const make = (Icon: React.ComponentType<LucideProps>) => {
+  const IconWrapper = ({ className = '', size = 18, ...rest }: LucideProps) => (
     <Icon className={className} size={size} strokeWidth={2} {...rest} />
+  )
+  // Named so React DevTools (and react/display-name) don't see an anonymous component.
+  IconWrapper.displayName = Icon.displayName || Icon.name || 'Icon'
+  return IconWrapper
+}
 
 export const HomeIcon = make(Home)
 export const SongsIcon = make(Music)

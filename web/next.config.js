@@ -37,12 +37,9 @@ const nextConfig = {
     reactStrictMode: false,
     transpilePackages: [
     ],
-    eslint: {
-        // Pre-existing lint issues in untouched UI files (Layout.tsx, Sidebar.tsx,
-        // resources/*.tsx - unescaped apostrophes, unused vars) predate slice 1's data-layer
-        // work and are out of scope here. Type-checking still runs and blocks the build.
-        ignoreDuringBuilds: true,
-    },
+    // ESLint runs during `next build` and blocks on errors (the prior `ignoreDuringBuilds: true`
+    // is gone): the backlog it was hiding is cleared, and the noisy react/no-unescaped-entities rule
+    // is turned off in eslint.config.mjs, so lint is now a real gate on both Vercel and CI.
     images: {
         remotePatterns: [
             {

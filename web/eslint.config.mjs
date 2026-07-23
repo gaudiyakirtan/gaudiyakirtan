@@ -11,6 +11,14 @@ const compat = new FlatCompat({
 
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
+  {
+    rules: {
+      // Literal apostrophes/quotes in JSX prose render fine and read cleanly; requiring &apos;/&quot;
+      // everywhere (349 hits, almost all in the resources/* educational copy) is pure noise with no
+      // safety value. Disabling this is what lets lint be turned on as a real gate for actual bugs.
+      "react/no-unescaped-entities": "off",
+    },
+  },
 ];
 
 export default eslintConfig;
