@@ -1,699 +1,607 @@
 {
-  "uid": "R33",
-  "language_of_origin": "ben",
-  "title_main": [
+ "uid": "R33",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "প্রাণেশ্বরি! কবে মোরে হবে কৃপাদিঠি"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "prāṇeśbari! kabe more habe kṛpādiṭhi"
+  },
+  {
+   "script_code": "Deva",
+   "text": "प्राणेश्बरि! कबे मोरे हबे कृपादिठि"
+  },
+  {
+   "script_code": "Telu",
+   "text": "ప్రాణేశ్బరి! కబే మోరే హబే కృపాదిఠి"
+  },
+  {
+   "script_code": "Knda",
+   "text": "ಪ್ರಾಣೇಶ್ಬರಿ! ಕಬೇ ಮೋರೇ ಹಬೇ ಕೃಪಾದಿಠಿ"
+  },
+  {
+   "script_code": "Taml",
+   "text": "ப்ராணேஶ்ப³ரி! கபே³ மோரே ஹபே³ க்ருʼபாதி³டி²"
+  },
+  {
+   "script_code": "Mlym",
+   "text": "പ്രാണേശ്ബരി! കബേ മോരേ ഹബേ കൃപാദിഠി"
+  },
+  {
+   "script_code": "Gujr",
+   "text": "પ્રાણેશ્બરિ! કબે મોરે હબે કૃપાદિઠિ"
+  },
+  {
+   "script_code": "Orya",
+   "text": "ପ୍ରାଣେଶ୍ବରି! କବେ ମୋରେ ହବେ କୃପାଦିଠି"
+  },
+  {
+   "script_code": "Cyrl",
+   "text": "пра̄н̣эш́бари! кабэ морэ хабэ кр̣па̄дит̣хи"
+  }
+ ],
+ "author_uid": "ndt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Narottama dāsa Ṭhākura"
+  },
+  {
+   "script_code": "Deva",
+   "text": "श्रील नरोत्तम दास ठाकुर"
+  },
+  {
+   "script_code": "Telu",
+   "text": "శ్రీల నరోత్తమ దాస ఠాకుర"
+  },
+  {
+   "script_code": "Knda",
+   "text": "ಶ್ರೀಲ ನರೋತ್ತಮ ದಾಸ ಠಾಕುರ"
+  },
+  {
+   "script_code": "Taml",
+   "text": "ஶ்ரீல நரோத்தம தா³ஸ டா²குர"
+  },
+  {
+   "script_code": "Mlym",
+   "text": "ശ്രീല നരോത്തമ ദാസ ഠാകുര"
+  },
+  {
+   "script_code": "Gujr",
+   "text": "શ્રીલ નરોત્તમ દાસ ઠાકુર"
+  },
+  {
+   "script_code": "Orya",
+   "text": "ଶ୍ରୀଲ ନରୋତ୍ତମ ଦାସ ଠାକୁର"
+  },
+  {
+   "script_code": "Cyrl",
+   "text": "ш́рӣла нароттама да̄са т̣ха̄кура"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "prāṇeśbari! kabe more habe kṛpādiṭhi",
+    "ājñāya āniyā kabe,    bibidha phulabara,",
+    "śunaba bacana dũhu miṭhi 1"
+   ],
+   "display_scripts": [
     {
-      "script_code": "Beng",
-      "text": "প্রাণেশ্বরি! কবে মোরে হবে কৃপাদিঠি"
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "प्राणॆश्बरि! कबॆ मॊरॆ हबॆ क्ड़्पादिठि",
+      "आज्ञाय आनिया कबॆ,    बिबिध फुलबर,",
+      "शुनब बचन दुंहु मिठि १"
+     ]
     },
     {
-      "script_code": "Latn",
-      "standard": "IAST",
-      "text": "prāṇeśbari! kabe more habe kṛpādiṭhi"
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "প্রাণেশ্বরি! কবে মোরে হবে ক্ড়্পাদিঠি",
+      "আজ্ঞায় আনিয়া কবে,    বিবিধ ফুলবর,",
+      "শুনব বচন দুংহু মিঠি ১"
+     ]
     },
     {
-      "script_code": "Deva",
-      "text": "प्राणेश्बरि! कबे मोरे हबे कृपादिठि"
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପ୍ରାଣେଶ୍ବରି! କବେ ମୋରେ ହବେ କ୍ଡ଼୍ପାଦିଠି",
+      "ଆଜ୍ଞାୟ ଆନିୟା କବେ,    ବିବିଧ ଫୁଲବର,",
+      "ଶୁନବ ବଚନ ଦୁଂହୁ ମିଠି ୧"
+     ]
     },
     {
-      "script_code": "Telu",
-      "text": "ప్రాణేశ్బరి! కబే మోరే హబే కృపాదిఠి"
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પ્રાણેશ્બરિ! કબે મોરે હબે ક્ડ઼્પાદિઠિ",
+      "આજ્ઞાય આનિયા કબે,    બિબિધ ફુલબર,",
+      "શુનબ બચન દુંહુ મિઠિ ૧"
+     ]
     },
     {
-      "script_code": "Knda",
-      "text": "ಪ್ರಾಣೇಶ್ಬರಿ! ಕಬೇ ಮೋರೇ ಹಬೇ ಕೃಪಾದಿಠಿ"
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "prāṇeśbari! kabe more habe kṛpādiṭhi",
+      "ājñāya āniyā kabe,    bibidha phulabara,",
+      "śunaba bacana dũhu miṭhi 1"
+     ]
     },
     {
-      "script_code": "Taml",
-      "text": "ப்ராணேஶ்ப³ரி! கபே³ மோரே ஹபே³ க்ருʼபாதி³டி²"
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪ್ರಾಣೆಶ್ಬರಿ! ಕಬೆ ಮೊರೆ ಹಬೆ ಕ್‌ಡ಼್ಪಾದಿಠಿ",
+      "ಆಜ್ಞಾಯ ಆನಿಯಾ ಕಬೆ,    ಬಿಬಿಧ ಫುಲಬರ,",
+      "ಶುನಬ ಬಚನ ದುಂಹು ಮಿಠಿ ೧"
+     ]
     },
     {
-      "script_code": "Mlym",
-      "text": "പ്രാണേശ്ബരി! കബേ മോരേ ഹബേ കൃപാദിഠി"
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ప్రాణెశ్బరి! కబె మొరె హబె క్డ్పాదిఠి",
+      "ఆజ్ఞాయ ఆనియా కబె,    బిబిధ ఫులబర,",
+      "శునబ బచన దుంహు మిఠి 1"
+     ]
     },
     {
-      "script_code": "Gujr",
-      "text": "પ્રાણેશ્બરિ! કબે મોરે હબે કૃપાદિઠિ"
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "пра̄н̣э̆ш́бари! кабэ̆ мо̆рэ̆ хабэ̆ кр̤па̄дит̣хи",
+      "а̄джн̃а̄йа а̄нийа̄ кабэ̆,    бибидха пхулабара,",
+      "ш́унаба бачана дум̣ху мит̣хи 1"
+     ]
     },
     {
-      "script_code": "Orya",
-      "text": "ପ୍ରାଣେଶ୍ବରି! କବେ ମୋରେ ହବେ କୃପାଦିଠି"
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പ്രാണെശ്ബരി! കബെ മൊരെ ഹബെ ക്ഡ്പാദിഠി",
+      "ആജ്ഞായ ആനിയാ കബെ,    ബിബിധ ഫുലബര,",
+      "ശുനബ ബചന ദുംഹു മിഠി 1"
+     ]
     },
     {
-      "script_code": "Cyrl",
-      "text": "пра̄н̣эш́бари! кабэ морэ хабэ кр̣па̄дит̣хи"
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்ராணெஶ்ப³ரி! கபெ³ மொரெ ஹபெ³ க்ஃட்²பாதி³டி²",
+      "ஆஜ்ஞாய ஆனியா கபெ³,    பி³பி³த⁴ பு²லப³ர,",
+      "ஶுனப³ ப³சன து³ம்ʼஹு மிடி² 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "prāṇeśbari! kabe more habe kṛpādiṭhi",
+      "ājñāya āniyā kabe,    bibidha phulabara,",
+      "śunaba bacana dũhu miṭhi 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "prāṇeśbari! kabe more habe kṛpādiṭhi",
+      "ājñāya āniyā kabe,    bibidha phulabara,",
+      "śunaba bacana dũhu miṭhi 1"
+     ]
     }
-  ],
-  "author_uid": "ndt",
-  "author_display": [
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "mṛgamada[FLAG_HYPHEN_ALPHA]tilaka,    sasindūra banāyaba,",
+    "lepaba candana[FLAG_HYPHEN_ALPHA]gandhe",
+    "gā̃thi’ mālatīphula,    hāra pahirāoba,",
+    "dhāoyāba madhukarabṛnde 2"
+   ],
+   "display_scripts": [
     {
-      "script_code": "Beng",
-      "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "म्ड़्गमदतिलक,    ससिन्दूर बनायब,",
+      "लॆपब चन्दनगन्धॆ",
+      "गांथिऽ मालतीफुल,    हार पहिराऒब,",
+      "धाऒयाब मधुकरब्ड़्न्दॆ २"
+     ]
     },
     {
-      "script_code": "Latn",
-      "standard": "IAST",
-      "text": "Śrīla Narottama dāsa Ṭhākura"
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ম্ড়্গমদতিলক,    সসিন্দূর বনায়ব,",
+      "লেপব চন্দনগন্ধে",
+      "গান্থিঽ মালতীফুল,    হার পহিরাওব,",
+      "ধাওয়াব মধুকরব্ড়্ন্দে ২"
+     ]
     },
     {
-      "script_code": "Deva",
-      "text": "श्रील नरोत्तम दास ठाकुर"
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ମ୍ଡ଼୍ଗମଦତିଲକ,    ସସିନ୍ଦୂର ବନାୟବ,",
+      "ଲେପବ ଚନ୍ଦନଗନ୍ଧେ",
+      "ଗାନ୍ଥିଽ ମାଲତୀଫୁଲ,    ହାର ପହିରାଓବ,",
+      "ଧାଓୟାବ ମଧୁକରବ୍ଡ଼୍ନ୍ଦେ ୨"
+     ]
     },
     {
-      "script_code": "Telu",
-      "text": "శ్రీల నరోత్తమ దాస ఠాకుర"
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "મ્ડ઼્ગમદતિલક,    સસિન્દૂર બનાયબ,",
+      "લેપબ ચન્દનગન્ધે",
+      "ગાંથિઽ માલતીફુલ,    હાર પહિરાઓબ,",
+      "ધાઓયાબ મધુકરબ્ડ઼્ન્દે ૨"
+     ]
     },
     {
-      "script_code": "Knda",
-      "text": "ಶ್ರೀಲ ನರೋತ್ತಮ ದಾಸ ಠಾಕುರ"
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "mṛgamada-tilaka,    sasindūra banāyaba,",
+      "lepaba candana-gandhe",
+      "gā̃thi’ mālatīphula,    hāra pahirāoba,",
+      "dhāoyāba madhukarabṛnde 2"
+     ]
     },
     {
-      "script_code": "Taml",
-      "text": "ஶ்ரீல நரோத்தம தா³ஸ டா²குர"
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಮ್‌ಡ಼್ಗಮದತಿಲಕ,    ಸಸಿಂದೂರ ಬನಾಯಬ,",
+      "ಲೆಪಬ ಚಂದನಗಂಧೆ",
+      "ಗಾಂಥಿಽ ಮಾಲತೀಫುಲ,    ಹಾರ ಪಹಿರಾಒಬ,",
+      "ಧಾಒಯಾಬ ಮಧುಕರಬ್‌ಡ಼್ನ್ದೆ ೨"
+     ]
     },
     {
-      "script_code": "Mlym",
-      "text": "ശ്രീല നരോത്തമ ദാസ ഠാകുര"
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "మ్డ్గమదతిలక,    ససిందూర బనాయబ,",
+      "లెపబ చందనగంధె",
+      "గాంథిఽ మాలతీఫుల,    హార పహిరాఒబ,",
+      "ధాఒయాబ మధుకరబ్డ్న్దె 2"
+     ]
     },
     {
-      "script_code": "Gujr",
-      "text": "શ્રીલ નરોત્તમ દાસ ઠાકુર"
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "мр̤гамадатилака,    сасиндӯра бана̄йаба,",
+      "лэ̆паба чанданагандхэ̆",
+      "га̄м̣тхи' ма̄латӣпхула,    ха̄ра пахира̄о̆ба,",
+      "дха̄о̆йа̄ба мадхукарабр̤ндэ̆ 2"
+     ]
     },
     {
-      "script_code": "Orya",
-      "text": "ଶ୍ରୀଲ ନରୋତ୍ତମ ଦାସ ଠାକୁର"
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "മ്ഡ്ഗമദതിലക,    സസിന്ദൂര ബനായബ,",
+      "ലെപബ ചന്ദനഗന്ധെ",
+      "ഗാന്ഥിഽ മാലതീഫുല,    ഹാര പഹിരാഒബ,",
+      "ധാഒയാബ മധുകരബ്ഡ്ന്ദെ 2"
+     ]
     },
     {
-      "script_code": "Cyrl",
-      "text": "ш́рӣла нароттама да̄са т̣ха̄кура"
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ம்ஃட்²க³மத³திலக,    ஸஸிந்தூ³ர ப³னாயப³,",
+      "லெபப³ சந்த³னக³ந்தெ⁴",
+      "கா³ந்தி²(அ) மாலதீபு²ல,    ஹார பஹிராஒப³,",
+      "தா⁴ஒயாப³ மது⁴கரப்³ஃட்²ந்தெ³ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "mṛgamada-tilaka,    sasindūra banāyaba,",
+      "lepaba candana-gandhe",
+      "gā̃thi’ mālatīphula,    hāra pahirāoba,",
+      "dhāoyāba madhukarabṛnde 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "mṛgamada-tilaka,    sasindūra banāyaba,",
+      "lepaba candana-gandhe",
+      "gā̃thi’ mālatīphula,    hāra pahirāoba,",
+      "dhāoyāba madhukarabṛnde 2"
+     ]
     }
-  ],
-  "verses": [
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "lalitā kabe more,    jībana deoyaba,",
+    "bījana māruta manda",
+    "śramajala sakala,    miṭaba dũhu[FLAG_HYPHEN_ALPHA]kalebara,",
+    "heraba parama ānande 3"
+   ],
+   "display_scripts": [
     {
-      "verse_number": 1,
-      "source_text_master": [
-        "prāṇeśbari! kabe more habe kṛpādiṭhi",
-        "ājñāya āniyā kabe,    bibidha phulabara,",
-        "śunaba bacana dũhu miṭhi 1"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "प्राणॆश्बरि! कबॆ मॊरॆ हबॆ क्ड़्पादिठि",
-            "आज्ञाय आनिया कबॆ,    बिबिध फुलबर,",
-            "शुनब बचन दुंहु मिठि १"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "প্রাণেশ্বরি! কবে মোরে হবে ক্ড়্পাদিঠি",
-            "আজ্ঞায় আনিয়া কবে,    বিবিধ ফুলবর,",
-            "শুনব বচন দুংহু মিঠি ১"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ପ୍ରାଣେଶ୍ବରି! କବେ ମୋରେ ହବେ କ୍ଡ଼୍ପାଦିଠି",
-            "ଆଜ୍ଞାୟ ଆନିୟା କବେ,    ବିବିଧ ଫୁଲବର,",
-            "ଶୁନବ ବଚନ ଦୁଂହୁ ମିଠି ୧"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "પ્રાણેશ્બરિ! કબે મોરે હબે ક્ડ઼્પાદિઠિ",
-            "આજ્ઞાય આનિયા કબે,    બિબિધ ફુલબર,",
-            "શુનબ બચન દુંહુ મિઠિ ૧"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "prāṇeśbari! kabe more habe kṛpādiṭhi",
-            "ājñāya āniyā kabe,    bibidha phulabara,",
-            "śunaba bacana dũhu miṭhi 1"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಪ್ರಾಣೆಶ್ಬರಿ! ಕಬೆ ಮೊರೆ ಹಬೆ ಕ್‌ಡ಼್ಪಾದಿಠಿ",
-            "ಆಜ್ಞಾಯ ಆನಿಯಾ ಕಬೆ,    ಬಿಬಿಧ ಫುಲಬರ,",
-            "ಶುನಬ ಬಚನ ದುಂಹು ಮಿಠಿ ೧"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "ప్రాణెశ్బరి! కబె మొరె హబె క్డ్పాదిఠి",
-            "ఆజ్ఞాయ ఆనియా కబె,    బిబిధ ఫులబర,",
-            "శునబ బచన దుంహు మిఠి 1"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "пра̄н̣э̆ш́бари! кабэ̆ мо̆рэ̆ хабэ̆ кр̤па̄дит̣хи",
-            "а̄джн̃а̄йа а̄нийа̄ кабэ̆,    бибидха пхулабара,",
-            "ш́унаба бачана дум̣ху мит̣хи 1"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "പ്രാണെശ്ബരി! കബെ മൊരെ ഹബെ ക്ഡ്പാദിഠി",
-            "ആജ്ഞായ ആനിയാ കബെ,    ബിബിധ ഫുലബര,",
-            "ശുനബ ബചന ദുംഹു മിഠി 1"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "ப்ராணெஶ்ப³ரி! கபெ³ மொரெ ஹபெ³ க்ஃட்²பாதி³டி²",
-            "ஆஜ்ஞாய ஆனியா கபெ³,    பி³பி³த⁴ பு²லப³ர,",
-            "ஶுனப³ ப³சன து³ம்ʼஹு மிடி² 1"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "prāṇeśbari! kabe more habe kṛpādiṭhi",
-            "ājñāya āniyā kabe,    bibidha phulabara,",
-            "śunaba bacana dũhu miṭhi 1"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "prāṇeśbari! kabe more habe kṛpādiṭhi",
-            "ājñāya āniyā kabe,    bibidha phulabara,",
-            "śunaba bacana dũhu miṭhi 1"
-          ]
-        }
-      ]
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ललिता कबॆ मॊरॆ,    जीबन दॆऒयब,",
+      "बीजन मारुत मन्द",
+      "श्रमजल सकल,    मिटब दुंहुकलॆबर,",
+      "हॆरब परम आनन्दॆ ३"
+     ]
     },
     {
-      "verse_number": 2,
-      "source_text_master": [
-        "mṛgamada[FLAG_HYPHEN_ALPHA]tilaka,    sasindūra banāyaba,",
-        "lepaba candana[FLAG_HYPHEN_ALPHA]gandhe",
-        "gā̃thi’ mālatīphula,    hāra pahirāoba,",
-        "dhāoyāba madhukarabṛnde 2"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "म्ड़्गमदतिलक,    ससिन्दूर बनायब,",
-            "लॆपब चन्दनगन्धॆ",
-            "गांथिऽ मालतीफुल,    हार पहिराऒब,",
-            "धाऒयाब मधुकरब्ड़्न्दॆ २"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "ম্ড়্গমদতিলক,    সসিন্দূর বনায়ব,",
-            "লেপব চন্দনগন্ধে",
-            "গান্থিঽ মালতীফুল,    হার পহিরাওব,",
-            "ধাওয়াব মধুকরব্ড়্ন্দে ২"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ମ୍ଡ଼୍ଗମଦତିଲକ,    ସସିନ୍ଦୂର ବନାୟବ,",
-            "ଲେପବ ଚନ୍ଦନଗନ୍ଧେ",
-            "ଗାନ୍ଥିଽ ମାଲତୀଫୁଲ,    ହାର ପହିରାଓବ,",
-            "ଧାଓୟାବ ମଧୁକରବ୍ଡ଼୍ନ୍ଦେ ୨"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "મ્ડ઼્ગમદતિલક,    સસિન્દૂર બનાયબ,",
-            "લેપબ ચન્દનગન્ધે",
-            "ગાંથિઽ માલતીફુલ,    હાર પહિરાઓબ,",
-            "ધાઓયાબ મધુકરબ્ડ઼્ન્દે ૨"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "mṛgamada-tilaka,    sasindūra banāyaba,",
-            "lepaba candana-gandhe",
-            "gā̃thi’ mālatīphula,    hāra pahirāoba,",
-            "dhāoyāba madhukarabṛnde 2"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಮ್‌ಡ಼್ಗಮದತಿಲಕ,    ಸಸಿಂದೂರ ಬನಾಯಬ,",
-            "ಲೆಪಬ ಚಂದನಗಂಧೆ",
-            "ಗಾಂಥಿಽ ಮಾಲತೀಫುಲ,    ಹಾರ ಪಹಿರಾಒಬ,",
-            "ಧಾಒಯಾಬ ಮಧುಕರಬ್‌ಡ಼್ನ್ದೆ ೨"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "మ్డ్గమదతిలక,    ససిందూర బనాయబ,",
-            "లెపబ చందనగంధె",
-            "గాంథిఽ మాలతీఫుల,    హార పహిరాఒబ,",
-            "ధాఒయాబ మధుకరబ్డ్న్దె 2"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "мр̤гамадатилака,    сасиндӯра бана̄йаба,",
-            "лэ̆паба чанданагандхэ̆",
-            "га̄м̣тхи' ма̄латӣпхула,    ха̄ра пахира̄о̆ба,",
-            "дха̄о̆йа̄ба мадхукарабр̤ндэ̆ 2"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "മ്ഡ്ഗമദതിലക,    സസിന്ദൂര ബനായബ,",
-            "ലെപബ ചന്ദനഗന്ധെ",
-            "ഗാന്ഥിഽ മാലതീഫുല,    ഹാര പഹിരാഒബ,",
-            "ധാഒയാബ മധുകരബ്ഡ്ന്ദെ 2"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "ம்ஃட்²க³மத³திலக,    ஸஸிந்தூ³ர ப³னாயப³,",
-            "லெபப³ சந்த³னக³ந்தெ⁴",
-            "கா³ந்தி²(அ) மாலதீபு²ல,    ஹார பஹிராஒப³,",
-            "தா⁴ஒயாப³ மது⁴கரப்³ஃட்²ந்தெ³ 2"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "mṛgamada-tilaka,    sasindūra banāyaba,",
-            "lepaba candana-gandhe",
-            "gā̃thi’ mālatīphula,    hāra pahirāoba,",
-            "dhāoyāba madhukarabṛnde 2"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "mṛgamada-tilaka,    sasindūra banāyaba,",
-            "lepaba candana-gandhe",
-            "gā̃thi’ mālatīphula,    hāra pahirāoba,",
-            "dhāoyāba madhukarabṛnde 2"
-          ]
-        }
-      ]
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ললিতা কবে মোরে,    জীবন দেওয়ব,",
+      "বীজন মারুত মন্দ",
+      "শ্রমজল সকল,    মিটব দুংহুকলেবর,",
+      "হেরব পরম আনন্দে ৩"
+     ]
     },
     {
-      "verse_number": 3,
-      "source_text_master": [
-        "lalitā kabe more,    jībana deoyaba,",
-        "bījana māruta manda",
-        "śramajala sakala,    miṭaba dũhu[FLAG_HYPHEN_ALPHA]kalebara,",
-        "heraba parama ānande 3"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "ललिता कबॆ मॊरॆ,    जीबन दॆऒयब,",
-            "बीजन मारुत मन्द",
-            "श्रमजल सकल,    मिटब दुंहुकलॆबर,",
-            "हॆरब परम आनन्दॆ ३"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "ললিতা কবে মোরে,    জীবন দেওয়ব,",
-            "বীজন মারুত মন্দ",
-            "শ্রমজল সকল,    মিটব দুংহুকলেবর,",
-            "হেরব পরম আনন্দে ৩"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ଲଲିତା କବେ ମୋରେ,    ଜୀବନ ଦେଓୟବ,",
-            "ବୀଜନ ମାରୁତ ମନ୍ଦ",
-            "ଶ୍ରମଜଲ ସକଲ,    ମିଟବ ଦୁଂହୁକଲେବର,",
-            "ହେରବ ପରମ ଆନନ୍ଦେ ୩"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "લલિતા કબે મોરે,    જીબન દેઓયબ,",
-            "બીજન મારુત મન્દ",
-            "શ્રમજલ સકલ,    મિટબ દુંહુકલેબર,",
-            "હેરબ પરમ આનન્દે ૩"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "lalitā kabe more,    jībana deoyaba,",
-            "bījana māruta manda",
-            "śramajala sakala,    miṭaba dũhu-kalebara,",
-            "heraba parama ānande 3"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಲಲಿತಾ ಕಬೆ ಮೊರೆ,    ಜೀಬನ ದೆಒಯಬ,",
-            "ಬೀಜನ ಮಾರುತ ಮಂದ",
-            "ಶ್ರಮಜಲ ಸಕಲ,    ಮಿಟಬ ದುಂಹುಕಲೆಬರ,",
-            "ಹೆರಬ ಪರಮ ಆನಂದೆ ೩"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "లలితా కబె మొరె,    జీబన దెఒయబ,",
-            "బీజన మారుత మంద",
-            "శ్రమజల సకల,    మిటబ దుంహుకలెబర,",
-            "హెరబ పరమ ఆనందె 3"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "лалита̄ кабэ̆ мо̆рэ̆,    джӣбана дэ̆о̆йаба,",
-            "бӣджана ма̄рута манда",
-            "ш́рамаджала сакала,    мит̣аба дум̣хукалэ̆бара,",
-            "хэ̆раба парама а̄нандэ̆ 3"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ലലിതാ കബെ മൊരെ,    ജീബന ദെഒയബ,",
-            "ബീജന മാരുത മന്ദ",
-            "ശ്രമജല സകല,    മിടബ ദുംഹുകലെബര,",
-            "ഹെരബ പരമ ആനന്ദെ 3"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "லலிதா கபெ³ மொரெ,    ஜீப³ன தெ³ஒயப³,",
-            "பீ³ஜன மாருத மந்த³",
-            "ஶ்ரமஜல ஸகல,    மிடப³ து³ம்ʼஹுகலெப³ர,",
-            "ஹெரப³ பரம ஆனந்தெ³ 3"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "lalitā kabe more,    jībana deoyaba,",
-            "bījana māruta manda",
-            "śramajala sakala,    miṭaba dũhu-kalebara,",
-            "heraba parama ānande 3"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "lalitā kabe more,    jībana deoyaba,",
-            "bījana māruta manda",
-            "śramajala sakala,    miṭaba dũhu-kalebara,",
-            "heraba parama ānande 3"
-          ]
-        }
-      ]
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଲଲିତା କବେ ମୋରେ,    ଜୀବନ ଦେଓୟବ,",
+      "ବୀଜନ ମାରୁତ ମନ୍ଦ",
+      "ଶ୍ରମଜଲ ସକଲ,    ମିଟବ ଦୁଂହୁକଲେବର,",
+      "ହେରବ ପରମ ଆନନ୍ଦେ ୩"
+     ]
     },
     {
-      "verse_number": 4,
-      "source_text_master": [
-        "narottamadāsa[FLAG_HYPHEN_ALPHA],    āśa padapaṅkaja,",
-        "sebana mādhurīpāne",
-        "hooyaba hena dina,    nā dekhiye kona cihna,",
-        "dũhujana heraba nayāne 4"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "नरॊत्तमदास,    आश पदपङ्कज,",
-            "सॆबन माधुरीपानॆ",
-            "हॊऒयब हॆन दिन,    ना दॆखियॆ कॊन चिह्न,",
-            "दुंहुजन हॆरब नयानॆ ४"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "নরোত্তমদাস,    আশ পদপঙ্কজ,",
-            "সেবন মাধুরীপানে",
-            "হোওয়ব হেন দিন,    না দেখিয়ে কোন চিহ্ন,",
-            "দুংহুজন হেরব নয়ানে ৪"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ନରୋତ୍ତମଦାସ,    ଆଶ ପଦପଙ୍କଜ,",
-            "ସେବନ ମାଧୁରୀପାନେ",
-            "ହୋଓୟବ ହେନ ଦିନ,    ନା ଦେଖିୟେ କୋନ ଚିହ୍ନ,",
-            "ଦୁଂହୁଜନ ହେରବ ନୟାନେ ୪"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "નરોત્તમદાસ,    આશ પદપઙ્કજ,",
-            "સેબન માધુરીપાને",
-            "હોઓયબ હેન દિન,    ના દેખિયે કોન ચિહ્ન,",
-            "દુંહુજન હેરબ નયાને ૪"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "narottamadāsa-,    āśa padapaṅkaja,",
-            "sebana mādhurīpāne",
-            "hooyaba hena dina,    nā dekhiye kona cihna,",
-            "dũhujana heraba nayāne 4"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ನರೊತ್ತಮದಾಸ,    ಆಶ ಪದಪಂಕಜ,",
-            "ಸೆಬನ ಮಾಧುರೀಪಾನೆ",
-            "ಹೊಒಯಬ ಹೆನ ದಿನ,    ನಾ ದೆಖಿಯೆ ಕೊನ ಚಿಹ್ನ,",
-            "ದುಂಹುಜನ ಹೆರಬ ನಯಾನೆ ೪"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "నరొత్తమదాస,    ఆశ పదపంకజ,",
-            "సెబన మాధురీపానె",
-            "హొఒయబ హెన దిన,    నా దెఖియె కొన చిహ్న,",
-            "దుంహుజన హెరబ నయానె 4"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "наро̆ттамада̄са,    а̄ш́а падапан̇каджа,",
-            "сэ̆бана ма̄дхурӣпа̄нэ̆",
-            "хо̆о̆йаба хэ̆на дина,    на̄ дэ̆кхийэ̆ ко̆на чихна,",
-            "дум̣худжана хэ̆раба найа̄нэ̆ 4"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "നരൊത്തമദാസ,    ആശ പദപങ്കജ,",
-            "സെബന മാധുരീപാനെ",
-            "ഹൊഒയബ ഹെന ദിന,    നാ ദെഖിയെ കൊന ചിഹ്ന,",
-            "ദുംഹുജന ഹെരബ നയാനെ 4"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "நரொத்தமதா³ஸ,    ஆஶ பத³பங்கஜ,",
-            "ஸெப³ன மாது⁴ரீபானெ",
-            "ஹொஒயப³ ஹென தி³ன,    நா தெ³கி²யெ கொன சிஹ்ன,",
-            "து³ம்ʼஹுஜன ஹெரப³ நயானெ 4"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "narottamadāsa-,    āśa padapaṅkaja,",
-            "sebana mādhurīpāne",
-            "hooyaba hena dina,    nā dekhiye kona cihna,",
-            "dũhujana heraba nayāne 4"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "narottamadāsa-,    āśa padapaṅkaja,",
-            "sebana mādhurīpāne",
-            "hooyaba hena dina,    nā dekhiye kona cihna,",
-            "dũhujana heraba nayāne 4"
-          ]
-        }
-      ]
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "લલિતા કબે મોરે,    જીબન દેઓયબ,",
+      "બીજન મારુત મન્દ",
+      "શ્રમજલ સકલ,    મિટબ દુંહુકલેબર,",
+      "હેરબ પરમ આનન્દે ૩"
+     ]
     },
     {
-      "verse_number": 5,
-      "source_text_master": [
-        ""
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            ""
-          ]
-        }
-      ]
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "lalitā kabe more,    jībana deoyaba,",
+      "bījana māruta manda",
+      "śramajala sakala,    miṭaba dũhu-kalebara,",
+      "heraba parama ānande 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಲಲಿತಾ ಕಬೆ ಮೊರೆ,    ಜೀಬನ ದೆಒಯಬ,",
+      "ಬೀಜನ ಮಾರುತ ಮಂದ",
+      "ಶ್ರಮಜಲ ಸಕಲ,    ಮಿಟಬ ದುಂಹುಕಲೆಬರ,",
+      "ಹೆರಬ ಪರಮ ಆನಂದೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "లలితా కబె మొరె,    జీబన దెఒయబ,",
+      "బీజన మారుత మంద",
+      "శ్రమజల సకల,    మిటబ దుంహుకలెబర,",
+      "హెరబ పరమ ఆనందె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "лалита̄ кабэ̆ мо̆рэ̆,    джӣбана дэ̆о̆йаба,",
+      "бӣджана ма̄рута манда",
+      "ш́рамаджала сакала,    мит̣аба дум̣хукалэ̆бара,",
+      "хэ̆раба парама а̄нандэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ലലിതാ കബെ മൊരെ,    ജീബന ദെഒയബ,",
+      "ബീജന മാരുത മന്ദ",
+      "ശ്രമജല സകല,    മിടബ ദുംഹുകലെബര,",
+      "ഹെരബ പരമ ആനന്ദെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "லலிதா கபெ³ மொரெ,    ஜீப³ன தெ³ஒயப³,",
+      "பீ³ஜன மாருத மந்த³",
+      "ஶ்ரமஜல ஸகல,    மிடப³ து³ம்ʼஹுகலெப³ர,",
+      "ஹெரப³ பரம ஆனந்தெ³ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "lalitā kabe more,    jībana deoyaba,",
+      "bījana māruta manda",
+      "śramajala sakala,    miṭaba dũhu-kalebara,",
+      "heraba parama ānande 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "lalitā kabe more,    jībana deoyaba,",
+      "bījana māruta manda",
+      "śramajala sakala,    miṭaba dũhu-kalebara,",
+      "heraba parama ānande 3"
+     ]
     }
-  ],
-  "notes": [],
-  "audio_available": false,
-  "audio_files": []
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "narottamadāsa[FLAG_HYPHEN_ALPHA],    āśa padapaṅkaja,",
+    "sebana mādhurīpāne",
+    "hooyaba hena dina,    nā dekhiye kona cihna,",
+    "dũhujana heraba nayāne 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "नरॊत्तमदास,    आश पदपङ्कज,",
+      "सॆबन माधुरीपानॆ",
+      "हॊऒयब हॆन दिन,    ना दॆखियॆ कॊन चिह्न,",
+      "दुंहुजन हॆरब नयानॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নরোত্তমদাস,    আশ পদপঙ্কজ,",
+      "সেবন মাধুরীপানে",
+      "হোওয়ব হেন দিন,    না দেখিয়ে কোন চিহ্ন,",
+      "দুংহুজন হেরব নয়ানে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନରୋତ୍ତମଦାସ,    ଆଶ ପଦପଙ୍କଜ,",
+      "ସେବନ ମାଧୁରୀପାନେ",
+      "ହୋଓୟବ ହେନ ଦିନ,    ନା ଦେଖିୟେ କୋନ ଚିହ୍ନ,",
+      "ଦୁଂହୁଜନ ହେରବ ନୟାନେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નરોત્તમદાસ,    આશ પદપઙ્કજ,",
+      "સેબન માધુરીપાને",
+      "હોઓયબ હેન દિન,    ના દેખિયે કોન ચિહ્ન,",
+      "દુંહુજન હેરબ નયાને ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "narottamadāsa-,    āśa padapaṅkaja,",
+      "sebana mādhurīpāne",
+      "hooyaba hena dina,    nā dekhiye kona cihna,",
+      "dũhujana heraba nayāne 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನರೊತ್ತಮದಾಸ,    ಆಶ ಪದಪಂಕಜ,",
+      "ಸೆಬನ ಮಾಧುರೀಪಾನೆ",
+      "ಹೊಒಯಬ ಹೆನ ದಿನ,    ನಾ ದೆಖಿಯೆ ಕೊನ ಚಿಹ್ನ,",
+      "ದುಂಹುಜನ ಹೆರಬ ನಯಾನೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నరొత్తమదాస,    ఆశ పదపంకజ,",
+      "సెబన మాధురీపానె",
+      "హొఒయబ హెన దిన,    నా దెఖియె కొన చిహ్న,",
+      "దుంహుజన హెరబ నయానె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "наро̆ттамада̄са,    а̄ш́а падапан̇каджа,",
+      "сэ̆бана ма̄дхурӣпа̄нэ̆",
+      "хо̆о̆йаба хэ̆на дина,    на̄ дэ̆кхийэ̆ ко̆на чихна,",
+      "дум̣худжана хэ̆раба найа̄нэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നരൊത്തമദാസ,    ആശ പദപങ്കജ,",
+      "സെബന മാധുരീപാനെ",
+      "ഹൊഒയബ ഹെന ദിന,    നാ ദെഖിയെ കൊന ചിഹ്ന,",
+      "ദുംഹുജന ഹെരബ നയാനെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நரொத்தமதா³ஸ,    ஆஶ பத³பங்கஜ,",
+      "ஸெப³ன மாது⁴ரீபானெ",
+      "ஹொஒயப³ ஹென தி³ன,    நா தெ³கி²யெ கொன சிஹ்ன,",
+      "து³ம்ʼஹுஜன ஹெரப³ நயானெ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "narottamadāsa-,    āśa padapaṅkaja,",
+      "sebana mādhurīpāne",
+      "hooyaba hena dina,    nā dekhiye kona cihna,",
+      "dũhujana heraba nayāne 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "narottamadāsa-,    āśa padapaṅkaja,",
+      "sebana mādhurīpāne",
+      "hooyaba hena dina,    nā dekhiye kona cihna,",
+      "dũhujana heraba nayāne 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": []
 }

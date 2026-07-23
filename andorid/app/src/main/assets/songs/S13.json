@@ -1,1044 +1,952 @@
 {
-  "uid": "S13",
-  "language_of_origin": "ben",
-  "title_main": [
+ "uid": "S13",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "দারা-পুত্র-নিজ-দেহ-কুটুম্ব-পালনে"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "dārā-putra-nija-deha-kuṭumba-pālane"
+  },
+  {
+   "script_code": "Deva",
+   "text": "दारा-पुत्र-निज-देह-कुटुम्ब-पालने"
+  },
+  {
+   "script_code": "Telu",
+   "text": "దారా-పుత్ర-నిజ-దేహ-కుటుంబ-పాలనే"
+  },
+  {
+   "script_code": "Knda",
+   "text": "ದಾರಾ-ಪುತ್ರ-ನಿಜ-ದೇಹ-ಕುಟುಂಬ-ಪಾಲನೇ"
+  },
+  {
+   "script_code": "Taml",
+   "text": "தா³ரா-புத்ர-நிஜ-தே³ஹ-குடும்ப³-பாலனே"
+  },
+  {
+   "script_code": "Mlym",
+   "text": "ദാരാ-പുത്ര-നിജ-ദേഹ-കുടുംബ-പാലനേ"
+  },
+  {
+   "script_code": "Gujr",
+   "text": "દારા-પુત્ર-નિજ-દેહ-કુટુમ્બ-પાલને"
+  },
+  {
+   "script_code": "Orya",
+   "text": "ଦାରା-ପୁତ୍ର-ନିଜ-ଦେହ-କୁଟୁମ୍ବ-ପାଲନେ"
+  },
+  {
+   "script_code": "Cyrl",
+   "text": "да̄ра̄-путра-ниджа-дэха-кут̣умба-па̄ланэ"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  },
+  {
+   "script_code": "Deva",
+   "text": "श्रील भक्तिविनोद ठाकुर"
+  },
+  {
+   "script_code": "Telu",
+   "text": "శ్రీల భక్తివినోద ఠాకుర"
+  },
+  {
+   "script_code": "Knda",
+   "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+  },
+  {
+   "script_code": "Taml",
+   "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+  },
+  {
+   "script_code": "Mlym",
+   "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+  },
+  {
+   "script_code": "Gujr",
+   "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+  },
+  {
+   "script_code": "Orya",
+   "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+  },
+  {
+   "script_code": "Cyrl",
+   "text": "ш́рӣла бхактивинода т̣ха̄кура"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "dārā[FLAG_HYPHEN_ALPHA]putra[FLAG_HYPHEN_ALPHA]nija[FLAG_HYPHEN_ALPHA]deha[FLAG_HYPHEN_ALPHA]kuṭumba[FLAG_HYPHEN_ALPHA]pālane",
+    "sarbadā byākula āmi chinu mane mane 1"
+   ],
+   "display_scripts": [
     {
-      "script_code": "Beng",
-      "text": "দারা-পুত্র-নিজ-দেহ-কুটুম্ব-পালনে"
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "दारापुत्रनिजदॆहकुटुम्बपालनॆ",
+      "सर्बदा ब्याकुल आमि छिनु मनॆ मनॆ १"
+     ]
     },
     {
-      "script_code": "Latn",
-      "standard": "IAST",
-      "text": "dārā-putra-nija-deha-kuṭumba-pālane"
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "দারাপুত্রনিজদেহকুটুম্বপালনে",
+      "সর্বদা ব্যাকুল আমি ছিনু মনে মনে ১"
+     ]
     },
     {
-      "script_code": "Deva",
-      "text": "दारा-पुत्र-निज-देह-कुटुम्ब-पालने"
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଦାରାପୁତ୍ରନିଜଦେହକୁଟୁମ୍ବପାଲନେ",
+      "ସର୍ବଦା ବ୍ୟାକୁଲ ଆମି ଛିନୁ ମନେ ମନେ ୧"
+     ]
     },
     {
-      "script_code": "Telu",
-      "text": "దారా-పుత్ర-నిజ-దేహ-కుటుంబ-పాలనే"
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "દારાપુત્રનિજદેહકુટુમ્બપાલને",
+      "સર્બદા બ્યાકુલ આમિ છિનુ મને મને ૧"
+     ]
     },
     {
-      "script_code": "Knda",
-      "text": "ದಾರಾ-ಪುತ್ರ-ನಿಜ-ದೇಹ-ಕುಟುಂಬ-ಪಾಲನೇ"
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "dārā-putra-nija-deha-kuṭumba-pālane",
+      "sarbadā byākula āmi chinu mane mane 1"
+     ]
     },
     {
-      "script_code": "Taml",
-      "text": "தா³ரா-புத்ர-நிஜ-தே³ஹ-குடும்ப³-பாலனே"
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ದಾರಾಪುತ್ರನಿಜದೆಹಕುಟುಂಬಪಾಲನೆ",
+      "ಸರ್ಬದಾ ಬ್ಯಾಕುಲ ಆಮಿ ಛಿನು ಮನೆ ಮನೆ ೧"
+     ]
     },
     {
-      "script_code": "Mlym",
-      "text": "ദാരാ-പുത്ര-നിജ-ദേഹ-കുടുംബ-പാലനേ"
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "దారాపుత్రనిజదెహకుటుంబపాలనె",
+      "సర్బదా బ్యాకుల ఆమి ఛిను మనె మనె 1"
+     ]
     },
     {
-      "script_code": "Gujr",
-      "text": "દારા-પુત્ર-નિજ-દેહ-કુટુમ્બ-પાલને"
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "да̄ра̄путраниджадэ̆хакут̣умбапа̄ланэ̆",
+      "сарбада̄ бйа̄кула а̄ми чхину манэ̆ манэ̆ 1"
+     ]
     },
     {
-      "script_code": "Orya",
-      "text": "ଦାରା-ପୁତ୍ର-ନିଜ-ଦେହ-କୁଟୁମ୍ବ-ପାଲନେ"
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ദാരാപുത്രനിജദെഹകുടുംബപാലനെ",
+      "സർബദാ ബ്യാകുല ആമി ഛിനു മനെ മനെ 1"
+     ]
     },
     {
-      "script_code": "Cyrl",
-      "text": "да̄ра̄-путра-ниджа-дэха-кут̣умба-па̄ланэ"
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தா³ராபுத்ரநிஜதெ³ஹகுடும்ப³பாலனெ",
+      "ஸர்ப³தா³ ப்³யாகுல ஆமி சி²னு மனெ மனெ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "dārā-putra-nija-deha-kuṭumba-pālane",
+      "sarbadā byākula āmi chinu mane mane 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "dārā-putra-nija-deha-kuṭumba-pālane",
+      "sarbadā byākula āmi chinu mane mane 1"
+     ]
     }
-  ],
-  "author_uid": "bt",
-  "author_display": [
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "kemane arjiba artha, yaśa kise pāba",
+    "kanyā[FLAG_HYPHEN_ALPHA]putra[FLAG_HYPHEN_ALPHA]bibāha kemane sampādiba 2"
+   ],
+   "display_scripts": [
     {
-      "script_code": "Beng",
-      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "कॆमनॆ अर्जिब अर्थ, यश किसॆ पाब",
+      "कन्यापुत्रबिबाह कॆमनॆ सम्पादिब २"
+     ]
     },
     {
-      "script_code": "Latn",
-      "standard": "IAST",
-      "text": "Śrīla Bhaktivinoda Ṭhākura"
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "কেমনে অর্জিব অর্থ, যশ কিসে পাব",
+      "কন্যাপুত্রবিবাহ কেমনে সম্পাদিব ২"
+     ]
     },
     {
-      "script_code": "Deva",
-      "text": "श्रील भक्तिविनोद ठाकुर"
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କେମନେ ଅର୍ଜିବ ଅର୍ଥ, ଯଶ କିସେ ପାବ",
+      "କନ୍ୟାପୁତ୍ରବିବାହ କେମନେ ସମ୍ପାଦିବ ୨"
+     ]
     },
     {
-      "script_code": "Telu",
-      "text": "శ్రీల భక్తివినోద ఠాకుర"
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "કેમને અર્જિબ અર્થ, યશ કિસે પાબ",
+      "કન્યાપુત્રબિબાહ કેમને સમ્પાદિબ ૨"
+     ]
     },
     {
-      "script_code": "Knda",
-      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kemane arjiba artha, yaśa kise pāba",
+      "kanyā-putra-bibāha kemane sampādiba 2"
+     ]
     },
     {
-      "script_code": "Taml",
-      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕೆಮನೆ ಅರ್ಜಿಬ ಅರ್ಥ, ಯಶ ಕಿಸೆ ಪಾಬ",
+      "ಕನ್ಯಾಪುತ್ರಬಿಬಾಹ ಕೆಮನೆ ಸಂಪಾದಿಬ ೨"
+     ]
     },
     {
-      "script_code": "Mlym",
-      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "కెమనె అర్జిబ అర్థ, యశ కిసె పాబ",
+      "కన్యాపుత్రబిబాహ కెమనె సంపాదిబ 2"
+     ]
     },
     {
-      "script_code": "Gujr",
-      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кэ̆манэ̆ арджиба артха, йаш́а кисэ̆ па̄ба",
+      "канйа̄путрабиба̄ха кэ̆манэ̆ сампа̄диба 2"
+     ]
     },
     {
-      "script_code": "Orya",
-      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "കെമനെ അർജിബ അർഥ, യശ കിസെ പാബ",
+      "കന്യാപുത്രബിബാഹ കെമനെ സമ്പാദിബ 2"
+     ]
     },
     {
-      "script_code": "Cyrl",
-      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "கெமனெ அர்ஜிப³ அர்த², யஶ கிஸெ பாப³",
+      "கன்யாபுத்ரபி³பா³ஹ கெமனெ ஸம்பாதி³ப³ 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kemane arjiba artha, yaśa kise pāba",
+      "kanyā-putra-bibāha kemane sampādiba 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kemane arjiba artha, yaśa kise pāba",
+      "kanyā-putra-bibāha kemane sampādiba 2"
+     ]
     }
-  ],
-  "verses": [
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "ebe ātmasamarpaṇe cintā nāhi āra",
+    "tumi nirbāhibe prabhu! saṁsāra tomāra 3"
+   ],
+   "display_scripts": [
     {
-      "verse_number": 1,
-      "source_text_master": [
-        "dārā[FLAG_HYPHEN_ALPHA]putra[FLAG_HYPHEN_ALPHA]nija[FLAG_HYPHEN_ALPHA]deha[FLAG_HYPHEN_ALPHA]kuṭumba[FLAG_HYPHEN_ALPHA]pālane",
-        "sarbadā byākula āmi chinu mane mane 1"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "दारापुत्रनिजदॆहकुटुम्बपालनॆ",
-            "सर्बदा ब्याकुल आमि छिनु मनॆ मनॆ १"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "দারাপুত্রনিজদেহকুটুম্বপালনে",
-            "সর্বদা ব্যাকুল আমি ছিনু মনে মনে ১"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ଦାରାପୁତ୍ରନିଜଦେହକୁଟୁମ୍ବପାଲନେ",
-            "ସର୍ବଦା ବ୍ୟାକୁଲ ଆମି ଛିନୁ ମନେ ମନେ ୧"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "દારાપુત્રનિજદેહકુટુમ્બપાલને",
-            "સર્બદા બ્યાકુલ આમિ છિનુ મને મને ૧"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "dārā-putra-nija-deha-kuṭumba-pālane",
-            "sarbadā byākula āmi chinu mane mane 1"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ದಾರಾಪುತ್ರನಿಜದೆಹಕುಟುಂಬಪಾಲನೆ",
-            "ಸರ್ಬದಾ ಬ್ಯಾಕುಲ ಆಮಿ ಛಿನು ಮನೆ ಮನೆ ೧"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "దారాపుత్రనిజదెహకుటుంబపాలనె",
-            "సర్బదా బ్యాకుల ఆమి ఛిను మనె మనె 1"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "да̄ра̄путраниджадэ̆хакут̣умбапа̄ланэ̆",
-            "сарбада̄ бйа̄кула а̄ми чхину манэ̆ манэ̆ 1"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ദാരാപുത്രനിജദെഹകുടുംബപാലനെ",
-            "സർബദാ ബ്യാകുല ആമി ഛിനു മനെ മനെ 1"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "தா³ராபுத்ரநிஜதெ³ஹகுடும்ப³பாலனெ",
-            "ஸர்ப³தா³ ப்³யாகுல ஆமி சி²னு மனெ மனெ 1"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "dārā-putra-nija-deha-kuṭumba-pālane",
-            "sarbadā byākula āmi chinu mane mane 1"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "dārā-putra-nija-deha-kuṭumba-pālane",
-            "sarbadā byākula āmi chinu mane mane 1"
-          ]
-        }
-      ]
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ऎबॆ आत्मसमर्पणॆ चिन्ता नाहि आर",
+      "तुमि निर्बाहिबॆ प्रभु! संसार तॊमार ३"
+     ]
     },
     {
-      "verse_number": 2,
-      "source_text_master": [
-        "kemane arjiba artha, yaśa kise pāba",
-        "kanyā[FLAG_HYPHEN_ALPHA]putra[FLAG_HYPHEN_ALPHA]bibāha kemane sampādiba 2"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "कॆमनॆ अर्जिब अर्थ, यश किसॆ पाब",
-            "कन्यापुत्रबिबाह कॆमनॆ सम्पादिब २"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "কেমনে অর্জিব অর্থ, যশ কিসে পাব",
-            "কন্যাপুত্রবিবাহ কেমনে সম্পাদিব ২"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "କେମନେ ଅର୍ଜିବ ଅର୍ଥ, ଯଶ କିସେ ପାବ",
-            "କନ୍ୟାପୁତ୍ରବିବାହ କେମନେ ସମ୍ପାଦିବ ୨"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "કેમને અર્જિબ અર્થ, યશ કિસે પાબ",
-            "કન્યાપુત્રબિબાહ કેમને સમ્પાદિબ ૨"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "kemane arjiba artha, yaśa kise pāba",
-            "kanyā-putra-bibāha kemane sampādiba 2"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಕೆಮನೆ ಅರ್ಜಿಬ ಅರ್ಥ, ಯಶ ಕಿಸೆ ಪಾಬ",
-            "ಕನ್ಯಾಪುತ್ರಬಿಬಾಹ ಕೆಮನೆ ಸಂಪಾದಿಬ ೨"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "కెమనె అర్జిబ అర్థ, యశ కిసె పాబ",
-            "కన్యాపుత్రబిబాహ కెమనె సంపాదిబ 2"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "кэ̆манэ̆ арджиба артха, йаш́а кисэ̆ па̄ба",
-            "канйа̄путрабиба̄ха кэ̆манэ̆ сампа̄диба 2"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "കെമനെ അർജിബ അർഥ, യശ കിസെ പാബ",
-            "കന്യാപുത്രബിബാഹ കെമനെ സമ്പാദിബ 2"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "கெமனெ அர்ஜிப³ அர்த², யஶ கிஸெ பாப³",
-            "கன்யாபுத்ரபி³பா³ஹ கெமனெ ஸம்பாதி³ப³ 2"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "kemane arjiba artha, yaśa kise pāba",
-            "kanyā-putra-bibāha kemane sampādiba 2"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "kemane arjiba artha, yaśa kise pāba",
-            "kanyā-putra-bibāha kemane sampādiba 2"
-          ]
-        }
-      ]
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "এবে আত্মসমর্পণে চিন্তা নাহি আর",
+      "তুমি নির্বাহিবে প্রভু! সংসার তোমার ৩"
+     ]
     },
     {
-      "verse_number": 3,
-      "source_text_master": [
-        "ebe ātmasamarpaṇe cintā nāhi āra",
-        "tumi nirbāhibe prabhu! saṁsāra tomāra 3"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "ऎबॆ आत्मसमर्पणॆ चिन्ता नाहि आर",
-            "तुमि निर्बाहिबॆ प्रभु! संसार तॊमार ३"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "এবে আত্মসমর্পণে চিন্তা নাহি আর",
-            "তুমি নির্বাহিবে প্রভু! সংসার তোমার ৩"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ଏବେ ଆତ୍ମସମର୍ପଣେ ଚିନ୍ତା ନାହି ଆର",
-            "ତୁମି ନିର୍ବାହିବେ ପ୍ରଭୁ! ସଂସାର ତୋମାର ୩"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "એબે આત્મસમર્પણે ચિન્તા નાહિ આર",
-            "તુમિ નિર્બાહિબે પ્રભુ! સંસાર તોમાર ૩"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "ebe ātmasamarpaṇe cintā nāhi āra",
-            "tumi nirbāhibe prabhu! saṁsāra tomāra 3"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಎಬೆ ಆತ್ಮಸಮರ್ಪಣೆ ಚಿಂತಾ ನಾಹಿ ಆರ",
-            "ತುಮಿ ನಿರ್ಬಾಹಿಬೆ ಪ್ರಭು! ಸಂಸಾರ ತೊಮಾರ ೩"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "ఎబె ఆత్మసమర్పణె చింతా నాహి ఆర",
-            "తుమి నిర్బాహిబె ప్రభు! సంసార తొమార 3"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "э̆бэ̆ а̄тмасамарпан̣э̆ чинта̄ на̄хи а̄ра",
-            "туми нирба̄хибэ̆ прабху! сам̣са̄ра то̆ма̄ра 3"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "എബെ ആത്മസമർപണെ ചിന്താ നാഹി ആര",
-            "തുമി നിർബാഹിബെ പ്രഭു! സംസാര തൊമാര 3"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "எபெ³ ஆத்மஸமர்பணெ சிந்தா நாஹி ஆர",
-            "துமி நிர்பா³ஹிபெ³ ப்ரபு⁴! ஸம்ʼஸார தொமார 3"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "ebe ātmasamarpaṇe cintā nāhi āra",
-            "tumi nirbāhibe prabhu! saṁsāra tomāra 3"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "ebe ātmasamarpaṇe cintā nāhi āra",
-            "tumi nirbāhibe prabhu! saṁsāra tomāra 3"
-          ]
-        }
-      ]
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଏବେ ଆତ୍ମସମର୍ପଣେ ଚିନ୍ତା ନାହି ଆର",
+      "ତୁମି ନିର୍ବାହିବେ ପ୍ରଭୁ! ସଂସାର ତୋମାର ୩"
+     ]
     },
     {
-      "verse_number": 4,
-      "source_text_master": [
-        "tumi ta’ pālibe more nijadāsa jāni’",
-        "tomāra sebāya prabhu! baḓa sukha māni 4"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "तुमि तऽ पालिबॆ मॊरॆ निजदास जानिऽ",
-            "तॊमार सॆबाय प्रभु! बḓअ सुख मानि ४"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "তুমি তঽ পালিবে মোরে নিজদাস জানিঽ",
-            "তোমার সেবায় প্রভু! বḓঅ সুখ মানি ৪"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ତୁମି ତଽ ପାଲିବେ ମୋରେ ନିଜଦାସ ଜାନିଽ",
-            "ତୋମାର ସେବାୟ ପ୍ରଭୁ! ବḓଅ ସୁଖ ମାନି ୪"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "તુમિ તઽ પાલિબે મોરે નિજદાસ જાનિઽ",
-            "તોમાર સેબાય પ્રભુ! બḓઅ સુખ માનિ ૪"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "tumi ta’ pālibe more nijadāsa jāni’",
-            "tomāra sebāya prabhu! baḓa sukha māni 4"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ತುಮಿ ತಽ ಪಾಲಿಬೆ ಮೊರೆ ನಿಜದಾಸ ಜಾನಿಽ",
-            "ತೊಮಾರ ಸೆಬಾಯ ಪ್ರಭು! ಬḓಅ ಸುಖ ಮಾನಿ ೪"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "తుమి తఽ పాలిబె మొరె నిజదాస జానిఽ",
-            "తొమార సెబాయ ప్రభు! బḓఅ సుఖ మాని 4"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "туми та' па̄либэ̆ мо̆рэ̆ ниджада̄са джа̄ни'",
-            "то̆ма̄ра сэ̆ба̄йа прабху! баḓа сукха ма̄ни 4"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "തുമി തഽ പാലിബെ മൊരെ നിജദാസ ജാനിഽ",
-            "തൊമാര സെബായ പ്രഭു! ബḓഅ സുഖ മാനി 4"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "துமி த(அ) பாலிபெ³ மொரெ நிஜதா³ஸ ஜானி(அ)",
-            "தொமார ஸெபா³ய ப்ரபு⁴! ப³ḓஅ ஸுக² மானி 4"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "tumi ta’ pālibe more nijadāsa jāni’",
-            "tomāra sebāya prabhu! baḍa sukha māni 4"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "tumi ta’ pālibe more nijadāsa jāni’",
-            "tomāra sebāya prabhu! baḓa sukha māni 4"
-          ]
-        }
-      ]
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "એબે આત્મસમર્પણે ચિન્તા નાહિ આર",
+      "તુમિ નિર્બાહિબે પ્રભુ! સંસાર તોમાર ૩"
+     ]
     },
     {
-      "verse_number": 5,
-      "source_text_master": [
-        "tomāra icchāya prabhu! sarba kārya haya",
-        "jība bale,—‘kari āmi’, se ta’ satya naya 5"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "तॊमार इच्छाय प्रभु! सर्ब कार्य हय",
-            "जीब बलॆ,—‘करि आमिऽ, सॆ तऽ सत्य नय ५"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "তোমার ইচ্ছায় প্রভু! সর্ব কার্য হয়",
-            "জীব বলে,—‘করি আমিঽ, সে তঽ সত্য নয় ৫"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ତୋମାର ଇଚ୍ଛାୟ ପ୍ରଭୁ! ସର୍ବ କାର୍ୟ ହୟ",
-            "ଜୀବ ବଲେ,—‘କରି ଆମିଽ, ସେ ତଽ ସତ୍ୟ ନୟ ୫"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "તોમાર ઇચ્છાય પ્રભુ! સર્બ કાર્ય હય",
-            "જીબ બલે,—‘કરિ આમિઽ, સે તઽ સત્ય નય ૫"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "tomāra icchāya prabhu! sarba kārya haya",
-            "jība bale,—‘kari āmi’, se ta’ satya naya 5"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ತೊಮಾರ ಇಚ್ಛಾಯ ಪ್ರಭು! ಸರ್ಬ ಕಾರ್ಯ ಹಯ",
-            "ಜೀಬ ಬಲೆ,—‘ಕರಿ ಆಮಿಽ, ಸೆ ತಽ ಸತ್ಯ ನಯ ೫"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "తొమార ఇచ్ఛాయ ప్రభు! సర్బ కార్య హయ",
-            "జీబ బలె,—‘కరి ఆమిఽ, సె తఽ సత్య నయ 5"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "то̆ма̄ра иччха̄йа прабху! сарба ка̄рйа хайа",
-            "джӣба балэ̆,—‘кари а̄ми', сэ̆ та' сатйа найа 5"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "തൊമാര ഇച്ഛായ പ്രഭു! സർബ കാര്യ ഹയ",
-            "ജീബ ബലെ,—‘കരി ആമിഽ, സെ തഽ സത്യ നയ 5"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "தொமார இச்சா²ய ப்ரபு⁴! ஸர்ப³ கார்ய ஹய",
-            "ஜீப³ ப³லெ,—‘கரி ஆமி(அ), ஸெ த(அ) ஸத்ய நய 5"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "tomāra icchāya prabhu! sarba kārya haya",
-            "jība bale,—‘kari āmi’, se ta’ satya naya 5"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "tomāra icchāya prabhu! sarba kārya haya",
-            "jība bale,—‘kari āmi’, se ta’ satya naya 5"
-          ]
-        }
-      ]
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ebe ātmasamarpaṇe cintā nāhi āra",
+      "tumi nirbāhibe prabhu! saṁsāra tomāra 3"
+     ]
     },
     {
-      "verse_number": 6,
-      "source_text_master": [
-        "jība ki karite pāre, tumi nā karile ?",
-        "āśāmātra jība kare, taba icchā—phale 6"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "जीब कि करितॆ पारॆ, तुमि ना करिलॆ ?",
-            "आशामात्र जीब करॆ, तब इच्छा—फलॆ ६"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "জীব কি করিতে পারে, তুমি না করিলে ?",
-            "আশামাত্র জীব করে, তব ইচ্ছা—ফলে ৬"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ଜୀବ କି କରିତେ ପାରେ, ତୁମି ନା କରିଲେ ?",
-            "ଆଶାମାତ୍ର ଜୀବ କରେ, ତବ ଇଚ୍ଛା—ଫଲେ ୬"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "જીબ કિ કરિતે પારે, તુમિ ના કરિલે ?",
-            "આશામાત્ર જીબ કરે, તબ ઇચ્છા—ફલે ૬"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "jība ki karite pāre, tumi nā karile ?",
-            "āśāmātra jība kare, taba icchā—phale 6"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಜೀಬ ಕಿ ಕರಿತೆ ಪಾರೆ, ತುಮಿ ನಾ ಕರಿಲೆ ?",
-            "ಆಶಾಮಾತ್ರ ಜೀಬ ಕರೆ, ತಬ ಇಚ್ಛಾ—ಫಲೆ ೬"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "జీబ కి కరితె పారె, తుమి నా కరిలె ?",
-            "ఆశామాత్ర జీబ కరె, తబ ఇచ్ఛా—ఫలె 6"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "джӣба ки каритэ̆ па̄рэ̆, туми на̄ карилэ̆ ?",
-            "а̄ш́а̄ма̄тра джӣба карэ̆, таба иччха̄—пхалэ̆ 6"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ജീബ കി കരിതെ പാരെ, തുമി നാ കരിലെ ?",
-            "ആശാമാത്ര ജീബ കരെ, തബ ഇച്ഛാ—ഫലെ 6"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "ஜீப³ கி கரிதெ பாரெ, துமி நா கரிலெ ?",
-            "ஆஶாமாத்ர ஜீப³ கரெ, தப³ இச்சா²—ப²லெ 6"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "jība ki karite pāre, tumi nā karile ?",
-            "āśāmātra jība kare, taba icchā—phale 6"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "jība ki karite pāre, tumi nā karile ?",
-            "āśāmātra jība kare, taba icchā—phale 6"
-          ]
-        }
-      ]
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಎಬೆ ಆತ್ಮಸಮರ್ಪಣೆ ಚಿಂತಾ ನಾಹಿ ಆರ",
+      "ತುಮಿ ನಿರ್ಬಾಹಿಬೆ ಪ್ರಭು! ಸಂಸಾರ ತೊಮಾರ ೩"
+     ]
     },
     {
-      "verse_number": 7,
-      "source_text_master": [
-        "niścinta ha·iyā āmi sebiba tomāya",
-        "gṛhe bhāla[FLAG_HYPHEN_ALPHA]manda ha’le nāhi mora dāya 7"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "निश्चिन्त हइया आमि सॆबिब तॊमाय",
-            "ग्ढ़ॆ भालमन्द हऽलॆ नाहि मॊर दाय ७"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "নিশ্চিন্ত হইয়া আমি সেবিব তোমায়",
-            "গ্ঢ়ে ভালমন্দ হঽলে নাহি মোর দায় ৭"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ନିଶ୍ଚିନ୍ତ ହଇୟା ଆମି ସେବିବ ତୋମାୟ",
-            "ଗ୍ଢ଼େ ଭାଲମନ୍ଦ ହଽଲେ ନାହି ମୋର ଦାୟ ୭"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "નિશ્ચિન્ત હઇયા આમિ સેબિબ તોમાય",
-            "ગ્ઢ઼ે ભાલમન્દ હઽલે નાહિ મોર દાય ૭"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "niścinta ha·iyā āmi sebiba tomāya",
-            "gṛhe bhāla-manda ha’le nāhi mora dāya 7"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ನಿಶ್ಚಿಂತ ಹಇಯಾ ಆಮಿ ಸೆಬಿಬ ತೊಮಾಯ",
-            "ಗ್‌ಢ಼ೆ ಭಾಲಮಂದ ಹಽಲೆ ನಾಹಿ ಮೊರ ದಾಯ ೭"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "నిశ్చింత హఇయా ఆమి సెబిబ తొమాయ",
-            "గ్ఢె భాలమంద హఽలె నాహి మొర దాయ 7"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "ниш́чинта хаийа̄ а̄ми сэ̆биба то̆ма̄йа",
-            "гр̤хэ̆ бха̄ламанда ха'лэ̆ на̄хи мо̆ра да̄йа 7"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "നിശ്ചിന്ത ഹഇയാ ആമി സെബിബ തൊമായ",
-            "ഗ്ഢെ ഭാലമന്ദ ഹഽലെ നാഹി മൊര ദായ 7"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "நிஶ்சிந்த ஹஇயா ஆமி ஸெபி³ப³ தொமாய",
-            "க்³ஃடெ³ பா⁴லமந்த³ ஹ(அ)லெ நாஹி மொர தா³ய 7"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "niścinta ha·iyā āmi sebiba tomāya",
-            "gṛhe bhāla-manda ha’le nāhi mora dāya 7"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "niścinta ha·iyā āmi sebiba tomāya",
-            "gṛhe bhāla-manda ha’le nāhi mora dāya 7"
-          ]
-        }
-      ]
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "ఎబె ఆత్మసమర్పణె చింతా నాహి ఆర",
+      "తుమి నిర్బాహిబె ప్రభు! సంసార తొమార 3"
+     ]
     },
     {
-      "verse_number": 8,
-      "source_text_master": [
-        "bhakatibinoda nija[FLAG_HYPHEN_ALPHA]sbātantrya tyajiyā",
-        "tomāra caraṇa sebe’ akiñcana ha·iyā 8"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "भकतिबिनॊद निजस्बातन्त्र्य त्यजिया",
-            "तॊमार चरण सॆबॆऽ अकिञ्चन हइया ८"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "ভকতিবিনোদ নিজস্বাতন্ত্র্য ত্যজিয়া",
-            "তোমার চরণ সেবেঽ অকিঞ্চন হইয়া ৮"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ଭକତିବିନୋଦ ନିଜସ୍ବାତନ୍ତ୍ର୍ୟ ତ୍ୟଜିୟା",
-            "ତୋମାର ଚରଣ ସେବେଽ ଅକିଞ୍ଚନ ହଇୟା ୮"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "ભકતિબિનોદ નિજસ્બાતન્ત્ર્ય ત્યજિયા",
-            "તોમાર ચરણ સેબેઽ અકિઞ્ચન હઇયા ૮"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "bhakatibinoda nija-sbātantrya tyajiyā",
-            "tomāra caraṇa sebe’ akiñcana ha·iyā 8"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಭಕತಿಬಿನೊದ ನಿಜಸ್ಬಾತಂತ್ರ್ಯ ತ್ಯಜಿಯಾ",
-            "ತೊಮಾರ ಚರಣ ಸೆಬೆಽ ಅಕಿಂಚನ ಹಇಯಾ ೮"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "భకతిబినొద నిజస్బాతంత్ర్య త్యజియా",
-            "తొమార చరణ సెబెఽ అకించన హఇయా 8"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "бхакатибино̆да ниджасба̄тантрйа тйаджийа̄",
-            "то̆ма̄ра чаран̣а сэ̆бэ̆' акин̃чана хаийа̄ 8"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ഭകതിബിനൊദ നിജസ്ബാതന്ത്ര്യ ത്യജിയാ",
-            "തൊമാര ചരണ സെബെഽ അകിഞ്ചന ഹഇയാ 8"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "ப⁴கதிபி³னொத³ நிஜஸ்பா³தந்த்ர்ய த்யஜியா",
-            "தொமார சரண ஸெபெ³(அ) அகிஞ்சன ஹஇயா 8"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "bhakatibinoda nija-sbātantrya tyajiyā",
-            "tomāra caraṇa sebe’ akiñcana ha·iyā 8"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "bhakatibinoda nija-sbātantrya tyajiyā",
-            "tomāra caraṇa sebe’ akiñcana ha·iyā 8"
-          ]
-        }
-      ]
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "э̆бэ̆ а̄тмасамарпан̣э̆ чинта̄ на̄хи а̄ра",
+      "туми нирба̄хибэ̆ прабху! сам̣са̄ра то̆ма̄ра 3"
+     ]
     },
     {
-      "verse_number": 9,
-      "source_text_master": [
-        ""
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            ""
-          ]
-        }
-      ]
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "എബെ ആത്മസമർപണെ ചിന്താ നാഹി ആര",
+      "തുമി നിർബാഹിബെ പ്രഭു! സംസാര തൊമാര 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "எபெ³ ஆத்மஸமர்பணெ சிந்தா நாஹி ஆர",
+      "துமி நிர்பா³ஹிபெ³ ப்ரபு⁴! ஸம்ʼஸார தொமார 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ebe ātmasamarpaṇe cintā nāhi āra",
+      "tumi nirbāhibe prabhu! saṁsāra tomāra 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ebe ātmasamarpaṇe cintā nāhi āra",
+      "tumi nirbāhibe prabhu! saṁsāra tomāra 3"
+     ]
     }
-  ],
-  "notes": [
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "tumi ta’ pālibe more nijadāsa jāni’",
+    "tomāra sebāya prabhu! baḓa sukha māni 4"
+   ],
+   "display_scripts": [
     {
-      "language_code": "ben",
-      "text": "(১০)"
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तुमि तऽ पालिबॆ मॊरॆ निजदास जानिऽ",
+      "तॊमार सॆबाय प्रभु! बḓअ सुख मानि ४"
+     ]
     },
     {
-      "language_code": "ben",
-      "text": "আত্মনিবেদন—মমতাস্পদ দেহসমর্পণ"
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তুমি তঽ পালিবে মোরে নিজদাস জানিঽ",
+      "তোমার সেবায় প্রভু! বḓঅ সুখ মানি ৪"
+     ]
     },
     {
-      "language_code": "ben",
-      "text": "(মানসিক)"
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୁମି ତଽ ପାଲିବେ ମୋରେ ନିଜଦାସ ଜାନିଽ",
+      "ତୋମାର ସେବାୟ ପ୍ରଭୁ! ବḓଅ ସୁଖ ମାନି ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તુમિ તઽ પાલિબે મોરે નિજદાસ જાનિઽ",
+      "તોમાર સેબાય પ્રભુ! બḓઅ સુખ માનિ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tumi ta’ pālibe more nijadāsa jāni’",
+      "tomāra sebāya prabhu! baḓa sukha māni 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತುಮಿ ತಽ ಪಾಲಿಬೆ ಮೊರೆ ನಿಜದಾಸ ಜಾನಿಽ",
+      "ತೊಮಾರ ಸೆಬಾಯ ಪ್ರಭು! ಬḓಅ ಸುಖ ಮಾನಿ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తుమి తఽ పాలిబె మొరె నిజదాస జానిఽ",
+      "తొమార సెబాయ ప్రభు! బḓఅ సుఖ మాని 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "туми та' па̄либэ̆ мо̆рэ̆ ниджада̄са джа̄ни'",
+      "то̆ма̄ра сэ̆ба̄йа прабху! баḓа сукха ма̄ни 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തുമി തഽ പാലിബെ മൊരെ നിജദാസ ജാനിഽ",
+      "തൊമാര സെബായ പ്രഭു! ബḓഅ സുഖ മാനി 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "துமி த(அ) பாலிபெ³ மொரெ நிஜதா³ஸ ஜானி(அ)",
+      "தொமார ஸெபா³ய ப்ரபு⁴! ப³ḓஅ ஸுக² மானி 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tumi ta’ pālibe more nijadāsa jāni’",
+      "tomāra sebāya prabhu! baḍa sukha māni 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tumi ta’ pālibe more nijadāsa jāni’",
+      "tomāra sebāya prabhu! baḓa sukha māni 4"
+     ]
     }
-  ],
-  "audio_available": false,
-  "audio_files": [],
-  "tags": [
-    "Ātma Nivedana (Submission of the Self)"
-  ]
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "tomāra icchāya prabhu! sarba kārya haya",
+    "jība bale,—‘kari āmi’, se ta’ satya naya 5"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तॊमार इच्छाय प्रभु! सर्ब कार्य हय",
+      "जीब बलॆ,—‘करि आमिऽ, सॆ तऽ सत्य नय ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তোমার ইচ্ছায় প্রভু! সর্ব কার্য হয়",
+      "জীব বলে,—‘করি আমিঽ, সে তঽ সত্য নয় ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତୋମାର ଇଚ୍ଛାୟ ପ୍ରଭୁ! ସର୍ବ କାର୍ୟ ହୟ",
+      "ଜୀବ ବଲେ,—‘କରି ଆମିଽ, ସେ ତଽ ସତ୍ୟ ନୟ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તોમાર ઇચ્છાય પ્રભુ! સર્બ કાર્ય હય",
+      "જીબ બલે,—‘કરિ આમિઽ, સે તઽ સત્ય નય ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tomāra icchāya prabhu! sarba kārya haya",
+      "jība bale,—‘kari āmi’, se ta’ satya naya 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತೊಮಾರ ಇಚ್ಛಾಯ ಪ್ರಭು! ಸರ್ಬ ಕಾರ್ಯ ಹಯ",
+      "ಜೀಬ ಬಲೆ,—‘ಕರಿ ಆಮಿಽ, ಸೆ ತಽ ಸತ್ಯ ನಯ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తొమార ఇచ్ఛాయ ప్రభు! సర్బ కార్య హయ",
+      "జీబ బలె,—‘కరి ఆమిఽ, సె తఽ సత్య నయ 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "то̆ма̄ра иччха̄йа прабху! сарба ка̄рйа хайа",
+      "джӣба балэ̆,—‘кари а̄ми', сэ̆ та' сатйа найа 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തൊമാര ഇച്ഛായ പ്രഭു! സർബ കാര്യ ഹയ",
+      "ജീബ ബലെ,—‘കരി ആമിഽ, സെ തഽ സത്യ നയ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தொமார இச்சா²ய ப்ரபு⁴! ஸர்ப³ கார்ய ஹய",
+      "ஜீப³ ப³லெ,—‘கரி ஆமி(அ), ஸெ த(அ) ஸத்ய நய 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tomāra icchāya prabhu! sarba kārya haya",
+      "jība bale,—‘kari āmi’, se ta’ satya naya 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tomāra icchāya prabhu! sarba kārya haya",
+      "jība bale,—‘kari āmi’, se ta’ satya naya 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "jība ki karite pāre, tumi nā karile ?",
+    "āśāmātra jība kare, taba icchā—phale 6"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जीब कि करितॆ पारॆ, तुमि ना करिलॆ ?",
+      "आशामात्र जीब करॆ, तब इच्छा—फलॆ ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জীব কি করিতে পারে, তুমি না করিলে ?",
+      "আশামাত্র জীব করে, তব ইচ্ছা—ফলে ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜୀବ କି କରିତେ ପାରେ, ତୁମି ନା କରିଲେ ?",
+      "ଆଶାମାତ୍ର ଜୀବ କରେ, ତବ ଇଚ୍ଛା—ଫଲେ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જીબ કિ કરિતે પારે, તુમિ ના કરિલે ?",
+      "આશામાત્ર જીબ કરે, તબ ઇચ્છા—ફલે ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jība ki karite pāre, tumi nā karile ?",
+      "āśāmātra jība kare, taba icchā—phale 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜೀಬ ಕಿ ಕರಿತೆ ಪಾರೆ, ತುಮಿ ನಾ ಕರಿಲೆ ?",
+      "ಆಶಾಮಾತ್ರ ಜೀಬ ಕರೆ, ತಬ ಇಚ್ಛಾ—ಫಲೆ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జీబ కి కరితె పారె, తుమి నా కరిలె ?",
+      "ఆశామాత్ర జీబ కరె, తబ ఇచ్ఛా—ఫలె 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джӣба ки каритэ̆ па̄рэ̆, туми на̄ карилэ̆ ?",
+      "а̄ш́а̄ма̄тра джӣба карэ̆, таба иччха̄—пхалэ̆ 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജീബ കി കരിതെ പാരെ, തുമി നാ കരിലെ ?",
+      "ആശാമാത്ര ജീബ കരെ, തബ ഇച്ഛാ—ഫലെ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜீப³ கி கரிதெ பாரெ, துமி நா கரிலெ ?",
+      "ஆஶாமாத்ர ஜீப³ கரெ, தப³ இச்சா²—ப²லெ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jība ki karite pāre, tumi nā karile ?",
+      "āśāmātra jība kare, taba icchā—phale 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jība ki karite pāre, tumi nā karile ?",
+      "āśāmātra jība kare, taba icchā—phale 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "niścinta ha·iyā āmi sebiba tomāya",
+    "gṛhe bhāla[FLAG_HYPHEN_ALPHA]manda ha’le nāhi mora dāya 7"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "निश्चिन्त हइया आमि सॆबिब तॊमाय",
+      "ग्ढ़ॆ भालमन्द हऽलॆ नाहि मॊर दाय ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "নিশ্চিন্ত হইয়া আমি সেবিব তোমায়",
+      "গ্ঢ়ে ভালমন্দ হঽলে নাহি মোর দায় ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ନିଶ୍ଚିନ୍ତ ହଇୟା ଆମି ସେବିବ ତୋମାୟ",
+      "ଗ୍ଢ଼େ ଭାଲମନ୍ଦ ହଽଲେ ନାହି ମୋର ଦାୟ ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "નિશ્ચિન્ત હઇયા આમિ સેબિબ તોમાય",
+      "ગ્ઢ઼ે ભાલમન્દ હઽલે નાહિ મોર દાય ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "niścinta ha·iyā āmi sebiba tomāya",
+      "gṛhe bhāla-manda ha’le nāhi mora dāya 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ನಿಶ್ಚಿಂತ ಹಇಯಾ ಆಮಿ ಸೆಬಿಬ ತೊಮಾಯ",
+      "ಗ್‌ಢ಼ೆ ಭಾಲಮಂದ ಹಽಲೆ ನಾಹಿ ಮೊರ ದಾಯ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "నిశ్చింత హఇయా ఆమి సెబిబ తొమాయ",
+      "గ్ఢె భాలమంద హఽలె నాహి మొర దాయ 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ниш́чинта хаийа̄ а̄ми сэ̆биба то̆ма̄йа",
+      "гр̤хэ̆ бха̄ламанда ха'лэ̆ на̄хи мо̆ра да̄йа 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "നിശ്ചിന്ത ഹഇയാ ആമി സെബിബ തൊമായ",
+      "ഗ്ഢെ ഭാലമന്ദ ഹഽലെ നാഹി മൊര ദായ 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "நிஶ்சிந்த ஹஇயா ஆமி ஸெபி³ப³ தொமாய",
+      "க்³ஃடெ³ பா⁴லமந்த³ ஹ(அ)லெ நாஹி மொர தா³ய 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "niścinta ha·iyā āmi sebiba tomāya",
+      "gṛhe bhāla-manda ha’le nāhi mora dāya 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "niścinta ha·iyā āmi sebiba tomāya",
+      "gṛhe bhāla-manda ha’le nāhi mora dāya 7"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 8,
+   "source_text_master": [
+    "bhakatibinoda nija[FLAG_HYPHEN_ALPHA]sbātantrya tyajiyā",
+    "tomāra caraṇa sebe’ akiñcana ha·iyā 8"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "भकतिबिनॊद निजस्बातन्त्र्य त्यजिया",
+      "तॊमार चरण सॆबॆऽ अकिञ्चन हइया ८"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ভকতিবিনোদ নিজস্বাতন্ত্র্য ত্যজিয়া",
+      "তোমার চরণ সেবেঽ অকিঞ্চন হইয়া ৮"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଭକତିବିନୋଦ ନିଜସ୍ବାତନ୍ତ୍ର୍ୟ ତ୍ୟଜିୟା",
+      "ତୋମାର ଚରଣ ସେବେଽ ଅକିଞ୍ଚନ ହଇୟା ୮"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ભકતિબિનોદ નિજસ્બાતન્ત્ર્ય ત્યજિયા",
+      "તોમાર ચરણ સેબેઽ અકિઞ્ચન હઇયા ૮"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bhakatibinoda nija-sbātantrya tyajiyā",
+      "tomāra caraṇa sebe’ akiñcana ha·iyā 8"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಭಕತಿಬಿನೊದ ನಿಜಸ್ಬಾತಂತ್ರ್ಯ ತ್ಯಜಿಯಾ",
+      "ತೊಮಾರ ಚರಣ ಸೆಬೆಽ ಅಕಿಂಚನ ಹಇಯಾ ೮"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "భకతిబినొద నిజస్బాతంత్ర్య త్యజియా",
+      "తొమార చరణ సెబెఽ అకించన హఇయా 8"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бхакатибино̆да ниджасба̄тантрйа тйаджийа̄",
+      "то̆ма̄ра чаран̣а сэ̆бэ̆' акин̃чана хаийа̄ 8"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഭകതിബിനൊദ നിജസ്ബാതന്ത്ര്യ ത്യജിയാ",
+      "തൊമാര ചരണ സെബെഽ അകിഞ്ചന ഹഇയാ 8"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப⁴கதிபி³னொத³ நிஜஸ்பா³தந்த்ர்ய த்யஜியா",
+      "தொமார சரண ஸெபெ³(அ) அகிஞ்சன ஹஇயா 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bhakatibinoda nija-sbātantrya tyajiyā",
+      "tomāra caraṇa sebe’ akiñcana ha·iyā 8"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bhakatibinoda nija-sbātantrya tyajiyā",
+      "tomāra caraṇa sebe’ akiñcana ha·iyā 8"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "(১০)"
+  },
+  {
+   "language_code": "ben",
+   "text": "আত্মনিবেদন—মমতাস্পদ দেহসমর্পণ"
+  },
+  {
+   "language_code": "ben",
+   "text": "(মানসিক)"
+  }
+ ],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "Ātma Nivedana (Submission of the Self)"
+ ]
 }

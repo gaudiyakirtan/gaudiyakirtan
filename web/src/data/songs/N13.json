@@ -1,2265 +1,2173 @@
 {
-  "uid": "N13",
-  "language_of_origin": "ben",
-  "title_main": [
+ "uid": "N13",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "জয় জয় নিত্যানন্দ রোহিণী-কুমার"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "jaya jaya nityānanda rohiṇī-kumāra"
+  },
+  {
+   "script_code": "Deva",
+   "text": "जय जय नित्यानन्द रोहिणी-कुमार"
+  },
+  {
+   "script_code": "Telu",
+   "text": "జయ జయ నిత్యానంద రోహిణీ-కుమార"
+  },
+  {
+   "script_code": "Knda",
+   "text": "ಜಯ ಜಯ ನಿತ್ಯಾನಂದ ರೋಹಿಣೀ-ಕುಮಾರ"
+  },
+  {
+   "script_code": "Taml",
+   "text": "ஜய ஜய நித்யானந்த³ ரோஹிணீ-குமார"
+  },
+  {
+   "script_code": "Mlym",
+   "text": "ജയ ജയ നിത്യാനന്ദ രോഹിണീ-കുമാര"
+  },
+  {
+   "script_code": "Gujr",
+   "text": "જય જય નિત્યાનન્દ રોહિણી-કુમાર"
+  },
+  {
+   "script_code": "Orya",
+   "text": "ଜୟ ଜୟ ନିତ୍ୟାନନ୍ଦ ରୋହିଣୀ-କୁମାର"
+  },
+  {
+   "script_code": "Cyrl",
+   "text": "джайа джайа нитйа̄нанда рохин̣ӣ-кума̄ра"
+  }
+ ],
+ "author_uid": "vdt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ৱৃন্দাৱন দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Vṛndāvana dāsa Ṭhākura"
+  },
+  {
+   "script_code": "Deva",
+   "text": "श्रील वृन्दावन दास ठाकुर"
+  },
+  {
+   "script_code": "Telu",
+   "text": "శ్రీల వృందావన దాస ఠాకుర"
+  },
+  {
+   "script_code": "Knda",
+   "text": "ಶ್ರೀಲ ವೃಂದಾವನ ದಾಸ ಠಾಕುರ"
+  },
+  {
+   "script_code": "Taml",
+   "text": "ஶ்ரீல வ்ருʼந்தா³வன தா³ஸ டா²குர"
+  },
+  {
+   "script_code": "Mlym",
+   "text": "ശ്രീല വൃന്ദാവന ദാസ ഠാകുര"
+  },
+  {
+   "script_code": "Gujr",
+   "text": "શ્રીલ વૃન્દાવન દાસ ઠાકુર"
+  },
+  {
+   "script_code": "Orya",
+   "text": "ଶ୍ରୀଲ ବୃନ୍ଦାବନ ଦାସ ଠାକୁର"
+  },
+  {
+   "script_code": "Cyrl",
+   "text": "ш́рӣла вр̣нда̄вана да̄са т̣ха̄кура"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "jaya jaya nityānanda rohiṇī[FLAG_HYPHEN_ALPHA]kumāra",
+    "patita uddhāra lāgi’ du’bāhu pasāra 1"
+   ],
+   "translations": [
     {
-      "script_code": "Beng",
-      "text": "জয় জয় নিত্যানন্দ রোহিণী-কুমার"
-    },
-    {
-      "script_code": "Latn",
-      "standard": "IAST",
-      "text": "jaya jaya nityānanda rohiṇī-kumāra"
-    },
-    {
-      "script_code": "Deva",
-      "text": "जय जय नित्यानन्द रोहिणी-कुमार"
-    },
-    {
-      "script_code": "Telu",
-      "text": "జయ జయ నిత్యానంద రోహిణీ-కుమార"
-    },
-    {
-      "script_code": "Knda",
-      "text": "ಜಯ ಜಯ ನಿತ್ಯಾನಂದ ರೋಹಿಣೀ-ಕುಮಾರ"
-    },
-    {
-      "script_code": "Taml",
-      "text": "ஜய ஜய நித்யானந்த³ ரோஹிணீ-குமார"
-    },
-    {
-      "script_code": "Mlym",
-      "text": "ജയ ജയ നിത്യാനന്ദ രോഹിണീ-കുമാര"
-    },
-    {
-      "script_code": "Gujr",
-      "text": "જય જય નિત્યાનન્દ રોહિણી-કુમાર"
-    },
-    {
-      "script_code": "Orya",
-      "text": "ଜୟ ଜୟ ନିତ୍ୟାନନ୍ଦ ରୋହିଣୀ-କୁମାର"
-    },
-    {
-      "script_code": "Cyrl",
-      "text": "джайа джайа нитйа̄нанда рохин̣ӣ-кума̄ра"
+     "language_code": "eng",
+     "text": [
+      "All glories, all glories to Śrī Nityānanda Prabhu, the son of Rohiṇī. To deliver the fallen souls, He extends His two arms."
+     ]
     }
-  ],
-  "author_uid": "vdt",
-  "author_display": [
+   ],
+   "word_to_words": [
     {
-      "script_code": "Beng",
-      "text": "শ্রীল ৱৃন্দাৱন দাস ঠাকুর"
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "jaya jaya",
+       "all glories, all glories"
+      ],
+      [
+       "nityānanda",
+       "to Śrī Nityānanda"
+      ],
+      [
+       "rohiṇī kumāra",
+       "the son of Rohiṇī"
+      ],
+      [
+       "patita",
+       "the fallen"
+      ],
+      [
+       "uddhāra",
+       "deliver"
+      ],
+      [
+       "lāgi’",
+       "in order to"
+      ],
+      [
+       "du’bāhu",
+       "two + arms"
+      ],
+      [
+       "pasāra",
+       "extends, outstreches"
+      ]
+     ],
+     "standard": "IAST"
     },
     {
-      "script_code": "Latn",
-      "standard": "IAST",
-      "text": "Śrīla Vṛndāvana dāsa Ṭhākura"
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "जय जय",
+       "all glories, all glories"
+      ],
+      [
+       "नित्यानन्द",
+       "to Śrī Nityānanda"
+      ],
+      [
+       "रॊहिणी कुमार",
+       "the son of Rohiṇī"
+      ],
+      [
+       "पतित",
+       "the fallen"
+      ],
+      [
+       "उद्धार",
+       "deliver"
+      ],
+      [
+       "लागिऽ",
+       "in order to"
+      ],
+      [
+       "दुऽबाहु",
+       "two + arms"
+      ],
+      [
+       "पसार",
+       "extends, outstreches"
+      ]
+     ]
     },
     {
-      "script_code": "Deva",
-      "text": "श्रील वृन्दावन दास ठाकुर"
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "জয় জয়",
+       "all glories, all glories"
+      ],
+      [
+       "নিত্যানন্দ",
+       "to Śrī Nityānanda"
+      ],
+      [
+       "রোহিণী কুমার",
+       "the son of Rohiṇī"
+      ],
+      [
+       "পতিত",
+       "the fallen"
+      ],
+      [
+       "উদ্ধার",
+       "deliver"
+      ],
+      [
+       "লাগিঽ",
+       "in order to"
+      ],
+      [
+       "দুঽবাহু",
+       "two + arms"
+      ],
+      [
+       "পসার",
+       "extends, outstreches"
+      ]
+     ]
     },
     {
-      "script_code": "Telu",
-      "text": "శ్రీల వృందావన దాస ఠాకుర"
-    },
-    {
-      "script_code": "Knda",
-      "text": "ಶ್ರೀಲ ವೃಂದಾವನ ದಾಸ ಠಾಕುರ"
-    },
-    {
-      "script_code": "Taml",
-      "text": "ஶ்ரீல வ்ருʼந்தா³வன தா³ஸ டா²குர"
-    },
-    {
-      "script_code": "Mlym",
-      "text": "ശ്രീല വൃന്ദാവന ദാസ ഠാകുര"
-    },
-    {
-      "script_code": "Gujr",
-      "text": "શ્રીલ વૃન્દાવન દાસ ઠાકુર"
-    },
-    {
-      "script_code": "Orya",
-      "text": "ଶ୍ରୀଲ ବୃନ୍ଦାବନ ଦାସ ଠାକୁର"
-    },
-    {
-      "script_code": "Cyrl",
-      "text": "ш́рӣла вр̣нда̄вана да̄са т̣ха̄кура"
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "જય જય",
+       "all glories, all glories"
+      ],
+      [
+       "નિત્યાનન્દ",
+       "to Śrī Nityānanda"
+      ],
+      [
+       "રોહિણી કુમાર",
+       "the son of Rohiṇī"
+      ],
+      [
+       "પતિત",
+       "the fallen"
+      ],
+      [
+       "ઉદ્ધાર",
+       "deliver"
+      ],
+      [
+       "લાગિઽ",
+       "in order to"
+      ],
+      [
+       "દુઽબાહુ",
+       "two + arms"
+      ],
+      [
+       "પસાર",
+       "extends, outstreches"
+      ]
+     ]
     }
-  ],
-  "verses": [
+   ],
+   "display_scripts": [
     {
-      "verse_number": 1,
-      "source_text_master": [
-        "jaya jaya nityānanda rohiṇī[FLAG_HYPHEN_ALPHA]kumāra",
-        "patita uddhāra lāgi’ du’bāhu pasāra 1"
-      ],
-      "translations": [
-        {
-          "language_code": "eng",
-          "text": [
-            "All glories, all glories to Śrī Nityānanda Prabhu, the son of Rohiṇī. To deliver the fallen souls, He extends His two arms."
-          ]
-        }
-      ],
-      "word_to_words": [
-        {
-          "language_code": "eng",
-          "script_code": "Latn",
-          "words": [
-            [
-              "jaya jaya",
-              "all glories, all glories"
-            ],
-            [
-              "nityānanda",
-              "to Śrī Nityānanda"
-            ],
-            [
-              "rohiṇī kumāra",
-              "the son of Rohiṇī"
-            ],
-            [
-              "patita",
-              "the fallen"
-            ],
-            [
-              "uddhāra",
-              "deliver"
-            ],
-            [
-              "lāgi’",
-              "in order to"
-            ],
-            [
-              "du’bāhu",
-              "two + arms"
-            ],
-            [
-              "pasāra",
-              "extends, outstreches"
-            ]
-          ],
-          "standard": "IAST"
-        },
-        {
-          "language_code": "hin",
-          "script_code": "Deva",
-          "standard": null,
-          "words": [
-            [
-              "जय जय",
-              "all glories, all glories"
-            ],
-            [
-              "नित्यानन्द",
-              "to Śrī Nityānanda"
-            ],
-            [
-              "रॊहिणी कुमार",
-              "the son of Rohiṇī"
-            ],
-            [
-              "पतित",
-              "the fallen"
-            ],
-            [
-              "उद्धार",
-              "deliver"
-            ],
-            [
-              "लागिऽ",
-              "in order to"
-            ],
-            [
-              "दुऽबाहु",
-              "two + arms"
-            ],
-            [
-              "पसार",
-              "extends, outstreches"
-            ]
-          ]
-        },
-        {
-          "language_code": "ben",
-          "script_code": "Beng",
-          "standard": null,
-          "words": [
-            [
-              "জয় জয়",
-              "all glories, all glories"
-            ],
-            [
-              "নিত্যানন্দ",
-              "to Śrī Nityānanda"
-            ],
-            [
-              "রোহিণী কুমার",
-              "the son of Rohiṇī"
-            ],
-            [
-              "পতিত",
-              "the fallen"
-            ],
-            [
-              "উদ্ধার",
-              "deliver"
-            ],
-            [
-              "লাগিঽ",
-              "in order to"
-            ],
-            [
-              "দুঽবাহু",
-              "two + arms"
-            ],
-            [
-              "পসার",
-              "extends, outstreches"
-            ]
-          ]
-        },
-        {
-          "language_code": "guj",
-          "script_code": "Gujr",
-          "standard": null,
-          "words": [
-            [
-              "જય જય",
-              "all glories, all glories"
-            ],
-            [
-              "નિત્યાનન્દ",
-              "to Śrī Nityānanda"
-            ],
-            [
-              "રોહિણી કુમાર",
-              "the son of Rohiṇī"
-            ],
-            [
-              "પતિત",
-              "the fallen"
-            ],
-            [
-              "ઉદ્ધાર",
-              "deliver"
-            ],
-            [
-              "લાગિઽ",
-              "in order to"
-            ],
-            [
-              "દુઽબાહુ",
-              "two + arms"
-            ],
-            [
-              "પસાર",
-              "extends, outstreches"
-            ]
-          ]
-        }
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "जय जय नित्यानन्द रॊहिणीकुमार",
-            "पतित उद्धार लागिऽ दुऽबाहु पसार १"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "জয় জয় নিত্যানন্দ রোহিণীকুমার",
-            "পতিত উদ্ধার লাগিঽ দুঽবাহু পসার ১"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ଜୟ ଜୟ ନିତ୍ୟାନନ୍ଦ ରୋହିଣୀକୁମାର",
-            "ପତିତ ଉଦ୍ଧାର ଲାଗିଽ ଦୁଽବାହୁ ପସାର ୧"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "જય જય નિત્યાનન્દ રોહિણીકુમાર",
-            "પતિત ઉદ્ધાર લાગિઽ દુઽબાહુ પસાર ૧"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "jaya jaya nityānanda rohiṇī-kumāra",
-            "patita uddhāra lāgi’ du’bāhu pasāra 1"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಜಯ ಜಯ ನಿತ್ಯಾನಂದ ರೊಹಿಣೀಕುಮಾರ",
-            "ಪತಿತ ಉದ್ಧಾರ ಲಾಗಿಽ ದುಽಬಾಹು ಪಸಾರ ೧"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "జయ జయ నిత్యానంద రొహిణీకుమార",
-            "పతిత ఉద్ధార లాగిఽ దుఽబాహు పసార 1"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "джайа джайа нитйа̄нанда ро̆хин̣ӣкума̄ра",
-            "патита уддха̄ра ла̄ги' ду'ба̄ху паса̄ра 1"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ജയ ജയ നിത്യാനന്ദ രൊഹിണീകുമാര",
-            "പതിത ഉദ്ധാര ലാഗിഽ ദുഽബാഹു പസാര 1"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "ஜய ஜய நித்யானந்த³ ரொஹிணீகுமார",
-            "பதித உத்³தா⁴ர லாகி³(அ) து³(அ)பா³ஹு பஸார 1"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "jaya jaya nityānanda rohiṇī-kumāra",
-            "patita uddhāra lāgi’ du’bāhu pasāra 1"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "jaya jaya nityānanda rohiṇī-kumāra",
-            "patita uddhāra lāgi’ du’bāhu pasāra 1"
-          ]
-        }
-      ]
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "जय जय नित्यानन्द रॊहिणीकुमार",
+      "पतित उद्धार लागिऽ दुऽबाहु पसार १"
+     ]
     },
     {
-      "verse_number": 2,
-      "source_text_master": [
-        "gada gada madhura madhura ādho bola",
-        "yā’re dekhe tā’re preme dhari’ deya kola 2"
-      ],
-      "translations": [
-        {
-          "language_code": "eng",
-          "text": [
-            "With a choked voice, He stammers sweetly. Whomever He sees, He lovingly embraces."
-          ]
-        }
-      ],
-      "word_to_words": [
-        {
-          "language_code": "eng",
-          "script_code": "Latn",
-          "words": [
-            [
-              "gada gada",
-              "choked"
-            ],
-            [
-              "madhura",
-              "sweet"
-            ],
-            [
-              "madhura",
-              "sweet"
-            ],
-            [
-              "ādho",
-              "mumbling, babbling"
-            ],
-            [
-              "bola",
-              "words"
-            ],
-            [
-              "yā’re",
-              "to whomever"
-            ],
-            [
-              "dekhe",
-              "He sees"
-            ],
-            [
-              "tā’re",
-              "to them"
-            ],
-            [
-              "preme",
-              "with love"
-            ],
-            [
-              "dhari’",
-              "having held"
-            ],
-            [
-              "deya kola",
-              "He embraces"
-            ]
-          ],
-          "standard": "IAST"
-        },
-        {
-          "language_code": "hin",
-          "script_code": "Deva",
-          "standard": null,
-          "words": [
-            [
-              "गद गद",
-              "choked"
-            ],
-            [
-              "मधुर",
-              "sweet"
-            ],
-            [
-              "मधुर",
-              "sweet"
-            ],
-            [
-              "आधॊ",
-              "mumbling, babbling"
-            ],
-            [
-              "बॊल",
-              "words"
-            ],
-            [
-              "याऽरॆ",
-              "to whomever"
-            ],
-            [
-              "दॆखॆ",
-              "He sees"
-            ],
-            [
-              "ताऽरॆ",
-              "to them"
-            ],
-            [
-              "प्रॆमॆ",
-              "with love"
-            ],
-            [
-              "धरिऽ",
-              "having held"
-            ],
-            [
-              "दॆय कॊल",
-              "He embraces"
-            ]
-          ]
-        },
-        {
-          "language_code": "ben",
-          "script_code": "Beng",
-          "standard": null,
-          "words": [
-            [
-              "গদ গদ",
-              "choked"
-            ],
-            [
-              "মধুর",
-              "sweet"
-            ],
-            [
-              "মধুর",
-              "sweet"
-            ],
-            [
-              "আধো",
-              "mumbling, babbling"
-            ],
-            [
-              "বোল",
-              "words"
-            ],
-            [
-              "যাঽরে",
-              "to whomever"
-            ],
-            [
-              "দেখে",
-              "He sees"
-            ],
-            [
-              "তাঽরে",
-              "to them"
-            ],
-            [
-              "প্রেমে",
-              "with love"
-            ],
-            [
-              "ধরিঽ",
-              "having held"
-            ],
-            [
-              "দেয় কোল",
-              "He embraces"
-            ]
-          ]
-        },
-        {
-          "language_code": "guj",
-          "script_code": "Gujr",
-          "standard": null,
-          "words": [
-            [
-              "ગદ ગદ",
-              "choked"
-            ],
-            [
-              "મધુર",
-              "sweet"
-            ],
-            [
-              "મધુર",
-              "sweet"
-            ],
-            [
-              "આધો",
-              "mumbling, babbling"
-            ],
-            [
-              "બોલ",
-              "words"
-            ],
-            [
-              "યાઽરે",
-              "to whomever"
-            ],
-            [
-              "દેખે",
-              "He sees"
-            ],
-            [
-              "તાઽરે",
-              "to them"
-            ],
-            [
-              "પ્રેમે",
-              "with love"
-            ],
-            [
-              "ધરિઽ",
-              "having held"
-            ],
-            [
-              "દેય કોલ",
-              "He embraces"
-            ]
-          ]
-        }
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "गद गद मधुर मधुर आधॊ बॊल",
-            "याऽरॆ दॆखॆ ताऽरॆ प्रॆमॆ धरिऽ दॆय कॊल २"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "গদ গদ মধুর মধুর আধো বোল",
-            "যাঽরে দেখে তাঽরে প্রেমে ধরিঽ দেয় কোল ২"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ଗଦ ଗଦ ମଧୁର ମଧୁର ଆଧୋ ବୋଲ",
-            "ଯାଽରେ ଦେଖେ ତାଽରେ ପ୍ରେମେ ଧରିଽ ଦେୟ କୋଲ ୨"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "ગદ ગદ મધુર મધુર આધો બોલ",
-            "યાઽરે દેખે તાઽરે પ્રેમે ધરિઽ દેય કોલ ૨"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "gada gada madhura madhura ādho bola",
-            "yā’re dekhe tā’re preme dhari’ deya kola 2"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಗದ ಗದ ಮಧುರ ಮಧುರ ಆಧೊ ಬೊಲ",
-            "ಯಾಽರೆ ದೆಖೆ ತಾಽರೆ ಪ್ರೆಮೆ ಧರಿಽ ದೆಯ ಕೊಲ ೨"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "గద గద మధుర మధుర ఆధొ బొల",
-            "యాఽరె దెఖె తాఽరె ప్రెమె ధరిఽ దెయ కొల 2"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "гада гада мадхура мадхура а̄дхо̆ бо̆ла",
-            "йа̄'рэ̆ дэ̆кхэ̆ та̄'рэ̆ прэ̆мэ̆ дхари' дэ̆йа ко̆ла 2"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ഗദ ഗദ മധുര മധുര ആധൊ ബൊല",
-            "യാഽരെ ദെഖെ താഽരെ പ്രെമെ ധരിഽ ദെയ കൊല 2"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "க³த³ க³த³ மது⁴ர மது⁴ர ஆதொ⁴ பொ³ல",
-            "யா(அ)ரெ தெ³கெ² தா(அ)ரெ ப்ரெமெ த⁴ரி(அ) தெ³ய கொல 2"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "gada gada madhura madhura ādho bola",
-            "yā’re dekhe tā’re preme dhari’ deya kola 2"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "gada gada madhura madhura ādho bola",
-            "yā’re dekhe tā’re preme dhari’ deya kola 2"
-          ]
-        }
-      ]
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "জয় জয় নিত্যানন্দ রোহিণীকুমার",
+      "পতিত উদ্ধার লাগিঽ দুঽবাহু পসার ১"
+     ]
     },
     {
-      "verse_number": 3,
-      "source_text_master": [
-        "ḍagamaga locana ghuraye nirantara",
-        "sonāra kamale yena phiraye bhramara 3"
-      ],
-      "translations": [
-        {
-          "language_code": "eng",
-          "text": [
-            "Overflowing with prema, His eyes always roll about restlessly, looking like bumblebees hovering over a golden lotus."
-          ]
-        }
-      ],
-      "word_to_words": [
-        {
-          "language_code": "eng",
-          "script_code": "Latn",
-          "words": [
-            [
-              "ḍagamaga",
-              "overflowing with, brimming over with"
-            ],
-            [
-              "locana",
-              "eyes"
-            ],
-            [
-              "ghuraye",
-              "roll"
-            ],
-            [
-              "nirantara",
-              "always"
-            ],
-            [
-              "sonāra",
-              "golden"
-            ],
-            [
-              "kamale",
-              "lotus"
-            ],
-            [
-              "yena",
-              "like"
-            ],
-            [
-              "phiraye",
-              "hovering around"
-            ],
-            [
-              "bhramara",
-              "bumblebees"
-            ]
-          ],
-          "standard": "IAST"
-        },
-        {
-          "language_code": "hin",
-          "script_code": "Deva",
-          "standard": null,
-          "words": [
-            [
-              "डगमग",
-              "overflowing with, brimming over with"
-            ],
-            [
-              "लॊचन",
-              "eyes"
-            ],
-            [
-              "घुरयॆ",
-              "roll"
-            ],
-            [
-              "निरन्तर",
-              "always"
-            ],
-            [
-              "सॊनार",
-              "golden"
-            ],
-            [
-              "कमलॆ",
-              "lotus"
-            ],
-            [
-              "यॆन",
-              "like"
-            ],
-            [
-              "फिरयॆ",
-              "hovering around"
-            ],
-            [
-              "भ्रमर",
-              "bumblebees"
-            ]
-          ]
-        },
-        {
-          "language_code": "ben",
-          "script_code": "Beng",
-          "standard": null,
-          "words": [
-            [
-              "ডগমগ",
-              "overflowing with, brimming over with"
-            ],
-            [
-              "লোচন",
-              "eyes"
-            ],
-            [
-              "ঘুরয়ে",
-              "roll"
-            ],
-            [
-              "নিরন্তর",
-              "always"
-            ],
-            [
-              "সোনার",
-              "golden"
-            ],
-            [
-              "কমলে",
-              "lotus"
-            ],
-            [
-              "যেন",
-              "like"
-            ],
-            [
-              "ফিরয়ে",
-              "hovering around"
-            ],
-            [
-              "ভ্রমর",
-              "bumblebees"
-            ]
-          ]
-        },
-        {
-          "language_code": "guj",
-          "script_code": "Gujr",
-          "standard": null,
-          "words": [
-            [
-              "ડગમગ",
-              "overflowing with, brimming over with"
-            ],
-            [
-              "લોચન",
-              "eyes"
-            ],
-            [
-              "ઘુરયે",
-              "roll"
-            ],
-            [
-              "નિરન્તર",
-              "always"
-            ],
-            [
-              "સોનાર",
-              "golden"
-            ],
-            [
-              "કમલે",
-              "lotus"
-            ],
-            [
-              "યેન",
-              "like"
-            ],
-            [
-              "ફિરયે",
-              "hovering around"
-            ],
-            [
-              "ભ્રમર",
-              "bumblebees"
-            ]
-          ]
-        }
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "डगमग लॊचन घुरयॆ निरन्तर",
-            "सॊनार कमलॆ यॆन फिरयॆ भ्रमर ३"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "ডগমগ লোচন ঘুরয়ে নিরন্তর",
-            "সোনার কমলে যেন ফিরয়ে ভ্রমর ৩"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ଡଗମଗ ଲୋଚନ ଘୁରୟେ ନିରନ୍ତର",
-            "ସୋନାର କମଲେ ଯେନ ଫିରୟେ ଭ୍ରମର ୩"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "ડગમગ લોચન ઘુરયે નિરન્તર",
-            "સોનાર કમલે યેન ફિરયે ભ્રમર ૩"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "ḍagamaga locana ghuraye nirantara",
-            "sonāra kamale yena phiraye bhramara 3"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಡಗಮಗ ಲೊಚನ ಘುರಯೆ ನಿರಂತರ",
-            "ಸೊನಾರ ಕಮಲೆ ಯೆನ ಫಿರಯೆ ಭ್ರಮರ ೩"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "డగమగ లొచన ఘురయె నిరంతర",
-            "సొనార కమలె యెన ఫిరయె భ్రమర 3"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "д̣агамага ло̆чана гхурайэ̆ нирантара",
-            "со̆на̄ра камалэ̆ йэ̆на пхирайэ̆ бхрамара 3"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ഡഗമഗ ലൊചന ഘുരയെ നിരന്തര",
-            "സൊനാര കമലെ യെന ഫിരയെ ഭ്രമര 3"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "ட³க³மக³ லொசன கு⁴ரயெ நிரந்தர",
-            "ஸொனார கமலெ யென பி²ரயெ ப்⁴ரமர 3"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "ḍagamaga locana ghuraye nirantara",
-            "sonāra kamale yena phiraye bhramara 3"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "ḍagamaga locana ghuraye nirantara",
-            "sonāra kamale yena phiraye bhramara 3"
-          ]
-        }
-      ]
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଜୟ ଜୟ ନିତ୍ୟାନନ୍ଦ ରୋହିଣୀକୁମାର",
+      "ପତିତ ଉଦ୍ଧାର ଲାଗିଽ ଦୁଽବାହୁ ପସାର ୧"
+     ]
     },
     {
-      "verse_number": 4,
-      "source_text_master": [
-        "dayāra ṭhākura nitāi para[FLAG_HYPHEN_ALPHA]duḥkha jāne",
-        "harināmera mālā gā̃thi’ dila jagajane 4"
-      ],
-      "translations": [
-        {
-          "language_code": "eng",
-          "text": [
-            "The merciful Lord, Śrī Nitāi, knows the sufferings of others. He has strung together a garland of the holy names, which He has bestowed upon the people of this world."
-          ]
-        }
-      ],
-      "word_to_words": [
-        {
-          "language_code": "eng",
-          "script_code": "Latn",
-          "words": [
-            [
-              "dayāra ṭhākura",
-              "Lord of mercy"
-            ],
-            [
-              "nitāi",
-              "Śrī Nitāi"
-            ],
-            [
-              "para",
-              "others"
-            ],
-            [
-              "duḥkha",
-              "suffering"
-            ],
-            [
-              "jāne",
-              "He knows"
-            ],
-            [
-              "harināmera",
-              "of the names of Hari"
-            ],
-            [
-              "mālā",
-              "garland"
-            ],
-            [
-              "gā̃thi’",
-              "having strung"
-            ],
-            [
-              "dila",
-              "He gave"
-            ],
-            [
-              "jagajane",
-              "the world + to the people"
-            ]
-          ],
-          "standard": "IAST"
-        },
-        {
-          "language_code": "hin",
-          "script_code": "Deva",
-          "standard": null,
-          "words": [
-            [
-              "दयार ठाकुर",
-              "Lord of mercy"
-            ],
-            [
-              "निताइ",
-              "Śrī Nitāi"
-            ],
-            [
-              "पर",
-              "others"
-            ],
-            [
-              "दुःख",
-              "suffering"
-            ],
-            [
-              "जानॆ",
-              "He knows"
-            ],
-            [
-              "हरिनामॆर",
-              "of the names of Hari"
-            ],
-            [
-              "माला",
-              "garland"
-            ],
-            [
-              "गांथिऽ",
-              "having strung"
-            ],
-            [
-              "दिल",
-              "He gave"
-            ],
-            [
-              "जगजनॆ",
-              "the world + to the people"
-            ]
-          ]
-        },
-        {
-          "language_code": "ben",
-          "script_code": "Beng",
-          "standard": null,
-          "words": [
-            [
-              "দয়ার ঠাকুর",
-              "Lord of mercy"
-            ],
-            [
-              "নিতাই",
-              "Śrī Nitāi"
-            ],
-            [
-              "পর",
-              "others"
-            ],
-            [
-              "দুঃখ",
-              "suffering"
-            ],
-            [
-              "জানে",
-              "He knows"
-            ],
-            [
-              "হরিনামের",
-              "of the names of Hari"
-            ],
-            [
-              "মালা",
-              "garland"
-            ],
-            [
-              "গান্থিঽ",
-              "having strung"
-            ],
-            [
-              "দিল",
-              "He gave"
-            ],
-            [
-              "জগজনে",
-              "the world + to the people"
-            ]
-          ]
-        },
-        {
-          "language_code": "guj",
-          "script_code": "Gujr",
-          "standard": null,
-          "words": [
-            [
-              "દયાર ઠાકુર",
-              "Lord of mercy"
-            ],
-            [
-              "નિતાઇ",
-              "Śrī Nitāi"
-            ],
-            [
-              "પર",
-              "others"
-            ],
-            [
-              "દુઃખ",
-              "suffering"
-            ],
-            [
-              "જાને",
-              "He knows"
-            ],
-            [
-              "હરિનામેર",
-              "of the names of Hari"
-            ],
-            [
-              "માલા",
-              "garland"
-            ],
-            [
-              "ગાંથિઽ",
-              "having strung"
-            ],
-            [
-              "દિલ",
-              "He gave"
-            ],
-            [
-              "જગજને",
-              "the world + to the people"
-            ]
-          ]
-        }
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "दयार ठाकुर निताइ परदुःख जानॆ",
-            "हरिनामॆर माला गांथिऽ दिल जगजनॆ ४"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "দয়ার ঠাকুর নিতাই পরদুঃখ জানে",
-            "হরিনামের মালা গান্থিঽ দিল জগজনে ৪"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ଦୟାର ଠାକୁର ନିତାଇ ପରଦୁଃଖ ଜାନେ",
-            "ହରିନାମେର ମାଲା ଗାନ୍ଥିଽ ଦିଲ ଜଗଜନେ ୪"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "દયાર ઠાકુર નિતાઇ પરદુઃખ જાને",
-            "હરિનામેર માલા ગાંથિઽ દિલ જગજને ૪"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "dayāra ṭhākura nitāi para-duḥkha jāne",
-            "harināmera mālā gā̃thi’ dila jagajane 4"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ದಯಾರ ಠಾಕುರ ನಿತಾಇ ಪರದುಃಖ ಜಾನೆ",
-            "ಹರಿನಾಮೆರ ಮಾಲಾ ಗಾಂಥಿಽ ದಿಲ ಜಗಜನೆ ೪"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "దయార ఠాకుర నితాఇ పరదుఃఖ జానె",
-            "హరినామెర మాలా గాంథిఽ దిల జగజనె 4"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "дайа̄ра т̣ха̄кура нита̄и парадух̣кха джа̄нэ̆",
-            "харина̄мэ̆ра ма̄ла̄ га̄м̣тхи' дила джагаджанэ̆ 4"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ദയാര ഠാകുര നിതാഇ പരദുഃഖ ജാനെ",
-            "ഹരിനാമെര മാലാ ഗാന്ഥിഽ ദില ജഗജനെ 4"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "த³யார டா²குர நிதாஇ பரது³꞉க² ஜானெ",
-            "ஹரிநாமெர மாலா கா³ந்தி²(அ) தி³ல ஜக³ஜனெ 4"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "dayāra ṭhākura nitāi para-duḥkha jāne",
-            "harināmera mālā gā̃thi’ dila jagajane 4"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "dayāra ṭhākura nitāi para-duḥkha jāne",
-            "harināmera mālā gā̃thi’ dila jagajane 4"
-          ]
-        }
-      ]
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "જય જય નિત્યાનન્દ રોહિણીકુમાર",
+      "પતિત ઉદ્ધાર લાગિઽ દુઽબાહુ પસાર ૧"
+     ]
     },
     {
-      "verse_number": 5,
-      "source_text_master": [
-        "pāpī[FLAG_HYPHEN_ALPHA]pāṣaṇḍī yata karila dalana",
-        "dīna[FLAG_HYPHEN_ALPHA]hīna[FLAG_HYPHEN_ALPHA]jane kailā prema bitaraṇa 5"
-      ],
-      "translations": [
-        {
-          "language_code": "eng",
-          "text": [
-            "He has subdued the sinners and the atheists, but He has distributed prema to the poor and the lowly."
-          ]
-        }
-      ],
-      "word_to_words": [
-        {
-          "language_code": "eng",
-          "script_code": "Latn",
-          "words": [
-            [
-              "pāpī",
-              "sinners"
-            ],
-            [
-              "pāṣaṇḍī",
-              "atheists"
-            ],
-            [
-              "yata",
-              "whatever"
-            ],
-            [
-              "karila dalana",
-              "He subdued"
-            ],
-            [
-              "dīna",
-              "poor"
-            ],
-            [
-              "hīna",
-              "lowly"
-            ],
-            [
-              "jane",
-              "to people"
-            ],
-            [
-              "kailā",
-              "He did"
-            ],
-            [
-              "prema",
-              "divine love"
-            ],
-            [
-              "bitaraṇa",
-              "distribution"
-            ]
-          ],
-          "standard": "IAST"
-        },
-        {
-          "language_code": "hin",
-          "script_code": "Deva",
-          "standard": null,
-          "words": [
-            [
-              "पापी",
-              "sinners"
-            ],
-            [
-              "पाषण्डी",
-              "atheists"
-            ],
-            [
-              "यत",
-              "whatever"
-            ],
-            [
-              "करिल दलन",
-              "He subdued"
-            ],
-            [
-              "दीन",
-              "poor"
-            ],
-            [
-              "हीन",
-              "lowly"
-            ],
-            [
-              "जनॆ",
-              "to people"
-            ],
-            [
-              "कैला",
-              "He did"
-            ],
-            [
-              "प्रॆम",
-              "divine love"
-            ],
-            [
-              "बितरण",
-              "distribution"
-            ]
-          ]
-        },
-        {
-          "language_code": "ben",
-          "script_code": "Beng",
-          "standard": null,
-          "words": [
-            [
-              "পাপী",
-              "sinners"
-            ],
-            [
-              "পাষণ্ডী",
-              "atheists"
-            ],
-            [
-              "যত",
-              "whatever"
-            ],
-            [
-              "করিল দলন",
-              "He subdued"
-            ],
-            [
-              "দীন",
-              "poor"
-            ],
-            [
-              "হীন",
-              "lowly"
-            ],
-            [
-              "জনে",
-              "to people"
-            ],
-            [
-              "কৈলা",
-              "He did"
-            ],
-            [
-              "প্রেম",
-              "divine love"
-            ],
-            [
-              "বিতরণ",
-              "distribution"
-            ]
-          ]
-        },
-        {
-          "language_code": "guj",
-          "script_code": "Gujr",
-          "standard": null,
-          "words": [
-            [
-              "પાપી",
-              "sinners"
-            ],
-            [
-              "પાષણ્ડી",
-              "atheists"
-            ],
-            [
-              "યત",
-              "whatever"
-            ],
-            [
-              "કરિલ દલન",
-              "He subdued"
-            ],
-            [
-              "દીન",
-              "poor"
-            ],
-            [
-              "હીન",
-              "lowly"
-            ],
-            [
-              "જને",
-              "to people"
-            ],
-            [
-              "કૈલા",
-              "He did"
-            ],
-            [
-              "પ્રેમ",
-              "divine love"
-            ],
-            [
-              "બિતરણ",
-              "distribution"
-            ]
-          ]
-        }
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "पापीपाषण्डी यत करिल दलन",
-            "दीनहीनजनॆ कैला प्रॆम बितरण ५"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "পাপীপাষণ্ডী যত করিল দলন",
-            "দীনহীনজনে কৈলা প্রেম বিতরণ ৫"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ପାପୀପାଷଣ୍ଡୀ ଯତ କରିଲ ଦଲନ",
-            "ଦୀନହୀନଜନେ କୈଲା ପ୍ରେମ ବିତରଣ ୫"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "પાપીપાષણ્ડી યત કરિલ દલન",
-            "દીનહીનજને કૈલા પ્રેમ બિતરણ ૫"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "pāpī-pāṣaṇḍī yata karila dalana",
-            "dīna-hīna-jane kailā prema bitaraṇa 5"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಪಾಪೀಪಾಷಂಡೀ ಯತ ಕರಿಲ ದಲನ",
-            "ದೀನಹೀನಜನೆ ಕೈಲಾ ಪ್ರೆಮ ಬಿತರಣ ೫"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "పాపీపాషండీ యత కరిల దలన",
-            "దీనహీనజనె కైలా ప్రెమ బితరణ 5"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "па̄пӣпа̄шан̣д̣ӣ йата карила далана",
-            "дӣнахӣнаджанэ̆ каила̄ прэ̆ма битаран̣а 5"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "പാപീപാഷണ്ഡീ യത കരില ദലന",
-            "ദീനഹീനജനെ കൈലാ പ്രെമ ബിതരണ 5"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "பாபீபாஷண்டீ³ யத கரில த³லன",
-            "தீ³னஹீனஜனெ கைலா ப்ரெம பி³தரண 5"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "pāpī-pāṣaṇḍī yata karila dalana",
-            "dīna-hīna-jane kailā prema bitaraṇa 5"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "pāpī-pāṣaṇḍī yata karila dalana",
-            "dīna-hīna-jane kailā prema bitaraṇa 5"
-          ]
-        }
-      ]
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "jaya jaya nityānanda rohiṇī-kumāra",
+      "patita uddhāra lāgi’ du’bāhu pasāra 1"
+     ]
     },
     {
-      "verse_number": 6,
-      "source_text_master": [
-        "‘āhā re gaurāṅga’—bali’ paḓe bhūmitale",
-        "śarīra bhijila nitāira nayanera jale 6"
-      ],
-      "translations": [
-        {
-          "language_code": "eng",
-          "text": [
-            "Calling out, “Alas, O Gaurāṅga!” He falls to the earth. Nitāi’s whole body becomes soaked with the tears from His eyes."
-          ]
-        }
-      ],
-      "word_to_words": [
-        {
-          "language_code": "eng",
-          "script_code": "Latn",
-          "words": [
-            [
-              "āhā re",
-              "alas"
-            ],
-            [
-              "gaurāṅga’",
-              "O Gaurāṅga"
-            ],
-            [
-              "bali’",
-              "having called out"
-            ],
-            [
-              "paḓe",
-              "He falls"
-            ],
-            [
-              "bhūmitale",
-              "earth + on the ground"
-            ],
-            [
-              "śarīra",
-              "body"
-            ],
-            [
-              "bhijila",
-              "soaked"
-            ],
-            [
-              "nitāira",
-              "Nitāi’s"
-            ],
-            [
-              "nayanera",
-              "of eyes"
-            ],
-            [
-              "jale",
-              "with water (tears)"
-            ]
-          ],
-          "standard": "IAST"
-        },
-        {
-          "language_code": "hin",
-          "script_code": "Deva",
-          "standard": null,
-          "words": [
-            [
-              "आहा रॆ",
-              "alas"
-            ],
-            [
-              "गौराङ्गऽ",
-              "O Gaurāṅga"
-            ],
-            [
-              "बलिऽ",
-              "having called out"
-            ],
-            [
-              "पḓऎ",
-              "He falls"
-            ],
-            [
-              "भूमितलॆ",
-              "earth + on the ground"
-            ],
-            [
-              "शरीर",
-              "body"
-            ],
-            [
-              "भिजिल",
-              "soaked"
-            ],
-            [
-              "निताइर",
-              "Nitāi’s"
-            ],
-            [
-              "नयनॆर",
-              "of eyes"
-            ],
-            [
-              "जलॆ",
-              "with water (tears)"
-            ]
-          ]
-        },
-        {
-          "language_code": "ben",
-          "script_code": "Beng",
-          "standard": null,
-          "words": [
-            [
-              "আহা রে",
-              "alas"
-            ],
-            [
-              "গৌরাঙ্গঽ",
-              "O Gaurāṅga"
-            ],
-            [
-              "বলিঽ",
-              "having called out"
-            ],
-            [
-              "পḓএ",
-              "He falls"
-            ],
-            [
-              "ভূমিতলে",
-              "earth + on the ground"
-            ],
-            [
-              "শরীর",
-              "body"
-            ],
-            [
-              "ভিজিল",
-              "soaked"
-            ],
-            [
-              "নিতাইর",
-              "Nitāi’s"
-            ],
-            [
-              "নয়নের",
-              "of eyes"
-            ],
-            [
-              "জলে",
-              "with water (tears)"
-            ]
-          ]
-        },
-        {
-          "language_code": "guj",
-          "script_code": "Gujr",
-          "standard": null,
-          "words": [
-            [
-              "આહા રે",
-              "alas"
-            ],
-            [
-              "ગૌરાઙ્ગઽ",
-              "O Gaurāṅga"
-            ],
-            [
-              "બલિઽ",
-              "having called out"
-            ],
-            [
-              "પḓએ",
-              "He falls"
-            ],
-            [
-              "ભૂમિતલે",
-              "earth + on the ground"
-            ],
-            [
-              "શરીર",
-              "body"
-            ],
-            [
-              "ભિજિલ",
-              "soaked"
-            ],
-            [
-              "નિતાઇર",
-              "Nitāi’s"
-            ],
-            [
-              "નયનેર",
-              "of eyes"
-            ],
-            [
-              "જલે",
-              "with water (tears)"
-            ]
-          ]
-        }
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "‘आहा रॆ गौराङ्गऽ—बलिऽ पḓऎ भूमितलॆ",
-            "शरीर भिजिल निताइर नयनॆर जलॆ ६"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "‘আহা রে গৌরাঙ্গঽ—বলিঽ পḓএ ভূমিতলে",
-            "শরীর ভিজিল নিতাইর নয়নের জলে ৬"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "‘ଆହା ରେ ଗୌରାଙ୍ଗଽ—ବଲିଽ ପḓଏ ଭୂମିତଲେ",
-            "ଶରୀର ଭିଜିଲ ନିତାଇର ନୟନେର ଜଲେ ୬"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "‘આહા રે ગૌરાઙ્ગઽ—બલિઽ પḓએ ભૂમિતલે",
-            "શરીર ભિજિલ નિતાઇર નયનેર જલે ૬"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "‘āhā re gaurāṅga’—bali’ paḓe bhūmitale",
-            "śarīra bhijila nitāira nayanera jale 6"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "‘ಆಹಾ ರೆ ಗೌರಾಂಗಽ—ಬಲಿಽ ಪḓಎ ಭೂಮಿತಲೆ",
-            "ಶರೀರ ಭಿಜಿಲ ನಿತಾಇರ ನಯನೆರ ಜಲೆ ೬"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "‘ఆహా రె గౌరాంగఽ—బలిఽ పḓఎ భూమితలె",
-            "శరీర భిజిల నితాఇర నయనెర జలె 6"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "‘а̄ха̄ рэ̆ гаура̄н̇га'—бали' паḓэ̆ бхӯмиталэ̆",
-            "ш́арӣра бхиджила нита̄ира найанэ̆ра джалэ̆ 6"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "‘ആഹാ രെ ഗൗരാംഗഽ—ബലിഽ പḓഎ ഭൂമിതലെ",
-            "ശരീര ഭിജില നിതാഇര നയനെര ജലെ 6"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "‘ஆஹா ரெ கௌ³ராங்க³(அ)—ப³லி(அ) பḓஎ பூ⁴மிதலெ",
-            "ஶரீர பி⁴ஜில நிதாஇர நயனெர ஜலெ 6"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "‘āhā re gaurāṅga’—bali’ paḍe bhūmitale",
-            "śarīra bhijila nitāira nayanera jale 6"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "‘āhā re gaurāṅga’—bali’ paḓe bhūmitale",
-            "śarīra bhijila nitāira nayanera jale 6"
-          ]
-        }
-      ]
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಜಯ ಜಯ ನಿತ್ಯಾನಂದ ರೊಹಿಣೀಕುಮಾರ",
+      "ಪತಿತ ಉದ್ಧಾರ ಲಾಗಿಽ ದುಽಬಾಹು ಪಸಾರ ೧"
+     ]
     },
     {
-      "verse_number": 7,
-      "source_text_master": [
-        "bṛndābanadāsa mane ei bicārila",
-        "dharaṇī upare kibā sumeru paḓila 7"
-      ],
-      "translations": [
-        {
-          "language_code": "eng",
-          "text": [
-            "Within his heart, Vṛndāvana dāsa considers Śrī Nityānanda Prabhu to be like Mount Sumeru falling upon the earth."
-          ]
-        }
-      ],
-      "word_to_words": [
-        {
-          "language_code": "eng",
-          "script_code": "Latn",
-          "words": [
-            [
-              "bṛndābanadāsa",
-              "Vṛndāvana dāsa"
-            ],
-            [
-              "mane",
-              "within heart"
-            ],
-            [
-              "ei",
-              "this"
-            ],
-            [
-              "bicārila",
-              "considered"
-            ],
-            [
-              "dharaṇī",
-              "the earth"
-            ],
-            [
-              "upare",
-              "on top"
-            ],
-            [
-              "kibā",
-              "how"
-            ],
-            [
-              "sumeru",
-              "Mount Sumeru"
-            ],
-            [
-              "paḓila",
-              "fell"
-            ]
-          ],
-          "standard": "IAST"
-        },
-        {
-          "language_code": "hin",
-          "script_code": "Deva",
-          "standard": null,
-          "words": [
-            [
-              "ब्ड़्न्दाबनदास",
-              "Vṛndāvana dāsa"
-            ],
-            [
-              "मनॆ",
-              "within heart"
-            ],
-            [
-              "ऎइ",
-              "this"
-            ],
-            [
-              "बिचारिल",
-              "considered"
-            ],
-            [
-              "धरणी",
-              "the earth"
-            ],
-            [
-              "उपरॆ",
-              "on top"
-            ],
-            [
-              "किबा",
-              "how"
-            ],
-            [
-              "सुमॆरु",
-              "Mount Sumeru"
-            ],
-            [
-              "पḓइल",
-              "fell"
-            ]
-          ]
-        },
-        {
-          "language_code": "ben",
-          "script_code": "Beng",
-          "standard": null,
-          "words": [
-            [
-              "ব্ড়্ন্দাবনদাস",
-              "Vṛndāvana dāsa"
-            ],
-            [
-              "মনে",
-              "within heart"
-            ],
-            [
-              "এই",
-              "this"
-            ],
-            [
-              "বিচারিল",
-              "considered"
-            ],
-            [
-              "ধরণী",
-              "the earth"
-            ],
-            [
-              "উপরে",
-              "on top"
-            ],
-            [
-              "কিবা",
-              "how"
-            ],
-            [
-              "সুমেরু",
-              "Mount Sumeru"
-            ],
-            [
-              "পḓইল",
-              "fell"
-            ]
-          ]
-        },
-        {
-          "language_code": "guj",
-          "script_code": "Gujr",
-          "standard": null,
-          "words": [
-            [
-              "બ્ડ઼્ન્દાબનદાસ",
-              "Vṛndāvana dāsa"
-            ],
-            [
-              "મને",
-              "within heart"
-            ],
-            [
-              "એઇ",
-              "this"
-            ],
-            [
-              "બિચારિલ",
-              "considered"
-            ],
-            [
-              "ધરણી",
-              "the earth"
-            ],
-            [
-              "ઉપરે",
-              "on top"
-            ],
-            [
-              "કિબા",
-              "how"
-            ],
-            [
-              "સુમેરુ",
-              "Mount Sumeru"
-            ],
-            [
-              "પḓઇલ",
-              "fell"
-            ]
-          ]
-        }
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "ब्ड़्न्दाबनदास मनॆ ऎइ बिचारिल",
-            "धरणी उपरॆ किबा सुमॆरु पḓइल ७"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "ব্ড়্ন্দাবনদাস মনে এই বিচারিল",
-            "ধরণী উপরে কিবা সুমেরু পḓইল ৭"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ବ୍ଡ଼୍ନ୍ଦାବନଦାସ ମନେ ଏଇ ବିଚାରିଲ",
-            "ଧରଣୀ ଉପରେ କିବା ସୁମେରୁ ପḓଇଲ ୭"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "બ્ડ઼્ન્દાબનદાસ મને એઇ બિચારિલ",
-            "ધરણી ઉપરે કિબા સુમેરુ પḓઇલ ૭"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "bṛndābanadāsa mane ei bicārila",
-            "dharaṇī upare kibā sumeru paḓila 7"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಬ್‌ಡ಼್ನ್ದಾಬನದಾಸ ಮನೆ ಎಇ ಬಿಚಾರಿಲ",
-            "ಧರಣೀ ಉಪರೆ ಕಿಬಾ ಸುಮೆರು ಪḓಇಲ ೭"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "బ్డ్న్దాబనదాస మనె ఎఇ బిచారిల",
-            "ధరణీ ఉపరె కిబా సుమెరు పḓఇల 7"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "бр̤нда̄банада̄са манэ̆ э̆и бича̄рила",
-            "дхаран̣ӣ упарэ̆ киба̄ сумэ̆ру паḓила 7"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ബ്ഡ്ന്ദാബനദാസ മനെ എഇ ബിചാരില",
-            "ധരണീ ഉപരെ കിബാ സുമെരു പḓഇല 7"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "ப்³ஃட்²ந்தா³ப³னதா³ஸ மனெ எஇ பி³சாரில",
-            "த⁴ரணீ உபரெ கிபா³ ஸுமெரு பḓஇல 7"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "bṛndābanadāsa mane ei bicārila",
-            "dharaṇī upare kibā sumeru paḍila 7"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "bṛndābanadāsa mane ei bicārila",
-            "dharaṇī upare kibā sumeru paḓila 7"
-          ]
-        }
-      ]
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "జయ జయ నిత్యానంద రొహిణీకుమార",
+      "పతిత ఉద్ధార లాగిఽ దుఽబాహు పసార 1"
+     ]
     },
     {
-      "verse_number": 8,
-      "source_text_master": [
-        ""
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            ""
-          ]
-        }
-      ]
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "джайа джайа нитйа̄нанда ро̆хин̣ӣкума̄ра",
+      "патита уддха̄ра ла̄ги' ду'ба̄ху паса̄ра 1"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ജയ ജയ നിത്യാനന്ദ രൊഹിണീകുമാര",
+      "പതിത ഉദ്ധാര ലാഗിഽ ദുഽബാഹു പസാര 1"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஜய ஜய நித்யானந்த³ ரொஹிணீகுமார",
+      "பதித உத்³தா⁴ர லாகி³(அ) து³(அ)பா³ஹு பஸார 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "jaya jaya nityānanda rohiṇī-kumāra",
+      "patita uddhāra lāgi’ du’bāhu pasāra 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "jaya jaya nityānanda rohiṇī-kumāra",
+      "patita uddhāra lāgi’ du’bāhu pasāra 1"
+     ]
     }
-  ],
-  "notes": [],
-  "audio_available": false,
-  "audio_files": [],
-  "tags": [
-    "The Wonderful Qualities of Nityānanda Prabhu",
-    "Śrī Nityānanda Prabhu"
-  ]
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "gada gada madhura madhura ādho bola",
+    "yā’re dekhe tā’re preme dhari’ deya kola 2"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "With a choked voice, He stammers sweetly. Whomever He sees, He lovingly embraces."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "gada gada",
+       "choked"
+      ],
+      [
+       "madhura",
+       "sweet"
+      ],
+      [
+       "madhura",
+       "sweet"
+      ],
+      [
+       "ādho",
+       "mumbling, babbling"
+      ],
+      [
+       "bola",
+       "words"
+      ],
+      [
+       "yā’re",
+       "to whomever"
+      ],
+      [
+       "dekhe",
+       "He sees"
+      ],
+      [
+       "tā’re",
+       "to them"
+      ],
+      [
+       "preme",
+       "with love"
+      ],
+      [
+       "dhari’",
+       "having held"
+      ],
+      [
+       "deya kola",
+       "He embraces"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "गद गद",
+       "choked"
+      ],
+      [
+       "मधुर",
+       "sweet"
+      ],
+      [
+       "मधुर",
+       "sweet"
+      ],
+      [
+       "आधॊ",
+       "mumbling, babbling"
+      ],
+      [
+       "बॊल",
+       "words"
+      ],
+      [
+       "याऽरॆ",
+       "to whomever"
+      ],
+      [
+       "दॆखॆ",
+       "He sees"
+      ],
+      [
+       "ताऽरॆ",
+       "to them"
+      ],
+      [
+       "प्रॆमॆ",
+       "with love"
+      ],
+      [
+       "धरिऽ",
+       "having held"
+      ],
+      [
+       "दॆय कॊल",
+       "He embraces"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "গদ গদ",
+       "choked"
+      ],
+      [
+       "মধুর",
+       "sweet"
+      ],
+      [
+       "মধুর",
+       "sweet"
+      ],
+      [
+       "আধো",
+       "mumbling, babbling"
+      ],
+      [
+       "বোল",
+       "words"
+      ],
+      [
+       "যাঽরে",
+       "to whomever"
+      ],
+      [
+       "দেখে",
+       "He sees"
+      ],
+      [
+       "তাঽরে",
+       "to them"
+      ],
+      [
+       "প্রেমে",
+       "with love"
+      ],
+      [
+       "ধরিঽ",
+       "having held"
+      ],
+      [
+       "দেয় কোল",
+       "He embraces"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ગદ ગદ",
+       "choked"
+      ],
+      [
+       "મધુર",
+       "sweet"
+      ],
+      [
+       "મધુર",
+       "sweet"
+      ],
+      [
+       "આધો",
+       "mumbling, babbling"
+      ],
+      [
+       "બોલ",
+       "words"
+      ],
+      [
+       "યાઽરે",
+       "to whomever"
+      ],
+      [
+       "દેખે",
+       "He sees"
+      ],
+      [
+       "તાઽરે",
+       "to them"
+      ],
+      [
+       "પ્રેમે",
+       "with love"
+      ],
+      [
+       "ધરિઽ",
+       "having held"
+      ],
+      [
+       "દેય કોલ",
+       "He embraces"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "गद गद मधुर मधुर आधॊ बॊल",
+      "याऽरॆ दॆखॆ ताऽरॆ प्रॆमॆ धरिऽ दॆय कॊल २"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "গদ গদ মধুর মধুর আধো বোল",
+      "যাঽরে দেখে তাঽরে প্রেমে ধরিঽ দেয় কোল ২"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଗଦ ଗଦ ମଧୁର ମଧୁର ଆଧୋ ବୋଲ",
+      "ଯାଽରେ ଦେଖେ ତାଽରେ ପ୍ରେମେ ଧରିଽ ଦେୟ କୋଲ ୨"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ગદ ગદ મધુર મધુર આધો બોલ",
+      "યાઽરે દેખે તાઽરે પ્રેમે ધરિઽ દેય કોલ ૨"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "gada gada madhura madhura ādho bola",
+      "yā’re dekhe tā’re preme dhari’ deya kola 2"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಗದ ಗದ ಮಧುರ ಮಧುರ ಆಧೊ ಬೊಲ",
+      "ಯಾಽರೆ ದೆಖೆ ತಾಽರೆ ಪ್ರೆಮೆ ಧರಿಽ ದೆಯ ಕೊಲ ೨"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "గద గద మధుర మధుర ఆధొ బొల",
+      "యాఽరె దెఖె తాఽరె ప్రెమె ధరిఽ దెయ కొల 2"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "гада гада мадхура мадхура а̄дхо̆ бо̆ла",
+      "йа̄'рэ̆ дэ̆кхэ̆ та̄'рэ̆ прэ̆мэ̆ дхари' дэ̆йа ко̆ла 2"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഗദ ഗദ മധുര മധുര ആധൊ ബൊല",
+      "യാഽരെ ദെഖെ താഽരെ പ്രെമെ ധരിഽ ദെയ കൊല 2"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "க³த³ க³த³ மது⁴ர மது⁴ர ஆதொ⁴ பொ³ல",
+      "யா(அ)ரெ தெ³கெ² தா(அ)ரெ ப்ரெமெ த⁴ரி(அ) தெ³ய கொல 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "gada gada madhura madhura ādho bola",
+      "yā’re dekhe tā’re preme dhari’ deya kola 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "gada gada madhura madhura ādho bola",
+      "yā’re dekhe tā’re preme dhari’ deya kola 2"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "ḍagamaga locana ghuraye nirantara",
+    "sonāra kamale yena phiraye bhramara 3"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Overflowing with prema, His eyes always roll about restlessly, looking like bumblebees hovering over a golden lotus."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "ḍagamaga",
+       "overflowing with, brimming over with"
+      ],
+      [
+       "locana",
+       "eyes"
+      ],
+      [
+       "ghuraye",
+       "roll"
+      ],
+      [
+       "nirantara",
+       "always"
+      ],
+      [
+       "sonāra",
+       "golden"
+      ],
+      [
+       "kamale",
+       "lotus"
+      ],
+      [
+       "yena",
+       "like"
+      ],
+      [
+       "phiraye",
+       "hovering around"
+      ],
+      [
+       "bhramara",
+       "bumblebees"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "डगमग",
+       "overflowing with, brimming over with"
+      ],
+      [
+       "लॊचन",
+       "eyes"
+      ],
+      [
+       "घुरयॆ",
+       "roll"
+      ],
+      [
+       "निरन्तर",
+       "always"
+      ],
+      [
+       "सॊनार",
+       "golden"
+      ],
+      [
+       "कमलॆ",
+       "lotus"
+      ],
+      [
+       "यॆन",
+       "like"
+      ],
+      [
+       "फिरयॆ",
+       "hovering around"
+      ],
+      [
+       "भ्रमर",
+       "bumblebees"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ডগমগ",
+       "overflowing with, brimming over with"
+      ],
+      [
+       "লোচন",
+       "eyes"
+      ],
+      [
+       "ঘুরয়ে",
+       "roll"
+      ],
+      [
+       "নিরন্তর",
+       "always"
+      ],
+      [
+       "সোনার",
+       "golden"
+      ],
+      [
+       "কমলে",
+       "lotus"
+      ],
+      [
+       "যেন",
+       "like"
+      ],
+      [
+       "ফিরয়ে",
+       "hovering around"
+      ],
+      [
+       "ভ্রমর",
+       "bumblebees"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "ડગમગ",
+       "overflowing with, brimming over with"
+      ],
+      [
+       "લોચન",
+       "eyes"
+      ],
+      [
+       "ઘુરયે",
+       "roll"
+      ],
+      [
+       "નિરન્તર",
+       "always"
+      ],
+      [
+       "સોનાર",
+       "golden"
+      ],
+      [
+       "કમલે",
+       "lotus"
+      ],
+      [
+       "યેન",
+       "like"
+      ],
+      [
+       "ફિરયે",
+       "hovering around"
+      ],
+      [
+       "ભ્રમર",
+       "bumblebees"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "डगमग लॊचन घुरयॆ निरन्तर",
+      "सॊनार कमलॆ यॆन फिरयॆ भ्रमर ३"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ডগমগ লোচন ঘুরয়ে নিরন্তর",
+      "সোনার কমলে যেন ফিরয়ে ভ্রমর ৩"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଡଗମଗ ଲୋଚନ ଘୁରୟେ ନିରନ୍ତର",
+      "ସୋନାର କମଲେ ଯେନ ଫିରୟେ ଭ୍ରମର ୩"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ડગમગ લોચન ઘુરયે નિરન્તર",
+      "સોનાર કમલે યેન ફિરયે ભ્રમર ૩"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ḍagamaga locana ghuraye nirantara",
+      "sonāra kamale yena phiraye bhramara 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಡಗಮಗ ಲೊಚನ ಘುರಯೆ ನಿರಂತರ",
+      "ಸೊನಾರ ಕಮಲೆ ಯೆನ ಫಿರಯೆ ಭ್ರಮರ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "డగమగ లొచన ఘురయె నిరంతర",
+      "సొనార కమలె యెన ఫిరయె భ్రమర 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "д̣агамага ло̆чана гхурайэ̆ нирантара",
+      "со̆на̄ра камалэ̆ йэ̆на пхирайэ̆ бхрамара 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഡഗമഗ ലൊചന ഘുരയെ നിരന്തര",
+      "സൊനാര കമലെ യെന ഫിരയെ ഭ്രമര 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ட³க³மக³ லொசன கு⁴ரயெ நிரந்தர",
+      "ஸொனார கமலெ யென பி²ரயெ ப்⁴ரமர 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ḍagamaga locana ghuraye nirantara",
+      "sonāra kamale yena phiraye bhramara 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ḍagamaga locana ghuraye nirantara",
+      "sonāra kamale yena phiraye bhramara 3"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "dayāra ṭhākura nitāi para[FLAG_HYPHEN_ALPHA]duḥkha jāne",
+    "harināmera mālā gā̃thi’ dila jagajane 4"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "The merciful Lord, Śrī Nitāi, knows the sufferings of others. He has strung together a garland of the holy names, which He has bestowed upon the people of this world."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "dayāra ṭhākura",
+       "Lord of mercy"
+      ],
+      [
+       "nitāi",
+       "Śrī Nitāi"
+      ],
+      [
+       "para",
+       "others"
+      ],
+      [
+       "duḥkha",
+       "suffering"
+      ],
+      [
+       "jāne",
+       "He knows"
+      ],
+      [
+       "harināmera",
+       "of the names of Hari"
+      ],
+      [
+       "mālā",
+       "garland"
+      ],
+      [
+       "gā̃thi’",
+       "having strung"
+      ],
+      [
+       "dila",
+       "He gave"
+      ],
+      [
+       "jagajane",
+       "the world + to the people"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "दयार ठाकुर",
+       "Lord of mercy"
+      ],
+      [
+       "निताइ",
+       "Śrī Nitāi"
+      ],
+      [
+       "पर",
+       "others"
+      ],
+      [
+       "दुःख",
+       "suffering"
+      ],
+      [
+       "जानॆ",
+       "He knows"
+      ],
+      [
+       "हरिनामॆर",
+       "of the names of Hari"
+      ],
+      [
+       "माला",
+       "garland"
+      ],
+      [
+       "गांथिऽ",
+       "having strung"
+      ],
+      [
+       "दिल",
+       "He gave"
+      ],
+      [
+       "जगजनॆ",
+       "the world + to the people"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "দয়ার ঠাকুর",
+       "Lord of mercy"
+      ],
+      [
+       "নিতাই",
+       "Śrī Nitāi"
+      ],
+      [
+       "পর",
+       "others"
+      ],
+      [
+       "দুঃখ",
+       "suffering"
+      ],
+      [
+       "জানে",
+       "He knows"
+      ],
+      [
+       "হরিনামের",
+       "of the names of Hari"
+      ],
+      [
+       "মালা",
+       "garland"
+      ],
+      [
+       "গান্থিঽ",
+       "having strung"
+      ],
+      [
+       "দিল",
+       "He gave"
+      ],
+      [
+       "জগজনে",
+       "the world + to the people"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "દયાર ઠાકુર",
+       "Lord of mercy"
+      ],
+      [
+       "નિતાઇ",
+       "Śrī Nitāi"
+      ],
+      [
+       "પર",
+       "others"
+      ],
+      [
+       "દુઃખ",
+       "suffering"
+      ],
+      [
+       "જાને",
+       "He knows"
+      ],
+      [
+       "હરિનામેર",
+       "of the names of Hari"
+      ],
+      [
+       "માલા",
+       "garland"
+      ],
+      [
+       "ગાંથિઽ",
+       "having strung"
+      ],
+      [
+       "દિલ",
+       "He gave"
+      ],
+      [
+       "જગજને",
+       "the world + to the people"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "दयार ठाकुर निताइ परदुःख जानॆ",
+      "हरिनामॆर माला गांथिऽ दिल जगजनॆ ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "দয়ার ঠাকুর নিতাই পরদুঃখ জানে",
+      "হরিনামের মালা গান্থিঽ দিল জগজনে ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଦୟାର ଠାକୁର ନିତାଇ ପରଦୁଃଖ ଜାନେ",
+      "ହରିନାମେର ମାଲା ଗାନ୍ଥିଽ ଦିଲ ଜଗଜନେ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "દયાર ઠાકુર નિતાઇ પરદુઃખ જાને",
+      "હરિનામેર માલા ગાંથિઽ દિલ જગજને ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "dayāra ṭhākura nitāi para-duḥkha jāne",
+      "harināmera mālā gā̃thi’ dila jagajane 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ದಯಾರ ಠಾಕುರ ನಿತಾಇ ಪರದುಃಖ ಜಾನೆ",
+      "ಹರಿನಾಮೆರ ಮಾಲಾ ಗಾಂಥಿಽ ದಿಲ ಜಗಜನೆ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "దయార ఠాకుర నితాఇ పరదుఃఖ జానె",
+      "హరినామెర మాలా గాంథిఽ దిల జగజనె 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "дайа̄ра т̣ха̄кура нита̄и парадух̣кха джа̄нэ̆",
+      "харина̄мэ̆ра ма̄ла̄ га̄м̣тхи' дила джагаджанэ̆ 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ദയാര ഠാകുര നിതാഇ പരദുഃഖ ജാനെ",
+      "ഹരിനാമെര മാലാ ഗാന്ഥിഽ ദില ജഗജനെ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "த³யார டா²குர நிதாஇ பரது³꞉க² ஜானெ",
+      "ஹரிநாமெர மாலா கா³ந்தி²(அ) தி³ல ஜக³ஜனெ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "dayāra ṭhākura nitāi para-duḥkha jāne",
+      "harināmera mālā gā̃thi’ dila jagajane 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "dayāra ṭhākura nitāi para-duḥkha jāne",
+      "harināmera mālā gā̃thi’ dila jagajane 4"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "pāpī[FLAG_HYPHEN_ALPHA]pāṣaṇḍī yata karila dalana",
+    "dīna[FLAG_HYPHEN_ALPHA]hīna[FLAG_HYPHEN_ALPHA]jane kailā prema bitaraṇa 5"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "He has subdued the sinners and the atheists, but He has distributed prema to the poor and the lowly."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "pāpī",
+       "sinners"
+      ],
+      [
+       "pāṣaṇḍī",
+       "atheists"
+      ],
+      [
+       "yata",
+       "whatever"
+      ],
+      [
+       "karila dalana",
+       "He subdued"
+      ],
+      [
+       "dīna",
+       "poor"
+      ],
+      [
+       "hīna",
+       "lowly"
+      ],
+      [
+       "jane",
+       "to people"
+      ],
+      [
+       "kailā",
+       "He did"
+      ],
+      [
+       "prema",
+       "divine love"
+      ],
+      [
+       "bitaraṇa",
+       "distribution"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "पापी",
+       "sinners"
+      ],
+      [
+       "पाषण्डी",
+       "atheists"
+      ],
+      [
+       "यत",
+       "whatever"
+      ],
+      [
+       "करिल दलन",
+       "He subdued"
+      ],
+      [
+       "दीन",
+       "poor"
+      ],
+      [
+       "हीन",
+       "lowly"
+      ],
+      [
+       "जनॆ",
+       "to people"
+      ],
+      [
+       "कैला",
+       "He did"
+      ],
+      [
+       "प्रॆम",
+       "divine love"
+      ],
+      [
+       "बितरण",
+       "distribution"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "পাপী",
+       "sinners"
+      ],
+      [
+       "পাষণ্ডী",
+       "atheists"
+      ],
+      [
+       "যত",
+       "whatever"
+      ],
+      [
+       "করিল দলন",
+       "He subdued"
+      ],
+      [
+       "দীন",
+       "poor"
+      ],
+      [
+       "হীন",
+       "lowly"
+      ],
+      [
+       "জনে",
+       "to people"
+      ],
+      [
+       "কৈলা",
+       "He did"
+      ],
+      [
+       "প্রেম",
+       "divine love"
+      ],
+      [
+       "বিতরণ",
+       "distribution"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "પાપી",
+       "sinners"
+      ],
+      [
+       "પાષણ્ડી",
+       "atheists"
+      ],
+      [
+       "યત",
+       "whatever"
+      ],
+      [
+       "કરિલ દલન",
+       "He subdued"
+      ],
+      [
+       "દીન",
+       "poor"
+      ],
+      [
+       "હીન",
+       "lowly"
+      ],
+      [
+       "જને",
+       "to people"
+      ],
+      [
+       "કૈલા",
+       "He did"
+      ],
+      [
+       "પ્રેમ",
+       "divine love"
+      ],
+      [
+       "બિતરણ",
+       "distribution"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "पापीपाषण्डी यत करिल दलन",
+      "दीनहीनजनॆ कैला प्रॆम बितरण ५"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "পাপীপাষণ্ডী যত করিল দলন",
+      "দীনহীনজনে কৈলা প্রেম বিতরণ ৫"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ପାପୀପାଷଣ୍ଡୀ ଯତ କରିଲ ଦଲନ",
+      "ଦୀନହୀନଜନେ କୈଲା ପ୍ରେମ ବିତରଣ ୫"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "પાપીપાષણ્ડી યત કરિલ દલન",
+      "દીનહીનજને કૈલા પ્રેમ બિતરણ ૫"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "pāpī-pāṣaṇḍī yata karila dalana",
+      "dīna-hīna-jane kailā prema bitaraṇa 5"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಪಾಪೀಪಾಷಂಡೀ ಯತ ಕರಿಲ ದಲನ",
+      "ದೀನಹೀನಜನೆ ಕೈಲಾ ಪ್ರೆಮ ಬಿತರಣ ೫"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "పాపీపాషండీ యత కరిల దలన",
+      "దీనహీనజనె కైలా ప్రెమ బితరణ 5"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "па̄пӣпа̄шан̣д̣ӣ йата карила далана",
+      "дӣнахӣнаджанэ̆ каила̄ прэ̆ма битаран̣а 5"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "പാപീപാഷണ്ഡീ യത കരില ദലന",
+      "ദീനഹീനജനെ കൈലാ പ്രെമ ബിതരണ 5"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "பாபீபாஷண்டீ³ யத கரில த³லன",
+      "தீ³னஹீனஜனெ கைலா ப்ரெம பி³தரண 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "pāpī-pāṣaṇḍī yata karila dalana",
+      "dīna-hīna-jane kailā prema bitaraṇa 5"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "pāpī-pāṣaṇḍī yata karila dalana",
+      "dīna-hīna-jane kailā prema bitaraṇa 5"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "‘āhā re gaurāṅga’—bali’ paḓe bhūmitale",
+    "śarīra bhijila nitāira nayanera jale 6"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Calling out, “Alas, O Gaurāṅga!” He falls to the earth. Nitāi’s whole body becomes soaked with the tears from His eyes."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "āhā re",
+       "alas"
+      ],
+      [
+       "gaurāṅga’",
+       "O Gaurāṅga"
+      ],
+      [
+       "bali’",
+       "having called out"
+      ],
+      [
+       "paḓe",
+       "He falls"
+      ],
+      [
+       "bhūmitale",
+       "earth + on the ground"
+      ],
+      [
+       "śarīra",
+       "body"
+      ],
+      [
+       "bhijila",
+       "soaked"
+      ],
+      [
+       "nitāira",
+       "Nitāi’s"
+      ],
+      [
+       "nayanera",
+       "of eyes"
+      ],
+      [
+       "jale",
+       "with water (tears)"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "आहा रॆ",
+       "alas"
+      ],
+      [
+       "गौराङ्गऽ",
+       "O Gaurāṅga"
+      ],
+      [
+       "बलिऽ",
+       "having called out"
+      ],
+      [
+       "पḓऎ",
+       "He falls"
+      ],
+      [
+       "भूमितलॆ",
+       "earth + on the ground"
+      ],
+      [
+       "शरीर",
+       "body"
+      ],
+      [
+       "भिजिल",
+       "soaked"
+      ],
+      [
+       "निताइर",
+       "Nitāi’s"
+      ],
+      [
+       "नयनॆर",
+       "of eyes"
+      ],
+      [
+       "जलॆ",
+       "with water (tears)"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "আহা রে",
+       "alas"
+      ],
+      [
+       "গৌরাঙ্গঽ",
+       "O Gaurāṅga"
+      ],
+      [
+       "বলিঽ",
+       "having called out"
+      ],
+      [
+       "পḓএ",
+       "He falls"
+      ],
+      [
+       "ভূমিতলে",
+       "earth + on the ground"
+      ],
+      [
+       "শরীর",
+       "body"
+      ],
+      [
+       "ভিজিল",
+       "soaked"
+      ],
+      [
+       "নিতাইর",
+       "Nitāi’s"
+      ],
+      [
+       "নয়নের",
+       "of eyes"
+      ],
+      [
+       "জলে",
+       "with water (tears)"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "આહા રે",
+       "alas"
+      ],
+      [
+       "ગૌરાઙ્ગઽ",
+       "O Gaurāṅga"
+      ],
+      [
+       "બલિઽ",
+       "having called out"
+      ],
+      [
+       "પḓએ",
+       "He falls"
+      ],
+      [
+       "ભૂમિતલે",
+       "earth + on the ground"
+      ],
+      [
+       "શરીર",
+       "body"
+      ],
+      [
+       "ભિજિલ",
+       "soaked"
+      ],
+      [
+       "નિતાઇર",
+       "Nitāi’s"
+      ],
+      [
+       "નયનેર",
+       "of eyes"
+      ],
+      [
+       "જલે",
+       "with water (tears)"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "‘आहा रॆ गौराङ्गऽ—बलिऽ पḓऎ भूमितलॆ",
+      "शरीर भिजिल निताइर नयनॆर जलॆ ६"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "‘আহা রে গৌরাঙ্গঽ—বলিঽ পḓএ ভূমিতলে",
+      "শরীর ভিজিল নিতাইর নয়নের জলে ৬"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "‘ଆହା ରେ ଗୌରାଙ୍ଗଽ—ବଲିଽ ପḓଏ ଭୂମିତଲେ",
+      "ଶରୀର ଭିଜିଲ ନିତାଇର ନୟନେର ଜଲେ ୬"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "‘આહા રે ગૌરાઙ્ગઽ—બલિઽ પḓએ ભૂમિતલે",
+      "શરીર ભિજિલ નિતાઇર નયનેર જલે ૬"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "‘āhā re gaurāṅga’—bali’ paḓe bhūmitale",
+      "śarīra bhijila nitāira nayanera jale 6"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "‘ಆಹಾ ರೆ ಗೌರಾಂಗಽ—ಬಲಿಽ ಪḓಎ ಭೂಮಿತಲೆ",
+      "ಶರೀರ ಭಿಜಿಲ ನಿತಾಇರ ನಯನೆರ ಜಲೆ ೬"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "‘ఆహా రె గౌరాంగఽ—బలిఽ పḓఎ భూమితలె",
+      "శరీర భిజిల నితాఇర నయనెర జలె 6"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "‘а̄ха̄ рэ̆ гаура̄н̇га'—бали' паḓэ̆ бхӯмиталэ̆",
+      "ш́арӣра бхиджила нита̄ира найанэ̆ра джалэ̆ 6"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "‘ആഹാ രെ ഗൗരാംഗഽ—ബലിഽ പḓഎ ഭൂമിതലെ",
+      "ശരീര ഭിജില നിതാഇര നയനെര ജലെ 6"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "‘ஆஹா ரெ கௌ³ராங்க³(அ)—ப³லி(அ) பḓஎ பூ⁴மிதலெ",
+      "ஶரீர பி⁴ஜில நிதாஇர நயனெர ஜலெ 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "‘āhā re gaurāṅga’—bali’ paḍe bhūmitale",
+      "śarīra bhijila nitāira nayanera jale 6"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "‘āhā re gaurāṅga’—bali’ paḓe bhūmitale",
+      "śarīra bhijila nitāira nayanera jale 6"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "bṛndābanadāsa mane ei bicārila",
+    "dharaṇī upare kibā sumeru paḓila 7"
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "Within his heart, Vṛndāvana dāsa considers Śrī Nityānanda Prabhu to be like Mount Sumeru falling upon the earth."
+     ]
+    }
+   ],
+   "word_to_words": [
+    {
+     "language_code": "eng",
+     "script_code": "Latn",
+     "words": [
+      [
+       "bṛndābanadāsa",
+       "Vṛndāvana dāsa"
+      ],
+      [
+       "mane",
+       "within heart"
+      ],
+      [
+       "ei",
+       "this"
+      ],
+      [
+       "bicārila",
+       "considered"
+      ],
+      [
+       "dharaṇī",
+       "the earth"
+      ],
+      [
+       "upare",
+       "on top"
+      ],
+      [
+       "kibā",
+       "how"
+      ],
+      [
+       "sumeru",
+       "Mount Sumeru"
+      ],
+      [
+       "paḓila",
+       "fell"
+      ]
+     ],
+     "standard": "IAST"
+    },
+    {
+     "language_code": "hin",
+     "script_code": "Deva",
+     "standard": null,
+     "words": [
+      [
+       "ब्ड़्न्दाबनदास",
+       "Vṛndāvana dāsa"
+      ],
+      [
+       "मनॆ",
+       "within heart"
+      ],
+      [
+       "ऎइ",
+       "this"
+      ],
+      [
+       "बिचारिल",
+       "considered"
+      ],
+      [
+       "धरणी",
+       "the earth"
+      ],
+      [
+       "उपरॆ",
+       "on top"
+      ],
+      [
+       "किबा",
+       "how"
+      ],
+      [
+       "सुमॆरु",
+       "Mount Sumeru"
+      ],
+      [
+       "पḓइल",
+       "fell"
+      ]
+     ]
+    },
+    {
+     "language_code": "ben",
+     "script_code": "Beng",
+     "standard": null,
+     "words": [
+      [
+       "ব্ড়্ন্দাবনদাস",
+       "Vṛndāvana dāsa"
+      ],
+      [
+       "মনে",
+       "within heart"
+      ],
+      [
+       "এই",
+       "this"
+      ],
+      [
+       "বিচারিল",
+       "considered"
+      ],
+      [
+       "ধরণী",
+       "the earth"
+      ],
+      [
+       "উপরে",
+       "on top"
+      ],
+      [
+       "কিবা",
+       "how"
+      ],
+      [
+       "সুমেরু",
+       "Mount Sumeru"
+      ],
+      [
+       "পḓইল",
+       "fell"
+      ]
+     ]
+    },
+    {
+     "language_code": "guj",
+     "script_code": "Gujr",
+     "standard": null,
+     "words": [
+      [
+       "બ્ડ઼્ન્દાબનદાસ",
+       "Vṛndāvana dāsa"
+      ],
+      [
+       "મને",
+       "within heart"
+      ],
+      [
+       "એઇ",
+       "this"
+      ],
+      [
+       "બિચારિલ",
+       "considered"
+      ],
+      [
+       "ધરણી",
+       "the earth"
+      ],
+      [
+       "ઉપરે",
+       "on top"
+      ],
+      [
+       "કિબા",
+       "how"
+      ],
+      [
+       "સુમેરુ",
+       "Mount Sumeru"
+      ],
+      [
+       "પḓઇલ",
+       "fell"
+      ]
+     ]
+    }
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ब्ड़्न्दाबनदास मनॆ ऎइ बिचारिल",
+      "धरणी उपरॆ किबा सुमॆरु पḓइल ७"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ব্ড়্ন্দাবনদাস মনে এই বিচারিল",
+      "ধরণী উপরে কিবা সুমেরু পḓইল ৭"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବ୍ଡ଼୍ନ୍ଦାବନଦାସ ମନେ ଏଇ ବିଚାରିଲ",
+      "ଧରଣୀ ଉପରେ କିବା ସୁମେରୁ ପḓଇଲ ୭"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બ્ડ઼્ન્દાબનદાસ મને એઇ બિચારિલ",
+      "ધરણી ઉપરે કિબા સુમેરુ પḓઇલ ૭"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "bṛndābanadāsa mane ei bicārila",
+      "dharaṇī upare kibā sumeru paḓila 7"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬ್‌ಡ಼್ನ್ದಾಬನದಾಸ ಮನೆ ಎಇ ಬಿಚಾರಿಲ",
+      "ಧರಣೀ ಉಪರೆ ಕಿಬಾ ಸುಮೆರು ಪḓಇಲ ೭"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బ్డ్న్దాబనదాస మనె ఎఇ బిచారిల",
+      "ధరణీ ఉపరె కిబా సుమెరు పḓఇల 7"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "бр̤нда̄банада̄са манэ̆ э̆и бича̄рила",
+      "дхаран̣ӣ упарэ̆ киба̄ сумэ̆ру паḓила 7"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബ്ഡ്ന്ദാബനദാസ മനെ എഇ ബിചാരില",
+      "ധരണീ ഉപരെ കിബാ സുമെരു പḓഇല 7"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்³ஃட்²ந்தா³ப³னதா³ஸ மனெ எஇ பி³சாரில",
+      "த⁴ரணீ உபரெ கிபா³ ஸுமெரு பḓஇல 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "bṛndābanadāsa mane ei bicārila",
+      "dharaṇī upare kibā sumeru paḍila 7"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "bṛndābanadāsa mane ei bicārila",
+      "dharaṇī upare kibā sumeru paḓila 7"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": [],
+ "tags": [
+  "The Wonderful Qualities of Nityānanda Prabhu",
+  "Śrī Nityānanda Prabhu"
+ ]
 }

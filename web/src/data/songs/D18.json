@@ -1,699 +1,607 @@
 {
-  "uid": "D18",
-  "language_of_origin": "ben",
-  "title_main": [
+ "uid": "D18",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "হরি হরি! আর কি এমন দশা হব"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "hari hari! āra ki emana daśā haba"
+  },
+  {
+   "script_code": "Deva",
+   "text": "हरि हरि! आर कि एमन दशा हब"
+  },
+  {
+   "script_code": "Telu",
+   "text": "హరి హరి! ఆర కి ఏమన దశా హబ"
+  },
+  {
+   "script_code": "Knda",
+   "text": "ಹರಿ ಹರಿ! ಆರ ಕಿ ಏಮನ ದಶಾ ಹಬ"
+  },
+  {
+   "script_code": "Taml",
+   "text": "ஹரி ஹரி! ஆர கி ஏமன த³ஶா ஹப³"
+  },
+  {
+   "script_code": "Mlym",
+   "text": "ഹരി ഹരി! ആര കി ഏമന ദശാ ഹബ"
+  },
+  {
+   "script_code": "Gujr",
+   "text": "હરિ હરિ! આર કિ એમન દશા હબ"
+  },
+  {
+   "script_code": "Orya",
+   "text": "ହରି ହରି! ଆର କି ଏମନ ଦଶା ହବ"
+  },
+  {
+   "script_code": "Cyrl",
+   "text": "хари хари! а̄ра ки эмана даш́а̄ хаба"
+  }
+ ],
+ "author_uid": "ndt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Narottama dāsa Ṭhākura"
+  },
+  {
+   "script_code": "Deva",
+   "text": "श्रील नरोत्तम दास ठाकुर"
+  },
+  {
+   "script_code": "Telu",
+   "text": "శ్రీల నరోత్తమ దాస ఠాకుర"
+  },
+  {
+   "script_code": "Knda",
+   "text": "ಶ್ರೀಲ ನರೋತ್ತಮ ದಾಸ ಠಾಕುರ"
+  },
+  {
+   "script_code": "Taml",
+   "text": "ஶ்ரீல நரோத்தம தா³ஸ டா²குர"
+  },
+  {
+   "script_code": "Mlym",
+   "text": "ശ്രീല നരോത്തമ ദാസ ഠാകുര"
+  },
+  {
+   "script_code": "Gujr",
+   "text": "શ્રીલ નરોત્તમ દાસ ઠાકુર"
+  },
+  {
+   "script_code": "Orya",
+   "text": "ଶ୍ରୀଲ ନରୋତ୍ତମ ଦାସ ଠାକୁର"
+  },
+  {
+   "script_code": "Cyrl",
+   "text": "ш́рӣла нароттама да̄са т̣ха̄кура"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "hari hari! āra ki emana daśā haba",
+    "chāḓiyā puruṣadeha,  kabe bā prakṛti haba,",
+    "dũhu aṅge candana parāba 1"
+   ],
+   "display_scripts": [
     {
-      "script_code": "Beng",
-      "text": "হরি হরি! আর কি এমন দশা হব"
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "हरि हरि! आर कि ऎमन दशा हब",
+      "छाḓइया पुरुषदॆह,  कबॆ बा प्रक्ड़्ति हब,",
+      "दुंहु अङ्गॆ चन्दन पराब १"
+     ]
     },
     {
-      "script_code": "Latn",
-      "standard": "IAST",
-      "text": "hari hari! āra ki emana daśā haba"
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "হরি হরি! আর কি এমন দশা হব",
+      "ছাḓইয়া পুরুষদেহ,  কবে বা প্রক্ড়্তি হব,",
+      "দুংহু অঙ্গে চন্দন পরাব ১"
+     ]
     },
     {
-      "script_code": "Deva",
-      "text": "हरि हरि! आर कि एमन दशा हब"
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ହରି ହରି! ଆର କି ଏମନ ଦଶା ହବ",
+      "ଛାḓଇୟା ପୁରୁଷଦେହ,  କବେ ବା ପ୍ରକ୍ଡ଼୍ତି ହବ,",
+      "ଦୁଂହୁ ଅଙ୍ଗେ ଚନ୍ଦନ ପରାବ ୧"
+     ]
     },
     {
-      "script_code": "Telu",
-      "text": "హరి హరి! ఆర కి ఏమన దశా హబ"
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "હરિ હરિ! આર કિ એમન દશા હબ",
+      "છાḓઇયા પુરુષદેહ,  કબે બા પ્રક્ડ઼્તિ હબ,",
+      "દુંહુ અઙ્ગે ચન્દન પરાબ ૧"
+     ]
     },
     {
-      "script_code": "Knda",
-      "text": "ಹರಿ ಹರಿ! ಆರ ಕಿ ಏಮನ ದಶಾ ಹಬ"
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "hari hari! āra ki emana daśā haba",
+      "chāḓiyā puruṣadeha,  kabe bā prakṛti haba,",
+      "dũhu aṅge candana parāba 1"
+     ]
     },
     {
-      "script_code": "Taml",
-      "text": "ஹரி ஹரி! ஆர கி ஏமன த³ஶா ஹப³"
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಹರಿ ಹರಿ! ಆರ ಕಿ ಎಮನ ದಶಾ ಹಬ",
+      "ಛಾḓಇಯಾ ಪುರುಷದೆಹ,  ಕಬೆ ಬಾ ಪ್ರಕ್‌ಡ಼್ತಿ ಹಬ,",
+      "ದುಂಹು ಅಂಗೆ ಚಂದನ ಪರಾಬ ೧"
+     ]
     },
     {
-      "script_code": "Mlym",
-      "text": "ഹരി ഹരി! ആര കി ഏമന ദശാ ഹബ"
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "హరి హరి! ఆర కి ఎమన దశా హబ",
+      "ఛాḓఇయా పురుషదెహ,  కబె బా ప్రక్డ్తి హబ,",
+      "దుంహు అంగె చందన పరాబ 1"
+     ]
     },
     {
-      "script_code": "Gujr",
-      "text": "હરિ હરિ! આર કિ એમન દશા હબ"
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "хари хари! а̄ра ки э̆мана даш́а̄ хаба",
+      "чха̄ḓийа̄ пурушадэ̆ха,  кабэ̆ ба̄ пракр̤ти хаба,",
+      "дум̣ху ан̇гэ̆ чандана пара̄ба 1"
+     ]
     },
     {
-      "script_code": "Orya",
-      "text": "ହରି ହରି! ଆର କି ଏମନ ଦଶା ହବ"
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ഹരി ഹരി! ആര കി എമന ദശാ ഹബ",
+      "ഛാḓഇയാ പുരുഷദെഹ,  കബെ ബാ പ്രക്ഡ്തി ഹബ,",
+      "ദുംഹു അംഗെ ചന്ദന പരാബ 1"
+     ]
     },
     {
-      "script_code": "Cyrl",
-      "text": "хари хари! а̄ра ки эмана даш́а̄ хаба"
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஹரி ஹரி! ஆர கி எமன த³ஶா ஹப³",
+      "சா²ḓஇயா புருஷதெ³ஹ,  கபெ³ பா³ ப்ரக்ஃட்²தி ஹப³,",
+      "து³ம்ʼஹு அங்கெ³ சந்த³ன பராப³ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "hari hari! āra ki emana daśā haba",
+      "chāḍiyā puruṣadeha,  kabe bā prakṛti haba,",
+      "dũhu aṅge candana parāba 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "hari hari! āra ki emana daśā haba",
+      "chāḓiyā puruṣadeha,  kabe bā prakṛti haba,",
+      "dũhu aṅge candana parāba 1"
+     ]
     }
-  ],
-  "author_uid": "ndt",
-  "author_display": [
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "ṭāniyā bā̃dhiba cūḓā,    naba guñjāhāre beḓā,",
+    "nānā phule gā̃thi diba hāra",
+    "pītabasana aṅge,    parāiba sakhī[FLAG_HYPHEN_ALPHA]saṅge,",
+    "badane tāmbūla diba āra 2"
+   ],
+   "display_scripts": [
     {
-      "script_code": "Beng",
-      "text": "শ্রীল নরোত্তম দাস ঠাকুর"
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "टानिया बांधिब चूḓआ,    नब गुञ्जाहारॆ बॆḓआ,",
+      "नाना फुलॆ गांथि दिब हार",
+      "पीतबसन अङ्गॆ,    पराइब सखीसङ्गॆ,",
+      "बदनॆ ताम्बूल दिब आर २"
+     ]
     },
     {
-      "script_code": "Latn",
-      "standard": "IAST",
-      "text": "Śrīla Narottama dāsa Ṭhākura"
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "টানিয়া বান্ধিব চূḓআ,    নব গুঞ্জাহারে বেḓআ,",
+      "নানা ফুলে গান্থি দিব হার",
+      "পীতবসন অঙ্গে,    পরাইব সখীসঙ্গে,",
+      "বদনে তাম্বূল দিব আর ২"
+     ]
     },
     {
-      "script_code": "Deva",
-      "text": "श्रील नरोत्तम दास ठाकुर"
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଟାନିୟା ବାନ୍ଧିବ ଚୂḓଆ,    ନବ ଗୁଞ୍ଜାହାରେ ବେḓଆ,",
+      "ନାନା ଫୁଲେ ଗାନ୍ଥି ଦିବ ହାର",
+      "ପୀତବସନ ଅଙ୍ଗେ,    ପରାଇବ ସଖୀସଙ୍ଗେ,",
+      "ବଦନେ ତାମ୍ବୂଲ ଦିବ ଆର ୨"
+     ]
     },
     {
-      "script_code": "Telu",
-      "text": "శ్రీల నరోత్తమ దాస ఠాకుర"
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ટાનિયા બાંધિબ ચૂḓઆ,    નબ ગુઞ્જાહારે બેḓઆ,",
+      "નાના ફુલે ગાંથિ દિબ હાર",
+      "પીતબસન અઙ્ગે,    પરાઇબ સખીસઙ્ગે,",
+      "બદને તામ્બૂલ દિબ આર ૨"
+     ]
     },
     {
-      "script_code": "Knda",
-      "text": "ಶ್ರೀಲ ನರೋತ್ತಮ ದಾಸ ಠಾಕುರ"
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "ṭāniyā bā̃dhiba cūḓā,    naba guñjāhāre beḓā,",
+      "nānā phule gā̃thi diba hāra",
+      "pītabasana aṅge,    parāiba sakhī-saṅge,",
+      "badane tāmbūla diba āra 2"
+     ]
     },
     {
-      "script_code": "Taml",
-      "text": "ஶ்ரீல நரோத்தம தா³ஸ டா²குர"
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಟಾನಿಯಾ ಬಾಂಧಿಬ ಚೂḓಆ,    ನಬ ಗುಂಜಾಹಾರೆ ಬೆḓಆ,",
+      "ನಾನಾ ಫುಲೆ ಗಾಂಥಿ ದಿಬ ಹಾರ",
+      "ಪೀತಬಸನ ಅಂಗೆ,    ಪರಾಇಬ ಸಖೀಸಂಗೆ,",
+      "ಬದನೆ ತಾಂಬೂಲ ದಿಬ ಆರ ೨"
+     ]
     },
     {
-      "script_code": "Mlym",
-      "text": "ശ്രീല നരോത്തമ ദാസ ഠാകുര"
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "టానియా బాంధిబ చూḓఆ,    నబ గుంజాహారె బెḓఆ,",
+      "నానా ఫులె గాంథి దిబ హార",
+      "పీతబసన అంగె,    పరాఇబ సఖీసంగె,",
+      "బదనె తాంబూల దిబ ఆర 2"
+     ]
     },
     {
-      "script_code": "Gujr",
-      "text": "શ્રીલ નરોત્તમ દાસ ઠાકુર"
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "т̣а̄нийа̄ ба̄м̣дхиба чӯḓа̄,    наба гун̃джа̄ха̄рэ̆ бэ̆ḓа̄,",
+      "на̄на̄ пхулэ̆ га̄м̣тхи диба ха̄ра",
+      "пӣтабасана ан̇гэ̆,    пара̄иба сакхӣсан̇гэ̆,",
+      "баданэ̆ та̄мбӯла диба а̄ра 2"
+     ]
     },
     {
-      "script_code": "Orya",
-      "text": "ଶ୍ରୀଲ ନରୋତ୍ତମ ଦାସ ଠାକୁର"
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ടാനിയാ ബാന്ധിബ ചൂḓആ,    നബ ഗുഞ്ജാഹാരെ ബെḓആ,",
+      "നാനാ ഫുലെ ഗാന്ഥി ദിബ ഹാര",
+      "പീതബസന അംഗെ,    പരാഇബ സഖീസംഗെ,",
+      "ബദനെ താംബൂല ദിബ ആര 2"
+     ]
     },
     {
-      "script_code": "Cyrl",
-      "text": "ш́рӣла нароттама да̄са т̣ха̄кура"
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "டானியா பா³ந்தி⁴ப³ சூḓஆ,    நப³ கு³ஞ்ஜாஹாரெ பெ³ḓஆ,",
+      "நானா பு²லெ கா³ந்தி² தி³ப³ ஹார",
+      "பீதப³ஸன அங்கெ³,    பராஇப³ ஸகீ²ஸங்கெ³,",
+      "ப³த³னெ தாம்பூ³ல தி³ப³ ஆர 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "ṭāniyā bā̃dhiba cūḍā,    naba guñjāhāre beḍā,",
+      "nānā phule gā̃thi diba hāra",
+      "pītabasana aṅge,    parāiba sakhī-saṅge,",
+      "badane tāmbūla diba āra 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "ṭāniyā bā̃dhiba cūḓā,    naba guñjāhāre beḓā,",
+      "nānā phule gā̃thi diba hāra",
+      "pītabasana aṅge,    parāiba sakhī-saṅge,",
+      "badane tāmbūla diba āra 2"
+     ]
     }
-  ],
-  "verses": [
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "dũhu rūpa manohārī,    heriba nayana bhari’,",
+    "nīlāmbare rāi sājāiyā",
+    "nabaratna[FLAG_HYPHEN_ALPHA]jari āni,    bāndhiba bicitra beṇī,",
+    "tāte phula mālatī gā̃thiyā 3"
+   ],
+   "display_scripts": [
     {
-      "verse_number": 1,
-      "source_text_master": [
-        "hari hari! āra ki emana daśā haba",
-        "chāḓiyā puruṣadeha,  kabe bā prakṛti haba,",
-        "dũhu aṅge candana parāba 1"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "हरि हरि! आर कि ऎमन दशा हब",
-            "छाḓइया पुरुषदॆह,  कबॆ बा प्रक्ड़्ति हब,",
-            "दुंहु अङ्गॆ चन्दन पराब १"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "হরি হরি! আর কি এমন দশা হব",
-            "ছাḓইয়া পুরুষদেহ,  কবে বা প্রক্ড়্তি হব,",
-            "দুংহু অঙ্গে চন্দন পরাব ১"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ହରି ହରି! ଆର କି ଏମନ ଦଶା ହବ",
-            "ଛାḓଇୟା ପୁରୁଷଦେହ,  କବେ ବା ପ୍ରକ୍ଡ଼୍ତି ହବ,",
-            "ଦୁଂହୁ ଅଙ୍ଗେ ଚନ୍ଦନ ପରାବ ୧"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "હરિ હરિ! આર કિ એમન દશા હબ",
-            "છાḓઇયા પુરુષદેહ,  કબે બા પ્રક્ડ઼્તિ હબ,",
-            "દુંહુ અઙ્ગે ચન્દન પરાબ ૧"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "hari hari! āra ki emana daśā haba",
-            "chāḓiyā puruṣadeha,  kabe bā prakṛti haba,",
-            "dũhu aṅge candana parāba 1"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಹರಿ ಹರಿ! ಆರ ಕಿ ಎಮನ ದಶಾ ಹಬ",
-            "ಛಾḓಇಯಾ ಪುರುಷದೆಹ,  ಕಬೆ ಬಾ ಪ್ರಕ್‌ಡ಼್ತಿ ಹಬ,",
-            "ದುಂಹು ಅಂಗೆ ಚಂದನ ಪರಾಬ ೧"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "హరి హరి! ఆర కి ఎమన దశా హబ",
-            "ఛాḓఇయా పురుషదెహ,  కబె బా ప్రక్డ్తి హబ,",
-            "దుంహు అంగె చందన పరాబ 1"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "хари хари! а̄ра ки э̆мана даш́а̄ хаба",
-            "чха̄ḓийа̄ пурушадэ̆ха,  кабэ̆ ба̄ пракр̤ти хаба,",
-            "дум̣ху ан̇гэ̆ чандана пара̄ба 1"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ഹരി ഹരി! ആര കി എമന ദശാ ഹബ",
-            "ഛാḓഇയാ പുരുഷദെഹ,  കബെ ബാ പ്രക്ഡ്തി ഹബ,",
-            "ദുംഹു അംഗെ ചന്ദന പരാബ 1"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "ஹரி ஹரி! ஆர கி எமன த³ஶா ஹப³",
-            "சா²ḓஇயா புருஷதெ³ஹ,  கபெ³ பா³ ப்ரக்ஃட்²தி ஹப³,",
-            "து³ம்ʼஹு அங்கெ³ சந்த³ன பராப³ 1"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "hari hari! āra ki emana daśā haba",
-            "chāḍiyā puruṣadeha,  kabe bā prakṛti haba,",
-            "dũhu aṅge candana parāba 1"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "hari hari! āra ki emana daśā haba",
-            "chāḓiyā puruṣadeha,  kabe bā prakṛti haba,",
-            "dũhu aṅge candana parāba 1"
-          ]
-        }
-      ]
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "दुंहु रूप मनॊहारी,    हॆरिब नयन भरिऽ,",
+      "नीलाम्बरॆ राइ साजाइया",
+      "नबरत्नजरि आनि,    बान्धिब बिचित्र बॆणी,",
+      "तातॆ फुल मालती गांथिया ३"
+     ]
     },
     {
-      "verse_number": 2,
-      "source_text_master": [
-        "ṭāniyā bā̃dhiba cūḓā,    naba guñjāhāre beḓā,",
-        "nānā phule gā̃thi diba hāra",
-        "pītabasana aṅge,    parāiba sakhī[FLAG_HYPHEN_ALPHA]saṅge,",
-        "badane tāmbūla diba āra 2"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "टानिया बांधिब चूḓआ,    नब गुञ्जाहारॆ बॆḓआ,",
-            "नाना फुलॆ गांथि दिब हार",
-            "पीतबसन अङ्गॆ,    पराइब सखीसङ्गॆ,",
-            "बदनॆ ताम्बूल दिब आर २"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "টানিয়া বান্ধিব চূḓআ,    নব গুঞ্জাহারে বেḓআ,",
-            "নানা ফুলে গান্থি দিব হার",
-            "পীতবসন অঙ্গে,    পরাইব সখীসঙ্গে,",
-            "বদনে তাম্বূল দিব আর ২"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ଟାନିୟା ବାନ୍ଧିବ ଚୂḓଆ,    ନବ ଗୁଞ୍ଜାହାରେ ବେḓଆ,",
-            "ନାନା ଫୁଲେ ଗାନ୍ଥି ଦିବ ହାର",
-            "ପୀତବସନ ଅଙ୍ଗେ,    ପରାଇବ ସଖୀସଙ୍ଗେ,",
-            "ବଦନେ ତାମ୍ବୂଲ ଦିବ ଆର ୨"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "ટાનિયા બાંધિબ ચૂḓઆ,    નબ ગુઞ્જાહારે બેḓઆ,",
-            "નાના ફુલે ગાંથિ દિબ હાર",
-            "પીતબસન અઙ્ગે,    પરાઇબ સખીસઙ્ગે,",
-            "બદને તામ્બૂલ દિબ આર ૨"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "ṭāniyā bā̃dhiba cūḓā,    naba guñjāhāre beḓā,",
-            "nānā phule gā̃thi diba hāra",
-            "pītabasana aṅge,    parāiba sakhī-saṅge,",
-            "badane tāmbūla diba āra 2"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಟಾನಿಯಾ ಬಾಂಧಿಬ ಚೂḓಆ,    ನಬ ಗುಂಜಾಹಾರೆ ಬೆḓಆ,",
-            "ನಾನಾ ಫುಲೆ ಗಾಂಥಿ ದಿಬ ಹಾರ",
-            "ಪೀತಬಸನ ಅಂಗೆ,    ಪರಾಇಬ ಸಖೀಸಂಗೆ,",
-            "ಬದನೆ ತಾಂಬೂಲ ದಿಬ ಆರ ೨"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "టానియా బాంధిబ చూḓఆ,    నబ గుంజాహారె బెḓఆ,",
-            "నానా ఫులె గాంథి దిబ హార",
-            "పీతబసన అంగె,    పరాఇబ సఖీసంగె,",
-            "బదనె తాంబూల దిబ ఆర 2"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "т̣а̄нийа̄ ба̄м̣дхиба чӯḓа̄,    наба гун̃джа̄ха̄рэ̆ бэ̆ḓа̄,",
-            "на̄на̄ пхулэ̆ га̄м̣тхи диба ха̄ра",
-            "пӣтабасана ан̇гэ̆,    пара̄иба сакхӣсан̇гэ̆,",
-            "баданэ̆ та̄мбӯла диба а̄ра 2"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ടാനിയാ ബാന്ധിബ ചൂḓആ,    നബ ഗുഞ്ജാഹാരെ ബെḓആ,",
-            "നാനാ ഫുലെ ഗാന്ഥി ദിബ ഹാര",
-            "പീതബസന അംഗെ,    പരാഇബ സഖീസംഗെ,",
-            "ബദനെ താംബൂല ദിബ ആര 2"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "டானியா பா³ந்தி⁴ப³ சூḓஆ,    நப³ கு³ஞ்ஜாஹாரெ பெ³ḓஆ,",
-            "நானா பு²லெ கா³ந்தி² தி³ப³ ஹார",
-            "பீதப³ஸன அங்கெ³,    பராஇப³ ஸகீ²ஸங்கெ³,",
-            "ப³த³னெ தாம்பூ³ல தி³ப³ ஆர 2"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "ṭāniyā bā̃dhiba cūḍā,    naba guñjāhāre beḍā,",
-            "nānā phule gā̃thi diba hāra",
-            "pītabasana aṅge,    parāiba sakhī-saṅge,",
-            "badane tāmbūla diba āra 2"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "ṭāniyā bā̃dhiba cūḓā,    naba guñjāhāre beḓā,",
-            "nānā phule gā̃thi diba hāra",
-            "pītabasana aṅge,    parāiba sakhī-saṅge,",
-            "badane tāmbūla diba āra 2"
-          ]
-        }
-      ]
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "দুংহু রূপ মনোহারী,    হেরিব নয়ন ভরিঽ,",
+      "নীলাম্বরে রাই সাজাইয়া",
+      "নবরত্নজরি আনি,    বান্ধিব বিচিত্র বেণী,",
+      "তাতে ফুল মালতী গান্থিয়া ৩"
+     ]
     },
     {
-      "verse_number": 3,
-      "source_text_master": [
-        "dũhu rūpa manohārī,    heriba nayana bhari’,",
-        "nīlāmbare rāi sājāiyā",
-        "nabaratna[FLAG_HYPHEN_ALPHA]jari āni,    bāndhiba bicitra beṇī,",
-        "tāte phula mālatī gā̃thiyā 3"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "दुंहु रूप मनॊहारी,    हॆरिब नयन भरिऽ,",
-            "नीलाम्बरॆ राइ साजाइया",
-            "नबरत्नजरि आनि,    बान्धिब बिचित्र बॆणी,",
-            "तातॆ फुल मालती गांथिया ३"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "দুংহু রূপ মনোহারী,    হেরিব নয়ন ভরিঽ,",
-            "নীলাম্বরে রাই সাজাইয়া",
-            "নবরত্নজরি আনি,    বান্ধিব বিচিত্র বেণী,",
-            "তাতে ফুল মালতী গান্থিয়া ৩"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ଦୁଂହୁ ରୂପ ମନୋହାରୀ,    ହେରିବ ନୟନ ଭରିଽ,",
-            "ନୀଲାମ୍ବରେ ରାଇ ସାଜାଇୟା",
-            "ନବରତ୍ନଜରି ଆନି,    ବାନ୍ଧିବ ବିଚିତ୍ର ବେଣୀ,",
-            "ତାତେ ଫୁଲ ମାଲତୀ ଗାନ୍ଥିୟା ୩"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "દુંહુ રૂપ મનોહારી,    હેરિબ નયન ભરિઽ,",
-            "નીલામ્બરે રાઇ સાજાઇયા",
-            "નબરત્નજરિ આનિ,    બાન્ધિબ બિચિત્ર બેણી,",
-            "તાતે ફુલ માલતી ગાંથિયા ૩"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "dũhu rūpa manohārī,    heriba nayana bhari’,",
-            "nīlāmbare rāi sājāiyā",
-            "nabaratna-jari āni,    bāndhiba bicitra beṇī,",
-            "tāte phula mālatī gā̃thiyā 3"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ದುಂಹು ರೂಪ ಮನೊಹಾರೀ,    ಹೆರಿಬ ನಯನ ಭರಿಽ,",
-            "ನೀಲಾಂಬರೆ ರಾಇ ಸಾಜಾಇಯಾ",
-            "ನಬರತ್ನಜರಿ ಆನಿ,    ಬಾಂಧಿಬ ಬಿಚಿತ್ರ ಬೆಣೀ,",
-            "ತಾತೆ ಫುಲ ಮಾಲತೀ ಗಾಂಥಿಯಾ ೩"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "దుంహు రూప మనొహారీ,    హెరిబ నయన భరిఽ,",
-            "నీలాంబరె రాఇ సాజాఇయా",
-            "నబరత్నజరి ఆని,    బాంధిబ బిచిత్ర బెణీ,",
-            "తాతె ఫుల మాలతీ గాంథియా 3"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "дум̣ху рӯпа мано̆ха̄рӣ,    хэ̆риба найана бхари',",
-            "нӣла̄мбарэ̆ ра̄и са̄джа̄ийа̄",
-            "набаратнаджари а̄ни,    ба̄ндхиба бичитра бэ̆н̣ӣ,",
-            "та̄тэ̆ пхула ма̄латӣ га̄м̣тхийа̄ 3"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ദുംഹു രൂപ മനൊഹാരീ,    ഹെരിബ നയന ഭരിഽ,",
-            "നീലാംബരെ രാഇ സാജാഇയാ",
-            "നബരത്നജരി ആനി,    ബാന്ധിബ ബിചിത്ര ബെണീ,",
-            "താതെ ഫുല മാലതീ ഗാന്ഥിയാ 3"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "து³ம்ʼஹு ரூப மனொஹாரீ,    ஹெரிப³ நயன ப⁴ரி(அ),",
-            "நீலாம்ப³ரெ ராஇ ஸாஜாஇயா",
-            "நப³ரத்னஜரி ஆனி,    பா³ந்தி⁴ப³ பி³சித்ர பெ³ணீ,",
-            "தாதெ பு²ல மாலதீ கா³ந்தி²யா 3"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "dũhu rūpa manohārī,    heriba nayana bhari’,",
-            "nīlāmbare rāi sājāiyā",
-            "nabaratna-jari āni,    bāndhiba bicitra beṇī,",
-            "tāte phula mālatī gā̃thiyā 3"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "dũhu rūpa manohārī,    heriba nayana bhari’,",
-            "nīlāmbare rāi sājāiyā",
-            "nabaratna-jari āni,    bāndhiba bicitra beṇī,",
-            "tāte phula mālatī gā̃thiyā 3"
-          ]
-        }
-      ]
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଦୁଂହୁ ରୂପ ମନୋହାରୀ,    ହେରିବ ନୟନ ଭରିଽ,",
+      "ନୀଲାମ୍ବରେ ରାଇ ସାଜାଇୟା",
+      "ନବରତ୍ନଜରି ଆନି,    ବାନ୍ଧିବ ବିଚିତ୍ର ବେଣୀ,",
+      "ତାତେ ଫୁଲ ମାଲତୀ ଗାନ୍ଥିୟା ୩"
+     ]
     },
     {
-      "verse_number": 4,
-      "source_text_master": [
-        "sei rūpamādhurī,    dekhiba nayana bhari’,",
-        "ei kari mane abhilāṣa",
-        "jaya rūpa sanātana,    deha more ei dhana,",
-        "nibedaye narottamadāsa 4"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "सॆइ रूपमाधुरी,    दॆखिब नयन भरिऽ,",
-            "ऎइ करि मनॆ अभिलाष",
-            "जय रूप सनातन,    दॆह मॊरॆ ऎइ धन,",
-            "निबॆदयॆ नरॊत्तमदास ४"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "সেই রূপমাধুরী,    দেখিব নয়ন ভরিঽ,",
-            "এই করি মনে অভিলাষ",
-            "জয় রূপ সনাতন,    দেহ মোরে এই ধন,",
-            "নিবেদয়ে নরোত্তমদাস ৪"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ସେଇ ରୂପମାଧୁରୀ,    ଦେଖିବ ନୟନ ଭରିଽ,",
-            "ଏଇ କରି ମନେ ଅଭିଲାଷ",
-            "ଜୟ ରୂପ ସନାତନ,    ଦେହ ମୋରେ ଏଇ ଧନ,",
-            "ନିବେଦୟେ ନରୋତ୍ତମଦାସ ୪"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "સેઇ રૂપમાધુરી,    દેખિબ નયન ભરિઽ,",
-            "એઇ કરિ મને અભિલાષ",
-            "જય રૂપ સનાતન,    દેહ મોરે એઇ ધન,",
-            "નિબેદયે નરોત્તમદાસ ૪"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "sei rūpamādhurī,    dekhiba nayana bhari’,",
-            "ei kari mane abhilāṣa",
-            "jaya rūpa sanātana,    deha more ei dhana,",
-            "nibedaye narottamadāsa 4"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಸೆಇ ರೂಪಮಾಧುರೀ,    ದೆಖಿಬ ನಯನ ಭರಿಽ,",
-            "ಎಇ ಕರಿ ಮನೆ ಅಭಿಲಾಷ",
-            "ಜಯ ರೂಪ ಸನಾತನ,    ದೆಹ ಮೊರೆ ಎಇ ಧನ,",
-            "ನಿಬೆದಯೆ ನರೊತ್ತಮದಾಸ ೪"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "సెఇ రూపమాధురీ,    దెఖిబ నయన భరిఽ,",
-            "ఎఇ కరి మనె అభిలాష",
-            "జయ రూప సనాతన,    దెహ మొరె ఎఇ ధన,",
-            "నిబెదయె నరొత్తమదాస 4"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "сэ̆и рӯпама̄дхурӣ,    дэ̆кхиба найана бхари',",
-            "э̆и кари манэ̆ абхила̄ша",
-            "джайа рӯпа сана̄тана,    дэ̆ха мо̆рэ̆ э̆и дхана,",
-            "нибэ̆дайэ̆ наро̆ттамада̄са 4"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "സെഇ രൂപമാധുരീ,    ദെഖിബ നയന ഭരിഽ,",
-            "എഇ കരി മനെ അഭിലാഷ",
-            "ജയ രൂപ സനാതന,    ദെഹ മൊരെ എഇ ധന,",
-            "നിബെദയെ നരൊത്തമദാസ 4"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "ஸெஇ ரூபமாது⁴ரீ,    தெ³கி²ப³ நயன ப⁴ரி(அ),",
-            "எஇ கரி மனெ அபி⁴லாஷ",
-            "ஜய ரூப ஸனாதன,    தெ³ஹ மொரெ எஇ த⁴ன,",
-            "நிபெ³த³யெ நரொத்தமதா³ஸ 4"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "sei rūpamādhurī,    dekhiba nayana bhari’,",
-            "ei kari mane abhilāṣa",
-            "jaya rūpa sanātana,    deha more ei dhana,",
-            "nibedaye narottamadāsa 4"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "sei rūpamādhurī,    dekhiba nayana bhari’,",
-            "ei kari mane abhilāṣa",
-            "jaya rūpa sanātana,    deha more ei dhana,",
-            "nibedaye narottamadāsa 4"
-          ]
-        }
-      ]
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "દુંહુ રૂપ મનોહારી,    હેરિબ નયન ભરિઽ,",
+      "નીલામ્બરે રાઇ સાજાઇયા",
+      "નબરત્નજરિ આનિ,    બાન્ધિબ બિચિત્ર બેણી,",
+      "તાતે ફુલ માલતી ગાંથિયા ૩"
+     ]
     },
     {
-      "verse_number": 5,
-      "source_text_master": [
-        ""
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            ""
-          ]
-        }
-      ]
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "dũhu rūpa manohārī,    heriba nayana bhari’,",
+      "nīlāmbare rāi sājāiyā",
+      "nabaratna-jari āni,    bāndhiba bicitra beṇī,",
+      "tāte phula mālatī gā̃thiyā 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ದುಂಹು ರೂಪ ಮನೊಹಾರೀ,    ಹೆರಿಬ ನಯನ ಭರಿಽ,",
+      "ನೀಲಾಂಬರೆ ರಾಇ ಸಾಜಾಇಯಾ",
+      "ನಬರತ್ನಜರಿ ಆನಿ,    ಬಾಂಧಿಬ ಬಿಚಿತ್ರ ಬೆಣೀ,",
+      "ತಾತೆ ಫುಲ ಮಾಲತೀ ಗಾಂಥಿಯಾ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "దుంహు రూప మనొహారీ,    హెరిబ నయన భరిఽ,",
+      "నీలాంబరె రాఇ సాజాఇయా",
+      "నబరత్నజరి ఆని,    బాంధిబ బిచిత్ర బెణీ,",
+      "తాతె ఫుల మాలతీ గాంథియా 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "дум̣ху рӯпа мано̆ха̄рӣ,    хэ̆риба найана бхари',",
+      "нӣла̄мбарэ̆ ра̄и са̄джа̄ийа̄",
+      "набаратнаджари а̄ни,    ба̄ндхиба бичитра бэ̆н̣ӣ,",
+      "та̄тэ̆ пхула ма̄латӣ га̄м̣тхийа̄ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ദുംഹു രൂപ മനൊഹാരീ,    ഹെരിബ നയന ഭരിഽ,",
+      "നീലാംബരെ രാഇ സാജാഇയാ",
+      "നബരത്നജരി ആനി,    ബാന്ധിബ ബിചിത്ര ബെണീ,",
+      "താതെ ഫുല മാലതീ ഗാന്ഥിയാ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "து³ம்ʼஹு ரூப மனொஹாரீ,    ஹெரிப³ நயன ப⁴ரி(அ),",
+      "நீலாம்ப³ரெ ராஇ ஸாஜாஇயா",
+      "நப³ரத்னஜரி ஆனி,    பா³ந்தி⁴ப³ பி³சித்ர பெ³ணீ,",
+      "தாதெ பு²ல மாலதீ கா³ந்தி²யா 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "dũhu rūpa manohārī,    heriba nayana bhari’,",
+      "nīlāmbare rāi sājāiyā",
+      "nabaratna-jari āni,    bāndhiba bicitra beṇī,",
+      "tāte phula mālatī gā̃thiyā 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "dũhu rūpa manohārī,    heriba nayana bhari’,",
+      "nīlāmbare rāi sājāiyā",
+      "nabaratna-jari āni,    bāndhiba bicitra beṇī,",
+      "tāte phula mālatī gā̃thiyā 3"
+     ]
     }
-  ],
-  "notes": [],
-  "audio_available": false,
-  "audio_files": []
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "sei rūpamādhurī,    dekhiba nayana bhari’,",
+    "ei kari mane abhilāṣa",
+    "jaya rūpa sanātana,    deha more ei dhana,",
+    "nibedaye narottamadāsa 4"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "सॆइ रूपमाधुरी,    दॆखिब नयन भरिऽ,",
+      "ऎइ करि मनॆ अभिलाष",
+      "जय रूप सनातन,    दॆह मॊरॆ ऎइ धन,",
+      "निबॆदयॆ नरॊत्तमदास ४"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "সেই রূপমাধুরী,    দেখিব নয়ন ভরিঽ,",
+      "এই করি মনে অভিলাষ",
+      "জয় রূপ সনাতন,    দেহ মোরে এই ধন,",
+      "নিবেদয়ে নরোত্তমদাস ৪"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ସେଇ ରୂପମାଧୁରୀ,    ଦେଖିବ ନୟନ ଭରିଽ,",
+      "ଏଇ କରି ମନେ ଅଭିଲାଷ",
+      "ଜୟ ରୂପ ସନାତନ,    ଦେହ ମୋରେ ଏଇ ଧନ,",
+      "ନିବେଦୟେ ନରୋତ୍ତମଦାସ ୪"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "સેઇ રૂપમાધુરી,    દેખિબ નયન ભરિઽ,",
+      "એઇ કરિ મને અભિલાષ",
+      "જય રૂપ સનાતન,    દેહ મોરે એઇ ધન,",
+      "નિબેદયે નરોત્તમદાસ ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "sei rūpamādhurī,    dekhiba nayana bhari’,",
+      "ei kari mane abhilāṣa",
+      "jaya rūpa sanātana,    deha more ei dhana,",
+      "nibedaye narottamadāsa 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಸೆಇ ರೂಪಮಾಧುರೀ,    ದೆಖಿಬ ನಯನ ಭರಿಽ,",
+      "ಎಇ ಕರಿ ಮನೆ ಅಭಿಲಾಷ",
+      "ಜಯ ರೂಪ ಸನಾತನ,    ದೆಹ ಮೊರೆ ಎಇ ಧನ,",
+      "ನಿಬೆದಯೆ ನರೊತ್ತಮದಾಸ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "సెఇ రూపమాధురీ,    దెఖిబ నయన భరిఽ,",
+      "ఎఇ కరి మనె అభిలాష",
+      "జయ రూప సనాతన,    దెహ మొరె ఎఇ ధన,",
+      "నిబెదయె నరొత్తమదాస 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "сэ̆и рӯпама̄дхурӣ,    дэ̆кхиба найана бхари',",
+      "э̆и кари манэ̆ абхила̄ша",
+      "джайа рӯпа сана̄тана,    дэ̆ха мо̆рэ̆ э̆и дхана,",
+      "нибэ̆дайэ̆ наро̆ттамада̄са 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "സെഇ രൂപമാധുരീ,    ദെഖിബ നയന ഭരിഽ,",
+      "എഇ കരി മനെ അഭിലാഷ",
+      "ജയ രൂപ സനാതന,    ദെഹ മൊരെ എഇ ധന,",
+      "നിബെദയെ നരൊത്തമദാസ 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஸெஇ ரூபமாது⁴ரீ,    தெ³கி²ப³ நயன ப⁴ரி(அ),",
+      "எஇ கரி மனெ அபி⁴லாஷ",
+      "ஜய ரூப ஸனாதன,    தெ³ஹ மொரெ எஇ த⁴ன,",
+      "நிபெ³த³யெ நரொத்தமதா³ஸ 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "sei rūpamādhurī,    dekhiba nayana bhari’,",
+      "ei kari mane abhilāṣa",
+      "jaya rūpa sanātana,    deha more ei dhana,",
+      "nibedaye narottamadāsa 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "sei rūpamādhurī,    dekhiba nayana bhari’,",
+      "ei kari mane abhilāṣa",
+      "jaya rūpa sanātana,    deha more ei dhana,",
+      "nibedaye narottamadāsa 4"
+     ]
+    }
+   ]
+  }
+ ],
+ "notes": [],
+ "audio_available": false,
+ "audio_files": []
 }

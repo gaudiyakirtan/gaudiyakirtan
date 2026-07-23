@@ -32,14 +32,6 @@
     "kalita[FLAG_HYPHEN_ALPHA]lalita vanamāla",
     "jaya jaya deva hare dhru"
    ],
-   "translations": [
-    {
-     "language_code": "eng",
-     "text": [
-      "O You who take shelter of the round breasts of Kamala, O You whose ears are decorated with earrings and who wears an enchanting garland of forest flowers, O Deva, O Hari, may You be triumphant!"
-     ]
-    }
-   ],
    "display_scripts": [
     {
      "script_code": "Deva",
@@ -149,15 +141,119 @@
       "jaya jaya deva hare dhru"
      ]
     }
+   ],
+   "translations": [
+    {
+     "language_code": "eng",
+     "text": [
+      "O You who take shelter of the round breasts of Kamala, O You whose ears are decorated with earrings and who wears an enchanting garland of forest flowers, O Deva, O Hari, may You be triumphant!"
+     ]
+    }
    ]
   },
   {
    "verse_number": 2,
    "source_text_master": [
     "dinamaṇimaṇḍala[FLAG_HYPHEN_ALPHA]maṇḍana,    bhava[FLAG_HYPHEN_ALPHA]khaṇḍana,",
-    "munijana[FLAG_HYPHEN_ALPHA]mānasa[FLAG_HYPHEN_ALPHA]haṁsa",
-    "kāliya[FLAG_HYPHEN_ALPHA]viṣadhara[FLAG_HYPHEN_ALPHA]gañjana,    jana[FLAG_HYPHEN_ALPHA]rañjana,",
-    "yadukula[FLAG_HYPHEN_ALPHA]nalina[FLAG_HYPHEN_ALPHA]dīneśa"
+    "munijana[FLAG_HYPHEN_ALPHA]mānasa[FLAG_HYPHEN_ALPHA]haṁsa"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "दिनमणिमण्डलमण्डन,    भवखण्डन,",
+      "मुनिजनमानसहंस"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "দিনমণিমণ্ডলমণ্ডন,    ভবখণ্ডন,",
+      "মুনিজনমানসহংস"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଦିନମଣିମଣ୍ଡଲମଣ୍ଡନ,    ଭବଖଣ୍ଡନ,",
+      "ମୁନିଜନମାନସହଂସ"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "દિનમણિમણ્ડલમણ્ડન,    ભવખણ્ડન,",
+      "મુનિજનમાનસહંસ"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "dinamaṇimaṇḍala-maṇḍana,    bhava-khaṇḍana,",
+      "munijana-mānasa-haṁsa"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ದಿನಮಣಿಮಂಡಲಮಂಡನ,    ಭವಖಂಡನ,",
+      "ಮುನಿಜನಮಾನಸಹಂಸ"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "దినమణిమండలమండన,    భవఖండన,",
+      "మునిజనమానసహంస"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "динаман̣иман̣д̣аламан̣д̣ана,    бхавакхан̣д̣ана,",
+      "муниджанама̄насахам̣са"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ദിനമണിമണ്ഡലമണ്ഡന,    ഭവഖണ്ഡന,",
+      "മുനിജനമാനസഹംസ"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தி³னமணிமண்ட³லமண்ட³ன,    ப⁴வக²ண்ட³ன,",
+      "முநிஜனமானஸஹம்ʼஸ"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "dinamaṇimaṇḍala-maṇḍana,    bhava-khaṇḍana,",
+      "munijana-mānasa-haṁsa"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "dinamaṇimaṇḍala-maṇḍana,    bhava-khaṇḍana,",
+      "munijana-mānasa-haṁsa"
+     ]
+    }
    ],
    "translations": [
     {
@@ -166,14 +262,19 @@
       "O ornament of the sun globe, O You who severs the bondage of material existence, O swan who sports in the [lake of the] sages’ minds, O Deva, O Hari, may You be triumphant!"
      ]
     }
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "kāliya[FLAG_HYPHEN_ALPHA]viṣadhara[FLAG_HYPHEN_ALPHA]gañjana,    jana[FLAG_HYPHEN_ALPHA]rañjana,",
+    "yadukula[FLAG_HYPHEN_ALPHA]nalina[FLAG_HYPHEN_ALPHA]dīneśa"
    ],
    "display_scripts": [
     {
      "script_code": "Deva",
      "standard": null,
      "text": [
-      "दिनमणिमण्डलमण्डन,    भवखण्डन,",
-      "मुनिजनमानसहंस",
       "कालियविषधरगञ्जन,    जनरञ्जन,",
       "यदुकुलनलिनदीनॆश"
      ]
@@ -182,8 +283,6 @@
      "script_code": "Beng",
      "standard": null,
      "text": [
-      "দিনমণিমণ্ডলমণ্ডন,    ভবখণ্ডন,",
-      "মুনিজনমানসহংস",
       "কালিয়বিষধরগঞ্জন,    জনরঞ্জন,",
       "যদুকুলনলিনদীনেশ"
      ]
@@ -192,8 +291,6 @@
      "script_code": "Orya",
      "standard": null,
      "text": [
-      "ଦିନମଣିମଣ୍ଡଲମଣ୍ଡନ,    ଭବଖଣ୍ଡନ,",
-      "ମୁନିଜନମାନସହଂସ",
       "କାଲିୟବିଷଧରଗଞ୍ଜନ,    ଜନରଞ୍ଜନ,",
       "ଯଦୁକୁଲନଲିନଦୀନେଶ"
      ]
@@ -202,8 +299,6 @@
      "script_code": "Gujr",
      "standard": null,
      "text": [
-      "દિનમણિમણ્ડલમણ્ડન,    ભવખણ્ડન,",
-      "મુનિજનમાનસહંસ",
       "કાલિયવિષધરગઞ્જન,    જનરઞ્જન,",
       "યદુકુલનલિનદીનેશ"
      ]
@@ -212,8 +307,6 @@
      "script_code": "Latn",
      "standard": "IAST",
      "text": [
-      "dinamaṇimaṇḍala-maṇḍana,    bhava-khaṇḍana,",
-      "munijana-mānasa-haṁsa",
       "kāliya-viṣadhara-gañjana,    jana-rañjana,",
       "yadukula-nalina-dīneśa"
      ]
@@ -222,8 +315,6 @@
      "script_code": "Knda",
      "standard": null,
      "text": [
-      "ದಿನಮಣಿಮಂಡಲಮಂಡನ,    ಭವಖಂಡನ,",
-      "ಮುನಿಜನಮಾನಸಹಂಸ",
       "ಕಾಲಿಯವಿಷಧರಗಂಜನ,    ಜನರಂಜನ,",
       "ಯದುಕುಲನಲಿನದೀನೆಶ"
      ]
@@ -232,8 +323,6 @@
      "script_code": "Telu",
      "standard": null,
      "text": [
-      "దినమణిమండలమండన,    భవఖండన,",
-      "మునిజనమానసహంస",
       "కాలియవిషధరగంజన,    జనరంజన,",
       "యదుకులనలినదీనెశ"
      ]
@@ -242,8 +331,6 @@
      "script_code": "Cyrl",
      "standard": null,
      "text": [
-      "динаман̣иман̣д̣аламан̣д̣ана,    бхавакхан̣д̣ана,",
-      "муниджанама̄насахам̣са",
       "ка̄лийавишадхараган̃джана,    джанаран̃джана,",
       "йадукуланалинадӣнэ̆ш́а"
      ]
@@ -252,8 +339,6 @@
      "script_code": "Mlym",
      "standard": null,
      "text": [
-      "ദിനമണിമണ്ഡലമണ്ഡന,    ഭവഖണ്ഡന,",
-      "മുനിജനമാനസഹംസ",
       "കാലിയവിഷധരഗഞ്ജന,    ജനരഞ്ജന,",
       "യദുകുലനലിനദീനെശ"
      ]
@@ -262,8 +347,6 @@
      "script_code": "Taml",
      "standard": null,
      "text": [
-      "தி³னமணிமண்ட³லமண்ட³ன,    ப⁴வக²ண்ட³ன,",
-      "முநிஜனமானஸஹம்ʼஸ",
       "காலியவிஷத⁴ரக³ஞ்ஜன,    ஜனரஞ்ஜன,",
       "யது³குலனலிநதீ³னெஶ"
      ]
@@ -272,8 +355,6 @@
      "script_code": "Latn",
      "standard": "BBT_Roman",
      "text": [
-      "dinamaṇimaṇḍala-maṇḍana,    bhava-khaṇḍana,",
-      "munijana-mānasa-haṁsa",
       "kāliya-viṣadhara-gañjana,    jana-rañjana,",
       "yadukula-nalina-dīneśa"
      ]
@@ -282,21 +363,10 @@
      "script_code": "Latn",
      "standard": "GVP_Roman",
      "text": [
-      "dinamaṇimaṇḍala-maṇḍana,    bhava-khaṇḍana,",
-      "munijana-mānasa-haṁsa",
       "kāliya-viṣadhara-gañjana,    jana-rañjana,",
       "yadukula-nalina-dīneśa"
      ]
     }
-   ]
-  },
-  {
-   "verse_number": 3,
-   "source_text_master": [
-    "madhu[FLAG_HYPHEN_ALPHA]mura[FLAG_HYPHEN_ALPHA]naraka[FLAG_HYPHEN_ALPHA]vināśana,    garuḓāsana,",
-    "surakula[FLAG_HYPHEN_ALPHA]kelinidāna",
-    "amala[FLAG_HYPHEN_ALPHA]kamaladala[FLAG_HYPHEN_ALPHA]locana,    bhava[FLAG_HYPHEN_ALPHA]mocana,",
-    "tribhuvana[FLAG_HYPHEN_ALPHA]bhavana[FLAG_HYPHEN_ALPHA]nidhāna"
    ],
    "translations": [
     {
@@ -305,6 +375,13 @@
       "O You who pulverize the pride of the venomous snake Kāliya, O You who delight the people [of Vraja], O sun that makes the lotus of the Yadu dynasty bloom, O Deva, O Hari, may You be triumphant!"
      ]
     }
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "madhu[FLAG_HYPHEN_ALPHA]mura[FLAG_HYPHEN_ALPHA]naraka[FLAG_HYPHEN_ALPHA]vināśana,    garuḓāsana,",
+    "surakula[FLAG_HYPHEN_ALPHA]kelinidāna"
    ],
    "display_scripts": [
     {
@@ -312,9 +389,7 @@
      "standard": null,
      "text": [
       "मधुमुरनरकविनाशन,    गरुḓआसन,",
-      "सुरकुलकॆलिनिदान",
-      "अमलकमलदललॊचन,    भवमॊचन,",
-      "त्रिभुवनभवननिधान"
+      "सुरकुलकॆलिनिदान"
      ]
     },
     {
@@ -322,9 +397,7 @@
      "standard": null,
      "text": [
       "মধুমুরনরকবিনাশন,    গরুḓআসন,",
-      "সুরকুলকেলিনিদান",
-      "অমলকমলদললোচন,    ভবমোচন,",
-      "ত্রিভুবনভবননিধান"
+      "সুরকুলকেলিনিদান"
      ]
     },
     {
@@ -332,9 +405,7 @@
      "standard": null,
      "text": [
       "ମଧୁମୁରନରକବିନାଶନ,    ଗରୁḓଆସନ,",
-      "ସୁରକୁଲକେଲିନିଦାନ",
-      "ଅମଲକମଲଦଲଲୋଚନ,    ଭବମୋଚନ,",
-      "ତ୍ରିଭୁବନଭବନନିଧାନ"
+      "ସୁରକୁଲକେଲିନିଦାନ"
      ]
     },
     {
@@ -342,9 +413,7 @@
      "standard": null,
      "text": [
       "મધુમુરનરકવિનાશન,    ગરુḓઆસન,",
-      "સુરકુલકેલિનિદાન",
-      "અમલકમલદલલોચન,    ભવમોચન,",
-      "ત્રિભુવનભવનનિધાન"
+      "સુરકુલકેલિનિદાન"
      ]
     },
     {
@@ -352,9 +421,7 @@
      "standard": "IAST",
      "text": [
       "madhu-mura-naraka-vināśana,    garuḓāsana,",
-      "surakula-kelinidāna",
-      "amala-kamaladala-locana,    bhava-mocana,",
-      "tribhuvana-bhavana-nidhāna"
+      "surakula-kelinidāna"
      ]
     },
     {
@@ -362,9 +429,7 @@
      "standard": null,
      "text": [
       "ಮಧುಮುರನರಕವಿನಾಶನ,    ಗರುḓಆಸನ,",
-      "ಸುರಕುಲಕೆಲಿನಿದಾನ",
-      "ಅಮಲಕಮಲದಲಲೊಚನ,    ಭವಮೊಚನ,",
-      "ತ್ರಿಭುವನಭವನನಿಧಾನ"
+      "ಸುರಕುಲಕೆಲಿನಿದಾನ"
      ]
     },
     {
@@ -372,9 +437,7 @@
      "standard": null,
      "text": [
       "మధుమురనరకవినాశన,    గరుḓఆసన,",
-      "సురకులకెలినిదాన",
-      "అమలకమలదలలొచన,    భవమొచన,",
-      "త్రిభువనభవననిధాన"
+      "సురకులకెలినిదాన"
      ]
     },
     {
@@ -382,9 +445,7 @@
      "standard": null,
      "text": [
       "мадхумуранаракавина̄ш́ана,    гаруḓа̄сана,",
-      "суракулакэ̆линида̄на",
-      "амалакамаладалало̆чана,    бхавамо̆чана,",
-      "трибхуванабхавананидха̄на"
+      "суракулакэ̆линида̄на"
      ]
     },
     {
@@ -392,9 +453,7 @@
      "standard": null,
      "text": [
       "മധുമുരനരകവിനാശന,    ഗരുḓആസന,",
-      "സുരകുലകെലിനിദാന",
-      "അമലകമലദലലൊചന,    ഭവമൊചന,",
-      "ത്രിഭുവനഭവനനിധാന"
+      "സുരകുലകെലിനിദാന"
      ]
     },
     {
@@ -402,9 +461,7 @@
      "standard": null,
      "text": [
       "மது⁴முரநரகவிநாஶன,    க³ருḓஆஸன,",
-      "ஸுரகுலகெலிநிதா³ன",
-      "அமலகமலத³லலொசன,    ப⁴வமொசன,",
-      "த்ரிபு⁴வனப⁴வனநிதா⁴ன"
+      "ஸுரகுலகெலிநிதா³ன"
      ]
     },
     {
@@ -412,9 +469,7 @@
      "standard": "BBT_Roman",
      "text": [
       "madhu-mura-naraka-vināśana,    garuḍāsana,",
-      "surakula-kelinidāna",
-      "amala-kamaladala-locana,    bhava-mocana,",
-      "tribhuvana-bhavana-nidhāna"
+      "surakula-kelinidāna"
      ]
     },
     {
@@ -422,20 +477,9 @@
      "standard": "GVP_Roman",
      "text": [
       "madhu-mura-naraka-vināśana,    garuḓāsana,",
-      "surakula-kelinidāna",
-      "amala-kamaladala-locana,    bhava-mocana,",
-      "tribhuvana-bhavana-nidhāna"
+      "surakula-kelinidāna"
      ]
     }
-   ]
-  },
-  {
-   "verse_number": 4,
-   "source_text_master": [
-    "janakasutā[FLAG_HYPHEN_ALPHA]kṛtabhūṣaṇa,    jitadūṣaṇa,",
-    "samara[FLAG_HYPHEN_ALPHA]samita[FLAG_HYPHEN_ALPHA]daśakaṇṭa",
-    "abhinava[FLAG_HYPHEN_ALPHA]jaladhara[FLAG_HYPHEN_ALPHA]sundara,    dhṛta[FLAG_HYPHEN_ALPHA]mandara,",
-    "śrīmukhacandra[FLAG_HYPHEN_ALPHA]cakora"
    ],
    "translations": [
     {
@@ -444,137 +488,111 @@
       "O destroyer of the demons Madhu, Mura, and Naraka, O You who ride upon Garuḍa and who inspire the demigods’ delightful play, O Deva, O Hari, may You be triumphant!"
      ]
     }
+   ]
+  },
+  {
+   "verse_number": 5,
+   "source_text_master": [
+    "amala[FLAG_HYPHEN_ALPHA]kamaladala[FLAG_HYPHEN_ALPHA]locana,    bhava[FLAG_HYPHEN_ALPHA]mocana,",
+    "tribhuvana[FLAG_HYPHEN_ALPHA]bhavana[FLAG_HYPHEN_ALPHA]nidhāna"
    ],
    "display_scripts": [
     {
      "script_code": "Deva",
      "standard": null,
      "text": [
-      "जनकसुताक्ड़्तभूषण,    जितदूषण,",
-      "समरसमितदशकण्ट",
-      "अभिनवजलधरसुन्दर,    ध्ड़्तमन्दर,",
-      "श्रीमुखचन्द्रचकॊर"
+      "अमलकमलदललॊचन,    भवमॊचन,",
+      "त्रिभुवनभवननिधान"
      ]
     },
     {
      "script_code": "Beng",
      "standard": null,
      "text": [
-      "জনকসুতাক্ড়্তভূষণ,    জিতদূষণ,",
-      "সমরসমিতদশকণ্ট",
-      "অভিনবজলধরসুন্দর,    ধ্ড়্তমন্দর,",
-      "শ্রীমুখচন্দ্রচকোর"
+      "অমলকমলদললোচন,    ভবমোচন,",
+      "ত্রিভুবনভবননিধান"
      ]
     },
     {
      "script_code": "Orya",
      "standard": null,
      "text": [
-      "ଜନକସୁତାକ୍ଡ଼୍ତଭୂଷଣ,    ଜିତଦୂଷଣ,",
-      "ସମରସମିତଦଶକଣ୍ଟ",
-      "ଅଭିନବଜଲଧରସୁନ୍ଦର,    ଧ୍ଡ଼୍ତମନ୍ଦର,",
-      "ଶ୍ରୀମୁଖଚନ୍ଦ୍ରଚକୋର"
+      "ଅମଲକମଲଦଲଲୋଚନ,    ଭବମୋଚନ,",
+      "ତ୍ରିଭୁବନଭବନନିଧାନ"
      ]
     },
     {
      "script_code": "Gujr",
      "standard": null,
      "text": [
-      "જનકસુતાક્ડ઼્તભૂષણ,    જિતદૂષણ,",
-      "સમરસમિતદશકણ્ટ",
-      "અભિનવજલધરસુન્દર,    ધ્ડ઼્તમન્દર,",
-      "શ્રીમુખચન્દ્રચકોર"
+      "અમલકમલદલલોચન,    ભવમોચન,",
+      "ત્રિભુવનભવનનિધાન"
      ]
     },
     {
      "script_code": "Latn",
      "standard": "IAST",
      "text": [
-      "janakasutā-kṛtabhūṣaṇa,    jitadūṣaṇa,",
-      "samara-samita-daśakaṇṭa",
-      "abhinava-jaladhara-sundara,    dhṛta-mandara,",
-      "śrīmukhacandra-cakora"
+      "amala-kamaladala-locana,    bhava-mocana,",
+      "tribhuvana-bhavana-nidhāna"
      ]
     },
     {
      "script_code": "Knda",
      "standard": null,
      "text": [
-      "ಜನಕಸುತಾಕ್‌ಡ಼್ತಭೂಷಣ,    ಜಿತದೂಷಣ,",
-      "ಸಮರಸಮಿತದಶಕಂಟ",
-      "ಅಭಿನವಜಲಧರಸುಂದರ,    ಧ್‌ಡ಼್ತಮಂದರ,",
-      "ಶ್ರೀಮುಖಚಂದ್ರಚಕೊರ"
+      "ಅಮಲಕಮಲದಲಲೊಚನ,    ಭವಮೊಚನ,",
+      "ತ್ರಿಭುವನಭವನನಿಧಾನ"
      ]
     },
     {
      "script_code": "Telu",
      "standard": null,
      "text": [
-      "జనకసుతాక్డ్తభూషణ,    జితదూషణ,",
-      "సమరసమితదశకంట",
-      "అభినవజలధరసుందర,    ధ్డ్తమందర,",
-      "శ్రీముఖచంద్రచకొర"
+      "అమలకమలదలలొచన,    భవమొచన,",
+      "త్రిభువనభవననిధాన"
      ]
     },
     {
      "script_code": "Cyrl",
      "standard": null,
      "text": [
-      "джанакасута̄кр̤табхӯшан̣а,    джитадӯшан̣а,",
-      "самарасамитадаш́акан̣т̣а",
-      "абхинаваджаладхарасундара,    дхр̤тамандара,",
-      "ш́рӣмукхачандрачако̆ра"
+      "амалакамаладалало̆чана,    бхавамо̆чана,",
+      "трибхуванабхавананидха̄на"
      ]
     },
     {
      "script_code": "Mlym",
      "standard": null,
      "text": [
-      "ജനകസുതാക്ഡ്തഭൂഷണ,    ജിതദൂഷണ,",
-      "സമരസമിതദശകണ്ട",
-      "അഭിനവജലധരസുന്ദര,    ധ്ഡ്തമന്ദര,",
-      "ശ്രീമുഖചന്ദ്രചകൊര"
+      "അമലകമലദലലൊചന,    ഭവമൊചന,",
+      "ത്രിഭുവനഭവനനിധാന"
      ]
     },
     {
      "script_code": "Taml",
      "standard": null,
      "text": [
-      "ஜனகஸுதாக்ஃட்²தபூ⁴ஷண,    ஜிததூ³ஷண,",
-      "ஸமரஸமிதத³ஶகண்ட",
-      "அபி⁴னவஜலத⁴ரஸுந்த³ர,    த்⁴ஃட்²தமந்த³ர,",
-      "ஶ்ரீமுக²சந்த்³ரசகொர"
+      "அமலகமலத³லலொசன,    ப⁴வமொசன,",
+      "த்ரிபு⁴வனப⁴வனநிதா⁴ன"
      ]
     },
     {
      "script_code": "Latn",
      "standard": "BBT_Roman",
      "text": [
-      "janakasutā-kṛtabhūṣaṇa,    jitadūṣaṇa,",
-      "samara-samita-daśakaṇṭa",
-      "abhinava-jaladhara-sundara,    dhṛta-mandara,",
-      "śrīmukhacandra-cakora"
+      "amala-kamaladala-locana,    bhava-mocana,",
+      "tribhuvana-bhavana-nidhāna"
      ]
     },
     {
      "script_code": "Latn",
      "standard": "GVP_Roman",
      "text": [
-      "janakasutā-kṛtabhūṣaṇa,    jitadūṣaṇa,",
-      "samara-samita-daśakaṇṭa",
-      "abhinava-jaladhara-sundara,    dhṛta-mandara,",
-      "śrīmukhacandra-cakora"
+      "amala-kamaladala-locana,    bhava-mocana,",
+      "tribhuvana-bhavana-nidhāna"
      ]
     }
-   ]
-  },
-  {
-   "verse_number": 5,
-   "source_text_master": [
-    "tava[FLAG_HYPHEN_ALPHA]caraṇe praṇatā vaya,    miti bhāvaya,",
-    "kuru[FLAG_HYPHEN_ALPHA]kuśalaṁ praṇateṣu",
-    "śrījayadeva[FLAG_HYPHEN_ALPHA]kaveridaṁ,    kurute mudaṁ,",
-    "maṅgalamujjvala[FLAG_HYPHEN_ALPHA]gītam"
    ],
    "translations": [
     {
@@ -583,134 +601,111 @@
       "O You whose wide eyes resemble the petals of an immaculate lotus, O You who bestow emancipation from material existence and who are the foundation of the three worlds, O Deva, O Hari, may You be triumphant!"
      ]
     }
+   ]
+  },
+  {
+   "verse_number": 6,
+   "source_text_master": [
+    "janakasutā[FLAG_HYPHEN_ALPHA]kṛtabhūṣaṇa,    jitadūṣaṇa,",
+    "samara[FLAG_HYPHEN_ALPHA]samita[FLAG_HYPHEN_ALPHA]daśakaṇṭa"
    ],
    "display_scripts": [
     {
      "script_code": "Deva",
      "standard": null,
      "text": [
-      "तवचरणॆ प्रणता वय,    मिति भावय,",
-      "कुरुकुशलं प्रणतॆषु",
-      "श्रीजयदॆवकवॆरिदं,    कुरुतॆ मुदं,",
-      "मङ्गलमुज्ज्वलगीतम्"
+      "जनकसुताक्ड़्तभूषण,    जितदूषण,",
+      "समरसमितदशकण्ट"
      ]
     },
     {
      "script_code": "Beng",
      "standard": null,
      "text": [
-      "তবচরণে প্রণতা বয়,    মিতি ভাবয়,",
-      "কুরুকুশলং প্রণতেষু",
-      "শ্রীজয়দেবকবেরিদং,    কুরুতে মুদং,",
-      "মঙ্গলমুজ্জ্বলগীতম্"
+      "জনকসুতাক্ড়্তভূষণ,    জিতদূষণ,",
+      "সমরসমিতদশকণ্ট"
      ]
     },
     {
      "script_code": "Orya",
      "standard": null,
      "text": [
-      "ତବଚରଣେ ପ୍ରଣତା ବୟ,    ମିତି ଭାବୟ,",
-      "କୁରୁକୁଶଲଂ ପ୍ରଣତେଷୁ",
-      "ଶ୍ରୀଜୟଦେବକବେରିଦଂ,    କୁରୁତେ ମୁଦଂ,",
-      "ମଙ୍ଗଲମୁଜ୍ଜ୍ୱଲଗୀତମ୍"
+      "ଜନକସୁତାକ୍ଡ଼୍ତଭୂଷଣ,    ଜିତଦୂଷଣ,",
+      "ସମରସମିତଦଶକଣ୍ଟ"
      ]
     },
     {
      "script_code": "Gujr",
      "standard": null,
      "text": [
-      "તવચરણે પ્રણતા વય,    મિતિ ભાવય,",
-      "કુરુકુશલં પ્રણતેષુ",
-      "શ્રીજયદેવકવેરિદં,    કુરુતે મુદં,",
-      "મઙ્ગલમુજ્જ્વલગીતમ્"
+      "જનકસુતાક્ડ઼્તભૂષણ,    જિતદૂષણ,",
+      "સમરસમિતદશકણ્ટ"
      ]
     },
     {
      "script_code": "Latn",
      "standard": "IAST",
      "text": [
-      "tava-caraṇe praṇatā vaya,    miti bhāvaya,",
-      "kuru-kuśalaṁ praṇateṣu",
-      "śrījayadeva-kaveridaṁ,    kurute mudaṁ,",
-      "maṅgalamujjvala-gītam"
+      "janakasutā-kṛtabhūṣaṇa,    jitadūṣaṇa,",
+      "samara-samita-daśakaṇṭa"
      ]
     },
     {
      "script_code": "Knda",
      "standard": null,
      "text": [
-      "ತವಚರಣೆ ಪ್ರಣತಾ ವಯ,    ಮಿತಿ ಭಾವಯ,",
-      "ಕುರುಕುಶಲಂ ಪ್ರಣತೆಷು",
-      "ಶ್ರೀಜಯದೆವಕವೆರಿದಂ,    ಕುರುತೆ ಮುದಂ,",
-      "ಮಂಗಲಮುಜ್ಜ್ವಲಗೀತಂ"
+      "ಜನಕಸುತಾಕ್‌ಡ಼್ತಭೂಷಣ,    ಜಿತದೂಷಣ,",
+      "ಸಮರಸಮಿತದಶಕಂಟ"
      ]
     },
     {
      "script_code": "Telu",
      "standard": null,
      "text": [
-      "తవచరణె ప్రణతా వయ,    మితి భావయ,",
-      "కురుకుశలం ప్రణతెషు",
-      "శ్రీజయదెవకవెరిదం,    కురుతె ముదం,",
-      "మంగలముజ్జ్వలగీతం"
+      "జనకసుతాక్డ్తభూషణ,    జితదూషణ,",
+      "సమరసమితదశకంట"
      ]
     },
     {
      "script_code": "Cyrl",
      "standard": null,
      "text": [
-      "тавачаран̣э̆ пран̣ата̄ вайа,    мити бха̄вайа,",
-      "курукуш́алам̣ пран̣атэ̆шу",
-      "ш́рӣджайадэ̆вакавэ̆ридам̣,    курутэ̆ мудам̣,",
-      "ман̇галамуджджвалагӣтам"
+      "джанакасута̄кр̤табхӯшан̣а,    джитадӯшан̣а,",
+      "самарасамитадаш́акан̣т̣а"
      ]
     },
     {
      "script_code": "Mlym",
      "standard": null,
      "text": [
-      "തവചരണെ പ്രണതാ വയ,    മിതി ഭാവയ,",
-      "കുരുകുശലം പ്രണതെഷു",
-      "ശ്രീജയദെവകവെരിദം,    കുരുതെ മുദം,",
-      "മംഗലമുജ്ജ്വലഗീതം"
+      "ജനകസുതാക്ഡ്തഭൂഷണ,    ജിതദൂഷണ,",
+      "സമരസമിതദശകണ്ട"
      ]
     },
     {
      "script_code": "Taml",
      "standard": null,
      "text": [
-      "தவசரணெ ப்ரணதா வய,    மிதி பா⁴வய,",
-      "குருகுஶலம்ʼ ப்ரணதெஷு",
-      "ஶ்ரீஜயதெ³வகவெரித³ம்ʼ,    குருதெ முத³ம்ʼ,",
-      "மங்க³லமுஜ்ஜ்வலகீ³தம்"
+      "ஜனகஸுதாக்ஃட்²தபூ⁴ஷண,    ஜிததூ³ஷண,",
+      "ஸமரஸமிதத³ஶகண்ட"
      ]
     },
     {
      "script_code": "Latn",
      "standard": "BBT_Roman",
      "text": [
-      "tava-caraṇe praṇatā vaya,    miti bhāvaya,",
-      "kuru-kuśalaṁ praṇateṣu",
-      "śrījayadeva-kaveridaṁ,    kurute mudaṁ,",
-      "maṅgalamujjvala-gītam"
+      "janakasutā-kṛtabhūṣaṇa,    jitadūṣaṇa,",
+      "samara-samita-daśakaṇṭa"
      ]
     },
     {
      "script_code": "Latn",
      "standard": "GVP_Roman",
      "text": [
-      "tava-caraṇe praṇatā vaya,    miti bhāvaya,",
-      "kuru-kuśalaṁ praṇateṣu",
-      "śrījayadeva-kaveridaṁ,    kurute mudaṁ,",
-      "maṅgalamujjvala-gītam"
+      "janakasutā-kṛtabhūṣaṇa,    jitadūṣaṇa,",
+      "samara-samita-daśakaṇṭa"
      ]
     }
-   ]
-  },
-  {
-   "verse_number": 6,
-   "source_text_master": [
-    ""
    ],
    "translations": [
     {
@@ -719,90 +714,319 @@
       "O You who are decorated by the daughter of King Janaka (Sītā-devī), O You who defeated the demon Dūṣaṇa and killed the ten-headed Rāvaṇa in battle, O Deva, O Hari, may You be triumphant!"
      ]
     }
+   ]
+  },
+  {
+   "verse_number": 7,
+   "source_text_master": [
+    "abhinava[FLAG_HYPHEN_ALPHA]jaladhara[FLAG_HYPHEN_ALPHA]sundara,    dhṛta[FLAG_HYPHEN_ALPHA]mandara,",
+    "śrīmukhacandra[FLAG_HYPHEN_ALPHA]cakora"
    ],
    "display_scripts": [
     {
      "script_code": "Deva",
      "standard": null,
      "text": [
-      ""
+      "अभिनवजलधरसुन्दर,    ध्ड़्तमन्दर,",
+      "श्रीमुखचन्द्रचकॊर"
      ]
     },
     {
      "script_code": "Beng",
      "standard": null,
      "text": [
-      ""
+      "অভিনবজলধরসুন্দর,    ধ্ড়্তমন্দর,",
+      "শ্রীমুখচন্দ্রচকোর"
      ]
     },
     {
      "script_code": "Orya",
      "standard": null,
      "text": [
-      ""
+      "ଅଭିନବଜଲଧରସୁନ୍ଦର,    ଧ୍ଡ଼୍ତମନ୍ଦର,",
+      "ଶ୍ରୀମୁଖଚନ୍ଦ୍ରଚକୋର"
      ]
     },
     {
      "script_code": "Gujr",
      "standard": null,
      "text": [
-      ""
+      "અભિનવજલધરસુન્દર,    ધ્ડ઼્તમન્દર,",
+      "શ્રીમુખચન્દ્રચકોર"
      ]
     },
     {
      "script_code": "Latn",
      "standard": "IAST",
      "text": [
-      ""
+      "abhinava-jaladhara-sundara,    dhṛta-mandara,",
+      "śrīmukhacandra-cakora"
      ]
     },
     {
      "script_code": "Knda",
      "standard": null,
      "text": [
-      ""
+      "ಅಭಿನವಜಲಧರಸುಂದರ,    ಧ್‌ಡ಼್ತಮಂದರ,",
+      "ಶ್ರೀಮುಖಚಂದ್ರಚಕೊರ"
      ]
     },
     {
      "script_code": "Telu",
      "standard": null,
      "text": [
-      ""
+      "అభినవజలధరసుందర,    ధ్డ్తమందర,",
+      "శ్రీముఖచంద్రచకొర"
      ]
     },
     {
      "script_code": "Cyrl",
      "standard": null,
      "text": [
-      ""
+      "абхинаваджаладхарасундара,    дхр̤тамандара,",
+      "ш́рӣмукхачандрачако̆ра"
      ]
     },
     {
      "script_code": "Mlym",
      "standard": null,
      "text": [
-      ""
+      "അഭിനവജലധരസുന്ദര,    ധ്ഡ്തമന്ദര,",
+      "ശ്രീമുഖചന്ദ്രചകൊര"
      ]
     },
     {
      "script_code": "Taml",
      "standard": null,
      "text": [
-      ""
+      "அபி⁴னவஜலத⁴ரஸுந்த³ர,    த்⁴ஃட்²தமந்த³ர,",
+      "ஶ்ரீமுக²சந்த்³ரசகொர"
      ]
     },
     {
      "script_code": "Latn",
      "standard": "BBT_Roman",
      "text": [
-      ""
+      "abhinava-jaladhara-sundara,    dhṛta-mandara,",
+      "śrīmukhacandra-cakora"
      ]
     },
     {
      "script_code": "Latn",
      "standard": "GVP_Roman",
      "text": [
-      ""
+      "abhinava-jaladhara-sundara,    dhṛta-mandara,",
+      "śrīmukhacandra-cakora"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 8,
+   "source_text_master": [
+    "tava[FLAG_HYPHEN_ALPHA]caraṇe praṇatā vaya,    miti bhāvaya,",
+    "kuru[FLAG_HYPHEN_ALPHA]kuśalaṁ praṇateṣu"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तवचरणॆ प्रणता वय,    मिति भावय,",
+      "कुरुकुशलं प्रणतॆषु"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তবচরণে প্রণতা বয়,    মিতি ভাবয়,",
+      "কুরুকুশলং প্রণতেষু"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତବଚରଣେ ପ୍ରଣତା ବୟ,    ମିତି ଭାବୟ,",
+      "କୁରୁକୁଶଲଂ ପ୍ରଣତେଷୁ"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તવચરણે પ્રણતા વય,    મિતિ ભાવય,",
+      "કુરુકુશલં પ્રણતેષુ"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tava-caraṇe praṇatā vaya,    miti bhāvaya,",
+      "kuru-kuśalaṁ praṇateṣu"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತವಚರಣೆ ಪ್ರಣತಾ ವಯ,    ಮಿತಿ ಭಾವಯ,",
+      "ಕುರುಕುಶಲಂ ಪ್ರಣತೆಷು"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తవచరణె ప్రణతా వయ,    మితి భావయ,",
+      "కురుకుశలం ప్రణతెషు"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "тавачаран̣э̆ пран̣ата̄ вайа,    мити бха̄вайа,",
+      "курукуш́алам̣ пран̣атэ̆шу"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തവചരണെ പ്രണതാ വയ,    മിതി ഭാവയ,",
+      "കുരുകുശലം പ്രണതെഷു"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தவசரணெ ப்ரணதா வய,    மிதி பா⁴வய,",
+      "குருகுஶலம்ʼ ப்ரணதெஷு"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tava-caraṇe praṇatā vaya,    miti bhāvaya,",
+      "kuru-kuśalaṁ praṇateṣu"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tava-caraṇe praṇatā vaya,    miti bhāvaya,",
+      "kuru-kuśalaṁ praṇateṣu"
+     ]
+    }
+   ]
+  },
+  {
+   "verse_number": 9,
+   "source_text_master": [
+    "śrījayadeva[FLAG_HYPHEN_ALPHA]kaveridaṁ,    kurute mudaṁ,",
+    "maṅgalamujjvala[FLAG_HYPHEN_ALPHA]gītam"
+   ],
+   "display_scripts": [
+    {
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "श्रीजयदॆवकवॆरिदं,    कुरुतॆ मुदं,",
+      "मङ्गलमुज्ज्वलगीतम्"
+     ]
+    },
+    {
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শ্রীজয়দেবকবেরিদং,    কুরুতে মুদং,",
+      "মঙ্গলমুজ্জ্বলগীতম্"
+     ]
+    },
+    {
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶ୍ରୀଜୟଦେବକବେରିଦଂ,    କୁରୁତେ ମୁଦଂ,",
+      "ମଙ୍ଗଲମୁଜ୍ଜ୍ୱଲଗୀତମ୍"
+     ]
+    },
+    {
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શ્રીજયદેવકવેરિદં,    કુરુતે મુદં,",
+      "મઙ્ગલમુજ્જ્વલગીતમ્"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śrījayadeva-kaveridaṁ,    kurute mudaṁ,",
+      "maṅgalamujjvala-gītam"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶ್ರೀಜಯದೆವಕವೆರಿದಂ,    ಕುರುತೆ ಮುದಂ,",
+      "ಮಂಗಲಮುಜ್ಜ್ವಲಗೀತಂ"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శ్రీజయదెవకవెరిదం,    కురుతె ముదం,",
+      "మంగలముజ్జ్వలగీతం"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́рӣджайадэ̆вакавэ̆ридам̣,    курутэ̆ мудам̣,",
+      "ман̇галамуджджвалагӣтам"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശ്രീജയദെവകവെരിദം,    കുരുതെ മുദം,",
+      "മംഗലമുജ്ജ്വലഗീതം"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶ்ரீஜயதெ³வகவெரித³ம்ʼ,    குருதெ முத³ம்ʼ,",
+      "மங்க³லமுஜ்ஜ்வலகீ³தம்"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śrījayadeva-kaveridaṁ,    kurute mudaṁ,",
+      "maṅgalamujjvala-gītam"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śrījayadeva-kaveridaṁ,    kurute mudaṁ,",
+      "maṅgalamujjvala-gītam"
      ]
     }
    ]

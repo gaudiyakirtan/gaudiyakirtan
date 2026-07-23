@@ -1,725 +1,633 @@
 {
-  "uid": "MS6",
-  "language_of_origin": "ben",
-  "title_main": [
+ "uid": "MS6",
+ "language_of_origin": "ben",
+ "title_main": [
+  {
+   "script_code": "Beng",
+   "text": "কৃষ্ণবার্ত্তা বিনা আন"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "kṛṣṇabārtā binā āna"
+  },
+  {
+   "script_code": "Deva",
+   "text": "कृष्णबार्ता बिना आन"
+  },
+  {
+   "script_code": "Telu",
+   "text": "కృష్ణబార్తా బినా ఆన"
+  },
+  {
+   "script_code": "Knda",
+   "text": "ಕೃಷ್ಣಬಾರ್ತಾ ಬಿನಾ ಆನ"
+  },
+  {
+   "script_code": "Taml",
+   "text": "க்ருʼஷ்ணபா³ர்தா பி³னா ஆன"
+  },
+  {
+   "script_code": "Mlym",
+   "text": "കൃഷ്ണബാർതാ ബിനാ ആന"
+  },
+  {
+   "script_code": "Gujr",
+   "text": "કૃષ્ણબાર્તા બિના આન"
+  },
+  {
+   "script_code": "Orya",
+   "text": "କୃଷ୍ଣବାର୍ତା ବିନା ଆନ"
+  },
+  {
+   "script_code": "Cyrl",
+   "text": "кр̣шн̣аба̄рта̄ бина̄ а̄на"
+  }
+ ],
+ "author_uid": "bt",
+ "author_display": [
+  {
+   "script_code": "Beng",
+   "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+  },
+  {
+   "script_code": "Latn",
+   "standard": "IAST",
+   "text": "Śrīla Bhaktivinoda Ṭhākura"
+  },
+  {
+   "script_code": "Deva",
+   "text": "श्रील भक्तिविनोद ठाकुर"
+  },
+  {
+   "script_code": "Telu",
+   "text": "శ్రీల భక్తివినోద ఠాకుర"
+  },
+  {
+   "script_code": "Knda",
+   "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+  },
+  {
+   "script_code": "Taml",
+   "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+  },
+  {
+   "script_code": "Mlym",
+   "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+  },
+  {
+   "script_code": "Gujr",
+   "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+  },
+  {
+   "script_code": "Orya",
+   "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+  },
+  {
+   "script_code": "Cyrl",
+   "text": "ш́рӣла бхактивинода т̣ха̄кура"
+  }
+ ],
+ "verses": [
+  {
+   "verse_number": 1,
+   "source_text_master": [
+    "kṛṣṇabārtā binā āna,    ‘asadbārtā’ bali’ jāna,",
+    "sei beśyā ati bhayaṅkarī",
+    "śrīkṛṣṇabiṣayā mati,    jībera durllabha ati,",
+    "sei beśyā mati laya hari’ 1"
+   ],
+   "display_scripts": [
     {
-      "script_code": "Beng",
-      "text": "কৃষ্ণবার্ত্তা বিনা আন"
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "क्ड़्ष्णबार्ता बिना आन,    ‘असद्बार्ताऽ बलिऽ जान,",
+      "सॆइ बॆश्या अति भयङ्करी",
+      "श्रीक्ड़्ष्णबिषया मति,    जीबॆर दुर्ल्लभ अति,",
+      "सॆइ बॆश्या मति लय हरिऽ १"
+     ]
     },
     {
-      "script_code": "Latn",
-      "standard": "IAST",
-      "text": "kṛṣṇabārtā binā āna"
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ক্ড়্ষ্ণবার্তা বিনা আন,    ‘অসদ্বার্তাঽ বলিঽ জান,",
+      "সেই বেশ্যা অতি ভয়ঙ্করী",
+      "শ্রীক্ড়্ষ্ণবিষয়া মতি,    জীবের দুর্ল্লভ অতি,",
+      "সেই বেশ্যা মতি লয় হরিঽ ১"
+     ]
     },
     {
-      "script_code": "Deva",
-      "text": "कृष्णबार्ता बिना आन"
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "କ୍ଡ଼୍ଷ୍ଣବାର୍ତା ବିନା ଆନ,    ‘ଅସଦ୍ବାର୍ତାଽ ବଲିଽ ଜାନ,",
+      "ସେଇ ବେଶ୍ୟା ଅତି ଭୟଙ୍କରୀ",
+      "ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣବିଷୟା ମତି,    ଜୀବେର ଦୁର୍ଲ୍ଲଭ ଅତି,",
+      "ସେଇ ବେଶ୍ୟା ମତି ଲୟ ହରିଽ ୧"
+     ]
     },
     {
-      "script_code": "Telu",
-      "text": "కృష్ణబార్తా బినా ఆన"
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "ક્ડ઼્ષ્ણબાર્તા બિના આન,    ‘અસદ્બાર્તાઽ બલિઽ જાન,",
+      "સેઇ બેશ્યા અતિ ભયઙ્કરી",
+      "શ્રીક્ડ઼્ષ્ણબિષયા મતિ,    જીબેર દુર્લ્લભ અતિ,",
+      "સેઇ બેશ્યા મતિ લય હરિઽ ૧"
+     ]
     },
     {
-      "script_code": "Knda",
-      "text": "ಕೃಷ್ಣಬಾರ್ತಾ ಬಿನಾ ಆನ"
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "kṛṣṇabārtā binā āna,    ‘asadbārtā’ bali’ jāna,",
+      "sei beśyā ati bhayaṅkarī",
+      "śrīkṛṣṇabiṣayā mati,    jībera durllabha ati,",
+      "sei beśyā mati laya hari’ 1"
+     ]
     },
     {
-      "script_code": "Taml",
-      "text": "க்ருʼஷ்ணபா³ர்தா பி³னா ஆன"
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಕ್‌ಡ಼್ಷ್ಣಬಾರ್ತಾ ಬಿನಾ ಆನ,    ‘ಅಸದ್ಬಾರ್ತಾಽ ಬಲಿಽ ಜಾನ,",
+      "ಸೆಇ ಬೆಶ್ಯಾ ಅತಿ ಭಯಂಕರೀ",
+      "ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಬಿಷಯಾ ಮತಿ,    ಜೀಬೆರ ದುರ್ಲ್ಲಭ ಅತಿ,",
+      "ಸೆಇ ಬೆಶ್ಯಾ ಮತಿ ಲಯ ಹರಿಽ ೧"
+     ]
     },
     {
-      "script_code": "Mlym",
-      "text": "കൃഷ്ണബാർതാ ബിനാ ആന"
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "క్డ్ష్ణబార్తా బినా ఆన,    ‘అసద్బార్తాఽ బలిఽ జాన,",
+      "సెఇ బెశ్యా అతి భయంకరీ",
+      "శ్రీక్డ్ష్ణబిషయా మతి,    జీబెర దుర్ల్లభ అతి,",
+      "సెఇ బెశ్యా మతి లయ హరిఽ 1"
+     ]
     },
     {
-      "script_code": "Gujr",
-      "text": "કૃષ્ણબાર્તા બિના આન"
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "кр̤шн̣аба̄рта̄ бина̄ а̄на,    ‘асадба̄рта̄' бали' джа̄на,",
+      "сэ̆и бэ̆ш́йа̄ ати бхайан̇карӣ",
+      "ш́рӣкр̤шн̣абишайа̄ мати,    джӣбэ̆ра дурллабха ати,",
+      "сэ̆и бэ̆ш́йа̄ мати лайа хари' 1"
+     ]
     },
     {
-      "script_code": "Orya",
-      "text": "କୃଷ୍ଣବାର୍ତା ବିନା ଆନ"
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ക്ഡ്ഷ്ണബാർതാ ബിനാ ആന,    ‘അസദ്ബാർതാഽ ബലിഽ ജാന,",
+      "സെഇ ബെശ്യാ അതി ഭയങ്കരീ",
+      "ശ്രീക്ഡ്ഷ്ണബിഷയാ മതി,    ജീബെര ദുർല്ലഭ അതി,",
+      "സെഇ ബെശ്യാ മതി ലയ ഹരിഽ 1"
+     ]
     },
     {
-      "script_code": "Cyrl",
-      "text": "кр̣шн̣аба̄рта̄ бина̄ а̄на"
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "க்ஃட்²ஷ்ணபா³ர்தா பி³னா ஆன,    ‘அஸத்³பா³ர்தா(அ) ப³லி(அ) ஜான,",
+      "ஸெஇ பெ³ஶ்யா அதி ப⁴யங்கரீ",
+      "ஶ்ரீக்ஃட்²ஷ்ணபி³ஷயா மதி,    ஜீபெ³ர து³ர்ல்லப⁴ அதி,",
+      "ஸெஇ பெ³ஶ்யா மதி லய ஹரி(அ) 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "kṛṣṇabārtā binā āna,    ‘asadbārtā’ bali’ jāna,",
+      "sei beśyā ati bhayaṅkarī",
+      "śrīkṛṣṇabiṣayā mati,    jībera durllabha ati,",
+      "sei beśyā mati laya hari’ 1"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "kṛṣṇabārtā binā āna,    ‘asadbārtā’ bali’ jāna,",
+      "sei beśyā ati bhayaṅkarī",
+      "śrīkṛṣṇabiṣayā mati,    jībera durllabha ati,",
+      "sei beśyā mati laya hari’ 1"
+     ]
     }
-  ],
-  "author_uid": "bt",
-  "author_display": [
+   ]
+  },
+  {
+   "verse_number": 2,
+   "source_text_master": [
+    "śuna, mana, bali he tomāya",
+    "‘mukti’[FLAG_HYPHEN_ALPHA]nāme śārdūlinī,    tā’ra kathā yadi śuni,",
+    "sarbātmasampatti gili’ khāya 2"
+   ],
+   "display_scripts": [
     {
-      "script_code": "Beng",
-      "text": "শ্রীল ভক্তিৱিনোদ ঠাকুর"
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "शुन, मन, बलि हॆ तॊमाय",
+      "‘मुक्तिऽनामॆ शार्दूलिनी,    ताऽर कथा यदि शुनि,",
+      "सर्बात्मसम्पत्ति गिलिऽ खाय २"
+     ]
     },
     {
-      "script_code": "Latn",
-      "standard": "IAST",
-      "text": "Śrīla Bhaktivinoda Ṭhākura"
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "শুন, মন, বলি হে তোমায়",
+      "‘মুক্তিঽনামে শার্দূলিনী,    তাঽর কথা যদি শুনি,",
+      "সর্বাত্মসম্পত্তি গিলিঽ খায় ২"
+     ]
     },
     {
-      "script_code": "Deva",
-      "text": "श्रील भक्तिविनोद ठाकुर"
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ଶୁନ, ମନ, ବଲି ହେ ତୋମାୟ",
+      "‘ମୁକ୍ତିଽନାମେ ଶାର୍ଦୂଲିନୀ,    ତାଽର କଥା ଯଦି ଶୁନି,",
+      "ସର୍ବାତ୍ମସମ୍ପତ୍ତି ଗିଲିଽ ଖାୟ ୨"
+     ]
     },
     {
-      "script_code": "Telu",
-      "text": "శ్రీల భక్తివినోద ఠాకుర"
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "શુન, મન, બલિ હે તોમાય",
+      "‘મુક્તિઽનામે શાર્દૂલિની,    તાઽર કથા યદિ શુનિ,",
+      "સર્બાત્મસમ્પત્તિ ગિલિઽ ખાય ૨"
+     ]
     },
     {
-      "script_code": "Knda",
-      "text": "ಶ್ರೀಲ ಭಕ್ತಿವಿನೋದ ಠಾಕುರ"
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "śuna, mana, bali he tomāya",
+      "‘mukti’-nāme śārdūlinī,    tā’ra kathā yadi śuni,",
+      "sarbātmasampatti gili’ khāya 2"
+     ]
     },
     {
-      "script_code": "Taml",
-      "text": "ஶ்ரீல ப⁴க்திவினோத³ டா²குர"
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಶುನ, ಮನ, ಬಲಿ ಹೆ ತೊಮಾಯ",
+      "‘ಮುಕ್ತಿಽನಾಮೆ ಶಾರ್ದೂಲಿನೀ,    ತಾಽರ ಕಥಾ ಯದಿ ಶುನಿ,",
+      "ಸರ್ಬಾತ್ಮಸಂಪತ್ತಿ ಗಿಲಿಽ ಖಾಯ ೨"
+     ]
     },
     {
-      "script_code": "Mlym",
-      "text": "ശ്രീല ഭക്തിവിനോദ ഠാകുര"
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "శున, మన, బలి హె తొమాయ",
+      "‘ముక్తిఽనామె శార్దూలినీ,    తాఽర కథా యది శుని,",
+      "సర్బాత్మసంపత్తి గిలిఽ ఖాయ 2"
+     ]
     },
     {
-      "script_code": "Gujr",
-      "text": "શ્રીલ ભક્તિવિનોદ ઠાકુર"
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "ш́уна, мана, бали хэ̆ то̆ма̄йа",
+      "‘мукти'на̄мэ̆ ш́а̄рдӯлинӣ,    та̄'ра катха̄ йади ш́уни,",
+      "сарба̄тмасампатти гили' кха̄йа 2"
+     ]
     },
     {
-      "script_code": "Orya",
-      "text": "ଶ୍ରୀଲ ଭକ୍ତିବିନୋଦ ଠାକୁର"
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ശുന, മന, ബലി ഹെ തൊമായ",
+      "‘മുക്തിഽനാമെ ശാർദൂലിനീ,    താഽര കഥാ യദി ശുനി,",
+      "സർബാത്മസമ്പത്തി ഗിലിഽ ഖായ 2"
+     ]
     },
     {
-      "script_code": "Cyrl",
-      "text": "ш́рӣла бхактивинода т̣ха̄кура"
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ஶுன, மன, ப³லி ஹெ தொமாய",
+      "‘முக்தி(அ)நாமெ ஶார்தூ³லினீ,    தா(அ)ர கதா² யதி³ ஶுனி,",
+      "ஸர்பா³த்மஸம்பத்தி கி³லி(அ) கா²ய 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "śuna, mana, bali he tomāya",
+      "‘mukti’-nāme śārdūlinī,    tā’ra kathā yadi śuni,",
+      "sarbātmasampatti gili’ khāya 2"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "śuna, mana, bali he tomāya",
+      "‘mukti’-nāme śārdūlinī,    tā’ra kathā yadi śuni,",
+      "sarbātmasampatti gili’ khāya 2"
+     ]
     }
-  ],
-  "verses": [
+   ]
+  },
+  {
+   "verse_number": 3,
+   "source_text_master": [
+    "tadubhaya tyāga kara,    muktikathā parihara,",
+    "lakṣmīpati[FLAG_HYPHEN_ALPHA]rati rākha dūre",
+    "se[FLAG_HYPHEN_ALPHA]rati prabala ha’le,    parabyome deya phele,",
+    "nāhi deya bāsa brajapure 3"
+   ],
+   "display_scripts": [
     {
-      "verse_number": 1,
-      "source_text_master": [
-        "kṛṣṇabārtā binā āna,    ‘asadbārtā’ bali’ jāna,",
-        "sei beśyā ati bhayaṅkarī",
-        "śrīkṛṣṇabiṣayā mati,    jībera durllabha ati,",
-        "sei beśyā mati laya hari’ 1"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "क्ड़्ष्णबार्ता बिना आन,    ‘असद्बार्ताऽ बलिऽ जान,",
-            "सॆइ बॆश्या अति भयङ्करी",
-            "श्रीक्ड़्ष्णबिषया मति,    जीबॆर दुर्ल्लभ अति,",
-            "सॆइ बॆश्या मति लय हरिऽ १"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "ক্ড়্ষ্ণবার্তা বিনা আন,    ‘অসদ্বার্তাঽ বলিঽ জান,",
-            "সেই বেশ্যা অতি ভয়ঙ্করী",
-            "শ্রীক্ড়্ষ্ণবিষয়া মতি,    জীবের দুর্ল্লভ অতি,",
-            "সেই বেশ্যা মতি লয় হরিঽ ১"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "କ୍ଡ଼୍ଷ୍ଣବାର୍ତା ବିନା ଆନ,    ‘ଅସଦ୍ବାର୍ତାଽ ବଲିଽ ଜାନ,",
-            "ସେଇ ବେଶ୍ୟା ଅତି ଭୟଙ୍କରୀ",
-            "ଶ୍ରୀକ୍ଡ଼୍ଷ୍ଣବିଷୟା ମତି,    ଜୀବେର ଦୁର୍ଲ୍ଲଭ ଅତି,",
-            "ସେଇ ବେଶ୍ୟା ମତି ଲୟ ହରିଽ ୧"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "ક્ડ઼્ષ્ણબાર્તા બિના આન,    ‘અસદ્બાર્તાઽ બલિઽ જાન,",
-            "સેઇ બેશ્યા અતિ ભયઙ્કરી",
-            "શ્રીક્ડ઼્ષ્ણબિષયા મતિ,    જીબેર દુર્લ્લભ અતિ,",
-            "સેઇ બેશ્યા મતિ લય હરિઽ ૧"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "kṛṣṇabārtā binā āna,    ‘asadbārtā’ bali’ jāna,",
-            "sei beśyā ati bhayaṅkarī",
-            "śrīkṛṣṇabiṣayā mati,    jībera durllabha ati,",
-            "sei beśyā mati laya hari’ 1"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಕ್‌ಡ಼್ಷ್ಣಬಾರ್ತಾ ಬಿನಾ ಆನ,    ‘ಅಸದ್ಬಾರ್ತಾಽ ಬಲಿಽ ಜಾನ,",
-            "ಸೆಇ ಬೆಶ್ಯಾ ಅತಿ ಭಯಂಕರೀ",
-            "ಶ್ರೀಕ್‌ಡ಼್ಷ್ಣಬಿಷಯಾ ಮತಿ,    ಜೀಬೆರ ದುರ್ಲ್ಲಭ ಅತಿ,",
-            "ಸೆಇ ಬೆಶ್ಯಾ ಮತಿ ಲಯ ಹರಿಽ ೧"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "క్డ్ష్ణబార్తా బినా ఆన,    ‘అసద్బార్తాఽ బలిఽ జాన,",
-            "సెఇ బెశ్యా అతి భయంకరీ",
-            "శ్రీక్డ్ష్ణబిషయా మతి,    జీబెర దుర్ల్లభ అతి,",
-            "సెఇ బెశ్యా మతి లయ హరిఽ 1"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "кр̤шн̣аба̄рта̄ бина̄ а̄на,    ‘асадба̄рта̄' бали' джа̄на,",
-            "сэ̆и бэ̆ш́йа̄ ати бхайан̇карӣ",
-            "ш́рӣкр̤шн̣абишайа̄ мати,    джӣбэ̆ра дурллабха ати,",
-            "сэ̆и бэ̆ш́йа̄ мати лайа хари' 1"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ക്ഡ്ഷ്ണബാർതാ ബിനാ ആന,    ‘അസദ്ബാർതാഽ ബലിഽ ജാന,",
-            "സെഇ ബെശ്യാ അതി ഭയങ്കരീ",
-            "ശ്രീക്ഡ്ഷ്ണബിഷയാ മതി,    ജീബെര ദുർല്ലഭ അതി,",
-            "സെഇ ബെശ്യാ മതി ലയ ഹരിഽ 1"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "க்ஃட்²ஷ்ணபா³ர்தா பி³னா ஆன,    ‘அஸத்³பா³ர்தா(அ) ப³லி(அ) ஜான,",
-            "ஸெஇ பெ³ஶ்யா அதி ப⁴யங்கரீ",
-            "ஶ்ரீக்ஃட்²ஷ்ணபி³ஷயா மதி,    ஜீபெ³ர து³ர்ல்லப⁴ அதி,",
-            "ஸெஇ பெ³ஶ்யா மதி லய ஹரி(அ) 1"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "kṛṣṇabārtā binā āna,    ‘asadbārtā’ bali’ jāna,",
-            "sei beśyā ati bhayaṅkarī",
-            "śrīkṛṣṇabiṣayā mati,    jībera durllabha ati,",
-            "sei beśyā mati laya hari’ 1"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "kṛṣṇabārtā binā āna,    ‘asadbārtā’ bali’ jāna,",
-            "sei beśyā ati bhayaṅkarī",
-            "śrīkṛṣṇabiṣayā mati,    jībera durllabha ati,",
-            "sei beśyā mati laya hari’ 1"
-          ]
-        }
-      ]
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "तदुभय त्याग कर,    मुक्तिकथा परिहर,",
+      "लक्ष्मीपतिरति राख दूरॆ",
+      "सॆरति प्रबल हऽलॆ,    परब्यॊमॆ दॆय फॆलॆ,",
+      "नाहि दॆय बास ब्रजपुरॆ ३"
+     ]
     },
     {
-      "verse_number": 2,
-      "source_text_master": [
-        "śuna, mana, bali he tomāya",
-        "‘mukti’[FLAG_HYPHEN_ALPHA]nāme śārdūlinī,    tā’ra kathā yadi śuni,",
-        "sarbātmasampatti gili’ khāya 2"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "शुन, मन, बलि हॆ तॊमाय",
-            "‘मुक्तिऽनामॆ शार्दूलिनी,    ताऽर कथा यदि शुनि,",
-            "सर्बात्मसम्पत्ति गिलिऽ खाय २"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "শুন, মন, বলি হে তোমায়",
-            "‘মুক্তিঽনামে শার্দূলিনী,    তাঽর কথা যদি শুনি,",
-            "সর্বাত্মসম্পত্তি গিলিঽ খায় ২"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ଶୁନ, ମନ, ବଲି ହେ ତୋମାୟ",
-            "‘ମୁକ୍ତିଽନାମେ ଶାର୍ଦୂଲିନୀ,    ତାଽର କଥା ଯଦି ଶୁନି,",
-            "ସର୍ବାତ୍ମସମ୍ପତ୍ତି ଗିଲିଽ ଖାୟ ୨"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "શુન, મન, બલિ હે તોમાય",
-            "‘મુક્તિઽનામે શાર્દૂલિની,    તાઽર કથા યદિ શુનિ,",
-            "સર્બાત્મસમ્પત્તિ ગિલિઽ ખાય ૨"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "śuna, mana, bali he tomāya",
-            "‘mukti’-nāme śārdūlinī,    tā’ra kathā yadi śuni,",
-            "sarbātmasampatti gili’ khāya 2"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಶುನ, ಮನ, ಬಲಿ ಹೆ ತೊಮಾಯ",
-            "‘ಮುಕ್ತಿಽನಾಮೆ ಶಾರ್ದೂಲಿನೀ,    ತಾಽರ ಕಥಾ ಯದಿ ಶುನಿ,",
-            "ಸರ್ಬಾತ್ಮಸಂಪತ್ತಿ ಗಿಲಿಽ ಖಾಯ ೨"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "శున, మన, బలి హె తొమాయ",
-            "‘ముక్తిఽనామె శార్దూలినీ,    తాఽర కథా యది శుని,",
-            "సర్బాత్మసంపత్తి గిలిఽ ఖాయ 2"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "ш́уна, мана, бали хэ̆ то̆ма̄йа",
-            "‘мукти'на̄мэ̆ ш́а̄рдӯлинӣ,    та̄'ра катха̄ йади ш́уни,",
-            "сарба̄тмасампатти гили' кха̄йа 2"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ശുന, മന, ബലി ഹെ തൊമായ",
-            "‘മുക്തിഽനാമെ ശാർദൂലിനീ,    താഽര കഥാ യദി ശുനി,",
-            "സർബാത്മസമ്പത്തി ഗിലിഽ ഖായ 2"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "ஶுன, மன, ப³லி ஹெ தொமாய",
-            "‘முக்தி(அ)நாமெ ஶார்தூ³லினீ,    தா(அ)ர கதா² யதி³ ஶுனி,",
-            "ஸர்பா³த்மஸம்பத்தி கி³லி(அ) கா²ய 2"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "śuna, mana, bali he tomāya",
-            "‘mukti’-nāme śārdūlinī,    tā’ra kathā yadi śuni,",
-            "sarbātmasampatti gili’ khāya 2"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "śuna, mana, bali he tomāya",
-            "‘mukti’-nāme śārdūlinī,    tā’ra kathā yadi śuni,",
-            "sarbātmasampatti gili’ khāya 2"
-          ]
-        }
-      ]
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "তদুভয় ত্যাগ কর,    মুক্তিকথা পরিহর,",
+      "লক্ষ্মীপতিরতি রাখ দূরে",
+      "সেরতি প্রবল হঽলে,    পরব্যোমে দেয় ফেলে,",
+      "নাহি দেয় বাস ব্রজপুরে ৩"
+     ]
     },
     {
-      "verse_number": 3,
-      "source_text_master": [
-        "tadubhaya tyāga kara,    muktikathā parihara,",
-        "lakṣmīpati[FLAG_HYPHEN_ALPHA]rati rākha dūre",
-        "se[FLAG_HYPHEN_ALPHA]rati prabala ha’le,    parabyome deya phele,",
-        "nāhi deya bāsa brajapure 3"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "तदुभय त्याग कर,    मुक्तिकथा परिहर,",
-            "लक्ष्मीपतिरति राख दूरॆ",
-            "सॆरति प्रबल हऽलॆ,    परब्यॊमॆ दॆय फॆलॆ,",
-            "नाहि दॆय बास ब्रजपुरॆ ३"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "তদুভয় ত্যাগ কর,    মুক্তিকথা পরিহর,",
-            "লক্ষ্মীপতিরতি রাখ দূরে",
-            "সেরতি প্রবল হঽলে,    পরব্যোমে দেয় ফেলে,",
-            "নাহি দেয় বাস ব্রজপুরে ৩"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ତଦୁଭୟ ତ୍ୟାଗ କର,    ମୁକ୍ତିକଥା ପରିହର,",
-            "ଲକ୍ଷ୍ମୀପତିରତି ରାଖ ଦୂରେ",
-            "ସେରତି ପ୍ରବଲ ହଽଲେ,    ପରବ୍ୟୋମେ ଦେୟ ଫେଲେ,",
-            "ନାହି ଦେୟ ବାସ ବ୍ରଜପୁରେ ୩"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "તદુભય ત્યાગ કર,    મુક્તિકથા પરિહર,",
-            "લક્ષ્મીપતિરતિ રાખ દૂરે",
-            "સેરતિ પ્રબલ હઽલે,    પરબ્યોમે દેય ફેલે,",
-            "નાહિ દેય બાસ બ્રજપુરે ૩"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "tadubhaya tyāga kara,    muktikathā parihara,",
-            "lakṣmīpati-rati rākha dūre",
-            "se-rati prabala ha’le,    parabyome deya phele,",
-            "nāhi deya bāsa brajapure 3"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ತದುಭಯ ತ್ಯಾಗ ಕರ,    ಮುಕ್ತಿಕಥಾ ಪರಿಹರ,",
-            "ಲಕ್ಷ್ಮೀಪತಿರತಿ ರಾಖ ದೂರೆ",
-            "ಸೆರತಿ ಪ್ರಬಲ ಹಽಲೆ,    ಪರಬ್ಯೊಮೆ ದೆಯ ಫೆಲೆ,",
-            "ನಾಹಿ ದೆಯ ಬಾಸ ಬ್ರಜಪುರೆ ೩"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "తదుభయ త్యాగ కర,    ముక్తికథా పరిహర,",
-            "లక్ష్మీపతిరతి రాఖ దూరె",
-            "సెరతి ప్రబల హఽలె,    పరబ్యొమె దెయ ఫెలె,",
-            "నాహి దెయ బాస బ్రజపురె 3"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "тадубхайа тйа̄га кара,    муктикатха̄ парихара,",
-            "лакшмӣпатирати ра̄кха дӯрэ̆",
-            "сэ̆рати прабала ха'лэ̆,    парабйо̆мэ̆ дэ̆йа пхэ̆лэ̆,",
-            "на̄хи дэ̆йа ба̄са браджапурэ̆ 3"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "തദുഭയ ത്യാഗ കര,    മുക്തികഥാ പരിഹര,",
-            "ലക്ഷ്മീപതിരതി രാഖ ദൂരെ",
-            "സെരതി പ്രബല ഹഽലെ,    പരബ്യൊമെ ദെയ ഫെലെ,",
-            "നാഹി ദെയ ബാസ ബ്രജപുരെ 3"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "தது³ப⁴ய த்யாக³ கர,    முக்திகதா² பரிஹர,",
-            "லக்ஷ்மீபதிரதி ராக² தூ³ரெ",
-            "ஸெரதி ப்ரப³ல ஹ(அ)லெ,    பரப்³யொமெ தெ³ய பெ²லெ,",
-            "நாஹி தெ³ய பா³ஸ ப்³ரஜபுரெ 3"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "tadubhaya tyāga kara,    muktikathā parihara,",
-            "lakṣmīpati-rati rākha dūre",
-            "se-rati prabala ha’le,    parabyome deya phele,",
-            "nāhi deya bāsa brajapure 3"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "tadubhaya tyāga kara,    muktikathā parihara,",
-            "lakṣmīpati-rati rākha dūre",
-            "se-rati prabala ha’le,    parabyome deya phele,",
-            "nāhi deya bāsa brajapure 3"
-          ]
-        }
-      ]
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ତଦୁଭୟ ତ୍ୟାଗ କର,    ମୁକ୍ତିକଥା ପରିହର,",
+      "ଲକ୍ଷ୍ମୀପତିରତି ରାଖ ଦୂରେ",
+      "ସେରତି ପ୍ରବଲ ହଽଲେ,    ପରବ୍ୟୋମେ ଦେୟ ଫେଲେ,",
+      "ନାହି ଦେୟ ବାସ ବ୍ରଜପୁରେ ୩"
+     ]
     },
     {
-      "verse_number": 4,
-      "source_text_master": [
-        "braje rādhākṛṣṇa[FLAG_HYPHEN_ALPHA]rati,    amūlya[FLAG_HYPHEN_ALPHA]dhanada ati,",
-        "tā’i tumi bhaja ciradina",
-        "rūpa[FLAG_HYPHEN_ALPHA]raghunātha[FLAG_HYPHEN_ALPHA]pāya,    sei rati prārthanāya,",
-        "e bhaktibinoda dīna hīna 4"
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            "ब्रजॆ राधाक्ड़्ष्णरति,    अमूल्यधनद अति,",
-            "ताऽइ तुमि भज चिरदिन",
-            "रूपरघुनाथपाय,    सॆइ रति प्रार्थनाय,",
-            "ऎ भक्तिबिनॊद दीन हीन ४"
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            "ব্রজে রাধাক্ড়্ষ্ণরতি,    অমূল্যধনদ অতি,",
-            "তাঽই তুমি ভজ চিরদিন",
-            "রূপরঘুনাথপায়,    সেই রতি প্রার্থনায়,",
-            "এ ভক্তিবিনোদ দীন হীন ৪"
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            "ବ୍ରଜେ ରାଧାକ୍ଡ଼୍ଷ୍ଣରତି,    ଅମୂଲ୍ୟଧନଦ ଅତି,",
-            "ତାଽଇ ତୁମି ଭଜ ଚିରଦିନ",
-            "ରୂପରଘୁନାଥପାୟ,    ସେଇ ରତି ପ୍ରାର୍ଥନାୟ,",
-            "ଏ ଭକ୍ତିବିନୋଦ ଦୀନ ହୀନ ୪"
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            "બ્રજે રાધાક્ડ઼્ષ્ણરતિ,    અમૂલ્યધનદ અતિ,",
-            "તાઽઇ તુમિ ભજ ચિરદિન",
-            "રૂપરઘુનાથપાય,    સેઇ રતિ પ્રાર્થનાય,",
-            "એ ભક્તિબિનોદ દીન હીન ૪"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            "braje rādhākṛṣṇa-rati,    amūlya-dhanada ati,",
-            "tā’i tumi bhaja ciradina",
-            "rūpa-raghunātha-pāya,    sei rati prārthanāya,",
-            "e bhaktibinoda dīna hīna 4"
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            "ಬ್ರಜೆ ರಾಧಾಕ್‌ಡ಼್ಷ್ಣರತಿ,    ಅಮೂಲ್ಯಧನದ ಅತಿ,",
-            "ತಾಽಇ ತುಮಿ ಭಜ ಚಿರದಿನ",
-            "ರೂಪರಘುನಾಥಪಾಯ,    ಸೆಇ ರತಿ ಪ್ರಾರ್ಥನಾಯ,",
-            "ಎ ಭಕ್ತಿಬಿನೊದ ದೀನ ಹೀನ ೪"
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            "బ్రజె రాధాక్డ్ష్ణరతి,    అమూల్యధనద అతి,",
-            "తాఽఇ తుమి భజ చిరదిన",
-            "రూపరఘునాథపాయ,    సెఇ రతి ప్రార్థనాయ,",
-            "ఎ భక్తిబినొద దీన హీన 4"
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            "браджэ̆ ра̄дха̄кр̤шн̣арати,    амӯлйадханада ати,",
-            "та̄'и туми бхаджа чирадина",
-            "рӯпарагхуна̄тхапа̄йа,    сэ̆и рати пра̄ртхана̄йа,",
-            "э̆ бхактибино̆да дӣна хӣна 4"
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            "ബ്രജെ രാധാക്ഡ്ഷ്ണരതി,    അമൂല്യധനദ അതി,",
-            "താഽഇ തുമി ഭജ ചിരദിന",
-            "രൂപരഘുനാഥപായ,    സെഇ രതി പ്രാർഥനായ,",
-            "എ ഭക്തിബിനൊദ ദീന ഹീന 4"
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            "ப்³ரஜெ ராதா⁴க்ஃட்²ஷ்ணரதி,    அமூல்யத⁴னத³ அதி,",
-            "தா(அ)இ துமி ப⁴ஜ சிரதி³ன",
-            "ரூபரகு⁴நாத²பாய,    ஸெஇ ரதி ப்ரார்த²னாய,",
-            "எ ப⁴க்திபி³னொத³ தீ³ன ஹீன 4"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            "braje rādhākṛṣṇa-rati,    amūlya-dhanada ati,",
-            "tā’i tumi bhaja ciradina",
-            "rūpa-raghunātha-pāya,    sei rati prārthanāya,",
-            "e bhaktibinoda dīna hīna 4"
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            "braje rādhākṛṣṇa-rati,    amūlya-dhanada ati,",
-            "tā’i tumi bhaja ciradina",
-            "rūpa-raghunātha-pāya,    sei rati prārthanāya,",
-            "e bhaktibinoda dīna hīna 4"
-          ]
-        }
-      ]
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "તદુભય ત્યાગ કર,    મુક્તિકથા પરિહર,",
+      "લક્ષ્મીપતિરતિ રાખ દૂરે",
+      "સેરતિ પ્રબલ હઽલે,    પરબ્યોમે દેય ફેલે,",
+      "નાહિ દેય બાસ બ્રજપુરે ૩"
+     ]
     },
     {
-      "verse_number": 5,
-      "source_text_master": [
-        ""
-      ],
-      "display_scripts": [
-        {
-          "script_code": "Deva",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Beng",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Orya",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Gujr",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "IAST",
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Knda",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Telu",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Cyrl",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Mlym",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Taml",
-          "standard": null,
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "BBT_Roman",
-          "text": [
-            ""
-          ]
-        },
-        {
-          "script_code": "Latn",
-          "standard": "GVP_Roman",
-          "text": [
-            ""
-          ]
-        }
-      ]
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "tadubhaya tyāga kara,    muktikathā parihara,",
+      "lakṣmīpati-rati rākha dūre",
+      "se-rati prabala ha’le,    parabyome deya phele,",
+      "nāhi deya bāsa brajapure 3"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ತದುಭಯ ತ್ಯಾಗ ಕರ,    ಮುಕ್ತಿಕಥಾ ಪರಿಹರ,",
+      "ಲಕ್ಷ್ಮೀಪತಿರತಿ ರಾಖ ದೂರೆ",
+      "ಸೆರತಿ ಪ್ರಬಲ ಹಽಲೆ,    ಪರಬ್ಯೊಮೆ ದೆಯ ಫೆಲೆ,",
+      "ನಾಹಿ ದೆಯ ಬಾಸ ಬ್ರಜಪುರೆ ೩"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "తదుభయ త్యాగ కర,    ముక్తికథా పరిహర,",
+      "లక్ష్మీపతిరతి రాఖ దూరె",
+      "సెరతి ప్రబల హఽలె,    పరబ్యొమె దెయ ఫెలె,",
+      "నాహి దెయ బాస బ్రజపురె 3"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "тадубхайа тйа̄га кара,    муктикатха̄ парихара,",
+      "лакшмӣпатирати ра̄кха дӯрэ̆",
+      "сэ̆рати прабала ха'лэ̆,    парабйо̆мэ̆ дэ̆йа пхэ̆лэ̆,",
+      "на̄хи дэ̆йа ба̄са браджапурэ̆ 3"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "തദുഭയ ത്യാഗ കര,    മുക്തികഥാ പരിഹര,",
+      "ലക്ഷ്മീപതിരതി രാഖ ദൂരെ",
+      "സെരതി പ്രബല ഹഽലെ,    പരബ്യൊമെ ദെയ ഫെലെ,",
+      "നാഹി ദെയ ബാസ ബ്രജപുരെ 3"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "தது³ப⁴ய த்யாக³ கர,    முக்திகதா² பரிஹர,",
+      "லக்ஷ்மீபதிரதி ராக² தூ³ரெ",
+      "ஸெரதி ப்ரப³ல ஹ(அ)லெ,    பரப்³யொமெ தெ³ய பெ²லெ,",
+      "நாஹி தெ³ய பா³ஸ ப்³ரஜபுரெ 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "tadubhaya tyāga kara,    muktikathā parihara,",
+      "lakṣmīpati-rati rākha dūre",
+      "se-rati prabala ha’le,    parabyome deya phele,",
+      "nāhi deya bāsa brajapure 3"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "tadubhaya tyāga kara,    muktikathā parihara,",
+      "lakṣmīpati-rati rākha dūre",
+      "se-rati prabala ha’le,    parabyome deya phele,",
+      "nāhi deya bāsa brajapure 3"
+     ]
     }
-  ],
-  "notes": [
+   ]
+  },
+  {
+   "verse_number": 4,
+   "source_text_master": [
+    "braje rādhākṛṣṇa[FLAG_HYPHEN_ALPHA]rati,    amūlya[FLAG_HYPHEN_ALPHA]dhanada ati,",
+    "tā’i tumi bhaja ciradina",
+    "rūpa[FLAG_HYPHEN_ALPHA]raghunātha[FLAG_HYPHEN_ALPHA]pāya,    sei rati prārthanāya,",
+    "e bhaktibinoda dīna hīna 4"
+   ],
+   "display_scripts": [
     {
-      "language_code": "ben",
-      "text": "অসদ্বার্ত্তা-বেশ্যা বিসৃজ মতিসর্ব্বস্ব-হরণীঃ"
+     "script_code": "Deva",
+     "standard": null,
+     "text": [
+      "ब्रजॆ राधाक्ड़्ष्णरति,    अमूल्यधनद अति,",
+      "ताऽइ तुमि भज चिरदिन",
+      "रूपरघुनाथपाय,    सॆइ रति प्रार्थनाय,",
+      "ऎ भक्तिबिनॊद दीन हीन ४"
+     ]
     },
     {
-      "language_code": "ben",
-      "text": "কথা মুক্তিব্যাঘ্রা ন শৃণু কিল সর্ব্বাত্মগিলনীঃ ।"
+     "script_code": "Beng",
+     "standard": null,
+     "text": [
+      "ব্রজে রাধাক্ড়্ষ্ণরতি,    অমূল্যধনদ অতি,",
+      "তাঽই তুমি ভজ চিরদিন",
+      "রূপরঘুনাথপায়,    সেই রতি প্রার্থনায়,",
+      "এ ভক্তিবিনোদ দীন হীন ৪"
+     ]
     },
     {
-      "language_code": "ben",
-      "text": "অপি ত্যক্ত্ব লক্ষ্মীপতিরতিমিতো ব্যোমনয়নীং"
+     "script_code": "Orya",
+     "standard": null,
+     "text": [
+      "ବ୍ରଜେ ରାଧାକ୍ଡ଼୍ଷ୍ଣରତି,    ଅମୂଲ୍ୟଧନଦ ଅତି,",
+      "ତାଽଇ ତୁମି ଭଜ ଚିରଦିନ",
+      "ରୂପରଘୁନାଥପାୟ,    ସେଇ ରତି ପ୍ରାର୍ଥନାୟ,",
+      "ଏ ଭକ୍ତିବିନୋଦ ଦୀନ ହୀନ ୪"
+     ]
     },
     {
-      "language_code": "ben",
-      "text": "ব্রজে রাধাকৃষ্ণৌ স্বরতি-মণিদৌ ত্বং ভজ মনঃ ॥৪॥"
+     "script_code": "Gujr",
+     "standard": null,
+     "text": [
+      "બ્રજે રાધાક્ડ઼્ષ્ણરતિ,    અમૂલ્યધનદ અતિ,",
+      "તાઽઇ તુમિ ભજ ચિરદિન",
+      "રૂપરઘુનાથપાય,    સેઇ રતિ પ્રાર્થનાય,",
+      "એ ભક્તિબિનોદ દીન હીન ૪"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "IAST",
+     "text": [
+      "braje rādhākṛṣṇa-rati,    amūlya-dhanada ati,",
+      "tā’i tumi bhaja ciradina",
+      "rūpa-raghunātha-pāya,    sei rati prārthanāya,",
+      "e bhaktibinoda dīna hīna 4"
+     ]
+    },
+    {
+     "script_code": "Knda",
+     "standard": null,
+     "text": [
+      "ಬ್ರಜೆ ರಾಧಾಕ್‌ಡ಼್ಷ್ಣರತಿ,    ಅಮೂಲ್ಯಧನದ ಅತಿ,",
+      "ತಾಽಇ ತುಮಿ ಭಜ ಚಿರದಿನ",
+      "ರೂಪರಘುನಾಥಪಾಯ,    ಸೆಇ ರತಿ ಪ್ರಾರ್ಥನಾಯ,",
+      "ಎ ಭಕ್ತಿಬಿನೊದ ದೀನ ಹೀನ ೪"
+     ]
+    },
+    {
+     "script_code": "Telu",
+     "standard": null,
+     "text": [
+      "బ్రజె రాధాక్డ్ష్ణరతి,    అమూల్యధనద అతి,",
+      "తాఽఇ తుమి భజ చిరదిన",
+      "రూపరఘునాథపాయ,    సెఇ రతి ప్రార్థనాయ,",
+      "ఎ భక్తిబినొద దీన హీన 4"
+     ]
+    },
+    {
+     "script_code": "Cyrl",
+     "standard": null,
+     "text": [
+      "браджэ̆ ра̄дха̄кр̤шн̣арати,    амӯлйадханада ати,",
+      "та̄'и туми бхаджа чирадина",
+      "рӯпарагхуна̄тхапа̄йа,    сэ̆и рати пра̄ртхана̄йа,",
+      "э̆ бхактибино̆да дӣна хӣна 4"
+     ]
+    },
+    {
+     "script_code": "Mlym",
+     "standard": null,
+     "text": [
+      "ബ്രജെ രാധാക്ഡ്ഷ്ണരതി,    അമൂല്യധനദ അതി,",
+      "താഽഇ തുമി ഭജ ചിരദിന",
+      "രൂപരഘുനാഥപായ,    സെഇ രതി പ്രാർഥനായ,",
+      "എ ഭക്തിബിനൊദ ദീന ഹീന 4"
+     ]
+    },
+    {
+     "script_code": "Taml",
+     "standard": null,
+     "text": [
+      "ப்³ரஜெ ராதா⁴க்ஃட்²ஷ்ணரதி,    அமூல்யத⁴னத³ அதி,",
+      "தா(அ)இ துமி ப⁴ஜ சிரதி³ன",
+      "ரூபரகு⁴நாத²பாய,    ஸெஇ ரதி ப்ரார்த²னாய,",
+      "எ ப⁴க்திபி³னொத³ தீ³ன ஹீன 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "BBT_Roman",
+     "text": [
+      "braje rādhākṛṣṇa-rati,    amūlya-dhanada ati,",
+      "tā’i tumi bhaja ciradina",
+      "rūpa-raghunātha-pāya,    sei rati prārthanāya,",
+      "e bhaktibinoda dīna hīna 4"
+     ]
+    },
+    {
+     "script_code": "Latn",
+     "standard": "GVP_Roman",
+     "text": [
+      "braje rādhākṛṣṇa-rati,    amūlya-dhanada ati,",
+      "tā’i tumi bhaja ciradina",
+      "rūpa-raghunātha-pāya,    sei rati prārthanāya,",
+      "e bhaktibinoda dīna hīna 4"
+     ]
     }
-  ],
-  "audio_available": true,
-  "audio_files": [
-    {
-      "uid": "srrb-1",
-      "filename": "MS6-srrb-1.mp3",
-      "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
-    }
-  ],
-  "tags": [
-    "Śrī Manaḥ-śikṣā"
-  ]
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "language_code": "ben",
+   "text": "অসদ্বার্ত্তা-বেশ্যা বিসৃজ মতিসর্ব্বস্ব-হরণীঃ"
+  },
+  {
+   "language_code": "ben",
+   "text": "কথা মুক্তিব্যাঘ্রা ন শৃণু কিল সর্ব্বাত্মগিলনীঃ ।"
+  },
+  {
+   "language_code": "ben",
+   "text": "অপি ত্যক্ত্ব লক্ষ্মীপতিরতিমিতো ব্যোমনয়নীং"
+  },
+  {
+   "language_code": "ben",
+   "text": "ব্রজে রাধাকৃষ্ণৌ স্বরতি-মণিদৌ ত্বং ভজ মনঃ ॥৪॥"
+  }
+ ],
+ "audio_available": true,
+ "audio_files": [
+  {
+   "uid": "srrb-1",
+   "filename": "MS6-srrb-1.mp3",
+   "artist": "Sudarsan das (Radha-ramana Babaji Maharaja)"
+  }
+ ],
+ "tags": [
+  "Śrī Manaḥ-śikṣā"
+ ]
 }

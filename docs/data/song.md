@@ -57,6 +57,17 @@ ordered verses, and its audio. Everything a screen needs to render a song is rea
 - `author_uid` references an existing Author, or the sentinel `"?"` for unknown authorship; when
   `"?"`, `author_display` still provides a human-readable fallback (e.g. `"অজানা লেখক"` / "unknown").
 - `verses` is ordered; render order = list order (do not sort by `verse_number`).
+- **Every verse has non-empty `source_text_master`.** A verse with no source is never legitimate: if
+  it carries a translation, that translation renders as a floating paragraph with no original,
+  transliteration or word-for-word above it (and its presence usually means the verse *splitting* is
+  misaligned, so the neighbouring translations are on the wrong stanzas too); if it carries nothing,
+  it is a stray block every platform still decodes and lays out.
+- **One verse = one stanza.** Packing two stanzas into a verse silently breaks translation
+  alignment, since translations are per stanza — see K29 in the change log.
+- **`display_scripts[].text` is line-aligned to `source_text_master`** (same line count): the scripts
+  are generated line-by-line from the master, so a mismatch means a verse was edited without
+  regenerating them and the reader sees the wrong script line beside a given source line.
+- Enforced by `pipeline/validate_verses.py`, which exits non-zero on any of the three.
 - Every `ref` (`author_uid`, `topics[]`) resolves to an existing entity in the shipped dataset.
 - `audio_available == (audio_files is non-empty)`.
 
