@@ -96,6 +96,9 @@ export const RecordingPickerButton: React.FC<IRecordingPickerButtonProps> = ({
       type="button"
       onClick={onClick}
       aria-label={ariaLabel}
+      // Hover tooltip parity with the rest of the player's controls; names the reciter count so it
+      // reads as "pick a different singer", not just "a menu".
+      title={`${ariaLabel} (${tracks.length})`}
       aria-expanded={ariaExpanded}
       className={`flex h-8 items-center gap-1.5 rounded-full px-2 transition-colors ${open ? 'bg-[var(--highlight)]/15' : 'hover:bg-[var(--background)]'}`}
     >

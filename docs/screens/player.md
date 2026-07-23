@@ -77,11 +77,25 @@ Playback still **degrades gracefully** on any load failure (network off, missing
   - **Sleep timer** — a drop-up of minute presets + "End of track"; the button shows the remaining
     `mm:ss` (or "End"). Backed by `services/sleepTimer.ts`.
   - **Book/topic queue** — when a book or topic page arms a *queue* (`queueContext`), the card grows
-    **previous / next** transport around the play button; with no queue those controls take no room.
-    The queue is *not* otherwise labelled on the card (see v9).
-  - **"Play this" chip** — when a take is playing but the reader has navigated to a *different*
-    song's page (which armed itself), a chip appears above the widget to switch playback to the song
-    being read.
+    **previous / next** transport around the play button. The pair is rendered off whether it can
+    actually *move* (`canPrevious || canNext`), not off whether a queue exists — the queue is armed
+    by whichever page is open while the buttons act on the *playing* song, and when those disagree
+    the old check drew two permanently-dead arrows (see v10). The queue is *not* otherwise labelled
+    on the card (see v9).
+  - **Keep playing (endless)** — on (the default), playback never stops on its own: the song's other
+    **takes** first, then its **book/topic** in order, then **any other song with audio**, forever.
+    The pool is the build-time `/search-listings.json` filtered to `audioAvailable`, fetched once and
+    only while the toggle is on; the pick is random so a long unattended session doesn't march
+    through the corpus in uid order. Endless is strictly *last* in `resolveTrackEndAction` — it never
+    pre-empts a song's own takes or its collection order, and still yields to an end-of-track sleep
+    timer and to repeat-one. With it on, **next** also skips past the end of a queue.
+  - **"Play this" strip** — when a take is playing but the reader has navigated to a *different*
+    song's page (which armed itself), a strip switches playback to the song being read. It is
+    **tucked behind the card's top edge** — inset horizontally, rounded on top only, its lower edge
+    hidden behind the card — so it reads as part of the player rather than a second floating
+    control. It renders **only on the expanded card**: collapsing is a deliberate "get out of my
+    way", so the circle stays a bare circle (as a free-floating pill it covered ~190px of a phone
+    screen). See v10.
   - **Share** copies a deep link `/songs/<uid>?play=<trackUid>` (or the Web Share sheet); the song
     page reads `?play=` and cues+plays that take — autoplay-blocked degrades to *paused/cued*, not
     error. **Download** fetches the mp3 as a blob (falls back to opening the S3 URL — the bucket
@@ -115,6 +129,22 @@ Playback still **degrades gracefully** on any load failure (network off, missing
 
 ## Change log
 
+- **v10 (web)** — **Continue-playing became "Keep playing" (endless).** It previously only rolled on
+  to the next *take*, so a single-take song, or the last song of a book, stopped dead. It now falls
+  through to any other song with audio and never stops on its own (`pickEndlessSong` +
+  `endlessNextSongUid`, last in the priority order so takes and collection order still win). No
+  longer disabled on single-take songs. **Dead transport arrows fixed:** previous/next were rendered
+  from `queue` (armed by the open page) but enabled from the *playing* song, so reading song B while
+  song A played drew two arrows that could never move; they now render off `canPrevious || canNext`,
+  and `next` skips onward via endless play when a queue runs out. **Tooltips** added to every player
+  control (all 10 buttons + the recordings picker) so hovering explains each icon.
+  Also: the **"Play this" chip became a tucked strip.** It was a full-width pill floating
+  *above* the widget; stacked over the card it covered ~190px of a 390px-wide phone screen and read
+  as a second, competing player. It now sits **behind** the card's top edge (inset `mx-3`,
+  `rounded-t-2xl`, lower edge overlapped by the card) as one visual unit, and is **gated on the
+  expanded state** so a collapsed player is a bare circle again. Also toned down from the solid
+  `--highlight` fill to the card's own surface with a `--highlight` play glyph, since it is a
+  secondary action next to the transport.
 - **v9 (web)** — Removed the "**Playing from** \<collection\> · N of M" line from the card. The
   collection breadcrumb duplicated context the reader already had (they arrived from that book/topic
   page) and competed with the title/reciter for the card's two legible lines. The **queue itself is

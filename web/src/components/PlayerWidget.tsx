@@ -78,7 +78,7 @@ export const PlayerWidget: React.FC = () => {
   const {
     song, trackUid, status, armedSong, currentTime, duration,
     isLooping, toggleLoop, autoContinue, toggleAutoContinue,
-    hasPreviousInQueue, hasNextInQueue, previous, next, queue,
+    hasNextInQueue, canPrevious, canNext, previous, next,
     sleepTimer, sleepRemainingMs, startSleepTimer, startSleepTimerEndOfTrack, cancelSleepTimer,
     playSong, selectTrack, togglePlayPause, seek,
   } = usePlayer()
@@ -132,13 +132,17 @@ export const PlayerWidget: React.FC = () => {
   const singer = track?.artist || author
   const playing = status === 'playing'
   const showCircle = !loaded || collapsed
+  // The transport pair earns its space only when at least one direction can actually move.
+  const showTransport = canPrevious || canNext
 
   const playArmed = () => armedSong && playSong(armedSong)
 
   // Collision: a song is playing, but the reader has navigated to a DIFFERENT song's page (which
   // armed itself). The mini-player still holds the playing song, so there's no way to start the one
-  // being read — surface a "Play this" chip above the widget that switches playback to it.
-  const showPlayArmedChip = !!armedSong && !!song && armedSong.uid !== song.uid
+  // being read — surface a "Play this" strip tucked behind the card's top edge that switches to it.
+  // Gated on the expanded card (`!showCircle`): collapsing is a deliberate "get out of my way", so
+  // the circle stays a bare circle — on a phone the strip would otherwise be pure obstruction.
+  const showPlayArmedChip = !!armedSong && !!song && armedSong.uid !== song.uid && !showCircle
   const armedTitle = armedSong
     ? pickScriptText(armedSong.titleMain, [settings.listLanguage, 'Latn', 'Beng'])
     : ''
@@ -196,27 +200,6 @@ export const PlayerWidget: React.FC = () => {
 
   return (
     <div ref={rootRef} className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2">
-      {/* "Play this" chip — appears when the reader is on a different song's page than the one
-          playing, so they can switch playback to the song they're reading. */}
-      <AnimatePresence>
-        {showPlayArmedChip && (
-          <motion.button
-            key="play-armed"
-            type="button"
-            onClick={() => armedSong && playSong(armedSong)}
-            initial={{ opacity: 0, y: 8, scale: 0.96 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 8, scale: 0.96 }}
-            transition={{ duration: 0.16 }}
-            title={`Play “${armedTitle}”`}
-            className="flex max-w-[21rem] items-center gap-2 rounded-full bg-[var(--highlight)] px-3.5 py-2 text-sm font-medium text-[var(--on-highlight)] shadow-lg transition-[filter] hover:brightness-95"
-          >
-            <Play size={15} className="flex-none" />
-            <span className="truncate">Play “{armedTitle}”</span>
-          </motion.button>
-        )}
-      </AnimatePresence>
-
       {/* recordings drop-up */}
       <AnimatePresence>
         {openMenu === 'recordings' && song && hasMultipleTakes && !showCircle && (
@@ -301,11 +284,38 @@ export const PlayerWidget: React.FC = () => {
         )}
       </AnimatePresence>
 
-      <motion.div
+      {/* Stacked unit: the "play what I'm reading" strip sits BEHIND the card, inset on both sides
+          and peeking above its top edge, so it reads as part of the player instead of a second
+          floating control. The card's own border + shadow draws the seam. */}
+      <div className="flex flex-col items-stretch">
+        <AnimatePresence>
+          {showPlayArmedChip && (
+            <motion.button
+              key="play-armed"
+              type="button"
+              onClick={() => armedSong && playSong(armedSong)}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: 10 }}
+              transition={{ duration: 0.18 }}
+              title={`Play “${armedTitle}”`}
+              /* pb-6/-mb-4: the strip is 16px taller than it looks and the card is pulled up over
+                 that slack, hiding its bottom edge + rounding behind the card. */
+              className="relative z-0 mx-3 flex items-center gap-1.5 -mb-4 rounded-t-2xl border border-b-0 border-[var(--border)] bg-[var(--background-offset)] px-3.5 pb-6 pt-2 text-left text-xs text-[var(--neutral)] shadow-lg transition-colors hover:text-[var(--primary)]"
+            >
+              <Play size={13} className="flex-none text-[var(--highlight)]" />
+              <span className="truncate">
+                Play “<span className="font-medium text-[var(--primary)]">{armedTitle}</span>”
+              </span>
+            </motion.button>
+          )}
+        </AnimatePresence>
+
+        <motion.div
         layout
         transition={spring}
         style={{ borderRadius: showCircle ? 28 : 24 }}
-        className={`overflow-hidden border border-[var(--border)] bg-[var(--background-offset)] shadow-2xl ${
+        className={`relative z-10 overflow-hidden border border-[var(--border)] bg-[var(--background-offset)] shadow-2xl ${
           showCircle ? '' : 'w-[21rem] max-w-[calc(100vw-3rem)] p-3'
         }`}
       >
@@ -316,6 +326,7 @@ export const PlayerWidget: React.FC = () => {
                 type="button"
                 onClick={loaded ? togglePlayPause : playArmed}
                 aria-label={loaded ? (playing ? 'Pause' : 'Play') : 'Play'}
+                title={loaded ? (playing ? 'Pause' : 'Play') : 'Play'}
                 className="flex h-full w-full items-center justify-center rounded-full bg-[var(--highlight)] text-[var(--on-highlight)]"
               >
                 {mainIcon}
@@ -326,6 +337,7 @@ export const PlayerWidget: React.FC = () => {
                   type="button"
                   onClick={() => setCollapsed(false)}
                   aria-label="Expand player"
+                  title="Expand player"
                   className="absolute -right-1 -top-1 flex h-6 w-6 items-center justify-center rounded-full border border-[var(--border)] bg-[var(--background-offset)] text-[var(--neutral)] shadow hover:text-[var(--primary)]"
                 >
                   <Maximize2 size={12} />
@@ -345,9 +357,13 @@ export const PlayerWidget: React.FC = () => {
                   {/* The reciter (singer) of the current recording — not the song's composer/author. */}
                   <p className="mt-0.5 truncate text-xs text-[var(--neutral)]">{singer}</p>
                 </div>
-                {/* Previous/next through the armed book/topic queue - only takes room when one exists. */}
-                {queue && (
-                  <button type="button" onClick={previous} disabled={!hasPreviousInQueue} aria-label="Previous song"
+                {/* Previous/next through the armed book/topic queue (or endless play's shuffle).
+                    Rendered off `canPrevious || canNext` — the *playing* song being in the queue —
+                    not off `queue`, which is armed by whatever page is open and left a pair of
+                    permanently-dead arrows whenever those two disagreed. */}
+                {showTransport && (
+                  <button type="button" onClick={previous} disabled={!canPrevious} aria-label="Previous song"
+                    title={canPrevious ? 'Previous song' : 'No previous song'}
                     className="flex h-8 w-8 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:bg-[var(--background)] hover:text-[var(--primary)] disabled:opacity-30 disabled:hover:bg-transparent">
                     <SkipBack size={16} />
                   </button>
@@ -356,12 +372,14 @@ export const PlayerWidget: React.FC = () => {
                   type="button"
                   onClick={togglePlayPause}
                   aria-label={playing ? 'Pause' : 'Play'}
+                  title={playing ? 'Pause' : 'Play'}
                   className="flex h-11 w-11 flex-none items-center justify-center rounded-full bg-[var(--highlight)] text-[var(--on-highlight)] shadow-md transition-colors hover:brightness-95"
                 >
                   {mainIcon}
                 </button>
-                {queue && (
-                  <button type="button" onClick={next} disabled={!hasNextInQueue} aria-label="Next song"
+                {showTransport && (
+                  <button type="button" onClick={next} disabled={!canNext} aria-label="Next song"
+                    title={autoContinue && !hasNextInQueue ? 'Skip to another song' : 'Next song'}
                     className="flex h-8 w-8 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:bg-[var(--background)] hover:text-[var(--primary)] disabled:opacity-30 disabled:hover:bg-transparent">
                     <SkipForward size={16} />
                   </button>
@@ -389,15 +407,20 @@ export const PlayerWidget: React.FC = () => {
 
                   <div className="mt-2 flex flex-wrap items-center gap-1">
                     <button type="button" onClick={toggleLoop} aria-label="Loop" aria-pressed={isLooping}
+                      title={isLooping ? 'Repeat one: on' : 'Repeat one: off'}
                       className={isLooping ? ctrlBtnOn : ctrlBtn}>
                       <Repeat size={16} />
                     </button>
-                    {/* Rolls on to the next singer's take when this one ends. Disabled (not hidden)
-                        on single-take songs so the control row doesn't reflow between songs. */}
-                    <button type="button" onClick={toggleAutoContinue} disabled={!hasMultipleTakes}
-                      aria-label="Continue playing next recording" aria-pressed={autoContinue}
-                      title={hasMultipleTakes ? 'Continue to the next recording' : 'Only one recording'}
-                      className={`${autoContinue ? ctrlBtnOn : ctrlBtn} disabled:opacity-40 disabled:hover:bg-transparent`}>
+                    {/* Endless play. On, playback never stops on its own: this song's other takes
+                        first, then its book/topic in order, then any other song with audio. Always
+                        enabled — it is no longer about multi-take songs alone, so a single-take
+                        song can still start an endless session. */}
+                    <button type="button" onClick={toggleAutoContinue}
+                      aria-label="Keep playing" aria-pressed={autoContinue}
+                      title={autoContinue
+                        ? 'Keep playing: on — other recordings, then this book/topic, then more songs'
+                        : 'Keep playing: off — stops at the end'}
+                      className={autoContinue ? ctrlBtnOn : ctrlBtn}>
                       <ListEnd size={16} />
                     </button>
                     <button type="button" onClick={() => setOpenMenu(openMenu === 'sleep' ? null : 'sleep')}
@@ -406,10 +429,10 @@ export const PlayerWidget: React.FC = () => {
                       <Moon size={14} />
                       {sleepLabel && <span className="tabular-nums">{sleepLabel}</span>}
                     </button>
-                    <button type="button" onClick={handleDownload} aria-label="Download MP3" className={ctrlBtn}>
+                    <button type="button" onClick={handleDownload} aria-label="Download MP3" title="Download MP3" className={ctrlBtn}>
                       <Download size={16} />
                     </button>
-                    <button type="button" onClick={handleShare} aria-label="Share" className={ctrlBtn}>
+                    <button type="button" onClick={handleShare} aria-label="Share" title="Copy a link to this recording" className={ctrlBtn}>
                       <Share2 size={16} />
                     </button>
                     {copied && <span className="ml-1 text-[11px] font-medium text-[var(--highlight)]">Copied</span>}
@@ -422,7 +445,7 @@ export const PlayerWidget: React.FC = () => {
                           onClick={() => setOpenMenu(openMenu === 'recordings' ? null : 'recordings')}
                         />
                       )}
-                      <button type="button" onClick={() => { setCollapsed(true); setOpenMenu(null) }} aria-label="Collapse player" className={ctrlBtn}>
+                      <button type="button" onClick={() => { setCollapsed(true); setOpenMenu(null) }} aria-label="Collapse player" title="Collapse player" className={ctrlBtn}>
                         <Minimize2 size={16} />
                       </button>
                     </div>
@@ -432,7 +455,8 @@ export const PlayerWidget: React.FC = () => {
             </motion.div>
           )}
         </AnimatePresence>
-      </motion.div>
+        </motion.div>
+      </div>
     </div>
   )
 }

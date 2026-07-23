@@ -58,7 +58,12 @@ export type TrackEndAction =
  *  3. Auto-continue to the next *take* of the same song, when one exists (pre-existing
  *     `autoContinue` behavior - other singers' recordings of this song read as one session).
  *  4. Advance the armed book/topic queue to the *next song*, once every take has played.
- *  5. Otherwise, stop.
+ *  5. **Endless play** - when "continue playing" is on and everything above is exhausted, roll on
+ *     to `endlessNextSongUid` (any other song that has audio) so playback never stops on its own.
+ *     Supplied by the caller only while the toggle is on, so an off toggle still falls through to
+ *     stop. It is deliberately LAST: the song's own takes and its book/topic order are meaningful
+ *     sequences and must be spent before playback wanders off into the wider corpus.
+ *  6. Otherwise, stop.
  */
 export function resolveTrackEndAction(params: {
   isLooping: boolean
@@ -66,6 +71,8 @@ export function resolveTrackEndAction(params: {
   autoContinueNextTrackUid: Uid | null
   queue: IPlayerQueue | null
   currentSongUid: Uid
+  /** Endless-play fallback: any other song with audio, or null when the toggle is off. */
+  endlessNextSongUid?: Uid | null
 }): TrackEndAction {
   const { isLooping, sleepEndOfTrack, autoContinueNextTrackUid, queue, currentSongUid } = params
   if (sleepEndOfTrack) return { type: 'stop' }
@@ -73,5 +80,22 @@ export function resolveTrackEndAction(params: {
   if (autoContinueNextTrackUid) return { type: 'next-take', trackUid: autoContinueNextTrackUid }
   const nextSongUid = queueNeighbor(queue, currentSongUid, 1)
   if (nextSongUid) return { type: 'advance', nextSongUid }
+  if (params.endlessNextSongUid) return { type: 'advance', nextSongUid: params.endlessNextSongUid }
   return { type: 'stop' }
+}
+
+/**
+ * Picks the next song for **endless play** - a random song from `pool` that isn't the one just
+ * finished. Random rather than sequential so a long unattended session doesn't march predictably
+ * through the corpus in uid order; `rand` is injectable so the choice is testable.
+ */
+export function pickEndlessSong(
+  pool: readonly Uid[],
+  currentSongUid: Uid,
+  rand: () => number = Math.random
+): Uid | null {
+  const candidates = pool.filter((uid) => uid !== currentSongUid)
+  if (candidates.length === 0) return null
+  const index = Math.min(candidates.length - 1, Math.floor(rand() * candidates.length))
+  return candidates[index]
 }

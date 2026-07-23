@@ -18,6 +18,7 @@ import {
   queueNeighbor,
   queuePosition as computeQueuePosition,
   resolveTrackEndAction,
+  pickEndlessSong,
 } from '../services/playerQueue'
 import {
   computeEndsAt,
@@ -90,6 +91,10 @@ interface PlayerContextType {
   /** Whether `previous`/`next` would move the *playing* song within the armed queue. */
   hasPreviousInQueue: boolean
   hasNextInQueue: boolean
+  /** Whether the transport buttons would actually move — `has*InQueue` widened by endless play,
+   *  which can always skip forward. The widget renders the pair off these, not off `queue`. */
+  canPrevious: boolean
+  canNext: boolean
   /** 1-based "3 of 12" position of the playing song within the armed queue, or null off-queue. */
   queuePosition: { index: number; total: number } | null
   previous: () => void
@@ -343,6 +348,8 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
         autoContinueNextTrackUid: nextTakeUid,
         queue,
         currentSongUid: song.uid,
+        // Only offered while the toggle is on, so playback otherwise still stops at the end.
+        endlessNextSongUid: autoContinue ? pickEndlessSong(endlessPool, song.uid) : null,
       })
 
       if (action.type === 'repeat') return // native `audio.loop` already restarted it
@@ -442,6 +449,27 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
 
   const armQueue = useCallback((next: IPlayerQueue | null) => setQueue(next), [])
 
+  // Endless play's candidate pool: every song uid that has audio. Fetched once, lazily, and only
+  // when the toggle is actually on - it is a build-time index the search palette already ships
+  // (`/search-listings.json`), so this costs nothing until endless play is used.
+  const [endlessPool, setEndlessPool] = useState<string[]>([])
+  useEffect(() => {
+    if (!autoContinue || endlessPool.length > 0) return
+    let cancelled = false
+    fetch('/search-listings.json')
+      .then((r) => r.json())
+      .then((rows: { uid: string; audioAvailable?: boolean }[]) => {
+        if (cancelled) return
+        setEndlessPool(rows.filter((r) => r.audioAvailable).map((r) => r.uid))
+      })
+      .catch(() => {
+        /* endless play just falls back to stopping - never break playback over this */
+      })
+    return () => {
+      cancelled = true
+    }
+  }, [autoContinue, endlessPool.length])
+
   const queuePositionValue = useMemo(
     () => (song ? computeQueuePosition(queue, song.uid) : null),
     [queue, song]
@@ -458,15 +486,24 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
   const goToQueueNeighbor = useCallback(
     (direction: 1 | -1) => {
       if (!song) return
-      const neighborUid = queueNeighbor(queue, song.uid, direction)
+      // Skipping forward past the end of the queue is still meaningful in endless play - it just
+      // jumps to the next random song, exactly like letting the track run out would.
+      const neighborUid =
+        queueNeighbor(queue, song.uid, direction) ??
+        (direction === 1 && autoContinue ? pickEndlessSong(endlessPool, song.uid) : null)
       if (!neighborUid) return
       pendingAutoplayRef.current = neighborUid
       router.push(`/songs/${neighborUid}`)
     },
-    [song, queue, router]
+    [song, queue, router, autoContinue, endlessPool]
   )
   const next = useCallback(() => goToQueueNeighbor(1), [goToQueueNeighbor])
   const previous = useCallback(() => goToQueueNeighbor(-1), [goToQueueNeighbor])
+
+  // What the transport can actually do right now. `hasNextInQueue` alone made the widget render a
+  // pair of permanently-dead arrows whenever the playing song wasn't in the armed queue.
+  const canPrevious = hasPreviousInQueue
+  const canNext = hasNextInQueue || (autoContinue && endlessPool.length > 0)
 
   const consumeAutoplay = useCallback((uid: string) => {
     if (pendingAutoplayRef.current !== uid) return false
@@ -600,6 +637,8 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
       armQueue,
       hasPreviousInQueue,
       hasNextInQueue,
+      canPrevious,
+      canNext,
       queuePosition: queuePositionValue,
       previous,
       next,
@@ -636,6 +675,8 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
       armQueue,
       hasPreviousInQueue,
       hasNextInQueue,
+      canPrevious,
+      canNext,
       queuePositionValue,
       previous,
       next,

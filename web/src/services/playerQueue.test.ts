@@ -1,6 +1,12 @@
 // Unit tests for the pure queue-advance logic (src/services/playerQueue.ts).
 import { describe, expect, it } from 'vitest'
-import { IPlayerQueue, queueNeighbor, queuePosition, resolveTrackEndAction } from './playerQueue'
+import {
+  IPlayerQueue,
+  queueNeighbor,
+  queuePosition,
+  resolveTrackEndAction,
+  pickEndlessSong,
+} from './playerQueue'
 
 const bookQueue: IPlayerQueue = {
   context: { kind: 'book', groupUid: 'book-saranagati', title: 'Śaraṇāgati' },
@@ -81,5 +87,60 @@ describe('resolveTrackEndAction', () => {
 
   it('stops with no queue armed at all', () => {
     expect(resolveTrackEndAction({ ...base, queue: null })).toEqual({ type: 'stop' })
+  })
+
+  describe('endless play', () => {
+    it('rolls on to any other song once the queue is exhausted', () => {
+      expect(
+        resolveTrackEndAction({ ...base, currentSongUid: 'S3', endlessNextSongUid: 'Z9' })
+      ).toEqual({ type: 'advance', nextSongUid: 'Z9' })
+    })
+
+    it('works with no queue armed at all', () => {
+      expect(
+        resolveTrackEndAction({ ...base, queue: null, endlessNextSongUid: 'Z9' })
+      ).toEqual({ type: 'advance', nextSongUid: 'Z9' })
+    })
+
+    it('never pre-empts the song\'s own takes or its queue order', () => {
+      expect(
+        resolveTrackEndAction({ ...base, autoContinueNextTrackUid: 'bvsm-2', endlessNextSongUid: 'Z9' })
+      ).toEqual({ type: 'next-take', trackUid: 'bvsm-2' })
+      expect(resolveTrackEndAction({ ...base, endlessNextSongUid: 'Z9' })).toEqual({
+        type: 'advance',
+        nextSongUid: 'S2',
+      })
+    })
+
+    it('still yields to an end-of-track sleep timer and to repeat-one', () => {
+      expect(
+        resolveTrackEndAction({ ...base, sleepEndOfTrack: true, endlessNextSongUid: 'Z9' })
+      ).toEqual({ type: 'stop' })
+      expect(
+        resolveTrackEndAction({ ...base, isLooping: true, endlessNextSongUid: 'Z9' })
+      ).toEqual({ type: 'repeat' })
+    })
+
+    it('stops when the toggle is off (no endless uid supplied)', () => {
+      expect(resolveTrackEndAction({ ...base, currentSongUid: 'S3', endlessNextSongUid: null }))
+        .toEqual({ type: 'stop' })
+    })
+  })
+})
+
+describe('pickEndlessSong', () => {
+  it('never returns the song that just finished', () => {
+    // rand=0 would land on index 0, which is the current song before filtering.
+    expect(pickEndlessSong(['A', 'B', 'C'], 'A', () => 0)).toBe('B')
+  })
+
+  it('picks across the whole remaining pool', () => {
+    expect(pickEndlessSong(['A', 'B', 'C'], 'B', () => 0)).toBe('A')
+    expect(pickEndlessSong(['A', 'B', 'C'], 'B', () => 0.99)).toBe('C')
+  })
+
+  it('returns null when nothing else is available', () => {
+    expect(pickEndlessSong(['A'], 'A', () => 0)).toBeNull()
+    expect(pickEndlessSong([], 'A', () => 0)).toBeNull()
   })
 })
