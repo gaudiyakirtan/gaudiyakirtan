@@ -98,6 +98,9 @@ __pycache__/
 .project
 .classpath
 .settings/
+# VS Code "Local History" extension snapshots. Also keeps scratch session logs out
+# of the repo — durable history belongs in each spec's Change log + git itself.
+.history/
 
 # Misc
 temp/
