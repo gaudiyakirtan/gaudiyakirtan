@@ -84,6 +84,9 @@ dist/
 .turbo
 .env*.local
 
+# Python (pipeline/)
+__pycache__/
+
 # IDEs and editors
 .vscode/
 *.sublime-project

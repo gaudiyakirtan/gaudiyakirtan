@@ -4,6 +4,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { Home, Music, AudioLines, BookOpen, Hash } from 'lucide-react'
 import { resolvePath, type ISearchEntry } from '../services/urlResolver'
+import { BrandWordmark } from '../components/BrandWordmark'
 
 interface IDestination {
   href: string
@@ -89,8 +90,7 @@ const NotFound: React.FC = () => {
       </Head>
 
       <div className="mx-auto flex max-w-2xl flex-col items-center px-4 py-16 text-center md:py-24">
-        {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src="/assets/sri-gaudiya-kirtan.svg" alt="Gaudiya Kirtan" className="brand-logo h-8" />
+        <BrandWordmark className="text-2xl" />
 
         {state !== 'not-found' ? (
           // Deliberately neutral and short-lived: for the many URLs that do resolve, telling
