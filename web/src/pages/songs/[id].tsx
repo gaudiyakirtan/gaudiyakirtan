@@ -6,7 +6,9 @@ import { ISong } from '../../models/Song'
 import { SongScreen } from '../../components/SongScreen'
 import { getAllSongUids, getSongByUid } from '../../services'
 import { pickScriptText } from '../../services/textDisplay'
+import { deriveQueueForSong } from '../../services/queueContext'
 import { recordSongVisit } from '../../utils/useRecents'
+import { usePlayer } from '../../utils/PlayerContext'
 
 interface SongPageProps {
   song: ISong
@@ -15,6 +17,7 @@ interface SongPageProps {
 
 const SongPage: React.FC<SongPageProps> = ({ song }) => {
   const router = useRouter()
+  const { armQueue, consumeAutoplay, playSong } = usePlayer()
 
   // Record the visit for home's "Continue" region (docs/screens/home.md §2). Device-local only —
   // never transmitted. Declared BEFORE the fallback/not-found early returns below, so the hook
@@ -22,6 +25,28 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
   React.useEffect(() => {
     if (song?.uid) recordSongVisit(song.uid)
   }, [song?.uid])
+
+  // Continuous play through a book/topic (docs/screens/player.md feature 2): arm this song's
+  // containing book/topic as the "next song" queue for as long as this page is open, exactly
+  // parallel to how SongScreen arms the song itself for the idle FAB. Cleared on leave so a queue
+  // never outlives the page that armed it.
+  React.useEffect(() => {
+    if (!song?.audioAvailable) {
+      armQueue(null)
+      return
+    }
+    armQueue(deriveQueueForSong(song))
+    return () => armQueue(null)
+  }, [song, armQueue])
+
+  // The other half of PlayerContext's queue-advance (and next/previous): when this page was
+  // navigated to as a continuation rather than a plain visit, consumeAutoplay(uid) returns true
+  // exactly once, and this page (not PlayerContext, which has no song data of its own to fetch)
+  // is what actually starts playback.
+  React.useEffect(() => {
+    if (!song?.audioAvailable) return
+    if (consumeAutoplay(song.uid)) playSong(song)
+  }, [song, consumeAutoplay, playSong])
 
   if (router.isFallback) {
     return <div className="p-8 text-center">Loading...</div>

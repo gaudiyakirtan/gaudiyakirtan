@@ -1,9 +1,13 @@
 import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Play, Pause, Loader2, Repeat, ListEnd, Download, Share2, Minimize2, Maximize2, Check } from 'lucide-react'
-import { usePlayer } from '../utils/PlayerContext'
+import {
+  Play, Pause, Loader2, Repeat, ListEnd, Download, Share2, Minimize2, Maximize2, Check,
+  SkipBack, SkipForward, Gauge, Moon, X,
+} from 'lucide-react'
+import { usePlayer, PLAYBACK_RATE_OPTIONS } from '../utils/PlayerContext'
 import { useSettings } from '../utils/SettingsContext'
 import { pickScriptText } from '../services/textDisplay'
+import { SLEEP_TIMER_MINUTE_OPTIONS, formatRemaining } from '../services/sleepTimer'
 import { artistImageUrlFor, audioUrlFor } from '../config'
 import { MusicNote } from './icons/MusicNote'
 
@@ -12,9 +16,10 @@ import { MusicNote } from './icons/MusicNote'
  * **morphs** (framer-motion) between a circle and a rounded card, with a spring pop + cross-fade:
  *  • idle (a song page armed its song) → a circular play FAB. Hidden on non-song pages with nothing
  *    playing.
- *  • expanded → a mini-player card: artwork, title (2 lines → marquee), author, scrubber, and a
- *    loop / continue-playing / download / share row plus a stacked-avatar **recordings** picker and
- *    a **minimize** button.
+ *  • expanded → a mini-player card: artwork, title (2 lines → marquee), author, scrubber, a
+ *    previous/next transport pair when a book/topic queue is armed, and a loop / continue-playing /
+ *    speed / sleep-timer / download / share row plus a stacked-avatar **recordings** picker and a
+ *    **minimize** button.
  *  • collapsed (while playing) → back to a circle (play/pause + a corner expand button).
  */
 
@@ -83,16 +88,23 @@ const MarqueeTitle: React.FC<{ text: string }> = ({ text }) => {
   return <div ref={ref} className="line-clamp-2 text-sm font-semibold leading-snug text-[var(--primary)]">{text}</div>
 }
 
+// The three drop-ups (recordings, speed, sleep timer) share one slot above the card and are
+// mutually exclusive, so a single "which one is open" state stands in for three booleans.
+type OpenMenu = 'recordings' | 'speed' | 'sleep' | null
+
 export const PlayerWidget: React.FC = () => {
   const {
     song, trackUid, status, armedSong, currentTime, duration,
     isLooping, toggleLoop, autoContinue, toggleAutoContinue,
+    playbackRate, setPlaybackRate,
+    hasPreviousInQueue, hasNextInQueue, queuePosition, previous, next, queue,
+    sleepTimer, sleepRemainingMs, startSleepTimer, startSleepTimerEndOfTrack, cancelSleepTimer,
     playSong, selectTrack, togglePlayPause, seek,
   } = usePlayer()
   const { settings } = useSettings()
   const [copied, setCopied] = useState(false)
   const [collapsed, setCollapsed] = useState(false)
-  const [pickerOpen, setPickerOpen] = useState(false)
+  const [openMenu, setOpenMenu] = useState<OpenMenu>(null)
   const rootRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
@@ -100,13 +112,13 @@ export const PlayerWidget: React.FC = () => {
   }, [song?.uid]) // eslint-disable-line react-hooks/exhaustive-deps
 
   useEffect(() => {
-    if (!pickerOpen) return
+    if (!openMenu) return
     const onDown = (e: MouseEvent) => {
-      if (rootRef.current && !rootRef.current.contains(e.target as Node)) setPickerOpen(false)
+      if (rootRef.current && !rootRef.current.contains(e.target as Node)) setOpenMenu(null)
     }
     document.addEventListener('mousedown', onDown)
     return () => document.removeEventListener('mousedown', onDown)
-  }, [pickerOpen])
+  }, [openMenu])
 
   // Hooks BEFORE any early return (React #310).
   const takeLabels = useMemo(() => {
@@ -206,6 +218,16 @@ export const PlayerWidget: React.FC = () => {
   const ctrlBtn = 'flex h-8 w-8 items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:bg-[var(--background)] hover:text-[var(--primary)]'
   // Shared "toggle is on" treatment, so loop and continue-playing read as the same kind of switch.
   const ctrlBtnOn = 'flex h-8 w-8 items-center justify-center rounded-full bg-[var(--highlight)]/15 text-[var(--highlight)]'
+  const pillBtn = 'flex h-8 items-center gap-1 rounded-full px-2 text-[11px] font-semibold transition-colors'
+
+  // Sleep-timer button label: the remaining mm:ss for a duration timer, "End" for the
+  // end-of-track mode (no countdown to show), or nothing when idle.
+  const sleepLabel =
+    sleepTimer?.kind === 'duration' && sleepRemainingMs != null
+      ? formatRemaining(sleepRemainingMs)
+      : sleepTimer?.kind === 'end-of-track'
+        ? 'End'
+        : null
 
   return (
     <div ref={rootRef} className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2">
@@ -232,7 +254,7 @@ export const PlayerWidget: React.FC = () => {
 
       {/* recordings drop-up */}
       <AnimatePresence>
-        {pickerOpen && song && hasMultipleTakes && !showCircle && (
+        {openMenu === 'recordings' && song && hasMultipleTakes && !showCircle && (
           <motion.div
             initial={{ opacity: 0, y: 8, scale: 0.96 }}
             animate={{ opacity: 1, y: 0, scale: 1 }}
@@ -248,7 +270,7 @@ export const PlayerWidget: React.FC = () => {
                   <li key={t.uid}>
                     <button
                       type="button"
-                      onClick={() => { selectTrack(t.uid); setPickerOpen(false) }}
+                      onClick={() => { selectTrack(t.uid); setOpenMenu(null) }}
                       className={`flex w-full items-center gap-3 px-3 py-2 text-left text-sm transition-colors ${active ? 'bg-[var(--highlight)]/15 text-[var(--highlight)]' : 'text-[var(--primary)] hover:bg-[var(--background)]'}`}
                     >
                       <Avatar trackUid={t.uid} size={28} ring={false} />
@@ -258,6 +280,89 @@ export const PlayerWidget: React.FC = () => {
                   </li>
                 )
               })}
+            </ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* playback-speed drop-up (feature 5) */}
+      <AnimatePresence>
+        {openMenu === 'speed' && !showCircle && (
+          <motion.div
+            initial={{ opacity: 0, y: 8, scale: 0.96 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 8, scale: 0.96 }}
+            transition={{ duration: 0.16 }}
+            className="w-44 overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--background-offset)] shadow-xl"
+          >
+            <p className="px-4 pb-1 pt-3 text-[11px] font-semibold uppercase tracking-wider text-[var(--neutral)]">Speed</p>
+            <ul className="pb-2">
+              {PLAYBACK_RATE_OPTIONS.map((rate) => {
+                const active = rate === playbackRate
+                return (
+                  <li key={rate}>
+                    <button
+                      type="button"
+                      onClick={() => { setPlaybackRate(rate); setOpenMenu(null) }}
+                      className={`flex w-full items-center justify-between px-4 py-2 text-left text-sm transition-colors ${active ? 'bg-[var(--highlight)]/15 text-[var(--highlight)]' : 'text-[var(--primary)] hover:bg-[var(--background)]'}`}
+                    >
+                      <span>{rate}×</span>
+                      {active && <Check size={14} />}
+                    </button>
+                  </li>
+                )
+              })}
+            </ul>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* sleep-timer drop-up (feature 4) */}
+      <AnimatePresence>
+        {openMenu === 'sleep' && !showCircle && (
+          <motion.div
+            initial={{ opacity: 0, y: 8, scale: 0.96 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 8, scale: 0.96 }}
+            transition={{ duration: 0.16 }}
+            className="w-52 overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--background-offset)] shadow-xl"
+          >
+            <p className="px-4 pb-1 pt-3 text-[11px] font-semibold uppercase tracking-wider text-[var(--neutral)]">Sleep timer</p>
+            <ul className="pb-2">
+              {/* Presets aren't tracked as "which one is active" - only the resulting deadline is
+                  stored, and re-picking the same minute value is a legitimate way to restart the
+                  countdown - so unlike Speed/Recordings, no option here shows a checkmark. */}
+              {SLEEP_TIMER_MINUTE_OPTIONS.map((minutes) => (
+                <li key={minutes}>
+                  <button
+                    type="button"
+                    onClick={() => { startSleepTimer(minutes); setOpenMenu(null) }}
+                    className="flex w-full items-center justify-between px-4 py-2 text-left text-sm text-[var(--primary)] transition-colors hover:bg-[var(--background)]"
+                  >
+                    <span>{minutes} min</span>
+                  </button>
+                </li>
+              ))}
+              <li>
+                <button
+                  type="button"
+                  onClick={() => { startSleepTimerEndOfTrack(); setOpenMenu(null) }}
+                  className={`flex w-full items-center justify-between px-4 py-2 text-left text-sm transition-colors ${sleepTimer?.kind === 'end-of-track' ? 'bg-[var(--highlight)]/15 text-[var(--highlight)]' : 'text-[var(--primary)] hover:bg-[var(--background)]'}`}
+                >
+                  <span>End of track</span>
+                </button>
+              </li>
+              {sleepTimer && (
+                <li className="mt-1 border-t border-[var(--border)] pt-1">
+                  <button
+                    type="button"
+                    onClick={() => { cancelSleepTimer(); setOpenMenu(null) }}
+                    className="flex w-full items-center gap-1.5 px-4 py-2 text-left text-sm text-[var(--neutral)] hover:bg-[var(--background)]"
+                  >
+                    <X size={14} /> Cancel timer
+                  </button>
+                </li>
+              )}
             </ul>
           </motion.div>
         )}
@@ -306,7 +411,20 @@ export const PlayerWidget: React.FC = () => {
                   )}
                   {/* The reciter (singer) of the current recording — not the song's composer/author. */}
                   <p className="mt-0.5 truncate text-xs text-[var(--neutral)]">{singer}</p>
+                  {/* "Playing from" - only shown while a book/topic queue is armed for this song. */}
+                  {queue && queuePosition && (
+                    <p className="mt-0.5 truncate text-[10px] text-[var(--neutral)]">
+                      {queue.context.title} · {queuePosition.index} of {queuePosition.total}
+                    </p>
+                  )}
                 </div>
+                {/* Previous/next through the armed book/topic queue - only takes room when one exists. */}
+                {queue && (
+                  <button type="button" onClick={previous} disabled={!hasPreviousInQueue} aria-label="Previous song"
+                    className="flex h-8 w-8 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:bg-[var(--background)] hover:text-[var(--primary)] disabled:opacity-30 disabled:hover:bg-transparent">
+                    <SkipBack size={16} />
+                  </button>
+                )}
                 <button
                   type="button"
                   onClick={togglePlayPause}
@@ -315,6 +433,12 @@ export const PlayerWidget: React.FC = () => {
                 >
                   {mainIcon}
                 </button>
+                {queue && (
+                  <button type="button" onClick={next} disabled={!hasNextInQueue} aria-label="Next song"
+                    className="flex h-8 w-8 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:bg-[var(--background)] hover:text-[var(--primary)] disabled:opacity-30 disabled:hover:bg-transparent">
+                    <SkipForward size={16} />
+                  </button>
+                )}
               </div>
 
               {status !== 'error' && (
@@ -336,7 +460,7 @@ export const PlayerWidget: React.FC = () => {
                     <span className="w-9 flex-none text-[10px] tabular-nums text-[var(--neutral)]">{fmt(duration)}</span>
                   </div>
 
-                  <div className="mt-2 flex items-center gap-1">
+                  <div className="mt-2 flex flex-wrap items-center gap-1">
                     <button type="button" onClick={toggleLoop} aria-label="Loop" aria-pressed={isLooping}
                       className={isLooping ? ctrlBtnOn : ctrlBtn}>
                       <Repeat size={16} />
@@ -349,6 +473,18 @@ export const PlayerWidget: React.FC = () => {
                       className={`${autoContinue ? ctrlBtnOn : ctrlBtn} disabled:opacity-40 disabled:hover:bg-transparent`}>
                       <ListEnd size={16} />
                     </button>
+                    <button type="button" onClick={() => setOpenMenu(openMenu === 'speed' ? null : 'speed')}
+                      aria-label="Playback speed" title="Playback speed"
+                      className={`${pillBtn} ${openMenu === 'speed' || playbackRate !== 1 ? 'bg-[var(--highlight)]/15 text-[var(--highlight)]' : 'text-[var(--neutral)] hover:bg-[var(--background)] hover:text-[var(--primary)]'}`}>
+                      <Gauge size={14} />
+                      <span>{playbackRate}×</span>
+                    </button>
+                    <button type="button" onClick={() => setOpenMenu(openMenu === 'sleep' ? null : 'sleep')}
+                      aria-label="Sleep timer" title="Sleep timer"
+                      className={`${pillBtn} ${sleepTimer || openMenu === 'sleep' ? 'bg-[var(--highlight)]/15 text-[var(--highlight)]' : 'text-[var(--neutral)] hover:bg-[var(--background)] hover:text-[var(--primary)]'}`}>
+                      <Moon size={14} />
+                      {sleepLabel && <span className="tabular-nums">{sleepLabel}</span>}
+                    </button>
                     <button type="button" onClick={handleDownload} aria-label="Download MP3" className={ctrlBtn}>
                       <Download size={16} />
                     </button>
@@ -359,8 +495,8 @@ export const PlayerWidget: React.FC = () => {
 
                     <div className="ml-auto flex items-center gap-1">
                       {hasMultipleTakes && (
-                        <button type="button" onClick={() => setPickerOpen((v) => !v)} aria-label="Choose recording"
-                          className={`flex h-8 items-center gap-1.5 rounded-full px-2 transition-colors ${pickerOpen ? 'bg-[var(--highlight)]/15' : 'hover:bg-[var(--background)]'}`}>
+                        <button type="button" onClick={() => setOpenMenu(openMenu === 'recordings' ? null : 'recordings')} aria-label="Choose recording"
+                          className={`flex h-8 items-center gap-1.5 rounded-full px-2 transition-colors ${openMenu === 'recordings' ? 'bg-[var(--highlight)]/15' : 'hover:bg-[var(--background)]'}`}>
                           <span className="flex items-center">
                             {avatarTracks.map((t, i) => (
                               <span key={t.uid} className={`relative ${i === 0 ? '' : '-ml-2'}`} style={{ zIndex: avatarTracks.length - i }}>
@@ -368,10 +504,10 @@ export const PlayerWidget: React.FC = () => {
                               </span>
                             ))}
                           </span>
-                          <span className={`text-[11px] font-semibold ${pickerOpen ? 'text-[var(--highlight)]' : 'text-[var(--neutral)]'}`}>{song!.tracks.length}</span>
+                          <span className={`text-[11px] font-semibold ${openMenu === 'recordings' ? 'text-[var(--highlight)]' : 'text-[var(--neutral)]'}`}>{song!.tracks.length}</span>
                         </button>
                       )}
-                      <button type="button" onClick={() => { setCollapsed(true); setPickerOpen(false) }} aria-label="Collapse player" className={ctrlBtn}>
+                      <button type="button" onClick={() => { setCollapsed(true); setOpenMenu(null) }} aria-label="Collapse player" className={ctrlBtn}>
                         <Minimize2 size={16} />
                       </button>
                     </div>
