@@ -78,7 +78,7 @@ export const PlayerWidget: React.FC = () => {
   const {
     song, trackUid, status, armedSong, currentTime, duration,
     isLooping, toggleLoop, autoContinue, toggleAutoContinue,
-    hasPreviousInQueue, hasNextInQueue, queuePosition, previous, next, queue,
+    hasPreviousInQueue, hasNextInQueue, previous, next, queue,
     sleepTimer, sleepRemainingMs, startSleepTimer, startSleepTimerEndOfTrack, cancelSleepTimer,
     playSong, selectTrack, togglePlayPause, seek,
   } = usePlayer()
@@ -344,12 +344,6 @@ export const PlayerWidget: React.FC = () => {
                   )}
                   {/* The reciter (singer) of the current recording — not the song's composer/author. */}
                   <p className="mt-0.5 truncate text-xs text-[var(--neutral)]">{singer}</p>
-                  {/* "Playing from" - only shown while a book/topic queue is armed for this song. */}
-                  {queue && queuePosition && (
-                    <p className="mt-0.5 truncate text-[10px] text-[var(--neutral)]">
-                      {queue.context.title} · {queuePosition.index} of {queuePosition.total}
-                    </p>
-                  )}
                 </div>
                 {/* Previous/next through the armed book/topic queue - only takes room when one exists. */}
                 {queue && (
