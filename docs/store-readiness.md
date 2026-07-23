@@ -5,8 +5,14 @@ needs your accounts + credentials and is an irreversible outward step — that's
 won't cross.**
 
 ## Web → Vercel
-- [x] Static build passes (`pnpm build`, 715 pages).
-- [ ] `vercel.json` / project settings (root = `web/`, build = `pnpm build`, output = `.next`).
+- [x] Static build passes (`pnpm build`, 736 pages).
+- [x] `web/vercel.json` pins the Next.js framework and `pnpm run build`. Its
+      `outputDirectory: null` override deliberately restores the Next.js framework default instead
+      of publishing `public/`; `public/` contains Markdown twins and is an input to the Next.js app,
+      not the deployment output.
+- [ ] Vercel project root directory = `web/`. The repository configuration owns the framework,
+      build command, and output directory so dashboard overrides cannot silently turn the project
+      into a static `public/` deployment.
 - [ ] Env: none required at runtime (fully static + public S3 audio). Confirm S3 CORS allows the
       site origin for `<audio>` range requests (the bucket already serves `206` publicly).
 - [ ] 🚀 **Deploy** (`vercel --prod`) — needs your Vercel login. **(outward step — your call)**
