@@ -277,4 +277,40 @@ export const hybrid = {
   },
 }
 
-export const ENGINES = [current, bm25, bm25Fuzzy, trigram, phoneticEngine, hybrid]
+// ---------------------------------------------------------------------------
+// trigram-fielded - the same trigram matcher, but title and content are kept in
+// SEPARATE indexes and combined per song, instead of being poured into one bag
+// of n-grams.
+//
+// This exists because of a result the lab produced: adding verse text collapses
+// plain trigram from 79.7% to 23.4% R@1, while the linear ranker barely moves
+// (77.1% -> 65.8%). The difference is not the algorithm, it is the document
+// model. The linear ranker scores every text separately and keeps the best;
+// pooling instead lets ~24 lines of verse drown the one line that is the title.
+// A doc may supply {title:[], content:[]}; it falls back to `texts` if not.
+// ---------------------------------------------------------------------------
+export const trigramFielded = {
+  id: 'trigram-fielded',
+  name: 'Trigram, fielded (title | content)',
+  blurb: 'Separate trigram indexes for title and body, combined per song. Title dominates; content only adds.',
+  build(docs) {
+    const titleDocs = docs.map((d) => ({ ref: d.ref, texts: d.title ?? d.texts }))
+    const bodyDocs = docs.map((d) => ({ ref: d.ref, texts: d.content ?? [] }))
+    return { t: trigram.build(titleDocs), c: trigram.build(bodyDocs) }
+  },
+  search(state, query, limit = 20) {
+    // Title is the authority; a body hit can promote a song but never outrank a good title match.
+    const CONTENT_WEIGHT = 0.25
+    const fused = new Map()
+    const tr = trigram.search(state.t, query, limit * 3)
+    const top = tr[0]?.score || 1
+    for (const r of tr) fused.set(r.ref, r.score / top)
+    const cr = trigram.search(state.c, query, limit * 3)
+    const ctop = cr[0]?.score || 1
+    for (const r of cr) fused.set(r.ref, (fused.get(r.ref) ?? 0) + (r.score / ctop) * CONTENT_WEIGHT)
+    return [...fused.entries()].sort((a, b) => b[1] - a[1]).slice(0, limit)
+      .map(([ref, score]) => ({ ref, score }))
+  },
+}
+
+export const ENGINES = [current, bm25, bm25Fuzzy, trigram, phoneticEngine, hybrid, trigramFielded]

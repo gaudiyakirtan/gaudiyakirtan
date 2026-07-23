@@ -18,10 +18,60 @@ node serve.mjs           # live UI at http://localhost:8710
 Useful flags:
 
 ```bash
-node bench.mjs --corpus titles-latn          # one corpus
-node bench.mjs --misses trigram              # what that engine still gets wrong, and what it returned
+node bench.mjs --list                        # available corpus and engine ids
+node bench.mjs --corpus titles-latn          # one corpus (repeatable)
+node bench.mjs --engine trigram-fielded      # one engine (repeatable)
+node bench.mjs --misses trigram              # every query it failed to rank first
+node bench.mjs --inspect trigram-fielded     # best / median / worst queries, with what it returned
+node bench.mjs --inspect trigram --top 12    # how many rows per band (default 6)
 node bench.mjs --json data/gen/results.json  # machine-readable
 ```
+
+`--inspect` is the one worth reaching for. An aggregate like "76.6% R@1" says nothing about
+*shape*: two engines with identical R@1 can fail completely differently, and only one of those is
+acceptable. Queries are ordered by reciprocal rank, then by how far the winner cleared the
+runner-up — so **best** means *confidently* right rather than merely right, and the **median**
+band shows what a typical query actually feels like:
+
+```
+inspect trigram-fielded on titles-latn+content
+177 ranked first · 50 found but lower · 4 missed entirely
+
+BEST     "Dara putra nija Deho Kutumba Palane"  → rank 1 (4.2× clear)
+MEDIAN   "sri guru charna padham"               → rank 1 (1.3× clear)
+WORST    "chatinya asktham"                     → MISSED
+```
+
+Only **4 of 231** attempts are lost outright, and one of those is a junk row
+(`"super obscure song"`). The 50 "found but lower" are dominated by ties between genuinely
+near-identical titles.
+
+The live UI mirrors all of this: **Run selected corpus** scopes the sweep, and **clicking any row**
+in the results table opens the same best/median/worst inspection for that engine and corpus.
+
+### Pareto frontier
+
+Running a benchmark also draws one **accuracy-vs-latency panel per corpus**. An engine is *on the
+frontier* when nothing else in that corpus is both faster **and** more accurate — so the frontier
+is the only set worth choosing from, and every point behind it is strictly a worse deal. Latency is
+log-scaled (it spans 0.01 ms to 155 ms; on a linear axis every index engine collapses onto the
+y-axis), and all panels share one scale so they read against each other.
+
+The frontiers make the headline result visual:
+
+| corpus | on the frontier |
+|---|---|
+| Titles (Latin only) | bm25, phonetic, **trigram** |
+| Titles (all 10 scripts) | bm25, phonetic, trigram, hybrid, current |
+| Latin titles + content | bm25, **trigram-fielded** |
+| Everything | bm25, trigram, trigram-fielded, current |
+
+`bm25` is always on it — but only because it is the cheapest thing available, at ~26–58% R@1. The
+frontier says "not dominated", not "good". Read it with the accuracy axis, not as a ranking.
+
+On the two title-only corpora `trigram-fielded` lands on exactly the same coordinates as `trigram`:
+with an empty content field the two are the same algorithm. The chart nudges coincident points
+apart rather than hiding one.
 
 ## Results
 
@@ -50,16 +100,30 @@ node bench.mjs --json data/gen/results.json  # machine-readable
 | Phonetic key | 53.2% | 74.0% | 81.4% | 62.4% | 33 ms | 0.12 ms | 1.04 ms |
 | Hybrid | 67.1% | 85.3% | 89.6% | 74.9% | 98 ms | 0.92 ms | 2.74 ms |
 
-### Titles + 16,620 verse lines + translations — 702 docs
+### Latin titles + 16,620 verse lines + translations — 702 docs
+
+The clean isolation of what *content* costs: same Latin-only titles as the first table, plus the
+verse text. Nothing else changes.
 
 | engine | R@1 | R@5 | R@10 | MRR | build | p50 | p95 |
 |---|---|---|---|---|---|---|---|
-| current (linear `scoreText`) | 65.8% | 78.4% | 83.5% | 71.9% | 56 ms | 80.55 ms | 128.70 ms |
-| BM25 + prefix | 27.3% | 45.9% | 54.1% | 34.3% | 93 ms | 0.06 ms | 0.16 ms |
-| BM25 + prefix + fuzzy | 30.3% | 49.8% | 60.2% | 37.9% | 83 ms | 2.45 ms | 10.55 ms |
-| Trigram index | 27.7% | 47.2% | 60.2% | 36.4% | 150 ms | 0.30 ms | 0.42 ms |
-| Phonetic key | 15.6% | 30.3% | 36.8% | 21.2% | 145 ms | 0.19 ms | 4.77 ms |
-| Hybrid | 37.7% | 57.6% | 70.1% | 46.8% | 362 ms | 3.24 ms | 15.80 ms |
+| current (linear `scoreText`) | 65.8% | 78.4% | 83.5% | 71.9% | 43 ms | 155.11 ms | 252.52 ms |
+| BM25 + prefix | 26.4% | 46.8% | 54.5% | 34.9% | 72 ms | 0.06 ms | 0.18 ms |
+| BM25 + prefix + fuzzy | 31.2% | 52.8% | 60.2% | 39.8% | 59 ms | 4.78 ms | 21.49 ms |
+| Trigram index (pooled) | 23.4% | 44.2% | 51.9% | 32.2% | 114 ms | 0.32 ms | 0.49 ms |
+| Phonetic key | 16.0% | 33.3% | 39.8% | 22.7% | 116 ms | 0.19 ms | 8.81 ms |
+| Hybrid | 39.4% | 61.5% | 70.6% | 48.5% | 265 ms | 5.41 ms | 30.84 ms |
+| **Trigram, fielded** | **76.6%** | **95.2%** | **98.3%** | **84.2%** | 102 ms | 0.45 ms | 0.64 ms |
+
+### All 10 scripts + author + verse text + translations — 702 docs
+
+Everything at once; isolates nothing, kept to show the compounded cost.
+
+| engine | R@1 | R@5 | R@10 | MRR | build | p50 | p95 |
+|---|---|---|---|---|---|---|---|
+| current (linear `scoreText`) | 65.8% | 78.4% | 83.5% | 71.9% | 49 ms | 77.39 ms | 124.38 ms |
+| Trigram index (pooled) | 27.7% | 47.2% | 60.2% | 36.4% | 146 ms | 0.29 ms | 0.43 ms |
+| Trigram, fielded | 64.9% | 87.4% | 94.4% | 75.1% | 137 ms | 0.50 ms | 1.05 ms |
 
 ## What the numbers say
 
@@ -81,9 +145,24 @@ of the same title dilute IDF and add near-miss noise for queries that are overwh
 This is direct evidence for **transliterating the query into Latin** rather than indexing every
 script — same coverage, a tenth of the index, and it works in both directions.
 
-**4. Merging content into the title index destroys title lookup.** Trigram falls 79.7% → 27.7%;
-the linear ranker's p50 goes to 80 ms. Content search has to be a **separate index and a separate
-result section**, never one merged pool — 16,620 lines will bury 702 titles every time.
+**4. Content search is nearly free — but only if you keep the fields apart.** Pooling verse text
+into the title index is catastrophic (trigram 79.7% → **23.4%**). The obvious reading is "content
+search costs too much." It is wrong. The linear ranker barely moves on the same corpus
+(77.1% → 65.8%) because it scores every text *separately and keeps the best*, while the index
+engines pour all ~24 lines into one bag of n-grams and let the title drown.
+
+Fixing the document model, not the algorithm, recovers almost all of it —
+`trigram-fielded` keeps title and body in separate indexes and combines them per song:
+
+| | R@1 | R@5 | R@10 |
+|---|---|---|---|
+| titles only | 79.7% | 94.8% | 98.7% |
+| + content, pooled | 23.4% | 44.2% | 51.9% |
+| **+ content, fielded** | **76.6%** | **95.2%** | **98.3%** |
+
+R@5 actually *improves* and R@10 is within 0.4 pp, for 3.1 pp of R@1. So full-text search over
+every verse is affordable — **field separation is the load-bearing decision**, not whether to index
+content at all.
 
 **5. R@1 understates real quality.** Inspect with `--misses trigram`: a large share of "failures"
 are ties between genuinely near-identical titles — `śocaka (1)/(2)/(3)`,
@@ -94,14 +173,20 @@ headline.**
 ## Layout
 
 ```
-data/build.mjs      corpus + recorded attempts -> data/gen/*.json
-src/normalize.mjs   baseline (shipping) and phonetic normalizers, script detection
-src/engines.mjs     the six engines, one interface: build(docs) / search(state, q, k)
-src/corpora.mjs     the three document sets
-bench.mjs           headless runner
-web/                live UI - imports the same engine modules, no build step
-serve.mjs           static server for the UI
+data/build.mjs       corpus + recorded attempts -> data/gen/*.json
+src/normalize.mjs    baseline (shipping) and phonetic normalizers, script detection
+src/engines.mjs      the seven engines, one interface: build(docs) / search(state, q, k)
+src/corpus-defs.mjs  the four document sets, pure - shared by the CLI and the browser
+src/corpora.mjs      Node-side loader over corpus-defs
+src/inspect.mjs      best / median / worst ranking of an engine's outcomes
+bench.mjs            headless runner
+web/                 live UI - imports the same engine modules, no build step
+serve.mjs            static server for the UI
 ```
+
+The corpus definitions are deliberately in one pure module rather than duplicated per loader: the
+CLI reads the artifacts off disk and the browser fetches them, and when those two held separate
+copies they immediately drifted into benchmarking different document sets.
 
 ## Notes on the data
 

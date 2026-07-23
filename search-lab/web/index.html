@@ -49,6 +49,40 @@
   th { color:var(--dim); font-weight:500; font-size:.74rem; text-transform:uppercase; letter-spacing:.04em; }
   tr.best td { background:color-mix(in srgb, var(--good) 11%, transparent); }
   tr.best td:first-child::after { content:' ★'; color:var(--good); }
+  tbody tr { cursor:pointer; }
+  tbody tr:hover td { background:color-mix(in srgb, var(--accent) 9%, transparent); }
+  .bands { display:grid; gap:12px; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); margin-top:12px; }
+  .band { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:12px 14px; }
+  .band h4 { margin:0 0 8px; font-size:.76rem; text-transform:uppercase; letter-spacing:.05em; }
+  .band.good h4 { color:var(--good); } .band.mid h4 { color:var(--accent); } .band.bad h4 { color:var(--bad); }
+  .row { padding:6px 0; border-top:1px solid var(--line); font-size:.8rem; }
+  .row:first-of-type { border-top:0; }
+  .row .q { font-weight:500; }
+  .row .want, .row .got { color:var(--dim); font-size:.74rem; display:block; margin-top:1px; }
+  .row .v { float:right; color:var(--dim); font-size:.7rem; font-variant-numeric:tabular-nums; }
+
+  /* Pareto panels. Two marks only — on-frontier vs dominated — so the pair is validated for
+     CVD separation and backed by size + direct labels, never color alone. */
+  :root { --front:#b8683a; --dom:#2b6cb0; }
+  @media (prefers-color-scheme: dark) { :root { --front:#cc7a45; --dom:#4a90e2; } }
+  .panels { display:grid; gap:14px; grid-template-columns:repeat(auto-fit,minmax(330px,1fr)); margin-top:10px; }
+  .panel { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:12px 12px 6px; }
+  .panel h4 { margin:0 0 2px; font-size:.8rem; font-weight:600; }
+  .panel .cap { margin:0 0 6px; font-size:.7rem; color:var(--dim); }
+  .panel svg { display:block; width:100%; height:auto; overflow:visible; }
+  .gridline { stroke:var(--line); stroke-width:1; }
+  .axis text { fill:var(--dim); font-size:9px; }
+  .axis-title { fill:var(--dim); font-size:9px; }
+  .front-line { fill:none; stroke:var(--front); stroke-width:2; stroke-dasharray:4 3; opacity:.75; }
+  .dot { stroke:var(--card); stroke-width:2; cursor:pointer; }
+  .dot.f { fill:var(--front); } .dot.d { fill:var(--dom); }
+  .dot-label { fill:var(--fg); font-size:9px; font-weight:500; }
+  .legend { display:flex; gap:14px; align-items:center; font-size:.72rem; color:var(--dim); margin:6px 0 0; }
+  .legend i { width:9px; height:9px; border-radius:50%; display:inline-block; margin-right:5px; vertical-align:-1px; }
+  #tip { position:fixed; pointer-events:none; opacity:0; transition:opacity .1s;
+    background:var(--card); border:1px solid var(--line); border-radius:9px; padding:6px 9px;
+    font-size:.74rem; box-shadow:0 6px 20px rgba(0,0,0,.18); z-index:99; max-width:230px; }
+  #tip b { display:block; margin-bottom:2px; }
   .note { color:var(--dim); font-size:.78rem; margin:8px 0 0; }
   .status { color:var(--dim); font-size:.82rem; padding:8px 0; }
   code { background:var(--code); padding:1px 5px; border-radius:5px;
@@ -74,17 +108,24 @@
 
   <h2>Accuracy benchmark</h2>
   <div class="bar">
-    <button id="run">Run all engines × all corpora</button>
+    <button id="runOne">Run selected corpus</button>
+    <button id="run">Run all corpora</button>
     <span class="status" id="status"></span>
   </div>
+  <div id="pareto"></div>
+
   <div class="scroll"><table id="table"></table></div>
   <p class="note">
     <b>R@k</b> = share of attempts where the intended song ranked in the top k.
     <b>MRR</b> = mean reciprocal rank. <b>p50/p95</b> = per-query latency over the ground-truth set.
     Many R@1 misses are ties between genuinely near-identical titles
     (<code>śocaka (1)/(2)/(3)</code>), which is why R@5 is the fairer headline.
+    <b>Click any row</b> to inspect its best, median and worst queries.
   </p>
+
+  <div id="inspector"></div>
 </div>
+<div id="tip"></div>
 <script type="module" src="/web/app.mjs"></script>
 </body>
 </html>

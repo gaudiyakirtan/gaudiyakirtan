@@ -1,23 +1,52 @@
 // Headless benchmark: every engine × every corpus, scored against the recorded user attempts.
 //
-//   node bench.mjs                     all engines, all corpora
-//   node bench.mjs --corpus titles-all only that corpus
-//   node bench.mjs --misses hybrid     show what that engine still gets wrong
-//   node bench.mjs --json out.json     also write machine-readable results (the web UI reads this)
+//   node bench.mjs                       all engines, all corpora
+//   node bench.mjs --corpus titles-all   only that corpus (repeatable: --corpus a --corpus b)
+//   node bench.mjs --engine trigram      only that engine (repeatable)
+//   node bench.mjs --list                show the available corpus / engine ids and exit
+//   node bench.mjs --misses hybrid       every query that engine did not rank first
+//   node bench.mjs --inspect trigram     best / median / worst queries, with what it returned
+//   node bench.mjs --top 10              how many rows each inspect slice shows (default 6)
+//   node bench.mjs --json out.json       also write machine-readable results
 //
 // Accuracy is measured on 231 real search attempts recorded from the older app - genuine
 // misspellings typed by people looking for a song they had heard, not synthetic queries.
 import fs from 'node:fs'
 import { ENGINES } from './src/engines.mjs'
 import { loadCorpora, loadGroundTruth, byUidTitle } from './src/corpora.mjs'
+import { inspectEngine, slices, verdict } from './src/inspect.mjs'
 
 const argv = process.argv.slice(2)
 const arg = (f, d = null) => { const i = argv.indexOf(f); return i >= 0 ? argv[i + 1] : d }
-const onlyCorpus = arg('--corpus')
+/** Collect every occurrence of a repeatable flag. */
+const args = (f) => argv.reduce((a, v, i) => (v === f && argv[i + 1] ? [...a, argv[i + 1]] : a), [])
+const onlyCorpora = args('--corpus')
+const onlyEngines = args('--engine')
 const missesFor = arg('--misses')
+const inspectFor = arg('--inspect')
+const topN = Number(arg('--top', 6))
 const jsonOut = arg('--json')
 
 const corpora = loadCorpora()
+
+if (argv.includes('--list')) {
+  console.log('corpora:')
+  for (const [id, c] of Object.entries(corpora)) console.log(`  ${id.padEnd(22)} ${c.label}`)
+  console.log('\nengines:')
+  for (const e of ENGINES) console.log(`  ${e.id.padEnd(22)} ${e.name}`)
+  process.exit(0)
+}
+
+const unknownCorpus = onlyCorpora.find((c) => !corpora[c])
+if (unknownCorpus) {
+  console.error(`unknown corpus "${unknownCorpus}". Known: ${Object.keys(corpora).join(', ')}`)
+  process.exit(1)
+}
+const unknownEngine = onlyEngines.find((e) => !ENGINES.some((x) => x.id === e))
+if (unknownEngine) {
+  console.error(`unknown engine "${unknownEngine}". Known: ${ENGINES.map((e) => e.id).join(', ')}`)
+  process.exit(1)
+}
 const truth = loadGroundTruth()
 const titleOf = byUidTitle()
 
@@ -36,7 +65,7 @@ function percentile(sorted, p) {
 const results = []
 
 for (const [corpusId, corpus] of Object.entries(corpora)) {
-  if (onlyCorpus && corpusId !== onlyCorpus) continue
+  if (onlyCorpora.length && !onlyCorpora.includes(corpusId)) continue
   console.log(`\n\x1b[1m━━ ${corpus.label}\x1b[0m  (${corpus.docs.length} docs)`)
   console.log(`   ${corpus.note}`)
   console.log()
@@ -44,6 +73,7 @@ for (const [corpusId, corpus] of Object.entries(corpora)) {
   console.log('  ' + '─'.repeat(88))
 
   for (const engine of ENGINES) {
+    if (onlyEngines.length && !onlyEngines.includes(engine.id)) continue
     let state
     const buildMs = timed(() => { state = engine.build(corpus.docs) })
 
@@ -79,8 +109,8 @@ for (const [corpusId, corpus] of Object.entries(corpora)) {
       `${(buildMs.toFixed(0) + 'ms').padStart(7)} ${(row.p50.toFixed(2) + 'ms').padStart(8)} ${(row.p95.toFixed(2) + 'ms').padStart(8)}`
     )
 
-    if (missesFor === engine.id && corpusId === (onlyCorpus ?? 'titles-all')) {
-      console.log(`\n  \x1b[2mmisses for ${engine.id} (${misses.length}/${n}):\x1b[0m`)
+    if (missesFor === engine.id) {
+      console.log(`\n  \x1b[2mmisses for ${engine.id} on ${corpusId} (${misses.length}/${n}):\x1b[0m`)
       for (const m of misses.slice(0, 25)) {
         const mark = m.rank < 0 ? '\x1b[31mnot in top 10\x1b[0m' : `rank ${m.rank + 1}`
         console.log(`    "${m.query}"`)
@@ -89,7 +119,39 @@ for (const [corpusId, corpus] of Object.entries(corpora)) {
       }
       console.log()
     }
+
+    if (inspectFor === engine.id) showInspection(engine, corpus, corpusId)
   }
+}
+
+/**
+ * Best / median / worst for one engine on one corpus. The median band is the most informative of
+ * the three: it is what a typical query actually feels like, which neither the wins nor the
+ * disasters tell you.
+ */
+function showInspection(engine, corpus, corpusId) {
+  const rows = inspectEngine(engine, corpus.docs, truth)
+  const { best, median, worst } = slices(rows, topN)
+  const hits = rows.filter((r) => r.rank === 0).length
+  const missing = rows.filter((r) => r.rank < 0).length
+
+  console.log(`\n  \x1b[1minspect ${engine.id} on ${corpusId}\x1b[0m`)
+  console.log(`  \x1b[2m${hits} ranked first · ${rows.length - hits - missing} found but lower · ${missing} missed entirely\x1b[0m`)
+
+  const band = (label, list, color) => {
+    console.log(`\n  \x1b[${color}m${label}\x1b[0m`)
+    for (const r of list) {
+      console.log(`    "${r.query}"  \x1b[2m→ ${verdict(r)}\x1b[0m`)
+      console.log(`      want ${r.wantUid.padEnd(6)} ${(titleOf.get(r.wantUid) ?? r.wantTitle ?? '').slice(0, 62)}`)
+      if (r.rank !== 0) {
+        console.log(`      got  ${r.got.map((u) => `${u} ${titleOf.get(u) ?? ''}`).join(' | ').slice(0, 100)}`)
+      }
+    }
+  }
+  band(`BEST ${topN}`, best, '32')
+  band(`MEDIAN ${topN} (rows ${Math.floor(rows.length / 2) - Math.floor(topN / 2)}–${Math.floor(rows.length / 2) - Math.floor(topN / 2) + topN} of ${rows.length})`, median, '33')
+  band(`WORST ${topN}`, worst, '31')
+  console.log()
 }
 
 console.log(`\n\x1b[2m${truth.length} recorded attempts · R@k = share where the intended song ranked in the top k\x1b[0m`)
