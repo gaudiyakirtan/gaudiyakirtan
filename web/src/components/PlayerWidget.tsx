@@ -1,6 +1,6 @@
 import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Play, Pause, Loader2, Repeat, Download, Share2, Minimize2, Maximize2, Check } from 'lucide-react'
+import { Play, Pause, Loader2, Repeat, ListEnd, Download, Share2, Minimize2, Maximize2, Check } from 'lucide-react'
 import { usePlayer } from '../utils/PlayerContext'
 import { useSettings } from '../utils/SettingsContext'
 import { pickScriptText } from '../services/textDisplay'
@@ -13,7 +13,8 @@ import { MusicNote } from './icons/MusicNote'
  *  • idle (a song page armed its song) → a circular play FAB. Hidden on non-song pages with nothing
  *    playing.
  *  • expanded → a mini-player card: artwork, title (2 lines → marquee), author, scrubber, and a
- *    loop / download / share row plus a stacked-avatar **recordings** picker and a **minimize** button.
+ *    loop / continue-playing / download / share row plus a stacked-avatar **recordings** picker and
+ *    a **minimize** button.
  *  • collapsed (while playing) → back to a circle (play/pause + a corner expand button).
  */
 
@@ -85,7 +86,8 @@ const MarqueeTitle: React.FC<{ text: string }> = ({ text }) => {
 export const PlayerWidget: React.FC = () => {
   const {
     song, trackUid, status, armedSong, currentTime, duration,
-    isLooping, toggleLoop, playSong, selectTrack, togglePlayPause, seek,
+    isLooping, toggleLoop, autoContinue, toggleAutoContinue,
+    playSong, selectTrack, togglePlayPause, seek,
   } = usePlayer()
   const { settings } = useSettings()
   const [copied, setCopied] = useState(false)
@@ -202,6 +204,8 @@ export const PlayerWidget: React.FC = () => {
   const mainIcon = status === 'loading' ? <Loader2 size={18} className="animate-spin" /> : playing ? <Pause size={18} /> : <Play size={18} />
   const pct = duration ? (Math.min(currentTime, duration) / duration) * 100 : 0
   const ctrlBtn = 'flex h-8 w-8 items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:bg-[var(--background)] hover:text-[var(--primary)]'
+  // Shared "toggle is on" treatment, so loop and continue-playing read as the same kind of switch.
+  const ctrlBtnOn = 'flex h-8 w-8 items-center justify-center rounded-full bg-[var(--highlight)]/15 text-[var(--highlight)]'
 
   return (
     <div ref={rootRef} className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-2">
@@ -334,8 +338,16 @@ export const PlayerWidget: React.FC = () => {
 
                   <div className="mt-2 flex items-center gap-1">
                     <button type="button" onClick={toggleLoop} aria-label="Loop" aria-pressed={isLooping}
-                      className={isLooping ? 'flex h-8 w-8 items-center justify-center rounded-full bg-[var(--highlight)]/15 text-[var(--highlight)]' : ctrlBtn}>
+                      className={isLooping ? ctrlBtnOn : ctrlBtn}>
                       <Repeat size={16} />
+                    </button>
+                    {/* Rolls on to the next singer's take when this one ends. Disabled (not hidden)
+                        on single-take songs so the control row doesn't reflow between songs. */}
+                    <button type="button" onClick={toggleAutoContinue} disabled={!hasMultipleTakes}
+                      aria-label="Continue playing next recording" aria-pressed={autoContinue}
+                      title={hasMultipleTakes ? 'Continue to the next recording' : 'Only one recording'}
+                      className={`${autoContinue ? ctrlBtnOn : ctrlBtn} disabled:opacity-40 disabled:hover:bg-transparent`}>
+                      <ListEnd size={16} />
                     </button>
                     <button type="button" onClick={handleDownload} aria-label="Download MP3" className={ctrlBtn}>
                       <Download size={16} />

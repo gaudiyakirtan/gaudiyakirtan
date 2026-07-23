@@ -51,6 +51,10 @@ interface PlayerContextType {
   /** Repeat the current track when it ends. */
   isLooping: boolean
   toggleLoop: () => void
+  /** When a take ends, roll on to the next recording of the same song (the other singers'
+   *  versions) instead of stopping. On by default — a song's takes read as one listening session. */
+  autoContinue: boolean
+  toggleAutoContinue: () => void
   /** Output volume, 0..1. */
   volume: number
   setVolume: (v: number) => void
@@ -89,7 +93,13 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
   const [isExpanded, setIsExpanded] = useState(false)
   const [armedSong, setArmedSong] = useState<ISong | null>(null)
   const [isLooping, setIsLooping] = useState(false)
+  const [autoContinue, setAutoContinue] = useState(true)
   const [volume, setVolumeState] = useState(1)
+
+  // The media listeners below are attached once, so anything they read would be frozen at the
+  // initial render. End-of-track behaviour depends on live state (which take, which toggles), so
+  // route it through a ref that every render refreshes.
+  const onEndedRef = useRef<() => void>(() => {})
 
   // Create the single shared <audio> element once, client-side only (SSR has no Audio()).
   useEffect(() => {
@@ -103,10 +113,7 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
     const onPlaying = () => setStatus('playing')
     const onPause = () => setStatus((s) => (s === 'error' ? s : 'paused'))
     const onWaiting = () => setStatus('loading')
-    const onEnded = () => {
-      setStatus('paused')
-      setCurrentTime(0)
-    }
+    const onEnded = () => onEndedRef.current()
     // Native <audio> error - bad URL, 404, network down, unsupported format. This is the
     // "graceful error state" path (docs/screens/player.md): never hang/crash, surface it.
     const onError = () => setStatus('error')
@@ -157,6 +164,23 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
       setStatus(name === 'NotAllowedError' ? 'paused' : 'error')
     })
   }, [])
+
+  // Re-point the `ended` handler after every render so it always sees the current take/toggles.
+  // No dep array: the values it closes over change on nearly every render anyway.
+  useEffect(() => {
+    onEndedRef.current = () => {
+      setStatus('paused')
+      setCurrentTime(0)
+      // Looping is enforced natively (audio.loop), which means `ended` never fires while it's on —
+      // but keep repeat explicitly winning so the two toggles can't ever fight.
+      if (isLooping || !autoContinue || !song) return
+      const i = song.tracks.findIndex((t) => t.uid === trackUid)
+      const next = i >= 0 ? song.tracks[i + 1] : undefined
+      if (!next) return // last take of the song - stop, same as auto-continue being off
+      setTrackUid(next.uid)
+      loadAndPlay(next)
+    }
+  })
 
   /**
    * Starts playback from an already-trimmed [IPlayableSong]. This is the entry point for list
@@ -221,6 +245,7 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
   const collapse = useCallback(() => setIsExpanded(false), [])
   const arm = useCallback((s: ISong | null) => setArmedSong(s), [])
   const toggleLoop = useCallback(() => setIsLooping((v) => !v), [])
+  const toggleAutoContinue = useCallback(() => setAutoContinue((v) => !v), [])
   const setVolume = useCallback((v: number) => setVolumeState(Math.min(1, Math.max(0, v))), [])
 
   const value = useMemo<PlayerContextType>(
@@ -235,6 +260,8 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
       arm,
       isLooping,
       toggleLoop,
+      autoContinue,
+      toggleAutoContinue,
       volume,
       setVolume,
       playSong,
@@ -256,6 +283,8 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
       arm,
       isLooping,
       toggleLoop,
+      autoContinue,
+      toggleAutoContinue,
       volume,
       setVolume,
       playSong,
