@@ -7,11 +7,11 @@ as descriptive of the shipped web implementation, not as a frozen visual contrac
 
 ## Purpose
 
-Browse the corpus by **recording** rather than by song. The catalog has 702 songs but only 244 of
-them carry audio, and those 244 carry **753 individual takes** — several artists often record the
-same bhajan. [songs-list](songs-list.md) collapses all of that into one row per song, so a listener
-who wants "everything Kṛṣṇadāsa recorded" has no way to see it. This screen expands the corpus to
-one row per take and lets it be filtered by performer.
+Browse the corpus by **recording** rather than by song. Only some songs carry audio, and those that
+do carry **multiple takes** — several artists often record the same bhajan.
+[songs-list](songs-list.md) collapses all of that into one row per song, so a listener who wants
+"everything Kṛṣṇadāsa recorded" has no way to see it. This screen expands the corpus to one row per
+take and lets it be filtered by performer.
 
 ## Vocabulary — reciter vs author
 
@@ -20,7 +20,7 @@ Two different people, deliberately kept distinct everywhere:
 - **Author** — the *composer* of the song (`author_uid` → [Author](../data/author.md)). Śrīla
   Bhaktivinoda Ṭhākura wrote it.
 - **Reciter / artist** — who *recorded this take* (`audio_files[].artist`, see
-  [song.md](../data/song.md) `AudioTrack`). 44 distinct reciters in the shipped corpus.
+  [song.md](../data/song.md) `AudioTrack`). Many distinct reciters appear across the shipped corpus.
 
 ## Data bindings
 
@@ -30,8 +30,8 @@ Two different people, deliberately kept distinct everywhere:
 - Each song is trimmed to `ITrackSong` (uid, `titleMain`, `authorUid`, Latin `authorName`, `tracks`,
   Latin `title`) before leaving the server — never the full `ISong`; the player never reads
   verses/translations.
-- **Author renderings are shipped once, not inlined.** The 244 audio songs share only 43 authors, so
-  inlining per-song script arrays cost ~206 kB of duplication. They ship as a shared
+- **Author renderings are shipped once, not inlined.** The audio songs share far fewer authors than
+  there are songs, so inlining per-song script arrays cost ~206 kB of duplication. They ship as a shared
   `AuthorNames` table (`authorUid` → `IScriptText[]`, ~41 kB) and are rejoined client-side by
   `toPlayable` / `pickTrackAuthor`.
 - Client-safe view model + pickers live in `services/trackListingView.ts` — kept separate from
@@ -53,7 +53,7 @@ Two different people, deliberately kept distinct everywhere:
 
 ## States
 
-- **Unfiltered:** all 753 rows with the A–Z index.
+- **Unfiltered:** every take as its own row, with the A–Z index.
 - **Filtered by reciter:** only that artist's takes; index hidden.
 - **Offline:** fully functional — rows are bundled. Audio itself still requires network (streams
   from the S3 bucket, see [player](player.md)).
@@ -72,7 +72,7 @@ Two different people, deliberately kept distinct everywhere:
 Titles and **authors** on this screen re-render in the reader's `listLanguage`; **reciter names do
 not**. They stay Roman in every script setting.
 
-This is a *data* limitation, not a rendering bug. `IAudioTrack.artist` is a plain string, and all 44
+This is a *data* limitation, not a rendering bug. `IAudioTrack.artist` is a plain string, and the
 values in the shipped corpus are written **without IAST diacritics** (`'Krsnadas das'`,
 `'Tamal Krsna das'`, `'Sudarsan das (Radha-ramana Babaji Maharaja)'`, `'taru'`). Feeding those
 through the pipeline's Aksharamukha step would produce **phonetically wrong** native script —
@@ -80,7 +80,7 @@ through the pipeline's Aksharamukha step would produce **phonetically wrong** na
 `pipeline/add_title_author_scripts.py` guards on `IAST_DIAC` and skips non-diacritic strings.
 
 **Fix path** (mirrors what [author.md](../data/author.md) records for `fix_author_display.py`): curate
-correct IAST for the 44 reciters, transliterate from that, ship an `ArtistNames` table alongside
+correct IAST for the reciters, transliterate from that, ship an `ArtistNames` table alongside
 `AuthorNames`, and add `pickTrackArtist(track, artistNames, listLanguage)`. The curated IAST should
 be reviewed by someone who knows these devotees' names before it ships — misspelling them in a
 sacred script is worse than leaving them Roman.
@@ -94,7 +94,7 @@ sacred script is worse than leaving them Roman.
 
 ## Verification
 
-- **Behavioral:** 753 rows unfiltered; reciter filter narrows to that artist's takes and the count
+- **Behavioral:** every take shown as a row unfiltered; reciter filter narrows to that artist's takes and the count
   matches the select; tapping a row starts that exact take; the A–Z index does not reshuffle when
   `listLanguage` changes; titles and authors re-script with `listLanguage` (reciters intentionally
   do not — see above); searching a reciter name lands on `/tracks?artist=…`.

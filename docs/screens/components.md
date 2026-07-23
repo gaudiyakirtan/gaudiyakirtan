@@ -1,6 +1,6 @@
 # Shared components
 
-**Spec version:** 1
+**Spec version:** 2
 
 **Figma frames:** `Components`, `Group 15/16`, `Frame *`.
 
@@ -82,9 +82,31 @@ the heading already carries the meaning, and announcing it twice is worse than n
 artwork is theme-dependent, pick by the resolved `theme` from `ThemeContext`, and only in a
 component that already renders client-side — otherwise the server and client disagree at hydration.
 
+## `BrandWordmark`
+
+The "Gaudiya Kirtan" wordmark, rendered as **live text in the brand display face** (`font-display`,
+the 5th-Avenue face shipped on all three platforms) rather than the old `sri-gaudiya-kirtan.svg`
+bitmap it replaces. Text over image is a deliberate trade: it inherits `currentColor` (so it follows
+the Gaura/Shyam palettes with none of the `filter: invert(1)` hack the SVG needed), stays crisp at
+any zoom/DPI, costs no request beyond the font a heading already loads, and is selectable and
+translatable.
+
+On hover each letter lifts in a staggered spring and warms to `--highlight`. The letters are split
+**only** for that animation, so the visible glyphs are `aria-hidden` and the accessible name comes
+from a single `aria-label` on the wrapper — otherwise assistive tech announces the mark one letter
+at a time. A reader who prefers reduced motion (`useReducedMotion`) still gets the colour shift, just
+not the per-letter spring.
+
+Used by the sidebar brand ([`navigation.md`](navigation.md)); the mridanga music logo that used to
+sit beside it was removed. iOS and Android ship the same display face (iOS `BrandFont.swift`,
+Android `res/font/`) so the wordmark reads identically across platforms. It is also the brand on the
+[404 page](url-resolution.md).
+
 ## Verification
 
 - A song row renders identically on every screen that shows songs.
+- The `BrandWordmark` follows the theme colour (no invert hack) and exposes one accessible name, not
+  one per letter.
 - Rows on an offset surface show a visible hover.
 - `SongsSection` renders nothing for an empty list.
 - `singleRow` affects home only; `/topics` and `/books` keep their grids.
@@ -92,6 +114,8 @@ component that already renders client-side — otherwise the server and client d
 
 ## Change log
 
+- **v2** — Added `BrandWordmark`: the live-text wordmark in the brand display face that replaces the
+  `sri-gaudiya-kirtan.svg` logo, with a per-letter hover spring behind a single accessible name.
 - **v1** — Initial spec: `SongListItem.surface` (and the invisible-hover bug it fixes),
   `SongsSection` empty-list contract, opt-in `singleRow`, `HeroBanner`, icon and decorative-image
   rules.

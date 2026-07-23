@@ -84,7 +84,7 @@ song-detail screen lays out.
 
 - **v2** — `standard` corrected from `enum(ISO15919, IAST)` to an **open string** (corpus ships
   `IAST`, `BBT_Roman`, `GVP_Roman`, and `null`); `script_code` noted to include `Cyrl`. (Found by
-  Android implementer during slice-1 decode; verified against all 703 songs.)
+  Android implementer during slice-1 decode; verified against every song.)
 - **v1** — Canonical spec aligned to pipeline output: `source_text_master` + generated
   `display_scripts` (`text` lines) + `word_to_words` + `translations`, with line-count and
   flag-resolution invariants. Field names are the literal snake_case JSON keys.

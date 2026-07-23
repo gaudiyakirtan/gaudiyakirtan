@@ -21,7 +21,7 @@ rebuilt from scratch.
 
 ## Authors
 
-- Manifest/derived-catalog list of the ~84 authors (name via `author_display`, uid fallback when
+- Manifest/derived-catalog list of the authors (name via `author_display`, uid fallback when
   empty). Tapping an author → the author-filtered list (`Library (Author)` / `?author=` — see
   [songs-list](songs-list.md)).
 - No author images/bios ship — header is name + song count only.

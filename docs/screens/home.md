@@ -20,8 +20,8 @@ Featured Books. Three problems, all structural rather than cosmetic:
    already on screen.
 2. **Two sections claimed "Popular" with no popularity data.** The code said so itself — songs were
    sorted by "has a recording" as a proxy, and "Popular Authors" was song-count descending. There is
-   **no usage signal in the corpus**, and none can be manufactured: of 702 songs, only ~30 appear
-   even once across 2,172 dated community livestreams. Far too sparse to rank on.
+   **no usage signal in the corpus**, and none can be manufactured: across the whole corpus, only a
+   handful of songs appear even once in the dated community livestreams. Far too sparse to rank on.
 3. **Nothing on it ever changed.** The same four songs and ten authors, every visit, forever — so
    there was no reason to return to it.
 
@@ -69,6 +69,14 @@ month is intercalary.
 This is [`today.md`](today.md) embedded as a region; that spec governs its provenance ranking and
 honesty constraints.
 
+**Playable songs lead.** Within that ranking the list is **stably partitioned so songs with
+recordings come first** — the month's lead region should open with what the reader can actually
+hear, not with rows whose only affordance is "read". The partition is stable: relative order inside
+each group is untouched, so `basis` ranking still governs within the playable and non-playable runs.
+Each playable row carries a **recording picker** on its right — the stacked cluster of singer
+avatars plus a take count (the same control the [player](player.md) uses) — and choosing a take
+starts it in the mini-player **in place, without navigating**, so the reader stays on Home.
+
 The **time-of-day ārati** slot is **not** shown here. `daily[]` and `getDailySlots()` remain in the
 data layer for a future surface; note if it returns the `sunrise` slot it must fall through, since
 that slot ships zero songs (the Aruṇodaya kīrtanas are not in the corpus).
@@ -94,7 +102,7 @@ section. The sections take an opt-in `singleRow` flag so those index pages are u
 Topics and Books each hide themselves when the corpus ships no groups of that kind.
 
 **No "Popular" region, and no "With recordings" region.** There is no usage signal in the corpus
-and none can be manufactured: ~30 of 702 songs appear even once across 2,172 dated community
+and none can be manufactured: only a handful of songs appear even once across the dated community
 livestreams. Anything labelled "popular" would be fabricated.
 
 ## States
@@ -147,6 +155,10 @@ structure, then verify against it.
 
 ## Change log
 
+- **v4 (web)** — **This month** now sorts songs **with recordings first** (a stable partition, so
+  `basis` ranking still holds within each run), and those rows gained a **recording picker** — the
+  player's stacked singer-avatar cluster — that starts any take in the mini-player without leaving
+  Home. The region's job is seasonal *listening*, so the playable songs lead it.
 - **v3** — Removed the "Upcoming festivals" hero; **This month** is now the lead region, keeping
   the banner + song-list layout. Observances moved onto the banner; the time-of-day ārati block
   removed from this screen (its data layer stays). Region heading is the welcome greeting +

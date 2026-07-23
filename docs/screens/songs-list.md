@@ -14,12 +14,12 @@ objects). On mobile this is the **Library** tab; on web it's the **Songs** page.
 
 ## Data bindings
 
-- Reads the **Manifest** (703 entries) — `primary_title`, `titles`, `author_uid`,
+- Reads the **Manifest** — `primary_title`, `titles`, `author_uid`,
   `first_letter`, `audio_available`. Full songs are loaded only on navigation to detail.
 - Row title renders in the reader's [`listLanguage`](settings.md) script (from `titles`); falls back
   to `primary_title` (Latin) when that script is absent.
 - Author name per row: resolved from the derived Author catalog by `author_uid` (empty
-  `author_display` → uid fallback, per [author.md](author.md)).
+  `author_display` → uid fallback, per [author.md](../data/author.md)).
 - Audio badge shown when `audio_available`.
 
 ## Layout & regions
@@ -61,7 +61,7 @@ objects). On mobile this is the **Library** tab; on web it's the **Songs** page.
 
 - **Visual:** matches `Songs`/`Flat Song List`/`Library_Songs` (list rows + A–Z index) and
   `Library (Author)` (filtered) per platform.
-- **Behavioral:** all 703 songs listed; A–Z jump works; row tap → correct song; changing
+- **Behavioral:** all songs listed; A–Z jump works; row tap → correct song; changing
   `listLanguage` re-renders titles without reshuffling the index; author-filter shows only that
   author's songs; works offline.
 

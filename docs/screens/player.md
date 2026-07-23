@@ -6,9 +6,9 @@
 
 ## Purpose
 
-Plays a song's recording. 235 of the 703 songs carry audio (`audio_available = true`), and
-[song-detail](song-detail.md) shows a play affordance for them (currently stubbed) — this screen is
-what it opens. Streaming, with graceful handling when a track can't load.
+Plays a song's recording. Many songs carry audio (`audio_available = true`), and
+[song-detail](song-detail.md) shows a play affordance for them — this screen is what it opens.
+Streaming, with graceful handling when a track can't load.
 
 ## Audio source — the base URL (PLACEHOLDER)
 
@@ -61,19 +61,50 @@ Playback still **degrades gracefully** on any load failure (network off, missing
   a `PlayerView` (Now Playing) + a mini-player. `AudioConfig.swift` holds `AUDIO_BASE_URL`.
 - **Android:** `ExoPlayer`/Media3 (or `MediaPlayer`) behind a player `ViewModel`/service; a
   `PlayerScreen` + mini-player. `AUDIO_BASE_URL` in `AudioConfig.kt` or a `BuildConfig` field.
-- **Web (v4 — unified mini-player):** an `<audio>` element behind `PlayerContext`, surfaced by a
-  **single** sticky control in the bottom-right (`PlayerWidget.tsx`). It is **hidden entirely on
-  non-song pages unless a track is loaded/playing** (a song page "arms" its song via
-  `PlayerContext.arm()`, so the FAB shows there; elsewhere nothing until playback starts). States:
-  *idle (armed)* → a compact circular play FAB; *loaded* → a mini-player **card** with artwork,
-  **song title** (up to two lines, then a **marquee** if longer — `MarqueeTitle`), author, a
-  **scrubber** with times, and a **loop / download / share** control row (Lucide icons). Reciter
-  selection was **removed** (default recording plays). **Share** copies a deep link
-  `/songs/<uid>?play=<trackUid>` (or the Web Share sheet); the song page reads `?play=` and
-  cues+plays that take — autoplay-blocked degrades to *paused/cued*, not error. **Download** fetches
-  the mp3 as a blob (falls back to opening the S3 URL — the bucket sends no CORS/Content-Disposition).
-  Loop → `audio.loop`. `AUDIO_BASE_URL` in `web/src/config.ts`.
+- **Web (unified mini-player, `PlayerWidget.tsx`):** an `<audio>` element behind `PlayerContext`,
+  surfaced by a **single** sticky control in the bottom-right that **morphs** (framer-motion) between
+  a circle and a card. It is **hidden entirely on non-song pages unless a track is loaded/playing**
+  (a song page "arms" its song via `PlayerContext.arm()`, so the FAB shows there; elsewhere nothing
+  until playback starts). States: *idle (armed)* → a compact circular play FAB; *loaded* → a
+  mini-player **card** with artwork, **song title** (two lines → **marquee** when longer,
+  `MarqueeTitle`), the recording's **reciter** (not the composer), a **scrubber** with times, and a
+  control row (Lucide icons) — **loop / continue-playing / sleep-timer / download / share**, plus a
+  stacked-avatar **recordings** picker (`RecordingPickerButton`) and a **minimize** button;
+  *collapsed (while playing)* → back to a circle. The extra controls:
+  - **Continue-playing** (`autoContinue`, default **on**) — when the current take ends, rolls on to
+    the next take of the same song. Disabled (not hidden) on single-take songs so the control row
+    doesn't reflow between songs. Precedence: `loop` wins over continue.
+  - **Sleep timer** — a drop-up of minute presets + "End of track"; the button shows the remaining
+    `mm:ss` (or "End"). Backed by `services/sleepTimer.ts`.
+  - **Book/topic queue** — when a book or topic page arms a *queue* (`queueContext`), the card grows
+    **previous / next** transport around the play button; with no queue those controls take no room.
+    The queue is *not* otherwise labelled on the card (see v9).
+  - **"Play this" chip** — when a take is playing but the reader has navigated to a *different*
+    song's page (which armed itself), a chip appears above the widget to switch playback to the song
+    being read.
+  - **Share** copies a deep link `/songs/<uid>?play=<trackUid>` (or the Web Share sheet); the song
+    page reads `?play=` and cues+plays that take — autoplay-blocked degrades to *paused/cued*, not
+    error. **Download** fetches the mp3 as a blob (falls back to opening the S3 URL — the bucket
+    sends no CORS/Content-Disposition). Loop → `audio.loop`. `AUDIO_BASE_URL` in `web/src/config.ts`.
 - **Offline download** of tracks is a later enhancement — this slice is streaming + graceful errors.
+
+## Playback internals (web)
+
+- **Track-end priority chain** (`services/playerQueue.ts` `resolveTrackEndAction`, unit-tested with
+  no DOM). When a take ends, exactly one action fires, in order:
+  1. **Sleep "end of track"** armed → **stop** (an explicit request for silence must not be pre-empted).
+  2. **Loop** → **repeat** the same take.
+  3. **Continue-playing** and another take exists → **next take** of the same song.
+  4. An armed **book/topic queue** has a next song → **advance** to it (`router.push` + a one-shot
+     `consumeAutoplay(uid)` handshake — no full-song data crosses the context on a static site).
+  5. Otherwise → **stop**.
+- **Media Session** (`navigator.mediaSession`, feature-detected): sets `MediaMetadata`
+  (title/artist/artwork), keeps `playbackState` in sync, wires play/pause/seek/next/previous handlers,
+  and reports `setPositionState({ …, playbackRate: 1 })` — so OS lock-screen / headset controls drive
+  playback. Rate is a constant `1` (see the removed speed control in the change log).
+- **Resume** (`services/resume.ts` + `gk-player-resume` in `localStorage`): position is saved at most
+  every 5 s and, on next load, restored by `onLoadedMetadata` into a **paused** state — it **never
+  autoplays**. Storage failures are swallowed (resume is a convenience, never worth throwing over).
 
 ## Verification
 
@@ -84,6 +115,24 @@ Playback still **degrades gracefully** on any load failure (network off, missing
 
 ## Change log
 
+- **v9 (web)** — Removed the "**Playing from** \<collection\> · N of M" line from the card. The
+  collection breadcrumb duplicated context the reader already had (they arrived from that book/topic
+  page) and competed with the title/reciter for the card's two legible lines. The **queue itself is
+  unchanged**: previous/next transport still appears whenever a collection page arms one, and
+  `queuePosition` remains on the context for any future surface — it simply has no UI consumer now.
+- **v8 (web)** — Documented the playback internals that shipped with the audio batch: the
+  `resolveTrackEndAction` priority chain (sleep-end > loop > next-take > queue-advance > stop), the
+  **Media Session** integration (lock-screen/headset controls; constant rate 1), and localStorage
+  **resume** (restores paused, never autoplays). A **playback-speed** control was briefly added then
+  **removed** (it wrapped the ~330 px control row and offered little for sung kīrtana); Media Session
+  now reports a fixed rate of 1.
+- **v7 (web)** — Reconciled the spec with the shipped widget after several additions landed together:
+  a **continue-playing** toggle (`autoContinue`, default on — advances to the next take when the
+  current ends, `loop` taking precedence); a **sleep timer** (minute presets + end-of-track,
+  `services/sleepTimer.ts`); a **book/topic queue** (`queueContext`) adding previous/next transport
+  and a "Playing from …" line when a collection page arms one; and a **"Play this" chip** for when
+  the reader is on a different song's page than the one playing. Also corrected the Web bullet, which
+  had drifted to v4 (it still claimed the reciter/recordings picker was removed — v5 restored it).
 - **v6 (web)** — Stronger morph: springier transition + a cross-fade (`AnimatePresence` scale/opacity)
   between circle and card. The **recordings** control now shows a **stacked cluster of singer avatars**
   (up to 3 distinct artists, overlapping, ringed) + the take count, and the **minimize** button moved

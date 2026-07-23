@@ -13,10 +13,10 @@ How a reader moves through the app: a collapsible sidebar on web, a tab bar on m
 
 | Region | Contents |
 |--------|----------|
-| Brand | Wordmark, linking home. Desktop collapse toggle. |
+| Brand | `BrandWordmark` (live text, brand display face — [`components.md`](components.md)), linking home. Desktop collapse toggle. |
 | Search | Opens the centered command palette (⌘K). See [`search.md`](search.md). |
 | — | **Home** |
-| **Library** | Songs · Authors · Topics · Books |
+| **Library** | Songs · Tracks · Authors · Topics · Books |
 | **Resources** | Verse Meters · Diacritic Guide · Pronunciation |
 | **Footer** | One horizontal row — see below. |
 

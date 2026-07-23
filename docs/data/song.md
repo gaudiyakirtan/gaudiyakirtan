@@ -91,7 +91,7 @@ ordered verses, and its audio. Everything a screen needs to render a song is rea
 ## Change log
 
 - **v2** — Corrected `notes` and `audio_files` shapes to match the shipped corpus (verified against
-  all 703 songs): `notes` is `list<Note>` (`{language_code, text}`), not `list<string>`;
+  every song): `notes` is `list<Note>` (`{language_code, text}`), not `list<string>`;
   `AudioTrack` is `{uid, filename}`, not `{id, title, url, duration_seconds}`. (Found by web
   implementer during slice-1 decode; corpus is truth for shape.)
 - **v1** — Canonical spec aligned to pipeline output: identity, multi-script `title_main`, author

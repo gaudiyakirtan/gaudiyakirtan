@@ -18,7 +18,7 @@ The apps never see the legacy format; they consume only pipeline output.
 
 | | Location | Shape |
 |--|----------|-------|
-| **Input** | `pipeline/songs/*.json` (~703) | Legacy word-stream format (`{w,h,s,o}` per token) |
+| **Input** | `pipeline/songs/*.json` | Legacy word-stream format (`{w,h,s,o}` per token) |
 | **Output** | canonical song files + `manifest` | This folder's specs |
 
 Two **overlay** builders run separately from the song conversion above. They consume the finished

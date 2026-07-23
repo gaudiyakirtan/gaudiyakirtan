@@ -1,80 +1,56 @@
-# Gaudiya Kirtan Application Documentation
+# Gaudiya Kirtan — Documentation
 
-Welcome to the Gaudiya Kirtan application documentation. This repository contains comprehensive documentation for the cross-platform Gaudiya Kirtan application.
+A native, offline-first repository of Gauḍīya Vaiṣṇava songs, built for **iOS (Swift)**, **Android
+(Kotlin)**, and **Web (Next.js)** from one shared corpus. These docs are **doc-driven**: the specs
+are the source of truth, and code is verified against them — not the other way round.
 
-## Table of Contents
+## Start here
 
-- [Architecture Overview](/docs/architecture/overview.md)
-- Platform-Specific Implementations:
-  - [iOS Implementation](/docs/ios/implementation.md)
-  - [Android Implementation](/docs/android/implementation.md)
-  - [Web Implementation](/docs/web/implementation.md)
-- [Shared Models](/docs/shared/models.md)
+- **[`WORKFLOW.md`](WORKFLOW.md)** — the operating model: the SPEC → IMPLEMENT → VERIFY loop and the
+  orchestrator / implementer / verifier roles.
+- **[`implementation-mapping.md`](implementation-mapping.md)** — the **conformance matrix**: the one
+  status board of spec × platform × verifier status. Look here for "what's shipped where".
+- **[`../ROADMAP.md`](../ROADMAP.md)** — the release plan and open tracks.
 
-## Project Overview
+## The two spec tiers
 
-Gaudiya Kirtan is a cross-platform application designed to provide access to a comprehensive repository of devotional songs. The application is implemented natively for each platform:
+**[`data/`](data/) — the data source of truth.** Platform-agnostic, versioned specs for what is
+stored. Field names are the literal snake_case JSON keys the pipeline emits.
 
-- iOS: Swift/UIKit
-- Android: Java/Kotlin
-- Web: TypeScript/Next.js
+| Spec | What |
+|------|------|
+| [`data/README.md`](data/README.md) | Conventions: uid, ISO 639-3 / 15924 script codes, master-text flags, the shared doc template |
+| [`song.md`](data/song.md) · [`verse.md`](data/verse.md) · [`translation.md`](data/translation.md) | The song aggregate, its stanzas, and full-language renderings |
+| [`author.md`](data/author.md) · [`collections.md`](data/collections.md) | Composers; and Book / Topic / Collection groupings |
+| [`manifest.md`](data/manifest.md) | The lightweight catalog index the lists read |
+| [`calendar.md`](data/calendar.md) | The lunar-month → song overlay |
+| [`pipeline.md`](data/pipeline.md) | Legacy → canonical conversion + the overlay builders (code in [`../pipeline/`](../pipeline/), raw inputs in [`../pipeline/SOURCES.md`](../pipeline/SOURCES.md)) |
 
-All platforms share consistent data models, UI flow, and offline capabilities.
+**[`screens/`](screens/) — behavior.** What each screen *does* and which data it binds. **Figma owns
+the pixels** (`../../Gaudiya Kirtan UI/*.png`); these specs capture behavior, states, data-binding,
+and cross-platform structure. See the **[screens index](screens/README.md)**. Highlights: the unified
+[player](screens/player.md), the [command-palette search](screens/search.md), the
+[Tracks](screens/tracks.md) library, [URL resolution + 404](screens/url-resolution.md),
+[navigation](screens/navigation.md), the [Gaura/Shyam theme](screens/theme.md), and shared
+[components](screens/components.md).
 
-## CI/CD Workflows
+## Reference
 
-The project uses GitHub Actions for continuous integration, delivery, and release with the following workflows:
+- [`theme/colors.md`](theme/colors.md) · [`theme/icons.md`](theme/icons.md) · [`theme/typography.md`](theme/typography.md) — palette, icon pack, brand font.
+- [`store-readiness.md`](store-readiness.md) — app-store checklist.
+- Build/run commands and code style live in the repo-root [`../CLAUDE.md`](../CLAUDE.md).
 
-### Build Verification and Release
+## Doc conventions
 
-- **iOS Build**: Verifies and releases the iOS app
-  - Triggered on changes to iOS code in the `mono` branch
-  - Builds the app using Xcode without code signing
-  - For direct pushes to `mono`, creates an IPA file and publishes a GitHub release
-  
-- **Android Build**: Verifies and releases the Android app
-  - Triggered on changes to Android code in the `mono` branch
-  - Builds a debug APK using Gradle
-  - For direct pushes to `mono`, publishes the APK as a GitHub release
-  
-- **Web Build**: Verifies and packages the web application
-  - Triggered on changes to web code in the `mono` branch
-  - Runs linting and builds the Next.js application
-  - For direct pushes to `mono`, packages the build and publishes it as a GitHub release
+Every spec follows one template (declared in [`data/README.md`](data/README.md)): **spec version →
+purpose → fields / data-bindings → invariants → example → platform notes → change log.**
 
-### Combined Workflow
+Corpus totals (song / author / book counts) are **deliberately not written into prose** — they go
+stale the moment the corpus changes. Specs describe *shape and behavior*; the live numbers come from
+the data itself (`web/src/data/manifest.json` and friends).
 
-- **All Platform Build**: Orchestrates builds for all three platforms based on changed files
-  - Triggered on pushes and pull requests to the `mono` branch
-  - Determines which platform code has changed
-  - Triggers the appropriate platform-specific build workflows
-  - Can be manually triggered via workflow dispatch
-  
-### Release Artifacts
-
-Each successful build on the `mono` branch automatically:
-- Creates a tagged GitHub release with incrementing build numbers
-- Attaches platform-specific build artifacts to the release
-- Provides a changelog based on the commit that triggered the build
-
-## Code Pointers
-
-This documentation contains code pointers that reference specific files in the codebase. These pointers serve as navigational aids to help developers understand the relationships between documentation concepts and their implementation in code.
-
-Example of a code pointer:
-```
-See: /ios/GaudiyaKirtan/GaudiyaKirtan/Models/Song.swift
-```
-
-## Development Workflow
-
-When implementing new features, refer to the [Architecture Overview](/docs/architecture/overview.md) to ensure consistent implementation across all platforms. Each feature should maintain parallel structure and naming conventions across all platform implementations.
-
-## Maintaining Documentation
-
-As the codebase evolves, please update this documentation to keep it current. Documentation updates should:
-
-1. Reflect changes in data models or architecture
-2. Update code pointers when file paths change
-3. Add new sections for new features or components
-4. Remove references to deprecated or removed features
+> **Legacy note.** An earlier pre-spec generation of these docs — `architecture/`, `shared/models.md`,
+> and the per-platform `ios|android|web/implementation.md` files — has been **retired**. It was
+> superseded by the `data/` + `screens/` tiers and the conformance matrix above, and had drifted to
+> describe file layouts and a `Song` model that no longer exist. If an old link led you here, that's
+> why.

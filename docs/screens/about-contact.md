@@ -18,7 +18,7 @@ Two static content pages reachable from the sidebar footer:
 The corpus previously carried a placeholder "song" (`A0`, authored by "The Gaudiya Kirtan Team")
 whose body was an app announcement — a beta notice pinned to a past festival. Using a song record
 as a message channel put non-song content into every song list, search index and count. About is
-the proper home for that content; `A0` has since been removed from the corpus (702 songs, not 703).
+the proper home for that content; `A0` has since been removed from the corpus.
 
 ## Data bindings
 
@@ -87,7 +87,7 @@ way — not from a hardcoded string in a resource file.
 ## Verification
 
 **Behavioral:**
-- Counts on `/about` match the shipped corpus (currently 702 / 244 / 83 / books / topics).
+- Counts on `/about` match the shipped corpus (songs / with-audio / authors / books / topics).
 - With `CONTACT_EMAIL` unset, `/contact` shows the "not published" state and renders **no**
   `mailto:` link; with it set, the link appears.
 - The Gīti-guccha attribution and the CC BY-ND 4.0 / artwork-excluded statement are both present.
