@@ -1,10 +1,37 @@
 import React from 'react'
 import { AppProps } from 'next/app'
+import { Analytics } from '@vercel/analytics/next'
+import { SpeedInsights } from '@vercel/speed-insights/next'
 import Layout from '../components/Layout'
 import { ThemeProvider } from '../utils/ThemeContext'
 import { SettingsProvider } from '../utils/SettingsContext'
 import { PlayerProvider } from '../utils/PlayerContext'
+import { initObservability, Sentry } from '../utils/observability'
 import '../styles/globals.css'
+
+// Start client error monitoring as early as possible (self-guards: no-op on the server and until a
+// NEXT_PUBLIC_SENTRY_DSN is configured), so it is listening before the app mounts.
+initObservability()
+
+// Minimal, on-theme fallback for a render-time crash — an ErrorBoundary is the only way React
+// surfaces those (window.onerror does not catch them), and Sentry reports them from here.
+function CrashFallback() {
+  return (
+    <div className="flex min-h-[60vh] flex-col items-center justify-center gap-4 p-8 text-center">
+      <h1 className="text-xl font-bold text-[var(--primary)]">Something went wrong</h1>
+      <p className="max-w-sm text-sm text-[var(--neutral)]">
+        The page hit an unexpected error. Reloading usually fixes it.
+      </p>
+      <button
+        type="button"
+        onClick={() => window.location.reload()}
+        className="rounded-lg bg-[var(--highlight)] px-4 py-2 text-[var(--on-highlight)]"
+      >
+        Reload
+      </button>
+    </div>
+  )
+}
 
 function MyApp({ Component, pageProps, router }: AppProps) {
   // Get page title based on route
@@ -32,17 +59,23 @@ function MyApp({ Component, pageProps, router }: AppProps) {
   }
 
   return (
-    <ThemeProvider>
-      <SettingsProvider>
-        {/* Mounted once at the app root so playback survives client-side navigation between
-            pages - the "global playback service" required by docs/screens/player.md. */}
-        <PlayerProvider>
-          <Layout title={getPageTitle()} subtitle={getSubtitle()}>
-            <Component {...pageProps} />
-          </Layout>
-        </PlayerProvider>
-      </SettingsProvider>
-    </ThemeProvider>
+    <Sentry.ErrorBoundary fallback={<CrashFallback />}>
+      <ThemeProvider>
+        <SettingsProvider>
+          {/* Mounted once at the app root so playback survives client-side navigation between
+              pages - the "global playback service" required by docs/screens/player.md. */}
+          <PlayerProvider>
+            <Layout title={getPageTitle()} subtitle={getSubtitle()}>
+              <Component {...pageProps} />
+            </Layout>
+          </PlayerProvider>
+        </SettingsProvider>
+      </ThemeProvider>
+      {/* Vercel first-party, privacy-friendly, cookieless — no consent banner needed. Both no-op
+          unless enabled for the project in the Vercel dashboard. */}
+      <Analytics />
+      <SpeedInsights />
+    </Sentry.ErrorBoundary>
   )
 }
 
