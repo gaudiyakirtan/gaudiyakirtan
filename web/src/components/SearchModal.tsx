@@ -2,7 +2,7 @@ import React, { useEffect, useMemo, useRef, useState } from 'react'
 import { useRouter } from 'next/router'
 import {
   Search, CornerDownLeft, Home, Music, User, Hash, BookOpen, Settings, Info, Mail,
-  AudioLines, Type, Volume2, Tag as TagIcon, FileText, Mic2,
+  AudioLines, Type, Volume2, Tag as TagIcon, FileText, Mic2, ListMusic,
 } from 'lucide-react'
 import { scoreText } from '../services/search'
 
@@ -26,6 +26,7 @@ interface Entry {
 const PAGES: Entry[] = [
   { type: 'page', label: 'Home', subtitle: 'Page', href: '/', icon: <Home size={16} /> },
   { type: 'page', label: 'Songs', subtitle: 'Page · library', href: '/songs', icon: <Music size={16} /> },
+  { type: 'page', label: 'Tracks', subtitle: 'Page · library · recordings', href: '/tracks', icon: <ListMusic size={16} /> },
   { type: 'page', label: 'Authors', subtitle: 'Page · library', href: '/authors', icon: <User size={16} /> },
   { type: 'page', label: 'Topics', subtitle: 'Page · library', href: '/topics', icon: <Hash size={16} /> },
   { type: 'page', label: 'Books', subtitle: 'Page · library', href: '/books', icon: <BookOpen size={16} /> },

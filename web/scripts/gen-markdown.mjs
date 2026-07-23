@@ -204,12 +204,23 @@ for (const [tag, uids] of Object.entries(tagSongs)) {
 // reciters (track artists) -> song uids (for the ?artist filter). A reciter is who *recorded* a
 // take, distinct from the song's composer/author.
 const reciterSongs = {}
+// ...and how many individual takes each has, which is what /tracks actually lists (one row per
+// recording, so a reciter's take count is higher than their song count).
+const reciterTakes = {}
 for (const s of songs) {
-  const artists = new Set((s.audio_files || []).map((a) => a.artist).filter(Boolean))
-  for (const a of artists) (reciterSongs[a] ||= []).push(s.uid)
+  const takes = (s.audio_files || []).map((a) => a.artist).filter(Boolean)
+  for (const a of takes) reciterTakes[a] = (reciterTakes[a] || 0) + 1
+  for (const a of new Set(takes)) (reciterSongs[a] ||= []).push(s.uid)
 }
 for (const [artist, uids] of Object.entries(reciterSongs)) {
-  entries.push({ type: 'reciter', label: artist, subtitle: `Reciter · ${uids.length} songs`, href: `/songs?artist=${encodeURIComponent(artist)}` })
+  // Points at /tracks, not /songs: a reciter is a performer, so the useful destination is their
+  // recordings (docs/screens/tracks.md), not the songs those takes happen to belong to.
+  entries.push({
+    type: 'reciter',
+    label: artist,
+    subtitle: `Reciter · ${reciterTakes[artist]} recordings · ${uids.length} songs`,
+    href: `/tracks?artist=${encodeURIComponent(artist)}`,
+  })
 }
 fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(entries))
 fs.writeFileSync(path.join(OUT, 'tag-index.json'), JSON.stringify(tagSongs))

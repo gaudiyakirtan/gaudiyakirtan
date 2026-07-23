@@ -21,6 +21,10 @@ essential** — users type "govinda" for "gōvinda", "vimostottra" for "viṁśo
   - every `titles[]` entry (all scripts, so a user can match Roman *or* native script), and
   - the resolved author name (`author_uid` → derived Author).
 - A result resolves to a `uid`; tapping opens [song-detail](song-detail.md).
+- **Reciters** (web palette) — the performing artists on `audio_files[].artist`, distinct from a
+  song's composing author. 44 in the shipped corpus. Emitted as `type: 'reciter'` entries and
+  resolving to **`/tracks?artist=<name>`** — a reciter is a performer, so the useful destination is
+  their *recordings* ([tracks](tracks.md)), not the songs those takes belong to.
 
 ## Matching rules (tier 1 — fuzzy, required)
 
