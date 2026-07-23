@@ -8,12 +8,19 @@
 /** @param titles rows from titles.json  @param content rows from content.json */
 export function buildCorpora(titles, content) {
   const lines = new Map()
+  const sourceLines = new Map()
   for (const c of content) {
     if (!lines.has(c.uid)) lines.set(c.uid, [])
     lines.get(c.uid).push(c.text)
+    // Source lines only - the romanized verse itself, with the English translations left out.
+    if (c.kind === 'source') {
+      if (!sourceLines.has(c.uid)) sourceLines.set(c.uid, [])
+      sourceLines.get(c.uid).push(c.text)
+    }
   }
   const latn = (t) => t.scripts.filter((s) => s.script === 'Latn').map((s) => s.text)
   const body = (uid) => lines.get(uid) ?? []
+  const source = (uid) => sourceLines.get(uid) ?? []
 
   return {
     'titles-latn': {
@@ -29,9 +36,19 @@ export function buildCorpora(titles, content) {
         return { ref: t.uid, texts: all, title: all, content: [] }
       }),
     },
+    'titles-latn+source': {
+      label: 'Latin titles + Latin verse text (no translations)',
+      note: 'Everything indexed is romanized Sanskrit/Bengali - no English anywhere in the index.',
+      docs: titles.map((t) => ({
+        ref: t.uid,
+        texts: [...latn(t), ...source(t.uid)],
+        title: latn(t),
+        content: source(t.uid),
+      })),
+    },
     'titles-latn+content': {
       label: 'Latin titles + verse text + translations',
-      note: 'The clean test of what CONTENT costs: same Latin-only titles, plus 16,620 verse lines.',
+      note: 'Adds the English translations on top of the Latin-only corpus above.',
       docs: titles.map((t) => ({
         ref: t.uid,
         texts: [...latn(t), ...body(t.uid)],

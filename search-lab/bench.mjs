@@ -49,11 +49,26 @@ if (unknownEngine) {
   console.error(`unknown engine "${unknownEngine}". Known: ${ENGINES.map((e) => e.id).join(', ')}`)
   process.exit(1)
 }
-const truth = truthSet === 'content' ? loadContentTruth() : loadGroundTruth()
+/**
+ * Optional style filter, e.g. --style recall,fragment,script,synthetic.
+ *
+ * This matters for more than convenience. The 85 English-language queries (styles `semantic` and
+ * `english`) are answerable ONLY when the English translations are in the index - against a
+ * Latin-only corpus they share no vocabulary at all with their target, and every engine scores 0%
+ * on them by construction. Averaging those into a Latin-only run does not measure a weakness, it
+ * measures a category error. Filter them out when the index has no English in it.
+ */
+const styleFilter = arg('--style')
+const styles = styleFilter ? new Set(styleFilter.split(',').map((s) => s.trim())) : null
+
+let truth = truthSet === 'content' ? loadContentTruth() : loadGroundTruth()
+if (styles) truth = truth.filter((t) => styles.has(t.style ?? t.origin))
 const titleOf = byUidTitle()
 if (truthSet === 'content') {
   const a = truth.filter((t) => t.origin === 'authored').length
-  console.log(`\x1b[2mground truth: content — ${truth.length} queries (${a} authored, ${truth.length - a} synthetic)\x1b[0m`)
+  const which = styles ? ` [styles: ${[...styles].join(', ')}]` : ''
+  console.log(`\x1b[2mground truth: content — ${truth.length} queries (${a} authored, ${truth.length - a} synthetic)${which}\x1b[0m`)
+  if (!truth.length) { console.error('no queries matched that --style filter'); process.exit(1) }
 }
 
 /** Wall-clock of `fn`, repeated for stability on sub-millisecond work. */
@@ -88,7 +103,7 @@ for (const [corpusId, corpus] of Object.entries(corpora)) {
     const misses = []
     // Tracked separately so a strong score on generated spelling-noise cannot mask a weak one on
     // the hand-written meaning/recall/script queries, or the reverse.
-    const split = { authored: { n: 0, r1: 0, r5: 0 }, synthetic: { n: 0, r1: 0, r5: 0 } }
+    const split = { authored: { n: 0, r1: 0, r5: 0 }, synthetic: { n: 0, r1: 0, r5: 0 }, styles: {} }
     for (const g of truth) {
       const t = performance.now()
       const res = engine.search(state, g.query, 10)
@@ -101,6 +116,11 @@ for (const [corpusId, corpus] of Object.entries(corpora)) {
       if (rank !== 0) misses.push({ ...g, rank, got: res.slice(0, 3).map((r) => r.ref) })
       const s = split[g.origin]
       if (s) { s.n++; if (rank === 0) s.r1++; if (rank >= 0 && rank < 5) s.r5++ }
+      const styleKey = g.style ?? g.origin ?? 'unknown'
+      const st = (split.styles[styleKey] ??= { n: 0, r1: 0, r5: 0 })
+      st.n++
+      if (rank === 0) st.r1++
+      if (rank >= 0 && rank < 5) st.r5++
     }
     const n = truth.length
     lat.sort((a, b) => a - b)
@@ -124,6 +144,17 @@ for (const [corpusId, corpus] of Object.entries(corpora)) {
       console.log(`  \x1b[2m${' '.repeat(33)}authored ${half(split.authored)}   synthetic ${half(split.synthetic)}   (R@1/R@5)\x1b[0m`)
       row.authored = { r1: split.authored.r1 / split.authored.n, r5: split.authored.r5 / split.authored.n }
       row.synthetic = { r1: split.synthetic.r1 / split.synthetic.n, r5: split.synthetic.r5 / split.synthetic.n }
+      // Per style, because "text-matching" and "meaning-based" are different questions and only
+      // the first one is answerable by a lexical matcher at all.
+      const byStyle = {}
+      for (const [style, s] of Object.entries(split.styles)) {
+        byStyle[style] = { n: s.n, r1: s.r1 / s.n, r5: s.r5 / s.n }
+      }
+      row.styles = byStyle
+      const order = ['recall', 'fragment', 'script', 'semantic', 'english', 'synthetic']
+      const parts = order.filter((k) => byStyle[k]).map((k) =>
+        `${k} ${(100 * byStyle[k].r1).toFixed(0)}%`)
+      console.log(`  \x1b[2m${' '.repeat(33)}${parts.join('  ·  ')}   (R@1 by style)\x1b[0m`)
     }
 
     if (missesFor === engine.id) {

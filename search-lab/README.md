@@ -112,6 +112,54 @@ devotional romanization, 9 in *native script* (Devanagari), 5 English descriptio
 fragments. Character noise never turns `kṛṣṇa` into `krishna` — that is a different transliteration
 tradition, not a slip.
 
+### Query styles — text-matching vs meaning-based
+
+The 500 queries are not one thing. Only some of them are answerable by matching text at all:
+
+| style | n | query language | target | answerable without English in the index? |
+|---|---|---|---|---|
+| `recall` | 153 | Latin | Latin verse | ✅ |
+| `synthetic` | 250 | Latin | Latin verse | ✅ |
+| `script` | 9 | Devanagari | Devanagari verse | ✅ |
+| `fragment` | 3 | Latin | Latin verse | ✅ |
+| `semantic` | 80 | **English** | Latin verse | ❌ only via the translation |
+| `english` | 5 | **English** | Latin verse | ❌ only via the translation |
+
+```
+recall     "radhika charana renu bhushana kariya tanu"
+           → R23 v0   rādhikā-caraṇareṇu,  bhūṣaṇa kariyā tanu,
+
+synthetic  "Ya’ra pada visvanatha-asa"
+           → GV12 v6  yā̃’ra pada viśvanātha-āśa
+
+script     "छाँड़ि मन हरि विमुखन को संग"
+           → B12 v0   छाँड़ि मन, हरि-विमुखन को संग
+
+semantic   "decorate your body with the dust of radhikas lotus feet"
+           → R23 v0   rādhikā-caraṇareṇu,  bhūṣaṇa kariyā tanu,     ← same verse, no shared words
+```
+
+**415 of 500 are text-matching** (`recall + synthetic + script + fragment`); the other 85 are
+meaning-based and share no vocabulary with their target. Filter accordingly:
+
+```bash
+node bench.mjs --truth content --corpus titles-latn+source \
+  --style recall,fragment,script,synthetic
+```
+
+Averaging the English queries into a Latin-only run does not measure a weakness — it measures a
+category error. The evidence is unambiguous: on `titles-latn+source` every engine scores **0% on
+`semantic` and `english`**, and the shipping ranker scores 94% / 100% / 100% on
+recall / fragment / script. Its headline moves from **71.4% → 86.0%** once the unanswerable
+queries are excluded.
+
+| engine (Latin-only corpus, text-matching queries) | R@1 | R@5 | R@10 | p50 |
+|---|---|---|---|---|
+| current (linear `scoreText`) | **86.0%** | 95.2% | 96.1% | 233 ms |
+| Hybrid | 68.0% | 85.5% | 91.6% | 2.08 ms |
+| BM25 + prefix + fuzzy | 55.4% | 76.1% | 86.5% | 1.49 ms |
+| Trigram | 51.8% | 75.4% | 81.9% | 0.42 ms |
+
 ### What the two halves show
 
 | engine | overall R@1 | authored | synthetic |
