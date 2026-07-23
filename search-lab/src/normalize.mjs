@@ -50,21 +50,37 @@ export function tokenize(normalized) {
   return normalized ? normalized.split(' ').filter(Boolean) : []
 }
 
-/** Levenshtein similarity in [0,1]. Early-outs on a length gap that can't clear any useful bar. */
-export function similarity(a, b) {
+/**
+ * Levenshtein similarity in [0,1]. Early-outs on a length gap that can't clear any useful bar.
+ * `minSim` is an optional cutoff: results >= minSim are exact, results below it may be clamped —
+ * pass the caller's current best score so hopeless comparisons pay a banded DP, not a full one.
+ */
+let SIM_PREV = new Float64Array(64), SIM_CURR = new Float64Array(64) // scratch rows, grown on demand
+export function similarity(a, b, minSim = 0) {
   if (a === b) return 1
   const max = Math.max(a.length, b.length)
   if (max === 0) return 1
   if (Math.abs(a.length - b.length) / max > 0.5) return 0
-  const prev = new Array(b.length + 1)
-  const curr = new Array(b.length + 1)
+  // Edits allowed while still clearing minSim; the DP only needs a band this wide.
+  const band = minSim > 0 ? Math.floor((1 - minSim) * max) : max
+  if (Math.abs(a.length - b.length) > band) return 0
+  if (b.length + 1 > SIM_PREV.length) {
+    SIM_PREV = new Float64Array(b.length + 1)
+    SIM_CURR = new Float64Array(b.length + 1)
+  }
+  const BIG = 1e9 // sentinel for cells outside the band; never wins a min, never overflows
+  let prev = SIM_PREV, curr = SIM_CURR
   for (let j = 0; j <= b.length; j++) prev[j] = j
   for (let i = 1; i <= a.length; i++) {
+    const lo = Math.max(1, i - band), hi = Math.min(b.length, i + band)
     curr[0] = i
-    for (let j = 1; j <= b.length; j++) {
-      curr[j] = Math.min(prev[j] + 1, curr[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1))
+    if (lo > 1) curr[lo - 1] = BIG
+    for (let j = lo; j <= hi; j++) {
+      const up = j >= i + band ? BIG : prev[j] // prev row's band ends one column earlier
+      curr[j] = Math.min(up + 1, curr[j - 1] + 1, prev[j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1))
     }
-    for (let j = 0; j <= b.length; j++) prev[j] = curr[j]
+    if (hi < b.length) curr[hi + 1] = BIG
+    ;[prev, curr] = [curr, prev]
   }
   return 1 - prev[b.length] / max
 }

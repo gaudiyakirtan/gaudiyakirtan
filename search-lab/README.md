@@ -191,6 +191,73 @@ Three results worth the whole exercise:
    is to index **lines as documents** and aggregate to song, rather than pooling a song's lines
    into one bag.
 
+## Jaigopal — the algorithm from the earlier app
+
+Ported from `gaudiyakirtan-master/ux-app` (`TransliterationUtils.fuzzy`/`getScore`, driven by
+`SongListSearch.tsx`) and named after its author. It is architecturally unlike everything else
+here, and it solves a case this repo documents as unsolvable.
+
+Rather than measure how *similar* two strings are, it destroys almost all the information in both
+and asks whether what survives is a substring. What survives is a **consonant skeleton**:
+diacritics folded, then `r→d`, `y→j`, `v/w→b`, `o→a`, aspirates collapsed (`kh→k`), homorganic
+nasals dropped (`nd→d`), doubles collapsed, **spaces removed**, and then **every vowel deleted**.
+
+```
+govinda      → gbd        krishna     → kds        rādhikā-caraṇareṇu   → dkcdnd
+gobinda      → gbd        kṛṣṇa       → kds        radhika charana renu → dkcdnd
+
+vimostottra  → bmstd
+biṁśottara   → bmstd
+```
+
+That last pair is the exact case `docs/screens/search.md` calls tier 1's known limitation — hard
+metathesis that normalize-plus-edit-distance cannot reach. Here it is not a near miss, it is an
+**exact match**, because the transposed letters and the vowels around them were thrown away before
+comparison. Deleting spaces also makes compound splitting free, which is 11.5% of real queries.
+
+Recall that aggressive needs a precision stage, so the skeleton is only a **candidate sieve**;
+survivors are ranked by **Dice coefficient over character bigrams** on a much gentler fold (vowels
+intact). Two stages of opposite temperament: a sieve that lets almost anything through, and a judge
+that sorts it out. Three channels — uid, title, content — each ranked independently, which in the
+original app were three tabs.
+
+### What it is good at, and what it is not
+
+| | R@1 | R@5 | R@10 |
+|---|---|---|---|
+| titles only (the 231 recorded attempts) | 47.2% | 50.2% | 51.9% |
+| content, text-matching queries | 63.9% | 69.6% | 71.1% |
+| …of which **hand-written** | **88.5%** | 88.5% | — |
+| …of which synthetic | 47.6% | 57.2% | — |
+| by style | recall 88% · fragment 100% · script 100% · synthetic 48% | | |
+
+**R@1 ≈ R@5 ≈ R@10 is the whole story.** Every other engine gains 15–20 points between R@1 and
+R@10; Jaigopal gains 3–7, and on hand-written queries R@1 and R@5 are *identical*. It does not
+produce a ranked list of maybes — it either finds the song immediately or does not find it at all.
+That is a precision instrument, and it is exactly the right shape for "jump straight there",
+though the wrong shape for "show me candidates".
+
+The ceiling is measurable: for the 231 recorded attempts, the target's skeleton contains the
+query's skeleton only **52.4%** of the time (adding the content channel lifts it only to 52.8%).
+Against that ceiling its 47.2% is **90% of everything achievable** — the Dice ranker is doing its
+job well; substring containment is what caps it. One transposed consonant in the *skeleton*
+(`chatinya asktham` → `ctjsktm` vs `sdctjstkm`) breaks containment outright, with no partial credit.
+
+The synthetic/hand-written gap — 88.5% vs 47.6% — is the sharpest result. The skeleton is built for
+how *people* mis-hear and re-spell Sanskrit: systematic, phonetically motivated substitution. The
+generator's random character edits are not that, and the skeleton has no defence against them. On
+real human phrasing it is within 10 points of the best engine here; on synthetic corruption it
+loses 30. Which of those you weight is a product decision, not a benchmark one.
+
+**Port fidelity:** `fuzzy()` and `getScore()` are verbatim, including two quirks in `getScore` that
+are part of its measured behaviour (`getBigrams` emits a trailing 1-character "bigram", and the
+nested loop counts matching *pairs* rather than matched bigrams, so repeated bigrams inflate hits).
+Fixing either changes the ranking, so a corrected version would not be this algorithm. One
+assumption: the original read a precomputed `titleFuzz`/`contentFuzz` off a server-built bundle
+that is not in that repo, so this port applies `fuzzy()` to the title and to each verse line. Per
+line rather than one packed string — the original located the matching line by parsing `{verse|line}`
+markers back out of the blob, which is the same thing done the long way.
+
 ## Results
 
 `R@k` = share of the 231 attempts where the intended song ranked in the top *k*.
