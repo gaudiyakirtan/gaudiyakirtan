@@ -13,7 +13,7 @@
 // misspellings typed by people looking for a song they had heard, not synthetic queries.
 import fs from 'node:fs'
 import { ENGINES } from './src/engines.mjs'
-import { loadCorpora, loadGroundTruth, byUidTitle } from './src/corpora.mjs'
+import { loadCorpora, loadGroundTruth, loadContentTruth, byUidTitle } from './src/corpora.mjs'
 import { inspectEngine, slices, verdict } from './src/inspect.mjs'
 
 const argv = process.argv.slice(2)
@@ -26,6 +26,8 @@ const missesFor = arg('--misses')
 const inspectFor = arg('--inspect')
 const topN = Number(arg('--top', 6))
 const jsonOut = arg('--json')
+/** 'titles' = the 231 recorded attempts; 'content' = the 500-query content set. */
+const truthSet = arg('--truth', 'titles')
 
 const corpora = loadCorpora()
 
@@ -47,8 +49,12 @@ if (unknownEngine) {
   console.error(`unknown engine "${unknownEngine}". Known: ${ENGINES.map((e) => e.id).join(', ')}`)
   process.exit(1)
 }
-const truth = loadGroundTruth()
+const truth = truthSet === 'content' ? loadContentTruth() : loadGroundTruth()
 const titleOf = byUidTitle()
+if (truthSet === 'content') {
+  const a = truth.filter((t) => t.origin === 'authored').length
+  console.log(`\x1b[2mground truth: content — ${truth.length} queries (${a} authored, ${truth.length - a} synthetic)\x1b[0m`)
+}
 
 /** Wall-clock of `fn`, repeated for stability on sub-millisecond work. */
 function timed(fn, reps = 1) {
@@ -80,6 +86,9 @@ for (const [corpusId, corpus] of Object.entries(corpora)) {
     let r1 = 0, r5 = 0, r10 = 0, mrr = 0
     const lat = []
     const misses = []
+    // Tracked separately so a strong score on generated spelling-noise cannot mask a weak one on
+    // the hand-written meaning/recall/script queries, or the reverse.
+    const split = { authored: { n: 0, r1: 0, r5: 0 }, synthetic: { n: 0, r1: 0, r5: 0 } }
     for (const g of truth) {
       const t = performance.now()
       const res = engine.search(state, g.query, 10)
@@ -90,6 +99,8 @@ for (const [corpusId, corpus] of Object.entries(corpora)) {
       if (rank >= 0 && rank < 10) r10++
       if (rank >= 0) mrr += 1 / (rank + 1)
       if (rank !== 0) misses.push({ ...g, rank, got: res.slice(0, 3).map((r) => r.ref) })
+      const s = split[g.origin]
+      if (s) { s.n++; if (rank === 0) s.r1++; if (rank >= 0 && rank < 5) s.r5++ }
     }
     const n = truth.length
     lat.sort((a, b) => a - b)
@@ -108,6 +119,12 @@ for (const [corpusId, corpus] of Object.entries(corpora)) {
       `${pct(row.r1)} ${pct(row.r5)} ${pct(row.r10)} ${pct(row.mrr)}  ` +
       `${(buildMs.toFixed(0) + 'ms').padStart(7)} ${(row.p50.toFixed(2) + 'ms').padStart(8)} ${(row.p95.toFixed(2) + 'ms').padStart(8)}`
     )
+    if (truthSet === 'content' && split.authored.n && split.synthetic.n) {
+      const half = (s) => `${(100 * s.r1 / s.n).toFixed(1)}/${(100 * s.r5 / s.n).toFixed(1)}`
+      console.log(`  \x1b[2m${' '.repeat(33)}authored ${half(split.authored)}   synthetic ${half(split.synthetic)}   (R@1/R@5)\x1b[0m`)
+      row.authored = { r1: split.authored.r1 / split.authored.n, r5: split.authored.r5 / split.authored.n }
+      row.synthetic = { r1: split.synthetic.r1 / split.synthetic.n, r5: split.synthetic.r5 / split.synthetic.n }
+    }
 
     if (missesFor === engine.id) {
       console.log(`\n  \x1b[2mmisses for ${engine.id} on ${corpusId} (${misses.length}/${n}):\x1b[0m`)

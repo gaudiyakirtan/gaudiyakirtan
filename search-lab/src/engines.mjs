@@ -313,4 +313,213 @@ export const trigramFielded = {
   },
 }
 
-export const ENGINES = [current, bm25, bm25Fuzzy, trigram, phoneticEngine, hybrid, trigramFielded]
+// ---------------------------------------------------------------------------
+// cascade - purpose-built for the title+content corpus. Three signals, spent
+// in order of cost, each consulted only when the previous one has not already
+// decided the query:
+//
+//   1. fielded trigram over titles, accumulated into a typed array (fast path)
+//   2. phonetic trigram over titles - rescues sound-alike misspellings that
+//      share almost no literal trigrams ("chatinya" / "caitanya")
+//   3. content trigrams + a whole-string / per-token rerank of the leaders -
+//      restores word ORDER, which bag-of-trigrams cannot see ("kabe habe hena
+//      dasa mora" vs "kabe hena dasa habe mora")
+//
+// Most real queries are decided by stage 1 alone, so the median query pays
+// only for the title index; the expensive precision machinery runs exactly on
+// the queries that need it.
+// ---------------------------------------------------------------------------
+export const CASCADE_PARAMS = {
+  gateMargin: 1.2,   // top1/top2 score ratio that counts as "decided"
+  gateCover: 0.5,    // share of the query's gram idf the winner must hold
+  wPhon: 0.35,       // stage-2 fusion weights (title signal is 1.0)
+  wPhonRescue: 0.6,  // phonetic weight when literal trigrams barely matched at all
+  rescueCover: 0.3,  // literal coverage below which the query counts as "sound-alike only"
+  wContent: 0.1,
+  wRerank: 3.0,
+  rerankK: 16,       // leaders re-scored with Levenshtein in stage 2
+}
+
+const sortChars = (s) => [...s].sort().join('')
+
+/**
+ * Semi-global alignment: edit distance of `needle` against the best-matching SUBSTRING of `hay`
+ * (deletions at both ends of hay are free). Titles glue śrī + name + aṣṭakam into one long token
+ * ("sricaitanyastakam") while people type the parts ("chatinya"); plain Levenshtein early-outs on
+ * the length gap, but the infix alignment finds the "caitanya" inside.
+ */
+const DP_A = new Float64Array(96), DP_B = new Float64Array(96) // scratch rows; titles are short
+function infixSimilarity(needle, hay) {
+  const n = needle.length, m = hay.length
+  if (!n || !m || m >= DP_A.length) return 0
+  let prev = DP_A, curr = DP_B
+  for (let j = 0; j <= m; j++) prev[j] = 0 // free start anywhere in hay
+  for (let i = 1; i <= n; i++) {
+    curr[0] = i
+    for (let j = 1; j <= m; j++) {
+      curr[j] = Math.min(prev[j] + 1, curr[j - 1] + 1, prev[j - 1] + (needle[i - 1] === hay[j - 1] ? 0 : 1))
+    }
+    ;[prev, curr] = [curr, prev]
+  }
+  let best = prev[0]
+  for (let j = 1; j <= m; j++) if (prev[j] < best) best = prev[j]
+  return 1 - best / n
+}
+
+/**
+ * tokenScore plus two fallbacks it cannot see: sorted-character similarity for transpositions
+ * ("asktam" / "astakam" share almost no trigrams and sit 3 edits apart, but their sorted
+ * characters nearly coincide), and infix alignment for part-of-glued-token matches.
+ */
+function fuzzyTokenScore(qt, qtSorted, targetTokens, targetSorted) {
+  let m = tokenScore(qt, targetTokens)
+  if (m >= 0.9) return m
+  for (let i = 0; i < targetTokens.length; i++) {
+    const tt = targetTokens[i]
+    if (Math.abs(tt.length - qt.length) <= 2) {
+      const s = 0.85 * similarity(qtSorted, targetSorted[i])
+      if (s > m) m = s
+    } else if (qt.length >= 4 && tt.length > qt.length + 2) {
+      const s = 0.9 * infixSimilarity(qt, tt)
+      if (s > m) m = s
+    }
+  }
+  return m
+}
+
+function gramField(docs, pick, normalizer) {
+  const n = docs.length
+  const postings = new Map()
+  const norm = new Float64Array(n)
+  docs.forEach((d, i) => {
+    const set = new Set()
+    for (const text of pick(d)) for (const g of ngrams(normalizer(text))) set.add(g)
+    for (const g of set) {
+      let p = postings.get(g)
+      if (!p) postings.set(g, p = [])
+      p.push(i)
+    }
+    norm[i] = 1 / Math.sqrt(set.size || 1)
+  })
+  return { postings, norm, n }
+}
+
+/** Accumulate idf per doc into `out`; returns the total idf the query could have earned. */
+function gramAccumulate(idx, grams, out) {
+  out.fill(0)
+  let total = 0
+  for (const g of grams) {
+    const p = idx.postings.get(g)
+    if (!p) continue
+    const idf = Math.log(1 + idx.n / p.length)
+    total += idf
+    for (const i of p) out[i] += idf
+  }
+  return total
+}
+
+/** Precision score for one candidate: best whole-string + token agreement over its title texts. */
+function rerankScore(qn, qTokens, qSorted, entries) {
+  let best = 0
+  for (const t of entries) {
+    let s = similarity(qn, t.n)
+    // People type the *front* of a title and stop. Compare against a same-length
+    // prefix window too, so a long title is not punished for its untyped tail.
+    if (t.n.length > qn.length + 2) {
+      s = Math.max(s, 0.95 * similarity(qn, t.n.slice(0, qn.length + 2)))
+    }
+    if (t.n === qn) s = 1
+    else if (t.n.startsWith(qn) || qn.startsWith(t.n)) s = Math.max(s, 0.85)
+    else if (qn.length >= 4 && t.n.includes(qn)) s = Math.max(s, 0.75)
+    let cov = 0
+    for (let qi = 0; qi < qTokens.length; qi++) cov += fuzzyTokenScore(qTokens[qi], qSorted[qi], t.tk, t.tkSorted)
+    cov = qTokens.length ? cov / qTokens.length : 0
+    const combined = 0.6 * s + 0.4 * cov
+    if (combined > best) best = combined
+  }
+  return best
+}
+
+export const cascade = {
+  id: 'cascade',
+  name: 'Cascade (gated trigram + rerank)',
+  blurb: 'Fielded trigram fast path; phonetic + content + Levenshtein rerank only when the title index is undecided.',
+  build(docs) {
+    const P = CASCADE_PARAMS
+    const title = gramField(docs, (d) => d.title ?? d.texts, baseline)
+    const phon = gramField(docs, (d) => d.title ?? d.texts, phonetic)
+    const content = gramField(docs, (d) => d.content ?? [], baseline)
+    const titles = docs.map((d) =>
+      (d.title ?? d.texts).map((x) => {
+        const n = baseline(x), tk = tokenize(n)
+        return { n, tk, tkSorted: tk.map(sortChars) }
+      }))
+    return {
+      P, title, phon, content, titles,
+      refs: docs.map((d) => d.ref),
+      bufT: new Float64Array(docs.length),
+      bufP: new Float64Array(docs.length),
+      bufC: new Float64Array(docs.length),
+    }
+  },
+  search(state, query, limit = 20) {
+    const { P, title, phon, content, titles, refs, bufT, bufP, bufC } = state
+    const qn = baseline(query)
+    const grams = [...new Set(ngrams(qn))]
+    if (!grams.length) return []
+
+    // Stage 1: fielded title trigrams.
+    const totalIdf = gramAccumulate(title, grams, bufT)
+    const cand = []
+    for (let i = 0; i < title.n; i++) {
+      if (bufT[i] > 0) cand.push({ i, raw: bufT[i], score: bufT[i] * title.norm[i] })
+    }
+    cand.sort((a, b) => b.score - a.score)
+    const top1 = cand[0], top2 = cand[1]
+    if (top1 && totalIdf > 0 &&
+        top1.raw / totalIdf >= P.gateCover &&
+        (!top2 || top1.score >= top2.score * P.gateMargin)) {
+      return cand.slice(0, limit).map((c) => ({ ref: refs[c.i], score: c.score }))
+    }
+
+    // Stage 2: the title index is undecided - bring in the other signals.
+    gramAccumulate(phon, [...new Set(ngrams(phonetic(query)))], bufP)
+    gramAccumulate(content, grams, bufC)
+    // When the literal trigrams matched almost nothing, the query is a sound-alike
+    // ("chatinya" / "caitanya") and the phonetic signal is the only one worth trusting.
+    const literalCover = totalIdf > 0 && top1 ? top1.raw / totalIdf : 0
+    const wPhon = literalCover < P.rescueCover ? P.wPhonRescue : P.wPhon
+    let maxT = top1?.score || 1, maxP = 0, maxC = 0
+    for (let i = 0; i < title.n; i++) {
+      const p = bufP[i] * phon.norm[i]
+      if (p > maxP) maxP = p
+      const c = bufC[i] * content.norm[i]
+      if (c > maxC) maxC = c
+    }
+    const fused = []
+    for (let i = 0; i < title.n; i++) {
+      const t = bufT[i] * title.norm[i]
+      const p = bufP[i] * phon.norm[i]
+      const c = bufC[i] * content.norm[i]
+      if (t === 0 && p === 0 && c === 0) continue
+      fused.push({
+        i,
+        score: t / maxT + (maxP ? (p / maxP) * wPhon : 0) + (maxC ? (c / maxC) * P.wContent : 0),
+      })
+    }
+    fused.sort((a, b) => b.score - a.score)
+
+    // Rerank the leaders with the precision scorer; order and near-exactness win here.
+    const qTokens = tokenize(qn)
+    const qSorted = qTokens.map(sortChars)
+    const k = Math.min(P.rerankK, fused.length)
+    for (let r = 0; r < k; r++) {
+      const f = fused[r]
+      f.score += P.wRerank * rerankScore(qn, qTokens, qSorted, titles[f.i])
+    }
+    fused.sort((a, b) => b.score - a.score)
+    return fused.slice(0, limit).map((f) => ({ ref: refs[f.i], score: f.score }))
+  },
+}
+
+export const ENGINES = [current, bm25, bm25Fuzzy, trigram, phoneticEngine, hybrid, trigramFielded, cascade]
