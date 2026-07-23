@@ -58,7 +58,7 @@ jobs:
       - name: Create Release
         if: github.event_name == 'push' && !contains(github.ref, 'pull')
         id: create_release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: web-${{ github.run_number }}
           name: Web Build ${{ github.run_number }}
