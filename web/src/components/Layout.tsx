@@ -53,6 +53,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
         <title>{title}</title>
         <meta name="description" content="A comprehensive repository of devotional songs" />
         <link rel="icon" href="/favicon.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
       </Head>
 
       <Sidebar
