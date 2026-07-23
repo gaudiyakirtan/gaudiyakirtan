@@ -1,5 +1,5 @@
 import React from 'react'
-import Head from 'next/head'
+import { Seo } from '../components/Seo'
 import Link from 'next/link'
 import { GetStaticProps } from 'next'
 import { getManifest } from '../services/manifestRepository'
@@ -29,13 +29,11 @@ const About: React.FC<AboutProps> = ({
   topicCount,
 }) => (
   <>
-    <Head>
-      <title>About — Gaudiya Kirtan</title>
-      <meta
-        name="description"
-        content="About the Gaudiya Kirtan songbook: the corpus, its sources, and how the text is prepared."
-      />
-    </Head>
+    <Seo
+      title="About — Gaudiya Kirtan"
+      description="About the Gaudiya Kirtan songbook: the corpus, its sources, and how the text is prepared."
+      path="/about"
+    />
 
     <div className="max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold text-[var(--primary)] mb-6">About</h1>

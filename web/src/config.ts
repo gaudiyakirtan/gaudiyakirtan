@@ -33,6 +33,26 @@ export const CONTACT_EMAIL: string | null = null // TODO: set the real address
 export const PROJECT_SITE = 'https://www.gaudiyakirtan.com'
 
 /**
+ * Canonical origin for SEO — the URL search engines should treat as the real home of this content,
+ * used for `<link rel="canonical">`, `og:url`, and the sitemap. Defaults to the production apex
+ * ([PROJECT_SITE]) rather than wherever a given deploy happens to serve (e.g. dev.gaudiyakirtan.com),
+ * so preview/dev deploys declare production as canonical and don't get indexed as duplicates.
+ * Override per-environment with `NEXT_PUBLIC_SITE_URL` (no trailing slash) if that ever changes.
+ */
+export const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || PROJECT_SITE).replace(/\/$/, '')
+
+/** Absolute canonical URL for a site-relative path (e.g. `canonical('/songs/N9')`). */
+export function canonical(path: string): string {
+  return `${SITE_URL}${path.startsWith('/') ? path : `/${path}`}`
+}
+
+/** The default social-share image (1200×630), served from public/. */
+export const DEFAULT_OG_IMAGE = `${SITE_URL}/og-image.png`
+
+/** Human-readable site name for `og:site_name` / structured data. */
+export const SITE_NAME = 'Gaudiya Kirtan'
+
+/**
  * Base URL for the public `gaudiyakirtan` S3 bucket's `audio/` prefix (docs/screens/player.md).
  * The playable URL for an AudioTrack (docs/data/song.md) is `AUDIO_BASE_URL + filename`,
  * e.g. `AUDIO_BASE_URL + "A10-bvsm-1.mp3"`. No auth required - the bucket is public.

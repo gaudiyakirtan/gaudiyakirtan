@@ -1,14 +1,31 @@
 import React from 'react'
 import { useRouter } from 'next/router'
 import { GetStaticPaths, GetStaticProps } from 'next'
-import Head from 'next/head'
 import { ISong } from '../../models/Song'
 import { SongScreen } from '../../components/SongScreen'
+import { Seo } from '../../components/Seo'
 import { getAllSongUids, getSongByUid } from '../../services'
 import { pickScriptText } from '../../services/textDisplay'
 import { deriveQueueForSong } from '../../services/queueContext'
 import { recordSongVisit } from '../../utils/useRecents'
 import { usePlayer } from '../../utils/PlayerContext'
+import { audioUrlFor, canonical, SITE_NAME, SITE_URL } from '../../config'
+
+/** ISO-639 language_of_origin → BCP-47, for `inLanguage`. */
+const BCP47: Record<string, string> = { ben: 'bn', san: 'sa', hin: 'hi', asa: 'as', ori: 'or', eng: 'en' }
+
+/** A meaningful meta description: the song's first English translation (the words a searcher wants),
+ *  trimmed to ~155 chars; falls back to a generic line when the verse is not yet translated. */
+function songDescription(song: ISong, title: string, author: string): string {
+  const first = song.verses?.find((v) => v.translations?.length)?.translations
+    ?.find((t) => t.languageCode === 'eng')?.text
+  const gloss = first?.join(' ').replace(/\s+/g, ' ').trim()
+  if (gloss) {
+    const clipped = gloss.length > 155 ? `${gloss.slice(0, 152).trimEnd()}…` : gloss
+    return `${title} by ${author} — ${clipped}`
+  }
+  return `Lyrics, transliteration${song.audioAvailable ? ', recordings' : ''} and translation for ${title}, a Gauḍīya Vaiṣṇava song by ${author}.`
+}
 
 interface SongPageProps {
   song: ISong
@@ -68,13 +85,49 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
 
   const title = pickScriptText(song.titleMain, ['Latn'])
   const author = pickScriptText(song.authorDisplay, ['Latn', 'Beng']) || song.authorUid
+  const path = `/songs/${song.uid}`
+
+  // MusicComposition for the song, each recording as a MusicRecording (contentUrl → the S3 mp3), so
+  // search engines can surface the piece and its audio; plus a breadcrumb for the Home → Songs trail.
+  const jsonLd = [
+    {
+      '@context': 'https://schema.org',
+      '@type': 'MusicComposition',
+      name: title,
+      inLanguage: BCP47[song.languageOfOrigin] ?? song.languageOfOrigin,
+      composer: { '@type': 'Person', name: author },
+      url: canonical(path),
+      ...(song.audioFiles?.length
+        ? {
+            recordedAs: song.audioFiles.map((t) => ({
+              '@type': 'MusicRecording',
+              name: title,
+              ...(t.artist ? { byArtist: { '@type': 'MusicGroup', name: t.artist } } : {}),
+              audio: { '@type': 'AudioObject', contentUrl: audioUrlFor(t.filename), encodingFormat: 'audio/mpeg' },
+            })),
+          }
+        : {}),
+    },
+    {
+      '@context': 'https://schema.org',
+      '@type': 'BreadcrumbList',
+      itemListElement: [
+        { '@type': 'ListItem', position: 1, name: SITE_NAME, item: SITE_URL },
+        { '@type': 'ListItem', position: 2, name: 'Songs', item: canonical('/songs') },
+        { '@type': 'ListItem', position: 3, name: title, item: canonical(path) },
+      ],
+    },
+  ]
 
   return (
     <>
-      <Head>
-        <title>{title} by {author} - Gaudiya Kirtan</title>
-        <meta name="description" content={`Lyrics, transliteration and translation for ${title} by ${author}`} />
-      </Head>
+      <Seo
+        title={`${title} — ${author} | Gaudiya Kirtan`}
+        description={songDescription(song, title, author)}
+        path={path}
+        type="article"
+        jsonLd={jsonLd}
+      />
 
       <SongScreen song={song} />
     </>

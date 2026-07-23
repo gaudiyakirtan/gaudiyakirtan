@@ -1,6 +1,6 @@
 import React from 'react'
 import { GetStaticProps } from 'next'
-import Head from 'next/head'
+import { Seo } from '../../components/Seo'
 import { useRouter } from 'next/router'
 import { ISongGroup } from '../../models/Collections'
 import { getSongGroups } from '../../services'
@@ -20,10 +20,11 @@ const TopicsPage: React.FC<TopicsPageProps> = ({ topics }) => {
 
   return (
     <>
-      <Head>
-        <title>Topics - Gaudiya Kirtan</title>
-        <meta name="description" content="Browse songs by topic or category" />
-      </Head>
+      <Seo
+        title="Topics — Gaudiya Kirtan"
+        description="Browse Gauḍīya Vaiṣṇava songs by theme — Śrī Guru, Śrī Kṛṣṇa, Śrī Rādhā, the Holy Name, ārati and more."
+        path="/topics"
+      />
 
       <div className="w-full max-w-screen-lg pb-12 mx-auto">
         {topics.length > 0 ? (

@@ -1,5 +1,5 @@
 import React from 'react'
-import Head from 'next/head'
+import { Seo } from '../components/Seo'
 import Link from 'next/link'
 import { CONTACT_EMAIL, PROJECT_SITE } from '../config'
 
@@ -14,13 +14,12 @@ const Card: React.FC<{ title: string; children: React.ReactNode }> = ({ title, c
 
 const Contact: React.FC = () => (
   <>
-    <Head>
-      <title>Contact — Gaudiya Kirtan</title>
-      <meta
-        name="description"
-        content="Send a song correction, request a song, or report a problem with the Gaudiya Kirtan app."
-      />
-    </Head>
+    <Seo
+      title="Contact — Gaudiya Kirtan"
+      description="Send a song correction, request a song, or report a problem with the Gaudiya Kirtan app."
+      path="/contact"
+      noindex
+    />
 
     <div className="max-w-4xl mx-auto">
       <h1 className="text-2xl font-bold text-[var(--primary)] mb-6">Contact</h1>

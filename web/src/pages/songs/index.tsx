@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from 'react'
 import { GetStaticProps } from 'next'
-import Head from 'next/head'
+import { Seo } from '../../components/Seo'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { ISongListing, sectionLetterFor } from '../../services/songListingView'
@@ -78,10 +78,12 @@ const SongsPage: React.FC<SongsPageProps> = ({ songs }) => {
 
   return (
     <>
-      <Head>
-        <title>{isFiltered ? `${heading} - Gaudiya Kirtan` : 'Songs Library - Gaudiya Kirtan'}</title>
-        <meta name="description" content="Browse the complete collection of Gaudiya Vaishnava songs" />
-      </Head>
+      <Seo
+        title={isFiltered ? `${heading} — Gaudiya Kirtan` : 'Songs — Gaudiya Kirtan'}
+        description="Browse the full collection of 700+ Gauḍīya Vaiṣṇava songs — bhajans, kīrtans and prayers with lyrics, transliteration and translation."
+        // Filtered views (?author=/?tag=/?artist=) canonicalize to the base list, not separate pages.
+        path="/songs"
+      />
 
       <div className="w-full max-w-screen-lg pb-12 pr-6 mx-auto">
         {/* Header */}

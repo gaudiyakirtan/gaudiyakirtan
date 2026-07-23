@@ -1,26 +1,50 @@
 import React from 'react'
 import { GetStaticPaths, GetStaticProps } from 'next'
-import Head from 'next/head'
 import { getSongGroups, getSongGroupByUid } from '../../services/songGroupRepository'
 import { getSongListings } from '../../services/songListing'
 import { pickScriptText } from '../../services/textDisplay'
 import { ISongListing } from '../../services/songListingView'
 import { SongGroupScreen, ISongGroupView } from '../../components/SongGroupScreen'
+import { Seo } from '../../components/Seo'
+import { canonical, SITE_NAME, SITE_URL } from '../../config'
 
 interface TopicDetailProps {
   group: ISongGroupView
   songs: ISongListing[]
 }
 
-const TopicDetailPage: React.FC<TopicDetailProps> = ({ group, songs }) => (
-  <>
-    <Head>
-      <title>{group.title} - Gaudiya Kirtan</title>
-      <meta name="description" content={`Songs about ${group.title}`} />
-    </Head>
-    <SongGroupScreen group={group} songs={songs} />
-  </>
-)
+const TopicDetailPage: React.FC<TopicDetailProps> = ({ group, songs }) => {
+  const path = `/topics/${group.uid}`
+  return (
+    <>
+      <Seo
+        title={`${group.title} — Gaudiya Kirtan`}
+        description={`Gauḍīya Vaiṣṇava songs on the theme of ${group.title} — ${group.count} bhajans and kīrtans with lyrics, transliteration and translation.`}
+        path={path}
+        type="article"
+        jsonLd={[
+          {
+            '@context': 'https://schema.org',
+            '@type': 'CollectionPage',
+            name: group.title,
+            url: canonical(path),
+            isPartOf: { '@type': 'WebSite', name: SITE_NAME, url: SITE_URL },
+          },
+          {
+            '@context': 'https://schema.org',
+            '@type': 'BreadcrumbList',
+            itemListElement: [
+              { '@type': 'ListItem', position: 1, name: SITE_NAME, item: SITE_URL },
+              { '@type': 'ListItem', position: 2, name: 'Topics', item: canonical('/topics') },
+              { '@type': 'ListItem', position: 3, name: group.title, item: canonical(path) },
+            ],
+          },
+        ]}
+      />
+      <SongGroupScreen group={group} songs={songs} />
+    </>
+  )
+}
 
 export const getStaticPaths: GetStaticPaths = async () => ({
   paths: getSongGroups('topic').map((g) => ({ params: { id: g.uid } })),

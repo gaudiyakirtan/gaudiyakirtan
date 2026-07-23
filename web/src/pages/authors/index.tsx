@@ -1,6 +1,6 @@
 import React, { useMemo, useState } from 'react'
 import { GetStaticProps } from 'next'
-import Head from 'next/head'
+import { Seo } from '../../components/Seo'
 import { IAuthorListing } from '../../services/authorRepository'
 import { getAuthors } from '../../services'
 import { pickScriptText } from '../../services/textDisplay'
@@ -65,10 +65,11 @@ const AuthorsPage: React.FC<AuthorsPageProps> = ({ authors }) => {
 
   return (
     <>
-      <Head>
-        <title>Authors - Gaudiya Kirtan</title>
-        <meta name="description" content="Browse Vaishnava authors and composers" />
-      </Head>
+      <Seo
+        title="Authors — Gaudiya Kirtan"
+        description="Browse the ācāryas and poets of the Gauḍīya Vaiṣṇava tradition — Bhaktivinoda Ṭhākura, Narottama dāsa Ṭhākura, and more — and the songs they composed."
+        path="/authors"
+      />
 
       <div className="w-full max-w-screen-lg pb-12 mx-auto">
         <div className="flex flex-wrap items-center px-4 py-4 mb-4 gap-y-2">

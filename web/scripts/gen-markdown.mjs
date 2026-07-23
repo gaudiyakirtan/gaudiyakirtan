@@ -226,6 +226,32 @@ fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(entries))
 fs.writeFileSync(path.join(OUT, 'tag-index.json'), JSON.stringify(tagSongs))
 fs.writeFileSync(path.join(OUT, 'artist-index.json'), JSON.stringify(reciterSongs))
 
+// ---- sitemap.xml ----------------------------------------------------------------------------
+// Every indexable route, so search engines can discover all 700+ song pages (they are only
+// reachable by crawling otherwise). Mirrors config.SITE_URL: canonical is the PRODUCTION apex, not
+// wherever this build is deployed, so a dev/preview deploy's sitemap still points at production and
+// does not seed a duplicate index. Kept in this build step (not a getServerSideProps route) because
+// the app is a static export with no server. `?tag=` / `?artist=` / `?author=` filter URLs are
+// intentionally omitted — they are the same content re-sliced, and canonicalize to their base page.
+const SITE_URL = (process.env.NEXT_PUBLIC_SITE_URL || 'https://www.gaudiyakirtan.com').replace(/\/$/, '')
+const STATIC_ROUTES = [
+  '/', '/songs', '/tracks', '/authors', '/topics', '/books', '/about', '/contact',
+  '/resources/pronunciation', '/resources/diacritics', '/resources/meters',
+]
+const xmlEscape = (s) => s.replace(/[<>&'"]/g, (c) => ({ '<': '&lt;', '>': '&gt;', '&': '&amp;', "'": '&apos;', '"': '&quot;' }[c]))
+const urlEntry = (loc, priority) =>
+  `  <url><loc>${xmlEscape(SITE_URL + loc)}</loc><changefreq>monthly</changefreq><priority>${priority}</priority></url>`
+const sitemapUrls = [
+  ...STATIC_ROUTES.map((r) => urlEntry(r, r === '/' ? '1.0' : '0.7')),
+  ...songs.map((s) => urlEntry(`/songs/${s.uid}`, '0.6')),
+  ...groups.filter((g) => g.kind === 'book').map((g) => urlEntry(`/books/${g.uid}`, '0.5')),
+  ...groups.filter((g) => g.kind === 'topic').map((g) => urlEntry(`/topics/${g.uid}`, '0.5')),
+]
+fs.writeFileSync(
+  path.join(OUT, 'sitemap.xml'),
+  `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemapUrls.join('\n')}\n</urlset>\n`
+)
+
 console.log(
-  `gen-markdown: ${songCount} songs + ${groups.length} groups + ${entries.length}-entry search-index + tag-index → public/`
+  `gen-markdown: ${songCount} songs + ${groups.length} groups + ${entries.length}-entry search-index + tag-index + ${sitemapUrls.length}-url sitemap → public/`
 )

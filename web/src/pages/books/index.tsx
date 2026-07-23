@@ -1,6 +1,6 @@
 import React from 'react'
 import { GetStaticProps } from 'next'
-import Head from 'next/head'
+import { Seo } from '../../components/Seo'
 import { useRouter } from 'next/router'
 import { ISongGroup } from '../../models/Collections'
 import { getSongGroups } from '../../services'
@@ -20,10 +20,11 @@ const BooksPage: React.FC<BooksPageProps> = ({ books }) => {
 
   return (
     <>
-      <Head>
-        <title>Books - Gaudiya Kirtan</title>
-        <meta name="description" content="Browse books containing Vaishnava songs and bhajans" />
-      </Head>
+      <Seo
+        title="Books — Gaudiya Kirtan"
+        description="Browse the Gauḍīya Vaiṣṇava songbooks — Śaraṇāgati, Gītāvalī, Kalyāṇa-kalpataru and more — with lyrics, transliteration and translation."
+        path="/books"
+      />
 
       <div className="w-full max-w-screen-lg mx-auto pb-12">
         {books.length > 0 ? (
