@@ -36,6 +36,41 @@ def lines_of(value):
     return value
 
 
+def check_raw(song, uid):
+    """The hand-authored `songs/` shape: `lines` (lists of word objects) + a single `translation`.
+
+    This is where K29's defect originated, so checking only the generated output would catch it a
+    stage too late — a regeneration would quietly put it back. `UNDEFINED` is the corpus sentinel
+    for "not translated" and is not counted as a translation.
+    """
+    problems = []
+    verses = song.get("verses") or []
+
+    def blank(verse):
+        return not any(w.get("w", "").strip() for line in (verse.get("lines") or []) for w in line)
+
+    def translated(verse):
+        text = (verse.get("translation") or {}).get("eng", "") or ""
+        return text.strip().upper() not in ("", "UNDEFINED", "NULL")
+
+    for index, verse in enumerate(verses):
+        if blank(verse) and translated(verse):
+            problems.append(("ORPHAN TRANSLATION", f"{uid} verse {index + 1} (raw source)"))
+
+    # The signature of K29's bug: more translations than there are verses to hang them on, because
+    # the translations are per *stanza* while the verses pack two stanzas each. The surplus spills
+    # onto a blank block and every translation before it sits one verse too early.
+    real = sum(1 for v in verses if translated(v))
+    non_blank = sum(1 for v in verses if not blank(v))
+    if real > non_blank:
+        problems.append((
+            "TRANSLATION OVERFLOW",
+            f"{uid}: {real} translations for {non_blank} verses (raw source) — verses are likely "
+            f"packed two stanzas each while translations are per stanza",
+        ))
+    return problems
+
+
 def check(path):
     """Returns a list of (kind, detail) problems for one song file.
 
@@ -46,6 +81,11 @@ def check(path):
     if not isinstance(song, dict) or "verses" not in song:
         return []
     uid = song.get("uid", os.path.basename(path))
+
+    # Two shapes live in this repo: the hand-authored input and the generated output.
+    if any("lines" in v for v in (song.get("verses") or [])):
+        return check_raw(song, uid)
+
     problems = []
 
     for index, verse in enumerate(song.get("verses") or []):
@@ -93,7 +133,7 @@ def main():
         print("OK — no verse-integrity problems")
         return
 
-    for kind in ("ORPHAN TRANSLATION", "SCRIPT MISALIGNMENT", "EMPTY VERSE"):
+    for kind in ("ORPHAN TRANSLATION", "TRANSLATION OVERFLOW", "SCRIPT MISALIGNMENT", "EMPTY VERSE"):
         items = by_kind.get(kind)
         if not items:
             continue

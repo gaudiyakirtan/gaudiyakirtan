@@ -36,8 +36,14 @@ TARGETS = [
     "../ios/gk-ios/Resources/songs",
     "../andorid/app/src/main/assets/songs",
 ]
+# The hand-authored input `pipeline.py -i songs -o converted` reads. The defect ORIGINATES here, so
+# repairing only the generated copies above would be undone by the next regeneration.
+RAW_DIR = "songs"
 HERE = os.path.dirname(os.path.abspath(__file__))
 UID = "K29"
+
+# The corpus sentinel for "this verse has no translation" (see any untranslated song, e.g. MS6).
+NO_TRANSLATION = "UNDEFINED"
 
 # Stanza opening word (romanized) -> a phrase that must appear in ITS translation. The pairing this
 # script performs is only correct if the corpus matches these nine stanzas in this order.
@@ -113,7 +119,57 @@ def rebuild(song):
     return True
 
 
+def rebuild_raw(song):
+    """Same repair against the hand-authored shape: `lines` (lists of word objects) + a single
+    `translation` dict, rather than `source_text_master` + `display_scripts` + `translations`."""
+    verses = song["verses"]
+    if len(verses) == 9:
+        return False
+
+    translations = [
+        v["translation"]
+        for v in verses
+        if (v.get("translation") or {}).get("eng", "").strip().upper() not in ("", NO_TRANSLATION)
+    ]
+
+    stanzas = []
+    for index, verse in enumerate(verses):
+        lines = verse.get("lines") or []
+        # A line is blank when every word in it is empty — that is the trailing placeholder block.
+        if not any(w.get("w", "").strip() for line in lines for w in line):
+            continue
+        # Block 0 keeps its `dhru` refrain line; the rest are two 2-line stanzas.
+        spans = [(0, len(lines))] if index == 0 else [(0, 2), (2, 4)]
+        if index > 0 and len(lines) != 4:
+            sys.exit(f"{UID} (raw): block {index} has {len(lines)} lines, expected 4 — aborting")
+        for start, end in spans:
+            stanzas.append(lines[start:end])
+
+    if len(stanzas) != len(EXPECTED):
+        sys.exit(f"{UID} (raw): got {len(stanzas)} stanzas, expected {len(EXPECTED)} — aborting")
+    if len(translations) != 6:
+        sys.exit(f"{UID} (raw): got {len(translations)} real translations, expected 6 — aborting")
+
+    song["verses"] = [
+        {
+            "lines": lines,
+            "translation": translations[i] if i < len(translations) else {"eng": NO_TRANSLATION},
+        }
+        for i, lines in enumerate(stanzas)
+    ]
+    return True
+
+
 def main():
+    raw_path = os.path.join(HERE, RAW_DIR, f"{UID}.json")
+    if os.path.exists(raw_path):
+        raw = json.load(open(raw_path))
+        if rebuild_raw(raw):
+            json.dump(raw, open(raw_path, "w"), ensure_ascii=False, indent=1)
+            print(f"  rewrote {len(raw['verses'])} verses: {RAW_DIR} (hand-authored source)")
+        else:
+            print(f"  skip (already 9 verses): {RAW_DIR}")
+
     written = 0
     for target in TARGETS:
         path = os.path.join(HERE, target, f"{UID}.json")
