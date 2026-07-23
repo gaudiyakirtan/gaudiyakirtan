@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Offline - Gaudiya Kirtan</title>
+<!--
+  Plain static HTML on purpose, no Next.js/React here. This is the shell offline fallback
+  (see public/sw.js) - it must render with zero JS bundle and zero network requests, since it is
+  served precisely when both of those are unavailable. Colors are inlined from
+  src/styles/colors.css (Gaura/Shyam tokens) rather than importing the stylesheet, so this page
+  has no dependency on the app's build output at all.
+-->
+<style>
+  :root {
+    --background: #FFF4E8;
+    --background-offset: #F6E5D1;
+    --primary: #1A1A1A;
+    --neutral: #6E6E6E;
+    --border: #E6D7C3;
+    --accent: #B36B00;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --background: #191919;
+      --background-offset: #202020;
+      --primary: #E0E0E0;
+      --neutral: #9B9B9B;
+      --border: #333333;
+      --accent: #8CB4FF;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--background);
+    color: var(--primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    text-align: center;
+    padding: 24px;
+  }
+  .card {
+    max-width: 360px;
+  }
+  img {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 20px;
+    border-radius: 16px;
+  }
+  h1 {
+    font-size: 1.25rem;
+    margin: 0 0 8px;
+  }
+  p {
+    color: var(--neutral);
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0 0 20px;
+  }
+  button {
+    font: inherit;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--border);
+    background: var(--background-offset);
+    color: var(--primary);
+    cursor: pointer;
+  }
+  button:hover {
+    border-color: var(--accent);
+  }
+</style>
+</head>
+<body>
+  <div class="card">
+    <img src="/icon-192.png" alt="Gaudiya Kirtan" />
+    <h1>You're offline</h1>
+    <p>
+      This page hasn't been saved for offline use yet. Songs and pages you've already
+      opened stay available - reconnect to browse the rest of the library.
+    </p>
+    <button onclick="location.reload()">Try again</button>
+  </div>
+</body>
+</html>

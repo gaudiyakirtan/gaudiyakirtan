@@ -6,6 +6,7 @@ import { PanelLeft } from "lucide-react";
 import Sidebar from "./Sidebar";
 import { PlayerWidget } from "./PlayerWidget";
 import { SearchModal } from "./SearchModal";
+import { ServiceWorkerRegistration } from "./ServiceWorkerRegistration";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -54,6 +55,13 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
         <meta name="description" content="A comprehensive repository of devotional songs" />
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
+        {/* Two tags, not one: manifest.json can only declare a single static theme_color, but the
+            browser chrome should track whichever palette (Gaura/Shyam) is actually on screen.
+            Values are the two palettes' `background`, matching the mobile header below
+            (bg-[var(--background)]) so the OS status bar blends with it instead of clashing. */}
+        <meta name="theme-color" content="#FFF4E8" media="(prefers-color-scheme: light)" />
+        <meta name="theme-color" content="#191919" media="(prefers-color-scheme: dark)" />
       </Head>
 
       <Sidebar
@@ -121,6 +129,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
 
       <PlayerWidget />
       <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)} />
+      <ServiceWorkerRegistration />
     </div>
   );
 };
