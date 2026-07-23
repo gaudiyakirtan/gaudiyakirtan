@@ -2,96 +2,70 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-# Cross-Platform Music Repository Development System
+# Gaudiya Kirtan — Cross-Platform Development
 
-You are an expert cross-platform development assistant helping to build a music repository application with native implementations for iOS (Swift), Android (Java/Kotlin), and web (React/Next.js with TS/JS). The application requires offline functionality for mobile platforms and consistent architecture across all platforms.
+Gaudiya Kirtan is a **native, offline-first** repository of Gauḍīya Vaiṣṇava songs with independent
+implementations for **iOS (Swift/SwiftUI)**, **Android (Kotlin/Jetpack Compose)**, and
+**Web (Next.js + TypeScript)**. There is **no backend**: each app ships the full corpus as bundled
+static data and reads it through a repository over the Manifest. The only network dependency is
+audio + images, streamed from the public S3 bucket; everything else works fully offline. Accounts,
+auth, and sync are **not** part of the app — a few features (e.g. Collections) are deliberately
+deferred until accounts exist.
 
-## Development Workflow
+## Doc-driven workflow
 
-For each feature implementation request, follow this structured approach:
+This repo is **documentation-driven**: the specs in `docs/` are the source of truth, and code is
+verified against them. Follow **[`docs/WORKFLOW.md`](docs/WORKFLOW.md)** — the SPEC → IMPLEMENT →
+VERIFY loop:
 
-1. **Documentation Update**: 
-   - First, update the project documentation with the new feature details
-   - Add references to relevant components, code pointers, and interfaces
-   - Document the feature's purpose, requirements, and cross-platform considerations
+1. **SPEC** — update the relevant spec *first*. Data shape lives in [`docs/data/`](docs/data/)
+   (platform-agnostic, versioned); screen behavior in [`docs/screens/`](docs/screens/) (Figma owns
+   the pixels). Bump the spec version and its change log.
+2. **IMPLEMENT** — build to the spec on each platform. Platforms are independent (own build, own
+   idioms); keep data models, naming, and structure parallel across them so the same concept reads
+   the same way everywhere.
+3. **VERIFY** — check conformance (does the code match the spec?) and behavior, and record it in the
+   conformance matrix, [`docs/implementation-mapping.md`](docs/implementation-mapping.md) — the
+   single status board of spec × platform.
 
-2. **Implementation Planning**:
-   - Create a high-level implementation plan that ensures consistency across platforms
-   - Define similar function/method names, class structures, and data flows
-   - Identify platform-specific constraints or optimizations needed
-   - Design as if "porting" the same code across platforms with minimal divergence
+Do **not** hand-write corpus counts (song / author / book totals) into docs — they go stale; the
+live numbers come from the data itself.
 
-3. **Cross-Platform Implementation**:
-   - Implement the feature in all three platforms sequentially:
-     1. iOS (Swift) implementation
-     2. Android (Kotlin/Java) implementation
-     3. Web (TypeScript/JavaScript) implementation
-   - Maintain parallel structure and naming conventions across implementations
-   - Provide detailed comments explaining platform-specific nuances
+## Committing
 
-## Unifying Strategies
+**[`docs/WORKFLOW.md` §5](docs/WORKFLOW.md)** is the authoritative commit protocol; in short:
 
-Apply these key strategies to maintain consistency across platforms:
+- **Two commit types.** A **spec** commit touches `docs/` only and bumps the entity's spec version —
+  land it once the doc is internally consistent. An **implementation** commit is one platform's code
+  for one slice, and lands **only when the verifier is green** (conformance + build/run).
+- **Unit of change:** one spec-conformant slice (one entity / screen / data-flow) at one spec
+  version, per platform — not per-field, not a whole track at once.
+- **Invariants:** every commit leaves the repo buildable; spec may lead code, but the gap is recorded
+  in the conformance matrix ([`docs/implementation-mapping.md`](docs/implementation-mapping.md)),
+  never left implicit.
+- **Message convention:** `docs(<entity>): v<N> <change>` · `feat(<platform>/<slice>): conform v<N>`
+  · `feat(<platform>/<screen>): <screen>` · `fix(<platform>/<slice>): <fix> per v<N>`.
 
-1. **Common Data Models**:
-   - Define equivalent data structures across all platforms
-   - Use consistent property names and types
-   - Implement similar serialization/deserialization approaches
+## Cross-platform consistency
 
-2. **Similar Folder Structures**:
-   - Mirror directory organization across all platforms
-   - Group related functionality in comparable ways
-   - Maintain parallel module/package organization
+- **Common data model.** All three apps consume the *same* canonical JSON the pipeline emits
+  (identical snake_case field names; see [`docs/data/`](docs/data/)). Serialize/deserialize the same
+  shape everywhere.
+- **Parallel structure & naming.** Mirror directory organization and use matching names for
+  equivalent types/components (`Song` / `ISong`, `Verse`, the repositories), adapting only to
+  platform idioms. Web prefixes interfaces with `I`.
+- **Offline store.** The corpus is bundled, not fetched: static JSON on web, bundled resources on
+  iOS/Android, read through a Repository over the Manifest (lists never load full songs).
+- **UI.** Native per platform — SwiftUI / Jetpack Compose / React — over a shared visual language
+  (the Gaura/Shyam themes, [`docs/screens/theme.md`](docs/screens/theme.md); shared components in
+  [`docs/screens/components.md`](docs/screens/components.md)).
 
-3. **Shared API Interfaces**:
-   - Use identical endpoint structures across platforms
-   - Implement consistent request/response handling
-   - Apply similar error handling and retry logic
+## Code quality
 
-4. **Consistent Naming Conventions**:
-   - Use matching names for equivalent functions, classes, and components
-   - Adapt platform idioms while preserving semantic consistency
-   - Document naming pattern translations between platforms
-
-## Architecture Guidelines
-
-Maintain these architectural principles across all platforms:
-
-### Data Layer
-- Use Repository pattern for data access
-- Implement consistent model structures
-- Handle offline storage with platform-appropriate solutions:
-  - iOS: Core Data or SQLite
-  - Android: Room Database
-  - Web: IndexedDB with Service Workers
-
-### Business Logic Layer
-- Implement similar business logic organization across platforms
-- Use comparable design patterns when possible
-- Separate platform-agnostic logic from platform-specific implementations
-
-### UI Layer
-- Follow platform-specific best practices while maintaining consistent UI/UX
-- Use parallel component structures:
-  - iOS: UIKit/SwiftUI components
-  - Android: Jetpack Compose or XML layouts
-  - Web: React components
-
-### Authentication & Sync
-- Implement consistent authentication patterns
-- Use similar offline sync strategies with conflict resolution
-- Handle network status and sync states uniformly
-
-## Code Quality Standards
-
-- Write clean, maintainable code with proper error handling
-- Use consistent naming conventions across platforms
-- Include unit tests for critical components
-- Document public interfaces and complex implementations
-
-## Continuous Documentation
-
-Maintain and update a cross-reference document that maps equivalent components, functions and data structures across platforms to facilitate ongoing development and maintenance.
+- Clean, maintainable code with real error handling; optional chaining + fallbacks for missing data.
+- Unit tests for the load-bearing logic (decode, pickers, resolvers).
+- Document public interfaces and non-obvious decisions inline; keep the **specs** — not code
+  comments or a cross-reference table — as the cross-platform source of truth.
 
 ## Build Commands
 This is a **native multi-platform monorepo** (not the old Solito/bun setup). Each platform is standalone:
