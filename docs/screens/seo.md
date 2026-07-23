@@ -26,8 +26,10 @@ Twitter Card, and any JSON-LD blocks.
 - **JSON-LD** is serialized with `<` escaped to `<` (the only injection vector in ld+json).
 - Song descriptions come from the song's **actual English translation**, not boilerplate.
 
-> A stray `components/SEO.tsx` (uppercase) exists with **no importers** — `Seo.tsx` is the live one
-> (used by every page). The duplicate is dead code, a cleanup candidate.
+> There is exactly **one** component, `components/Seo.tsx`, imported by all 10 SEO-bearing pages.
+> (An earlier note here claimed a dead uppercase `SEO.tsx` duplicate; that was a false positive —
+> macOS/APFS is case-insensitive, so probing `SEO.tsx` resolves to the same file. `git ls-files`
+> tracks only `Seo.tsx`.)
 
 ## Structured data (JSON-LD)
 
@@ -62,5 +64,4 @@ Twitter Card, and any JSON-LD blocks.
 
 - **v1** — Initial spec: keyed `<Seo>` (canonical→apex), the JSON-LD graph
   (WebSite/Organization/MusicComposition/CollectionPage), build-time `sitemap.xml` + `robots.txt` +
-  og-image, `/contact` noindex, and the "don't submit the sitemap until on the apex" caveat. Notes the
-  dead `SEO.tsx` duplicate.
+  og-image, `/contact` noindex, and the "don't submit the sitemap until on the apex" caveat.
