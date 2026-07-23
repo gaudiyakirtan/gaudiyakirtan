@@ -2,7 +2,7 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    kotlin("plugin.serialization") version "2.0.21"
+    kotlin("plugin.serialization") version "2.4.10"
 }
 
 android {
@@ -44,7 +44,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.material.icons.extended)
 
-    val nav_version = "2.8.5"
+    val nav_version = "2.9.8"
 
     // Jetpack Compose integration
     implementation("androidx.navigation:navigation-compose:$nav_version")
@@ -60,16 +60,16 @@ dependencies {
     androidTestImplementation("androidx.navigation:navigation-testing:$nav_version")
 
     // JSON serialization library, works with the Kotlin serialization plugin
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.7.3")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.11.0")
 
     // Coil image loading
-    implementation("io.coil-kt.coil3:coil-compose:3.0.4")
-    implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.4")
-    implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("androidx.compose.material:material:1.7.6")
-    implementation("androidx.compose.foundation:foundation:1.7.6")
+    implementation("io.coil-kt.coil3:coil-compose:3.5.0")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.5.0")
+    implementation("com.squareup.okhttp3:okhttp:5.4.0")
+    implementation("androidx.compose.material:material:1.11.4")
+    implementation("androidx.compose.foundation:foundation:1.11.4")
 
-    val lifecycle_version = "2.8.7"
+    val lifecycle_version = "2.11.0"
     val arch_version = "2.2.0"
 
     // ViewModel
