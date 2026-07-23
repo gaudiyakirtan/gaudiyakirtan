@@ -5,6 +5,7 @@ import { ISong } from '../../models/Song'
 import { SongScreen } from '../../components/SongScreen'
 import { Seo } from '../../components/Seo'
 import { getAllSongUids, getSongByUid } from '../../services'
+import { getSongMemberships, ISongMembership } from '../../services/songGroupRepository'
 import { pickScriptText } from '../../services/textDisplay'
 import { deriveQueueForSong } from '../../services/queueContext'
 import { recordSongVisit } from '../../utils/useRecents'
@@ -30,9 +31,11 @@ function songDescription(song: ISong, title: string, author: string): string {
 interface SongPageProps {
   song: ISong
   subtitle: string
+  /** Book/topic groups this song belongs to, for the membership chips (source: song_groups.json). */
+  memberships: ISongMembership[]
 }
 
-const SongPage: React.FC<SongPageProps> = ({ song }) => {
+const SongPage: React.FC<SongPageProps> = ({ song, memberships }) => {
   const router = useRouter()
   const { armQueue, consumeAutoplay, playSong } = usePlayer()
 
@@ -129,7 +132,7 @@ const SongPage: React.FC<SongPageProps> = ({ song }) => {
         jsonLd={jsonLd}
       />
 
-      <SongScreen song={song} />
+      <SongScreen song={song} memberships={memberships} />
     </>
   )
 }
@@ -159,6 +162,9 @@ export const getStaticProps: GetStaticProps<SongPageProps> = async ({ params }) 
     props: {
       song,
       subtitle: title,
+      // Derived from song_groups.json at build time — the source of truth for membership, since
+      // ISong.topics is intentionally never populated (see songGroupRepository.getSongMemberships).
+      memberships: getSongMemberships(uid),
     },
   }
 }

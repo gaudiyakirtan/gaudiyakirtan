@@ -2,6 +2,7 @@ import React, { useEffect, useMemo } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { ISong } from '../models/Song'
+import type { ISongMembership } from '../services/songGroupRepository'
 import { UNKNOWN_AUTHOR_UID } from '../models/Common'
 import { pickScriptText, pickTranslation, pickWordToWord } from '../services/textDisplay'
 import { effectiveDisplayScript } from '../services/scripts'
@@ -13,9 +14,11 @@ import { MusicNote } from './icons/MusicNote'
 
 interface SongScreenProps {
   song: ISong
+  /** Book/topic groups this song belongs to — rendered as chips beside the tags. */
+  memberships?: ISongMembership[]
 }
 
-export const SongScreen: React.FC<SongScreenProps> = ({ song }) => {
+export const SongScreen: React.FC<SongScreenProps> = ({ song, memberships = [] }) => {
   const { settings, updateSetting } = useSettings()
   const { arm, playSong } = usePlayer()
   const router = useRouter()
@@ -110,11 +113,28 @@ export const SongScreen: React.FC<SongScreenProps> = ({ song }) => {
           {song.audioAvailable && <MusicNote size={18} className="text-[var(--neutral)]" />}
         </div>
 
-        {/* Song code + tags on one centered row, next to each other. */}
+        {/* Song code, then its memberships and tags on one centered row. Books (a named work, the
+            strongest membership) render in the accent and link to the book; topics are outlined and
+            link to the topic; tags are plain, non-navigating labels. Membership comes from
+            song_groups.json, not song.tags — the two are different things (see getSongMemberships). */}
         <div className="mt-1 flex flex-wrap items-center justify-center gap-2">
           <span className="rounded-full bg-[var(--neutral)]/25 px-2.5 py-1 text-[11px] font-semibold uppercase text-[var(--neutral)]">
             {song.uid}
           </span>
+          {memberships.map((m) => (
+            <Link
+              key={m.uid}
+              href={`/${m.kind === 'book' ? 'books' : 'topics'}/${m.uid}`}
+              title={m.kind === 'book' ? 'Book' : 'Topic'}
+              className={
+                m.kind === 'book'
+                  ? 'rounded-full bg-[var(--highlight)]/15 px-2.5 py-1 text-xs font-medium text-[var(--highlight)] transition-colors hover:bg-[var(--highlight)]/25'
+                  : 'rounded-full border border-[var(--border)] px-2.5 py-1 text-xs text-[var(--neutral)] transition-colors hover:text-[var(--primary)]'
+              }
+            >
+              {pickScriptText(m.titles, [settings.listLanguage, 'Latn', 'Beng'])}
+            </Link>
+          ))}
           {song.tags?.map((tag) => (
             <span
               key={tag}

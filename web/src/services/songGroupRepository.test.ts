@@ -2,7 +2,7 @@
 // src/data/song_groups.json (21 groups: 7 books + 14 topics — rebuilt from the Gīti-guccha hierarchy
 // with a books-are-works / topics-are-themes taxonomy; see rebuild_song_groups.py).
 import { describe, expect, it } from 'vitest'
-import { getSongGroupByUid, getSongGroups } from './songGroupRepository'
+import { getSongGroupByUid, getSongGroups, getSongMemberships } from './songGroupRepository'
 import { getAllSongUids } from './songRepository'
 
 describe('getSongGroups', () => {
@@ -79,5 +79,34 @@ describe('song-group resolution (docs/data/collections.md invariant)', () => {
 describe('getSongGroupByUid', () => {
   it('returns null for an unknown uid', () => {
     expect(getSongGroupByUid('not-a-real-group')).toBeNull()
+  })
+})
+
+describe('getSongMemberships', () => {
+  // The bug that motivated the membership chips: PT7 is member #51 of topic-pancatattva in
+  // song_groups.json, yet ISong.topics is empty — so membership must be read from the group data.
+  it('finds a song\'s topic membership even though ISong.topics is unpopulated', () => {
+    const uids = getSongMemberships('PT7').map((m) => m.uid)
+    expect(uids).toContain('topic-pancatattva')
+  })
+
+  it('lists books before topics (a named work is the strongest membership)', () => {
+    for (const uid of getAllSongUids()) {
+      const kinds = getSongMemberships(uid).map((m) => m.kind)
+      const firstTopic = kinds.indexOf('topic')
+      const lastBook = kinds.lastIndexOf('book')
+      if (firstTopic !== -1 && lastBook !== -1) expect(lastBook).toBeLessThan(firstTopic)
+    }
+  })
+
+  it('only ever returns books and topics, each with a title to render', () => {
+    const all = getAllSongUids().flatMap((uid) => getSongMemberships(uid))
+    expect(all.length).toBeGreaterThan(0)
+    expect(all.every((m) => m.kind === 'book' || m.kind === 'topic')).toBe(true)
+    expect(all.every((m) => m.titles.length > 0)).toBe(true)
+  })
+
+  it('returns [] for a song in no group', () => {
+    expect(getSongMemberships('not-a-real-song')).toEqual([])
   })
 })

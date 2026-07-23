@@ -34,3 +34,20 @@ export function getSongGroups(kind: SongGroupKind): ISongGroup[] {
 export function getSongGroupByUid(uid: string): ISongGroup | null {
   return allGroups().find((group) => group.uid === uid) ?? null
 }
+
+/** The kind + titles of one group a song belongs to — the slice a membership chip needs. */
+export type ISongMembership = Pick<ISongGroup, 'uid' | 'kind' | 'titles'>
+
+/**
+ * The book/topic groups a song belongs to, for the song-detail membership chips.
+ *
+ * Membership is read from song_groups.json (the source of truth) rather than `ISong.topics`, which
+ * the corpus deliberately never populates (see queueContext.ts). Books come before topics — a named
+ * work is the strongest, most specific membership — and each is trimmed to what a chip renders.
+ */
+export function getSongMemberships(uid: string): ISongMembership[] {
+  return allGroups()
+    .filter((g) => (g.kind === 'book' || g.kind === 'topic') && g.songUids.includes(uid))
+    .sort((a, b) => (a.kind === b.kind ? 0 : a.kind === 'book' ? -1 : 1))
+    .map(({ uid, kind, titles }) => ({ uid, kind, titles }))
+}
