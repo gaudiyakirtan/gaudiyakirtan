@@ -43,7 +43,7 @@ export const SongGroupScreen: React.FC<SongGroupScreenProps> = ({ group, songs }
   const title = pickScriptText(group.titles, [settings.listLanguage, 'Latn', 'Beng']) || group.title
 
   return (
-    <div className="mx-auto w-full max-w-screen-lg pb-16">
+    <div className="mx-auto w-full max-w-screen-lg px-4 pb-16 md:px-0">
       <Link
         href={BACK_HREF[group.kind]}
         className="mb-4 inline-flex items-center gap-1 text-sm text-[var(--neutral)] hover:text-[var(--primary)]"

@@ -123,7 +123,7 @@ const SettingsPage: React.FC<SettingsPageProps> = ({ sample }) => {
         <meta name="description" content="Display, appearance and app settings" />
       </Head>
 
-      <div className="mx-auto w-full max-w-4xl pb-16">
+      <div className="mx-auto w-full max-w-4xl px-4 pb-16 md:px-0">
         <h1 className="py-4 text-2xl font-bold text-[var(--primary)]">Settings</h1>
 
         {/* Language — the site-wide default. First and most prominent: it's the primary choice. */}

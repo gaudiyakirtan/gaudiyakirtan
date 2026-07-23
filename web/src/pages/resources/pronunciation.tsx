@@ -2,7 +2,7 @@ import React from 'react'
 
 const PronunciationPage = () => {
   return (
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto px-4 md:px-0">
         <h1 className="text-2xl font-bold text-[var(--primary)] mb-6">Pronunciation Guide</h1>
         
         <section className="mb-10">

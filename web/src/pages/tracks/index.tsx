@@ -98,12 +98,15 @@ const TracksPage: React.FC<TracksPageProps> = ({ songs, authors }) => {
             )}
           </div>
 
-          <label className="flex items-center gap-2 text-xs text-[var(--neutral)]">
-            <span>Reciter</span>
+          {/* `min-w-0` on both label and select is load-bearing: a native <select> is sized by its
+              widest <option> (reciter names run long), and a flex child will not shrink below that
+              min-content width — so on a phone it ran ~15px past the right edge and got clipped. */}
+          <label className="flex min-w-0 items-center gap-2 text-xs text-[var(--neutral)]">
+            <span className="flex-shrink-0">Reciter</span>
             <select
               value={artistFilter ?? ''}
               onChange={(e) => setArtist(e.target.value)}
-              className="rounded-full bg-[var(--background-offset)] px-3 py-1 text-xs text-[var(--primary)] outline-none"
+              className="min-w-0 flex-1 truncate rounded-full bg-[var(--background-offset)] px-3 py-1 text-xs text-[var(--primary)] outline-none"
             >
               <option value="">All reciters</option>
               {artists.map(({ artist, count }) => (

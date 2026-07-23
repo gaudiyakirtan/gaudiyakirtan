@@ -2,7 +2,7 @@ import React from 'react'
 
 const DiacriticsPage = () => {
   return (
-      <div className="max-w-4xl mx-auto">
+      <div className="max-w-4xl mx-auto px-4 md:px-0">
         <h1 className="text-2xl font-bold text-[var(--primary)] mb-6">The Sounds of Sanskrit, Bengali and Hindi</h1>
         <p className="mb-4 text-[var(--neutral)]">
           In the charts below, both Bengali and Hindi are pronounced as

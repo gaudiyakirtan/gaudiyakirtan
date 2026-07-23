@@ -75,7 +75,7 @@ export const SongScreen: React.FC<SongScreenProps> = ({ song, memberships = [] }
   const authorLinkable = song.authorUid !== UNKNOWN_AUTHOR_UID
 
   return (
-    <div className="pt-2 pb-12">
+    <div className="px-4 pt-2 pb-12 md:px-0">
       {/* Reader display options — collapsible, outlined panel at the content-area TOP-LEFT. Its
           options are an absolute dropdown, so opening/closing overlays and never moves the page. */}
       <div className="mb-4">
