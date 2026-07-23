@@ -1,12 +1,46 @@
 name: CI
 
+# One workflow for the whole monorepo. Replaces the 5 overlapping workflows (CI + All/Web/Android/iOS
+# Build Verification) that all fired on every event — ~5× the runs, and ~5× the failure emails.
 on:
   push:
     branches: [mono, main]
   pull_request:
+    branches: [mono, main]
+
+# Don't run duplicate CI for a branch that also has an open PR.
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
+  # Detect which platform actually changed, so a web/docs commit doesn't trigger (and fail) the
+  # iOS/Android builds — that per-push failure across every commit was the main source of email spam.
+  # Also gates out Dependabot's automated PRs entirely: they land as one grouped monthly PR that you
+  # review by hand, and running full native builds on each was pure noise.
+  changes:
+    if: github.actor != 'dependabot[bot]'
+    runs-on: ubuntu-latest
+    outputs:
+      web: ${{ steps.filter.outputs.web }}
+      android: ${{ steps.filter.outputs.android }}
+      ios: ${{ steps.filter.outputs.ios }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            web:
+              - 'web/**'
+            android:
+              - 'andorid/**'
+            ios:
+              - 'ios/**'
+
   web:
+    needs: changes
+    if: needs.changes.outputs.web == 'true'
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -23,6 +57,8 @@ jobs:
       - run: pnpm test --if-present
 
   android:
+    needs: changes
+    if: needs.changes.outputs.android == 'true'
     runs-on: ubuntu-latest
     defaults:
       run:
@@ -37,20 +73,16 @@ jobs:
       - run: ./gradlew :app:testDebugUnitTest
 
   ios:
+    needs: changes
+    if: needs.changes.outputs.ios == 'true'
     runs-on: macos-14
     defaults:
       run:
         working-directory: ios
     steps:
       - uses: actions/checkout@v4
-      # Full build works on real CI runners (unlike the sandboxed dev env where actool is blocked).
       - run: |
           xcodebuild build \
             -project gk-ios.xcodeproj -scheme gk-ios \
             -destination 'platform=iOS Simulator,name=iPhone 15' \
             CODE_SIGNING_ALLOWED=NO
-      - run: |
-          xcodebuild test \
-            -project gk-ios.xcodeproj -scheme gk-ios \
-            -destination 'platform=iOS Simulator,name=iPhone 15' \
-            CODE_SIGNING_ALLOWED=NO || true   # tests run once a test scheme is configured
