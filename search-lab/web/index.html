@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gaudiya Kirtan — Search Lab</title>
+<style>
+  :root {
+    --bg: #fbf9f6; --fg: #1a1613; --dim: #6b6259; --line: #e5ded4;
+    --card: #fff; --accent: #b8683a; --good: #2f7d4f; --bad: #b3452e; --code: #f2ece3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#16130f; --fg:#f0e9df; --dim:#9a8f82; --line:#2e2822;
+            --card:#1e1a15; --accent:#e08a52; --good:#5cba82; --bad:#e0715a; --code:#252019; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+    font:15px/1.5 ui-sans-serif,-apple-system,"Segoe UI",system-ui,sans-serif; }
+  .wrap { max-width:1180px; margin:0 auto; padding:28px 20px 80px; }
+  h1 { font-size:1.5rem; margin:0 0 4px; letter-spacing:-.02em; }
+  h2 { font-size:1rem; margin:36px 0 10px; letter-spacing:-.01em; }
+  .sub { color:var(--dim); font-size:.875rem; margin:0 0 22px; }
+  .bar { display:flex; gap:10px; flex-wrap:wrap; align-items:center; margin-bottom:8px; }
+  input[type=search], select, button {
+    font:inherit; color:var(--fg); background:var(--card);
+    border:1px solid var(--line); border-radius:10px; padding:9px 12px; }
+  input[type=search] { flex:1; min-width:240px; font-size:1rem; }
+  input[type=search]:focus, select:focus { outline:2px solid var(--accent); outline-offset:1px; }
+  button { cursor:pointer; font-weight:500; }
+  button:hover { border-color:var(--accent); }
+  button[disabled] { opacity:.5; cursor:default; }
+  .chips { display:flex; gap:6px; flex-wrap:wrap; margin:2px 0 20px; }
+  .chip { font-size:.78rem; color:var(--dim); background:var(--code); border:1px solid var(--line);
+    border-radius:999px; padding:3px 10px; cursor:pointer; }
+  .chip:hover { color:var(--fg); border-color:var(--accent); }
+  .grid { display:grid; gap:12px; grid-template-columns:repeat(auto-fill,minmax(310px,1fr)); }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:13px 15px; }
+  .card h3 { margin:0; font-size:.86rem; font-weight:600; display:flex; justify-content:space-between; gap:8px; align-items:baseline; }
+  .ms { font-variant-numeric:tabular-nums; color:var(--accent); font-weight:600; font-size:.8rem; }
+  .blurb { color:var(--dim); font-size:.74rem; margin:5px 0 9px; line-height:1.35; }
+  ol { margin:0; padding-left:20px; font-size:.82rem; }
+  ol li { margin:2px 0; color:var(--dim); }
+  ol li b { color:var(--fg); font-weight:500; }
+  ol li.hit b { color:var(--good); }
+  .uid { font:11px ui-monospace,SFMono-Regular,Menlo,monospace; color:var(--dim); }
+  table { border-collapse:collapse; width:100%; font-size:.82rem; }
+  th, td { text-align:right; padding:7px 9px; border-bottom:1px solid var(--line); font-variant-numeric:tabular-nums; }
+  th:first-child, td:first-child { text-align:left; font-variant-numeric:normal; }
+  th { color:var(--dim); font-weight:500; font-size:.74rem; text-transform:uppercase; letter-spacing:.04em; }
+  tr.best td { background:color-mix(in srgb, var(--good) 11%, transparent); }
+  tr.best td:first-child::after { content:' ★'; color:var(--good); }
+  .note { color:var(--dim); font-size:.78rem; margin:8px 0 0; }
+  .status { color:var(--dim); font-size:.82rem; padding:8px 0; }
+  code { background:var(--code); padding:1px 5px; border-radius:5px;
+    font:12px ui-monospace,SFMono-Regular,Menlo,monospace; }
+  .scroll { overflow-x:auto; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Search Lab</h1>
+  <p class="sub">
+    Every engine, same corpus, same ground truth — running live in this tab.
+    Accuracy is scored against <b id="gtCount">…</b> real search attempts recorded from the older app.
+  </p>
+
+  <div class="bar">
+    <input type="search" id="q" placeholder="Type a misspelled song title…" autocomplete="off" autofocus>
+    <select id="corpus"></select>
+  </div>
+  <div class="chips" id="samples"></div>
+
+  <div class="grid" id="live"></div>
+
+  <h2>Accuracy benchmark</h2>
+  <div class="bar">
+    <button id="run">Run all engines × all corpora</button>
+    <span class="status" id="status"></span>
+  </div>
+  <div class="scroll"><table id="table"></table></div>
+  <p class="note">
+    <b>R@k</b> = share of attempts where the intended song ranked in the top k.
+    <b>MRR</b> = mean reciprocal rank. <b>p50/p95</b> = per-query latency over the ground-truth set.
+    Many R@1 misses are ties between genuinely near-identical titles
+    (<code>śocaka (1)/(2)/(3)</code>), which is why R@5 is the fairer headline.
+  </p>
+</div>
+<script type="module" src="/web/app.mjs"></script>
+</body>
+</html>

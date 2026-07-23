@@ -1,0 +1,12 @@
+{
+  "name": "gk-search-lab",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Benchmark for Gaudiya Kirtan search: 6 algorithms x 3 corpora, scored against 231 recorded user attempts.",
+  "scripts": {
+    "build": "node data/build.mjs",
+    "bench": "node bench.mjs",
+    "serve": "node serve.mjs"
+  }
+}
