@@ -12,4 +12,4 @@ flake8>=4.0.0
 aksharamukha>=1.0.0
 
 # For Claude API integration
-python-dotenv>=0.20.0
+python-dotenv>=1.2.2
