@@ -3,6 +3,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { PanelLeft } from "lucide-react";
+import { BrandWordmark } from "./BrandWordmark";
 import Sidebar from "./Sidebar";
 import { PlayerWidget } from "./PlayerWidget";
 import { SearchModal } from "./SearchModal";
@@ -100,8 +101,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
             </svg>
           </button>
           <Link href="/" className="flex items-center">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/assets/sri-gaudiya-kirtan.svg" alt="Gaudiya Kirtan" className="brand-logo h-5" />
+            <BrandWordmark className="text-lg" />
           </Link>
           <button
             type="button"

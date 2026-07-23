@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { Search, Sun, Moon, ChevronsLeft } from "lucide-react";
 import { useTheme } from "../utils/ThemeContext";
+import { BrandWordmark } from "./BrandWordmark";
 // Import directly from the leaf modules, not the '../services' barrel - the barrel re-exports
 // fs-based repositories (songRepository, manifestRepository) that must never enter the client
 // bundle, and Sidebar is a client-rendered component (see services/songListing.ts's note).
@@ -151,8 +152,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, collapsed = false, s
         {/* Brand + desktop collapse toggle (wordmark only — the mridanga music logo was removed) */}
         <div className="flex h-14 items-center px-3">
           <Link href="/" onClick={onClose} className="flex items-center" aria-label="Gaudiya Kirtan home">
-            {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/assets/sri-gaudiya-kirtan.svg" alt="Gaudiya Kirtan" className="brand-logo h-6" />
+            <BrandWordmark className="text-xl" />
           </Link>
           <button
             type="button"
