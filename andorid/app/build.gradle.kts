@@ -69,7 +69,7 @@ dependencies {
     implementation("androidx.compose.material:material:1.7.6")
     implementation("androidx.compose.foundation:foundation:1.7.6")
 
-    val lifecycle_version = "2.8.7"
+    val lifecycle_version = "2.11.0"
     val arch_version = "2.2.0"
 
     // ViewModel
