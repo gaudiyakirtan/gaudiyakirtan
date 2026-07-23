@@ -4,6 +4,7 @@ import { ISongGroup } from '../models/Collections'
 import { UNKNOWN_AUTHOR_UID } from '../models/Common'
 import { IAuthorListing } from '../services/authorRepository'
 import { ISongListing } from '../services/songListingView'
+import { AuthorNames, ITrackSong } from '../services/trackListingView'
 import { NowSection } from './NowSection'
 import { RecentlyPlayedSection } from './RecentlyPlayedSection'
 import { TopicsSection } from './TopicsSection'
@@ -13,6 +14,10 @@ import { AuthorsSection } from './AuthorsSection'
 interface HomeScreenProps {
   /** Lookup source for uid-only references (calendar song refs, local recents). */
   referenceListings: ISongListing[]
+  /** Player slices for the month songs that have recordings, keyed by uid (home's recording picker). */
+  trackSongsByUid: Record<string, ITrackSong>
+  /** Shared authorUid -> renderings table for those track songs (rejoined by `toPlayable`). */
+  trackAuthors: AuthorNames
   authors: IAuthorListing[]
   books: ISongGroup[]
   topics: ISongGroup[]
@@ -33,6 +38,8 @@ interface HomeScreenProps {
  */
 export const HomeScreen: React.FC<HomeScreenProps> = ({
   referenceListings,
+  trackSongsByUid,
+  trackAuthors,
   authors,
   books,
   topics,
@@ -65,7 +72,12 @@ export const HomeScreen: React.FC<HomeScreenProps> = ({
       {/* "This month" is the lead region: the month's songs plus the ārati for the time of day.
           It carries the seasonal recommendations (in Āṣāḍha, the Jagannātha/Ratha-yātrā and
           Guru-pūrṇimā songs) and is the only region that changes through the day and year. */}
-      <NowSection listingsByUid={listingsByUid} onSongClick={handleSongClick} />
+      <NowSection
+        listingsByUid={listingsByUid}
+        trackSongsByUid={trackSongsByUid}
+        authors={trackAuthors}
+        onSongClick={handleSongClick}
+      />
 
       <RecentlyPlayedSection listingsByUid={listingsByUid} onSongClick={handleSongClick} />
 
