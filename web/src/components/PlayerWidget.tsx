@@ -2,14 +2,15 @@ import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 're
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   Play, Pause, Loader2, Repeat, ListEnd, Download, Share2, Minimize2, Maximize2, Check,
-  SkipBack, SkipForward, Gauge, Moon, X,
+  SkipBack, SkipForward, Moon, X,
 } from 'lucide-react'
-import { usePlayer, PLAYBACK_RATE_OPTIONS } from '../utils/PlayerContext'
+import { usePlayer } from '../utils/PlayerContext'
 import { useSettings } from '../utils/SettingsContext'
 import { pickScriptText } from '../services/textDisplay'
 import { SLEEP_TIMER_MINUTE_OPTIONS, formatRemaining } from '../services/sleepTimer'
 import { artistImageUrlFor, audioUrlFor } from '../config'
 import { MusicNote } from './icons/MusicNote'
+import { ArtistAvatar, RecordingPickerButton } from './ArtistAvatar'
 
 /**
  * The single, unified player (docs/screens/player.md) — one sticky control in the bottom-right that
@@ -18,7 +19,7 @@ import { MusicNote } from './icons/MusicNote'
  *    playing.
  *  • expanded → a mini-player card: artwork, title (2 lines → marquee), author, scrubber, a
  *    previous/next transport pair when a book/topic queue is armed, and a loop / continue-playing /
- *    speed / sleep-timer / download / share row plus a stacked-avatar **recordings** picker and a
+ *    sleep-timer / download / share row plus a stacked-avatar **recordings** picker and a
  *    **minimize** button.
  *  • collapsed (while playing) → back to a circle (play/pause + a corner expand button).
  */
@@ -30,25 +31,6 @@ const fmt = (s: number) => {
   if (!Number.isFinite(s) || s < 0) return '0:00'
   const t = Math.floor(s)
   return `${Math.floor(t / 60)}:${(t % 60).toString().padStart(2, '0')}`
-}
-
-// A round, ringed singer photo with a graceful music-note fallback.
-const Avatar: React.FC<{ trackUid: string; size?: number; ring?: boolean; className?: string }> = ({ trackUid, size = 26, ring = true, className = '' }) => {
-  const [failed, setFailed] = useState(false)
-  useEffect(() => setFailed(false), [trackUid])
-  return (
-    <span
-      className={`relative flex flex-none items-center justify-center overflow-hidden rounded-full bg-[var(--highlight)]/20 ${ring ? 'ring-2 ring-[var(--background-offset)]' : ''} ${className}`}
-      style={{ width: size, height: size }}
-    >
-      {!failed ? (
-        // eslint-disable-next-line @next/next/no-img-element -- external S3 image, best-effort
-        <img src={artistImageUrlFor(trackUid)} alt="" className="h-full w-full object-cover" onError={() => setFailed(true)} />
-      ) : (
-        <MusicNote size={Math.round(size * 0.5)} className="text-[var(--highlight)]" />
-      )}
-    </span>
-  )
 }
 
 const Artwork: React.FC<{ trackUid?: string; playing: boolean }> = ({ trackUid, playing }) => {
@@ -88,15 +70,14 @@ const MarqueeTitle: React.FC<{ text: string }> = ({ text }) => {
   return <div ref={ref} className="line-clamp-2 text-sm font-semibold leading-snug text-[var(--primary)]">{text}</div>
 }
 
-// The three drop-ups (recordings, speed, sleep timer) share one slot above the card and are
+// The two drop-ups (recordings, sleep timer) share one slot above the card and are
 // mutually exclusive, so a single "which one is open" state stands in for three booleans.
-type OpenMenu = 'recordings' | 'speed' | 'sleep' | null
+type OpenMenu = 'recordings' | 'sleep' | null
 
 export const PlayerWidget: React.FC = () => {
   const {
     song, trackUid, status, armedSong, currentTime, duration,
     isLooping, toggleLoop, autoContinue, toggleAutoContinue,
-    playbackRate, setPlaybackRate,
     hasPreviousInQueue, hasNextInQueue, queuePosition, previous, next, queue,
     sleepTimer, sleepRemainingMs, startSleepTimer, startSleepTimerEndOfTrack, cancelSleepTimer,
     playSong, selectTrack, togglePlayPause, seek,
@@ -136,22 +117,6 @@ export const PlayerWidget: React.FC = () => {
       } else labels.set(t.uid, base)
     }
     return labels
-  }, [song])
-
-  // Up to 3 distinct-artist tracks, for the stacked avatar cluster.
-  const avatarTracks = useMemo(() => {
-    if (!song) return []
-    const seen = new Set<string>()
-    const out: typeof song.tracks = []
-    for (const t of song.tracks) {
-      const k = t.artist ?? t.uid
-      if (!seen.has(k)) {
-        seen.add(k)
-        out.push(t)
-      }
-      if (out.length >= 3) break
-    }
-    return out
   }, [song])
 
   const loaded = !!song
@@ -273,40 +238,8 @@ export const PlayerWidget: React.FC = () => {
                       onClick={() => { selectTrack(t.uid); setOpenMenu(null) }}
                       className={`flex w-full items-center gap-3 px-3 py-2 text-left text-sm transition-colors ${active ? 'bg-[var(--highlight)]/15 text-[var(--highlight)]' : 'text-[var(--primary)] hover:bg-[var(--background)]'}`}
                     >
-                      <Avatar trackUid={t.uid} size={28} ring={false} />
+                      <ArtistAvatar trackUid={t.uid} size={28} ring={false} />
                       <span className="flex-1 truncate">{takeLabels.get(t.uid)}</span>
-                      {active && <Check size={14} />}
-                    </button>
-                  </li>
-                )
-              })}
-            </ul>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      {/* playback-speed drop-up (feature 5) */}
-      <AnimatePresence>
-        {openMenu === 'speed' && !showCircle && (
-          <motion.div
-            initial={{ opacity: 0, y: 8, scale: 0.96 }}
-            animate={{ opacity: 1, y: 0, scale: 1 }}
-            exit={{ opacity: 0, y: 8, scale: 0.96 }}
-            transition={{ duration: 0.16 }}
-            className="w-44 overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--background-offset)] shadow-xl"
-          >
-            <p className="px-4 pb-1 pt-3 text-[11px] font-semibold uppercase tracking-wider text-[var(--neutral)]">Speed</p>
-            <ul className="pb-2">
-              {PLAYBACK_RATE_OPTIONS.map((rate) => {
-                const active = rate === playbackRate
-                return (
-                  <li key={rate}>
-                    <button
-                      type="button"
-                      onClick={() => { setPlaybackRate(rate); setOpenMenu(null) }}
-                      className={`flex w-full items-center justify-between px-4 py-2 text-left text-sm transition-colors ${active ? 'bg-[var(--highlight)]/15 text-[var(--highlight)]' : 'text-[var(--primary)] hover:bg-[var(--background)]'}`}
-                    >
-                      <span>{rate}×</span>
                       {active && <Check size={14} />}
                     </button>
                   </li>
@@ -473,12 +406,6 @@ export const PlayerWidget: React.FC = () => {
                       className={`${autoContinue ? ctrlBtnOn : ctrlBtn} disabled:opacity-40 disabled:hover:bg-transparent`}>
                       <ListEnd size={16} />
                     </button>
-                    <button type="button" onClick={() => setOpenMenu(openMenu === 'speed' ? null : 'speed')}
-                      aria-label="Playback speed" title="Playback speed"
-                      className={`${pillBtn} ${openMenu === 'speed' || playbackRate !== 1 ? 'bg-[var(--highlight)]/15 text-[var(--highlight)]' : 'text-[var(--neutral)] hover:bg-[var(--background)] hover:text-[var(--primary)]'}`}>
-                      <Gauge size={14} />
-                      <span>{playbackRate}×</span>
-                    </button>
                     <button type="button" onClick={() => setOpenMenu(openMenu === 'sleep' ? null : 'sleep')}
                       aria-label="Sleep timer" title="Sleep timer"
                       className={`${pillBtn} ${sleepTimer || openMenu === 'sleep' ? 'bg-[var(--highlight)]/15 text-[var(--highlight)]' : 'text-[var(--neutral)] hover:bg-[var(--background)] hover:text-[var(--primary)]'}`}>
@@ -495,17 +422,11 @@ export const PlayerWidget: React.FC = () => {
 
                     <div className="ml-auto flex items-center gap-1">
                       {hasMultipleTakes && (
-                        <button type="button" onClick={() => setOpenMenu(openMenu === 'recordings' ? null : 'recordings')} aria-label="Choose recording"
-                          className={`flex h-8 items-center gap-1.5 rounded-full px-2 transition-colors ${openMenu === 'recordings' ? 'bg-[var(--highlight)]/15' : 'hover:bg-[var(--background)]'}`}>
-                          <span className="flex items-center">
-                            {avatarTracks.map((t, i) => (
-                              <span key={t.uid} className={`relative ${i === 0 ? '' : '-ml-2'}`} style={{ zIndex: avatarTracks.length - i }}>
-                                <Avatar trackUid={t.uid} size={20} />
-                              </span>
-                            ))}
-                          </span>
-                          <span className={`text-[11px] font-semibold ${openMenu === 'recordings' ? 'text-[var(--highlight)]' : 'text-[var(--neutral)]'}`}>{song!.tracks.length}</span>
-                        </button>
+                        <RecordingPickerButton
+                          tracks={song!.tracks}
+                          open={openMenu === 'recordings'}
+                          onClick={() => setOpenMenu(openMenu === 'recordings' ? null : 'recordings')}
+                        />
                       )}
                       <button type="button" onClick={() => { setCollapsed(true); setOpenMenu(null) }} aria-label="Collapse player" className={ctrlBtn}>
                         <Minimize2 size={16} />

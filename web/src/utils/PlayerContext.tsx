@@ -34,11 +34,7 @@ import { buildResumeRecord, parseResumeRecord, shouldPersist } from '../services
 
 export type PlaybackStatus = 'idle' | 'loading' | 'playing' | 'paused' | 'error'
 
-/** Playback-speed presets (feature 5), persisted alongside the rest of the player's local prefs. */
-export const PLAYBACK_RATE_OPTIONS = [0.75, 1, 1.25, 1.5] as const
-
 const RESUME_STORAGE_KEY = 'gk-player-resume'
-const PREFS_STORAGE_KEY = 'gk-player-prefs'
 // "Every few seconds", not every `timeupdate` tick (docs/screens/player.md feature 3) - timeupdate
 // fires several times a second, and localStorage writes aren't worth doing that often.
 const RESUME_SAVE_INTERVAL_MS = 5_000
@@ -86,9 +82,6 @@ interface PlayerContextType {
   /** Output volume, 0..1. */
   volume: number
   setVolume: (v: number) => void
-  /** Playback speed (feature 5) - one of PLAYBACK_RATE_OPTIONS, persisted to localStorage. */
-  playbackRate: number
-  setPlaybackRate: (rate: number) => void
   /** The armed book/topic queue (feature 2, see services/queueContext.ts) a song page registers
    *  via `armQueue`, so finishing a song's takes can roll on to the *next song* in that
    *  collection. Null when the open song isn't in one (or a page never arms one). */
@@ -152,7 +145,6 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
   const [isLooping, setIsLooping] = useState(false)
   const [autoContinue, setAutoContinue] = useState(true)
   const [volume, setVolumeState] = useState(1)
-  const [playbackRate, setPlaybackRateState] = useState(1)
   const [queue, setQueue] = useState<IPlayerQueue | null>(null)
   const [sleepTimer, setSleepTimerState] = useState<SleepTimerMode | null>(null)
   const [sleepRemainingMs, setSleepRemainingMs] = useState<number | null>(null)
@@ -255,25 +247,6 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
   useEffect(() => {
     if (audioRef.current) audioRef.current.volume = volume
   }, [volume])
-
-  // Playback speed (feature 5) - hydrate once from localStorage (same pattern as
-  // SettingsContext), then keep it synced onto the shared element across track changes.
-  useEffect(() => {
-    try {
-      const raw = window.localStorage.getItem(PREFS_STORAGE_KEY)
-      if (!raw) return
-      const parsed = JSON.parse(raw) as { playbackRate?: unknown }
-      const rate = parsed.playbackRate
-      if (typeof rate === 'number' && PLAYBACK_RATE_OPTIONS.some((r) => r === rate)) {
-        setPlaybackRateState(rate)
-      }
-    } catch {
-      // Corrupt/unavailable storage - default rate (1x) stands.
-    }
-  }, [])
-  useEffect(() => {
-    if (audioRef.current) audioRef.current.playbackRate = playbackRate
-  }, [playbackRate])
 
   // Throttled position autosave for feature 3, plus an immediate save on pause/backgrounding so a
   // reader who closes the tab right after pausing doesn't lose the last few seconds.
@@ -467,15 +440,6 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
   const toggleAutoContinue = useCallback(() => setAutoContinue((v) => !v), [])
   const setVolume = useCallback((v: number) => setVolumeState(Math.min(1, Math.max(0, v))), [])
 
-  const setPlaybackRate = useCallback((rate: number) => {
-    setPlaybackRateState(rate)
-    try {
-      window.localStorage.setItem(PREFS_STORAGE_KEY, JSON.stringify({ playbackRate: rate }))
-    } catch {
-      // Best-effort persistence only - the in-memory rate still applies this session.
-    }
-  }, [])
-
   const armQueue = useCallback((next: IPlayerQueue | null) => setQueue(next), [])
 
   const queuePositionValue = useMemo(
@@ -608,13 +572,13 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
     try {
       navigator.mediaSession.setPositionState({
         duration,
-        playbackRate,
+        playbackRate: 1,
         position: Math.min(Math.max(currentTime, 0), duration),
       })
     } catch {
       // Some browsers throw on a transient/invalid combo (e.g. mid-seek) - degrade silently.
     }
-  }, [duration, currentTime, playbackRate])
+  }, [duration, currentTime])
 
   const value = useMemo<PlayerContextType>(
     () => ({
@@ -632,8 +596,6 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
       toggleAutoContinue,
       volume,
       setVolume,
-      playbackRate,
-      setPlaybackRate,
       queue,
       armQueue,
       hasPreviousInQueue,
@@ -670,8 +632,6 @@ export const PlayerProvider: React.FC<{ children: ReactNode }> = ({ children }) 
       toggleAutoContinue,
       volume,
       setVolume,
-      playbackRate,
-      setPlaybackRate,
       queue,
       armQueue,
       hasPreviousInQueue,
