@@ -435,7 +435,7 @@ function commonChars(aSorted, bSorted) {
   return c
 }
 
-function pairScore(qt, qtSorted, tt, ttSorted) {
+function pairScore(qt, qtSorted, tt, ttSorted, cheap = false) {
   if (tt === qt) return 1
   const shorter = qt.length <= tt.length ? qt : tt
   const longer = shorter === qt ? tt : qt
@@ -443,6 +443,8 @@ function pairScore(qt, qtSorted, tt, ttSorted) {
   let m = 0
   if (longer.startsWith(shorter)) m = lenScore
   else if (shorter.length >= 3 && longer.includes(shorter)) m = lenScore - 0.05
+  // Stop-word tokens carry almost no idf weight; the exact/prefix tiers are all they earn.
+  if (cheap) return m
   // similarity ≤ shared chars / max length: skip any DP that provably cannot beat `m`,
   // and band the ones that run to the caller's current best (exact above it).
   const bound = commonChars(qtSorted, ttSorted) / longer.length
@@ -458,13 +460,14 @@ function pairScore(qt, qtSorted, tt, ttSorted) {
 }
 
 /** fuzzyTokenScore with a per-query-token memo over target tokens. */
-function memoTokenScore(qt, qtSorted, tk, tkSorted, memo) {
+function memoTokenScore(qt, qtSorted, tk, tkSorted, memo, cheap = false, tkSet = null) {
+  if (tkSet && tkSet.has(qt)) return 1 // exact hit: skip the token walk entirely
   let best = 0
   for (let i = 0; i < tk.length; i++) {
     const tt = tk[i]
     let s = memo.get(tt)
     if (s === undefined) {
-      s = pairScore(qt, qtSorted, tt, tkSorted[i])
+      s = pairScore(qt, qtSorted, tt, tkSorted[i], cheap)
       memo.set(tt, s)
     }
     if (s > best) { best = s; if (best === 1) break }
@@ -485,7 +488,7 @@ function rerankScore(qn, qTokens, qSorted, entries, qIdf = null, memos = null) {
     // People type the *front* of a title and stop. Compare against a same-length
     // prefix window too, so a long title is not punished for its untyped tail.
     if (t.n.length > qn.length + 2) {
-      s = Math.max(s, 0.95 * similarity(qn, t.n.slice(0, qn.length + 2)))
+      s = Math.max(s, 0.95 * similarity(qn, t.n.slice(0, qn.length + 2), s / 0.95))
     }
     if (t.n === qn) s = 1
     else if (t.n.startsWith(qn) || qn.startsWith(t.n)) s = Math.max(s, 0.85)
@@ -494,7 +497,7 @@ function rerankScore(qn, qTokens, qSorted, entries, qIdf = null, memos = null) {
     for (let qi = 0; qi < qTokens.length; qi++) {
       const w = qIdf ? qIdf[qi] : 1
       cov += w * (memos
-        ? memoTokenScore(qTokens[qi], qSorted[qi], t.tk, t.tkSorted, memos[qi])
+        ? memoTokenScore(qTokens[qi], qSorted[qi], t.tk, t.tkSorted, memos[qi], false, t.tkSet)
         : fuzzyTokenScore(qTokens[qi], qSorted[qi], t.tk, t.tkSorted))
       denom += w
     }
@@ -607,14 +610,25 @@ export const DUET_PARAMS = {
   candTitles: 8,      // songs reranked on the title path
   candLines: 16,      // lines reranked on the content path (cheap coverage pass)
   strLines: 4,        // leaders that also get the whole-string alignment pass
+  gateCover: 0.75,    // absolute share of query gram idf the title winner must hold to early-exit.
+                      // High on purpose: a title-first gate is structurally biased against content
+                      // queries (the documented cascade failure), so it may fire only when the
+                      // query text is essentially fully explained by one title.
+  gateMargin: 1.5,    // and it must clear the runner-up by this ratio
+  skipLiteral: 0.15,  // skip phonetic + title rerank when literal AND phonetic title coverage
+  skipPhon: 0.3,      //   both sit below these floors (sound-alike queries are low-literal but
+                      //   HIGH-phonetic, which is what keeps them safe from the skip)
+  stopIdf: 2.5,       // query tokens below this line-idf are matched with the cheap tiers only
+  walkBudget: 4500,   // max content-posting entries walked per query; grams are consumed in
+                      // ascending-df order, so what the budget drops is the near-zero-idf tail
   wPhon: 0.35,        // phonetic fusion weight (title path)
   wPhonRescue: 0.6,   // phonetic weight when literal trigrams matched almost nothing
   rescueCover: 0.3,   // literal coverage below which the query counts as sound-alike only
   wTitleGram: 1.0,    // retrieval-score weights inside each path's final score
   wLineGram: 1.0,
   wTitleRerank: 3.0,  // precision-score weights (dominant, as in cascade)
-  wLineRerank: 3.0,
-  wContent: 1.0,      // whole content path relative to the title path
+  wLineRerank: 2.5,
+  wContent: 1.05,     // whole content path relative to the title path
 }
 
 /**
@@ -622,10 +636,10 @@ export const DUET_PARAMS = {
  * Coverage is idf-weighted — an English semantic query is mostly stop words ("the dust of the
  * lotus feet"), and unweighted coverage lets any line full of "the"s tie the real target.
  */
-function lineCovScore(qTokens, qSorted, qIdf, line, memos) {
+function lineCovScore(qTokens, qSorted, qIdf, qCheap, line, memos) {
   let cov = 0, denom = 0
   for (let qi = 0; qi < qTokens.length; qi++) {
-    cov += qIdf[qi] * memoTokenScore(qTokens[qi], qSorted[qi], line.tk, line.tkSorted, memos[qi])
+    cov += qIdf[qi] * memoTokenScore(qTokens[qi], qSorted[qi], line.tk, line.tkSorted, memos[qi], qCheap[qi], line.tkSet)
     denom += qIdf[qi]
   }
   return denom ? cov / denom : 0
@@ -649,7 +663,7 @@ export const duet = {
     const titles = docs.map((d) =>
       (d.title ?? d.texts).map((x) => {
         const n = baseline(x), tk = tokenize(n)
-        return { n, tk, tkSorted: tk.map(sortChars) }
+        return { n, tk, tkSorted: tk.map(sortChars), tkSet: new Set(tk) }
       }))
 
     // Content: one document per LINE. lineSong maps a line back to its song.
@@ -660,7 +674,7 @@ export const duet = {
         const n = baseline(text)
         if (!n) continue
         const tk = tokenize(n)
-        lines.push({ n, tk, tkSorted: tk.map(sortChars) })
+        lines.push({ n, tk, tkSorted: tk.map(sortChars), tkSet: new Set(tk) })
         lineSong.push(si)
       }
     })
@@ -703,11 +717,36 @@ export const duet = {
     const qSorted = qTokens.map(sortChars)
     // Unseen tokens keep full idf: a rare word the corpus lacks can still fuzzy-match a rare one.
     const qIdf = qTokens.map((t) => Math.log(1 + line.n / (tokenDf.get(t) ?? 1)))
+    const qCheap = qIdf.map((w) => w < P.stopIdf)
     const memos = qTokens.map(() => new Map())
 
-    // --- title path: literal + phonetic trigrams, then the cascade precision rerank.
+    // --- title path: literal trigrams first; the other signals wait behind the gate.
     const totalIdf = gramAccumulate(title, grams, bufT)
-    gramAccumulate(phon, [...new Set(ngrams(phonetic(query)))], bufP)
+
+    // Early exit — only when one title essentially explains the whole query AND clears the
+    // runner-up. A looser title-first gate is the documented class-imbalance failure (a content
+    // query that vaguely resembles some title would return "confidently" wrong), so the coverage
+    // bar is deliberately high; typical content fragments hold well under half their gram idf
+    // in any title.
+    if (totalIdf > 0 && P.gateCover > 0) {
+      let b1 = 0, b1i = -1, b2 = 0, rawBest = 0
+      for (let i = 0; i < title.n; i++) {
+        if (bufT[i] === 0) continue
+        const s = bufT[i] * title.norm[i]
+        if (s > b1) { b2 = b1; b1 = s; b1i = i; rawBest = bufT[i] }
+        else if (s > b2) b2 = s
+      }
+      if (b1i >= 0 && rawBest / totalIdf >= P.gateCover && (b2 === 0 || b1 >= b2 * P.gateMargin)) {
+        const out = []
+        for (let i = 0; i < title.n; i++) {
+          if (bufT[i] > 0) out.push({ ref: refs[i], score: bufT[i] * title.norm[i] })
+        }
+        out.sort((a, b) => b.score - a.score)
+        return out.slice(0, limit)
+      }
+    }
+
+    const totalPhonIdf = gramAccumulate(phon, [...new Set(ngrams(phonetic(query)))], bufP)
     const tCand = []
     for (let i = 0; i < title.n; i++) {
       const t = bufT[i] * title.norm[i], p = bufP[i] * phon.norm[i]
@@ -722,7 +761,13 @@ export const duet = {
       c.score = (maxT ? (c.t / maxT) * P.wTitleGram : 0) + (maxP ? (c.p / maxP) * wPhon : 0)
     }
     tCand.sort((a, b) => b.score - a.score)
-    const kT = Math.min(P.candTitles, tCand.length)
+    // A query whose literal AND phonetic gram coverage are both tiny is not a title lookup in
+    // any spelling; the precision rerank cannot promote it honestly, so skip the Levenshtein.
+    let maxPRaw = 0
+    for (const c of tCand) if (bufP[c.i] > maxPRaw) maxPRaw = bufP[c.i]
+    const phonCover = totalPhonIdf > 0 ? maxPRaw / totalPhonIdf : 0
+    const titleHopeless = literalCover < P.skipLiteral && phonCover < P.skipPhon
+    const kT = titleHopeless ? 0 : Math.min(P.candTitles, tCand.length)
     for (let r = 0; r < kT; r++) {
       const c = tCand[r]
       c.score += P.wTitleRerank * rerankScore(qn, qTokens, qSorted, titles[c.i], qIdf, memos)
@@ -733,9 +778,16 @@ export const duet = {
     // (typically a few thousand) instead of all 16k — and bufL is reset via the same list.
     const touched = state.touched
     let nTouched = 0
+    const lps = []
     for (const g of grams) {
       const p = line.postings.get(g)
-      if (!p) continue
+      if (p) lps.push(p)
+    }
+    lps.sort((a, b) => a.length - b.length) // rarest (highest idf) first
+    let budget = P.walkBudget
+    for (const p of lps) {
+      if (budget <= 0) break
+      budget -= p.length
       const idf = Math.log(1 + line.n / p.length)
       for (const i of p) {
         if (bufL[i] === 0) touched[nTouched++] = i
@@ -767,13 +819,14 @@ export const duet = {
           const ts = heapS[m]; heapS[m] = heapS[j]; heapS[j] = ts; j = m }
       }
     }
+    for (let ti = 0; ti < nTouched; ti++) bufL[touched[ti]] = 0 // reset for the next query
     let maxL = 0
     for (let j = 0; j < heapN; j++) if (heapS[j] > maxL) maxL = heapS[j]
     // Phase A (cheap, all candidates): gram + memoized token coverage.
     const lCand = []
     for (let j = 0; j < heapN; j++) {
       const i = heapI[j], g = heapS[j]
-      const cov = lineCovScore(qTokens, qSorted, qIdf, line.lines[i], memos)
+      const cov = lineCovScore(qTokens, qSorted, qIdf, qCheap, line.lines[i], memos)
       lCand.push({
         i, cov,
         score: (maxL ? (g / maxL) * P.wLineGram : 0) + P.wLineRerank * 0.4 * cov,

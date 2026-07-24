@@ -3,9 +3,10 @@
 A bench for the two open questions in [`docs/screens/search.md`](../docs/screens/search.md):
 **can we search song content**, and **can we search in any script** — measured instead of argued.
 
-Eight matching algorithms × four corpora, scored against **231 real search attempts** recorded from
+Ten matching algorithms × five corpora, scored against **231 real search attempts** recorded from
 the older app (`search-benchmark/search-database.csv`): genuine misspellings typed by people
-looking for a song they had heard, not synthetic queries.
+looking for a song they had heard, not synthetic queries — plus a **500-query content ground
+truth** for verse-text search.
 
 Zero dependencies. Zero network. Everything runs from the corpus already in this worktree.
 
@@ -162,14 +163,17 @@ queries are excluded.
 
 ### What the two halves show
 
-| engine | overall R@1 | authored | synthetic |
-|---|---|---|---|
-| current (linear `scoreText`) | **84.8%** | 89.2% | 80.4% |
-| Hybrid | 61.6% | 67.6% | 55.6% |
-| BM25 + prefix + fuzzy | 52.2% | 60.4% | 44.0% |
-| BM25 + prefix | 48.4% | 55.2% | 41.6% |
-| Trigram index | 38.4% | 42.4% | 34.4% |
-| **Trigram, fielded** | 35.4% | **66.0%** | **4.8%** |
+| engine | overall R@1 | authored | synthetic | p50 |
+|---|---|---|---|---|
+| **Duet (fielded title + per-line content)** | **87.2%** | **94.4%** | 80.0% | 0.63 ms |
+| current (linear `scoreText`) | 84.8% | 89.2% | **80.4%** | 192 ms |
+| Hybrid | 61.6% | 67.6% | 55.6% | 1.04 ms |
+| Jaigopal (skeleton sieve + Dice) | 54.0% | 60.4% | 47.6% | 0.38 ms |
+| BM25 + prefix + fuzzy | 52.2% | 60.4% | 44.0% | 0.20 ms |
+| BM25 + prefix | 48.4% | 55.2% | 41.6% | 0.06 ms |
+| Trigram index | 38.4% | 42.4% | 34.4% | 0.34 ms |
+| Trigram, fielded | 35.4% | 66.0% | 4.8% | 0.47 ms |
+| Cascade (gated trigram + rerank) | 31.6% | 58.8% | 4.4% | 0.58 ms |
 
 Three results worth the whole exercise:
 
@@ -258,6 +262,41 @@ that is not in that repo, so this port applies `fuzzy()` to the title and to eac
 line rather than one packed string — the original located the matching line by parsing `{verse|line}`
 markers back out of the blob, which is the same thing done the long way.
 
+## Joint objective — good at both jobs at once
+
+A real search box has to do title lookup *and* content search. So the honest score is the **worse**
+of the two: `min( R@1 on the 231 recorded title attempts , R@1 on the 500 content queries )`. A
+title champion that can't find a verse and a content engine that fumbles a misspelled title are
+both disqualified. Scored on `titles-latn+content`, the only corpus that can answer all three query
+datasets (titles, verse lines, and — for the English queries — translations):
+
+```bash
+node joint.mjs
+```
+
+| engine | **joint** | titles | content | authored / synthetic | bound by |
+|---|---|---|---|---|---|
+| **Duet** (fielded title + per-line content) | **86.6%** | 86.6% | 87.2% | 94.4% / 80.0% | titles |
+| current (linear `scoreText`) | 65.8% | 65.8% | 84.8% | 89.2% / 80.4% | titles |
+| Jaigopal (skeleton + Dice) | 47.2% | 47.2% | 54.0% | 60.4% / 47.6% | titles |
+| Hybrid | 39.4% | 39.4% | 61.6% | 67.6% / 55.6% | titles |
+| Trigram, fielded | 34.0% | 76.6% | 34.0% | 64.4% / 3.6% | content |
+| Cascade (gated trigram + rerank) | 31.6% | **87.0%** | 31.6% | 58.8% / 4.4% | content |
+| BM25 + prefix + fuzzy | 31.2% | 31.2% | 52.2% | 60.4% / 44.0% | titles |
+| BM25 + prefix | 26.4% | 26.4% | 48.4% | 55.2% / 41.6% | titles |
+| Trigram | 23.4% | 23.4% | 38.4% | 42.4% / 34.4% | titles |
+| Phonetic key | 16.0% | 16.0% | 22.4% | 27.2% / 17.6% | titles |
+
+**Duet wins, and the objective is what earns it.** Cascade is the single best *title* engine at
+87.0% — but it pools a song's content into one bag and collapses to 31.6% on verse search, so the
+minimum guts it. The min penalises exactly the lopsidedness that a per-dataset table hides: the two
+title champions (Cascade, Trigram-fielded) are both **content-bound**, every other engine is
+**titles-bound**, and only Duet clears ~86% on both sides at once.
+
+One consequence worth stating plainly: **today's shipping ranker is bottlenecked by title lookup,
+not content.** Its content R@1 is a strong 84.8%, but titles hold it to 65.8% — the opposite of the
+intuition that verse search would be the hard part.
+
 ## Results
 
 `R@k` = share of the 231 attempts where the intended song ranked in the top *k*.
@@ -267,27 +306,31 @@ markers back out of the blob, which is the same thing done the long way.
 
 | engine | R@1 | R@5 | R@10 | MRR | build | p50 | p95 |
 |---|---|---|---|---|---|---|---|
-| current (linear `scoreText`) | 77.1% | 89.2% | 92.6% | 82.3% | 3 ms | 2.21 ms | 3.50 ms |
-| BM25 + prefix | 57.6% | 71.0% | 74.9% | 63.3% | 3 ms | 0.01 ms | 0.04 ms |
-| BM25 + prefix + fuzzy | 63.6% | 77.9% | 82.3% | 70.3% | 2 ms | 0.21 ms | 0.61 ms |
-| Trigram index | 79.7% | 94.8% | 98.7% | 86.0% | 4 ms | 0.14 ms | 0.25 ms |
-| Phonetic key | 59.7% | 80.5% | 84.8% | 67.8% | 5 ms | 0.07 ms | 0.33 ms |
-| Hybrid (BM25+trigram+phonetic) | 74.5% | 90.9% | 93.1% | 80.7% | 11 ms | 0.45 ms | 1.25 ms |
+| current (linear `scoreText`) | 77.1% | 89.2% | 92.6% | 82.3% | 3 ms | 2.57 ms | 4.19 ms |
+| BM25 + prefix | 57.6% | 71.0% | 74.9% | 63.3% | 2 ms | 0.01 ms | 0.04 ms |
+| BM25 + prefix + fuzzy | 63.6% | 77.9% | 82.3% | 70.3% | 2 ms | 0.26 ms | 0.72 ms |
+| Trigram index | 79.7% | 94.8% | 98.7% | 86.0% | 5 ms | 0.14 ms | 0.27 ms |
+| Phonetic key | 59.7% | 80.5% | 84.8% | 67.8% | 5 ms | 0.09 ms | 0.47 ms |
+| Hybrid (BM25+trigram+phonetic) | 74.5% | 90.9% | 93.1% | 80.7% | 12 ms | 0.48 ms | 1.34 ms |
 | Trigram, fielded | 79.7% | 94.8% | 98.7% | 86.0% | 5 ms | 0.14 ms | 0.21 ms |
-| **Cascade (gated trigram + rerank)** | **86.6%** | **97.4%** | **99.6%** | **91.4%** | 12 ms | 0.10 ms | 0.57 ms |
+| **Cascade (gated trigram + rerank)** | **86.6%** | **97.4%** | **99.6%** | **91.4%** | 12 ms | 0.11 ms | 0.82 ms |
+| Duet (fielded title + per-line content) | 85.7% | 96.1% | 98.7% | 90.2% | 12 ms | 0.42 ms | 0.60 ms |
+| Jaigopal (skeleton sieve + Dice) | 47.2% | 50.2% | 51.9% | 48.7% | 6 ms | 0.06 ms | 0.10 ms |
 
 ### Titles, all 10 scripts + author — 702 docs
 
 | engine | R@1 | R@5 | R@10 | MRR | build | p50 | p95 |
 |---|---|---|---|---|---|---|---|
-| current (linear `scoreText`) | 75.8% | 87.4% | 90.9% | 80.9% | 16 ms | 9.81 ms | 16.73 ms |
-| BM25 + prefix | 52.8% | 68.8% | 72.3% | 59.3% | 25 ms | 0.01 ms | 0.12 ms |
-| BM25 + prefix + fuzzy | 60.6% | 76.6% | 80.5% | 67.2% | 22 ms | 0.55 ms | 1.64 ms |
-| Trigram index | 64.1% | 88.7% | 95.2% | 75.3% | 45 ms | 0.17 ms | 0.24 ms |
-| Phonetic key | 53.2% | 74.0% | 81.4% | 62.4% | 32 ms | 0.12 ms | 1.06 ms |
-| Hybrid | 67.1% | 85.3% | 89.6% | 74.9% | 99 ms | 0.94 ms | 2.85 ms |
-| Trigram, fielded | 64.1% | 88.7% | 95.2% | 75.3% | 41 ms | 0.18 ms | 0.26 ms |
-| **Cascade (gated trigram + rerank)** | **81.4%** | **95.2%** | **97.0%** | **87.3%** | 118 ms | 0.18 ms | 1.69 ms |
+| current (linear `scoreText`) | 75.8% | 87.4% | 90.9% | 80.9% | 16 ms | 27.05 ms | 45.29 ms |
+| BM25 + prefix | 52.8% | 68.8% | 72.3% | 59.3% | 26 ms | 0.01 ms | 0.13 ms |
+| BM25 + prefix + fuzzy | 60.6% | 76.6% | 80.5% | 67.2% | 25 ms | 1.27 ms | 3.90 ms |
+| Trigram index | 64.1% | 88.7% | 95.2% | 75.3% | 43 ms | 0.17 ms | 0.24 ms |
+| Phonetic key | 53.2% | 74.0% | 81.4% | 62.4% | 32 ms | 0.12 ms | 2.46 ms |
+| Hybrid | 67.1% | 85.3% | 89.6% | 74.9% | 95 ms | 1.76 ms | 5.88 ms |
+| Trigram, fielded | 64.1% | 88.7% | 95.2% | 75.3% | 40 ms | 0.18 ms | 0.26 ms |
+| **Cascade (gated trigram + rerank)** | **81.4%** | **95.2%** | **97.0%** | **87.3%** | 123 ms | 0.15 ms | 3.42 ms |
+| Duet (fielded title + per-line content) | 81.0% | 90.9% | 94.4% | 84.9% | 117 ms | 0.93 ms | 1.86 ms |
+| Jaigopal (skeleton sieve + Dice) | 47.2% | 50.2% | 51.5% | 48.5% | 9 ms | 0.07 ms | 0.12 ms |
 
 ### Latin titles + 16,620 verse lines + translations — 702 docs
 
@@ -296,14 +339,16 @@ verse text. Nothing else changes.
 
 | engine | R@1 | R@5 | R@10 | MRR | build | p50 | p95 |
 |---|---|---|---|---|---|---|---|
-| current (linear `scoreText`) | 65.8% | 78.4% | 83.5% | 71.9% | 35 ms | 69.37 ms | 111.14 ms |
-| BM25 + prefix | 26.4% | 46.8% | 54.5% | 34.9% | 68 ms | 0.05 ms | 0.15 ms |
-| BM25 + prefix + fuzzy | 31.2% | 52.8% | 60.2% | 39.8% | 61 ms | 2.19 ms | 10.10 ms |
-| Trigram index (pooled) | 23.4% | 44.2% | 51.9% | 32.2% | 114 ms | 0.29 ms | 0.41 ms |
-| Phonetic key | 16.0% | 33.3% | 39.8% | 22.7% | 113 ms | 0.19 ms | 4.59 ms |
-| Hybrid | 39.4% | 61.5% | 70.6% | 48.5% | 284 ms | 2.73 ms | 15.02 ms |
-| Trigram, fielded | 76.6% | 95.2% | 98.3% | 84.2% | 102 ms | 0.42 ms | 0.64 ms |
-| **Cascade (gated trigram + rerank)** | **87.0%** | **97.8%** | **99.6%** | **91.7%** | 104 ms | 0.10 ms | 0.57 ms |
+| current (linear `scoreText`) | 65.8% | 78.4% | 83.5% | 71.9% | 35 ms | 146.22 ms | 237.57 ms |
+| BM25 + prefix | 26.4% | 46.8% | 54.5% | 34.9% | 67 ms | 0.05 ms | 0.14 ms |
+| BM25 + prefix + fuzzy | 31.2% | 52.8% | 60.2% | 39.8% | 57 ms | 4.23 ms | 19.57 ms |
+| Trigram index (pooled) | 23.4% | 44.2% | 51.9% | 32.2% | 106 ms | 0.29 ms | 0.42 ms |
+| Phonetic key | 16.0% | 33.3% | 39.8% | 22.7% | 111 ms | 0.18 ms | 8.43 ms |
+| Hybrid | 39.4% | 61.5% | 70.6% | 48.5% | 266 ms | 5.08 ms | 27.88 ms |
+| Trigram, fielded | 76.6% | 95.2% | 98.3% | 84.2% | 98 ms | 0.42 ms | 0.60 ms |
+| **Cascade (gated trigram + rerank)** | **87.0%** | **97.8%** | **99.6%** | **91.7%** | 104 ms | 0.10 ms | 0.81 ms |
+| **Duet (fielded title + per-line content)** | 86.6% | 95.7% | 97.4% | 90.6% | 179 ms | 0.48 ms | 0.80 ms |
+| Jaigopal (skeleton sieve + Dice) | 47.2% | 51.1% | 52.8% | 48.9% | 108 ms | 0.37 ms | 0.74 ms |
 
 ### All 10 scripts + author + verse text + translations — 702 docs
 
@@ -311,10 +356,12 @@ Everything at once; isolates nothing, kept to show the compounded cost.
 
 | engine | R@1 | R@5 | R@10 | MRR | build | p50 | p95 |
 |---|---|---|---|---|---|---|---|
-| current (linear `scoreText`) | 65.8% | 78.4% | 83.5% | 71.9% | 51 ms | 78.55 ms | 123.98 ms |
-| Trigram index (pooled) | 27.7% | 47.2% | 60.2% | 36.4% | 148 ms | 0.29 ms | 0.44 ms |
-| Trigram, fielded | 64.9% | 87.4% | 94.4% | 75.1% | 136 ms | 0.46 ms | 0.66 ms |
-| **Cascade (gated trigram + rerank)** | **81.0%** | **95.2%** | **97.0%** | **87.0%** | 208 ms | 0.18 ms | 1.72 ms |
+| current (linear `scoreText`) | 65.8% | 78.4% | 83.5% | 71.9% | 52 ms | 167.10 ms | 272.03 ms |
+| Trigram index (pooled) | 27.7% | 47.2% | 60.2% | 36.4% | 156 ms | 0.29 ms | 0.42 ms |
+| Trigram, fielded | 64.9% | 87.4% | 94.4% | 75.1% | 143 ms | 0.45 ms | 0.65 ms |
+| **Cascade (gated trigram + rerank)** | 81.0% | **95.2%** | **97.0%** | **87.0%** | 213 ms | 0.16 ms | 3.31 ms |
+| **Duet (fielded title + per-line content)** | **81.8%** | 89.6% | 92.2% | 85.7% | 306 ms | 1.00 ms | 1.82 ms |
+| Jaigopal (skeleton sieve + Dice) | 47.2% | 51.1% | 52.4% | 48.8% | 114 ms | 0.43 ms | 0.79 ms |
 
 ## What the numbers say
 
@@ -383,13 +430,41 @@ land in the top 10; the one loss is the junk row. Its weights are tuned against 
 attempts, so treat the exact figures as in-sample; the *structure* (gate + fielded trigram +
 targeted rerank) is what transfers.
 
+**7. `duet` is the first engine ≥ 80% on *both* truth sets at once — because each field gets the
+matcher it needs.** Cascade owns titles (87.0%) and collapses on content (31.6%); the shipping
+ranker owns content (84.8%) at a disqualifying 146 ms. Duet holds **86.6% on the 231 title
+attempts and 87.2% on the 500 content queries** (per style: recall 99% · fragment 100% ·
+script 100% · semantic 89% · english 40% · synthetic 80%) at **0.48 / 0.63 ms p50**. Two retrieval
+paths, fused by max on one score scale:
+
+- **Title path** — cascade's machinery intact: fielded title trigrams, phonetic trigrams
+  (weighted up in the sound-alike case), and the Levenshtein rerank. An early exit fires only
+  when one title holds ≥ 75% of the query's gram idf *and* clears the runner-up 1.5× — high on
+  purpose, because a looser title-first gate is exactly the class-imbalance failure cascade
+  demonstrates (it answers content queries "confidently" wrong without ever consulting content).
+- **Content path** — every verse line is its own document (16,620 line-docs), never pooled:
+  trigram retrieval selects candidate lines, an idf-weighted token-coverage rerank scores them
+  (stop words cannot buy coverage — that alone moved English semantic queries from 45% to 90%),
+  the few leaders get a whole-string infix alignment, and lines aggregate to their song by max.
+- Both paths were tuned in **one sweep scored against both truth sets, selecting on
+  min(title R@1, content R@1)** — never on one set alone, which is the trap that produced
+  cascade's 4.4% synthetic score.
+
+All duet figures are **in-sample** for its weights. Re-scoring the regenerable synthetic half on
+a fresh seed (`--seed 1337`) gives **78.0%** vs the tuned sample's 80.0% (content overall
+86.2% vs 87.2%) — a ~2 pp gap, so the tuning tracks the measured distribution rather than the
+particular sample. What should transfer is the structure, not the weights: lines-as-documents
+with max aggregation, field-appropriate matchers (character grams + edit distance for misspelled
+titles, idf-weighted tokens for spellable content words), one comparable score scale so neither
+field can drown the other, and a title early-exit gated on *absolute* coverage.
+
 ## Layout
 
 ```
 data/build.mjs       corpus + recorded attempts -> data/gen/*.json
 src/normalize.mjs    baseline (shipping) and phonetic normalizers, script detection
-src/engines.mjs      the eight engines, one interface: build(docs) / search(state, q, k)
-src/corpus-defs.mjs  the four document sets, pure - shared by the CLI and the browser
+src/engines.mjs      the ten engines, one interface: build(docs) / search(state, q, k)
+src/corpus-defs.mjs  the five document sets, pure - shared by the CLI and the browser
 src/corpora.mjs      Node-side loader over corpus-defs
 src/inspect.mjs      best / median / worst ranking of an engine's outcomes
 bench.mjs            headless runner
