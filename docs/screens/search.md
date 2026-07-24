@@ -92,6 +92,19 @@ the noisy full query is the semantic tier's job. Keep tier-1 conservative (preci
 
 ## Change log
 
+- **v7 (web)** — **Palette results now render in the reader's `listLanguage`, not always romanized.**
+  The palette was the one title-showing surface that ignored the display-script setting (the song
+  list, cards, detail, groups, home and mini-player all honor it via `pickScriptText` /
+  `pickListTitle`). The cause was the data, not the component: `search-index.json` carried a Latin
+  `label` only, so the palette had nothing else to show. Each entry that has script renderings
+  (song, book, topic, author — not tag/reciter, which have none) now also carries a `scripts` map
+  (`{Beng, Deva, …}`, Latin omitted since it is the `label`) and a song carries `authorScripts`;
+  `SearchModal` displays `scripts?.[listLanguage] ?? label` (and the author likewise). **Matching is
+  unchanged** — it still runs on the Latin label + the romanized query (v6), so only what the reader
+  *sees* follows `listLanguage`. The index grows 22 KB → 184 KB gzipped (still one on-open fetch);
+  an e2e test pins a Bengali reader getting Bengali titles. This closes a recurring class of bug:
+  any Latin-only *derived* artifact (like the search index) silently ignores the script setting even
+  when every component is correct — the fix is to carry the scripts in the data.
 - **v6 (web)** — **Search now works in any supported script — by transliterating the query, not by
   indexing every script.** The index stays Latin (IAST); a query typed in Bengali, Devanagari,
   Telugu, Kannada, Malayalam, Gujarati, Oriya or Tamil is romanized to IAST on the fly and matched
