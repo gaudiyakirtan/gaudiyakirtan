@@ -92,6 +92,37 @@ the noisy full query is the semantic tier's job. Keep tier-1 conservative (preci
 
 ## Change log
 
+- **v5 (web)** — **Duet is now the matcher for both the palette and the URL rescuer, and verse
+  content is searchable.** The tiered `scoreText` ranker is replaced by **Duet** (`services/duet.ts`),
+  the joint-objective winner from the `search-lab/` benchmark: `min(R@1 title, R@1 content) = 86.6%`
+  where `scoreText` was 65.8%, held back by title recall on the metathesis/compound misspellings it
+  structurally cannot reach. Duet runs two retrieval paths — a fielded character-trigram + phonetic
+  title index with a Levenshtein rerank, and a **per-line** content index (every verse line is its
+  own document, aggregated to song by **max**, never pooled — pooling is the documented
+  79.7%→23.4% collapse) — fused by max so a song wins by whichever field matched. The engine and its
+  ~20 tuned constants are ported verbatim from the lab (validated top-5-identical on 20 queries) and
+  should be treated as a unit.
+  - **New index:** `scripts/gen-markdown.mjs` emits **`search-content.json`** — every song's IAST
+    verse lines keyed by uid (702 songs, 15,552 lines, ~210 KB gzipped). Taken from the `Latn`
+    `display_scripts`, the same field the `.md` twins use, which is already free of the pipeline's
+    `[FLAG_HYPHEN_ALPHA]` sentinel that `source_text_master` carries. It is a **separate, lazily
+    fetched** file: the palette loads it in the background on first open, so title/entity search is
+    live instantly off the 22 KB `search-index.json` and content search lights up a moment later —
+    nobody pays 210 KB just to jump to a song.
+  - **Palette:** builds one Duet index over pages + entities (+ content for songs) and searches it;
+    a song is now findable by a line of its text ("radhika charana renu" → *Rādhikā-caraṇareṇu*),
+    not only its title.
+  - **URL rescuer:** uses the same Duet matcher for its fuzzy pass, over **labels only** (a URL
+    names a thing, it does not quote a line of one), gated by a score floor (1.5) and the same 1.15×
+    ambiguity margin. Pass 1 (case-exact) is unchanged. All 25 resolver precision tests stay green:
+    `/setings`→`/settings`, `/trackz`→`/tracks`, `/pronunciaton`→`/resources/pronunciation`,
+    `/akrodha`→`/songs/N9` resolve; `/xyzzy`, `/jaya jaya`, `/songs/NA9` and `/arati` still 404.
+  - **Still Latin-only:** both indexes carry romanized text only, so a query *typed* in Bengali or
+    Devanagari is still unmatched (title labels and verse lines are IAST). The metathesis case
+    `krishna vimostottra`→*biṁśottara* remains unsolved at rank 1 — Duet does not reach it either
+    (it was the skeleton matcher `jaigopal`'s specialty in the lab). `scoreText`/`textCloseness` in
+    `search.ts` are now unused by the app (only `normalizeSearchText` is, via Duet) but stay as
+    tested utilities.
 - **v4 (web)** — **The palette and the URL rescuer now search the same set.** They shared the
   `scoreText` ranker but not the data: the palette kept its own 12-entry page list while
   `urlResolver` had a shorter 8-route one that was *case-matched only, never fuzzy-matched*. So ⌘K
