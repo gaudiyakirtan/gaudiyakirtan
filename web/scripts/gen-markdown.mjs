@@ -227,19 +227,35 @@ const reciterSongs = {}
 // ...and how many individual takes each has, which is what /tracks actually lists (one row per
 // recording, so a reciter's take count is higher than their song count).
 const reciterTakes = {}
+// artist name -> code (recording uid prefix), so a reciter row can carry its multi-script name.
+const reciterCode = {}
+const reciterNames = fs.existsSync(path.join(ROOT, 'src/data/reciter_names.json'))
+  ? readJson(path.join(ROOT, 'src/data/reciter_names.json'))
+  : {}
+const reciterScriptsFor = (code) => {
+  const rows = reciterNames[code] || []
+  const out = {}
+  for (const r of rows) if (r.script_code && r.script_code !== 'Latn' && r.text) out[r.script_code] = r.text
+  return out
+}
 for (const s of songs) {
   const takes = (s.audio_files || []).map((a) => a.artist).filter(Boolean)
   for (const a of takes) reciterTakes[a] = (reciterTakes[a] || 0) + 1
   for (const a of new Set(takes)) (reciterSongs[a] ||= []).push(s.uid)
+  for (const a of s.audio_files || []) {
+    if (a.artist && a.uid) reciterCode[a.artist] = a.uid.includes('-') ? a.uid.split('-')[0] : a.uid
+  }
 }
 for (const [artist, uids] of Object.entries(reciterSongs)) {
   // Points at /tracks, not /songs: a reciter is a performer, so the useful destination is their
-  // recordings (docs/screens/tracks.md), not the songs those takes happen to belong to.
+  // recordings (docs/screens/tracks.md), not the songs those takes happen to belong to. `scripts`
+  // lets the palette show the performer's name in the reader's listLanguage (like song titles).
   entries.push({
     type: 'reciter',
     label: artist,
     subtitle: `Reciter · ${reciterTakes[artist]} recordings · ${uids.length} songs`,
     href: `/tracks?artist=${encodeURIComponent(artist)}`,
+    scripts: nonEmpty(reciterScriptsFor(reciterCode[artist])),
   })
 }
 fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(entries))

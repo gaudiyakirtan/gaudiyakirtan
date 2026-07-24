@@ -10,6 +10,7 @@ import {
 } from '../services/trackListingView'
 import { useSettings } from '../utils/SettingsContext'
 import { usePlayer } from '../utils/PlayerContext'
+import { pickReciterName } from '../services/reciterNames'
 
 interface ITrackListItemProps {
   row: ITrackRow
@@ -37,7 +38,13 @@ export const TrackListItem: React.FC<ITrackListItemProps> = ({
 
   const title = pickTrackTitle(row.song, settings.listLanguage)
   const author = pickTrackAuthor(row.song, authors, settings.listLanguage)
-  const secondary = showArtist ? (row.track.artist ?? author) : author
+  // The performer's name follows listLanguage too (falling back to the romanized string); the
+  // composing author is used only when a take has no artist.
+  const secondary = showArtist
+    ? row.track.artist != null
+      ? pickReciterName(row.track.uid, settings.listLanguage, row.track.artist)
+      : author
+    : author
 
   // A take's uid is only unique within its song, so identity needs both (see trackRowKey).
   const isCurrent = playing?.uid === row.song.uid && trackUid === row.track.uid
