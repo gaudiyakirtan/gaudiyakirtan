@@ -38,6 +38,13 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
   useEffect(() => {
     setCollapsed(localStorage.getItem("sidebar-collapsed") === "1");
   }, []);
+
+  // Publish the collapse state on <html> so a component that isn't a child of Layout (the song
+  // reader's sticky "Display" control) can shift clear of the floating "Open sidebar" button that
+  // only appears when collapsed — without threading the state through as a prop.
+  useEffect(() => {
+    document.documentElement.dataset.sidebar = collapsed ? "collapsed" : "open";
+  }, [collapsed]);
   const updateCollapsed = (v: boolean) => {
     setCollapsed(v);
     localStorage.setItem("sidebar-collapsed", v ? "1" : "0");

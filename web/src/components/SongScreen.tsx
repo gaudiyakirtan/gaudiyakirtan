@@ -89,7 +89,10 @@ export const SongScreen: React.FC<SongScreenProps> = ({ song, memberships = [] }
           the reader scrolls. `pointer-events-none` on the zero-height box so it never swallows
           clicks meant for the verses behind it; the button itself opts back in.
           On mobile the same control lives in the top bar beside search (see Layout). */}
-      <div className="pointer-events-none sticky top-3 z-30 hidden h-0 md:block">
+      {/* When the sidebar is collapsed a floating "Open sidebar" button appears at the top-left
+          (Layout), and the content slides under it — so shift the Display button right to clear it.
+          The state is published on <html data-sidebar> by Layout. */}
+      <div className="pointer-events-none sticky top-3 z-30 hidden h-0 md:block [html[data-sidebar=collapsed]_&]:md:pl-12">
         <div className="pointer-events-auto w-fit">
           <ReaderOptions />
         </div>
