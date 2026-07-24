@@ -309,9 +309,12 @@ export const PlayerWidget: React.FC = () => {
               exit={{ opacity: 0, y: 10 }}
               transition={{ duration: 0.18 }}
               title={`Play “${armedTitle}”`}
-              /* pb-6/-mb-4: the strip is 16px taller than it looks and the card is pulled up over
+              /* `mx-3` keeps the strip narrower than the card so it reads as a tab tucked behind it;
+                 because the width now lives on the stack (see the parent), the strip is a fixed
+                 width and a long title TRUNCATES here instead of growing the strip past the card.
+                 pb-6/-mb-4: the strip is 16px taller than it looks and the card is pulled up over
                  that slack, hiding its bottom edge + rounding behind the card. */
-              className="relative z-0 flex items-center gap-1.5 -mb-4 rounded-t-2xl border border-b-0 border-[var(--border)] bg-[var(--background-offset)] px-3.5 pb-6 pt-2 text-left text-xs text-[var(--neutral)] shadow-lg transition-colors hover:text-[var(--primary)]"
+              className="relative z-0 mx-3 flex items-center gap-1.5 -mb-4 rounded-t-2xl border border-b-0 border-[var(--border)] bg-[var(--background-offset)] px-3.5 pb-6 pt-2 text-left text-xs text-[var(--neutral)] shadow-lg transition-colors hover:text-[var(--primary)]"
             >
               <Play size={13} className="flex-none text-[var(--highlight)]" />
               <span className="min-w-0 truncate">
