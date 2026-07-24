@@ -92,6 +92,32 @@ the noisy full query is the semantic tier's job. Keep tier-1 conservative (preci
 
 ## Change log
 
+- **v6 (web)** — **Search now works in any supported script — by transliterating the query, not by
+  indexing every script.** The index stays Latin (IAST); a query typed in Bengali, Devanagari,
+  Telugu, Kannada, Malayalam, Gujarati, Oriya or Tamil is romanized to IAST on the fly and matched
+  against the one Latin Duet index. This is ~a tenth the payload of shipping a per-script index
+  (~900 KB each) and works in *both* directions the multi-script fix needed to: a reader typing
+  their own script finds the song, without the corpus carrying nine extra copies of every line.
+  - **Maps** are generated at build time from **aksharamukha** (the same engine that romanized the
+    corpus, so a runtime romanization lines up with the indexed text by construction) by
+    `pipeline/build_translit_maps.py` → `web/src/data/translit-maps.json` (8 KB, ~2 KB gzipped,
+    bundled — the transliterator must run synchronously per keystroke, so it can't be a lazy fetch).
+    The map carries only the alphabet: per script, each vowel, each **bare** consonant, the vowel
+    each dependent sign (matra) stands for, the virama, and the anusvara/visarga/candrabindu marks.
+  - **Assembler** (`services/translit.ts`, ~40 lines) applies the abugida rules the map omits: a
+    consonant carries an inherent `a`; a following matra replaces it; a virama drops it (which is
+    also how conjuncts fall out — क्ष walks to `k` + (virama: no vowel) + `ṣ` + `a` = `kṣa`). It
+    detects the script from the first strong character and is a **no-op for Latin**, so it is safe
+    and cheap on every query. Wired once inside `searchDuet`, so the palette and the URL rescuer
+    both get it.
+  - **Measured** on the corpus's own native titles run back through the actual assembler + Duet:
+    **100% R@1** for Bengali, Devanagari, Telugu, Kannada, Malayalam, Gujarati and Oriya; **99.1%**
+    for Tamil (its overloaded consonants carry aksharamukha's superscript-digit disambiguation,
+    which mostly still matches). Content-line queries in native script work too. Retrieval is this
+    high because Duet is fuzzy and its normalizer strips diacritics, so small romanization
+    differences wash out. **Not covered:** Cyrillic (the corpus's Russian-transliteration rendering
+    is alphabetic, not Brahmic — a separate small map, deferred), and typing in a script's *native
+    digits* for a uid.
 - **v5 (web)** — **Duet is now the matcher for both the palette and the URL rescuer, and verse
   content is searchable.** The tiered `scoreText` ranker is replaced by **Duet** (`services/duet.ts`),
   the joint-objective winner from the `search-lab/` benchmark: `min(R@1 title, R@1 content) = 86.6%`
