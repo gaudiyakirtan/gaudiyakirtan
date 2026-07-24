@@ -16,6 +16,7 @@
 // 20 queries spanning titles, content, and semantic phrases). The constants in DUET_PARAMS were
 // tuned against 731 real+synthetic queries; treat them as a unit, not as knobs to nudge.
 import { normalizeSearchText } from './search'
+import { romanizeQuery } from './translit'
 
 /** A searchable entity. `title` holds its label texts; `content` holds Latin verse lines (songs only). */
 export interface IDuetDoc {
@@ -373,6 +374,8 @@ export function buildDuet(docs: IDuetDoc[]): IDuetState {
 /** Ranked refs for a query. Sub-millisecond after build. */
 export function searchDuet(state: IDuetState, query: string, limit = 20): IDuetResult[] {
   const { P, title, phon, titles, refs, line, bufT, bufP, bufL, tokenDf } = state
+  // Romanize a native-script query to IAST so it matches the Latin index; a no-op for Latin input.
+  query = romanizeQuery(query)
   const qn = baseline(query)
   const grams = [...new Set(ngrams(qn))]
   if (!grams.length) return []
