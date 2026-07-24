@@ -121,9 +121,10 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
     if (!q) return []
     return searchDuet(index, q, 40)
       .filter((r) => r.score >= SCORE_FLOOR)
-      .map((r) => ({ e: all[r.ref], s: r.score }))
+      // `line` is set when the CONTENT path won — the song matched on its verse text, not its title.
+      .map((r) => ({ e: all[r.ref], s: r.score, line: r.line }))
       .sort((a, b) => b.s - a.s || TYPE_RANK[b.e.type] - TYPE_RANK[a.e.type] || a.e.label.localeCompare(b.e.label))
-      .map((x) => x.e)
+      .map((x) => ({ e: x.e, line: x.line }))
   }, [index, all, query])
 
   useEffect(() => setSelected(0), [query])
@@ -138,7 +139,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
     if (!results.length) return
     if (e.key === 'ArrowDown') { e.preventDefault(); setSelected((s) => Math.min(s + 1, results.length - 1)) }
     else if (e.key === 'ArrowUp') { e.preventDefault(); setSelected((s) => Math.max(s - 1, 0)) }
-    else if (e.key === 'Enter') { e.preventDefault(); const p = results[selected]; if (p) go(p.href) }
+    else if (e.key === 'Enter') { e.preventDefault(); const p = results[selected]; if (p) go(p.e.href) }
   }
 
   useEffect(() => {
@@ -180,7 +181,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
           ) : results.length === 0 ? (
             <p className="px-3 py-10 text-center text-sm text-[var(--neutral)]">No matches for “{query.trim()}”.</p>
           ) : (
-            results.map((e, i) => (
+            results.map(({ e, line }, i) => (
               <button
                 key={`${e.type}-${e.href}-${i}`}
                 type="button"
@@ -196,9 +197,17 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
                 </span>
                 <span className="min-w-0 flex-1">
                   <span className="block truncate text-sm text-[var(--primary)]">{e.label}</span>
-                  {e.subtitle && <span className="block truncate text-xs text-[var(--neutral)]">{e.subtitle}</span>}
+                  {/* A content match shows the matched verse line (italic, quoted) instead of the
+                      author, so it reads as "found in the text" rather than a title/author hit. */}
+                  {line ? (
+                    <span className="block truncate text-xs italic text-[var(--neutral)]">“{line}”</span>
+                  ) : e.subtitle ? (
+                    <span className="block truncate text-xs text-[var(--neutral)]">{e.subtitle}</span>
+                  ) : null}
                 </span>
-                <span className="flex-none text-[10px] font-medium uppercase tracking-wide text-[var(--neutral)]/70">{e.type}</span>
+                <span className="flex-none text-[10px] font-medium uppercase tracking-wide text-[var(--neutral)]/70">
+                  {line ? 'in text' : e.type}
+                </span>
               </button>
             ))
           )}

@@ -27,6 +27,9 @@ export interface IDuetDoc {
 export interface IDuetResult {
   ref: number
   score: number
+  /** The verse line that won this result, present only when the CONTENT path beat the title path —
+   *  i.e. the doc matched on its text, not its title. Lets a caller show why it surfaced. */
+  line?: string
 }
 
 // ----------------------------------------------------------------------------- normalizers
@@ -292,6 +295,8 @@ interface ILineIndex {
   n: number
   norm: Float64Array
   lines: ITextEntry[]
+  /** Original (un-normalized) line text, parallel to `lines` — for showing a content match. */
+  raw: string[]
   song: Int32Array
 }
 
@@ -321,8 +326,10 @@ export function buildDuet(docs: IDuetDoc[]): IDuetState {
       return { n, tk, tkSorted: tk.map(sortChars), tkSet: new Set(tk) }
     }))
 
-  // Content: one document per LINE. `song` maps a line back to its owning doc.
+  // Content: one document per LINE. `song` maps a line back to its owning doc; `rawLines` keeps the
+  // original text so a content match can be shown as the line the reader actually matched.
   const lines: ITextEntry[] = []
+  const rawLines: string[] = []
   const lineSong: number[] = []
   docs.forEach((d, si) => {
     for (const text of d.content) {
@@ -330,6 +337,7 @@ export function buildDuet(docs: IDuetDoc[]): IDuetState {
       if (!n) continue
       const tk = tokenize(n)
       lines.push({ n, tk, tkSorted: tk.map(sortChars), tkSet: new Set(tk) })
+      rawLines.push(text)
       lineSong.push(si)
     }
   })
@@ -354,7 +362,7 @@ export function buildDuet(docs: IDuetDoc[]): IDuetState {
 
   return {
     tokenDf, P, title, phon, titles, refs: docs.map((d) => d.ref),
-    line: { postings, n: nLines, norm: lineNorm, lines, song: Int32Array.from(lineSong) },
+    line: { postings, n: nLines, norm: lineNorm, lines, raw: rawLines, song: Int32Array.from(lineSong) },
     bufT: new Float64Array(docs.length),
     bufP: new Float64Array(docs.length),
     bufL: new Float64Array(nLines),
@@ -493,21 +501,22 @@ export function searchDuet(state: IDuetState, query: string, limit = 20): IDuetR
   }
   const kL = lCand.length
 
-  // --- fuse: a doc scores by its best path.
-  const fused = new Map<number, number>()
+  // --- fuse: a doc scores by its best path. `line` is set only when the content path is that best,
+  // so the caller can tell a text match from a title match.
+  const fused = new Map<number, { score: number; line?: string }>()
   for (const c of tCand) {
     const prev = fused.get(c.i)
-    if (prev === undefined || c.score > prev) fused.set(c.i, c.score)
+    if (prev === undefined || c.score > prev.score) fused.set(c.i, { score: c.score })
   }
   for (let r = 0; r < kL; r++) {
     const c = lCand[r]
     const si = line.song[c.i]
     const s = c.score * P.wContent
     const prev = fused.get(si)
-    if (prev === undefined || s > prev) fused.set(si, s)
+    if (prev === undefined || s > prev.score) fused.set(si, { score: s, line: line.raw[c.i] })
   }
   return [...fused.entries()]
-    .sort((a, b) => b[1] - a[1])
+    .sort((a, b) => b[1].score - a[1].score)
     .slice(0, limit)
-    .map(([i, score]) => ({ ref: refs[i], score }))
+    .map(([i, v]) => ({ ref: refs[i], score: v.score, line: v.line }))
 }
