@@ -53,6 +53,17 @@ const groups = fs.existsSync(GROUPS_FILE) ? readJson(GROUPS_FILE) : []
 const romanTitle = (s) => pick(s.title_main, ['Latn', 'Beng']) || s.uid
 const romanAuthor = (s) => pick(s.author_display, ['Latn', 'Beng']) || s.author_uid || ''
 
+// All non-Latin renderings of a title/name, keyed by script code: { Beng: "…", Deva: "…", … }.
+// The palette carries these so a result can display in the reader's `listLanguage` script instead of
+// always romanized — Latn is omitted because the entry's `label` already IS the Latn text, and it is
+// the fallback when the reader's script has no rendering (docs/screens/search.md v7).
+const scriptsMap = (entries) => {
+  const out = {}
+  for (const e of entries || []) if (e.script_code && e.script_code !== 'Latn' && e.text) out[e.script_code] = e.text
+  return out
+}
+const nonEmpty = (obj) => (Object.keys(obj).length ? obj : undefined)
+
 // ---- per-song markdown ----
 let songCount = 0
 for (const s of songs) {
@@ -175,25 +186,33 @@ fs.writeFileSync(path.join(OUT, 'search-listings.json'), JSON.stringify(searchLi
 // hardcoded in the modal (they carry icons); everything data-derived is emitted here.
 const entries = []
 for (const s of songs) {
-  // `code` lets a user jump to a song by typing its uid (e.g. "A10").
-  entries.push({ type: 'song', label: romanTitle(s), subtitle: romanAuthor(s), href: `/songs/${s.uid}`, code: s.uid })
+  // `code` lets a user jump to a song by typing its uid (e.g. "A10"). `scripts`/`authorScripts` let
+  // the palette render the title + author in the reader's listLanguage, not only romanized.
+  entries.push({
+    type: 'song', label: romanTitle(s), subtitle: romanAuthor(s), href: `/songs/${s.uid}`, code: s.uid,
+    scripts: nonEmpty(scriptsMap(s.title_main)),
+    authorScripts: nonEmpty(scriptsMap(s.author_display)),
+  })
 }
 for (const g of groups.filter((x) => x.kind === 'book')) {
-  entries.push({ type: 'book', label: groupTitle(g), subtitle: `Book · ${(g.song_uids || []).length} songs`, href: `/books/${g.uid}` })
+  entries.push({ type: 'book', label: groupTitle(g), subtitle: `Book · ${(g.song_uids || []).length} songs`, href: `/books/${g.uid}`, scripts: nonEmpty(scriptsMap(g.titles)) })
 }
 for (const g of groups.filter((x) => x.kind === 'topic')) {
-  entries.push({ type: 'topic', label: groupTitle(g), subtitle: `Topic · ${(g.song_uids || []).length} songs`, href: `/topics/${g.uid}` })
+  entries.push({ type: 'topic', label: groupTitle(g), subtitle: `Topic · ${(g.song_uids || []).length} songs`, href: `/topics/${g.uid}`, scripts: nonEmpty(scriptsMap(g.titles)) })
 }
 // authors (with their uid, for the author-filtered list)
 const authorByUid = new Map()
 for (const s of songs) {
   const uid = s.author_uid || '?'
-  const cur = authorByUid.get(uid) || { name: romanAuthor(s), count: 0 }
+  const cur = authorByUid.get(uid) || { name: romanAuthor(s), count: 0, display: s.author_display }
   cur.count++
   authorByUid.set(uid, cur)
 }
 for (const [uid, a] of authorByUid) {
-  entries.push({ type: 'author', label: a.name, subtitle: `Author · ${a.count} songs`, href: `/songs?author=${encodeURIComponent(uid)}` })
+  entries.push({
+    type: 'author', label: a.name, subtitle: `Author · ${a.count} songs`,
+    href: `/songs?author=${encodeURIComponent(uid)}`, scripts: nonEmpty(scriptsMap(a.display)),
+  })
 }
 // tags -> song uids (for the ?tag filter on the songs list)
 const tagSongs = {}

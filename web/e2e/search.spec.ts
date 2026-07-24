@@ -67,6 +67,19 @@ test('a Devanagari query finds its song', async ({ page }) => {
   await expect(rows(page).first()).toContainText('jaya jaya gurudeba')
 })
 
+test('results render in the reader\'s listLanguage script, not always romanized', async ({ page }) => {
+  // Reader has Bengali selected — the merge with defaults means a partial stored setting is enough.
+  await page.addInitScript(() => localStorage.setItem('gk-settings', JSON.stringify({ listLanguage: 'Beng' })))
+  await page.goto('/')
+  await searchButton(page).waitFor({ state: 'visible' })
+  await page.keyboard.press('ControlOrMeta+k')
+  await expect(input(page)).toBeVisible()
+  await input(page).fill('akrodah') // matches on the romanized label, but the title must DISPLAY in Bengali
+  const title = rows(page).first().locator('.text-sm').first()
+  await expect(title).toHaveText(/[ঀ-৿]/) // a Bengali-block character
+  await expect(title).not.toHaveText(/akrodha/i) // not the romanized label
+})
+
 test('the 404 page rescues a misspelled path client-side', async ({ page }) => {
   await page.goto('/setings')
   await page.waitForURL('**/settings', { timeout: 5000 })

@@ -6,6 +6,7 @@ import {
 } from 'lucide-react'
 import { buildDuet, searchDuet, type IDuetDoc } from '../services/duet'
 import { NAV_ENTRIES } from '../services/urlResolver'
+import { useSettings } from '../utils/SettingsContext'
 
 interface SearchModalProps {
   open: boolean
@@ -20,6 +21,11 @@ interface Entry {
   href: string
   /** Song uid, so typing a code (e.g. "A10") jumps to the song. */
   code?: string
+  /** Title renderings by script code (non-Latin), so a row can display in the reader's listLanguage
+   *  rather than always romanized. Latn is `label`; a missing script falls back to it. */
+  scripts?: Record<string, string>
+  /** A song's author-name renderings by script code, so the author line follows listLanguage too. */
+  authorScripts?: Record<string, string>
   icon?: React.ReactNode
 }
 
@@ -68,6 +74,12 @@ const SCORE_FLOOR = 0.35
 
 export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
   const router = useRouter()
+  const { settings } = useSettings()
+  // Display in the reader's chosen script, falling back to the romanized label — matching still runs
+  // on the Latin label + a romanized query, so only what the reader SEES changes with listLanguage.
+  const displayTitle = (e: Entry) => e.scripts?.[settings.listLanguage] ?? e.label
+  const displayAuthor = (e: Entry) =>
+    e.type === 'song' ? e.authorScripts?.[settings.listLanguage] ?? e.subtitle : e.subtitle
   const [entities, setEntities] = useState<Entry[] | null>(null)
   const [content, setContent] = useState<Record<string, string[]> | null>(null)
   const [query, setQuery] = useState('')
@@ -196,13 +208,14 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
                   {e.icon ?? TYPE_ICON[e.type]}
                 </span>
                 <span className="min-w-0 flex-1">
-                  <span className="block truncate text-sm text-[var(--primary)]">{e.label}</span>
+                  <span className="block truncate text-sm text-[var(--primary)]">{displayTitle(e)}</span>
                   {/* A content match shows the matched verse line (italic, quoted) instead of the
-                      author, so it reads as "found in the text" rather than a title/author hit. */}
+                      author, so it reads as "found in the text" rather than a title/author hit;
+                      otherwise the author/subtitle, in the reader's script. */}
                   {line ? (
                     <span className="block truncate text-xs italic text-[var(--neutral)]">“{line}”</span>
-                  ) : e.subtitle ? (
-                    <span className="block truncate text-xs text-[var(--neutral)]">{e.subtitle}</span>
+                  ) : displayAuthor(e) ? (
+                    <span className="block truncate text-xs text-[var(--neutral)]">{displayAuthor(e)}</span>
                   ) : null}
                 </span>
                 <span className="flex-none text-[10px] font-medium uppercase tracking-wide text-[var(--neutral)]/70">
