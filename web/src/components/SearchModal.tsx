@@ -4,7 +4,7 @@ import {
   Search, CornerDownLeft, Home, Music, User, Hash, BookOpen, Settings, Info, Mail,
   AudioLines, Type, Volume2, Tag as TagIcon, FileText, Mic2, ListMusic,
 } from 'lucide-react'
-import { scoreText } from '../services/search'
+import { buildDuet, searchDuet, type IDuetDoc } from '../services/duet'
 import { NAV_ENTRIES } from '../services/urlResolver'
 
 interface SearchModalProps {
@@ -59,9 +59,17 @@ const TYPE_RANK: Record<EntryType, number> = { page: 7, book: 6, topic: 5, autho
  * books, topics, authors, and tags — each ranked by the shared offline fuzzy matcher and shown with
  * a type icon. Data entities are fetched once from /search-index.json (emitted at build).
  */
+/**
+ * Below this Duet score a hit is a lone shared trigram, not a match worth showing. Duet only ever
+ * returns docs that shared at least one gram, so this trims that long noisy tail; a real title or
+ * content match clears it comfortably (a reranked title match scores in the low single digits).
+ */
+const SCORE_FLOOR = 0.35
+
 export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
   const router = useRouter()
   const [entities, setEntities] = useState<Entry[] | null>(null)
+  const [content, setContent] = useState<Record<string, string[]> | null>(null)
   const [query, setQuery] = useState('')
   const [selected, setSelected] = useState(0)
   const inputRef = useRef<HTMLInputElement>(null)
@@ -75,6 +83,17 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
       .catch(() => setEntities([]))
   }, [open, entities])
 
+  // Verse text is ~210 KB gzipped, so it loads SEPARATELY and in the background on first open —
+  // title/entity search is live immediately off the 22 KB index, and content search lights up a
+  // moment later when this lands (docs/screens/search.md v5). Nobody pays for it just to jump to a song.
+  useEffect(() => {
+    if (!open || content) return
+    fetch('/search-content.json')
+      .then((r) => r.json())
+      .then((data: Record<string, string[]>) => setContent(data))
+      .catch(() => setContent({}))
+  }, [open, content])
+
   // Clear the query whenever the palette opens or closes, so it always starts fresh.
   useEffect(() => {
     setQuery('')
@@ -84,18 +103,28 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
 
   const all = useMemo(() => [...PAGES, ...(entities ?? [])], [entities])
 
+  // Build the Duet index once per data change (not per keystroke). It rebuilds when the content
+  // index arrives, upgrading title-only search into title+content in place.
+  const index = useMemo(() => {
+    const docs: IDuetDoc[] = all.map((e, ref) => ({
+      ref,
+      // A song's author (subtitle) and uid (code) are searchable title text; other entities carry
+      // only their label (their subtitle is a count like "Book · 8 songs", not something to match).
+      title: e.type === 'song' ? [e.label, e.subtitle ?? '', e.code ?? ''].filter(Boolean) : [e.label],
+      content: e.type === 'song' && e.code ? content?.[e.code] ?? [] : [],
+    }))
+    return buildDuet(docs)
+  }, [all, content])
+
   const results = useMemo(() => {
     const q = query.trim()
     if (!q) return []
-    const scored: { e: Entry; s: number }[] = []
-    for (const e of all) {
-      // Songs also match on their author (subtitle) and their code/uid ("A10").
-      const s = e.type === 'song' ? scoreText(q, e.label, e.subtitle ?? '', e.code ?? '') : scoreText(q, e.label)
-      if (s >= 5) scored.push({ e, s })
-    }
-    scored.sort((a, b) => b.s - a.s || TYPE_RANK[b.e.type] - TYPE_RANK[a.e.type] || a.e.label.localeCompare(b.e.label))
-    return scored.slice(0, 40).map((x) => x.e)
-  }, [all, query])
+    return searchDuet(index, q, 40)
+      .filter((r) => r.score >= SCORE_FLOOR)
+      .map((r) => ({ e: all[r.ref], s: r.score }))
+      .sort((a, b) => b.s - a.s || TYPE_RANK[b.e.type] - TYPE_RANK[a.e.type] || a.e.label.localeCompare(b.e.label))
+      .map((x) => x.e)
+  }, [index, all, query])
 
   useEffect(() => setSelected(0), [query])
 

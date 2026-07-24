@@ -226,6 +226,23 @@ fs.writeFileSync(path.join(OUT, 'search-index.json'), JSON.stringify(entries))
 fs.writeFileSync(path.join(OUT, 'tag-index.json'), JSON.stringify(tagSongs))
 fs.writeFileSync(path.join(OUT, 'artist-index.json'), JSON.stringify(reciterSongs))
 
+// ---- content index (romanized verse lines, for Duet content search) -------------------------
+// Every song's IAST reading lines, keyed by uid: { "N9": ["akrodha paramānanda…", …] }. The command
+// palette and the 404 URL rescuer lazy-load this so a song can be found by a line of its text, not
+// only its title (docs/screens/search.md v5). Latn `display_scripts` only — the same field the .md
+// twins use, which is already free of the pipeline's [FLAG_HYPHEN_ALPHA] sentinel that
+// `source_text_master` carries. ~350 KB gzipped, so it is a SEPARATE file, fetched on demand rather
+// than folded into the 22 KB search-index everyone pays for on first ⌘K.
+const contentIndex = {}
+for (const s of songs) {
+  const lines = (s.verses || [])
+    .flatMap(romanLines)
+    .map((l) => String(l).trim())
+    .filter(Boolean)
+  if (lines.length) contentIndex[s.uid] = lines
+}
+fs.writeFileSync(path.join(OUT, 'search-content.json'), JSON.stringify(contentIndex))
+
 // ---- sitemap.xml ----------------------------------------------------------------------------
 // Every indexable route, so search engines can discover all 700+ song pages (they are only
 // reachable by crawling otherwise). Mirrors config.SITE_URL: canonical is the PRODUCTION apex, not

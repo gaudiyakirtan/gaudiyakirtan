@@ -5,7 +5,7 @@
 // Why this exists: song uids are case-sensitive in the route (/songs/N9 is a page, /songs/n9 is
 // not), and links get retyped by hand, lowercased by chat clients, and shortened to a bare
 // /akrodha in conversation. Every one of those is a reader who knows exactly what they want.
-import { scoreText, textCloseness } from './search'
+import { buildDuet, searchDuet, type IDuetDoc } from './duet'
 
 export type ISearchEntryType = 'page' | 'song' | 'book' | 'topic' | 'author' | 'tag' | 'reciter'
 
@@ -61,34 +61,24 @@ const COLLECTION_SCOPES: Record<string, ISearchEntryType> = {
 }
 
 /**
- * Minimum fuzzy score to redirect. The shared ranker (search.ts) scores a whole-string prefix
- * match at 80 and a substring match at 60, while its own "worth showing in a list" floor is 5 -
- * far too loose to *navigate* on. 60 is deliberately set at the substring tier: it means the typed
- * path is literally contained in the target's name ("akrodha" ⊂ "akrodha paramananda"), rather
- * than merely sharing tokens with it. A wrong redirect is worse than a 404 - the reader loses the
- * evidence of what they actually asked for - so anything softer than "your text is in this title"
- * falls through to the 404 content instead.
+ * Minimum Duet score to redirect on. Duet's title path scores a reranked confident match in the low
+ * single digits (a gram term near 1 plus wTitleRerank × rerank ≈ 3), while a lone shared trigram
+ * scores a fraction of that. This floor sits above the noise: it means "your text really is (most
+ * of) this title", not "you happen to share a few characters with it". A wrong redirect is worse
+ * than a 404 — the reader loses the evidence of what they actually asked for — so a weak match falls
+ * through to the 404 content instead. Duet is what the command palette uses, so both search paths
+ * now agree on what a match is; only the acceptance bar differs (a list can afford noise; a
+ * redirect cannot).
  */
-const FUZZY_MIN_SCORE = 60
+const DUET_MIN_SCORE = 1.5
 
 /**
- * The winner must also beat the runner-up by this factor. Two candidates scoring 80 and 79 means
- * the path is ambiguous (e.g. a word shared by several songs), and picking one of them is a coin
- * flip performed on the reader's behalf. Better to show the 404 and let them search.
+ * The winner must also beat the runner-up by this factor. Two candidates within 15% of each other
+ * (e.g. śrīgaura-ārati / śrīyugala-ārati both matched by "/arati") means the path is ambiguous, and
+ * picking one of them is a coin flip performed on the reader's behalf. Show the 404 and let them
+ * search instead.
  */
-const FUZZY_MIN_MARGIN = 1.15
-
-/**
- * A hand-retyped path is at least as likely to be *misspelled* as truncated, but every tier
- * `scoreText` is confident about (exact/prefix/substring) requires the query to be literally
- * contained in the target — which a typo never is. So `/setings` scored 30.5 and fell through to
- * the 404 even though it is one dropped character from `/settings`.
- *
- * A near-miss this close is promoted to the substring tier and then judged by exactly the same
- * threshold and ambiguity margin as everything else. 0.8 admits one edit in a five-character name
- * and two in a ten-character one, while "songs"/"books" (0.4 similar) stay comfortably apart.
- */
-const TYPO_MIN_SIMILARITY = 0.8
+const DUET_MIN_MARGIN = 1.15
 
 /** Percent-decode one path segment, tolerating the malformed escapes that hand-typed URLs carry. */
 function decodeSegment(segment: string): string {
@@ -156,35 +146,17 @@ export function resolvePath(pathname: string, entries: ISearchEntry[]): IResolve
     return href === pathname ? null : { href, via: 'case' }
   }
 
-  // Pass 2 - fuzzy, and only when the answer is not in doubt. Songs are also scored against their
-  // uid so a near-miss code has a chance of finding its song. The label is the only other signal
-  // used: an entry's subtitle is an author or a count, and a URL names a thing rather than
-  // filtering by one, so matching on it would mostly manufacture ties.
-  let bestHref = ''
-  let bestScore = 0
-  let runnerUpScore = 0
-  for (const entry of candidates) {
-    if (entry.href === pathname) continue
-    const ranked = entry.code
-      ? Math.max(scoreText(term, entry.label), scoreText(term, entry.code))
-      : scoreText(term, entry.label)
-    // A close-enough misspelling counts as at least a substring match (see TYPO_MIN_SIMILARITY),
-    // so it clears the floor and is then held to the same ambiguity margin as any other candidate.
-    const typo = Math.max(
-      textCloseness(term, entry.label),
-      entry.code ? textCloseness(term, entry.code) : 0
-    )
-    const score = Math.max(ranked, typo >= TYPO_MIN_SIMILARITY ? FUZZY_MIN_SCORE : 0)
-    if (score > bestScore) {
-      runnerUpScore = bestScore
-      bestScore = score
-      bestHref = entry.href
-    } else if (score > runnerUpScore) {
-      runnerUpScore = score
-    }
-  }
-
-  if (!bestHref || bestScore < FUZZY_MIN_SCORE) return null
-  if (bestScore < runnerUpScore * FUZZY_MIN_MARGIN) return null
-  return { href: bestHref, via: 'fuzzy' }
+  // Pass 2 - fuzzy, and only when the answer is not in doubt. The same Duet matcher the command
+  // palette uses (services/duet.ts) ranks the candidates, so both search paths agree on relevance.
+  // Only the LABEL is indexed here, never verse content: a URL names a thing, it does not quote a
+  // line of one, and letting a path match a verse would manufacture wrong redirects. Codes are
+  // handled exactly by pass 1 above; a near-miss code ("NA9", one edit from both N9 and A9) is left
+  // to 404 rather than trigram-guessed onto whichever song happens to share more characters.
+  const docs: IDuetDoc[] = candidates.map((entry, ref) => ({ ref, title: [entry.label], content: [] }))
+  const ranked = searchDuet(buildDuet(docs), term, 5).filter((r) => candidates[r.ref].href !== pathname)
+  const best = ranked[0]
+  const runnerUp = ranked[1]
+  if (!best || best.score < DUET_MIN_SCORE) return null
+  if (runnerUp && best.score < runnerUp.score * DUET_MIN_MARGIN) return null
+  return { href: candidates[best.ref].href, via: 'fuzzy' }
 }
