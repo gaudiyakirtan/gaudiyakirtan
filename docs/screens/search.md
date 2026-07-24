@@ -92,6 +92,23 @@ the noisy full query is the semantic tier's job. Keep tier-1 conservative (preci
 
 ## Change log
 
+- **v8 (web)** — **Reciter names in the palette now follow `listLanguage` too, and the author
+  renderings are de-duplicated.** Two follow-ups to v7:
+  - **Reciters were the last romanized-only entity.** Their names (`audio_files[].artist`) are
+    Gauḍīya devotional names, so they transliterate like a title — but the corpus stores them as a
+    single romanized string. `pipeline/build_reciter_scripts.py` supplies a hand-authored IAST per
+    performer and transliterates it to every Indic script with aksharamukha, **keeping non-Sanskrit
+    tokens Latin** (sannyāsī initialisms `BV`/`BP`/`BR`, place qualifiers `(Bay Area)`/`(Florida)`/
+    `(UK)`, `&`), into `src/data/reciter_names.json` keyed by artist code (the recording-uid
+    prefix). `gen-markdown` attaches those `scripts` to each reciter entry (by code), and
+    `services/reciterNames.ts` serves them to the tracks list as well. So a Bengali reader now sees
+    `শ্রীল BV স্বামী প্রভুপাদ`, `রসিক দাসী`, `রাধিকা দাসী (Bay Area)`.
+  - **`authorScripts` de-duplicated.** v7 copied each author's per-script names onto every one of
+    their song rows (82 authors across 702 songs). Song entries now drop `authorScripts`; the palette
+    builds an author-name → scripts map from the `author` entries (which already carry them) and
+    looks a song's author up by its shared romanized name. Index raw 1.06 MB → 673 KB; gz 184 → 155
+    KB (155 KB is dominated by the title `scripts`, not the authors). Matching and display are
+    unchanged.
 - **v7 (web)** — **Palette results now render in the reader's `listLanguage`, not always romanized.**
   The palette was the one title-showing surface that ignored the display-script setting (the song
   list, cards, detail, groups, home and mini-player all honor it via `pickScriptText` /

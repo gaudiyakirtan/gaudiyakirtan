@@ -47,7 +47,13 @@ Two different people, deliberately kept distinct everywhere:
 - **Reciter filter** — a select listing every artist with their take count, from
   `artistsOf(rows)` (sorted by count desc). Selecting one pushes `/tracks?artist=<name>`.
 - **Rows** — `TrackListItem`: title in the reader's `listLanguage`, plus a secondary line that is
-  the **take's artist** (falling back to the composing author when the take has none).
+  the **take's artist** (falling back to the composing author when the take has none). The artist
+  name follows `listLanguage` too: reciter names are romanized-only in the corpus, so their
+  multi-script renderings come from `src/data/reciter_names.json` (built by
+  `pipeline/build_reciter_scripts.py` — hand-authored IAST transliterated to every script, with
+  sannyāsī initialisms and English place qualifiers kept Latin) and are joined by artist code via
+  `services/reciterNames.ts`. 16 performers whose name had been lost to their bare code (`rasi`,
+  `taru`, …) were also restored from the previous app's data by `pipeline/fix_reciter_names.py`.
 - **A–Z index** — from `sectionLetterForTrack`, derived from the fixed **Latin** title so the index
   never reshuffles when `listLanguage` changes (mirrors `songListingView.sectionLetterFor`).
 
