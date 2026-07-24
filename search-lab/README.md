@@ -458,6 +458,37 @@ with max aggregation, field-appropriate matchers (character grams + edit distanc
 titles, idf-weighted tokens for spellable content words), one comparable score scale so neither
 field can drown the other, and a title early-exit gated on *absolute* coverage.
 
+## Incremental romanization — is it worth it?
+
+`node bench-romanize.mjs`
+
+The web app romanizes a native-script query to IAST on every keystroke by re-romanizing the **whole**
+string (`web/src/services/translit.ts`), which is O(n²) over a typed query. Would an **incremental**
+romanizer — keep the resolved prefix, touch only the trailing consonant, O(n) — be worth the added
+state and cache-invalidation? The catch is that naive "romanize the new char and append" is *wrong*:
+a consonant's inherent `a` is provisional until its next character arrives (a matra replaces it, a
+virama deletes it), so `রাধিক`→`rādhika` but `রাধিকা`→`rādhikā`.
+
+The benchmark first proves the incremental romanizer is byte-identical to the full one at **every
+prefix** (38,991 checked, 0 mismatches), then times typing a query out keystroke by keystroke:
+
+| query length | full O(n²) | incr O(n) | speedup | full type-out vs **one Duet search** |
+|---|---|---|---|---|
+| 8 | 3.3 µs | 0.7 µs | 5× | 0.35% |
+| 24 | 24 µs | 1.9 µs | 13× | 2.5% |
+| 40 | 64 µs | 3.0 µs | 21× | 6.7% |
+| 80 | 231 µs | 6.2 µs | 37× | 24% |
+| 120 | 526 µs | 9.9 µs | 53× | 55% |
+
+**Verdict.** In raw romanize time, incremental wins from length **2** onward and the lead grows to
+50×+. But it only *matters* measured against the ~950 µs Duet search that runs on the same keystroke:
+across a whole title-length type-out (≤~30 chars) the full romanizer is **under 3%** of a *single*
+search, and per keystroke far less — not worth the complexity. It only becomes worthwhile past
+~**40–60 characters** (pasting a whole verse line), where the O(n²) tail reaches a real fraction of a
+search. So: keep the full romanizer for the title/short-query case it ships for; reach for
+incremental only if long content-phrase queries become common. The lever for per-keystroke cost is
+the search itself (debounce / memoize / worker), not the 2 µs romanize.
+
 ## Layout
 
 ```
