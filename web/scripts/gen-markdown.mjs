@@ -186,12 +186,13 @@ fs.writeFileSync(path.join(OUT, 'search-listings.json'), JSON.stringify(searchLi
 // hardcoded in the modal (they carry icons); everything data-derived is emitted here.
 const entries = []
 for (const s of songs) {
-  // `code` lets a user jump to a song by typing its uid (e.g. "A10"). `scripts`/`authorScripts` let
-  // the palette render the title + author in the reader's listLanguage, not only romanized.
+  // `code` lets a user jump to a song by typing its uid (e.g. "A10"). `scripts` lets the palette
+  // render the title in the reader's listLanguage. The author's script renderings are NOT repeated
+  // here — 82 authors would be copied across 702 rows (~160 KB) — the palette looks them up from the
+  // `author` entries (which already carry `scripts`) by the shared romanized name.
   entries.push({
     type: 'song', label: romanTitle(s), subtitle: romanAuthor(s), href: `/songs/${s.uid}`, code: s.uid,
     scripts: nonEmpty(scriptsMap(s.title_main)),
-    authorScripts: nonEmpty(scriptsMap(s.author_display)),
   })
 }
 for (const g of groups.filter((x) => x.kind === 'book')) {

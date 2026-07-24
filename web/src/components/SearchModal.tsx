@@ -21,11 +21,10 @@ interface Entry {
   href: string
   /** Song uid, so typing a code (e.g. "A10") jumps to the song. */
   code?: string
-  /** Title renderings by script code (non-Latin), so a row can display in the reader's listLanguage
-   *  rather than always romanized. Latn is `label`; a missing script falls back to it. */
+  /** Title (or author name, on `author` rows) renderings by script code, non-Latin, so a row can
+   *  display in the reader's listLanguage rather than always romanized. Latn is `label`; a missing
+   *  script falls back to it. A song's author renderings are looked up from its `author` entry. */
   scripts?: Record<string, string>
-  /** A song's author-name renderings by script code, so the author line follows listLanguage too. */
-  authorScripts?: Record<string, string>
   icon?: React.ReactNode
 }
 
@@ -75,11 +74,6 @@ const SCORE_FLOOR = 0.35
 export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
   const router = useRouter()
   const { settings } = useSettings()
-  // Display in the reader's chosen script, falling back to the romanized label — matching still runs
-  // on the Latin label + a romanized query, so only what the reader SEES changes with listLanguage.
-  const displayTitle = (e: Entry) => e.scripts?.[settings.listLanguage] ?? e.label
-  const displayAuthor = (e: Entry) =>
-    e.type === 'song' ? e.authorScripts?.[settings.listLanguage] ?? e.subtitle : e.subtitle
   const [entities, setEntities] = useState<Entry[] | null>(null)
   const [content, setContent] = useState<Record<string, string[]> | null>(null)
   const [query, setQuery] = useState('')
@@ -114,6 +108,22 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
   }, [open])
 
   const all = useMemo(() => [...PAGES, ...(entities ?? [])], [entities])
+
+  // A song's author name in the reader's script is looked up from the `author` entries (which carry
+  // `scripts`), keyed by the shared romanized name — so those renderings live once, not per song row.
+  const authorScriptsByName = useMemo(() => {
+    const m = new Map<string, Record<string, string>>()
+    for (const e of all) if (e.type === 'author' && e.scripts) m.set(e.label, e.scripts)
+    return m
+  }, [all])
+
+  // Display in the reader's chosen script, falling back to the romanized label — matching still runs
+  // on the Latin label + a romanized query, so only what the reader SEES changes with listLanguage.
+  const displayTitle = (e: Entry) => e.scripts?.[settings.listLanguage] ?? e.label
+  const displayAuthor = (e: Entry) =>
+    e.type === 'song'
+      ? authorScriptsByName.get(e.subtitle ?? '')?.[settings.listLanguage] ?? e.subtitle
+      : e.subtitle
 
   // Build the Duet index once per data change (not per keystroke). It rebuilds when the content
   // index arrives, upgrading title-only search into title+content in place.
