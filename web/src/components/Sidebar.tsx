@@ -149,9 +149,12 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, collapsed = false, s
           isOpen ? "translate-x-0" : "-translate-x-full"
         } ${collapsed ? "md:-translate-x-full" : "md:translate-x-0"}`}
       >
-        {/* Brand + desktop collapse toggle (wordmark only — the mridanga music logo was removed) */}
-        <div className="flex h-14 items-center px-3">
-          <Link href="/" onClick={onClose} className="flex items-center" aria-label="Gaudiya Kirtan home">
+        {/* Brand + desktop collapse toggle (wordmark only — the mridanga music logo was removed).
+            The container is `px-2` like the search box and nav, and the wordmark carries `pl-3` so
+            its text starts at the same 20px inset as every nav icon below — one left edge down the
+            whole sidebar. */}
+        <div className="flex h-14 items-center px-2">
+          <Link href="/" onClick={onClose} className="flex items-center pl-3" aria-label="Gaudiya Kirtan home">
             <BrandWordmark className="text-xl" />
           </Link>
           <button
@@ -165,8 +168,9 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, collapsed = false, s
           </button>
         </div>
 
-        {/* Search — opens the centered palette */}
-        <div className="px-3 pb-2">
+        {/* Search — opens the centered palette. `px-2` matches the nav so the search box's border and
+            its icon line up with the nav items' hover box and icons (8px box / 20px icon). */}
+        <div className="px-2 pb-2">
           <button
             type="button"
             onClick={openSearch}
