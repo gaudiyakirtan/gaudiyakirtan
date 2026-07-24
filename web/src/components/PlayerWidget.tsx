@@ -2,7 +2,7 @@ import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 're
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   Play, Pause, Loader2, Repeat, ListEnd, Download, Share2, Minimize2, Maximize2, Check,
-  SkipBack, SkipForward, Moon, X,
+  Moon, X,
 } from 'lucide-react'
 import { usePlayer } from '../utils/PlayerContext'
 import { useSettings } from '../utils/SettingsContext'
@@ -17,10 +17,9 @@ import { ArtistAvatar, RecordingPickerButton } from './ArtistAvatar'
  * **morphs** (framer-motion) between a circle and a rounded card, with a spring pop + cross-fade:
  *  • idle (a song page armed its song) → a circular play FAB. Hidden on non-song pages with nothing
  *    playing.
- *  • expanded → a mini-player card: artwork, title (2 lines → marquee), author, scrubber, a
- *    previous/next transport pair when a book/topic queue is armed, and a loop / continue-playing /
- *    sleep-timer / download / share row plus a stacked-avatar **recordings** picker and a
- *    **minimize** button.
+ *  • expanded → a mini-player card: artwork, title (2 lines → marquee), author, a play/pause button,
+ *    scrubber, and a loop / continue-playing / sleep-timer / download / share row plus a
+ *    stacked-avatar **recordings** picker and a **minimize** button.
  *  • collapsed (while playing) → back to a circle (play/pause + a corner expand button).
  */
 
@@ -78,7 +77,6 @@ export const PlayerWidget: React.FC = () => {
   const {
     song, trackUid, status, armedSong, currentTime, duration,
     isLooping, toggleLoop, autoContinue, toggleAutoContinue,
-    hasNextInQueue, canPrevious, canNext, previous, next,
     sleepTimer, sleepRemainingMs, startSleepTimer, startSleepTimerEndOfTrack, cancelSleepTimer,
     playSong, selectTrack, togglePlayPause, seek,
   } = usePlayer()
@@ -132,8 +130,6 @@ export const PlayerWidget: React.FC = () => {
   const singer = track?.artist || author
   const playing = status === 'playing'
   const showCircle = !loaded || collapsed
-  // The transport pair earns its space only when at least one direction can actually move.
-  const showTransport = canPrevious || canNext
 
   const playArmed = () => armedSong && playSong(armedSong)
 
@@ -294,7 +290,14 @@ export const PlayerWidget: React.FC = () => {
       {/* Stacked unit: the "play what I'm reading" strip sits BEHIND the card, inset on both sides
           and peeking above its top edge, so it reads as part of the player instead of a second
           floating control. The card's own border + shadow draws the seam. */}
-      <div className="flex flex-col items-stretch">
+      {/* The width lives on this stack, not on the card, so the "Play …" strip and the card are
+          always exactly the same width — a long armed-song title used to make the strip grow past
+          the fixed-width card and stick out on the right. `items-stretch` makes both fill it. */}
+      <div
+        className={`flex flex-col items-stretch ${
+          showCircle ? '' : 'w-[calc(100vw-1.5rem)] sm:w-[21rem] sm:max-w-[calc(100vw-3rem)]'
+        }`}
+      >
         <AnimatePresence>
           {showPlayArmedChip && (
             <motion.button
@@ -308,10 +311,10 @@ export const PlayerWidget: React.FC = () => {
               title={`Play “${armedTitle}”`}
               /* pb-6/-mb-4: the strip is 16px taller than it looks and the card is pulled up over
                  that slack, hiding its bottom edge + rounding behind the card. */
-              className="relative z-0 mx-3 flex items-center gap-1.5 -mb-4 rounded-t-2xl border border-b-0 border-[var(--border)] bg-[var(--background-offset)] px-3.5 pb-6 pt-2 text-left text-xs text-[var(--neutral)] shadow-lg transition-colors hover:text-[var(--primary)]"
+              className="relative z-0 flex items-center gap-1.5 -mb-4 rounded-t-2xl border border-b-0 border-[var(--border)] bg-[var(--background-offset)] px-3.5 pb-6 pt-2 text-left text-xs text-[var(--neutral)] shadow-lg transition-colors hover:text-[var(--primary)]"
             >
               <Play size={13} className="flex-none text-[var(--highlight)]" />
-              <span className="truncate">
+              <span className="min-w-0 truncate">
                 Play “<span className="font-medium text-[var(--primary)]">{armedTitle}</span>”
               </span>
             </motion.button>
@@ -326,7 +329,7 @@ export const PlayerWidget: React.FC = () => {
            fixed 21rem anchored right — which left a wide, lopsided gap on the left. Desktop keeps
            the fixed 21rem. */
         className={`relative z-10 overflow-hidden border border-[var(--border)] bg-[var(--background-offset)] shadow-2xl ${
-          showCircle ? '' : 'w-[calc(100vw-1.5rem)] p-3 sm:w-[21rem] sm:max-w-[calc(100vw-3rem)]'
+          showCircle ? '' : 'p-3'
         }`}
       >
         <AnimatePresence mode="popLayout" initial={false}>
@@ -367,17 +370,8 @@ export const PlayerWidget: React.FC = () => {
                   {/* The reciter (singer) of the current recording — not the song's composer/author. */}
                   <p className="mt-0.5 truncate text-xs text-[var(--neutral)]">{singer}</p>
                 </div>
-                {/* Previous/next through the armed book/topic queue (or endless play's shuffle).
-                    Rendered off `canPrevious || canNext` — the *playing* song being in the queue —
-                    not off `queue`, which is armed by whatever page is open and left a pair of
-                    permanently-dead arrows whenever those two disagreed. */}
-                {showTransport && (
-                  <button type="button" onClick={previous} disabled={!canPrevious} aria-label="Previous song"
-                    title={canPrevious ? 'Previous song' : 'No previous song'}
-                    className="flex h-8 w-8 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:bg-[var(--background)] hover:text-[var(--primary)] disabled:opacity-30 disabled:hover:bg-transparent">
-                    <SkipBack size={16} />
-                  </button>
-                )}
+                {/* Just play/pause — song-to-song movement is the "Keep playing" toggle and the
+                    queue, not a transport pair in the mini-player. */}
                 <button
                   type="button"
                   onClick={togglePlayPause}
@@ -387,13 +381,6 @@ export const PlayerWidget: React.FC = () => {
                 >
                   {mainIcon}
                 </button>
-                {showTransport && (
-                  <button type="button" onClick={next} disabled={!canNext} aria-label="Next song"
-                    title={autoContinue && !hasNextInQueue ? 'Skip to another song' : 'Next song'}
-                    className="flex h-8 w-8 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:bg-[var(--background)] hover:text-[var(--primary)] disabled:opacity-30 disabled:hover:bg-transparent">
-                    <SkipForward size={16} />
-                  </button>
-                )}
               </div>
 
               {status !== 'error' && (
