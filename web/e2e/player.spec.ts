@@ -10,6 +10,12 @@ test('open-song action returns to the loaded song instead of the differently arm
   const openLoadedSong = page.getByRole('link', { name: 'Open song “yaśomatī-nandana”' })
   await expect(openLoadedSong).toBeVisible()
   await expect(openLoadedSong).toHaveAttribute('title', 'Open song “yaśomatī-nandana”')
+  const titleRow = openLoadedSong.locator('..')
+  const loadedTitle = titleRow.getByText('yaśomatī-nandana', { exact: true })
+  const [titleBox, openSongBox] = await Promise.all([loadedTitle.boundingBox(), openLoadedSong.boundingBox()])
+  expect(titleBox).not.toBeNull()
+  expect(openSongBox).not.toBeNull()
+  expect(openSongBox!.x - (titleBox!.x + titleBox!.width)).toBeLessThanOrEqual(8)
 
   await page.getByRole('button', { name: 'Collapse player' }).click()
   await expect(openLoadedSong).toHaveCount(0)

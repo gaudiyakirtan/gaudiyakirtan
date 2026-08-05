@@ -367,8 +367,8 @@ export const PlayerWidget: React.FC = () => {
               <div className="flex items-center gap-2.5">
                 <Artwork trackUid={track?.uid} playing={playing} />
                 <div className="min-w-0 flex-1">
-                  <div className="flex min-w-0 items-start gap-1">
-                    <div className="min-w-0 flex-1">
+                  <div className="flex min-w-0 items-start">
+                    <div className="w-fit min-w-0 max-w-[calc(100%-1.875rem)]">
                       {status === 'error' ? (
                         <p className="text-sm font-semibold text-[var(--primary)]">Audio unavailable</p>
                       ) : (
@@ -380,7 +380,7 @@ export const PlayerWidget: React.FC = () => {
                       onClick={() => setOpenMenu(null)}
                       aria-label={openSongLabel}
                       title={openSongLabel}
-                      className="flex h-7 w-7 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:bg-[var(--background)] hover:text-[var(--primary)]"
+                      className="ml-0.5 flex h-7 w-7 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:bg-[var(--background)] hover:text-[var(--primary)]"
                     >
                       <ArrowUpRight size={15} />
                     </Link>

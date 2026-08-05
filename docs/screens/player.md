@@ -67,7 +67,8 @@ Playback still **degrades gracefully** on any load failure (network off, missing
   (a song page "arms" its song via `PlayerContext.arm()`, so the FAB shows there; elsewhere nothing
   until playback starts). States: *idle (armed)* → a compact circular play FAB; *loaded* → a
   mini-player **card** with artwork, **song title** (two lines → **marquee** when longer,
-  `MarqueeTitle`), an **open-song** arrow (`ArrowUpRight`) immediately beside that title, the
+  `MarqueeTitle`), an **open-song** arrow (`ArrowUpRight`) immediately after the rendered title
+  text (not pushed to the far edge of the title column), the
   recording's **reciter** (not the composer), a **scrubber** with times, and a
   control row (Lucide icons) — **loop / continue-playing / sleep-timer / download / share**, plus a
   stacked-avatar **recordings** picker (`RecordingPickerButton`) and a **minimize** button;
@@ -136,7 +137,9 @@ Playback still **degrades gracefully** on any load failure (network off, missing
   the title-row open-song arrow returns to the loaded song's canonical detail route without
   replacing the player session; it still targets the loaded song when the page has armed a
   different one. Build/typecheck green.
-- **Visual:** matches `Now Playing` / `Player` / `Track` frames.
+- **Visual:** matches `Now Playing` / `Player` / `Track` frames. For a short title, the open-song
+  arrow begins no more than 8 px after the rendered title text; long titles retain their bounded
+  two-line/marquee behavior.
 
 ## Change log
 
