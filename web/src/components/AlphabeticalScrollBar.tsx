@@ -1,4 +1,5 @@
 import React from 'react'
+import { LAYER } from '../utils/layers'
 
 interface AlphabeticalScrollBarProps {
   /** All A–Z letters; those not in `active` are dimmed and non-interactive. */
@@ -19,7 +20,8 @@ export const AlphabeticalScrollBar: React.FC<AlphabeticalScrollBarProps> = ({
   return (
     <nav
       aria-label="Alphabetical index"
-      className="fixed top-1/2 right-2 -translate-y-1/2 z-10 flex flex-col items-center select-none"
+      style={{ zIndex: LAYER.content }}
+      className="fixed top-1/2 right-2 -translate-y-1/2 flex flex-col items-center select-none"
     >
       {letters.map((letter) => {
         const isActive = active.has(letter)

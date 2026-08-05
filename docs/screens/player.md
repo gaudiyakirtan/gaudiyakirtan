@@ -1,6 +1,6 @@
 # Screen — Audio Player
 
-**Spec version:** 12
+**Spec version:** 13
 
 **Figma frames:** `Now Playing`, `Player`, `Track`, `trailingIcon2_`.
 
@@ -109,6 +109,13 @@ Playback still **degrades gracefully** on any load failure (network off, missing
     control. It renders **only on the expanded card**: collapsing is a deliberate "get out of my
     way", so the circle stays a bare circle (as a free-floating pill it covered ~190px of a phone
     screen). See v10.
+  - **Layering** — the widget is **page furniture, not an overlay**: it sits in the page layer of
+    the shared scale in [`navigation.md`](navigation.md#layer-order-web), above content and the
+    mobile header, *below* the mobile navigation scrim. So opening the mobile menu dims the player
+    along with the rest of the screen in every state (card, circle, armed FAB, "Play this" strip),
+    the widget goes inert for pointer and keyboard while the drawer is open, and any open drop-up
+    closes. Playback, position and collapse state are untouched by all of this — closing the drawer
+    hands back exactly the player that was there.
   - **Share** copies a deep link `/songs/<uid>?play=<trackUid>` (or the Web Share sheet); the song
     page reads `?play=` and cues+plays that take — autoplay-blocked degrades to *paused/cued*, not
     error. **Download** fetches the mp3 as a blob (falls back to opening the S3 URL — the bucket
@@ -148,6 +155,11 @@ Playback still **degrades gracefully** on any load failure (network off, missing
 
 ## Change log
 
+- **v13 (web)** — Placed the widget explicitly in the shared layer scale
+  ([navigation.md](navigation.md#layer-order-web) v3). It had outranked the mobile drawer's scrim,
+  so a loaded mini-player stayed lit and clickable above the dim while the menu was open. It now
+  dims with the page in every state, goes inert while the drawer is open, and closes its drop-ups —
+  with no change to playback, position or collapse state.
 - **v12 (web)** — Made the open-song arrow a true inline suffix of the title, including two-line
   titles, rather than a flex sibling aligned to the title box. Added a clipped Framer Motion
   upper-right exit / lower-left return animation on hover and focus, with reduced-motion support.

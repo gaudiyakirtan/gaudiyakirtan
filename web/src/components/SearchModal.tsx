@@ -8,6 +8,7 @@ import { buildDuet, searchDuet, type IDuetDoc } from '../services/duet'
 import { NAV_ENTRIES } from '../services/urlResolver'
 import { useSettings } from '../utils/SettingsContext'
 import { lockScroll } from '../utils/bodyScrollLock'
+import { LAYER } from '../utils/layers'
 import { searchViewportStyle } from '../utils/searchViewport'
 import { useSearchViewport } from '../utils/useSearchViewport'
 
@@ -228,8 +229,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
     // backdrop and keeps its click-to-dismiss. Sizing lives in `.gk-search-surface`, which is why
     // there is no `top-0`/`h-*` utility here to fight with it.
     <div
-      className="gk-search-surface fixed left-0 right-0 z-[60] flex flex-col bg-[var(--background)] md:bottom-0 md:flex-row md:items-start md:justify-center md:bg-black/50 md:px-4 md:pt-[12vh] md:backdrop-blur-sm"
-      style={searchViewportStyle(viewport)}
+      className="gk-search-surface fixed left-0 right-0 flex flex-col bg-[var(--background)] md:bottom-0 md:flex-row md:items-start md:justify-center md:bg-black/50 md:px-4 md:pt-[12vh] md:backdrop-blur-sm"
+      style={{ ...searchViewportStyle(viewport), zIndex: LAYER.searchModal }}
       onClick={onClose}
       role="dialog"
       aria-modal="true"
