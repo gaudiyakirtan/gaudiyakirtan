@@ -73,8 +73,10 @@ const TYPE_RANK: Record<EntryType, number> = { page: 7, book: 6, topic: 5, autho
  * - `≥ md` (768 px): the centered command-palette card over a dimmed backdrop, unchanged since v2.
  * - `< md`: a **full-screen search page** — edge to edge, no card, a back button instead of a
  *   backdrop to tap, and a results region that takes the leftover height and scrolls internally.
- *   Its height comes from `.gk-search-surface` (globals.css): `100dvh` refined by the measured
- *   visual viewport, because `dvh` does not shrink for the on-screen keyboard.
+ *   It is **two layers with two heights** (spec v10, sized in globals.css): `.gk-search-panel`, the
+ *   part the reader touches, is the measured *visual* viewport so the keyboard never covers it;
+ *   `.gk-search-underlay`, the part the reader sees, is the *layout* viewport and beyond, because
+ *   iOS draws its keyboard accessory bar over the page and would otherwise show it.
  */
 /**
  * Below this Duet score a hit is a lone shared trigram, not a match worth showing. Duet only ever
@@ -223,22 +225,37 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
   const activeId = results.length ? `search-result-${selected}` : undefined
 
   return (
-    // The outer layer is the mobile surface AND the desktop backdrop. On a phone the panel covers
-    // it completely, so `onClick={onClose}` is unreachable there (a full-screen search page has no
-    // backdrop to dismiss — that is what the back button is for); on desktop it is the dimmed
-    // backdrop and keeps its click-to-dismiss. Sizing lives in `.gk-search-surface`, which is why
-    // there is no `top-0`/`h-*` utility here to fight with it.
+    // The outer layer is the mobile surface AND the desktop backdrop. On a phone the underlay
+    // covers it completely, so `onClick={onClose}` is unreachable there (a full-screen search page
+    // has no backdrop to dismiss — that is what the back button is for); on desktop it is the
+    // dimmed backdrop and keeps its click-to-dismiss. It spans the whole LAYOUT viewport
+    // (`inset-0`) in both presentations — only the panel inside it is sized to what the keyboard
+    // leaves usable.
     <div
-      className="gk-search-surface fixed left-0 right-0 flex flex-col bg-[var(--background)] md:bottom-0 md:flex-row md:items-start md:justify-center md:bg-black/50 md:px-4 md:pt-[12vh] md:backdrop-blur-sm"
+      className="fixed inset-0 flex flex-col bg-[var(--background)] md:flex-row md:items-start md:justify-center md:bg-black/50 md:px-4 md:pt-[12vh] md:backdrop-blur-sm"
       style={{ ...searchViewportStyle(viewport), zIndex: LAYER.searchModal }}
       onClick={onClose}
       role="dialog"
       aria-modal="true"
       aria-label="Search"
     >
+      {/* Opaque coverage, and nothing else — it takes no taps and says nothing to a screen reader.
+          iOS paints the keyboard's password/autofill accessory bar OVER THE PAGE, so every pixel
+          below the visual viewport would otherwise be the song the reader came from (spec v10).
+          `.gk-search-underlay` is therefore sized to the layout viewport and past it, never to the
+          measured visual viewport that sizes the panel. Mobile only: up at `md` this same overlay
+          is meant to be a see-through dim. */}
+      <div
+        aria-hidden="true"
+        data-testid="search-underlay"
+        className="gk-search-underlay pointer-events-none absolute inset-x-0 bg-[var(--background)] md:hidden"
+      />
       <div
         data-testid="search-panel"
-        className="flex min-h-0 w-full flex-1 flex-col overflow-hidden bg-[var(--background)] pt-[env(safe-area-inset-top)] md:h-auto md:max-w-xl md:flex-none md:rounded-2xl md:border md:border-[var(--border)] md:pt-0 md:shadow-2xl"
+        // `relative` is load-bearing: the underlay is positioned, so without a position of its own
+        // the panel would paint *under* it (positioned boxes paint above in-flow ones) and the
+        // whole search UI would disappear behind its own background.
+        className="gk-search-panel relative flex min-h-0 w-full flex-none flex-col overflow-hidden bg-[var(--background)] pt-[env(safe-area-inset-top)] md:h-auto md:max-w-xl md:rounded-2xl md:border md:border-[var(--border)] md:pt-0 md:shadow-2xl"
         onClick={(e) => e.stopPropagation()}
         onKeyDown={onKeyDown}
       >

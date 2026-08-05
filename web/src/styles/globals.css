@@ -53,35 +53,53 @@ body {
 .bg-offset-custom {
   background-color: var(--background-offset) !important;
 }
-/* Full-screen mobile search surface (docs/screens/search.md v9). Below `md` the palette is a page,
-   not a floating card, so it must own the *usable* viewport — which is not `100vh`: that freezes on
-   the tallest-possible viewport and hides the bottom of the surface under the browser's toolbars.
-   `100dvh` fixes the toolbars; it does NOT fix the on-screen keyboard (which shrinks the visual
-   viewport but not the layout viewport), so SearchModal refines it at runtime with the
-   `--gk-search-viewport-*` variables read from `window.visualViewport`.
+/* Full-screen mobile search surface (docs/screens/search.md v10). Below `md` the palette is a page,
+   not a floating card — and "full screen" is two requirements with two different heights, which is
+   the whole point of these rules:
+
+     .gk-search-panel   — what the reader TOUCHES. Sized to the *usable* viewport, which is not
+                          `100vh` (that freezes on the tallest-possible viewport and hides the
+                          bottom under the browser's toolbars). `100dvh` fixes the toolbars; it does
+                          NOT fix the on-screen keyboard, which shrinks the visual viewport while
+                          leaving the layout viewport tall, so SearchModal refines it at runtime
+                          with `--gk-search-viewport-*` read from `window.visualViewport`.
+     .gk-search-underlay — what the reader SEES. Sized to the LAYOUT viewport and past it, because
+                          iOS composites its keyboard accessory bar over the *page*: anything below
+                          the visual viewport shows the document through it. v9 sized the opaque
+                          layer by the usable viewport too, and that is exactly how the song text
+                          leaked into the accessory strip.
 
    The variables are consumed ONLY here, inside the mobile branch, which is what guarantees the
    desktop card can never inherit a phone's measured height: above `md` the surface is laid out by
    its own insets again. `@supports` keeps pre-`dvh` browsers on plain `100vh` rather than letting a
    var() that resolves to an unsupported unit fall all the way back to `height: auto`. */
-.gk-search-surface {
-  top: 0;
+.gk-search-panel {
   height: 100vh;
 }
 
 @supports (height: 100dvh) {
-  .gk-search-surface {
-    top: var(--gk-search-viewport-top, 0px);
+  .gk-search-panel {
+    margin-top: var(--gk-search-viewport-top, 0px);
     height: var(--gk-search-viewport-height, 100dvh);
   }
 }
 
-/* Desktop: the container is laid out by its insets instead (this `top: 0` plus the `md:bottom-0`
-   utility), so height goes back to `auto` and the measured variables are ignored. Declared last so
-   it wins over the @supports block above. */
+/* `100vh` is the LARGE viewport — the tallest the layout viewport can be, toolbars retracted — so
+   the underlay always reaches at least its bottom edge. The offset term extends it further when iOS
+   has pushed the page up around the focused input (`offsetTop`), which moves the visible area down
+   without making the layout viewport any taller. No keyboard or accessory height is named anywhere:
+   the coverage is structural, so it cannot go stale with a new iOS or a new device. */
+.gk-search-underlay {
+  top: 0;
+  height: calc(100vh + var(--gk-search-viewport-top, 0px));
+}
+
+/* Desktop: the container is laid out by its insets, the card's height goes back to `auto`, and the
+   measured variables are ignored (the underlay is not rendered at all up here — the dimmed backdrop
+   is the point). Declared last so it wins over the @supports block above. */
 @media (min-width: 768px) {
-  .gk-search-surface {
-    top: 0;
+  .gk-search-panel {
+    margin-top: 0;
     height: auto;
   }
 }

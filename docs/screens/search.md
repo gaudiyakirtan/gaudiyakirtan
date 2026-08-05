@@ -1,6 +1,6 @@
 # Screen — Search
 
-**Spec version:** 9
+**Spec version:** 10
 
 **Figma frames:** `Search`, `Search-1`.
 
@@ -82,15 +82,43 @@ Below the breakpoint the palette is **not a modal card, it is a page**: edge to 
 margin, no rounded corners, no border, no shadow, no dimmed backdrop behind it (there is nothing
 behind it to dim). It reads like a dedicated mobile search screen.
 
-- **Usable viewport, not `100vh`.** The surface is a fixed layer sized to `100dvh`, so it tracks the
-  browser's collapsing/expanding toolbars instead of the tallest-possible viewport that `100vh`
-  freezes on. On top of that, while the surface is open it follows **`window.visualViewport`**
-  (`height` + `offsetTop`, published as the CSS variables `--gk-search-viewport-height` /
-  `--gk-search-viewport-top`): the on-screen keyboard shrinks the *visual* viewport but **not**
-  `dvh`, so on iOS Safari a `dvh`-only surface hides its bottom half behind the keyboard. The
-  variables are read **only inside the mobile media query**, so nothing they publish can reach the
-  desktop card. Browsers without `dvh` fall back to `100vh` via `@supports`; browsers without
-  `visualViewport` fall back to the `dvh` value.
+- **Two layers, two jobs — the surface is *not* one box.** "Full screen" is two separate
+  requirements that resolve to two different heights, and collapsing them into one box is what
+  produced the iOS accessory-strip leak (v10):
+
+  | Layer | Height | Job |
+  |-------|--------|-----|
+  | **Panel** (interactive: header, input, results) | the **usable visual viewport** | Everything the reader touches has to be *reachable* — above the keyboard, never behind it. |
+  | **Underlay** (opaque, non-interactive) | the **whole layout viewport, and past it** | Everything the reader *sees* has to be search — including the strip the OS paints its keyboard accessory bar over. |
+
+  - **Panel — usable viewport, not `100vh`.** Sized to `100dvh`, so it tracks the browser's
+    collapsing/expanding toolbars instead of the tallest-possible viewport that `100vh` freezes on.
+    On top of that, while the surface is open it follows **`window.visualViewport`** (`height` +
+    `offsetTop`, published as the CSS variables `--gk-search-viewport-height` /
+    `--gk-search-viewport-top`): the on-screen keyboard shrinks the *visual* viewport but **not**
+    `dvh`, so on iOS Safari a `dvh`-only panel hides its bottom half behind the keyboard. `offsetTop`
+    is applied as the panel's top margin, because iOS pushes the page up around a focused input.
+    Browsers without `dvh` fall back to `100vh` via `@supports`; browsers without `visualViewport`
+    fall back to the `dvh` value.
+  - **Underlay — coverage must not stop where the panel stops.** iOS draws the keyboard's
+    password/autofill accessory bar **over the page**, not over browser chrome, so any part of the
+    document below the visual viewport shows through it. The underlay is therefore a separate
+    `aria-hidden`, `pointer-events: none` layer painted *behind* the panel in the same overlay, in
+    the surface's own `--background`, and it is **one large-viewport (`100vh`) tall, offset by
+    `--gk-search-viewport-top`** — `100vh` is the tallest the viewport can get (toolbars retracted),
+    so it always reaches at least the bottom of the layout viewport, and the offset term carries it
+    past that when iOS has scrolled the page up. **No keyboard or accessory height is ever named**:
+    the coverage is structural, not a measurement of the OS.
+  - The variables are read **only inside the mobile media query**, so nothing they publish can reach
+    the desktop card, and the underlay is not rendered at all above `md` (there the dimmed backdrop
+    is the point).
+
+  The same phone (390×844, Shyam, a song reader underneath) with the usable viewport shortened to
+  464 px — the band below the panel is where iOS floats its accessory bar and keyboard:
+
+  | Coverage sized by the *usable* viewport (v9) | Coverage sized by the *layout* viewport (v10) |
+  |---|---|
+  | ![Song text bleeding through the accessory gap](../screenshots/search-mobile-ios-keyboard-gap-before.png) | ![The same band, entirely search background](../screenshots/search-mobile-ios-keyboard-gap-after.png) |
 - **Safe areas.** The header pads by `env(safe-area-inset-top)` and the results region by
   `env(safe-area-inset-bottom)`, so the input clears a notch/status bar and the last result clears
   the home indicator.
@@ -154,6 +182,35 @@ behind it to dim). It reads like a dedicated mobile search screen.
 
 ## Change log
 
+- **v10 (web)** — **The full-screen surface now actually covers the full screen: the opaque layer no
+  longer stops where the keyboard starts.** Reported from real iOS Safari (Shyam, a song reader
+  underneath): with the keyboard up, the strip between the last result and the keys — where iOS
+  floats its password/autofill accessory bar — showed the **song page's blue Devanagari verse text**
+  through it. Measured on the shipped build at 390×844 with the visual viewport shortened to 464 px:
+  **32,394 of 148,200 pixels** (Shyam; 31,599 in Gaura) below the visual viewport belonged to the
+  reader, and the band was *pixel-identical whether search was open or closed* — the surface painted
+  nothing there at all.
+  - **Root cause, and why it is a v9 blind spot rather than a typo.** v9 gave one box two jobs: the
+    surface was sized to `--gk-search-viewport-height` so the panel would clear the keyboard, and
+    that same box carried the opaque background. But iOS composites the accessory bar **over the
+    page**, so the document is visible in exactly the region the visual viewport excludes. Sizing
+    coverage by the *usable* viewport therefore guarantees a leak the moment the two viewports
+    differ. `dvh` cannot help: it does not shrink for the keyboard, which is why v9 measured in the
+    first place.
+  - **Fix: split reachability from coverage** (see **Presentation → Two layers, two jobs**). The
+    panel keeps the measured visual viewport (now via `height` + `margin-top` on the panel itself);
+    a new `aria-hidden`, `pointer-events: none` **underlay** paints the same `--background` behind
+    it, `100vh` tall plus `--gk-search-viewport-top`. `100vh` is the *large* viewport — the one v9
+    called the wrong unit for content — and it is exactly the right unit for coverage, so the fix
+    names no keyboard or accessory height and needs no device constants.
+  - **Regression** (`e2e/search-ios-keyboard.spec.ts`): fakes `window.visualViewport` so the real
+    `useSearchViewport` → CSS-variable path runs, then screenshots the band below it and reads every
+    pixel back through a canvas — the same thing the reporter photographed, and blind to which
+    element does the covering. It first asserts the band *does* show reader text with search closed,
+    so a blank page cannot make it pass for nothing; then that with search open the band is a single
+    colour equal to the panel's background, in **both themes**, across keyboard raise/dismiss/raise
+    and a non-zero `offsetTop`. It also pins that the underlay must **not** stretch the interactive
+    scroller: the results region still ends at the keyboard.
 - **v9 (web)** — **On a phone the palette is a full-screen search page; on desktop it is the same
   centered card it always was.** A `max-w-xl` card floating 12 vh down a 390 px screen wastes the
   screen it is standing on: it showed ~4 results, kept a dimmed strip of a page nobody could read,
