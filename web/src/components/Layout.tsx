@@ -124,13 +124,19 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
               <line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="18" x2="21" y2="18" />
             </svg>
           </button>
-          {/* A 40px slot like the controls beside it, not a box the height of the text: the brand
-              face's ink overflows its em box (see BrandWordmark), so clipping at text height shaved
-              the ascenders and the "y" tail - and the header is a composited layer while it
-              animates, which rasterizes that overflow against the clip box and makes the shave
-              plainly visible on a phone. At 40px the clip only ever trims width, which is all the
-              middle region needs; it also gives the brand link a real touch target. */}
-          <Link href="/" className="ml-1 flex h-10 min-w-0 flex-1 items-center overflow-hidden">
+          {/* This box clips (to keep the mark out of the actions), and the brand face's ink fits
+              inside no box of its own - so the clip window is opened on every edge the ink can
+              reach (see BrandWordmark):
+                - h-10, not the text's height, or the ascenders and the "y" tail are shaved. The
+                  header is a composited layer while it animates, so that overflow is rasterized
+                  against the clip box and the shave is plainly visible on a phone. A 40px slot
+                  matches the controls beside it and gives the brand link a real touch target.
+                - pl-1 rather than ml-1: the 4px gap after the menu slot is padding, so the clip
+                  window opens 4px before the text does. Every glyph in this face has a negative
+                  left side bearing, so with the gap as margin the clip edge landed exactly on the
+                  text origin and sliced the "G"'s bowl into a flat vertical edge.
+              What is left is a width clip, which is all the middle region ever needed. */}
+          <Link href="/" className="flex h-10 min-w-0 flex-1 items-center overflow-hidden pl-1">
             <BrandWordmark className="text-lg" opticalCenter />
           </Link>
           {/* Reader display options — only on a song screen, which publishes its capabilities via

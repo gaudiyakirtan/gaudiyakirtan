@@ -8,9 +8,10 @@ async function expectHeaderState(page: Page, state: 'visible' | 'hidden') {
 
 /**
  * Where the wordmark's *ink* actually lands, which is not where its box lands: the brand face
- * overflows its em box, so a box-only assertion would happily pass on a header that shaves the
- * ascenders and the `y` tail. Ink is derived from the baseline (recovered from a letter box plus
- * the face's own half-leading) and the rasterizer's own bounds for the string.
+ * overflows its box on every edge, so a box-only assertion would happily pass on a header that
+ * shaves the ascender tops, the `y` tail, or — because every glyph in the face has a negative left
+ * side bearing — the `G`'s outer bowl. Ink is derived from the baseline (recovered from a letter
+ * box plus the face's own half-leading) and the rasterizer's own bounds for the string.
  */
 async function measureWordmarkInk(page: Page) {
   await page.evaluate(() => document.fonts.ready)
@@ -33,13 +34,18 @@ async function measureWordmarkInk(page: Page) {
     const baseline = letter.top + (parseFloat(style.lineHeight) - content) / 2 + string.fontBoundingBoxAscent
 
     const clipBox = clip.getBoundingClientRect()
+    const markBox = mark.getBoundingClientRect()
     return {
-      clip: { top: clipBox.top, bottom: clipBox.bottom, height: clipBox.height },
+      clip: { top: clipBox.top, bottom: clipBox.bottom, left: clipBox.left, height: clipBox.height },
+      markLeft: markBox.left,
       inkTop: baseline - string.actualBoundingBoxAscent,
       inkBottom: baseline + string.actualBoundingBoxDescent,
+      // The `G` starts left of the text origin, so this is left of the mark's own box.
+      inkLeft: markBox.left - string.actualBoundingBoxLeft,
       // Cap-height band: what a reader perceives as the mark, descender space excluded.
       capCenter: baseline - cap.actualBoundingBoxAscent / 2,
       overflowsEmBox: content < string.actualBoundingBoxAscent + string.actualBoundingBoxDescent,
+      overhangsLeft: string.actualBoundingBoxLeft > 0,
     }
   })
 }
@@ -69,7 +75,9 @@ test.describe('mobile header', () => {
       expect(box!.y + box!.height / 2).toBe(controlCenter)
     }
     expect(menuBox!.x).toBe(12)
-    expect((await header.locator('a[href="/"]').boundingBox())!.x - (menuBox!.x + menuBox!.width)).toBe(4)
+    // The 4 px gap is measured to the mark's text origin, not to its link box: the link carries the
+    // gap as padding so its clip window can open before the text does (see the wordmark test).
+    expect((await header.locator('a[href="/"] [role="img"]').boundingBox())!.x - (menuBox!.x + menuBox!.width)).toBe(4)
     expect(searchBox!.x + searchBox!.width).toBe(378)
     expect(searchBox!.x - (displayBox!.x + displayBox!.width)).toBe(4)
 
@@ -101,13 +109,18 @@ test.describe('mobile header', () => {
       await page.goto(route)
       const ink = await measureWordmarkInk(page)
 
-      // The premise: this face's ink is taller than its em box. If that ever stops being true the
-      // assertions below stop meaning anything, so fail loudly rather than pass vacuously.
+      // The premise: this face's ink escapes the mark's box vertically *and* to the left. If that
+      // ever stops being true the assertions below stop meaning anything, so fail loudly rather
+      // than pass vacuously.
       expect(ink.overflowsEmBox, `wordmark ink should overflow its em box on ${route}`).toBe(true)
+      expect(ink.overhangsLeft, `the G should overhang the text origin on ${route}`).toBe(true)
 
-      // …so the clip box must be taller than the ink: it trims width, never glyphs.
+      // …so the clip box must clear the ink on every edge it can reach: it trims width, never
+      // glyphs. The left one is the `G`'s bowl, which a clip box flush with the origin cuts flat.
       expect(ink.inkTop, `wordmark top clipped on ${route}`).toBeGreaterThan(ink.clip.top)
       expect(ink.inkBottom, `wordmark tail clipped on ${route}`).toBeLessThan(ink.clip.bottom)
+      expect(ink.inkLeft, `the G's bowl is clipped on ${route}`).toBeGreaterThan(ink.clip.left)
+      expect(ink.markLeft, `wordmark origin moved on ${route}`).toBe(56)
 
       // Optically centered: the cap-height band shares the axis, within a sub-pixel of rounding.
       expect(Math.abs(ink.capCenter - controlCenter), `wordmark off-axis on ${route}`).toBeLessThan(1)

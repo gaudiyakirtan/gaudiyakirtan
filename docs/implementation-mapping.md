@@ -60,9 +60,9 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | theme (Gaura/Shyam) | ✅ | ✅* | ✅ |
 | home (v3 — re-purposed) | ✅ | — | — |
 | today (v1) — embedded as home §1 | ✅ | — | — |
-| navigation (v3) | ✅ v3 green | ✅*ᶠ | ✅ᶠ |
+| navigation (v4) | ✅ v4 green | ✅*ᶠ | ✅ᶠ |
 | about / contact (v1) | ✅ | — | — |
-| components (v3) | ✅ v3 green | — | — |
+| components (v4) | ✅ v4 green | — | — |
 | collections / books / topics | ✅ | ✅* | ✅ |
 | artist/book images | ✅ | ✅* | ✅ |
 | unit tests | ✅ | ✅* | ✅ |
