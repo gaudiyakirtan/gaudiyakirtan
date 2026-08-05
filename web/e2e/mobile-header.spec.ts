@@ -66,7 +66,9 @@ test.describe('mobile header', () => {
     await expectHeaderState(page, 'visible')
     const searchDialog = page.getByRole('dialog', { name: 'Search' })
     await expect(searchDialog).toBeVisible()
-    await searchDialog.click({ position: { x: 2, y: 2 } })
+    // Mobile search is full-screen (docs/screens/search.md v9): there is no backdrop left to tap,
+    // so the back button is the dismissal.
+    await searchDialog.getByRole('button', { name: 'Close search' }).click()
     await expect(searchDialog).toHaveCount(0)
 
     await page.evaluate(() => window.scrollTo(0, 140))
