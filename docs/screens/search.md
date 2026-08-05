@@ -1,6 +1,6 @@
 # Screen — Search
 
-**Spec version:** 1
+**Spec version:** 9
 
 **Figma frames:** `Search`, `Search-1`.
 
@@ -59,6 +59,68 @@ the noisy full query is the semantic tier's job. Keep tier-1 conservative (preci
 - **Idle state** — before typing: optionally recent/suggested (defer; empty is fine).
 - **No-results state** — a clear "no matches" message.
 
+## Presentation — one surface, two shapes (web)
+
+The palette is **one component with two presentations**, chosen purely by viewport width at the
+app's single `md` breakpoint (**768 px**) — the same breakpoint that switches the sidebar into a
+drawer and turns on the mobile top bar ([`navigation.md`](navigation.md)). There is no second
+component and no JavaScript branch for the layout: a device-width media query decides it, so the
+first paint is already correct and there is nothing to hydrate into.
+
+### Desktop / tablet (`≥ 768 px`) — centered command palette
+
+Unchanged from v2: a `max-w-xl` card, 12 vh from the top, over a dimmed blurred backdrop; rounded
+`2xl` corners, a border and a shadow; the results region caps at `55 vh`; the footer keyboard hints
+(`⏎ open`, `↑↓ navigate`, result count) and the `Esc` key cap are shown; clicking the backdrop
+dismisses.
+
+### Mobile (`< 768 px`) — full-screen search page
+
+![Full-screen mobile search at 390×844](../screenshots/search-mobile-fullscreen.png)
+
+Below the breakpoint the palette is **not a modal card, it is a page**: edge to edge, no outer
+margin, no rounded corners, no border, no shadow, no dimmed backdrop behind it (there is nothing
+behind it to dim). It reads like a dedicated mobile search screen.
+
+- **Usable viewport, not `100vh`.** The surface is a fixed layer sized to `100dvh`, so it tracks the
+  browser's collapsing/expanding toolbars instead of the tallest-possible viewport that `100vh`
+  freezes on. On top of that, while the surface is open it follows **`window.visualViewport`**
+  (`height` + `offsetTop`, published as the CSS variables `--gk-search-viewport-height` /
+  `--gk-search-viewport-top`): the on-screen keyboard shrinks the *visual* viewport but **not**
+  `dvh`, so on iOS Safari a `dvh`-only surface hides its bottom half behind the keyboard. The
+  variables are read **only inside the mobile media query**, so nothing they publish can reach the
+  desktop card. Browsers without `dvh` fall back to `100vh` via `@supports`; browsers without
+  `visualViewport` fall back to the `dvh` value.
+- **Safe areas.** The header pads by `env(safe-area-inset-top)` and the results region by
+  `env(safe-area-inset-bottom)`, so the input clears a notch/status bar and the last result clears
+  the home indicator.
+- **Regions.** A fixed header (back button + input + clear) and a **flexible** results region that
+  takes exactly the remaining space and scrolls internally. The header is always visible; the
+  desktop keyboard-hint footer is not rendered (its hints name physical keys).
+- **Close affordance.** A leading **back arrow** (`Close search`), the convention for a full-screen
+  mobile search surface — a mobile user has no backdrop to tap. A **clear** (`×`) button appears
+  next to the input while the query is non-empty and returns focus to the input. `Escape` still
+  closes, for a phone with a hardware/attached keyboard.
+
+### Both presentations
+
+- **Background scroll is locked while search is open** and restored on *every* exit path (close,
+  result tap, route change, unmount). The lock writes only `overflow-y` **inline on `<body>`**,
+  saves whatever inline value was there first, and is **reference-counted**, so it restores the page
+  exactly as it found it and never clobbers an existing body style (`globals.css` sets
+  `overflow-x: clip` on `body`, which must survive). Scroll position is preserved because the lock
+  never moves the document. The results region additionally sets `overscroll-behavior: contain`, so
+  flinging past the end of the list does not chain into the page behind it.
+- **Focus** moves to the input via the input's **ref callback** — the input mounts only when the
+  surface opens, and a ref callback runs synchronously during commit, still inside the user's tap.
+  That is what makes iOS raise the keyboard; a `setTimeout` would land after the gesture and is not
+  used.
+- **Result semantics:** the input is a `combobox` and the results region a `listbox` of `option`
+  rows with `aria-activedescendant` tracking the arrow-key selection, so the selection an arrow key
+  moves is announced rather than being a purely visual highlight (focus never leaves the input).
+- **Reduced motion:** the surface has no enter/exit animation in either presentation, so there is
+  nothing for `prefers-reduced-motion` to remove.
+
 ## States
 
 - **Empty query:** idle state (no results list).
@@ -92,6 +154,29 @@ the noisy full query is the semantic tier's job. Keep tier-1 conservative (preci
 
 ## Change log
 
+- **v9 (web)** — **On a phone the palette is a full-screen search page; on desktop it is the same
+  centered card it always was.** A `max-w-xl` card floating 12 vh down a 390 px screen wastes the
+  screen it is standing on: it showed ~4 results, kept a dimmed strip of a page nobody could read,
+  and put the only dismissal (tap the backdrop) in the strip a thumb cannot reach. Below `md`
+  (768 px) the same component now fills the viewport edge to edge — no margin, no rounded corners,
+  no backdrop — with a back button, a fixed header and an internally scrolling results region. See
+  **Presentation** above for the full rules; the parts worth calling out:
+  - **The viewport is measured, not assumed.** `100dvh` handles the collapsing toolbars; the
+    `visualViewport` variables handle the on-screen keyboard, which `dvh` does not track (this is
+    the iOS Safari bug where the bottom half of a `dvh` surface sits behind the keyboard). Both are
+    consumed only inside the mobile media query, which is what keeps the desktop card untouched.
+  - **The scroll lock restores what it found.** It writes `overflow-y` inline on `<body>`, keeps the
+    previous inline value, and is reference-counted — `body { overflow-x: clip }` (the rule that
+    keeps `position: sticky` alive app-wide) must still be there afterwards. Every close path goes
+    through the same unmount cleanup, so there is no path that leaks a locked page.
+  - **The layout branch is CSS, not JavaScript.** One media query, no `matchMedia` state, so the
+    server-rendered markup is already the right shape and there is no first-paint flash of a card
+    on a phone.
+  - Focus now comes from the input's ref callback instead of a 20 ms `setTimeout`, which is both
+    less brittle and what lets iOS open the keyboard (the focus stays inside the tap gesture).
+    `Escape` closes from anywhere via a document listener rather than only when focus is inside the
+    surface, and a `routeChangeStart` listener closes it when navigation comes from somewhere else
+    (a hardware back button), which is also what guarantees the scroll lock is released.
 - **v8 (web)** — **Reciter names in the palette now follow `listLanguage` too, and the author
   renderings are de-duplicated.** Two follow-ups to v7:
   - **Reciters were the last romanized-only entity.** Their names (`audio_files[].artist`) are
