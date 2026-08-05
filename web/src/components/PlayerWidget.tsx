@@ -1,8 +1,9 @@
 import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
+import Link from 'next/link'
 import { motion, AnimatePresence } from 'framer-motion'
 import {
   Play, Pause, Loader2, Repeat, ListEnd, Download, Share2, Minimize2, Maximize2, Check,
-  Moon, X,
+  Moon, X, ArrowUpRight,
 } from 'lucide-react'
 import { usePlayer } from '../utils/PlayerContext'
 import { useSettings } from '../utils/SettingsContext'
@@ -130,6 +131,7 @@ export const PlayerWidget: React.FC = () => {
   const singer = track?.artist || author
   const playing = status === 'playing'
   const showCircle = !loaded || collapsed
+  const openSongLabel = title.trim() ? `Open song “${title}”` : 'Open playing song'
 
   const playArmed = () => armedSong && playSong(armedSong)
 
@@ -362,14 +364,27 @@ export const PlayerWidget: React.FC = () => {
             </motion.div>
           ) : (
             <motion.div key="card" layout {...fade}>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2.5">
                 <Artwork trackUid={track?.uid} playing={playing} />
                 <div className="min-w-0 flex-1">
-                  {status === 'error' ? (
-                    <p className="text-sm font-semibold text-[var(--primary)]">Audio unavailable</p>
-                  ) : (
-                    <MarqueeTitle text={title} />
-                  )}
+                  <div className="flex min-w-0 items-start">
+                    <div className="w-fit min-w-0 max-w-[calc(100%-1.875rem)]">
+                      {status === 'error' ? (
+                        <p className="text-sm font-semibold text-[var(--primary)]">Audio unavailable</p>
+                      ) : (
+                        <MarqueeTitle text={title} />
+                      )}
+                    </div>
+                    <Link
+                      href={`/songs/${encodeURIComponent(song!.uid)}`}
+                      onClick={() => setOpenMenu(null)}
+                      aria-label={openSongLabel}
+                      title={openSongLabel}
+                      className="ml-0.5 flex h-7 w-7 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:bg-[var(--background)] hover:text-[var(--primary)]"
+                    >
+                      <ArrowUpRight size={15} />
+                    </Link>
+                  </div>
                   {/* The reciter (singer) of the current recording — not the song's composer/author. */}
                   <p className="mt-0.5 truncate text-xs text-[var(--neutral)]">{singer}</p>
                 </div>
