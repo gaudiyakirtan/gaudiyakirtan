@@ -1,6 +1,6 @@
 # Screen — Audio Player
 
-**Spec version:** 11
+**Spec version:** 12
 
 **Figma frames:** `Now Playing`, `Player`, `Track`, `trailingIcon2_`.
 
@@ -67,8 +67,9 @@ Playback still **degrades gracefully** on any load failure (network off, missing
   (a song page "arms" its song via `PlayerContext.arm()`, so the FAB shows there; elsewhere nothing
   until playback starts). States: *idle (armed)* → a compact circular play FAB; *loaded* → a
   mini-player **card** with artwork, **song title** (two lines → **marquee** when longer,
-  `MarqueeTitle`), an **open-song** arrow (`ArrowUpRight`) immediately after the rendered title
-  text (not pushed to the far edge of the title column), the
+  `MarqueeTitle`), an **open-song** arrow (`ArrowUpRight`) that participates in the title's inline
+  text flow like its final character—attached to the final glyph on the final rendered line, never
+  aligned independently at the top or far edge of the title column—the
   recording's **reciter** (not the composer), a **scrubber** with times, and a
   control row (Lucide icons) — **loop / continue-playing / sleep-timer / download / share**, plus a
   stacked-avatar **recordings** picker (`RecordingPickerButton`) and a **minimize** button;
@@ -80,6 +81,9 @@ Playback still **degrades gracefully** on any load failure (network off, missing
     text is still useful. The control appears only on the expanded loaded card, where the title is
     visible; the armed idle FAB and collapsed circle do not duplicate it. Its accessible label and
     tooltip include the displayed song title, with a generic fallback if that rendering is empty.
+    The icon sits in a clipped, icon-sized viewport. On hover or keyboard focus, Framer Motion sends
+    the glyph out toward the upper-right and brings it back from the lower-left; reduced-motion
+    preferences disable that movement.
   - **Continue-playing** (`autoContinue`, default **on**) — when the current take ends, rolls on to
     the next take of the same song. Disabled (not hidden) on single-take songs so the control row
     doesn't reflow between songs. Precedence: `loop` wins over continue.
@@ -137,12 +141,16 @@ Playback still **degrades gracefully** on any load failure (network off, missing
   the title-row open-song arrow returns to the loaded song's canonical detail route without
   replacing the player session; it still targets the loaded song when the page has armed a
   different one. Build/typecheck green.
-- **Visual:** matches `Now Playing` / `Player` / `Track` frames. For a short title, the open-song
-  arrow begins no more than 8 px after the rendered title text; long titles retain their bounded
-  two-line/marquee behavior.
+- **Visual:** matches `Now Playing` / `Player` / `Track` frames. For both one- and two-line titles,
+  the open-song arrow begins no more than 8 px after the title's final glyph and shares the final
+  line; long titles retain their bounded two-line/marquee behavior. Its hover/focus animation is
+  clipped to the icon viewport and does not disturb title layout.
 
 ## Change log
 
+- **v12 (web)** — Made the open-song arrow a true inline suffix of the title, including two-line
+  titles, rather than a flex sibling aligned to the title box. Added a clipped Framer Motion
+  upper-right exit / lower-left return animation on hover and focus, with reduced-motion support.
 - **v11 (web)** — Added a compact **open-song** `ArrowUpRight` beside the expanded mini-player
   title. It uses the loaded player's uid for a deterministic client-side link to the canonical song
   detail route, so it cannot accidentally follow browser history or jump to a different song armed
