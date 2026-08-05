@@ -2,7 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { LAYER, LAYER_ORDER, type LayerName } from './layers'
 
 // The layer scale is the whole point of the contract, so the relationships it encodes are asserted
-// rather than left to source order (docs/screens/navigation.md v3). A regression here is exactly the
+// rather than left to source order (docs/screens/navigation.md v5). A regression here is exactly the
 // bug this replaced: a surface quietly out-ranking the overlay that is supposed to cover it.
 describe('layer scale', () => {
   it('lists every layer exactly once, in strictly increasing rank order', () => {

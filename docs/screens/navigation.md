@@ -1,6 +1,6 @@
 # Screen — Navigation
 
-**Spec version:** 3
+**Spec version:** 5
 
 **Figma frames:** `Navigation`, `Navigation-1..5`, `Sidebar`, `Header`, `mobile-menu`, `Mobile`.
 The **sidebar footer** below post-dates these frames — verify the rest against them, not the footer.
@@ -63,10 +63,42 @@ the desktop sidebar and desktop content geometry are unchanged.
 - Menu, reader-options (when present), and search each occupy the same **40 × 40 px** centered
   control slot. Icons may have different intrinsic drawings, but their slot centers share one
   vertical axis and the first/last slot centers are symmetric within the bar.
-- The `BrandWordmark` follows the menu slot with **4 px** separation and is optically centered on
-  the same axis. It takes the flexible middle region without changing the right action cluster.
+- The `BrandWordmark` follows the menu slot with **4 px** separation and takes the flexible middle
+  region without changing the right action cluster. Its box has its own rules — below.
 - Reader options and Search form a right-aligned cluster with **4 px** between their control slots.
   When reader options are absent, Search stays in the final slot; no placeholder gap is rendered.
+
+#### The wordmark's box
+
+The mark is live text in the 5th Avenue display face ([`typography.md`](../theme/typography.md)), and
+**its ink does not fit inside its own box** — in either axis. Ascenders reach 0.761 em and the `y`
+descender 0.249 em against the face's 0.754 / 0.246 em ascent / descent, and *every* glyph in the
+face carries a **negative left side bearing** (`G` at −0.042 em), so the first letter's ink begins
+left of the text origin. Three consequences the bar must honour:
+
+- Its link is a **40 px** slot — the same height as a control slot, on the same axis — not a box the
+  height of the text's line box. The middle region truncates **horizontally only**; a clip box the
+  height of the em box shaves the ascender tops and the `y` tail. (The bar is a composited layer
+  while it animates, so that overflow is rasterized against the clip box's device pixels and the
+  shaving is visible on real hardware, worst on iOS Safari.) The 40 px slot also gives the brand
+  link a real touch target.
+- **The clip box's left edge sits left of the text origin.** The 4 px that separate the mark from
+  the menu slot are the link's own **padding**, not a margin, so the clip window opens at the menu
+  slot's edge while the text still starts 4 px later. A clip box that begins *at* the origin cuts
+  the `G`'s bowl into a flat vertical edge — 0.042 em of it, the full height of the bowl's outer
+  curve. Margin would put the clip edge back on the origin and bring the shave back.
+- The mark is **optically centered on its cap-height band** — baseline → cap top shares the control
+  axis — not centered on its em box. Em-box centering counts the descender space as visual weight
+  and the mark reads **0.124 em high** of the icons beside it. For this face the correction is a
+  0.248 em top pad on a centered mark (cap height 0.756 em; em-box centering puts the baseline
+  0.254 em below the axis, cap-band centering wants 0.378 em).
+
+All three rules are **mobile-only**: the sidebar and 404 wordmarks sit in their own space with
+nothing clipping them and no fixed-size control to align against, and are unchanged.
+
+The **4 px separation** above is measured to the mark's text origin, which is where the reader's eye
+reads the left edge of the bar's text column — not to the link box, which now starts earlier because
+it carries the gap as padding.
 
 The bar is **direction-aware while scrolling on mobile**:
 
@@ -150,6 +182,11 @@ Settings lives, not in the main tab set.
 - Active-route highlighting covers nested routes.
 - At a 390 px viewport, the mobile menu/search control slots are symmetric, all visible control
   slots share a vertical center, and the optional reader-options slot does not displace Search.
+- At a 390 px viewport the full "Gaudiya Kirtan" string renders with no glyph shaved: the mark's ink
+  box — ascender tops, the `y` tail, and the `G`'s left overhang — sits inside its link's clip box on
+  every edge, with the reader-options control present and absent. The `G`'s outer bowl is a curve at
+  the pixel level, not a straight vertical edge at the clip boundary.
+- The mark's cap-height band centers on the same axis as the 40 px control slots.
 - Downward travel beyond the threshold hides the bar; small reverse jitter does not reveal it;
   upward travel beyond the threshold does. Returning to the top and route navigation reveal it.
 - At 768 px and wider, the desktop layout and scroll behavior are unchanged.
@@ -169,6 +206,13 @@ and `Sidebar` frames.
 
 ## Change log
 
+- **v5 (web)** — The mobile clip box must also open **left of the text origin**: the face's negative
+  left side bearing put the `G`'s bowl outside a clip box that began at the origin, shaving it flat.
+  The 4 px menu-to-mark gap becomes the link's padding rather than its margin, and is specified
+  against the mark's text origin.
+- **v4 (web)** — Specified the mobile wordmark's box: a 40 px link slot that truncates horizontally
+  only (v2's text-height clip box shaved the display face's ascenders and `y` tail), and optical
+  centering on the cap-height band rather than the em box. Mobile-only; desktop unchanged.
 - **v3 (web)** — Defined the **layer order** as one shared, ordered scale instead of per-component
   z-indices, and fixed the relationship it had wrong: the mini-player outranked the mobile drawer's
   scrim, so a loaded player floated lit above the dim while the menu was open. The scrim now covers

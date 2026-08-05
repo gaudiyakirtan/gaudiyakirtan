@@ -1,6 +1,6 @@
 # Shared components
 
-**Spec version:** 2
+**Spec version:** 4
 
 **Figma frames:** `Components`, `Group 15/16`, `Frame *`.
 
@@ -97,6 +97,31 @@ from a single `aria-label` on the wrapper — otherwise assistive tech announces
 at a time. A reader who prefers reduced motion (`useReducedMotion`) still gets the colour shift, just
 not the per-letter spring.
 
+| Prop | Type | Description |
+|------|------|-------------|
+| `className` | `string` | Size / colour utilities for the mark (e.g. `text-lg`). |
+| `opticalCenter` | `boolean` | Opt-in: center the mark on its **cap-height band** instead of its em box. |
+
+`opticalCenter` exists because the display face's descender space is not visual weight: centered on
+its em box, the mark reads 0.124 em high of anything sized beside it. It is opt-in and only
+meaningful where a **centering** parent gives the mark a fixed-height slot — today the mobile top bar
+([`navigation.md`](navigation.md)), which aligns it against 40 px control slots. The sidebar and 404
+marks sit in their own space with nothing to align to and stay em-box centered.
+
+**The face's ink does not fit inside the mark's box, in either axis**, so *any* clipping ancestor
+must be given room on all four edges:
+
+- Vertically, ascenders reach 0.761 em and the `y` descender 0.249 em against the face's
+  0.754 / 0.246 em ascent / descent, so a clip box the height of the text's line box shaves the
+  ascender tops and the tail.
+- Horizontally, **every glyph in the face has a negative left side bearing** (`G` −0.042 em, `y`
+  −0.102 em): the ink begins *left of the text origin*. A clip box whose left edge sits on the origin
+  cuts the first letter's outer curve into a flat vertical edge — small in absolute terms, and
+  unmistakable on a capital.
+
+Clipping the mark **to a width** is fine and is how the mobile bar truncates; clipping it to its own
+box is not. Give the clipping ancestor height and a left inset, and let it trim only the far edge.
+
 Used by the sidebar brand ([`navigation.md`](navigation.md)); the mridanga music logo that used to
 sit beside it was removed. iOS and Android ship the same display face (iOS `BrandFont.swift`,
 Android `res/font/`) so the wordmark reads identically across platforms. It is also the brand on the
@@ -107,6 +132,9 @@ Android `res/font/`) so the wordmark reads identically across platforms. It is a
 - A song row renders identically on every screen that shows songs.
 - The `BrandWordmark` follows the theme colour (no invert hack) and exposes one accessible name, not
   one per letter.
+- No glyph of the wordmark is shaved by a clipping ancestor — including the first letter's left
+  overhang, whose outer curve must read as a curve and not as a straight edge at the clip boundary.
+  With `opticalCenter`, its cap-height band — not its em box — centers on the slot it is aligned in.
 - Rows on an offset surface show a visible hover.
 - `SongsSection` renders nothing for an empty list.
 - `singleRow` affects home only; `/topics` and `/books` keep their grids.
@@ -114,6 +142,11 @@ Android `res/font/`) so the wordmark reads identically across platforms. It is a
 
 ## Change log
 
+- **v4** — `BrandWordmark`: the ink overflows the mark's box **horizontally** too — every glyph has a
+  negative left side bearing — so a clipping ancestor needs a left inset as well as height.
+- **v3** — `BrandWordmark`: documented that the display face's ink overflows its em box (so a
+  clipping ancestor must be taller than the text) and added the opt-in `opticalCenter` prop that
+  centers the mark on its cap-height band.
 - **v2** — Added `BrandWordmark`: the live-text wordmark in the brand display face that replaces the
   `sri-gaudiya-kirtan.svg` logo, with a per-letter hover spring behind a single accessible name.
 - **v1** — Initial spec: `SongListItem.surface` (and the invisible-hover bug it fixes),

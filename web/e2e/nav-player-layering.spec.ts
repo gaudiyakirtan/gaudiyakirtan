@@ -2,7 +2,7 @@ import { expect, test, type Locator, type Page } from '@playwright/test'
 
 /**
  * Layer order between the mobile navigation drawer and the mini-player
- * (docs/screens/navigation.md v3 §"Layer order (web)" + player.md v13).
+ * (docs/screens/navigation.md v5 §"Layer order (web)" + player.md v13).
  *
  * The regression these guard: the player outranked the drawer's scrim, so a loaded mini-player
  * floated lit and clickable above the dim while the menu was open.

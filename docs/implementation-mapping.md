@@ -60,9 +60,9 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | theme (Gaura/Shyam) | ✅ | ✅* | ✅ |
 | home (v3 — re-purposed) | ✅ | — | — |
 | today (v1) — embedded as home §1 | ✅ | — | — |
-| navigation (v3) | ✅ v3 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
+| navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
-| components (v2) | ✅ | — | — |
+| components (v4) | ✅ v4 green | — | — |
 | collections / books / topics | ✅ | ✅* | ✅ |
 | artist/book images | ✅ | ✅* | ✅ |
 | unit tests | ✅ | ✅* | ✅ |
@@ -71,7 +71,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 
 Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbox-blocked; confirm on a real
 Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a
-web surface (navigation v3 / player v13: the web z-index scale and the drawer-over-mini-player
+web surface (navigation v5 / player v13: the web z-index scale and the drawer-over-mini-player
 model), so iOS/Android are not stale against it; they stay conformant at the version before it ·
 `🔨` in progress · `—` not applicable / not on that platform.
 

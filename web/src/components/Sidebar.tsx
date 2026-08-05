@@ -143,7 +143,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, collapsed = false, s
     <>
       {/* The scrim sits ABOVE the mini-player (LAYER.navigationScrim > LAYER.player): opening the
           drawer puts the whole current screen behind the dim, the player included, and the scrim —
-          not the drawer — is what takes the tap that closes it. See docs/screens/navigation.md v3. */}
+          not the drawer — is what takes the tap that closes it. See docs/screens/navigation.md v5. */}
       {isOpen && (
         <div
           data-testid="nav-scrim"
