@@ -6,6 +6,44 @@ async function expectHeaderState(page: Page, state: 'visible' | 'hidden') {
   await expect(mobileHeader(page)).toHaveAttribute('data-scroll-state', state)
 }
 
+/**
+ * Where the wordmark's *ink* actually lands, which is not where its box lands: the brand face
+ * overflows its em box, so a box-only assertion would happily pass on a header that shaves the
+ * ascenders and the `y` tail. Ink is derived from the baseline (recovered from a letter box plus
+ * the face's own half-leading) and the rasterizer's own bounds for the string.
+ */
+async function measureWordmarkInk(page: Page) {
+  await page.evaluate(() => document.fonts.ready)
+  return page.evaluate(() => {
+    const header = document.querySelector('[data-testid="mobile-header"]')!
+    const clip = header.querySelector('a[href="/"]')!
+    const mark = clip.querySelector('[role="img"]')!
+    const style = getComputedStyle(mark)
+
+    const ctx = document.createElement('canvas').getContext('2d')!
+    ctx.font = `${style.fontSize} ${style.fontFamily}`
+    const string = ctx.measureText(mark.getAttribute('aria-label') ?? '')
+    const cap = ctx.measureText('G')
+
+    // The letters are flex items whose boxes are one line box tall, so the baseline sits a
+    // half-leading plus an ascent below the first letter's top — and, unlike the mark's own box,
+    // that is unaffected by any centering pad the mark carries.
+    const letter = mark.firstElementChild!.getBoundingClientRect()
+    const content = string.fontBoundingBoxAscent + string.fontBoundingBoxDescent
+    const baseline = letter.top + (parseFloat(style.lineHeight) - content) / 2 + string.fontBoundingBoxAscent
+
+    const clipBox = clip.getBoundingClientRect()
+    return {
+      clip: { top: clipBox.top, bottom: clipBox.bottom, height: clipBox.height },
+      inkTop: baseline - string.actualBoundingBoxAscent,
+      inkBottom: baseline + string.actualBoundingBoxDescent,
+      // Cap-height band: what a reader perceives as the mark, descender space excluded.
+      capCenter: baseline - cap.actualBoundingBoxAscent / 2,
+      overflowsEmBox: content < string.actualBoundingBoxAscent + string.actualBoundingBoxDescent,
+    }
+  })
+}
+
 test.describe('mobile header', () => {
   test.use({ viewport: { width: 390, height: 844 } })
 
@@ -41,6 +79,39 @@ test.describe('mobile header', () => {
     const searchOnlyBox = await search.boundingBox()
     expect(searchOnlyBox).not.toBeNull()
     expect(searchOnlyBox!.x + searchOnlyBox!.width).toBe(378)
+  })
+
+  test('draws the wordmark unclipped and optically centered on the control axis', async ({ page }) => {
+    await page.goto('/songs/A8')
+
+    const header = mobileHeader(page)
+    const brand = header.locator('a[href="/"]')
+    const menu = header.getByRole('button', { name: 'Open menu' })
+    await expect(header.getByRole('button', { name: 'Display options' })).toBeVisible()
+    await expect(brand).toHaveAccessibleName('Gaudiya Kirtan')
+
+    // The brand link is a control-sized slot on the control axis, not a box the height of its text.
+    const menuBox = (await menu.boundingBox())!
+    const brandBox = (await brand.boundingBox())!
+    const controlCenter = menuBox.y + menuBox.height / 2
+    expect(brandBox.height).toBe(40)
+    expect(brandBox.y + brandBox.height / 2).toBe(controlCenter)
+
+    for (const route of ['/songs/A8', '/tracks']) {
+      await page.goto(route)
+      const ink = await measureWordmarkInk(page)
+
+      // The premise: this face's ink is taller than its em box. If that ever stops being true the
+      // assertions below stop meaning anything, so fail loudly rather than pass vacuously.
+      expect(ink.overflowsEmBox, `wordmark ink should overflow its em box on ${route}`).toBe(true)
+
+      // …so the clip box must be taller than the ink: it trims width, never glyphs.
+      expect(ink.inkTop, `wordmark top clipped on ${route}`).toBeGreaterThan(ink.clip.top)
+      expect(ink.inkBottom, `wordmark tail clipped on ${route}`).toBeLessThan(ink.clip.bottom)
+
+      // Optically centered: the cap-height band shares the axis, within a sub-pixel of rounding.
+      expect(Math.abs(ink.capCenter - controlCenter), `wordmark off-axis on ${route}`).toBeLessThan(1)
+    }
   })
 
   test('hides down, reveals up, resets at the top and reveals before menu or search opens', async ({ page }) => {

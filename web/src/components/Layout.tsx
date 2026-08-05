@@ -124,8 +124,14 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
               <line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="18" x2="21" y2="18" />
             </svg>
           </button>
-          <Link href="/" className="ml-1 flex min-w-0 flex-1 items-center overflow-hidden">
-            <BrandWordmark className="text-lg" />
+          {/* A 40px slot like the controls beside it, not a box the height of the text: the brand
+              face's ink overflows its em box (see BrandWordmark), so clipping at text height shaved
+              the ascenders and the "y" tail - and the header is a composited layer while it
+              animates, which rasterizes that overflow against the clip box and makes the shave
+              plainly visible on a phone. At 40px the clip only ever trims width, which is all the
+              middle region needs; it also gives the brand link a real touch target. */}
+          <Link href="/" className="ml-1 flex h-10 min-w-0 flex-1 items-center overflow-hidden">
+            <BrandWordmark className="text-lg" opticalCenter />
           </Link>
           {/* Reader display options — only on a song screen, which publishes its capabilities via
               ReaderOptionsContext (the control renders nothing otherwise). It lives here on mobile
