@@ -51,7 +51,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | songs-list / library | ✅ | ✅* | ✅ |
 | tracks (v1) | ✅ | — | — |
 | authors | ✅ | ✅* | ✅ |
-| search | ✅ v9 | ✅ | ✅ |
+| search | ✅ v10 | ✅ | ✅ |
 | url-resolution (v1) / 404 | ✅ | n/a | n/a |
 | pwa (v1) — offline/install | ✅ | n/a | n/a |
 | seo (v1) — metadata/sitemap | ✅ | n/a | n/a |
@@ -77,7 +77,9 @@ model), so iOS/Android are not stale against it; they stay conformant at the ver
 
 **Web overhaul (build + screenshot/CDP verified):** top bar removed; search is a **centered
 command-palette modal** on desktop and a **full-screen search page** on mobile — one component,
-one media query ([search.md](screens/search.md) v9; `SearchModal.tsx`, ⌘K / sidebar / mobile header,
+one media query ([search.md](screens/search.md) v10 — the mobile surface layers an opaque
+underlay behind a visual-viewport-sized panel, so the iOS keyboard accessory strip can never show
+the page; `SearchModal.tsx`, ⌘K / sidebar / mobile header,
 client index `/search-index.json`); a **collapsible** sidebar (`Sidebar.tsx` — icon-rail toggle,
 persisted; theme
 toggle labelled **Gaura/Shyam**, previewing the other theme's colour on hover); a **Tracks** library
