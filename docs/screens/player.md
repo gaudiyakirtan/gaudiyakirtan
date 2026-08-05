@@ -1,6 +1,6 @@
 # Screen — Audio Player
 
-**Spec version:** 1
+**Spec version:** 11
 
 **Figma frames:** `Now Playing`, `Player`, `Track`, `trailingIcon2_`.
 
@@ -67,10 +67,18 @@ Playback still **degrades gracefully** on any load failure (network off, missing
   (a song page "arms" its song via `PlayerContext.arm()`, so the FAB shows there; elsewhere nothing
   until playback starts). States: *idle (armed)* → a compact circular play FAB; *loaded* → a
   mini-player **card** with artwork, **song title** (two lines → **marquee** when longer,
-  `MarqueeTitle`), the recording's **reciter** (not the composer), a **scrubber** with times, and a
+  `MarqueeTitle`), an **open-song** arrow (`ArrowUpRight`) immediately beside that title, the
+  recording's **reciter** (not the composer), a **scrubber** with times, and a
   control row (Lucide icons) — **loop / continue-playing / sleep-timer / download / share**, plus a
   stacked-avatar **recordings** picker (`RecordingPickerButton`) and a **minimize** button;
   *collapsed (while playing)* → back to a circle. The extra controls:
+  - **Open song** — the title-row arrow navigates directly to `/songs/<playing-song-uid>` with
+    client-side routing, preserving the active player session. It always targets the song loaded in
+    the player, not a different `armedSong` from the page being read and not an arbitrary browser
+    history entry. It remains available when the recording is in the error state because the song
+    text is still useful. The control appears only on the expanded loaded card, where the title is
+    visible; the armed idle FAB and collapsed circle do not duplicate it. Its accessible label and
+    tooltip include the displayed song title, with a generic fallback if that rendering is empty.
   - **Continue-playing** (`autoContinue`, default **on**) — when the current take ends, rolls on to
     the next take of the same song. Disabled (not hidden) on single-take songs so the control row
     doesn't reflow between songs. Precedence: `loop` wins over continue.
@@ -124,11 +132,19 @@ Playback still **degrades gracefully** on any load failure (network off, missing
 
 - **Behavioral:** with a *test* URL (or a stubbed reachable file), play/pause/scrub work and the
   now-playing shows title/author/artist; with the placeholder URL, the error state shows cleanly (no
-  crash). The song-detail play button opens the player and starts the track. Build/typecheck green.
+  crash). The song-detail play button opens the player and starts the track. From another route,
+  the title-row open-song arrow returns to the loaded song's canonical detail route without
+  replacing the player session; it still targets the loaded song when the page has armed a
+  different one. Build/typecheck green.
 - **Visual:** matches `Now Playing` / `Player` / `Track` frames.
 
 ## Change log
 
+- **v11 (web)** — Added a compact **open-song** `ArrowUpRight` beside the expanded mini-player
+  title. It uses the loaded player's uid for a deterministic client-side link to the canonical song
+  detail route, so it cannot accidentally follow browser history or jump to a different song armed
+  by the current page. The action remains present when audio is unavailable, closes any player
+  drop-up before navigation, and is omitted from the title-less idle/collapsed circles.
 - **v10 (web)** — **Continue-playing became "Keep playing" (endless).** It previously only rolled on
   to the next *take*, so a single-take song, or the last song of a book, stopped dead. It now falls
   through to any other song with audio and never stops on its own (`pickEndlessSong` +
