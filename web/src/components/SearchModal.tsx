@@ -1,13 +1,16 @@
-import React, { useEffect, useMemo, useRef, useState } from 'react'
+import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useRouter } from 'next/router'
 import {
   Search, CornerDownLeft, Home, Music, User, Hash, BookOpen, Settings, Info, Mail,
-  AudioLines, Type, Volume2, Tag as TagIcon, FileText, Mic2, ListMusic,
+  AudioLines, Type, Volume2, Tag as TagIcon, FileText, Mic2, ListMusic, ArrowLeft, X,
 } from 'lucide-react'
 import { buildDuet, searchDuet, type IDuetDoc } from '../services/duet'
 import { NAV_ENTRIES } from '../services/urlResolver'
 import { useSettings } from '../utils/SettingsContext'
+import { lockScroll } from '../utils/bodyScrollLock'
 import { LAYER } from '../utils/layers'
+import { searchViewportStyle } from '../utils/searchViewport'
+import { useSearchViewport } from '../utils/useSearchViewport'
 
 interface SearchModalProps {
   open: boolean
@@ -64,6 +67,14 @@ const TYPE_RANK: Record<EntryType, number> = { page: 7, book: 6, topic: 5, autho
  * Universal command palette (docs/screens/search.md). Finds **everything**: pages/nav, songs,
  * books, topics, authors, and tags — each ranked by the shared offline fuzzy matcher and shown with
  * a type icon. Data entities are fetched once from /search-index.json (emitted at build).
+ *
+ * **One component, two presentations** (spec v9), chosen by media query alone — never by a
+ * JavaScript width check, so the server-rendered markup is already the right shape:
+ * - `≥ md` (768 px): the centered command-palette card over a dimmed backdrop, unchanged since v2.
+ * - `< md`: a **full-screen search page** — edge to edge, no card, a back button instead of a
+ *   backdrop to tap, and a results region that takes the leftover height and scrolls internally.
+ *   Its height comes from `.gk-search-surface` (globals.css): `100dvh` refined by the measured
+ *   visual viewport, because `dvh` does not shrink for the on-screen keyboard.
  */
 /**
  * Below this Duet score a hit is a lone shared trigram, not a match worth showing. Duet only ever
@@ -79,8 +90,18 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
   const [content, setContent] = useState<Record<string, string[]> | null>(null)
   const [query, setQuery] = useState('')
   const [selected, setSelected] = useState(0)
-  const inputRef = useRef<HTMLInputElement>(null)
+  const inputRef = useRef<HTMLInputElement | null>(null)
   const listRef = useRef<HTMLDivElement>(null)
+  const viewport = useSearchViewport(open)
+
+  // Focus via the ref callback, not a timer: the input only exists while the surface is open, so
+  // this runs exactly once per open — synchronously during commit, which keeps it inside the tap
+  // that opened search. That is what makes iOS raise the keyboard; a setTimeout lands after the
+  // gesture has ended and is ignored.
+  const attachInput = useCallback((node: HTMLInputElement | null) => {
+    inputRef.current = node
+    node?.focus()
+  }, [])
 
   useEffect(() => {
     if (!open || entities) return
@@ -105,8 +126,36 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
   useEffect(() => {
     setQuery('')
     setSelected(0)
-    if (open) setTimeout(() => inputRef.current?.focus(), 20)
   }, [open])
+
+  // Lock the page behind the surface. The release is the effect's cleanup, so EVERY exit path —
+  // close button, Escape, backdrop, tapping a result, a route change, an unmount mid-navigation —
+  // goes through it; there is no path that can leak a locked page. The lock is reference-counted
+  // and restores the previous inline value, so React's dev-mode double-invoke and the
+  // `overflow-x: clip` body rule both survive it (see utils/bodyScrollLock).
+  useEffect(() => {
+    if (!open) return
+    return lockScroll(document.body)
+  }, [open])
+
+  // Escape at the document, not on the panel: on the full-screen presentation focus can sit on the
+  // back/clear button or a result row, and the key should close search from all of them.
+  useEffect(() => {
+    if (!open) return
+    const onEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') onClose()
+    }
+    document.addEventListener('keydown', onEscape)
+    return () => document.removeEventListener('keydown', onEscape)
+  }, [open, onClose])
+
+  // A navigation that did not come from `go()` — a hardware/browser back button, or any other link
+  // — must close search too, or the reader lands on a new page underneath an open search surface.
+  useEffect(() => {
+    if (!open) return
+    router.events.on('routeChangeStart', onClose)
+    return () => router.events.off('routeChangeStart', onClose)
+  }, [open, onClose, router.events])
 
   const all = useMemo(() => [...PAGES, ...(entities ?? [])], [entities])
 
@@ -157,8 +206,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
     router.push(href)
   }
 
+  // Escape is handled by the document listener above; this covers list navigation only.
   const onKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Escape') return onClose()
     if (!results.length) return
     if (e.key === 'ArrowDown') { e.preventDefault(); setSelected((s) => Math.min(s + 1, results.length - 1)) }
     else if (e.key === 'ArrowUp') { e.preventDefault(); setSelected((s) => Math.max(s - 1, 0)) }
@@ -171,33 +220,84 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
 
   if (!open) return null
 
+  const activeId = results.length ? `search-result-${selected}` : undefined
+
   return (
+    // The outer layer is the mobile surface AND the desktop backdrop. On a phone the panel covers
+    // it completely, so `onClick={onClose}` is unreachable there (a full-screen search page has no
+    // backdrop to dismiss — that is what the back button is for); on desktop it is the dimmed
+    // backdrop and keeps its click-to-dismiss. Sizing lives in `.gk-search-surface`, which is why
+    // there is no `top-0`/`h-*` utility here to fight with it.
     <div
-      style={{ zIndex: LAYER.searchModal }}
-      className="fixed inset-0 flex items-start justify-center bg-black/50 px-4 pt-[12vh] backdrop-blur-sm"
+      className="gk-search-surface fixed left-0 right-0 flex flex-col bg-[var(--background)] md:bottom-0 md:flex-row md:items-start md:justify-center md:bg-black/50 md:px-4 md:pt-[12vh] md:backdrop-blur-sm"
+      style={{ ...searchViewportStyle(viewport), zIndex: LAYER.searchModal }}
       onClick={onClose}
       role="dialog"
       aria-modal="true"
       aria-label="Search"
     >
       <div
-        className="w-full max-w-xl overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--background)] shadow-2xl"
+        data-testid="search-panel"
+        className="flex min-h-0 w-full flex-1 flex-col overflow-hidden bg-[var(--background)] pt-[env(safe-area-inset-top)] md:h-auto md:max-w-xl md:flex-none md:rounded-2xl md:border md:border-[var(--border)] md:pt-0 md:shadow-2xl"
         onClick={(e) => e.stopPropagation()}
         onKeyDown={onKeyDown}
       >
-        <div className="flex items-center gap-3 border-b border-[var(--border)] px-4">
-          <Search size={18} className="flex-none text-[var(--neutral)]" />
+        <div className="flex flex-none items-center gap-2 border-b border-[var(--border)] px-2 md:gap-3 md:px-4">
+          {/* Mobile: a back arrow, the convention for a full-screen search surface. Desktop: the
+              magnifier stays decorative — the backdrop and Esc are the dismissals there. */}
+          <button
+            type="button"
+            aria-label="Close search"
+            onClick={onClose}
+            className="inline-flex h-10 w-10 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:text-[var(--primary)] md:hidden"
+          >
+            <ArrowLeft size={20} />
+          </button>
+          <Search size={18} className="hidden flex-none text-[var(--neutral)] md:block" />
           <input
-            ref={inputRef}
+            ref={attachInput}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search songs, authors, books, topics, pages…"
-            className="w-full bg-transparent py-4 text-[var(--primary)] placeholder:text-[var(--neutral)] focus:outline-none"
+            aria-label="Search"
+            role="combobox"
+            aria-expanded={results.length > 0}
+            aria-controls="search-results"
+            aria-activedescendant={activeId}
+            aria-autocomplete="list"
+            autoComplete="off"
+            autoCorrect="off"
+            autoCapitalize="none"
+            spellCheck={false}
+            // `text-base` is load-bearing on iOS: anything under 16px makes Safari zoom the page in
+            // on focus, which would break the measured full-screen surface.
+            className="w-full min-w-0 bg-transparent py-3.5 text-base text-[var(--primary)] placeholder:text-[var(--neutral)] focus:outline-none md:py-4"
           />
-          <kbd className="hidden rounded border border-[var(--border)] px-1.5 py-0.5 text-[10px] text-[var(--neutral)] sm:inline">Esc</kbd>
+          {query ? (
+            <button
+              type="button"
+              aria-label="Clear search"
+              onClick={() => { setQuery(''); inputRef.current?.focus() }}
+              className="inline-flex h-10 w-10 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:text-[var(--primary)] md:hidden"
+            >
+              <X size={18} />
+            </button>
+          ) : null}
+          <kbd className="hidden flex-none rounded border border-[var(--border)] px-1.5 py-0.5 text-[10px] text-[var(--neutral)] md:inline">Esc</kbd>
         </div>
 
-        <div ref={listRef} className="max-h-[55vh] overflow-y-auto p-2">
+        {/* Mobile: takes every remaining pixel and scrolls inside itself — `overscroll-contain` stops
+            a fling at the end of the list from chaining into the page behind. Desktop: the v2 55vh
+            cap on an auto-height card. */}
+        <div
+          ref={listRef}
+          id="search-results"
+          // Only a region that actually holds `option` rows is a listbox — with the idle or
+          // no-matches copy inside it, it is just a paragraph in a box.
+          role={results.length ? 'listbox' : undefined}
+          aria-label={results.length ? 'Search results' : undefined}
+          className="min-h-0 flex-1 overflow-y-auto overscroll-contain p-2 pb-[calc(0.5rem+env(safe-area-inset-bottom))] md:max-h-[55vh] md:flex-none md:pb-2"
+        >
           {!query.trim() ? (
             <p className="px-3 py-10 text-center text-sm text-[var(--neutral)]">
               Search everything — songs, authors, books, topics, tags, and pages.
@@ -209,10 +309,14 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
               <button
                 key={`${e.type}-${e.href}-${i}`}
                 type="button"
+                id={`search-result-${i}`}
+                role="option"
+                aria-selected={i === selected}
                 data-idx={i}
                 onMouseEnter={() => setSelected(i)}
                 onClick={() => go(e.href)}
-                className={`flex w-full items-center gap-3 rounded-xl px-3 py-2 text-left transition-colors ${
+                // `py-2.5` on mobile keeps a row at ~44px, the minimum comfortable touch target.
+                className={`flex w-full items-center gap-3 rounded-xl px-3 py-2.5 text-left transition-colors md:py-2 ${
                   i === selected ? 'bg-[var(--background-offset)]' : ''
                 }`}
               >
@@ -238,7 +342,9 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
           )}
         </div>
 
-        <div className="flex items-center gap-4 border-t border-[var(--border)] px-4 py-2 text-[11px] text-[var(--neutral)]">
+        {/* Keyboard hints name physical keys, so they are desktop-only — on the full-screen mobile
+            surface they would be a permanent lie taking a row of the results' height. */}
+        <div className="hidden flex-none items-center gap-4 border-t border-[var(--border)] px-4 py-2 text-[11px] text-[var(--neutral)] md:flex">
           <span className="flex items-center gap-1"><CornerDownLeft size={12} /> open</span>
           <span>↑↓ navigate</span>
           <span className="ml-auto">{results.length ? `${results.length} results` : ''}</span>

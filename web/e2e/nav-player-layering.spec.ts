@@ -161,13 +161,14 @@ test.describe('mobile navigation over the player', () => {
     await loadPlayer(page)
     await openMenu(page)
 
-    // Search from within the drawer replaces it (the drawer closes itself), and the palette is above
-    // every other surface.
+    // Search from within the drawer replaces it (the drawer closes itself), and the search surface
+    // is above every other layer. On mobile it is a full-screen page, so its back button—not a
+    // backdrop click—is the dismissal (docs/screens/search.md v9).
     await drawer(page).getByRole('button', { name: /^Search/ }).click()
     const dialog = page.getByRole('dialog', { name: 'Search' })
     await expect(dialog).toBeVisible()
     expect(await zIndexOf(dialog)).toBeGreaterThan(await zIndexOf(drawer(page)))
-    await dialog.click({ position: { x: 2, y: 2 } })
+    await dialog.getByRole('button', { name: 'Close search' }).click()
     await expect(dialog).toHaveCount(0)
 
     await openMenu(page)

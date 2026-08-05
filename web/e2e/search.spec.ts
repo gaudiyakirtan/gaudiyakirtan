@@ -52,6 +52,11 @@ test('a Bengali query returns the same top hit as its Latin spelling', async ({ 
   await openPalette(page)
 
   await input(page).fill('radhika')
+  // The 673 KB entity index lands a moment after open; until it does the palette can only rank the
+  // dozen bundled *page* entries, and reading the top hit right away races that (it would compare a
+  // pre-index Latin hit against a post-index Bengali one). Every entity row carries a non-"page"
+  // type badge, so waiting for one is waiting for the index — with the retry `innerText` lacks.
+  await expect(rows(page).first()).not.toContainText('page')
   const latinTop = (await rows(page).first().innerText()).split('\n')[0].trim()
 
   await input(page).fill('') // clear
