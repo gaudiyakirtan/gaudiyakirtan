@@ -95,7 +95,7 @@ export const ReaderOptions: React.FC<ReaderOptionsProps> = ({
         aria-expanded={open}
         aria-label="Display options"
         title="Display options"
-        className={`transition-colors ${open ? 'text-[var(--primary)]' : 'text-[var(--neutral)]'}`}
+        className={`inline-flex h-10 w-10 items-center justify-center transition-colors ${open ? 'text-[var(--primary)]' : 'text-[var(--neutral)]'}`}
       >
         <SlidersHorizontal size={21} />
       </button>

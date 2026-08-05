@@ -1,6 +1,6 @@
 # Screen — Navigation
 
-**Spec version:** 1
+**Spec version:** 2
 
 **Figma frames:** `Navigation`, `Navigation-1..5`, `Sidebar`, `Header`, `mobile-menu`, `Mobile`.
 The **sidebar footer** below post-dates these frames — verify the rest against them, not the footer.
@@ -54,6 +54,33 @@ binding when accounts land. The data layer is untouched: `getSongGroups('collect
 
 Tab bar; the sidebar becomes a drawer behind a scrim. Same destinations.
 
+### Web mobile top bar
+
+The web surface uses a **56 px sticky top bar** below the browser chrome. This bar is mobile-only;
+the desktop sidebar and desktop content geometry are unchanged.
+
+- Horizontal inset: **12 px** on both sides.
+- Menu, reader-options (when present), and search each occupy the same **40 × 40 px** centered
+  control slot. Icons may have different intrinsic drawings, but their slot centers share one
+  vertical axis and the first/last slot centers are symmetric within the bar.
+- The `BrandWordmark` follows the menu slot with **4 px** separation and is optically centered on
+  the same axis. It takes the flexible middle region without changing the right action cluster.
+- Reader options and Search form a right-aligned cluster with **4 px** between their control slots.
+  When reader options are absent, Search stays in the final slot; no placeholder gap is rendered.
+
+The bar is **direction-aware while scrolling on mobile**:
+
+1. It is always visible at the top of the document and after route navigation.
+2. Once the reader is beyond the bar, at least **12 px of accumulated downward travel** hides it by
+   translating the complete bar above the viewport. Its sticky layout space remains, preventing a
+   content jump.
+3. At least **8 px of accumulated upward travel** reveals it. Direction changes reset the
+   accumulator, and sub-pixel/jitter deltas do not toggle the bar.
+4. Opening the menu or search first reveals the bar. The movement uses a short transform-only
+   transition; `prefers-reduced-motion` removes the transition, not the behavior.
+5. The behavior is gated by the same `<768 px` breakpoint as `md:hidden`; resizing to desktop resets
+   the hidden state. Desktop receives no new header, spacing, scroll listener behavior, or offset.
+
 ## States
 
 | State | Behavior |
@@ -78,12 +105,20 @@ Settings lives, not in the main tab set.
   the theme toggle does.
 - No Collections group appears while the corpus ships no `collection`-kind data.
 - Active-route highlighting covers nested routes.
+- At a 390 px viewport, the mobile menu/search control slots are symmetric, all visible control
+  slots share a vertical center, and the optional reader-options slot does not displace Search.
+- Downward travel beyond the threshold hides the bar; small reverse jitter does not reveal it;
+  upward travel beyond the threshold does. Returning to the top and route navigation reveal it.
+- At 768 px and wider, the desktop layout and scroll behavior are unchanged.
 
 **Visual:** the footer row has **no frame** — draw one. The rest verifies against the `Navigation*`
 and `Sidebar` frames.
 
 ## Change log
 
+- **v2 (web)** — Normalized the mobile top bar to symmetric 40 px control slots and documented its
+  mobile-only direction-aware hide-on-down/reveal-on-up behavior, including thresholds, route/top
+  resets, reduced motion, and the desktop non-regression contract.
 - **v1** — Initial spec. Footer collapsed from four stacked full-width items to one horizontal row
   (icon-only Settings/About/Contact + labelled theme toggle); Collections group deferred pending
   auth + accounts.
