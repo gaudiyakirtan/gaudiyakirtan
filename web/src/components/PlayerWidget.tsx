@@ -7,6 +7,7 @@ import {
 } from 'lucide-react'
 import { usePlayer } from '../utils/PlayerContext'
 import { useSettings } from '../utils/SettingsContext'
+import { LAYER } from '../utils/layers'
 import { pickScriptText } from '../services/textDisplay'
 import { SLEEP_TIMER_MINUTE_OPTIONS, formatRemaining } from '../services/sleepTimer'
 import { artistImageUrlFor, audioUrlFor } from '../config'
@@ -156,7 +157,16 @@ const MarqueeTitle: React.FC<{ text: string; action: React.ReactNode }> = ({ tex
 // mutually exclusive, so a single "which one is open" state stands in for three booleans.
 type OpenMenu = 'recordings' | 'sleep' | null
 
-export const PlayerWidget: React.FC = () => {
+interface PlayerWidgetProps {
+  /**
+   * The mobile navigation drawer is open, so the widget is behind its scrim (see
+   * docs/screens/navigation.md §"Drawer open (mobile)"). It keeps every bit of its state — this is
+   * purely "you are looking at something else now".
+   */
+  obscured?: boolean
+}
+
+export const PlayerWidget: React.FC<PlayerWidgetProps> = ({ obscured = false }) => {
   const {
     song, trackUid, status, armedSong, currentTime, duration,
     isLooping, toggleLoop, autoContinue, toggleAutoContinue,
@@ -172,6 +182,14 @@ export const PlayerWidget: React.FC = () => {
   useEffect(() => {
     if (song) setCollapsed(false)
   }, [song?.uid]) // eslint-disable-line react-hooks/exhaustive-deps
+
+  // A drop-up is a transient menu, dismissed by attention moving elsewhere — pressing the hamburger
+  // already closed it through the outside-mousedown handler below, so keyboard activation of the
+  // same button must not behave differently. Parking a menu under the scrim to have it reappear
+  // when the drawer closes is the surprising option. Nothing else about the player is touched.
+  useEffect(() => {
+    if (obscured) setOpenMenu(null)
+  }, [obscured])
 
   useEffect(() => {
     if (!openMenu) return
@@ -283,9 +301,16 @@ export const PlayerWidget: React.FC = () => {
     // the card wasted a quarter of a narrow screen. `env(safe-area-inset-bottom)` is 0 in Safari,
     // where the browser toolbar already reserves the space, and ~34px when installed as a PWA,
     // where it keeps the card clear of the home indicator.
+    // `LAYER.player` puts the widget in the page layer — above content and the mobile header, below
+    // the navigation scrim — so opening the menu dims it with everything else. `inert` completes
+    // that: the scrim stops the pointer, but only inert also takes the widget out of the tab order
+    // and the accessibility tree while the drawer is open.
     <div
       ref={rootRef}
-      className="fixed bottom-[calc(1rem+env(safe-area-inset-bottom))] right-3 z-50 flex flex-col items-end gap-2 sm:bottom-6 sm:right-6"
+      data-testid="player-widget"
+      inert={obscured}
+      style={{ zIndex: LAYER.player }}
+      className="fixed bottom-[calc(1rem+env(safe-area-inset-bottom))] right-3 flex flex-col items-end gap-2 sm:bottom-6 sm:right-6"
     >
       {/* recordings drop-up */}
       <AnimatePresence>
