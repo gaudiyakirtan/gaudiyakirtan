@@ -51,7 +51,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | songs-list / library | ✅ | ✅* | ✅ |
 | tracks (v1) | ✅ | — | — |
 | authors | ✅ | ✅* | ✅ |
-| search | ✅ | ✅ | ✅ |
+| search | ✅ v9 | ✅ | ✅ |
 | url-resolution (v1) / 404 | ✅ | n/a | n/a |
 | pwa (v1) — offline/install | ✅ | n/a | n/a |
 | seo (v1) — metadata/sitemap | ✅ | n/a | n/a |
@@ -73,8 +73,10 @@ Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbo
 Xcode machine) · `ᶠ` footer/nav polish · `🔨` in progress · `—` not applicable / not on that platform.
 
 **Web overhaul (build + screenshot/CDP verified):** top bar removed; search is a **centered
-command-palette modal** (`SearchModal.tsx`, ⌘K / sidebar / mobile header, client index
-`/search-index.json`); a **collapsible** sidebar (`Sidebar.tsx` — icon-rail toggle, persisted; theme
+command-palette modal** on desktop and a **full-screen search page** on mobile — one component,
+one media query ([search.md](screens/search.md) v9; `SearchModal.tsx`, ⌘K / sidebar / mobile header,
+client index `/search-index.json`); a **collapsible** sidebar (`Sidebar.tsx` — icon-rail toggle,
+persisted; theme
 toggle labelled **Gaura/Shyam**, previewing the other theme's colour on hover); a **Tracks** library
 tab ([tracks.md](screens/tracks.md)); a scope-aware **URL resolver + branded 404**
 ([url-resolution.md](screens/url-resolution.md)). The three player surfaces unified into one
