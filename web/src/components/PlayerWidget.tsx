@@ -1,6 +1,6 @@
 import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react'
 import Link from 'next/link'
-import { motion, AnimatePresence } from 'framer-motion'
+import { motion, AnimatePresence, useAnimationControls, useReducedMotion } from 'framer-motion'
 import {
   Play, Pause, Loader2, Repeat, ListEnd, Download, Share2, Minimize2, Maximize2, Check,
   Moon, X, ArrowUpRight,
@@ -49,25 +49,107 @@ const Artwork: React.FC<{ trackUid?: string; playing: boolean }> = ({ trackUid, 
   )
 }
 
-const MarqueeTitle: React.FC<{ text: string }> = ({ text }) => {
+const arrowEase = [0.22, 1, 0.36, 1] as const
+const titleBreak = /[\s\-–—/]/u
+
+const splitTitleSuffix = (text: string) => {
+  // Keep enough of the title with the action that a full line wraps a meaningful trailing phrase,
+  // rather than orphaning the arrow (or one final glyph) on a line by itself. Hyphenated titles are
+  // common here, so ordinary whitespace-only nowrap patterns are not sufficient.
+  let nearestBreak = -1
+  for (let i = text.length - 1; i >= 0; i -= 1) {
+    if (!titleBreak.test(text[i])) continue
+    if (nearestBreak < 0) nearestBreak = i + 1
+    if (Array.from(text.slice(i + 1)).length >= 12) {
+      return { prefix: text.slice(0, i + 1), suffix: text.slice(i + 1) }
+    }
+  }
+  const splitAt = nearestBreak > 0 ? nearestBreak : 0
+  return { prefix: text.slice(0, splitAt), suffix: text.slice(splitAt) }
+}
+
+const OpenSongLink: React.FC<{
+  href: string
+  label: string
+  onActivate: () => void
+}> = ({ href, label, onActivate }) => {
+  const arrowControls = useAnimationControls()
+  const reduceMotion = useReducedMotion()
+
+  const animateArrow = () => {
+    if (reduceMotion) return
+    arrowControls.stop()
+    void arrowControls.start({
+      x: [0, 14, -14, 0],
+      y: [0, -14, 14, 0],
+      opacity: [1, 0, 0, 1],
+      transition: { duration: 0.48, times: [0, 0.42, 0.43, 1], ease: arrowEase },
+    })
+  }
+
+  return (
+    <Link
+      href={href}
+      onClick={onActivate}
+      onMouseEnter={animateArrow}
+      onFocus={animateArrow}
+      aria-label={label}
+      title={label}
+      className="relative ml-0.5 inline-flex h-[1.2em] w-[1.2em] align-[-0.18em] text-[var(--neutral)] transition-colors hover:text-[var(--primary)] focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--highlight)]"
+    >
+      <span
+        data-testid="open-song-arrow-viewport"
+        className="flex h-full w-full items-center justify-center overflow-hidden"
+        aria-hidden="true"
+      >
+        <motion.span
+          data-testid="open-song-arrow-glyph"
+          initial={{ x: 0, y: 0, opacity: 1 }}
+          animate={arrowControls}
+          className="flex h-full w-full items-center justify-center"
+        >
+          <ArrowUpRight size={15} />
+        </motion.span>
+      </span>
+    </Link>
+  )
+}
+
+const MarqueeTitle: React.FC<{ text: string; action: React.ReactNode }> = ({ text, action }) => {
   const ref = useRef<HTMLDivElement>(null)
   const [overflow, setOverflow] = useState(false)
+  const { prefix, suffix } = splitTitleSuffix(text)
   useLayoutEffect(() => setOverflow(false), [text])
   useLayoutEffect(() => {
     const el = ref.current
-    if (el && !overflow) setOverflow(el.scrollHeight > el.clientHeight + 1)
+    if (el && !overflow) {
+      setOverflow(el.scrollHeight > el.clientHeight + 1 || el.scrollWidth > el.clientWidth + 1)
+    }
   }, [text, overflow])
   if (overflow) {
     return (
-      <div className="overflow-hidden">
-        <div className="marquee-track text-sm font-semibold text-[var(--primary)]">
-          <span>{text}</span>
-          <span aria-hidden="true">{text}</span>
+      <div className="flex min-w-0 items-center">
+        <div className="min-w-0 flex-1 overflow-hidden">
+          <div className="marquee-track text-sm font-semibold text-[var(--primary)]">
+            <span>{text}</span>
+            <span aria-hidden="true">{text}</span>
+          </div>
         </div>
+        {action}
       </div>
     )
   }
-  return <div ref={ref} className="line-clamp-2 text-sm font-semibold leading-snug text-[var(--primary)]">{text}</div>
+  return (
+    <div ref={ref} className="line-clamp-2 text-sm font-semibold leading-snug text-[var(--primary)]">
+      <span data-testid="player-song-title-text">
+        {prefix}
+        <span className="whitespace-nowrap">
+          <span data-testid="player-song-title-suffix">{suffix}</span>
+          {action}
+        </span>
+      </span>
+    </div>
+  )
 }
 
 // The two drop-ups (recordings, sleep timer) share one slot above the card and are
@@ -367,24 +449,27 @@ export const PlayerWidget: React.FC = () => {
               <div className="flex items-center gap-2.5">
                 <Artwork trackUid={track?.uid} playing={playing} />
                 <div className="min-w-0 flex-1">
-                  <div className="flex min-w-0 items-start">
-                    <div className="w-fit min-w-0 max-w-[calc(100%-1.875rem)]">
-                      {status === 'error' ? (
-                        <p className="text-sm font-semibold text-[var(--primary)]">Audio unavailable</p>
-                      ) : (
-                        <MarqueeTitle text={title} />
+                  {status === 'error' ? (
+                    <p className="text-sm font-semibold leading-snug text-[var(--primary)]">
+                      Audio unavailable{'\u2060'}
+                      <OpenSongLink
+                        href={`/songs/${encodeURIComponent(song!.uid)}`}
+                        onActivate={() => setOpenMenu(null)}
+                        label={openSongLabel}
+                      />
+                    </p>
+                  ) : (
+                    <MarqueeTitle
+                      text={title}
+                      action={(
+                        <OpenSongLink
+                          href={`/songs/${encodeURIComponent(song!.uid)}`}
+                          onActivate={() => setOpenMenu(null)}
+                          label={openSongLabel}
+                        />
                       )}
-                    </div>
-                    <Link
-                      href={`/songs/${encodeURIComponent(song!.uid)}`}
-                      onClick={() => setOpenMenu(null)}
-                      aria-label={openSongLabel}
-                      title={openSongLabel}
-                      className="ml-0.5 flex h-7 w-7 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:bg-[var(--background)] hover:text-[var(--primary)]"
-                    >
-                      <ArrowUpRight size={15} />
-                    </Link>
-                  </div>
+                    />
+                  )}
                   {/* The reciter (singer) of the current recording — not the song's composer/author. */}
                   <p className="mt-0.5 truncate text-xs text-[var(--neutral)]">{singer}</p>
                 </div>
