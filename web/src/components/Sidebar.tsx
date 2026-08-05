@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { Search, Sun, Moon, ChevronsLeft } from "lucide-react";
 import { useTheme } from "../utils/ThemeContext";
+import { LAYER } from "../utils/layers";
 import { BrandWordmark } from "./BrandWordmark";
 // Import directly from the leaf modules, not the '../services' barrel - the barrel re-exports
 // fs-based repositories (songRepository, manifestRepository) that must never enter the client
@@ -140,12 +141,23 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, collapsed = false, s
 
   return (
     <>
+      {/* The scrim sits ABOVE the mini-player (LAYER.navigationScrim > LAYER.player): opening the
+          drawer puts the whole current screen behind the dim, the player included, and the scrim —
+          not the drawer — is what takes the tap that closes it. See docs/screens/navigation.md v5. */}
       {isOpen && (
-        <div className="fixed inset-0 z-30 bg-black/50 md:hidden" onClick={onClose} aria-hidden="true" />
+        <div
+          data-testid="nav-scrim"
+          style={{ zIndex: LAYER.navigationScrim }}
+          className="fixed inset-0 bg-black/50 md:hidden"
+          onClick={onClose}
+          aria-hidden="true"
+        />
       )}
 
       <aside
-        className={`fixed inset-y-0 left-0 z-40 flex w-64 flex-col border-r border-[var(--border)] bg-[var(--background)] transition-transform duration-300 ${
+        data-testid="sidebar"
+        style={{ zIndex: LAYER.navigationDrawer }}
+        className={`fixed inset-y-0 left-0 flex w-64 flex-col border-r border-[var(--border)] bg-[var(--background)] transition-transform duration-300 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } ${collapsed ? "md:-translate-x-full" : "md:translate-x-0"}`}
       >

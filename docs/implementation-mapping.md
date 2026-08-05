@@ -60,17 +60,20 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | theme (Gaura/Shyam) | ✅ | ✅* | ✅ |
 | home (v3 — re-purposed) | ✅ | — | — |
 | today (v1) — embedded as home §1 | ✅ | — | — |
-| navigation (v4) | ✅ v4 green | ✅*ᶠ | ✅ᶠ |
+| navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
 | components (v4) | ✅ v4 green | — | — |
 | collections / books / topics | ✅ | ✅* | ✅ |
 | artist/book images | ✅ | ✅* | ✅ |
 | unit tests | ✅ | ✅* | ✅ |
 | resources | 🔨 | — | — |
-| player / now-playing | ✅ v12 green | ✅* | ✅ |
+| player / now-playing | ✅ v13 green | ✅* ʷ | ✅ ʷ |
 
 Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbox-blocked; confirm on a real
-Xcode machine) · `ᶠ` footer/nav polish · `🔨` in progress · `—` not applicable / not on that platform.
+Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a
+web surface (navigation v5 / player v13: the web z-index scale and the drawer-over-mini-player
+model), so iOS/Android are not stale against it; they stay conformant at the version before it ·
+`🔨` in progress · `—` not applicable / not on that platform.
 
 **Web overhaul (build + screenshot/CDP verified):** top bar removed; search is a **centered
 command-palette modal** (`SearchModal.tsx`, ⌘K / sidebar / mobile header, client index

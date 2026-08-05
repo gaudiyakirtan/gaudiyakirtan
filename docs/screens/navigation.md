@@ -1,6 +1,6 @@
 # Screen — Navigation
 
-**Spec version:** 4
+**Spec version:** 5
 
 **Figma frames:** `Navigation`, `Navigation-1..5`, `Sidebar`, `Header`, `mobile-menu`, `Mobile`.
 The **sidebar footer** below post-dates these frames — verify the rest against them, not the footer.
@@ -113,13 +113,56 @@ The bar is **direction-aware while scrolling on mobile**:
 5. The behavior is gated by the same `<768 px` breakpoint as `md:hidden`; resizing to desktop resets
    the hidden state. Desktop receives no new header, spacing, scroll listener behavior, or offset.
 
+## Layer order (web)
+
+Every fixed or sticky surface draws from **one ordered scale**, declared once (web:
+`utils/layers.ts`) and applied as an explicit `z-index`. No surface picks its own number, and a new
+overlay joins the scale rather than out-bidding it.
+
+| Rank | Layer | Surface |
+|------|-------|---------|
+| 10 | Content | Fixed in-page affordances floating over the reader (the alphabet rail). A menu inside a card or the header is scoped to that surface's own stacking context and never escapes it. |
+| 20 | Mobile header | The 56 px sticky top bar. |
+| 30 | Sidebar toggle | The floating "Open sidebar" button, shown while the desktop sidebar is collapsed. |
+| 40 | Player | The [mini-player](player.md) widget and its drop-ups — page furniture: above content, below overlays. |
+| 50 | Navigation scrim | The mobile drawer's dim backdrop. |
+| 60 | Navigation drawer | The sidebar itself. |
+| 70 | Search | The command palette — the top-level modal ([`search.md`](search.md)). |
+
+Two relationships carry the model, and both are the point of the scale:
+
+- **The scrim outranks the player.** Opening navigation puts the *whole current screen* behind the
+  dim — the mini-player included, in **every** player state: expanded card, collapsed circle, armed
+  idle FAB, the "Play this" strip, and an open drop-up. A mini-player left lit above the backdrop
+  read as a control that was still live while the reader was plainly somewhere else.
+- **The drawer outranks the scrim,** so the drawer itself is never dimmed.
+
 ## States
 
 | State | Behavior |
 |-------|----------|
 | **Collapsed (desktop)** | Sidebar slides fully off-canvas; toggle restores it. Persisted. |
-| **Drawer open (mobile)** | Scrim closes on tap; any nav tap closes it. |
+| **Drawer open (mobile)** | Scrim closes on tap; any nav tap closes it. The page behind it — content, header, mini-player — is dimmed and inert (below). |
 | **Active route** | Highlighted, including nested routes (`/songs/K1` highlights Songs). |
+
+### Drawer open (mobile) — the page behind it
+
+- The scrim covers the viewport and **takes the pointer**: a tap anywhere on it closes the drawer,
+  and nothing beneath it can be clicked through.
+- The page behind it is also **inert** — the content column and the player widget both — so keyboard
+  focus and assistive technology cannot reach it either. A scrim alone stops only the pointer.
+- **An open player drop-up (recordings, sleep timer) closes** when the drawer opens. A transient
+  menu is dismissed by attention moving elsewhere — tapping outside it already dismisses it, and
+  activating the menu button from the keyboard should not behave differently. Parking one under the
+  dim to reappear on close is the surprising option.
+- **Nothing else about the player changes.** Position, playback, collapse/expand state, scrubber,
+  sleep timer and armed song all survive the drawer untouched; closing it restores interaction
+  exactly as it was.
+- The drawer is a **mobile** surface. Its scrim is `md:hidden`, so crossing to the desktop
+  breakpoint **closes** it rather than stranding an invisible modal over a fully interactive
+  desktop layout.
+- **Desktop is unaffected**: no scrim, nothing inert, and the ranks above are the order desktop
+  already drew in — the sidebar and the bottom-right mini-player never overlap at any width ≥768 px.
 
 ## Per-platform notes
 
@@ -147,19 +190,35 @@ Settings lives, not in the main tab set.
 - Downward travel beyond the threshold hides the bar; small reverse jitter does not reveal it;
   upward travel beyond the threshold does. Returning to the top and route navigation reveal it.
 - At 768 px and wider, the desktop layout and scroll behavior are unchanged.
+- The layer ranks are strictly ordered and unique, so the ordering above is asserted, not implied by
+  source order.
+- With a recording loaded at 390 px, opening the menu paints the drawer above the scrim and the
+  mini-player below it, in each player state; the mini-player accepts no pointer or keyboard
+  interaction while the drawer is open, and the drawer itself is undimmed.
+- An open player drop-up is closed by opening the drawer, including keyboard activation of the menu
+  button.
+- Tapping the scrim closes the drawer and returns the player to exactly the state it had — same
+  position, same playback, same collapse state, interactive again.
+- Search opens above the drawer; crossing to the desktop breakpoint closes the drawer.
 
 **Visual:** the footer row has **no frame** — draw one. The rest verifies against the `Navigation*`
 and `Sidebar` frames.
 
 ## Change log
 
-- **v4 (web)** — The mobile clip box must also open **left of the text origin**: the face's negative
+- **v5 (web)** — The mobile clip box must also open **left of the text origin**: the face's negative
   left side bearing put the `G`'s bowl outside a clip box that began at the origin, shaving it flat.
   The 4 px menu-to-mark gap becomes the link's padding rather than its margin, and is specified
   against the mark's text origin.
-- **v3 (web)** — Specified the mobile wordmark's box: a 40 px link slot that truncates horizontally
+- **v4 (web)** — Specified the mobile wordmark's box: a 40 px link slot that truncates horizontally
   only (v2's text-height clip box shaved the display face's ascenders and `y` tail), and optical
   centering on the cap-height band rather than the em box. Mobile-only; desktop unchanged.
+- **v3 (web)** — Defined the **layer order** as one shared, ordered scale instead of per-component
+  z-indices, and fixed the relationship it had wrong: the mini-player outranked the mobile drawer's
+  scrim, so a loaded player floated lit above the dim while the menu was open. The scrim now covers
+  the whole screen including every player state, the drawer stays undimmed above it, and the page
+  behind is inert (not merely pointer-blocked). Open player drop-ups close with the drawer opening,
+  and crossing to the desktop breakpoint closes the drawer.
 - **v2 (web)** — Normalized the mobile top bar to symmetric 40 px control slots and documented its
   mobile-only direction-aware hide-on-down/reveal-on-up behavior, including thresholds, route/top
   resets, reduced motion, and the desktop non-regression contract.
