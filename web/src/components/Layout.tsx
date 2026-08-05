@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
@@ -9,6 +9,7 @@ import { PlayerWidget } from "./PlayerWidget";
 import { SearchModal } from "./SearchModal";
 import { ReaderOptions } from "./ReaderOptions";
 import { ServiceWorkerRegistration } from "./ServiceWorkerRegistration";
+import { useMobileHeaderVisibility } from "../utils/useMobileHeaderVisibility";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -21,18 +22,29 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
   const [collapsed, setCollapsed] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const router = useRouter();
+  const { hidden: mobileHeaderHidden, reveal: revealMobileHeader } = useMobileHeaderVisibility(router);
+
+  const openMobileMenu = useCallback(() => {
+    revealMobileHeader();
+    setSidebarOpen(true);
+  }, [revealMobileHeader]);
+
+  const openSearch = useCallback(() => {
+    revealMobileHeader();
+    setSearchOpen(true);
+  }, [revealMobileHeader]);
 
   // Global Cmd/Ctrl+K opens the search palette from anywhere.
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key.toLowerCase() === "k") {
         e.preventDefault();
-        setSearchOpen(true);
+        openSearch();
       }
     };
     document.addEventListener("keydown", onKey);
     return () => document.removeEventListener("keydown", onKey);
-  }, []);
+  }, [openSearch]);
 
   // Restore the persisted desktop collapse preference.
   useEffect(() => {
@@ -78,7 +90,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
         onClose={() => setSidebarOpen(false)}
         collapsed={collapsed}
         setCollapsed={updateCollapsed}
-        onOpenSearch={() => setSearchOpen(true)}
+        onOpenSearch={openSearch}
       />
 
       {/* When the sidebar is collapsed (fully off-canvas), a floating button reopens it (desktop). */}
@@ -96,40 +108,43 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
           (Notion-style) - only a slim mobile header carries the menu toggle + wordmark. */}
       <div className={`flex min-h-screen flex-col transition-[margin] duration-300 ${collapsed ? "md:ml-0" : "md:ml-64"}`}>
         {/* Mobile-only header */}
-        <header className="sticky top-0 z-20 flex h-14 items-center gap-3 border-b border-[var(--border)] bg-[var(--background)] px-4 md:hidden">
+        <header
+          data-testid="mobile-header"
+          data-scroll-state={mobileHeaderHidden ? "hidden" : "visible"}
+          className={`sticky top-0 z-20 flex h-14 items-center border-b border-[var(--border)] bg-[var(--background)] px-3 transition-transform duration-200 ease-out motion-reduce:transition-none md:hidden ${mobileHeaderHidden ? "-translate-y-full" : "translate-y-0"}`}
+        >
           <button
             type="button"
             aria-label="Open menu"
-            onClick={() => setSidebarOpen(true)}
-            className="text-[var(--neutral)]"
+            onClick={openMobileMenu}
+            className="inline-flex h-10 w-10 flex-none items-center justify-center text-[var(--neutral)]"
           >
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
               fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="6" x2="21" y2="6" /><line x1="3" y1="18" x2="21" y2="18" />
             </svg>
           </button>
-          <Link href="/" className="flex items-center">
+          <Link href="/" className="ml-1 flex min-w-0 flex-1 items-center overflow-hidden">
             <BrandWordmark className="text-lg" />
           </Link>
           {/* Reader display options — only on a song screen, which publishes its capabilities via
               ReaderOptionsContext (the control renders nothing otherwise). It lives here on mobile
               because there is no room for a floating sticky control over a phone-width reader.
               Opens right-aligned so the panel stays on screen. */}
-          <div className="ml-auto">
+          <div className="ml-auto flex flex-none items-center gap-1">
             <ReaderOptions variant="icon" align="right" />
+            <button
+              type="button"
+              aria-label="Search"
+              onClick={openSearch}
+              className="inline-flex h-10 w-10 flex-none items-center justify-center text-[var(--neutral)]"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
+              </svg>
+            </button>
           </div>
-
-          <button
-            type="button"
-            aria-label="Search"
-            onClick={() => setSearchOpen(true)}
-            className="text-[var(--neutral)]"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
-              stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
-            </svg>
-          </button>
         </header>
 
         {/* No horizontal gutter on mobile: every page/section already carries its own `px-4`, so a
