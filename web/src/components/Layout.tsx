@@ -10,6 +10,10 @@ import { SearchModal } from "./SearchModal";
 import { ReaderOptions } from "./ReaderOptions";
 import { ServiceWorkerRegistration } from "./ServiceWorkerRegistration";
 import { useMobileHeaderVisibility } from "../utils/useMobileHeaderVisibility";
+import { LAYER } from "../utils/layers";
+
+// The Tailwind `md:` breakpoint, the same one that gates the mobile header and the drawer's scrim.
+const DESKTOP_QUERY = "(min-width: 768px)";
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -69,6 +73,19 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
     return () => router.events.off("routeChangeComplete", close);
   }, [router]);
 
+  // The drawer is a mobile surface: it only opens from the mobile header, and while it is open the
+  // page behind it is dimmed and inert. Its scrim is `md:hidden`, so crossing to desktop without
+  // closing it would strand an invisible modal over a fully visible, fully interactive layout.
+  useEffect(() => {
+    const media = window.matchMedia(DESKTOP_QUERY);
+    const sync = () => {
+      if (media.matches) setSidebarOpen(false);
+    };
+    sync();
+    media.addEventListener("change", sync);
+    return () => media.removeEventListener("change", sync);
+  }, []);
+
   return (
     <div className="min-h-screen bg-[var(--background)]">
       <Head>
@@ -99,19 +116,27 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
         onClick={() => updateCollapsed(false)}
         aria-label="Open sidebar"
         title="Open sidebar"
-        className={`fixed left-3 top-3 z-30 hidden h-9 w-9 items-center justify-center rounded-lg border border-[var(--border)] bg-[var(--background-offset)] text-[var(--neutral)] shadow-sm transition-colors hover:text-[var(--primary)] ${collapsed ? "md:flex" : "md:hidden"}`}
+        style={{ zIndex: LAYER.sidebarToggle }}
+        className={`fixed left-3 top-3 hidden h-9 w-9 items-center justify-center rounded-lg border border-[var(--border)] bg-[var(--background-offset)] text-[var(--neutral)] shadow-sm transition-colors hover:text-[var(--primary)] ${collapsed ? "md:flex" : "md:hidden"}`}
       >
         <PanelLeft size={18} />
       </button>
 
       {/* Content column, offset by the fixed sidebar on desktop. No top bar on desktop
           (Notion-style) - only a slim mobile header carries the menu toggle + wordmark. */}
-      <div className={`flex min-h-screen flex-col transition-[margin] duration-300 ${collapsed ? "md:ml-0" : "md:ml-64"}`}>
+      {/* `inert` while the drawer is open: the scrim already blocks the pointer, but the screen
+          behind an open menu should be out of reach for keyboard and assistive tech too. The player
+          is marked the same way (it is a fixed sibling, not a child of this column). */}
+      <div
+        inert={sidebarOpen}
+        className={`flex min-h-screen flex-col transition-[margin] duration-300 ${collapsed ? "md:ml-0" : "md:ml-64"}`}
+      >
         {/* Mobile-only header */}
         <header
           data-testid="mobile-header"
           data-scroll-state={mobileHeaderHidden ? "hidden" : "visible"}
-          className={`sticky top-0 z-20 flex h-14 items-center border-b border-[var(--border)] bg-[var(--background)] px-3 transition-transform duration-200 ease-out motion-reduce:transition-none md:hidden ${mobileHeaderHidden ? "-translate-y-full" : "translate-y-0"}`}
+          style={{ zIndex: LAYER.mobileHeader }}
+          className={`sticky top-0 flex h-14 items-center border-b border-[var(--border)] bg-[var(--background)] px-3 transition-transform duration-200 ease-out motion-reduce:transition-none md:hidden ${mobileHeaderHidden ? "-translate-y-full" : "translate-y-0"}`}
         >
           <button
             type="button"
@@ -161,7 +186,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
         </footer>
       </div>
 
-      <PlayerWidget />
+      <PlayerWidget obscured={sidebarOpen} />
       <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)} />
       <ServiceWorkerRegistration />
     </div>

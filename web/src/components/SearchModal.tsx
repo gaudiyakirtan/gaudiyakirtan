@@ -7,6 +7,7 @@ import {
 import { buildDuet, searchDuet, type IDuetDoc } from '../services/duet'
 import { NAV_ENTRIES } from '../services/urlResolver'
 import { useSettings } from '../utils/SettingsContext'
+import { LAYER } from '../utils/layers'
 
 interface SearchModalProps {
   open: boolean
@@ -172,7 +173,8 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
 
   return (
     <div
-      className="fixed inset-0 z-[60] flex items-start justify-center bg-black/50 px-4 pt-[12vh] backdrop-blur-sm"
+      style={{ zIndex: LAYER.searchModal }}
+      className="fixed inset-0 flex items-start justify-center bg-black/50 px-4 pt-[12vh] backdrop-blur-sm"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
