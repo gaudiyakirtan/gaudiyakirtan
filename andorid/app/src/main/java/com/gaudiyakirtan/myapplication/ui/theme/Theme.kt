@@ -57,8 +57,26 @@ private val LightColorScheme = lightColorScheme(
     onSurface = GaurPrimary,                 // #1A1A1A
     surfaceVariant = GaurBackgroundOffset,   // a real surface variant now, not the accent
     onSurfaceVariant = GaurSecondary,        // #3A3A3A -- secondary text on offset surfaces
-    outline = GaurBorder,                    // #E6D7C3
-    outlineVariant = GaurBorder
+    // The container ramp MUST be filled. Material components read these directly -- an unchecked
+    // Switch track is `surfaceContainerHighest` -- and any slot left unset falls back to the M3
+    // *baseline* palette (Neutral90 = #E6E0E9, a lilac gray) which would paint stock Material
+    // colors onto the Gaura cream. Leaving them unset was the bug that removing the per-component
+    // colors() overrides exposed.
+    surfaceContainerLowest = GaurBackground,
+    surfaceContainerLow = GaurBackground,
+    surfaceContainer = GaurBackgroundOffset,
+    surfaceContainerHigh = GaurBackgroundOffset,
+    surfaceContainerHighest = GaurBackgroundOffset,
+    surfaceDim = GaurBackgroundOffset,
+    surfaceBright = GaurBackground,
+    inverseSurface = GaurPrimary,
+    inverseOnSurface = GaurBackground,
+    // `outline` is Material's *higher-contrast* boundary role (control borders, an unchecked switch
+    // thumb); `outlineVariant` is the subtle divider. Mapping `border` to both left the switch thumb
+    // #E6D7C3 on an #F6E5D1 track -- effectively invisible. `neutral` is the token that actually
+    // matches Material's intent for `outline`.
+    outline = GaurNeutral,                   // #6E6E6E
+    outlineVariant = GaurBorder              // #E6D7C3
 )
 
 /** Shyam (dark) scheme -- same v2 remap, values per docs/theme/colors.md. */
@@ -77,8 +95,17 @@ private val DarkColorScheme = darkColorScheme(
     onSurface = ShyamPrimary,                // #E0E0E0
     surfaceVariant = ShyamBackgroundOffset,
     onSurfaceVariant = ShyamSecondary,       // #B8B8B8
-    outline = ShyamBorder,                   // #333333
-    outlineVariant = ShyamBorder
+    surfaceContainerLowest = ShyamBackground,
+    surfaceContainerLow = ShyamBackground,
+    surfaceContainer = ShyamBackgroundOffset,
+    surfaceContainerHigh = ShyamBackgroundOffset,
+    surfaceContainerHighest = ShyamBackgroundOffset,
+    surfaceDim = ShyamBackground,
+    surfaceBright = ShyamBackgroundOffset,
+    inverseSurface = ShyamPrimary,
+    inverseOnSurface = ShyamBackground,
+    outline = ShyamNeutral,                  // #9B9B9B
+    outlineVariant = ShyamBorder             // #333333
 )
 
 /**
@@ -87,21 +114,10 @@ private val DarkColorScheme = darkColorScheme(
  */
 val LocalNeutralColor = staticCompositionLocalOf { GaurNeutral }
 
-/**
- * The `tertiary` *text* token (#5A5A5A Gaura / #9B9B9B Shyam). Not to be confused with
- * [ColorScheme.tertiary], which after the v2 remap is a Material brand slot.
- */
-val LocalTertiaryTextColor = staticCompositionLocalOf { GaurTertiary }
-
 /** Muted/less-important-text color for the active palette (docs/theme/colors.md `neutral`). */
 val ColorScheme.neutral: Color
     @Composable @ReadOnlyComposable
     get() = LocalNeutralColor.current
-
-/** Tertiary *text* color for the active palette (docs/theme/colors.md `tertiary`). */
-val ColorScheme.tertiaryText: Color
-    @Composable @ReadOnlyComposable
-    get() = LocalTertiaryTextColor.current
 
 /**
  * Applies the Gaudiya Kirtan theme.
@@ -121,7 +137,6 @@ fun GaudiyaKirtanTheme(
 ) {
     val colorScheme = if (darkTheme) DarkColorScheme else LightColorScheme
     val neutral = if (darkTheme) ShyamNeutral else GaurNeutral
-    val tertiaryText = if (darkTheme) ShyamTertiary else GaurTertiary
 
     // Keep status-bar icon contrast in step with the active palette.
     val view = LocalView.current
@@ -132,10 +147,7 @@ fun GaudiyaKirtanTheme(
         }
     }
 
-    CompositionLocalProvider(
-        LocalNeutralColor provides neutral,
-        LocalTertiaryTextColor provides tertiaryText
-    ) {
+    CompositionLocalProvider(LocalNeutralColor provides neutral) {
         MaterialExpressiveTheme(
             colorScheme = colorScheme,
             motionScheme = MotionScheme.expressive(),

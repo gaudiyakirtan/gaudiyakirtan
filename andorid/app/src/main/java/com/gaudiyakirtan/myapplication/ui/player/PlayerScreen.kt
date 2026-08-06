@@ -15,7 +15,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -272,7 +271,7 @@ private fun PlaybackControls(
 
     val isPlaying = uiState.playbackState == PlaybackState.PLAYING
 
-    // The screen's one expressive focal element (docs/screens/player.md v2): the scrubber is wavy
+    // The screen's one expressive focal element (spec pending: player.md has no expressive section yet): the scrubber is wavy
     // while audio is actually advancing and flat otherwise, so playback state is legible from the
     // shape of the track alone. Animated rather than switched, because the *morph* between the two
     // is what communicates the state change; `MotionScheme.expressive()` supplies the spring.

@@ -65,7 +65,14 @@ makes song-detail/list/settings theme automatically (they already use these toke
   | `backgroundOffset` | `surface`, `surfaceVariant` |
   | secondary text | `onSurfaceVariant` |
   | `border` | `outline`, `outlineVariant` |
-  | `neutral`, tertiary text | no Material slot — carried on a `CompositionLocal` and exposed as `ColorScheme.neutral` / `ColorScheme.tertiaryText` |
+  | `neutral` | no Material slot — carried on a `CompositionLocal` and exposed as `ColorScheme.neutral` |
+
+  The **container ramp** (`surfaceContainerLowest/Low/…/Highest`, `surfaceDim`, `surfaceBright`,
+  `inverseSurface`) must be filled from the palette too. Components read those slots directly — an
+  unchecked `Switch` track is `surfaceContainerHighest` — and any unset slot silently falls back to
+  the M3 *baseline* palette, painting stock Material colors onto Gaura/Shyam. `outline` is the
+  higher-contrast boundary role and takes `neutral`; `outlineVariant` is the subtle divider and
+  takes `border`.
 
   v1 put the accent in `surfaceVariant` and the *text* color in `primary`, which inverted Material's
   own semantics and made every stock component render gray/unfinished until it was given a bespoke
@@ -117,7 +124,9 @@ Motion communicates hierarchy, continuity, or state — never decoration.
 - **Expressive motion** for hero transitions, selection changes, playback/activity, and important
   state changes.
 - **Standard motion** for repeated utility interactions.
-- Every screen gets **one** principal expressive focal element. In the player that is the scrubber:
+- Every screen gets **one** principal expressive focal element. *Today only the player satisfies
+  this*; the other eight screens have no focal element yet and are not conformant on this clause.
+  In the player it is the scrubber:
   **wavy = playing, flat = paused**, morphing between the two rather than switching, so the change
   itself is legible. The play/pause control echoes it (circle → squircle).
 - Accessibility is not traded for expression: a decorative or duplicated indicator clears its

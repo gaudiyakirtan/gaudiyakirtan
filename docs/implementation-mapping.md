@@ -57,7 +57,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | seo (v1) — metadata/sitemap | ✅ | n/a | n/a |
 | observability (v1) — analytics/Sentry | ✅ | n/a | n/a |
 | settings | ✅ | ✅* | ✅ |
-| theme (v2 — Gaura/Shyam + expressive) | ⏳ v1 | ⏳ v1* | ✅ v2 green |
+| theme (v2 — Gaura/Shyam + expressive) | ⏳ v1 | ⏳ v1* | 🔨 v2 partial |
 | home (v3 — re-purposed) | ✅ | — | — |
 | today (v1) — embedded as home §1 | ✅ | — | — |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
@@ -75,10 +75,20 @@ web surface (navigation v5 / player v13: the web z-index scale and the drawer-ov
 model), so iOS/Android are not stale against it; they stay conformant at the version before it ·
 `🔨` in progress · `—` not applicable / not on that platform.
 
-**theme v2 (Material 3 Expressive) — Android only, and the gap is deliberate.** Android is green at
-v2: `MaterialExpressiveTheme` + `MotionScheme.expressive()`, the shape scale, the remapped Material
-color slots, and the wavy playback indicator, verified by `:app:assembleDebug` +
-`:app:testDebugUnitTest`. Reaching the wavy indicator required
+**theme v2 (Material 3 Expressive) — Android is `🔨 partial`, not green.** What landed is the
+**theme layer plus one screen**: `MaterialExpressiveTheme` + `MotionScheme.expressive()`, the shape
+scale, the type scale, the remapped Material color slots, and the wavy playback indicator in the
+player. `:app:assembleDebug` is green; `:app:testDebugUnitTest` is **red (11/14)** with 3 failures
+proven identical on the base commit (stale bundled assets, unrelated to theming) — so the build is
+verified but the test task is *not* a passing verifier and must not be cited as one.
+
+What is **not** done, and why the row is not green: the app's UI is still ~190 hand-rolled
+`Box`/`Column`/`Row` primitives against ~40 Material call sites, and the net new Material API across
+the whole migration is **one component**. 1 of 9 screens has an expressive focal element; the
+`largeIncreased`/`extraLargeIncreased` shape steps are declared but unused; there is no adaptive
+behavior at all (no `material3.adaptive`, no `WindowSizeClass`, no compact/medium/expanded branch);
+and no screen spec besides this one has had the CLAUDE.md 7-point screen-design treatment. Reaching
+the wavy indicator required
 `androidx.compose.material3:material3:1.5.0-alpha25`, which in turn forced **compileSdk 37, AGP
 9.4.0-alpha08, Gradle 9.7.0 and Kotlin 2.4.10** — the app now sits on an alpha Android toolchain,
 which is the standing cost of that one component. material3 **1.4.0 stable** carries
