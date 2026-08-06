@@ -1,8 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.song
 
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
-import com.gaudiyakirtan.myapplication.ui.theme.accentRadioButtonColors
-import com.gaudiyakirtan.myapplication.ui.theme.accentSwitchColors
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -141,7 +139,7 @@ private fun SongToolbar(
             Icon(
                 imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                 contentDescription = "Back",
-                tint = MaterialTheme.colorScheme.surfaceVariant
+                tint = MaterialTheme.colorScheme.primary
             )
         }
 
@@ -168,7 +166,7 @@ private fun SongToolbar(
                 Text(
                     text = "Aa",
                     style = MaterialTheme.typography.titleMedium,
-                    color = MaterialTheme.colorScheme.surfaceVariant
+                    color = MaterialTheme.colorScheme.primary
                 )
             }
             DisplaySettingsMenu(
@@ -198,7 +196,7 @@ private fun PlayerPill(
 ) {
     Surface(
         modifier = modifier.height(44.dp),
-        shape = RoundedCornerShape(22.dp),
+        shape = MaterialTheme.shapes.large,
         color = MaterialTheme.colorScheme.surface,
         onClick = onClick
     ) {
@@ -238,7 +236,7 @@ private fun PlayerPill(
             Icon(
                 imageVector = Icons.Default.PlayArrow,
                 contentDescription = "Play",
-                tint = MaterialTheme.colorScheme.surfaceVariant,
+                tint = MaterialTheme.colorScheme.primary,
                 modifier = Modifier.size(24.dp)
             )
         }
@@ -269,8 +267,7 @@ private fun DisplaySettingsMenu(
                 leadingIcon = {
                     RadioButton(
                         selected = option.code == settings.primaryScriptCode,
-                        onClick = { onScriptSelected(option.code) },
-                        colors = accentRadioButtonColors()
+                        onClick = { onScriptSelected(option.code) }
                     )
                 }
             )
@@ -284,8 +281,7 @@ private fun DisplaySettingsMenu(
                 trailingIcon = {
                     Switch(
                         checked = settings.showWordToWord,
-                        onCheckedChange = { onToggleWordToWord() },
-                        colors = accentSwitchColors()
+                        onCheckedChange = { onToggleWordToWord() }
                     )
                 }
             )
@@ -304,8 +300,7 @@ private fun DisplaySettingsMenu(
                         leadingIcon = {
                             RadioButton(
                                 selected = option.code == settings.glossLanguageCode,
-                                onClick = { onGlossLanguageSelected(option.code) },
-                                colors = accentRadioButtonColors()
+                                onClick = { onGlossLanguageSelected(option.code) }
                             )
                         }
                     )
@@ -321,8 +316,7 @@ private fun DisplaySettingsMenu(
                 trailingIcon = {
                     Switch(
                         checked = settings.showTranslation,
-                        onCheckedChange = { onToggleTranslation() },
-                        colors = accentSwitchColors()
+                        onCheckedChange = { onToggleTranslation() }
                     )
                 }
             )
@@ -335,8 +329,7 @@ private fun DisplaySettingsMenu(
             trailingIcon = {
                 Switch(
                     checked = isCollapsed,
-                    onCheckedChange = { onToggleCollapsed() },
-                    colors = accentSwitchColors()
+                    onCheckedChange = { onToggleCollapsed() }
                 )
             }
         )
@@ -379,7 +372,7 @@ private fun SongBody(
                 Text(
                     text = song.title,
                     style = MaterialTheme.typography.headlineMedium,
-                    color = MaterialTheme.colorScheme.surfaceVariant,
+                    color = MaterialTheme.colorScheme.primary,
                     textAlign = TextAlign.Center
                 )
                 Text(
@@ -445,7 +438,7 @@ private fun VerseBlock(
         val nativeToShow = if (collapsed) nativeLines.take(1) else nativeLines
         VerseLines(
             lines = nativeToShow,
-            color = if (primaryIsLatin) MaterialTheme.colorScheme.surfaceVariant
+            color = if (primaryIsLatin) MaterialTheme.colorScheme.primary
             else MaterialTheme.colorScheme.neutral
         )
 
@@ -455,7 +448,7 @@ private fun VerseBlock(
             if (!primaryIsLatin) {
                 VerseLines(
                     lines = romanLines,
-                    color = MaterialTheme.colorScheme.surfaceVariant
+                    color = MaterialTheme.colorScheme.primary
                 )
             }
 
@@ -465,7 +458,7 @@ private fun VerseBlock(
                     Text(
                         text = buildWordToWordText(
                             words = w2w.words,
-                            headwordColor = MaterialTheme.colorScheme.surfaceVariant
+                            headwordColor = MaterialTheme.colorScheme.primary
                         ),
                         fontSize = 14.sp,
                         color = MaterialTheme.colorScheme.onBackground,
@@ -561,7 +554,7 @@ private fun SkeletonBar(widthFraction: Float, height: androidx.compose.ui.unit.D
         modifier = Modifier
             .fillMaxWidth(widthFraction)
             .height(height)
-            .clip(RoundedCornerShape(4.dp))
+            .clip(MaterialTheme.shapes.extraSmall)
             .background(MaterialTheme.colorScheme.neutral.copy(alpha = 0.15f))
     )
 }

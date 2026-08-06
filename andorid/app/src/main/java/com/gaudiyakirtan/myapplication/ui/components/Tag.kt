@@ -70,13 +70,13 @@ fun Tag(
             textColor = neutralColor
         }
         TagVariant.Highlight -> {
-            val highlightColor = MaterialTheme.colorScheme.surfaceVariant
+            val highlightColor = MaterialTheme.colorScheme.primary
             backgroundColor = highlightColor.copy(alpha = 0.8f)
             // Text on the accent (highlight) surface -- themes to White (Gaura) / Black (Shyam).
-            textColor = MaterialTheme.colorScheme.onSurfaceVariant
+            textColor = MaterialTheme.colorScheme.onPrimary
         }
         TagVariant.Primary -> {
-            val primaryColor = MaterialTheme.colorScheme.surfaceVariant
+            val primaryColor = MaterialTheme.colorScheme.primary
             backgroundColor = primaryColor.copy(alpha = 0.2f)
             textColor = primaryColor
         }
@@ -97,11 +97,10 @@ fun Tag(
         TagSize.Custom -> customFontSize?.let { it.value.sp } ?: 12.sp
     }
     
-    val cornerRadius = customCornerRadius ?: when (size) {
-        TagSize.Small -> 11.dp
-        TagSize.Normal -> 10.dp
-        TagSize.Custom -> 10.dp
-    }
+    // Shape comes from the scale, not from per-size radii. The old 11/10/10.dp split was below the
+    // threshold anyone could see and is exactly the kind of arbitrary radius the expressive shape
+    // system exists to remove; `customCornerRadius` stays as the deliberate opt-out.
+    val tagShape = customCornerRadius?.let { RoundedCornerShape(it) } ?: MaterialTheme.shapes.small
     
     val horizontalPadding = customHorizontalPadding ?: 10.dp
     val verticalPadding = customVerticalPadding ?: 1.dp
@@ -109,7 +108,7 @@ fun Tag(
     // Apply the tag styling
     Surface(
         color = backgroundColor,
-        shape = RoundedCornerShape(cornerRadius),
+        shape = tagShape,
         onClick = onClick ?: {},
         enabled = onClick != null,
         modifier = modifier

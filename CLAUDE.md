@@ -76,7 +76,7 @@ permission to invent styling — it is a budget for a small number of deliberate
 
 | Platform | Official Expressive implementation | Here |
 |---|---|---|
-| **Android** (Compose) | Yes — `androidx.compose.material3` | **Not yet reachable.** `andorid/` resolves material3 via Compose BOM `2024.04.01` → **1.2.1**; expressive APIs (`MaterialExpressiveTheme`, `MotionScheme`, wavy indicators) need a 1.4+/1.5-alpha bump first. Treat any expressive component as gated on that bump. |
+| **Android** (Compose) | Yes — `androidx.compose.material3` | **Adopted.** `andorid/` pins material3 **1.5.0-alpha25** over Compose BOM `2026.06.01`, and uses `MaterialExpressiveTheme` + `MotionScheme.expressive()`, the shape scale, and `LinearWavyProgressIndicator`. The alpha is required for the wavy indicators (1.4.0 stable has the theme/motion/shapes but not them) and forces **compileSdk 37, AGP 9.4.0-alpha08, Gradle 9.7.0, Kotlin 2.4.10**. |
 | **iOS** (SwiftUI) | No | Reproduce expressive hierarchy with SwiftUI-native shape/motion over the Gaura/Shyam tokens. Never import a Material look-alike. |
 | **Web** (React) | No complete official implementation | Reproduce with project tokens + CSS/SVG/Canvas. "Use M3 Expressive" is not an instruction a web slice can execute literally. |
 

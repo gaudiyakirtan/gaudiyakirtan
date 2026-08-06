@@ -35,7 +35,7 @@ fun SongListItem(
         modifier = modifier
             .fillMaxWidth()
             .height(56.dp)
-            .clip(RoundedCornerShape(12.dp)),
+            .clip(MaterialTheme.shapes.medium),
         color = MaterialTheme.colorScheme.surface,
         onClick = onClick
     ) {
@@ -50,7 +50,7 @@ fun SongListItem(
                 Text(
                     text = title,
                     style = MaterialTheme.typography.bodyLarge.copy(
-                        color = MaterialTheme.colorScheme.surfaceVariant,
+                        color = MaterialTheme.colorScheme.primary,
                         fontSize = 14.sp
                     ),
                     maxLines = 1,
@@ -63,7 +63,7 @@ fun SongListItem(
                 // UID tag
                 Box(
                     modifier = Modifier
-                        .clip(RoundedCornerShape(11.dp))
+                        .clip(MaterialTheme.shapes.small)
                         .background(neutralColor.copy(alpha = 0.25f))
                         .padding(horizontal = 10.dp, vertical = 2.dp)
                 ) {

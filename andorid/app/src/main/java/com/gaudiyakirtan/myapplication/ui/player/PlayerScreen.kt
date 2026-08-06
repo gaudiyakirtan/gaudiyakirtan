@@ -24,11 +24,15 @@ import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.SkipNext
 import androidx.compose.material.icons.filled.SkipPrevious
+import androidx.compose.animation.core.animateDpAsState
+import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LinearWavyProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Slider
 import androidx.compose.material3.SliderDefaults
@@ -43,7 +47,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -87,7 +93,7 @@ fun PlayerScreen(
                     Icon(
                         imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                         contentDescription = "Back",
-                        tint = MaterialTheme.colorScheme.surfaceVariant
+                        tint = MaterialTheme.colorScheme.primary
                     )
                 }
                 Spacer(modifier = Modifier.weight(1f))
@@ -142,7 +148,7 @@ private fun NowPlayingContent(
                 .fillMaxWidth()
                 .aspectRatio(1f)
                 .padding(24.dp)
-                .clip(RoundedCornerShape(16.dp))
+                .clip(MaterialTheme.shapes.medium)
                 .background(MaterialTheme.colorScheme.surface),
             contentAlignment = Alignment.Center
         ) {
@@ -164,7 +170,7 @@ private fun NowPlayingContent(
         Text(
             text = nowPlaying.song.title,
             style = MaterialTheme.typography.headlineSmall,
-            color = MaterialTheme.colorScheme.surfaceVariant,
+            color = MaterialTheme.colorScheme.primary,
             textAlign = TextAlign.Center,
             maxLines = 2,
             overflow = TextOverflow.Ellipsis
@@ -204,7 +210,7 @@ private fun NowPlayingContent(
                 modifier = Modifier.fillMaxWidth().height(96.dp),
                 contentAlignment = Alignment.Center
             ) {
-                CircularProgressIndicator(color = MaterialTheme.colorScheme.surfaceVariant)
+                CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
             }
             else -> PlaybackControls(
                 uiState = uiState,
@@ -231,12 +237,12 @@ private fun TakePicker(
             Text(
                 text = current.artist ?: current.uid,
                 style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.surfaceVariant
+                color = MaterialTheme.colorScheme.primary
             )
             Text(
                 text = "▾",
                 style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.surfaceVariant
+                color = MaterialTheme.colorScheme.primary
             )
         }
         DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
@@ -253,6 +259,7 @@ private fun TakePicker(
     }
 }
 
+@OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable
 private fun PlaybackControls(
     uiState: PlayerUiState,
@@ -263,22 +270,55 @@ private fun PlaybackControls(
     var dragPositionMs by remember { mutableFloatStateOf(-1f) }
     val displayedPositionMs = if (dragPositionMs >= 0f) dragPositionMs.roundToInt() else uiState.positionMs
 
+    val isPlaying = uiState.playbackState == PlaybackState.PLAYING
+
+    // The screen's one expressive focal element (docs/screens/player.md v2): the scrubber is wavy
+    // while audio is actually advancing and flat otherwise, so playback state is legible from the
+    // shape of the track alone. Animated rather than switched, because the *morph* between the two
+    // is what communicates the state change; `MotionScheme.expressive()` supplies the spring.
+    val amplitude by animateFloatAsState(
+        targetValue = if (isPlaying) 1f else 0f,
+        animationSpec = MaterialTheme.motionScheme.slowSpatialSpec(),
+        label = "scrubberAmplitude"
+    )
+
     Column(modifier = Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
-        Slider(
-            value = displayedPositionMs.toFloat().coerceIn(0f, duration.toFloat().coerceAtLeast(0f)),
-            valueRange = 0f..duration.toFloat().coerceAtLeast(1f),
-            onValueChange = { dragPositionMs = it },
-            onValueChangeFinished = {
-                onSeek(displayedPositionMs)
-                dragPositionMs = -1f
-            },
-            colors = SliderDefaults.colors(
-                thumbColor = MaterialTheme.colorScheme.surfaceVariant,
-                activeTrackColor = MaterialTheme.colorScheme.surfaceVariant,
-                inactiveTrackColor = MaterialTheme.colorScheme.outline
-            ),
-            modifier = Modifier.fillMaxWidth()
-        )
+        // The wavy indicator draws the track; a transparent-track Slider sits on top purely to own
+        // the interaction. Keeping the real Slider is deliberate -- it carries the seek semantics
+        // (drag, keyboard, and TalkBack's "adjustable" actions) that a Canvas-drawn indicator would
+        // silently drop, and accessibility is not traded for expression.
+        Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+            LinearWavyProgressIndicator(
+                progress = {
+                    if (duration > 0) {
+                        (displayedPositionMs.toFloat() / duration.toFloat()).coerceIn(0f, 1f)
+                    } else {
+                        0f
+                    }
+                },
+                amplitude = { amplitude },
+                color = MaterialTheme.colorScheme.primary,
+                trackColor = MaterialTheme.colorScheme.outline,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clearAndSetSemantics { }
+            )
+            Slider(
+                value = displayedPositionMs.toFloat().coerceIn(0f, duration.toFloat().coerceAtLeast(0f)),
+                valueRange = 0f..duration.toFloat().coerceAtLeast(1f),
+                onValueChange = { dragPositionMs = it },
+                onValueChangeFinished = {
+                    onSeek(displayedPositionMs)
+                    dragPositionMs = -1f
+                },
+                colors = SliderDefaults.colors(
+                    thumbColor = MaterialTheme.colorScheme.primary,
+                    activeTrackColor = Color.Transparent,
+                    inactiveTrackColor = Color.Transparent
+                ),
+                modifier = Modifier.fillMaxWidth()
+            )
+        }
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
@@ -310,11 +350,19 @@ private fun PlaybackControls(
                     tint = MaterialTheme.colorScheme.neutral
                 )
             }
+            // The primary action, and the only other element allowed to move expressively here:
+            // it morphs circle (paused) -> squircle (playing), so the control's own shape echoes
+            // the state the wavy track is reporting. 32.dp on a 64.dp box is a full circle.
+            val playCorner by animateDpAsState(
+                targetValue = if (isPlaying) 20.dp else 32.dp,
+                animationSpec = MaterialTheme.motionScheme.fastSpatialSpec(),
+                label = "playPauseShape"
+            )
             Box(
                 modifier = Modifier
                     .size(64.dp)
-                    .clip(CircleShape)
-                    .background(MaterialTheme.colorScheme.surfaceVariant)
+                    .clip(RoundedCornerShape(playCorner))
+                    .background(MaterialTheme.colorScheme.primary)
                     .clickable(onClick = onPlayPauseClick),
                 contentAlignment = Alignment.Center
             ) {
@@ -325,7 +373,7 @@ private fun PlaybackControls(
                         Icons.Default.PlayArrow
                     },
                     contentDescription = if (uiState.playbackState == PlaybackState.PLAYING) "Pause" else "Play",
-                    tint = MaterialTheme.colorScheme.onSurfaceVariant,
+                    tint = MaterialTheme.colorScheme.onPrimary,
                     modifier = Modifier.size(32.dp)
                 )
             }

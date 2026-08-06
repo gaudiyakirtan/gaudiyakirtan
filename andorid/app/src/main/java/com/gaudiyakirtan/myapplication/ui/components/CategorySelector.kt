@@ -37,17 +37,17 @@ fun <T> CategorySelector(
             
             Button(
                 onClick = { onCategorySelected(category) },
-                shape = RoundedCornerShape(16.dp),
+                shape = MaterialTheme.shapes.medium,
                 colors = ButtonDefaults.buttonColors(
                     // Selected pill is tinted to the accent/highlight (docs/screens/theme.md
                     // "Interactive controls"); unselected pills get a neutral card fill so the
                     // accent reads as the one active/selected state, not the reverse.
                     containerColor = if (isSelected)
-                        MaterialTheme.colorScheme.surfaceVariant
+                        MaterialTheme.colorScheme.primary
                     else
                         MaterialTheme.colorScheme.surface,
                     contentColor = if (isSelected)
-                        MaterialTheme.colorScheme.onSurfaceVariant // onHighlight
+                        MaterialTheme.colorScheme.onPrimary // onHighlight
                     else
                         MaterialTheme.colorScheme.onBackground
                 ),

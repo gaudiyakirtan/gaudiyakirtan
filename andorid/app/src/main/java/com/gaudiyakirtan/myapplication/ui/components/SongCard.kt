@@ -37,7 +37,7 @@ fun SongCard(
         modifier = Modifier
             .fillMaxWidth()
             .height(56.dp)
-            .clip(RoundedCornerShape(12.dp)),
+            .clip(MaterialTheme.shapes.medium),
         color = MaterialTheme.colorScheme.surface,
         onClick = onClick
     ) {
@@ -54,7 +54,7 @@ fun SongCard(
                     Text(
                         text = title,
                         style = MaterialTheme.typography.bodyLarge.copy(
-                            color = MaterialTheme.colorScheme.surfaceVariant,
+                            color = MaterialTheme.colorScheme.primary,
                             fontSize = 14.sp
                         ),
                         maxLines = 1,
@@ -67,7 +67,7 @@ fun SongCard(
                     // UID tag with neutral color background at 20% opacity
                     Box(
                         modifier = Modifier
-                            .clip(RoundedCornerShape(10.dp))
+                            .clip(MaterialTheme.shapes.small)
                             .background(neutralColor.copy(alpha = 0.25f))
                             .padding(horizontal = 10.dp, vertical = 2.dp)
                     ) {

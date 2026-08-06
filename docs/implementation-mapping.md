@@ -57,7 +57,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | seo (v1) — metadata/sitemap | ✅ | n/a | n/a |
 | observability (v1) — analytics/Sentry | ✅ | n/a | n/a |
 | settings | ✅ | ✅* | ✅ |
-| theme (Gaura/Shyam) | ✅ | ✅* | ✅ |
+| theme (v2 — Gaura/Shyam + expressive) | ⏳ v1 | ⏳ v1* | ✅ v2 green |
 | home (v3 — re-purposed) | ✅ | — | — |
 | today (v1) — embedded as home §1 | ✅ | — | — |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
@@ -74,6 +74,21 @@ Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **w
 web surface (navigation v5 / player v13: the web z-index scale and the drawer-over-mini-player
 model), so iOS/Android are not stale against it; they stay conformant at the version before it ·
 `🔨` in progress · `—` not applicable / not on that platform.
+
+**theme v2 (Material 3 Expressive) — Android only, and the gap is deliberate.** Android is green at
+v2: `MaterialExpressiveTheme` + `MotionScheme.expressive()`, the shape scale, the remapped Material
+color slots, and the wavy playback indicator, verified by `:app:assembleDebug` +
+`:app:testDebugUnitTest`. Reaching the wavy indicator required
+`androidx.compose.material3:material3:1.5.0-alpha25`, which in turn forced **compileSdk 37, AGP
+9.4.0-alpha08, Gradle 9.7.0 and Kotlin 2.4.10** — the app now sits on an alpha Android toolchain,
+which is the standing cost of that one component. material3 **1.4.0 stable** carries
+`MaterialExpressiveTheme`, `MotionScheme` and `Shapes` but **not** the wavy indicators.
+
+**Web and iOS are `⏳ v1`, not behind schedule.** v2's slot remap is an Android *mechanism* and does
+not apply to them. What does apply is the new **Shape** scale and **Motion** contract — neither
+platform has an official Expressive implementation, so both must reproduce that behavior in their own
+idiom (SwiftUI shape/animation; CSS/SVG/Canvas) before they can be marked v2. Until they are, the
+three platforms differ in shape rhythm and in the player's progress affordance.
 
 **Web overhaul (build + screenshot/CDP verified):** top bar removed; search is a **centered
 command-palette modal** on desktop and a **full-screen search page** on mobile — one component,

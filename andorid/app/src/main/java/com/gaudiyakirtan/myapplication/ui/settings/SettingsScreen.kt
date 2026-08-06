@@ -1,8 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.settings
 
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
-import com.gaudiyakirtan.myapplication.ui.theme.accentRadioButtonColors
-import com.gaudiyakirtan.myapplication.ui.theme.accentSwitchColors
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.background
@@ -61,7 +59,7 @@ fun SettingsScreen(
                     Icon(
                         imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                         contentDescription = "Back",
-                        tint = MaterialTheme.colorScheme.surfaceVariant
+                        tint = MaterialTheme.colorScheme.primary
                     )
                 }
                 Text(
@@ -151,7 +149,7 @@ private fun SectionHeader(text: String) {
         text = text,
         style = MaterialTheme.typography.titleSmall,
         fontWeight = FontWeight.SemiBold,
-        color = MaterialTheme.colorScheme.surfaceVariant,
+        color = MaterialTheme.colorScheme.primary,
         modifier = Modifier.padding(top = 20.dp, bottom = 8.dp)
     )
 }
@@ -182,7 +180,7 @@ private fun PickerRow(
         )
         Box {
             Surface(
-                shape = RoundedCornerShape(8.dp),
+                shape = MaterialTheme.shapes.small,
                 color = MaterialTheme.colorScheme.surface,
                 onClick = { open = true }
             ) {
@@ -207,8 +205,7 @@ private fun PickerRow(
                                 onClick = {
                                     onSelect(option.code)
                                     open = false
-                                },
-                                colors = accentRadioButtonColors()
+                                }
                             )
                         }
                     )
@@ -236,7 +233,7 @@ private fun SwitchRow(
             color = MaterialTheme.colorScheme.onBackground,
             modifier = Modifier.weight(1f)
         )
-        Switch(checked = checked, onCheckedChange = onCheckedChange, colors = accentSwitchColors())
+        Switch(checked = checked, onCheckedChange = onCheckedChange)
     }
 }
 
@@ -267,7 +264,7 @@ private fun ThemeRow(
         )
         Box {
             Surface(
-                shape = RoundedCornerShape(8.dp),
+                shape = MaterialTheme.shapes.small,
                 color = MaterialTheme.colorScheme.surface,
                 onClick = { open = true }
             ) {
@@ -292,8 +289,7 @@ private fun ThemeRow(
                                 onClick = {
                                     onSelect(pref)
                                     open = false
-                                },
-                                colors = accentRadioButtonColors()
+                                }
                             )
                         }
                     )

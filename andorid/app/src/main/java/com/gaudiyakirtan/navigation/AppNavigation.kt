@@ -6,6 +6,7 @@ import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.animation.Crossfade
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
@@ -143,12 +144,25 @@ fun AppNavigation() {
 
                             NavigationBarItem(
                                 icon = {
-                                    Icon(
-                                        painter = painterResource(
-                                            id = if (selected) tab.filledIcon else tab.outlineIcon
-                                        ),
-                                        contentDescription = tab.label
-                                    )
+                                    // Selection is a state change, so it gets expressive motion --
+                                    // but only motion. The bar keeps its invisible indicator
+                                    // (docs/screens/browse.md: active state is carried by the
+                                    // accent token, not by a pill), and the tabs are repeated
+                                    // utility controls, so they stay visually quiet. Crossfading
+                                    // outline -> filled makes the change legible instead of an
+                                    // instantaneous swap.
+                                    Crossfade(
+                                        targetState = selected,
+                                        animationSpec = MaterialTheme.motionScheme.fastEffectsSpec(),
+                                        label = "tabIcon"
+                                    ) { isSelected ->
+                                        Icon(
+                                            painter = painterResource(
+                                                id = if (isSelected) tab.filledIcon else tab.outlineIcon
+                                            ),
+                                            contentDescription = tab.label
+                                        )
+                                    }
                                 },
                                 label = {
                                     Text(text = tab.label)
@@ -157,9 +171,9 @@ fun AppNavigation() {
                                 colors = androidx.compose.material3.NavigationBarItemDefaults.colors(
                                     // Active tab uses the accent/highlight token (docs/screens/browse.md
                                     // Navigation: "Active state uses the accent/highlight token").
-                                    selectedIconColor = MaterialTheme.colorScheme.surfaceVariant,
+                                    selectedIconColor = MaterialTheme.colorScheme.primary,
                                     unselectedIconColor = MaterialTheme.colorScheme.neutral,
-                                    selectedTextColor = MaterialTheme.colorScheme.surfaceVariant,
+                                    selectedTextColor = MaterialTheme.colorScheme.primary,
                                     unselectedTextColor = MaterialTheme.colorScheme.neutral,
                                     indicatorColor = MaterialTheme.colorScheme.background // Make indicator invisible
                                 ),

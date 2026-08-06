@@ -72,7 +72,7 @@ fun VerseView(
                     Text(
                         text = transliterationLines[i],
                         fontSize = 14.sp,
-                        color = MaterialTheme.colorScheme.surfaceVariant, // Highlight color
+                        color = MaterialTheme.colorScheme.primary, // Highlight color
                         textAlign = TextAlign.Center,
                         modifier = Modifier.fillMaxWidth()
                     )
@@ -94,7 +94,7 @@ fun VerseView(
                         wordToWord.words.forEach { pair ->
                             withStyle(
                                 style = SpanStyle(
-                                    color = MaterialTheme.colorScheme.surfaceVariant, // Highlight color
+                                    color = MaterialTheme.colorScheme.primary, // Highlight color
                                     fontWeight = FontWeight.Medium
                                 )
                             ) {

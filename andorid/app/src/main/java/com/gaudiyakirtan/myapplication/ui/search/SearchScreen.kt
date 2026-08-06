@@ -114,7 +114,7 @@ private fun SearchInputField(
         modifier = modifier
             .fillMaxWidth()
             .height(44.dp),
-        shape = RoundedCornerShape(22.dp),
+        shape = MaterialTheme.shapes.large,
         color = MaterialTheme.colorScheme.surface
     ) {
         Row(
@@ -134,7 +134,7 @@ private fun SearchInputField(
                 textStyle = MaterialTheme.typography.bodyMedium.copy(
                     color = MaterialTheme.colorScheme.onSurface
                 ),
-                cursorBrush = androidx.compose.ui.graphics.SolidColor(MaterialTheme.colorScheme.surfaceVariant),
+                cursorBrush = androidx.compose.ui.graphics.SolidColor(MaterialTheme.colorScheme.primary),
                 decorationBox = { innerTextField ->
                     if (query.isEmpty()) {
                         Text(
@@ -154,7 +154,7 @@ private fun SearchInputField(
                     tint = MaterialTheme.colorScheme.neutral,
                     modifier = Modifier
                         .size(20.dp)
-                        .clip(RoundedCornerShape(10.dp))
+                        .clip(MaterialTheme.shapes.small)
                         .clickable { onClear() }
                 )
                 Spacer(modifier = Modifier.width(8.dp))

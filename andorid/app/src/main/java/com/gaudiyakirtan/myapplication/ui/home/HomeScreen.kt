@@ -107,7 +107,7 @@ fun HomeScreen(
                             Text(
                                 text = song.title,
                                 fontSize = 28.sp,
-                                color = MaterialTheme.colorScheme.surfaceVariant, // Highlight color
+                                color = MaterialTheme.colorScheme.primary, // Highlight color
                                 textAlign = TextAlign.Center
                             )
 

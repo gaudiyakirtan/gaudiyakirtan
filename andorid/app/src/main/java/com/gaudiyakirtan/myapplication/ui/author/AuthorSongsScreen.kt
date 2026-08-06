@@ -48,7 +48,7 @@ fun AuthorSongsScreen(
                     Icon(
                         imageVector = Icons.AutoMirrored.Filled.ArrowBack,
                         contentDescription = "Back",
-                        tint = MaterialTheme.colorScheme.surfaceVariant
+                        tint = MaterialTheme.colorScheme.primary
                     )
                 }
                 Text(

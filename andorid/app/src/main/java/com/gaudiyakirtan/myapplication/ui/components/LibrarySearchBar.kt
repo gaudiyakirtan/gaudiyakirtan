@@ -34,7 +34,7 @@ fun LibrarySearchBar(
         modifier = modifier
             .fillMaxWidth()
             .height(40.dp)
-            .clip(RoundedCornerShape(20.dp))
+            .clip(MaterialTheme.shapes.large)
             .background(MaterialTheme.colorScheme.surface) // Golden color matching the category tabs
     ) {
         Row(

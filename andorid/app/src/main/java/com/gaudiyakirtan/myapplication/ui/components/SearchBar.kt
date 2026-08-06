@@ -53,7 +53,7 @@ fun SearchBar(
             contentAlignment = Alignment.Center
         ) {
             MusicNote(
-                color = MaterialTheme.colorScheme.surfaceVariant,
+                color = MaterialTheme.colorScheme.primary,
                 size = 28.dp
             )
         }
@@ -63,7 +63,7 @@ fun SearchBar(
             modifier = Modifier
                 .weight(1f)
                 .height(40.dp)
-                .clip(RoundedCornerShape(20.dp))
+                .clip(MaterialTheme.shapes.large)
                 .background(MaterialTheme.colorScheme.surface)
                 .then(if (onSearchClick != null) Modifier.clickable { onSearchClick() } else Modifier)
         ) {

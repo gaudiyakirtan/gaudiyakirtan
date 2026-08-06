@@ -1,13 +1,14 @@
 plugins {
+    // `kotlin.android` is intentionally absent: AGP 9 provides Kotlin support built in.
     alias(libs.plugins.android.application)
-    alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    kotlin("plugin.serialization") version "2.0.21"
+    alias(libs.plugins.kotlin.serialization)
 }
 
 android {
     namespace = "com.gaudiyakirtan.myapplication"
-    compileSdk = 35
+    // 37 is the floor for material3 1.5.0-alpha25 (aar-metadata minCompileSdk=37).
+    compileSdk = 37
 
     defaultConfig {
         applicationId = "com.gaudiyakirtan.myapplication"
@@ -29,11 +30,14 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
+        // AGP 9 requires a JDK 17+ toolchain.
+        sourceCompatibility = JavaVersion.VERSION_17
+        targetCompatibility = JavaVersion.VERSION_17
     }
-    kotlinOptions {
-        jvmTarget = "11"
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_17)
+        }
     }
     buildFeatures {
         compose = true
@@ -66,8 +70,9 @@ dependencies {
     implementation("io.coil-kt.coil3:coil-compose:3.0.4")
     implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.4")
     implementation("com.squareup.okhttp3:okhttp:4.12.0")
-    implementation("androidx.compose.material:material:1.7.6")
-    implementation("androidx.compose.foundation:foundation:1.7.6")
+    // Versionless: governed by the Compose BOM, which previously conflicted with these
+    // hand-pinned 1.7.6 coordinates.
+    implementation("androidx.compose.foundation:foundation")
 
     val lifecycle_version = "2.8.7"
     val arch_version = "2.2.0"
