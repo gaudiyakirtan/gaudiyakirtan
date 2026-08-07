@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.player
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.animation.core.animateFloatAsState
@@ -79,9 +80,9 @@ fun MiniPlayerBar(
         Row(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(horizontal = 12.dp),
+                .padding(horizontal = Spacing.md),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(12.dp)
+            horizontalArrangement = Arrangement.spacedBy(Spacing.md)
         ) {
             Box(
                 modifier = Modifier

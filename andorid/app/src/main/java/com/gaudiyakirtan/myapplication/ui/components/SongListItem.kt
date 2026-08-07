@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.background
@@ -39,12 +40,12 @@ fun SongListItem(
         onClick = onClick
     ) {
         Column(
-            modifier = Modifier.padding(horizontal = 10.dp, vertical = 4.dp)
+            modifier = Modifier.padding(horizontal = Spacing.md, vertical = Spacing.xs)
         ) {
             // Title and UID row
             Row(
                 verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier.padding(top = 4.dp)
+                modifier = Modifier.padding(top = Spacing.xs)
             ) {
                 Text(
                     text = title,
@@ -57,14 +58,14 @@ fun SongListItem(
                     modifier = Modifier.weight(1f, fill = false)
                 )
 
-                Spacer(modifier = Modifier.width(8.dp))
+                Spacer(modifier = Modifier.width(Spacing.sm))
 
                 // UID tag
                 Box(
                     modifier = Modifier
                         .clip(MaterialTheme.shapes.small)
                         .background(neutralColor.copy(alpha = 0.25f))
-                        .padding(horizontal = 10.dp, vertical = 2.dp)
+                        .padding(horizontal = Spacing.md, vertical = Spacing.xxs)
                 ) {
                     Text(
                         text = uid,
@@ -80,8 +81,8 @@ fun SongListItem(
             // Author and audio icon row
             Row(
                 verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(6.dp),
-                modifier = Modifier.padding(bottom = 4.dp, top = 2.dp)
+                horizontalArrangement = Arrangement.spacedBy(Spacing.sm),
+                modifier = Modifier.padding(bottom = Spacing.xs, top = Spacing.xxs)
             ) {
                 Text(
                     text = authorName,

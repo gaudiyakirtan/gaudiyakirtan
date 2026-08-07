@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.home
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.layout.*
@@ -57,7 +58,7 @@ fun HomeScreen(
                 onSearchTextChange = { viewModel.updateSearchQuery(it) },
                 onSettingsClick = onSettingsClick,
                 onSearchClick = onSearchClick,
-                modifier = Modifier.padding(top = 8.dp)
+                modifier = Modifier.padding(top = Spacing.sm)
             )
 
             // Main content with scroll
@@ -65,7 +66,7 @@ fun HomeScreen(
                 modifier = Modifier
                     .fillMaxSize()
                     .verticalScroll(rememberScrollState()),
-                verticalArrangement = Arrangement.spacedBy(24.dp)
+                verticalArrangement = Arrangement.spacedBy(Spacing.xl)
             ) {
                 SongsSection(
                     songs = songs.take(4),
@@ -97,12 +98,12 @@ fun HomeScreen(
                         horizontalAlignment = Alignment.CenterHorizontally,
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(horizontal = 16.dp)
+                            .padding(horizontal = Spacing.lg)
                     ) {
                         Column(
                             horizontalAlignment = Alignment.CenterHorizontally,
-                            verticalArrangement = Arrangement.spacedBy(4.dp),
-                            modifier = Modifier.padding(top = 16.dp)
+                            verticalArrangement = Arrangement.spacedBy(Spacing.xs),
+                            modifier = Modifier.padding(top = Spacing.lg)
                         ) {
                             Text(
                                 text = song.title,
@@ -127,7 +128,7 @@ fun HomeScreen(
                                 modifier = Modifier
                                     .clip(MaterialTheme.shapes.small)
                                     .background(MaterialTheme.colorScheme.neutral.copy(alpha = 0.25f))
-                                    .padding(horizontal = 10.dp, vertical = 2.dp)
+                                    .padding(horizontal = Spacing.md, vertical = Spacing.xxs)
                             )
                         }
 
@@ -140,7 +141,7 @@ fun HomeScreen(
                 }
 
                 // Add padding at the bottom
-                Spacer(modifier = Modifier.height(32.dp))
+                Spacer(modifier = Modifier.height(Spacing.xxl))
             }
         }
     }

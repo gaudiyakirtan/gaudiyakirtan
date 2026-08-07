@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyRow
@@ -27,8 +28,8 @@ fun <T> CategorySelector(
     modifier: Modifier = Modifier
 ) {
     LazyRow(
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-        contentPadding = PaddingValues(horizontal = 16.dp),
+        horizontalArrangement = Arrangement.spacedBy(Spacing.sm),
+        contentPadding = PaddingValues(horizontal = Spacing.lg),
         modifier = modifier
     ) {
         items(categories) { category ->
@@ -50,7 +51,7 @@ fun <T> CategorySelector(
                     else
                         MaterialTheme.colorScheme.onBackground
                 ),
-                contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp),
+                contentPadding = PaddingValues(horizontal = Spacing.lg, vertical = Spacing.sm),
                 modifier = Modifier.height(36.dp)
             ) {
                 Text(

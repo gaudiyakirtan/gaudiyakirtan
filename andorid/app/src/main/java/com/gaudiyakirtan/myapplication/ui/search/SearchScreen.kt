@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.search
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.background
@@ -58,7 +59,7 @@ fun SearchScreen(
             query = query,
             onQueryChange = viewModel::updateQuery,
             onClear = viewModel::clearQuery,
-            modifier = Modifier.padding(16.dp)
+            modifier = Modifier.padding(Spacing.lg)
         )
 
         when {
@@ -74,14 +75,14 @@ fun SearchScreen(
                     text = "No matches for \"$query\"",
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.neutral,
-                    modifier = Modifier.padding(top = 48.dp, start = 24.dp, end = 24.dp)
+                    modifier = Modifier.padding(top = Spacing.xxxl, start = Spacing.xl, end = Spacing.xl)
                 )
             }
 
             else -> LazyColumn(
                 modifier = Modifier.fillMaxSize(),
-                contentPadding = PaddingValues(horizontal = 16.dp, vertical = 4.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp)
+                contentPadding = PaddingValues(horizontal = Spacing.lg, vertical = Spacing.xs),
+                verticalArrangement = Arrangement.spacedBy(Spacing.sm)
             ) {
                 // Ranked results (best-first) -- NOT alphabetized; reuse the song-list row.
                 items(results, key = { it.uid }) { entry ->
@@ -119,7 +120,7 @@ private fun SearchInputField(
         Row(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(horizontal = 12.dp),
+                .padding(horizontal = Spacing.md),
             verticalAlignment = Alignment.CenterVertically
         ) {
             BasicTextField(
@@ -156,7 +157,7 @@ private fun SearchInputField(
                         .clip(MaterialTheme.shapes.small)
                         .clickable { onClear() }
                 )
-                Spacer(modifier = Modifier.width(8.dp))
+                Spacer(modifier = Modifier.width(Spacing.sm))
             }
 
             Icon(

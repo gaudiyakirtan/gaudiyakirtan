@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.song
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.background
@@ -131,7 +132,7 @@ private fun SongToolbar(
         modifier = Modifier
             .fillMaxWidth()
             .background(MaterialTheme.colorScheme.background)
-            .padding(horizontal = 8.dp, vertical = 8.dp),
+            .padding(horizontal = Spacing.sm, vertical = Spacing.sm),
         verticalAlignment = Alignment.CenterVertically
     ) {
         IconButton(onClick = onBackClick) {
@@ -150,7 +151,7 @@ private fun SongToolbar(
                 onClick = onPlayClick,
                 modifier = Modifier
                     .weight(1f)
-                    .padding(horizontal = 4.dp)
+                    .padding(horizontal = Spacing.xs)
             )
         } else {
             Spacer(modifier = Modifier.weight(1f))
@@ -200,9 +201,9 @@ private fun PlayerPill(
         onClick = onClick
     ) {
         Row(
-            modifier = Modifier.padding(start = 6.dp, end = 6.dp),
+            modifier = Modifier.padding(start = Spacing.sm, end = Spacing.sm),
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(8.dp)
+            horizontalArrangement = Arrangement.spacedBy(Spacing.sm)
         ) {
             Box(
                 modifier = Modifier
@@ -292,7 +293,7 @@ private fun DisplaySettingsMenu(
                             Text(
                                 option.label,
                                 style = MaterialTheme.typography.bodyMedium,
-                                modifier = Modifier.padding(start = 16.dp)
+                                modifier = Modifier.padding(start = Spacing.lg)
                             )
                         },
                         onClick = { onGlossLanguageSelected(option.code) },
@@ -341,7 +342,7 @@ private fun MenuSectionLabel(text: String) {
         text = text,
         style = MaterialTheme.typography.labelMedium,
         color = MaterialTheme.colorScheme.neutral,
-        modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+        modifier = Modifier.padding(horizontal = Spacing.lg, vertical = Spacing.sm)
     )
 }
 
@@ -356,7 +357,7 @@ private fun SongBody(
 ) {
     LazyColumn(
         modifier = Modifier.fillMaxSize(),
-        contentPadding = PaddingValues(horizontal = 20.dp, vertical = 16.dp),
+        contentPadding = PaddingValues(horizontal = Spacing.xl, vertical = Spacing.lg),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         // Header: title + author, centered.
@@ -364,9 +365,9 @@ private fun SongBody(
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(bottom = 16.dp),
+                    .padding(bottom = Spacing.lg),
                 horizontalAlignment = Alignment.CenterHorizontally,
-                verticalArrangement = Arrangement.spacedBy(4.dp)
+                verticalArrangement = Arrangement.spacedBy(Spacing.xs)
             ) {
                 Text(
                     text = song.title,
@@ -384,8 +385,8 @@ private fun SongBody(
                 )
                 if (song.tags.isNotEmpty()) {
                     Row(
-                        modifier = Modifier.padding(top = 4.dp),
-                        horizontalArrangement = Arrangement.spacedBy(8.dp)
+                        modifier = Modifier.padding(top = Spacing.xs),
+                        horizontalArrangement = Arrangement.spacedBy(Spacing.sm)
                     ) {
                         song.tags.take(4).forEach { tag -> Tag(text = tag) }
                     }
@@ -404,7 +405,7 @@ private fun SongBody(
             )
         }
 
-        item { Spacer(modifier = Modifier.height(48.dp)) }
+        item { Spacer(modifier = Modifier.height(Spacing.xxxl)) }
     }
 }
 
@@ -428,8 +429,8 @@ private fun VerseBlock(
         modifier = Modifier
             .fillMaxWidth()
             .then(if (onClick != null) Modifier.clickable(onClick = onClick) else Modifier)
-            .padding(vertical = 16.dp),
-        verticalArrangement = Arrangement.spacedBy(12.dp),
+            .padding(vertical = Spacing.lg),
+        verticalArrangement = Arrangement.spacedBy(Spacing.md),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         // 1. Native (chosen) script -- collapsed shows only the first line as a preview.
@@ -530,19 +531,19 @@ private fun LoadingSkeleton() {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(20.dp),
+            .padding(Spacing.xl),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(16.dp)
+        verticalArrangement = Arrangement.spacedBy(Spacing.lg)
     ) {
-        Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(Spacing.sm))
         SkeletonBar(widthFraction = 0.6f, height = 28.dp)
         SkeletonBar(widthFraction = 0.4f, height = 20.dp)
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(Spacing.lg))
         repeat(3) {
             SkeletonBar(widthFraction = 0.7f, height = 16.dp)
             SkeletonBar(widthFraction = 0.7f, height = 16.dp)
             SkeletonBar(widthFraction = 0.9f, height = 14.dp)
-            Spacer(modifier = Modifier.height(16.dp))
+            Spacer(modifier = Modifier.height(Spacing.lg))
         }
     }
 }

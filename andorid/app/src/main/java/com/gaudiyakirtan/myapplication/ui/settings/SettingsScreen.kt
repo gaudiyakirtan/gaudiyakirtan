@@ -1,5 +1,7 @@
 package com.gaudiyakirtan.myapplication.ui.settings
 
+import com.gaudiyakirtan.myapplication.ui.components.GaudiyaTopAppBar
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.animation.AnimatedVisibility
@@ -47,33 +49,13 @@ fun SettingsScreen(
         color = MaterialTheme.colorScheme.background
     ) {
         Column(modifier = Modifier.fillMaxSize()) {
-            // Top bar: back + title.
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 8.dp, vertical = 8.dp),
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                IconButton(onClick = onBackClick) {
-                    Icon(
-                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                        contentDescription = "Back",
-                        tint = MaterialTheme.colorScheme.primary
-                    )
-                }
-                Text(
-                    text = "Settings",
-                    style = MaterialTheme.typography.headlineSmall,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.onBackground
-                )
-            }
+            GaudiyaTopAppBar(title = "Settings", onBackClick = onBackClick)
 
             Column(
                 modifier = Modifier
                     .fillMaxSize()
                     .verticalScroll(rememberScrollState())
-                    .padding(horizontal = 16.dp)
+                    .padding(horizontal = Spacing.lg)
             ) {
                 // ---- Display ----
                 SectionHeader("Display")
@@ -136,7 +118,7 @@ fun SettingsScreen(
                 SectionHeader("About")
                 AboutSection()
 
-                Spacer(modifier = Modifier.height(48.dp))
+                Spacer(modifier = Modifier.height(Spacing.xxxl))
             }
         }
     }
@@ -149,7 +131,7 @@ private fun SectionHeader(text: String) {
         style = MaterialTheme.typography.titleSmall,
         fontWeight = FontWeight.SemiBold,
         color = MaterialTheme.colorScheme.primary,
-        modifier = Modifier.padding(top = 20.dp, bottom = 8.dp)
+        modifier = Modifier.padding(top = Spacing.xl, bottom = Spacing.sm)
     )
 }
 
@@ -168,7 +150,7 @@ private fun PickerRow(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(start = if (indented) 16.dp else 0.dp, top = 10.dp, bottom = 10.dp),
+            .padding(start = if (indented) Spacing.lg else 0.dp, top = Spacing.md, bottom = Spacing.md),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Text(
@@ -187,7 +169,7 @@ private fun PickerRow(
                     text = selectedLabel,
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onBackground,
-                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                    modifier = Modifier.padding(horizontal = Spacing.lg, vertical = Spacing.sm)
                 )
             }
             DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
@@ -223,7 +205,7 @@ private fun SwitchRow(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 6.dp),
+            .padding(vertical = Spacing.sm),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Text(
@@ -252,7 +234,7 @@ private fun ThemeRow(
     Row(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 10.dp),
+            .padding(vertical = Spacing.md),
         verticalAlignment = Alignment.CenterVertically
     ) {
         Text(
@@ -271,7 +253,7 @@ private fun ThemeRow(
                     text = selectedLabel,
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onBackground,
-                    modifier = Modifier.padding(horizontal = 16.dp, vertical = 8.dp)
+                    modifier = Modifier.padding(horizontal = Spacing.lg, vertical = Spacing.sm)
                 )
             }
             DropdownMenu(expanded = open, onDismissRequest = { open = false }) {
@@ -306,7 +288,7 @@ private fun AboutSection() {
             modifier = Modifier
                 .fillMaxWidth()
                 .clickable { expanded = !expanded }
-                .padding(vertical = 12.dp),
+                .padding(vertical = Spacing.md),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Text(
@@ -325,8 +307,8 @@ private fun AboutSection() {
             Column(
                 modifier = Modifier
                     .fillMaxWidth()
-                    .padding(bottom = 12.dp),
-                verticalArrangement = Arrangement.spacedBy(4.dp)
+                    .padding(bottom = Spacing.md),
+                verticalArrangement = Arrangement.spacedBy(Spacing.xs)
             ) {
                 Text(
                     text = "Gaudiya Kirtan",

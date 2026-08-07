@@ -1,5 +1,7 @@
 package com.gaudiyakirtan.myapplication.ui.author
 
+import com.gaudiyakirtan.myapplication.ui.components.GaudiyaTopAppBar
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.layout.*
@@ -37,27 +39,7 @@ fun AuthorSongsScreen(
         color = MaterialTheme.colorScheme.background
     ) {
         Column(modifier = Modifier.fillMaxSize()) {
-            // Header: back + author name.
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 8.dp, vertical = 8.dp),
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                IconButton(onClick = onBackClick) {
-                    Icon(
-                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                        contentDescription = "Back",
-                        tint = MaterialTheme.colorScheme.primary
-                    )
-                }
-                Text(
-                    text = authorName,
-                    style = MaterialTheme.typography.headlineSmall,
-                    fontWeight = FontWeight.Bold,
-                    color = MaterialTheme.colorScheme.onBackground
-                )
-            }
+            GaudiyaTopAppBar(title = authorName, onBackClick = onBackClick)
 
             when {
                 songs.isNotEmpty() -> SongsListWithIndex(

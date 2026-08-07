@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.background
@@ -39,7 +40,7 @@ fun LibrarySearchBar(
         Row(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(horizontal = 12.dp),
+                .padding(horizontal = Spacing.md),
             verticalAlignment = Alignment.CenterVertically
         ) {
             BasicTextField(
@@ -47,7 +48,7 @@ fun LibrarySearchBar(
                 onValueChange = onSearchTextChange,
                 modifier = Modifier
                     .weight(1f)
-                    .padding(vertical = 8.dp),
+                    .padding(vertical = Spacing.sm),
                 singleLine = true,
                 textStyle = MaterialTheme.typography.bodyMedium.copy(
                     color = MaterialTheme.colorScheme.neutral

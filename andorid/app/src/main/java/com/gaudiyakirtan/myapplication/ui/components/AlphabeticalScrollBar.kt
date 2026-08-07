@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.background
@@ -56,7 +57,7 @@ fun AlphabeticalScrollBar(
             modifier = Modifier
                 .fillMaxHeight()
                 .width(18.dp)
-                .padding(vertical = 10.dp)
+                .padding(vertical = Spacing.md)
                 .clip(RoundedCornerShape(topStart = 8.dp, bottomStart = 8.dp, topEnd = 0.dp, bottomEnd = 0.dp))
                 .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.2f))
                 .align(Alignment.CenterEnd)
@@ -86,7 +87,7 @@ fun AlphabeticalScrollBar(
             modifier = Modifier
                 .fillMaxHeight()
                 .width(18.dp)
-                .padding(vertical = 10.dp)
+                .padding(vertical = Spacing.md)
                 .align(Alignment.CenterEnd)
                 .pointerInput(Unit) {
                     detectDragGestures(

@@ -42,6 +42,13 @@ android {
     buildFeatures {
         compose = true
     }
+    testOptions {
+        unitTests {
+            // Robolectric needs the merged resources/manifest to inflate a real Activity, which is
+            // what lets Compose UI tests run on the JVM instead of requiring an emulator.
+            isIncludeAndroidResources = true
+        }
+    }
 }
 
 dependencies {
@@ -120,6 +127,13 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     testImplementation(libs.junit)
+    // Compose UI tests on the JVM. This container (and most CI) cannot boot an emulator, so the
+    // expressive behavior -- wavy amplitude, seek semantics, the color scheme -- would otherwise
+    // have no executable coverage at all.
+    testImplementation(libs.robolectric)
+    testImplementation(platform(libs.androidx.compose.bom))
+    testImplementation(libs.androidx.ui.test.junit4)
+    debugImplementation(libs.androidx.ui.test.manifest)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))

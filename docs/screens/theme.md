@@ -1,6 +1,6 @@
 # System — Theme (Gaura / Shyam)
 
-**Spec version:** 2
+**Spec version:** 3
 
 **Figma frames:** `Guar Theme`, `Shyam Theme`, `Colors`, `Components`.
 **Palette values (authoritative):** [`../theme/colors.md`](../theme/colors.md).
@@ -117,6 +117,30 @@ The `*Increased` steps exist so an emphasis state can change shape without inven
 deliberate exceptions: a directional/asymmetric shape (e.g. the alphabetical scroll bar's leading-edge
 rounding) and an animated radius driven by state (the play/pause morph) are not scale steps.
 
+## Spacing
+
+Material lays out on a **4dp grid**, and spacing is a hierarchy signal exactly as shape and type
+are — the gap between two elements states how related they are. Spacing therefore goes through a
+named scale, never a raw number chosen per call site.
+
+| Token | Value | Use |
+|---|---|---|
+| `xxs` | 2 | hairline separation inside a control |
+| `xs` | 4 | tight pairs — a label and its chip |
+| `sm` | 8 | related items in a row |
+| `md` | 12 | list-row internals |
+| `lg` | 16 | the default — screen gutters, card padding, between rows |
+| `xl` | 24 | between groups of content |
+| `xxl` | 32 | between major sections |
+| `xxxl` | 48 | around a lone focal element (empty/error states) |
+
+The scale governs **spacing** — padding, inter-item arrangement, spacers. It deliberately does not
+govern **dimensions**: an icon's size, a stroke width, or a fixed bar height is not a rhythm, and
+forcing it through this scale would be false precision.
+
+Off-grid values are the thing to watch for. Android carried 6, 10, 18, 22 and 44dp alongside grid
+values; a 10dp gap next to a 12dp gap reads as noise rather than hierarchy.
+
 ## Motion
 
 Motion communicates hierarchy, continuity, or state — never decoration.
@@ -155,6 +179,11 @@ All three platforms built the base theme before these were finalized — reconci
 
 ## Change log
 
+- **v3** — Adds the **Spacing** scale (4dp grid, named steps, spacing-not-dimensions). Records that
+  the container ramp (`surfaceContainer*`, `surfaceDim/Bright`, `inverseSurface`) must be filled
+  from the palette, because Material components read those slots directly and an unset slot falls
+  back to the M3 baseline palette; and that `outline` takes `neutral` (higher-contrast boundaries,
+  incl. an unchecked switch thumb) while `outlineVariant` takes `border`.
 - **v2** — Material 3 Expressive. Adds the **Shape** scale and the **Motion** contract (expressive
   vs standard, one focal element per screen, wavy = playing). Rewrites **Interactive controls** so
   the requirement is stated once and the *mechanism* is per-platform. Records Android's remapped

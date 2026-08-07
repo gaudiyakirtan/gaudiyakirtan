@@ -1,5 +1,7 @@
 package com.gaudiyakirtan.myapplication.ui.player
 
+import com.gaudiyakirtan.myapplication.ui.components.GaudiyaTopAppBar
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.background
@@ -82,28 +84,7 @@ fun PlayerScreen(
         color = MaterialTheme.colorScheme.background
     ) {
         Column(modifier = Modifier.fillMaxSize()) {
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 8.dp, vertical = 8.dp),
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                IconButton(onClick = onBackClick) {
-                    Icon(
-                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                        contentDescription = "Back",
-                        tint = MaterialTheme.colorScheme.primary
-                    )
-                }
-                Spacer(modifier = Modifier.weight(1f))
-                Text(
-                    text = "Now Playing",
-                    style = MaterialTheme.typography.titleMedium,
-                    color = MaterialTheme.colorScheme.neutral
-                )
-                Spacer(modifier = Modifier.weight(1f))
-                Spacer(modifier = Modifier.size(48.dp)) // balances the back button
-            }
+            GaudiyaTopAppBar(title = "Now Playing", onBackClick = onBackClick)
 
             val nowPlaying = uiState.nowPlaying
             when {
@@ -135,9 +116,9 @@ private fun NowPlayingContent(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(horizontal = 24.dp, vertical = 16.dp),
+            .padding(horizontal = Spacing.xl, vertical = Spacing.lg),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(8.dp)
+        verticalArrangement = Arrangement.spacedBy(Spacing.sm)
     ) {
         // Recording-artist portrait (docs/screens/player.md "Related assets on the same bucket":
         // `artists/<artist_code>.jpg`), gracefully falling back to the mridanga placeholder icon on
@@ -146,7 +127,7 @@ private fun NowPlayingContent(
             modifier = Modifier
                 .fillMaxWidth()
                 .aspectRatio(1f)
-                .padding(24.dp)
+                .padding(Spacing.xl)
                 .clip(MaterialTheme.shapes.medium)
                 .background(MaterialTheme.colorScheme.surface),
             contentAlignment = Alignment.Center
@@ -201,7 +182,7 @@ private fun NowPlayingContent(
             }
         }
 
-        Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(Spacing.sm))
 
         when (uiState.playbackState) {
             PlaybackState.ERROR -> ErrorState(message = uiState.errorMessage ?: "Audio unavailable")
@@ -231,7 +212,7 @@ private fun TakePicker(
         Row(
             modifier = Modifier.clickable { expanded = true },
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(4.dp)
+            horizontalArrangement = Arrangement.spacedBy(Spacing.xs)
         ) {
             Text(
                 text = current.artist ?: current.uid,
@@ -334,11 +315,11 @@ private fun PlaybackControls(
             )
         }
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(Spacing.lg))
 
         Row(
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(24.dp)
+            horizontalArrangement = Arrangement.spacedBy(Spacing.xl)
         ) {
             // Skip controls are dormant until multi-recording ordering/adjacency is defined
             // (docs/screens/player.md "skip controls (dormant until multi-recording)").
@@ -392,7 +373,7 @@ private fun ErrorState(message: String) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(32.dp),
+            .padding(Spacing.xxl),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
@@ -402,7 +383,7 @@ private fun ErrorState(message: String) {
             tint = MaterialTheme.colorScheme.neutral,
             modifier = Modifier.size(48.dp)
         )
-        Spacer(modifier = Modifier.height(12.dp))
+        Spacer(modifier = Modifier.height(Spacing.md))
         Text(
             text = message,
             style = MaterialTheme.typography.titleMedium,

@@ -58,17 +58,23 @@ class SongRepositoryLogicTest {
     }
 
     @Test
-    fun `songsInGroup resolves the Sri Guru book to its G-prefixed songs in shipped order`() {
-        // docs/data/collections.md: "verified against the songs' uid prefixes (e.g. the Sri Guru
-        // book = G-prefixed songs)"; this book is `ordered = true`, so song_uids order is
-        // authoritative per the spec invariant.
-        val sriGuru = groups.first { it.uid == "book-sri-guru" }
-        val resolved = SongRepositoryLogic.songsInGroup(sriGuru, manifest)
+    fun `songsInGroup preserves shipped order for every ordered book`() {
+        // Was pinned to a `book-sri-guru` uid that the corpus does not ship (the Sri Guru grouping
+        // is `topic-sriguru`, and it is unordered), so this threw NoSuchElementException rather
+        // than testing anything. The invariant worth holding is the spec one
+        // (docs/data/collections.md): for an `ordered` group, song_uids order is authoritative.
+        val books = groups.filter { it.kind == SongGroupKind.BOOK && it.ordered }
+        assertTrue("the corpus should ship at least one ordered book", books.isNotEmpty())
 
-        assertEquals(sriGuru.songUids.size, resolved.size)
-        assertTrue(resolved.isNotEmpty())
-        assertTrue("every Sri Guru book song should have a G-prefixed uid", resolved.all { it.uid.startsWith("G") })
-        assertEquals(sriGuru.songUids, resolved.map { it.uid })
+        books.forEach { book ->
+            val resolved = SongRepositoryLogic.songsInGroup(book, manifest)
+            assertTrue("${book.uid} should resolve to at least one song", resolved.isNotEmpty())
+            assertEquals(
+                "${book.uid} must resolve in its shipped song_uids order",
+                book.songUids.filter { uid -> manifest.any { it.uid == uid } },
+                resolved.map { it.uid }
+            )
+        }
     }
 
     @Test

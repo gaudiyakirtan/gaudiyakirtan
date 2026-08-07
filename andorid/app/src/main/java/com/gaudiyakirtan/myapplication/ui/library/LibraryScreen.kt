@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.library
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
@@ -48,7 +49,7 @@ fun LibraryScreen(
             selectedCategory = viewModel.selectedCategory,
             onCategorySelected = { viewModel.setCategory(it) },
             categoryToString = { it.title },
-            modifier = Modifier.padding(top = 8.dp)
+            modifier = Modifier.padding(top = Spacing.sm)
         )
 
         // Search bar
@@ -56,7 +57,7 @@ fun LibraryScreen(
             searchText = viewModel.searchText,
             onSearchTextChange = { viewModel.updateSearchText(it) },
             placeholder = viewModel.getSearchPlaceholder(),
-            modifier = Modifier.padding(16.dp)
+            modifier = Modifier.padding(Spacing.lg)
         )
 
         // Category-specific content
@@ -119,9 +120,9 @@ private fun AuthorsContent(
 ) {
     LazyVerticalGrid(
         columns = GridCells.Fixed(2),
-        contentPadding = PaddingValues(16.dp),
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp),
+        contentPadding = PaddingValues(Spacing.lg),
+        horizontalArrangement = Arrangement.spacedBy(Spacing.lg),
+        verticalArrangement = Arrangement.spacedBy(Spacing.lg),
         modifier = modifier
     ) {
         items(authors) { author ->
@@ -148,9 +149,9 @@ private fun TopicsContent(
     }
     LazyVerticalGrid(
         columns = GridCells.Fixed(2),
-        contentPadding = PaddingValues(16.dp),
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp),
+        contentPadding = PaddingValues(Spacing.lg),
+        horizontalArrangement = Arrangement.spacedBy(Spacing.lg),
+        verticalArrangement = Arrangement.spacedBy(Spacing.lg),
         modifier = modifier
     ) {
         items(topics, key = { it.uid }) { topic ->
@@ -176,9 +177,9 @@ private fun BooksContent(
     }
     LazyVerticalGrid(
         columns = GridCells.Adaptive(minSize = 150.dp),
-        contentPadding = PaddingValues(16.dp),
-        horizontalArrangement = Arrangement.spacedBy(16.dp),
-        verticalArrangement = Arrangement.spacedBy(16.dp),
+        contentPadding = PaddingValues(Spacing.lg),
+        horizontalArrangement = Arrangement.spacedBy(Spacing.lg),
+        verticalArrangement = Arrangement.spacedBy(Spacing.lg),
         modifier = modifier
     ) {
         items(books, key = { it.uid }) { book ->

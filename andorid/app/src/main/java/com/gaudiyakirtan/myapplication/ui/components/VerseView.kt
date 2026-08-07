@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.layout.*
@@ -34,8 +35,8 @@ fun VerseView(
     Column(
         modifier = Modifier
             .fillMaxWidth()
-            .padding(vertical = 16.dp), // Match iOS padding of .padding(.vertical)
-        verticalArrangement = Arrangement.spacedBy(16.dp) // Increased from 10dp to 16dp for more spacing between content sections
+            .padding(vertical = Spacing.lg), // Match iOS padding of .padding(.vertical)
+        verticalArrangement = Arrangement.spacedBy(Spacing.lg) // Increased from 10dp to 16dp for more spacing between content sections
     ) {
         // Original Text - Neutral color and centered
         val originalLines = verse.nativeScriptLines()
@@ -55,7 +56,7 @@ fun VerseView(
 
                     // Add spacer between lines (except after the last line)
                     if (i < originalLines.size - 1) {
-                        Spacer(modifier = Modifier.height(8.dp))
+                        Spacer(modifier = Modifier.height(Spacing.sm))
                     }
                 }
             }
@@ -79,7 +80,7 @@ fun VerseView(
 
                     // Add spacer between lines (except after the last line)
                     if (i < transliterationLines.size - 1) {
-                        Spacer(modifier = Modifier.height(8.dp))
+                        Spacer(modifier = Modifier.height(Spacing.sm))
                     }
                 }
             }

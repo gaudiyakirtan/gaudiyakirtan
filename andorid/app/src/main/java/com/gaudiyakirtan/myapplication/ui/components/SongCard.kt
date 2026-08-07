@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.background
@@ -41,13 +42,13 @@ fun SongCard(
         onClick = onClick
     ) {
         Row(
-            modifier = Modifier.padding(horizontal = 10.dp),
+            modifier = Modifier.padding(horizontal = Spacing.md),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Column(modifier = Modifier.weight(1f)) {
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier.padding(top = 8.dp)
+                    modifier = Modifier.padding(top = Spacing.sm)
                 ) {
                     // Song title with primary color
                     Text(
@@ -61,14 +62,14 @@ fun SongCard(
                         modifier = Modifier.weight(1f, fill = false)
                     )
 
-                    Spacer(modifier = Modifier.width(6.dp))
+                    Spacer(modifier = Modifier.width(Spacing.sm))
 
                     // UID tag with neutral color background at 20% opacity
                     Box(
                         modifier = Modifier
                             .clip(MaterialTheme.shapes.small)
                             .background(neutralColor.copy(alpha = 0.25f))
-                            .padding(horizontal = 10.dp, vertical = 2.dp)
+                            .padding(horizontal = Spacing.md, vertical = Spacing.xxs)
                     ) {
                         Text(
                             text = uid,
@@ -82,8 +83,8 @@ fun SongCard(
 
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(6.dp),
-                    modifier = Modifier.padding(bottom = 8.dp)
+                    horizontalArrangement = Arrangement.spacedBy(Spacing.sm),
+                    modifier = Modifier.padding(bottom = Spacing.sm)
                 ) {
                     // Author text with neutral color
                     Text(
