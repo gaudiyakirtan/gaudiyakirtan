@@ -138,11 +138,18 @@ private fun NowPlayingContent(
                 contentDescription = nowPlaying.track.artist,
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.fillMaxSize(),
+                // The placeholder is centered at a fixed glyph size rather than sized by modifier:
+                // MusicNote also applies `.size()` internally, so passing one through the modifier
+                // double-applied and let the note stretch to fill the whole artwork square.
                 loading = {
-                    MusicNote(modifier = Modifier.size(72.dp), color = MaterialTheme.colorScheme.neutral)
+                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                        MusicNote(size = 72.dp, color = MaterialTheme.colorScheme.neutral)
+                    }
                 },
                 error = {
-                    MusicNote(modifier = Modifier.size(72.dp), color = MaterialTheme.colorScheme.neutral)
+                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                        MusicNote(size = 72.dp, color = MaterialTheme.colorScheme.neutral)
+                    }
                 }
             )
         }

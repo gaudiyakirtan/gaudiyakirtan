@@ -3,6 +3,9 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)
     alias(libs.plugins.kotlin.serialization)
+    // Renders Compose to PNG on the JVM via Robolectric, so the PR can carry real screenshots
+    // even though no emulator can boot here.
+    alias(libs.plugins.roborazzi)
 }
 
 android {
@@ -131,6 +134,8 @@ dependencies {
     // expressive behavior -- wavy amplitude, seek semantics, the color scheme -- would otherwise
     // have no executable coverage at all.
     testImplementation(libs.robolectric)
+    testImplementation(libs.roborazzi)
+    testImplementation(libs.roborazzi.compose)
     testImplementation(platform(libs.androidx.compose.bom))
     testImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.test.manifest)
@@ -139,5 +144,4 @@ dependencies {
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
-    debugImplementation(libs.androidx.ui.test.manifest)
 }
