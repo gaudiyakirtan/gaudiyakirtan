@@ -6,6 +6,7 @@ import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.AP
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
+import com.gaudiyakirtan.data.LastVisitedRepository
 import com.gaudiyakirtan.data.SettingsRepository
 import com.gaudiyakirtan.data.SongRepository
 import com.gaudiyakirtan.myapplication.models.AppSettings
@@ -69,6 +70,10 @@ class SongViewModel(application: Application, private val songUid: String) : And
     private val songRepository = SongRepository.getInstance(application)
     private val settingsRepository = SettingsRepository.getInstance(application)
 
+    /** Reading history for the mini-player's resting state (docs/screens/player.md v15). Opening a
+     * song is what writes it -- this screen is the only place a visit is recorded. */
+    private val lastVisitedRepository = LastVisitedRepository.getInstance(application)
+
     private val _song = MutableStateFlow<Song?>(null)
     val song: StateFlow<Song?> = _song.asStateFlow()
 
@@ -95,8 +100,13 @@ class SongViewModel(application: Application, private val songUid: String) : And
     init {
         viewModelScope.launch {
             _isLoading.value = true
-            _song.value = songRepository.getSongByUid(songUid)
+            val loaded = songRepository.getSongByUid(songUid)
+            _song.value = loaded
             _isLoading.value = false
+            // docs/screens/player.md v15 "Persistence": one record, written when song-detail opens a
+            // song, holding the uid only. Written after the load succeeds, so a uid that resolves to
+            // nothing never becomes the mini-player's resting state.
+            if (loaded != null) lastVisitedRepository.recordVisit(loaded.uid)
         }
     }
 

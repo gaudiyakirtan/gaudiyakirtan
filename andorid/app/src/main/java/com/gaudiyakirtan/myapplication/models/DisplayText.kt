@@ -41,6 +41,15 @@ fun List<ScriptText>.preferredText(preferredScriptCodes: List<String>): String {
 /** Display title for a [Song] (prefers the romanized [Song.titleMain] entry). */
 val Song.title: String get() = titleMain.preferredText()
 
+/**
+ * [Song] title in the reader's chosen list language/script (docs/screens/settings.md `listLanguage`),
+ * the [Song] twin of [ManifestEntry.titleForListLanguage]. Used by the mini-player bar
+ * (docs/screens/player.md v15), whose title must follow the same setting the lists do rather than
+ * hardcoding Latin. Falls back to the romanized [title] when the song ships no such script.
+ */
+fun Song.titleForListLanguage(scriptCode: String): String =
+    titleMain.firstOrNull { it.scriptCode == scriptCode }?.text ?: title
+
 /** Display author name for a [Song] (prefers the romanized [Song.authorDisplay] entry). */
 val Song.author: String get() = authorDisplay.preferredText()
 

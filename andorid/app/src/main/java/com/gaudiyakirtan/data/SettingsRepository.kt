@@ -81,7 +81,9 @@ class SettingsRepository private constructor(context: Context) {
         update({ putString(KEY_THEME, theme.storageValue) }) { it.copy(theme = theme) }
 
     companion object {
-        private const val PREFS_NAME = "gaudiya_kirtan_settings"
+        /** Shared with [LastVisitedRepository] -- docs/screens/player.md v15 puts the mini-player's
+         * `last_visited_song_uid` in "the same SharedPreferences store the settings use". */
+        internal const val PREFS_NAME = "gaudiya_kirtan_settings"
         // Unchanged key: an install that already stored a concrete `display_script` keeps it, so only
         // a fresh install picks up the v5 `auto` default.
         private const val KEY_DISPLAY_SCRIPT = "display_script"
