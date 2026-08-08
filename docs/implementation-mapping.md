@@ -47,7 +47,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 
 | Screen | Web | iOS | Android |
 |--------|-----|-----|---------|
-| song-detail (v3) | ✅ | ✅* | ✅ |
+| song-detail (v7) | ✅ v6 | ⚠️ v7 uncompiled | ✅ v7 green |
 | songs-list / library | ✅ | ✅* | ✅ |
 | tracks (v1) | ✅ | — | — |
 | authors | ✅ | ✅* | ✅ |
@@ -68,13 +68,28 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | unit tests | ✅ | ✅* | ✅ 28 green |
 | screenshot tests | ✅ Playwright | — | ✅ Roborazzi (JVM, no device) |
 | resources | 🔨 | — | — |
-| player / now-playing | ✅ v13 green | ✅* ʷ | ✅ ʷ |
+| player / now-playing | ✅ v13 green | ⚠️ v14 uncompiled | ✅ v14 green |
 
 Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbox-blocked; confirm on a real
 Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a
 web surface (navigation v5 / player v13: the web z-index scale and the drawer-over-mini-player
 model), so iOS/Android are not stale against it; they stay conformant at the version before it ·
 `🔨` in progress · `—` not applicable / not on that platform.
+
+### Player v14 — open items
+
+- **The `ʷ` footnote no longer applies to the player row.** It meant "the newest spec version is
+  web-only, so mobile isn't stale against it". v14 is a *mobile* version, so iOS and Android are now
+  measured against it directly. Web stays conformant at v13 and is not stale.
+- **iOS v14 is `⚠️ uncompiled`** for the same reason as settings v5 — written where no Swift
+  toolchain exists. `TakeQueueTests` has never run.
+- **Mobile has no book/topic queue**, so `shuffle`/`repeatMode` scope to a song's **takes**. Web's
+  richer queue (`queueContext`, endless play, sleep timer) has no mobile counterpart, and the
+  "queue" action on mobile therefore shows the takes in resolved play order. If a collection queue
+  ever lands on mobile, that action is where it goes.
+- **Share has no canonical link on mobile.** Web shares `/songs/<uid>?play=<take>`; iOS and Android
+  have no app URL scheme or site-URL constant, so both share the take's public bucket URL plus the
+  song/reciter credit. Worth replacing with a real site URL when one exists.
 
 ### Settings v5 — open items
 
