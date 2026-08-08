@@ -1,6 +1,6 @@
 # Screen — Audio Player
 
-**Spec version:** 13
+**Spec version:** 14
 
 **Figma frames:** `Now Playing`, `Player`, `Track`, `trailingIcon2_`.
 
@@ -67,22 +67,29 @@ Playback still **degrades gracefully** on any load failure (network off, missing
   (a song page "arms" its song via `PlayerContext.arm()`, so the FAB shows there; elsewhere nothing
   until playback starts). States: *idle (armed)* → a compact circular play FAB; *loaded* → a
   mini-player **card** with artwork, **song title** (two lines → **marquee** when longer,
-  `MarqueeTitle`), an **open-song** arrow (`ArrowUpRight`) that participates in the title's inline
-  text flow like its final character—attached to the final glyph on the final rendered line, never
-  aligned independently at the top or far edge of the title column—the
+  `MarqueeTitle`), an **open-song uid pill** (the song code + `ArrowUpRight`) that participates in
+  the title's inline text flow like its final word—attached to the final glyph on the final rendered
+  line, never aligned independently at the top or far edge of the title column—the
   recording's **reciter** (not the composer), a **scrubber** with times, and a
   control row (Lucide icons) — **loop / continue-playing / sleep-timer / download / share**, plus a
   stacked-avatar **recordings** picker (`RecordingPickerButton`) and a **minimize** button;
   *collapsed (while playing)* → back to a circle. The extra controls:
-  - **Open song** — the title-row arrow navigates directly to `/songs/<playing-song-uid>` with
+  - **Open song** — the title-row control navigates directly to `/songs/<playing-song-uid>` with
     client-side routing, preserving the active player session. It always targets the song loaded in
     the player, not a different `armedSong` from the page being read and not an arbitrary browser
     history entry. It remains available when the recording is in the error state because the song
     text is still useful. The control appears only on the expanded loaded card, where the title is
     visible; the armed idle FAB and collapsed circle do not duplicate it. Its accessible label and
-    tooltip include the displayed song title, with a generic fallback if that rendering is empty.
-    The icon sits in a clipped, icon-sized viewport. On hover or keyboard focus, Framer Motion sends
-    the glyph out toward the upper-right and brings it back from the lower-left; reduced-motion
+    tooltip give the displayed song title *and* its uid, with a generic fallback if the title
+    rendering is empty.
+    Its shape is the **uid pill** — the same neutral `--neutral`/25 rounded-full chip
+    [song-detail](song-detail.md) uses for the song code — carrying the uid text with the arrow
+    inside it, so the action states which song it opens and reads as one object rather than a bare
+    glyph. The pill stays smaller than the title's own line box (no reflow of the two-line title),
+    keeps a single hover/focus treatment for the whole chip, and its uid text is `aria-hidden` since
+    the link's label already names the song. The arrow sits in a clipped, icon-sized viewport inside
+    the pill. On hover or keyboard focus, Framer Motion sends the glyph out toward the upper-right
+    and brings it back from the lower-left, with the pill itself perfectly still; reduced-motion
     preferences disable that movement.
   - **Continue-playing** (`autoContinue`, default **on**) — when the current take ends, rolls on to
     the next take of the same song. Disabled (not hidden) on single-take songs so the control row
@@ -149,12 +156,20 @@ Playback still **degrades gracefully** on any load failure (network off, missing
   replacing the player session; it still targets the loaded song when the page has armed a
   different one. Build/typecheck green.
 - **Visual:** matches `Now Playing` / `Player` / `Track` frames. For both one- and two-line titles,
-  the open-song arrow begins no more than 8 px after the title's final glyph and shares the final
-  line; long titles retain their bounded two-line/marquee behavior. Its hover/focus animation is
-  clipped to the icon viewport and does not disturb title layout.
+  the open-song uid pill begins no more than 8 px after the title's final glyph, is centered on that
+  glyph within 4 px, and shares the final line without making the line taller; long titles retain
+  their bounded two-line/marquee behavior. Its hover/focus animation is clipped to the arrow
+  viewport inside the pill and does not disturb title layout.
 
 ## Change log
 
+- **v14 (web)** — Gave the open-song action the **uid pill**: the song code and the `ArrowUpRight`
+  now share song-detail's neutral rounded-full chip instead of the arrow floating alone after the
+  title. A 15 px glyph with no label was both an ambiguous destination and a small target; the pill
+  names the song it opens, gives the action a real shape and hit area, and ties the mini-player to
+  the code shown on the song page. The uid also joins the accessible label and tooltip. Inline
+  behavior is unchanged — still the title's final inline suffix, still shorter than the line box, so
+  one- and two-line titles do not reflow.
 - **v13 (web)** — Placed the widget explicitly in the shared layer scale
   ([navigation.md](navigation.md#layer-order-web) v3). It had outranked the mobile drawer's scrim,
   so a loaded mini-player stayed lit and clickable above the dim while the menu was open. It now
