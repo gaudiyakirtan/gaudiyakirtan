@@ -107,10 +107,22 @@ struct AppNavigation: View {
         // Mini-player (player.md "Track"/"trailingIcon2_" — "a compact bar ... that can sit above
         // the tab bar"): inserted as a bottom safe-area inset so it pushes the tab bar up rather
         // than overlapping it, and only occupies space once a track is loaded.
+        //
+        // `isMiniPlayerSuppressed` hides it on song-detail (player.md v14 "The reader gets a pill,
+        // not a bar"). The inset is owned by this root `TabView`, so the reader screen can't remove
+        // it directly — it publishes the intent on the shared player service and this gate honors
+        // it. Playback is untouched either way.
         .safeAreaInset(edge: .bottom) {
-            if audioPlayer.hasActiveTrack {
+            if audioPlayer.hasActiveTrack && !audioPlayer.isMiniPlayerSuppressed {
                 MiniPlayerView()
             }
+        }
+        // Belt-and-suspenders for the "leaving by tab switch" case in song-detail.md v7: SwiftUI
+        // does not reliably fire `onDisappear` for a pushed view when its tab is switched away
+        // from, and a stuck suppression flag would leave every *other* tab without a mini-player.
+        // Switching tabs always clears it; returning to song-detail re-sets it via `onAppear`.
+        .onChange(of: selection) { _ in
+            audioPlayer.isMiniPlayerSuppressed = false
         }
         // Now Playing (player.md "song-detail play button → ... open/raise the player"; mini-player
         // "tappable to expand to Now Playing"). Raised/lowered from anywhere via
