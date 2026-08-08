@@ -1,6 +1,6 @@
 # Screen — Song Detail
 
-**Spec version:** 3
+**Spec version:** 7
 
 **Figma frames:** `Song`, `Song-1`, `Song-2`, `Song-3`, `Song-4`, `Song (hidden song)`,
 `Song Component (app)`, `Song Component (web)`, `song view`.
@@ -29,9 +29,12 @@ legibility and script/toggle correctness are paramount.
 
 ## Layout & regions
 
-- **Top toolbar:** back · (player control, iff audio) · a display-settings control (the "Aa" menu:
+- **Top toolbar:** back · **the now-playing pill** · a display-settings control (the "Aa" menu:
   quick script / word-to-word / translation / collapse toggles) · and the bookmark + share icons
-  shown in the frames (see deferred note below).
+  shown in the frames (see deferred note below). The pill is the screen's single audio affordance —
+  it shows what is playing (any song, not necessarily this one) and opens Now Playing as a modal, and
+  when nothing is loaded it starts *this* song's first take. It is absent only when this song has no
+  audio and nothing is playing. Spec: [player.md](player.md) v14.
 - **Header:** title (chosen script, accent color), author (primary-text color), then a **chip row**:
   the song `uid`, its **book / topic memberships**, and its free-form **tags**. Books render in the
   accent and link to the book page (a named work is the strongest membership, so they sort first);
@@ -48,6 +51,10 @@ legibility and script/toggle correctness are paramount.
 - **Mobile** (`Song Component (app)`, frames `Song-3` dark / `Song-4` light): a **full-screen
   reader with the top toolbar and NO bottom tab bar** (bottom nav is hidden on this screen). Single
   scrollable column. (Corrected in v2 — earlier prose said "tab bar below"; the frames are authoritative.)
+  **The mini-player bar is hidden here too** (v7): the reader's bottom edge belongs to the verses, and
+  the pill in the toolbar already carries the playback state. Suppression is a property of *this
+  screen*, so leaving it — by back, by tab switch, by deep link — restores the bar with playback
+  untouched.
 - **Web** (`Song Component (web)`): wider reading layout in the content area beside the sidebar.
 
 ## States
@@ -112,6 +119,12 @@ Both flagged by all three implementations; tracked as pipeline enhancements, not
 
 ## Change log
 
+- **v7 (iOS + Android)** — **The reader's bottom edge is the reader's again.** The mini-player bar is
+  suppressed on this screen, and the top toolbar's audio affordance became the **now-playing pill**
+  described in [player.md](player.md) v14 — bound to the player rather than the page, opening Now
+  Playing as a modal, and doubling as this song's play button when nothing is loaded. That replaces
+  iOS's header "Play" capsule and generalizes Android's existing toolbar pill, which previously always
+  showed the song being *read* and always meant "play this".
 - **v6 (web)** — **The Display control no longer costs a row.** It sat in flow above the title,
   spending a full row of a reader screen on one small button. On desktop it is now a **sticky**
   control floating over the reader (`h-0` wrapper, so it reserves no vertical space, and
