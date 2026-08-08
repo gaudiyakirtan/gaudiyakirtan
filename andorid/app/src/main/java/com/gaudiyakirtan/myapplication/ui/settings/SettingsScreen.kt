@@ -45,7 +45,7 @@ import com.gaudiyakirtan.myapplication.models.wordToWordFor
 import com.gaudiyakirtan.myapplication.ui.song.VerseLines
 import com.gaudiyakirtan.myapplication.ui.song.buildWordToWordText
 
-private const val SCRIPT_UNAVAILABLE = "This script isn't available for this verse."
+private const val SCRIPT_UNAVAILABLE = "This script isn’t available for this verse."
 private const val NO_GLOSSARY = "No glossary in this language for this verse."
 private const val NO_TRANSLATION = "No translation in this language for this verse."
 

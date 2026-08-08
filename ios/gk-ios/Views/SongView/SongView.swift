@@ -35,10 +35,11 @@ struct SongDetailLoader: View {
 /// `.toolbar(.hidden, for: .tabBar)` scoped to this pushed view — it auto-restores on pop, with no
 /// global `UITabBar.appearance()` side-effect.
 ///
-/// Header shows the title/author in the reader's chosen script and a play affordance iff the song
-/// has audio; a compact control bar quick-toggles script / word-to-word / translation / collapse
-/// ("may also be quick-toggled here"); the body renders every verse in order via `VerseView`, driven
-/// by the shared `ReaderSettings` so a script switch or toggle re-renders all verses at once.
+/// Header shows the title/author in the app-wide list language and a play affordance iff the song
+/// has audio; a compact control bar quick-toggles the two verse scripts (display / transliteration),
+/// the roman standard, word-to-word, translation and collapse ("may also be quick-toggled here") —
+/// writing the same `ReaderSettings` the Settings screen writes, so the two never disagree. The body
+/// renders every verse in order via `VerseView`, so a script switch re-renders all verses at once.
 struct SongView: View {
     let song: Song
     @EnvironmentObject private var settings: ReaderSettings
@@ -95,7 +96,10 @@ struct SongView: View {
 
     private var header: some View {
         VStack(spacing: 8) {
-            Text(song.title(inScript: settings.scriptCode))
+            // Header title/author follow the app-wide `listLanguage` (settings.md v5 — "the default
+            // language the whole app is shown in — song titles, author names, and every browse & list
+            // screen"), not the per-verse reading scripts. Matches web's SongScreen.
+            Text(song.title(inScript: settings.listLanguage))
                 .font(.system(size: 28, weight: .bold))
                 .foregroundColor(Color.highlight)
                 .multilineTextAlignment(.center)
@@ -103,7 +107,7 @@ struct SongView: View {
             // Author-tap → the author-filtered Song List (songs-list.md "Library (Author)"); this is
             // the destination song-detail.md deferred until the list screen existed.
             NavigationLink(destination: AuthorSongsView(authorUid: song.authorUid)) {
-                Text(song.author(inScript: settings.scriptCode))
+                Text(song.author(inScript: settings.listLanguage))
                     .font(.system(size: 18))
                     .foregroundColor(Color("primaryText"))
                     .multilineTextAlignment(.center)
@@ -158,13 +162,15 @@ struct SongView: View {
     private var controlBar: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 8) {
-                // Script switcher
+                // Source-line script (settings.md v5 `displayScript`, incl. "Default (source
+                // language)"). The quick menu and Settings write the same `ReaderSettings`, so they
+                // never disagree.
                 Menu {
-                    ForEach(ReaderSettings.availableScripts) { option in
+                    ForEach(ReaderSettings.availableDisplayScripts) { option in
                         Button {
-                            settings.scriptCode = option.code
+                            settings.displayScript = option.code
                         } label: {
-                            if settings.scriptCode == option.code {
+                            if settings.displayScript == option.code {
                                 Label(option.label, systemImage: "checkmark")
                             } else {
                                 Text(option.label)
@@ -172,7 +178,49 @@ struct SongView: View {
                         }
                     }
                 } label: {
-                    controlPill(text: settings.currentScriptLabel, systemImage: "textformat", active: false)
+                    controlPill(text: settings.displayScriptLabel, systemImage: "textformat", active: false)
+                }
+
+                // Reading-line script (settings.md v5 `transliterationScript`) — any script, since
+                // it's a transliteration.
+                Menu {
+                    ForEach(ReaderSettings.availableTransliterationScripts) { option in
+                        Button {
+                            settings.transliterationScript = option.code
+                        } label: {
+                            if settings.transliterationScript == option.code {
+                                Label(option.label, systemImage: "checkmark")
+                            } else {
+                                Text(option.label)
+                            }
+                        }
+                    }
+                } label: {
+                    controlPill(text: settings.transliterationScriptLabel, systemImage: "globe", active: false)
+                }
+
+                // Roman standard — only meaningful while one of the two lines is actually Latin
+                // (settings.md v5: the picker is revealed beside a `Latn` selection, hidden otherwise).
+                if showsRomanStandard {
+                    Menu {
+                        ForEach(ReaderSettings.availableRomanStandards) { option in
+                            Button {
+                                settings.romanStandard = option.code
+                            } label: {
+                                if settings.romanStandard == option.code {
+                                    Label(option.label, systemImage: "checkmark")
+                                } else {
+                                    Text(option.label)
+                                }
+                            }
+                        }
+                    } label: {
+                        controlPill(
+                            text: ScriptOptions.romanStandardName(settings.romanStandard),
+                            systemImage: nil,
+                            active: false
+                        )
+                    }
                 }
 
                 // Word-to-word toggle
@@ -204,6 +252,12 @@ struct SongView: View {
         }
     }
 
+    /// True when either verse line resolves to Latin for *this* song — including a `displayScript` of
+    /// `auto` on an English-origin song. Only then does `romanStandard` change anything.
+    private var showsRomanStandard: Bool {
+        settings.effectiveDisplayScript(for: song) == "Latn" || settings.transliterationScript == "Latn"
+    }
+
     private func controlPill(text: String, systemImage: String?, active: Bool) -> some View {
         HStack(spacing: 4) {
             if let systemImage { Image(systemName: systemImage).font(.system(size: 12)) }
@@ -220,7 +274,9 @@ struct SongView: View {
     // MARK: - Verses
 
     private var verseList: some View {
-        let options = settings.verseOptions(collapsed: collapsed)
+        // `auto` resolves against *this* song's language_of_origin, so the source line follows the
+        // song rather than a global script (settings.md v5).
+        let options = settings.verseOptions(languageOfOrigin: song.languageOfOrigin, collapsed: collapsed)
         return VStack(alignment: .leading, spacing: 28) {
             ForEach(song.verses) { verse in
                 VerseView(verse: verse, options: options)

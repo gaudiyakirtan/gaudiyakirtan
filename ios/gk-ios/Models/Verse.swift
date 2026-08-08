@@ -57,10 +57,14 @@ struct Verse: Codable, Identifiable, Hashable {
             ?? iastScript
     }
 
-    /// The rendering for the reader's chosen `scriptCode`, with the spec's fallback: if the chosen
-    /// script isn't available for this verse, fall back to IAST (song-detail.md: "fallback: Latn/IAST
-    /// if the chosen script is unavailable"). `"Latn"` resolves to the roman line in the requested
-    /// `standard` (settings.md `romanStandard`); native scripts ignore `standard`.
+    /// The rendering for the reader's chosen `scriptCode`, with the pre-v5 fallback: if the chosen
+    /// script isn't available for this verse, fall back to IAST. `"Latn"` resolves to the roman line
+    /// in the requested `standard` (settings.md `romanStandard`); native scripts ignore `standard`.
+    ///
+    /// ⚠️ **Not used by the reader any more.** settings.md v5 made a missing script a *visible*
+    /// state rather than a silent substitution, and this method cannot express absence — use
+    /// `VerseTextResolver.scriptLines(_:script:romanStandard:)`, which returns `nil` instead.
+    /// Kept for callers that genuinely want "something readable, whatever it is".
     func displayScript(for code: String, standard: String = "IAST") -> DisplayScript? {
         if code == "Latn" { return romanScript(standard: standard) }
         return displayScripts.first(where: { $0.scriptCode == code }) ?? iastScript

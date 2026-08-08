@@ -128,7 +128,8 @@ its own unit tests (they are the load-bearing logic behind the preview *and* beh
 | dedupe key for the two lines | `scriptRenderKey` | `ScriptOptions.renderKey` | `ScriptOptions.renderKey` |
 | strip `[FLAG_*]` from master text | `stripMasterFlags` | `StringUtils.resolveMasterTextFlags` | `StringUtils.resolveMasterTextFlags` |
 
-- **iOS:** `SettingsView.swift` is the screen (a `NavigationStack` inside the Home sheet);
+- **iOS:** `SettingsView.swift` is the screen (a `NavigationView` inside the Home sheet — not
+  `NavigationStack`, which needs iOS 16 and the target is 15.6);
   `ReaderSettings` (`ObservableObject` over `UserDefaults`, `reader.*` keys) is the model, injected
   explicitly into the sheet because sheets don't reliably inherit environment objects. The preview
   reuses `VerseView`'s type ramp so it can't drift from the reader.

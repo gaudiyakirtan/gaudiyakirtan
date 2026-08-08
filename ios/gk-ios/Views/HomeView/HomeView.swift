@@ -85,7 +85,12 @@ struct HomeView: View {
                         .padding(.top, 16)
 
                         ForEach(featuredSong.verses) { verse in
-                            VerseView(verse: verse, options: readerSettings.verseOptions())
+                            VerseView(
+                                verse: verse,
+                                options: readerSettings.verseOptions(
+                                    languageOfOrigin: featuredSong.languageOfOrigin
+                                )
+                            )
                                 .padding(.vertical)
                                 .padding(.horizontal)
                         }
@@ -94,8 +99,10 @@ struct HomeView: View {
                 }
             }
         }
+        // Settings (docs/screens/settings.md v5). `ReaderSettings` is passed explicitly rather than
+        // relied on from the environment: a `.sheet` doesn't reliably inherit environment objects.
         .sheet(isPresented: $viewModel.showSettings) {
-            SettingsSheet(isPresented: $viewModel.showSettings, settings: readerSettings)
+            SettingsView(settings: readerSettings)
         }
     }
 
