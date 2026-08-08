@@ -1,11 +1,14 @@
 package com.gaudiyakirtan.ui.screenshot
 
 import androidx.activity.ComponentActivity
+import androidx.compose.foundation.layout.Box
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.compose.ui.test.onRoot
 import com.github.takahirom.roborazzi.captureRoboImage
 import com.gaudiyakirtan.data.SongJson
@@ -18,6 +21,8 @@ import com.gaudiyakirtan.myapplication.ui.player.MiniPlayerBar
 import com.gaudiyakirtan.myapplication.ui.player.PlayerScreen
 import com.gaudiyakirtan.myapplication.ui.search.SearchScreen
 import com.gaudiyakirtan.myapplication.ui.settings.SettingsScreen
+import com.gaudiyakirtan.myapplication.ui.song.SongScreen
+import com.gaudiyakirtan.myapplication.ui.song.SongViewModel
 import com.gaudiyakirtan.myapplication.ui.theme.GaudiyaKirtanTheme
 import com.gaudiyakirtan.services.NowPlaying
 import com.gaudiyakirtan.services.PlaybackState
@@ -111,4 +116,44 @@ class ScreenshotTest {
     @Test fun `mini player shyam`() = capture("mini-player", true) {
         MiniPlayerBar(playerState(PlaybackState.PLAYING), onExpandClick = {}, onPlayPauseClick = {})
     }
+
+    // Song detail — the reading surface, and the screen the corpus actually exists for. R8 is a
+    // real song off the bundled corpus, so these show live verses rather than filler.
+    @Composable
+    private fun Song(uid: String = "R8") = SongScreen(
+        viewModel = viewModel(key = "song/$uid", factory = SongViewModel.factory(uid)),
+        onBackClick = {},
+        onPlayClick = {},
+        onAuthorClick = {}
+    )
+
+    @Test fun `song gaura`() = capture("song", false) { Song() }
+    @Test fun `song shyam`() = capture("song", true) { Song() }
+
+    /**
+     * The mini player as it actually appears: pinned under a screen, the way AppNavigation's
+     * Scaffold places it. Captured over both a song and a list screen, because "outside the song"
+     * is the case where it has to coexist with the tab bar rather than a reading surface.
+     */
+    @Composable
+    private fun WithMiniPlayer(content: @Composable () -> Unit) {
+        Column(modifier = Modifier.fillMaxSize()) {
+            Box(modifier = Modifier.weight(1f)) { content() }
+            MiniPlayerBar(
+                uiState = playerState(PlaybackState.PLAYING),
+                onExpandClick = {},
+                onPlayPauseClick = {}
+            )
+        }
+    }
+
+    @Test fun `song with mini player gaura`() =
+        capture("song-with-mini-player", false) { WithMiniPlayer { Song() } }
+    @Test fun `song with mini player shyam`() =
+        capture("song-with-mini-player", true) { WithMiniPlayer { Song() } }
+
+    @Test fun `home with mini player gaura`() =
+        capture("home-with-mini-player", false) { WithMiniPlayer { HomeScreen() } }
+    @Test fun `home with mini player shyam`() =
+        capture("home-with-mini-player", true) { WithMiniPlayer { HomeScreen() } }
 }

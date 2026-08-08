@@ -17,7 +17,7 @@ Legend: `—` not started · `⏳ stale` (spec ahead of code) · `🔨 in progre
 | [author](data/author.md) | v1 | ✅ | ✅* | ✅ |
 | [collections](data/collections.md) | v1 | ✅ | ✅* | ✅ |
 | [manifest](data/manifest.md) | v1 | ✅ | ✅* | ✅ |
-| [calendar](data/calendar.md) | v2 | ✅ | — | — |
+| [calendar](data/calendar.md) | v2 | ✅ | — | ✅ |
 | [pipeline](data/pipeline.md) | v1 | n/a | n/a | n/a |
 
 > **✅\* iOS**: data layer typechecks clean (`swiftc -typecheck`, 0 errors, verified independently)
@@ -34,8 +34,8 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | Real corpus loaded (no sampleData) | ✅ | ✅* | ✅ |
 | Offline store (static bundle / Core Data / Room) | ✅ static | ✅ bundle | ✅ assets |
 | Repository over Manifest | ✅ | ✅* | ✅ |
-| Calendar overlay (lunar month → songs) | ✅ | — | — |
-| Home renders the calendar (month + songs) | ✅ | — | — |
+| Calendar overlay (lunar month → songs) | ✅ | — | ✅ |
+| Home renders the calendar (month + songs) | ✅ | — | ✅ |
 | Recently played (device-local history) | ✅ | — | — |
 | Search (fuzzy) | ✅ | ✅ | ✅ |
 
@@ -58,7 +58,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | observability (v1) — analytics/Sentry | ✅ | n/a | n/a |
 | settings | ✅ | ✅* | ✅ |
 | theme (v3 — Gaura/Shyam + expressive + spacing) | ⏳ v1 | ⏳ v1* | 🔨 v3 partial |
-| home (v3 — re-purposed) | ✅ | — | — |
+| home (v3 — re-purposed) | ✅ | — | 🔨 v3 partial |
 | today (v1) — embedded as home §1 | ✅ | — | — |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
