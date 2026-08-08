@@ -69,11 +69,18 @@ const splitTitleSuffix = (text: string) => {
   return { prefix: text.slice(0, splitAt), suffix: text.slice(splitAt) }
 }
 
+/**
+ * The open-song action: the playing song's **uid pill** — the same neutral pill song-detail uses for
+ * the song code — with the `ArrowUpRight` riding inside it. Pairing the code with the arrow says
+ * *where* the arrow goes, and the pill gives the whole thing one shape and one hit target instead of
+ * a bare 15px glyph. It still behaves as an inline suffix of the title (see MarqueeTitle).
+ */
 const OpenSongLink: React.FC<{
   href: string
+  uid: string
   label: string
   onActivate: () => void
-}> = ({ href, label, onActivate }) => {
+}> = ({ href, uid, label, onActivate }) => {
   const arrowControls = useAnimationControls()
   const reduceMotion = useReducedMotion()
 
@@ -96,11 +103,14 @@ const OpenSongLink: React.FC<{
       onFocus={animateArrow}
       aria-label={label}
       title={label}
-      className="relative ml-0.5 inline-flex h-[1.2em] w-[1.2em] align-[-0.18em] text-[var(--neutral)] transition-colors hover:text-[var(--primary)] focus-visible:rounded-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--highlight)]"
+      className="relative ml-1 inline-flex flex-none items-center gap-0.5 whitespace-nowrap rounded-full bg-[var(--neutral)]/25 py-0.5 pl-2 pr-1.5 align-middle text-[10px] font-semibold uppercase leading-none tracking-wide text-[var(--neutral)] transition-colors hover:bg-[var(--neutral)]/35 hover:text-[var(--primary)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--highlight)]"
     >
+      {/* The link's aria-label already names the song, so the code is decorative to a screen
+          reader — it is a visual shorthand, not a second announcement. */}
+      <span data-testid="open-song-uid" aria-hidden="true">{uid}</span>
       <span
         data-testid="open-song-arrow-viewport"
-        className="flex h-full w-full items-center justify-center overflow-hidden"
+        className="flex h-[1.15em] w-[1.15em] flex-none items-center justify-center overflow-hidden"
         aria-hidden="true"
       >
         <motion.span
@@ -109,7 +119,7 @@ const OpenSongLink: React.FC<{
           animate={arrowControls}
           className="flex h-full w-full items-center justify-center"
         >
-          <ArrowUpRight size={15} />
+          <ArrowUpRight size={11} />
         </motion.span>
       </span>
     </Link>
@@ -231,7 +241,11 @@ export const PlayerWidget: React.FC<PlayerWidgetProps> = ({ obscured = false }) 
   const singer = track?.artist || author
   const playing = status === 'playing'
   const showCircle = !loaded || collapsed
-  const openSongLabel = title.trim() ? `Open song “${title}”` : 'Open playing song'
+  // The uid rides in the label too: the pill shows the code, so the announced name should match
+  // what is on screen (docs/screens/player.md v14).
+  const openSongLabel = title.trim()
+    ? `Open song “${title}”${song?.uid ? ` (${song.uid})` : ''}`
+    : 'Open playing song'
 
   const playArmed = () => armedSong && playSong(armedSong)
 
@@ -479,6 +493,7 @@ export const PlayerWidget: React.FC<PlayerWidgetProps> = ({ obscured = false }) 
                       Audio unavailable{'\u2060'}
                       <OpenSongLink
                         href={`/songs/${encodeURIComponent(song!.uid)}`}
+                        uid={song!.uid}
                         onActivate={() => setOpenMenu(null)}
                         label={openSongLabel}
                       />
@@ -489,6 +504,7 @@ export const PlayerWidget: React.FC<PlayerWidgetProps> = ({ obscured = false }) 
                       action={(
                         <OpenSongLink
                           href={`/songs/${encodeURIComponent(song!.uid)}`}
+                          uid={song!.uid}
                           onActivate={() => setOpenMenu(null)}
                           label={openSongLabel}
                         />
