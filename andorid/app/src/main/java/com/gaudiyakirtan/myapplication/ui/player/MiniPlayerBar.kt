@@ -38,7 +38,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import com.gaudiyakirtan.myapplication.models.author
 import com.gaudiyakirtan.myapplication.models.title
-import com.gaudiyakirtan.myapplication.ui.components.icons.MusicNote
+import com.gaudiyakirtan.myapplication.ui.components.icons.Mridanga
 import com.gaudiyakirtan.services.PlaybackState
 import com.gaudiyakirtan.services.PlayerUiState
 
@@ -84,14 +84,13 @@ fun MiniPlayerBar(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(Spacing.md)
         ) {
+            // Same mridanga mark as the home search bar, so the two surfaces agree on what the
+            // app's music icon is. Full colour, so it needs no tinted backing circle.
             Box(
-                modifier = Modifier
-                    .size(36.dp)
-                    .clip(CircleShape)
-                    .background(MaterialTheme.colorScheme.neutral.copy(alpha = 0.2f)),
+                modifier = Modifier.size(36.dp),
                 contentAlignment = Alignment.Center
             ) {
-                MusicNote(modifier = Modifier.size(18.dp), color = MaterialTheme.colorScheme.neutral)
+                Mridanga(size = 32.dp)
             }
 
             Column(modifier = Modifier.weight(1f)) {

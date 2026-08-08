@@ -51,7 +51,6 @@ fun AuthorCard(
             Text(
                 text = displayName.firstOrNull()?.uppercase() ?: "?",
                 style = MaterialTheme.typography.headlineSmall,
-                fontWeight = FontWeight.Bold,
                 color = MaterialTheme.colorScheme.neutral
             )
         }

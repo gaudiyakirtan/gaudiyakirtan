@@ -88,11 +88,7 @@ fun BookCard(
         ) {
             Text(
                 text = title,
-                style = TextStyle(
-                    fontSize = 18.sp,
-                    fontWeight = FontWeight.Black,
-                    lineHeight = 20.sp
-                ),
+                style = MaterialTheme.typography.titleMedium,
                 // Always white -- sits over the book-cover media color + dark gradient scrim
                 // (see GradientOverlays below), independent of the Gaura/Shyam app theme.
                 color = Color.White,

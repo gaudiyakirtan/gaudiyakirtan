@@ -36,6 +36,9 @@ android {
         // AGP 9 requires a JDK 17+ toolchain.
         sourceCompatibility = JavaVersion.VERSION_17
         targetCompatibility = JavaVersion.VERSION_17
+        // minSdk is 24 but the calendar overlay resolves "today" with java.time (API 26+).
+        // Desugaring keeps that on the standard library instead of forking the date handling.
+        isCoreLibraryDesugaringEnabled = true
     }
     kotlin {
         compilerOptions {
@@ -55,6 +58,7 @@ android {
 }
 
 dependencies {
+    coreLibraryDesugaring(libs.desugar.jdk.libs)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.material.icons.extended)
 

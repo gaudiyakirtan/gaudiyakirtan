@@ -59,7 +59,7 @@ import com.gaudiyakirtan.data.ImageConfig
 import com.gaudiyakirtan.myapplication.models.AudioTrack
 import com.gaudiyakirtan.myapplication.models.author
 import com.gaudiyakirtan.myapplication.models.title
-import com.gaudiyakirtan.myapplication.ui.components.icons.MusicNote
+import com.gaudiyakirtan.myapplication.ui.components.icons.Mridanga
 import com.gaudiyakirtan.services.NowPlaying
 import com.gaudiyakirtan.services.PlaybackState
 import com.gaudiyakirtan.services.PlayerUiState
@@ -143,12 +143,12 @@ private fun NowPlayingContent(
                 // double-applied and let the note stretch to fill the whole artwork square.
                 loading = {
                     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        MusicNote(size = 72.dp, color = MaterialTheme.colorScheme.neutral)
+                        Mridanga(size = 120.dp)
                     }
                 },
                 error = {
                     Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        MusicNote(size = 72.dp, color = MaterialTheme.colorScheme.neutral)
+                        Mridanga(size = 120.dp)
                     }
                 }
             )

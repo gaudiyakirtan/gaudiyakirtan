@@ -3,6 +3,7 @@ package com.gaudiyakirtan.myapplication.ui.home
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.viewModelScope
+import com.gaudiyakirtan.data.CalendarRepository
 import com.gaudiyakirtan.data.SettingsRepository
 import com.gaudiyakirtan.data.SongRepository
 import com.gaudiyakirtan.myapplication.models.*
@@ -24,6 +25,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
     private val repository = SongRepository.getInstance(application)
     private val settingsRepository = SettingsRepository.getInstance(application)
+    private val calendarRepository = CalendarRepository.getInstance(application)
 
     /** Reader's chosen list-title script (docs/screens/settings.md `listLanguage`). */
     val listLanguage: StateFlow<String> = settingsRepository.settings
@@ -45,11 +47,21 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     private val _searchQuery = MutableStateFlow("")
     private val _authorNames = MutableStateFlow<Map<String, String>>(emptyMap())
 
+    /**
+     * The lunar month for today and its songs (docs/screens/home.md region 1, "Welcome + this
+     * month"). Null while loading, and null for good when the date falls outside the calendar's
+     * precomputed window range -- the spec says hide the region rather than show a wrong month.
+     */
+    private val _thisMonth = MutableStateFlow<CalendarToday?>(null)
+    private val _thisMonthSongs = MutableStateFlow<List<ManifestEntry>>(emptyList())
+
     val songs: StateFlow<List<ManifestEntry>> = _songs
     val authors: StateFlow<List<Author>> = _authors
     val topics: StateFlow<List<SongGroup>> = _topics
     val books: StateFlow<List<SongGroup>> = _books
     val featuredSong: StateFlow<Song?> = _featuredSong
+    val thisMonth: StateFlow<CalendarToday?> = _thisMonth
+    val thisMonthSongs: StateFlow<List<ManifestEntry>> = _thisMonthSongs
     val searchQuery: StateFlow<String> = _searchQuery
 
     /** `author_uid` -> display name, for resolving a [ManifestEntry.authorUid] in list rows. */
@@ -61,7 +73,12 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
     private fun loadData() {
         viewModelScope.launch {
-            _songs.value = repository.getManifest()
+            val manifest = repository.getManifest()
+            _songs.value = manifest
+            // The month overlay resolves against the same manifest, so it rides this load rather
+            // than reading the catalog a second time.
+            _thisMonth.value = calendarRepository.getToday()
+            _thisMonthSongs.value = calendarRepository.getMonthSongs(manifest)
             _featuredSong.value = repository.getSongByUid(featuredUid)
         }
         viewModelScope.launch {

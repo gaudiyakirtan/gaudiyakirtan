@@ -47,9 +47,7 @@ fun TopicCard(
         ) {
             Text(
                 text = title,
-                fontWeight = FontWeight.Bold,
-                fontSize = 16.sp, // Match web text-base
-                lineHeight = 19.sp, // Match line-height: 1.2
+                style = MaterialTheme.typography.titleMedium,
                 color = textColor,
                 maxLines = 2,
                 overflow = TextOverflow.Ellipsis,

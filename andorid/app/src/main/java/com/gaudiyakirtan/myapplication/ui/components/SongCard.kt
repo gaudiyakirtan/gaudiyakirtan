@@ -53,10 +53,10 @@ fun SongCard(
                     // Song title with primary color
                     Text(
                         text = title,
-                        style = MaterialTheme.typography.bodyLarge.copy(
-                            color = MaterialTheme.colorScheme.primary,
-                            fontSize = 14.sp
-                        ),
+                        // Type roles, not one-off sizes: a card's song title is a *title*, so it
+                        // takes titleSmall and inherits the scale's weight/tracking contrast.
+                        style = MaterialTheme.typography.titleSmall,
+                        color = MaterialTheme.colorScheme.primary,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis,
                         modifier = Modifier.weight(1f, fill = false)
@@ -73,10 +73,8 @@ fun SongCard(
                     ) {
                         Text(
                             text = uid,
-                            style = MaterialTheme.typography.labelSmall.copy(
-                                color = neutralColor,
-                                fontSize = 10.sp
-                            )
+                            style = MaterialTheme.typography.labelSmall,
+                            color = neutralColor
                         )
                     }
                 }
@@ -89,10 +87,8 @@ fun SongCard(
                     // Author text with neutral color
                     Text(
                         text = authorName,
-                        style = MaterialTheme.typography.bodyMedium.copy(
-                            color = neutralColor,
-                            fontSize = 13.sp
-                        ),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = neutralColor,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis
                     )

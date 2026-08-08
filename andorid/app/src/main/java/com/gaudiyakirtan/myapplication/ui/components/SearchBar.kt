@@ -22,7 +22,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
 import com.gaudiyakirtan.myapplication.R
-import com.gaudiyakirtan.myapplication.ui.components.icons.MusicNote
+import com.gaudiyakirtan.myapplication.ui.components.icons.Mridanga
 
 /**
  * Search bar component with mridanga icon and settings button
@@ -45,16 +45,14 @@ fun SearchBar(
         verticalAlignment = Alignment.CenterVertically,
         horizontalArrangement = Arrangement.spacedBy(Spacing.md)
     ) {
-        // Mridanga icon
+        // The mridanga brand mark. This slot was already commented "Mridanga icon" but rendered
+        // Material's generic music-note glyph; it now uses the real drum, converted from the same
+        // SVG web uses. Decorative -- the search field beside it carries the meaning.
         Box(
-            modifier = Modifier
-                .size(28.dp),
+            modifier = Modifier.size(28.dp),
             contentAlignment = Alignment.Center
         ) {
-            MusicNote(
-                color = MaterialTheme.colorScheme.primary,
-                size = 28.dp
-            )
+            Mridanga(size = 28.dp)
         }
 
         // Search field
