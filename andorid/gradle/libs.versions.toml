@@ -3,12 +3,12 @@
 # (see its aar-metadata.properties: minCompileSdk=37, minAndroidGradlePluginVersion=9.1.0).
 agp = "9.4.0-alpha08"
 kotlin = "2.4.10"
-coreKtx = "1.15.0"
+coreKtx = "1.19.0"
 junit = "4.13.2"
-junitVersion = "1.2.1"
-espressoCore = "3.6.1"
+junitVersion = "1.3.0"
+espressoCore = "3.7.0"
 lifecycleRuntimeKtx = "2.8.7"
-activityCompose = "1.10.0"
+activityCompose = "1.13.0"
 composeBom = "2026.06.01"
 # Pinned ABOVE the BOM (which supplies material3 1.4.0). 1.4.0 has MaterialExpressiveTheme,
 # MotionScheme and the expanded Shapes, but NOT the wavy progress indicators — those land in
