@@ -3,6 +3,9 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
     kotlin("plugin.serialization") version "2.0.21"
+    // Compose screenshot tests run on the JVM (Robolectric), so a CI box without an emulator --
+    // or a KVM-less container -- can still verify the screens visually. See app/src/test/.../screenshot/.
+    id("io.github.takahirom.roborazzi") version "1.32.2"
 }
 
 android {
@@ -38,7 +41,47 @@ android {
     buildFeatures {
         compose = true
     }
+    testOptions {
+        // Robolectric needs the merged Android resources + assets (the bundled corpus lives in
+        // assets/, so screenshot tests can render real songs offline).
+        unitTests.isIncludeAndroidResources = true
+        unitTests.all { it.systemProperty("robolectric.graphicsMode", "NATIVE") }
+    }
 }
+
+/*
+ * Workaround for an AGP 8.8 packaging bug that blocks Robolectric.
+ *
+ * `packageDebugUnitTestForUnitTest` is supposed to emit an `apk-for-local-test.ap_` holding the
+ * linked resources *and* the merged assets; on AGP 8.8 it emits only the assets, with no
+ * `AndroidManifest.xml` and no `resources.arsc`. Robolectric reads that archive's path out of the
+ * generated `com/android/tools/test_config.properties` and dies with
+ * `FileNotFoundException: AndroidManifest.xml` before any test body runs.
+ *
+ * So rebuild the archive ourselves from the two intermediates AGP produced correctly. Harmless once
+ * AGP is fixed -- it would just rewrite an equivalent file. Drop it when the unit-test APK contains
+ * a manifest again (check with `unzip -l` on the path below).
+ */
+val rebuildUnitTestApk = tasks.register<Zip>("rebuildDebugUnitTestApk") {
+    dependsOn("packageDebugUnitTestForUnitTest")
+    from(zipTree(layout.buildDirectory.file(
+        "intermediates/linked_resources_binary_format/debug/processDebugResources/linked-resources-binary-format-debug.ap_"
+    )))
+    from(layout.buildDirectory.dir("intermediates/assets/debug/mergeDebugAssets")) { into("assets") }
+    archiveFileName.set("apk-for-local-test.ap_")
+    destinationDirectory.set(layout.buildDirectory.dir("robolectric-apk"))
+    doLast {
+        // Copy over AGP's broken artifact outside Gradle's output tracking, so generateDebugUnitTestConfig
+        // (which reads that path) doesn't see it as an undeclared producer.
+        archiveFile.get().asFile.copyTo(
+            layout.buildDirectory.file(
+                "intermediates/apk_for_local_test/debugUnitTest/packageDebugUnitTestForUnitTest/apk-for-local-test.ap_"
+            ).get().asFile,
+            overwrite = true
+        )
+    }
+}
+tasks.matching { it.name == "testDebugUnitTest" }.configureEach { dependsOn(rebuildUnitTestApk) }
 
 dependencies {
     implementation(libs.androidx.material3)
@@ -115,6 +158,15 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     testImplementation(libs.junit)
+
+    // JVM Compose screenshot tests (Robolectric + Roborazzi) -- no emulator required.
+    testImplementation("org.robolectric:robolectric:4.14.1")
+    testImplementation("io.github.takahirom.roborazzi:roborazzi:1.32.2")
+    testImplementation("io.github.takahirom.roborazzi:roborazzi-compose:1.32.2")
+    testImplementation(platform(libs.androidx.compose.bom))
+    testImplementation(libs.androidx.ui.test.junit4)
+    debugImplementation(libs.androidx.ui.test.manifest)
+
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
