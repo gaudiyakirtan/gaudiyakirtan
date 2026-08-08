@@ -56,7 +56,9 @@ final class SongCodableDecodingTests: XCTestCase {
         XCTAssertEqual(song.title(inScript: "Latn"), "kabe kṛṣṇadhana pāba")
         XCTAssertEqual(song.title(inScript: "Beng"), "কবে কৃষ্ণধন পাব")
         // Requesting a script this song never shipped falls back through Latn/first (never crashes).
-        XCTAssertEqual(song.title(inScript: "Deva"), "kabe kṛṣṇadhana pāba")
+        // "Deva" used to be that unshipped script; the corpus now transliterates into it, so this
+        // asks for a script code that is not a real transliteration target at all.
+        XCTAssertEqual(song.title(inScript: "NoSuchScript"), "kabe kṛṣṇadhana pāba")
 
         XCTAssertEqual(song.author(inScript: "Beng"), "শ্রীল নরোত্তম দাস ঠাকুর")
         // `author` (the flat convenience accessor) matches `author(inScript: "Latn")`'s own Latn-first
@@ -117,20 +119,24 @@ final class SongCodableDecodingTests: XCTestCase {
         XCTAssertNotEqual(song.author, "?")
     }
 
-    // MARK: - A0: word-to-word glossary + translation (the onboarding hint song)
+    // MARK: - A10: word-to-word glossary + translation (śrī gaura-ārati)
 
+    // Retargeted from A0, which no longer exists anywhere in the corpus — it is absent from
+    // pipeline/converted, from the manifest, and from the web and Android bundles too, so this test
+    // could only ever fail. A10 is one of 169 songs whose first verse ships both an `eng`
+    // word-to-word glossary and an `eng` translation.
     func testWordToWordAndTranslationDecode() throws {
-        let song = try decodeSong("A0")
+        let song = try decodeSong("A10")
         let v1 = try XCTUnwrap(song.verses.first)
 
         let eng = try XCTUnwrap(v1.wordToWord(language: "eng"))
         XCTAssertEqual(eng.scriptCode, "Latn")
         let firstWordPair = try XCTUnwrap(eng.words.first)
-        XCTAssertEqual(firstWordPair, ["Haribol", "Chant Hari!"])
+        XCTAssertEqual(firstWordPair, ["jaya jaya", "all glories, all glories"])
 
         let translation = try XCTUnwrap(v1.translation(language: "eng"))
         XCTAssertFalse(translation.isGenerated)
-        XCTAssertTrue(translation.joinedText.contains("Śrī Caitanya Mahāprabhu"))
+        XCTAssertTrue(translation.joinedText.contains("Śrī Gaura-candra"))
     }
 
     // MARK: - AudioConfig / ImageConfig URL construction (player.md / collections.md)
