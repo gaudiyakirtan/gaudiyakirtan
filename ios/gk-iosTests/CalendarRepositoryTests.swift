@@ -15,6 +15,7 @@
 //  Facts asserted below (window dates, month names, uid sequences) were read directly out of the
 //  bundled `calendar.json`, not guessed.
 
+import Foundation
 import XCTest
 @testable import gk_ios
 
@@ -44,7 +45,10 @@ final class CalendarRepositoryTests: XCTestCase {
     /// pick the wrong month on boundary days — a bug no crash would reveal.
     func testWindowsAreContiguousAndHalfOpen() {
         let sorted = calendar.windows.sorted { $0.start < $1.start }
-        XCTAssertFalse(sorted.isEmpty)
+        // A guard, not an assertion: `0..<(count - 1)` would trap rather than fail on an empty decode.
+        guard sorted.count > 1 else {
+            return XCTFail("expected the bundled overlay to ship many windows, got \(sorted.count)")
+        }
         for index in 0..<(sorted.count - 1) {
             XCTAssertEqual(
                 sorted[index].end,
@@ -55,8 +59,8 @@ final class CalendarRepositoryTests: XCTestCase {
         XCTAssertTrue(sorted.allSatisfy { $0.start < $0.end }, "every window must be non-empty")
     }
 
-    func testADateInsideTheRangeResolvesToExactlyOneWindow() {
-        let probe = calendar.windows[calendar.windows.count / 2].start
+    func testADateInsideTheRangeResolvesToExactlyOneWindow() throws {
+        let probe = try XCTUnwrap(calendar.windows.first?.start)
         let matches = calendar.windows.filter { probe >= $0.start && probe < $0.end }
         XCTAssertEqual(matches.count, 1, "a date must match exactly one window")
         XCTAssertNotNil(CalendarRepositoryLogic.lunarWindow(in: calendar, isoDate: probe))
@@ -69,17 +73,26 @@ final class CalendarRepositoryTests: XCTestCase {
         XCTAssertNil(repository.today(isoDate: "2099-01-01"))
     }
 
-    func testSongsForDateReturnsTheMonthBlockMatchingTheWindow() throws {
-        let window = calendar.windows[calendar.windows.count / 2]
-        let today = try XCTUnwrap(CalendarRepositoryLogic.songsForDate(in: calendar, isoDate: window.start))
-
-        XCTAssertEqual(today.date, window.start)
-        if !window.adhika {
-            XCTAssertEqual(
-                today.month.lunarMonth,
-                window.lunarMonth,
-                "a non-adhika window must resolve to its own lunar month block"
+    /// Every shipped window must resolve to a month block — calendar.md's "every
+    /// `LunarWindow.lunar_month` has a matching `MonthBlock`" invariant, checked across all 199
+    /// rather than on one sample, since a single missing block would blank the region for a month.
+    func testEveryWindowResolvesToItsOwnMonthBlock() throws {
+        XCTAssertFalse(calendar.windows.isEmpty)
+        for window in calendar.windows {
+            let today = try XCTUnwrap(
+                CalendarRepositoryLogic.songsForDate(in: calendar, isoDate: window.start),
+                "window starting \(window.start) resolved to no month block"
             )
+            XCTAssertEqual(today.date, window.start)
+            if window.adhika {
+                XCTAssertEqual(today.month.gaudiyaMonth, "Puruṣottama")
+            } else {
+                XCTAssertEqual(
+                    today.month.lunarMonth,
+                    window.lunarMonth,
+                    "a non-adhika window must resolve to its own lunar month block"
+                )
+            }
         }
     }
 
