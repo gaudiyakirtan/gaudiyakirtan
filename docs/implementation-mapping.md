@@ -17,7 +17,7 @@ Legend: `—` not started · `⏳ stale` (spec ahead of code) · `🔨 in progre
 | [author](data/author.md) | v1 | ✅ | ✅* | ✅ |
 | [collections](data/collections.md) | v1 | ✅ | ✅* | ✅ |
 | [manifest](data/manifest.md) | v1 | ✅ | ✅* | ✅ |
-| [calendar](data/calendar.md) | v2 | ✅ | 🔨 v2 unverified | ✅ |
+| [calendar](data/calendar.md) | v2 | ✅ | ✅ v2 | ✅ |
 | [pipeline](data/pipeline.md) | v1 | n/a | n/a | n/a |
 
 > **✅\* iOS**: data layer typechecks clean (`swiftc -typecheck`, 0 errors, verified independently)
@@ -34,8 +34,8 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | Real corpus loaded (no sampleData) | ✅ | ✅* | ✅ |
 | Offline store (static bundle / Core Data / Room) | ✅ static | ✅ bundle | ✅ assets |
 | Repository over Manifest | ✅ | ✅* | ✅ |
-| Calendar overlay (lunar month → songs) | ✅ | 🔨 unverified | ✅ |
-| Home renders the calendar (month + songs) | ✅ | 🔨 unverified | ✅ |
+| Calendar overlay (lunar month → songs) | ✅ | ✅ | ✅ |
+| Home renders the calendar (month + songs) | ✅ | ✅ | ✅ |
 | Recently played (device-local history) | ✅ | — | — |
 | Search (fuzzy) | ✅ | ✅ | ✅ |
 
@@ -59,7 +59,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | settings | ✅ | ✅* | ✅ |
 | theme (v3 — Gaura/Shyam + expressive + spacing) | ⏳ v1 | ⏳ v1* | 🔨 v3 partial |
 | home (v3 — re-purposed) | ✅ | — | 🔨 v3 partial |
-| today (v2) — embedded as home §1 | ✅ v2 | 🔨 v2 **unverified** | ✅ v2 |
+| today (v2) — embedded as home §1 | ✅ v2 | ✅ v2 | ✅ v2 |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
 | components (v4) | ✅ v4 green | — | — |
@@ -124,7 +124,7 @@ while Android sorted by basis (`B25, VT3, B26, GN1`). Web's behavior was judged 
 the spec moved to it rather than the other way round — web is conformant unchanged, and Android now
 pins that exact sequence in a regression test.
 
-> **🔨 iOS — written to v2, verifier has NOT run.** iOS now has the slice: `CalendarModels.swift`,
+> **✅ iOS — v2, verified on macOS.** iOS now has the slice: `CalendarModels.swift`,
 > `CalendarRepositoryLogic` (pure, ported from Android's), `CalendarRepository` (bundled
 > `calendar.json`, injectable `Bundle`, `assertionFailure` + empty fallback), the `HomeViewModel`
 > wiring incl. `significantTimeChangeNotification` re-resolution, `ThisMonthSection` in `HomeView`,
@@ -133,14 +133,26 @@ pins that exact sequence in a regression test.
 > order-preserving `filter` passes — Swift's `sort` and `partition(by:)` are both unstable), no basis
 > sort; the display cap (6) lives in the view.
 >
-> **It is `🔨`, not `✅`, because none of it has been compiled.** It was authored in a Linux container
-> with no Swift toolchain, no Xcode and no macOS: not typechecked, not built, not run, not
-> screenshotted, and no test in `CalendarRepositoryTests` has ever executed. Before this can move to
-> `✅`, a human must run `xcodebuild` + the test suite on macOS and confirm the region renders. Two
-> assumptions in particular are unverified there: that the file-system-synchronized group picks up
-> the new `.swift` files (the `.pbxproj` was deliberately left untouched) and that
-> `Resources/months/vamana.jpg` lands where `ImageConfig.monthArtworkURL` looks for it. Still missing
-> against web, as on Android: the per-row **recording picker**, which needs player wiring.
+> **Verifier run — Xcode 26.6 (17F113), iPhone 17 Pro simulator, iOS 26.5 runtime:** `xcodebuild
+> build` **BUILD SUCCEEDED** with zero source changes needed, and `xcodebuild test` is **55/55
+> passed, 0 failed, 0 skipped** — including all **16** `CalendarRepositoryTests` (the PR body said 14;
+> the file has 16). Home's this-month region was rendered and screenshotted in both palettes:
+> [`screenshots/ios/home-gaura.png`](screenshots/ios/home-gaura.png) ·
+> [`screenshots/ios/home-shyam.png`](screenshots/ios/home-shyam.png). Both of the previously-flagged
+> assumptions **held**: the `PBXFileSystemSynchronizedRootGroup`s did pick up all four new `.swift`
+> files (confirmed in the compiled `SwiftFileList`, `.pbxproj` still untouched), and
+> `Resources/months/vamana.jpg` lands in the flattened bundle root where `ImageConfig` looks
+> (`testOnlyVamanaShipsBannerArtwork` passes).
+>
+> **Caveat carried by [`claude/ios-build-unblock`](https://github.com/gaudiyakirtan/gaudiyakirtan/pull/52):**
+> the build only succeeds with `IPHONEOS_DEPLOYMENT_TARGET` raised **15.6 → 17.0**. That is a product
+> decision needing human sign-off — it drops iOS 15 and 16 devices. Verification here was on iOS
+> **26.5**; nothing has been run against a real 17.x device.
+>
+> Still missing against web, as on Android: the per-row **recording picker**, which needs player
+> wiring. The Vāmana **artwork** banner path is covered by a unit test but has not been *rendered* —
+> today (2026-08-07) falls in Śrāvaṇa, which correctly takes the gradient path, and the simulator's
+> date was not moved to force the artwork case.
 
 **Web and iOS are `⏳ v1`, not behind schedule.** v2's slot remap is an Android *mechanism* and does
 not apply to them. What does apply is the new **Shape** scale and **Motion** contract — neither
