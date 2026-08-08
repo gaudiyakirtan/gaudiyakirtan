@@ -1,5 +1,7 @@
 package com.gaudiyakirtan.data
 
+import java.text.Normalizer
+
 /**
  * Single config object for remote images on the public `gaudiyakirtan` S3 bucket, per
  * docs/screens/player.md ("Related assets on the same bucket... artist portraits
@@ -64,4 +66,33 @@ object ImageConfig {
     }
 
     private val HONORIFIC_PREFIXES = listOf("sri-sri-", "srila-", "sri-")
+
+    /**
+     * Banner artwork for a Gaudiya lunar month, as a Coil-loadable URI.
+     *
+     * The one image path here that is deliberately **not** on the bucket. Two reasons: the bucket
+     * has no `months/` prefix at all (every URL under it 404s), and web self-hosts these files
+     * precisely so they are never hotlinked (web/public/assets/months/CREDITS.md). An offline-first
+     * app has no business fetching its hero artwork over the network anyway, so the same files ride
+     * in `assets/months/` and load with no radio.
+     *
+     * **Most months ship no file, and that is the normal path** (only Vāmana has artwork today).
+     * The caller must render its gradient fallback on a load failure -- never an error state.
+     */
+    fun monthArtworkUri(gaudiyaMonth: String): String =
+        "file:///android_asset/months/${monthSlug(gaudiyaMonth)}.jpg"
+
+    /**
+     * `"Śrīdhara"` -> `"sridhara"`. Mirrors web's `monthImageUrlFor()` (web/src/config.ts) exactly
+     * -- NFD-decompose, drop the combining marks, lowercase, drop everything non-alphanumeric -- so
+     * both platforms look for the same filename and one dropped-in image serves them both.
+     */
+    fun monthSlug(gaudiyaMonth: String): String =
+        Normalizer.normalize(gaudiyaMonth, Normalizer.Form.NFD)
+            .replace(COMBINING_MARKS, "")
+            .lowercase()
+            .replace(NON_ALPHANUMERIC, "")
+
+    private val COMBINING_MARKS = Regex("\\p{Mn}+")
+    private val NON_ALPHANUMERIC = Regex("[^a-z0-9]")
 }

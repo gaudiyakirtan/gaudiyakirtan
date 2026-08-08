@@ -102,6 +102,20 @@ the wavy indicator required
 which is the standing cost of that one component. material3 **1.4.0 stable** carries
 `MaterialExpressiveTheme`, `MotionScheme` and `Shapes` but **not** the wavy indicators.
 
+**home v3 — Android is `🔨 partial`, but §1 now matches web.** The "Welcome + this month" hero was
+a flat accent-filled block; it is now the same object web renders — a bordered `background-offset`
+card holding a gradient banner (accent → highlight → offset, under a bottom-to-top scrim) with the
+month name, Gaudiya month, observances and the `adhika-māsa` badge overlaid on it, over a quiet
+"sung this month" label and the shared `SongListItem` rows. Month artwork resolves to the same slug
+web does (`ImageConfig.monthSlug`, unit-tested), but from `assets/months/` rather than a URL — the
+bucket has no `months/` prefix and the hero must not need the radio. Only Vāmana ships a file, so
+the gradient is the normal path. Still missing against web: the per-row **recording picker**
+(stacked singer avatars + take count, plays in place), which needs player wiring; and **Recently
+played** (region 2) does not exist on Android at all. One further divergence is not in this region
+but in the shared row: `SongListItem` colors its title `colorScheme.primary`, which the theme v2
+remap turned into the *accent*, so Android's list titles read gold where web's read as primary
+text. That affects every list screen and should be fixed as its own slice, not here.
+
 **Web and iOS are `⏳ v1`, not behind schedule.** v2's slot remap is an Android *mechanism* and does
 not apply to them. What does apply is the new **Shape** scale and **Motion** contract — neither
 platform has an official Expressive implementation, so both must reproduce that behavior in their own
