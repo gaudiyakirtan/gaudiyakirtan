@@ -33,10 +33,13 @@ jobs:
           filters: |
             web:
               - 'web/**'
+              - '.github/workflows/ci.yml'
             android:
               - 'andorid/**'
+              - '.github/workflows/ci.yml'
             ios:
               - 'ios/**'
+              - '.github/workflows/ci.yml'
 
   web:
     needs: changes
@@ -75,14 +78,48 @@ jobs:
   ios:
     needs: changes
     if: needs.changes.outputs.ios == 'true'
-    runs-on: macos-14
+    # macos-14 ships Xcode 15.4, which cannot open this project at all: gk-ios.xcodeproj is
+    # `objectVersion = 77`, which needs Xcode 16+. The job failed in ~12 seconds on every run,
+    # before compiling a single file — so despite looking like coverage, no iOS code in this repo
+    # had ever actually been built in CI, and no iOS test had ever run.
+    runs-on: macos-15
     defaults:
       run:
         working-directory: ios
     steps:
       - uses: actions/checkout@v4
-      - run: |
+
+      # Recorded in the log so a future toolchain bump on the runner image is visible in the run
+      # itself rather than showing up as a mystery compile error.
+      - name: Toolchain
+        run: |
+          xcodebuild -version
+          xcrun simctl list runtimes
+
+      - name: Build
+        run: |
           xcodebuild build \
             -project gk-ios.xcodeproj -scheme gk-ios \
-            -destination 'platform=iOS Simulator,name=iPhone 15' \
+            -destination "$DESTINATION" \
             CODE_SIGNING_ALLOWED=NO
+
+      # The point of this job. `build` alone never executed a single assertion, so the unit tests
+      # (SongRepository/decoding/search/settings/calendar) were dead weight in CI.
+      - name: Test
+        run: |
+          xcodebuild test \
+            -project gk-ios.xcodeproj -scheme gk-ios \
+            -destination "$DESTINATION" \
+            -resultBundlePath ios-tests.xcresult \
+            CODE_SIGNING_ALLOWED=NO
+
+      - name: Upload test results
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ios-test-results
+          path: ios/ios-tests.xcresult
+    env:
+      # Pinned to a device the macos-15 image ships. Kept in one place so build and test can never
+      # drift onto different simulators.
+      DESTINATION: platform=iOS Simulator,name=iPhone 16
