@@ -20,6 +20,7 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
+import kotlin.random.Random
 
 /** Playback state machine per docs/screens/player.md "States". */
 enum class PlaybackState { IDLE, LOADING, PLAYING, PAUSED, ERROR }
@@ -31,12 +32,21 @@ data class NowPlaying(
     val availableTracks: List<AudioTrack>
 )
 
+/**
+ * Everything a player surface renders from. [shuffle] / [repeatMode] / [playOrder] are the take-queue
+ * state added in docs/screens/player.md v14: [playOrder] is the resolved sequence of
+ * [com.gaudiyakirtan.myapplication.models.AudioTrack.uid]s the transport walks (listed order, or a
+ * shuffled permutation), so the UI can show the queue and the ViewModel never re-rolls the shuffle.
+ */
 data class PlayerUiState(
     val nowPlaying: NowPlaying? = null,
     val playbackState: PlaybackState = PlaybackState.IDLE,
     val positionMs: Int = 0,
     val durationMs: Int = 0,
-    val errorMessage: String? = null
+    val errorMessage: String? = null,
+    val shuffle: Boolean = false,
+    val repeatMode: RepeatMode = RepeatMode.OFF,
+    val playOrder: List<String> = emptyList()
 )
 
 /**
@@ -55,6 +65,13 @@ class PlayerViewModel(application: Application) : AndroidViewModel(application) 
     private var mediaPlayer: MediaPlayer? = null
     private var progressJob: Job? = null
 
+    /**
+     * Seed for the shuffled [playOrder] (docs/screens/player.md v14). Re-rolled only when shuffle is
+     * switched *on*, so the permutation stays stable for the whole shuffle session -- including
+     * across a take change -- instead of reshuffling on every `next`.
+     */
+    private var shuffleSeed: Long = Random.nextLong()
+
     private val _uiState = MutableStateFlow(PlayerUiState())
     val uiState: StateFlow<PlayerUiState> = _uiState.asStateFlow()
 
@@ -67,11 +84,17 @@ class PlayerViewModel(application: Application) : AndroidViewModel(application) 
     fun play(song: Song, requestedTrack: AudioTrack? = null) {
         val chosen = requestedTrack ?: song.audioFiles.firstOrNull()
         if (chosen == null) {
-            _uiState.value = PlayerUiState(
-                nowPlaying = null,
-                playbackState = PlaybackState.ERROR,
-                errorMessage = "Audio unavailable"
-            )
+            // Shuffle/repeat are *player* preferences, not per-song state: they survive an
+            // unplayable song exactly as they survive a take change.
+            _uiState.update {
+                PlayerUiState(
+                    nowPlaying = null,
+                    playbackState = PlaybackState.ERROR,
+                    errorMessage = "Audio unavailable",
+                    shuffle = it.shuffle,
+                    repeatMode = it.repeatMode
+                )
+            }
             return
         }
 
@@ -106,6 +129,77 @@ class PlayerViewModel(application: Application) : AndroidViewModel(application) 
         }
     }
 
+    /**
+     * Flips shuffle (docs/screens/player.md v14). Turning it **on** re-rolls [shuffleSeed] and
+     * re-derives [PlayerUiState.playOrder] as a permutation of the loaded song's takes; turning it
+     * **off** restores their listed order. The take currently playing is untouched either way -- only
+     * what comes *next* changes.
+     */
+    fun toggleShuffle() {
+        val next = !_uiState.value.shuffle
+        if (next) shuffleSeed = Random.nextLong()
+        _uiState.update { state ->
+            val uids = state.nowPlaying?.availableTracks?.map { it.uid }.orEmpty()
+            state.copy(shuffle = next, playOrder = playOrder(uids, next, shuffleSeed))
+        }
+    }
+
+    /** Cycles repeat off -> all -> one -> off (docs/screens/player.md v14's three-state control). */
+    fun cycleRepeatMode() {
+        _uiState.update { state ->
+            state.copy(
+                repeatMode = when (state.repeatMode) {
+                    RepeatMode.OFF -> RepeatMode.ALL
+                    RepeatMode.ALL -> RepeatMode.ONE
+                    RepeatMode.ONE -> RepeatMode.OFF
+                }
+            )
+        }
+    }
+
+    /**
+     * Steps to the next take in [PlayerUiState.playOrder] (docs/screens/player.md v14: "Previous/next
+     * step through the song's **takes**"). No-op at the end of the order unless [RepeatMode.ALL] is
+     * set -- manual skipping obeys the same wrap rule as the end-of-take decision, so the transport
+     * and autoplay never disagree about where the queue ends.
+     */
+    fun next() {
+        step(delta = 1)
+    }
+
+    /**
+     * Steps back a take -- except within the first [RESTART_THRESHOLD_MS] of a take, where it
+     * restarts the current one instead, matching the universal transport convention the spec names.
+     * With no earlier take to reach, it also restarts rather than doing nothing.
+     */
+    fun previous() {
+        if (_uiState.value.positionMs > RESTART_THRESHOLD_MS) {
+            seekTo(0)
+            return
+        }
+        if (!step(delta = -1)) seekTo(0)
+    }
+
+    /** Loads the take [delta] steps away, returning whether there was one to move to. */
+    private fun step(delta: Int): Boolean {
+        val state = _uiState.value
+        val nowPlaying = state.nowPlaying ?: return false
+        val targetUid = neighbor(
+            order = state.playOrder,
+            currentTrackUid = nowPlaying.track.uid,
+            delta = delta,
+            wrap = state.repeatMode == RepeatMode.ALL
+        ) ?: return false
+        val target = nowPlaying.availableTracks.firstOrNull { it.uid == targetUid } ?: return false
+        if (target.uid == nowPlaying.track.uid) {
+            // Single-take song under repeat-all: a "skip" is a restart, not a reload.
+            replayCurrent()
+        } else {
+            loadAndPlay(nowPlaying.song, target)
+        }
+        return true
+    }
+
     /** Seek to an absolute position in milliseconds (scrubber drag-end / tap). */
     fun seekTo(positionMs: Int) {
         val player = mediaPlayer ?: return
@@ -128,9 +222,14 @@ class PlayerViewModel(application: Application) : AndroidViewModel(application) 
 
     private fun loadAndPlay(song: Song, track: AudioTrack) {
         releasePlayer()
+        val previous = _uiState.value
         _uiState.value = PlayerUiState(
             nowPlaying = NowPlaying(song = song, track = track, availableTracks = song.audioFiles),
-            playbackState = PlaybackState.LOADING
+            playbackState = PlaybackState.LOADING,
+            // Player-level settings outlive the loaded take; the order is re-derived for this song.
+            shuffle = previous.shuffle,
+            repeatMode = previous.repeatMode,
+            playOrder = playOrder(song.audioFiles.map { it.uid }, previous.shuffle, shuffleSeed)
         )
 
         try {
@@ -152,12 +251,7 @@ class PlayerViewModel(application: Application) : AndroidViewModel(application) 
                 }
                 setOnCompletionListener {
                     progressJob?.cancel()
-                    _uiState.update { it.copy(playbackState = PlaybackState.PAUSED, positionMs = 0) }
-                    try {
-                        it.seekTo(0)
-                    } catch (e: IllegalStateException) {
-                        Log.w(TAG, "seekTo(0) on completion", e)
-                    }
+                    handleTakeEnd()
                 }
                 setDataSource(AudioConfig.playableUrl(track.filename))
                 prepareAsync() // async: network-backed source, never blocks the caller
@@ -167,6 +261,59 @@ class PlayerViewModel(application: Application) : AndroidViewModel(application) 
             // degrade to the same graceful error state rather than crashing (docs/screens/player.md).
             Log.w(TAG, "Failed to start playback for ${track.filename}", e)
             _uiState.update { it.copy(playbackState = PlaybackState.ERROR, errorMessage = "Audio unavailable") }
+        }
+    }
+
+    /**
+     * End-of-take routing (docs/screens/player.md v14). The *decision* is delegated whole to
+     * [resolveTakeEndAction] -- a pure function with no `MediaPlayer` in sight, unit-tested in
+     * `TakeQueueTest` -- and this method only carries it out.
+     */
+    private fun handleTakeEnd() {
+        val state = _uiState.value
+        val nowPlaying = state.nowPlaying ?: run { stopAtEndOfTake(); return }
+
+        when (
+            val action = resolveTakeEndAction(
+                repeatMode = state.repeatMode,
+                shuffle = state.shuffle,
+                order = state.playOrder,
+                currentTrackUid = nowPlaying.track.uid
+            )
+        ) {
+            TakeEndAction.Replay -> replayCurrent()
+            is TakeEndAction.PlayTake -> {
+                val next = nowPlaying.availableTracks.firstOrNull { it.uid == action.trackUid }
+                if (next != null) loadAndPlay(nowPlaying.song, next) else stopAtEndOfTake()
+            }
+            TakeEndAction.Stop -> stopAtEndOfTake()
+        }
+    }
+
+    /** Rewinds and plays the loaded take again (repeat-one, and repeat-all on a single-take song). */
+    private fun replayCurrent() {
+        val player = mediaPlayer ?: return
+        try {
+            player.seekTo(0)
+            player.start()
+        } catch (e: IllegalStateException) {
+            Log.w(TAG, "replay while player not prepared", e)
+            return
+        }
+        _uiState.update { it.copy(playbackState = PlaybackState.PLAYING, positionMs = 0) }
+        startProgressLoop()
+    }
+
+    /**
+     * Falls silent at the end of the queue: stays loaded and rewound to 0 in [PlaybackState.PAUSED],
+     * so the now-playing surfaces keep showing the song and one tap plays it again.
+     */
+    private fun stopAtEndOfTake() {
+        _uiState.update { it.copy(playbackState = PlaybackState.PAUSED, positionMs = 0) }
+        try {
+            mediaPlayer?.seekTo(0)
+        } catch (e: IllegalStateException) {
+            Log.w(TAG, "seekTo(0) on completion", e)
         }
     }
 
@@ -238,6 +385,10 @@ class PlayerViewModel(application: Application) : AndroidViewModel(application) 
     companion object {
         private const val TAG = "PlayerViewModel"
         private const val PROGRESS_POLL_INTERVAL_MS = 250L
+
+        /** Past this point in a take, "previous" restarts it instead of stepping back
+         * (docs/screens/player.md v14: "previous restarts the current take when more than ~3 s in"). */
+        private const val RESTART_THRESHOLD_MS = 3_000
 
         /** Compose [androidx.lifecycle.viewmodel.compose.viewModel] factory. */
         fun factory() = viewModelFactory {

@@ -126,7 +126,8 @@ collapse the screen.
   The mini-player is mounted on the root `TabView` via `.safeAreaInset(.bottom)`, so song-detail
   suppresses it through a published flag on the player service (set on appear, cleared on disappear)
   rather than by trying to remove a parent's inset. Now Playing is already a `.sheet`
-  (`isExpanded`); it gains `.presentationDragIndicator(.visible)`.
+  (`isExpanded`). It draws its own grab handle rather than using
+  `.presentationDragIndicator(.visible)`, which needs iOS 16 against a 15.6 deployment target.
 - **Android:** `ExoPlayer`/Media3 (or `MediaPlayer`) behind a player `ViewModel`/service; a
   `PlayerScreen` + mini-player. `AUDIO_BASE_URL` in `AudioConfig.kt` or a `BuildConfig` field.
   The mini-player lives in the `Scaffold`'s `bottomBar`, so song-detail is excluded there by route.

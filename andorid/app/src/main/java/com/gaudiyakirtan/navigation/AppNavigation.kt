@@ -2,18 +2,27 @@ package com.gaudiyakirtan.navigation
 
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
+import android.content.Context
+import android.content.Intent
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.padding
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.ModalBottomSheet
 import androidx.compose.material3.NavigationBar
 import androidx.compose.material3.NavigationBarItem
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.rememberModalBottomSheetState
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -37,9 +46,14 @@ import com.gaudiyakirtan.myapplication.ui.player.PlayerScreen
 import com.gaudiyakirtan.myapplication.ui.settings.SettingsScreen
 import com.gaudiyakirtan.myapplication.ui.song.SongScreen
 import com.gaudiyakirtan.myapplication.ui.song.SongViewModel
+import com.gaudiyakirtan.data.AudioConfig
 import com.gaudiyakirtan.myapplication.ui.theme.GaurNeutral
 import com.gaudiyakirtan.myapplication.ui.theme.ShyamNeutral
+import com.gaudiyakirtan.services.NowPlaying
 import com.gaudiyakirtan.services.PlayerViewModel
+import com.gaudiyakirtan.services.songAuthor
+import com.gaudiyakirtan.services.songTitle
+import com.gaudiyakirtan.services.trackArtist
 
 /**
  * Navigation tabs for the Gaudiya Kirtan application
@@ -88,16 +102,20 @@ sealed class Route(val route: String) {
     object Settings : Route("settings")
     object Author : Route("author/{authorUid}")
     object Group : Route("group/{groupUid}")
-    object Player : Route("player")
+    // Note: Now Playing is deliberately NOT a route (docs/screens/player.md v14) -- it is a
+    // ModalBottomSheet hosted below, so it can be raised from any screen without a back-stack entry
+    // and dismissing it never pops the reader underneath.
 }
 
 /**
  * Main navigation component for the Gaudiya Kirtan application
  * Handles navigation between main screens using iOS-style navigation
  */
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun AppNavigation() {
     val navController = rememberNavController()
+    val context = LocalContext.current
     val items = listOf(
         Tab.Home,
         Tab.Library,
@@ -112,6 +130,11 @@ fun AppNavigation() {
     val playerViewModel: PlayerViewModel = viewModel(factory = PlayerViewModel.factory())
     val playerUiState by playerViewModel.uiState.collectAsState()
 
+    // Now Playing is a modal sheet, not a destination (docs/screens/player.md v14), so its
+    // visibility is plain UI state at the navigation root. `rememberSaveable` keeps it raised across
+    // configuration changes, matching iOS's `.sheet(isPresented:)`.
+    var showPlayer by rememberSaveable { mutableStateOf(false) }
+
     val navBackStackEntry by navController.currentBackStackEntryAsState()
     val currentDestination = navBackStackEntry?.destination
 
@@ -119,17 +142,18 @@ fun AppNavigation() {
     val isOnMainTab = items.any {
         currentDestination?.hierarchy?.any { dest -> dest.route == it.route } == true
     }
-    // Hide the mini-player while the full Now Playing screen is already showing, to avoid
-    // duplicating the same now-playing UI on screen at once.
-    val isOnPlayerScreen = currentDestination?.hierarchy?.any { it.route == Route.Player.route } == true
+    // The reader gets a pill, not a bar (docs/screens/player.md v14 + song-detail.md v7): the
+    // mini-player is suppressed on song-detail, whose toolbar carries the now-playing pill instead.
+    // Suppression is by route, so leaving the reader restores the bar with playback untouched.
+    val isOnSongScreen = currentDestination?.hierarchy?.any { it.route == Route.Song.route } == true
 
     Scaffold(
         bottomBar = {
             Column {
-                if (!isOnPlayerScreen) {
+                if (!isOnSongScreen) {
                     MiniPlayerBar(
                         uiState = playerUiState,
-                        onExpandClick = { navController.navigate(Route.Player.route) },
+                        onExpandClick = { showPlayer = true },
                         onPlayPauseClick = { playerViewModel.togglePlayPause() }
                     )
                 }
@@ -262,15 +286,19 @@ fun AppNavigation() {
                     onBackClick = { navController.popBackStack() },
                     onPlayClick = {
                         // song-detail play affordance (docs/screens/player.md interaction): start
-                        // this song's track on the shared player + open/raise the player.
+                        // this song's first take on the shared player + raise Now Playing. This is
+                        // what the toolbar pill does while nothing is loaded (v14).
                         songForPlayback?.let { song ->
                             playerViewModel.play(song)
-                            navController.navigate(Route.Player.route)
+                            showPlayer = true
                         }
                     },
                     onAuthorClick = { authorUid ->
                         navController.navigate("author/$authorUid")
-                    }
+                    },
+                    playerUiState = playerUiState,
+                    onPillClick = { showPlayer = true },
+                    onPillPlayPause = { playerViewModel.togglePlayPause() }
                 )
             }
 
@@ -317,19 +345,52 @@ fun AppNavigation() {
                     onBackClick = { navController.popBackStack() }
                 )
             }
-
-            // Now Playing (docs/screens/player.md): raised by the song-detail play affordance and
-            // by tapping the mini-player. Reads the *shared* playerViewModel's state -- not its own
-            // ViewModel -- so it always reflects whatever the global playback service is doing.
-            composable(Route.Player.route) {
-                PlayerScreen(
-                    uiState = playerUiState,
-                    onBackClick = { navController.popBackStack() },
-                    onPlayPauseClick = { playerViewModel.togglePlayPause() },
-                    onSeek = { positionMs -> playerViewModel.seekTo(positionMs) },
-                    onTrackSelected = { track -> playerViewModel.selectTrack(track) }
-                )
-            }
         }
     }
+
+    // Now Playing (docs/screens/player.md v14): a ModalBottomSheet hosted at the navigation root --
+    // raised by the song-detail pill, by the song-detail play affordance and by the mini-player, and
+    // dismissed by drag/scrim without touching the back stack or stopping playback. Reads the
+    // *shared* playerViewModel's state, so it always reflects the global playback service.
+    if (showPlayer) {
+        val sheetState = rememberModalBottomSheetState(skipPartiallyExpanded = true)
+        ModalBottomSheet(
+            onDismissRequest = { showPlayer = false },
+            sheetState = sheetState,
+            containerColor = MaterialTheme.colorScheme.background,
+            // The screen draws its own handle so the affordance travels with the layout.
+            dragHandle = null
+        ) {
+            PlayerScreen(
+                uiState = playerUiState,
+                onPlayPauseClick = { playerViewModel.togglePlayPause() },
+                onSeek = { positionMs -> playerViewModel.seekTo(positionMs) },
+                onTrackSelected = { track -> playerViewModel.selectTrack(track) },
+                onPreviousClick = { playerViewModel.previous() },
+                onNextClick = { playerViewModel.next() },
+                onToggleShuffle = { playerViewModel.toggleShuffle() },
+                onCycleRepeat = { playerViewModel.cycleRepeatMode() },
+                onShareClick = { playerUiState.nowPlaying?.let { shareTake(context, it) } }
+            )
+        }
+    }
+}
+
+/**
+ * Share action for Now Playing's actions row (docs/screens/player.md v14 item 6). Web copies a
+ * `/songs/<uid>?play=<trackUid>` deep link; with no companion site constant on Android, this hands
+ * the platform sheet the take's public bucket URL plus its song/reciter credit -- the same thing,
+ * addressed by what Android actually has.
+ */
+private fun shareTake(context: Context, nowPlaying: NowPlaying) {
+    val credit = nowPlaying.trackArtist ?: nowPlaying.songAuthor
+    val intent = Intent(Intent.ACTION_SEND).apply {
+        type = "text/plain"
+        putExtra(Intent.EXTRA_SUBJECT, nowPlaying.songTitle)
+        putExtra(
+            Intent.EXTRA_TEXT,
+            "${nowPlaying.songTitle} - $credit\n${AudioConfig.playableUrl(nowPlaying.track.filename)}"
+        )
+    }
+    context.startActivity(Intent.createChooser(intent, null))
 }
