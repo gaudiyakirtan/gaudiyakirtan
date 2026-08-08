@@ -47,7 +47,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 
 | Screen | Web | iOS | Android |
 |--------|-----|-----|---------|
-| song-detail (v7) | ✅ v6 | ⚠️ v7 uncompiled | ✅ v7 green |
+| song-detail (v7) | ✅ v6 | ✅ v7 green (Xcode 26.6) | ✅ v7 green |
 | songs-list / library | ✅ | ✅* | ✅ |
 | tracks (v1) | ✅ | — | — |
 | authors | ✅ | ✅* | ✅ |
@@ -56,7 +56,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | pwa (v1) — offline/install | ✅ | n/a | n/a |
 | seo (v1) — metadata/sitemap | ✅ | n/a | n/a |
 | observability (v1) — analytics/Sentry | ✅ | n/a | n/a |
-| settings (v5) | ✅ v4 ⏳ | ⚠️ v5 uncompiled | ✅ v5 green |
+| settings (v5) | ✅ v4 ⏳ | ✅ v5 green (Xcode 26.6) | ✅ v5 green |
 | theme (Gaura/Shyam) | ✅ | ✅* | ✅ |
 | home (v3 — re-purposed) | ✅ | — | — |
 | today (v1) — embedded as home §1 | ✅ | — | — |
@@ -68,7 +68,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | unit tests | ✅ | ✅* | ✅ 63 green |
 | screenshot tests | ✅ Playwright | — | ✅ Roborazzi (JVM, no device) |
 | resources | 🔨 | — | — |
-| player / now-playing | ✅ v13 green | ⚠️ v15 uncompiled | ✅ v15 green |
+| player / now-playing | ✅ v13 green | ✅ v15 green (Xcode 26.6) | ✅ v15 green |
 
 Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbox-blocked; confirm on a real
 Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a
@@ -95,8 +95,12 @@ model), so iOS/Android are not stale against it; they stay conformant at the ver
 - **The `ʷ` footnote no longer applies to the player row.** It meant "the newest spec version is
   web-only, so mobile isn't stale against it". v14 is a *mobile* version, so iOS and Android are now
   measured against it directly. Web stays conformant at v13 and is not stale.
-- **iOS v14 is `⚠️ uncompiled`** for the same reason as settings v5 — written where no Swift
-  toolchain exists. `TakeQueueTests` has never run.
+- **iOS v14 is built, tested and rendered.** Xcode 26.6, iPhone 17 Pro simulator, iOS 26.5:
+  `xcodebuild build` succeeds and `xcodebuild test` is **70/70 green**, including all 16
+  `TakeQueueTests`. The player was exercised against real streamed audio from the S3 bucket, and the
+  song screen, the loaded/unloaded toolbar pill and Now Playing (playing + paused) were captured in
+  both palettes — [`docs/screenshots/ios/`](screenshots/ios/). Mini-player suppression on the reader
+  was confirmed visually: no bottom bar is present on song-detail in any capture.
 - **Mobile has no book/topic queue**, so `shuffle`/`repeatMode` scope to a song's **takes**. Web's
   richer queue (`queueContext`, endless play, sleep timer) has no mobile counterpart, and the
   "queue" action on mobile therefore shows the takes in resolved play order. If a collection queue
@@ -107,15 +111,19 @@ model), so iOS/Android are not stale against it; they stay conformant at the ver
 
 ### Settings v5 — open items
 
-- **iOS is `⚠️ uncompiled`, not `✅*`.** The v5 slice was written on Linux, where there is no Swift
-  toolchain at all, so unlike the earlier `✅*` rows it has had **no** `swiftc -typecheck` and no test
-  run — only a line-by-line review. It must be built and its `SettingsResolverTests` run on a Mac
-  before this row moves.
-- **The iOS deployment target looks stale at 15.6.** `SongView.swift`'s `.toolbar(.hidden, for:
-  .tabBar)` needs iOS 16, and the generated asset-catalog colour symbols (`Color.highlight` etc.,
-  which every view uses and which have no hand-written `extension Color` behind them) need iOS 17.
-  Both predate this slice. Either the target is raised to 17 or the project cannot be building; worth
-  settling next time someone has Xcode in front of them.
+- **iOS is now built and run.** Verified on a Mac with **Xcode 26.6**, iPhone 17 Pro simulator,
+  **iOS 26.5** runtime: `xcodebuild build` succeeds and `xcodebuild test` is **54/54 green** (51 unit
+  incl. the 15 new `SettingsResolverTests`, 3 UI). Settings was rendered in both palettes —
+  [`docs/screenshots/ios/`](screenshots/ios/).
+- **Rendering caught a layout defect the review could not.** The `MenuPickerStyle` pickers were
+  compressed by their row's `Spacer`, so long shared labels ("English (Roman / Latin)" beside
+  "IAST") wrapped character-by-character and drew over the sample verse and the word-by-word gloss.
+  Fixed by giving the pickers their ideal width (`.lineLimit(1)` + `.fixedSize`) and stacking the
+  caption above the control via `ViewThatFits` when they cannot share a line.
+- **The iOS deployment target moved 15.6 → 17.0** (carried by PR #52, now on `mono`).
+  `SongView.swift`'s `.toolbar(.hidden, for: .tabBar)` needs iOS 16 and the generated asset-catalog
+  colour symbols (`Color.highlight` etc.) need iOS 17, so the project could not have been building
+  at 15.6. **This is a product decision a human must confirm — it drops iOS 15 and 16 devices.**
 - **Web is behind at v4 and diverges on ISO 15919.** `stripMasterFlags` deletes `[FLAG_HYPHEN_ALPHA]`
   outright, so web renders `nityānandarāya`; iOS and Android resolve it to a hyphen, giving
   `nityānanda-rāya`, which matches the IAST the corpus ships. Mobile is right here and web is the

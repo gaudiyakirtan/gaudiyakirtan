@@ -69,17 +69,19 @@ struct SettingsView: View {
                 .fixedSize(horizontal: false, vertical: true)
 
             VStack(alignment: .leading, spacing: 6) {
-                HStack(alignment: .firstTextBaseline, spacing: 12) {
+                AdaptiveControlRow {
                     Text("Display language")
                         .font(.system(size: 15, weight: .medium))
                         .foregroundColor(Color("primaryText"))
-                    Spacer(minLength: 8)
+                } control: {
                     Picker("Display language", selection: $settings.listLanguage) {
                         ForEach(ReaderSettings.availableListLanguages) { option in
                             Text(option.label).tag(option.code)
                         }
                     }
                     .pickerStyle(MenuPickerStyle())
+                    .lineLimit(1)
+                    .fixedSize(horizontal: true, vertical: false)
                 }
 
                 // The live example is what makes the setting legible. It comes from the full `Song`
@@ -154,6 +156,8 @@ struct SettingsView: View {
                 }
             }
             .pickerStyle(MenuPickerStyle())
+            .lineLimit(1)
+            .fixedSize(horizontal: true, vertical: false)
         }
 
         Divider()
@@ -168,6 +172,8 @@ struct SettingsView: View {
                 }
             }
             .pickerStyle(MenuPickerStyle())
+            .lineLimit(1)
+            .fixedSize(horizontal: true, vertical: false)
         }
     }
 
@@ -395,15 +401,45 @@ private struct SettingsPreviewRow<Preview: View, Control: View>: View {
             preview
                 .frame(maxWidth: .infinity, alignment: .leading)
 
-            HStack(spacing: 12) {
+            AdaptiveControlRow {
                 Text(caption.uppercased())
                     .font(.system(size: 11, weight: .semibold))
                     .foregroundColor(Color.neutral)
-                Spacer(minLength: 8)
+            } control: {
                 control
             }
         }
         .padding(.vertical, 10)
+    }
+}
+
+/// Puts a caption and its control on one line when both fit, and stacks them when they don't.
+///
+/// The script/language labels are shared cross-platform strings (settings.md v5), so they can be as
+/// long as "English (Roman / Latin)" — next to a second "ISO 15919" picker that is wider than the
+/// row. Compressing a `MenuPickerStyle` picker makes it wrap its label character-by-character and
+/// draw over its neighbours, so the row is given a vertical fallback instead.
+private struct AdaptiveControlRow<Caption: View, Control: View>: View {
+    let caption: Caption
+    let control: Control
+
+    init(@ViewBuilder caption: () -> Caption, @ViewBuilder control: () -> Control) {
+        self.caption = caption()
+        self.control = control()
+    }
+
+    var body: some View {
+        ViewThatFits(in: .horizontal) {
+            HStack(spacing: 12) {
+                caption
+                Spacer(minLength: 8)
+                control
+            }
+            VStack(alignment: .leading, spacing: 8) {
+                caption
+                control
+            }
+        }
     }
 }
 
@@ -424,6 +460,7 @@ private struct ScriptControl: View {
                 }
             }
             .pickerStyle(MenuPickerStyle())
+            .lineLimit(1)
 
             if showsRomanStandard {
                 Picker("Roman standard", selection: $romanStandard) {
@@ -432,8 +469,12 @@ private struct ScriptControl: View {
                     }
                 }
                 .pickerStyle(MenuPickerStyle())
+                .lineLimit(1)
             }
         }
+        // Menu pickers are laid out at their ideal width; without this they compress and wrap the
+        // selected label character-by-character over the neighbouring preview text.
+        .fixedSize(horizontal: true, vertical: false)
     }
 }
 
