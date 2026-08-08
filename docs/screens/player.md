@@ -1,6 +1,6 @@
 # Screen — Audio Player
 
-**Spec version:** 14
+**Spec version:** 15
 
 **Figma frames:** `Now Playing`, `Player`, `Track`, `trailingIcon2_`.
 
@@ -62,6 +62,58 @@ of furniture on the one screen whose job is uninterrupted reading. Instead:
 - When the song has no audio and nothing is playing, the pill is absent and the toolbar keeps its
   existing back / "Aa" layout.
 - Everywhere **outside** song-detail the mini-player bar behaves as before (above the tab bar).
+
+## The mini-player is never empty (mobile, v15)
+
+Outside [song-detail](song-detail.md), the mini-player slot has **two** states, and the slot itself
+never disappears once the reader has opened a single song. Nothing about the app changes size when
+playback starts or stops.
+
+| State | When | What it shows |
+|-------|------|---------------|
+| **Playing** (the track state) | a take is loaded — playing, paused, loading or errored | the existing bar: artwork, title, the **reciter**, and a play/pause control |
+| **Last visited** (the resting state) | nothing has ever been loaded this session, but a song was opened | the **same bar, same height**: artwork, title, the song's **author** — and a **play affordance**, not a transport |
+| *(absent)* | a fresh install where no song has been opened yet | nothing — there is genuinely nothing to resume |
+
+The point is that the reader's last song is one tap away from anywhere in the app, and that the
+place it lives doesn't move. Precedence is simple: **whatever is loaded in the player wins**; the
+last-visited song only fills the slot when the player is empty.
+
+### It is not a track
+
+The resting state deliberately does **not** pretend to be playback:
+
+- No scrubber, no elapsed/remaining, no transport pair. A single **play** affordance, because the
+  only thing you can do to a song that isn't loaded is start it.
+- The credit line is the song's **author** (the composer), not a reciter — no take is chosen yet, so
+  there is no reciter to name. This is the one place the two differ; see
+  [tracks.md](tracks.md) "reciter vs author".
+- Tapping it **starts the song's first take**, which promotes the slot into the playing state.
+  It does not open Now Playing — an empty player has nothing to show.
+- Songs with `audio_available = false` still occupy the slot (the reader was there, it is still the
+  way back to it), but the play affordance is replaced by an open-song chevron.
+
+### Persistence
+
+One record, written when song-detail opens a song, holding the **uid only** — every platform can
+rehydrate title/author/audio from the bundled corpus, so nothing denormalized can go stale against a
+pipeline resync.
+
+- **iOS:** `UserDefaults`, key `player.lastVisitedSongUid`, alongside the existing `reader.*` keys.
+- **Android:** the same `SharedPreferences` store the settings use, key `last_visited_song_uid`,
+  exposed as a `StateFlow` so the bar reacts without a restart.
+- **Web:** already has this shape in `gk.recents` (`utils/useRecents.ts`) — mobile is not obliged to
+  match its 10-entry history; one uid is enough for this surface.
+
+Reading history is **device-local and never transmitted**, matching the posture `useRecents.ts`
+already documents.
+
+**It never autoplays.** Restoring a song into the slot is a convenience, not a request for sound —
+the same rule web's resume already follows ("restores paused, never autoplays"). A cold start shows
+the resting state and stays silent.
+
+Storage failures are swallowed on every platform: a missing or unparsable record means the slot is
+absent, never a crash.
 
 ## Now Playing (mobile, v14)
 
@@ -229,6 +281,15 @@ collapse the screen.
 
 ## Change log
 
+- **v15 (iOS + Android)** — **The mini-player slot stopped being empty.** It only existed while a
+  take was loaded, so it appeared and vanished under the reader and there was no way back to the last
+  song from elsewhere in the app. It now has a **resting state**: when nothing is loaded but a song
+  has been opened, the same bar shows that song — artwork, title, **author** (no take is chosen, so
+  there is no reciter to name) — with a single **play** affordance and no transport, so it can't be
+  mistaken for playback. Whatever is loaded in the player always wins; the resting state only fills
+  the gap. Backed by one persisted **uid** (`player.lastVisitedSongUid` / `last_visited_song_uid`),
+  rehydrated from the bundled corpus so nothing can go stale, device-local, and it **never
+  autoplays**.
 - **v14 (iOS + Android)** — **The reader lost the bottom bar and gained a pill.** The mini-player is
   now suppressed on [song-detail](song-detail.md); the song screen's top toolbar carries a compact
   **now-playing pill** instead, bound to the player (not the page), whose body opens Now Playing and
