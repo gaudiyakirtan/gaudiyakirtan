@@ -67,8 +67,12 @@ final class AudioPlayerService: ObservableObject {
 
     var isPlaying: Bool { state == .playing }
 
-    /// Whether a track has been loaded (drives mini-player visibility) — distinct from `idle`, which
-    /// also covers the initial no-song-loaded state.
+    /// Whether a song has been loaded into the player — distinct from `idle`, which also covers the
+    /// initial no-song-loaded state. True in the `.error` state too: a failed take still names its
+    /// song (see `play(song:track:)`).
+    ///
+    /// No longer gates the mini-player: as of player.md **v15** the bar also has a *resting* state
+    /// with nothing loaded, so visibility is decided by `resolveMiniPlayerSlot` instead.
     var hasActiveTrack: Bool { currentSong != nil }
 
     /// The current song's recordings, for the take/artist picker (player.md "Data bindings" —
@@ -104,6 +108,18 @@ final class AudioPlayerService: ObservableObject {
     /// repeated taps on the same play affordance are cheap and don't restart the stream.
     func play(song: Song, track: AudioTrack? = nil) {
         guard let track = track ?? song.audioFiles.first else {
+            // Nothing to play (a song whose `audio_available` disagrees with an empty
+            // `audio_files`). The song is still *loaded* as far as the UI is concerned — the reader
+            // tapped play on it, so the mini-player and the song-detail pill must name it beside
+            // "Audio unavailable" rather than silently keep showing whatever was there before
+            // (player.md v15: a loaded song holds the mini-player slot in every state, `.error`
+            // included, and `resolveMiniPlayerSlot` keys off `currentSong`). Setting it here also
+            // keeps `hasActiveTrack` honest.
+            teardownPlayer()
+            currentSong = song
+            currentTrack = nil
+            currentTime = 0
+            duration = 0
             state = .error("Audio unavailable")
             return
         }

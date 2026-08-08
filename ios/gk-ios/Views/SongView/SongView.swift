@@ -44,6 +44,9 @@ struct SongView: View {
     let song: Song
     @EnvironmentObject private var settings: ReaderSettings
     @EnvironmentObject private var audioPlayer: AudioPlayerService
+    /// The one persisted reading record behind the mini-player's resting state (player.md **v15**
+    /// "Persistence": "One record, written when song-detail opens a song, holding the uid only").
+    @EnvironmentObject private var lastVisitedSong: LastVisitedSongStore
     @Environment(\.presentationMode) private var presentationMode
 
     /// Hidden-song display-only collapse (song-detail.md "Hidden song" state). Local to this screen
@@ -79,7 +82,14 @@ struct SongView: View {
         // can only ask for it: set on appear, cleared on disappear (and, for the tab-switch case
         // SwiftUI doesn't reliably report, cleared again by `AppNavigation`'s tab `onChange`).
         // Playback itself is never touched.
-        .onAppear { audioPlayer.isMiniPlayerSuppressed = true }
+        .onAppear {
+            audioPlayer.isMiniPlayerSuppressed = true
+            // This screen is the single funnel every route into the reader passes through, so it is
+            // where "the reader opened a song" is recorded (player.md v15). The uid only — title,
+            // author and audio flag are rehydrated from the bundled corpus, so nothing can go stale
+            // against a pipeline resync. Recording never starts playback.
+            lastVisitedSong.record(uid: song.uid)
+        }
         .onDisappear { audioPlayer.isMiniPlayerSuppressed = false }
     }
 

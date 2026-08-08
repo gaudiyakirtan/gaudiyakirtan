@@ -14,6 +14,24 @@ struct AppNavigation: View {
     /// screen — so the mini-player and Now Playing sheet below survive navigation.
     @StateObject private var audioPlayer = AudioPlayerService.shared
 
+    /// The persisted last visited song (docs/screens/player.md **v15** — key
+    /// `player.lastVisitedSongUid`). Owned here for the same reason as the two above: `SongView`
+    /// writes it and the mini-player reads it, and both must see the same instance.
+    @StateObject private var lastVisitedSong = LastVisitedSongStore()
+
+    /// The song the mini-player's resting state asked to open (player.md v15 — a song with no audio
+    /// "still occupies the slot ... but the play affordance is replaced by an open-song chevron").
+    ///
+    /// Presented from the root rather than from `MiniPlayerView` because the reader suppresses the
+    /// bar on appear (v14), which removes `MiniPlayerView` from the tree — a sheet owned by that
+    /// view would be dismissed the instant its content appeared.
+    @State private var songToOpen: SongSheetTarget?
+
+    /// `Identifiable` box around a song uid so `.sheet(item:)` can be driven by a plain `String`.
+    private struct SongSheetTarget: Identifiable {
+        let id: String
+    }
+
     enum Tab {
         case home, library, collection, search
 
@@ -106,15 +124,22 @@ struct AppNavigation: View {
         }
         // Mini-player (player.md "Track"/"trailingIcon2_" — "a compact bar ... that can sit above
         // the tab bar"): inserted as a bottom safe-area inset so it pushes the tab bar up rather
-        // than overlapping it, and only occupies space once a track is loaded.
+        // than overlapping it.
         //
-        // `isMiniPlayerSuppressed` hides it on song-detail (player.md v14 "The reader gets a pill,
-        // not a bar"). The inset is owned by this root `TabView`, so the reader screen can't remove
-        // it directly — it publishes the intent on the shared player service and this gate honors
-        // it. Playback is untouched either way.
+        // The gate no longer includes `hasActiveTrack`: as of player.md **v15** the slot is not
+        // playback-gated, it keeps showing the last visited song when nothing is loaded ("The
+        // mini-player is never empty"). Deciding between the two states — and rendering nothing at
+        // all on a fresh install — belongs to `MiniPlayerView`/`resolveMiniPlayerSlot`, which have
+        // the persisted uid; the empty case yields an `EmptyView` and so a zero-height inset,
+        // exactly as the old `false` branch did.
+        //
+        // `isMiniPlayerSuppressed` still hides it on song-detail (player.md v14 "The reader gets a
+        // pill, not a bar"). The inset is owned by this root `TabView`, so the reader screen can't
+        // remove it directly — it publishes the intent on the shared player service and this gate
+        // honors it. Playback is untouched either way.
         .safeAreaInset(edge: .bottom) {
-            if audioPlayer.hasActiveTrack && !audioPlayer.isMiniPlayerSuppressed {
-                MiniPlayerView()
+            if !audioPlayer.isMiniPlayerSuppressed {
+                MiniPlayerView(onOpenSong: { songToOpen = SongSheetTarget(id: $0) })
             }
         }
         // Belt-and-suspenders for the "leaving by tab switch" case in song-detail.md v7: SwiftUI
@@ -132,8 +157,28 @@ struct AppNavigation: View {
                 .environmentObject(audioPlayer)
                 .environmentObject(readerSettings)
         }
+        // The resting mini-player's open-song chevron (player.md v15 — a last visited song with no
+        // audio "still occupies the slot ... but the play affordance is replaced by an open-song
+        // chevron"). Hosted on a zero-size background view rather than chained straight onto this
+        // `TabView`: two `.sheet` modifiers applied to the same view are historically unreliable on
+        // the deployment target (15.6), and giving each presentation its own host keeps them
+        // independent of one another. Environment objects are injected explicitly, as the Now
+        // Playing sheet above already does — sheet content does not reliably inherit them.
+        .background(
+            Color.clear
+                .frame(width: 0, height: 0)
+                .sheet(item: $songToOpen) { target in
+                    NavigationView {
+                        SongDetailLoader(uid: target.id)
+                    }
+                    .environmentObject(readerSettings)
+                    .environmentObject(audioPlayer)
+                    .environmentObject(lastVisitedSong)
+                }
+        )
         .environmentObject(readerSettings)
         .environmentObject(audioPlayer)
+        .environmentObject(lastVisitedSong)
         // Active tab uses the accent/highlight token (browse.md "Navigation: active state uses the
         // accent"; theme.md "interactive/selection controls must be tinted to highlight/accent
         // explicitly, not the platform default"). `.tint` covers the native selected-item chrome;

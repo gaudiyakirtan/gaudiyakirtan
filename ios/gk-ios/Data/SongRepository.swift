@@ -53,6 +53,27 @@ final class SongRepository {
         }
     }
 
+    /// `manifest` keyed by uid, built once on first use. Backs `manifestEntry(uid:)` so a
+    /// per-redraw lookup (the mini-player's resting state resolves the persisted
+    /// `player.lastVisitedSongUid` on every body evaluation) is a dictionary hit rather than a
+    /// linear scan of the whole catalog.
+    ///
+    /// Duplicate uids keep the first entry instead of trapping: manifest.md requires uids to be
+    /// unique and `SongRepositoryTests` asserts it, but a malformed file must degrade, never crash
+    /// (which `Dictionary(uniqueKeysWithValues:)` would).
+    private lazy var manifestByUid: [String: ManifestEntry] =
+        Dictionary(manifest.map { ($0.uid, $0) }, uniquingKeysWith: { first, _ in first })
+
+    /// The lightweight catalog entry for `uid`, or `nil` if it isn't in the corpus.
+    ///
+    /// The cheap counterpart to `song(uid:)`: enough to render a title/author row without decoding
+    /// verses (manifest.md "Purpose"). Used by the mini-player's resting state to rehydrate the
+    /// persisted last-visited uid (player.md v15) — a uid that has since left the corpus resolves
+    /// to `nil` and the slot goes absent.
+    func manifestEntry(uid: String) -> ManifestEntry? {
+        manifestByUid[uid]
+    }
+
     // MARK: - Song detail
 
     /// Loads (and caches) the full `Song` for `uid`. Returns `nil` if the song isn't bundled or
