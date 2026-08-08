@@ -32,7 +32,7 @@ struct AppNavigation: View {
         let id: String
     }
 
-    enum Tab {
+    enum Tab: String {
         case home, library, collection, search
 
         var iconName: String {
@@ -126,29 +126,29 @@ struct AppNavigation: View {
         // the tab bar"): inserted as a bottom safe-area inset so it pushes the tab bar up rather
         // than overlapping it.
         //
-        // The gate no longer includes `hasActiveTrack`: as of player.md **v15** the slot is not
+        // The gate does not include `hasActiveTrack`: as of player.md **v15** the slot is not
         // playback-gated, it keeps showing the last visited song when nothing is loaded ("The
         // mini-player is never empty"). Deciding between the two states — and rendering nothing at
         // all on a fresh install — belongs to `MiniPlayerView`/`resolveMiniPlayerSlot`, which have
-        // the persisted uid; the empty case yields an `EmptyView` and so a zero-height inset,
-        // exactly as the old `false` branch did.
+        // the persisted uid; the empty case yields an `EmptyView` and so a zero-height inset.
         //
-        // `isMiniPlayerSuppressed` still hides it on song-detail (player.md v14 "The reader gets a
-        // pill, not a bar"). The inset is owned by this root `TabView`, so the reader screen can't
-        // remove it directly — it publishes the intent on the shared player service and this gate
-        // honors it. Playback is untouched either way.
+        // It is still hidden on song-detail (player.md v14 "The reader gets a pill, not a bar").
+        // The inset is owned by this root `TabView`, so the reader screen can't remove it directly —
+        // it records *its tab* on the shared player service and this gate compares that against the
+        // selected tab. Playback is untouched either way.
+        //
+        // The comparison is what makes it correct across tab switches: song-detail suppresses only
+        // the tab it is on, so switching away shows the bar and switching back hides it again with
+        // nothing to clear and nothing to re-set. An earlier `Bool` had to be cleared on every tab
+        // change, including the change *back*, which raced `SongView.onAppear` and could draw the
+        // full-width bar over the verses.
         .safeAreaInset(edge: .bottom) {
-            if !audioPlayer.isMiniPlayerSuppressed {
+            if audioPlayer.miniPlayerSuppressedByTab != selection.rawValue {
                 MiniPlayerView(onOpenSong: { songToOpen = SongSheetTarget(id: $0) })
             }
         }
-        // Belt-and-suspenders for the "leaving by tab switch" case in song-detail.md v7: SwiftUI
-        // does not reliably fire `onDisappear` for a pushed view when its tab is switched away
-        // from, and a stuck suppression flag would leave every *other* tab without a mini-player.
-        // Switching tabs always clears it; returning to song-detail re-sets it via `onAppear`.
-        .onChange(of: selection) { _ in
-            audioPlayer.isMiniPlayerSuppressed = false
-        }
+        // Every pushed screen learns which tab it is in, so song-detail can name its own tab above.
+        .environment(\.currentTabID, selection.rawValue)
         // Now Playing (player.md "song-detail play button → ... open/raise the player"; mini-player
         // "tappable to expand to Now Playing"). Raised/lowered from anywhere via
         // `audioPlayer.isExpanded` on the shared instance — collapsing keeps playback running.
