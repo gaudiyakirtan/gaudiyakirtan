@@ -1,6 +1,6 @@
 # Screen — Audio Player
 
-**Spec version:** 13
+**Spec version:** 14
 
 **Figma frames:** `Now Playing`, `Player`, `Track`, `trailingIcon2_`.
 
@@ -39,8 +39,72 @@ Playback still **degrades gracefully** on any load failure (network off, missing
 
 - **Now Playing / Player:** artwork/placeholder, song title, author + `artist`, a **play/pause**
   control, a **scrubber** (position / duration), and skip controls (dormant until multi-recording).
+  On **iOS/Android** this is the full surface described in "Now Playing (mobile)" below.
 - **Mini-player / Track** (`Track`, `trailingIcon2_`): a compact bar (title + play/pause) that can
-  sit above the tab bar / in the reader while a track is loaded, tappable to expand to Now Playing.
+  sit above the tab bar while a track is loaded, tappable to expand to Now Playing. **It does not
+  appear on song-detail** — see "The reader gets a pill, not a bar".
+
+## The reader gets a pill, not a bar (mobile, v14)
+
+On [song-detail](song-detail.md) the mini-player bar is **suppressed**. Two things claimed the bottom
+of the reading screen — the bar and the reader's own scroll — and a full-width bar is a heavy piece
+of furniture on the one screen whose job is uninterrupted reading. Instead:
+
+- The song screen's **top toolbar carries a now-playing pill**: a compact capsule between the back
+  button and the "Aa" display control, showing small artwork/note, the **title** and **reciter** of
+  what is playing, and a play/pause affordance.
+- **Tapping the pill body opens Now Playing as a modal**; tapping the play/pause affordance inside it
+  toggles playback without opening anything. The two hit targets are distinct.
+- The pill is bound to the **player**, not to the page: if a different song is playing, the pill shows
+  *that* song. When nothing is loaded and the song being read has audio, the pill is the screen's
+  **play affordance** for that song (it starts the song's first take, per song-detail's "play"
+  interaction) — one control, two states, so the toolbar never grows a second button.
+- When the song has no audio and nothing is playing, the pill is absent and the toolbar keeps its
+  existing back / "Aa" layout.
+- Everywhere **outside** song-detail the mini-player bar behaves as before (above the tab bar).
+
+## Now Playing (mobile, v14)
+
+Now Playing is a **modal** on both platforms — iOS a `.sheet`, Android a `ModalBottomSheet` — not a
+pushed navigation destination. It is a transient surface over whatever you were reading, and it must
+return you there untouched: dismissing it never stops playback and never pops the reader.
+
+Layout, top to bottom (a full-bleed portrait surface in the "large artwork, big transport" idiom):
+
+1. **Drag/dismiss affordance** and a **context caption** — a small uppercase line naming where the
+   audio came from ("PLAYING FROM SONG", or the book/topic when a collection queue exists) over the
+   song title in small type.
+2. **Artwork** — a large rounded square, as wide as the screen minus a generous margin, from
+   `artists/<artist_code>.jpg`. Most portraits 404; the placeholder (surface fill + note glyph) is the
+   normal case, not an error, and must look deliberate.
+3. **Title / credit row** — the song title large and bold, the **reciter** (`audio_files[].artist`,
+   not the composer — see [tracks.md](tracks.md) "reciter vs author") beneath it in muted type, with
+   the composer as the fallback when a take carries no artist.
+4. **Scrubber** — a draggable track with **elapsed on the left and remaining (`-m:ss`) on the right**.
+   Remaining, not total: it answers the question a listener actually has. While dragging, the elapsed
+   label follows the thumb and the seek is committed on release.
+5. **Transport row** — five controls on one line, the play/pause a large filled circle in the middle,
+   flanked by previous/next, flanked by **shuffle** and **repeat**. Previous/next step through the
+   song's **takes** (`audio_files`); previous restarts the current take when more than ~3 s in,
+   matching the universal convention. Shuffle and repeat render **enabled-but-inert-looking** (muted)
+   rather than disabled on single-take songs, so the row never reflows between songs.
+6. **Actions row** — take/recordings picker (showing the take count), share, and the queue.
+
+**Shuffle and repeat** operate over the song's takes, the only queue mobile has:
+
+| Setting | Values | Behavior at end of take |
+|---------|--------|-------------------------|
+| `repeatMode` | `off` · `all` · `one` | `one` → replay this take. `all` → next take, wrapping past the last. `off` → next take, **stopping** after the last. |
+| `shuffle` | on/off | When on, "next" draws from a shuffled permutation of the takes rather than their listed order. Turning it off restores listed order from the current take. |
+
+Precedence at end of track, mirroring web's `resolveTrackEndAction`: **repeat-one** wins over
+everything; then the shuffle/repeat-aware next take; otherwise stop. Keep this decision in a **pure,
+unit-tested function** with no `AVPlayer`/`MediaPlayer` in sight — web does the same and it is the
+only part of playback that can be tested without a device.
+
+**States** are unchanged (idle / loading / playing / paused / error). The error state keeps the whole
+layout and replaces the transport with the "audio unavailable" message, so a failed take doesn't
+collapse the screen.
 
 ## States
 
@@ -59,8 +123,18 @@ Playback still **degrades gracefully** on any load failure (network off, missing
 
 - **iOS:** `AVPlayer` (AVFoundation) behind a shared `AudioPlayerService` (ObservableObject);
   a `PlayerView` (Now Playing) + a mini-player. `AudioConfig.swift` holds `AUDIO_BASE_URL`.
+  The mini-player is mounted on the root `TabView` via `.safeAreaInset(.bottom)`, so song-detail
+  suppresses it through a published flag on the player service (set on appear, cleared on disappear)
+  rather than by trying to remove a parent's inset. Now Playing is already a `.sheet`
+  (`isExpanded`). It draws its own grab handle rather than using
+  `.presentationDragIndicator(.visible)`, which needs iOS 16 against a 15.6 deployment target.
 - **Android:** `ExoPlayer`/Media3 (or `MediaPlayer`) behind a player `ViewModel`/service; a
   `PlayerScreen` + mini-player. `AUDIO_BASE_URL` in `AudioConfig.kt` or a `BuildConfig` field.
+  The mini-player lives in the `Scaffold`'s `bottomBar`, so song-detail is excluded there by route.
+  Now Playing moves off its `NavHost` route into a `ModalBottomSheet` hosted at the navigation root,
+  so it can be raised from any screen without a back-stack entry.
+- **Take-end logic (both):** `resolveTakeEndAction(repeatMode, shuffle, takes, currentTakeUid, order)`
+  — a pure function returning *replay* / *play take X* / *stop*, unit-tested with no player object.
 - **Web (unified mini-player, `PlayerWidget.tsx`):** an `<audio>` element behind `PlayerContext`,
   surfaced by a **single** sticky control in the bottom-right that **morphs** (framer-motion) between
   a circle and a card. It is **hidden entirely on non-song pages unless a track is loaded/playing**
@@ -155,6 +229,19 @@ Playback still **degrades gracefully** on any load failure (network off, missing
 
 ## Change log
 
+- **v14 (iOS + Android)** — **The reader lost the bottom bar and gained a pill.** The mini-player is
+  now suppressed on [song-detail](song-detail.md); the song screen's top toolbar carries a compact
+  **now-playing pill** instead, bound to the player (not the page), whose body opens Now Playing and
+  whose inner control toggles playback. With nothing loaded it doubles as the screen's play
+  affordance, so the toolbar gains no second button. **Now Playing became a modal** on both platforms
+  (iOS `.sheet` + drag indicator, Android `ModalBottomSheet` hosted at the nav root instead of a
+  pushed route) and was **redesigned** into the large-artwork/big-transport idiom: context caption,
+  full-width square artwork, title + reciter, a scrubber showing **elapsed / remaining** rather than
+  elapsed / total, a five-control transport row (shuffle · previous · play · next · repeat), and an
+  actions row. **Previous/next stopped being dead stubs** — they step through the song's takes, with
+  previous restarting the current take past ~3 s. **`shuffle` and `repeatMode` (`off`/`all`/`one`)
+  are new player state**, resolved at end-of-take by a pure `resolveTakeEndAction` that is unit-tested
+  without a player object (the same split web uses for `resolveTrackEndAction`).
 - **v13 (web)** — Placed the widget explicitly in the shared layer scale
   ([navigation.md](navigation.md#layer-order-web) v3). It had outranked the mobile drawer's scrim,
   so a loaded mini-player stayed lit and clickable above the dim while the menu was open. It now

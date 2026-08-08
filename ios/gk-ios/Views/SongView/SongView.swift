@@ -45,6 +45,9 @@ struct SongView: View {
     @EnvironmentObject private var settings: ReaderSettings
     @EnvironmentObject private var audioPlayer: AudioPlayerService
     @Environment(\.presentationMode) private var presentationMode
+    /// Which tab this reader was pushed inside, so it suppresses only that tab's mini-player inset
+    /// (see the `onAppear`/`onDisappear` pair below).
+    @Environment(\.currentTabID) private var currentTabID
 
     /// Hidden-song display-only collapse (song-detail.md "Hidden song" state). Local to this screen
     /// (not a persisted preference).
@@ -55,7 +58,7 @@ struct SongView: View {
             Color.background.edgesIgnoringSafeArea(.all)
 
             VStack(spacing: 0) {
-                backButton
+                topBar
 
                 ScrollView {
                     VStack(alignment: .center, spacing: 24) {
@@ -73,22 +76,143 @@ struct SongView: View {
         // Full-screen reader: hide the bottom tab bar on this pushed detail screen only
         // (song-detail.md v2). Scoped modifier — restores automatically when this view is popped.
         .toolbar(.hidden, for: .tabBar)
+        // The mini-player bar is suppressed here (song-detail.md v7 / player.md v14 — "the
+        // reader's bottom edge belongs to the verses, and the pill in the toolbar already carries
+        // the playback state"). The bar is a safe-area inset on the root `TabView`, so this screen
+        // can only ask for it — by naming the tab it is on, which `AppNavigation` compares against
+        // the selected tab. Switching tabs therefore un-suppresses without anyone clearing a flag,
+        // which is the whole point: SwiftUI does not reliably fire `onAppear`/`onDisappear` for a
+        // pushed view across tab switches, so anything ordering-dependent here is a bug waiting to
+        // happen. Playback itself is never touched.
+        .onAppear { audioPlayer.miniPlayerSuppressedByTab = currentTabID }
+        .onDisappear {
+            // Only release what this screen still owns — a screen that has already been superseded
+            // must not clear a newer reader's suppression.
+            if audioPlayer.miniPlayerSuppressedByTab == currentTabID {
+                audioPlayer.miniPlayerSuppressedByTab = nil
+            }
+        }
     }
 
-    // MARK: - Back
+    // MARK: - Top toolbar (song-detail.md v7: back · now-playing pill)
+    //
+    // v7's toolbar is "back · the now-playing pill · a display-settings control (the 'Aa' menu)".
+    // Only the first two are here: iOS has never had the collapsed "Aa" menu, keeping its script and
+    // gloss controls in the `controlBar` pill row below instead. That divergence predates v7 and
+    // consolidating the reader's controls is its own slice — tracked in implementation-mapping.md.
+
+    private var topBar: some View {
+        HStack(alignment: .center, spacing: 8) {
+            backButton
+            Spacer(minLength: 8)
+            nowPlayingPill
+        }
+        .padding(.horizontal, 16)
+        .padding(.top, 12)
+    }
 
     private var backButton: some View {
-        HStack {
-            Button(action: { presentationMode.wrappedValue.dismiss() }) {
-                HStack(spacing: 2) {
-                    Image(systemName: "chevron.left")
-                    Text("Back")
+        Button(action: { presentationMode.wrappedValue.dismiss() }) {
+            HStack(spacing: 2) {
+                Image(systemName: "chevron.left")
+                Text("Back")
+            }
+            .foregroundColor(Color.highlight)
+        }
+    }
+
+    // MARK: - Now-playing pill (player.md v14 "The reader gets a pill, not a bar")
+
+    /// The reading screen's single audio affordance, replacing both the mini-player bar (suppressed
+    /// above) and the header's old "Play" capsule.
+    ///
+    /// It is bound to the **player**, not to the page: whatever is loaded is what it shows, even if
+    /// that is a different song than the one being read. With nothing loaded it doubles as *this*
+    /// song's play button, "so the toolbar never grows a second button"; with nothing loaded and no
+    /// audio on this song it renders nothing at all.
+    @ViewBuilder
+    private var nowPlayingPill: some View {
+        if let playing = audioPlayer.currentSong {
+            HStack(spacing: 8) {
+                pillGlyph
+                VStack(alignment: .leading, spacing: 1) {
+                    Text(playing.title(inScript: settings.listLanguage))
+                        .font(.system(size: 12, weight: .semibold))
+                        .foregroundColor(Color("primaryText"))
+                        .lineLimit(1)
+                    Text(pillSubtitle)
+                        .font(.system(size: 11))
+                        .foregroundColor(Color.neutral)
+                        .lineLimit(1)
+                }
+                .frame(maxWidth: 130, alignment: .leading)
+
+                pillControl
+            }
+            .padding(.horizontal, 10)
+            .padding(.vertical, 6)
+            .background(Color.backgroundOffset)
+            .clipShape(Capsule())
+            // Two distinct hit targets (player.md v14): the body opens Now Playing, while
+            // `pillControl` is a real `Button` with `PlainButtonStyle` so its own tap toggles
+            // playback without also expanding — the same split `MiniPlayerView` uses.
+            .contentShape(Capsule())
+            .onTapGesture { audioPlayer.isExpanded = true }
+        } else if song.audioAvailable {
+            Button(action: playTapped) {
+                HStack(spacing: 6) {
+                    Image(systemName: "play.fill").font(.system(size: 12))
+                    Text("Play").font(.system(size: 13, weight: .semibold))
                 }
                 .foregroundColor(Color.highlight)
-                .padding(.leading, 16)
-                .padding(.top, 12)
+                .padding(.horizontal, 14)
+                .padding(.vertical, 7)
+                .background(Color.backgroundOffset)
+                .clipShape(Capsule())
             }
-            Spacer()
+            .buttonStyle(PlainButtonStyle())
+        }
+    }
+
+    private var pillGlyph: some View {
+        ZStack {
+            RoundedRectangle(cornerRadius: 6)
+                .fill(Color.neutral.opacity(0.2))
+                .frame(width: 24, height: 24)
+            Image(systemName: "music.note")
+                .font(.system(size: 11))
+                .foregroundColor(Color.neutral)
+        }
+    }
+
+    /// The reciter of the loaded take, falling back to the composer (tracks.md "reciter vs
+    /// author"), and to the graceful failure message when the take couldn't load.
+    private var pillSubtitle: String {
+        if case .error = audioPlayer.state { return "Audio unavailable" }
+        if let artist = audioPlayer.currentTrack?.artist { return artist }
+        return audioPlayer.currentSong?.author(inScript: settings.listLanguage) ?? ""
+    }
+
+    @ViewBuilder
+    private var pillControl: some View {
+        switch audioPlayer.state {
+        case .loading:
+            ProgressView()
+                .progressViewStyle(CircularProgressViewStyle(tint: Color.neutral))
+                .frame(width: 22, height: 22)
+        case .error:
+            Image(systemName: "exclamationmark.circle")
+                .font(.system(size: 15))
+                .foregroundColor(Color.neutral)
+                .frame(width: 22, height: 22)
+        case .idle, .playing, .paused:
+            Button(action: audioPlayer.togglePlayPause) {
+                Image(systemName: audioPlayer.isPlaying ? "pause.fill" : "play.fill")
+                    .font(.system(size: 14))
+                    .foregroundColor(Color.highlight)
+                    .frame(width: 22, height: 22)
+            }
+            .buttonStyle(PlainButtonStyle())
         }
     }
 
@@ -133,26 +257,9 @@ struct SongView: View {
                 }
             }
 
-            // Player affordance shown only when the song has audio (song-detail.md). Starts the
-            // song's default recording and raises the Now Playing sheet (docs/screens/player.md).
-            if song.audioAvailable {
-                Button(action: playTapped) {
-                    HStack(spacing: 8) {
-                        Image(systemName: "play.fill")
-                        Text("Play")
-                    }
-                    .font(.system(size: 15, weight: .semibold))
-                    // On the `highlight` fill: `onHighlight`, not `background` (theme.md on-accent
-                    // contrast rule — the two happen to be near-identical values today, but only one
-                    // of them is the correct semantic token).
-                    .foregroundColor(Color("onHighlight"))
-                    .padding(.horizontal, 20)
-                    .padding(.vertical, 10)
-                    .background(Color.highlight)
-                    .clipShape(Capsule())
-                }
-                .padding(.top, 4)
-            }
+            // The header's "Play" capsule is gone as of song-detail.md v7 — the toolbar's
+            // now-playing pill is this screen's one audio affordance (player.md v14: "one control,
+            // two states, so the toolbar never grows a second button").
         }
         .padding(.horizontal)
     }

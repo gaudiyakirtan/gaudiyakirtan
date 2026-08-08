@@ -13,6 +13,7 @@ import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
+import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
@@ -42,6 +43,8 @@ import com.gaudiyakirtan.myapplication.models.translationFor
 import com.gaudiyakirtan.myapplication.models.wordToWordFor
 import com.gaudiyakirtan.myapplication.ui.components.Tag
 import com.gaudiyakirtan.myapplication.ui.components.icons.MusicNote
+import com.gaudiyakirtan.services.PlaybackState
+import com.gaudiyakirtan.services.PlayerUiState
 
 /**
  * Song Detail screen (docs/screens/song-detail.md), `Song Component (app)` mobile layout: a
@@ -56,7 +59,15 @@ fun SongScreen(
     viewModel: SongViewModel,
     onBackClick: () -> Unit,
     onPlayClick: () -> Unit = {},
-    onAuthorClick: (String) -> Unit = {}
+    onAuthorClick: (String) -> Unit = {},
+    /** Live playback state for the toolbar pill (docs/screens/player.md v14 "The reader gets a pill,
+     * not a bar"). Passed in rather than read from a ViewModel here, matching how [onPlayClick]
+     * already keeps this screen ignorant of the player. */
+    playerUiState: PlayerUiState = PlayerUiState(),
+    /** Pill body tap while something is loaded: raise Now Playing. */
+    onPillClick: () -> Unit = {},
+    /** Pill control tap while something is loaded: toggle playback without opening anything. */
+    onPillPlayPause: () -> Unit = {}
 ) {
     val song by viewModel.song.collectAsState()
     val isLoading by viewModel.isLoading.collectAsState()
@@ -80,6 +91,9 @@ fun SongScreen(
                 isCollapsed = isCollapsed,
                 onBackClick = onBackClick,
                 onPlayClick = onPlayClick,
+                playerUiState = playerUiState,
+                onPillClick = onPillClick,
+                onPillPlayPause = onPillPlayPause,
                 onDisplayScriptSelected = viewModel::setDisplayScript,
                 onTransliterationScriptSelected = viewModel::setTransliterationScript,
                 onGlossLanguageSelected = viewModel::setGlossLanguage,
@@ -126,6 +140,9 @@ private fun SongToolbar(
     isCollapsed: Boolean,
     onBackClick: () -> Unit,
     onPlayClick: () -> Unit,
+    playerUiState: PlayerUiState,
+    onPillClick: () -> Unit,
+    onPillPlayPause: () -> Unit,
     onDisplayScriptSelected: (String) -> Unit,
     onTransliterationScriptSelected: (String) -> Unit,
     onGlossLanguageSelected: (String) -> Unit,
@@ -150,18 +167,39 @@ private fun SongToolbar(
             )
         }
 
-        // Player pill -- shown only when the song has audio (docs/screens/song-detail.md).
-        if (song != null && song.audioAvailable) {
-            PlayerPill(
-                title = song.title,
-                author = song.author,
-                onClick = onPlayClick,
+        // Now-playing pill (docs/screens/player.md v14 "The reader gets a pill, not a bar"). It is
+        // bound to the *player*, not to this page: whatever is loaded shows here, even another song.
+        // With nothing loaded it doubles as this song's play affordance, so the toolbar never grows
+        // a second button; with nothing loaded and no audio on this song it is absent entirely and
+        // the toolbar keeps its plain back / "Aa" layout.
+        val nowPlaying = playerUiState.nowPlaying
+        when {
+            nowPlaying != null -> PlayerPill(
+                title = nowPlaying.song.title,
+                // The credit is the take's reciter, not the composer (docs/screens/tracks.md).
+                subtitle = nowPlaying.track.artist ?: nowPlaying.song.author,
+                playing = playerUiState.playbackState == PlaybackState.PLAYING,
+                loading = playerUiState.playbackState == PlaybackState.LOADING,
+                onBodyClick = onPillClick,
+                onControlClick = onPillPlayPause,
                 modifier = Modifier
                     .weight(1f)
                     .padding(horizontal = 4.dp)
             )
-        } else {
-            Spacer(modifier = Modifier.weight(1f))
+
+            song != null && song.audioAvailable -> PlayerPill(
+                title = song.title,
+                subtitle = song.author,
+                playing = false,
+                loading = false,
+                onBodyClick = onPlayClick,
+                onControlClick = onPlayClick,
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = 4.dp)
+            )
+
+            else -> Spacer(modifier = Modifier.weight(1f))
         }
 
         // Display settings ("Aa") -- quick-toggles script / word-to-word / translation / collapse.
@@ -196,21 +234,29 @@ private fun SongToolbar(
     }
 }
 
+/**
+ * The toolbar's now-playing pill (docs/screens/player.md v14). **Two distinct hit targets:** the
+ * capsule body ([onBodyClick]) opens Now Playing, while the trailing control ([onControlClick])
+ * lives in its own [IconButton] so toggling playback does not also raise the sheet.
+ */
 @Composable
 private fun PlayerPill(
     title: String,
-    author: String,
-    onClick: () -> Unit,
+    subtitle: String,
+    playing: Boolean,
+    loading: Boolean,
+    onBodyClick: () -> Unit,
+    onControlClick: () -> Unit,
     modifier: Modifier = Modifier
 ) {
     Surface(
         modifier = modifier.height(44.dp),
         shape = RoundedCornerShape(22.dp),
         color = MaterialTheme.colorScheme.surface,
-        onClick = onClick
+        onClick = onBodyClick
     ) {
         Row(
-            modifier = Modifier.padding(start = 6.dp, end = 6.dp),
+            modifier = Modifier.padding(start = 6.dp, end = 2.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(8.dp)
         ) {
@@ -235,19 +281,31 @@ private fun PlayerPill(
                     overflow = TextOverflow.Ellipsis
                 )
                 Text(
-                    text = author,
+                    text = subtitle,
                     style = MaterialTheme.typography.labelSmall,
                     color = MaterialTheme.colorScheme.neutral,
                     maxLines = 1,
                     overflow = TextOverflow.Ellipsis
                 )
             }
-            Icon(
-                imageVector = Icons.Default.PlayArrow,
-                contentDescription = "Play",
-                tint = MaterialTheme.colorScheme.surfaceVariant,
-                modifier = Modifier.size(24.dp)
-            )
+            if (loading) {
+                CircularProgressIndicator(
+                    modifier = Modifier
+                        .padding(end = 10.dp)
+                        .size(20.dp),
+                    strokeWidth = 2.dp,
+                    color = MaterialTheme.colorScheme.surfaceVariant
+                )
+            } else {
+                IconButton(onClick = onControlClick, modifier = Modifier.size(40.dp)) {
+                    Icon(
+                        imageVector = if (playing) Icons.Default.Pause else Icons.Default.PlayArrow,
+                        contentDescription = if (playing) "Pause" else "Play",
+                        tint = MaterialTheme.colorScheme.surfaceVariant,
+                        modifier = Modifier.size(24.dp)
+                    )
+                }
+            }
         }
     }
 }

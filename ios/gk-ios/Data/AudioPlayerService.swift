@@ -38,6 +38,39 @@ final class AudioPlayerService: ObservableObject {
     /// in the tree can raise/lower the player by toggling this on the shared instance.
     @Published var isExpanded = false
 
+    /// Hides the mini-player bar without touching playback (player.md **v14** "The reader gets a
+    /// pill, not a bar" + song-detail.md v7).
+    ///
+    /// The bar is mounted on the root `TabView` via `.safeAreaInset(edge: .bottom)`, so a pushed
+    /// screen cannot remove a *parent's* inset — it publishes the intent here instead and
+    /// `AppNavigation` gates the inset on it (player.md "Per-platform notes — iOS": "song-detail
+    /// suppresses it through a published flag on the player service (set on appear, cleared on
+    /// disappear) rather than by trying to remove a parent's inset"). Suppression is a property of
+    /// the *screen*, never of playback: `close()` deliberately leaves it alone, and leaving
+    /// song-detail by any route restores the bar with playback untouched.
+    ///
+    /// It records **which tab** is suppressing, not merely *that* something is, so the gate can be a
+    /// comparison against the selected tab rather than a flag someone has to remember to clear.
+    /// A bare `Bool` needed clearing on every tab change — including the change *back* to the tab
+    /// whose stack still has song-detail on top, which raced `SongView.onAppear` and could leave the
+    /// full-width bar drawn over the verses (`TabView` does not re-fire `onAppear` consistently).
+    /// Comparing instead means switching away un-suppresses and switching back re-suppresses with no
+    /// write at all, so there is no ordering to get wrong.
+    @Published var miniPlayerSuppressedByTab: String?
+
+    /// Shuffle over the song's takes (player.md v14 "Shuffle and repeat operate over the song's
+    /// takes, the only queue mobile has"). See `playOrder`.
+    @Published private(set) var shuffle = false
+
+    /// `off` / `all` / `one` (player.md v14 repeat table). Applied at end-of-take by
+    /// `TakeQueue.resolveTakeEndAction`.
+    @Published private(set) var repeatMode: RepeatMode = .off
+
+    /// Fixes the shuffled permutation for the session, so `playOrder` is stable across recomputes
+    /// (a listener must not get a different "next" every time the view redraws). Re-rolled each
+    /// time shuffle is turned on, so toggling it off and on again reshuffles.
+    private var shuffleSeed: UInt64 = 0
+
     // MARK: - Derived
 
     var isPlaying: Bool { state == .playing }
@@ -49,6 +82,18 @@ final class AudioPlayerService: ObservableObject {
     /// The current song's recordings, for the take/artist picker (player.md "Data bindings" —
     /// "support a list for the future"; "allow choosing take/artist if multiple").
     var availableTracks: [AudioTrack] { currentSong?.audioFiles ?? [] }
+
+    /// The uids of the current song's takes in the order they play — listed order, or the
+    /// deterministic shuffled permutation when `shuffle` is on (player.md v14). Derived rather than
+    /// stored so it can never drift out of sync with the loaded song; it is at most ~9 elements, so
+    /// recomputing it is free.
+    var playOrder: [String] {
+        TakeQueue.playOrder(
+            takeUids: availableTracks.map { $0.uid },
+            shuffle: shuffle,
+            seed: shuffleSeed
+        )
+    }
 
     // MARK: - AVPlayer internals
 
@@ -140,7 +185,60 @@ final class AudioPlayerService: ObservableObject {
         }
     }
 
+    /// End of take — the decision itself lives in the pure `TakeQueue.resolveTakeEndAction`
+    /// (player.md v14: "Keep this decision in a pure, unit-tested function with no
+    /// `AVPlayer`/`MediaPlayer` in sight"). This method only *performs* the returned action.
     private func handlePlaybackEnded() {
+        let action = TakeQueue.resolveTakeEndAction(
+            repeatMode: repeatMode,
+            shuffle: shuffle,
+            order: playOrder,
+            currentTrackUid: currentTrack?.uid ?? ""
+        )
+        switch action {
+        case .replay:
+            replayCurrentTake()
+        case .play(let trackUid):
+            // `resolveTakeEndAction` already collapses the wrap-onto-self case to `.replay`, so
+            // this should be unreachable. Kept as a guard rather than deleted because the failure
+            // it prevents is silent: reloading the take that is already open takes
+            // `play(song:track:)`'s fast path and `resume()`s a player parked at the end, which
+            // plays nothing at all.
+            guard trackUid != currentTrack?.uid else {
+                replayCurrentTake()
+                return
+            }
+            guard let song = currentSong,
+                  let track = song.audioFiles.first(where: { $0.uid == trackUid })
+            else {
+                stopAtEndOfTake()
+                return
+            }
+            load(song: song, track: track)
+        case .stop:
+            stopAtEndOfTake()
+        }
+    }
+
+    /// Rewinds the loaded take and keeps playing (repeat-one, and the wrap-onto-self case).
+    ///
+    /// Resumes from the seek's completion handler rather than immediately after: repeat-one fires
+    /// at the end of *every* take, unattended and indefinitely, so a `resume()` racing an
+    /// in-flight seek would eventually leave a silent player parked at the end.
+    private func replayCurrentTake() {
+        currentTime = 0
+        guard let player else {
+            resume()
+            return
+        }
+        player.seek(to: .zero) { [weak self] _ in
+            self?.resume()
+        }
+    }
+
+    /// Rewinds to the start and parks in `paused` — the pre-v14 behavior, now only the `.stop`
+    /// branch, so the take stays loaded and re-playable.
+    private func stopAtEndOfTake() {
         player?.seek(to: .zero)
         currentTime = 0
         state = .paused
@@ -184,21 +282,58 @@ final class AudioPlayerService: ObservableObject {
         play(song: song, track: track)
     }
 
-    /// Steps to the previous recording of the same song. Dormant (no-op) unless the song has more
-    /// than one take — callers should also disable the affordance in that case.
-    func previousTrack() { step(by: -1) }
+    /// Past this many seconds into a take, "previous" restarts it instead of stepping back
+    /// (player.md v14 — "previous restarts the current take when more than ~3 s in, matching the
+    /// universal convention").
+    private static let restartThreshold: TimeInterval = 3
 
-    /// Steps to the next recording of the same song. Dormant (no-op) unless the song has more than
-    /// one take.
+    /// Restarts the current take when more than ~3 s in; otherwise steps to the previous recording
+    /// in the current play order. Unlike `nextTrack()` this is meaningful on single-take songs, so
+    /// the UI keeps it enabled.
+    func previousTrack() {
+        if duration > 0, currentTime > Self.restartThreshold {
+            seek(to: 0)
+            return
+        }
+        step(by: -1)
+    }
+
+    /// Steps to the next recording of the same song, in the current play order (shuffled when
+    /// `shuffle` is on). Wraps. Dormant (no-op) unless the song has more than one take.
     func nextTrack() { step(by: 1) }
 
+    /// Manual transport always wraps — reaching the last take and pressing "next" returns to the
+    /// first, independently of `repeatMode`, which only governs what happens *unattended* at the
+    /// end of a take.
     private func step(by delta: Int) {
-        guard let song = currentSong, let current = currentTrack,
-              song.audioFiles.count > 1,
-              let index = song.audioFiles.firstIndex(where: { $0.uid == current.uid })
-        else { return }
-        let newIndex = (index + delta + song.audioFiles.count) % song.audioFiles.count
-        selectTrack(song.audioFiles[newIndex])
+        guard let song = currentSong, let current = currentTrack, song.audioFiles.count > 1 else {
+            return
+        }
+        guard let uid = TakeQueue.neighbor(
+            order: playOrder,
+            currentTrackUid: current.uid,
+            delta: delta,
+            wrap: true
+        ), let track = song.audioFiles.first(where: { $0.uid == uid }) else { return }
+        selectTrack(track)
+    }
+
+    // MARK: - Shuffle & repeat (player.md v14)
+
+    /// Flips shuffle, re-rolling the permutation each time it is switched on. Turning it off
+    /// restores the listed order from wherever playback currently is, since `playOrder` is derived.
+    func toggleShuffle() {
+        shuffle.toggle()
+        if shuffle { shuffleSeed = UInt64.random(in: UInt64.min...UInt64.max) }
+    }
+
+    /// Cycles `off → all → one → off` (player.md v14 repeat table).
+    func cycleRepeatMode() {
+        switch repeatMode {
+        case .off: repeatMode = .all
+        case .all: repeatMode = .one
+        case .one: repeatMode = .off
+        }
     }
 
     /// Fully dismisses the player — stops playback and clears the mini-player. Distinct from
