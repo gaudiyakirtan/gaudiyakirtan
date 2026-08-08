@@ -116,12 +116,12 @@ struct PlayerView: View {
 
     private func titleBlock(song: Song) -> some View {
         VStack(spacing: 6) {
-            Text(song.title(inScript: settings.scriptCode))
+            Text(song.title(inScript: settings.listLanguage))
                 .font(.system(size: 22, weight: .bold))
                 .foregroundColor(Color("primaryText"))
                 .multilineTextAlignment(.center)
 
-            Text(song.author(inScript: settings.scriptCode))
+            Text(song.author(inScript: settings.listLanguage))
                 .font(.system(size: 15))
                 .foregroundColor(Color.neutral)
                 .multilineTextAlignment(.center)

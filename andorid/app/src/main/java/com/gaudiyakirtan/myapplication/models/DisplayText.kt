@@ -1,5 +1,7 @@
 package com.gaudiyakirtan.myapplication.models
 
+import com.gaudiyakirtan.myapplication.utils.StringUtils
+
 /**
  * UI-facing display helpers layered on top of the spec-conformant models.
  *
@@ -21,6 +23,19 @@ package com.gaudiyakirtan.myapplication.models
 fun List<ScriptText>.preferredText(preferredScriptCode: String = "Latn"): String {
     if (isEmpty()) return ""
     return firstOrNull { it.scriptCode == preferredScriptCode }?.text ?: first().text
+}
+
+/**
+ * Same as [preferredText] but tries several scripts in order -- the Settings screen's Display-language
+ * example needs "the chosen list script, else Roman, else Bengali" (docs/screens/settings.md v5,
+ * mirroring web's `pickScriptText(entries, preferred)`).
+ */
+fun List<ScriptText>.preferredText(preferredScriptCodes: List<String>): String {
+    if (isEmpty()) return ""
+    for (code in preferredScriptCodes) {
+        firstOrNull { it.scriptCode == code }?.let { return it.text }
+    }
+    return first().text
 }
 
 /** Display title for a [Song] (prefers the romanized [Song.titleMain] entry). */
@@ -100,6 +115,34 @@ fun Verse.linesForScript(scriptCode: String, standard: String? = null): List<Str
     if (exact != null) return exact.text
     val iast = displayScripts.firstOrNull { it.scriptCode == "Latn" && it.standard == "IAST" }
     return iast?.text ?: sourceTextMaster
+}
+
+/**
+ * The verse's lines in an arbitrary chosen script, or **null when that script is genuinely absent**
+ * (docs/screens/settings.md v5: "A missing script is a visible state, not a silent fallback" -- the
+ * surface says so rather than quietly showing IAST instead). This is the Android half of the shared
+ * resolver contract (web `resolveScriptLines`, iOS `VerseTextResolver.scriptLines`), and both the
+ * song-detail reader and the Settings live preview go through it so the preview cannot lie.
+ *
+ * @param scriptCode the reader's chosen script; must already be resolved through
+ *   [ScriptOptions.effectiveDisplayScript] (this function does not know the song's origin language).
+ * @param romanStandard used only when [scriptCode] is `Latn`. `ISO15919` ships no `display_scripts`
+ *   entry anywhere in the corpus and is rendered from [Verse.sourceTextMaster] with its `[FLAG_*]`
+ *   markers resolved; the other standards fall back within Latin (requested → IAST → any Latin),
+ *   since they are the same script, only a different romanization convention.
+ */
+fun Verse.scriptLinesOrNull(scriptCode: String, romanStandard: String): List<String>? {
+    if (scriptCode != ScriptOptions.LATIN) {
+        return displayScripts.firstOrNull { it.scriptCode == scriptCode }?.text
+    }
+    if (romanStandard == "ISO15919") {
+        return sourceTextMaster.takeIf { it.isNotEmpty() }?.map(StringUtils::resolveMasterTextFlags)
+    }
+    val latin = displayScripts.filter { it.scriptCode == ScriptOptions.LATIN }
+    val match = latin.firstOrNull { it.standard == romanStandard }
+        ?: latin.firstOrNull { it.standard == "IAST" }
+        ?: latin.firstOrNull()
+    return match?.text
 }
 
 /** The word-to-word glossary for the given gloss language, or null if this verse has none. */

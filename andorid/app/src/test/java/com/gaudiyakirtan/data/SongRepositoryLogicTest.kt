@@ -58,17 +58,19 @@ class SongRepositoryLogicTest {
     }
 
     @Test
-    fun `songsInGroup resolves the Sri Guru book to its G-prefixed songs in shipped order`() {
-        // docs/data/collections.md: "verified against the songs' uid prefixes (e.g. the Sri Guru
-        // book = G-prefixed songs)"; this book is `ordered = true`, so song_uids order is
-        // authoritative per the spec invariant.
-        val sriGuru = groups.first { it.uid == "book-sri-guru" }
-        val resolved = SongRepositoryLogic.songsInGroup(sriGuru, manifest)
+    fun `songsInGroup resolves the Sri Namastaka book to its NM-prefixed songs in shipped order`() {
+        // docs/data/collections.md: "verified against the songs' uid prefixes"; this book is
+        // `ordered = true`, so song_uids order is authoritative per the spec invariant.
+        val namastaka = groups.first { it.uid == "book-srinamastaka" }
+        val resolved = SongRepositoryLogic.songsInGroup(namastaka, manifest)
 
-        assertEquals(sriGuru.songUids.size, resolved.size)
+        assertEquals(namastaka.songUids.size, resolved.size)
         assertTrue(resolved.isNotEmpty())
-        assertTrue("every Sri Guru book song should have a G-prefixed uid", resolved.all { it.uid.startsWith("G") })
-        assertEquals(sriGuru.songUids, resolved.map { it.uid })
+        assertTrue(
+            "every Sri Namastaka book song should have an NM-prefixed uid",
+            resolved.all { it.uid.startsWith("NM") }
+        )
+        assertEquals(namastaka.songUids, resolved.map { it.uid })
     }
 
     @Test

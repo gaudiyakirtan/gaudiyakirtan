@@ -23,7 +23,7 @@ struct MiniPlayerView: View {
                 }
 
                 VStack(alignment: .leading, spacing: 2) {
-                    Text(song.title(inScript: settings.scriptCode))
+                    Text(song.title(inScript: settings.listLanguage))
                         .font(.system(size: 14, weight: .semibold))
                         .foregroundColor(Color("primaryText"))
                         .lineLimit(1)
@@ -52,7 +52,7 @@ struct MiniPlayerView: View {
     private var subtitle: String {
         if case .error = player.state { return "Audio unavailable" }
         if let artist = player.currentTrack?.artist { return artist }
-        return player.currentSong?.author(inScript: settings.scriptCode) ?? ""
+        return player.currentSong?.author(inScript: settings.listLanguage) ?? ""
     }
 
     /// Play/pause (`trailingIcon2_`), or a spinner while loading. A separate real `Button` (rather

@@ -14,24 +14,23 @@ object DisplayNames {
 
     data class Option(val code: String, val label: String)
 
-    /** Display scripts present in the corpus, in the order the pickers list them. "Latn" == Roman. */
-    val scriptOptions: List<Option> = listOf(
-        Option("Beng", "Bengali"),
-        Option("Deva", "Devanagari"),
-        Option("Latn", "Roman"),
-        Option("Telu", "Telugu"),
-        Option("Knda", "Kannada"),
-        Option("Taml", "Tamil"),
-        Option("Mlym", "Malayalam"),
-        Option("Gujr", "Gujarati"),
-        Option("Orya", "Odia"),
-        Option("Cyrl", "Cyrillic")
-    )
+    /**
+     * Display scripts present in the corpus, in the order the pickers list them, labelled with the
+     * strings docs/screens/settings.md v5 shares across all three platforms (so "Latn" reads
+     * "English (Roman / Latin)", not "Roman"). Order and labels come from [ScriptOptions] -- the one
+     * place the picker contract lives -- so this list can never drift from the resolvers.
+     */
+    val scriptOptions: List<Option> =
+        ScriptOptions.transliterationScriptOptions.map { Option(it, ScriptOptions.optionLabel(it)) }
 
-    /** Native (non-Roman) scripts -- used by the song-detail "Aa" quick-picker's primary-script list. */
-    val nativeScriptOptions: List<Option> = scriptOptions.filter { it.code != "Latn" }
+    /** The same list with "Default (source language)" (`auto`) first, for the Display-script picker. */
+    val displayScriptOptions: List<Option> =
+        ScriptOptions.displayScriptOptions.map { Option(it, ScriptOptions.optionLabel(it)) }
 
-    /** Roman transliteration schemes (relevant when displayScript == Latn). */
+    /** Native (non-Roman) scripts -- kept for surfaces that offer only the native renderings. */
+    val nativeScriptOptions: List<Option> = scriptOptions.filter { it.code != ScriptOptions.LATIN }
+
+    /** Roman transliteration schemes (relevant when either script picker is set to Latn). */
     val romanStandardOptions: List<Option> = listOf(
         Option("IAST", "IAST"),
         Option("ISO15919", "ISO 15919"),
@@ -59,7 +58,7 @@ object DisplayNames {
     val translationLanguageOptions: List<Option>
         get() = languageOptions.filter { it.code in translationLanguageCodes }
 
-    fun scriptLabel(code: String): String = scriptOptions.firstOrNull { it.code == code }?.label ?: code
+    fun scriptLabel(code: String): String = ScriptOptions.optionLabel(code)
     fun romanStandardLabel(code: String): String = romanStandardOptions.firstOrNull { it.code == code }?.label ?: code
     fun languageLabel(code: String): String = languageOptions.firstOrNull { it.code == code }?.label ?: code
 }

@@ -56,7 +56,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | pwa (v1) — offline/install | ✅ | n/a | n/a |
 | seo (v1) — metadata/sitemap | ✅ | n/a | n/a |
 | observability (v1) — analytics/Sentry | ✅ | n/a | n/a |
-| settings | ✅ | ✅* | ✅ |
+| settings (v5) | ✅ v4 ⏳ | ⚠️ v5 uncompiled | ✅ v5 green |
 | theme (Gaura/Shyam) | ✅ | ✅* | ✅ |
 | home (v3 — re-purposed) | ✅ | — | — |
 | today (v1) — embedded as home §1 | ✅ | — | — |
@@ -65,7 +65,8 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | components (v4) | ✅ v4 green | — | — |
 | collections / books / topics | ✅ | ✅* | ✅ |
 | artist/book images | ✅ | ✅* | ✅ |
-| unit tests | ✅ | ✅* | ✅ |
+| unit tests | ✅ | ✅* | ✅ 28 green |
+| screenshot tests | ✅ Playwright | — | ✅ Roborazzi (JVM, no device) |
 | resources | 🔨 | — | — |
 | player / now-playing | ✅ v13 green | ✅* ʷ | ✅ ʷ |
 
@@ -74,6 +75,22 @@ Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **w
 web surface (navigation v5 / player v13: the web z-index scale and the drawer-over-mini-player
 model), so iOS/Android are not stale against it; they stay conformant at the version before it ·
 `🔨` in progress · `—` not applicable / not on that platform.
+
+### Settings v5 — open items
+
+- **iOS is `⚠️ uncompiled`, not `✅*`.** The v5 slice was written on Linux, where there is no Swift
+  toolchain at all, so unlike the earlier `✅*` rows it has had **no** `swiftc -typecheck` and no test
+  run — only a line-by-line review. It must be built and its `SettingsResolverTests` run on a Mac
+  before this row moves.
+- **The iOS deployment target looks stale at 15.6.** `SongView.swift`'s `.toolbar(.hidden, for:
+  .tabBar)` needs iOS 16, and the generated asset-catalog colour symbols (`Color.highlight` etc.,
+  which every view uses and which have no hand-written `extension Color` behind them) need iOS 17.
+  Both predate this slice. Either the target is raised to 17 or the project cannot be building; worth
+  settling next time someone has Xcode in front of them.
+- **Web is behind at v4 and diverges on ISO 15919.** `stripMasterFlags` deletes `[FLAG_HYPHEN_ALPHA]`
+  outright, so web renders `nityānandarāya`; iOS and Android resolve it to a hyphen, giving
+  `nityānanda-rāya`, which matches the IAST the corpus ships. Mobile is right here and web is the
+  outlier. Web also has not adopted the shared `ScriptOptions` naming.
 
 **Web overhaul (build + screenshot/CDP verified):** top bar removed; search is a **centered
 command-palette modal** on desktop and a **full-screen search page** on mobile — one component,

@@ -32,6 +32,8 @@ class SettingsRepository private constructor(context: Context) {
         val defaults = AppSettings()
         return AppSettings(
             displayScript = prefs.getString(KEY_DISPLAY_SCRIPT, defaults.displayScript)!!,
+            transliterationScript =
+                prefs.getString(KEY_TRANSLITERATION_SCRIPT, defaults.transliterationScript)!!,
             romanStandard = prefs.getString(KEY_ROMAN_STANDARD, defaults.romanStandard)!!,
             showWordToWord = prefs.getBoolean(KEY_SHOW_W2W, defaults.showWordToWord),
             wordToWordLanguage = prefs.getString(KEY_W2W_LANG, defaults.wordToWordLanguage)!!,
@@ -49,6 +51,13 @@ class SettingsRepository private constructor(context: Context) {
 
     fun setDisplayScript(scriptCode: String) =
         update({ putString(KEY_DISPLAY_SCRIPT, scriptCode) }) { it.copy(displayScript = scriptCode) }
+
+    /** The verse's reading line (docs/screens/settings.md v5 `transliterationScript`) -- any script,
+     * not just Latin, which is why it is persisted separately from [setDisplayScript]. */
+    fun setTransliterationScript(scriptCode: String) =
+        update({ putString(KEY_TRANSLITERATION_SCRIPT, scriptCode) }) {
+            it.copy(transliterationScript = scriptCode)
+        }
 
     fun setRomanStandard(standard: String) =
         update({ putString(KEY_ROMAN_STANDARD, standard) }) { it.copy(romanStandard = standard) }
@@ -73,7 +82,10 @@ class SettingsRepository private constructor(context: Context) {
 
     companion object {
         private const val PREFS_NAME = "gaudiya_kirtan_settings"
+        // Unchanged key: an install that already stored a concrete `display_script` keeps it, so only
+        // a fresh install picks up the v5 `auto` default.
         private const val KEY_DISPLAY_SCRIPT = "display_script"
+        private const val KEY_TRANSLITERATION_SCRIPT = "transliteration_script"
         private const val KEY_ROMAN_STANDARD = "roman_standard"
         private const val KEY_SHOW_W2W = "show_word_to_word"
         private const val KEY_W2W_LANG = "word_to_word_language"

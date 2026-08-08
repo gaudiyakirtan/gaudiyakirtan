@@ -32,10 +32,11 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.text.withStyle
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.gaudiyakirtan.myapplication.models.ScriptOptions
 import com.gaudiyakirtan.myapplication.models.Song
 import com.gaudiyakirtan.myapplication.models.Verse
 import com.gaudiyakirtan.myapplication.models.author
-import com.gaudiyakirtan.myapplication.models.linesForScript
+import com.gaudiyakirtan.myapplication.models.scriptLinesOrNull
 import com.gaudiyakirtan.myapplication.models.title
 import com.gaudiyakirtan.myapplication.models.translationFor
 import com.gaudiyakirtan.myapplication.models.wordToWordFor
@@ -46,7 +47,7 @@ import com.gaudiyakirtan.myapplication.ui.components.icons.MusicNote
  * Song Detail screen (docs/screens/song-detail.md), `Song Component (app)` mobile layout: a
  * single-column, scrollable reader with a top toolbar (back · player pill iff audio · display
  * settings), a centered title/author header, and a vertical list of verse blocks. Each verse stacks
- * the reader's chosen native script, the IAST romanization, an optional word-to-word glossary, and
+ * the reader's chosen source script, their chosen transliteration, an optional word-to-word glossary, and
  * an optional full translation -- all driven by [SongViewModel] state, so a script switch or a
  * toggle re-renders every verse. Loads the full song offline from bundled assets by uid.
  */
@@ -72,13 +73,15 @@ fun SongScreen(
             SongToolbar(
                 song = current,
                 settings = settings,
-                availableScripts = viewModel.availableScripts,
+                availableDisplayScripts = viewModel.availableDisplayScripts,
+                availableTransliterationScripts = viewModel.availableTransliterationScripts,
                 availableGlossLanguages = viewModel.availableGlossLanguages,
                 hasTranslations = viewModel.hasTranslations,
                 isCollapsed = isCollapsed,
                 onBackClick = onBackClick,
                 onPlayClick = onPlayClick,
-                onScriptSelected = viewModel::setPrimaryScript,
+                onDisplayScriptSelected = viewModel::setDisplayScript,
+                onTransliterationScriptSelected = viewModel::setTransliterationScript,
                 onGlossLanguageSelected = viewModel::setGlossLanguage,
                 onToggleWordToWord = viewModel::toggleWordToWord,
                 onToggleTranslation = viewModel::toggleTranslation,
@@ -116,13 +119,15 @@ fun SongScreen(
 private fun SongToolbar(
     song: Song?,
     settings: VerseDisplaySettings,
-    availableScripts: List<NamedOption>,
+    availableDisplayScripts: List<NamedOption>,
+    availableTransliterationScripts: List<NamedOption>,
     availableGlossLanguages: List<NamedOption>,
     hasTranslations: Boolean,
     isCollapsed: Boolean,
     onBackClick: () -> Unit,
     onPlayClick: () -> Unit,
-    onScriptSelected: (String) -> Unit,
+    onDisplayScriptSelected: (String) -> Unit,
+    onTransliterationScriptSelected: (String) -> Unit,
     onGlossLanguageSelected: (String) -> Unit,
     onToggleWordToWord: () -> Unit,
     onToggleTranslation: () -> Unit,
@@ -175,11 +180,13 @@ private fun SongToolbar(
                 expanded = menuOpen,
                 onDismiss = { menuOpen = false },
                 settings = settings,
-                availableScripts = availableScripts,
+                availableDisplayScripts = availableDisplayScripts,
+                availableTransliterationScripts = availableTransliterationScripts,
                 availableGlossLanguages = availableGlossLanguages,
                 hasTranslations = hasTranslations,
                 isCollapsed = isCollapsed,
-                onScriptSelected = onScriptSelected,
+                onDisplayScriptSelected = onDisplayScriptSelected,
+                onTransliterationScriptSelected = onTransliterationScriptSelected,
                 onGlossLanguageSelected = onGlossLanguageSelected,
                 onToggleWordToWord = onToggleWordToWord,
                 onToggleTranslation = onToggleTranslation,
@@ -250,29 +257,37 @@ private fun DisplaySettingsMenu(
     expanded: Boolean,
     onDismiss: () -> Unit,
     settings: VerseDisplaySettings,
-    availableScripts: List<NamedOption>,
+    availableDisplayScripts: List<NamedOption>,
+    availableTransliterationScripts: List<NamedOption>,
     availableGlossLanguages: List<NamedOption>,
     hasTranslations: Boolean,
     isCollapsed: Boolean,
-    onScriptSelected: (String) -> Unit,
+    onDisplayScriptSelected: (String) -> Unit,
+    onTransliterationScriptSelected: (String) -> Unit,
     onGlossLanguageSelected: (String) -> Unit,
     onToggleWordToWord: () -> Unit,
     onToggleTranslation: () -> Unit,
     onToggleCollapsed: () -> Unit
 ) {
     DropdownMenu(expanded = expanded, onDismissRequest = onDismiss) {
-        MenuSectionLabel("Script")
-        availableScripts.forEach { option ->
-            DropdownMenuItem(
-                text = { Text(option.label) },
-                onClick = { onScriptSelected(option.code) },
-                leadingIcon = {
-                    RadioButton(
-                        selected = option.code == settings.primaryScriptCode,
-                        onClick = { onScriptSelected(option.code) },
-                        colors = accentRadioButtonColors()
-                    )
-                }
+        // The quick-picker offers the same two script choices as Settings (docs/screens/settings.md
+        // v5), writing to the same persisted keys, so the two surfaces never disagree.
+        MenuSectionLabel("Display script")
+        availableDisplayScripts.forEach { option ->
+            ScriptMenuItem(
+                option = option,
+                selectedCode = settings.displayScriptCode,
+                onSelect = onDisplayScriptSelected
+            )
+        }
+
+        HorizontalDivider()
+        MenuSectionLabel("Transliteration")
+        availableTransliterationScripts.forEach { option ->
+            ScriptMenuItem(
+                option = option,
+                selectedCode = settings.transliterationScriptCode,
+                onSelect = onTransliterationScriptSelected
             )
         }
 
@@ -343,6 +358,26 @@ private fun DisplaySettingsMenu(
     }
 }
 
+/** One radio row of the "Aa" menu's script lists (both pickers share the same grammar). */
+@Composable
+private fun ScriptMenuItem(
+    option: NamedOption,
+    selectedCode: String,
+    onSelect: (String) -> Unit
+) {
+    DropdownMenuItem(
+        text = { Text(option.label) },
+        onClick = { onSelect(option.code) },
+        leadingIcon = {
+            RadioButton(
+                selected = option.code == selectedCode,
+                onClick = { onSelect(option.code) },
+                colors = accentRadioButtonColors()
+            )
+        }
+    )
+}
+
 @Composable
 private fun MenuSectionLabel(text: String) {
     Text(
@@ -404,6 +439,7 @@ private fun SongBody(
         itemsIndexed(song.verses) { index, verse ->
             VerseBlock(
                 verse = verse,
+                languageOfOrigin = song.languageOfOrigin,
                 settings = settings,
                 collapsed = isCollapsed && index !in expandedVerses,
                 onClick = if (isCollapsed) {
@@ -416,21 +452,33 @@ private fun SongBody(
     }
 }
 
+/**
+ * One verse: the muted **source** line in the reader's `displayScript` (resolved through `auto`
+ * against the song's `language_of_origin`), the accented **reading** line in their
+ * `transliterationScript`, then the optional glossary and translation
+ * (docs/screens/settings.md v5 + docs/screens/song-detail.md).
+ *
+ * Two spec rules shape the top: the lines **dedupe** to one when both resolve to the same rendering
+ * (same [ScriptOptions.renderKey]), and an **absent script is omitted**, never silently swapped for
+ * IAST -- [Verse.scriptLinesOrNull] returns null and the line simply does not render.
+ */
 @Composable
 private fun VerseBlock(
     verse: Verse,
+    languageOfOrigin: String,
     settings: VerseDisplaySettings,
     collapsed: Boolean,
     onClick: (() -> Unit)?
 ) {
-    // When the chosen script IS Latin, the "native" line is already roman -- render just the one
-    // roman line (in the chosen standard) instead of showing the same romanization twice.
-    val primaryIsLatin = settings.primaryScriptCode == "Latn"
-    val nativeLines = verse.linesForScript(
-        settings.primaryScriptCode,
-        if (primaryIsLatin) settings.romanizationStandard else null
-    )
-    val romanLines = verse.linesForScript("Latn", settings.romanizationStandard)
+    val standard = settings.romanizationStandard
+    val sourceScript = ScriptOptions.effectiveDisplayScript(settings.displayScriptCode, languageOfOrigin)
+    val isDuplicate = ScriptOptions.renderKey(sourceScript, standard) ==
+        ScriptOptions.renderKey(settings.transliterationScriptCode, standard)
+
+    // When the two coincide only the accented reading line is drawn, so the same rendering never
+    // appears twice.
+    val sourceLines = if (isDuplicate) null else verse.scriptLinesOrNull(sourceScript, standard)
+    val readingLines = verse.scriptLinesOrNull(settings.transliterationScriptCode, standard)
 
     Column(
         modifier = Modifier
@@ -440,22 +488,27 @@ private fun VerseBlock(
         verticalArrangement = Arrangement.spacedBy(12.dp),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        // 1. Native (chosen) script -- collapsed shows only the first line as a preview.
-        //    Latin-chosen uses the accent color (it doubles as the romanization); others use neutral.
-        val nativeToShow = if (collapsed) nativeLines.take(1) else nativeLines
-        VerseLines(
-            lines = nativeToShow,
-            color = if (primaryIsLatin) MaterialTheme.colorScheme.surfaceVariant
-            else MaterialTheme.colorScheme.neutral
-        )
+        if (collapsed) {
+            // Collapsed (hidden-song state): just the first line of the topmost rendered script.
+            val preview = sourceLines ?: readingLines
+            VerseLines(
+                lines = preview.orEmpty().take(1),
+                color = if (sourceLines != null) MaterialTheme.colorScheme.neutral
+                else MaterialTheme.colorScheme.surfaceVariant,
+                fontWeight = if (sourceLines != null) FontWeight.Normal else FontWeight.Medium
+            )
+        } else {
+            // 1. Source line, muted -- omitted when the chosen script is absent or deduped away.
+            sourceLines?.let {
+                VerseLines(lines = it, color = MaterialTheme.colorScheme.neutral)
+            }
 
-        if (!collapsed) {
-            // 2. IAST romanization (pronunciation guide) -- shown only when the chosen script is a
-            //    non-Latin native script, so Latin readers don't see the romanization twice.
-            if (!primaryIsLatin) {
+            // 2. Reading line (the transliteration), accented.
+            readingLines?.let {
                 VerseLines(
-                    lines = romanLines,
-                    color = MaterialTheme.colorScheme.surfaceVariant
+                    lines = it,
+                    color = MaterialTheme.colorScheme.surfaceVariant,
+                    fontWeight = FontWeight.Medium
                 )
             }
 
@@ -495,8 +548,15 @@ private fun VerseBlock(
     }
 }
 
+/** The verse's type ramp for one script line -- `internal` because the Settings live preview renders
+ * through the very same composable, so the preview cannot drift from the reader
+ * (docs/screens/settings.md v5). */
 @Composable
-private fun VerseLines(lines: List<String>, color: androidx.compose.ui.graphics.Color) {
+internal fun VerseLines(
+    lines: List<String>,
+    color: androidx.compose.ui.graphics.Color,
+    fontWeight: FontWeight = FontWeight.Normal
+) {
     if (lines.isEmpty()) return
     Column(
         modifier = Modifier.fillMaxWidth(),
@@ -506,6 +566,7 @@ private fun VerseLines(lines: List<String>, color: androidx.compose.ui.graphics.
             Text(
                 text = line,
                 fontSize = 15.sp,
+                fontWeight = fontWeight,
                 color = color,
                 textAlign = TextAlign.Center,
                 modifier = Modifier.fillMaxWidth()
@@ -518,10 +579,10 @@ private fun VerseLines(lines: List<String>, color: androidx.compose.ui.graphics.
  * Flowing "headword — gloss;" text, with the (transliterated) headword emphasized in the accent
  * color, matching the `Song Component (app)` frames. Note: the canonical data does not encode which
  * source line each word pair belongs to, so the per-line superscript markers seen in Figma are not
- * reproduced here (see slice-2a report).
+ * reproduced here (see slice-2a report). `internal` so the Settings preview renders it identically.
  */
 @Composable
-private fun buildWordToWordText(
+internal fun buildWordToWordText(
     words: List<List<String>>,
     headwordColor: androidx.compose.ui.graphics.Color
 ) = buildAnnotatedString {
