@@ -92,7 +92,12 @@ enum ImageConfig {
     /// Gauḍīya transliteration search, which would turn `"Viṣṇu"` into `"bisnu"` and miss the file.
     static func monthSlug(forGaudiyaMonth gaudiyaMonth: String) -> String {
         let folded = gaudiyaMonth.folding(options: .diacriticInsensitive, locale: nil).lowercased()
-        return String(folded.filter { slugAllowedCharacters.contains($0) })
+        var slug = ""
+        slug.reserveCapacity(folded.count)
+        for character in folded where slugAllowedCharacters.contains(character) {
+            slug.append(character)
+        }
+        return slug
     }
 
     private static let slugAllowedCharacters: Set<Character> = Set("abcdefghijklmnopqrstuvwxyz0123456789")

@@ -24,10 +24,11 @@ enum CalendarRepositoryLogic {
         var gregorian = Foundation.Calendar(identifier: .gregorian)
         gregorian.timeZone = TimeZone.current
         let parts = gregorian.dateComponents([.year, .month, .day], from: date)
-        let year = zeroPadded(parts.year ?? 0, width: 4)
-        let month = zeroPadded(parts.month ?? 0, width: 2)
-        let day = zeroPadded(parts.day ?? 0, width: 2)
-        return year + "-" + month + "-" + day
+        // Named `…Part` so they don't shadow `month(in:named:)` below.
+        let yearPart = zeroPadded(parts.year ?? 0, width: 4)
+        let monthPart = zeroPadded(parts.month ?? 0, width: 2)
+        let dayPart = zeroPadded(parts.day ?? 0, width: 2)
+        return yearPart + "-" + monthPart + "-" + dayPart
     }
 
     private static func zeroPadded(_ value: Int, width: Int) -> String {
