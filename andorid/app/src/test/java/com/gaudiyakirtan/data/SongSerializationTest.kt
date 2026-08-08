@@ -55,11 +55,15 @@ class SongSerializationTest {
     }
 
     @Test
-    fun `decodes the manifest's 703 ManifestEntry rows with snake_case fields`() {
+    fun `decodes every manifest row with snake_case fields`() {
         val text = File(assetsDir, "manifest.json").readText()
         val manifest = SongJson.instance.decodeFromString<List<ManifestEntry>>(text)
 
-        assertEquals(703, manifest.size)
+        // The row count is derived from the shipped song files, never hand-written: a literal here
+        // goes stale on the next pipeline resync (see CLAUDE.md on hand-written corpus counts).
+        val songFiles = File(assetsDir, "songs").listFiles { f -> f.extension == "json" }.orEmpty()
+        assertTrue(songFiles.isNotEmpty())
+        assertEquals(songFiles.size, manifest.size)
         val r8 = manifest.first { it.uid == "R8" }
         assertTrue(r8.audioAvailable)
         assertTrue(r8.md5.isNotBlank())
@@ -67,17 +71,22 @@ class SongSerializationTest {
     }
 
     @Test
-    fun `decodes song_groups json into 93 SongGroups with kind and song_uids`() {
+    fun `decodes song_groups json into SongGroups with kind and song_uids`() {
         val text = File(assetsDir, "song_groups.json").readText()
         val groups = SongJson.instance.decodeFromString<List<SongGroup>>(text)
 
-        assertEquals(93, groups.size)
-        assertEquals(19, groups.count { it.kind == SongGroupKind.BOOK })
-        assertEquals(74, groups.count { it.kind == SongGroupKind.TOPIC })
+        // Both kinds decode, and every group is one of them -- checked without pinning a count that
+        // the next pipeline resync would invalidate.
+        assertTrue(groups.any { it.kind == SongGroupKind.BOOK })
+        assertTrue(groups.any { it.kind == SongGroupKind.TOPIC })
+        assertEquals(
+            groups.size,
+            groups.count { it.kind == SongGroupKind.BOOK || it.kind == SongGroupKind.TOPIC }
+        )
 
-        val sriGuru = groups.first { it.uid == "book-sri-guru" }
-        assertEquals(SongGroupKind.BOOK, sriGuru.kind)
-        assertTrue(sriGuru.ordered)
-        assertEquals(listOf("G2", "G3", "G6", "G7", "G8", "G9"), sriGuru.songUids)
+        val namastaka = groups.first { it.uid == "book-srinamastaka" }
+        assertEquals(SongGroupKind.BOOK, namastaka.kind)
+        assertTrue(namastaka.ordered)
+        assertEquals(listOf("NM1", "NM2", "NM3", "NM4", "NM5", "NM6", "NM7", "NM8"), namastaka.songUids)
     }
 }
