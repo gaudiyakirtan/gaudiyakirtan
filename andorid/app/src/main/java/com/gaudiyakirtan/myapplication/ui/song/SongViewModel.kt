@@ -10,6 +10,7 @@ import com.gaudiyakirtan.data.SettingsRepository
 import com.gaudiyakirtan.data.SongRepository
 import com.gaudiyakirtan.myapplication.models.AppSettings
 import com.gaudiyakirtan.myapplication.models.DisplayNames
+import com.gaudiyakirtan.myapplication.models.ScriptOptions
 import com.gaudiyakirtan.myapplication.models.Song
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.SharingStarted
@@ -27,9 +28,15 @@ data class NamedOption(val code: String, val label: String)
  * The subset of [AppSettings] the verse renderer needs, projected for the song-detail UI. It is a
  * live view of the persisted settings -- not independent state -- so the Settings screen and the
  * in-screen quick-toggles always agree.
+ *
+ * Per docs/screens/settings.md v5 the verse's two lines are chosen independently:
+ * [displayScriptCode] is the muted **source** line (may be [ScriptOptions.AUTO], resolved per song),
+ * [transliterationScriptCode] the accented **reading** line. [romanizationStandard] applies to
+ * whichever of the two is Latin.
  */
 data class VerseDisplaySettings(
-    val primaryScriptCode: String,
+    val displayScriptCode: String,
+    val transliterationScriptCode: String,
     val romanizationStandard: String,
     val showWordToWord: Boolean,
     val glossLanguageCode: String,
@@ -38,7 +45,8 @@ data class VerseDisplaySettings(
 )
 
 private fun AppSettings.toVerseDisplaySettings() = VerseDisplaySettings(
-    primaryScriptCode = displayScript,
+    displayScriptCode = displayScript,
+    transliterationScriptCode = transliterationScript,
     romanizationStandard = romanStandard,
     showWordToWord = showWordToWord,
     glossLanguageCode = wordToWordLanguage,
@@ -96,11 +104,26 @@ class SongViewModel(application: Application, private val songUid: String) : And
     // (Per settings.md, the chosen script/language is a *global* setting not filtered by song; these
     //  lists just populate the convenience picker. The corpus is uniform, so they cover all scripts.)
 
-    val availableScripts: List<NamedOption>
+    private val presentScriptCodes: Set<String>
+        get() = _song.value?.verses?.flatMap { it.displayScripts }?.map { it.scriptCode }?.toSet()
+            ?: emptySet()
+
+    /** Options for the source line: "Default (source language)" plus every script the song ships. */
+    val availableDisplayScripts: List<NamedOption>
         get() {
-            val present = _song.value?.verses?.flatMap { it.displayScripts }?.map { it.scriptCode }?.toSet()
-                ?: return emptyList()
-            return DisplayNames.nativeScriptOptions
+            val present = presentScriptCodes
+            if (present.isEmpty()) return emptyList()
+            return DisplayNames.displayScriptOptions
+                .filter { it.code == ScriptOptions.AUTO || it.code in present }
+                .map { NamedOption(it.code, it.label) }
+        }
+
+    /** Options for the reading line -- a transliteration, so any script the song ships qualifies. */
+    val availableTransliterationScripts: List<NamedOption>
+        get() {
+            val present = presentScriptCodes
+            if (present.isEmpty()) return emptyList()
+            return DisplayNames.scriptOptions
                 .filter { it.code in present }
                 .map { NamedOption(it.code, it.label) }
         }
@@ -117,7 +140,10 @@ class SongViewModel(application: Application, private val songUid: String) : And
 
     // -- Quick-toggles: write through to the shared persisted settings --
 
-    fun setPrimaryScript(scriptCode: String) = settingsRepository.setDisplayScript(scriptCode)
+    fun setDisplayScript(scriptCode: String) = settingsRepository.setDisplayScript(scriptCode)
+
+    fun setTransliterationScript(scriptCode: String) =
+        settingsRepository.setTransliterationScript(scriptCode)
 
     fun setGlossLanguage(languageCode: String) = settingsRepository.setWordToWordLanguage(languageCode)
 

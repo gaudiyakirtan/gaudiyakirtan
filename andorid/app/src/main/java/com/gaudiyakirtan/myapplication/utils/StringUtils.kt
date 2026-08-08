@@ -47,4 +47,24 @@ object StringUtils {
      */
     fun sortKey(text: String): String =
         removeDiacritics(text).lowercase().dropWhile { !it.isLetter() }
+
+    /** Matches any residual `[FLAG_*]` marker, for the defensive strip in [resolveMasterTextFlags]. */
+    private val MASTER_FLAG_REGEX = Regex("""\[FLAG_[A-Z_]+]""")
+
+    /**
+     * Resolves inline master-text flags (docs/data/README.md "Master-text flags") for safe display.
+     * The pipeline only flag-resolves the text it generates into `Verse.displayScripts`, so anything
+     * rendered straight from `source_text_master` -- notably the `ISO15919` reading, which has no
+     * `display_scripts` entry anywhere in the corpus (docs/screens/settings.md v5) -- must be run
+     * through this first.
+     *
+     * Only `[FLAG_HYPHEN_ALPHA]` (an alphabet-only hyphen joining a compound, not a spoken pause)
+     * actually occurs in the current corpus, so it resolves to a literal hyphen; any other `[FLAG_*]`
+     * token is stripped as a defensive fallback. Mirrors iOS `StringUtils.resolveMasterTextFlags`
+     * and web `stripMasterFlags`.
+     */
+    fun resolveMasterTextFlags(line: String): String {
+        val resolved = line.replace("[FLAG_HYPHEN_ALPHA]", "-")
+        return if (resolved.contains("[FLAG_")) resolved.replace(MASTER_FLAG_REGEX, "") else resolved
+    }
 }
