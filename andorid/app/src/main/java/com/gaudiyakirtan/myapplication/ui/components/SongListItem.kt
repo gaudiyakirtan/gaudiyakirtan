@@ -49,8 +49,12 @@ fun SongListItem(
             ) {
                 Text(
                     text = title,
+                    // Primary *text*, not the accent. theme.md v2 moved the brand accent into
+                    // `colorScheme.primary`; this call site predates the remap and meant "primary
+                    // text", so it silently turned gold. The row sits on `surface` (below), so the
+                    // text token is `onSurface` -- matching web's `--primary` on the same element.
                     style = MaterialTheme.typography.bodyLarge.copy(
-                        color = MaterialTheme.colorScheme.primary,
+                        color = MaterialTheme.colorScheme.onSurface,
                         fontSize = 14.sp
                     ),
                     maxLines = 1,
