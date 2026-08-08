@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
@@ -41,14 +42,12 @@ fun TopicCard(
         Column(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(20.dp), // Match web padding of 1.25rem
+                .padding(Spacing.xl), // Match web padding of 1.25rem
             verticalArrangement = Arrangement.SpaceBetween
         ) {
             Text(
                 text = title,
-                fontWeight = FontWeight.Bold,
-                fontSize = 16.sp, // Match web text-base
-                lineHeight = 19.sp, // Match line-height: 1.2
+                style = MaterialTheme.typography.titleMedium,
                 color = textColor,
                 maxLines = 2,
                 overflow = TextOverflow.Ellipsis,

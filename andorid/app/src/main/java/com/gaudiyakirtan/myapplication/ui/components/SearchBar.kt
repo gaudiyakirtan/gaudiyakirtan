@@ -1,13 +1,12 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Clear
@@ -23,7 +22,7 @@ import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.vectorResource
 import androidx.compose.ui.unit.dp
 import com.gaudiyakirtan.myapplication.R
-import com.gaudiyakirtan.myapplication.ui.components.icons.MusicNote
+import com.gaudiyakirtan.myapplication.ui.components.icons.Mridanga
 
 /**
  * Search bar component with mridanga icon and settings button
@@ -42,20 +41,18 @@ fun SearchBar(
     Row(
         modifier = modifier
             .fillMaxWidth()
-            .padding(horizontal = 16.dp, vertical = 8.dp),
+            .padding(horizontal = Spacing.lg, vertical = Spacing.sm),
         verticalAlignment = Alignment.CenterVertically,
-        horizontalArrangement = Arrangement.spacedBy(12.dp)
+        horizontalArrangement = Arrangement.spacedBy(Spacing.md)
     ) {
-        // Mridanga icon
+        // The mridanga brand mark. This slot was already commented "Mridanga icon" but rendered
+        // Material's generic music-note glyph; it now uses the real drum, converted from the same
+        // SVG web uses. Decorative -- the search field beside it carries the meaning.
         Box(
-            modifier = Modifier
-                .size(28.dp),
+            modifier = Modifier.size(28.dp),
             contentAlignment = Alignment.Center
         ) {
-            MusicNote(
-                color = MaterialTheme.colorScheme.surfaceVariant,
-                size = 28.dp
-            )
+            Mridanga(size = 28.dp)
         }
 
         // Search field
@@ -63,14 +60,14 @@ fun SearchBar(
             modifier = Modifier
                 .weight(1f)
                 .height(40.dp)
-                .clip(RoundedCornerShape(20.dp))
+                .clip(MaterialTheme.shapes.large)
                 .background(MaterialTheme.colorScheme.surface)
                 .then(if (onSearchClick != null) Modifier.clickable { onSearchClick() } else Modifier)
         ) {
             Row(
                 modifier = Modifier
                     .fillMaxSize()
-                    .padding(horizontal = 12.dp),
+                    .padding(horizontal = Spacing.md),
                 verticalAlignment = Alignment.CenterVertically
             ) {
                 if (onSearchClick != null) {
@@ -87,7 +84,7 @@ fun SearchBar(
                         onValueChange = onSearchTextChange,
                         modifier = Modifier
                             .weight(1f)
-                            .padding(vertical = 8.dp),
+                            .padding(vertical = Spacing.sm),
                         singleLine = true,
                         textStyle = MaterialTheme.typography.bodyMedium.copy(
                             color = MaterialTheme.colorScheme.onSurface

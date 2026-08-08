@@ -1,10 +1,10 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
@@ -28,8 +28,8 @@ fun <T> CategorySelector(
     modifier: Modifier = Modifier
 ) {
     LazyRow(
-        horizontalArrangement = Arrangement.spacedBy(8.dp),
-        contentPadding = PaddingValues(horizontal = 16.dp),
+        horizontalArrangement = Arrangement.spacedBy(Spacing.sm),
+        contentPadding = PaddingValues(horizontal = Spacing.lg),
         modifier = modifier
     ) {
         items(categories) { category ->
@@ -37,21 +37,21 @@ fun <T> CategorySelector(
             
             Button(
                 onClick = { onCategorySelected(category) },
-                shape = RoundedCornerShape(16.dp),
+                shape = MaterialTheme.shapes.medium,
                 colors = ButtonDefaults.buttonColors(
                     // Selected pill is tinted to the accent/highlight (docs/screens/theme.md
                     // "Interactive controls"); unselected pills get a neutral card fill so the
                     // accent reads as the one active/selected state, not the reverse.
                     containerColor = if (isSelected)
-                        MaterialTheme.colorScheme.surfaceVariant
+                        MaterialTheme.colorScheme.primary
                     else
                         MaterialTheme.colorScheme.surface,
                     contentColor = if (isSelected)
-                        MaterialTheme.colorScheme.onSurfaceVariant // onHighlight
+                        MaterialTheme.colorScheme.onPrimary // onHighlight
                     else
                         MaterialTheme.colorScheme.onBackground
                 ),
-                contentPadding = PaddingValues(horizontal = 16.dp, vertical = 8.dp),
+                contentPadding = PaddingValues(horizontal = Spacing.lg, vertical = Spacing.sm),
                 modifier = Modifier.height(36.dp)
             ) {
                 Text(

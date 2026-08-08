@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.search
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.background
@@ -7,7 +8,6 @@ import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.BasicTextField
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Clear
@@ -59,7 +59,7 @@ fun SearchScreen(
             query = query,
             onQueryChange = viewModel::updateQuery,
             onClear = viewModel::clearQuery,
-            modifier = Modifier.padding(16.dp)
+            modifier = Modifier.padding(Spacing.lg)
         )
 
         when {
@@ -75,14 +75,14 @@ fun SearchScreen(
                     text = "No matches for \"$query\"",
                     style = MaterialTheme.typography.bodyLarge,
                     color = MaterialTheme.colorScheme.neutral,
-                    modifier = Modifier.padding(top = 48.dp, start = 24.dp, end = 24.dp)
+                    modifier = Modifier.padding(top = Spacing.xxxl, start = Spacing.xl, end = Spacing.xl)
                 )
             }
 
             else -> LazyColumn(
                 modifier = Modifier.fillMaxSize(),
-                contentPadding = PaddingValues(horizontal = 16.dp, vertical = 4.dp),
-                verticalArrangement = Arrangement.spacedBy(8.dp)
+                contentPadding = PaddingValues(horizontal = Spacing.lg, vertical = Spacing.xs),
+                verticalArrangement = Arrangement.spacedBy(Spacing.sm)
             ) {
                 // Ranked results (best-first) -- NOT alphabetized; reuse the song-list row.
                 items(results, key = { it.uid }) { entry ->
@@ -114,13 +114,13 @@ private fun SearchInputField(
         modifier = modifier
             .fillMaxWidth()
             .height(44.dp),
-        shape = RoundedCornerShape(22.dp),
+        shape = MaterialTheme.shapes.large,
         color = MaterialTheme.colorScheme.surface
     ) {
         Row(
             modifier = Modifier
                 .fillMaxSize()
-                .padding(horizontal = 12.dp),
+                .padding(horizontal = Spacing.md),
             verticalAlignment = Alignment.CenterVertically
         ) {
             BasicTextField(
@@ -134,7 +134,7 @@ private fun SearchInputField(
                 textStyle = MaterialTheme.typography.bodyMedium.copy(
                     color = MaterialTheme.colorScheme.onSurface
                 ),
-                cursorBrush = androidx.compose.ui.graphics.SolidColor(MaterialTheme.colorScheme.surfaceVariant),
+                cursorBrush = androidx.compose.ui.graphics.SolidColor(MaterialTheme.colorScheme.primary),
                 decorationBox = { innerTextField ->
                     if (query.isEmpty()) {
                         Text(
@@ -154,10 +154,10 @@ private fun SearchInputField(
                     tint = MaterialTheme.colorScheme.neutral,
                     modifier = Modifier
                         .size(20.dp)
-                        .clip(RoundedCornerShape(10.dp))
+                        .clip(MaterialTheme.shapes.small)
                         .clickable { onClear() }
                 )
-                Spacer(modifier = Modifier.width(8.dp))
+                Spacer(modifier = Modifier.width(Spacing.sm))
             }
 
             Icon(

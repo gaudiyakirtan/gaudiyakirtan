@@ -17,7 +17,7 @@ Legend: `—` not started · `⏳ stale` (spec ahead of code) · `🔨 in progre
 | [author](data/author.md) | v1 | ✅ | ✅* | ✅ |
 | [collections](data/collections.md) | v1 | ✅ | ✅* | ✅ |
 | [manifest](data/manifest.md) | v1 | ✅ | ✅* | ✅ |
-| [calendar](data/calendar.md) | v2 | ✅ | — | — |
+| [calendar](data/calendar.md) | v2 | ✅ | — | ✅ |
 | [pipeline](data/pipeline.md) | v1 | n/a | n/a | n/a |
 
 > **✅\* iOS**: data layer typechecks clean (`swiftc -typecheck`, 0 errors, verified independently)
@@ -34,8 +34,8 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | Real corpus loaded (no sampleData) | ✅ | ✅* | ✅ |
 | Offline store (static bundle / Core Data / Room) | ✅ static | ✅ bundle | ✅ assets |
 | Repository over Manifest | ✅ | ✅* | ✅ |
-| Calendar overlay (lunar month → songs) | ✅ | — | — |
-| Home renders the calendar (month + songs) | ✅ | — | — |
+| Calendar overlay (lunar month → songs) | ✅ | — | ✅ |
+| Home renders the calendar (month + songs) | ✅ | — | ✅ |
 | Recently played (device-local history) | ✅ | — | — |
 | Search (fuzzy) | ✅ | ✅ | ✅ |
 
@@ -57,9 +57,9 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | seo (v1) — metadata/sitemap | ✅ | n/a | n/a |
 | observability (v1) — analytics/Sentry | ✅ | n/a | n/a |
 | settings | ✅ | ✅* | ✅ |
-| theme (Gaura/Shyam) | ✅ | ✅* | ✅ |
-| home (v3 — re-purposed) | ✅ | — | — |
-| today (v1) — embedded as home §1 | ✅ | — | — |
+| theme (v3 — Gaura/Shyam + expressive + spacing) | ⏳ v1 | ⏳ v1* | 🔨 v3 partial |
+| home (v3 — re-purposed) | ✅ | — | 🔨 v3 partial |
+| today (v2) — embedded as home §1 | ✅ v2 | — **TODO** | ✅ v2 |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
 | components (v4) | ✅ v4 green | — | — |
@@ -74,6 +74,67 @@ Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **w
 web surface (navigation v5 / player v13: the web z-index scale and the drawer-over-mini-player
 model), so iOS/Android are not stale against it; they stay conformant at the version before it ·
 `🔨` in progress · `—` not applicable / not on that platform.
+
+**theme v3 (Material 3 Expressive) — Android is `🔨 partial`.** Landed: `MaterialExpressiveTheme` +
+`MotionScheme.expressive()`, the shape scale, the type scale, the remapped Material color slots with
+the container ramp filled, the 4dp spacing scale applied across every screen (155 values tokenized),
+`GaudiyaTopAppBar` replacing four hand-rolled headers, and the wavy playback indicator.
+
+**Both Android test tasks are now green**: `:app:assembleDebug` builds, and `:app:testDebugUnitTest`
+is **26/26** — up from 11/14. The 3 long-standing failures were stale hardcoded corpus totals (703
+manifest rows, 93 song groups, a `book-sri-guru` uid the corpus never shipped) asserted against a
+corpus of 702/21; per CLAUDE.md those counts must not be hand-written, so the assertions are now
+structural. The remaining 12 are new JVM Compose tests under Robolectric — no emulator is available
+here or in CI — covering the container ramp (a regression test for the baseline-lilac Switch bug),
+the palette-to-slot mapping in both themes, the shape ladder's monotonicity, and the player's
+accessibility contract (exactly one seekable control, exactly one announced progress range, the
+mini bar silent to assistive tech).
+
+Still **not** done, and why the row is not green: the UI is still predominantly hand-rolled layout
+primitives; `SearchBar`/`ExpandedFullScreenSearchBar`, `ButtonGroup`, `LoadingIndicator` and
+`Card`/`ListItem` remain unadopted; the `largeIncreased`/`extraLargeIncreased` shape steps are
+declared but unused; there is no adaptive behavior at all (no `material3.adaptive`, no
+`WindowSizeClass`, no compact/medium/expanded branch); only the player has an expressive focal
+element; and no screen spec besides this one has had the CLAUDE.md 7-point treatment. Reaching
+the wavy indicator required
+`androidx.compose.material3:material3:1.5.0-alpha25`, which in turn forced **compileSdk 37, AGP
+9.4.0-alpha08, Gradle 9.7.0 and Kotlin 2.4.10** — the app now sits on an alpha Android toolchain,
+which is the standing cost of that one component. material3 **1.4.0 stable** carries
+`MaterialExpressiveTheme`, `MotionScheme` and `Shapes` but **not** the wavy indicators.
+
+**home v3 — Android is `🔨 partial`, but §1 now matches web.** The "Welcome + this month" hero was
+a flat accent-filled block; it is now the same object web renders — a bordered `background-offset`
+card holding a gradient banner (accent → highlight → offset, under a bottom-to-top scrim) with the
+month name, Gaudiya month, observances and the `adhika-māsa` badge overlaid on it, over a quiet
+"sung this month" label and the shared `SongListItem` rows. Month artwork resolves to the same slug
+web does (`ImageConfig.monthSlug`, unit-tested), but from `assets/months/` rather than a URL — the
+bucket has no `months/` prefix and the hero must not need the radio. Only Vāmana ships a file, so
+the gradient is the normal path. Still missing against web: the per-row **recording picker**
+(stacked singer avatars + take count, plays in place), which needs player wiring; and **Recently
+played** (region 2) does not exist on Android at all. One further divergence is not in this region
+but in the shared row: `SongListItem` colors its title `colorScheme.primary`, which the theme v2
+remap turned into the *accent*, so Android's list titles read gold where web's read as primary
+text. That affects every list screen and should be fixed as its own slice, not here.
+
+**today v2 — the basis-sort withdrawal, and the iOS TODO.** v1 required ordering a month's songs by
+`basis` strength; v2 withdraws that and makes the shipped `song_uids` sequence the ranking, with a
+stable playable-first partition as the only permitted reordering. The conflict surfaced by rendering
+both platforms' Śrāvaṇa list side by side: web preserved the curated order (`B25, B26, VT3, GN1`)
+while Android sorted by basis (`B25, VT3, B26, GN1`). Web's behavior was judged the better one, so
+the spec moved to it rather than the other way round — web is conformant unchanged, and Android now
+pins that exact sequence in a regression test.
+
+> **TODO — iOS.** iOS implements *neither* version of this component: it bundles `calendar.json` and
+> has no calendar code at all (zero matches across every `.swift` file), so home has no "this month"
+> region. Whenever iOS picks this up it should implement **v2 directly** and must not re-introduce
+> the basis sort. The shape to copy is `CalendarRepositoryLogic` on Android or `calendarRepository.ts`
+> on web — both are pure and directly portable.
+
+**Web and iOS are `⏳ v1`, not behind schedule.** v2's slot remap is an Android *mechanism* and does
+not apply to them. What does apply is the new **Shape** scale and **Motion** contract — neither
+platform has an official Expressive implementation, so both must reproduce that behavior in their own
+idiom (SwiftUI shape/animation; CSS/SVG/Canvas) before they can be marked v2. Until they are, the
+three platforms differ in shape rhythm and in the player's progress affordance.
 
 **Web overhaul (build + screenshot/CDP verified):** top bar removed; search is a **centered
 command-palette modal** on desktop and a **full-screen search page** on mobile — one component,

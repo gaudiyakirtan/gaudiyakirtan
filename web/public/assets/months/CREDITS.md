@@ -14,6 +14,10 @@ them) ask not to be hotlinked.
 on any load error, and is designed to stay legible without artwork. Adding a file here is enough
 to make it appear; no code change is needed.
 
+**Android bundles the same files**, copied to `andorid/app/src/main/assets/months/` and resolved by
+`ImageConfig.monthArtworkUri()` with the identical slug rule, so one file dropped in here serves
+both apps once it is copied across. This directory stays the record of provenance for both.
+
 Anything added to this directory must be public domain or under a licence permitting
 redistribution in a shipped app. Record it below.
 

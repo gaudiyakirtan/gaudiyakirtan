@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.background
@@ -56,9 +57,9 @@ fun AlphabeticalScrollBar(
             modifier = Modifier
                 .fillMaxHeight()
                 .width(18.dp)
-                .padding(vertical = 10.dp)
+                .padding(vertical = Spacing.md)
                 .clip(RoundedCornerShape(topStart = 8.dp, bottomStart = 8.dp, topEnd = 0.dp, bottomEnd = 0.dp))
-                .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.2f))
+                .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.2f))
                 .align(Alignment.CenterEnd)
         )
         
@@ -68,13 +69,13 @@ fun AlphabeticalScrollBar(
                 modifier = Modifier
                     .size(80.dp)
                     .clip(CircleShape)
-                    .background(MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.7f))
+                    .background(MaterialTheme.colorScheme.primary.copy(alpha = 0.7f))
                     .align(Alignment.Center),
                 contentAlignment = Alignment.Center
             ) {
                 Text(
                     text = activeIndex ?: "",
-                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    color = MaterialTheme.colorScheme.onPrimary,
                     fontSize = 40.sp,
                     fontWeight = FontWeight.Bold
                 )
@@ -86,7 +87,7 @@ fun AlphabeticalScrollBar(
             modifier = Modifier
                 .fillMaxHeight()
                 .width(18.dp)
-                .padding(vertical = 10.dp)
+                .padding(vertical = Spacing.md)
                 .align(Alignment.CenterEnd)
                 .pointerInput(Unit) {
                     detectDragGestures(
@@ -132,7 +133,7 @@ fun AlphabeticalScrollBar(
                         .size(16.dp)
                         .clip(CircleShape)
                         .background(
-                            if (isActive && isAvailable) MaterialTheme.colorScheme.surfaceVariant
+                            if (isActive && isAvailable) MaterialTheme.colorScheme.primary
                             else Color.Transparent
                         ),
                     contentAlignment = Alignment.Center
@@ -142,7 +143,7 @@ fun AlphabeticalScrollBar(
                         fontSize = 11.sp,
                         fontWeight = FontWeight.SemiBold,
                         color = when {
-                            isActive && isAvailable -> MaterialTheme.colorScheme.onSurfaceVariant
+                            isActive && isAvailable -> MaterialTheme.colorScheme.onPrimary
                             isAvailable -> MaterialTheme.colorScheme.neutral
                             else -> MaterialTheme.colorScheme.neutral.copy(alpha = 0.3f)
                         }

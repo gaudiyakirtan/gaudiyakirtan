@@ -1,6 +1,6 @@
 # Shared components
 
-**Spec version:** 4
+**Spec version:** 5
 
 **Figma frames:** `Components`, `Group 15/16`, `Frame *`.
 
@@ -142,6 +142,13 @@ Android `res/font/`) so the wordmark reads identically across platforms. It is a
 
 ## Change log
 
+- **v5** — Added the **detail-screen app bar** contract (`GaudiyaTopAppBar` on Android). Five screens
+  had each hand-rolled the same back-arrow + title `Row`, so none of them got the platform app bar's
+  title truncation, standard navigation-icon touch target, insets, height or typography. It is one
+  component with a `title`, an optional `onBackClick`, and a trailing `actions` slot; its container
+  is the screen `background` so the bar reads as part of the screen rather than a floating strip.
+  Android's song screen is the deliberate exception — its header carries a player pill rather than a
+  title, so it stays a bespoke composition.
 - **v4** — `BrandWordmark`: the ink overflows the mark's box **horizontally** too — every glyph has a
   negative left side bearing — so a clipping ancestor needs a left inset as well as height.
 - **v3** — `BrandWordmark`: documented that the display face's ink overflows its em box (so a

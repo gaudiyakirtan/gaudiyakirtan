@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.home
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.layout.*
@@ -40,6 +41,8 @@ fun HomeScreen(
     val topics by viewModel.topics.collectAsState()
     val books by viewModel.books.collectAsState()
     val featuredSong by viewModel.featuredSong.collectAsState()
+    val thisMonth by viewModel.thisMonth.collectAsState()
+    val thisMonthSongs by viewModel.thisMonthSongs.collectAsState()
     val searchQuery by viewModel.searchQuery.collectAsState()
     val listLanguage by viewModel.listLanguage.collectAsState()
 
@@ -57,7 +60,7 @@ fun HomeScreen(
                 onSearchTextChange = { viewModel.updateSearchQuery(it) },
                 onSettingsClick = onSettingsClick,
                 onSearchClick = onSearchClick,
-                modifier = Modifier.padding(top = 8.dp)
+                modifier = Modifier.padding(top = Spacing.sm)
             )
 
             // Main content with scroll
@@ -65,14 +68,41 @@ fun HomeScreen(
                 modifier = Modifier
                     .fillMaxSize()
                     .verticalScroll(rememberScrollState()),
-                verticalArrangement = Arrangement.spacedBy(24.dp)
+                verticalArrangement = Arrangement.spacedBy(Spacing.xl)
             ) {
+                // Region order follows docs/screens/home.md: the month hero leads (it is the only
+                // region that changes on its own, and the screen's actual recommendation), and
+                // Authors closes. Previously Authors sat second, ahead of Topics and Books.
+
+                // 1. This month -- hidden entirely when today falls outside the calendar's
+                // precomputed window range, rather than showing a wrong month.
+                thisMonth?.let { today ->
+                    ThisMonthSection(
+                        today = today,
+                        songs = thisMonthSongs,
+                        authorNames = authorNames,
+                        listLanguage = listLanguage,
+                        onSongClick = onSongClick
+                    )
+                }
+
                 SongsSection(
                     songs = songs.take(4),
                     authorNames = authorNames,
                     listLanguage = listLanguage,
                     onSongClick = onSongClick
                 )
+
+                // Empty-state discipline (docs/screens/browse.md): render nothing rather than a
+                // header with no content underneath it.
+                if (topics.isNotEmpty()) {
+                    TopicsSection(topics = topics, onTopicClick = onGroupClick)
+                }
+                if (books.isNotEmpty()) {
+                    BooksSection(books = books, onBookClick = onGroupClick)
+                }
+
+                // Last: Authors.
                 val authorSongCounts = remember(songs) {
                     songs.groupingBy { it.authorUid }.eachCount()
                 }
@@ -81,15 +111,6 @@ fun HomeScreen(
                     songCounts = authorSongCounts,
                     onAuthorClick = onAuthorClick
                 )
-                // Empty-state discipline (docs/screens/browse.md): the shipped corpus has no
-                // topics/books data yet -- render nothing rather than a header with no content
-                // underneath it. These light up automatically once song_groups.json ships.
-                if (topics.isNotEmpty()) {
-                    TopicsSection(topics = topics, onTopicClick = onGroupClick)
-                }
-                if (books.isNotEmpty()) {
-                    BooksSection(books = books, onBookClick = onGroupClick)
-                }
 
                 // Featured Song Section - Exactly like iOS, now backed by the real corpus (song N9)
                 featuredSong?.let { song ->
@@ -97,17 +118,17 @@ fun HomeScreen(
                         horizontalAlignment = Alignment.CenterHorizontally,
                         modifier = Modifier
                             .fillMaxWidth()
-                            .padding(horizontal = 16.dp)
+                            .padding(horizontal = Spacing.lg)
                     ) {
                         Column(
                             horizontalAlignment = Alignment.CenterHorizontally,
-                            verticalArrangement = Arrangement.spacedBy(4.dp),
-                            modifier = Modifier.padding(top = 16.dp)
+                            verticalArrangement = Arrangement.spacedBy(Spacing.xs),
+                            modifier = Modifier.padding(top = Spacing.lg)
                         ) {
                             Text(
                                 text = song.title,
                                 fontSize = 28.sp,
-                                color = MaterialTheme.colorScheme.surfaceVariant, // Highlight color
+                                color = MaterialTheme.colorScheme.primary, // Highlight color
                                 textAlign = TextAlign.Center
                             )
 
@@ -127,7 +148,7 @@ fun HomeScreen(
                                 modifier = Modifier
                                     .clip(MaterialTheme.shapes.small)
                                     .background(MaterialTheme.colorScheme.neutral.copy(alpha = 0.25f))
-                                    .padding(horizontal = 10.dp, vertical = 2.dp)
+                                    .padding(horizontal = Spacing.md, vertical = Spacing.xxs)
                             )
                         }
 
@@ -140,7 +161,7 @@ fun HomeScreen(
                 }
 
                 // Add padding at the bottom
-                Spacer(modifier = Modifier.height(32.dp))
+                Spacer(modifier = Modifier.height(Spacing.xxl))
             }
         }
     }

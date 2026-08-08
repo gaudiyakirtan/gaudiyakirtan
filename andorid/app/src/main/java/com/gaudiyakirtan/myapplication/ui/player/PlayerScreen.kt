@@ -1,5 +1,7 @@
 package com.gaudiyakirtan.myapplication.ui.player
 
+import com.gaudiyakirtan.myapplication.ui.components.GaudiyaTopAppBar
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.background
@@ -15,7 +17,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.filled.ArrowBack
@@ -24,11 +25,15 @@ import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.SkipNext
 import androidx.compose.material.icons.filled.SkipPrevious
+import androidx.compose.animation.core.animateDpAsState
+import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
+import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
+import androidx.compose.material3.LinearWavyProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Slider
 import androidx.compose.material3.SliderDefaults
@@ -43,7 +48,9 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -52,7 +59,7 @@ import com.gaudiyakirtan.data.ImageConfig
 import com.gaudiyakirtan.myapplication.models.AudioTrack
 import com.gaudiyakirtan.myapplication.models.author
 import com.gaudiyakirtan.myapplication.models.title
-import com.gaudiyakirtan.myapplication.ui.components.icons.MusicNote
+import com.gaudiyakirtan.myapplication.ui.components.icons.Mridanga
 import com.gaudiyakirtan.services.NowPlaying
 import com.gaudiyakirtan.services.PlaybackState
 import com.gaudiyakirtan.services.PlayerUiState
@@ -77,28 +84,7 @@ fun PlayerScreen(
         color = MaterialTheme.colorScheme.background
     ) {
         Column(modifier = Modifier.fillMaxSize()) {
-            Row(
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .padding(horizontal = 8.dp, vertical = 8.dp),
-                verticalAlignment = Alignment.CenterVertically
-            ) {
-                IconButton(onClick = onBackClick) {
-                    Icon(
-                        imageVector = Icons.AutoMirrored.Filled.ArrowBack,
-                        contentDescription = "Back",
-                        tint = MaterialTheme.colorScheme.surfaceVariant
-                    )
-                }
-                Spacer(modifier = Modifier.weight(1f))
-                Text(
-                    text = "Now Playing",
-                    style = MaterialTheme.typography.titleMedium,
-                    color = MaterialTheme.colorScheme.neutral
-                )
-                Spacer(modifier = Modifier.weight(1f))
-                Spacer(modifier = Modifier.size(48.dp)) // balances the back button
-            }
+            GaudiyaTopAppBar(title = "Now Playing", onBackClick = onBackClick)
 
             val nowPlaying = uiState.nowPlaying
             when {
@@ -130,9 +116,9 @@ private fun NowPlayingContent(
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(horizontal = 24.dp, vertical = 16.dp),
+            .padding(horizontal = Spacing.xl, vertical = Spacing.lg),
         horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(8.dp)
+        verticalArrangement = Arrangement.spacedBy(Spacing.sm)
     ) {
         // Recording-artist portrait (docs/screens/player.md "Related assets on the same bucket":
         // `artists/<artist_code>.jpg`), gracefully falling back to the mridanga placeholder icon on
@@ -141,8 +127,8 @@ private fun NowPlayingContent(
             modifier = Modifier
                 .fillMaxWidth()
                 .aspectRatio(1f)
-                .padding(24.dp)
-                .clip(RoundedCornerShape(16.dp))
+                .padding(Spacing.xl)
+                .clip(MaterialTheme.shapes.medium)
                 .background(MaterialTheme.colorScheme.surface),
             contentAlignment = Alignment.Center
         ) {
@@ -152,11 +138,18 @@ private fun NowPlayingContent(
                 contentDescription = nowPlaying.track.artist,
                 contentScale = ContentScale.Crop,
                 modifier = Modifier.fillMaxSize(),
+                // The placeholder is centered at a fixed glyph size rather than sized by modifier:
+                // MusicNote also applies `.size()` internally, so passing one through the modifier
+                // double-applied and let the note stretch to fill the whole artwork square.
                 loading = {
-                    MusicNote(modifier = Modifier.size(72.dp), color = MaterialTheme.colorScheme.neutral)
+                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                        Mridanga(size = 120.dp)
+                    }
                 },
                 error = {
-                    MusicNote(modifier = Modifier.size(72.dp), color = MaterialTheme.colorScheme.neutral)
+                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+                        Mridanga(size = 120.dp)
+                    }
                 }
             )
         }
@@ -164,7 +157,7 @@ private fun NowPlayingContent(
         Text(
             text = nowPlaying.song.title,
             style = MaterialTheme.typography.headlineSmall,
-            color = MaterialTheme.colorScheme.surfaceVariant,
+            color = MaterialTheme.colorScheme.primary,
             textAlign = TextAlign.Center,
             maxLines = 2,
             overflow = TextOverflow.Ellipsis
@@ -196,7 +189,7 @@ private fun NowPlayingContent(
             }
         }
 
-        Spacer(modifier = Modifier.height(8.dp))
+        Spacer(modifier = Modifier.height(Spacing.sm))
 
         when (uiState.playbackState) {
             PlaybackState.ERROR -> ErrorState(message = uiState.errorMessage ?: "Audio unavailable")
@@ -204,7 +197,7 @@ private fun NowPlayingContent(
                 modifier = Modifier.fillMaxWidth().height(96.dp),
                 contentAlignment = Alignment.Center
             ) {
-                CircularProgressIndicator(color = MaterialTheme.colorScheme.surfaceVariant)
+                CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
             }
             else -> PlaybackControls(
                 uiState = uiState,
@@ -226,17 +219,17 @@ private fun TakePicker(
         Row(
             modifier = Modifier.clickable { expanded = true },
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(4.dp)
+            horizontalArrangement = Arrangement.spacedBy(Spacing.xs)
         ) {
             Text(
                 text = current.artist ?: current.uid,
                 style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.surfaceVariant
+                color = MaterialTheme.colorScheme.primary
             )
             Text(
                 text = "▾",
                 style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.surfaceVariant
+                color = MaterialTheme.colorScheme.primary
             )
         }
         DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
@@ -253,6 +246,7 @@ private fun TakePicker(
     }
 }
 
+@OptIn(ExperimentalMaterial3ExpressiveApi::class)
 @Composable
 private fun PlaybackControls(
     uiState: PlayerUiState,
@@ -263,22 +257,55 @@ private fun PlaybackControls(
     var dragPositionMs by remember { mutableFloatStateOf(-1f) }
     val displayedPositionMs = if (dragPositionMs >= 0f) dragPositionMs.roundToInt() else uiState.positionMs
 
+    val isPlaying = uiState.playbackState == PlaybackState.PLAYING
+
+    // The screen's one expressive focal element (spec pending: player.md has no expressive section yet): the scrubber is wavy
+    // while audio is actually advancing and flat otherwise, so playback state is legible from the
+    // shape of the track alone. Animated rather than switched, because the *morph* between the two
+    // is what communicates the state change; `MotionScheme.expressive()` supplies the spring.
+    val amplitude by animateFloatAsState(
+        targetValue = if (isPlaying) 1f else 0f,
+        animationSpec = MaterialTheme.motionScheme.slowSpatialSpec(),
+        label = "scrubberAmplitude"
+    )
+
     Column(modifier = Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
-        Slider(
-            value = displayedPositionMs.toFloat().coerceIn(0f, duration.toFloat().coerceAtLeast(0f)),
-            valueRange = 0f..duration.toFloat().coerceAtLeast(1f),
-            onValueChange = { dragPositionMs = it },
-            onValueChangeFinished = {
-                onSeek(displayedPositionMs)
-                dragPositionMs = -1f
-            },
-            colors = SliderDefaults.colors(
-                thumbColor = MaterialTheme.colorScheme.surfaceVariant,
-                activeTrackColor = MaterialTheme.colorScheme.surfaceVariant,
-                inactiveTrackColor = MaterialTheme.colorScheme.outline
-            ),
-            modifier = Modifier.fillMaxWidth()
-        )
+        // The wavy indicator draws the track; a transparent-track Slider sits on top purely to own
+        // the interaction. Keeping the real Slider is deliberate -- it carries the seek semantics
+        // (drag, keyboard, and TalkBack's "adjustable" actions) that a Canvas-drawn indicator would
+        // silently drop, and accessibility is not traded for expression.
+        Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
+            LinearWavyProgressIndicator(
+                progress = {
+                    if (duration > 0) {
+                        (displayedPositionMs.toFloat() / duration.toFloat()).coerceIn(0f, 1f)
+                    } else {
+                        0f
+                    }
+                },
+                amplitude = { amplitude },
+                color = MaterialTheme.colorScheme.primary,
+                trackColor = MaterialTheme.colorScheme.outline,
+                modifier = Modifier
+                    .fillMaxWidth()
+                    .clearAndSetSemantics { }
+            )
+            Slider(
+                value = displayedPositionMs.toFloat().coerceIn(0f, duration.toFloat().coerceAtLeast(0f)),
+                valueRange = 0f..duration.toFloat().coerceAtLeast(1f),
+                onValueChange = { dragPositionMs = it },
+                onValueChangeFinished = {
+                    onSeek(displayedPositionMs)
+                    dragPositionMs = -1f
+                },
+                colors = SliderDefaults.colors(
+                    thumbColor = MaterialTheme.colorScheme.primary,
+                    activeTrackColor = Color.Transparent,
+                    inactiveTrackColor = Color.Transparent
+                ),
+                modifier = Modifier.fillMaxWidth()
+            )
+        }
         Row(
             modifier = Modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceBetween
@@ -295,11 +322,11 @@ private fun PlaybackControls(
             )
         }
 
-        Spacer(modifier = Modifier.height(16.dp))
+        Spacer(modifier = Modifier.height(Spacing.lg))
 
         Row(
             verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(24.dp)
+            horizontalArrangement = Arrangement.spacedBy(Spacing.xl)
         ) {
             // Skip controls are dormant until multi-recording ordering/adjacency is defined
             // (docs/screens/player.md "skip controls (dormant until multi-recording)").
@@ -310,11 +337,19 @@ private fun PlaybackControls(
                     tint = MaterialTheme.colorScheme.neutral
                 )
             }
+            // The primary action, and the only other element allowed to move expressively here:
+            // it morphs circle (paused) -> squircle (playing), so the control's own shape echoes
+            // the state the wavy track is reporting. 32.dp on a 64.dp box is a full circle.
+            val playCorner by animateDpAsState(
+                targetValue = if (isPlaying) 20.dp else 32.dp,
+                animationSpec = MaterialTheme.motionScheme.fastSpatialSpec(),
+                label = "playPauseShape"
+            )
             Box(
                 modifier = Modifier
                     .size(64.dp)
-                    .clip(CircleShape)
-                    .background(MaterialTheme.colorScheme.surfaceVariant)
+                    .clip(RoundedCornerShape(playCorner))
+                    .background(MaterialTheme.colorScheme.primary)
                     .clickable(onClick = onPlayPauseClick),
                 contentAlignment = Alignment.Center
             ) {
@@ -325,7 +360,7 @@ private fun PlaybackControls(
                         Icons.Default.PlayArrow
                     },
                     contentDescription = if (uiState.playbackState == PlaybackState.PLAYING) "Pause" else "Play",
-                    tint = MaterialTheme.colorScheme.onSurfaceVariant,
+                    tint = MaterialTheme.colorScheme.onPrimary,
                     modifier = Modifier.size(32.dp)
                 )
             }
@@ -345,7 +380,7 @@ private fun ErrorState(message: String) {
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(32.dp),
+            .padding(Spacing.xxl),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
@@ -355,7 +390,7 @@ private fun ErrorState(message: String) {
             tint = MaterialTheme.colorScheme.neutral,
             modifier = Modifier.size(48.dp)
         )
-        Spacer(modifier = Modifier.height(12.dp))
+        Spacer(modifier = Modifier.height(Spacing.md))
         Text(
             text = message,
             style = MaterialTheme.typography.titleMedium,

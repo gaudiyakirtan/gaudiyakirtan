@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.layout.*
@@ -63,8 +64,8 @@ fun SongsListWithIndex(
     Box(modifier = modifier) {
         LazyColumn(
             state = lazyListState,
-            contentPadding = PaddingValues(start = 16.dp, end = 32.dp, bottom = 16.dp),
-            verticalArrangement = Arrangement.spacedBy(8.dp),
+            contentPadding = PaddingValues(start = Spacing.lg, end = Spacing.xxl, bottom = Spacing.lg),
+            verticalArrangement = Arrangement.spacedBy(Spacing.sm),
             modifier = Modifier.fillMaxSize()
         ) {
             grouped.forEach { (letter, entries) ->
@@ -73,7 +74,7 @@ fun SongsListWithIndex(
                         text = letter,
                         style = MaterialTheme.typography.titleLarge,
                         color = MaterialTheme.colorScheme.neutral,
-                        modifier = Modifier.padding(vertical = 8.dp)
+                        modifier = Modifier.padding(vertical = Spacing.sm)
                     )
                 }
                 items(entries, key = { it.uid }) { song ->

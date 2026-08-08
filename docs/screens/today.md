@@ -1,6 +1,6 @@
 # Component — Today (songs for the current date)
 
-**Spec version:** 1
+**Spec version:** 2
 
 **Figma frames:** **none yet.** `Home`, `Home-1`, `Home-2` define the home screen this component
 sits in, but no frame covers the component itself — it post-dates the Figma file. See
@@ -65,14 +65,33 @@ There is no error state for data loading: `calendar.json` is bundled, not fetche
 
 ## Ranking and provenance
 
-Order songs by `basis` strength, strongest first: `observed` → `panjika` → `book` → `thematic`.
+**Preserve the month's shipped song order.** `calendar.json` emits each month's `song_uids` as a
+curated sequence, and that sequence is the ranking — do not re-sort it.
 
-A song marked `observed` is backed by dated recordings of the song actually being sung in that
-month; a `thematic` one is a subject-matter match with no dated evidence. Presenting them
-identically would flatten a real distinction.
+The only reordering permitted is a **stable partition putting songs with recordings first**, so the
+region opens with what the reader can actually hear. Stable is load-bearing: relative order inside
+the playable and non-playable runs must be untouched. Use a partition, not a comparator keyed on a
+boolean — such a sort is not guaranteed stable across language runtimes and would reshuffle
+same-audio songs, losing the curated sequence.
 
-Surfacing the basis in the UI is **optional** and should be subtle if done at all (a tooltip or a
-small marker, not a badge on every row). Ranking by it is the requirement; displaying it is not.
+### Why not sort by `basis`
+
+v1 required sorting by `basis` strength (`observed` → `panjika` → `book` → `thematic`). That is
+withdrawn. `basis` records *why* a song is attached to the month — `observed` is backed by dated
+recordings of it actually being sung then, `thematic` is a subject-matter match with no dated
+evidence — and it remains genuinely useful metadata. But it is **evidence strength, not singing
+order**, and sorting on it fragments a sequence that was curated as a sequence: in Śrāvaṇa it lifts
+a lone `panjika` song above the two `book` songs that belong together.
+
+The distinction v1 wanted to protect is real, and the honesty constraints below still carry it.
+Surfacing the basis in the UI stays **optional** and should be subtle if done at all (a tooltip or a
+small marker, not a badge on every row).
+
+### Display cap
+
+A month may reference more songs than a home region should show. Capping the rendered list is
+permitted; web caps at 6. The cap is a **display** concern — apply it after the partition, and never
+in the data layer, so the full list stays available to any other surface.
 
 ## Honesty constraints
 
@@ -130,5 +149,12 @@ left open across midnight does not keep showing yesterday.
 
 ## Change log
 
+- **v2** — **Withdraws basis sorting.** The month's shipped `song_uids` order is now the ranking;
+  the only permitted reordering is a stable playable-first partition. v1's `observed` → `panjika` →
+  `book` → `thematic` sort fragmented a sequence the pipeline curates as a sequence. Web already
+  behaved this way and was the drift that surfaced the question — the conflict was found by
+  rendering both platforms' Śrāvaṇa list side by side and finding them ordered differently. `basis`
+  is retained as provenance metadata; it is no longer a sort key. Also records that a display cap
+  (web: 6) belongs in the UI, never in the data layer.
 - **v1** — Initial spec: data bindings, states (incl. the real empty-month case), basis ranking,
   honesty constraints, the web static-generation trap, per-platform date handling.

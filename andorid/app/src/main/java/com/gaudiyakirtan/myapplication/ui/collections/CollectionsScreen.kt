@@ -1,5 +1,6 @@
 package com.gaudiyakirtan.myapplication.ui.collections
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.grid.GridCells
@@ -39,7 +40,7 @@ fun CollectionsScreen(
             selectedCategory = viewModel.selectedCategory,
             onCategorySelected = { viewModel.setCategory(it) },
             categoryToString = { it.title },
-            modifier = Modifier.padding(top = 8.dp)
+            modifier = Modifier.padding(top = Spacing.sm)
         )
         
         // Search bar
@@ -47,7 +48,7 @@ fun CollectionsScreen(
             searchText = viewModel.searchText,
             onSearchTextChange = { viewModel.updateSearchText(it) },
             placeholder = viewModel.getSearchPlaceholder(),
-            modifier = Modifier.padding(16.dp)
+            modifier = Modifier.padding(Spacing.lg)
         )
         
         // Collections grid, or a tasteful empty state -- there is no local persistence layer for
@@ -67,9 +68,9 @@ fun CollectionsScreen(
         } else {
             LazyVerticalGrid(
                 columns = GridCells.Fixed(2),
-                contentPadding = PaddingValues(16.dp),
-                horizontalArrangement = Arrangement.spacedBy(16.dp),
-                verticalArrangement = Arrangement.spacedBy(16.dp),
+                contentPadding = PaddingValues(Spacing.lg),
+                horizontalArrangement = Arrangement.spacedBy(Spacing.lg),
+                verticalArrangement = Arrangement.spacedBy(Spacing.lg),
                 modifier = Modifier.fillMaxSize()
             ) {
                 items(viewModel.filteredCollections) { collection ->

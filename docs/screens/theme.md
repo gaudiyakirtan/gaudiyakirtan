@@ -1,6 +1,6 @@
 # System — Theme (Gaura / Shyam)
 
-**Spec version:** 1
+**Spec version:** 3
 
 **Figma frames:** `Guar Theme`, `Shyam Theme`, `Colors`, `Components`.
 **Palette values (authoritative):** [`../theme/colors.md`](../theme/colors.md).
@@ -54,17 +54,112 @@ makes song-detail/list/settings theme automatically (they already use these toke
   semantics, iOS-safe names.
 - **Android:** `lightColorScheme` = Gaura, `darkColorScheme` = Shyam (exact values from `colors.md`);
   the theme setting selects which scheme regardless of device, or follows device for `system`.
+  **v2 slot mapping** — the accent goes in Material's *brand* slot, not in a surface slot:
+
+  | Token | Material slot |
+  |---|---|
+  | `accent` / `highlight` | `primary` (+ `primaryContainer`, `secondary`, `tertiary`) |
+  | `onHighlight` | `onPrimary` (+ the matching `on*` slots) |
+  | `background` | `background` |
+  | primary text | `onBackground`, `onSurface` |
+  | `backgroundOffset` | `surface`, `surfaceVariant` |
+  | secondary text | `onSurfaceVariant` |
+  | `border` | `outline`, `outlineVariant` |
+  | `neutral` | no Material slot — carried on a `CompositionLocal` and exposed as `ColorScheme.neutral` |
+
+  The **container ramp** (`surfaceContainerLowest/Low/…/Highest`, `surfaceDim`, `surfaceBright`,
+  `inverseSurface`) must be filled from the palette too. Components read those slots directly — an
+  unchecked `Switch` track is `surfaceContainerHighest` — and any unset slot silently falls back to
+  the M3 *baseline* palette, painting stock Material colors onto Gaura/Shyam. `outline` is the
+  higher-contrast boundary role and takes `neutral`; `outlineVariant` is the subtle divider and
+  takes `border`.
+
+  v1 put the accent in `surfaceVariant` and the *text* color in `primary`, which inverted Material's
+  own semantics and made every stock component render gray/unfinished until it was given a bespoke
+  `colors()` override. This is a **platform mechanism change only** — the semantic tokens and their
+  values are unchanged, so iOS and Web are not affected by it and do not go stale against v2 on
+  this point.
 - **Web:** CSS variables (`--gaur-*` / `--shyam-*` → `--primary` …) already scaffolded in `colors.md`;
   `ThemeContext` sets the active set by class/`data-theme`, from the persisted `theme`.
 
 ## Interactive controls (important)
 
-The token model makes `primary` the **text** color and `highlight`/`accent` the **interactive** color.
-So **interactive/selection controls must be tinted to `highlight`/`accent` explicitly** — switches,
-toggles, radios, sliders, selected states, and primary-button fills — with `onHighlight` for content
-sitting on them. Do **not** let them fall back to the platform's default control tint (which, under
-this scheme, resolves to the dark/light *text* color and makes controls look gray/unfinished). This
-is a semantic-token requirement, not per-platform styling.
+Interactive and selection controls — switches, toggles, radios, sliders, selected states, primary
+button fills — render in `highlight`/`accent`, with `onHighlight` for content sitting on them. A
+control that comes out in the *text* color is wrong: it reads gray/unfinished.
+
+**How that is achieved is per-platform, and v2 changes it on Android.** Where a platform's controls
+default to a brand slot, the fix is to put `accent` in that slot once, in the theme, so the defaults
+are correct. Where they don't, controls must be tinted explicitly at the call site.
+
+- **Android (v2):** solved in the theme. `accent` occupies `primary`, so stock components are correct
+  by default and must **not** carry per-component `colors()` overrides. v1's `accentSwitchColors()`
+  and `accentRadioButtonColors()` helpers are deleted; re-introducing that pattern is a regression.
+- **iOS / Web:** unchanged — tint explicitly, since neither has a brand slot to park the accent in.
+
+## Shape
+
+Shape is a hierarchy axis, so it is a **scale with named steps**, never a per-component radius.
+Arbitrary values (the app previously carried 4, 8, 10, 11, 12, 16, 20 and 22.dp side by side) are
+not permitted; pick the step whose role matches.
+
+| Step | Radius | Role |
+|---|---|---|
+| `extraSmall` | 4 | tags, chips, small indicators |
+| `small` | 10 | list rows, compact cards |
+| `medium` | 16 | standard cards — the default container |
+| `large` | 22 | sheets, prominent cards |
+| `largeIncreased` | 28 | a *selected* or *active* container stepping up one level |
+| `extraLarge` | 32 | full-bleed/hero containers |
+| `extraLargeIncreased` | 40 | the same, stepped up |
+
+The `*Increased` steps exist so an emphasis state can change shape without inventing a radius. Two
+deliberate exceptions: a directional/asymmetric shape (e.g. the alphabetical scroll bar's leading-edge
+rounding) and an animated radius driven by state (the play/pause morph) are not scale steps.
+
+## Spacing
+
+Material lays out on a **4dp grid**, and spacing is a hierarchy signal exactly as shape and type
+are — the gap between two elements states how related they are. Spacing therefore goes through a
+named scale, never a raw number chosen per call site.
+
+| Token | Value | Use |
+|---|---|---|
+| `xxs` | 2 | hairline separation inside a control |
+| `xs` | 4 | tight pairs — a label and its chip |
+| `sm` | 8 | related items in a row |
+| `md` | 12 | list-row internals |
+| `lg` | 16 | the default — screen gutters, card padding, between rows |
+| `xl` | 24 | between groups of content |
+| `xxl` | 32 | between major sections |
+| `xxxl` | 48 | around a lone focal element (empty/error states) |
+
+The scale governs **spacing** — padding, inter-item arrangement, spacers. It deliberately does not
+govern **dimensions**: an icon's size, a stroke width, or a fixed bar height is not a rhythm, and
+forcing it through this scale would be false precision.
+
+Off-grid values are the thing to watch for. Android carried 6, 10, 18, 22 and 44dp alongside grid
+values; a 10dp gap next to a 12dp gap reads as noise rather than hierarchy.
+
+## Motion
+
+Motion communicates hierarchy, continuity, or state — never decoration.
+
+- **Expressive motion** for hero transitions, selection changes, playback/activity, and important
+  state changes.
+- **Standard motion** for repeated utility interactions.
+- Every screen gets **one** principal expressive focal element. *Today only the player satisfies
+  this*; the other eight screens have no focal element yet and are not conformant on this clause.
+  In the player it is the scrubber:
+  **wavy = playing, flat = paused**, morphing between the two rather than switching, so the change
+  itself is legible. The play/pause control echoes it (circle → squircle).
+- Accessibility is not traded for expression: a decorative or duplicated indicator clears its
+  semantics rather than adding a second announced control, and any control that replaces an
+  interactive one must keep that control's semantics (the player draws the wavy indicator but keeps
+  a real slider for seek, keyboard, and TalkBack).
+
+On Android these come from `MaterialExpressiveTheme` + `MotionScheme.expressive()`. iOS and Web have
+no such implementation and reproduce the same behavior in their own idiom.
 
 ## Theme conformance checklist (polish pass)
 
@@ -84,6 +179,17 @@ All three platforms built the base theme before these were finalized — reconci
 
 ## Change log
 
+- **v3** — Adds the **Spacing** scale (4dp grid, named steps, spacing-not-dimensions). Records that
+  the container ramp (`surfaceContainer*`, `surfaceDim/Bright`, `inverseSurface`) must be filled
+  from the palette, because Material components read those slots directly and an unset slot falls
+  back to the M3 baseline palette; and that `outline` takes `neutral` (higher-contrast boundaries,
+  incl. an unchecked switch thumb) while `outlineVariant` takes `border`.
+- **v2** — Material 3 Expressive. Adds the **Shape** scale and the **Motion** contract (expressive
+  vs standard, one focal element per screen, wavy = playing). Rewrites **Interactive controls** so
+  the requirement is stated once and the *mechanism* is per-platform. Records Android's remapped
+  Material slot table: `accent` moves from `surfaceVariant` to `primary` so stock components are
+  correct by default, which retires the per-component `colors()` overrides. Palette values and
+  token semantics are unchanged from v1.
 - **v1** — Initial spec: two named palettes Gaura(light)/Shyam(dark) with exact values from
   `colors.md`, explicit `gaura|shyam|system` selection driving an app-wide repaint, and the semantic
   token contract every component must use.

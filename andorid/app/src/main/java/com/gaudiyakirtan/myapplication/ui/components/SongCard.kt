@@ -1,10 +1,10 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -37,62 +37,58 @@ fun SongCard(
         modifier = Modifier
             .fillMaxWidth()
             .height(56.dp)
-            .clip(RoundedCornerShape(12.dp)),
+            .clip(MaterialTheme.shapes.medium),
         color = MaterialTheme.colorScheme.surface,
         onClick = onClick
     ) {
         Row(
-            modifier = Modifier.padding(horizontal = 10.dp),
+            modifier = Modifier.padding(horizontal = Spacing.md),
             verticalAlignment = Alignment.CenterVertically
         ) {
             Column(modifier = Modifier.weight(1f)) {
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
-                    modifier = Modifier.padding(top = 8.dp)
+                    modifier = Modifier.padding(top = Spacing.sm)
                 ) {
                     // Song title with primary color
                     Text(
                         text = title,
-                        style = MaterialTheme.typography.bodyLarge.copy(
-                            color = MaterialTheme.colorScheme.surfaceVariant,
-                            fontSize = 14.sp
-                        ),
+                        // Type roles, not one-off sizes: a card's song title is a *title*, so it
+                        // takes titleSmall and inherits the scale's weight/tracking contrast.
+                        style = MaterialTheme.typography.titleSmall,
+                        color = MaterialTheme.colorScheme.primary,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis,
                         modifier = Modifier.weight(1f, fill = false)
                     )
 
-                    Spacer(modifier = Modifier.width(6.dp))
+                    Spacer(modifier = Modifier.width(Spacing.sm))
 
                     // UID tag with neutral color background at 20% opacity
                     Box(
                         modifier = Modifier
-                            .clip(RoundedCornerShape(10.dp))
+                            .clip(MaterialTheme.shapes.small)
                             .background(neutralColor.copy(alpha = 0.25f))
-                            .padding(horizontal = 10.dp, vertical = 2.dp)
+                            .padding(horizontal = Spacing.md, vertical = Spacing.xxs)
                     ) {
                         Text(
                             text = uid,
-                            style = MaterialTheme.typography.labelSmall.copy(
-                                color = neutralColor,
-                                fontSize = 10.sp
-                            )
+                            style = MaterialTheme.typography.labelSmall,
+                            color = neutralColor
                         )
                     }
                 }
 
                 Row(
                     verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(6.dp),
-                    modifier = Modifier.padding(bottom = 8.dp)
+                    horizontalArrangement = Arrangement.spacedBy(Spacing.sm),
+                    modifier = Modifier.padding(bottom = Spacing.sm)
                 ) {
                     // Author text with neutral color
                     Text(
                         text = authorName,
-                        style = MaterialTheme.typography.bodyMedium.copy(
-                            color = neutralColor,
-                            fontSize = 13.sp
-                        ),
+                        style = MaterialTheme.typography.bodyMedium,
+                        color = neutralColor,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis
                     )
