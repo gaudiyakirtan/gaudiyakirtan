@@ -32,8 +32,14 @@ struct SongDetailLoader: View {
 /// Single-column, scrollable full-screen reader: per song-detail.md v2 the mobile detail is a
 /// "full-screen reader with the top toolbar and NO bottom tab bar" (the `Song-3`/`Song-4`/`song
 /// view` frames show no tab bar; Android hides it too). The bottom nav is hidden via
-/// `.toolbar(.hidden, for: .tabBar)` scoped to this pushed view — it auto-restores on pop, with no
-/// global `UITabBar.appearance()` side-effect.
+/// `.toolbar(.hidden, for: .tabBar)` scoped to this pushed view, with no global
+/// `UITabBar.appearance()` side-effect.
+///
+/// **The scoped modifier does not restore itself on iOS 26.** This comment used to claim it
+/// auto-restores on pop; measured on iOS 26.5, one visit to this screen removed the tab bar for the
+/// rest of the session (`tabBars.count` 1 → 0, nothing on screen and nothing in the accessibility
+/// tree). Each tab root in `AppNavigation` now states `.toolbar(.visible, for: .tabBar)` so the
+/// restore is explicit; `gk-iosUITests/MiniPlayerBarUITests` pins it.
 ///
 /// Header shows the title/author in the app-wide list language and a play affordance iff the song
 /// has audio; a compact control bar quick-toggles the two verse scripts (display / transliteration),

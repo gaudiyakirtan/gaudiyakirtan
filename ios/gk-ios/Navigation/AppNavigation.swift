@@ -32,6 +32,11 @@ struct AppNavigation: View {
         let id: String
     }
 
+    /// How far the live tab bar rises above the window's own bottom safe area, measured from UIKit
+    /// (`TabBarOverhangReader`). Zero until the first layout, and zero on any OS where the lookup
+    /// fails — which degrades to the previous overlapping layout rather than to a crash or a gap.
+    @State private var tabBarOverhang: CGFloat = 0
+
     enum Tab: String {
         case home, library, collection, search
 
@@ -68,6 +73,16 @@ struct AppNavigation: View {
         TabView(selection: $selection) {
             NavigationView {
                 HomeView()
+                    // Re-assert the tab bar on the way back out of the reader. `SongView` hides it
+                    // with `.toolbar(.hidden, for: .tabBar)` for its full-screen layout and has
+                    // always claimed the modifier "restores automatically when this view is
+                    // popped" — on iOS 26 it does not. Measured: open any song, tap Back, and the
+                    // tab bar is gone for the rest of the session (`tabBars.count` 1 → 0, all four
+                    // items gone from the screen and from the accessibility tree), and the bottom
+                    // safe area collapses to the window, which then drops the mini-player on top of
+                    // where the tab bar used to be. Stating `.visible` on the tab root makes the
+                    // pop restore explicit instead of relying on that.
+                    .toolbar(.visible, for: .tabBar)
                     .navigationBarHidden(true)
             }
             .tag(Tab.home)
@@ -82,6 +97,7 @@ struct AppNavigation: View {
 
             NavigationView {
                 LibraryView()
+                    .toolbar(.visible, for: .tabBar)
                     .navigationBarHidden(true)
             }
             .tag(Tab.library)
@@ -96,6 +112,7 @@ struct AppNavigation: View {
 
             NavigationView {
                 CollectionsView()
+                    .toolbar(.visible, for: .tabBar)
                     .navigationBarHidden(true)
             }
             .tag(Tab.collection)
@@ -112,6 +129,7 @@ struct AppNavigation: View {
 
             NavigationView {
                 SearchView(autofocus: true)
+                    .toolbar(.visible, for: .tabBar)
             }
             .tag(Tab.search)
             .tabItem {
@@ -145,8 +163,18 @@ struct AppNavigation: View {
         .safeAreaInset(edge: .bottom) {
             if audioPlayer.miniPlayerSuppressedByTab != selection.rawValue {
                 MiniPlayerView(onOpenSong: { songToOpen = SongSheetTarget(id: $0) })
+                    // Load-bearing, not cosmetic. A bottom `safeAreaInset` on a `TabView` is laid
+                    // out against the *window's* safe area — the 34 pt home-indicator strip — and
+                    // not above the tab bar, so without this the bar lands directly on top of it.
+                    // Measured on iOS 26.5 / iPhone 17 Pro with the reader never opened (so the
+                    // tab bar is definitely present): tab bar 791–874, bar 784–840. Offsetting by
+                    // the bar's overhang above that safe area (49 pt here) lifts it clear.
+                    .padding(.bottom, tabBarOverhang)
             }
         }
+        // Measures the live tab bar for the offset above. Zero-size, non-interactive, and behind
+        // everything, so it cannot affect layout or hit-testing.
+        .background(TabBarOverhangReader(overhang: $tabBarOverhang))
         // Every pushed screen learns which tab it is in, so song-detail can name its own tab above.
         .environment(\.currentTabID, selection.rawValue)
         // Now Playing (player.md "song-detail play button → ... open/raise the player"; mini-player
@@ -203,5 +231,86 @@ struct AppNavigation: View {
             UINavigationBar.appearance().compactAppearance = appearance
             UINavigationBar.appearance().scrollEdgeAppearance = appearance
         }
+    }
+}
+
+/// Measures how far the live `UITabBar` rises above the window's own bottom safe area.
+///
+/// The mini-player needs this because a SwiftUI `safeAreaInset(edge: .bottom)` on a `TabView` is
+/// laid out against the *window's* safe area, not against the tab bar — so without an explicit
+/// offset the bar covers it. See the inset in `AppNavigation.body` for the measurements.
+///
+/// It reads the real bar rather than using a constant because the value is not one number: it
+/// differs by device, by whether a home indicator exists, and by OS generation (iOS 26's floating
+/// tab bar is not iOS 17's docked one). `frame.height` minus `safeAreaInsets.bottom` isolates the
+/// part the inset does not already account for — 83 − 34 = 49 pt on an iPhone 17 Pro on iOS 26.5.
+///
+/// The framework's own answer to this is `tabViewBottomAccessory`, which is iOS 26-only and absent
+/// from the iOS 18 SDK that CI builds against, so it is not an option here.
+///
+/// Failure is silent and safe: if no tab bar is found the overhang stays 0, which is exactly the
+/// layout this app had before, rather than a crash or a floating gap.
+private struct TabBarOverhangReader: UIViewRepresentable {
+    @Binding var overhang: CGFloat
+
+    func makeUIView(context: Context) -> ProbeView {
+        let view = ProbeView()
+        view.isUserInteractionEnabled = false
+        view.onMeasure = { report($0) }
+        return view
+    }
+
+    func updateUIView(_ view: ProbeView, context: Context) {
+        // Rebind: `self` is a fresh struct on every update, so the closure captured in
+        // `makeUIView` holds a stale `Binding`.
+        view.onMeasure = { report($0) }
+        view.measure()
+    }
+
+    private func report(_ measured: CGFloat) {
+        // Guards the pre-layout zero, and no-op writes that would otherwise re-render the whole
+        // tab tree on every layout pass.
+        guard measured > 0, abs(measured - overhang) > 0.5 else { return }
+        overhang = measured
+    }
+
+    /// Re-measures whenever it enters a window or is laid out, because the tab bar usually has no
+    /// height yet the first time SwiftUI asks.
+    final class ProbeView: UIView {
+        var onMeasure: ((CGFloat) -> Void)?
+
+        override func didMoveToWindow() {
+            super.didMoveToWindow()
+            measure()
+        }
+
+        override func layoutSubviews() {
+            super.layoutSubviews()
+            measure()
+        }
+
+        func measure() {
+            // Deferred: during a layout pass the tab bar may not have its final frame, and writing
+            // to a `@Binding` inside a SwiftUI update pass is a mutation-during-update.
+            DispatchQueue.main.async { [weak self] in
+                guard let self,
+                      let tabBar = self.window?.rootViewController?.tabBarInHierarchy
+                else { return }
+                self.onMeasure?(tabBar.frame.height - tabBar.safeAreaInsets.bottom)
+            }
+        }
+    }
+}
+
+private extension UIViewController {
+    /// The tab bar of the first `UITabBarController` in this controller's subtree. Searched from
+    /// the window root rather than up the responder chain, because SwiftUI hosts the probe outside
+    /// the tab-bar controller — walking up from it never reaches one.
+    var tabBarInHierarchy: UITabBar? {
+        if let tabBarController = self as? UITabBarController { return tabBarController.tabBar }
+        for child in children {
+            if let found = child.tabBarInHierarchy { return found }
+        }
+        return presentedViewController?.tabBarInHierarchy
     }
 }
