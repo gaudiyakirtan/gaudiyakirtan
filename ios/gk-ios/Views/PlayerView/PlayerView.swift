@@ -396,7 +396,9 @@ struct PlayerView: View {
     /// which is exactly what distinguishes it from the take picker's listed order.
     private var queuePanel: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text(player.shuffle ? "Up next (shuffled)" : "Up next")
+            // "Queue", not "Up next": the list is the whole play order, including the take playing
+            // now and the ones already past.
+            Text(player.shuffle ? "Queue (shuffled)" : "Queue")
                 .font(.system(size: 13, weight: .semibold))
                 .foregroundColor(Color.neutral)
 
@@ -456,8 +458,11 @@ struct PlayerView: View {
         }
     }
 
+    /// A take's row label in the picker and queue. `artist` is optional *and* can be present but
+    /// empty in the corpus, so a bare `??` renders a blank row — check for content, not just nil.
     private func takeLabel(_ track: AudioTrack) -> String {
-        track.artist ?? track.uid
+        if let artist = track.artist, !artist.isEmpty { return artist }
+        return track.uid
     }
 
     // MARK: - Actions

@@ -95,8 +95,10 @@ final class TakeQueueTests: XCTestCase {
         )
     }
 
-    /// A single-take song: `.off` stops, `.all` wraps onto the take itself (which
-    /// `AudioPlayerService` performs as a replay rather than a reload).
+    /// A single-take song: `.off` stops, and `.all` wraps onto the take itself — which resolves to
+    /// `.replay`, not `.play` of the uid already loaded. Reloading a take to start it over is a
+    /// different instruction from replaying it, and Android's `resolveTakeEndAction` returns
+    /// `Replay` for this input; the two must not disagree.
     func testSingleTakeSong() {
         XCTAssertEqual(
             TakeQueue.resolveTakeEndAction(
@@ -108,7 +110,7 @@ final class TakeQueueTests: XCTestCase {
             TakeQueue.resolveTakeEndAction(
                 repeatMode: .all, shuffle: false, order: ["bvsm-1"], currentTrackUid: "bvsm-1"
             ),
-            .play(trackUid: "bvsm-1")
+            .replay
         )
     }
 

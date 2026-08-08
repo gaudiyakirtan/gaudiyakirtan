@@ -48,7 +48,15 @@ final class AudioPlayerService: ObservableObject {
     /// disappear) rather than by trying to remove a parent's inset"). Suppression is a property of
     /// the *screen*, never of playback: `close()` deliberately leaves it alone, and leaving
     /// song-detail by any route restores the bar with playback untouched.
-    @Published var isMiniPlayerSuppressed = false
+    ///
+    /// It records **which tab** is suppressing, not merely *that* something is, so the gate can be a
+    /// comparison against the selected tab rather than a flag someone has to remember to clear.
+    /// A bare `Bool` needed clearing on every tab change — including the change *back* to the tab
+    /// whose stack still has song-detail on top, which raced `SongView.onAppear` and could leave the
+    /// full-width bar drawn over the verses (`TabView` does not re-fire `onAppear` consistently).
+    /// Comparing instead means switching away un-suppresses and switching back re-suppresses with no
+    /// write at all, so there is no ordering to get wrong.
+    @Published var miniPlayerSuppressedByTab: String?
 
     /// Shuffle over the song's takes (player.md v14 "Shuffle and repeat operate over the song's
     /// takes, the only queue mobile has"). See `playOrder`.
@@ -191,9 +199,11 @@ final class AudioPlayerService: ObservableObject {
         case .replay:
             replayCurrentTake()
         case .play(let trackUid):
-            // A one-take song under `repeat all` wraps onto itself — that's a replay, not a
-            // reload: `play(song:track:)` would take its already-loaded fast path and `resume()` a
-            // player parked at the end, which plays nothing.
+            // `resolveTakeEndAction` already collapses the wrap-onto-self case to `.replay`, so
+            // this should be unreachable. Kept as a guard rather than deleted because the failure
+            // it prevents is silent: reloading the take that is already open takes
+            // `play(song:track:)`'s fast path and `resume()`s a player parked at the end, which
+            // plays nothing at all.
             guard trackUid != currentTrack?.uid else {
                 replayCurrentTake()
                 return
@@ -211,10 +221,19 @@ final class AudioPlayerService: ObservableObject {
     }
 
     /// Rewinds the loaded take and keeps playing (repeat-one, and the wrap-onto-self case).
+    ///
+    /// Resumes from the seek's completion handler rather than immediately after: repeat-one fires
+    /// at the end of *every* take, unattended and indefinitely, so a `resume()` racing an
+    /// in-flight seek would eventually leave a silent player parked at the end.
     private func replayCurrentTake() {
-        player?.seek(to: .zero)
         currentTime = 0
-        resume()
+        guard let player else {
+            resume()
+            return
+        }
+        player.seek(to: .zero) { [weak self] _ in
+            self?.resume()
+        }
     }
 
     /// Rewinds to the start and parks in `paused` — the pre-v14 behavior, now only the `.stop`

@@ -45,6 +45,9 @@ struct SongView: View {
     @EnvironmentObject private var settings: ReaderSettings
     @EnvironmentObject private var audioPlayer: AudioPlayerService
     @Environment(\.presentationMode) private var presentationMode
+    /// Which tab this reader was pushed inside, so it suppresses only that tab's mini-player inset
+    /// (see the `onAppear`/`onDisappear` pair below).
+    @Environment(\.currentTabID) private var currentTabID
 
     /// Hidden-song display-only collapse (song-detail.md "Hidden song" state). Local to this screen
     /// (not a persisted preference).
@@ -76,14 +79,27 @@ struct SongView: View {
         // The mini-player bar is suppressed here (song-detail.md v7 / player.md v14 — "the
         // reader's bottom edge belongs to the verses, and the pill in the toolbar already carries
         // the playback state"). The bar is a safe-area inset on the root `TabView`, so this screen
-        // can only ask for it: set on appear, cleared on disappear (and, for the tab-switch case
-        // SwiftUI doesn't reliably report, cleared again by `AppNavigation`'s tab `onChange`).
-        // Playback itself is never touched.
-        .onAppear { audioPlayer.isMiniPlayerSuppressed = true }
-        .onDisappear { audioPlayer.isMiniPlayerSuppressed = false }
+        // can only ask for it — by naming the tab it is on, which `AppNavigation` compares against
+        // the selected tab. Switching tabs therefore un-suppresses without anyone clearing a flag,
+        // which is the whole point: SwiftUI does not reliably fire `onAppear`/`onDisappear` for a
+        // pushed view across tab switches, so anything ordering-dependent here is a bug waiting to
+        // happen. Playback itself is never touched.
+        .onAppear { audioPlayer.miniPlayerSuppressedByTab = currentTabID }
+        .onDisappear {
+            // Only release what this screen still owns — a screen that has already been superseded
+            // must not clear a newer reader's suppression.
+            if audioPlayer.miniPlayerSuppressedByTab == currentTabID {
+                audioPlayer.miniPlayerSuppressedByTab = nil
+            }
+        }
     }
 
-    // MARK: - Top toolbar (song-detail.md v7: back · now-playing pill · display controls)
+    // MARK: - Top toolbar (song-detail.md v7: back · now-playing pill)
+    //
+    // v7's toolbar is "back · the now-playing pill · a display-settings control (the 'Aa' menu)".
+    // Only the first two are here: iOS has never had the collapsed "Aa" menu, keeping its script and
+    // gloss controls in the `controlBar` pill row below instead. That divergence predates v7 and
+    // consolidating the reader's controls is its own slice — tracked in implementation-mapping.md.
 
     private var topBar: some View {
         HStack(alignment: .center, spacing: 8) {

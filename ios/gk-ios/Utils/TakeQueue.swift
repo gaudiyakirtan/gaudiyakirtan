@@ -74,7 +74,12 @@ enum TakeQueue {
         ) else {
             return .stop
         }
-        return .play(trackUid: next)
+        // A single-take song under `.all` wraps to itself. Collapse that to `.replay` here rather
+        // than leaving it for the caller: `.play` with the uid already loaded is a different
+        // instruction (reload) from what is meant (start it over), and Android's
+        // `resolveTakeEndAction` returns `Replay` for exactly this input. Two same-named pure
+        // functions must not disagree on identical input.
+        return next == currentTrackUid ? .replay : .play(trackUid: next)
     }
 
     // MARK: - Play order
