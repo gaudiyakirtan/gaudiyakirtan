@@ -1,6 +1,6 @@
 # Shared components
 
-**Spec version:** 5
+**Spec version:** 6
 
 **Figma frames:** `Components`, `Group 15/16`, `Frame *`.
 
@@ -72,6 +72,28 @@ stay legible against the gradient alone. Callers supply `imageSrc` themselves �
 art via `monthImageUrlFor()` (`/assets/months/<gaudiya-month>.jpg`), whose provenance and licensing
 are recorded in `public/assets/months/CREDITS.md`.
 
+## Uid chip
+
+The song code (`A8`, `NK31`, `PT13`) always renders as a **neutral chip** — `--neutral` text at a
+`--neutral` tint of the surface, uppercase, never as bare text and never in a content colour. It is
+metadata, so it stays quiet; only its **density** changes with the surface:
+
+| Variant | Where | Shape / weight |
+|---|---|---|
+| **Row** | [`SongListItem`](songs-list.md), `TrackListItem`, `SongCard` | `--neutral`/20, `rounded-xl` (`rounded-lg` on the smaller card), 9–10 px, medium |
+| **Detail** | [song-detail](song-detail.md)'s title block, the [player](player.md)'s open-song action | `--neutral`/25, **fully rounded**, 10–11 px, semibold |
+
+The detail variant is the one that can be **actionable**. On the player's open-song action the chip
+is the link itself and carries an `ArrowUpRight` inside it after the code — the pill says *which*
+song and the arrow says *opens it*. When a chip is actionable it must: raise its own tint on hover
+(not only the text colour), take the focus ring on the whole chip, and keep the code `aria-hidden`
+when the control already has an `aria-label` naming the song — otherwise the code is announced a
+second time as loose letters.
+
+A chip is never the expressive focal element of a screen. It has no motion of its own; any motion
+belongs to what it contains (the player's arrow animates inside a clipped viewport while the chip
+stays still).
+
 ## Icons
 
 Standardized on **Lucide**, wrapped in `icons/SidebarIcons.tsx` so call sites stay stable if the
@@ -130,6 +152,8 @@ Android `res/font/`) so the wordmark reads identically across platforms. It is a
 ## Verification
 
 - A song row renders identically on every screen that shows songs.
+- Every rendering of a song code is a neutral chip in one of the two documented variants; an
+  actionable one lights its own background on hover and rings the whole chip on focus.
 - The `BrandWordmark` follows the theme colour (no invert hack) and exposes one accessible name, not
   one per letter.
 - No glyph of the wordmark is shaved by a clipping ancestor — including the first letter's left
@@ -142,6 +166,11 @@ Android `res/font/`) so the wordmark reads identically across platforms. It is a
 
 ## Change log
 
+- **v6** — Added the **uid chip** contract. The song code was being re-styled per call site (four
+  variants across the row, the card, song-detail and the player), so making the player's open-song
+  action a uid pill had no rule to conform to. Two variants only — row and detail — plus the
+  actionable-chip requirements (hover tint on the chip, focus ring on the chip, `aria-hidden` code
+  under a labelled control) that [player.md](player.md) v14 is the first to exercise.
 - **v5** — Added the **detail-screen app bar** contract (`GaudiyaTopAppBar` on Android). Five screens
   had each hand-rolled the same back-arrow + title `Row`, so none of them got the platform app bar's
   title truncation, standard navigation-icon touch target, insets, height or typography. It is one

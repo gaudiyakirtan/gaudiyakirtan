@@ -42,6 +42,36 @@ Playback still **degrades gracefully** on any load failure (network off, missing
 - **Mini-player / Track** (`Track`, `trailingIcon2_`): a compact bar (title + play/pause) that can
   sit above the tab bar / in the reader while a track is loaded, tappable to expand to Now Playing.
 
+## What the web mini-player looks like
+
+The expanded card at phone width (390 px), in both palettes. Screenshots live in
+[`docs/screenshots/web/`](../screenshots/web/) and are re-shot when this section changes.
+
+| Gaura | Shyam |
+|---|---|
+| ![Web mini-player card, Gaura palette](../screenshots/web/player-open-song-pill-gaura.png) | ![Web mini-player card, Shyam palette](../screenshots/web/player-open-song-pill-shyam.png) |
+
+Reading the card top to bottom: **artwork** (48 px, the recording's artist image, falling back to
+the music-note mark) · **song title** in the reader's script, clamped to two lines, with the
+**open-song uid pill** as its final inline suffix · the recording's **reciter** · the **play/pause**
+button as the one filled `--highlight` circle on the card, the single expressive focal element ·
+the **scrubber** with elapsed / total times · and the control row — loop, keep-playing,
+sleep-timer, download, share, then the **recordings** picker and **minimize** on the right.
+
+The **open-song uid pill** is the change v14 made: the song code and the arrow inside one
+`--neutral`/25 rounded-full chip, in place of a bare arrow floating after the title.
+
+| Before (v13) — bare arrow | After (v14) — uid pill |
+|---|---|
+| ![Bare open-song arrow after the title](../screenshots/web/player-open-song-before-gaura.png) | ![The uid pill carrying the arrow](../screenshots/web/player-open-song-pill-gaura.png) |
+
+The pill is an inline suffix, not a control parked at the edge of the title column, so a **two-line
+title** carries it on the final line and the line box does not grow:
+
+| Gaura | Shyam |
+|---|---|
+| ![Two-line title with the uid pill on the final line, Gaura](../screenshots/web/player-open-song-pill-two-line-gaura.png) | ![Two-line title with the uid pill on the final line, Shyam](../screenshots/web/player-open-song-pill-two-line-shyam.png) |
+
 ## States
 
 - **Idle** (nothing loaded), **loading**, **playing**, **paused**.
@@ -163,7 +193,9 @@ Playback still **degrades gracefully** on any load failure (network off, missing
 
 ## Change log
 
-- **v14 (web)** — Gave the open-song action the **uid pill**: the song code and the `ArrowUpRight`
+- **v14 (web)** — Added the *What the web mini-player looks like* section (card anatomy +
+  before/after and two-line screenshots at 390 px in both palettes). Gave the open-song action the
+  **uid pill**: the song code and the `ArrowUpRight`
   now share song-detail's neutral rounded-full chip instead of the arrow floating alone after the
   title. A 15 px glyph with no label was both an ambiguous destination and a small target; the pill
   names the song it opens, gives the action a real shape and hit area, and ties the mini-player to

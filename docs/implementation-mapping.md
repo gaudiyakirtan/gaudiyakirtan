@@ -62,7 +62,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | today (v2) — embedded as home §1 | ✅ v2 | — **TODO** | ✅ v2 |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
-| components (v4) | ✅ v4 green | — | — |
+| components (v6) | ✅ v6 green | — | — |
 | collections / books / topics | ✅ | ✅* | ✅ |
 | artist/book images | ✅ | ✅* | ✅ |
 | unit tests | ✅ | ✅* | ✅ |
