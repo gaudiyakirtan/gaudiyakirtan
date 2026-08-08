@@ -65,16 +65,30 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | components (v4) | ✅ v4 green | — | — |
 | collections / books / topics | ✅ | ✅* | ✅ |
 | artist/book images | ✅ | ✅* | ✅ |
-| unit tests | ✅ | ✅* | ✅ 28 green |
+| unit tests | ✅ | ✅* | ✅ 63 green |
 | screenshot tests | ✅ Playwright | — | ✅ Roborazzi (JVM, no device) |
 | resources | 🔨 | — | — |
-| player / now-playing | ✅ v13 green | ⚠️ v14 uncompiled | ✅ v14 green |
+| player / now-playing | ✅ v13 green | ⚠️ v14 uncompiled | ✅ v15 green |
 
 Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbox-blocked; confirm on a real
 Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a
 web surface (navigation v5 / player v13: the web z-index scale and the drawer-over-mini-player
 model), so iOS/Android are not stale against it; they stay conformant at the version before it ·
 `🔨` in progress · `—` not applicable / not on that platform.
+
+### Player v15 — open items
+
+- **iOS `SongView`'s toolbar is not the v7 toolbar.** [song-detail.md](screens/song-detail.md) v7 says
+  "back · the now-playing pill · a display-settings control (the 'Aa' menu)". Android renders exactly
+  that; iOS puts back + pill in its top row but keeps the script/word-by-word/translation/collapse
+  controls in a **separate horizontal pill row below it**. That divergence predates v7 (iOS never had
+  the collapsed "Aa" menu), so v7 didn't cause it — but iOS is not conformant on that clause, and
+  restructuring the reader's controls is its own slice.
+- **iOS `TakeQueue` diverges from Android's on one input.** For a single-take song under repeat-all,
+  Android's `resolveTakeEndAction` returns `Replay` while iOS returns `.play(<the same uid>)` and
+  collapses it in the caller. Behaviour is identical either way, but two same-named "pure" functions
+  returning different values for the same input is a trap for the next caller. See the fix in the
+  player branch.
 
 ### Player v14 — open items
 
