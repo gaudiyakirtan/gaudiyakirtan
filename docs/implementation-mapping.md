@@ -47,7 +47,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 
 | Screen | Web | iOS | Android |
 |--------|-----|-----|---------|
-| song-detail (v7) | ✅ v6 | ⚠️ v7 uncompiled | ✅ v7 green |
+| song-detail (v7) | ✅ v6 | ✅ v7 green (Xcode 26.6) | ✅ v7 green |
 | songs-list / library | ✅ | ✅* | ✅ |
 | tracks (v1) | ✅ | — | — |
 | authors | ✅ | ✅* | ✅ |
@@ -68,7 +68,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | unit tests | ✅ | ✅* | ✅ 28 green |
 | screenshot tests | ✅ Playwright | — | ✅ Roborazzi (JVM, no device) |
 | resources | 🔨 | — | — |
-| player / now-playing | ✅ v13 green | ⚠️ v14 uncompiled | ✅ v14 green |
+| player / now-playing | ✅ v13 green | ✅ v14 green (Xcode 26.6) | ✅ v14 green |
 
 Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbox-blocked; confirm on a real
 Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a
@@ -81,8 +81,12 @@ model), so iOS/Android are not stale against it; they stay conformant at the ver
 - **The `ʷ` footnote no longer applies to the player row.** It meant "the newest spec version is
   web-only, so mobile isn't stale against it". v14 is a *mobile* version, so iOS and Android are now
   measured against it directly. Web stays conformant at v13 and is not stale.
-- **iOS v14 is `⚠️ uncompiled`** for the same reason as settings v5 — written where no Swift
-  toolchain exists. `TakeQueueTests` has never run.
+- **iOS v14 is built, tested and rendered.** Xcode 26.6, iPhone 17 Pro simulator, iOS 26.5:
+  `xcodebuild build` succeeds and `xcodebuild test` is **70/70 green**, including all 16
+  `TakeQueueTests`. The player was exercised against real streamed audio from the S3 bucket, and the
+  song screen, the loaded/unloaded toolbar pill and Now Playing (playing + paused) were captured in
+  both palettes — [`docs/screenshots/ios/`](screenshots/ios/). Mini-player suppression on the reader
+  was confirmed visually: no bottom bar is present on song-detail in any capture.
 - **Mobile has no book/topic queue**, so `shuffle`/`repeatMode` scope to a song's **takes**. Web's
   richer queue (`queueContext`, endless play, sleep timer) has no mobile counterpart, and the
   "queue" action on mobile therefore shows the takes in resolved play order. If a collection queue
