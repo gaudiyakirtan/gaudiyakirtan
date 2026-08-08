@@ -59,7 +59,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | settings | ✅ | ✅* | ✅ |
 | theme (v3 — Gaura/Shyam + expressive + spacing) | ⏳ v1 | ⏳ v1* | 🔨 v3 partial |
 | home (v3 — re-purposed) | ✅ | — | 🔨 v3 partial |
-| today (v1) — embedded as home §1 | ✅ | — | — |
+| today (v2) — embedded as home §1 | ✅ v2 | — **TODO** | ✅ v2 |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
 | components (v4) | ✅ v4 green | — | — |
@@ -115,6 +115,20 @@ played** (region 2) does not exist on Android at all. One further divergence is 
 but in the shared row: `SongListItem` colors its title `colorScheme.primary`, which the theme v2
 remap turned into the *accent*, so Android's list titles read gold where web's read as primary
 text. That affects every list screen and should be fixed as its own slice, not here.
+
+**today v2 — the basis-sort withdrawal, and the iOS TODO.** v1 required ordering a month's songs by
+`basis` strength; v2 withdraws that and makes the shipped `song_uids` sequence the ranking, with a
+stable playable-first partition as the only permitted reordering. The conflict surfaced by rendering
+both platforms' Śrāvaṇa list side by side: web preserved the curated order (`B25, B26, VT3, GN1`)
+while Android sorted by basis (`B25, VT3, B26, GN1`). Web's behavior was judged the better one, so
+the spec moved to it rather than the other way round — web is conformant unchanged, and Android now
+pins that exact sequence in a regression test.
+
+> **TODO — iOS.** iOS implements *neither* version of this component: it bundles `calendar.json` and
+> has no calendar code at all (zero matches across every `.swift` file), so home has no "this month"
+> region. Whenever iOS picks this up it should implement **v2 directly** and must not re-introduce
+> the basis sort. The shape to copy is `CalendarRepositoryLogic` on Android or `calendarRepository.ts`
+> on web — both are pure and directly portable.
 
 **Web and iOS are `⏳ v1`, not behind schedule.** v2's slot remap is an Android *mechanism* and does
 not apply to them. What does apply is the new **Shape** scale and **Motion** contract — neither

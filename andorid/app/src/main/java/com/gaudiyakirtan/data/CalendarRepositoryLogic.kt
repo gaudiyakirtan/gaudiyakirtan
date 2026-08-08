@@ -51,23 +51,33 @@ object CalendarRepositoryLogic {
     }
 
     /**
-     * The month's songs resolved against the manifest and ordered for display.
+     * The month's songs resolved against the manifest and ordered for display
+     * (docs/screens/today.md **v2**, "Ranking and provenance").
      *
-     * Two orderings compose, both from the specs:
-     * 1. **Evidence strength** (docs/screens/today.md): `observed` → `panjika` → `book` →
-     *    `thematic`, so a song with dated recordings outranks a subject-matter guess.
-     * 2. **Playable first** (docs/screens/home.md): a *stable* partition putting songs with
-     *    recordings ahead of the rest, so the lead region opens with what the reader can actually
-     *    hear. Stable means basis ranking still governs within each run.
+     * **The shipped `song_uids` order is the ranking.** `calendar.json` curates each month as a
+     * sequence, so it is preserved rather than re-sorted. The one permitted reordering is a stable
+     * partition putting songs with recordings first, so the lead region opens with what the reader
+     * can actually hear; relative order inside each run is untouched.
+     *
+     * A partition rather than a comparator keyed on `audioAvailable`: a sort on a boolean is not
+     * guaranteed stable across runtimes, and an unstable one would reshuffle same-audio songs and
+     * lose the curated sequence.
+     *
+     * Spec v1 sorted by `basis` strength here, and that is withdrawn. `basis` records *why* a song
+     * belongs to the month, not what order to sing it in, and sorting on it split songs curated
+     * together — in Śrāvaṇa it lifted a lone `panjika` song above two adjacent `book` ones, which
+     * is how the divergence from web was noticed. [basisRank] is kept for any surface that wants to
+     * weigh provenance, but it is deliberately not applied here.
+     *
+     * No display cap: capping is a UI concern (today.md v2), so the full ordered list stays
+     * available to every surface.
      *
      * Uids missing from the manifest are dropped silently, exactly as `songsInGroup` does.
      */
     fun monthSongs(month: CalendarMonth, manifest: List<ManifestEntry>): List<ManifestEntry> {
         val byUid = manifest.associateBy { it.uid }
-        val ranked = month.songs
-            .sortedBy { basisRank(it.basis) }
-            .mapNotNull { byUid[it.uid] }
-        val (playable, rest) = ranked.partition { it.audioAvailable }
+        val resolved = month.songs.mapNotNull { byUid[it.uid] }
+        val (playable, rest) = resolved.partition { it.audioAvailable }
         return playable + rest
     }
 }

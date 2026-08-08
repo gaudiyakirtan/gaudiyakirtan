@@ -81,15 +81,17 @@ class CalendarRepositoryLogicTest {
     }
 
     /**
-     * Ordering is the two spec rules composed: evidence strength first (today.md), then a *stable*
-     * playable-first partition (home.md). Stable matters — it is what keeps basis ranking governing
-     * inside each run instead of being scrambled by the partition.
+     * Ordering per today.md **v2**: the shipped sequence is the ranking, and the only reordering is
+     * a *stable* playable-first partition.
+     *
+     * The stability half is the part worth testing. v1 sorted by `basis` here, which silently
+     * fragmented months curated as a sequence — Śrāvaṇa ships `B25(book), B26(book), VT3(panjika),
+     * GN1(thematic)` and the sort lifted VT3 above the two adjacent book songs, putting Android out
+     * of step with web. A regression back to any comparator would fail this.
      */
     @Test
-    fun `month songs put playable first without breaking basis ranking`() {
-        val month = calendar.months.first { m ->
-            m.songs.any { it.basis != m.songs.first().basis } && m.songs.size > 3
-        }
+    fun `month songs put playable first while preserving the shipped sequence`() {
+        val month = calendar.months.first { it.songs.size > 3 }
         val ordered = CalendarRepositoryLogic.monthSongs(month, manifest)
 
         val firstNonPlayable = ordered.indexOfFirst { !it.audioAvailable }
@@ -100,14 +102,30 @@ class CalendarRepositoryLogicTest {
             )
         }
 
-        // Within the playable run, basis rank must be non-decreasing.
-        val rankByUid = month.songs.associate { it.uid to com.gaudiyakirtan.myapplication.models.basisRank(it.basis) }
-        val playableRanks = ordered.filter { it.audioAvailable }.mapNotNull { rankByUid[it.uid] }
+        // Each run, read on its own, must still be in shipped order.
+        val shipped = month.songs.map { it.uid }.filter { uid -> manifest.any { it.uid == uid } }
+        val playable = ordered.filter { it.audioAvailable }.map { it.uid }
+        val rest = ordered.filterNot { it.audioAvailable }.map { it.uid }
+
         assertEquals(
-            "basis ranking must still govern inside the playable run",
-            playableRanks.sorted(),
-            playableRanks
+            "the playable run must keep the month's shipped order",
+            shipped.filter { it in playable },
+            playable
         )
+        assertEquals(
+            "the non-playable run must keep the month's shipped order",
+            shipped.filter { it in rest },
+            rest
+        )
+    }
+
+    /** The concrete case that exposed the divergence, pinned so it cannot drift back. */
+    @Test
+    fun `Sravana resolves in its shipped order with the playable song lifted`() {
+        val sravana = calendar.months.first { it.lunarMonth.startsWith("Śrāvaṇa") }
+        val ordered = CalendarRepositoryLogic.monthSongs(sravana, manifest).map { it.uid }
+
+        assertEquals(listOf("B25", "B26", "VT3", "GN1"), ordered)
     }
 
     /** Uids with no manifest row are dropped, exactly as `songsInGroup` does. */
