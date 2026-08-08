@@ -7,9 +7,11 @@ test('open-song action returns to the loaded song instead of the differently arm
   // A song page arms its idle player circle. Starting it loads A8 into the global player; playback
   // itself may succeed or reach the supported error state without changing this navigation test.
   await page.getByRole('button', { name: 'Play', exact: true }).last().click()
-  const openLoadedSong = page.getByRole('link', { name: 'Open song “yaśomatī-nandana”' })
+  const openLoadedSong = page.getByRole('link', { name: 'Open song “yaśomatī-nandana” (A8)' })
   await expect(openLoadedSong).toBeVisible()
-  await expect(openLoadedSong).toHaveAttribute('title', 'Open song “yaśomatī-nandana”')
+  await expect(openLoadedSong).toHaveAttribute('title', 'Open song “yaśomatī-nandana” (A8)')
+  // The action is the loaded song's uid pill, so it names the song it opens on its face.
+  await expect(openLoadedSong.getByTestId('open-song-uid')).toHaveText('A8')
 
   await page.getByRole('button', { name: 'Collapse player' }).click()
   await expect(openLoadedSong).toHaveCount(0)
@@ -33,23 +35,31 @@ test('open-song action returns to the loaded song instead of the differently arm
 
   // The same action is still present: navigation preserved the loaded player session rather than
   // replacing it with the destination page's armed song or remounting the provider.
-  await expect(page.getByRole('link', { name: 'Open song “yaśomatī-nandana”' })).toBeVisible()
+  await expect(page.getByRole('link', { name: 'Open song “yaśomatī-nandana” (A8)' })).toBeVisible()
 })
 
-test('open-song arrow follows the final line of a wrapped title and animates in place', async ({ page }) => {
+test('open-song uid pill follows the final line of a wrapped title and animates in place', async ({ page }) => {
   // Match the phone-width acceptance screenshot and exercise the two-line hyphenated-title case.
   await page.setViewportSize({ width: 390, height: 844 })
   await page.goto('/songs/NK31')
   await page.getByRole('button', { name: 'Play', exact: true }).last().click()
 
-  const openSong = page.getByRole('link', { name: 'Open song “aṅga-upāṅga-astra-pārṣada-saṅge”' })
+  const openSong = page.getByRole('link', { name: 'Open song “aṅga-upāṅga-astra-pārṣada-saṅge” (NK31)' })
   const title = page.getByTestId('player-song-title-text')
   await expect(openSong).toBeVisible()
-  await expect(title).toHaveText('aṅga-upāṅga-astra-pārṣada-saṅge')
+  // The pill lives inside the title's inline flow, so read the title without the action to check
+  // that the rendered song title itself is untouched.
+  await expect
+    .poll(() => title.evaluate((node) => {
+      const withoutAction = node.cloneNode(true) as HTMLElement
+      withoutAction.querySelectorAll('a').forEach((a) => a.remove())
+      return withoutAction.textContent
+    }))
+    .toBe('aṅga-upāṅga-astra-pārṣada-saṅge')
 
   const measureInlineLayout = () => page.evaluate(() => {
     const titleNode = document.querySelector<HTMLElement>('[data-testid="player-song-title-text"]')
-    const link = document.querySelector<HTMLElement>('[aria-label="Open song “aṅga-upāṅga-astra-pārṣada-saṅge”"]')
+    const link = document.querySelector<HTMLElement>('a[aria-label^="Open song “aṅga-upāṅga-astra-pārṣada-saṅge”"]')
     const suffixNode = document.querySelector<HTMLElement>('[data-testid="player-song-title-suffix"]')
     const text = suffixNode?.firstChild
     if (!titleNode || !link || !text?.textContent) return null
@@ -62,6 +72,8 @@ test('open-song arrow follows the final line of a wrapped title and animates in 
 
     return {
       titleLineCount: titleNode.getClientRects().length,
+      // The pill must ride inside the title's own line box, not grow it.
+      pillOverflowsLine: linkRect.height > glyphRect.height,
       horizontalGap: linkRect.left - glyphRect.right,
       verticalCenterDelta: Math.abs(
         (linkRect.top + linkRect.height / 2) - (glyphRect.top + glyphRect.height / 2),
@@ -75,6 +87,19 @@ test('open-song arrow follows the final line of a wrapped title and animates in 
   expect(inlineLayout!.horizontalGap).toBeGreaterThanOrEqual(0)
   expect(inlineLayout!.horizontalGap).toBeLessThanOrEqual(8)
   expect(inlineLayout!.verticalCenterDelta).toBeLessThanOrEqual(4)
+  expect(inlineLayout!.pillOverflowsLine).toBe(false)
+
+  // Pill shape + the uid it carries: the same neutral pill song-detail uses for the song code.
+  await expect(openSong.getByTestId('open-song-uid')).toHaveText('NK31')
+  // `rounded-full` resolves to an effectively infinite radius, so assert the shape (fully rounded
+  // ends) rather than a literal px value.
+  const pill = await openSong.evaluate((node) => ({
+    radius: parseFloat(getComputedStyle(node).borderTopLeftRadius),
+    height: node.getBoundingClientRect().height,
+    background: getComputedStyle(node).backgroundColor,
+  }))
+  expect(pill.radius).toBeGreaterThanOrEqual(pill.height / 2)
+  expect(pill.background).not.toBe('rgba(0, 0, 0, 0)')
 
   const arrowViewport = openSong.getByTestId('open-song-arrow-viewport')
   const arrowGlyph = openSong.getByTestId('open-song-arrow-glyph')

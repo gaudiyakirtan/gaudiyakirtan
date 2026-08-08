@@ -62,17 +62,18 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | today (v2) — embedded as home §1 | ✅ v2 | — **TODO** | ✅ v2 |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
-| components (v4) | ✅ v4 green | — | — |
+| components (v6) | ✅ v6 green | — | — |
 | collections / books / topics | ✅ | ✅* | ✅ |
 | artist/book images | ✅ | ✅* | ✅ |
 | unit tests | ✅ | ✅* | ✅ |
 | resources | 🔨 | — | — |
-| player / now-playing | ✅ v13 green | ✅* ʷ | ✅ ʷ |
+| player / now-playing | ✅ v14 green | ✅* ʷ | ✅ ʷ |
 
 Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbox-blocked; confirm on a real
 Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a
-web surface (navigation v5 / player v13: the web z-index scale and the drawer-over-mini-player
-model), so iOS/Android are not stale against it; they stay conformant at the version before it ·
+web surface (navigation v5 / player v14: the web z-index scale, the drawer-over-mini-player model,
+and the open-song uid pill), so iOS/Android are not stale against it; they stay conformant at the
+version before it ·
 `🔨` in progress · `—` not applicable / not on that platform.
 
 **theme v3 (Material 3 Expressive) — Android is `🔨 partial`.** Landed: `MaterialExpressiveTheme` +
