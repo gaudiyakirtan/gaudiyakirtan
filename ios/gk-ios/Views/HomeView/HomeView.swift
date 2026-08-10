@@ -38,6 +38,15 @@ struct HomeView: View {
                 .padding(.top, 8)
                 .padding(.bottom, 12)
 
+                // 1. This month (docs/screens/home.md §1) — Home's lead region and the only one
+                // that changes on its own. Hidden entirely when today falls outside the calendar's
+                // precomputed window range, rather than showing a wrong month.
+                if let thisMonth = viewModel.thisMonth {
+                    ThisMonthSection(today: thisMonth, songs: viewModel.thisMonthSongs)
+                        .padding(.horizontal)
+                        .padding(.bottom, 16)
+                }
+
                 // Songs section with no bottom padding
                 SongsGridView(songs: filteredSongs)
                     .padding(.horizontal)

@@ -140,7 +140,9 @@ left open across midnight does not keep showing yesterday.
   error, not fabricated rows.
 - On a date outside the precomputed range, the component is absent — never a wrong month.
 - Titles resolve through the Manifest and follow the reader's script setting.
-- Songs are ordered by `basis` strength.
+- Songs are ordered by the month's shipped `song_uids` sequence, with playable songs lifted to the
+  front by a **stable** partition — same-audio songs must keep their relative order. `basis` is not a
+  sort key (see "Why not sort by `basis`" above); a `basis`-ordered list is a failure, not a pass.
 - **Web only:** the rendered month reflects the *viewer's* date, not the build date. Verify by
   building, then loading with an overridden clock — a statically-baked month is the specific failure
   this catches.
@@ -155,6 +157,8 @@ left open across midnight does not keep showing yesterday.
   behaved this way and was the drift that surfaced the question — the conflict was found by
   rendering both platforms' Śrāvaṇa list side by side and finding them ordered differently. `basis`
   is retained as provenance metadata; it is no longer a sort key. Also records that a display cap
-  (web: 6) belongs in the UI, never in the data layer.
+  (web: 6) belongs in the UI, never in the data layer. *(Editorial follow-up, no version bump: the
+  Verification list still carried v1's "ordered by `basis` strength" bullet, contradicting this
+  entry. Replaced with the v2 rule.)*
 - **v1** — Initial spec: data bindings, states (incl. the real empty-month case), basis ranking,
   honesty constraints, the web static-generation trap, per-platform date handling.

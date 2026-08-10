@@ -17,7 +17,7 @@ Legend: `—` not started · `⏳ stale` (spec ahead of code) · `🔨 in progre
 | [author](data/author.md) | v1 | ✅ | ✅* | ✅ |
 | [collections](data/collections.md) | v1 | ✅ | ✅* | ✅ |
 | [manifest](data/manifest.md) | v1 | ✅ | ✅* | ✅ |
-| [calendar](data/calendar.md) | v2 | ✅ | — | ✅ |
+| [calendar](data/calendar.md) | v2 | ✅ | ✅ v2 | ✅ |
 | [pipeline](data/pipeline.md) | v1 | n/a | n/a | n/a |
 
 > **✅\* iOS**: data layer typechecks clean (`swiftc -typecheck`, 0 errors, verified independently)
@@ -34,8 +34,8 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | Real corpus loaded (no sampleData) | ✅ | ✅* | ✅ |
 | Offline store (static bundle / Core Data / Room) | ✅ static | ✅ bundle | ✅ assets |
 | Repository over Manifest | ✅ | ✅* | ✅ |
-| Calendar overlay (lunar month → songs) | ✅ | — | ✅ |
-| Home renders the calendar (month + songs) | ✅ | — | ✅ |
+| Calendar overlay (lunar month → songs) | ✅ | ✅ | ✅ |
+| Home renders the calendar (month + songs) | ✅ | ✅ | ✅ |
 | Recently played (device-local history) | ✅ | — | — |
 | Search (fuzzy) | ✅ | ✅ | ✅ |
 
@@ -59,7 +59,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | settings | ✅ | ✅* | ✅ |
 | theme (v3 — Gaura/Shyam + expressive + spacing) | ⏳ v1 | ⏳ v1* | 🔨 v3 partial |
 | home (v3 — re-purposed) | ✅ | — | 🔨 v3 partial |
-| today (v2) — embedded as home §1 | ✅ v2 | — **TODO** | ✅ v2 |
+| today (v2) — embedded as home §1 | ✅ v2 | ✅ v2 | ✅ v2 |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
 | components (v6) | ✅ v6 green | — | — |
@@ -117,7 +117,7 @@ but in the shared row: `SongListItem` colors its title `colorScheme.primary`, wh
 remap turned into the *accent*, so Android's list titles read gold where web's read as primary
 text. That affects every list screen and should be fixed as its own slice, not here.
 
-**today v2 — the basis-sort withdrawal, and the iOS TODO.** v1 required ordering a month's songs by
+**today v2 — the basis-sort withdrawal.** v1 required ordering a month's songs by
 `basis` strength; v2 withdraws that and makes the shipped `song_uids` sequence the ranking, with a
 stable playable-first partition as the only permitted reordering. The conflict surfaced by rendering
 both platforms' Śrāvaṇa list side by side: web preserved the curated order (`B25, B26, VT3, GN1`)
@@ -125,11 +125,35 @@ while Android sorted by basis (`B25, VT3, B26, GN1`). Web's behavior was judged 
 the spec moved to it rather than the other way round — web is conformant unchanged, and Android now
 pins that exact sequence in a regression test.
 
-> **TODO — iOS.** iOS implements *neither* version of this component: it bundles `calendar.json` and
-> has no calendar code at all (zero matches across every `.swift` file), so home has no "this month"
-> region. Whenever iOS picks this up it should implement **v2 directly** and must not re-introduce
-> the basis sort. The shape to copy is `CalendarRepositoryLogic` on Android or `calendarRepository.ts`
-> on web — both are pure and directly portable.
+> **✅ iOS — v2, verified on macOS.** iOS now has the slice: `CalendarModels.swift`,
+> `CalendarRepositoryLogic` (pure, ported from Android's), `CalendarRepository` (bundled
+> `calendar.json`, injectable `Bundle`, `assertionFailure` + empty fallback), the `HomeViewModel`
+> wiring incl. `significantTimeChangeNotification` re-resolution, `ThisMonthSection` in `HomeView`,
+> and `CalendarRepositoryTests` mirroring Android's cases with the Śrāvaṇa and Kārtika sequences
+> pinned. Ordering is v2's: shipped sequence preserved, one stable playable-first partition (two
+> order-preserving `filter` passes — Swift's `sort` and `partition(by:)` are both unstable), no basis
+> sort; the display cap (6) lives in the view.
+>
+> **Verifier run — Xcode 26.6 (17F113), iPhone 17 Pro simulator, iOS 26.5 runtime:** `xcodebuild
+> build` **BUILD SUCCEEDED** with zero source changes needed, and `xcodebuild test` is **55/55
+> passed, 0 failed, 0 skipped** — including all **16** `CalendarRepositoryTests` (the PR body said 14;
+> the file has 16). Home's this-month region was rendered and screenshotted in both palettes:
+> [`screenshots/ios/home-gaura.png`](screenshots/ios/home-gaura.png) ·
+> [`screenshots/ios/home-shyam.png`](screenshots/ios/home-shyam.png). Both of the previously-flagged
+> assumptions **held**: the `PBXFileSystemSynchronizedRootGroup`s did pick up all four new `.swift`
+> files (confirmed in the compiled `SwiftFileList`, `.pbxproj` still untouched), and
+> `Resources/months/vamana.jpg` lands in the flattened bundle root where `ImageConfig` looks
+> (`testOnlyVamanaShipsBannerArtwork` passes).
+>
+> **Caveat carried by [`claude/ios-build-unblock`](https://github.com/gaudiyakirtan/gaudiyakirtan/pull/52):**
+> the build only succeeds with `IPHONEOS_DEPLOYMENT_TARGET` raised **15.6 → 17.0**. That is a product
+> decision needing human sign-off — it drops iOS 15 and 16 devices. Verification here was on iOS
+> **26.5**; nothing has been run against a real 17.x device.
+>
+> Still missing against web, as on Android: the per-row **recording picker**, which needs player
+> wiring. The Vāmana **artwork** banner path is covered by a unit test but has not been *rendered* —
+> today (2026-08-07) falls in Śrāvaṇa, which correctly takes the gradient path, and the simulator's
+> date was not moved to force the artwork case.
 
 **Web and iOS are `⏳ v1`, not behind schedule.** v2's slot remap is an Android *mechanism* and does
 not apply to them. What does apply is the new **Shape** scale and **Motion** contract — neither
