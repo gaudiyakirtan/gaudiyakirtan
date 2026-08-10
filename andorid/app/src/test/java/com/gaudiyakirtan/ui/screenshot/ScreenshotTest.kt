@@ -9,7 +9,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.test.junit4.createAndroidComposeRule
 import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.compose.ui.test.hasClickAction
+import androidx.compose.ui.test.hasSetTextAction
 import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.performTextInput
 import com.github.takahirom.roborazzi.captureRoboImage
 import com.gaudiyakirtan.data.SongJson
 import com.gaudiyakirtan.data.TestAssets
@@ -96,6 +99,33 @@ class ScreenshotTest {
 
     @Test fun `search gaura`() = capture("search", false) { SearchScreen() }
     @Test fun `search shyam`() = capture("search", true) { SearchScreen() }
+
+    /**
+     * Search with a query typed in. The idle frame above is deliberately empty (docs/screens/search.md:
+     * nothing renders until the reader types), so it shows no rows -- and search is one of the screens
+     * that reuses `SongListItem`. This variant drives the field so the result rows are actually visible.
+     */
+    private fun captureSearchResults(darkTheme: Boolean) {
+        composeRule.setContent {
+            GaudiyaKirtanTheme(darkTheme = darkTheme) {
+                Surface(modifier = Modifier.fillMaxSize()) { SearchScreen() }
+            }
+        }
+        // Plain-ASCII query: corpus titles carry IAST diacritics, and matching one through the
+        // fuzzy engine is the realistic case (a reader types "jaya", not "jaẏa").
+        composeRule.onNode(hasSetTextAction()).performTextInput("jaya")
+        // The clear button is itself clickable, so wait for more than the field's own controls --
+        // rows only exist once the debounced search has actually returned hits.
+        composeRule.waitUntil(timeoutMillis = 10_000) {
+            composeRule.onAllNodes(hasClickAction()).fetchSemanticsNodes().size > 2
+        }
+        composeRule.waitForIdle()
+        val palette = if (darkTheme) "shyam" else "gaura"
+        composeRule.onRoot().captureRoboImage("$outDir/search-results-$palette.png")
+    }
+
+    @Test fun `search results gaura`() = captureSearchResults(false)
+    @Test fun `search results shyam`() = captureSearchResults(true)
 
     @Test fun `collections gaura`() = capture("collections", false) { CollectionsScreen() }
     @Test fun `collections shyam`() = capture("collections", true) { CollectionsScreen() }

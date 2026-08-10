@@ -50,13 +50,15 @@ fun SongCard(
                     verticalAlignment = Alignment.CenterVertically,
                     modifier = Modifier.padding(top = Spacing.sm)
                 ) {
-                    // Song title with primary color
+                    // Song title in primary *text* color -- see SongListItem for why this is
+                    // `onSurface` and not `colorScheme.primary` (which carries the accent since
+                    // theme.md v2). Web's SongCard paints the same element with `--primary`.
                     Text(
                         text = title,
                         // Type roles, not one-off sizes: a card's song title is a *title*, so it
                         // takes titleSmall and inherits the scale's weight/tracking contrast.
                         style = MaterialTheme.typography.titleSmall,
-                        color = MaterialTheme.colorScheme.primary,
+                        color = MaterialTheme.colorScheme.onSurface,
                         maxLines = 1,
                         overflow = TextOverflow.Ellipsis,
                         modifier = Modifier.weight(1f, fill = false)
