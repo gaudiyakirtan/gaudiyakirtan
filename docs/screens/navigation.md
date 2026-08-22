@@ -34,6 +34,10 @@ The global shortcut set currently contains one action:
 |---------|----------|-------|
 | Search (desktop sidebar and mobile top bar) | `⌘/Control + K` | Anywhere in the web app |
 
+| Normal page | Command held |
+|---|---|
+| ![No shortcut keycaps in the normal page state](../screenshots/keyboard-shortcuts-page-before.png) | ![Command K revealed at Search](../screenshots/keyboard-shortcuts-page-after.png) |
+
 - A modifier press by itself performs no action, moves no focus, and prevents no browser behavior.
 - A revealed keycap is positioned inside or beside its control without changing that control's
   size or moving adjacent content. It is visual help only (`aria-hidden`); the actionable control

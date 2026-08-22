@@ -155,6 +155,10 @@ behind it to dim). It reads like a dedicated mobile search screen.
   is reserved on a touch-only phone. Releasing the modifier or losing page focus hides them. The
   hints are `aria-hidden`; the dialog/input/result semantics remain the accessibility contract.
 
+  | Normal Search | Command held |
+  |---|---|
+  | ![Search without shortcut labels](../screenshots/keyboard-shortcuts-search-before.png) | ![Search showing Escape, Enter, and arrow-key hints](../screenshots/keyboard-shortcuts-search-after.png) |
+
 ## States
 
 - **Empty query:** idle state (no results list).
