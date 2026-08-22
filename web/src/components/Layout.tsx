@@ -11,6 +11,8 @@ import { ReaderOptions } from "./ReaderOptions";
 import { ServiceWorkerRegistration } from "./ServiceWorkerRegistration";
 import { useMobileHeaderVisibility } from "../utils/useMobileHeaderVisibility";
 import { LAYER } from "../utils/layers";
+import { useShortcutReveal } from "../utils/useShortcutReveal";
+import { ShortcutHint } from "./ShortcutHint";
 
 // The Tailwind `md:` breakpoint, the same one that gates the mobile header and the drawer's scrim.
 const DESKTOP_QUERY = "(min-width: 768px)";
@@ -27,6 +29,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
   const [searchOpen, setSearchOpen] = useState(false);
   const router = useRouter();
   const { hidden: mobileHeaderHidden, reveal: revealMobileHeader } = useMobileHeaderVisibility(router);
+  const shortcutReveal = useShortcutReveal();
 
   const openMobileMenu = useCallback(() => {
     revealMobileHeader();
@@ -108,6 +111,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
         collapsed={collapsed}
         setCollapsed={updateCollapsed}
         onOpenSearch={openSearch}
+        shortcutReveal={shortcutReveal}
       />
 
       {/* When the sidebar is collapsed (fully off-canvas), a floating button reopens it (desktop). */}
@@ -173,13 +177,21 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
             <button
               type="button"
               aria-label="Search"
+              aria-keyshortcuts="Meta+K Control+K"
               onClick={openSearch}
-              className="inline-flex h-10 w-10 flex-none items-center justify-center text-[var(--neutral)]"
+              className="relative inline-flex h-10 w-10 flex-none items-center justify-center text-[var(--neutral)]"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" />
               </svg>
+              <ShortcutHint
+                compact
+                visible={shortcutReveal.active}
+                label={`${shortcutReveal.label} K`}
+                testId="mobile-search-shortcut"
+                className="absolute -bottom-1 -right-1"
+              />
             </button>
           </div>
         </header>
@@ -199,7 +211,11 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
       </div>
 
       <PlayerWidget obscured={sidebarOpen} />
-      <SearchModal open={searchOpen} onClose={() => setSearchOpen(false)} />
+      <SearchModal
+        open={searchOpen}
+        onClose={() => setSearchOpen(false)}
+        shortcutReveal={shortcutReveal}
+      />
       <ServiceWorkerRegistration />
     </div>
   );

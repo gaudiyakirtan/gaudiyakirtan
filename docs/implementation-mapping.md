@@ -51,7 +51,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | songs-list / library | ✅ | ✅* | ✅ |
 | tracks (v1) | ✅ | — | — |
 | authors | ✅ | ✅* | ✅ |
-| search | ✅ v10 | ✅ | ✅ |
+| search | ✅ v11 green | ✅ | ✅ |
 | url-resolution (v1) / 404 | ✅ | n/a | n/a |
 | pwa (v1) — offline/install | ✅ | n/a | n/a |
 | seo (v1) — metadata/sitemap | ✅ | n/a | n/a |
@@ -60,7 +60,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | theme (v3 — Gaura/Shyam + expressive + spacing) | ⏳ v1 | ⏳ v1* | 🔨 v3 partial |
 | home (v3 — re-purposed) | ✅ | — | 🔨 v3 partial |
 | today (v2) — embedded as home §1 | ✅ v2 | — **TODO** | ✅ v2 |
-| navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
+| navigation (v6) | ✅ v6 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
 | components (v6) | ✅ v6 green | — | — |
 | collections / books / topics | ✅ | ✅* | ✅ |
