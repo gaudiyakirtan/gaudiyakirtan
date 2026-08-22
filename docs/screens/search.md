@@ -1,6 +1,6 @@
 # Screen — Search
 
-**Spec version:** 10
+**Spec version:** 11
 
 **Figma frames:** `Search`, `Search-1`.
 
@@ -71,8 +71,8 @@ first paint is already correct and there is nothing to hydrate into.
 
 Unchanged from v2: a `max-w-xl` card, 12 vh from the top, over a dimmed blurred backdrop; rounded
 `2xl` corners, a border and a shadow; the results region caps at `55 vh`; the footer keyboard hints
-(`⏎ open`, `↑↓ navigate`, result count) and the `Esc` key cap are shown; clicking the backdrop
-dismisses.
+(`⏎ open`, `↑↓ navigate`) and the `Esc` key cap are revealed while Command or Control is held;
+clicking the backdrop dismisses.
 
 ### Mobile (`< 768 px`) — full-screen search page
 
@@ -148,6 +148,12 @@ behind it to dim). It reads like a dedicated mobile search screen.
   moves is announced rather than being a purely visual highlight (focus never leaves the input).
 - **Reduced motion:** the surface has no enter/exit animation in either presentation, so there is
   nothing for `prefers-reduced-motion` to remove.
+- **Contextual keyboard hints:** while Command or Control is held, `Escape` is revealed beside the
+  close/header affordance, `↑`/`↓` beside the results region, and `Enter` on the currently selected
+  result. The hints are overlays and never resize the card, results, or mobile viewport. They are
+  available on mobile only when a hardware keyboard produces the modifier event; no permanent row
+  is reserved on a touch-only phone. Releasing the modifier or losing page focus hides them. The
+  hints are `aria-hidden`; the dialog/input/result semantics remain the accessibility contract.
 
 ## States
 
@@ -182,6 +188,10 @@ behind it to dim). It reads like a dedicated mobile search screen.
 
 ## Change log
 
+- **v11 (web)** — Search keyboard help is now contextual: hold Command or Control to reveal `Esc`
+  at dismissal, `↑`/`↓` at the result list, and `Enter` on the selected result. The hints overlay
+  their controls without reflow and also work with an attached mobile keyboard; they disappear on
+  release or focus loss. The global `⌘/Ctrl + K` hint is specified by navigation v6.
 - **v10 (web)** — **The full-screen surface now actually covers the full screen: the opaque layer no
   longer stops where the keyboard starts.** Reported from real iOS Safari (Shyam, a song reader
   underneath): with the keyboard up, the strip between the last result and the keys — where iOS

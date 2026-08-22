@@ -1,6 +1,6 @@
 # Screen — Navigation
 
-**Spec version:** 5
+**Spec version:** 6
 
 **Figma frames:** `Navigation`, `Navigation-1..5`, `Sidebar`, `Header`, `mobile-menu`, `Mobile`.
 The **sidebar footer** below post-dates these frames — verify the rest against them, not the footer.
@@ -19,6 +19,29 @@ How a reader moves through the app: a collapsible sidebar on web, a tab bar on m
 | **Library** | Songs · Tracks · Authors · Topics · Books |
 | **Resources** | Verse Meters · Diacritic Guide · Pronunciation |
 | **Footer** | One horizontal row — see below. |
+
+### Hold-to-reveal keyboard shortcuts
+
+Keyboard shortcut labels are contextual, not permanent chrome. With no modifier held, the layout
+looks exactly as it does for a pointer-only reader. Holding either **Command** (`Meta`) or
+**Control** reveals small keycaps beside the controls that have keyboard equivalents; releasing it
+hides them again. The keycap names the modifier that is physically held (`⌘ K` or `Ctrl K`) rather
+than guessing from the user agent.
+
+The global shortcut set currently contains one action:
+
+| Control | Shortcut | Scope |
+|---------|----------|-------|
+| Search (desktop sidebar and mobile top bar) | `⌘/Control + K` | Anywhere in the web app |
+
+- A modifier press by itself performs no action, moves no focus, and prevents no browser behavior.
+- A revealed keycap is positioned inside or beside its control without changing that control's
+  size or moving adjacent content. It is visual help only (`aria-hidden`); the actionable control
+  exposes the equivalent through `aria-keyshortcuts`.
+- Modifier state is cleared on key-up, window blur, and document visibility loss. A system shortcut
+  that takes focus away must never leave stale labels painted over the app.
+- Context-specific keys inside an open surface are revealed there, at the controls they affect;
+  Search owns `Escape`, arrow-key, and `Enter` hints in [`search.md`](search.md).
 
 ### Footer row
 
@@ -200,12 +223,20 @@ Settings lives, not in the main tab set.
 - Tapping the scrim closes the drawer and returns the player to exactly the state it had — same
   position, same playback, same collapse state, interactive again.
 - Search opens above the drawer; crossing to the desktop breakpoint closes the drawer.
+- With no modifier held, no shortcut keycap is visible. Holding Command or Control reveals the
+  Search chord at both Search affordances without reflow; release, blur, and visibility loss hide it.
+- Search controls expose `aria-keyshortcuts="Meta+K Control+K"`; visual hints remain hidden from the
+  accessibility tree so the shortcut is not announced twice.
 
 **Visual:** the footer row has **no frame** — draw one. The rest verifies against the `Navigation*`
 and `Sidebar` frames.
 
 ## Change log
 
+- **v6 (web)** — Added contextual, hold-to-reveal keyboard shortcut hints. Command or Control
+  reveals the global Search chord at its actual controls without layout shift; release, blur, and
+  visibility loss clear it. Visual keycaps are decorative while `aria-keyshortcuts` carries the
+  machine-readable contract. Search-local hints live in `search.md` v11.
 - **v5 (web)** — The mobile clip box must also open **left of the text origin**: the face's negative
   left side bearing put the `G`'s bowl outside a clip box that began at the origin, shaving it flat.
   The 4 px menu-to-mark gap becomes the link's padding rather than its margin, and is specified
