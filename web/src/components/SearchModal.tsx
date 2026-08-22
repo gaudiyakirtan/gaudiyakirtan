@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import { useRouter } from 'next/router'
 import {
-  Search, CornerDownLeft, Home, Music, User, Hash, BookOpen, Settings, Info, Mail,
+  Search, Home, Music, User, Hash, BookOpen, Settings, Info, Mail,
   AudioLines, Type, Volume2, Tag as TagIcon, FileText, Mic2, ListMusic, ArrowLeft, X,
 } from 'lucide-react'
 import { buildDuet, searchDuet, type IDuetDoc } from '../services/duet'
@@ -11,10 +11,13 @@ import { lockScroll } from '../utils/bodyScrollLock'
 import { LAYER } from '../utils/layers'
 import { searchViewportStyle } from '../utils/searchViewport'
 import { useSearchViewport } from '../utils/useSearchViewport'
+import type { IShortcutRevealState } from '../utils/keyboardShortcuts'
+import { ShortcutHint } from './ShortcutHint'
 
 interface SearchModalProps {
   open: boolean
   onClose: () => void
+  shortcutReveal: IShortcutRevealState
 }
 
 type EntryType = 'page' | 'song' | 'book' | 'topic' | 'author' | 'tag' | 'reciter'
@@ -85,7 +88,7 @@ const TYPE_RANK: Record<EntryType, number> = { page: 7, book: 6, topic: 5, autho
  */
 const SCORE_FLOOR = 0.35
 
-export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
+export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose, shortcutReveal }) => {
   const router = useRouter()
   const { settings } = useSettings()
   const [entities, setEntities] = useState<Entry[] | null>(null)
@@ -238,6 +241,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
       role="dialog"
       aria-modal="true"
       aria-label="Search"
+      aria-keyshortcuts="Escape"
     >
       {/* Opaque coverage, and nothing else — it takes no taps and says nothing to a screen reader.
           iOS paints the keyboard's password/autofill accessory bar OVER THE PAGE, so every pixel
@@ -265,10 +269,18 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
           <button
             type="button"
             aria-label="Close search"
+            aria-keyshortcuts="Escape"
             onClick={onClose}
-            className="inline-flex h-10 w-10 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:text-[var(--primary)] md:hidden"
+            className="relative inline-flex h-10 w-10 flex-none items-center justify-center rounded-full text-[var(--neutral)] transition-colors hover:text-[var(--primary)] md:hidden"
           >
             <ArrowLeft size={20} />
+            <ShortcutHint
+              compact
+              visible={shortcutReveal.active}
+              label="Esc"
+              testId="mobile-search-close-shortcut"
+              className="absolute -bottom-1 left-1/2 -translate-x-1/2"
+            />
           </button>
           <Search size={18} className="hidden flex-none text-[var(--neutral)] md:block" />
           <input
@@ -282,6 +294,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
             aria-controls="search-results"
             aria-activedescendant={activeId}
             aria-autocomplete="list"
+            aria-keyshortcuts="ArrowDown ArrowUp Enter"
             autoComplete="off"
             autoCorrect="off"
             autoCapitalize="none"
@@ -300,7 +313,12 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
               <X size={18} />
             </button>
           ) : null}
-          <kbd className="hidden flex-none rounded border border-[var(--border)] px-1.5 py-0.5 text-[10px] text-[var(--neutral)] md:inline">Esc</kbd>
+          <ShortcutHint
+            visible={shortcutReveal.active}
+            label="Esc"
+            testId="desktop-search-close-shortcut"
+            className="hidden min-w-9 flex-none md:inline-flex"
+          />
         </div>
 
         {/* Mobile: takes every remaining pixel and scrolls inside itself — `overscroll-contain` stops
@@ -351,21 +369,32 @@ export const SearchModal: React.FC<SearchModalProps> = ({ open, onClose }) => {
                     <span className="block truncate text-xs text-[var(--neutral)]">{displayAuthor(e)}</span>
                   ) : null}
                 </span>
-                <span className="flex-none text-[10px] font-medium uppercase tracking-wide text-[var(--neutral)]/70">
-                  {line ? 'in text' : e.type}
+                <span className="relative flex h-5 min-w-12 flex-none items-center justify-end text-[10px] font-medium uppercase tracking-wide text-[var(--neutral)]/70">
+                  <span className={shortcutReveal.active && i === selected ? 'opacity-0' : 'opacity-100'}>
+                    {line ? 'in text' : e.type}
+                  </span>
+                  <ShortcutHint
+                    compact
+                    visible={shortcutReveal.active && i === selected}
+                    label="Enter"
+                    testId={i === selected ? 'search-open-shortcut' : undefined}
+                    className="absolute right-0 normal-case tracking-normal"
+                  />
                 </span>
               </button>
             ))
           )}
         </div>
 
-        {/* Keyboard hints name physical keys, so they are desktop-only — on the full-screen mobile
-            surface they would be a permanent lie taking a row of the results' height. */}
-        <div className="hidden flex-none items-center gap-4 border-t border-[var(--border)] px-4 py-2 text-[11px] text-[var(--neutral)] md:flex">
-          <span className="flex items-center gap-1"><CornerDownLeft size={12} /> open</span>
-          <span>↑↓ navigate</span>
-          <span className="ml-auto">{results.length ? `${results.length} results` : ''}</span>
-        </div>
+        {/* This floats over the results rather than reserving a footer, so revealing keyboard help
+            never changes either presentation's height. It can only appear after a hardware
+            keyboard produces a modifier event, including on mobile. */}
+        <ShortcutHint
+          visible={shortcutReveal.active && results.length > 0}
+          label="↑  ↓"
+          testId="search-navigate-shortcut"
+          className="absolute bottom-2 left-1/2 z-10 -translate-x-1/2 bg-[var(--background-offset)]"
+        />
       </div>
     </div>
   )

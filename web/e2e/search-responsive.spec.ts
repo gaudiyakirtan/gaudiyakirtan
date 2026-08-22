@@ -166,12 +166,21 @@ test.describe('desktop search — centered command palette', () => {
     await expect(panel(page)).toHaveCSS('border-top-left-radius', '16px')
     expect(await backdropIsDimmed(page)).toBe(true)
 
-    // Desktop-only chrome: the Esc cap and the keyboard hint footer.
-    await expect(dialog(page).getByText('Esc', { exact: true })).toBeVisible()
-    await expect(dialog(page).getByText('↑↓ navigate')).toBeVisible()
-    // …and no mobile back/clear buttons.
-    await expect(dialog(page).getByRole('button', { name: 'Close search' })).toBeHidden()
+    // Desktop keyboard chrome is contextual: it is absent until a modifier is physically held,
+    // then appears without turning the auto-height card into a different-sized surface.
+    await expect(page.getByTestId('desktop-search-close-shortcut')).toHaveAttribute('data-shortcut-visible', 'false')
     await input(page).fill('radha')
+    await expect(rows(page).first()).toBeVisible()
+    const populatedCard = await panel(page).boundingBox()
+
+    await page.keyboard.down('Control')
+    await expect(page.getByTestId('desktop-search-close-shortcut')).toHaveAttribute('data-shortcut-visible', 'true')
+    await expect(page.getByTestId('search-navigate-shortcut')).toHaveAttribute('data-shortcut-visible', 'true')
+    expect(await panel(page).boundingBox()).toEqual(populatedCard)
+    await page.keyboard.up('Control')
+
+    // No mobile back/clear buttons appear in the desktop presentation.
+    await expect(dialog(page).getByRole('button', { name: 'Close search' })).toBeHidden()
     await expect(dialog(page).getByRole('button', { name: 'Clear search' })).toBeHidden()
   })
 

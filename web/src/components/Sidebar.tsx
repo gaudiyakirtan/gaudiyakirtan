@@ -5,6 +5,8 @@ import { Search, Sun, Moon, ChevronsLeft } from "lucide-react";
 import { useTheme } from "../utils/ThemeContext";
 import { LAYER } from "../utils/layers";
 import { BrandWordmark } from "./BrandWordmark";
+import { ShortcutHint } from "./ShortcutHint";
+import type { IShortcutRevealState } from "../utils/keyboardShortcuts";
 // Import directly from the leaf modules, not the '../services' barrel - the barrel re-exports
 // fs-based repositories (songRepository, manifestRepository) that must never enter the client
 // bundle, and Sidebar is a client-rendered component (see services/songListing.ts's note).
@@ -35,6 +37,7 @@ interface SidebarProps {
   setCollapsed?: (v: boolean) => void;
   /** Opens the centered search palette. */
   onOpenSearch?: () => void;
+  shortcutReveal: IShortcutRevealState;
 }
 
 const NavItem: React.FC<{
@@ -124,7 +127,14 @@ const ThemeToggle: React.FC = () => {
   );
 };
 
-const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, collapsed = false, setCollapsed, onOpenSearch }) => {
+const Sidebar: React.FC<SidebarProps> = ({
+  isOpen,
+  onClose,
+  collapsed = false,
+  setCollapsed,
+  onOpenSearch,
+  shortcutReveal,
+}) => {
   const router = useRouter();
   // const collections = getSongGroups("collection"); // deferred with the Collections block
 
@@ -186,11 +196,18 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, onClose, collapsed = false, s
           <button
             type="button"
             onClick={openSearch}
+            aria-label="Search"
+            aria-keyshortcuts="Meta+K Control+K"
             className="flex w-full items-center gap-2 rounded-lg border border-[var(--border)] bg-[var(--background-offset)] px-3 py-2 text-left text-[var(--neutral)] transition-colors hover:border-[var(--highlight)]"
           >
             <Search size={16} className="flex-none" />
             <span className="flex-1 text-sm">Search</span>
-            <kbd className="hidden rounded border border-[var(--border)] px-1 text-[10px] sm:inline">⌘K</kbd>
+            <ShortcutHint
+              visible={shortcutReveal.active}
+              label={`${shortcutReveal.label} K`}
+              testId="sidebar-search-shortcut"
+              className="hidden min-w-10 sm:inline-flex"
+            />
           </button>
         </div>
 
