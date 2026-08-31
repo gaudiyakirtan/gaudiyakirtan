@@ -6,6 +6,7 @@ import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.junit4.createComposeRule
 
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.SemanticsMatcher
 import com.gaudiyakirtan.data.SongJson
 import com.gaudiyakirtan.data.TestAssets
@@ -113,6 +114,31 @@ class PlayerExpressiveTest {
     fun `the play control announces Play while paused`() {
         setPlayer(PlaybackState.PAUSED)
         composeRule.onNodeWithContentDescription("Play").assertIsDisplayed()
+    }
+
+    @Test
+    fun `recording transport invokes previous and next callbacks`() {
+        var previousClicks = 0
+        var nextClicks = 0
+        composeRule.setContent {
+            GaudiyaKirtanTheme(darkTheme = false) {
+                PlayerScreen(
+                    uiState = state(PlaybackState.PAUSED),
+                    onBackClick = {},
+                    onPlayPauseClick = {},
+                    onSeek = {},
+                    onTrackSelected = {},
+                    onPreviousTrack = { previousClicks += 1 },
+                    onNextTrack = { nextClicks += 1 }
+                )
+            }
+        }
+
+        composeRule.onNodeWithContentDescription("Previous recording").performClick()
+        composeRule.onNodeWithContentDescription("Next recording").performClick()
+
+        assertEquals(1, previousClicks)
+        assertEquals(1, nextClicks)
     }
 
     @Test
