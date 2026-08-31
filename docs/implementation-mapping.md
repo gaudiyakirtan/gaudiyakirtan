@@ -67,7 +67,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | artist/book images | ✅ | ✅* | ✅ |
 | unit tests | ✅ | ✅* | ✅ |
 | resources | 🔨 | — | — |
-| player / now-playing | ✅ v14 green | ✅* ʷ | ✅ ʷ |
+| player / now-playing | ✅ v14 green | ⏳ v14* ʷ | ⏳ v14 ʷ |
 
 Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbox-blocked; confirm on a real
 Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a

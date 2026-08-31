@@ -1,6 +1,6 @@
 # Screen — Audio Player
 
-**Spec version:** 14
+**Spec version:** 15
 
 **Figma frames:** `Now Playing`, `Player`, `Track`, `trailingIcon2_`.
 
@@ -41,6 +41,55 @@ Playback still **degrades gracefully** on any load failure (network off, missing
   control, a **scrubber** (position / duration), and skip controls (dormant until multi-recording).
 - **Mini-player / Track** (`Track`, `trailingIcon2_`): a compact bar (title + play/pause) that can
   sit above the tab bar / in the reader while a track is loaded, tappable to expand to Now Playing.
+
+## Native v15 — immersive, waveform-led player
+
+The iOS and Android Now Playing screens adopt the hierarchy visible in SoundCloud's current native
+store imagery (reviewed 2026-08-31): an immersive artwork stage, metadata at the top, transport over
+the focal area, and a prominent played/unplayed rail near the bottom. This is a Gauḍīya Kīrtan
+adaptation, not a visual clone: it does not copy SoundCloud branding, orange, comments, likes, or
+social controls.
+
+### Goal and hierarchy
+
+1. The current recording is immediately recognizable from the reciter portrait, song title, and
+   reciter name.
+2. Play/pause is the primary action, with previous/next take controls when a song has multiple
+   recordings.
+3. Seeking is prominent and usable by touch, drag, keyboard/switch access, and screen reader.
+4. Composer and the recording selector remain available below the listening stage without competing
+   with playback.
+
+### Listening stage
+
+- A tall, rounded stage fills the screen width with the recording artist's portrait. Missing or
+  failed artwork falls back to a theme-aware gradient and the mridanga mark.
+- A semantic background scrim keeps title, reciter, controls, and timing legible in both Gaura and
+  Shyam palettes. Feature code must not introduce raw brand hex values.
+- Collapse/back remains in the platform-standard top position. The title may wrap to two lines; the
+  reciter is one secondary line. Loading and unavailable states remain explicit.
+- Previous/next operate on the song's recordings, wrap at the ends, and are absent or disabled for a
+  single recording. Playback ownership stays in the existing global player service.
+
+### Waveform-inspired seek rail
+
+- The focal rail is a stable bar silhouette derived from the track uid, split into played and
+  unplayed semantic colors. It is intentionally **not** represented as measured audio amplitude;
+  the corpus does not ship waveform samples.
+- The full visible rail is one seek target. Tap and drag preview the time and commit a clamped seek;
+  a zero or unknown duration is inert and never emits NaN/infinite values.
+- Accessibility exposes exactly one adjustable control with a localized label and elapsed/total
+  value. Decorative bars are hidden from accessibility. Reduced-motion settings suppress any
+  nonessential animation.
+
+### Supporting region and mini-player
+
+- Composer and available recordings follow the stage in the normal scroll region. Selecting a take
+  updates artwork, reciter, rail seed, and playback without replacing the song context.
+- The iOS and Android mini-players remain compact and native, with artwork/fallback, title, reciter,
+  play/pause, and a thin, non-interactive progress rail along the bottom. Tapping the body expands
+  Now Playing; the trailing play button must not also trigger expansion.
+- Web stays on the v14 card contract below; v15 changes only the native iOS and Android surfaces.
 
 ## What the web mini-player looks like
 
@@ -185,14 +234,26 @@ title** carries it on the final line and the line box does not grow:
   the title-row open-song arrow returns to the loaded song's canonical detail route without
   replacing the player session; it still targets the loaded song when the page has armed a
   different one. Build/typecheck green.
+- **Native behavioral:** the full player exposes exactly one adjustable seek control; tap, drag,
+  and accessibility increments seek correctly; values clamp to `[0, duration]`; unknown/zero
+  duration is inert; previous/next move between takes and single-take songs do not expose dead
+  transport. The mini-player's progress rail is accessibility-silent.
 - **Visual:** matches `Now Playing` / `Player` / `Track` frames. For both one- and two-line titles,
   the open-song uid pill begins no more than 8 px after the title's final glyph, is centered on that
   glyph within 4 px, and shares the final line without making the line taller; long titles retain
   their bounded two-line/marquee behavior. Its hover/focus animation is clipped to the arrow
   viewport inside the pill and does not disturb title layout.
+- **Native visual:** capture the same deterministic song/recording at the same elapsed/duration in
+  Gaura and Shyam before and after the change. Review phone-sized screenshots for artwork failure,
+  two-line title, safe-area, compact-height, and mini-player edge cases before publishing the PR.
 
 ## Change log
 
+- **v15 (iOS + Android)** — Specified an immersive native listening stage and a prominent,
+  accessible waveform-inspired seek rail based on current SoundCloud mobile hierarchy. The rail is
+  explicitly decorative geometry rather than fabricated audio-amplitude data. Preserved the
+  Gauḍīya Kīrtan palettes, reciter-first metadata, multi-recording selection, global playback
+  services, graceful artwork/audio failure, and compact mini-player contract. Web remains v14.
 - **v14 (web)** — Added the *What the web mini-player looks like* section (card anatomy +
   before/after and two-line screenshots at 390 px in both palettes). Gave the open-song action the
   **uid pill**: the song code and the `ArrowUpRight`
