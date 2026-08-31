@@ -1,6 +1,6 @@
 # Haptics — cross-platform feel
 
-**Spec version:** 2 · **Status:** implemented on iOS and Android for the seek rail, the A–Z index,
+**Spec version:** 3 · **Status:** implemented on iOS and Android for the seek rail, the A–Z index,
 the transport, the take picker, and search. Two proposed surfaces have no screen to attach to yet.
 
 Haptics are the third channel, after color and motion, for saying *something happened*. This doc is
@@ -66,7 +66,26 @@ from a tick to carry any information.
 Picking per tier rather than with one 34-or-nothing branch is what keeps the mid-band devices — still
 a large share of the install base — from getting a silent app.
 
-## Implemented
+## Implemented — every surface at a glance
+
+| Surface | Gesture / action | Event | Stays silent when |
+|---|---|---|---|
+| **Seek rail** | finger lands | grab | duration is 0 or unknown |
+| | crossing a 1/32 detent | minor tick | still inside the same detent |
+| | crossing a 1/8 detent | major tick | — |
+| | arriving at 0:00 or the end | boundary | already held there |
+| | seek commits | release | — |
+| **A–Z index** | moving to a new letter | `selection` | the finger stays on one letter |
+| | reaching the first/last letter **with songs** | `boundary` | — |
+| **Transport** | play | `toggleOn` | loading or errored |
+| | pause | `toggleOff` | loading or errored |
+| | next / previous recording | `tick` | only one recording exists |
+| | wrapping past either end | `boundary` | only one recording exists |
+| **Take picker** | committing a different recording | `selection` | re-picking the one already playing |
+| **Search** | the query stops matching anything | `warning` | it was already empty; or the query is blank |
+
+Nothing in the app fires on content *arriving* — a list loading, audio buffering, artwork resolving.
+That is never the user's doing, and feedback there reads as a malfunction.
 
 ### The seek rail (player.md v16)
 
@@ -84,6 +103,25 @@ The rail's ruler *is* the haptic ladder: a short mark every 1/32 of the recordin
 Shared arithmetic (iOS `ScrubHapticLadder`, Android `scrubTick`), unit-tested on both. Ticks are
 rate-limited to 18 ms so a flick notches instead of rattling; boundaries fire on arrival, not while
 held. Full contract in [`../screens/player.md`](../screens/player.md).
+
+#### The ruler up close
+
+The ruler is the only *visible* part of the whole haptic system, and at phone scale it is a few
+pixels tall — the full-screen captures in player.md do not show it. These are 2× crops of the rail
+from those same `R8` fixtures at 0:42 of 3:07, so the played/unplayed split is the same one the
+screenshots show.
+
+Read left to right: **tall marks every 1/8** of the recording, **short marks every 1/32**, both
+taking the played (highlight) or unplayed (neutral) color of the bars above them. Those marks are
+exactly the ladder the actuator ticks on.
+
+| | Gaura | Shyam |
+|---|---|---|
+| **iOS** | ![iOS detent ruler, Gaura](../screenshots/native-player/rail-ruler-ios-gaura.png) | ![iOS detent ruler, Shyam](../screenshots/native-player/rail-ruler-ios-shyam.png) |
+| **Android** | ![Android detent ruler, Gaura](../screenshots/native-player/rail-ruler-android-gaura.png) | ![Android detent ruler, Shyam](../screenshots/native-player/rail-ruler-android-shyam.png) |
+
+The two platforms draw the same geometry from the same seed, which is why the silhouettes match; the
+Android crop is narrower because its capture is a smaller device raster, not because the rail differs.
 
 ### The A–Z scroll index
 
@@ -164,6 +202,9 @@ the fallbacks fire rather than going silent.
 
 ## Change log
 
+- **v3** — Added the at-a-glance surface table and 2× close-ups of the detent ruler in both palettes
+  on both platforms. The ruler is the only visible part of the system and is a few pixels tall at
+  phone scale, so the full-screen captures in player.md do not actually show what shipped.
 - **v2** — Built the vocabulary out into a shared `AppHapticEvent` layer on both platforms with
   per-event API tiering down to a `ContextClick` floor (the previous seek-rail fallbacks stopped at
   `TextHandleMove`, leaving API 24–26 silent). Implemented the A–Z index repair and its ends-of-list
