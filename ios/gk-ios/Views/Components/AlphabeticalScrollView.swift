@@ -23,12 +23,30 @@ struct AlphabeticalScrollView<Content: View, T: Identifiable>: View {
     }
     @Binding var scrollTarget: String?
     @State private var activeIndex: String? = nil
+    @State private var isDraggingIndex = false
     let items: [T]
     let sectionKeyPath: KeyPath<T, String>
     let content: (T) -> Content
     
     // Add a non-alphabetic section marker
     private let nonAlphaMarker = "#"
+
+    /// Plays the index's feel for a move between letters. Reaching the first or last section that
+    /// actually has songs is a boundary — otherwise there is nothing to tell you by feel that the
+    /// list has run out, since the index keeps naming letters past the end of the real content.
+    private func playIndexHaptic(from previous: String?, to next: String) {
+        let available = alphabetSections.filter(\.isAvailable).map(\.letter)
+        switch AlphabeticalIndexHaptics.tick(
+            from: previous,
+            to: next,
+            firstAvailable: available.first,
+            lastAvailable: available.last
+        ) {
+        case .selection: AppHaptics.shared.play(.selection)
+        case .boundary: AppHaptics.shared.play(.boundary)
+        case .none: break
+        }
+    }
     
     // Generate alphabet sections with available letters highlighted
     private var alphabetSections: [(letter: String, isAvailable: Bool)] {
@@ -149,12 +167,10 @@ struct AlphabeticalScrollView<Content: View, T: Identifiable>: View {
                                 .contentShape(Rectangle())
                                 .onTapGesture {
                                     if section.isAvailable {
+                                        playIndexHaptic(from: activeIndex, to: section.letter)
                                         activeIndex = section.letter
                                         scrollTarget = section.letter
-                                        // Add haptic feedback
-                                        let generator = UIImpactFeedbackGenerator(style: .light)
-                                        generator.impactOccurred()
-                                        
+
                                         // Auto-clear the active index after a delay
                                         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
                                             withAnimation {
@@ -170,19 +186,24 @@ struct AlphabeticalScrollView<Content: View, T: Identifiable>: View {
                     .gesture(
                         DragGesture(minimumDistance: 0, coordinateSpace: .local)
                             .onChanged { value in
+                                if !isDraggingIndex {
+                                    // Warm the engine once for the gesture. Building a generator per
+                                    // letter mid-drag spins it up cold and the taps arrive late.
+                                    isDraggingIndex = true
+                                    AppHaptics.shared.prepare()
+                                }
                                 let index = Int((value.location.y / totalHeight) * CGFloat(alphabetSections.count))
                                 if index >= 0 && index < alphabetSections.count {
                                     let section = alphabetSections[index]
                                     if section.isAvailable && activeIndex != section.letter {
+                                        playIndexHaptic(from: activeIndex, to: section.letter)
                                         activeIndex = section.letter
                                         scrollTarget = section.letter
-                                        // Add haptic feedback
-                                        let generator = UIImpactFeedbackGenerator(style: .light)
-                                        generator.impactOccurred()
                                     }
                                 }
                             }
                             .onEnded { _ in
+                                isDraggingIndex = false
                                 // Clear active index after drag ends
                                 DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                                     withAnimation {

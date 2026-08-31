@@ -1,9 +1,7 @@
 package com.gaudiyakirtan.myapplication.ui.player
 
-import com.gaudiyakirtan.myapplication.ui.components.GaudiyaTopAppBar
-import com.gaudiyakirtan.myapplication.ui.theme.Spacing
-import com.gaudiyakirtan.myapplication.ui.theme.neutral
-
+import androidx.compose.animation.core.animateDpAsState
+import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -11,29 +9,29 @@ import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
-import androidx.compose.foundation.layout.aspectRatio
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.ArrowBack
 import androidx.compose.material.icons.filled.ErrorOutline
+import androidx.compose.material.icons.filled.ExpandMore
+import androidx.compose.material.icons.filled.KeyboardArrowDown
 import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.SkipNext
 import androidx.compose.material.icons.filled.SkipPrevious
-import androidx.compose.animation.core.animateDpAsState
-import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.DropdownMenu
 import androidx.compose.material3.DropdownMenuItem
 import androidx.compose.material3.ExperimentalMaterial3ExpressiveApi
 import androidx.compose.material3.Icon
 import androidx.compose.material3.IconButton
-import androidx.compose.material3.LinearWavyProgressIndicator
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Slider
 import androidx.compose.material3.SliderDefaults
@@ -48,9 +46,12 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.semantics.clearAndSetSemantics
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
@@ -60,45 +61,53 @@ import com.gaudiyakirtan.myapplication.models.AudioTrack
 import com.gaudiyakirtan.myapplication.models.author
 import com.gaudiyakirtan.myapplication.models.title
 import com.gaudiyakirtan.myapplication.ui.components.icons.Mridanga
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
+import com.gaudiyakirtan.myapplication.ui.theme.neutral
 import com.gaudiyakirtan.services.NowPlaying
 import com.gaudiyakirtan.services.PlaybackState
+import com.gaudiyakirtan.myapplication.ui.haptics.AppHapticEvent
+import com.gaudiyakirtan.myapplication.ui.haptics.rememberAppHaptics
+import com.gaudiyakirtan.myapplication.ui.haptics.transportWraps
 import com.gaudiyakirtan.services.PlayerUiState
 import kotlin.math.roundToInt
 
-/**
- * Now Playing screen (docs/screens/player.md `Now Playing` / `Player` frames): artwork placeholder,
- * title/author + take artist, play/pause, a scrubber (position/duration), skip controls (dormant --
- * only meaningful once a track has neighbors to skip to, which multi-recording ordering doesn't
- * define yet), and a take picker when the song has more than one recording.
- */
+/** Immersive native Now Playing surface. Playback remains owned by the activity-scoped player. */
 @Composable
 fun PlayerScreen(
     uiState: PlayerUiState,
     onBackClick: () -> Unit,
     onPlayPauseClick: () -> Unit,
     onSeek: (Int) -> Unit,
-    onTrackSelected: (AudioTrack) -> Unit
+    onTrackSelected: (AudioTrack) -> Unit,
+    onPreviousTrack: () -> Unit = {},
+    onNextTrack: () -> Unit = {}
 ) {
-    Surface(
-        modifier = Modifier.fillMaxSize(),
-        color = MaterialTheme.colorScheme.background
-    ) {
-        Column(modifier = Modifier.fillMaxSize()) {
-            GaudiyaTopAppBar(title = "Now Playing", onBackClick = onBackClick)
+    Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
+        val nowPlaying = uiState.nowPlaying
+        when {
+            nowPlaying == null && uiState.playbackState == PlaybackState.ERROR ->
+                ErrorState(message = uiState.errorMessage ?: "Audio unavailable")
 
-            val nowPlaying = uiState.nowPlaying
-            when {
-                nowPlaying == null && uiState.playbackState == PlaybackState.ERROR ->
-                    ErrorState(message = uiState.errorMessage ?: "Audio unavailable")
+            nowPlaying == null -> IdleState()
 
-                nowPlaying == null -> IdleState()
-
-                else -> NowPlayingContent(
+            else -> Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .verticalScroll(rememberScrollState())
+            ) {
+                ListeningStage(
                     nowPlaying = nowPlaying,
                     uiState = uiState,
+                    onBackClick = onBackClick,
                     onPlayPauseClick = onPlayPauseClick,
                     onSeek = onSeek,
-                    onTrackSelected = onTrackSelected
+                    onPreviousTrack = onPreviousTrack,
+                    onNextTrack = onNextTrack
+                )
+                SupportingInformation(
+                    nowPlaying = nowPlaying,
+                    onTrackSelected = onTrackSelected,
+                    modifier = Modifier.padding(horizontal = 12.dp, vertical = Spacing.md)
                 )
             }
         }
@@ -106,103 +115,440 @@ fun PlayerScreen(
 }
 
 @Composable
-private fun NowPlayingContent(
+private fun ListeningStage(
     nowPlaying: NowPlaying,
     uiState: PlayerUiState,
+    onBackClick: () -> Unit,
     onPlayPauseClick: () -> Unit,
     onSeek: (Int) -> Unit,
-    onTrackSelected: (AudioTrack) -> Unit
+    onPreviousTrack: () -> Unit,
+    onNextTrack: () -> Unit
 ) {
-    Column(
+    val stageShape = RoundedCornerShape(30.dp)
+    Box(
         modifier = Modifier
-            .fillMaxSize()
-            .padding(horizontal = Spacing.xl, vertical = Spacing.lg),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.spacedBy(Spacing.sm)
+            .padding(horizontal = 12.dp, vertical = 12.dp)
+            .fillMaxWidth()
+            .height(720.dp)
+            .clip(stageShape)
+            .background(MaterialTheme.colorScheme.surface)
     ) {
-        // Recording-artist portrait (docs/screens/player.md "Related assets on the same bucket":
-        // `artists/<artist_code>.jpg`), gracefully falling back to the mridanga placeholder icon on
-        // any load failure -- most artist codes are expected not to have a bucket portrait.
+        StageArtwork(track = nowPlaying.track)
+
         Box(
             modifier = Modifier
-                .fillMaxWidth()
-                .aspectRatio(1f)
-                .padding(Spacing.xl)
-                .clip(MaterialTheme.shapes.medium)
-                .background(MaterialTheme.colorScheme.surface),
-            contentAlignment = Alignment.Center
-        ) {
-            val artistCode = ImageConfig.artistCode(nowPlaying.track.uid)
-            SubcomposeAsyncImage(
-                model = ImageConfig.artistImageUrl(artistCode),
-                contentDescription = nowPlaying.track.artist,
-                contentScale = ContentScale.Crop,
-                modifier = Modifier.fillMaxSize(),
-                // The placeholder is centered at a fixed glyph size rather than sized by modifier:
-                // MusicNote also applies `.size()` internally, so passing one through the modifier
-                // double-applied and let the note stretch to fill the whole artwork square.
-                loading = {
-                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        Mridanga(size = 120.dp)
+                .fillMaxSize()
+                .background(
+                    Brush.verticalGradient(
+                        0f to MaterialTheme.colorScheme.background.copy(alpha = 0.04f),
+                        0.38f to MaterialTheme.colorScheme.background.copy(alpha = 0.12f),
+                        0.68f to MaterialTheme.colorScheme.background.copy(alpha = 0.90f),
+                        1f to MaterialTheme.colorScheme.background
+                    )
+                )
+        )
+
+        Column(modifier = Modifier.fillMaxSize().padding(18.dp)) {
+            Row(
+                modifier = Modifier.fillMaxWidth(),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Surface(
+                    shape = CircleShape,
+                    color = MaterialTheme.colorScheme.surface.copy(alpha = 0.9f)
+                ) {
+                    Text(
+                        text = "NOW PLAYING",
+                        style = MaterialTheme.typography.labelSmall,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.onSurface,
+                        modifier = Modifier.padding(horizontal = 12.dp, vertical = 10.dp)
+                    )
+                }
+
+                Spacer(modifier = Modifier.weight(1f))
+
+                Surface(
+                    shape = CircleShape,
+                    color = MaterialTheme.colorScheme.surface.copy(alpha = 0.9f)
+                ) {
+                    IconButton(onClick = onBackClick) {
+                        Icon(
+                            imageVector = Icons.Default.KeyboardArrowDown,
+                            contentDescription = "Collapse player",
+                            tint = MaterialTheme.colorScheme.onSurface
+                        )
                     }
-                },
-                error = {
-                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        Mridanga(size = 120.dp)
-                    }
+                }
+            }
+
+            Spacer(modifier = Modifier.weight(1f))
+
+            Text(
+                text = nowPlaying.song.title,
+                style = MaterialTheme.typography.headlineMedium,
+                fontWeight = FontWeight.Bold,
+                color = MaterialTheme.colorScheme.onBackground,
+                textAlign = TextAlign.Center,
+                maxLines = 2,
+                overflow = TextOverflow.Ellipsis,
+                modifier = Modifier.fillMaxWidth()
+            )
+            nowPlaying.track.artist?.let { artist ->
+                Text(
+                    text = artist,
+                    style = MaterialTheme.typography.titleSmall,
+                    fontWeight = FontWeight.SemiBold,
+                    color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.76f),
+                    textAlign = TextAlign.Center,
+                    maxLines = 1,
+                    overflow = TextOverflow.Ellipsis,
+                    modifier = Modifier.fillMaxWidth().padding(top = 4.dp)
+                )
+            }
+
+            when (uiState.playbackState) {
+                PlaybackState.ERROR -> Row(
+                    modifier = Modifier.fillMaxWidth().padding(vertical = Spacing.xl),
+                    horizontalArrangement = Arrangement.Center,
+                    verticalAlignment = Alignment.CenterVertically
+                ) {
+                    Icon(
+                        imageVector = Icons.Default.ErrorOutline,
+                        contentDescription = null,
+                        tint = MaterialTheme.colorScheme.onBackground
+                    )
+                    Text(
+                        text = uiState.errorMessage ?: "Audio unavailable",
+                        color = MaterialTheme.colorScheme.onBackground,
+                        modifier = Modifier.padding(start = Spacing.sm)
+                    )
+                }
+
+                PlaybackState.LOADING -> Box(
+                    modifier = Modifier.fillMaxWidth().height(176.dp),
+                    contentAlignment = Alignment.Center
+                ) {
+                    CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
+                }
+
+                else -> PlaybackControls(
+                    uiState = uiState,
+                    waveformSeed = nowPlaying.track.uid,
+                    hasMultipleTracks = nowPlaying.availableTracks.size > 1,
+                    onPlayPauseClick = onPlayPauseClick,
+                    onSeek = onSeek,
+                    onPreviousTrack = onPreviousTrack,
+                    onNextTrack = onNextTrack
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun StageArtwork(track: AudioTrack) {
+    val artistCode = ImageConfig.artistCode(track.uid)
+    SubcomposeAsyncImage(
+        model = ImageConfig.artistImageUrl(artistCode),
+        contentDescription = null,
+        contentScale = ContentScale.Crop,
+        modifier = Modifier.fillMaxSize(),
+        loading = { ArtworkFallback() },
+        error = { ArtworkFallback() }
+    )
+}
+
+@Composable
+private fun ArtworkFallback() {
+    Box(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(
+                Brush.linearGradient(
+                    listOf(
+                        MaterialTheme.colorScheme.surface,
+                        MaterialTheme.colorScheme.primary.copy(alpha = 0.34f),
+                        MaterialTheme.colorScheme.background
+                    )
+                )
+            ),
+        contentAlignment = Alignment.Center
+    ) {
+        Mridanga(size = 150.dp)
+    }
+}
+
+@OptIn(ExperimentalMaterial3ExpressiveApi::class)
+@Composable
+private fun PlaybackControls(
+    uiState: PlayerUiState,
+    waveformSeed: String,
+    hasMultipleTracks: Boolean,
+    onPlayPauseClick: () -> Unit,
+    onSeek: (Int) -> Unit,
+    onPreviousTrack: () -> Unit,
+    onNextTrack: () -> Unit
+) {
+    val duration = uiState.durationMs.coerceAtLeast(0)
+    val scrubHaptics = rememberScrubHapticEngine()
+    val appHaptics = rememberAppHaptics()
+
+    // Read the state *before* the toggle flips it, so the feel matches the transition the user asked
+    // for and lands with the wavy/flat morph rather than after it.
+    val playPauseWithFeel = {
+        when (uiState.playbackState) {
+            PlaybackState.PLAYING -> appHaptics.play(AppHapticEvent.TOGGLE_OFF)
+            PlaybackState.PAUSED -> appHaptics.play(AppHapticEvent.TOGGLE_ON)
+            else -> Unit
+        }
+        onPlayPauseClick()
+    }
+
+    // A wrap past either end is a boundary rather than another tick. Only the feel is conditional —
+    // the step itself always runs.
+    val stepTake = { delta: Int, step: () -> Unit ->
+        val now = uiState.nowPlaying
+        if (now != null && now.availableTracks.size > 1) {
+            val index = now.availableTracks.indexOfFirst { it.uid == now.track.uid }.coerceAtLeast(0)
+            appHaptics.play(
+                if (transportWraps(index, delta, now.availableTracks.size)) {
+                    AppHapticEvent.BOUNDARY
+                } else {
+                    AppHapticEvent.TICK
                 }
             )
         }
+        step()
+    }
+    var dragPositionMs by remember { mutableFloatStateOf(-1f) }
+    val displayedPositionMs = if (dragPositionMs >= 0f) {
+        dragPositionMs.roundToInt()
+    } else {
+        uiState.positionMs.coerceIn(0, duration.coerceAtLeast(0))
+    }
 
-        Text(
-            text = nowPlaying.song.title,
-            style = MaterialTheme.typography.headlineSmall,
-            color = MaterialTheme.colorScheme.primary,
-            textAlign = TextAlign.Center,
-            maxLines = 2,
-            overflow = TextOverflow.Ellipsis
-        )
-        Text(
-            text = nowPlaying.song.author,
-            style = MaterialTheme.typography.titleMedium,
-            color = MaterialTheme.colorScheme.onBackground,
-            textAlign = TextAlign.Center,
-            maxLines = 1,
-            overflow = TextOverflow.Ellipsis
+    Column(
+        modifier = Modifier.fillMaxWidth().padding(top = 18.dp),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        WaveformSeekBar(
+            seed = waveformSeed,
+            positionMs = displayedPositionMs,
+            durationMs = duration,
+            onPositionChange = {
+                dragPositionMs = it.toFloat()
+                if (duration > 0) scrubHaptics.scrub(it.toFloat() / duration)
+            },
+            onPositionChangeFinished = {
+                scrubHaptics.end()
+                if (duration > 0) onSeek(displayedPositionMs.coerceIn(0, duration))
+                dragPositionMs = -1f
+            }
         )
 
-        // Performing-artist credit for this take, with a take picker when there's more than one.
+        Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
+            Text(
+                text = formatMillis(displayedPositionMs),
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.68f)
+            )
+            Text(
+                text = "−${formatMillis((duration - displayedPositionMs).coerceAtLeast(0))}",
+                style = MaterialTheme.typography.labelSmall,
+                color = MaterialTheme.colorScheme.onBackground.copy(alpha = 0.68f)
+            )
+        }
+
+        Spacer(modifier = Modifier.height(Spacing.md))
+
+        Row(
+            verticalAlignment = Alignment.CenterVertically,
+            horizontalArrangement = Arrangement.spacedBy(42.dp)
+        ) {
+            IconButton(onClick = { stepTake(-1, onPreviousTrack) }, enabled = hasMultipleTracks) {
+                Icon(
+                    imageVector = Icons.Default.SkipPrevious,
+                    contentDescription = "Previous recording",
+                    tint = if (hasMultipleTracks) {
+                        MaterialTheme.colorScheme.onBackground
+                    } else {
+                        Color.Transparent
+                    }
+                )
+            }
+
+            val isPlaying = uiState.playbackState == PlaybackState.PLAYING
+            val playCorner by animateDpAsState(
+                targetValue = if (isPlaying) 20.dp else 36.dp,
+                animationSpec = MaterialTheme.motionScheme.fastSpatialSpec(),
+                label = "playPauseShape"
+            )
+            Box(
+                modifier = Modifier
+                    .size(72.dp)
+                    .clip(RoundedCornerShape(playCorner))
+                    .background(MaterialTheme.colorScheme.primary)
+                    .clickable(onClick = playPauseWithFeel),
+                contentAlignment = Alignment.Center
+            ) {
+                Icon(
+                    imageVector = if (isPlaying) Icons.Default.Pause else Icons.Default.PlayArrow,
+                    contentDescription = if (isPlaying) "Pause" else "Play",
+                    tint = MaterialTheme.colorScheme.onPrimary,
+                    modifier = Modifier.size(34.dp)
+                )
+            }
+
+            IconButton(onClick = { stepTake(1, onNextTrack) }, enabled = hasMultipleTracks) {
+                Icon(
+                    imageVector = Icons.Default.SkipNext,
+                    contentDescription = "Next recording",
+                    tint = if (hasMultipleTracks) {
+                        MaterialTheme.colorScheme.onBackground
+                    } else {
+                        Color.Transparent
+                    }
+                )
+            }
+        }
+    }
+}
+
+@Composable
+private fun WaveformSeekBar(
+    seed: String,
+    positionMs: Int,
+    durationMs: Int,
+    onPositionChange: (Int) -> Unit,
+    onPositionChangeFinished: () -> Unit
+) {
+    val barCount = 64
+    val heights = remember(seed) { nativePlayerWaveformHeights(seed, barCount) }
+    val progress = if (durationMs > 0) {
+        positionMs.toFloat().div(durationMs).coerceIn(0f, 1f)
+    } else {
+        0f
+    }
+    val playedColor = MaterialTheme.colorScheme.primary
+    val unplayedColorBase = MaterialTheme.colorScheme.neutral
+    val unplayedColor = unplayedColorBase.copy(alpha = 0.34f)
+
+    Box(modifier = Modifier.fillMaxWidth().height(82.dp), contentAlignment = Alignment.Center) {
+        Canvas(
+            modifier = Modifier
+                .fillMaxSize()
+                .clearAndSetSemantics { }
+        ) {
+            val spacing = 2.dp.toPx()
+            val rulerHeight = 14.dp.toPx()
+            val barsHeight = (size.height - rulerHeight).coerceAtLeast(8.dp.toPx())
+            val barWidth = ((size.width - spacing * (barCount - 1)) / barCount).coerceAtLeast(1.5f)
+            heights.forEachIndexed { index, relativeHeight ->
+                val barHeight = (barsHeight * relativeHeight).coerceAtLeast(8.dp.toPx())
+                val x = index * (barWidth + spacing)
+                drawRoundRect(
+                    color = if (x + barWidth / 2 <= size.width * progress) playedColor else unplayedColor,
+                    topLeft = androidx.compose.ui.geometry.Offset(x, (barsHeight - barHeight) / 2),
+                    size = androidx.compose.ui.geometry.Size(barWidth, barHeight),
+                    cornerRadius = CornerRadius(barWidth / 2, barWidth / 2)
+                )
+            }
+
+            // The detent ruler. These marks are the ladder the vibrator ticks on, so what sits
+            // under the finger is exactly what it feels.
+            val markWidth = 1.dp.toPx()
+            val majorEvery = ScrubDetents.MINOR / ScrubDetents.MAJOR
+            for (index in 0..ScrubDetents.MINOR) {
+                val fraction = index.toFloat() / ScrubDetents.MINOR
+                val isMajor = index % majorEvery == 0
+                val markHeight = if (isMajor) 9.dp.toPx() else 4.dp.toPx()
+                val x = (fraction * size.width).coerceAtMost(size.width - markWidth)
+                val played = fraction <= progress
+                val alpha = when {
+                    isMajor && played -> 0.75f
+                    isMajor -> 0.42f
+                    played -> 0.45f
+                    else -> 0.24f
+                }
+                drawRect(
+                    color = (if (played) playedColor else unplayedColorBase).copy(alpha = alpha),
+                    topLeft = androidx.compose.ui.geometry.Offset(x, size.height - markHeight),
+                    size = androidx.compose.ui.geometry.Size(markWidth, markHeight)
+                )
+            }
+        }
+
+        // A real transparent Slider retains drag, keyboard, Switch Access and TalkBack's adjustable
+        // semantics. The bars are decoration, so the screen exposes exactly one seek control.
+        Slider(
+            value = positionMs.toFloat().coerceIn(0f, durationMs.toFloat().coerceAtLeast(0f)),
+            valueRange = 0f..durationMs.toFloat().coerceAtLeast(1f),
+            onValueChange = { onPositionChange(it.roundToInt()) },
+            onValueChangeFinished = onPositionChangeFinished,
+            enabled = durationMs > 0,
+            colors = SliderDefaults.colors(
+                thumbColor = Color.Transparent,
+                disabledThumbColor = Color.Transparent,
+                activeTrackColor = Color.Transparent,
+                inactiveTrackColor = Color.Transparent,
+                disabledActiveTrackColor = Color.Transparent,
+                disabledInactiveTrackColor = Color.Transparent
+            ),
+            modifier = Modifier.fillMaxWidth()
+        )
+    }
+}
+
+/** Stable decorative profile; it is not presented as measured audio-amplitude data. */
+internal fun nativePlayerWaveformHeights(seed: String, count: Int = 64): List<Float> {
+    if (count <= 0) return emptyList()
+    var hash = 0x811C9DC5.toInt()
+    seed.encodeToByteArray().forEach { byte ->
+        hash = hash xor (byte.toInt() and 0xFF)
+        hash *= 16_777_619
+    }
+    var state = if (hash == 0) 0x6D2B79F5 else hash
+    return List(count) { index ->
+        state = state xor (state shl 13)
+        state = state xor (state ushr 17)
+        state = state xor (state shl 5)
+        val random = (state.toUInt() % 1_000u).toFloat() / 1_000f
+        val pulse = ((index % 11) + 2).toFloat() / 13f
+        0.24f + 0.76f * (random * 0.72f + pulse * 0.28f)
+    }
+}
+
+@Composable
+private fun SupportingInformation(
+    nowPlaying: NowPlaying,
+    onTrackSelected: (AudioTrack) -> Unit,
+    modifier: Modifier = Modifier
+) {
+    Column(modifier = modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(12.dp)) {
+        Surface(shape = RoundedCornerShape(18.dp), color = MaterialTheme.colorScheme.surface) {
+            Column(modifier = Modifier.fillMaxWidth().padding(16.dp)) {
+                Text(
+                    text = "COMPOSED BY",
+                    style = MaterialTheme.typography.labelSmall,
+                    fontWeight = FontWeight.Bold,
+                    color = MaterialTheme.colorScheme.neutral
+                )
+                Text(
+                    text = nowPlaying.song.author,
+                    style = MaterialTheme.typography.titleMedium,
+                    fontWeight = FontWeight.SemiBold,
+                    color = MaterialTheme.colorScheme.onSurface,
+                    modifier = Modifier.padding(top = 3.dp)
+                )
+            }
+        }
+
         if (nowPlaying.availableTracks.size > 1) {
             TakePicker(
                 current = nowPlaying.track,
                 tracks = nowPlaying.availableTracks,
                 onTrackSelected = onTrackSelected
-            )
-        } else {
-            nowPlaying.track.artist?.let { artist ->
-                Text(
-                    text = artist,
-                    style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.neutral,
-                    textAlign = TextAlign.Center
-                )
-            }
-        }
-
-        Spacer(modifier = Modifier.height(Spacing.sm))
-
-        when (uiState.playbackState) {
-            PlaybackState.ERROR -> ErrorState(message = uiState.errorMessage ?: "Audio unavailable")
-            PlaybackState.LOADING -> Box(
-                modifier = Modifier.fillMaxWidth().height(96.dp),
-                contentAlignment = Alignment.Center
-            ) {
-                CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
-            }
-            else -> PlaybackControls(
-                uiState = uiState,
-                onPlayPauseClick = onPlayPauseClick,
-                onSeek = onSeek
             )
         }
     }
@@ -215,22 +561,39 @@ private fun TakePicker(
     onTrackSelected: (AudioTrack) -> Unit
 ) {
     var expanded by remember { mutableStateOf(false) }
+    val appHaptics = rememberAppHaptics()
     Box {
-        Row(
-            modifier = Modifier.clickable { expanded = true },
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(Spacing.xs)
+        Surface(
+            shape = RoundedCornerShape(18.dp),
+            color = MaterialTheme.colorScheme.surface,
+            modifier = Modifier.fillMaxWidth().clickable { expanded = true }
         ) {
-            Text(
-                text = current.artist ?: current.uid,
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.primary
-            )
-            Text(
-                text = "▾",
-                style = MaterialTheme.typography.bodyMedium,
-                color = MaterialTheme.colorScheme.primary
-            )
+            Row(
+                modifier = Modifier.padding(16.dp),
+                verticalAlignment = Alignment.CenterVertically
+            ) {
+                Column(modifier = Modifier.weight(1f)) {
+                    Text(
+                        text = "${tracks.size} RECORDINGS",
+                        style = MaterialTheme.typography.labelSmall,
+                        fontWeight = FontWeight.Bold,
+                        color = MaterialTheme.colorScheme.neutral
+                    )
+                    Text(
+                        text = current.artist ?: current.uid,
+                        style = MaterialTheme.typography.titleSmall,
+                        color = MaterialTheme.colorScheme.onSurface,
+                        maxLines = 2,
+                        overflow = TextOverflow.Ellipsis,
+                        modifier = Modifier.padding(top = 3.dp)
+                    )
+                }
+                Icon(
+                    imageVector = Icons.Default.ExpandMore,
+                    contentDescription = "Choose recording",
+                    tint = MaterialTheme.colorScheme.primary
+                )
+            }
         }
         DropdownMenu(expanded = expanded, onDismissRequest = { expanded = false }) {
             tracks.forEach { track ->
@@ -238,137 +601,13 @@ private fun TakePicker(
                     text = { Text(track.artist ?: track.uid) },
                     onClick = {
                         expanded = false
+                        // Re-picking the recording that is already playing changed nothing, so per
+                        // the vocabulary's one rule it stays silent. Only the feel is conditional.
+                        if (track.uid != current.uid) {
+                            appHaptics.play(AppHapticEvent.SELECTION)
+                        }
                         onTrackSelected(track)
                     }
-                )
-            }
-        }
-    }
-}
-
-@OptIn(ExperimentalMaterial3ExpressiveApi::class)
-@Composable
-private fun PlaybackControls(
-    uiState: PlayerUiState,
-    onPlayPauseClick: () -> Unit,
-    onSeek: (Int) -> Unit
-) {
-    val duration = uiState.durationMs.coerceAtLeast(0)
-    var dragPositionMs by remember { mutableFloatStateOf(-1f) }
-    val displayedPositionMs = if (dragPositionMs >= 0f) dragPositionMs.roundToInt() else uiState.positionMs
-
-    val isPlaying = uiState.playbackState == PlaybackState.PLAYING
-
-    // The screen's one expressive focal element (spec pending: player.md has no expressive section yet): the scrubber is wavy
-    // while audio is actually advancing and flat otherwise, so playback state is legible from the
-    // shape of the track alone. Animated rather than switched, because the *morph* between the two
-    // is what communicates the state change; `MotionScheme.expressive()` supplies the spring.
-    val amplitude by animateFloatAsState(
-        targetValue = if (isPlaying) 1f else 0f,
-        animationSpec = MaterialTheme.motionScheme.slowSpatialSpec(),
-        label = "scrubberAmplitude"
-    )
-
-    Column(modifier = Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally) {
-        // The wavy indicator draws the track; a transparent-track Slider sits on top purely to own
-        // the interaction. Keeping the real Slider is deliberate -- it carries the seek semantics
-        // (drag, keyboard, and TalkBack's "adjustable" actions) that a Canvas-drawn indicator would
-        // silently drop, and accessibility is not traded for expression.
-        Box(modifier = Modifier.fillMaxWidth(), contentAlignment = Alignment.Center) {
-            LinearWavyProgressIndicator(
-                progress = {
-                    if (duration > 0) {
-                        (displayedPositionMs.toFloat() / duration.toFloat()).coerceIn(0f, 1f)
-                    } else {
-                        0f
-                    }
-                },
-                amplitude = { amplitude },
-                color = MaterialTheme.colorScheme.primary,
-                trackColor = MaterialTheme.colorScheme.outline,
-                modifier = Modifier
-                    .fillMaxWidth()
-                    .clearAndSetSemantics { }
-            )
-            Slider(
-                value = displayedPositionMs.toFloat().coerceIn(0f, duration.toFloat().coerceAtLeast(0f)),
-                valueRange = 0f..duration.toFloat().coerceAtLeast(1f),
-                onValueChange = { dragPositionMs = it },
-                onValueChangeFinished = {
-                    onSeek(displayedPositionMs)
-                    dragPositionMs = -1f
-                },
-                colors = SliderDefaults.colors(
-                    thumbColor = MaterialTheme.colorScheme.primary,
-                    activeTrackColor = Color.Transparent,
-                    inactiveTrackColor = Color.Transparent
-                ),
-                modifier = Modifier.fillMaxWidth()
-            )
-        }
-        Row(
-            modifier = Modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceBetween
-        ) {
-            Text(
-                text = formatMillis(displayedPositionMs),
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.neutral
-            )
-            Text(
-                text = formatMillis(duration),
-                style = MaterialTheme.typography.labelSmall,
-                color = MaterialTheme.colorScheme.neutral
-            )
-        }
-
-        Spacer(modifier = Modifier.height(Spacing.lg))
-
-        Row(
-            verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(Spacing.xl)
-        ) {
-            // Skip controls are dormant until multi-recording ordering/adjacency is defined
-            // (docs/screens/player.md "skip controls (dormant until multi-recording)").
-            IconButton(onClick = {}, enabled = false) {
-                Icon(
-                    imageVector = Icons.Default.SkipPrevious,
-                    contentDescription = "Previous",
-                    tint = MaterialTheme.colorScheme.neutral
-                )
-            }
-            // The primary action, and the only other element allowed to move expressively here:
-            // it morphs circle (paused) -> squircle (playing), so the control's own shape echoes
-            // the state the wavy track is reporting. 32.dp on a 64.dp box is a full circle.
-            val playCorner by animateDpAsState(
-                targetValue = if (isPlaying) 20.dp else 32.dp,
-                animationSpec = MaterialTheme.motionScheme.fastSpatialSpec(),
-                label = "playPauseShape"
-            )
-            Box(
-                modifier = Modifier
-                    .size(64.dp)
-                    .clip(RoundedCornerShape(playCorner))
-                    .background(MaterialTheme.colorScheme.primary)
-                    .clickable(onClick = onPlayPauseClick),
-                contentAlignment = Alignment.Center
-            ) {
-                Icon(
-                    imageVector = if (uiState.playbackState == PlaybackState.PLAYING) {
-                        Icons.Default.Pause
-                    } else {
-                        Icons.Default.PlayArrow
-                    },
-                    contentDescription = if (uiState.playbackState == PlaybackState.PLAYING) "Pause" else "Play",
-                    tint = MaterialTheme.colorScheme.onPrimary,
-                    modifier = Modifier.size(32.dp)
-                )
-            }
-            IconButton(onClick = {}, enabled = false) {
-                Icon(
-                    imageVector = Icons.Default.SkipNext,
-                    contentDescription = "Next",
-                    tint = MaterialTheme.colorScheme.neutral
                 )
             }
         }
@@ -378,9 +617,7 @@ private fun PlaybackControls(
 @Composable
 private fun ErrorState(message: String) {
     Column(
-        modifier = Modifier
-            .fillMaxSize()
-            .padding(Spacing.xxl),
+        modifier = Modifier.fillMaxSize().padding(Spacing.xxl),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center
     ) {
@@ -411,10 +648,7 @@ private fun IdleState() {
     }
 }
 
-/** mm:ss formatting for the scrubber's position/duration labels. */
 private fun formatMillis(ms: Int): String {
     val totalSeconds = (ms / 1000).coerceAtLeast(0)
-    val minutes = totalSeconds / 60
-    val seconds = totalSeconds % 60
-    return "%d:%02d".format(minutes, seconds)
+    return "%d:%02d".format(totalSeconds / 60, totalSeconds % 60)
 }

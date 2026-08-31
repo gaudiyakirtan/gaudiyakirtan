@@ -1,6 +1,6 @@
 # Screen — Audio Player
 
-**Spec version:** 14
+**Spec version:** 16
 
 **Figma frames:** `Now Playing`, `Player`, `Track`, `trailingIcon2_`.
 
@@ -41,6 +41,127 @@ Playback still **degrades gracefully** on any load failure (network off, missing
   control, a **scrubber** (position / duration), and skip controls (dormant until multi-recording).
 - **Mini-player / Track** (`Track`, `trailingIcon2_`): a compact bar (title + play/pause) that can
   sit above the tab bar / in the reader while a track is loaded, tappable to expand to Now Playing.
+
+## Native v15 — immersive, waveform-led player
+
+The iOS and Android Now Playing screens adopt the hierarchy visible in SoundCloud's current native
+store imagery (reviewed 2026-08-31 on the official
+[Apple App Store](https://apps.apple.com/us/app/soundcloud-the-music-you-love/id336353151) and
+[Google Play](https://play.google.com/store/apps/details?id=com.soundcloud.android) listings): an
+immersive artwork stage, metadata at the top, transport over the focal area, and a prominent
+played/unplayed rail near the bottom. This is a Gauḍīya Kīrtan adaptation, not a visual clone: it
+does not copy SoundCloud branding, orange, comments, likes, or social controls.
+
+### Goal and hierarchy
+
+1. The current recording is immediately recognizable from the reciter portrait, song title, and
+   reciter name.
+2. Play/pause is the primary action, with previous/next take controls when a song has multiple
+   recordings.
+3. Seeking is prominent and usable by touch, drag, keyboard/switch access, and screen reader.
+4. Composer and the recording selector remain available below the listening stage without competing
+   with playback.
+
+### Listening stage
+
+- A tall, rounded stage fills the screen width with the recording artist's portrait. Missing or
+  failed artwork falls back to a theme-aware gradient and the mridanga mark.
+- A semantic background scrim keeps title, reciter, controls, and timing legible in both Gaura and
+  Shyam palettes. Feature code must not introduce raw brand hex values.
+- Collapse/back remains in the platform-standard top position. The title may wrap to two lines; the
+  reciter is one secondary line. Loading and unavailable states remain explicit.
+- Previous/next operate on the song's recordings, wrap at the ends, and are absent or disabled for a
+  single recording. Playback ownership stays in the existing global player service.
+
+### Waveform-inspired seek rail
+
+- The focal rail is a stable bar silhouette derived from the track uid, split into played and
+  unplayed semantic colors. It is intentionally **not** represented as measured audio amplitude;
+  the corpus does not ship waveform samples.
+- The full visible rail is one seek target. Tap and drag preview the time and commit a clamped seek;
+  a zero or unknown duration is inert and never emits NaN/infinite values.
+- Accessibility exposes exactly one adjustable control with a localized label and elapsed/total
+  value. Decorative bars are hidden from accessibility. Reduced-motion settings suppress any
+  nonessential animation.
+
+### Detent ruler and scrub haptics (v16)
+
+The rail carries a **detent ruler** along its lower edge: a short mark every 1/32 of the recording
+and a tall one every 1/8. The ruler is drawn inside the rail's existing height, so adding it moved
+nothing below it. Played and unplayed marks take the same semantic colors as the bars above them.
+
+Those marks are also the **haptic ladder**, which is the point: the mark under the finger is the
+mark it feels. Dragging the rail plays a tick on each crossing, so a scrub feels notched rather than
+frictionless, and the counts are shared with the ruler geometry so the two cannot drift apart.
+
+| Moment | Feel | iOS | Android (API 34+) | Android (below 34) |
+|---|---|---|---|---|
+| Finger lands on the rail | the "grab" | `.rigid` impact @ 0.7 | `GestureThresholdActivate` | `ContextClick` |
+| Crossing a minor detent (1/32) | fine notch | `UISelectionFeedbackGenerator` | `SegmentFrequentTick` | `TextHandleMove` |
+| Crossing a major detent (1/8) | firmer notch | `.light` impact @ 0.55 | `SegmentTick` | `TextHandleMove` |
+| Arriving at 0:00 or the end | boundary | `.soft` impact @ 1.0 | `GestureEnd` | `ContextClick` |
+| Seek commits | release | `.soft` impact @ 0.6 | `GestureEnd` | `KeyboardTap` |
+
+Rules the implementations must keep:
+
+- **Every major detent is also a minor detent** (32 is a whole multiple of 8), which is what lets a
+  major crossing simply out-rank the minor one it also crosses. Retuning one count without the other
+  desynchronises the ruler from the ladder.
+- **A boundary fires on arrival, not while held.** A finger parked past the end of the rail keeps
+  producing out-of-range samples; they clamp, and must not re-fire.
+- **Ticks are rate-limited** (18 ms). A fast flick crosses many detents in one frame; without the
+  limit the actuator rattles instead of notching.
+- **A zero or unknown duration is inert** — the same NaN/infinite guard the seek itself uses.
+- **Discrete jumps get one tick, not a stream.** VoiceOver's adjustable action, Switch Control, and
+  keyboard arrows commit one value at a time and play a single confirmation.
+- The ladder is **identical on both platforms** (iOS `ScrubHapticLadder`, Android `scrubTick`) and
+  unit-tested on each. If one side is retuned and the other is not, the apps stop feeling alike.
+- Nothing is gated on an app-level setting: both systems already honour the device's haptic
+  preference, and iOS silences the Taptic Engine in Low Power Mode on its own.
+
+The rail is the first slice of the app-wide vocabulary in
+[`docs/theme/haptics.md`](../theme/haptics.md), which now also covers the transport and take picker
+on this screen: play/pause reads its state before the toggle flips it so the feel matches the
+transition, stepping recordings ticks and marks a **wrap** past either end as a boundary, and
+re-picking the recording already playing stays silent because nothing changed.
+
+### Supporting region and mini-player
+
+- Composer and available recordings follow the stage in the normal scroll region. Selecting a take
+  updates artwork, reciter, rail seed, and playback without replacing the song context.
+- The iOS and Android mini-players remain compact and native, with artwork/fallback, title, reciter,
+  play/pause, and a thin, non-interactive progress rail along the bottom. Tapping the body expands
+  Now Playing; the trailing play button must not also trigger expansion.
+- Web stays on the v14 card contract below; v15 changes only the native iOS and Android surfaces.
+
+### Native visual verification
+
+Every image below uses the same real corpus fixture (`R8`, first recording, 0:42 of 3:07) so the
+comparison is about hierarchy rather than content. The iOS simulator resolves the recording's real
+portrait; the hermetic Android screenshot test deliberately exercises the offline mridanga fallback.
+
+#### iOS
+
+| Theme | Before (v14) | After (v16) |
+|---|---|---|
+| Gaura | ![iOS player before v15 in Gaura](../screenshots/native-player/ios-before-gaura.png) | ![iOS immersive waveform player in Gaura](../screenshots/native-player/ios-after-gaura.png) |
+| Shyam | ![iOS player before v15 in Shyam](../screenshots/native-player/ios-before-shyam.png) | ![iOS immersive waveform player in Shyam](../screenshots/native-player/ios-after-shyam.png) |
+
+#### Android
+
+| Theme | Before (v14) | After (v16) |
+|---|---|---|
+| Gaura | ![Android player before v15 in Gaura](../screenshots/native-player/android-before-gaura.png) | ![Android immersive waveform player in Gaura](../screenshots/native-player/android-after-gaura.png) |
+| Shyam | ![Android player before v15 in Shyam](../screenshots/native-player/android-before-shyam.png) | ![Android immersive waveform player in Shyam](../screenshots/native-player/android-after-shyam.png) |
+
+Verification recorded for v16: all 50 iOS unit tests passed on an iPhone 17 Pro simulator under
+Xcode 26.6; Android's complete `testDebugUnitTest` task passed on the Android Studio JBR with 78
+tests and no failures, including the single-seek-semantics, recording-transport, deterministic-
+profile, and detent-ladder coverage. Its Roborazzi record task passed separately and produced the
+Android after images above; the iOS images come from the debug `-player-screenshot-fixture` launch
+argument against the same `R8` fixture.
+
+The "after" images show v16 — the same v15 hierarchy, now carrying the detent ruler under the rail.
 
 ## What the web mini-player looks like
 
@@ -185,14 +306,36 @@ title** carries it on the final line and the line box does not grow:
   the title-row open-song arrow returns to the loaded song's canonical detail route without
   replacing the player session; it still targets the loaded song when the page has armed a
   different one. Build/typecheck green.
+- **Native behavioral:** the full player exposes exactly one adjustable seek control; tap, drag,
+  and accessibility increments seek correctly; values clamp to `[0, duration]`; unknown/zero
+  duration is inert; previous/next move between takes and single-take songs do not expose dead
+  transport. The mini-player's progress rail is accessibility-silent.
 - **Visual:** matches `Now Playing` / `Player` / `Track` frames. For both one- and two-line titles,
   the open-song uid pill begins no more than 8 px after the title's final glyph, is centered on that
   glyph within 4 px, and shares the final line without making the line taller; long titles retain
   their bounded two-line/marquee behavior. Its hover/focus animation is clipped to the arrow
   viewport inside the pill and does not disturb title layout.
+- **Native visual:** capture the same deterministic song/recording at the same elapsed/duration in
+  Gaura and Shyam before and after the change. Review phone-sized screenshots for artwork failure,
+  two-line title, safe-area, compact-height, and mini-player edge cases before publishing the PR.
 
 ## Change log
 
+- **v16 (iOS + Android)** — Gave the seek rail a **detent ruler** and made it the haptic ladder, so
+  scrubbing feels notched rather than frictionless: a mark every 1/32 of the recording, a taller one
+  every 1/8, and a tick as the finger crosses each. The ruler is drawn inside the rail's existing
+  height, so nothing below it moved. Boundaries fire on arrival rather than while held, ticks are
+  rate-limited so a flick notches instead of rattling, and a zero or unknown duration stays inert.
+  Discrete jumps from VoiceOver, Switch Control, and the keyboard get one confirmation rather than a
+  stream. Below API 34 Android falls back to constants the platform actually honours, so the rail
+  does not go silent on most in-market devices. The ladder is shared arithmetic, unit-tested on both
+  platforms. Web is unchanged. The wider plan is
+  [`docs/theme/haptics.md`](../theme/haptics.md).
+- **v15 (iOS + Android)** — Implemented an immersive native listening stage and a prominent,
+  accessible waveform-inspired seek rail based on current SoundCloud mobile hierarchy. The rail is
+  explicitly decorative geometry rather than fabricated audio-amplitude data. Preserved the
+  Gauḍīya Kīrtan palettes, reciter-first metadata, multi-recording selection, global playback
+  services, graceful artwork/audio failure, and compact mini-player contract. Web remains v14.
 - **v14 (web)** — Added the *What the web mini-player looks like* section (card anatomy +
   before/after and two-line screenshots at 390 px in both palettes). Gave the open-song action the
   **uid pill**: the song code and the `ArrowUpRight`

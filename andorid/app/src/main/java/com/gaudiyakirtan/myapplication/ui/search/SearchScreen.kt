@@ -1,5 +1,10 @@
 package com.gaudiyakirtan.myapplication.ui.search
 
+import com.gaudiyakirtan.myapplication.ui.haptics.AppHapticEvent
+import com.gaudiyakirtan.myapplication.ui.haptics.SearchPhase
+import com.gaudiyakirtan.myapplication.ui.haptics.rememberAppHaptics
+import com.gaudiyakirtan.myapplication.ui.haptics.searchPhase
+import com.gaudiyakirtan.myapplication.ui.haptics.searchWarns
 import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
@@ -19,7 +24,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -49,6 +56,18 @@ fun SearchScreen(
     val results by viewModel.results.collectAsState()
     val authorNames by viewModel.authorNames.collectAsState()
     val listLanguage by viewModel.listLanguage.collectAsState()
+
+    // Marks the moment a query stops matching anything. Search is incremental, so this fires on the
+    // transition into "no matches" rather than on every keystroke that stays there.
+    val appHaptics = rememberAppHaptics()
+    var lastSearchPhase by remember { mutableStateOf(SearchPhase.IDLE) }
+    val phase = searchPhase(query.isBlank(), results.size)
+    LaunchedEffect(phase) {
+        if (searchWarns(lastSearchPhase, phase)) {
+            appHaptics.play(AppHapticEvent.WARNING)
+        }
+        lastSearchPhase = phase
+    }
 
     Column(
         modifier = Modifier

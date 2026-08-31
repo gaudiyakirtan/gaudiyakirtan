@@ -145,6 +145,12 @@ struct AppNavigation: View {
             UINavigationBar.appearance().standardAppearance = appearance
             UINavigationBar.appearance().compactAppearance = appearance
             UINavigationBar.appearance().scrollEdgeAppearance = appearance
+
+#if DEBUG
+            if ProcessInfo.processInfo.arguments.contains("-player-screenshot-fixture") {
+                audioPlayer.loadScreenshotFixture()
+            }
+#endif
         }
     }
 }

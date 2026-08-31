@@ -6,6 +6,7 @@ import androidx.compose.ui.test.assertIsDisplayed
 import androidx.compose.ui.test.junit4.createComposeRule
 
 import androidx.compose.ui.test.onNodeWithContentDescription
+import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.SemanticsMatcher
 import com.gaudiyakirtan.data.SongJson
 import com.gaudiyakirtan.data.TestAssets
@@ -28,9 +29,9 @@ import org.robolectric.annotation.Config
 /**
  * Behavioral coverage for the player's expressive migration (docs/screens/theme.md v2, "Motion").
  *
- * The contract these protect is the accessibility one: the scrubber's *visual* is a
- * `LinearWavyProgressIndicator`, which is not interactive and announces nothing, so a real `Slider`
- * is layered over it to keep seek, keyboard and TalkBack semantics. If someone later "simplifies"
+ * The contract these protect is the accessibility one: the scrubber's bar silhouette is decorative
+ * and announces nothing, so a real transparent `Slider` is layered over it to keep seek, keyboard
+ * and TalkBack semantics. If someone later "simplifies"
  * that by dropping the Slider, the screen silently stops being operable by assistive tech — these
  * tests fail instead.
  */
@@ -80,18 +81,18 @@ class PlayerExpressiveTest {
     private val announcesProgress = SemanticsMatcher.keyIsDefined(SemanticsProperties.ProgressBarRangeInfo)
 
     @Test
-    fun `the wavy scrubber keeps a real seek control underneath it`() {
+    fun `the waveform scrubber keeps a real seek control underneath it`() {
         setPlayer(PlaybackState.PLAYING)
 
         assertEquals(
-            "the player must expose exactly one seekable control — the wavy indicator is decoration",
+            "the player must expose exactly one seekable control — the waveform bars are decoration",
             1,
             composeRule.onAllNodes(matcher = isSeekable).fetchSemanticsNodes().size
         )
     }
 
     @Test
-    fun `the decorative wavy indicator does not announce a second progress bar`() {
+    fun `the decorative waveform does not announce a second progress bar`() {
         setPlayer(PlaybackState.PLAYING)
 
         // The Slider announces its own range; the indicator clears its semantics. More than one
@@ -113,6 +114,31 @@ class PlayerExpressiveTest {
     fun `the play control announces Play while paused`() {
         setPlayer(PlaybackState.PAUSED)
         composeRule.onNodeWithContentDescription("Play").assertIsDisplayed()
+    }
+
+    @Test
+    fun `recording transport invokes previous and next callbacks`() {
+        var previousClicks = 0
+        var nextClicks = 0
+        composeRule.setContent {
+            GaudiyaKirtanTheme(darkTheme = false) {
+                PlayerScreen(
+                    uiState = state(PlaybackState.PAUSED),
+                    onBackClick = {},
+                    onPlayPauseClick = {},
+                    onSeek = {},
+                    onTrackSelected = {},
+                    onPreviousTrack = { previousClicks += 1 },
+                    onNextTrack = { nextClicks += 1 }
+                )
+            }
+        }
+
+        composeRule.onNodeWithContentDescription("Previous recording").performClick()
+        composeRule.onNodeWithContentDescription("Next recording").performClick()
+
+        assertEquals(1, previousClicks)
+        assertEquals(1, nextClicks)
     }
 
     @Test

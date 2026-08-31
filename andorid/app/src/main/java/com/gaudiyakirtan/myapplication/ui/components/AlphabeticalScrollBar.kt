@@ -15,9 +15,11 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
-import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.input.pointer.pointerInput
-import androidx.compose.ui.platform.LocalHapticFeedback
+import com.gaudiyakirtan.myapplication.ui.haptics.AppHapticEvent
+import com.gaudiyakirtan.myapplication.ui.haptics.IndexTick
+import com.gaudiyakirtan.myapplication.ui.haptics.alphabeticalIndexTick
+import com.gaudiyakirtan.myapplication.ui.haptics.rememberAppHaptics
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
@@ -36,7 +38,12 @@ fun AlphabeticalScrollBar(
 ) {
     val alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".map { it.toString() } + "#"
     val coroutineScope = rememberCoroutineScope()
-    val haptic = LocalHapticFeedback.current
+    val appHaptics = rememberAppHaptics()
+    // The letters that actually have songs; the index keeps naming letters past them, so these are
+    // what make "you have run out of list" tellable by feel.
+    val availableLetters = alphabet.filter { sectionMap.containsKey(it) }
+    val firstAvailable = availableLetters.firstOrNull()
+    val lastAvailable = availableLetters.lastOrNull()
     var activeIndex by remember { mutableStateOf<String?>(null) }
     var showLetterIndicator by remember { mutableStateOf(false) }
 
@@ -96,8 +103,12 @@ fun AlphabeticalScrollBar(
                             val index = (progress * alphabet.size).toInt().coerceIn(0, alphabet.size - 1)
                             val letter = alphabet[index]
                             if (sectionMap.containsKey(letter) && activeIndex != letter) {
+                                when (alphabeticalIndexTick(activeIndex, letter, firstAvailable, lastAvailable)) {
+                                    IndexTick.SELECTION -> appHaptics.play(AppHapticEvent.SELECTION)
+                                    IndexTick.BOUNDARY -> appHaptics.play(AppHapticEvent.BOUNDARY)
+                                    IndexTick.NONE -> Unit
+                                }
                                 activeIndex = letter
-                                haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
                                 coroutineScope.launch {
                                     sectionMap[letter]?.let { position ->
                                         lazyListState.scrollToItem(position)
@@ -110,8 +121,12 @@ fun AlphabeticalScrollBar(
                             val index = (progress * alphabet.size).toInt().coerceIn(0, alphabet.size - 1)
                             val letter = alphabet[index]
                             if (sectionMap.containsKey(letter) && activeIndex != letter) {
+                                when (alphabeticalIndexTick(activeIndex, letter, firstAvailable, lastAvailable)) {
+                                    IndexTick.SELECTION -> appHaptics.play(AppHapticEvent.SELECTION)
+                                    IndexTick.BOUNDARY -> appHaptics.play(AppHapticEvent.BOUNDARY)
+                                    IndexTick.NONE -> Unit
+                                }
                                 activeIndex = letter
-                                haptic.performHapticFeedback(HapticFeedbackType.TextHandleMove)
                                 coroutineScope.launch {
                                     sectionMap[letter]?.let { position ->
                                         lazyListState.scrollToItem(position)

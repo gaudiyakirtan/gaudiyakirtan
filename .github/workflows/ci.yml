@@ -75,7 +75,11 @@ jobs:
   ios:
     needs: changes
     if: needs.changes.outputs.ios == 'true'
-    runs-on: macos-14
+    # The project is Xcode file format 77. macOS 14 defaults to Xcode 15.4, which rejects the
+    # project before compilation; the macOS 15 image includes Xcode 26.3 and iOS 26 simulators.
+    runs-on: macos-15
+    env:
+      DEVELOPER_DIR: /Applications/Xcode_26.3.app/Contents/Developer
     defaults:
       run:
         working-directory: ios
@@ -84,5 +88,5 @@ jobs:
       - run: |
           xcodebuild build \
             -project gk-ios.xcodeproj -scheme gk-ios \
-            -destination 'platform=iOS Simulator,name=iPhone 15' \
+            -destination 'generic/platform=iOS Simulator' \
             CODE_SIGNING_ALLOWED=NO
