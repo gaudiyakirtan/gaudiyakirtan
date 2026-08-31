@@ -8,6 +8,7 @@ struct SearchView: View {
     /// Autofocus the field when the screen is the Search tab (search.md "autofocus on the Search tab").
     var autofocus: Bool = true
     @StateObject private var viewModel = SearchViewModel()
+    @State private var searchPhase: SearchPhase = .idle
 
     var body: some View {
         VStack(spacing: 12) {
@@ -39,6 +40,21 @@ struct SearchView: View {
         }
         .background(Color.background.edgesIgnoringSafeArea(.all))
         .navigationBarHidden(true)
+        .onChange(of: viewModel.results.count) { _ in updateSearchPhase() }
+        .onChange(of: viewModel.hasQuery) { _ in updateSearchPhase() }
+    }
+
+    /// Marks the moment a query stops matching anything. Search is incremental, so this fires on the
+    /// transition into "no matches" rather than on every keystroke that stays there.
+    private func updateSearchPhase() {
+        let next = SearchHaptics.phase(
+            queryIsBlank: !viewModel.hasQuery,
+            resultCount: viewModel.results.count
+        )
+        if SearchHaptics.warns(from: searchPhase, to: next) {
+            AppHaptics.shared.play(.warning)
+        }
+        searchPhase = next
     }
 
     // Before typing: a light prompt (search.md leaves recent/suggested deferred — empty is fine).

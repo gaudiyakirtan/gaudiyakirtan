@@ -119,8 +119,11 @@ Rules the implementations must keep:
 - Nothing is gated on an app-level setting: both systems already honour the device's haptic
   preference, and iOS silences the Taptic Engine in Low Power Mode on its own.
 
-The wider surface-by-surface haptic plan this rail is the first slice of lives in
-[`docs/theme/haptics.md`](../theme/haptics.md).
+The rail is the first slice of the app-wide vocabulary in
+[`docs/theme/haptics.md`](../theme/haptics.md), which now also covers the transport and take picker
+on this screen: play/pause reads its state before the toggle flips it so the feel matches the
+transition, stepping recordings ticks and marks a **wrap** past either end as a boundary, and
+re-picking the recording already playing stays silent because nothing changed.
 
 ### Supporting region and mini-player
 

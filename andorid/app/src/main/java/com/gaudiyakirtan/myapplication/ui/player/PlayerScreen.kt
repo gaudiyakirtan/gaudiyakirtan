@@ -65,6 +65,9 @@ import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.myapplication.ui.theme.neutral
 import com.gaudiyakirtan.services.NowPlaying
 import com.gaudiyakirtan.services.PlaybackState
+import com.gaudiyakirtan.myapplication.ui.haptics.AppHapticEvent
+import com.gaudiyakirtan.myapplication.ui.haptics.rememberAppHaptics
+import com.gaudiyakirtan.myapplication.ui.haptics.transportWraps
 import com.gaudiyakirtan.services.PlayerUiState
 import kotlin.math.roundToInt
 
@@ -289,6 +292,35 @@ private fun PlaybackControls(
 ) {
     val duration = uiState.durationMs.coerceAtLeast(0)
     val scrubHaptics = rememberScrubHapticEngine()
+    val appHaptics = rememberAppHaptics()
+
+    // Read the state *before* the toggle flips it, so the feel matches the transition the user asked
+    // for and lands with the wavy/flat morph rather than after it.
+    val playPauseWithFeel = {
+        when (uiState.playbackState) {
+            PlaybackState.PLAYING -> appHaptics.play(AppHapticEvent.TOGGLE_OFF)
+            PlaybackState.PAUSED -> appHaptics.play(AppHapticEvent.TOGGLE_ON)
+            else -> Unit
+        }
+        onPlayPauseClick()
+    }
+
+    // A wrap past either end is a boundary rather than another tick. Only the feel is conditional —
+    // the step itself always runs.
+    val stepTake = { delta: Int, step: () -> Unit ->
+        val now = uiState.nowPlaying
+        if (now != null && now.availableTracks.size > 1) {
+            val index = now.availableTracks.indexOfFirst { it.uid == now.track.uid }.coerceAtLeast(0)
+            appHaptics.play(
+                if (transportWraps(index, delta, now.availableTracks.size)) {
+                    AppHapticEvent.BOUNDARY
+                } else {
+                    AppHapticEvent.TICK
+                }
+            )
+        }
+        step()
+    }
     var dragPositionMs by remember { mutableFloatStateOf(-1f) }
     val displayedPositionMs = if (dragPositionMs >= 0f) {
         dragPositionMs.roundToInt()
@@ -334,7 +366,7 @@ private fun PlaybackControls(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(42.dp)
         ) {
-            IconButton(onClick = onPreviousTrack, enabled = hasMultipleTracks) {
+            IconButton(onClick = { stepTake(-1, onPreviousTrack) }, enabled = hasMultipleTracks) {
                 Icon(
                     imageVector = Icons.Default.SkipPrevious,
                     contentDescription = "Previous recording",
@@ -357,7 +389,7 @@ private fun PlaybackControls(
                     .size(72.dp)
                     .clip(RoundedCornerShape(playCorner))
                     .background(MaterialTheme.colorScheme.primary)
-                    .clickable(onClick = onPlayPauseClick),
+                    .clickable(onClick = playPauseWithFeel),
                 contentAlignment = Alignment.Center
             ) {
                 Icon(
@@ -368,7 +400,7 @@ private fun PlaybackControls(
                 )
             }
 
-            IconButton(onClick = onNextTrack, enabled = hasMultipleTracks) {
+            IconButton(onClick = { stepTake(1, onNextTrack) }, enabled = hasMultipleTracks) {
                 Icon(
                     imageVector = Icons.Default.SkipNext,
                     contentDescription = "Next recording",
@@ -529,6 +561,7 @@ private fun TakePicker(
     onTrackSelected: (AudioTrack) -> Unit
 ) {
     var expanded by remember { mutableStateOf(false) }
+    val appHaptics = rememberAppHaptics()
     Box {
         Surface(
             shape = RoundedCornerShape(18.dp),
@@ -568,6 +601,11 @@ private fun TakePicker(
                     text = { Text(track.artist ?: track.uid) },
                     onClick = {
                         expanded = false
+                        // Re-picking the recording that is already playing changed nothing, so per
+                        // the vocabulary's one rule it stays silent. Only the feel is conditional.
+                        if (track.uid != current.uid) {
+                            appHaptics.play(AppHapticEvent.SELECTION)
+                        }
                         onTrackSelected(track)
                     }
                 )

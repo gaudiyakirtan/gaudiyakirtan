@@ -204,7 +204,7 @@ struct PlayerView: View {
                 takeStepButton(
                     systemImage: "backward.end.fill",
                     label: "Previous recording",
-                    action: player.previousTrack
+                    action: { stepTake(by: -1, action: player.previousTrack) }
                 )
 
                 playPauseButton
@@ -212,7 +212,7 @@ struct PlayerView: View {
                 takeStepButton(
                     systemImage: "forward.end.fill",
                     label: "Next recording",
-                    action: player.nextTrack
+                    action: { stepTake(by: 1, action: player.nextTrack) }
                 )
             }
         }
@@ -235,8 +235,43 @@ struct PlayerView: View {
         .accessibilityLabel(label)
     }
 
+    /// Selecting the recording that is already playing changed nothing, so per the vocabulary's one
+    /// rule it stays silent. This is the case most likely to be got wrong.
+    private func selectTake(_ track: AudioTrack) {
+        // Only the feel is conditional; the selection itself still runs, so re-tapping the current
+        // take restarts it exactly as it did before.
+        if track.uid != player.currentTrack?.uid {
+            AppHaptics.shared.play(.selection)
+        }
+        player.selectTrack(track)
+    }
+
+    /// Steps a recording, marking a wrap past either end as a boundary rather than another tick —
+    /// otherwise looping back to the first recording is indistinguishable from advancing.
+    private func stepTake(by delta: Int, action: () -> Void) {
+        let tracks = player.availableTracks
+        if tracks.count > 1 {
+            let index = tracks.firstIndex { $0.uid == player.currentTrack?.uid } ?? 0
+            AppHaptics.shared.play(
+                TransportHaptics.wraps(index: index, delta: delta, count: tracks.count) ? .boundary : .tick
+            )
+        }
+        action()
+    }
+
+    /// Play/pause reads the state *before* toggling, so the feel matches the transition the user
+    /// asked for and lands with the scrubber's wavy/flat morph rather than after it.
+    private func togglePlayPauseWithFeel() {
+        switch player.state {
+        case .playing: AppHaptics.shared.play(.toggleOff)
+        case .paused: AppHaptics.shared.play(.toggleOn)
+        case .idle, .loading, .error: break
+        }
+        player.togglePlayPause()
+    }
+
     private var playPauseButton: some View {
-        Button(action: player.togglePlayPause) {
+        Button(action: togglePlayPauseWithFeel) {
             ZStack {
                 Circle()
                     .fill(Color.highlight)
@@ -301,7 +336,7 @@ struct PlayerView: View {
 
             VStack(spacing: 0) {
                 ForEach(player.availableTracks, id: \.uid) { track in
-                    Button(action: { player.selectTrack(track) }) {
+                    Button(action: { selectTake(track) }) {
                         HStack(spacing: 12) {
                             Image(systemName: track.uid == player.currentTrack?.uid ? "waveform" : "music.note")
                                 .foregroundColor(track.uid == player.currentTrack?.uid ? Color.highlight : Color.neutral)
