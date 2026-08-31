@@ -67,13 +67,12 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | artist/book images | ✅ | ✅* | ✅ |
 | unit tests | ✅ | ✅* | ✅ |
 | resources | 🔨 | — | — |
-| player / now-playing | ✅ v14 green | ⏳ v14* ʷ | ⏳ v14 ʷ |
+| player / now-playing | ✅ v14 green | ✅ v15 green | ✅ v15 green |
 
 Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbox-blocked; confirm on a real
 Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a
-web surface (navigation v5 / player v14: the web z-index scale, the drawer-over-mini-player model,
-and the open-song uid pill), so iOS/Android are not stale against it; they stay conformant at the
-version before it ·
+web surface (navigation v5 / the web-specific player v14 subsection: the z-index scale, the
+drawer-over-mini-player model, and the open-song uid pill), so iOS/Android are not stale against it ·
 `🔨` in progress · `—` not applicable / not on that platform.
 
 **theme v3 (Material 3 Expressive) — Android is `🔨 partial`.** Landed: `MaterialExpressiveTheme` +

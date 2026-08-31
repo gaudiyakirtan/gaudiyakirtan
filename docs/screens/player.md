@@ -45,10 +45,12 @@ Playback still **degrades gracefully** on any load failure (network off, missing
 ## Native v15 — immersive, waveform-led player
 
 The iOS and Android Now Playing screens adopt the hierarchy visible in SoundCloud's current native
-store imagery (reviewed 2026-08-31): an immersive artwork stage, metadata at the top, transport over
-the focal area, and a prominent played/unplayed rail near the bottom. This is a Gauḍīya Kīrtan
-adaptation, not a visual clone: it does not copy SoundCloud branding, orange, comments, likes, or
-social controls.
+store imagery (reviewed 2026-08-31 on the official
+[Apple App Store](https://apps.apple.com/us/app/soundcloud-the-music-you-love/id336353151) and
+[Google Play](https://play.google.com/store/apps/details?id=com.soundcloud.android) listings): an
+immersive artwork stage, metadata at the top, transport over the focal area, and a prominent
+played/unplayed rail near the bottom. This is a Gauḍīya Kīrtan adaptation, not a visual clone: it
+does not copy SoundCloud branding, orange, comments, likes, or social controls.
 
 ### Goal and hierarchy
 
@@ -90,6 +92,31 @@ social controls.
   play/pause, and a thin, non-interactive progress rail along the bottom. Tapping the body expands
   Now Playing; the trailing play button must not also trigger expansion.
 - Web stays on the v14 card contract below; v15 changes only the native iOS and Android surfaces.
+
+### Native v15 visual verification
+
+Every image below uses the same real corpus fixture (`R8`, first recording, 0:42 of 3:07) so the
+comparison is about hierarchy rather than content. The iOS simulator resolves the recording's real
+portrait; the hermetic Android screenshot test deliberately exercises the offline mridanga fallback.
+
+#### iOS
+
+| Theme | Before (v14) | After (v15) |
+|---|---|---|
+| Gaura | ![iOS player before v15 in Gaura](../screenshots/native-player/ios-before-gaura.png) | ![iOS immersive waveform player in Gaura](../screenshots/native-player/ios-after-gaura.png) |
+| Shyam | ![iOS player before v15 in Shyam](../screenshots/native-player/ios-before-shyam.png) | ![iOS immersive waveform player in Shyam](../screenshots/native-player/ios-after-shyam.png) |
+
+#### Android
+
+| Theme | Before (v14) | After (v15) |
+|---|---|---|
+| Gaura | ![Android player before v15 in Gaura](../screenshots/native-player/android-before-gaura.png) | ![Android immersive waveform player in Gaura](../screenshots/native-player/android-after-gaura.png) |
+| Shyam | ![Android player before v15 in Shyam](../screenshots/native-player/android-before-shyam.png) | ![Android immersive waveform player in Shyam](../screenshots/native-player/android-after-shyam.png) |
+
+Verification recorded for v15: all 39 iOS unit tests passed on an iPhone 17 Pro / iOS 26.5
+simulator; Android's complete `testDebugUnitTest` task passed on JDK 21, including the single-seek-
+semantics, recording-transport, and deterministic-profile coverage. Its Roborazzi record task also
+passed separately and produced the Android after images above.
 
 ## What the web mini-player looks like
 
@@ -249,7 +276,7 @@ title** carries it on the final line and the line box does not grow:
 
 ## Change log
 
-- **v15 (iOS + Android)** — Specified an immersive native listening stage and a prominent,
+- **v15 (iOS + Android)** — Implemented an immersive native listening stage and a prominent,
   accessible waveform-inspired seek rail based on current SoundCloud mobile hierarchy. The rail is
   explicitly decorative geometry rather than fabricated audio-amplitude data. Preserved the
   Gauḍīya Kīrtan palettes, reciter-first metadata, multi-recording selection, global playback
