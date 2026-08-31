@@ -13,9 +13,10 @@ struct PlayerView: View {
         Group {
             if let song = player.currentSong {
                 GeometryReader { proxy in
+                    let contentWidth = max(proxy.size.width - 24, 0)
                     ScrollView {
                         VStack(spacing: 20) {
-                            listeningStage(song: song)
+                            listeningStage(song: song, width: contentWidth)
                             composerCard(song: song)
 
                             if player.availableTracks.count > 1 {
@@ -25,7 +26,7 @@ struct PlayerView: View {
                         // A vertical ScrollView does not impose a hard content width. Constrain the
                         // stack explicitly so a long recording credit cannot widen the entire
                         // player and push the stage/header beyond the phone viewport.
-                        .frame(width: max(proxy.size.width - 24, 0))
+                        .frame(width: contentWidth)
                         .padding(.horizontal, 12)
                         .padding(.top, 12)
                         .padding(.bottom, 40)
@@ -41,7 +42,7 @@ struct PlayerView: View {
 
     // MARK: - Listening stage
 
-    private func listeningStage(song: Song) -> some View {
+    private func listeningStage(song: Song, width: CGFloat) -> some View {
         ZStack {
             stageArtwork
 
@@ -83,8 +84,9 @@ struct PlayerView: View {
             }
             .padding(18)
         }
-        .frame(maxWidth: .infinity)
-        .frame(height: 620)
+        // Fix the stage before clipping it. An asynchronously resolved portrait otherwise keeps
+        // its fill-sized layout width and can make the clipped ZStack wider than the phone.
+        .frame(width: width, height: 620)
         .clipShape(RoundedRectangle(cornerRadius: 30, style: .continuous))
         .overlay {
             RoundedRectangle(cornerRadius: 30, style: .continuous)
