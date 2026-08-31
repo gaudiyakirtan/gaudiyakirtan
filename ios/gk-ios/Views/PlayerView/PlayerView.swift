@@ -45,6 +45,8 @@ struct PlayerView: View {
     private func listeningStage(song: Song, width: CGFloat) -> some View {
         ZStack {
             stageArtwork
+                .frame(width: width, height: 620)
+                .clipped()
 
             LinearGradient(
                 stops: [
@@ -56,6 +58,7 @@ struct PlayerView: View {
                 startPoint: .top,
                 endPoint: .bottom
             )
+            .frame(width: width, height: 620)
 
             VStack(spacing: 0) {
                 stageHeader
@@ -82,7 +85,7 @@ struct PlayerView: View {
                 playerStateContent
                     .padding(.top, 22)
             }
-            .padding(18)
+            .frame(width: max(width - 36, 0), height: 584)
         }
         // Fix the stage before clipping it. An asynchronously resolved portrait otherwise keeps
         // its fill-sized layout width and can make the clipped ZStack wider than the phone.
