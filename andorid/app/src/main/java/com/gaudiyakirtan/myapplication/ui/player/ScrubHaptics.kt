@@ -70,24 +70,34 @@ fun scrubTick(previous: Float?, next: Float): ScrubTick {
 }
 
 /**
- * Maps a tick onto a platform constant for a given API level.
+ * Maps a tick onto the best constant the running platform actually honours.
  *
- * The segment/gesture vocabulary that actually reads as a notched rail landed in API 34. Below that
- * the platform ignores those constants outright, so this degrades to the older ones the framework
- * has always honoured rather than letting the rail go silent on most in-market devices.
+ * Android's haptic constants landed in waves and an unknown one is ignored rather than approximated,
+ * so this tiers down instead of branching once on API 34: the segment vocabulary that actually reads
+ * as a notched rail is 34+, `TextHandleMove` is 27+, and `ContextClick` (23) is the floor that every
+ * device this app supports can play. Without the lowest tier the rail would be silent on API 24–26.
+ *
+ * The tiers match `AppHaptics.appHapticType`, so the rail and the rest of the app degrade alike.
  */
-fun scrubHapticType(tick: ScrubTick, sdkInt: Int = Build.VERSION.SDK_INT): HapticFeedbackType? {
-    val modern = sdkInt >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE
-    return when (tick) {
+fun scrubHapticType(tick: ScrubTick, sdkInt: Int = Build.VERSION.SDK_INT): HapticFeedbackType? =
+    when (tick) {
         ScrubTick.NONE -> null
-        ScrubTick.MINOR ->
-            if (modern) HapticFeedbackType.SegmentFrequentTick else HapticFeedbackType.TextHandleMove
-        ScrubTick.MAJOR ->
-            if (modern) HapticFeedbackType.SegmentTick else HapticFeedbackType.TextHandleMove
-        ScrubTick.EDGE ->
-            if (modern) HapticFeedbackType.GestureEnd else HapticFeedbackType.ContextClick
+        ScrubTick.MINOR -> when {
+            sdkInt >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE -> HapticFeedbackType.SegmentFrequentTick
+            sdkInt >= Build.VERSION_CODES.O_MR1 -> HapticFeedbackType.TextHandleMove
+            else -> HapticFeedbackType.ContextClick
+        }
+        ScrubTick.MAJOR -> when {
+            sdkInt >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE -> HapticFeedbackType.SegmentTick
+            sdkInt >= Build.VERSION_CODES.O_MR1 -> HapticFeedbackType.TextHandleMove
+            else -> HapticFeedbackType.ContextClick
+        }
+        // GestureEnd is API 30, so there is no separate 34 tier to add here.
+        ScrubTick.EDGE -> when {
+            sdkInt >= Build.VERSION_CODES.R -> HapticFeedbackType.GestureEnd
+            else -> HapticFeedbackType.ContextClick
+        }
     }
-}
 
 /** The "grab" played when a finger first lands on the rail. */
 fun scrubGrabHapticType(sdkInt: Int = Build.VERSION.SDK_INT): HapticFeedbackType =
@@ -98,12 +108,10 @@ fun scrubGrabHapticType(sdkInt: Int = Build.VERSION.SDK_INT): HapticFeedbackType
     }
 
 /** The release played when the seek commits. */
-fun scrubReleaseHapticType(sdkInt: Int = Build.VERSION.SDK_INT): HapticFeedbackType =
-    if (sdkInt >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
-        HapticFeedbackType.GestureEnd
-    } else {
-        HapticFeedbackType.KeyboardTap
-    }
+fun scrubReleaseHapticType(sdkInt: Int = Build.VERSION.SDK_INT): HapticFeedbackType = when {
+    sdkInt >= Build.VERSION_CODES.R -> HapticFeedbackType.GestureEnd
+    else -> HapticFeedbackType.KeyboardTap
+}
 
 /**
  * Drives the vibrator for a seek-rail scrub. The system already gates this on the device's touch-

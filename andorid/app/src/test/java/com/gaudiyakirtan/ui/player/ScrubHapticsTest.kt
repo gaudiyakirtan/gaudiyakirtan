@@ -113,6 +113,17 @@ class ScrubHapticsTest {
     }
 
     @Test
+    fun `at the minSdk floor the rail still ticks`() {
+        // minSdk is 24, where even TextHandleMove (27) is ignored. Without the ContextClick floor the
+        // rail would be silent on this whole band rather than merely coarser.
+        val sdk = Build.VERSION_CODES.N
+        assertEquals(HapticFeedbackType.ContextClick, scrubHapticType(ScrubTick.MINOR, sdk))
+        assertEquals(HapticFeedbackType.ContextClick, scrubHapticType(ScrubTick.MAJOR, sdk))
+        assertEquals(HapticFeedbackType.ContextClick, scrubHapticType(ScrubTick.EDGE, sdk))
+        assertEquals(HapticFeedbackType.ContextClick, scrubGrabHapticType(sdk))
+    }
+
+    @Test
     fun `below api 34 the rail still ticks with constants the platform honours`() {
         // The segment constants are ignored outright before API 34, so the rail must not depend on
         // them; this is what keeps it from going silent on most in-market devices.
