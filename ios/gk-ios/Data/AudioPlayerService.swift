@@ -213,6 +213,23 @@ final class AudioPlayerService: ObservableObject {
         isExpanded = false
     }
 
+#if DEBUG
+    /// Loads the same deterministic real-corpus fixture used by native player screenshots without
+    /// creating an `AVPlayer` or contacting S3. Launch the debug app with
+    /// `-player-screenshot-fixture` to make before/after captures reproducible.
+    func loadScreenshotFixture() {
+        guard let song = SongRepository.shared.song(uid: "R8"),
+              let track = song.audioFiles.first else { return }
+        teardownPlayer()
+        currentSong = song
+        currentTrack = track
+        currentTime = 42
+        duration = 187
+        state = .paused
+        isExpanded = true
+    }
+#endif
+
     private func teardownPlayer() {
         if let timeObserverToken, let player {
             player.removeTimeObserver(timeObserverToken)
