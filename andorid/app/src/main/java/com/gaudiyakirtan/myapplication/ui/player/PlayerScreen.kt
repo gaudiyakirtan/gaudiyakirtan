@@ -288,6 +288,7 @@ private fun PlaybackControls(
     onNextTrack: () -> Unit
 ) {
     val duration = uiState.durationMs.coerceAtLeast(0)
+    val scrubHaptics = rememberScrubHapticEngine()
     var dragPositionMs by remember { mutableFloatStateOf(-1f) }
     val displayedPositionMs = if (dragPositionMs >= 0f) {
         dragPositionMs.roundToInt()
@@ -303,8 +304,12 @@ private fun PlaybackControls(
             seed = waveformSeed,
             positionMs = displayedPositionMs,
             durationMs = duration,
-            onPositionChange = { dragPositionMs = it.toFloat() },
+            onPositionChange = {
+                dragPositionMs = it.toFloat()
+                if (duration > 0) scrubHaptics.scrub(it.toFloat() / duration)
+            },
             onPositionChangeFinished = {
+                scrubHaptics.end()
                 if (duration > 0) onSeek(displayedPositionMs.coerceIn(0, duration))
                 dragPositionMs = -1f
             }
@@ -394,7 +399,8 @@ private fun WaveformSeekBar(
         0f
     }
     val playedColor = MaterialTheme.colorScheme.primary
-    val unplayedColor = MaterialTheme.colorScheme.neutral.copy(alpha = 0.34f)
+    val unplayedColorBase = MaterialTheme.colorScheme.neutral
+    val unplayedColor = unplayedColorBase.copy(alpha = 0.34f)
 
     Box(modifier = Modifier.fillMaxWidth().height(82.dp), contentAlignment = Alignment.Center) {
         Canvas(
@@ -403,15 +409,40 @@ private fun WaveformSeekBar(
                 .clearAndSetSemantics { }
         ) {
             val spacing = 2.dp.toPx()
+            val rulerHeight = 14.dp.toPx()
+            val barsHeight = (size.height - rulerHeight).coerceAtLeast(8.dp.toPx())
             val barWidth = ((size.width - spacing * (barCount - 1)) / barCount).coerceAtLeast(1.5f)
             heights.forEachIndexed { index, relativeHeight ->
-                val barHeight = (size.height * relativeHeight).coerceAtLeast(8.dp.toPx())
+                val barHeight = (barsHeight * relativeHeight).coerceAtLeast(8.dp.toPx())
                 val x = index * (barWidth + spacing)
                 drawRoundRect(
                     color = if (x + barWidth / 2 <= size.width * progress) playedColor else unplayedColor,
-                    topLeft = androidx.compose.ui.geometry.Offset(x, (size.height - barHeight) / 2),
+                    topLeft = androidx.compose.ui.geometry.Offset(x, (barsHeight - barHeight) / 2),
                     size = androidx.compose.ui.geometry.Size(barWidth, barHeight),
                     cornerRadius = CornerRadius(barWidth / 2, barWidth / 2)
+                )
+            }
+
+            // The detent ruler. These marks are the ladder the vibrator ticks on, so what sits
+            // under the finger is exactly what it feels.
+            val markWidth = 1.dp.toPx()
+            val majorEvery = ScrubDetents.MINOR / ScrubDetents.MAJOR
+            for (index in 0..ScrubDetents.MINOR) {
+                val fraction = index.toFloat() / ScrubDetents.MINOR
+                val isMajor = index % majorEvery == 0
+                val markHeight = if (isMajor) 9.dp.toPx() else 4.dp.toPx()
+                val x = (fraction * size.width).coerceAtMost(size.width - markWidth)
+                val played = fraction <= progress
+                val alpha = when {
+                    isMajor && played -> 0.75f
+                    isMajor -> 0.42f
+                    played -> 0.45f
+                    else -> 0.24f
+                }
+                drawRect(
+                    color = (if (played) playedColor else unplayedColorBase).copy(alpha = alpha),
+                    topLeft = androidx.compose.ui.geometry.Offset(x, size.height - markHeight),
+                    size = androidx.compose.ui.geometry.Size(markWidth, markHeight)
                 )
             }
         }

@@ -1,6 +1,6 @@
 # Screen — Audio Player
 
-**Spec version:** 15
+**Spec version:** 16
 
 **Figma frames:** `Now Playing`, `Player`, `Track`, `trailingIcon2_`.
 
@@ -84,6 +84,44 @@ does not copy SoundCloud branding, orange, comments, likes, or social controls.
   value. Decorative bars are hidden from accessibility. Reduced-motion settings suppress any
   nonessential animation.
 
+### Detent ruler and scrub haptics (v16)
+
+The rail carries a **detent ruler** along its lower edge: a short mark every 1/32 of the recording
+and a tall one every 1/8. The ruler is drawn inside the rail's existing height, so adding it moved
+nothing below it. Played and unplayed marks take the same semantic colors as the bars above them.
+
+Those marks are also the **haptic ladder**, which is the point: the mark under the finger is the
+mark it feels. Dragging the rail plays a tick on each crossing, so a scrub feels notched rather than
+frictionless, and the counts are shared with the ruler geometry so the two cannot drift apart.
+
+| Moment | Feel | iOS | Android (API 34+) | Android (below 34) |
+|---|---|---|---|---|
+| Finger lands on the rail | the "grab" | `.rigid` impact @ 0.7 | `GestureThresholdActivate` | `ContextClick` |
+| Crossing a minor detent (1/32) | fine notch | `UISelectionFeedbackGenerator` | `SegmentFrequentTick` | `TextHandleMove` |
+| Crossing a major detent (1/8) | firmer notch | `.light` impact @ 0.55 | `SegmentTick` | `TextHandleMove` |
+| Arriving at 0:00 or the end | boundary | `.soft` impact @ 1.0 | `GestureEnd` | `ContextClick` |
+| Seek commits | release | `.soft` impact @ 0.6 | `GestureEnd` | `KeyboardTap` |
+
+Rules the implementations must keep:
+
+- **Every major detent is also a minor detent** (32 is a whole multiple of 8), which is what lets a
+  major crossing simply out-rank the minor one it also crosses. Retuning one count without the other
+  desynchronises the ruler from the ladder.
+- **A boundary fires on arrival, not while held.** A finger parked past the end of the rail keeps
+  producing out-of-range samples; they clamp, and must not re-fire.
+- **Ticks are rate-limited** (18 ms). A fast flick crosses many detents in one frame; without the
+  limit the actuator rattles instead of notching.
+- **A zero or unknown duration is inert** — the same NaN/infinite guard the seek itself uses.
+- **Discrete jumps get one tick, not a stream.** VoiceOver's adjustable action, Switch Control, and
+  keyboard arrows commit one value at a time and play a single confirmation.
+- The ladder is **identical on both platforms** (iOS `ScrubHapticLadder`, Android `scrubTick`) and
+  unit-tested on each. If one side is retuned and the other is not, the apps stop feeling alike.
+- Nothing is gated on an app-level setting: both systems already honour the device's haptic
+  preference, and iOS silences the Taptic Engine in Low Power Mode on its own.
+
+The wider surface-by-surface haptic plan this rail is the first slice of lives in
+[`docs/theme/haptics.md`](../theme/haptics.md).
+
 ### Supporting region and mini-player
 
 - Composer and available recordings follow the stage in the normal scroll region. Selecting a take
@@ -93,7 +131,7 @@ does not copy SoundCloud branding, orange, comments, likes, or social controls.
   Now Playing; the trailing play button must not also trigger expansion.
 - Web stays on the v14 card contract below; v15 changes only the native iOS and Android surfaces.
 
-### Native v15 visual verification
+### Native visual verification
 
 Every image below uses the same real corpus fixture (`R8`, first recording, 0:42 of 3:07) so the
 comparison is about hierarchy rather than content. The iOS simulator resolves the recording's real
@@ -101,22 +139,26 @@ portrait; the hermetic Android screenshot test deliberately exercises the offlin
 
 #### iOS
 
-| Theme | Before (v14) | After (v15) |
+| Theme | Before (v14) | After (v16) |
 |---|---|---|
 | Gaura | ![iOS player before v15 in Gaura](../screenshots/native-player/ios-before-gaura.png) | ![iOS immersive waveform player in Gaura](../screenshots/native-player/ios-after-gaura.png) |
 | Shyam | ![iOS player before v15 in Shyam](../screenshots/native-player/ios-before-shyam.png) | ![iOS immersive waveform player in Shyam](../screenshots/native-player/ios-after-shyam.png) |
 
 #### Android
 
-| Theme | Before (v14) | After (v15) |
+| Theme | Before (v14) | After (v16) |
 |---|---|---|
 | Gaura | ![Android player before v15 in Gaura](../screenshots/native-player/android-before-gaura.png) | ![Android immersive waveform player in Gaura](../screenshots/native-player/android-after-gaura.png) |
 | Shyam | ![Android player before v15 in Shyam](../screenshots/native-player/android-before-shyam.png) | ![Android immersive waveform player in Shyam](../screenshots/native-player/android-after-shyam.png) |
 
-Verification recorded for v15: all 39 iOS unit tests passed on an iPhone 17 Pro / iOS 26.5
-simulator; Android's complete `testDebugUnitTest` task passed on JDK 21, including the single-seek-
-semantics, recording-transport, and deterministic-profile coverage. Its Roborazzi record task also
-passed separately and produced the Android after images above.
+Verification recorded for v16: all 50 iOS unit tests passed on an iPhone 17 Pro simulator under
+Xcode 26.6; Android's complete `testDebugUnitTest` task passed on the Android Studio JBR with 78
+tests and no failures, including the single-seek-semantics, recording-transport, deterministic-
+profile, and detent-ladder coverage. Its Roborazzi record task passed separately and produced the
+Android after images above; the iOS images come from the debug `-player-screenshot-fixture` launch
+argument against the same `R8` fixture.
+
+The "after" images show v16 — the same v15 hierarchy, now carrying the detent ruler under the rail.
 
 ## What the web mini-player looks like
 
@@ -276,6 +318,16 @@ title** carries it on the final line and the line box does not grow:
 
 ## Change log
 
+- **v16 (iOS + Android)** — Gave the seek rail a **detent ruler** and made it the haptic ladder, so
+  scrubbing feels notched rather than frictionless: a mark every 1/32 of the recording, a taller one
+  every 1/8, and a tick as the finger crosses each. The ruler is drawn inside the rail's existing
+  height, so nothing below it moved. Boundaries fire on arrival rather than while held, ticks are
+  rate-limited so a flick notches instead of rattling, and a zero or unknown duration stays inert.
+  Discrete jumps from VoiceOver, Switch Control, and the keyboard get one confirmation rather than a
+  stream. Below API 34 Android falls back to constants the platform actually honours, so the rail
+  does not go silent on most in-market devices. The ladder is shared arithmetic, unit-tested on both
+  platforms. Web is unchanged. The wider plan is
+  [`docs/theme/haptics.md`](../theme/haptics.md).
 - **v15 (iOS + Android)** — Implemented an immersive native listening stage and a prominent,
   accessible waveform-inspired seek rail based on current SoundCloud mobile hierarchy. The rail is
   explicitly decorative geometry rather than fabricated audio-amplitude data. Preserved the

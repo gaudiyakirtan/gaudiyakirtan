@@ -365,6 +365,10 @@ private struct WaveformScrubber: View {
 
     private let barCount = 64
     private let spacing: CGFloat = 2
+    /// Height reserved under the bars for the detent ruler, so the rail's overall height is unchanged.
+    private let rulerHeight: CGFloat = 14
+
+    @StateObject private var haptics = ScrubHapticEngine()
 
     private var progress: CGFloat {
         guard duration.isFinite, duration > 0, value.isFinite else { return 0 }
@@ -375,15 +379,33 @@ private struct WaveformScrubber: View {
         GeometryReader { proxy in
             let heights = NativePlayerWaveform.heights(seed: seed, count: barCount)
             Canvas { context, size in
+                let barsHeight = max(8, size.height - rulerHeight)
                 let barWidth = max(1.5, (size.width - spacing * CGFloat(barCount - 1)) / CGFloat(barCount))
                 for index in 0..<barCount {
-                    let height = max(8, size.height * heights[index])
+                    let height = max(8, barsHeight * heights[index])
                     let x = CGFloat(index) * (barWidth + spacing)
-                    let rect = CGRect(x: x, y: (size.height - height) / 2, width: barWidth, height: height)
+                    let rect = CGRect(x: x, y: (barsHeight - height) / 2, width: barWidth, height: height)
                     let played = (x + barWidth / 2) <= size.width * progress
                     context.fill(
                         Path(roundedRect: rect, cornerRadius: barWidth / 2),
                         with: .color(played ? Color.highlight : Color.neutral.opacity(0.34))
+                    )
+                }
+
+                // The detent ruler. These marks are the ladder the Taptic Engine ticks on, so what
+                // sits under the finger is exactly what it feels.
+                let markWidth: CGFloat = 1
+                for index in 0...ScrubDetents.minor {
+                    let fraction = CGFloat(index) / CGFloat(ScrubDetents.minor)
+                    let isMajor = index % (ScrubDetents.minor / ScrubDetents.major) == 0
+                    let markHeight: CGFloat = isMajor ? 9 : 4
+                    let x = min(fraction * size.width, size.width - markWidth)
+                    let rect = CGRect(x: x, y: size.height - markHeight, width: markWidth, height: markHeight)
+                    let played = fraction <= progress
+                    let tint = played ? Color.highlight : Color.neutral
+                    context.fill(
+                        Path(rect),
+                        with: .color(tint.opacity(isMajor ? (played ? 0.75 : 0.42) : (played ? 0.45 : 0.24)))
                     )
                 }
             }
@@ -393,11 +415,18 @@ private struct WaveformScrubber: View {
                 DragGesture(minimumDistance: 0)
                     .onChanged { gesture in
                         guard duration.isFinite, duration > 0 else { return }
-                        onPreview(time(at: gesture.location.x, width: proxy.size.width))
+                        let seconds = time(at: gesture.location.x, width: proxy.size.width)
+                        haptics.scrub(to: seconds / duration)
+                        onPreview(seconds)
                     }
                     .onEnded { gesture in
-                        guard duration.isFinite, duration > 0 else { return }
-                        onCommit(time(at: gesture.location.x, width: proxy.size.width))
+                        guard duration.isFinite, duration > 0 else {
+                            haptics.end()
+                            return
+                        }
+                        let seconds = time(at: gesture.location.x, width: proxy.size.width)
+                        haptics.end()
+                        onCommit(seconds)
                     }
             )
         }
@@ -409,8 +438,14 @@ private struct WaveformScrubber: View {
             guard duration.isFinite, duration > 0 else { return }
             let step = max(5, duration / 20)
             switch direction {
-            case .increment: onCommit(min(value + step, duration))
-            case .decrement: onCommit(max(value - step, 0))
+            case .increment:
+                let target = min(value + step, duration)
+                haptics.adjust(to: target / duration)
+                onCommit(target)
+            case .decrement:
+                let target = max(value - step, 0)
+                haptics.adjust(to: target / duration)
+                onCommit(target)
             @unknown default: break
             }
         }

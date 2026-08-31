@@ -37,6 +37,7 @@ and cross-platform structure. See the **[screens index](screens/README.md)**. Hi
 ## Reference
 
 - [`theme/colors.md`](theme/colors.md) · [`theme/icons.md`](theme/icons.md) · [`theme/typography.md`](theme/typography.md) — palette, icon pack, brand font.
+- [`theme/haptics.md`](theme/haptics.md) — the native haptic vocabulary: the implemented seek-rail ladder, and the proposed surfaces after it.
 - [`store-readiness.md`](store-readiness.md) — app-store checklist.
 - Build/run commands and code style live in the repo-root [`../CLAUDE.md`](../CLAUDE.md).
 
