@@ -12,18 +12,24 @@ struct PlayerView: View {
     var body: some View {
         Group {
             if let song = player.currentSong {
-                ScrollView {
-                    VStack(spacing: 20) {
-                        listeningStage(song: song)
-                        composerCard(song: song)
+                GeometryReader { proxy in
+                    ScrollView {
+                        VStack(spacing: 20) {
+                            listeningStage(song: song)
+                            composerCard(song: song)
 
-                        if player.availableTracks.count > 1 {
-                            takePicker
+                            if player.availableTracks.count > 1 {
+                                takePicker
+                            }
                         }
+                        // A vertical ScrollView does not impose a hard content width. Constrain the
+                        // stack explicitly so a long recording credit cannot widen the entire
+                        // player and push the stage/header beyond the phone viewport.
+                        .frame(width: max(proxy.size.width - 24, 0))
+                        .padding(.horizontal, 12)
+                        .padding(.top, 12)
+                        .padding(.bottom, 40)
                     }
-                    .padding(.horizontal, 12)
-                    .padding(.top, 12)
-                    .padding(.bottom, 40)
                 }
             } else {
                 EmptyStateView(systemImage: "music.note", title: "Nothing playing")
