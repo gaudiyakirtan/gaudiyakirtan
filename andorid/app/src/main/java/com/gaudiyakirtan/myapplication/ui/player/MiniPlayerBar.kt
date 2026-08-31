@@ -15,7 +15,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ErrorOutline
 import androidx.compose.material.icons.filled.Pause
@@ -33,9 +33,12 @@ import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
+import coil3.compose.SubcomposeAsyncImage
+import com.gaudiyakirtan.data.ImageConfig
 import com.gaudiyakirtan.myapplication.models.author
 import com.gaudiyakirtan.myapplication.models.title
 import com.gaudiyakirtan.myapplication.ui.components.icons.Mridanga
@@ -84,13 +87,12 @@ fun MiniPlayerBar(
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.spacedBy(Spacing.md)
         ) {
-            // Same mridanga mark as the home search bar, so the two surfaces agree on what the
-            // app's music icon is. Full colour, so it needs no tinted backing circle.
-            Box(
-                modifier = Modifier.size(36.dp),
-                contentAlignment = Alignment.Center
-            ) {
-                Mridanga(size = 32.dp)
+            if (nowPlaying != null) {
+                MiniArtwork(trackUid = nowPlaying.track.uid, artist = nowPlaying.track.artist)
+            } else {
+                Box(modifier = Modifier.size(40.dp), contentAlignment = Alignment.Center) {
+                    Mridanga(size = 34.dp)
+                }
             }
 
             Column(modifier = Modifier.weight(1f)) {
@@ -167,4 +169,28 @@ fun MiniPlayerBar(
         }
       }
     }
+}
+
+@Composable
+private fun MiniArtwork(trackUid: String, artist: String?) {
+    val shape = RoundedCornerShape(9.dp)
+    val artistCode = ImageConfig.artistCode(trackUid)
+    SubcomposeAsyncImage(
+        model = ImageConfig.artistImageUrl(artistCode),
+        contentDescription = artist,
+        contentScale = ContentScale.Crop,
+        loading = {
+            Box(
+                modifier = Modifier.fillMaxSize().background(MaterialTheme.colorScheme.primary.copy(alpha = 0.12f)),
+                contentAlignment = Alignment.Center
+            ) { Mridanga(size = 30.dp) }
+        },
+        error = {
+            Box(
+                modifier = Modifier.fillMaxSize().background(MaterialTheme.colorScheme.primary.copy(alpha = 0.12f)),
+                contentAlignment = Alignment.Center
+            ) { Mridanga(size = 30.dp) }
+        },
+        modifier = Modifier.size(40.dp).clip(shape)
+    )
 }

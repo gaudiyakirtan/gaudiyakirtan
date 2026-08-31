@@ -341,7 +341,9 @@ fun AppNavigation() {
                     onBackClick = { navController.popBackStack() },
                     onPlayPauseClick = { playerViewModel.togglePlayPause() },
                     onSeek = { positionMs -> playerViewModel.seekTo(positionMs) },
-                    onTrackSelected = { track -> playerViewModel.selectTrack(track) }
+                    onTrackSelected = { track -> playerViewModel.selectTrack(track) },
+                    onPreviousTrack = { playerViewModel.previousTrack() },
+                    onNextTrack = { playerViewModel.nextTrack() }
                 )
             }
         }

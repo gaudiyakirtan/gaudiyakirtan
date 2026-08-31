@@ -98,6 +98,21 @@ class PlayerViewModel(application: Application) : AndroidViewModel(application) 
         loadAndPlay(song, track)
     }
 
+    /** Wraps through the current song's recordings, matching the iOS take transport. */
+    fun previousTrack() = stepTrack(-1)
+
+    /** Wraps through the current song's recordings, matching the iOS take transport. */
+    fun nextTrack() = stepTrack(1)
+
+    private fun stepTrack(delta: Int) {
+        val current = _uiState.value.nowPlaying ?: return
+        if (current.availableTracks.size <= 1) return
+        val index = current.availableTracks.indexOfFirst { it.uid == current.track.uid }
+        if (index < 0) return
+        val nextIndex = (index + delta + current.availableTracks.size) % current.availableTracks.size
+        loadAndPlay(current.song, current.availableTracks[nextIndex])
+    }
+
     fun togglePlayPause() {
         when (_uiState.value.playbackState) {
             PlaybackState.PLAYING -> pause()
@@ -109,12 +124,15 @@ class PlayerViewModel(application: Application) : AndroidViewModel(application) 
     /** Seek to an absolute position in milliseconds (scrubber drag-end / tap). */
     fun seekTo(positionMs: Int) {
         val player = mediaPlayer ?: return
+        val duration = _uiState.value.durationMs
+        if (duration <= 0) return
         if (_uiState.value.playbackState != PlaybackState.PLAYING &&
             _uiState.value.playbackState != PlaybackState.PAUSED
         ) return
+        val clampedPosition = positionMs.coerceIn(0, duration)
         try {
-            player.seekTo(positionMs)
-            _uiState.update { it.copy(positionMs = positionMs) }
+            player.seekTo(clampedPosition)
+            _uiState.update { it.copy(positionMs = clampedPosition) }
         } catch (e: IllegalStateException) {
             Log.w(TAG, "seekTo while player not ready", e)
         }
