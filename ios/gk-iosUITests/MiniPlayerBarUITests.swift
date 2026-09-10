@@ -1,15 +1,18 @@
+import UIKit
 import XCTest
 
-/// Regression tests for the two layout defects that made the v15 resting mini-player unshippable on
-/// iOS 26 — both of which are invisible to a unit test, because both are about where UIKit actually
-/// puts the tab bar.
+/// Regression tests for the layout defects that made the v15 resting mini-player unshippable on
+/// iOS 26 — all invisible to a unit test, because all are about where UIKit actually puts the tab
+/// bar.
 ///
 /// They are written against the *accessibility tree*, not against pixels: "does a tab bar with four
 /// reachable items exist, and does the bar overlap it" is a hard question with a hard answer, and it
 /// stays true across devices and OS versions in a way a screenshot comparison would not.
 ///
-/// Neither test depends on a particular song being in the corpus. That is deliberate — seven of the
-/// unit tests in this project had to be repaired for exactly that reason (see PR #52).
+/// Corpus coupling is kept to one uid on purpose — seven of the unit tests in this project had to
+/// be repaired for pinning corpus values (see PR #52). The overlap test preseeds `A10` and accepts
+/// either resting affordance, so it needs only that `A10` exists; the reader test matches the first
+/// song card by its label's shape and names no song at all.
 final class MiniPlayerBarUITests: XCTestCase {
 
     override func setUpWithError() throws {
@@ -29,18 +32,43 @@ final class MiniPlayerBarUITests: XCTestCase {
         app.tabBars.firstMatch
     }
 
-    /// **Defect 1 — the bar covered the tab bar.**
+    /// The bottom-tab-bar tests are phone tests. iPadOS 18+ draws the tab bar as a floating bar at
+    /// the top, which XCUI does not expose as a `TabBar`, and nothing sits under the mini-player there.
+    private func skipUnlessPhone() throws {
+        try XCTSkipIf(
+            UIDevice.current.userInterfaceIdiom == .pad,
+            "phone layout only: iPad's tab bar is a floating top bar, not a bottom TabBar"
+        )
+    }
+
+    /// Waits for `element` to leave the accessibility tree — a hidden tab bar is removed from it, not
+    /// merely made non-hittable.
+    private func waitForAbsence(of element: XCUIElement, timeout: TimeInterval) -> Bool {
+        let gone = XCTNSPredicateExpectation(
+            predicate: NSPredicate(format: "exists == false"),
+            object: element
+        )
+        return XCTWaiter().wait(for: [gone], timeout: timeout) == .completed
+    }
+
+    /// **The bar covered the tab bar.**
     ///
-    /// A `safeAreaInset(edge: .bottom)` on a `TabView` is laid out against the *window's* bottom
+    /// A `safeAreaInset(edge: .bottom)` on the `TabView` is laid out against the *window's* bottom
     /// safe area, not above the tab bar, so the bar landed directly on top of it: measured on
-    /// iOS 26.5, tab bar 791–874 and bar 784–840. `AppNavigation` offsets the bar by the tab bar's
-    /// measured overhang to correct it; this pins that the two no longer intersect.
+    /// iOS 26.5, tab bar 791–874 and bar 784–840. `AppNavigation` now mounts the bar on each tab's
+    /// own stack, whose safe area includes the tab bar; this pins that the two no longer intersect.
+    /// Non-intersection rather than "ends above", so it holds wherever the platform puts the tab bar.
     ///
     /// Uses the preseeded route rather than navigating, so it is testing the inset's geometry and
     /// nothing else.
-    func testRestingBarDoesNotCoverTheTabBar() {
+    func testRestingBarDoesNotCoverTheTabBar() throws {
+        try skipUnlessPhone()
         let app = launchResting(onSong: "A10")
-        let control = app.buttons["Play"].firstMatch
+        // Either resting affordance will do — play, or the open-song chevron for a song without
+        // audio — so a corpus change to A10's audio cannot fail a geometry test.
+        let control = app.buttons
+            .matching(NSPredicate(format: "label IN %@", ["Play", "Open song"]))
+            .firstMatch
         XCTAssertTrue(
             control.waitForExistence(timeout: 30),
             "a preseeded last-visited song should put the bar in its resting state"
@@ -49,24 +77,26 @@ final class MiniPlayerBarUITests: XCTestCase {
         let bar = tabBar(of: app)
         XCTAssertTrue(bar.exists, "the tab bar should be present alongside the resting bar")
         XCTAssertEqual(bar.buttons.count, 4, "all four tabs should be present")
-        XCTAssertTrue(
-            control.frame.maxY <= bar.frame.minY,
-            "the mini-player overlaps the tab bar: bar ends at \(control.frame.maxY), "
-                + "tab bar starts at \(bar.frame.minY)"
+        XCTAssertFalse(
+            control.frame.intersects(bar.frame),
+            "the mini-player overlaps the tab bar: control \(control.frame), tab bar \(bar.frame)"
         )
     }
 
-    /// **Defect 2 — the reader destroyed the tab bar for the rest of the session.**
+    /// **The reader destroyed the tab bar for the rest of the session — and the first fix for that
+    /// put it back under the verses.** Both halves of song-detail.md v2's "NO bottom tab bar".
     ///
-    /// `SongView` hides the tab bar with `.toolbar(.hidden, for: .tabBar)` for its full-screen
-    /// layout, on the documented assumption that the scoped modifier "restores automatically when
-    /// this view is popped". On iOS 26 it does not: after one visit to the reader the tab bar was
-    /// gone for good — `tabBars.count` 1 → 0, no items on screen and none in the accessibility
-    /// tree. The tab roots now state `.toolbar(.visible, for: .tabBar)` to make the restore
-    /// explicit.
+    /// `SongView` hides the tab bar with `.toolbar(.hidden, for: .tabBar)` on the documented
+    /// assumption that the scoped modifier "restores automatically when this view is popped". On
+    /// iOS 26 it does not: after one visit to the reader the tab bar was gone for good —
+    /// `tabBars.count` 1 → 0, no items on screen and none in the accessibility tree (reproduced on
+    /// `mono`). Stating a constant `.visible` on the tab roots restored it, but also overrode the
+    /// reader, leaving a live tab bar under the verses. The tab roots now bind visibility to whether
+    /// the reader is up, so this checks both: hidden in the reader, all four tabs back after it.
     ///
     /// Finds the first song card rather than naming one, so no corpus change can break it.
-    func testTabBarSurvivesAVisitToTheReader() {
+    func testReaderHidesTheTabBarAndPopRestoresIt() throws {
+        try skipUnlessPhone()
         let app = XCUIApplication()
         app.launch()
 
@@ -89,6 +119,10 @@ final class MiniPlayerBarUITests: XCTestCase {
             if back.waitForExistence(timeout: 8) { break }
         }
         XCTAssertTrue(back.exists, "tapping a card should open the reader")
+        XCTAssertTrue(
+            waitForAbsence(of: tabBar(of: app), timeout: 5),
+            "the reader is full-screen: no tab bar while it is up (song-detail.md v2)"
+        )
         back.tap()
 
         let bar = tabBar(of: app)
@@ -99,6 +133,40 @@ final class MiniPlayerBarUITests: XCTestCase {
         XCTAssertEqual(
             bar.buttons.count, 4,
             "all four tabs must be reachable again after returning from the reader"
+        )
+    }
+
+    /// **In a two-column layout the reader must not take the tab bar with it.** On iPad the reader
+    /// is a detail column beside the list and is never popped, so applying the phone's "no tab bar
+    /// on song-detail" rule there removed iPadOS's top tab bar for the rest of the session — one
+    /// tap on any song, reproduced on `mono` too. `AppNavigation` applies that rule in compact
+    /// width only.
+    ///
+    /// The tab is found by its label, since the iPad bar is not exposed as a `TabBar`.
+    func testReaderKeepsTheTabBarInTwoColumnLayouts() throws {
+        try XCTSkipUnless(
+            UIDevice.current.userInterfaceIdiom == .pad,
+            "two-column layout: iPad only"
+        )
+        XCUIDevice.shared.orientation = .portrait
+        let app = XCUIApplication()
+        app.launch()
+
+        let library = app.buttons["Library"].firstMatch
+        XCTAssertTrue(library.waitForExistence(timeout: 30), "precondition: the tab bar is up")
+        let card = app.buttons.matching(NSPredicate(format: "label CONTAINS %@", ", ")).firstMatch
+        XCTAssertTrue(card.waitForExistence(timeout: 30), "home should show at least one song card")
+
+        let back = app.buttons["Back"]
+        for _ in 0..<5 {
+            if back.exists { break }
+            card.tap()
+            if back.waitForExistence(timeout: 8) { break }
+        }
+        XCTAssertTrue(back.exists, "tapping a card should open the reader")
+        XCTAssertTrue(
+            library.exists && library.isHittable,
+            "the tab bar must stay while the reader occupies the detail column"
         )
     }
 }

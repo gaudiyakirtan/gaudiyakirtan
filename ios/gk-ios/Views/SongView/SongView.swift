@@ -38,8 +38,9 @@ struct SongDetailLoader: View {
 /// **The scoped modifier does not restore itself on iOS 26.** This comment used to claim it
 /// auto-restores on pop; measured on iOS 26.5, one visit to this screen removed the tab bar for the
 /// rest of the session (`tabBars.count` 1 → 0, nothing on screen and nothing in the accessibility
-/// tree). Each tab root in `AppNavigation` now states `.toolbar(.visible, for: .tabBar)` so the
-/// restore is explicit; `gk-iosUITests/MiniPlayerBarUITests` pins it.
+/// tree). The tab root in `AppNavigation` now owns the visibility (`tabBarVisibility(for:)`), bound
+/// to the tab this screen records on appear — hidden while it is up, restored when it goes;
+/// `gk-iosUITests/MiniPlayerBarUITests` pins both halves.
 ///
 /// Header shows the title/author in the app-wide list language and a play affordance iff the song
 /// has audio; a compact control bar quick-toggles the two verse scripts (display / transliteration),
@@ -82,14 +83,16 @@ struct SongView: View {
             }
         }
         .navigationBarHidden(true)
-        // Full-screen reader: hide the bottom tab bar on this pushed detail screen only
-        // (song-detail.md v2). Scoped modifier — restores automatically when this view is popped.
+        // Full-screen reader: no bottom tab bar on this screen (song-detail.md v2). This states it
+        // locally, but it is not what hides and restores the bar — on iOS 26 it never restores it on
+        // pop. The tab root does both, keyed off the tab recorded in `onAppear` below.
         .toolbar(.hidden, for: .tabBar)
         // The mini-player bar is suppressed here (song-detail.md v7 / player.md v14 — "the
         // reader's bottom edge belongs to the verses, and the pill in the toolbar already carries
-        // the playback state"). The bar is a safe-area inset on the root `TabView`, so this screen
-        // can only ask for it — by naming the tab it is on, which `AppNavigation` compares against
-        // the selected tab. Switching tabs therefore un-suppresses without anyone clearing a flag,
+        // the playback state"). The bar is a safe-area inset on this tab's `NavigationView`, a parent,
+        // so this screen can only ask for it — by naming the tab it is on, which `AppNavigation`
+        // compares against each tab; the same record hides that tab's tab bar (see the modifier
+        // above). Switching tabs therefore un-suppresses without anyone clearing a flag,
         // which is the whole point: SwiftUI does not reliably fire `onAppear`/`onDisappear` for a
         // pushed view across tab switches, so anything ordering-dependent here is a bug waiting to
         // happen. Playback itself is never touched.

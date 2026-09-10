@@ -56,6 +56,10 @@ final class AudioPlayerService: ObservableObject {
     /// full-width bar drawn over the verses (`TabView` does not re-fire `onAppear` consistently).
     /// Comparing instead means switching away un-suppresses and switching back re-suppresses with no
     /// write at all, so there is no ordering to get wrong.
+    ///
+    /// It is, in effect, "the tab song-detail is on", so `AppNavigation` also keys that tab's
+    /// **tab-bar visibility** off it (song-detail.md v2: the reader has no bottom tab bar) — the
+    /// reader's own `.toolbar(.hidden, for: .tabBar)` does not restore the bar on pop on iOS 26.
     @Published var miniPlayerSuppressedByTab: String?
 
     /// Shuffle over the song's takes (player.md v14 "Shuffle and repeat operate over the song's
