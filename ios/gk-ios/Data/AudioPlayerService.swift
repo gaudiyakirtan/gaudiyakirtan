@@ -41,8 +41,8 @@ final class AudioPlayerService: ObservableObject {
     /// Hides the mini-player bar without touching playback (player.md **v14** "The reader gets a
     /// pill, not a bar" + song-detail.md v7).
     ///
-    /// The bar is mounted on the root `TabView` via `.safeAreaInset(edge: .bottom)`, so a pushed
-    /// screen cannot remove a *parent's* inset — it publishes the intent here instead and
+    /// The bar is mounted on each tab's `NavigationView` via `.safeAreaInset(edge: .bottom)`, so a
+    /// pushed screen cannot remove a *parent's* inset — it publishes the intent here instead and
     /// `AppNavigation` gates the inset on it (player.md "Per-platform notes — iOS": "song-detail
     /// suppresses it through a published flag on the player service (set on appear, cleared on
     /// disappear) rather than by trying to remove a parent's inset"). Suppression is a property of
@@ -50,12 +50,17 @@ final class AudioPlayerService: ObservableObject {
     /// song-detail by any route restores the bar with playback untouched.
     ///
     /// It records **which tab** is suppressing, not merely *that* something is, so the gate can be a
-    /// comparison against the selected tab rather than a flag someone has to remember to clear.
+    /// comparison against each tab rather than a flag someone has to remember to clear.
     /// A bare `Bool` needed clearing on every tab change — including the change *back* to the tab
     /// whose stack still has song-detail on top, which raced `SongView.onAppear` and could leave the
     /// full-width bar drawn over the verses (`TabView` does not re-fire `onAppear` consistently).
     /// Comparing instead means switching away un-suppresses and switching back re-suppresses with no
     /// write at all, so there is no ordering to get wrong.
+    ///
+    /// It is, in effect, "the tab song-detail is on", so `AppNavigation` also keys that tab's
+    /// **tab-bar visibility** off it (song-detail.md v2: the reader has no bottom tab bar) — the
+    /// reader's own `.toolbar(.hidden, for: .tabBar)` does not restore the bar on pop (measured on
+    /// iOS 18.5 and 26.5).
     @Published var miniPlayerSuppressedByTab: String?
 
     /// Shuffle over the song's takes (player.md v14 "Shuffle and repeat operate over the song's
@@ -75,8 +80,12 @@ final class AudioPlayerService: ObservableObject {
 
     var isPlaying: Bool { state == .playing }
 
-    /// Whether a track has been loaded (drives mini-player visibility) — distinct from `idle`, which
-    /// also covers the initial no-song-loaded state.
+    /// Whether a song has been loaded into the player — distinct from `idle`, which also covers the
+    /// initial no-song-loaded state. True in the `.error` state too: a failed take still names its
+    /// song (see `play(song:track:)`).
+    ///
+    /// No longer gates the mini-player: as of player.md **v15** the bar also has a *resting* state
+    /// with nothing loaded, so visibility is decided by `resolveMiniPlayerSlot` instead.
     var hasActiveTrack: Bool { currentSong != nil }
 
     /// The current song's recordings, for the take/artist picker (player.md "Data bindings" —
@@ -112,6 +121,18 @@ final class AudioPlayerService: ObservableObject {
     /// repeated taps on the same play affordance are cheap and don't restart the stream.
     func play(song: Song, track: AudioTrack? = nil) {
         guard let track = track ?? song.audioFiles.first else {
+            // Nothing to play (a song whose `audio_available` disagrees with an empty
+            // `audio_files`). The song is still *loaded* as far as the UI is concerned — the reader
+            // tapped play on it, so the mini-player and the song-detail pill must name it beside
+            // "Audio unavailable" rather than silently keep showing whatever was there before
+            // (player.md v15: a loaded song holds the mini-player slot in every state, `.error`
+            // included, and `resolveMiniPlayerSlot` keys off `currentSong`). Setting it here also
+            // keeps `hasActiveTrack` honest.
+            teardownPlayer()
+            currentSong = song
+            currentTrack = nil
+            currentTime = 0
+            duration = 0
             state = .error("Audio unavailable")
             return
         }

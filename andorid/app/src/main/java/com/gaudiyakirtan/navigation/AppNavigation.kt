@@ -19,6 +19,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
@@ -49,11 +50,13 @@ import com.gaudiyakirtan.myapplication.ui.song.SongViewModel
 import com.gaudiyakirtan.data.AudioConfig
 import com.gaudiyakirtan.myapplication.ui.theme.GaurNeutral
 import com.gaudiyakirtan.myapplication.ui.theme.ShyamNeutral
+import com.gaudiyakirtan.services.LastVisitedViewModel
 import com.gaudiyakirtan.services.NowPlaying
 import com.gaudiyakirtan.services.PlayerViewModel
 import com.gaudiyakirtan.services.songAuthor
 import com.gaudiyakirtan.services.songTitle
 import com.gaudiyakirtan.services.trackArtist
+import kotlinx.coroutines.launch
 
 /**
  * Navigation tabs for the Gaudiya Kirtan application
@@ -130,6 +133,14 @@ fun AppNavigation() {
     val playerViewModel: PlayerViewModel = viewModel(factory = PlayerViewModel.factory())
     val playerUiState by playerViewModel.uiState.collectAsState()
 
+    // The mini-player's resting state (docs/screens/player.md v15): the last visited song, rehydrated
+    // from the bundled corpus off one persisted uid. Hosted here beside the player -- the bar takes
+    // both as parameters rather than reaching for a ViewModel itself.
+    val lastVisitedViewModel: LastVisitedViewModel = viewModel(factory = LastVisitedViewModel.factory())
+    val lastVisited by lastVisitedViewModel.lastVisited.collectAsState()
+    val listLanguage by lastVisitedViewModel.listLanguage.collectAsState()
+    val scope = rememberCoroutineScope()
+
     // Now Playing is a modal sheet, not a destination (docs/screens/player.md v14), so its
     // visibility is plain UI state at the navigation root. `rememberSaveable` keeps it raised across
     // configuration changes, matching iOS's `.sheet(isPresented:)`.
@@ -154,7 +165,19 @@ fun AppNavigation() {
                     MiniPlayerBar(
                         uiState = playerUiState,
                         onExpandClick = { showPlayer = true },
-                        onPlayPauseClick = { playerViewModel.togglePlayPause() }
+                        onPlayPauseClick = { playerViewModel.togglePlayPause() },
+                        listLanguage = listLanguage,
+                        lastVisited = lastVisited,
+                        // Resting -> playing (docs/screens/player.md v15): start the song's first
+                        // take. Deliberately does NOT raise Now Playing -- the full Song is fetched
+                        // here, lazily, because the bar itself never needed it.
+                        onRestingPlayClick = { resting ->
+                            scope.launch {
+                                lastVisitedViewModel.songFor(resting.uid)?.let { playerViewModel.play(it) }
+                            }
+                        },
+                        // No audio: the slot is still the way back to the reading screen.
+                        onRestingOpenClick = { resting -> navController.navigate("song/${resting.uid}") }
                     )
                 }
                 if (isOnMainTab) { // Only show bottom nav on main tabs
