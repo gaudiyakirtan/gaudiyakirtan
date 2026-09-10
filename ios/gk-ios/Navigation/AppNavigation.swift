@@ -28,8 +28,8 @@ struct AppNavigation: View {
     @State private var songToOpen: SongSheetTarget?
 
     /// `.regular` where `NavigationView` lays out two columns (iPad, the largest iPhones in
-    /// landscape). There song-detail is a detail column beside the list, not a full-screen push —
-    /// see `tabBarVisibility(for:)`.
+    /// landscape). There song-detail is a detail column beside the list, not a full-screen push
+    /// — see `tabBarVisibility(for:)`.
     @Environment(\.horizontalSizeClass) private var horizontalSizeClass
 
     /// `Identifiable` box around a song uid so `.sheet(item:)` can be driven by a plain `String`.
@@ -149,9 +149,10 @@ struct AppNavigation: View {
         // audio "still occupies the slot ... but the play affordance is replaced by an open-song
         // chevron"). Hosted on a zero-size background view rather than chained straight onto this
         // `TabView`: two `.sheet` modifiers applied to the same view are historically unreliable
-        // (this was written against a 15.6 deployment target), and giving each presentation its own
-        // host keeps them independent of one another. Environment objects are injected explicitly, as the Now
-        // Playing sheet above already does — sheet content does not reliably inherit them.
+        // (this was written against a 15.6 deployment target), and giving each presentation its
+        // own host keeps them independent of one another. Environment objects are injected
+        // explicitly, as the Now Playing sheet above already does — sheet content does not
+        // reliably inherit them.
         .background(
             Color.clear
                 .frame(width: 0, height: 0)
@@ -195,28 +196,28 @@ struct AppNavigation: View {
 
     // MARK: - The bottom edge of a tab
 
-    /// The mini-player for one tab (player.md "Track"/"trailingIcon2_" — "a compact bar ... that can
-    /// sit above the tab bar").
+    /// The mini-player for one tab (player.md "Track"/"trailingIcon2_" — "a compact bar ... that
+    /// can sit above the tab bar").
     ///
     /// **Mounted on each tab's `NavigationView`, not once on the `TabView` — the placement is the
-    /// layout.** A bottom `safeAreaInset` on the `TabView` itself is laid out against the *window's*
-    /// safe area (the home-indicator strip), so it drew the bar straight over the tab bar — measured
-    /// on iOS 26.5 / iPhone 17 Pro: tab bar 791–874, bar 784–840. A tab's own stack has the tab bar
-    /// in its safe area, so the same inset there sits on top of it with no offset and no device
-    /// constant, and because that safe area also follows the keyboard, the bar sits flush on the
-    /// keyboard on Search rather than floating above it.
+    /// layout.** A bottom `safeAreaInset` on the `TabView` itself is laid out against the
+    /// *window's* safe area (the home-indicator strip), so it drew the bar straight over the tab
+    /// bar — iPhone 17 Pro / iOS 26.5: tab bar 791–874, bar 784–840; the same on iOS 18.5. A tab's
+    /// own stack has the tab bar in its safe area, so the same inset there sits on top of it with
+    /// no offset and no device constant, and because that safe area also follows the keyboard, the
+    /// bar sits flush on the keyboard on Search rather than floating above it.
     ///
     /// The gate does not include `hasActiveTrack`: as of player.md **v15** the slot is not
     /// playback-gated, it keeps showing the last visited song when nothing is loaded ("The
-    /// mini-player is never empty"). Deciding between the two states — and rendering nothing at all
-    /// on a fresh install — belongs to `MiniPlayerView`/`resolveMiniPlayerSlot`, which have the
+    /// mini-player is never empty"). Deciding between the two states — and rendering nothing at
+    /// all on a fresh install — belongs to `MiniPlayerView`/`resolveMiniPlayerSlot`, which have the
     /// persisted uid; the empty case yields an `EmptyView` and so a zero-height inset.
     ///
     /// It is hidden while song-detail is on screen in *this* tab (player.md v14 "The reader gets a
     /// pill, not a bar"). The reader records its tab on the shared player service, and comparing
-    /// against the tab — rather than clearing a flag — is what keeps tab switches race-free: switching
-    /// away shows the bar and switching back hides it again with nothing to clear and nothing to
-    /// re-set. Playback is untouched either way.
+    /// against the tab — rather than clearing a flag — is what keeps tab switches race-free:
+    /// switching away shows the bar and switching back hides it again with nothing to clear and
+    /// nothing to re-set. Playback is untouched either way.
     @ViewBuilder
     private func miniPlayer(in tab: Tab) -> some View {
         if audioPlayer.miniPlayerSuppressedByTab != tab.rawValue {
@@ -225,22 +226,23 @@ struct AppNavigation: View {
     }
 
     /// Whether a tab shows the tab bar: hidden exactly while song-detail is on screen in that tab
-    /// (song-detail.md v2 — "full-screen reader with the top toolbar and NO bottom tab bar"), visible
-    /// otherwise.
+    /// (song-detail.md v2 — "full-screen reader with the top toolbar and NO bottom tab bar"),
+    /// visible otherwise.
     ///
-    /// Owned by the tab root rather than left to `SongView`'s own `.toolbar(.hidden, for: .tabBar)`,
-    /// because on iOS 26 that pushed-view modifier does not restore on pop: one visit to the reader
-    /// removed the tab bar for the rest of the session (`tabBars.count` 1 → 0 — reproduced on `mono`
-    /// too). A constant `.visible` here restores it, but the root's value also wins while the reader
-    /// is pushed, which put the tab bar back under the verses. Binding it to the same record that
-    /// gates the mini-player makes the two agree: hidden while the reader is up, visible once the
-    /// reader's `onDisappear` releases the tab.
+    /// Owned by the tab root rather than left to `SongView`'s own
+    /// `.toolbar(.hidden, for: .tabBar)`, because that pushed-view modifier does not restore on pop
+    /// — measured on iOS 18.5 and 26.5: one visit to the reader removed the tab bar for the rest of
+    /// the session (`tabBars.count` 1 → 0; reproduced on `mono` too). A constant `.visible` here
+    /// restores it, but the root's value also wins while the reader is pushed, which put the tab
+    /// bar back under the verses. Binding it to the same record that gates the mini-player makes
+    /// the two agree: hidden while the reader is up, visible once the reader's `onDisappear`
+    /// releases the tab.
     ///
     /// Only in compact width. In a two-column layout the reader sits in the detail column and is
-    /// never popped, so hiding the tab bar there strands the app without its primary navigation for
-    /// the rest of the session — measured on an iPad Pro 11" simulator, where one tap on a song
-    /// removed iPadOS 26's top tab bar for good (on `mono` too). The spec's "no bottom tab bar" is
-    /// the phone's full-screen reader; there it still applies.
+    /// never popped, so hiding the tab bar there strands the app without its primary navigation
+    /// for the rest of the session — measured on an iPad Pro 11" simulator, where one tap on a
+    /// song removed iPadOS 26's top tab bar for good (on `mono` too). The spec's "no bottom tab
+    /// bar" is the phone's full-screen reader; there it still applies.
     private func tabBarVisibility(for tab: Tab) -> Visibility {
         guard horizontalSizeClass != .regular else { return .visible }
         return audioPlayer.miniPlayerSuppressedByTab == tab.rawValue ? .hidden : .visible

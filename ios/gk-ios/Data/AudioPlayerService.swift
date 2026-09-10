@@ -41,8 +41,8 @@ final class AudioPlayerService: ObservableObject {
     /// Hides the mini-player bar without touching playback (player.md **v14** "The reader gets a
     /// pill, not a bar" + song-detail.md v7).
     ///
-    /// The bar is mounted on the root `TabView` via `.safeAreaInset(edge: .bottom)`, so a pushed
-    /// screen cannot remove a *parent's* inset — it publishes the intent here instead and
+    /// The bar is mounted on each tab's `NavigationView` via `.safeAreaInset(edge: .bottom)`, so a
+    /// pushed screen cannot remove a *parent's* inset — it publishes the intent here instead and
     /// `AppNavigation` gates the inset on it (player.md "Per-platform notes — iOS": "song-detail
     /// suppresses it through a published flag on the player service (set on appear, cleared on
     /// disappear) rather than by trying to remove a parent's inset"). Suppression is a property of
@@ -50,7 +50,7 @@ final class AudioPlayerService: ObservableObject {
     /// song-detail by any route restores the bar with playback untouched.
     ///
     /// It records **which tab** is suppressing, not merely *that* something is, so the gate can be a
-    /// comparison against the selected tab rather than a flag someone has to remember to clear.
+    /// comparison against each tab rather than a flag someone has to remember to clear.
     /// A bare `Bool` needed clearing on every tab change — including the change *back* to the tab
     /// whose stack still has song-detail on top, which raced `SongView.onAppear` and could leave the
     /// full-width bar drawn over the verses (`TabView` does not re-fire `onAppear` consistently).
@@ -59,7 +59,8 @@ final class AudioPlayerService: ObservableObject {
     ///
     /// It is, in effect, "the tab song-detail is on", so `AppNavigation` also keys that tab's
     /// **tab-bar visibility** off it (song-detail.md v2: the reader has no bottom tab bar) — the
-    /// reader's own `.toolbar(.hidden, for: .tabBar)` does not restore the bar on pop on iOS 26.
+    /// reader's own `.toolbar(.hidden, for: .tabBar)` does not restore the bar on pop (measured on
+    /// iOS 18.5 and 26.5).
     @Published var miniPlayerSuppressedByTab: String?
 
     /// Shuffle over the song's takes (player.md v14 "Shuffle and repeat operate over the song's
