@@ -68,7 +68,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | unit tests | ✅ | ✅* | ✅ 63 green |
 | screenshot tests | ✅ Playwright | — | ✅ Roborazzi (JVM, no device) |
 | resources | 🔨 | — | — |
-| player / now-playing | ✅ v13 green | ✅ v15 green (Xcode 26.6, 88/88, rendered) | ✅ v15 green |
+| player / now-playing | ✅ v13 green | ✅ v15 green — iOS 26.5 sim only (Xcode 26.6; iPhone 88 pass + 1 skip, iPad 87 + 2 skip; rendered) | ✅ v15 green |
 
 Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbox-blocked; confirm on a real
 Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a
@@ -78,31 +78,43 @@ model), so iOS/Android are not stale against it; they stay conformant at the ver
 
 ### Player v15 — open items
 
-- **iOS v15's resting mini-player is built, tested and rendered.** Xcode 26.6, iPhone 17 Pro
-  simulator, iOS 26.5 (23F77), deployment target 17.0: `xcodebuild build` succeeds and
-  `xcodebuild test` is **88/88 green**. The resting state, the resting → playing promotion, the
-  no-audio open-song chevron and the sheet it presents, cold-start-without-autoplay, and per-tab
-  suppression were all exercised by hand in the simulator. Resting and playing were captured in both
-  palettes — [`docs/screenshots/ios/`](screenshots/ios/) `miniplayer-*`.
-- **Two iOS layout defects were found and fixed while verifying v15; neither was introduced by it.**
-  Both are invisible to a unit test and both are now pinned by
-  `gk-iosUITests/MiniPlayerBarUITests`:
-  1. **The reader destroyed the tab bar.** `SongView` hides it with
-     `.toolbar(.hidden, for: .tabBar)` on the documented assumption that the scoped modifier
-     restores on pop. On iOS 26 it does not — after one visit to any song the tab bar was gone for
-     the rest of the session (`tabBars.count` 1 → 0, nothing on screen, nothing in the
-     accessibility tree). **This is on `mono` today**, independent of the mini-player. Tab roots now
-     state `.toolbar(.visible, for: .tabBar)`.
-  2. **The mini-player covered the tab bar.** A bottom `safeAreaInset` on a `TabView` is laid out
-     against the *window's* safe area, not above the tab bar: measured, tab bar 791–874 and bar
-     784–840. Present since v14, but the bar only existed while a take was loaded, so it was
-     reachable only during playback and was never captured. v15 makes the slot permanent, which is
-     what surfaced it. The bar is now offset by the tab bar's measured overhang.
-- **Not verified on iOS 17.x or on a real device.** Both fixes were measured only on the iOS 26.5
-  simulator. The `safeAreaInset` offset reads the live tab bar and degrades to the previous layout
-  if no tab bar is found, so an older OS cannot be made *worse* by it — but "correct on iOS 17" is
-  untested, and iOS 26 is precisely where the framework behaviour changed. CI (Xcode 16.4, iOS 18)
-  covers the compile and the unit tests, not this geometry.
+- **iOS v15's resting mini-player is built, tested and rendered, and was re-verified
+  independently.** Xcode 26.6 (17F113), iOS 26.5 (23F77) simulators, deployment target 17.0.
+  `xcodebuild test`: iPhone 17 Pro **88 passed, 1 skipped, 0 failed**; iPad Pro 11" (M5) **87
+  passed, 2 skipped, 0 failed** — the skips are the phone-only and iPad-only layout tests. Driven in
+  the simulator with XCUITest from a fresh install, in both palettes: cold start shows the resting
+  bar and **does not autoplay** (nothing playing or loading after 6 s); play promotes the slot in
+  place without raising Now Playing (bar top 735.3 pt in both states; only the credit line and the
+  glyph change); the no-audio chevron presents song-detail as a sheet, and both Back and swipe-down
+  leave a working tab bar; all four tabs stay tappable with the bar up; landscape clears the tab bar.
+  Frames: [`docs/screenshots/ios/`](screenshots/ios/) `mini-player-*`,
+  `song-sheet-from-mini-player-*`, `search-with-mini-player-*`.
+- **Four iOS layout defects, all invisible to a unit test, all pinned by
+  `gk-iosUITests/MiniPlayerBarUITests`.** None was introduced by v15's resting state; v15 made the
+  slot permanent, which is what surfaced them.
+  1. **The reader destroyed the tab bar** — on `mono` too. `SongView`'s
+     `.toolbar(.hidden, for: .tabBar)` does not restore on pop on iOS 26: after one song the tab
+     bar was gone for the session (`tabBars.count` 1 → 0).
+  2. **The mini-player covered the tab bar.** A bottom `safeAreaInset` on the `TabView` sits against
+     the window's safe area: tab bar 791–874, bar 784–840.
+  3. **The first fix for (1) put the tab bar back under the verses.** A constant `.visible` on the
+     tab roots also overrode the reader, against song-detail.md v2. The tab roots now bind
+     visibility to the per-tab "reader is up" record the mini-player gate already uses.
+  4. **The first fix for (2) floated the bar 49 pt above the keyboard on Search** — a measured
+     tab-bar offset, still applied while the keyboard covered the tab bar. The bar is now mounted on
+     each tab's `NavigationView`, whose safe area includes the tab bar and the keyboard: no offset,
+     no UIKit probe.
+- **iPad: the reader no longer strands the app without its tab bar.** Pre-existing on `mono`: in
+  the two-column `NavigationView`, opening any song in the detail column hid iPadOS 26's top tab bar
+  for good, since that column is never popped. The phone's "no tab bar on song-detail" rule now
+  applies in compact width only. The iPad layout itself — a list column beside an empty detail
+  pane — is pre-existing and unspecced, and not addressed here.
+- **Not verified on iOS 17.x, iOS 18, or a real device.** Everything above is the iOS 26.5
+  simulator. #48 targets the player branch, so **no CI has built it**: CI (#53, Xcode 16.4 /
+  iPhone 16) only reaches this code once the stack lands on `mono`, and no Xcode 16 / Swift 6.1
+  compiler has seen it.
+- **Not exercised:** iPhone Pro Max landscape (regular width, so the two-column branch on a phone),
+  Dynamic Type sizes, VoiceOver.
 
 - **iOS `SongView`'s toolbar is not the v7 toolbar.** [song-detail.md](screens/song-detail.md) v7 says
   "back · the now-playing pill · a display-settings control (the 'Aa' menu)". Android renders exactly
