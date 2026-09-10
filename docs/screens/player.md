@@ -177,13 +177,13 @@ collapse the screen.
   a `PlayerView` (Now Playing) + a mini-player. `AudioConfig.swift` holds `AUDIO_BASE_URL`.
   The mini-player is mounted **on each tab's `NavigationView`** via `.safeAreaInset(.bottom)` — not
   once on the root `TabView`, whose bottom inset is laid out against the window's safe area and so
-  draws the bar over the tab bar (measured on iOS 26.5). A tab's own stack has the tab bar, and the
-  keyboard, in its safe area, so the bar sits on the tab bar and flush on the keyboard with no
-  measured offset. Song-detail suppresses it through a published record on the player service —
+  draws the bar over the tab bar (measured on iOS 18.5 and 26.5). A tab's own stack has the tab bar,
+  and the keyboard, in its safe area, so the bar sits on the tab bar and flush on the keyboard with
+  no measured offset. Song-detail suppresses it through a published record on the player service —
   *which tab* it is on, set on appear and cleared on disappear — rather than by trying to remove a
   parent's inset; in compact width the same record hides that tab's tab bar, because song-detail's
-  own `.toolbar(.hidden, for: .tabBar)` does not restore it on pop on iOS 26. Now Playing is already
-  a `.sheet` (`isExpanded`). It draws its own grab handle rather than using
+  own `.toolbar(.hidden, for: .tabBar)` does not restore it on pop (iOS 18.5 and 26.5). Now Playing
+  is already a `.sheet` (`isExpanded`). It draws its own grab handle rather than using
   `.presentationDragIndicator(.visible)`, which needed iOS 16 when the deployment target was 15.6.
 - **Android:** `ExoPlayer`/Media3 (or `MediaPlayer`) behind a player `ViewModel`/service; a
   `PlayerScreen` + mini-player. `AUDIO_BASE_URL` in `AudioConfig.kt` or a `BuildConfig` field.
