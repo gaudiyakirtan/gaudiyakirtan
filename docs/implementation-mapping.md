@@ -68,7 +68,7 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | unit tests | ✅ | ✅* | ✅ 63 green |
 | screenshot tests | ✅ Playwright | — | ✅ Roborazzi (JVM, no device) |
 | resources | 🔨 | — | — |
-| player / now-playing | ✅ v13 green | ✅ v15 green — iOS 26.5 sim only (Xcode 26.6; iPhone 88 pass + 1 skip, iPad 87 + 2 skip; rendered) | ✅ v15 green |
+| player / now-playing | ✅ v13 green | ✅ v15 green — sims only (Xcode 26.6; iOS 26.5 + 18.5 iPhone 88 pass + 1 skip, iPad 87 + 2 skip; rendered) | ✅ v15 green |
 
 Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbox-blocked; confirm on a real
 Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a
@@ -79,24 +79,27 @@ model), so iOS/Android are not stale against it; they stay conformant at the ver
 ### Player v15 — open items
 
 - **iOS v15's resting mini-player is built, tested and rendered, and was re-verified
-  independently.** Xcode 26.6 (17F113), iOS 26.5 (23F77) simulators, deployment target 17.0.
-  `xcodebuild test`: iPhone 17 Pro **88 passed, 1 skipped, 0 failed**; iPad Pro 11" (M5) **87
-  passed, 2 skipped, 0 failed** — the skips are the phone-only and iPad-only layout tests. Driven in
-  the simulator with XCUITest from a fresh install, in both palettes: cold start shows the resting
-  bar and **does not autoplay** (nothing playing or loading after 6 s); play promotes the slot in
-  place without raising Now Playing (bar top 735.3 pt in both states; only the credit line and the
-  glyph change); the no-audio chevron presents song-detail as a sheet, and both Back and swipe-down
-  leave a working tab bar; all four tabs stay tappable with the bar up; landscape clears the tab bar.
-  Frames: [`docs/screenshots/ios/`](screenshots/ios/) `mini-player-*`,
-  `song-sheet-from-mini-player-*`, `search-with-mini-player-*`.
+  independently.** Xcode 26.6 (17F113), deployment target 17.0, on three simulators. `xcodebuild
+  test`: iPhone 17 Pro / iOS 26.5 (23F77) and iPhone 16 / iOS 18.5 (22F77) each **88 passed, 1
+  skipped, 0 failed**; iPad Pro 11" (M5) / iOS 26.5 **87 passed, 2 skipped, 0 failed**. The skips
+  are the phone-only and iPad-only layout tests. Driven in the simulator with XCUITest from a fresh
+  install (both palettes on iOS 26.5, Gaura on 18.5): cold start shows the resting bar and **does
+  not autoplay** (nothing playing or loading after 6 s); play promotes the slot in place without
+  raising Now Playing (same bar top in both states; only the credit line and the glyph change); the
+  no-audio chevron presents song-detail as a sheet, and both Back and swipe-down leave a working tab
+  bar; all four tabs stay tappable with the bar up; the bar sits flush on the keyboard on Search;
+  landscape clears the tab bar. Frames: [`docs/screenshots/ios/`](screenshots/ios/)
+  `mini-player-*`, `song-sheet-from-mini-player-*`, `search-with-mini-player-*`.
 - **Four iOS layout defects, all invisible to a unit test, all pinned by
   `gk-iosUITests/MiniPlayerBarUITests`.** None was introduced by v15's resting state; v15 made the
-  slot permanent, which is what surfaced them.
+  slot permanent, which is what surfaced them. **(1) and (2) reproduce on iOS 18.5 as well as
+  26.5**, so they are not an iOS 26 change.
   1. **The reader destroyed the tab bar** — on `mono` too. `SongView`'s
-     `.toolbar(.hidden, for: .tabBar)` does not restore on pop on iOS 26: after one song the tab
-     bar was gone for the session (`tabBars.count` 1 → 0).
+     `.toolbar(.hidden, for: .tabBar)` does not restore on pop: after one song the tab bar was gone
+     for the session (`tabBars.count` 1 → 0).
   2. **The mini-player covered the tab bar.** A bottom `safeAreaInset` on the `TabView` sits against
-     the window's safe area: tab bar 791–874, bar 784–840.
+     the window's safe area: iOS 26.5 tab bar 791–874, bar 784–840; iOS 18.5 tab bar from 769, the
+     control at 783.
   3. **The first fix for (1) put the tab bar back under the verses.** A constant `.visible` on the
      tab roots also overrode the reader, against song-detail.md v2. The tab roots now bind
      visibility to the per-tab "reader is up" record the mini-player gate already uses.
@@ -109,10 +112,10 @@ model), so iOS/Android are not stale against it; they stay conformant at the ver
   for good, since that column is never popped. The phone's "no tab bar on song-detail" rule now
   applies in compact width only. The iPad layout itself — a list column beside an empty detail
   pane — is pre-existing and unspecced, and not addressed here.
-- **Not verified on iOS 17.x, iOS 18, or a real device.** Everything above is the iOS 26.5
-  simulator. #48 targets the player branch, so **no CI has built it**: CI (#53, Xcode 16.4 /
-  iPhone 16) only reaches this code once the stack lands on `mono`, and no Xcode 16 / Swift 6.1
-  compiler has seen it.
+- **Not verified on iOS 17.x or a real device.** Everything above is the iOS 18.5 and 26.5
+  simulators, with the app built against the iOS 26 SDK. #48 targets the player branch, so **no CI
+  has built it**: CI (#53, Xcode 16.4 / iPhone 16) only reaches this code once the stack lands on
+  `mono`, and no Xcode 16 / Swift 6.1 compiler has seen it.
 - **Not exercised:** iPhone Pro Max landscape (regular width, so the two-column branch on a phone),
   Dynamic Type sizes, VoiceOver.
 
