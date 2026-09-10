@@ -175,11 +175,16 @@ collapse the screen.
 
 - **iOS:** `AVPlayer` (AVFoundation) behind a shared `AudioPlayerService` (ObservableObject);
   a `PlayerView` (Now Playing) + a mini-player. `AudioConfig.swift` holds `AUDIO_BASE_URL`.
-  The mini-player is mounted on the root `TabView` via `.safeAreaInset(.bottom)`, so song-detail
-  suppresses it through a published flag on the player service (set on appear, cleared on disappear)
-  rather than by trying to remove a parent's inset. Now Playing is already a `.sheet`
-  (`isExpanded`). It draws its own grab handle rather than using
-  `.presentationDragIndicator(.visible)`, which needs iOS 16 against a 15.6 deployment target.
+  The mini-player is mounted **on each tab's `NavigationView`** via `.safeAreaInset(.bottom)` — not
+  once on the root `TabView`, whose bottom inset is laid out against the window's safe area and so
+  draws the bar over the tab bar (measured on iOS 26.5). A tab's own stack has the tab bar, and the
+  keyboard, in its safe area, so the bar sits on the tab bar and flush on the keyboard with no
+  measured offset. Song-detail suppresses it through a published record on the player service —
+  *which tab* it is on, set on appear and cleared on disappear — rather than by trying to remove a
+  parent's inset; in compact width the same record hides that tab's tab bar, because song-detail's
+  own `.toolbar(.hidden, for: .tabBar)` does not restore it on pop on iOS 26. Now Playing is already
+  a `.sheet` (`isExpanded`). It draws its own grab handle rather than using
+  `.presentationDragIndicator(.visible)`, which needed iOS 16 when the deployment target was 15.6.
 - **Android:** `ExoPlayer`/Media3 (or `MediaPlayer`) behind a player `ViewModel`/service; a
   `PlayerScreen` + mini-player. `AUDIO_BASE_URL` in `AudioConfig.kt` or a `BuildConfig` field.
   The mini-player lives in the `Scaffold`'s `bottomBar`, so song-detail is excluded there by route.
@@ -289,7 +294,8 @@ collapse the screen.
   mistaken for playback. Whatever is loaded in the player always wins; the resting state only fills
   the gap. Backed by one persisted **uid** (`player.lastVisitedSongUid` / `last_visited_song_uid`),
   rehydrated from the bundled corpus so nothing can go stale, device-local, and it **never
-  autoplays**.
+  autoplays**. *(iOS per-platform note corrected during simulator verification, same version: the
+  bar mounts per tab, not on the root `TabView` — the contract above is unchanged.)*
 - **v14 (iOS + Android)** — **The reader lost the bottom bar and gained a pill.** The mini-player is
   now suppressed on [song-detail](song-detail.md); the song screen's top toolbar carries a compact
   **now-playing pill** instead, bound to the player (not the page), whose body opens Now Playing and
