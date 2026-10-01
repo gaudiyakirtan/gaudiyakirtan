@@ -88,3 +88,27 @@ jobs:
             -project gk-ios.xcodeproj -scheme gk-ios \
             -destination 'generic/platform=iOS Simulator' \
             CODE_SIGNING_ALLOWED=NO
+      - run: |
+          xcodebuild test \
+            -project gk-ios.xcodeproj -scheme gk-ios \
+            -destination 'platform=iOS Simulator,OS=18.5,name=iPhone 16' \
+            -resultBundlePath "$RUNNER_TEMP/gk-ios-tests.xcresult" \
+            CODE_SIGNING_ALLOWED=NO
+      - name: Capture Home screenshots
+        if: always()
+        run: |
+          xcrun simctl ui booted appearance light
+          xcrun simctl launch --terminate-running-process booted gaudiyakirtan.gk-ios
+          sleep 3
+          xcrun simctl io booted screenshot "$RUNNER_TEMP/home-ios-gaura.png"
+          xcrun simctl ui booted appearance dark
+          sleep 1
+          xcrun simctl io booted screenshot "$RUNNER_TEMP/home-ios-shyam.png"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ios-home-v7
+          path: |
+            ${{ runner.temp }}/gk-ios-tests.xcresult
+            ${{ runner.temp }}/home-ios-gaura.png
+            ${{ runner.temp }}/home-ios-shyam.png
