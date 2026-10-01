@@ -1,6 +1,6 @@
 # Shared components
 
-**Spec version:** 9
+**Spec version:** 10
 
 **Figma frames:** `Components`, `Group 15/16`, `Frame *`.
 
@@ -252,10 +252,12 @@ Android `res/font/`) so the wordmark reads identically across platforms. It is a
 - A `HeroBanner` with an unreachable `imageSrc` still renders legibly.
 - Home rows/cards have native navigation semantics, visible state layers on both surfaces, and
   separate recording actions; focus is never clipped or trapped by the non-modal picker.
-- Home uses the static MonthContext dial rather than RhythmArtwork or the legacy photograph banner.
+- Home uses one static rhythm field inside the featured-song surface; season remains compact text.
 
 ## Change log
 
+- **v10** — Aligns Home v7 component semantics: script-safe featured titles, high-contrast native
+  primary actions, and navigable native section headings.
 - **v9** — Home v7 removes the month dial and dashboard card composition, restores a compact
   rhythm field inside one featured-song surface, and defines explicit reading/playback actions.
 - **v8** — Home v6 retires RhythmArtwork from Home and introduces composition-level Listen, Season,
