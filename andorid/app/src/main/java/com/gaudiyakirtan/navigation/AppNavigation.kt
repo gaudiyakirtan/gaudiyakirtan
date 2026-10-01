@@ -206,7 +206,7 @@ fun AppNavigation() {
             composable(Tab.Home.route) {
                 HomeScreen(
                     playerUiState = playerUiState,
-                    onPlaySong = { playerViewModel.play(it) },
+                    onPlaySong = { song, track -> playerViewModel.play(song, track) },
                     onPlayPause = { playerViewModel.togglePlayPause() },
                     onBrowseRecordings = { navController.navigate(Tab.Library.route) },
                     onSongClick = { uid ->

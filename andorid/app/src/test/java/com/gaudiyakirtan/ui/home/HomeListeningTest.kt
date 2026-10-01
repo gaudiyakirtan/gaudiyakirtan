@@ -27,18 +27,23 @@ class HomeListeningTest {
 
     @Test fun `reading and suggested playback use separate callbacks without optimistic state or progress`() {
         var requested: Song? = null
+        var requestedTrack: AudioTrack? = null
         var opened = ""
         var toggles = 0
         val song = HomeFixtures.listen
         compose.setContent {
             GaudiyaKirtanTheme(false) {
-                HomeContent(listenSong = song, onPlaySong = { requested = it }, onPlayPause = { toggles++ },
+                HomeContent(listenSong = song, onPlaySong = { requestedSong, track ->
+                    requested = requestedSong
+                    requestedTrack = track
+                }, onPlayPause = { toggles++ },
                     onSongClick = { opened = it }, playerUiState = PlayerUiState(positionMs = 99_000, durationMs = 180_000))
             }
         }
         compose.onNodeWithText("Play recording").assertExists()
         compose.onNodeWithTag("listen-play").assertHeightIsAtLeast(48.dp).assertWidthIsAtLeast(48.dp).performClick()
         assertEquals(song, requested)
+        assertEquals(song.audioFiles.first(), requestedTrack)
         assertEquals(0, toggles)
         compose.onNodeWithTag("listen-play").assert(SemanticsMatcher.expectValue(SemanticsProperties.StateDescription, "Ready"))
         compose.onNodeWithTag("listen-song").assertHeightIsAtLeast(48.dp).performClick()
@@ -57,7 +62,7 @@ class HomeListeningTest {
         compose.setContent {
             GaudiyaKirtanTheme(false) {
                 HomeContent(listenSong = song, playerUiState = state,
-                    onPlaySong = { requested = it }, onPlayPause = { toggles++ })
+                    onPlaySong = { requestedSong, _ -> requested = requestedSong }, onPlayPause = { toggles++ })
             }
         }
         compose.onNodeWithText("Recording · ${song.audioFiles[1].artist}").assertExists()
@@ -81,19 +86,25 @@ class HomeListeningTest {
         val song = HomeFixtures.listen
         var state by mutableStateOf(PlayerUiState(NowPlaying(song, song.audioFiles.first(), song.audioFiles), PlaybackState.LOADING))
         var starts = 0
+        var requestedTrack: AudioTrack? = null
         var reads = 0
         compose.setContent {
             GaudiyaKirtanTheme(false) {
-                HomeContent(playerUiState = state, onPlaySong = { starts++ }, onPlayPause = { starts++ },
+                HomeContent(playerUiState = state, onPlaySong = { _, track ->
+                    starts++
+                    requestedTrack = track
+                }, onPlayPause = { starts++ },
                     listenSong = song, onSongClick = { reads++ })
             }
         }
-        compose.onNodeWithTag("listen-play").assertIsNotEnabled()
+        compose.onNodeWithTag("listen-play").assertIsEnabled().performClick()
+        assertEquals(0, starts)
         compose.onNodeWithTag("listen-song").assertIsEnabled().performClick()
         compose.runOnIdle { state = state.copy(playbackState = PlaybackState.ERROR, errorMessage = "Audio unavailable") }
         compose.onNodeWithText("Retry").assertIsEnabled().performClick()
         compose.onNodeWithTag("listen-song").assertIsEnabled().performClick()
         assertEquals(1, starts)
+        assertEquals(song.audioFiles.first(), requestedTrack)
         assertEquals(2, reads)
         compose.onAllNodes(SemanticsMatcher.keyIsDefined(SemanticsProperties.LiveRegion)).assertCountEquals(0)
     }

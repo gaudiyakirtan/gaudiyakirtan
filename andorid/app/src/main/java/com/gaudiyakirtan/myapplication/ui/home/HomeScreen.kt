@@ -34,7 +34,7 @@ fun HomeScreen(
     onAuthorClick: (String) -> Unit = {},
     onGroupClick: (String) -> Unit = {},
     playerUiState: PlayerUiState,
-    onPlaySong: (Song) -> Unit,
+    onPlaySong: (Song, AudioTrack?) -> Unit,
     onPlayPause: () -> Unit,
     onBrowseRecordings: () -> Unit,
     viewModel: HomeViewModel = viewModel()
@@ -78,7 +78,7 @@ fun HomeContent(
     gridState: LazyGridState = rememberLazyGridState(),
     listenSong: Song? = null,
     playerUiState: PlayerUiState = PlayerUiState(),
-    onPlaySong: (Song) -> Unit = {},
+    onPlaySong: (Song, AudioTrack?) -> Unit = { _, _ -> },
     onPlayPause: () -> Unit = {},
     onBrowseRecordings: () -> Unit = {}
 ) {
@@ -86,7 +86,11 @@ fun HomeContent(
         authors.associate { it.uid to it.names.preferredText(settings.listLanguage) }
     }
     val authorSongCounts = remember(songs) { songs.groupingBy { it.authorUid }.eachCount() }
-    val previewAuthors = remember(authors) { authors.filter { it.uid != "?" }.take(4) }
+    val previewAuthors = remember(authors, authorSongCounts) {
+        authors.filter { it.uid != "?" }
+            .sortedByDescending { authorSongCounts[it.uid] ?: 0 }
+            .take(4)
+    }
     Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
         BoxWithConstraints(Modifier.fillMaxSize()) {
             val enlarged = LocalDensity.current.fontScale >= 1.5f
@@ -129,12 +133,12 @@ fun HomeContent(
                             }
                         }
                     }
-                        if (previewAuthors.isNotEmpty()) {
-                            item(key = "authors", span = { GridItemSpan(maxLineSpan) }) {
-                                Box(Modifier.padding(top = Spacing.xl)) {
-                                    HomeAuthors(previewAuthors, authorSongCounts, settings.listLanguage, onAuthorClick)
-                                }
+                    if (previewAuthors.isNotEmpty()) {
+                        item(key = "authors", span = { GridItemSpan(maxLineSpan) }) {
+                            Box(Modifier.padding(top = Spacing.xl)) {
+                                HomeAuthors(previewAuthors, authorSongCounts, settings.listLanguage, onAuthorClick)
                             }
+                        }
                     }
                     if (topics.isNotEmpty()) {
                         item(key = "topics", span = { GridItemSpan(maxLineSpan) }) {

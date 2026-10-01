@@ -45,7 +45,7 @@ internal fun HomeListenCard(
     playerUiState: PlayerUiState,
     listLanguage: String,
     onSongClick: (String) -> Unit,
-    onPlaySong: (Song) -> Unit,
+    onPlaySong: (Song, AudioTrack?) -> Unit,
     onPlayPause: () -> Unit,
     onBrowseRecordings: () -> Unit
 ) {
@@ -134,8 +134,12 @@ internal fun HomeListenCard(
                         }
                         val playInteractions = remember { MutableInteractionSource() }
                         TextButton(interactionSource = playInteractions, onClick = {
-                            if (playing || paused) onPlayPause() else onPlaySong(song)
-                        }, enabled = !loading, shape = MaterialTheme.shapes.small,
+                            when {
+                                loading -> Unit
+                                playing || paused -> onPlayPause()
+                                else -> onPlaySong(song, track)
+                            }
+                        }, shape = MaterialTheme.shapes.small,
                             colors = ButtonDefaults.textButtonColors(
                                 contentColor = MaterialTheme.colorScheme.onSurface
                             ),

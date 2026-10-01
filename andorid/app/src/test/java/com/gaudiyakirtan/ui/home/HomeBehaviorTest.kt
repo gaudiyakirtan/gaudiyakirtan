@@ -100,6 +100,25 @@ class HomeBehaviorTest {
         compose.onNodeWithTag("song-${HomeFixtures.manifest[3].uid}").assertIsDisplayed()
     }
 
+    @Test fun `section labels remain TalkBack headings`() {
+        content {
+            HomeContent(
+                songs = HomeFixtures.manifest,
+                authors = HomeFixtures.authors,
+                topics = HomeFixtures.topics,
+                books = HomeFixtures.books,
+                thisMonth = HomeFixtures.populated,
+                thisMonthSongs = HomeFixtures.monthSongs(HomeFixtures.populated)
+            )
+        }
+        listOf("Sung this month", "Songs", "Books", "Authors", "Topics").forEach { title ->
+            compose.onNodeWithTag("home-feed").performScrollToNode(hasText(title))
+            compose.onNodeWithText(title).assert(
+                SemanticsMatcher.keyIsDefined(SemanticsProperties.Heading)
+            )
+        }
+    }
+
     @Test fun `out of range preserves brand four songs and navigation without optional sections`() {
         val opened = mutableListOf<String>()
         var search = 0
