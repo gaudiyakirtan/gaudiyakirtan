@@ -270,7 +270,8 @@ test('recents resolves nonseasonal songs, supports legacy timestamps, and stays 
   expect(topics!.y).toBeGreaterThanOrEqual(box!.y + box!.height + 32)
   await recents.locator('a').nth(1).click()
   await expect(page).toHaveURL(/\/songs\/N9$/)
-  expect(await page.evaluate(() => JSON.parse(localStorage.getItem('gk.recents')!)[0])).toEqual({ uid: 'N9', lastOpenedAt: new Date('2026-11-14T12:00:00Z').getTime() })
+  await expect.poll(() => page.evaluate(() => JSON.parse(localStorage.getItem('gk.recents')!)[0]))
+    .toEqual({ uid: 'N9', lastOpenedAt: new Date('2026-11-14T12:00:00Z').getTime() })
 })
 
 for (const [date, expected] of [['2026-05-15', 'Puruṣottama'], ['2027-01-10', 'No songs are specific to this month.'], ['2099-01-01', 'out-of-range']]) {

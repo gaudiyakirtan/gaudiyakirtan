@@ -1,0 +1,44 @@
+name: Home iOS evidence
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'ios/**'
+      - 'docs/screens/home.md'
+      - '.github/workflows/home-ios-evidence.yml'
+
+jobs:
+  capture:
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Select simulator
+        id: simulator
+        run: |
+          xcrun simctl create "GK Home Evidence" \
+            "iPhone 15" \
+            "$(xcrun simctl list runtimes --json | jq -r '.runtimes[] | select(.platform == "iOS" and .isAvailable) | .identifier' | tail -1)" \
+            > simulator-id.txt
+          echo "id=$(cat simulator-id.txt)" >> "$GITHUB_OUTPUT"
+      - name: Build and test
+        run: |
+          xcrun simctl boot "${{ steps.simulator.outputs.id }}"
+          xcodebuild test \
+            -project ios/gk-ios.xcodeproj \
+            -scheme gk-ios \
+            -destination "platform=iOS Simulator,id=${{ steps.simulator.outputs.id }}" \
+            -derivedDataPath "$RUNNER_TEMP/gk-derived" \
+            CODE_SIGNING_ALLOWED=NO
+      - name: Capture Home
+        run: |
+          APP_PATH="$(find "$RUNNER_TEMP/gk-derived/Build/Products/Debug-iphonesimulator" -maxdepth 1 -name '*.app' | head -1)"
+          xcrun simctl install "${{ steps.simulator.outputs.id }}" "$APP_PATH"
+          xcrun simctl launch "${{ steps.simulator.outputs.id }}" gaudiyakirtan.gk-ios
+          sleep 3
+          mkdir -p home-ios-evidence
+          xcrun simctl io "${{ steps.simulator.outputs.id }}" screenshot home-ios-evidence/after-phone-gaura.png
+      - uses: actions/upload-artifact@v4
+        with:
+          name: home-ios-evidence
+          path: home-ios-evidence/
