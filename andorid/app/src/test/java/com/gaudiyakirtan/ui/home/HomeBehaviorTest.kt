@@ -87,7 +87,7 @@ class HomeBehaviorTest {
         repeat(layout.lineCount) { assertTrue(layout.getLineRight(it) <= layout.size.width + 1f) }
     }
 
-    @Test fun `empty month keeps two cards and native songs`() {
+    @Test fun `empty month keeps context repertoire message and native songs`() {
         content {
             HomeContent(songs = HomeFixtures.manifest, thisMonth = HomeFixtures.empty)
         }
@@ -136,33 +136,34 @@ class HomeBehaviorTest {
             HomeContent(topics = topics, books = books, authors = authors,
                 onGroupClick = { opened = it }, onAuthorClick = { opened = it })
         }
-        // Each shelf is one vertical collection retaining its whole original set, not a preview.
-        listOf("Topics" to topics.size, "Books" to books.size, "Authors" to authors.size).forEach { (title, count) ->
-            compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-$title"))
-            val info = compose.onNodeWithTag("shelf-$title").fetchSemanticsNode().config[SemanticsProperties.CollectionInfo]
-            assertEquals(count, info.rowCount)
-            assertEquals(1, info.columnCount)
-        }
-        compose.onNodeWithText(authors.last().name).performScrollTo().performClick()
+        compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-Books"))
+        compose.onNodeWithTag("shelf-Books").performScrollToIndex(books.lastIndex)
+        compose.onNodeWithTag("book-${books.last().uid}").performClick()
+        assertEquals(books.last().uid, opened)
+        compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-Authors"))
+        compose.onNodeWithTag("author-${authors.last().uid}").performScrollTo().performClick()
         assertEquals(authors.last().uid, opened)
+        compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-Topics"))
+        compose.onNodeWithTag("topic-${topics.last().uid}").performScrollTo().performClick()
+        assertEquals(topics.last().uid, opened)
     }
 
-    @Test fun `bento gallery and compact browse pages retain their final working destinations`() {
+    @Test fun `book rail and text browsing retain their final working destinations`() {
         var opened = ""
         content {
             HomeContent(topics = HomeFixtures.topics, books = HomeFixtures.books,
                 authors = HomeFixtures.authors, onGroupClick = { opened = it }, onAuthorClick = { opened = it })
         }
-        listOf("Topics" to HomeFixtures.topics, "Books" to HomeFixtures.books).forEach { (title, groups) ->
-            compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-$title"))
-            compose.onNodeWithTag("shelf-$title").performScrollToIndex(groups.lastIndex / if (title == "Books") 3 else 4)
-            compose.onNodeWithTag("${if (title == "Books") "book" else "topic"}-${groups.last().uid}").performClick()
-            assertEquals(groups.last().uid, opened)
-        }
+        compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-Books"))
+        compose.onNodeWithTag("shelf-Books").performScrollToIndex(HomeFixtures.books.lastIndex)
+        compose.onNodeWithTag("book-${HomeFixtures.books.last().uid}").performClick()
+        assertEquals(HomeFixtures.books.last().uid, opened)
         compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-Authors"))
-        compose.onNodeWithTag("shelf-Authors").performScrollToIndex(HomeFixtures.authors.lastIndex / 4)
-        compose.onNodeWithText(HomeFixtures.authors.last().name).performClick()
+        compose.onNodeWithTag("author-${HomeFixtures.authors.last().uid}").performScrollTo().performClick()
         assertEquals(HomeFixtures.authors.last().uid, opened)
+        compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-Topics"))
+        compose.onNodeWithTag("topic-${HomeFixtures.topics.last().uid}").performScrollTo().performClick()
+        assertEquals(HomeFixtures.topics.last().uid, opened)
     }
 
     @Test fun `every featured verse remains reachable above the bottom obstruction`() {

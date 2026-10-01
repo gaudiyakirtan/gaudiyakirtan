@@ -8,6 +8,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalDensity
 import androidx.compose.ui.semantics.clearAndSetSemantics
 import androidx.compose.ui.semantics.semantics
@@ -27,7 +28,8 @@ fun SongListItem(
     authorName: String,
     audioAvailable: Boolean,
     onClick: () -> Unit = {},
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    containerColor: Color = MaterialTheme.colorScheme.surface
 ) {
     // Two lines only at default size; any enlarged text shows the complete title and credit.
     val enlarged = LocalDensity.current.fontScale > 1f
@@ -36,7 +38,8 @@ fun SongListItem(
         modifier = modifier.fillMaxWidth().heightIn(min = 56.dp).semantics {
             if (audioAvailable) stateDescription = "Audio available"
         },
-        shape = MaterialTheme.shapes.small
+        shape = MaterialTheme.shapes.small,
+        color = containerColor
     ) {
         Column(
             modifier = Modifier.padding(horizontal = Spacing.md, vertical = Spacing.sm),

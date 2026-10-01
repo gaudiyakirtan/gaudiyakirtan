@@ -14,6 +14,8 @@ object HomeFixtures {
     val groups: List<SongGroup> = read("song_groups.json")
     val featured: Song = read("songs/N9.json")
     val listen: Song = read("songs/R8.json")
+    val longTitle: Song = manifest.filter { it.audioAvailable }
+        .maxBy { it.titleForListLanguage("Latn").length }.let { read("songs/${it.uid}.json") }
     val anotherRecording: Song = manifest.first { it.audioAvailable && it.uid != listen.uid }
         .let { read("songs/${it.uid}.json") }
     val authors = SongRepositoryLogic.buildAuthors(manifest) { uid -> read<Song>("songs/$uid.json") }
@@ -32,6 +34,11 @@ object HomeFixtures {
     }.let { CalendarRepositoryLogic.songsForDate(calendar, it.start)!! }
 
     fun monthSongs(today: CalendarToday) = CalendarRepositoryLogic.monthSongs(today.month, manifest)
+
+    fun recommendation(today: CalendarToday?): Song? =
+        ((today?.let(::monthSongs).orEmpty()) + manifest).distinctBy { it.uid }
+            .filter { it.audioAvailable }.map { read<Song>("songs/${it.uid}.json") }
+            .firstOrNull { it.audioFiles.isNotEmpty() }
 
     private inline fun <reified T> read(path: String): T =
         SongJson.instance.decodeFromString(File(TestAssets.dir, path).readText())

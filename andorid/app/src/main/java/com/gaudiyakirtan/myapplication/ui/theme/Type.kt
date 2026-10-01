@@ -11,7 +11,7 @@ import com.gaudiyakirtan.myapplication.R
 /**
  * The brand display face (5th Avenue), matching web's `--font-display`.
  *
- * Branding only — the wordmark and the Home welcome heading. Deliberately NOT used for song text:
+ * Branding and Home's featured title only. Deliberately NOT used for song body text:
  * it is a decorative Latin script with no Indic coverage, so verses in Bengali/Devanagari must stay
  * on the system font. Ships Regular only, so never ask for a bold weight from it — Compose would
  * synthesize one and smear the script.

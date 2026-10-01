@@ -1,34 +1,45 @@
 package com.gaudiyakirtan.myapplication.ui.home
 
 import androidx.compose.animation.Crossfade
+import androidx.compose.foundation.Canvas
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.background
-import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
-import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.layout.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.OpenInNew
+import androidx.compose.material.icons.automirrored.filled.MenuBook
+import androidx.compose.material.icons.filled.HourglassEmpty
 import androidx.compose.material.icons.filled.Pause
 import androidx.compose.material.icons.filled.PlayArrow
 import androidx.compose.material.icons.filled.Refresh
 import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
-import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.geometry.CornerRadius
+import androidx.compose.ui.geometry.Offset
+import androidx.compose.ui.geometry.Size
+import androidx.compose.ui.graphics.Path
+import androidx.compose.ui.graphics.StrokeCap
+import androidx.compose.ui.graphics.drawscope.Stroke
+import androidx.compose.ui.graphics.drawscope.scale
 import androidx.compose.ui.platform.testTag
-import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.semantics.*
+import androidx.compose.ui.text.font.FontSynthesis
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import coil3.compose.SubcomposeAsyncImage
-import com.gaudiyakirtan.data.ImageConfig
 import com.gaudiyakirtan.myapplication.models.*
-import com.gaudiyakirtan.myapplication.ui.components.NavigationSurface
+import com.gaudiyakirtan.myapplication.ui.components.navigationFocusOutline
+import com.gaudiyakirtan.myapplication.ui.theme.DisplayFontFamily
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 import com.gaudiyakirtan.services.*
+import kotlinx.coroutines.delay
 
-/** Presentation only. AppNavigation supplies the one shared player and all playback commands. */
+/** Presentation only. The recommendation owns identity; the shared player owns playback. */
 @Composable
-@OptIn(ExperimentalMaterial3ExpressiveApi::class)
+@OptIn(ExperimentalMaterial3ExpressiveApi::class, ExperimentalLayoutApi::class)
 internal fun HomeListenCard(
     suggestedSong: Song?,
     playerUiState: PlayerUiState,
@@ -38,103 +49,109 @@ internal fun HomeListenCard(
     onPlayPause: () -> Unit,
     onBrowseRecordings: () -> Unit
 ) {
-    val current = playerUiState.nowPlaying
-    val song = current?.song ?: suggestedSong?.takeIf { it.audioFiles.isNotEmpty() }
-    val enlarged = LocalDensity.current.fontScale >= 1.5f
-    HomeCard(Modifier.testTag("listen-card")) {
-        Column(Modifier.heightIn(min = 260.dp).padding(24.dp), verticalArrangement = Arrangement.spacedBy(20.dp)) {
+    val song = suggestedSong
+    val current = playerUiState.nowPlaying?.takeIf { it.song.uid == song?.uid }
+    Surface(Modifier.fillMaxWidth().testTag("listen-card"), shape = MaterialTheme.shapes.medium,
+        color = MaterialTheme.colorScheme.surface) {
+        Column(Modifier.padding(Spacing.lg), verticalArrangement = Arrangement.spacedBy(Spacing.md)) {
             if (song == null) {
-                Text("Choose a recording", style = MaterialTheme.typography.headlineSmall,
-                    color = MaterialTheme.colorScheme.onSurface)
-                Text("Browse performances from across the song library.", style = MaterialTheme.typography.bodyLarge,
+                Text("Find a song to sing", style = MaterialTheme.typography.headlineSmall)
+                Text("Explore the song library and its recordings.", style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant)
                 TextButton(onClick = onBrowseRecordings, modifier = Modifier.heightIn(min = 48.dp)) {
-                    Text("Open library", color = MaterialTheme.colorScheme.onSurface)
+                    Text("Open library")
                 }
             } else {
                 val title = song.titleMain.preferredText(listLanguage)
-                val track = current?.track ?: song.audioFiles.first()
-                val author = track.artist ?: song.authorDisplay.preferredText(listLanguage)
+                val track = current?.track ?: song.audioFiles.firstOrNull()
                 val playing = current != null && playerUiState.playbackState == PlaybackState.PLAYING
                 val loading = current != null && playerUiState.playbackState == PlaybackState.LOADING
                 val error = current != null && playerUiState.playbackState == PlaybackState.ERROR
-                val position = if (current != null) playerUiState.positionMs.coerceAtLeast(0) else 0
-                val duration = if (current != null) playerUiState.durationMs.coerceAtLeast(0) else 0
-                val portrait: @Composable () -> Unit = {
-                    SubcomposeAsyncImage(model = ImageConfig.artistImageUrl(ImageConfig.artistCode(track.uid)),
-                        contentDescription = track.artist?.let { "Performer: $it" }, contentScale = ContentScale.Crop,
-                        modifier = Modifier.size(72.dp).clip(RoundedCornerShape(18.dp)),
-                        loading = { PerformerInitial(track.artist) }, error = { PerformerInitial(track.artist) })
-                }
-                val copy: @Composable () -> Unit = {
-                    NavigationSurface({ onSongClick(song.uid) }, Modifier.testTag("listen-song")) {
-                        Column(verticalArrangement = Arrangement.spacedBy(6.dp)) {
-                            Text(title, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurface)
-                            Text(author, style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        }
+                val paused = current != null && playerUiState.playbackState == PlaybackState.PAUSED
+                var pendingVisible by remember { mutableStateOf(false) }
+                LaunchedEffect(loading, song.uid) {
+                    pendingVisible = false
+                    if (loading) {
+                        delay(150)
+                        pendingVisible = true
                     }
                 }
-                if (enlarged) Column(verticalArrangement = Arrangement.spacedBy(16.dp)) { portrait(); copy() }
-                else Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(18.dp)) {
-                    portrait()
-                    Box(Modifier.weight(1f)) { copy() }
-                }
-                val takes = current?.availableTracks?.size ?: song.audioFiles.size
-                Row(Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                    IconButton(onClick = { onSongClick(song.uid) }, modifier = Modifier.size(48.dp)
-                        .background(MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.4f), CircleShape)) {
-                        Icon(Icons.AutoMirrored.Filled.OpenInNew, "Open $title", Modifier.size(20.dp))
+                // Artwork has its own clear space alongside the copy, never behind glyphs or
+                // actions. Surface clips the one static field; there is no image/network fallback.
+                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(Spacing.sm)) {
+                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(Spacing.xs)) {
+                        Text(title, style = MaterialTheme.typography.headlineSmall.copy(
+                            fontFamily = DisplayFontFamily, fontWeight = FontWeight.Normal,
+                            fontSynthesis = FontSynthesis.None),
+                            modifier = Modifier.padding(horizontal = Spacing.xs).testTag("listen-title"))
+                        Text(song.authorDisplay.preferredText(listLanguage),
+                            style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
-                    FilledIconButton(
-                        onClick = {
-                            when {
-                                error -> onPlaySong(song)
-                                current != null && playerUiState.playbackState in listOf(PlaybackState.PLAYING, PlaybackState.PAUSED) -> onPlayPause()
-                                else -> onPlaySong(song)
-                            }
-                        }, enabled = !loading,
-                        modifier = Modifier.size(56.dp).testTag("listen-play").semantics {
-                            stateDescription = when {
-                                loading -> "Loading recording"
-                                error -> "Audio unavailable"
-                                playing -> "Playing"
-                                current != null -> "Paused"
-                                else -> "Ready"
-                            }
-                        },
-                        colors = IconButtonDefaults.filledIconButtonColors(
-                            containerColor = MaterialTheme.colorScheme.onSurface,
-                            contentColor = MaterialTheme.colorScheme.surface)
-                    ) {
-                        val icon = when {
-                            error -> Icons.Default.Refresh
-                            playing -> Icons.Default.Pause
-                            else -> Icons.Default.PlayArrow
-                        }
-                        Crossfade(targetState = icon, animationSpec = MaterialTheme.motionScheme.fastEffectsSpec(),
-                            label = "home-listen-icon") { stateIcon ->
-                            Icon(stateIcon, when { error -> "Open player to retry $title"; loading -> "Loading $title";
-                                playing -> "Pause $title"; else -> "Play $title" })
-                        }
-                    }
-                    if (!enlarged) Text("$takes ${if (takes == 1) "take" else "takes"}",
-                        Modifier.weight(1f), style = MaterialTheme.typography.labelMedium,
-                        textAlign = androidx.compose.ui.text.style.TextAlign.End, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    RhythmField(Modifier.size(72.dp, 48.dp).align(Alignment.CenterVertically))
                 }
-                if (enlarged) Text("$takes ${if (takes == 1) "take" else "takes"}",
-                    style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
-                    // Read-only progress: no fabricated time and no second seek control/session.
-                    LinearProgressIndicator(progress = { if (duration > 0) (position.toFloat() / duration).coerceIn(0f, 1f) else 0f },
-                        modifier = Modifier.fillMaxWidth().height(3.dp).clearAndSetSemantics { },
-                        color = MaterialTheme.colorScheme.onSurface,
-                        trackColor = MaterialTheme.colorScheme.outlineVariant, drawStopIndicator = {})
-                    Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceBetween) {
-                        Text(homePlaybackTime(position), style = MaterialTheme.typography.labelMedium,
+                Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(Spacing.sm)) {
+                    if (playing) Box(Modifier.size(6.dp).background(MaterialTheme.colorScheme.primary, CircleShape)
+                        .clearAndSetSemantics { })
+                    track?.artist?.takeIf { it.isNotBlank() }?.let {
+                        Text("Recording · $it", style = MaterialTheme.typography.labelMedium,
                             color = MaterialTheme.colorScheme.onSurfaceVariant)
-                        Text(if (duration > 0) "−${homePlaybackTime((duration - position).coerceAtLeast(0))}" else when { loading -> "loading"; error -> "unavailable"; else -> "ready" },
-                            style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    }
+                }
+                FlowRow(horizontalArrangement = Arrangement.spacedBy(Spacing.sm),
+                    verticalArrangement = Arrangement.spacedBy(Spacing.sm)) {
+                    val readInteractions = remember { MutableInteractionSource() }
+                    Button(interactionSource = readInteractions, onClick = { onSongClick(song.uid) }, shape = MaterialTheme.shapes.small,
+                        modifier = Modifier.heightIn(min = 48.dp).testTag("listen-song").navigationFocusOutline(readInteractions, MaterialTheme.shapes.small)
+                            .semantics { contentDescription = "Read & sing $title" },
+                        contentPadding = PaddingValues(horizontal = Spacing.md, vertical = Spacing.sm)) {
+                        Icon(Icons.AutoMirrored.Filled.MenuBook, null, Modifier.size(20.dp))
+                        Spacer(Modifier.width(Spacing.sm))
+                        Text("Read & sing")
+                    }
+                    if (track != null) {
+                        val label = when {
+                            loading -> "Loading"
+                            error -> "Retry"
+                            playing -> "Pause"
+                            paused -> "Resume"
+                            else -> "Play recording"
+                        }
+                        val playLabelWidth = with(LocalDensity.current) {
+                            rememberTextMeasurer().measure("Play recording", MaterialTheme.typography.labelLarge).size.width.toDp()
+                        }
+                        val playInteractions = remember { MutableInteractionSource() }
+                        TextButton(interactionSource = playInteractions, onClick = {
+                            if (playing || paused) onPlayPause() else onPlaySong(song)
+                        }, enabled = !loading, shape = MaterialTheme.shapes.small,
+                            contentPadding = PaddingValues(horizontal = Spacing.sm, vertical = Spacing.sm),
+                            modifier = Modifier.widthIn(min = playLabelWidth + 20.dp + Spacing.xs + Spacing.sm * 2)
+                                .heightIn(min = 48.dp).testTag("listen-play")
+                                .navigationFocusOutline(playInteractions, MaterialTheme.shapes.small).semantics {
+                                contentDescription = "$label $title"
+                                stateDescription = when {
+                                    loading -> "Loading recording"
+                                    error -> "Audio unavailable"
+                                    playing -> "Playing"
+                                    paused -> "Paused"
+                                    else -> "Ready"
+                                }
+                            }) {
+                            val icon = when {
+                                pendingVisible && loading -> Icons.Default.HourglassEmpty
+                                error -> Icons.Default.Refresh
+                                playing -> Icons.Default.Pause
+                                else -> Icons.Default.PlayArrow
+                            }
+                            // Effects only in a fixed box. Compose applies the system animator
+                            // duration scale, including an immediate replacement when disabled.
+                            Crossfade(icon, Modifier.size(20.dp),
+                                animationSpec = MaterialTheme.motionScheme.fastEffectsSpec(), label = "home-playback-icon") {
+                                Icon(it, null, Modifier.size(20.dp).then(
+                                    if (it == Icons.Default.HourglassEmpty) Modifier.testTag("listen-pending") else Modifier))
+                            }
+                            Spacer(Modifier.width(Spacing.xs))
+                            Text(label)
+                        }
                     }
                 }
             }
@@ -142,15 +159,20 @@ internal fun HomeListenCard(
     }
 }
 
+/** Offline vector master from components v9; uniformly scaled and silent to TalkBack. */
 @Composable
-private fun PerformerInitial(artist: String?) {
-    Box(Modifier.fillMaxSize().background(MaterialTheme.colorScheme.outlineVariant), contentAlignment = Alignment.Center) {
-        Text(artist?.firstOrNull()?.uppercase() ?: "♪", style = MaterialTheme.typography.headlineMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant, modifier = Modifier.clearAndSetSemantics { })
+private fun RhythmField(modifier: Modifier = Modifier) {
+    val accent = MaterialTheme.colorScheme.primary
+    val ink = MaterialTheme.colorScheme.onSurface
+    Canvas(modifier.clearAndSetSemantics { }) {
+        scale(size.width / 360f, size.height / 240f, pivot = Offset.Zero) {
+            drawPath(Path().apply { moveTo(24f, 76f); cubicTo(116f, 12f, 240f, 16f, 338f, 90f) },
+                accent.copy(alpha = 0.18f), style = Stroke(28f, cap = StrokeCap.Round))
+            drawPath(Path().apply { moveTo(12f, 112f); cubicTo(124f, 48f, 252f, 64f, 356f, 140f) },
+                ink.copy(alpha = 0.08f), style = Stroke(18f, cap = StrokeCap.Round))
+            listOf(48f, 76f, 112f, 168f, 196f, 252f).forEach { x ->
+                drawRoundRect(accent.copy(alpha = 0.55f), Offset(x, 180f), Size(8f, 24f), CornerRadius(4f))
+            }
+        }
     }
-}
-
-internal fun homePlaybackTime(milliseconds: Int): String {
-    val seconds = milliseconds.coerceAtLeast(0) / 1000
-    return "${seconds / 60}:${(seconds % 60).toString().padStart(2, '0')}"
 }

@@ -1,34 +1,27 @@
 package com.gaudiyakirtan.myapplication.ui.home
 
+import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.lazy.LazyRow
-import androidx.compose.foundation.lazy.itemsIndexed
-import androidx.compose.foundation.shape.RoundedCornerShape
+import androidx.compose.foundation.lazy.items
+import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.automirrored.filled.ArrowForward
 import androidx.compose.material3.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.platform.testTag
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.semantics.*
-import androidx.compose.ui.text.font.FontSynthesis
-import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.gaudiyakirtan.myapplication.R
 import com.gaudiyakirtan.myapplication.models.*
 import com.gaudiyakirtan.myapplication.ui.components.NavigationSurface
-import com.gaudiyakirtan.myapplication.ui.sections.SectionHeading
-import com.gaudiyakirtan.myapplication.ui.theme.DisplayFontFamily
-import com.gaudiyakirtan.myapplication.ui.theme.HomeAuthorSwatches
-import com.gaudiyakirtan.myapplication.ui.theme.HomeFocusText
-import com.gaudiyakirtan.myapplication.ui.theme.HomeTopicInks
-import com.gaudiyakirtan.myapplication.ui.theme.HomeTopicSurfaces
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
 
-// The exact seven covers also shipped by Web, bundled here so the gallery is available offline.
+// Licensed covers shared with Web, bundled for offline browsing.
 private val bookCovers = mapOf(
     "book-srinamastaka" to R.drawable.book_srinamastaka,
     "book-srisiksastaka" to R.drawable.book_srisiksastaka,
@@ -39,41 +32,33 @@ private val bookCovers = mapOf(
     "book-gitavali" to R.drawable.book_gitavali
 )
 
-/** Horizontal pages keep the entire existing catalog. Large type reflows every entry vertically. */
-@Composable
-private fun <T> BrowsePages(
-    title: String, entries: List<T>, pageSize: Int, reflow: Boolean,
-    page: @Composable (List<T>, Modifier) -> Unit
-) {
-    if (reflow) Column(Modifier.fillMaxWidth().testTag("shelf-$title")
-        .semantics { collectionInfo = CollectionInfo(entries.size, 1) },
-        verticalArrangement = Arrangement.spacedBy(12.dp)) {
-        entries.forEach { page(listOf(it), Modifier.fillMaxWidth()) }
-    } else BoxWithConstraints(Modifier.fillMaxWidth()) {
-        val pageWidth = maxWidth - 32.dp
-        LazyRow(Modifier.testTag("shelf-$title"), horizontalArrangement = Arrangement.spacedBy(12.dp),
-            contentPadding = PaddingValues(4.dp)) {
-            itemsIndexed(entries.chunked(pageSize)) { _, chunk -> page(chunk, Modifier.width(pageWidth)) }
-        }
-    }
-}
-
 @Composable
 internal fun HomeBooks(books: List<SongGroup>, listLanguage: String, reflow: Boolean, onClick: (String) -> Unit) {
     HomeModule("Books") {
-        HomeCard(Modifier.testTag("books-card")) {
-            Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(20.dp)) {
-                Text("A library made for singing", style = MaterialTheme.typography.headlineMedium.copy(
-                    fontFamily = DisplayFontFamily, fontWeight = FontWeight.Normal, fontSynthesis = FontSynthesis.None),
-                    color = MaterialTheme.colorScheme.onSurface, modifier = Modifier.semantics { heading() })
-                Text("Open a songbook and move through its original sequence.", style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant)
-                BrowsePages("Books", books, 3, reflow) { page, modifier ->
-                    if (reflow) BookCover(page.first(), listLanguage, modifier, onClick, showTitle = true)
-                    else Row(modifier, horizontalArrangement = Arrangement.spacedBy(10.dp)) {
-                        BookCover(page.first(), listLanguage, Modifier.weight(1.35f).height(300.dp), onClick)
-                        if (page.size > 1) Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(10.dp)) {
-                            page.drop(1).forEach { BookCover(it, listLanguage, Modifier.fillMaxWidth().height(145.dp), onClick) }
+        BoxWithConstraints(Modifier.fillMaxWidth()) {
+            // Two complete books and the next edge on a phone; three on tablets. At enlarged
+            // text sizes a single wider book keeps the full label readable in the native rail.
+            val bookWidth = if (reflow) maxWidth - Spacing.xxl else if (maxWidth >= 600.dp)
+                (maxWidth - Spacing.xl * 2) / 3 else (maxWidth - Spacing.lg * 2) / 2.3f
+            LazyRow(Modifier.testTag("shelf-Books"),
+                horizontalArrangement = Arrangement.spacedBy(Spacing.lg), contentPadding = PaddingValues(Spacing.xs)) {
+                items(books, key = { it.uid }) { book ->
+                    val title = book.titles.preferredText(listLanguage)
+                    NavigationSurface({ onClick(book.uid) }, Modifier.width(bookWidth).testTag("book-${book.uid}"),
+                        shape = MaterialTheme.shapes.small, color = MaterialTheme.colorScheme.background) {
+                        Column(verticalArrangement = Arrangement.spacedBy(Spacing.sm)) {
+                            val cover = bookCovers[book.uid]
+                            if (cover != null) Image(painterResource(cover), null,
+                                Modifier.fillMaxWidth().height(if (reflow) 200.dp else bookWidth * 1.3f),
+                                contentScale = ContentScale.Fit)
+                            else Surface(Modifier.fillMaxWidth().heightIn(min = 160.dp), shape = MaterialTheme.shapes.small) {
+                                Box(Modifier.padding(Spacing.md), contentAlignment = Alignment.Center) {
+                                    Text(title, style = MaterialTheme.typography.titleMedium,
+                                        modifier = Modifier.clearAndSetSemantics { })
+                                }
+                            }
+                            Text(title, Modifier.padding(horizontal = Spacing.xs, vertical = Spacing.xs),
+                                style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.onSurface)
                         }
                     }
                 }
@@ -83,49 +68,22 @@ internal fun HomeBooks(books: List<SongGroup>, listLanguage: String, reflow: Boo
 }
 
 @Composable
-private fun BookCover(book: SongGroup, language: String, modifier: Modifier, onClick: (String) -> Unit, showTitle: Boolean = false) {
-    val title = book.titles.preferredText(language)
-    val cover = bookCovers[book.uid]
-    NavigationSurface({ onClick(book.uid) }, modifier.testTag("book-${book.uid}").semantics { contentDescription = title },
-        shape = RoundedCornerShape(16.dp)) {
-        Column(Modifier.background(MaterialTheme.colorScheme.outlineVariant.copy(alpha = 0.4f))) {
-            if (cover != null) Image(painterResource(cover), null,
-                modifier = if (showTitle) Modifier.fillMaxWidth().height(240.dp) else Modifier.fillMaxSize(),
-                contentScale = if (showTitle) ContentScale.Fit else ContentScale.Crop)
-            if (showTitle || cover == null) Text(title, Modifier.padding(16.dp),
-                style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurface)
-        }
-    }
-}
-
-@Composable
-internal fun HomeAuthors(
-    authors: List<Author>, counts: Map<String, Int>, language: String, reflow: Boolean, onClick: (String) -> Unit
-) {
+internal fun HomeAuthors(authors: List<Author>, counts: Map<String, Int>, language: String, onClick: (String) -> Unit) {
     HomeModule("Authors") {
-        HomeCard(Modifier.testTag("authors-card")) {
-            Column(Modifier.padding(20.dp), verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                SectionHeading("Voices in the library")
-                BrowsePages("Authors", authors, 4, reflow) { page, modifier ->
-                    Column(modifier, verticalArrangement = Arrangement.spacedBy(4.dp)) {
-                        page.forEachIndexed { index, author ->
-                            val name = author.names.preferredText(language)
-                            NavigationSurface({ onClick(author.uid) }, Modifier.fillMaxWidth().testTag("author-${author.uid}")) {
-                                Row(Modifier.padding(8.dp), verticalAlignment = Alignment.CenterVertically,
-                                    horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                                    Box(Modifier.size(42.dp).clip(RoundedCornerShape(13.dp)).background(HomeAuthorSwatches[index % 4])
-                                        .clearAndSetSemantics { }, contentAlignment = Alignment.Center) {
-                                        Text(name.firstOrNull()?.uppercase().orEmpty(), style = MaterialTheme.typography.titleLarge,
-                                            color = HomeFocusText)
-                                    }
-                                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(3.dp)) {
-                                        Text(name, style = MaterialTheme.typography.titleSmall, color = MaterialTheme.colorScheme.onSurface)
-                                        counts[author.uid]?.let { Text("$it songs", style = MaterialTheme.typography.labelMedium,
-                                            color = MaterialTheme.colorScheme.onSurfaceVariant) }
-                                    }
-                                }
-                            }
+        Column(Modifier.fillMaxWidth().testTag("shelf-Authors")
+            .semantics { collectionInfo = CollectionInfo(authors.size, 1) }) {
+            authors.forEach { author ->
+                NavigationSurface({ onClick(author.uid) }, Modifier.fillMaxWidth().testTag("author-${author.uid}"),
+                    shape = MaterialTheme.shapes.small, color = MaterialTheme.colorScheme.background) {
+                    Row(Modifier.padding(horizontal = Spacing.xs, vertical = Spacing.sm),
+                        verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(Spacing.sm)) {
+                        Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(Spacing.xxs)) {
+                            Text(author.names.preferredText(language), style = MaterialTheme.typography.titleSmall)
+                            counts[author.uid]?.let { Text("$it ${if (it == 1) "song" else "songs"}",
+                                style = MaterialTheme.typography.labelMedium, color = MaterialTheme.colorScheme.onSurfaceVariant) }
                         }
+                        Icon(Icons.AutoMirrored.Filled.ArrowForward, null, Modifier.size(16.dp),
+                            tint = MaterialTheme.colorScheme.onSurfaceVariant)
                     }
                 }
             }
@@ -133,29 +91,19 @@ internal fun HomeAuthors(
     }
 }
 
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
-internal fun HomeTopics(topics: List<SongGroup>, language: String, reflow: Boolean, expanded: Boolean, onClick: (String) -> Unit) {
-    val columns = if (reflow) 1 else if (expanded) 6 else 2
-    HomeModule("Explore") {
-        BrowsePages("Topics", topics, columns * 2, reflow) { page, modifier ->
-            Column(modifier, verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                page.chunked(columns).forEach { row ->
-                    Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
-                        row.forEach { topic ->
-                            val index = topics.indexOf(topic) % 3
-                            val background = HomeTopicSurfaces[index]
-                            val ink = HomeTopicInks[index]
-                            NavigationSurface({ onClick(topic.uid) }, Modifier.weight(1f).testTag("topic-${topic.uid}"),
-                                shape = RoundedCornerShape(22.dp)) {
-                                Column(Modifier.background(background).heightIn(min = 100.dp).padding(16.dp),
-                                    verticalArrangement = Arrangement.spacedBy(12.dp)) {
-                                    Text(topic.titles.preferredText(language), style = MaterialTheme.typography.labelLarge, color = ink)
-                                    Text("${topic.songCount} songs", style = MaterialTheme.typography.labelMedium, color = ink)
-                                }
-                            }
-                        }
-                        repeat(columns - row.size) { Spacer(Modifier.weight(1f)) }
-                    }
+internal fun HomeTopics(topics: List<SongGroup>, language: String, onClick: (String) -> Unit) {
+    HomeModule("Topics") {
+        FlowRow(Modifier.fillMaxWidth().padding(Spacing.xs).testTag("shelf-Topics"),
+            horizontalArrangement = Arrangement.spacedBy(Spacing.sm), verticalArrangement = Arrangement.spacedBy(Spacing.sm)) {
+            topics.forEach { topic ->
+                NavigationSurface({ onClick(topic.uid) }, Modifier.testTag("topic-${topic.uid}"),
+                    shape = MaterialTheme.shapes.small, color = MaterialTheme.colorScheme.background,
+                    border = BorderStroke(1.dp, MaterialTheme.colorScheme.outlineVariant)) {
+                    Text("${topic.titles.preferredText(language)} · ${topic.songCount}",
+                        Modifier.padding(horizontal = Spacing.md, vertical = Spacing.md),
+                        style = MaterialTheme.typography.labelLarge, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             }
         }

@@ -20,7 +20,7 @@ import java.time.LocalDate
  * ViewModel for the Home screen.
  * Loads the real, offline-bundled corpus via [SongRepository] -- no more [com.gaudiyakirtan.data.SampleData].
  * Lists (songs/authors) are backed by the lightweight [ManifestEntry]/[Author] catalog rather than
- * full [Song] objects. The featured reading loads N9 with its verses; the v6 listening suggestion
+ * full [Song] objects. The featured reading loads N9 with its verses; the v7 featured recommendation
  * resolves one real recording from the seasonal list, falling back to the bundled manifest.
  */
 class HomeViewModel(application: Application) : AndroidViewModel(application) {
@@ -115,7 +115,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
             }.orEmpty()
             _thisMonth.value = today
             _thisMonthSongs.value = monthSongs
-            // The v6 suggestion follows the same seasonal order, then the bundled manifest.
+            // The v7 recommendation follows the same seasonal order, then the bundled manifest.
             // Verify full audio files rather than treating the manifest flag as a playable take.
             var suggestion: Song? = null
             for (entry in (monthSongs + _songs.value).distinctBy { it.uid }) {

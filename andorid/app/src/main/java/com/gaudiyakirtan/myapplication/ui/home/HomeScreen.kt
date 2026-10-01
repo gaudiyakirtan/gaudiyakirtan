@@ -14,16 +14,13 @@ import androidx.compose.ui.semantics.heading
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.text.font.FontSynthesis
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.text.rememberTextMeasurer
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.gaudiyakirtan.myapplication.models.*
 import com.gaudiyakirtan.myapplication.ui.components.RowUidChip
 import com.gaudiyakirtan.myapplication.ui.components.SearchBar
 import com.gaudiyakirtan.myapplication.ui.components.VerseView
-import com.gaudiyakirtan.myapplication.ui.components.icons.Mridanga
 import com.gaudiyakirtan.myapplication.ui.sections.*
 import com.gaudiyakirtan.myapplication.ui.theme.DisplayFontFamily
 import com.gaudiyakirtan.myapplication.ui.theme.Spacing
@@ -59,9 +56,9 @@ fun HomeScreen(
 }
 
 /**
- * V6 bento canvas: season → shared listening → repertoire → four songs → discovery → full N9.
- * A is measured after AppNavigation's Scaffold insets. One lazy grid owns vertical scrolling;
- * full-span modules and row-major song cells retain the same traversal order at every width.
+ * V7 Singing Page: one recommended song → season/repertoire → native Songs → discovery → N9.
+ * AppNavigation supplies measured Scaffold insets for the shared player, tabs and safe areas.
+ * One bounded lazy feed retains semantic order at every width; no nested vertical scrollers.
  */
 @Composable
 fun HomeContent(
@@ -89,90 +86,83 @@ fun HomeContent(
         authors.associate { it.uid to it.names.preferredText(settings.listLanguage) }
     }
     val authorSongCounts = remember(songs) { songs.groupingBy { it.authorUid }.eachCount() }
-    HomeStyle {
-        Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-            BoxWithConstraints(Modifier.fillMaxSize()) {
-                val expanded = maxWidth >= 840.dp
-                val medium = maxWidth >= 600.dp && !expanded
-                val gutter = if (expanded) Spacing.xxl else if (medium) Spacing.xl else Spacing.lg
-                val enlarged = LocalDensity.current.fontScale >= 1.5f
-                val reflow = enlarged || maxWidth - gutter * 2 < 240.dp
-                val columns = if (reflow || (!expanded && !medium)) 1 else if (expanded) 3 else 2
-                Column(Modifier.padding(horizontal = gutter).widthIn(max = 1120.dp)
-                    .fillMaxSize().align(Alignment.TopCenter)) {
-                    SearchBar("", {}, onSettingsClick, onSearchClick = onSearchClick)
-                    LazyVerticalGrid(
-                        columns = GridCells.Fixed(columns),
-                        state = gridState,
-                        modifier = Modifier.weight(1f).testTag("home-feed"),
-                        horizontalArrangement = Arrangement.spacedBy(28.dp),
-                        verticalArrangement = Arrangement.spacedBy(28.dp),
-                        // The parent already reserves measured player + tabs + safe areas. Add the
-                        // 24dp page padding and 16dp clearance, rather than guessing player heights.
-                        contentPadding = PaddingValues(top = Spacing.xl, bottom = Spacing.xl + Spacing.lg)
-                    ) {
-                        item(key = "brand", span = { GridItemSpan(maxLineSpan) }) { HomeBrand(expanded) }
-                        if (thisMonth != null) {
-                            item(key = "seasonal", span = { GridItemSpan(if (expanded && !reflow) 1 else maxLineSpan) }) {
-                                HomeModule("Season") { MonthContext(thisMonth, songCount = thisMonthSongs.size) }
+    Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
+        BoxWithConstraints(Modifier.fillMaxSize()) {
+            val enlarged = LocalDensity.current.fontScale >= 1.5f
+            val columns = if (maxWidth >= 600.dp && !enlarged) 2 else 1
+            Column(Modifier.widthIn(max = 840.dp).fillMaxSize().align(Alignment.TopCenter)
+                .padding(horizontal = Spacing.lg)) {
+                HomeBrand()
+                SearchBar("", {}, onSettingsClick, onSearchClick = onSearchClick)
+                LazyVerticalGrid(
+                    columns = GridCells.Fixed(columns),
+                    state = gridState,
+                    modifier = Modifier.weight(1f).testTag("home-feed"),
+                    horizontalArrangement = Arrangement.spacedBy(Spacing.lg),
+                    verticalArrangement = Arrangement.spacedBy(Spacing.xs),
+                    // The parent reserves actual player + tabs + safe areas, including their
+                    // large-font heights. Clearance also keeps the final focus outline visible.
+                    contentPadding = PaddingValues(top = Spacing.xs, bottom = Spacing.xl + Spacing.lg)
+                ) {
+                    item(key = "listen", span = { GridItemSpan(maxLineSpan) }) {
+                        HomeListenCard(listenSong, playerUiState, settings.listLanguage, onSongClick,
+                            onPlaySong, onPlayPause, onBrowseRecordings)
+                    }
+                    if (thisMonth != null) {
+                        item(key = "seasonal", span = { GridItemSpan(maxLineSpan) }) {
+                            MonthContext(thisMonth, Modifier.padding(top = Spacing.md), thisMonthSongs.size)
+                        }
+                        item(key = "seasonal-songs", span = { GridItemSpan(maxLineSpan) }) {
+                            MonthSongs(thisMonthSongs, authorNames, settings.listLanguage, onSongClick,
+                                Modifier.padding(top = Spacing.sm))
+                        }
+                    }
+                    if (songs.isNotEmpty()) {
+                        item(key = "songs-gap", span = { GridItemSpan(maxLineSpan) }) { Spacer(Modifier.height(Spacing.lg)) }
+                        songsSection(songs.take(4), authorNames, settings.listLanguage, onSongClick)
+                    }
+                    if (books.isNotEmpty()) {
+                        item(key = "books", span = { GridItemSpan(maxLineSpan) }) {
+                            Box(Modifier.padding(top = Spacing.xl)) {
+                                HomeBooks(books, settings.listLanguage, enlarged, onGroupClick)
                             }
                         }
-                        item(key = "listen") {
-                            HomeModule("Listen now", Modifier.padding(top = if (expanded && !reflow) 24.dp else 0.dp)) {
-                            HomeListenCard(listenSong, playerUiState, settings.listLanguage, onSongClick,
-                                onPlaySong, onPlayPause, onBrowseRecordings)
+                    }
+                    if (authors.isNotEmpty()) {
+                        item(key = "authors", span = { GridItemSpan(maxLineSpan) }) {
+                            Box(Modifier.padding(top = Spacing.xl)) {
+                                HomeAuthors(authors, authorSongCounts, settings.listLanguage, onAuthorClick)
                             }
                         }
-                        if (thisMonth != null) {
-                            item(key = "seasonal-songs") {
-                                HomeModule("Seasonal songs", Modifier.padding(top = if (expanded && !reflow) 12.dp else 0.dp)) {
-                                    MonthSongs(thisMonthSongs, authorNames, settings.listLanguage, onSongClick)
+                    }
+                    if (topics.isNotEmpty()) {
+                        item(key = "topics", span = { GridItemSpan(maxLineSpan) }) {
+                            Box(Modifier.padding(top = Spacing.xl)) {
+                                HomeTopics(topics, settings.listLanguage, onGroupClick)
+                            }
+                        }
+                    }
+                    if (featuredSong != null) {
+                        item(key = "featured", span = { GridItemSpan(maxLineSpan) }) {
+                            ReadingColumn(Modifier.padding(top = Spacing.xl).testTag("featured-reading")) {
+                                Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally,
+                                    verticalArrangement = Arrangement.spacedBy(Spacing.xs)) {
+                                    Text(featuredSong.titleMain.preferredText(settings.displayScript),
+                                        style = MaterialTheme.typography.titleLarge,
+                                        color = MaterialTheme.colorScheme.onSurface,
+                                        textAlign = TextAlign.Center)
+                                    Text(featuredSong.authorDisplay.preferredText(settings.displayScript),
+                                        style = MaterialTheme.typography.bodyLarge,
+                                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                        textAlign = TextAlign.Center)
+                                    RowUidChip(featuredSong.uid)
                                 }
                             }
                         }
-                        if (songs.isNotEmpty()) {
-                            songsSection(songs.take(4), authorNames, settings.listLanguage, onSongClick)
-                            // Close the four-song grid before the two-column gallery begins.
-                            item(key = "discovery-gap", span = { GridItemSpan(maxLineSpan) }) { Spacer(Modifier.height(0.dp)) }
-                        }
-                        if (books.isNotEmpty()) {
-                            item(key = "books", span = { GridItemSpan(if (expanded && !reflow) 2 else maxLineSpan) }) {
-                                HomeBooks(books, settings.listLanguage, reflow, onGroupClick)
-                            }
-                        }
-                        if (authors.isNotEmpty()) {
-                            item(key = "authors", span = { GridItemSpan(if (expanded && !reflow) 1 else maxLineSpan) }) {
-                                HomeAuthors(authors, authorSongCounts, settings.listLanguage, reflow, onAuthorClick)
-                            }
-                        }
-                        if (topics.isNotEmpty()) {
-                            item(key = "topics", span = { GridItemSpan(maxLineSpan) }) {
-                                HomeTopics(topics, settings.listLanguage, reflow, medium || expanded, onGroupClick)
-                            }
-                        }
-                        if (featuredSong != null) {
-                            item(key = "featured", span = { GridItemSpan(maxLineSpan) }) {
-                                ReadingColumn(Modifier.testTag("featured-reading")) {
-                                    Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally,
-                                        verticalArrangement = Arrangement.spacedBy(Spacing.xs)) {
-                                        Text(featuredSong.titleMain.preferredText(settings.displayScript),
-                                            style = MaterialTheme.typography.titleLarge,
-                                            color = MaterialTheme.colorScheme.onSurface,
-                                            textAlign = TextAlign.Center,
-                                            modifier = Modifier.semantics { heading() })
-                                        Text(featuredSong.authorDisplay.preferredText(settings.displayScript),
-                                            style = MaterialTheme.typography.bodyLarge,
-                                            color = MaterialTheme.colorScheme.onSurfaceVariant,
-                                            textAlign = TextAlign.Center)
-                                        RowUidChip(featuredSong.uid)
-                                    }
-                                }
-                            }
-                            itemsIndexed(featuredSong.verses, key = { index, _ -> "featured-verse-$index" },
-                                span = { _, _ -> GridItemSpan(maxLineSpan) }) { index, verse ->
-                                ReadingColumn(Modifier.testTag("featured-verse-$index")) {
-                                    VerseView(verse, settings)
-                                }
+                        itemsIndexed(featuredSong.verses, key = { index, _ -> "featured-verse-$index" },
+                            span = { _, _ -> GridItemSpan(maxLineSpan) }) { index, verse ->
+                            ReadingColumn(Modifier.testTag("featured-verse-$index")) {
+                                VerseView(verse, settings)
                             }
                         }
                     }
@@ -190,21 +180,9 @@ private fun ReadingColumn(modifier: Modifier = Modifier, content: @Composable ()
 }
 
 @Composable
-private fun HomeBrand(expanded: Boolean) {
-    val style = (if (expanded) MaterialTheme.typography.displaySmall else MaterialTheme.typography.headlineMedium)
-        .copy(fontFamily = DisplayFontFamily, fontWeight = FontWeight.Normal,
-            fontSynthesis = FontSynthesis.None, letterSpacing = 0.sp)
-    val title = "Śrī Gaudiya Kirtan"
-    val measurer = rememberTextMeasurer()
-    BoxWithConstraints(Modifier.fillMaxWidth().padding(Spacing.xs)) {
-        val markSize = if (expanded) 40.dp else 36.dp
-        val textWidth = with(LocalDensity.current) { measurer.measure(title, style).size.width.toDp() }
-        val showMark = textWidth + Spacing.md + markSize <= maxWidth
-        Row(verticalAlignment = Alignment.CenterVertically,
-            horizontalArrangement = Arrangement.spacedBy(Spacing.md)) {
-            Text(title, style = style, color = MaterialTheme.colorScheme.onSurface,
-                modifier = Modifier.weight(1f, fill = false).semantics { heading() })
-            if (showMark) Mridanga(size = markSize)
-        }
-    }
+private fun HomeBrand() {
+    Text("Śrī Gaudiya Kirtan", style = MaterialTheme.typography.headlineSmall.copy(
+        fontFamily = DisplayFontFamily, fontWeight = FontWeight.Normal, fontSynthesis = FontSynthesis.None),
+        color = MaterialTheme.colorScheme.onSurface,
+        modifier = Modifier.padding(horizontal = Spacing.xs, vertical = Spacing.sm).semantics { heading() })
 }
