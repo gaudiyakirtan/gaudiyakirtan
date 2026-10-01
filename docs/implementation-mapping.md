@@ -57,12 +57,12 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | seo (v1) — metadata/sitemap | ✅ | n/a | n/a |
 | observability (v1) — analytics/Sentry | ✅ | n/a | n/a |
 | settings | ✅ | ✅* | ✅ |
-| [theme (v5 — shared utility motion)](screens/theme.md) | 🔨 v5 | 🔨 v5 | 🔨 v5 |
-| [home (v7 — The Singing Page)](screens/home.md) | 🔨 v7 | 🔨 v7 | 🔨 v7 |
+| [theme (v5 — shared utility motion)](screens/theme.md) | ✅ v5 | 🔨 v5 | ✅ v5 |
+| [home (v7 — The Singing Page)](screens/home.md) | ✅ v7 | 🔨 v7 | ✅ v7 |
 | today (v2) — Home seasonal region | ✅ v2 | — **TODO** | ✅ v2 |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
-| [components (v9 — Home composition)](screens/components.md) | 🔨 v9 | 🔨 v9 | 🔨 v9 |
+| [components (v10 — Home composition)](screens/components.md) | ✅ v10 | 🔨 v10 | ✅ v10 |
 | collections / books / topics | ✅ | ✅* | ✅ |
 | artist/book images | ✅ | ✅* | ✅ |
 | unit tests | ✅ | ✅* | ✅ |
@@ -76,15 +76,18 @@ and the open-song uid pill), so iOS/Android are not stale against it; they stay 
 version before it ·
 `🔨` in progress · `—` not applicable / not on that platform.
 
-**Home v7 — implementation in progress.** v7 replaces the rejected dashboard composition with one
-featured song, explicit reading and playback actions, compact seasonal context, and restrained
-editorial browsing. Existing v6 screenshots remain historical evidence until matching v7 captures
-replace them.
+**Home v7 — Web and Android verified; iOS implementation awaiting a compatible runner.** v7
+replaces the rejected dashboard composition with one featured song, explicit reading and playback
+actions, compact seasonal context, and restrained editorial browsing. Web passes lint, production
+build, 191 unit tests, and 40 focused Playwright checks. Android passes debug assembly, 126 unit
+tests, and 50 Roborazzi comparisons. The Linux iOS verifier passes 12 source, resource, behavior,
+and contrast checks; Xcode compilation and simulator capture still require a compatible macOS host.
+Selected v7 evidence is stored under `docs/screenshots/home-v7/`.
 
 **Home v5/v6 — historical baselines.** Their uniform shelf and dashboard geometry remain only in
 before screenshots; v7 is authoritative.
 
-**Theme v4 / components v8.** Web and Android Home interactions use the shared timing/state
+**Theme v5 / components v10.** Web and Android Home interactions use the shared timing/state
 contracts and have automated reduced-motion or platform-motion coverage. iOS uses the same named
 tokens and `accessibilityReduceMotion`, pending Xcode verification as noted above.
 
