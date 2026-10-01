@@ -1,6 +1,6 @@
 # Shared components
 
-**Spec version:** 6
+**Spec version:** 7
 
 **Figma frames:** `Components`, `Group 15/16`, `Frame *`.
 
@@ -17,17 +17,34 @@ indicator. Used by every song list — [`songs-list`](songs-list.md), [`home`](h
 | Prop | Type | Description |
 |------|------|-------------|
 | `song` | `ISongListing` | The row's data. |
-| `onClick` | `() => void` | Navigation is the caller's job; the row does not embed a link. |
-| `surface` | `'default' \| 'offset'` | Which background the row sits on. |
+| `href` / native destination | Platform navigation target | Caller supplies the existing song route; Web renders a real anchor, native a navigation control. |
+| `onClick` | `() => void` | Optional caller side effect/native callback; never the only Web navigation mechanism. |
+| `surface` | `'default' \| 'offset'` | Owning base surface; retained for compatibility, not a hover color. |
 
-### The `surface` prop exists because of a real bug
+The same anatomy applies on Home: title + existing row UID chip, then author/audio availability.
+Do not introduce `SeasonalSongRow`, move the UID into a new metadata layout, or impose a Home-only
+72-unit row. Use a 56-unit minimum, content-driven height and `small` shape. Titles may wrap to two
+lines at default size and fully at accessibility sizes; the UID wraps with its title group if
+needed. Keep full accessible titles. Title is `primary` (Android `onSurface`), author `secondary`.
 
-The default hover tint is `--background-offset`. When a row is placed **on** an offset surface —
-home's month card, or `SongsSection`'s grid cards — the hover painted the same colour over itself
-and was **invisible**. Pass `surface="offset"` there and the hover flips to `--background`.
+### Home links and interaction states
 
-Any new surface that is not the page background must pass `offset`, or its rows will silently lose
-their hover state.
+These shared semantics apply to Home's canonical rows, browse cards and action controls. A Web
+destination is an anchor with its real URL (including modified-click/open-in-new-tab behavior),
+an action is a button, and native controls carry the equivalent roles. The song destination and
+recording button are siblings, never nested. Minimum targets: 44 × 44 CSS px/pt, 48 × 48 Android dp.
+
+Paint a `primary` state layer **over the owning surface**: hover 8%, focus 10%, pressed 10%; choose
+one interaction layer, do not add them together. Current selection has an 8% `highlight` base tint
+plus a persistent marker and accessible state; tint alone is insufficient. Text stays readable.
+This supersedes the old background/offset hover swap, whose offset-on-offset paint was invisible.
+Do not add a competing wrapper hover. Focus is an immediate 2-unit `highlight` outline separated
+by 2 units of the parent surface, outside the target and unclipped; forced colors use system roles.
+
+Rows/cards stay flat and fixed in place: no hover scale, lift, pulse, animated radius or
+`transition-all`. Use [theme utility motion](theme.md#utility-motion-tokens). Missing optional actions
+are omitted; a temporarily disabled existing action retains its label, disabled semantics and
+reason. No recording does not disable song navigation.
 
 ## `SongsSection`
 
@@ -35,8 +52,8 @@ Heading + optional "View All" link + a list or 2-up grid of `SongListItem`. **Re
 empty list**, which is how callers get "hide when empty" for free — relied on by home's
 Recently-played region.
 
-Grid cards are an offset surface, so the section passes `surface="offset"` down. Do not re-add a
-hover to the wrapper: the wrapper and the row then animate against each other.
+Grid cards are an offset surface, so the section passes `surface="offset"` down. State layers
+belong to the row only, not both row and wrapper.
 
 ## `TopicsSection` · `BooksSection` · `AuthorsSection`
 
@@ -54,9 +71,21 @@ Only home passes the flag, so the index pages are unaffected.
 
 Topics and Books each render nothing when the corpus ships no groups of that kind.
 
+Home v5 uses flat, intrinsic-height cards with text on solid surfaces, covers contained and portraits
+identified by adjacent names; geometry is in [Home](home.md#responsive-geometry). Shelf headings and
+existing View all destinations remain separate from card links. At enlarged text sizes, `singleRow`
+becomes a vertical list of the same items; it never reduces the set to a preview. Index grids stay
+unchanged. On Web, an overflowing shelf has labelled Previous/Next buttons in its heading; one
+activation scrolls one visible shelf width, clamped to the end. At an end, keep the button focusable
+with `aria-disabled="true"` and ignore activation. Scroll normally with browser smooth behavior,
+instantly under reduced motion. Native uses normal scrolling and accessibility traversal; no
+extra shelf arrows. Reveal focused items and keep focus rings inside the scrollable padding.
+
 ## `HeroBanner`
 
-The half-width banner used by home's calendar region ([`home.md`](home.md) §1).
+Legacy overlaid-art banner, retained for existing non-v5 consumers. Home v5 uses MonthContext
+below instead; its full-text/non-figurative contract overrides this component's clamped caption and
+best-effort photograph behavior. Do not retrofit other consumers in the Home slice.
 
 | Prop | Description |
 |------|-------------|
@@ -68,20 +97,83 @@ The half-width banner used by home's calendar region ([`home.md`](home.md) §1).
 
 **Artwork is best-effort and the gradient is a normal path, not an error.** Most slugs have no
 image, so any load failure falls back to a themed gradient; the overlay and text are designed to
-stay legible against the gradient alone. Callers supply `imageSrc` themselves — home resolves month
-art via `monthImageUrlFor()` (`/assets/months/<gaudiya-month>.jpg`), whose provenance and licensing
-are recorded in `public/assets/months/CREDITS.md`.
+stay legible against the gradient alone. Callers supply `imageSrc` themselves. Before v5, Home
+resolved month art via `monthImageUrlFor()` (`/assets/months/<gaudiya-month>.jpg`); provenance and
+licensing remain recorded in `public/assets/months/CREDITS.md`.
+
+## Home composition
+
+`MonthContext` takes resolved lunar/Gaudiya names, intercalary state and observances; it draws text
+on the solid card plus a separate decorative `RhythmArtwork` slot. `MonthSongs` takes ordered
+listings, optional existing recording actions and an empty-state message. It reuses `SongListItem`;
+the container is not interactive. Titles, order, caps, layout and availability are owned by
+[Home v5](home.md). Equivalent responsibilities apply across React, SwiftUI and Compose; new data
+types/services are unnecessary. Standard cards/list primitives suffice; only the decorative path
+composition needs custom drawing. There is no native picker implementation requirement in v5.
+
+## RhythmArtwork
+
+One static vector master, identical across months/platforms; no random variants, image request,
+calendar-precision claim or audio-state dependency. Use a 360 × 240 coordinate space on
+`backgroundOffset`, with round caps:
+
+- Curve A: `M24 76 C116 12 240 16 338 90`, stroke 28, `accent` at 18%.
+- Curve B: `M12 112 C124 48 252 64 356 140`, stroke 18, `primary` at 8%.
+- Six vertical rounded marks: x = 48, 76, 112, 168, 196, 252; y = 180; width 8, height 24,
+  radius 4; `accent` at 55%. Equal heights and varied spacing suggest phrasing without an equalizer.
+
+Scale uniformly to the allotted 3:2 slot. Curves are broad open strokes, not rings, spinners,
+waveforms, named tāla notation, sacred diagrams or figurative illustration. Keep art outside text
+and controls, clip only its own drawing bounds, and exclude it from accessibility/hit testing.
+SVG, SwiftUI Path and Compose Canvas reproduce these coordinates; art is available offline and
+never animates. The art slot can disappear for reflow without removing content.
+
+## Home recording picker
+
+Where already supported (Web), keep the existing avatar/count trigger and all takes. Accessible
+name: “Choose recording of [full title], [count] recordings”; expose expanded state and controlled
+panel. Decorative avatars are silent. Performer/take labels use existing disambiguation and fallback
+rules. No new native picker, sheet, global layer rank, player control or audio session is introduced.
+
+The Web picker remains a non-modal anchored panel at **all widths**, with a labelled list of take
+buttons, current marker and actual play/pause/loading glyph. Width `min(320, available Home width)`,
+`large` radius, `background`, 1-unit `border`, no shadow, padding `md`. Constrain it within unobscured content,
+flip above the trigger when needed, and cap take-list height at `min(256, free vertical space)`.
+Scroll its anchor into view if necessary to expose at least one full take target. Keep it in the
+existing content layer, below header/player/navigation/search; do not escape those stacking
+contexts or clip it at the seasonal card. Modal focus trapping would be incorrect here.
+
+| Picker event | Result / focus |
+|---|---|
+| Open | Close another Home picker; focus current take, else first. |
+| Choose take | Delegate to existing player, close, return focus to trigger. |
+| Escape / trigger toggle | Close; focus trigger. |
+| Outside pointer | Close; allow clicked destination to receive focus. |
+| Tab beyond panel | Close; continue normal focus order without trapping/restoring. |
+| Another trigger | Close A, open B; focus B's current/first take. |
+| Route change / parent overlay opens | Close; route/overlay owns focus. |
+
+Picker visibility is independent of playback. A song's selected marker requires matching player
+song UID; take status requires **both** song and take UID. Nonmatching takes are idle. Reflect the
+existing player's `idle/loading/playing/paused/error`, including loading→paused on blocked autoplay
+and playing→loading on buffering; a click or media-ready event alone does not mean playing. On
+track end, close or queue advance, reflect whatever the player reports rather than inventing an
+idle/paused transition. The Home picker never owns Retry or playback announcements. Loading-glyph
+delay and motion are specified by Home/theme; no duplicate live region or progress announcements.
 
 ## Uid chip
 
-The song code (`A8`, `NK31`, `PT13`) always renders as a **neutral chip** — `--neutral` text at a
-`--neutral` tint of the surface, uppercase, never as bare text and never in a content colour. It is
-metadata, so it stays quiet; only its **density** changes with the surface:
+The song code (`A8`, `NK31`, `PT13`) always renders as a **neutral chip** — a `--neutral` tint of the
+surface, uppercase, never bare or accent-colored. It stays quiet; density changes by surface:
 
 | Variant | Where | Shape / weight |
 |---|---|---|
-| **Row** | [`SongListItem`](songs-list.md), `TrackListItem`, `SongCard` | `--neutral`/20, `rounded-xl` (`rounded-lg` on the smaller card), 9–10 px, medium |
+| **Row** | [`SongListItem`](songs-list.md), `TrackListItem`, `SongCard` | `--neutral`/20 fill, **`secondary` text**, `rounded-xl` (`rounded-lg` on the smaller card), 9–10 px base, medium; scales with text |
 | **Detail** | [song-detail](song-detail.md)'s title block, the [player](player.md)'s open-song action | `--neutral`/25, **fully rounded**, 10–11 px, semibold |
+
+v7 corrects row-chip text contrast without a new shape: `secondary` on neutral/20 over offset is
+7.31:1 Gaura / 5.86:1 Shyam. `neutral` or `tertiary` text on that tinted fill fails 4.5:1 in at least
+one palette. The existing detail variant's neutral text and player behavior are unchanged.
 
 The detail variant is the one that can be **actionable**. On the player's open-song action the chip
 is the link itself and carries an `ArrowUpRight` inside it after the code — the pill says *which*
@@ -163,9 +255,17 @@ Android `res/font/`) so the wordmark reads identically across platforms. It is a
 - `SongsSection` renders nothing for an empty list.
 - `singleRow` affects home only; `/topics` and `/books` keep their grids.
 - A `HeroBanner` with an unreachable `imageSrc` still renders legibly.
+- Home rows/cards have native navigation semantics, visible state layers on both surfaces, and
+  separate recording actions; focus is never clipped or trapped by the non-modal picker.
+- RhythmArtwork matches the fixed geometry, works offline and stays static/silent. Home uses
+  MonthContext rather than the legacy photograph banner; enlarged shelves retain all items.
 
 ## Change log
 
+- **v7** — Home v5 shared contracts: semantic row/card destinations, readable row UID text,
+  surface-aware state layers, scalable canonical rows, accessible shelves, MonthContext/MonthSongs,
+  static RhythmArtwork and existing Home picker semantics. Retains UID geometry and player/detail
+  behavior; the legacy HeroBanner is no longer Home's art contract.
 - **v6** — Added the **uid chip** contract. The song code was being re-styled per call site (four
   variants across the row, the card, song-detail and the player), so making the player's open-song
   action a uid pill had no rule to conform to. Two variants only — row and detail — plus the

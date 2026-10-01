@@ -1,6 +1,6 @@
 # System — Theme (Gaura / Shyam)
 
-**Spec version:** 3
+**Spec version:** 4
 
 **Figma frames:** `Guar Theme`, `Shyam Theme`, `Colors`, `Components`.
 **Palette values (authoritative):** [`../theme/colors.md`](../theme/colors.md).
@@ -148,9 +148,8 @@ Motion communicates hierarchy, continuity, or state — never decoration.
 - **Expressive motion** for hero transitions, selection changes, playback/activity, and important
   state changes.
 - **Standard motion** for repeated utility interactions.
-- Every screen gets **one** principal expressive focal element. *Today only the player satisfies
-  this*; the other eight screens have no focal element yet and are not conformant on this clause.
-  In the player it is the scrubber:
+- Every screen gets **one** principal expressive focal area; a static composition can supply the
+  emphasis (Home v5). This does not require decorative movement. In the player it is the scrubber:
   **wavy = playing, flat = paused**, morphing between the two rather than switching, so the change
   itself is legible. The play/pause control echoes it (circle → squircle).
 - Accessibility is not traded for expression: a decorative or duplicated indicator clears its
@@ -160,6 +159,37 @@ Motion communicates hierarchy, continuity, or state — never decoration.
 
 On Android these come from `MaterialExpressiveTheme` + `MotionScheme.expressive()`. iOS and Web have
 no such implementation and reproduce the same behavior in their own idiom.
+
+### Utility motion tokens
+
+Home v5 is the first consumer of these shared tokens. They govern custom utility feedback, not
+the player's waveform/shape/appearance or navigation's existing transitions. Commands execute
+immediately; animation never delays playback, navigation or focus.
+
+| Token | Web / custom iOS | Android binding | Use |
+|---|---:|---|---|
+| `instant` | 0 ms | `snap()` | Focus, theme repaint, layout/content replacement, reduced motion |
+| `press` | 90 ms | Stock indication | Press state; optional standalone icon glyph scale to 0.96 on Web/iOS |
+| `release` | 120 ms | Stock indication | Return to rest without overshoot |
+| `hover` | 120 ms | Stock state layer | Surface feedback on hover-capable devices |
+| `selection` | 160 ms | `fastEffectsSpec()` | Current-selection tint/marker |
+| `icon` | 160 ms | `fastEffectsSpec()` | In-place opacity crossfade, e.g. play/pause |
+| `panelEnter` | 180 ms | `defaultEffectsSpec()` for opacity | Custom anchored panel opacity and ≤4-unit translation on Web/iOS |
+| `panelExit` | 120 ms | `fastEffectsSpec()` | Custom anchored panel opacity removal |
+
+Standard easing: `(0.2, 0, 0, 1)`; exit: M3 standard accelerate `(0.3, 0, 1, 1)`;
+icon-only opacity crossfades are linear. Web uses named CSS/motion tokens; custom iOS transitions
+use the equivalent timing curves. Android uses `MaterialTheme.motionScheme` effects specs rather
+than literal millisecond tweens or expressive spatial springs for these utilities; omit custom
+panel translation there. Native ripple/highlight, menus, sheets, navigation, scrolling and system
+status indicators keep their platform behavior. No extra scale on top of Android indication.
+
+Respect Web `prefers-reduced-motion`, iOS Reduce Motion and Android's system animator setting.
+For custom utilities, reduced motion means **instant** state changes: no translation, scale,
+rotation, morph, pulse or animated layout. Keep focus, selection and accessible status visible.
+Button-driven shelf scrolling becomes immediate. Static artwork/loading placeholders never animate;
+Web may show a static loading glyph, while native status indicators retain OS behavior. Component
+state semantics remain intact. This does not retime or redefine the existing player's motion.
 
 ## Theme conformance checklist (polish pass)
 
@@ -179,6 +209,9 @@ All three platforms built the base theme before these were finalized — reconci
 
 ## Change log
 
+- **v4** — Adds shared utility-motion tokens and platform bindings for Home v5, M3 exit easing,
+  immediate focus/reduced-motion behavior and explicit player/navigation ownership. A static
+  focal composition does not require decorative movement. Palette, type and shape scales unchanged.
 - **v3** — Adds the **Spacing** scale (4dp grid, named steps, spacing-not-dimensions). Records that
   the container ramp (`surfaceContainer*`, `surfaceDim/Bright`, `inverseSurface`) must be filled
   from the palette, because Material components read those slots directly and an unset slot falls
