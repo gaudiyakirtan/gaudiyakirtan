@@ -88,11 +88,30 @@ jobs:
             -project gk-ios.xcodeproj -scheme gk-ios \
             -destination 'generic/platform=iOS Simulator' \
             CODE_SIGNING_ALLOWED=NO
-      - run: |
+      - name: Run iOS unit tests
+        timeout-minutes: 10
+        run: |
           xcodebuild test \
             -project gk-ios.xcodeproj -scheme gk-ios \
             -destination 'platform=iOS Simulator,OS=18.5,name=iPhone 16' \
-            -resultBundlePath "$RUNNER_TEMP/gk-ios-tests.xcresult" \
+            -only-testing:gk-iosTests \
+            -parallel-testing-enabled NO \
+            -test-timeouts-enabled YES \
+            -default-test-execution-time-allowance 60 \
+            -maximum-test-execution-time-allowance 120 \
+            CODE_SIGNING_ALLOWED=NO
+      - name: Run iOS UI tests
+        timeout-minutes: 15
+        run: |
+          xcodebuild test \
+            -project gk-ios.xcodeproj -scheme gk-ios \
+            -destination 'platform=iOS Simulator,OS=18.5,name=iPhone 16' \
+            -only-testing:gk-iosUITests \
+            -parallel-testing-enabled NO \
+            -test-timeouts-enabled YES \
+            -default-test-execution-time-allowance 60 \
+            -maximum-test-execution-time-allowance 120 \
+            -resultBundlePath "$RUNNER_TEMP/gk-ios-ui-tests.xcresult" \
             CODE_SIGNING_ALLOWED=NO
       - name: Capture Home screenshots
         if: always()
@@ -109,6 +128,6 @@ jobs:
         with:
           name: ios-home-v7
           path: |
-            ${{ runner.temp }}/gk-ios-tests.xcresult
+            ${{ runner.temp }}/gk-ios-ui-tests.xcresult
             ${{ runner.temp }}/home-ios-gaura.png
             ${{ runner.temp }}/home-ios-shyam.png
