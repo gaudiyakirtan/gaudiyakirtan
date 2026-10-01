@@ -50,7 +50,7 @@ class CalendarRepository private constructor(context: Context) {
     suspend fun getToday(date: LocalDate = LocalDate.now()): CalendarToday? =
         CalendarRepositoryLogic.songsForDate(getCalendar(), date.toString())
 
-    /** The current month's songs, ranked by evidence and with playable songs first. */
+    /** The current month's songs in shipped order, stably partitioned with playable songs first. */
     suspend fun getMonthSongs(
         manifest: List<ManifestEntry>,
         date: LocalDate = LocalDate.now()

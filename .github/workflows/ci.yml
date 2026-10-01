@@ -67,7 +67,9 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
         with: { distribution: temurin, java-version: 21 }
-      - uses: android-actions/setup-android@v3
+      - uses: android-actions/setup-android@v4
+        with:
+          packages: ''
       - run: chmod +x gradlew
       - run: ./gradlew :app:assembleDebug
       - run: ./gradlew :app:testDebugUnitTest
@@ -75,7 +77,7 @@ jobs:
   ios:
     needs: changes
     if: needs.changes.outputs.ios == 'true'
-    runs-on: macos-14
+    runs-on: macos-15
     defaults:
       run:
         working-directory: ios
@@ -84,5 +86,59 @@ jobs:
       - run: |
           xcodebuild build \
             -project gk-ios.xcodeproj -scheme gk-ios \
-            -destination 'platform=iOS Simulator,name=iPhone 15' \
+            -destination 'generic/platform=iOS Simulator' \
             CODE_SIGNING_ALLOWED=NO
+      - name: Run iOS unit tests
+        timeout-minutes: 10
+        run: |
+          xcodebuild test \
+            -project gk-ios.xcodeproj -scheme gk-ios \
+            -destination 'platform=iOS Simulator,OS=18.5,name=iPhone 16' \
+            -only-testing:gk-iosTests \
+            -parallel-testing-enabled NO \
+            -test-timeouts-enabled YES \
+            -default-test-execution-time-allowance 60 \
+            -maximum-test-execution-time-allowance 120 \
+            CODE_SIGNING_ALLOWED=NO
+      - name: Run iOS UI tests
+        timeout-minutes: 15
+        run: |
+          xcodebuild test \
+            -project gk-ios.xcodeproj -scheme gk-ios \
+            -destination 'platform=iOS Simulator,OS=18.5,name=iPhone 16' \
+            -only-testing:gk-iosUITests \
+            -parallel-testing-enabled NO \
+            -test-timeouts-enabled YES \
+            -default-test-execution-time-allowance 60 \
+            -maximum-test-execution-time-allowance 120 \
+            -resultBundlePath "$RUNNER_TEMP/gk-ios-ui-tests.xcresult" \
+            CODE_SIGNING_ALLOWED=NO
+      - name: Capture Home screenshots
+        if: always()
+        run: |
+          device_udid=$(xcrun simctl list devices available |
+            sed -n 's/^[[:space:]]*iPhone 16 (\([^)]*\)).*/\1/p' |
+            head -1)
+          app_path=$(find "$HOME/Library/Developer/Xcode/DerivedData" \
+            -path '*/Build/Products/Debug-iphonesimulator/gk-ios.app' |
+            head -1)
+          test -n "$device_udid"
+          test -n "$app_path"
+          xcrun simctl boot "$device_udid" || true
+          xcrun simctl bootstatus "$device_udid" -b
+          xcrun simctl install "$device_udid" "$app_path"
+          xcrun simctl ui "$device_udid" appearance light
+          xcrun simctl launch --terminate-running-process "$device_udid" gaudiyakirtan.gk-ios
+          sleep 3
+          xcrun simctl io "$device_udid" screenshot "$RUNNER_TEMP/home-ios-gaura.png"
+          xcrun simctl ui "$device_udid" appearance dark
+          sleep 1
+          xcrun simctl io "$device_udid" screenshot "$RUNNER_TEMP/home-ios-shyam.png"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ios-home-v7
+          path: |
+            ${{ runner.temp }}/gk-ios-ui-tests.xcresult
+            ${{ runner.temp }}/home-ios-gaura.png
+            ${{ runner.temp }}/home-ios-shyam.png

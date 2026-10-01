@@ -10,6 +10,8 @@ interface SongsSectionProps {
   gridLayout?: boolean
   limit?: number
   viewAllLink?: string
+  home?: boolean
+  description?: string
 }
 
 export const SongsSection: React.FC<SongsSectionProps> = ({
@@ -19,10 +21,26 @@ export const SongsSection: React.FC<SongsSectionProps> = ({
   gridLayout = false,
   limit,
   viewAllLink,
+  home = false,
+  description,
 }) => {
   if (!songs.length) return null
 
   const displaySongs = limit ? songs.slice(0, limit) : songs
+
+  if (home) return (
+    <section aria-label={title}>
+      <div className="mb-4">
+        <h2 className="text-xl/7 font-semibold">{title}</h2>
+        {description && <p className="text-base/6 text-[var(--secondary)]">{description}</p>}
+      </div>
+      <ul role="list" className="home-recents-grid">
+        {displaySongs.map((song) => <li key={song.uid}>
+          <SongListItem song={song} href={`/songs/${song.uid}`} surface="offset" />
+        </li>)}
+      </ul>
+    </section>
+  )
 
   return (
     <div className="mb-8">

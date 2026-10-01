@@ -13,19 +13,25 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.Job
+import java.time.LocalDate
 
 /**
  * ViewModel for the Home screen.
  * Loads the real, offline-bundled corpus via [SongRepository] -- no more [com.gaudiyakirtan.data.SampleData].
  * Lists (songs/authors) are backed by the lightweight [ManifestEntry]/[Author] catalog rather than
- * full [Song] objects, per docs/data/manifest.md; only the "Featured Song" block loads one full
- * [Song] (by uid), since it needs verses.
+ * full [Song] objects. The featured reading loads N9 with its verses; the v7 featured recommendation
+ * resolves one real recording from the seasonal list, falling back to the bundled manifest.
  */
 class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
     private val repository = SongRepository.getInstance(application)
     private val settingsRepository = SettingsRepository.getInstance(application)
     private val calendarRepository = CalendarRepository.getInstance(application)
+
+    val settings: StateFlow<AppSettings> = settingsRepository.settings
+    private var calendarRefreshJob: Job? = null
+    private var manifestLoaded = false
 
     /** Reader's chosen list-title script (docs/screens/settings.md `listLanguage`). */
     val listLanguage: StateFlow<String> = settingsRepository.settings
@@ -44,6 +50,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     private val _topics = MutableStateFlow<List<SongGroup>>(emptyList())
     private val _books = MutableStateFlow<List<SongGroup>>(emptyList())
     private val _featuredSong = MutableStateFlow<Song?>(null)
+    private val _listenSong = MutableStateFlow<Song?>(null)
     private val _searchQuery = MutableStateFlow("")
     private val _authorNames = MutableStateFlow<Map<String, String>>(emptyMap())
 
@@ -60,6 +67,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     val topics: StateFlow<List<SongGroup>> = _topics
     val books: StateFlow<List<SongGroup>> = _books
     val featuredSong: StateFlow<Song?> = _featuredSong
+    val listenSong: StateFlow<Song?> = _listenSong
     val thisMonth: StateFlow<CalendarToday?> = _thisMonth
     val thisMonthSongs: StateFlow<List<ManifestEntry>> = _thisMonthSongs
     val searchQuery: StateFlow<String> = _searchQuery
@@ -75,10 +83,10 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
         viewModelScope.launch {
             val manifest = repository.getManifest()
             _songs.value = manifest
+            manifestLoaded = true
             // The month overlay resolves against the same manifest, so it rides this load rather
             // than reading the catalog a second time.
-            _thisMonth.value = calendarRepository.getToday()
-            _thisMonthSongs.value = calendarRepository.getMonthSongs(manifest)
+            refreshCalendar()
             _featuredSong.value = repository.getSongByUid(featuredUid)
         }
         viewModelScope.launch {
@@ -87,11 +95,38 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
             _authorNames.value = loadedAuthors.associate { it.uid to it.name }
         }
         viewModelScope.launch {
-            // Book/Topic groupings (docs/data/collections.md `SongGroup`; 93 groups shipped: 19
-            // books + 74 topics). Sections render only when non-empty (see HomeScreen).
+            // Preserve every bundled book/topic destination; empty sections are omitted by Home.
             val groups = repository.getSongGroups()
             _books.value = groups.filter { it.kind == SongGroupKind.BOOK }
             _topics.value = groups.filter { it.kind == SongGroupKind.TOPIC }
+        }
+    }
+
+    /** Resolve context and songs against the same local date; cancel any obsolete clock request. */
+    fun refreshCalendar(date: LocalDate = LocalDate.now()) {
+        // The first resume usually arrives before the manifest: every reference would be
+        // unresolved and read as a false empty month. loadData() refreshes once it lands.
+        if (!manifestLoaded) return
+        calendarRefreshJob?.cancel()
+        calendarRefreshJob = viewModelScope.launch {
+            val today = calendarRepository.getToday(date)
+            val monthSongs = today?.let {
+                com.gaudiyakirtan.data.CalendarRepositoryLogic.monthSongs(it.month, _songs.value)
+            }.orEmpty()
+            _thisMonth.value = today
+            _thisMonthSongs.value = monthSongs
+            // The v7 recommendation follows the same seasonal order, then the bundled manifest.
+            // Verify full audio files rather than treating the manifest flag as a playable take.
+            var suggestion: Song? = null
+            for (entry in (monthSongs + _songs.value).distinctBy { it.uid }) {
+                if (!entry.audioAvailable) continue
+                val song = repository.getSongByUid(entry.uid)
+                if (song != null && song.audioFiles.isNotEmpty()) {
+                    suggestion = song
+                    break
+                }
+            }
+            _listenSong.value = suggestion
         }
     }
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { ISongListing } from '../services/songListingView'
 import { SongsSection } from './SongsSection'
 import { useRecents } from '../utils/useRecents'
@@ -26,12 +26,25 @@ export const RecentlyPlayedSection: React.FC<RecentlyPlayedSectionProps> = ({
   limit = 4,
 }) => {
   const { recents, hydrated } = useRecents()
+  const [catalog, setCatalog] = useState<Record<string, ISongListing>>({})
+  const missing = hydrated && recents.some(({ uid }) => !listingsByUid[uid])
+  useEffect(() => {
+    if (!missing) return
+    const controller = new AbortController()
+    // Reuse the bundled, service-worker-cacheable listing resource. Only history outside the
+    // seasonal subset needs it; no new repository or full-corpus Home page payload.
+    fetch('/search-listings.json', { signal: controller.signal })
+      .then((response) => response.ok ? response.json() : [])
+      .then((listings: ISongListing[]) => setCatalog(Object.fromEntries(listings.map((song) => [song.uid, song]))))
+      .catch(() => { /* unavailable history remains optional */ })
+    return () => controller.abort()
+  }, [missing])
 
   if (!hydrated) return null
 
   // `recents` is already most-recent-first; preserve that order rather than re-sorting.
   const songs = recents
-    .map((entry) => listingsByUid[entry.uid])
+    .map((entry) => listingsByUid[entry.uid] ?? catalog[entry.uid])
     .filter((l): l is ISongListing => Boolean(l))
     .slice(0, limit)
 
@@ -40,6 +53,8 @@ export const RecentlyPlayedSection: React.FC<RecentlyPlayedSectionProps> = ({
     <SongsSection
       songs={songs}
       title="Recently played"
+      description="Songs you recently opened"
+      home
       onSongClick={onSongClick}
       gridLayout={true}
       limit={limit}

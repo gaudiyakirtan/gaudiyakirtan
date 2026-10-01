@@ -15,7 +15,6 @@ import com.gaudiyakirtan.data.SongJson
 import com.gaudiyakirtan.data.TestAssets
 import com.gaudiyakirtan.myapplication.models.Song
 import com.gaudiyakirtan.myapplication.ui.collections.CollectionsScreen
-import com.gaudiyakirtan.myapplication.ui.home.HomeScreen
 import com.gaudiyakirtan.myapplication.ui.library.LibraryScreen
 import com.gaudiyakirtan.myapplication.ui.player.MiniPlayerBar
 import com.gaudiyakirtan.myapplication.ui.player.PlayerScreen
@@ -37,7 +36,7 @@ import org.robolectric.annotation.Config
 import org.robolectric.annotation.GraphicsMode
 
 /**
- * Renders each screen to a PNG under `docs/screenshots/android/`.
+ * Renders each screen to a PNG under `andorid/app/src/test/screenshots/`.
  *
  * These are review artifacts, not assertions — they exist so a reviewer can see what the expressive
  * migration actually looks like in both palettes. No emulator can boot in this environment, so the
@@ -54,7 +53,7 @@ class ScreenshotTest {
     @get:Rule
     val composeRule = createAndroidComposeRule<ComponentActivity>()
 
-    private val outDir = "../../docs/screenshots/android"
+    private val outDir = "src/test/screenshots"
 
     private fun capture(name: String, darkTheme: Boolean, content: @Composable () -> Unit) {
         composeRule.setContent {
@@ -88,8 +87,7 @@ class ScreenshotTest {
         onTrackSelected = {}
     )
 
-    @Test fun `home gaura`() = capture("home", false) { HomeScreen() }
-    @Test fun `home shyam`() = capture("home", true) { HomeScreen() }
+    // Home v5 has deterministic responsive captures in HomeScreenshotTest.
 
     @Test fun `library gaura`() = capture("library", false) { LibraryScreen() }
     @Test fun `library shyam`() = capture("library", true) { LibraryScreen() }
@@ -152,8 +150,4 @@ class ScreenshotTest {
     @Test fun `song with mini player shyam`() =
         capture("song-with-mini-player", true) { WithMiniPlayer { Song() } }
 
-    @Test fun `home with mini player gaura`() =
-        capture("home-with-mini-player", false) { WithMiniPlayer { HomeScreen() } }
-    @Test fun `home with mini player shyam`() =
-        capture("home-with-mini-player", true) { WithMiniPlayer { HomeScreen() } }
 }

@@ -1,30 +1,30 @@
 package com.gaudiyakirtan.myapplication.ui.home
 
-import com.gaudiyakirtan.myapplication.ui.theme.Spacing
-import com.gaudiyakirtan.myapplication.ui.theme.neutral
-
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.rememberScrollState
-import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.*
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.collectAsState
-import androidx.compose.runtime.getValue
-import androidx.compose.ui.Modifier
+import androidx.compose.foundation.lazy.grid.*
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Surface
+import androidx.compose.material3.Text
+import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
-import androidx.compose.ui.draw.clip
+import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.heading
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.text.font.FontSynthesis
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
-import androidx.compose.foundation.background
-import androidx.compose.runtime.remember
 import androidx.lifecycle.viewmodel.compose.viewModel
-import com.gaudiyakirtan.myapplication.models.author
-import com.gaudiyakirtan.myapplication.models.title
+import com.gaudiyakirtan.myapplication.models.*
+import com.gaudiyakirtan.myapplication.ui.components.RowUidChip
 import com.gaudiyakirtan.myapplication.ui.components.SearchBar
 import com.gaudiyakirtan.myapplication.ui.components.VerseView
 import com.gaudiyakirtan.myapplication.ui.sections.*
+import com.gaudiyakirtan.myapplication.ui.theme.DisplayFontFamily
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
+import com.gaudiyakirtan.services.PlayerUiState
 
 @Composable
 fun HomeScreen(
@@ -33,136 +33,161 @@ fun HomeScreen(
     onSearchClick: () -> Unit = {},
     onAuthorClick: (String) -> Unit = {},
     onGroupClick: (String) -> Unit = {},
+    playerUiState: PlayerUiState,
+    onPlaySong: (Song, AudioTrack?) -> Unit,
+    onPlayPause: () -> Unit,
+    onBrowseRecordings: () -> Unit,
     viewModel: HomeViewModel = viewModel()
 ) {
     val songs by viewModel.songs.collectAsState()
     val authors by viewModel.authors.collectAsState()
-    val authorNames by viewModel.authorNames.collectAsState()
     val topics by viewModel.topics.collectAsState()
     val books by viewModel.books.collectAsState()
     val featuredSong by viewModel.featuredSong.collectAsState()
+    val listenSong by viewModel.listenSong.collectAsState()
     val thisMonth by viewModel.thisMonth.collectAsState()
     val thisMonthSongs by viewModel.thisMonthSongs.collectAsState()
-    val searchQuery by viewModel.searchQuery.collectAsState()
-    val listLanguage by viewModel.listLanguage.collectAsState()
+    val settings by viewModel.settings.collectAsState()
+    HomeCalendarRefresh(viewModel)
+    HomeContent(songs, authors, topics, books, featuredSong, thisMonth, thisMonthSongs, settings,
+        onSongClick, onSettingsClick, onSearchClick, onAuthorClick, onGroupClick,
+        listenSong = listenSong, playerUiState = playerUiState, onPlaySong = onPlaySong,
+        onPlayPause = onPlayPause, onBrowseRecordings = onBrowseRecordings)
+}
 
-    Surface(
-        modifier = Modifier.fillMaxSize(),
-        color = MaterialTheme.colorScheme.background
-    ) {
-        Column(
-            modifier = Modifier
-                .fillMaxSize()
-        ) {
-            // Add the search bar at the top
-            SearchBar(
-                searchText = searchQuery,
-                onSearchTextChange = { viewModel.updateSearchQuery(it) },
-                onSettingsClick = onSettingsClick,
-                onSearchClick = onSearchClick,
-                modifier = Modifier.padding(top = Spacing.sm)
-            )
-
-            // Main content with scroll
-            Column(
-                modifier = Modifier
-                    .fillMaxSize()
-                    .verticalScroll(rememberScrollState()),
-                verticalArrangement = Arrangement.spacedBy(Spacing.xl)
-            ) {
-                // Region order follows docs/screens/home.md: the month hero leads (it is the only
-                // region that changes on its own, and the screen's actual recommendation), and
-                // Authors closes. Previously Authors sat second, ahead of Topics and Books.
-
-                // 1. This month -- hidden entirely when today falls outside the calendar's
-                // precomputed window range, rather than showing a wrong month.
-                thisMonth?.let { today ->
-                    ThisMonthSection(
-                        today = today,
-                        songs = thisMonthSongs,
-                        authorNames = authorNames,
-                        listLanguage = listLanguage,
-                        onSongClick = onSongClick
-                    )
-                }
-
-                SongsSection(
-                    songs = songs.take(4),
-                    authorNames = authorNames,
-                    listLanguage = listLanguage,
-                    onSongClick = onSongClick
-                )
-
-                // Empty-state discipline (docs/screens/browse.md): render nothing rather than a
-                // header with no content underneath it.
-                if (topics.isNotEmpty()) {
-                    TopicsSection(topics = topics, onTopicClick = onGroupClick)
-                }
-                if (books.isNotEmpty()) {
-                    BooksSection(books = books, onBookClick = onGroupClick)
-                }
-
-                // Last: Authors.
-                val authorSongCounts = remember(songs) {
-                    songs.groupingBy { it.authorUid }.eachCount()
-                }
-                AuthorsSection(
-                    authors = authors,
-                    songCounts = authorSongCounts,
-                    onAuthorClick = onAuthorClick
-                )
-
-                // Featured Song Section - Exactly like iOS, now backed by the real corpus (song N9)
-                featuredSong?.let { song ->
-                    Column(
-                        horizontalAlignment = Alignment.CenterHorizontally,
-                        modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(horizontal = Spacing.lg)
-                    ) {
-                        Column(
-                            horizontalAlignment = Alignment.CenterHorizontally,
-                            verticalArrangement = Arrangement.spacedBy(Spacing.xs),
-                            modifier = Modifier.padding(top = Spacing.lg)
-                        ) {
-                            Text(
-                                text = song.title,
-                                fontSize = 28.sp,
-                                color = MaterialTheme.colorScheme.primary, // Highlight color
-                                textAlign = TextAlign.Center
-                            )
-
-                            Text(
-                                text = song.author,
-                                fontSize = 16.sp,
-                                fontWeight = FontWeight.Normal,
-                                color = MaterialTheme.colorScheme.onBackground, // Match iOS primaryText color
-                                textAlign = TextAlign.Center
-                            )
-
-                            Text(
-                                text = song.uid,
-                                fontSize = 10.sp,
-                                fontWeight = FontWeight.Medium,
-                                color = MaterialTheme.colorScheme.neutral,
-                                modifier = Modifier
-                                    .clip(MaterialTheme.shapes.small)
-                                    .background(MaterialTheme.colorScheme.neutral.copy(alpha = 0.25f))
-                                    .padding(horizontal = Spacing.md, vertical = Spacing.xxs)
-                            )
+/**
+ * V7 Singing Page: one recommended song → season/repertoire → native Songs → discovery → N9.
+ * AppNavigation supplies measured Scaffold insets for the shared player, tabs and safe areas.
+ * One bounded lazy feed retains semantic order at every width; no nested vertical scrollers.
+ */
+@Composable
+fun HomeContent(
+    songs: List<ManifestEntry> = emptyList(),
+    authors: List<Author> = emptyList(),
+    topics: List<SongGroup> = emptyList(),
+    books: List<SongGroup> = emptyList(),
+    featuredSong: Song? = null,
+    thisMonth: CalendarToday? = null,
+    thisMonthSongs: List<ManifestEntry> = emptyList(),
+    settings: AppSettings = AppSettings(),
+    onSongClick: (String) -> Unit = {},
+    onSettingsClick: () -> Unit = {},
+    onSearchClick: () -> Unit = {},
+    onAuthorClick: (String) -> Unit = {},
+    onGroupClick: (String) -> Unit = {},
+    gridState: LazyGridState = rememberLazyGridState(),
+    listenSong: Song? = null,
+    playerUiState: PlayerUiState = PlayerUiState(),
+    onPlaySong: (Song, AudioTrack?) -> Unit = { _, _ -> },
+    onPlayPause: () -> Unit = {},
+    onBrowseRecordings: () -> Unit = {}
+) {
+    val authorNames = remember(authors, settings.listLanguage) {
+        authors.associate { it.uid to it.names.preferredText(settings.listLanguage) }
+    }
+    val authorSongCounts = remember(songs) { songs.groupingBy { it.authorUid }.eachCount() }
+    val previewAuthors = remember(authors, authorSongCounts) {
+        authors.filter { it.uid != "?" }
+            .sortedByDescending { authorSongCounts[it.uid] ?: 0 }
+            .take(4)
+    }
+    Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
+        BoxWithConstraints(Modifier.fillMaxSize()) {
+            val enlarged = LocalDensity.current.fontScale >= 1.5f
+            val columns = if (maxWidth >= 600.dp && !enlarged) 2 else 1
+            Column(Modifier.widthIn(max = 840.dp).fillMaxSize().align(Alignment.TopCenter)
+                .padding(horizontal = Spacing.lg)) {
+                HomeBrand()
+                SearchBar("", {}, onSettingsClick, onSearchClick = onSearchClick)
+                LazyVerticalGrid(
+                    columns = GridCells.Fixed(columns),
+                    state = gridState,
+                    modifier = Modifier.weight(1f).testTag("home-feed"),
+                    horizontalArrangement = Arrangement.spacedBy(Spacing.lg),
+                    verticalArrangement = Arrangement.spacedBy(Spacing.xs),
+                    // The parent reserves actual player + tabs + safe areas, including their
+                    // large-font heights. Clearance also keeps the final focus outline visible.
+                    contentPadding = PaddingValues(top = Spacing.xs, bottom = Spacing.xl + Spacing.lg)
+                ) {
+                    item(key = "listen", span = { GridItemSpan(maxLineSpan) }) {
+                        HomeListenCard(listenSong, playerUiState, settings.listLanguage, onSongClick,
+                            onPlaySong, onPlayPause, onBrowseRecordings)
+                    }
+                    if (thisMonth != null) {
+                        item(key = "seasonal", span = { GridItemSpan(maxLineSpan) }) {
+                            MonthContext(thisMonth, Modifier.padding(top = Spacing.md), thisMonthSongs.size)
                         }
-
-                        // Verses
-                        song.verses.forEach { verse ->
-                            VerseView(verse = verse)
-                            // Removed Box wrapper with padding to match iOS implementation
+                        item(key = "seasonal-songs", span = { GridItemSpan(maxLineSpan) }) {
+                            MonthSongs(thisMonthSongs, authorNames, settings.listLanguage, onSongClick,
+                                Modifier.padding(top = Spacing.sm))
+                        }
+                    }
+                    if (songs.isNotEmpty()) {
+                        item(key = "songs-gap", span = { GridItemSpan(maxLineSpan) }) { Spacer(Modifier.height(Spacing.lg)) }
+                        songsSection(songs.take(4), authorNames, settings.listLanguage, onSongClick)
+                    }
+                    if (books.isNotEmpty()) {
+                        item(key = "books", span = { GridItemSpan(maxLineSpan) }) {
+                            Box(Modifier.padding(top = Spacing.xl)) {
+                                HomeBooks(books, settings.listLanguage, enlarged, onGroupClick)
+                            }
+                        }
+                    }
+                    if (previewAuthors.isNotEmpty()) {
+                        item(key = "authors", span = { GridItemSpan(maxLineSpan) }) {
+                            Box(Modifier.padding(top = Spacing.xl)) {
+                                HomeAuthors(previewAuthors, authorSongCounts, settings.listLanguage, onAuthorClick)
+                            }
+                        }
+                    }
+                    if (topics.isNotEmpty()) {
+                        item(key = "topics", span = { GridItemSpan(maxLineSpan) }) {
+                            Box(Modifier.padding(top = Spacing.xl)) {
+                                HomeTopics(topics, settings.listLanguage, onGroupClick)
+                            }
+                        }
+                    }
+                    if (featuredSong != null) {
+                        item(key = "featured", span = { GridItemSpan(maxLineSpan) }) {
+                            ReadingColumn(Modifier.padding(top = Spacing.xl).testTag("featured-reading")) {
+                                Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally,
+                                    verticalArrangement = Arrangement.spacedBy(Spacing.xs)) {
+                                    Text(featuredSong.titleMain.preferredText(settings.displayScript),
+                                        style = MaterialTheme.typography.titleLarge,
+                                        color = MaterialTheme.colorScheme.onSurface,
+                                        textAlign = TextAlign.Center)
+                                    Text(featuredSong.authorDisplay.preferredText(settings.displayScript),
+                                        style = MaterialTheme.typography.bodyLarge,
+                                        color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                        textAlign = TextAlign.Center)
+                                    RowUidChip(featuredSong.uid)
+                                }
+                            }
+                        }
+                        itemsIndexed(featuredSong.verses, key = { index, _ -> "featured-verse-$index" },
+                            span = { _, _ -> GridItemSpan(maxLineSpan) }) { index, verse ->
+                            ReadingColumn(Modifier.testTag("featured-verse-$index")) {
+                                VerseView(verse, settings)
+                            }
                         }
                     }
                 }
-
-                // Add padding at the bottom
-                Spacer(modifier = Modifier.height(Spacing.xxl))
             }
         }
     }
+}
+
+@Composable
+private fun ReadingColumn(modifier: Modifier = Modifier, content: @Composable () -> Unit) {
+    Box(modifier.fillMaxWidth(), contentAlignment = Alignment.TopCenter) {
+        Column(Modifier.widthIn(max = 680.dp).fillMaxWidth()) { content() }
+    }
+}
+
+@Composable
+private fun HomeBrand() {
+    Text("Śrī Gaudiya Kirtan", style = MaterialTheme.typography.headlineSmall.copy(
+        fontFamily = DisplayFontFamily, fontWeight = FontWeight.Normal, fontSynthesis = FontSynthesis.None),
+        color = MaterialTheme.colorScheme.onSurface,
+        modifier = Modifier.padding(horizontal = Spacing.xs, vertical = Spacing.sm).semantics { heading() })
 }

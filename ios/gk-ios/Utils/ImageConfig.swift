@@ -9,6 +9,9 @@ import Foundation
 /// the bucket today — so every URL this type returns is a *best-effort guess*, and callers must
 /// always degrade gracefully (an `AsyncImage` placeholder), never crash or block on the load.
 enum ImageConfig {
+    /// Exact book UID assets copied from Web's shipped cover gallery; available offline.
+    static func bundledBookCoverName(forUid uid: String) -> String { "cover-\(uid)" }
+
     /// The public `gaudiyakirtan` S3 bucket root — same host as `AudioConfig.audioBaseURL`, no auth.
     static let imageBaseURL = "https://gaudiyakirtan.s3.amazonaws.com/"
 

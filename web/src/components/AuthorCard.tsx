@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { IAuthorListing } from '../services/authorRepository'
 import { pickScriptText } from '../services/textDisplay'
 import { useSettings } from '../utils/SettingsContext'
@@ -6,13 +7,24 @@ import { useSettings } from '../utils/SettingsContext'
 interface AuthorCardProps {
   listing: IAuthorListing
   onClick?: () => void
+  shelf?: boolean
 }
 
-export const AuthorCard: React.FC<AuthorCardProps> = ({ listing, onClick }) => {
+export const AuthorCard: React.FC<AuthorCardProps> = ({ listing, onClick, shelf = false }) => {
   // Author names ship as list<ScriptText> just like song titles, so browse screens honor the
   // reader's `listLanguage` here too (docs/screens/browse.md "Titles honor listLanguage").
   const { settings } = useSettings()
   const name = pickScriptText(listing.author.names, [settings.listLanguage, 'Latn', 'Beng'])
+
+  if (shelf) return (
+    <Link href={`/songs?author=${encodeURIComponent(listing.author.uid)}`} className="home-browse-card home-author-card utility-target">
+      <span className="home-author-portrait" aria-hidden="true">{name.charAt(0)}</span>
+      <span className="min-w-0">
+        <span className="block text-sm/5 font-medium">{name}</span>
+        <span className="block text-sm/5 text-[var(--tertiary)]">{listing.songCount} songs</span>
+      </span>
+    </Link>
+  )
 
   return (
     <div

@@ -19,6 +19,16 @@ import {
   Settings,
   Info,
   Mail,
+  ArrowLeft,
+  ArrowRight,
+  Play,
+  Pause,
+  Loader2,
+  Search,
+  RotateCcw,
+  Ellipsis,
+  ChevronUp,
+  Check,
   type LucideProps,
 } from 'lucide-react'
 
@@ -46,3 +56,13 @@ export const SpeakerIcon = make(Volume2)
 export const SettingsIcon = make(Settings)
 export const InfoIcon = make(Info)
 export const MailIcon = make(Mail)
+export const ArrowLeftIcon = make(ArrowLeft)
+export const ArrowRightIcon = make(ArrowRight)
+export const PlayIcon = make(Play)
+export const PauseIcon = make(Pause)
+export const LoadingIcon = make(Loader2)
+export const SearchIcon = make(Search)
+export const RetryIcon = make(RotateCcw)
+export const PendingIcon = make(Ellipsis)
+export const ChevronUpIcon = make(ChevronUp)
+export const CheckIcon = make(Check)

@@ -3,143 +3,118 @@ import SwiftUI
 struct HomeView: View {
     @StateObject private var viewModel = HomeViewModel()
     @EnvironmentObject private var readerSettings: ReaderSettings
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
     var body: some View {
-        ScrollView {
-            // Use custom spacing for different sections
-            VStack(spacing: 0) {
-                // Header with mridanga icon, search bar, and settings button
-                HStack(spacing: 12) {
-                    // Mridanga SVG icon
-                    Image("mridanga")
-                        .resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(width: 28, height: 28)
-                        .foregroundColor(Color("highlight"))
-
-                    // Search affordance → the dedicated Search screen (search.md: the Home search
-                    // bar "navigates/expands into this screen" rather than filtering in place).
-                    NavigationLink(destination: SearchView(autofocus: true)) {
-                        SearchBarButton()
+        GeometryReader { geometry in
+            let layout = HomeLayout(availableWidth: geometry.size.width,
+                                    accessibilitySize: dynamicTypeSize >= .xxxLarge)
+            ScrollView {
+                LazyVStack(alignment: .leading, spacing: layout.moduleGap) {
+                    header
+                    HomeListenCard(fallbackSong: viewModel.listeningSong)
+                    HomeBooksRail(books: viewModel.previewBooks, layout: layout)
+                    songPreview
+                    HomeAuthorsList(authors: viewModel.previewAuthors, songCount: viewModel.songCount(for:))
+                    if !viewModel.previewTopics.isEmpty {
+                        HomeTopicsLinks(topics: viewModel.previewTopics)
                     }
-                    .buttonStyle(PlainButtonStyle())
-                    .frame(maxWidth: .infinity)
-
-                    // Settings button
-                    Button(action: {
-                        viewModel.showSettings = true
-                    }) {
-                        Image(systemName: "gearshape.fill")
-                            .foregroundColor(Color.neutral)
-                            .font(.system(size: 20))
+                    if let song = viewModel.featuredSong {
+                        featuredReading(song)
                     }
                 }
-                .padding(.horizontal)
-                .padding(.top, 8)
-                .padding(.bottom, 12)
-
-                // Songs section with no bottom padding
-                SongsGridView(songs: filteredSongs)
-                    .padding(.horizontal)
-                    .padding(.bottom, 8) // Reduced padding between songs and authors
-
-                // Other sections with consistent spacing
-                AuthorsScrollView(authors: filteredAuthors)
-                    .padding(.vertical, 8)
-
-                // No topic/book data ships in the current corpus (browse.md "Empty groupings") — on
-                // this overview screen, hide the section entirely rather than show a header over
-                // nothing; they light up automatically once song_groups.json ships real data.
-                if !filteredTopics.isEmpty {
-                    TopicsScrollView(topics: filteredTopics)
-                        .padding(.vertical, 8)
-                }
-
-                if !filteredBooks.isEmpty {
-                    BooksScrollView(books: filteredBooks)
-                        .padding(.vertical, 8)
-                }
-
-                // Featured verse section
-                if let featuredSong = viewModel.featuredSong {
-                    VStack(alignment: .center) {
-                        VStack(alignment: .center, spacing: 4) {
-                            Text(featuredSong.title)
-                                .font(.system(size: 28))
-                                .foregroundColor(Color.highlight)
-
-                            Text(featuredSong.author)
-                                .fontWeight(.regular)
-                                .foregroundColor(Color("primaryText"))
-
-                            Text(featuredSong.uid)
-                                .font(.system(size: 10, weight: .medium))
-                                .foregroundColor(Color.neutral)
-                                .padding(.horizontal, 10)
-                                .padding(.vertical, 2)
-                                .background(Color.neutral.opacity(0.25))
-                                .cornerRadius(11)
-                                .lineLimit(1)
-                                .fixedSize()
-                        }
-                        .padding(.top, 16)
-
-                        ForEach(featuredSong.verses) { verse in
-                            VerseView(verse: verse, options: readerSettings.verseOptions())
-                                .padding(.vertical)
-                                .padding(.horizontal)
-                        }
-                    }
-                    .padding(.bottom)
-                }
+                .frame(width: layout.contentWidth)
+                .padding(.horizontal, layout.gutter)
+                .frame(maxWidth: .infinity)
+                .padding(.top, HomeSpacing.lg)
+                // AppNavigation's safeAreaInset measures the player; TabView reserves native
+                // navigation. Add clearance inside that unobscured viewport, not a guessed bar height.
+                .padding(.bottom, HomeSpacing.xl + HomeSpacing.lg)
             }
+            .accessibilityIdentifier("home.scroll")
         }
+        .background(Color.background.ignoresSafeArea())
         .sheet(isPresented: $viewModel.showSettings) {
             SettingsSheet(isPresented: $viewModel.showSettings, settings: readerSettings)
         }
     }
 
-    // Filtered data based on search text
-    var filteredSongs: [ManifestEntry] {
-        if viewModel.searchText.isEmpty {
-            return viewModel.songs
-        } else {
-            return viewModel.songs.filter { entry in
-                entry.displayTitle.localizedCaseInsensitiveContains(viewModel.searchText) ||
-                SongRepository.shared.authorDisplayName(forUid: entry.authorUid)
-                    .localizedCaseInsensitiveContains(viewModel.searchText)
+    @ViewBuilder
+    private var songPreview: some View {
+        if !viewModel.previewSongs.isEmpty {
+            HomeSongPreview(songs: viewModel.previewSongs)
+        }
+    }
+
+    private var header: some View {
+        VStack(alignment: .leading, spacing: HomeSpacing.md) {
+            brandTitle
+                .padding(HomeSpacing.xs) // Keep the display face's ink clear of its em box.
+                .accessibilityIdentifier("home.brand")
+
+            HStack(alignment: .top, spacing: HomeSpacing.md) {
+                NavigationLink(destination: SearchView(autofocus: true)) {
+                    HStack(spacing: HomeSpacing.md) {
+                        HomeSearchSymbol()
+                        Text("Search songs or authors")
+                            .foregroundStyle(Color.primaryText)
+                            .fixedSize(horizontal: false, vertical: true)
+                        Spacer(minLength: 0)
+                    }
+                    .font(.body)
+                    .padding(.horizontal, HomeSpacing.md)
+                    .padding(.vertical, HomeSpacing.sm)
+                    .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
+                }
+                .buttonStyle(HomeControlStyle(surface: .clear, outlined: true))
+                .accessibilityIdentifier("home.search")
+
+                Button { viewModel.showSettings = true } label: {
+                    Image(systemName: "gearshape")
+                        .font(.title3)
+                        .foregroundStyle(Color.primaryText)
+                        .frame(minWidth: 44, minHeight: 44)
+                }
+                .buttonStyle(HomeControlStyle(surface: .clear, bordered: false, standalone: true))
+                .accessibilityLabel("Settings")
+                .accessibilityIdentifier("home.settings")
             }
         }
     }
 
-    var filteredAuthors: [Author] {
-        if viewModel.searchText.isEmpty {
-            return viewModel.authors
-        } else {
-            return viewModel.authors.filter { author in
-                author.name.localizedCaseInsensitiveContains(viewModel.searchText)
-            }
-        }
+    private var brandTitle: some View {
+        Text("Śrī Gaudiya Kirtan")
+            .font(.brandDisplay(size: 28, relativeTo: .title))
+            .foregroundStyle(Color.primaryText)
+            .fixedSize(horizontal: false, vertical: true)
+            .accessibilityAddTraits(.isHeader)
     }
 
-    var filteredTopics: [Topic] {
-        if viewModel.searchText.isEmpty {
-            return viewModel.topics
-        } else {
-            return viewModel.topics.filter { topic in
-                topic.name.localizedCaseInsensitiveContains(viewModel.searchText)
+    private func featuredReading(_ song: Song) -> some View {
+        VStack(alignment: .leading, spacing: HomeSpacing.lg) {
+            HomeSectionHeading(title: "Featured reading")
+            VStack(spacing: HomeSpacing.xs) {
+                Text(song.title(inScript: readerSettings.scriptCode))
+                    .font(.title2.weight(.semibold))
+                    .foregroundStyle(Color.primaryText)
+                    .accessibilityAddTraits(.isHeader)
+                Text(song.author(inScript: readerSettings.scriptCode))
+                    .font(.subheadline)
+                    .foregroundStyle(Color.secondaryText)
+                RowUidChip(uid: song.uid)
             }
-        }
-    }
+            .multilineTextAlignment(.center)
+            .frame(maxWidth: .infinity)
 
-    var filteredBooks: [Book] {
-        if viewModel.searchText.isEmpty {
-            return viewModel.books
-        } else {
-            return viewModel.books.filter { book in
-                book.title.localizedCaseInsensitiveContains(viewModel.searchText) ||
-                (book.author?.localizedCaseInsensitiveContains(viewModel.searchText) ?? false)
+            ForEach(song.verses) { verse in
+                VerseView(verse: verse, options: readerSettings.verseOptions(), homeReading: true)
+                    .padding(.vertical, HomeSpacing.sm)
+                    .accessibilityIdentifier("home.featured.verse.\(verse.id)")
             }
         }
+        .frame(maxWidth: 680)
+        .frame(maxWidth: .infinity)
+        .accessibilityElement(children: .contain)
+        .accessibilityIdentifier("home.featured")
     }
 }

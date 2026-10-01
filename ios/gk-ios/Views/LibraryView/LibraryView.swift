@@ -1,7 +1,13 @@
 import SwiftUI
 
 struct LibraryView: View {
-    @StateObject private var viewModel = LibraryViewModel()
+    @StateObject private var viewModel: LibraryViewModel
+
+    init(initialCategory: LibraryViewModel.Category = .authors) {
+        let model = LibraryViewModel()
+        model.selectedCategory = initialCategory
+        _viewModel = StateObject(wrappedValue: model)
+    }
     
     var body: some View {
         VStack(spacing: 16) {

@@ -118,8 +118,8 @@ final class SongRepository {
     /// back to the raw uid, which for most of this corpus's authors *is* already a readable name
     /// (the pipeline used full author names as uids in many cases; only a handful, like "bt"/"ldt",
     /// are short codes).
-    func authorDisplayName(forUid uid: String) -> String {
-        authors().first(where: { $0.uid == uid })?.name ?? uid
+    func authorDisplayName(forUid uid: String, inScript scriptCode: String = "Latn") -> String {
+        authors().first(where: { $0.uid == uid })?.name(inScript: scriptCode) ?? uid
     }
 
     // MARK: - Song groups (docs/data/collections.md)
@@ -138,6 +138,12 @@ final class SongRepository {
             return []
         }
         return all.filter { $0.kind == kind }
+    }
+
+    /// Ordered group navigation uses only the Manifest, retaining every resolvable member.
+    func manifestEntries(forUids uids: [String]) -> [ManifestEntry] {
+        let byUid = Dictionary(uniqueKeysWithValues: manifest.map { ($0.uid, $0) })
+        return uids.compactMap { byUid[$0] }
     }
 }
 

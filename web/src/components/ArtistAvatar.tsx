@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { artistImageUrlFor } from '../config'
 import { IAudioTrack } from '../models/Song'
 import { MusicNote } from './icons/MusicNote'
+import { ChevronDownIcon, ChevronUpIcon } from './icons/SidebarIcons'
 
 /**
  * A round, ringed singer photo with a graceful music-note fallback.
@@ -75,6 +76,10 @@ interface IRecordingPickerButtonProps {
    */
   ariaExpanded?: boolean
   avatarSize?: number
+  buttonRef?: React.Ref<HTMLButtonElement>
+  ariaControls?: string
+  home?: boolean
+  current?: boolean
 }
 
 /**
@@ -89,20 +94,27 @@ export const RecordingPickerButton: React.FC<IRecordingPickerButtonProps> = ({
   ariaLabel = 'Choose recording',
   ariaExpanded,
   avatarSize = 20,
+  buttonRef,
+  ariaControls,
+  home = false,
+  current = false,
 }) => {
   const faces = distinctArtistTracks(tracks)
   return (
     <button
       type="button"
+      ref={buttonRef}
       onClick={onClick}
       aria-label={ariaLabel}
       // Hover tooltip parity with the rest of the player's controls; names the reciter count so it
       // reads as "pick a different singer", not just "a menu".
       title={`${ariaLabel} (${tracks.length})`}
       aria-expanded={ariaExpanded}
-      className={`flex h-8 items-center gap-1.5 rounded-full px-2 transition-colors ${open ? 'bg-[var(--highlight)]/15' : 'hover:bg-[var(--background)]'}`}
+      aria-controls={ariaControls}
+      data-current={current || undefined}
+      className={home ? 'home-recording-trigger utility-target' : `flex h-8 items-center gap-1.5 rounded-full px-2 transition-colors ${open ? 'bg-[var(--highlight)]/15' : 'hover:bg-[var(--background)]'}`}
     >
-      <span className="flex items-center">
+      <span className="flex items-center" aria-hidden="true">
         {faces.map((t, i) => (
           // Negative margin overlaps the faces; descending z-index so the first sits on top.
           <span key={t.uid} className={`relative ${i === 0 ? '' : '-ml-2'}`} style={{ zIndex: faces.length - i }}>
@@ -110,7 +122,12 @@ export const RecordingPickerButton: React.FC<IRecordingPickerButtonProps> = ({
           </span>
         ))}
       </span>
-      <span className={`text-[11px] font-semibold ${open ? 'text-[var(--highlight)]' : 'text-[var(--neutral)]'}`}>{tracks.length}</span>
+      <span aria-hidden={home || undefined} className={home ? 'text-sm/5 text-[var(--secondary)]' : `text-[11px] font-semibold ${open ? 'text-[var(--highlight)]' : 'text-[var(--neutral)]'}`}>{tracks.length}</span>
+      {home && current && <span className="sr-only">Current recording</span>}
+      {home && <span className="home-disclosure" aria-hidden="true">
+        <ChevronDownIcon size={12} className="home-disclosure-down" />
+        <ChevronUpIcon size={12} className="home-disclosure-up" />
+      </span>}
     </button>
   )
 }

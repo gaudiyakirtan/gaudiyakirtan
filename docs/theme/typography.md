@@ -1,12 +1,12 @@
 # Typography — the 5th Avenue brand face
 
-**Spec version:** 1
+**Spec version:** 2
 
 ## Purpose
 
-One brand display face — **5th Avenue** (a Didone) — used **only** for the wordmark and the Home
-welcome heading; everything else uses the platform UI sans. This doc records how the face ships per
-platform and the one rule that keeps it legible.
+One brand display face — **5th Avenue** (a Didone) — used for the wordmark, the Home heading, and
+Home's featured title when the selected list script is Latin. Everything else uses the platform UI
+sans. This doc records how the face ships per platform and the one rule that keeps it legible.
 
 ## The face
 
@@ -24,8 +24,9 @@ platform and the one rule that keeps it legible.
 The face **ships Regular only.** A `bold` / `font-semibold` class triggers a **synthetic (faux)
 bold**, which smears a high-contrast Didone. So wherever the display face is used, weight must stay
 **`font-normal`** — a correctness constraint, not a style preference. Consumers:
-[`BrandWordmark`](../screens/components.md) (sidebar / header / 404) and the Home "Śrī Gaudiya Kirtan"
-heading.
+[`BrandWordmark`](../screens/components.md) (sidebar / header / 404), the Home "Śrī Gaudiya Kirtan"
+heading, and Home's featured title only when `listLanguage == Latn`. Native-script titles always
+use the script-capable system face.
 
 ## App icons & favicons
 
@@ -51,6 +52,7 @@ which left it floating on whatever colour the browser tab happened to be; the wi
 
 ## Change log
 
+- **v2** — Allows the Home v7 featured title in the display face for Latin-script content only.
 - **v1** — Initial spec: the 5th Avenue face (`--font-display`, woff2 + ttf, per-platform
   registration incl. the Android rename and iOS app-target-only plist key), the `font-normal`
   faux-bold rule, and the brand-derived favicon / app-icon set.

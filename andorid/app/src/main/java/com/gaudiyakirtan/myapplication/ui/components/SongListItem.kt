@@ -1,25 +1,26 @@
 package com.gaudiyakirtan.myapplication.ui.components
 
-import com.gaudiyakirtan.myapplication.ui.theme.Spacing
-import com.gaudiyakirtan.myapplication.ui.theme.neutral
-
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
-import androidx.compose.material3.*
+import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalDensity
+import androidx.compose.ui.semantics.clearAndSetSemantics
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.stateDescription
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import com.gaudiyakirtan.myapplication.ui.components.icons.MusicNote
+import com.gaudiyakirtan.myapplication.ui.theme.Spacing
+import com.gaudiyakirtan.myapplication.ui.theme.neutral
 
-/**
- * A list item for displaying songs in a single column layout (Library view Songs tab).
- * Driven by the lightweight list fields a
- * [com.gaudiyakirtan.myapplication.models.ManifestEntry] carries -- see [SongCard]'s doc comment.
- */
+/** The same scalable title + UID / credit + audio anatomy on Home and every song list. */
+@OptIn(ExperimentalLayoutApi::class)
 @Composable
 fun SongListItem(
     uid: String,
@@ -27,81 +28,67 @@ fun SongListItem(
     authorName: String,
     audioAvailable: Boolean,
     onClick: () -> Unit = {},
-    modifier: Modifier = Modifier
+    modifier: Modifier = Modifier,
+    containerColor: Color = MaterialTheme.colorScheme.surface
 ) {
-    val neutralColor = MaterialTheme.colorScheme.neutral
-
-    Surface(
-        modifier = modifier
-            .fillMaxWidth()
-            .height(56.dp)
-            .clip(MaterialTheme.shapes.medium),
-        color = MaterialTheme.colorScheme.surface,
-        onClick = onClick
+    // Two lines only at default size; any enlarged text shows the complete title and credit.
+    val enlarged = LocalDensity.current.fontScale > 1f
+    NavigationSurface(
+        onClick = onClick,
+        modifier = modifier.fillMaxWidth().heightIn(min = 56.dp).semantics {
+            if (audioAvailable) stateDescription = "Audio available"
+        },
+        shape = MaterialTheme.shapes.small,
+        color = containerColor
     ) {
         Column(
-            modifier = Modifier.padding(horizontal = Spacing.md, vertical = Spacing.xs)
+            modifier = Modifier.padding(horizontal = Spacing.md, vertical = Spacing.sm),
+            verticalArrangement = Arrangement.spacedBy(Spacing.xxs)
         ) {
-            // Title and UID row
-            Row(
-                verticalAlignment = Alignment.CenterVertically,
-                modifier = Modifier.padding(top = Spacing.xs)
+            // Flow as a single title group: a long title may put the UID on the next line.
+            // Ellipsis is visual only; Text retains the full title in native semantics.
+            FlowRow(
+                horizontalArrangement = Arrangement.spacedBy(Spacing.sm),
+                verticalArrangement = Arrangement.spacedBy(Spacing.xs)
             ) {
                 Text(
                     text = title,
-                    style = MaterialTheme.typography.bodyLarge.copy(
-                        color = MaterialTheme.colorScheme.primary,
-                        fontSize = 14.sp
-                    ),
-                    maxLines = 1,
-                    overflow = TextOverflow.Ellipsis,
-                    modifier = Modifier.weight(1f, fill = false)
+                    style = MaterialTheme.typography.titleSmall,
+                    color = MaterialTheme.colorScheme.onSurface,
+                    maxLines = if (enlarged) Int.MAX_VALUE else 2,
+                    overflow = TextOverflow.Ellipsis
                 )
-
-                Spacer(modifier = Modifier.width(Spacing.sm))
-
-                // UID tag
-                Box(
-                    modifier = Modifier
-                        .clip(MaterialTheme.shapes.small)
-                        .background(neutralColor.copy(alpha = 0.25f))
-                        .padding(horizontal = Spacing.md, vertical = Spacing.xxs)
-                ) {
-                    Text(
-                        text = uid,
-                        style = MaterialTheme.typography.labelSmall.copy(
-                            color = neutralColor,
-                            fontSize = 10.sp,
-                            fontWeight = androidx.compose.ui.text.font.FontWeight.Medium
-                        )
-                    )
-                }
+                RowUidChip(uid)
             }
-
-            // Author and audio icon row
             Row(
                 verticalAlignment = Alignment.CenterVertically,
-                horizontalArrangement = Arrangement.spacedBy(Spacing.sm),
-                modifier = Modifier.padding(bottom = Spacing.xs, top = Spacing.xxs)
+                horizontalArrangement = Arrangement.spacedBy(Spacing.sm)
             ) {
                 Text(
                     text = authorName,
-                    style = MaterialTheme.typography.bodyMedium.copy(
-                        color = neutralColor,
-                        fontSize = 14.sp
-                    ),
-                    maxLines = 1,
+                    style = MaterialTheme.typography.bodyMedium,
+                    color = MaterialTheme.colorScheme.onSurfaceVariant,
+                    maxLines = if (enlarged) Int.MAX_VALUE else 2,
                     overflow = TextOverflow.Ellipsis,
                     modifier = Modifier.weight(1f, fill = false)
                 )
-
                 if (audioAvailable) {
-                    MusicNote(
-                        modifier = Modifier.size(12.dp),
-                        color = neutralColor
-                    )
+                    MusicNote(Modifier.size(16.dp).clearAndSetSemantics { }, MaterialTheme.colorScheme.onSurfaceVariant)
                 }
             }
         }
     }
+}
+
+/** Non-actionable row variant. Detail/player chips keep their own existing contract. */
+@Composable
+fun RowUidChip(uid: String, modifier: Modifier = Modifier) {
+    Text(
+        text = uid.uppercase(),
+        style = MaterialTheme.typography.labelSmall,
+        color = MaterialTheme.colorScheme.onSurfaceVariant,
+        modifier = modifier.clip(MaterialTheme.shapes.small)
+            .background(MaterialTheme.colorScheme.neutral.copy(alpha = 0.2f))
+            .padding(horizontal = Spacing.md, vertical = Spacing.xxs)
+    )
 }

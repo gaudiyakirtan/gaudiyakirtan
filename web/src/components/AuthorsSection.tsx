@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { IAuthorListing } from '../services/authorRepository'
 import { AuthorCard } from './AuthorCard'
+import { HomeShelf } from './HomeShelf'
 
 interface AuthorsSectionProps {
   authors: IAuthorListing[]
@@ -26,6 +27,10 @@ export const AuthorsSection: React.FC<AuthorsSectionProps> = ({
   if (!authors.length) return null
 
   const displayAuthors = limit ? authors.slice(0, limit) : authors
+
+  if (singleRow) return <HomeShelf title={title} viewAllLink={viewAllLink} kind="authors">
+    {displayAuthors.map((listing) => <li key={listing.author.uid}><AuthorCard listing={listing} shelf /></li>)}
+  </HomeShelf>
 
   return (
     <div className={className}>

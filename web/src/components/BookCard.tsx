@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Link from 'next/link'
 import { ISongGroup } from '../models/Collections'
 import { getMediaColor } from '../utils/colors'
 import { pickScriptText } from '../services/textDisplay'
@@ -9,6 +10,7 @@ interface BookCardProps {
   onClick?: () => void
   className?: string
   compactSize?: boolean
+  shelf?: boolean
 }
 
 /**
@@ -22,6 +24,7 @@ export const BookCard: React.FC<BookCardProps> = ({
   onClick,
   className = '',
   compactSize = false,
+  shelf = false,
 }) => {
   const { settings } = useSettings()
   // Title in the reader's List-language (matching song titles/authors); the color seed stays on the
@@ -29,6 +32,19 @@ export const BookCard: React.FC<BookCardProps> = ({
   const title = pickScriptText(book.titles, [settings.listLanguage, 'Latn', 'Beng'])
   const backgroundColor = book.color || getMediaColor(pickScriptText(book.titles, ['Latn', 'Beng']))
   const [coverFailed, setCoverFailed] = useState(false)
+
+  if (shelf) return (
+    <Link href={`/books/${book.uid}`} className="home-browse-card home-book-card utility-target">
+      <span className="home-book-cover" aria-hidden="true">
+        {!coverFailed ? (
+          // eslint-disable-next-line @next/next/no-img-element -- bundled cover; title is adjacent
+          <img src={`/covers/${book.uid}.jpg`} alt="" onError={() => setCoverFailed(true)} />
+        ) : <span className="home-book-fallback">{title}</span>}
+      </span>
+      <span className="text-sm/5 font-medium">{title}</span>
+      <span className="text-sm/5 text-[var(--tertiary)]">{book.songUids.length} songs</span>
+    </Link>
+  )
 
   const sizeClasses = compactSize ? 'w-36 h-48 mx-2 shrink-0' : 'aspect-[2/3] w-full'
 

@@ -1,5 +1,8 @@
 import { defineConfig, devices } from '@playwright/test'
 
+const port = process.env.PLAYWRIGHT_PORT ?? '3000'
+const baseURL = `http://localhost:${port}`
+
 // End-to-end tests run against a PRODUCTION build (`next build && next start`), not `next dev`:
 // dev compiles routes on demand, which makes the 404 URL-rescue redirect race the assertion. The
 // production server has every page prebuilt and the search JSON served statically, so the flows are
@@ -14,13 +17,13 @@ export default defineConfig({
   retries: process.env.CI ? 1 : 0,
   reporter: 'list',
   use: {
-    baseURL: 'http://localhost:3000',
+    baseURL,
     trace: 'on-first-retry',
   },
   projects: [{ name: 'chromium', use: { ...devices['Desktop Chrome'] } }],
   webServer: {
-    command: 'pnpm build && pnpm start',
-    url: 'http://localhost:3000',
+    command: `pnpm build && pnpm start --port ${port}`,
+    url: baseURL,
     timeout: 180_000,
     reuseExistingServer: !process.env.CI,
   },

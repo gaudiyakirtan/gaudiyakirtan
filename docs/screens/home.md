@@ -1,173 +1,220 @@
 # Screen — Home
 
-**Spec version:** 3
+**Spec version:** 7
 
-**Figma frames:** `Home`, `Home-1`, `Home-2` — these show the **superseded** four-browse-grid
-layout. The structure below has **no frame yet**; see [Verification](#verification). Frames exist,
-but they no longer describe what this screen is for.
+**Status:** implementation in progress. v7 replaces the rejected v6 dashboard composition.
 
-## Purpose
+## Product Intent
 
-Home answers **"what do I sing right now?"** — not "what is in this app?".
+Home answers one question first: **“What can I sing, read, or hear now?”**
 
-### Why v1 changes the screen's job
+The visual concept is **The Singing Page**: a contemporary songbook prepared for use. Search and
+one featured song lead. Season, recent history, books, authors, and topics support that choice in a
+dense editorial rhythm. The screen must feel warm, grounded, devotional, and current without
+borrowing temple ornament, generic SaaS dashboards, or arbitrary bento geometry.
 
-The shipped home was four browse sections — Popular Songs, Browse by Topics, Popular Authors,
-Featured Books. Three problems, all structural rather than cosmetic:
+Research informing this version:
 
-1. **Every section duplicated a nav destination.** Songs, Authors, Topics and Books are all
-   permanently in the sidebar (web) / tab bar (mobile). Home was a table of contents for a menu
-   already on screen.
-2. **Two sections claimed "Popular" with no popularity data.** The code said so itself — songs were
-   sorted by "has a recording" as a proxy, and "Popular Authors" was song-count descending. There is
-   **no usage signal in the corpus**, and none can be manufactured: across the whole corpus, only a
-   handful of songs appear even once in the dated community livestreams. Far too sparse to rank on.
-3. **Nothing on it ever changed.** The same four songs and ten authors, every visit, forever — so
-   there was no reason to return to it.
+- Apple HIG Motion: custom motion is purposeful, brief, precise, interruptible, and optional.
+- Material 3 Motion and States: one coherent motion system; fast spatial motion for small controls,
+  effect motion for opacity/color, and one state layer at a time.
+- Material 3 Layout: adaptive hierarchy and key actions determine the layout.
+- Nielsen Norman Group: hierarchy comes from limited contrast, scale, grouping, and whitespace;
+  every extra visual unit competes with the primary task.
+- web.dev: prefer transform and opacity for smooth compositor-friendly animation.
+- WCAG 2.2 SC 2.3.3: interaction-triggered nonessential motion can be disabled.
 
-v1 replaces "what's in here" with "what's for now", using data the app already ships: the
-[calendar](../data/calendar.md) overlay knows the lunar month, and its `daily[]` slots are indexed by
-time of day. That makes the screen change through the day and through the year.
+## Hierarchy
 
-## Data bindings
+Use this semantic order at every width:
 
-| Region | Source |
-|--------|--------|
-| Recently played | Local device state; resolves uids via [`manifest.md`](../data/manifest.md) |
-| Authors | [`author.md`](../data/author.md) |
-| Books / Topics | [`collections.md`](../data/collections.md) |
-| This month | [`calendar.md`](../data/calendar.md) — `months[]` (songs + observances), `windows[]` (month name) |
+1. Existing app chrome.
+2. Page heading and search entry.
+3. Featured song with **Read & sing** as the primary action and playback as the secondary action.
+4. Season context and seasonal songs on Web and Android.
+5. Recent history on Web.
+6. Books.
+7. Authors.
+8. Topics.
+9. Existing native featured reading.
 
-All titles resolve through the Manifest in the reader's selected script. Never hardcode a title.
+iOS intentionally omits calendar and recents. Android intentionally omits recents and the Web
+recording picker. Missing capabilities disappear rather than rendering empty placeholders.
 
-## Layout & regions
+## Opening Composition
 
-Ordered by priority. On mobile this is the landing tab and the ordering matters most.
+The opening is one focal composition rather than three competing cards.
 
-### 1. Welcome + this month (hero)
+### Featured song
 
-Home's lead region, and the only one that changes on its own — the lunar month turns over roughly
-monthly, the ārati slot every few hours. Banner left, songs right.
+- Use the first playable seasonal song, then the existing first playable catalog fallback.
+- A currently loaded shared-player item may supply displayed playback state only when its song UID
+  matches the featured song.
+- Show the real song title, author, and performer when available.
+- **Read & sing** opens the existing song detail destination.
+- **Play recording** starts the suggested recording. Once active, it becomes **Pause** or **Resume**.
+- Loading and error states change the playback control without hiding the reading action.
+- Do not render duplicate playback progress; the persistent player owns time and seeking.
 
-It carries the seasonal recommendations: in Āṣāḍha the month yields the Jagannātha/Ratha-yātrā and
-Guru-pūrṇimā songs, in Kārtika the Dāmodarāṣṭakam set. Removing it leaves home recommending
-nothing.
+### Season
 
-**Artwork.** `monthImageUrlFor()` resolves `/assets/months/<gaudiya-month>.jpg`. Most months have
-no image and fall back to a themed gradient — a normal path, not a failure. Provenance and
-licensing for each file are recorded in `public/assets/months/CREDITS.md`.
+- Web and Android show a compact text strip: lunar month, Gaudiya month, song count, and complete
+  observances.
+- Season explains why the songs are present; it is not the page hero.
+- Remove the v6 clock/dial. It implied progress or an adjustable value without providing either.
+- Long observances wrap or disclose inline. They are never clipped.
 
-The region is headed **"Welcome to Gaudiya Kirtan!"** with the mridanga logo beside it — the
-greeting is the screen's opening line; the month itself is named on the banner below. The logo is
-decorative (`alt=""`, `aria-hidden`), since the heading already carries the meaning.
+### Seasonal songs
 
-**Left — the banner** carries all the contextual text: the lunar month name, the Gaudiya month
-name beneath it, the month's observances as a clamped caption, and an `adhika-māsa` badge when the
-month is intercalary.
+- Preserve repository ordering and existing platform-specific recording behavior.
+- Web previews six entries; Android retains the complete resolved month list.
+- Titles, author, UID, and recording affordance stay together in a compact row.
+- The title remains the largest row element. Metadata never competes with it.
 
-**Right — nothing but the song list**, under a "Sung this month" label, ranked by `basis` strength.
-This is [`today.md`](today.md) embedded as a region; that spec governs its provenance ranking and
-honesty constraints.
+## Discovery
 
-**Playable songs lead.** Within that ranking the list is **stably partitioned so songs with
-recordings come first** — the month's lead region should open with what the reader can actually
-hear, not with rows whose only affordance is "read". The partition is stable: relative order inside
-each group is untouched, so `basis` ranking still governs within the playable and non-playable runs.
-Each playable row carries a **recording picker** on its right — the stacked cluster of singer
-avatars plus a take count (the same control the [player](player.md) uses) — and choosing a take
-starts it in the mini-player **in place, without navigating**, so the reader stays on Home.
+### Recent
 
-The **time-of-day ārati** slot is **not** shown here. `daily[]` and `getDailySlots()` remain in the
-data layer for a future surface; note if it returns the `sunrise` slot it must fall through, since
-that slot ships zero songs (the Aruṇodaya kīrtanas are not in the corpus).
+Web only. Show up to four real local-history entries in a compact list. Omit the section when empty.
+Do not fabricate timestamps, progress, or listening history.
 
-### 2. Recently played
+### Books
 
-The songs the reader last opened, **most recent first**. Stored **locally on the device**, never synced or
-transmitted: `{ uid, lastOpenedAt }`, most-recent first, capped at ~10 entries. Written when a song
-detail screen is opened.
+Use actual licensed covers as the principal visual texture. Present each cover as one book, preserve
+its aspect ratio, and keep its title visible. Missing covers use the real title in a quiet fallback.
+Avoid mixed-image collages and promotional copy that competes with the song action.
 
-Absent on first run — the region hides itself entirely rather than showing a placeholder.
+### Authors
 
-### 3. Topics — one row
+Show real names and counts in compact text rows. Do not use arbitrary colored initials as identity.
 
-### 4. Books — one row
+### Topics
 
-### 5. Authors — one row
+Use wrapping text links or quiet outlined chips with counts. Do not use large pastel tiles.
 
-Each is **one horizontally-scrollable row**, not a wrapping grid: the grid belongs on `/topics` and
-`/books`, where the whole set is the point; on home it costs three rows of vertical scroll per
-section. The sections take an opt-in `singleRow` flag so those index pages are unaffected.
+## Adaptive Layout
 
-Topics and Books each hide themselves when the corpus ships no groups of that kind.
+### Web
 
-**No "Popular" region, and no "With recordings" region.** There is no usage signal in the corpus
-and none can be manufactured: only a handful of songs appear even once across the dated community
-livestreams. Anything labelled "popular" would be fabricated.
+- Expanded: content width at most 1120 px, 12 columns, 24 px gaps, and at least 40 px outer gutter.
+- Medium: 8 columns with 20 px gaps and 24 px outer gutter.
+- Compact: one column with 20 px gutter; 16 px at 359 px and below.
+- Expanded opening: featured song spans 7 columns and seasonal repertoire spans 5.
+- Medium and compact opening: featured song, season strip, and repertoire stack in semantic order.
+- Books use a horizontal rail with three complete covers visible on expanded screens and two plus a
+  clear next edge on phones.
+- Authors remain a compact list. Topics wrap naturally.
 
-## States
+### iOS
 
-| State | Behavior |
-|-------|----------|
-| **First run** | Recently played is hidden; every other region still renders. |
-| **Empty month** | Month has no songs (Pauṣa). Show the banner and say so plainly — never fabricate rows. See [`today.md`](today.md). |
-| **Date out of calendar range** | Hide the region entirely rather than showing a wrong month. |
-| **Loading (web)** | See the static-generation warning below. Reserve the hero's space; never render a stale date. |
+- Use the existing navigation stack, tab bar, search destination, and shared player.
+- Use 20 pt page insets and native 44 pt minimum targets.
+- Featured song leads; books, songs, authors, and topics follow in readable native sections.
+- At wide widths, books and authors may share an approximately 840 pt content region.
 
-## Interactions
+### Android
 
-- Any song row → [song-detail](song-detail.md); audio affordance → [player](player.md).
-- Author / book / topic cards → their list or detail routes.
-- Opening a song writes the Recently-played entry. Nothing else on this screen mutates state.
+- Use the existing top app bar, bottom navigation, search destination, and shared player.
+- Use 16 dp page insets and native 48 dp minimum targets.
+- Featured song leads. A compact season strip and month repertoire follow.
+- Tablets remain a readable feed; books and authors may share a bounded supporting row.
 
-## Per-platform notes
+The final item must scroll above the measured player, navigation, and safe-area obstruction.
 
-**All platforms.** Resolve the current date in the device's local timezone. A UTC conversion
-shifts the lunar month for users west of Greenwich in the evening.
+## Visual Language
 
-**Web.** ⚠️ The home page is statically generated. Anything time-dependent — the lunar month,
-recently played — **must** resolve client-side after
-mount, or the build's date gets baked into the HTML and served forever. Static props remain correct
-for the corpus-derived regions (Authors, Books, Topics). `calendarRepository` is client-safe for exactly this reason;
-import it directly, not via the `../services` barrel, which pulls in `fs`-based repositories.
+- Keep the existing Gaura/Shyam semantic tokens and 5th Avenue brand face.
+- Use the display face for the brand and the featured song title only. All song body text uses the
+  existing script-capable text face.
+- Spend strongest contrast on the featured title, primary reading action, focus, and active
+  playback. Season, counts, and browsing metadata remain quieter.
+- Use a spacing scale of 4, 8, 12, 16, 24, 32, 40, and 48.
+- Use small control corners and medium surface corners. Reserve circles for circular controls.
+- Resting sections have no ambient shadow. Elevation belongs to overlays and the persistent player.
+- Use one nonfigurative rhythm field behind the featured song: repeated vertical beats crossed by
+  one restrained arc. It is decorative, static at rest, clipped to its surface, and inaccessible.
 
-**iOS.** `TodayView` + a `RecentsStore` over `UserDefaults`. Recompute on
-`significantTimeChangeNotification` and on foreground, so a session left open overnight does not
-keep showing yesterday's month or the small hours' ārati.
+## Interaction And Motion
 
-**Android.** Home composable + a `RecentsStore` over DataStore. `LocalDate.now()` / `LocalTime.now()`
-with the device zone; recompute on resume.
+Home motion communicates clickability, continuity, and player state.
+
+| Token | Timing | Use |
+|---|---:|---|
+| Press | 80 ms | Immediate control compression or state layer. |
+| Release | 120 ms | Return from press. |
+| Hover/focus effect | 120 ms | Tint, border, underline, and icon emphasis. |
+| Icon replace | 140 ms | Play/pause/loading/retry and disclosure symbols. |
+| Picker enter | 180 ms | Opacity plus at most 4 px translation. |
+| Picker exit | 120 ms | Faster reverse transition. |
+| Page/section entrance | 180–220 ms | One initial grouped reveal only. |
+
+Use `cubic-bezier(.2, 0, 0, 1)` for Web entry/state transitions. Native motion uses the closest
+critically damped platform spring without visible bounce.
+
+### Required states
+
+- **Hover:** a restrained state layer, clearer link underline, and a 2 px directional arrow shift.
+  Essential actions remain visible without hover.
+- **Focus:** a visible 2 px outline separated from the surface; focus is distinct from selection.
+- **Press:** immediate tint; compact standalone controls may scale to 0.98. Rows stay fixed.
+- **Loading:** reserve geometry. If playback remains pending after 150 ms, replace the icon with a
+  static pending symbol and stable label.
+- **Playing:** replace play with pause and show one small accent state mark.
+- **Paused:** restore play while preserving selection and position.
+- **Error:** keep **Read & sing** usable and expose a concise Retry state.
+- **Selection:** use text/checkmark and tint, never color alone.
+
+Specific icon motion:
+
+- Play and pause crossfade in one fixed box.
+- Search changes from secondary to primary ink when active.
+- Browse arrows move 2 px toward their destination.
+- Disclosure chevrons replace between down/up states.
+- A recording checkmark fades into reserved space.
+
+Do not add perpetual pulse, bounce, floating cards, parallax, automatic carousels, dancing
+equalizers, broad blur animation, or layout-size animation.
+
+Reduced motion removes transforms, stagger, and spatial movement. State changes remain immediate
+through color, text, and icon replacement.
+
+## Accessibility
+
+- Exactly one page heading is exposed.
+- Interactive elements use native buttons/links and complete accessible names.
+- Web targets are at least 44 × 44 CSS px for principal controls and 24 × 24 for inline links.
+- Native targets are at least 44 pt on iOS and 48 dp on Android.
+- Contrast meets WCAG 2.2 AA. Focus is visible in both palettes and forced colors.
+- Text reflows at 400% Web zoom and native accessibility sizes without clipping.
+- Decorative rhythm art and initials are hidden from assistive technology.
+
+## Rejection Criteria
+
+Reject the implementation if any of these remain:
+
+- The month dial or a large season card dominates the opening viewport.
+- The primary reading action is ambiguous, below the fold, or obscured by the player.
+- A phone screen becomes a long stack of oversized cards or full-width topic tiles.
+- Book imagery is cropped into an unrelated collage.
+- Hover is the only indication that content is interactive.
+- Text, diacritics, focus rings, or controls clip at supported widths or text sizes.
+- Playback state differs between Home and the shared player.
+- Reduced-motion mode retains spatial transforms or entrance staggering.
 
 ## Verification
 
-**Behavioral:**
-- The month region reflects the *viewer's* local date and hour, not the build's. On web, verify by
-  building and loading with an overridden clock — a baked-in month is the specific failure to catch.
-- Recently played is hidden on first run, appears after opening a song, most recent first, and
-  survives a reload.
-- In a month with no songs (Pauṣa), the banner still renders and the right column says so; no
-  fabricated rows.
-- The observances read on the banner, not in the right-hand column.
-- No region is labelled "Popular", and none claims a recording count is a popularity ranking.
+Capture both palettes at 1440 × 900, 1024 × 768, 390 × 844, and 320 × 568. Capture native phones
+with the shared player active and absent. Verify initial, playing, paused, loading, error, empty,
+long-title, large-text, keyboard/focus, and reduced-motion states.
 
-**Visual:** blocked — the existing `Home*` frames show the superseded layout. Draw a frame for this
-structure, then verify against it.
+The screenshot must make the featured song, search, and primary action identifiable at first glance.
+At 390 × 844 with the player active, the primary action and at least two seasonal rows must be fully
+reachable above the player on Web and Android. iOS must show the primary action and the beginning of
+the next content section.
 
-## Change log
+## Change Log
 
-- **v4 (web)** — **This month** now sorts songs **with recordings first** (a stable partition, so
-  `basis` ranking still holds within each run), and those rows gained a **recording picker** — the
-  player's stacked singer-avatar cluster — that starts any take in the mini-player without leaving
-  Home. The region's job is seasonal *listening*, so the playable songs lead it.
-- **v3** — Removed the "Upcoming festivals" hero; **This month** is now the lead region, keeping
-  the banner + song-list layout. Observances moved onto the banner; the time-of-day ārati block
-  removed from this screen (its data layer stays). Region heading is the welcome greeting +
-  mridanga logo; the month name lives on the banner. `calendar.md` v2 `festivals[]` and `getUpcomingFestivals()` remain
-  in the data layer, unused by any screen.
-- **v2** — Hero was **upcoming festivals** (banner + song list, from `calendar.md` v2 `festivals[]`);
-  Continue renamed **Recently played**; Authors/Books/Topics restored as sections; the browse row
-  and "With recordings" removed. "This month" (lunar songs + ārati) sits below the hero — it is
-  what answers "what do I sing now" when the next dated festival has no songs.
-- **v1** — Re-purposed from four browse grids to "what do I sing right now": Now (time-of-day ārati
-  + lunar month), Continue, one browse row, and an honestly-labelled "With recordings". Retires the
-  fabricated "Popular" ranking.
+- **v7** — Replaces v6’s dashboard/bento composition with The Singing Page: one compact featured
+  song, explicit read/play actions, lightweight season context, editorial browsing, and a complete
+  quick-interaction motion system.
+- **v6** — Rejected dashboard composition with month dial and modular cards.

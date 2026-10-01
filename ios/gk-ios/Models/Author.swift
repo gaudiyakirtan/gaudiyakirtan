@@ -36,7 +36,12 @@ struct Author: Codable, Identifiable, Hashable {
 
     /// Best display name: prefers Latin/IAST, falls back to the first available script.
     var name: String {
-        (names.first(where: { $0.scriptCode == "Latn" }) ?? names.first)?.displayText ?? uid
+        name(inScript: "Latn")
+    }
+
+    func name(inScript scriptCode: String) -> String {
+        (names.first(where: { $0.scriptCode == scriptCode })
+            ?? names.first(where: { $0.scriptCode == "Latn" }) ?? names.first)?.displayText ?? uid
     }
 
     /// The spec has no author-image field, and the corpus carries no author imagery. Kept so
