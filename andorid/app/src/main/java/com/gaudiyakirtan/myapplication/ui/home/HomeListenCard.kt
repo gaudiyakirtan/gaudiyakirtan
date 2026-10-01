@@ -53,15 +53,22 @@ internal fun HomeListenCard(
     val current = playerUiState.nowPlaying?.takeIf { it.song.uid == song?.uid }
     Surface(Modifier.fillMaxWidth().testTag("listen-card"), shape = MaterialTheme.shapes.medium,
         color = MaterialTheme.colorScheme.surface) {
-        Column(Modifier.padding(Spacing.lg), verticalArrangement = Arrangement.spacedBy(Spacing.md)) {
-            if (song == null) {
-                Text("Find a song to sing", style = MaterialTheme.typography.headlineSmall)
-                Text("Explore the song library and its recordings.", style = MaterialTheme.typography.bodyMedium,
-                    color = MaterialTheme.colorScheme.onSurfaceVariant)
-                TextButton(onClick = onBrowseRecordings, modifier = Modifier.heightIn(min = 48.dp)) {
-                    Text("Open library")
-                }
-            } else {
+        Box {
+            RhythmField(
+                Modifier
+                    .align(Alignment.TopEnd)
+                    .size(180.dp, 120.dp)
+                    .padding(top = Spacing.sm)
+            )
+            Column(Modifier.padding(Spacing.lg), verticalArrangement = Arrangement.spacedBy(Spacing.md)) {
+                if (song == null) {
+                    Text("Find a song to sing", style = MaterialTheme.typography.headlineSmall)
+                    Text("Explore the song library and its recordings.", style = MaterialTheme.typography.bodyMedium,
+                        color = MaterialTheme.colorScheme.onSurfaceVariant)
+                    TextButton(onClick = onBrowseRecordings, modifier = Modifier.heightIn(min = 48.dp)) {
+                        Text("Open library")
+                    }
+                } else {
                 val title = song.titleMain.preferredText(listLanguage)
                 val track = current?.track ?: song.audioFiles.firstOrNull()
                 val playing = current != null && playerUiState.playbackState == PlaybackState.PLAYING
@@ -76,18 +83,19 @@ internal fun HomeListenCard(
                         pendingVisible = true
                     }
                 }
-                // Artwork has its own clear space alongside the copy, never behind glyphs or
-                // actions. Surface clips the one static field; there is no image/network fallback.
-                Row(Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(Spacing.sm)) {
-                    Column(Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(Spacing.xs)) {
-                        Text(title, style = MaterialTheme.typography.headlineSmall.copy(
-                            fontFamily = DisplayFontFamily, fontWeight = FontWeight.Normal,
-                            fontSynthesis = FontSynthesis.None),
-                            modifier = Modifier.padding(horizontal = Spacing.xs).testTag("listen-title"))
-                        Text(song.authorDisplay.preferredText(listLanguage),
-                            style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
-                    }
-                    RhythmField(Modifier.size(72.dp, 48.dp).align(Alignment.CenterVertically))
+                Column(Modifier.fillMaxWidth(), verticalArrangement = Arrangement.spacedBy(Spacing.xs)) {
+                    Text(title, style = if (listLanguage == "Latn") {
+                        MaterialTheme.typography.headlineSmall.copy(
+                            fontFamily = DisplayFontFamily,
+                            fontWeight = FontWeight.Normal,
+                            fontSynthesis = FontSynthesis.None
+                        )
+                    } else {
+                        MaterialTheme.typography.headlineSmall
+                    },
+                        modifier = Modifier.padding(horizontal = Spacing.xs).testTag("listen-title"))
+                    Text(song.authorDisplay.preferredText(listLanguage),
+                        style = MaterialTheme.typography.bodyMedium, color = MaterialTheme.colorScheme.onSurfaceVariant)
                 }
                 Row(verticalAlignment = Alignment.CenterVertically, horizontalArrangement = Arrangement.spacedBy(Spacing.sm)) {
                     if (playing) Box(Modifier.size(6.dp).background(MaterialTheme.colorScheme.primary, CircleShape)
@@ -100,7 +108,12 @@ internal fun HomeListenCard(
                 FlowRow(horizontalArrangement = Arrangement.spacedBy(Spacing.sm),
                     verticalArrangement = Arrangement.spacedBy(Spacing.sm)) {
                     val readInteractions = remember { MutableInteractionSource() }
-                    Button(interactionSource = readInteractions, onClick = { onSongClick(song.uid) }, shape = MaterialTheme.shapes.small,
+                    Button(interactionSource = readInteractions, onClick = { onSongClick(song.uid) },
+                        shape = MaterialTheme.shapes.small,
+                        colors = ButtonDefaults.buttonColors(
+                            containerColor = MaterialTheme.colorScheme.onSurface,
+                            contentColor = MaterialTheme.colorScheme.background
+                        ),
                         modifier = Modifier.heightIn(min = 48.dp).testTag("listen-song").navigationFocusOutline(readInteractions, MaterialTheme.shapes.small)
                             .semantics { contentDescription = "Read & sing $title" },
                         contentPadding = PaddingValues(horizontal = Spacing.md, vertical = Spacing.sm)) {
@@ -123,6 +136,9 @@ internal fun HomeListenCard(
                         TextButton(interactionSource = playInteractions, onClick = {
                             if (playing || paused) onPlayPause() else onPlaySong(song)
                         }, enabled = !loading, shape = MaterialTheme.shapes.small,
+                            colors = ButtonDefaults.textButtonColors(
+                                contentColor = MaterialTheme.colorScheme.onSurface
+                            ),
                             contentPadding = PaddingValues(horizontal = Spacing.sm, vertical = Spacing.sm),
                             modifier = Modifier.widthIn(min = playLabelWidth + 20.dp + Spacing.xs + Spacing.sm * 2)
                                 .heightIn(min = 48.dp).testTag("listen-play")
@@ -153,6 +169,7 @@ internal fun HomeListenCard(
                             Text(label)
                         }
                     }
+                }
                 }
             }
         }

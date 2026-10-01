@@ -18,7 +18,7 @@ fun LazyGridScope.songsSection(
     onSongClick: (String) -> Unit
 ) {
     if (songs.isEmpty()) return
-    item(key = "songs-heading", span = { GridItemSpan(maxLineSpan) }) { SectionHeading("Songs", isHeading = false) }
+    item(key = "songs-heading", span = { GridItemSpan(maxLineSpan) }) { SectionHeading("Songs") }
     items(songs, key = { "song-${it.uid}" }) { song ->
         SongListItem(song.uid, song.titleForListLanguage(listLanguage),
             authorNames[song.authorUid].orEmpty(), song.audioAvailable,

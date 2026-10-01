@@ -86,6 +86,7 @@ fun HomeContent(
         authors.associate { it.uid to it.names.preferredText(settings.listLanguage) }
     }
     val authorSongCounts = remember(songs) { songs.groupingBy { it.authorUid }.eachCount() }
+    val previewAuthors = remember(authors) { authors.filter { it.uid != "?" }.take(4) }
     Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
         BoxWithConstraints(Modifier.fillMaxSize()) {
             val enlarged = LocalDensity.current.fontScale >= 1.5f
@@ -128,12 +129,12 @@ fun HomeContent(
                             }
                         }
                     }
-                    if (authors.isNotEmpty()) {
-                        item(key = "authors", span = { GridItemSpan(maxLineSpan) }) {
-                            Box(Modifier.padding(top = Spacing.xl)) {
-                                HomeAuthors(authors, authorSongCounts, settings.listLanguage, onAuthorClick)
+                        if (previewAuthors.isNotEmpty()) {
+                            item(key = "authors", span = { GridItemSpan(maxLineSpan) }) {
+                                Box(Modifier.padding(top = Spacing.xl)) {
+                                    HomeAuthors(previewAuthors, authorSongCounts, settings.listLanguage, onAuthorClick)
+                                }
                             }
-                        }
                     }
                     if (topics.isNotEmpty()) {
                         item(key = "topics", span = { GridItemSpan(maxLineSpan) }) {

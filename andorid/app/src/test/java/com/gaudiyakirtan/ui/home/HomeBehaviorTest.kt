@@ -127,10 +127,11 @@ class HomeBehaviorTest {
         compose.onNodeWithTag("song-${HomeFixtures.manifest[4].uid}").assertDoesNotExist()
     }
 
-    @Test fun `large type retains all topic book and author destinations`() {
+    @Test fun `large type retains topic book and preview author destinations`() {
         val topics = HomeFixtures.topics
         val books = HomeFixtures.books
         val authors = HomeFixtures.authors
+        val previewAuthors = authors.filter { it.uid != "?" }.take(4)
         var opened = ""
         content(2f) {
             HomeContent(topics = topics, books = books, authors = authors,
@@ -141,8 +142,8 @@ class HomeBehaviorTest {
         compose.onNodeWithTag("book-${books.last().uid}").performClick()
         assertEquals(books.last().uid, opened)
         compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-Authors"))
-        compose.onNodeWithTag("author-${authors.last().uid}").performScrollTo().performClick()
-        assertEquals(authors.last().uid, opened)
+        compose.onNodeWithTag("author-${previewAuthors.last().uid}").performScrollTo().performClick()
+        assertEquals(previewAuthors.last().uid, opened)
         compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-Topics"))
         compose.onNodeWithTag("topic-${topics.last().uid}").performScrollTo().performClick()
         assertEquals(topics.last().uid, opened)
@@ -150,6 +151,7 @@ class HomeBehaviorTest {
 
     @Test fun `book rail and text browsing retain their final working destinations`() {
         var opened = ""
+        val previewAuthors = HomeFixtures.authors.filter { it.uid != "?" }.take(4)
         content {
             HomeContent(topics = HomeFixtures.topics, books = HomeFixtures.books,
                 authors = HomeFixtures.authors, onGroupClick = { opened = it }, onAuthorClick = { opened = it })
@@ -159,8 +161,8 @@ class HomeBehaviorTest {
         compose.onNodeWithTag("book-${HomeFixtures.books.last().uid}").performClick()
         assertEquals(HomeFixtures.books.last().uid, opened)
         compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-Authors"))
-        compose.onNodeWithTag("author-${HomeFixtures.authors.last().uid}").performScrollTo().performClick()
-        assertEquals(HomeFixtures.authors.last().uid, opened)
+        compose.onNodeWithTag("author-${previewAuthors.last().uid}").performScrollTo().performClick()
+        assertEquals(previewAuthors.last().uid, opened)
         compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-Topics"))
         compose.onNodeWithTag("topic-${HomeFixtures.topics.last().uid}").performScrollTo().performClick()
         assertEquals(HomeFixtures.topics.last().uid, opened)

@@ -52,7 +52,7 @@ fun MonthSongs(
     modifier: Modifier = Modifier
 ) {
     Column(modifier.fillMaxWidth().testTag("month-songs"), verticalArrangement = Arrangement.spacedBy(Spacing.xs)) {
-        SectionHeading("Sung this month", isHeading = false)
+        SectionHeading("Sung this month")
         if (songs.isEmpty()) Text("No songs are specific to this month.", style = MaterialTheme.typography.bodyMedium,
             color = MaterialTheme.colorScheme.onSurfaceVariant)
         else Column(Modifier.semantics { collectionInfo = CollectionInfo(songs.size, 1) }) {
@@ -70,7 +70,7 @@ fun MonthSongs(
 }
 
 @Composable
-fun SectionHeading(title: String, modifier: Modifier = Modifier, isHeading: Boolean = true) {
+fun SectionHeading(title: String, modifier: Modifier = Modifier) {
     Text(title, style = MaterialTheme.typography.titleMedium, color = MaterialTheme.colorScheme.onSurface,
-        modifier = modifier.then(if (isHeading) Modifier.semantics { heading() } else Modifier))
+        modifier = modifier.semantics { heading() })
 }
