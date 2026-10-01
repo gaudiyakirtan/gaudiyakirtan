@@ -13,6 +13,8 @@ import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
+import kotlinx.coroutines.Job
+import java.time.LocalDate
 
 /**
  * ViewModel for the Home screen.
@@ -26,6 +28,9 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     private val repository = SongRepository.getInstance(application)
     private val settingsRepository = SettingsRepository.getInstance(application)
     private val calendarRepository = CalendarRepository.getInstance(application)
+
+    val settings: StateFlow<AppSettings> = settingsRepository.settings
+    private var calendarRefreshJob: Job? = null
 
     /** Reader's chosen list-title script (docs/screens/settings.md `listLanguage`). */
     val listLanguage: StateFlow<String> = settingsRepository.settings
@@ -77,8 +82,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
             _songs.value = manifest
             // The month overlay resolves against the same manifest, so it rides this load rather
             // than reading the catalog a second time.
-            _thisMonth.value = calendarRepository.getToday()
-            _thisMonthSongs.value = calendarRepository.getMonthSongs(manifest)
+            refreshCalendar()
             _featuredSong.value = repository.getSongByUid(featuredUid)
         }
         viewModelScope.launch {
@@ -92,6 +96,19 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
             val groups = repository.getSongGroups()
             _books.value = groups.filter { it.kind == SongGroupKind.BOOK }
             _topics.value = groups.filter { it.kind == SongGroupKind.TOPIC }
+        }
+    }
+
+    /** Resolve context and songs against the same local date; cancel any obsolete clock request. */
+    fun refreshCalendar(date: LocalDate = LocalDate.now()) {
+        calendarRefreshJob?.cancel()
+        calendarRefreshJob = viewModelScope.launch {
+            val today = calendarRepository.getToday(date)
+            val monthSongs = today?.let {
+                com.gaudiyakirtan.data.CalendarRepositoryLogic.monthSongs(it.month, _songs.value)
+            }.orEmpty()
+            _thisMonth.value = today
+            _thisMonthSongs.value = monthSongs
         }
     }
 

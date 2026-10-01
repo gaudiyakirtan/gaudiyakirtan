@@ -13,3 +13,6 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Optional local Android build toolchain and caches
+/.toolchain/
