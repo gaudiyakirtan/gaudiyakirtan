@@ -31,6 +31,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
     val settings: StateFlow<AppSettings> = settingsRepository.settings
     private var calendarRefreshJob: Job? = null
+    private var manifestLoaded = false
 
     /** Reader's chosen list-title script (docs/screens/settings.md `listLanguage`). */
     val listLanguage: StateFlow<String> = settingsRepository.settings
@@ -80,6 +81,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
         viewModelScope.launch {
             val manifest = repository.getManifest()
             _songs.value = manifest
+            manifestLoaded = true
             // The month overlay resolves against the same manifest, so it rides this load rather
             // than reading the catalog a second time.
             refreshCalendar()
@@ -101,6 +103,9 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
     /** Resolve context and songs against the same local date; cancel any obsolete clock request. */
     fun refreshCalendar(date: LocalDate = LocalDate.now()) {
+        // The first resume usually arrives before the manifest: every reference would be
+        // unresolved and read as a false empty month. loadData() refreshes once it lands.
+        if (!manifestLoaded) return
         calendarRefreshJob?.cancel()
         calendarRefreshJob = viewModelScope.launch {
             val today = calendarRepository.getToday(date)

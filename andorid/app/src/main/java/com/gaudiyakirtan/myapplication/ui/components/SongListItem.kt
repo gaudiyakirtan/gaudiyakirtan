@@ -29,7 +29,8 @@ fun SongListItem(
     onClick: () -> Unit = {},
     modifier: Modifier = Modifier
 ) {
-    val enlarged = LocalDensity.current.fontScale >= 2f
+    // Two lines only at default size; any enlarged text shows the complete title and credit.
+    val enlarged = LocalDensity.current.fontScale > 1f
     NavigationSurface(
         onClick = onClick,
         modifier = modifier.fillMaxWidth().heightIn(min = 56.dp).semantics {

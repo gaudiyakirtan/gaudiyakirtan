@@ -216,4 +216,16 @@ class HomeBehaviorTest {
         compose.onAllNodes(SemanticsMatcher.keyIsDefined(SemanticsProperties.LiveRegion)).assertCountEquals(0)
         compose.onAllNodes(SemanticsMatcher.keyIsDefined(SemanticsProperties.ProgressBarRangeInfo)).assertCountEquals(0)
     }
+
+    @Test fun `rows below 200 percent text still show complete titles`() {
+        val title = "śrī-kṛṣṇa-caitanya prabhu nityānanda — শ্রীকৃষ্ণচৈতন্য প্রভু নিত্যানন্দ — श्रीकृष्णचैतन्य प्रभु नित्यानन्द"
+        content(1.3f) {
+            SongListItem("N9", title, "Śrīla Narottama dāsa Ṭhākura", false, modifier = Modifier.testTag("row"))
+        }
+        val layouts = mutableListOf<TextLayoutResult>()
+        compose.onNodeWithText(title, useUnmergedTree = true)
+            .performSemanticsAction(SemanticsActions.GetTextLayoutResult) { it(layouts) }
+        assertTrue("fixture must exceed the default two-line clamp", layouts.single().lineCount > 2)
+        assertFalse(layouts.single().hasVisualOverflow)
+    }
 }
