@@ -58,11 +58,11 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | observability (v1) — analytics/Sentry | ✅ | n/a | n/a |
 | settings | ✅ | ✅* | ✅ |
 | [theme (v4 — shared utility motion)](screens/theme.md) | ✅ v4 | ⏳ verification | ✅ v4 |
-| [home (v5 — cross-platform visual contract)](screens/home.md) | ✅ v5 | ⏳ verification | ✅ v5 |
+| [home (v6 — bento composition)](screens/home.md) | ✅ v6 | 🔨 v6 | ✅ v6 |
 | today (v2) — Home seasonal region | ✅ v2 | — **TODO** | ✅ v2 |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
-| [components (v7 — Home contracts/semantics)](screens/components.md) | ✅ v7 | ⏳ verification | ✅ v7 |
+| [components (v8 — Home composition)](screens/components.md) | ✅ v8 | 🔨 v8 | ✅ v8 |
 | collections / books / topics | ✅ | ✅* | ✅ |
 | artist/book images | ✅ | ✅* | ✅ |
 | unit tests | ✅ | ✅* | ✅ |
@@ -76,19 +76,20 @@ and the open-song uid pill), so iOS/Android are not stale against it; they stay 
 version before it ·
 `🔨` in progress · `—` not applicable / not on that platform.
 
-**Home v5 — SPEC only; all three platforms are stale.** The contract now covers Web/iOS/Android
-visuals while preserving their existing features. Web retains its six monthly rows, recording picker
-and four recents; Android retains its uncapped month list and four-song grid; iOS retains its full
-Songs grid. Both native platforms retain complete featured verses. iOS calendar and native
-recents/picker wiring remain separate functional gaps, **not Home v5 conformance prerequisites**.
-Home uses Today v2's shipped sequence plus stable playable-first partition, never basis sorting;
-daily ārati/festival fallbacks remain excluded. Today/data/player/navigation versions and statuses
-are unchanged by this SPEC phase.
+**Home v6 — Web and Android verified; iOS implementation awaiting a compatible runner.** v6
+replaces v5's homogeneous card/shelf composition with distinct bento modules led by real player
+state, a dark month dial where calendar data exists, cover-led books and compact discovery panels.
+Web is the visual master; native implementations translate the hierarchy through SwiftUI/Compose.
+Web passes lint, production build, 191 unit tests and 25 Home Playwright tests. Android passes debug
+assembly, 105 unit tests and 29 Roborazzi comparisons. The repository's macOS job still selects
+Xcode 15.4 while the project format requires Xcode 16, so iOS remains implemented but not build-verified.
 
-**Theme v4 / components v7 are also spec-ahead-of-code.** New utility-motion bindings, canonical row
-semantics/contrast, Home composition/artwork and picker contracts require platform verification.
-No product code, data or captures changed, and no v5 build/run or visual conformance is claimed.
-Prior implementation evidence below remains historical; it does not verify the new contracts.
+**Home v5 — historical baseline.** Its uniform feed and shelf geometry are retained only in the
+before screenshots; v6 is now authoritative.
+
+**Theme v4 / components v8.** Web and Android Home interactions use the shared timing/state
+contracts and have automated reduced-motion or platform-motion coverage. iOS uses the same named
+tokens and `accessibilityReduceMotion`, pending Xcode verification as noted above.
 
 **theme v3 (Material 3 Expressive) — Android is `🔨 partial`.** Landed: `MaterialExpressiveTheme` +
 `MotionScheme.expressive()`, the shape scale, the type scale, the remapped Material color slots with
