@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { artistImageUrlFor } from '../config'
 import { IAudioTrack } from '../models/Song'
 import { MusicNote } from './icons/MusicNote'
+import { ChevronDownIcon, ChevronUpIcon } from './icons/SidebarIcons'
 
 /**
  * A round, ringed singer photo with a graceful music-note fallback.
@@ -123,6 +124,10 @@ export const RecordingPickerButton: React.FC<IRecordingPickerButtonProps> = ({
       </span>
       <span aria-hidden={home || undefined} className={home ? 'text-sm/5 text-[var(--secondary)]' : `text-[11px] font-semibold ${open ? 'text-[var(--highlight)]' : 'text-[var(--neutral)]'}`}>{tracks.length}</span>
       {home && current && <span className="sr-only">Current recording</span>}
+      {home && <span className="home-disclosure" aria-hidden="true">
+        <ChevronDownIcon size={12} className="home-disclosure-down" />
+        <ChevronUpIcon size={12} className="home-disclosure-up" />
+      </span>}
     </button>
   )
 }

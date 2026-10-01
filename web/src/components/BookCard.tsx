@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import { BooksIcon } from './icons/SidebarIcons'
 import { ISongGroup } from '../models/Collections'
 import { getMediaColor } from '../utils/colors'
 import { pickScriptText } from '../services/textDisplay'
@@ -40,7 +39,7 @@ export const BookCard: React.FC<BookCardProps> = ({
         {!coverFailed ? (
           // eslint-disable-next-line @next/next/no-img-element -- bundled cover; title is adjacent
           <img src={`/covers/${book.uid}.jpg`} alt="" onError={() => setCoverFailed(true)} />
-        ) : <BooksIcon size={32} className="text-[var(--accent)]" />}
+        ) : <span className="home-book-fallback">{title}</span>}
       </span>
       <span className="text-sm/5 font-medium">{title}</span>
       <span className="text-sm/5 text-[var(--tertiary)]">{book.songUids.length} songs</span>

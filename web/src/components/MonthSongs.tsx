@@ -22,16 +22,16 @@ export function MonthSongs({ songs, trackSongsByUid, authors, obscured }: IMonth
   }, [router.events])
   useEffect(() => { if (obscured) setOpenUid(null) }, [obscured])
   return (
-    <article className="home-v6-card home-v6-month-songs" aria-labelledby="month-songs-heading">
-      <div className="home-v6-list-heading">
-        <h2 id="month-songs-heading">Sung this month</h2>
-        <span>{songs.length}</span>
+    <article className="home-month-songs" aria-labelledby="month-songs-heading">
+      <div className="home-repertoire-heading">
+        <h2 id="month-songs-heading">Seasonal repertoire</h2>
+        <span>{songs.length} to explore</span>
       </div>
       {/* Explicit role: WebKit drops list semantics from `list-style: none` lists. */}
-      {songs.length ? <ul role="list" className="home-v6-month-list">
+      {songs.length ? <ul role="list" className="home-month-list">
         {songs.map((song) => (
           <li key={song.uid} className="home-month-row">
-            <SongListItem song={song} href={`/songs/${song.uid}`} surface="offset" />
+            <SongListItem song={song} href={`/songs/${song.uid}`} surface="default" />
             {!!trackSongsByUid[song.uid]?.tracks.length && (
               <HomeRecordingPicker song={trackSongsByUid[song.uid]} authors={authors}
                 open={openUid === song.uid && !obscured} onOpenChange={(open) => setOpenUid(open ? song.uid : null)} />

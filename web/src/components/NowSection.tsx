@@ -7,7 +7,7 @@ import { AuthorNames, ITrackSong } from '../services/trackListingView'
 import { homeMonthSongs, millisecondsToLocalMidnight } from '../utils/homeCalendar'
 import { MonthContext } from './MonthContext'
 import { MonthSongs } from './MonthSongs'
-import { HomeListenCard } from './HomeListenCard'
+import { HomeFeaturedSong } from './HomeFeaturedSong'
 
 interface INowSectionProps {
   listingsByUid: Record<string, ISongListing>
@@ -50,48 +50,21 @@ export function NowSection({ listingsByUid, trackSongsByUid, authors, obscured }
 
   const songs = useMemo(() => now ? homeMonthSongs(now.month, listingsByUid, trackSongsByUid) : [], [now, listingsByUid, trackSongsByUid])
   const listenSong = useMemo(
-    () => songs.map((song) => trackSongsByUid[song.uid]).find(Boolean)
-      ?? Object.values(trackSongsByUid)[0],
+    () => songs.map((song) => trackSongsByUid[song.uid]).find((song) => song?.tracks.length)
+      ?? Object.values(trackSongsByUid).find((song) => song.tracks.length),
     [songs, trackSongsByUid],
   )
   if (!hydrated) return (
-    <div className="home-v6-primary-grid" aria-hidden="true" data-testid="seasonal-placeholder">
-      <div className="home-v6-module home-v6-listen-module">
-        <p className="home-v6-module-label">Listen now</p>
-        <div className="home-v6-card home-v6-skeleton-card" />
-      </div>
-      <div className="home-v6-module home-v6-month-module">
-        <p className="home-v6-module-label">Season</p>
-        <div className="home-v6-card home-v6-skeleton-card home-v6-skeleton-dark" />
-      </div>
-      <div className="home-v6-module home-v6-songs-module">
-        <p className="home-v6-module-label">Seasonal songs</p>
-        <div className="home-v6-card home-v6-skeleton-card" />
-      </div>
+    <div className="home-opening home-opening-placeholder" aria-hidden="true" data-testid="seasonal-placeholder">
+      <div className="home-feature-placeholder" />
+      <div className="home-repertoire-placeholder" />
     </div>
   )
-  if (!now) {
-    return (
-      <div className="home-v6-primary-grid" data-testid="seasonal-composition">
-        <section className="home-v6-module home-v6-listen-module">
-          <p className="home-v6-module-label">Listen now</p>
-          <HomeListenCard song={listenSong} authors={authors} />
-        </section>
-      </div>
-    )
-  }
   return (
-    <div className="home-v6-primary-grid" data-testid="seasonal-composition">
-      <section className="home-v6-module home-v6-month-module">
-        <p className="home-v6-module-label">Season</p>
+    <div className="home-opening" data-testid="seasonal-composition" data-season={Boolean(now)}>
+      <HomeFeaturedSong song={listenSong} authors={authors} />
+      {now && <div className="home-season">
         <MonthContext window={now.window} month={now.month} />
-      </section>
-      <section className="home-v6-module home-v6-listen-module">
-        <p className="home-v6-module-label">Listen now</p>
-        <HomeListenCard song={listenSong} authors={authors} />
-      </section>
-      <section className="home-v6-module home-v6-songs-module">
-        <p className="home-v6-module-label">Seasonal songs</p>
         <MonthSongs
           key={now.window.start}
           songs={songs}
@@ -99,7 +72,7 @@ export function NowSection({ listingsByUid, trackSongsByUid, authors, obscured }
           authors={authors}
           obscured={obscured}
         />
-      </section>
+      </div>}
     </div>
   )
 }

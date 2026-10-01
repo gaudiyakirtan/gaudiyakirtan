@@ -11,6 +11,7 @@ import { ReaderOptions } from "./ReaderOptions";
 import { ServiceWorkerRegistration } from "./ServiceWorkerRegistration";
 import { useMobileHeaderVisibility } from "../utils/useMobileHeaderVisibility";
 import { LAYER } from "../utils/layers";
+import { SearchContext } from "../utils/SearchContext";
 
 // The Tailwind `md:` breakpoint, the same one that gates the mobile header and the drawer's scrim.
 const DESKTOP_QUERY = "(min-width: 768px)";
@@ -190,7 +191,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
         <main
           data-overlay-open={sidebarOpen || searchOpen ? 'true' : undefined}
           className={router.pathname === '/' ? 'min-w-0 flex-1' : 'flex-1 py-6 md:px-8'}
-        >{children}</main>
+        ><SearchContext.Provider value={openSearch}>{children}</SearchContext.Provider></main>
 
         <footer>
           <div className="mx-auto px-4 py-6 sm:px-6 lg:px-8">

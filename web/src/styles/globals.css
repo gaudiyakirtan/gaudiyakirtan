@@ -2,7 +2,7 @@
 @import "tailwindcss";
 @import './home.css';
 
-/* Brand display face (5th Avenue), used for the wordmark and the Home welcome heading only —
+/* Brand display face (5th Avenue), used for the wordmark, Home heading and featured title only —
    never for body copy: it is a decorative script with no Indic coverage, so song text must stay on
    the system stack. woff2 first (82 kB vs the 240 kB ttf); the ttf is a fallback for anything that
    somehow can't take woff2. `swap` so the wordmark renders in the fallback immediately rather than
@@ -20,7 +20,7 @@
   --font-display: '5th Avenue', 'Iowan Old Style', Georgia, serif;
 }
 
-/* Opt-in: only the brand wordmark + welcome heading wear the display face. */
+/* Opt-in: only brand headings and the featured song title wear the display face. */
 .font-display {
   font-family: var(--font-display);
 }

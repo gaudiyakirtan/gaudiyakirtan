@@ -8,7 +8,7 @@ import { homeVisibleBounds } from '../utils/useHomeLayout'
 import { utilityMotion } from '../utils/utilityMotion'
 import { LAYER } from '../utils/layers'
 import { ArtistAvatar, RecordingPickerButton } from './ArtistAvatar'
-import { LoadingIcon, PauseIcon, PlayIcon } from './icons/SidebarIcons'
+import { CheckIcon, LoadingIcon, PauseIcon, PlayIcon } from './icons/SidebarIcons'
 
 function takeLabelsFor(tracks: IAudioTrack[], fallback: string) {
   const counts = new Map<string, number>()
@@ -52,7 +52,7 @@ export function HomeRecordingPicker({ song, authors, open, onOpenChange }: IHome
   useEffect(() => {
     setLoadingUid(null)
     if (!open || !currentSong || status !== 'loading') return
-    const timer = setTimeout(() => setLoadingUid(trackUid), 250)
+    const timer = setTimeout(() => setLoadingUid(trackUid), 150)
     return () => clearTimeout(timer)
   }, [open, currentSong, trackUid, status])
 
@@ -69,7 +69,7 @@ export function HomeRecordingPicker({ song, authors, open, onOpenChange }: IHome
     const node = panel.current
     const button = trigger.current
     const row = button.closest('li')!
-    const frame = button.closest('.home-v6-frame')!
+    const frame = button.closest('.home-frame')!
     const list = node.querySelector('ul')!
     let positioning = false
     // Reveal only on open; later scroll/resize repositions must never fight the reader's scrolling.
@@ -180,6 +180,7 @@ export function HomeRecordingPicker({ song, authors, open, onOpenChange }: IHome
                 }}>
                 <span aria-hidden="true"><ArtistAvatar trackUid={track.uid} size={28} ring={false} /></span>
                 <span className="min-w-0 flex-1">{labels[index]}{current && <span className="block text-sm/5 text-[var(--tertiary)]">Current recording</span>}</span>
+                <CheckIcon className="home-take-check" size={16} aria-hidden="true" />
                 <span className="home-take-icon" aria-hidden="true" data-loading={showLoading} data-playing={playing}>
                   <LoadingIcon size={16} className="home-loading-icon" />
                   <PauseIcon size={16} className="home-pause-icon" />
