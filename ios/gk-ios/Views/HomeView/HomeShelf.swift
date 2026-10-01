@@ -53,6 +53,8 @@ struct HomeShelf<Item: Identifiable, Content: View>: View {
                     .accessibilityLabel(title)
                 }
             }
+            // `.contain` keeps each card's own identifier/semantics instead of inheriting this one.
+            .accessibilityElement(children: .contain)
             .accessibilityIdentifier("home.\(title.lowercased())")
         }
     }

@@ -40,6 +40,7 @@ struct SongGroupSongsView: View {
         .padding(HomeSpacing.lg)
         .background(Color.background.ignoresSafeArea())
         .navigationBarHidden(true)
+        .accessibilityElement(children: .contain)
         .accessibilityIdentifier("group.\(groupUid)")
         .onAppear {
             let repository = SongRepository.shared

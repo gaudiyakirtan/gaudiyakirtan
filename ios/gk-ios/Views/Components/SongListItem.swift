@@ -40,11 +40,11 @@ struct SongListItem: View {
             .padding(.horizontal, HomeSpacing.md)
             .padding(.vertical, HomeSpacing.sm)
             .frame(maxWidth: .infinity, minHeight: 56, alignment: .leading)
-            .accessibilityElement(children: .ignore)
-            .accessibilityLabel("\(title), \(entry.uid), \(authorName)")
-            .accessibilityValue(entry.audioAvailable ? "Audio available" : "")
         }
         .buttonStyle(HomeControlStyle())
+        // Named on the link itself so the one element keeps its button trait and full title.
+        .accessibilityLabel("\(title), \(entry.uid), \(authorName)")
+        .accessibilityValue(entry.audioAvailable ? "Audio available" : "")
         .accessibilityIdentifier("song.\(entry.uid)")
     }
 

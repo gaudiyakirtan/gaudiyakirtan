@@ -50,11 +50,10 @@ struct HomeView: View {
                 HStack(spacing: HomeSpacing.md) {
                     brandTitle(expanded: layout.isExpanded)
                         .fixedSize(horizontal: true, vertical: false)
+                    // The existing multi-colour artwork; template rendering would flatten it.
                     Image("mridanga")
                         .resizable()
-                        .renderingMode(.template)
                         .scaledToFit()
-                        .foregroundStyle(Color.highlight)
                         .frame(width: (layout.isExpanded ? 40 : 36) * 745.0 / 490.0,
                                height: layout.isExpanded ? 40 : 36)
                         .accessibilityHidden(true)
@@ -91,7 +90,8 @@ struct HomeView: View {
                         .foregroundStyle(Color.onHighlight)
                         .frame(minWidth: 44, minHeight: 44)
                 }
-                .buttonStyle(HomeControlStyle(surface: .accent))
+                // Named lookup: `AccentColor` and `accent` assets would both generate `Color.accent`.
+                .buttonStyle(HomeControlStyle(surface: Color("accent")))
                 .accessibilityLabel("Settings")
                 .accessibilityIdentifier("home.settings")
             }
@@ -131,6 +131,7 @@ struct HomeView: View {
         }
         .frame(maxWidth: 680)
         .frame(maxWidth: .infinity)
+        .accessibilityElement(children: .contain)
         .accessibilityIdentifier("home.featured")
     }
 }

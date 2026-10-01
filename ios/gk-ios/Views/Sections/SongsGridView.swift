@@ -25,6 +25,7 @@ struct SongsGridView: View {
                         SongCard(entry: entry)
                     }
                 }
+                .accessibilityElement(children: .contain)
                 .accessibilityIdentifier("home.songs")
             }
         }

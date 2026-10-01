@@ -42,7 +42,7 @@ struct HomeControlStyle: ButtonStyle {
     }
 
     private struct ControlBody: View {
-        let configuration: ButtonStyle.Configuration
+        let configuration: ButtonStyleConfiguration
         let cornerRadius: CGFloat
         let surface: Color
         let outlined: Bool
@@ -68,10 +68,12 @@ struct HomeControlStyle: ButtonStyle {
                                value: isHovered)
                 }
                 .overlay { shape.strokeBorder(outlined ? Color.neutral : Color.border, lineWidth: 1) }
+                // Inset strokes keep the ring at exactly 0–2 (parent surface) and 2–4 (highlight)
+                // outside the target, so shelves' 4-unit scroll padding never clips it.
                 .overlay {
                     if isFocused {
-                        shape.stroke(Color.background, lineWidth: 2).padding(-2)
-                        shape.stroke(Color.highlight, lineWidth: 2).padding(-4)
+                        shape.strokeBorder(Color.background, lineWidth: 2).padding(-2)
+                        shape.strokeBorder(Color.highlight, lineWidth: 2).padding(-4)
                     }
                 }
                 .contentShape(shape)

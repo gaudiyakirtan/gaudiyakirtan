@@ -48,10 +48,10 @@ struct BooksScrollView: View {
                     } else {
                         // A quiet contained-cover fallback, including loading/failed requests.
                         ZStack {
-                            Color.accent.opacity(0.08)
+                            Color("accent").opacity(0.08)
                             Image(systemName: "book.closed")
                                 .font(.largeTitle)
-                                .foregroundStyle(Color.accent)
+                                .foregroundStyle(Color("accent"))
                         }
                     }
                 }

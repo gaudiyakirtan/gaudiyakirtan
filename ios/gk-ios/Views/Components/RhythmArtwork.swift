@@ -15,7 +15,7 @@ struct RhythmArtwork: View {
             curveA.move(to: CGPoint(x: 24, y: 76))
             curveA.addCurve(to: CGPoint(x: 338, y: 90),
                             control1: CGPoint(x: 116, y: 12), control2: CGPoint(x: 240, y: 16))
-            context.stroke(curveA, with: .color(.accent.opacity(0.18)),
+            context.stroke(curveA, with: .color(Color("accent").opacity(0.18)),
                            style: StrokeStyle(lineWidth: 28, lineCap: .round))
 
             var curveB = Path()
@@ -28,7 +28,7 @@ struct RhythmArtwork: View {
             for x in [48, 76, 112, 168, 196, 252] {
                 let mark = Path(roundedRect: CGRect(x: CGFloat(x), y: 180, width: 8, height: 24),
                                 cornerRadius: 4)
-                context.fill(mark, with: .color(.accent.opacity(0.55)))
+                context.fill(mark, with: .color(Color("accent").opacity(0.55)))
             }
         }
         .aspectRatio(3.0 / 2.0, contentMode: .fit)

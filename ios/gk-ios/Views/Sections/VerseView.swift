@@ -36,7 +36,8 @@ struct VerseView: View {
             guard pair.count == 2 else { return partial }
             return partial
                 + Text(pair[0]).foregroundColor(homeReading ? Color.primaryText : Color.highlight)
-                + Text(" — \(pair[1]); ")
+                // `nil` leaves Song Detail's gloss inheriting its existing foreground.
+                + Text(" — \(pair[1]); ").foregroundColor(homeReading ? Color.secondaryText : nil)
         }
     }
 
@@ -76,7 +77,6 @@ struct VerseView: View {
                    !wtw.words.isEmpty {
                     combinedWTWText(wtw)
                         .font(homeReading ? .body : .system(size: 14))
-                        .foregroundStyle(homeReading ? Color.secondaryText : Color.primaryText)
                         .frame(maxWidth: .infinity, alignment: .leading)
                 }
 
