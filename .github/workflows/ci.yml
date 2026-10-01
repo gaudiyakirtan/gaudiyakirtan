@@ -116,13 +116,24 @@ jobs:
       - name: Capture Home screenshots
         if: always()
         run: |
-          xcrun simctl ui booted appearance light
-          xcrun simctl launch --terminate-running-process booted gaudiyakirtan.gk-ios
+          device_udid=$(xcrun simctl list devices available |
+            sed -n 's/^[[:space:]]*iPhone 16 (\([^)]*\)).*/\1/p' |
+            head -1)
+          app_path=$(find "$HOME/Library/Developer/Xcode/DerivedData" \
+            -path '*/Build/Products/Debug-iphonesimulator/gk-ios.app' |
+            head -1)
+          test -n "$device_udid"
+          test -n "$app_path"
+          xcrun simctl boot "$device_udid" || true
+          xcrun simctl bootstatus "$device_udid" -b
+          xcrun simctl install "$device_udid" "$app_path"
+          xcrun simctl ui "$device_udid" appearance light
+          xcrun simctl launch --terminate-running-process "$device_udid" gaudiyakirtan.gk-ios
           sleep 3
-          xcrun simctl io booted screenshot "$RUNNER_TEMP/home-ios-gaura.png"
-          xcrun simctl ui booted appearance dark
+          xcrun simctl io "$device_udid" screenshot "$RUNNER_TEMP/home-ios-gaura.png"
+          xcrun simctl ui "$device_udid" appearance dark
           sleep 1
-          xcrun simctl io booted screenshot "$RUNNER_TEMP/home-ios-shyam.png"
+          xcrun simctl io "$device_udid" screenshot "$RUNNER_TEMP/home-ios-shyam.png"
       - uses: actions/upload-artifact@v4
         if: always()
         with:
