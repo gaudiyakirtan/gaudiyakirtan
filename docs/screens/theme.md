@@ -170,7 +170,7 @@ immediately; animation never delays playback, navigation or focus.
 |---|---:|---|---|
 | `instant` | 0 ms | `snap()` | Focus, theme repaint, layout/content replacement, reduced motion |
 | `press` | 90 ms | Stock indication | Press state; optional standalone icon glyph scale to 0.96 on Web/iOS |
-| `release` | 120 ms | Stock indication | Return to rest without overshoot |
+| `release` | 140 ms | Stock indication | Return to rest without overshoot |
 | `hover` | 120 ms | Stock state layer | Surface feedback on hover-capable devices |
 | `selection` | 160 ms | `fastEffectsSpec()` | Current-selection tint/marker |
 | `icon` | 160 ms | `fastEffectsSpec()` | In-place opacity crossfade, e.g. play/pause |

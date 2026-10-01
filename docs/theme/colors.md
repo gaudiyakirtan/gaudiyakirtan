@@ -21,6 +21,15 @@ This document defines the unified color scheme for the Gaudiya Kirtan applicatio
 | `border` | `#E6D7C3` | `#333333` | Border color for UI elements |
 | `neutral` | `#6E6E6E` | `#9B9B9B` | Neutral text and less important content |
 
+### Home v6 scoped roles
+
+Home’s editorial canvas derives from the same Gaura/Shyam intent but uses named local roles so the
+reference-led white cards, navy focal module, topic fills, and author swatches are shared without
+raw values in feature components. Implementations define `homeCanvas`, `homeCard`,
+`homeMutedSurface`, `homeInk`, `homeMuted`, `homeLine`, `homeFocus`, `homeFocusSoft`,
+`homeFocusAccent`, `homeOnFocus`, `homeTopic1–3`, `homeTopicInk1–3`, and `homeSwatch1–4` in their
+theme layer.
+
 ## Implementation Guide
 
 ### iOS (Swift)

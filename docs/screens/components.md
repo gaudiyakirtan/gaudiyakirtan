@@ -1,6 +1,6 @@
 # Shared components
 
-**Spec version:** 7
+**Spec version:** 8
 
 **Figma frames:** `Components`, `Group 15/16`, `Frame *`.
 
@@ -71,19 +71,12 @@ Only home passes the flag, so the index pages are unaffected.
 
 Topics and Books each render nothing when the corpus ships no groups of that kind.
 
-Home v5 uses flat, intrinsic-height cards with text on solid surfaces, covers contained and portraits
-identified by adjacent names; geometry is in [Home](home.md#responsive-geometry). Shelf headings and
-existing View all destinations remain separate from card links. At enlarged text sizes, `singleRow`
-becomes a vertical list of the same items; it never reduces the set to a preview. Index grids stay
-unchanged. On Web, an overflowing shelf has labelled Previous/Next buttons in its heading; one
-activation scrolls one visible shelf width, clamped to the end. At an end, keep the button focusable
-with `aria-disabled="true"` and ignore activation. Scroll normally with browser smooth behavior,
-instantly under reduced motion. Native uses normal scrolling and accessibility traversal; no
-extra shelf arrows. Reveal focused items and keep focus rings inside the scrollable padding.
+Home v6 replaces these shelves on Home with bounded bento modules while retaining the complete
+destination screens. The reusable shelf components remain available to non-Home consumers.
 
 ## `HeroBanner`
 
-Legacy overlaid-art banner, retained for existing non-v5 consumers. Home v5 uses MonthContext
+Legacy overlaid-art banner, retained for existing non-Home consumers. Home v6 uses MonthContext
 below instead; its full-text/non-figurative contract overrides this component's clamped caption and
 best-effort photograph behavior. Do not retrofit other consumers in the Home slice.
 
@@ -103,17 +96,17 @@ licensing remain recorded in `public/assets/months/CREDITS.md`.
 
 ## Home composition
 
-`MonthContext` takes resolved lunar/Gaudiya names, intercalary state and observances; it draws text
-on the solid card plus a separate decorative `RhythmArtwork` slot. `MonthSongs` takes ordered
-listings, optional existing recording actions and an empty-state message. It reuses `SongListItem`;
-the container is not interactive. Titles, order, caps, layout and availability are owned by
-[Home v5](home.md). Equivalent responsibilities apply across React, SwiftUI and Compose; new data
-types/services are unnecessary. Standard cards/list primitives suffice; only the decorative path
-composition needs custom drawing. There is no native picker implementation requirement in v5.
+`MonthContext` takes resolved lunar/Gaudiya names, intercalary state and observances; v6 renders them
+inside the dark focal card with a static twelve-month dial. `MonthSongs` takes ordered listings,
+optional existing recording actions and an empty-state message. It reuses `SongListItem`; the
+container is not interactive. Titles, order, caps, layout and availability are owned by
+[Home v6](home.md). There is no native picker implementation requirement.
 
-## RhythmArtwork
+## RhythmArtwork (retired from Home)
 
-One static vector master, identical across months/platforms; no random variants, image request,
+Retained only for non-Home experimentation. Home v6 does not render it: the equal-height marks and
+broad curves still read as generic decoration beside real playback controls. If another screen
+adopts it, use one static vector master, identical across months/platforms; no random variants, image request,
 calendar-precision claim or audio-state dependency. Use a 360 × 240 coordinate space on
 `backgroundOffset`, with round caps:
 
@@ -257,11 +250,13 @@ Android `res/font/`) so the wordmark reads identically across platforms. It is a
 - A `HeroBanner` with an unreachable `imageSrc` still renders legibly.
 - Home rows/cards have native navigation semantics, visible state layers on both surfaces, and
   separate recording actions; focus is never clipped or trapped by the non-modal picker.
-- RhythmArtwork matches the fixed geometry, works offline and stays static/silent. Home uses
-  MonthContext rather than the legacy photograph banner; enlarged shelves retain all items.
+- Home uses the static MonthContext dial rather than RhythmArtwork or the legacy photograph banner.
 
 ## Change log
 
+- **v8** — Home v6 retires RhythmArtwork from Home and introduces composition-level Listen, Season,
+  Seasonal songs, Books, Recently opened, Authors and Topics modules. Modules use their own data-led
+  visual treatment rather than a shared card template.
 - **v7** — Home v5 shared contracts: semantic row/card destinations, readable row UID text,
   surface-aware state layers, scalable canonical rows, accessible shelves, MonthContext/MonthSongs,
   static RhythmArtwork and existing Home picker semantics. Retains UID geometry and player/detail
