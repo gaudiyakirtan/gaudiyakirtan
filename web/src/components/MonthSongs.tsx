@@ -22,10 +22,13 @@ export function MonthSongs({ songs, trackSongsByUid, authors, obscured }: IMonth
   }, [router.events])
   useEffect(() => { if (obscured) setOpenUid(null) }, [obscured])
   return (
-    <section className="home-seasonal-card home-month-songs" aria-labelledby="month-songs-heading">
-      <h2 id="month-songs-heading" className="mb-4 text-xl/7 font-semibold">Sung this month</h2>
+    <article className="home-v6-card home-v6-month-songs" aria-labelledby="month-songs-heading">
+      <div className="home-v6-list-heading">
+        <h2 id="month-songs-heading">Sung this month</h2>
+        <span>{songs.length}</span>
+      </div>
       {/* Explicit role: WebKit drops list semantics from `list-style: none` lists. */}
-      {songs.length ? <ul role="list">
+      {songs.length ? <ul role="list" className="home-v6-month-list">
         {songs.map((song) => (
           <li key={song.uid} className="home-month-row">
             <SongListItem song={song} href={`/songs/${song.uid}`} surface="offset" />
@@ -36,6 +39,6 @@ export function MonthSongs({ songs, trackSongsByUid, authors, obscured }: IMonth
           </li>
         ))}
       </ul> : <p className="text-base/6 text-[var(--secondary)]">No songs are specific to this month.</p>}
-    </section>
+    </article>
   )
 }

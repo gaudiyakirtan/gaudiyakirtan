@@ -69,7 +69,7 @@ export function HomeRecordingPicker({ song, authors, open, onOpenChange }: IHome
     const node = panel.current
     const button = trigger.current
     const row = button.closest('li')!
-    const frame = button.closest('.home-frame')!
+    const frame = button.closest('.home-v6-frame')!
     const list = node.querySelector('ul')!
     let positioning = false
     // Reveal only on open; later scroll/resize repositions must never fight the reader's scrolling.

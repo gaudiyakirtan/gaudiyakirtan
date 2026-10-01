@@ -7,10 +7,7 @@ import { AuthorNames, ITrackSong } from '../services/trackListingView'
 import { useTheme } from '../utils/ThemeContext'
 import { useHomeLayout } from '../utils/useHomeLayout'
 import { NowSection } from './NowSection'
-import { RecentlyPlayedSection } from './RecentlyPlayedSection'
-import { TopicsSection } from './TopicsSection'
-import { BooksSection } from './BooksSection'
-import { AuthorsSection } from './AuthorsSection'
+import { HomeDiscoveryGrid } from './HomeDiscoveryGrid'
 
 interface IHomeScreenProps {
   referenceListings: ISongListing[]
@@ -21,7 +18,7 @@ interface IHomeScreenProps {
   topics: ISongGroup[]
 }
 
-/** Home v5: seasonal context and repertoire, reading history, then independent browse shelves. */
+/** Home v6: an airy bento canvas built from real seasonal, playback and library data. */
 export function HomeScreen({ referenceListings, trackSongsByUid, trackAuthors, authors, books, topics }: IHomeScreenProps) {
   const { theme } = useTheme()
   const ref = useRef<HTMLDivElement>(null)
@@ -30,17 +27,20 @@ export function HomeScreen({ referenceListings, trackSongsByUid, trackAuthors, a
   return (
     <div ref={ref} className="home-screen" data-testid="home">
       <span className="home-text-probe" aria-hidden="true" />
-      <div className="home-frame">
-        <div className="home-brand">
+      <div className="home-v6-frame">
+        <header className="home-v6-masthead">
           <h1 className="font-display font-normal">Śrī Gaudiya Kirtan</h1>
           {/* eslint-disable-next-line @next/next/no-img-element -- bundled decorative brand mark */}
           <img src={theme === 'dark' ? '/assets/Mridangam-BlueCover-01.svg' : '/assets/Mridanga-01.svg'} alt="" aria-hidden="true" />
-        </div>
+          <p aria-hidden="true">Songbooks, recordings and seasonal kīrtana in one quiet place.</p>
+        </header>
         <NowSection listingsByUid={listingsByUid} trackSongsByUid={trackSongsByUid} authors={trackAuthors} obscured={obscured} />
-        <RecentlyPlayedSection listingsByUid={listingsByUid} />
-        <TopicsSection topics={topics} title="Topics" limit={12} singleRow viewAllLink="/topics" />
-        <BooksSection books={books} title="Books" limit={12} singleRow viewAllLink="/books" />
-        <AuthorsSection authors={authors.filter((a) => a.author.uid !== UNKNOWN_AUTHOR_UID)} title="Authors" limit={12} singleRow viewAllLink="/authors" />
+        <HomeDiscoveryGrid
+          books={books}
+          topics={topics}
+          authors={authors.filter((author) => author.author.uid !== UNKNOWN_AUTHOR_UID)}
+          listingsByUid={listingsByUid}
+        />
       </div>
     </div>
   )

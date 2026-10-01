@@ -46,6 +46,33 @@
   --background-offset: var(--gaur-background-offset);
   --border: var(--gaur-border);
   --neutral: var(--gaur-neutral);
+  --home-canvas: #FBFAF7;
+  --home-card: #FFFFFF;
+  --home-card-muted: #F2F1ED;
+  --home-ink: #141414;
+  --home-muted: #6B6963;
+  --home-line: #E6E3DC;
+  --home-focus: #101827;
+  --home-focus-soft: #1A263C;
+  --home-focus-accent: #6EC6E7;
+  --home-on-focus: #FFFFFF;
+  --home-focus-muted: rgba(255, 255, 255, 0.72);
+  --home-focus-subtle: rgba(255, 255, 255, 0.24);
+  --home-focus-track: rgba(255, 255, 255, 0.08);
+  --home-focus-glow: rgba(110, 198, 231, 0.20);
+  --home-shadow: 0 18px 50px rgba(24, 24, 22, 0.07);
+  --home-focus-shadow: 0 24px 60px rgba(8, 17, 32, 0.24);
+  --home-portrait-shadow: 0 8px 22px rgba(25, 25, 25, 0.14);
+  --home-swatch-1: #3F7165;
+  --home-swatch-2: #995337;
+  --home-swatch-3: #4E6698;
+  --home-swatch-4: #806078;
+  --home-topic-1: #C9E6DD;
+  --home-topic-2: #C9D8F2;
+  --home-topic-3: #F2D49B;
+  --home-topic-ink-1: #15211F;
+  --home-topic-ink-2: #172033;
+  --home-topic-ink-3: #3A2712;
 }
 
 /* Dark theme */
@@ -61,6 +88,33 @@
   --background-offset: var(--shyam-background-offset);
   --border: var(--shyam-border);
   --neutral: var(--shyam-neutral);
+  --home-canvas: #151515;
+  --home-card: #202020;
+  --home-card-muted: #292929;
+  --home-ink: #F2F1ED;
+  --home-muted: #AAA8A3;
+  --home-line: #353535;
+  --home-focus: #0E1625;
+  --home-focus-soft: #172640;
+  --home-focus-accent: #8CB4FF;
+  --home-on-focus: #151515;
+  --home-focus-muted: rgba(255, 255, 255, 0.72);
+  --home-focus-subtle: rgba(255, 255, 255, 0.24);
+  --home-focus-track: rgba(255, 255, 255, 0.08);
+  --home-focus-glow: rgba(140, 180, 255, 0.20);
+  --home-shadow: 0 18px 52px rgba(0, 0, 0, 0.26);
+  --home-focus-shadow: 0 24px 60px rgba(0, 0, 0, 0.34);
+  --home-portrait-shadow: 0 8px 22px rgba(0, 0, 0, 0.24);
+  --home-swatch-1: #4B8B7D;
+  --home-swatch-2: #B96949;
+  --home-swatch-3: #6682BD;
+  --home-swatch-4: #99738F;
+  --home-topic-1: #C9E6DD;
+  --home-topic-2: #C9D8F2;
+  --home-topic-3: #F2D49B;
+  --home-topic-ink-1: #15211F;
+  --home-topic-ink-2: #172033;
+  --home-topic-ink-3: #3A2712;
 }
 
 /* System preference fallback for SSR */

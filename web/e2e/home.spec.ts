@@ -40,32 +40,34 @@ async function stubMedia(page: Page) {
 
 for (const theme of ['gaura', 'shyam']) {
   for (const available of [390, 720, 1024]) {
-    test(`${theme}: available width ${available} retains the composition and independent shelves`, async ({ page }, testInfo) => {
+    test(`${theme}: available width ${available} renders the bento composition`, async ({ page }, testInfo) => {
       const width = available === 1024 ? available + 256 : available
       await page.setViewportSize({ width, height: 1000 })
       await setup(page, theme)
       await page.goto('/')
       await expect(home(page).getByRole('heading', { level: 1 })).toHaveText('Śrī Gaudiya Kirtan')
       await expect(home(page).locator('.home-month-row')).toHaveCount(6)
-      const context = await home(page).locator('.home-month-context').boundingBox()
-      const songs = await home(page).locator('.home-month-songs').boundingBox()
-      const frame = await home(page).locator('.home-frame').boundingBox()
+      await expect(home(page).locator('.home-v6-listen-card')).toBeVisible()
+      await expect(home(page).locator('.home-v6-month-card')).toBeVisible()
+      await expect(home(page).locator('.home-v6-month-songs')).toBeVisible()
+      await expect(home(page).locator('.home-v6-books-card')).toBeVisible()
+      await expect(home(page).locator('.home-v6-authors-card')).toBeVisible()
+      await expect(home(page).locator('.home-v6-topic-grid')).toBeVisible()
+      const month = await home(page).locator('.home-v6-month-module').boundingBox()
+      const listen = await home(page).locator('.home-v6-listen-module').boundingBox()
+      const songs = await home(page).locator('.home-v6-songs-module').boundingBox()
       expect(Math.round((await home(page).boundingBox())!.width)).toBe(available)
-      if (available >= 840) {
-        expect(Math.abs(context!.y - songs!.y)).toBeLessThan(1)
-        expect(context!.width / songs!.width).toBeCloseTo(5 / 7, 2)
-        expect(songs!.x - context!.x - context!.width).toBeCloseTo(24, 0)
+      if (available >= 1021) {
+        expect(listen!.x).toBeLessThan(month!.x)
+        expect(month!.x).toBeLessThan(songs!.x)
+        expect(month!.y).toBeLessThan(listen!.y)
       } else {
-        expect(songs!.y).toBeGreaterThanOrEqual(context!.y + context!.height + (available < 600 ? 16 : 24))
+        expect(month!.y).toBeLessThan(listen!.y)
+        if (available < 701) expect(listen!.y).toBeLessThan(songs!.y)
       }
-      for (const kind of ['topics', 'books', 'authors']) {
-        const shelf = home(page).locator(`.home-shelf-${kind}`)
-        const box = await shelf.boundingBox()
-        expect(box!.width).toBeCloseTo(frame!.width, 0)
-        const link = shelf.locator('li a').first()
-        await expect(link).toHaveAttribute('href', /\/(topics|books|songs)/)
-        expect(await link.evaluate((el) => getComputedStyle(el).transform)).toBe('none')
-      }
+      await expect(home(page).locator('.home-v6-cover-grid a').first()).toHaveAttribute('href', /\/books\//)
+      await expect(home(page).locator('.home-v6-topic-grid a').first()).toHaveAttribute('href', /\/topics\//)
+      await expect(home(page).getByRole('link', { name: /Browse all topics/ })).toHaveAttribute('href', '/topics')
       expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
       await page.screenshot({ path: testInfo.outputPath(`home-${theme}-${available}.png`), fullPage: true })
     })
@@ -74,19 +76,18 @@ for (const theme of ['gaura', 'shyam']) {
 
 test('sidebar collapse selects the Home breakpoint from available width', async ({ page }) => {
   await setup(page)
-  await page.setViewportSize({ width: 1024, height: 1000 })
+  await page.setViewportSize({ width: 1200, height: 1000 })
   await page.goto('/')
-  await expect(home(page).locator('.home-seasonal')).toHaveCSS('grid-template-columns', /px$/)
-  const stacked = await home(page).locator('.home-month-songs').boundingBox()
-  const context = await home(page).locator('.home-month-context').boundingBox()
-  expect(stacked!.y).toBeGreaterThan(context!.y)
+  const initialMonth = await home(page).locator('.home-v6-month-module').boundingBox()
+  const initialListen = await home(page).locator('.home-v6-listen-module').boundingBox()
+  expect(initialMonth!.y).toBeLessThan(initialListen!.y)
   await page.getByRole('button', { name: 'Collapse sidebar' }).click()
-  await expect.poll(async () => Math.round((await home(page).boundingBox())!.width)).toBe(1024)
+  await expect.poll(async () => Math.round((await home(page).boundingBox())!.width)).toBe(1200)
   await expect.poll(async () => {
-    const songs = await home(page).locator('.home-month-songs').boundingBox()
-    const context = await home(page).locator('.home-month-context').boundingBox()
-    return Math.round(songs!.y - context!.y)
-  }).toBe(0)
+    const month = await home(page).locator('.home-v6-month-module').boundingBox()
+    const listen = await home(page).locator('.home-v6-listen-module').boundingBox()
+    return month!.x > listen!.x
+  }).toBe(true)
 })
 
 test('picker opens at current/first take, dismisses without trapping, and keeps playback in place', async ({ page }) => {
@@ -156,7 +157,7 @@ test('outside pointer, trigger toggle, route changes and the drawer dismiss the 
   await triggers(page).first().click()
   await expect(panel(page)).toHaveCount(0)
   await triggers(page).first().click()
-  await home(page).getByRole('heading', { level: 1 }).click()
+  await home(page).locator('.home-v6-month-card').click({ position: { x: 12, y: 12 } })
   await expect(panel(page)).toHaveCount(0)
   await triggers(page).first().click()
   await page.getByRole('button', { name: 'Open menu' }).evaluate((el) => (el as HTMLButtonElement).click())
@@ -168,50 +169,40 @@ test('outside pointer, trigger toggle, route changes and the drawer dismiss the 
   await expect(panel(page)).toHaveCount(0)
 })
 
-test('shelf controls page by visible width, preserve end focus, and reveal keyboard destinations', async ({ page }) => {
+test('compact discovery links remain keyboard reachable and keep real destinations', async ({ page }) => {
   await setup(page)
   await page.setViewportSize({ width: 720, height: 1000 })
   await page.emulateMedia({ reducedMotion: 'reduce' })
   await page.goto('/')
-  const shelf = home(page).locator('.home-shelf-topics ul')
-  const next = home(page).getByRole('button', { name: 'Next topics' })
-  const previous = home(page).getByRole('button', { name: 'Previous topics' })
-  await expect(previous).toHaveAttribute('aria-disabled', 'true')
-  await next.click()
-  const metrics = await shelf.evaluate((el) => ({ left: el.scrollLeft, width: el.clientWidth, total: el.scrollWidth }))
-  expect(metrics.left).toBe(Math.min(metrics.width, metrics.total - metrics.width))
-  // Reduced motion removes the standalone glyph's press scale, not just its transition.
-  await next.hover()
-  await page.mouse.down()
-  await expect(next.locator('svg')).toHaveCSS('transform', 'none')
-  await page.mouse.up()
-  for (let i = 0; i < 4; i++) await next.press('Enter')
-  await expect(next).toHaveAttribute('aria-disabled', 'true')
-  await expect(next).toBeFocused()
-  await shelf.locator('a').first().focus()
-  await expect.poll(() => shelf.evaluate((el) => el.scrollLeft)).toBe(0)
-  const first = shelf.locator('a').first()
-  await expect(first).toHaveCSS('outline-width', '2px')
-  await expect(first).toHaveCSS('outline-offset', '2px')
+  const topic = home(page).locator('.home-v6-topic-grid a').first()
+  const book = home(page).locator('.home-v6-cover-grid a').first()
+  const author = home(page).locator('.home-v6-authors-card ul a').first()
+  await expect(topic).toHaveAttribute('href', /\/topics\//)
+  await expect(book).toHaveAttribute('href', /\/books\//)
+  await expect(author).toHaveAttribute('href', /\/songs\?author=/)
+  await topic.focus()
+  await expect(topic).toBeFocused()
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
 })
 
 for (const scale of ['text200', 'zoom400']) {
-  test(`${scale}: shelves retain every item and controls reflow without page overflow`, async ({ page }) => {
+test(`${scale}: modules reflow without page overflow`, async ({ page }) => {
     await setup(page, 'shyam', true)
     await page.setViewportSize({ width: 1280, height: 1000 })
     await page.goto('/')
-    const counts = await home(page).locator('.home-shelf-list').evaluateAll((shelves) => shelves.map((shelf) => shelf.children.length))
+    const topicCount = await home(page).locator('.home-v6-topic-grid a').count()
+    const coverCount = await home(page).locator('.home-v6-cover-grid a').count()
     if (scale === 'text200') await page.evaluate(() => { document.documentElement.style.fontSize = '200%' })
     else await page.setViewportSize({ width: 320, height: 800 })
-    await expect(home(page).locator('.home-shelf-list').first()).toHaveCSS('flex-direction', 'column')
-    expect(await home(page).locator('.home-shelf-list').evaluateAll((shelves) => shelves.map((shelf) => shelf.children.length))).toEqual(counts)
+    expect(await home(page).locator('.home-v6-topic-grid a').count()).toBe(topicCount)
+    expect(await home(page).locator('.home-v6-cover-grid a').count()).toBe(coverCount)
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true)
-    await expect(home(page).locator('.song-row-title').first()).toHaveCSS('-webkit-line-clamp', 'none')
-    const finalLink = home(page).locator('.home-shelf-authors li a').last()
+    const finalLink = home(page).locator('.home-v6-authors-card a').last()
     await finalLink.focus()
+    await expect(finalLink).toBeFocused()
     const box = await finalLink.boundingBox()
-    expect(box!.y).toBeGreaterThanOrEqual(0)
-    expect(box!.y + box!.height).toBeLessThanOrEqual(scale === 'text200' ? 1000 : 800)
+    expect(box!.x).toBeGreaterThanOrEqual(0)
+    expect(box!.x + box!.width).toBeLessThanOrEqual(scale === 'text200' ? 1280 : 320)
   })
 }
 
@@ -261,12 +252,12 @@ test('recents resolves nonseasonal songs, supports legacy timestamps, and stays 
     ]))
   })
   await page.goto('/')
-  const recents = home(page).getByRole('region', { name: 'Recently played' })
-  await expect(recents.getByText('Songs you recently opened')).toBeVisible()
+  const recents = home(page).locator('.home-v6-recent-module')
+  await expect(recents.getByText('Recently opened')).toBeVisible()
   await expect(recents.locator('a')).toHaveCount(4)
   await expect(recents.locator('a').nth(1)).toHaveAttribute('href', '/songs/N9')
   const box = await recents.boundingBox()
-  const topics = await home(page).locator('.home-shelf-topics').boundingBox()
+  const topics = await home(page).locator('.home-v6-topics-module').boundingBox()
   expect(topics!.y).toBeGreaterThanOrEqual(box!.y + box!.height + 32)
   await recents.locator('a').nth(1).click()
   await expect(page).toHaveURL(/\/songs\/N9$/)
@@ -274,22 +265,34 @@ test('recents resolves nonseasonal songs, supports legacy timestamps, and stays 
     .toEqual({ uid: 'N9', lastOpenedAt: new Date('2026-11-14T12:00:00Z').getTime() })
 })
 
-for (const [date, expected] of [['2026-05-15', 'Puruṣottama'], ['2027-01-10', 'No songs are specific to this month.'], ['2099-01-01', 'out-of-range']]) {
+for (const [date, expected] of [
+  ['2026-05-15', 'Puruṣottama'],
+  ['2026-06-15', 'Jyeṣṭha'],
+  ['2026-09-01', 'Bhādrapada'],
+  ['2027-01-10', 'No songs are specific to this month.'],
+  ['2099-01-01', 'out-of-range'],
+]) {
   test(`calendar state: ${expected}`, async ({ page }) => {
     await setup(page)
     await page.clock.setFixedTime(new Date(`${date}T12:00:00Z`))
     const response = await page.goto('/')
     expect(await response!.text()).toContain('seasonal-placeholder')
     await expect(home(page).getByRole('heading', { level: 1 })).toBeVisible()
-    if (expected === 'out-of-range') await expect(home(page).locator('.home-seasonal')).toHaveCount(0)
+    if (expected === 'out-of-range') {
+      await expect(home(page).locator('.home-v6-month-card')).toHaveCount(0)
+      await expect(home(page).locator('.home-v6-listen-card')).toBeVisible()
+    }
     else {
       await expect(home(page).getByText(expected, { exact: true })).toBeVisible()
       if (expected === 'Puruṣottama') {
         await expect(home(page).getByText('adhika-māsa', { exact: true })).toBeVisible()
         await expect(home(page).getByText('Puruṣottama (adhika)', { exact: true })).toHaveCount(0)
       }
+      if (expected === 'Jyeṣṭha' || expected === 'Bhādrapada') {
+        await expect(home(page).locator('.home-v6-month-tick-active')).toHaveCount(2)
+      }
     }
-    await expect(home(page).getByRole('heading', { name: 'Recently played' })).toHaveCount(0)
+    await expect(home(page).locator('.home-v6-recent-module')).toHaveCount(0)
   })
 }
 
@@ -325,6 +328,7 @@ test('current-take state follows pauses, external selection, errors and blocked 
   await expect(panel(page).getByRole('button').nth(1)).toHaveAttribute('aria-current', 'true')
   await page.evaluate(() => window.dispatchEvent(new CustomEvent('test-audio-event', { detail: 'error' })))
   await expect(panel(page).locator('[aria-current="true"]')).toHaveAttribute('aria-label', /Play.*error/)
+  await expect(home(page).locator('.home-v6-play')).toHaveAccessibleName(/Retry/)
   await expect(home(page).locator('[aria-live]')).toHaveCount(0)
   await page.evaluate(() => window.dispatchEvent(new Event('test-audio-block')))
   await panel(page).getByRole('button').first().click()
