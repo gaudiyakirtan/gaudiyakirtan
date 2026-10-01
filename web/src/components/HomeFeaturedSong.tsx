@@ -55,7 +55,12 @@ export function HomeFeaturedSong({ song, authors }: IHomeFeaturedSongProps) {
       <p className="home-eyebrow">A song for today</p>
       <span className="song-row-uid">{song.uid}</span>
     </div>
-    <h2 id="home-feature-heading" className="home-feature-title font-display">{title}</h2>
+    <h2
+      id="home-feature-heading"
+      className={`home-feature-title${settings.listLanguage === 'Latn' ? ' font-display' : ''}`}
+    >
+      {title}
+    </h2>
     {author && <p className="home-feature-author">{author}</p>}
     <div className="home-feature-actions">
       <Link href={`/songs/${song.uid}`} className="home-read-action utility-target" aria-label={`Read & sing ${title}`}>

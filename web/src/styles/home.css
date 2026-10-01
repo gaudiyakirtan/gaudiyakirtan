@@ -167,7 +167,7 @@
    This preserves >4.5:1 including the 10% onHighlight interaction layer in both palettes. */
 .home-read-action { background: color-mix(in srgb, var(--highlight) 80%, var(--primary)); color: var(--on-highlight); font-weight: 600; }
 .home-read-action svg { flex: none; }
-.home-play-action { width: 160px; justify-content: start; text-align: left; padding-inline: 8px; }
+.home-play-action { width: auto; min-width: 160px; justify-content: start; text-align: left; padding-inline: 8px; }
 .home-read-action::before { background: var(--on-highlight); }
 .home-play-action > span:nth-child(2) { min-width: 0; }
 .home-feature-performer { position: relative; margin-top: 12px; max-width: 30em; font-size: .75rem; line-height: 1.25rem; color: var(--tertiary); overflow-wrap: anywhere; }
@@ -251,6 +251,7 @@
   .home-search { width: 288px; }
   .home-opening { grid-template-columns: repeat(12, minmax(0, 1fr)); gap: 24px; }
   .home-feature, .home-feature-placeholder { grid-column: span 7; min-height: 364px; }
+  .home-opening[data-season='false'] .home-feature { grid-column: 1 / -1; }
   .home-season, .home-repertoire-placeholder { grid-column: span 5; }
   .home-feature-title { font-size: 3rem; margin-top: 40px; }
   .home-feature-actions { margin-top: 32px; }
@@ -281,6 +282,7 @@
 .home-screen[data-large-text='true'] .song-row-title { display: block; overflow: visible; -webkit-line-clamp: unset; }
 .home-screen[data-large-text='true'] .home-author-row { flex-wrap: wrap; }
 .home-screen[data-large-text='true'] .home-author-row > span { flex-basis: 100%; }
+.home-screen[data-large-text='true'] .home-play-action { width: 100%; }
 @media (hover: hover) {
   .home-screen a:hover { text-decoration: underline; text-underline-offset: 4px; }
 }
