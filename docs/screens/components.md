@@ -1,6 +1,6 @@
 # Shared components
 
-**Spec version:** 8
+**Spec version:** 9
 
 **Figma frames:** `Components`, `Group 15/16`, `Frame *`.
 
@@ -71,13 +71,13 @@ Only home passes the flag, so the index pages are unaffected.
 
 Topics and Books each render nothing when the corpus ships no groups of that kind.
 
-Home v6 replaces these shelves on Home with bounded bento modules while retaining the complete
-destination screens. The reusable shelf components remain available to non-Home consumers.
+Home v7 uses compact editorial rails and lists while retaining the complete destination screens.
+The reusable shelf components remain available to non-Home consumers.
 
 ## `HeroBanner`
 
-Legacy overlaid-art banner, retained for existing non-Home consumers. Home v6 uses MonthContext
-below instead; its full-text/non-figurative contract overrides this component's clamped caption and
+Legacy overlaid-art banner, retained for existing non-Home consumers. Home v7 uses compact text
+season context instead; its full-text contract overrides this component's clamped caption and
 best-effort photograph behavior. Do not retrofit other consumers in the Home slice.
 
 | Prop | Description |
@@ -96,30 +96,32 @@ licensing remain recorded in `public/assets/months/CREDITS.md`.
 
 ## Home composition
 
-`MonthContext` takes resolved lunar/Gaudiya names, intercalary state and observances; v6 renders them
-inside the dark focal card with a static twelve-month dial. `MonthSongs` takes ordered listings,
-optional existing recording actions and an empty-state message. It reuses `SongListItem`; the
-container is not interactive. Titles, order, caps, layout and availability are owned by
-[Home v6](home.md). There is no native picker implementation requirement.
+`MonthContext` takes resolved lunar/Gaudiya names, intercalary state and observances; v7 renders
+them as a compact context strip without a dial or separate focal card. `MonthSongs` takes ordered
+listings, optional existing recording actions and an empty-state message. It reuses `SongListItem`;
+the container is not interactive. Titles, order, caps, layout and availability are owned by
+[Home v7](home.md). There is no native picker implementation requirement.
 
 ## RhythmArtwork (retired from Home)
 
-Retained only for non-Home experimentation. Home v6 does not render it: the equal-height marks and
-broad curves still read as generic decoration beside real playback controls. If another screen
-adopts it, use one static vector master, identical across months/platforms; no random variants, image request,
-calendar-precision claim or audio-state dependency. Use a 360 × 240 coordinate space on
-`backgroundOffset`, with round caps:
+Home v7 replaces the old standalone artwork with one clipped rhythm field inside the featured-song
+surface. It uses repeated vertical beats crossed by one restrained arc. It never represents
+calendar progress, playback progress, a named tāla, or sacred imagery.
+
+Use one static vector master, identical across platforms; no random variants, image request,
+calendar-precision claim or audio-state dependency. Use a 360 × 240 coordinate space with round
+caps:
 
 - Curve A: `M24 76 C116 12 240 16 338 90`, stroke 28, `accent` at 18%.
 - Curve B: `M12 112 C124 48 252 64 356 140`, stroke 18, `primary` at 8%.
 - Six vertical rounded marks: x = 48, 76, 112, 168, 196, 252; y = 180; width 8, height 24,
   radius 4; `accent` at 55%. Equal heights and varied spacing suggest phrasing without an equalizer.
 
-Scale uniformly to the allotted 3:2 slot. Curves are broad open strokes, not rings, spinners,
-waveforms, named tāla notation, sacred diagrams or figurative illustration. Keep art outside text
-and controls, clip only its own drawing bounds, and exclude it from accessibility/hit testing.
-SVG, SwiftUI Path and Compose Canvas reproduce these coordinates; art is available offline and
-never animates. The art slot can disappear for reflow without removing content.
+Scale uniformly to the feature surface. Curves are broad open strokes, not rings, spinners, named
+tāla notation, sacred diagrams or figurative illustration. Keep art behind and clear of text and
+controls, clip it to the feature bounds, and exclude it from accessibility/hit testing. SVG,
+SwiftUI Path and Compose Canvas reproduce these coordinates; art is available offline and stays
+static at rest.
 
 ## Home recording picker
 
@@ -254,6 +256,8 @@ Android `res/font/`) so the wordmark reads identically across platforms. It is a
 
 ## Change log
 
+- **v9** — Home v7 removes the month dial and dashboard card composition, restores a compact
+  rhythm field inside one featured-song surface, and defines explicit reading/playback actions.
 - **v8** — Home v6 retires RhythmArtwork from Home and introduces composition-level Listen, Season,
   Seasonal songs, Books, Recently opened, Authors and Topics modules. Modules use their own data-led
   visual treatment rather than a shared card template.

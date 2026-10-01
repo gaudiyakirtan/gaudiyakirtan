@@ -1,131 +1,220 @@
 # Screen — Home
 
-**Spec version:** 6
+**Spec version:** 7
 
-**Status:** implemented on Web, iOS, and Android. v6 supersedes the v5 repeated-card feed and all
-older Home layout guidance.
+**Status:** implementation in progress. v7 replaces the rejected v6 dashboard composition.
 
-## Purpose
+## Product Intent
 
-Home answers **“What do I sing, read, or hear now?”** It is an airy modular canvas, not a marketing
-hero, dashboard table, or uniform catalog feed. Small labels sit outside modules. The modules vary
-in proportion, tone, and media density, with intentional whitespace between groups.
+Home answers one question first: **“What can I sing, read, or hear now?”**
 
-The supplied music/timer/travel composition is the visual reference: quiet utility cards, one dark
-focal object, image-led modules, compact supporting lists, and restrained depth. The shared
-devotional identity comes from the 5th Avenue display face, real song and performer credits, the
-mridanga mark, and actual book artwork. Do not generate or depict sacred figures.
+The visual concept is **The Singing Page**: a contemporary songbook prepared for use. Search and
+one featured song lead. Season, recent history, books, authors, and topics support that choice in a
+dense editorial rhythm. The screen must feel warm, grounded, devotional, and current without
+borrowing temple ornament, generic SaaS dashboards, or arbitrary bento geometry.
 
-## Modules
+Research informing this version:
 
-| Module | Contract |
-|---|---|
-| **Listen now** | Reflect the one shared player. A loaded song and take always override Home’s initial suggestion. Show the actual performer when present, play/pause/loading/error state, take count, and real elapsed/duration values. Retry errors through the player. |
-| **Season** | Web/Android only. Dark navy focal card with the lunar and Gaudiya month names, full observances, and a static twelve-month dial. Intercalary windows display **Puruṣottama** with `adhika-māsa`. |
-| **Seasonal songs** | Existing resolved month repertoire in canonical order. Web retains its recording picker; Android rows continue to open song detail. |
-| **Songs** | Native-only four-song preview. The complete catalog remains in Library. |
-| **Books** | Image-led collage using shipped cover art and a working full-library destination. Unknown covers use the existing contained fallback. |
-| **Recently opened** | Web-only four-entry local history. Choosing a recording does not write history. |
-| **Authors** | Compact list using real names and song counts, plus the existing complete destination. |
-| **Topics** | Shallow color-coded links using real membership counts, plus the existing complete destination. |
-| **Featured reading** | Native-only complete N9 reading with current reader preferences. |
+- Apple HIG Motion: custom motion is purposeful, brief, precise, interruptible, and optional.
+- Material 3 Motion and States: one coherent motion system; fast spatial motion for small controls,
+  effect motion for opacity/color, and one state layer at a time.
+- Material 3 Layout: adaptive hierarchy and key actions determine the layout.
+- Nielsen Norman Group: hierarchy comes from limited contrast, scale, grouping, and whitespace;
+  every extra visual unit competes with the primary task.
+- web.dev: prefer transform and opacity for smooth compositor-friendly animation.
+- WCAG 2.2 SC 2.3.3: interaction-triggered nonessential motion can be disabled.
 
-Absent platform capabilities remain absent. iOS does not gain calendar, recents, or a Home recording
-picker. Android does not gain recents or a recording picker. Web does not gain native Songs or
-featured-reading regions. No backend, corpus, or public model changes are part of this version.
+## Hierarchy
 
-## Order And Geometry
+Use this semantic order at every width:
 
-Use one semantic traversal order at every width:
-
-1. Brand and existing search/settings controls.
-2. Season, where available.
-3. Listen now.
-4. Seasonal songs, where available.
-5. Native Songs preview, where available.
+1. Existing app chrome.
+2. Page heading and search entry.
+3. Featured song with **Read & sing** as the primary action and playback as the secondary action.
+4. Season context and seasonal songs on Web and Android.
+5. Recent history on Web.
 6. Books.
-7. Recently opened, where available.
-8. Authors.
-9. Topics.
-10. Native featured reading, where available.
+7. Authors.
+8. Topics.
+9. Existing native featured reading.
 
-At expanded width, visual placement may put Listen left and Season in the center while preserving
-the semantic order above. The Season card is lifted slightly and remains the strongest contrast.
-Books leads the second group; authors and recents are quieter supporting modules; Topics is shallow.
-At medium width use two columns. Compact and accessibility layouts use one column and allow every
-label to wrap. On iOS, where Season is intentionally absent, Listen now uses the dark focal surface.
+iOS intentionally omits calendar and recents. Android intentionally omits recents and the Web
+recording picker. Missing capabilities disappear rather than rendering empty placeholders.
 
-Select breakpoints from Home’s available width after persistent navigation and safe-area insets,
-not the viewport. Recommended gutters are 16 compact, 24 medium, and 32 expanded, with a maximum
-content width of 1200. Reserve the measured player/navigation obstruction plus 16 points of
-clearance. No nested vertical scrolling is introduced.
+## Opening Composition
 
-## Data
+The opening is one focal composition rather than three competing cards.
 
-Use the existing calendar, manifest, author, collection, recents, and shared-player repositories.
-Calendar windows remain half-open and refresh at local midnight, foreground/resume, and timezone
-change. Resolve month song UIDs through the manifest, omit missing references, preserve order within
-playable and non-playable partitions, and apply Web’s six-row cap only after partitioning. Android
-keeps the complete resolved month list.
+### Featured song
 
-The initial listening suggestion is the first real playable seasonal song, then the first playable
-manifest song. Never fabricate progress, popularity, dates, counts, or recording identity. A
-currently loaded shared-player item always wins over that suggestion.
+- Use the first playable seasonal song, then the existing first playable catalog fallback.
+- A currently loaded shared-player item may supply displayed playback state only when its song UID
+  matches the featured song.
+- Show the real song title, author, and performer when available.
+- **Read & sing** opens the existing song detail destination.
+- **Play recording** starts the suggested recording. Once active, it becomes **Pause** or **Resume**.
+- Loading and error states change the playback control without hiding the reading action.
+- Do not render duplicate playback progress; the persistent player owns time and seeking.
 
-## Visual Tokens
+### Season
 
-Keep the Gaura/Shyam semantic palette and 5th Avenue display face. Home may define named, scoped
-surface roles for its near-white canvas, raised neutral cards, dark navy focal card, quiet borders,
-topic fills, and author swatches; component code consumes those names rather than scattering raw
-values. Song and verse text continue to use script-capable system fonts.
+- Web and Android show a compact text strip: lunar month, Gaudiya month, song count, and complete
+  observances.
+- Season explains why the songs are present; it is not the page hero.
+- Remove the v6 clock/dial. It implied progress or an adjustable value without providing either.
+- Long observances wrap or disclose inline. They are never clipped.
 
-Cards use restrained borders and shadows. The Season dial is abstract calendar/rhythm geometry,
-not a spinner, equalizer, sacred diagram, or progress indicator. It is decorative and hidden from
-assistive technology. Real book covers and performer portraits retain graceful fallbacks.
+### Seasonal songs
+
+- Preserve repository ordering and existing platform-specific recording behavior.
+- Web previews six entries; Android retains the complete resolved month list.
+- Titles, author, UID, and recording affordance stay together in a compact row.
+- The title remains the largest row element. Metadata never competes with it.
+
+## Discovery
+
+### Recent
+
+Web only. Show up to four real local-history entries in a compact list. Omit the section when empty.
+Do not fabricate timestamps, progress, or listening history.
+
+### Books
+
+Use actual licensed covers as the principal visual texture. Present each cover as one book, preserve
+its aspect ratio, and keep its title visible. Missing covers use the real title in a quiet fallback.
+Avoid mixed-image collages and promotional copy that competes with the song action.
+
+### Authors
+
+Show real names and counts in compact text rows. Do not use arbitrary colored initials as identity.
+
+### Topics
+
+Use wrapping text links or quiet outlined chips with counts. Do not use large pastel tiles.
+
+## Adaptive Layout
+
+### Web
+
+- Expanded: content width at most 1120 px, 12 columns, 24 px gaps, and at least 40 px outer gutter.
+- Medium: 8 columns with 20 px gaps and 24 px outer gutter.
+- Compact: one column with 20 px gutter; 16 px at 359 px and below.
+- Expanded opening: featured song spans 7 columns and seasonal repertoire spans 5.
+- Medium and compact opening: featured song, season strip, and repertoire stack in semantic order.
+- Books use a horizontal rail with three complete covers visible on expanded screens and two plus a
+  clear next edge on phones.
+- Authors remain a compact list. Topics wrap naturally.
+
+### iOS
+
+- Use the existing navigation stack, tab bar, search destination, and shared player.
+- Use 20 pt page insets and native 44 pt minimum targets.
+- Featured song leads; books, songs, authors, and topics follow in readable native sections.
+- At wide widths, books and authors may share an approximately 840 pt content region.
+
+### Android
+
+- Use the existing top app bar, bottom navigation, search destination, and shared player.
+- Use 16 dp page insets and native 48 dp minimum targets.
+- Featured song leads. A compact season strip and month repertoire follow.
+- Tablets remain a readable feed; books and authors may share a bounded supporting row.
+
+The final item must scroll above the measured player, navigation, and safe-area obstruction.
+
+## Visual Language
+
+- Keep the existing Gaura/Shyam semantic tokens and 5th Avenue brand face.
+- Use the display face for the brand and the featured song title only. All song body text uses the
+  existing script-capable text face.
+- Spend strongest contrast on the featured title, primary reading action, focus, and active
+  playback. Season, counts, and browsing metadata remain quieter.
+- Use a spacing scale of 4, 8, 12, 16, 24, 32, 40, and 48.
+- Use small control corners and medium surface corners. Reserve circles for circular controls.
+- Resting sections have no ambient shadow. Elevation belongs to overlays and the persistent player.
+- Use one nonfigurative rhythm field behind the featured song: repeated vertical beats crossed by
+  one restrained arc. It is decorative, static at rest, clipped to its surface, and inaccessible.
 
 ## Interaction And Motion
 
-Home motion is quick state feedback, never spectacle:
+Home motion communicates clickability, continuity, and player state.
 
-| Token | Duration | Use |
+| Token | Timing | Use |
 |---|---:|---|
-| Press | 90 ms | Glyph-only press response where the platform does not provide native indication. |
-| Release | 140 ms | Return from a pressed glyph state. |
-| Selection/icon | 160 ms | Play, pause, retry, loading, and current-take state changes. |
-| Panel enter | 180 ms | Existing Web recording picker. |
-| Panel exit | 120 ms | Existing Web recording picker dismissal. |
+| Press | 80 ms | Immediate control compression or state layer. |
+| Release | 120 ms | Return from press. |
+| Hover/focus effect | 120 ms | Tint, border, underline, and icon emphasis. |
+| Icon replace | 140 ms | Play/pause/loading/retry and disclosure symbols. |
+| Picker enter | 180 ms | Opacity plus at most 4 px translation. |
+| Picker exit | 120 ms | Faster reverse transition. |
+| Page/section entrance | 180–220 ms | One initial grouped reveal only. |
 
-Cards and rows stay spatially fixed. Do not animate progress width, month/date changes, card
-position, radius, cover scale, or topic elevation. No loops, parallax, marquees, delayed commands,
-or scroll-triggered reveals are added on Home.
+Use `cubic-bezier(.2, 0, 0, 1)` for Web entry/state transitions. Native motion uses the closest
+critically damped platform spring without visible bounce.
 
-Reduced motion removes custom transforms and transitions. State and color changes remain immediate;
-focus remains visible. Android uses stock indication and respects the system animator-duration
-scale. iOS uses `accessibilityReduceMotion`. Web uses `prefers-reduced-motion`.
+### Required states
+
+- **Hover:** a restrained state layer, clearer link underline, and a 2 px directional arrow shift.
+  Essential actions remain visible without hover.
+- **Focus:** a visible 2 px outline separated from the surface; focus is distinct from selection.
+- **Press:** immediate tint; compact standalone controls may scale to 0.98. Rows stay fixed.
+- **Loading:** reserve geometry. If playback remains pending after 150 ms, replace the icon with a
+  static pending symbol and stable label.
+- **Playing:** replace play with pause and show one small accent state mark.
+- **Paused:** restore play while preserving selection and position.
+- **Error:** keep **Read & sing** usable and expose a concise Retry state.
+- **Selection:** use text/checkmark and tint, never color alone.
+
+Specific icon motion:
+
+- Play and pause crossfade in one fixed box.
+- Search changes from secondary to primary ink when active.
+- Browse arrows move 2 px toward their destination.
+- Disclosure chevrons replace between down/up states.
+- A recording checkmark fades into reserved space.
+
+Do not add perpetual pulse, bounce, floating cards, parallax, automatic carousels, dancing
+equalizers, broad blur animation, or layout-size animation.
+
+Reduced motion removes transforms, stagger, and spatial movement. State changes remain immediate
+through color, text, and icon replacement.
 
 ## Accessibility
 
-- Exactly one page heading remains exposed at every width, even when the visual mobile masthead is
-  represented by the app shell.
-- Decorative marks, artwork, and initials are hidden from assistive technology.
-- Interactive icons have complete action labels and state descriptions.
-- Primary Web controls are at least 44 × 44 CSS px; compact text links are at least 24 px high.
+- Exactly one page heading is exposed.
+- Interactive elements use native buttons/links and complete accessible names.
+- Web targets are at least 44 × 44 CSS px for principal controls and 24 × 24 for inline links.
 - Native targets are at least 44 pt on iOS and 48 dp on Android.
-- Text meets WCAG 2.2 AA contrast, focus is visible, and keyboard/VoiceOver/TalkBack order follows
-  the semantic order above.
-- At 200% text and 400% Web zoom, content reflows without clipping or horizontal page overflow.
+- Contrast meets WCAG 2.2 AA. Focus is visible in both palettes and forced colors.
+- Text reflows at 400% Web zoom and native accessibility sizes without clipping.
+- Decorative rhythm art and initials are hidden from assistive technology.
+
+## Rejection Criteria
+
+Reject the implementation if any of these remain:
+
+- The month dial or a large season card dominates the opening viewport.
+- The primary reading action is ambiguous, below the fold, or obscured by the player.
+- A phone screen becomes a long stack of oversized cards or full-width topic tiles.
+- Book imagery is cropped into an unrelated collage.
+- Hover is the only indication that content is interactive.
+- Text, diacritics, focus rings, or controls clip at supported widths or text sizes.
+- Playback state differs between Home and the shared player.
+- Reduced-motion mode retains spatial transforms or entrance staggering.
 
 ## Verification
 
-Capture both palettes at compact, medium, and expanded widths, plus listening states, empty and
-intercalary months, enlarged text, and the complete native featured reading. Verify Web lint, build,
-unit tests, and Playwright; Android debug assembly, unit tests, and Roborazzi; iOS simulator build,
-unit/UI tests, Dynamic Type, VoiceOver labels, and Reduce Motion when a compatible macOS runner is
-available.
+Capture both palettes at 1440 × 900, 1024 × 768, 390 × 844, and 320 × 568. Capture native phones
+with the shared player active and absent. Verify initial, playing, paused, loading, error, empty,
+long-title, large-text, keyboard/focus, and reduced-motion states.
+
+The screenshot must make the featured song, search, and primary action identifiable at first glance.
+At 390 × 844 with the player active, the primary action and at least two seasonal rows must be fully
+reachable above the player on Web and Android. iOS must show the primary action and the beginning of
+the next content section.
 
 ## Change Log
 
-- **v6** — Replaces v5’s homogeneous feed with a reference-led modular canvas; adds a real
-  shared-player listening card, dark month dial, image-led books, compact discovery modules, and
-  consistent quick icon-state motion.
-- **v5** — Earlier editorial/feed concept, superseded in full by v6.
+- **v7** — Replaces v6’s dashboard/bento composition with The Singing Page: one compact featured
+  song, explicit read/play actions, lightweight season context, editorial browsing, and a complete
+  quick-interaction motion system.
+- **v6** — Rejected dashboard composition with month dial and modular cards.

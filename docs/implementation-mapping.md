@@ -57,12 +57,12 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | seo (v1) — metadata/sitemap | ✅ | n/a | n/a |
 | observability (v1) — analytics/Sentry | ✅ | n/a | n/a |
 | settings | ✅ | ✅* | ✅ |
-| [theme (v4 — shared utility motion)](screens/theme.md) | ✅ v4 | ⏳ verification | ✅ v4 |
-| [home (v6 — bento composition)](screens/home.md) | ✅ v6 | 🔨 v6 | ✅ v6 |
+| [theme (v5 — shared utility motion)](screens/theme.md) | 🔨 v5 | 🔨 v5 | 🔨 v5 |
+| [home (v7 — The Singing Page)](screens/home.md) | 🔨 v7 | 🔨 v7 | 🔨 v7 |
 | today (v2) — Home seasonal region | ✅ v2 | — **TODO** | ✅ v2 |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
-| [components (v8 — Home composition)](screens/components.md) | ✅ v8 | 🔨 v8 | ✅ v8 |
+| [components (v9 — Home composition)](screens/components.md) | 🔨 v9 | 🔨 v9 | 🔨 v9 |
 | collections / books / topics | ✅ | ✅* | ✅ |
 | artist/book images | ✅ | ✅* | ✅ |
 | unit tests | ✅ | ✅* | ✅ |
@@ -76,16 +76,13 @@ and the open-song uid pill), so iOS/Android are not stale against it; they stay 
 version before it ·
 `🔨` in progress · `—` not applicable / not on that platform.
 
-**Home v6 — Web and Android verified; iOS implementation awaiting a compatible runner.** v6
-replaces v5's homogeneous card/shelf composition with distinct bento modules led by real player
-state, a dark month dial where calendar data exists, cover-led books and compact discovery panels.
-Web is the visual master; native implementations translate the hierarchy through SwiftUI/Compose.
-Web passes lint, production build, 191 unit tests and 25 Home Playwright tests. Android passes debug
-assembly, 105 unit tests and 29 Roborazzi comparisons. The repository's macOS job still selects
-Xcode 15.4 while the project format requires Xcode 16, so iOS remains implemented but not build-verified.
+**Home v7 — implementation in progress.** v7 replaces the rejected dashboard composition with one
+featured song, explicit reading and playback actions, compact seasonal context, and restrained
+editorial browsing. Existing v6 screenshots remain historical evidence until matching v7 captures
+replace them.
 
-**Home v5 — historical baseline.** Its uniform feed and shelf geometry are retained only in the
-before screenshots; v6 is now authoritative.
+**Home v5/v6 — historical baselines.** Their uniform shelf and dashboard geometry remain only in
+before screenshots; v7 is authoritative.
 
 **Theme v4 / components v8.** Web and Android Home interactions use the shared timing/state
 contracts and have automated reduced-motion or platform-motion coverage. iOS uses the same named

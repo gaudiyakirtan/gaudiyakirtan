@@ -1,6 +1,6 @@
 # System — Theme (Gaura / Shyam)
 
-**Spec version:** 4
+**Spec version:** 5
 
 **Figma frames:** `Guar Theme`, `Shyam Theme`, `Colors`, `Components`.
 **Palette values (authoritative):** [`../theme/colors.md`](../theme/colors.md).
@@ -169,13 +169,14 @@ immediately; animation never delays playback, navigation or focus.
 | Token | Web / custom iOS | Android binding | Use |
 |---|---:|---|---|
 | `instant` | 0 ms | `snap()` | Focus, theme repaint, layout/content replacement, reduced motion |
-| `press` | 90 ms | Stock indication | Press state; optional standalone icon glyph scale to 0.96 on Web/iOS |
-| `release` | 140 ms | Stock indication | Return to rest without overshoot |
+| `press` | 80 ms | Stock indication | Press state; optional standalone control scale to 0.98 on Web/iOS |
+| `release` | 120 ms | Stock indication | Return to rest without overshoot |
 | `hover` | 120 ms | Stock state layer | Surface feedback on hover-capable devices |
-| `selection` | 160 ms | `fastEffectsSpec()` | Current-selection tint/marker |
-| `icon` | 160 ms | `fastEffectsSpec()` | In-place opacity crossfade, e.g. play/pause |
+| `selection` | 140 ms | `fastEffectsSpec()` | Current-selection tint/marker |
+| `icon` | 140 ms | `fastEffectsSpec()` | In-place opacity crossfade, e.g. play/pause |
 | `panelEnter` | 180 ms | `defaultEffectsSpec()` for opacity | Custom anchored panel opacity and ≤4-unit translation on Web/iOS |
 | `panelExit` | 120 ms | `fastEffectsSpec()` | Custom anchored panel opacity removal |
+| `sectionEnter` | 220 ms | `defaultEffectsSpec()` | One grouped Home entrance; never per-row or scroll-triggered |
 
 Standard easing: `(0.2, 0, 0, 1)`; exit: M3 standard accelerate `(0.3, 0, 1, 1)`;
 icon-only opacity crossfades are linear. Web uses named CSS/motion tokens; custom iOS transitions
@@ -209,6 +210,8 @@ All three platforms built the base theme before these were finalized — reconci
 
 ## Change log
 
+- **v5** — Tightens utility feedback for Home v7, adds one grouped section-entry token, and limits
+  standalone press scale to 0.98.
 - **v4** — Adds shared utility-motion tokens and platform bindings for Home v5, M3 exit easing,
   immediate focus/reduced-motion behavior and explicit player/navigation ownership. A static
   focal composition does not require decorative movement. Palette, type and shape scales unchanged.
