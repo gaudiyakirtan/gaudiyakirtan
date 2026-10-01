@@ -132,6 +132,22 @@ test('picker opens at current/first take, dismisses without trapping, and keeps 
   await expect(page.getByRole('dialog')).toBeVisible()
 })
 
+test('an open picker follows page scroll without pulling its anchor back into view', async ({ page }) => {
+  await setup(page)
+  await page.setViewportSize({ width: 720, height: 700 })
+  await page.goto('/')
+  await triggers(page).first().click()
+  await expect(panel(page)).toBeVisible()
+  const start = await page.evaluate(() => scrollY)
+  // Wheel over the page gutter, not the panel's own scrollable take list.
+  await page.mouse.move(8, 200)
+  await page.mouse.wheel(0, 800)
+  await expect.poll(() => page.evaluate(() => scrollY)).toBeGreaterThan(start + 400)
+  await page.evaluate(() => new Promise((resolve) => requestAnimationFrame(() => requestAnimationFrame(resolve))))
+  expect(await page.evaluate(() => scrollY)).toBeGreaterThan(start + 400)
+  await expect(panel(page)).toBeVisible()
+})
+
 test('outside pointer, trigger toggle, route changes and the drawer dismiss the picker', async ({ page }) => {
   await setup(page)
   await page.setViewportSize({ width: 390, height: 844 })
@@ -164,6 +180,11 @@ test('shelf controls page by visible width, preserve end focus, and reveal keybo
   await next.click()
   const metrics = await shelf.evaluate((el) => ({ left: el.scrollLeft, width: el.clientWidth, total: el.scrollWidth }))
   expect(metrics.left).toBe(Math.min(metrics.width, metrics.total - metrics.width))
+  // Reduced motion removes the standalone glyph's press scale, not just its transition.
+  await next.hover()
+  await page.mouse.down()
+  await expect(next.locator('svg')).toHaveCSS('transform', 'none')
+  await page.mouse.up()
   for (let i = 0; i < 4; i++) await next.press('Enter')
   await expect(next).toHaveAttribute('aria-disabled', 'true')
   await expect(next).toBeFocused()

@@ -119,8 +119,11 @@
 .home-view-all span { text-decoration: underline; text-underline-offset: 3px; }
 .home-view-all svg { color: var(--accent); flex: none; }
 .home-icon-button { width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; flex: none; border: 1px solid var(--neutral); border-radius: 10px; }
-.home-icon-button svg { transition: transform var(--motion-release) var(--motion-standard); }
-.home-icon-button:active:not([aria-disabled='true']) svg { transform: scale(.96); transition-duration: var(--motion-press); }
+/* Glyph press scale exists only with motion allowed; a reduced-motion override would lose specificity. */
+@media (prefers-reduced-motion: no-preference) {
+  .home-icon-button svg { transition: transform var(--motion-release) var(--motion-standard); }
+  .home-icon-button:active:not([aria-disabled='true']) svg { transform: scale(.96); transition-duration: var(--motion-press); }
+}
 .home-icon-button[aria-disabled='true'] svg { color: var(--tertiary); }
 .home-shelf-list { display: flex; align-items: stretch; gap: 12px; overflow-x: auto; padding: 4px; margin: -4px; scrollbar-width: thin; }
 .home-shelf-list > li { flex: none; min-width: 0; }
@@ -192,7 +195,6 @@
     animation: none !important;
     scroll-behavior: auto !important;
   }
-  .home-icon-button:active svg { transform: none; }
 }
 @media (forced-colors: active) {
   .utility-target:focus-visible { outline-color: Highlight; }

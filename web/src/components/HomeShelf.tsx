@@ -51,7 +51,7 @@ export function HomeShelf({ title, viewAllLink, kind, children }: IHomeShelfProp
           </div>}
         </div>
       </div>
-      <ul id={id} ref={ref} className="home-shelf-list" onFocusCapture={(event) => {
+      <ul id={id} ref={ref} role="list" className="home-shelf-list" onFocusCapture={(event) => {
         const shelf = ref.current!
         const item = (event.target as HTMLElement).closest('li')
         if (!item) return

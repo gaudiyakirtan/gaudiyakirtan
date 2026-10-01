@@ -72,7 +72,8 @@ export function HomeRecordingPicker({ song, authors, open, onOpenChange }: IHome
     const frame = button.closest('.home-frame')!
     const list = node.querySelector('ul')!
     let positioning = false
-    const position = () => {
+    // Reveal only on open; later scroll/resize repositions must never fight the reader's scrolling.
+    const position = (reveal: boolean) => {
       if (positioning) return
       positioning = true
       const frameBox = frame.getBoundingClientRect()
@@ -85,7 +86,7 @@ export function HomeRecordingPicker({ song, authors, open, onOpenChange }: IHome
       const targetHeight = list.querySelector('button')?.getBoundingClientRect().height ?? 44
       const minimum = headerHeight + targetHeight + 4
       // Expose one full take even when a loaded player or short viewport obstructs the anchor.
-      if (Math.max(bounds.bottom - anchor.bottom, anchor.top - bounds.top) < minimum || anchor.bottom > bounds.bottom || anchor.top < bounds.top) {
+      if (reveal && (Math.max(bounds.bottom - anchor.bottom, anchor.top - bounds.top) < minimum || anchor.bottom > bounds.bottom || anchor.top < bounds.top)) {
         const desiredTop = bounds.top + minimum + 4
         window.scrollBy({ top: anchor.top - desiredTop, behavior: 'instant' })
         anchor = button.getBoundingClientRect()
@@ -103,22 +104,23 @@ export function HomeRecordingPicker({ song, authors, open, onOpenChange }: IHome
       node.dataset.placement = flip ? 'above' : 'below'
       positioning = false
     }
-    position()
+    position(true)
     const current = node.querySelector<HTMLButtonElement>('[aria-current="true"]') ?? node.querySelector<HTMLButtonElement>('button')
     current?.focus({ preventScroll: true })
     if (current) list.scrollTop = Math.max(0, current.offsetTop - list.offsetTop - list.clientHeight / 2)
-    const resize = new ResizeObserver(position)
+    const reposition = () => position(false)
+    const resize = new ResizeObserver(reposition)
     resize.observe(frame)
     const player = document.querySelector('[data-testid="player-widget"]')
     if (player) resize.observe(player)
-    window.addEventListener('resize', position)
-    window.addEventListener('scroll', position, { passive: true })
-    window.visualViewport?.addEventListener('resize', position)
+    window.addEventListener('resize', reposition)
+    window.addEventListener('scroll', reposition, { passive: true })
+    window.visualViewport?.addEventListener('resize', reposition)
     return () => {
       resize.disconnect()
-      window.removeEventListener('resize', position)
-      window.removeEventListener('scroll', position)
-      window.visualViewport?.removeEventListener('resize', position)
+      window.removeEventListener('resize', reposition)
+      window.removeEventListener('scroll', reposition)
+      window.visualViewport?.removeEventListener('resize', reposition)
     }
   // Focus is acquired on open only; another surface changing the current take must not steal it.
   }, [open])
@@ -162,7 +164,7 @@ export function HomeRecordingPicker({ song, authors, open, onOpenChange }: IHome
         animate={{ opacity: 1, y: 0, transition: { duration: reducedMotion ? 0 : utilityMotion.panelEnter, ease: utilityMotion.standard } }}
         exit={{ opacity: 0, transition: { duration: reducedMotion ? 0 : utilityMotion.panelExit, ease: utilityMotion.exit } }}>
         <p className="mb-2 text-sm/5 font-medium text-[var(--tertiary)]">Recordings</p>
-        <ul aria-label={`Recordings of ${title}`}>
+        <ul role="list" aria-label={`Recordings of ${title}`}>
           {song.tracks.map((track, index) => {
             const current = currentSong && trackUid === track.uid
             const playing = current && status === 'playing'

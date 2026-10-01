@@ -24,7 +24,8 @@ export function MonthSongs({ songs, trackSongsByUid, authors, obscured }: IMonth
   return (
     <section className="home-seasonal-card home-month-songs" aria-labelledby="month-songs-heading">
       <h2 id="month-songs-heading" className="mb-4 text-xl/7 font-semibold">Sung this month</h2>
-      {songs.length ? <ul>
+      {/* Explicit role: WebKit drops list semantics from `list-style: none` lists. */}
+      {songs.length ? <ul role="list">
         {songs.map((song) => (
           <li key={song.uid} className="home-month-row">
             <SongListItem song={song} href={`/songs/${song.uid}`} surface="offset" />

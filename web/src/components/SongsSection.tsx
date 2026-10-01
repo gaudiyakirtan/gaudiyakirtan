@@ -34,7 +34,7 @@ export const SongsSection: React.FC<SongsSectionProps> = ({
         <h2 className="text-xl/7 font-semibold">{title}</h2>
         {description && <p className="text-base/6 text-[var(--secondary)]">{description}</p>}
       </div>
-      <ul className="home-recents-grid">
+      <ul role="list" className="home-recents-grid">
         {displaySongs.map((song) => <li key={song.uid}>
           <SongListItem song={song} href={`/songs/${song.uid}`} surface="offset" />
         </li>)}
