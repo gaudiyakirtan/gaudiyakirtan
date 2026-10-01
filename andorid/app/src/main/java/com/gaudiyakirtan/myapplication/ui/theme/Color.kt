@@ -26,6 +26,30 @@ val ShyamBorder = Color(0xFF333333)      // border (colors.md: #333333)
 val ShyamNeutral = Color(0xFF9B9B9B)     // neutral
 val ShyamOnHighlight = Color(0xFF1A1A1A) // near-black text on highlight (Shyam's accent is light blue)
 
+// Home v6 editorial surfaces. Components consume these named roles rather than raw values.
+val HomeGauraCanvas = Color(0xFFFBFAF7)
+val HomeShyamCanvas = Color(0xFF151515)
+val HomeGauraCard = Color(0xFFFFFFFF)
+val HomeShyamCard = Color(0xFF202020)
+val HomeGauraMutedSurface = Color(0xFFF2F1ED)
+val HomeShyamMutedSurface = Color(0xFF292929)
+val HomeGauraInk = Color(0xFF141414)
+val HomeShyamInk = Color(0xFFF2F1ED)
+val HomeGauraMuted = Color(0xFF6B6963)
+val HomeShyamMuted = Color(0xFFAAA8A3)
+val HomeGauraLine = Color(0xFFE6E3DC)
+val HomeShyamLine = Color(0xFF353535)
+val HomeFocus = Color(0xFF101827)
+val HomeFocusSoft = Color(0xFF1A263C)
+val HomeFocusAccent = Color(0xFF8CD6ED)
+val HomeFocusText = Color(0xFFFFFFFF)
+val HomeFocusMuted = Color(0xFFBDC5D0)
+val HomeAuthorSwatches = listOf(
+    Color(0xFF3F7165), Color(0xFF995337), Color(0xFF4E6698), Color(0xFF806078)
+)
+val HomeTopicSurfaces = listOf(Color(0xFFC9E6DD), Color(0xFFC9D8F2), Color(0xFFF2D49B))
+val HomeTopicInks = listOf(Color(0xFF15211F), Color(0xFF172033), Color(0xFF3A2712))
+
 // Media colors (used for identifying media items)
 private val mediaColors = listOf(
     Color(0xFF1E3264),    // blue

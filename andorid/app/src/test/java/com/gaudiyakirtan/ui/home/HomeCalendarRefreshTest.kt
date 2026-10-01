@@ -2,6 +2,7 @@ package com.gaudiyakirtan.ui.home
 
 import com.gaudiyakirtan.data.CalendarRepositoryLogic
 import com.gaudiyakirtan.myapplication.ui.home.millisUntilNextLocalDay
+import com.gaudiyakirtan.myapplication.ui.sections.monthDialIndex
 import java.time.Instant
 import java.time.ZoneId
 import java.time.ZonedDateTime
@@ -9,6 +10,12 @@ import org.junit.Assert.*
 import org.junit.Test
 
 class HomeCalendarRefreshTest {
+    @Test fun `month dial follows canonical calendar spellings`() {
+        assertEquals(2, monthDialIndex("Jyeṣṭha"))
+        assertEquals(5, monthDialIndex("Bhādrapada"))
+        assertEquals(-1, monthDialIndex("unknown"))
+    }
+
     @Test fun `local midnight scheduling respects daylight savings`() {
         val zone = ZoneId.of("America/Los_Angeles")
         assertEquals(23 * 60 * 60 * 1000L, millisUntilNextLocalDay(ZonedDateTime.of(2026, 3, 8, 0, 0, 0, 0, zone)))

@@ -13,6 +13,9 @@ object HomeFixtures {
     val calendar: GaudiyaCalendar = read("calendar.json")
     val groups: List<SongGroup> = read("song_groups.json")
     val featured: Song = read("songs/N9.json")
+    val listen: Song = read("songs/R8.json")
+    val anotherRecording: Song = manifest.first { it.audioAvailable && it.uid != listen.uid }
+        .let { read("songs/${it.uid}.json") }
     val authors = SongRepositoryLogic.buildAuthors(manifest) { uid -> read<Song>("songs/$uid.json") }
     val authorNames = authors.associate { it.uid to it.name }
     val topics = groups.filter { it.kind == SongGroupKind.TOPIC }

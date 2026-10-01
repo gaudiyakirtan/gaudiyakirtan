@@ -34,7 +34,7 @@ import org.robolectric.annotation.GraphicsMode
 class HomeLayoutTest {
     @get:Rule val compose = createComposeRule()
 
-    @Test fun `available width selects gutters sibling ratio and row major grid before reflow`() {
+    @Test fun `bento modules use staggered columns then stack and preserve four song grid`() {
         var width by mutableStateOf(1024.dp)
         var scale by mutableFloatStateOf(1f)
         compose.setContent {
@@ -49,28 +49,55 @@ class HomeLayoutTest {
         }
         fun bounds(tag: String) = compose.onNodeWithTag(tag).fetchSemanticsNode().boundsInRoot
         val context = bounds("month-context")
+        val listen = bounds("listen-card")
         val songs = bounds("month-songs")
         assertEquals(32f, context.left, 0.1f)
-        assertEquals(context.top, songs.top, 0.1f)
-        assertEquals(24f, songs.left - context.right, 0.1f)
-        assertEquals(5f / 7f, context.width / songs.width, 0.001f)
-        val first = HomeFixtures.manifest.take(4).map { bounds("song-${it.uid}") }
+        assertEquals(28f, listen.left - context.right, 0.1f)
+        assertEquals(28f, songs.left - listen.right, 0.1f)
+        assertEquals(24f, listen.top - context.top, 0.1f)
+        assertEquals(12f, songs.top - context.top, 0.1f)
+        assertTrue(context.height > listen.height)
+        fun songBounds() = HomeFixtures.manifest.take(4).map { bounds("song-${it.uid}") }
+        compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("song-${HomeFixtures.manifest[3].uid}"))
+        val first = songBounds()
         assertEquals(first[0].top, first[2].top, 0.1f)
         assertTrue(first[3].top > first[0].top)
         compose.runOnIdle { width = 720.dp }
+        compose.onNodeWithTag("home-feed").performScrollToIndex(0)
         assertEquals(24f, bounds("month-context").left, 0.1f)
-        assertTrue(bounds("month-songs").top > bounds("month-context").bottom)
-        val medium = HomeFixtures.manifest.take(4).map { bounds("song-${it.uid}") }
+        assertTrue(bounds("listen-card").top > bounds("month-context").bottom)
+        assertEquals(bounds("listen-card").top, bounds("month-songs").top, 0.1f)
+        compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("song-${HomeFixtures.manifest[3].uid}"))
+        val medium = songBounds()
         assertEquals(medium[0].top, medium[1].top, 0.1f)
         assertTrue(medium[2].top > medium[0].top)
         compose.runOnIdle { width = 390.dp }
+        compose.onNodeWithTag("home-feed").performScrollToIndex(0)
         assertEquals(16f, bounds("month-context").left, 0.1f)
         compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("song-${HomeFixtures.manifest[3].uid}"))
-        val compact = HomeFixtures.manifest.take(4).map { bounds("song-${it.uid}") }
+        val compact = songBounds()
         assertTrue(compact.zipWithNext().all { (a, b) -> b.top > a.top })
         compose.runOnIdle { width = 1024.dp; scale = 2f }
         compose.onNodeWithTag("home-feed").performScrollToIndex(0)
-        assertTrue(bounds("month-songs").top > bounds("month-context").bottom)
+        val monthBottom = bounds("month-context").bottom
+        assertTrue(bounds("listen-card").top > monthBottom)
+        assertEquals(bounds("month-context").width, bounds("listen-card").width, 0.1f)
+
+    }
+
+    @Test fun `gallery and authors share a new row after the fourth song`() {
+        compose.setContent {
+            GaudiyaKirtanTheme(false) {
+                HomeContent(songs = HomeFixtures.manifest, books = HomeFixtures.books, authors = HomeFixtures.authors)
+            }
+        }
+        compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("books-card"))
+        val books = compose.onNodeWithTag("books-card").fetchSemanticsNode().boundsInRoot
+        val authors = compose.onNodeWithTag("authors-card").fetchSemanticsNode().boundsInRoot
+        assertEquals(32f, books.left, 0.1f)
+        assertEquals(books.top, authors.top, 0.1f)
+        assertEquals(28f, authors.left - books.right, 0.1f)
+        assertTrue(books.width > authors.width * 2f)
     }
 
     @Test fun `canonical title follows onSurface and focus remains an immediate native control`() {

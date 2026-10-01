@@ -36,7 +36,7 @@ import org.robolectric.RobolectricTestRunner
 import org.robolectric.annotation.Config
 import org.robolectric.annotation.GraphicsMode
 
-/** Home v5 baselines, deliberately under Android. Frozen corpus dates; offline cover fallbacks. */
+/** Home v6 baselines, deliberately under Android. Frozen corpus dates; bundled covers and offline performer fallback. */
 @RunWith(RobolectricTestRunner::class)
 @GraphicsMode(GraphicsMode.Mode.NATIVE)
 @Config(sdk = [34], qualifiers = "w390dp-h844dp-mdpi")
@@ -56,12 +56,14 @@ class HomeScreenshotTest {
         dark: Boolean,
         month: CalendarToday? = HomeFixtures.populated,
         scale: Float = 1f,
-        target: String? = null
+        target: String? = null,
+        playback: PlaybackState = PlaybackState.PAUSED,
+        active: Boolean = true
     ) {
         val playingSong: Song = SongJson.instance.decodeFromString(File(TestAssets.dir, "songs/R8.json").readText())
-        val player = PlayerUiState(
+        val player = if (!active) PlayerUiState() else PlayerUiState(
             nowPlaying = NowPlaying(playingSong, playingSong.audioFiles.first(), playingSong.audioFiles),
-            playbackState = PlaybackState.PAUSED, positionMs = 42_000, durationMs = 187_000
+            playbackState = playback, positionMs = 42_000, durationMs = 187_000
         )
         lateinit var gridState: LazyGridState
         compose.setContent {
@@ -92,7 +94,8 @@ class HomeScreenshotTest {
                         Box(Modifier.padding(insets)) {
                             HomeContent(HomeFixtures.manifest, HomeFixtures.authors, HomeFixtures.topics,
                                 HomeFixtures.books, HomeFixtures.featured, month,
-                                month?.let(HomeFixtures::monthSongs).orEmpty(), gridState = gridState)
+                                month?.let(HomeFixtures::monthSongs).orEmpty(), gridState = gridState,
+                                playerUiState = player, listenSong = playingSong)
                         }
                     }
                 }
@@ -101,11 +104,11 @@ class HomeScreenshotTest {
         compose.waitForIdle()
         if (target != null) {
             compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag(target))
-            val key = if (target.startsWith("shelf-")) target.removePrefix("shelf-").lowercase() else if (target == "featured-reading") "featured" else target
+            val key = if (target == "listen-card") "listen" else if (target.startsWith("shelf-")) target.removePrefix("shelf-").lowercase() else if (target == "featured-reading") "featured" else target
             val index = compose.runOnIdle { gridState.layoutInfo.visibleItemsInfo.first { it.key == key }.index }
             compose.onNodeWithTag("home-feed").performScrollToIndex(index)
         }
-        compose.onRoot().captureRoboImage("src/test/screenshots/home-v5/$name-${if (dark) "shyam" else "gaura"}.png")
+        compose.onRoot().captureRoboImage("src/test/screenshots/home-v6/$name-${if (dark) "shyam" else "gaura"}.png")
     }
 
     @Test fun compactGaura() = capture("390", false)
@@ -127,9 +130,20 @@ class HomeScreenshotTest {
     @Test fun outOfRangeGaura() = capture("out-of-range", false, null)
     @Test fun outOfRangeShyam() = capture("out-of-range", true, null)
     @Test @Config(qualifiers = "w1024dp-h1024dp-mdpi")
-    fun shelvesGaura() = capture("shelves", false, target = "shelf-Topics")
+    fun shelvesGaura() = capture("shelves", false, target = "shelf-Books")
     @Test @Config(qualifiers = "w1024dp-h1024dp-mdpi")
-    fun shelvesShyam() = capture("shelves", true, target = "shelf-Topics")
+    fun shelvesShyam() = capture("shelves", true, target = "shelf-Books")
     @Test fun readingGaura() = capture("reading", false, target = "featured-reading")
     @Test fun readingShyam() = capture("reading", true, target = "featured-reading")
+    @Test fun listenGaura() = capture("listen", false, target = "listen-card")
+    @Test fun listenShyam() = capture("listen", true, target = "listen-card")
+    @Test fun readyGaura() = capture("ready", false, target = "listen-card", active = false)
+    @Test fun playingShyam() = capture("playing", true, target = "listen-card", playback = PlaybackState.PLAYING)
+    @Test fun loadingGaura() = capture("loading", false, target = "listen-card", playback = PlaybackState.LOADING)
+    @Test fun errorShyam() = capture("error", true, target = "listen-card", playback = PlaybackState.ERROR)
+    @Test fun booksGaura() = capture("books", false, target = "shelf-Books")
+    @Test fun booksShyam() = capture("books", true, target = "shelf-Books")
+    @Test fun authorsGaura() = capture("authors", false, target = "shelf-Authors")
+    @Test fun topicsShyam() = capture("topics", true, target = "shelf-Topics")
+    @Test fun listeningLargeText() = capture("listen-text-200", false, scale = 2f, target = "listen-card")
 }

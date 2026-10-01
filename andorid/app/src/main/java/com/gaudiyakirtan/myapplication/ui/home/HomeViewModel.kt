@@ -20,8 +20,8 @@ import java.time.LocalDate
  * ViewModel for the Home screen.
  * Loads the real, offline-bundled corpus via [SongRepository] -- no more [com.gaudiyakirtan.data.SampleData].
  * Lists (songs/authors) are backed by the lightweight [ManifestEntry]/[Author] catalog rather than
- * full [Song] objects, per docs/data/manifest.md; only the "Featured Song" block loads one full
- * [Song] (by uid), since it needs verses.
+ * full [Song] objects. The featured reading loads N9 with its verses; the v6 listening suggestion
+ * resolves one real recording from the seasonal list, falling back to the bundled manifest.
  */
 class HomeViewModel(application: Application) : AndroidViewModel(application) {
 
@@ -50,6 +50,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     private val _topics = MutableStateFlow<List<SongGroup>>(emptyList())
     private val _books = MutableStateFlow<List<SongGroup>>(emptyList())
     private val _featuredSong = MutableStateFlow<Song?>(null)
+    private val _listenSong = MutableStateFlow<Song?>(null)
     private val _searchQuery = MutableStateFlow("")
     private val _authorNames = MutableStateFlow<Map<String, String>>(emptyMap())
 
@@ -66,6 +67,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
     val topics: StateFlow<List<SongGroup>> = _topics
     val books: StateFlow<List<SongGroup>> = _books
     val featuredSong: StateFlow<Song?> = _featuredSong
+    val listenSong: StateFlow<Song?> = _listenSong
     val thisMonth: StateFlow<CalendarToday?> = _thisMonth
     val thisMonthSongs: StateFlow<List<ManifestEntry>> = _thisMonthSongs
     val searchQuery: StateFlow<String> = _searchQuery
@@ -93,8 +95,7 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
             _authorNames.value = loadedAuthors.associate { it.uid to it.name }
         }
         viewModelScope.launch {
-            // Book/Topic groupings (docs/data/collections.md `SongGroup`; 93 groups shipped: 19
-            // books + 74 topics). Sections render only when non-empty (see HomeScreen).
+            // Preserve every bundled book/topic destination; empty sections are omitted by Home.
             val groups = repository.getSongGroups()
             _books.value = groups.filter { it.kind == SongGroupKind.BOOK }
             _topics.value = groups.filter { it.kind == SongGroupKind.TOPIC }
@@ -114,6 +115,18 @@ class HomeViewModel(application: Application) : AndroidViewModel(application) {
             }.orEmpty()
             _thisMonth.value = today
             _thisMonthSongs.value = monthSongs
+            // The v6 suggestion follows the same seasonal order, then the bundled manifest.
+            // Verify full audio files rather than treating the manifest flag as a playable take.
+            var suggestion: Song? = null
+            for (entry in (monthSongs + _songs.value).distinctBy { it.uid }) {
+                if (!entry.audioAvailable) continue
+                val song = repository.getSongByUid(entry.uid)
+                if (song != null && song.audioFiles.isNotEmpty()) {
+                    suggestion = song
+                    break
+                }
+            }
+            _listenSong.value = suggestion
         }
     }
 

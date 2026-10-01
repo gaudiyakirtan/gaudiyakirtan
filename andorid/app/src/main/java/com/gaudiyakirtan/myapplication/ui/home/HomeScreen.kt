@@ -27,6 +27,7 @@ import com.gaudiyakirtan.myapplication.ui.components.icons.Mridanga
 import com.gaudiyakirtan.myapplication.ui.sections.*
 import com.gaudiyakirtan.myapplication.ui.theme.DisplayFontFamily
 import com.gaudiyakirtan.myapplication.ui.theme.Spacing
+import com.gaudiyakirtan.services.PlayerUiState
 
 @Composable
 fun HomeScreen(
@@ -35,6 +36,10 @@ fun HomeScreen(
     onSearchClick: () -> Unit = {},
     onAuthorClick: (String) -> Unit = {},
     onGroupClick: (String) -> Unit = {},
+    playerUiState: PlayerUiState,
+    onPlaySong: (Song) -> Unit,
+    onPlayPause: () -> Unit,
+    onBrowseRecordings: () -> Unit,
     viewModel: HomeViewModel = viewModel()
 ) {
     val songs by viewModel.songs.collectAsState()
@@ -42,16 +47,19 @@ fun HomeScreen(
     val topics by viewModel.topics.collectAsState()
     val books by viewModel.books.collectAsState()
     val featuredSong by viewModel.featuredSong.collectAsState()
+    val listenSong by viewModel.listenSong.collectAsState()
     val thisMonth by viewModel.thisMonth.collectAsState()
     val thisMonthSongs by viewModel.thisMonthSongs.collectAsState()
     val settings by viewModel.settings.collectAsState()
     HomeCalendarRefresh(viewModel)
     HomeContent(songs, authors, topics, books, featuredSong, thisMonth, thisMonthSongs, settings,
-        onSongClick, onSettingsClick, onSearchClick, onAuthorClick, onGroupClick)
+        onSongClick, onSettingsClick, onSearchClick, onAuthorClick, onGroupClick,
+        listenSong = listenSong, playerUiState = playerUiState, onPlaySong = onPlaySong,
+        onPlayPause = onPlayPause, onBrowseRecordings = onBrowseRecordings)
 }
 
 /**
- * Adaptive feed: seasonal context → repertoire → four native songs → browse → complete reading.
+ * V6 bento canvas: season → shared listening → repertoire → four songs → discovery → full N9.
  * A is measured after AppNavigation's Scaffold insets. One lazy grid owns vertical scrolling;
  * full-span modules and row-major song cells retain the same traversal order at every width.
  */
@@ -70,86 +78,101 @@ fun HomeContent(
     onSearchClick: () -> Unit = {},
     onAuthorClick: (String) -> Unit = {},
     onGroupClick: (String) -> Unit = {},
-    gridState: LazyGridState = rememberLazyGridState()
+    gridState: LazyGridState = rememberLazyGridState(),
+    listenSong: Song? = null,
+    playerUiState: PlayerUiState = PlayerUiState(),
+    onPlaySong: (Song) -> Unit = {},
+    onPlayPause: () -> Unit = {},
+    onBrowseRecordings: () -> Unit = {}
 ) {
     val authorNames = remember(authors, settings.listLanguage) {
         authors.associate { it.uid to it.names.preferredText(settings.listLanguage) }
     }
     val authorSongCounts = remember(songs) { songs.groupingBy { it.authorUid }.eachCount() }
-    Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
-        BoxWithConstraints(Modifier.fillMaxSize()) {
-            val expanded = maxWidth >= 840.dp
-            val medium = maxWidth >= 600.dp && !expanded
-            val gutter = if (expanded) Spacing.xxl else if (medium) Spacing.xl else Spacing.lg
-            val enlarged = LocalDensity.current.fontScale >= 2f
-            val reflow = enlarged || maxWidth - gutter * 2 < 240.dp
-            val columns = if (reflow || (!expanded && !medium)) 1 else if (expanded) 3 else 2
-            Column(Modifier.padding(horizontal = gutter).widthIn(max = 1120.dp)
-                .fillMaxSize().align(Alignment.TopCenter)) {
-                SearchBar("", {}, onSettingsClick, onSearchClick = onSearchClick)
-                LazyVerticalGrid(
-                    columns = GridCells.Fixed(columns),
-                    state = gridState,
-                    modifier = Modifier.weight(1f).testTag("home-feed"),
-                    horizontalArrangement = Arrangement.spacedBy(Spacing.lg),
-                    verticalArrangement = Arrangement.spacedBy(Spacing.lg),
-                    // The parent already reserves measured player + tabs + safe areas. Add the
-                    // 24dp page padding and 16dp clearance, rather than guessing player heights.
-                    contentPadding = PaddingValues(top = Spacing.xl, bottom = Spacing.xl + Spacing.lg)
-                ) {
-                    item(key = "brand", span = { GridItemSpan(maxLineSpan) }) { HomeBrand(expanded) }
-                    if (thisMonth != null) {
-                        sectionGap("seasonal-gap")
-                        item(key = "seasonal", span = { GridItemSpan(maxLineSpan) }) {
-                            ThisMonthSection(thisMonth, thisMonthSongs, authorNames, settings.listLanguage,
-                                onSongClick, expanded && !reflow, medium || expanded)
+    HomeStyle {
+        Surface(Modifier.fillMaxSize(), color = MaterialTheme.colorScheme.background) {
+            BoxWithConstraints(Modifier.fillMaxSize()) {
+                val expanded = maxWidth >= 840.dp
+                val medium = maxWidth >= 600.dp && !expanded
+                val gutter = if (expanded) Spacing.xxl else if (medium) Spacing.xl else Spacing.lg
+                val enlarged = LocalDensity.current.fontScale >= 1.5f
+                val reflow = enlarged || maxWidth - gutter * 2 < 240.dp
+                val columns = if (reflow || (!expanded && !medium)) 1 else if (expanded) 3 else 2
+                Column(Modifier.padding(horizontal = gutter).widthIn(max = 1120.dp)
+                    .fillMaxSize().align(Alignment.TopCenter)) {
+                    SearchBar("", {}, onSettingsClick, onSearchClick = onSearchClick)
+                    LazyVerticalGrid(
+                        columns = GridCells.Fixed(columns),
+                        state = gridState,
+                        modifier = Modifier.weight(1f).testTag("home-feed"),
+                        horizontalArrangement = Arrangement.spacedBy(28.dp),
+                        verticalArrangement = Arrangement.spacedBy(28.dp),
+                        // The parent already reserves measured player + tabs + safe areas. Add the
+                        // 24dp page padding and 16dp clearance, rather than guessing player heights.
+                        contentPadding = PaddingValues(top = Spacing.xl, bottom = Spacing.xl + Spacing.lg)
+                    ) {
+                        item(key = "brand", span = { GridItemSpan(maxLineSpan) }) { HomeBrand(expanded) }
+                        if (thisMonth != null) {
+                            item(key = "seasonal", span = { GridItemSpan(if (expanded && !reflow) 1 else maxLineSpan) }) {
+                                HomeModule("Season") { MonthContext(thisMonth, songCount = thisMonthSongs.size) }
+                            }
                         }
-                    }
-                    if (songs.isNotEmpty()) {
-                        sectionGap("songs-gap")
-                        songsSection(songs.take(4), authorNames, settings.listLanguage, onSongClick)
-                    }
-                    if (topics.isNotEmpty()) {
-                        sectionGap("topics-gap")
-                        item(key = "topics", span = { GridItemSpan(maxLineSpan) }) {
-                            TopicsSection(topics, onGroupClick, reflow)
+                        item(key = "listen") {
+                            HomeModule("Listen now", Modifier.padding(top = if (expanded && !reflow) 24.dp else 0.dp)) {
+                            HomeListenCard(listenSong, playerUiState, settings.listLanguage, onSongClick,
+                                onPlaySong, onPlayPause, onBrowseRecordings)
+                            }
                         }
-                    }
-                    if (books.isNotEmpty()) {
-                        sectionGap("books-gap")
-                        item(key = "books", span = { GridItemSpan(maxLineSpan) }) {
-                            BooksSection(books, onGroupClick, reflow, expanded)
-                        }
-                    }
-                    if (authors.isNotEmpty()) {
-                        sectionGap("authors-gap")
-                        item(key = "authors", span = { GridItemSpan(maxLineSpan) }) {
-                            AuthorsSection(authors, authorSongCounts, onAuthorClick, reflow, settings.listLanguage)
-                        }
-                    }
-                    if (featuredSong != null) {
-                        sectionGap("featured-gap")
-                        item(key = "featured", span = { GridItemSpan(maxLineSpan) }) {
-                            ReadingColumn(Modifier.testTag("featured-reading")) {
-                                Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally,
-                                    verticalArrangement = Arrangement.spacedBy(Spacing.xs)) {
-                                    Text(featuredSong.titleMain.preferredText(settings.displayScript),
-                                        style = MaterialTheme.typography.titleLarge,
-                                        color = MaterialTheme.colorScheme.onSurface,
-                                        textAlign = TextAlign.Center,
-                                        modifier = Modifier.semantics { heading() })
-                                    Text(featuredSong.authorDisplay.preferredText(settings.displayScript),
-                                        style = MaterialTheme.typography.bodyLarge,
-                                        color = MaterialTheme.colorScheme.onSurfaceVariant,
-                                        textAlign = TextAlign.Center)
-                                    RowUidChip(featuredSong.uid)
+                        if (thisMonth != null) {
+                            item(key = "seasonal-songs") {
+                                HomeModule("Seasonal songs", Modifier.padding(top = if (expanded && !reflow) 12.dp else 0.dp)) {
+                                    MonthSongs(thisMonthSongs, authorNames, settings.listLanguage, onSongClick)
                                 }
                             }
                         }
-                        itemsIndexed(featuredSong.verses, key = { index, _ -> "featured-verse-$index" },
-                            span = { _, _ -> GridItemSpan(maxLineSpan) }) { index, verse ->
-                            ReadingColumn(Modifier.testTag("featured-verse-$index")) {
-                                VerseView(verse, settings)
+                        if (songs.isNotEmpty()) {
+                            songsSection(songs.take(4), authorNames, settings.listLanguage, onSongClick)
+                            // Close the four-song grid before the two-column gallery begins.
+                            item(key = "discovery-gap", span = { GridItemSpan(maxLineSpan) }) { Spacer(Modifier.height(0.dp)) }
+                        }
+                        if (books.isNotEmpty()) {
+                            item(key = "books", span = { GridItemSpan(if (expanded && !reflow) 2 else maxLineSpan) }) {
+                                HomeBooks(books, settings.listLanguage, reflow, onGroupClick)
+                            }
+                        }
+                        if (authors.isNotEmpty()) {
+                            item(key = "authors", span = { GridItemSpan(if (expanded && !reflow) 1 else maxLineSpan) }) {
+                                HomeAuthors(authors, authorSongCounts, settings.listLanguage, reflow, onAuthorClick)
+                            }
+                        }
+                        if (topics.isNotEmpty()) {
+                            item(key = "topics", span = { GridItemSpan(maxLineSpan) }) {
+                                HomeTopics(topics, settings.listLanguage, reflow, medium || expanded, onGroupClick)
+                            }
+                        }
+                        if (featuredSong != null) {
+                            item(key = "featured", span = { GridItemSpan(maxLineSpan) }) {
+                                ReadingColumn(Modifier.testTag("featured-reading")) {
+                                    Column(Modifier.fillMaxWidth(), horizontalAlignment = Alignment.CenterHorizontally,
+                                        verticalArrangement = Arrangement.spacedBy(Spacing.xs)) {
+                                        Text(featuredSong.titleMain.preferredText(settings.displayScript),
+                                            style = MaterialTheme.typography.titleLarge,
+                                            color = MaterialTheme.colorScheme.onSurface,
+                                            textAlign = TextAlign.Center,
+                                            modifier = Modifier.semantics { heading() })
+                                        Text(featuredSong.authorDisplay.preferredText(settings.displayScript),
+                                            style = MaterialTheme.typography.bodyLarge,
+                                            color = MaterialTheme.colorScheme.onSurfaceVariant,
+                                            textAlign = TextAlign.Center)
+                                        RowUidChip(featuredSong.uid)
+                                    }
+                                }
+                            }
+                            itemsIndexed(featuredSong.verses, key = { index, _ -> "featured-verse-$index" },
+                                span = { _, _ -> GridItemSpan(maxLineSpan) }) { index, verse ->
+                                ReadingColumn(Modifier.testTag("featured-verse-$index")) {
+                                    VerseView(verse, settings)
+                                }
                             }
                         }
                     }
@@ -157,11 +180,6 @@ fun HomeContent(
             }
         }
     }
-}
-
-private fun LazyGridScope.sectionGap(key: String) {
-    // Adjacent 16dp grid gaps add up to the 32dp major-section rhythm.
-    item(key = key, span = { GridItemSpan(maxLineSpan) }) { Spacer(Modifier.height(0.dp)) }
 }
 
 @Composable

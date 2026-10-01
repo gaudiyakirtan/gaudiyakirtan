@@ -93,6 +93,7 @@ class HomeBehaviorTest {
         }
         compose.onNodeWithText("Śrī Gaudiya Kirtan").assertExists()
         compose.onNodeWithTag("month-context").assertExists()
+        compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("month-songs"))
         compose.onNodeWithTag("month-songs").assertExists()
         compose.onNodeWithText("No songs are specific to this month.").assertExists()
         compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("song-${HomeFixtures.manifest[3].uid}"))
@@ -146,7 +147,7 @@ class HomeBehaviorTest {
         assertEquals(authors.last().uid, opened)
     }
 
-    @Test fun `horizontal browse shelves retain their final working destinations`() {
+    @Test fun `bento gallery and compact browse pages retain their final working destinations`() {
         var opened = ""
         content {
             HomeContent(topics = HomeFixtures.topics, books = HomeFixtures.books,
@@ -154,12 +155,12 @@ class HomeBehaviorTest {
         }
         listOf("Topics" to HomeFixtures.topics, "Books" to HomeFixtures.books).forEach { (title, groups) ->
             compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-$title"))
-            compose.onNodeWithTag("shelf-$title").performScrollToIndex(groups.lastIndex)
-            compose.onNodeWithText(groups.last().title).performClick()
+            compose.onNodeWithTag("shelf-$title").performScrollToIndex(groups.lastIndex / if (title == "Books") 3 else 4)
+            compose.onNodeWithTag("${if (title == "Books") "book" else "topic"}-${groups.last().uid}").performClick()
             assertEquals(groups.last().uid, opened)
         }
         compose.onNodeWithTag("home-feed").performScrollToNode(hasTestTag("shelf-Authors"))
-        compose.onNodeWithTag("shelf-Authors").performScrollToIndex(HomeFixtures.authors.lastIndex)
+        compose.onNodeWithTag("shelf-Authors").performScrollToIndex(HomeFixtures.authors.lastIndex / 4)
         compose.onNodeWithText(HomeFixtures.authors.last().name).performClick()
         assertEquals(HomeFixtures.authors.last().uid, opened)
     }
