@@ -61,9 +61,8 @@ export const getStaticProps: GetStaticProps<HomeProps> = async () => {
   const byUid = new Map(listings.map((l) => [l.uid, l]))
 
   // Ship only the songs that uid-only references can point at (month + ārati refs), not the whole
-  // 702-entry index — the page payload would balloon for no gain. A recently-played song outside
-  // this set resolves to nothing and is skipped; acceptable, since the local history is capped at
-  // 10 and this covers the songs home can actually surface.
+  // full index. RecentlyPlayedSection resolves history outside this subset from the existing
+  // bundled search-listings resource after hydration.
   const calendar = getCalendar()
   const referenced = new Set<string>([
     ...calendar.months.flatMap((m) => m.songs.map((s) => s.uid)),

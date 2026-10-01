@@ -146,7 +146,7 @@ const SongsPage: React.FC<SongsPageProps> = ({ songs }) => {
                 ) : (
                   <div className="space-y-1">
                     {listings.map((song) => (
-                      <SongListItem key={song.uid} song={song} onClick={() => handleSongClick(song)} />
+                      <SongListItem key={song.uid} song={song} href={`/songs/${song.uid}`} />
                     ))}
                   </div>
                 )}

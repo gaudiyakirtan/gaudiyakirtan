@@ -1,5 +1,6 @@
 @import './colors.css';
 @import "tailwindcss";
+@import './home.css';
 
 /* Brand display face (5th Avenue), used for the wordmark and the Home welcome heading only —
    never for body copy: it is a decorative script with no Indic coverage, so song text must stay on

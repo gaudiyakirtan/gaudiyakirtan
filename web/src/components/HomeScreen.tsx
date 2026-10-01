@@ -1,120 +1,47 @@
-import React, { useMemo } from 'react'
-import { useRouter } from 'next/router'
+import React, { useMemo, useRef } from 'react'
 import { ISongGroup } from '../models/Collections'
 import { UNKNOWN_AUTHOR_UID } from '../models/Common'
 import { IAuthorListing } from '../services/authorRepository'
 import { ISongListing } from '../services/songListingView'
 import { AuthorNames, ITrackSong } from '../services/trackListingView'
+import { useTheme } from '../utils/ThemeContext'
+import { useHomeLayout } from '../utils/useHomeLayout'
 import { NowSection } from './NowSection'
 import { RecentlyPlayedSection } from './RecentlyPlayedSection'
 import { TopicsSection } from './TopicsSection'
 import { BooksSection } from './BooksSection'
 import { AuthorsSection } from './AuthorsSection'
 
-interface HomeScreenProps {
-  /** Lookup source for uid-only references (calendar song refs, local recents). */
+interface IHomeScreenProps {
   referenceListings: ISongListing[]
-  /** Player slices for the month songs that have recordings, keyed by uid (home's recording picker). */
   trackSongsByUid: Record<string, ITrackSong>
-  /** Shared authorUid -> renderings table for those track songs (rejoined by `toPlayable`). */
   trackAuthors: AuthorNames
   authors: IAuthorListing[]
   books: ISongGroup[]
   topics: ISongGroup[]
 }
 
-/**
- * Home (docs/screens/home.md) — leads with what to sing now, then what the reader was last
- * reading, then the browse sections.
- *
- *   1. This month      — the lunar month's songs + the ārati for the time of day
- *   2. Recently played — from localStorage, most recent first
- *   3. Topics          — one row
- *   4. Books           — one row
- *   5. Authors         — one row
- *
- * There is no "Popular" region: the corpus carries no usage signal and none can be manufactured
- * (~30 of 702 songs appear even once across 2,172 dated community livestreams).
- */
-export const HomeScreen: React.FC<HomeScreenProps> = ({
-  referenceListings,
-  trackSongsByUid,
-  trackAuthors,
-  authors,
-  books,
-  topics,
-}) => {
-  const router = useRouter()
-
-  const listingsByUid = useMemo(
-    () => Object.fromEntries(referenceListings.map((l) => [l.uid, l])),
-    [referenceListings],
-  )
-
-  const handleSongClick = (song: ISongListing) => {
-    router.push(`/songs/${song.uid}`)
-  }
-
-  const handleAuthorClick = (listing: IAuthorListing) => {
-    router.push(`/songs?author=${encodeURIComponent(listing.author.uid)}`)
-  }
-
-  const handleBookClick = (book: ISongGroup) => {
-    router.push(`/books/${book.uid}`)
-  }
-
-  const handleTopicClick = (topic: ISongGroup) => {
-    router.push(`/topics/${topic.uid}`)
-  }
-
+/** Home v5: seasonal context and repertoire, reading history, then independent browse shelves. */
+export function HomeScreen({ referenceListings, trackSongsByUid, trackAuthors, authors, books, topics }: IHomeScreenProps) {
+  const { theme } = useTheme()
+  const ref = useRef<HTMLDivElement>(null)
+  const obscured = useHomeLayout(ref)
+  const listingsByUid = useMemo(() => Object.fromEntries(referenceListings.map((song) => [song.uid, song])), [referenceListings])
   return (
-    <div className="w-full max-w-screen-lg pt-4 pb-20 mx-auto">
-      {/* "This month" is the lead region: the month's songs plus the ārati for the time of day.
-          It carries the seasonal recommendations (in Āṣāḍha, the Jagannātha/Ratha-yātrā and
-          Guru-pūrṇimā songs) and is the only region that changes through the day and year. */}
-      <NowSection
-        listingsByUid={listingsByUid}
-        trackSongsByUid={trackSongsByUid}
-        authors={trackAuthors}
-        onSongClick={handleSongClick}
-      />
-
-      <RecentlyPlayedSection listingsByUid={listingsByUid} onSongClick={handleSongClick} />
-
-      {/* Topics -> Books -> Authors, each ONE horizontally-scrollable row (`singleRow`). The
-          wrapping grids these sections use by default belong on /topics and /books, where the
-          whole set is the point; on home they cost three rows of vertical scroll each.
-          Topics and Books hide themselves when the corpus ships no groups of that kind. */}
-      <div className="mb-8">
-        <TopicsSection
-          topics={topics}
-          onTopicClick={handleTopicClick}
-          title="Topics"
-          limit={12}
-          singleRow
-          viewAllLink="/topics"
-        />
+    <div ref={ref} className="home-screen" data-testid="home">
+      <span className="home-text-probe" aria-hidden="true" />
+      <div className="home-frame">
+        <div className="home-brand">
+          <h1 className="font-display font-normal">Śrī Gaudiya Kirtan</h1>
+          {/* eslint-disable-next-line @next/next/no-img-element -- bundled decorative brand mark */}
+          <img src={theme === 'dark' ? '/assets/Mridangam-BlueCover-01.svg' : '/assets/Mridanga-01.svg'} alt="" aria-hidden="true" />
+        </div>
+        <NowSection listingsByUid={listingsByUid} trackSongsByUid={trackSongsByUid} authors={trackAuthors} obscured={obscured} />
+        <RecentlyPlayedSection listingsByUid={listingsByUid} />
+        <TopicsSection topics={topics} title="Topics" limit={12} singleRow viewAllLink="/topics" />
+        <BooksSection books={books} title="Books" limit={12} singleRow viewAllLink="/books" />
+        <AuthorsSection authors={authors.filter((a) => a.author.uid !== UNKNOWN_AUTHOR_UID)} title="Authors" limit={12} singleRow viewAllLink="/authors" />
       </div>
-
-      <div className="mb-8">
-        <BooksSection
-          books={books}
-          onBookClick={handleBookClick}
-          title="Books"
-          limit={12}
-          singleRow
-          viewAllLink="/books"
-        />
-      </div>
-
-      <AuthorsSection
-        authors={authors.filter((a) => a.author.uid !== UNKNOWN_AUTHOR_UID)}
-        onAuthorClick={handleAuthorClick}
-        title="Authors"
-        limit={12}
-        singleRow
-        viewAllLink="/authors"
-      />
     </div>
   )
 }

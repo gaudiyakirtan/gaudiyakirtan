@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { ISongGroup } from '../models/Collections'
 import { BookCard } from './BookCard'
+import { HomeShelf } from './HomeShelf'
 
 interface BooksSectionProps {
   books: ISongGroup[]
@@ -26,6 +27,10 @@ export const BooksSection: React.FC<BooksSectionProps> = ({
   if (!books.length) return null
 
   const displayBooks = limit ? books.slice(0, limit) : books
+
+  if (singleRow) return <HomeShelf title={title} viewAllLink={viewAllLink} kind="books">
+    {displayBooks.map((book) => <li key={book.uid}><BookCard book={book} shelf /></li>)}
+  </HomeShelf>
 
   return (
     <div className={className}>

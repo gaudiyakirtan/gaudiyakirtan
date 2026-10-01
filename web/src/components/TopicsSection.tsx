@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import { ISongGroup } from '../models/Collections'
 import { TopicCard } from './TopicCard'
+import { HomeShelf } from './HomeShelf'
 
 interface TopicsSectionProps {
   topics: ISongGroup[]
@@ -26,6 +27,10 @@ export const TopicsSection: React.FC<TopicsSectionProps> = ({
   if (!topics.length) return null
 
   const displayTopics = limit ? topics.slice(0, limit) : topics
+
+  if (singleRow) return <HomeShelf title={title} viewAllLink={viewAllLink} kind="topics">
+    {displayTopics.map((topic) => <li key={topic.uid}><TopicCard topic={topic} shelf /></li>)}
+  </HomeShelf>
 
   return (
     <div className={className}>

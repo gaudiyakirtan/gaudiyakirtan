@@ -176,6 +176,7 @@ const searchListings = songs.map((s) => ({
   titles: (s.title_main || []).map((t) => ({ scriptCode: t.script_code, text: t.text })),
   authorUid: s.author_uid || '?',
   authorName: romanAuthor(s),
+  authorNames: (s.author_display || []).map((name) => ({ scriptCode: name.script_code, text: name.text })),
   languageOfOrigin: s.language_of_origin || '',
   audioAvailable: !!s.audio_available,
 }))

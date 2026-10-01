@@ -1,4 +1,6 @@
 import React from 'react'
+import Link from 'next/link'
+import { TopicsIcon } from './icons/SidebarIcons'
 import { ISongGroup } from '../models/Collections'
 import { getMediaColor, isColorDark } from '../utils/colors'
 import { pickScriptText } from '../services/textDisplay'
@@ -8,15 +10,24 @@ interface TopicCardProps {
   topic: ISongGroup
   onClick?: () => void
   className?: string
+  shelf?: boolean
 }
 
-export const TopicCard: React.FC<TopicCardProps> = ({ topic, onClick, className = '' }) => {
+export const TopicCard: React.FC<TopicCardProps> = ({ topic, onClick, className = '', shelf = false }) => {
   const { settings } = useSettings()
   // Title in the reader's List-language; color seed stays on the fixed Latin title (see BookCard).
   const title = pickScriptText(topic.titles, [settings.listLanguage, 'Latn', 'Beng'])
   const bgColor = topic.color || getMediaColor(pickScriptText(topic.titles, ['Latn', 'Beng']))
   const isDark = isColorDark(bgColor)
   const textColor = isDark ? 'text-white' : 'text-black'
+
+  if (shelf) return (
+    <Link href={`/topics/${topic.uid}`} className="home-browse-card home-topic-card utility-target">
+      <TopicsIcon className="text-[var(--accent)]" aria-hidden="true" />
+      <span className="text-sm/5 font-medium">{title}</span>
+      <span className="text-sm/5 text-[var(--tertiary)]">{topic.songUids.length} songs</span>
+    </Link>
+  )
 
   const containerStyle = {
     backgroundColor: bgColor,

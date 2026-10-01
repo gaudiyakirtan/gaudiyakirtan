@@ -187,7 +187,10 @@ export const Layout: React.FC<LayoutProps> = ({ children, title = "Gaudiya Kirta
         {/* No horizontal gutter on mobile: every page/section already carries its own `px-4`, so a
             gutter here doubled it (32px per side, cramping phones). Desktop keeps `md:px-8`; the few
             prose/detail pages that lean on this gutter add a mobile-only `px-4 md:px-0` themselves. */}
-        <main className="flex-1 py-6 md:px-8">{children}</main>
+        <main
+          data-overlay-open={sidebarOpen || searchOpen ? 'true' : undefined}
+          className={router.pathname === '/' ? 'min-w-0 flex-1' : 'flex-1 py-6 md:px-8'}
+        >{children}</main>
 
         <footer>
           <div className="mx-auto px-4 py-6 sm:px-6 lg:px-8">

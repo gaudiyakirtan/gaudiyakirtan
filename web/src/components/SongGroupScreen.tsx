@@ -1,5 +1,4 @@
 import React from 'react'
-import { useRouter } from 'next/router'
 import Link from 'next/link'
 import { IScriptText } from '../models/Common'
 import { pickScriptText } from '../services/textDisplay'
@@ -36,7 +35,6 @@ const BACK_HREF: Record<ISongGroupView['kind'], string> = {
 }
 
 export const SongGroupScreen: React.FC<SongGroupScreenProps> = ({ group, songs }) => {
-  const router = useRouter()
   const { settings } = useSettings()
   const accent = group.color || 'var(--highlight)'
   // Header title in the reader's List-language (books/topics carry per-script names now).
@@ -74,7 +72,7 @@ export const SongGroupScreen: React.FC<SongGroupScreenProps> = ({ group, songs }
       ) : (
         <div className="space-y-1 px-2">
           {songs.map((song) => (
-            <SongListItem key={song.uid} song={song} onClick={() => router.push(`/songs/${song.uid}`)} />
+            <SongListItem key={song.uid} song={song} href={`/songs/${song.uid}`} />
           ))}
         </div>
       )}
