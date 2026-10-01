@@ -107,15 +107,13 @@ struct HomeListenCard: View {
     private func readAction(_ song: Song) -> some View {
         NavigationLink(destination: SongDetailLoader(uid: song.uid)) {
             Label("Read & sing", systemImage: "book")
-                // Gaura's existing onHighlight/highlight pair meets AA for large bold text.
-                // Headline stays at least 14 pt even at the smallest Dynamic Type setting.
                 .font(.headline.weight(.bold))
-                .foregroundStyle(Color.onHighlight)
+                .foregroundStyle(Color.background)
                 .padding(.horizontal, HomeSpacing.md)
                 .padding(.vertical, HomeSpacing.sm)
                 .frame(minWidth: 44, minHeight: 44)
         }
-        .buttonStyle(HomeControlStyle(surface: .highlight, stateLayer: .onHighlight,
+        .buttonStyle(HomeControlStyle(surface: .primaryText, stateLayer: .background,
                                       bordered: false, standalone: true))
         .accessibilityLabel("Read & sing \(song.title(inScript: settings.listLanguage))")
         .accessibilityIdentifier("home.listen.open")
@@ -177,23 +175,27 @@ struct HomeListenCard: View {
 private struct HomeRhythmField: View {
     var body: some View {
         Canvas { context, size in
-            let scale = max(size.width / 360, size.height / 240)
+            let scale = min(size.width / 360, size.height / 240)
             context.translateBy(x: (size.width - 360 * scale) / 2,
                                 y: (size.height - 240 * scale) / 2)
             context.scaleBy(x: scale, y: scale)
+            var firstArc = Path()
+            firstArc.move(to: CGPoint(x: 24, y: 76))
+            firstArc.addCurve(to: CGPoint(x: 338, y: 90),
+                              control1: CGPoint(x: 116, y: 12), control2: CGPoint(x: 240, y: 16))
+            context.stroke(firstArc, with: .color(Color.highlight.opacity(0.18)),
+                           style: StrokeStyle(lineWidth: 28, lineCap: .round))
+            var secondArc = Path()
+            secondArc.move(to: CGPoint(x: 12, y: 112))
+            secondArc.addCurve(to: CGPoint(x: 356, y: 140),
+                               control1: CGPoint(x: 124, y: 48), control2: CGPoint(x: 252, y: 64))
+            context.stroke(secondArc, with: .color(Color.primaryText.opacity(0.08)),
+                           style: StrokeStyle(lineWidth: 18, lineCap: .round))
             for x in [48, 76, 112, 168, 196, 252] {
-                var beat = Path()
-                beat.move(to: CGPoint(x: CGFloat(x), y: 36))
-                beat.addLine(to: CGPoint(x: CGFloat(x), y: 204))
-                context.stroke(beat, with: .color(Color.highlight.opacity(0.04)),
-                               style: StrokeStyle(lineWidth: 2, lineCap: .round))
+                let beat = CGRect(x: CGFloat(x), y: 180, width: 8, height: 24)
+                context.fill(Path(roundedRect: beat, cornerRadius: 4),
+                             with: .color(Color.highlight.opacity(0.55)))
             }
-            var arc = Path()
-            arc.move(to: CGPoint(x: 24, y: 76))
-            arc.addCurve(to: CGPoint(x: 338, y: 90),
-                         control1: CGPoint(x: 116, y: 12), control2: CGPoint(x: 240, y: 16))
-            context.stroke(arc, with: .color(Color.highlight.opacity(0.06)),
-                           style: StrokeStyle(lineWidth: 8, lineCap: .round))
         }
         .accessibilityHidden(true)
         .allowsHitTesting(false)

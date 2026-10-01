@@ -180,14 +180,14 @@ class HomeV7Checks(unittest.TestCase):
                 self.assertGreaterEqual(contrast(color('neutral', dark), surface), 3)
                 self.assertGreaterEqual(contrast(color('highlight', dark), surface), 3)
             for opacity in (0, .10):
-                fill = blend(color('onHighlight', dark), color('highlight', dark), opacity)
-                value = contrast(color('onHighlight', dark), fill)
+                fill = blend(color('background', dark), color('primaryText', dark), opacity)
+                value = contrast(color('background', dark), fill)
                 minimum_action = min(minimum_action, value)
-                self.assertGreaterEqual(value, 3)
-        # The fixed semantic Gaura accent does not support small white text at 4.5:1.
-        # Headline bold is at least 14 pt even at the smallest supported Dynamic Type size.
-        self.assertIn('.font(.headline.weight(.bold))', read(HOME / 'HomeListenCard.swift'))
-        print(f'Contrast minima: body {minimum_body:.2f}:1; large bold reading action {minimum_action:.2f}:1')
+                self.assertGreaterEqual(value, 4.5)
+        feature = read(HOME / 'HomeListenCard.swift')
+        self.assertIn('.foregroundStyle(Color.background)', feature)
+        self.assertIn('HomeControlStyle(surface: .primaryText, stateLayer: .background', feature)
+        print(f'Contrast minima: body {minimum_body:.2f}:1; reading action {minimum_action:.2f}:1')
 
 
 if __name__ == '__main__':
