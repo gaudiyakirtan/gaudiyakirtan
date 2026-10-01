@@ -11,19 +11,18 @@ Legend: `—` not started · `⏳ stale` (spec ahead of code) · `🔨 in progre
 
 | Spec | Ver | Web | iOS | Android |
 |------|-----|-----|-----|---------|
-| [song](data/song.md) | v2 | ✅ | ✅* | ✅ |
-| [verse](data/verse.md) | v2 | ✅ | ✅* | ✅ |
-| [translation](data/translation.md) | v1 | ✅ | ✅* | ✅ |
-| [author](data/author.md) | v1 | ✅ | ✅* | ✅ |
-| [collections](data/collections.md) | v1 | ✅ | ✅* | ✅ |
-| [manifest](data/manifest.md) | v1 | ✅ | ✅* | ✅ |
+| [song](data/song.md) | v2 | ✅ | ✅ | ✅ |
+| [verse](data/verse.md) | v2 | ✅ | ✅ | ✅ |
+| [translation](data/translation.md) | v1 | ✅ | ✅ | ✅ |
+| [author](data/author.md) | v1 | ✅ | ✅ | ✅ |
+| [collections](data/collections.md) | v1 | ✅ | ✅ | ✅ |
+| [manifest](data/manifest.md) | v1 | ✅ | ✅ | ✅ |
 | [calendar](data/calendar.md) | v2 | ✅ | — | ✅ |
 | [pipeline](data/pipeline.md) | v1 | n/a | n/a | n/a |
 
-> **✅\* iOS**: data layer typechecks clean (`swiftc -typecheck`, 0 errors, verified independently)
-> + the decode harness passes over the full corpus. Full `xcodebuild` app build is **blocked in this
-> sandbox only** (`actool` asset-catalog codegen can't spawn — fails identically on baseline); the
-> simulator build+run must be confirmed on a normal macOS/Xcode machine.
+> **iOS verification:** the GitHub Actions macOS 15/Xcode 16.4 job builds the app and runs the
+> shared unit and UI test targets on an iPhone 16 simulator. The local Linux verifier separately
+> checks source contracts, the complete bundled corpus, asset references, and contrast.
 
 Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` Track A1.
 
@@ -31,65 +30,65 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 
 | Capability | Web | iOS | Android |
 |------------|-----|-----|---------|
-| Real corpus loaded (no sampleData) | ✅ | ✅* | ✅ |
+| Real corpus loaded (no sampleData) | ✅ | ✅ | ✅ |
 | Offline store (static bundle / Core Data / Room) | ✅ static | ✅ bundle | ✅ assets |
-| Repository over Manifest | ✅ | ✅* | ✅ |
+| Repository over Manifest | ✅ | ✅ | ✅ |
 | Calendar overlay (lunar month → songs) | ✅ | — | ✅ |
 | Home renders the calendar (month + songs) | ✅ | — | ✅ |
 | Recently played (device-local history) | ✅ | — | — |
 | Search (fuzzy) | ✅ | ✅ | ✅ |
 
 > **Data layer: all 3 platforms done.** Web ✅ `pnpm build` (full static export). Android ✅
-> `assembleDebug` + tests, APK packs the full corpus. iOS ✅* typecheck clean + decode harness (full
-> build sandbox-blocked; confirm on a real Xcode machine).
+> `assembleDebug` + tests, APK packs the full corpus. iOS ✅ Xcode build, 53 unit tests, and the
+> independent full-corpus decode harness.
 
 ### Screen specs (`docs/screens/`)
 
 | Screen | Web | iOS | Android |
 |--------|-----|-----|---------|
-| song-detail (v3) | ✅ | ✅* | ✅ |
-| songs-list / library | ✅ | ✅* | ✅ |
+| song-detail (v3) | ✅ | ✅ | ✅ |
+| songs-list / library | ✅ | ✅ | ✅ |
 | tracks (v1) | ✅ | — | — |
-| authors | ✅ | ✅* | ✅ |
+| authors | ✅ | ✅ | ✅ |
 | search | ✅ v10 | ✅ | ✅ |
 | url-resolution (v1) / 404 | ✅ | n/a | n/a |
 | pwa (v1) — offline/install | ✅ | n/a | n/a |
 | seo (v1) — metadata/sitemap | ✅ | n/a | n/a |
 | observability (v1) — analytics/Sentry | ✅ | n/a | n/a |
-| settings | ✅ | ✅* | ✅ |
-| [theme (v5 — shared utility motion)](screens/theme.md) | ✅ v5 | 🔨 v5 | ✅ v5 |
-| [home (v7 — The Singing Page)](screens/home.md) | ✅ v7 | 🔨 v7 | ✅ v7 |
+| settings | ✅ | ✅ | ✅ |
+| [theme (v5 — shared utility motion)](screens/theme.md) | ✅ v5 | ✅ v5 | ✅ v5 |
+| [home (v7 — The Singing Page)](screens/home.md) | ✅ v7 | ✅ v7 | ✅ v7 |
 | today (v2) — Home seasonal region | ✅ v2 | — **TODO** | ✅ v2 |
-| navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
+| navigation (v5) | ✅ v5 green | ✅ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
-| [components (v10 — Home composition)](screens/components.md) | ✅ v10 | 🔨 v10 | ✅ v10 |
-| collections / books / topics | ✅ | ✅* | ✅ |
-| artist/book images | ✅ | ✅* | ✅ |
-| unit tests | ✅ | ✅* | ✅ |
+| [components (v10 — Home composition)](screens/components.md) | ✅ v10 | ✅ v10 | ✅ v10 |
+| collections / books / topics | ✅ | ✅ | ✅ |
+| artist/book images | ✅ | ✅ | ✅ |
+| unit tests | ✅ | ✅ | ✅ |
 | resources | 🔨 | — | — |
-| player / now-playing | ✅ v14 green | ✅* ʷ | ✅ ʷ |
+| player / now-playing | ✅ v14 green | ✅ ʷ | ✅ ʷ |
 
-Legend: `✅` verified · `✅*` iOS typecheck+harness (full `xcodebuild` sandbox-blocked; confirm on a real
-Xcode machine) · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a
+Legend: `✅` verified · `ᶠ` footer/nav polish · `ʷ` the newest spec version is **web-only** — it describes a
 web surface (navigation v5 / player v14: the web z-index scale, the drawer-over-mini-player model,
 and the open-song uid pill), so iOS/Android are not stale against it; they stay conformant at the
 version before it ·
 `🔨` in progress · `—` not applicable / not on that platform.
 
-**Home v7 — Web and Android verified; iOS implementation awaiting a compatible runner.** v7
+**Home v7 — all three platforms verified.** v7
 replaces the rejected dashboard composition with one featured song, explicit reading and playback
 actions, compact seasonal context, and restrained editorial browsing. Web passes lint, production
-build, 191 unit tests, and 40 focused Playwright checks. Android passes debug assembly, 126 unit
-tests, and 50 Roborazzi comparisons. The Linux iOS verifier passes 12 source, resource, behavior,
-and contrast checks; Xcode compilation and simulator capture still require a compatible macOS host.
-Selected v7 evidence is stored under `docs/screenshots/home-v7/`.
+build, 191 unit tests, and 40 focused Playwright checks. Android passes debug assembly, 127
+unit/Compose tests, and 50 Home-specific Roborazzi comparisons. iOS passes an Xcode 16.4 simulator
+build, 53 unit tests, 11 UI tests, and the 12-case Linux source/resource/contrast verifier.
+Selected Gaura and Shyam evidence for all three platforms is stored under
+`docs/screenshots/home-v7/`.
 
 **Home v5/v6 — historical baselines.** Their uniform shelf and dashboard geometry remain only in
 before screenshots; v7 is authoritative.
 
-**Theme v5 / components v10.** Web and Android Home interactions use the shared timing/state
-contracts and have automated reduced-motion or platform-motion coverage. iOS uses the same named
-tokens and `accessibilityReduceMotion`, pending Xcode verification as noted above.
+**Theme v5 / components v10.** All three Home implementations use the shared timing/state contracts.
+Web and Android have automated reduced-motion or platform-motion coverage; iOS uses the same named
+tokens and `accessibilityReduceMotion`, verified by unit/UI tests on the macOS runner.
 
 **theme v3 (Material 3 Expressive) — Android is `🔨 partial`.** Landed: `MaterialExpressiveTheme` +
 `MotionScheme.expressive()`, the shape scale, the type scale, the remapped Material color slots with
