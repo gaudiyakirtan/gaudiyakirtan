@@ -16,6 +16,8 @@ import SwiftUI
 struct VerseView: View {
     let verse: Verse
     var options: VerseDisplayOptions
+    /// Home uses scalable, high-contrast body roles; other readers keep their existing styling.
+    var homeReading = false
 
     /// The chosen native/primary script (with IAST fallback baked in by `Verse.displayScript`). When
     /// the chosen script is `Latn`, this is the roman line in the reader's `romanStandard`.
@@ -33,20 +35,20 @@ struct VerseView: View {
         wtw.words.reduce(Text("")) { partial, pair in
             guard pair.count == 2 else { return partial }
             return partial
-                + Text(pair[0]).foregroundColor(Color.highlight)
+                + Text(pair[0]).foregroundColor(homeReading ? Color.primaryText : Color.highlight)
                 + Text(" — \(pair[1]); ")
         }
     }
 
     var body: some View {
-        VStack(alignment: .leading, spacing: 10) {
+        VStack(alignment: .leading, spacing: homeReading ? HomeSpacing.md : 10) {
             // 1. Chosen native script (skipped when it's the roman line itself)
             if !primaryIsRoman, let primaryScript, !primaryScript.text.isEmpty {
                 VStack(spacing: 4) {
                     ForEach(displayedLines(of: primaryScript.text), id: \.self) { line in
                         Text(line)
-                            .font(.system(size: 15))
-                            .foregroundColor(Color.neutral)
+                            .font(homeReading ? .body : .system(size: 15))
+                            .foregroundColor(homeReading ? Color.secondaryText : Color.neutral)
                             .multilineTextAlignment(.center)
                             .frame(maxWidth: .infinity, alignment: .center)
                     }
@@ -58,8 +60,8 @@ struct VerseView: View {
                 VStack(spacing: 4) {
                     ForEach(displayedLines(of: romanScript.text), id: \.self) { line in
                         Text(line)
-                            .font(.system(size: 15))
-                            .foregroundColor(Color.highlight)
+                            .font(homeReading ? .body : .system(size: 15))
+                            .foregroundColor(homeReading ? Color.primaryText : Color.highlight)
                             .multilineTextAlignment(.center)
                             .frame(maxWidth: .infinity, alignment: .center)
                     }
@@ -73,7 +75,8 @@ struct VerseView: View {
                    let wtw = verse.wordToWord(language: options.wordToWordLanguage),
                    !wtw.words.isEmpty {
                     combinedWTWText(wtw)
-                        .font(.system(size: 14))
+                        .font(homeReading ? .body : .system(size: 14))
+                        .foregroundStyle(homeReading ? Color.secondaryText : Color.primaryText)
                         .frame(maxWidth: .infinity, alignment: .leading)
                 }
 
@@ -82,12 +85,13 @@ struct VerseView: View {
                    let translation = verse.translation(language: options.translationLanguage),
                    !translation.text.isEmpty {
                     Text(translation.joinedText)
-                        .font(.system(size: 14, weight: .semibold))
+                        .font(homeReading ? .body : .system(size: 14, weight: .semibold))
                         .foregroundColor(Color("primaryText"))
                         .frame(maxWidth: .infinity, alignment: .leading)
                 }
             }
         }
+        .fixedSize(horizontal: false, vertical: true)
     }
 
     /// When collapsed (hidden-song state), show only the first line of a script block; otherwise all

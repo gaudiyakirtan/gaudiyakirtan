@@ -2,25 +2,29 @@ import SwiftUI
 
 struct TopicsScrollView: View {
     let topics: [Topic]
+    let layout: HomeLayout
 
     var body: some View {
-        VStack(alignment: .leading) {
-            Text("Topics")
-                .font(.title2)
-                .fontWeight(.bold)
-                .padding()
-
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 12) {
-                    Spacer().frame(width: 6)
-                    ForEach(topics) { topic in
-                        // Real per-topic membership (`topic.songUids`) when available, otherwise
-                        // the deterministic placeholder used while no SongGroup data ships.
-                        let songCount = topic.songUids.isEmpty ? topic.demoSongCount : topic.songUids.count
-                        TopicCard(topic: topic, songCount: songCount)
-                    }
+        HomeShelf(title: "Topics", items: topics, itemWidth: 176, layout: layout) { topic in
+            NavigationLink(destination: SongGroupSongsView(groupUid: topic.id, kind: .topic, title: topic.name)) {
+                VStack(alignment: .leading, spacing: HomeSpacing.sm) {
+                    Image(systemName: "tag")
+                        .foregroundStyle(Color.secondaryText)
+                        .accessibilityHidden(true)
+                    Text(topic.name)
+                        .font(.subheadline.weight(.medium))
+                        .foregroundStyle(Color.primaryText)
+                        .fixedSize(horizontal: false, vertical: true)
+                    Text(topic.songUids.count == 1 ? "1 song" : "\(topic.songUids.count) songs")
+                        .font(.subheadline)
+                        .foregroundStyle(Color.tertiaryText)
                 }
+                .padding(HomeSpacing.lg)
+                .frame(maxWidth: .infinity, minHeight: 112, alignment: .leading)
+                .accessibilityElement(children: .combine)
             }
+            .buttonStyle(HomeControlStyle(cornerRadius: HomeShape.medium))
+            .accessibilityIdentifier("home.topic.\(topic.id)")
         }
     }
 }

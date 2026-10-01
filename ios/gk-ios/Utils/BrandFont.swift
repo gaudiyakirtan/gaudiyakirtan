@@ -13,8 +13,8 @@ import SwiftUI
 /// setting, since this project generates its Info.plist rather than checking one in.
 extension Font {
     /// 5th Avenue at `size`, falling back to the system serif if the font failed to register.
-    static func brandDisplay(size: CGFloat) -> Font {
-        .custom(brandDisplayName, size: size)
+    static func brandDisplay(size: CGFloat, relativeTo style: Font.TextStyle = .title) -> Font {
+        .custom(brandDisplayName, size: size, relativeTo: style)
     }
 
     /// PostScript name as recorded in the font's `name` table — what `Font.custom` resolves against.

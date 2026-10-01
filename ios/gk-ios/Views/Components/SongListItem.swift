@@ -1,64 +1,58 @@
 import SwiftUI
 
+/// Canonical row for Home, Search and Library. Layout expands instead of clipping reading scripts.
 struct SongListItem: View {
     let entry: ManifestEntry
-    /// App-wide settings (injected at the app root). Read here so the row title honors the
-    /// `listLanguage` setting (settings.md — "which script titles appear in lists").
     @EnvironmentObject private var settings: ReaderSettings
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
+    private var title: String { entry.title(inScript: settings.listLanguage) }
     private var authorName: String {
-        SongRepository.shared.authorDisplayName(forUid: entry.authorUid)
+        SongRepository.shared.authorDisplayName(forUid: entry.authorUid, inScript: settings.listLanguage)
     }
 
     var body: some View {
-        // Use NavigationLink for navigation
         NavigationLink(destination: SongDetailLoader(uid: entry.uid)) {
-            HStack {
-                // Main content
-                VStack(alignment: .leading, spacing: 4) {
-                    // Title and UID row
-                    HStack(alignment: .center, spacing: 8) {
-                        Text(entry.title(inScript: settings.listLanguage))
-                            .font(.system(size: 14))
-                            .foregroundColor(Color("primaryText"))
-                            .lineLimit(1)
-
-                        Text(entry.uid)
-                            .font(.system(size: 10, weight: .medium))
-                            .foregroundColor(Color.neutral)
-                            .padding(.horizontal, 10)
-                            .padding(.vertical, 2)
-                            .background(Color.neutral.opacity(0.25))
-                            .cornerRadius(11)
-                            .lineLimit(1)
-                            .fixedSize()
-
-                        Spacer()
+            VStack(alignment: .leading, spacing: HomeSpacing.xs) {
+                ViewThatFits(in: .horizontal) {
+                    HStack(alignment: .firstTextBaseline, spacing: HomeSpacing.sm) {
+                        titleText.fixedSize(horizontal: true, vertical: false)
+                        RowUidChip(uid: entry.uid)
                     }
-
-                    // Author and audio icon
-                    HStack(spacing: 6) {
-                        Text(authorName)
-                            .font(.system(size: 14))
-                            .foregroundColor(Color.neutral)
-                            .lineLimit(1)
-
-                        if entry.audioAvailable {
-                            Image(systemName: "music.note")
-                                .font(.system(size: 12))
-                                .foregroundColor(Color.neutral)
-                        }
-
-                        Spacer()
+                    VStack(alignment: .leading, spacing: HomeSpacing.xs) {
+                        titleText
+                        RowUidChip(uid: entry.uid)
                     }
                 }
-                .frame(maxWidth: .infinity, alignment: .leading)
+                HStack(alignment: .firstTextBaseline, spacing: HomeSpacing.sm) {
+                    Text(authorName)
+                        .font(.subheadline)
+                        .foregroundStyle(Color.secondaryText)
+                        .lineLimit(dynamicTypeSize.isAccessibilitySize ? nil : 2)
+                        .fixedSize(horizontal: false, vertical: true)
+                    if entry.audioAvailable {
+                        Image(systemName: "music.note")
+                            .font(.subheadline)
+                            .foregroundStyle(Color.tertiaryText)
+                    }
+                }
             }
-            .frame(height: 56)
-            .padding(.horizontal, 10)
-            .background(Color.backgroundOffset)
-            .cornerRadius(12)
+            .padding(.horizontal, HomeSpacing.md)
+            .padding(.vertical, HomeSpacing.sm)
+            .frame(maxWidth: .infinity, minHeight: 56, alignment: .leading)
+            .accessibilityElement(children: .ignore)
+            .accessibilityLabel("\(title), \(entry.uid), \(authorName)")
+            .accessibilityValue(entry.audioAvailable ? "Audio available" : "")
         }
-        .buttonStyle(PlainButtonStyle())
+        .buttonStyle(HomeControlStyle())
+        .accessibilityIdentifier("song.\(entry.uid)")
+    }
+
+    private var titleText: some View {
+        Text(title)
+            .font(.body)
+            .foregroundStyle(Color.primaryText)
+            .lineLimit(dynamicTypeSize.isAccessibilitySize ? nil : 2)
+            .fixedSize(horizontal: false, vertical: true)
     }
 }
