@@ -7,6 +7,7 @@ class HomeViewModel: ObservableObject {
     @Published var topics: [Topic] = []
     @Published var books: [Book] = []
     @Published var featuredSong: Song?
+    @Published private(set) var listeningSong: Song?
     @Published var collections: [Collection] = []
     @Published var searchText: String = ""
     @Published var showSettings: Bool = false
@@ -23,7 +24,25 @@ class HomeViewModel: ObservableObject {
         loadData()
     }
 
-    // Preserve the existing Home filtering and manifest order; never cap the catalog.
+    // Only the Home projections are bounded. Library and filtering retain the full catalog.
+    var previewSongs: [ManifestEntry] { Array(filteredSongs.prefix(4)) }
+    var previewBooks: [Book] { Array(filteredBooks.prefix(4)) }
+    var previewAuthors: [Author] { Array(filteredAuthors.prefix(4)) }
+    var previewTopics: [Topic] { Array(filteredTopics.prefix(6)) }
+
+    func songCount(for author: Author) -> Int {
+        songs.filter { $0.authorUid == author.uid }.count
+    }
+
+    /// Resolve actual tracks, not just the manifest's availability flag. Stop at the first
+    /// recording in catalog order; no ranking or date-based recommendation is implied.
+    static func firstRecording(in entries: [ManifestEntry], loadSong: (String) -> Song?) -> Song? {
+        for entry in entries where entry.audioAvailable {
+            if let song = loadSong(entry.uid), !song.audioFiles.isEmpty { return song }
+        }
+        return nil
+    }
+
     var filteredSongs: [ManifestEntry] {
         guard !searchText.isEmpty else { return songs }
         return songs.filter {
@@ -57,5 +76,6 @@ class HomeViewModel: ObservableObject {
         }
         collections = repository.songGroups(kind: .collection).map { Collection(songGroup: $0, type: .playlist) }
         featuredSong = repository.song(uid: featuredSongUid)
+        listeningSong = Self.firstRecording(in: songs, loadSong: repository.song(uid:))
     }
 }

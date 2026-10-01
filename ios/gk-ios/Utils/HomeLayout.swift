@@ -1,6 +1,6 @@
 import SwiftUI
 
-/// Home v5 geometry, measured after navigation/safe areas and before page gutters.
+/// Home v6 geometry, measured after navigation/safe areas and before page gutters.
 enum HomeSpacing {
     static let xxs: CGFloat = 2
     static let xs: CGFloat = 4
@@ -31,4 +31,11 @@ struct HomeLayout {
     }
     var verticalShelves: Bool { accessibilitySize || contentWidth < 320 }
     var bookWidth: CGFloat { isExpanded ? 160 : 144 }
+
+    var stackedModules: Bool { accessibilitySize || availableWidth < 700 }
+    var moduleGap: CGFloat { stackedModules ? 32 : 28 }
+    var topicColumns: Int {
+        if verticalShelves { return 1 }
+        return stackedModules ? 2 : (isExpanded ? 6 : 3)
+    }
 }

@@ -10,6 +10,18 @@ final class HomeTests: XCTestCase {
         XCTAssertFalse(model.songs.isEmpty)
         XCTAssertEqual(model.filteredSongs, repository.manifest)
         XCTAssertEqual(model.filteredSongs.last?.uid, repository.manifest.last?.uid)
+        XCTAssertEqual(model.previewSongs.map(\.uid), Array(repository.manifest.prefix(4)).map(\.uid))
+        XCTAssertEqual(model.previewBooks.count, min(4, model.books.count))
+        XCTAssertEqual(model.previewAuthors.count, min(4, model.authors.count))
+        XCTAssertEqual(model.previewTopics.count, min(6, model.topics.count))
+    }
+
+    func testHomeListeningSuggestionUsesTheFirstRealRecording() throws {
+        let model = HomeViewModel()
+        let song = try XCTUnwrap(model.listeningSong)
+        XCTAssertFalse(song.audioFiles.isEmpty)
+        let expected = try XCTUnwrap(model.songs.first(where: { $0.audioAvailable }))
+        XCTAssertEqual(song.uid, expected.uid)
     }
 
     func testFilteringByTitleAndAuthorRestoresTheEntireCatalog() throws {
@@ -127,5 +139,27 @@ final class HomeTests: XCTestCase {
         }
         XCTAssertNil(HomeMotion.animation(.instant, reduceMotion: false))
         XCTAssertNotNil(HomeMotion.animation(.press, reduceMotion: false))
+    }
+
+    func testListeningProjectionPrefersTheSharedPlayerAndClampsProgress() throws {
+        let fallback = try XCTUnwrap(SongRepository.shared.song(uid: "N9"))
+        let current = try XCTUnwrap(HomeViewModel.firstRecording(
+            in: SongRepository.shared.manifest,
+            loadSong: { SongRepository.shared.song(uid: $0) }
+        ))
+        let track = try XCTUnwrap(current.audioFiles.first)
+        let state = HomeListeningState(
+            fallbackSong: fallback,
+            currentSong: current,
+            currentTrack: track,
+            state: .playing,
+            currentTime: 500,
+            duration: 120
+        )
+        XCTAssertEqual(state.song?.uid, current.uid)
+        XCTAssertEqual(state.track?.uid, track.uid)
+        XCTAssertEqual(state.elapsed, 120)
+        XCTAssertEqual(state.progress, 1)
+        XCTAssertEqual(state.actionName, "Pause")
     }
 }

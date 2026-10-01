@@ -9,7 +9,8 @@ enum HomeMotion {
             switch self {
             case .instant: return 0
             case .press: return 0.09
-            case .release, .hover, .panelExit: return 0.12
+            case .release: return 0.14
+            case .hover, .panelExit: return 0.12
             case .selection, .icon: return 0.16
             case .panelEnter: return 0.18
             }
@@ -34,18 +35,22 @@ enum HomeMotion {
 struct HomeControlStyle: ButtonStyle {
     var cornerRadius: CGFloat = HomeShape.small
     var surface: Color = .backgroundOffset
+    var stateLayer: Color = .primaryText
     var outlined: Bool = false
+    var bordered: Bool = true
 
     func makeBody(configuration: Configuration) -> some View {
         ControlBody(configuration: configuration, cornerRadius: cornerRadius,
-                    surface: surface, outlined: outlined)
+                    surface: surface, stateLayer: stateLayer, outlined: outlined, bordered: bordered)
     }
 
     private struct ControlBody: View {
         let configuration: ButtonStyleConfiguration
         let cornerRadius: CGFloat
         let surface: Color
+        let stateLayer: Color
         let outlined: Bool
+        let bordered: Bool
         @Environment(\.accessibilityReduceMotion) private var reduceMotion
         @Environment(\.isFocused) private var isFocused
         @State private var isHovered = false
@@ -58,7 +63,7 @@ struct HomeControlStyle: ButtonStyle {
             configuration.label
                 .background {
                     shape.fill(surface)
-                    shape.fill(Color.primaryText.opacity(
+                    shape.fill(stateLayer.opacity(
                         configuration.isPressed || isFocused ? 0.10 : (isHovered ? 0.08 : 0)
                     ))
                     .animation(HomeMotion.animation(configuration.isPressed ? .press : .release,
@@ -67,7 +72,9 @@ struct HomeControlStyle: ButtonStyle {
                     .animation(HomeMotion.animation(.hover, reduceMotion: reduceMotion || isFocused),
                                value: isHovered)
                 }
-                .overlay { shape.strokeBorder(outlined ? Color.neutral : Color.border, lineWidth: 1) }
+                .overlay {
+                    if bordered { shape.strokeBorder(outlined ? Color.neutral : Color.border, lineWidth: 1) }
+                }
                 // Inset strokes keep the ring at exactly 0–2 (parent surface) and 2–4 (highlight)
                 // outside the target, so shelves' 4-unit scroll padding never clips it.
                 .overlay {

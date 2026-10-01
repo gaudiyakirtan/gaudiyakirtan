@@ -27,7 +27,7 @@ final class HomeUITests: XCTestCase {
         let app = XCUIApplication()
         app.launch()
         let song = app.descendants(matching: .any)
-            .matching(NSPredicate(format: "identifier BEGINSWITH %@", "song.")).firstMatch
+            .matching(NSPredicate(format: "identifier BEGINSWITH %@", "home.song.")).firstMatch
         XCTAssertTrue(song.waitForExistence(timeout: 10))
         XCTAssertGreaterThanOrEqual(song.frame.height, 44)
         song.tap()

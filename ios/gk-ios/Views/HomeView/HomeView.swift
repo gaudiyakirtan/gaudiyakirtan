@@ -8,21 +8,14 @@ struct HomeView: View {
     var body: some View {
         GeometryReader { geometry in
             let layout = HomeLayout(availableWidth: geometry.size.width,
-                                    accessibilitySize: dynamicTypeSize.isAccessibilitySize)
+                                    accessibilitySize: dynamicTypeSize >= .xxxLarge)
             ScrollView {
-                LazyVStack(alignment: .leading, spacing: HomeSpacing.xxl) {
+                LazyVStack(alignment: .leading, spacing: layout.moduleGap) {
                     header(layout: layout)
-                    if !viewModel.filteredSongs.isEmpty {
-                        SongsGridView(songs: viewModel.filteredSongs, layout: layout)
-                    }
-                    if !viewModel.filteredTopics.isEmpty {
-                        TopicsScrollView(topics: viewModel.filteredTopics, layout: layout)
-                    }
-                    if !viewModel.filteredBooks.isEmpty {
-                        BooksScrollView(books: viewModel.filteredBooks, layout: layout)
-                    }
-                    if !viewModel.filteredAuthors.isEmpty {
-                        AuthorsScrollView(authors: viewModel.filteredAuthors, layout: layout)
+                    primaryModules(layout: layout)
+                    discoveryModules(layout: layout)
+                    if !viewModel.previewTopics.isEmpty {
+                        HomeTopicsGrid(topics: viewModel.previewTopics, layout: layout)
                     }
                     if let song = viewModel.featuredSong {
                         featuredReading(song)
@@ -38,9 +31,47 @@ struct HomeView: View {
             }
             .accessibilityIdentifier("home.scroll")
         }
-        .background(Color.background.ignoresSafeArea())
+        .background(HomePalette.canvas.ignoresSafeArea())
         .sheet(isPresented: $viewModel.showSettings) {
             SettingsSheet(isPresented: $viewModel.showSettings, settings: readerSettings)
+        }
+    }
+
+    @ViewBuilder
+    private func primaryModules(layout: HomeLayout) -> some View {
+        if layout.stackedModules {
+            HomeListenCard(fallbackSong: viewModel.listeningSong)
+            songPreview
+        } else {
+            HStack(alignment: .top, spacing: layout.moduleGap) {
+                HomeListenCard(fallbackSong: viewModel.listeningSong)
+                    .frame(width: (layout.contentWidth - layout.moduleGap) * 0.44)
+                songPreview.padding(.top, 20)
+            }
+        }
+    }
+
+    @ViewBuilder
+    private var songPreview: some View {
+        if !viewModel.previewSongs.isEmpty {
+            HomeSongPreview(songs: viewModel.previewSongs, catalogCount: viewModel.songs.count)
+        }
+    }
+
+    @ViewBuilder
+    private func discoveryModules(layout: HomeLayout) -> some View {
+        let hasBooks = !viewModel.previewBooks.isEmpty
+        let hasAuthors = !viewModel.previewAuthors.isEmpty
+        if !layout.stackedModules && hasBooks && hasAuthors {
+            HStack(alignment: .top, spacing: layout.moduleGap) {
+                HomeBooksCard(books: viewModel.previewBooks, layout: layout)
+                    .frame(width: (layout.contentWidth - layout.moduleGap) * 0.58)
+                HomeAuthorsCard(authors: viewModel.previewAuthors, songCount: viewModel.songCount(for:))
+                    .padding(.top, 32)
+            }
+        } else {
+            if hasBooks { HomeBooksCard(books: viewModel.previewBooks, layout: layout) }
+            if hasAuthors { HomeAuthorsCard(authors: viewModel.previewAuthors, songCount: viewModel.songCount(for:)) }
         }
     }
 
@@ -81,17 +112,17 @@ struct HomeView: View {
                     .padding(.vertical, HomeSpacing.sm)
                     .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
                 }
-                .buttonStyle(HomeControlStyle(outlined: true))
+                .buttonStyle(HomeControlStyle(cornerRadius: 16, surface: HomePalette.card, outlined: true))
                 .accessibilityIdentifier("home.search")
 
                 Button { viewModel.showSettings = true } label: {
                     Image(systemName: "gearshape")
                         .font(.title3)
-                        .foregroundStyle(Color.onHighlight)
+                        .foregroundStyle(HomePalette.ink)
                         .frame(minWidth: 44, minHeight: 44)
                 }
                 // Named lookup: `AccentColor` and `accent` assets would both generate `Color.accent`.
-                .buttonStyle(HomeControlStyle(surface: Color("accent")))
+                .buttonStyle(HomeControlStyle(cornerRadius: 16, surface: HomePalette.mutedSurface, bordered: false))
                 .accessibilityLabel("Settings")
                 .accessibilityIdentifier("home.settings")
             }
