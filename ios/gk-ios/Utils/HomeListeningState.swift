@@ -1,26 +1,19 @@
 import Foundation
 
-/// A projection of the shared player, never a second playback session. A loaded song/take wins
-/// over Home's initial recording, including when another screen changes the take or reports error.
+/// A projection of the shared player for one recommendation, never a second playback session.
+/// Player identity may select a take/state, but may never replace the featured song.
 struct HomeListeningState {
     let song: Song?
     let track: AudioTrack?
     let state: AudioPlayerState
-    let elapsed: TimeInterval
-    let duration: TimeInterval
+    let matchesFeaturedSong: Bool
 
-    init(fallbackSong: Song?, currentSong: Song?, currentTrack: AudioTrack?,
-         state: AudioPlayerState, currentTime: TimeInterval, duration: TimeInterval) {
-        let hasCurrent = currentSong != nil && currentTrack != nil
-        song = hasCurrent ? currentSong : fallbackSong
-        track = hasCurrent ? currentTrack : fallbackSong?.audioFiles.first
-        self.state = hasCurrent ? state : .idle
-        self.duration = hasCurrent && duration.isFinite ? max(0, duration) : 0
-        let time = hasCurrent && currentTime.isFinite ? max(0, currentTime) : 0
-        elapsed = self.duration > 0 ? min(time, self.duration) : time
+    init(fallbackSong: Song?, currentSong: Song?, currentTrack: AudioTrack?, state: AudioPlayerState) {
+        matchesFeaturedSong = fallbackSong != nil && currentSong?.uid == fallbackSong?.uid && currentTrack != nil
+        song = fallbackSong
+        track = matchesFeaturedSong ? currentTrack : fallbackSong?.audioFiles.first
+        self.state = matchesFeaturedSong ? state : .idle
     }
-
-    var progress: Double { duration > 0 ? elapsed / duration : 0 }
 
     var status: String {
         switch state {
@@ -35,16 +28,19 @@ struct HomeListeningState {
     var actionName: String {
         switch state {
         case .playing: return "Pause"
-        case .loading: return "Loading"
+        case .paused: return "Resume"
+        case .loading: return "Loading audio"
         case .error: return "Retry"
-        case .idle, .paused: return "Play"
+        case .idle: return "Play recording"
         }
     }
 
-    static func formatTime(_ seconds: TimeInterval) -> String {
-        guard seconds.isFinite, seconds > 0 else { return "0:00" }
-        // Bound conversion even for malformed timing metadata.
-        let whole = Int(min(seconds, 359_999))
-        return "\(whole / 60):\(String(format: "%02d", whole % 60))"
+    var controlSymbol: String {
+        switch state {
+        case .playing: return "pause.fill"
+        case .loading: return "hourglass"
+        case .error: return "arrow.clockwise"
+        case .idle, .paused: return "play.fill"
+        }
     }
 }

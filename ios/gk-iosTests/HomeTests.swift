@@ -107,30 +107,37 @@ final class HomeTests: XCTestCase {
         XCTAssertEqual(Author(uid: "unknown-author", names: []).name(inScript: "Beng"), "unknown-author")
     }
 
-    func testResponsiveGeometryUsesAvailableWidthBeforeGutters() {
-        let cases: [(CGFloat, CGFloat, Int, CGFloat)] = [
-            (390.0, 16.0, 1, 358.0), (599, 16, 1, 567), (600, 24, 2, 552),
-            (720, 24, 2, 672), (839, 24, 2, 791), (840, 32, 3, 776),
-            (1024, 32, 3, 960), (1600, 32, 3, 1120)
+    func testResponsiveGeometryKeepsTwentyPointInsetsAndReadableWidth() {
+        let cases: [(CGFloat, CGFloat)] = [
+            (320, 280), (390, 350), (599, 559), (600, 560),
+            (720, 680), (840, 800), (1024, 840), (1600, 840)
         ]
-        for (width, gutter, columns, content) in cases {
+        for (width, content) in cases {
             let layout = HomeLayout(availableWidth: width, accessibilitySize: false)
-            XCTAssertEqual(layout.gutter, gutter)
-            XCTAssertEqual(layout.columnCount, columns)
+            XCTAssertEqual(layout.gutter, 20)
             XCTAssertEqual(layout.contentWidth, content)
+        }
+        XCTAssertEqual(HomeLayout(availableWidth: 0, accessibilitySize: true).contentWidth, 0)
+    }
+
+    func testPhoneRailFitsTwoCompleteCoversAndAContinuation() {
+        let widths: [CGFloat] = [320, 390, 430]
+        for width in widths {
+            let layout = HomeLayout(availableWidth: width, accessibilitySize: false)
+            XCTAssertGreaterThan(layout.bookWidth, 100)
+            XCTAssertLessThan(2 * layout.bookWidth + 2 * HomeSpacing.md, layout.contentWidth)
+            XCTAssertGreaterThan(3 * layout.bookWidth + 2 * HomeSpacing.md, layout.contentWidth)
         }
     }
 
-    func testAccessibilityAndNarrowWidthsReflowShelves() {
-        let widths: [CGFloat] = [390, 720, 1024]
+    func testLargeTypeKeepsBookRailBoundedAndAllowsWiderTitles() {
+        let widths: [CGFloat] = [320, 390, 720, 1024]
         for width in widths {
-            let layout = HomeLayout(availableWidth: width, accessibilitySize: true)
-            XCTAssertEqual(layout.columnCount, 1)
-            XCTAssertTrue(layout.verticalShelves)
+            let normal = HomeLayout(availableWidth: width, accessibilitySize: false)
+            let accessible = HomeLayout(availableWidth: width, accessibilitySize: true)
+            XCTAssertGreaterThan(accessible.bookWidth, normal.bookWidth)
+            XCTAssertLessThan(accessible.bookWidth, accessible.contentWidth)
         }
-        XCTAssertTrue(HomeLayout(availableWidth: 320, accessibilitySize: false).verticalShelves)
-        XCTAssertFalse(HomeLayout(availableWidth: 390, accessibilitySize: false).verticalShelves)
-        XCTAssertEqual(HomeLayout(availableWidth: 0, accessibilitySize: true).contentWidth, 0)
     }
 
     func testReduceMotionMakesEveryCustomUtilityInstant() {
@@ -139,27 +146,93 @@ final class HomeTests: XCTestCase {
         }
         XCTAssertNil(HomeMotion.animation(.instant, reduceMotion: false))
         XCTAssertNotNil(HomeMotion.animation(.press, reduceMotion: false))
+        XCTAssertEqual(HomeMotion.Token.press.duration, 0.08)
+        XCTAssertEqual(HomeMotion.Token.release.duration, 0.12)
+        XCTAssertEqual(HomeMotion.Token.icon.duration, 0.14)
     }
 
-    func testListeningProjectionPrefersTheSharedPlayerAndClampsProgress() throws {
-        let fallback = try XCTUnwrap(SongRepository.shared.song(uid: "N9"))
-        let current = try XCTUnwrap(HomeViewModel.firstRecording(
-            in: SongRepository.shared.manifest,
-            loadSong: { SongRepository.shared.song(uid: $0) }
-        ))
-        let track = try XCTUnwrap(current.audioFiles.first)
-        let state = HomeListeningState(
-            fallbackSong: fallback,
-            currentSong: current,
-            currentTrack: track,
-            state: .playing,
-            currentTime: 500,
-            duration: 120
-        )
-        XCTAssertEqual(state.song?.uid, current.uid)
-        XCTAssertEqual(state.track?.uid, track.uid)
-        XCTAssertEqual(state.elapsed, 120)
-        XCTAssertEqual(state.progress, 1)
-        XCTAssertEqual(state.actionName, "Pause")
+    func testUnrelatedPlayerCannotReplaceOrControlRecommendationInAnyState() throws {
+        let featured = try XCTUnwrap(SongRepository.shared.song(uid: "K65"))
+        let unrelated = try XCTUnwrap(SongRepository.shared.song(uid: "A10"))
+        let states: [AudioPlayerState] = [.idle, .loading, .playing, .paused, .error("Offline")]
+        for playerState in states {
+            // Even identical take UIDs cannot confer selection across different songs.
+            let projection = HomeListeningState(fallbackSong: featured, currentSong: unrelated,
+                                                currentTrack: featured.audioFiles.last, state: playerState)
+            XCTAssertEqual(projection.song, featured)
+            XCTAssertEqual(projection.track, featured.audioFiles.first)
+            XCTAssertEqual(projection.state, .idle)
+            XCTAssertFalse(projection.matchesFeaturedSong)
+            XCTAssertEqual(projection.actionName, "Play recording")
+        }
+    }
+
+    func testMatchingSongPreservesSelectedTakeAndAllPlayerStates() throws {
+        let featured = try XCTUnwrap(SongRepository.shared.song(uid: "K65"))
+        let selected = try XCTUnwrap(featured.audioFiles.last)
+        XCTAssertNotEqual(selected, featured.audioFiles.first)
+        let cases: [(AudioPlayerState, String, String)] = [
+            (.idle, "Play recording", "play.fill"), (.loading, "Loading audio", "hourglass"),
+            (.playing, "Pause", "pause.fill"), (.paused, "Resume", "play.fill"),
+            (.error("Offline"), "Retry", "arrow.clockwise")
+        ]
+        for (playerState, label, symbol) in cases {
+            let projection = HomeListeningState(fallbackSong: featured, currentSong: featured,
+                                                currentTrack: selected, state: playerState)
+            XCTAssertEqual(projection.song, featured)
+            XCTAssertEqual(projection.track, selected)
+            XCTAssertEqual(projection.state, playerState)
+            XCTAssertTrue(projection.matchesFeaturedSong)
+            XCTAssertEqual(projection.actionName, label)
+            XCTAssertEqual(projection.controlSymbol, symbol)
+        }
+    }
+
+    func testAbsentFeaturedSongDoesNotPromoteCurrentPlayerIntoHome() throws {
+        let current = try XCTUnwrap(SongRepository.shared.song(uid: "K65"))
+        let projection = HomeListeningState(fallbackSong: nil, currentSong: current,
+                                            currentTrack: current.audioFiles.first, state: .playing)
+        XCTAssertNil(projection.song)
+        XCTAssertNil(projection.track)
+        XCTAssertEqual(projection.state, .idle)
+        XCTAssertFalse(projection.matchesFeaturedSong)
+    }
+
+    func testMissingPlayerSongOrTrackKeepsTheSuggestedRecordingIdle() throws {
+        let featured = try XCTUnwrap(SongRepository.shared.song(uid: "K65"))
+        let cases: [(Song?, AudioTrack?)] = [(nil, nil), (featured, nil), (nil, featured.audioFiles.first)]
+        for (song, track) in cases {
+            let projection = HomeListeningState(fallbackSong: featured, currentSong: song,
+                                                currentTrack: track, state: .playing)
+            XCTAssertEqual(projection.song, featured)
+            XCTAssertEqual(projection.track, featured.audioFiles.first)
+            XCTAssertEqual(projection.state, .idle)
+            XCTAssertFalse(projection.matchesFeaturedSong)
+        }
+    }
+
+    func testReadingRemainsAvailableForASongWithoutRecordings() throws {
+        let featured = try XCTUnwrap(SongRepository.shared.song(uid: "A1"))
+        let projection = HomeListeningState(fallbackSong: featured, currentSong: nil,
+                                            currentTrack: nil, state: .idle)
+        XCTAssertEqual(projection.song, featured)
+        XCTAssertNil(projection.track)
+    }
+
+    func testFirstRecordingSkipsMissingFilesAndUnrecordedSongsWithoutReordering() throws {
+        let manifest = SongRepository.shared.manifest
+        let recorded = manifest.filter(\.audioAvailable)
+        XCTAssertGreaterThan(recorded.count, 2)
+        let unrecorded = try XCTUnwrap(SongRepository.shared.song(uid: "A1"))
+        var attempted: [String] = []
+        let result = HomeViewModel.firstRecording(in: recorded) { uid in
+            attempted.append(uid)
+            if uid == recorded[0].uid { return nil }
+            if uid == recorded[1].uid { return unrecorded }
+            return SongRepository.shared.song(uid: uid)
+        }
+        XCTAssertEqual(result?.uid, recorded[2].uid)
+        XCTAssertEqual(attempted, Array(recorded.prefix(3)).map(\.uid))
+        XCTAssertNil(HomeViewModel.firstRecording(in: []) { _ in XCTFail("Unexpected load"); return nil })
     }
 }

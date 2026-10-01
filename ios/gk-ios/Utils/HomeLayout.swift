@@ -1,6 +1,6 @@
-import SwiftUI
+import Foundation
 
-/// Home v6 geometry, measured after navigation/safe areas and before page gutters.
+/// Home v7 geometry, measured inside the navigation/player safe area.
 enum HomeSpacing {
     static let xxs: CGFloat = 2
     static let xs: CGFloat = 4
@@ -9,6 +9,7 @@ enum HomeSpacing {
     static let lg: CGFloat = 16
     static let xl: CGFloat = 24
     static let xxl: CGFloat = 32
+    static let xxxl: CGFloat = 48
 }
 
 enum HomeShape {
@@ -21,21 +22,14 @@ struct HomeLayout {
     let availableWidth: CGFloat
     let accessibilitySize: Bool
 
-    var isExpanded: Bool { availableWidth >= 840 }
-    var gutter: CGFloat {
-        availableWidth < 600 ? HomeSpacing.lg : (isExpanded ? HomeSpacing.xxl : HomeSpacing.xl)
-    }
-    var contentWidth: CGFloat { max(0, min(availableWidth - 2 * gutter, 1120)) }
-    var columnCount: Int {
-        accessibilitySize || availableWidth < 600 ? 1 : (isExpanded ? 3 : 2)
-    }
-    var verticalShelves: Bool { accessibilitySize || contentWidth < 320 }
-    var bookWidth: CGFloat { isExpanded ? 160 : 144 }
+    var gutter: CGFloat { 20 }
+    var contentWidth: CGFloat { max(0, min(availableWidth - 2 * gutter, 840)) }
+    var moduleGap: CGFloat { HomeSpacing.xl }
 
-    var stackedModules: Bool { accessibilitySize || availableWidth < 700 }
-    var moduleGap: CGFloat { stackedModules ? 32 : 28 }
-    var topicColumns: Int {
-        if verticalShelves { return 1 }
-        return stackedModules ? 2 : (isExpanded ? 6 : 3)
+    /// Two complete covers and a next edge on phones; one wider book at large text sizes.
+    /// The rail always scrolls horizontally, including on narrow phones.
+    var bookWidth: CGFloat {
+        if accessibilitySize { return max(0, min(240, contentWidth - HomeSpacing.xl)) }
+        return max(0, min(160, (contentWidth - 2 * HomeSpacing.md - HomeSpacing.xl) / 2))
     }
 }

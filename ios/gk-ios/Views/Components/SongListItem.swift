@@ -3,6 +3,8 @@ import SwiftUI
 /// Canonical row for Home, Search and Library. Layout expands instead of clipping reading scripts.
 struct SongListItem: View {
     let entry: ManifestEntry
+    var surface: Color = .backgroundOffset
+    var bordered: Bool = true
     @EnvironmentObject private var settings: ReaderSettings
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
@@ -41,7 +43,7 @@ struct SongListItem: View {
             .padding(.vertical, HomeSpacing.sm)
             .frame(maxWidth: .infinity, minHeight: 56, alignment: .leading)
         }
-        .buttonStyle(HomeControlStyle())
+        .buttonStyle(HomeControlStyle(surface: surface, bordered: bordered))
         // Named on the link itself so the one element keeps its button trait and full title.
         .accessibilityLabel("\(title), \(entry.uid), \(authorName)")
         .accessibilityValue(entry.audioAvailable ? "Audio available" : "")
