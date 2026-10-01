@@ -57,12 +57,12 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | seo (v1) — metadata/sitemap | ✅ | n/a | n/a |
 | observability (v1) — analytics/Sentry | ✅ | n/a | n/a |
 | settings | ✅ | ✅* | ✅ |
-| [theme (v4 — shared utility motion)](screens/theme.md) | ⏳ stale (v1 baseline) | ⏳ stale (v1* baseline) | ⏳ stale (v3 partial baseline) |
-| [home (v5 — cross-platform visual contract)](screens/home.md) | ⏳ stale against v5 | ⏳ stale against v5 | ⏳ stale against v5 |
+| [theme (v4 — shared utility motion)](screens/theme.md) | ✅ v4 | ⏳ verification | ✅ v4 |
+| [home (v5 — cross-platform visual contract)](screens/home.md) | ✅ v5 | ⏳ verification | ✅ v5 |
 | today (v2) — Home seasonal region | ✅ v2 | — **TODO** | ✅ v2 |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
-| [components (v7 — Home contracts/semantics)](screens/components.md) | ⏳ stale (v6 green baseline) | ⏳ stale (unverified baseline) | ⏳ stale (unverified baseline) |
+| [components (v7 — Home contracts/semantics)](screens/components.md) | ✅ v7 | ⏳ verification | ✅ v7 |
 | collections / books / topics | ✅ | ✅* | ✅ |
 | artist/book images | ✅ | ✅* | ✅ |
 | unit tests | ✅ | ✅* | ✅ |
