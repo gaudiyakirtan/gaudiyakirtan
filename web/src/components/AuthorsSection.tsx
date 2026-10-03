@@ -1,7 +1,7 @@
 import React from 'react'
-import Link from 'next/link'
 import { IAuthorListing } from '../services/authorRepository'
 import { AuthorCard } from './AuthorCard'
+import { ViewAllLink } from './ui/ViewAllLink'
 
 interface AuthorsSectionProps {
   authors: IAuthorListing[]
@@ -31,17 +31,14 @@ export const AuthorsSection: React.FC<AuthorsSectionProps> = ({
     <div className={className}>
       <div className="flex items-center justify-between px-4 mb-4">
         <h2 className="text-xl font-bold text-[var(--primary)]">{title}</h2>
-        {viewAllLink && (
-          <Link href={viewAllLink} className="text-sm text-[var(--highlight)] hover:underline">
-            View All →
-          </Link>
-        )}
+        {viewAllLink && <ViewAllLink href={viewAllLink} section={title} />}
       </div>
 
       <div
         className={
+          // `pt-1 -mt-1`: room for a focused card's ring inside the y-clipping rail (see TopicsSection).
           singleRow
-            ? 'flex gap-4 overflow-x-auto px-4 pb-2 [scrollbar-width:none]'
+            ? '-mt-1 flex gap-4 overflow-x-auto px-4 pt-1 pb-2 [scrollbar-width:none]'
             : 'flex flex-wrap gap-4 px-4'
         }
       >

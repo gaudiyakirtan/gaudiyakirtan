@@ -19,6 +19,7 @@ import {
   Settings,
   Info,
   Mail,
+  ArrowUpRight,
   type LucideProps,
 } from 'lucide-react'
 
@@ -46,3 +47,4 @@ export const SpeakerIcon = make(Volume2)
 export const SettingsIcon = make(Settings)
 export const InfoIcon = make(Info)
 export const MailIcon = make(Mail)
+export const ArrowUpRightIcon = make(ArrowUpRight)

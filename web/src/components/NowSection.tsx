@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { AnimatePresence, motion } from 'framer-motion'
+import { AnimatePresence, motion, useReducedMotion } from 'framer-motion'
 import { Play, Pause, Loader2 } from 'lucide-react'
 // Leaf import, not the '../services' barrel: the barrel pulls in fs-backed repositories that must
 // never reach the client bundle, and this component resolves the *viewer's* date after mount.
@@ -21,6 +21,7 @@ import { monthImageUrlFor } from '../config'
 import { useTheme } from '../utils/ThemeContext'
 import { useSettings } from '../utils/SettingsContext'
 import { usePlayer } from '../utils/PlayerContext'
+import { pickerPanelMotion, pickerTakeMotion } from '../utils/motion'
 
 interface NowSectionProps {
   /** uid -> listing, for resolving calendar song refs to titles. */
@@ -90,6 +91,10 @@ export const NowSection: React.FC<NowSectionProps> = ({
   // row — the same shape the mini-player uses for its mutually-exclusive drop-ups.
   const [openPickerUid, setOpenPickerUid] = useState<string | null>(null)
   const listRef = useRef<HTMLDivElement>(null)
+  // The picker is Home's one expressive area (docs/screens/home.md v5): it springs out of its toggle
+  // and its takes stagger in. Reduced motion keeps only the fade.
+  const reduceMotion = Boolean(useReducedMotion())
+  const panelMotion = pickerPanelMotion(reduceMotion)
 
   useEffect(() => {
     const today = getSongsForDate() // device-local date
@@ -215,27 +220,26 @@ export const NowSection: React.FC<NowSectionProps> = ({
                     <AnimatePresence>
                       {open && (
                         <motion.div
-                          initial={{ opacity: 0, y: -6, scale: 0.98 }}
-                          animate={{ opacity: 1, y: 0, scale: 1 }}
-                          exit={{ opacity: 0, y: -6, scale: 0.98 }}
-                          transition={{ duration: 0.14 }}
+                          {...panelMotion}
                           // Anchored to the toggle and floated above sibling rows. `--background`
                           // (not the card's `--background-offset`) so the panel reads as a layer
                           // above the offset month card, the same contrast SongListItem's hover uses.
-                          className="absolute right-0 top-full z-30 mt-1 w-64 max-w-[calc(100vw-2rem)] overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--background)] shadow-xl"
+                          // `origin-top-right` makes the spring grow it out of the toggle above it.
+                          data-testid="recording-picker-panel"
+                          className="absolute right-0 top-full z-30 mt-1 w-64 max-w-[calc(100vw-2rem)] origin-top-right overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--background)] shadow-xl"
                         >
                           <p className="px-4 pb-1 pt-3 text-[11px] font-semibold uppercase tracking-wider text-[var(--neutral)]">
                             Recordings
                           </p>
                           <ul className="max-h-64 overflow-y-auto pb-2">
-                            {trackSong.tracks.map((t) => {
+                            {trackSong.tracks.map((t, i) => {
                               const isCurrent =
                                 playingSong?.uid === listing.uid && trackUid === t.uid
                               const isPlaying = isCurrent && status === 'playing'
                               const isLoading = isCurrent && status === 'loading'
                               const label = labels.get(t.uid) ?? author
                               return (
-                                <li key={t.uid}>
+                                <motion.li key={t.uid} {...pickerTakeMotion(i, reduceMotion)}>
                                   <button
                                     type="button"
                                     // Re-tapping the loaded take toggles it; any other take starts
@@ -249,10 +253,10 @@ export const NowSection: React.FC<NowSectionProps> = ({
                                     aria-label={
                                       isPlaying ? `Pause ${label}` : `Play ${label} — ${title}`
                                     }
-                                    className={`flex w-full items-center gap-3 px-3 py-2 text-left text-sm transition-colors ${
+                                    className={`flex w-full items-center gap-3 px-3 py-2 text-left text-sm transition-colors duration-200 ease-standard focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[var(--highlight)] ${
                                       isCurrent
                                         ? 'bg-[var(--highlight)]/15 text-[var(--highlight)]'
-                                        : 'text-[var(--primary)] hover:bg-[var(--background-offset)]'
+                                        : 'text-[var(--primary)] hover:bg-[var(--background-offset)] focus-visible:bg-[var(--background-offset)] active:bg-[var(--highlight)]/10'
                                     }`}
                                   >
                                     <ArtistAvatar trackUid={t.uid} size={28} ring={false} />
@@ -265,7 +269,7 @@ export const NowSection: React.FC<NowSectionProps> = ({
                                       <Play size={15} className="ml-0.5 flex-none" />
                                     )}
                                   </button>
-                                </li>
+                                </motion.li>
                               )
                             })}
                           </ul>

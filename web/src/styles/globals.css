@@ -1,6 +1,15 @@
 @import './colors.css';
 @import "tailwindcss";
 
+/* Motion curves for interaction feedback (docs/screens/home.md v5) — exposed as `ease-standard` /
+   `ease-expressive` utilities. `standard` (M3's) is for every repeated browse control and never
+   overshoots; `expressive` overshoots once and is reserved for the recording picker, Home's one
+   expressive area. Mirrored for Framer Motion in utils/motion.ts. */
+@theme {
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-expressive: cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
 /* Brand display face (5th Avenue), used for the wordmark and the Home welcome heading only —
    never for body copy: it is a decorative script with no Indic coverage, so song text must stay on
    the system stack. woff2 first (82 kB vs the 240 kB ttf); the ttf is a fallback for anything that

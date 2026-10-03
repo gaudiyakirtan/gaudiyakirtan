@@ -3,6 +3,7 @@ import { ISongGroup } from '../models/Collections'
 import { getMediaColor } from '../utils/colors'
 import { pickScriptText } from '../services/textDisplay'
 import { useSettings } from '../utils/SettingsContext'
+import { BROWSE_CARD_INTERACTION } from '../utils/motion'
 
 interface BookCardProps {
   book: ISongGroup
@@ -33,50 +34,55 @@ export const BookCard: React.FC<BookCardProps> = ({
   const sizeClasses = compactSize ? 'w-36 h-48 mx-2 shrink-0' : 'aspect-[2/3] w-full'
 
   return (
-    <div
-      className={`relative overflow-hidden transition-all duration-300 cursor-pointer hover:scale-103 rounded-lg shadow-md ${sizeClasses} ${className}`}
+    // Native button. Hover / focus is a glance into the book (docs/screens/home.md v5): the cover
+    // zooms inside the card's own clip and the title lifts 2px, so the card's box never grows into a
+    // rail's clip. The title is text, so the cover is decorative (`alt=""`) rather than read twice.
+    <button
+      type="button"
+      className={`group/card relative block overflow-hidden rounded-lg shadow-md ${BROWSE_CARD_INTERACTION} ${sizeClasses} ${className}`}
       onClick={onClick}
     >
       {/* Cover image (or accent-colour base as the fallback). */}
-      <div className="h-full w-full" style={{ backgroundColor }}>
+      <span className="block h-full w-full" style={{ backgroundColor }}>
         {!coverFailed && (
           // eslint-disable-next-line @next/next/no-img-element -- bundled cover under /public/covers
           <img
             src={`/covers/${book.uid}.jpg`}
-            alt={title}
-            className="h-full w-full object-cover object-center"
+            alt=""
+            data-testid="book-card-cover"
+            className="h-full w-full object-cover object-center transition-transform duration-300 ease-standard motion-safe:group-hover/card:scale-105 motion-safe:group-focus-visible/card:scale-105"
             onError={() => setCoverFailed(true)}
           />
         )}
-      </div>
+      </span>
 
       {/* Accent-colour gradient — the book's own colour fading up from the bottom. */}
-      <div
+      <span
         className="absolute inset-0"
         style={{ backgroundImage: `linear-gradient(to top, ${backgroundColor}, ${backgroundColor}00)` }}
       />
       {/* Black readability gradient. */}
-      <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+      <span className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
 
       {/* Song-count badge. */}
       {book.songUids.length > 0 && (
-        <div className="absolute top-0 right-0 p-3">
+        <span className="absolute top-0 right-0 p-3">
           <span
             className="rounded-full px-2.5 py-1 text-xs text-white backdrop-blur-sm"
             style={{ backgroundColor }}
           >
             {book.songUids.length} songs
           </span>
-        </div>
+        </span>
       )}
 
       {/* Title at the bottom. */}
-      <div className="absolute bottom-0 left-0 right-0">
-        <div className="relative z-10 p-3 pb-3">
-          <h3 className="text-base font-bold leading-tight text-white line-clamp-2">{title}</h3>
-        </div>
-      </div>
-    </div>
+      <span className="absolute bottom-0 left-0 right-0">
+        <span className="relative z-10 block p-3 pb-3 transition-transform duration-200 ease-standard motion-safe:group-hover/card:-translate-y-0.5 motion-safe:group-focus-visible/card:-translate-y-0.5">
+          <span className="block text-base font-bold leading-tight text-white line-clamp-2">{title}</span>
+        </span>
+      </span>
+    </button>
   )
 }
 

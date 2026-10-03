@@ -58,11 +58,11 @@ Pipeline is platform-agnostic data prep; its status is tracked in `ROADMAP.md` T
 | observability (v1) — analytics/Sentry | ✅ | n/a | n/a |
 | settings | ✅ | ✅* | ✅ |
 | theme (v3 — Gaura/Shyam + expressive + spacing) | ⏳ v1 | ⏳ v1* | 🔨 v3 partial |
-| home (v3 — re-purposed) | ✅ | — | 🔨 v3 partial |
+| home (v5 — re-purposed; v4/v5 web-only) | ✅ v5 green | — | 🔨 v3 partial ʷ |
 | today (v2) — embedded as home §1 | ✅ v2 | — **TODO** | ✅ v2 |
 | navigation (v5) | ✅ v5 green | ✅*ᶠ ʷ | ✅ᶠ ʷ |
 | about / contact (v1) | ✅ | — | — |
-| components (v6) | ✅ v6 green | — | — |
+| components (v7) | ✅ v7 green | — | — |
 | collections / books / topics | ✅ | ✅* | ✅ |
 | artist/book images | ✅ | ✅* | ✅ |
 | unit tests | ✅ | ✅* | ✅ |
@@ -102,6 +102,26 @@ the wavy indicator required
 9.4.0-alpha08, Gradle 9.7.0 and Kotlin 2.4.10** — the app now sits on an alpha Android toolchain,
 which is the standing cost of that one component. material3 **1.4.0 stable** carries
 `MaterialExpressiveTheme`, `MotionScheme` and `Shapes` but **not** the wavy indicators.
+
+**home v5 — web interaction feedback, verified.** v5 is web-only (`ʷ`): a hover / focus /
+press contract for Home's song rows, browse cards, View All links and the recording picker, with
+the picker as the one expressive (spring) area and everything else on the standard curve. Web
+implements it in `SongListItem`, `TopicCard`, `BookCard`, `AuthorCard`, `ui/ViewAllLink`,
+`RecordingPickerButton` and `NowSection`, with the shared values in `utils/motion.ts`
+(unit-tested in `motion.test.ts`) and the curves as `ease-standard` / `ease-expressive` in
+`globals.css`; `e2e/home-interactions.spec.ts` covers native semantics, keyboard parity, rail
+clipping, the picker's fan/open state, reduced motion and phone overflow. Verification: Web lint
+and TypeScript passed; 194 unit tests and 42 Chromium tests passed; the production build generated
+737 pages. Matched Gaura before/after captures at 1440 × 1000 and 390 × 844, plus Shyam captures,
+live under `docs/screenshots/web/home-v5-micro-transitions/`. Because `SongListItem` and the cards
+are shared, `/songs`, `/topics`, `/books`, `/authors` and the group screens get the same button
+semantics and feedback, now specified in components v7.
+
+**components v7 — web interaction primitives, verified.** `SongListItem`, `TopicCard`, `BookCard`
+and `AuthorCard` are native buttons with shared focus, press, directional-content, and
+reduced-motion behavior. `ViewAllLink` provides section-specific names and directional arrow
+feedback. Verification is covered by the same Home v5 lint, typecheck, unit, build, and 42-case
+Chromium run above.
 
 **home v3 — Android is `🔨 partial`, but §1 now matches web.** The "Welcome + this month" hero was
 a flat accent-filled block; it is now the same object web renders — a bordered `background-offset`
