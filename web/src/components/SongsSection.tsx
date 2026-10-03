@@ -1,7 +1,7 @@
 import React from 'react'
-import Link from 'next/link'
 import { ISongListing } from '../services/songListingView'
 import { SongListItem } from './SongListItem'
+import { ViewAllLink } from './ui/ViewAllLink'
 
 interface SongsSectionProps {
   songs: ISongListing[]
@@ -28,11 +28,7 @@ export const SongsSection: React.FC<SongsSectionProps> = ({
     <div className="mb-8">
       <div className="flex items-center justify-between px-4 mb-4">
         <h2 className="text-xl font-bold text-[var(--primary)]">{title}</h2>
-        {viewAllLink && (
-          <Link href={viewAllLink} className="text-sm text-[var(--highlight)] hover:underline">
-            View All →
-          </Link>
-        )}
+        {viewAllLink && <ViewAllLink href={viewAllLink} section={title} />}
       </div>
 
       {gridLayout ? (

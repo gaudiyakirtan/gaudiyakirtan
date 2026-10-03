@@ -1,6 +1,6 @@
 # Screen — Home
 
-**Spec version:** 3
+**Spec version:** 5
 
 **Figma frames:** `Home`, `Home-1`, `Home-2` — these show the **superseded** four-browse-grid
 layout. The structure below has **no frame yet**; see [Verification](#verification). Frames exist,
@@ -120,6 +120,51 @@ livestreams. Anything labelled "popular" would be fabricated.
 - Author / book / topic cards → their list or detail routes.
 - Opening a song writes the Recently-played entry. Nothing else on this screen mutates state.
 
+### Interaction feedback (web, v5)
+
+Hover, keyboard focus and press each answer one question: *what is under me, and where does it
+lead?* The budget follows the design contract — **one expressive area, everything else quiet**:
+
+- **Expressive — the recording picker** in the month card. It is the screen's one in-place
+  *playback* action, so it alone gets a spring: overshoot on press release and on the panel's
+  entrance.
+- **Standard — every repeated browse control** (song rows, Topic/Book/Author cards, View All):
+  200 ms on the standard curve `cubic-bezier(0.2, 0, 0, 1)`, 100 ms into a press, no overshoot.
+
+Constraints that apply to every item below:
+
+- **The resting composition does not change.** Nothing animates on load, nothing moves on its own,
+  and a cue that adds a glyph keeps it invisible at rest.
+- **Boxes stay put; content moves.** Travel is applied to a row's or card's *contents*, inside its
+  own clip or padding, never to the box itself — so a horizontally-scrolling rail (which clips both
+  axes) never shaves a hovered card, and measured geometry is the same at rest and in hover. The one
+  exception is a card's press shrink, which can only move inward.
+- **Keyboard parity.** Every hover cue also fires on `:focus-visible`, on top of a visible focus
+  ring. A browse card's ring is a 2 px `--highlight` ring on a 2 px `--background` offset, so it reads
+  against any card colour; the single-row rails reserve 4 px above the cards for it (taken back with
+  a matching negative margin, so the cards do not move).
+- **Reduced motion** (`prefers-reduced-motion: reduce`) removes every translate, scale and spread.
+  Colour, tint, underline, focus ring and open/selected state all remain; the picker panel fades
+  instead of springing.
+- **Native semantics.** Every clickable row and card is a real `<button type="button">` (navigation
+  stays the caller's callback, per [components](components.md)); View All stays a link.
+
+| Control | Hover / focus | Press | What it communicates |
+|---|---|---|---|
+| **Song row** (`SongListItem`, all lists) | Surface tint (as before) + the title/author block travels 4 px toward the trailing edge; focus adds an inset ring | `--highlight` tint; travel settles to 2 px | "This row opens forward, into the song" |
+| **Recording picker toggle** | The stacked singer faces **fan apart** symmetrically (3 px per step); they stay fanned while the picker is open | Shrinks to 94 %, springs back past 100 % on release | "Several singers are folded in here"; fanned = open |
+| **Recording picker panel** | — | — | Springs out of the toggle (origin top-right: rise 6 px, scale 96 % → 100 %, fade); takes stagger in 4 px from the trailing edge, 25 ms apart, capped at the 6th; exit is a 120 ms fade, never a bounce |
+| **Topic card** | An up-right arrow slides diagonally into the empty bottom-right corner, level with the count pill (never under a two-line title); the pill's tint rises | Card shrinks to 97 % | "This opens the topic" |
+| **Book card** | The cover zooms 5 % inside the card's clip (a glance into it; 300 ms, the screen's one full-bleed move); the title lifts 2 px | Card shrinks to 97 % | Depth — looking into the book |
+| **Author card** | The avatar warms to a `--highlight` tint, its initial lifts 2 px, the name turns `--highlight` | Card shrinks to 97 % | Targets one person in the rail |
+| **View All** | The label underlines; the arrow travels 4 px right | Arrow settles to 2 px | "More of this section, that way" |
+
+View All's accessible name is "View all <section>" (the arrow is decorative), so the three links on
+Home no longer share one name, and its target is 28 px tall without moving the heading row.
+
+Hover-scale on the cards is **withdrawn**, not re-tuned: inside a `singleRow` rail it was clipped
+top and bottom, and it read the same on every card regardless of what the card is.
+
 ## Per-platform notes
 
 **All platforms.** Resolve the current date in the device's local timezone. A UTC conversion
@@ -149,12 +194,26 @@ with the device zone; recompute on resume.
   fabricated rows.
 - The observances read on the banner, not in the right-hand column.
 - No region is labelled "Popular", and none claims a recording count is a popularity ranking.
+- Interaction feedback (v5): the resting composition, content order, and card geometry match v4;
+  every song row and browse card is a focusable `button` and opens its route on Enter; each hover
+  cue also appears on keyboard focus; a hovered card in a rail is not clipped and its focus ring is
+  fully visible; the picker's faces fan out on hover and while open; under
+  `prefers-reduced-motion: reduce` no transform is applied but focus rings and tints still are; no
+  horizontal page overflow at 390 px.
 
-**Visual:** blocked — the existing `Home*` frames show the superseded layout. Draw a frame for this
-structure, then verify against it.
+**Visual:** Figma fidelity remains blocked because the existing `Home*` frames show the superseded
+layout. Mainline before/after regression evidence for v5 is stored in
+`docs/screenshots/web/home-v5-micro-transitions/`, captured on October 3, 2026 at 1440 × 1000 and
+390 × 844 in Gaura, with additional Shyam and active hover/picker states.
 
 ## Change log
 
+- **v5 (web)** — Added [Interaction feedback](#interaction-feedback-web-v5): a hover / focus / press
+  contract for song rows, browse cards, View All and the recording picker, under a single
+  expressive budget (the picker) with everything else on standard motion. Clickable rows and cards
+  become native buttons; card hover-scale is withdrawn (rails clipped it); reduced motion keeps all
+  state feedback and drops all spatial movement. Resting layout, content and ordering are unchanged.
+  The header now matches the change log (it still read v3 after v4).
 - **v4 (web)** — **This month** now sorts songs **with recordings first** (a stable partition, so
   `basis` ranking still holds within each run), and those rows gained a **recording picker** — the
   player's stacked singer-avatar cluster — that starts any take in the mini-player without leaving

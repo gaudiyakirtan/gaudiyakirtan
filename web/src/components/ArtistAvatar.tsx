@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
+import { motion, useReducedMotion } from 'framer-motion'
 import { artistImageUrlFor } from '../config'
 import { IAudioTrack } from '../models/Song'
+import { PRESS_SCALE, PRESS_SPRING, stackSpreadOffset } from '../utils/motion'
 import { MusicNote } from './icons/MusicNote'
 
 /**
@@ -81,6 +83,11 @@ interface IRecordingPickerButtonProps {
  * The stacked-avatars + count toggle that opens a "choose recording" picker. Extracted from the
  * mini-player so the home page's month-song rows can offer the same control; the button is purely
  * presentational — the caller owns the open state and what the picker actually is.
+ *
+ * Home's one expressive control (docs/screens/home.md v5): the faces **fan apart** on hover /
+ * keyboard focus and stay fanned while the picker is open (fanned = open), and a press shrinks the
+ * pill and releases it on an under-damped spring. Both are dropped under reduced motion; the open
+ * tint and the focus ring are not.
  */
 export const RecordingPickerButton: React.FC<IRecordingPickerButtonProps> = ({
   tracks,
@@ -90,9 +97,15 @@ export const RecordingPickerButton: React.FC<IRecordingPickerButtonProps> = ({
   ariaExpanded,
   avatarSize = 20,
 }) => {
+  const reduceMotion = useReducedMotion()
   const faces = distinctArtistTracks(tracks)
+  // Spread is a CSS translate driven by a per-face custom property, so the stack's layout box (and
+  // the count beside it) never moves — only the faces' ink does.
+  const spread = open
+    ? 'motion-safe:translate-x-(--gk-spread)'
+    : 'motion-safe:group-hover/picker:translate-x-(--gk-spread) motion-safe:group-focus-visible/picker:translate-x-(--gk-spread)'
   return (
-    <button
+    <motion.button
       type="button"
       onClick={onClick}
       aria-label={ariaLabel}
@@ -100,18 +113,28 @@ export const RecordingPickerButton: React.FC<IRecordingPickerButtonProps> = ({
       // reads as "pick a different singer", not just "a menu".
       title={`${ariaLabel} (${tracks.length})`}
       aria-expanded={ariaExpanded}
-      className={`flex h-8 items-center gap-1.5 rounded-full px-2 transition-colors ${open ? 'bg-[var(--highlight)]/15' : 'hover:bg-[var(--background)]'}`}
+      whileTap={reduceMotion ? undefined : { scale: PRESS_SCALE }}
+      transition={PRESS_SPRING}
+      className={`group/picker flex h-8 items-center gap-1.5 rounded-full px-2 transition-colors duration-200 ease-standard focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--highlight)] ${open ? 'bg-[var(--highlight)]/15' : 'hover:bg-[var(--background)] focus-visible:bg-[var(--background)]'}`}
     >
       <span className="flex items-center">
         {faces.map((t, i) => (
           // Negative margin overlaps the faces; descending z-index so the first sits on top.
-          <span key={t.uid} className={`relative ${i === 0 ? '' : '-ml-2'}`} style={{ zIndex: faces.length - i }}>
+          <span
+            key={t.uid}
+            data-testid="recording-picker-face"
+            className={`relative transition-transform duration-300 ease-expressive ${spread} ${i === 0 ? '' : '-ml-2'}`}
+            style={{
+              zIndex: faces.length - i,
+              ['--gk-spread' as string]: `${stackSpreadOffset(i, faces.length)}px`,
+            } as React.CSSProperties}
+          >
             <ArtistAvatar trackUid={t.uid} size={avatarSize} />
           </span>
         ))}
       </span>
       <span className={`text-[11px] font-semibold ${open ? 'text-[var(--highlight)]' : 'text-[var(--neutral)]'}`}>{tracks.length}</span>
-    </button>
+    </motion.button>
   )
 }
 

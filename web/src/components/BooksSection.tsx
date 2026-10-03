@@ -1,7 +1,7 @@
 import React from 'react'
-import Link from 'next/link'
 import { ISongGroup } from '../models/Collections'
 import { BookCard } from './BookCard'
+import { ViewAllLink } from './ui/ViewAllLink'
 
 interface BooksSectionProps {
   books: ISongGroup[]
@@ -31,17 +31,14 @@ export const BooksSection: React.FC<BooksSectionProps> = ({
     <div className={className}>
       <div className="flex items-center justify-between px-4 mb-4">
         <h2 className="text-xl font-bold text-[var(--primary)]">{title}</h2>
-        {viewAllLink && (
-          <Link href={viewAllLink} className="text-sm text-[var(--highlight)] hover:underline">
-            View All →
-          </Link>
-        )}
+        {viewAllLink && <ViewAllLink href={viewAllLink} section={title} />}
       </div>
 
       <div
         className={
+          // `pt-1 -mt-1`: room for a focused card's ring inside the y-clipping rail (see TopicsSection).
           singleRow
-            ? 'flex gap-6 overflow-x-auto px-4 pb-2 [scrollbar-width:none]'
+            ? '-mt-1 flex gap-6 overflow-x-auto px-4 pt-1 pb-2 [scrollbar-width:none]'
             : 'grid grid-cols-2 gap-6 px-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 xl:grid-cols-6'
         }
       >

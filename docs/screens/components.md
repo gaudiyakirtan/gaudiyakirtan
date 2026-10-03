@@ -1,6 +1,6 @@
 # Shared components
 
-**Spec version:** 6
+**Spec version:** 7
 
 **Figma frames:** `Components`, `Group 15/16`, `Frame *`.
 
@@ -29,6 +29,13 @@ and was **invisible**. Pass `surface="offset"` there and the hover flips to `--b
 Any new surface that is not the page background must pass `offset`, or its rows will silently lose
 their hover state.
 
+### Interaction feedback
+
+The row is a native button because navigation remains the caller's callback. Hover and keyboard
+focus tint the surface and move the inner title/author block 4 px toward the trailing edge while
+the row's measured box stays fixed. Press uses a quieter 2 px travel and highlight tint. Reduced
+motion removes travel but preserves tint and the inset focus ring.
+
 ## `SongsSection`
 
 Heading + optional "View All" link + a list or 2-up grid of `SongListItem`. **Returns `null` for an
@@ -53,6 +60,21 @@ whole set is the point; on [`home`](home.md) it costs three rows of vertical scr
 Only home passes the flag, so the index pages are unaffected.
 
 Topics and Books each render nothing when the corpus ships no groups of that kind.
+
+The shared cards are native buttons. Their boxes stay fixed on hover/focus so horizontal rails do
+not clip them:
+
+- Topic cards reveal a decorative up-right arrow and strengthen the count tint.
+- Book cards zoom the cover within its existing clip and lift the title.
+- Author cards tint and lift the initial while highlighting the name.
+
+Press scales inward only. Each card exposes a two-pixel highlight focus ring with a background
+offset. Single-row rails reserve four pixels above their cards for that ring without changing the
+resting layout.
+
+Section headings use `ViewAllLink` for a section-specific accessible name and a decorative arrow
+that travels four pixels toward the destination. Reduced motion removes all card, row, arrow, and
+recording-stack transforms while retaining color and focus feedback.
 
 ## `HeroBanner`
 
@@ -163,9 +185,14 @@ Android `res/font/`) so the wordmark reads identically across platforms. It is a
 - `SongsSection` renders nothing for an empty list.
 - `singleRow` affects home only; `/topics` and `/books` keep their grids.
 - A `HeroBanner` with an unreachable `imageSrc` still renders legibly.
+- Song rows and browse cards are keyboard-operable native buttons with visible focus.
+- Shared hover/focus feedback does not change card or row geometry or create page overflow.
+- Reduced motion preserves non-spatial interaction feedback.
 
 ## Change log
 
+- **v7** — Added the shared Web interaction contract for native-button song rows and browse cards,
+  `ViewAllLink`, fixed-box directional feedback, focus-ring rail clearance, and reduced motion.
 - **v6** — Added the **uid chip** contract. The song code was being re-styled per call site (four
   variants across the row, the card, song-detail and the player), so making the player's open-song
   action a uid pill had no rule to conform to. Two variants only — row and detail — plus the
